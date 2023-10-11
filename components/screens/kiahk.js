@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import { View, StyleSheet } from 'react-native';
 import { WebView } from 'react-native-webview';
-
+import { html } from '../../data/kiahk';
 
 const Kiahk = () => {
   const webviewRef = useRef(null);
@@ -21,27 +21,27 @@ const Kiahk = () => {
       \`;
       document.head.appendChild(style);
     `;
-  
+
     webviewRef.current.injectJavaScript(runFirst);
   }, []);
-  
-  
+
+
   return (
     <View style={styles.container}>
-      <WebView 
+      <WebView
         ref={webviewRef}
-        source={require('../../data/kiahk.html')} 
+        source={{ html }}
         //scrollEnabled={false}
-        originWhitelist={['*']} 
+        originWhitelist={['*']}
         javaScriptEnabled={true}
-        domStorageEnabled={true}
-        startInLoadingState={true}
-        onMessage={event => {
-          console.log(event.nativeEvent.data); // Here you can handle messages received from WebView
-        }}
-       injectedJavaScript={`console.log = function(message) {
-          window.ReactNativeWebView.postMessage(message);
-        }`}    
+        // domStorageEnabled={true}
+        // startInLoadingState={true}
+        // onMessage={event => {
+        //   console.log(event.nativeEvent.data); // Here you can handle messages received from WebView
+        // }}
+        // injectedJavaScript={`console.log = function(message) {
+        //   window.ReactNativeWebView.postMessage(message);
+        // }`}
         style={styles.webview}
       />
     </View>
