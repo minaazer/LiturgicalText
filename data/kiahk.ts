@@ -1,4 +1,17 @@
-<html>
+import { Platform } from 'react-native'
+
+const fontUrl = Platform.select({
+    ios: "ArialCoptic.ttf",
+    android: "file:///android_asset/fonts/ArialCoptic.ttf",
+});
+
+const fontUrl2 = Platform.select({
+    ios: "./ArialCoptic.woff",
+    android: "file:///android_asset/fonts/ArialCoptic.woff",
+});
+
+
+export const html = `<html>
 
 <head>
     <title>Extracted Tables</title>
@@ -11,8 +24,8 @@
         @font-face {
             font-family: "Arial Coptic";
             src: 
-                url("https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/ArialCoptic.woff2") format("woff2"),
-                url("https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/ArialCoptic.woff") format("woff"),
+                url("${fontUrl}") format("woff2"),
+                url("${fontUrl2}") format("woff"),
                 url("https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/ArialCoptic.ttf") format('truetype');
             font-weight: normal;
             font-style: normal;
@@ -40,7 +53,7 @@
 
 
         body {
-            overflow: hidden;
+            // overflow: hidden;
             color: white;
             font-size: 26px;
 
@@ -4381,7 +4394,7 @@
                 Sent His chosen Angel
                 To deliver the youths from the furnace
                 ϩⲱⲥ ̀ⲉⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩ̀ⲟ ϭⲁⲥϥ.</td>
-            <td class="arabic">الله الأزلى قبل الأدهارارسل ملاكه المختار نجى الفتية من أتون النارهوس إير`وف آرى
+            <td class="arabic">الله الأزلى قبل الأدهارارسل ملاكه المختار نجى الفتية من أتون النارهوس إير"وف آرى
                 هوؤتشاسف</td>
         </tr>
         <tr id="table_33_row_1">
@@ -14589,4 +14602,4 @@
     <br>
 </body>
 
-</html>
+</html>`
