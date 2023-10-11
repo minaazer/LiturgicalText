@@ -1,0 +1,156 @@
+[
+    {
+        "index": 1,
+        "enTitle": "Ekesmaroout",
+        "arTitle": "إكسمارؤوت",
+        "data": [
+            {
+                "row": 1,
+                "enVerse": "Blessed are You Truly : with Your Good Father : and the Holy Spirit : for You have come and saved us.",
+                "enPhonics": "Ek-esmaro-oot alithos: nem pek yot en agathos: nem pi epnevma ethowab: je ak-ee ak-soti emmon.",
+                "cpVerse": "K`cmarwout `alhqwc > nem Pekiwt `n`agaqoc> nem Pi`pneuma `eqouab > je ak`i akcw; `mmon.",
+                "cpFont": "Athanasius",
+                "arVerse": "مبارك أنت بالحقيقة مع أبيك الصالح والروح القدس ، لأنك أتيت وخلصتنا.",
+                "arPhonics": "إكزمارؤوت آليثوس. نيم بيك يوت ان أغاثوس نيم بي ابنفما اثؤواب. جي آك اي أووه آك سوتي امون."
+            },
+            {
+                "row": 2,
+                "enVerse": "Through the prayers: of our honored father: the high priest Papa Abba Tawadros, and our father the Bishop/Metropolitan Abba (…) O Lord, grant us the forgiveness of our sins.",
+                "cpVerse": "Hiten ni`eu,y `nte peniwt ettai`yout \u000b`nar,y`ereuc papa abba (...)@ nem peniwt \u000b`n`epickopoc/`mmytropolityc  abba (...) P=o=c ...",
+                "cpFont": "CS New Athanasius",
+                "arVerse": "بصلوات أبينا المكرم رئيس الكهنة البابا الأنبا تواضروس. وأبينا الأسقف\\المطران الأنبا (...). يا رب أنعم لنا بمغفرة خطايانا."
+            }
+        ]
+    },
+    {
+        "index": 2,
+        "enTitle": "Shere Theotoke",
+        "arTitle": "شيرى ثيئوطوكى",
+        "data": [
+            {
+                "row": 1,
+                "enVerse": "Rejoice O Theotokos, the Virgin, the intercessor of the world to the Savior our God; we present praise to Him, and we exalt you.",
+                "enPhonics": "Shere Theotoke parthene o epres-vevoo ce ee-pertoo kosmoo ton sotiria ke ton Theon e-moun, epros-ferin pan taton em-non ee-moun, cemega-linomen.",
+                "cpVerse": "<ere :e`otoke Par;ene `o `precbebou ce `upertou kocmou ton cwtyria ke ton :eon `ymwn@ `procverin pan taton umnon \u000b`ymwn@ cemegalinomen.",
+                "cpFont": "CS New Athanasius",
+                "arVerse": "إفرحي يا والدة الإله العذراء يا شفيعة في العالم عند المخلص إلهنا، نقدم له كل تسبيحنا، ونعظمِك.",
+                "arPhonics": "شيرى ثيئوطوكى بارثينه أو إبر سفيه فين سيه إف بيرطو كوزموس طون ثيه أون إيمون: إبروس فيه رين بان طاطون إمنون إيمون: سيه ميه غالينومين"
+            },
+            {
+                "row": 2,
+                "enVerse": "Rejoice O Theotokos, the Virgin, the Mother of Emmanuel who is not provoked with marriage.",
+                "enPhonics": "Shere Theotoke parthene, Meeter too Emmanueel tees pina pirogami.",
+                "cpVerse": "<ere :e`otoke Par;ene@ Myter tou Emmanouyl tyc pina pirogamy.",
+                "cpFont": "CS New Athanasius",
+                "arVerse": "إفرحي يا والدة الإله العذراء، والدة عمانوئيل يا غير مجربة بزواج.",
+                "arPhonics": "شيرى ثيئوطوكى بارثينه مي تيرطو إممانوئيل تيس بينا بى روغامى"
+            },
+            {
+                "row": 3,
+                "enVerse": "Rejoice O you who is of the rank of the angels; Rejoice O our intercessor before our God the Father; We exalt you.",
+                "enPhonics": "Shere thea-e-taksis en-angelon, shere thea-eprostasia e-moun too Patri ke ton Theon e-moun, cemega-linomen.",
+                "cpVerse": "<ere ;y`etaxic \u000b`naggelon@ ,ere ;y`proctacia `ymwn tou Patri ke ton :eon `ymwn@ cemegalinomen.",
+                "cpFont": "CS New Athanasius",
+                "arVerse": "إفرحي يا طقس الملائكة، إفرحي يا شفيعتنا عند الآب إلهنا، نعظمِك.",
+                "arPhonics": "شيرى ثى إيه طاكسيس إن أنجيلون: شيرى ثى إبروس طاسيا إيمون طون باطرى كيه طون ثيه أون إيمون: سيه ميه غالينومين"
+            },
+            {
+                "row": 4,
+                "enVerse": "Rejoice O Mother of God, the Virgin, to You O God is due praise in Zion, and the vows will be fulfilled to You in Jerusalem: We exalt you.",
+                "enPhonics": "Shere Theo-toke parthene: enthok evnoti efer-shav nak: enje pigo khen Sion: ev-a-tee nak enhan-evki khen Yero-saleem: cemegalinomen.",
+                "cpVerse": "<ere ye;otoke paryene: ;nyok V] ;fersau nak: \u000b;nje pijw qen Ciwn: eu;e] nak \u000b;nhaneu,/ qen I|l|/|m: cemegalinomen.",
+                "cpFont": "New Athanasius",
+                "arVerse": "افرحى يا والدة الاله العذراء: انت يا الله يجب لك التسبيح فى صهيون: وتوفى لك النذور فى اورشليم: نعظمك.",
+                "arPhonics": "شيرى ثيئوطوكى بارثينى: إنثوك إفنوتى إف إير شاف ناك: إنجى بى جو خين سيون: إف إيتى ناك إنهان إفشى خين ييروساليم: سى ميغالينومين."
+            },
+            {
+                "row": 5,
+                "enVerse": "Rejoice O you full of grace, Mary, the Lord is with you.",
+                "enPhonics": "Shere ke kari-tomenee Maria O Kirios metacou",
+                "cpVerse": "<ere ke ,aritwmen/ Mari;a ;o Kurioc metacou:",
+                "cpFont": "New Athanasius",
+                "arVerse": "افرحى يا ممتلئة نعمة يا مريم الرب معك",
+                "arPhonics": "شيرى كى خاريتومينى ماريا أوكيريوس ميتاسو"
+            }
+        ]
+    },
+    {
+        "index": 3,
+        "enTitle": "O Kirios Metaso",
+        "arTitle": "أو كيريوس ميتاسو",
+        "data": [
+            {
+                "row": 1,
+                "enVerse": "The Lord is with you.  Holy is, the Father, the King Who observes our humility, the essence of glory, with the Holy Spirit.",
+                "enPhonics": "O Kee-rios metaso. agios istin: opateer vasilevsin: the-pen-thevio: genos enzoxin: tou epnevma to agio:",
+                "cpVerse": "Okurioc metacou > agioc icthn oupathr bacileucin   qepenqebi`o > genoc `ndo[in > to  `pneuma tou `agiou.",
+                "cpFont": "Athanasius",
+                "arVerse": "الرب معك: قدوس الآب الملك الذى نظر الي إتضاعنا وجنس المجد والروح القدس",
+                "arPhonics": "أو كيريوس ميتاسو/ آجيوس إستين/أوباتير فاسى ليف سين/ ثيه بين ثيفيو/ جينوس إن ذوكسين/ تو إبنيفما تو آجيو."
+            },
+            {
+                "row": 2,
+                "enVerse": "Just is, the Father, our supporter in our weaknesses, for the sake of the Heavenly life, with the Holy Spirit.",
+                "enPhonics": "Zee-keos istin: opateer eovoeethin: the-penthevio: zoeen en-eporanion: tou epnevma to agio:",
+                "cpVerse": "Dikeoc ictin > `opathr `eoubohqin > qepenqebi`o > zwhn `n`eporanion > tou `pneuma  tou agiou.",
+                "cpFont": "Athanasius",
+                "arVerse": "عادل هو الآب معيننا فى ضعفنا من أجل الحياة السمائية والروح القدس.",
+                "arPhonics": "ذيكيئوس إستين/ أوباتير إيه فوى ثين/ ثيه بين ثيفيو/ ذو إين إن إيبورانيون/ تو إبنيفما تو آجيو."
+            },
+            {
+                "row": 3,
+                "enVerse": "Praise belongs to the Father, the treasure of our humility, and Jesus Who is from Heaven, with the Holy Spirit",
+                "enPhonics": "Ee-panos istin: opateer the-savrin: the-penthevio: ieesos en-eporanion: to epnevma tou agio:",
+                "cpVerse": "` Hpanoc ictin > `opathr  qucaurin > qepenqebi`o > Ihcouc \u000b`n`epouranion > tou \u000b`pneuma tou agiou.",
+                "cpFont": "Athanasius",
+                "arVerse": "المديح يليق بالآب كنز إتضاعنا ويسوع السمائي والروح القدس.",
+                "arPhonics": "إيبانوس إستين/ أوباتير ثى سافرين/ثيه بين ثيفيو/إيسوس إن إيبورانيون/ تو إبنيفما تو آجيو."
+            },
+            {
+                "row": 4,
+                "enVerse": "The Lord, the Father, Who speaks in Heavenly truth, Who took the form of our humility, with the Holy Spirit",
+                "enPhonics": "Kee-rios istin: opateer lalevsin: the-penthevio: matos en-eporanion: to epnevma tou agio:",
+                "cpVerse": "Kurioc ictin > `opathr laleucin > qepenqeui`o  > matouc `n`eporanion > tou  `pneuma tou \u000b`agiou.",
+                "cpFont": "Athanasius",
+                "arVerse": "الرب الآب المتكلم بالحق السمائي الذى شابهنا في اتضاعنا والروح القدس.",
+                "arPhonics": "كيريوس إستين/ أوباتير لاليف سين/ ثيه بين ثيفيو/ماتوس إن إيبورانيون/ تو إبنيفما تو آجيو."
+            },
+            {
+                "row": 5,
+                "enVerse": "Honored is the Father, Who rejoices because of our Humility, the Heavenly Truth, with the Holy Spirit.",
+                "enPhonics": "Nee-mios istin: opateer exalevsin: the-penthevio: ondos en-eporanion: to epnevma to agio:",
+                "cpVerse": "Nimioc ictin > `opathr                            `[aleucin > qepenqebi`o > ontoc `n`eporanion > tou `pneuma tou \u000b`agiou.",
+                "cpFont": "Athanasius",
+                "arVerse": "مكرم هو الآب المتهلل باتضاعنا الحق السمائي والروح القدس.",
+                "arPhonics": "نى ميوس إستين/ أوباتير إكساليف سين/ ثيه بين ثيفيو/أوندوس إن إيبورانيون/ تو إبنيفما تو آجيو."
+            },
+            {
+                "row": 6,
+                "enVerse": "The Father is the Shepherd, Who speaks for the sake of our tribulations, the heavenly cross, with the Holy Spirit",
+                "enPhonics": "Pee-menos istin: opateer raravsin: the-penthevio: estavros en-eporanion: to epnevma to agio:",
+                "cpVerse": "Pimenoc ictin > `opathr raraucin > qepenqebi`o > \u000b`ctauroc `n`eporanion > tou `pneuma tou \u000b`agiou.",
+                "cpFont": "Athanasius",
+                "arVerse": "الآب هو الراعي المتكلم من اجل مذلتنا. الصليب السمائي والروح القدس",
+                "arPhonics": "بى مينوس إستين/ أوباتير رارافسين/ ثيه بين ثيفيو/إستافروس إن إيبورانيون/ تو إبنيفما تو آجيو."
+            },
+            {
+                "row": 7,
+                "enVerse": "Honored is the Father, Who shines over our tribulations, with the heavenly light, with the Holy Spirit",
+                "enPhonics": "Tee-mios istin: opateer emonfin: the-penthevio: vosteer en-eporanion: to epnevma to agio:",
+                "cpVerse": "Timioc ictin > `opathr `umonvin > qepenqebi`o > vwcthr `n`eporanion > tou `pneuma tou \u000b`agiou.",
+                "cpFont": "Athanasius",
+                "arVerse": "مكرم هو الآب المشرق علي مذلتنا بالنور السمائي والروح القدس.",
+                "arPhonics": "تى ميوس إستين/ أوباتير إى مونفين/ ثيه بين ثيفيو/فوستير إن إيبورانيون/ تو إبنيفما تو آجيو."
+            },
+            {
+                "row": 8,
+                "enVerse": "Hail to the ever-existent, with the Father who rejoices in our humility, and the heavenly truth, with the Holy Spirit",
+                "enPhonics": "Shere istin istin: opateer epsalevsin: the-penthevio: ondos en-eporanion: to epnevma to agio:",
+                "cpVerse": "Xere ictin ictin > `opathr yaleucin > qepenqebi`o > `w`ntwc `n`epouranion> tou `pneuma tou  `agiou.",
+                "cpFont": "Athanasius",
+                "arVerse": "الفرح كائن علي الدوام بالآب المبتهج بتواضعنا والحق السمائي والروح القدوس.",
+                "arPhonics": "شيريه إستين إستين/ أوباتير إبساليف سين/ ثيه بين ثيفيو/أوإندوس إن إيبورانيون: تو إبنيفما تو آجيو."
+            }
+        ]
+    }
+]

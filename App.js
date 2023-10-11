@@ -1,20 +1,99 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import 'react-native-gesture-handler';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
+import { TouchableOpacity, StyleSheet, View, Dimensions } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import * as Font from 'expo-font';
+import * as SplashScreen from 'expo-splash-screen';
+import RootNavigation from './components/navigation/RootNavigation';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+// Prevent the splash screen from auto-hiding
+SplashScreen.preventAutoHideAsync();
+
+
+const App = () => {
+  const [fontLoaded, setFontLoaded] = useState(false);
+  const [appIsReady, setAppIsReady] = useState(false);
+
+  
+  
+  async function loadFonts() {
+    await Font.loadAsync({
+      'CS New Athanasius': require('./assets/fonts/cs-new-athanasius.ttf'),  // adjust the path as needed
+      'Athanasius'  : require('./assets/fonts/athanasius.ttf'),
+      'New Athanasius'  : require('./assets/fonts/newath.ttf'),
+      'Times New Roman': require('./assets/fonts/times.ttf'),
+      'Garamond'  : require('./assets/fonts/GARA.ttf'),
+      'Garamond Bold'  : require('./assets/fonts/GARABD.ttf'),
+      'ArialCoptic' : require('./assets/fonts/ArialCoptic.ttf'),
+    });
+    setFontLoaded(true);
+  }
+  
+  useEffect(() => {
+    async function prepare() {
+      try {
+        // Keep the splash screen visible while we fetch resources
+        await SplashScreen.preventAutoHideAsync();
+
+        // Load fonts and other resources here
+        await loadFonts();
+
+
+      } catch (e) {
+        console.warn(e);
+      } finally {
+        // Set app as ready after resources are loaded
+        setAppIsReady(true);
+      }
+    }
+
+    prepare();
+  }, []);
+
+  useEffect(() => {
+    if (appIsReady) {
+      // Hide splash screen when app is ready
+      SplashScreen.hideAsync();
+    }
+  }, [appIsReady]);
+  
+  
+
+
+
+
+if (!fontLoaded) {
+  return null;  // or a placeholder component if you prefer
 }
+
+
+   
+
+    return (
+
+      <NavigationContainer>
+        <RootNavigation />
+      </NavigationContainer>
+        
+  );
+};
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+    paddingHorizontal: 5,
+    paddingTop: 1,
+    paddingBottom: 20,
+    backgroundColor: 'black',
   },
+  viewPager: {
+    flex: 1,
+    backgroundColor: 'black',
+    width: '100%',
+  paddingTop: 2,  }
+
 });
+
+export default App;

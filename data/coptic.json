@@ -1,0 +1,251 @@
+[
+    {
+        "index": "1",
+        "title": "Ekesmaroout",
+        "text": 
+        [
+            {
+                "verse": "Ⲕⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲁ̀ⲗⲏⲑⲱⲥ : ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉ̀ⲑⲟⲩⲁⲃ : ϫⲉ ⲁⲕⲓ̀ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ.",
+                "font": "CS New Athanasius",
+                "row": 1
+            },
+            {
+                "verse": "Hiten ni`eu,y `nte peniwt ettai`yout \u000b`nar,y`ereuc papa abba (...)@ nem peniwt \u000b`n`epickopoc/`mmytropolityc  abba (...) P=o=c ...",
+                "font": "CS New Athanasius",
+                "row": 2
+            }
+        ]
+    },
+    {
+        "index": "2",
+        "title": "Shere Theotoke",
+        "text":
+        [
+            {
+                "verse": "<ere :e`otoke Par;ene `o `precbebou ce `upertou kocmou ton cwtyria ke ton :eon `ymwn@ `procverin pan taton umnon \u000b`ymwn@ cemegalinomen.",
+                "font": "CS New Athanasius",
+                "row": 1
+            },
+            {
+                "verse": "<ere :e`otoke Par;ene@ Myter tou Emmanouyl tyc pina pirogamy.",
+                "font": "CS New Athanasius",
+                "row": 2
+            },
+            {
+                "verse": "<ere ;y`etaxic \u000b`naggelon@ ,ere ;y`proctacia `ymwn tou Patri ke ton :eon `ymwn@ cemegalinomen.",
+                "font": "CS New Athanasius",
+                "row": 3
+            },
+            {
+                "verse": "ⲋⲉⲣⲉ ⲯⲉϯⲟⲧⲟⲕⲉ ⲡⲁⲣⲯⲉⲛⲉϮ ϯⲛⲯⲟⲕ Ⲫϣ ϯϥⲉⲣϭⲁⲩ ⲛⲁⲕϮ ϩⲩ000ⲃϯⲛϫⲉ ⲡⲓϫⲱ ⲑⲉⲛ ⲤⲓⲱⲛϮ ⲉⲩϯⲉϣ ⲛⲁⲕ ϩⲩ000ⲃϯⲛⲏⲁⲛⲉⲩⲋ/ ⲑⲉⲛ ⲒϨⲗϨ/ϨⲙϮ ⲥⲉⲙⲉⲅⲁⲗⲓⲛⲟⲙⲉⲛ.",
+                "font": "CS New Athanasius",
+                "row": 4
+            },
+            {
+                "verse": "<ere ke ,aritwmen/ Mari;a ;o Kurioc metacou:",
+                "font": "CS New Athanasius",
+                "row": 5
+            }
+        ]
+    },
+
+    {
+        "index": "3",
+        "title": "O kee-rios metaso",
+        "text":
+        [
+
+            {
+                "verse": "Okurioc metacou > agioc icthn oupathr bacileucin   qepenqebi`o > genoc `ndo[in > to  `pneuma tou `agiou.",
+                "font": "Athanasius",
+                "row": 1
+            },
+            {
+                "verse": "Dikeoc ictin > `opathr `eoubohqin > qepenqebi`o > zwhn `n`eporanion > tou `pneuma  tou agiou.",
+                "font": "Athanasius",
+                "row": 2
+            },
+            {
+                "verse": "` Hpanoc ictin > `opathr  qucaurin > qepenqebi`o > Ihcouc \u000b`n`epouranion > tou \u000b`pneuma tou agiou.",
+                "font": "Athanasius",
+                "row": 3
+            },
+            {
+                "verse": "Kurioc ictin > `opathr laleucin > qepenqeui`o  > matouc `n`eporanion > tou  `pneuma tou \u000b`agiou.",
+                "font": "Athanasius",
+                "row": 4
+            },
+            {
+                "verse": "Nimioc ictin > `opathr `[aleucin > qepenqebi`o > ontoc `n`eporanion > tou `pneuma tou \u000b`agiou.",
+                "font": "Athanasius",
+                "row": 5
+            },
+            {
+                "verse": "Pimenoc ictin > `opathr raraucin > qepenqebi`o > \u000b`ctauroc `n`eporanion > tou `pneuma tou \u000b`agiou.",
+                "font": "Athanasius",
+                "row": 6
+            },
+            {
+                "verse": "Timioc ictin > `opathr `umonvin > qepenqebi`o > vwcthr `n`eporanion > tou `pneuma tou \u000b`agiou.",
+                "font": "Athanasius",
+                "row": 7
+            },
+            {
+                "verse": "Xere ictin ictin > `opathr yaleucin > qepenqebi`o > `w`ntwc `n`epouranion> tou `pneuma tou  `agiou.",
+                "font": "Athanasius",
+                "row": 8
+            }
+        ]
+    },
+    {
+        "title":"Shashf Ensop",
+        "text":[
+                 
+            {
+                "verse": "Z/ `ncop `mmhni>` `ebol'en pa\\ht thrf> ;na`cmou `epekran> Psoic `mpi`e`pthrf.",
+                "font": "Athanasius",
+                "row": 1
+            },
+            {
+                "verse": "Aier`vmeu`i `mpekran> ouo\\ aijemnom;> `pouro `nni`ewn> V; ``nte ninou;.",
+                "font": "Athanasius",
+                "row": 2
+            },
+            {
+                "verse": " Ihcouc Pi`xrictoc Pennou;> pi`alhqinoc> vh`etaf`i eqbe pencw;> afercwmatikoc.",
+                "font": "Athanasius",
+                "row": 3
+            },
+            {
+                "verse": " Afsicar[ `ebol> 'en Pi`pneuma eqouab> nem `ebol'en Mari`a> ;]elet eqouab.",
+                "font": "Athanasius",
+                "row": 4
+            },
+            {
+                "verse": " Afvwn\\ `mpen\\hbi> nem pen\\oj\\ej thrf> `eoura]i `n\\ht> nem ouqelhl `e`pthrf.",
+                "font": "Athanasius",
+                "row": 5
+            },
+            {
+                "verse": " Marenouw]t `mmof> ouo\\ `ntener\\umnoc> `ntefmau Mari`a> ;`srompi eqnecwc.",
+                "font": "Athanasius",
+                "row": 6
+            },
+            {
+                "verse": "Ouo\\ `ntenw] `ebol> 'en ou`cmh `nqelhl> je xere ne Mari`a> `qmau `nEmmanouhl.",
+                "font": "Athanasius",
+                "row": 7
+            },
+            {
+                "verse": " Xere ne Mari`a> \u000b`pcw; `nAdam peniwt> x/e/ > \u000b`qmau `mpima `mvwt> x/e/ > `pqelhl `nEu`a> \u000bx/e/ > `pounof     \u000b`nnigene`a. ",
+                "font": "Athanasius",
+                "row": 8
+            },
+            {
+                "verse": " Xere ne Mari`a> \u000b`vra]i `nAbel pi`qmhi> x/e/ > ;parqenoc `nta\u000b`vmhi> x/e/ >  `vno\\em \u000b`nNw`e> x/e/ >\u000b;atqwleb    `ncemne",
+                "font": "Athanasius",
+                "row": 9
+            },
+            {
+                "verse": " Xere ne Mari`a> `p`\\mot `nAbraam> x/e/ > pi`xlom \u000b`naqlwm> x/e/ > `pcw; `nIcaak peqouab> x/e/ > \u000b`qmau `mvheqouab",
+                "font": "Athanasius",
+                "row": 10
+            },
+            {
+                "verse": " Xere ne Mari`a> \u000b`pqelhl `nIakwb> x/e/ > \\an`qba `nkwb> x/e/ > `p]ou]ou \u000b`nIouda> x/e/ > `qmau `mpidec pota.",
+                "font": "Athanasius",
+                "row": 11
+            },
+            {
+                "verse": " Xere ne Mari`a> \u000b`p\\iwi] `mMw`uchc> x/e/ > `qmau \u000b`mpidecpothc> x/e/ > `ptai`o `nCamouhl> x/e/ > `p]ou]ou \u000b`mPi`crahl.",
+                "font": "Athanasius",
+                "row": 12
+            },
+            {
+                "verse": "Xere ne Mari`a> \u000b`ptajro `nIwb pi`qmhi> x/e/ > pi`wni `n`anamhi> x/e/ > `qmau \u000b`mpimenrit> x/e/ > `t]eri `m`pouro Dauid.",
+                "font": "Athanasius",
+                "row": 13
+            },
+            {
+                "verse": " Xere ne Mari`a> ;`]veri `n Colomwn> x/e/ > `psici `nnidikeon> x/e/ > `poujai \u000b`nHcahac> x/e/ > `ptalso `nIeremiac.",
+                "font": "Athanasius",
+                "row": 14
+            },
+            {
+                "verse": " Xere ne Mari`a> \u000b`pemi `nIezekihl> x/e/ > xaric tou Danihl> x/e/ > \u000b`tjom `nHliac> x/e/ > pi`\\mot \u000b`nEliceoc.",
+                "font": "Athanasius",
+                "row": 15
+            },
+            {
+                "verse": " Xere ne Mari`a> ;qe`otokoc> x/e/ > `qmau `nIhcouc Pi`xrictoc > x/e/ >;`srompi eqnecwc> x/e/ > `qmau `nUioc Qeoc.",
+                "font": "Athanasius",
+                "row": 16
+            },
+            {
+                "verse": " Xere ne Mari`a> \u000b`etauermeqre nac> `nje ni`provhthc throu> ouo\\ aujw `mmoc.",
+                "font": "Athanasius",
+                "row": 17
+            },
+            {
+                "verse": " |hppe V; pilogoc> \u000b`etafsicar[ `n'h;> 'en oumetouai> `natcaji `mpecrh;.",
+                "font": "Athanasius",
+                "row": 18
+            },
+            {
+                "verse": "Tesoci `alhqwc> \u000b`e\\ote pi`]bwt> \u000b`nte  A`arwn> \u000b`w qheqme\\ `n`\\mot.",
+                "font": "Athanasius",
+                "row": 19
+            },
+            {
+                "verse": " A]pe pi`]bwt> \u000b`ebhl `eMari`a> je `nqof pe `ptupoc> \u000b`ntecparqeni`a.",
+                "font": "Athanasius",
+                "row": 20
+            },
+            {
+                "verse": " Acerboki acmici> xwric cunouci`a> \u000b`m`p]hri `mvhetsoci> pilogoc `naidi`a.",
+                "font": "Athanasius",
+                "row": 21
+            },
+            {
+                "verse": " |iten neceuxh> nem nec`precbi`a> \u000b`aouwn nan Psoic> `m`vro `nte ;ek`klhci`a",
+                "font": "Athanasius",
+                "row": 22
+            },
+            {
+                "verse": " :;\\o `ero> `w ;qe`otokoc> xa \u000b`vro `nniek`klhci`a> efouhn `nnipictoc",
+                "font": "Athanasius",
+                "row": 23
+            },
+            {
+                "verse": " Maren;\\o `eroc> eqrectwb\\ `ejwn> na\\ren pecmenrit> eqrefxw nan `ebol.",
+                "font": "Athanasius",
+                "row": 24
+            },
+            {
+                "verse": "Aumou; `ero> Mari`a ;parqenoc> je ;`\\rhri eqouab> `nte pi`cqoinoufi.",
+                "font": "Athanasius",
+                "row": 25
+            },
+            {
+                "verse": "Qh`etac;ou`w `e`p]wi> acviri `ebol> 'en `qnouni `nnipatriarxhc> nem ni`provhthc. ",
+                "font": "Athanasius",
+                "row": 26
+            },
+            {
+                "verse": "M`vrh; `mpi`]bwt> \u000b`nte  A`arwn piouhb> \u000b`etafviri `ebol> afopt `nkarpoc.",
+                "font": "Athanasius",
+                "row": 27
+            },
+            {
+                "verse": "Je `are`jvo \u000b`mpilogoc> asne \u000b`cperma `nrwmi> ecoi `nattako> `nje tecparqeni`a.",
+                "font": "Athanasius",
+                "row": 28
+            },
+            {
+                "verse": " Eqbe vai ten;`wou ne> \\wc qe`otokoc ma;\\o `mpe]hri> eqrefxw nan `ebol.",
+                "font": "Athanasius",
+                "row": 29
+            }
+        ]
+    }
+]
