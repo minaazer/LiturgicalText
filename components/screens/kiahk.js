@@ -30,18 +30,19 @@ const Kiahk = () => {
     <View style={styles.container}>
       <WebView
         ref={webviewRef}
-        source={{ html }}
-        //scrollEnabled={false}
+        source={require('../../data/kiahk.html')}
+        scrollEnabled={false}
         originWhitelist={['*']}
         javaScriptEnabled={true}
-        // domStorageEnabled={true}
-        // startInLoadingState={true}
-        // onMessage={event => {
-        //   console.log(event.nativeEvent.data); // Here you can handle messages received from WebView
-        // }}
-        // injectedJavaScript={`console.log = function(message) {
-        //   window.ReactNativeWebView.postMessage(message);
-        // }`}
+         domStorageEnabled={true}
+         startInLoadingState={true}
+        onMessage={event => {
+          console.log(event.nativeEvent.data); // Here you can handle messages received from WebView
+         }}
+         injectedJavaScript={`
+         console.log = function(message) {
+           window.ReactNativeWebView.postMessage(message);
+         }`}
         style={styles.webview}
       />
     </View>
@@ -51,8 +52,10 @@ const Kiahk = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    marginTop: 40,
-    marginBottom: 10,
+    marginTop: 0,
+    paddingVertical: 5,
+    backgroundColor: 'black',
+    marginBottom: 0,
   },
   webview: {
     flex: 1,

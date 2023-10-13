@@ -1,25 +1,434 @@
-import { htmlRenderScript } from '../components/screens/jsScripts';
-import { cssStyles } from '../components/screens/cssStyles';
-
-
-
-
-export const html = `<html>
+<html>
 
 <head>
-    <title>Extracted Tables</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        ${cssStyles}
-    </style>
-    <script type="text/javascript">
-    ${htmlRenderScript}
-        </script>
+    <title>Kiahk</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"">
+<style>
+    html {
+        background-color: black;
+    }
+
+    @font-face {
+        font-family: "Arial Coptic";
+        src: 
+            url("https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/ArialCoptic.woff2") format("woff2"),
+            url("https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/ArialCoptic.woff") format("woff"),
+            url("https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/ArialCoptic.ttf") format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: "EB Garamond";
+        src: 
+        url("https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/EBGaramond.woff2") format('woff2'),
+        url("https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/EBGaramond.woff") format('woff'),
+        url("https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/EBGaramond.ttf") format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    table {
+    page-break-before: always; /* Use for older browsers */
+    break-before: page; /* Modern browsers */
+    margin-top: 15px;
+    margin-bottom: 15px;
+    }
+
+    /* Handle first table to avoid first-page break */
+    table:first-of-type {
+    page-break-before: auto;
+    break-before: auto;
+    }
+    span {
+        font-size: 30px;
+        font-family: 'EB Garamond' !important;
+        color: yellow;
+    }
+
+    body {
+        overflow: hidden;
+        color: white;
+        font-size: 26px;
+
+    }
+
+
+    .arabic {
+        text-align: right;
+        direction: rtl;
+        font-size: 30px;
+        vertical-align: top ;
+        padding-bottom: 10px;
+        width:26%;
+        text-align: justify;
+        padding-left: 10px;
+
+    }
+
+    .coptic {
+        font-size: 30px;
+        vertical-align: top ;
+        font-family: 'Arial Coptic' !important;
+        border-right: 1px dashed white;
+        padding-right: 10px;
+        padding-left: 10px;
+        text-align: justify;
+    }
+    .english {
+        font-size: 30px;
+        vertical-align: top ;
+        font-family: 'EB Garamond' !important;
+        padding-right: 10px;
+        border-right: 1px dashed white;
+        text-align: justify;
+
+        
+    }
+</style>
+<script type="text/javascript">
+    
+    var startX, startY;
+    window.startingRows = window.startingRows || [];
+    var largeRowScrollPosition = 0;
+    var lastVisibleRow = 0;
+    var currentTable = 'table_0';
+    window.onload = function() {
+        adjustOverlay();
+    }
+    
+    
+    document.addEventListener('touchstart', function(e) {
+        startX = e.touches[0].clientX;
+        startY = e.touches[0].clientY;
+    }, false);
+
+    document.addEventListener('touchend', function(e) {
+        var endX = e.changedTouches[0].clientX;
+        var endY = e.changedTouches[0].clientY;
+        // First, always check for a plus sign tap.
+        if (checkForPlusSignClick(endX, endY)) {
+            // Plus sign was tapped, do nothing else.
+            return;
+        }
+        // It is a tap, not a swipe.
+        if (Math.abs(startX - endX) < 10 && Math.abs(startY - endY) < 10) {
+            if (endX < window.innerWidth / 2) {
+                // Left side tapped
+                scrollToPreviousRow();
+            } else if (endX > window.innerWidth / 2) {
+                // Right side tapped
+                scrollToNextRow();
+            }
+        }
+    }, false);
+
+    function checkForPlusSignClick(x, y) {
+        var plusSigns = document.querySelectorAll('.toggle');
+        var wasPlusSignClicked = false;
+        plusSigns.forEach(function(plusSign) {
+            var boundingBox = plusSign.getBoundingClientRect();
+            if (x >= boundingBox.left && x <= boundingBox.right && y >= boundingBox.top && y <= boundingBox
+                .bottom) {
+                toggleTable(plusSign.dataset.tableId);
+                wasPlusSignClicked = true;
+            }
+        });
+        return wasPlusSignClicked;
+    }
+
+    function scrollToNextRow() {
+        clearOverlays();
+        var rows = Array.from(document.querySelectorAll('tr[id^="table_"]'));
+        if (rows.length === 0) {
+            return; // Exit function if there are no rows
+        }
+        let firstPartiallyVisibleRow = null;
+        let rowRect = null; // Initialize rowRect outside of the loop
+        for (let i = 0; i < rows.length; i++) {
+            let rowRect = rows[i].getBoundingClientRect(); // Update rowRect within the loop
+            
+
+            if (rowRect.top > 0) {
+                let rowIdComponents = rows[i].id.split("_");
+                let tableId = 'table_' + rowIdComponents[1];
+
+                window.ReactNativeWebView.postMessage(JSON.stringify({key: 'tableId:  :', value: tableId}));
+                window.ReactNativeWebView.postMessage(JSON.stringify({key: 'currentTable:  :', value: currentTable}));
+            ///checking new table
+            if (tableId !== currentTable) {
+                console.log('tableId !== currentTable')
+                var toggleId = "toggle_" + tableId;
+
+                var tableTitle = document.getElementById(toggleId);
+
+                if (tableTitle) {
+
+                    tableTitle.scrollIntoView(true);
+                    currentTable = tableId;
+                    window.startingRows.push(i);
+                    lastVisibleRow = i;
+                    window.ReactNativeWebView.postMessage(JSON.stringify({key: 'currentTable:  :', value: currentTable}));
+                    adjustOverlay();
+
+                } else {
+                    firstPartiallyVisibleRow = i;
+
+                }
+                
+                break;
+            }
+        }
+
+
+            // Initialize it outside of your function as zero or null
+            if (i === startingRows[startingRows.length - 1] && rowRect.bottom > window.innerHeight) {
+                // This check determines if you are on a row that doesn't fit on the screen
+                clearOverlays();
+                // Get a reference to your scroll container
+
+                window.scrollBy(0, window.innerHeight);
+                window.startingRows.push(i); // Push the current row index to the startingRows array
+                let rowRect = rows[i].getBoundingClientRect(); // Update rowRect within the loop
+                if (rowRect.bottom > window.innerHeight) {
+                    clearOverlays();
+                } else
+                {      
+                // handle the cutoff row 
+                    window.startingRows.push(i); // Push the current row index to the startingRows array
+
+                    adjustOverlay();
+                
+                }
+                
+                return;
+            
+
+            }
+            // For other cases (not the large first row)
+            if (rowRect.top < window.innerHeight && rowRect.bottom > window.innerHeight) {
+                firstPartiallyVisibleRow = i;
+                break;
+            }
+        
+        }
+        if (firstPartiallyVisibleRow !== null) {
+            window.startingRows.push(firstPartiallyVisibleRow);
+            lastVisibleRow = firstPartiallyVisibleRow;
+            rows[firstPartiallyVisibleRow].scrollIntoView(true);
+            let rowRect = rows[firstPartiallyVisibleRow].getBoundingClientRect(); // Update rowRect within the loop
+            if (rowRect.bottom > window.innerHeight) {
+                clearOverlays();
+            } else
+            {                
+                adjustOverlay();
+            
+            }
+        }
+    }
+
+    function scrollToPreviousRow() {
+    clearOverlays();
+    var rows = Array.from(document.querySelectorAll('tr[id^="table_"]'));
+    var startRow = window.startingRows[window.startingRows.length - 2];
+    var lastStartRow = window.startingRows[window.startingRows.length - 1];
+    window.ReactNativeWebView.postMessage(JSON.stringify({key: 'startRow:  :', value: startRow}));
+    window.ReactNativeWebView.postMessage(JSON.stringify({key: 'lastStartRow:  :', value: lastStartRow}));
+
+    // If there is no previous page, scroll to the first row of the table
+    if (typeof startRow === 'undefined') {
+        var firstRow = document.querySelector('tr[id$="row_0"]');
+        if (firstRow) {
+            var tableId = firstRow.id.split('_')[1];
+            var toggleId = "toggle_table_" + tableId;
+            var tableTitle = document.getElementById(toggleId);
+            if (tableTitle) {
+                tableTitle.scrollIntoView(true);
+                adjustOverlay();
+            } else {
+                firstRow.scrollIntoView(true);
+                adjustOverlay();
+
+            }
+            currentTable = tableId;
+        }
+        console.log('scroll first if')
+    }
+
+    /*
+    // scroll to the last visible portion of the row for large rows
+    else if (typeof lastStartRow !== 'undefined' && startRow > lastStartRow) {
+        var rowSpan = rows[startRow].rowSpan;
+        var lastVisibleRow = startRow + rowSpan - largeRowScrollPosition - 1;
+        rows[lastVisibleRow].scrollIntoView(true);
+        console.log('scroll second if')
+    } */
+    
+    // scroll to the top of large rows
+    else if ( lastStartRow ===  startRow) {
+        console.log('lastStartRow === startRow');
+        window.scrollBy(0, -window.innerHeight);
+        clearOverlays();
+    }
+
+
+    else if (typeof lastStartRow !== 'undefined') {
+        // If the current row does not occupy more than one page,
+        // scroll to the first row of the previous page
+        window.startingRows.pop();
+        var prevStartRow = window.startingRows[window.startingRows.length - 1];
+        let rowIdComponents = rows[prevStartRow].id.split("_");
+        let tableId = 'table_' + rowIdComponents[1];
+        let rowId = rowIdComponents[3];
+        window.ReactNativeWebView.postMessage(JSON.stringify({key: 'prevStartRow:  :', value: prevStartRow}));
+        window.ReactNativeWebView.postMessage(JSON.stringify({key: 'rowId:  :', value: rowId}));
+        window.ReactNativeWebView.postMessage(JSON.stringify({key: 'tableId:  :', value: tableId}));
+        if (rowId == '0') {
+            console.log('rowId == row_0')
+            var toggleId = "toggle_" + tableId;
+            var tableTitle = document.getElementById(toggleId);
+            if (tableTitle) {
+                tableTitle.scrollIntoView(true);
+                }
+        } 
+        
+        else {
+
+        rows[prevStartRow].scrollIntoView(true);
+        
+        console.log('scroll third if')
+        }
+        currentTable = tableId;
+
+    } 
+ 
+    else {
+        // If there is no previous page, scroll to the first row of the table
+        var firstRow = document.querySelector('tr[id$="row_0"]');
+        if (firstRow) {
+            var tableId = firstRow.id.split('_')[1];
+            var toggleId = "toggle_table_" + tableId;
+            var tableTitle = document.getElementById(toggleId);
+            if (tableTitle) {
+                tableTitle.scrollIntoView(true);
+            } else {
+                firstRow.scrollIntoView(true);
+            }
+        }
+        console.log('scroll else')
+
+    }
+    
+    adjustOverlay();
+}
+
+    function adjustOverlay() {
+        clearOverlays();
+        var rows = Array.from(document.querySelectorAll('tr[id^="table_"]'));
+        var overlayVisible = false;
+        var firstVisibleRow = null;
+        var rows = Array.from(document.querySelectorAll('tr[id^="table_"]'));
+        var startRow = window.startingRows[window.startingRows.length - 2];
+        var lastStartRow = window.startingRows[window.startingRows.length - 1];
+
+        for (let i = 0; i < rows.length; i++) {
+
+            
+            if (typeof lastStartRow !== 'undefined' && typeof startRow !== 'undefined' && lastStartRow === startRow) {
+                clearOverlays();
+                break;
+            }
+
+
+            let rowRect = rows[i].getBoundingClientRect();
+            let firstVisibleRowHeight = null;
+            // Keep track of the first visible row
+
+            if (rowRect.top > 0) {
+                if (!firstVisibleRow) {
+                    firstVisibleRow = rows[i];
+                    firstVisibleRowHeight = rowRect.bottom - rowRect.top;  
+
+                }
+            }
+            // Check if the first visible row is longer than the viewport
+            if (firstVisibleRow && firstVisibleRowHeight > window.innerHeight) {
+                // If the first visible row is longer than the viewport, skip creating the overlay and break
+                clearOverlays();
+                overlayVisible = null;
+                console.log('firstvisiblerow > window.innerHeight')
+
+                break;
+            }
+            // Check if the row is partially visible
+
+
+            if (rowRect.top < window.innerHeight && rowRect.bottom > window.innerHeight) {
+                // Get the tableId and rowId from the first partially visible row
+                let rowIdComponents = rows[i].id.split("_");
+                let tableId = rowIdComponents[1];
+                let rowId = rowIdComponents[3];
+                // Pass both tableId and rowId to the setOverlayOnRow function
+                setOverlayOnRow(tableId, rowId);
+                overlayVisible = true;
+                console.log('rowrect.top < window.innerHeight && rowRect.bottom > window.innerHeight')
+                break;
+            }
+        }
+        if (!overlayVisible) {
+            // If no partially visible row is found or the first visible row is longer than the viewport, hide the overlay
+            clearOverlays();
+        }
+    }
+
+    function setOverlayOnRow(tableId, rowId) {
+        var row = document.getElementById('table_' + tableId + '_row_' + rowId);
+        if (row) {
+
+            var tds = row.querySelectorAll('td');
+            tds.forEach((td, index) => {
+                var tdRect = td.getBoundingClientRect();
+                var overlay = document.createElement('div');
+                overlay.id = 'overlay_' + tableId + '_row_' + rowId + '_td_' + index;
+                overlay.style.position = 'absolute';
+                overlay.style.top = (window.scrollY + tdRect.top) + 'px';
+                overlay.style.left = tdRect.left + 'px';
+                overlay.style.width = tdRect.width + 'px';
+                overlay.style.height = tdRect.height + 'px';
+                overlay.style.backgroundColor = 'black'; // Adjust as needed
+                document.body.appendChild(overlay);
+            });
+                
+
+        }
+    }
+
+    function clearOverlays() {
+        var overlays = document.querySelectorAll('div[id^="overlay_"]');
+        overlays.forEach((overlay) => {
+            overlay.parentNode.removeChild(overlay);
+        });
+    }
+
+
+    function toggleTable(tableId, toggleElement) {
+        var table = document.getElementById(tableId);
+        var title = toggleElement.getAttribute('data-title'); // Getting the title from data-attribute
+        if (table.style.display === "none" || table.style.display === "") {
+            table.style.display = "table"; // or use 'block' or whatever default you prefer
+            toggleElement.textContent = "- " + title; // Update the text content with the title
+        } else {
+            table.style.display = "none";
+            toggleElement.textContent = "+ " + title; // Update the text content with the title
+        }
+    }
+
+</script>
 </head>
 
 <body>
-    <span class="toggle" id="toggle_table_0" data-title="Your Table Title Here" style="margin-bottom: 100px !important;" onclick="toggleTable('table_0', this)">+
-        Your Table Title Here</span>
+    <span class="toggle" id="toggle_table_0" data-title="Arise O children of the light" onclick="toggleTable('table_0', this)">+
+        Arise O children of the light</span>
     <table id="table_0" style="width: 100%; display: table; border-collapse: collapse;">
         <tr id="table_0_row_0">
             <td class="english" ;">Arise, O children of the Light: let us praise the
@@ -208,6 +617,15 @@ export const html = `<html>
             <td class="english" ;">Oh, sing to the LORD a new song! Sing to the LORD,
                 all the earth. Sing to the LORD, bless His name; proclaim the good news of His salvation from day to
                 day. Declare His glory among the nations, His wonders among all peoples. For the LORD is great and
+                greatly to be praised; He is to be feared above all gods. Alleluia.Oh, sing to the LORD a new song! Sing to the LORD,
+                all the earth. Sing to the LORD, bless His name; proclaim the good news of His salvation from day to
+                day. Declare His glory among the nations, His wonders among all peoples. For the LORD is great and
+                greatly to be praised; He is to be feared above all gods. Alleluia.Oh, sing to the LORD a new song! Sing to the LORD,
+                all the earth. Sing to the LORD, bless His name; proclaim the good news of His salvation from day to
+                day. Declare His glory among the nations, His wonders among all peoples. For the LORD is great and
+                greatly to be praised; He is to be feared above all gods. Alleluia.Oh, sing to the LORD a new song! Sing to the LORD,
+                all the earth. Sing to the LORD, bless His name; proclaim the good news of His salvation from day to
+                day. Declare His glory among the nations, His wonders among all peoples. For the LORD is great and
                 greatly to be praised; He is to be feared above all gods. Alleluia.</td>
             <td class="coptic" ;">Ϩⲱⲥ ̀ⲉⲠϭⲟⲓⲥ ϧⲉⲛ ⲟⲩ ϩⲱⲥ ̀ⲙⲃⲉⲣⲓ: ϩⲱⲥ ̀ⲉⲠϭⲟⲓⲥ ̀ⲡⲕⲁϩⲓ
                 ⲧⲏⲣϥ: ϩⲱⲥ ̀ⲉⲠϭⲟⲓⲥ ̀ⲥⲙⲟⲩ ̀ⲉⲡⲉϥⲣⲁⲛ:ϩⲓϣⲉⲛⲛⲟⲩϥⲓ ̀ⲙⲡⲉϥⲟⲩϫⲁⲓ ̀ⲛ̀ⲉϩⲟⲟⲩ ϧⲁ ̀ⲧϩⲓ ̀ⲛ̀ⲉϩⲟⲟⲩ: ⲥⲁϫⲓ ̀ⲙⲡⲉϥⲱⲟⲩ ϧⲉⲛ
@@ -239,8 +657,8 @@ export const html = `<html>
         </tr>
     </table>
     <br>
-    <span class="toggle" id="toggle_table_1" data-title="Your Table Title Here" onclick="toggleTable('table_1', this)">+
-        Your Table Title Here</span>
+    <span class="toggle" id="toggle_table_1" data-title="Kiahk Ode" onclick="toggleTable('table_1', this)">+
+        Kiahk Ode</span>
     <table id="table_1" style="width: 100%; display: table; border-collapse: collapse;">
         <tr id="table_1_row_0">
             <td class="english" ;">I will bless the Lord at all times. His praise
@@ -487,34 +905,29 @@ export const html = `<html>
                 them, and raise them up forever. Alleluia.</td>
             <td class="arabic">يا رب خلص شعبك بارك ميراثك ارعهم وارفعهم إلى الأبد. الليلويا.</td>
         </tr>
-    </table>
-    <br>
-    <span class="toggle" id="toggle_table_2" data-title="Your Table Title Here" onclick="toggleTable('table_2', this)">+
-        Your Table Title Here</span>
-    <table id="table_2" style="width: 100%; display: table; border-collapse: collapse;">
-        <tr id="table_2_row_0">
+        <tr id="table_1_row_38">
             <td class="english" ;">Whoever is wise will observe these things, and
                 they will understand the loving-kindness of the LORD. Alleluia.</td>
             <td class="coptic" ;">Ⲛⲓⲙ ⲡⲉ ⲡⲓⲥⲁⲃⲉ ⲟⲩⲟϩ ̀ⲛⲧⲉϥ̀ⲣⲉϩ ̀ⲉⲛⲁⲓ ⲟⲩⲟϩ ̀ⲛⲥⲉⲕⲁϯ
                 ̀ⲉⲛⲓⲛⲁⲓ ̀ⲛⲧⲉ Ⲡϭⲟⲓⲥ : Ⲁⲗⲗⲏⲗⲟⲩⲓ̀ⲁ.</td>
             <td class="arabic">من هو الحكيم فيحفظ هذه ويتفهم مراحم الرب. الليلويا.</td>
         </tr>
-        <tr id="table_2_row_1">
+        <tr id="table_1_row_39">
             <td class="english" ;">Bless me. Lo, the repentance. Forgive me. O my
                 fathers and my brethren pray for me. In love, I ask you to remember me.</td>
             <td class="coptic" ;">Ⲥⲙⲟⲩ ̀ⲉⲣⲟⲓ : ⲓⲥ ϯⲙⲉⲧ̀ⲁⲛⲟⲓ̀ⲁ ⲭⲱ ⲛⲏⲓ ̀ⲉⲃⲟⲗ : ⲛⲁⲓⲟϯ
                 ⲛⲉⲙ ⲛⲁ̀ⲥⲛⲏⲟⲩ ̀ϣⲗⲏⲗ ̀ⲉ̀ϩⲣⲏⲓ ̀ⲉϫⲱⲓ : ϧⲉⲛ ⲟⲩ̀ⲁⲅⲁⲡⲏ ϯϯϩⲟ ̀ⲉⲣⲱⲧⲉⲛ ̀ⲁⲣⲓⲡⲁⲙⲉⲩ̀ⲓ.</td>
             <td class="arabic">باركوا على. ها مطانية اغفروا لي يا آبائي وإخوتي صلوا علي. بالمحبة أسالكم اذكروني.</td>
         </tr>
-        <tr id="table_2_row_2">
+        <tr id="table_1_row_40">
             <td class="english" ;">Glory to the Father and to the Son and to the Holy
                 Spirit, now and ever and unto the ages of ages.</td>
             <td class="coptic" ;">Ⲇⲟⲝⲁ Ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩⲓⲱ ⲕⲉ ̀ⲁⲅⲓⲱ Ⲡⲛⲉⲩⲙⲁⲧⲓ: ⲕⲉ ⲛⲩⲛ ⲕⲉ
                 ⲁ̀̀ⲓ ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ̀ⲉ̀ⲱⲛⲁⲥ ⲧⲱⲛ ̀ⲉ̀ⲱⲛⲱⲛ:</td>
             <td class="arabic">المجد للاب والابن والروح القدس الان وكل أوان وإلي دهر الدهور</td>
         </tr>
-        <tr id="table_2_row_3">
-            <td class="coptic" ;">Amen. Alleluia. Lord have mercy. Lord have mercy.
+        <tr id="table_1_row_41">
+            <td class="english" ;">Amen. Alleluia. Lord have mercy. Lord have mercy.
                 Lord have mercy.</td>
             <td class="coptic" ;">̀Ⲁⲙⲏⲛ ⲁⲗ̅. Ⲕⲩⲣⲓ̀ⲉ ̀ⲉⲗⲉ̀ⲏⲥⲟⲛ. Ⲕⲩⲣⲓ̀ⲉ ̀ⲉⲗⲉ̀ⲏⲥⲟⲛ.
                 Ⲕⲩⲣⲓ̀ⲉ ̀ⲉⲗⲉ̀ⲏⲥⲟⲛ.</td>
@@ -522,340 +935,340 @@ export const html = `<html>
         </tr>
     </table>
     <br>
-    <span class="toggle" id="toggle_table_3" data-title="Your Table Title Here" onclick="toggleTable('table_3', this)">+
-        Your Table Title Here</span>
+    <span class="toggle" id="toggle_table_3" data-title="Agios Otheos" onclick="toggleTable('table_3', this)">+
+        Agios Otheos</span>
     <table id="table_3" style="width: 100%; display: table; border-collapse: collapse;">
         <tr id="table_3_row_0">
-            <td class="coptic" ;">Agios O Theos
+            <td class="english" ;">Agios O Theos
                 Agios Yes-sheros
                 Agios Athanatos
                 Amen Alleluia</td>
             <td class="arabic">آجيوس أوثيئوسآجيوس إس شيروسأجيوس أثاناطوسآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_1">
-            <td class="coptic" ;">Holy God Holy
+            <td class="english" ;">Holy God Holy
                 Mighty in His glory
                 Holy is the Living God
                 Amen Alleluia</td>
             <td class="arabic">قدوس الله قدوسقدوس القوي قدوسقدوس الحىّ اللهآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_2">
-            <td class="coptic" ;">By the help of the Mighty God
+            <td class="english" ;">By the help of the Mighty God
                 The great Lord of lords
                 I'll explain the meaning of
                 Amen Alleluia</td>
             <td class="arabic">بمعونة رب قديرإله عظيم خبيرأشرح معنى تفسيرآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_3">
-            <td class="coptic" ;">How beautiful is its meaning
+            <td class="english" ;">How beautiful is its meaning
                 There is none, but our God
                 We praise Him high in His heaven
                 Amen Alleluia</td>
             <td class="arabic">معناه ياما أحلاهليس غير الله إلهنسبحه فوق أعلى سماهآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_4">
-            <td class="coptic" ;">Michael and Gabriel
+            <td class="english" ;">Michael and Gabriel
                 Raphael and Souriel
                 All praising Him saying
                 Amen Alleluia</td>
             <td class="arabic">ميخائيل وغبريالرافائيل وسورياليتلون تسابيح وأقوالآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_5">
-            <td class="coptic" ;">The heavenly Cherubim
+            <td class="english" ;">The heavenly Cherubim
                 And the mighty Seraphim
                 They also glorify Him
                 Amen Alleluia</td>
             <td class="arabic">تسبحة الشيروبيموأيضاً السيرافيمقائلين بصوت عظيمآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_6">
-            <td class="coptic" ;">Heavenly hosts of light
+            <td class="english" ;">Heavenly hosts of light
                 And all the spiritual ranks
                 Continuously praise Him
                 Amen Alleluia</td>
             <td class="arabic">أجناد نورانيةوطغمات روحانيةيصيحون علانيةآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_7">
-            <td class="coptic" ;">Myriads of myriads
+            <td class="english" ;">Myriads of myriads
                 Ranks around the Throne
                 Proclaiming before the Lord
                 Amen Alleluia</td>
             <td class="arabic">ربوات ربوات وألوفمن حول العرش صفوفيقولون وهم وقوفأمين الليلويا</td>
         </tr>
         <tr id="table_3_row_8">
-            <td class="coptic" ;">The four living creatures
+            <td class="english" ;">The four living creatures
                 Around the Throne of God
                 Pleading on our behalf
                 Amen Alleluia</td>
             <td class="arabic">والأربعة الكائناتمن تحت العرش ثباتيتلون كل الأوقاتآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_9">
-            <td class="coptic" ;">The first is like a lion
+            <td class="english" ;">The first is like a lion
                 A figure without body
                 Bowing to the King of Zion
                 Amen Alleluia</td>
             <td class="arabic">الأول شبه أسدصورة من غير جسدوأعين بلا عددآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_10">
-            <td class="coptic" ;">The second is like a calf
+            <td class="english" ;">The second is like a calf
                 A sign of sacrifice
                 Proclaiming unceasingly
                 Amen Alleluia</td>
             <td class="arabic">الثانى شبه الثوروهو منظر من نوريصيح بلا فتورآمين الليلويا|</td>
         </tr>
         <tr id="table_3_row_11">
-            <td class="coptic" ;">The third is like an eagle
+            <td class="english" ;">The third is like an eagle
                 Soaring in the heavens
                 Pleading before the Only-Begotten
                 Amen Alleluia</td>
             <td class="arabic">الثالث شبه عقابيسأل عن الطير بإيجابأمام وحيد الآبآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_12">
-            <td class="coptic" ;">The fourth has a face of man
+            <td class="english" ;">The fourth has a face of man
                 Asking forgiveness on our behalf
                 Before the Lord our God
                 Amen Alleluia</td>
             <td class="arabic">الرابع شبه إنسانيسأل عنا الغفرانأمام الله الديانآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_13">
-            <td class="coptic" ;">A scene encountered with light
+            <td class="english" ;">A scene encountered with light
                 They praise God who is seated
                 Up above on His throne
                 Amen Alleluia</td>
             <td class="arabic">منظر بالنور مكسىيسبحون فى ات هيمسىمن فوق أعلى الكرسىآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_14">
-            <td class="coptic" ;">Scenes with diversities
+            <td class="english" ;">Scenes with diversities
                 Seraphim with six wings
                 Praising continuously
                 Amen Alleluia</td>
             <td class="arabic">منظر بانواع شتىسيرافيم باجنحة ستةيصيحون بلا سكتةآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_15">
-            <td class="coptic" ;">The twenty-four elders
+            <td class="english" ;">The twenty-four elders
                 Priests of the high order
                 To Him they surrender
                 Amen Alleluia</td>
             <td class="arabic">والأربعة والعشرون قسيسكهنة بمقام نفيسيصيحون بالتقديسآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_16">
-            <td class="coptic" ;">The stars and the orbits
+            <td class="english" ;">The stars and the orbits
                 Praise Him throughout the way
                 Up high in the heavens
                 Amen Alleluia</td>
             <td class="arabic">وتسبحه الأفلاكالذين سلكوا الأسلاكمن فوق أعلى السمواتآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_17">
-            <td class="coptic" ;">Lucifer has become
+            <td class="english" ;">Lucifer has become
                 Satan after his pride
                 When he ceased to say
                 Amen Alleluia</td>
             <td class="arabic">سطانائيل قد صارشيطانا بالاستكبارلما بطل هذا التذكارآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_18">
-            <td class="coptic" ;">Pitiful is the one who hears it
+            <td class="english" ;">Pitiful is the one who hears it
                 In the midst of the congregation
                 And does not sing with it
                 Amen Alleluia</td>
             <td class="arabic">مسكين من يسمعهافى حضرة قائلهاولايتلو معهاآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_19">
-            <td class="coptic" ;">Alleluia is praise
+            <td class="english" ;">Alleluia is praise
                 Hymns and songs
                 We cry out saying
                 Amen Alleluia</td>
             <td class="arabic">الليلويا تسبيحوترتيل ومديحبها نصرخ ونصيحآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_20">
-            <td class="coptic" ;">Alleluia is pleasure
+            <td class="english" ;">Alleluia is pleasure
                 And it gives satisfaction
                 To utter two thousands
                 Amen Alleluia</td>
             <td class="arabic">الليلويا تنزيهوقائلها يكفيهيقول ألفين بفيةآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_21">
-            <td class="coptic" ;">Alleluia is pleasure
+            <td class="english" ;">Alleluia is pleasure
                 And it gives satisfaction
                 To utter two thousands
                 Amen Alleluia</td>
             <td class="arabic">الليلويا تنزيهوقائلها يكفيهيقول ألفين بفيةآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_22">
-            <td class="coptic" ;">Alleluia is joy
+            <td class="english" ;">Alleluia is joy
                 And it is a sweet language
                 It saves from damage
                 Amen Alleluia</td>
             <td class="arabic">الليلويا بهجةوهى أحلى لهجةوقائلها ينجىآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_23">
-            <td class="coptic" ;">Alleluia is exaltation
+            <td class="english" ;">Alleluia is exaltation
                 For a merciful God
                 Who is generous for generations
                 Amen Alleluia</td>
             <td class="arabic">الليلويا تعظيملإله رؤوف رحيمخفى الألطاف كريمآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_24">
-            <td class="coptic" ;">Alleluia is memorial
+            <td class="english" ;">Alleluia is memorial
                 For the great God of Wonders
                 We praise in great numbers
                 Amen Alleluia</td>
             <td class="arabic">الليلويا تذكارلإله عظيم ستاريجب له التذكارآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_25">
-            <td class="coptic" ;">Alleluia is a hymn
+            <td class="english" ;">Alleluia is a hymn
                 A praise and rejoice
                 And it's the best choice
                 Amen Alleluia</td>
             <td class="arabic">الليلويا ترتيلوتسبيح وتهليلوهى أفضل ما قيلآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_26">
-            <td class="coptic" ;">Blessed is the Creator
+            <td class="english" ;">Blessed is the Creator
                 Existent before the ages
                 Filling all places
                 Amen Alleluia</td>
             <td class="arabic">سبحانه مكون ماكانكائن قبل الأكوانما يخلى منه مكانآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_27">
-            <td class="coptic" ;">Blessed is the Mighty
+            <td class="english" ;">Blessed is the Mighty
                 Unseen and incomprehensible
                 He is adorable
                 Amen Alleluia</td>
             <td class="arabic">سبحانه جل ثناهخفى لاعين تراهولامعبود سواهآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_28">
-            <td class="coptic" ;">He created the waters
+            <td class="english" ;">He created the waters
                 The fire and the earth's ground
                 He made it from void
                 Amen Alleluia</td>
             <td class="arabic">سبحانه خلق من الماءناراً وأرضاً صماءأوجدها من العدماآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_29">
-            <td class="coptic" ;">Blessed is the zealous Lord
+            <td class="english" ;">Blessed is the zealous Lord
                 Merciful and forgiving
                 All deeds He is covering
                 Amen Alleluia</td>
             <td class="arabic">سبحانه رب غيوررؤوف رحيم غفورعلى كل فعل ستورآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_30">
-            <td class="coptic" ;">Purity for the righteous
+            <td class="english" ;">Purity for the righteous
                 Fulfilled by Alleluia
                 Let us all say together
                 Amen Alleluia</td>
             <td class="arabic">بالليلويا قد صارتحقيق بر الأبرارقولوا أيها الحضارآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_31">
-            <td class="coptic" ;">King David prophesied
+            <td class="english" ;">King David prophesied
                 And by it glorified
                 Words which are divinely prepared
                 Amen Alleluia</td>
             <td class="arabic">داود بها تنبأوبفضلها أنبأبأقوال منتسبةآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_32">
-            <td class="coptic" ;">In the book of the Psalms
+            <td class="english" ;">In the book of the Psalms
                 The hundred and fifty one psalms
                 And at the end of every psalm
                 Amen Alleluia</td>
             <td class="arabic">فى شرح سفر المزاميرالمائة واحد والخمسين مزموروفى آخر كل مزمورآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_33">
-            <td class="coptic" ;">It is prayed at all times
+            <td class="english" ;">It is prayed at all times
                 To the Creator of the heavens
                 And is explained in the canticles
                 Amen Alleluia</td>
             <td class="arabic">تقرأ سائر الأوقاتإلى خالق السمواتوفى شرح الهوساتآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_34">
-            <td class="coptic" ;">A fraction for the Korban
+            <td class="english" ;">A fraction for the Korban
                 Hippe Evshe Neman
                 In it the faith is clear
                 Amen Alleluia</td>
             <td class="arabic">وقسمة للقربانهيبى إفكى نيمانوفيها شرح الإيمانآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_35">
-            <td class="coptic" ;">David the pure proclaimed
+            <td class="english" ;">David the pure proclaimed
                 Mary the Virgin Lady
                 On the ten strings
                 Amen Alleluia</td>
             <td class="arabic">مدح داود البارمريم سيدة الأبكارعلى العشرة الأوتارآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_36">
-            <td class="coptic" ;">By the organ and the harp
+            <td class="english" ;">By the organ and the harp
                 The cymbals and the strings
                 The timbrel and chorus
                 Amen Alleluia</td>
             <td class="arabic">بالأرغن والقيثاروالصنوج والأوتاروالدف مع المزمارآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_37">
-            <td class="coptic" ;">He said, O daughter of Zion Your
+            <td class="english" ;">He said, O daughter of Zion Your
                 Lord loved you and chose you
                 Listen and incline your ears
                 Amen Alleluia</td>
             <td class="arabic">قال ياإبنة ربكاختارك وأحبكأصغى وانسى شعبكآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_38">
-            <td class="coptic" ;">For her he also said
+            <td class="english" ;">For her he also said
                 She is the high mountain of God
                 Above all other types
                 Amen Alleluia</td>
             <td class="arabic">وعنها أيضاً قالهى جبل الله العالأعلى من كل مثالآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_39">
-            <td class="coptic" ;">He called her Zion
+            <td class="english" ;">He called her Zion
                 And said she is the chosen one
                 From whom God will be human
                 Amen Alleluia</td>
             <td class="arabic">وسماها صهيونوقال سوف يكوناله سره مكنونآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_40">
-            <td class="coptic" ;">Again he named her
+            <td class="english" ;">Again he named her
                 The Queen who is
                 Embraced by light
                 Amen Alleluia</td>
             <td class="arabic">وسماها بالجملةالملكة المشتملةبالنور والحلةآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_41">
-            <td class="coptic" ;">He called all the nations
+            <td class="english" ;">He called all the nations
                 To clap hands and praise
                 Singing hymns and praises
                 Amen Alleluia</td>
             <td class="arabic">وقال جميع الأممتصفق بتراتيل وهمميتلون تسابيح بنغمآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_42">
-            <td class="coptic" ;">He said, "Blessed is the man
+            <td class="english" ;">He said, "Blessed is the man
                 Who is adorned with mercy
                 For the poor and the down-trodden
                 Amen Alleluia</td>
             <td class="arabic">وقال طوبى للإنسانالمتعطف بالإحسانعلى البائس والمهانآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_43">
-            <td class="coptic" ;">For God will save him
+            <td class="english" ;">For God will save him
                 And grant him many goods
                 To satisfy him for many years."
                 Amen Alleluia</td>
             <td class="arabic">فإن الرب ينجيهومن الخيرات يعطيهما يكفيه ويعافيهآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_44">
-            <td class="coptic" ;">Lord, we ask of You
+            <td class="english" ;">Lord, we ask of You
                 Keep Pope Tawadros the Great
                 Our Patriarch and grant him wisdom
                 Amen Alleluia</td>
             <td class="arabic">يارب إليك نسألإحفظ البابا تواضروس الأمثلبطريركنا واعطه الاقبالآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_45">
-            <td class="coptic" ;">Also keep in safety
+            <td class="english" ;">Also keep in safety
                 The ones who watch over us
                 Our metropolitans and bishops
                 Amen Alleluia</td>
             <td class="arabic">يارب طمناعلى الساهرين عنامطرانتنا واساقفتناآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_46">
-            <td class="coptic" ;">And keep, O Lord of lords
+            <td class="english" ;">And keep, O Lord of lords
                 All the beloved ones
                 Who are present and absent
                 Amen Alleluia</td>
             <td class="arabic">واحفظ يارب الأربابسائر كل الأحبابالحضار والغيابآمين الليلويا</td>
         </tr>
         <tr id="table_3_row_47">
-            <td class="coptic" ;">And also protect the reader
+            <td class="english" ;">And also protect the reader
                 Who said it to the audience
                 And living it in abundance
                 Amen Alleluia</td>
@@ -2827,15 +3240,15 @@ export const html = `<html>
         </tr>
     </table>
     <br>
-    <span class="toggle" id="toggle_table_20" data-title="Your Table Title Here"
-        onclick="toggleTable('table_20', this)">+ Your Table Title Here</span>
-    <table id="table_20" style="width: 100%; display: table; border-collapse: collapse;">
-        <tr id="table_20_row_0">
+    <span class="toggle" id="toggle_table_10" data-title="Your Table Title Here"
+        onclick="toggleTable('table_10', this)">+ Your Table Title Here</span>
+    <table id="table_10" style="width: 100%; display: table; border-collapse: collapse;">
+        <tr id="table_10_row_0">
             <td class="coptic" ;">REFRAIN:</td>
             <td class="arabic" ;">المرد:</td>
             <td class="english"></td>
         </tr>
-        <tr id="table_20_row_1">
+        <tr id="table_10_row_1">
             <td class="coptic" ;">The burning bush seen by Moses
                 The Prophet in the wilderness
                 The fire inside it was aflame
@@ -2843,7 +3256,7 @@ export const html = `<html>
             <td class="english" ;"></td>
             <td class="arabic">العليقة التى رآهاموسى النبى فى البريةوالنيران تشعل جواهاولم تمسسها بأذية</td>
         </tr>
-        <tr id="table_20_row_2">
+        <tr id="table_10_row_2">
             <td class="coptic" ;">The same with the Theotokos Mary
                 Carried the fire of Divinity
                 Nine months in her holy body
@@ -2853,17 +3266,17 @@ export const html = `<html>
         </tr>
     </table>
     <br>
-    <span class="toggle" id="toggle_table_21" data-title="Your Table Title Here"
-        onclick="toggleTable('table_21', this)">+ Your Table Title Here</span>
-    <table id="table_21" style="width: 100%; display: table; border-collapse: collapse;">
-        <tr id="table_21_row_0">
+    <span class="toggle" id="toggle_table_11" data-title="Your Table Title Here"
+        onclick="toggleTable('table_11', this)">+ Your Table Title Here</span>
+    <table id="table_11" style="width: 100%; display: table; border-collapse: collapse;">
+        <tr id="table_11_row_0">
             <td class="coptic" ;">Zephaniah proclaimed saying
                 About the economy of the Divine
                 “He will come as rain without cloud”
                 Blessed is the pride of the human race</td>
             <td class="arabic">صوفونيوس شرح بكلامعن تدبير اللاهوتيةقال ينزل كقطر بغير غمامطوباك يازين البشرية</td>
         </tr>
-        <tr id="table_21_row_1">
+        <tr id="table_11_row_1">
             <td class="coptic" ;">Daniel has seen the throne
                 Surrounded by luminous hosts
                 Upon it sat the Holy King
@@ -2871,14 +3284,14 @@ export const html = `<html>
             <td class="arabic">دانيال عاين بى إثرونوسوحوله طغمات نورانيةوعليه جلس الملك القدوسطوباك يازين البشرية
             </td>
         </tr>
-        <tr id="table_21_row_2">
+        <tr id="table_11_row_2">
             <td class="coptic" ;">He came down bowing the heavens
                 And took the flesh of the humans
                 While still in His Father's bosom
                 Blessed is the pride of the human race</td>
             <td class="arabic">طأطأ سماء السموات ونزل واتحد بالناسوتيةوهو فى حضن ابيه لم يزلطوباك يازين البشرية</td>
         </tr>
-        <tr id="table_21_row_3">
+        <tr id="table_11_row_3">
             <td class="coptic" ;">We saw wonders and miracles
                 In the books of the Christian Church
                 A pure virgin carried her Lord
@@ -2887,15 +3300,15 @@ export const html = `<html>
         </tr>
     </table>
     <br>
-    <span class="toggle" id="toggle_table_22" data-title="Your Table Title Here"
-        onclick="toggleTable('table_22', this)">+ Your Table Title Here</span>
-    <table id="table_22" style="width: 100%; display: table; border-collapse: collapse;">
-        <tr id="table_22_row_0">
+    <span class="toggle" id="toggle_table_12" data-title="Your Table Title Here"
+        onclick="toggleTable('table_12', this)">+ Your Table Title Here</span>
+    <table id="table_12" style="width: 100%; display: table; border-collapse: collapse;">
+        <tr id="table_12_row_0">
             <td class="coptic" ;">REFRAIN:</td>
             <td class="arabic" ;">المرد:</td>
             <td class="english"></td>
         </tr>
-        <tr id="table_22_row_1">
+        <tr id="table_12_row_1">
             <td class="coptic" ;">The burning bush seen by Moses
                 The Prophet in the wilderness
                 The fire inside it was aflame
@@ -2903,7 +3316,7 @@ export const html = `<html>
             <td class="english" ;"></td>
             <td class="arabic">العليقة التى رآهاموسى النبى فى البريةوالنيران تشعل جواهاولم تمسسها بأذية</td>
         </tr>
-        <tr id="table_22_row_2">
+        <tr id="table_12_row_2">
             <td class="coptic" ;">The same with the Theotokos Mary
                 Carried the fire of Divinity
                 Nine months in her holy body
@@ -2913,24 +3326,24 @@ export const html = `<html>
         </tr>
     </table>
     <br>
-    <span class="toggle" id="toggle_table_23" data-title="Your Table Title Here"
-        onclick="toggleTable('table_23', this)">+ Your Table Title Here</span>
-    <table id="table_23" style="width: 100%; display: table; border-collapse: collapse;">
-        <tr id="table_23_row_0">
+    <span class="toggle" id="toggle_table_13" data-title="Your Table Title Here"
+        onclick="toggleTable('table_13', this)">+ Your Table Title Here</span>
+    <table id="table_13" style="width: 100%; display: table; border-collapse: collapse;">
+        <tr id="table_13_row_0">
             <td class="coptic" ;">You are higher than all ranks
                 And above the heavenly hosts
                 And the ranks of the angels
                 Blessed is the pride of the human race</td>
             <td class="arabic">على قدرك عن كل الطقوسوعن الطغمات العلويةوعساكر نى أنجيلوسطوباك يازين البشرية</td>
         </tr>
-        <tr id="table_23_row_1">
+        <tr id="table_13_row_1">
             <td class="coptic" ;">The people’s sins He forgives
                 Of every good gift He gives
                 He took our form and loved it
                 Blessed is the pride of the human race</td>
             <td class="arabic">غافر كل خطايا شعبهومانحهم كل عطيةتشبه بالعبد وأحبهطوباك يازين البشرية</td>
         </tr>
-        <tr id="table_23_row_2">
+        <tr id="table_13_row_2">
             <td class="coptic" ;">You are above all the world
                 And the ranks and the soldiers
                 And the righteous and just
@@ -2938,7 +3351,7 @@ export const html = `<html>
             <td class="arabic">فقت عن سائر بى كوسموسنيم ني طغما نيم نيستراتيانيم نى إثمى نيم نى ذيكيئوس
                 طوباك يازين البشرية</td>
         </tr>
-        <tr id="table_23_row_3">
+        <tr id="table_13_row_3">
             <td class="coptic" ;">Say O people 'She is blessed'
                 The Lady of us all Mary
                 Before Whom you gave birth to
@@ -2948,15 +3361,15 @@ export const html = `<html>
         </tr>
     </table>
     <br>
-    <span class="toggle" id="toggle_table_24" data-title="Your Table Title Here"
-        onclick="toggleTable('table_24', this)">+ Your Table Title Here</span>
-    <table id="table_24" style="width: 100%; display: table; border-collapse: collapse;">
-        <tr id="table_24_row_0">
+    <span class="toggle" id="toggle_table_14" data-title="Your Table Title Here"
+        onclick="toggleTable('table_14', this)">+ Your Table Title Here</span>
+    <table id="table_14" style="width: 100%; display: table; border-collapse: collapse;">
+        <tr id="table_14_row_0">
             <td class="coptic" ;">REFRAIN:</td>
             <td class="arabic" ;">المرد:</td>
             <td class="english"></td>
         </tr>
-        <tr id="table_24_row_1">
+        <tr id="table_14_row_1">
             <td class="coptic" ;">The burning bush seen by Moses
                 The Prophet in the wilderness
                 The fire inside it was aflame
@@ -2964,7 +3377,7 @@ export const html = `<html>
             <td class="english" ;"></td>
             <td class="arabic">العليقة التى رآهاموسى النبى فى البريةوالنيران تشعل جواهاولم تمسسها بأذية</td>
         </tr>
-        <tr id="table_24_row_2">
+        <tr id="table_14_row_2">
             <td class="coptic" ;">The same with the Theotokos Mary
                 Carried the fire of Divinity
                 Nine months in her holy body
@@ -2974,31 +3387,31 @@ export const html = `<html>
         </tr>
     </table>
     <br>
-    <span class="toggle" id="toggle_table_25" data-title="Your Table Title Here"
-        onclick="toggleTable('table_25', this)">+ Your Table Title Here</span>
-    <table id="table_25" style="width: 100%; display: table; border-collapse: collapse;">
-        <tr id="table_25_row_0">
+    <span class="toggle" id="toggle_table_15" data-title="Your Table Title Here"
+        onclick="toggleTable('table_15', this)">+ Your Table Title Here</span>
+    <table id="table_15" style="width: 100%; display: table; border-collapse: collapse;">
+        <tr id="table_15_row_0">
             <td class="coptic" ;">You carried the Lord of glory
                 The Designer of the humanity
                 You resemble the Father’s throne
                 Blessed is the pride of the human race</td>
             <td class="arabic">رب المجد قد حملتمصور كل البشريةوبكرسي الآب تشبهتطوباك يازين البشرية</td>
         </tr>
-        <tr id="table_25_row_1">
+        <tr id="table_15_row_1">
             <td class="coptic" ;">He took from you the humanity
                 Uniting it with the Divinity
                 You held the One of the Trinity
                 Blessed is the pride of the human race</td>
             <td class="arabic">أخذ منك طبع الناسوتمتحداً باللاهوتيةوحملت الواحد من الثالوثطوباك يازين البشرية</td>
         </tr>
-        <tr id="table_25_row_2">
+        <tr id="table_15_row_2">
             <td class="coptic" ;">Who obtained what you received
                 In all the generations
                 Among the nations and people
                 Blessed is the pride of the human race</td>
             <td class="arabic">من نال مانلت يامريمفى سائر كل البشرية وكل الشعوب وكل الاممطوباك يازين البشرية</td>
         </tr>
-        <tr id="table_25_row_3">
+        <tr id="table_15_row_3">
             <td class="coptic" ;">We declare “She is blessed”
                 And also praise day and night
                 Him Who chose her beauty
@@ -3007,15 +3420,15 @@ export const html = `<html>
         </tr>
     </table>
     <br>
-    <span class="toggle" id="toggle_table_26" data-title="Your Table Title Here"
-        onclick="toggleTable('table_26', this)">+ Your Table Title Here</span>
-    <table id="table_26" style="width: 100%; display: table; border-collapse: collapse;">
-        <tr id="table_26_row_0">
+    <span class="toggle" id="toggle_table_16" data-title="Your Table Title Here"
+        onclick="toggleTable('table_16', this)">+ Your Table Title Here</span>
+    <table id="table_16" style="width: 100%; display: table; border-collapse: collapse;">
+        <tr id="table_16_row_0">
             <td class="coptic" ;">REFRAIN:</td>
             <td class="arabic" ;">المرد:</td>
             <td class="english"></td>
         </tr>
-        <tr id="table_26_row_1">
+        <tr id="table_16_row_1">
             <td class="coptic" ;">The burning bush seen by Moses
                 The Prophet in the wilderness
                 The fire inside it was aflame
@@ -3023,7 +3436,7 @@ export const html = `<html>
             <td class="english" ;"></td>
             <td class="arabic">العليقة التى رآهاموسى النبى فى البريةوالنيران تشعل جواهاولم تمسسها بأذية</td>
         </tr>
-        <tr id="table_26_row_2">
+        <tr id="table_16_row_2">
             <td class="coptic" ;">The same with the Theotokos Mary
                 Carried the fire of Divinity
                 Nine months in her holy body
@@ -3033,10 +3446,10 @@ export const html = `<html>
         </tr>
     </table>
     <br>
-    <span class="toggle" id="toggle_table_27" data-title="Your Table Title Here"
-        onclick="toggleTable('table_27', this)">+ Your Table Title Here</span>
-    <table id="table_27" style="width: 100%; display: table; border-collapse: collapse;">
-        <tr id="table_27_row_0">
+    <span class="toggle" id="toggle_table_17" data-title="Your Table Title Here"
+        onclick="toggleTable('table_17', this)">+ Your Table Title Here</span>
+    <table id="table_17" style="width: 100%; display: table; border-collapse: collapse;">
+        <tr id="table_17_row_0">
             <td class="coptic" ;">Guide me to repent, O, Mary
                 And wake from the slumber of days
                 Before time overtakes me
@@ -3044,63 +3457,63 @@ export const html = `<html>
             <td class="arabic">هيئي لى التوبة يامريمقبل ان يدنو الوقت عليّواستيقظ من غفلة الأياموانهض من بعد تواني
             </td>
         </tr>
-        <tr id="table_27_row_1">
+        <tr id="table_17_row_1">
             <td class="coptic" ;">And prepare myself before traveling
                 To work during the journey
                 Help me please, in this vain earth
                 Through the prayers of our Lady</td>
             <td class="arabic">واهيئ الزاد قبل السفرواجهز للحمل مطيةّساعدينى فى أرض قفرةبصلاة سيدة البشرية</td>
         </tr>
-        <tr id="table_27_row_2">
+        <tr id="table_17_row_2">
             <td class="coptic" ;">For I am lame and have little effort
                 And my burden is heavy
                 The Time has come to leave this world
                 And I have no refuge but Mary</td>
             <td class="arabic">لأنى عاجز وجهدى قليلوحملى مشطوط عليّوحان وقت السفر والرحيلوليس لي ملجأ الا هي</td>
         </tr>
-        <tr id="table_27_row_3">
+        <tr id="table_17_row_3">
             <td class="coptic" ;">We ask her and none other
                 Every day and every night
                 We hang on the tip of her dress
                 And her luminous vesture garments</td>
             <td class="arabic">يامن لانترجى سواهاونسألها باكر وعشيةونتعلق فى هدب رداهاوملابسها النورانية</td>
         </tr>
-        <tr id="table_27_row_4">
+        <tr id="table_17_row_4">
             <td class="coptic" ;">I greet the Mother of the Light
                 Mary, the help of all Christians
                 Of whom salvation was revealed
                 To all the people of Baptism</td>
             <td class="arabic">واقرئ سلامى لأم النورعون كل المسيحيةالتى منها الخلاص مشهورلجميع شعب المعمودية</td>
         </tr>
-        <tr id="table_27_row_5">
+        <tr id="table_17_row_5">
             <td class="coptic" ;">To protect us from all evil
                 And the plagues of this time
                 And help us all in every aspect
                 We, the Christian nations</td>
             <td class="arabic">تنجينا من الشرورومن الآفات الزمنيةوتساعدنا فى كل الاموروكل الشعوب المسيحية</td>
         </tr>
-        <tr id="table_27_row_6">
+        <tr id="table_17_row_6">
             <td class="coptic" ;">Everyone says “She is blessed”
                 Morning and vespers we ask her
                 Before Him whom she held in her womb
                 To intercede for everyone</td>
             <td class="arabic">يقول الكل طوباهاويسألونها باكر وعشيةقدام من حملت فى أحشاهاتشفع فينا الكل سوية</td>
         </tr>
-        <tr id="table_27_row_7">
+        <tr id="table_17_row_7">
             <td class="coptic" ;">The honored father our Patriarch
                 The pillar of the Christian faith
                 A good shepherd confirming us
                 With good plans and guidance</td>
             <td class="arabic">والأب الفاضل بطركناتاج الملة النصرانيةراعى الرعاة مثبتنابحسن سياسته للرعية</td>
         </tr>
-        <tr id="table_27_row_8">
+        <tr id="table_17_row_8">
             <td class="coptic" ;">The father of fathers who inherited
                 The priesthood of Melchizedek
                 In true faith and firm hope
                 And orthodox love</td>
             <td class="arabic">اب الآباء الحبر الوارثكهنوت ملكيصاداكيةبإيمان صحيح ورجاء ثابتومحبة ارثوذكسية</td>
         </tr>
-        <tr id="table_27_row_9">
+        <tr id="table_17_row_9">
             <td class="coptic" ;">Keeping his flock from the foxes
                 And all demonic snares
                 Protecting them from strange things
@@ -3110,10 +3523,10 @@ export const html = `<html>
         </tr>
     </table>
     <br>
-    <span class="toggle" id="toggle_table_28" data-title="Your Table Title Here"
-        onclick="toggleTable('table_28', this)">+ Your Table Title Here</span>
-    <table id="table_28" style="width: 100%; display: table; border-collapse: collapse;">
-        <tr id="table_28_row_0">
+    <span class="toggle" id="toggle_table_18" data-title="Your Table Title Here"
+        onclick="toggleTable('table_18', this)">+ Your Table Title Here</span>
+    <table id="table_18" style="width: 100%; display: table; border-collapse: collapse;">
+        <tr id="table_18_row_0">
             <td class="coptic" ;">Shepherding his people with a tender voice
                 With his spiritual teachings
                 O Lord, Let him enjoy his priesthood
@@ -3121,7 +3534,7 @@ export const html = `<html>
             <td class="english" ;"></td>
             <td class="arabic">راعي شعبة بحنان صوتهوتعاليمة الروحانيةهنيه يارب بكهنوتهبعمر فسيح وطمأنينة</td>
         </tr>
-        <tr id="table_28_row_1">
+        <tr id="table_18_row_1">
             <td class="coptic" ;">The father the doer of the law
                 And all the commandments
                 Abba Tawadros Pi-archi-Erevs
@@ -3132,10 +3545,10 @@ export const html = `<html>
         </tr>
     </table>
     <br>
-    <span class="toggle" id="toggle_table_29" data-title="Your Table Title Here"
-        onclick="toggleTable('table_29', this)">+ Your Table Title Here</span>
-    <table id="table_29" style="width: 100%; display: table; border-collapse: collapse;">
-        <tr id="table_29_row_0">
+    <span class="toggle" id="toggle_table_19" data-title="Your Table Title Here"
+        onclick="toggleTable('table_19', this)">+ Your Table Title Here</span>
+    <table id="table_19" style="width: 100%; display: table; border-collapse: collapse;">
+        <tr id="table_19_row_0">
             <td class="coptic" ;">And our honored fathers the bishops
                 His partners in the Apostolic service
                 Through their prayers we may become
@@ -3143,7 +3556,7 @@ export const html = `<html>
             <td class="arabic">والآباء الأفاضل اساقفتناشركاؤه فى الخدمةالرسوليةبقبول صلواتهم يجعلناأبناء الملكوت
                 الأبدية</td>
         </tr>
-        <tr id="table_29_row_1">
+        <tr id="table_19_row_1">
             <td class="coptic" ;">Confirm all of our clergy
                 Hegumens and presbyters
                 And keep our holy Church
