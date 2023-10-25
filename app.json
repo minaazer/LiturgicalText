@@ -16,7 +16,8 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.minaazer.liturgicalbooks"
+      "bundleIdentifier": "com.minaazer.liturgicalbooks",
+      "buildNumber": "1.0.1" 
     },
     "android": {
       "adaptiveIcon": {
@@ -25,7 +26,8 @@
       },
       "icon": "./assets/cymbals.png",
       "package": "com.minaazer.LiturgicalBooks",
-      "permissions": ["INTERNET", "ACCESS_NETWORK_STATE", "ACCESS_WIFI_STATE"]
+      "permissions": ["INTERNET", "ACCESS_NETWORK_STATE", "ACCESS_WIFI_STATE"],
+      "versionCode": 2  
     },
     "web": {
       "favicon": "./assets/favicon.png"

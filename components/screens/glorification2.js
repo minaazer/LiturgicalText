@@ -95,7 +95,7 @@ const MainContent = ({ webviewRef , setDrawerItems}) => {
         const yOffset = pageOffsets[currentPage + 1];
         console.log("current page" , currentPage , ' , ' , yOffset)
         webviewRef.current.injectJavaScript(`window.scrollTo(0, ${yOffset});`);
-        webviewRef.current.injectJavaScript(`clearoverlays()`);
+        webviewRef.current.injectJavaScript(`clearOverlays()`);
         webviewRef.current.injectJavaScript(`adjustOverlay()`);
 
     }
@@ -108,7 +108,7 @@ const handlePrevious = () => {
         setCurrentPage(prevPage => prevPage - 1);
         const yOffset = pageOffsets[currentPage - 1];
         webviewRef.current.injectJavaScript(`window.scrollTo(0, ${yOffset});`);
-        webviewRef.current.injectJavaScript(`clearoverlays()`);
+        webviewRef.current.injectJavaScript(`clearOverlays()`);
         webviewRef.current.injectJavaScript(`adjustOverlay()`);
 
     }
