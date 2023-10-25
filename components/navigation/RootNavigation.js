@@ -1,7 +1,7 @@
 import React from 'react';
-import { createDrawerNavigator , DrawerContentScrollView , DrawerItem } from '@react-navigation/drawer';
+import { createDrawerNavigator, DrawerContentScrollView, DrawerItem } from '@react-navigation/drawer';
 import { createStackNavigator } from '@react-navigation/stack';
-import { Dimensions , StyleSheet, View, Text } from 'react-native';
+import { Dimensions, StyleSheet, View, Text } from 'react-native';
 
 import Home from '../screens/home';
 //import Glorification from '../screens/glorification';
@@ -16,48 +16,48 @@ const screenWidth = Dimensions.get('window').width;
 
 function LeftDrawerContent(props) {
   return (
-      <DrawerContentScrollView 
-      style={styles.drawerContentScrollView} 
+    <DrawerContentScrollView
+      // drawerType={"slide"}
+      style={styles.drawerContentScrollView}
       contentContainerStyle={styles.drawerContentContainer}
       {...props}
-      >
-          <View style={styles.drawerHeaderContainer}>
-            <Text style={styles.drawerHeaderText}>Liturgical Books</Text>
-          </View>
-          {/* Normal Drawer Items go here */}
-          <DrawerItem label="Home" style = {styles.drawerItem} labelStyle = {styles.drawerLabel}  onPress={() => props.navigation.navigate('Home')} />
-          <DrawerItem label="Glorification" style = {styles.drawerItem} labelStyle = {styles.drawerLabel} onPress={() => props.navigation.navigate('Glorification')} />
-          <DrawerItem label="Kiahk" style = {styles.drawerItem} labelStyle = {styles.drawerLabel} onPress={() => props.navigation.navigate('Kiahk')} />
-          
-          <SettingsScreen style={styles.settingsScreen} />
-      </DrawerContentScrollView>
+    >
+      <View style={styles.drawerHeaderContainer}>
+        <Text style={styles.drawerHeaderText}>Liturgical Books</Text>
+      </View>
+      {/* Normal Drawer Items go here */}
+      <DrawerItem label="Home" style={styles.drawerItem} labelStyle={styles.drawerLabel} onPress={() => props.navigation.navigate('Home')} />
+      <DrawerItem label="Glorification" style={styles.drawerItem} labelStyle={styles.drawerLabel} onPress={() => props.navigation.navigate('Glorification')} />
+      <DrawerItem label="Kiahk" style={styles.drawerItem} labelStyle={styles.drawerLabel} onPress={() => props.navigation.navigate('Kiahk')} />
+
+      <SettingsScreen style={styles.settingsScreen} />
+    </DrawerContentScrollView>
   );
 }
 // Define the MainStackNavigator which nests all the main screens.
 const MainStackNavigator = () => {
   return (
     <Stack.Navigator initialRouteName="Home">
-      <Stack.Screen name="Home" component={Home} options={{headerShown : false}} />
-      <Stack.Screen name="Glorification" component={Glorification} options={{headerShown : false}}/>
-      <Stack.Screen name="Kiahk" component={Kiahk} options={{headerShown : false}}/>
+      <Stack.Screen name="Home" component={Home} options={{ headerShown: false }} />
+      <Stack.Screen name="Glorification" component={Glorification} options={{ headerShown: false }} />
+      <Stack.Screen name="Kiahk" component={Kiahk} options={{ headerShown: false }} />
     </Stack.Navigator>
   );
 };
 
 const RootNavigation = () => {
   return (
-    <Drawer.Navigator 
+    <Drawer.Navigator
       initialRouteName="MainStack" // Set the initial route to MainStack
       screenOptions={{
-        gestureEnabled : true,
-        swipeEdgeWidth: screenWidth /2 
+        gestureEnabled: true,
+        swipeEdgeWidth: screenWidth / 2,
+        drawerType: 'front',
       }}
       drawerContent={props => <LeftDrawerContent {...props} />}
-      drawerWidth={screenWidth * 0.1}      
 
-      
     >
-      <Drawer.Screen name="MainStack" component={MainStackNavigator} options={{headerShown: false, title: 'Home'}} />
+      <Drawer.Screen name="MainStack" component={MainStackNavigator} options={{ headerShown: false, title: 'Home' }} />
     </Drawer.Navigator>
   );
 };
@@ -68,20 +68,20 @@ const styles = StyleSheet.create({
     backgroundColor: '#003060',
     margin: 0,
     padding: 0,
-    
-    
+    flex: 1,
+
   },
   drawerContentContainer: {
-    
+
     margin: 0,
     paddingTop: 0,
     paddingBottom: 10,
-    
+
   },
 
   drawerHeaderContainer: {
     marginTop: 10,
-    
+
 
   },
   drawerHeaderText: {
@@ -101,9 +101,9 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginVertical: -5,
     padding: 0,
-    
-    
-    
+
+
+
   },
   drawerItem: {
     //remove the spacing between the items
@@ -111,8 +111,8 @@ const styles = StyleSheet.create({
     marginHorizontal: '5%',
     paddingVertical: 0,
     paddingHorizontal: 0,
-    
-    
+
+
   },
   settingsScreen: {
     shadowColor: 'black',
