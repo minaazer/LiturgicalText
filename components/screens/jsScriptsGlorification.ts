@@ -420,7 +420,7 @@ function clearOverlays() {
         overlay.parentNode.removeChild(overlay);
     });
 }
-
+true;
 
 `
 
