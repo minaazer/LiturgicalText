@@ -15,7 +15,7 @@ export const useDynamicStyles = (webviewRef) => {
             setFontSize(settings.fontSize);
             //webviewRef.current.injectJavaScript(`window.scrollTo(0, 0);`);
             webviewRef.current.injectJavaScript(`paginateTables();`);
-            webviewRef.current.injectJavaScript(`hideOverlays()`);
+            webviewRef.current.injectJavaScript(`clearoverlays()`);
             webviewRef.current.injectJavaScript(`adjustOverlay()`);
         
         }
