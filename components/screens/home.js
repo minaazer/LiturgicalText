@@ -1,6 +1,6 @@
 // screens/Home.js
 
-import React from 'react';
+import React, { useEffect , useState } from 'react';
 import { ImageBackground , View, Text, StyleSheet, TouchableOpacity , Image } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import backgroundImage from '../../assets/background.png';
@@ -8,46 +8,41 @@ import glorificationImage from '../../assets/hoserof.png';
 import kiahkImage from '../../assets/kiahk.png';
 import holyWeekImage from '../../assets/holyWeek.png';
 
-
-
-
 const Home = () => {
-
   const navigation = useNavigation();
 
   return (
     <ImageBackground source={backgroundImage} style={styles.backgroundImage} resizeMode='repeat'>
       <View style={styles.pageContainer}>
-      <Text style={styles.pageHeader}>Liturgical Books</Text>
+        <Text style={styles.pageHeader}>Liturgical Books</Text>
 
-    <View style={styles.container}>
-    <TouchableOpacity
-        style={styles.iconContainer}
-        onPress={() => navigation.navigate('Glorification')}
-      >
-        <Image source={glorificationImage} style={styles.iconImage} />
-        <Text style={styles.iconText}>Glorification</Text>
-      </TouchableOpacity>
-      
-      <TouchableOpacity
-        style={[styles.iconContainer , {backgroundColor: 'lightblue'}]}
-        onPress={() => navigation.navigate('Kiahk')}
-      >
-        <Image source={kiahkImage} style={styles.iconImage} />
-        <Text style={styles.iconText}>Kiahk</Text>
-      </TouchableOpacity>
-      
-      <TouchableOpacity
-        style={[styles.iconContainer , {backgroundColor: '#890089'}]}
-        onPress={() => navigation.navigate('Glorification2')}
-      >
-        <Image source={holyWeekImage} style={styles.iconImage} />
-        <Text style={[styles.iconText , {color : 'white'}]}>Holy Week</Text>
-      </TouchableOpacity>
-      
-    
-    </View>
-    </View>
+        <View style={styles.container}>
+          <TouchableOpacity
+            style={[styles.iconContainer , {backgroundColor: 'lightblue'}]}
+            onPress={() => navigation.navigate('Kiahk')}
+          >
+            <Image source={kiahkImage} style={styles.iconImage} />
+            <Text style={styles.iconText}>Kiahk</Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            style={[styles.iconContainer ]}
+            onPress={() => navigation.navigate('Glorification')}
+          >
+            <Image source={glorificationImage} style={styles.iconImage} />
+            <Text style={styles.iconText}>Glorification</Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            style={[styles.iconContainer , {opacity: 0.5 , backgroundColor: '#890089'}]}
+            //onPress={() => navigation.navigate('Glorification2')}
+          >
+            <Text style={styles.comingSoon}>Coming Soon</Text>
+            <Image source={holyWeekImage} style={styles.iconImage} />
+            <Text style={[styles.iconText , {color : 'white'}]}>Holy Week</Text>
+          </TouchableOpacity>
+        </View>
+      </View>
     </ImageBackground>
   );
 };
@@ -63,21 +58,19 @@ const styles = StyleSheet.create({
     justifyContent: 'space-evenly',
     alignItems: 'space-evenly',
     marginHorizontal: 10,
-    marginVertical: 20,
+    marginVertical: 0,
     flexDirection: 'column',
-
   },
   pageHeader: {
     fontSize: 40,
     fontWeight: 'bold',
-    fontFamily: 'Garamond Bold',
+    fontFamily: 'Garamond',
     textAlign: 'center',
     color: 'black',
     marginVertical: 20,
     textShadowColor: 'grey',
     textShadowOffset: { width: 1, height: 1 },
     textShadowRadius: 3,
-  
   },
   container: {
     flex: 1,
@@ -85,7 +78,6 @@ const styles = StyleSheet.create({
     alignItems: 'flex-start',
     flexDirection: 'row', 
     //flexWrap: 'wrap', // Allows for grid-like wrapping of items
-   
   },
   iconContainer: {
     width: 180,
@@ -112,14 +104,23 @@ const styles = StyleSheet.create({
   iconText: {
     fontSize: 30,
     fontWeight: 'bold',
-    fontFamily: 'Garamond Bold',
+    fontFamily: 'Garamond',
     textAlign: 'center',
     color: 'white',
     // Text shadow properties
-  textShadowColor: '#000',
-  textShadowOffset: { width: 1, height: 1 },
-  textShadowRadius: 3,
-  
+    textShadowColor: '#000',
+    textShadowOffset: { width: 1, height: 1 },
+    textShadowRadius: 3,
+  },
+  comingSoon: {
+    fontSize: 20,
+    fontFamily: 'Garamond',
+    textAlign: 'center',
+    color: 'white',
+    // Text shadow properties
+    textShadowColor: '#000',
+    textShadowOffset: { width: 1, height: 1 },
+    textShadowRadius: 3,
   },
   iconImage: {
     width: 100,

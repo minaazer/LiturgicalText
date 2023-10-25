@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "liturgicalbooks",
+  "private_key_id": "da30255921fea9d6007bf9e0ec57486cd8e37750",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDndaj2U8+FZg0Y\nN8p0g4HYeWo+A+uFzUk6+tOtqfkX6zgDh8ljDsM4R4k1u39AK514klWhmPPj6TKd\nROELY0BkfsNeUMOSfIiZuyf+CMHdivNYrz1Jt4O+vdcwmcAQjArbgiDf+nqMBEAQ\nzdY6O2tA76pHS4WTwAXufWW4wUK86qam2GMsKpjN3nkHfyVPeipp4J7qHP76phz/\njEcZTA99nqiN03omyEZj3ZvFSM7bktizZ19r7NHGgXwNFewrsOsV4ud48j4tAGBH\nBBeVzgPa7ycLISdivLcckqzYDCZLCz+zrl37nCxF6gbshUSvhmGG5/Ed2YExzu8w\no5VV3PnrAgMBAAECggEAJ796bRbWd+OfEw4dq+WbikfLeWvl6dvnnAPQDy410yg3\nPc/3QxYZa1RJmVsiDqyOxdJndzFTjMuSwBRAi1qXh8qHFW7MLx9IvBG6W/M4C6od\ngRjS7xJfQwXJ6xQ0OgM6qBiQObaDjgD62Yfnpqdmk0e1F7o97bIXsq2BJvm1Usir\niqBgIdxE3cxvkUdgXbFg8RUgQBB1/FhLXuJ/MHvw6sAnORCqFrfOiA6JAOJGxA3O\nd2sU/TVdQOE+00jT9JZ684FO5NlXH/SdOLauZ7jaO9jp14wuNf/ahAtQ6qDNThnl\nGXmspwEadOx8cTRcgXs1x6qfCBGONNDhay/e0KpZAQKBgQD2DRuF+mV7OI6Y/vK2\nrgbWX24WrFI1D6W6Hi+/R+kfIZJYeD6Zd1FZAu51/LW2Su8DSkcYg9ntNfpzw1qC\nMjfDGXhUXtD4YiJehwgdeiGfAW//Hrja3Yxs6FaG6xU3LFt0K2vPWZQDV7YiEvFk\nzMVPKT5WxkhFQo2yLpIuMWM26wKBgQDw0YOSOmSkhmrmpdGfouaU3n0Cv9zqob17\n6KHHyvI+a8l7/cqUHLTwlsjuovT7X7AdwxNqfJyLO9HXPvgyyyPj5RKSJKUWxM+s\nK5mYihQv4ULiiUoKTR39b+QwQPlBdtjwVse8GVqd3pDZsybnIlNcETPZ8r3eJ2Qg\nRDJcysKJAQKBgFNrMDilIwC6tQXD8e/jYmgNpJpFQ/2/V1WZZGC6dZvbWu1pnveS\nz16ZMtWHnue10gDQjvgNw7W7hjT3N1lKw0L/AJ/CIaEETFi1+RddT8bDyv+4n718\nPV6zCprlWqUBAeSJ0BxVZ2wWsaYtu++LyR1Eg2ESCnCI1tdhGKhWkCePAoGATFPb\nw+lGJO+Fyn0cJ+DV/LFYJhrxxlxlVnSxckXc6fP39JjIMJG4t9jS7vAvfc0iYQyH\nhuTgKTFYnUSUHmVMhtsAO9npiYHv4L4g/LwnEdXwASVKlmFC9CUWykSNvDYTJHoc\n7H2MvyTf/GBQIEo86Z16NcY+b79EeQWkgMyzRAECgYBI2sPBZZc4Fr3PVmlUbP1W\nA9O/NUslx7OK/RpmS0BrEzkx+f6Q5cZYJkFm/IkUKKezDHMgNfPr1KbyIomxTXNh\n7qT4OzHFeVi341pHQObMqnzhdNhhEgnjTPhscnwl/kQu+YK2HT6JNgcZg1WX+nga\nIs1qwar/GLWPD84Hkawjwg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "upload@liturgicalbooks.iam.gserviceaccount.com",
+  "client_id": "114733762206006720373",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/upload%40liturgicalbooks.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

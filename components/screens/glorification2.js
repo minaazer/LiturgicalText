@@ -1,321 +1,228 @@
-import React from 'react';
-import { useState , useRef , useEffect } from 'react';
-import { StyleSheet, View , Text , TouchableWithoutFeedback , Dimensions } from 'react-native';
-import flattenedData from '../../data/flattened_data.json';
-import { FlashList } from '@shopify/flash-list';
+import React, { useRef, useEffect , useState, useContext } from 'react';
+import { View, StyleSheet , TouchableOpacity } from 'react-native';
+import { WebView } from 'react-native-webview';
+import { getHtml } from '../../data/glorification';
+import { useDynamicStyles } from './cssStylesGlorification';
+import { SafeAreaProvider , SafeAreaView } from 'react-native-safe-area-context';
+import { Dimensions } from 'react-native';
+import { DrawerItem,  DrawerContentScrollView , createDrawerNavigator } from '@react-navigation/drawer';
+import SettingsContext from '../../settings/settignsContext';
 
 
 
-
-const Glorification2 = () => {
-
-    const [partiallyVisibleRow, setpartiallyVisibleRow] = useState(0);
-    const [bottomRowIndexArr, setBottomRowIndexArr] = useState([0]);
-    const [topRowIndexArr, setTopRowIndexArr] = useState([0]);
-    const [rowLayouts, setRowLayouts] = useState([]);
-
-    const flatListRef = useRef(null);
-    const rowRefs = useRef([]);
-
-
-
-    useEffect(() => {
-        // Initialize rowRefs with Ref objects for each row in flattenedData
-        rowRefs.current = flattenedData.map(() => React.createRef());
-      }, []);
-    
-    const RenderOverlay = (rowIndex , layouts) => {
-
-      let firstRow = topRowIndexArr[topRowIndexArr.length - 1]+1;
-      let lastRow = partiallyVisibleRow;
-
-      const visibleHeight = Object.values(layouts)
-      .filter((layout, index, self) => 
-        layout.rowIndex >= firstRow && 
-        layout.rowIndex <= lastRow && 
-        index === self.findIndex(l => l.rowIndex === layout.rowIndex)
-      )
-      .reduce((total, layout) => total + layout.height, 0);
-
-        const rowLayout =  Object.values(layouts).find((layout) => {
-
-            return layout.rowIndex === rowIndex+1;
-          }); 
-
-          if (!rowLayout) { 
-          return null;
-        }
-        if (visibleHeight === 0) {
-          return null;
-        }
+const RightDrawerContent = ({ drawerItems, handleDrawerItemPress , navigation ,  props }) => {
+  return (
+    <DrawerContentScrollView {...props}
+    >
       
-        // Extract position and other properties from rowLayout
-        const { height, width } = rowLayout;
-
-        // Define styles for the overlay
-        const overlayStyles = {
-          position: 'absolute',
-          top: visibleHeight,
-          left: 0,
-          width,
-          height: height,
-          backgroundColor: 'black'
-        };
-      
-        return (
-          <View style={overlayStyles}>       
-          </View>
-        );
-      };
-      
-    
-
-    const renderItem = ({ item }) => {
-      return (
-         <TranslationRow
-              data = {item}
-              itemIndex = {item.index} 
-            
+      {drawerItems.map((item, index) => (
+        <DrawerItem
+          key={item.id}
+          label={item.title}
+          onPress={() => {
+            handleDrawerItemPress(item.id);
+            navigation.closeDrawer();  // this line closes the drawer
+          }}
+          labelStyle={{ flex: 1, fontSize: 14, color: 'black'}}
           />
-      );  
-    };
+      ))}
+    </DrawerContentScrollView>
+  );
+};
 
-    const TranslationRow = ({ data , itemIndex }) => {
-        const enVerse = data?.enVerse || "";
-        const cpVerse = data?.cpVerse || "";
-        const arVerse = data?.arVerse || "";
-        const enPhonics = data?.enPhonics || "";
-        const arPhonics = data?.arPhonics || "";
-        const cpFont = data?.cpFont || "";
-        const enTitle = data?.enTitle || "";
-        const cpTitle = data?.cpTitle || "";
-        const arTitle = data?.arTitle || "";
-        const fontSize = data?.fontSize || 25;   
+const rightMenu = createDrawerNavigator();
 
-
-        const handleRowLayout = (rowIndex) => {
-          
-            // Check if the rowRef exists
-            if (rowRefs.current[itemIndex] && rowRefs.current[itemIndex].current) {
-              // Measure the layout of the row
-              rowRefs.current[itemIndex].current.measure(
-                (x, y, width, height, pageX, pageY) => {
-                    setRowLayouts((prevLayouts) => [
-                      ...prevLayouts,
-                      { rowIndex, width, height },
-                    ]);
-                }
-              );
-            }
-          };      
-      
-          
-        return (
-    
-            <View 
-            onLayout={() => handleRowLayout(itemIndex)}
-            ref={rowRefs.current[itemIndex]}
-            >
-                {(enTitle || arTitle || cpTitle) && (
-                    <View style={styles.row}>
-                        {enTitle && <Text style={[styles.title, {fontSize: fontSize}]}>{enTitle}</Text>}
-                        {arTitle && <Text style={[styles.title, {fontSize: fontSize}]}>{arTitle}</Text>}
-                    </View>
-                )}
-                <View style={styles.row}>
-                    <Text style={[styles.enText, {fontSize: fontSize}]}>{enVerse}</Text>
-                    <Text style={[styles.cpText, {fontSize: fontSize}, {fontFamily: cpFont}]}>{cpVerse}</Text>
-                    <Text style={[styles.arText, {fontSize: fontSize}]}>{arVerse}</Text>
-                </View>
-                <View style={styles.row}>
-                    <Text style={[styles.textHalfWidthEn, {fontSize: fontSize}]}>{enPhonics}</Text>
-                    <Text style={[styles.textHalfWidthAr, {fontSize: fontSize}]}>{arPhonics}</Text>
-                </View>
-            </View>
-        );
-    };
-    
-
-    const viewabilityConfig = {
-        viewAreaCoveragePercentThreshold: 90, // Adjust this threshold as needed
-        waitForInteraction: false,
-      };
-    
-      const onViewableItemsChanged = ({ viewableItems }) => {
-        if (viewableItems.length > 0) {
-          const lastVisibleItem = viewableItems[viewableItems.length - 1];
-          setpartiallyVisibleRow(lastVisibleItem.index+1);
-          setBottomRowIndexArr((prevArr) => prevArr.concat(lastVisibleItem.index+1));
-        }
-      };
-    
-
-      const handlePageTap = (event) => {
-        
-        const touchX = event.nativeEvent.pageX;
-          const screenWidth = Dimensions.get('window').width;
+const MainContent = ({ webviewRef , setDrawerItems}) => {
   
-          if (touchX < screenWidth / 2) {
-  
-            // Handle tap on the left side of the screen
-      if (flatListRef.current && bottomRowIndexArr.length > 0) {
-        // Find the current index within the BottomRowIndexArr array
-        const currentIndex = bottomRowIndexArr.findIndex(idx => idx === partiallyVisibleRow);
-  
-        // Calculate new index to scroll up
-        const newIndexInArray = currentIndex - 2;
-  
-        // Check if newIndexInArray is valid
-        if(newIndexInArray >= 0) {
-          const newIndex = bottomRowIndexArr[newIndexInArray];
-          setTopRowIndexArr((prevArr) => prevArr.concat(newIndex));
+  const [currentPage, setCurrentPage] = useState(0);
+  const [pageOffsets, setPageOffsets] = useState([]);
+  const [settings, setSettings] = useContext(SettingsContext);
 
-          // Scroll to the new index
-          flatListRef.current.scrollToIndex({
-            index: newIndex,
-            animated: null, // Set to true or false based on your requirement
-            viewPosition: 0, 
-          });        
-          RenderOverlay(partiallyVisibleRow, rowLayouts);
+  const dynamicStyles = useDynamicStyles(webviewRef);
+  const html = getHtml(dynamicStyles);
 
 
+  
+  const handleMessage = (event) => {
+    try {
+      const message = JSON.parse(event.nativeEvent.data);
+      webviewRef.current.injectJavaScript(`window.postMessage(JSON.stringify({ type: 'ACKNOWLEDGED' }));`);
+
+      if (message.type === 'TABLES_INFO') {
+        setDrawerItems(message.data);
+      }
+      else if (message.type === 'PAGINATION_DATA') {
+        setPageOffsets(message.data);
+      }
+      //set current page after right menu navigation
+      else if (message.type === 'CURRENT_PAGE_YOFFSET') {
+        const yOffset = message.data;
+        const pageIndex = pageOffsets.findIndex(offset => ((offset >= yOffset)));
+        if (pageOffsets[pageIndex] === yOffset) {
+        setCurrentPage(pageIndex);
+        } else {
+          setCurrentPage(pageIndex -1);
         }
       }
-          } else if (touchX >= screenWidth / 2 ) {
-  
-                if (flatListRef.current) {
-                  setTopRowIndexArr((prevArr) => prevArr.concat(partiallyVisibleRow));
+      else{
+        console.log("message:", message.type , message.data);
+      }
 
-                  // Scroll to the stored item index
-                  flatListRef.current.scrollToIndex({
-                    index: partiallyVisibleRow,
-                    animated: null, // Set to false if you don't want animation
-                    viewPosition: 0, 
-                  });
-                  RenderOverlay(partiallyVisibleRow, rowLayouts);
+        // After processing, send an acknowledgment back to WebView
 
-                }
-            } else {
-             
-          }
-      };
-  
+    } catch (error) {
+      console.error('Failed to parse message from WebView:', error);
+    }
 
-    
-    
+  };
 
+  const handlePageTap = (event) => {
+    const touchX = event.nativeEvent.pageX;
+    const screenWidth = Dimensions.get('window').width;
 
-
-    
-    return (
-        <View style={{ flex: 1 , marginTop:40 }}>
-        <TouchableWithoutFeedback  onPress={handlePageTap}>
-          <View style={{ flex: 1 }}>
-        <FlashList
-            data = {flattenedData}
-            keyExtractor={(item) => item.index}
-            contentContainerStyle={{backgroundColor : 'black'}}
-            renderItem={renderItem}
-            ref={flatListRef}
-            pagingEnabled={true}
-            viewabilityConfig={viewabilityConfig}
-            onViewableItemsChanged={onViewableItemsChanged}
-            estimatedItemSize={252}
-        />
-                {RenderOverlay(partiallyVisibleRow, rowLayouts)}
-          </View>
-        </TouchableWithoutFeedback>
-        </View>
-    )
+    if (touchX < screenWidth / 2) {
+      handlePrevious();
+    } else if (touchX >= screenWidth / 2) {
+      handleNext();
+    } else {
+    }
 };
+
+  const handleNext = () => {
+    if (currentPage < pageOffsets.length - 1) {
+
+        setCurrentPage(prevPage => prevPage + 1);
+        const yOffset = pageOffsets[currentPage + 1];
+        console.log("current page" , currentPage , ' , ' , yOffset)
+        webviewRef.current.injectJavaScript(`window.scrollTo(0, ${yOffset});`);
+        webviewRef.current.injectJavaScript(`hideOverlays()`);
+        webviewRef.current.injectJavaScript(`adjustOverlay()`);
+
+    }
+};
+
+const handlePrevious = () => {
+    if (currentPage > 0) {
+      console.log("current page" , currentPage)
+
+        setCurrentPage(prevPage => prevPage - 1);
+        const yOffset = pageOffsets[currentPage - 1];
+        webviewRef.current.injectJavaScript(`window.scrollTo(0, ${yOffset});`);
+        webviewRef.current.injectJavaScript(`hideOverlays()`);
+        webviewRef.current.injectJavaScript(`adjustOverlay()`);
+
+    }
+};
+
+useEffect(() => {
+  webviewRef.current.reload();
+}, [settings]);
+
+
+  return (
+    <View style={styles.container}>
+      <TouchableOpacity activeOpacity={1} onPress={handlePageTap} style={{flex: 1}}>
+
+      <WebView
+        ref={webviewRef}
+        //source={require('../../data/kiahk.html')}
+        source= {{html: html}}
+        scrollEnabled={false}
+        originWhitelist={['*']}
+        javaScriptEnabled={true}
+        domStorageEnabled={true}
+        startInLoadingState={true}
+        onMessage={handleMessage}
+        style={styles.webview}
+        userSelect="none"
         
+      />
+      </TouchableOpacity>
+
+    </View>
+  );
+};
+
+
+
+const Glorification = () => {
+  const [drawerItems, setDrawerItems] = useState([]);
+  const webviewRef = useRef(null);
+  const screenWidth = Dimensions.get('window').width;
+
+
+
+  const handleDrawerItemPress = (tableId) => {
+    const scrollToTableScript = `
+      var goToTableElement = document.getElementById('${tableId}');
+      var yOffset = goToTableElement ? goToTableElement.getBoundingClientRect().top + window.scrollY : 0;
+      goToTableElement.scrollIntoView();
+      window.ReactNativeWebView.postMessage(JSON.stringify({ type: 'CURRENT_PAGE_YOFFSET', data: yOffset }));
+
+
+      clearOverlays();
+      adjustOverlay();
+    `;
+    webviewRef.current.injectJavaScript(scrollToTableScript);
+  };
+
+  return (
+  <SafeAreaProvider>
+        <rightMenu.Navigator 
+        initialRouteName='MainContent'
+        drawerType='slide'
+        screenOptions={{
+          headerShown: false, // Hide the default header
+          gestureDirection: 'horizontal-inverted', // For RTL swipe gesture
+          drawerPosition: 'right',
+          swipeEdgeWidth: screenWidth /2 ,
+         }}
+         drawerContent={props => 
+            <RightDrawerContent 
+              {...props}
+              drawerItems={drawerItems} 
+              handleDrawerItemPress={handleDrawerItemPress} />}
+        >
+
+            <rightMenu.Screen name="Glorification Menu">
+              {() => <MainContent webviewRef={webviewRef} setDrawerItems={setDrawerItems} />}
+            </rightMenu.Screen>
+
+          </rightMenu.Navigator>
+  </SafeAreaProvider>
+);
+        };
 
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        alignItems: 'center',
-        justifyContent: 'center',
-        paddingHorizontal: 5,
-        paddingTop: 1,
-        paddingBottom: 20,
-        backgroundColor: 'black',
-        zIndex: 999999,
-    },
-    overlayText: {
-        color: 'red',
-        fontSize: 30,
-        fontFamily: 'Times New Roman',
-        textAlign: 'center',
-    },
-    separator: {
-        width: Dimensions.get('window').width, // Full width of the screen
-        height: 50, // Height of the separator
-        backgroundColor: 'gray', // Separator color
-      },
+  container: {
+    flex: 1,
+    marginTop: 0,
+    marginBottom: 0,
 
-    tableContainer: {
-   
-        width: '100%',
-        height: '100%'
-    },
-    viewPager: {
-        flex: 1,
-        backgroundColor: 'black',
-        width: '100%',
-        paddingTop: 2,
-    },
-    row: {
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        width: '100%',
-        paddingHorizontal: 2,
-        paddingVertical: 2,
-        backgroundColor: 'black',
-    },
-    column: {
-        flexDirection: 'column',
-        justifyContent: 'flex-start',
-        width: '100%',
-        backgroundColor: 'black',
-        
-    },
-    enText: {
-        width: '35%',
-        fontSize: 30,
-        color: 'white',
-        fontFamily: 'Times New Roman'
-    },
-    cpText: {
-        width: '39%',
-        fontSize: 30,
-        color: 'white',
-    },
-    arText: {
-        width: '25%',
-        fontSize: 30,
-        color: 'white',
-    },
-    // New style for 50% width
-    textHalfWidthEn: {
-        width: '55%',
-        color: 'yellow',
-        fontSize: 30,
-        fontFamily: 'Times New Roman'
-    },
-    textHalfWidthAr: {
-        width: '45%',
-        color: 'yellow',
-        fontSize: 30,
-        fontFamily: 'Times New Roman'
-    },
-    title: {
-        width: '50%',
-        color: 'yellow',
-        fontSize: 30,
-        fontFamily: 'Times New Roman',
-        textAlign: 'center'
-    }
+    paddingVertical: 5,
+    backgroundColor: 'black',
+    marginBottom: 0,
+  },
+  webview: {
+    flex: 1,
+  },
+  leftControl: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    bottom: 0,
+    width: '50%',
+    backgroundColor: 'rgba(255,255,255,0.1)', // semi-transparent
+  },
+  rightControl: {
+    position: 'absolute',
+    top: 0,
+    right: 0,
+    bottom: 0,
+    width: '50%',
+    backgroundColor: 'rgba(255,255,255,0.1)', // semi-transparent
+  },
 });
 
-export default Glorification2;
+export default Glorification;

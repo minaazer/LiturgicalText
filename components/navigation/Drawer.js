@@ -7,7 +7,6 @@ const Drawer = createDrawerNavigator();
 function MyDrawer() {
   return (
     <Drawer.Navigator>
-      <Drawer.Screen name="Glorification" component={Glorification} />
       <Drawer.Screen name="Home" component={Home} />
     </Drawer.Navigator>
   );

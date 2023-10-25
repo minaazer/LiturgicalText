@@ -38,13 +38,18 @@ export const useDynamicStyles = (webviewRef) => {
 
 :root {
  --fontSize: 26px;
+ --copticFont: 'Arial Coptic';
 }
 
 
 html {
  background-color: black;
 }
-
+@font-face{
+    font-family: "Free Serif Athanasius";
+    src:
+        url("https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/FreeSerifAthanasius.ttf") format('truetype');
+}
 @font-face {
  font-family: "Arial Coptic";
  src: 
@@ -65,6 +70,8 @@ html {
  font-style: normal;
 }
 
+
+
 table {
 page-break-before: always; /* Use for older browsers */
 break-before: page; /* Modern browsers */
@@ -76,6 +83,10 @@ width: 100% !important;
 table-layout: fixed;
 border-collapse: collapse;
 
+}
+
+tbody {
+    font-size: ${fontSize}vw;
 }
 
 tr {
@@ -106,8 +117,9 @@ break-before: auto;
     text-align: center;
 
 }
-.coptic-caption {
-    font-family: 'Arial Coptic' !important;
+
+.caption-coptic {
+    font-family: var(--copticFont) !important;
 }
 
 body {
@@ -122,13 +134,12 @@ body {
 }
 
 .south {
-    color: rgba(173, 216, 230);
+    color: white;
 }
 
 .arabic {
     text-align: right;
     direction: rtl !important;
-    font-size: ${fontSize}vw;
     vertical-align: top ;
     padding-bottom: 10px;
     text-align: justify;
@@ -139,9 +150,8 @@ body {
 }
 
 .coptic {
-    font-size: ${fontSize}vw;
     vertical-align: top ;
-    font-family: 'Arial Coptic' !important;
+    font-family: var(--copticFont) !important;
     border-right: 1px solid rgba(211, 211, 211, 0.3)
     ; 
     padding-right: 10px;
@@ -152,7 +162,6 @@ body {
 
 }
 .english {
-    font-size: ${fontSize}vw;
     vertical-align: top ;
     font-family: 'EB Garamond' !important;
     padding-right: 10px;
@@ -163,7 +172,6 @@ body {
 }
 
 .enPhonics {
-    font-size: ${fontSize}vw;
     vertical-align: top ;
     font-family: 'EB Garamond' !important;
     padding-right: 10px;
@@ -177,7 +185,6 @@ body {
 .arPhonics {
         text-align: right;
         direction: rtl !important;
-        font-size: ${fontSize}vw;
         vertical-align: top ;
         padding-bottom: 10px;
         text-align: justify;
@@ -187,12 +194,10 @@ body {
         color: #FDFD96 !important;
     
 }
-
-.refrain {
-    color: #FDFD96 !important;
-}
     
-
+.refrain {
+    color: lightblue;
+}
 
 #drawer {
  position: fixed;

@@ -15,6 +15,7 @@ export default ({ config }) => ({
   assetBundlePatterns: ["**/*"],
   ios: {
     supportsTablet: true,
+    bundleIdentifier: "com.minaazer.liturgicalbooks"
   },
   android: {
     adaptiveIcon: {

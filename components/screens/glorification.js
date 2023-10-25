@@ -121,7 +121,7 @@ const MainContent = ({ navigation , route }) => {
             >
                 {flattenedData.map((data, index) => (
                     <View key={index} style={{ flex: 1 }}>
-                        <TouchableOpacity style={{ flex: 1 }} onPress={handlePageTap}>
+                        <TouchableOpacity activeOpacity={1} style={{ flex: 1 }} onPress={handlePageTap}>
                             <TranslationRow 
                                 data={data}
                                 availableHeight={screenHeight-30}

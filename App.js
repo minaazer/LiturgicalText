@@ -1,10 +1,11 @@
 import 'react-native-gesture-handler';
 import React, { useState, useEffect, useRef, useMemo } from 'react';
-import { TouchableOpacity, StyleSheet, View, Dimensions } from 'react-native';
+import { StatusBar, StyleSheet, } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import * as Font from 'expo-font';
 import * as SplashScreen from 'expo-splash-screen';
 import RootNavigation from './components/navigation/RootNavigation';
+import SettingsContext from './settings/settignsContext';
 
 // Prevent the splash screen from auto-hiding
 SplashScreen.preventAutoHideAsync();
@@ -13,6 +14,15 @@ SplashScreen.preventAutoHideAsync();
 const App = () => {
   const [fontLoaded, setFontLoaded] = useState(false);
   const [appIsReady, setAppIsReady] = useState(false);
+  const [settings, setSettings] = React.useState({
+
+    fontSize: '4',
+    languages: [
+      { label: 'English', value: 'English' , checked: true },
+      { label: 'Arabic', value: 'Arabic' , checked: true },
+      { label: 'Coptic', value: 'Coptic' , checked: true },
+    ]
+  });
 
   
   
@@ -22,10 +32,15 @@ const App = () => {
       'Athanasius'  : require('./assets/fonts/athanasius.ttf'),
       'New Athanasius'  : require('./assets/fonts/newath.ttf'),
       'Times New Roman': require('./assets/fonts/times.ttf'),
-      'Garamond'  : require('./assets/fonts/GARA.ttf'),
+      'Garamond'  : require('./assets/fonts/Garamond.ttf'),
       'Garamond Bold'  : require('./assets/fonts/GARABD.ttf'),
       'ArialCoptic' : require('./assets/fonts/ArialCoptic.ttf'),
     });
+
+    //catch errors
+
+    
+
     setFontLoaded(true);
   }
   
@@ -70,10 +85,15 @@ if (!fontLoaded) {
    
 
     return (
-
+      <SettingsContext.Provider value={[settings, setSettings]}>
       <NavigationContainer>
+        
+        <StatusBar hidden />
         <RootNavigation />
+
       </NavigationContainer>
+      </SettingsContext.Provider>
+
         
   );
 };
