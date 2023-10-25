@@ -1,7 +1,7 @@
 // screens/Home.js
 
-import React, { useEffect , useState } from 'react';
-import { ImageBackground , View, Text, StyleSheet, TouchableOpacity , Image } from 'react-native';
+import React, { useEffect, useState } from 'react';
+import { ImageBackground, View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import backgroundImage from '../../assets/background.png';
 import glorificationImage from '../../assets/hoserof.png';
@@ -18,7 +18,7 @@ const Home = () => {
 
         <View style={styles.container}>
           <TouchableOpacity
-            style={[styles.iconContainer , {backgroundColor: 'lightblue'}]}
+            style={[styles.iconContainer, { backgroundColor: 'lightblue' }]}
             onPress={() => navigation.navigate('Kiahk')}
           >
             <Image source={kiahkImage} style={styles.iconImage} />
@@ -26,7 +26,7 @@ const Home = () => {
           </TouchableOpacity>
 
           <TouchableOpacity
-            style={[styles.iconContainer ]}
+            style={[styles.iconContainer]}
             onPress={() => navigation.navigate('Glorification')}
           >
             <Image source={glorificationImage} style={styles.iconImage} />
@@ -34,12 +34,12 @@ const Home = () => {
           </TouchableOpacity>
 
           <TouchableOpacity
-            style={[styles.iconContainer , {opacity: 0.5 , backgroundColor: '#890089'}]}
-            //onPress={() => navigation.navigate('Glorification2')}
+            style={[styles.iconContainer, { opacity: 0.5, backgroundColor: '#890089' }]}
+          //onPress={() => navigation.navigate('Glorification2')}
           >
             <Text style={styles.comingSoon}>Coming Soon</Text>
             <Image source={holyWeekImage} style={styles.iconImage} />
-            <Text style={[styles.iconText , {color : 'white'}]}>Holy Week</Text>
+            <Text style={[styles.iconText, { color: 'white' }]}>Holy Week</Text>
           </TouchableOpacity>
         </View>
       </View>
@@ -49,34 +49,29 @@ const Home = () => {
 
 const styles = StyleSheet.create({
   backgroundImage: {
-    flex: 1,
     width: '100%',
     height: '100%',
   },
   pageContainer: {
-    flex: 1,
-    justifyContent: 'space-evenly',
-    alignItems: 'space-evenly',
-    marginHorizontal: 10,
-    marginVertical: 0,
+    display: "flex",
     flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: "100%",
+    height: "100%"
   },
   pageHeader: {
     fontSize: 40,
-    fontWeight: 'bold',
-    fontFamily: 'Garamond',
+    fontFamily: 'Garamond Bold',
     textAlign: 'center',
     color: 'black',
     marginVertical: 20,
-    textShadowColor: 'grey',
-    textShadowOffset: { width: 1, height: 1 },
-    textShadowRadius: 3,
   },
   container: {
     flex: 1,
     justifyContent: 'space-evenly',
     alignItems: 'flex-start',
-    flexDirection: 'row', 
+    flexDirection: 'row',
     //flexWrap: 'wrap', // Allows for grid-like wrapping of items
   },
   iconContainer: {
@@ -90,21 +85,20 @@ const styles = StyleSheet.create({
     borderColor: '#ccc',
     borderRadius: 10,
     backgroundColor: '#f5d693',
-    
+
     // iOS shadow properties
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.25,
     shadowRadius: 3.84,
-    
+
     // Android shadow properties
     elevation: 5,
   },
-  
+
   iconText: {
     fontSize: 30,
-    fontWeight: 'bold',
-    fontFamily: 'Garamond',
+    fontFamily: 'Garamond Bold',
     textAlign: 'center',
     color: 'white',
     // Text shadow properties

@@ -1,5 +1,5 @@
 
-import React, {  useContext } from 'react';
+import React, { useContext } from 'react';
 import { StyleSheet, Text, View, Dimensions, ScrollView } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
 import { Checkbox } from 'react-native-paper';
@@ -23,9 +23,9 @@ const SettingsScreen = () => {
 
     const setLanguagesHandler = (value, checked) => {
         console.log(checked, value);
-    
+
         const updatedSettings = {
-            ...settings, 
+            ...settings,
             languages: settings.languages.map((lang, index) => {
                 if (index === value) {
                     return {
@@ -36,10 +36,10 @@ const SettingsScreen = () => {
                 return lang;
             })
         };
-        
+
         setSettings(updatedSettings);
     }
-    
+
 
     const handleBackPress = () => {
         navigation.goBack();
@@ -48,55 +48,55 @@ const SettingsScreen = () => {
 
     return (
         <ScrollView>
-        <View style={styles.container}>
+            <View style={styles.container}>
 
-            <Text style={styles.title}>Settings</Text>
+                <Text style={styles.title}>Settings</Text>
 
-            <View style={styles.settingsContainer}>
+                <View style={styles.settingsContainer}>
 
-                <View style={styles.fontSetting}>
-                    <Text style={styles.settingTitle}>Font Size</Text>
-                    <Picker
-                        selectedValue={settings.fontSize}
-                        style={styles.picker}
-                        onValueChange={(itemValue, itemIndex) => setFontSizeHandler(itemValue)}
-                        dropdownIconColor={'white'}
-                    >
-                        <Picker.Item label="1" value="1" />
-                        <Picker.Item label="2" value="2" />
-                        <Picker.Item label="3" value="3" />
-                        <Picker.Item label="4" value="4" />
-                        <Picker.Item label="5" value="5" />
-                        <Picker.Item label="6" value="6" />
- 
-                    </Picker>
+                    <View style={styles.fontSetting}>
+                        <Text style={styles.settingTitle}>Font Size</Text>
+                        <Picker
+                            selectedValue={settings.fontSize}
+                            style={styles.picker}
+                            onValueChange={(itemValue, itemIndex) => setFontSizeHandler(itemValue)}
+                            dropdownIconColor={'white'}
+                        >
+                            <Picker.Item label="1" value="1" />
+                            <Picker.Item label="2" value="2" />
+                            <Picker.Item label="3" value="3" />
+                            <Picker.Item label="4" value="4" />
+                            <Picker.Item label="5" value="5" />
+                            <Picker.Item label="6" value="6" />
 
-                </View>
+                        </Picker>
 
-                <View style={styles.setting}>
+                    </View>
 
-                    <Text style={styles.settingTitle}>Languages</Text>
+                    <View style={styles.setting}>
 
-                    <View style={styles.languagesContainer}>
+                        <Text style={styles.settingTitle}>Languages</Text>
 
-                        {settings.languages && settings.languages.map((language, index) => (
-                            <View key={index} style={styles.language}>
-                                <Text style={styles.languageTitle}>{language.label}</Text>
-                                <Checkbox
-                                    status={language.checked ? 'checked' : 'unchecked'}
-                                    onPress={() => setLanguagesHandler(index, !language.checked)}
-                                    color={'#e19d09'}
-                                />
-                            </View>
-                        ))}
+                        <View style={styles.languagesContainer}>
+
+                            {settings.languages && settings.languages.map((language, index) => (
+                                <View key={index} style={styles.language}>
+                                    <Text style={styles.languageTitle}>{language.label}</Text>
+                                    <Checkbox
+                                        status={language.checked ? 'checked' : 'unchecked'}
+                                        onPress={() => setLanguagesHandler(index, !language.checked)}
+                                        color={'#e19d09'}
+                                    />
+                                </View>
+                            ))}
+
+                        </View>
 
                     </View>
 
                 </View>
 
             </View>
-
-        </View>
         </ScrollView>
     );
 }
@@ -109,12 +109,13 @@ const styles = StyleSheet.create({
         backgroundColor: '#fff',
         alignItems: 'center',
         justifyContent: 'flex-start',
-        paddingTop: '10px',
+        paddingTop: 10,
         borderRadius: 20,
-        paddingBottom: '10px',
-        marginHorizontal: '5%',
+        paddingBottom: 10,
+        marginHorizontal: 20,
         backgroundColor: 'rgba(195, 224, 229, 0.3)',
-        
+        marginTop: 10,
+
     },
 
     title: {
@@ -123,7 +124,7 @@ const styles = StyleSheet.create({
         marginBottom: '0%',
         color: '#e19d09',
 
-        
+
     },
 
     settingsContainer: {
@@ -133,9 +134,9 @@ const styles = StyleSheet.create({
     },
 
     fontSetting: {
-        display : 'flex',
-        flexDirection: 'row',
-        alignItems: 'center',
+        display: 'flex',
+        flexDirection: Platform.OS === 'ios' ? "column" : 'row',
+        alignItems: Platform.OS === 'ios' ? "flex-start" : 'center',
         justifyContent: 'space-between',
         width: '100%',
         marginBottom: '1%',
@@ -148,22 +149,25 @@ const styles = StyleSheet.create({
     settingTitle: {
         fontSize: screenWidth * 0.03,
         fontWeight: 'bold',
-        marginBottom: '0%',
         flex: 1,
         color: 'white',
+        marginBottom: 10
     },
 
     languagesContainer: {
         width: '100%',
-        flexDirection: 'row',
+        flexDirection: Platform.OS === 'ios' ? 'column' : 'row',
         justifyContent: 'space-between',
         paddingVertical: '5px',
     },
 
+
     language: {
-        width: '30%',
+        width: Platform.OS === 'ios' ? '100%' : '30%',
+        display: "flex",
+        flexDirection: Platform.OS !== 'ios' ? 'column' : "row",
         alignItems: 'center',
-        justifyContent: 'center',
+        justifyContent: Platform.OS === 'ios' ? "flex-start" : 'center',
     },
 
     languageTitle: {
@@ -171,16 +175,12 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         marginBottom: '5%',
         color: 'white',
-
     },
 
     picker: {
-        height: 50,
-        marginBottom: '0%',
-        marginTop: '0%',
         flex: 1,
-        color: 'white',
-
+        width: Platform.OS === 'ios' ? "100%" : "auto",
+        overflow: "hidden"
     },
 
 });
