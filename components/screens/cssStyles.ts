@@ -101,7 +101,6 @@ break-before: auto;
     font-size: ${fontSize}vw;
     font-family: 'EB Garamond' !important;
     color:  yellow;
-    width: '100%' !important;
     display: block;
     text-align: center;
 
@@ -111,10 +110,9 @@ break-before: auto;
 }
 
 body {
- overflow: hidden;
+ overflow-horizontal: hidden;
  color: white;
  font-size: ${fontSize}vw;
- width: '100%' !important;
 }
 
 .north {

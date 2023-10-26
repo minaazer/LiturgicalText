@@ -5,10 +5,10 @@ export const useDynamicStyles = (webviewRef) => {
     const [settings] = useContext(SettingsContext);
     const [fontSize, setFontSize] = useState(26);
     const [visibleLangues, setVisibleLangues] = useState([
-        { label: 'English', value: 'English' , checked: true },
-        { label: 'Arabic', value: 'Arabic' , checked: true },
-        { label: 'Coptic', value: 'Coptic' , checked: true },
-      ]);
+        { label: 'English', value: 'English', checked: true },
+        { label: 'Arabic', value: 'Arabic', checked: true },
+        { label: 'Coptic', value: 'Coptic', checked: true },
+    ]);
 
     useEffect(() => {
         if (settings.fontSize) {
@@ -17,14 +17,14 @@ export const useDynamicStyles = (webviewRef) => {
             webviewRef.current.injectJavaScript(`paginateTables();`);
             webviewRef.current.injectJavaScript(`clearOverlays()`);
             webviewRef.current.injectJavaScript(`adjustOverlay()`);
-        
+
         }
 
         if (settings.languages) {
-            
+
             setVisibleLangues(settings.languages);
         }
-    }, [settings.fontSize , settings.languages]);
+    }, [settings.fontSize, settings.languages]);
 
     const cssStyles = `
 * {
@@ -123,7 +123,7 @@ break-before: auto;
 }
 
 body {
- overflow: hidden;
+    overflow-horizontal: hidden;
  color: white;
  font-size: ${fontSize}vw;
  width: '100%' !important;
