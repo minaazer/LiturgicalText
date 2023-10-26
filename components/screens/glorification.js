@@ -111,7 +111,6 @@ const MainContent = ({ navigation , route }) => {
             <PagerView 
                 style={styles.viewPager} 
                 initialPage={pageIndex}
-                scrollEnabled={false} 
                 ref={pagerRef}
                 onPageSelected={e => setCurrentPage(e.nativeEvent.position)}
                 pageMargin={10}

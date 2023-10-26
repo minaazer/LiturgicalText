@@ -123,7 +123,6 @@ const handlePrevious = () => {
         ref={webviewRef}
         //source={require('../../data/kiahk.html')}
         source= {{html: html}}
-        scrollEnabled={false}
         originWhitelist={['*']}
         javaScriptEnabled={true}
         domStorageEnabled={true}
