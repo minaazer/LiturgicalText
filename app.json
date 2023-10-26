@@ -2,7 +2,7 @@
   "expo": {
     "name": "LiturgicalBooks",
     "slug": "LiturgicalBooks",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "orientation": "landscape",
     "icon": "./assets/cymbals.png",
     "userInterfaceStyle": "light",
@@ -17,17 +17,20 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.minaazer.liturgicalbooks",
-      "buildNumber": "1.0.1" 
+      "buildNumber": "4"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/cymbals.png",
-        "backgroundColor": "transparent"
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
       },
-      "icon": "./assets/cymbals.png",
       "package": "com.minaazer.LiturgicalBooks",
-      "permissions": ["INTERNET", "ACCESS_NETWORK_STATE", "ACCESS_WIFI_STATE"],
-      "versionCode": 2  
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE",
+        "ACCESS_WIFI_STATE"
+      ],
+      "versionCode": 5
     },
     "web": {
       "favicon": "./assets/favicon.png"

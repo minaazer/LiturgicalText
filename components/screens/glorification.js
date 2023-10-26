@@ -1,188 +1,227 @@
-import React, { useState, useEffect, useRef, useMemo } from 'react';
-import { TouchableOpacity, StyleSheet, View, Dimensions, Button } from 'react-native';
+import React, { useRef, useEffect , useState, useContext } from 'react';
+import { View, StyleSheet , TouchableOpacity } from 'react-native';
+import { WebView } from 'react-native-webview';
+import { getHtml } from '../../data/glorification';
+import { useDynamicStyles } from '../css/cssStylesGlorification';
 import { SafeAreaProvider , SafeAreaView } from 'react-native-safe-area-context';
-import { StatusBar } from 'expo-status-bar';
-import PagerView from 'react-native-pager-view';
-import TranslationRow from '../TranslationRow'; 
-import combinedData from '../../data/combined_data.json';
-import * as SplashScreen from 'expo-splash-screen';
+import { Dimensions } from 'react-native';
 import { DrawerItem,  DrawerContentScrollView , createDrawerNavigator } from '@react-navigation/drawer';
-const PageIndexContext = React.createContext();
+import SettingsContext from '../../settings/settignsContext';
 
-const PageIndexProvider = ({ children }) => {
-    const [pageIndex, setPageIndex] = useState(0);
 
-    return (
-        <PageIndexContext.Provider value={{ pageIndex, setPageIndex }}>
-            {children}
-        </PageIndexContext.Provider>
-    );
+
+const RightDrawerContent = ({ drawerItems, handleDrawerItemPress , navigation ,  props }) => {
+  return (
+    <DrawerContentScrollView {...props}
+    >
+      
+      {drawerItems.map((item, index) => (
+        <DrawerItem
+          key={item.id}
+          label={item.title}
+          onPress={() => {
+            handleDrawerItemPress(item.id);
+            navigation.closeDrawer();  // this line closes the drawer
+          }}
+          labelStyle={{ flex: 1, fontSize: 14, color: 'black'}}
+          />
+      ))}
+    </DrawerContentScrollView>
+  );
 };
-
-function RightDrawerContent(props) {
-    const { state, navigation } = props;
-    const { setPageIndex } = React.useContext(PageIndexContext);
-  
-    const calculatePageIndex = (sectionIndex) => {
-        let pageIndex = 0;
-        for (let i = 0; i < sectionIndex; i++) {
-            pageIndex += combinedData[i].text.length;
-        }
-        return pageIndex;
-    };
-
-    return (
-        <DrawerContentScrollView {...props}>
-         
-            {combinedData.map((section, index) => (
-                <DrawerItem 
-                    key={index} 
-                    label={section.enTitle} 
-                    onPress={() => {
-                        const pageIndex = calculatePageIndex(index);
-                        console.log("Navigating to MainContent with pageIndex:", pageIndex);
-                        setPageIndex(pageIndex);
-                        navigation.closeDrawer();
-
-                    }}
-                />
-            ))}
-        </DrawerContentScrollView>
-    );
-}
 
 const rightMenu = createDrawerNavigator();
 
-SplashScreen.preventAutoHideAsync();
+const MainContent = ({ webviewRef , setDrawerItems}) => {
+  
+  const [currentPage, setCurrentPage] = useState(0);
+  const [pageOffsets, setPageOffsets] = useState([]);
+  const [settings, setSettings] = useContext(SettingsContext);
 
-const MainContent = ({ navigation , route }) => {
-    console.log("MainContent route:", route);
-    const { pageIndex, setPageIndex } = React.useContext(PageIndexContext);
+  const dynamicStyles = useDynamicStyles(webviewRef);
+  const html = getHtml(dynamicStyles);
 
 
-    const [screenHeight, setScreenHeight] = useState(Dimensions.get('window').height);
+  
+  const handleMessage = (event) => {
+    try {
+      const message = JSON.parse(event.nativeEvent.data);
+      webviewRef.current.injectJavaScript(`window.postMessage(JSON.stringify({ type: 'ACKNOWLEDGED' }));`);
 
-    useEffect(() => {
-        const updateHeight = ({ window }) => {
-            setScreenHeight(window.height - 20);
-        };
-
-        const dimensionsSubscription = Dimensions.addEventListener('change', updateHeight);
-        return () => dimensionsSubscription && dimensionsSubscription.remove();
-    }, []);
-
-    const pagerRef = useRef(null);
-    const [currentPage, setCurrentPage] = useState(0);
-
-    const flattenedData = useMemo(() => combinedData.flatMap(section => 
-        section.text.map((data, rowIndex) => {
-            if (rowIndex === 0) {
-                return { ...data, enTitle: section.enTitle, arTitle: section.arTitle };
-            }
-            return data;
-        })
-    ), []);
-
-    const handlePageTap = (event) => {
-        const touchX = event.nativeEvent.pageX;
-        const screenWidth = Dimensions.get('window').width;
-
-        if (touchX < screenWidth / 2 && currentPage > 0) {
-            pagerRef.current.setPageWithoutAnimation(currentPage - 1);
-            setCurrentPage(currentPage - 1);
-        } else if (touchX >= screenWidth / 2 && currentPage + 1 < flattenedData.length) {
-            pagerRef.current.setPageWithoutAnimation(currentPage + 1);
-            setCurrentPage(currentPage + 1);
-        } else {
-            pagerRef.current.setPageWithoutAnimation(0);
-            setCurrentPage(0);
-        }
-    };
-
-    
-    
-    useEffect(() => {
-        pagerRef.current && pagerRef.current.setPageWithoutAnimation(pageIndex);
+      if (message.type === 'TABLES_INFO') {
+        setDrawerItems(message.data);
+      }
+      else if (message.type === 'PAGINATION_DATA') {
+        setPageOffsets(message.data);
+      }
+      //set current page after right menu navigation
+      else if (message.type === 'CURRENT_PAGE_YOFFSET') {
+        const yOffset = message.data;
+        const pageIndex = pageOffsets.findIndex(offset => ((offset >= yOffset)));
+        if (pageOffsets[pageIndex] === yOffset) {
         setCurrentPage(pageIndex);
-    }, [pageIndex]);
-    
-    return (
-        <View style={styles.container}>
-            <PagerView 
-                style={styles.viewPager} 
-                initialPage={pageIndex}
-                ref={pagerRef}
-                onPageSelected={e => setCurrentPage(e.nativeEvent.position)}
-                pageMargin={10}
-                orientation={'horizontal'}
-                offscreenPageLimit={2}
-                overScrollMode={'never'}
-            >
-                {flattenedData.map((data, index) => (
-                    <View key={index} style={{ flex: 1 }}>
-                        <TouchableOpacity activeOpacity={1} style={{ flex: 1 }} onPress={handlePageTap}>
-                            <TranslationRow 
-                                data={data}
-                                availableHeight={screenHeight-30}
-                            />
-                        </TouchableOpacity>
-                    </View>
-                ))}
-            </PagerView>
-            <StatusBar style='dark' />
-        </View>
-    );
-};
+        } else {
+          setCurrentPage(pageIndex -1);
+        }
+      }
+      else{
+        console.log("message:", message.type , message.data);
+      }
 
-const Glorification = () => {
+        // After processing, send an acknowledgment back to WebView
+
+    } catch (error) {
+      console.error('Failed to parse message from WebView:', error);
+    }
+
+  };
+
+  const handlePageTap = (event) => {
+    const touchX = event.nativeEvent.pageX;
     const screenWidth = Dimensions.get('window').width;
 
-    return (
-        <SafeAreaProvider>
-            <PageIndexProvider>
-            <rightMenu.Navigator 
-                initialRouteName="MainContent"
-                drawerType="slide"
-                screenOptions={{
-                    headerShown: false, // Hide the default header
-                    gestureDirection: 'horizontal-inverted', // For RTL swipe gesture
-                    drawerPosition: 'right',
-                    swipeEdgeWidth: screenWidth /2 ,
-                }}
-                drawerContent={props => <RightDrawerContent {...props} />}
-
-                 >
-                {combinedData.map((section, index) => (
-                    <rightMenu.Screen 
-                        key={index} 
-                        name={`Section-${index}`} 
-                        component={MainContent} 
-                        options={{ drawerLabel: section.enTitle }} 
-                        
-                    />
-                ))}
-            </rightMenu.Navigator>
-            </PageIndexProvider>
-        </SafeAreaProvider>
-    );
+    if (touchX < screenWidth / 2) {
+      handlePrevious();
+    } else if (touchX >= screenWidth / 2) {
+      handleNext();
+    } else {
+    }
 };
 
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        alignItems: 'center',
-        justifyContent: 'center',
-        paddingHorizontal: 5,
-        paddingTop: 1,
-        paddingBottom: 20,
-        backgroundColor: 'black',
-    },
-    viewPager: {
-        flex: 1,
-        backgroundColor: 'black',
-        width: '100%',
-        paddingTop: 2,
+  const handleNext = () => {
+    if (currentPage < pageOffsets.length - 1) {
+
+        setCurrentPage(prevPage => prevPage + 1);
+        const yOffset = pageOffsets[currentPage + 1];
+        console.log("current page" , currentPage , ' , ' , yOffset)
+        webviewRef.current.injectJavaScript(`window.scrollTo(0, ${yOffset});`);
+        webviewRef.current.injectJavaScript(`clearOverlays()`);
+        webviewRef.current.injectJavaScript(`adjustOverlay()`);
+
     }
+};
+
+const handlePrevious = () => {
+    if (currentPage > 0) {
+      console.log("current page" , currentPage)
+
+        setCurrentPage(prevPage => prevPage - 1);
+        const yOffset = pageOffsets[currentPage - 1];
+        webviewRef.current.injectJavaScript(`window.scrollTo(0, ${yOffset});`);
+        webviewRef.current.injectJavaScript(`clearOverlays()`);
+        webviewRef.current.injectJavaScript(`adjustOverlay()`);
+
+    }
+};
+
+useEffect(() => {
+  webviewRef.current.reload();
+}, [settings]);
+
+
+  return (
+    <View style={styles.container}>
+      <TouchableOpacity activeOpacity={1} onPress={handlePageTap} style={{flex: 1}}>
+
+      <WebView
+        ref={webviewRef}
+        //source={require('../../data/kiahk.html')}
+        source= {{html: html}}
+        originWhitelist={['*']}
+        javaScriptEnabled={true}
+        domStorageEnabled={true}
+        startInLoadingState={true}
+        onMessage={handleMessage}
+        style={styles.webview}
+        userSelect="none"
+        
+      />
+      </TouchableOpacity>
+
+    </View>
+  );
+};
+
+
+
+const Glorification = () => {
+  const [drawerItems, setDrawerItems] = useState([]);
+  const webviewRef = useRef(null);
+  const screenWidth = Dimensions.get('window').width;
+
+
+
+  const handleDrawerItemPress = (tableId) => {
+    const scrollToTableScript = `
+      var goToTableElement = document.getElementById('${tableId}');
+      var yOffset = goToTableElement ? goToTableElement.getBoundingClientRect().top + window.scrollY : 0;
+      goToTableElement.scrollIntoView();
+      window.ReactNativeWebView.postMessage(JSON.stringify({ type: 'CURRENT_PAGE_YOFFSET', data: yOffset }));
+
+
+      clearOverlays();
+      adjustOverlay();
+    `;
+    webviewRef.current.injectJavaScript(scrollToTableScript);
+  };
+
+  return (
+  <SafeAreaProvider>
+        <rightMenu.Navigator 
+        initialRouteName='MainContent'
+        drawerType='slide'
+        screenOptions={{
+          headerShown: false, // Hide the default header
+          gestureDirection: 'horizontal-inverted', // For RTL swipe gesture
+          drawerPosition: 'right',
+          swipeEdgeWidth: screenWidth /2 ,
+         }}
+         drawerContent={props => 
+            <RightDrawerContent 
+              {...props}
+              drawerItems={drawerItems} 
+              handleDrawerItemPress={handleDrawerItemPress} />}
+        >
+
+            <rightMenu.Screen name="Glorification Menu">
+              {() => <MainContent webviewRef={webviewRef} setDrawerItems={setDrawerItems} />}
+            </rightMenu.Screen>
+
+          </rightMenu.Navigator>
+  </SafeAreaProvider>
+);
+        };
+
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    marginTop: 0,
+    marginBottom: 0,
+
+    paddingVertical: 5,
+    backgroundColor: 'black',
+    marginBottom: 0,
+  },
+  webview: {
+    flex: 1,
+  },
+  leftControl: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    bottom: 0,
+    width: '50%',
+    backgroundColor: 'rgba(255,255,255,0.1)', // semi-transparent
+  },
+  rightControl: {
+    position: 'absolute',
+    top: 0,
+    right: 0,
+    bottom: 0,
+    width: '50%',
+    backgroundColor: 'rgba(255,255,255,0.1)', // semi-transparent
+  },
 });
 
 export default Glorification;

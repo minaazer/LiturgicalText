@@ -6,7 +6,7 @@ import { Dimensions, StyleSheet, View, Text } from 'react-native';
 import Home from '../screens/home';
 //import Glorification from '../screens/glorification';
 import Kiahk from '../screens/kiahk';
-import Glorification from '../screens/glorification2';
+import Glorification from '../screens/glorification';
 import SettingsScreen from '../screens/settings';
 
 const Drawer = createDrawerNavigator();

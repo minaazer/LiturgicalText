@@ -1,4 +1,4 @@
-import { htmlRenderScript } from "../components/screens/jsScripts";
+import { htmlRenderScript } from "../components/functions/jsScripts";
 export const getHtml = (dynamicStyles) => `
 <html>
 <head>

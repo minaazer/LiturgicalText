@@ -2,7 +2,7 @@ import React, { useRef, useEffect , useState, useContext } from 'react';
 import { View, StyleSheet , TouchableOpacity } from 'react-native';
 import { WebView } from 'react-native-webview';
 import { getHtml } from '../../data/kiahk';
-import { useDynamicStyles } from './cssStyles';
+import { useDynamicStyles } from '../css/cssStyles';
 import { SafeAreaProvider , SafeAreaView } from 'react-native-safe-area-context';
 import { Dimensions } from 'react-native';
 import { DrawerItem,  DrawerContentScrollView , createDrawerNavigator } from '@react-navigation/drawer';
