@@ -116,6 +116,7 @@ const handlePrevious = () => {
 
 useEffect(() => {
   webviewRef.current.reload();
+  setCurrentPage(0);
 }, [settings]);
 
 
