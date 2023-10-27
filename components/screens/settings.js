@@ -47,7 +47,7 @@ const SettingsScreen = () => {
 
 
     return (
-        <ScrollView>
+        <ScrollView style={styles.scrollView}>
             <View style={styles.container}>
 
                 <Text style={styles.title}>Settings</Text>
@@ -60,7 +60,7 @@ const SettingsScreen = () => {
                             selectedValue={settings.fontSize}
                             style={styles.picker}
                             onValueChange={(itemValue, itemIndex) => setFontSizeHandler(itemValue)}
-                            dropdownIconColor={'white'}
+                            dropdownIconColor={'black'}
                         >
                             <Picker.Item label="1" value="1" />
                             <Picker.Item label="2" value="2" />
@@ -104,6 +104,10 @@ const SettingsScreen = () => {
 
 const styles = StyleSheet.create({
 
+    scrollView: {
+        backgroundColor: '#003060',
+    },
+
     container: {
         flex: 1,
         backgroundColor: '#fff',
@@ -111,10 +115,10 @@ const styles = StyleSheet.create({
         justifyContent: 'flex-start',
         paddingTop: 10,
         borderRadius: 20,
-        paddingBottom: 10,
+        paddingBottom: 0,
         marginHorizontal: 20,
-        backgroundColor: 'rgba(195, 224, 229, 0.3)',
-        marginTop: 10,
+        backgroundColor: 'white',
+        marginVertical: 10,
 
     },
 
@@ -123,6 +127,7 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         marginBottom: '0%',
         color: '#e19d09',
+        marginTop: 15,
 
 
     },
@@ -150,7 +155,7 @@ const styles = StyleSheet.create({
         fontSize: screenWidth * 0.03,
         fontWeight: 'bold',
         flex: 1,
-        color: 'white',
+        color: 'black',
         marginBottom: 10
     },
 
@@ -158,7 +163,7 @@ const styles = StyleSheet.create({
         width: '100%',
         flexDirection: Platform.OS === 'ios' ? 'column' : 'row',
         justifyContent: 'space-between',
-        paddingVertical: 5,
+        paddingTop: 5,
     },
 
 
@@ -173,8 +178,8 @@ const styles = StyleSheet.create({
     languageTitle: {
         fontSize: 18,
         fontWeight: 'bold',
-        marginBottom: '5%',
-        color: 'white',
+        marginBottom: '0%',
+        color: 'black',
     },
 
     picker: {

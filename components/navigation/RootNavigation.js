@@ -29,8 +29,7 @@ function LeftDrawerContent(props) {
       <DrawerItem label="Home" style={styles.drawerItem} labelStyle={styles.drawerLabel} onPress={() => props.navigation.navigate('Home')} />
       <DrawerItem label="Glorification" style={styles.drawerItem} labelStyle={styles.drawerLabel} onPress={() => props.navigation.navigate('Glorification')} />
       <DrawerItem label="Kiahk" style={styles.drawerItem} labelStyle={styles.drawerLabel} onPress={() => props.navigation.navigate('Kiahk')} />
-
-      <SettingsScreen style={styles.settingsScreen} />
+      <DrawerItem label="Settings" style={styles.drawerItem} labelStyle={styles.drawerLabel} onPress={() => props.navigation.navigate('Settings')} />      
     </DrawerContentScrollView>
   );
 }
@@ -41,6 +40,7 @@ const MainStackNavigator = () => {
       <Stack.Screen name="Home" component={Home} options={{ headerShown: false }} />
       <Stack.Screen name="Glorification" component={Glorification} options={{ headerShown: false }} />
       <Stack.Screen name="Kiahk" component={Kiahk} options={{ headerShown: false }} />
+      <Stack.Screen name="Settings" component={SettingsScreen} options={{ headerShown: false }} />
     </Stack.Navigator>
   );
 };
