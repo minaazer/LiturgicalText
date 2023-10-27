@@ -101,9 +101,10 @@ break-before: auto;
 
 body {
     overflow-horizontal: hidden;
- color: white;
- font-size: ${fontSize}vw;
- width: '100%' !important;
+    touch-action: none;
+    color: white;
+    font-size: ${fontSize}vw;
+    width: '100%' !important;
 }
 
 .north {

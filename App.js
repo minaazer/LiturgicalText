@@ -6,6 +6,11 @@ import * as Font from 'expo-font';
 import * as SplashScreen from 'expo-splash-screen';
 import RootNavigation from './components/navigation/RootNavigation';
 import SettingsContext from './settings/settignsContext';
+import {
+  SafeAreaView,
+  SafeAreaProvider,
+  useSafeAreaInsets,
+} from 'react-native-safe-area-context';
 
 // Prevent the splash screen from auto-hiding
 SplashScreen.preventAutoHideAsync();
@@ -38,6 +43,8 @@ const App = () => {
       'NotoSansBold' : require('./assets/fonts/NotoSans-Bold.ttf'),
       'NotoSans' : require('./assets/fonts/NotoSans-Regular.ttf'),
       'NotoSansMedium' : require('./assets/fonts/NotoSans-Medium.ttf'),
+      'Georgia' : require('./assets/fonts/georgia.ttf'),
+      'Georgia Bold' : require('./assets/fonts/georgiab.ttf'),
     });
 
     //catch errors
@@ -88,6 +95,8 @@ if (!fontLoaded) {
    
 
     return (
+      <SafeAreaProvider>
+      <SafeAreaView style={{ flex: 1, backgroundColor: 'black' }}>
       <SettingsContext.Provider value={[settings, setSettings]}>
       <NavigationContainer>
         
@@ -96,7 +105,8 @@ if (!fontLoaded) {
 
       </NavigationContainer>
       </SettingsContext.Provider>
-
+      </SafeAreaView>
+      </SafeAreaProvider>
         
   );
 };

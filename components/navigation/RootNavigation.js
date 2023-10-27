@@ -1,7 +1,7 @@
 import React from 'react';
 import { createDrawerNavigator, DrawerContentScrollView, DrawerItem } from '@react-navigation/drawer';
 import { createStackNavigator } from '@react-navigation/stack';
-import { Dimensions, StyleSheet, View, Text } from 'react-native';
+import { Dimensions, StyleSheet, View, Text , Platform } from 'react-native';
 
 import Home from '../screens/home';
 //import Glorification from '../screens/glorification';
@@ -36,7 +36,9 @@ function LeftDrawerContent(props) {
 // Define the MainStackNavigator which nests all the main screens.
 const MainStackNavigator = () => {
   return (
-    <Stack.Navigator initialRouteName="Home">
+    <Stack.Navigator initialRouteName="Home" 
+    screenOptions = {{ gestureEnabled: Platform.os !== 'ios' , gestureDirection: 'horizontal'}}
+    >
       <Stack.Screen name="Home" component={Home} options={{ headerShown: false }} />
       <Stack.Screen name="Glorification" component={Glorification} options={{ headerShown: false }} />
       <Stack.Screen name="Kiahk" component={Kiahk} options={{ headerShown: false }} />
@@ -73,33 +75,34 @@ const styles = StyleSheet.create({
   },
   drawerContentContainer: {
 
-    margin: 0,
+    ...(Platform.OS === 'ios' && { marginLeft: -60 }),
     paddingTop: 0,
     paddingBottom: 10,
 
   },
 
   drawerHeaderContainer: {
-    marginTop: 10,
+    marginVertica: 10,
 
 
   },
   drawerHeaderText: {
     textAlign: 'center',
-    fontSize: screenWidth * 0.04,
-    fontWeight: 'bold',
+    fontSize: screenWidth * 0.03,
+    fontFamily: 'Georgia Bold',
     color: '#e19d09',
     textShadowColor: 'grey',
     textShadowRadius: 5,
     textShadowOffset: { width: 1, height: 1 },
+    elevation: 5,
 
   },
 
   drawerLabel: {
-    fontSize: screenWidth * 0.035,
+    fontSize: screenWidth * 0.025,
     color: 'white',
-    fontWeight: 'bold',
-    marginVertical: -5,
+    fontFamily: 'Georgia',
+    marginVertical: -7,
     padding: 0,
 
 

@@ -27,7 +27,7 @@ const RightDrawerContent = ({ drawerItems, handleDrawerItemPress , navigation , 
             handleDrawerItemPress(item.id);
             navigation.closeDrawer();  // this line closes the drawer
           }}
-          labelStyle={{ flex: 1, fontSize: 14, color: 'black', backgroundColor: 'blue'}}
+          labelStyle={styles.labelStyle}
           style={styles.itemContainerStyle}
           itemStyle={styles.itemStyle}
           numberOfLines={null}
@@ -135,8 +135,7 @@ const handlePrevious = () => {
 
 
   return (
-    <View style={styles.container}>
-      <View activeOpacity={1} onTouchStart={handleTouchStart} onTouchEnd={handleTouchEnd}  style={{flex: 1}}>
+      <View style={styles.container} activeOpacity={1} onTouchStart={handleTouchStart} onTouchEnd={handleTouchEnd} >
 
       <WebView
         ref={webviewRef}
@@ -153,7 +152,6 @@ const handlePrevious = () => {
       />
       </View>
 
-    </View>
   );
 };
 
