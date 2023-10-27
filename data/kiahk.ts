@@ -9306,19 +9306,19 @@ ${htmlRenderScript}
                 by the Lord Himself,
                 you bore the Creator,
                 O what a great marvel!</td>
+                <td class="enPhonics" style="border-right: 1px solid black;">
+                Ya meem reh yeh meem,
+                ya set el-abkar,
+                qad nelty taazeem,
+                men noor el-anwar,
+                wa wohebty taazeem,
+                men endoo qad sar,
+                wa Hamalty al-khaleq,
+                man za la yaHtar.</td>
             <td class="arabic">يا م ر ى م ياست الأبكار قد نلت تعظيم من نور الأنوار ووهبت تعظيم من عنده قد صار وحملت
                 الخالق من ذا لا يحتار</td>
         </tr>
-        <tr id="table_61_row_1" class="south">
-            <td class="english" style="border-right: 1px solid black;">Ya meem reh yeh meem,
-                qad nelty taazeem,
-                wa wohebty taazeem,
-                wa Hamalty al-khaleq,</td>
-            <td class="arabic">ya set el-abkar,
-                men noor el-anwar,
-                men endoo qad sar,
-                man za la yaHtar.</td>
-        </tr>
+
         <tr id="table_61_row_2" class="north">
             <td class="english" style="border-right: 1px solid black;">Wondrous among nations,
                 wisdom to rulers,
@@ -9332,13 +9332,14 @@ ${htmlRenderScript}
                 ابنة يواقيم قد فقتي الشاروبيم</td>
         </tr>
         <tr id="table_61_row_3" class="south">
-            <td class="english" style="border-right: 1px solid black;">Qad serty ogooba,
+            <td class="english" style="border-right: 1px solid black;">
+                Qad serty ogooba,
+                lel roasa amthal,
                 dorrah maHgooba,
-                yotonek el-tooba,
-                ya ebnat youaqeem,</td>
-            <td class="arabic">lel roasa amthal,
                 wa fi el-engeel qad qal,
+                yotonek el-tooba,
                 fi kol al-gial,
+                ya ebnat youaqeem,       
                 qad foqty el-Cheroubim.</td>
         </tr>
         <tr id="table_61_row_4" class="north">

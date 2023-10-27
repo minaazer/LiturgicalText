@@ -121,23 +121,36 @@ function paginateTables() {
 
 
 
-    function extractTableTitlesAndIds() {
+function extractTableTitlesAndIds() {
+  try {
       var tables = document.querySelectorAll('table');
       var titlesAndIds = [];
+
       tables.forEach((table, index) => {
-        const caption = table.querySelector('caption');
-        var title = caption ? caption.innerText : table.getAttribute('id');
-        var id = table.getAttribute('id') || 'generated-id-' + index;
-        table.id = id; // Ensure every table has an ID
-        titlesAndIds.push({title, id});
+          const caption = table.querySelector('caption');
+
+          var title = { english: null, coptic: null };
+          if (caption) {
+              const englishTextNode = Array.from(caption.childNodes).find(node => node.nodeType === 3 && node.nodeValue.trim() !== '');
+              title.english = englishTextNode ? englishTextNode.nodeValue.trim() : '';
+              const copticSpan = caption.querySelector('.coptic-caption');
+              title.coptic = copticSpan ? copticSpan.innerText.trim() : '';
+          }
+
+          var id = table.getAttribute('id') || 'generated-id-' + index;
+          table.id = id; // Ensure every table has an ID
+          titlesAndIds.push({ title, id });
       });
-      
-      sendMessage(JSON.stringify({type: 'TABLES_INFO', data: titlesAndIds}));
 
-    }
+      sendMessage(JSON.stringify({ type: 'TABLES_INFO', data: titlesAndIds }));
+  } catch (error) {
+      sendMessage(JSON.stringify({ type: 'error', message: error.message }));
+  }
+}
 
 
-    paginateTables();
+
+
 
 
 function sendMessage(message) {

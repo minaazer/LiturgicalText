@@ -1,5 +1,6 @@
 import { useContext, useState, useEffect } from 'react';
 import SettingsContext from '../../settings/settignsContext';
+import { fontTypeface } from './fontTypeface';
 
 export const useDynamicStyles = (webviewRef) => {
     const [settings] = useContext(SettingsContext);
@@ -45,31 +46,7 @@ export const useDynamicStyles = (webviewRef) => {
 html {
  background-color: black;
 }
-@font-face{
-    font-family: "Free Serif Athanasius";
-    src:
-        url("https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/FreeSerifAthanasius.ttf") format('truetype');
-}
-@font-face {
- font-family: "Arial Coptic";
- src: 
-     url("https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/ArialCoptic.woff2") format("woff2"),
-     url("https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/ArialCoptic.woff") format("woff"),
-     url("https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/ArialCoptic.ttf") format('truetype');
- font-weight: normal;
- font-style: normal;
- font-display: swap;
-}
-@font-face {
- font-family: "EB Garamond";
- src: 
- url("https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/EBGaramond.woff2") format('woff2'),
- url("https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/EBGaramond.woff") format('woff'),
- url("https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/EBGaramond.ttf") format('truetype');
- font-weight: normal;
- font-style: normal;
-}
-
+${fontTypeface}
 
 
 table {
@@ -110,7 +87,7 @@ break-before: auto;
 
 .caption {
     font-size: ${fontSize}vw;
-    font-family: 'EB Garamond' !important;
+    font-family: 'Georgia' !important;
     color:  yellow;
     width: '100%' !important;
     display: block;
@@ -163,7 +140,7 @@ body {
 }
 .english {
     vertical-align: top ;
-    font-family: 'EB Garamond' !important;
+    font-family: 'Georgia' !important;
     padding-right: 10px;
     border-right: 1px solid rgba(252, 248, 215, 0.3); 
     text-align: justify;
@@ -173,7 +150,7 @@ body {
 
 .enPhonics {
     vertical-align: top ;
-    font-family: 'EB Garamond' !important;
+    font-family: 'Georgia' !important;
     padding-right: 10px;
     border-right: 1px solid rgba(252, 248, 215, 0.3); 
     text-align: justify;

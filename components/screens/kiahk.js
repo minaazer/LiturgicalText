@@ -1,12 +1,11 @@
 import React, { useRef, useEffect , useState, useContext } from 'react';
-import { View, StyleSheet , TouchableOpacity } from 'react-native';
+import { View, Text, StyleSheet , TouchableOpacity } from 'react-native';
 import { WebView } from 'react-native-webview';
 import { getHtml } from '../../data/kiahk';
 import { useDynamicStyles } from '../css/cssStyles';
 import { SafeAreaProvider , SafeAreaView } from 'react-native-safe-area-context';
 import { Dimensions } from 'react-native';
 import { DrawerItem,  DrawerContentScrollView , createDrawerNavigator } from '@react-navigation/drawer';
-import SettingsContext from '../../settings/settignsContext';
 
 
 
@@ -18,12 +17,20 @@ const RightDrawerContent = ({ drawerItems, handleDrawerItemPress , navigation , 
       {drawerItems.map((item, index) => (
         <DrawerItem
           key={item.id}
-          label={item.title}
+          label={()=> 
+            <View style={styles.labelViewContainer}>
+            {item.title.english ? <Text style={styles.englishTitle}>{item.title.english}</Text> : null}
+            {item.title.coptic ? <Text style={styles.copticTitle}>{item.title.coptic}</Text> : null}
+            </View>
+          }
           onPress={() => {
             handleDrawerItemPress(item.id);
             navigation.closeDrawer();  // this line closes the drawer
           }}
-          labelStyle={{ flex: 1, fontSize: 14, color: 'black'}}
+          labelStyle={{ flex: 1, fontSize: 14, color: 'black', backgroundColor: 'blue'}}
+          style={styles.itemContainerStyle}
+          itemStyle={styles.itemStyle}
+          numberOfLines={null}
           />
       ))}
     </DrawerContentScrollView>
@@ -75,17 +82,29 @@ const MainContent = ({ webviewRef , setDrawerItems}) => {
 
   };
 
-  const handlePageTap = (event) => {
-    const touchX = event.nativeEvent.pageX;
-    const screenWidth = Dimensions.get('window').width;
+  let initialTouchX;
 
-    if (touchX < screenWidth / 2) {
-      handlePrevious();
-    } else if (touchX >= screenWidth / 2) {
-      handleNext();
-    } else {
-    }
-};
+  const handleTouchStart = (event) => {
+      initialTouchX = event.nativeEvent.pageX;
+  };
+  
+  const handleTouchEnd = (event) => {
+      const touchX = event.nativeEvent.pageX;
+      const screenWidth = Dimensions.get('window').width;
+  
+      const difference = Math.abs(touchX - initialTouchX);
+  console.log("difference" , difference);
+      if (difference < 30) {  // Adjust this threshold as necessary
+          if (touchX < screenWidth / 2) {
+              handlePrevious();
+          } else if (touchX >= screenWidth / 2) {
+              handleNext();
+          }
+      }
+  
+      initialTouchX = null;
+  };
+  
 
   const handleNext = () => {
     if (currentPage < pageOffsets.length - 1) {
@@ -117,7 +136,7 @@ const handlePrevious = () => {
 
   return (
     <View style={styles.container}>
-      <TouchableOpacity activeOpacity={1} onPress={handlePageTap} style={{flex: 1}}>
+      <View activeOpacity={1} onTouchStart={handleTouchStart} onTouchEnd={handleTouchEnd}  style={{flex: 1}}>
 
       <WebView
         ref={webviewRef}
@@ -132,7 +151,7 @@ const handlePrevious = () => {
         userSelect="none"
         
       />
-      </TouchableOpacity>
+      </View>
 
     </View>
   );
@@ -201,6 +220,7 @@ const styles = StyleSheet.create({
   },
   webview: {
     flex: 1,
+    pointerEvents: 'none',
   },
   leftControl: {
     position: 'absolute',
@@ -218,6 +238,32 @@ const styles = StyleSheet.create({
     width: '50%',
     backgroundColor: 'rgba(255,255,255,0.1)', // semi-transparent
   },
+  englishTitle: {
+    fontSize: 18,
+    color: 'black',
+    fontFamily: 'NotoSansMedium',
+  },
+  copticTitle: {
+    fontSize: 18,
+    color: 'black',
+    fontFamily: 'ArialCoptic',
+  },
+  labelViewContainer: {
+    marginVertical: -5,
+    marginRight: -32,
+    
+
+  },
+  itemStyle: {
+    marginVertical: 0,
+    paddingVertical: 0,
+  },
+  itemContainerStyle:{
+    marginVertical: -3,
+    paddingVertical: 0,
+    marginLeft: 0
+  }
+
 });
 
 export default Kiahk;

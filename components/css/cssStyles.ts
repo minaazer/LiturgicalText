@@ -1,5 +1,6 @@
 import { useContext, useState, useEffect } from 'react';
 import SettingsContext from '../../settings/settignsContext';
+import { fontTypeface } from './fontTypeface';
 
 export const useDynamicStyles = (webviewRef) => {
     const [settings] = useContext(SettingsContext);
@@ -45,25 +46,8 @@ html {
  background-color: black;
 }
 
-@font-face {
- font-family: "Arial Coptic";
- src: 
-     url("https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/ArialCoptic.woff2") format("woff2"),
-     url("https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/ArialCoptic.woff") format("woff"),
-     url("https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/ArialCoptic.ttf") format('truetype');
- font-weight: normal;
- font-style: normal;
- font-display: swap;
-}
-@font-face {
- font-family: "EB Garamond";
- src: 
- url("https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/EBGaramond.woff2") format('woff2'),
- url("https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/EBGaramond.woff") format('woff'),
- url("https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/EBGaramond.ttf") format('truetype');
- font-weight: normal;
- font-style: normal;
-}
+${fontTypeface}
+
 
 table {
 page-break-before: always; /* Use for older browsers */
@@ -112,6 +96,7 @@ break-before: auto;
 body {
  overflow-horizontal: hidden;
  color: white;
+ touch-action: none;
  font-size: ${fontSize}vw;
 }
 
@@ -130,6 +115,7 @@ body {
     vertical-align: top ;
     padding-bottom: 10px;
     text-align: justify;
+    text-justify: newspaper;
     padding-left: 10px;
     display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'flex'};
     flex: 3;
@@ -140,8 +126,6 @@ body {
     font-size: ${fontSize}vw;
     vertical-align: top ;
     font-family: 'Arial Coptic' !important;
-    border-right: 1px solid rgba(211, 211, 211, 0.3)
-    ; 
     padding-right: 10px;
     padding-left: 15px;
     text-align: justify;
@@ -152,9 +136,8 @@ body {
 .english {
     font-size: ${fontSize}vw;
     vertical-align: top ;
-    font-family: 'EB Garamond' !important;
+    font-family: 'Georgia' !important;
     padding-right: 10px;
-    border-right: 1px solid rgba(252, 248, 215, 0.3); 
     text-align: justify;
     display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'flex'};
     flex: 4;
@@ -163,12 +146,11 @@ body {
 .enPhonics {
     font-size: ${fontSize}vw;
     vertical-align: top ;
-    font-family: 'EB Garamond' !important;
+    font-family: 'Georgia' !important;
     padding-right: 10px;
-    border-right: 1px solid rgba(252, 248, 215, 0.3); 
     text-align: justify;
     display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'flex'};
-    flex: 1;
+    flex: 4;
     color: #FDFD96 !important;
 }
 

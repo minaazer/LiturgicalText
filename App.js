@@ -35,6 +35,9 @@ const App = () => {
       'Garamond'  : require('./assets/fonts/Garamond.ttf'),
       'Garamond Bold'  : require('./assets/fonts/GARABD.ttf'),
       'ArialCoptic' : require('./assets/fonts/ArialCoptic.ttf'),
+      'NotoSansBold' : require('./assets/fonts/NotoSans-Bold.ttf'),
+      'NotoSans' : require('./assets/fonts/NotoSans-Regular.ttf'),
+      'NotoSansMedium' : require('./assets/fonts/NotoSans-Medium.ttf'),
     });
 
     //catch errors
