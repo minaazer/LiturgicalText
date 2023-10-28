@@ -4,25 +4,30 @@ import React, { useEffect, useState } from 'react';
 import { ImageBackground, View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import backgroundImage from '../../assets/background.png';
-import glorificationImage from '../../assets/hoserof.png';
+import glorificationImage from '../../assets/glorification.png';
 import kiahkImage from '../../assets/kiahk.png';
 import holyWeekImage from '../../assets/holyWeek.png';
+import songsImage from '../../assets/songs.png';
+import baptismImage from '../../assets/baptism.png';
+import weddingImage from '../../assets/wedding.png';
+import { ScrollView } from 'react-native-gesture-handler';
+
 
 const Home = () => {
   const navigation = useNavigation();
 
   return (
+    <ScrollView>
     <ImageBackground source={backgroundImage} style={styles.backgroundImage} resizeMode='repeat'>
       <View style={styles.pageContainer}>
         <Text style={styles.pageHeader}>Liturgical Books</Text>
 
         <View style={styles.container}>
           <TouchableOpacity
-            style={[styles.iconContainer, { backgroundColor: 'lightblue' }]}
+            style={[styles.iconContainer]}
             onPress={() => navigation.navigate('Kiahk')}
           >
             <Image source={kiahkImage} style={styles.iconImage} />
-            <Text style={styles.iconText}>Kiahk</Text>
           </TouchableOpacity>
 
           <TouchableOpacity
@@ -30,20 +35,42 @@ const Home = () => {
             onPress={() => navigation.navigate('Glorification')}
           >
             <Image source={glorificationImage} style={styles.iconImage} />
-            <Text style={styles.iconText}>Glorification</Text>
           </TouchableOpacity>
 
           <TouchableOpacity
-            style={[styles.iconContainer, { opacity: 0.5, backgroundColor: '#890089' }]}
+            style={[styles.iconContainer, { opacity: 0.5}]}
           //onPress={() => navigation.navigate('Glorification2')}
           >
-            <Text style={styles.comingSoon}>Coming Soon</Text>
             <Image source={holyWeekImage} style={styles.iconImage} />
-            <Text style={[styles.iconText, { color: 'white' }]}>Holy Week</Text>
           </TouchableOpacity>
+
+          <TouchableOpacity
+            style={[styles.iconContainer, { opacity: 0.5}]}
+          //onPress={() => navigation.navigate('Glorification2')}
+          >
+            <Image source={baptismImage} style={styles.iconImage} />
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            style={[styles.iconContainer, { opacity: 0.5}]}
+          //onPress={() => navigation.navigate('Glorification2')}
+          >
+            <Image source={weddingImage} style={styles.iconImage} />
+          </TouchableOpacity>
+
+
+
+          <TouchableOpacity
+            style={[styles.iconContainer, { opacity: 0.5}]}
+          //onPress={() => navigation.navigate('Glorification2')}
+          >
+            <Image source={songsImage} style={styles.iconImage} />
+          </TouchableOpacity>
+
         </View>
       </View>
     </ImageBackground>
+    </ScrollView>
   );
 };
 
@@ -64,63 +91,39 @@ const styles = StyleSheet.create({
     fontSize: 40,
     fontFamily: 'Garamond Bold',
     textAlign: 'center',
-    color: 'black',
+    color: '#003060',
     marginVertical: 20,
+    elevation: 5,
+    textShadowColor: 'grey',
+    textShadowRadius: 5,
+    textShadowOffset: { width: 1, height: 1 },
   },
+
   container: {
     flex: 1,
     justifyContent: 'space-evenly',
     alignItems: 'flex-start',
     flexDirection: 'row',
-    //flexWrap: 'wrap', // Allows for grid-like wrapping of items
+    flexWrap: 'wrap',
   },
+  
   iconContainer: {
-    width: 180,
+    width: 150,
     height: 180,
-    image: 'url(../../assets/cymbals.png)',
     justifyContent: 'center',
     alignItems: 'center',
     margin: 10,
-    borderWidth: 1,
     borderColor: '#ccc',
-    borderRadius: 10,
-    backgroundColor: '#f5d693',
+    backgroundColor: 'transparent',
 
-    // iOS shadow properties
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.25,
-    shadowRadius: 3.84,
-
-    // Android shadow properties
-    elevation: 5,
   },
 
-  iconText: {
-    fontSize: 30,
-    fontFamily: 'Garamond Bold',
-    textAlign: 'center',
-    color: 'white',
-    // Text shadow properties
-    textShadowColor: '#000',
-    textShadowOffset: { width: 1, height: 1 },
-    textShadowRadius: 3,
-  },
-  comingSoon: {
-    fontSize: 20,
-    fontFamily: 'Garamond',
-    textAlign: 'center',
-    color: 'white',
-    // Text shadow properties
-    textShadowColor: '#000',
-    textShadowOffset: { width: 1, height: 1 },
-    textShadowRadius: 3,
-  },
   iconImage: {
-    width: 100,
-    height: 100,
+    width: 200,
+    height: 200,
     resizeMode: 'contain',
-    marginBottom: 10,
+    marginBottom: 20,
+    paddingBottom: 20,
   },
 });
 

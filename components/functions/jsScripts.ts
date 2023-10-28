@@ -129,12 +129,17 @@ function extractTableTitlesAndIds() {
       tables.forEach((table, index) => {
           const caption = table.querySelector('caption');
 
-          var title = { english: null, coptic: null };
+          var title = { english: '', coptic: '', order: [] };  // Initialize English and Coptic as empty strings
           if (caption) {
-              const englishTextNode = Array.from(caption.childNodes).find(node => node.nodeType === 3 && node.nodeValue.trim() !== '');
-              title.english = englishTextNode ? englishTextNode.nodeValue.trim() : '';
-              const copticSpan = caption.querySelector('.coptic-caption');
-              title.coptic = copticSpan ? copticSpan.innerText.trim() : '';
+              Array.from(caption.childNodes).forEach(node => {
+                  if (node.nodeType === 3 && node.nodeValue.trim() !== '') {  // Text node for English
+                      title.english += node.nodeValue.trim() + ' ';  // Concatenate English text nodes
+                      if (!title.order.includes('english')) title.order.push('english');  // Only push 'english' once
+                  } else if (node.nodeType === 1 && node.classList.contains('coptic-caption')) {  // Element node for Coptic
+                      title.coptic += node.innerText.trim() + ' ';  // Concatenate Coptic text nodes
+                      if (!title.order.includes('coptic')) title.order.push('coptic');  // Only push 'coptic' once
+                  }
+              });
           }
 
           var id = table.getAttribute('id') || 'generated-id-' + index;

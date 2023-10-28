@@ -1,41 +1,17 @@
-import React, { useRef, useEffect , useState, useContext } from 'react';
-import { View, Text, StyleSheet , TouchableOpacity } from 'react-native';
+import React, { useRef,  useState } from 'react';
+import { View, Text } from 'react-native';
+import { presentationStyles } from '../css/presentationStyles';
 import { WebView } from 'react-native-webview';
 import { getHtml } from '../../data/kiahk';
 import { useDynamicStyles } from '../css/cssStyles';
-import { SafeAreaProvider , SafeAreaView } from 'react-native-safe-area-context';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { Dimensions } from 'react-native';
-import { DrawerItem,  DrawerContentScrollView , createDrawerNavigator } from '@react-navigation/drawer';
+import RightDrawerContent from '../navigation/RightDrawerContent';
+
+import { createDrawerNavigator } from '@react-navigation/drawer';
 
 
 
-const RightDrawerContent = ({ drawerItems, handleDrawerItemPress , navigation ,  props }) => {
-  return (
-    <DrawerContentScrollView {...props}
-    >
-      
-      {drawerItems.map((item, index) => (
-        <DrawerItem
-          key={item.id}
-          label={()=> 
-            <View style={styles.labelViewContainer}>
-            {item.title.english ? <Text style={styles.englishTitle}>{item.title.english}</Text> : null}
-            {item.title.coptic ? <Text style={styles.copticTitle}>{item.title.coptic}</Text> : null}
-            </View>
-          }
-          onPress={() => {
-            handleDrawerItemPress(item.id);
-            navigation.closeDrawer();  // this line closes the drawer
-          }}
-          labelStyle={styles.labelStyle}
-          style={styles.itemContainerStyle}
-          itemStyle={styles.itemStyle}
-          numberOfLines={null}
-          />
-      ))}
-    </DrawerContentScrollView>
-  );
-};
 
 const rightMenu = createDrawerNavigator();
 
@@ -135,7 +111,7 @@ const handlePrevious = () => {
 
 
   return (
-      <View style={styles.container} activeOpacity={1} onTouchStart={handleTouchStart} onTouchEnd={handleTouchEnd} >
+      <View style={presentationStyles.container} activeOpacity={1} onTouchStart={handleTouchStart} onTouchEnd={handleTouchEnd} >
 
       <WebView
         ref={webviewRef}
@@ -146,7 +122,7 @@ const handlePrevious = () => {
         domStorageEnabled={true}
         startInLoadingState={true}
         onMessage={handleMessage}
-        style={styles.webview}
+        style={presentationStyles.webview}
         userSelect="none"
         
       />
@@ -204,64 +180,5 @@ const Kiahk = () => {
   </SafeAreaProvider>
 );
         };
-
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    marginTop: 0,
-    marginBottom: 0,
-
-    paddingVertical: 5,
-    backgroundColor: 'black',
-    marginBottom: 0,
-  },
-  webview: {
-    flex: 1,
-    pointerEvents: 'none',
-  },
-  leftControl: {
-    position: 'absolute',
-    top: 0,
-    left: 0,
-    bottom: 0,
-    width: '50%',
-    backgroundColor: 'rgba(255,255,255,0.1)', // semi-transparent
-  },
-  rightControl: {
-    position: 'absolute',
-    top: 0,
-    right: 0,
-    bottom: 0,
-    width: '50%',
-    backgroundColor: 'rgba(255,255,255,0.1)', // semi-transparent
-  },
-  englishTitle: {
-    fontSize: 18,
-    color: 'black',
-    fontFamily: 'NotoSansMedium',
-  },
-  copticTitle: {
-    fontSize: 18,
-    color: 'black',
-    fontFamily: 'ArialCoptic',
-  },
-  labelViewContainer: {
-    marginVertical: -5,
-    marginRight: -32,
-    
-
-  },
-  itemStyle: {
-    marginVertical: 0,
-    paddingVertical: 0,
-  },
-  itemContainerStyle:{
-    marginVertical: -3,
-    paddingVertical: 0,
-    marginLeft: 0
-  }
-
-});
 
 export default Kiahk;

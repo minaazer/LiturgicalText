@@ -115,21 +115,37 @@ function paginateTables() {
 
 
 
-    function extractTableTitlesAndIds() {
+function extractTableTitlesAndIds() {
+  try {
       var tables = document.querySelectorAll('table');
       var titlesAndIds = [];
+
       tables.forEach((table, index) => {
-        const caption = table.querySelector('caption');
-        var title = caption ? caption.innerText : table.getAttribute('id');
-        var id = table.getAttribute('id') || 'generated-id-' + index;
-        table.id = id; // Ensure every table has an ID
-        titlesAndIds.push({title, id});
+          const caption = table.querySelector('caption');
+
+          var title = { english: '', coptic: '', order: [] };  // Initialize English and Coptic as empty strings
+          if (caption) {
+              Array.from(caption.childNodes).forEach(node => {
+                  if (node.nodeType === 3 && node.nodeValue.trim() !== '') {  // Text node for English
+                      title.english += node.nodeValue.trim() + ' ';  // Concatenate English text nodes
+                      if (!title.order.includes('english')) title.order.push('english');  // Only push 'english' once
+                  } else if (node.nodeType === 1 && node.classList.contains('coptic-caption')) {  // Element node for Coptic
+                      title.coptic += node.innerText.trim() + ' ';  // Concatenate Coptic text nodes
+                      if (!title.order.includes('coptic')) title.order.push('coptic');  // Only push 'coptic' once
+                  }
+              });
+          }
+
+          var id = table.getAttribute('id') || 'generated-id-' + index;
+          table.id = id; // Ensure every table has an ID
+          titlesAndIds.push({ title, id });
       });
-      
-      sendMessage(JSON.stringify({type: 'TABLES_INFO', data: titlesAndIds}));
 
-    }
-
+      sendMessage(JSON.stringify({ type: 'TABLES_INFO', data: titlesAndIds }));
+  } catch (error) {
+      sendMessage(JSON.stringify({ type: 'error', message: error.message }));
+  }
+}
 
 function sendMessage(message) {
     if (isSendingMessage) {

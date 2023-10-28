@@ -83,6 +83,7 @@ const styles = StyleSheet.create({
 
   drawerHeaderContainer: {
     marginVertica: 10,
+    paddingTop: 20
 
 
   },

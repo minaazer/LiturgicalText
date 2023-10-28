@@ -3121,8 +3121,7 @@ ${htmlRenderScript}
     <br>
     <table id="table_15" title="2nd Psali Adam on the 3rd Canticle (I Thank You O God of Jacob)"
         style="display: table;">
-        <caption class="caption" id="caption_table_15">2nd Psali Adam on the 3rd Canticle <br>(I Thank You O God of
-            Jacob)</caption>
+        <caption class="caption" id="caption_table_15">2nd Psali Adam on the 3rd Canticle <br>(I Thank You O God of Jacob)</caption>
         <tr id="table_15_row_0" class="north">
             <td class="english" style="border-right: 1px solid black;">I thank You, God of Jacob
                 Capable and feared God
@@ -3890,8 +3889,7 @@ ${htmlRenderScript}
     <br>
     <table id="table_18" title="Praise on the Psali of the Three Young Men (God Existent Before The Ages)"
         style="display: table;">
-        <caption class="caption" id="caption_table_18">Praise on the Psali of the Three Young Men <br>(God Existent
-            Before The Ages)</caption>
+        <caption class="caption" id="caption_table_18">Praise on the Psali of the Three Young Men <br>(God Existent Before The Ages)</caption>
         <tr id="table_18_row_0" class="north">
             <td class="english" style="border-right: 1px solid black;">God existent before the ages
                 Sent His chosen Angel
@@ -4165,8 +4163,8 @@ ${htmlRenderScript}
     </table>
     <br>
     <table id="table_19" title="Hymn of the Three Young Men Ⲧⲉⲛⲉⲛ" style="display: table;">
-        <caption class="caption" id="caption_table_19">Hymn of the Three Young Men <br><span
-                class="coptic-caption">Ⲧⲉⲛⲉⲛ</span></caption>
+        <caption class="caption" id="caption_table_19"><span
+        class="coptic-caption">Ⲧⲉⲛⲉⲛ</span> <br> Hymn of the Three Young Men</caption>
         <tr id="table_19_row_0" class="north">
             <td class="english" style="border-right: 1px solid black;">We therefore present an offering and rational
                 worship; we send unto you this day psalmodies for Your glory O our Savior; Hananiah Azariah and Mishael.

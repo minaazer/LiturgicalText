@@ -13,7 +13,7 @@ ${htmlRenderScript}
 </head>
 <body>
     <table id="table_0" title="Ekesmarout" style="display: table;">
-        <caption class="caption" id="caption_table_0"><span class="caption-coptic">Ⲕⲥ̀ⲙⲁⲣⲱⲟⲩⲧ</span></caption>
+        <caption class="caption" id="caption_table_0"><span class="coptic-caption">Ⲕⲥ̀ⲙⲁⲣⲱⲟⲩⲧ</span></caption>
         <tbody class="scaling-container" id="table_0_tbody_0">
             <tr id="table_0_row_1" class="south">
                 <td class="english" style="border-right: 1px solid black;">Blessed are You Truly : with Your Good Father
@@ -50,7 +50,7 @@ ${htmlRenderScript}
     </table>
 
     <table id="table_1" title="Shere Theotoke" style="display: table;">
-        <caption class="caption" id="caption_table_1">Shere Theotoke</caption>
+        <caption class="caption" id="caption_table_1"><span class="coptic-caption">Ⲭⲉⲣⲉ Ⲑⲉⲟ̀ⲧⲟⲕⲉ</span></caption>
 
         <tbody class="scaling-container"  id="table_1_tbody_0">
             <tr id="table_1_row_0" class="north">
@@ -133,7 +133,7 @@ ${htmlRenderScript}
     </table>
     <br>
     <table id="table_2" title="O Kirios" style="display: table;">
-        <caption class="caption" id="caption_table_2">O Kirios</caption>
+        <caption class="caption" id="caption_table_2"><span class="coptic-caption">Ⲟⲕⲩⲣⲓⲟⲥ ⲙⲉⲧⲁⲥⲟⲩ</span></caption>
         <tbody class="scaling-container"  id="table_2_tbody_0">
             <tr id="table_2_row_1" class="south">
                 <td class="english" style="border-right: 1px solid black;">The Lord is with you. Holy is, the Father,
@@ -258,7 +258,7 @@ ${htmlRenderScript}
     </table>
     <br>
     <table id="table_3" style="display: table;" title="Shashf Ensop">
-        <caption class="caption" id="caption_table_3">Shashf Ensop</caption>
+        <caption class="caption" id="caption_table_3"><span class="coptic-caption">Ⲍ ⲛ̀ⲥⲟⲡ ⲙ̀ⲙⲏⲛⲓ</span></caption>
 
         <tbody class="scaling-container"  id="table_3_tbody_0">
             <tr class="north" id="table_3_row_0">
@@ -266,7 +266,7 @@ ${htmlRenderScript}
                     name,
                     with
                     all my heart, O God of everyone.</td>
-                <td class="coptic" style="border-right: 1px solid black;">      Ⲍ ⲛ̀ⲥⲟⲡ ⲙ̀ⲙⲏⲛⲓ:̀ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲡⲁϩⲏⲧ ⲧⲏⲣϥ:
+                <td class="coptic" style="border-right: 1px solid black;">Ⲍ ⲛ̀ⲥⲟⲡ ⲙ̀ⲙⲏⲛⲓ:̀ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲡⲁϩⲏⲧ ⲧⲏⲣϥ:
                     ϯⲛⲁⲥ̀ⲙⲟⲩ
                     ⲉ̀ⲡⲉⲕⲣⲁⲛ: Ⲡϭⲟⲓⲥ ⲙ̀ⲡⲓⲉ̀ⲡ̀ⲧⲏⲣϥ.</td>
                 <td class="arabic">سبع مرات كل يوم من كل قلبى ابارك أسمك يارب الكل.</td>
@@ -869,7 +869,7 @@ ${htmlRenderScript}
     </table>
     <br>
     <table id="table_4" style="display: table;" title="Zefte Pentis">
-        <caption class="caption" id="caption_table_4">Zefte Pentis</caption>
+        <caption class="caption" id="caption_table_4"><span class="coptic-caption">Ⲇⲉⲩⲧⲉ ⲡⲉⲛⲧⲏⲥ</span></caption>
         <tbody class="scaling-container"  id="table_4_tbody_0">
             <tr class="north" id="table_4_row_0">
                 <td class="english" style="border-right: 1px solid black;">+ Come all you nations, to see the archangel,
@@ -1126,7 +1126,7 @@ ${htmlRenderScript}
     </table>
     <br>
     <table id="table_5" title="Ari Epresvevin" style="display: table;">
-        <caption class="caption" id="caption_table_5">Ari Epresvevin</caption>
+        <caption class="caption" id="caption_table_5"><span class="coptic-caption">Ⲁⲣⲓⲡ̀ⲣⲉⲥⲃⲉⲩⲓⲛ</span></caption>
 
         <tbody class="scaling-container"  id="table_5_tbody_0">
             <tr id="table_5_row_0" class="north">
@@ -1145,7 +1145,7 @@ ${htmlRenderScript}
     </table>
     <br>
     <table id="table_6" style="display: table;" title="Rashi Ne">
-        <caption class="caption" id="caption_table_6">Rashi Ne</caption>
+        <caption class="caption" id="caption_table_6"><span class="coptic-caption">Ⲣⲁϣⲓ ⲛⲉ ⲱ̀ ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ</span></caption>
         <tbody class="scaling-container"  id="table_6_tbody_0">
             <tr class="refrain" id="table_6_row_0">
                 <td class="english" style="border-right: 1px solid black;">Rejoice O you Theotokos, Mary the mother of
@@ -1413,7 +1413,7 @@ ${htmlRenderScript}
     </table>
     <br>
     <table id="table_7" style="display: table;" title="Sena Etsho">
-        <caption class="caption" id="caption_table_7">Sena Etsho</caption>
+        <caption class="caption" id="caption_table_7"><span class="coptic-caption">Ⲥⲉⲛⲁ ⲧ̀ϣⲟ</span></caption>
         <tbody class="scaling-container"  id="table_7_tbody_0">
             <tr class="refrain" id="table_7_row_0">
                 <td class="english" style="border-right: 1px solid black;">Many are all your wonders, and precious is
@@ -1559,7 +1559,7 @@ ${htmlRenderScript}
     </table>
     <br>
     <table id="table_8" style="display: table;" title="Fai Pe Eplimen">
-        <caption class="caption" id="caption_table_8">Fai Pe Eplimen</caption>
+        <caption class="caption" id="caption_table_8"><span class="coptic-caption">Ⲫⲁⲓ ⲡⲉ ⲡ̀ⲗⲩⲙⲉⲛ</span></caption>
 
         <tbody class="scaling-container"  id="table_8_tbody_0">
             <tr class="north" id="table_8_row_0">
@@ -1847,7 +1847,7 @@ ${htmlRenderScript}
     </table>
     <br>
     <table id="table_9" style="display: table;" title="Entho Ethmav">
-        <caption class="caption" id="caption_table_9">Entho Ethmav</caption>
+        <caption class="caption" id="caption_table_9"><span class="coptic-caption">Ⲛⲑⲟ ⲑ̀ⲙⲁⲩ</span></caption>
         <tbody class="scaling-container"  id="table_9_tbody_0">
             <tr class="north" id="table_9_row_0">
                 <td class="english" style="border-right: 1px solid black;">You are the Mother of Light, the honored
@@ -2056,7 +2056,7 @@ ${htmlRenderScript}
     </table>
     <br>
     <table id="table_10" style="display: table;" title="Amoini Maren Ouosht">
-        <caption class="caption" id="caption_table_10">Amoini Maren Ouosht</caption>
+        <caption class="caption" id="caption_table_10"><span class="coptic-caption">Ⲁⲙⲱⲓⲛⲓ ⲙⲁⲣⲉⲛⲟⲩⲱϣⲧ</span></caption>
 
         <tbody class="scaling-container"  id="table_10_tbody_0">
             <tr class="north" id="table_10_row_0">
@@ -2100,7 +2100,7 @@ ${htmlRenderScript}
 
     <br>
     <table id="table_11" title="Khen Evran" style="display: table;">
-        <caption class="caption" id="caption_table_11">Khen Evran</caption>
+        <caption class="caption" id="caption_table_11"><span class="coptic-caption">Ϧⲉⲛ ⲫ̀ⲣⲁⲛ</span></caption>
 
         <tbody class="scaling-container"  id="table_11_tbody_0">
             <tr id="table_11_row_0" class="north">
@@ -2203,7 +2203,7 @@ ${htmlRenderScript}
     </table>
     <br>
     <table id="table_12" style="display: table;" title="Epouro">
-        <caption class="caption" id="caption_table_12">Epouro</caption>
+        <caption class="caption" id="caption_table_12"><span class="coptic-caption">Ⲡⲟⲩⲣⲟ ⲛ̀ⲧⲉ ϯϩⲓⲣⲏⲛⲏ</span></caption>
         <tbody class="scaling-container"  id="table_12_tbody_0">
             <tr class="north" id="table_12_row_0">
                 <td class="english" style="border-right: 1px solid black;">O King of peace: grant us Your peace: render
@@ -2297,7 +2297,7 @@ ${htmlRenderScript}
     </table>
     <br>
     <table id="table_13" title="Opentshois Isos Pekhristos" style="display: table;">
-        <caption class="caption" id="caption_table_13">Opentshois Isos Pekhristos</caption>
+        <caption class="caption" id="caption_table_13"><span class="coptic-caption">Ⲱ̀ⲡⲉⲛ⳪ Ⲓⲏⲥ̅ Ⲡⲭⲥ̅</span></caption>
         <tbody class="scaling-container"  id="table_13_tbody_0">
             <tr id="table_13_row_0" class="north">
                 <td class="english" style="border-right: 1px solid black;">O our Lord Jesus Christ, Who carries the sin
@@ -2494,7 +2494,7 @@ ${htmlRenderScript}
     </table>
     <br>
     <table id="table_15" style="display: table;" title="Atai Parthenos">
-        <caption class="caption" id="caption_table_15">Atai Parthenos</caption>
+        <caption class="caption" id="caption_table_15"><span class="coptic-caption">Ⲁⲧⲁⲓ ⲡⲁⲣⲑⲉⲛⲟⲥ</span></caption>
 
         <tbody class="scaling-container"  id="table_15_tbody_0">
             <tr class="north" id="table_15_row_0">
@@ -2694,7 +2694,7 @@ ${htmlRenderScript}
     </table>
     <br>
     <table id="table_16" style="display: table;" title="Shere Ne Maria">
-        <caption class="caption" id="caption_table_16">Shere Ne Maria</caption>
+        <caption class="caption" id="caption_table_16"><span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀ </span></caption>
 
         <tbody class="scaling-container"  id="table_16_tbody_0">
             <tr class="north" id="table_16_row_0">
@@ -2785,7 +2785,7 @@ ${htmlRenderScript}
     </table>
     <br>
     <table id="table_17" style="display: table;" title="Semoti">
-        <caption class="caption" id="caption_table_17">Semoti</caption>
+        <caption class="caption" id="caption_table_17"><span class="coptic-caption">Ⲥⲉⲙⲟⲩϯ</span></caption>
 
         <tbody class="scaling-container"  id="table_17_tbody_0">
             <tr class="north" id="table_17_row_0">
@@ -2894,7 +2894,7 @@ ${htmlRenderScript}
     </table>
     <br>
     <table id="table_18" style="display: table;" title="Rejoice O Mary">
-        <caption class="caption" id="caption_table_18">Rejoice O Mary</caption>
+        <caption class="caption" id="caption_table_18"><span class="coptic-caption">Ⲟⲩⲛⲟϥ ⲙ̀ⲙⲟ Ⲙⲁⲣⲓⲁ̀</span></caption>
 
         <tbody class="scaling-container"  id="table_18_tbody_0">
             <tr class="north" id="table_18_row_0">
@@ -3949,7 +3949,7 @@ ${htmlRenderScript}
     </table>
     <br>
     <table id="table_21" style="display: table;" title="Estermeji">
-        <caption class="caption" id="caption_table_21">Estermeji</caption>
+        <caption class="caption" id="caption_table_21">I start this song with words of peace</caption>
 
         <tbody class="scaling-container"  id="table_21_tbody_0">
             <tr class="north" id="table_21_row_0">
@@ -4403,7 +4403,7 @@ ${htmlRenderScript}
     </table>
     <br>
     <table id="table_22" style="display: table;" title="Rashi Ne (Archangel Michael)">
-        <caption class="caption" id="caption_table_22">Rashi Ne (Archangel Michael)</caption>
+        <caption class="caption" id="caption_table_22"><span class="coptic-caption">Ⲣⲁϣⲓ ⲛⲉ</span>(Archangel Michael)</caption>
 
         <tbody class="scaling-container"  id="table_22_tbody_0">
             <tr class="refrain" id="table_22_row_0">
@@ -4894,7 +4894,7 @@ ${htmlRenderScript}
     </table>
     <br>
     <table id="table_24" style="display: table;" title="Apekran">
-        <caption class="caption" id="caption_table_24">Apekran</caption>
+        <caption class="caption" id="caption_table_24"><span class="coptic-caption">Ⲁ̀ⲡⲉⲕⲣⲁⲛ</span></caption>
 
         <tbody class="scaling-container"  id="table_24_tbody_0">
             <tr class="north" id="table_24_row_0">

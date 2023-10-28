@@ -95,7 +95,7 @@ break-before: auto;
 
 }
 
-.caption-coptic {
+.coptic-caption {
     font-family: var(--copticFont) !important;
 }
 

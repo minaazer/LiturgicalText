@@ -1,6 +1,6 @@
 
 import React, { useContext } from 'react';
-import { StyleSheet, Text, View, Dimensions, ScrollView } from 'react-native';
+import { StyleSheet, Text, View, Dimensions, ScrollView, TouchableOpacity } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
 import { Checkbox } from 'react-native-paper';
 import SettingsContext from '../../settings/settignsContext';
@@ -91,9 +91,11 @@ const SettingsScreen = () => {
                             ))}
 
                         </View>
-
+                    
                     </View>
-
+                    <TouchableOpacity style={styles.button} onPress={handleBackPress}>
+                            <Text style={styles.buttonText}>Apply Changes</Text>
+                        </TouchableOpacity>
                 </View>
 
             </View>
@@ -143,18 +145,25 @@ const styles = StyleSheet.create({
         flexDirection: Platform.OS === 'ios' ? "column" : 'row',
         alignItems: Platform.OS === 'ios' ? "flex-start" : 'center',
         justifyContent: 'space-between',
-        width: '100%',
+        width: '30%',
         marginBottom: '1%',
     },
+    picker: {
+        flex: 1,
+        width: Platform.OS === 'ios' ? "100%" : "auto",
+        overflow: "hidden",
+        
+    },
+
     setting: {
         width: '100%',
-        marginBottom: '5%',
+        marginBottom: '1%',
     },
 
     settingTitle: {
         fontSize: screenWidth * 0.03,
         fontWeight: 'bold',
-        flex: 1,
+        flex: 10,
         color: 'black',
         marginBottom: 10
     },
@@ -182,11 +191,22 @@ const styles = StyleSheet.create({
         color: 'black',
     },
 
-    picker: {
-        flex: 1,
-        width: Platform.OS === 'ios' ? "100%" : "auto",
-        overflow: "hidden"
+    button: {
+        backgroundColor: '#003060',
+        borderRadius: 20,
+        padding: 10,
+        marginBottom: 15,
+        marginTop: '0%',
+        justifyContent: 'center',
+        width: '30%',
+        
     },
+    buttonText: {
+        color: 'white',
+        fontSize: 18,
+        fontWeight: 'bold',
+        textAlign: 'center',
+    }
 
 });
 
