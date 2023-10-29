@@ -98,6 +98,7 @@ body {
  color: white;
  touch-action: none;
  font-size: ${fontSize}vw;
+ margin-bottom: 500px;
 }
 
 .north {
@@ -142,6 +143,16 @@ body {
     display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'flex'};
     flex: 4;
 }
+.english1 {
+    font-size: ${fontSize}vw;
+    vertical-align: top ;
+    font-family: 'Georgia' !important;
+    padding-right: 10px;
+    text-align: left;
+    display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'flex'};
+    flex: 4;
+    line-height: 1.5;
+}
 
 .enPhonics {
     font-size: ${fontSize}vw;
@@ -152,6 +163,17 @@ body {
     display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'flex'};
     flex: 4;
     color: #FDFD96 !important;
+}
+.enPhonics1 {
+    font-size: ${fontSize}vw;
+    vertical-align: top ;
+    font-family: 'Georgia' !important;
+    padding-right: 10px;
+    text-align: left;
+    display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'flex'};
+    flex: 4;
+    color: #FDFD96 !important;
+    line-height: 1.5;
 }
 
 .arPhonics {

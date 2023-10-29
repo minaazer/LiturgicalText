@@ -14,8 +14,7 @@ ${htmlRenderScript}
 
 <body>
     <table id="table_0" title="Arise, O children of the Light Ⲧⲉⲛ ⲑⲏⲛⲟⲩ" style="display: table;">
-        <caption class="caption" id="caption_table_0">Arise, O children of the Light <br><span
-                class="coptic-caption">Ⲧⲉⲛ ⲑⲏⲛⲟⲩ</span>
+        <caption class="caption" id="caption_table_0">Arise, O children of the Light <br><span class="coptic-caption">Ⲧⲉⲛ ⲑⲏⲛⲟⲩ</span>
         </caption>
         <tr id="table_0_row_0" class="north">
             <td class="english" style="border-right: 1px solid black;">Arise, O children of the Light: let us praise the
@@ -639,7 +638,7 @@ ${htmlRenderScript}
                 For a mighty Lord
                 It is unique and great memorial
                 Amen Alleluia</td>
-            <td class="arabic">FIX</td>
+            <td class="arabic">الليلويا تمجيد لإله عظيم مجيد وهو تذكار عظيم فريد آمين الليلويا.</td>
         </tr>
         <tr id="table_2_row_21" class="south">
             <td class="english" style="border-right: 1px solid black;">Alleluia is pleasure
@@ -1543,7 +1542,7 @@ ${htmlRenderScript}
                 Baptized in the name of your Son
                 You gave me a promise
                 I ask you to fulfill</td>
-            <td class="arabic">+ يا مريم أنا عبدك موسوم باسم ولدك وعدتيني بوعدك وبحقك توفينى</td>
+            <td class="arabic">يا مريم أنا عبدك موسوم باسم ولدك وعدتيني بوعدك وبحقك توفينى</td>
         </tr>
         <tr id="table_7_row_1" class="south">
             <td class="english" style="border-right: 1px solid black;">O Mary, by your prayers
@@ -1585,7 +1584,7 @@ ${htmlRenderScript}
                 With this heavy load
                 Do not let me stray
                 I want to repent and live</td>
-            <td class="arabic">+ يا مريم زاد همي من فوق رأسي وعلي ورجعت إلي الندم هل ندمي يحيينى</td>
+            <td class="arabic">يا مريم زاد همي من فوق رأسي وعلي ورجعت إلي الندم هل ندمي يحيينى</td>
         </tr>
         <tr id="table_7_row_7" class="south">
             <td class="english" style="border-right: 1px solid black;">O Mary, your mystery revealed
@@ -1627,7 +1626,7 @@ ${htmlRenderScript}
                 All desired the Lord
                 His covenant was from you
                 A mystery now revealed</td>
-            <td class="arabic">+ ابراهيم واسحق ويعقوب له مشتاق أخذ منك الميثاق سر خفي صار مجهر</td>
+            <td class="arabic">ابراهيم واسحق ويعقوب له مشتاق أخذ منك الميثاق سر خفي صار مجهر</td>
         </tr>
         <tr id="table_7_row_13" class="south">
             <td class="english" style="border-right: 1px solid black;">This is my happiness
@@ -1648,20 +1647,14 @@ ${htmlRenderScript}
                 A good and honest shepherd
                 Grant him a long life
                 For his honor pleases me</td>
-            <td class="arabic">+ والأب بطريركنا راعي صالح وأمين أعطيه يارب سنين دا مقامه يرضيني</td>
+            <td class="arabic">والأب بطريركنا راعي صالح وأمين أعطيه يارب سنين دا مقامه يرضيني</td>
         </tr>
     </table>
     <br>
     <table id="table_8" title="Psali Adam on the 2nd Canticle (My Heart and My Tongue)" style="display: table;">
         <caption class="caption" id="caption_table_8">Psali Adam on the 2nd Canticle <br>(My Heart and My Tongue)
         </caption>
-        <tr id="table_8_row_0" class="north">
-            <td class="english" style="border-right: 1px solid black;">O Holy Trinity,
-                have mercy on us.</td>
-            <td class="arabic">أيها الثالوث القدوس
-                أرحمنا</td>
-        </tr>
-        <tr id="table_8_row_1" class="south">
+        <tr id="table_8_row_0" class="refrain">
             <td class="english" style="border-right: 1px solid black;">My heart and my tongue, praise the Trinity. O
                 Holy Trinity, have mercy on us.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲁⲡⲁϩⲏⲧ ⲛⲉⲙ ⲡⲁⲗⲁⲥ: ϩⲱⲥ ⲉ̀ϯⲧ̀ⲣⲓⲁⲥ: ⲁ̀ⲅⲓⲁ̀ ⲧ̀ⲣⲓⲁⲥ:
@@ -1683,7 +1676,7 @@ ${htmlRenderScript}
                 ...</td>
             <td class="arabic">لأنك أنت إلهنا : ومخلصنا العظيم أيها ...</td>
         </tr>
-        <tr id="table_8_row_4" class="north">
+        <tr id="table_8_row_4" class="refrain">
             <td class="english" style="border-right: 1px solid black;">My heart and my tongue, praise the Trinity. O
                 Holy Trinity, have mercy on us.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲁⲡⲁϩⲏⲧ ⲛⲉⲙ ⲡⲁⲗⲁⲥ: ϩⲱⲥ ⲉ̀ϯⲧ̀ⲣⲓⲁⲥ: ⲁ̀ⲅⲓⲁ̀ ⲧ̀ⲣⲓⲁⲥ:
@@ -1711,7 +1704,7 @@ ${htmlRenderScript}
                 ...</td>
             <td class="arabic">كثيرة هى رحمتك: تعهدنا بخلاصك أيها ...</td>
         </tr>
-        <tr id="table_8_row_8" class="north">
+        <tr id="table_8_row_8" class="refrain">
             <td class="english" style="border-right: 1px solid black;">My heart and my tongue, praise the Trinity. O
                 Holy Trinity, have mercy on us.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲁⲡⲁϩⲏⲧ ⲛⲉⲙ ⲡⲁⲗⲁⲥ: ϩⲱⲥ ⲉ̀ϯⲧ̀ⲣⲓⲁⲥ: ⲁ̀ⲅⲓⲁ̀ ⲧ̀ⲣⲓⲁⲥ:
@@ -1739,7 +1732,7 @@ ${htmlRenderScript}
             </td>
             <td class="arabic">يسوع هو رجاؤنا: في شدائدنا أيها ...</td>
         </tr>
-        <tr id="table_8_row_12" class="north">
+        <tr id="table_8_row_12" class="refrain">
             <td class="english" style="border-right: 1px solid black;">My heart and my tongue, praise the Trinity. O
                 Holy Trinity, have mercy on us.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲁⲡⲁϩⲏⲧ ⲛⲉⲙ ⲡⲁⲗⲁⲥ: ϩⲱⲥ ⲉ̀ϯⲧ̀ⲣⲓⲁⲥ: ⲁ̀ⲅⲓⲁ̀ ⲧ̀ⲣⲓⲁⲥ:
@@ -1767,7 +1760,7 @@ ${htmlRenderScript}
                 ...</td>
             <td class="arabic">أعطينا سلامك : إشف أمراضنا أيها ...</td>
         </tr>
-        <tr id="table_8_row_16" class="north">
+        <tr id="table_8_row_16" class="refrain">
             <td class="english" style="border-right: 1px solid black;">My heart and my tongue, praise the Trinity. O
                 Holy Trinity, have mercy on us.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲁⲡⲁϩⲏⲧ ⲛⲉⲙ ⲡⲁⲗⲁⲥ: ϩⲱⲥ ⲉ̀ϯⲧ̀ⲣⲓⲁⲥ: ⲁ̀ⲅⲓⲁ̀ ⲧ̀ⲣⲓⲁⲥ:
@@ -1792,7 +1785,7 @@ ${htmlRenderScript}
             <td class="coptic" style="border-right: 1px solid black;">Ⲟⲩⲛⲓϣϯ ⲛ̀ⲧⲁⲫⲙⲏⲓ: ⲡⲓⲣⲉϥϯϩⲁⲡ ⲙ̀ⲙⲏⲓ: ⲁ̀ⲅⲓⲁ̀ ...</td>
             <td class="arabic">عظيم بالحقيقة : الديان العادل أيها ...</td>
         </tr>
-        <tr id="table_8_row_20" class="north">
+        <tr id="table_8_row_20" class="refrain">
             <td class="english" style="border-right: 1px solid black;">My heart and my tongue, praise the Trinity. O
                 Holy Trinity, have mercy on us.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲁⲡⲁϩⲏⲧ ⲛⲉⲙ ⲡⲁⲗⲁⲥ: ϩⲱⲥ ⲉ̀ϯⲧ̀ⲣⲓⲁⲥ: ⲁ̀ⲅⲓⲁ̀ ⲧ̀ⲣⲓⲁⲥ:
@@ -1820,7 +1813,7 @@ ${htmlRenderScript}
             </td>
             <td class="arabic">اسمع للخطاة: فى شدائدهم أيها ...</td>
         </tr>
-        <tr id="table_8_row_24" class="north">
+        <tr id="table_8_row_24" class="refrain">
             <td class="english" style="border-right: 1px solid black;">My heart and my tongue, praise the Trinity. O
                 Holy Trinity, have mercy on us.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲁⲡⲁϩⲏⲧ ⲛⲉⲙ ⲡⲁⲗⲁⲥ: ϩⲱⲥ ⲉ̀ϯⲧ̀ⲣⲓⲁⲥ: ⲁ̀ⲅⲓⲁ̀ ⲧ̀ⲣⲓⲁⲥ:
@@ -1846,7 +1839,7 @@ ${htmlRenderScript}
             <td class="coptic" style="border-right: 1px solid black;">Ⲫϯ ⲡⲓⲛⲁⲏⲧ: ⲡⲓⲣⲉϥⲱⲟⲩⲛ̀ϩⲏⲧ : ⲁ̀ⲅⲓⲁ̀ ...</td>
             <td class="arabic">الله الرحوم: طويل الآناة أيها ...</td>
         </tr>
-        <tr id="table_8_row_28" class="north">
+        <tr id="table_8_row_28" class="refrain">
             <td class="english" style="border-right: 1px solid black;">My heart and my tongue, praise the Trinity. O
                 Holy Trinity, have mercy on us.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲁⲡⲁϩⲏⲧ ⲛⲉⲙ ⲡⲁⲗⲁⲥ: ϩⲱⲥ ⲉ̀ϯⲧ̀ⲣⲓⲁⲥ: ⲁ̀ⲅⲓⲁ̀ ⲧ̀ⲣⲓⲁⲥ:
@@ -1874,7 +1867,7 @@ ${htmlRenderScript}
                 : ⲁ̀ⲅⲓⲁ̀ ...</td>
             <td class="arabic">ياملكنا اذكرنا: فى ملكوتك السماوى أيها ...</td>
         </tr>
-        <tr id="table_8_row_32" class="north">
+        <tr id="table_8_row_32" class="refrain">
             <td class="english" style="border-right: 1px solid black;">My heart and my tongue, praise the Trinity. O
                 Holy Trinity, have mercy on us.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲁⲡⲁϩⲏⲧ ⲛⲉⲙ ⲡⲁⲗⲁⲥ: ϩⲱⲥ ⲉ̀ϯⲧ̀ⲣⲓⲁⲥ: ⲁ̀ⲅⲓⲁ̀ ⲧ̀ⲣⲓⲁⲥ:
@@ -2179,7 +2172,7 @@ ${htmlRenderScript}
                 And thank the graciousness of God
                 For His merciful and kind
                 Je pef-nay Shop Sha-eneh</td>
-            <td class="arabic">+ فلنرتل مع داود ونشكر فضل الله لأنه رحوم وودود جى بيف ناي شوب شا إينيه</td>
+            <td class="arabic">فلنرتل مع داود ونشكر فضل الله لأنه رحوم وودود جى بيف ناي شوب شا إينيه</td>
         </tr>
         <tr id="table_11_row_1" class="south">
             <td class="english" style="border-right: 1px solid black;">Thank the Lord for He is good
@@ -2194,7 +2187,7 @@ ${htmlRenderScript}
                 For He is good and long-suffering
                 To Whom is due glory and honor
                 Je pef-nay Shop Sha-eneh</td>
-            <td class="arabic">+ اشكروا إله الآلهة فإنه صالح طويل الأناة له المجد والعظمة جى بيف ناي شوب شا إينيه</td>
+            <td class="arabic">اشكروا إله الآلهة فإنه صالح طويل الأناة له المجد والعظمة جى بيف ناي شوب شا إينيه</td>
         </tr>
         <tr id="table_11_row_3" class="south">
             <td class="english" style="border-right: 1px solid black;">Holy, Holy, Holy
@@ -2208,7 +2201,7 @@ ${htmlRenderScript}
                 As He is glorified in heaven
                 Maker of all wonders
                 Je pef-nay Shop Sha-eneh</td>
-            <td class="arabic">+ ملأ الأرض بمجده له المجد في علو سماه صنع العجائب وحده جي بيف ناي شوب شا إينيه</td>
+            <td class="arabic">ملأ الأرض بمجده له المجد في علو سماه صنع العجائب وحده جي بيف ناي شوب شا إينيه</td>
         </tr>
         <tr id="table_11_row_5" class="south">
             <td class="english" style="border-right: 1px solid black;">He created the heavens
@@ -2222,7 +2215,7 @@ ${htmlRenderScript}
                 And spread it over the waters
                 He filled it with creatures
                 Je pef-nay Shop Sha-eneh</td>
-            <td class="arabic">+جبل الأرض بالحكمة وبسطها فوق وجه المياه وملأها بالخلقة جي بيف ناي شوب شا إينيه</td>
+            <td class="arabic">جبل الأرض بالحكمة وبسطها فوق وجه المياه وملأها بالخلقة جي بيف ناي شوب شا إينيه</td>
         </tr>
         <tr id="table_11_row_7" class="south">
             <td class="english" style="border-right: 1px solid black;">He created two great stars
@@ -2236,7 +2229,7 @@ ${htmlRenderScript}
                 In its celestial sphere
                 The moon and the stars for the night
                 Je pef-nay Shop Sha-eneh</td>
-            <td class="arabic">+جعل الشمس لسلطان النهار سائرة في الفلك دائرة والقمر والنجوم لليل جي بيف ناي شوب شا إينيه
+            <td class="arabic">جعل الشمس لسلطان النهار سائرة في الفلك دائرة والقمر والنجوم لليل جي بيف ناي شوب شا إينيه
             </td>
         </tr>
         <tr id="table_11_row_9" class="south">
@@ -2251,7 +2244,7 @@ ${htmlRenderScript}
                 In Egypt with Mighty hands
                 And struck them with heavy plagues
                 Je pef-nay Shop Sha-eneh</td>
-            <td class="arabic">+لشعبه صنع الآيات في مصر بذراع ما أعلاه وضربهم بأشنع الضربات جي بيف ناي شوب شا إينيه</td>
+            <td class="arabic">لشعبه صنع الآيات في مصر بذراع ما أعلاه وضربهم بأشنع الضربات جي بيف ناي شوب شا إينيه</td>
         </tr>
         <tr id="table_11_row_11" class="south">
             <td class="english" style="border-right: 1px solid black;">The Egyptians and their horsemen
@@ -2265,7 +2258,7 @@ ${htmlRenderScript}
                 And Pharaoh was drowned in it
                 While Israel passed through it
                 Je pef-nay Shop Sha-eneh</td>
-            <td class="arabic">+شق البحر وفلقه وطرح فرعون جواه وجاز اسرائيل وسطه جي بيف ناي شوب شا إينيه</td>
+            <td class="arabic">شق البحر وفلقه وطرح فرعون جواه وجاز اسرائيل وسطه جي بيف ناي شوب شا إينيه</td>
         </tr>
         <tr id="table_11_row_13" class="south">
             <td class="english" style="border-right: 1px solid black;">He gave them water from the rock
@@ -2279,7 +2272,7 @@ ${htmlRenderScript}
                 And killed Sihon of the Amorites
                 And Og, king of Bashan
                 Je pef-nay Shop Sha-eneh</td>
-            <td class="arabic">+ أوصلهم بلاد كنعان وقتل سيحون وفناه وعوج ملك باشان جي بيف ناي شوب شا إينيه</td>
+            <td class="arabic">أوصلهم بلاد كنعان وقتل سيحون وفناه وعوج ملك باشان جي بيف ناي شوب شا إينيه</td>
         </tr>
         <tr id="table_11_row_15" class="south">
             <td class="english" style="border-right: 1px solid black;">He gave their lands to Israel
@@ -2293,7 +2286,7 @@ ${htmlRenderScript}
                 For You comfort everyone
                 Let us profess to the Lord of heaven
                 Je pef-nay Shop Sha-eneh</td>
-            <td class="arabic">+خلصنا من الأعداء المحيطين لكل حي عزاء اعترفوا لإله السماء جي بيف ناي شوب شا إينيه</td>
+            <td class="arabic">خلصنا من الأعداء المحيطين لكل حي عزاء اعترفوا لإله السماء جي بيف ناي شوب شا إينيه</td>
         </tr>
         <tr id="table_11_row_17" class="south">
             <td class="english" style="border-right: 1px solid black;">Unto Him is due all honor
@@ -2307,7 +2300,7 @@ ${htmlRenderScript}
                 And thank Him for His grace
                 Praise Him and exalt Him
                 Je pef-nay Shop Sha-eneh</td>
-            <td class="arabic">+أعترفوا لأسم المسيح واشكروا فضله ورضاه وزيدوه من التسابيح جي بيف ناي شوب شا إينيه</td>
+            <td class="arabic">أعترفوا لأسم المسيح واشكروا فضله ورضاه وزيدوه من التسابيح جي بيف ناي شوب شا إينيه</td>
         </tr>
         <tr id="table_11_row_19" class="south">
             <td class="english" style="border-right: 1px solid black;">He saved us from Satan
@@ -2321,7 +2314,7 @@ ${htmlRenderScript}
                 Freed from the bondage of tyranny
                 And assure us of the promised land
                 Je pef-nay Shop Sha-eneh</td>
-            <td class="arabic">+أدخلنا بحر العماد وعتقنا من رق الطغيان ووعدنا بأرض الميعاد جي بيف ناي شوب شا إينيه</td>
+            <td class="arabic">أدخلنا بحر العماد وعتقنا من رق الطغيان ووعدنا بأرض الميعاد جي بيف ناي شوب شا إينيه</td>
         </tr>
         <tr id="table_11_row_21" class="south">
             <td class="english" style="border-right: 1px solid black;">Christ split the sea of Hades
@@ -2335,7 +2328,7 @@ ${htmlRenderScript}
                 To His heights and happiness
                 And called us 'beloved '
                 Je pef-nay Shop Sha-eneh</td>
-            <td class="arabic">+وأصعدنا مع شعبه إلي محله وهناه ودعانا أحبابه جي بيف ناي شوب شا إينيه</td>
+            <td class="arabic">وأصعدنا مع شعبه إلي محله وهناه ودعانا أحبابه جي بيف ناي شوب شا إينيه</td>
         </tr>
         <tr id="table_11_row_23" class="south">
             <td class="english" style="border-right: 1px solid black;">Instead of manna and quail
@@ -2349,7 +2342,7 @@ ${htmlRenderScript}
                 And we drank His blood
                 And quenched our weary souls
                 Je pef-nay Shop Sha-eneh</td>
-            <td class="arabic">+أنبع الماء من الصخرة وأعطانا دمه شربناه وأروى نفوسنا القفرة جي بيف ناي شوب شا إينيه</td>
+            <td class="arabic">أنبع الماء من الصخرة وأعطانا دمه شربناه وأروى نفوسنا القفرة جي بيف ناي شوب شا إينيه</td>
         </tr>
         <tr id="table_11_row_25" class="south">
             <td class="english" style="border-right: 1px solid black;">We reached the promised land
@@ -3121,7 +3114,8 @@ ${htmlRenderScript}
     <br>
     <table id="table_15" title="2nd Psali Adam on the 3rd Canticle (I Thank You O God of Jacob)"
         style="display: table;">
-        <caption class="caption" id="caption_table_15">2nd Psali Adam on the 3rd Canticle <br>(I Thank You O God of Jacob)</caption>
+        <caption class="caption" id="caption_table_15">2nd Psali Adam on the 3rd Canticle <br>(I Thank You O God of
+            Jacob)</caption>
         <tr id="table_15_row_0" class="north">
             <td class="english" style="border-right: 1px solid black;">I thank You, God of Jacob
                 Capable and feared God
@@ -3889,7 +3883,8 @@ ${htmlRenderScript}
     <br>
     <table id="table_18" title="Praise on the Psali of the Three Young Men (God Existent Before The Ages)"
         style="display: table;">
-        <caption class="caption" id="caption_table_18">Praise on the Psali of the Three Young Men <br>(God Existent Before The Ages)</caption>
+        <caption class="caption" id="caption_table_18">Praise on the Psali of the Three Young Men <br>(God Existent
+            Before The Ages)</caption>
         <tr id="table_18_row_0" class="north">
             <td class="english" style="border-right: 1px solid black;">God existent before the ages
                 Sent His chosen Angel
@@ -4163,8 +4158,8 @@ ${htmlRenderScript}
     </table>
     <br>
     <table id="table_19" title="Hymn of the Three Young Men Ⲧⲉⲛⲉⲛ" style="display: table;">
-        <caption class="caption" id="caption_table_19"><span
-        class="coptic-caption">Ⲧⲉⲛⲉⲛ</span> <br> Hymn of the Three Young Men</caption>
+        <caption class="caption" id="caption_table_19"><span class="coptic-caption">Ⲧⲉⲛⲉⲛ</span> <br> Hymn of the Three
+            Young Men</caption>
         <tr id="table_19_row_0" class="north">
             <td class="english" style="border-right: 1px solid black;">We therefore present an offering and rational
                 worship; we send unto you this day psalmodies for Your glory O our Savior; Hananiah Azariah and Mishael.
@@ -5104,244 +5099,274 @@ ${htmlRenderScript}
     <table id="table_24" title="Praise for St Samuel the Confessor" style="display: table;">
         <caption class="caption" id="caption_table_24">Praise for St Samuel the Confessor</caption>
         <tr id="table_24_row_0" class="north">
-            <td class="english" style="border-right: 1px solid black;">1- في صفوف المعترفين فخر المجاهدين نجم بين
-                القديسين بنيوت افا صموئيل</td>
-            <td class="arabic">Among the confessors
+            <td class="english">Among the confessors
                 pride of the strivers
                 a star among the saints
                 "Peniout Ava Samuel"(1)</td>
+            <td class="arabic" style="border-right: 1px solid black;">1- في صفوف المعترفين فخر المجاهدين نجم بين
+                القديسين بنيوت افا صموئيل</td>
+
         </tr>
         <tr id="table_24_row_1" class="south">
-            <td class="english" style="border-right: 1px solid black;">2- بدعوة الهية قصدت البرية في محبة نارية بنيوت
-                افا صموئيل</td>
-            <td class="arabic">With a divine invitation
+            <td class="english">With a divine invitation
                 You aimed for the desert
                 with love full of fire
                 "Peniout Ava Samuel"</td>
+            <td class="arabic" style="border-right: 1px solid black;">2- بدعوة الهية قصدت البرية في محبة نارية بنيوت
+                افا صموئيل</td>
+
         </tr>
         <tr id="table_24_row_2" class="north">
-            <td class="english" style="border-right: 1px solid black;">3- ملاك كله طهارة إقتادك بمهارة لإسقات انبا مقار
-                بنيوت افا صموئيل</td>
-            <td class="arabic">An angel full of purity
+            <td class="english">An angel full of purity
                 has led you with bravery
                 to the Eskiet of Abba Makarious
                 "Peniout Ava Samuel"</td>
+            <td class="arabic" style="border-right: 1px solid black;">3- ملاك كله طهارة إقتادك بمهارة لإسقات انبا مقار
+                بنيوت افا صموئيل</td>
+
         </tr>
         <tr id="table_24_row_3" class="south">
-            <td class="english" style="border-right: 1px solid black;">4- لشيخ بين الرهبان ناسكاً كل الزمان قهر العدو
-                الشيطان بنيوت افا صموئيل</td>
-            <td class="arabic">To an elder among the monks
+            <td class="english">To an elder among the monks
                 an ascetic all his life
                 who defeated Satan the enemy
                 Our father Avva Aghason</td>
+            <td class="arabic" style="border-right: 1px solid black;">4- لشيخ بين الرهبان ناسكاً كل الزمان قهر العدو
+                الشيطان بنيوت افا صموئيل</td>
+
         </tr>
         <tr id="table_24_row_4" class="north">
-            <td class="english" style="border-right: 1px solid black;">5- نصحك بالبتولية والمحبة النقية والتواضع بوصية
-                بنيوت افا صموئيل</td>
-            <td class="arabic">He advised you on chastity
+            <td class="english">He advised you on chastity
                 and love full of purity
                 and also staying lowly
                 "Peniout Ava Samuel"</td>
+            <td class="arabic" style="border-right: 1px solid black;">5- نصحك بالبتولية والمحبة النقية والتواضع بوصية
+                بنيوت افا صموئيل</td>
+
         </tr>
         <tr id="table_24_row_5" class="south">
-            <td class="english" style="border-right: 1px solid black;">6- أعطيت بنعمته ضعفين من روحه عند نياحته بنيوت
-                افا صموئيل</td>
-            <td class="arabic">Through his grace, you were given
+            <td class="english">Through his grace, you were given
                 double from his spirit
                 at the time of his departure
                 "Peniout Ava Samuel"</td>
+            <td class="arabic" style="border-right: 1px solid black;">6- أعطيت بنعمته ضعفين من روحه عند نياحته بنيوت
+                افا صموئيل</td>
+
         </tr>
         <tr id="table_24_row_6" class="north">
-            <td class="english" style="border-right: 1px solid black;">7- زدت من اتعابك وقهرت لذاتك وحبك لالهك بنيوت افا
-                صموئيل</td>
-            <td class="arabic">With pain, you increased your load
+            <td class="english">With pain, you increased your load
                 enslaving your ego
                 gaining more love for your God
                 "Peniout Ava Samuel"</td>
+            <td class="arabic" style="border-right: 1px solid black;">7- زدت من اتعابك وقهرت لذاتك وحبك لالهك بنيوت افا
+                صموئيل</td>
+
         </tr>
         <tr id="table_24_row_7" class="south">
-            <td class="english" style="border-right: 1px solid black;">8- نلت ابوة انطونيوس محبة مقاريوس وايمان ديسقوروس
-                بنيوت افا صموئيل</td>
-            <td class="arabic">You attained fatherhood of Antonious
+            <td class="english">You attained fatherhood of Antonious
                 and the love of Makarious
                 also the faith of Diaskourous
                 "Peniout Ava Samuel"</td>
+            <td class="arabic" style="border-right: 1px solid black;">8- نلت ابوة انطونيوس محبة مقاريوس وايمان ديسقوروس
+                بنيوت افا صموئيل</td>
+
         </tr>
         <tr id="table_24_row_8" class="north">
-            <td class="english" style="border-right: 1px solid black;">9- برائحتك الذكية وعشرتك الالهية ملأت البرية
-                بنيوت افا صموئيل</td>
-            <td class="arabic">With your pure aroma
+            <td class="english">With your pure aroma
                 and your fellowship with God
                 you filled the whole desert
                 "Peniout Ava Samuel"</td>
+            <td class="arabic" style="border-right: 1px solid black;">9- برائحتك الذكية وعشرتك الالهية ملأت البرية
+                بنيوت افا صموئيل</td>
+
         </tr>
         <tr id="table_24_row_9" class="south">
-            <td class="english" style="border-right: 1px solid black;">10-علمتهم الرهبانية والحياة النسكية وتعاليم
-                الارثوذكسية بنيوت افا صموئيل</td>
-            <td class="arabic">You've taught them monasticism
+            <td class="english">You've taught them monasticism
                 and life of asceticism
                 and the teaching of Orthodoxy
                 "Peniout Ava Samuel</td>
+            <td class="arabic" style="border-right: 1px solid black;">10-علمتهم الرهبانية والحياة النسكية وتعاليم
+                الارثوذكسية بنيوت افا صموئيل</td>
+
         </tr>
         <tr id="table_24_row_10" class="north">
-            <td class="english" style="border-right: 1px solid black;">11-ارسل القوقس بيان مكتوب من الشيطان الي الاباء
-                الرهبان بنيوت افا صموئيل</td>
-            <td class="arabic">Muqauqus sent a proclamation
+            <td class="english">Muqauqus sent a proclamation
                 written by Satan
                 to all the monk fathers
                 "Peniout Ava Samuel"</td>
+            <td class="arabic" style="border-right: 1px solid black;">11-ارسل القوقس بيان مكتوب من الشيطان الي الاباء
+                الرهبان بنيوت افا صموئيل</td>
+
         </tr>
         <tr id="table_24_row_11" class="south">
-            <td class="english" style="border-right: 1px solid black;">12-يقول بطبيعتين وغير متحدين للرب الفادي الامين
-                لإلهنا عمانوئيل</td>
-            <td class="arabic">Calling for the "Two Natures"(2)
+            <td class="english">Calling for the "Two Natures"(2)
                 without being unified
                 pertaining to our Savior
                 Our God Emmanuel</td>
+            <td class="arabic" style="border-right: 1px solid black;">12-يقول بطبيعتين وغير متحدين للرب الفادي الامين
+                لإلهنا عمانوئيل</td>
+
         </tr>
         <tr id="table_24_row_12" class="north">
-            <td class="english" style="border-right: 1px solid black;">13-هدد بقتل ووعيد من يعترف بالابن الوحيد ويتبع
-                باباه الحبيب الانبا بينيامين</td>
-            <td class="arabic">He threatened to kill all those
+            <td class="english">He threatened to kill all those
                 who confess the "Only Begotten Son"
                 and who follow the loving father
                 That is Avva Benjamin</td>
+            <td class="arabic" style="border-right: 1px solid black;">13-هدد بقتل ووعيد من يعترف بالابن الوحيد ويتبع
+                باباه الحبيب الانبا بينيامين</td>
+
         </tr>
         <tr id="table_24_row_13" class="south">
-            <td class="english" style="border-right: 1px solid black;">14-هجم علي الصحراء الاشرار الاقوياء ورفضت بشمم
-                وابادة بنيوت افا صموئيل</td>
-            <td class="arabic">They ambushed the desert
+            <td class="english">They ambushed the desert
                 the strong and evil ones
                 you refused them with all your strength
                 "Peniout Ava Samuel"</td>
+            <td class="arabic" style="border-right: 1px solid black;">14-هجم علي الصحراء الاشرار الاقوياء ورفضت بشمم
+                وابادة بنيوت افا صموئيل</td>
+
         </tr>
         <tr id="table_24_row_14" class="north">
-            <td class="english" style="border-right: 1px solid black;">15-اعترف بالمسيح اعتراف صادق صريح ومزقت التصريح
-                بنيوت افا صموئيل</td>
-            <td class="arabic">You confessed, I believe in Christ
+            <td class="english">You confessed, I believe in Christ
                 a true and sincere confession
                 and tore apart the proclamation
                 "Peniout Ava Samuel"</td>
+            <td class="arabic" style="border-right: 1px solid black;">15-اعترف بالمسيح اعتراف صادق صريح ومزقت التصريح
+                بنيوت افا صموئيل</td>
+
         </tr>
         <tr id="table_24_row_15" class="south">
-            <td class="english" style="border-right: 1px solid black;">16-طبيعة نقية واحدة لاهوتية وناسوتية متحدة
-                بالكلية بنيوت افا صموئيل</td>
-            <td class="arabic">One nature that is pure
+            <td class="english">One nature that is pure
                 Divinity and Humanity
                 totally , unified
                 "Peniout Ava Samuel"</td>
+            <td class="arabic" style="border-right: 1px solid black;">16-طبيعة نقية واحدة لاهوتية وناسوتية متحدة
+                بالكلية بنيوت افا صموئيل</td>
+
         </tr>
         <tr id="table_24_row_16" class="north">
-            <td class="english" style="border-right: 1px solid black;">17-الكلمة صار جسداً الإله صار معنا وراينا مجده
-                مجدا بنيوت افا صوئيل</td>
-            <td class="arabic">The Incarnated "Logos"
+            <td class="english">The Incarnated "Logos"
                 our God dwelt among us
                 and we saw His great glory
                 "Peniout Ava Samuel"</td>
+            <td class="arabic" style="border-right: 1px solid black;">17-الكلمة صار جسداً الإله صار معنا وراينا مجده
+                مجدا بنيوت افا صوئيل</td>
+
         </tr>
         <tr id="table_24_row_17" class="south">
-            <td class="english" style="border-right: 1px solid black;">18-ضربوك بايدي قوية جلدوك في وحشية الايمان وديعة
-                غالية بنيوت افا صموئيل</td>
-            <td class="arabic">They struck you with their strong hands
+            <td class="english">They struck you with their strong hands
                 and whipped you without mercy
                 the faith is a "Precious Gift"
                 "Peniout Ava Samuel"</td>
+            <td class="arabic" style="border-right: 1px solid black;">18-ضربوك بايدي قوية جلدوك في وحشية الايمان وديعة
+                غالية بنيوت افا صموئيل</td>
+
         </tr>
         <tr id="table_24_row_18" class="north">
-            <td class="english" style="border-right: 1px solid black;">19-اعترف بايمان ويقين بيسوع برجك الحصين قلعوا
-                عينك اليمين بمنيوت افا صموئيل</td>
-            <td class="arabic">With a true faith you've confessed
+            <td class="english">With a true faith you've confessed
                 that Christ is your safe tower
                 they plucked out your right eye
                 "Peniout Ava Samuel"</td>
+            <td class="arabic" style="border-right: 1px solid black;">19-اعترف بايمان ويقين بيسوع برجك الحصين قلعوا
+                عينك اليمين بمنيوت افا صموئيل</td>
+
         </tr>
         <tr id="table_24_row_19" class="south">
-            <td class="english" style="border-right: 1px solid black;">20-اوصيت اربعة رهبان ليحفظوا الايمان اتخذوا
-                القلمون مكان بنيوت افا صموئيل</td>
-            <td class="arabic">Four monks you've instructed
+            <td class="english">Four monks you've instructed
                 to hold strong, unto the faith
                 they dwelt in the "Kolomoun"
                 "Peniout Ava Samuel"</td>
+                <td class="arabic" style="border-right: 1px solid black;">20-اوصيت اربعة رهبان ليحفظوا الايمان اتخذوا
+                القلمون مكان بنيوت افا صموئيل</td>
+
         </tr>
         <tr id="table_24_row_20" class="north">
-            <td class="english" style="border-right: 1px solid black;">21-قدسته بصلاتك ودموعك ومطانياتك وصلبك لذاتك
-                بنيوت افا صموئيل</td>
-            <td class="arabic">You've blessed it with your prayers
+            <td class="english">You've blessed it with your prayers
                 and your worshiping with tears
                 crucifying your ego
                 "Peniout Ava Samuel"</td>
+                <td class="arabic" style="border-right: 1px solid black;">21-قدسته بصلاتك ودموعك ومطانياتك وصلبك لذاتك
+                بنيوت افا صموئيل</td>
+
         </tr>
         <tr id="table_24_row_21" class="south">
-            <td class="english" style="border-right: 1px solid black;">22-حاول البربر المتجبرين كسر نزر البتولية صرخت
-                ليسوع المسيح بنيوت افا صموئيل</td>
-            <td class="arabic">The vicious Barbarians
+            <td class="english">The vicious Barbarians
                 tried to ruin your "virginity's vow"
                 you cried to Christ your helper
                 "Peniout Ava Samuel"</td>
+                <td class="arabic" style="border-right: 1px solid black;">22-حاول البربر المتجبرين كسر نزر البتولية صرخت
+                ليسوع المسيح بنيوت افا صموئيل</td>
+
         </tr>
         <tr id="table_24_row_22" class="north">
-            <td class="english" style="border-right: 1px solid black;">23-مر بك كسيح بقلب جريح كئيب شفيته بقوة المسيح
-                بنيوت افا صموئيل</td>
-            <td class="arabic">A lame man passed by you
+            <td class="english">A lame man passed by you
                 with a heart full of sorrow
                 with God's power you cured him
                 "Peniout Ava Samuel"</td>
+                <td class="arabic" style="border-right: 1px solid black;">23-مر بك كسيح بقلب جريح كئيب شفيته بقوة المسيح
+                بنيوت افا صموئيل</td>
+
         </tr>
         <tr id="table_24_row_23" class="south">
-            <td class="english" style="border-right: 1px solid black;">24-صرت ينبوع شفاء لكل مرض وداء حتى البربر
-                والاعداء بنيوت افا صموئيل</td>
-            <td class="arabic">A spring of healing you became
+            <td class="english">A spring of healing you became
                 to all the sick and lame
                 even the barbarian enemy
                 "Peniout Ava Samuel"</td>
+                <td class="arabic" style="border-right: 1px solid black;">24-صرت ينبوع شفاء لكل مرض وداء حتى البربر
+                والاعداء بنيوت افا صموئيل</td>
+
         </tr>
         <tr id="table_24_row_24" class="north">
-            <td class="english" style="border-right: 1px solid black;">25-قائد البربر الجبار سألك ايها البار زوجتي عاقر
-                محتار بنيوت افا صموئيل</td>
-            <td class="arabic">Their leader said to you
+            <td class="english">Their leader said to you
                 O righteous man you are
                 my wife is barren
                 "Peniout Ava Samuel"</td>
+                <td class="arabic" style="border-right: 1px solid black;">25-قائد البربر الجبار سألك ايها البار زوجتي عاقر
+                محتار بنيوت افا صموئيل</td>
+
         </tr>
         <tr id="table_24_row_25" class="south">
-            <td class="english" style="border-right: 1px solid black;">26-طلبت من الله الاب بايمان غير مرتاب فوهبهما
-                الانجاب بنيوت افا صموئيل</td>
-            <td class="arabic">You asked God the Father
+            <td class="english">You asked God the Father
                 with faith that is strong and true
                 He answered and gave her an offspring
                 "Peniout Ava Samuel"</td>
+                <td class="arabic" style="border-right: 1px solid black;">26-طلبت من الله الاب بايمان غير مرتاب فوهبهما
+                الانجاب بنيوت افا صموئيل</td>
+
         </tr>
         <tr id="table_24_row_26" class="north">
-            <td class="english" style="border-right: 1px solid black;">27-عدت لأولادك ليتعلموا جهادك وفزت بامجادك بنيوت
-                افا صوئيل</td>
-            <td class="arabic">To your children you returned
+            <td class="english">To your children you returned
                 and much from you they learned
                 and many glories you have gained
                 "Peniout Ava Samuel"</td>
+                <td class="arabic" style="border-right: 1px solid black;">27-عدت لأولادك ليتعلموا جهادك وفزت بامجادك بنيوت
+                افا صوئيل</td>
+
         </tr>
         <tr id="table_24_row_27" class="south">
-            <td class="english" style="border-right: 1px solid black;">28-اذكرنا في الصلاة امام عرش الإله ليرحمنا نحن
-                الخطاة بنيوت افا صموئيل</td>
-            <td class="arabic">Remember us in your prayers
+            <td class="english">Remember us in your prayers
                 in front of the throne of God
                 to forgive us the sinners
                 "Peniout Ava Samuel"</td>
+                <td class="arabic" style="border-right: 1px solid black;">28-اذكرنا في الصلاة امام عرش الإله ليرحمنا نحن
+                الخطاة بنيوت افا صموئيل</td>
+
         </tr>
         <tr id="table_24_row_28" class="north">
-            <td class="english" style="border-right: 1px solid black;">29-صلي عنا للديان يثبتنا في الايمان الي اخر
-                الازمان بنيوت افا صموئيل</td>
-            <td class="arabic">Pray to the justified Judge
+            <td class="english">Pray to the justified Judge
                 To confirm us in the faith
                 To the end of all ages
                 "Peniout Ava Samuel"</td>
+                <td class="arabic" style="border-right: 1px solid black;">29-صلي عنا للديان يثبتنا في الايمان الي اخر
+                الازمان بنيوت افا صموئيل</td>
+
         </tr>
         <tr id="table_24_row_29" class="south">
-            <td class="english" style="border-right: 1px solid black;">30-احفظ يا رب بطركنا وشركاؤه اساقفنا ورهبانا
-                وكهنتنا بصلاة الانبا صموئيل</td>
-            <td class="arabic">O Lord please keep safe our Pope
+            <td class="english">O Lord please keep safe our Pope
                 and the bishops with him
                 our monks and the clergymen
                 through the prayers of Abba Samuel</td>
+                <td class="arabic" style="border-right: 1px solid black;">30-احفظ يا رب بطركنا وشركاؤه اساقفنا ورهبانا
+                وكهنتنا بصلاة الانبا صموئيل</td>
+
         </tr>
     </table>
     <br>
@@ -5547,55 +5572,61 @@ ${htmlRenderScript}
         </tr>
     </table>
     <br>
-    <table id="table_28" title="Doxology of Archangel Michael" style="display: table;">
-        <caption class="caption" id="caption_table_28">Doxology of Archangel Michael</caption>
+    <table id="table_28" title="Doxology for Archangel Michael" style="display: table;">
+        <caption class="caption" id="caption_table_28">Doxology for Archangel Michael</caption>
         <tr id="table_28_row_0" class="north">
-            <td class="english" style="border-right: 1px solid black;">ميخائيل رئيس السمائيين هو الأول فى الطقوس
-                الملائكية يخدم أمام الرب.</td>
+            <td class="english">Michael the head of the heavenly, he is the first, among the angelic hosts, serving
+                before the Lord.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲙⲓⲭⲁⲏⲗ ⲡ̀ⲁⲣⲭⲱⲛ ⲛ̀ⲛⲁ ⲛⲓⲫⲏⲟⲩⲓ: ⲛ̀ⲑⲟϥ ⲉⲧⲟⲓ ⲛ̀ϣⲟⲣⲡϧⲉⲛ
                 ⲛⲓⲧⲁⲝⲓⲥ ⲛ̀ⲁⲅⲅⲉⲗⲓⲕⲟⲛ: ⲉϥϣⲉⲙϣⲓ ⲙ̀ⲡⲉⲙⲑⲟ ⲙ̀ⲡ⳪.</td>
-            <td class="arabic">Michael the head of the heavenly, he is the first, among the angelic hosts, serving
-                before the Lord.</td>
+            <td class="arabic" style="border-right: 1px solid black;">ميخائيل رئيس السمائيين هو الأول فى الطقوس
+                الملائكية يخدم أمام الرب.</td>
+
         </tr>
         <tr id="table_28_row_1" class="south">
-            <td class="english" style="border-right: 1px solid black;">أن الله يرسل لنا مراحمه ورأفاته بسؤال ميخائيل
-                رئيس الملائكة العظيم.</td>
+            <td class="english">Wherefore God sends unto us, His mercy and His compassion, through the supplications of
+                Michael, the great archangel.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ϣⲁⲣⲉ Ⲫϯ ⲟⲩⲱⲣⲡ ⲛⲁⲛ: ⲛ̀ⲛⲉϥⲛⲁⲓ ⲛⲉⲙ ⲛⲉϥⲙⲉⲧϣⲉⲛϩⲏⲧ ϩⲓⲧⲉⲛ
                 ⲛⲓϯϩⲟ ⲛ̀ⲧⲉ Ⲙⲓⲭⲁⲏⲗ: ⲡⲓⲛⲓϣϯ ⲛ̀ⲁⲣⲭⲏⲁⲅⲅⲉⲗⲟⲥ.</td>
-            <td class="arabic">Wherefore God sends unto us, His mercy and His compassion, through the supplications of
-                Michael, the great archangel.</td>
+            <td class="arabic" style="border-right: 1px solid black;">أن الله يرسل لنا مراحمه ورأفاته بسؤال ميخائيل
+                رئيس الملائكة العظيم.</td>
+
         </tr>
         <tr id="table_28_row_2" class="north">
-            <td class="english" style="border-right: 1px solid black;">وتكمل الأثمار بطلبات ميخائيل لأنه قريب إلى الله
-                يسأل عنا.</td>
+            <td class="english">The harvest is perfected, through the prayers of Michael, for he is near God, asking Him
+                for us.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ϣⲁⲩϫⲱⲕ ⲉⲃⲟⲗ ⲛ̀ϫⲉ ⲛⲓⲕⲁⲣⲡⲟⲥ: ϩⲓⲧⲉⲛ ⲛⲉⲛⲧⲱⲃϩ ⲙ̀Ⲙⲓⲭⲁⲏⲗ
                 ϫⲉ ⲛ̀ⲑⲟϥ ⲉⲧϧⲉⲛⲧ ⲉϧⲟⲩⲛ ⲉⲪϯ: ⲉϥϯϩⲟ ⲉϩ̀ⲣⲏⲓ ⲉϫⲱⲛ.</td>
-            <td class="arabic">The harvest is perfected, through the prayers of Michael, for he is near God, asking Him
-                for us.</td>
+            <td class="arabic" style="border-right: 1px solid black;">وتكمل الأثمار بطلبات ميخائيل لأنه قريب إلى الله
+                يسأل عنا.</td>
+
         </tr>
         <tr id="table_28_row_3" class="south">
-            <td class="english" style="border-right: 1px solid black;">كل عطية صالحة وكل موهبة تامة إنما تهبط لنا من فوق
-                من عند أبى الأنوار.</td>
+            <td class="english">All good honor, and every perfect gift, comes to us from on high, from the Father of
+                Light.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲁⲓⲟ ⲛⲓⲃⲉⲛ ⲉⲑⲛⲁⲛⲉⲩ: ⲛⲉⲙ ⲇⲱⲣⲟⲛ ⲛⲓⲃⲉⲛ ⲉⲧϫⲏⲕ ⲉⲃⲟⲗ
                 ⲉⲩⲛⲏⲟⲩ ⲛⲁⲛ ⲉⲃⲟⲗ ⲙ̀ⲡ̀ϣⲱⲓ: ϩⲓⲧⲉⲛ ⲫⲓⲱⲧ ⲛ̀ⲧⲉ ⲛⲓⲟⲩⲱⲓⲛⲓ.</td>
-            <td class="arabic">All good honor, and every perfect gift, comes to us from on high, from the Father of
-                Light.</td>
+            <td class="arabic" style="border-right: 1px solid black;">كل عطية صالحة وكل موهبة تامة إنما تهبط لنا من فوق
+                من عند أبى الأنوار.</td>
+
         </tr>
         <tr id="table_28_row_4" class="north">
-            <td class="english" style="border-right: 1px solid black;">فلنسبح ونمجد ونسجد للثالوث المقدس المساوى الدائم
-                إلى الأبد.</td>
+            <td class="english">Let us praise and glorify, and worship the Holy, and Coessential Trinity, who endures
+                forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲙⲁⲣⲉⲛϩⲱⲥ ⲛ̀ⲧⲉⲛϯⲱⲟⲩ: ⲛ̀ⲧⲉⲛⲟⲩⲱϣⲧ ⲛ̀ϯⲧⲣⲓⲁⲥ ⲉˉⲑˉⲩˉ
                 ⲉⲧⲟⲓ ⲛ̀ⲟⲙⲟⲟⲩⲥⲓⲟⲥ: ⲉⲑⲙⲏⲛ ⲉ̀ⲃⲟⲗ ϣⲁ ⲉ̀ⲛⲉϩ.</td>
-            <td class="arabic">Let us praise and glorify, and worship the Holy, and Coessential Trinity, who endures
-                forever.</td>
+            <td class="arabic" style="border-right: 1px solid black;">فلنسبح ونمجد ونسجد للثالوث المقدس المساوى الدائم
+                إلى الأبد.</td>
+
         </tr>
         <tr id="table_28_row_5" class="south">
-            <td class="english" style="border-right: 1px solid black;">إشفع فينا يارئيس الملائكة الطاهر ميخائيل رئيس
-                السمائيين ليغفر لنا خطايانا.</td>
+            <td class="english">Intercede on our behalf, O the holy archangel, Michael the head of the heavenly, that He
+                may forgive us our sins.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲁⲣⲓⲡⲣⲉⲥⲃⲉⲩⲓⲛ ⲉϩ̀ⲣⲏⲓ ⲉϫⲱⲛ: ⲱ ⲡⲓⲁⲣⲭⲏⲁⲅⲅⲉⲗⲟⲥ ⲉˉⲑˉⲩˉ
                 Ⲙⲓⲭⲁⲏⲗ ⲡ̀ⲁⲣⲭⲱⲛ ⲛ̀ⲛⲁ ⲛⲓⲫⲏⲟⲩⲓ ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ.</td>
-            <td class="arabic">Intercede on our behalf, O the holy archangel, Michael the head of the heavenly, that He
-                may forgive us our sins.</td>
+            <td class="arabic" style="border-right: 1px solid black;">إشفع فينا يارئيس الملائكة الطاهر ميخائيل رئيس
+                السمائيين ليغفر لنا خطايانا.</td>
+
         </tr>
     </table>
     <br>
@@ -5877,52 +5908,55 @@ ${htmlRenderScript}
     <table id="table_34" title="Doxology for St Mina" style="display: table;">
         <caption class="caption" id="caption_table_34">Doxology for St Mina</caption>
         <tr id="table_34_row_0" class="north">
-            <td class="english" style="border-right: 1px solid black;">إذا ربح الإنسان العالم كله وخسر نفسه فما هى هذه
-                الحياة الباطلة.</td>
+            <td class="english">What shall it profit a man, if he gains the whole world, and loses his soul, this would
+                be the life of vanity.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲉϣⲱⲡ ⲟⲩⲛ ⲛ̀ⲧⲉ ⲡⲓⲣⲱⲙⲓ ϫⲉⲙϩⲏⲟⲩ ⲙ̀ⲡⲓⲕⲟⲥⲙⲟⲥ ⲧⲏⲣϥ
                 ⲛ̀ⲧⲉϥⲟ̀ⲥⲓ ⲛ̀ⲧⲉϥⲯⲩⲭⲏ   ⲟⲩ ⲡⲉ ⲡⲁⲓ ⲱⲛ’’ϧ ⲛⲉ̀ⲫⲗⲏⲟⲩ.</td>
-            <td class="arabic">What shall it profit a man, if he gains the whole world, and loses his soul, this would
-                be the life of vanity.</td>
+            <td class="arabic" style="border-right: 1px solid black;">إذا ربح الإنسان العالم كله وخسر نفسه فما هى هذه
+                الحياة الباطلة.</td>
+
         </tr>
         <tr id="table_34_row_1" class="south">
-            <td class="english" style="border-right: 1px solid black;">الفديس آبا مينا سمع الصوت الإلهى وترك عنه العالم
-                كله ومجده الفاسد.</td>
+            <td class="english">The saint Abba Mina, heard the Divine voice, and has forsaken the whole world, and its
+                corrupt glory.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲡⲓⲁⲅⲓⲟⲥ ⲁⲡⲁ Ⲙⲏⲛⲁ ⲁϥⲥⲱⲧⲉⲙ ⲛ̀ⲥⲁ ϯⲥ̀ⲙⲏ ⲛ̀ⲛⲟⲩϯ ⲁϥⲭⲱ
                 ⲙ̀ⲡⲓⲕⲟⲥⲙⲟⲥ ⲧⲏⲣϥ ⲛ̀ⲥⲱϥ   ⲛⲉⲙ ⲡⲉϥⲱⲟⲩ ⲉⲑⲛⲁⲧⲁⲕⲟ.</td>
-            <td class="arabic">The saint Abba Mina, heard the Divine voice, and has forsaken the whole world, and its
-                corrupt glory.</td>
+            <td class="arabic" style="border-right: 1px solid black;">الفديس آبا مينا سمع الصوت الإلهى وترك عنه العالم
+                كله ومجده الفاسد.</td>
+
         </tr>
         <tr id="table_34_row_2" class="north">
-            <td class="english" style="border-right: 1px solid black;">وبذل نفسه للموت وجسده للنار وقبل عذابات عظيمة
-                لأجل إبن الله الحى.</td>
+            <td class="english">He gave his soul unto death, and his flesh to the fire, and received great sufferings,
+                for the Son of the Living God.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲁϥϯ ⲛ̀ⲧⲉϥⲯⲏⲭⲏ ⲉ̀ⲫ̀ⲙⲟⲩ : ⲛⲉⲙ ⲡⲉϥⲥⲱⲙⲁ ⲉ̀ⲡⲓⲭ̀ⲣⲱⲙ:
                 ⲁϥϣⲉⲡ ϩⲁⲛⲛⲓϣϯ ⲙ̀ⲃⲁⲥⲁⲛⲟⲥ ⲉⲑⲃⲉ ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫϯ ⲉⲧⲟⲛϧ.</td>
-            <td class="arabic">He gave his soul unto death, and his flesh to the fire, and received great sufferings,
-                for the Son of the Living God.</td>
+            <td class="arabic" style="border-right: 1px solid black;">وبذل نفسه للموت وجسده للنار وقبل عذابات عظيمة
+                لأجل إبن الله الحى.</td>
         </tr>
         <tr id="table_34_row_3" class="south">
-            <td class="english" style="border-right: 1px solid black;">فلهذا رفعه مخلصنا إلى ملكوته وأعطاه الحياة التى
-                لم تراها عين.</td>
+            <td class="english">Therefore our Savoir, lifted him to His kingdom, and granted him the good things, which
+                an eye has not seen.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲉⲑⲃⲉ ⲫⲁⲓ ⲁⲠⲉⲛⲥⲱⲧⲏⲣ  ⲟⲗϥ ⲉϧⲟⲩⲛ ⲉ̀ⲧⲉϥ ⲙⲉⲧⲟⲩⲣⲟ ⲁϥϯ
                 ⲛⲁϥ ⲛ̀ⲛⲓⲁⲅⲁⲑⲟⲛ   ⲛⲏⲉⲧⲉ ⲙ̀ⲡⲉⲃⲁⲗ ⲛⲁⲩ ⲉⲣⲱⲟⲩ.</td>
-            <td class="arabic">Therefore our Savoir, lifted him to His kingdom, and granted him the good things, which
-                an eye has not seen.</td>
+            <td class="arabic" style="border-right: 1px solid black;">فلهذا رفعه مخلصنا إلى ملكوته وأعطاه الحياة التى
+                لم تراها عين.</td>
+
         </tr>
         <tr id="table_34_row_4" class="north">
-            <td class="english" style="border-right: 1px solid black;">السلام لك أيها الشهيد السلام للشجاع المجاهد
-                السلام للابس الجهاد آبا مينا البياضي.</td>
+            <td class="english">Hail to you O martyr, Hail to the courageous hero, Hail to the struggle-mantled, the
+                saint Abba Mena.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲁⲕ ⲱ̀ ⲡⲓⲙⲁⲣⲧⲏⲣⲟⲥ : ⲭⲉⲣⲉ ⲡⲓϭⲱⲓϫ ⲛ̀ⲅⲉⲛⲛⲉⲟⲥ :
                 ⲭⲉⲣⲉ ⲡⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ: ⲁⲃⲃⲁ Ⲙⲏⲛⲁ ⲛ̀ⲧⲉ ⲛⲓⲫⲁⲓⲁⲧ.</td>
-            <td class="arabic">Hail to you O martyr, Hail to the courageous hero, Hail to the struggle-mantled, the
-                saint Abba Mena.</td>
+            <td class="arabic" style="border-right: 1px solid black;">السلام لك أيها الشهيد السلام للشجاع المجاهد
+                السلام للابس الجهاد آبا مينا البياضي.</td>
         </tr>
         <tr id="table_34_row_5" class="south">
-            <td class="english" style="border-right: 1px solid black;">أطلب من الرب عنا أيها الشهيد المجاهد آبا مينا
-                البياضى ليغفر لنا خطايانا.</td>
+            <td class="english">Pray to the Lord on our behalf: O struggle-mantled martyr, the saint Abba Mena, that He
+                may forgive us our sins.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡ⳪ ⲉ̀ϩ̀ⲣⲏⲓ ⲉϫⲱⲛ ⲱ ⲡⲓⲑⲗⲟⲫⲟⲣⲟⲥ ⲙ̀⳥ ⲡⲓⲁⲅⲓⲟⲥ
                 ⲁⲡⲁ Ⲙⲏⲛⲁ   ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ.</td>
-            <td class="arabic">Pray to the Lord on our behalf: O struggle-mantled martyr, the saint Abba Mena, that He
-                may forgive us our sins.</td>
+            <td class="arabic" style="border-right: 1px solid black;">أطلب من الرب عنا أيها الشهيد المجاهد آبا مينا
+                البياضى ليغفر لنا خطايانا.</td>
         </tr>
     </table>
     <br>
@@ -6306,9 +6340,11 @@ ${htmlRenderScript}
             <td class="arabic">سبحوه في جلد قوته الليلويا.</td>
         </tr>
         <tr id="table_39_row_28" class="north">
-            <td class="english" style="border-right: 1px solid black;">Unto our God …</td>
-            <td class="coptic" style="border-right: 1px solid black;">Ⲉϥⲉ̀ⲣⲁⲛⲁϥ ...</td>
-            <td class="arabic">يليق ...</td>
+            <td class="english" style="border-right: 1px solid black;">Unto our God is due glory and the Praise. Praise
+                the Lord our God with a joyful psalm.</td>
+            <td class="coptic" style="border-right: 1px solid black;">Ⲉϥⲉ̀ⲣⲁⲛⲁϥ ⲙ̀ⲡⲉⲛⲛⲟⲩϯ ⲛ̀ϫⲉ ⲡⲓⲱⲟⲩ ⲛⲉⲙ ⲡⲓⲥ̀ⲙⲟⲩ.
+                ̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲡⲉⲛⲛⲟⲩϯ ϫⲉ ⲛⲁⲛⲉ ⲟⲩⲯⲁⲗⲙⲟⲥ.</td>
+            <td class="arabic">يليق لإلهنا المجد والتسبيح. سبحوا الرب الهنا بحسن المزمار.</td>
         </tr>
         <tr id="table_39_row_29" class="south">
             <td class="english" style="border-right: 1px solid black;">Praise Him, for His mighty acts. Alleluia.</td>
@@ -6331,9 +6367,11 @@ ${htmlRenderScript}
             <td class="arabic">سبحوه ككثرة عظمته الليلويا.</td>
         </tr>
         <tr id="table_39_row_32" class="north">
-            <td class="english" style="border-right: 1px solid black;">Unto our God …</td>
-            <td class="coptic" style="border-right: 1px solid black;">Ⲉϥⲉ̀ⲣⲁⲛⲁϥ ...</td>
-            <td class="arabic">يليق ...</td>
+            <td class="english" style="border-right: 1px solid black;">Unto our God is due glory and the Praise. Praise
+                the Lord our God with a joyful psalm.</td>
+            <td class="coptic" style="border-right: 1px solid black;">Ⲉϥⲉ̀ⲣⲁⲛⲁϥ ⲙ̀ⲡⲉⲛⲛⲟⲩϯ ⲛ̀ϫⲉ ⲡⲓⲱⲟⲩ ⲛⲉⲙ ⲡⲓⲥ̀ⲙⲟⲩ.
+                ̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲡⲉⲛⲛⲟⲩϯ ϫⲉ ⲛⲁⲛⲉ ⲟⲩⲯⲁⲗⲙⲟⲥ.</td>
+            <td class="arabic">يليق لإلهنا المجد والتسبيح. سبحوا الرب الهنا بحسن المزمار.</td>
         </tr>
         <tr id="table_39_row_33" class="south">
             <td class="english" style="border-right: 1px solid black;">Praise Him, with the sound of the trumpet.
@@ -6354,9 +6392,11 @@ ${htmlRenderScript}
             <td class="arabic">سبحوه بمزمار وقيثارة الليلويا.</td>
         </tr>
         <tr id="table_39_row_36" class="north">
-            <td class="english" style="border-right: 1px solid black;">Unto our God …</td>
-            <td class="coptic" style="border-right: 1px solid black;">Ⲉϥⲉ̀ⲣⲁⲛⲁϥ ...</td>
-            <td class="arabic">يليق ...</td>
+            <td class="english" style="border-right: 1px solid black;">Unto our God is due glory and the Praise. Praise
+                the Lord our God with a joyful psalm.</td>
+            <td class="coptic" style="border-right: 1px solid black;">Ⲉϥⲉ̀ⲣⲁⲛⲁϥ ⲙ̀ⲡⲉⲛⲛⲟⲩϯ ⲛ̀ϫⲉ ⲡⲓⲱⲟⲩ ⲛⲉⲙ ⲡⲓⲥ̀ⲙⲟⲩ.
+                ̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲡⲉⲛⲛⲟⲩϯ ϫⲉ ⲛⲁⲛⲉ ⲟⲩⲯⲁⲗⲙⲟⲥ.</td>
+            <td class="arabic">يليق لإلهنا المجد والتسبيح. سبحوا الرب الهنا بحسن المزمار.</td>
         </tr>
         <tr id="table_39_row_37" class="south">
             <td class="english" style="border-right: 1px solid black;">Praise Him, with timbrel and chorus. Alleluia.
@@ -6378,9 +6418,11 @@ ${htmlRenderScript}
             <td class="arabic">سبحوه بأوتار وأرغن الليلويا.</td>
         </tr>
         <tr id="table_39_row_40" class="north">
-            <td class="english" style="border-right: 1px solid black;">Unto our God …</td>
-            <td class="coptic" style="border-right: 1px solid black;">Ⲉϥⲉ̀ⲣⲁⲛⲁϥ ...</td>
-            <td class="arabic">يليق ...</td>
+            <td class="english" style="border-right: 1px solid black;">Unto our God is due glory and the Praise. Praise
+                the Lord our God with a joyful psalm.</td>
+            <td class="coptic" style="border-right: 1px solid black;">Ⲉϥⲉ̀ⲣⲁⲛⲁϥ ⲙ̀ⲡⲉⲛⲛⲟⲩϯ ⲛ̀ϫⲉ ⲡⲓⲱⲟⲩ ⲛⲉⲙ ⲡⲓⲥ̀ⲙⲟⲩ.
+                ̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲡⲉⲛⲛⲟⲩϯ ϫⲉ ⲛⲁⲛⲉ ⲟⲩⲯⲁⲗⲙⲟⲥ.</td>
+            <td class="arabic">يليق لإلهنا المجد والتسبيح. سبحوا الرب الهنا بحسن المزمار.</td>
         </tr>
         <tr id="table_39_row_41" class="south">
             <td class="english" style="border-right: 1px solid black;">Praise Him, with pleasant sounding cymbals.
@@ -6404,9 +6446,11 @@ ${htmlRenderScript}
             <td class="arabic">سبحوه بصنوج التهليل الليلويا.</td>
         </tr>
         <tr id="table_39_row_44" class="north">
-            <td class="english" style="border-right: 1px solid black;">Unto our God …</td>
-            <td class="coptic" style="border-right: 1px solid black;">Ⲉϥⲉ̀ⲣⲁⲛⲁϥ ...</td>
-            <td class="arabic">يليق ...</td>
+            <td class="english" style="border-right: 1px solid black;">Unto our God is due glory and the Praise. Praise
+                the Lord our God with a joyful psalm.</td>
+            <td class="coptic" style="border-right: 1px solid black;">Ⲉϥⲉ̀ⲣⲁⲛⲁϥ ⲙ̀ⲡⲉⲛⲛⲟⲩϯ ⲛ̀ϫⲉ ⲡⲓⲱⲟⲩ ⲛⲉⲙ ⲡⲓⲥ̀ⲙⲟⲩ.
+                ̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲡⲉⲛⲛⲟⲩϯ ϫⲉ ⲛⲁⲛⲉ ⲟⲩⲯⲁⲗⲙⲟⲥ.</td>
+            <td class="arabic">يليق لإلهنا المجد والتسبيح. سبحوا الرب الهنا بحسن المزمار.</td>
         </tr>
         <tr id="table_39_row_45" class="south">
             <td class="english" style="border-right: 1px solid black;">Let everything that has breath praise the name of
@@ -7507,7 +7551,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Holy, Holy, Holy; a reading from the Gospel
                 according to our teacher St. Luke [1: 46-50] the Evangelist. May his blessings be with us all. Amen.
             </td>
-            <td class="arabic">قدوس قدوس قدوس . فصل من الإنجيل بحسب لوقا (١:٤٦ـ٥٠ ) البشير . بركاته تكون معنا . آمين.
+            <td class="arabic">قدوس قدوس قدوس . فصل من الإنجيل بحسب لوقا (١ :٤٦-٥٠ ) البشير . بركاته تكون معنا . آمين.
             </td>
         </tr>
         <tr id="table_45_row_17" class="south">
@@ -7745,7 +7789,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Holy, Holy, Holy; a reading from the Gospel
                 according to our teacher St. Luke [1: 51-55] the Evangelist. May his blessings be with us all. Amen.
             </td>
-            <td class="arabic">قدوس قدوس قدوس . فصل من الانجيل بحسب لوقا (١:٥١-٥٥ ) البشير . بركاته تكون معنا . آمين.
+            <td class="arabic">قدوس قدوس قدوس . فصل من الانجيل بحسب لوقا (١ :٥١-٥٥ ) البشير . بركاته تكون معنا . آمين.
             </td>
         </tr>
         <tr id="table_47_row_17" class="south">
@@ -7963,7 +8007,13 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Holy, Holy, Holy; a reading from the Gospel
                 according to our teacher St. Luke [1: 68-72] the Evangelist. May his blessings be with us all. Amen.
             </td>
-            <td class="arabic">قدوس قدوس قدوس . فصل من الانجيل بحسب لوقا (١:٦٨ـ٧٢) البشير . بركاته تكون معنا . آمين.
+            <td class="arabic">قدوس قدوس قدوس . فصل من الانجيل بحسب لوقا (١ :٦٨-٧٢) البشير . بركاته تكون معنا . آمين.
+            </td>
+        </tr>
+        <tr id="table_49_row_17" class="south">
+        <td class="english" style="border-right: 1px solid black;"> "Blessed is the Lord God of Israel. For He has visited and redeemed His people and has raised up a horn of salvation for us in the house of His servant David. As He spoke by the mouth of His holy prophets, who have been since the world began, that we should be saved from our enemies and from the hand of all who hate us to perform the mercy promised to our fathers and to remember His holy covenant.  And Glory be to God forever. Amen. 
+            </td>
+            <td class="arabic">مبارك الرب إله اسرائيل لأنه افتقد وصنع نجاة لشعبه، وأقام لنا قرن خلاص من بيت داود عبده. ليذكر رحمته كما تكلم من أفواه أنبيائه الأطهار منذ البدء. خلاص من أعدائنا ، ومن أيدى كل مبغضينا، ليصنع رحمة مع آبائنا ويذكر عهده المقدس. والمجد لله دائماً أبدياً آمين.
             </td>
         </tr>
     </table>
@@ -8173,6 +8223,12 @@ ${htmlRenderScript}
             <td class="arabic">قدوس قدوس قدوس . فصل من الانجيل بحسب لوقا (١:٧٣-٧٧) البشير . بركاته تكون معنا . آمين.
             </td>
         </tr>
+        <tr id="table_51_row_17" class="south">
+        <td class="english" style="border-right: 1px solid black;">The oath, which He swore to our father Abraham: To grant us that we, being delivered from the hand of our enemies, might serve Him without fear, in holiness and righteousness before Him all the days of our life. "And you, child, will be called the prophet of the Highest, for you will go before the face of the Lord to prepare His ways. To give knowledge of salvation to His people by the remission of their sins,  And Glory be to God forever. Amen 
+            </td>
+            <td class="arabic">القسم الذى حلف لإبراهيم أبينا ليعطينا الخلاص بغير خوف من أيدى أعدائنا ، لنخدمه بطهارة وبر أمامه كل أيام حياتنا ، وأنت أيها الصبى تدعى نبى العلى لأنك تسبق بالمسير أمام الرب لتعد طريقه ، وتعطى علم الخلاص لشعبه لمغفرة خطاياهم. والمجد لله دائماً أبدياً آمين.
+            </td>
+
     </table>
     <br>
     <table id="table_52" title="Sunday Theotokia – Part 5" style="display: table;">
@@ -8398,7 +8454,13 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Holy, Holy, Holy; a reading from the Gospel
                 according to our teacher St. Luke [1: 78-79] the Evangelist. May his blessings be with us all. Amen.
             </td>
-            <td class="arabic">قدوس قدوس قدوس . فصل من الانجيل بحسب لوقا )١:٧٨-٧٩(البشير . بركاته تكون معنا . آمين.</td>
+            <td class="arabic">قدوس قدوس قدوس . فصل من الانجيل بحسب لوقا (١ : ٧٨-٧٩ ) البشير  . بركاته تكون معنا . آمين.</td>
+        </tr>
+        <tr id="table_53_row_17" class="south">
+            <td class="english" style="border-right: 1px solid black;"> Through the tender mercy of our God, with which the dayspring from on high has visited us. To give light to those who sit in darkness and the shadow of death, to guide our feet into the way of peace."  And Glory be to God forever. Amen 
+            </td>
+            <td class="arabic"> من أجل تحنن رحمة إلهنا بهذه الذى افتقدنا به مشرقاً من العلاء ليضئ للجالسين فى الظلمة وظلال الموت ، لتستقيم أرجلنا إلى سبل السلام. والمجد لله دائماً أبدياً آمين. 
+            </td>
         </tr>
     </table>
     <br>
@@ -8613,13 +8675,13 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Holy, Holy, Holy; a reading from the Gospel
                 according to our teacher St. Luke [2: 29-32] the Evangelist. May his blessings be with us all. Amen.
             </td>
-            <td class="arabic">قدوس قدوس قدوس . فصل من الانجيل بحسب لوقا (٢:٢٩-٣٢(البشير . بركاته تكون معنا . آمين.</td>
+            <td class="arabic">قدوس قدوس قدوس . فصل من الانجيل بحسب لوقا (٢ : ٢٩-٣٢)  البشير  . بركاته تكون معنا . آمين.</td>
         </tr>
         <tr id="table_55_row_18" class="north">
             <td class="english" style="border-right: 1px solid black;">(The Gospel According to St. Luke) (CH. 2: 29-32)
             </td>
             <td class="coptic" style="border-right: 1px solid black;">( Ⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲁⲧⲁ Ⲗⲟⲩⲕⲁⲛ ) ( ⲃˉ : ⲕˉⲑˉ )</td>
-            <td class="arabic">( الأنجيل من لوقا) (٢:٢٩-٣٢(</td>
+            <td class="arabic">لوقا (٢ : ٢٩-٣٢)</td>
         </tr>
         <tr id="table_55_row_19" class="south">
             <td class="english" style="border-right: 1px solid black;">Lord, now You are letting Your servant depart in
@@ -8842,268 +8904,268 @@ ${htmlRenderScript}
         <caption class="caption" id="caption_table_59">Hymn on <br><span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ    
                 Ⲙⲁⲣⲓⲁ̀</span></caption>
         <tr id="table_59_row_0" class="north">
-            <td class="english" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
+            <td class="coptic" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
                 Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:</td>
-            <td class="coptic" style="border-right: 1px solid black;">I start my praise
-                Words from my heart
-                I cry out and say
+            <td class="english1" style="border-right: 1px solid black;">I start my praise<br>
+                Words from my heart<br>
+                I cry out and say<br>
                 A rhythmic song</td>
-            <td class="arabic">أبدأ فيك بمديح نظم بقلب صحيح وأشرح فيك وأصيح قول غالي موزون</td>
+            <td class="arabic">أبدأ فيك بمديح <br>نظم بقلب صحيح <br>وأشرح فيك وأصيح <br>قول غالي موزون</td>
         </tr>
         <tr id="table_59_row_1" class="south">
-            <td class="english" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
+            <td class="coptic" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
                 Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:</td>
-            <td class="coptic" style="border-right: 1px solid black;">Every needy one
-                Rejoices and feels calm
-                You brought all joy
+            <td class="english1" style="border-right: 1px solid black;">Every needy one<br>
+                Rejoices and feels calm<br>
+                You brought all joy<br>
                 To every living soul</td>
-            <td class="arabic">بمديحك يرتاح كل ذليل محتاج يابدء الأفراح لك عندي عربون</td>
+            <td class="arabic">بمديحك يرتاح <br>كل ذليل محتاج <br>يابدء الأفراح <br>لك عندي عربون</td>
         </tr>
         <tr id="table_59_row_2" class="north">
-            <td class="english" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
+            <td class="coptic" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
                 Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:</td>
-            <td class="coptic" style="border-right: 1px solid black;">O sweet fruit
-                Apple of my eye
-                No one can deny
+            <td class="english1" style="border-right: 1px solid black;">O sweet fruit<br>
+                Apple of my eye<br>
+                No one can deny<br>
                 You are from on high</td>
-            <td class="arabic">ثمرة عربونى هى طب عيونى فى مدحك لامونى كم عنى يقولون</td>
+            <td class="arabic">ثمرة عربونى <br>هى طب عيونى <br>فى مدحك لامونى <br>كم عنى يقولون</td>
         </tr>
         <tr id="table_59_row_3" class="south">
-            <td class="english" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
+            <td class="coptic" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
                 Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:</td>
-            <td class="coptic" style="border-right: 1px solid black;">Gabriel came
-                With tidings and name
-                Emmanuel became
+            <td class="english1" style="border-right: 1px solid black;">Gabriel came<br>
+                With tidings and name<br>
+                Emmanuel became<br>
                 In your womb the same</td>
-            <td class="arabic">جاءك غبريال ببشائر وأقوال وسكن فيك المتعال سر خفي مكنون</td>
+            <td class="arabic">جاءك غبريال <br>ببشائر وأقوال <br>وسكن فيك المتعال <br>سر خفي مكنون</td>
         </tr>
         <tr id="table_59_row_4" class="north">
-            <td class="english" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
+            <td class="coptic" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
                 Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:</td>
-            <td class="coptic" style="border-right: 1px solid black;">The Logos dwelt
-                Able and shined
-                You became heaven
+            <td class="english1" style="border-right: 1px solid black;">The Logos dwelt<br>
+                Able and shined<br>
+                You became heaven<br>
                 Fruitful and green</td>
-            <td class="arabic">حل بكلمته وأشرق بقدرته صرت كسمائه ياعوسج بغصون</td>
+            <td class="arabic">حل بكلمته <br>وأشرق بقدرته <br>صرت كسمائه <br>ياعوسج بغصون</td>
         </tr>
         <tr id="table_59_row_5" class="south">
-            <td class="english" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
+            <td class="coptic" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
                 Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:</td>
-            <td class="coptic" style="border-right: 1px solid black;">Savior of the world
-                Became in your womb
-                Was born of you
+            <td class="english1" style="border-right: 1px solid black;">Savior of the world<br>
+                Became in your womb<br>
+                Was born of you<br>
                 The Holy Spirit in you</td>
-            <td class="arabic">مخلص العالم صارفيك قائم واستيقظ النائم ومخمور بفنون</td>
+            <td class="arabic">مخلص العالم <br>صارفيك قائم <br>واستيقظ النائم <br>ومخمور بفنون</td>
         </tr>
         <tr id="table_59_row_6" class="north">
-            <td class="english" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
+            <td class="coptic" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
                 Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:</td>
-            <td class="coptic" style="border-right: 1px solid black;">David in the Psalms
-                Said you are the bride
-                Offerings and gifts
+            <td class="english1" style="border-right: 1px solid black;">David in the Psalms<br>
+                Said you are the bride<br>
+                Offerings and gifts<br>
                 Was given to the One</td>
-            <td class="arabic">داود فى المزمور قال بنات صور بهدايا ونذور قالوا فيك بفنون</td>
+            <td class="arabic">داود فى المزمور <br>قال بنات صور <br>بهدايا ونذور <br>قالوا فيك بفنون</td>
         </tr>
         <tr id="table_59_row_7" class="south">
-            <td class="english" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
+            <td class="coptic" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
                 Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:</td>
-            <td class="coptic" style="border-right: 1px solid black;">Myriads and myriads
-                Around the Throne Stands
-                Hosts and ranks
+            <td class="english1" style="border-right: 1px solid black;">Myriads and myriads<br>
+                Around the Throne Stands<br>
+                Hosts and ranks<br>
                 Many martyrs</td>
-            <td class="arabic">ربوات ثم ألوف حول العرش وقوف وطغمات وصفوف وشهداء متصلون</td>
+            <td class="arabic">ربوات ثم ألوف <br>حول العرش وقوف <br>وطغمات وصفوف <br>وشهداء متصلون</td>
         </tr>
         <tr id="table_59_row_8" class="north">
-            <td class="english" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
+            <td class="coptic" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
                 Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:</td>
-            <td class="coptic" style="border-right: 1px solid black;">You are beyond
-                Above all codes
-                You are purity respond
+            <td class="english1" style="border-right: 1px solid black;">You are beyond<br>
+                Above all codes<br>
+                You are purity respond<br>
                 Any questions</td>
-            <td class="arabic">زدت فى الأوصاف عن كل الأوصاف ومشيتى بعفاف وسميت صهيون</td>
+            <td class="arabic">زدت فى الأوصاف <br>عن كل الأوصاف <br>ومشيتى بعفاف <br>وسميت صهيون</td>
         </tr>
         <tr id="table_59_row_9" class="south">
-            <td class="english" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
+            <td class="coptic" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
                 Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:</td>
-            <td class="coptic" style="border-right: 1px solid black;">Witnessed by Salome
-                The Virgin from the Womb
-                Gave birth to Whom
+            <td class="english1" style="border-right: 1px solid black;">Witnessed by Salome<br>
+                The Virgin from the Womb<br>
+                Gave birth to Whom<br>
                 While sealed by the One</td>
-            <td class="arabic">سالومى شهدت بأن العذراء وضعت آمنت وأعتقدت والخاتم مصون</td>
+            <td class="arabic">سالومى شهدت <br>بأن العذراء وضعت <br>آمنت وأعتقدت <br>والخاتم مصون</td>
         </tr>
         <tr id="table_59_row_10" class="north">
-            <td class="english" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
+            <td class="coptic" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
                 Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:</td>
-            <td class="coptic" style="border-right: 1px solid black;">Isaiah had said
-                That, your Son, Jesus
-                Was born of you
+            <td class="english1" style="border-right: 1px solid black;">Isaiah had said<br>
+                That, your Son, Jesus<br>
+                Was born of you<br>
                 In the right season</td>
-            <td class="arabic">أشعياء قال عنك بأن يسوع ابنك وخرج من بطنك ونظرناه بعيون</td>
+            <td class="arabic">أشعياء قال عنك <br>بأن يسوع ابنك <br>وخرج من بطنك <br>ونظرناه بعيون</td>
         </tr>
         <tr id="table_59_row_11" class="south">
-            <td class="english" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
+            <td class="coptic" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
                 Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:</td>
-            <td class="coptic" style="border-right: 1px solid black;">Zephaniah proclaimed
-                That Jesus appeared
-                As rain and dew
+            <td class="english1" style="border-right: 1px solid black;">Zephaniah proclaimed<br>
+                That Jesus appeared<br>
+                As rain and dew<br>
                 Surrounded by numerous ranks</td>
-            <td class="arabic">صوفونيوس خبر بأن يسوع يظهر شبه ندي ومطر حوله صفوف لايحصون</td>
+            <td class="arabic">صوفونيوس خبر<br>بأن يسوع يظهر <br>شبه ندي ومطر <br>حوله صفوف لايحصون</td>
         </tr>
         <tr id="table_59_row_12" class="north">
-            <td class="english" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
+            <td class="coptic" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
                 Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:</td>
-            <td class="coptic" style="border-right: 1px solid black;">You are blessed
-                You confused them all
-                By the water and Spirit
+            <td class="english1" style="border-right: 1px solid black;">You are blessed<br>
+                You confused them all<br>
+                By the water and Spirit<br>
                 We conquered Satan</td>
-            <td class="arabic">طوباك ثم طوباك حيرت العلماء بوجود الروح والماء قهرنا الأركون</td>
+            <td class="arabic">طوباك ثم طوباك <br>حيرت العلماء <br>بوجود الروح والماء <br>قهرنا الأركون</td>
         </tr>
         <tr id="table_59_row_13" class="south">
-            <td class="english" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
+            <td class="coptic" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
                 Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:</td>
-            <td class="coptic" style="border-right: 1px solid black;">Many thought in you
-                That this was illegal
-                Till He raised
+            <td class="english1" style="border-right: 1px solid black;">Many thought in you<br>
+                That this was illegal<br>
+                Till He raised<br>
                 The dead and healed the sick</td>
-            <td class="arabic">ظنوا فيك أقوام بإن الحبل ده حرام حتى حل وأقام الأموات والمجنون</td>
+            <td class="arabic">ظنوا فيك أقوام <br>بإن الحبل ده حرام <br>حتى حل وأقام <br>الأموات والمجنون</td>
         </tr>
         <tr id="table_59_row_14" class="north">
-            <td class="english" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
+            <td class="coptic" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
                 Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:</td>
-            <td class="coptic" style="border-right: 1px solid black;">The fathers said
-                A dome in a cloud
-                The dome of the Church
+            <td class="english1" style="border-right: 1px solid black;">The fathers said<br>
+                A dome in a cloud<br>
+                The dome of the Church<br>
                 Your support we search</td>
-            <td class="arabic">شبهك الاباء قبة وسحابة ووضعوا بإجابة وجميعهم فيك محتارون</td>
+            <td class="arabic">شبهك الاباء <br>قبة وسحابة <br>ووضعوا بإجابة <br>وجميعهم فيك محتارون</td>
         </tr>
         <tr id="table_59_row_15" class="south">
-            <td class="english" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
+            <td class="coptic" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
                 Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:</td>
-            <td class="coptic" style="border-right: 1px solid black;">Many before came
-                Praised and did not find Him
-                Many came after Him
+            <td class="english1" style="border-right: 1px solid black;">Many before came<br>
+                Praised and did not find Him<br>
+                Many came after Him<br>
                 But the Mighty was down</td>
-            <td class="arabic">غلب أقوام سبقوه مدحوا مالحقوه جاءوا بعده وجدوه بسر خفى مكنون</td>
+            <td class="arabic">غلب أقوام سبقوه <br>مدحوا مالحقوه <br>جاءوا بعده وجدوه <br>بسر خفى مكنون</td>
         </tr>
         <tr id="table_59_row_16" class="north">
-            <td class="english" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
+            <td class="coptic" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
                 Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:</td>
-            <td class="coptic" style="border-right: 1px solid black;">My heart rejoice
-                For you are my choice
-                O Mary we praise
+            <td class="english1" style="border-right: 1px solid black;">My heart rejoice<br>
+                For you are my choice<br>
+                O Mary we praise<br>
                 We cry with voices</td>
-            <td class="arabic">فيك رضا قلبى من شأن طلبى يامريم حسبي تاجي وأنا دون</td>
+            <td class="arabic">فيك رضا قلبى <br>من شأن طلبى <br>يامريم حسبي <br>تاجي وأنا دون</td>
         </tr>
         <tr id="table_59_row_17" class="south">
-            <td class="english" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
+            <td class="coptic" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
                 Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:</td>
-            <td class="coptic" style="border-right: 1px solid black;">You are Moses dome
-                Ornamented all
-                In all four corners
+            <td class="english1" style="border-right: 1px solid black;">You are Moses dome<br>
+                Ornamented all<br>
+                In all four corners<br>
                 With instruments and arts</td>
-            <td class="arabic">قبة موسى كان زخرفها بالألوان وجعل فيها الأركان بكل آله وفنون</td>
+            <td class="arabic">قبة موسى كان <br>زخرفها بالألوان <br>وجعل فيها الأركان <br>بكل آله وفنون</td>
         </tr>
         <tr id="table_59_row_18" class="north">
-            <td class="english" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
+            <td class="coptic" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
                 Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:</td>
-            <td class="coptic" style="border-right: 1px solid black;">God has in the dome
-                Many prayers and calls
-                The can is the love sign
+            <td class="english1" style="border-right: 1px solid black;">God has in the dome<br>
+                Many prayers and calls<br>
+                The can is the love sign<br>
                 Were the manna in it</td>
-            <td class="arabic">لله فى القبة صلوات وطلبة والقسط علامة المحبة المن فيه مكنون</td>
+            <td class="arabic">لله فى القبة <br>صلوات وطلبة <br>والقسط علامة المحبة <br>المن فيه مكنون</td>
         </tr>
         <tr id="table_59_row_19" class="south">
-            <td class="english" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
+            <td class="coptic" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
                 Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:</td>
-            <td class="coptic" style="border-right: 1px solid black;">A pure censer
-                Holding the aroma
-                You are the Ark of covenant
+            <td class="english1" style="border-right: 1px solid black;">A pure censer<br>
+                Holding the aroma<br>
+                You are the Ark of covenant<br>
                 Carrying the True Word</td>
-            <td class="arabic">مجمرة التصعيد زهرة عطر تقيد ياتابوت عهد جديد بصفائح وقرون</td>
+            <td class="arabic">مجمرة التصعيد <br>زهرة عطر تقيد <br>ياتابوت عهد جديد <br>بصفائح وقرون</td>
         </tr>
         <tr id="table_59_row_20" class="north">
-            <td class="english" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
+            <td class="coptic" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
                 Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:</td>
-            <td class="coptic" style="border-right: 1px solid black;">You carried the Light
-                Like seven minarets lit
-                You're Aaron's rod
+            <td class="english1" style="border-right: 1px solid black;">You carried the Light<br>
+                Like seven minarets lit<br>
+                You're Aaron's rod<br>
                 Which alone blossomed</td>
-            <td class="arabic">نالوا نور من نور سبع سرج ينيرون وقضيب كان مذخور بأسم الأب هرون</td>
+            <td class="arabic">نالوا نور من نور <br>سبع سرج ينيرون <br>وقضيب كان مذخور <br>بأسم الأب هرون</td>
         </tr>
         <tr id="table_59_row_21" class="south">
-            <td class="english" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
+            <td class="coptic" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
                 Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:</td>
-            <td class="coptic" style="border-right: 1px solid black;">You are the altar
-                With incense offered
-                Many prophesied
+            <td class="english1" style="border-right: 1px solid black;">You are the altar<br>
+                With incense offered<br>
+                Many prophesied<br>
                 And were fulfilled</td>
-            <td class="arabic">هيكل بموائد وبخور وصعائد وآيات وشواهد عنك يتنبأون</td>
+            <td class="arabic">هيكل بموائد <br>وبخور وصعائد <br>وآيات وشواهد <br>عنك يتنبأون</td>
         </tr>
         <tr id="table_59_row_22" class="north">
-            <td class="english" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
+            <td class="coptic" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
                 Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:</td>
-            <td class="coptic" style="border-right: 1px solid black;">All what they said
-                In the dome they found
-                As your purity showed
+            <td class="english1" style="border-right: 1px solid black;">All what they said<br>
+                In the dome they found<br>
+                As your purity showed<br>
                 Her virginity sealed</td>
-            <td class="arabic">وجميع ما وضعوه في القبة وجدوه ولقدسك ذكروه عذراء بكر مصون</td>
+            <td class="arabic">وجميع ما وضعوه <br>في القبة وجدوه <br>ولقدسك ذكروه <br>عذراء بكر مصون</td>
         </tr>
         <tr id="table_59_row_23" class="south">
-            <td class="english" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
-                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:
+            <td class="coptic" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
+                Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:<br>
                 Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀:</td>
-            <td class="coptic" style="border-right: 1px solid black;">We ask of you
-                To ask your Son
-                O blessed Mary
+            <td class="english1" style="border-right: 1px solid black;">We ask of you<br>
+                To ask your Son<br>
+                O blessed Mary<br>
                 To forgive us</td>
-            <td class="arabic">لازم نترجاك عند الابن عساك يامريم طوباك راعينا بعيون</td>
+            <td class="arabic">لازم نترجاك <br>عند الابن عساك <br>يامريم طوباك <br>راعينا بعيون</td>
         </tr>
     </table>
     <br>
@@ -9296,533 +9358,716 @@ ${htmlRenderScript}
     <table id="table_61" title="O MARY" style="display: table;">
         <caption class="caption" id="caption_table_61">O MARY</caption>
         <tr id="table_61_row_0" class="north">
-            <td class="english" style="border-right: 1px solid black;">O Mary,
-                Lady of virgins,
-                you attained greatness,
-                from the True Light,
-                You are exalted,
-                by the Lord Himself,
-                you bore the Creator,
+            <td class="english1" style="border-right: 1px solid black;">
+                O Mary,<br>
+                Lady of virgins,<br>
+                you attained greatness,<br>
+                from the True Light,<br>
+                You are exalted,<br>
+                by the Lord Himself,<br>
+                you bore the Creator,<br>
                 O what a great marvel!</td>
-                <td class="enPhonics" style="border-right: 1px solid black;">
-                Ya meem reh yeh meem,
-                ya set el-abkar,
-                qad nelty taazeem,
-                men noor el-anwar,
-                wa wohebty taazeem,
-                men endoo qad sar,
-                wa Hamalty al-khaleq,
+            <td class="enPhonics1" style="border-right: 1px solid black;">
+                Ya meem reh yeh meem,<br>
+                ya set el-abkar,<br>
+                qad nelty taazeem,<br>
+                men noor el-anwar,<br>
+                wa wohebty taazeem,<br>
+                men endoo qad sar,<br>
+                wa Hamalty al-khaleq,<br>
                 man za la yaHtar.</td>
-            <td class="arabic">يا م ر ى م ياست الأبكار قد نلت تعظيم من نور الأنوار ووهبت تعظيم من عنده قد صار وحملت
-                الخالق من ذا لا يحتار</td>
+            <td class="arabic">يا م ر ى م <br>
+                ياست الأبكار <br>
+                قد نلت تعظيم <br>
+                من نور الأنوار <br>
+                ووهبت تعظيم <br>
+                من عنده قد صار <br>
+                وحملت الخالق <br>
+                من ذا لا يحتار</td>
         </tr>
 
         <tr id="table_61_row_2" class="north">
-            <td class="english" style="border-right: 1px solid black;">Wondrous among nations,
-                wisdom to rulers,
-                a hidden gem,
-                and the gospel spoke of you:
-                They give you blessings,
-                in all generations,
-                O daughter of Joachim,
+            <td class="english1" style="border-right: 1px solid black;">
+                Wondrous among nations,<br>
+                wisdom to rulers,<br>
+                a hidden gem,<br>
+                and the gospel spoke of you:<br>
+                They give you blessings,<br>
+                in all generations,<br>
+                O daughter of Joachim,<br>
                 exalted above the Cherubim.</td>
-            <td class="arabic">قد صرت اعجوبة للرؤساء امثال درة محجوبة وفي الانجيل قد قال يعطونك الطوبا في كل الاجيال يا
-                ابنة يواقيم قد فقتي الشاروبيم</td>
-        </tr>
-        <tr id="table_61_row_3" class="south">
-            <td class="english" style="border-right: 1px solid black;">
-                Qad serty ogooba,
-                lel roasa amthal,
-                dorrah maHgooba,
-                wa fi el-engeel qad qal,
-                yotonek el-tooba,
-                fi kol al-gial,
-                ya ebnat youaqeem,       
+
+            <td class="enPhonics1" style="border-right: 1px solid black;">
+                Qad serty ogooba,<br>
+                lel roasa amthal,<br>
+                dorrah maHgooba,<br>
+                wa fi el-engeel qad qal,<br>
+                yotonek el-tooba,<br>
+                fi kol al-gial,<br>
+                ya ebnat youaqeem,<br>
                 qad foqty el-Cheroubim.</td>
+
+            <td class="arabic">قد صرت اعجوبة <br>
+                للرؤساء امثال <br>
+                درة محجوبة <br>
+                وفي الانجيل قد قال <br>
+                يعطونك الطوبا <br>
+                في كل الاجيال <br>
+                يا ابنة يواقيم <br>
+                قد فقتي الشاروبيم</td>
         </tr>
-        <tr id="table_61_row_4" class="north">
-            <td class="english" style="border-right: 1px solid black;">You attained what no one could,
-                O Mother of the Mercy,
-                and you became,
-                filled with grace,
-                To the Divine you became,
-                a veil for the Word,
-                and greatly marveled,
+
+        <tr id="table_61_row_4" class="south">
+            <td class="english1" style="border-right: 1px solid black;">
+                You attained what no one could,<br>
+                O Mother of the Mercy,<br>
+                and you became,<br>
+                filled with grace,<br>
+                To the Divine you became,<br>
+                a veil for the Word,<br>
+                and greatly marveled,<br>
                 were you among the scholars.</td>
-            <td class="arabic">من نال ما نلتى يا ام الرحمة وانتي قد صرتي مملؤة نعمه وللاهوت صرتي حجابا للكلمة واحتار فيك
+            <td class="enPhonics1" style="border-right: 1px solid black;">
+                Man nal ma nelty,<br>
+                ya om el-raHma,<br>
+                wa anty qaad serty,<br>
+                mamlooa nema,<br>
+                wa lel lahot serty,<br>
+                Hegaban lel-kalema,<br>
+                wa aHtar fiki,<br>
+                arbab al-tafheem.</td>
+            <td class="arabic">
+                من نال ما نلتى <br>
+                يا ام الرحمة <br>
+                وانتي قد صرتي <br>
+                مملؤة نعمه <br>
+                وللاهوت صرتي <br>
+                حجابا للكلمة <br>
+                واحتار فيك<br>
                 ارباب التفهيم</td>
         </tr>
-        <tr id="table_61_row_5" class="south">
-            <td class="english" style="border-right: 1px solid black;">Man nal ma nelty,
-                wa anty qaad serty,
-                wa lel lahot serty,
-                wa aHtar fiki,</td>
-            <td class="arabic">ya om el-raHma,
-                mamlooa nema,
-                Hegaban lel-kalema,
-                arbab al-tafheem.</td>
-        </tr>
-        <tr id="table_61_row_6" class="north">
-            <td class="english" style="border-right: 1px solid black;">O tabernacle of the covenant,
-                O censer of Aaron,
-                O spirit of glory,
-                O daughter of Zion,
-                O the light of eyes,
-                with you we rejoice,
-                and abide in grace,
+
+        <tr id="table_61_row_6" class="south">
+            <td class="english1" style="border-right: 1px solid black;">
+                O tabernacle of the covenant,<br>
+                O censer of Aaron,<br>
+                O spirit of glory,<br>
+                O daughter of Zion,<br>
+                O the light of eyes,<br>
+                with you we rejoice,<br>
+                and abide in grace,<br>
                 O full of grace.</td>
-            <td class="arabic">يا تابوت العهد يا مجمرة هارون يا روح المجد يا ابنة صهيون يا نور العيون بك نسعد ونحظي
-                بالنعيم يا مملؤة نعمه</td>
-        </tr>
-        <tr id="table_61_row_7" class="south">
-            <td class="english" style="border-right: 1px solid black;">Ya taboot el-ahde,
-                ya roH el-magd,
-                ya noor el-oyoon,
-                wa naHza bel-naeem,</td>
-            <td class="arabic">ya magmaret Haroun,
-                ya ebnat Sehioun,
-                beky nasadoo,
-                ya mamloua nema.</td>
+            <td class="enPhonics1" style="border-right: 1px solid black;">
+                Ya taboot el-ahde,<br>
+                ya magmaret Haroun,<br>
+                ya roH el-magd,<br>
+                ya ebnat Sehioun,<br>
+                ya noor el-oyoon,<br>
+                beky nasadoo,<br>
+                wa naHza bel-naeem,<br>
+                ya mamloua nema.</td>            
+            <td class="arabic">
+                يا تابوت العهد <br>
+                يا مجمرة هارون <br>
+                يا روح المجد <br>
+                يا ابنة صهيون <br>
+                يا نور العيون <br>
+                بك نسعد <br>
+                ونحظي بالنعيم <br>
+                يا مملؤة نعمه</td>
         </tr>
         <tr id="table_61_row_8" class="north">
-            <td class="english" style="border-right: 1px solid black;">O full of grace,
-                the fortifying fortress,
-                the jewel of mercy,
-                the aid of the poor,
-                Your son has purged death,
-                O the intercessor of saints,
-                intercede for us,
+            <td class="english1" style="border-right: 1px solid black;">
+                O full of grace,<br>
+                the fortifying fortress,<br>
+                the jewel of mercy,<br>
+                the aid of the poor,<br>
+                Your son has purged death,<br>
+                O the intercessor of saints,<br>
+                intercede for us,<br>
                 O Mother of Mercy.</td>
-            <td class="arabic">يا مملؤة نعمه انت الحصن الحصين انت كنز الرحمة يا عون المساكين بإبنك زالت النقمة يا شفيعة
-                القديسين وشفيعتنا في الزحمة يا ام الرحيم</td>
-        </tr>
-        <tr id="table_61_row_9" class="south">
-            <td class="english" style="border-right: 1px solid black;">Ya mamloua nema,
-                anty kanz el-raHma,
-                be-ebnek zalet el naqma,
-                Wa shafietna fil-zaHma,</td>
-            <td class="arabic">anty el-Hesn el-Haseen,
-                ya awn al-masakeen,
-                ya sahfiat el-qedisin,
+            <td class="enPhonics1" style="border-right: 1px solid black;">
+                Ya mamloua nema,<br>
+                anty el-Hesn el-Haseen,<br>
+                anty kanz el-raHma,<br>
+                ya awn al-masakeen,<br>            
+                be-ebnek zalet el naqma,<br>
+                ya sahfiat el-qedisin,<br>
+                Wa shafietna fil-zaHma,<br>
                 ya om el-raHim.</td>
+            <td class="arabic">
+                يا مملؤة نعمه <br>
+                انت الحصن الحصين<br>
+                انت كنز الرحمة<br>
+                يا عون المساكين <br>
+                بإبنك زالت النقمة <br>
+                يا شفيعة القديسين <br>
+                وشفيعتنا في الزحمة <br>
+                يا ام الرحيم</td>
         </tr>
         <tr id="table_61_row_10" class="north">
-            <td class="english" style="border-right: 1px solid black;">Hail to you,
-                O Lady of virgins,
-                O daughter of Joachim,
-                the chosen throne,
-                Righteous is your Son,
-                He purged our shame,
-                the glorious God,
+            <td class="english1" style="border-right: 1px solid black;">
+                Hail to you,<br>
+                O Lady of virgins,<br>
+                O daughter of Joachim,<br>
+                the chosen throne,<br>
+                Righteous is your Son,<br>
+                He purged our shame,<br>
+                the glorious God,<br>
                 the Creator of ages.</td>
-            <td class="arabic">نقدم لك التعظيم ياست الأبكار يا ابنة يواقيم يا كرسيا مختار والمولود منك كريم ازال عنا
-                العار الاله العظيم خالق الادهار</td>
-        </tr>
-        <tr id="table_61_row_11" class="south">
-            <td class="english" style="border-right: 1px solid black;">Noqadem laky a-tazeem,
-                ya ebnat Yowaqim,
-                wel-mawlood menky karim,
-                al-elah el-azeem,</td>
-            <td class="arabic">ya set el-abkar,
-                ya korseyan mokhtar,
-                azal anna al-ar,
+            <td class="enPhonics1" style="border-right: 1px solid black;">
+                Noqadem laky a-tazeem,<br>
+                ya set el-abkar,<br>
+                ya ebnat Yowaqim,<br>
+                ya korseyan mokhtar,<br>
+                wel-mawlood menky karim,<br>
+                azal anna al-ar,<br>
+                al-elah el-azeem,<br>
                 khalek el ad-har.</td>
+            <td class="arabic">
+                نقدم لك التعظيم <br>
+                ياست الأبكار <br>
+                يا ابنة يواقيم <br>
+                يا كرسيا مختار <br>
+                والمولود منك كريم <br>
+                ازال عنا العار <br>
+                الاله العظيم <br>
+                خالق الادهار</td>
         </tr>
-        <tr id="table_61_row_12" class="north">
-            <td class="english" style="border-right: 1px solid black;">The adornment of virgins,
-                the holy Mother,
-                the purity of the pure,
-                O light of lights,
-                O jewel of grace,
-                O Mother of Mercy,
-                truly you are the vine,
+        <tr id="table_61_row_12" class="south">
+            <td class="english1" style="border-right: 1px solid black;">
+                The adornment of virgins,<br>
+                the holy Mother,<br>
+                the purity of the pure,<br>
+                O light of lights,<br>
+                O jewel of grace,<br>
+                O Mother of Mercy,<br>
+                truly you are the vine,<br>
                 filled and bearing fruit.</td>
-            <td class="arabic">يا زين الأبكار يا قدس الأحبار يا طهر الأطهار يا نور الأنوار يا كنز النعمة يا ام الرحمة
-                أنت هي الكرمة المملؤة أثمار</td>
-        </tr>
-        <tr id="table_61_row_13" class="south">
-            <td class="english" style="border-right: 1px solid black;">Ya zen el-abkar,
-                ya tohr el-at-har,
-                ya kanz al-nema,
-                anty heya al-karma,</td>
-            <td class="arabic">ya qods el-aHbar,
-                ya noor el-anwar,
-                ya om el-raHma,
+            <td class="enPhonics1" style="border-right: 1px solid black;">
+                Ya zen el-abkar,<br>
+                ya qods el-aHbar,<br>
+                ya tohr el-at-har,<br>
+                ya noor el-anwar,<br>
+                ya kanz al-nema,<br>
+                ya om el-raHma,<br>
+                anty heya al-karma,<br>
                 al-mamloua athmar.</td>
+            <td class="arabic">
+                يا زين الأبكار <br>
+                يا قدس الأحبار <br>
+                يا طهر الأطهار <br>
+                يا نور الأنوار <br>
+                يا كنز النعمة <br>
+                يا ام الرحمة<br>
+                أنت هي الكرمة <br>
+                المملؤة أثمار</td>
         </tr>
-        <tr id="table_61_row_14" class="north">
-            <td class="english" style="border-right: 1px solid black;">O daughter of Joachim,
-                you attained greatness,
-                you are Jerusalem,
-                glorious and honored,
-                You are Zion,
-                O precious jewel;
-                you released the captive,
+        <tr id="table_61_row_14" class="south">
+            <td class="english1" style="border-right: 1px solid black;">
+                O daughter of Joachim,<br>
+                you attained greatness,<br>
+                you are Jerusalem,<br>
+                glorious and honored,<br>
+                You are Zion,<br>
+                O precious jewel;<br>
+                you released the captive,<br>
                 from the Deceiver’s hand.</td>
-            <td class="arabic">يا ابنة يواقيم قد نلت التعظيم انت هي اورشليم ذات المجد والفخار انت هي صهيون يا جوهرا
-                مكنون فككت المسجون من يد المكار</td>
-        </tr>
-        <tr id="table_61_row_15" class="south">
-            <td class="english" style="border-right: 1px solid black;">Ya ebnat Yowaqim,
-                anty heya Orshaleem,
-                anty heya Sehioun,
-                fakakty el-masgoon,</td>
-            <td class="arabic">qad nelty al-tazeem,
-                zat al-magd wal fakhar,
-                ya gawharan maknoon,
+            <td class="enPhonics1" style="border-right: 1px solid black;">
+                Ya ebnat Yowaqim,<br>
+                qad nelty al-tazeem,<br>
+                anty heya Orshaleem,<br>
+                zat al-magd wal fakhar,<br>
+                anty heya Sehioun,<br>
+                ya gawharan maknoon,<br>
+                fakakty el-masgoon,<br>
                 men yad el-makar.</td>
+            <td class="arabic">
+                يا ابنة يواقيم <br>
+                قد نلت التعظيم <br>
+                انت هي اورشليم <br>
+                ذات المجد والفخار <br>
+                انت هي صهيون <br>
+                يا جوهرا مكنون <br>
+                فككت المسجون <br>
+                من يد المكار</td>
         </tr>
         <tr id="table_61_row_16" class="north">
-            <td class="english" style="border-right: 1px solid black;">Your son saved Adam,
-                the repentant sinner,
-                humanity He set free,
-                from all adversaries,
-                The Lord from your childhood,
-                witnessed your purity,
-                and therefore has blessed you,
+            <td class="english1" style="border-right: 1px solid black;">
+                Your son saved Adam,<br>
+                the repentant sinner,<br>
+                humanity He set free,<br>
+                from all adversaries,<br>
+                The Lord from your childhood,<br>
+                witnessed your purity,<br>
+                and therefore has blessed you,<br>
                 before all nations.</td>
-            <td class="arabic">ابنك خلص ادم الخاطئ النادم وعتق العالم من كل الاضرار ربك من صغرك لما رأي طهرك قد طيب ذكرك
+            <td class="enPhonics1" style="border-right: 1px solid black;">
+                Ebnek khalas Adam,<br>
+                el-khaty el-nadem,<br>
+                we ataq el-alam,<br>
+                men kol el-adrar,<br>
+                rabek men soghrek,<br>
+                lamma raa tohrek,<br>
+                qad tayab zekrek,<br>
+                fi kol el-aqtar.</td>
+            <td class="arabic">
+                ابنك خلص ادم <br>
+                الخاطئ النادم <br>
+                وعتق العالم <br>
+                من كل الاضرار <br>
+                ربك من صغرك <br>
+                لما رأي طهرك <br>
+                قد طيب ذكرك<br>
                 في كل الاقطار</td>
         </tr>
-        <tr id="table_61_row_17" class="south">
-            <td class="english" style="border-right: 1px solid black;">Ebnek khalas Adam,
-                we ataq el-alam,
-                rabek men soghrek,
-                qad tayab zekrek,</td>
-            <td class="arabic">el-khaty el-nadem,
-                men kol el-adrar,
-                lamma raa tohrek,
-                fi kol el-aqtar.</td>
-        </tr>
+
         <tr id="table_61_row_18" class="north">
-            <td class="english" style="border-right: 1px solid black;">He sent you Gabriel,
-                the Messenger of His words,
-                and greeted you saying,
-                The Lord has chosen you,
-                His Holy Spirit,
-                filled and dwelt within you,
-                blessed are you O Virgin,
+            <td class="english1" style="border-right: 1px solid black;">
+                He sent you Gabriel,<br>
+                the Messenger of His words,<br>
+                and greeted you saying,<br>
+                The Lord has chosen you,<br>
+                His Holy Spirit,<br>
+                filled and dwelt within you,<br>
+                blessed are you O Virgin,<br>
                 throughout all ages."</td>
-            <td class="arabic">ارسل لك غبريال بمحكم الاقوال وبشرك اذ قال الله لك اختار روح قدسه ملاك وسكن في احشاك يا
-                عذرا طوباك في كل الاجيال</td>
-        </tr>
-        <tr id="table_61_row_19" class="south">
-            <td class="english" style="border-right: 1px solid black;">Arsal laky Ghabrial,
-                wa basharek ez qal,
-                roH qodsoh malaky,
-                ya adra toobaky,</td>
-            <td class="arabic">bemoHkam el aqwal,
-                Allaho laky ekhtar,
-                wa sakan fi aHshaky,
+            <td class="english" style="border-right: 1px solid black;">
+                Arsal laky Ghabrial,<br>
+                bemoHkam el aqwal,<br>
+                wa basharek ez qal,<br>
+                Allaho laky ekhtar,<br>
+                roH qodsoh malaky,<br>
+                wa sakan fi aHshaky,<br>
+                ya adra toobaky,<br>
                 fi kol el agial.</td>
+            <td class="arabic">
+                ارسل لك غبريال <br>
+                بمحكم الاقوال <br>
+                وبشرك اذ قال <br>
+                الله لك اختار <br>
+                روح قدسه ملاك <br>
+                وسكن في احشاك يا<br>
+                عذرا طوباك <br>
+                في كل الاجيال</td>
         </tr>
-        <tr id="table_61_row_20" class="north">
-            <td class="english" style="border-right: 1px solid black;">The Unseen and Holy,
-                was born from you,
-                and was called Jesus,
-                for all eyes to see,
-                Moses saw the bush,
-                blazing with fire,
-                its branches flaming,
+        <tr id="table_61_row_20" class="south">
+            <td class="english1" style="border-right: 1px solid black;">
+                The Unseen and Holy,<br>
+                was born from you,<br>
+                and was called Jesus,<br>
+                for all eyes to see,<br>
+                Moses saw the bush,<br>
+                blazing with fire,<br>
+                its branches flaming,<br>
                 yet the bush was not consumed.</td>
-            <td class="arabic">ان غير المحسوس الرب القدوس منك اتي ودعي ايسوس ونظرته الابصار موسي رأي العوسج والنار فيه
-                تتأجج وأغصانه تتوهج ما ضرته النار</td>
-        </tr>
-        <tr id="table_61_row_21" class="south">
-            <td class="english" style="border-right: 1px solid black;">An gher el-maHsoos,
-                menky ata wa doaya Isoos,
-                Mousa raa al-awsag,
-                wa aghsanoh tatawahag,</td>
-            <td class="arabic">al-rab el qodoos,
-                wa nazarat-ho el-absar,
-                wal-nar fihi tata-gag,
+            <td class="enPhonics1" style="border-right: 1px solid black;">
+                An gher el-maHsoos,<br>
+                al-rab el qodoos,<br>
+                menky ata wa doaya Isoos,<br>
+                wa nazarat-ho el-absar,<br>
+                Mousa raa al-awsag,<br>
+                wal-nar fihi tata-gag,<br>
+                wa aghsanoh tatawahag,<br>
                 ma darat-ho al-nar.</td>
+            <td class="arabic">
+                ان غير المحسوس <br>
+                الرب القدوس <br>
+                منك اتي ودعي ايسوس <br>
+                ونظرته الابصار <br>
+                موسي رأي العوسج <br>
+                والنار فيه تتأجج <br>
+                وأغصانه تتوهج <br>
+                ما ضرته النار</td>
         </tr>
-        <tr id="table_61_row_22" class="north">
-            <td class="english" style="border-right: 1px solid black;">The blazing bush,
-                which Moses had seen,
-                was indeed Mary,
-                the adornment of virgins,
-                The fire is Jesus,
-                the Holy Lord,
-                who gave us the Law,
+
+        <tr id="table_61_row_22" class="south">
+            <td class="english1" style="border-right: 1px solid black;">
+                The blazing bush,<br>
+                which Moses had seen,<br>
+                was indeed Mary,<br>
+                the adornment of virgins,<br>
+                The fire is Jesus,<br>
+                the Holy Lord,<br>
+                who gave us the Law,<br>
                 engraved in stone.</td>
-            <td class="arabic">ان ما رأته العينان ملتهبا بالنيران في العوسج والأغصان هي مريم زينة الأبكار والنار هي
-                إيسوس الرب القدوس معطينا الناموس مكتوبا في الاحجار</td>
-        </tr>
-        <tr id="table_61_row_23" class="south">
-            <td class="english" style="border-right: 1px solid black;">Ena ma raat-ho al-aynan,
-                fi el-awsag wal-aghsan,
-                wel-nar heya Isoos,
-                motina el-namoos,</td>
-            <td class="arabic">moltaheban bel-niran,
-                heya Mariam zenat el-abkar,
-                al-rab el-qodoos,
+            <td class="enPhonics1" style="border-right: 1px solid black;">
+                Ena ma raat-ho al-aynan,<br>
+                moltaheban bel-niran,<br>
+                fi el-awsag wal-aghsan,<br>
+                heya Mariam zenat el-abkar,<br>
+                wel-nar heya Isoos,<br>
+                al-rab el-qodoos,<br>
+                motina el-namoos,<br>
                 maktooban fil-aHgar.</td>
+            <td class="arabic">
+                ان ما رأته العينان <br>
+                ملتهبا بالنيران <br>
+                في العوسج والأغصان <br>
+                هي مريم زينة الأبكار <br>
+                والنار هي إيسوس <br>
+                الرب القدوس <br>
+                معطينا الناموس <br>
+                مكتوبا في الاحجار</td>
         </tr>
+
         <tr id="table_61_row_24" class="north">
-            <td class="english" style="border-right: 1px solid black;">Isaiah prophesied,
-                about the birth,
-                of Emmanuel,
-                the Almighty King,
-                Ezekiel saw a door,
-                through which the Lord entered,
-                He sealed the door and claimed it,
+            <td class="english1" style="border-right: 1px solid black;">
+                Isaiah prophesied,<br>
+                about the birth,<br>
+                of Emmanuel,<br>
+                the Almighty King,<br>
+                Ezekiel saw a door,<br>
+                through which the Lord entered,<br>
+                He sealed the door and claimed it,<br>
                 highly exalted.</td>
-            <td class="arabic">في اشعيا قد قيل عن هذا التأويل تلد عمانوئيل الملك الجبار وحزقيال رأي باب دخل فيه رب
-                الارباب وختم الباب مهاب عالي المقدار</td>
-        </tr>
-        <tr id="table_61_row_25" class="south">
-            <td class="english" style="border-right: 1px solid black;">Fi Asheya qad qeel,
-                taled emanoueel,
-                wa Hazqeyal raa bab,
-                wa khetm el-bab mohab,</td>
-            <td class="arabic">an haza el-taweel,
-                al-malek el-gabar,
-                dakhal feeh rab el-arbab,
+            <td class="enPhonics1" style="border-right: 1px solid black;">
+                Fi Asheya qad qeel,<br>
+                an haza el-taweel,<br>
+                taled emanoueel,<br>
+                al-malek el-gabar,<br>
+                wa Hazqeyal raa bab,<br>
+                dakhal feeh rab el-arbab,<br>
+                wa khetm el-bab mohab,<br>
                 alya el-meqdar.</td>
+            <td class="arabic">
+                في اشعيا قد قيل <br>
+                عن هذا التأويل <br>
+                تلد عمانوئيل <br>
+                الملك الجبار <br>
+                وحزقيال رأي باب <br>
+                دخل فيه رب الارباب <br>
+                وختم الباب مهاب <br>
+                عالي المقدار</td>
         </tr>
+
         <tr id="table_61_row_26" class="north">
-            <td class="english" style="border-right: 1px solid black;">Highly exalted are you,
-                and your Son Jesus,
-                when He was born of you,
-                the earth was adorned,
-                And also Daniel,
-                prophesied and said,
-                I saw the high throne,
+            <td class="english1" style="border-right: 1px solid black;">
+                Highly exalted are you,<br>
+                and your Son Jesus,<br>
+                when He was born of you,<br>
+                the earth was adorned,<br>
+                And also Daniel,<br>
+                prophesied and said,<br>
+                I saw the high throne,<br>
                 highly exalted.</td>
-            <td class="arabic">عال هو قدرك لإن يسوع ابنك لما ولد منك تزينت الاقطار وايضا دانيال تنبأ حيث قال رأيت الكرسي
-                العال عالي المقدار</td>
-        </tr>
-        <tr id="table_61_row_27" class="south">
-            <td class="english" style="border-right: 1px solid black;">Alen howa qadrek,
-                lamma woled mennek,
-                wa aydan Danial,
-                raayto el-korsy el-al,</td>
-            <td class="arabic">lean yasoo ebnek,
-                tazayanat el-aktar,
-                tanaba Haytho qal,
+            <td class="enPhonics1" style="border-right: 1px solid black;">
+                Alen howa qadrek,<br>
+                lean yasoo ebnek,<br>
+                lamma woled mennek,<br>
+                tazayanat el-aktar,<br>
+                wa aydan Danial,<br>
+                tanaba Haytho qal,<br>
+                raayto el-korsy el-al,<br>
                 aleya el meqdar.</td>
+            <td class="arabic">
+                عال هو قدرك <br>
+                لإن يسوع ابنك <br>
+                لما ولد منك <br>
+                تزينت الاقطار <br>
+                وايضا دانيال <br>
+                تنبأ حيث قال <br>
+                رأيت الكرسي العال <br>
+                عالي المقدار</td>
         </tr>
-        <tr id="table_61_row_28" class="north">
-            <td class="english" style="border-right: 1px solid black;">In the firmaments high I saw,
-                one like the Son of Man,
-                who has dominion,
-                over all the earth,
-                He is the Lord of Hosts,
-                around Him are the ranks,
-                thousands and myriads,
+
+        <tr id="table_61_row_28" class="south">
+            <td class="english1" style="border-right: 1px solid black;">
+                In the firmaments high I saw,<br>
+                one like the Son of Man,<br>
+                who has dominion,<br>
+                over all the earth,<br>
+                He is the Lord of Hosts,<br>
+                around Him are the ranks,<br>
+                thousands and myriads,<br>
                 glorifying in reverence.</td>
-            <td class="arabic">نظرت فوق الأركان شبه ابن الانسان وله السلطان علي كل الأقطار وهو رب القوات ومن حوله طغمات
-                الوف وربوات بعظم ووقار</td>
-        </tr>
-        <tr id="table_61_row_29" class="south">
-            <td class="english" style="border-right: 1px solid black;">Nazarto fok el-arkan,
-                wa laho al-soltan,
-                wa howa rabo el-qowat,
-                oloof wa rabawat,</td>
-            <td class="arabic">shebh ebn el-ensan,
-                ala kol el aqtar,
-                wa men Hawloh taghamat,
+            <td class="enPhonics1" style="border-right: 1px solid black;">
+                Nazarto fok el-arkan,<br>
+                shebh ebn el-ensan,<br>
+                wa laho al-soltan,<br>
+                ala kol el aqtar,<br>
+                wa howa rabo el-qowat,<br>
+                wa men Hawloh taghamat,<br>
+                oloof wa rabawat,<br>
                 be ezamen wa waqar.</td>
+            <td class="arabic">
+                نظرت فوق الأركان <br>
+                شبه ابن الانسان <br>
+                وله السلطان <br>
+                علي كل الأقطار <br>
+                وهو رب القوات <br>
+                ومن حوله طغمات<br>
+                الوف وربوات <br>
+                بعظم ووقار</td>
         </tr>
-        <tr id="table_61_row_30" class="north">
-            <td class="english" style="border-right: 1px solid black;">O daughter of Joachim,
-                you are exalted above,
-                the Cherubim and Seraphim,
-                and all righteous fathers,
-                The Lord was born from you,
-                and David praises you,
-                with his harp he sings,
+
+        <tr id="table_61_row_30" class="south">
+            <td class="english1" style="border-right: 1px solid black;">
+                O daughter of Joachim,<br>
+                you are exalted above,<br>
+                the Cherubim and Seraphim,<br>
+                and all righteous fathers,<br>
+                The Lord was born from you,<br>
+                and David praises you,<br>
+                with his harp he sings,<br>
                 playing its ten strings.</td>
-            <td class="arabic">ياابنة يواقيم فقت الكروبيم وايضا السرافيم وكل الاباء الابرار منك جاء المولود الرب المعبود
-                يمدح فيك داود بالعشرة أوتار</td>
-        </tr>
-        <tr id="table_61_row_31" class="south">
-            <td class="english" style="border-right: 1px solid black;">Ya ebnat Yowaqim,
-                aydan el-serafaim,
-                menky ga el-mawlood,
-                yamdaH fiki Dawood,</td>
-            <td class="arabic">foqt el-karoubim,
-                wa kol el-aba el-abrar,
-                al-rab el-mabood,
+            <td class="enPhonics1" style="border-right: 1px solid black;">
+                Ya ebnat Yowaqim,<br>
+                foqt el-karoubim,<br>
+                aydan el-serafaim,<br>
+                wa kol el-aba el-abrar,<br>
+                menky ga el-mawlood,<br>
+                al-rab el-mabood,<br>
+                yamdaH fiki Dawood,<br>
                 bel-asharat awtar.</td>
+            <td class="arabic">
+                ياابنة يواقيم <br>
+                فقت الكروبيم <br>
+                وايضا السرافيم <br>
+                وكل الاباء الابرار <br>
+                منك جاء المولود <br>
+                الرب المعبود<br>
+                يمدح فيك داود <br>
+                بالعشرة أوتار</td>
         </tr>
+
         <tr id="table_61_row_32" class="north">
-            <td class="english" style="border-right: 1px solid black;">The sound of the first string,
-                is in honor of your name,
-                the Virgin will carry,
-                the Almighty King,
-                And with the second string,
-                David rejoices,
-                chanting with hymns,
+            <td class="english1" style="border-right: 1px solid black;">
+                The sound of the first string,<br>
+                is in honor of your name,<br>
+                the Virgin will carry,<br>
+                the Almighty King,<br>
+                And with the second string,<br>
+                David rejoices,<br>
+                chanting with hymns,<br>
                 while playing his harp.</td>
-            <td class="arabic">الوتر الاول قول مبجل والعذراء تحبل بالملك الجبار الوتر الثاني داود بالتهاني و يرتل
-                بالالحان مع ضرب القيثار</td>
-        </tr>
-        <tr id="table_61_row_33" class="south">
-            <td class="english" style="border-right: 1px solid black;">El-watar el-awal,
-                wel-adra taHbal,
-                el-watar el-thany,
-                yoratel bel-alHan,</td>
-            <td class="arabic">qawlon mobagal,
-                bel-malek el-gabar,
-                Dawood bil-tahany,
+            <td class="enPhonics1" style="border-right: 1px solid black;">
+                El-watar el-awal,<br>
+                qawlon mobagal,<br>
+                wel-adra taHbal,<br>
+                bel-malek el-gabar,<br>
+                el-watar el-thany,<br>
+                Dawood bil-tahany,<br>
+                yoratel bel-alHan,<br>
                 ma darb el-qithar.</td>
+            <td class="arabic">
+                الوتر الاول <br>
+                قول مبجل <br>
+                والعذراء تحبل<br> 
+                بالملك الجبار <br>
+                الوتر الثاني <br>
+                داود بالتهاني <br>
+                و يرتل بالالحان <br>
+                مع ضرب القيثار</td>
         </tr>
+
         <tr id="table_61_row_34" class="north">
-            <td class="english" style="border-right: 1px solid black;">And the third O daughter,
-                because you were faithful,
-                you were filled with light,
-                and the Lord chose you,
-                The fourth string is sounded,
-                so that all can hear,
-                of her who is praised,
+            <td class="english1" style="border-right: 1px solid black;">
+                And the third O daughter,<br>
+                because you were faithful,<br>
+                you were filled with light,<br>
+                and the Lord chose you,<br>
+                The fourth string is sounded,<br>
+                so that all can hear,<br>
+                of her who is praised,<br>
                 all over the world.</td>
-            <td class="arabic">الثالث يا ابنة أنت مؤتمنة بالنورمشتملة والرب لك إختار الوتر الرابع اصغ يا سامع ذا قول
-                شائع في كل الاقطار</td>
-        </tr>
-        <tr id="table_61_row_35" class="south">
-            <td class="english" style="border-right: 1px solid black;">Wel-thaleth ya ibna,
-                bel-noor moshtamala,
-                el-watar el-rabe,
-                za qawlon shae,</td>
-            <td class="arabic">anty motamana,
-                wal-rabo laky ekhtar,
-                esghy ya same,
+            <td class="enPhonics1" style="border-right: 1px solid black;">
+                Wel-thaleth ya ibna,<br>
+                anty motamana,<br>
+                bel-noor moshtamala,<br>
+                wal-rabo laky ekhtar,<br>
+                el-watar el-rabe,<br>
+                esghy ya same,<br>
+                za qawlon shae,<br>
                 fi kol el-aqtar.</td>
+            <td class="arabic">
+                الثالث يا ابنة <br>
+                أنت مؤتمنة <br>
+                بالنورمشتملة <br>
+                والرب لك إختار <br>
+                الوتر الرابع <br>
+                اصغ يا سامع <br>
+                ذا قول شائع <br>
+                في كل الاقطار</td>
         </tr>
-        <tr id="table_61_row_36" class="north">
-            <td class="english" style="border-right: 1px solid black;">The fifth is a sign of hope,
-                as a dove she appears,
-                with Ophir gold,
-                upon her shoulders,
-                With the sixth he sung,
-                praises I will not hide,
-                but I will praise with him,
+
+        <tr id="table_61_row_36" class="south">
+            <td class="english1" style="border-right: 1px solid black;">
+                The fifth is a sign of hope,<br>
+                as a dove she appears,<br>
+                with Ophir gold,<br>
+                upon her shoulders,<br>
+                With the sixth he sung,<br>
+                praises I will not hide,<br>
+                but I will praise with him,<br>
                 and proclaim to all.</td>
-            <td class="arabic">الخامس خبر حمامة هي تظهر بالذهب الاصفر علي منكبيها صار السادس قال فيه قولاً ما أخفيه لكني
-                أرويه واشهره أجهار</td>
-        </tr>
-        <tr id="table_61_row_37" class="south">
-            <td class="english" style="border-right: 1px solid black;">Wel-khames khabar,
-                bel-zahab el-asfar,
-                wel-sades qal fih,
-                lakeny arweeh,</td>
-            <td class="arabic">Hamama heya tazhar,
-                ala menkabayha sar,
-                qawlan ma akhfih,
+            <td class="enPhonics1" style="border-right: 1px solid black;">
+                Wel-khames khabar,<br>
+                Hamama heya tazhar,<br>
+                bel-zahab el-asfar,<br>
+                ala menkabayha sar,<br>
+                wel-sades qal fih,<br>
+                qawlan ma akhfih,<br>
+                lakeny arweeh,<br>
                 wa osh-heraho eg-har.</td>
+            <td class="arabic">
+                الخامس خبر <br>
+                حمامة هي تظهر <br>
+                بالذهب الاصفر <br>
+                علي منكبيها صار <br>
+                السادس قال فيه <br>
+                قولاً ما أخفيه <br>
+                لكني أرويه <br>
+                واشهره أجهار</td>
         </tr>
-        <tr id="table_61_row_38" class="north">
-            <td class="english" style="border-right: 1px solid black;">With the seventh string he said
-                O mountain, of the High God,
-                the High took flesh from you,
-                without a doubt,
-                And with the eighth he sang,
-                to the Virgin Mary,
-                the Great chose her,
+
+        <tr id="table_61_row_38" class="south">
+            <td class="english1" style="border-right: 1px solid black;">
+                With the seventh string he said<br>
+                O mountain, of the High God,<br>
+                the High took flesh from you,<br>
+                without a doubt,<br>
+                And with the eighth he sang,<br>
+                to the Virgin Mary,<br>
+                the Great chose her,<br>
                 and crowned her with honor.</td>
-            <td class="arabic">السابع اذ قال يا جبل الله العال تجسد منك المتعال بلا شك ولا إنكار والثامن رنم للعذ را
-                مريم اختارها المعظم وكللها بالفخار</td>
-        </tr>
-        <tr id="table_61_row_39" class="south">
-            <td class="english" style="border-right: 1px solid black;">Wel-sabe ez qal,
-                tagasad menky el-motaal,
-                wel-thamen ranam,
-                ekhtarha al-moazam,</td>
-            <td class="arabic">ya gabal Allah el-al,
-                bela shak wala enkar,
-                lel-adra Mariam,
+            <td class="enPhonics1" style="border-right: 1px solid black;">
+                Wel-sabe ez qal,<br>
+                ya gabal Allah el-al,<br>
+                tagasad menky el-motaal,<br>
+                bela shak wala enkar,<br>
+                wel-thamen ranam,<br>
+                lel-adra Mariam,<br>
+                ekhtarha al-moazam,<br>
                 wa kallalha bel-fakhar.</td>
+            <td class="arabic">
+                السابع اذ قال <br>
+                يا جبل الله العال <br>
+                تجسد منك المتعال <br>
+                بلا شك ولا إنكار <br>
+                والثامن رنم <br>
+                للعذ را مريم <br>
+                اختارها المعظم <br>
+                وكللها بالفخار</td>
         </tr>
+
         <tr id="table_61_row_40" class="north">
-            <td class="english" style="border-right: 1px solid black;">With the ninth string he said,
-                from her will surely come,
-                God her son,
-                who sealed her virginity,
-                With the tenth he sang,
-                the Powerful God,
-                in Zion he appeared,
+            <td class="english1" style="border-right: 1px solid black;">
+                With the ninth string he said,<br>
+                from her will surely come,<br>
+                God her son,<br>
+                who sealed her virginity,<br>
+                With the tenth he sang,<br>
+                the Powerful God,<br>
+                in Zion he appeared,<br>
                 the dwelling of the righteous.</td>
-            <td class="arabic">التاسع قال عنها يظهر حقا منها الإله وهو إبنها والبكورية في حفط ووقار الوتر العاشر الله
-                القادر في صهيون ظاهر مسكن الأبرار</td>
-        </tr>
-        <tr id="table_61_row_41" class="south">
-            <td class="english" style="border-right: 1px solid black;">El-tase qal anha,
-                al-Elah wa howa ebnaha,
-                El-watar el-asher,
-                fi Sehioun zaher,</td>
-            <td class="arabic">yazhar Haqan menha,
-                wal-bokooreya fi Hefzen wa waqar,
-                Allah el-qader,
+            <td class="enPhonics1" style="border-right: 1px solid black;">
+                El-tase qal anha,<br>
+                yazhar Haqan menha,<br>
+                al-Elah wa howa ebnaha,<br>
+                wal-bokooreya fi Hefzen wa waqar,<br>
+                El-watar el-asher,<br>
+                Allah el-qader,<br>
+                fi Sehioun zaher,<br>
                 maskan el-abrar.</td>
+            <td class="arabic">
+                التاسع قال عنها <br>
+                يظهر حقا منها <br>
+                الإله وهو إبنها <br>
+                والبكورية في حفط ووقار <br>
+                الوتر العاشر <br>
+                الله القادر <br>
+                في صهيون ظاهر <br>
+                مسكن الأبرار</td>
         </tr>
+
         <tr id="table_61_row_42" class="north">
-            <td class="english" style="border-right: 1px solid black;">There isn’t in all ages,
-                anyone like you O Virgin,
-                for you released the chains,
-                and shame of Adam,
-                O Lady of the creation,
-                the pride of faith,
-                your servant is in need,
+            <td class="english1" style="border-right: 1px solid black;">
+                There isn’t in all ages,<br>
+                anyone like you O Virgin,<br>
+                for you released the chains,<br>
+                and shame of Adam,<br>
+                O Lady of the creation,<br>
+                the pride of faith,<br>
+                your servant is in need,<br>
                 drowning because of sins.</td>
-            <td class="arabic">لم يوجد في الدهر مثلك أيتها البكر لأنك فككت الاسر عن آدم والعار يا سيدة الأكوان يا فخر
-                الإيمان عبدك حيران غارق في الاوزار</td>
-        </tr>
-        <tr id="table_61_row_43" class="south">
-            <td class="english" style="border-right: 1px solid black;">Lam yowgad fi el-dahr,
-                leanek fakakty el-asr,
-                ya sayedet el-akwan,
-                ana abdek Hayran,</td>
-            <td class="arabic">methlek ayatoha el-bekr,
-                an Adam wal-ar,
-                ya fakhr el-eiman,
+            <td class="enPhonics1" style="border-right: 1px solid black;">
+                Lam yowgad fi el-dahr,<br>
+                methlek ayatoha el-bekr,  <br>  
+                leanek fakakty el-asr,<br>
+                an Adam wal-ar,<br>
+                ya sayedet el-akwan,<br>
+                ya fakhr el-eiman,<br>
+                ana abdek Hayran,<br>
                 gharek fil-awzar.</td>
+            <td class="arabic">
+                لم يوجد في الدهر <br>
+                مثلك أيتها البكر <br>
+                لأنك فككت الاسر <br>
+                عن آدم والعار <br>
+                يا سيدة الأكوان <br>
+                يا فخر الإيمان <br>
+                عبدك حيران <br>
+                غارق في الاوزار</td>
         </tr>
-        <tr id="table_61_row_44" class="north">
-            <td class="english" style="border-right: 1px solid black;">Intercede for me,
-                do not leave your servant,
-                Ask your son to save me,
-                From the fire,
-                For your intercession,
-                is heard and accepted,
-                and He defends from the attacks,
+
+        <tr id="table_61_row_44" class="south">
+            <td class="english1" style="border-right: 1px solid black;">
+                Intercede for me,<br>
+                do not leave your servant,<br>
+                Ask your son to save me,<br>
+                From the fire,<br>
+                For your intercession,<br>
+                is heard and accepted,<br>
+                and He defends from the attacks,<br>
                 of the adversary.</td>
-            <td class="arabic">عالي هو قدرك لا تتركي عبدك قصدي من ولدك توبة و أستغفار و العذراء تشفع في الحضار اجمع و هي
-                عنا تدفع ضربات الاشرار</td>
-        </tr>
-        <tr id="table_61_row_45" class="south">
-            <td class="english" style="border-right: 1px solid black;">Alen howa qadrek,
-                qasdy men waladek,
-                Wel adra tashfa,
-                We heia ana tadfa,</td>
-            <td class="arabic">la tatroky abdek,
-                Toba wa esteghfar,
-                Fe elodar agma,
+            <td class="enPhonics1" style="border-right: 1px solid black;">
+                Alen howa qadrek,<br>
+                la tatroky abdek,<br>
+                qasdy men waladek,<br>
+                Toba wa esteghfar,<br>
+                Wel adra tashfa,<br>
+                Fe elodar agma,<br>
+                We heia ana tadfa,<br>
                 darabat el-ashrar.</td>
+            <td class="arabic">
+                عالي هو قدرك <br>
+                لا تتركي عبدك <br>
+                قصدي من ولدك <br>
+                توبة و أستغفار <br>
+                و العذراء تشفع <br>
+                في الحضار اجمع <br>
+                و هي عنا تدفع <br>
+                ضربات الاشرار</td>
         </tr>
-        <tr id="table_61_row_46" class="north">
-            <td class="english" style="border-right: 1px solid black;">Arise O poor one,
-                and clothe yourself in faith,
-                and say Amen Amen,
-                for us she intercedes,
-                The persistent servant,
-                Will always praise her,
-                For by his side that Day,
+
+        <tr id="table_61_row_46" class="south">
+            <td class="english1" style="border-right: 1px solid black;">Arise O poor one,
+                and clothe yourself in faith,<br>
+                and say Amen Amen,<br>
+                for us she intercedes,<br>
+                The persistent servant,<br>
+                Will always praise her,<br>
+                For by his side that Day,<br>
                 The Lady of virgins shall be.</td>
-            <td class="arabic">قم وانهض يا مسكين والبس ثوب اليقين وقل امين امين فهي تشفع في الحاضرين و أنا الخاطي
-                المسكين مادحها في كل حين مالي يوم الدين سوي سيدة الابكار</td>
-        </tr>
-        <tr id="table_61_row_47" class="south">
-            <td class="english" style="border-right: 1px solid black;">Qom enhad ya meskeen,
-                wa qol amin amin,
-                wal-nazem el-meskeen,
-                maloh yom el-din,</td>
-            <td class="arabic">wa elbes thob el-yaqeen,
-                fa heya tashfa fil-Hodar,
-                madeHha fi kol Hin,
+            <td class="enPhonics1" style="border-right: 1px solid black;">
+                Qom enhad ya meskeen,<br>
+                wa elbes thob el-yaqeen, <br>   
+                wa qol amin amin,<br>
+                fa heya tashfa fil-Hodar,<br>
+                wal-nazem el-meskeen,<br>
+                madeHha fi kol Hin,<br>
+                maloh yom el-din,<br>
                 sewa sayedet el-abkar.</td>
+            <td class="arabic">
+                قم وانهض يا مسكين <br>
+                والبس ثوب اليقين <br>
+                وقل امين امين <br>
+                فهي تشفع في الحاضرين <br>
+                و أنا الخاطي المسكين <br>
+                مادحها في كل حين <br>
+                مالي يوم الدين <br>
+                سوي سيدة الابكار</td>
         </tr>
     </table>
     <br>
@@ -9868,149 +10113,160 @@ ${htmlRenderScript}
     <table id="table_63" title="Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ" style="display: table;">
         <caption class="caption" id="caption_table_63"><span class="coptic-caption">Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ</span></caption>
         <tr id="table_63_row_0" class="north">
-            <td class="english" style="border-right: 1px solid black;">Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:
-                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:
-                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:
+            <td class="coptic" style="border-right: 1px solid black;">Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:<br>
+                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:<br>
+                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:<br>
                 Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:</td>
-            <td class="coptic" style="border-right: 1px solid black;">Adam became
-                After he was contrite
-                Was defiant and sinful
+            <td class="english1" style="border-right: 1px solid black;">Adam became<br>
+                After he was contrite<br>
+                Was defiant and sinful<br>
                 Won and shamed the devil</td>
-            <td class="arabic">بك أصبح آدم بعد أن كان نادم كان مخالف وآثم فاز وأخزى الأركون</td>
+            <td class="arabic">بك أصبح آدم<br>
+             بعد أن كان نادم<br>
+              كان مخالف وآثم<br>
+               فاز وأخزى الأركون
         </tr>
         <tr id="table_63_row_1" class="south">
-            <td class="english" style="border-right: 1px solid black;">Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:
-                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:</td>
-            <td class="coptic" style="border-right: 1px solid black;">O joy of Able
-                Crown of Israel
-                You were given honor
+            <td class="coptic" style="border-right: 1px solid black;">Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:<br>
+                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: <br>
+                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: <br>
+                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:</td>
+            <td class="english1" style="border-right: 1px solid black;">O joy of Able<br>
+                Crown of Israel<br>
+                You were given honor<br>
                 From all those who praise</td>
-            <td class="arabic">يا فرح هابيل وتاج إسرائيل أعطيت التهليل بجميع من يمدحون</td>
+            <td class="arabic">يا فرح هابيل<br>
+             وتاج إسرائيل<br>
+              أعطيت التهليل<br>
+               بجميع من يمدحون</td>
         </tr>
         <tr id="table_63_row_2" class="north">
-            <td class="english" style="border-right: 1px solid black;">Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:
-                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:</td>
-            <td class="coptic" style="border-right: 1px solid black;">O grace of Abraham
-                Isaac remains safe
-                Jacob was a leader
+            <td class="coptic" style="border-right: 1px solid black;">Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:<br>
+                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: <br>Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: <br>Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:</td>
+            <td class="english1" style="border-right: 1px solid black;">O grace of Abraham<br>
+                Isaac remains safe<br>
+                Jacob was a leader<br>
                 Joseph was seen with his eyes</td>
-            <td class="arabic">يا نعمة إبراهيم هوذا إسحق سليم يعقوب كان زعيم جاءه يوسف ورآه بعيوم</td>
+            <td class="arabic">يا نعمة إبراهيم<br>
+             هوذا إسحق سليم<br>
+              يعقوب كان زعيم<br>
+               جاءه يوسف ورآه بعيوم</td>
         </tr>
         <tr id="table_63_row_3" class="south">
-            <td class="english" style="border-right: 1px solid black;">Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:
-                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:
-                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:
+            <td class="coptic" style="border-right: 1px solid black;">Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:<br>
+                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:<br>
+                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:<br>
                 Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:</td>
-            <td class="coptic" style="border-right: 1px solid black;">David chanted and said
-                In you explained sayings
-                And also in proverbs
+            <td class="english1" style="border-right: 1px solid black;">David chanted and said<br>
+                In you explained sayings<br>
+                And also in proverbs<br>
                 Wisdom of Solomon</td>
-            <td class="arabic">داود رتل وقال فيك شرح أقوال وأيضاً فى الأمثال حكمة سولومون</td>
+            <td class="arabic">داود رتل وقال<br> فيك شرح أقوال<br> وأيضاً فى الأمثال<br> حكمة سولومون</td>
         </tr>
         <tr id="table_63_row_4" class="north">
-            <td class="english" style="border-right: 1px solid black;">Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:
-                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:</td>
-            <td class="coptic" style="border-right: 1px solid black;">Your are the explained throne
-                Like the arc of Noah
-                A flower ‘s aroma spread
+            <td class="coptic" style="border-right: 1px solid black;">Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:<br>
+                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: <br>Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: <br>Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:</td>
+            <td class="english1" style="border-right: 1px solid black;">Your are the explained throne<br>
+                Like the arc of Noah<br>
+                A flower's aroma spread<br>
                 And olive branches</td>
-            <td class="arabic">أنت الكرسى المشروح شبه سفينة نوح زهرة عطر تفوح وأغصان الزيتون</td>
+            <td class="arabic">أنت الكرسى المشروح<br> شبه سفينة نوح<br> زهرة عطر تفوح<br> وأغصان الزيتون</td>
         </tr>
         <tr id="table_63_row_5" class="south">
-            <td class="english" style="border-right: 1px solid black;">Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:
-                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:</td>
-            <td class="coptic" style="border-right: 1px solid black;">Chariot of the Cherubim
-                Wings of the Seraphim
-                O daughter of Joachim
+            <td class="coptic" style="border-right: 1px solid black;">Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:<br>
+                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: <br>Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: <br>Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:</td>
+            <td class="english1" style="border-right: 1px solid black;">Chariot of the Cherubim<br>
+                Wings of the Seraphim<br>
+                O daughter of Joachim<br>
                 Censor of Aaron</td>
-            <td class="arabic">مركبة الشاروبيم أجنحة السيرافيم ياإبنة يواقيم شورية مع هرون</td>
+            <td class="arabic">مركبة الشاروبيم<br> أجنحة السيرافيم<br> ياإبنة يواقيم<br> شورية مع هرون</td>
         </tr>
         <tr id="table_63_row_6" class="north">
-            <td class="english" style="border-right: 1px solid black;">Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:
-                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:
-                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:
+            <td class="coptic" style="border-right: 1px solid black;">Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:<br>
+                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:<br>
+                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:<br>
                 Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:</td>
-            <td class="coptic" style="border-right: 1px solid black;">You’re the grace of Peter
-                O wisdom of Paul
-                O joy of Phillip
+            <td class="english1" style="border-right: 1px solid black;">You’re the grace of Peter<br>
+                O wisdom of Paul<br>
+                O joy of Phillip<br>
                 Purity of the confessors</td>
-            <td class="arabic">أنت نعمة بطرس يا حكمة بولس يا فرحة فيلبس طهر المعترفين</td>
+            <td class="arabic">أنت نعمة بطرس<br> يا حكمة بولس <br>يا فرحة فيلبس <br>طهر المعترفين</td>
         </tr>
         <tr id="table_63_row_7" class="south">
-            <td class="english" style="border-right: 1px solid black;">Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:
-                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:</td>
-            <td class="coptic" style="border-right: 1px solid black;">Salvation of Matthias
-                Belief of Thomas
-                O Holy of Holies
+            <td class="coptic" style="border-right: 1px solid black;">Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:<br>
+                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: <br>Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: <br>Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:</td>
+            <td class="english1" style="border-right: 1px solid black;">Salvation of Matthias<br>
+                Belief of Thomas<br>
+                O Holy of Holies<br>
                 The zeal of Simon</td>
-            <td class="arabic">يا خلاص متياس وأمانة توماس يا قدس الأقداس أنت غيرة سيمون</td>
+            <td class="arabic">يا خلاص متياس<br>وأمانة توماس <br>يا قدس الأقداس <br>أنت غيرة سيمون</td>
         </tr>
         <tr id="table_63_row_8" class="north">
-            <td class="english" style="border-right: 1px solid black;">Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:
-                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:</td>
-            <td class="coptic" style="border-right: 1px solid black;">Crown of martyrs
-                Joy began by you
-                Conquered the enemies
+            <td class="coptic" style="border-right: 1px solid black;">Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:<br>
+                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: <br>Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: <br>Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:</td>
+            <td class="english1" style="border-right: 1px solid black;">Crown of martyrs<br>
+                Joy began by you<br>
+                Conquered the enemies<br>
                 And shamed the devil</td>
-            <td class="arabic">إكليل الشهداء بك الفرح بدأ قهرت الأعداء وأخزيت الأركون</td>
+            <td class="arabic">إكليل الشهداء <br>بك الفرح بدأ <br>قهرت الأعداء <br>وأخزيت الأركون</td>
         </tr>
         <tr id="table_63_row_9" class="south">
-            <td class="english" style="border-right: 1px solid black;">Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:
-                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:
-                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:
+            <td class="coptic" style="border-right: 1px solid black;">Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:<br>
+                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:<br>
+                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:<br>
                 Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:</td>
-            <td class="coptic" style="border-right: 1px solid black;">Mother of the Incarnate
-                Seed of our father David
-                You fulfilled the economy
+            <td class="english1" style="border-right: 1px solid black;">Mother of the Incarnate<br>
+                Seed of our father David<br>
+                You fulfilled the economy<br>
                 A fortified castle</td>
-            <td class="arabic">يا أم المولود نسل الآب داود كملت المقصود أنت قلعة بحصون</td>
+            <td class="arabic">يا أم المولود <br>نسل الآب داود <br>كملت المقصود <br>أنت قلعة بحصون</td>
         </tr>
         <tr id="table_63_row_10" class="north">
-            <td class="english" style="border-right: 1px solid black;">Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:
-                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:</td>
-            <td class="coptic" style="border-right: 1px solid black;">After you gave birth to Him
-                On your shoulders carried Him
-                A Child, you nursed Him
+            <td class="coptic" style="border-right: 1px solid black;">Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:<br>
+                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: <br>Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: <br>Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:</td>
+            <td class="english1" style="border-right: 1px solid black;">After you gave birth to Him<br>
+                On your shoulders carried Him<br>
+                A Child, you nursed Him<br>
                 How can this be</td>
-            <td class="arabic">من بعد ما ولدتيه على كتفك حملتيه طفل وأرضعتيه كيف هذا الأمر يهون</td>
+            <td class="arabic">من بعد ما ولدتيه <br>على كتفك حملتيه <br>طفل وأرضعتيه <br>كيف هذا الأمر يهون</td>
         </tr>
         <tr id="table_63_row_11" class="south">
-            <td class="english" style="border-right: 1px solid black;">Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:
-                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:</td>
-            <td class="coptic" style="border-right: 1px solid black;">A hidden mystery
-                From the created world
-                A secret that was realized
+            <td class="coptic" style="border-right: 1px solid black;">Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:<br>
+                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: <br>Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: <br>Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:</td>
+            <td class="english1" style="border-right: 1px solid black;">A hidden mystery<br>
+                From the created world<br>
+                A secret that was realized<br>
                 After it was concealed</td>
-            <td class="arabic">هذا سر مكتوم عن الكون المرسوم سر صار مفهوم بعد أن كان مكنون</td>
+            <td class="arabic">هذا سر مكتوم <br>عن الكون المرسوم <br>سر صار مفهوم <br>بعد أن كان مكنون</td>
         </tr>
         <tr id="table_63_row_12" class="north">
-            <td class="english" style="border-right: 1px solid black;">Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:
-                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:
-                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:
+            <td class="coptic" style="border-right: 1px solid black;">Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:<br>
+                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:<br>
+                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:<br>
                 Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:</td>
-            <td class="coptic" style="border-right: 1px solid black;">He who is enlightened
-                Searches these mysteries
-                This is Light of Light
+            <td class="english1" style="border-right: 1px solid black;">He who is enlightened<br>
+                Searches these mysteries<br>
+                This is Light of Light<br>
                 No one can surmise</td>
-            <td class="arabic">من هو صاحب أفكار يفحص هذه الأسرار هذا نور من نور لا تدركه ظنون</td>
+            <td class="arabic">من هو صاحب أفكار <br>يفحص هذه الأسرار <br>هذا نور من نور <br>لا تدركه ظنون</td>
         </tr>
         <tr id="table_63_row_13" class="south">
-            <td class="english" style="border-right: 1px solid black;">Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:
-                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:</td>
-            <td class="coptic" style="border-right: 1px solid black;">If I say I fathom
-                Some of its meanings
-                I cannot describe
+            <td class="coptic" style="border-right: 1px solid black;">Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:<br>
+                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: <br>Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: <br>Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:</td>
+            <td class="english1" style="border-right: 1px solid black;">If I say I fathom<br>
+                Some of its meanings<br>
+                I cannot describe<br>
                 To the high and the lowly</td>
-            <td class="arabic">وإن قلت إنى أحويه وبعض معانيه ما أقدر أرويه للعالى والدون</td>
+            <td class="arabic">وإن قلت إنى أحويه <br>وبعض معانيه <br>ما أقدر أرويه <br>للعالى والدون</td>
         </tr>
         <tr id="table_63_row_14" class="north">
-            <td class="english" style="border-right: 1px solid black;">Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:
-                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:</td>
-            <td class="coptic" style="border-right: 1px solid black;">If the witness said
-                Account of your honor stands
-                But with resolve
+            <td class="coptic" style="border-right: 1px solid black;">Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:<br>
+                Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: <br>Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ: <br>Ⲣⲁϣⲓ ⲱ̀ Ⲙⲁⲣⲓⲁ:</td>
+            <td class="english1" style="border-right: 1px solid black;">If the witness said<br>
+                Account of your honor stands<br>
+                But with resolve<br>
                 Attained from you</td>
-            <td class="arabic">وإن قال الناظر وصف شرفك قائم لكن بعزائم منك متصلون</td>
+            <td class="arabic">وإن قال الناظر <br>وصف شرفك قائم <br>لكن بعزائم <br>منك متصلون</td>
         </tr>
     </table>
     <br>
@@ -10361,9 +10617,9 @@ ${htmlRenderScript}
         <tr id="table_65_row_11" class="south">
             <td class="english" style="border-right: 1px solid black;">To Him, (they) worship and sanctify
                 And cry out in all tongues,
-                Ⲛⲓⲧⲁⲅⲙⲁ ⲛ̀ⲛⲓⲁⲅⲅⲉⲗⲟⲥ
+                <span class="coptic">Ⲛⲓⲧⲁⲅⲙⲁ ⲛ̀ⲛⲓⲁⲅⲅⲉⲗⲟⲥ</span>
                 Thousands and myriads</td>
-            <td class="arabic">له تسجد وتقدس وتصيح بكل لسان Ⲛⲓⲧⲁⲅⲙⲁ ⲛ̀ⲛⲓⲁⲅⲅⲉⲗⲟⲥ ربوات والوفي</td>
+            <td class="arabic">له تسجد وتقدس وتصيح بكل لسان <span class="coptic">Ⲛⲓⲧⲁⲅⲙⲁ ⲛ̀ⲛⲓⲁⲅⲅⲉⲗⲟⲥ</span> ربوات والوفي</td>
         </tr>
         <tr id="table_65_row_12" class="north">
             <td class="english" style="border-right: 1px solid black;">O full moon
@@ -10381,10 +10637,10 @@ ${htmlRenderScript}
         </tr>
         <tr id="table_65_row_14" class="north">
             <td class="english" style="border-right: 1px solid black;">O vision and prophecy
-                Saw it Ⲙⲱⲏ̀ⲥⲓⲥ
+                Saw it <span class="coptic">Ⲙⲱⲏ̀ⲥⲓⲥ</span
                 A bush enflamed with fire
                 No harm came upon it</td>
-            <td class="arabic">يا رؤيا وأنذار عاينها Ⲙⲱⲏ̀ⲥⲓⲥ عوسج في قلبه نار ولم يمسه بأس</td>
+            <td class="arabic">يا رؤيا وأنذار عاينها <span class="coptic">Ⲙⲱⲏ̀ⲥⲓⲥ</span> عوسج في قلبه نار ولم يمسه بأس</td>
         </tr>
         <tr id="table_65_row_15" class="south">
             <td class="english" style="border-right: 1px solid black;">Like the adornment of all virgins
@@ -10590,18 +10846,18 @@ ${htmlRenderScript}
             <td class="arabic">عبدك اتاك ومتوسل بحماك نورك وبهاك يا ذخري والأمال.</td>
         </tr>
         <tr id="table_65_row_44" class="north">
-            <td class="english" style="border-right: 1px solid black;">Ⲡⲉⲕⲃⲱⲕ Ⲅⲁⲃⲣⲓⲏⲗ
-                Ⲁ̀ⲛⲟⲕ ⲡⲓϩⲏⲕⲓ
+            <td class="english" style="border-right: 1px solid black;"><span class="coptic">Ⲡⲉⲕⲃⲱⲕ Ⲅⲁⲃⲣⲓⲏⲗ
+                Ⲁ̀ⲛⲟⲕ ⲡⲓϩⲏⲕⲓ</span>
                 All my life I beg you
                 Consumed in your love</td>
-            <td class="arabic">Ⲡⲉⲕⲃⲱⲕ Ⲅⲁⲃⲣⲓⲏⲗ Ⲁ̀ⲛⲟⲕ ⲡⲓϩⲏⲕⲓ طول عمري اترجاك وبحبك ملهوفي</td>
+            <td class="arabic"><span class="coptic">Ⲡⲉⲕⲃⲱⲕ Ⲅⲁⲃⲣⲓⲏⲗ Ⲁ̀ⲛⲟⲕ ⲡⲓϩⲏⲕⲓ</span> طول عمري اترجاك وبحبك ملهوفي</td>
         </tr>
         <tr id="table_65_row_45" class="south">
             <td class="english" style="border-right: 1px solid black;">I conclude my words O brothers
-                Praising Ϯⲡⲁⲣⲑⲉⲛⲟⲥ
+                Praising <span class="coptic">Ϯⲡⲁⲣⲑⲉⲛⲟⲥ</span>
                 The prayers of the pride of warriors
-                My Lord Ⲅⲉⲟⲣⲅⲓⲟⲥ</td>
-            <td class="arabic">وأختم قولي يا أخوان بمديحϮⲡⲁⲣⲑⲉⲛⲟⲥ وصلاة فخر الشجعان سيدي Ⲅⲉⲟⲣⲅⲓⲟⲥ</td>
+                My Lord <span class="coptic">Ⲅⲉⲟⲣⲅⲓⲟⲥ</span></td>
+            <td class="arabic">وأختم قولي يا أخوان بمديح<span class="coptic"> Ϯⲡⲁⲣⲑⲉⲛⲟⲥ</span> وصلاة فخر الشجعان سيدي <span class="coptic">Ⲅⲉⲟⲣⲅⲓⲟⲥ</span></td>
         </tr>
     </table>
     <br>
@@ -11114,22 +11370,25 @@ ${htmlRenderScript}
     <table id="table_68" title="Introduction to the Creed" style="display: table;">
         <caption class="caption" id="caption_table_68">Introduction to the Creed</caption>
         <tr id="table_68_row_0" class="north">
-            <td class="english" style="border-right: 1px solid black;">نعظمك يا أم النور الحقيقي، ونمجدك أيتها العذراء
-                القديسة، والدة الإله، لأنك ولدت لنا مخلص العالم، أتى وخلص نفوسنا.</td>
-            <td class="arabic">We exalt you, the Mother of the true Light. We glorify you, O Saint, the Theotokos, for
+            <td class="english">We exalt you, the Mother of the true Light. We glorify you, O Saint, the Theotokos, for
                 you brought forth unto us the Savior of the whole world; He came and saved our souls.</td>
+            <td class="arabic" style="border-right: 1px solid black;">نعظمك يا أم النور الحقيقي، ونمجدك أيتها العذراء
+                    القديسة، والدة الإله، لأنك ولدت لنا مخلص العالم، أتى وخلص نفوسنا.</td>
+                
         </tr>
         <tr id="table_68_row_1" class="south">
-            <td class="english" style="border-right: 1px solid black;">المجد لكَ يا سيدنا وملكنا المسيح، فخر الرسل،
-                إكليل الشهداء تهليل الصديقين، ثبات الكنائس، غفران الخطايا.</td>
-            <td class="arabic">Glory to You, our Master, our King, Christ, the pride of the apostles, the crown of the
+            <td class="english">Glory to You, our Master, our King, Christ, the pride of the apostles, the crown of the
                 martyrs, the joy of the righteous, the firmness of the churches, the forgiveness of sins.</td>
+            <td class="arabic" style="border-right: 1px solid black;">المجد لكَ يا سيدنا وملكنا المسيح، فخر الرسل،
+                إكليل الشهداء تهليل الصديقين، ثبات الكنائس، غفران الخطايا.</td>
+
         </tr>
         <tr id="table_68_row_2" class="north">
-            <td class="english" style="border-right: 1px solid black;">نبشر بالثالوث القدوس، لاهوت واحد، نسجد له ونمجده.
-                يا رب ارحم. يا رب ارحم. يا رب بارك. أمين.</td>
-            <td class="arabic">We proclaim the Holy Trinity in One Godhead. We worship Him. We glorify Him. Lord have
+            <td class="english">We proclaim the Holy Trinity in One Godhead. We worship Him. We glorify Him. Lord have
                 mercy. Lord have mercy. Lord bless. Amen.</td>
+            <td class="arabic" style="border-right: 1px solid black;">نبشر بالثالوث القدوس، لاهوت واحد، نسجد له ونمجده.
+                يا رب ارحم. يا رب ارحم. يا رب بارك. أمين.</td>
+
         </tr>
     </table>
     <br>

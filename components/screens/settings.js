@@ -163,7 +163,7 @@ const styles = StyleSheet.create({
     settingTitle: {
         fontSize: screenWidth * 0.03,
         fontWeight: 'bold',
-        flex: 10,
+        flex: 1,
         color: 'black',
         marginBottom: 10
     },

@@ -37,7 +37,7 @@ function LeftDrawerContent(props) {
 const MainStackNavigator = () => {
   return (
     <Stack.Navigator initialRouteName="Home" 
-    screenOptions = {{ gestureEnabled: Platform.os !== 'ios' , gestureDirection: 'horizontal'}}
+    screenOptions = {{ gestureEnabled: false , gestureDirection: 'horizontal'}}
     >
       <Stack.Screen name="Home" component={Home} options={{ headerShown: false }} />
       <Stack.Screen name="Glorification" component={Glorification} options={{ headerShown: false }} />
@@ -53,8 +53,10 @@ const RootNavigation = () => {
       initialRouteName="MainStack" // Set the initial route to MainStack
       screenOptions={{
         gestureEnabled: true,
-        swipeEdgeWidth: screenWidth / 2,
+        swipeEdgeWidth: screenWidth / 3,
         drawerType: 'front',
+        overlayColor: 'rgba(0,0,0,0)', // this is the key: set the overlay to transparent
+        
       }}
       drawerContent={props => <LeftDrawerContent {...props} />}
 

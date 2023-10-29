@@ -69,7 +69,6 @@ const MainContent = ({ webviewRef , setDrawerItems}) => {
       const screenWidth = Dimensions.get('window').width;
   
       const difference = Math.abs(touchX - initialTouchX);
-  console.log("difference" , difference);
       if (difference < 30) {  // Adjust this threshold as necessary
           if (touchX < screenWidth / 2) {
               handlePrevious();
@@ -87,7 +86,6 @@ const MainContent = ({ webviewRef , setDrawerItems}) => {
 
         setCurrentPage(prevPage => prevPage + 1);
         const yOffset = pageOffsets[currentPage + 1];
-        console.log("current page" , currentPage , ' , ' , yOffset)
         webviewRef.current.injectJavaScript(`window.scrollTo(0, ${yOffset});`);
         webviewRef.current.injectJavaScript(`clearOverlays()`);
         webviewRef.current.injectJavaScript(`adjustOverlay()`);
@@ -97,7 +95,6 @@ const MainContent = ({ webviewRef , setDrawerItems}) => {
 
 const handlePrevious = () => {
     if (currentPage > 0) {
-      console.log("current page" , currentPage)
 
         setCurrentPage(prevPage => prevPage - 1);
         const yOffset = pageOffsets[currentPage - 1];
@@ -163,7 +160,9 @@ const Kiahk = () => {
           headerShown: false, // Hide the default header
           gestureDirection: 'horizontal-inverted', // For RTL swipe gesture
           drawerPosition: 'right',
-          swipeEdgeWidth: screenWidth /2 ,
+          swipeEdgeWidth: screenWidth /3 ,
+          overlayColor: 'rgba(0,0,0,0)', // this is the key: set the overlay to transparent
+
          }}
          drawerContent={props => 
             <RightDrawerContent 

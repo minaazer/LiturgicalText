@@ -229,7 +229,7 @@ function adjustOverlay() {
         
         // If row starts before the top and ends after the bottom, clear overlay
         if (rowRect.top < 0 && rowRect.bottom > window.innerHeight) {
-            sendMessage(JSON.stringify({type: '1st if', data: 'row starts before ends after'}));
+            //sendMessage(JSON.stringify({type: '1st if', data: 'row starts before ends after'}));
             clearOverlays();
             overlayVisible = null;
             break;
@@ -238,15 +238,15 @@ function adjustOverlay() {
         // Check if the row is the first visible row
         if (rowRect.top >= 0 || (rowRect.top < 0 && rowRect.bottom > 1)) {
             if (!firstVisibleRow) {
-                sendMessage(JSON.stringify({type: '2nd if', data: 'setting 1st visible row'}));
-                sendMessage(JSON.stringify({type: '2nd if row id', data: rows[i].id}));
+                //sendMessage(JSON.stringify({type: '2nd if', data: 'setting 1st visible row'}));
+                //sendMessage(JSON.stringify({type: '2nd if row id', data: rows[i].id}));
                 firstVisibleRow = rows[i];
                 let idComponents = rows[i].id.split("_");
                 firstVisibleRowTable = idComponents[1];
                 if (i>0) {
                     let idComponents2 = rows[i-1].id.split("_");
                     firstVisibleRowPreviousTable = idComponents2[1];
-                    sendMessage(JSON.stringify({type: '2nd if row prevtable', data: firstVisibleRowPreviousTable}));
+                    //sendMessage(JSON.stringify({type: '2nd if row prevtable', data: firstVisibleRowPreviousTable}));
                 }
                 firstVisibleRowHeight = rowRect.bottom - rowRect.top;  
                 //sendMessage(JSON.stringify({type: '2nd if row height', data: firstVisibleRowHeight}));
@@ -261,9 +261,9 @@ function adjustOverlay() {
 
         // Check if the first visible row is longer than the viewport
         if (firstVisibleRow && firstVisibleRowHeight > window.innerHeight && rowRect.bottom > window.innerHeight) {
-            sendMessage(JSON.stringify({type: '3rd if', data: '1st visible row is longer than viewport'}));
-            sendMessage(JSON.stringify({type: '3rd if row id', data: rows[i].id}));
-            sendMessage(JSON.stringify({type: '3rd if row bottom', data: rowRect.bottom}));
+            //sendMessage(JSON.stringify({type: '3rd if', data: '1st visible row is longer than viewport'}));
+            //sendMessage(JSON.stringify({type: '3rd if row id', data: rows[i].id}));
+            //sendMessage(JSON.stringify({type: '3rd if row bottom', data: rowRect.bottom}));
             // If the first visible row is longer than the viewport, skip creating the overlay and break
             clearOverlays();
             overlayVisible = null;
@@ -277,7 +277,7 @@ function adjustOverlay() {
         if (firstVisibleRow && firstVisibleRowPreviousTable && firstVisibleRowHeight
             && firstVisibleRowTable !== firstVisibleRowPreviousTable 
             && rowRect.top > 0  && rowRect.bottom > window.innerHeight) {
-            sendMessage(JSON.stringify({type: '4th if', data: '1st visible row is from next table'}));
+            //sendMessage(JSON.stringify({type: '4th if', data: '1st visible row is from next table'}));
             // If the first visible row is longer than the viewport, skip creating the overlay and break
             clearOverlays();
             overlayVisible = null;
@@ -292,11 +292,11 @@ function adjustOverlay() {
         // check if the row is from the next table
         
         if (rowRect.top > 0 && rowRect.bottom > window.innerHeight && currentTable !== tableId) {
-            sendMessage(JSON.stringify({type: '5th if', data: 'row is from next table'}));
+            //sendMessage(JSON.stringify({type: '5th if', data: 'row is from next table'}));
             let rowIdComponents = rows[i].id.split("_");
             let tableId = rowIdComponents[1];
             let rowId = rowIdComponents[3];
-            sendMessage(JSON.stringify({type: 'TABLE_CHANGED', data: tableId}));
+            //sendMessage(JSON.stringify({type: 'TABLE_CHANGED', data: tableId}));
             let caption = document.getElementById('caption_table_' + tableId);
 
            
@@ -308,7 +308,7 @@ function adjustOverlay() {
 
           // Check if the row is partially visible
           if (rowRect.top < window.innerHeight && rowRect.bottom > window.innerHeight) {
-              sendMessage(JSON.stringify({type: '6th if', data: 'row is partially visible'}));
+              //sendMessage(JSON.stringify({type: '6th if', data: 'row is partially visible'}));
               // Get the tableId and rowId from the first partially visible row
               let rowIdComponents = rows[i].id.split("_");
               let tableId = rowIdComponents[1];

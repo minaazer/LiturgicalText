@@ -219,7 +219,7 @@ function adjustOverlay() {
        
         // If tbody starts before the top and ends after the bottom, clear overlay
         if (tbodyRect.top < 0 && tbodyRect.bottom > window.innerHeight) {
-            sendMessage(JSON.stringify({type: '1st if', data: 'tbody starts before ends after'}));
+            //sendMessage(JSON.stringify({type: '1st if', data: 'tbody starts before ends after'}));
             clearOverlays();
             overlayVisible = null;
             break;
@@ -228,8 +228,8 @@ function adjustOverlay() {
         // Check if the tbody is the first visible tbody
         if (tbodyRect.top >= 0 || (tbodyRect.top < 0 && tbodyRect.bottom > 1)) {
             if (!firstVisibletbody) {
-                sendMessage(JSON.stringify({type: '2nd if', data: 'setting 1st visible tbody'}));
-                sendMessage(JSON.stringify({type: '2nd if tbody id', data: tbodys[i].id}));
+                //sendMessage(JSON.stringify({type: '2nd if', data: 'setting 1st visible tbody'}));
+                //sendMessage(JSON.stringify({type: '2nd if tbody id', data: tbodys[i].id}));
                 firstVisibletbody = tbodys[i];
                 let idComponents = tbodys[i].id.split("_");
                 firstVisibletbodyTable = idComponents[1];
@@ -239,9 +239,9 @@ function adjustOverlay() {
                 }
                 firstVisibletbodyHeight = tbodys[i].clientHeight;
                 var currentFSize = parseFloat(window.getComputedStyle(tbodys[i], null).getPropertyValue('font-size')); 
-                sendMessage(JSON.stringify({type: '2nd if tbody height', data: firstVisibletbodyHeight}));
-                sendMessage(JSON.stringify({type: '2nd if tbody window height', data: window.innerHeight}));
-                sendMessage(JSON.stringify({type: '2nd if tbody font size', data: tbodyRect.top}));
+                //sendMessage(JSON.stringify({type: '2nd if tbody height', data: firstVisibletbodyHeight}));
+                //sendMessage(JSON.stringify({type: '2nd if tbody window height', data: window.innerHeight}));
+                //sendMessage(JSON.stringify({type: '2nd if tbody font size', data: tbodyRect.top}));
                 
                 currentTable = tableId;
 
@@ -252,9 +252,9 @@ function adjustOverlay() {
 
         // Check if the first visible tbody is longer than the viewport
         if (firstVisibletbody && firstVisibletbodyHeight > window.innerHeight && tbodyRect.bottom > window.innerHeight) {
-            sendMessage(JSON.stringify({type: '3rd if', data: '1st visible tbody is longer than viewport'}));
-            sendMessage(JSON.stringify({type: '3rd if tbody id', data: tbodys[i].id}));
-            sendMessage(JSON.stringify({type: '3rd if tbody bottom', data: tbodyRect.bottom}));
+            //sendMessage(JSON.stringify({type: '3rd if', data: '1st visible tbody is longer than viewport'}));
+            //sendMessage(JSON.stringify({type: '3rd if tbody id', data: tbodys[i].id}));
+            //sendMessage(JSON.stringify({type: '3rd if tbody bottom', data: tbodyRect.bottom}));
             // If the first visible tbody is longer than the viewport, skip creating the overlay and break
             clearOverlays();
             overlayVisible = null;
@@ -271,7 +271,7 @@ function adjustOverlay() {
             && tbodys[i].id === firstVisibletbody.id
             && tbodyRect.top > 0) {
 
-            sendMessage(JSON.stringify({type: '4th if', data: '1st visible tbody is from next table and longer than viewport'}));
+            //sendMessage(JSON.stringify({type: '4th if', data: '1st visible tbody is from next table and longer than viewport'}));
             // If the first visible tbody is longer than the viewport, skip creating the overlay and break
             clearOverlays();
             overlayVisible = null;
@@ -288,11 +288,11 @@ function adjustOverlay() {
         // check if the tbody is from the next table
         
         if (tbodyRect.top > 0 && tbodyRect.bottom > window.innerHeight && currentTable !== tableId) {
-            sendMessage(JSON.stringify({type: '5th if', data: 'tbody is from next table'}));
+            //sendMessage(JSON.stringify({type: '5th if', data: 'tbody is from next table'}));
             let tbodyIdComponents = tbodys[i].id.split("_");
             let tableId = tbodyIdComponents[1];
             let tbodyId = tbodyIdComponents[3];
-            sendMessage(JSON.stringify({type: 'TABLE_CHANGED', data: tableId}));
+            //sendMessage(JSON.stringify({type: 'TABLE_CHANGED', data: tableId}));
             let caption = document.getElementById('caption_table_' + tableId);
 
             if (caption) {
@@ -310,9 +310,9 @@ function adjustOverlay() {
 
         // Check if the tbody is partially visible
         if (tbodyRect.top < window.innerHeight && tbodyRect.bottom > window.innerHeight) {
-            sendMessage(JSON.stringify({type: '6th if', data: tbodys[i].id}));
-            sendMessage(JSON.stringify({type: '6th if tbody bottom', data: tbodyRect.bottom}));
-            sendMessage(JSON.stringify({type: '6th if tbody innerheight', data: window.innerHeight}));
+            //sendMessage(JSON.stringify({type: '6th if', data: tbodys[i].id}));
+            //sendMessage(JSON.stringify({type: '6th if tbody bottom', data: tbodyRect.bottom}));
+            //sendMessage(JSON.stringify({type: '6th if tbody innerheight', data: window.innerHeight}));
 
             // Get the tableId and tbodyId from the first partially visible tbody
             let tbodyIdComponents = tbodys[i].id.split("_");

@@ -105,6 +105,8 @@ body {
     color: white;
     font-size: ${fontSize}vw;
     width: '100%' !important;
+    margin-bottom: 500px;
+
 }
 
 .north {
