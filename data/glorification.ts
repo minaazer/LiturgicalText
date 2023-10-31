@@ -258,7 +258,7 @@ ${htmlRenderScript}
     </table>
     <br>
     <table id="table_3" style="display: table;" title="Shashf Ensop">
-        <caption class="caption" id="caption_table_3"><span class="coptic-caption">Ⲍ ⲛ̀ⲥⲟⲡ ⲙ̀ⲙⲏⲛⲓ</span></caption>
+        <caption class="caption" id="caption_table_3"><span class="coptic-caption">Ϣ̀ⲁϣϥ ̀ⲛⲥⲟⲡ ̀ⲙⲙⲏⲛⲓ</span></caption>
 
         <tbody class="scaling-container"  id="table_3_tbody_0">
             <tr class="north" id="table_3_row_0">
@@ -266,7 +266,7 @@ ${htmlRenderScript}
                     name,
                     with
                     all my heart, O God of everyone.</td>
-                <td class="coptic" style="border-right: 1px solid black;">Ⲍ ⲛ̀ⲥⲟⲡ ⲙ̀ⲙⲏⲛⲓ:̀ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲡⲁϩⲏⲧ ⲧⲏⲣϥ:
+                <td class="coptic" style="border-right: 1px solid black;">Ϣ̀ⲁϣϥ ̀ⲛⲥⲟⲡ ⲙ̀ⲙⲏⲛ̀ⲓ : ̀ⲉⲃⲟⲗϧⲉⲛ ⲡⲁϩⲏⲧ ⲧⲏⲣϥ:
                     ϯⲛⲁⲥ̀ⲙⲟⲩ
                     ⲉ̀ⲡⲉⲕⲣⲁⲛ: Ⲡϭⲟⲓⲥ ⲙ̀ⲡⲓⲉ̀ⲡ̀ⲧⲏⲣϥ.</td>
                 <td class="arabic">سبع مرات كل يوم من كل قلبى ابارك أسمك يارب الكل.</td>

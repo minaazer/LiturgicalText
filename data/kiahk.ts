@@ -33,7 +33,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Whenever we stand before You in the flesh.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ϧⲉⲛ ⲡ̀ϫⲓⲛⲑ̀ⲣⲉⲛⲟ̀ϩⲓ ⲉ̀ⲣⲁⲧⲉⲛ ⲙ̀ⲡⲉⲕⲙ̀ⲑⲟ ⲥⲱⲙⲁⲧⲓⲕⲱⲥ.
             </td>
-            <td class="arabic">عندما نقف أمامك جسدياً .</td>
+            <td class="arabic">عندما نقف أمامك جسدياً.</td>
         </tr>
         <tr id="table_0_row_3" class="south">
             <td class="english" style="border-right: 1px solid black;">Cast away from our minds the slumber of sleep.
@@ -54,7 +54,7 @@ ${htmlRenderScript}
                 and win the forgiveness of our many sins: Glory be to You, O Lover of mankind.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲟⲩⲟϩ ⲛ̀ⲧⲉⲟⲩⲱⲣⲡ ⲛⲁⲕ ⲉ̀ⲡ̀ϣⲱⲓ ⲛ̀ϯⲇⲟⲝⲟⲗⲟⲅⲓⲁ̀
                 ⲉ̀ⲧⲉⲣⲡ̀ⲣⲉⲡⲓ : ⲟⲩⲟϩ ⲛ̀ⲧⲉⲛϣⲁϣⲛⲓ ⲉ̀ⲡ̀ⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ ⲉⲧⲟϣ : ⲇⲟⲝⲁ ⲥⲓ ⲫⲓⲗⲁⲛⲑ̀ⲣⲱⲡⲉ.</td>
-            <td class="arabic">ونرسل لك إلى فوق التمجيد اللائق . ونفوز بغفران خطايانا الكثيرة . المجد لك يامحب البشر
+            <td class="arabic">ونرسل لك إلى فوق التمجيد اللائق. ونفوز بغفران خطايانا الكثيرة. المجد لك يامحب البشر
             </td>
         </tr>
         <tr id="table_0_row_6" class="north">
@@ -62,63 +62,63 @@ ${htmlRenderScript}
                 Lord: Glory...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ϩⲏⲡⲡⲉ ⲇⲉ ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲛⲓⲉ̀ⲃⲓⲁⲓⲕ ⲛ̀ⲧⲉ Ⲡϭⲟⲓⲥ:
                 ⲇⲟ̅...</td>
-            <td class="arabic">ها باركوا الرب ياعبيد الرب . المجد ..</td>
+            <td class="arabic">ها باركوا الرب ياعبيد الرب. المجد..</td>
         </tr>
         <tr id="table_0_row_7" class="south">
             <td class="english" style="border-right: 1px solid black;">You who stand in the house of the Lord, in the
                 courts of the house of our God: Glory be to You, O Lover of mankind.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲛⲏⲉⲧⲟ̀ϩⲓ ⲉ̀ⲣⲁⲧⲟⲩ ϧⲉⲛ ⲡ̀ⲏⲓ ⲙ̀Ⲡϭⲟⲓⲥ : ϧⲉⲛ ⲛⲓⲁⲩⲗⲏⲟⲩ
                 ⲛ̀ⲧⲉ ⲡ̀ⲏⲓ ⲙ̀Ⲡⲉⲛⲛⲟⲩϯ : ⲇⲟⲝⲁ ⲥⲓ ⲫⲓⲗⲁⲛⲑ̀ⲣⲱⲡⲉ.</td>
-            <td class="arabic">القائمين فى بيت الرب. فى ديار بيت إلهنا . المجد ..</td>
+            <td class="arabic">القائمين فى بيت الرب. فى ديار بيت إلهنا. المجد..</td>
         </tr>
         <tr id="table_0_row_8" class="north">
             <td class="english" style="border-right: 1px solid black;">By night, lift up your hands, O you saints, and
                 bless the Lord: Glory...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲛ̀ϩ̀ⲣⲏⲓ ϧⲉⲛ ⲛⲓⲉ̀ϫⲱⲣϩ ϥⲁⲓ ⲛ̀ⲧⲉⲛϫⲓϫ ⲉ̀ⲡ̀ϣⲱⲓ ⲛⲏⲉⲑⲟⲩⲁⲃ
                 ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ : ⲇⲟ̅...</td>
-            <td class="arabic">بالليالى إرفعوا أيديكم إلى فوق أيها القديسون باركوا الرب . المجد ..</td>
+            <td class="arabic">بالليالى إرفعوا أيديكم إلى فوق أيها القديسون باركوا الرب. المجد..</td>
         </tr>
         <tr id="table_0_row_9" class="south">
             <td class="english" style="border-right: 1px solid black;">The Lord bless you from Zion, Who made heaven and
                 earth: Glory...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲡϭⲟⲓⲥ ⲉϥⲉ̀ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟⲕ ⲉ̀ⲃⲟⲗ ϧⲉⲛ Ⲥⲓⲱⲛ :
                 ⲫⲏⲉⲧⲁϥⲑⲁⲙⲓⲟ̀ ⲛ̀ⲧ̀ⲫⲉ ⲛⲉⲙ ⲡ̀ⲕⲁϩⲓ : ⲇⲟ̅...</td>
-            <td class="arabic">يباركك الرب من صهيون الذى خلق السماء والأرض. المجد ..</td>
+            <td class="arabic">يباركك الرب من صهيون الذى خلق السماء والأرض. المجد..</td>
         </tr>
         <tr id="table_0_row_10" class="north">
             <td class="english" style="border-right: 1px solid black;">Let my cry come near before You, O Lord. Give me
                 understanding according to Your word: Glory be to You, O Lover of mankind.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲙⲁⲣⲉ ⲡⲁϯϩⲟ ϧⲱⲛⲧ ⲙ̀ⲡⲉⲕⲙ̀ⲑⲟ Ⲡϭⲟⲓⲥ : ⲙⲁⲕⲁϯ ⲛⲏⲓ ⲕⲁⲧⲁ
                 ⲡⲉⲕⲥⲁϫⲓ: ⲇⲟⲝⲁ ⲥⲓ ⲫⲓⲗⲁⲛⲑ̀ⲣⲱⲡⲉ.</td>
-            <td class="arabic">فلتدن وسيلتى قدامك يارب . كقولك فهمنى المجد..</td>
+            <td class="arabic">فلتدن وسيلتى قدامك يارب. كقولك فهمنى المجد..</td>
         </tr>
         <tr id="table_0_row_11" class="south">
             <td class="english" style="border-right: 1px solid black;">Let my supplication come before You. Revive me
                 according to Your word: Glory...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲉϥⲉ̀ⲓ̀ ⲉ̀ϧⲟⲩⲛ ⲙ̀ⲡⲉⲕⲙ̀ⲑⲟ ⲛ̀ϫⲉ ⲡⲁⲁ̀ⲝⲓⲱ̀ⲙⲁ : ⲕⲁⲧⲁ
                 ⲡⲉⲕⲥⲁϫⲓ ⲙⲁⲧⲁⲛϧⲟⲓ : ⲇⲟ̅...</td>
-            <td class="arabic">ليدخل إبتهالى أمامك . ككلمتك أحينى . المجد ..</td>
+            <td class="arabic">ليدخل إبتهالى أمامك. ككلمتك أحينى. المجد..</td>
         </tr>
         <tr id="table_0_row_12" class="north">
             <td class="english" style="border-right: 1px solid black;">My lips shall utter praise, for You teach me your
                 statutes: Glory...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲉⲣⲉ ⲛⲁⲥ̀ⲫⲟⲧⲟⲩ ⲃⲉⲃⲓ ⲛ̀ⲟⲩⲥ̀ⲙⲟⲩ ⲉ̀ϣⲱⲡ ⲁⲕϣⲁⲛⲧ̀ⲥⲁⲃⲟⲓ
                 ⲉ̀ⲛⲉⲕⲙⲉⲑⲙⲏⲓ : ⲇⲟ̅...</td>
-            <td class="arabic">تفيض شفتاي السبح إذا ما علمتني حقوقك . المجد ..</td>
+            <td class="arabic">تفيض شفتاي السبح إذا ما علمتني حقوقك. المجد..</td>
         </tr>
         <tr id="table_0_row_13" class="south">
             <td class="english" style="border-right: 1px solid black;">My tongue shall speak of Your words, for all Your
                 commandments are righteousness: Glory be to You, O Lover of mankind.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲡⲁⲗⲁⲥ ⲉϥⲉ̀ⲉ̀ⲣⲟⲩⲱ̀ ϧⲉⲛ ⲛⲉⲕⲥⲁϫⲓ : ϫⲉ ⲛⲉⲕⲉⲛⲧⲟⲗⲏ ⲧⲏⲣⲟⲩ
                 ϩⲁⲛⲙⲉⲑⲙⲏⲓ ⲛⲉ : ⲇⲟⲝⲁ ⲥⲓ ⲫⲓⲗⲁⲛⲑ̀ⲣⲱⲡⲉ.</td>
-            <td class="arabic">لساني يجيب بأقوالك. لأن جميع وصاياك هي حق . المجد ..</td>
+            <td class="arabic">لساني يجيب بأقوالك. لأن جميع وصاياك هي حق. المجد..</td>
         </tr>
         <tr id="table_0_row_14" class="north">
             <td class="english" style="border-right: 1px solid black;">Let Your hand become my help, for I have chosen
                 Your precepts: Glory...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲙⲁⲣⲉⲥϣⲱⲡⲓ ⲛ̀ϫⲉ ⲧⲉⲕϫⲓϫ ⲉ̀ⲫ̀ⲛⲁϩⲙⲉⲧ : ϫⲉ ⲛⲉⲕⲉⲛⲧⲟⲗⲏ
                 ⲁⲓⲉⲣⲉ̀ⲡⲓⲑⲩⲙⲓⲛ ⲉ̀ⲣⲱⲟⲩ : ⲇⲟ̅...</td>
-            <td class="arabic">لتكن يدك لتخلصنى لأنى اشتهيت وصاياك . المجد ..</td>
+            <td class="arabic">لتكن يدك لتخلصنى لأنى اشتهيت وصاياك. المجد..</td>
         </tr>
         <tr id="table_0_row_15" class="south">
             <td class="english" style="border-right: 1px solid black;">I longed for Your salvation, O Lord, and Your law
@@ -132,28 +132,28 @@ ${htmlRenderScript}
                 let Your judgments help me: Glory…</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲉⲥⲉ̀ⲱⲛϧ ⲛ̀ϫⲉ ⲧⲁⲯⲩⲭⲏ ⲟⲩⲟϩ ⲉⲥⲉ̀ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟⲕ : ⲟⲩⲟϩ
                 ⲛⲉⲕϩⲁⲡ ⲉⲩⲉ̀ⲉⲣⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ: ⲇⲟⲝⲁ ⲥⲓ ⲫⲓⲗⲁⲛⲑ̀ⲣⲱⲡⲉ.</td>
-            <td class="arabic">تحيا نفسى وتسبحك وأحكامك تعيننى. المجد ..</td>
+            <td class="arabic">تحيا نفسى وتسبحك وأحكامك تعيننى. المجد..</td>
         </tr>
         <tr id="table_0_row_17" class="south">
             <td class="english" style="border-right: 1px solid black;">I have gone astray like a lost sheep; seek Your
                 servant, for I do not forget Your commandments: Glory…</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲁⲓⲥⲱⲣⲉⲙ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲟⲩⲉ̀ⲥⲱⲟⲩ ⲉ̀ⲁϥⲧⲁⲕⲟ : ⲕⲱϯ ⲛ̀ⲥⲁ
                 ⲡⲉⲕⲃⲱⲕ ϫⲉ ⲛⲉⲕⲉⲛⲧⲟⲗⲏ ⲙ̀ⲡⲓⲉⲣⲡⲟⲩⲱⲃϣ : ⲇⲟ̅...</td>
-            <td class="arabic">ضللت مثل الخروف الضال فاطلب عبدك فإنى لوصاياك لم أنس . المجد</td>
+            <td class="arabic">ضللت مثل الخروف الضال فاطلب عبدك فإنى لوصاياك لم أنس. المجد</td>
         </tr>
         <tr id="table_0_row_18" class="north">
             <td class="english" style="border-right: 1px solid black;">Glory be to the Father, and the Son, and the Holy
                 Spirit: Glory...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲇⲟⲝⲁ Ⲡⲁⲧⲣⲓ ⲕⲉ˙Ⲩⲓⲱ̀ ⲕⲉ ⲁ̀ⲅⲓⲱ̀ Ⲡⲛⲉⲩⲙⲁⲧⲓ : ⲇⲟ̅...
             </td>
-            <td class="arabic">المجد للآب والأبن والروح القدس . المجد ..</td>
+            <td class="arabic">المجد للآب والأبن والروح القدس. المجد..</td>
         </tr>
         <tr id="table_0_row_19" class="south">
             <td class="english" style="border-right: 1px solid black;">Now, and ever, and unto the age of all ages Amen:
                 Glory...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ⲓ̀ ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ
                 ⲁ̀ⲙⲏⲛ : ⲇⲟ̅...</td>
-            <td class="arabic">الآن وكل أوان وإلى دهر الداهرين آمين. المجد ..</td>
+            <td class="arabic">الآن وكل أوان وإلى دهر الداهرين آمين. المجد..</td>
         </tr>
         <tr id="table_0_row_20" class="north">
             <td class="english" style="border-right: 1px solid black;">Glory be to the Father, and the Son and the Holy
@@ -167,14 +167,14 @@ ${htmlRenderScript}
                 mankind. Glory be to Your Mother, the Virgin, and all Your saints: Glory...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲡⲓⲱ̀ⲟⲩ ⲛⲁⲕ ⲡⲓⲙⲁⲓⲣⲱⲙⲓ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ : ⲡⲓⲱ̀ⲟⲩ ⲛ̀ⲧⲉⲕⲙⲁⲩ
                 ⲙ̀ⲡⲁⲣⲑⲉⲛⲟⲥ ⲛⲉⲙ ⲛⲏⲉⲑⲟⲩⲁⲃ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲁⲕ: ⲇⲟ̅...</td>
-            <td class="arabic">المجد لك يا محب البشر الصالح . المجد لأمك العذراء وجميع قديسيك . المجد ..</td>
+            <td class="arabic">المجد لك يا محب البشر الصالح. المجد لأمك العذراء وجميع قديسيك. المجد..</td>
         </tr>
         <tr id="table_0_row_22" class="north">
             <td class="english" style="border-right: 1px solid black;">Glory be to You, O Only-Begotten one. O Holy
                 Trinity, have mercy upon us: Glory...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲇⲟⲝⲁ ⲥⲓ ⲟ̀ⲙⲟⲛⲟⲅⲉⲛⲏⲥ ⲁ̀ⲅⲓⲁ̀ ̀ Ⲧⲣⲓⲁⲥ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ
                 : ⲇⲟ̅...</td>
-            <td class="arabic">المجد لك أيها الوحيد. أيها الثالوث المقدس ارحمنا . المجد ..</td>
+            <td class="arabic">المجد لك أيها الوحيد. أيها الثالوث المقدس ارحمنا. المجد..</td>
         </tr>
         <tr id="table_0_row_23" class="south">
             <td class="english" style="border-right: 1px solid black;">Let God arise and let all His enemies be
@@ -182,22 +182,22 @@ ${htmlRenderScript}
                 mankind.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲙⲁⲣⲉϥⲧⲱⲛϥ ⲛ̀ϫⲉ Ⲫϯ : ⲙⲁⲣⲟⲩϫⲱⲣ ⲉ̀ⲃⲟⲗ ⲛ̀ϫⲉ ⲛⲉϥϫⲁϫⲓ
                 ⲧⲏⲣⲟⲩ : ⲙⲁⲣⲟⲩⲫⲱⲧ ⲉ̀ⲃⲟⲗ ϧⲁⲧ̀ϩⲏ ⲙ̀ⲡⲉϥϩⲟ ⲛ̀ϫⲉ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ ⲉⲑⲙⲟⲥϯ ⲙ̀ⲡⲉϥⲣⲁⲛ ⲉⲑⲟⲩⲁⲃ : ⲇⲟⲝⲁ ⲥⲓ ⲫⲓⲗⲁⲛⲑ̀ⲣⲱⲡⲉ.</td>
-            <td class="arabic">ليقم الله . وليتبدد جميع أعدائه . وليهرب من قدام وجهه كل مبغضي اسمه القدوس . المجد ..
+            <td class="arabic">ليقم الله. وليتبدد جميع أعدائه. وليهرب من قدام وجهه كل مبغضي اسمه القدوس. المجد..
             </td>
         </tr>
         <tr id="table_0_row_24" class="north">
             <td class="english" style="border-right: 1px solid black;">As for Your people let them be blessed, a
                 thousand thousand fold, and ten thousand ten thousand fold, doing Your will.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲡⲉⲕⲗⲁⲟⲥ ⲇⲉ ⲙⲁⲣⲉϥϣⲱⲡⲓ ϧⲉⲛ ⲡⲓⲥ̀ⲙⲟⲩ ⲉ̀ϩⲁⲛⲁⲛϣⲟ ⲛ̀ϣⲟ
-                ⲛⲉⲙ ϩⲁⲛⲑ̀ⲃⲁ ⲛ̀ⲑ̀ⲃⲁ ⲉⲩⲓ̀ⲣⲓ ⲙ̀ⲡⲉⲕⲟⲩⲱϣ .</td>
-            <td class="arabic">وأما شعبك فليكن بالبركة ألوف ألوف وربوات ربوات يصنعون إرادتك .</td>
+                ⲛⲉⲙ ϩⲁⲛⲑ̀ⲃⲁ ⲛ̀ⲑ̀ⲃⲁ ⲉⲩⲓ̀ⲣⲓ ⲙ̀ⲡⲉⲕⲟⲩⲱϣ.</td>
+            <td class="arabic">وأما شعبك فليكن بالبركة ألوف ألوف وربوات ربوات يصنعون إرادتك.</td>
         </tr>
         <tr id="table_0_row_25" class="south">
             <td class="english" style="border-right: 1px solid black;">O Lord, open my lips, and my mouth shall show
                 forth Your praise.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲡϭⲟⲓⲥ ⲉⲕⲉ̀ⲁ̀ⲟⲩⲱⲛ ⲛ̀ⲛⲁⲥ̀ⲫⲟⲧⲟⲩ : ⲟⲩⲟϩ ⲉ̀ⲣⲉ ⲣⲱⲓ ϫⲱ
                 ⲙ̀ⲡⲉⲕⲥ̀ⲙⲟⲩ.</td>
-            <td class="arabic">يارب افتح شفتى . ولينطق فمى بتسبحتك .</td>
+            <td class="arabic">يارب افتح شفتى. ولينطق فمى بتسبحتك.</td>
         </tr>
     </table>
     <br>
@@ -261,7 +261,7 @@ ${htmlRenderScript}
                 ear, and forget your own people and your father's house. And the king shall greatly desire your beauty,
                 for He, Himself, is your Lord. Alleluia.</td>
             <td class="arabic">اسمعى يا ابنتى وانظرى وميلى بسمعك. وانسى شعبك وكل بيت أبيك فإن الملك قد اشتهى حسنك. لأنه
-                هو ربك . الليلويا.</td>
+                هو ربك. الليلويا.</td>
         </tr>
         <tr id="table_1_row_8" class="north">
             <td class="english" style="border-right: 1px solid black;">The daughters of Tyre shall worship Him with
@@ -274,7 +274,7 @@ ${htmlRenderScript}
                 after her are brought unto You. They shall be brought with gladness and rejoicing. They shall be brought
                 into the temple of the King. Alleluia.</td>
             <td class="arabic">كل مجد ابنة الملك من داخل مشتملة بأذيال موشاة بالذهب. مزينة بأشكال كثيرة. يدخلن إلى الملك
-                عذارى خلفها . يدخلن صاحباتها جميعاً. يدخلن بالفرح والتهليل . يدخلن إلى هيكل الملك. الليلويا.</td>
+                عذارى خلفها. يدخلن صاحباتها جميعاً. يدخلن بالفرح والتهليل. يدخلن إلى هيكل الملك. الليلويا.</td>
         </tr>
         <tr id="table_1_row_10" class="north">
             <td class="english" style="border-right: 1px solid black;">Great is the Lord, and greatly to be praised in
@@ -288,7 +288,7 @@ ${htmlRenderScript}
                 loves the gates of Zion more than all the dwellings of Jacob. Glorious things are spoken of You, O City
                 of God. Alleluia.</td>
             <td class="arabic">أساساته في الجبال المقدسة: الرب أحب أبواب صهيون أفضل من جميع مساكن يعقوب أعمال كريمة قيلت
-                من أجلك يا مدينة الله . الليلويا.</td>
+                من أجلك يا مدينة الله. الليلويا.</td>
         </tr>
         <tr id="table_1_row_12" class="north">
             <td class="english" style="border-right: 1px solid black;">And of Zion it shall be said: This and that man
@@ -334,7 +334,7 @@ ${htmlRenderScript}
         <tr id="table_1_row_19" class="south">
             <td class="english" style="border-right: 1px solid black;">Where their voice is not heard, their line is
                 gone out through all the earth and their words to the end of the world. Alleluia.</td>
-            <td class="arabic">الذين لم يسمع لهم صوت . خرجت أصواتهم على الأرض كلها وبلغ كلامهم الى أقطار المسكونة.
+            <td class="arabic">الذين لم يسمع لهم صوت. خرجت أصواتهم على الأرض كلها وبلغ كلامهم الى أقطار المسكونة.
                 الليلويا.</td>
         </tr>
         <tr id="table_1_row_20" class="north">
@@ -381,14 +381,14 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">The salvation of the righteous is of the Lord. He
                 is their strength in the time of trouble. And the Lord shall help them and save them from the wicked
                 because they trust in Him. Alleluia.</td>
-            <td class="arabic">خلاص الأبرار من عند الرب . وهو ناصرهم في زمن الشدائد الرب يعينهم وينقذهم من الخطاة لأنهم
+            <td class="arabic">خلاص الأبرار من عند الرب. وهو ناصرهم في زمن الشدائد الرب يعينهم وينقذهم من الخطاة لأنهم
                 توكلوا عليه. الليلويا.</td>
         </tr>
         <tr id="table_1_row_27" class="south">
             <td class="english" style="border-right: 1px solid black;">Let the righteous rejoice with joy. They cried
                 and the Lord heard them and He delivered them out of all their distress. The Lord is nigh unto them that
                 are of a contrite heart and He will save the humble of spirit. Alleluia.</td>
-            <td class="arabic">فليفرح الأبرار بالفرح . والصديقون صرخوا إلى الرب فسمع لهم. ونجاهم من جميع شدائدهم قريب
+            <td class="arabic">فليفرح الأبرار بالفرح. والصديقون صرخوا إلى الرب فسمع لهم. ونجاهم من جميع شدائدهم قريب
                 الرب من مستقيمي القلوب. و المتواضعى الأرواح يخلصهم. الليلويا.</td>
         </tr>
         <tr id="table_1_row_28" class="north">
@@ -454,7 +454,7 @@ ${htmlRenderScript}
         <tr id="table_1_row_37" class="south">
             <td class="english" style="border-right: 1px solid black;">God be merciful to us and bless us, and cause His
                 face to shine upon us. Alleluia.</td>
-            <td class="arabic">الله يتراءف علينا ويباركنا ويشرق وجهه علينا ويرحمنا . الليلويا.</td>
+            <td class="arabic">الله يتراءف علينا ويباركنا ويشرق وجهه علينا ويرحمنا. الليلويا.</td>
         </tr>
         <tr id="table_1_row_38" class="north">
             <td class="english" style="border-right: 1px solid black;">Save Your people, and bless Your inheritance,
@@ -918,7 +918,7 @@ ${htmlRenderScript}
                 like You, glorified in his saints, amazing in glory, performing wonders?</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲛⲓⲙ ⲉⲧⲟ̀ⲛⲓ ⲙ̀ⲙⲟⲕ ϧⲉⲛ ⲛⲓⲛⲟⲩϯ Ⲡϭⲟⲓⲥ: ⲛⲓⲙ ⲉⲧⲟ̀ⲛⲓ
                 ⲙ̀ⲙⲟⲕ: ⲉ̀ⲁⲩϯⲱ̀ⲟⲩ ⲛⲁⲕ ϧⲉⲛ ⲛⲏⲉⲑⲟⲩⲁⲃ ̀ⲛ̀ⲧⲁⲕ: ⲉⲩⲉⲣϣ̀ⲫⲏⲣⲓ ⲙ̀ⲙⲟⲕ ϧⲉⲛ ⲟⲩⲱ̀ⲟⲩ : ⲉⲕⲓ̀ⲣⲓ ⲛ̀ϩⲁⲛϣ̀ⲫⲏⲣⲓ.</td>
-            <td class="arabic">من يشبهك فى الالهة يارب من يشبهك. ممجداً فى قديسيك متعجباً منك بالمجد . صانعاً عجائب.
+            <td class="arabic">من يشبهك فى الالهة يارب من يشبهك. ممجداً فى قديسيك متعجباً منك بالمجد. صانعاً عجائب.
             </td>
         </tr>
         <tr id="table_3_row_12" class="north">
@@ -986,7 +986,7 @@ ${htmlRenderScript}
                 on them, but the children of Israel went on dry land in the midst of the sea.</td>
             <td class="coptic" style="border-right: 1px solid black;">ⲀⲠϭⲟⲓⲥ ⲉⲛ ⲡⲓⲙⲱⲟⲩ ⲛ̀ⲧⲉ ⲫ̀ⲓⲟⲙ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲟⲩ:
                 ⲛⲉⲛϣⲏⲣⲓ ⲇⲉ ⲙ̀Ⲡⲓⲥⲣⲁⲏⲗ ⲛⲁⲩⲙⲟϣⲓ ϧⲉⲛ ⲡⲉⲧϣⲟⲩⲱ̀ⲟⲩ ϧⲉⲛ ⲑ̀ⲙⲏϯ ⲙ̀ⲫ̀ⲓⲟⲙ.</td>
-            <td class="arabic">والرب غمرهم بماء البحر. أما بنو اسرائيل فكانوا يمشون على اليابسة فى وسط البحر .</td>
+            <td class="arabic">والرب غمرهم بماء البحر. أما بنو اسرائيل فكانوا يمشون على اليابسة فى وسط البحر.</td>
         </tr>
         <tr id="table_3_row_21" class="south">
             <td class="english" style="border-right: 1px solid black;">Then Miriam the prophetess, the sister of Aaron,
@@ -1006,7 +1006,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">The horse and its rider He has thrown into the
                 sea, "Let us sing to the Lord for He has triumphed gloriously.”</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲟⲩϩ̀ⲑⲟ ⲛⲉⲙ ⲟⲩϭⲁⲥⲓϩ̀ⲑⲟ ⲁϥⲃⲉⲣⲃⲱⲣⲟⲩ ⲉ̀ⲫ̀ⲓⲟⲙ: ϫⲉ
-                ⲙⲁⲣⲉⲛϩⲱⲥ ⲉ̀Ⲡϭⲟⲓⲥ: ϫⲉ ϧⲉⲛ ⲟⲩⲱ̀ⲟⲩ ⲅⲁⲣ ⲁϥϭⲓⲱ̀ⲟⲩ .</td>
+                ⲙⲁⲣⲉⲛϩⲱⲥ ⲉ̀Ⲡϭⲟⲓⲥ: ϫⲉ ϧⲉⲛ ⲟⲩⲱ̀ⲟⲩ ⲅⲁⲣ ⲁϥϭⲓⲱ̀ⲟⲩ.</td>
             <td class="arabic">الفرس وراكب الفرس طرحهما فى البحر فلنسبح الرب لانه بالمجد قد تمجد.</td>
         </tr>
     </table>
@@ -1039,7 +1039,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Pharaoh and his chariots, were drowned, and the
                 children of Israel, crossed the sea.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲫⲁⲣⲁⲱ̀ ⲛⲉⲙ ⲛⲉϥϩⲁⲣⲙⲁ : ⲁⲩⲱⲙⲥ ⲉ̀ⲡⲉⲥⲏⲧ: ⲛⲉⲛϣⲏⲣⲓ
-                ⲛ̀Ⲡⲓⲥⲣⲁⲏⲗ : ⲁⲩⲉⲣϫⲓⲛⲓⲟⲣ ⲙ̀ⲫ̀ⲓⲟⲙ .</td>
+                ⲛ̀Ⲡⲓⲥⲣⲁⲏⲗ : ⲁⲩⲉⲣϫⲓⲛⲓⲟⲣ ⲙ̀ⲫ̀ⲓⲟⲙ.</td>
             <td class="arabic">غرق فرعون ومركباته وعـبر بنو اسرئيل البحر.</td>
         </tr>
         <tr id="table_4_row_4" class="north">
@@ -1663,7 +1663,7 @@ ${htmlRenderScript}
         </tr>
         <tr id="table_8_row_2" class="north">
             <td class="english" style="border-right: 1px solid black;">Everyone praises You, And worships You, O Holy
-                ...</td>
+...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲃⲟⲛ ⲛⲓⲃⲉⲛ ⲥⲉϩⲱⲥ ⲛⲁⲕ: ⲟⲩⲟϩ ⲥⲉⲉⲣⲃⲱⲕ ⲛⲁⲕ: ⲁ̀ⲅⲓⲁ̀...
             </td>
             <td class="arabic">كل أحد يسبحك:
@@ -1671,10 +1671,10 @@ ${htmlRenderScript}
         </tr>
         <tr id="table_8_row_3" class="south">
             <td class="english" style="border-right: 1px solid black;">For You are our God,
-                And our Great Savior, O Holy ...</td>
+                And our Great Savior, O Holy...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲅⲉ ⲅⲁⲣ ⲛ̀ⲑⲟⲕ Ⲡⲉⲛⲛⲟⲩϯ: Ⲡⲉⲛⲥⲱⲧⲏⲣ ⲟⲩⲟϩ ⲡⲓⲛⲓϣϯ: ⲁ̀ⲅⲓⲁ̀
-                ...</td>
-            <td class="arabic">لأنك أنت إلهنا : ومخلصنا العظيم أيها ...</td>
+...</td>
+            <td class="arabic">لأنك أنت إلهنا : ومخلصنا العظيم أيها...</td>
         </tr>
         <tr id="table_8_row_4" class="refrain">
             <td class="english" style="border-right: 1px solid black;">My heart and my tongue, praise the Trinity. O
@@ -1686,23 +1686,23 @@ ${htmlRenderScript}
         <tr id="table_8_row_5" class="south">
             <td class="english" style="border-right: 1px solid black;">The Master Lord , He came and saved us, O Holy …
             </td>
-            <td class="coptic" style="border-right: 1px solid black;">Ⲇⲉⲥⲡⲟⲩⲇⲉ ⲕⲩⲣⲓⲟⲛ : ⲁϥⲓ̀ⲁϥⲥⲱϯ ⲙ̀ⲙⲟⲛ : ⲁ̀ⲅⲓⲁ̀ ...
+            <td class="coptic" style="border-right: 1px solid black;">Ⲇⲉⲥⲡⲟⲩⲇⲉ ⲕⲩⲣⲓⲟⲛ : ⲁϥⲓ̀ⲁϥⲥⲱϯ ⲙ̀ⲙⲟⲛ : ⲁ̀ⲅⲓⲁ̀...
             </td>
-            <td class="arabic">السيد الرب : أتى وخلصنا أيها ...</td>
+            <td class="arabic">السيد الرب : أتى وخلصنا أيها...</td>
         </tr>
         <tr id="table_8_row_6" class="north">
             <td class="english" style="border-right: 1px solid black;">For the sake of Your true judgments, Teach me
                 Your justice, O Holy …</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲉⲑⲃⲉ ⲛⲉⲕϩⲁⲡ ⲙ̀ⲙⲏⲓ: ⲙⲁⲧ̀ⲥⲁⲃⲟⲓ ⲉ̀ⲛⲉⲕⲙⲉⲑⲙⲏⲓ: ⲁ̀ⲅⲓⲁ̀
-                ...</td>
-            <td class="arabic">من أجل أحكامك : الحقيقية علمنى عدلك أيها ...</td>
+...</td>
+            <td class="arabic">من أجل أحكامك : الحقيقية علمنى عدلك أيها...</td>
         </tr>
         <tr id="table_8_row_7" class="south">
             <td class="english" style="border-right: 1px solid black;">Many are Your mercies, Grant us Your salvation, O
-                Holy ...</td>
+                Holy...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲍⲉⲟϣ ⲡⲉ ⲡⲉⲕⲛⲁⲓ : ϫⲉⲙⲡⲉⲛϣⲓⲛⲓ ϧⲉⲛ ⲡⲉⲕⲟⲩϫⲁⲓ : ⲁ̀ⲅⲓⲁ̀
-                ...</td>
-            <td class="arabic">كثيرة هى رحمتك: تعهدنا بخلاصك أيها ...</td>
+...</td>
+            <td class="arabic">كثيرة هى رحمتك: تعهدنا بخلاصك أيها...</td>
         </tr>
         <tr id="table_8_row_8" class="refrain">
             <td class="english" style="border-right: 1px solid black;">My heart and my tongue, praise the Trinity. O
@@ -1714,23 +1714,23 @@ ${htmlRenderScript}
         <tr id="table_8_row_9" class="south">
             <td class="english" style="border-right: 1px solid black;">I am here before You,
                 I took refuge in You, O Holy …</td>
-            <td class="coptic" style="border-right: 1px solid black;">Ⲏⲥ ϩⲏⲡⲡⲉ ⲁ̀ⲛⲟⲕ: ⲉⲓⲉ̀ⲫⲱⲧ ϩⲁⲣⲟⲕ: ⲁ̀ⲅⲓⲁ̀ ...</td>
-            <td class="arabic">هوذا أنا : التجأت إليك أيها ...</td>
+            <td class="coptic" style="border-right: 1px solid black;">Ⲏⲥ ϩⲏⲡⲡⲉ ⲁ̀ⲛⲟⲕ: ⲉⲓⲉ̀ⲫⲱⲧ ϩⲁⲣⲟⲕ: ⲁ̀ⲅⲓⲁ̀...</td>
+            <td class="arabic">هوذا أنا : التجأت إليك أيها...</td>
         </tr>
         <tr id="table_8_row_10" class="north">
             <td class="english" style="border-right: 1px solid black;">Yours is the power and glory, O King of glory, O
-                Holy ...</td>
+                Holy...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲑⲱⲕ ⲧⲉ ϯϫⲟⲙ ⲛⲉⲙ ⲡⲓⲱ̀ⲟⲩ: ⲱ̀ ⲡⲓⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲡ̀ⲱ̀ⲟⲩ:
-                ⲁ̀ⲅⲓⲁ̀ ...</td>
+                ⲁ̀ⲅⲓⲁ̀...</td>
             <td class="arabic">لك القوة والمجد:
-                ياملك المجد أيها ...</td>
+                ياملك المجد أيها...</td>
         </tr>
         <tr id="table_8_row_11" class="south">
             <td class="english" style="border-right: 1px solid black;">Jesus is our hope, In our tribulations, O Holy
-                ...</td>
-            <td class="coptic" style="border-right: 1px solid black;">Ⲓⲏⲥⲟⲩⲥ ⲡⲉ ⲧⲉⲛϩⲉⲗⲡⲓⲥ: ϧⲉⲛ ⲛⲉⲛⲑ̀ⲗⲩⲯⲓⲥ : ⲁ̀ⲅⲓⲁ̀ ...
+...</td>
+            <td class="coptic" style="border-right: 1px solid black;">Ⲓⲏⲥⲟⲩⲥ ⲡⲉ ⲧⲉⲛϩⲉⲗⲡⲓⲥ: ϧⲉⲛ ⲛⲉⲛⲑ̀ⲗⲩⲯⲓⲥ : ⲁ̀ⲅⲓⲁ̀...
             </td>
-            <td class="arabic">يسوع هو رجاؤنا: في شدائدنا أيها ...</td>
+            <td class="arabic">يسوع هو رجاؤنا: في شدائدنا أيها...</td>
         </tr>
         <tr id="table_8_row_12" class="refrain">
             <td class="english" style="border-right: 1px solid black;">My heart and my tongue, praise the Trinity. O
@@ -1741,24 +1741,23 @@ ${htmlRenderScript}
         </tr>
         <tr id="table_8_row_13" class="south">
             <td class="english" style="border-right: 1px solid black;">You are blessed O Son of God, Deliver us from
-                temptations, O Holy ...</td>
+                temptations, O Holy...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲕⲥ̀ⲙⲁⲣⲱⲟⲩⲧ Ⲩⲓⲟⲥ Ⲑⲉⲟⲥ : ⲛⲁϩⲙⲉⲛ ϧⲉⲛ ⲛⲓⲡⲓⲣⲁⲥⲙⲟⲥ:
-                ⲁ̀ⲅⲓⲁ̀ ...</td>
-            <td class="arabic">تباركت ياابن الله: نجنا من التجارب أيها ...</td>
+                ⲁ̀ⲅⲓⲁ̀...</td>
+            <td class="arabic">تباركت ياابن الله: نجنا من التجارب أيها...</td>
         </tr>
         <tr id="table_8_row_14" class="north">
             <td class="english" style="border-right: 1px solid black;">All nations praise You,
                 O Christ the King, O Holy …</td>
-            <td class="coptic" style="border-right: 1px solid black;">Ⲗⲁⲟⲥ ⲛⲓⲃⲉⲛ ⲥⲉϩⲱⲥ ⲛⲁⲕ: ⲱ̀ ⲡ̀ⲟⲩⲣⲟ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲁ̀ⲅⲓⲁ̀
-                ...</td>
-            <td class="arabic">كل الشعوب تسبحك: أيها الملك المسيح أيها ...</td>
+                <td class="arabic">كل الشعوب تسبحك: أيها الملك المسيح أيها...</td>
+                <td class="coptic" style="border-right: 1px solid black;">Ⲗⲁⲟⲥ ⲛⲓⲃⲉⲛ ⲥⲉϩⲱⲥ ⲛⲁⲕ: ⲱ̀ ⲡ̀ⲟⲩⲣⲟ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲁ̀ⲅⲓ̀ⲁ...</td>
         </tr>
         <tr id="table_8_row_15" class="south">
             <td class="english" style="border-right: 1px solid black;">Grant us Your peace, Heal our sickness, O Holy
-                ...</td>
-            <td class="coptic" style="border-right: 1px solid black;">Ⲙⲟⲓ ⲛⲁⲛ ⲛ̀ⲧⲉⲕϩⲓⲣⲏⲛⲏ : ⲙⲁⲧⲁⲗϭⲟ ⲛ̀ⲛⲉⲛϣⲱⲛⲓ : ⲁ̀ⲅⲓⲁ̀
-                ...</td>
-            <td class="arabic">أعطينا سلامك : إشف أمراضنا أيها ...</td>
+...</td>
+            <td class="coptic" style="border-right: 1px solid black;">Ⲙⲟⲓ ⲛⲁⲛ ⲛ̀ⲧⲉⲕϩⲓⲣⲏⲛⲏ : ⲙⲁⲧⲁⲗϭⲟ ⲛ̀ⲛⲉⲛϣⲱⲛⲓ : ̀ⲁⲅⲓ̀ⲁ 
+...</td>
+            <td class="arabic">أعطينا سلامك : إشف أمراضنا أيها...</td>
         </tr>
         <tr id="table_8_row_16" class="refrain">
             <td class="english" style="border-right: 1px solid black;">My heart and my tongue, praise the Trinity. O
@@ -1769,21 +1768,21 @@ ${htmlRenderScript}
         </tr>
         <tr id="table_8_row_17" class="south">
             <td class="english" style="border-right: 1px solid black;">You are the compassionate, And You are the
-                Merciful, O Holy ...</td>
-            <td class="coptic" style="border-right: 1px solid black;">Ⲛⲑⲟⲕ ⲟⲩⲣⲉϥϣⲉⲛϩⲏⲧ: ⲟⲩⲟϩ ⲛ̀ⲛⲁⲏⲧ : ⲁ̀ⲅⲓⲁ̀ ...</td>
-            <td class="arabic">انت المتحنن: وانت الرحوم أيها ...</td>
+                Merciful, O Holy...</td>
+            <td class="coptic" style="border-right: 1px solid black;">Ⲛⲑⲟⲕ ⲟⲩⲣⲉϥϣⲉⲛϩⲏⲧ: ⲟⲩⲟϩ ⲛ̀ⲛⲁⲏⲧ : ⲁ̀ⲅⲓⲁ̀...</td>
+            <td class="arabic">انت المتحنن: وانت الرحوم أيها...</td>
         </tr>
         <tr id="table_8_row_18" class="north">
             <td class="english" style="border-right: 1px solid black;">You are blessed, We praise and bless You, O Holy
-                ...</td>
+...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲝⲙⲁⲣⲱⲟⲩⲧ ⲛ̀ⲑⲟⲕ: ⲧⲉⲛϩⲱⲥ ⲛⲁⲕ ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟⲕ : ⲁ̀ⲅⲓⲁ̀
-                ...</td>
-            <td class="arabic">تباركت أنت: نسبحك ونباركك أيها ...</td>
+...</td>
+            <td class="arabic">تباركت أنت: نسبحك ونباركك أيها...</td>
         </tr>
         <tr id="table_8_row_19" class="south">
-            <td class="english" style="border-right: 1px solid black;">Truly great, Is the Just Judge, O Holy ...</td>
-            <td class="coptic" style="border-right: 1px solid black;">Ⲟⲩⲛⲓϣϯ ⲛ̀ⲧⲁⲫⲙⲏⲓ: ⲡⲓⲣⲉϥϯϩⲁⲡ ⲙ̀ⲙⲏⲓ: ⲁ̀ⲅⲓⲁ̀ ...</td>
-            <td class="arabic">عظيم بالحقيقة : الديان العادل أيها ...</td>
+            <td class="english" style="border-right: 1px solid black;">Truly great, Is the Just Judge, O Holy...</td>
+            <td class="coptic" style="border-right: 1px solid black;">Ⲟⲩⲛⲓϣϯ ⲛ̀ⲧⲁⲫⲙⲏⲓ: ⲡⲓⲣⲉϥϯϩⲁⲡ ⲙ̀ⲙⲏⲓ: ⲁ̀ⲅⲓⲁ̀...</td>
+            <td class="arabic">عظيم بالحقيقة : الديان العادل أيها...</td>
         </tr>
         <tr id="table_8_row_20" class="refrain">
             <td class="english" style="border-right: 1px solid black;">My heart and my tongue, praise the Trinity. O
@@ -1796,22 +1795,22 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Your Name is blessed, O the True Logos (Word), O
                 Holy...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲡⲉⲕⲣⲁⲛ ⲉⲧⲥ̀ⲙⲁⲣⲱⲟⲩⲧ : ⲱ ⲡⲓⲗⲟⲅⲟⲥ ⲛ̀ⲧⲁⲫⲙⲏⲓ : ⲁ̀ⲅⲓⲁ̀
-                ...</td>
-            <td class="arabic">اسمك مبارك: أيها الكلمة الحقيقي أيها ...</td>
+...</td>
+            <td class="arabic">اسمك مبارك: أيها الكلمة الحقيقي أيها...</td>
         </tr>
         <tr id="table_8_row_22" class="north">
             <td class="english" style="border-right: 1px solid black;">Guard us, O Christ, With Your Goodness, O Holy
-                ...</td>
+...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲣⲱⲓⲥ ⲉ̀ⲣⲟⲛ ⲱ̀ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ϧⲉⲛ ⲧⲉⲕⲙⲉⲧⲁ̀ⲅⲁⲑⲟⲥ :
-                ⲁ̀ⲅⲓⲁ̀ ...</td>
-            <td class="arabic">أحرسنا أيها المسيح: بصلاحك أيها ...</td>
+                ⲁ̀ⲅⲓⲁ̀...</td>
+            <td class="arabic">أحرسنا أيها المسيح: بصلاحك أيها...</td>
         </tr>
         <tr id="table_8_row_23" class="south">
             <td class="english" style="border-right: 1px solid black;">Hearken unto the sinners, In their tribulations,
-                O Holy ...</td>
-            <td class="coptic" style="border-right: 1px solid black;">Ⲥⲱⲧⲉⲙ ⲉ̀ⲛⲓⲣⲉϥⲉⲣⲛⲟⲃⲓ : ϧⲉⲛ ⲛⲟⲩⲁ̀ⲛⲁⲅⲕⲏ: ⲁ̀ⲅⲓⲁ̀ ...
+                O Holy...</td>
+            <td class="coptic" style="border-right: 1px solid black;">Ⲥⲱⲧⲉⲙ ⲉ̀ⲛⲓⲣⲉϥⲉⲣⲛⲟⲃⲓ : ϧⲉⲛ ⲛⲟⲩⲁ̀ⲛⲁⲅⲕⲏ: ⲁ̀ⲅⲓⲁ̀...
             </td>
-            <td class="arabic">اسمع للخطاة: فى شدائدهم أيها ...</td>
+            <td class="arabic">اسمع للخطاة: فى شدائدهم أيها...</td>
         </tr>
         <tr id="table_8_row_24" class="refrain">
             <td class="english" style="border-right: 1px solid black;">My heart and my tongue, praise the Trinity. O
@@ -1822,22 +1821,22 @@ ${htmlRenderScript}
         </tr>
         <tr id="table_8_row_25" class="south">
             <td class="english" style="border-right: 1px solid black;">My soul and my mind, Lift them up to heaven, O
-                Holy ...</td>
-            <td class="coptic" style="border-right: 1px solid black;">Ⲧⲁⲯⲩⲭⲏ ⲛⲉⲙ ⲡⲁⲛⲟⲥ: ⲱ̀ⲗⲟⲩ ⲉ̀ⲟⲩⲣⲁⲛⲟⲥ: ⲁ̀ⲅⲓⲁ̀ ...</td>
-            <td class="arabic">نفسي وعقلى : إرفعهما الى السماء أيها ...</td>
+                Holy...</td>
+            <td class="coptic" style="border-right: 1px solid black;">Ⲧⲁⲯⲩⲭⲏ ⲛⲉⲙ ⲡⲁⲛⲟⲥ: ⲱ̀ⲗⲟⲩ ⲉ̀ⲟⲩⲣⲁⲛⲟⲥ: ⲁ̀ⲅⲓⲁ̀...</td>
+            <td class="arabic">نفسي وعقلى : إرفعهما الى السماء أيها...</td>
         </tr>
         <tr id="table_8_row_26" class="north">
             <td class="english" style="border-right: 1px solid black;">O Son of our God, Grant us Your salvation, O Holy
-                ...</td>
-            <td class="coptic" style="border-right: 1px solid black;">Ⲩⲓⲟⲥ Ⲑⲉⲟⲥ Ⲡⲉⲛⲛⲟⲩϯ : ⲙⲟⲓ ⲛⲁⲛ ⲛ̀ⲟⲩⲥⲱϯ : ⲁ̀ⲅⲓⲁ̀ ...
+...</td>
+            <td class="coptic" style="border-right: 1px solid black;">Ⲩⲓⲟⲥ Ⲑⲉⲟⲥ Ⲡⲉⲛⲛⲟⲩϯ : ⲙⲟⲓ ⲛⲁⲛ ⲛ̀ⲟⲩⲥⲱϯ : ⲁ̀ⲅⲓⲁ̀...
             </td>
-            <td class="arabic">يا ابن الله إلهنا: أعطنا خلاصاً أيها ...</td>
+            <td class="arabic">يا ابن الله إلهنا: أعطنا خلاصاً أيها...</td>
         </tr>
         <tr id="table_8_row_27" class="south">
-            <td class="english" style="border-right: 1px solid black;">God the Merciful, The Long-suffering, O Holy ...
+            <td class="english" style="border-right: 1px solid black;">God the Merciful, The Long-suffering, O Holy...
             </td>
-            <td class="coptic" style="border-right: 1px solid black;">Ⲫϯ ⲡⲓⲛⲁⲏⲧ: ⲡⲓⲣⲉϥⲱⲟⲩⲛ̀ϩⲏⲧ : ⲁ̀ⲅⲓⲁ̀ ...</td>
-            <td class="arabic">الله الرحوم: طويل الآناة أيها ...</td>
+            <td class="coptic" style="border-right: 1px solid black;">Ⲫϯ ⲡⲓⲛⲁⲏⲧ: ⲡⲓⲣⲉϥⲱⲟⲩⲛ̀ϩⲏⲧ : ⲁ̀ⲅⲓⲁ̀...</td>
+            <td class="arabic">الله الرحوم: طويل الآناة أيها...</td>
         </tr>
         <tr id="table_8_row_28" class="refrain">
             <td class="english" style="border-right: 1px solid black;">My heart and my tongue, praise the Trinity. O
@@ -1847,25 +1846,25 @@ ${htmlRenderScript}
             <td class="arabic">قلبى ولسانى يسبحان الثالوث أيها الثالوث القدوس أرحمنا</td>
         </tr>
         <tr id="table_8_row_29" class="south">
-            <td class="english" style="border-right: 1px solid black;">Holy, Holy, Holy, O Son of the Holy, O Holy ...
+            <td class="english" style="border-right: 1px solid black;">Holy, Holy, Holy, O Son of the Holy, O Holy...
             </td>
             <td class="coptic" style="border-right: 1px solid black;">̀̀̀Ⲭ̀ⲟⲩⲁⲃ ⲭ̀ⲟⲩⲁⲃ ⲭ̀ⲟⲩⲁⲃ : ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫⲏⲉⲑⲟⲩⲁⲃ:
-                ⲁ̀ⲅⲓⲁ̀ ...</td>
-            <td class="arabic">قدوس قدوس قدوس: يا ابن القدوس أيها ...</td>
+                ⲁ̀ⲅⲓⲁ̀...</td>
+            <td class="arabic">قدوس قدوس قدوس: يا ابن القدوس أيها...</td>
         </tr>
         <tr id="table_8_row_30" class="north">
             <td class="english" style="border-right: 1px solid black;">The souls of our fathers, Give rest to them, O
-                Savior, O Holy ...</td>
+                Savior, O Holy...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲯⲩⲭⲏ ⲛ̀ⲛⲉⲛⲓⲟϯ : ⲙⲁⲙ̀ⲧⲟⲛ ⲛⲱⲟⲩ ⲱ̀ ⲡⲓⲣⲉϥⲥⲱϯ : ⲁ̀ⲅⲓⲁ̀
-                ...</td>
-            <td class="arabic">آباؤنا الراقدون: نيحهم أيها المخلص أيها ...</td>
+...</td>
+            <td class="arabic">آباؤنا الراقدون: نيحهم أيها المخلص أيها...</td>
         </tr>
         <tr id="table_8_row_31" class="south">
             <td class="english" style="border-right: 1px solid black;">O our Master remember us, In Your heavenly
-                kingdom, O Holy ...</td>
+                kingdom, O Holy...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲱ ⲡⲉⲛⲛⲏⲃ ⲁ̀ⲣⲓⲡⲉⲛⲙⲉⲩⲓ̀ : ϧⲉⲛ ⲧⲉⲕⲙⲉⲧⲟⲩⲣⲟ ⲛ̀ⲛⲁⲛⲓⲫⲏⲟⲩⲓ
-                : ⲁ̀ⲅⲓⲁ̀ ...</td>
-            <td class="arabic">ياملكنا اذكرنا: فى ملكوتك السماوى أيها ...</td>
+                : ⲁ̀ⲅⲓⲁ̀...</td>
+            <td class="arabic">ياملكنا اذكرنا: فى ملكوتك السماوى أيها...</td>
         </tr>
         <tr id="table_8_row_32" class="refrain">
             <td class="english" style="border-right: 1px solid black;">My heart and my tongue, praise the Trinity. O
@@ -1882,21 +1881,21 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">O give thanks to the Lord: for He is good,
                 Alleluia, His mercy endures forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲟⲩⲱⲛϩ ⲉ̀ⲃⲟⲗ ⲙ̀Ⲡϭⲟⲓⲥ ϫⲉ ⲟⲩⲭ̀ⲣⲏⲥⲧⲟⲥ ⲟⲩⲁ̀ⲅⲁⲑⲟⲥ ⲡⲉ
-                ⲁⲗⲗⲏⲗⲟⲩⲓⲁ̀ : ϫⲉ ⲡⲉϥⲛⲁⲓ ϣⲟⲡ ϣⲁ ⲉ̀ⲛⲉϩ .</td>
+                ⲁⲗⲗⲏⲗⲟⲩⲓⲁ̀ : ϫⲉ ⲡⲉϥⲛⲁⲓ ϣⲟⲡ ϣⲁ ⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">اشكروا الرب لأنـه صالح وخيّر الليلويا. لأن رحمته إلى الأبد.</td>
         </tr>
         <tr id="table_9_row_1" class="south">
             <td class="english" style="border-right: 1px solid black;">O give thanks to the God of gods, Alleluia, His
                 mercy endures forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲟⲩⲱⲛϩ ⲉ̀ⲃⲟⲗ ⲙ̀Ⲫⲛⲟⲩϯ ⲛ̀ⲧⲉ ⲛⲓⲛⲟⲩϯ ⲁⲗ̅: ϫⲉ ⲡⲉϥⲛⲁⲓ ϣⲟⲡ
-                ϣⲁ ⲉ̀ⲛⲉϩ .</td>
+                ϣⲁ ⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">اشكروا إله الآلهة الليلويا. لأن رحمته إلى الأبد.</td>
         </tr>
         <tr id="table_9_row_2" class="north">
             <td class="english" style="border-right: 1px solid black;">O give thanks to the Lord of lords: Alleluia, His
                 mercy endures forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲟⲩⲱⲛϩ ⲉ̀ⲃⲟⲗ ⲙ̀Ⲡϭⲟⲓⲥ ⲛ̀ⲧⲉ ⲛⲓϭⲟⲓⲥ ⲁⲗ̅: ϫⲉ ⲡⲉϥⲛⲁⲓ ϣⲟⲡ
-                ϣⲁ ⲉ̀ⲛⲉϩ .</td>
+                ϣⲁ ⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">اشكروا رب الأرباب الليلويا. لأن رحمته إلى الأبد.</td>
         </tr>
         <tr id="table_9_row_3" class="south">
@@ -1917,35 +1916,35 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">To Him who laid out the earth above the waters:
                 Alleluia, His mercy endures forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲫⲏⲉ̀ⲧⲁϥⲧⲁϫⲣⲟ ⲙ̀ⲡⲓⲕⲁϩⲓ ϩⲓϫⲉⲛ ⲛⲓⲙⲱⲟⲩ ⲁⲗ̅ : ϫⲉ ⲡⲉϥⲛⲁⲓ
-                ϣⲟⲡ ϣⲁ ⲉ̀ⲛⲉϩ .</td>
+                ϣⲟⲡ ϣⲁ ⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">الذى ثبت الأرض على المياه. الليلويا. لأن رحمته إلى الأبد.</td>
         </tr>
         <tr id="table_9_row_6" class="north">
             <td class="english" style="border-right: 1px solid black;">To Him who made great lights: Alleluia, His mercy
                 endures forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲫⲏⲉ̀ⲧⲁϥⲑⲁⲙⲓⲟ ⲛ̀ϩⲁⲛⲛⲓϣϯ ⲛ̀ⲣⲉϥⲉ̀ⲣⲟⲩⲱⲓⲛⲓ ⲙ̀ⲙⲁⲩⲁⲧϥ ⲁⲗ̅
-                : ϫⲉ ⲡⲉϥⲛⲁⲓ ϣⲟⲡ ϣⲁ ⲉ̀ⲛⲉϩ .</td>
+                : ϫⲉ ⲡⲉϥⲛⲁⲓ ϣⲟⲡ ϣⲁ ⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">الذي خلق نيرين عظيمين وحده الليلويا. لأن رحمته إلى الأبد.</td>
         </tr>
         <tr id="table_9_row_7" class="south">
             <td class="english" style="border-right: 1px solid black;">The sun to rule by day: Alleluia, His mercy
                 endures forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">˙Ⲫⲣⲏ ⲉ̀ⲟⲩⲉⲣϣⲓϣⲓ ⲛ̀ⲧⲉ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲁⲗ̅ : ϫⲉ ⲡⲉϥⲛⲁⲓ ϣⲟⲡ
-                ϣⲁ ⲉ̀ⲛⲉϩ .</td>
+                ϣⲁ ⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">الشمس لحكم النهار. الليلويا لأن رحمته إلى الأبد.</td>
         </tr>
         <tr id="table_9_row_8" class="north">
             <td class="english" style="border-right: 1px solid black;">The moon and stars to rule by night: Alleluia,
                 His mercy endures forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲡⲓⲓⲟϩ ⲛⲉⲙ ⲛⲓⲥⲓⲟⲩ ⲉⲩⲉⲝⲟⲩⲥⲓⲁ̀ ⲛ̀ⲧⲉ ⲡⲓⲉ̀ϫⲱⲣϩ ⲁⲗ̅ : ϫⲉ
-                ⲡⲉϥⲛⲁⲓ ϣⲟⲡ ϣⲁ ⲉ̀ⲛⲉϩ .</td>
+                ⲡⲉϥⲛⲁⲓ ϣⲟⲡ ϣⲁ ⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">القمر والنجوم لحكم الليل الليلويا لأن رحمته إلى الأبد.</td>
         </tr>
         <tr id="table_9_row_9" class="south">
             <td class="english" style="border-right: 1px solid black;">To Him who struck Egypt in their first-born:
                 Alleluia, His mercy endures forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲫⲏⲉ̀ⲧⲁϥϣⲁⲣⲓ ⲉ̀ⲛⲁⲬⲏⲙⲓ ⲛⲉⲙ ⲛⲟⲩϣⲁⲙⲓⲥⲓ ⲁⲗ̅ : ϫⲉ ⲡⲉϥⲛⲁⲓ
-                ϣⲟⲡ ϣⲁ ⲉ̀ⲛⲉϩ .</td>
+                ϣⲟⲡ ϣⲁ ⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">الذى ضرب المصريين مع أبكارهم الليلويا لأن رحمته إلى الأبد.</td>
         </tr>
         <tr id="table_9_row_10" class="north">
@@ -1966,21 +1965,21 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">To Him who divided the Red Sea in two: Alleluia,
                 His mercy endures forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲫⲏⲉ̀ⲧⲁϥⲫⲱⲣϫ ⲙ̀ⲫ̀ⲓⲟⲙ ⲛ̀ϣⲁⲣⲓ ϧⲉⲛ ϩⲁⲛⲫⲱⲣϫ ⲁⲗ̅: ϫⲉ
-                ⲡⲉϥⲛⲁⲓ ϣⲟⲡ ϣⲁ ⲉ̀ⲛⲉϩ .</td>
+                ⲡⲉϥⲛⲁⲓ ϣⲟⲡ ϣⲁ ⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">الذى شق البحر الأحمر إلى أقسام الليلويا لأن رحمته إلى الأبد.</td>
         </tr>
         <tr id="table_9_row_13" class="south">
             <td class="english" style="border-right: 1px solid black;">And made Israel pass through the midst of it:
                 Alleluia, His mercy endures forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲟⲩⲟϩ ⲁϥⲓ̀ⲛⲓ ⲙ̀Ⲡⲓⲥⲣⲁⲏⲗ ⲉ̀ⲙⲏⲣ ϧⲉⲛ ⲧⲉϥⲙⲏϯ ⲁⲗ̅ : ϫⲉ
-                ⲡⲉϥⲛⲁⲓ ϣⲟⲡ ϣⲁ ⲉ̀ⲛⲉϩ .</td>
+                ⲡⲉϥⲛⲁⲓ ϣⲟⲡ ϣⲁ ⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">وأجاز إسرائيل في وسطه الليلويا لأن رحمته إلى الأبد.</td>
         </tr>
         <tr id="table_9_row_14" class="north">
             <td class="english" style="border-right: 1px solid black;">But overthrew pharaoh and his army in the Red
                 Sea: Alleluia, His mercy endures forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲟⲩⲟϩ ⲁϥⲃⲟⲣⲃⲉⲣ ⲙ̀Ⲫⲁⲣⲁⲱ̀ ⲛⲉⲙ ⲧⲉϥϫⲟⲙ ⲧⲏⲣⲥ ⲉ̀ⲫ̀ⲓⲟⲙ
-                ⲛ̀ϣⲁⲣⲓ ⲁⲗ̅ : ϫⲉ ⲡⲉϥⲛⲁⲓ ϣⲟⲡ ϣⲁ ⲉ̀ⲛⲉϩ .</td>
+                ⲛ̀ϣⲁⲣⲓ ⲁⲗ̅ : ϫⲉ ⲡⲉϥⲛⲁⲓ ϣⲟⲡ ϣⲁ ⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">وطرح فرعون وكل قوته في البحر الأحمر الليلويا لأن رحمته إلى الأبد.</td>
         </tr>
         <tr id="table_9_row_15" class="south">
@@ -2001,70 +2000,70 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">To Him who struck down great kings: Alleluia, His
                 mercy endures forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲫⲏⲉ̀ⲧⲁϥϣⲁⲣⲓ ⲉ̀ϩⲁⲛⲛⲓϣϯ ⲛ̀ⲟⲩⲣⲱⲟⲩ ⲁⲗ̅ : ϫⲉ ⲡⲉϥⲛⲁⲓ ϣⲟⲡ
-                ϣⲁ ⲉ̀ⲛⲉϩ .</td>
+                ϣⲁ ⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">الذى ضرب ملوكاً عظماء. الليلويا لأن رحمته إلى الأبد.</td>
         </tr>
         <tr id="table_9_row_18" class="north">
             <td class="english" style="border-right: 1px solid black;">And slew famous kings: Alleluia, His mercy
                 endures forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲟⲩⲟϩ ⲁϥϧⲱⲧⲉⲃ ⲛ̀ϩⲁⲛⲟⲩⲣⲱⲟⲩ ⲉⲩⲟⲓ ⲛ̀ϣ̀ⲫⲏⲣⲓ ⲁⲗ̅ : ϫⲉ
-                ⲡⲉϥⲛⲁⲓ ϣⲟⲡ ϣⲁ ⲉ̀ⲛⲉϩ .</td>
+                ⲡⲉϥⲛⲁⲓ ϣⲟⲡ ϣⲁ ⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">وقتل ملوكاً عجيبين: الليلويا لأن رحمته إلى الأبد.</td>
         </tr>
         <tr id="table_9_row_19" class="south">
             <td class="english" style="border-right: 1px solid black;">Sihon the king of the Amorites: Alleluia, His
                 mercy endures forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲥⲏⲱⲛ ⲡ̀ⲟⲩⲣⲟ ⲛ̀ⲧⲉ Ⲛⲓⲁⲙⲟⲣⲣⲉⲟⲥ ⲁⲗ̅ : ϫⲉ ⲡⲉϥⲛⲁⲓ ϣⲟⲡ ϣⲁ
-                ⲉ̀ⲛⲉϩ .</td>
+                ⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">سيحون ملك الأموريين الليلويا لأن رحمته إلى الأبد.</td>
         </tr>
         <tr id="table_9_row_20" class="north">
             <td class="english" style="border-right: 1px solid black;">And Og the king of Bashan: Alleluia, His mercy
                 endures forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲛⲉⲙ Ⲱⲅ ⲡ̀ⲟⲩⲣⲟ ⲛ̀ⲧⲉ Ⲑ̀ⲃⲁⲥⲁⲛ ⲁⲗ̅ : ϫⲉ ⲡⲉϥⲛⲁⲓ ϣⲟⲡ ϣⲁ
-                ⲉ̀ⲛⲉϩ .</td>
+                ⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">وعوج ملك باشان الليلويا لأن رحمته إلى الأبد.</td>
         </tr>
         <tr id="table_9_row_21" class="south">
             <td class="english" style="border-right: 1px solid black;">And gave their land as a heritage: Alleluia, His
                 mercy endures forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲁϥϯ ⲙ̀ⲡⲟⲩⲕⲁϩⲓ ⲉⲩⲕ̀ⲗⲏⲣⲟⲛⲟⲙⲓⲁ̀ ⲁⲗ̅ : ϫⲉ ⲡⲉϥⲛⲁⲓ ϣⲟⲡ
-                ϣⲁ ⲉ̀ⲛⲉϩ .</td>
+                ϣⲁ ⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">اعطى أرضهم ميراثاً: الليلويا لأن رحمته إلى الأبد.</td>
         </tr>
         <tr id="table_9_row_22" class="north">
             <td class="english" style="border-right: 1px solid black;">A heritage to Israel His servant: Alleluia, His
                 mercy endures forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲉⲩⲕ̀ⲗⲏⲣⲟⲛⲟⲙⲓⲁ̀ ⲙ̀ⲡⲉϥ ⲃⲱⲕ Ⲡⲓⲥ̀ⲣⲁⲏⲗ: ϫⲉ ⲡⲉϥⲛⲁⲓ ϣⲟⲡ
-                ϣⲁ ⲉ̀ⲛⲉϩ .</td>
+                ϣⲁ ⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">ميراثاً لعبده إسرائيل :الليلويا لأن رحمته إلى الأبد.</td>
         </tr>
         <tr id="table_9_row_23" class="south">
             <td class="english" style="border-right: 1px solid black;">The Lord who remembered us in our lowly state:
                 Alleluia, His mercy endures forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲛϩ̀ⲣⲏⲓ ϧⲉⲛ ⲡⲉⲛⲑⲉⲃⲓⲟ̀ ⲁϥⲉⲣⲡⲉⲛⲙⲉⲩⲓ̀ ⲛ̀ϫⲉ Ⲡϭⲟⲓⲥ ⲁⲗ̅
-                : ϫⲉ ⲡⲉϥⲛⲁⲓ ϣⲟⲡ ϣⲁ ⲉ̀ⲛⲉϩ .</td>
+                : ϫⲉ ⲡⲉϥⲛⲁⲓ ϣⲟⲡ ϣⲁ ⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">في تواضعنا ذكرنا الرب الليلويا: لأن رحمته إلى الأبد.</td>
         </tr>
         <tr id="table_9_row_24" class="north">
             <td class="english" style="border-right: 1px solid black;">And rescued us from our enemies: Alleluia, His
                 mercy endures forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲟⲩⲟϩ ⲁϥⲥⲟⲧⲧⲉⲛ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲉⲛϫⲓϫ ⲛ̀ⲧⲉ ⲛⲉⲛϫⲁϫⲓ ⲁⲗ̅ :
-                ϫⲉ ⲡⲉϥⲛⲁⲓ ϣⲟⲡ ϣⲁ ⲉ̀ⲛⲉϩ .</td>
+                ϫⲉ ⲡⲉϥⲛⲁⲓ ϣⲟⲡ ϣⲁ ⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">و خلصنا من أيدى أعدائنا الليلويا لأن رحمته إلى الأبد.</td>
         </tr>
         <tr id="table_9_row_25" class="south">
             <td class="english" style="border-right: 1px solid black;">Who gives food to all flesh: Alleluia, His mercy
                 endures forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲫⲏⲉⲧϯ ϧ̀ⲣⲉ ⲛ̀ⲥⲁⲣⲝ ⲛⲓⲃⲉⲛ ⲉⲧⲟⲛϧ ⲁⲗ̅ : ϫⲉ ⲡⲉϥⲛⲁⲓ ϣⲟⲡ
-                ϣⲁ ⲉ̀ⲛⲉϩ .</td>
+                ϣⲁ ⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">الذى يعطى طعاماً لكل جسد حي الليلويا لأن رحمته إلى الأبد.</td>
         </tr>
         <tr id="table_9_row_26" class="north">
             <td class="english" style="border-right: 1px solid black;">O give thanks to the God of heaven: Alleluia, His
                 mercy endures forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲟⲩⲱ̀ⲛϩ ⲉ̀ⲃⲟⲗ ⲙ̀Ⲫϯ ⲛ̀ⲧⲉ ⲧ̀ⲫⲉ ⲁⲗ̅ : ϫⲉ ⲡⲉϥⲛⲁⲓ ϣⲟⲡ ϣⲁ
-                ⲉ̀ⲛⲉϩ .</td>
+                ⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">احمدوا إله السماء الليلويا لأن رحمته إلى الأبد.</td>
         </tr>
         <tr id="table_9_row_27" class="south">
@@ -2089,7 +2088,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">For He has made the heavens: and all its hosts:
                 and established the earth: on the waters.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ϫⲉ ⲁϥⲑⲁⲙⲓⲟ̀ ⲛ̀ⲛⲓⲫⲏⲟⲩⲓ̀ : ⲛⲉⲙ ⲛⲟⲩⲇⲩⲛⲁⲙⲓⲥ : ⲁϥϩⲓⲥⲉⲛϯ
-                ⲙ̀ⲡⲓⲕⲁϩⲓ : ⲉ̀ϩ̀ⲣⲏⲓ ϩⲓϫⲉⲛ ⲛⲓⲙⲱⲟⲩ .</td>
+                ⲙ̀ⲡⲓⲕⲁϩⲓ : ⲉ̀ϩ̀ⲣⲏⲓ ϩⲓϫⲉⲛ ⲛⲓⲙⲱⲟⲩ.</td>
             <td class="arabic">لأنه خلق السموات وجنودها وأسس الأرض على المياه.</td>
         </tr>
         <tr id="table_10_row_2" class="north">
@@ -2117,7 +2116,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">He brought forth water: out of a rock: and gave
                 it to His people: in the wilderness.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲁϥⲓ̀ⲛⲓ ⲛ̀ⲟⲩⲙⲱⲟⲩ : ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲟⲩⲡⲉⲧⲣⲁ : ⲁϥⲧ̀ⲥⲟ
-                ⲙ̀ⲡⲉϥⲗⲁⲟⲥ : ⲛ̀ϩ̀ⲣⲏⲓ ϩⲓ ⲡ̀ϣⲁϥⲉ .</td>
+                ⲙ̀ⲡⲉϥⲗⲁⲟⲥ : ⲛ̀ϩ̀ⲣⲏⲓ ϩⲓ ⲡ̀ϣⲁϥⲉ.</td>
             <td class="arabic">أخرج ماء من صخرة وسقى شعبه في البرية.</td>
         </tr>
         <tr id="table_10_row_6" class="north">
@@ -3469,28 +3468,28 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Bless the Lord, O heaven: Praise Him and exalt
                 Him above all forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲛⲓⲫⲏⲟⲩⲓ̀ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ
-                ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ .</td>
+                ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">باركى الرب ايتها السموات سبّحيه وزيديه علواً إلى الآباد.</td>
         </tr>
         <tr id="table_16_row_8" class="north">
             <td class="english" style="border-right: 1px solid black;">Bless the Lord, all you angels of the Lord:
                 Praise Him and exalt Him above all forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲛⲓⲁⲅⲅⲉⲗⲟⲥ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ Ⲡϭⲟⲓⲥ : ϩⲱⲥ
-                ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ .</td>
+                ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">باركوا الرب يا جميع ملائكة الرب سبّحوه وزيدوه علواً إلى الآباد.</td>
         </tr>
         <tr id="table_16_row_9" class="south">
             <td class="english" style="border-right: 1px solid black;">Bless the Lord, all you waters above the heaven:
                 Praise Him and exalt Him above all forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲛⲓⲙⲱⲟⲩ ⲧⲏⲣⲟⲩ ⲉⲧⲥⲁ ⲡ̀ϣⲱⲓ ⲛ̀ⲧ̀ⲫⲉ : ϩⲱⲥ
-                ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ .</td>
+                ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">باركى الرب يا جميع المياه التي فوق السماء سبّحيـه وزيديه علواً إلى الآباد.</td>
         </tr>
         <tr id="table_16_row_10" class="north">
             <td class="english" style="border-right: 1px solid black;">Bless the Lord, all you powers of the Lord:
                 Praise Him and exalt Him above all forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲛⲓϫⲟⲙ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ Ⲡϭⲟⲓⲥ : ϩⲱⲥ ⲉ̀ⲣⲟϥ
-                ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ .</td>
+                ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">باركا الرب يا جميع قوات الرب سبّحيه وزيديه علواً إلى الآباد.</td>
         </tr>
         <tr id="table_16_row_11" class="south">
@@ -3504,7 +3503,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Bless the Lord, all ye stars of heaven: Praise
                 Him and exalt Him above all forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲛⲓⲥⲓⲟⲩ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲧ̀ⲫⲉ : ϩⲱⲥ ⲉ̀ⲣⲟϥ
-                ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ .</td>
+                ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">باركي الرب ياسائر نجوم السماء سبّحيه وزيديه علواً إلى الآباد.</td>
         </tr>
         <tr id="table_16_row_13" class="south">
@@ -3539,7 +3538,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Bless the Lord, O cold and heat: Praise Him and
                 exalt Him above all forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲡⲓⲱ̀ϫⲉⲃ ⲛⲉⲙ ⲡⲓⲕⲁⲩⲥⲱⲛ : ϩⲱⲥ ⲉ̀ⲣⲟϥ
-                ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ .</td>
+                ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">باركا الرب أيها البرد والحر سبّحاه وزيداه علواً إلى الآباد.</td>
         </tr>
         <tr id="table_16_row_18" class="north">
@@ -3581,21 +3580,21 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Bless the Lord, O you lightnings and clouds:
                 Praise Him and exalt Him above all forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲛⲓⲥⲉⲧⲉⲃⲣⲏϫ ⲛⲉⲙ ⲛⲓϭⲏⲡⲓ: ϩⲱⲥ ⲉ̀ⲣⲟϥ
-                ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ .</td>
+                ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">باركي الرب أيتها البروق والسحب سبّحيه وزيديه علواً إلى الآباد.</td>
         </tr>
         <tr id="table_16_row_24" class="north">
             <td class="english" style="border-right: 1px solid black;">Bless the Lord, all the earth: Praise Him and
                 exalt Him above all forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲡⲓⲕⲁϩⲓ ⲧⲏⲣϥ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀
-                ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ .</td>
+                ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">باركي الرب أيتها الأرض كلها سبّحيه وزيديه علواً إلى الآباد.</td>
         </tr>
         <tr id="table_16_row_25" class="south">
             <td class="english" style="border-right: 1px solid black;">Bless the Lord, O you mountains and all hills:
                 Praise Him and exalt Him above all forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲛⲓⲧⲱⲟⲩ ⲛⲉⲙ ⲛⲓⲕⲁⲗⲁⲙⲫⲱⲟⲩ ⲧⲏⲣⲟⲩ : ϩⲱⲥ
-                ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ .</td>
+                ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">باركي الرب أيتها الجبال وجميع الآكام سبّحيه وزيديه علواً إلى الآباد.</td>
         </tr>
         <tr id="table_16_row_26" class="north">
@@ -3609,7 +3608,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Bless the Lord, O you fountains: Praise Him and
                 exalt Him above all forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲛⲓⲙⲟⲩⲙⲓ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ
-                ⲛⲓⲉ̀ⲛⲉϩ .</td>
+                ⲛⲓⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">باركي الرب أيتها الينابيع سبّحيه وزيديه علواً إلى الآباد.</td>
         </tr>
         <tr id="table_16_row_28" class="north">
@@ -3630,14 +3629,14 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Bless the Lord, all you birds of the sky: Praise
                 Him and exalt Him above all forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲛⲓϩⲁⲗⲁϯ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲧ̀ⲫⲉ : ϩⲱⲥ ⲉ̀ⲣⲟϥ
-                ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ .</td>
+                ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">باركي الرب يا جميع طيور السماء سبّحيه وزيديه علواً إلى الآباد.</td>
         </tr>
         <tr id="table_16_row_31" class="south">
             <td class="english" style="border-right: 1px solid black;">Bless the Lord, all you wild beasts and cattle:
                 Praise Him and exalt Him above all forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲛⲓⲑⲏⲣⲓⲟⲛ ⲛⲉⲙ ⲛⲓⲧⲉⲃⲛⲱⲟⲩⲓ̀ ⲧⲏⲣⲟⲩ : ϩⲱⲥ
-                ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ .</td>
+                ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">باركي الرب أيتها الوحوش وكل البهائم سبّحيه وزيديه علواً إلى الآباد.</td>
         </tr>
         <tr id="table_16_row_32" class="north">
@@ -3651,7 +3650,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Bless the Lord, O Israel: Praise Him and exalt
                 Him above all forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ Ⲡⲓⲥ̀ⲣⲁⲏⲗ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ
-                ⲛⲓⲉ̀ⲛⲉϩ .</td>
+                ⲛⲓⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">بارك الرب يا اسرائيل سبّحه وزيده علواً إلى الآباد.</td>
         </tr>
         <tr id="table_16_row_34" class="north">
@@ -3693,7 +3692,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Bless the Lord, O you who worship the Lord, the
                 God of our fathers: Praise ye Him and exalt Him above all forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲛⲏⲉⲧⲉⲣⲥⲉⲃⲉⲥⲑⲉ ⲙ̀Ⲡϭⲟⲓⲥ Ⲫϯ ⲛ̀ⲧⲉ ⲛⲉⲛⲓⲟϯ
-                : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ .</td>
+                : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">باركوا الرب ياعابدي الرب اله آبائنا سبّحوه وزيدوه علواً إلى الآباد.</td>
         </tr>
     </table>
@@ -3728,7 +3727,7 @@ ${htmlRenderScript}
                 has lifted, and from the devil has delivered, Praise Him and exalt Him above all.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲇⲉⲩⲧⲉ ϩⲁⲣⲟⲛ ⲱ̀ ⲡⲓϣⲟⲙⲧ ⲛ̀ⲁ̀ⲗⲟⲩ : ⲉ̀ⲧⲁ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ
                 Ⲡⲉⲛⲛⲟⲩϯ ⲟ̀ⲗⲟⲩ : ⲁϥⲛⲁϩⲙⲟⲩ ⲉ̀ⲃⲟⲗϩⲁ ⲡⲓⲇⲓⲁ̀ⲃⲟⲗⲟⲩ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
-            <td class="arabic">هلمّ إلينا أيها الثلاثة فتية الذين رفعهم المسيح إلهنا وأنقذهم من ابليس . سبّحوه وزيدوه
+            <td class="arabic">هلمّ إلينا أيها الثلاثة فتية الذين رفعهم المسيح إلهنا وأنقذهم من ابليس. سبّحوه وزيدوه
                 علواً.</td>
         </tr>
         <tr id="table_17_row_4" class="north">
@@ -3750,14 +3749,14 @@ ${htmlRenderScript}
                 proclaim with the voice of joy, Praise Him and exalt Him above all.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲏⲡⲡⲉ ⲅⲁⲣ ⲓⲥ Ⲉⲙⲙⲁⲛⲟⲩⲏⲗ: ϩⲓⲧⲉⲛ ⲙⲏϯ ⲱ̀ Ⲙⲓⲥⲁⲏⲗ: ⲗⲁⲗⲓ
                 ϧⲉⲛ ⲟⲩⲥ̀ⲙⲏ ⲛ̀ⲑⲉⲗⲏⲗ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
-            <td class="arabic">فها هوذا عمانوئيل فى وسطنا يا ميصائيل تكلم بصوت التهليل . سبّحه وزده علواً.</td>
+            <td class="arabic">فها هوذا عمانوئيل فى وسطنا يا ميصائيل تكلم بصوت التهليل. سبّحه وزده علواً.</td>
         </tr>
         <tr id="table_17_row_7" class="south">
             <td class="english" style="border-right: 1px solid black;">Gather now and persevere, and proclaim with the
                 priests, bless the Lord all His works, Praise Him and exalt Him above all.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲑⲱⲟⲩϯ ϯⲛⲟⲩ ⲕⲁⲧⲁⲭⲓⲛ ⲧⲏⲣⲟⲩ: ⲥⲁϫⲓ ⲛⲉⲙ ⲛⲓⲡ̀ⲣⲉⲥⲃⲩⲧⲏⲣⲟⲩ:
                 ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲛⲉϥϩ̀ⲃⲏⲟⲩⲓ̀ ⲧⲏⲣⲟⲩ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
-            <td class="arabic">اجتمعوا وثابروا جميعاً . تكلموا مع القسوس وسبّحى الرب ياجميع أعماله سبّحوه وزيدوه علواً.
+            <td class="arabic">اجتمعوا وثابروا جميعاً. تكلموا مع القسوس وسبّحى الرب ياجميع أعماله سبّحوه وزيدوه علواً.
             </td>
         </tr>
         <tr id="table_17_row_8" class="north">
@@ -3765,7 +3764,7 @@ ${htmlRenderScript}
                 day, O you angels whom He has made, Praise Him and exalt Him above all.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲓⲥ ⲛⲓⲫⲏⲟⲩⲓ̀ ⲥⲉⲥⲁϫⲓ ⲙ̀ⲡ̀ⲱ̀ⲟⲩ: ⲙ̀Ⲫⲛⲟⲩϯ ϣⲁ ⲉ̀ϧⲟⲩⲛ
                 ⲙ̀ⲫⲟⲟⲩ: ⲱ̀ ⲛⲓⲁⲅⲅⲉⲗⲟⲥ ⲉ̀ⲧⲁϥϫ̀ⲫⲱⲟⲩ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
-            <td class="arabic">ها السموات تنطق بمجد الله الى هذا اليوم . يا أيها الملائكة الذين أنشأهم سبحوه وزيدوه
+            <td class="arabic">ها السموات تنطق بمجد الله الى هذا اليوم. يا أيها الملائكة الذين أنشأهم سبحوه وزيدوه
                 علواً</td>
         </tr>
         <tr id="table_17_row_9" class="south">
@@ -3781,7 +3780,7 @@ ${htmlRenderScript}
                 our Savior, for He is God of our fathers, Praise Him and exalt Him above all.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲗⲟⲓⲡⲟⲛ ⲛⲓⲙⲟⲩⲛ̀ϩⲱⲟⲩ ⲛⲉⲙ ⲛⲓⲓⲱϯ: ⲉⲩⲫⲏⲙⲓⲥⲁⲧⲉ
                 ⲡⲉⲛⲣⲉϥⲥⲱϯ: ϫⲉ ⲛ̀ⲑⲟϥ ⲡⲉ Ⲫⲛⲟⲩϯ ⲛ̀ⲧⲉ ⲛⲉⲛⲓⲟϯ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
-            <td class="arabic">وأيضا ايتها الأمطار والأنداء امدحى مخلصنا لأنه هو اله آبائنا . سبحيه وزيديه علواً.</td>
+            <td class="arabic">وأيضا ايتها الأمطار والأنداء امدحى مخلصنا لأنه هو اله آبائنا. سبحيه وزيديه علواً.</td>
         </tr>
         <tr id="table_17_row_11" class="south">
             <td class="english" style="border-right: 1px solid black;">Glorify the Lord O clouds and winds, together
@@ -3841,7 +3840,7 @@ ${htmlRenderScript}
                 joyful voice, all you priests of Emmanuel, Praise Him and exalt Him above all.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲓⲙⲏ ⲕⲉ ⲇⲟⲝⲁ ⲱ̀ Ⲡⲓⲥⲣⲁⲏⲗ ⲓ̀ⲛⲓ ⲛⲁϩⲣⲁϥ ϧⲉⲛ ⲟⲩⲥ̀ⲙⲏ
                 ⲛ̀ⲑⲉⲗⲏⲗ: ⲛⲓⲟⲩⲏⲃ ⲛ̀ⲧⲉ Ⲉⲙⲙⲁⲛⲟⲩⲏⲗ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
-            <td class="arabic">مجداً وإكراماً قدم أمامه يا اسرائيل بصوت التهليل . يا كهنة عمانوئيل سبّحوه وزيدوه علواً.
+            <td class="arabic">مجداً وإكراماً قدم أمامه يا اسرائيل بصوت التهليل. يا كهنة عمانوئيل سبّحوه وزيدوه علواً.
             </td>
         </tr>
         <tr id="table_17_row_19" class="south">
@@ -4166,7 +4165,7 @@ ${htmlRenderScript}
             </td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲉⲛⲉⲛ ⲟⲑⲉⲛ ⲑⲩⲥⲓⲁⲛ ⲕⲉ ⲧⲏⲛ ⲗⲟⲅⲓⲕⲏⲛ ⲗⲁⲧⲣⲓⲁⲛ :
                 ⲁ̀ⲛⲁⲡⲉⲙⲡⲱⲙⲉⲛ ⲥⲉⲁⲩⲧⲱ ⲥⲏⲙⲉⲣⲟⲛ ⲱ̀ⲇⲁⲥ : ⲡ̀ⲣⲟⲥ ⲇⲟⲝⲁ ⲥⲟⲩ ⲥⲱⲧⲏⲣ ⲏ̀ⲙⲱⲛ : ̀ Ⲁⲛⲁⲛⲓⲁⲥ ̀Ⲁ̀ⲍⲁⲣⲓⲁⲥ ⲕⲉ Ⲙⲓⲥⲁⲏⲗ.</td>
-            <td class="arabic">فمن ثم نقدم الذبيحة والعبادة العقلية . ونرسل لك في هذا اليوم التسابيح لدى مجدك يا مخلصنا.
+            <td class="arabic">فمن ثم نقدم الذبيحة والعبادة العقلية. ونرسل لك في هذا اليوم التسابيح لدى مجدك يا مخلصنا.
                 حنانيا وعزاريا وميصائيل.</td>
         </tr>
         <tr id="table_19_row_1" class="south">
@@ -4193,35 +4192,35 @@ ${htmlRenderScript}
                 You, and we seek Your face, O God do not forsake us.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲉⲛⲟⲩⲉϩ ⲛ̀ⲥⲱⲕ ϧⲉⲛ ⲡⲉⲛϩⲏⲧ ⲧⲏⲣϥ : ⲧⲉⲛⲉⲣϩⲟϯ ϧⲁⲧⲉⲕϩⲏ :
                 ⲟⲩⲟϩ ⲧⲉⲛⲕⲱϯ ⲛ̀ⲥⲁ ⲡⲉⲕϩⲟ : Ⲫϯ ⲙ̀ⲡⲉⲣϯϣⲓⲡⲓ ⲛⲁⲛ.</td>
-            <td class="arabic">نتبعــــــــك بكل قلوبنا ونخافـــــك ونطلب وجهك يا الله لا تخزنا .</td>
+            <td class="arabic">نتبعــــــــك بكل قلوبنا ونخافـــــك ونطلب وجهك يا الله لا تخزنا.</td>
         </tr>
         <tr id="table_20_row_1" class="south">
             <td class="english" style="border-right: 1px solid black;">But rather deal with us, according to Your
                 meekness, and according to Your great mercy, O Lord help us.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲁⲗⲗⲁ ⲁ̀ⲣⲓⲟⲩⲓ̀ ⲛⲉⲙⲁⲛ : ⲕⲁⲧⲁ ⲧⲉⲕⲙⲉⲧⲉ̀ⲡⲓⲕⲏⲥ : ⲛⲉⲙ
                 ⲕⲁⲧⲁ ⲡ̀ⲁ̀ϣⲁⲓ ⲛ̀ⲧⲉ ⲡⲉⲕⲛⲁⲓ : Ⲡϭⲟⲓⲥ ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲛ.</td>
-            <td class="arabic">بل إصنع معنا بحسب دعتــــــــك وكثرة رحمتك يارب أعنّا .</td>
+            <td class="arabic">بل إصنع معنا بحسب دعتــــــــك وكثرة رحمتك يارب أعنّا.</td>
         </tr>
         <tr id="table_20_row_2" class="north">
             <td class="english" style="border-right: 1px solid black;">May our prayers ascend unto You, O our Master,
                 like burnt offerings of lambs, and fatted calves.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲙⲁⲣⲉ ⲧⲉⲛⲡ̀ⲣⲟⲥⲉⲩⲭⲏ ⲡⲉⲛⲛⲏⲃ : ⲓ̀ ⲉ̀ⲡ̀ϣⲱⲓ ⲙ̀ⲡⲉⲕⲙ̀ⲑⲟ :
                 ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ϩⲁⲛϭ̀ⲗⲓⲗ ⲛ̀ⲧⲉ ϩⲁⲛⲱⲓⲗⲓ: ⲛⲉⲙ ϩⲁⲛⲙⲁⲥⲓ ⲉⲩⲕⲉⲛⲓⲱ̀ⲟⲩⲧ.</td>
-            <td class="arabic">فلتصعد صلاتنا أمامك يا سيدنا مثــــل محرقات كباش وعجــــول سمان .</td>
+            <td class="arabic">فلتصعد صلاتنا أمامك يا سيدنا مثــــل محرقات كباش وعجــــول سمان.</td>
         </tr>
         <tr id="table_20_row_3" class="south">
             <td class="english" style="border-right: 1px solid black;">Do not forget the covenant, Which You have made
                 with our fathers, Abraham, Isaac, and Jacob. Israel, Your Holy one.</td>
             <td class="coptic" style="border-right: 1px solid black;">˙Ⲙⲡⲉⲣⲉⲣⲡ̀ⲱⲃϣ ⲛ̀ϯⲇⲓⲁ̀ⲑⲏⲕⲏ : ⲑⲏⲉ̀ⲧⲁⲕⲥⲉⲙⲛⲏⲧⲥ ⲛⲉⲙ
                 ⲛⲉⲛⲓⲟϯ : Ⲁⲃⲣⲁⲁⲙ Ⲓⲥⲁⲁⲕ Ⲓⲁⲕⲱⲃ : Ⲡⲓⲥ̀ⲣⲁⲏⲗ ⲡⲉⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲁⲕ.</td>
-            <td class="arabic">لا تنـــــــس العهد الذى قطعته مع آبائنا ابراهيم واسحق ويعقوب اسرائيل قديسك .</td>
+            <td class="arabic">لا تنـــــــس العهد الذى قطعته مع آبائنا ابراهيم واسحق ويعقوب اسرائيل قديسك.</td>
         </tr>
         <tr id="table_20_row_4" class="north">
             <td class="english" style="border-right: 1px solid black;">Bless the Lord all you nations; the tribes and
                 all kinds of tongues. praise Him and glorify Him, above all forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲛⲓⲗⲁⲟⲥ ⲧⲏⲣⲟⲩ : ⲛⲓⲫⲩⲗⲏ ⲛⲓⲁⲥⲡⲓ ⲛ̀ⲗⲁⲥ
                 : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲙⲁⲱ̀ⲟⲩ ⲛⲁϥ : ⲁ̀ⲣⲓϩⲟⲓⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
-            <td class="arabic">باركوا الرب ياجميع الشعوب والقبائل ولغات الالسن سبحوه ومجدوه وزيدوه علواً إلى الآباد .
+            <td class="arabic">باركوا الرب ياجميع الشعوب والقبائل ولغات الالسن سبحوه ومجدوه وزيدوه علواً إلى الآباد.
             </td>
         </tr>
         <tr id="table_20_row_5" class="south">
@@ -4229,7 +4228,7 @@ ${htmlRenderScript}
                 children, Sedrach, Misach and Abednego, that He may forgive us our sins.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲱ̀ ⲡⲓϣⲟⲙⲧ ⲛ̀ⲁ̀ⲗⲟⲩ
                 ⲛ̀ⲁ̀ⲅⲓⲟⲥ : Ⲥⲉⲇⲣⲁⲕ Ⲙⲓⲥⲁⲕ Ⲁⲃⲇⲉⲛⲁⲅⲱ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.</td>
-            <td class="arabic">أطلبوا من الرب عنا أيها الثلاثة فتية القديسين سدراك وميساك وابدناغو ليغفر لنا خطايانا .
+            <td class="arabic">أطلبوا من الرب عنا أيها الثلاثة فتية القديسين سدراك وميساك وابدناغو ليغفر لنا خطايانا.
             </td>
         </tr>
     </table>
@@ -4241,7 +4240,7 @@ ${htmlRenderScript}
                 Mother of God, Mary, the Mother of our Savior, That He may forgive us our sins.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲁ ⲣⲓⲡ̀ⲣⲉⲥⲃⲉⲩⲓⲛ ⲉ̀ϩ̀ⲣⲏⲓ : ⲱ̀ ⲧⲉⲛϭⲟⲓⲥ ⲛ̀ⲛⲏⲃ ⲧⲏⲣⲉⲛ
                 ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ : Ⲙⲁⲣⲓⲁ ⲑ̀ⲙⲁⲩ ⲙ̀Ⲡⲉⲛⲥⲱⲧⲏⲣ : ⲛ̀ⲧⲉϥ ⲭⲁ ⲛⲉⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.</td>
-            <td class="arabic">إشفعى فينا يا سيدتنا كلنا السيدة والدة الإله مريم ام مخلصنا ليغفرلنا خطايانا .</td>
+            <td class="arabic">إشفعى فينا يا سيدتنا كلنا السيدة والدة الإله مريم ام مخلصنا ليغفرلنا خطايانا.</td>
         </tr>
         <tr id="table_21_row_1" class="south">
             <td class="english" style="border-right: 1px solid black;">Intercede on our behalf, O holy archangels,
@@ -4254,281 +4253,281 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Intercede on our behalf, O holy archangels,
                 Raphael and Souriel That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲁⲣⲓⲡ̀ⲣⲉⲥⲃⲉⲩⲓⲛ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲱ̀ ⲛⲓⲁⲣⲭⲏⲁⲅⲅⲉⲗⲟⲥ
-                ⲉⲑⲟⲩⲁⲃ : Ⲣⲁⲫⲁⲏⲗ ⲛⲉⲙ Ⲥⲟⲩⲣⲓⲏⲗ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">إشفعا فينا يارئيسى الملائكة الطاهرين رافائيل وسوريال ليغفر .</td>
+                ⲉⲑⲟⲩⲁⲃ : Ⲣⲁⲫⲁⲏⲗ ⲛⲉⲙ Ⲥⲟⲩⲣⲓⲏⲗ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">إشفعا فينا يارئيسى الملائكة الطاهرين رافائيل وسوريال ليغفر.</td>
         </tr>
         <tr id="table_21_row_3" class="south">
             <td class="english" style="border-right: 1px solid black;">Intercede: O holy archangels, Sedakiel, Sarathiel
                 and Ananiel, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲁⲣⲓⲡ̅ : ⲱ̀ ⲛⲓⲁⲣⲭⲏⲁⲅⲅⲉⲗⲟⲥ ⲉⲑⲟⲩⲁⲃ: Ⲥⲉⲇⲁⲕⲓⲏⲗ
-                Ⲥⲁⲣⲁⲑⲓⲏⲗ ⲛⲉⲙ Ⲁⲛⲁⲛⲓⲏⲗ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اشفعوا فينا يارؤساء الملائكة الأطهار سداكيال وسراتيال وأنانيال ليغفر ..</td>
+                Ⲥⲁⲣⲁⲑⲓⲏⲗ ⲛⲉⲙ Ⲁⲛⲁⲛⲓⲏⲗ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اشفعوا فينا يارؤساء الملائكة الأطهار سداكيال وسراتيال وأنانيال ليغفر..</td>
         </tr>
         <tr id="table_21_row_4" class="north">
             <td class="english" style="border-right: 1px solid black;">Intercede: O Thrones, Dominions and Powers, The
                 Cherubim and the Seraphim, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲁⲣⲓⲡ̅ : ⲛⲓⲑ̀ⲣⲟⲛⲟⲥ ⲛⲓⲙⲉⲧϭⲟⲓⲥ ⲛⲓϫⲟⲙ : Ⲛⲓⲭⲉⲣⲟⲃⲓⲙ
                 ⲛⲉⲙ Ⲛⲓⲥⲉⲣⲁⲫⲓⲙ : ⲛ̀ⲧⲉϥ...</td>
-            <td class="arabic">أشفعى فينا أيتها الكراسى والارباب والقوات والشيروبيم والسرافيم ليغفر ..</td>
+            <td class="arabic">أشفعى فينا أيتها الكراسى والارباب والقوات والشيروبيم والسرافيم ليغفر..</td>
         </tr>
         <tr id="table_21_row_5" class="south">
             <td class="english" style="border-right: 1px solid black;">Intercede on our behalf, O Four Incorporeal
                 Beasts, The ministers fervent as fire, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲁ̀ⲣⲓⲡ̀ⲣⲉⲥⲃⲉⲩⲓⲛ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲡⲓϥ̀ⲧⲟⲩ ⲛ̀ⲍⲱⲟⲛ
                 ⲛ̀ⲁ̀ⲥⲱⲙⲁⲧⲟⲥ : ⲛ̀ⲗⲓⲧⲟⲩⲣⲅⲟⲥ ⲛ̀ϣⲁϩ ⲛ̀ⲭ̀ⲣⲱⲙ : ⲛ̀ⲧⲉϥ...</td>
-            <td class="arabic">أشفعوا فينا أيها الأربعة الحيوانات غير المتجسدين الخدام الملتهبين ناراً ليغفر ...</td>
+            <td class="arabic">أشفعوا فينا أيها الأربعة الحيوانات غير المتجسدين الخدام الملتهبين ناراً ليغفر...</td>
         </tr>
         <tr id="table_21_row_6" class="north">
             <td class="english" style="border-right: 1px solid black;">Intercede: O priests of the Truth, The Twenty
                 Four Presbyters, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲁⲣⲓⲡ̅ : ⲛⲓⲟⲩⲏⲃ ⲛ̀ⲧⲉ ϯⲙⲉⲑⲙⲏⲓ : ⲡⲓϫⲟⲧϥ̀ⲧⲟⲩ
-                ⲙ̀ⲡ̀ⲣⲉⲥⲃⲩⲧⲏⲣⲟⲥ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">إشفعوا فينا ياكهنة الحق الأربعة والعشرين قسيساً ليغفر ...</td>
+                ⲙ̀ⲡ̀ⲣⲉⲥⲃⲩⲧⲏⲣⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">إشفعوا فينا ياكهنة الحق الأربعة والعشرين قسيساً ليغفر...</td>
         </tr>
         <tr id="table_21_row_7" class="south">
             <td class="english" style="border-right: 1px solid black;">Intercede: O angelic hosts, And all the heavenly
                 multitudes, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲁⲣⲓⲡ̅ : ⲛⲓⲥⲧⲣⲁⲧⲓ̀ⲁ ⲛ̀ⲁⲅⲅⲉⲗⲓⲕⲟⲛ : ⲛⲉⲙ ⲛⲓⲧⲁⲅⲙⲁ
                 ⲛ̀ⲉ̀ⲡⲟⲩⲣⲁⲛⲓⲟⲛ :</td>
-            <td class="arabic">إشفعوا فينا أيها العساكر الملائكية والطغمات السمائية ليغفر ...</td>
+            <td class="arabic">إشفعوا فينا أيها العساكر الملائكية والطغمات السمائية ليغفر...</td>
         </tr>
         <tr id="table_21_row_8" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, My lords and
                 fathers, the patriarchs, Abraham, Isaac and Jacob, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲛⲁϭⲟⲓⲥ ⲛ̀ⲓⲟϯ
-                ⲙ̀ⲡⲁⲧⲣⲓⲁⲣⲭⲏⲥ : Ⲁⲃⲣⲁⲁⲙ Ⲓ̀ⲥⲁⲁⲕ Ⲓⲁⲕⲱⲃ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">إطلبوا من الرب عنا ياسادتى الآباء البطاركة إبراهيم وإسحق ويعقوب ليغفر ...</td>
+                ⲙ̀ⲡⲁⲧⲣⲓⲁⲣⲭⲏⲥ : Ⲁⲃⲣⲁⲁⲙ Ⲓ̀ⲥⲁⲁⲕ Ⲓⲁⲕⲱⲃ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">إطلبوا من الرب عنا ياسادتى الآباء البطاركة إبراهيم وإسحق ويعقوب ليغفر...</td>
         </tr>
         <tr id="table_21_row_9" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, O perfect man,
                 The righteous and just Enoch, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲱ̀ ⲡⲓⲣⲱⲙⲓ ⲛ̀ⲧⲉⲗⲓⲟⲥ :
-                ⲡⲓⲑ̀ⲙⲏⲓ ̀ Ⲉⲛⲱⲭ ⲡⲓⲇⲓⲕⲉⲟⲥ : ̀ ⲛⲧⲉϥ ...</td>
-            <td class="arabic">إطلب من الرب عنا أيها الرجل الكامل البار أخنوخ الصديق ليغفر ..</td>
+                ⲡⲓⲑ̀ⲙⲏⲓ ̀ Ⲉⲛⲱⲭ ⲡⲓⲇⲓⲕⲉⲟⲥ : ̀ ⲛⲧⲉϥ...</td>
+            <td class="arabic">إطلب من الرب عنا أيها الرجل الكامل البار أخنوخ الصديق ليغفر..</td>
         </tr>
         <tr id="table_21_row_10" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, Elijah the
                 Tishbite, And Elisha his disciple, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ: Ⲏⲗⲓⲁⲥ ⲡⲓⲑⲉⲥⲃⲓⲧⲏⲥ: ⲛⲉⲙ
-                Ⲉ̀ⲗⲓⲥⲉⲟⲥ ⲡⲉϥⲙⲁⲑⲏⲧⲏⲥ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">إطلبوا من الرب عنا ياإيليا التسبيتى وآليشع تلميذه ليغفر ...</td>
+                Ⲉ̀ⲗⲓⲥⲉⲟⲥ ⲡⲉϥⲙⲁⲑⲏⲧⲏⲥ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">إطلبوا من الرب عنا ياإيليا التسبيتى وآليشع تلميذه ليغفر...</td>
         </tr>
         <tr id="table_21_row_11" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, O Moses the
                 archprophet and Isaiah, and Jeremiah, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲱ̀ Ⲙⲱⲩ̀ⲥⲏⲥ
-                ⲡⲓⲁⲣⲭⲏⲡ̀ⲣⲟⲫⲓⲧⲏⲥ ⲛⲉⲙ Ⲏⲥⲁⲏ̀ⲁⲥ : ⲛⲉⲙ Ⲓⲉⲣⲉⲙⲓⲁⲥ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">إطلبوا من الرب عنا ياموسى رئيس الأنبياء وأشعياء وأرمياء ليغفر ...</td>
+                ⲡⲓⲁⲣⲭⲏⲡ̀ⲣⲟⲫⲓⲧⲏⲥ ⲛⲉⲙ Ⲏⲥⲁⲏ̀ⲁⲥ : ⲛⲉⲙ Ⲓⲉⲣⲉⲙⲓⲁⲥ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">إطلبوا من الرب عنا ياموسى رئيس الأنبياء وأشعياء وأرمياء ليغفر...</td>
         </tr>
         <tr id="table_21_row_12" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: O David the psalmist, Ezekiel and Daniel,
                 That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : Ⲇⲁⲩⲓⲇ ⲡⲓⲓⲉⲣⲟⲯⲁⲗⲧⲏⲥ : ⲛⲉⲙ Ⲓⲉⲍⲉⲕⲓⲏⲗ ⲛⲉⲙ Ⲇⲁⲛⲓⲏⲗ
                 : ⲛ̀ⲧⲉϥ...</td>
-            <td class="arabic">اطلبوا من الرب عنا يا داود المرتل وحزقيال ودانيال ليغفر ...</td>
+            <td class="arabic">اطلبوا من الرب عنا يا داود المرتل وحزقيال ودانيال ليغفر...</td>
         </tr>
         <tr id="table_21_row_13" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: Joachim, Anna and Joseph the Elder, and the
                 righteous Job, Joseph and Nicodemus, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : Ⲓⲱⲁⲕⲓⲙ ⲛⲉⲙ Ⲁⲛⲛⲁ ⲛⲉⲙ Ⲓⲱⲥⲏⲫ ⲡⲓ ⲡ̀ⲣⲉⲥⲃⲏⲧⲉⲣⲟⲥ :
-                ⲛⲉⲙ ⲡⲓ ⲑ̀ⲙⲏⲓ Ⲓⲱⲃ ⲛⲉⲙ Ⲓⲱⲥⲏⲫ ⲛⲉⲙ Ⲛⲓⲕⲟⲇⲏⲙⲟⲥ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">إطلبوا من الرب عنا يايواقيم وحنّة ويوسف الشيخ والصديق ايوب ويوسف ونيقوديموس ليغفر ...
+                ⲛⲉⲙ ⲡⲓ ⲑ̀ⲙⲏⲓ Ⲓⲱⲃ ⲛⲉⲙ Ⲓⲱⲥⲏⲫ ⲛⲉⲙ Ⲛⲓⲕⲟⲇⲏⲙⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">إطلبوا من الرب عنا يايواقيم وحنّة ويوسف الشيخ والصديق ايوب ويوسف ونيقوديموس ليغفر...
             </td>
         </tr>
         <tr id="table_21_row_14" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, O Melchizedek and
                 Aaron, and Zacharias and Simeon, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : Ⲙⲉⲗⲭⲓⲥⲉⲇⲉⲕ ⲛⲉⲙ
-                Ⲁ̀ⲁ̀ⲣⲱⲛ : ⲛⲉⲙ Ⲍⲁⲭⲁⲣⲓⲁⲥ ⲛⲉⲙ Ⲥⲩⲙⲉⲱⲛ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">أطلبوا من الرب عنا ياملشيصادق وهرون وزكريا وسمعان ليغفر ...</td>
+                Ⲁ̀ⲁ̀ⲣⲱⲛ : ⲛⲉⲙ Ⲍⲁⲭⲁⲣⲓⲁⲥ ⲛⲉⲙ Ⲥⲩⲙⲉⲱⲛ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">أطلبوا من الرب عنا ياملشيصادق وهرون وزكريا وسمعان ليغفر...</td>
         </tr>
         <tr id="table_21_row_15" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: O chorus of the prophets, And all the
                 righteous and the just, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲛⲓⲭⲟⲣⲟⲥ ⲛ̀ⲧⲉ ⲛⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ : ⲛⲉⲙ ⲛⲓⲑ̀ⲙⲏⲓ ⲛⲉⲙ
-                ⲛⲓⲇⲓⲕⲉⲟⲥ : ⲛ̀ⲧⲉϥ ...</td>
+                ⲛⲓⲇⲓⲕⲉⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
             <td class="arabic">أطلبوا من الرب عنا ياصفوف الأنبياء والأبرار والصديقين ليغفر..</td>
         </tr>
         <tr id="table_21_row_16" class="north">
             <td class="english" style="border-right: 1px solid black;">Intercede on our behalf, O fore-runner and
                 baptizer, John the Baptist, That he may…</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲁⲣⲓⲡ̀ⲣⲉⲥⲃⲉⲩⲓⲛ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲱ̀ ⲡⲓⲡ̀ⲣⲟⲇⲣⲟⲙⲟⲥ
-                ⲙ̀ⲃⲁⲡⲧⲓⲥⲧⲏⲥ : Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲣⲉϥϯⲱⲙⲥ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">إشفع فينا أيها السابق الصابغ يوحنا المعمدان ليغفر ..</td>
+                ⲙ̀ⲃⲁⲡⲧⲓⲥⲧⲏⲥ : Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲣⲉϥϯⲱⲙⲥ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">إشفع فينا أيها السابق الصابغ يوحنا المعمدان ليغفر..</td>
         </tr>
         <tr id="table_21_row_17" class="south">
             <td class="english" style="border-right: 1px solid black;">Intercede on our behalf, O the Hundred and Forty
                 Four Thousand, and the celibate Evangelist, That He may…</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲁ̀ⲣⲓⲡ̅ : ⲱ̀ ⲡⲓϣⲉ ϩ̀ⲙⲉ ϥ̀ⲧⲟⲩ ⲛ̀ϣⲟ : ⲛⲉⲙ ⲡⲓⲡⲁⲣⲑⲉⲛⲟⲥ
-                ⲛ̀ⲉⲩⲁⲅⲅⲉⲗⲓⲥⲧⲏⲥ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">إشفعوا فينا ايها المئة والأربعة والأربعين الفاً والبتول الانجيلى ليغفر .</td>
+                ⲛ̀ⲉⲩⲁⲅⲅⲉⲗⲓⲥⲧⲏⲥ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">إشفعوا فينا ايها المئة والأربعة والأربعين الفاً والبتول الانجيلى ليغفر.</td>
         </tr>
         <tr id="table_21_row_18" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, Our lords and
                 fathers, the Apostles, And the rest of the Disciples, That He may…</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲛⲁϭⲟⲓⲥ ̀ⲛ̀ⲓⲟϯ
                 ⲛ̀ⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ : ⲛⲉⲙ ⲡ̀ⲥⲉⲡⲓ ⲛ̀ⲧⲉ ⲛⲓⲙⲁⲑⲏⲧⲏⲥ: ⲛ̀ⲧⲉϥ...</td>
-            <td class="arabic">أطلبوا من الرب عنا ياسادتى الآباء الرسل وبقية التلاميذ ليغفر ..</td>
+            <td class="arabic">أطلبوا من الرب عنا ياسادتى الآباء الرسل وبقية التلاميذ ليغفر..</td>
         </tr>
         <tr id="table_21_row_19" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: O blessed archdeacon, Stephen the First
                 Martyr, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲡⲓⲁⲣⲭⲏⲇⲓⲁ̀ⲕⲱⲛ ⲉⲧⲥ̀ⲙⲁⲣⲱⲟⲩⲧ: Ⲥ̀ⲧⲉⲫⲁⲛⲟⲥ ⲡⲓϣⲟⲣⲡ
-                ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">أطلب من الرب عنا يارئيس الشمامسة المبارك استفانوس الشهيد الاول ليغفر ..</td>
+                ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">أطلب من الرب عنا يارئيس الشمامسة المبارك استفانوس الشهيد الاول ليغفر..</td>
         </tr>
         <tr id="table_21_row_20" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, O Beholder of God
                 the Evangelist, Mark the Apostle, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲡⲓⲑⲉⲱ̀ⲣⲓⲙⲟⲥ
-                ⲛ̀ⲉⲩⲁⲅⲅⲉⲗⲓⲥⲧⲏⲥ : Ⲙⲁⲣⲕⲟⲥ ⲡⲓⲁ̀ⲡⲟⲥⲧⲟⲗⲓⲥ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">أطلب من الرب عنا أيها الناظر الإله الإنجيلى مرقس الرسول ليغفر ...</td>
+                ⲛ̀ⲉⲩⲁⲅⲅⲉⲗⲓⲥⲧⲏⲥ : Ⲙⲁⲣⲕⲟⲥ ⲡⲓⲁ̀ⲡⲟⲥⲧⲟⲗⲓⲥ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">أطلب من الرب عنا أيها الناظر الإله الإنجيلى مرقس الرسول ليغفر...</td>
         </tr>
         <tr id="table_21_row_21" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: O struggle mantled martyr, My lord prince
                 George, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲡⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ : ⲡⲁϭⲟⲓⲥ ⲡ̀ⲟⲩⲣⲟ
-                Ⲅⲉⲱⲣⲅⲓⲟⲥ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">أطلب من الرب عنا أيها الشهيد المجاهد سيدى الملك جيؤرجيوس ليغفر ...</td>
+                Ⲅⲉⲱⲣⲅⲓⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">أطلب من الرب عنا أيها الشهيد المجاهد سيدى الملك جيؤرجيوس ليغفر...</td>
         </tr>
         <tr id="table_21_row_22" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: Theodore and Theodore, Leontius and
                 Panicharus, That he may…</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : Ⲑⲉⲟ̀ⲇⲱⲣⲟⲥ ⲛⲉⲙ Ⲑⲉⲟ̀ⲇⲱⲣⲟⲥ : ⲛⲉⲙ Ⲗⲉⲟⲛⲧⲓⲟⲥ ⲛⲉⲙ
-                Ⲡⲁⲛⲓⲕⲁⲣⲟⲥ : ⲛ̀ⲧⲉϥ ...</td>
+                Ⲡⲁⲛⲓⲕⲁⲣⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
             <td class="arabic">اطلبوا من الرب عنا ياثيؤدوروس وثيؤدوروس ولاونديوس وبانيكاروس ليغفر..</td>
         </tr>
         <tr id="table_21_row_23" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, O lover of the
                 father Mercurius, and Abba Mina and Abba Victor, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : Ⲫⲓⲗⲟⲡⲁⲧⲏⲣ Ⲙⲉⲣⲕⲟⲩⲣⲓⲟⲥ
-                : ⲛⲉⲙ ⲁ̀ⲡⲁ Ⲙⲏⲛⲁ ⲛⲉⲙ ⲁ̀ⲡⲁ Ⲃⲓⲕⲧⲱⲣ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا يافيلوباتير مرقوريوس وأبا مينا وأبا بقطر ليغفر ...</td>
+                : ⲛⲉⲙ ⲁ̀ⲡⲁ Ⲙⲏⲛⲁ ⲛⲉⲙ ⲁ̀ⲡⲁ Ⲃⲓⲕⲧⲱⲣ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا يافيلوباتير مرقوريوس وأبا مينا وأبا بقطر ليغفر...</td>
         </tr>
         <tr id="table_21_row_24" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: Lord Claudius and Theodore, Abba Eschyron
                 and Abba Isaac, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲕⲩⲣⲓ ̀ Ⲕⲗⲁⲩⲇⲓⲟⲥ ⲛⲉⲙ Ⲑⲉⲟ̀ⲇⲱⲣⲟⲥ : ⲛⲉⲙ ⲁ̀ⲡⲁ ̀
-                Ⲥⲭⲩⲣⲟⲛ ⲛⲉⲙ ⲁ̀ⲡⲁ ̀ Ⲓⲥⲁⲁⲕ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا ياسيدى اقلوديوس وثيئودوروس وأبا سخيرون وأبا اسحق ليغفر ..</td>
+                Ⲥⲭⲩⲣⲟⲛ ⲛⲉⲙ ⲁ̀ⲡⲁ ̀ Ⲓⲥⲁⲁⲕ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا ياسيدى اقلوديوس وثيئودوروس وأبا سخيرون وأبا اسحق ليغفر..</td>
         </tr>
         <tr id="table_21_row_25" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: Basilidis and Eusebius, Macarius and
                 Philotheos, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : Ⲃⲁⲥⲓⲗⲓⲧⲏⲥ ⲛⲉⲙ Ⲉⲩⲥⲉⲃⲓⲟⲥ : ⲛⲉⲙ Ⲙⲁⲕⲁⲣⲓⲟⲥ ⲛⲉⲙ
-                Ⲫⲓⲗⲟⲑⲉⲟⲥ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا ياواسيليدس وأوسابيوس ومقاريوس وفيلوثاؤس ليغفر ...</td>
+                Ⲫⲓⲗⲟⲑⲉⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا ياواسيليدس وأوسابيوس ومقاريوس وفيلوثاؤس ليغفر...</td>
         </tr>
         <tr id="table_21_row_26" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, Abba Pisoora and
                 Abba Epshoi, Abba Eesi and Thekla his sister, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲁⲃⲃⲁ Ⲡⲓⲥⲟⲩⲣⲁ ⲛⲉⲙ ⲁ̀ⲡⲁ
-                ̀ Ⲡϣⲱⲓ : ⲛⲉⲙ ⲁ̀ⲡⲁ ̀ Ⲏⲥⲓ ⲛⲉⲙ Ⲑⲉⲕⲗⲁ ⲧⲉϥⲥⲱⲛⲓ: ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا ياأنبا بسوره وأبابشاى وأباايسى وتكلا اخته ليغفر ...</td>
+                ̀ Ⲡϣⲱⲓ : ⲛⲉⲙ ⲁ̀ⲡⲁ ̀ Ⲏⲥⲓ ⲛⲉⲙ Ⲑⲉⲕⲗⲁ ⲧⲉϥⲥⲱⲛⲓ: ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا ياأنبا بسوره وأبابشاى وأباايسى وتكلا اخته ليغفر...</td>
         </tr>
         <tr id="table_21_row_27" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: O struggle mantled martyrs, Justus, Apali
                 and Theoklia, That He may…</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲛⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ : Ⲓⲟⲩⲥⲧⲟⲥ ⲛⲉⲙ Ⲁ̀ⲡⲁⲗⲓ
                 ⲛⲉⲙ Ⲑⲉⲟ̀ⲕⲗⲓⲁ̀ : ⲛ̀ⲧⲉϥ...</td>
-            <td class="arabic">اطلبوا من الرب عنا أيها الشهداء المجاهدون يسطس وآبالى وتاوكليا ليغفر ...</td>
+            <td class="arabic">اطلبوا من الرب عنا أيها الشهداء المجاهدون يسطس وآبالى وتاوكليا ليغفر...</td>
         </tr>
         <tr id="table_21_row_28" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: Abba Jacob the Persian, Saint Sergius and
                 Saint Bachus, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲁⲃⲃⲁ Ⲓⲁⲕⲱⲃⲟⲥ ⲡⲓϥⲉⲣⲥⲓⲥ : ⲛⲉⲙ ⲡⲓⲁ̀ⲅⲓⲟⲥ Ⲥⲉⲣⲅⲓⲟⲥ
-                ⲛⲉⲙ Ⲃⲁⲭⲟⲥ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا ياأنبا يعقوب الفارسى والقديس سرجيوس وواخس ليغفر ...</td>
+                ⲛⲉⲙ Ⲃⲁⲭⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا ياأنبا يعقوب الفارسى والقديس سرجيوس وواخس ليغفر...</td>
         </tr>
         <tr id="table_21_row_29" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, O struggle
                 mantled martyrs, Cosmas, his brothers and their mother, That He may…</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲛⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ
-                ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ: Ⲕⲟⲥⲙⲁ ⲛⲉⲙ ⲛⲉϥⲥ̀ⲛⲏⲟⲩ ⲛⲉⲙ ⲧⲟⲩⲙⲁⲩ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا أيها الشهداء المجاهدون قزمان واخوته وأمهم ليغفر ...</td>
+                ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ: Ⲕⲟⲥⲙⲁ ⲛⲉⲙ ⲛⲉϥⲥ̀ⲛⲏⲟⲩ ⲛⲉⲙ ⲧⲟⲩⲙⲁⲩ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا أيها الشهداء المجاهدون قزمان واخوته وأمهم ليغفر...</td>
         </tr>
         <tr id="table_21_row_30" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: Abba Cyrus and his brother John, And
                 Barbara and Juliana, That He may…</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲁ̀ⲡⲁ Ⲕⲓⲣ ⲛⲉⲙ Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲉϥⲥⲟⲛ : ⲛⲉⲙ Ⲃⲁⲣⲃⲁⲣⲁ
-                ⲛⲉⲙ Ⲓⲟⲩⲗⲓⲁ̀ⲛⲏ: ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا يااباقير ويوحنا أخوه وبرباره ويوليانه ليغفر ...</td>
+                ⲛⲉⲙ Ⲓⲟⲩⲗⲓⲁ̀ⲛⲏ: ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا يااباقير ويوحنا أخوه وبرباره ويوليانه ليغفر...</td>
         </tr>
         <tr id="table_21_row_31" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: O struggle mantled martyrs, Lord Apatir and
                 Eraee his sister, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲛⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ : ⲕⲩⲣⲓ Ⲁⲡⲁⲧⲏⲣ ⲛⲉⲙ ̀
-                Ⲏⲣⲁⲏ̀ ⲧⲉϥⲥⲱⲛⲓ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا أيها الشهيدان المجاهدان السيد أبادير وإيرائى أخته ليغفر ...</td>
+                Ⲏⲣⲁⲏ̀ ⲧⲉϥⲥⲱⲛⲓ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا أيها الشهيدان المجاهدان السيد أبادير وإيرائى أخته ليغفر...</td>
         </tr>
         <tr id="table_21_row_32" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, O struggle
                 mantled martyrs, Julius and those who were with him, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲛⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ
                 ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ: Ⲓⲟⲩⲗⲓⲟⲥ ⲛⲉⲙ ⲛⲏⲉⲑⲛⲉⲙⲁϥ : ⲛ̀ⲧⲉϥ...</td>
-            <td class="arabic">اطلبوا من الرب عنا أيها الشهداء المجاهدون يوليوس ومن معه ليغفر ...</td>
+            <td class="arabic">اطلبوا من الرب عنا أيها الشهداء المجاهدون يوليوس ومن معه ليغفر...</td>
         </tr>
         <tr id="table_21_row_33" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: O struggle mantled martyrs, Mari Pahnam and
                 Sarah his sister, That He may…</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲛⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ: ⲙⲁⲣⲓ Ⲡⲁϩⲛⲁⲙ ⲛⲉⲙ
-                Ⲥⲁⲣⲣⲁ ⲧⲉϥⲥⲱⲛⲓ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا أيها الشهيدان المجاهدان ماربهنام وساره أخته ليغفر ...</td>
+                Ⲥⲁⲣⲣⲁ ⲧⲉϥⲥⲱⲛⲓ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا أيها الشهيدان المجاهدان ماربهنام وساره أخته ليغفر...</td>
         </tr>
         <tr id="table_21_row_34" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: Abba Sarapamon the Bishop, Psati and
                 Gallinikos, That He may…</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲁⲃⲃⲁ Ⲥⲁⲣⲁⲡⲁⲙⲱⲛ ⲡⲓⲉ̀ⲡⲓⲥⲕⲟⲡⲟⲥ : ⲛⲉⲙ Ⲯⲁⲧⲉ ⲛⲉⲙ
                 Ⲅⲁⲗⲗⲓⲛⲓⲕⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
-            <td class="arabic">أطلبوا من الرب عنا يا انبا صرابامون الاسقف وابصادى وغلينيكوس ليغفر ..</td>
+            <td class="arabic">أطلبوا من الرب عنا يا انبا صرابامون الاسقف وابصادى وغلينيكوس ليغفر..</td>
         </tr>
         <tr id="table_21_row_35" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, O victorious
                 martyrs, The Forty Saints of Sebaste, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲛⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ
-                ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ : ⲡⲓϩ̀ⲙⲉ ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲉ Ⲥⲉⲃⲁⲥⲧⲉ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا ايها الشهداء المجاهدون الأربعون قديساً بسبسطية ليغفر ..</td>
+                ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ : ⲡⲓϩ̀ⲙⲉ ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲉ Ⲥⲉⲃⲁⲥⲧⲉ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا ايها الشهداء المجاهدون الأربعون قديساً بسبسطية ليغفر..</td>
         </tr>
         <tr id="table_21_row_36" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: Abba Piro and Athom, And John and Simeon,
                 That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲁⲃⲃⲁ Ⲡⲓⲣⲱⲟⲩ ⲛⲉⲙ ̀ Ⲁⲑⲱⲙ : ⲛⲉⲙ Ⲓⲱⲁⲛⲛⲏⲥ ⲛⲉⲙ
-                Ⲥⲩⲙⲉⲱⲛ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">أطلبوا من الرب عنا ياأنبا بيروه واتوم ويوحنا وسمعان ليغفر ...</td>
+                Ⲥⲩⲙⲉⲱⲛ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">أطلبوا من الرب عنا ياأنبا بيروه واتوم ويوحنا وسمعان ليغفر...</td>
         </tr>
         <tr id="table_21_row_37" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: O struggle mantled martyrs, Abba Epshoi and
                 his friend Peter, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲛⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ : ⲁ̀ⲡⲁ Ⲡ̀ϣⲱⲓ ⲛⲉⲙ
-                ⲡⲉϥϣ̀ⲫⲏⲣ Ⲡⲉⲧⲣⲟⲥ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">أطلبا من الرب عنا أيها الشهيدان المجاهدان أبا بشوى وصديقه بطرس ليغفر ..</td>
+                ⲡⲉϥϣ̀ⲫⲏⲣ Ⲡⲉⲧⲣⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">أطلبا من الرب عنا أيها الشهيدان المجاهدان أبا بشوى وصديقه بطرس ليغفر..</td>
         </tr>
         <tr id="table_21_row_38" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, Abba Eklog the
                 priest, and Abba Epgol and Abba Kav, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲁ̀ⲡⲁ ̀̀̀ Ⲕⲗⲟϫ
-                ⲡⲓⲡ̀ⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ : ⲛⲉⲙ ⲁ̀ⲡⲁ ̀̀̀ Ⲡϫⲟⲗ ⲛⲉⲙ ⲁ̀ⲡⲁ Ⲕⲁⲩ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">أطلبوا من الرب عنا ياأبا كلوج القس وابا بجول وأبا كاف ليغفر ..</td>
+                ⲡⲓⲡ̀ⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ : ⲛⲉⲙ ⲁ̀ⲡⲁ ̀̀̀ Ⲡϫⲟⲗ ⲛⲉⲙ ⲁ̀ⲡⲁ Ⲕⲁⲩ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">أطلبوا من الرب عنا ياأبا كلوج القس وابا بجول وأبا كاف ليغفر..</td>
         </tr>
         <tr id="table_21_row_39" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: Abba John of Heraclia, Lord Piphamon and
                 Pistavros, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲁ̀ⲡⲁ Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲣⲉⲙϩⲁⲣⲁⲕⲗⲓⲁ̀ : ⲛⲉⲙ ⲕⲩⲣⲓⲁ̀
-                Ⲡⲓⲫⲁⲙⲱⲛ ⲛⲉⲙ Ⲡⲓⲥ̀ⲧⲁⲩⲣⲟⲥ : ⲛ̀ⲧⲉϥ ...</td>
+                Ⲡⲓⲫⲁⲙⲱⲛ ⲛⲉⲙ Ⲡⲓⲥ̀ⲧⲁⲩⲣⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
             <td class="arabic">أطلبوا من الرب عنا ياأبا يوحنا الهرقلى والسيد بفام وبسطوروس ليغفر..</td>
         </tr>
         <tr id="table_21_row_40" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: Isidore and Panteleon, Sophia and Euphemia,
                 That He may....</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : Ⲏⲥⲏⲇⲱⲣⲟⲥ ⲛⲉⲙ Ⲡⲁⲛⲧⲉⲗⲉⲟⲛ : Ⲥⲟⲫⲓⲁ̀ ⲛⲉⲙ Ⲉⲩⲫⲟⲙⲓⲁ̀
-                : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">أطلبوا من الرب عنا ياايسيذوروس وبندلاون وصوفيا وإفوميه ليغفر ..</td>
+                : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">أطلبوا من الرب عنا ياايسيذوروس وبندلاون وصوفيا وإفوميه ليغفر..</td>
         </tr>
         <tr id="table_21_row_41" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, Lord Abanoub and
                 Epto-lomeos, Apa-ekragon and Sousennius, That He may…</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲕⲩⲣⲓ Ⲁⲡⲁⲛⲟⲩⲃ ⲛⲉⲙ
-                Ⲡⲑⲟⲗⲟⲙⲉⲟⲥ : ⲛⲉⲙ Ⲁⲡⲁⲕ̀ⲣⲁⲅⲟⲛ ⲛⲉⲙ Ⲥⲟⲩⲥⲉⲛⲛⲓⲟⲥ : ⲛ̀ⲧⲉϥ ...</td>
+                Ⲡⲑⲟⲗⲟⲙⲉⲟⲥ : ⲛⲉⲙ Ⲁⲡⲁⲕ̀ⲣⲁⲅⲟⲛ ⲛⲉⲙ Ⲥⲟⲩⲥⲉⲛⲛⲓⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
             <td class="arabic">أطلبوا من الرب عنا ياسيدى ابانوب وابطلماوس وابكراجون وسوسنيوس ليغفر..</td>
         </tr>
         <tr id="table_21_row_42" class="north">
@@ -4542,274 +4541,274 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Pray: O new martyrs, Pistavros and Arsenius, That
                 He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲱ̀ ⲛⲓⲃⲉⲣⲓ ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ : Ⲡⲓⲥ̀ⲧⲁⲩⲣⲟⲥ ⲛⲉⲙ
-                Ⲁⲣⲥⲉⲛⲓⲟⲥ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">أطلبوا من الرب عنا أيها الشهيدان الجديدان بسطوروس وارسانيوس ليغفر ..</td>
+                Ⲁⲣⲥⲉⲛⲓⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">أطلبوا من الرب عنا أيها الشهيدان الجديدان بسطوروس وارسانيوس ليغفر..</td>
         </tr>
         <tr id="table_21_row_44" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, O Michael the
                 hegomen, And Michael the monk, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲱ̀ Ⲙⲓⲭⲁⲏⲗ
                 ⲡⲓϩⲏⲅⲟⲩⲙⲉⲛⲟⲥ : ⲛⲉⲙ Ⲙⲓⲭⲁⲏⲗ ⲡⲓⲙⲟⲛⲁⲭⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
-            <td class="arabic">اطلبا من الرب عنا ياميخائيل القمص وميخائيل الراهب ليغفر ...</td>
+            <td class="arabic">اطلبا من الرب عنا ياميخائيل القمص وميخائيل الراهب ليغفر...</td>
         </tr>
         <tr id="table_21_row_45" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: O chorus of the martyrs, Who suffered for
                 the sake of Christ, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲛⲓⲭⲟⲣⲟⲥ ⲛ̀ⲧⲉ ⲛⲓⲙⲁⲣⲧⲩⲣⲟⲥ : ⲉ̀ⲧⲁⲩϣⲉⲡ ⲙ̀ⲕⲁϩⲓ
-                ⲉⲑⲃⲉ Ⲡⲭˉⲥˉ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا ياصفوف الشهداء الذين تألموا من أجل المسيح ليغفر .</td>
+                ⲉⲑⲃⲉ Ⲡⲭˉⲥˉ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا ياصفوف الشهداء الذين تألموا من أجل المسيح ليغفر.</td>
         </tr>
         <tr id="table_21_row_46" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: Our lords and fathers who love their
                 children, Abba Anthony and Abba Paul, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲛⲁϭⲟⲓⲥ ⲛ̀ⲓⲟϯ ⲙ̀ⲙⲁⲓⲛⲟⲩϣⲏⲣⲓ : ⲁⲃⲃⲁ Ⲁⲛⲧⲱⲛⲓⲟⲥ
-                ⲛⲉⲙ ⲁⲃⲃⲁ Ⲡⲁⲩⲗⲉ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبا من الرب عنا ياسيدى الابوين محبى أولادهما انطونيوس وأنبا بولا ليغفر ..</td>
+                ⲛⲉⲙ ⲁⲃⲃⲁ Ⲡⲁⲩⲗⲉ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبا من الرب عنا ياسيدى الابوين محبى أولادهما انطونيوس وأنبا بولا ليغفر..</td>
         </tr>
         <tr id="table_21_row_47" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, O three saints,
                 Abba Macarii, And all their children, the cross-bearers, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲡⲓϣⲟⲙⲧ ⲉⲑⲟⲩⲁⲃ ⲁⲃⲃⲁ Ⲙⲁⲕⲁⲣⲓ : ⲛⲉⲙ ⲛⲟⲩϣⲏⲣⲓ
                 ⲛ̀ⲥ̀ⲧⲁⲩⲣⲟⲫⲟⲣⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
-            <td class="arabic">اطلبوا من الرب عنا أيها الثلاثة مقارات القديسون وأولادهم لباس الصليب ليغفر ..</td>
+            <td class="arabic">اطلبوا من الرب عنا أيها الثلاثة مقارات القديسون وأولادهم لباس الصليب ليغفر..</td>
         </tr>
         <tr id="table_21_row_48" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: Our lords and fathers the hegomens, Abba
                 John and Abba Daniel, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲛⲁϭⲟⲓⲥ ⲛ̀ⲓⲟϯ ⲛ̀ϩⲏⲅⲟⲩⲙⲉⲛⲟⲥ : ⲁⲃⲃⲁ Ⲓⲱⲁⲛⲛⲏⲥ ⲛⲉⲙ
-                ⲁⲃⲃⲁ Ⲇⲁⲛⲓⲏⲗ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبا من الرب عنا يا سيدى الأبوين القمصين أنبا يوحنا وأنبا دانيال ليغفر ..</td>
+                ⲁⲃⲃⲁ Ⲇⲁⲛⲓⲏⲗ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبا من الرب عنا يا سيدى الأبوين القمصين أنبا يوحنا وأنبا دانيال ليغفر..</td>
         </tr>
         <tr id="table_21_row_49" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: Our lords and fathers who love their
                 children, Abba Pishoi and Abba Paul, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲛⲁϭⲟⲓⲥ ⲛ̀ⲓⲟϯ ⲙ̀ⲙⲁⲓⲛⲟⲩϣⲏⲣⲓ : ⲁⲃⲃⲁ Ⲡⲓϣⲱⲓ ⲛⲉⲙ
-                ⲁⲃⲃⲁ Ⲡⲁⲩⲗⲉ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبا من الرب عنا يا سيدىّ الأبوين محبى أولادهما أنبا بيشوى وأنبا بولا ليغفر ..</td>
+                ⲁⲃⲃⲁ Ⲡⲁⲩⲗⲉ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبا من الرب عنا يا سيدىّ الأبوين محبى أولادهما أنبا بيشوى وأنبا بولا ليغفر..</td>
         </tr>
         <tr id="table_21_row_50" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, Our Saintly Roman
                 fathers, Maximus and Dometius, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲛⲉⲛⲓⲟϯ ⲉⲑⲟⲩⲁⲃ
                 ⲛ̀ⲣⲱⲙⲉⲟⲥ : Ⲙⲁⲝⲓⲙⲟⲥ ⲛⲉⲙ Ⲇⲟⲙⲉⲧⲓⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
-            <td class="arabic">أطلبا من الرب عنا ياأبوينا القديسين الروميين مكسيموس ودوماديوس ليغفر ...</td>
+            <td class="arabic">أطلبا من الرب عنا ياأبوينا القديسين الروميين مكسيموس ودوماديوس ليغفر...</td>
         </tr>
         <tr id="table_21_row_51" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: O Forty Nine Martyrs, The elders of
                 Shiheet, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲡⲓϩ̀ⲙⲉ ⲯⲓⲧ ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ : ⲛⲓϧⲉⲗⲗⲟⲓ ⲛ̀ⲧⲉ Ϣⲓϩⲏⲧ
-                : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا أيها التسعة والاربعون شهيداً شيوخ شيهات ليغفر ..</td>
+                : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا أيها التسعة والاربعون شهيداً شيوخ شيهات ليغفر..</td>
         </tr>
         <tr id="table_21_row_52" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: O strong saint, Abba Moses, And John Kame,
                 That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲡⲓϫⲱⲣⲓ ⲉⲑⲟⲩⲁⲃ ⲁⲃⲃⲁ Ⲙⲱⲥⲏ : ⲛⲉⲙ Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲭⲁⲙⲏ
-                : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">أطلبا من الرب عنا ايها القوى القديس انبا موسي ويحنس كاما ليغفر ..</td>
+                : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">أطلبا من الرب عنا ايها القوى القديس انبا موسي ويحنس كاما ليغفر..</td>
         </tr>
         <tr id="table_21_row_53" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, Abba Pachomious
                 of the Koinonia, And Theodore his disciple, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲁⲃⲃⲁ Ⲡⲁϧⲱⲙ ⲫⲁ
-                ϯⲕⲟⲓⲛⲱⲛⲓⲁ̀ : ⲛⲉⲙ Ⲑⲉⲟ̀ⲇⲱⲣⲟⲥ ⲡⲉϥⲙⲁⲑⲏⲧⲏⲥ : ̀ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبا من الرب عنا ياانبا باخوم ابا الشركة وثيؤدورس تلميذه ليغفر ..</td>
+                ϯⲕⲟⲓⲛⲱⲛⲓⲁ̀ : ⲛⲉⲙ Ⲑⲉⲟ̀ⲇⲱⲣⲟⲥ ⲡⲉϥⲙⲁⲑⲏⲧⲏⲥ : ̀ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبا من الرب عنا ياانبا باخوم ابا الشركة وثيؤدورس تلميذه ليغفر..</td>
         </tr>
         <tr id="table_21_row_54" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: Abba Shenouda the Archimandrite, And Abba
                 Wisa his disciple, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲁⲃⲃⲁ Ϣⲉⲛⲟϯ ⲡⲓⲁⲣⲭⲏⲙⲁⲛⲇ̀ⲣⲓⲧⲏⲥ : ⲛⲉⲙ ⲁⲃⲃⲁ Ⲃⲏⲥⲁ
-                ⲡⲉϥⲙⲁⲑⲏⲧⲏⲥ : ⲛ̀ⲧⲉϥ ...</td>
+                ⲡⲉϥⲙⲁⲑⲏⲧⲏⲥ : ⲛ̀ⲧⲉϥ...</td>
             <td class="arabic">اطلبا من الرب عنا ياانبا شنوده رئيس المتوحدين وانبا ويصا تلميذه ليغفر..</td>
         </tr>
         <tr id="table_21_row_55" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: Abba Nopher and Abba Karus, And our father
                 Paphnutius, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲁⲃⲃⲁ Ⲛⲟⲩϥⲉⲣ ⲛⲉⲙ ⲁⲃⲃⲁ Ⲕⲁⲣⲟⲥ : ⲛⲉⲙ ⲡⲉⲛⲓⲱⲧ
-                Ⲡⲁⲫ̀ⲛⲟⲩⲧⲓⲟⲥ :ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا ياانبا نفر وانبا كاروس وابانا بفنوتيوس ليغفر ..</td>
+                Ⲡⲁⲫ̀ⲛⲟⲩⲧⲓⲟⲥ :ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا ياانبا نفر وانبا كاروس وابانا بفنوتيوس ليغفر..</td>
         </tr>
         <tr id="table_21_row_56" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, Abba Samuel the
                 confessor, and Justus and Apollo And his disciples, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲁⲃⲃⲁ Ⲥⲁⲙⲟⲩⲏⲗ
-                ⲡⲓⲟ̀ⲙⲟⲗⲟⲅⲓⲧⲏⲥ : ⲛⲉⲙ Ⲓⲟⲩⲥⲧⲟⲥ ⲛⲉⲙ ̀ Ⲁⲡⲟⲗⲗⲟ ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا ياانبا صموئيل المعترف ويسطس وأبوللو تلميذيه ليغفر ...</td>
+                ⲡⲓⲟ̀ⲙⲟⲗⲟⲅⲓⲧⲏⲥ : ⲛⲉⲙ Ⲓⲟⲩⲥⲧⲟⲥ ⲛⲉⲙ ̀ Ⲁⲡⲟⲗⲗⲟ ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا ياانبا صموئيل المعترف ويسطس وأبوللو تلميذيه ليغفر...</td>
         </tr>
         <tr id="table_21_row_57" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: Abba Apollo and Abba Apip, And our father
                 Abba Pigimi, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲁⲃⲃⲁ ̀ Ⲁⲡⲟⲗⲗⲟ ⲛⲉⲙ ⲁⲃⲃⲁ̀ Ⲁⲡⲓⲡ : ⲛⲉⲙ ⲡⲉⲛⲓⲱⲧ
-                ⲁⲃⲃⲁ Ⲡⲓϫⲓⲙⲓ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا ياانبا ابوللو وانبا ابيب وابانا انبا بيجيمى ليغفر ...</td>
+                ⲁⲃⲃⲁ Ⲡⲓϫⲓⲙⲓ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا ياانبا ابوللو وانبا ابيب وابانا انبا بيجيمى ليغفر...</td>
         </tr>
         <tr id="table_21_row_58" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: Abba Evkin and Abba Ehron, Abba Hor and
                 Abba Phis, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲁⲃⲃⲁ Ⲉⲩⲕⲓⲛ ⲛⲉⲙ ⲁⲃⲃⲁ ̀ Ϩⲣⲟⲛ : ⲛⲉⲙ ⲁ̀ⲡⲁ Ϩⲱⲣ
-                ⲛⲉⲙ ⲁ̀ⲡⲁ Ⲫⲓⲥ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا ياانبا افكين وانبا إهرون واباهور وابافيس ليغفر ...</td>
+                ⲛⲉⲙ ⲁ̀ⲡⲁ Ⲫⲓⲥ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا ياانبا افكين وانبا إهرون واباهور وابافيس ليغفر...</td>
         </tr>
         <tr id="table_21_row_59" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, Abba Parsoma and
                 Ephrem, And John and Simeon, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲁⲃⲃⲁ Ⲡⲁⲣⲥⲱⲙⲁ ⲛⲉⲙ
-                Ⲉⲫⲣⲉⲙ : ⲛⲉⲙ Ⲓⲱⲁⲛⲛⲏⲥ ⲛⲉⲙ Ⲥⲩⲙⲉⲱⲛ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا ياانبا برسوما وافريم ويوحنا وسمعان ليغفر ...</td>
+                Ⲉⲫⲣⲉⲙ : ⲛⲉⲙ Ⲓⲱⲁⲛⲛⲏⲥ ⲛⲉⲙ Ⲥⲩⲙⲉⲱⲛ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا ياانبا برسوما وافريم ويوحنا وسمعان ليغفر...</td>
         </tr>
         <tr id="table_21_row_60" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: Epiphanius and Ammonius, and Arshillidis
                 and Arsenius, That He may…</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : Ⲉⲡⲓⲫⲁⲛⲓⲟⲥ ⲛⲉⲙ Ⲁⲙⲙⲱⲛⲓⲟⲥ : ⲛⲉⲙ Ⲁⲣⲭⲏⲗⲗⲓⲧⲏⲥ ⲛⲉⲙ
-                Ⲁⲣⲥⲉⲛⲓⲟⲥ : ⲛ̀ⲧⲉϥ ...</td>
+                Ⲁⲣⲥⲉⲛⲓⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
             <td class="arabic">اطلبوا من الرب عنا ياابيفانيوس وامونيوس وارشليدس وارسانيوس ليغفر</td>
         </tr>
         <tr id="table_21_row_61" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: Our lords, the ascetic fathers, Abba Abraam
                 and George, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲛⲁϭⲟⲓⲥ ⲛ̀ⲓⲟϯ ⲛ̀ⲁⲥⲕⲏⲧⲏⲥ : ⲁⲃⲃⲁ Ⲁⲃⲣⲁⲁⲙ ⲛⲉⲙ
-                Ⲅⲉⲱⲣⲅⲏ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبا من الرب عنا ياسيدى الابوين الناسكين انبا أبرام وجيؤرجى ليغفر ..</td>
+                Ⲅⲉⲱⲣⲅⲏ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبا من الرب عنا ياسيدى الابوين الناسكين انبا أبرام وجيؤرجى ليغفر..</td>
         </tr>
         <tr id="table_21_row_62" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, Athanasius the
                 Apostolic, Severus and Dioscorus, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ :̀ Ⲁⲑⲛⲁⲛⲁⲥⲓⲟⲥ ⲡⲓⲁⲡⲟⲥⲧⲟⲗⲓⲕⲟⲥ : Ⲥⲉⲩⲏⲣⲟⲥ ⲛⲉⲙ
                 Ⲇⲓⲟⲥⲕⲟⲣⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
-            <td class="arabic">اطلبوا من الرب عنا يااثاناسيوس الرسولى وساويرس وديسقورس ليغفر ..</td>
+            <td class="arabic">اطلبوا من الرب عنا يااثاناسيوس الرسولى وساويرس وديسقورس ليغفر..</td>
         </tr>
         <tr id="table_21_row_63" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: Basil and Gregory, And our father Abba
                 Cyril,That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : Ⲃⲁⲥⲓⲗⲓⲟⲥ ⲛⲉⲙ Ⲅⲣⲓⲅⲟⲣⲓⲟⲥ : ⲛⲉⲙ ⲡⲉⲛⲓⲱⲧ Ⲁⲃⲃⲁ
                 Ⲕⲩⲣⲓⲗⲗⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
-            <td class="arabic">اطلبوا من الرب عنا ياباسيليوس واغريغوريوس . وابانا أنبا كيرلس ليغفر ..</td>
+            <td class="arabic">اطلبوا من الرب عنا ياباسيليوس واغريغوريوس. وابانا أنبا كيرلس ليغفر..</td>
         </tr>
         <tr id="table_21_row_64" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: O three hundred and eighteen gathered at
                 Nicea, For the faith, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲡⲓ ϣⲟⲙⲧ ϣⲉ ⲙⲏⲧ ϣ̀ⲙⲏⲛ ⲉ̀ⲧⲁⲩ ⲑⲱⲟⲩϯ ϧⲉⲛ Ⲛⲓⲕⲉⲁ̀
                 : ⲉⲑⲃⲉ ⲡⲓⲛⲁϩϯ : ⲛ̀ⲧⲉϥ…</td>
-            <td class="arabic">اطلبوا من الرب عنا أيها ال٣١٨الذين اجتمعوا فى نيقيه من اجل الايمان ليغفر ..</td>
+            <td class="arabic">اطلبوا من الرب عنا أيها ال٣١٨الذين اجتمعوا فى نيقيه من اجل الايمان ليغفر..</td>
         </tr>
         <tr id="table_21_row_65" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, O the one hundred
                 and fifty at Constantinople, And the two hundred at Ephesus,That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲱ̀ ⲡⲓ ϣⲉ ⲧⲉⲃⲓ ⲛ̀ⲧⲉ
                 Ⲕⲱⲥⲧⲁⲛⲧⲓⲛⲟⲩ- ⲡⲟⲗⲓⲥ: ⲛⲉⲙ ⲡⲓ ⲥ̀ⲛⲁⲩ ϣⲉ ⲛ̀ⲧⲉ ̀ Ⲉⲫⲉⲥⲟⲥ : ⲛ̀ⲧⲉϥ …</td>
-            <td class="arabic">اطلبوا من الرب عنا ايها ال ١٥٠ بمدينة القسطنطينية والمائتين بأفسس ليغفر ..</td>
+            <td class="arabic">اطلبوا من الرب عنا ايها ال ١٥٠ بمدينة القسطنطينية والمائتين بأفسس ليغفر..</td>
         </tr>
         <tr id="table_21_row_66" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: Abba Hadid and Abba John, Our great father
                 Parsoma and Abba Teji, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲁⲃⲃⲁ Ϩⲁⲇⲓⲇ ⲛⲉⲙ ⲁⲃⲃⲁ Ⲓⲱⲁⲛⲛⲏⲥ : ⲛⲉⲙ ⲡⲉⲛⲓⲱⲧ
                 ⲡⲓⲛⲓϣϯ ⲁⲃⲃⲁ Ⲡⲁⲣⲥⲱⲙⲁ ⲛⲉⲙ Ⲁⲃⲃⲁ Ⲧⲉϫⲓ : ⲛ̀ⲧⲉϥ...</td>
-            <td class="arabic">اطلبوا من الرب عنا ياانبا حديد وأنبا يوحنا وأبانا العظيم أنبا برسوما وأنبا رويس ليغفر ..
+            <td class="arabic">اطلبوا من الرب عنا ياانبا حديد وأنبا يوحنا وأبانا العظيم أنبا برسوما وأنبا رويس ليغفر..
             </td>
         </tr>
         <tr id="table_21_row_67" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: Abba Abraam the hegomen, And our father
                 Abba Mark, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲁⲃⲃⲁ Ⲁⲃⲣⲁⲁⲙ ⲡⲓϩⲏⲅⲟⲩⲙⲉⲛⲟⲥ : ⲛⲉⲙ ⲡⲉⲛⲓⲱⲧ ⲁⲃⲃⲁ
-                Ⲙⲁⲣⲕⲟⲥ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبا من الرب عنا ياأنبا ابرام القمص وابانا أنبا مرقس ليغفر ..</td>
+                Ⲙⲁⲣⲕⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبا من الرب عنا ياأنبا ابرام القمص وابانا أنبا مرقس ليغفر..</td>
         </tr>
         <tr id="table_21_row_68" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, O chorus of the
                 cross bearers, Perfected in the wilderness, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲛⲓⲭⲟⲣⲟⲥ ⲛ̀ⲧⲉ
-                ⲛⲓⲥ̀ⲧⲁⲩⲣⲟⲫⲟⲣⲟⲥ : ⲉ̀ⲧⲁⲩϫⲱⲕ ⲉ̀ⲃⲟⲗ ϩⲓⲛⲓϣⲁϥⲉⲩ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا يامصاف لبّاس الصليب الذين كملوا فى البرارى ليغفر ..</td>
+                ⲛⲓⲥ̀ⲧⲁⲩⲣⲟⲫⲟⲣⲟⲥ : ⲉ̀ⲧⲁⲩϫⲱⲕ ⲉ̀ⲃⲟⲗ ϩⲓⲛⲓϣⲁϥⲉⲩ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا يامصاف لبّاس الصليب الذين كملوا فى البرارى ليغفر..</td>
         </tr>
         <tr id="table_21_row_69" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: Abba Joseph the righteous, and Thomas of
                 the Mount of Cedars, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉϩ̀ⲣⲏⲓ ⲉϫⲱⲛ : ⲁⲃⲃⲁ Ⲓⲱⲥⲏⲫ ⲡⲓⲇⲓⲕⲉⲟⲥ :
-                ⲛⲉⲙ Ⲑⲱⲙⲁⲥ ⲫⲁ ⲡⲓⲧⲱⲟⲩ ⲛ̀ϣⲉⲛⲥⲓϥⲓ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ .</td>
-            <td class="arabic">اطلبوا من الرب عنا يا أنبا يوساب الصديق وتوماس صاحب جبل الأرز ليغفر ..</td>
+                ⲛⲉⲙ Ⲑⲱⲙⲁⲥ ⲫⲁ ⲡⲓⲧⲱⲟⲩ ⲛ̀ϣⲉⲛⲥⲓϥⲓ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ.</td>
+            <td class="arabic">اطلبوا من الرب عنا يا أنبا يوساب الصديق وتوماس صاحب جبل الأرز ليغفر..</td>
         </tr>
         <tr id="table_21_row_70" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: our father St. Makrofios: and his children
                 the monks: that He may …</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉϩ̀ⲣⲏⲓ ⲉϫⲱⲛ : ⲡⲉⲛⲓⲱⲧ ⲉⲑⲟⲩⲁⲃ Ⲙⲁⲕⲣⲟⲃⲓⲟⲥ
-                : ⲛⲉⲙ ⲛⲉϥϣⲏⲣⲓ ⲙ̀ⲙⲟⲛⲁⲭⲟⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ .</td>
-            <td class="arabic">اطلبوا من الرب عنا ياأبينا القديس مكروفيوس: وبنيه الرهبان. ليغفر ..</td>
+                : ⲛⲉⲙ ⲛⲉϥϣⲏⲣⲓ ⲙ̀ⲙⲟⲛⲁⲭⲟⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ.</td>
+            <td class="arabic">اطلبوا من الرب عنا ياأبينا القديس مكروفيوس: وبنيه الرهبان. ليغفر..</td>
         </tr>
         <tr id="table_21_row_71" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: our father the ascetic saint: Abba Hermina
                 the anchorite: that He may…</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉϩ̀ⲣⲏⲓ ⲉϫⲱⲛ : ⲡⲉⲛⲓⲱⲧ ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲁⲥⲕⲩⲧⲏⲥ
-                : ⲁⲃⲃⲁ Ϩⲱⲣⲙⲏⲛⲁ ⲡⲓⲁⲛⲁⲭⲱⲣⲓⲧⲏⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ .</td>
-            <td class="arabic">اطلب من الرب عنا يا أبينا القديس الناسك : أنبا هرمينا السائح. ليغفر ..</td>
+                : ⲁⲃⲃⲁ Ϩⲱⲣⲙⲏⲛⲁ ⲡⲓⲁⲛⲁⲭⲱⲣⲓⲧⲏⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ.</td>
+            <td class="arabic">اطلب من الرب عنا يا أبينا القديس الناسك : أنبا هرمينا السائح. ليغفر..</td>
         </tr>
         <tr id="table_21_row_72" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: our father the ascetic saint: Abba Badaba
                 and Andrawis: that He may…</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉϩ̀ⲣⲏⲓ ⲉϫⲱⲛ : ⲡⲉⲛⲓⲱⲧ ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲁⲥⲕⲩⲧⲏⲥ
-                : ⲁⲃⲃⲁ Ⲡⲓⲧⲁⲡⲉ ⲛⲉⲙ Ⲁⲛⲇⲣⲉⲁⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ .</td>
-            <td class="arabic">اطلبا من الرب عنا ياأبينا القديس الناسك: أنبا بضابا وأندراوس. ليغفر ..</td>
+                : ⲁⲃⲃⲁ Ⲡⲓⲧⲁⲡⲉ ⲛⲉⲙ Ⲁⲛⲇⲣⲉⲁⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ.</td>
+            <td class="arabic">اطلبا من الرب عنا ياأبينا القديس الناسك: أنبا بضابا وأندراوس. ليغفر..</td>
         </tr>
         <tr id="table_21_row_73" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: Abba Kastor and Abba Bishoy: our father
                 Abba Pafnouti, Dawood, and Joseph: that He may …</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉϩ̀ⲣⲏⲓ ⲉϫⲱⲛ : ⲁⲡⲁ Ⲕⲁⲥⲧⲱⲣ ⲛⲉⲙ
-                ⲁⲡⲁ Ⲡⲓϣⲱⲓ : ⲛⲉⲙ ⲁⲡⲁ Ⲡⲁⲫⲛⲟⲩϯ ⲛⲉⲙ Ⲇⲁⲩⲓⲇ ⲛⲉⲙ Ⲓⲱⲥⲏⲫ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ .</td>
-            <td class="arabic">اطلبوا من الرب عنا يا أنبا قسطور وأنبا بيشوى: وأنبا بفنوتى وداود ويوساب. ليغفر ..</td>
+                ⲁⲡⲁ Ⲡⲓϣⲱⲓ : ⲛⲉⲙ ⲁⲡⲁ Ⲡⲁⲫⲛⲟⲩϯ ⲛⲉⲙ Ⲇⲁⲩⲓⲇ ⲛⲉⲙ Ⲓⲱⲥⲏⲫ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ.</td>
+            <td class="arabic">اطلبوا من الرب عنا يا أنبا قسطور وأنبا بيشوى: وأنبا بفنوتى وداود ويوساب. ليغفر..</td>
         </tr>
         <tr id="table_21_row_74" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: O two perfect men: Joseph and Nicodemus:
                 that He may…</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉϩ̀ⲣⲏⲓ ⲉϫⲱⲛ : ⲱ ⲛⲓⲣⲱⲙⲓ ⲛ̀ⲧⲉⲗⲓⲟⲥ :
-                Ⲓⲱⲥⲏⲫ ⲛⲉⲙ Ⲛⲓⲕⲟⲇⲏⲙⲟⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ .</td>
-            <td class="arabic">اطلبا من الرب عنا أيها الرجلان الكاملان: يوسف ونيقوديموس. ليغفر ..</td>
+                Ⲓⲱⲥⲏⲫ ⲛⲉⲙ Ⲛⲓⲕⲟⲇⲏⲙⲟⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ.</td>
+            <td class="arabic">اطلبا من الرب عنا أيها الرجلان الكاملان: يوسف ونيقوديموس. ليغفر..</td>
         </tr>
         <tr id="table_21_row_75" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: Elaria and Anastasia: Anasimon and
                 Erepsima: that He may…</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉϩ̀ⲣⲏⲓ ⲉϫⲱⲛ : Ⲁⲗⲗⲁⲣⲓⲁ ⲛⲉⲙ Ⲁⲛⲁⲥⲧⲁⲥⲓⲁ :
-                ⲛⲉⲙ Ⲁⲛⲁⲥⲓⲙⲱⲛ ⲛⲉⲙ Ⲁⲣⲓⲯⲓⲙⲁ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ .</td>
-            <td class="arabic">اطلبوا من الرب عنا إيلاريه وأنسطاسيا: وأناسيمون وأريبسيما. ليغفر ..</td>
+                ⲛⲉⲙ Ⲁⲛⲁⲥⲓⲙⲱⲛ ⲛⲉⲙ Ⲁⲣⲓⲯⲓⲙⲁ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ.</td>
+            <td class="arabic">اطلبوا من الرب عنا إيلاريه وأنسطاسيا: وأناسيمون وأريبسيما. ليغفر..</td>
         </tr>
         <tr id="table_21_row_76" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: O the bride of Christ: Saint Demiana: that
                 He may…</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉϩ̀ⲣⲏⲓ ⲉϫⲱⲛ : ⲱ ϯϣⲉⲗⲉⲧ ⲛ̀ⲧⲉ Ⲡⲓⲭⲣⲓⲥⲧⲟⲥ
-                : ϯⲁⲅⲓⲁ Ⲇⲁⲙⲓⲁⲛⲏ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ .</td>
-            <td class="arabic">اطلبى من الرب عنا ياعروس المسيح: القديسة ديميانه. ليغفر ..</td>
+                : ϯⲁⲅⲓⲁ Ⲇⲁⲙⲓⲁⲛⲏ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ.</td>
+            <td class="arabic">اطلبى من الرب عنا ياعروس المسيح: القديسة ديميانه. ليغفر..</td>
         </tr>
         <tr id="table_21_row_77" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: O wise virgin ladies: the brides of Christ:
                 that He may …</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉϩ̀ⲣⲏⲓ ⲉϫⲱⲛ : ⲛⲓⲁⲗⲟⲩ ⲛ̀ⲥⲁⲃⲉ
-                ⲙ̀ⲡⲁⲣⲑⲉⲛⲟⲥ : ⲛⲓϣⲉⲗⲉⲧ ⲛ̀ⲧⲉ Ⲡⲓⲭⲣⲓⲥⲧⲟⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ .</td>
-            <td class="arabic">اطلبن من الرب عنا أيتها الفتيات العذارى الحكيمات: عرائس المسيح. ليغفر ..</td>
+                ⲙ̀ⲡⲁⲣⲑⲉⲛⲟⲥ : ⲛⲓϣⲉⲗⲉⲧ ⲛ̀ⲧⲉ Ⲡⲓⲭⲣⲓⲥⲧⲟⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ.</td>
+            <td class="arabic">اطلبن من الرب عنا أيتها الفتيات العذارى الحكيمات: عرائس المسيح. ليغفر..</td>
         </tr>
         <tr id="table_21_row_78" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: my master King Constantine: and his mother
                 Queen Helen: that He may…</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉϩ̀ⲣⲏⲓ ⲉϫⲱⲛ : ⲡⲁϭⲟⲓⲥ ⲡ̀ⲟⲩⲣⲟ
-                Ⲕⲱⲥⲧⲁⲛⲧⲓⲛⲟⲥ : ⲛⲉⲙ Ⲏⲗⲁⲛⲏ ϯⲟⲩⲣⲱ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ .</td>
-            <td class="arabic">اطلبا من الرب عنا يا سيدى الملك قسطنطين: وهيلانه الملكة. ليغفر ..</td>
+                Ⲕⲱⲥⲧⲁⲛⲧⲓⲛⲟⲥ : ⲛⲉⲙ Ⲏⲗⲁⲛⲏ ϯⲟⲩⲣⲱ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ.</td>
+            <td class="arabic">اطلبا من الرب عنا يا سيدى الملك قسطنطين: وهيلانه الملكة. ليغفر..</td>
         </tr>
         <tr id="table_21_row_79" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: O saints of this day: each by his name:
                 that He may…</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉϩ̀ⲣⲏⲓ ⲉϫⲱⲛ : ⲛⲏⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲉ ⲡⲁⲓⲉϩⲟⲟⲩ
-                : ⲡⲓⲟⲩⲁⲓ ⲡⲓⲟⲩⲁⲓ ⲕⲁⲧⲁ ⲡⲉϥⲣⲁⲛ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ .</td>
-            <td class="arabic">اطلبوا من الرب عنا يا قديسى هذا اليوم: كل واحد بإسمه. ليغفر ..</td>
+                : ⲡⲓⲟⲩⲁⲓ ⲡⲓⲟⲩⲁⲓ ⲕⲁⲧⲁ ⲡⲉϥⲣⲁⲛ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ.</td>
+            <td class="arabic">اطلبوا من الرب عنا يا قديسى هذا اليوم: كل واحد بإسمه. ليغفر..</td>
         </tr>
         <tr id="table_21_row_80" class="north">
             <td class="english" style="border-right: 1px solid black;">Likewise, we magnify You, with David the
                 Psalmist: You are the priest forever, according to the order of Melchizedek.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲱⲥⲁⲩⲧⲱⲥ ⲧⲉⲛϭⲓⲥⲓ ⲙ̀ⲙⲟⲕ : ⲛⲉⲙ ⲡⲓϩⲩⲙⲛⲟⲇⲟⲥ Ⲇⲁⲩⲓⲇ : ϫⲉ
-                ⲛ̀ⲑⲟⲕ ⲡⲉ ⲡⲓⲟⲩⲏⲃ ϣⲁ ⲉⲛⲉϩ : ⲕⲁⲧⲁ ⲧ̀ⲧⲁⲝⲓⲥ ⲙ̀Ⲙⲉⲗⲭⲓⲥⲉⲇⲉⲕ .</td>
+                ⲛ̀ⲑⲟⲕ ⲡⲉ ⲡⲓⲟⲩⲏⲃ ϣⲁ ⲉⲛⲉϩ : ⲕⲁⲧⲁ ⲧ̀ⲧⲁⲝⲓⲥ ⲙ̀Ⲙⲉⲗⲭⲓⲥⲉⲇⲉⲕ.</td>
             <td class="arabic">كذلك نعظمك : مع المرتل داود قائلين: أنت هو الكاهن الى الأبد: على طقس ملشيصاداق.</td>
         </tr>
         <tr id="table_21_row_81" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: Our Holy father, the patriarch Abba (…),
                 the high priest, That He may forgive us our sins.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉϩ̀ⲣⲏⲓ ⲉϫⲱⲛ : ⲡⲉⲛⲓⲱⲧ ⲉⲑⲟⲩⲁⲃ
-                ⲙ̀ⲡⲁⲧⲣⲓⲁⲣⲭⲏⲥ : ⲁⲃⲃⲁ (...) ⲡⲓⲁⲣⲭⲓⲉⲣⲉⲩⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ .</td>
+                ⲙ̀ⲡⲁⲧⲣⲓⲁⲣⲭⲏⲥ : ⲁⲃⲃⲁ (...) ⲡⲓⲁⲣⲭⲓⲉⲣⲉⲩⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ.</td>
             <td class="arabic">أطلب من الرب عنا : يا أبانا القديس البطريرك : أنبا (...) رئيس الكهنة. ليغفر لنا خطايانا.
             </td>
         </tr>
@@ -5532,7 +5531,7 @@ ${htmlRenderScript}
                 likened to the height of the palm tree, spoken of by Solomon.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲉⲙⲉⲧⲛⲓϣϯ ⲱ̀ Ⲙⲁⲣⲓⲁ: ϯⲡⲁⲣⲑⲉⲛⲟⲥ ⲛ̀ⲁⲧⲑⲱⲗⲉⲃ: ⲥ̀ⲟⲛⲓ
                 ⲙ̀ⲡ̀ⲓϭⲓⲥⲓ ⲙ̀ⲡⲓⲃⲉⲛⲓ: ⲉ̀ⲧⲁ Ⲥⲟⲗⲟⲙⲱⲛ ⲥⲁϫⲓ ⲉⲑⲃⲏⲧϥ.</td>
-            <td class="arabic">عظمتك يامريم العذراء الغير الدنسة تشبه علو النخلة التى تكلم عنها سليمان .</td>
+            <td class="arabic">عظمتك يامريم العذراء الغير الدنسة تشبه علو النخلة التى تكلم عنها سليمان.</td>
         </tr>
         <tr id="table_27_row_1" class="south">
             <td class="english" style="border-right: 1px solid black;">You are the spring of living water, that flows
@@ -5546,14 +5545,14 @@ ${htmlRenderScript}
                 womb, and he has made us heirs, to the Kingdom of heaven.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲁⲣⲉⲙⲓⲥⲓ ⲛⲁⲛ ⲛ̀Ⲉⲙⲙⲁⲛⲟⲩⲏⲗ: ϧⲉⲛ ϯⲙⲉⲧⲣⲁ ⲙ̀ⲡⲁⲣⲑⲉⲛⲓⲕⲓ:
                 ⲁϥⲁⲓⲧⲉⲛ ⲛ̀ⲕⲗⲏⲣⲟⲛⲟⲙⲟⲥ: ⲛ̀ϩ̀ⲣⲏⲓ ϧⲉⲛ ⲑ̀ⲙⲉⲧⲟⲩⲣⲟ ⲛ̀ⲛⲓⲫⲏⲟⲩⲓ.</td>
-            <td class="arabic">ولدت لنا عمانوئيل من أحشائك البتول وصيرنا وارثين في ملكوت السموات .</td>
+            <td class="arabic">ولدت لنا عمانوئيل من أحشائك البتول وصيرنا وارثين في ملكوت السموات.</td>
         </tr>
         <tr id="table_27_row_3" class="south">
             <td class="english" style="border-right: 1px solid black;">According to the promise, He promised to our
                 father, King David the Patriarch, He came and fulfilled to us.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲕⲁⲧⲁ ⲡⲓⲱϣ ⲉⲧⲁϥⲱϣ ⲙ̀ⲙⲟϥ: ⲛ̀ⲧⲉ ⲡⲉⲛⲓⲱⲧ ⲙ̀ⲡⲁⲧⲣⲓⲁⲣⲭⲏⲥ:
                 ⲉⲧⲉ ⲫⲁⲓ ⲡⲉ ⲡ̀ⲟⲩⲣⲟ Ⲇⲁⲩⲓⲇ: ⲁϥⲓ̀ ⲁϥϫⲟⲕϥ  ⲛⲁⲛ ⲉⲃⲟⲗ.</td>
-            <td class="arabic">كالوعد الذى وعد به أبانا رئيس الآباء الذى هو الملك داود أتى وأكمله لنا .</td>
+            <td class="arabic">كالوعد الذى وعد به أبانا رئيس الآباء الذى هو الملك داود أتى وأكمله لنا.</td>
         </tr>
         <tr id="table_27_row_4" class="north">
             <td class="english" style="border-right: 1px solid black;">Hail to you O Virgin, the right and true Queen,
@@ -5637,14 +5636,14 @@ ${htmlRenderScript}
                 the Pantocrator, serving the hidden mystery.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲍ̅ ⲛ̀ⲁⲣⲭⲏ ⲁⲅⲅⲉⲗⲟⲥ : ⲥⲉⲟ̀ϩⲓ ⲉ̀ⲣⲁⲧⲟⲩ ⲉⲩⲉⲣϩⲩⲙⲛⲟⲥ :
                 ⲙ̀ⲡⲉⲙ̀ⲑⲟ ⲙ̀ⲡⲓⲡⲁⲛⲧⲟⲕⲣⲁⲧⲱⲣ : ⲉⲩϣⲉⲙϣⲓ ⲙ̀ⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧϩⲏⲡ.</td>
-            <td class="arabic">سبعة رؤساء ملائكة وقوف يسبحون أمام الضابط الكل يخدمون السر الخفى .</td>
+            <td class="arabic">سبعة رؤساء ملائكة وقوف يسبحون أمام الضابط الكل يخدمون السر الخفى.</td>
         </tr>
         <tr id="table_29_row_1" class="south">
             <td class="english" style="border-right: 1px solid black;">Michael is the first, Gabriel is the second,
                 Rafael is the third, a symbol of the Trinity.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲙⲓⲭⲁⲏⲗ ⲡⲉ ⲡⲓϩⲟⲩⲓⲧ : Ⲅⲁⲃⲣⲓⲏⲗ ⲡⲉ ⲡⲓⲙⲁϩ ⲥ̀ⲛⲁⲩ: Ⲣⲁⲫⲁⲏⲗ
                 ⲡⲉⲡⲓⲙⲁϩ ϣⲟⲙⲧ: ⲕⲁⲧⲁ ⲡ̀ⲧⲩⲡⲟⲥ ⲛ̀Ϯⲧ̀ⲣⲓⲁⲥ.</td>
-            <td class="arabic">ميخائيل هو الأول. غبريال هو الثانى. رافائيل هو الثالث. كمثال الثالوث .</td>
+            <td class="arabic">ميخائيل هو الأول. غبريال هو الثانى. رافائيل هو الثالث. كمثال الثالوث.</td>
         </tr>
         <tr id="table_29_row_2" class="north">
             <td class="english" style="border-right: 1px solid black;">Suriel Sedakiel, Sarathiel and Ananiel, the great
@@ -5673,28 +5672,28 @@ ${htmlRenderScript}
                 repose those who are asleep.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ϫⲉ ⲁ̀ⲅⲓⲟⲥ ⲟ̀ Ⲑⲉⲟⲥ : ⲛⲏⲉⲧϣⲱⲛⲓ ⲙⲁⲧⲁⲗϭⲱⲟⲩ : ⲁ̀ⲅⲓⲟⲥ
                 Ⲓⲥⲭⲩⲣⲟⲥ : ⲛⲏⲉ̀ⲧⲁⲩⲉⲛⲕⲟⲧ Ⲡϭⲟⲓⲥ ⲙⲁⲙ̀ⲧⲟⲛ ⲛⲱⲟⲩ.</td>
-            <td class="arabic">قدوس الله . المرضي إشفهم . قدوس القوى . الراقدين يارب نيحهم .</td>
+            <td class="arabic">قدوس الله. المرضي إشفهم. قدوس القوى. الراقدين يارب نيحهم.</td>
         </tr>
         <tr id="table_29_row_6" class="north">
             <td class="english" style="border-right: 1px solid black;">Holy  Immortal, bless Your inheritance, may Your
                 mercy and peace, be a fortress unto Your people.</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲁⲅⲓⲟⲥ ̀ Ⲁⲑⲁⲛⲁⲧⲟⲥ : ⲥ̀ⲙⲟⲩ ⲉ̀ⲧⲉⲕⲕ̀ⲗⲏⲣⲟⲛⲟⲙⲓⲁ̀ :
                 ⲙⲁⲣⲉ ⲡⲉⲕⲛⲁⲓ ⲛⲉⲙ ⲧⲉⲕϩⲓⲣⲏⲛⲏ : ⲟⲓ ⲛ̀ⲥⲟⲃⲧ ⲙ̀ⲡⲉⲕⲗⲁⲟⲥ.</td>
-            <td class="arabic">قدوس الذى لا يموت بارك ميراثك. ولتكن رحمتك وسلامك حصناً لشعبك .</td>
+            <td class="arabic">قدوس الذى لا يموت بارك ميراثك. ولتكن رحمتك وسلامك حصناً لشعبك.</td>
         </tr>
         <tr id="table_29_row_7" class="south">
             <td class="english" style="border-right: 1px solid black;">Holy Holy, Holy O Lord of Hosts, heaven and earth
                 are full of, Your glory and honor.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ϫⲉ ⲭ̀ⲟⲩⲁⲃ ⲟⲩⲟϩ ⲭ̀ⲟⲩⲁⲃ : ⲭ̀ⲟⲩⲁⲃ Ⲡϭⲟⲓⲥ ⲥⲁⲃⲁⲱⲑ : ⲧ̀ⲫⲉ
                 ⲛⲉⲙ ⲡ̀ⲕⲁϩⲓ ⲙⲉϩ ⲉ̀ⲃⲟⲗ : ϧⲉⲛ ⲡⲉⲕⲱ̀ⲟⲩ ⲛⲉⲙ ⲡⲉⲕⲧⲁⲓⲟ̀.</td>
-            <td class="arabic">قدوس قدوس قدوس رب الصاباؤوت . السماء والأرض مملوئتان من مجدك وكرامتك .</td>
+            <td class="arabic">قدوس قدوس قدوس رب الصاباؤوت. السماء والأرض مملوئتان من مجدك وكرامتك.</td>
         </tr>
         <tr id="table_29_row_8" class="north">
             <td class="english" style="border-right: 1px solid black;">And when they say "Alleluia,” the heavenly
                 respond saying, "Holy Amen Alleluia, Glory be to our God."</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲁⲩϣⲁⲛϫⲟⲥ ⲙ̀ⲡⲓ ⲁⲗⲗⲏⲗⲟⲓⲁ : ϣⲁⲣⲉ ⲛⲁⲛ ⲛⲓⲫⲏⲟⲩⲓ̀ ⲟⲩⲱϩ
                 ⲙ̀ⲙⲱⲟⲩ : ϫⲉ ⲁ̀ⲅⲓⲟⲥ ⲁ̀ⲙⲏⲛ ⲁⲗⲗⲏⲗⲟⲓⲁ  : ⲡⲓⲱ̀ⲟⲩ ⲫⲁ Ⲡⲉⲛⲛⲟⲩϯ ⲡⲉ.</td>
-            <td class="arabic">إذا ما قالوا الليلويا يتبعهم السمائيون قائلين قدوس أمين الليلويا . المجد هو لإلهنا</td>
+            <td class="arabic">إذا ما قالوا الليلويا يتبعهم السمائيون قائلين قدوس أمين الليلويا. المجد هو لإلهنا</td>
         </tr>
         <tr id="table_29_row_9" class="south">
             <td class="english" style="border-right: 1px solid black;">Intercede on our behalf, O angelic armies,  and
@@ -5712,35 +5711,35 @@ ${htmlRenderScript}
                 apostles, Peter and Andrew, John and James.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲕⲩⲣⲓⲟⲥ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ : ⲁϥⲥⲱⲧⲡ ⲛ̀ⲛⲉϥⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ
                 : ⲉ̀ⲧⲉ Ⲡⲉⲧⲣⲟⲥ ⲛⲉⲙ Ⲁⲛⲇ̀ⲣⲉⲁⲥ : Ⲓⲱⲁⲛⲛⲏⲥ ⲛⲉⲙ Ⲓⲁⲕⲱⲃⲟⲥ.</td>
-            <td class="arabic">الرب يسوع المسيح اختار رسله . وهم بطرس واندراوس. ويوحنا ويعقوب .</td>
+            <td class="arabic">الرب يسوع المسيح اختار رسله. وهم بطرس واندراوس. ويوحنا ويعقوب.</td>
         </tr>
         <tr id="table_30_row_1" class="south">
             <td class="english" style="border-right: 1px solid black;">And the rest Philip and Matthew, Bartholomew and
                 Thomas, James the son of Alphaeus, and Simon the Canaanite.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲗⲟⲓⲡⲟⲛ Ⲫⲓⲗⲓⲡⲡⲟⲥ ⲛⲉⲙ Ⲙⲁⲑⲉⲟⲥ: Ⲃⲁⲣⲑⲟⲗⲟⲙⲉⲟⲥ ⲛⲉⲙ Ⲑⲱⲙⲁⲥ
                 : Ⲓⲁⲕⲱⲃⲟⲥ ⲛ̀ⲧⲉ Ⲁⲗⲫⲉⲟⲥ : ⲛⲉⲙ Ⲥⲓⲙⲱⲛ ⲡⲓⲕⲁⲛⲁⲛⲉⲟⲥ.</td>
-            <td class="arabic">وفيلبس ومتى وبرثلماوس وتوما ويعقوب بن حلفي وسمعان القانوى .</td>
+            <td class="arabic">وفيلبس ومتى وبرثلماوس وتوما ويعقوب بن حلفي وسمعان القانوى.</td>
         </tr>
         <tr id="table_30_row_2" class="north">
             <td class="english" style="border-right: 1px solid black;">Thaddeus and Matthias, Paul Mark and Luke, and
                 the rest of disciples, who followed our Savior.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲑⲁⲇⲇⲉⲟⲥ ⲛⲉⲙ Ⲙⲁⲧⲑⲓⲁⲥ:  Ⲡⲁⲩⲗⲟⲥ ⲛⲉⲙ Ⲙⲁⲣⲕⲟⲥ ⲛⲉⲙ Ⲗⲟⲩⲕⲁⲥ
                 : ⲛⲉⲙ ⲡ̀ⲥⲉⲡⲓ ⲛ̀ⲧⲉ ⲛⲓⲙⲁⲑⲏⲧⲏⲥ : ⲛⲏⲉⲧⲁⲩⲙⲟϣⲓ ⲛ̀ⲥⲁ Ⲡⲉⲛⲥⲱⲧⲏⲣ.</td>
-            <td class="arabic">وتداوس ومتياس وبولس ومرقس ولوقا . وبقية التلاميذ الذين تبعوا مخلصنا .</td>
+            <td class="arabic">وتداوس ومتياس وبولس ومرقس ولوقا. وبقية التلاميذ الذين تبعوا مخلصنا.</td>
         </tr>
         <tr id="table_30_row_3" class="south">
             <td class="english" style="border-right: 1px solid black;">Matthias who was chosen, in place of Judas, all
                 of them and the rest, followed the Master.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲙⲁⲧⲑⲓⲁⲥ ⲫⲏⲉⲧ̀ⲁϥϣⲱⲡⲓ : ⲛ̀ⲧ̀ϣⲉⲃⲓⲱ̀ ⲛ̀ Ⲓⲟⲩⲇⲁⲥ : ⲛⲉⲙ
                 ⲡ̀ϫⲱⲕ ⲉ̀ⲃⲟⲗ ⲛⲉⲙ ⲡⲥ̀ⲉⲡⲓ : ⲛⲏⲉ̀ⲧⲁⲩⲙⲟϣⲓ ⲛ̀ⲥⲁ Ⲇⲉⲥⲡⲟⲧⲁ.</td>
-            <td class="arabic">متياس الذى صار عِوضاً عن يهوذا . وكامل وبقية التلاميذ الذين تبعوا السيد</td>
+            <td class="arabic">متياس الذى صار عِوضاً عن يهوذا. وكامل وبقية التلاميذ الذين تبعوا السيد</td>
         </tr>
         <tr id="table_30_row_4" class="north">
             <td class="english" style="border-right: 1px solid black;">Their voices went forth, throughout the face of
                 the whole earth, and their words have reached, the ends of the world.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲁⲡⲟⲩϧ̀ⲣⲱⲟⲩ ϣⲉⲛⲁϥ ⲉ̀ⲃⲟⲗ: ϩⲓϫⲉⲛ ⲡ̀ϩⲟ ⲙ̀ⲡ̀ⲕⲁϩⲓ ⲧⲏⲣϥ :
                 ⲟⲩⲟϩ ⲛⲟⲩⲥⲁϫⲓ ⲁⲩⲫⲟϩ : ϣⲁ ⲁⲩⲣⲏϫⲥ ⲛ̀ϯⲟⲓⲕⲟⲩⲙⲉⲛⲏ.</td>
-            <td class="arabic">خرجت أصواتهم إلي وجه الأرض كلها . وبلغ كلامهم إلي أقطار المسكونة .</td>
+            <td class="arabic">خرجت أصواتهم إلي وجه الأرض كلها. وبلغ كلامهم إلي أقطار المسكونة.</td>
         </tr>
         <tr id="table_30_row_5" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, O my lords and
@@ -5774,21 +5773,21 @@ ${htmlRenderScript}
             <td class="coptic" style="border-right: 1px solid black;">Ⲁⲕⲉⲛⲧⲉⲛ    ̀ⲉ̀ⲃⲟⲗ ϧⲉⲛ     ⲡ̀ⲭⲁⲕⲓ:  ⲉ̀ϧⲟⲩⲛ    
                 ⲉ̀ⲡⲓⲟⲩⲱⲓⲛⲓ    ⲙ̀ⲙⲏⲓ:   ⲁⲕⲧⲉⲙⲙⲟⲛ    ⲙ̀ⲡⲓⲱⲓⲕ     ⲛ̀ⲧⲉ    ⲡ̀ⲱⲛ’:  ̀ⲉ̀ⲧⲁϥ̀ⲓ̀    ⲉ̀ⲡⲉⲥⲏⲧ     ⲉ̀ⲃⲟⲗϧⲉⲛ    
                 ⲧ̀ⲫⲉ.</td>
-            <td class="arabic">وأخرجتنا من الظلمة إلى النور الحقيقى . وأطعمتنا خبز الحياة الذى نزلَ من السماء</td>
+            <td class="arabic">وأخرجتنا من الظلمة إلى النور الحقيقى. وأطعمتنا خبز الحياة الذى نزلَ من السماء</td>
         </tr>
         <tr id="table_31_row_3" class="south">
             <td class="english" style="border-right: 1px solid black;">All the tribes of the earth,  were blessed
                 through you,  and your words have reached,  the ends of the world.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲁⲩϭⲓⲥ̀ⲙⲟⲩ     ⲛ̀̀ϧ̀ⲣⲏⲓ    ⲛ̀ϧⲏⲧⲕ:    ⲛ̀ϫⲉ   
                 ⲛⲓⲫⲩⲗⲏ   ⲧⲏⲣⲟⲩ   ⲛ̀ⲧⲉ   ⲡ̀ⲕⲁϩⲓ:  ⲟⲩⲟϩ ⲛⲉⲕⲥⲁϫⲓ ⲁⲩⲫⲟϩ:   ϣⲁ   ⲁⲩⲣⲏϫⲥ    ⲛ̀ϯⲟⲓⲕⲟⲩⲙⲉⲛⲏ.</td>
-            <td class="arabic">تباركَت بكَ كل قبائل الأرض . واقوالكَ بلغت الي اقطار المسكونة</td>
+            <td class="arabic">تباركَت بكَ كل قبائل الأرض. واقوالكَ بلغت الي اقطار المسكونة</td>
         </tr>
         <tr id="table_31_row_4" class="north">
             <td class="english" style="border-right: 1px solid black;">Hail to you O martyr,  Hail to the Evangelist, 
                 Hail to the apostle,  Mark the Beholder of God.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ    ⲛⲁⲕ    ̀ⲱ̀    ⲡⲓⲙⲁⲣⲧⲩⲣⲟⲥ:  ⲭⲉⲣⲉ
                 ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲥⲧⲏⲥ: ⲭⲉⲣⲉ   ⲡⲓ̀ⲁ̀ⲡⲟⲥⲧⲗⲟⲥ:   Ⲙⲁⲣⲕⲟⲥ   ⲡⲓⲑⲉ̀ⲱ̀ⲣⲓⲙⲟⲥ.</td>
-            <td class="arabic">السلام لك أيها الشهيد السلام للإنجيلى .السلام للرسول . مرقس ناظر الإله</td>
+            <td class="arabic">السلام لك أيها الشهيد السلام للإنجيلى.السلام للرسول. مرقس ناظر الإله</td>
         </tr>
         <tr id="table_31_row_5" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf,  O Beholder of
@@ -6124,7 +6123,7 @@ ${htmlRenderScript}
                 repose them, and all of our brethren in distress, help us my Lord and all of them.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲛⲏⲉⲧϣⲱⲛⲓ ⲙⲁⲧⲁⲗϭⲱⲟⲩ : ⲛⲏⲉ̀ⲧⲁⲩⲉⲛⲕⲟⲧ Ⲡϭⲟⲓⲥ ⲙⲁⲙ̀ⲧⲟⲛ
                 ⲛⲱⲟⲩ : ⲛⲉⲛⲥ̀ⲛⲏⲟⲩ ⲉⲧⲭⲏ ϧⲉⲛ ϩⲟϫϩⲉϫ ⲛⲓⲃⲉⲛ : Ⲡⲁϭⲟⲓⲥ ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲛ ⲛⲉⲙⲱⲟⲩ.</td>
-            <td class="arabic">المرضى اشفهم الذين رقدوا يارب نيحهم . وإخوتنا الذين فى كل شدة ياربى أعنا وإياهم.</td>
+            <td class="arabic">المرضى اشفهم الذين رقدوا يارب نيحهم. وإخوتنا الذين فى كل شدة ياربى أعنا وإياهم.</td>
         </tr>
         <tr id="table_38_row_1" class="south">
             <td class="english" style="border-right: 1px solid black;">May God bless us, and let us bless His Holy Name,
@@ -6156,7 +6155,7 @@ ${htmlRenderScript}
                 all His hosts.</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲥⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲛⲉϥⲁⲅⲅⲉⲗⲟⲥ ⲧⲏⲣⲟⲩ Ⲁ̅ⲗ̅: ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ
                 ⲛⲉϥⲇⲩⲛⲁⲙⲓⲥ ⲧⲏⲣⲟⲩ.</td>
-            <td class="arabic">سبحوه ياجميع ملائكته الليلويا. سبحوه يا جميع جنوده .</td>
+            <td class="arabic">سبحوه ياجميع ملائكته الليلويا. سبحوه يا جميع جنوده.</td>
         </tr>
         <tr id="table_39_row_2" class="north">
             <td class="english" style="border-right: 1px solid black;">Praise Him, sun and moon: Alleluia. Praise Him
@@ -6199,7 +6198,7 @@ ${htmlRenderScript}
             <td class="coptic" style="border-right: 1px solid black;">Ⲛⲓⲇ̀ⲣⲁⲕⲱⲛ ⲛⲉⲙ ⲛⲓⲛⲟⲩⲛ ⲧⲏⲣⲟⲩ Ⲁ̅ⲗ̅: ⲟⲩⲭ̀ⲣⲱⲙ ⲟⲩⲁⲗ
                 ⲟⲩⲭⲓⲱⲛ ⲟⲩⲭ̀ⲣⲩⲥⲧⲁⲗⲗⲟⲥ ⲟⲩⲡ̀ⲛⲉⲩⲙⲁ ⲛ̀ⲥⲁⲣⲁⲑⲏⲟⲩ ⲛⲏⲉⲧⲓ̀ⲣⲓ ⲙ̀ⲡⲉϥⲥⲁϫⲓ.</td>
             <td class="arabic">ايتها التنانين وجميع الاعماق الليلويا النار والبرد والثلج والجليد والريح العاصفة الصانعة
-                كلمته .</td>
+                كلمته.</td>
         </tr>
         <tr id="table_39_row_8" class="north">
             <td class="english" style="border-right: 1px solid black;">Mountains and all hills: Alleluia. Fruitful trees
@@ -6292,7 +6291,7 @@ ${htmlRenderScript}
                 Alleluia. And a two edged sword in their hand.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲛⲓϭⲓⲥⲓ ⲛ̀ⲧⲉ Ⲫϯ ⲉⲧⲭⲏ ϧⲉⲛ ⲧⲟⲩϣ̀ⲃⲱⲃⲓ Ⲁ̅ⲗ̅: ϩⲁⲛⲥⲏϥⲓ
                 ⲛ̀ⲣⲟ ⲥ̀ⲛⲁⲩ ⲉⲧⲭⲏ ϧⲉⲛ ⲛⲟⲩϫⲓϫ.</td>
-            <td class="arabic">تعليات الله فى حناجرهم الليلويا. وسيوف ذات حدين فى أيديهم .</td>
+            <td class="arabic">تعليات الله فى حناجرهم الليلويا. وسيوف ذات حدين فى أيديهم.</td>
         </tr>
         <tr id="table_39_row_21" class="south">
             <td class="english" style="border-right: 1px solid black;">To execute vengeance on the nations: Alleluia.
@@ -6317,7 +6316,7 @@ ${htmlRenderScript}
         </tr>
         <tr id="table_39_row_24" class="north">
             <td class="english" style="border-right: 1px solid black;">Alleluia, Alleluia, Alleluia.</td>
-            <td class="coptic" style="border-right: 1px solid black;">Ⲁ̅ⲗ̅ ⲁ̅ⲗ̅ ⲁ̅ ⲗ̅ .</td>
+            <td class="coptic" style="border-right: 1px solid black;">Ⲁ̅ⲗ̅ ⲁ̅ⲗ̅ ⲁ̅ ⲗ̅.</td>
             <td class="arabic">الليلويا الليلويا الليلويا.</td>
         </tr>
         <tr id="table_39_row_25" class="south">
@@ -6462,14 +6461,14 @@ ${htmlRenderScript}
         <tr id="table_39_row_46" class="north">
             <td class="english" style="border-right: 1px solid black;">Glory be to The Father, and The Son, and The Holy
                 Spirit. Alleluia.</td>
-            <td class="coptic" style="border-right: 1px solid black;">Ⲇⲟⲝⲁ Ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩⲓⲱ̀ ⲕⲉ Ⲁⲅⲓⲱ̀ Ⲡⲛⲉⲩⲙⲁⲧⲓ. Ⲁ̅ⲗ̅ .</td>
-            <td class="arabic">المجد للآب والأبن والروح القدس الليلويا .</td>
+            <td class="coptic" style="border-right: 1px solid black;">Ⲇⲟⲝⲁ Ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩⲓⲱ̀ ⲕⲉ Ⲁⲅⲓⲱ̀ Ⲡⲛⲉⲩⲙⲁⲧⲓ. Ⲁ̅ⲗ̅.</td>
+            <td class="arabic">المجد للآب والأبن والروح القدس الليلويا.</td>
         </tr>
         <tr id="table_39_row_47" class="south">
             <td class="english" style="border-right: 1px solid black;">Now and forever and unto the ages of the ages
                 Amen. Alleluia.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ⲓ̀ ⲕⲉ ⲓⲥⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ
-                ⲁ̀ⲙⲏⲛ.  Ⲁ̅ⲗ̅ .</td>
+                ⲁ̀ⲙⲏⲛ.  Ⲁ̅ⲗ̅.</td>
             <td class="arabic">الآن وكل أوان وإلى دهر الداهرين آمين الليلويا.</td>
         </tr>
         <tr id="table_39_row_48" class="north">
@@ -6707,7 +6706,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Loosen for me: all the bonds of sin: My Lord
                 Jesus Christ: help me.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲃⲱⲗ ⲉ̀ⲃⲟⲗ ϩⲁⲣⲟⲓ : ⲛ̀ⲛⲓⲥ̀ⲛⲁⲩϩ ⲛ̀ⲧⲉ ⲫ̀ⲛⲟⲃⲓ : Ⲡⲁϭⲟⲓⲥ
-                Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ .</td>
+                Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ.</td>
             <td class="arabic">حلّ عنى رباطات الخطية ياربى يسوع المسيح أعنى.</td>
         </tr>
         <tr id="table_41_row_2" class="north">
@@ -6749,7 +6748,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">All the creation: glorifies Your Name: My Lord
                 Jesus Christ: help me.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲏⲥ ϯⲕ̀ⲧⲏⲥⲓⲥ ⲧⲏⲣⲥ : ⲥⲉϯⲱ̀ⲟⲩ ⲙ̀ⲡⲉⲕⲣⲁⲛ : Ⲡⲁϭⲟⲓⲥ
-                Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ .</td>
+                Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ.</td>
             <td class="arabic">ها كل البرية تمجد اسمك: ياربى يسوع أعنى.</td>
         </tr>
         <tr id="table_41_row_8" class="north">
@@ -6763,7 +6762,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Make haste, O my God: so that You may save me: My
                 Lord Jesus Christ: help me.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲓⲱⲥ ⲙ̀ⲙⲟⲕ Ⲡⲁⲛⲟⲩϯ : ⲉⲑⲣⲉⲕⲥⲱϯ ⲙ̀ⲙⲟⲓ : Ⲡⲁϭⲟⲓⲥ Ⲓⲏⲥⲟⲩⲥ
-                Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ .</td>
+                Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ.</td>
             <td class="arabic">أسرع ياإلهي لتخلصنى : ياربى يسوع أعنى.</td>
         </tr>
         <tr id="table_41_row_10" class="north">
@@ -6777,7 +6776,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">All the diverse tongues: together bless Your
                 Name: My Lord Jesus Christ: help me.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲗⲁⲥ ⲛⲓⲃⲉⲛ ⲉⲩⲥⲟⲡ : ⲥⲉⲥ̀ⲙⲟⲩ ⲉ̀ⲡⲉⲕⲣⲁⲛ : Ⲡⲁϭⲟⲓⲥ Ⲓⲏⲥⲟⲩⲥ
-                Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ .</td>
+                Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ.</td>
             <td class="arabic">كل الألسنة معاً تبارك اسمك : ياربى يسوع المسيح أعنى.</td>
         </tr>
         <tr id="table_41_row_12" class="north">
@@ -6791,7 +6790,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Blot out, O God: all my iniquities: My Lord Jesus
                 Christ: help me.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲛⲁⲁ̀ⲛⲟⲙⲓⲁ̀ ⲧⲏⲣⲟⲩ : Ⲫϯ ⲉⲕⲉ̀ⲥⲟⲗϫⲟⲩ : Ⲡⲁϭⲟⲓⲥ Ⲓⲏⲥⲟⲩⲥ
-                Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ .</td>
+                Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ.</td>
             <td class="arabic">جميع آثامى يا الله امحها : ياربى يسوع المسيح أعنى.</td>
         </tr>
         <tr id="table_41_row_14" class="north">
@@ -6805,7 +6804,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Create in me: a clean heart: My Lord Jesus
                 Christ: help me.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲟⲩϩⲏⲧ ⲉ̀ϥⲟⲩⲁⲃ : ⲉⲕⲉ̀ⲥⲟⲛⲧϥ ⲛ̀ϧⲏⲧ : Ⲡⲁϭⲟⲓⲥ Ⲓⲏⲥⲟⲩⲥ
-                Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ .</td>
+                Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ.</td>
             <td class="arabic">قلباً طاهراً أخلقه فيّ: ياربى يسوع المسيح أعنى.</td>
         </tr>
         <tr id="table_41_row_16" class="north">
@@ -6819,7 +6818,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Incline Your ears: make haste and hear me: My
                 Lord Jesus Christ: help me.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲣⲉⲕ ⲡⲉⲕⲙⲁϣϫ ⲉ̀ⲣⲟⲓ : ⲥⲱⲧⲉⲙ ⲉ̀ⲣⲟⲓ ⲛ̀ⲭⲱⲗⲉⲙ : Ⲡⲁϭⲟⲓⲥ
-                Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ .</td>
+                Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ.</td>
             <td class="arabic">أمل سمعك إلىّ واستجب لى عاجلاً: ياربى يسوع المسيح أعنى.</td>
         </tr>
         <tr id="table_41_row_18" class="north">
@@ -6833,7 +6832,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Your Kingdom O my God: is an eternal kingdom: My
                 Lord Jesus Christ: help me.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲉⲕⲙⲉⲧⲟⲩⲣⲟ Ⲡⲁⲛⲟⲩϯ: ⲟⲩⲙⲉⲧⲟⲩⲣⲟ ⲛ̀ⲉ̀ⲛⲉϩ : Ⲡⲁϭⲟⲓⲥ
-                Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ .</td>
+                Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ.</td>
             <td class="arabic">ملكوتك ياإلهى ملكوت أبدى: ياربى يسوع المسيح أعنى.</td>
         </tr>
         <tr id="table_41_row_20" class="north">
@@ -6847,7 +6846,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">You Who carries the sins of the world: Have mercy
                 upon me: My Lord Jesus Christ: help me.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲫⲏⲉⲧⲱ̀ⲗⲓ ⲙ̀ⲫ̀ⲛⲟⲃⲓ : ⲛ̀ⲧⲉ ⲡⲓⲕⲟⲥⲙⲟⲥ ⲛⲁⲓ ⲛⲏⲓ : Ⲡⲁϭⲟⲓⲥ
-                Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ .</td>
+                Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ.</td>
             <td class="arabic">ياحامل خطية العالم ارحمنى : ياربى يسوع المسيح أعنى.</td>
         </tr>
         <tr id="table_41_row_22" class="north">
@@ -6861,7 +6860,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">All of the souls: together bless Your Name: My
                 Lord Jesus Christ: help me.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲯⲩⲭⲏ ⲛⲓⲃⲉⲛ ⲉⲩⲥⲟⲡ : ⲥⲉⲥ̀ⲙⲟⲩ ⲉ̀ⲡⲉⲕⲣⲁⲛ : Ⲡⲁϭⲟⲓⲥ
-                Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ .</td>
+                Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ.</td>
             <td class="arabic">كل الأنفس معاً تبارك اسمك : ياربى يسوع المسيح أعنى.</td>
         </tr>
         <tr id="table_41_row_24" class="north">
@@ -6875,7 +6874,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Early in the morning: I will rise and Bless Your
                 Name: My Lord Jesus Christ: help me.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ϣⲁⲓⲧⲱⲛⲧ ⲙ̀ⲫ̀ⲛⲁⲩ ⲛ̀ϣⲱⲣⲡ : ⲛ̀ⲧⲁⲥ̀ⲙⲟⲩ ⲉ̀ⲡⲉⲕⲣⲁⲛ :
-                Ⲡⲁϭⲟⲓⲥ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ .</td>
+                Ⲡⲁϭⲟⲓⲥ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ.</td>
             <td class="arabic">أقوم وقت السحر لأبارك اسمك: ياربى يسوع المسيح أعنى.</td>
         </tr>
         <tr id="table_41_row_26" class="north">
@@ -6889,7 +6888,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">In the accepted time: hear me: My Lord Jesus
                 Christ: help me.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ϧⲉⲛ ⲟⲩⲥⲏⲟⲩ ⲉϥϣⲏⲡ ⲉⲕⲉ̀ⲥⲱⲧⲉⲙ ⲉ̀ⲣⲟⲓ : Ⲡⲁϭⲟⲓⲥ Ⲓⲏⲥⲟⲩⲥ
-                Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ .</td>
+                Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ.</td>
             <td class="arabic">فى زمن مقبول استجب لى : ياربى يسوع المسيح أعنى.</td>
         </tr>
         <tr id="table_41_row_28" class="north">
@@ -6903,7 +6902,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Disperse away from me: all of the devils: My Lord
                 Jesus Christ: help me.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ϫⲱⲣ ⲉ̀ⲃⲟⲗ ϩⲁⲣⲟⲓ : ⲛ̀ⲇⲓⲁ̀ⲃⲟⲗⲏ ⲛⲓⲃⲉⲛ : Ⲡⲁϭⲟⲓⲥ Ⲓⲏⲥⲟⲩⲥ
-                Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ .</td>
+                Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ.</td>
             <td class="arabic">فرق عنى كل الابالسة: ياربى يسوع المسيح أعنى.</td>
         </tr>
         <tr id="table_41_row_30" class="north">
@@ -6917,7 +6916,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Grant us Your true peace: and forgive us our
                 sins: My Lord Jesus Christ: help me.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ϯⲛⲁⲛ ⲛ̀ⲧⲉⲕϩⲓⲣⲏⲛⲏ ⲙ̀ⲙⲏⲓ : ⲭⲁ ⲛⲉⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ :
-                Ⲡⲁϭⲟⲓⲥ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ : ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ .</td>
+                Ⲡⲁϭⲟⲓⲥ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ : ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ.</td>
             <td class="arabic">أعطنا سلامك الحقيقى وأغفر لنا خطايانا: ياربى يسوع المسيح أعني</td>
         </tr>
     </table>
@@ -7297,14 +7296,14 @@ ${htmlRenderScript}
                 the Name, Of my Lord Jesus.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲗⲟⲓⲡⲟⲛ ⲁⲛϣⲁⲛⲑⲱⲟⲩϯ: ⲉ̀ϯⲡ̀ⲣⲟⲥⲉⲩⲭⲏ: ⲙⲁⲣⲉⲛⲥ̀ⲙⲟⲩ
                 ⲉ̀ⲡⲓⲣⲁⲛ: ⲛ̀ⲧⲉ Ⲡⲁϭⲟⲓⲥ Ⲓⲏⲥⲟⲩⲥ</td>
-            <td class="arabic">وايضاً أذا ما اجتمعنا للصلاة فلنبارك اسم ربى يسوع .</td>
+            <td class="arabic">وايضاً أذا ما اجتمعنا للصلاة فلنبارك اسم ربى يسوع.</td>
         </tr>
         <tr id="table_43_row_1" class="south">
             <td class="english" style="border-right: 1px solid black;">We bless You, O my Lord Jesus. Deliver us through
                 Your Name, For we have hope in You.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ϫⲉ ⲧⲉⲛⲛⲁⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟⲕ: ⲱ̀ Ⲡⲁϭⲟⲓⲥ Ⲓⲏⲥⲟⲩⲥ: ⲛⲁϩⲙⲉⲛ ϧⲉⲛ
-                ⲡⲉⲕⲣⲁⲛ : ϫⲉ ⲁⲛⲉⲣϩⲉⲗⲡⲓⲥ ⲉ̀ⲣⲟⲕ .</td>
-            <td class="arabic">لاننا نباركك ياربى يسوع نجنا باسمك لأننا توكلنا عليك .</td>
+                ⲡⲉⲕⲣⲁⲛ : ϫⲉ ⲁⲛⲉⲣϩⲉⲗⲡⲓⲥ ⲉ̀ⲣⲟⲕ.</td>
+            <td class="arabic">لاننا نباركك ياربى يسوع نجنا باسمك لأننا توكلنا عليك.</td>
         </tr>
         <tr id="table_43_row_2" class="north">
             <td class="english" style="border-right: 1px solid black;">That we may praise You, With Your Good Father,
@@ -7362,14 +7361,14 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Who was incarnate, Of you without change, And
                 became the Mediator, Of a new covenant.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲫⲁⲓ ⲉ̀ⲧⲁϥϭⲓⲥⲁⲣⲝ ⲛ̀ϧⲏϯ : ϧⲉⲛ ⲟⲩⲙⲉⲧⲁⲧϣⲓⲃϯ : ⲁϥϣⲱⲡⲓ
-                ⲙ̀ⲙⲉⲥⲓⲧⲏⲥ : ⲉⲩⲇⲓⲁ̀ⲑⲏⲕⲏ ⲙ̀ⲃⲉⲣⲓ .</td>
-            <td class="arabic">هذا الذى تجسد منك بغير تغيير . وصار وسيطاً لعهد جديد.</td>
+                ⲙ̀ⲙⲉⲥⲓⲧⲏⲥ : ⲉⲩⲇⲓⲁ̀ⲑⲏⲕⲏ ⲙ̀ⲃⲉⲣⲓ.</td>
+            <td class="arabic">هذا الذى تجسد منك بغير تغيير. وصار وسيطاً لعهد جديد.</td>
         </tr>
         <tr id="table_44_row_5" class="south">
             <td class="english" style="border-right: 1px solid black;">Through the shedding, Of His holy Blood, He
                 purified the faithful, to be a justified people.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲉⲃⲟⲗϩⲓⲧⲉⲛ ⲫ̀ⲛⲟⲩϫϧ : ⲛ̀ⲧⲉ ⲡⲉϥⲥ̀ⲛⲟϥ ⲉⲑⲟⲩⲁⲃ : ⲁϥⲧⲟⲩⲃⲟ
-                ⲛ̀ⲛⲏⲉⲑⲛⲁϩϯ : ⲉⲩⲗⲁⲟⲥ ⲉⲩⲑ̀ⲙⲁⲓⲟϥ .</td>
+                ⲛ̀ⲛⲏⲉⲑⲛⲁϩϯ : ⲉⲩⲗⲁⲟⲥ ⲉⲩⲑ̀ⲙⲁⲓⲟϥ.</td>
             <td class="arabic">من قبل رشاش دمـه المقدس طهر المؤمنين شعباً مبرراً.</td>
         </tr>
         <tr id="table_44_row_6" class="north">
@@ -7377,7 +7376,7 @@ ${htmlRenderScript}
                 Mother of God, The ever holy.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲉⲑⲃⲉ ⲫⲁⲓ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ : ⲥⲉϭⲓⲥⲓ ⲙ̀ⲙⲟ : ⲧⲁϭⲟⲓⲥ
                 ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ : ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ.</td>
-            <td class="arabic">من أجل هذا كل واحد يعظمك يا سيدتى والدة الاله القديسة كل حين .</td>
+            <td class="arabic">من أجل هذا كل واحد يعظمك يا سيدتى والدة الاله القديسة كل حين.</td>
         </tr>
         <tr id="table_44_row_7" class="south">
             <td class="english" style="border-right: 1px solid black;">And we also pray, that we may win mercy, Through
@@ -7391,7 +7390,7 @@ ${htmlRenderScript}
                 Which Moses had made, On Mount Sinai.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲛⲓⲙ ⲡⲉⲑⲛⲁϣ̀ⲥⲁϫⲓ : ⲙ̀ⲡ̀ⲧⲁⲓⲟ̀ ⲛ̀ϯⲥ̀ⲕⲏⲛⲏ : ⲉ̀ⲧⲁ
                 Ⲙⲱⲩ̀ⲥⲏⲥ ⲑⲁⲙⲓⲟⲥ : ϩⲓϫⲉⲛ ⲡ̀ⲧⲱⲟⲩ ⲛ̀Ⲥⲓⲛⲁ.</td>
-            <td class="arabic">من يقدر أن ينطق بكرامة القبة التى صنعها موسى على جبل سيناء .</td>
+            <td class="arabic">من يقدر أن ينطق بكرامة القبة التى صنعها موسى على جبل سيناء.</td>
         </tr>
         <tr id="table_44_row_9" class="south">
             <td class="english" style="border-right: 1px solid black;">He made it with glory, As commanded by the Lord,
@@ -7411,7 +7410,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">They likened it to you, O Virgin Mary, The true
                 Tabernacle, Wherein dwelt God.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲁⲩⲧⲉⲛⲑⲱⲛⲓ ⲉ̀ⲣⲟⲥ : Ⲙⲁⲣⲓⲁ ϯⲡⲁⲣⲑⲉⲛⲟⲥ ϯⲥ̀ⲕⲏⲛⲏ ⲙ̀ⲙⲏⲓ :
-                ⲉ̀ⲣⲉ Ⲫϯ ⲥⲁϧⲟⲩⲛ ⲙ̀ⲙⲟⲥ .</td>
+                ⲉ̀ⲣⲉ Ⲫϯ ⲥⲁϧⲟⲩⲛ ⲙ̀ⲙⲟⲥ.</td>
             <td class="arabic">شبهوك بها يامريم العذراء القبة الحقيقية التى فى داخلها الله.</td>
         </tr>
         <tr id="table_44_row_12" class="north">
@@ -7551,7 +7550,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Holy, Holy, Holy; a reading from the Gospel
                 according to our teacher St. Luke [1: 46-50] the Evangelist. May his blessings be with us all. Amen.
             </td>
-            <td class="arabic">قدوس قدوس قدوس . فصل من الإنجيل بحسب لوقا (١ :٤٦-٥٠ ) البشير . بركاته تكون معنا . آمين.
+            <td class="arabic">قدوس قدوس قدوس. فصل من الإنجيل بحسب لوقا (١ :٤٦-٥٠ ) البشير. بركاته تكون معنا. آمين.
             </td>
         </tr>
         <tr id="table_45_row_17" class="south">
@@ -7560,9 +7559,9 @@ ${htmlRenderScript}
                 behold, from henceforth all generations shall call me blessed. For He that is mighty has done great
                 things and Holy is His Name. And His mercy is on them that fear Him from generation to generation. And
                 Glory be to God forever. Amen</td>
-            <td class="arabic">فقالت مريم تعظم نفسى الرب . وتتهلل روحى بالله مخلصى لأنه نظر إلى تواضع أمته . هوذا منذ
-                الآن تعطينى الطوبى. جميع الأجيال . صنع بى القوى عظائم. قدوس اسمه ورحمته إلى جيل الأجيال لخائفيه"
-                والمجد لله دائماً أبدياً . آمين.</td>
+            <td class="arabic">فقالت مريم تعظم نفسى الرب. وتتهلل روحى بالله مخلصى لأنه نظر إلى تواضع أمته. هوذا منذ
+                الآن تعطينى الطوبى. جميع الأجيال. صنع بى القوى عظائم. قدوس اسمه ورحمته إلى جيل الأجيال لخائفيه"
+                والمجد لله دائماً أبدياً. آمين.</td>
         </tr>
     </table>
     <br>
@@ -7608,7 +7607,7 @@ ${htmlRenderScript}
                 Mother of God, The ever holy.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲉⲑⲃⲉ ⲫⲁⲓ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ : ⲥⲉϭⲓⲥⲓ ⲙ̀ⲙⲟ : ⲧⲁϭⲟⲓⲥ
                 ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ : ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ.</td>
-            <td class="arabic">من أجل هذا كل واحد يعظمك ياسيدتى والدة الاله القديسة كل حين .</td>
+            <td class="arabic">من أجل هذا كل واحد يعظمك ياسيدتى والدة الاله القديسة كل حين.</td>
         </tr>
         <tr id="table_46_row_6" class="north">
             <td class="english" style="border-right: 1px solid black;">And we also pray, that we may win mercy, Through
@@ -7789,7 +7788,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Holy, Holy, Holy; a reading from the Gospel
                 according to our teacher St. Luke [1: 51-55] the Evangelist. May his blessings be with us all. Amen.
             </td>
-            <td class="arabic">قدوس قدوس قدوس . فصل من الانجيل بحسب لوقا (١ :٥١-٥٥ ) البشير . بركاته تكون معنا . آمين.
+            <td class="arabic">قدوس قدوس قدوس. فصل من الانجيل بحسب لوقا (١ :٥١-٥٥ ) البشير. بركاته تكون معنا. آمين.
             </td>
         </tr>
         <tr id="table_47_row_17" class="south">
@@ -7833,7 +7832,7 @@ ${htmlRenderScript}
                 Mother of God, The ever holy.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲉⲑⲃⲉ ⲫⲁⲓ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ : ⲥⲉϭⲓⲥⲓ ⲙ̀ⲙⲟ : ⲧⲁϭⲟⲓⲥ
                 ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ : ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ.</td>
-            <td class="arabic">من أجل هذا كل واحد يعظمك ياسيدتى والدة الاله القديسة كل حين .</td>
+            <td class="arabic">من أجل هذا كل واحد يعظمك ياسيدتى والدة الاله القديسة كل حين.</td>
         </tr>
         <tr id="table_48_row_4" class="north">
             <td class="english" style="border-right: 1px solid black;">And we also pray, that we may win mercy, Through
@@ -7854,7 +7853,7 @@ ${htmlRenderScript}
                 Holies, In the Second Tabernacle.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲉⲩⲉⲣϧⲏⲓⲃⲓ ⲉ̀ϩ̀ⲣⲏⲓ : ϩⲓϫⲉⲛ ⲡⲓⲙⲁ ⲉⲑⲟⲩⲁⲃ : ⲛ̀ⲧⲉ
                 ⲛⲏⲉⲑⲟⲩⲁⲃ : ϧⲉⲛ ϯⲥ̀ⲕⲏⲛⲏ ⲙ̀ⲙⲁϩⲥ̀ⲛⲟⲩϯ.</td>
-            <td class="arabic">يظللان على موضع قدس الأقداس فى القبة الثانية .</td>
+            <td class="arabic">يظللان على موضع قدس الأقداس فى القبة الثانية.</td>
         </tr>
         <tr id="table_48_row_7" class="south">
             <td class="english" style="border-right: 1px solid black;">You too O Mary, Thousands of thousands, And
@@ -8007,7 +8006,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Holy, Holy, Holy; a reading from the Gospel
                 according to our teacher St. Luke [1: 68-72] the Evangelist. May his blessings be with us all. Amen.
             </td>
-            <td class="arabic">قدوس قدوس قدوس . فصل من الانجيل بحسب لوقا (١ :٦٨-٧٢) البشير . بركاته تكون معنا . آمين.
+            <td class="arabic">قدوس قدوس قدوس. فصل من الانجيل بحسب لوقا (١ :٦٨-٧٢) البشير. بركاته تكون معنا. آمين.
             </td>
         </tr>
         <tr id="table_49_row_17" class="south">
@@ -8039,7 +8038,7 @@ ${htmlRenderScript}
                 Mother of God, The ever holy.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲉⲑⲃⲉ ⲫⲁⲓ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ : ⲥⲉϭⲓⲥⲓ ⲙ̀ⲙⲟ : ⲧⲁϭⲟⲓⲥ
                 ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ : ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ.</td>
-            <td class="arabic">من أجل هذا كل واحد يعظمك ياسيدتى والدة الاله القديسة كل حين .</td>
+            <td class="arabic">من أجل هذا كل واحد يعظمك ياسيدتى والدة الاله القديسة كل حين.</td>
         </tr>
         <tr id="table_50_row_3" class="south">
             <td class="english" style="border-right: 1px solid black;">And we also pray, that we may win mercy, Through
@@ -8052,8 +8051,8 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">It befits you, to be called, The golden Pot,
                 where the Manna was hidden.</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ϥⲧⲱⲙⲓ ⲅⲁⲣ ⲉ̀ⲣⲟ : ⲉⲑⲣⲟⲩⲙⲟⲩϯ ⲉ̀ⲡⲉⲣⲁⲛ : ϫⲉ
-                ⲡⲓⲥ̀ⲧⲁⲙⲛⲟⲥ ⲛ̀ⲛⲟⲩⲃ : ⲉ̀ⲣⲉ ⲡⲓⲙⲁⲛⲛⲁ ϩⲏⲡ ⲛ̀ϧⲏⲧϥ .</td>
-            <td class="arabic">يليق بك أن يدعى اسمك قسط الذهب المخفى فية المن .</td>
+                ⲡⲓⲥ̀ⲧⲁⲙⲛⲟⲥ ⲛ̀ⲛⲟⲩⲃ : ⲉ̀ⲣⲉ ⲡⲓⲙⲁⲛⲛⲁ ϩⲏⲡ ⲛ̀ϧⲏⲧϥ.</td>
+            <td class="arabic">يليق بك أن يدعى اسمك قسط الذهب المخفى فية المن.</td>
         </tr>
         <tr id="table_50_row_5" class="south">
             <td class="english" style="border-right: 1px solid black;">For that was kept, In the Tabernacle, As a
@@ -8081,7 +8080,7 @@ ${htmlRenderScript}
                 His honored Body and Blood, And we live forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">̀  Ⲁⲣⲉⲙⲁⲥϥ ⲁϭⲛⲉ ⲑⲱⲗⲉⲃ : ⲁϥϯ ⲛⲁⲛ ⲙ̀ⲡⲉϥⲥⲱⲙⲁ : ⲛⲉⲙ
                 ⲡⲉϥⲥ̀ⲛⲟϥ  ⲉⲧⲧⲁⲓⲏⲟⲩⲧ : ⲁⲛⲱⲛϧ ϣⲁ ⲉ̀ⲛⲉϩ.</td>
-            <td class="arabic">وولدته بغير دنس. وأعطانا جسده ودمه الكريميين فحيينا إلى الآبد .</td>
+            <td class="arabic">وولدته بغير دنس. وأعطانا جسده ودمه الكريميين فحيينا إلى الآبد.</td>
         </tr>
         <tr id="table_50_row_9" class="south">
             <td class="english" style="border-right: 1px solid black;">Wherefore we, magnify you befittingly, With
@@ -8220,7 +8219,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Holy, Holy, Holy; a reading from the Gospel
                 according to our teacher St. Luke [1: 73-77] the Evangelist. May his blessings be with us all. Amen.
             </td>
-            <td class="arabic">قدوس قدوس قدوس . فصل من الانجيل بحسب لوقا (١:٧٣-٧٧) البشير . بركاته تكون معنا . آمين.
+            <td class="arabic">قدوس قدوس قدوس. فصل من الانجيل بحسب لوقا (١:٧٣-٧٧) البشير. بركاته تكون معنا. آمين.
             </td>
         </tr>
         <tr id="table_51_row_17" class="south">
@@ -8238,7 +8237,7 @@ ${htmlRenderScript}
                 Carrying, the ever-burning lamp.</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲛⲑⲟ ⲧⲉ ϯⲗⲩⲭⲛⲓⲁ̀ : ⲛ̀ⲛⲟⲩⲃ ⲉⲧⲧⲟⲩⲃⲏⲟⲩⲧ : ⲉⲧϥⲁⲓ ϧⲁ
                 ⲡⲓⲗⲁⲙⲡⲁⲥ : ⲉⲑⲙⲟϩ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ.</td>
-            <td class="arabic">أنت المنارة الذهب النقى الحاملة المصباح المتقد كل حين .</td>
+            <td class="arabic">أنت المنارة الذهب النقى الحاملة المصباح المتقد كل حين.</td>
         </tr>
         <tr id="table_52_row_1" class="south">
             <td class="english" style="border-right: 1px solid black;">That is the unapproachable, light of the world,
@@ -8252,7 +8251,7 @@ ${htmlRenderScript}
                 Of you without change.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲡⲓⲛⲟⲩϯ ⲛ̀ⲧⲁⲫ̀ⲙⲏⲓ : ⲉ̀ⲃⲟⲗϧⲉⲛ ⲟⲩⲛⲟⲩϯ ⲛ̀ⲧⲁⲫ̀ⲙⲏⲓ :
                 ⲉ̀ⲧⲁϥϭⲓⲥⲁⲣⲝ ⲛ̀ϧⲏϯ : ϧⲉⲛ ⲟⲩⲙⲉⲧⲁⲧϣⲓⲃϯ.</td>
-            <td class="arabic">الاله الحق من الاله الحق . الذى تجسد منك بغير تغيير.</td>
+            <td class="arabic">الاله الحق من الاله الحق. الذى تجسد منك بغير تغيير.</td>
         </tr>
         <tr id="table_52_row_3" class="south">
             <td class="english" style="border-right: 1px solid black;">By His coming, He gave light to us, Who were
@@ -8273,7 +8272,7 @@ ${htmlRenderScript}
                 Mother of God, The ever holy.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲉⲑⲃⲉ ⲫⲁⲓ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ : ⲥⲉϭⲓⲥⲓ ⲙ̀ⲙⲟ : ⲧⲁϭⲟⲓⲥ
                 ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ : ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ.</td>
-            <td class="arabic">من أجل هذا كل واحد يعظمك ياسيدتى والدة الاله القديسة كل حين .</td>
+            <td class="arabic">من أجل هذا كل واحد يعظمك ياسيدتى والدة الاله القديسة كل حين.</td>
         </tr>
         <tr id="table_52_row_6" class="north">
             <td class="english" style="border-right: 1px solid black;">And we also pray, that we may win mercy, Through
@@ -8301,13 +8300,13 @@ ${htmlRenderScript}
                 brought oil for its lamps, By day and by night.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲥⲉⲉⲣⲕⲉⲃⲉⲣⲛⲓⲧⲏⲥ ⲉ̀ⲣⲟⲥ : ϩⲓⲧⲉⲛ ϩⲁⲛϫⲓϫ ⲛ̀ⲣⲱⲙⲓ :
                 ⲉⲩϯⲛⲉϩ ⲛ̀ⲥⲁ ⲛⲉⲥ  ⲗⲁⲙⲡⲁⲥ : ⲙ̀ⲡⲓⲉ̀ϩⲟⲟⲩ ⲛⲉⲙ ⲡⲓⲉ̀ϫⲱⲣϩ.</td>
-            <td class="arabic">تُدبر بايدى البشر . اذ يعطى زيت لمصابيحها نهاراً وليلاً.</td>
+            <td class="arabic">تُدبر بايدى البشر. اذ يعطى زيت لمصابيحها نهاراً وليلاً.</td>
         </tr>
         <tr id="table_52_row_10" class="north">
             <td class="english" style="border-right: 1px solid black;">He Who dwelt in your womb, O Virgin Mary, gives
                 light to every man, who comes into the world.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲫⲏⲉⲧⲭⲏ ϧⲉⲛ ⲧⲉⲛⲉϫⲓ : Ⲙⲁⲣⲓⲁ̀ ϯⲡⲁⲣⲑⲉⲛⲟⲥ : ⲁϥⲉⲣⲟⲩⲱⲓⲛⲓ
-                ⲉ̀ⲣⲱⲙⲓ ⲛⲓⲃⲉⲛ : ⲉⲑⲛⲏⲟⲩ ⲉ̀ⲡⲓⲕⲟⲥⲙⲟⲥ .</td>
+                ⲉ̀ⲣⲱⲙⲓ ⲛⲓⲃⲉⲛ : ⲉⲑⲛⲏⲟⲩ ⲉ̀ⲡⲓⲕⲟⲥⲙⲟⲥ.</td>
             <td class="arabic">والذى فى بطنك يا مريم العذراء اضاء لكل انسان آت الى العالم.</td>
         </tr>
         <tr id="table_52_row_11" class="south">
@@ -8454,7 +8453,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Holy, Holy, Holy; a reading from the Gospel
                 according to our teacher St. Luke [1: 78-79] the Evangelist. May his blessings be with us all. Amen.
             </td>
-            <td class="arabic">قدوس قدوس قدوس . فصل من الانجيل بحسب لوقا (١ : ٧٨-٧٩ ) البشير  . بركاته تكون معنا . آمين.</td>
+            <td class="arabic">قدوس قدوس قدوس. فصل من الانجيل بحسب لوقا (١ : ٧٨-٧٩ ) البشير. بركاته تكون معنا. آمين.</td>
         </tr>
         <tr id="table_53_row_17" class="south">
             <td class="english" style="border-right: 1px solid black;"> Through the tender mercy of our God, with which the dayspring from on high has visited us. To give light to those who sit in darkness and the shadow of death, to guide our feet into the way of peace."  And Glory be to God forever. Amen 
@@ -8492,7 +8491,7 @@ ${htmlRenderScript}
                 Mother of God, The ever holy.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲉⲑⲃⲉ ⲫⲁⲓ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ : ⲥⲉϭⲓⲥⲓ ⲙ̀ⲙⲟ : ⲧⲁϭⲟⲓⲥ
                 ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ : ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ.</td>
-            <td class="arabic">من أجل هذا كل واحد يعظمك ياسيدتى والدة الاله القديسة كل حين .</td>
+            <td class="arabic">من أجل هذا كل واحد يعظمك ياسيدتى والدة الاله القديسة كل حين.</td>
         </tr>
         <tr id="table_54_row_4" class="north">
             <td class="english" style="border-right: 1px solid black;">And we also pray, that we may win mercy, Through
@@ -8526,7 +8525,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">You too O Mary, Have carried in your womb, The
                 Invisible, Word Of the Father.</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲛⲑⲟ Ϩⲱⲓ Ⲙⲁⲣⲓⲁ̀ : ⲁ̀ⲣⲉϥⲁⲓ ϧⲉⲛ ⲧⲉⲛⲉϫⲓ :
-                ⲙ̀ⲡⲓⲁⲧϣ̀ⲛⲁⲩ ⲉ̀ⲣⲟϥ : ⲛ̀ⲗⲟⲅⲟⲥ ⲛ̀ⲧⲉ ̀  Ⲫⲓⲱⲧ .</td>
+                ⲙ̀ⲡⲓⲁⲧϣ̀ⲛⲁⲩ ⲉ̀ⲣⲟϥ : ⲛ̀ⲗⲟⲅⲟⲥ ⲛ̀ⲧⲉ ̀  Ⲫⲓⲱⲧ.</td>
             <td class="arabic">وأنت يامريم حملت فى بطنك الغير منظور كلمة الآب.</td>
         </tr>
         <tr id="table_54_row_9" class="south">
@@ -8675,7 +8674,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Holy, Holy, Holy; a reading from the Gospel
                 according to our teacher St. Luke [2: 29-32] the Evangelist. May his blessings be with us all. Amen.
             </td>
-            <td class="arabic">قدوس قدوس قدوس . فصل من الانجيل بحسب لوقا (٢ : ٢٩-٣٢)  البشير  . بركاته تكون معنا . آمين.</td>
+            <td class="arabic">قدوس قدوس قدوس. فصل من الانجيل بحسب لوقا (٢ : ٢٩-٣٢)  البشير. بركاته تكون معنا. آمين.</td>
         </tr>
         <tr id="table_55_row_18" class="north">
             <td class="english" style="border-right: 1px solid black;">(The Gospel According to St. Luke) (CH. 2: 29-32)
@@ -8690,7 +8689,7 @@ ${htmlRenderScript}
                 Glory be to God forever.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲛ ⲛⲟⲩ ⲡⲁⲛⲏⲃ ⲭ̀ⲛⲁⲭⲁ ⲡⲉⲕⲃⲱⲕ ⲉ̀ⲃⲟⲗ : ϧⲉⲛ ⲟⲩϩⲓⲣⲏⲛⲏ
                 ⲕⲁⲧⲁ ⲡⲉⲕⲥⲁϫⲓ : ϫⲉ ⲁⲩⲛⲁⲩ ⲛ̀ϫⲉ ⲛⲁⲃⲁⲗ ⲉ̀ⲡⲉⲕⲛⲟϩⲉⲙ : ⲫⲏⲉ̀ⲧⲁⲕ ⲥⲉⲃⲧⲱⲧϥ ⲙ̀ⲡⲉ ⲙ̀ⲑⲟ ⲛ̀ⲛⲓⲗⲁⲟⲥ ⲧⲏⲣⲟⲩ. Ⲟⲩⲟⲩⲱⲓⲛⲓ
-                ⲉⲩϭⲱⲣⲡⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ϩⲁⲛⲉⲑⲛⲟⲥ : ⲛⲉⲙ ⲟⲩⲱ̀ⲟⲩ ⲛ̀ⲧⲉ ⲡⲉⲕⲗⲁⲟⲥ Ⲡⲓⲥⲣⲁⲏⲗ .</td>
+                ⲉⲩϭⲱⲣⲡⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ϩⲁⲛⲉⲑⲛⲟⲥ : ⲛⲉⲙ ⲟⲩⲱ̀ⲟⲩ ⲛ̀ⲧⲉ ⲡⲉⲕⲗⲁⲟⲥ Ⲡⲓⲥⲣⲁⲏⲗ.</td>
             <td class="arabic">الآن ياسيد تطلق عبدك بسلام كقولك. لأن عينىّ قد ابصرتا خلاصك الذى أعددتة قدام جميع الشعوب.
                 نوراً تجلى للأمم ومجداً لشعبك اسرائيل.</td>
         </tr>
@@ -8703,14 +8702,14 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Hail to you Mary, The beautiful dove, Who gave
                 birth, to God the Word for us.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ     Ⲙⲁⲣⲓⲁ̀   :   ϯϭⲣⲟⲙⲡⲓ    ⲉⲑⲛⲉⲥⲱⲥ   
-                :     ⲑⲏⲉ̀ⲧⲁⲥⲙⲓⲥⲓ      ⲛⲁⲛ  :   ⲙ̀Ⲫϯ    ⲡⲓⲗⲟⲅⲟⲥ  .</td>
+                :     ⲑⲏⲉ̀ⲧⲁⲥⲙⲓⲥⲓ      ⲛⲁⲛ  :   ⲙ̀Ⲫϯ    ⲡⲓⲗⲟⲅⲟⲥ .</td>
             <td class="arabic">السلام لك يا مريم الحمامة الحسنة التي ولدت لنا الله الكلمة.</td>
         </tr>
         <tr id="table_56_row_1" class="south">
             <td class="english" style="border-right: 1px solid black;">You are the flower, Of incense, that has
                 blossomed, from The root of Jesse.</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲛⲑⲟ   ⲧⲉ   ϯϩ̀ⲣⲏⲣⲓ   :   ⲛ̀ⲧⲉ ⲡⲓⲥ̀ⲑⲟⲓⲛⲟⲩϥⲓ  
-                :     ⲑⲏⲉⲧⲁⲥⲫⲓⲣⲓ ⲉ̀ⲃⲟⲗ    :   ϧⲉⲛ     ⲑ̀ⲛⲟⲩⲛⲓ    ⲛ̀Ⲓⲉⲥⲥⲉ  .</td>
+                :     ⲑⲏⲉⲧⲁⲥⲫⲓⲣⲓ ⲉ̀ⲃⲟⲗ    :   ϧⲉⲛ     ⲑ̀ⲛⲟⲩⲛⲓ    ⲛ̀Ⲓⲉⲥⲥⲉ .</td>
             <td class="arabic">أنت زهرة البخور التي أينعت من أصل يسىّ.</td>
         </tr>
         <tr id="table_56_row_2" class="north">
@@ -8724,7 +8723,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">You who gave birth to Christ, Our true God,
                 Without the seed of man, and Remained a virgin.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲱ̀ⲑⲏⲉⲧⲁⲥⲙⲉⲥ    Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ:       Ⲡⲉⲛⲛⲟⲩϯ ϧⲉⲛ    
-                ⲟⲩⲙⲉⲑⲙⲏⲓ : ⲁϭⲛⲉ     ⲥ̀ⲡⲉⲣⲙⲁ ⲛ̀ⲣⲱⲙⲓ: ⲉⲥⲟⲓ  ⲙ̀ⲡⲁⲣⲑⲉⲛⲟⲥ  .</td>
+                ⲟⲩⲙⲉⲑⲙⲏⲓ : ⲁϭⲛⲉ     ⲥ̀ⲡⲉⲣⲙⲁ ⲛ̀ⲣⲱⲙⲓ: ⲉⲥⲟⲓ  ⲙ̀ⲡⲁⲣⲑⲉⲛⲟⲥ .</td>
             <td class="arabic">يامن ولدت المسيح إلهنا بالحقيقة وبغير زرع بشر وأنت عذراء.</td>
         </tr>
         <tr id="table_56_row_4" class="north">
@@ -8732,7 +8731,7 @@ ${htmlRenderScript}
                 Mother of God, The ever holy.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲉⲑⲃⲉ ⲫⲁⲓ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ : ⲥⲉϭⲓⲥⲓ ⲙ̀ⲙⲟ : ⲧⲁϭⲟⲓⲥ
                 ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ : ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ.</td>
-            <td class="arabic">من أجل هذا كل واحد يعظمك ياسيدتى والدة الاله القديسة كل حين .</td>
+            <td class="arabic">من أجل هذا كل واحد يعظمك ياسيدتى والدة الاله القديسة كل حين.</td>
         </tr>
         <tr id="table_56_row_5" class="south">
             <td class="english" style="border-right: 1px solid black;">And we also pray, that we may win mercy, Through
@@ -8749,7 +8748,7 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">You are called righteous, O St. Mary, The Second
                 Tabernacle, belonging to the Holies.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲥⲉⲙⲟⲩϯ ⲉ̀ⲣⲟ ⲇⲓⲕⲉⲟⲥ : ⲱ̀ ⲑⲏⲉⲑⲟⲩⲁⲃ Ⲙⲁⲣⲓⲁ̀ : ϫⲉ
-                ϯⲙⲁϩⲥ̀ⲛⲟⲩϯ ⲛ̀ⲥ̀ⲕⲏⲛⲏ : ⲛ̀ⲧⲉ ⲛⲏⲉⲑⲟⲩⲁⲃ .</td>
+                ϯⲙⲁϩⲥ̀ⲛⲟⲩϯ ⲛ̀ⲥ̀ⲕⲏⲛⲏ : ⲛ̀ⲧⲉ ⲛⲏⲉⲑⲟⲩⲁⲃ.</td>
             <td class="arabic">مدعوة أنت بالحقيقة أيتها القديسة مريم القبة التي للأقداس.</td>
         </tr>
         <tr id="table_57_row_1" class="south">
@@ -9227,7 +9226,7 @@ ${htmlRenderScript}
             <td class="coptic" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: ⲡ̀ⲥⲱϯ ⲛ̀Ⲁⲇⲁⲙ ⲡⲉⲛⲓⲱⲧ: ⲭˉⲉˉ : ⲑ̀ⲙⲁⲩ
                 ⲙ̀ⲡⲓⲙⲁⲙ̀ⲫⲱⲧ: ⲭˉⲉˉ : ⲡ̀ⲑⲉⲗⲏⲗ ⲛ̀Ⲉⲩⲁ̀: ⲭˉⲉˉ :
                 ̀ ⲡⲟⲩⲛⲟϥ ⲛ̀ⲛⲓⲅⲉⲛⲉⲁ̀.</td>
-            <td class="arabic">السلام لك يامريم خلاص أبينا آدم. السلام.. أم الملجأ. السلام .. تهليل حواء. السلام.. فرح
+            <td class="arabic">السلام لك يامريم خلاص أبينا آدم. السلام.. أم الملجأ. السلام.. تهليل حواء. السلام.. فرح
                 الأجيال.</td>
         </tr>
         <tr id="table_60_row_8" class="north">
@@ -9235,7 +9234,7 @@ ${htmlRenderScript}
                 Hail...: the true Virgin: Hail...: the Salvation of Noah: Hail...: the chaste and undefiled.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: ⲫ̀ⲣⲁϣⲓ ⲛ̀Ⲁⲃⲉⲗ ⲡⲓⲑ̀ⲙⲏⲓ: ⲭˉⲉˉ :
                 ϯⲡⲁⲣⲑⲉⲛⲟⲥ ⲛ̀ⲧⲁⲫ̀ⲙⲏⲓ: ⲭˉⲉˉ : ⲫ̀ⲛⲟϩⲉⲙ ⲛ̀Ⲛⲱⲉ̀: ⲭˉⲉˉ :ϯⲁⲧⲑⲱⲗⲉⲃ ⲛ̀ⲥⲉⲙⲛⲉ.</td>
-            <td class="arabic">السلام لك يامريم فرح هابيل البار . السلام..العذراء الحقيقية. السلام.. خلاص نوح.
+            <td class="arabic">السلام لك يامريم فرح هابيل البار. السلام..العذراء الحقيقية. السلام.. خلاص نوح.
                 السلام..غير الدنسة الهادئة.</td>
         </tr>
         <tr id="table_60_row_9" class="south">
@@ -9243,7 +9242,7 @@ ${htmlRenderScript}
                 the unfading crown: Hail...: the Redemption of Saint Isaac: Hail...: the Mother of The Holy.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: ⲡ̀ϩ̀ⲙⲟⲧ ⲛ̀Ⲁⲃⲣⲁⲁⲙ: ⲭˉⲉˉ : ⲡⲓⲭ̀ⲗⲟⲙ
                 ⲛ̀ⲁⲑⲗⲱⲙ: ⲭˉⲉˉ : ⲡ̀ⲥⲱϯ ⲛ̀Ⲓⲥⲁⲁⲕ ⲡⲉⲑⲟⲩⲁⲃ: ⲭˉⲉˉ : ⲑ̀ⲙⲁⲩ ⲙ̀ⲫⲏⲉⲑⲟⲩⲁⲃ.</td>
-            <td class="arabic">السلام لك يامريم نعمة ابراهيم. السلام .. الاكليل غير المضمحل. السلام.. خلاص اسحق القديس.
+            <td class="arabic">السلام لك يامريم نعمة ابراهيم. السلام.. الاكليل غير المضمحل. السلام.. خلاص اسحق القديس.
                 السلام.. أم القدوس.</td>
         </tr>
         <tr id="table_60_row_10" class="north">
@@ -9251,7 +9250,7 @@ ${htmlRenderScript}
                 Hail...: Myriads of Myriads: Hail...: the pride of Judah: Hail...: the mother of the Master.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: ⲡ̀ⲑⲉⲗⲏⲗ ⲛ̀Ⲓⲁⲕⲱⲃ: ⲭˉⲉˉ : ϩⲁⲛⲑ̀ⲃⲁ
                 ⲛ̀ⲕⲱⲃ: ⲭˉⲉˉ : ⲡ̀ϣⲟⲩϣⲟⲩ ⲛ̀Ⲓⲟⲩⲇⲁ: ⲭˉⲉˉ : ⲑ̀ⲙⲁⲩ ⲙ̀ⲡⲓⲇⲉⲥⲡⲟⲧⲁ.</td>
-            <td class="arabic">السلام لك يامريم تهليل يعقوب. السلام.. ربوات مضاعفة. السلام.. فخر يهوذا. السلام .. ام
+            <td class="arabic">السلام لك يامريم تهليل يعقوب. السلام.. ربوات مضاعفة. السلام.. فخر يهوذا. السلام.. ام
                 السيد.</td>
         </tr>
         <tr id="table_60_row_11" class="south">
@@ -9278,7 +9277,7 @@ ${htmlRenderScript}
             </td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: ϯϣ̀ⲫⲉⲣⲓ ⲛ̀Ⲥⲟⲗⲟⲙⲱⲛ: ⲭˉⲉˉ : ⲡ̀ϭⲓⲥⲓ
                 ⲛ̀ⲛⲓⲇⲓⲕⲉⲟⲛ: ⲭˉⲉˉ : ⲡ̀ⲟⲩϫⲁⲓ ⲛ̀Ⲏⲥⲁⲏⲁⲥ: ⲭˉⲉˉ : ⲡ̀ⲧⲁⲗϭⲟ ⲛ̀Ⲓⲉⲣⲉⲙⲓⲁⲥ.</td>
-            <td class="arabic">السلام لك يامريم صديقة سليمان. السلام.. رفعة الصديقين . السلام.. خلاص أشعياء. السلام..
+            <td class="arabic">السلام لك يامريم صديقة سليمان. السلام.. رفعة الصديقين. السلام.. خلاص أشعياء. السلام..
                 شفاء أرميا.</td>
         </tr>
         <tr id="table_60_row_14" class="north">
@@ -9286,7 +9285,7 @@ ${htmlRenderScript}
                 Hail...: the grace of Daniel: Hail...: the power of Elijah: Hail...: the grace of Elisha.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: ⲡ̀ⲉⲙⲓ ⲛ̀Ⲓⲉⲍⲉⲕⲓⲏⲗ: ⲭˉⲉˉ : ⲭⲁⲣⲓⲥ ⲧⲟⲩ
                 Ⲇⲁⲛⲓⲏⲗ: ⲭˉⲉˉ : ⲧ̀ϫⲟⲙ ⲛ̀Ⲏⲗⲓⲁⲥ: ⲭˉⲉˉ : ⲡⲓϩ̀ⲙⲟⲧ ⲛ̀Ⲉⲗⲓⲥⲉⲟⲥ.</td>
-            <td class="arabic">السلام لك يامريم علم حزقيال. السلام.. نعمة دانيال. السلام ..قوة ايليا. السلام.. نعمة
+            <td class="arabic">السلام لك يامريم علم حزقيال. السلام.. نعمة دانيال. السلام..قوة ايليا. السلام.. نعمة
                 اليشع.</td>
         </tr>
         <tr id="table_60_row_15" class="south">
@@ -10890,21 +10889,21 @@ ${htmlRenderScript}
                 intercessor, of our souls.</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲛⲑⲟ ⲅⲁⲣ ⲁ̀ⲗⲏⲑⲱⲥ : ⲡⲉ ⲡ̀ϣⲟⲩϣⲟⲩ ⲙ̀ⲡⲉⲛⲅⲉⲛⲟⲥ : ⲟⲩⲟϩ
                 ϯⲡ̀ⲣⲟⲥⲧⲁⲧⲏⲥ : ⲛ̀ⲧⲉ ⲛⲉⲛⲯⲩⲭⲏ.</td>
-            <td class="arabic">لانك أنت بالحقيقة فخر جنسنا وشفيعة نفوسنا .</td>
+            <td class="arabic">لانك أنت بالحقيقة فخر جنسنا وشفيعة نفوسنا.</td>
         </tr>
         <tr id="table_66_row_4" class="north">
             <td class="english" style="border-right: 1px solid black;">Intercede for us, before our Savior, that He may
                 keep us firm, in the upright faith.</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲁⲣⲓⲡ̀ⲣⲉⲥⲃⲉⲩⲓⲛ ⲉ̀ϫⲱⲛ : ⲛⲁϩⲣⲉⲛ Ⲡⲉⲛⲥⲱⲧⲏⲣ : ϩⲟⲡⲱⲥ
                 ⲛ̀ⲧⲉϥⲧⲁϫⲣⲟⲛ : ϧⲉⲛ ⲡⲓⲛⲁϩϯ ⲉⲧⲥⲟⲩⲧⲱⲛ.</td>
-            <td class="arabic">اشفعى فينا أمام مخلصنا لكى يثبتنا فى الإيمان المستقيم .</td>
+            <td class="arabic">اشفعى فينا أمام مخلصنا لكى يثبتنا فى الإيمان المستقيم.</td>
         </tr>
         <tr id="table_66_row_5" class="south">
             <td class="english" style="border-right: 1px solid black;">That He may grant us, the forgiveness of our
                 sins, in order to win mercy, through your intercessions.</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲛⲧⲉϥⲉⲣϩ̀ⲙⲟⲧ ⲛⲁⲛ : ⲙ̀ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ :
                 ⲛ̀ⲧⲉⲛϣⲁϣⲛⲓ ⲉⲩⲛⲁⲓ : ϩⲓⲧⲉⲛ ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀.</td>
-            <td class="arabic">وينعم لنا بمغفرة خطايانا . لنفوز برحمة بشفاعاتك.</td>
+            <td class="arabic">وينعم لنا بمغفرة خطايانا. لنفوز برحمة بشفاعاتك.</td>
         </tr>
         <tr id="table_66_row_6" class="north">
             <td class="english" style="border-right: 1px solid black;">11
@@ -10985,7 +10984,7 @@ ${htmlRenderScript}
                 and the Mercy Seat, of the Cherubim.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ϯⲕⲓⲃⲱⲧⲟⲥ ⲛ̀ⲁⲧⲑⲱⲗⲉⲃ : ⲉⲧⲟϣϫ ⲛ̀ⲛⲟⲩⲃ ⲛ̀ⲥⲁⲥⲁ ⲛⲓⲃⲉⲛ :
                 ⲛⲉⲙ ⲡⲓⲓ̀ⲗⲁⲥⲧⲏⲣⲓⲟⲛ : ̀ ⲛ̀ⲭⲉⲣⲟⲩⲃⲓⲙⲓⲕⲟⲛ.</td>
-            <td class="arabic">التابوت الغير الدنس المصّفح بالذهب من كل ناحية. والغطاء الكاروبى .</td>
+            <td class="arabic">التابوت الغير الدنس المصّفح بالذهب من كل ناحية. والغطاء الكاروبى.</td>
         </tr>
         <tr id="table_66_row_17" class="south">
             <td class="english" style="border-right: 1px solid black;">The golden pot, where the manna was hidden,
@@ -11006,7 +11005,7 @@ ${htmlRenderScript}
                 the chosen incense, with a rich aroma.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ϯϣⲟⲩⲣⲏ ⲛ̀ⲛⲟⲩⲃ : ⲉⲧϥⲁⲓ ϧⲁ ⲡⲓϫⲉⲃⲥ ⲛ̀ⲭ̀ⲣⲱⲙ : ⲛⲉⲙ
                 ⲡⲓⲥ̀ⲑⲟⲓⲛⲟⲩϥⲓ ⲉⲧⲥⲱⲧⲡ : ⲛ̀ⲁ̀ⲣⲱⲙⲁⲧⲁ.</td>
-            <td class="arabic">المجمرة الذهبية الحاملة جمر النار والبخور المختار العنبرى .</td>
+            <td class="arabic">المجمرة الذهبية الحاملة جمر النار والبخور المختار العنبرى.</td>
         </tr>
         <tr id="table_66_row_20" class="north">
             <td class="english" style="border-right: 1px solid black;">The rod of Aaron, that blossomed, and the holy
@@ -11064,7 +11063,7 @@ ${htmlRenderScript}
                 measure of the manna, was hidden in it.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲟⲩⲟⲛ ⲟⲩⲥ̀ⲧⲁⲙⲛⲟⲥ ⲛ̀ⲛⲟⲩⲃ : ⲭⲏ ϧⲉⲛ ϯⲥ̀ⲕⲏⲛⲏ : ⲉ̀ⲣⲉ
                 ⲟⲩϣⲓⲙ̀ⲙⲁⲛⲛⲁ ϩⲏⲡ : ⲛ̀ϧ̀ⲣⲏⲓ ⲛ̀ϧⲏⲧϥ.</td>
-            <td class="arabic">كان فى القبة قسط ذهبى وكيل مّن مخفى فيه .</td>
+            <td class="arabic">كان فى القبة قسط ذهبى وكيل مّن مخفى فيه.</td>
         </tr>
         <tr id="table_66_row_28" class="north">
             <td class="english" style="border-right: 1px solid black;">There was a golden lampstand, in the Tabernacle,
@@ -11128,7 +11127,7 @@ ${htmlRenderScript}
             <td class="coptic" style="border-right: 1px solid black;">ⲓⲉ̅
                 Ⲛⲓⲙ ⲡⲉⲑⲛⲁϣ̀ⲥⲁϫⲓ : ⲙ̀ⲡ̀ⲧⲁⲓⲟ̀ ⲛ̀ϯⲥ̀ⲕⲏⲛⲏ : ⲉ̀ⲧⲁϥⲥⲉⲗⲥⲱⲗⲥ ⲉ̀ⲃⲟⲗ : ⲛ̀ϫⲉ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ.</td>
             <td class="arabic">١٥
-                من يقدر أن يصف كرامة القبة التى زينها النبى .</td>
+                من يقدر أن يصف كرامة القبة التى زينها النبى.</td>
         </tr>
         <tr id="table_66_row_37" class="south">
             <td class="english" style="border-right: 1px solid black;">When the chosen scholars, of the Holy Books, saw
@@ -11184,7 +11183,7 @@ ${htmlRenderScript}
                 and its aloes, to Emmanuel.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲁⲩⲉⲛ ϯϣⲟⲩⲣⲏ ⲛ̀ⲛⲟⲩⲃ : ϩⲓϫⲉⲛ ϯⲡⲁⲣⲑⲉⲛⲟⲥ :
                 ⲡⲉⲥⲕⲩⲛⲁⲙⲱⲛⲟⲛ : ϩⲓϫⲉⲛ Ⲉⲙⲙⲁⲛⲟⲩⲏⲗ.</td>
-            <td class="arabic">شبهوا المجمرة الذهبية بالعذراء . وعنبرها بعمانوئيل .</td>
+            <td class="arabic">شبهوا المجمرة الذهبية بالعذراء. وعنبرها بعمانوئيل.</td>
         </tr>
         <tr id="table_66_row_45" class="south">
             <td class="english" style="border-right: 1px solid black;">They likened the flower of incense, to Mary the
@@ -11461,12 +11460,12 @@ ${htmlRenderScript}
         </tr>
         <tr id="table_70_row_1" class="south">
             <td class="english" style="border-right: 1px solid black;">O God have mercy on us:</td>
-            <td class="coptic" style="border-right: 1px solid black;">Ⲫϯ ⲛⲁⲓ ⲛⲁⲛ .</td>
+            <td class="coptic" style="border-right: 1px solid black;">Ⲫϯ ⲛⲁⲓ ⲛⲁⲛ.</td>
             <td class="arabic">ياالله ارحمنا.</td>
         </tr>
         <tr id="table_70_row_2" class="north">
             <td class="english" style="border-right: 1px solid black;">O God hear us:</td>
-            <td class="coptic" style="border-right: 1px solid black;">Ⲫϯ ⲥⲱⲧⲉⲙ ⲉ̀ⲣⲟⲛ .</td>
+            <td class="coptic" style="border-right: 1px solid black;">Ⲫϯ ⲥⲱⲧⲉⲙ ⲉ̀ⲣⲟⲛ.</td>
             <td class="arabic">ياالله اسمعنا.</td>
         </tr>
         <tr id="table_70_row_3" class="south">
@@ -11476,7 +11475,7 @@ ${htmlRenderScript}
         </tr>
         <tr id="table_70_row_4" class="north">
             <td class="english" style="border-right: 1px solid black;">O God look to us:</td>
-            <td class="coptic" style="border-right: 1px solid black;">Ⲫϯ ϫⲟⲩϣⲧ ⲉ̀ⲣⲟⲛ .</td>
+            <td class="coptic" style="border-right: 1px solid black;">Ⲫϯ ϫⲟⲩϣⲧ ⲉ̀ⲣⲟⲛ.</td>
             <td class="arabic">ياالله اطّلع علينا</td>
         </tr>
         <tr id="table_70_row_5" class="south">
@@ -11487,7 +11486,7 @@ ${htmlRenderScript}
         <tr id="table_70_row_6" class="north">
             <td class="english" style="border-right: 1px solid black;">We are Your people:</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲁⲛⲟⲛ ϧⲁ ⲡⲉⲕⲗⲁⲟⲥ.</td>
-            <td class="arabic">نحن شعبك .</td>
+            <td class="arabic">نحن شعبك.</td>
         </tr>
         <tr id="table_70_row_7" class="south">
             <td class="english" style="border-right: 1px solid black;">We are Your creation:</td>
@@ -11496,18 +11495,18 @@ ${htmlRenderScript}
         </tr>
         <tr id="table_70_row_8" class="north">
             <td class="english" style="border-right: 1px solid black;">Deliver us from our enemies:</td>
-            <td class="coptic" style="border-right: 1px solid black;">Ⲛⲁϩⲙⲉⲛ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲉⲛϫⲁϫⲓ .</td>
+            <td class="coptic" style="border-right: 1px solid black;">Ⲛⲁϩⲙⲉⲛ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲉⲛϫⲁϫⲓ.</td>
             <td class="arabic">نجنا من أعدائنا</td>
         </tr>
         <tr id="table_70_row_9" class="south">
             <td class="english" style="border-right: 1px solid black;">Deliver us from inflation:</td>
-            <td class="coptic" style="border-right: 1px solid black;">Ⲛⲁϩⲙⲉⲛ ⲉ̀ⲃⲟⲗϩⲁ ⲟⲩϩ̀ⲃⲱⲛ .</td>
-            <td class="arabic">نجنا من الغلاء .</td>
+            <td class="coptic" style="border-right: 1px solid black;">Ⲛⲁϩⲙⲉⲛ ⲉ̀ⲃⲟⲗϩⲁ ⲟⲩϩ̀ⲃⲱⲛ.</td>
+            <td class="arabic">نجنا من الغلاء.</td>
         </tr>
         <tr id="table_70_row_10" class="north">
             <td class="english" style="border-right: 1px solid black;">We are Your servants:</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲁⲛⲟⲛ ϧⲁ ⲛⲉⲕⲉ̀ⲃⲓⲁⲓⲕ</td>
-            <td class="arabic">نحن عبيدك .</td>
+            <td class="arabic">نحن عبيدك.</td>
         </tr>
         <tr id="table_70_row_11" class="south">
             <td class="english" style="border-right: 1px solid black;">You are the Son of God:</td>
@@ -11516,7 +11515,7 @@ ${htmlRenderScript}
         </tr>
         <tr id="table_70_row_12" class="north">
             <td class="english" style="border-right: 1px solid black;">We believe in You:</td>
-            <td class="coptic" style="border-right: 1px solid black;">Ⲁⲛⲛⲁϩϯ ⲉ̀ⲣⲟⲕ .</td>
+            <td class="coptic" style="border-right: 1px solid black;">Ⲁⲛⲛⲁϩϯ ⲉ̀ⲣⲟⲕ.</td>
             <td class="arabic">آمنا بك.</td>
         </tr>
         <tr id="table_70_row_13" class="south">
@@ -11526,7 +11525,7 @@ ${htmlRenderScript}
         </tr>
         <tr id="table_70_row_14" class="north">
             <td class="english" style="border-right: 1px solid black;">Visit us with Your salvation:</td>
-            <td class="coptic" style="border-right: 1px solid black;">Ϫⲉⲙⲡⲉⲛϣⲓⲛⲓ ϧⲉⲛ ⲡⲉⲕⲟⲩϫⲁⲓ .</td>
+            <td class="coptic" style="border-right: 1px solid black;">Ϫⲉⲙⲡⲉⲛϣⲓⲛⲓ ϧⲉⲛ ⲡⲉⲕⲟⲩϫⲁⲓ.</td>
             <td class="arabic">تعهدنا بخلاصك.</td>
         </tr>
         <tr id="table_70_row_15" class="south">
@@ -11543,7 +11542,7 @@ ${htmlRenderScript}
                 Mother of God, Mary, the Mother of our Savior, That He may forgive us our sins.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲁ ⲣⲓⲡ̀ⲣⲉⲥⲃⲉⲩⲓⲛ ⲉ̀ϩ̀ⲣⲏⲓ : ⲱ̀ ⲧⲉⲛϭⲟⲓⲥ ⲛ̀ⲛⲏⲃ ⲧⲏⲣⲉⲛ
                 ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ : Ⲙⲁⲣⲓⲁ ⲑ̀ⲙⲁⲩ ⲙ̀Ⲡⲉⲛⲥⲱⲧⲏⲣ : ⲛ̀ⲧⲉϥ ⲭⲁ ⲛⲉⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.</td>
-            <td class="arabic">إشفعى فينا يا سيدتنا كلنا السيدة والدة الإله مريم ام مخلصنا ليغفرلنا خطايانا .</td>
+            <td class="arabic">إشفعى فينا يا سيدتنا كلنا السيدة والدة الإله مريم ام مخلصنا ليغفرلنا خطايانا.</td>
         </tr>
         <tr id="table_71_row_1" class="south">
             <td class="english" style="border-right: 1px solid black;">Intercede on our behalf, O holy archangels,
@@ -11556,281 +11555,281 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Intercede on our behalf, O holy archangels,
                 Raphael and Souriel That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲁⲣⲓⲡ̀ⲣⲉⲥⲃⲉⲩⲓⲛ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲱ̀ ⲛⲓⲁⲣⲭⲏⲁⲅⲅⲉⲗⲟⲥ
-                ⲉⲑⲟⲩⲁⲃ : Ⲣⲁⲫⲁⲏⲗ ⲛⲉⲙ Ⲥⲟⲩⲣⲓⲏⲗ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">إشفعا فينا يارئيسى الملائكة الطاهرين رافائيل وسوريال ليغفر .</td>
+                ⲉⲑⲟⲩⲁⲃ : Ⲣⲁⲫⲁⲏⲗ ⲛⲉⲙ Ⲥⲟⲩⲣⲓⲏⲗ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">إشفعا فينا يارئيسى الملائكة الطاهرين رافائيل وسوريال ليغفر.</td>
         </tr>
         <tr id="table_71_row_3" class="south">
             <td class="english" style="border-right: 1px solid black;">Intercede: O holy archangels, Sedakiel, Sarathiel
                 and Ananiel, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲁⲣⲓⲡ̅ : ⲱ̀ ⲛⲓⲁⲣⲭⲏⲁⲅⲅⲉⲗⲟⲥ ⲉⲑⲟⲩⲁⲃ: Ⲥⲉⲇⲁⲕⲓⲏⲗ
-                Ⲥⲁⲣⲁⲑⲓⲏⲗ ⲛⲉⲙ Ⲁⲛⲁⲛⲓⲏⲗ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اشفعوا فينا يارؤساء الملائكة الأطهار سداكيال وسراتيال وأنانيال ليغفر ..</td>
+                Ⲥⲁⲣⲁⲑⲓⲏⲗ ⲛⲉⲙ Ⲁⲛⲁⲛⲓⲏⲗ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اشفعوا فينا يارؤساء الملائكة الأطهار سداكيال وسراتيال وأنانيال ليغفر..</td>
         </tr>
         <tr id="table_71_row_4" class="north">
             <td class="english" style="border-right: 1px solid black;">Intercede: O Thrones, Dominions and Powers, The
                 Cherubim and the Seraphim, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲁⲣⲓⲡ̅ : ⲛⲓⲑ̀ⲣⲟⲛⲟⲥ ⲛⲓⲙⲉⲧϭⲟⲓⲥ ⲛⲓϫⲟⲙ : Ⲛⲓⲭⲉⲣⲟⲃⲓⲙ
                 ⲛⲉⲙ Ⲛⲓⲥⲉⲣⲁⲫⲓⲙ : ⲛ̀ⲧⲉϥ...</td>
-            <td class="arabic">أشفعى فينا أيتها الكراسى والارباب والقوات والشيروبيم والسرافيم ليغفر ..</td>
+            <td class="arabic">أشفعى فينا أيتها الكراسى والارباب والقوات والشيروبيم والسرافيم ليغفر..</td>
         </tr>
         <tr id="table_71_row_5" class="south">
             <td class="english" style="border-right: 1px solid black;">Intercede on our behalf, O Four Incorporeal
                 Beasts, The ministers fervent as fire, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲁ̀ⲣⲓⲡ̀ⲣⲉⲥⲃⲉⲩⲓⲛ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲡⲓϥ̀ⲧⲟⲩ ⲛ̀ⲍⲱⲟⲛ
                 ⲛ̀ⲁ̀ⲥⲱⲙⲁⲧⲟⲥ : ⲛ̀ⲗⲓⲧⲟⲩⲣⲅⲟⲥ ⲛ̀ϣⲁϩ ⲛ̀ⲭ̀ⲣⲱⲙ : ⲛ̀ⲧⲉϥ...</td>
-            <td class="arabic">أشفعوا فينا أيها الأربعة الحيوانات غير المتجسدين الخدام الملتهبين ناراً ليغفر ...</td>
+            <td class="arabic">أشفعوا فينا أيها الأربعة الحيوانات غير المتجسدين الخدام الملتهبين ناراً ليغفر...</td>
         </tr>
         <tr id="table_71_row_6" class="north">
             <td class="english" style="border-right: 1px solid black;">Intercede: O priests of the Truth, The Twenty
                 Four Presbyters, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲁⲣⲓⲡ̅ : ⲛⲓⲟⲩⲏⲃ ⲛ̀ⲧⲉ ϯⲙⲉⲑⲙⲏⲓ : ⲡⲓϫⲟⲧϥ̀ⲧⲟⲩ
-                ⲙ̀ⲡ̀ⲣⲉⲥⲃⲩⲧⲏⲣⲟⲥ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">إشفعوا فينا ياكهنة الحق الأربعة والعشرين قسيساً ليغفر ...</td>
+                ⲙ̀ⲡ̀ⲣⲉⲥⲃⲩⲧⲏⲣⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">إشفعوا فينا ياكهنة الحق الأربعة والعشرين قسيساً ليغفر...</td>
         </tr>
         <tr id="table_71_row_7" class="south">
             <td class="english" style="border-right: 1px solid black;">Intercede: O angelic hosts, And all the heavenly
                 multitudes, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲁⲣⲓⲡ̅ : ⲛⲓⲥⲧⲣⲁⲧⲓ̀ⲁ ⲛ̀ⲁⲅⲅⲉⲗⲓⲕⲟⲛ : ⲛⲉⲙ ⲛⲓⲧⲁⲅⲙⲁ
                 ⲛ̀ⲉ̀ⲡⲟⲩⲣⲁⲛⲓⲟⲛ :</td>
-            <td class="arabic">إشفعوا فينا أيها العساكر الملائكية والطغمات السمائية ليغفر ...</td>
+            <td class="arabic">إشفعوا فينا أيها العساكر الملائكية والطغمات السمائية ليغفر...</td>
         </tr>
         <tr id="table_71_row_8" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, My lords and
                 fathers, the patriarchs, Abraham, Isaac and Jacob, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲛⲁϭⲟⲓⲥ ⲛ̀ⲓⲟϯ
-                ⲙ̀ⲡⲁⲧⲣⲓⲁⲣⲭⲏⲥ : Ⲁⲃⲣⲁⲁⲙ Ⲓ̀ⲥⲁⲁⲕ Ⲓⲁⲕⲱⲃ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">إطلبوا من الرب عنا ياسادتى الآباء البطاركة إبراهيم وإسحق ويعقوب ليغفر ...</td>
+                ⲙ̀ⲡⲁⲧⲣⲓⲁⲣⲭⲏⲥ : Ⲁⲃⲣⲁⲁⲙ Ⲓ̀ⲥⲁⲁⲕ Ⲓⲁⲕⲱⲃ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">إطلبوا من الرب عنا ياسادتى الآباء البطاركة إبراهيم وإسحق ويعقوب ليغفر...</td>
         </tr>
         <tr id="table_71_row_9" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, O perfect man,
                 The righteous and just Enoch, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲱ̀ ⲡⲓⲣⲱⲙⲓ ⲛ̀ⲧⲉⲗⲓⲟⲥ :
-                ⲡⲓⲑ̀ⲙⲏⲓ ̀ Ⲉⲛⲱⲭ ⲡⲓⲇⲓⲕⲉⲟⲥ : ̀ ⲛⲧⲉϥ ...</td>
-            <td class="arabic">إطلب من الرب عنا أيها الرجل الكامل البار أخنوخ الصديق ليغفر ..</td>
+                ⲡⲓⲑ̀ⲙⲏⲓ ̀ Ⲉⲛⲱⲭ ⲡⲓⲇⲓⲕⲉⲟⲥ : ̀ ⲛⲧⲉϥ...</td>
+            <td class="arabic">إطلب من الرب عنا أيها الرجل الكامل البار أخنوخ الصديق ليغفر..</td>
         </tr>
         <tr id="table_71_row_10" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, Elijah the
                 Tishbite, And Elisha his disciple, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ: Ⲏⲗⲓⲁⲥ ⲡⲓⲑⲉⲥⲃⲓⲧⲏⲥ: ⲛⲉⲙ
-                Ⲉ̀ⲗⲓⲥⲉⲟⲥ ⲡⲉϥⲙⲁⲑⲏⲧⲏⲥ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">إطلبوا من الرب عنا ياإيليا التسبيتى وآليشع تلميذه ليغفر ...</td>
+                Ⲉ̀ⲗⲓⲥⲉⲟⲥ ⲡⲉϥⲙⲁⲑⲏⲧⲏⲥ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">إطلبوا من الرب عنا ياإيليا التسبيتى وآليشع تلميذه ليغفر...</td>
         </tr>
         <tr id="table_71_row_11" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, O Moses the
                 archprophet and Isaiah, and Jeremiah, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲱ̀ Ⲙⲱⲩ̀ⲥⲏⲥ
-                ⲡⲓⲁⲣⲭⲏⲡ̀ⲣⲟⲫⲓⲧⲏⲥ ⲛⲉⲙ Ⲏⲥⲁⲏ̀ⲁⲥ : ⲛⲉⲙ Ⲓⲉⲣⲉⲙⲓⲁⲥ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">إطلبوا من الرب عنا ياموسى رئيس الأنبياء وأشعياء وأرمياء ليغفر ...</td>
+                ⲡⲓⲁⲣⲭⲏⲡ̀ⲣⲟⲫⲓⲧⲏⲥ ⲛⲉⲙ Ⲏⲥⲁⲏ̀ⲁⲥ : ⲛⲉⲙ Ⲓⲉⲣⲉⲙⲓⲁⲥ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">إطلبوا من الرب عنا ياموسى رئيس الأنبياء وأشعياء وأرمياء ليغفر...</td>
         </tr>
         <tr id="table_71_row_12" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: O David the psalmist, Ezekiel and Daniel,
                 That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : Ⲇⲁⲩⲓⲇ ⲡⲓⲓⲉⲣⲟⲯⲁⲗⲧⲏⲥ : ⲛⲉⲙ Ⲓⲉⲍⲉⲕⲓⲏⲗ ⲛⲉⲙ Ⲇⲁⲛⲓⲏⲗ
                 : ⲛ̀ⲧⲉϥ...</td>
-            <td class="arabic">اطلبوا من الرب عنا يا داود المرتل وحزقيال ودانيال ليغفر ...</td>
+            <td class="arabic">اطلبوا من الرب عنا يا داود المرتل وحزقيال ودانيال ليغفر...</td>
         </tr>
         <tr id="table_71_row_13" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: Joachim, Anna and Joseph the Elder, and the
                 righteous Job, Joseph and Nicodemus, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : Ⲓⲱⲁⲕⲓⲙ ⲛⲉⲙ Ⲁⲛⲛⲁ ⲛⲉⲙ Ⲓⲱⲥⲏⲫ ⲡⲓ ⲡ̀ⲣⲉⲥⲃⲏⲧⲉⲣⲟⲥ :
-                ⲛⲉⲙ ⲡⲓ ⲑ̀ⲙⲏⲓ Ⲓⲱⲃ ⲛⲉⲙ Ⲓⲱⲥⲏⲫ ⲛⲉⲙ Ⲛⲓⲕⲟⲇⲏⲙⲟⲥ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">إطلبوا من الرب عنا يايواقيم وحنّة ويوسف الشيخ والصديق ايوب ويوسف ونيقوديموس ليغفر ...
+                ⲛⲉⲙ ⲡⲓ ⲑ̀ⲙⲏⲓ Ⲓⲱⲃ ⲛⲉⲙ Ⲓⲱⲥⲏⲫ ⲛⲉⲙ Ⲛⲓⲕⲟⲇⲏⲙⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">إطلبوا من الرب عنا يايواقيم وحنّة ويوسف الشيخ والصديق ايوب ويوسف ونيقوديموس ليغفر...
             </td>
         </tr>
         <tr id="table_71_row_14" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, O Melchizedek and
                 Aaron, and Zacharias and Simeon, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : Ⲙⲉⲗⲭⲓⲥⲉⲇⲉⲕ ⲛⲉⲙ
-                Ⲁ̀ⲁ̀ⲣⲱⲛ : ⲛⲉⲙ Ⲍⲁⲭⲁⲣⲓⲁⲥ ⲛⲉⲙ Ⲥⲩⲙⲉⲱⲛ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">أطلبوا من الرب عنا ياملشيصادق وهرون وزكريا وسمعان ليغفر ...</td>
+                Ⲁ̀ⲁ̀ⲣⲱⲛ : ⲛⲉⲙ Ⲍⲁⲭⲁⲣⲓⲁⲥ ⲛⲉⲙ Ⲥⲩⲙⲉⲱⲛ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">أطلبوا من الرب عنا ياملشيصادق وهرون وزكريا وسمعان ليغفر...</td>
         </tr>
         <tr id="table_71_row_15" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: O chorus of the prophets, And all the
                 righteous and the just, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲛⲓⲭⲟⲣⲟⲥ ⲛ̀ⲧⲉ ⲛⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ : ⲛⲉⲙ ⲛⲓⲑ̀ⲙⲏⲓ ⲛⲉⲙ
-                ⲛⲓⲇⲓⲕⲉⲟⲥ : ⲛ̀ⲧⲉϥ ...</td>
+                ⲛⲓⲇⲓⲕⲉⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
             <td class="arabic">أطلبوا من الرب عنا ياصفوف الأنبياء والأبرار والصديقين ليغفر..</td>
         </tr>
         <tr id="table_71_row_16" class="north">
             <td class="english" style="border-right: 1px solid black;">Intercede on our behalf, O fore-runner and
                 baptizer, John the Baptist, That he may…</td>
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲁⲣⲓⲡ̀ⲣⲉⲥⲃⲉⲩⲓⲛ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲱ̀ ⲡⲓⲡ̀ⲣⲟⲇⲣⲟⲙⲟⲥ
-                ⲙ̀ⲃⲁⲡⲧⲓⲥⲧⲏⲥ : Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲣⲉϥϯⲱⲙⲥ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">إشفع فينا أيها السابق الصابغ يوحنا المعمدان ليغفر ..</td>
+                ⲙ̀ⲃⲁⲡⲧⲓⲥⲧⲏⲥ : Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲣⲉϥϯⲱⲙⲥ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">إشفع فينا أيها السابق الصابغ يوحنا المعمدان ليغفر..</td>
         </tr>
         <tr id="table_71_row_17" class="south">
             <td class="english" style="border-right: 1px solid black;">Intercede on our behalf, O the Hundred and Forty
                 Four Thousand, and the celibate Evangelist, That He may…</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲁ̀ⲣⲓⲡ̅ : ⲱ̀ ⲡⲓϣⲉ ϩ̀ⲙⲉ ϥ̀ⲧⲟⲩ ⲛ̀ϣⲟ : ⲛⲉⲙ ⲡⲓⲡⲁⲣⲑⲉⲛⲟⲥ
-                ⲛ̀ⲉⲩⲁⲅⲅⲉⲗⲓⲥⲧⲏⲥ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">إشفعوا فينا ايها المئة والأربعة والأربعين الفاً والبتول الانجيلى ليغفر .</td>
+                ⲛ̀ⲉⲩⲁⲅⲅⲉⲗⲓⲥⲧⲏⲥ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">إشفعوا فينا ايها المئة والأربعة والأربعين الفاً والبتول الانجيلى ليغفر.</td>
         </tr>
         <tr id="table_71_row_18" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, Our lords and
                 fathers, the Apostles, And the rest of the Disciples, That He may…</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲛⲁϭⲟⲓⲥ ̀ⲛ̀ⲓⲟϯ
                 ⲛ̀ⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ : ⲛⲉⲙ ⲡ̀ⲥⲉⲡⲓ ⲛ̀ⲧⲉ ⲛⲓⲙⲁⲑⲏⲧⲏⲥ: ⲛ̀ⲧⲉϥ...</td>
-            <td class="arabic">أطلبوا من الرب عنا ياسادتى الآباء الرسل وبقية التلاميذ ليغفر ..</td>
+            <td class="arabic">أطلبوا من الرب عنا ياسادتى الآباء الرسل وبقية التلاميذ ليغفر..</td>
         </tr>
         <tr id="table_71_row_19" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: O blessed archdeacon, Stephen the First
                 Martyr, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲡⲓⲁⲣⲭⲏⲇⲓⲁ̀ⲕⲱⲛ ⲉⲧⲥ̀ⲙⲁⲣⲱⲟⲩⲧ: Ⲥ̀ⲧⲉⲫⲁⲛⲟⲥ ⲡⲓϣⲟⲣⲡ
-                ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">أطلب من الرب عنا يارئيس الشمامسة المبارك استفانوس الشهيد الاول ليغفر ..</td>
+                ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">أطلب من الرب عنا يارئيس الشمامسة المبارك استفانوس الشهيد الاول ليغفر..</td>
         </tr>
         <tr id="table_71_row_20" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, O Beholder of God
                 the Evangelist, Mark the Apostle, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲡⲓⲑⲉⲱ̀ⲣⲓⲙⲟⲥ
-                ⲛ̀ⲉⲩⲁⲅⲅⲉⲗⲓⲥⲧⲏⲥ : Ⲙⲁⲣⲕⲟⲥ ⲡⲓⲁ̀ⲡⲟⲥⲧⲟⲗⲓⲥ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">أطلب من الرب عنا أيها الناظر الإله الإنجيلى مرقس الرسول ليغفر ...</td>
+                ⲛ̀ⲉⲩⲁⲅⲅⲉⲗⲓⲥⲧⲏⲥ : Ⲙⲁⲣⲕⲟⲥ ⲡⲓⲁ̀ⲡⲟⲥⲧⲟⲗⲓⲥ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">أطلب من الرب عنا أيها الناظر الإله الإنجيلى مرقس الرسول ليغفر...</td>
         </tr>
         <tr id="table_71_row_21" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: O struggle mantled martyr, My lord prince
                 George, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲡⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ : ⲡⲁϭⲟⲓⲥ ⲡ̀ⲟⲩⲣⲟ
-                Ⲅⲉⲱⲣⲅⲓⲟⲥ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">أطلب من الرب عنا أيها الشهيد المجاهد سيدى الملك جيؤرجيوس ليغفر ...</td>
+                Ⲅⲉⲱⲣⲅⲓⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">أطلب من الرب عنا أيها الشهيد المجاهد سيدى الملك جيؤرجيوس ليغفر...</td>
         </tr>
         <tr id="table_71_row_22" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: Theodore and Theodore, Leontius and
                 Panicharus, That he may…</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : Ⲑⲉⲟ̀ⲇⲱⲣⲟⲥ ⲛⲉⲙ Ⲑⲉⲟ̀ⲇⲱⲣⲟⲥ : ⲛⲉⲙ Ⲗⲉⲟⲛⲧⲓⲟⲥ ⲛⲉⲙ
-                Ⲡⲁⲛⲓⲕⲁⲣⲟⲥ : ⲛ̀ⲧⲉϥ ...</td>
+                Ⲡⲁⲛⲓⲕⲁⲣⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
             <td class="arabic">اطلبوا من الرب عنا ياثيؤدوروس وثيؤدوروس ولاونديوس وبانيكاروس ليغفر..</td>
         </tr>
         <tr id="table_71_row_23" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, O lover of the
                 father Mercurius, and Abba Mina and Abba Victor, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : Ⲫⲓⲗⲟⲡⲁⲧⲏⲣ Ⲙⲉⲣⲕⲟⲩⲣⲓⲟⲥ
-                : ⲛⲉⲙ ⲁ̀ⲡⲁ Ⲙⲏⲛⲁ ⲛⲉⲙ ⲁ̀ⲡⲁ Ⲃⲓⲕⲧⲱⲣ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا يافيلوباتير مرقوريوس وأبا مينا وأبا بقطر ليغفر ...</td>
+                : ⲛⲉⲙ ⲁ̀ⲡⲁ Ⲙⲏⲛⲁ ⲛⲉⲙ ⲁ̀ⲡⲁ Ⲃⲓⲕⲧⲱⲣ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا يافيلوباتير مرقوريوس وأبا مينا وأبا بقطر ليغفر...</td>
         </tr>
         <tr id="table_71_row_24" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: Lord Claudius and Theodore, Abba Eschyron
                 and Abba Isaac, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲕⲩⲣⲓ ̀ Ⲕⲗⲁⲩⲇⲓⲟⲥ ⲛⲉⲙ Ⲑⲉⲟ̀ⲇⲱⲣⲟⲥ : ⲛⲉⲙ ⲁ̀ⲡⲁ ̀
-                Ⲥⲭⲩⲣⲟⲛ ⲛⲉⲙ ⲁ̀ⲡⲁ ̀ Ⲓⲥⲁⲁⲕ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا ياسيدى اقلوديوس وثيئودوروس وأبا سخيرون وأبا اسحق ليغفر ..</td>
+                Ⲥⲭⲩⲣⲟⲛ ⲛⲉⲙ ⲁ̀ⲡⲁ ̀ Ⲓⲥⲁⲁⲕ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا ياسيدى اقلوديوس وثيئودوروس وأبا سخيرون وأبا اسحق ليغفر..</td>
         </tr>
         <tr id="table_71_row_25" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: Basilidis and Eusebius, Macarius and
                 Philotheos, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : Ⲃⲁⲥⲓⲗⲓⲧⲏⲥ ⲛⲉⲙ Ⲉⲩⲥⲉⲃⲓⲟⲥ : ⲛⲉⲙ Ⲙⲁⲕⲁⲣⲓⲟⲥ ⲛⲉⲙ
-                Ⲫⲓⲗⲟⲑⲉⲟⲥ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا ياواسيليدس وأوسابيوس ومقاريوس وفيلوثاؤس ليغفر ...</td>
+                Ⲫⲓⲗⲟⲑⲉⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا ياواسيليدس وأوسابيوس ومقاريوس وفيلوثاؤس ليغفر...</td>
         </tr>
         <tr id="table_71_row_26" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, Abba Pisoora and
                 Abba Epshoi, Abba Eesi and Thekla his sister, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲁⲃⲃⲁ Ⲡⲓⲥⲟⲩⲣⲁ ⲛⲉⲙ ⲁ̀ⲡⲁ
-                ̀ Ⲡϣⲱⲓ : ⲛⲉⲙ ⲁ̀ⲡⲁ ̀ Ⲏⲥⲓ ⲛⲉⲙ Ⲑⲉⲕⲗⲁ ⲧⲉϥⲥⲱⲛⲓ: ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا ياأنبا بسوره وأبابشاى وأباايسى وتكلا اخته ليغفر ...</td>
+                ̀ Ⲡϣⲱⲓ : ⲛⲉⲙ ⲁ̀ⲡⲁ ̀ Ⲏⲥⲓ ⲛⲉⲙ Ⲑⲉⲕⲗⲁ ⲧⲉϥⲥⲱⲛⲓ: ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا ياأنبا بسوره وأبابشاى وأباايسى وتكلا اخته ليغفر...</td>
         </tr>
         <tr id="table_71_row_27" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: O struggle mantled martyrs, Justus, Apali
                 and Theoklia, That He may…</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲛⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ : Ⲓⲟⲩⲥⲧⲟⲥ ⲛⲉⲙ Ⲁ̀ⲡⲁⲗⲓ
                 ⲛⲉⲙ Ⲑⲉⲟ̀ⲕⲗⲓⲁ̀ : ⲛ̀ⲧⲉϥ...</td>
-            <td class="arabic">اطلبوا من الرب عنا أيها الشهداء المجاهدون يسطس وآبالى وتاوكليا ليغفر ...</td>
+            <td class="arabic">اطلبوا من الرب عنا أيها الشهداء المجاهدون يسطس وآبالى وتاوكليا ليغفر...</td>
         </tr>
         <tr id="table_71_row_28" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: Abba Jacob the Persian, Saint Sergius and
                 Saint Bachus, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲁⲃⲃⲁ Ⲓⲁⲕⲱⲃⲟⲥ ⲡⲓϥⲉⲣⲥⲓⲥ : ⲛⲉⲙ ⲡⲓⲁ̀ⲅⲓⲟⲥ Ⲥⲉⲣⲅⲓⲟⲥ
-                ⲛⲉⲙ Ⲃⲁⲭⲟⲥ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا ياأنبا يعقوب الفارسى والقديس سرجيوس وواخس ليغفر ...</td>
+                ⲛⲉⲙ Ⲃⲁⲭⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا ياأنبا يعقوب الفارسى والقديس سرجيوس وواخس ليغفر...</td>
         </tr>
         <tr id="table_71_row_29" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, O struggle
                 mantled martyrs, Cosmas, his brothers and their mother, That He may…</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲛⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ
-                ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ: Ⲕⲟⲥⲙⲁ ⲛⲉⲙ ⲛⲉϥⲥ̀ⲛⲏⲟⲩ ⲛⲉⲙ ⲧⲟⲩⲙⲁⲩ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا أيها الشهداء المجاهدون قزمان واخوته وأمهم ليغفر ...</td>
+                ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ: Ⲕⲟⲥⲙⲁ ⲛⲉⲙ ⲛⲉϥⲥ̀ⲛⲏⲟⲩ ⲛⲉⲙ ⲧⲟⲩⲙⲁⲩ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا أيها الشهداء المجاهدون قزمان واخوته وأمهم ليغفر...</td>
         </tr>
         <tr id="table_71_row_30" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: Abba Cyrus and his brother John, And
                 Barbara and Juliana and Demiana, That He may…</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲁ̀ⲡⲁ Ⲕⲓⲣ ⲛⲉⲙ Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲉϥⲥⲟⲛ : ⲛⲉⲙ Ⲃⲁⲣⲃⲁⲣⲁ
-                ⲛⲉⲙ Ⲓⲟⲩⲗⲓⲁ̀ⲛⲏ ⲛⲉⲙ Ⲇⲩⲙⲓⲁ̀ⲛⲏ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا يااباقير ويوحنا أخوه وبرباره ويوليانه ودميانه ليغفر ...</td>
+                ⲛⲉⲙ Ⲓⲟⲩⲗⲓⲁ̀ⲛⲏ ⲛⲉⲙ Ⲇⲩⲙⲓⲁ̀ⲛⲏ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا يااباقير ويوحنا أخوه وبرباره ويوليانه ودميانه ليغفر...</td>
         </tr>
         <tr id="table_71_row_31" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: O struggle mantled martyrs, Lord Apatir and
                 Eraee his sister, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲛⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ : ⲕⲩⲣⲓ Ⲁⲡⲁⲧⲏⲣ ⲛⲉⲙ ̀
-                Ⲏⲣⲁⲏ̀ ⲧⲉϥⲥⲱⲛⲓ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا أيها الشهيدان المجاهدان السيد أبادير وإيرائى أخته ليغفر ...</td>
+                Ⲏⲣⲁⲏ̀ ⲧⲉϥⲥⲱⲛⲓ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا أيها الشهيدان المجاهدان السيد أبادير وإيرائى أخته ليغفر...</td>
         </tr>
         <tr id="table_71_row_32" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, O struggle
                 mantled martyrs, Julius and those who were with him, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲛⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ
                 ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ: Ⲓⲟⲩⲗⲓⲟⲥ ⲛⲉⲙ ⲛⲏⲉⲑⲛⲉⲙⲁϥ : ⲛ̀ⲧⲉϥ...</td>
-            <td class="arabic">اطلبوا من الرب عنا أيها الشهداء المجاهدون يوليوس ومن معه ليغفر ...</td>
+            <td class="arabic">اطلبوا من الرب عنا أيها الشهداء المجاهدون يوليوس ومن معه ليغفر...</td>
         </tr>
         <tr id="table_71_row_33" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: O struggle mantled martyrs, Mari Pahnam and
                 Sarah his sister, That He may…</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲛⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ: ⲙⲁⲣⲓ Ⲡⲁϩⲛⲁⲙ ⲛⲉⲙ
-                Ⲥⲁⲣⲣⲁ ⲧⲉϥⲥⲱⲛⲓ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا أيها الشهيدان المجاهدان ماربهنام وساره أخته ليغفر ...</td>
+                Ⲥⲁⲣⲣⲁ ⲧⲉϥⲥⲱⲛⲓ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا أيها الشهيدان المجاهدان ماربهنام وساره أخته ليغفر...</td>
         </tr>
         <tr id="table_71_row_34" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: Abba Sarapamon the Bishop, Psati and
                 Gallinikos, That He may…</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲁⲃⲃⲁ Ⲥⲁⲣⲁⲡⲁⲙⲱⲛ ⲡⲓⲉ̀ⲡⲓⲥⲕⲟⲡⲟⲥ : ⲛⲉⲙ Ⲯⲁⲧⲉ ⲛⲉⲙ
                 Ⲅⲁⲗⲗⲓⲛⲓⲕⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
-            <td class="arabic">أطلبوا من الرب عنا يا انبا صرابامون الاسقف وابصادى وغلينيكوس ليغفر ..</td>
+            <td class="arabic">أطلبوا من الرب عنا يا انبا صرابامون الاسقف وابصادى وغلينيكوس ليغفر..</td>
         </tr>
         <tr id="table_71_row_35" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, O victorious
                 martyrs, The Forty Saints of Sebaste, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲛⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ
-                ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ : ⲡⲓϩ̀ⲙⲉ ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲉ Ⲥⲉⲃⲁⲥⲧⲉ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا ايها الشهداء المجاهدون الأربعون قديساً بسبسطية ليغفر ..</td>
+                ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ : ⲡⲓϩ̀ⲙⲉ ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲉ Ⲥⲉⲃⲁⲥⲧⲉ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا ايها الشهداء المجاهدون الأربعون قديساً بسبسطية ليغفر..</td>
         </tr>
         <tr id="table_71_row_36" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: Abba Piro and Athom, And John and Simeon,
                 That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲁⲃⲃⲁ Ⲡⲓⲣⲱⲟⲩ ⲛⲉⲙ ̀ Ⲁⲑⲱⲙ : ⲛⲉⲙ Ⲓⲱⲁⲛⲛⲏⲥ ⲛⲉⲙ
-                Ⲥⲩⲙⲉⲱⲛ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">أطلبوا من الرب عنا ياأنبا بيروه واتوم ويوحنا وسمعان ليغفر ...</td>
+                Ⲥⲩⲙⲉⲱⲛ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">أطلبوا من الرب عنا ياأنبا بيروه واتوم ويوحنا وسمعان ليغفر...</td>
         </tr>
         <tr id="table_71_row_37" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: O struggle mantled martyrs, Abba Epshoi and
                 his friend Peter, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲛⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ : ⲁ̀ⲡⲁ Ⲡ̀ϣⲱⲓ ⲛⲉⲙ
-                ⲡⲉϥϣ̀ⲫⲏⲣ Ⲡⲉⲧⲣⲟⲥ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">أطلبا من الرب عنا أيها الشهيدان المجاهدان أبا بشوى وصديقه بطرس ليغفر ..</td>
+                ⲡⲉϥϣ̀ⲫⲏⲣ Ⲡⲉⲧⲣⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">أطلبا من الرب عنا أيها الشهيدان المجاهدان أبا بشوى وصديقه بطرس ليغفر..</td>
         </tr>
         <tr id="table_71_row_38" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, Abba Eklog the
                 priest, and Abba Epgol and Abba Kav, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲁ̀ⲡⲁ ̀̀̀ Ⲕⲗⲟϫ
-                ⲡⲓⲡ̀ⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ : ⲛⲉⲙ ⲁ̀ⲡⲁ ̀̀̀ Ⲡϫⲟⲗ ⲛⲉⲙ ⲁ̀ⲡⲁ Ⲕⲁⲩ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">أطلبوا من الرب عنا ياأبا كلوج القس وابا بجول وأبا كاف ليغفر ..</td>
+                ⲡⲓⲡ̀ⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ : ⲛⲉⲙ ⲁ̀ⲡⲁ ̀̀̀ Ⲡϫⲟⲗ ⲛⲉⲙ ⲁ̀ⲡⲁ Ⲕⲁⲩ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">أطلبوا من الرب عنا ياأبا كلوج القس وابا بجول وأبا كاف ليغفر..</td>
         </tr>
         <tr id="table_71_row_39" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: Abba John of Heraclia, Lord Piphamon and
                 Pistavros, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲁ̀ⲡⲁ Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲣⲉⲙϩⲁⲣⲁⲕⲗⲓⲁ̀ : ⲛⲉⲙ ⲕⲩⲣⲓⲁ̀
-                Ⲡⲓⲫⲁⲙⲱⲛ ⲛⲉⲙ Ⲡⲓⲥ̀ⲧⲁⲩⲣⲟⲥ : ⲛ̀ⲧⲉϥ ...</td>
+                Ⲡⲓⲫⲁⲙⲱⲛ ⲛⲉⲙ Ⲡⲓⲥ̀ⲧⲁⲩⲣⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
             <td class="arabic">أطلبوا من الرب عنا ياأبا يوحنا الهرقلى والسيد بفام وبسطوروس ليغفر..</td>
         </tr>
         <tr id="table_71_row_40" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: Isidore and Panteleon, Sophia and Euphemia,
                 That He may....</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : Ⲏⲥⲏⲇⲱⲣⲟⲥ ⲛⲉⲙ Ⲡⲁⲛⲧⲉⲗⲉⲟⲛ : Ⲥⲟⲫⲓⲁ̀ ⲛⲉⲙ Ⲉⲩⲫⲟⲙⲓⲁ̀
-                : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">أطلبوا من الرب عنا ياايسيذوروس وبندلاون وصوفيا وإفوميه ليغفر ..</td>
+                : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">أطلبوا من الرب عنا ياايسيذوروس وبندلاون وصوفيا وإفوميه ليغفر..</td>
         </tr>
         <tr id="table_71_row_41" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, Lord Abanoub and
                 Epto-lomeos, Apa-ekragon and Sousennius, That He may…</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲕⲩⲣⲓ Ⲁⲡⲁⲛⲟⲩⲃ ⲛⲉⲙ
-                Ⲡⲑⲟⲗⲟⲙⲉⲟⲥ : ⲛⲉⲙ Ⲁⲡⲁⲕ̀ⲣⲁⲅⲟⲛ ⲛⲉⲙ Ⲥⲟⲩⲥⲉⲛⲛⲓⲟⲥ : ⲛ̀ⲧⲉϥ ...</td>
+                Ⲡⲑⲟⲗⲟⲙⲉⲟⲥ : ⲛⲉⲙ Ⲁⲡⲁⲕ̀ⲣⲁⲅⲟⲛ ⲛⲉⲙ Ⲥⲟⲩⲥⲉⲛⲛⲓⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
             <td class="arabic">أطلبوا من الرب عنا ياسيدى ابانوب وابطلماوس وابكراجون وسوسنيوس ليغفر..</td>
         </tr>
         <tr id="table_71_row_42" class="north">
@@ -11844,205 +11843,205 @@ ${htmlRenderScript}
             <td class="english" style="border-right: 1px solid black;">Pray: O new martyrs, Pistavros and Arsenius, That
                 He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲱ̀ ⲛⲓⲃⲉⲣⲓ ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ : Ⲡⲓⲥ̀ⲧⲁⲩⲣⲟⲥ ⲛⲉⲙ
-                Ⲁⲣⲥⲉⲛⲓⲟⲥ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">أطلبوا من الرب عنا أيها الشهيدان الجديدان بسطوروس وارسانيوس ليغفر ..</td>
+                Ⲁⲣⲥⲉⲛⲓⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">أطلبوا من الرب عنا أيها الشهيدان الجديدان بسطوروس وارسانيوس ليغفر..</td>
         </tr>
         <tr id="table_71_row_44" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, O Michael the
                 hegomen, And Michael the monk, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲱ̀ Ⲙⲓⲭⲁⲏⲗ
                 ⲡⲓϩⲏⲅⲟⲩⲙⲉⲛⲟⲥ : ⲛⲉⲙ Ⲙⲓⲭⲁⲏⲗ ⲡⲓⲙⲟⲛⲁⲭⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
-            <td class="arabic">اطلبا من الرب عنا ياميخائيل القمص وميخائيل الراهب ليغفر ...</td>
+            <td class="arabic">اطلبا من الرب عنا ياميخائيل القمص وميخائيل الراهب ليغفر...</td>
         </tr>
         <tr id="table_71_row_45" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: O chorus of the martyrs, Who suffered for
                 the sake of Christ, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲛⲓⲭⲟⲣⲟⲥ ⲛ̀ⲧⲉ ⲛⲓⲙⲁⲣⲧⲩⲣⲟⲥ : ⲉ̀ⲧⲁⲩϣⲉⲡ ⲙ̀ⲕⲁϩⲓ
-                ⲉⲑⲃⲉ Ⲡⲭˉⲥˉ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا ياصفوف الشهداء الذين تألموا من أجل المسيح ليغفر .</td>
+                ⲉⲑⲃⲉ Ⲡⲭˉⲥˉ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا ياصفوف الشهداء الذين تألموا من أجل المسيح ليغفر.</td>
         </tr>
         <tr id="table_71_row_46" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: Our lords and fathers who love their
                 children, Abba Anthony and Abba Paul, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲛⲁϭⲟⲓⲥ ⲛ̀ⲓⲟϯ ⲙ̀ⲙⲁⲓⲛⲟⲩϣⲏⲣⲓ : ⲁⲃⲃⲁ Ⲁⲛⲧⲱⲛⲓⲟⲥ
-                ⲛⲉⲙ ⲁⲃⲃⲁ Ⲡⲁⲩⲗⲉ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبا من الرب عنا ياسيدى الابوين محبى أولادهما انطونيوس وأنبا بولا ليغفر ..</td>
+                ⲛⲉⲙ ⲁⲃⲃⲁ Ⲡⲁⲩⲗⲉ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبا من الرب عنا ياسيدى الابوين محبى أولادهما انطونيوس وأنبا بولا ليغفر..</td>
         </tr>
         <tr id="table_71_row_47" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, O three saints,
                 Abba Macarii, And all their children, the cross-bearers, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲡⲓϣⲟⲙⲧ ⲉⲑⲟⲩⲁⲃ ⲁⲃⲃⲁ Ⲙⲁⲕⲁⲣⲓ : ⲛⲉⲙ ⲛⲟⲩϣⲏⲣⲓ
                 ⲛ̀ⲥ̀ⲧⲁⲩⲣⲟⲫⲟⲣⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
-            <td class="arabic">اطلبوا من الرب عنا أيها الثلاثة مقارات القديسون وأولادهم لباس الصليب ليغفر ..</td>
+            <td class="arabic">اطلبوا من الرب عنا أيها الثلاثة مقارات القديسون وأولادهم لباس الصليب ليغفر..</td>
         </tr>
         <tr id="table_71_row_48" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: Our lords and fathers the hegomens, Abba
                 John and Abba Daniel, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲛⲁϭⲟⲓⲥ ⲛ̀ⲓⲟϯ ⲛ̀ϩⲏⲅⲟⲩⲙⲉⲛⲟⲥ : ⲁⲃⲃⲁ Ⲓⲱⲁⲛⲛⲏⲥ ⲛⲉⲙ
-                ⲁⲃⲃⲁ Ⲇⲁⲛⲓⲏⲗ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبا من الرب عنا يا سيدى الأبوين القمصين أنبا يوحنا وأنبا دانيال ليغفر ..</td>
+                ⲁⲃⲃⲁ Ⲇⲁⲛⲓⲏⲗ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبا من الرب عنا يا سيدى الأبوين القمصين أنبا يوحنا وأنبا دانيال ليغفر..</td>
         </tr>
         <tr id="table_71_row_49" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: Our lords and fathers who love their
                 children, Abba Pishoi and Abba Paul, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲛⲁϭⲟⲓⲥ ⲛ̀ⲓⲟϯ ⲙ̀ⲙⲁⲓⲛⲟⲩϣⲏⲣⲓ : ⲁⲃⲃⲁ Ⲡⲓϣⲱⲓ ⲛⲉⲙ
-                ⲁⲃⲃⲁ Ⲡⲁⲩⲗⲉ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبا من الرب عنا يا سيدىّ الأبوين محبى أولادهما أنبا بيشوى وأنبا بولا ليغفر ..</td>
+                ⲁⲃⲃⲁ Ⲡⲁⲩⲗⲉ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبا من الرب عنا يا سيدىّ الأبوين محبى أولادهما أنبا بيشوى وأنبا بولا ليغفر..</td>
         </tr>
         <tr id="table_71_row_50" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, Our Saintly Roman
                 fathers, Maximus and Dometius, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲛⲉⲛⲓⲟϯ ⲉⲑⲟⲩⲁⲃ
                 ⲛ̀ⲣⲱⲙⲉⲟⲥ : Ⲙⲁⲝⲓⲙⲟⲥ ⲛⲉⲙ Ⲇⲟⲙⲉⲧⲓⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
-            <td class="arabic">أطلبا من الرب عنا ياأبوينا القديسين الروميين مكسيموس ودوماديوس ليغفر ...</td>
+            <td class="arabic">أطلبا من الرب عنا ياأبوينا القديسين الروميين مكسيموس ودوماديوس ليغفر...</td>
         </tr>
         <tr id="table_71_row_51" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: O Forty Nine Martyrs, The elders of
                 Shiheet, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲡⲓϩ̀ⲙⲉ ⲯⲓⲧ ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ : ⲛⲓϧⲉⲗⲗⲟⲓ ⲛ̀ⲧⲉ Ϣⲓϩⲏⲧ
-                : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا أيها التسعة والاربعون شهيداً شيوخ شيهات ليغفر ..</td>
+                : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا أيها التسعة والاربعون شهيداً شيوخ شيهات ليغفر..</td>
         </tr>
         <tr id="table_71_row_52" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: O strong saint, Abba Moses, And John Kame,
                 That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲡⲓϫⲱⲣⲓ ⲉⲑⲟⲩⲁⲃ ⲁⲃⲃⲁ Ⲙⲱⲥⲏ : ⲛⲉⲙ Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲭⲁⲙⲏ
-                : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">أطلبا من الرب عنا ايها القوى القديس انبا موسي ويحنس كاما ليغفر ..</td>
+                : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">أطلبا من الرب عنا ايها القوى القديس انبا موسي ويحنس كاما ليغفر..</td>
         </tr>
         <tr id="table_71_row_53" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, Abba Pachomious
                 of the Koinonia, And Theodore his disciple, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲁⲃⲃⲁ Ⲡⲁϧⲱⲙ ⲫⲁ
-                ϯⲕⲟⲓⲛⲱⲛⲓⲁ̀ : ⲛⲉⲙ Ⲑⲉⲟ̀ⲇⲱⲣⲟⲥ ⲡⲉϥⲙⲁⲑⲏⲧⲏⲥ : ̀ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبا من الرب عنا ياانبا باخوم ابا الشركة وثيؤدورس تلميذه ليغفر ..</td>
+                ϯⲕⲟⲓⲛⲱⲛⲓⲁ̀ : ⲛⲉⲙ Ⲑⲉⲟ̀ⲇⲱⲣⲟⲥ ⲡⲉϥⲙⲁⲑⲏⲧⲏⲥ : ̀ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبا من الرب عنا ياانبا باخوم ابا الشركة وثيؤدورس تلميذه ليغفر..</td>
         </tr>
         <tr id="table_71_row_54" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: Abba Shenouda the Archimandrite, And Abba
                 Wisa his disciple, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲁⲃⲃⲁ Ϣⲉⲛⲟϯ ⲡⲓⲁⲣⲭⲏⲙⲁⲛⲇ̀ⲣⲓⲧⲏⲥ : ⲛⲉⲙ ⲁⲃⲃⲁ Ⲃⲏⲥⲁ
-                ⲡⲉϥⲙⲁⲑⲏⲧⲏⲥ : ⲛ̀ⲧⲉϥ ...</td>
+                ⲡⲉϥⲙⲁⲑⲏⲧⲏⲥ : ⲛ̀ⲧⲉϥ...</td>
             <td class="arabic">اطلبا من الرب عنا ياانبا شنوده رئيس المتوحدين وانبا ويصا تلميذه ليغفر..</td>
         </tr>
         <tr id="table_71_row_55" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: Abba Nopher and Abba Karus, And our father
                 Paphnutius, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲁⲃⲃⲁ Ⲛⲟⲩϥⲉⲣ ⲛⲉⲙ ⲁⲃⲃⲁ Ⲕⲁⲣⲟⲥ : ⲛⲉⲙ ⲡⲉⲛⲓⲱⲧ
-                Ⲡⲁⲫ̀ⲛⲟⲩⲧⲓⲟⲥ :ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا ياانبا نفر وانبا كاروس وابانا بفنوتيوس ليغفر ..</td>
+                Ⲡⲁⲫ̀ⲛⲟⲩⲧⲓⲟⲥ :ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا ياانبا نفر وانبا كاروس وابانا بفنوتيوس ليغفر..</td>
         </tr>
         <tr id="table_71_row_56" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, Abba Samuel the
                 confessor, and Justus and Apollo And his disciples, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲁⲃⲃⲁ Ⲥⲁⲙⲟⲩⲏⲗ
-                ⲡⲓⲟ̀ⲙⲟⲗⲟⲅⲓⲧⲏⲥ : ⲛⲉⲙ Ⲓⲟⲩⲥⲧⲟⲥ ⲛⲉⲙ ̀ Ⲁⲡⲟⲗⲗⲟ ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا ياانبا صموئيل المعترف ويسطس وأبوللو تلميذيه ليغفر ...</td>
+                ⲡⲓⲟ̀ⲙⲟⲗⲟⲅⲓⲧⲏⲥ : ⲛⲉⲙ Ⲓⲟⲩⲥⲧⲟⲥ ⲛⲉⲙ ̀ Ⲁⲡⲟⲗⲗⲟ ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا ياانبا صموئيل المعترف ويسطس وأبوللو تلميذيه ليغفر...</td>
         </tr>
         <tr id="table_71_row_57" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: Abba Apollo and Abba Apip, And our father
                 Abba Pigimi, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲁⲃⲃⲁ ̀ Ⲁⲡⲟⲗⲗⲟ ⲛⲉⲙ ⲁⲃⲃⲁ̀ Ⲁⲡⲓⲡ : ⲛⲉⲙ ⲡⲉⲛⲓⲱⲧ
-                ⲁⲃⲃⲁ Ⲡⲓϫⲓⲙⲓ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا ياانبا ابوللو وانبا ابيب وابانا انبا بيجيمى ليغفر ...</td>
+                ⲁⲃⲃⲁ Ⲡⲓϫⲓⲙⲓ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا ياانبا ابوللو وانبا ابيب وابانا انبا بيجيمى ليغفر...</td>
         </tr>
         <tr id="table_71_row_58" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: Abba Evkin and Abba Ehron, Abba Hor and
                 Abba Phis, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲁⲃⲃⲁ Ⲉⲩⲕⲓⲛ ⲛⲉⲙ ⲁⲃⲃⲁ ̀ Ϩⲣⲟⲛ : ⲛⲉⲙ ⲁ̀ⲡⲁ Ϩⲱⲣ
-                ⲛⲉⲙ ⲁ̀ⲡⲁ Ⲫⲓⲥ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا ياانبا افكين وانبا إهرون واباهور وابافيس ليغفر ...</td>
+                ⲛⲉⲙ ⲁ̀ⲡⲁ Ⲫⲓⲥ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا ياانبا افكين وانبا إهرون واباهور وابافيس ليغفر...</td>
         </tr>
         <tr id="table_71_row_59" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, Abba Parsoma and
                 Ephrem, And John and Simeon, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲁⲃⲃⲁ Ⲡⲁⲣⲥⲱⲙⲁ ⲛⲉⲙ
-                Ⲉⲫⲣⲉⲙ : ⲛⲉⲙ Ⲓⲱⲁⲛⲛⲏⲥ ⲛⲉⲙ Ⲥⲩⲙⲉⲱⲛ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا ياانبا برسوما وافريم ويوحنا وسمعان ليغفر ...</td>
+                Ⲉⲫⲣⲉⲙ : ⲛⲉⲙ Ⲓⲱⲁⲛⲛⲏⲥ ⲛⲉⲙ Ⲥⲩⲙⲉⲱⲛ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا ياانبا برسوما وافريم ويوحنا وسمعان ليغفر...</td>
         </tr>
         <tr id="table_71_row_60" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: Epiphanius and Ammonius, and Arshillidis
                 and Arsenius, That He may…</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : Ⲉⲡⲓⲫⲁⲛⲓⲟⲥ ⲛⲉⲙ Ⲁⲙⲙⲱⲛⲓⲟⲥ : ⲛⲉⲙ Ⲁⲣⲭⲏⲗⲗⲓⲧⲏⲥ ⲛⲉⲙ
-                Ⲁⲣⲥⲉⲛⲓⲟⲥ : ⲛ̀ⲧⲉϥ ...</td>
+                Ⲁⲣⲥⲉⲛⲓⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
             <td class="arabic">اطلبوا من الرب عنا ياابيفانيوس وامونيوس وارشليدس وارسانيوس ليغفر</td>
         </tr>
         <tr id="table_71_row_61" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: Our lords, the ascetic fathers, Abba Abraam
                 and George, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲛⲁϭⲟⲓⲥ ⲛ̀ⲓⲟϯ ⲛ̀ⲁⲥⲕⲏⲧⲏⲥ : ⲁⲃⲃⲁ Ⲁⲃⲣⲁⲁⲙ ⲛⲉⲙ
-                Ⲅⲉⲱⲣⲅⲏ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبا من الرب عنا ياسيدى الابوين الناسكين انبا أبرام وجيؤرجى ليغفر ..</td>
+                Ⲅⲉⲱⲣⲅⲏ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبا من الرب عنا ياسيدى الابوين الناسكين انبا أبرام وجيؤرجى ليغفر..</td>
         </tr>
         <tr id="table_71_row_62" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, Athanasius the
                 Apostolic, Severus and Dioscorus, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ :̀ Ⲁⲑⲛⲁⲛⲁⲥⲓⲟⲥ ⲡⲓⲁⲡⲟⲥⲧⲟⲗⲓⲕⲟⲥ : Ⲥⲉⲩⲏⲣⲟⲥ ⲛⲉⲙ
                 Ⲇⲓⲟⲥⲕⲟⲣⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
-            <td class="arabic">اطلبوا من الرب عنا يااثاناسيوس الرسولى وساويرس وديسقورس ليغفر ..</td>
+            <td class="arabic">اطلبوا من الرب عنا يااثاناسيوس الرسولى وساويرس وديسقورس ليغفر..</td>
         </tr>
         <tr id="table_71_row_63" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: Basil and Gregory, And our father Abba
                 Cyril,That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : Ⲃⲁⲥⲓⲗⲓⲟⲥ ⲛⲉⲙ Ⲅⲣⲓⲅⲟⲣⲓⲟⲥ : ⲛⲉⲙ ⲡⲉⲛⲓⲱⲧ Ⲁⲃⲃⲁ
                 Ⲕⲩⲣⲓⲗⲗⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
-            <td class="arabic">اطلبوا من الرب عنا ياباسيليوس واغريغوريوس . وابانا أنبا كيرلس ليغفر ..</td>
+            <td class="arabic">اطلبوا من الرب عنا ياباسيليوس واغريغوريوس. وابانا أنبا كيرلس ليغفر..</td>
         </tr>
         <tr id="table_71_row_64" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: O three hundred and eighteen gathered at
                 Nicea, For the faith, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲡⲓ ϣⲟⲙⲧ ϣⲉ ⲙⲏⲧ ϣ̀ⲙⲏⲛ ⲉ̀ⲧⲁⲩ ⲑⲱⲟⲩϯ ϧⲉⲛ Ⲛⲓⲕⲉⲁ̀
                 : ⲉⲑⲃⲉ ⲡⲓⲛⲁϩϯ : ⲛ̀ⲧⲉϥ…</td>
-            <td class="arabic">اطلبوا من الرب عنا أيها ال٣١٨الذين اجتمعوا فى نيقيه من اجل الايمان ليغفر ..</td>
+            <td class="arabic">اطلبوا من الرب عنا أيها ال٣١٨الذين اجتمعوا فى نيقيه من اجل الايمان ليغفر..</td>
         </tr>
         <tr id="table_71_row_65" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, O the one hundred
                 and fifty at Constantinople, And the two hundred at Ephesus,That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲱ̀ ⲡⲓ ϣⲉ ⲧⲉⲃⲓ ⲛ̀ⲧⲉ
                 Ⲕⲱⲥⲧⲁⲛⲧⲓⲛⲟⲩ- ⲡⲟⲗⲓⲥ: ⲛⲉⲙ ⲡⲓ ⲥ̀ⲛⲁⲩ ϣⲉ ⲛ̀ⲧⲉ ̀ Ⲉⲫⲉⲥⲟⲥ : ⲛ̀ⲧⲉϥ …</td>
-            <td class="arabic">اطلبوا من الرب عنا ايها ال ١٥٠ بمدينة القسطنطينية والمائتين بأفسس ليغفر ..</td>
+            <td class="arabic">اطلبوا من الرب عنا ايها ال ١٥٠ بمدينة القسطنطينية والمائتين بأفسس ليغفر..</td>
         </tr>
         <tr id="table_71_row_66" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: Abba Hadid and Abba John, Our great father
                 Parsoma and Abba Teji, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲁⲃⲃⲁ Ϩⲁⲇⲓⲇ ⲛⲉⲙ ⲁⲃⲃⲁ Ⲓⲱⲁⲛⲛⲏⲥ : ⲛⲉⲙ ⲡⲉⲛⲓⲱⲧ
                 ⲡⲓⲛⲓϣϯ ⲁⲃⲃⲁ Ⲡⲁⲣⲥⲱⲙⲁ ⲛⲉⲙ Ⲁⲃⲃⲁ Ⲧⲉϫⲓ : ⲛ̀ⲧⲉϥ...</td>
-            <td class="arabic">اطلبوا من الرب عنا ياانبا حديد وأنبا يوحنا وأبانا العظيم أنبا برسوما وأنبا رويس ليغفر ..
+            <td class="arabic">اطلبوا من الرب عنا ياانبا حديد وأنبا يوحنا وأبانا العظيم أنبا برسوما وأنبا رويس ليغفر..
             </td>
         </tr>
         <tr id="table_71_row_67" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: Abba Abraam the hegomen, And our father
                 Abba Mark, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲁⲃⲃⲁ Ⲁⲃⲣⲁⲁⲙ ⲡⲓϩⲏⲅⲟⲩⲙⲉⲛⲟⲥ : ⲛⲉⲙ ⲡⲉⲛⲓⲱⲧ ⲁⲃⲃⲁ
-                Ⲙⲁⲣⲕⲟⲥ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبا من الرب عنا ياأنبا ابرام القمص وابانا أنبا مرقس ليغفر ..</td>
+                Ⲙⲁⲣⲕⲟⲥ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبا من الرب عنا ياأنبا ابرام القمص وابانا أنبا مرقس ليغفر..</td>
         </tr>
         <tr id="table_71_row_68" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray to the Lord on our behalf, O chorus of the
                 cross bearers, Perfected in the wilderness, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲛⲓⲭⲟⲣⲟⲥ ⲛ̀ⲧⲉ
-                ⲛⲓⲥ̀ⲧⲁⲩⲣⲟⲫⲟⲣⲟⲥ : ⲉ̀ⲧⲁⲩϫⲱⲕ ⲉ̀ⲃⲟⲗ ϩⲓⲛⲓϣⲁϥⲉⲩ : ⲛ̀ⲧⲉϥ ...</td>
-            <td class="arabic">اطلبوا من الرب عنا يامصاف لبّاس الصليب الذين كملوا فى البرارى ليغفر ..</td>
+                ⲛⲓⲥ̀ⲧⲁⲩⲣⲟⲫⲟⲣⲟⲥ : ⲉ̀ⲧⲁⲩϫⲱⲕ ⲉ̀ⲃⲟⲗ ϩⲓⲛⲓϣⲁϥⲉⲩ : ⲛ̀ⲧⲉϥ...</td>
+            <td class="arabic">اطلبوا من الرب عنا يامصاف لبّاس الصليب الذين كملوا فى البرارى ليغفر..</td>
         </tr>
         <tr id="table_71_row_69" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: My lord King Constantine, and his mother,
                 Queen Helen, That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲡⲁϭⲟⲓⲥ ⲡ̀ⲟⲩⲣⲟ Ⲕⲱⲥⲧⲁⲛⲧⲓⲛⲟⲥ : ⲛⲉⲙ Ⲏ̀ⲗⲁⲛⲏ ϯⲟⲩⲣⲱ
                 : ⲛ̀ⲧⲉϥ...</td>
-            <td class="arabic">اطلبا من الرب عنا ياسيدى الملك قسطنطين وهيلانه الملكة ليغفر ..</td>
+            <td class="arabic">اطلبا من الرب عنا ياسيدى الملك قسطنطين وهيلانه الملكة ليغفر..</td>
         </tr>
         <tr id="table_71_row_70" class="north">
             <td class="english" style="border-right: 1px solid black;">Pray: O wise virgin ladies, the brides of Christ,
                 That He may...</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱˉ : ⲛⲏⲁ̀ⲗⲟⲩ ⲛ̀ⲥⲁⲃⲉ ⲙ̀ⲡⲁⲣⲑⲉⲛⲟⲥ : ⲛⲓϣⲉⲗⲉⲧ ⲛ̀ⲧⲉ
                 ⲠⲓⲬ̀ⲣⲓⲥⲧⲟⲥ: ⲛ̀ⲧⲉϥ…</td>
-            <td class="arabic">اطلبن من الرب عنا ايتها الفتيات العذارى الحكيمات عرائس المسيح ليغفر ..</td>
+            <td class="arabic">اطلبن من الرب عنا ايتها الفتيات العذارى الحكيمات عرائس المسيح ليغفر..</td>
         </tr>
         <tr id="table_71_row_71" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: O saints of this day, each one by his name,
                 That He may forgive us our sins.</td>
             <td class="coptic" style="border-right: 1px solid black;">Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲛⲏⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲉ ⲡⲁⲓ
                 ⲉ̀ϩⲟⲟⲩ : ⲡⲓⲟⲩⲁⲓ ⲡⲓⲟⲩⲁⲓ ⲕⲁⲧⲁ ⲡⲉϥⲣⲁⲛ : ⲛ̀ⲧⲉϥ ⲭⲁ ⲛⲉⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.</td>
-            <td class="arabic">اطلبوا من الرب عنا ياقديسى هذا اليوم كل واحد باسمه ليغفر ..</td>
+            <td class="arabic">اطلبوا من الرب عنا ياقديسى هذا اليوم كل واحد باسمه ليغفر..</td>
         </tr>
         <tr id="table_71_row_72" class="north">
             <td class="english" style="border-right: 1px solid black;">Likewise, we magnify You, with David the
@@ -12050,7 +12049,7 @@ ${htmlRenderScript}
             <td class="coptic" style="border-right: 1px solid black;">̀ Ⲱⲥⲁⲩⲧⲱⲥ ⲧⲉⲛϭⲓⲥⲓ ⲙ̀ⲙⲟⲕ : ⲛⲉⲙ ⲡⲓϩⲩⲙⲛⲟⲇⲟⲥ Ⲇⲁⲩⲓⲇ :
                 ϫⲉ ⲛ̀ⲑⲟⲕ ⲡⲉ ⲡⲓⲟⲩⲏⲃ ϣⲁ ⲉ̀ⲛⲉϩ : ⲕⲁⲧⲁ ⲧ̀ⲧⲁⲝⲓⲥ
                 ⲙ̀Ⲙⲉⲗⲭⲓⲥⲉⲇⲉⲕ.</td>
-            <td class="arabic">كذلك نعظمك مع المرتل داود قائلين انت هو الكاهن إلى الأبد على طقس ملشيصاداق .</td>
+            <td class="arabic">كذلك نعظمك مع المرتل داود قائلين انت هو الكاهن إلى الأبد على طقس ملشيصاداق.</td>
         </tr>
         <tr id="table_71_row_73" class="south">
             <td class="english" style="border-right: 1px solid black;">Pray: Our Holy father, the patriarch Abba (…),
