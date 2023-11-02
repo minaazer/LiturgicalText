@@ -1,7 +1,7 @@
 import React from 'react';
 import { createDrawerNavigator, DrawerContentScrollView, DrawerItem } from '@react-navigation/drawer';
 import { createStackNavigator } from '@react-navigation/stack';
-import { Dimensions, StyleSheet, View, Text , Platform } from 'react-native';
+import { Dimensions, StyleSheet, View, Text, Platform } from 'react-native';
 
 import Home from '../screens/home';
 //import Glorification from '../screens/glorification';
@@ -29,15 +29,15 @@ function LeftDrawerContent(props) {
       <DrawerItem label="Home" style={styles.drawerItem} labelStyle={styles.drawerLabel} onPress={() => props.navigation.navigate('Home')} />
       <DrawerItem label="Glorification" style={styles.drawerItem} labelStyle={styles.drawerLabel} onPress={() => props.navigation.navigate('Glorification')} />
       <DrawerItem label="Kiahk" style={styles.drawerItem} labelStyle={styles.drawerLabel} onPress={() => props.navigation.navigate('Kiahk')} />
-      <DrawerItem label="Settings" style={styles.drawerItem} labelStyle={styles.drawerLabel} onPress={() => props.navigation.navigate('Settings')} />      
+      <DrawerItem label="Settings" style={styles.drawerItem} labelStyle={styles.drawerLabel} onPress={() => props.navigation.navigate('Settings')} />
     </DrawerContentScrollView>
   );
 }
 // Define the MainStackNavigator which nests all the main screens.
 const MainStackNavigator = () => {
   return (
-    <Stack.Navigator initialRouteName="Home" 
-    screenOptions = {{ gestureEnabled: false , gestureDirection: 'horizontal'}}
+    <Stack.Navigator initialRouteName="Home"
+      screenOptions={{ gestureEnabled: false, gestureDirection: 'horizontal' }}
     >
       <Stack.Screen name="Home" component={Home} options={{ headerShown: false }} />
       <Stack.Screen name="Glorification" component={Glorification} options={{ headerShown: false }} />
@@ -56,7 +56,7 @@ const RootNavigation = () => {
         swipeEdgeWidth: screenWidth / 3,
         drawerType: 'front',
         overlayColor: 'rgba(0,0,0,0)', // this is the key: set the overlay to transparent
-        
+
       }}
       drawerContent={props => <LeftDrawerContent {...props} />}
 
@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
   },
   drawerContentContainer: {
 
-    ...(Platform.OS === 'ios' && { marginLeft: -60 }),
+    ...(Platform.OS === 'ios' && !Platform.isPad && { marginLeft: -40 }),
     paddingTop: 0,
     paddingBottom: 10,
 
