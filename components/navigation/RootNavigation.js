@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
   },
   drawerContentContainer: {
 
-    ...(Platform.OS === 'ios' && !Platform.isPad && { marginLeft: -30 }),
+    ...(Platform.OS === 'ios' && !Platform.isPad && { marginLeft: -40 }),
     paddingTop: 0,
     paddingBottom: 10,
 
