@@ -1,23 +1,26 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 import { DrawerContentScrollView, DrawerItem } from '@react-navigation/drawer';
-import {presentationStyles} from '../css/presentationStyles';
+import { presentationStyles } from '../css/presentationStyles';
 
-const RightDrawerContent = ({ drawerItems, handleDrawerItemPress , navigation ,  props }) => {
-    return (
-      <DrawerContentScrollView {...props}
-      >
-        
-        {drawerItems.map((item, index) => (
+const RightDrawerContent = ({ currentTable, drawerItems, handleDrawerItemPress, navigation, props }) => {
+  
+  return (
+    <DrawerContentScrollView {...props}>
+      {drawerItems.map((item, index) => {
+        const isActive = item.id === currentTable;
+
+        return (
           <View style={presentationStyles.itemWrapper} key={item.id}>
             <DrawerItem
               label={() => 
                 <View style={presentationStyles.labelViewContainer}>
                   {item.title.order.map((lang) => {
+                    let textStyle = isActive ? presentationStyles.activeTitle : {};
                     if (lang === 'english' && item.title.english) {
-                      return <Text key="english" style={presentationStyles.englishTitle}>{item.title.english}</Text>;
+                      return <Text key="english" style={[presentationStyles.englishTitle, textStyle]}>{item.title.english}</Text>;
                     } else if (lang === 'coptic' && item.title.coptic) {
-                      return <Text key="coptic" style={presentationStyles.copticTitle}>{item.title.coptic}</Text>;
+                      return <Text key="coptic" style={[presentationStyles.copticTitle, textStyle]}>{item.title.coptic}</Text>;
                     }
                     return null;
                   })}
@@ -34,11 +37,11 @@ const RightDrawerContent = ({ drawerItems, handleDrawerItemPress , navigation , 
             />
             {index !== drawerItems.length - 1 && <View style={presentationStyles.embossedLine}></View>}
           </View>
-        ))}
-  
-      </DrawerContentScrollView>
-    );
-  };
+        );
+      })}
+    </DrawerContentScrollView>
+  );
+};
   
 
 export default RightDrawerContent;

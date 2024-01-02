@@ -15,7 +15,7 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 
 const rightMenu = createDrawerNavigator();
 
-const MainContent = ({ webviewRef , setDrawerItems}) => {
+const MainContent = ({ webviewRef , setDrawerItems, setCurrentTable}) => {
   
   const [currentPage, setCurrentPage] = useState(0);
   const [pageOffsets, setPageOffsets] = useState([]);
@@ -35,15 +35,22 @@ const MainContent = ({ webviewRef , setDrawerItems}) => {
       }
       else if (message.type === 'PAGINATION_DATA') {
         setPageOffsets(message.data);
+        //console.log("pageOffsets:", pageOffsets);
       }
       //set current page after right menu navigation
       else if (message.type === 'CURRENT_PAGE_YOFFSET') {
         const yOffset = message.data;
-        const pageIndex = pageOffsets.findIndex(offset => ((offset >= yOffset)));
-        if (pageOffsets[pageIndex] === yOffset) {
+        const pageIndex = pageOffsets.findIndex(offset => ((offset.yOffset >= yOffset)));
+        if (pageOffsets[pageIndex].yOffset === yOffset) {
         setCurrentPage(pageIndex);
-        } else {
-          setCurrentPage(pageIndex -1);
+        setCurrentTable(pageOffsets[pageIndex].tableId);
+        } else if (pageOffsets[pageIndex].yOffset > yOffset){
+          setCurrentPage(pageIndex-1);
+          setCurrentTable(pageOffsets[pageIndex].tableId);
+        }
+        else {
+          setCurrentPage(pageIndex+1);
+          setCurrentTable(pageOffsets[pageIndex].tableId);
         }
       }
       else{
@@ -85,7 +92,9 @@ const MainContent = ({ webviewRef , setDrawerItems}) => {
     if (currentPage < pageOffsets.length - 1) {
 
         setCurrentPage(prevPage => prevPage + 1);
-        const yOffset = pageOffsets[currentPage + 1];
+        setCurrentTable(pageOffsets[currentPage + 1].tableId);
+        const yOffset = pageOffsets[currentPage + 1].yOffset;
+        console.log("yOffset:", yOffset);
         webviewRef.current.injectJavaScript(`window.scrollTo(0, ${yOffset});`);
         webviewRef.current.injectJavaScript(`clearOverlays()`);
         webviewRef.current.injectJavaScript(`adjustOverlay()`);
@@ -97,7 +106,8 @@ const handlePrevious = () => {
     if (currentPage > 0) {
 
         setCurrentPage(prevPage => prevPage - 1);
-        const yOffset = pageOffsets[currentPage - 1];
+        setCurrentTable(pageOffsets[currentPage + 1].tableId);
+        const yOffset = pageOffsets[currentPage - 1].yOffset;
         webviewRef.current.injectJavaScript(`window.scrollTo(0, ${yOffset});`);
         webviewRef.current.injectJavaScript(`clearOverlays()`);
         webviewRef.current.injectJavaScript(`adjustOverlay()`);
@@ -121,6 +131,7 @@ const handlePrevious = () => {
         onMessage={handleMessage}
         style={presentationStyles.webview}
         userSelect="none"
+        pointerEvents='none'
         
       />
       </View>
@@ -132,6 +143,7 @@ const handlePrevious = () => {
 
 const Kiahk = () => {
   const [drawerItems, setDrawerItems] = useState([]);
+  const [currentTable, setCurrentTable] = useState('');
   const webviewRef = useRef(null);
   const screenWidth = Dimensions.get('window').width;
 
@@ -161,18 +173,19 @@ const Kiahk = () => {
           gestureDirection: 'horizontal-inverted', // For RTL swipe gesture
           drawerPosition: 'right',
           swipeEdgeWidth: screenWidth /3 ,
-          overlayColor: 'rgba(0,0,0,0)', // this is the key: set the overlay to transparent
+          overlayColor: 'rgba(0,0,0,0.5)', // Semi-transparent overlay
 
          }}
          drawerContent={props => 
             <RightDrawerContent 
               {...props}
+              currentTable={currentTable}
               drawerItems={drawerItems} 
               handleDrawerItemPress={handleDrawerItemPress} />}
         >
 
             <rightMenu.Screen name="Kiahk Psalmody">
-              {() => <MainContent webviewRef={webviewRef} setDrawerItems={setDrawerItems} />}
+              {() => <MainContent webviewRef={webviewRef} setDrawerItems={setDrawerItems} setCurrentTable={setCurrentTable}/>}
             </rightMenu.Screen>
 
           </rightMenu.Navigator>

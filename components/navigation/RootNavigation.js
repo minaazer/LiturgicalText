@@ -55,7 +55,7 @@ const RootNavigation = () => {
         gestureEnabled: true,
         swipeEdgeWidth: screenWidth / 3,
         drawerType: 'front',
-        overlayColor: 'rgba(0,0,0,0)', // this is the key: set the overlay to transparent
+        overlayColor: 'rgba(0,0,0,0.5)', // Semi-transparent overlay
 
       }}
       drawerContent={props => <LeftDrawerContent {...props} />}

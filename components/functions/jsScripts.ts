@@ -16,13 +16,20 @@ function paginateTables() {
     pagesPerRow.push(1);
     
     document.querySelectorAll('table').forEach(table => {
+      const tableId = table.getAttribute('id');
       // Check if the table has a caption and get its height
       const caption = table.querySelector('caption');
-      const captionHeight = caption ? caption.getBoundingClientRect().height : 0;
+      let captionInnerHeight = caption ? caption.getBoundingClientRect().height : 0;
+      let captionBorderHeight = caption ? caption.offsetHeight - caption.clientHeight : 0;
+      let captionStyle = caption ? window.getComputedStyle(caption) : null;
+      let captionMarginTop = captionStyle ? parseInt(captionStyle.marginTop) : 0;
+      let captionMarginBottom = captionStyle ? parseInt(captionStyle.marginBottom) : 0;
+      const captionHeight = caption ? captionInnerHeight + captionBorderHeight + captionMarginTop + captionMarginBottom : 0;
+      
       let remainder = 0;
         // If adding the caption causes the page to exceed viewport height, start a new page
         if (caption && captionHeight) {
-          pages.push({currentPage: currentPage[0], pagesPerRow: pagesPerRow[pagesPerRow.length-1]});
+          pages.push({currentPage: currentPage[0], pagesPerRow: pagesPerRow[pagesPerRow.length-1],tableId: tableId});
           currentPage = [caption.id];
           currentPageHeight = captionHeight; // Start the new page with the caption's height
           pagesPerRow.push(1);
@@ -30,38 +37,65 @@ function paginateTables() {
         }
 
         table.querySelectorAll('tr').forEach(row => {
-            const rowHeight = row.getBoundingClientRect().height;
-            if (pagesPerRow[pagesPerRow.length-1] > 1) {
+          let rowInnerHeight = row ? row.getBoundingClientRect().height : 0;
+          let rowBorderHeight = row ? row.offsetHeight - row.clientHeight : 0;
+          let rowStyle = row ? window.getComputedStyle(row) : null;
+          let rowMarginTop = rowStyle ? parseInt(rowStyle.marginTop) : 0;
+          let rowMarginBottom = rowStyle ? parseInt(rowStyle.marginBottom) : 0;
+          let rowPaddingBottom = rowStyle ? parseInt(rowStyle.paddingBottom) : 0;
+
+          const rowHeight = row ? rowInnerHeight + rowBorderHeight + rowMarginTop + rowMarginBottom : 0;
+          if (row.id === 'table_16_row_3'){
+            sendMessage(JSON.stringify({type: 'rowHeight', data: rowHeight}));
+            sendMessage(JSON.stringify({type: 'viewportHeight', data: viewportHeight}));
+            }
+          
+          if (pagesPerRow[pagesPerRow.length-1] > 1) {
               if (remainder > 0 && rowHeight + remainder <= viewportHeight) {
+
                 remainder += rowHeight;
                 currentPage.push(row.id);
               } else {
+             
+                
+                pages.push({currentPage: currentPage[0], pagesPerRow: pagesPerRow[pagesPerRow.length-1],tableId: tableId});
 
-                remainder = 0;
-                pages.push({currentPage: currentPage[0], pagesPerRow: pagesPerRow[pagesPerRow.length-1]});
-                pagesPerRow.push(1);
-                currentPage = [row.id];
+                if ( rowHeight >= viewportHeight) {
+                  pagesPerRow.push (Math.ceil((rowHeight-rowPaddingBottom) / (viewportHeight+1)));
+        
+                  fullPages = Math.floor(rowHeight / (viewportHeight));
+                  remainder = rowHeight - (fullPages * viewportHeight); // Calculate the height remaining after all full pages.
+                  currentPage = [row.id];
+                  currentPageHeight = remainder;
+                } else { 
+                  remainder = 0;
+                  pagesPerRow.push(1);
+                  currentPage = [row.id];
+                  currentPageHeight = rowHeight;
+                }
               } 
             } else {
 
 
           
               if (currentPageHeight + rowHeight <= viewportHeight) {
+                  
                   currentPage.push(row.id);
                   currentPageHeight += rowHeight;
 
-              } else if (caption && currentPage[0] && currentPage.length === 1 && currentPage[0] === caption.id && ((currentPageHeight + rowHeight) > viewportHeight)) {
-                  
-                  pagesPerRow.push (Math.ceil(rowHeight / (viewportHeight)));
-                  fullPages = Math.floor((rowHeight + captionHeight) / (viewportHeight));
+              } else if (caption && currentPage[0] && currentPage.length === 1 && currentPage[0] === caption.id && ((currentPageHeight + rowHeight) >= viewportHeight)) {
+
+                  pagesPerRow.push (Math.ceil((currentPageHeight + rowHeight - rowPaddingBottom) / (viewportHeight+1)));
+                  fullPages = Math.floor((rowHeight - rowPaddingBottom + captionHeight) / (viewportHeight+1));
                   remainder = rowHeight + captionHeight - (fullPages * viewportHeight); // Calculate the height remaining after all full pages.
                   currentPage.push(row.id);
                   currentPageHeight = remainder;
 
-              } else if ( rowHeight >= viewportHeight) {
-                pages.push({currentPage: currentPage[0], pagesPerRow: pagesPerRow[pagesPerRow.length-1]});
-                pagesPerRow.push (Math.ceil(rowHeight / (viewportHeight)));
-                fullPages = Math.floor(rowHeight / (viewportHeight));
+              } else if ( (rowHeight-rowPaddingBottom) >= (viewportHeight+1)) {
+                pages.push({currentPage: currentPage[0], pagesPerRow: pagesPerRow[pagesPerRow.length-1],tableId: tableId});
+                pagesPerRow.push (Math.ceil((rowHeight - rowPaddingBottom) / (viewportHeight+1)));
+           
+                fullPages = Math.floor((rowHeight - rowPaddingBottom) / (viewportHeight+1));
                 remainder = rowHeight - (fullPages * viewportHeight); // Calculate the height remaining after all full pages.
                 currentPage = [row.id];
                 currentPageHeight = remainder;
@@ -69,16 +103,15 @@ function paginateTables() {
 
               } else {
 
-                pages.push({currentPage: currentPage[0], pagesPerRow: pagesPerRow[pagesPerRow.length-1]});
+                pages.push({currentPage: currentPage[0], pagesPerRow: pagesPerRow[pagesPerRow.length-1],tableId: tableId});
                 currentPage = [row.id];
-
-                  currentPageHeight = rowHeight;
+                currentPageHeight = rowHeight;
               }
             }
         });
 
         if (currentPage.length) {
-          pages.push({currentPage: currentPage[0], pagesPerRow: pagesPerRow[pagesPerRow.length-1]});
+          pages.push({currentPage: currentPage[0], pagesPerRow: pagesPerRow[pagesPerRow.length-1],tableId: tableId});
           currentPage = [];
           currentPageHeight = 0;
         }
@@ -90,7 +123,7 @@ function paginateTables() {
     pages.forEach(page => {
         const element = document.getElementById(page.currentPage);
         const pagesinRow = page.pagesPerRow;
-    
+        const tableId = page.tableId;
         if (element) {
             let yOffset = element.getBoundingClientRect().top + window.scrollY;
     
@@ -102,10 +135,10 @@ function paginateTables() {
 
                     increment = yOffset + (i * viewportHeight); // Increase by the height of the viewport for each subsequent page
 
-                    yOffsetPages.push(increment);
+                    yOffsetPages.push({yOffset:increment,tableId: tableId});
                 }
             } else {
-                yOffsetPages.push(yOffset);
+                yOffsetPages.push({yOffset:yOffset,tableId: tableId});
             }
         }
     });
@@ -225,10 +258,15 @@ function adjustOverlay() {
         var tableId = 'table_' + rowIdComponents[1];
 
         let rowRect = rows[i].getBoundingClientRect();
+        let rowBorderHeight = rows[i].offsetHeight - rows[i].clientHeight;
+        let rowStyle = window.getComputedStyle(rows[i]);
+        let rowMarginBottom = parseInt(rowStyle.marginBottom);
+        let bottomRowRect = rowRect.bottom + rowBorderHeight + rowMarginBottom;
+
         let firstVisibleRowHeight = null;
         
         // If row starts before the top and ends after the bottom, clear overlay
-        if (rowRect.top < 0 && rowRect.bottom > window.innerHeight) {
+        if (rowRect.top < 0 && bottomRowRect > window.innerHeight) {
             //sendMessage(JSON.stringify({type: '1st if', data: 'row starts before ends after'}));
             clearOverlays();
             overlayVisible = null;
@@ -236,10 +274,8 @@ function adjustOverlay() {
         }
         
         // Check if the row is the first visible row
-        if (rowRect.top >= 0 || (rowRect.top < 0 && rowRect.bottom > 1)) {
+        if (rowRect.top >= 0 || (rowRect.top < 0 && bottomRowRect > 1)) {
             if (!firstVisibleRow) {
-                //sendMessage(JSON.stringify({type: '2nd if', data: 'setting 1st visible row'}));
-                //sendMessage(JSON.stringify({type: '2nd if row id', data: rows[i].id}));
                 firstVisibleRow = rows[i];
                 let idComponents = rows[i].id.split("_");
                 firstVisibleRowTable = idComponents[1];
@@ -248,10 +284,7 @@ function adjustOverlay() {
                     firstVisibleRowPreviousTable = idComponents2[1];
                     //sendMessage(JSON.stringify({type: '2nd if row prevtable', data: firstVisibleRowPreviousTable}));
                 }
-                firstVisibleRowHeight = rowRect.bottom - rowRect.top;  
-                //sendMessage(JSON.stringify({type: '2nd if row height', data: firstVisibleRowHeight}));
-                //sendMessage(JSON.stringify({type: '2nd if row height', data: window.innerHeight}));
-                //sendMessage(JSON.stringify({type: '2nd if row height', data:  document.getElementById('caption_table_' + firstVisibleRowTable).getBoundingClientRect().height}));
+                firstVisibleRowHeight = bottomRowRect - rowRect.top;  
 
                 
                 currentTable = tableId;
@@ -260,10 +293,10 @@ function adjustOverlay() {
         }
 
         // Check if the first visible row is longer than the viewport
-        if (firstVisibleRow && firstVisibleRowHeight > window.innerHeight && rowRect.bottom > window.innerHeight) {
+        if (firstVisibleRow && firstVisibleRowHeight > window.innerHeight && bottomRowRect > window.innerHeight) {
             //sendMessage(JSON.stringify({type: '3rd if', data: '1st visible row is longer than viewport'}));
             //sendMessage(JSON.stringify({type: '3rd if row id', data: rows[i].id}));
-            //sendMessage(JSON.stringify({type: '3rd if row bottom', data: rowRect.bottom}));
+            //sendMessage(JSON.stringify({type: '3rd if row bottom', data: bottomRowRect}));
             // If the first visible row is longer than the viewport, skip creating the overlay and break
             clearOverlays();
             overlayVisible = null;
@@ -276,7 +309,7 @@ function adjustOverlay() {
         // check if firstvisible row is from the next table and longer than the viewport when added to caption
         if (firstVisibleRow && firstVisibleRowPreviousTable && firstVisibleRowHeight
             && firstVisibleRowTable !== firstVisibleRowPreviousTable 
-            && rowRect.top > 0  && rowRect.bottom > window.innerHeight) {
+            && rowRect.top > 0  && bottomRowRect > window.innerHeight) {
             //sendMessage(JSON.stringify({type: '4th if', data: '1st visible row is from next table'}));
             // If the first visible row is longer than the viewport, skip creating the overlay and break
             clearOverlays();
@@ -291,7 +324,7 @@ function adjustOverlay() {
 
         // check if the row is from the next table
         
-        if (rowRect.top > 0 && rowRect.bottom > window.innerHeight && currentTable !== tableId) {
+        if (rowRect.top > 0 && bottomRowRect > window.innerHeight && currentTable !== tableId) {
             //sendMessage(JSON.stringify({type: '5th if', data: 'row is from next table'}));
             let rowIdComponents = rows[i].id.split("_");
             let tableId = rowIdComponents[1];
@@ -307,8 +340,11 @@ function adjustOverlay() {
           }
 
           // Check if the row is partially visible
-          if (rowRect.top < window.innerHeight && rowRect.bottom > window.innerHeight) {
+          if (rowRect.top < window.innerHeight && bottomRowRect >= window.innerHeight) {
               //sendMessage(JSON.stringify({type: '6th if', data: 'row is partially visible'}));
+              //sendMessage(JSON.stringify({type: 'row id', data: rows[i].id}));
+              //sendMessage(JSON.stringify({type: 'row bottom', data: bottomRowRect}));
+              //sendMessage(JSON.stringify({type: 'viewport height', data: window.innerHeight}));
               // Get the tableId and rowId from the first partially visible row
               let rowIdComponents = rows[i].id.split("_");
               let tableId = rowIdComponents[1];

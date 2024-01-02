@@ -21,7 +21,7 @@ const App = () => {
   const [appIsReady, setAppIsReady] = useState(false);
   const [settings, setSettings] = React.useState({
 
-    fontSize: '3',
+    fontSize: '3.5',
     languages: [
       { label: 'English', value: 'English' , checked: true },
       { label: 'Arabic', value: 'Arabic' , checked: true },

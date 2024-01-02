@@ -167,6 +167,7 @@ const Glorification = () => {
           gestureDirection: 'horizontal-inverted', // For RTL swipe gesture
           drawerPosition: 'right',
           swipeEdgeWidth: screenWidth /2 ,
+          overlayColor: 'rgba(0,0,0,0.5)', // Semi-transparent overlay
          }}
          drawerContent={props => 
             <RightDrawerContent 

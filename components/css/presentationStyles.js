@@ -6,7 +6,7 @@ export const presentationStyles = StyleSheet.create({
       marginTop: 0,
       marginBottom: 0,
   
-      paddingVertical: 5,
+      paddingVertical: 0,
       backgroundColor: 'black',
       marginBottom: 0,
     },
@@ -73,6 +73,9 @@ export const presentationStyles = StyleSheet.create({
       marginBottom: 0, // Optional: Adds some spacing before the next item
       
     },
+    activeTitle: {
+      color: '#f1592a', // Change this to your preferred color for active items
+    }
   
   });
   
