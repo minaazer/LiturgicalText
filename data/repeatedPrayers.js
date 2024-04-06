@@ -1,7 +1,7 @@
 /** @format */
 
 function hourIntro(eHour, aHour, eDay, aDay) {
-  let html = `
+    let html = `
         <div class="section" id="section_1" title="Introduction">
             <table id="table_1" title="Introduction of the ${eHour} Hour of the ${eDay}">
                 <caption class="caption" id="caption_table_1">The ${eHour} Hour of the ${eDay}<br><span class="arabic-caption">الساعة ${aHour} من ${aDay}</span></caption>
@@ -21,19 +21,19 @@ function hourIntro(eHour, aHour, eDay, aDay) {
                 
             </table>
         </div>\n`;
-  return html;
+    return html;
 }
 
 function paschalPraise1(
-  sectionNumber,
-  tableNumber1,
-  tableNumber2,
-  eHour,
-  aHour,
-  eDay,
-  aDay
+    sectionNumber,
+    tableNumber1,
+    tableNumber2,
+    eHour,
+    aHour,
+    eDay,
+    aDay
 ) {
-  let html = `
+    let html = `
         <div class="section" id="section_${sectionNumber}">
             <table id="table_${tableNumber1}" title="Paschal Praise">
                 <caption class="caption" id="caption_table_${tableNumber1}">Paschal Praise</caption>
@@ -87,7 +87,7 @@ function paschalPraise1(
                 </tr>
             </table>
         </div>\n`;
-  return html;
+    return html;
 }
 
 function paschalPraise2(
@@ -98,7 +98,7 @@ function paschalPraise2(
     aHour,
     eDay,
     aDay
-  ) {
+) {
     let html = `
           <div class="section" id="section_${sectionNumber}">
               <table id="table_${tableNumber1}" title="Paschal Praise">
@@ -152,10 +152,10 @@ function paschalPraise2(
               </table>
           </div>\n`;
     return html;
-  }
+}
 
 function copticGospelIntro(tableNumber) {
-  let html = `
+    let html = `
     <table id="table_${tableNumber}" title="We Beseech">
         <caption class="caption" id="caption_table_${tableNumber}">That We May Be Worthy
         <span class="coptic-caption">Ⲕⲉ ⲩⲡⲉⲣⲧⲟⲩ</span>
@@ -181,11 +181,11 @@ function copticGospelIntro(tableNumber) {
             <td class="arabic">اصغوا وانصتوا بحكمة للإنجيل المقدس.</td>
         </tr>
     </table>`;
-  return html;
+    return html;
 }
 
 function daytimeExpositionIntro(tableNumber) {
-  let html = `
+    let html = `
     <table id="table_${tableNumber}" title="Daytime Exposition Introduction">
         <caption class="caption" id="caption_table_${tableNumber}">Exposition Introduction
         <span class="arabic-caption">مقدمة الطرح</span></caption>
@@ -230,11 +230,11 @@ function daytimeExpositionIntro(tableNumber) {
             <td class="arabic">آتِ إلى العالم.</td>
         </tr>
     </table>\n`;
-  return html;
+    return html;
 }
 
 function nighttimeExpositionIntro(tableNumber) {
-  let html = `
+    let html = `
       <table id="table_${tableNumber}" title="Nighttime Exposition Introduction">
           <caption class="caption" id="caption_table_${tableNumber}">Exposition Introduction
           <span class="arabic-caption">مقدمة الطرح</span></caption>
@@ -279,11 +279,11 @@ function nighttimeExpositionIntro(tableNumber) {
               <td class="arabic">الله الكلمة</td>
           </tr>
       </table>\n`;
-  return html;
+    return html;
 }
 
 function expositionConclusion(tableNumber) {
-  let html = `
+    let html = `
     <table id="table_${tableNumber}" title="Daytime Exposition Conclusion">
         <caption class="caption" id="caption_table_${tableNumber}">Exposition Conclusion
         <span class="arabic-caption">ختام الطرح</span></caption>
@@ -328,12 +328,13 @@ function expositionConclusion(tableNumber) {
             <td class="arabic">كعظيم رحمته.</td>
         </tr>
     </table>\n`;
-  return html;
+    return html;
 }
 
 function daytimeLitanies(tableNumber, prostrations) {
-  if (prostrations) {
-    var prostrations = `
+    let prostrationsVariable
+    if (prostrations) {
+        prostrationsVariable = `
         <tr id="table_${tableNumber}_row_0" class="priest">
             <td class="english">We bend our knees</td>
             <td class="coptic">̀Ⲕⲗⲓⲛⲱⲙⲉⲛ ⲧⲁⲅⲟⲛⲁⲧⲁ</td>
@@ -365,18 +366,18 @@ function daytimeLitanies(tableNumber, prostrations) {
             <td class="arabic">إرحمنا يا الله ثم إرحمنا.</td>
         </tr>
         `;
-  } else {
-    var prostrations = `
+    } else {
+        prostrationsVariable = `
         <tr id="table_${tableNumber}_row_0" class="intro">
             <td class="english">Prayed without prostrations.</td>
             <td class="arabic">تصلي بدون ميطانيات</td>
         </tr>`;
-  }
-  let html = `
+    }
+    let html = `
     <table id="table_${tableNumber}" title="Daytime Litanies">
         <caption class="caption" id="caption_table_${tableNumber}">Daytime Litanies
         <span class="arabic-caption">طلبات الصباح</span></caption>
-        ${prostrations}
+        ${prostrationsVariable}
         <tr id="table_${tableNumber}_row_6" class="north">
             <td class="english"<strong>1)</strong> Let us pray that God may have mercy and compassion on us, hear us, help us, and accept the prayers and supplications of His saints for that which is good on our behalf at all times, and forgive us our sins.${cross}</td>
             <td class="coptic">Ⲧⲱⲃϩ ϩⲓⲛⲁ ̀ⲛⲧⲉ Ⲫⲛⲟⲩϯ ⲛⲁⲓ ⲛⲁⲛ: ̀ⲛⲧⲉϥϣⲉⲛϩⲏⲧ ϧⲁⲣⲟⲛ: ̀ⲛⲧⲉϥⲥⲱⲧⲉⲙ ̀ⲉⲣⲟⲛ: ̀ⲛⲧⲉϥⲉⲣⲃⲟ̀ⲏⲑⲓⲛ ̀ⲉⲣⲟⲛ: ̀ⲛⲧⲉϥϭⲓ    ̀ⲛⲛⲓϯϩⲟ ⲛⲉⲙ ⲛⲓⲧⲱⲃϩ ̀ⲛⲧⲉ ⲛⲏⲉⲑⲟⲩⲁⲃ  ̀ⲛⲧⲁϥ ̀ⲛⲧⲟⲧⲟⲩ ̀ⲉ̀ϩⲣⲏⲓ ̀ⲉϫⲱⲛ ̀ⲉⲡⲓ̀ⲁⲅⲁⲑⲟⲛ  ̀ⲛⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ: ̀ⲛⲧⲉϥ ⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ  ⲛⲁⲛ  ̀ⲉⲃⲟⲗ. ${cross}</td>
@@ -475,11 +476,11 @@ function daytimeLitanies(tableNumber, prostrations) {
             <td class="arabic"<strong>22)</strong> صلوا واطلبوا عن هذه البصخة المقدسة التى لمخلصنا الصالح لكى يكملها لنا بسلام ويرينا بهجة قيامته المقدسة ونحن جميعاً سالمين.ويغفر لنا خطايانا.${cross}</td>
         </tr>        
     </table>`;
-  return html;
+    return html;
 }
 
 function nighttimeLitanies(tableNumber) {
-  let html = `
+    let html = `
         <table id="table_${tableNumber}" title="Nighttime Litanies">
             <caption class="caption" id="caption_table_${tableNumber}">Nighttime Litanies
             <span class="arabic-caption">طلبات المساء</span></caption>
@@ -604,11 +605,11 @@ function nighttimeLitanies(tableNumber) {
                 <td class="arabic"><strong>30) </strong>يا إله آبائنا القديسين لا تتخل عنا ولا تخيب الذين خلقتهم بيدك الطاهرة وأظهرت حبك للبشرية . أيها الرحوم أقبل من والدتك شفاعة من أجلنا وخلصنا يا مخلص شعباً متواضعاً لا تغفل عنا إلى الغاية ولا تسلمنا إلى الإنقضاء من أجل أسمك القدوس لا تنقض عهدك ولا تبعد عنا رحمتك من أجل إبراهيم حبيبك و أسحق عبدك ويعقوب إسرائيل قديسك نسألك يارب أسمعنا وأرحمنا. ${cross}</td>
             </tr>
         </table>`;
-  return html;
+    return html;
 }
 
 function evnotiNaiNan(tableNumber) {
-  let html = `
+    let html = `
     <table id="table_${tableNumber}" title="Evnoti Nai Nan">
         <caption class="caption" id="caption_table_${tableNumber}">God, Have Mercy Upon Us
         <span class="coptic-caption">˙Ⲫⲛⲟⲩϯ ⲛⲁⲓ ⲛⲁⲛ</span>
@@ -670,11 +671,11 @@ function evnotiNaiNan(tableNumber) {
         </tr> 
 
     </table>`;
-  return html;
+    return html;
 }
 
 function endOfServiceHymn(tableNumber) {
-  let html = `
+    let html = `
         <table id="table_${tableNumber}" title="End of Service Hymn">
             <caption class="caption" id="caption_table_${tableNumber}">End of Service Hymn
             <span class="arabic-caption">لحن ختام الخدمة</span></caption>
@@ -746,31 +747,31 @@ function endOfServiceHymn(tableNumber) {
             </tr>
 
         </table>\n`;
-  return html;
+    return html;
 }
 
 const cross =
-  '<img src="https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/cross.png" alt="+" style="width: 2vw; height: auto; filter: sepia(100%) saturate(500%) ">';
+    '<img src="https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/cross.png" alt="+" style="width: 2vw; height: auto; filter: sepia(100%) saturate(500%) ">';
 const arrowUp =
-  '<img src="https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/arrowUp.png" alt="arrow up" style="width: 2vw; height: auto; padding-bottom:1vw; filter: sepia(100%) saturate(500%) ">';
+    '<img src="https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/arrowUp.png" alt="arrow up" style="width: 2vw; height: auto; padding-bottom:1vw; filter: sepia(100%) saturate(500%) ">';
 const skip =
-  '<img src="https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/skip.png" alt="arrow up" style="width: 8vw; height: auto; padding-top:1vw; filter: sepia(100%) saturate(300%) ">';
+    '<img src="https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/skip.png" alt="arrow up" style="width: 8vw; height: auto; padding-top:1vw; filter: sepia(100%) saturate(300%) ">';
 
 export {
-  hourIntro,
-  paschalPraise1,
-  paschalPraise2,
-  copticGospelIntro,
-  daytimeExpositionIntro,
-  nighttimeExpositionIntro,
-  expositionConclusion,
-  daytimeLitanies,
-  nighttimeLitanies,
-  evnotiNaiNan,
-  endOfServiceHymn,
-  cross,
-  arrowUp,
-  skip,
+    hourIntro,
+    paschalPraise1,
+    paschalPraise2,
+    copticGospelIntro,
+    daytimeExpositionIntro,
+    nighttimeExpositionIntro,
+    expositionConclusion,
+    daytimeLitanies,
+    nighttimeLitanies,
+    evnotiNaiNan,
+    endOfServiceHymn,
+    cross,
+    arrowUp,
+    skip,
 };
 
 // Path: data/holyWeek/repeatedPrayers.js

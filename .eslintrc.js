@@ -31,5 +31,11 @@ module.exports = {
         "react"
     ],
     "rules": {
-    }
+        "react/prop-types": "off",
+        "react/display-name": "off",
+        "react/no-unescaped-entities": "off",
+        "no-unused-vars": "off",
+        "@typescript-eslint/no-unused-vars": "warn"
+    },
 }
+

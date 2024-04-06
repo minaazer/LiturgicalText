@@ -85,14 +85,6 @@ const styles = StyleSheet.create({
     width: '100%',
     height: '100%',
   },
-  pageContainer: {
-    display: "flex",
-    flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center',
-    width: "100%",
-    height: "100%"
-  },
   pageHeader: {
     fontSize: 40,
     fontFamily: 'Garamond Bold',
@@ -105,8 +97,6 @@ const styles = StyleSheet.create({
     textShadowRadius: 5,
     textShadowOffset: { width: 1, height: 1 },
   },
-
-
   pageContainer: {
     display: "flex",
     flexDirection: 'row',
