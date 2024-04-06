@@ -1,23 +1,9 @@
-import { htmlRenderScript } from "../components/functions/jsScripts";
-const cross = '<img src="https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/cross.png" alt="+" style="width: 2vw; height: auto; filter: sepia(100%) saturate(500%) ">';
-const arrowUp = '<img src="https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/arrowUp.png" alt="arrow up" style="width: 2vw; height: auto; padding-bottom:1vw; filter: sepia(100%) saturate(500%) ">';
-const skip = '<img src="https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/skip.png" alt="arrow up" style="width: 8vw; height: auto; padding-top:1vw; filter: sepia(100%) saturate(300%) ">';
+import { cross , skip } from './repeatedPrayers';
 
-export const getHtml = (dynamicStyles) => `
-<html>
-<head>
-<title>Kiahk</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
-<style>
-${dynamicStyles}
-</style>
-<script type="text/javascript">
-${htmlRenderScript}
-</script>
-</head>
-
-
+export const kiahk = () => {
+return `
 <body>
+<div class="section" id="section_1">
     <table id="table_0" style="display: table;" title="Arise, O children of the Light Ⲧⲉⲛ ⲑⲏⲛⲟⲩ">
         <caption id="caption_table_0" class="caption">Arise, O children of the Light <br /><span
                 class="coptic-caption">Ⲧⲉⲛ ⲑⲏⲛⲟⲩ</span></caption>
@@ -10662,5 +10648,6 @@ ${htmlRenderScript}
         </tbody>
     </table>
     </div>
+
 </body>
-</html>`;
+`};

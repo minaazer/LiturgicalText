@@ -1,16 +1,6 @@
-import { htmlRenderScript } from "../components/functions/jsScriptsGlorification";
-export const getHtml = (dynamicStyles) => `
-<html>
-<head>
-<title>Kiahk</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
-<style>
-${dynamicStyles}
-</style>
-<script type="text/javascript">
-${htmlRenderScript}
-</script>
-</head>
+
+export const glorification   = () => {
+return `
 <body>
     <table id="table_0" title="Ekesmarout" style="display: table;">
         <caption class="caption" id="caption_table_0"><span class="coptic-caption">Ⲕⲥ̀ⲙⲁⲣⲱⲟⲩⲧ</span></caption>
@@ -4961,5 +4951,4 @@ ${htmlRenderScript}
     </table>
     <br>
 </body>
-
-</html>`;
+`};

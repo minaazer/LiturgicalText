@@ -1,5 +1,5 @@
 import { useContext, useState, useEffect } from 'react';
-import SettingsContext from '../../settings/settignsContext';
+import SettingsContext from '../../settings/settingsContext';
 import { fontTypeface } from './fontTypeface';
 
 export const useDynamicStyles = (webviewRef) => {
@@ -10,49 +10,48 @@ export const useDynamicStyles = (webviewRef) => {
         { label: 'English', value: 'English' , checked: true },
         { label: 'Arabic', value: 'Arabic' , checked: true },
         { label: 'Coptic', value: 'Coptic' , checked: true },
+        { label: 'English Phonics', value: 'English Phonics' , checked: true },
+        { label: 'Arabic Phonics', value: 'Arabic Phonics' , checked: true },
+        { label: 'Coptic Readings', value: 'Coptic Readings' , checked: true },
       ]);
 
     useEffect(() => {
         if (settings.fontSize) {
             setFontSize(settings.fontSize);
             setTitleFontSize(parseFloat(settings.fontSize) + 1);
-            console.log('titleFontSize', titleFontSize);
-            console.log('settings.fontSize', settings.fontSize);
-            //webviewRef.current.injectJavaScript(`window.scrollTo(0, 0);`);
             webviewRef.current.injectJavaScript(`paginateTables();`);
             webviewRef.current.injectJavaScript(`clearOverlays()`);
-            webviewRef.current.injectJavaScript(`adjustOverlay()`);
-        
+            webviewRef.current.injectJavaScript(`adjustOverlay();`);
+            webviewRef.current.reload();
         }
-
         if (settings.languages) {
             
             setVisibleLangues(settings.languages);
         }
-    }, [settings.fontSize , settings.languages]);
+    }, [settings.fontSize, settings.languages]);
 
     const cssStyles = `
 * {
     -webkit-touch-callout: none; /* iOS Safari */
       -webkit-user-select: none; /* Safari */
        -khtml-user-select: none; /* Konqueror HTML */
-         -moz-user-select: none; /* Old version of Firefox */
+         -moz-user-select: none; /* Old versions of Firefox */
           -ms-user-select: none; /* Internet Explorer/Edge */
               user-select: none; /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
 }
 
 :root {
  --fontSize: 26px;
-
+ --copticFont: 'Arial Coptic';
 }
 
 
 html {
  background-color: black;
- marginTop: 0px;
- paddingTop: 0px;
+ margin-top: 0px;
+ padding-top: 0px;
+ margin-right: 20px;
 }
-
 ${fontTypeface}
 
 
@@ -61,12 +60,16 @@ page-break-before: always; /* Use for older browsers */
 break-before: page; /* Modern browsers */
 margin-top: 0px;
 margin-bottom: 0px;
-paddingTop: 0px;
-display: flex;
+padding-top: 0px;
+display: table;
 width: 100% !important;
 table-layout: fixed;
 border-collapse: collapse;
+font-size: ${fontSize}vw;
+}
 
+tbody {
+    font-size: ${fontSize}vw;
 }
 
 tr {
@@ -79,7 +82,6 @@ tr {
 td {
     display: flex;
     flex-direction: column;
-    
 }
 
 /* Handle first table to avoid first-page break */
@@ -88,33 +90,54 @@ page-break-before: auto;
 break-before: auto;
 }
 
+.bold {
+    font-weight: bold !important;
+    font-family: 'EB Garamond' !important;
+    color: red !important;
+}
+
 
 .caption {
     font-size: ${titleFontSize}vw;
     font-family: 'EB Garamond' !important;
     color: #99d24e !important;
-    display: block;
+    display: flex;
+    justify-content: space-around;
     text-align: center;
+    padding-bottom: 10px;
 
 }
+
 .coptic-caption {
-    font-family: 'Arial Coptic' !important;
-    direction: rtl !important;
-
+    font-family: 'Arial Coptic';
 }
+.arabic-caption {
+    direction: rtl !important;
+}
+
+
 .title {
     text-align: center !important;
     color: #FDFD96 !important;
-    display: block !important;
+    display: flex !important;
+    align-items: center !important; // vertical align
+    font-size: ${fontSize}vw !important;
+
+}
+
+h1 {
+    font-size: ${fontSize}vw !important;
+    text-align: center !important;
 }
 
 body {
  overflow-horizontal: hidden;
- color: white;
  touch-action: none;
+ color: white;
  font-size: ${fontSize}vw;
- marginTop: 0px;
- paddingTop: 0px;
+ width: 100% !important;
+ margin-top: 0px;
+ padding-top: 0px;
  margin-bottom: 500px;
 }
 
@@ -125,11 +148,35 @@ body {
 .south {
     color: rgba(173, 216, 230);
 }
+.text {
+    color: white;
+}
+.intro {
+    color: #FDFD96 !important;
+}
+
+.reference{
+    color: #CBC3E3 !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.refrain {
+    color: #FDFD96 !important;
+}
+   
+.priest {
+    color: #FDFD96 !important;
+}
+
+.role {
+    color: #FDFD96 !important;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
 
 .arabic {
     text-align: right;
-    direction: rtl !important;
-    font-size: ${fontSize}vw;
+    direction: rtl !important;    
     vertical-align: top ;
     padding-bottom: 10px;
     text-align: justify;
@@ -139,10 +186,8 @@ body {
     flex: 3;
 
 }
-
-
 .arabic1 {
-    font-size: ${fontSize}vw;
+    
     vertical-align: top ;
     font-family: 'Georgia' !important;
     padding-left: 20px;
@@ -152,8 +197,18 @@ body {
     flex: 3.5;
 }
 
-.coptic {
-    font-size: ${fontSize}vw;
+.arRef {
+    text-align: center !important;
+    direction: rtl !important;    
+    vertical-align: top ;
+    padding-bottom: 10px;
+
+    padding-left: 10px;
+    display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'inline'};
+    flex: 3;
+}
+
+.coptic {    
     vertical-align: top ;
     font-family: 'Arial Coptic' !important;
     padding-right: 10px;
@@ -161,10 +216,20 @@ body {
     text-align: justify;
     display: ${settings.languages && !visibleLangues[2].checked ? 'none' : 'inline'};
     flex: 5;
-
 }
-.english {
-    font-size: ${fontSize}vw;
+
+.copticReadings {
+    
+    vertical-align: top ;
+    font-family: 'Arial Coptic' !important;
+    padding-right: 10px;
+    padding-left: 15px;
+    text-align: justify;
+    display: ${settings.languages && !visibleLangues[5].checked ? 'none' : 'inline'};
+    flex: 5;
+}
+
+.english {  
     vertical-align: top ;
     font-family: 'Georgia' !important;
     padding-right: 10px;
@@ -172,52 +237,54 @@ body {
     display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'inline'};
     flex: 4;
 }
-
-
+.engRef {  
+    vertical-align: top ;
+    font-family: 'Georgia' !important;
+    padding-right: 10px;
+    text-align: center !important;
+    display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'inline'};
+    flex: 4;
+}
 
 .enPhonics {
-    font-size: ${fontSize}vw;
     vertical-align: top ;
     font-family: 'Georgia' !important;
     padding-right: 10px;
     text-align: justify;
-    display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'flex'};
+    display: ${settings.languages && !visibleLangues[3].checked ? 'none' : 'flex'};
     flex: 4;
     color: #FDFD96 !important;
 }
 .enPhonics1 {
-    font-size: ${fontSize}vw;
+    
     vertical-align: top ;
     font-family: 'Georgia' !important;
     padding-left: 10px;
     padding-right: 10px;
     text-align: left;
-    display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'flex'};
+    display: ${settings.languages && !visibleLangues[3].checked ? 'none' : 'flex'};
     flex: 4.5;
     color: #FDFD96 !important;
 }
 
 .arPhonics {
         text-align: right;
-        direction: rtl !important;
-        font-size: ${fontSize}vw;
+        direction: rtl !important;        
         vertical-align: top ;
         padding-bottom: 10px;
         text-align: justify;
         padding-left: 10px;
-        display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'flex'};
-        flex: 1;
+        display: ${settings.languages && !visibleLangues[4].checked ? 'none' : 'flex'};
+        flex: 4;
         color: #FDFD96 !important;
     
 }
 
+
 .lineBreak {
  text-align: center;
 }
-.refrain {
-    color: #FDFD96 !important;
-}
-    
+
 
 
 #drawer {

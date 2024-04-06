@@ -1,11 +1,10 @@
 
 import React, { useContext } from 'react';
-import { StyleSheet, Text, View, Dimensions, ScrollView, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, View, Dimensions, ScrollView, TouchableOpacity , Platform } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
 import { Checkbox } from 'react-native-paper';
-import SettingsContext from '../../settings/settignsContext';
+import SettingsContext from '../../settings/settingsContext';
 import { useNavigation } from '@react-navigation/native';
-import Icon from 'react-native-vector-icons/Ionicons'; // or another icon library
 
 
 const screenWidth = Dimensions.get('window').width;
@@ -22,7 +21,6 @@ const SettingsScreen = () => {
     }
 
     const setLanguagesHandler = (value, checked) => {
-        console.log(checked, value);
 
         const updatedSettings = {
             ...settings,
@@ -44,7 +42,6 @@ const SettingsScreen = () => {
     const handleBackPress = () => {
         navigation.goBack();
     }
-
 
     return (
         <ScrollView style={styles.scrollView}>
@@ -125,7 +122,6 @@ const styles = StyleSheet.create({
         borderRadius: 20,
         paddingBottom: 0,
         marginHorizontal: 20,
-        backgroundColor: 'white',
         marginVertical: 10,
 
     },
@@ -179,6 +175,7 @@ const styles = StyleSheet.create({
         flexDirection: Platform.OS === 'ios' ? 'column' : 'row',
         justifyContent: 'space-between',
         paddingTop: 5,
+        flexWrap: 'wrap',
     },
 
 

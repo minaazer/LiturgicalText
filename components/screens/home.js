@@ -44,7 +44,7 @@ const Home = () => {
 
               <TouchableOpacity
                 style={[styles.iconContainer, { opacity: 0.5}]}
-              //onPress={() => navigation.navigate('Glorification2')}
+                onPress={() => navigation.navigate('HolyWeek')}
               >
                 <Image source={holyWeekImage} style={styles.iconImage} />
               </TouchableOpacity>

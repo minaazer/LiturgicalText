@@ -1,127 +1,305 @@
-import React from 'react';
-import { createDrawerNavigator, DrawerContentScrollView, DrawerItem } from '@react-navigation/drawer';
-import { createStackNavigator } from '@react-navigation/stack';
-import { Dimensions, StyleSheet, View, Text, Platform } from 'react-native';
+/** @format */
 
-import Home from '../screens/home';
-//import Glorification from '../screens/glorification';
-import Kiahk from '../screens/kiahk';
-import Glorification from '../screens/glorification';
-import SettingsScreen from '../screens/settings';
+import React from "react";
+import {
+  createDrawerNavigator,
+  DrawerContentScrollView,
+  DrawerItem,
+} from "@react-navigation/drawer";
+import { createStackNavigator, Screen } from "@react-navigation/stack";
+import { Dimensions, View, Text } from "react-native";
+import { presentationStyles } from "../css/presentationStyles";
+import { useNavigation } from "@react-navigation/native";
+import { useRoute } from "@react-navigation/native";
+import { useNavigationState } from "@react-navigation/native";
+import SettingsScreen from "../screens/settings";
+import Home from "../screens/home";
+import Kiahk from "../screens/kiahk";
+import Glorification from "../screens/glorification";
+import HolyWeek from "../screens/holyWeek";
+import DayOfSunday from "../screens/holyWeek/days/dayOfSunday";
+import EveOfMonday from "../screens/holyWeek/days/eveOfMonday";
+import DayOfMonday from "../screens/holyWeek/days/dayOfMonday";
+import EveOfTuesday from "../screens/holyWeek/days/eveOfTuesday";
+import DayOfTuesday from "../screens/holyWeek/days/dayOfTuesday";
+import EveOfWednesday from "../screens/holyWeek/days/eveOfWednesday";
+import DayOfWednesday from "../screens/holyWeek/days/dayOfWednesday";
+import EveOfThursday from "../screens/holyWeek/days/eveOfThursday";
+import DayOfThursday from "../screens/holyWeek/days/dayOfThursday";
+import EveOfFriday from "../screens/holyWeek/days/eveOfFriday";
+import DayOfFriday from "../screens/holyWeek/days/dayOfFriday";
+import { DOS9sc, DOS11sc } from "../screens/holyWeek/hours/dOS";
+import { DOTH1sc } from "../screens/holyWeek/hours/dOTh";
+
+const RouteConfig = [
+  {
+    screenName: "Glorification",
+    label: "Glorification",
+    component: Glorification,
+  },
+  {
+    screenName: "Kiahk",
+    label: "Kiahk Praises",
+    component: Kiahk,
+  },
+  {
+    screenName: "HolyWeek",
+    label: "Holy Week",
+    component: HolyWeek,
+    children: [
+      {
+        screenName: "DayOfSunday",
+        label: "Day of Sunday",
+        component: DayOfSunday,
+        children: [
+          { screenName: "DOS9sc", label: "9th Hour", component: DOS9sc },
+          { screenName: "DOS11sc", label: "11th Hour", component: DOS11sc },
+        ],
+      },
+      {
+        screenName: "EveOfMonday",
+        label: "Eve of Monday",
+        component: EveOfMonday,
+      },
+      {
+        screenName: "DayOfMonday",
+        label: "Day of Monday",
+        component: DayOfMonday,
+      },
+      {
+        screenName: "EveOfTuesday",
+        label: "Eve of Tuesday",
+        component: EveOfTuesday,
+      },
+      {
+        screenName: "DayOfTuesday",
+        label: "Day of Tuesday",
+        component: DayOfTuesday,
+      },
+      {
+        screenName: "EveOfWednesday",
+        label: "Eve of Wednesday",
+        component: EveOfWednesday,
+      },
+      {
+        screenName: "DayOfWednesday",
+        label: "Day of Wednesday",
+        component: DayOfWednesday,
+      },
+      {
+        screenName: "EveOfThursday",
+        label: "Eve of Covenant Thursday",
+        component: EveOfThursday,
+        children: [
+          { screenName: "DOTH1sc", label: "1st Hour", component: DOTH1sc },
+        ],
+      },
+      {
+        screenName: "DayOfThursday",
+        label: "Day of Covenant Thursday",
+        component: DayOfThursday,
+      },
+      {
+        screenName: "EveOfFriday",
+        label: "Eve of Good Friday",
+        component: EveOfFriday,
+      },
+      {
+        screenName: "DayOfFriday",
+        label: "Day of Good Friday",
+        component: DayOfFriday,
+      }
+    ],
+  },
+];
 
 const Drawer = createDrawerNavigator();
-const Stack = createStackNavigator();
-const screenWidth = Dimensions.get('window').width;
+const screenWidth = Dimensions.get("window").width;
+
+const LeftDrawerContent = ({ navigation, currentRoute, ...props }) => {
+  const drawerItemsByRoute = RouteConfig; // Access all route configurations
 
 
-function LeftDrawerContent(props) {
+  const closeDrawerAndNavigate = (routeName) => {
+    navigation.navigate(routeName);
+    navigation.closeDrawer();
+  };
+
+  const findParentAndSiblings = (items, targetRoute, parent = null) => {
+    for (const item of items) {
+      if (item.screenName === targetRoute) {
+        // Include parent and its siblings, excluding the target route
+        if (parent) {
+          return [
+            { ...parent, type: "parent" }, // Add type property to parent
+            ...items
+              .filter(
+                (sibling) =>
+                  sibling.screenName !== targetRoute && sibling !== parent
+              )
+              .map((sibling) => ({ ...sibling, type: "child" })), // Add type property to siblings
+          ];
+        } else {
+          return items
+            .filter((sibling) => sibling.screenName !== targetRoute)
+            .map((sibling) => ({ ...sibling, type: "child" })); // Add type property to siblings
+        }
+      } else if (Array.isArray(item.children)) {
+        const found = findParentAndSiblings(item.children, targetRoute, item);
+        if (found) {
+          return found;
+        }
+      }
+    }
+    return null;
+  };
+  
+
+  const renderDrawerItems = (items) => {
+    const renderedItems = items.map((item, index) => (
+      <React.Fragment key={index}>
+        <DrawerItem
+          label={item.label}
+          style={presentationStyles.drawerItem}
+          labelStyle={presentationStyles.drawerLabel}
+          onPress={() => closeDrawerAndNavigate(item.screenName)}
+        />
+        {item.type === "parent" && (
+          <View style={presentationStyles.drawerLineBreak}></View>
+        )}
+      </React.Fragment>
+    ));
+
+    // Add line break after rendering all the siblings
+    renderedItems.push(
+      <View
+        key="lineBreakAfterSiblings"
+        style={presentationStyles.drawerLineBreak}
+      ></View>
+    );
+
+    return renderedItems;
+  };
+
+  // Check if drawerItemsByRoute is defined before using it
+  const dynamicDrawerItems =
+    drawerItemsByRoute &&
+    findParentAndSiblings(drawerItemsByRoute, currentRoute);
+
   return (
     <DrawerContentScrollView
-      // drawerType={"slide"}
-      style={styles.drawerContentScrollView}
-      contentContainerStyle={styles.drawerContentContainer}
+      style={presentationStyles.drawerContentScrollView}
+      contentContainerStyle={presentationStyles.drawerContentContainer}
       {...props}
     >
-      <View style={styles.drawerHeaderContainer}>
-        <Text style={styles.drawerHeaderText}>Liturgical Books</Text>
+      <View style={presentationStyles.drawerHeaderContainer}>
+        <Text style={presentationStyles.drawerHeaderText}>
+          Liturgical Books
+        </Text>
       </View>
-      {/* Normal Drawer Items go here */}
-      <DrawerItem label="Home" style={styles.drawerItem} labelStyle={styles.drawerLabel} onPress={() => props.navigation.navigate('Home')} />
-      <DrawerItem label="Glorification" style={styles.drawerItem} labelStyle={styles.drawerLabel} onPress={() => props.navigation.navigate('Glorification')} />
-      <DrawerItem label="Kiahk" style={styles.drawerItem} labelStyle={styles.drawerLabel} onPress={() => props.navigation.navigate('Kiahk')} />
-      <DrawerItem label="Settings" style={styles.drawerItem} labelStyle={styles.drawerLabel} onPress={() => props.navigation.navigate('Settings')} />
+
+      <View style={presentationStyles.drawerLineBreak}></View>
+
+      <DrawerItem
+        label="Home"
+        style={presentationStyles.drawerItem}
+        labelStyle={presentationStyles.drawerLabel}
+        onPress={() => closeDrawerAndNavigate("Home")}
+      />
+
+      {dynamicDrawerItems && renderDrawerItems(dynamicDrawerItems)}
+
+      <DrawerItem
+        label="Settings"
+        style={presentationStyles.drawerItem}
+        labelStyle={presentationStyles.drawerLabel}
+        onPress={() => closeDrawerAndNavigate("Settings")}
+      />
     </DrawerContentScrollView>
   );
-}
+};
+
 // Define the MainStackNavigator which nests all the main screens.
+
+const createStackScreens = (route) => {
+  if (!route || !route.screenName) {
+    console.error("Invalid route:", route);
+    return null; // Return null if route is invalid
+  }
+
+  const { screenName, component, children } = route;
+  const Stack = createStackNavigator();
+
+  // Create a stack screen for the parent route
+  const parentScreen = (
+    <Stack.Screen
+      key={screenName}
+      name={screenName}
+      component={component}
+      options={{ headerShown: false }}
+    />
+  );
+
+  if (children) {
+    // Map through the children and create stack screens for each child
+    const childScreens = children.map(createStackScreens).filter(Boolean); // Filter out any null values
+    // Return the parent stack screen along with child stack screens
+    return [parentScreen, ...childScreens];
+  } else {
+    // Return only the parent stack screen for routes without children
+    return [parentScreen];
+  }
+};
+
 const MainStackNavigator = () => {
+  const Stack = createStackNavigator(); // Define Stack navigator outside the function
+
   return (
-    <Stack.Navigator initialRouteName="Home"
-      screenOptions={{ gestureEnabled: false, gestureDirection: 'horizontal' }}
+    <Stack.Navigator
+      initialRouteName="Home"
+      screenOptions={{ gestureEnabled: false, gestureDirection: "horizontal" }}
     >
-      <Stack.Screen name="Home" component={Home} options={{ headerShown: false }} />
-      <Stack.Screen name="Glorification" component={Glorification} options={{ headerShown: false }} />
-      <Stack.Screen name="Kiahk" component={Kiahk} options={{ headerShown: false }} />
-      <Stack.Screen name="Settings" component={SettingsScreen} options={{ headerShown: false }} />
+      <Stack.Screen
+        name="Home"
+        component={Home}
+        options={{ headerShown: false }}
+      />
+      <Stack.Screen
+        name="Settings"
+        component={SettingsScreen}
+        options={{ headerShown: false }}
+      />
+
+      {RouteConfig.map((route) => createStackScreens(route))}
     </Stack.Navigator>
   );
 };
 
 const RootNavigation = () => {
+  const state = useNavigationState((state) => state);
+  const currentState = state?.routes[state.index].state;
+  const currentRoute = currentState?.routes[currentState.index].name;
+
   return (
     <Drawer.Navigator
       initialRouteName="MainStack" // Set the initial route to MainStack
       screenOptions={{
         gestureEnabled: true,
         swipeEdgeWidth: screenWidth / 3,
-        drawerType: 'front',
-        overlayColor: 'rgba(0,0,0,0.5)', // Semi-transparent overlay
-
+        drawerType: "slide",
+        overlayColor: "rgba(0,0,0,0.5)", // Semi-transparent overlay
       }}
-      drawerContent={props => <LeftDrawerContent {...props} />}
-
+      drawerContent={(props) => (
+        <LeftDrawerContent {...props} currentRoute={currentRoute} />
+      )}
     >
-      <Drawer.Screen name="MainStack" component={MainStackNavigator} options={{ headerShown: false, title: 'Home' }} />
+      <Drawer.Screen
+        name="MainStack"
+        component={MainStackNavigator}
+        options={{ headerShown: false, title: "Home" }}
+      />
     </Drawer.Navigator>
   );
 };
 
 export default RootNavigation;
-const styles = StyleSheet.create({
-  drawerContentScrollView: {
-    backgroundColor: '#003060',
-    margin: 0,
-    padding: 0,
-    flex: 1,
-
-  },
-  drawerContentContainer: {
-
-    ...(Platform.OS === 'ios' && !Platform.isPad && { marginLeft: -40 }),
-    paddingTop: 0,
-    paddingBottom: 10,
-
-  },
-
-  drawerHeaderContainer: {
-    marginVertica: 10,
-    paddingTop: 20
-
-
-  },
-  drawerHeaderText: {
-    textAlign: 'center',
-    fontSize: screenWidth * 0.03,
-    fontFamily: 'Georgia Bold',
-    color: '#e19d09',
-    textShadowColor: 'grey',
-    textShadowRadius: 5,
-    textShadowOffset: { width: 1, height: 1 },
-    elevation: 5,
-
-  },
-
-  drawerLabel: {
-    fontSize: screenWidth * 0.025,
-    color: 'white',
-    fontFamily: 'Georgia',
-    marginVertical: -7,
-    padding: 0,
-
-
-
-  },
-  drawerItem: {
-    //remove the spacing between the items
-    marginVertical: 0,
-    marginHorizontal: '5%',
-    paddingVertical: 0,
-    paddingHorizontal: 0,
-
-
-  },
-  settingsScreen: {
-    shadowColor: 'black',
-  },
-});
-

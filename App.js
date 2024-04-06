@@ -5,29 +5,19 @@ import { NavigationContainer } from '@react-navigation/native';
 import * as Font from 'expo-font';
 import * as SplashScreen from 'expo-splash-screen';
 import RootNavigation from './components/navigation/RootNavigation';
-import SettingsContext from './settings/settignsContext';
-import {
-  SafeAreaView,
-  SafeAreaProvider,
-  useSafeAreaInsets,
-} from 'react-native-safe-area-context';
+import {  SafeAreaView,   SafeAreaProvider } from 'react-native-safe-area-context';
+import SettingsProvider from './settings/settingsProvider';
+import { useKeepAwake } from 'expo-keep-awake';
+
 
 // Prevent the splash screen from auto-hiding
 SplashScreen.preventAutoHideAsync();
 
 
 const App = () => {
+  useKeepAwake();
   const [fontLoaded, setFontLoaded] = useState(false);
   const [appIsReady, setAppIsReady] = useState(false);
-  const [settings, setSettings] = React.useState({
-
-    fontSize: '3.5',
-    languages: [
-      { label: 'English', value: 'English' , checked: true },
-      { label: 'Arabic', value: 'Arabic' , checked: true },
-      { label: 'Coptic', value: 'Coptic' , checked: true },
-    ]
-  });
 
   
   
@@ -93,20 +83,20 @@ if (!fontLoaded) {
 
 
    
-
     return (
+      
+      <SettingsProvider>
       <SafeAreaProvider>
       <SafeAreaView style={{ flex: 1, backgroundColor: 'black' }}>
-      <SettingsContext.Provider value={[settings, setSettings]}>
       <NavigationContainer>
         
         <StatusBar hidden />
         <RootNavigation />
 
       </NavigationContainer>
-      </SettingsContext.Provider>
       </SafeAreaView>
       </SafeAreaProvider>
+      </SettingsProvider>
         
   );
 };
