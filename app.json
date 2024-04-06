@@ -11,9 +11,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.minaazer.liturgicalbooks",
@@ -25,11 +23,7 @@
         "backgroundColor": "#ffffff"
       },
       "package": "com.minaazer.LiturgicalBooks",
-      "permissions": [
-        "INTERNET",
-        "ACCESS_NETWORK_STATE",
-        "ACCESS_WIFI_STATE"
-      ],
+      "permissions": ["INTERNET", "ACCESS_NETWORK_STATE", "ACCESS_WIFI_STATE"],
       "versionCode": 18
     },
     "web": {
@@ -45,6 +39,7 @@
     },
     "updates": {
       "url": "https://u.expo.dev/2c2c0d93-d8b8-4188-864e-b797d38638fb"
-    }
+    },
+    "plugins": ["expo-font"]
   }
 }

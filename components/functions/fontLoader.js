@@ -1,3 +1,4 @@
+/* global require */
 import * as Font from 'expo-font';
 
 async function loadFonts() {
