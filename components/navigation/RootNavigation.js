@@ -6,11 +6,9 @@ import {
   DrawerContentScrollView,
   DrawerItem,
 } from "@react-navigation/drawer";
-import { createStackNavigator, Screen } from "@react-navigation/stack";
+import { createStackNavigator } from "@react-navigation/stack";
 import { Dimensions, View, Text } from "react-native";
 import { presentationStyles } from "../css/presentationStyles";
-import { useNavigation } from "@react-navigation/native";
-import { useRoute } from "@react-navigation/native";
 import { useNavigationState } from "@react-navigation/native";
 import SettingsScreen from "../screens/settings";
 import Home from "../screens/home";
@@ -29,7 +27,8 @@ import DayOfThursday from "../screens/holyWeek/days/dayOfThursday";
 import EveOfFriday from "../screens/holyWeek/days/eveOfFriday";
 import DayOfFriday from "../screens/holyWeek/days/dayOfFriday";
 import { DOS9sc, DOS11sc } from "../screens/holyWeek/hours/dOS";
-import { DOTH1sc } from "../screens/holyWeek/hours/dOTh";
+import { DOTH1sc , DOTH3sc , DOTH6sc , DOTH9sc , DOTH11sc } from "../screens/holyWeek/hours/dOTh";
+import { DOF1sc , DOF3sc , DOF6sc , DOFConfsc , DOF9sc , DOF11sc , DOF12sc } from "../screens/holyWeek/hours/dOF";
 
 const RouteConfig = [
   {
@@ -90,24 +89,38 @@ const RouteConfig = [
         screenName: "EveOfThursday",
         label: "Eve of Covenant Thursday",
         component: EveOfThursday,
-        children: [
-          { screenName: "DOTH1sc", label: "1st Hour", component: DOTH1sc },
-        ],
       },
       {
         screenName: "DayOfThursday",
         label: "Day of Covenant Thursday",
         component: DayOfThursday,
+        children: [
+          { screenName: "DOTH1sc", label: "1st Hour", component: DOTH1sc },
+          { screenName: "DOTH3sc", label: "3rd Hour", component: DOTH3sc },
+          { screenName: "DOTH6sc", label: "6th Hour", component: DOTH6sc },
+          { screenName: "DOTH9sc", label: "9th Hour", component: DOTH9sc },
+          { screenName: "DOTH11sc", label: "11th Hour", component: DOTH11sc },
+        ],
       },
       {
         screenName: "EveOfFriday",
         label: "Eve of Good Friday",
         component: EveOfFriday,
+
       },
       {
         screenName: "DayOfFriday",
         label: "Day of Good Friday",
         component: DayOfFriday,
+        children: [
+          { screenName: "DOF1sc", label: "1st Hour", component: DOF1sc },
+          { screenName: "DOF3sc", label: "3rd Hour", component: DOF3sc },
+          { screenName: "DOF6sc", label: "6th Hour", component: DOF6sc },
+          { screenName: "DOFConfsc", label: "Confession of the Thief", component: DOFConfsc },
+          { screenName: "DOF9sc", label: "9th Hour", component: DOF9sc },
+          { screenName: "DOF11sc", label: "11th Hour", component: DOF11sc },
+          { screenName: "DOF12sc", label: "12th Hour", component: DOF12sc },
+        ],
       }
     ],
   },

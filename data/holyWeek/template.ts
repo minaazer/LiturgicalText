@@ -56,9 +56,11 @@ ${paschalPraiseHtml}
 
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_7" title="Coptic Psalm">
-        <caption class="caption" id="caption_table_7">Coptic Psalm - Psalms 8:2,1</caption>
+        <caption class="caption" id="caption_table_7">Coptic Psalm<br>( )
+        <span class="arabic-caption">المزمور قبطي<br>( )</span></caption>
+
         <tr id="table_7_row_0" class="intro">
-            <td class="english">A psalm David</td>
+            <td class="english">A psalm of David</td>
             <td class="coptic">Ⲯⲁⲗⲙⲟⲥ ⲧⲱ Ⲇⲁⲩⲓⲇ</td>
             <td class="arabic">مزمور لداود</td>
         </tr>
@@ -80,9 +82,10 @@ ${paschalPraiseHtml}
     </table>
     ${copticGospelIntroHtml}
     <table id="table_9" title="Coptic Gospel">
-        <caption class="caption" id="caption_table_9">Coptic Gospel - Matthew 20:20-28</caption>
+        <caption class="caption" id="caption_table_9">Coptic Gospel<br>( )
+        <span class="arabic-caption">الإنجيل قبطي<br>( )</span></caption>
         <tr id="table_9_row_0" class="priest">
-            <td class="english">A chapter according to Saint Mathew,</td>
+            <td class="english">A chapter according to St. Mathew,</td>
             <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ̀ⲉⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲱⲛ ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">فصل من إنجيل معلمنا مار متى</td>
         </tr>

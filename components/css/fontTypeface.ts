@@ -34,5 +34,12 @@ export const fontTypeface = `
        font-style: normal;
       }
 
+      @font-face {
+        font-family: "Georgia";
+        src: url("https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/georgia-bold.ttf") format('truetype');
+        font-weight: bold;
+        font-style: normal;
+      }
+
       
 `;   

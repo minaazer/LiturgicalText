@@ -14,7 +14,8 @@ return `
 ${hourIntroHtml}
 <div class="section" id="section_2" title="Coptic Prophecies">
     <table id="table_2" title="Coptic Prophecies">
-        <caption class="caption" id="caption_table_2">Coptic Prophecies</caption>
+        <caption class="caption" id="caption_table_2">Coptic Prophecies
+        <span class="arabic-caption">النبوات قبطي</span></caption>
 
         <tr id="table_2_row_3" class="intro">
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ ̀Ⲏⲥⲁ̀ⲏⲁⲥ ⲡⲓ̀ⲡⲣⲟⲫⲏⲧⲏⲥ: ̀ⲉⲣⲉⲡⲉϥ̀ⲥⲙⲟⲩ ̀ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ̀ⲁⲙⲏⲛ (ⲉϥϫⲱ ̀ⲙⲙⲟⲥ): </td>
@@ -144,9 +145,12 @@ ${paschalPraiseHtml}
 
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_7" title="Coptic Psalm">
-        <caption class="caption" id="caption_table_7">Coptic Psalm - Psalms 8:2,1</caption>
+        <caption class="caption" id="caption_table_7">Coptic Psalm<br>(22:22-23)
+        <span class="arabic-caption">المزمور قبطي<br>(22:22-23)</span></caption>
+        </caption>
+
         <tr id="table_7_row_0" class="intro">
-            <td class="english">A psalm David</td>
+            <td class="english">A psalm of David</td>
             <td class="coptic">Ⲯⲁⲗⲙⲟⲥ ⲧⲱ Ⲇⲁⲩⲓⲇ</td>
             <td class="arabic">مزمور لداود</td>
         </tr>
@@ -168,9 +172,10 @@ ${paschalPraiseHtml}
     </table>
     ${copticGospelIntroHtml}
     <table id="table_9" title="Coptic Gospel">
-        <caption class="caption" id="caption_table_9">Coptic Gospel - Matthew 20:20-28</caption>
+        <caption class="caption" id="caption_table_9">Coptic Gospel<br>(Matthew 20:20-28)
+        <span class="arabic-caption">الأنجيل قبطي<br>(متى 20: 20-28)</span></caption>
         <tr id="table_9_row_0" class="priest">
-            <td class="english">A chapter according to Saint Mathew,</td>
+            <td class="english">A chapter according to St. Mathew,</td>
             <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ̀ⲉⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲱⲛ ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">فصل من إنجيل معلمنا مار متى</td>
         </tr>
@@ -198,8 +203,8 @@ ${paschalPraiseHtml}
 
 <div class="section" id="section_7" title="Engligh and Arabic Psalm & Gospel">
     <table id="table_10" title="Psalm">
-        <caption id="caption_table_10" class="caption">Psalm<br>(Psalm 22:22-23)
-        <span class="arabic-caption">المزمور<br>(المزمور 22:22-23)</span></caption>
+        <caption id="caption_table_10" class="caption">Psalm<br>(22:22-23)
+        <span class="arabic-caption">المزمور<br>(22:22-23)</span></caption>
         <tr id="table_10_row_1" class="intro">
             <td class="english">From the Psalms of our teacher David the Prophet. May his blessing be with us. Amen.</td>
             <td class="arabic">من مزامير معلمنا داود النبي، بركته تكون معنا، آمين.</td>
@@ -222,7 +227,7 @@ ${paschalPraiseHtml}
         <caption id="caption_table_11" class="caption">Gospel<br>(Matthew 20:20-28)
         <span class="arabic-caption">الانجيل<br>(متى 20:20-28)</span></caption>
         <tr id="table_11_row_1" class="intro">
-            <td class="english">May God have mercy and compassion upon us, and make us worthy to hear Your Holy Gospel. A chapter according to Saint Matthew. May his blessings be with us. Amen.</td>
+            <td class="english">May God have mercy and compassion upon us, and make us worthy to hear Your Holy Gospel. A chapter according to St. Matthew. May his blessings be with us. Amen.</td>
             <td class="arabic">اللهم تراءف علينا وارحمنا واجعلنا مستحقين لسماع إنجيلك المقدس، فصل من إنجيل معلمنا متى البشير، بركاته تكون معنا أمين</td>
         </tr>
         <tr id="table_11_row_4" class="text">
@@ -258,14 +263,12 @@ ${paschalPraiseHtml}
             <td class="arabic">وَمَنْ أَرَادَ أَنْ يَكُونَ فِيكُمْ أَوَّلاً فَلْيَكُنْ لَكُمْ عَبْداً</td>
         </tr>
         <tr id="table_11_row_12" class="text">
-            <td class="english">just as the Son of Man did not come to be served, but to serve, and to give His life a ransom for many."</td>
-            <td class="arabic">كَمَا أَنَّ ابْنَ الإِنْسَانِ لَمْ يَأْتِ لِيُخْدَمَ بَلْ لِيَخْدِمَ وَلِيَبْذِلَ نَفْسَهُ فِدْيَةً عَنْ كَثِيرِينَ».</td>
+            <td class="english">just as the Son of Man did not come to be served, but to serve, and to give His life a ransom for many."<br>Bow down before the Holy Gospel.</td>
+            <td class="arabic">كَمَا أَنَّ ابْنَ الإِنْسَانِ لَمْ يَأْتِ لِيُخْدَمَ بَلْ لِيَخْدِمَ وَلِيَبْذِلَ نَفْسَهُ فِدْيَةً عَنْ كَثِيرِينَ».<br>أسجدوا للإنجيل المقدس.</td>
         </tr>
         <tr id="table_11_row_14" class="intro">
-            <td class="english">Bow down before the Holy Gospel.
-        Glory be to God forever.</td>
-            <td class="arabic">أسجدوا للإنجيل المقدس. 
-        والمجد لله دائماً.</td>
+            <td class="english">Glory be to God forever.</td>
+            <td class="arabic">والمجد لله دائماً.</td>
         </tr>
     </table>
 
@@ -278,7 +281,7 @@ ${daytimeExpositionIntroHtml}
     <caption id="caption_table_13" class="caption">The Exposition
 <span class="arabic-caption">الطرح</span></caption>
     <tr id="table_13_row_1" class="intro">
-        <td class="english">The Exposition of The ELEVENTH Hour of the DAY of PALM SUNDAY of Holy Pascha, may its blessings be with us. Amen.</td>
+        <td class="english">The Exposition of The ELEVENTH Hour of the DAY of PALM SUNDAY of Holy Pascha. May its blessings be with us. Amen.</td>
         <td class="arabic">طرح الساعة الحادية عشر من يوم أحد الشعانين من البصخة المقدسة بركتها تكون معنا. آمين.</td>
     </tr>
     <tr id="table_13_row_4" class="text">

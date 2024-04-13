@@ -38,7 +38,7 @@ const HolyWeek = () => {
                 style={[presentationStyles.itemContainer]}
                 onPress={() => navigation.navigate("DayOfSunday")}
               >
-                <Text style={presentationStyles.pageMenu}>Day of Palm Sunday</Text>
+                <Text style={presentationStyles.pageMenuAlt}>Day of Palm Sunday</Text>
               </TouchableOpacity>
               <TouchableOpacity
                 style={[presentationStyles.itemContainer]}
@@ -50,7 +50,7 @@ const HolyWeek = () => {
                 style={[presentationStyles.itemContainer]}
                 onPress={() => navigation.navigate("DayOfMonday")}
               >
-                <Text style={presentationStyles.pageMenu}>Day of Monday</Text>
+                <Text style={presentationStyles.pageMenuAlt}>Day of Monday</Text>
               </TouchableOpacity>
               <TouchableOpacity
                 style={[presentationStyles.itemContainer]}
@@ -62,7 +62,7 @@ const HolyWeek = () => {
                 style={[presentationStyles.itemContainer]}
                 onPress={() => navigation.navigate("DayOfTuesday")}
               >
-                <Text style={presentationStyles.pageMenu}>Day of Tuesday</Text>
+                <Text style={presentationStyles.pageMenuAlt}>Day of Tuesday</Text>
               </TouchableOpacity>
               <TouchableOpacity
                 style={[presentationStyles.itemContainer]}
@@ -74,7 +74,7 @@ const HolyWeek = () => {
                 style={[presentationStyles.itemContainer]}
                 onPress={() => navigation.navigate("DayOfWednesday")}
               >
-                <Text style={presentationStyles.pageMenu}>Day of Wednesday</Text>
+                <Text style={presentationStyles.pageMenuAlt}>Day of Wednesday</Text>
               </TouchableOpacity>
               <TouchableOpacity
                 style={[presentationStyles.itemContainer]}
@@ -86,7 +86,7 @@ const HolyWeek = () => {
                 style={[presentationStyles.itemContainer]}
                 onPress={() => navigation.navigate("DayOfThursday")}
               >
-                <Text style={presentationStyles.pageMenu}>Covenant Thursday</Text>
+                <Text style={presentationStyles.pageMenuAlt}>Covenant Thursday</Text>
               </TouchableOpacity>
               <TouchableOpacity
                 style={[presentationStyles.itemContainer]}
@@ -98,7 +98,7 @@ const HolyWeek = () => {
                 style={[presentationStyles.itemContainer]}
                 onPress={() => navigation.navigate("DayOfFriday")}
               >
-                <Text style={presentationStyles.pageMenu}>Good Friday</Text>
+                <Text style={presentationStyles.pageMenuAlt}>Good Friday</Text>
               </TouchableOpacity>
           </ScrollView>
           </View>

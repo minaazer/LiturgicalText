@@ -135,9 +135,9 @@ ${paschalPraiseHtml}
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_7" title="Coptic Psalm">
         <caption class="caption" id="caption_table_7">Coptic Psalm<br>(8:2,1)
-        <span class="arabic-caption">المزمور قبطي<br>(8: 2-1)</span></caption>
+        <span class="arabic-caption">المزمور قبطي<br>(8: 2,1)</span></caption>
         <tr id="table_7_row_0" class="intro">
-            <td class="english">A psalm David</td>
+            <td class="english">A psalm of David</td>
             <td class="coptic">Ⲯⲁⲗⲙⲟⲥ ⲧⲱ Ⲇⲁⲩⲓⲇ</td>
             <td class="arabic">مزمور لداود</td>
         </tr>
@@ -155,7 +155,7 @@ ${paschalPraiseHtml}
         <caption class="caption" id="caption_table_9">Coptic Gospel<br>(Matthew 21:10-17)
         <span class="arabic-caption">الأنجيل قبطي<br>(متى 21: 10-17)</span></caption>
         <tr id="table_9_row_0" class="priest">
-            <td class="english">A chapter according to Saint Mathew,</td>
+            <td class="english">A chapter according to St. Mathew,</td>
             <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ̀ⲉⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲱⲛ ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">فصل من إنجيل معلمنا مار متى</td>
         </tr>
@@ -192,8 +192,9 @@ ${paschalPraiseHtml}
     </table>
 </div>
 <div class="section" id="section_7" title="Engligh and Arabic Psalm & Gospel">
-    <table id="table_10" title="Psalm & Gospel">
-        <caption class="caption" id="caption_table_10">Psalm & Gospel</caption>
+    <table id="table_10" title="Psalm">
+        <caption class="caption" id="caption_table_10">Psalm<br>(8: 2,1)
+        <span class="arabic-caption>المزمور<br>(8: 2,1)</caption>
         <tr id="table_10_row_0" class="intro">
             <td class="english">From the psalms of our teacher David the prophet may his blessings be with us
                 Amen.</td>
@@ -203,50 +204,55 @@ ${paschalPraiseHtml}
         <tr id="table_10_row_1" class="text">
             <td class="english">Out of the mouth of babes and nursing infants You have ordained strength, O
                 Lord, our Lord, How excellent is Your name in all the earth. Alleluia</td>
-            <td class="arabic">من أفواه الاطفال والرضعان هيأت سبحاً. أيها الرب ربنا مثل عجب صار اسمك على الأرض
-                كلها. الليلويا.</td>
+            <td class="arabic">من أفواه الاطفال والرضعان هيأت سبحاً. أيها الرب ربنا مثل عجب صار اسمك على الأرض كلها.</td>
         </tr>
         <tr id="table_10_row_2" class="intro">
-            <td class="english">May God have mercy and compassion upon us and make us worthy to hear Your Holy
-                Gospel. A chapter according to Saint Mathew, may his blessings be with us, Amen.</td>
-            <td class="arabic">اللهم تراءف علينا و أرحمنا و أجعلنا مستحقين لسماع إنجيلك المقدس، فصل من إنجيل
-                معلمنا متى البشير، بركاته تكون معنا أمين.</td>
+            <td class="english">Alleluia.<td>
+            <td class="arabic">الليلويا.</td>
+        </tr>
+    </table>
+    <table id="table_11" title="Gospel">
+        <caption class="caption" id="caption_table_11">Gospel<br>(Matthew 21: 17-10)
+        <span class="arabic-caption">الإنجيل<br>(متى 21: 17-10)</span></caption>
+        <tr id="table_11_row_0" class="intro">
+            <td class="english">May God have mercy and compassion upon us and make us worthy to hear Your Holy Gospel. A chapter according to St. Mathew. May his blessings be with us, Amen.</td>
+            <td class="arabic">اللهم تراءف علينا و أرحمنا و أجعلنا مستحقين لسماع إنجيلك المقدس، فصل من إنجيل معلمنا متى البشير، بركاته تكون معنا أمين.</td>
         </tr>
 
-        <tr id="table_10_row_3" class="text">
-            <td class="english">And when He had come into Jerusalem, all the city was moved, saying, “Who is
-                this?” So the multitudes said, “This is Jesus, the prophet from Nazareth of Galilee.” Then Jesus
-                went into the temple of God and drove out all those who bought and sold in the temple, and
-                overturned the tables of the money changers and the seats of those who sold doves. And He said
-                to them,</td>
-            <td class="arabic">وَلَمَّا دَخَلَ أُورُشَلِيمَ ارْتَجَّتِ الْمَدِينَةُ كُلُّهَا قَائِلَةً: «مَنْ
-                هَذَا؟» فَقَالَتِ الْجُمُوعُ: «هَذَا يَسُوعُ النَّبِيُّ الَّذِي مِنْ نَاصِرَةِ الْجَلِيلِ».
-                وَدَخَلَ يَسُوعُ إِلَى هَيْكَلِ اللَّهِ وَأَخْرَجَ جَمِيعَ الَّذِينَ كَانُوا يَبِيعُونَ
-                وَيَشْتَرُونَ فِي الْهَيْكَلِ وَقَلَبَ مَوَائِدَ الصَّيَارِفَةِ وَكَرَاسِيَّ بَاعَةِ الْحَمَامِ
-                وَقَالَ لَهُمْ:</td>
+        <tr id="table_10_row_1" class="text">
+            <td class="english">And when He had come into Jerusalem, all the city was moved, saying, “Who is this?” 
+            </td>
+            <td class="arabic">وَلَمَّا دَخَلَ أُورُشَلِيمَ ارْتَجَّتِ الْمَدِينَةُ كُلُّهَا قَائِلَةً: «مَنْ هَذَا؟» </td>
         </tr>
-        <tr id="table_10_row_4" class="text">
-            <td class="english">“It is written, ‘My house shall be called a house of prayer, but you have made
-                it a ‘den of thieves.’” Then the blind and the lame came to Him in the temple, and He healed
-                them.
-                But when the chief priests and scribes saw the wonderful things that He did, and the children
-                crying out in the temple and saying, “Hosanna to the Son of David!” they were indignant and said
-                to Him, “Do You hear what these are saying?”</td>
-            <td class="arabic">«مَكْتُوبٌ: بَيْتِي بَيْتَ الصَّلاَةِ يُدْعَى. وَأَنْتُمْ جَعَلْتُمُوهُ مَغَارَةَ
-                لُصُوصٍ!» وَتَقَدَّمَ إِلَيْهِ عُمْيٌ وَعُرْجٌ فِي الْهَيْكَلِ فَشَفَاهُمْ.
-                فَلَمَّا رَأَى رُؤَسَاءُ الْكَهَنَةِ وَالْكَتَبَةُ الْعَجَائِبَ الَّتِي صَنَعَ وَالأَوْلاَدَ
-                يَصْرَخُونَ فِي الْهَيْكَلِ وَيَقُولُونَ: «أُوصَنَّا لاِبْنِ دَاوُدَ» غَضِبُوا وَقَالُوا لَهُ:
-                «أَتَسْمَعُ مَا يَقُولُ هَؤُلاَءِ؟»</td>
+        <tr id="table_11_row_2" class="text">
+            <td class="english">So the multitudes said, “This is Jesus, the prophet from Nazareth of Galilee.”</td>
+            <td class="arabic">فَقَالَتِ الْجُمُوعُ: «هَذَا يَسُوعُ النَّبِيُّ الَّذِي مِنْ نَاصِرَةِ الْجَلِيلِ».</td>
         </tr>
-        <tr id="table_10_row_5" class="text">
-            <td class="english">And Jesus said to them, “Yes. Have you never read, ‘Out of the mouth of babes
-                and nursing infants You have perfected praise’?” Then He left them and went out of the city to
-                Bethany, and He lodged there.</td>
-            <td class="arabic">فَقَالَ لَهُمْ يَسُوعُ: «نَعَمْ! أَمَا قَرَأْتُمْ قَطُّ: مِنْ أَفْوَاهِ
-                الأَطْفَالِ وَالرُّضَّعِ هَيَّأْتَ تَسْبِيحاً؟». ثُمَّ تَرَكَهُمْ وَخَرَجَ خَارِجَ الْمَدِينَةِ
-                إِلَى بَيْتِ عَنْيَا وَبَاتَ هُنَاكَ.</td>
+        <tr id="table_11_row_3" class="text">
+            <td class="english"Then Jesus went into the temple of God and drove out all those who bought and sold in the temple, and overturned the tables of the money changers and the seats of those who sold doves.</td>
+            <td class="arabic">وَدَخَلَ يَسُوعُ إِلَى هَيْكَلِ اللَّهِ وَأَخْرَجَ جَمِيعَ الَّذِينَ كَانُوا يَبِيعُونَ وَيَشْتَرُونَ فِي الْهَيْكَلِ وَقَلَبَ مَوَائِدَ الصَّيَارِفَةِ وَكَرَاسِيَّ بَاعَةِ الْحَمَامِ</td>
         </tr>
-        <tr id="table_10_row_6" class="congregation">
+        <tr id="table_11_row_4" class="text">
+            <td class="english">And He said to them, “It is written, ‘My house shall be called a house of prayer,’ but you have made it a ‘den of thieves.’ ”</td>
+            <td class="arabic">وَقَالَ لَهُمْ: «مَكْتُوبٌ: بَيْتِي بَيْتَ الصَّلاَةِ يُدْعَى. وَأَنْتُمْ جَعَلْتُمُوهُ مَغَارَةَ لُصُوصٍ!»</td>
+        </tr>
+        <tr id="table_11_row_5" class="text">
+            <td class="english">Then the blind and the lame came to Him in the temple, and He healed them.</td>
+            <td class="arabic"> وَتَقَدَّمَ إِلَيْهِ عُمْيٌ وَعُرْجٌ فِي الْهَيْكَلِ فَشَفَاهُمْ.</td>
+        </tr>
+        <tr id="table_11_row_6" class="text">
+            <td class="english">But when the chief priests and scribes saw the wonderful things that He did, and the children crying out in the temple and saying, “Hosanna to the Son of David!” they were indignant</td>
+            <td class="arabic">فَلَمَّا رَأَى رُؤَسَاءُ الْكَهَنَةِ وَالْكَتَبَةُ الْعَجَائِبَ الَّتِي صَنَعَ وَالأَوْلاَدَ يَصْرَخُونَ فِي الْهَيْكَلِ وَيَقُولُونَ: «أُوصَنَّا لاِبْنِ دَاوُدَ» غَضِبُوا </td>
+        </tr>
+        <tr id="table_11_row_7" class="text">
+            <td class="english">and said to Him, “Do You hear what these are saying?” And Jesus said to them, “Yes. Have you never read, ‘Out of the mouth of babes and nursing infants You have perfected praise’?” </td>
+            <td class="arabic">وَقَالُوا لَهُ: «أَتَسْمَعُ مَا يَقُولُ هَؤُلاَءِ؟» فَقَالَ لَهُمْ يَسُوعُ: «نَعَمْ! أَمَا قَرَأْتُمْ قَطُّ: مِنْ أَفْوَاهِ الأَطْفَالِ وَالرُّضَّعِ هَيَّأْتَ تَسْبِيحاً؟».</td>
+        </tr>
+        <tr id="table_11_row_8" class="text">
+            <td class="english">Then He left them and went out of the city to Bethany, and He lodged there.<br>Bow down before the Holy Gospel.</td>
+            <td class="arabic">ثُمَّ تَرَكَهُمْ وَخَرَجَ خَارِجَ الْمَدِينَةِ إِلَى بَيْتِ عَنْيَا وَبَاتَ هُنَاكَ.<br>أسجدوا للإنجيل المقدس.</td>
+        </tr>
+        <tr id="table_11_row_6" class="intro">
             <td class="english">Glory be to God, forever.</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>

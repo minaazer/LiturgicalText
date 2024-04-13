@@ -1,8 +1,9 @@
-import { hourIntro, paschalPraise2 , copticGospelIntro, daytimeExpositionIntro, expositionConclusion, daytimeLitanies, evnotiNaiNan, endOfServiceHymn , cross} from "../repeatedPrayers";
+import { hourIntro, paschalPraise2 , copticGospelIntro, daytimeExpositionIntro, expositionConclusion, daytimeLitanies, evnotiNaiNan, endOfServiceHymn , cross, faiEtafEnf} from "../repeatedPrayers";
 
 export const DOTH1 = () => {
     const hourIntroHtml = hourIntro("FIRST","الأولى","DAY of COVENANT THURSDAY","يوم خميس العهد");
     const paschalPraiseHtml = paschalPraise2("5","8","9","FIRST","الأولى","DAY of COVENANT THURSDAY","يوم خميس العهد");
+    const faiEtafEnfHtml = faiEtafEnf("32");
     const copticGospelIntroHtml = copticGospelIntro("40");
     const daytimeExpositionIntroHtml = daytimeExpositionIntro("44");
     const expositionConclusionHtml = expositionConclusion("46");
@@ -292,7 +293,7 @@ ${hourIntroHtml}
 
 <div class="section" id="section_4" title="Homily">
     <table id="table_7" title="Homily">
-        <caption id="caption_table_7" class="caption">Homily<br>(St John Chrysostom)
+        <caption id="caption_table_7" class="caption">Homily<br>(St. John Chrysostom)
     <span class="arabic-caption">العظة<br>(القديس يوحنا فم الذهب)</span></caption>
         <tr id="table_7_row_1" class="intro">
             <td class="english">A homily of our holy father Abba John Chrysostom. May his blessings be with us. Amen.</td>
@@ -373,8 +374,8 @@ ${paschalPraiseHtml}
 
         <tr id="table_10_row_7" class="text">
             <td class="english"><span class="role">Priest:<br></span>Let us pray.</td>
-            <td class="coptic"><span class="role">Priest:<br></span>Ϣⲗⲏⲗ.</td>
-            <td class="arabic"><span class="role">Priest:<br></span>صلوا.</td>
+            <td class="coptic"><span class="role">Ⲡⲓⲟⲩⲏⲃ:<br></span>Ϣⲗⲏⲗ.</td>
+            <td class="arabic"><span class="role">الكاهن:<br></span>صلوا.</td>
         </tr>
 
         <tr id="table_10_row_9" class="text">
@@ -472,20 +473,16 @@ ${paschalPraiseHtml}
             <td class="arabic">أما الصالحات والنافعات فارزقنا إياها لانك أنت الذي أعطيتنا السلطان أن ندوس على الحيات والعقارب وكل قوة العدو.</td>
         </tr>
 
-        <tr id="table_10_row_36" class="text">
-            <td class="english"><span class="role">Congregation:<br></span>Lord have mercy.</td>
-            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:<br></span>Ⲕⲩⲣⲓ̀ⲉ ̀ⲉⲗⲉ̀ⲏⲥⲟⲛ.</td>
-            <td class="arabic"><span class="role">الشعب:<br></span>يارب ارحم.</td>
-        </tr>
+        
 
     </table>
     <table id="table_11" title="Verses of Cymbals">
         <caption class="caption" id="caption_table_11">Verses of Cymbals
         <span class="arabic-caption">أرباع الناقوص</span></caption>
         <tr id="table_11_row_0" class="north">
-            <td class="english">We worship the Father and the Son, and the Holy spirit, The Holy and Co-essential, Trinity.</td>
-            <td class="coptic">Ⲧⲉⲛⲟⲩⲱϣⲧ ̀ⲙⲫⲓⲱⲧ ⲛⲉⲙ ̀Ⲡϣⲏⲣⲓ ⲛⲉⲙ Ⲡⲓ̀ⲡⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ  : ϯ̀ⲧⲣⲓⲁⲥ ⲉⲑⲟⲩⲁⲃ : ̀ⲛⲟⲙⲟⲩⲟⲥⲓⲟⲥ.</td>
-            <td class="arabic">نسجد للآب والأبن والروح القدس الثالوث المساوى فى الجوهر.</td>
+            <td class="english"><span class="role">Congregation:<br></span>Lord have mercy.<br>We worship the Father and the Son, and the Holy spirit, The Holy and Co-essential, Trinity.</td>
+            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:<br></span>Ⲕⲩⲣⲓ̀ⲉ ̀ⲉⲗⲉ̀ⲏⲥⲟⲛ<br>Ⲧⲉⲛⲟⲩⲱϣⲧ ̀ⲙⲫⲓⲱⲧ ⲛⲉⲙ ̀Ⲡϣⲏⲣⲓ ⲛⲉⲙ Ⲡⲓ̀ⲡⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ  : ϯ̀ⲧⲣⲓⲁⲥ ⲉⲑⲟⲩⲁⲃ : ̀ⲛⲟⲙⲟⲩⲟⲥⲓⲟⲥ.</td>
+            <td class="arabic"><span class="role">الشعب:<br></span>يارب ارحم.<br>نسجد للآب والأبن والروح القدس الثالوث المساوى فى الجوهر.</td>
         </tr>
         <tr id="table_11_row_1" class="south">
             <td class="english">Hail to the Church, the house of the angels, Hail to the Virgin, who gave birth to our Savior.</td>
@@ -523,7 +520,7 @@ ${paschalPraiseHtml}
             <td class="arabic">السلام لسادتي الآباء الرسل السلام لتلاميذ ربنا يسوع المسيح.</td>
         </tr>
         <tr id="table_11_row_8" class="north">
-            <td class="english">Hail to my lords, and fathers the Apostles, Hail to the disciples, of our Lord Jesus Christ.</td>
+            <td class="english">Hail to my lords, and fathers the apostles, Hail to the disciples, of our Lord Jesus Christ.</td>
             <td class="coptic">Ⲭⲉⲣⲉ ⲛⲁϭⲟⲓⲥ ̀ⲛⲓⲟϯ: ̀ⲛⲁⲡⲟⲥⲧⲟⲗⲟⲥ: ⲭⲉⲣⲉ ⲛⲓⲙⲁⲑⲏⲧⲏⲥ: ̀ⲛⲧⲉ Ⲡⲉⲛⲟⲥ̅  Ⲓⲏⲥ Ⲡⲭⲥ.</td>
             <td class="arabic">السلام لسادتي الآباء الرسل السلام لتلاميذ ربنا يسوع المسيح.</td>
         </tr>
@@ -548,26 +545,21 @@ ${paschalPraiseHtml}
             <td class="arabic">السلام لك أيها الشهيد السلام للشجاع المجاهد السلام للابس الجهاد آبا مينا البياضي.</td>
         </tr>
         <tr id="table_11_row_13" class="south">
-            <td class="english"></td>
-            <td class="coptic"></td>
-            <td class="arabic"></td>
-        </tr>
-        <tr id="table_11_row_14" class="north">
             <td class="english">Hail to our father Abba Antony, the lamp of monasticism, hail to our father Abba Paul, the beloved of Christ.</td>
             <td class="coptic">Ⲭⲉⲣⲉ ⲡⲉⲛⲓⲱⲧ ⲁⲃⲃⲁ Ⲁⲛⲧⲱⲛⲓⲟⲥ: ⲡⲓϧⲏⲃⲥ ̀ⲛⲧⲉ ϯⲙⲉⲧⲙⲟⲛⲁⲭⲟⲥ: ⲭⲉⲣⲉ ⲡⲉⲛⲓⲱⲧ ⲁⲃⲃⲁ Ⲡⲁⲩⲗⲉ: ⲡⲓⲙⲉⲛⲣⲓⲧ ̀ⲛⲧⲉ Ⲡ̅ⲭ̅ⲥ.</td>
             <td class="arabic">السلام لأبينا انطونيوس مصباح الرهبنة السلام لأبينا انبا بولا حبيب المسيح.</td>
         </tr>
-        <tr id="table_11_row_15" class="south">
+        <tr id="table_11_row_14" class="north">
             <td class="english">Hail to my masters and fathers, the lovers of their children, Abba Bishoy and Abba Paul the beloved of Christ.</td>
             <td class="coptic">Ⲭⲉⲣⲉ ⲛⲁϭⲟⲓⲥ ̀ⲛⲓⲟⲧ: ̀ⲙⲙⲁⲓⲛⲟⲩϣⲏⲣⲓ: ⲁⲃⲃⲁ Ⲡⲓϣⲟⲓ ⲛⲉⲙ ⲁⲃⲃⲁ Ⲡⲁⲩⲗⲉ: ⲛⲓⲙⲉⲛⲣⲁϯ ̀ⲛⲧⲉ Ⲡ̅ⲭ̅ⲥ.</td>
             <td class="arabic">السلام لأبينا القديس البطريرك: السلام لأثناسيوس الرسول: حبيب المسيح.</td>
         </tr>
-        <tr id="table_11_row_16" class="north">
-            <td class="english">Through the intercessions, of the Theotokos Saint Mary, O Lord grant us, the forgiveness of our sins.</td>
+        <tr id="table_11_row_15" class="south">
+            <td class="english">Through the intercessions, of the Theotokos St. Mary, O Lord grant us, the forgiveness of our sins.</td>
             <td class="coptic">Ϩⲓⲧⲉⲛ ⲛⲓ̀ⲡⲣⲉⲥⲃⲓ̀ⲁ : ̀ⲛⲧⲉ ϯⲑⲉ̀ⲟⲧⲟⲕⲟⲥ ⲉⲑ̅ⲩ̅ Ⲙⲁⲣⲓ̀ⲁ: Ⲡⲟⲥ̅ ̀ⲁⲣⲓ̀ ϩⲙⲟⲧ ⲛⲁⲛ: ̀ⲙⲡⲓⲭⲱ ̀ⲉⲃⲟⲗ ̀ⲛⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ .</td>
             <td class="arabic">بشفاعات والدة الاله  القديسة مريم، يارب انعم لنا بمغفرة خطايانا.</td>
         </tr>
-        <tr id="table_11_row_17" class="south">
+        <tr id="table_11_row_16" class="north">
             <td class="english">That we may praise You: with Your good Father: and the Holy Spirit: for You were crucified and saved us. Have mercy on us.</td>
             <td class="coptic">Ⲉⲑⲣⲉⲛϩⲱⲥ ̀ⲉⲣⲟⲕ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ̀ⲛ̀ⲁⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡⲛⲁ ⲉⲑ̅ⲩ̅: ϫⲉ ⲁⲩⲁϣⲕ ⲁⲕⲥⲱϯ ̀ⲙⲙⲟⲛ ⲛⲁⲓ ⲛⲁⲛ.</td>
             <td class="arabic">لكى نسبحك مع أبيك الصالح والروح القدس لأنك أتيت وخلصتنا ارحمنا.</td>
@@ -848,8 +840,8 @@ ${paschalPraiseHtml}
             <td class="arabic">قدوس الله، قدوس القوي، قدوس الذي لا يموت، الذي صلب عنا، ارحمنا.</td>
         </tr>
         <tr id="table_16_row_3" class="text">
-            <td class="english">Holy God, Holy Mighty, Holy Immortal, who rose from the dead and ascended into the heavens, have mercy upon us.</td>
-            <td class="arabic">قدوس الله، قدوس القوي، قدوس الذي لا يموت، الذي قام من بين الأموات وصعد إلى السموات، ارحمنا.</td>
+            <td class="english">Holy God, Holy Mighty, Holy Immortal, who was crucified for us, have mercy upon us.</td>
+            <td class="arabic">قدوس الله، قدوس القوي، قدوس الذي لا يموت، الذي صلب عنا، ارحمنا.</td>
         </tr>
         <tr id="table_16_row_4" class="text">
             <td class="english">Glory be to the Father, and to the Son, and to the Holy Spirit, now and forever and unto the ages of all ages. Amen.</td>
@@ -892,9 +884,9 @@ ${paschalPraiseHtml}
         <caption class="caption" id="caption_table_18">Introduction to the Doxologies
         <span class="arabic-caption">مقدمة الذوكصولوجيات</span></caption>
         <tr id="table_18_row_0" class="north">
-            <td class="english">Hail to you. We ask you, O saint full of glory, the ever-virgin, the Theotokos, the Mother of Christ.</td>
-            <td class="coptic">Ⲭ ⲉⲣⲉ ⲛⲉ ⲧⲉⲛϯϩⲟ  ̀ⲉⲣⲟ : ̀ⲱ ⲑⲏⲉⲑⲟⲩⲁⲃ ⲉⲑⲙⲉϩ ̀ⲛ̀ⲱⲟⲩ : ⲉⲧⲟⲓ ̀ⲙⲡⲁⲣⲑⲉⲛⲟⲥ ̀ⲛⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ : ϯⲙⲁⲥⲛⲟⲩϯ ̀ⲑⲙⲁⲩ ̀ⲙⲠⲓⲭⲣⲓⲥⲧⲟⲥ.</td>
-            <td class="arabic">السلام لك. نسألك أيتها القديسة الممتلئة مجدا العذراء كل حين، والدة الإله أم المسيح.</td>
+            <td class="english">In Christ Jesus our Lord. Amen. Alleluia.<br>Hail to you. We ask you, O St. full of glory, the ever-virgin, the Theotokos, the Mother of Christ.</td>
+            <td class="coptic">Ϧⲉⲛ Ⲡⲓ̀ⲭⲣⲓⲥⲧⲟⲥ Ⲓⲏⲥⲟⲩⲥ Ⲡⲉⲛϭⲟⲓⲥ. Ⲁⲙⲏⲛ. Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.<br>Ⲭⲉⲣⲉ ⲛⲉ ⲧⲉⲛϯϩⲟ  ̀ⲉⲣⲟ : ̀ⲱ ⲑⲏⲉⲑⲟⲩⲁⲃ ⲉⲑⲙⲉϩ ̀ⲛ̀ⲱⲟⲩ : ⲉⲧⲟⲓ ̀ⲙⲡⲁⲣⲑⲉⲛⲟⲥ ̀ⲛⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ : ϯⲙⲁⲥⲛⲟⲩϯ ̀ⲑⲙⲁⲩ ̀ⲙⲠⲓⲭⲣⲓⲥⲧⲟⲥ.</td>
+            <td class="arabic">بالمسيح يسوع ربنا. امين. الليلويا.<br>السلام لك. نسألك أيتها القديسة الممتلئة مجدا العذراء كل حين، والدة الإله أم المسيح.</td>
         </tr>
         <tr id="table_18_row_1" class="south">
             <td class="english">Lift up our prayers unto your beloved Son, that He may forgive us our sins.</td>
@@ -902,7 +894,7 @@ ${paschalPraiseHtml}
             <td class="arabic">أصعدي صلواتنا إلى ابنك الحبيب ليغفر لنا خطايانا.</td>
         </tr>
         <tr id="table_18_row_2" class="north">
-            <td class="english">Hail to the Holy Virgin who bore for us the true light, Christ our God.</td>
+            <td class="english">Hail to the holy Virgin who bore for us the true light, Christ our God.</td>
             <td class="coptic">Ⲭⲉⲣⲉ ⲑⲏ̀ⲉⲧⲁⲥⲙⲓⲥⲓ ⲛⲁⲛ: ̀ⲙⲡⲓⲟⲩⲱⲓⲛⲓ ̀ⲛⲧⲁ̀ⲫⲙⲏⲓ: Ⲡⲓⲭⲣⲓⲥⲧⲟⲥ Ⲡⲉⲛⲛⲟⲩϯ: ϯⲡⲁⲣⲑⲉⲛⲟⲥ ⲉⲑⲟⲩⲁⲃ.</td>
             <td class="arabic">السلام للتي ولدت لنا النور الحقيقي المسيح إلهنا، العذراء القديسة.</td>
         </tr>
@@ -932,27 +924,27 @@ ${paschalPraiseHtml}
             <td class="arabic">نسألك أن تذكرينا أيتها الشفيعة المؤتمنة أمام ربنا يسوع المسيح ليغفر لنا خطايانا.</td>
         </tr>
     </table>
-    <table id="table_19" title="Matins Doxology for St Mary">
-        <caption class="caption" id="caption_table_19">Matins Doxology for St Mary
-        <span class="arabic-caption">ذوكصولوجية باكر للسيدة العذراء مريم</span></caption>
+    <table id="table_19" title="Matins Doxology for St. Mary">
+        <caption class="caption" id="caption_table_19">Doxology for St. Mary (Matins)
+        <span class="arabic-caption">ذوكصولوجية للسيدة العذراء مريم (باكر)</span></caption>
         <tr id="table_19_row_0" class="north">
             <td class="english">Blessed are you O Mary, the wise and the chaste, the Second Tabernacle, the spiritual treasure.</td>
-            <td class="coptic">Ⲱⲟⲛⲓⲁϯ ̀ⲛⲑⲟ Ⲙⲁⲣⲓ̀ⲁ: ϯⲥⲁⲃⲏ ⲟⲩⲟ’’ϩ ̀ⲛⲥⲉⲙⲛⲉ: ϯⲙⲁϩ̀ⲥⲛⲟⲩϯ ̀ⲛ̀ⲥⲕⲏⲛⲏ: ⲡⲓ̀ⲁϩⲟ ̀ⲙ’̀ⲡⲛⲉⲩⲙⲁⲧⲓⲕⲟⲛ.</td>
+            <td class="coptic">Ⲱⲟⲛⲓⲁϯ ̀ⲛⲑⲟ Ⲙⲁⲣⲓ̀ⲁ: ϯⲥⲁⲃⲏ ⲟⲩⲟϩ ̀ⲛⲥⲉⲙⲛⲉ: ϯⲙⲁϩ̀ⲥⲛⲟⲩϯ ̀ⲛ̀ⲥⲕⲏⲛⲏ: ⲡⲓ̀ⲁϩⲟ ̀ⲙ̀ⲡⲛⲉⲩⲙⲁⲧⲓⲕⲟⲛ.</td>
             <td class="arabic">طوباك أنت يا مريم الحكيمة العفيفة القبة الثانية الكنز الروحى.</td>
         </tr>
         <tr id="table_19_row_1" class="south">
             <td class="english">The pure turtle-dove, who declared in our land, and brought to us, the Fruit of the Spirit.</td>
-            <td class="coptic">Ϯϭⲣⲟⲙ̀ⲡϣⲁⲗ ̀ⲛⲕⲁⲑⲁⲣⲟⲥ: ⲑⲏ̀ⲉⲧⲁⲥⲙⲟⲩ’ϯ ‘’ϧⲉⲛ ⲡⲉⲛⲕⲁϩⲓ: ⲟⲩⲟ’’ϩ ⲁⲥ’ⲫⲓⲣⲓ ⲛⲁⲛ ̀ⲉⲃⲟⲗ: ̀ⲛⲟⲩⲕⲁⲣⲡⲟⲥ ̀ⲛⲧⲉ Ⲡⲓ’̀ⲡⲛⲉⲩⲙⲁ.</td>
+            <td class="coptic">Ϯϭⲣⲟⲙ̀ⲡϣⲁⲗ ̀ⲛⲕⲁⲑⲁⲣⲟⲥ: ⲑⲏ̀ⲉⲧⲁⲥⲙⲟⲩϯ ϧⲉⲛ ⲡⲉⲛⲕⲁϩⲓ: ⲟⲩⲟϩ ⲁⲥⲫⲓⲣⲓ ⲛⲁⲛ ̀ⲉⲃⲟⲗ: ̀ⲛⲟⲩⲕⲁⲣⲡⲟⲥ ̀ⲛⲧⲉ Ⲡⲓⲡⲛⲉⲩⲙⲁ.</td>
             <td class="arabic">اليمامة النقية التى نادت فى أرضنا وأينعت لنا ثمرة الروح.</td>
         </tr>
         <tr id="table_19_row_2" class="north">
             <td class="english">The Spirit of Comfort, came upon your Son, in the waters of the Jordan, of which Noah was a type.</td>
-            <td class="coptic">Ⲡⲓ’̀ⲡⲛⲉⲩⲙⲁ ̀ⲙⲡⲁⲣⲁⲕⲗⲏⲧⲟⲛ: ⲫⲏ̀ⲉⲧⲁϥ̀ⲓ ̀ⲉϫⲉⲛ Ⲡⲉϣⲏⲣⲓ: ϩⲓϫⲉⲛ ⲛⲓⲙⲟⲩ ̀ⲛⲧⲉ Ⲡⲓⲓⲟⲣⲇⲁⲛⲏⲥ: ⲕⲁⲧⲁ ̀ⲡⲧⲩⲡⲟⲥ ̀ⲛⲚⲱ̀ⲉ.</td>
+            <td class="coptic">Ⲡⲓⲡⲛⲉⲩⲙⲁ ̀ⲙⲡⲁⲣⲁⲕⲗⲏⲧⲟⲛ: ⲫⲏ̀ⲉⲧⲁϥ̀ⲓ ̀ⲉϫⲉⲛ Ⲡⲉϣⲏⲣⲓ: ϩⲓϫⲉⲛ ⲛⲓⲙⲟⲩ ̀ⲛⲧⲉ Ⲡⲓⲓⲟⲣⲇⲁⲛⲏⲥ: ⲕⲁⲧⲁ ̀ⲡⲧⲩⲡⲟⲥ ̀ⲛⲚⲱ̀ⲉ.</td>
             <td class="arabic">الروح المعزى الذى حل على إبنك  فى مياه الاُردن كمثال نوح.</td>
         </tr>
         <tr id="table_19_row_3" class="south">
-            <td class="english">For that dove has proclaimed, glad tidings to us, the peace of God, for mankind.</td>
-            <td class="coptic">Ϯ’ϭⲣⲟⲙⲡⲓ ⲅⲁⲣ ̀ⲉⲧⲉ ̀ⲙⲙⲁⲩ: ̀ⲛⲑⲟⲥ ⲁⲥϩⲓϣⲉⲛⲛⲟⲩϥⲓ ⲛⲁⲛ: ̀ⲛϯϩⲓⲣⲏⲛⲏ ̀ⲛⲧⲉ Ⲫϯ: ⲑⲏ̀ⲉⲧⲁⲥϣⲱⲡⲓ ϣⲁ ⲛⲓⲣⲱⲙⲓ..</td>
+            <td class="english">That dove has announced to us, glad tidings to us, the peace of God, for mankind.</td>
+            <td class="coptic">Ϯϭⲣⲟⲙⲡⲓ ⲅⲁⲣ ̀ⲉⲧⲉ ̀ⲙⲙⲁⲩ: ̀ⲛⲑⲟⲥ ⲁⲥϩⲓϣⲉⲛⲛⲟⲩϥⲓ ⲛⲁⲛ: ̀ⲛϯϩⲓⲣⲏⲛⲏ ̀ⲛⲧⲉ Ⲫϯ: ⲑⲏ̀ⲉⲧⲁⲥϣⲱⲡⲓ ϣⲁ ⲛⲓⲣⲱⲙⲓ..</td>
             <td class="arabic">لاُن تلك الحمامة هى بشرتنا بسلام الله الذى صار للبشر.</td>
         </tr>
         <tr id="table_19_row_4" class="north">
@@ -972,7 +964,7 @@ ${paschalPraiseHtml}
         </tr>
         <tr id="table_19_row_7" class="south">
             <td class="english">O our Lord Jesus Christ, make for Yourself within us, a temple of Your Holy Spirit, glorifying You.</td>
-            <td class="coptic">Ϫⲉ Ⲡⲉⲛϭⲟⲓⲥ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭⲣⲓⲥⲧⲟⲥ: ⲙⲁⲑⲁⲙⲓ̀ⲟ ⲛⲁⲕ ̀ⲛ̀ϧⲣⲏⲓ ̀ⲛϧⲏⲧⲉⲛ:  ̀ⲛⲟⲩⲉⲣ’ⲫⲉⲓ ̀ⲛⲧⲉ Ⲡⲉⲕ̀ⲡⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: ⲉⲩϯⲇⲟⲍⲟⲗⲟⲅⲓ̀ⲁ ⲛⲁⲕ.</td>
+            <td class="coptic">Ϫⲉ Ⲡⲉⲛϭⲟⲓⲥ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭⲣⲓⲥⲧⲟⲥ: ⲙⲁⲑⲁⲙⲓ̀ⲟ ⲛⲁⲕ ̀ⲛ̀ϧⲣⲏⲓ ̀ⲛϧⲏⲧⲉⲛ:  ̀ⲛⲟⲩⲉⲣⲫⲉⲓ ̀ⲛⲧⲉ Ⲡⲉⲕ̀ⲡⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: ⲉⲩϯⲇⲟⲍⲟⲗⲟⲅⲓ̀ⲁ ⲛⲁⲕ.</td>
             <td class="arabic">يا ربنا يسوع المسيح اجعل لك فينا هيكلا لروحك القدوس يعطيك تمجيداً.</td>
         </tr>
         <tr id="table_19_row_8" class="north">
@@ -1032,11 +1024,11 @@ ${paschalPraiseHtml}
             </tr>
             <tr id="table_20_row_5" class="south">
                 <td class="english">Intercede on our behalf, O the holy archangel, Michael the head of the heavenly,
-                    that He may forgive us our sins.${cross}</td>
+                    that He may forgive us our sins. ${cross}</td>
                 <td class="coptic" >Ⲁⲣⲓⲡⲣⲉⲥⲃⲉⲩⲓⲛ ⲉϩ̀ⲣⲏⲓ ⲉϫⲱⲛ: ⲱ ⲡⲓⲁⲣⲭⲏⲁⲅⲅⲉⲗⲟⲥ
-                    ⲉˉⲑˉⲩˉ Ⲙⲓⲭⲁⲏⲗ ⲡ̀ⲁⲣⲭⲱⲛ ⲛ̀ⲛⲁ ⲛⲓⲫⲏⲟⲩⲓ ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ.${cross}</td>
+                    ⲉˉⲑˉⲩˉ Ⲙⲓⲭⲁⲏⲗ ⲡ̀ⲁⲣⲭⲱⲛ ⲛ̀ⲛⲁ ⲛⲓⲫⲏⲟⲩⲓ ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ. ${cross}</td>
                 <td class="arabic" >إشفع فينا يارئيس الملائكة الطاهر ميخائيل
-                    رئيس السمائيين ليغفر لنا خطايانا.${cross}</td>
+                    رئيس السمائيين ليغفر لنا خطايانا. ${cross}</td>
             </tr>
         
     </table>
@@ -1114,10 +1106,10 @@ ${paschalPraiseHtml}
             </tr>
             <tr id="table_21_row_9" class="south">
                 <td class="english" >Intercede on our behalf, O angelic
-                    armies, and heavenly orders, that He may forgive us our sins.${cross}</td>
+                    armies, and heavenly orders, that He may forgive us our sins. ${cross}</td>
                 <td class="coptic" >Ⲁⲣⲓⲡⲣⲉⲥⲃⲉⲩⲓⲛ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲛⲓⲥⲧⲣⲁⲧⲓⲁ̀
-                    ⲛ̀ⲁⲅⲅⲉⲗⲓⲕⲟⲛ: ⲛⲉⲙ ⲛⲓⲧⲁⲅⲙⲁ ⲛ̀ⲉ̀ⲡⲟⲣⲁⲛⲓⲟⲛ : ⲛ̀ⲧⲉϥ ⲭⲁ ⲛⲉⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.${cross}</td>
-                <td class="arabic">إشفعوا فينا أيها العساكر الملائكية والطغمات السمائية ليغفر لنا خطايانا.${cross}</td>
+                    ⲛ̀ⲁⲅⲅⲉⲗⲓⲕⲟⲛ: ⲛⲉⲙ ⲛⲓⲧⲁⲅⲙⲁ ⲛ̀ⲉ̀ⲡⲟⲣⲁⲛⲓⲟⲛ : ⲛ̀ⲧⲉϥ ⲭⲁ ⲛⲉⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ. ${cross}</td>
+                <td class="arabic">إشفعوا فينا أيها العساكر الملائكية والطغمات السمائية ليغفر لنا خطايانا. ${cross}</td>
             </tr>
         
     </table>
@@ -1162,22 +1154,22 @@ ${paschalPraiseHtml}
             </tr>
             <tr id="table_22_row_5" class="south">
                 <td class="english" >Pray to the Lord on our behalf, O my
-                    lordsand fathers the Apostles, and the seventy two disciples, that He may forgive us
-                    our sins.${cross}</td>
+                    lordsand fathers the apostles, and the seventy two disciples, that He may forgive us
+                    our sins. ${cross}</td>
                 <td class="coptic" >Ⲧⲱⲃϩ ⲙ̀̀ Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲱ̀ ⲛⲁ⳪
-                    ⲛ̀ⲓⲟϯ ⲛ̀ⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ: ⲛⲉⲙ ⲡⲓϣ̀ⲃⲉ ⲥ̀ⲛⲁⲩ ⲙ̀ⲙⲁⲑⲏⲧⲏⲥ: ⲛ̀ⲧⲉϥ ⲭⲁ ⲛⲉⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.${cross}</td>
+                    ⲛ̀ⲓⲟϯ ⲛ̀ⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ: ⲛⲉⲙ ⲡⲓϣ̀ⲃⲉ ⲥ̀ⲛⲁⲩ ⲙ̀ⲙⲁⲑⲏⲧⲏⲥ: ⲛ̀ⲧⲉϥ ⲭⲁ ⲛⲉⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ. ${cross}</td>
                 <td class="arabic">أطلبوا من الرب عنا يا سادتي الآباء الرسل والاثنان والسبعون تلميذاً ليغفر لنا
-                    خطايانا.${cross}</td>
+                    خطايانا. ${cross}</td>
             </tr>
         
     </table>
-    <table id="table_23" style="display: table;" title="Doxology for St Mark">
-        <caption id="caption_table_23" class="caption">Doxology for St Mark
+    <table id="table_23" style="display: table;" title="Doxology for St. Mark">
+        <caption id="caption_table_23" class="caption">Doxology for St. Mark
         <span class="arabic-caption">ذوكصولوجية مرقس الرسول</span></caption>
         
             <tr id="table_23_row_0" class="north">
-                <td class="english" >O Mark the Apostle, and the
-                    Evangelist, the witness of the passion: of the Only-Begotten God.</td>
+                <td class="english" >O Mark the apostle, and the
+                    evangelist, the witness of the passion: of the Only-Begotten God.</td>
                 <td class="coptic" >Ⲙⲁⲣⲕⲟⲥ
                     ⲡⲓⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ: ⲟⲩⲟϩ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲥⲧⲏⲥ: ⲡⲓⲙⲉⲑⲣⲉ
                     ϧⲁ ⲛⲓⲙ̀ⲕⲁⲩϩ: ⲛ̀ⲧⲉ ⲡⲓⲙⲟⲛⲟⲅⲉⲛⲏⲥ ⲛ̀ⲛⲟⲩϯ.</td>
@@ -1217,7 +1209,7 @@ ${paschalPraiseHtml}
             </tr>
             <tr id="table_23_row_4" class="north">
                 <td class="english" >Hail to you O martyr, Hail to the
-                    Evangelist, Hail to the apostle, Mark the Beholder of God.</td>
+                    evangelist, Hail to the apostle, Mark the Beholder of God.</td>
                 <td class="coptic" >Ⲭⲉⲣⲉ
                     ⲛⲁⲕ ̀ⲱ̀ ⲡⲓⲙⲁⲣⲧⲩⲣⲟⲥ:ⲭⲉⲣⲉ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲥⲧⲏⲥ:
                     ⲭⲉⲣⲉ ⲡⲓ̀ⲁ̀ⲡⲟⲥⲧⲗⲟⲥ: Ⲙⲁⲣⲕⲟⲥ ⲡⲓⲑⲉ̀ⲱ̀ⲣⲓⲙⲟⲥ.</td>
@@ -1225,22 +1217,22 @@ ${paschalPraiseHtml}
             </tr>
             <tr id="table_23_row_5" class="south">
                 <td class="english" >Pray to the Lord on our behalf, O
-                    Beholder of God and Evangelist,Mark the Apostle: that he may forgive us our sins.
+                    Beholder of God, the evangelist,Mark the apostle: that He may forgive us our sins.
                     ${cross}</td>
                 <td class="coptic" >Ⲧⲱⲃϩ ⲙ̀̀ Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ
                     : ⲱ̀ ⲡⲓⲑⲉⲱ̀ⲣⲓⲙⲟⲥ
                     ̀ⲛ̀ⲉⲩⲁⲅⲅⲉⲗⲓⲥⲧⲏⲥ: Ⲙⲁⲣⲕⲟⲥ
-                    ⲡⲓ̀ⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ: ⲛ̀ⲧⲉϥ ⲭⲁ ⲛⲉⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.${cross}</td>
-                <td class="arabic">أطلب من الرب عنا يا ناظر الإله الإنجيلى مرقس الرسول ليغفر لنا خطايانا.${cross}</td>
+                    ⲡⲓ̀ⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ: ⲛ̀ⲧⲉϥ ⲭⲁ ⲛⲉⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ. ${cross}</td>
+                <td class="arabic">أطلب من الرب عنا يا ناظر الإله الإنجيلى مرقس الرسول ليغفر لنا خطايانا. ${cross}</td>
             </tr>
         
     </table>
-    <table id="table_24" style="display: table;" title="Doxology for St George">
-        <caption id="caption_table_24" class="caption">Doxology for St George
+    <table id="table_24" style="display: table;" title="Doxology for St. George">
+        <caption id="caption_table_24" class="caption">Doxology for St. George
         <span class="arabic-caption">ذوكصولوجية مار جرجس</span></caption>
         
             <tr id="table_24_row_0" class="north">
-                <td class="english" >Saint George completed, seven whole
+                <td class="english" >St. George completed, seven whole
                     years, beingjudged daily, by seventy lawless kings.</td>
                 <td class="coptic" >Ⲍ̀ˉ̅ ⲛ̀ⲣⲟⲙⲡⲓ
                     ⲁϥϫⲟⲕⲟⲩ ⲉ̀ⲃⲟⲗ : ⲛ̀ϫⲉ
@@ -1281,15 +1273,15 @@ ${paschalPraiseHtml}
             </tr>
             <tr id="table_24_row_5" class="south">
                 <td class="english" >Pray to the Lord on our behalf, O
-                    prize-bearer andmartyr, George my lord and prince, that He may forgive us our sins.${cross}</td>
+                    prize-bearer andmartyr, George my lord and prince, that He may forgive us our sins. ${cross}</td>
                 <td class="coptic" >Ⲧⲱⲃϩ ⲙ̀̀ Ⲡϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ :
-                    ⲱ̀ ⲡⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ ⲙ̀ⲙⲁⲣⲧⲏⲣⲟⲥ : Ⲡⲁ⳪ ⲡ̀ⲟⲩⲣⲟ Ⲅⲉⲱⲣⲅⲓⲟⲥ : ⲛ̀ⲧⲉϥ ⲭⲁ ⲛⲉⲛ ⲛⲟⲩⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.${cross}</td>
-                <td class="arabic">أطلب من الرب عنا. أيها الشهيد المجاهد سيدى الملك جيؤرجيوس ليغفر لنا خطايانا.${cross}</td>
+                    ⲱ̀ ⲡⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ ⲙ̀ⲙⲁⲣⲧⲏⲣⲟⲥ : Ⲡⲁ⳪ ⲡ̀ⲟⲩⲣⲟ Ⲅⲉⲱⲣⲅⲓⲟⲥ : ⲛ̀ⲧⲉϥ ⲭⲁ ⲛⲉⲛ ⲛⲟⲩⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ. ${cross}</td>
+                <td class="arabic">أطلب من الرب عنا. أيها الشهيد المجاهد سيدى الملك جيؤرجيوس ليغفر لنا خطايانا. ${cross}</td>
             </tr>
         
     </table>
-    <table id="table_25" style="display: table;" title="Doxology St Philopatir Mercorios">
-        <caption id="caption_table_25" class="caption">Doxology for St Philopatir Mercorios
+    <table id="table_25" style="display: table;" title="Doxology St. Philopateer Mercurius">
+        <caption id="caption_table_25" class="caption">Doxology for St. Philopateer Mercurius
         <span class="arabic-caption">ذوكصولوجية مرقوريوس ابوسيفين</span></caption>
         
             <tr id="table_25_row_0" class="north">
@@ -1345,15 +1337,15 @@ ${paschalPraiseHtml}
             </tr>
             <tr id="table_25_row_7" class="south">
                 <td class="english" >Pray to the Lord on our behalf: O
-                    struggle mantled martyr: Philopateer Mercurius: that He may forgive us our sins.${cross}</td>
+                    struggle mantled martyr: Philopateer Mercurius: that He may forgive us our sins. ${cross}</td>
                 <td class="coptic" >Ⲧⲱⲃϩ ⲙ̀Ⲡ̀ϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲱ̀
-                    ⲡⲓⲁⲏⲗⲟⲫⲟⲣⲟⲥ ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ: Ⲫⲓⲗⲟⲡⲁⲧⲏⲣ Ⲙⲉⲣⲕⲟⲩⲣⲓⲟⲥ: ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛ ⲛⲟⲩⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.${cross}</td>
-                <td class="arabic">أطلب من الرب عنا: أيها الشهيد المجاهد: محب الآب مرقوريوس: ليغفر لنا خطايانا.${cross}</td>
+                    ⲡⲓⲁⲏⲗⲟⲫⲟⲣⲟⲥ ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ: Ⲫⲓⲗⲟⲡⲁⲧⲏⲣ Ⲙⲉⲣⲕⲟⲩⲣⲓⲟⲥ: ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛ ⲛⲟⲩⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ. ${cross}</td>
+                <td class="arabic">أطلب من الرب عنا: أيها الشهيد المجاهد: محب الآب مرقوريوس: ليغفر لنا خطايانا. ${cross}</td>
             </tr>
         
     </table>
-    <table id="table_26" style="display: table;" title="Doxology for St Mina">
-        <caption id="caption_table_26" class="caption">Doxology for St Mina
+    <table id="table_26" style="display: table;" title="Doxology for St. Mina the Wonderworker">
+        <caption id="caption_table_26" class="caption">Doxology for St. Mina the Wonderworker
         <span class="arabic-caption">ذوكصولوجية مارمينا</span></caption>
         
             <tr id="table_26_row_0" class="north">
@@ -1365,7 +1357,7 @@ ${paschalPraiseHtml}
                     هى هذه الحياة الباطلة.</td>
             </tr>
             <tr id="table_26_row_1" class="south">
-                <td class="english">The saint Abba Mina, heard the Divine voice, and has forsaken the whole world,
+                <td class="english">The St. Abba Mina, heard the Divine voice, and has forsaken the whole world,
                     and its corrupt glory.</td>
                 <td class="coptic" >Ⲡⲓⲁⲅⲓⲟⲥ ⲁⲡⲁ Ⲙⲏⲛⲁ ⲁϥⲥⲱⲧⲉⲙ ⲛ̀ⲥⲁ ϯⲥ̀ⲙⲏ ⲛ̀ⲛⲟⲩϯ
                     ⲁϥⲭⲱ ⲙ̀ⲡⲓⲕⲟⲥⲙⲟⲥ ⲧⲏⲣϥ ⲛ̀ⲥⲱϥ  ⲛⲉⲙ ⲡⲉϥⲱⲟⲩ ⲉⲑⲛⲁⲧⲁⲕⲟ.</td>
@@ -1390,24 +1382,24 @@ ${paschalPraiseHtml}
             </tr>
             <tr id="table_26_row_4" class="north">
                 <td class="english">Hail to you O martyr, Hail to the courageous hero, Hail to the struggle-mantled,
-                    the saint Abba Mena.</td>
+                    the St. Abba Mina.</td>
                 <td class="coptic" >Ⲭⲉⲣⲉ ⲛⲁⲕ ⲱ̀ ⲡⲓⲙⲁⲣⲧⲏⲣⲟⲥ : ⲭⲉⲣⲉ ⲡⲓϭⲱⲓϫ
                     ⲛ̀ⲅⲉⲛⲛⲉⲟⲥ : ⲭⲉⲣⲉ ⲡⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ: ⲁⲃⲃⲁ Ⲙⲏⲛⲁ ⲛ̀ⲧⲉ ⲛⲓⲫⲁⲓⲁⲧ.</td>
                 <td class="arabic" >السلام لك أيها الشهيد السلام للشجاع
                     المجاهد السلام للابس الجهاد آبا مينا البياضي.</td>
             </tr>
             <tr id="table_26_row_5" class="south">
-                <td class="english">Pray to the Lord on our behalf: O struggle-mantled martyr, the saint Abba Mena,
-                    that He may forgive us our sins.${cross}</td>
+                <td class="english">Pray to the Lord on our behalf: O struggle-mantled martyr, the St. Abba Mina,
+                    that He may forgive us our sins. ${cross}</td>
                 <td class="coptic" >Ⲧⲱⲃϩ ⲙ̀Ⲡ⳪ ⲉ̀ϩ̀ⲣⲏⲓ ⲉϫⲱⲛ ⲱ ⲡⲓⲑⲗⲟⲫⲟⲣⲟⲥ ⲙ̀⳥
-                    ⲡⲓⲁⲅⲓⲟⲥ ⲁⲡⲁ Ⲙⲏⲛⲁ  ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ.${cross}</td>
+                    ⲡⲓⲁⲅⲓⲟⲥ ⲁⲡⲁ Ⲙⲏⲛⲁ  ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ. ${cross}</td>
                 <td class="arabic" >أطلب من الرب عنا أيها الشهيد المجاهد آبا
-                    مينا البياضى ليغفر لنا خطايانا.${cross}</td>
+                    مينا البياضى ليغفر لنا خطايانا. ${cross}</td>
             </tr>
         
     </table>
-    <table id="table_27" style="display: table;" title="Doxology for St Anthony the Great">
-        <caption id="caption_table_27" class="caption">Doxology for St Anthony the Great
+    <table id="table_27" style="display: table;" title="Doxology for St. Anthony the Great">
+        <caption id="caption_table_27" class="caption">Doxology for St. Anthony the Great
         <span class="arabic-caption">ذوكصولوجية الانبا انطونيوس</span></caption>
         
             <tr id="table_27_row_0" class="north">
@@ -1463,16 +1455,16 @@ ${paschalPraiseHtml}
             <tr id="table_27_row_7" class="south">
                 <td class="english" >Pray to the Lord on our behalf, O my
                     masters and fathers who loved their children, Abba Antony and Abba Paul, that He may forgive us
-                    our sins.${cross}</td>
+                    our sins. ${cross}</td>
                 <td class="coptic" >Ⲧⲱⲃϩ ⲙ̀ⲡ̀̅ϭ̅ⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ: ⲱ ⲛⲁ⳪ ⲛ̀ⲓⲟϯ
-                    ⲙ̀ⲙⲁⲓⲛⲟⲩϣⲏⲣⲓ: ⲁⲃⲃⲁ Ⲁⲛⲧⲱⲛⲓⲟⲥ ⲛⲉⲙ ⲁⲃⲃⲁ Ⲡⲁⲩⲗⲉ: ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.${cross}</td>
+                    ⲙ̀ⲙⲁⲓⲛⲟⲩϣⲏⲣⲓ: ⲁⲃⲃⲁ Ⲁⲛⲧⲱⲛⲓⲟⲥ ⲛⲉⲙ ⲁⲃⲃⲁ Ⲡⲁⲩⲗⲉ: ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ. ${cross}</td>
                 <td class="arabic">اطلبا من الرب عنا يل سيدى الأبوين محبي أولادهما انبا انطونيوس و انبا بولا
-                    ليغفر...${cross}</td>
+                    ليغفر... ${cross}</td>
             </tr>
         
     </table>
-    <table id="table_28" style="display: table;" title="Doxology St Athanasius the Apostolic">
-        <caption id="caption_table_28" class="caption">Doxology for St Athanasius the Apostolic
+    <table id="table_28" style="display: table;" title="Doxology St. Athanasius the Apostolic">
+        <caption id="caption_table_28" class="caption">Doxology for St. Athanasius the Apostolic
         <span class="arabic-caption">ذوكصولوجية اثناسيوس الرسولي</span></caption>
         
             <tr id="table_28_row_0" class="north">
@@ -1513,7 +1505,7 @@ ${paschalPraiseHtml}
             </tr>
             <tr id="table_28_row_5" class="south">
                 <td class="english" >Hail to the great patriarch, our father
-                    the saint abba Athanasius, whose holy teachings, enlightened our minds.</td>
+                    the St. abba Athanasius, whose holy teachings, enlightened our minds.</td>
                 <td class="coptic" >Ⲭⲉⲣⲉ ⲡⲓⲛⲓϣϯ ⲙ̀ⲡⲁⲧⲣⲓⲁⲣⲭⲏⲥ: ⲡⲉⲛⲓⲱⲧ ⲉ̀ⲑⲟⲩⲁⲃ
                     ⲁⲃⲃⲁ Ⲁⲑⲁⲛⲁⲥⲓⲟⲥ: ⲫⲏ ⲉⲧⲁ ⲛⲉϥⲥ̀ⲃⲱⲟⲩⲓ̀: ⲉⲣⲟⲩⲱⲓⲛⲓ ⲙ̀ⲡⲉⲛⲛⲟⲥ.</td>
                 <td class="arabic">السلام للبطريرك العظيم: ابينا القديس الانبا اثناسيوس:يا من تعاليمه المقدسة انارت
@@ -1521,7 +1513,7 @@ ${paschalPraiseHtml}
             </tr>
             <tr id="table_28_row_6" class="north">
                 <td class="english" >Blessed are you indeed, Our saintly
-                    father the patriarch, Saint Athanasius the apostolic, beloved of Christ.</td>
+                    father the patriarch, St. Athanasius the apostolic, beloved of Christ.</td>
                 <td class="coptic" >Ⲱⲟⲩⲛⲓⲁⲧⲕ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓ: ⲡⲉⲛⲓⲱⲧ ⲉⲑⲟⲩⲁⲃ
                     ⲙ̀ⲡⲁⲧⲣⲓⲁⲣⲭⲏⲥ: ⲁⲃⲃⲁ Ⲁⲑⲁⲛⲁⲥⲓⲟⲥ ⲡⲓⲁⲡⲟⲥⲧⲟⲗⲓⲕⲟⲥ: ⲡⲓⲙⲉⲛⲣⲓⲧ ⲛ̀ⲧⲉ Ⲡ̅ⲭ̅ⲥ.</td>
                 <td class="arabic">مبارك انت بالحقيقة: ايها الاب القديس البطريرك: انبا اثناسيوس الرسولى: حبيب المسيح
@@ -1529,12 +1521,12 @@ ${paschalPraiseHtml}
             </tr>
             <tr id="table_28_row_7" class="south">
                 <td class="english" >Pray to the Lord on our behalf, our
-                    saintly father the patriarch, Saint Athanasius the apostolic, they He may forgive us our sins.
+                    saintly father the patriarch, St. Athanasius the apostolic, they He may forgive us our sins.
                     ${cross}</td>
                 <td class="coptic" >Ⲧⲱⲃϩ ⲙ̀ⲡ̀̅ϭ̅ⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ: ⲡⲉⲛⲓⲱⲧ ̅ⲉ̅ⲑ̅ⲩ
-                    ⲙ̀ⲡⲁⲧⲣⲓⲁⲣⲕⲏⲥ: ⲁⲃⲃⲁ Ⲁⲑⲁⲛⲁⲥⲓⲟⲥ ⲡⲓⲁⲡⲟⲥⲧⲟⲗⲏⲕⲟⲥ: ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.${cross}</td>
+                    ⲙ̀ⲡⲁⲧⲣⲓⲁⲣⲕⲏⲥ: ⲁⲃⲃⲁ Ⲁⲑⲁⲛⲁⲥⲓⲟⲥ ⲡⲓⲁⲡⲟⲥⲧⲟⲗⲏⲕⲟⲥ: ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ. ${cross}</td>
                 <td class="arabic">اطلب من الرب عنا: ايها الاب القديس البطريرك: انبا أثناسيوس الرسولى: ليغفر لنا
-                    خطايانا.${cross}</td>
+                    خطايانا. ${cross}</td>
             </tr>
         
     </table>
@@ -1558,18 +1550,14 @@ ${paschalPraiseHtml}
                 <td class="arabic">إسألى الذى ولدته مخلصنا الصالح أن يرفع عنا هذه الأتعاب ويقرر لنا سلامه.</td>
             </tr>
             <tr id="table_28.5_row_2" class="north">
-                <td class="english" >Hail to you O Virgin, the right and true
-                    Queen, Hail to the pride of our race, whobore to us Emmanuel.</td>
-                <td class="coptic" >Ⲭⲉⲣⲉ ⲛⲉ ⲱ̀ ϯⲡⲁⲣⲑⲉⲛⲟⲥ : ϯⲟⲩⲣⲱ
-                    ⲙ̀ⲙⲏⲓ ⲛ̀ⲁ̀ⲗⲏⲑⲓⲛⲏ : ⲭⲉⲣⲉ ⲡ̀ϣⲟⲩϣⲟⲩ ⲛ̀ⲧⲉ ⲡⲉⲛⲅⲉⲛⲟⲥ : ⲁ̀ⲣⲉϫ̀ⲫⲟ ⲛⲁⲛ ⲛ̀Ⲉⲙⲙⲁⲛⲟⲩⲏⲗ.</td>
+                <td class="english" >Hail to you O Virgin, the right and true Queen, Hail to the pride of our race, who bore to us Emmanuel.</td>
+                <td class="coptic" >Ⲭⲉⲣⲉ ⲛⲉ ⲱ̀ ϯⲡⲁⲣⲑⲉⲛⲟⲥ : ϯⲟⲩⲣⲱ ⲙ̀ⲙⲏⲓ ⲛ̀ⲁ̀ⲗⲏⲑⲓⲛⲏ : ⲭⲉⲣⲉ ⲡ̀ϣⲟⲩϣⲟⲩ ⲛ̀ⲧⲉ ⲡⲉⲛⲅⲉⲛⲟⲥ : ⲁ̀ⲣⲉϫ̀ⲫⲟ ⲛⲁⲛ ⲛ̀Ⲉⲙⲙⲁⲛⲟⲩⲏⲗ.</td>
                 <td class="arabic">السلام لك أيتها العذراء الملكة الحقيقية الحقانية. السلام لفخر جنسنا. ولدت لنا
                     عمانوئيل.</td>
             </tr>
             <tr id="table_28.5_row_3" class="south">
-                <td class="english" >We ask you remember us, O our
-                    faithfuladvocate, before our Lord Jesus Christ, that he may forgive us our sins.${cross}</td>
-                <td class="coptic" >Ⲧⲉⲛϯϩⲟ ⲁⲣⲓⲡⲉⲛⲙⲉⲩⲓ̀ : ⲱ̀ ϯⲡ̀ⲣⲟⲥⲧⲁⲧⲏⲥ
-                    ⲉ̀ⲧⲉⲛϩⲟⲧ : ⲛⲁϩⲣⲉⲛ Ⲡⲉⲛϭⲟⲓⲥ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ : ⲛ̀ⲧⲉϥ ⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.${cross}</td>
+                <td class="english" >We ask you remember us, O our faithful advocate, before our Lord Jesus Christ, that he may forgive us our sins. ${cross}</td>
+                <td class="coptic" >Ⲧⲉⲛϯϩⲟ ⲁⲣⲓⲡⲉⲛⲙⲉⲩⲓ̀ : ⲱ̀ ϯⲡ̀ⲣⲟⲥⲧⲁⲧⲏⲥ ⲉ̀ⲧⲉⲛϩⲟⲧ : ⲛⲁϩⲣⲉⲛ Ⲡⲉⲛϭⲟⲓⲥ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ : ⲛ̀ⲧⲉϥ ⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ. ${cross}</td>
                 <td class="arabic">نسألك أن تذكرينا أيتها الشفيعة المؤتمنة أمام ربنا يسوع المسيح ليغفر لنا خطايانا.
                 ${cross}</td>
             </tr>
@@ -1603,9 +1591,8 @@ ${paschalPraiseHtml}
             <td class="english">Holy Synod Decision (06/02/2001)</td>
             <td class="arabic">قرار المجمع المقدس (06/02/2001)</td>
         <tr id="table_30_row_2" class="commentary">
-            <td class="english">Meeting Date: 06/02/2001
-                - The Holy Synod decided NOT to omit any part of the Orthodox Creed during anytime of the year. As for the hymns, they are the ones that change according to the season. This is because it is not lawful to omit (cross out) any part of the Orthodox Creed which was put forth by the fathers at the ecumenical counsels as a type of variation in the rites during the seasons.</td>
-            <td class="arabic">- قرر المجمع المقدس عدم حزف أجزاء قانون الإيمان فى أى وقت من السنة. أما الألحان فهى التى تتغير حسب المناسبة. وذلك لأن قانون الإيمان الأرثوذكسى الذى وضعه الآباء فى المجامع المسكونية لا يجوز شطب أى جزء منه كنوع من التنوع الطقسى فى المناسبات.</td>
+            <td class="english">Meeting Date: 06/02/2001<br>The Holy Synod decided NOT to omit any part of the Orthodox Creed during anytime of the year. As for the hymns, they are the ones that change according to the season. This is because it is not lawful to omit (cross out) any part of the Orthodox Creed which was put forth by the fathers at the ecumenical counsels as a type of variation in the rites during the seasons.</td>
+            <td class="arabic">جلسة بتاريخ 06/02/2001<br>قرر المجمع المقدس عدم حزف أجزاء قانون الإيمان فى أى وقت من السنة. أما الألحان فهى التى تتغير حسب المناسبة. وذلك لأن قانون الإيمان الأرثوذكسى الذى وضعه الآباء فى المجامع المسكونية لا يجوز شطب أى جزء منه كنوع من التنوع الطقسى فى المناسبات.</td>
         </tr>
 
         <tr id="table_30_row_3" class="text">
@@ -1655,9 +1642,7 @@ ${paschalPraiseHtml}
         </tr>
     </table>
     <table id="table_31" style="display: table;" title="O God, have mercy upon us">
-        <caption id="caption_table_31" class="caption">O God, Have Mercy Upon Us
-        <span class="coptic-caption">Ⲫϯ ⲛⲁⲓ ⲛⲁⲛ</span>
-        <span class="arabic-caption">اللهم ارحمنا</span></caption>
+        <caption id="caption_table_31" class="caption"><span class="coptic-caption">Ⲫϯ ⲛⲁⲓ ⲛⲁⲛ</span></caption>
         
         <tr id="table_31_row_1" class="text">
             <td class="english"><span class="role">Priest:<br></span>O God, have mercy upon us, settle Your mercy upon us, have compassion upon us.</td>
@@ -1707,30 +1692,7 @@ ${paschalPraiseHtml}
             <td class="arabic"><span class="role">الشعب:<br></span>آمين. يارب ارحم. يارب ارحم. يارب ارحم.</td>
         </tr>   
     </table>
-    <table id="table_32" style="display: table;" title="Fai Etaf Enf">
-        <caption id="caption_table_32" class="caption">This Is He Who Offered Himself 
-        <span class="coptic-caption">Ⲫⲁⲓ ̀ⲉⲧⲁϥⲉⲛϥ</span>
-        <span class="arabic-caption">هذا الذي أصعد ذاته</span></caption>
-        
-
-        <tr id="table_32_row_1" class="text">
-            <td class="english"><span class="role">Congregation:<br></span>This is He who offered Himself up, as an acceptable sacrifice, on the Cross for the salvation of our race.</td>
-            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:<br></span>Ⲫⲁⲓ ̀ⲉⲧⲁϥⲉⲛϥ ̀ⲉ ̀ⲡϣⲱⲓ: ̀ⲛⲟⲩⲑⲩⲥⲓ̀ⲁ ⲉⲥϣⲏⲡ: ϩⲓϫⲉⲛ ⲡⲓ̀ⲥⲧⲁⲩⲣⲟⲥ: ϧⲁ ̀ⲡⲟⲩϫⲁⲓ ̀ⲙⲡⲉⲛⲅⲉⲛⲟⲥ.</td>
-            <td class="arabic"><span class="role">الشعب:<br></span>هذا الذي أصعد ذاته ذبيحة مقبولة على الصليب عن خلاص جنسنا.</td>
-        </tr>
-        <tr id="table_32_row_2" class="text">
-            <td class="english">His good Father smelled Him at the evening watch on Golgotha.</td>
-            <td class="coptic">Ⲁϥϣⲱⲗⲉⲙ ̀ⲉⲣⲟϥ: ̀ⲛϫⲉ ⲡⲉϥⲓⲱⲧ ̀ⲛ̀ⲁⲅⲁⲑⲟⲥ: ̀ⲙ̀ⲫⲛⲁⲩ ̀ⲛⲧⲉ ϩⲁⲛ̀ⲁⲣⲟⲩϩⲓ: ϩⲓϫⲉⲛ ϯⲅⲟⲗⲅⲟⲑⲁ.</td>
-            <td class="arabic"> فاشتمه أبوه الصالح وقت المساء على الجلجثة.</td>
-        </tr>
-
-        <tr id="table_32_row_4" class="text">
-            <td class="english"><span class="role">Congregation:<br></span>We worship You, O Christ, with Your good Father, and the Holy Spirit, for You were crucified and saved us. Haver mercy on us.</td>
-            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:<br></span>Ⲧⲉⲛⲟⲩⲱϣⲧ ̀ⲙⲙⲟⲕ ̀ⲱ Ⲡⲓ̀ⲭⲣⲓⲥⲧⲟⲥ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ̀ⲛ̀ⲁⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓ̀ⲡⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: ϫⲉ ⲁⲩⲁϣⲕ ⲁⲕⲥⲱϯ ̀ⲙⲙⲟⲛ ⲛⲁⲓ ⲛⲁⲛ.</td>
-            <td class="arabic"><span class="role">الشعب:<br></span>نسجدُ لكَ أيها المسيحُ، معَ أبيكَ الصالحِ والروح القُدُسِ، لأنكَ صلبت وخلَّصتَنا. ارحمنا.</td>
-        </tr>
-    </table>
-</div>
+${faiEtafEnfHtml}
 
 <div class="section" id="section_9" title="Pauline - Litany of the Gospel">
     <table id="table_33" title="">
@@ -1771,9 +1733,7 @@ ${paschalPraiseHtml}
         </tr>
     </table>
     <table id="table_34" style="display: table;" title="Ekesmarouot">
-        <caption id="caption_table_34" class="caption">Blessed Are You Indeed 
-        <span class="coptic-caption">Ⲕ̀ⲥⲙⲁⲣⲱⲟⲩⲧ</span>
-        <span class="arabic-caption">مبـارك أنـت بالحقيقة</span></caption>
+        <caption id="caption_table_34" class="caption"><span class="coptic-caption">Ⲕ̀ⲥⲙⲁⲣⲱⲟⲩⲧ</span></caption>
         
         <tr id="table_34_row_4" class="text">
             <td class="english"><span class="role">Congregation:<br></span>Blessed are You indeed, with Your good Father, and the Holy Spirit, for You were crucified and saved us.  Have mercy upon us.</td>
@@ -1786,7 +1746,7 @@ ${paschalPraiseHtml}
     <span class="arabic-caption">الابركسيس<br>(1: 15 – 20)</span></caption>
         <tr id="table_35_row_1" class="intro">
             <td class="english">A reading from the Acts of our fathers, the apostles. May their blessings be with us. Amen.</td>
-            <td class="coptic">˙Ⲡⲣⲁⲝⲉⲱⲛ  ⲧⲱⲛ  ⲁⲅⲓⲱⲛ  ̀ⲛⲁⲡⲟⲥⲧⲟⲗⲱⲛ  ⲧⲟⲁⲛⲁⲅⲛⲱⲥⲙⲁ  :  ̀ⲡⲣⲁⲝⲓⲥ  ̀ⲡⲣⲁⲝⲓⲥ  ̀ⲛⲧⲉ  ⲛⲉⲛⲓⲟϯ  ̀ⲛⲁⲡⲟⲥⲧⲟⲗⲟⲥ  ̀ⲉⲣⲉⲡⲟⲩ̀ⲥⲙⲟⲩ  ⲉⲑⲩ̅  ϣⲱⲡⲓ  ⲛⲉⲙⲁⲛ  ⲁⲙⲏ .</td>
+            <td class="coptic">˙Ⲡⲣⲁⲝⲉⲱⲛ  ⲧⲱⲛ  ⲁⲅⲓⲱⲛ  ̀ⲛⲁⲡⲟⲥⲧⲟⲗⲱⲛ  ⲧⲟⲁⲛⲁⲅⲛⲱⲥⲙⲁ  :  ̀ⲡⲣⲁⲝⲓⲥ  ̀ⲡⲣⲁⲝⲓⲥ  ̀ⲛⲧⲉ  ⲛⲉⲛⲓⲟϯ  ̀ⲛⲁⲡⲟⲥⲧⲟⲗⲟⲥ  ̀ⲉⲣⲉⲡⲟⲩ̀ⲥⲙⲟⲩ  ⲉⲑⲩ̅  ϣⲱⲡⲓ  ⲛⲉⲙⲁⲛ  ⲁⲙⲏⲛ.</td>
             <td class="arabic">الابركسيس، فصل من أعمال آبائنا الرسل القديسين بركتهم المقدسة تكون معنا آمين</td>
         </tr>
         <tr id="table_35_row_4" class="text">
@@ -1821,7 +1781,7 @@ ${paschalPraiseHtml}
         </tr>
         <tr id="table_35_row_11" class="intro">
             <td class="english">The word of the Lord shall grow, multiply, be mighty, and be confirmed in the holy church of God. Amen.</td>
-            <td class="coptic">Ⲡⲓⲥⲁϫⲓ ⲇⲉ ̀ⲛⲧⲉ ˙Ⲡ⳪ ⲉϥ̀ⲉⲁⲓⲁⲓ ⲟⲩⲟ’ϩ ⲉϥ̀ⲉ̀ⲁϣⲁⲓ ⲟⲩⲟϩ ⲉϥ̀ⲉ̀ⲁⲙⲁϩⲓ ⲟⲩⲟϩ ⲉϥ̀ⲉⲧⲁϫⲣⲟ ϧⲉⲛ ϯ̀ⲁⲅⲓⲁ ̀ⲛⲉⲕ̀ⲕⲗⲏⲥⲓ̀ⲁ ̀ⲛⲧⲉ Ⲫϯ. ̀ⲁⲙⲏⲛ.</td>
+            <td class="coptic">Ⲡⲓⲥⲁϫⲓ ⲇⲉ ̀ⲛⲧⲉ ˙Ⲡ⳪ ⲉϥ̀ⲉⲁⲓⲁⲓ ⲟⲩⲟϩ ⲉϥ̀ⲉ̀ⲁϣⲁⲓ (ⲟⲩⲟϩ) ⲉϥ̀ⲉ̀ⲁⲙⲁϩⲓ ⲟⲩⲟϩ ⲉϥ̀ⲉⲧⲁϫⲣⲟ ϧⲉⲛ ϯ̀ⲁⲅⲓⲁ ̀ⲛⲉⲕ̀ⲕⲗⲏⲥⲓ̀ⲁ ̀ⲛⲧⲉ Ⲫϯ. ̀ⲁⲙⲏⲛ.</td>
             <td class="arabic">لم تزل كلمة الرب تنمو وتكثر وتعتز وتثبت فى كنسية الله المقدسة، آمين.</td>
         </tr>
     </table>
@@ -1983,14 +1943,14 @@ ${paschalPraiseHtml}
         <caption id="caption_table39" class="caption" id="caption_table_39">Coptic Psalm<br>(55: 21,12)
         <span class="arabic-caption">المزمور قبطي<br>(55: 21 و 12)</span></caption>
         <tr id="table_39_row_0" class="intro">
-            <td class="english">A psalm David</td>
+            <td class="english">A psalm of David</td>
             <td class="coptic">Ⲯⲁⲗⲙⲟⲥ ⲧⲱ Ⲇⲁⲩⲓⲇ</td>
             <td class="arabic">مزمور لداود</td>
         </tr>
         <tr id="table_39_row_1" class="text">
-            <td class="english">His words were softer than oil, </td>
-            <td class="coptic">Ⲁⲩ̀ϭⲛⲟⲛ ̀ⲛϫⲉ ⲛⲉϥⲥⲁϫⲓ ̀ⲉϩⲟⲧⲉ ⲟⲩⲛⲉϩ:</td>
-            <td class="arabic">كلامه ألين من الزيت (الدهن)</td>
+            <td class="english">His words were softer than oil, Alleluia.</td>
+            <td class="coptic">Ⲁⲩ̀ϭⲛⲟⲛ ̀ⲛϫⲉ ⲛⲉϥⲥⲁϫⲓ ̀ⲉϩⲟⲧⲉ ⲟⲩⲛⲉϩ: Ⲁ̅Ⲗ̅</td>
+            <td class="arabic">كلامه ألين من الزيت (الدهن). الليلويا.</td>
         </tr>
         <tr id="table_39_row_2" class="text">
             <td class="english">And they are arrows.</td>
@@ -2018,7 +1978,7 @@ ${paschalPraiseHtml}
         <caption id="caption_table_41" class="caption">Coptic Gospel<br>(Luke 22: 7 - 13)
         <span class="arabic-caption">الأنجيل قبطي<br>(لوقا 22: 7 - 13)</span></caption>
         <tr id="table_41_row_0" class="priest">
-            <td class="english">A chapter according to Saint Luke,</td>
+            <td class="english">A chapter according to St. Luke,</td>
             <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ̀ⲉⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲗⲟⲩⲕⲁⲛ ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">فصل من إنجيل معلمنا مار لوقا</td>
         </tr>
@@ -2050,13 +2010,12 @@ ${paschalPraiseHtml}
         <td class="arabic">من مزامير معلمنا داود النبي، بركته تكون معنا، آمين.</td>
     </tr>
     <tr id="table_42_row_4" class="text">
-        <td class="english">His words were softer than oil, 
-And they are arrows.</td>
-        <td class="arabic">فلو كان العدو عيرنى اذاً لاحتملت.  ولو ان مبغضى عظم علىّ الكلام لاختفيت منه.</td>
+        <td class="english">His words were softer than oil, and they are arrows.</td>
+        <td class="arabic">كلامه ألين من الزيت (الدهن) وهو نِصال.</td>
     </tr>
     <tr id="table_42_row_5" class="text">
         <td class="english">For if an enemy reviled me, I would have endured it; And if one hating me boasted against me, I would have hidden from him.</td>
-        <td class="arabic"></td>
+        <td class="arabic">فلو كان العدو عيرنى اذاً لاحتملت. ولو ان مبغضى عظم علىّ الكلام لاختفيت منه.</td>
     </tr>
     <tr id="table_42_row_7" class="intro">
         <td class="english">Alleluia.</td>
@@ -2066,9 +2025,9 @@ And they are arrows.</td>
 
 <table id="table_43" title="Gospel">
     <caption id="caption_table_43" class="caption">Gospel<br>(Luke 22:7-13)
-<span class="arabic-caption">الانجيل<br>(لوقا 22: 7- 13)</span></caption>
+    <span class="arabic-caption">الانجيل<br>(لوقا 22: 7- 13)</span></caption>
     <tr id="table_43_row_1" class="intro">
-        <td class="english">May God have mercy and compassion upon us, and make us worthy to hear Your Holy Gospel. A chapter according to our teacher Saint Luke the evangelist. May his blessings be with us. Amen.</td>
+        <td class="english">May God have mercy and compassion upon us, and make us worthy to hear Your Holy Gospel. A chapter according to our teacher St. Luke the evangelist. May his blessings be with us. Amen.</td>
         <td class="arabic">اللهم تراءف علينا وأرحمنا وأجعلنا مستحقين لسماع إنجيلك المقدس، فصل من إنجيل معلمنا لوقا البشير، بركاته تكون معنا أمين.</td>
     </tr>
     <tr id="table_43_row_4" class="text">
@@ -2096,18 +2055,14 @@ And they are arrows.</td>
         <td class="arabic">فَذَاكَ يُرِيكُمَا عِلِّيَّةً كَبِيرَةً مَفْرُوشَةً. هُنَاكَ أَعِدَّا».</td>
     </tr>
     <tr id="table_43_row_10" class="text">
-        <td class="english">So they went and found it just as He had said to them, and they prepared the Passover.</td>
-        <td class="arabic">فَانْطَلَقَا وَوَجَدَا كَمَا قَالَ لَهُمَا فَأَعَدَّا الْفِصْحَ.</td>
+        <td class="english">So they went and found it just as He had said to them, and they prepared the Passover.<br>Bow down before the Holy Gospel.</td>
+        <td class="arabic">فَانْطَلَقَا وَوَجَدَا كَمَا قَالَ لَهُمَا فَأَعَدَّا الْفِصْحَ.<br>أسجدوا للإنجيل المقدس.</td>
     </tr>
     <tr id="table_43_row_12" class="intro">
-        <td class="english">Bow down before the Holy Gospel.
-Glory be to God forever.</td>
-        <td class="arabic">أسجدوا للإنجيل المقدس. 
-والمجد لله دائماً.</td>
+        <td class="english">Glory be to God forever.</td>
+        <td class="arabic">والمجد لله دائماً.</td>
     </tr>
 </table>
-</div>
-
 
 <div class="section" id="section_12" title="Exposition">
 ${daytimeExpositionIntroHtml}

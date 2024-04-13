@@ -18,7 +18,7 @@ export const useDynamicStyles = (webviewRef) => {
     useEffect(() => {
         if (settings.fontSize) {
             setFontSize(settings.fontSize);
-            setTitleFontSize(parseFloat(settings.fontSize) + 1);
+            setTitleFontSize(parseFloat(settings.fontSize) + 0.5);
             webviewRef.current.injectJavaScript(`paginateTables();`);
             webviewRef.current.injectJavaScript(`clearOverlays()`);
             webviewRef.current.injectJavaScript(`adjustOverlay();`);
@@ -64,7 +64,8 @@ padding-top: 0px;
 display: table;
 width: 100% !important;
 table-layout: fixed;
-border-collapse: collapse;
+border-collapse: separate;
+
 font-size: ${fontSize}vw;
 }
 
@@ -84,6 +85,37 @@ td {
     flex-direction: column;
 }
 
+/* Apply padding to the 1st of 1 column */
+table tr td:first-child:last-child {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+/* Apply padding to the 1st of more than 1 column */
+table tr td:first-child:not(:last-child) {
+    padding-right: 0;
+    padding-left: 5px;
+  }
+
+/* Apply padding to the 2nd of 3 columns */
+table tr td:nth-child(2):nth-last-child(2) {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+/* Apply padding to the 3rd of 3 columns */
+table tr td:nth-child(3):nth-last-child(1) {
+    padding-left: 0;
+    padding-right: 5px;
+}
+
+/* Apply padding to the 2nd of 2 columns */
+table tr td:nth-child(2):last-child {
+    padding-left: 35px;
+    padding-right: 5px;
+}
+
+
 /* Handle first table to avoid first-page break */
 table:first-of-type {
 page-break-before: auto;
@@ -100,19 +132,24 @@ break-before: auto;
 .caption {
     font-size: ${titleFontSize}vw;
     font-family: 'EB Garamond' !important;
-    color: #99d24e !important;
+    color: white !important;
     display: flex;
     justify-content: space-around;
     text-align: center;
     padding-bottom: 10px;
+    font-weight: bold;
 
 }
 
 .coptic-caption {
     font-family: 'Arial Coptic';
 }
+.coptic-caption:lang(en) {
+    font-family: 'Georgia' !important;
+  }
 .arabic-caption {
     direction: rtl !important;
+    line-height: 1.4;
 }
 
 
@@ -141,12 +178,20 @@ body {
  margin-bottom: 500px;
 }
 
+div {
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;   
+}
+
+
 .north {
     color: white;
 }
 
 .south {
-    color: rgba(173, 216, 230);
+    color: #a1caf1;
 }
 .text {
     color: white;
@@ -163,13 +208,16 @@ body {
 .refrain {
     color: #FDFD96 !important;
 }
-   
+.commentary {
+    color: #C3B1E1 !important;
+
+}
 .priest {
-    color: #FDFD96 !important;
+    color: #a1caf1 !important;
 }
 
 .role {
-    color: #FDFD96 !important;
+    color: #f01e2c !important;
     padding-bottom: 0px !important;
     margin-bottom: 0px !important;
 }
@@ -184,6 +232,7 @@ body {
     padding-left: 10px;
     display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'inline'};
     flex: 3;
+    line-height: 1.4;
 
 }
 .arabic1 {
@@ -195,6 +244,8 @@ body {
     text-align: justify;
     display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'inline'};
     flex: 3.5;
+    line-height: 1.4;
+
 }
 
 .arRef {
@@ -216,6 +267,7 @@ body {
     text-align: justify;
     display: ${settings.languages && !visibleLangues[2].checked ? 'none' : 'inline'};
     flex: 5;
+    line-height: 1.5;
 }
 
 .copticReadings {
@@ -235,7 +287,7 @@ body {
     padding-right: 10px;
     text-align: justify;
     display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'inline'};
-    flex: 4;
+    flex: 3.5;
 }
 .engRef {  
     vertical-align: top ;

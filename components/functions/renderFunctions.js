@@ -20,7 +20,7 @@ export const handleMessage = (event, setDrawerItems, pageOffsets, setPageOffsets
         setCurrentPage(pageIndex);
         setCurrentTable(pageOffsets[pageIndex].tableId);
         } else if (pageOffsets[pageIndex].yOffset > yOffset){
-          setCurrentPage(pageIndex-1);
+          setCurrentPage(pageIndex);
           setCurrentTable(pageOffsets[pageIndex].tableId);
         }
         else {

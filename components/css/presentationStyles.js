@@ -36,7 +36,7 @@ export const presentationStyles = StyleSheet.create({
     englishTitle: {
       fontSize: 18,
       color: 'black',
-      fontFamily: 'NotoSansMedium',
+      fontFamily: 'Georgia',
       textAlign: 'center',
     },
     copticTitle: {
@@ -66,20 +66,18 @@ export const presentationStyles = StyleSheet.create({
       margin:0,
     },
     embossedLine: {
-      height: 1, // Adjust the height as needed
-      width: '80%',
+      height: 5, // Adjust the height as needed
+      width: '100%',
       alignSelf: 'center',
       backgroundColor: 'transparent',
-      borderBottomWidth: 1,
-      borderBottomColor: '#ddd',  // Light shade
-      borderTopWidth: 1,
-      borderTopColor: '#eee',  // Dark shade
-      marginTop: 0, // Optional: Adds some spacing after the item
-      marginBottom: 0, // Optional: Adds some spacing before the next item
-      
+      borderBottomWidth: 1, // Increased thickness
+      borderBottomColor: '#593E2E',  // Dark brown shade
+      marginTop: 3, // Optional: Adds some spacing after the item
+      marginBottom: 3, // Optional: Adds some spacing before the next item
     },
+    
     activeTitle: {
-      color: '#f1592a', // Change this to your preferred color for active items
+      color: '#f01e2c', // Change this to your preferred color for active items
     },
 
 
@@ -242,6 +240,16 @@ export const presentationStyles = StyleSheet.create({
       fontFamily: "Garamond Bold",
       textAlign: "center",
       color: "#003060",
+      elevation: 5,
+      textShadowColor: "grey",
+      textShadowRadius: 5,
+      textShadowOffset: { width: 1, height: 1 },
+    },
+    pageMenuAlt: {
+      fontSize: 30,
+      fontFamily: "Garamond Bold",
+      textAlign: "center",
+      color: "#4d0000",
       elevation: 5,
       textShadowColor: "grey",
       textShadowRadius: 5,

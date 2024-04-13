@@ -2,11 +2,13 @@
 
 import React, { useRef, useState } from "react";
 import RightMenuDrawer from "../../../navigation/BookDrawer";
-import { DOTH1 } from "../../../../data/holyWeek/DOTH1";
-import { DOTH3 } from "../../../../data/holyWeek/DOTH3";
-import { DOTH6 } from "../../../../data/holyWeek/DOTH6";
-import { DOTH9 } from "../../../../data/holyWeek/DOTH9";
-import { DOTH11 } from "../../../../data/holyWeek/DOTH11";
+import { DOF1 } from "../../../../data/holyWeek/DOF1";
+import { DOF3 } from "../../../../data/holyWeek/DOF3";
+import { DOF6 } from "../../../../data/holyWeek/DOF6";
+import { DOFConf } from "../../../../data/holyWeek/DOFConf";
+import { DOF9 } from "../../../../data/holyWeek/DOF9";
+import { DOF11 } from "../../../../data/holyWeek/DOF11";
+import { DOF12 } from "../../../../data/holyWeek/DOF12";
 import { useDynamicStyles } from "../../../css/cssStyles";
 import { htmlRenderScript } from "../../../functions/jsScripts";
 import {
@@ -16,14 +18,36 @@ import {
 
 // Main Function
 
-
-const DOTH1sc = () => {
+const DOF1sc = () => {
   const [drawerItems, setDrawerItems] = useState([]);
   const [currentTable, setCurrentTable] = useState("");
   const webviewRef = useRef(null);
 
   const dynamicStyles = useDynamicStyles(webviewRef);
-  const body = DOTH1();
+  const body = DOF1();
+  const script = htmlRenderScript;
+  const html = getHtml(dynamicStyles, body, script);
+
+  return (
+    <RightMenuDrawer
+      currentTable={currentTable}
+      drawerItems={drawerItems}
+      handleDrawerItemPress={handleDrawerItemPress}
+      webviewRef={webviewRef}
+      setDrawerItems={setDrawerItems}
+      setCurrentTable={setCurrentTable}
+      html={html}
+    />
+  );
+};
+
+const DOF3sc = () => {
+  const [drawerItems, setDrawerItems] = useState([]);
+  const [currentTable, setCurrentTable] = useState("");
+  const webviewRef = useRef(null);
+
+  const dynamicStyles = useDynamicStyles(webviewRef);
+  const body = DOF3();
   const script = htmlRenderScript;
   const html = getHtml(dynamicStyles, body, script);
 
@@ -41,13 +65,36 @@ const DOTH1sc = () => {
 };
 
 
-const DOTH3sc = () => {
+const DOF6sc = () => {
   const [drawerItems, setDrawerItems] = useState([]);
   const [currentTable, setCurrentTable] = useState("");
   const webviewRef = useRef(null);
 
   const dynamicStyles = useDynamicStyles(webviewRef);
-  const body = DOTH3();
+  const body = DOF6();
+  const script = htmlRenderScript;
+  const html = getHtml(dynamicStyles, body, script);
+
+  return (
+    <RightMenuDrawer
+      currentTable={currentTable}
+      drawerItems={drawerItems}
+      handleDrawerItemPress={handleDrawerItemPress}
+      webviewRef={webviewRef}
+      setDrawerItems={setDrawerItems}
+      setCurrentTable={setCurrentTable}
+      html={html}
+    />
+  );
+};
+
+const DOFConfsc = () => {
+  const [drawerItems, setDrawerItems] = useState([]);
+  const [currentTable, setCurrentTable] = useState("");
+  const webviewRef = useRef(null);
+
+  const dynamicStyles = useDynamicStyles(webviewRef);
+  const body = DOFConf();
   const script = htmlRenderScript;
   const html = getHtml(dynamicStyles, body, script);
 
@@ -65,13 +112,13 @@ const DOTH3sc = () => {
 };
 
 
-const DOTH6sc = () => {
+const DOF9sc = () => {
   const [drawerItems, setDrawerItems] = useState([]);
   const [currentTable, setCurrentTable] = useState("");
   const webviewRef = useRef(null);
 
   const dynamicStyles = useDynamicStyles(webviewRef);
-  const body = DOTH6();
+  const body = DOF9();
   const script = htmlRenderScript;
   const html = getHtml(dynamicStyles, body, script);
 
@@ -88,14 +135,13 @@ const DOTH6sc = () => {
   );
 };
 
-
-const DOTH9sc = () => {
+const DOF11sc = () => {
   const [drawerItems, setDrawerItems] = useState([]);
   const [currentTable, setCurrentTable] = useState("");
   const webviewRef = useRef(null);
 
   const dynamicStyles = useDynamicStyles(webviewRef);
-  const body = DOTH9();
+  const body = DOF11();
   const script = htmlRenderScript;
   const html = getHtml(dynamicStyles, body, script);
 
@@ -112,14 +158,13 @@ const DOTH9sc = () => {
   );
 };
 
-
-const DOTH11sc = () => {
+const DOF12sc = () => {
   const [drawerItems, setDrawerItems] = useState([]);
   const [currentTable, setCurrentTable] = useState("");
   const webviewRef = useRef(null);
 
   const dynamicStyles = useDynamicStyles(webviewRef);
-  const body = DOTH11();
+  const body = DOF12();
   const script = htmlRenderScript;
   const html = getHtml(dynamicStyles, body, script);
 
@@ -136,4 +181,4 @@ const DOTH11sc = () => {
   );
 };
 
-export { DOTH1sc , DOTH3sc , DOTH6sc , DOTH9sc , DOTH11sc};
+export { DOF1sc , DOF3sc , DOF6sc , DOFConfsc , DOF9sc , DOF11sc , DOF12sc};

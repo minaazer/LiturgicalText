@@ -36,25 +36,25 @@ const DayOfThursday = () => {
             </TouchableOpacity>
             <TouchableOpacity
               style={[presentationStyles.itemContainer]}
-              onPress={() => navigation.navigate("DOS9sc")}
+              onPress={() => navigation.navigate("DOTH3sc")}
             >
               <Text style={presentationStyles.pageMenu}>Third Hour</Text>
             </TouchableOpacity>
             <TouchableOpacity
               style={[presentationStyles.itemContainer]}
-              onPress={() => navigation.navigate("DOS9sc")}
+              onPress={() => navigation.navigate("DOTH6sc")}
             >
               <Text style={presentationStyles.pageMenu}>Sixth Hour</Text>
             </TouchableOpacity>
             <TouchableOpacity
               style={[presentationStyles.itemContainer]}
-              onPress={() => navigation.navigate("DOS9sc")}
+              onPress={() => navigation.navigate("DOTH9sc")}
             >
               <Text style={presentationStyles.pageMenu}>Ninth Hour</Text>
             </TouchableOpacity>
             <TouchableOpacity
               style={[presentationStyles.itemContainer]}
-              onPress={() => navigation.navigate("DOS9sc")}
+              onPress={() => navigation.navigate("DOTH11sc")}
             >
               <Text style={presentationStyles.pageMenu}>Eleventh Hour</Text>
             </TouchableOpacity>

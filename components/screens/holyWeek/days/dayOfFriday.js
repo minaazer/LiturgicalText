@@ -30,33 +30,45 @@ const DayOfFriday = () => {
           <View style={presentationStyles.hoursContainer}>
           <TouchableOpacity
               style={[presentationStyles.itemContainer]}
-              onPress={() => navigation.navigate("DOS9sc")}
+              onPress={() => navigation.navigate("DOF1sc")}
             >
               <Text style={presentationStyles.pageMenu}>First Hour</Text>
             </TouchableOpacity>
             <TouchableOpacity
               style={[presentationStyles.itemContainer]}
-              onPress={() => navigation.navigate("DOS9sc")}
+              onPress={() => navigation.navigate("DOF3sc")}
             >
               <Text style={presentationStyles.pageMenu}>Third Hour</Text>
             </TouchableOpacity>
             <TouchableOpacity
               style={[presentationStyles.itemContainer]}
-              onPress={() => navigation.navigate("DOS9sc")}
+              onPress={() => navigation.navigate("DOF6sc")}
             >
               <Text style={presentationStyles.pageMenu}>Sixth Hour</Text>
             </TouchableOpacity>
             <TouchableOpacity
               style={[presentationStyles.itemContainer]}
-              onPress={() => navigation.navigate("DOS9sc")}
+              onPress={() => navigation.navigate("DOFConfsc")}
+            >
+              <Text style={presentationStyles.pageMenu}>Confession of the Thief</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={[presentationStyles.itemContainer]}
+              onPress={() => navigation.navigate("DOF9sc")}
             >
               <Text style={presentationStyles.pageMenu}>Ninth Hour</Text>
             </TouchableOpacity>
             <TouchableOpacity
               style={[presentationStyles.itemContainer]}
-              onPress={() => navigation.navigate("DOS9sc")}
+              onPress={() => navigation.navigate("DOF11sc")}
             >
               <Text style={presentationStyles.pageMenu}>Eleventh Hour</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={[presentationStyles.itemContainer]}
+              onPress={() => navigation.navigate("DOF12sc")}
+            >
+              <Text style={presentationStyles.pageMenu}>Twelfth Hour</Text>
             </TouchableOpacity>
           </View>
         </View>

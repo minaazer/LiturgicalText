@@ -83,7 +83,7 @@ let isSendingMessage = false;
 // Pagination
 const paginateTables =
 `function paginateTables() {
-    const viewportHeight = window.innerHeight-5;
+    const viewportHeight = window.innerHeight;
     let pages = [];
     let currentPage = [];
     let currentPageHeight = 0;
@@ -173,7 +173,7 @@ const paginateTables =
                   row.style.fontSize = midFontSize + 'px';
                 }              
                   tableCurrentHeight = table.clientHeight;
-                  if (tableCurrentHeight >= (viewportHeight-5)) {
+                  if (tableCurrentHeight >= (viewportHeight)) {
                     adjustRowFontSize(minFontSize, midFontSize, threshold);
                   } else {
                     adjustRowFontSize(midFontSize, maxFontSize, threshold);
@@ -566,7 +566,7 @@ const adjustOverlay =
 
       // check if the row is from the next table
       
-      if (rowRect.top > 0 && bottomRowRect > window.innerHeight && currentTable !== tableId) {
+      if (rowRect.top > 0 && bottomRowRect >= window.innerHeight && currentTable !== tableId) {
           //sendMessage(JSON.stringify({type: '5th if', data: 'row is from next table'}));
           let rowIdComponents = rows[i].id.split("_");
           let tableId = rowIdComponents[1];
