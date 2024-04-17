@@ -347,7 +347,7 @@ ${paschalPraiseHtml}
             <td class="coptic">Ⲟⲩⲟϩ ⲓⲥ ⲡⲓⲕⲁⲧⲁⲡⲉⲧⲁⲥⲙⲁ ̀ⲛⲧⲉ ⲡⲓⲉⲣⲫⲉⲓ ⲁϥ ⲫⲱϫⲓ ⲓⲥ ϫⲉⲛ ̀ⲡϣⲱⲓ ̀ⲉⲡⲉⲥⲏⲧ ⲁϥ ⲉⲣ̀ⲥⲛⲁⲩ : ⲟⲩⲟϩ ⲡⲓⲕⲁϩⲓ ⲁϥⲙⲟⲛⲙⲉⲛ : ⲛⲓⲡⲉⲧⲣⲁ ⲁⲩⲫⲱϫⲓ. Ⲟⲩⲟϩ ⲛⲓ̀ⲙϩⲁⲩ ⲁⲩⲟⲩⲱⲛ : ⲟⲩⲟϩ ⲟⲩⲙⲏϣ ̀ⲛⲥⲱⲙⲁ ̀ⲛⲧⲉ ⲛⲏ ̀ⲉⲑⲟⲩⲁⲃ ⲛⲏ̀ⲉⲧⲁⲩⲉⲛⲕⲟⲧ ⲁⲩⲧⲱⲟⲩⲛⲟⲩ <br>... Ⲟⲩⲱϣⲧ ̀ⲙⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_12_row_3" class="priest">
-            <td class="english">According to St Mark</td>
+            <td class="english">According to St. Mark</td>
             <td class="coptic">ⲕⲁⲧⲁ Ⲙⲁⲣⲕⲟⲛ ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">حسب مار مرقس</td>
         </tr>
@@ -360,7 +360,7 @@ ${paschalPraiseHtml}
             <td class="coptic">Ⲟⲩⲟϩ ⲡⲓⲕⲁⲧⲁⲡⲉⲧⲁⲥⲙⲁ ̀ⲛⲧⲉ ⲡⲓⲉⲣⲫⲉⲓ ⲁϥⲫⲱϧ ϧⲉⲛ ̀ⲥⲛⲁⲩ : ⲓⲥϫⲉⲛ ̀ⲉ̀ⲡϣⲱⲓ ̀ⲉ̀ϧⲣⲏⲓ.̀Ⲉⲧⲁⲛⲁⲩ ⲇⲉ ̀ⲛϫⲉ ⲡⲓ̀ⲉⲕⲁⲧⲟⲛⲧⲁⲣⲭⲟⲥ ⲫⲏⲉⲧⲟϩⲓ ̀ⲉⲣⲁⲧϥ ̀ⲙⲡⲉϥ̀ⲙⲑⲟ ϫⲉ ⲁϥϯ ̀ⲙⲡⲓ̅ⲡ̅ⲛ̅ⲁ : ⲡⲉϫⲁϥ ϫⲉ : ̀ⲁⲗⲏⲑⲱⲥ ⲡⲁⲓ ⲣⲱⲙⲓ ⲛⲉ ̀ⲡϣⲏⲣⲓ ̀ⲙⲪϯ ⲡⲉ.<br>... Ⲟⲩⲱϣⲧ ̀ⲙⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_12_row_6" class="priest">
-            <td class="english">According to St Luke</td>
+            <td class="english">According to St. Luke</td>
             <td class="coptic">ⲕⲁⲧⲁ Ⲗⲟⲩⲕⲁⲛ ̀ ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">حسب مار لوقا</td>
         </tr>
@@ -373,7 +373,7 @@ ${paschalPraiseHtml}
             <td class="coptic">̀̀Ⲉⲧⲁϥⲛⲁⲩ ⲇⲉ ̀ⲛϫⲉ ⲡⲓ̀ⲉⲕⲁⲧⲟⲛⲧⲁⲣⲭⲟⲥ ̀ⲉⲫⲏ̀ⲉⲧⲁϥϣⲱⲡⲓ ⲁϥϯ̀ⲱⲟⲩ ̀ⲙⲪϯ ⲉϥϫⲱ̀ⲙⲙⲟⲥ : ϫⲉ ⲟⲛⲧⲱⲥ ⲛⲉⲟⲩ̀ⲑⲙⲏⲓ ⲡⲉ ⲡⲓⲣⲱⲙⲓ : Ⲟⲩⲟϩ ⲛⲓⲙⲏϣ ⲧⲏⲣⲟⲩ ̀ⲉⲧⲁⲩ̀ⲓ ̀ⲉϫⲉⲛ ⲧⲁⲓ ⲑⲉⲟⲣⲓ̀ⲁ ̀ⲉⲧⲁⲩⲛⲁⲩ ̀ⲉⲛⲏ̀ⲉⲧⲁⲩϣⲱⲡⲓ : ⲁⲩⲧⲁⲥⲑⲟⲉⲩⲕⲱⲗϩ ϧⲉⲛ ⲧⲟⲩⲙⲉⲥⲧⲉⲛϩⲏⲧ<br>... Ⲟⲩⲱϣⲧ ̀ⲙⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_12_row_9" class="priest">
-            <td class="english">According to St John</td>
+            <td class="english">According to St. John</td>
             <td class="coptic">ⲕⲁⲧⲁ Ⲓⲱⲁⲛⲛⲏⲛ ̀ ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">حسب مار يوحنا</td>
         </tr>

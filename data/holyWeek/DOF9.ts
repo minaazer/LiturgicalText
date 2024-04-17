@@ -389,7 +389,7 @@ ${faiEtafEnfHtml}
             <td class="arabic"><span class="role">الكاهن:</span><br>يا من ولدت من البتول من اجلنا وإحتملت الصلب أيها الصالح وقتلت الموت بموتك وأظهرت القيامة بقيامتك لا تعرض يا الله عن  الذين جبلتهم بيديك. إظهر محبتك للبشـــر أيهـا الصالح.</td>
         </tr>
         <tr id="table_14_row_10" class="text">
-            <td class="english">Accept from Your mother an intercession on our behalf. Deliver, O Savior, a humble people. Do not leave us to the end, and do not forsake us forever. Do not break Your covenant, and do not take away from us Your mercy, for the sake of Abraham, Your beloved, Isaac, Your servant, and Israel, Your saint.</td>
+            <td class="english">Accept from Your mother an intercession on our behalf. Deliver, O Savior, a humble people. Do not leave us to the end, and do not forsake us forever. Do not break Your covenant, and do not take away from us Your mercy, for the sake of Abraham, Your beloved, Isaac, Your servant, and Israel, Your st. .</td>
             <td class="arabic">إقبل من والدتك شفاعة من أجلنا ونج يا مخلص شعباً متواضعاً ولا تتركنا إلى الانقضاء ولا تسلمنا إلى التمام ولا تنقض عهدك ولا تنزع عنا رحمتك من  أجل إبراهيم حبيبك وإسحق عبدك وإسرائيل قديسك.</td>
         </tr>
         <tr id="table_14_row_12" class="text">
@@ -503,7 +503,7 @@ ${faiEtafEnfHtml}
             <td class="coptic">Ⲉⲧⲁ̀̀ⲫⲛⲁⲩ ⲇⲉ ̀ⲛⲁϫⲡⲯⲓϯ ϣⲱⲡⲓ : ⲁϥⲱϣ ̀ⲉⲃⲟⲗ ̀ⲛϫⲉ Ⲓⲏⲥ ϧⲉⲛ ⲟⲩⲛⲓϣϯ ̀ⲛ̀ϧⲣⲱⲟⲩ ⲉϥϫⲱ̀ⲙⲙⲟⲥ : ϫⲉ ̀Ⲉⲗⲱ̀ⲓ ̀Ⲉⲗⲱ̀ⲓ ̀ⲉⲗⲉⲙⲁ ⲥⲁⲃⲁⲭ ⲑⲁⲛⲓ : ̀ⲉⲧⲉ ⲫⲁⲓ ⲡⲉ Ⲡⲁⲛⲟⲩϯ Ⲡⲁⲛⲟⲩϯ ⲉⲑⲃⲉ ⲟⲩ ⲁⲕⲭⲁⲧ ̀ⲛⲥⲱⲕ. ϩⲁⲛ ⲟⲩⲟⲛ ⲇⲉ ̀ⲉⲃⲟⲗϧⲉⲛ ⲛⲏⲉⲧⲟϩⲓ ̀ⲉⲣⲁⲧⲟⲩ ̀ⲙⲙⲁⲩ : ̀ⲉⲧⲁⲩⲥⲱⲧⲉⲙ ⲛⲁⲩϫⲱ̀ⲙⲙⲟⲥ ϫⲉ ⲁϥⲙⲟⲩϯ ⲟⲩⲃⲉ ̀ⲏⲗⲓⲁⲥ<br>... Ⲟⲩⲱϣⲧ ̀ⲙⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_19_row_3" class="priest">
-            <td class="english">According to St Mark</td>
+            <td class="english">According to St. Mark</td>
             <td class="coptic">ⲕⲁⲧⲁ Ⲙⲁⲣⲕⲟⲛ ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">حسب مار مرقس</td>
         </tr>
@@ -516,7 +516,7 @@ ${faiEtafEnfHtml}
             <td class="coptic">Ⲟⲩⲟϩ ϧⲉⲛ ̀ⲫⲛⲁⲩ ̀ⲛⲁϫⲡⲯⲓϯ ⲁϥⲱϣ ⲉⲃⲟⲗ ̀ⲛϫⲉ Ⲓ̅ⲏ̅ⲥ ϧⲉⲛ ⲟⲩⲛⲓϣϯ ̀ⲛ̀ⲥⲙⲏ : ϫⲉ ̀Ⲉⲗⲱ̀ⲓ ̀Ⲉⲗⲱ̀ⲓ ⲉⲗⲉⲙⲁ ⲥⲁⲃⲁⲭⲑⲁⲛⲓ : ̀ⲉⲧⲉ ⲡⲉϥⲟⲩ̀ⲱϩⲉⲙ ⲡⲉ ϫⲉ Ⲡⲁⲛⲟⲩϯ Ⲡⲁⲛⲟⲩϯ ⲉⲑⲃⲉⲟⲩ ⲁⲕⲭⲁⲧ ̀ⲛⲥⲱⲕ. Ⲟⲩⲟϩ ϩⲁⲛⲟⲩⲟⲛ ̀ⲛⲧⲉ ⲛⲏⲉⲧⲟϩⲓ ̀ⲉⲣⲁⲧⲟⲩ ̀ⲉⲧⲁⲩⲥⲱⲧⲉⲙ ⲛⲁⲩϫⲱ̀ⲙⲙⲟⲥ : ϫⲉ ̀ⲁⲛⲁⲩ ⲁϥⲙⲟⲩϯ ⲟⲩⲃⲉ ̀ⲏⲗⲓⲁⲥ.<br>... Ⲟⲩⲱϣⲧ ̀ⲙⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_19_row_6" class="priest">
-            <td class="english">According to St Luke</td>
+            <td class="english">According to St. Luke</td>
             <td class="coptic">ⲕⲁⲧⲁ Ⲗⲟⲩⲕⲁⲛ ̀ ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">حسب مار لوقا</td>
         </tr>
@@ -529,7 +529,7 @@ ${faiEtafEnfHtml}
             <td class="coptic">̀Ⲉϥⲛⲁⲙⲟⲩⲛⲕ ⲇⲉ ̀ⲛϫⲉ ̀ⲫⲣⲏ ⲁⲡⲓⲕⲁⲧⲁⲡⲉⲧⲁⲥⲙⲁ ̀ⲛⲧⲉ ⲡⲓⲉⲣⲫⲉⲓ ⲫⲱϧ ϧⲉⲛ ⲧⲉϥⲙⲏϯ : Ⲟⲩⲟϩ ̀ⲉⲧⲁϥⲙⲟⲩϯ ̀ⲛϫⲉ Ⲓ̅ⲏ̅ⲥ ϧⲉⲛ ⲟⲩⲛⲓϣϯ ̀ⲛ̀ⲥⲙⲏ : ⲡⲉϫⲁϥ ϫⲉ ⲡⲁⲓⲱⲧ ϯ̀ⲙⲡⲁ̅ⲡ̅ⲛ̅ⲁ ̀ⲛ̀ϧⲣⲏⲓ ̀ⲉⲛⲉⲕϫⲓϫ : ⲫⲁⲓ ⲇⲉ ̀ⲉⲧⲁϥϫⲟϥ ⲁϥϯ ̀ⲙⲡⲓ̅ⲡ̅ⲛ̅ⲁ :<br>... Ⲟⲩⲱϣⲧ ̀ⲙⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_19_row_9" class="priest">
-            <td class="english">According to St John</td>
+            <td class="english">According to St. John</td>
             <td class="coptic">ⲕⲁⲧⲁ Ⲓⲱⲁⲛⲛⲏⲛ ̀ ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">حسب مار يوحنا</td>
         </tr>
@@ -638,7 +638,7 @@ ${faiEtafEnfHtml}
 <table id="table_8" title="Gospel">
     <caption id="caption_table_8" class="caption">Gospel<br>(Mark 15:34-37)
     <span class="arabic-caption">الانجيل<br>(مرقس 15: 34-37)</span></caption>
-    <tr id="table_8_row_1" class="intro">
+    <tr id="table_8_row_0" class="intro">
         <td class="english">May God have mercy and compassion upon us, and make us worthy to hear Your Holy Gospel. A chapter according to our teacher St. Mark the evangelist. May his blessings be with us. Amen.</td>
         <td class="arabic">اللهم تراءف علينا و أرحمنا و أجعلنا مستحقين لسماع إنجيلك المقدس، فصل من إنجيل معلمنا مرقس البشير، بركاته تكون معنا أمين</td>
     </tr>

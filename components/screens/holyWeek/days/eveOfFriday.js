@@ -29,31 +29,31 @@ const EveOfFriday = () => {
           <View style={presentationStyles.hoursContainer}>
           <TouchableOpacity
               style={[presentationStyles.itemContainer]}
-              onPress={() => navigation.navigate("DOS9sc")}
+              onPress={() => navigation.navigate("EOF1sc")}
             >
               <Text style={presentationStyles.pageMenu}>First Hour</Text>
             </TouchableOpacity>
             <TouchableOpacity
               style={[presentationStyles.itemContainer]}
-              onPress={() => navigation.navigate("DOS9sc")}
+              onPress={() => navigation.navigate("EOF3sc")}
             >
               <Text style={presentationStyles.pageMenu}>Third Hour</Text>
             </TouchableOpacity>
             <TouchableOpacity
               style={[presentationStyles.itemContainer]}
-              onPress={() => navigation.navigate("DOS9sc")}
+              onPress={() => navigation.navigate("EOF6sc")}
             >
               <Text style={presentationStyles.pageMenu}>Sixth Hour</Text>
             </TouchableOpacity>
             <TouchableOpacity
               style={[presentationStyles.itemContainer]}
-              onPress={() => navigation.navigate("DOS9sc")}
+              onPress={() => navigation.navigate("EOF9sc")}
             >
               <Text style={presentationStyles.pageMenu}>Ninth Hour</Text>
             </TouchableOpacity>
             <TouchableOpacity
               style={[presentationStyles.itemContainer]}
-              onPress={() => navigation.navigate("DOS9sc")}
+              onPress={() => navigation.navigate("EOF11sc")}
             >
               <Text style={presentationStyles.pageMenu}>Eleventh Hour</Text>
             </TouchableOpacity>

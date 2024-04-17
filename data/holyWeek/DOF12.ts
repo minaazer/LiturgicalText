@@ -273,7 +273,7 @@ ${paschalPraiseHtml}
             <td class="coptic">Ⲉⲧ̀ⲁⲣⲟⲩϩⲓ ⲇⲉ ϣⲱⲡⲓ ⲁϥ̀ⲓ ̀ⲛϫⲉ ⲟⲩⲣⲱⲙⲓ ̀ⲛⲣⲁⲙⲁⲟ ̀ⲉⲃⲟⲗϧⲉⲛ ̀̀Ⲁⲣⲓⲙⲁⲑⲉⲁⲥ : ̀ⲉⲡⲉϥⲣⲁⲛ ⲡⲉ Ⲓⲱⲥⲏⲫ : ⲫⲁⲓ ϩⲱϥ ⲛⲉ ⲁϥⲉⲣⲙⲁⲑⲏⲧⲏⲥ ̀ⲛⲒ̅ⲏ̅ⲥ. Ⲫⲁⲓ ⲁϥ̀ⲓ ϩⲁⲠⲓⲗⲁⲧⲟⲥ ⲁϥⲉⲣ̀ⲉⲧⲓⲛ ̀ⲙⲡⲓⲥⲱⲙⲁ ̀ⲛⲧⲉ Ⲓⲏⲥ ⲧⲟⲧⲉ Ⲡⲓⲗⲁⲧⲟⲥ ⲁϥⲟⲩⲁϩ ⲥⲁϩⲛⲓ ̀ⲉⲧⲏⲓϥ <br>... Ⲟⲩⲱϣⲧ ̀ⲙⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_9_row_3" class="priest">
-            <td class="english">According to St Mark</td>
+            <td class="english">According to St. Mark</td>
             <td class="coptic">ⲕⲁⲧⲁ Ⲙⲁⲣⲕⲟⲛ ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">حسب مار مرقس</td>
         </tr>
@@ -286,7 +286,7 @@ ${paschalPraiseHtml}
             <td class="coptic">Ⲟⲩⲟϩ ϩⲏⲇⲏⲉⲧ ̀ⲁ̀ⲣⲟⲩϩⲓ ϣⲱⲡⲓ ⲉⲡⲓⲇⲏ ⲛⲉ̀ⲧⲡⲁⲣⲁⲥⲕⲉⲩ̀ⲏ ⲧⲉ ⲉⲧϧⲁϫⲱϥ ̀ⲙⲡⲓⲥⲁⲃⲃⲁⲧⲟⲛ : ̀Ⲉⲧϥⲁⲓ ̀ⲛϫⲉ Ⲓⲱⲥⲏⲫ ̀ⲉⲃⲟⲗϧⲉⲛ ̀Ⲁⲣⲓⲙⲁⲑⲉⲁⲥ : ̀ⲉⲟⲩⲉⲩ̀ⲥⲭⲉⲙⲱⲛ ⲡⲉ ̀ⲙⲃⲟⲩⲗⲉⲩⲧⲏⲥ : ⲫⲁⲓ ̀ⲉⲧⲉ ̀ⲛⲑⲟϥ ϩⲱϥ ⲛⲁϥϫⲟⲩϣⲧ ̀ⲉⲃⲟⲗ ϧⲁ̀ⲧϩⲏ ̀ⲛϯⲙⲉⲧⲟⲩⲣⲟ ̀ⲛⲧⲉ Ⲫϯ : ⲁϥⲉⲣⲧⲟⲗⲙⲁⲛ ⲁϥϣⲉ ̀ⲉϧⲟⲩⲛ ϩⲁⲠⲓⲗⲁⲧⲟⲥ ⲁϥⲉⲣ̀ⲉⲧⲓⲛ ⲙ̀ⲡⲥⲱⲙⲁ ̀ⲛⲒ̅ⲏ̅ⲥ. <br>... Ⲟⲩⲱϣⲧ ̀ⲙⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_9_row_6" class="priest">
-            <td class="english">According to St Luke</td>
+            <td class="english">According to St. Luke</td>
             <td class="coptic">ⲕⲁⲧⲁ Ⲗⲟⲩⲕⲁⲛ ̀ ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">حسب مار لوقا</td>
         </tr>
@@ -299,7 +299,7 @@ ${paschalPraiseHtml}
             <td class="coptic">̀̀Ⲟⲩⲟϩ ϩⲏⲡⲡⲉ ⲓⲥ ⲟⲩⲣⲱⲙⲓ ̀ⲉⲡⲉϥⲣⲁⲛ ⲡⲉ Ⲓⲱⲥⲏⲫ : ̀ⲉⲟⲩⲃⲟⲩⲗⲉⲩⲧⲏⲥ ⲡⲉ : ⲟⲩⲣⲙⲙⲓ ̀ⲛ̀ⲁⲅⲁⲑⲟⲥ ⲟⲩⲟϩ ̀ⲛ̀ⲑⲙⲏⲓ : Ⲫⲁⲓ ̀ⲉⲛⲁϥ ϯⲙⲁϯ ⲁⲛ ⲡⲉ ϧⲉⲛ ⲡⲟⲩⲥⲟϭⲛⲓ ⲛⲉⲙ ⲧⲟⲩ ̀ⲡⲣⲁⲝⲓⲥ ⲛⲉ ⲟⲩ̀ⲉⲃⲟⲗϧⲉⲛ ̀Ⲁⲣⲓⲙⲁⲑⲉⲁⲥ ⲟⲩ ⲃⲁⲕⲓ ̀ⲛⲧⲉ ⲛⲓⲒⲟⲩⲇⲁⲓ<br>... Ⲟⲩⲱϣⲧ ̀ⲙⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_9_row_9" class="priest">
-            <td class="english">According to St John</td>
+            <td class="english">According to St. John</td>
             <td class="coptic">ⲕⲁⲧⲁ Ⲓⲱⲁⲛⲛⲏⲛ ̀ ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">حسب مار يوحنا</td>
         </tr>
@@ -322,6 +322,34 @@ ${paschalPraiseHtml}
 
 
 <div class="section" id="section_7" title="Engligh and Arabic Psalm & Gospel">
+<table id="table_10" title="Psalm">
+    <caption id="caption_table_10" class="caption">Psalm<br>(88:6, 23:4, 45:6,8)
+    <span class="arabic-caption">المزمور<br>(88: 6 و 23: 34 و 45: 6 و 8)</span></caption>
+    <tr id="table_10_row_1" class="intro">
+        <td class="english">From the Psalms of our teacher David the prophet. May his blessing be with us. Amen.</td>
+        <td class="arabic">من مزامير معلمنا داود النبي، بركته تكون معنا، آمين.</td>
+    </tr>
+    <tr id="table_10_row_4" class="text">
+        <td class="english">You have laid me in the lowest pit, In darkness, in the depths. Alleluia.</td>
+        <td class="arabic">جعلونى فى جب سفلى. فى مواضع مظلمة وظلال الموت.  هلليلويا.</td>
+    </tr>
+    <tr id="table_10_row_5" class="text">
+        <td class="english">Though I walk through the valley of the shadow of death, I will fear no evil; For You are with me. Alleluia.</td>
+        <td class="arabic">وان سلكت فى وسط ظلال الموت فلا أخشى من الشر لأنك معى .  هلليلويا.</td>
+    </tr>
+    <tr id="table_10_row_6" class="text">
+        <td class="english">Your throne, O God, is forever and ever; A scepter of righteousness is the scepter of Your kingdom.</td>
+        <td class="arabic">كُرْسِيُّكَ يَا اللهُ إِلَى دَهْرِ الدُّهُورِ. قَضِيبُ اسْتِقَامَةٍ قَضِيبُ مُلْكِكَ.</td>
+    </tr>
+    <tr id="table_10_row_7" class="text">
+        <td class="english">All Your garments are scented with myrrh and aloes and cassia.</td>
+        <td class="arabic">المر والميعة والسليخة من ثيابك.</td>
+    </tr>
+    <tr id="table_10_row_9" class="intro">
+        <td class="english">Alleluia.</td>
+        <td class="arabic">هلليلويا.</td>
+    </tr>
+</table>
 <table id="table_11" title="Gospel">
     <caption id="caption_table_11" class="caption">Gospel<br>(Matthew 27:57-61)
     <span class="arabic-caption">الانجيل<br>(متى 27: 57-61)</span></caption>
@@ -699,41 +727,49 @@ ${daytimeLitaniesHtml}
 </table>
 <table id="table_22" title="Psalms">
     <caption id="caption_table_22" class="caption">Psalms<span class="arabic-caption">المزامير</span></caption>
-    <tr id="table_22_row_1" class="commentary">
+    <tr id="table_22_row_0" class="commentary">
         <td class="english">The presbyter prays psalms 1, 2, and 3 until the phrase ". I lay down and slept …"</td>
         <td class="arabic">يصلى الكاهن المزمور الاول والثانى والثالث حتى الجملة "انا اضطجعت ونمت..."</td>
     </tr>
 
-    <tr id="table_22_row_3" class="text">
-        <td class="english"><span class="caption>Psalm 1</span><br>Blessed is the man who has not walked in the counsel of the ungodly, and has not stood in the way of the sinners, and has not sat in the seat of the evil men. But his will is in the law of the Lord; and in His law he shall meditate day and night. He shall be like the tree which is planted by the streams of water, which shall yield its fruit in its due season, and its leaf shall not scatter, and in everything he does he prospers.</td>
-        <td class="arabic"><span class="caption>المزمور الأول</span><br>طوبى للرجل الذي لم يسلك في مشورة المنافقين. وفى طريق الخطاة لم يقف، وفى مجلس المستهزئين لم يجلس. لكن في ناموس الرب إرادته، وفى ناموسه يلهج نهارا وليلا. فيكون كالشجرة المغروسة على مجارى المياه التي تعطى ثمرها في حينه. وورقها لا ينتثر، وكل ما يصنع ينجح فيه. </td>
+    <tr id="table_22_row_1" class="text">
+        <td class="english"><h1>Psalm 1</h1>Blessed is the man who has not walked in the counsel of the ungodly, and has not stood in the way of the sinners, and has not sat in the seat of the evil men.</td>
+        <td class="arabic"><h1>المزمور الاول</h1>طوبى للرجل الذي لم يسلك في مشورة المنافقين. وفى طريق الخطاة لم يقف، وفى مجلس المستهزئين لم يجلس.</td>
     </tr>
-    <tr id="table_22_row_4" class="text">
+    <tr id="table_22_row_2" class="text">
+        <td class="english">But his will is in the law of the Lord; and in His law he shall meditate day and night. He shall be like the tree which is planted by the streams of water, which shall yield its fruit in its due season, and its leaf shall not scatter, and in everything he does he prospers.</td>
+        <td class="arabic">لكن في ناموس الرب إرادته، وفى ناموسه يلهج نهارا وليلا. فيكون كالشجرة المغروسة على مجارى المياه التي تعطى ثمرها في حينه. وورقها لا ينتثر، وكل ما يصنع ينجح فيه.</td>
+    </tr>
+    <tr id="table_22_row_3" class="text">
         <td class="english">Not so are the ungodly, not so; but rather they are like the chaff which the wind scatters upon the face of the earth. Therefore the ungodly shall not stand in judgment, nor the sinners in the council of the righteous. For the Lord knows the way of the righteous; but the way of the ungodly shall perish. ALLELUIA.</td>
         <td class="arabic">ليس كذلك المنافقون، ليس كذلك. لكنهم كالهباء الذي تذريه الريح عن وجه الأرض. فلهذا لا يقوم المنافقون في الدينونة، ولا الخطاة في مجمع الصديقين. لأن الرب يعرف طريق الأبرار، وأما طريق المنافقين فتباد. هلليلويا.</td>
     </tr>
 
-    <tr id="table_22_row_6" class="text">
-        <td class="english"><span class="caption>Psalm 2</span><br>Why did the nations rage, and the peoples meditate on vain things? The kings of the earth stood up, and the rulers ga­thered together against the Lord and against His Christ; saying, “Let us break through their bonds, and cast away their yoke from us.”</td>
-        <td class="arabic"><span class="caption>المزمور الثاني</span><br>لماذا ارتجت الأمم، وتفكرت الشعوب في الباطل. قام ملوك الأرض وتآمر الرؤساء معا على الرب وعلى مسيحه قائلين: لنقطع أغلالهما، ولنطرح عنا نيرهما.</td>
+    <tr id="table_22_row_4" class="text">
+        <td class="english"><h1>Psalm 2</h1>Why did the nations rage, and the peoples meditate on vain things? The kings of the earth stood up, and the rulers ga­thered together against the Lord and against His Christ; saying, “Let us break through their bonds, and cast away their yoke from us.”</td>
+        <td class="arabic"><h1>المزمور الثاني</h1>لماذا ارتجت الأمم، وتفكرت الشعوب في الباطل. قام ملوك الأرض وتآمر الرؤساء معا على الرب وعلى مسيحه قائلين: لنقطع أغلالهما، ولنطرح عنا نيرهما.</td>
     </tr>
-    <tr id="table_22_row_7" class="text">
+    <tr id="table_22_row_5" class="text">
         <td class="english">He who dwells in the heavens shall laugh at them, and the Lord shall mock them. Then He shall speak to them in His anger, and in His wrath He shall trouble them.</td>
         <td class="arabic">الساكن في السموات يضحك بهم، والرب يستهزئ بهم. حينئذ يكلمهم بغضبه، وبرجزه يرجفهم. </td>
     </tr>
-    <tr id="table_22_row_8" class="text">
+    <tr id="table_22_row_6" class="text">
         <td class="english">“But I have been established king by Him on Zion, His holy mountain, proclaiming the ordinance of the Lord: the Lord said to Me, 'You are My Son, today I have begotten You. Ask Me, and I will give You the nations for Your inheritance, and Your authority to the end of the earth. You shall shepherd them with a rod of iron; You shall crush them as a potter's vessel.’ ”</td>
         <td class="arabic">نا أقمته ملكا على صهيون جبل قدسه، لأكرز بأمر الرب. الرب قال لي: أنت ابني، وأنا اليوم ولدتك. اسألني فأعطيك الأمم ميراثك، وسلطانك إلى أقطار الأرض. لترعاهم بقضيب من حديد. ومثل آنية الفخار تسحقهم.</td>
     </tr>
-    <tr id="table_22_row_9" class="text">
+    <tr id="table_22_row_7" class="text">
         <td class="english">Now, understand, O kings: be instructed, all you who judge the earth, serve the Lord with fear, and rejoice in Him with trembling. Take hold of instruction, lest the Lord be angry, and you perish from the way of righteousness, whenever His wrath shall be suddenly kindled. Blessed are all who trust in Him. ALLELUIA.</td>
         <td class="arabic">فالآن أيها الملوك افهموا، وتأدبوا يا جميع قضاة الأرض اعبدوا الرب بخشية. وهللوا له برعدة. الزموا الأدب لئلا يغضب الرب فتضلوا عن طريق الحق. عندما يتقد غضبه بسرعة، طوبى لجميع المتكلين عليه هلليلويا.</td>
     </tr>
 
-    <tr id="table_22_row_11" class="text">
-        <td class="english"><span class="caption>Psalm 3</span><br>O Lord, why have they who afflict me multiplied? Many have risen up upon me. Many say unto my soul, “There is no salvation for him in his God.” But You, O Lord, are my supporter, my glory, and the elevation of my head. With my voice I cried unto the Lord, and He heard me out of His holy mountain.<br>I laid down and slept ...</td>
-        <td class="arabic"><span class="caption>المزمور الثالث</span><br>يا رب لماذا كثر الذين يحزنونني، كثيرون قاموا علي. كثيرون يقولون لنفسي، ليس له خلاص بإلهه. أنت يا رب أنت هو ناصري، مجدي ورافع رأسي. بصوتي إلى الرب صرخت. فاستجاب لي من جبل قدسه.<br>انا اضطجعت ونمت ...</td>
+    <tr id="table_22_row_8" class="text">
+        <td class="english"><h1>Psalm 3</h1>O Lord, why have they who afflict me multiplied? Many have risen up upon me. Many say unto my soul, “There is no salvation for him in his God.” </td>
+        <td class="arabic"><h1>المزمور الثالث</h1>يا رب لماذا كثر الذين يحزنونني، كثيرون قاموا علي. كثيرون يقولون لنفسي، ليس له خلاص بإلهه.</td>
     </tr>
+    <tr id="table_22_row_9" class="text">
+        <td class="english">But You, O Lord, are my supporter, my glory, and the elevation of my head. With my voice I cried unto the Lord, and He heard me out of His holy mountain.<br>I laid down and slept ...</td>
+        <td class="arabic">أنت يا رب أنت هو ناصري، مجدي ورافع رأسي. بصوتي إلى الرب صرخت. فاستجاب لي من جبل قدسه.<br>انا اضطجعت ونمت ...</td>
+
 
 </table>
 

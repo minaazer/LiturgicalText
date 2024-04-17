@@ -186,15 +186,12 @@ ${paschalPraiseHtml}
             <td class="coptic"> ̀Ⲛⲑⲟϥ ⲇⲉ ⲡⲉϫⲁϥ ⲛⲁⲥ ϫⲉ ⲟⲩ ⲡⲉ ⲉⲧⲉⲟⲩⲁϣϥ ⲡⲉϫⲁⲥ ⲛⲁϥ ϫⲉ ̀ⲁϫⲟⲥ ϩⲓⲛⲁ ̀ⲛⲧⲉ ⲛⲁϣⲏⲣⲓ ̀ⲥⲛⲁⲩ ̀ⲛⲧⲉ ⲟⲩⲁⲓ ̀ⲙⲙⲱⲟⲩ ϩⲉⲙⲥⲓ ⲥⲁⲧⲉⲕⲟⲩ̀ⲓⲛⲁⲙ ⲛⲉⲙ ⲟⲩⲁⲓ ⲥⲁⲧⲉⲕϫⲁϭⲏ ̀ⲛ̀ϩⲣⲏⲓ ϧⲉⲛ ⲧⲉⲕⲙⲉⲧⲟⲩⲣⲟ : </td>
         </tr>
         <tr id="table_9_row_3" class="text">
-            <td class="coptic">Ⲁϥⲉⲣⲟⲩ̀ⲱ ̀ⲛϫⲉ Ⲓ̅ⲏ̅ⲥ ⲡⲉϫⲁϥ ϫⲉ ̀ⲛⲧⲉⲧⲉⲛ̀ⲉⲙⲓ ⲁⲛ ϫⲉ ̀ⲁⲣⲉⲧⲉⲛⲉⲣⲉⲧⲓⲛ ⲉⲑⲃⲉⲟⲩ ⲟⲩⲟⲛ ϣϫⲟⲙ ̀ⲙⲙⲱⲧⲉⲛ ̀ⲉⲟⲉ ⲡⲓ̀ⲁⲫⲟⲧ ⲉϯⲛⲁⲥⲟϥ ⲟⲩⲟϩ ⲡⲓⲱⲙⲥ ⲉϯⲛⲁⲱⲙⲥ ̀ⲙⲙⲟϥ ⲉⲣⲉⲧⲉⲛⲉⲙⲥ ⲑⲏⲛⲟⲩ ⲡⲉϫⲱⲟⲩ : </td>
+            <td class="coptic">Ⲁϥⲉⲣⲟⲩ̀ⲱ ̀ⲛϫⲉ Ⲓ̅ⲏ̅ⲥ ⲡⲉϫⲁϥ ϫⲉ ̀ⲛⲧⲉⲧⲉⲛ̀ⲉⲙⲓ ⲁⲛ ϫⲉ ̀ⲁⲣⲉⲧⲉⲛⲉⲣⲉⲧⲓⲛ ⲉⲑⲃⲉⲟⲩ ⲟⲩⲟⲛ ϣϫⲟⲙ ̀ⲙⲙⲱⲧⲉⲛ ̀ⲉⲟⲉ ⲡⲓ̀ⲁⲫⲟⲧ ⲉϯⲛⲁⲥⲟϥ ⲟⲩⲟϩ ⲡⲓⲱⲙⲥ ⲉϯⲛⲁⲱⲙⲥ ̀ⲙⲙⲟϥ ⲉⲣⲉⲧⲉⲛⲉⲙⲥ ⲑⲏⲛⲟⲩ ⲡⲉϫⲱⲟⲩ : ⲛⲁϥ ϫⲉ ⲟⲩⲟⲛ ϣϫⲟⲙ ̀ⲙⲙⲟⲛ. <br> Ⲟⲩⲱϣⲧ ̀ⲙⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
-        <tr id="table_9_row_4" class="text">
-            <td class="coptic">ⲛⲁϥ ϫⲉ ⲟⲩⲟⲛ ϣϫⲟⲙ ̀ⲙⲙⲟⲛ. <br> Ⲟⲩⲱϣⲧ ̀ⲙⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
-        <tr id="table_9_row_5" class="intro">
-            <td class="coptic">Ⲟⲩⲱϣⲧ ̀ⲙⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅ </td>
-        </tr>
-        <tr id="table_9_row_6" class="congregation">
-            <td class="coptic">Ⲇⲟⲝⲁⲥⲓ Ⲕⲩⲣⲓ ̀ⲉ.</td>
+        <tr id="table_9_row_6" class="intro">
+            <td class="english">Glory be to God forever.</td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓ̀ⲉ</td>
+            <td class="arabic">والمجد لله دائما.</td>
         </tr>
     </table>
 </div>
@@ -206,7 +203,7 @@ ${paschalPraiseHtml}
         <caption id="caption_table_10" class="caption">Psalm<br>(22:22-23)
         <span class="arabic-caption">المزمور<br>(22:22-23)</span></caption>
         <tr id="table_10_row_1" class="intro">
-            <td class="english">From the Psalms of our teacher David the Prophet. May his blessing be with us. Amen.</td>
+            <td class="english">From the Psalms of our teacher David the prophet. May his blessing be with us. Amen. </td>
             <td class="arabic">من مزامير معلمنا داود النبي، بركته تكون معنا، آمين.</td>
         </tr>
         <tr id="table_10_row_4" class="text">
@@ -227,7 +224,7 @@ ${paschalPraiseHtml}
         <caption id="caption_table_11" class="caption">Gospel<br>(Matthew 20:20-28)
         <span class="arabic-caption">الانجيل<br>(متى 20:20-28)</span></caption>
         <tr id="table_11_row_1" class="intro">
-            <td class="english">May God have mercy and compassion upon us, and make us worthy to hear Your Holy Gospel. A chapter according to St. Matthew. May his blessings be with us. Amen.</td>
+            <td class="english">May God have mercy and compassion upon us, and make us worthy to hear Your Holy Gospel. A chapter according to our teacher Saint Matthew the evangelist. May his blessings be with us. Amen.</td>
             <td class="arabic">اللهم تراءف علينا وارحمنا واجعلنا مستحقين لسماع إنجيلك المقدس، فصل من إنجيل معلمنا متى البشير، بركاته تكون معنا أمين</td>
         </tr>
         <tr id="table_11_row_4" class="text">

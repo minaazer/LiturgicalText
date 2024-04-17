@@ -763,7 +763,7 @@ ${paschalPraiseHtml}
 <table id="table_23" title="Gospel">
     <caption id="caption_table_23" class="caption">Gospel<br>(Mark 15:26-33)
     <span class="arabic-caption">الانجيل<br>(مرقس 15: 26-33)</span></caption>
-    <tr id="table_23_row_1" class="intro">
+    <tr id="table_23_row_0" class="intro">
         <td class="english">May God have mercy and compassion upon us, and make us worthy to hear Your Holy Gospel. A chapter according to our teacher St. Mark the evangelist. May his blessings be with us. Amen.</td>
         <td class="arabic">اللهم تراءف علينا و أرحمنا و أجعلنا مستحقين لسماع إنجيلك المقدس، فصل من إنجيل معلمنا مرقس البشير، بركاته تكون معنا أمين.</td>
     </tr>
@@ -780,19 +780,19 @@ ${paschalPraiseHtml}
         <td class="arabic">فَتَمَّ الْكِتَابُ الْقَائِلُ: «وَأُحْصِيَ مَعَ أَثَمَةٍ».</td>
     </tr>
     <tr id="table_23_row_7" class="text">
-        <td class="english">" And those who passed by blasphemed Him, wagging their heads and saying, "Aha! You who destroy the temple and build it in three days,</td>
+        <td class="english">And those who passed by blasphemed Him, wagging their heads and saying, "Aha! You who destroy the temple and build it in three days,</td>
         <td class="arabic">وَكَانَ الْمُجْتَازُونَ يُجَدِّفُونَ عَلَيْهِ وَهُمْ يَهُزُّونَ رُؤُوسَهُمْ قَائِلِينَ: «آهِ يَا نَاقِضَ الْهَيْكَلِ وَبَانِيَهُ فِي ثَلاَثَةِ أَيَّامٍ!</td>
     </tr>
     <tr id="table_23_row_8" class="text">
-        <td class="english">" save Yourself, and come down from the cross!"</td>
+        <td class="english">save Yourself, and come down from the cross!"</td>
         <td class="arabic">خَلِّصْ نَفْسَكَ وَانْزِلْ عَنِ الصَّلِيبِ!</td>
     </tr>
     <tr id="table_23_row_9" class="text">
-        <td class="english">" Likewise the chief priests also, mocking among themselves with the scribes, said, "He saved others; Himself He cannot save.</td>
+        <td class="english">Likewise the chief priests also, mocking among themselves with the scribes, said, "He saved others; Himself He cannot save.</td>
         <td class="arabic">وَكَذَلِكَ رُؤَسَاءُ الْكَهَنَةِ وَهُمْ مُسْتَهْزِئُونَ فِيمَا بَيْنَهُمْ مَعَ الْكَتَبَةِ قَالُوا: «خَلَّصَ آخَرِينَ وَأَمَّا نَفْسُهُ فَمَا يَقْدِرُ أَنْ يُخَلِّصَهَا.</td>
     </tr>
     <tr id="table_23_row_10" class="text">
-        <td class="english">" Let the Christ, the King of Israel, descend now from the cross, that we may see and believe."</td>
+        <td class="english">Let the Christ, the King of Israel, descend now from the cross, that we may see and believe."</td>
         <td class="arabic">لِيَنْزِلِ الآنَ الْمَسِيحُ مَلِكُ إِسْرَائِيلَ عَنِ الصَّلِيبِ لِنَرَى وَنُؤْمِنَ». وَاللَّذَانِ صُلِبَا مَعَهُ كَانَا يُعَيِّرَانِهِ.</td>
     </tr>
     <tr id="table_23_row_11" class="text">

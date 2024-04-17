@@ -78,7 +78,7 @@ ${hourIntroHtml}
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ ϯⲥⲟⲫⲓ̀ⲁ ̀ⲛⲧⲉ Ⲥⲟⲗⲟⲙⲱⲛ  ⲡⲓ̀ⲡⲣⲟⲫⲏⲧⲏⲥ: ̀ⲉⲣⲉⲡⲉϥ̀ⲥⲙⲟⲩ ̀ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ̀ⲁⲙⲏⲛ (ⲉϥϫⲱ ̀ⲙⲙⲟⲥ)</td>
         </tr>
         <tr id="table_2_row_22" class="text">
-            <td class="coptic">Ⲉϥ̀ⲉϫⲟⲣϫϥ ̀ⲛⲟⲩ̀ⲭⲣⲱⲙ ⲉⲑⲃⲉ ϫⲉ ̀ⲙⲡⲉϥϯ ̀ϩⲗⲟϫ ̀ⲉⲡⲉⲛϩⲏⲧⲗ</td>
+            <td class="coptic">Ⲉϥ̀ⲉϫⲟⲣϫϥ ̀ⲛⲟⲩ̀ⲭⲣⲱⲙ ⲉⲑⲃⲉ ϫⲉ ̀ⲙⲡⲉϥϯ ̀ϩⲗⲟϫ ̀ⲉⲡⲉⲛϩⲏⲧ</td>
         </tr>
         <tr id="table_2_row_23" class="intro">
             <td class="coptic">Ⲟⲩ̀ⲱⲟⲩ ̀ⲛϯ̀ⲧⲣⲓⲁⲥ ̀ⲉⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ...</td>
@@ -357,8 +357,8 @@ ${hourIntroHtml}
         <td class="arabic">من أرميا النبى بركته تكون معنا، آمين.</td>
     </tr>
     <tr id="table_6_row_4" class="text">
-        <td class="english">O earth, earth, earth, Hear the word of the Lord!</td>
-        <td class="arabic">يَا أَرْضُ يَا أَرْضُ يَا أَرْضُ اسْمَعِي كَلِمَةَ الرَّبِّ!</td>
+        <td class="english">O earth, O earth, Hear the word of the Lord!</td>
+        <td class="arabic">يَا أَرْضُ، يَا أَرْضُ اسْمَعِي كَلِمَةَ الرَّبِّ!</td>
     </tr>
     <tr id="table_6_row_5" class="text">
         <td class="english">Thus says the Lord: 'Write this man down as childless, A man who shall not prosper in his days; For none of his descendants shall prosper, Sitting on the throne of David, And ruling anymore in Judah.' "</td>
@@ -514,48 +514,48 @@ ${hourIntroHtml}
     <tr id="table_9_row_4" class="text">
         <td class="english">“Let us lie in wait for the righteous man,
 because he is inconvenient to us and opposes our actions; he reproaches us for sins against the law, and accuses us of sins against our training.</td>
-        <td class="arabic">فَلنَتَحَيَّنِ الفُرصَةَ لِلانقِضاضِ على الأتقِـياءِ لأَنَّهُم يُضايِقونَنا ويُقاوِمونَ أعمالَنا ويَتَّهِمونَنا بِمُخالفةِ أحكامِ الشَّريعةِ ويَفضَحونَ خُروجَنا على الأعرافِ والتَّقاليدِ. 13يَدَّعونَ مَعرِفةَ الله ويُسَمُّونَ أنفُسَهُم أبناءَ الرّبٌ.</td>
+        <td class="arabic">فَلنَتَحَيَّنِ الفُرصَةَ لِلانقِضاضِ على الأتقِـياءِ لأَنَّهُم يُضايِقونَنا ويُقاوِمونَ أعمالَنا ويَتَّهِمونَنا بِمُخالفةِ أحكامِ الشَّريعةِ ويَفضَحونَ خُروجَنا على الأعرافِ والتَّقاليدِ.</td>
     </tr>
     <tr id="table_9_row_5" class="text">
         <td class="english">He professes to have knowledge of God, and calls himself a child of the Lord.</td>
-        <td class="arabic">كُلُّ هَمِّهِم تَفنيدُ آرائِنا بل مَنظَرُهُم يُثيرُ اَشمِئزازَنا</td>
+        <td class="arabic">يَدَّعونَ مَعرِفةَ الله ويُسَمُّونَ أنفُسَهُم أبناءَ الرّبٌ.</td>
     </tr>
     <tr id="table_9_row_6" class="text">
         <td class="english">He became to us a reproof of our thoughts;</td>
-        <td class="arabic">لأَنَّ سُلوكَهُم غريبٌ في الحياةِ يُخالِفُ سُلوكَ الآخرينَ.</td>
+        <td class="arabic">كُلُّ هَمِّهِم تَفنيدُ آرائِنا بل مَنظَرُهُم يُثيرُ اَشمِئزازَنا</td>
     </tr>
     <tr id="table_9_row_7" class="text">
         <td class="english">the very sight of him is a burden to us, because his manner of life is unlike that of others, and his ways are strange.</td>
-        <td class="arabic">يَحسِبونَنا زائِفينَ، فَيَتَجَنَّبونَ سُلوكَنا كأنَّنا أنجاسٌ، يُبَشِّرونَ أنَّ نِهايةَ الصَّالِحينَ مُباركَةٌ، ويتَباهَونَ بِأنَّهُم أبناءُ الله.</td>
+        <td class="arabic">لأَنَّ سُلوكَهُم غريبٌ في الحياةِ يُخالِفُ سُلوكَ الآخرينَ.</td>
     </tr>
     <tr id="table_9_row_8" class="text">
         <td class="english">We are considered by him as something base, and he avoids our ways as unclean; he calls the last end of the righteous happy, and boasts that God is his father.</td>
-        <td class="arabic">فلنَنتَظِرْ لِنَرى هل أقوالُهُم هذِهِ حَقٌّ وكيفَ تكونُ علَيهِ نِهايَتُهُم في الحياةِ.</td>
+        <td class="arabic">يَحسِبونَنا زائِفينَ، فَيَتَجَنَّبونَ سُلوكَنا كأنَّنا أنجاسٌ، يُبَشِّرونَ أنَّ نِهايةَ الصَّالِحينَ مُباركَةٌ، ويتَباهَونَ بِأنَّهُم أبناءُ الله.</td>
     </tr>
     <tr id="table_9_row_9" class="text">
         <td class="english">Let us see if his words are true, and let us test what will happen at the end of his life;</td>
-        <td class="arabic">فإنْ كانَ الأتقِـياءُ أبناءَ الله، أفلا يُعينُهُم ويُنقِذُهُم مِنْ أيدي خُصومِهِم؟</td>
+        <td class="arabic">فلنَنتَظِرْ لِنَرى هل أقوالُهُم هذِهِ حَقٌّ وكيفَ تكونُ علَيهِ نِهايَتُهُم في الحياةِ.</td>
     </tr>
     <tr id="table_9_row_10" class="text">
         <td class="english">for if the righteous man is God's son, he will help him, and will deliver him from the hand of his adversaries.</td>
-        <td class="arabic">فلنَمْتَحِنْهُم بِالإهانَةِ والتَّعذيبِ لِنَعرِفَ مدَى وداعَتِهِم ونَختَبِرَ صَبرَهُم.</td>
+        <td class="arabic">فإنْ كانَ الأتقِـياءُ أبناءَ الله، أفلا يُعينُهُم ويُنقِذُهُم مِنْ أيدي خُصومِهِم؟</td>
     </tr>
     <tr id="table_9_row_11" class="text">
         <td class="english">Let us test him with insult and torture, that we may find out how gentle he is,
 and make trial of his forbearance.</td>
-        <td class="arabic">ولنَحكُمْ علَيهِم بِالموتِ في العارِ لِنرَى إذا كانَ الله يَرُدُّ عَنهُم.</td>
+        <td class="arabic">فلنَمْتَحِنْهُم بِالإهانَةِ والتَّعذيبِ لِنَعرِفَ مدَى وداعَتِهِم ونَختَبِرَ صَبرَهُم.</td>
     </tr>
     <tr id="table_9_row_12" class="text">
         <td class="english">Let us condemn him to a shameful death, for, according to what he says, he will be protected.”</td>
-        <td class="arabic">هذا ما يَتَوَهَّمونَهُ لكِنَّهُم يَخدَعونَ أنفُسَهُم لأِنَّ الشَّرَ أعمَى بَصائِرَهُم.</td>
+        <td class="arabic">ولنَحكُمْ علَيهِم بِالموتِ في العارِ لِنرَى إذا كانَ الله يَرُدُّ عَنهُم.</td>
     </tr>
     <tr id="table_9_row_13" class="text">
         <td class="english">Thus they reasoned, but they were led astray, for their wickedness blinded them,</td>
-        <td class="arabic">هُمْ لا يَعرِفونَ أسرارَ الله، ولا يَرجونَ لِلقَداسَةِ جَزاءً ولا لِطَهارَةِ النُّفوسِ أملا بِثَوابٍ.</td>
+        <td class="arabic">هذا ما يَتَوَهَّمونَهُ لكِنَّهُم يَخدَعونَ أنفُسَهُم لأِنَّ الشَّرَ أعمَى بَصائِرَهُم.</td>
     </tr>
     <tr id="table_9_row_14" class="text">
         <td class="english">and they did not know the secret purposes of God, nor hope for the wages of holiness, nor discern the prize for blameless souls.</td>
-        <td class="arabic"></td>
+        <td class="arabic">هُمْ لا يَعرِفونَ أسرارَ الله، ولا يَرجونَ لِلقَداسَةِ جَزاءً ولا لِطَهارَةِ النُّفوسِ أملا بِثَوابٍ.</td>
     </tr>
     <tr id="table_9_row_16" class="intro">
         <td class="english">Glory be to the Holy Trinity, our God, forever and unto the age of all ages. Amen.</td>
@@ -713,6 +713,10 @@ and make trial of his forbearance.</td>
         <td class="english">Do not rejoice over me, my enemy; When I fall, I will arise; When I sit in darkness, The Lord will be a light to me.</td>
         <td class="arabic">لاَ تَشْمَتِي بِي يَا عَدُوَّتِي. إِذَا سَقَطْتُ أَقُومُ. إِذَا جَلَسْتُ فِي الظُّلْمَةِ فَالرَّبُّ نُورٌ لِي.</td>
     </tr>
+    <tr id="table_13_row_12" class="intro">
+        <td class="english">Glory be to the Holy Trinity, our God, forever and unto the age of all ages. Amen.</td>
+        <td class="arabic">مجداً للثالوث القدوس الهنا إلى الأبد وإلى أبد الآبدين كلها، آمين.</td>
+    </tr>
 </table>
 
 
@@ -791,11 +795,11 @@ and make trial of his forbearance.</td>
     </tr>
 </table>
 
-<table id="table_15" title="Gospel">
+<table id="table_15" title="Tenouosht">
     <caption id="caption_table_15" class="caption"><span class="coptic-caption">Ⲧⲉⲛⲟⲩ̀ⲱϣⲧ</span></caption>
-    <tr id="table_15_row_1" class="intro">
-        <td class="english">We worship you O Christ with your good Father and the Holy Spirit for You were crucified and saved us.</td>
-        <td class="coptic">Ⲧⲉⲛⲟⲩ̀ⲱϣⲧ ̀ⲙⲙⲟⲕ ̀ⲱ Ⲡ̅ⲭ̅ⲥ ⲛⲉⲙ ⲡⲉⲕⲓⲱⲧ ̀ⲛⲁⲅⲁⲑⲟⲥ ⲛⲉⲙ ⲡⲓ̀ⲡⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ ϫⲉ ⲁⲩⲁϣⲕ ⲁⲕⲥⲱϯ ̀ⲙⲙⲟⲛ ⲛⲁⲓ ⲛⲁⲛ.</td>
+    <tr id="table_15_row_1" class="text">
+        <td class="english">We worship You O Christ with Your good Father and the Holy Spirit for You were crucified and saved us.</td>
+        <td class="coptic">Ⲧⲉⲛⲟⲩ̀ⲱϣⲧ ̀ⲙⲙⲟⲕ ̀ⲱ Ⲡ̅ⲭ̅ⲥ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ̀ⲛⲁⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓ̀ⲡⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: ϫⲉ ⲁⲩⲁϣⲕ ⲁⲕⲥⲱϯ ̀ⲙⲙⲟⲛ ⲛⲁⲓ ⲛⲁⲛ.</td>
         <td class="arabic">نسجد لكَ أيها المسيح مع أبيك الصالح والروح القدس لأنكَ صلبت وخلصتنا</td>
     </tr>
 </table>
@@ -804,8 +808,8 @@ and make trial of his forbearance.</td>
     <caption id="caption_table_16" class="caption">Pauline Epistle<br>(1 Corinthians 1:23-2:5)
     <span class="arabic-caption">البولس<br>(كورنثوس الأولى 1: 23 - 2: 5)</span></caption>
     <tr id="table_16_row_1" class="intro">
-        <td class="english">Paul the servant of our Lord Jesus Christ, called to be an apostle, appointed to the Gospel of God. A reading from the epistle of our teacher Paul to the Corinthians. May his blessing be with us. Amen.</td>
-        <td class="arabic">من رسالة معلمنا بولس الرسول إلى كورنثوس الأولى بركته المقدسة تكون معنا، آمين.</td>
+        <td class="english">Paul the servant of our Lord Jesus Christ, called to be an apostle, appointed to the Gospel of God. A reading from the first epistle of our teacher Paul to the Corinthians. May his blessing be with us. Amen.</td>
+        <td class="arabic">من رسالة معلمنا بولس الرسول الاولى إلى كورنثوس الأولى بركته المقدسة تكون معنا، آمين.</td>
     </tr>
     <tr id="table_16_row_4" class="text">
         <td class="english">But we preach Christ crucified, to the Jews a stumbling block and to the Greeks foolishness,</td>
@@ -931,7 +935,7 @@ ${paschalPraiseHtml}
             <td class="coptic">̀Ⲉⲧⲁ ⲧⲟⲟⲩ̀ⲓ ⲇⲉ ϣⲱⲡⲓ ⲁⲩⲉⲣⲟⲩⲥⲟϭⲛⲓ ⲧⲏⲣⲟⲩ ̀ⲛϫⲉ ⲛⲓⲁⲣⲭⲏ̀ⲉⲣⲉⲩⲥ ⲛⲉⲙ ⲛⲓ̀ⲡⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ ̀ⲛⲧⲉ ⲡⲓⲗⲁⲟⲥ ϧⲁ Ⲓ̅ⲏ̅ⲥ : ϩⲱⲥⲧⲉ ̀ⲛⲥⲉ ϧⲟⲑⲃⲉϥ : Ⲟⲩⲟϩ ̀ⲉⲧⲁⲩⲥⲟⲛϩϥ ⲁⲩⲟⲗϥ ⲟⲩⲟϩ ⲁⲩⲧⲏⲓϥ ̀ⲙⲠⲓⲗⲁⲧⲟⲥ ⲡⲓϩⲏⲅⲉⲙⲱⲛ<br>... Ⲟⲩⲱϣⲧ ̀ⲙⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_21_row_3" class="priest">
-            <td class="english">According to St Mark</td>
+            <td class="english">According to St. Mark</td>
             <td class="coptic">ⲕⲁⲧⲁ Ⲙⲁⲣⲕⲟⲛ ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">حسب مار مرقس</td>
         </tr>
@@ -941,10 +945,10 @@ ${paschalPraiseHtml}
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_21_row_5" class="text">
-            <td class="coptic">Ⲟⲩⲟϩ ⲥⲁⲧⲟⲧⲟⲩ ⲁⲩⲥⲟϭⲛⲓ ⲛⲟⲩⲥⲟϭⲛⲓ ⲛϣⲱⲣⲡ ⲛϫⲉ ⲛⲓⲁⲣⲭⲏⲉⲣⲉⲩⲥⲛⲉⲙ ⲛⲓⲡⲣⲉⲥⲃ⳪ⲧⲉⲣⲟⲥ ⲛⲉⲙ ⲛⲓⲥⲁϧⲛⲉⲙ ⲡⲓⲙⲁⲛ ϯϩⲁⲡ ⲧⲏⲣϥ : ̀ⲉⲁⲩⲥⲱⲛϩ ̀ⲛⲒ̅ⲏ̅ⲥ ⲁⲩϭⲓⲧϥ ⲁⲩⲧⲏⲓϥ ̀ⲉⲠⲓⲗⲁⲧⲟⲥ <br>... Ⲟⲩⲱϣⲧ ̀ⲙⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲟⲩⲟϩ ⲥⲁⲧⲟⲧⲟⲩ ⲁⲩⲥⲟϭⲛⲓ ⲛⲟⲩⲥⲟϭⲛⲓ ⲛϣⲱⲣⲡ ⲛϫⲉ ⲛⲓⲁⲣⲭⲏⲉⲣⲉⲩⲥ ⲛⲉⲙ ⲛⲓⲡⲣⲉⲥⲃ⳪ⲧⲉⲣⲟⲥ ⲛⲉⲙ ⲛⲓⲥⲁϧ ⲛⲉⲙ ⲡⲓⲙⲁⲛ ϯϩⲁⲡ ⲧⲏⲣϥ : ̀ⲉⲁⲩⲥⲱⲛϩ ̀ⲛⲒ̅ⲏ̅ⲥ ⲁⲩϭⲓⲧϥ ⲁⲩⲧⲏⲓϥ ̀ⲉⲠⲓⲗⲁⲧⲟⲥ <br>... Ⲟⲩⲱϣⲧ ̀ⲙⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_21_row_6" class="priest">
-            <td class="english">According to St Luke</td>
+            <td class="english">According to St. Luke</td>
             <td class="coptic">ⲕⲁⲧⲁ Ⲗⲟⲩⲕⲁⲛ ̀ ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">حسب مار لوقا</td>
         </tr>
@@ -957,7 +961,7 @@ ${paschalPraiseHtml}
             <td class="coptic">̀Ⲟⲩⲟϩ ̀ⲉⲧⲁ ⲡⲓ̀ϩⲟⲟⲩ ϣⲱⲡⲓ ⲁⲩⲑⲱⲟⲩϯ ̀ⲛϫⲉ ⲛⲓ̀ⲡⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ ̀ⲛⲧⲉ ⲡⲓⲗⲁⲟⲥ : ⲛⲉⲙ ⲛⲓⲁⲣⲭⲏ̀ⲉⲣⲉⲩⲥ ⲛⲉⲙ ⲛⲓⲥⲁϧ : ⲟⲩⲟϩ ⲁⲩⲉⲛϥ ̀ⲉϧⲟⲩⲛ ̀ⲉⲡⲟⲩⲙⲁ̀ⲛϯϩⲁⲡ : Ⲉⲩϫⲱ ̀ⲙⲙⲟⲥ ϫⲉ ⲓⲥϫⲉ ̀ⲛⲑⲟⲕ ⲡⲉ Ⲡ̅ⲭ̅ⲥ ̀ⲁϫⲟⲥ ⲛⲁⲛ ⲡⲉϫⲁϥϫⲉ ⲛⲱⲟⲩ ϫⲉ ⲁⲓϣⲁⲛϫⲟⲥ ⲛⲱⲧⲉⲛ ⲧⲉⲧⲉⲛⲛⲁⲛⲁϩϯ ⲁⲛ <br>... Ⲟⲩⲱϣⲧ ̀ⲙⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_21_row_9" class="priest">
-            <td class="english">According to St John</td>
+            <td class="english">According to St. John</td>
             <td class="coptic">ⲕⲁⲧⲁ Ⲓⲱⲁⲛⲛⲏⲛ ̀ ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">حسب مار يوحنا</td>
         </tr>
@@ -967,7 +971,7 @@ ${paschalPraiseHtml}
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_21_row_11" class="text">
-            <td class="coptic">Ⲁⲩ̀̀ⲓⲛⲓ ⲟⲩⲛ ̀ⲛⲓⲏⲥⲟⲩⲥ ̀ⲉⲃⲟⲗ ⲬⲁⲔⲁⲓ̀ⲁⲫⲁ ̀ⲉϧⲟⲩⲛ ̀ⲉⲡⲓ̀ⲡⲣⲉⲧⲱⲣⲓⲟⲛ : ⲛⲉ ϣⲱⲣⲡ ⲇⲉ ⲡⲉ : ⲟⲩⲟϩ ̀ⲛⲑⲱⲟⲩ ̀ⲙⲡⲟⲩ̀ⲓ ̀ⲉϧⲟⲩⲛ ̀ⲉⲡⲓ̀ⲡⲣⲉⲧⲱⲣⲓⲟⲛ : ϩⲓⲛⲁ ϫⲉ ̀ⲛⲛⲟⲩⲥⲱϥ ϣⲁⲧⲟⲩⲟⲩⲱⲙ ̀ⲙⲡⲓⲡⲁⲥⲭⲁ.<br>... Ⲟⲩⲱϣⲧ ̀ⲙⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲁⲩ̀̀ⲓⲛⲓ ⲟⲩⲛ ̀ⲛⲓⲏⲥⲟⲩⲥ ̀ⲉⲃⲟⲗ ϩⲁ Ⲕⲁⲓ̀ⲁⲫⲁ ̀ⲉϧⲟⲩⲛ ̀ⲉⲡⲓ̀ⲡⲣⲉⲧⲱⲣⲓⲟⲛ : ⲛⲉ ϣⲱⲣⲡ ⲇⲉ ⲡⲉ : ⲟⲩⲟϩ ̀ⲛⲑⲱⲟⲩ ̀ⲙⲡⲟⲩ̀ⲓ ̀ⲉϧⲟⲩⲛ ̀ⲉⲡⲓ̀ⲡⲣⲉⲧⲱⲣⲓⲟⲛ : ϩⲓⲛⲁ ϫⲉ ̀ⲛⲛⲟⲩⲥⲱϥ ϣⲁⲧⲟⲩⲟⲩⲱⲙ ̀ⲙⲡⲓⲡⲁⲥⲭⲁ.<br>... Ⲟⲩⲱϣⲧ ̀ⲙⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_21_row_12" class="intro">
             <td class="english">Glory be to God forever.</td>

@@ -495,111 +495,121 @@ const adjustOverlay =
     let rowTagName = rows[i].tagName.toLowerCase();
       if (rowTagName === 'caption') {
         lastCaption = i;
-      } else {
+      } else 
+      {
 
-    clearOverlays();
-      var rowIdComponents = rows[i].id.split("_");
-      var tableId = 'table_' + rowIdComponents[1];
+        clearOverlays();
+          var rowIdComponents = rows[i].id.split("_");
+          var tableId = 'table_' + rowIdComponents[1];
 
-      let rowRect = rows[i].getBoundingClientRect();
-      let rowBorderHeight = rows[i].offsetHeight - rows[i].clientHeight;
-      let rowStyle = window.getComputedStyle(rows[i]);
-      let rowMarginBottom = parseInt(rowStyle.marginBottom);
-      let bottomRowRect = rowRect.bottom + rowBorderHeight + rowMarginBottom;
+          let rowRect = rows[i].getBoundingClientRect();
+          let rowBorderHeight = rows[i].offsetHeight - rows[i].clientHeight;
+          let rowStyle = window.getComputedStyle(rows[i]);
+          let rowMarginBottom = parseInt(rowStyle.marginBottom);
+          let bottomRowRect = rowRect.bottom + rowBorderHeight + rowMarginBottom;
 
-      let firstVisibleRowHeight = null;
-      // If row starts before the top and ends after the bottom, clear overlay
-      if (rowRect.top < 0 && bottomRowRect > window.innerHeight) {
-          //sendMessage(JSON.stringify({type: '1st if', data: 'row starts before ends after'}));
-          clearOverlays();
-          overlayVisible = null;
-          break;
-      }
-      // Check if the row is the first visible row
-      if (rowRect.top >= 0 || (rowRect.top < 0 && bottomRowRect > 1)) {
-          if (!firstVisibleRow) {
-              firstVisibleRow = rows[i];
-              let idComponents = rows[i].id.split("_");
-              const parentTableIdComponents = rows[i].parentNode.parentNode.id.split("_");
-              firstVisibleRowTable = parentTableIdComponents[1];
-              if (i>0) {
-                  let idComponents2 = rows[i].parentNode.parentNode.id.split("_");
-                  firstVisibleRowPreviousTable = idComponents2[1];
-                  //sendMessage(JSON.stringify({type: '2nd if row prevtable', data: firstVisibleRowPreviousTable}));
+          let firstVisibleRowHeight = null;
+          // If row starts before the top and ends after the bottom, clear overlay
+          if (rowRect.top < 0 && bottomRowRect > window.innerHeight) {
+              //sendMessage(JSON.stringify({type: '1st if', data: 'row starts before ends after'}));
+              clearOverlays();
+              overlayVisible = null;
+              break;
+          }
+          // Check if the row is the first visible row
+          if (rowRect.top >= 0 || (rowRect.top < 0 && bottomRowRect > 1)) {
+              if (!firstVisibleRow) {
+                  firstVisibleRow = rows[i];
+                  let idComponents = rows[i].id.split("_");
+                  const parentTableIdComponents = rows[i].parentNode.parentNode.id.split("_");
+                  firstVisibleRowTable = parentTableIdComponents[1];
+                  if (i>0) {
+                      let idComponents2 = rows[i].parentNode.parentNode.id.split("_");
+                      firstVisibleRowPreviousTable = idComponents2[1];
+                      //sendMessage(JSON.stringify({type: '2nd if row prevtable', data: firstVisibleRowPreviousTable}));
+                  }
+                  firstVisibleRowHeight = bottomRowRect - rowRect.top;  
+
+                  
+                  currentTable = parentTableIdComponents[0] + "_" + parentTableIdComponents[1];
+                  //sendMessage(JSON.stringify({type: 'firstVisibleRow', data: 'table_' + firstVisibleRowTable + '_row_' + idComponents[3]}));
+
               }
-              firstVisibleRowHeight = bottomRowRect - rowRect.top;  
-
-              
-              currentTable = parentTableIdComponents[0] + "_" + parentTableIdComponents[1];
-              //sendMessage(JSON.stringify({type: 'firstVisibleRow', data: 'table_' + firstVisibleRowTable + '_row_' + idComponents[3]}));
-
           }
-      }
 
-      // Check if the first visible row is longer than the viewport
-      if (firstVisibleRow && firstVisibleRowHeight > window.innerHeight && bottomRowRect > window.innerHeight) {
-          //sendMessage(JSON.stringify({type: '3rd if', data: '1st visible row is longer than viewport'}));
-          // If the first visible row is longer than the viewport, skip creating the overlay and break
-          clearOverlays();
-          overlayVisible = null;
+          // Check if the first visible row is longer than the viewport
+          if (firstVisibleRow && firstVisibleRowHeight > window.innerHeight && bottomRowRect > window.innerHeight) {
+              //sendMessage(JSON.stringify({type: '3rd if', data: '1st visible row is longer than viewport'}));
+              // If the first visible row is longer than the viewport, skip creating the overlay and break
+              clearOverlays();
+              overlayVisible = null;
 
-          break;
-      }
-     
-      
-
-      // check if firstvisible row is from the next table and longer than the viewport when added to caption
-      if (firstVisibleRow && firstVisibleRowPreviousTable && firstVisibleRowHeight
-          && firstVisibleRowTable !== firstVisibleRowPreviousTable 
-          && rowRect.top > 0  && bottomRowRect > window.innerHeight) {
-          //sendMessage(JSON.stringify({type: '4th if', data: '1st visible row is from next table'}));
-          // If the first visible row is longer than the viewport, skip creating the overlay and break
-          clearOverlays();
-          overlayVisible = null;
-          firstVisibleRow = null;
-          firstVisibleRowTable = null;
-          firstVisibleRowPreviousTable = null;
-          firstVisibleRowCaptionHeight = null;
-          break;
+              break;
+          }
+        
           
-      }
 
-      // check if the row is from the next table
-      
-      if (rowRect.top > 0 && bottomRowRect >= window.innerHeight && currentTable !== tableId) {
-          //sendMessage(JSON.stringify({type: '5th if', data: 'row is from next table'}));
-          let rowIdComponents = rows[i].id.split("_");
-          let tableId = rowIdComponents[1];
-          let rowId = rowIdComponents[3];
-          //sendMessage(JSON.stringify({type: 'TABLE_CHANGED', data: tableId}));
-          let caption = document.getElementById('caption_table_' + tableId);
-
-         
-          setOverlayOnTable(tableId);
-          overlayVisible = true;
-
-          break;
-        }
-
-        // Check if the row is partially visible
-        if (rowRect.top < window.innerHeight && bottomRowRect >= window.innerHeight) {
-          if (i === lastCaption+1) {
-            clearOverlays();
-          } else {
-            //sendMessage(JSON.stringify({type: '6th if', data: 'row is partially visible'}));
-            // Get the tableId and rowId from the first partially visible row
-            let rowIdComponents = rows[i].id.split("_");
-            let tableId = rowIdComponents[1];
-            let rowId = rowIdComponents[3];
-            // Pass both tableId and rowId to the setOverlayOnRow function
-            setOverlayOnRow(tableId, rowId);
-            
-            overlayVisible = true;
-            break;
+          // check if firstvisible row is from the next table and longer than the viewport when added to caption
+          if (firstVisibleRow && firstVisibleRowPreviousTable && firstVisibleRowHeight
+              && firstVisibleRowTable !== firstVisibleRowPreviousTable 
+              && rowRect.top > 0  && bottomRowRect > window.innerHeight) {
+              //sendMessage(JSON.stringify({type: '4th if', data: '1st visible row is from next table'}));
+              // If the first visible row is longer than the viewport, skip creating the overlay and break
+              clearOverlays();
+              overlayVisible = null;
+              firstVisibleRow = null;
+              firstVisibleRowTable = null;
+              firstVisibleRowPreviousTable = null;
+              firstVisibleRowCaptionHeight = null;
+              break;
+              
           }
-        }
+
+          // check if the row is from the next table
+          
+          //if (rowRect.top > 0 && bottomRowRect >= window.innerHeight && currentTable !== tableId) {
+          if(firstVisibleRow && firstVisibleRow !== rows[i] && currentTable !== tableId) {
+            //sendMessage(JSON.stringify({type: '5th if', data: 'row is from next table'}));
+            let tableRect = rows[i].parentNode.parentNode.getBoundingClientRect();
+            let tableBorderHeight = rows[i].parentNode.parentNode.offsetHeight - rows[i].parentNode.parentNode.clientHeight;
+            let tableStyle = window.getComputedStyle(rows[i].parentNode.parentNode);
+            let tableMarginBottom = parseInt(tableStyle.marginBottom);
+            let bottomTableRect = tableRect.bottom + tableBorderHeight + tableMarginBottom;
+            if (bottomTableRect >= window.innerHeight) {
+            
+              let rowIdComponents = rows[i].id.split("_");
+              let tableId = rowIdComponents[1];
+              let rowId = rowIdComponents[3];
+              //sendMessage(JSON.stringify({type: 'TABLE_CHANGED', data: tableId}));
+              let caption = document.getElementById('caption_table_' + tableId);
+
+            
+              setOverlayOnTable(tableId);
+              overlayVisible = true;
+
+              break;
+            } 
+          }
+
+            // Check if the row is partially visible
+            if (rowRect.top < window.innerHeight && bottomRowRect >= window.innerHeight) {
+              if (i === lastCaption+1) {
+                clearOverlays();
+              } else {
+                //sendMessage(JSON.stringify({type: '6th if', data: 'row is partially visible'}));
+                // Get the tableId and rowId from the first partially visible row
+                let rowIdComponents = rows[i].id.split("_");
+                let tableId = rowIdComponents[1];
+                let rowId = rowIdComponents[3];
+                // Pass both tableId and rowId to the setOverlayOnRow function
+                setOverlayOnRow(tableId, rowId);
+                
+                overlayVisible = true;
+                break;
+              }
+            }
+          }
       }
-  }
   if (!overlayVisible) {
       // If no partially visible row is found or the first visible row is longer than the viewport, hide the overlay
       clearOverlays();

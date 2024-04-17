@@ -163,7 +163,7 @@ ${hourIntroHtml}
     </tr>
     <tr id="table_3_row_22" class="text">
         <td class="english">But his father refused and said, "I know, my son, I know.</td>
-        <td class="arabic">فَابَى ابُوهُ وَقَالَ: «عَلِمْتُ يَا ابْنِي عَلِمْتُ! هُوَ ايْضا يَكُونُ شَعْبا وَهُوَ ايْضا يَصِيرُ كَبِيرا. وَلَكِنَّ اخَاهُ الصَّغِيرَ يَكُونُ اكْبَرَ مِنْهُ وَنَسْلُهُ يَكُونُ جُمْهُورا مِنَ الامَمِ».</td>
+        <td class="arabic">فَابَى ابُوهُ وَقَالَ: «عَلِمْتُ يَا ابْنِي عَلِمْتُ!</td>
     </tr>
     <tr id="table_3_row_24" class="intro">
         <td class="english">Glory be to the Holy Trinity, our God, forever and unto the age of all ages. Amen.</td>
@@ -323,7 +323,7 @@ ${hourIntroHtml}
         <caption id="caption_table_8" class="caption">6th Prophecy<br>(Job 29:21-30:10)
         <span class="arabic-caption">النبوة  السادسة<br>(ايوب 29: 21 - 10:30)</span></caption>
         <tr id="table_8_row_1" class="intro">
-            <td class="english">A reading from Job the prophet. May his blessings be with us. Amen.</td>
+            <td class="english">A reading from Job the righteous. May his blessings be with us. Amen.</td>
             <td class="arabic">من أيوب الصديق بركته تكون معنا، آمين.</td>
         </tr>
         <tr id="table_8_row_4" class="text">
@@ -546,7 +546,7 @@ ${paschalPraiseHtml}
             <td class="coptic">Ⲕⲁⲧⲁ ̀ⲡϣⲁⲓ ⲇⲉ ⲛⲉ ̀ⲧⲕⲁϩⲥ ̀ⲙⲓϩⲩⲅⲉⲙⲱⲛ : ̀ⲉⲭⲁ ⲟⲩⲁⲓ ̀ⲉⲃⲟⲗϧⲉⲛ ⲛⲏⲉⲧⲥⲟⲛϩ ̀ⲙⲡⲓⲙⲏϣ ⲫⲏ̀ⲉϣⲁⲩ ⲟⲩⲁϣϥ : Ⲛⲉ ⲟⲩⲟⲛ ⲟⲩⲁⲓ ⲇⲉ ⲉϥⲥⲟⲛϩ ̀ⲛⲧⲟⲧⲟⲩ ̀ⲙⲡⲓⲥⲏⲟⲩ ̀ⲉⲧⲉ̀ⲙⲙⲁⲩ ̀ⲉⲟⲩⲥⲟⲛⲓ ⲡⲉ : ⲉⲩⲙⲟⲩϯ ̀ⲉⲣⲟϥ ϫⲉ Ⲃⲁⲣⲁⲃⲃⲁⲥ.<br>... Ⲟⲩⲱϣⲧ ̀ⲙⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_16_row_3" class="priest">
-            <td class="english">According to St Mark</td>
+            <td class="english">According to St. Mark</td>
             <td class="coptic">ⲕⲁⲧⲁ Ⲙⲁⲣⲕⲟⲛ ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">حسب مار مرقس</td>
         </tr>
@@ -559,7 +559,7 @@ ${paschalPraiseHtml}
             <td class="coptic">Ⲕⲁⲧⲁ ̀ⲡϣⲁⲓ ⲇⲉ ⲛⲁϥⲭⲱ ̀ⲛⲟⲩⲁⲓ ⲉϥⲥⲟⲛϩ ⲛⲱⲟⲩ ⲉⲃⲟⲗ : ⲫⲏ̀ⲉϣⲁⲩ̀ⲉⲣⲉⲧⲓⲛ ̀ⲙⲙⲟϥ. Ⲫⲏ ⲇⲉ ̀ⲉⲧⲟⲩⲙⲟⲩϯ ̀ⲉⲣⲟϥ ϫⲉ Ⲃⲁⲣⲁⲃⲃⲁⲥ ⲛⲁϥⲥⲟⲛϩ ⲡⲉ ⲛⲉⲙ ⲛⲏ̀ⲉⲧⲁⲩ̀ⲓⲣⲓ ̀ⲛⲟⲩ̀ϣⲑⲟⲣⲧⲉⲣ : ⲛⲏ̀ⲉⲧⲁⲩ̀ⲓⲣⲓ ̀ⲛⲟⲩϧⲱⲧⲉⲃ ϧⲉⲛ ⲡⲓ̀ϣⲑⲟⲣⲧⲉⲣ.<br>... Ⲟⲩⲱϣⲧ ̀ⲙⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_16_row_6" class="priest">
-            <td class="english">According to St Luke</td>
+            <td class="english">According to St. Luke</td>
             <td class="coptic">ⲕⲁⲧⲁ Ⲗⲟⲩⲕⲁⲛ ̀ ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">حسب مار لوقا</td>
         </tr>
@@ -572,7 +572,7 @@ ${paschalPraiseHtml}
             <td class="coptic">Ⲡⲓⲗⲁⲧⲟⲥ ⲇⲉ ̀ⲉⲧⲁϥⲙⲟⲩϯ ̀Ⲉⲛⲓⲁⲣⲭⲏ̀ⲉⲣⲉⲩⲥ ⲛⲉⲙ ⲛⲓⲁⲣⲭⲱⲛ ⲛⲉⲙ ⲡⲓⲗⲁⲟⲥ : Ⲡⲉϫⲁϥ ⲛⲱⲟⲩ ϫⲉ ̀ⲁⲣⲉⲧⲉⲛ̀ⲓⲛⲓ ⲛⲏⲓ ̀ⲙⲡⲁⲓ ⲣⲱⲙⲓ ϩⲱⲥ ⲉϥⲫⲱⲛϩ ̀ⲙⲡⲓⲗⲁⲟⲥ ⲉⲃⲟⲗ : ⲟⲩⲟϩ ϩⲏⲡⲡⲉ ̀ⲁⲛⲟⲕ ̀ⲉⲧⲁⲓϣⲉⲛϥ ̀ⲉ̀ϩⲣⲁϥ ̀ⲙⲡⲉⲧⲉⲛ̀ⲙⲑⲟ<br>... Ⲟⲩⲱϣⲧ ̀ⲙⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_16_row_9" class="priest">
-            <td class="english">According to St John</td>
+            <td class="english">According to St. John</td>
             <td class="coptic">ⲕⲁⲧⲁ Ⲓⲱⲁⲛⲛⲏⲛ ̀ ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">حسب مار يوحنا</td>
         </tr>

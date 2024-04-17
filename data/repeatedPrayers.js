@@ -262,7 +262,7 @@ function daytimeExpositionIntro(tableNumber) {
             <td class="arabic">المساوي</td>
         </tr>
         <tr id="table_${tableNumber}_row_2" class="priest">
-            <td class="english">The Father and the Son</td>
+            <td class="english">The Father and the Son,</td>
             <td class="coptic">̀̀Ⲫⲓⲱⲧ ⲛⲉⲙ ̀Ⲡ̀ϣⲏⲣⲓ: </td>
             <td class="arabic">الآب والابن</td>
         </tr>
@@ -272,7 +272,7 @@ function daytimeExpositionIntro(tableNumber) {
             <td class="arabic">والروح القدس</td>
         </tr>
         <tr id="table_${tableNumber}_row_4" class="priest">
-            <td class="english">O true light,</td>
+            <td class="english">O true Light,</td>
             <td class="coptic">Ⲡⲓⲟⲩⲱⲓⲛⲓ ̀ⲛⲧⲁ  ̀ⲫⲙⲏⲓ :</td>
             <td class="arabic">أيها النور الحقيقي</td>
         </tr>
@@ -356,12 +356,12 @@ function expositionConclusion(tableNumber) {
         </tr>
         <tr id="table_${tableNumber}_row_1" class="congregation">
             <td class="english">Has come and has borne suffering,</td>
-            <td class="coptic">̀ⲁϥ ̀ⲓ ⲁϥϣⲉⲡ ̀ⲙⲕⲁϩ :</td>
+            <td class="coptic">̀ⲁϥ ̀ⲓ ⲁϥϣⲉⲡ ̀ⲙⲕⲁϩ:</td>
             <td class="arabic">جاء وتألم</td>
         </tr>
         <tr id="table_${tableNumber}_row_2" class="priest">
             <td class="english">That through His passion,</td>
-            <td class="coptic">ϩⲓⲛⲁ ϧⲉⲛ ⲛⲉϥ̀ⲙⲕⲁⲩϩ :</td>
+            <td class="coptic">ϩⲓⲛⲁ ϧⲉⲛ ⲛⲉϥ̀ⲙⲕⲁⲩϩ:</td>
             <td class="arabic">لكى بألآمه</td>
         </tr>
         <tr id="table_${tableNumber}_row_3" class="congregation">
@@ -380,7 +380,7 @@ function expositionConclusion(tableNumber) {
             <td class="arabic">ونرفع اسمه</td>
         </tr>
         <tr id="table_${tableNumber}_row_6" class="priest">
-            <td class="english">For He has done us mercy</td>
+            <td class="english">For He has done us mercy,</td>
             <td class="coptic">̀ϫⲉ ⲁϥⲉⲣⲟⲩⲛⲁⲓ ⲛⲉⲙⲁⲛ :</td>
             <td class="arabic">لأنه صنع معنا رحمة.</td>
         </tr>

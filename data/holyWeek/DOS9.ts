@@ -48,7 +48,7 @@ ${hourIntroHtml}
     <table id="table_3" title="1st Prophecy - Lamentations">
         <caption class="caption" id="caption_table_3">1st Prophecy<br>(Lamentations 1:1-4)
         <span class="arabic-caption">النبوة الأولي<br>(مراثي ارميا 1:1-4)</span></caption>
-        <tr id="table_3_row_0" class="Inro">
+        <tr id="table_3_row_0" class="Intro">
             <td class="english">A reading from the Lamentations of Jeremiah the prophet. May his blessings be with us. Amen.</td>
             <td class="arabic">من مراثي أرميا النبي، بركته تكون معنا أمين.</td>
         </tr>
@@ -78,9 +78,8 @@ ${hourIntroHtml}
         <caption class="caption" id="caption_table_4">2nd Prophecy<br>(Zephaniah 3:11-20)
         <span class="arabic-caption">النبوة الثانية<br>(صفنيا 3:11-20)</span></caption>
         </caption>
-        <tr id="table_4_row_0" class="Inro">
-            <td class="english">A reading from Zephaniah the Prophet. May his blessing be with us, Amen.</td>
-            <td class="copticReadings">Ⲉ̀ⲃⲟⲗϧⲉⲛ Ⲥⲟⲫⲟⲛⲓⲁⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ.</td>
+        <tr id="table_4_row_0" class="Intro">
+            <td class="english">A reading from Zephaniah the prophet. May his blessings be with us. Amen.</td>
             <td class="arabic">من صفنيا النبى بركته تكون معنا، آمين.</td>
         </tr>
         <tr id="table_4_row_1" class="text">
@@ -165,25 +164,14 @@ ${paschalPraiseHtml}
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_9_row_2" class="text">
-            <td class="coptic">Ⲟⲩⲟϩ ̀ⲉⲧⲁϥ̀ⲓ ̀ⲉϧⲟⲩⲛ ̀ⲉⲒ̅ⲗ̅ⲏ̅ⲙ ⲁⲥⲙⲟⲛⲙⲉⲛ ̀ⲛϫⲉ ϯⲃⲁⲕⲓ ⲧⲏⲣⲥ ⲉⲩϫⲱ ̀ⲙⲙⲟⲥ ϫⲉ ⲛⲓⲙ ⲡⲉ ⲫⲁⲓ.
-                Ⲛⲓⲙⲏϣ ⲇⲉ ⲛⲁⲩϫⲱ ̀ⲙⲙⲟⲥ ϫⲉ ⲫⲁⲓ ⲡⲉ ⲡⲓ̀ⲡⲣⲟⲫⲏⲧⲏⲥ Ⲓ̅ⲏ̅ⲥ ⲡⲓⲣⲉⲙⲛⲁⲍⲁⲣⲉⲑ ̀ⲛⲧⲉϯⲅⲁⲗⲓⲗⲓ̀ⲁ : 
+            <td class="coptic">Ⲟⲩⲟϩ ̀ⲉⲧⲁϥ̀ⲓ ̀ⲉϧⲟⲩⲛ ̀ⲉⲒ̅ⲗ̅ⲏ̅ⲙ ⲁⲥⲙⲟⲛⲙⲉⲛ ̀ⲛϫⲉ ϯⲃⲁⲕⲓ ⲧⲏⲣⲥ ⲉⲩϫⲱ ̀ⲙⲙⲟⲥ ϫⲉ ⲛⲓⲙ ⲡⲉ ⲫⲁⲓ. Ⲛⲓⲙⲏϣ ⲇⲉ ⲛⲁⲩϫⲱ ̀ⲙⲙⲟⲥ ϫⲉ ⲫⲁⲓ ⲡⲉ ⲡⲓ̀ⲡⲣⲟⲫⲏⲧⲏⲥ Ⲓ̅ⲏ̅ⲥ ⲡⲓⲣⲉⲙⲛⲁⲍⲁⲣⲉⲑ ̀ⲛⲧⲉϯⲅⲁⲗⲓⲗⲓ̀ⲁ : 
             </td>
         </tr>
-        <tr id="table_9_row_3" class="text">
-            <td class="coptic">
-                Ⲛⲓⲙⲏϣ ⲇⲉ ⲛⲁⲩϫⲱ ̀ⲙⲙⲟⲥ ϫⲉ ⲫⲁⲓ ⲡⲉ ⲡⲓ̀ⲡⲣⲟⲫⲏⲧⲏⲥ Ⲓ̅ⲏ̅ⲥ ⲡⲓⲣⲉⲙⲛⲁⲍⲁⲣⲉⲑ ̀ⲛⲧⲉϯⲅⲁⲗⲓⲗⲓ̀ⲁ :
-            </td>
-        </tr>
+        
         <tr id="table_9_row_4" class="text">
-            <td class="coptic">
-                Ⲟⲩⲟϩ ⲁϥϣⲉⲛⲁϥ ̀ⲛϫⲉ Ⲓⲏⲥ ⲉϧⲟⲩⲛ ̀ⲉⲡⲓⲉⲣⲫⲉⲓ ⲟⲩⲟϩ ⲁϥϩⲓⲟⲩ̀ⲓ ̀ⲉⲃⲟⲗ ̀ⲛⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ ⲉⲧϯ ̀ⲉⲃⲟⲗϧⲉⲛ ⲡⲓⲉⲣⲫⲉⲓ ⲛⲉⲙ ⲛⲏⲉⲧϣⲱⲡ ⲟⲩⲟϩ ̀ⲛⲧⲣⲁⲡⲉⲍⲁ ̀ⲛⲧⲉ ⲛⲓⲣⲉϥ ⲉⲣⲕⲉⲣⲙⲁ ⲁϥⲫⲟⲛϫⲟⲩ ⲛⲉⲙ ⲛⲓⲕⲁⲑⲉⲇⲣⲁ ̀ⲛⲧⲉ ̀ⲛⲏⲉⲧ ϯϭⲣⲟⲙⲡⲓ ⲉⲃⲟⲗ.
-            </td>
+            <td class="coptic">Ⲟⲩⲟϩ ⲁϥϣⲉⲛⲁϥ ̀ⲛϫⲉ Ⲓⲏⲥ ⲉϧⲟⲩⲛ ̀ⲉⲡⲓⲉⲣⲫⲉⲓ ⲟⲩⲟϩ ⲁϥϩⲓⲟⲩ̀ⲓ ̀ⲉⲃⲟⲗ ̀ⲛⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ ⲉⲧϯ ̀ⲉⲃⲟⲗϧⲉⲛ ⲡⲓⲉⲣⲫⲉⲓ ⲛⲉⲙ ⲛⲏⲉⲧϣⲱⲡ ⲟⲩⲟϩ ̀ⲛⲧⲣⲁⲡⲉⲍⲁ ̀ⲛⲧⲉ ⲛⲓⲣⲉϥ ⲉⲣⲕⲉⲣⲙⲁ ⲁϥⲫⲟⲛϫⲟⲩ ⲛⲉⲙ ⲛⲓⲕⲁⲑⲉⲇⲣⲁ ̀ⲛⲧⲉ ̀ⲛⲏⲉⲧ ϯϭⲣⲟⲙⲡⲓ ⲉⲃⲟⲗ.<br>... Ⲟⲩⲱϣⲧ ̀ⲙⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
-        <tr id="table_9_row_5" class="text">
-            <td class="coptic">
-                Ⲟⲩⲱϣⲧ ̀ⲙⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅ 
-            </td>
-        </tr>
+
         <tr id="table_9_row_6" class="intro">
         <td class="english">Glory be to God forever.</td>
         <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓ̀ⲉ</td>
@@ -194,16 +182,14 @@ ${paschalPraiseHtml}
 <div class="section" id="section_7" title="Engligh and Arabic Psalm & Gospel">
     <table id="table_10" title="Psalm">
         <caption class="caption" id="caption_table_10">Psalm<br>(8: 2,1)
-        <span class="arabic-caption>المزمور<br>(8: 2,1)</caption>
+        <span class="arabic-caption>المزمور<br>(8: 2,1)</span></caption>
         <tr id="table_10_row_0" class="intro">
-            <td class="english">From the psalms of our teacher David the prophet may his blessings be with us
-                Amen.</td>
-            <td class="arabic">من مزامير معلمنا داود النبي، بركاته علينا أمين.</td>
+            <td class="english">From the Psalms of our teacher David the prophet. May his blessing be with us. Amen.</td>
+            <td class="arabic">من مزامير معلمنا داود النبي، بركته تكون معنا، آمين.</td>
         </tr>
 
         <tr id="table_10_row_1" class="text">
-            <td class="english">Out of the mouth of babes and nursing infants You have ordained strength, O
-                Lord, our Lord, How excellent is Your name in all the earth. Alleluia</td>
+            <td class="english">Out of the mouth of babes and nursing infants You have ordained strength, O Lord, our Lord, How excellent is Your name in all the earth.</td>
             <td class="arabic">من أفواه الاطفال والرضعان هيأت سبحاً. أيها الرب ربنا مثل عجب صار اسمك على الأرض كلها.</td>
         </tr>
         <tr id="table_10_row_2" class="intro">
@@ -212,16 +198,15 @@ ${paschalPraiseHtml}
         </tr>
     </table>
     <table id="table_11" title="Gospel">
-        <caption class="caption" id="caption_table_11">Gospel<br>(Matthew 21: 17-10)
-        <span class="arabic-caption">الإنجيل<br>(متى 21: 17-10)</span></caption>
+        <caption class="caption" id="caption_table_11">Gospel<br>(Matthew 21: 10-17)
+        <span class="arabic-caption">الإنجيل<br>(17-10 :متى 21)</span></caption>
         <tr id="table_11_row_0" class="intro">
-            <td class="english">May God have mercy and compassion upon us and make us worthy to hear Your Holy Gospel. A chapter according to St. Mathew. May his blessings be with us, Amen.</td>
+            <td class="english">May God have mercy and compassion upon us, and make us worthy to hear Your Holy Gospel. A chapter according to our teacher St.  Matthew the evangelist. May his blessings be with us. Amen.</td>
             <td class="arabic">اللهم تراءف علينا و أرحمنا و أجعلنا مستحقين لسماع إنجيلك المقدس، فصل من إنجيل معلمنا متى البشير، بركاته تكون معنا أمين.</td>
         </tr>
 
         <tr id="table_10_row_1" class="text">
-            <td class="english">And when He had come into Jerusalem, all the city was moved, saying, “Who is this?” 
-            </td>
+            <td class="english">And when He had come into Jerusalem, all the city was moved, saying, “Who is this?”</td>
             <td class="arabic">وَلَمَّا دَخَلَ أُورُشَلِيمَ ارْتَجَّتِ الْمَدِينَةُ كُلُّهَا قَائِلَةً: «مَنْ هَذَا؟» </td>
         </tr>
         <tr id="table_11_row_2" class="text">
@@ -229,7 +214,7 @@ ${paschalPraiseHtml}
             <td class="arabic">فَقَالَتِ الْجُمُوعُ: «هَذَا يَسُوعُ النَّبِيُّ الَّذِي مِنْ نَاصِرَةِ الْجَلِيلِ».</td>
         </tr>
         <tr id="table_11_row_3" class="text">
-            <td class="english"Then Jesus went into the temple of God and drove out all those who bought and sold in the temple, and overturned the tables of the money changers and the seats of those who sold doves.</td>
+            <td class="english">Then Jesus went into the temple of God and drove out all those who bought and sold in the temple, and overturned the tables of the money changers and the seats of those who sold doves.</td>
             <td class="arabic">وَدَخَلَ يَسُوعُ إِلَى هَيْكَلِ اللَّهِ وَأَخْرَجَ جَمِيعَ الَّذِينَ كَانُوا يَبِيعُونَ وَيَشْتَرُونَ فِي الْهَيْكَلِ وَقَلَبَ مَوَائِدَ الصَّيَارِفَةِ وَكَرَاسِيَّ بَاعَةِ الْحَمَامِ</td>
         </tr>
         <tr id="table_11_row_4" class="text">
