@@ -154,7 +154,7 @@ ${paschalPraiseHtml}
         <caption class="caption" id="caption_table_9">Coptic Gospel<br>(Matthew 21:10-17)
         <span class="arabic-caption">الأنجيل قبطي<br>(متى 21: 10-17)</span></caption>
         <tr id="table_9_row_0" class="priest">
-            <td class="english">A chapter according to St. Mathew,</td>
+            <td class="english">A chapter according to St. Matthew,</td>
             <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ̀ⲉⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲱⲛ ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">فصل من إنجيل معلمنا مار متى</td>
         </tr>

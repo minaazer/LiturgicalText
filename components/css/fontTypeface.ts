@@ -9,6 +9,17 @@ export const fontTypeface = `
     font-style: normal;
     font-display: swap;
    }
+
+   @font-face {
+    font-family: "FreeSerif Avva Shenouda";
+    src: 
+        url("https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/FreeSerifAvvaShenouda.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+   }
+
+
    @font-face {
     font-family: "EB Garamond";
     src: 

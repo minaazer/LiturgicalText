@@ -21,31 +21,31 @@ ${hourIntroHtml}
     <caption class="caption" id="caption_table_2">Coptic Prophecies
     <span class="arabic-caption">النبوات قبطي</span></caption>
         <tr id="table_2_row_3" class="intro">
-            <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ ̀Ⲏⲥⲁ̀ⲏⲁⲥ ⲡⲓ̀ⲡⲣⲟⲫⲏⲧⲏⲥ: ̀ⲉⲣⲉⲡⲉϥ̀ⲥⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ̀ⲁⲙⲏⲛ ⲉϥϫⲱ ̀ⲙⲙⲟⲥ:</td>
+            <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲏ̀ⲥⲁⲏ̀ⲁⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ:</td>
         </tr>
         <tr id="table_2_row_4" class="text">
-            <td class="coptic">Ϩⲏⲡⲡⲉ ⲉϥ̀ⲉⲕⲁϯ ̀ⲛϫⲉ ⲡⲁ̀ⲁⲗⲟⲩ : ⲉϥ̀ⲉϭⲓⲥⲓ ⲟⲩⲟϩ ⲉϥ̀ⲉϭⲓⲱⲟⲩ ̀ⲉⲙⲁϣⲱ : ̀Ⲙ̀ⲫⲣⲏϯ ̀ⲉⲧⲉ ⲟⲩⲟⲛ ⲟⲩⲙⲏϣ ⲛⲁⲧⲱⲙⲧ ⲉ̀ϩⲣⲏⲓ ̀ⲉϫⲱⲕ : ⲡⲁⲓⲣⲏϯ ⲉϥ̀ⲉϣⲱϣ ̀ⲛϫⲉ ⲡⲉⲕ̀ⲥⲙⲟⲧ ⲛⲉⲙ ⲡⲉⲕⲱ̀ⲟⲩ ̀ⲉⲃⲟⲗϩⲁⲛⲓⲣⲱⲙⲓ</td>
+            <td class="coptic">Ϩⲏⲡⲡⲉ ⲉϥⲉ̀ⲕⲁϯ ⲛ̀ϫⲉ ⲡⲁⲁ̀ⲗⲟⲩ : ⲉϥⲉ̀ϭⲓⲥⲓ ⲟⲩⲟϩ ⲉϥⲉ̀ϭⲓⲱⲟⲩ ⲉ̀ⲙⲁϣⲱ : Ⲙ̀ⲫ̀ⲣⲏϯ ⲉ̀ⲧⲉ ⲟⲩⲟⲛ ⲟⲩⲙⲏϣ ⲛⲁⲧⲱⲙⲧ ⲉϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲕ : ⲡⲁⲓⲣⲏϯ ⲉϥⲉ̀ϣⲱϣ ⲛ̀ϫⲉ ⲡⲉⲕⲥ̀ⲙⲟⲧ ⲛⲉⲙ ⲡⲉⲕⲱⲟ̀ⲩ ⲉ̀ⲃⲟⲗϩⲁⲛⲓⲣⲱⲙⲓ</td>
         </tr>
         <tr id="table_2_row_5" class="intro">
-            <td class="coptic">Ⲟⲩ̀ⲱⲟⲩ ̀ⲛϯ̀ⲧⲣⲓⲁⲥ ̀ⲉⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ...</td>
+            <td class="coptic">Ⲟⲩⲱ̀ⲟⲩ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ...</td>
         </tr>
         <tr id="table_2_row_6" class="intro">
-            <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ ̀Ⲏⲥⲁ̀ⲏⲁⲥ ⲡⲓ̀ⲡⲣⲟⲫⲏⲧⲏⲥ: ̀ⲉⲣⲉⲡⲉϥ̀ⲥⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ̀ⲁⲙⲏⲛ ⲉϥϫⲱ ̀ⲙⲙⲟⲥ:</td>
+            <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲏ̀ⲥⲁⲏ̀ⲁⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ:</td>
         </tr>
         <tr id="table_2_row_7" class="text">
-            <td class="coptic">Ϧⲉⲛ ⲡⲓ̀ⲉϩⲟⲟⲩ ̀ⲉⲧⲉ ̀ⲙⲙⲁⲩ ⲟⲩⲛ ⲟⲩⲑⲩⲥⲓⲁⲥ ⲧⲏⲣⲓⲟⲛ ⲛⲁϣⲱⲡⲓ ̀ⲙⲏⲟⲥ ϧⲉⲛ ⲭⲏⲙⲓ ⲟⲩⲟϩ ⲟⲩ̀ⲥⲧⲏⲗⲗⲏ ϩⲁⲧ ̀ⲙⲡⲉⲥⲧⲟϣ ̀ⲙⲠ⳪ ⲟⲩⲟϩ ϥⲛⲁϣⲱⲡⲓ ⲉⲩⲙⲏⲓⲛⲓϣⲁⲉⲛⲉϩ ̀ⲙⲠ⳪ ϧⲉⲛ ϯⲭⲱⲣⲁ ̀ⲛⲭⲏⲙⲓ ϫⲉ ⲥⲉⲛⲁ ϭⲓϣⲕⲁⲕ̀ⲉⲃⲟⲗ ̀ⲉ̀ϧⲣⲏⲓ ̀ⲉⲠ⳪ Ⲫϯ </td>
+            <td class="coptic">Ϧⲉⲛ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲉ̀ⲧⲉ ⲙ̀ⲙⲁⲩ ⲟⲩⲛ ⲟⲩⲑⲩⲥⲓⲁⲥ ⲧⲏⲣⲓⲟⲛ ⲛⲁϣⲱⲡⲓ ⲙ̀ⲏⲟⲥ ϧⲉⲛ ⲭⲏⲙⲓ ⲟⲩⲟϩ ⲟⲩⲥ̀ⲧⲏⲗⲗⲏ ϩⲁⲧ ⲙ̀ⲡⲉⲥⲧⲟϣ ⲙ̀Ⲡ⳪ ⲟⲩⲟϩ ϥⲛⲁϣⲱⲡⲓ ⲉⲩⲙⲏⲓⲛⲓϣⲁⲉⲛⲉϩ ⲙ̀Ⲡ⳪ ϧⲉⲛ ϯⲭⲱⲣⲁ ⲛ̀ⲭⲏⲙⲓ ϫⲉ ⲥⲉⲛⲁ ϭⲓϣⲕⲁⲕⲉ̀ⲃⲟⲗ ⲉ̀ϧ̀ⲣⲏⲓ ⲉ̀Ⲡ⳪ Ⲫϯ </td>
         </tr>
         <tr id="table_2_row_8" class="intro">
-            <td class="coptic">Ⲟⲩ̀ⲱⲟⲩ ̀ⲛϯ̀ⲧⲣⲓⲁⲥ ̀ⲉⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ...</td>
+            <td class="coptic">Ⲟⲩⲱ̀ⲟⲩ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ...</td>
         </tr>
         <tr id="table_2_row_9" class="intro">
-            <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲍⲁⲭⲁⲣⲓⲁⲥ ⲡⲓ̀ⲡⲣⲟⲫⲏⲧⲏⲥ: ̀ⲉⲣⲉⲡⲉϥ̀ⲥⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ̀ⲁⲙⲏⲛ ⲉϥϫⲱ ̀ⲙⲙⲟⲥ:</td>
+            <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲍⲁⲭⲁⲣⲓⲁⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ:</td>
         </tr>
         <tr id="table_2_row_10" class="text">
-            <td class="coptic">Ϧⲉⲛ ⲡⲓ̀ⲉϩⲟⲟⲩ ⲉⲧⲉ̀ⲙⲙⲁⲩ ̀ϥⲛⲁ̀ⲁϣⲁⲓ ̀ⲛϫⲉ ̀ⲡⲛⲉϩⲡⲓ ̀ⲛⲒ̅ⲗ̅ⲏ̅ⲙ ⲟⲩⲟϩ ̀ⲛⲉ ̀ⲙⲡⲓⲔⲱⲣⲓ ̀ⲛⲟⲩⲙⲁ̀ⲛ ϩⲉⲣⲙⲁⲛ ⲉⲩⲕⲱⲣⲓ ̀ⲙⲙⲟϥ ϧⲉⲛ ⲧⲥⲱϣⲓ ⲟⲩⲟϩ ⲡⲕⲁϩⲓ ⲉϥⲛⲁⲛⲉϩⲡⲓ </td>
+            <td class="coptic">Ϧⲉⲛ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲉⲧⲉⲙ̀ⲙⲁⲩ ϥ̀ⲛⲁⲁ̀ϣⲁⲓ ⲛ̀ϫⲉ ⲡ̀ⲛⲉϩⲡⲓ ⲛ̀Ⲓ̅ⲗ̅ⲏ̅ⲙ ⲟⲩⲟϩ ⲛ̀ⲉ ⲙ̀ⲡⲓⲔⲱⲣⲓ ⲛ̀ⲟⲩⲙⲁⲛ̀ ϩⲉⲣⲙⲁⲛ ⲉⲩⲕⲱⲣⲓ ⲙ̀ⲙⲟϥ ϧⲉⲛ ⲧⲥⲱϣⲓ ⲟⲩⲟϩ ⲡⲕⲁϩⲓ ⲉϥⲛⲁⲛⲉϩⲡⲓ </td>
         </tr>
         <tr id="table_2_row_11" class="intro">
-            <td class="coptic">Ⲟⲩ̀ⲱⲟⲩ ̀ⲛϯ̀ⲧⲣⲓⲁⲥ ̀ⲉⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ϣⲁ ̀ⲉⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉⲛⲉϩ ̀ⲛⲧⲉ ⲛⲓ̀ⲉⲛⲉϩ ⲧⲏⲣⲟⲩ: ̀ⲁⲙⲏⲛ.</td>
+            <td class="coptic">Ⲟⲩⲱ̀ⲟⲩ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ: ⲁ̀ⲙⲏⲛ.</td>
         </tr>
     </table>
 </div>
@@ -280,22 +280,22 @@ ${paschalPraiseHtml}
         </tr>
         <tr id="table_10_row_1" class="text">
             <td class="english">You hate My instruction,</td>
-            <td class="coptic">̀Ⲛⲑⲟⲕ ⲇⲉ ⲁⲕⲙⲉⲥⲧⲉ ⲧⲁ̀ⲥⲃⲱ:</td>
+            <td class="coptic">Ⲛ̀ⲑⲟⲕ ⲇⲉ ⲁⲕⲙⲉⲥⲧⲉ ⲧⲁⲥ̀ⲃⲱ:</td>
             <td class="arabic">وأنت قد أبغضت أدبى.</td>
         </tr>
         <tr id="table_10_row_2" class="text">
             <td class="english">and cast My words behind you.</td>
-            <td class="coptic">ⲟⲩⲟϩ ⲁⲕϩⲓⲟⲩ̀ⲓ ̀ⲛⲛⲁⲥⲁϫⲓ ⲥⲁⲫⲁϩⲟⲩ ̀ⲙⲙⲟⲕ:</td>
+            <td class="coptic">ⲟⲩⲟϩ ⲁⲕϩⲓⲟⲩⲓ̀ ⲛ̀ⲛⲁⲥⲁϫⲓ ⲥⲁⲫⲁϩⲟⲩ ⲙ̀ⲙⲟⲕ:</td>
             <td class="arabic">وألقيت كلامى إلى خلفك.</td>
         </tr>
         <tr id="table_10_row_3" class="text">
             <td class="english">If you see a thief, you run with him,</td>
-            <td class="coptic">ⲁⲕϣⲁⲛⲛⲁⲩ ̀ⲉⲟⲩⲣⲉϥϭⲓⲟⲩ̀ⲓ ⲛⲁⲕϭⲟϫⲓ ⲛⲉⲙⲁϥ :</td>
+            <td class="coptic">ⲁⲕϣⲁⲛⲛⲁⲩ ⲉ̀ⲟⲩⲣⲉϥϭⲓⲟⲩⲓ̀ ⲛⲁⲕϭⲟϫⲓ ⲛⲉⲙⲁϥ :</td>
             <td class="arabic">اذا رأيت سارقاً سعيت معه.</td>
         </tr>
         <tr id="table_10_row_4" class="text">
             <td class="english">and you keep company with adulterers</td>
-            <td class="coptic">ⲁⲕⲭⲱ ̀ⲛⲧⲉⲕⲧⲟⲓ ⲛⲉⲙ ⲛⲓⲛⲱⲓⲕ</td>
+            <td class="coptic">ⲁⲕⲭⲱ ⲛ̀ⲧⲉⲕⲧⲟⲓ ⲛⲉⲙ ⲛⲓⲛⲱⲓⲕ</td>
             <td class="arabic">مع الفسقة جعلت نصيبك.</td>
         </tr>
         <tr id="table_10_row_5" class="intro">
@@ -310,17 +310,17 @@ ${paschalPraiseHtml}
         <span class="arabic-caption">الإنجيل قبطي<br>(يوحنا 13: 21 – 30)</span></caption>
         <tr id="table_12_row_0" class="priest">
             <td class="english">A chapter according to St. John,</td>
-            <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ̀ⲉⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲓⲱⲁⲛⲛⲏⲛ ⲁⲅⲓⲟⲩ.</td>
+            <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲓⲱⲁⲛⲛⲏⲛ ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">فصل من إنجيل معلمنا مار يوحنا</td>
         </tr>
         <tr id="table_12_row_1" class="text">
-            <td class="coptic">Ⲛⲁⲓ ⲇⲉ ̀ⲉⲧⲁϥϫⲟⲧⲟⲩ ̀ⲛϫⲉ Ⲓ̅ⲏ̅ⲥ ⲁϥ̀ϣⲑⲟⲣⲧⲉⲣ ϧⲉⲛ ⲡⲓ̅ⲡ̅ⲛ̅ⲁ : ⲁϥⲉⲣⲙⲉⲑⲣⲉ ⲟⲩⲟϩ ⲡⲉϫⲁϥ : ϫⲉ ̀ⲁⲙⲏⲛ ̀ⲁⲙⲏⲛ ϯϫⲱ̀ⲙⲙⲟⲥ ⲛⲱⲧⲉⲛ ϫⲉ ⲟⲩⲁⲓ ̀ⲉⲃⲟⲗϧⲉⲛ ⲑⲏⲛⲟⲩ ⲡⲉⲑⲛⲁⲧⲏⲓⲧ : Ⲛⲁⲩⲥⲟⲙⲥ ⲟⲩⲛ ⲟⲩⲃⲉ ⲛⲟⲩ̀ⲉⲣⲏⲟⲩ ̀ⲛϫⲉ ⲛⲓⲙⲁⲑⲏⲧⲏⲥ ̀ⲛⲥⲉ̀ⲉⲙⲓ ⲁⲛ ϫⲉ ⲁϥϫⲉⲣⲉ ⲛⲓⲙ ̀ⲙⲙⲱⲟⲩ : Ⲛⲁϥⲣⲱⲧⲉⲃ ⲇⲉ ̀ⲛϫⲉ ⲟⲩⲁⲓ ϧⲉⲛ ⲕⲉⲛϥ ̀ⲛⲒ̅ⲏ̅ⲥ ̀ⲉⲃⲟⲗϧⲉⲛ ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ ...
-            <br> Ⲟⲩⲱϣⲧ ̀ⲙⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲛⲁⲓ ⲇⲉ ⲉ̀ⲧⲁϥϫⲟⲧⲟⲩ ⲛ̀ϫⲉ Ⲓ̅ⲏ̅ⲥ ⲁϥϣ̀ⲑⲟⲣⲧⲉⲣ ϧⲉⲛ ⲡⲓ̅ⲡ̅ⲛ̅ⲁ : ⲁϥⲉⲣⲙⲉⲑⲣⲉ ⲟⲩⲟϩ ⲡⲉϫⲁϥ : ϫⲉ ⲁ̀ⲙⲏⲛ ⲁ̀ⲙⲏⲛ ϯϫⲱⲙ̀ⲙⲟⲥ ⲛⲱⲧⲉⲛ ϫⲉ ⲟⲩⲁⲓ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲑⲏⲛⲟⲩ ⲡⲉⲑⲛⲁⲧⲏⲓⲧ : Ⲛⲁⲩⲥⲟⲙⲥ ⲟⲩⲛ ⲟⲩⲃⲉ ⲛⲟⲩⲉ̀ⲣⲏⲟⲩ ⲛ̀ϫⲉ ⲛⲓⲙⲁⲑⲏⲧⲏⲥ ⲛ̀ⲥⲉⲉ̀ⲙⲓ ⲁⲛ ϫⲉ ⲁϥϫⲉⲣⲉ ⲛⲓⲙ ⲙ̀ⲙⲱⲟⲩ : Ⲛⲁϥⲣⲱⲧⲉⲃ ⲇⲉ ⲛ̀ϫⲉ ⲟⲩⲁⲓ ϧⲉⲛ ⲕⲉⲛϥ ⲛ̀Ⲓ̅ⲏ̅ⲥ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ ...
+            <br> Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         <tr id="table_12_row_2" class="intro">
-            <td class="coptic">Ⲟⲩⲱϣⲧ ̀ⲙⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅ </td>
+            <td class="coptic">Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅ </td>
         </tr>
         <tr id="table_12_row_3" class="congregation">
-            <td class="coptic">Ⲇⲟⲝⲁⲥⲓ Ⲕⲩⲣⲓ ̀ⲉ.</td>
+            <td class="coptic">Ⲇⲟⲝⲁⲥⲓ Ⲕⲩⲣⲓ ⲉ̀.</td>
         </tr>
     </table>
 </div>
@@ -417,7 +417,7 @@ ${daytimeExpositionIntroHtml}
         <td class="arabic">طرح الساعة الحادية عشرة من يوم الخميس العهد من البصخة المقدسة بركتها علينا. آمين.</td>
     </tr>
     <tr id="table_16_row_4" class="text">
-        <td class="english">The Sun of Righteousness shone upon us.  That is Jesus Christ, the true light, who gives light to everyone in the world.</td>
+        <td class="english">The Sun of Righteousness shone upon us. That is Jesus Christ, the true light, who gives light to everyone in the world.</td>
         <td class="arabic">شمس البر أضاء، وشعاعه بلغ ضياؤه إلى أقطار الأرض، الذى هو يسوع النور الحقيقى الذى يضئ لكل إنسان آتٍ إلى العالم.</td>
     </tr>
     <tr id="table_16_row_5" class="text">

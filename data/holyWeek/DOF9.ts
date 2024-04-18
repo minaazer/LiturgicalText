@@ -22,31 +22,31 @@ ${hourIntroHtml}
     <caption class="caption" id="caption_table_2">Coptic Prophecies
     <span class="arabic-caption">النبوات قبطي</span></caption>
         <tr id="table_2_row_3" class="intro">
-            <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲓⲉⲣⲉⲙⲓⲁⲥ ⲡⲓ̀ⲡⲣⲟⲫⲏⲧⲏⲥ: ̀ⲉⲣⲉⲡⲉϥ̀ⲥⲙⲟⲩ ̀ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ̀ⲁⲙⲏⲛ (ⲉϥϫⲱ ̀ⲙⲙⲟⲥ):</td>
+            <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲓⲉⲣⲉⲙⲓⲁⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ (ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ):</td>
         </tr>
         <tr id="table_2_row_4" class="text">
-            <td class="coptic">̀Ⲡϭⲟⲓⲥ ⲙⲁⲧⲁⲙⲟⲓ ⲟⲩⲟϩ ⲉⲓ̀ⲉⲙⲓ : ⲧⲟⲧⲉ ⲁⲓⲛⲁⲩ ̀ⲉⲛⲟⲩ̀ϩⲃⲏⲟⲩ̀ⲓ ̀Ⲁⲛⲟⲕ ⲇⲉ ̀ⲙ̀ⲫⲣⲏϯ ̀ⲛⲟⲩϩⲓⲏⲃ ̀ⲛⲁⲧⲡⲉⲧϩⲱⲟⲩ ⲉⲩ̀ⲓⲛⲓ ̀ⲙⲙⲟϥ ̀ⲉϣⲁⲧϥ ⲟⲩⲟϩ ̀ⲙⲡⲓ̀ⲉⲙⲓ̅ⲡ̅ⲛ̅ⲁ Ⲁⲩⲥⲟϭⲛⲓ ̀ⲉⲣⲟⲓ ̀ⲛⲟⲩⲥⲟϭⲛⲓ ⲉϥϩⲱⲟⲩ ⲉⲩϫⲱ̀ⲙⲙⲟⲥ.</td>
+            <td class="coptic">Ⲡ̀ϭⲟⲓⲥ ⲙⲁⲧⲁⲙⲟⲓ ⲟⲩⲟϩ ⲉⲓⲉ̀ⲙⲓ : ⲧⲟⲧⲉ ⲁⲓⲛⲁⲩ ⲉ̀ⲛⲟⲩϩ̀ⲃⲏⲟⲩⲓ̀ Ⲁ̀ⲛⲟⲕ ⲇⲉ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲟⲩϩⲓⲏⲃ ⲛ̀ⲁⲧⲡⲉⲧϩⲱⲟⲩ ⲉⲩⲓ̀ⲛⲓ ⲙ̀ⲙⲟϥ ⲉ̀ϣⲁⲧϥ ⲟⲩⲟϩ ⲙ̀ⲡⲓⲉ̀ⲙⲓ̅ⲡ̅ⲛ̅ⲁ Ⲁⲩⲥⲟϭⲛⲓ ⲉ̀ⲣⲟⲓ ⲛ̀ⲟⲩⲥⲟϭⲛⲓ ⲉϥϩⲱⲟⲩ ⲉⲩϫⲱⲙ̀ⲙⲟⲥ.</td>
         </tr>
         <tr id="table_2_row_5" class="intro">
-            <td class="coptic">Ⲟⲩ̀ⲱⲟⲩ ̀ⲛϯ̀ⲧⲣⲓⲁⲥ ̀ⲉⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ...</td>
+            <td class="coptic">Ⲟⲩⲱ̀ⲟⲩ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ...</td>
         </tr>
         <tr id="table_2_row_6" class="intro">
-            <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ  Ⲍⲁⲭⲁⲣⲓⲁⲥ ⲡⲓ̀ⲡⲣⲟⲫⲏⲧⲏⲥ: ̀ⲉⲣⲉⲡⲉϥ̀ⲥⲙⲟⲩ ̀ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ̀ⲁⲙⲏⲛ (ⲉϥϫⲱ ̀ⲙⲙⲟⲥ):</td>
+            <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ  Ⲍⲁⲭⲁⲣⲓⲁⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ (ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ):</td>
         </tr>
         <tr id="table_2_row_7" class="text">
-            <td class="coptic">Ⲟⲩⲟϩ ⲉϥ̀ⲉ̀ⲓ ̀ⲛϫⲉ ̀Ⲡ⳪ ⲡⲁⲛⲟⲩϯ : ⲟⲩⲟϩ ⲛⲉϥⲁⲅⲅⲉⲗⲟⲥ ⲧⲏⲣⲟⲩ ⲛⲉⲙⲁϥ : ϧⲉⲛ ⲡⲓ̀ⲉϩⲟⲟⲩ ̀ⲉⲧⲉ̀ⲙⲙⲁⲩ ̀ⲛⲛⲉϥϣⲱⲡⲓ ̀ⲛϫⲉ ⲟⲩⲟⲩⲱⲓⲛⲓ : ⲟⲩϫⲁϥ ⲛⲉⲙ ⲟⲩ̀ⲱϫⲉⲃ ⲉϥ̀ⲉϣⲱⲡⲓ ϧⲉⲛ ⲟⲩ̀ⲉϩⲟⲟⲩ ̀ⲛⲟⲩⲱⲧ : Ⲟⲩⲟϩ ⲡⲓ̀ⲉϩⲟⲟⲩ ̀ⲉⲧⲉ̀ⲙⲙⲁⲩ ϥⲟⲩⲟⲛϩ ̀ⲉⲃⲟⲗ ̀ⲙ̀Ⲡ⳪</td>
+            <td class="coptic">Ⲟⲩⲟϩ ⲉϥⲉ̀ⲓ̀ ⲛ̀ϫⲉ Ⲡ̀⳪ ⲡⲁⲛⲟⲩϯ : ⲟⲩⲟϩ ⲛⲉϥⲁⲅⲅⲉⲗⲟⲥ ⲧⲏⲣⲟⲩ ⲛⲉⲙⲁϥ : ϧⲉⲛ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲉ̀ⲧⲉⲙ̀ⲙⲁⲩ ⲛ̀ⲛⲉϥϣⲱⲡⲓ ⲛ̀ϫⲉ ⲟⲩⲟⲩⲱⲓⲛⲓ : ⲟⲩϫⲁϥ ⲛⲉⲙ ⲟⲩⲱ̀ϫⲉⲃ ⲉϥⲉ̀ϣⲱⲡⲓ ϧⲉⲛ ⲟⲩⲉ̀ϩⲟⲟⲩ ⲛ̀ⲟⲩⲱⲧ : Ⲟⲩⲟϩ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲉ̀ⲧⲉⲙ̀ⲙⲁⲩ ϥⲟⲩⲟⲛϩ ⲉ̀ⲃⲟⲗ ⲙ̀Ⲡ̀⳪</td>
         </tr>
         <tr id="table_2_row_8" class="intro">
-            <td class="coptic">Ⲟⲩ̀ⲱⲟⲩ ̀ⲛϯ̀ⲧⲣⲓⲁⲥ ̀ⲉⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ...</td>
+            <td class="coptic">Ⲟⲩⲱ̀ⲟⲩ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ...</td>
         </tr>
         <tr id="table_2_row_9" class="intro">
-            <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ  Ⲓⲟⲩⲏⲗ ⲡⲓ̀ⲡⲣⲟⲫⲏⲧⲏⲥ: ̀ⲉⲣⲉⲡⲉϥ̀ⲥⲙⲟⲩ ̀ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ̀ⲁⲙⲏⲛ (ⲉϥϫⲱ ̀ⲙⲙⲟⲥ):</td>
+            <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ  Ⲓⲟⲩⲏⲗ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ (ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ):</td>
         </tr>
         <tr id="table_2_row_10" class="text">
-            <td class="coptic">Ⲁⲣⲓⲥⲁⲗⲡⲓⲍⲓⲛ ϧⲉⲛ ⲟⲩⲥⲁⲗⲡⲓⲅⲝ ϧⲉⲛ Ⲥⲓⲱⲛ ϩⲓⲱⲓϣ ϧⲉⲛ ⲡⲁⲧⲱⲟⲩ ̅ⲉ̅ⲑ̅ⲩ ⲟⲩⲟϩ ⲙⲁⲣⲟⲩ̀ϣⲑⲟⲣⲧⲉⲣ ̀ⲛϫⲉ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ ⲉⲧϣⲟⲡ ϩⲓϫⲉⲛ ̀ⲡⲕⲁϩⲓ ϫⲉ ⲁϥ̀ⲓ ̀ⲛϫⲉ ⲡⲓ̀ⲉϩⲟⲟⲩ ̀ⲛⲧⲉ Ⲡ⳪</td>
+            <td class="coptic">Ⲁⲣⲓⲥⲁⲗⲡⲓⲍⲓⲛ ϧⲉⲛ ⲟⲩⲥⲁⲗⲡⲓⲅⲝ ϧⲉⲛ Ⲥⲓⲱⲛ ϩⲓⲱⲓϣ ϧⲉⲛ ⲡⲁⲧⲱⲟⲩ ̅ⲉ̅ⲑ̅ⲩ ⲟⲩⲟϩ ⲙⲁⲣⲟⲩϣ̀ⲑⲟⲣⲧⲉⲣ ⲛ̀ϫⲉ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ ⲉⲧϣⲟⲡ ϩⲓϫⲉⲛ ⲡ̀ⲕⲁϩⲓ ϫⲉ ⲁϥⲓ̀ ⲛ̀ϫⲉ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲛ̀ⲧⲉ Ⲡ⳪</td>
         </tr>
         <tr id="table_2_row_11" class="intro">
-            <td class="coptic">Ⲟⲩ̀ⲱⲟⲩ ̀ⲛϯ̀ⲧⲣⲓⲁⲥ ̀ⲉⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ϣⲁ ̀ⲉⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉⲛⲉϩ ̀ⲛⲧⲉ ⲛⲓ̀ⲉⲛⲉϩ ⲧⲏⲣⲟⲩ: ̀ⲁⲙⲏⲛ.</td>
+            <td class="coptic">Ⲟⲩⲱ̀ⲟⲩ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ: ⲁ̀ⲙⲏⲛ.</td>
         </tr>
     </table>
 </div>
@@ -255,7 +255,7 @@ ${paschalPraiseHtml}
         <caption class="caption" id="caption_table_10"><span class="coptic-caption">Ϯϣⲟⲩⲣⲏ</span></caption>
         <tr id="table_10_row_0" class="text">
             <td class="english">The golden censer is the Virgin, and the sweet aroma is our Savior. She gave birth to Him, who saved us and forgave us our sins.</td>
-            <td class="coptic">Ϯϣⲟⲩⲣⲏ ̀ⲛⲛⲟⲃ ⲧⲉ ϯⲡⲁⲣⲑⲉⲛⲟⲥ : ⲡⲉⲥⲁⲣⲱⲙⲁⲧⲁ ⲡⲉ ⲡⲉⲛⲥⲱⲧⲏⲣ : ⲁⲥⲙⲓⲥⲓ ̀ⲙⲙⲟϥ ⲁϥⲥⲱϯ ̀ⲙⲙⲟⲛ : ⲟⲩⲟϩ ⲁϥⲭⲁ ⲛⲉⲛⲟⲃ ⲛⲁⲛ ̀ⲉⲃⲟⲗ.</td>
+            <td class="coptic">Ϯϣⲟⲩⲣⲏ ⲛ̀ⲛⲟⲩⲃ ⲧⲉ ϯⲡⲁⲣⲑⲉⲛⲟⲥ : ⲡⲉⲥⲁⲣⲱⲙⲁⲧⲁ ⲡⲉ ⲡⲉⲛⲥⲱⲧⲏⲣ : ⲁⲥⲙⲓⲥⲓ ⲙ̀ⲙⲟϥ ⲁϥⲥⲱϯ ⲙ̀ⲙⲟⲛ : ⲟⲩⲟϩ ⲁϥⲭⲁ ⲛⲉⲛⲟⲃ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.</td>
             <td class="arabic">المجمرة الذهب هى العذراء، وعنبرها هو مخلصنا، ولدته وخلصنا وغفر لنا خطايانا.</td>
         </tr>
     </table>
@@ -263,35 +263,35 @@ ${paschalPraiseHtml}
 ${faiEtafEnfHtml}
 
     <table id="table_12" title="Pauline Introduction">
-        <caption class="caption" id="caption_table_12"><span class="coptic-caption">Ⲉⲑⲃⲉ ϯ̀ⲁⲛⲁⲥⲧⲁⲥⲓⲥ</span></caption>
+        <caption class="caption" id="caption_table_12"><span class="coptic-caption">Ⲉⲑⲃⲉ ϯⲁ̀ⲛⲁⲥⲧⲁⲥⲓⲥ</span></caption>
         <tr id="table_12_row_0" class="text">
             <td class="english">For the resurrection of the dead, those who slept and reposed in the faith of Christ, Lord repose their souls.</td>
-            <td class="coptic">Ⲉⲑⲃⲉ ϯ̀ⲁⲛⲁⲥⲧⲁⲥⲓⲥ ̀ⲛⲧⲉ ⲛⲓⲣⲉϥⲙⲱⲟⲩⲧ ⲛⲏⲉⲧⲁⲩⲉⲛⲕⲟⲩⲧ ⲁⲩⲉⲙⲧⲟⲛ ̀ⲙⲙⲱⲟⲩ: ϧⲉⲛ ̀ⲫⲛⲁϩϯ ̀ⲙⲠ̅ⲭ̅ⲥ : ̀Ⲡ⳪ ⲙⲁ̀ⲙⲧⲟⲛ ̀ⲛⲛⲟⲩⲯⲩⲭⲏ ⲧⲏⲣⲟⲩ.</td>
+            <td class="coptic">Ⲉⲑⲃⲉ ϯⲁ̀ⲛⲁⲥⲧⲁⲥⲓⲥ ⲛ̀ⲧⲉ ⲛⲓⲣⲉϥⲙⲱⲟⲩⲧ ⲛⲏⲉⲧⲁⲩⲉⲛⲕⲟⲩⲧ ⲁⲩⲉⲙⲧⲟⲛ ⲙ̀ⲙⲱⲟⲩ: ϧⲉⲛ ⲫ̀ⲛⲁϩϯ ⲙ̀Ⲡ̅ⲭ̅ⲥ : Ⲡ̀⳪ ⲙⲁⲙ̀ⲧⲟⲛ ⲛ̀ⲛⲟⲩⲯⲩⲭⲏ ⲧⲏⲣⲟⲩ.</td>
             <td class="arabic"> من أجل قيامة الأموات الذين رقدوا وتنيحوا فى الإيمان المسيح يارب نيح نفوسهم أجمعين.</td>
         </tr>
         <tr id="table_12_row_1" class="text">
             <td class="english">Paul, a servant of our Lord Jesus Christ, called to be an apostle, separated to the gospel of God.</td>
-            <td class="coptic">Ⲡⲁⲩⲗⲟⲥ ̀ⲫⲃⲱⲕ ̀ⲙⲠⲉⲛ⳪ Ⲓ̅ⲏ̅ⲥ Ⲡ̅ⲭ̅ⲥ : ⲡⲓ̀ⲁⲡⲟⲥⲧⲟⲗⲟⲥ ⲉⲧⲑⲁϩⲉⲙ : ⲫⲏ̀ⲉⲧⲁⲩⲑⲁϣϥ ̀ⲉⲡⲓϩⲓϣⲉⲛⲛⲟⲩϥⲓ ̀ⲛⲧⲉ Ⲫϯ.</td>
+            <td class="coptic">Ⲡⲁⲩⲗⲟⲥ ⲫ̀ⲃⲱⲕ ⲙ̀Ⲡⲉⲛ⳪ Ⲓ̅ⲏ̅ⲥ Ⲡ̅ⲭ̅ⲥ : ⲡⲓⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ ⲉⲧⲑⲁϩⲉⲙ : ⲫⲏⲉ̀ⲧⲁⲩⲑⲁϣϥ ⲉ̀ⲡⲓϩⲓϣⲉⲛⲛⲟⲩϥⲓ ⲛ̀ⲧⲉ Ⲫϯ.</td>
             <td class="arabic">من بولس عبد ربنا يسوع المسيح الرسول المدعوا المفرز لبشارة الله.</td>
         </tr>
         <tr id="table_12_row_2" class="text">
             <td class="english">Let this mind be in you which was also in Christ Jesus</td>
-            <td class="coptic">Ⲙⲁⲣⲉϥⲙⲉⲩ̀ⲓ ̀ⲉⲫⲁⲓ ̀ⲛ̀ϧⲣⲏⲓ ϧⲉⲛ ⲑⲏⲛⲟⲩ : ̀ⲉⲧⲉ ⲫⲁⲓ ⲡⲉ ⲉⲧϧⲉⲛ Ⲡ̅ⲭ̅ⲥ Ⲓ̅ⲏ̅ⲥ.</td>
+            <td class="coptic">Ⲙⲁⲣⲉϥⲙⲉⲩⲓ̀ ⲉ̀ⲫⲁⲓ ⲛ̀ϧ̀ⲣⲏⲓ ϧⲉⲛ ⲑⲏⲛⲟⲩ : ⲉ̀ⲧⲉ ⲫⲁⲓ ⲡⲉ ⲉⲧϧⲉⲛ Ⲡ̅ⲭ̅ⲥ Ⲓ̅ⲏ̅ⲥ.</td>
             <td class="arabic">فليكن فيكم هذا الفكر الذى فى المسيح يسوع</td>
         </tr>
         <tr id="table_12_row_3" class="text">
             <td class="english">May the Grace of God the Father be with you, Amen.</td>
-            <td class="coptic">Ⲡⲓ̀ϩⲙⲟⲧ ⲅⲁⲣ ⲛⲉⲙⲱⲧⲉⲛ ⲧⲏⲣⲟⲩ ϫⲉ ⲁⲙⲏⲛ ̀ⲉⲥⲉϣⲱⲡⲓ.</td>
+            <td class="coptic">Ⲡⲓϩ̀ⲙⲟⲧ ⲅⲁⲣ ⲛⲉⲙⲱⲧⲉⲛ ⲧⲏⲣⲟⲩ ϫⲉ ⲁⲙⲏⲛ ⲉ̀ⲥⲉϣⲱⲡⲓ.</td>
             <td class="arabic">نعمة الله الآب تحل على جميعنا آمين.</td>
         </tr>
         <tr id="table_12_row_4" class="text">
             <td class="english">The Grace of our Lord Jesus Christ be with your saintly spirit, my lord, the Honored father, the high priest, Papa Abba Tawadros.</td>
-            <td class="coptic">Ⲡⲓ̀ϩⲙⲟⲧ ⲅⲁⲣ ̀ⲙⲠⲉⲛ⳪ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓ̀ⲭⲣⲓⲥⲧⲟⲥ ⲉϥ̀ⲉϣⲱⲡⲓ ⲛⲉⲙ ⲡⲉⲕ̀ⲁⲅⲓⲟⲛ ̀ⲡⲛⲉⲩⲙⲁ ⲡⲁϭⲟⲓⲥ ̀ⲛⲓⲱⲧ ̀ⲉⲧⲧⲁⲓⲏⲟⲩⲧ ̀ⲛⲁⲣⲭⲏ̀ⲉⲣⲉⲩⲥ Ⲡⲁⲡⲁ ⲁⲃⲃⲁ  Ⲧⲁⲱⲁⲇⲣⲟⲥ :</td>
+            <td class="coptic">Ⲡⲓϩ̀ⲙⲟⲧ ⲅⲁⲣ ⲙ̀Ⲡⲉⲛ⳪ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ ⲉϥⲉ̀ϣⲱⲡⲓ ⲛⲉⲙ ⲡⲉⲕⲁ̀ⲅⲓⲟⲛ ⲡ̀ⲛⲉⲩⲙⲁ ⲡⲁϭⲟⲓⲥ ⲛ̀ⲓⲱⲧ ⲉ̀ⲧⲧⲁⲓⲏⲟⲩⲧ ⲛ̀ⲁⲣⲭⲏⲉ̀ⲣⲉⲩⲥ Ⲡⲁⲡⲁ ⲁⲃⲃⲁ  Ⲧⲁⲱⲁⲇⲣⲟⲥ :</td>
             <td class="arabic">نعمة ربنا يسوع المسيح تكون مع روحك الطاهرة ياسيدى المكرم رئيس الكهنة البابا أنبا تواضروس.</td>
         </tr>
         <tr id="table_12_row_5" class="text">
             <td class="english">May the clergy and all the people be safe in the Lord.  Amen. So be it.</td>
-            <td class="coptic">Ⲙⲁⲣⲉ ⲡⲓ̀ⲕⲗⲏⲣⲟⲥ ⲛⲉⲙ ⲡⲓⲗⲁⲟⲥ ⲧⲏⲣϥ ⲟⲩϫⲁⲓ ϧⲉⲛ Ⲡ⳪: ϫⲉ ⲁⲙⲏⲛ. ⲉⲥ̀ⲉϣⲱⲡⲓ.</td>
+            <td class="coptic">Ⲙⲁⲣⲉ ⲡⲓⲕ̀ⲗⲏⲣⲟⲥ ⲛⲉⲙ ⲡⲓⲗⲁⲟⲥ ⲧⲏⲣϥ ⲟⲩϫⲁⲓ ϧⲉⲛ Ⲡ⳪: ϫⲉ ⲁⲙⲏⲛ. ⲉⲥⲉ̀ϣⲱⲡⲓ.</td>
             <td class="arabic">فليكن الاكليروس وكل الشعب معافين من الرب آمين. يكون.</td>
         </tr>
     </table>
@@ -344,17 +344,17 @@ ${faiEtafEnfHtml}
         <span class="arabic-caption">قطع الساعة التاسعة</span></caption>
         <tr id="table_14_row_0" class="text">
             <td class="english"><span class="role">Congregation:</span><br>O You, Who tasted death in the flesh in the ninth hour for our sake, we the sinners, put to death our carnal lusts, O Christ, our God, and deliver us.</td>
-            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:</span><br>̀Ⲱ ⲫⲏ̀ⲉⲧⲁϥϫⲉⲙϯⲡⲓ ̀ⲙ̀ⲫⲙⲟⲩ ϧⲉⲛ ̀ⲧⲥⲁⲣⲝ : ̀ⲙ̀ⲫⲛⲁⲩ ̀ⲛⲁϫⲡ ⲯⲓϯ ⲉⲑⲃⲏⲧⲉⲛ : ϧⲱⲧⲉⲃ ̀ⲛⲛⲉⲛⲗⲟⲅⲓⲥⲙⲟⲥ ̀ⲛⲥⲱⲙⲁⲧⲓⲕⲟⲛ : ̀ⲱⲠ̅ⲭ̅ⲥ ⲡⲉⲛⲛⲟⲩϯ ⲟⲩⲟϩ ⲛⲁϩⲙⲉⲛ.</td>
+            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲱ̀ ⲫⲏⲉ̀ⲧⲁϥϫⲉⲙϯⲡⲓ ⲙ̀ⲫ̀ⲙⲟⲩ ϧⲉⲛ ⲧ̀ⲥⲁⲣⲝ : ⲙ̀ⲫ̀ⲛⲁⲩ ⲛ̀ⲁϫⲡ ⲯⲓϯ ⲉⲑⲃⲏⲧⲉⲛ : ϧⲱⲧⲉⲃ ⲛ̀ⲛⲉⲛⲗⲟⲅⲓⲥⲙⲟⲥ ⲛ̀ⲥⲱⲙⲁⲧⲓⲕⲟⲛ : ⲱ̀Ⲡ̅ⲭ̅ⲥ ⲡⲉⲛⲛⲟⲩϯ ⲟⲩⲟϩ ⲛⲁϩⲙⲉⲛ.</td>
             <td class="arabic"><span class="role">الشعب:</span><br> يا من ذاق الموت بالجسد فى وقت الساعة التاسعة من أجلنا أمت حواسنا الجسمانية أيها المسيح إلهنا  ونجنا.</td>
         </tr>
         <tr id="table_14_row_1" class="text">
             <td class="english"><span class="role">Priest:</span><br>O You, Who tasted death in the flesh in the ninth hour for our sake, we the sinners, put to death our carnal lusts, O Christ, our God, and deliver us.</td>
-            <td class="coptic"><span class="role">Ⲡⲓⲟⲩⲏⲃ:</span><br>̀Ⲱ ⲫⲏ̀ⲉⲧⲁϥϫⲉⲙϯⲡⲓ ̀ⲙ̀ⲫⲙⲟⲩ ϧⲉⲛ ̀ⲧⲥⲁⲣⲝ : ̀ⲙ̀ⲫⲛⲁⲩ ̀ⲛⲁϫⲡ ⲯⲓϯ ⲉⲑⲃⲏⲧⲉⲛ : ϧⲱⲧⲉⲃ ̀ⲛⲛⲉⲛⲗⲟⲅⲓⲥⲙⲟⲥ ̀ⲛⲥⲱⲙⲁⲧⲓⲕⲟⲛ : ̀ⲱⲠ̅ⲭ̅ⲥ ⲡⲉⲛⲛⲟⲩϯ ⲟⲩⲟϩ ⲛⲁϩⲙⲉⲛ.</td>
+            <td class="coptic"><span class="role">Ⲡⲓⲟⲩⲏⲃ:</span><br>Ⲱ̀ ⲫⲏⲉ̀ⲧⲁϥϫⲉⲙϯⲡⲓ ⲙ̀ⲫ̀ⲙⲟⲩ ϧⲉⲛ ⲧ̀ⲥⲁⲣⲝ : ⲙ̀ⲫ̀ⲛⲁⲩ ⲛ̀ⲁϫⲡ ⲯⲓϯ ⲉⲑⲃⲏⲧⲉⲛ : ϧⲱⲧⲉⲃ ⲛ̀ⲛⲉⲛⲗⲟⲅⲓⲥⲙⲟⲥ ⲛ̀ⲥⲱⲙⲁⲧⲓⲕⲟⲛ : ⲱ̀Ⲡ̅ⲭ̅ⲥ ⲡⲉⲛⲛⲟⲩϯ ⲟⲩⲟϩ ⲛⲁϩⲙⲉⲛ.</td>
             <td class="arabic"><span class="role">الكاهن:</span><br> يا من ذاق الموت بالجسد فى وقت الساعة التاسعة من أجلنا أمت حواسنا الجسمانية أيها المسيح إلهنا  ونجنا.</td>
         </tr>
         <tr id="table_14_row_2" class="text">
             <td class="english"><span class="role">Congregation:</span><br>O You, Who tasted death in the flesh in the ninth hour for our sake, we the sinners, put to death our carnal lusts, O Christ, our God, and deliver us.</td>
-            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:</span><br>̀Ⲱ ⲫⲏ̀ⲉⲧⲁϥϫⲉⲙϯⲡⲓ ̀ⲙ̀ⲫⲙⲟⲩ ϧⲉⲛ ̀ⲧⲥⲁⲣⲝ : ̀ⲙ̀ⲫⲛⲁⲩ ̀ⲛⲁϫⲡ ⲯⲓϯ ⲉⲑⲃⲏⲧⲉⲛ : ϧⲱⲧⲉⲃ ̀ⲛⲛⲉⲛⲗⲟⲅⲓⲥⲙⲟⲥ ̀ⲛⲥⲱⲙⲁⲧⲓⲕⲟⲛ : ̀ⲱⲠ̅ⲭ̅ⲥ ⲡⲉⲛⲛⲟⲩϯ ⲟⲩⲟϩ ⲛⲁϩⲙⲉⲛ.</td>
+            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲱ̀ ⲫⲏⲉ̀ⲧⲁϥϫⲉⲙϯⲡⲓ ⲙ̀ⲫ̀ⲙⲟⲩ ϧⲉⲛ ⲧ̀ⲥⲁⲣⲝ : ⲙ̀ⲫ̀ⲛⲁⲩ ⲛ̀ⲁϫⲡ ⲯⲓϯ ⲉⲑⲃⲏⲧⲉⲛ : ϧⲱⲧⲉⲃ ⲛ̀ⲛⲉⲛⲗⲟⲅⲓⲥⲙⲟⲥ ⲛ̀ⲥⲱⲙⲁⲧⲓⲕⲟⲛ : ⲱ̀Ⲡ̅ⲭ̅ⲥ ⲡⲉⲛⲛⲟⲩϯ ⲟⲩⲟϩ ⲛⲁϩⲙⲉⲛ.</td>
             <td class="arabic"><span class="role">الشعب:</span><br> يا من ذاق الموت بالجسد فى وقت الساعة التاسعة من أجلنا أمت حواسنا الجسمانية أيها المسيح إلهنا  ونجنا.</td>
         </tr>
         <tr id="table_14_row_3" class="text">
@@ -363,12 +363,12 @@ ${faiEtafEnfHtml}
         </tr>
         <tr id="table_14_row_4" class="text">
             <td class="english"><span class="role">Congregation:</span><br>O You, Who tasted death in the flesh in the ninth hour for our sake, we the sinners, put to death our carnal lusts, O Christ, our God, and deliver us.</td>
-            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:</span><br>̀Ⲱ ⲫⲏ̀ⲉⲧⲁϥϫⲉⲙϯⲡⲓ ̀ⲙ̀ⲫⲙⲟⲩ ϧⲉⲛ ̀ⲧⲥⲁⲣⲝ : ̀ⲙ̀ⲫⲛⲁⲩ ̀ⲛⲁϫⲡ ⲯⲓϯ ⲉⲑⲃⲏⲧⲉⲛ : ϧⲱⲧⲉⲃ ̀ⲛⲛⲉⲛⲗⲟⲅⲓⲥⲙⲟⲥ ̀ⲛⲥⲱⲙⲁⲧⲓⲕⲟⲛ : ̀ⲱⲠ̅ⲭ̅ⲥ ⲡⲉⲛⲛⲟⲩϯ ⲟⲩⲟϩ ⲛⲁϩⲙⲉⲛ.</td>
+            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲱ̀ ⲫⲏⲉ̀ⲧⲁϥϫⲉⲙϯⲡⲓ ⲙ̀ⲫ̀ⲙⲟⲩ ϧⲉⲛ ⲧ̀ⲥⲁⲣⲝ : ⲙ̀ⲫ̀ⲛⲁⲩ ⲛ̀ⲁϫⲡ ⲯⲓϯ ⲉⲑⲃⲏⲧⲉⲛ : ϧⲱⲧⲉⲃ ⲛ̀ⲛⲉⲛⲗⲟⲅⲓⲥⲙⲟⲥ ⲛ̀ⲥⲱⲙⲁⲧⲓⲕⲟⲛ : ⲱ̀Ⲡ̅ⲭ̅ⲥ ⲡⲉⲛⲛⲟⲩϯ ⲟⲩⲟϩ ⲛⲁϩⲙⲉⲛ.</td>
             <td class="arabic"><span class="role">الشعب:</span><br> يا من ذاق الموت بالجسد فى وقت الساعة التاسعة من أجلنا أمت حواسنا الجسمانية أيها المسيح إلهنا  ونجنا.</td>
         </tr>
         <tr id="table_14_row_5" class="text">
             <td class="english"><span class="role">Congregation:</span><br>Glory be to the Father, the Son and the Holy Spirit.</td>
-            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲇⲟⲝⲁ  Ⲡⲁⲧⲣⲓ  ⲕⲉ  Ⲩⲓ̀ⲱ  ⲕⲉ  ̀ⲁⲅⲓ̀ⲱ  Ⲡⲛ̅ⲁ̅ⲧ̅ⲓ̅.</td>
+            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲇⲟⲝⲁ  Ⲡⲁⲧⲣⲓ  ⲕⲉ  Ⲩⲓⲱ̀  ⲕⲉ  ⲁ̀ⲅⲓⲱ̀  Ⲡⲛ̅ⲁ̅ⲧ̅ⲓ̅.</td>
             <td class="arabic"><span class="role">الشعب:</span><br>المجد للآب والابن والروح القدس</td>
         </tr>
         <tr id="table_14_row_6" class="text">
@@ -381,7 +381,7 @@ ${faiEtafEnfHtml}
         </tr>
         <tr id="table_14_row_8" class="text">
             <td class="english"><span class="role">Congregation:</span><br>Now and forever, and unto the age of all ages, Amen.</td>
-            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲕⲉ ⲛⲩⲛ ⲕⲉ ̀ⲁ ̀̀ⲓ ⲕⲉ ⲓⲉⲧⲟⲩⲥ ̀ⲉ̀ⲱⲛⲁⲥ ⲧⲱⲛ ̀ⲉ̀ⲱⲛⲱⲛ ̀ⲁⲙⲏⲛ.</td>
+            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ ⲓ̀ ⲕⲉ ⲓⲉⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲏⲛ.</td>
             <td class="arabic"><span class="role">الشعب:</span><br>المجد للآب والابن والروح القدس</td>
         </tr>
         <tr id="table_14_row_9" class="text">
@@ -394,7 +394,7 @@ ${faiEtafEnfHtml}
         </tr>
         <tr id="table_14_row_12" class="text">
             <td class="english"><span class="role">Congregation:</span><br>Now and forever, and unto the age of all ages, Amen.</td>
-            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲕⲉ ⲛⲩⲛ ⲕⲉ ̀ⲁ ̀̀ⲓ ⲕⲉ ⲓⲉⲧⲟⲩⲥ ̀ⲉ̀ⲱⲛⲁⲥ ⲧⲱⲛ ̀ⲉ̀ⲱⲛⲱⲛ ̀ⲁⲙⲏⲛ.</td>
+            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ ̀̀ⲓ ⲕⲉ ⲓⲉⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲏⲛ.</td>
             <td class="arabic"><span class="role">الشعب:</span><br>المجد للآب والابن والروح القدس</td>
         </tr>
         <tr id="table_14_row_13" class="text">
@@ -403,7 +403,7 @@ ${faiEtafEnfHtml}
         </tr>
         <tr id="table_14_row_14" class="text">
             <td class="english"><span class="role">Congregation:</span><br>Glory be to the Father, the Son and the Holy Spirit.</td>
-            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲇⲟⲝⲁ  Ⲡⲁⲧⲣⲓ  ⲕⲉ  Ⲩⲓ̀ⲱ  ⲕⲉ  ̀ⲁⲅⲓ̀ⲱ  Ⲡⲛ̅ⲁ̅ⲧ̅ⲓ̅.</td>
+            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲇⲟⲝⲁ  Ⲡⲁⲧⲣⲓ  ⲕⲉ  Ⲩⲓⲱ̀  ⲕⲉ  ⲁ̀ⲅⲓⲱ̀  Ⲡⲛ̅ⲁ̅ⲧ̅ⲓ̅.</td>
             <td class="arabic"><span class="role">الشعب:</span><br>المجد للآب والابن والروح القدس</td>
         </tr>
         <tr id="table_14_row_15" class="text">
@@ -412,7 +412,7 @@ ${faiEtafEnfHtml}
         </tr>
         <tr id="table_14_row_16" class="text">
             <td class="english"><span class="role">Congregation:</span><br>Now and forever, and unto the age of all ages, Amen.</td>
-            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲕⲉ ⲛⲩⲛ ⲕⲉ ̀ⲁ ̀̀ⲓ ⲕⲉ ⲓⲉⲧⲟⲩⲥ ̀ⲉ̀ⲱⲛⲁⲥ ⲧⲱⲛ ̀ⲉ̀ⲱⲛⲱⲛ ̀ⲁⲙⲏⲛ.</td>
+            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ ̀̀ⲓ ⲕⲉ ⲓⲉⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲏⲛ.</td>
             <td class="arabic"><span class="role">الشعب:</span><br>المجد للآب والابن والروح القدس</td>
         </tr>
         <tr id="table_14_row_17" class="text">
@@ -425,22 +425,22 @@ ${faiEtafEnfHtml}
         <caption class="caption" id="caption_table_16">The Trisagion<span class="arabic-caption">الثلاث تقديسات</span></caption>
         <tr id="table_16_row_0" class="text">
             <td class="english">Holy God, Holy Mighty, Holy Immortal, Who was crucified for us, Have mercy on us.</td>
-            <td class="coptic">Ⲁⲅⲓⲟⲥ ̀ⲟ Ⲑⲉⲟⲥ : ⲁⲅⲓⲟⲥ ⲓⲥⲭⲩⲣⲟⲥ : ⲁⲅⲓⲟⲥ ⲁⲑⲁⲛⲁⲧⲟⲥ : ̀ⲟ ̀ⲥⲧⲁⲩⲣⲱⲑⲓⲥ ⲇⲓ ̀ⲏⲙⲁⲥ ̀ⲉⲗⲉ̀ⲏⲥⲟⲛ ̀ⲏⲙⲁⲥ.</td>
+            <td class="coptic">Ⲁⲅⲓⲟⲥ ⲟ̀ Ⲑⲉⲟⲥ : ⲁⲅⲓⲟⲥ ⲓⲥⲭⲩⲣⲟⲥ : ⲁⲅⲓⲟⲥ ⲁⲑⲁⲛⲁⲧⲟⲥ : ⲟ̀ ⲥ̀ⲧⲁⲩⲣⲱⲑⲓⲥ ⲇⲓ ⲏ̀ⲙⲁⲥ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ.</td>
             <td class="arabic">قدوس الله. قدوس القوى. قدوس الحى الذى لا يموت، الذى صلب عنا، أرحمنا.</td>
         </tr>
         <tr id="table_16_row_1" class="text">
             <td class="english">Holy God, Holy Mighty, Holy Immortal, Who was crucified for us, Have mercy on us.</td>
-            <td class="coptic">Ⲁⲅⲓⲟⲥ ̀ⲟ Ⲑⲉⲟⲥ : ⲁⲅⲓⲟⲥ ⲓⲥⲭⲩⲣⲟⲥ : ⲁⲅⲓⲟⲥ ⲁⲑⲁⲛⲁⲧⲟⲥ : ̀ⲟ ̀ⲥⲧⲁⲩⲣⲱⲑⲓⲥ ⲇⲓ ̀ⲏⲙⲁⲥ ̀ⲉⲗⲉ̀ⲏⲥⲟⲛ ̀ⲏⲙⲁⲥ.</td>
+            <td class="coptic">Ⲁⲅⲓⲟⲥ ⲟ̀ Ⲑⲉⲟⲥ : ⲁⲅⲓⲟⲥ ⲓⲥⲭⲩⲣⲟⲥ : ⲁⲅⲓⲟⲥ ⲁⲑⲁⲛⲁⲧⲟⲥ : ⲟ̀ ⲥ̀ⲧⲁⲩⲣⲱⲑⲓⲥ ⲇⲓ ⲏ̀ⲙⲁⲥ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ.</td>
             <td class="arabic">قدوس الله. قدوس القوى. قدوس الحى الذى لا يموت، الذى صلب عنا، أرحمنا.</td>
         </tr>
         <tr id="table_16_row_2" class="text">
             <td class="english">Holy God, Holy Mighty, Holy Immortal, Who was crucified for us, Have mercy on us.</td>
-            <td class="coptic">Ⲁⲅⲓⲟⲥ ̀ⲟ Ⲑⲉⲟⲥ : ⲁⲅⲓⲟⲥ ⲓⲥⲭⲩⲣⲟⲥ : ⲁⲅⲓⲟⲥ ⲁⲑⲁⲛⲁⲧⲟⲥ : ̀ⲟ ̀ⲥⲧⲁⲩⲣⲱⲑⲓⲥ ⲇⲓ ̀ⲏⲙⲁⲥ ̀ⲉⲗⲉ̀ⲏⲥⲟⲛ ̀ⲏⲙⲁⲥ.</td>
+            <td class="coptic">Ⲁⲅⲓⲟⲥ ⲟ̀ Ⲑⲉⲟⲥ : ⲁⲅⲓⲟⲥ ⲓⲥⲭⲩⲣⲟⲥ : ⲁⲅⲓⲟⲥ ⲁⲑⲁⲛⲁⲧⲟⲥ : ⲟ̀ ⲥ̀ⲧⲁⲩⲣⲱⲑⲓⲥ ⲇⲓ ⲏ̀ⲙⲁⲥ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ.</td>
             <td class="arabic">قدوس الله. قدوس القوى. قدوس الحى الذى لا يموت، الذى صلب عنا، أرحمنا.</td>
         </tr>        
         <tr id="table_16_row_3" class="text">
             <td class="english">Glory be to the Father and to the Son, and to the Holy Spirit, both now, and ever, and unto the ages of ages, Amen.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ Ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩⲓ̀ⲱ ⲕⲉ ̀ⲁⲅⲓ̀ⲱ Ⲡⲛⲉⲩⲙⲁⲧⲓ : ⲕⲉ ⲛⲩⲛ ⲕⲉ ̀ⲁ̀ⲓ ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ̀ⲉ̀ⲱⲛⲁⲥ ⲧⲱⲛ ̀ⲉ̀ⲱⲛⲱⲛ ̀ⲁⲙⲏⲛ..</td>
+            <td class="coptic">Ⲇⲟⲝⲁ Ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩⲓⲱ̀ ⲕⲉ ⲁ̀ⲅⲓⲱ̀ Ⲡⲛⲉⲩⲙⲁⲧⲓ : ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ⲓ̀ ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲏⲛ..</td>
             <td class="arabic">المجد للآب والإبن و الروح القدس. الآن وكل آوان والى دهر الدهور، آمين.</td>
         </tr>
     </table>
@@ -460,22 +460,22 @@ ${faiEtafEnfHtml}
         </tr>
         <tr id="table_17_row_1" class="text">
             <td class="english">Save me, O God! For the waters have come up to my neck.</td>
-            <td class="coptic">Ⲙⲁⲧⲁⲛϧⲟⲓ Ⲫϯ ϫⲉ ̀ⲁϩⲁⲛⲙⲱⲟⲩ ϣⲉ ⲉϧⲟⲩⲛ ϣⲁⲧⲁⲯⲩⲭⲏ :</td>
+            <td class="coptic">Ⲙⲁⲧⲁⲛϧⲟⲓ Ⲫϯ ϫⲉ ⲁ̀ϩⲁⲛⲙⲱⲟⲩ ϣⲉ ⲉϧⲟⲩⲛ ϣⲁⲧⲁⲯⲩⲭⲏ :</td>
             <td class="arabic">احيينى يا الله فان المياه قد بلغت إلى نفسى.</td>
         </tr>
         <tr id="table_17_row_2" class="text">
             <td class="english">I sink in deep mire,</td>
-            <td class="coptic">ⲁⲓⲑⲱⲗⲥ ϧⲉⲛ ̀ⲧϩⲩⲗⲏ ̀ⲙ̀ⲫⲙⲟⲩ.</td>
+            <td class="coptic">ⲁⲓⲑⲱⲗⲥ ϧⲉⲛ ⲧ̀ϩⲩⲗⲏ ⲙ̀ⲫ̀ⲙⲟⲩ.</td>
             <td class="arabic">وتورطت في حمأة الموت.</td>
         </tr>
         <tr id="table_17_row_3" class="text">
             <td class="english">They also gave me gall for my food,</td>
-            <td class="coptic">Ⲟⲩⲟϩ ⲁⲩϯ ̀ⲛⲟⲩϣⲁϣⲓ ̀ⲉⲧⲁ̀ϧⲣⲉ:</td>
+            <td class="coptic">Ⲟⲩⲟϩ ⲁⲩϯ ⲛ̀ⲟⲩϣⲁϣⲓ ⲉ̀ⲧⲁϧ̀ⲣⲉ:</td>
             <td class="arabic">وجعلوا طعامي مرارة.</td>
         </tr>
         <tr id="table_17_row_4" class="text">
             <td class="english">And for my thirst they gave me vinegar to drink.</td>
-            <td class="coptic">ⲟⲩⲟϩ ⲁⲩ̀ⲧⲥⲱⲓ ̀ⲛⲟⲩϩⲉⲙϫ ϧⲉⲛ ⲡⲁ̀ⲓⲃⲓ</td>
+            <td class="coptic">ⲟⲩⲟϩ ⲁⲩⲧ̀ⲥⲱⲓ ⲛ̀ⲟⲩϩⲉⲙϫ ϧⲉⲛ ⲡⲁⲓ̀ⲃⲓ</td>
             <td class="arabic">وفى عطشى سفوني خلاً.</td>
         </tr>
         <tr id="table_17_row_5" class="intro">
@@ -490,17 +490,17 @@ ${faiEtafEnfHtml}
         <span class="arabic-caption">الإناجيل قبطي</span></caption>
         <tr id="table_19_row_0" class="priest">
             <td class="english">A chapter according to St. Matthew,</td>
-            <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ̀ⲉⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲱⲛ ⲁⲅⲓⲟⲩ.</td>
+            <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲱⲛ ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">فصل من إنجيل معلمنا مار متى</td>
         </tr>
 
         <tr id="table_19_row_1" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓ̀ⲉ</td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ̀</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_19_row_2" class="text">
-            <td class="coptic">Ⲉⲧⲁ̀̀ⲫⲛⲁⲩ ⲇⲉ ̀ⲛⲁϫⲡⲯⲓϯ ϣⲱⲡⲓ : ⲁϥⲱϣ ̀ⲉⲃⲟⲗ ̀ⲛϫⲉ Ⲓⲏⲥ ϧⲉⲛ ⲟⲩⲛⲓϣϯ ̀ⲛ̀ϧⲣⲱⲟⲩ ⲉϥϫⲱ̀ⲙⲙⲟⲥ : ϫⲉ ̀Ⲉⲗⲱ̀ⲓ ̀Ⲉⲗⲱ̀ⲓ ̀ⲉⲗⲉⲙⲁ ⲥⲁⲃⲁⲭ ⲑⲁⲛⲓ : ̀ⲉⲧⲉ ⲫⲁⲓ ⲡⲉ Ⲡⲁⲛⲟⲩϯ Ⲡⲁⲛⲟⲩϯ ⲉⲑⲃⲉ ⲟⲩ ⲁⲕⲭⲁⲧ ̀ⲛⲥⲱⲕ. ϩⲁⲛ ⲟⲩⲟⲛ ⲇⲉ ̀ⲉⲃⲟⲗϧⲉⲛ ⲛⲏⲉⲧⲟϩⲓ ̀ⲉⲣⲁⲧⲟⲩ ̀ⲙⲙⲁⲩ : ̀ⲉⲧⲁⲩⲥⲱⲧⲉⲙ ⲛⲁⲩϫⲱ̀ⲙⲙⲟⲥ ϫⲉ ⲁϥⲙⲟⲩϯ ⲟⲩⲃⲉ ̀ⲏⲗⲓⲁⲥ<br>... Ⲟⲩⲱϣⲧ ̀ⲙⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲉⲧⲁ̀̀ⲫⲛⲁⲩ ⲇⲉ ⲛ̀ⲁϫⲡⲯⲓϯ ϣⲱⲡⲓ : ⲁϥⲱϣ ⲉ̀ⲃⲟⲗ ⲛ̀ϫⲉ Ⲓⲏⲥ ϧⲉⲛ ⲟⲩⲛⲓϣϯ ⲛ̀ϧ̀ⲣⲱⲟⲩ ⲉϥϫⲱⲙ̀ⲙⲟⲥ : ϫⲉ Ⲉ̀ⲗⲱⲓ̀ Ⲉ̀ⲗⲱⲓ̀ ⲉ̀ⲗⲉⲙⲁ ⲥⲁⲃⲁⲭ ⲑⲁⲛⲓ : ⲉ̀ⲧⲉ ⲫⲁⲓ ⲡⲉ Ⲡⲁⲛⲟⲩϯ Ⲡⲁⲛⲟⲩϯ ⲉⲑⲃⲉ ⲟⲩ ⲁⲕⲭⲁⲧ ⲛ̀ⲥⲱⲕ. ϩⲁⲛ ⲟⲩⲟⲛ ⲇⲉ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲏⲉⲧⲟϩⲓ ⲉ̀ⲣⲁⲧⲟⲩ ⲙ̀ⲙⲁⲩ : ⲉ̀ⲧⲁⲩⲥⲱⲧⲉⲙ ⲛⲁⲩϫⲱⲙ̀ⲙⲟⲥ ϫⲉ ⲁϥⲙⲟⲩϯ ⲟⲩⲃⲉ ⲏ̀ⲗⲓⲁⲥ<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_19_row_3" class="priest">
             <td class="english">According to St. Mark</td>
@@ -509,41 +509,41 @@ ${faiEtafEnfHtml}
         </tr>
         <tr id="table_19_row_4" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓ̀ⲉ</td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ̀</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_19_row_5" class="text">
-            <td class="coptic">Ⲟⲩⲟϩ ϧⲉⲛ ̀ⲫⲛⲁⲩ ̀ⲛⲁϫⲡⲯⲓϯ ⲁϥⲱϣ ⲉⲃⲟⲗ ̀ⲛϫⲉ Ⲓ̅ⲏ̅ⲥ ϧⲉⲛ ⲟⲩⲛⲓϣϯ ̀ⲛ̀ⲥⲙⲏ : ϫⲉ ̀Ⲉⲗⲱ̀ⲓ ̀Ⲉⲗⲱ̀ⲓ ⲉⲗⲉⲙⲁ ⲥⲁⲃⲁⲭⲑⲁⲛⲓ : ̀ⲉⲧⲉ ⲡⲉϥⲟⲩ̀ⲱϩⲉⲙ ⲡⲉ ϫⲉ Ⲡⲁⲛⲟⲩϯ Ⲡⲁⲛⲟⲩϯ ⲉⲑⲃⲉⲟⲩ ⲁⲕⲭⲁⲧ ̀ⲛⲥⲱⲕ. Ⲟⲩⲟϩ ϩⲁⲛⲟⲩⲟⲛ ̀ⲛⲧⲉ ⲛⲏⲉⲧⲟϩⲓ ̀ⲉⲣⲁⲧⲟⲩ ̀ⲉⲧⲁⲩⲥⲱⲧⲉⲙ ⲛⲁⲩϫⲱ̀ⲙⲙⲟⲥ : ϫⲉ ̀ⲁⲛⲁⲩ ⲁϥⲙⲟⲩϯ ⲟⲩⲃⲉ ̀ⲏⲗⲓⲁⲥ.<br>... Ⲟⲩⲱϣⲧ ̀ⲙⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲟⲩⲟϩ ϧⲉⲛ ⲫ̀ⲛⲁⲩ ⲛ̀ⲁϫⲡⲯⲓϯ ⲁϥⲱϣ ⲉⲃⲟⲗ ⲛ̀ϫⲉ Ⲓ̅ⲏ̅ⲥ ϧⲉⲛ ⲟⲩⲛⲓϣϯ ⲛ̀ⲥ̀ⲙⲏ : ϫⲉ Ⲉ̀ⲗⲱⲓ̀ Ⲉ̀ⲗⲱⲓ̀ ⲉⲗⲉⲙⲁ ⲥⲁⲃⲁⲭⲑⲁⲛⲓ : ⲉ̀ⲧⲉ ⲡⲉϥⲟⲩⲱ̀ϩⲉⲙ ⲡⲉ ϫⲉ Ⲡⲁⲛⲟⲩϯ Ⲡⲁⲛⲟⲩϯ ⲉⲑⲃⲉⲟⲩ ⲁⲕⲭⲁⲧ ⲛ̀ⲥⲱⲕ. Ⲟⲩⲟϩ ϩⲁⲛⲟⲩⲟⲛ ⲛ̀ⲧⲉ ⲛⲏⲉⲧⲟϩⲓ ⲉ̀ⲣⲁⲧⲟⲩ ⲉ̀ⲧⲁⲩⲥⲱⲧⲉⲙ ⲛⲁⲩϫⲱⲙ̀ⲙⲟⲥ : ϫⲉ ⲁ̀ⲛⲁⲩ ⲁϥⲙⲟⲩϯ ⲟⲩⲃⲉ ⲏ̀ⲗⲓⲁⲥ.<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_19_row_6" class="priest">
             <td class="english">According to St. Luke</td>
-            <td class="coptic">ⲕⲁⲧⲁ Ⲗⲟⲩⲕⲁⲛ ̀ ⲁⲅⲓⲟⲩ.</td>
+            <td class="coptic">ⲕⲁⲧⲁ Ⲗⲟⲩⲕⲁⲛ  ̀ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">حسب مار لوقا</td>
         </tr>
         <tr id="table_19_row_7" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓ̀ⲉ</td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ̀</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_19_row_8" class="text">
-            <td class="coptic">̀Ⲉϥⲛⲁⲙⲟⲩⲛⲕ ⲇⲉ ̀ⲛϫⲉ ̀ⲫⲣⲏ ⲁⲡⲓⲕⲁⲧⲁⲡⲉⲧⲁⲥⲙⲁ ̀ⲛⲧⲉ ⲡⲓⲉⲣⲫⲉⲓ ⲫⲱϧ ϧⲉⲛ ⲧⲉϥⲙⲏϯ : Ⲟⲩⲟϩ ̀ⲉⲧⲁϥⲙⲟⲩϯ ̀ⲛϫⲉ Ⲓ̅ⲏ̅ⲥ ϧⲉⲛ ⲟⲩⲛⲓϣϯ ̀ⲛ̀ⲥⲙⲏ : ⲡⲉϫⲁϥ ϫⲉ ⲡⲁⲓⲱⲧ ϯ̀ⲙⲡⲁ̅ⲡ̅ⲛ̅ⲁ ̀ⲛ̀ϧⲣⲏⲓ ̀ⲉⲛⲉⲕϫⲓϫ : ⲫⲁⲓ ⲇⲉ ̀ⲉⲧⲁϥϫⲟϥ ⲁϥϯ ̀ⲙⲡⲓ̅ⲡ̅ⲛ̅ⲁ :<br>... Ⲟⲩⲱϣⲧ ̀ⲙⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲉ̀ϥⲛⲁⲙⲟⲩⲛⲕ ⲇⲉ ⲛ̀ϫⲉ ⲫ̀ⲣⲏ ⲁⲡⲓⲕⲁⲧⲁⲡⲉⲧⲁⲥⲙⲁ ⲛ̀ⲧⲉ ⲡⲓⲉⲣⲫⲉⲓ ⲫⲱϧ ϧⲉⲛ ⲧⲉϥⲙⲏϯ : Ⲟⲩⲟϩ ⲉ̀ⲧⲁϥⲙⲟⲩϯ ⲛ̀ϫⲉ Ⲓ̅ⲏ̅ⲥ ϧⲉⲛ ⲟⲩⲛⲓϣϯ ⲛ̀ⲥ̀ⲙⲏ : ⲡⲉϫⲁϥ ϫⲉ ⲡⲁⲓⲱⲧ ϯⲙ̀ⲡⲁ̅ⲡ̅ⲛ̅ⲁ ⲛ̀ϧ̀ⲣⲏⲓ ⲉ̀ⲛⲉⲕϫⲓϫ : ⲫⲁⲓ ⲇⲉ ⲉ̀ⲧⲁϥϫⲟϥ ⲁϥϯ ⲙ̀ⲡⲓ̅ⲡ̅ⲛ̅ⲁ :<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_19_row_9" class="priest">
             <td class="english">According to St. John</td>
-            <td class="coptic">ⲕⲁⲧⲁ Ⲓⲱⲁⲛⲛⲏⲛ ̀ ⲁⲅⲓⲟⲩ.</td>
+            <td class="coptic">ⲕⲁⲧⲁ Ⲓⲱⲁⲛⲛⲏⲛ  ̀ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">حسب مار يوحنا</td>
         </tr>
         <tr id="table_19_row_10" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓ̀ⲉ</td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ̀</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_19_row_11" class="text">
-            <td class="coptic">Ⲙⲉⲛⲉⲛⲥⲁ ⲛⲁⲓ ⲇⲉ ̀ⲉⲧⲁϥⲛⲁⲩ ̀ⲛϫⲉ Ⲓ̅ⲏ̅ⲥ ϫⲉ ϩⲏⲇⲏ ̀ⲁ ϩⲱⲃ ⲛⲓⲃⲉⲛ ϫⲱⲕ ̀ⲉⲃⲟⲗ : ϩⲓⲛⲁ ̀ⲛⲧⲉ ϯ̀ⲅⲣⲁⲫⲏ ϫⲱⲕ ̀ⲉⲃⲟⲗ : ⲡⲉϫⲁϥ ϫⲉ ϯⲟⲃⲓ : Ⲛⲉ ⲟⲩⲟⲛ ⲟⲩⲙⲟⲩⲕⲓ ⲇⲉ ⲉϥⲙⲉϩ ̀ⲛϩⲉⲙϫ ⲉϥⲭⲏ ̀ⲉ̀ϧⲣⲏⲓ : ⲁⲩⲙⲟϩ ̀ⲛⲟⲩ̀ⲥⲫⲟⲅⲅⲟⲥ ̀ⲛϩⲉⲙϫ : ⲁⲩⲧⲁⲗⲟϥ ̀ⲉϫⲉⲛ ⲟⲩϩⲓⲥⲟⲡⲟⲥ : ⲁⲩϩⲓⲧϥ ϧⲁⲧⲉⲛⲣⲱϥ : Ⲭⲟⲧⲉ ̀ⲉⲧⲁϥϫⲉⲙϯⲡⲓ ̀ⲙⲡⲓϩⲉⲙϫ ̀ⲛϫⲉ Ⲓ̅ⲏ̅ⲥ : ⲡⲉϫⲁϥ ϫⲉ ⲁϥϫⲱⲕ ̀ⲉⲃⲟⲗ : ⲟⲩⲟϩ ̀ⲉⲧⲁϥⲣⲉⲕ ϫⲱϥ ⲁϥϯ ̀ⲙⲡⲓ̅ⲡ̅ⲛ̅ⲁ.<br>... Ⲟⲩⲱϣⲧ ̀ⲙⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲙⲉⲛⲉⲛⲥⲁ ⲛⲁⲓ ⲇⲉ ⲉ̀ⲧⲁϥⲛⲁⲩ ⲛ̀ϫⲉ Ⲓ̅ⲏ̅ⲥ ϫⲉ ϩⲏⲇⲏ ⲁ̀ ϩⲱⲃ ⲛⲓⲃⲉⲛ ϫⲱⲕ ⲉ̀ⲃⲟⲗ : ϩⲓⲛⲁ ⲛ̀ⲧⲉ ϯⲅ̀ⲣⲁⲫⲏ ϫⲱⲕ ⲉ̀ⲃⲟⲗ : ⲡⲉϫⲁϥ ϫⲉ ϯⲟⲃⲓ : Ⲛⲉ ⲟⲩⲟⲛ ⲟⲩⲙⲟⲩⲕⲓ ⲇⲉ ⲉϥⲙⲉϩ ⲛ̀ϩⲉⲙϫ ⲉϥⲭⲏ ⲉ̀ϧ̀ⲣⲏⲓ : ⲁⲩⲙⲟϩ ⲛ̀ⲟⲩⲥ̀ⲫⲟⲅⲅⲟⲥ ⲛ̀ϩⲉⲙϫ : ⲁⲩⲧⲁⲗⲟϥ ⲉ̀ϫⲉⲛ ⲟⲩϩⲓⲥⲟⲡⲟⲥ : ⲁⲩϩⲓⲧϥ ϧⲁⲧⲉⲛⲣⲱϥ : Ⲭⲟⲧⲉ ⲉ̀ⲧⲁϥϫⲉⲙϯⲡⲓ ⲙ̀ⲡⲓϩⲉⲙϫ ⲛ̀ϫⲉ Ⲓ̅ⲏ̅ⲥ : ⲡⲉϫⲁϥ ϫⲉ ⲁϥϫⲱⲕ ⲉ̀ⲃⲟⲗ : ⲟⲩⲟϩ ⲉ̀ⲧⲁϥⲣⲉⲕ ϫⲱϥ ⲁϥϯ ⲙ̀ⲡⲓ̅ⲡ̅ⲛ̅ⲁ.<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_19_row_12" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓ̀ⲉ</td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ̀</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
     </table>

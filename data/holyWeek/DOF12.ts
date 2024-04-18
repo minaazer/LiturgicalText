@@ -19,22 +19,22 @@ ${hourIntroHtml}
     <caption class="caption" id="caption_table_2">Coptic Prophecies
     <span class="arabic-caption">النبوات قبطي</span></caption>
         <tr id="table_2_row_3" class="intro">
-            <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ ̀Ⲑⲣⲓⲛⲟⲓ Ⲓⲉⲣⲉⲙⲓⲟⲩ ⲡⲓ̀ⲡⲣⲟⲫⲏⲧⲏⲥ: ̀ⲉⲣⲉⲡⲉϥ̀ⲥⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ̀ⲁⲙⲏⲛ ⲉϥϫⲱ ̀ⲙⲙⲟⲥ:</td>
+            <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲑ̀ⲣⲓⲛⲟⲓ Ⲓⲉⲣⲉⲙⲓⲟⲩ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ:</td>
         </tr>
         <tr id="table_2_row_4" class="text">
-            <td class="coptic">Ⲁ ̀ⲁⲛⲟⲕ ̀ⲫⲣⲱⲙⲓ ̀ⲁⲛⲟⲕ ⲉⲑⲛⲁⲩ ̀ⲉϯⲙⲉⲧϩⲏⲕⲓ : ⲁϥ̀ⲓ ̀ⲉ̀ϩⲣⲏⲓ ̀ⲉϫⲱⲓ ϧⲉⲛ ⲡⲓϣⲃⲱⲧ ̀ⲛⲧⲉ ⲡⲉϥϫⲱⲛⲧ. Ⲁϥ̀ⲁⲙⲟⲛⲓ ̀ⲙⲙⲟⲓ ⲟⲩⲟϩ ⲁϥⲟⲗⲧ ̀ⲉϧⲟⲩⲛ ̀ⲉⲟⲩⲭⲁⲕⲓ ̀ⲉⲟⲩⲱⲓⲛⲓ ⲁⲛ : ̀ⲡⲗⲏⲛ ⲁϥⲧⲁⲥⲑⲟ ̀ⲛⲧⲉϥϫⲓϫ ̀ⲛ̀ϧⲣⲏⲓ ̀ⲛϧⲏⲧ ̀ⲙⲡⲓ̀ⲉϩⲟⲟⲩ ⲧⲏⲣϥ.</td>
+            <td class="coptic">Ⲁ ⲁ̀ⲛⲟⲕ ⲫ̀ⲣⲱⲙⲓ ⲁ̀ⲛⲟⲕ ⲉⲑⲛⲁⲩ ⲉ̀ϯⲙⲉⲧϩⲏⲕⲓ : ⲁϥⲓ̀ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲓ ϧⲉⲛ ⲡⲓϣⲃⲱⲧ ⲛ̀ⲧⲉ ⲡⲉϥϫⲱⲛⲧ. Ⲁϥⲁ̀ⲙⲟⲛⲓ ⲙ̀ⲙⲟⲓ ⲟⲩⲟϩ ⲁϥⲟⲗⲧ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲟⲩⲭⲁⲕⲓ ⲉ̀ⲟⲩⲱⲓⲛⲓ ⲁⲛ : ⲡ̀ⲗⲏⲛ ⲁϥⲧⲁⲥⲑⲟ ⲛ̀ⲧⲉϥϫⲓϫ ⲛ̀ϧ̀ⲣⲏⲓ ⲛ̀ϧⲏⲧ ⲙ̀ⲡⲓⲉ̀ϩⲟⲟⲩ ⲧⲏⲣϥ.</td>
         </tr>
         <tr id="table_2_row_5" class="intro">
-            <td class="coptic">Ⲟⲩ̀ⲱⲟⲩ ̀ⲛϯ̀ⲧⲣⲓⲁⲥ ̀ⲉⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ...</td>
+            <td class="coptic">Ⲟⲩⲱ̀ⲟⲩ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ...</td>
         </tr>
         <tr id="table_2_row_6" class="intro">
-            <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲓⲱⲛⲁ ⲡⲓ̀ⲡⲣⲟⲫⲏⲧⲏⲥ: ̀ⲉⲣⲉⲡⲉϥ̀ⲥⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ̀ⲁⲙⲏⲛ ⲉϥϫⲱ ̀ⲙⲙⲟⲥ:</td>
+            <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲓⲱⲛⲁ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ:</td>
         </tr>
         <tr id="table_2_row_7" class="text">
-            <td class="coptic">̀Ⲟⲩⲟϩ ⲁϥⲉⲣϩⲟϯ ̀ⲛϫⲉ ⲛⲓⲣⲱⲙⲓ ϧⲉⲛ ⲟⲩⲛⲓϣϯ ̀ⲛϩⲟϯ ⲟⲩⲟϩ ⲡⲉϫⲱⲟⲩ ⲛⲁϥϫⲉⲟⲩ ⲡⲉ ⲫⲁⲓ ̀ⲉⲧⲁⲕⲁⲓϥ ⲛⲁⲛ ϫⲉⲟⲩⲏⲓ ⲁⲩ̀ⲉⲙⲓ ̀ⲛϫⲉ ⲛⲓⲣⲱⲙⲓ ϫⲉ ⲛⲁϥ ⲫⲏⲧ ̀ⲉⲃⲟⲗϩⲁ ̀ⲡϩⲟ ̀ⲙⲠ⳪.</td>
+            <td class="coptic">Ⲟ̀ⲩⲟϩ ⲁϥⲉⲣϩⲟϯ ⲛ̀ϫⲉ ⲛⲓⲣⲱⲙⲓ ϧⲉⲛ ⲟⲩⲛⲓϣϯ ⲛ̀ϩⲟϯ ⲟⲩⲟϩ ⲡⲉϫⲱⲟⲩ ⲛⲁϥϫⲉⲟⲩ ⲡⲉ ⲫⲁⲓ ⲉ̀ⲧⲁⲕⲁⲓϥ ⲛⲁⲛ ϫⲉⲟⲩⲏⲓ ⲁⲩⲉ̀ⲙⲓ ⲛ̀ϫⲉ ⲛⲓⲣⲱⲙⲓ ϫⲉ ⲛⲁϥ ⲫⲏⲧ ⲉ̀ⲃⲟⲗϩⲁ ⲡ̀ϩⲟ ⲙ̀Ⲡ⳪.</td>
         </tr>
         <tr id="table_2_row_8" class="intro">
-            <td class="coptic">Ⲟⲩ̀ⲱⲟⲩ ̀ⲛϯ̀ⲧⲣⲓⲁⲥ ̀ⲉⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ϣⲁ ̀ⲉⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉⲛⲉϩ ̀ⲛⲧⲉ ⲛⲓ̀ⲉⲛⲉϩ ⲧⲏⲣⲟⲩ: ̀ⲁⲙⲏⲛ.</td>
+            <td class="coptic">Ⲟⲩⲱ̀ⲟⲩ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ: ⲁ̀ⲙⲏⲛ.</td>
         </tr>
     </table>
 </div>
@@ -235,17 +235,17 @@ ${paschalPraiseHtml}
         </tr>
         <tr id="table_7_row_1" class="text">
             <td class="english">Your throne, O God, is forever and ever; Alleluia</td>
-            <td class="coptic">Ⲡⲉⲕ̀ⲑⲣⲟⲛⲟⲥ Ⲫϯ ϣⲁ ̀ⲉⲛⲉϩ ̀ⲛⲧⲉ ⲡⲓ̀ⲉⲛⲉϩ: ⲁⲗ̅</td>
+            <td class="coptic">Ⲡⲉⲕⲑ̀ⲣⲟⲛⲟⲥ Ⲫϯ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲡⲓⲉ̀ⲛⲉϩ: ⲁⲗ̅</td>
             <td class="arabic">كرسيك يا الله إلى دهر الدهور. هلليلويا.</td>
         </tr>
         <tr id="table_7_row_2" class="text">
             <td class="english">A scepter of righteousness is the scepter of Your kingdom. </td>
-            <td class="coptic">ⲟⲩⲟϩ ⲡⲓ̀ϣⲃⲱⲧ ̀ⲙ̀ⲡⲥⲱⲟⲩⲧⲉⲛ ⲡⲉ ̀ⲡ̀ϣⲃⲱⲧ ̀ⲛⲧⲉ ⲧⲉⲕⲙⲉⲧⲟⲩⲣⲟ.</td>
+            <td class="coptic">ⲟⲩⲟϩ ⲡⲓϣ̀ⲃⲱⲧ ⲙ̀ⲡ̀ⲥⲱⲟⲩⲧⲉⲛ ⲡⲉ ⲡ̀ϣ̀ⲃⲱⲧ ⲛ̀ⲧⲉ ⲧⲉⲕⲙⲉⲧⲟⲩⲣⲟ.</td>
             <td class="arabic">قضيب الاستقامة هو قضيب ملكك. </td>
         </tr>
         <tr id="table_7_row_3" class="text">
             <td class="english">All Your garments are scented with myrrh and aloes and cassia. </td>
-            <td class="coptic">Ⲟⲩ̀ⲥⲙⲩⲣⲛⲁ ⲛⲉⲙ ⲟⲩ̀ⲥⲧⲁⲕⲧⲏ ⲛⲉⲙ ⲟⲩⲕⲁⲥⲓ̀ⲁ ̀ⲉⲃⲟⲗϧⲉⲛ ⲛⲉⲕ̀ϩⲃⲱⲥ :</td>
+            <td class="coptic">Ⲟⲩⲥ̀ⲙⲩⲣⲛⲁ ⲛⲉⲙ ⲟⲩⲥ̀ⲧⲁⲕⲧⲏ ⲛⲉⲙ ⲟⲩⲕⲁⲥⲓⲁ̀ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲉⲕϩ̀ⲃⲱⲥ :</td>
             <td class="arabic">المر والميعة والسليخة من ثيابك.</td>
         </tr>
         <tr id="table_7_row_5" class="intro">
@@ -260,17 +260,17 @@ ${paschalPraiseHtml}
         <span class="arabic-caption">الإناجيل قبطي</span></caption>
         <tr id="table_9_row_0" class="priest">
             <td class="english">A chapter according to St. Matthew,</td>
-            <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ̀ⲉⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲱⲛ ⲁⲅⲓⲟⲩ.</td>
+            <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲱⲛ ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">فصل من إنجيل معلمنا مار متى</td>
         </tr>
 
         <tr id="table_9_row_1" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓ̀ⲉ</td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ̀</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_9_row_2" class="text">
-            <td class="coptic">Ⲉⲧ̀ⲁⲣⲟⲩϩⲓ ⲇⲉ ϣⲱⲡⲓ ⲁϥ̀ⲓ ̀ⲛϫⲉ ⲟⲩⲣⲱⲙⲓ ̀ⲛⲣⲁⲙⲁⲟ ̀ⲉⲃⲟⲗϧⲉⲛ ̀̀Ⲁⲣⲓⲙⲁⲑⲉⲁⲥ : ̀ⲉⲡⲉϥⲣⲁⲛ ⲡⲉ Ⲓⲱⲥⲏⲫ : ⲫⲁⲓ ϩⲱϥ ⲛⲉ ⲁϥⲉⲣⲙⲁⲑⲏⲧⲏⲥ ̀ⲛⲒ̅ⲏ̅ⲥ. Ⲫⲁⲓ ⲁϥ̀ⲓ ϩⲁⲠⲓⲗⲁⲧⲟⲥ ⲁϥⲉⲣ̀ⲉⲧⲓⲛ ̀ⲙⲡⲓⲥⲱⲙⲁ ̀ⲛⲧⲉ Ⲓⲏⲥ ⲧⲟⲧⲉ Ⲡⲓⲗⲁⲧⲟⲥ ⲁϥⲟⲩⲁϩ ⲥⲁϩⲛⲓ ̀ⲉⲧⲏⲓϥ <br>... Ⲟⲩⲱϣⲧ ̀ⲙⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲉⲧⲁ̀ⲣⲟⲩϩⲓ ⲇⲉ ϣⲱⲡⲓ ⲁϥⲓ̀ ⲛ̀ϫⲉ ⲟⲩⲣⲱⲙⲓ ⲛ̀ⲣⲁⲙⲁⲟ ⲉ̀ⲃⲟⲗϧⲉⲛ ̀̀Ⲁⲣⲓⲙⲁⲑⲉⲁⲥ : ⲉ̀ⲡⲉϥⲣⲁⲛ ⲡⲉ Ⲓⲱⲥⲏⲫ : ⲫⲁⲓ ϩⲱϥ ⲛⲉ ⲁϥⲉⲣⲙⲁⲑⲏⲧⲏⲥ ⲛ̀Ⲓ̅ⲏ̅ⲥ. Ⲫⲁⲓ ⲁϥⲓ̀ ϩⲁⲠⲓⲗⲁⲧⲟⲥ ⲁϥⲉⲣⲉ̀ⲧⲓⲛ ⲙ̀ⲡⲓⲥⲱⲙⲁ ⲛ̀ⲧⲉ Ⲓⲏⲥ ⲧⲟⲧⲉ Ⲡⲓⲗⲁⲧⲟⲥ ⲁϥⲟⲩⲁϩ ⲥⲁϩⲛⲓ ⲉ̀ⲧⲏⲓϥ <br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_9_row_3" class="priest">
             <td class="english">According to St. Mark</td>
@@ -279,41 +279,41 @@ ${paschalPraiseHtml}
         </tr>
         <tr id="table_9_row_4" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓ̀ⲉ</td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ̀</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_9_row_5" class="text">
-            <td class="coptic">Ⲟⲩⲟϩ ϩⲏⲇⲏⲉⲧ ̀ⲁ̀ⲣⲟⲩϩⲓ ϣⲱⲡⲓ ⲉⲡⲓⲇⲏ ⲛⲉ̀ⲧⲡⲁⲣⲁⲥⲕⲉⲩ̀ⲏ ⲧⲉ ⲉⲧϧⲁϫⲱϥ ̀ⲙⲡⲓⲥⲁⲃⲃⲁⲧⲟⲛ : ̀Ⲉⲧϥⲁⲓ ̀ⲛϫⲉ Ⲓⲱⲥⲏⲫ ̀ⲉⲃⲟⲗϧⲉⲛ ̀Ⲁⲣⲓⲙⲁⲑⲉⲁⲥ : ̀ⲉⲟⲩⲉⲩ̀ⲥⲭⲉⲙⲱⲛ ⲡⲉ ̀ⲙⲃⲟⲩⲗⲉⲩⲧⲏⲥ : ⲫⲁⲓ ̀ⲉⲧⲉ ̀ⲛⲑⲟϥ ϩⲱϥ ⲛⲁϥϫⲟⲩϣⲧ ̀ⲉⲃⲟⲗ ϧⲁ̀ⲧϩⲏ ̀ⲛϯⲙⲉⲧⲟⲩⲣⲟ ̀ⲛⲧⲉ Ⲫϯ : ⲁϥⲉⲣⲧⲟⲗⲙⲁⲛ ⲁϥϣⲉ ̀ⲉϧⲟⲩⲛ ϩⲁⲠⲓⲗⲁⲧⲟⲥ ⲁϥⲉⲣ̀ⲉⲧⲓⲛ ⲙ̀ⲡⲥⲱⲙⲁ ̀ⲛⲒ̅ⲏ̅ⲥ. <br>... Ⲟⲩⲱϣⲧ ̀ⲙⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲟⲩⲟϩ ϩⲏⲇⲏⲉⲧ ⲁ̀ⲣ̀ⲟⲩϩⲓ ϣⲱⲡⲓ ⲉⲡⲓⲇⲏ ⲛⲉⲧ̀ⲡⲁⲣⲁⲥⲕⲉⲩⲏ̀ ⲧⲉ ⲉⲧϧⲁϫⲱϥ ⲙ̀ⲡⲓⲥⲁⲃⲃⲁⲧⲟⲛ : Ⲉ̀ⲧϥⲁⲓ ⲛ̀ϫⲉ Ⲓⲱⲥⲏⲫ ⲉ̀ⲃⲟⲗϧⲉⲛ Ⲁ̀ⲣⲓⲙⲁⲑⲉⲁⲥ : ⲉ̀ⲟⲩⲉⲩⲥ̀ⲭⲉⲙⲱⲛ ⲡⲉ ⲙ̀ⲃⲟⲩⲗⲉⲩⲧⲏⲥ : ⲫⲁⲓ ⲉ̀ⲧⲉ ⲛ̀ⲑⲟϥ ϩⲱϥ ⲛⲁϥϫⲟⲩϣⲧ ⲉ̀ⲃⲟⲗ ϧⲁⲧ̀ϩⲏ ⲛ̀ϯⲙⲉⲧⲟⲩⲣⲟ ⲛ̀ⲧⲉ Ⲫϯ : ⲁϥⲉⲣⲧⲟⲗⲙⲁⲛ ⲁϥϣⲉ ⲉ̀ϧⲟⲩⲛ ϩⲁⲠⲓⲗⲁⲧⲟⲥ ⲁϥⲉⲣⲉ̀ⲧⲓⲛ ⲙⲡ̀ⲥⲱⲙⲁ ⲛ̀Ⲓ̅ⲏ̅ⲥ. <br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_9_row_6" class="priest">
             <td class="english">According to St. Luke</td>
-            <td class="coptic">ⲕⲁⲧⲁ Ⲗⲟⲩⲕⲁⲛ ̀ ⲁⲅⲓⲟⲩ.</td>
+            <td class="coptic">ⲕⲁⲧⲁ Ⲗⲟⲩⲕⲁⲛ  ̀ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">حسب مار لوقا</td>
         </tr>
         <tr id="table_9_row_7" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓ̀ⲉ</td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ̀</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_9_row_8" class="text">
-            <td class="coptic">̀̀Ⲟⲩⲟϩ ϩⲏⲡⲡⲉ ⲓⲥ ⲟⲩⲣⲱⲙⲓ ̀ⲉⲡⲉϥⲣⲁⲛ ⲡⲉ Ⲓⲱⲥⲏⲫ : ̀ⲉⲟⲩⲃⲟⲩⲗⲉⲩⲧⲏⲥ ⲡⲉ : ⲟⲩⲣⲙⲙⲓ ̀ⲛ̀ⲁⲅⲁⲑⲟⲥ ⲟⲩⲟϩ ̀ⲛ̀ⲑⲙⲏⲓ : Ⲫⲁⲓ ̀ⲉⲛⲁϥ ϯⲙⲁϯ ⲁⲛ ⲡⲉ ϧⲉⲛ ⲡⲟⲩⲥⲟϭⲛⲓ ⲛⲉⲙ ⲧⲟⲩ ̀ⲡⲣⲁⲝⲓⲥ ⲛⲉ ⲟⲩ̀ⲉⲃⲟⲗϧⲉⲛ ̀Ⲁⲣⲓⲙⲁⲑⲉⲁⲥ ⲟⲩ ⲃⲁⲕⲓ ̀ⲛⲧⲉ ⲛⲓⲒⲟⲩⲇⲁⲓ<br>... Ⲟⲩⲱϣⲧ ̀ⲙⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">̀̀Ⲟⲩⲟϩ ϩⲏⲡⲡⲉ ⲓⲥ ⲟⲩⲣⲱⲙⲓ ⲉ̀ⲡⲉϥⲣⲁⲛ ⲡⲉ Ⲓⲱⲥⲏⲫ : ⲉ̀ⲟⲩⲃⲟⲩⲗⲉⲩⲧⲏⲥ ⲡⲉ : ⲟⲩⲣⲙⲙⲓ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ ⲟⲩⲟϩ ⲛ̀ⲑ̀ⲙⲏⲓ : Ⲫⲁⲓ ⲉ̀ⲛⲁϥ ϯⲙⲁϯ ⲁⲛ ⲡⲉ ϧⲉⲛ ⲡⲟⲩⲥⲟϭⲛⲓ ⲛⲉⲙ ⲧⲟⲩ ⲡ̀ⲣⲁⲝⲓⲥ ⲛⲉ ⲟⲩⲉ̀ⲃⲟⲗϧⲉⲛ Ⲁ̀ⲣⲓⲙⲁⲑⲉⲁⲥ ⲟⲩ ⲃⲁⲕⲓ ⲛ̀ⲧⲉ ⲛⲓⲒⲟⲩⲇⲁⲓ<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_9_row_9" class="priest">
             <td class="english">According to St. John</td>
-            <td class="coptic">ⲕⲁⲧⲁ Ⲓⲱⲁⲛⲛⲏⲛ ̀ ⲁⲅⲓⲟⲩ.</td>
+            <td class="coptic">ⲕⲁⲧⲁ Ⲓⲱⲁⲛⲛⲏⲛ  ̀ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">حسب مار يوحنا</td>
         </tr>
         <tr id="table_9_row_10" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓ̀ⲉ</td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ̀</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_9_row_11" class="text">
-            <td class="coptic">Ⲙⲉⲛⲉⲛⲥⲁ ⲛⲁⲓ ⲇⲉ ⲁϥ̀ⲓ ̀ⲛϫⲉ ⲓⲱⲥⲏⲫ ⲡⲓⲣⲉⲙ ̀Ⲁⲣⲓⲙⲁⲑⲉⲁⲥ ⲁϥϯϩⲟ ̀ⲉⲠⲓⲗⲁⲧⲟⲥ : ̀ⲉⲟⲩⲙⲁⲑⲏⲧⲏⲥ ϩⲱϥ ̀ⲛⲧⲉ Ⲓ̅ⲏ̅ⲥ ⲛⲁϥⲭⲏⲡ ⲇⲉ ⲡⲉ ⲉⲑⲃⲉ ̀ⲧϩⲟϯ ̀ⲛⲛⲓⲒⲟⲩⲇⲁⲓ : ϩⲓⲛⲁ ̀ⲛⲧⲉϥ̀ⲱⲗⲓ ̀ⲙⲡⲓⲥⲱⲙⲁ ̀ⲛⲧⲉ Ⲓ̅ⲏ̅ⲥ <br>... Ⲟⲩⲱϣⲧ ̀ⲙⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲙⲉⲛⲉⲛⲥⲁ ⲛⲁⲓ ⲇⲉ ⲁϥⲓ̀ ⲛ̀ϫⲉ ⲓⲱⲥⲏⲫ ⲡⲓⲣⲉⲙ Ⲁ̀ⲣⲓⲙⲁⲑⲉⲁⲥ ⲁϥϯϩⲟ ⲉ̀Ⲡⲓⲗⲁⲧⲟⲥ : ⲉ̀ⲟⲩⲙⲁⲑⲏⲧⲏⲥ ϩⲱϥ ⲛ̀ⲧⲉ Ⲓ̅ⲏ̅ⲥ ⲛⲁϥⲭⲏⲡ ⲇⲉ ⲡⲉ ⲉⲑⲃⲉ ⲧ̀ϩⲟϯ ⲛ̀ⲛⲓⲒⲟⲩⲇⲁⲓ : ϩⲓⲛⲁ ⲛ̀ⲧⲉϥⲱ̀ⲗⲓ ⲙ̀ⲡⲓⲥⲱⲙⲁ ⲛ̀ⲧⲉ Ⲓ̅ⲏ̅ⲥ <br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_9_row_12" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓ̀ⲉ</td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ̀</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
     </table>
@@ -454,86 +454,95 @@ ${paschalPraiseHtml}
 </table>
 
 <table id="table_14" title="Gospel">
-    <caption id="caption_table_14" class="caption">Gospel<br>(John 19:38-42)
-    <span class="arabic-caption">الانجيل<br>(يوحنا 19: 38-42)</span></caption>
+    <caption id="caption_table_14" class="caption">Gospel<br>(Luke 23:50-56)
+    <span class="arabic-caption">الانجيل<br>(لوقا 23: 50-56)</span></caption>
     <tr id="table_14_row_1" class="intro">
-        <td class="english">A chapter from the Gospel according to our teacher St. John the evangelist. May his blessings be with us. Amen.</td>
-        <td class="arabic">فصل من إنجيل معلمنا يوحنا البشير، بركاته تكون معنا أمين.</td>
+        <td class="english">A chapter from the Gospel according to our teacher Saint Luke the evangelist. May his blessings be with us. Amen.</td>
+        <td class="arabic">فصل من إنجيل معلمنا لوقا البشير، بركاته تكون معنا أمين.</td>
     </tr>
     <tr id="table_14_row_4" class="text">
-        <td class="english">After this, Joseph of Arimathea, being a disciple of Jesus, but secretly, for fear of the Jews, asked Pilate that he might take away the body of Jesus; and Pilate gave him permission. So he came and took the body of Jesus.</td>
-        <td class="arabic">ثُمَّ إِنَّ يُوسُفَ الَّذِي مِنَ الرَّامَةِ وَهُوَ تِلْمِيذُ يَسُوعَ وَلَكِنْ خُفْيَةً لِسَبَبِ الْخَوْفِ مِنَ الْيَهُودِ سَأَلَ بِيلاَطُسَ أَنْ يَأْخُذَ جَسَدَ يَسُوعَ فَأَذِنَ بِيلاَطُسُ. فَجَاءَ وَأَخَذَ جَسَدَ يَسُوعَ.</td>
+        <td class="english">Now behold, there was a man named Joseph, a council member, a good and just man.</td>
+        <td class="arabic">وَإِذَا رَجُلٌ اسْمُهُ يُوسُفُ وَكَانَ مُشِيراً وَرَجُلاً صَالِحاً بَارّاً -</td>
     </tr>
     <tr id="table_14_row_5" class="text">
-        <td class="english">And Nicodemus, who at first came to Jesus by night, also came, bringing a mixture of myrrh and aloes, about a hundred pounds.</td>
-        <td class="arabic">وَجَاءَ أَيْضاً نِيقُودِيمُوسُ الَّذِي أَتَى أَوَّلاً إِلَى يَسُوعَ لَيْلاً وَهُوَ حَامِلٌ مَزِيجَ مُرٍّ وَعُودٍ نَحْوَ مِئَةِ مَناً.</td>
+        <td class="english">He had not consented to their decision and deed. He was from Arimathea, a city of the Jews, who himself was also waiting for the kingdom of God.</td>
+        <td class="arabic">هَذَا لَمْ يَكُنْ مُوافِقاً لِرَأْيِهِمْ وَعَمَلِهِمْ وَهُوَ مِنَ الرَّامَةِ مَدِينَةٍ لِلْيَهُودِ. وَكَانَ هُوَ أَيْضاً يَنْتَظِرُ مَلَكُوتَ اللهِ.</td>
     </tr>
     <tr id="table_14_row_6" class="text">
-        <td class="english">Then they took the body of Jesus, and bound it in strips of linen with the spices, as the custom of the Jews is to bury.</td>
-        <td class="arabic">فَأَخَذَا جَسَدَ يَسُوعَ وَلَفَّاهُ بِأَكْفَانٍ مَعَ الأَطْيَابِ كَمَا لِلْيَهُودِ عَادَةٌ أَنْ يُكَفِّنُوا.</td>
+        <td class="english">This man went to Pilate and asked for the body of Jesus.</td>
+        <td class="arabic">هَذَا تَقَدَّمَ إِلَى بِيلاَطُسَ وَطَلَبَ جَسَدَ يَسُوعَ</td>
     </tr>
     <tr id="table_14_row_7" class="text">
-        <td class="english">Now in the place where He was crucified there was a garden, and in the garden a new tomb in which no one had yet been laid.</td>
-        <td class="arabic">وَكَانَ فِي الْمَوْضِعِ الَّذِي صُلِبَ فِيهِ بُسْتَانٌ وَفِي الْبُسْتَانِ قَبْرٌ جَدِيدٌ لَمْ يُوضَعْ فِيهِ أَحَدٌ قَطُّ.</td>
+        <td class="english">Then he took it down, wrapped it in linen, and laid it in a tomb that was hewn out of the rock, where no one had ever lain before.</td>
+        <td class="arabic">وَأَنْزَلَهُ وَلَفَّهُ بِكَتَّانٍ وَوَضَعَهُ فِي قَبْرٍ مَنْحُوتٍ حَيْثُ لَمْ يَكُنْ أَحَدٌ وُضِعَ قَطُّ.</td>
     </tr>
     <tr id="table_14_row_8" class="text">
-        <td class="english">So there they laid Jesus, because of the Jews' Preparation Day, for the tomb was nearby.<br>Bow down before the Holy Gospel.</td>
-        <td class="arabic">فَهُنَاكَ وَضَعَا يَسُوعَ لِسَبَبِ اسْتِعْدَادِ الْيَهُودِ لأَنَّ الْقَبْرَ كَانَ قَرِيباً.<br>أسجدوا للإنجيل المقدس.</td>
+        <td class="english">That day was the Preparation, and the Sabbath drew near.</td>
+        <td class="arabic">وَكَانَ يَوْمُ الاِسْتِعْدَادِ وَالسَّبْتُ يَلُوحُ.</td>
     </tr>
-    <tr id="table_14_row_10" class="intro">
+    <tr id="table_14_row_9" class="text">
+        <td class="english">And the women who had come with Him from Galilee followed after, and they observed the tomb and how His body was laid.</td>
+        <td class="arabic">وَتَبِعَتْهُ نِسَاءٌ كُنَّ قَدْ أَتَيْنَ مَعَهُ مِنَ الْجَلِيلِ وَنَظَرْنَ الْقَبْرَ وَكَيْفَ وُضِعَ جَسَدُهُ.</td>
+    </tr>
+    <tr id="table_14_row_10" class="text">
+        <td class="english">Then they returned and prepared spices and fragrant oils. And they rested on the Sabbath according to the commandment.</td>
+        <td class="arabic">فَرَجَعْنَ وَأَعْدَدْنَ حَنُوطاً وَأَطْيَاباً. وَفِي السَّبْتِ اسْتَرَحْنَ حَسَبَ الْوَصِيَّةِ.</td>
+    </tr>
+    <tr id="table_14_row_11" class="text">
+        <td class="english">Bow down before the Holy Gospel.</td>
+        <td class="arabic">أسجدوا للإنجيل المقدس.</td>
+    </tr>
+    <tr id="table_14_row_13" class="intro">
         <td class="english">Glory be to God forever.</td>
         <td class="arabic">والمجد لله دائماً.</td>
     </tr>
 </table>
 
 <table id="table_15" title="Gospel">
-    <caption id="caption_table_15" class="caption">Gospel<br>(Luke 23:50-56)
-    <span class="arabic-caption">الانجيل<br>(لوقا 23: 50-56)</span></caption>
+    <caption id="caption_table_15" class="caption">Gospel<br>(John 19:38-42)
+    <span class="arabic-caption">الانجيل<br>(يوحنا 19: 38-42)</span></caption>
     <tr id="table_15_row_1" class="intro">
-        <td class="english">A chapter from the Gospel according to our teacher St. Luke the evangelist. May his blessings be with us. Amen.</td>
-        <td class="arabic">فصل من إنجيل معلمنا لوقا البشير، بركاته تكون معنا أمين.</td>
+        <td class="english">A chapter from the Gospel according to our teacher Saint John the evangelist. May his blessings be with us. Amen.</td>
+        <td class="arabic">فصل من إنجيل معلمنا يوحنا البشير، بركاته تكون معنا أمين.</td>
     </tr>
     <tr id="table_15_row_4" class="text">
-        <td class="english">Now behold, there was a man named Joseph, a council member, a good and just man.</td>
-        <td class="arabic">وَإِذَا رَجُلٌ اسْمُهُ يُوسُفُ وَكَانَ مُشِيراً وَرَجُلاً صَالِحاً بَارّاً -</td>
+        <td class="english">After this, Joseph of Arimathea, being a disciple of Jesus, but secretly, for fear of the Jews, asked Pilate that he might take away the body of Jesus; and Pilate gave him permission. So he came and took the body of Jesus.</td>
+        <td class="arabic">ثُمَّ إِنَّ يُوسُفَ الَّذِي مِنَ الرَّامَةِ وَهُوَ تِلْمِيذُ يَسُوعَ وَلَكِنْ خُفْيَةً لِسَبَبِ الْخَوْفِ مِنَ الْيَهُودِ سَأَلَ بِيلاَطُسَ أَنْ يَأْخُذَ جَسَدَ يَسُوعَ فَأَذِنَ بِيلاَطُسُ. فَجَاءَ وَأَخَذَ جَسَدَ يَسُوعَ.</td>
     </tr>
     <tr id="table_15_row_5" class="text">
-        <td class="english">He had not consented to their decision and deed. He was from Arimathea, a city of the Jews, who himself was also waiting for the kingdom of God.</td>
-        <td class="arabic">هَذَا لَمْ يَكُنْ مُوافِقاً لِرَأْيِهِمْ وَعَمَلِهِمْ وَهُوَ مِنَ الرَّامَةِ مَدِينَةٍ لِلْيَهُودِ. وَكَانَ هُوَ أَيْضاً يَنْتَظِرُ مَلَكُوتَ اللهِ.</td>
+        <td class="english">And Nicodemus, who at first came to Jesus by night, also came, bringing a mixture of myrrh and aloes, about a hundred pounds.</td>
+        <td class="arabic">وَجَاءَ أَيْضاً نِيقُودِيمُوسُ الَّذِي أَتَى أَوَّلاً إِلَى يَسُوعَ لَيْلاً وَهُوَ حَامِلٌ مَزِيجَ مُرٍّ وَعُودٍ نَحْوَ مِئَةِ مَناً.</td>
     </tr>
     <tr id="table_15_row_6" class="text">
-        <td class="english">This man went to Pilate and asked for the body of Jesus.</td>
-        <td class="arabic">هَذَا تَقَدَّمَ إِلَى بِيلاَطُسَ وَطَلَبَ جَسَدَ يَسُوعَ</td>
+        <td class="english">Then they took the body of Jesus, and bound it in strips of linen with the spices, as the custom of the Jews is to bury.</td>
+        <td class="arabic">فَأَخَذَا جَسَدَ يَسُوعَ وَلَفَّاهُ بِأَكْفَانٍ مَعَ الأَطْيَابِ كَمَا لِلْيَهُودِ عَادَةٌ أَنْ يُكَفِّنُوا.</td>
     </tr>
     <tr id="table_15_row_7" class="text">
-        <td class="english">Then he took it down, wrapped it in linen, and laid it in a tomb that was hewn out of the rock, where no one had ever lain before.</td>
-        <td class="arabic">وَأَنْزَلَهُ وَلَفَّهُ بِكَتَّانٍ وَوَضَعَهُ فِي قَبْرٍ مَنْحُوتٍ حَيْثُ لَمْ يَكُنْ أَحَدٌ وُضِعَ قَطُّ.</td>
+        <td class="english">Now in the place where He was crucified there was a garden, and in the garden a new tomb in which no one had yet been laid.</td>
+        <td class="arabic">وَكَانَ فِي الْمَوْضِعِ الَّذِي صُلِبَ فِيهِ بُسْتَانٌ وَفِي الْبُسْتَانِ قَبْرٌ جَدِيدٌ لَمْ يُوضَعْ فِيهِ أَحَدٌ قَطُّ.</td>
     </tr>
     <tr id="table_15_row_8" class="text">
-        <td class="english">That day was the Preparation, and the Sabbath drew near.</td>
-        <td class="arabic">وَكَانَ يَوْمُ الاِسْتِعْدَادِ وَالسَّبْتُ يَلُوحُ.</td>
+        <td class="english">So there they laid Jesus, because of the Jews' Preparation Day, for the tomb was nearby.</td>
+        <td class="arabic">فَهُنَاكَ وَضَعَا يَسُوعَ لِسَبَبِ اسْتِعْدَادِ الْيَهُودِ لأَنَّ الْقَبْرَ كَانَ قَرِيباً.</td>
     </tr>
     <tr id="table_15_row_9" class="text">
-        <td class="english">And the women who had come with Him from Galilee followed after, and they observed the tomb and how His body was laid.</td>
-        <td class="arabic">وَتَبِعَتْهُ نِسَاءٌ كُنَّ قَدْ أَتَيْنَ مَعَهُ مِنَ الْجَلِيلِ وَنَظَرْنَ الْقَبْرَ وَكَيْفَ وُضِعَ جَسَدُهُ.</td>
+        <td class="english">Bow down before the Holy Gospel.</td>
+        <td class="arabic">أسجدوا للإنجيل المقدس.</td>
     </tr>
-    <tr id="table_15_row_10" class="text">
-        <td class="english">Then they returned and prepared spices and fragrant oils. And they rested on the Sabbath according to the commandment.<br>Bow down before the Holy Gospel.</td>
-        <td class="arabic">فَرَجَعْنَ وَأَعْدَدْنَ حَنُوطاً وَأَطْيَاباً. وَفِي السَّبْتِ اسْتَرَحْنَ حَسَبَ الْوَصِيَّةِ.<br>أسجدوا للإنجيل المقدس.</td>
-    </tr>
-    <tr id="table_15_row_12" class="intro">
+    <tr id="table_15_row_11" class="intro">
         <td class="english">Glory be to God forever.</td>
         <td class="arabic">والمجد لله دائماً.</td>
     </tr>
 </table>
+
 </div>
 
 
 <div class="section" id="section_8" title="Exposition">
 ${daytimeExpositionIntroHtml}
 <table id="table_17" title="Exposition">
-    <caption id="caption_table_17" class="caption">Exposition<br>()
-    <span class="arabic-caption">الطرح<br>()</span></caption>
+    <caption id="caption_table_17" class="caption">Exposition
+    <span class="arabic-caption">الطرح</span></caption>
     <tr id="table_17_row_1" class="intro">
         <td class="english">The exposition of the TWELFTH Hour of the DAY of GOOD FRIDAY of Holy Pascha. May its blessings be with us. Amen.</td>
         <td class="arabic">طرح الساعة الثانية عشرة من يوم الجمعة العظيمة من البصخة المقدسة بركتها تكون معنا. آمين.</td>
@@ -619,7 +628,7 @@ ${daytimeLitaniesHtml}
     </tr>
     <tr id="table_20_row_6" class="text">
         <td class="english">Lord Have Mercy. (100)</td>
-        <td class="coptic">Ⲕⲩⲣⲓ̀ⲉ ̀ⲉⲗⲉ̀ⲏⲥⲟⲛ (100)</td>
+        <td class="coptic">Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ (100)</td>
         <td class="arabic">كيري ليسون. (100)</td>
     </tr>
     <tr id="table_20_row_7" class="commentary">
@@ -628,7 +637,7 @@ ${daytimeLitaniesHtml}
     </tr>
     <tr id="table_20_row_8" class="text">
         <td class="english">Lord Have Mercy. (100)</td>
-        <td class="coptic">Ⲕⲩⲣⲓ̀ⲉ ̀ⲉⲗⲉ̀ⲏⲥⲟⲛ (100)</td>
+        <td class="coptic">Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ (100)</td>
         <td class="arabic">كيري ليسون. (100)</td>
     </tr>
     <tr id="table_20_row_9" class="commentary">
@@ -637,7 +646,7 @@ ${daytimeLitaniesHtml}
     </tr>
     <tr id="table_20_row_10" class="text">
         <td class="english">Lord Have Mercy. (100)</td>
-        <td class="coptic">Ⲕⲩⲣⲓ̀ⲉ ̀ⲉⲗⲉ̀ⲏⲥⲟⲛ (100)</td>
+        <td class="coptic">Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ (100)</td>
         <td class="arabic">كيري ليسون. (100)</td>
     </tr>
     <tr id="table_20_row_11" class="commentary">
@@ -646,7 +655,7 @@ ${daytimeLitaniesHtml}
     </tr>
     <tr id="table_20_row_12" class="text">
         <td class="english">Lord Have Mercy. (100)</td>
-        <td class="coptic">Ⲕⲩⲣⲓ̀ⲉ ̀ⲉⲗⲉ̀ⲏⲥⲟⲛ (100)</td>
+        <td class="coptic">Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ (100)</td>
         <td class="arabic">كيري ليسون. (100)</td>
     </tr>
     <tr id="table_20_row_13" class="commentary">
@@ -655,7 +664,7 @@ ${daytimeLitaniesHtml}
     </tr>
     <tr id="table_20_row_14" class="text">
         <td class="english">Lord Have Mercy. (12)</td>
-        <td class="coptic">Ⲕⲩⲣⲓ̀ⲉ ̀ⲉⲗⲉ̀ⲏⲥⲟⲛ (12)</td>
+        <td class="coptic">Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ (12)</td>
         <td class="arabic">كيري ليسون. (12)</td>
     </tr>
     <tr id="table_20_row_15" class="commentary">
@@ -671,57 +680,57 @@ ${daytimeLitaniesHtml}
     </tr>
     <tr id="table_21_row_2" class="text">
         <td class="english">Golgotha in Hebrew, Cranium in Greek, the place where You were crucified, O Lord. </td>
-        <td class="coptic">Ⲅⲟⲗⲅⲟⲑⲁ ̀ⲙⲙⲉⲧ ϩⲉⲃⲣⲉⲟⲥ : ⲡⲓ̀ⲕⲣⲁⲛⲓⲟⲛ ̀ⲙⲙⲉⲧⲟⲩⲉⲓⲛⲓⲛ : ⲡⲓⲙⲁⲉⲧⲁⲩⲁϣⲕ Ⲡ⳪ ̀ⲛϧⲏⲧϥ : </td>
+        <td class="coptic">Ⲅⲟⲗⲅⲟⲑⲁ ⲙ̀ⲙⲉⲧ ϩⲉⲃⲣⲉⲟⲥ : ⲡⲓⲕ̀ⲣⲁⲛⲓⲟⲛ ⲙ̀ⲙⲉⲧⲟⲩⲉⲓⲛⲓⲛ : ⲡⲓⲙⲁⲉⲧⲁⲩⲁϣⲕ Ⲡ⳪ ⲛ̀ϧⲏⲧϥ : </td>
         <td class="arabic">الجلجلة بالعبرانية والأقرانيون باليونانية الموضع الذى صلبت فيه يارب</td>
     </tr>
     <tr id="table_21_row_3" class="text">
         <td class="english">You stretched out Your hands, and crucified two thieves with You; one on Your right side, the other on Your left, and You, O good savior, in the midst</td>
-        <td class="coptic">ⲁⲕⲫⲱⲣϣ ̀ⲛⲛⲉⲕϫⲓϫ ̀ⲉⲃⲟⲗ ⲁϥ̀ⲓϣⲓ ⲛⲉⲙⲁⲕ ̀ⲛⲕⲉⲥⲟⲛⲓ ̀ⲥⲛⲁⲩ : ⲥⲁⲧⲉⲕⲟⲩ̀ⲓⲛⲁⲙ ⲛⲉⲙ ⲥⲁⲧⲉⲕϫⲁⲧϭⲏ : ̀ⲛⲑⲟⲕ ⲉⲕⲭⲏ ϧⲉⲛ ⲧⲟⲩⲙⲏϯ ̀ⲱ ⲡⲓⲥⲱⲧⲏⲣ ̀ⲛⲁⲅⲁⲑⲟⲥ.</td>
+        <td class="coptic">ⲁⲕⲫⲱⲣϣ ⲛ̀ⲛⲉⲕϫⲓϫ ⲉ̀ⲃⲟⲗ ⲁϥⲓ̀ϣⲓ ⲛⲉⲙⲁⲕ ⲛ̀ⲕⲉⲥⲟⲛⲓ ⲥ̀ⲛⲁⲩ : ⲥⲁⲧⲉⲕⲟⲩⲓ̀ⲛⲁⲙ ⲛⲉⲙ ⲥⲁⲧⲉⲕϫⲁⲧϭⲏ : ⲛ̀ⲑⲟⲕ ⲉⲕⲭⲏ ϧⲉⲛ ⲧⲟⲩⲙⲏϯ ⲱ̀ ⲡⲓⲥⲱⲧⲏⲣ ⲛ̀ⲁⲅⲁⲑⲟⲥ.</td>
         <td class="arabic">بسطت يديك وصلبوا معك لصين عن يمينك وعن يسارك وانت كائن فى الوسط أيها المخلص الصالح.</td>
     </tr>
     <tr id="table_21_row_4" class="text">
         <td class="english">Glory be to the Father, to the Son, and to the Holy Spirit.</td>
-        <td class="coptic">Ⲇⲟⲍⲁ Ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩⲓⲱ ⲕⲉ ̀ⲁⲅⲓ̀ⲱ ̀Ⲡⲛⲉⲩⲙⲁⲧⲓ.</td>
+        <td class="coptic">Ⲇⲟⲍⲁ Ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩⲓⲱ ⲕⲉ ⲁ̀ⲅⲓⲱ̀ Ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ.</td>
         <td class="arabic">المجد للآب والابن والروح القدس.</td>
     </tr>
     <tr id="table_21_row_5" class="text">
         <td class="english">The right-hand thief cried out saying: Remember me, O my Lord, remember me, O my savior, remember me, O my King, when You come into Your Kingdom.</td>
-        <td class="coptic">Ⲁϥⲱϣ ̀ⲉⲃⲟⲗ ̀ⲛϫⲉ ⲡⲓⲥⲟⲛⲓ : ⲉⲧⲥⲁⲟⲩ̀ⲓ ⲛⲁⲙ ⲉϥϫⲱ ̀ⲙⲙⲟⲥ : ϫⲉ ̀ⲁⲣⲓⲡⲁⲙⲉⲩ̀ⲓ ⲱ Ⲡⲁ⳪ : ̀ⲁⲣⲓⲡⲁⲙⲉⲩ̀ⲓ ⲱ Ⲡⲁⲥⲱⲧⲏⲣ : ̀ⲁⲣⲓⲡⲁⲙⲉⲩ̀ⲓ ⲱ Ⲡⲁⲟⲩⲣⲟ : ⲁⲕϣⲁⲛ̀ⲓ ϧⲉⲛ ⲧⲉⲕⲙⲉⲧⲟⲩⲣⲟ</td>
+        <td class="coptic">Ⲁϥⲱϣ ⲉ̀ⲃⲟⲗ ⲛ̀ϫⲉ ⲡⲓⲥⲟⲛⲓ : ⲉⲧⲥⲁⲟⲩⲓ̀ ⲛⲁⲙ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ : ϫⲉ ⲁ̀ⲣⲓⲡⲁⲙⲉⲩⲓ̀ ⲱ Ⲡⲁ⳪ : ⲁ̀ⲣⲓⲡⲁⲙⲉⲩⲓ̀ ⲱ Ⲡⲁⲥⲱⲧⲏⲣ : ⲁ̀ⲣⲓⲡⲁⲙⲉⲩⲓ̀ ⲱ Ⲡⲁⲟⲩⲣⲟ : ⲁⲕϣⲁⲛⲓ̀ ϧⲉⲛ ⲧⲉⲕⲙⲉⲧⲟⲩⲣⲟ</td>
         <td class="arabic">فصرخ اللص اليمين قائلاً اذكرنى ياربى اذكرنى يا مخلصى اذكرنى يا ملكى اذا جئت فى ملكوتك،</td>
     </tr>
     <tr id="table_21_row_6" class="text">
         <td class="english">The Lord answered him in a lowly voice saying: This day you will be with Me in Paradise.</td>
-        <td class="coptic">Ⲁϥⲉⲣⲟⲩⲱ ⲛⲁϥ ̀ⲛϫⲉ Ⲡ⳪ : ϧⲉⲛ ⲟⲩ̀ⲥⲙⲏ ̀ⲙⲙⲉⲧⲣⲉⲙⲣⲁⲩϣ : ϫⲉ ̀ⲙⲫⲟⲟⲩ ⲉⲕ ̀ⲉϣⲱⲡⲓ ⲛⲉⲙⲏⲓ : ̀ⲛ̀ϩⲣⲏⲓ ϧⲉⲛ ⲧⲁⲙⲉⲧⲟⲩⲣⲟ.</td>
+        <td class="coptic">Ⲁϥⲉⲣⲟⲩⲱ ⲛⲁϥ ⲛ̀ϫⲉ Ⲡ⳪ : ϧⲉⲛ ⲟⲩⲥ̀ⲙⲏ ⲙ̀ⲙⲉⲧⲣⲉⲙⲣⲁⲩϣ : ϫⲉ ⲙ̀ⲫⲟⲟⲩ ⲉⲕ ⲉ̀ϣⲱⲡⲓ ⲛⲉⲙⲏⲓ : ⲛ̀ϩ̀ⲣⲏⲓ ϧⲉⲛ ⲧⲁⲙⲉⲧⲟⲩⲣⲟ.</td>
         <td class="arabic">آجابه الرب بصوت وديع انك اليوم تكون معى فى ملكوتى.</td>
     </tr>
     <tr id="table_21_row_7" class="text">
         <td class="english">Both now, and ever and unto the age of all ages. Amen.</td>
-        <td class="coptic">Ⲕⲉ ⲛⲩⲛ ⲕⲉ ̀ⲁ̀ⲓ ⲕⲉ ⲓⲥⲧⲟⲩⲥ ̀ⲉⲱ̀ⲛⲁⲥ ⲧⲱⲛ ̀ⲉ̀ⲱⲛⲱⲛ ̀ⲁⲙⲏⲛ.</td>
+        <td class="coptic">Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ⲓ̀ ⲕⲉ ⲓⲥⲧⲟⲩⲥ ⲉ̀ⲱⲛ̀ⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲏⲛ.</td>
         <td class="arabic">الآن وكل اوان والى دهر الدهور. آمين.</td>
     </tr>
     <tr id="table_21_row_8" class="text">
         <td class="english">The righteous Joseph and Nicodemus came took away the Body of Christ, wrapped it in linen cloths with spices, and put it in a sepulcher and praised Him saying, </td>
-        <td class="coptic">Ⲁⲩ̀ⲓ ̀ⲛϫⲉ ⲛⲓⲇⲓⲕⲉⲟⲥ : Ⲓⲱⲥⲏⲫ ⲛⲉⲙ Ⲛⲓⲕⲟⲇⲏⲙⲟⲥ : ⲁⲩϭⲓ ̀ⲛ̀ⲧⲥⲁⲣⲝ ̀ⲛⲧⲉ Ⲡ̅̅̅̅̅̅̅ⲭ̅ⲥ  : ⲁⲩϯ ̀ⲛⲟⲩⲥⲟϫⲉⲛ ̀ⲉ̀ϩⲣⲏⲓ ̀ⲉϫⲱϥ : ⲁⲩⲕⲟⲥϥ ⲁⲩⲭⲁϥ ϧⲉⲛ ⲟⲩ̀ⲙϩⲁⲩ : ⲉⲩϩⲱⲥ ⲉⲣⲟϥ ⲉⲩϫⲱ ̀ⲙⲙⲟⲥ :</td>
+        <td class="coptic">Ⲁⲩⲓ̀ ⲛ̀ϫⲉ ⲛⲓⲇⲓⲕⲉⲟⲥ : Ⲓⲱⲥⲏⲫ ⲛⲉⲙ Ⲛⲓⲕⲟⲇⲏⲙⲟⲥ : ⲁⲩϭⲓ ⲛ̀ⲧ̀ⲥⲁⲣⲝ ⲛ̀ⲧⲉ Ⲡⲭ̅ⲥ̅  : ⲁⲩϯ ⲛ̀ⲟⲩⲥⲟϫⲉⲛ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱϥ : ⲁⲩⲕⲟⲥϥ ⲁⲩⲭⲁϥ ϧⲉⲛ ⲟⲩⲙ̀ϩⲁⲩ : ⲉⲩϩⲱⲥ ⲉⲣⲟϥ ⲉⲩϫⲱ ⲙ̀ⲙⲟⲥ :</td>
         <td class="arabic">أتيا الصديقان يوسف ونيقوديموس واخذا جسد المسيح وجعلا عليه طيباً وكفناه ووضعاه فى قبر وسبحاه قائلين</td>
     </tr>
     <tr id="table_21_row_9" class="text">
         <td class="english">“Holy God, Holy Mighty, Holy Immortal, who was crucified for us, have mercy on us.”</td>
-        <td class="coptic">ϫⲉ ̀ⲁⲅⲓⲟⲥ ̀ⲟ Ⲑⲉⲟⲥ : ̀ⲁⲅⲓⲟⲥ ⲓⲥⲭⲩⲣⲟⲥ : ̀ⲁⲅⲓⲟⲥ ̀ⲁⲑⲁⲛⲁⲧⲟⲥ : ̀ⲟ ̀ⲥⲧⲁⲩⲣⲱⲑⲓⲥ ⲇⲓ̀ⲏⲙⲁⲥ ̀ⲉⲗⲉ̀ⲏⲥⲟⲛ ̀ⲏⲙⲁⲥ.</td>
+        <td class="coptic">ϫⲉ ⲁ̀ⲅⲓⲟⲥ ⲟ̀ Ⲑⲉⲟⲥ : ⲁ̀ⲅⲓⲟⲥ ⲓⲥⲭⲩⲣⲟⲥ : ⲁ̀ⲅⲓⲟⲥ ⲁ̀ⲑⲁⲛⲁⲧⲟⲥ : ⲟ̀ ⲥ̀ⲧⲁⲩⲣⲱⲑⲓⲥ ⲇⲓⲏ̀ⲙⲁⲥ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ.</td>
         <td class="arabic">قدوس الله، قدوس القوى، قدوس الذى لا يموت، الذى صلب عنا، ارحمنا.</td>
     </tr>
     <tr id="table_21_row_10" class="text">
         <td class="english">Glory be to the Father, to the Son, and to the Holy Spirit. Both now, and ever and unto the age of all ages. Amen.</td>
-        <td class="coptic">Ⲇⲟⲍⲁ Ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩⲓⲱ ⲕⲉ ̀ⲁⲅⲓ̀ⲱ ̀Ⲡⲛⲉⲩⲙⲁⲧⲓ. Ⲕⲉ ⲛⲩⲛ ⲕⲉ ̀ⲁ̀ⲓ ⲕⲉ ⲓⲥⲧⲟⲩⲥ ̀ⲉⲱ̀ⲛⲁⲥ ⲧⲱⲛ ̀ⲉ̀ⲱⲛⲱⲛ ̀ⲁⲙⲏⲛ.</td>
+        <td class="coptic">Ⲇⲟⲍⲁ Ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩⲓⲱ ⲕⲉ ⲁ̀ⲅⲓⲱ̀ Ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ. Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ⲓ̀ ⲕⲉ ⲓⲥⲧⲟⲩⲥ ⲉ̀ⲱⲛ̀ⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲏⲛ.</td>
         <td class="arabic">المجد للآب والابن والروح القدس. الآن وكل اوان والى دهر الدهور. آمين.</td>
     </tr>
     <tr id="table_21_row_11" class="text">
         <td class="english">We also worship him saying: “Have mercy on us, O God our Savior, who was crucified on the cross, destroy Satan under our feet.”</td>
-        <td class="coptic">Ⲁⲛⲟⲛ ϩⲱⲛ ⲙⲁⲣⲉⲛⲟⲩⲱϣⲧ ̀ⲙⲙⲟϥ : ⲉⲛⲱϣ ̀ⲉⲃⲟⲗ ⲉⲛϫⲱ ̀ⲙⲙⲟⲥ : ϫⲉ ⲛⲁⲓ ⲛⲁⲛ Ⲫϯ ⲡⲉⲛⲥⲱⲧⲏⲣ : ⲫⲏ̀ⲉⲧⲁⲩⲁϣϥ ̀ⲉⲡⲓ̀ⲥⲧⲁⲩⲣⲟⲥ : ⲉⲕ̀ⲉϧⲟⲙϧⲉⲙ ̀ⲙ̀ⲡⲥⲁⲧⲁⲛⲁⲥ: ⲥⲁⲡⲉⲥⲏⲧ ̀ⲛⲛⲉⲛϭⲁⲗⲁⲩϫ.</td>
+        <td class="coptic">Ⲁⲛⲟⲛ ϩⲱⲛ ⲙⲁⲣⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟϥ : ⲉⲛⲱϣ ⲉ̀ⲃⲟⲗ ⲉⲛϫⲱ ⲙ̀ⲙⲟⲥ : ϫⲉ ⲛⲁⲓ ⲛⲁⲛ Ⲫϯ ⲡⲉⲛⲥⲱⲧⲏⲣ : ⲫⲏⲉ̀ⲧⲁⲩⲁϣϥ ⲉ̀ⲡⲓⲥ̀ⲧⲁⲩⲣⲟⲥ : ⲉⲕⲉ̀ϧⲟⲙϧⲉⲙ ⲙ̀ⲡ̀ⲥⲁⲧⲁⲛⲁⲥ: ⲥⲁⲡⲉⲥⲏⲧ ⲛ̀ⲛⲉⲛϭⲁⲗⲁⲩϫ.</td>
         <td class="arabic">ونحن أيضاً نسجد له صارخين قائلين ارحمنا يا الله مخلصنا الذى صلبت على الصليب وسحقت الشيطان تحت أقدامنا.</td>
     </tr>
     <tr id="table_21_row_12" class="text">
         <td class="english">Save us and have mercy on us. Lord have mercy, Lord have mercy, Lord bless us. Amen. Give the blessing; I prostrate, forgive me, give the blessing.</td>
-        <td class="coptic">Ⲥⲱϯ ̀ⲙⲙⲟⲛ ⲟⲩⲟϩ ⲛⲁⲓ ⲛⲁⲛ : Ⲕⲩⲣⲓ̀ⲉ ̀ⲉⲗⲉ̀ⲏⲥⲟⲛ ⲕⲩⲣⲓ̀ⲉ ̀ⲉⲗⲉ̀ⲏⲥⲟⲛ ⲕⲩⲣⲓ̀ⲉ ⲉⲩⲗⲟⲅⲏⲥⲟⲛ ̀ⲁⲙⲏⲛ ̀ⲥⲙⲟⲩ ̀ⲉⲣⲟⲓ ̀ⲥⲙⲟⲩ ̀ⲉⲣⲟⲓ : ⲓⲥ ϯⲙⲉⲧⲁⲛⲟ̀ⲓⲁ : ⲭⲱ ⲛⲏⲓ ̀ⲉⲃⲟⲗ ϫⲱ ̀ⲙⲡⲓ̀ⲥⲙⲟⲩ.</td>
+        <td class="coptic">Ⲥⲱϯ ⲙ̀ⲙⲟⲛ ⲟⲩⲟϩ ⲛⲁⲓ ⲛⲁⲛ : Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲕⲩⲣⲓⲉ̀ ⲉⲩⲗⲟⲅⲏⲥⲟⲛ ⲁ̀ⲙⲏⲛ ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟⲓ ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟⲓ : ⲓⲥ ϯⲙⲉⲧⲁⲛⲟⲓ̀ⲁ : ⲭⲱ ⲛⲏⲓ ⲉ̀ⲃⲟⲗ ϫⲱ ⲙ̀ⲡⲓⲥ̀ⲙⲟⲩ.</td>
         <td class="arabic">خلصنا ارحمنا. يار ارحم يارب ارحم يارب ارحم بارك آمين. باركوا على هذه المطانية اغفروا لى قل البركة.</td>
     </tr>
 </table>
@@ -801,7 +810,7 @@ ${daytimeLitaniesHtml}
         </tr>
         <tr id="table_23_row_10" class="priest">
             <td class="english">Christ our God</td>
-            <td class="coptic">Ⲡⲓ̀ⲭⲣⲓⲥⲧⲟⲥ Ⲡⲉⲛⲛⲟⲩϯ</td>
+            <td class="coptic">Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲡⲉⲛⲛⲟⲩϯ</td>
             <td class="arabic">المسيح الهنا</td>
         </tr>
         <tr id="table_23_row_11" class="congregation">

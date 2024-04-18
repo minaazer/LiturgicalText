@@ -42,7 +42,7 @@ export const useDynamicStyles = (webviewRef) => {
 
 :root {
  --fontSize: 26px;
- --copticFont: 'Arial Coptic';
+ --copticFont: 'FreeSerif Avva Shenouda';
 }
 
 
@@ -142,7 +142,7 @@ break-before: auto;
 }
 
 .coptic-caption {
-    font-family: 'Arial Coptic';
+    font-family: 'FreeSerif Avva Shenouda';
 }
 .coptic-caption:lang(en) {
     font-family: 'Georgia' !important;
@@ -261,7 +261,7 @@ div {
 
 .coptic {    
     vertical-align: top ;
-    font-family: 'Arial Coptic' !important;
+    font-family: 'FreeSerif Avva Shenouda' !important;
     padding-right: 10px;
     padding-left: 15px;
     text-align: justify;
@@ -273,7 +273,7 @@ div {
 .copticReadings {
     
     vertical-align: top ;
-    font-family: 'Arial Coptic' !important;
+    font-family: 'FreeSerif Avva Shenouda' !important;
     padding-right: 10px;
     padding-left: 15px;
     text-align: justify;

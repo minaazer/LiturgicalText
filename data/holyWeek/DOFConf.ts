@@ -12,22 +12,22 @@ return `
 <span class="arabic-caption">امانة اللص</span></caption>
     <tr id="table_1_row_1" class="text">
         <td class="english">Remember me O Lord when You come into Your Kingdom.<br>Remember me O my King  when You come into Your Kingdom.<br>Remember me O Holy when You come into Your Kingdom.</td>
-        <td class="coptic">̀̀Ⲁⲣⲓⲡⲁⲙⲉⲩ̀ⲓ ̀ⲱⲠⲁϭⲟⲓⲥ : ⲁⲕϣⲁⲛ̀ⲓ ϧⲉⲛ ⲧⲉⲕⲙⲉⲧⲟⲩⲣⲟ.<br>Ⲁⲣⲓⲡⲁⲙⲉⲩ̀ⲓ  ̀ⲱⲠⲁⲟⲩⲣⲟ : ⲁⲕϣⲁⲛ̀ⲓ ϧⲉⲛ ⲧⲉⲕⲙⲉⲧⲟⲩⲣⲟ.<br>Ⲁⲣⲓⲡⲁⲙⲉⲩ̀ⲓ ̀ⲱⲪⲏⲉⲑⲟⲩⲁⲃ ⲁⲕϣⲁⲛ̀ⲓ ϧⲉⲛ ⲧⲉⲕⲙⲉⲧⲟⲩⲣⲟ.</td>
+        <td class="coptic">̀̀Ⲁⲣⲓⲡⲁⲙⲉⲩⲓ̀ ⲱ̀Ⲡⲁϭⲟⲓⲥ : ⲁⲕϣⲁⲛⲓ̀ ϧⲉⲛ ⲧⲉⲕⲙⲉⲧⲟⲩⲣⲟ.<br>Ⲁⲣⲓⲡⲁⲙⲉⲩⲓ̀  ⲱ̀Ⲡⲁⲟⲩⲣⲟ : ⲁⲕϣⲁⲛⲓ̀ ϧⲉⲛ ⲧⲉⲕⲙⲉⲧⲟⲩⲣⲟ.<br>Ⲁⲣⲓⲡⲁⲙⲉⲩⲓ̀ ⲱ̀Ⲫⲏⲉⲑⲟⲩⲁⲃ ⲁⲕϣⲁⲛⲓ̀ ϧⲉⲛ ⲧⲉⲕⲙⲉⲧⲟⲩⲣⲟ.</td>
         <td class="arabic">إذكرنى يارب متى جئت فى ملكوتك.<br>إذكرني يا ملكى متى جئت فى ملكوت.<br>إذكرنى يا قدوس متى جئت فى ملكوتك. </td>
     </tr>
     <tr id="table_1_row_2" class="text">
         <td class="english">Holy God, Holy Mighty, Holy Immortal, who was crucified for us, have mercy on us.</td>
-        <td class="coptic">Ϫⲉ ⲁⲅⲓⲟⲥ ̀ⲟⲐⲉⲟⲥ : ̀ⲁⲅⲓⲟⲥ ⲓⲥⲭⲩⲣⲟⲥ : ̀ⲁⲅⲓⲟⲥ ⲁⲑⲁⲛⲁⲧⲟⲥ : ̀ⲟ ̀ⲥⲧⲁⲩⲣⲱⲑⲓⲥ ⲇⲓ ̀ⲏⲙⲁⲥ ̀ⲉⲗⲉ̀ⲏⲥⲟⲛ ̀ⲏⲙⲁⲥ.</td>
+        <td class="coptic">Ϫⲉ ⲁⲅⲓⲟⲥ ⲟ̀Ⲑⲉⲟⲥ : ⲁ̀ⲅⲓⲟⲥ ⲓⲥⲭⲩⲣⲟⲥ : ⲁ̀ⲅⲓⲟⲥ ⲁⲑⲁⲛⲁⲧⲟⲥ : ⲟ̀ ⲥ̀ⲧⲁⲩⲣⲱⲑⲓⲥ ⲇⲓ ⲏ̀ⲙⲁⲥ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ.</td>
         <td class="arabic">قدوس الله، قدوس القوى الذى صلب عنا ارحمنا.</td>
     </tr>
     <tr id="table_1_row_3" class="text">
         <td class="english">Glory be to the Father and the Son and the Holy Spirit unto the ages of all ages. Amen.</td>
-        <td class="coptic">Ⲇⲟⲝⲁ Ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩⲓ̀ⲱ ⲕⲉ ̀ⲁⲅⲓ̀ⲱ Ⲡⲛⲉⲩⲙⲁⲧⲓ : ⲕⲉ ⲛⲩⲛ ⲕⲉ ̀ⲁ̀ⲓ ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ̀ⲉ̀ⲱⲛⲁⲥ ⲧⲱⲛ ̀ⲉ̀ⲱⲛⲱⲛ ̀ⲁⲙⲏⲛ.</td>
+        <td class="coptic">Ⲇⲟⲝⲁ Ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩⲓⲱ̀ ⲕⲉ ⲁ̀ⲅⲓⲱ̀ Ⲡⲛⲉⲩⲙⲁⲧⲓ : ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ⲓ̀ ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲏⲛ.</td>
         <td class="arabic">المجد للآب والابن والروح القدس. الآن وكل اوان والى دهر الدهور. آمين.</td>    
     </tr>
     <tr id="table_1_row_4" class="text">
         <td class="english">Remember me O Lord when You come into Your Kingdom.<br>Remember me O Holy when You come into Your Kingdom.<br>Remember me O Master when You come into Your Kingdom. </td>
-        <td class="coptic">̀Ⲙⲛⲏⲥ ⲑⲏⲧⲓ ⲙⲟⲩ Ⲕⲩⲣⲓ̀ⲉ : ⲉⲛⲧⲏ ⲃⲁⲥⲓⲗⲓ̀ⲁⲥⲟⲩ.<br>Ⲙⲛⲏⲥ ⲑⲏⲧⲓ ⲙⲟⲩ ̀ⲁⲅⲓ̀ⲉ : ⲉⲛⲧⲏ ⲃⲁⲥⲓⲗⲓⲁⲥⲟⲩ.<br>Ⲙⲛⲏⲥ ⲑⲏⲧⲓ ⲙⲟⲩ ⲇⲉⲥⲡⲟⲧⲁ: ⲉⲛⲧⲏ ⲃⲁⲥⲓⲗⲓ̀ⲁⲥⲟⲩ.</td>
+        <td class="coptic">Ⲙ̀ⲛⲏⲥ ⲑⲏⲧⲓ ⲙⲟⲩ Ⲕⲩⲣⲓⲉ̀ : ⲉⲛⲧⲏ ⲃⲁⲥⲓⲗⲓⲁ̀ⲥⲟⲩ.<br>Ⲙⲛⲏⲥ ⲑⲏⲧⲓ ⲙⲟⲩ ⲁ̀ⲅⲓⲉ̀ : ⲉⲛⲧⲏ ⲃⲁⲥⲓⲗⲓⲁⲥⲟⲩ.<br>Ⲙⲛⲏⲥ ⲑⲏⲧⲓ ⲙⲟⲩ ⲇⲉⲥⲡⲟⲧⲁ: ⲉⲛⲧⲏ ⲃⲁⲥⲓⲗⲓⲁ̀ⲥⲟⲩ.</td>
         <td class="arabic">إذكرنى يارب متى جئت فى ملكوتك.<br>إذكرني يا قدوس متى جئت فى ملكوت.<br>إذكرنى يا سيد  متى جئت فى ملكوتك.</td>
     </tr>
     <tr id="table_1_row_5" class="priest">

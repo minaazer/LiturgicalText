@@ -20,13 +20,13 @@ ${hourIntroHtml}
     <caption class="caption" id="caption_table_2">Coptic Prophecies
     <span class="arabic-caption">النبوات قبطي</span></caption>
         <tr id="table_2_row_3" class="intro">
-            <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲓⲉⲣⲉⲙⲓⲁⲥ ⲡⲓ̀ⲡⲣⲟⲫⲏⲧⲏⲥ: ̀ⲉⲣⲉⲡⲉϥ̀ⲥⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ̀ⲁⲙⲏⲛ ⲉϥϫⲱ ̀ⲙⲙⲟⲥ:</td>
+            <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲓⲉⲣⲉⲙⲓⲁⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ:</td>
         </tr>
         <tr id="table_2_row_4" class="text">
-            <td class="coptic">Ⲛⲁⲓ ⲛⲉ ⲛⲏ̀ⲉⲧⲉϥϫⲱ ̀ⲙⲙⲱⲟⲩ ̀ⲛϫⲉ ̀Ⲡ⳪ ̀ⲛⲧⲉ ⲛⲓϫⲟⲙ Ⲫϯ ̀ⲛⲧⲉ ̀ⲡⲒ̅ⲥ̅ⲗ : ϫⲉ ⲓⲥϩⲏⲡⲡⲉ ̀ⲁⲛⲥⲕ ϯⲛⲁⲧⲁⲕⲟ ̀ⲉⲃⲟⲗϧⲉⲛ ⲡⲁⲓⲙⲁ ⲙⲡⲉ̀ⲙⲑⲟ ̀ⲛⲛⲉⲧⲉⲛⲃⲁⲗ ̀ⲉⲃⲟⲗ.</td>
+            <td class="coptic">Ⲛⲁⲓ ⲛⲉ ⲛⲏⲉ̀ⲧⲉϥϫⲱ ⲙ̀ⲙⲱⲟⲩ ⲛ̀ϫⲉ Ⲡ̀⳪ ⲛ̀ⲧⲉ ⲛⲓϫⲟⲙ Ⲫϯ ⲛ̀ⲧⲉ ⲡ̀Ⲓ̅ⲥ̅ⲗ : ϫⲉ ⲓⲥϩⲏⲡⲡⲉ ⲁ̀ⲛⲥⲕ ϯⲛⲁⲧⲁⲕⲟ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲡⲁⲓⲙⲁ ⲙⲡⲉⲙ̀ⲑⲟ ⲛ̀ⲛⲉⲧⲉⲛⲃⲁⲗ ⲉ̀ⲃⲟⲗ.</td>
         </tr>
         <tr id="table_2_row_35" class="intro">
-            <td class="coptic">Ⲟⲩ̀ⲱⲟⲩ ̀ⲛϯ̀ⲧⲣⲓⲁⲥ ̀ⲉⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ϣⲁ ̀ⲉⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉⲛⲉϩ ̀ⲛⲧⲉ ⲛⲓ̀ⲉⲛⲉϩ ⲧⲏⲣⲟⲩ: ̀ⲁⲙⲏⲛ.</td>
+            <td class="coptic">Ⲟⲩⲱ̀ⲟⲩ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ: ⲁ̀ⲙⲏⲛ.</td>
         </tr>
     </table>
 </div>
@@ -54,22 +54,22 @@ ${paschalPraiseHtml}
         </tr>
         <tr id="table_6_row_1" class="text">
             <td class="english">Hear my prayer, O Lord,</td>
-            <td class="coptic">̀Ⲡϭⲟⲓⲥ ⲥⲱⲧⲉⲙ ̀ⲉⲧⲁ ̀̀ⲡⲣⲟⲥⲉⲩⲭⲏ :</td>
+            <td class="coptic">Ⲡ̀ϭⲟⲓⲥ ⲥⲱⲧⲉⲙ ⲉ̀ⲧⲁ ̀̀ⲡⲣⲟⲥⲉⲩⲭⲏ :</td>
             <td class="arabic">يارب استمع صلاتي </td>
         </tr>
         <tr id="table_6_row_2" class="text">
             <td class="english">And let my cry come to You.</td>
-            <td class="coptic">ⲙⲁⲣⲉ ⲡⲁ̀ϧⲣⲱⲟⲩ ̀ⲓ ̀ⲉⲡϣⲱⲓ ̀ⲙⲡⲉⲕ̀ⲙⲑⲟ.</td>
+            <td class="coptic">ⲙⲁⲣⲉ ⲡⲁϧ̀ⲣⲱⲟⲩ ⲓ̀ ⲉ̀ⲡϣⲱⲓ ⲙ̀ⲡⲉⲕⲙ̀ⲑⲟ.</td>
             <td class="arabic">وليصعد أمامك صراخي.</td>
         </tr>
         <tr id="table_6_row_3" class="text">
             <td class="english">In the day that I call,</td>
-            <td class="coptic">Ϧⲉⲛ ⲡⲓ̀ⲉϩⲟⲟⲩ ̀ⲉϯⲛⲁⲱϣ ̀ⲉ̀ⲡϣⲱⲓ ⲟⲩⲃⲏⲕ ̀ⲛϧⲏⲧϥ :</td>
+            <td class="coptic">Ϧⲉⲛ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲉ̀ϯⲛⲁⲱϣ ⲉ̀ⲡ̀ϣⲱⲓ ⲟⲩⲃⲏⲕ ⲛ̀ϧⲏⲧϥ :</td>
             <td class="arabic">في اليوم الذي أدعوك فيه </td>
         </tr>
         <tr id="table_6_row_4" class="text">
             <td class="english">answer me speedily.</td>
-            <td class="coptic">ⲭⲱⲗⲉⲙ ⲥⲱⲧⲉⲙ ̀ⲉⲣⲟⲓ</td>
+            <td class="coptic">ⲭⲱⲗⲉⲙ ⲥⲱⲧⲉⲙ ⲉ̀ⲣⲟⲓ</td>
             <td class="arabic">استجب لي سريعاً.</td>
         </tr>
         <tr id="table_6_row_5" class="intro">
@@ -84,21 +84,21 @@ ${paschalPraiseHtml}
         <span class="arabic-caption">الإناجيل قبطي</span></caption>
         <tr id="table_8_row_0" class="priest">
             <td class="english">A chapter according to St. Matthew,</td>
-            <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ̀ⲉⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲟⲛ ⲁⲅⲓⲟⲩ.</td>
+            <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲟⲛ ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">فصل من إنجيل معلمنا مار متى</td>
         </tr>
 
         <tr id="table_8_row_1" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓ̀ⲉ</td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ̀</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_8_row_2" class="text">
-            <td class="coptic">Ⲧⲟⲧⲉ ̀ⲥ̀ⲟⲛⲓ ̀ⲛϫⲉ ϯⲙⲉⲧ ⲟⲩⲣⲟ ̀ⲛⲧⲉ ⲛⲓⲫⲏⲟⲩ̀ⲓ ̀ⲙⲙⲏϯ ̀ⲙⲡⲁⲣⲑⲉⲛⲟⲥ ⲛⲁⲓ ̀ⲉⲧⲁⲩϭⲓ ̀ⲛⲛⲟⲩⲗⲁⲙⲡⲁⲥ ⲁⲩ̀ⲓ ̀ⲉⲃⲟⲗ ̀ⲉ̀ϩⲣⲉⲛ ⲡⲓⲡⲁⲧϣⲉⲗⲉⲧ : Ⲛⲉ ⲥⲩⲟⲛ ̀ⲧⲓⲟⲩ ⲇⲉ ̀ⲛⲥⲟϫ ̀ⲛϧⲏⲧⲟⲩ ⲛⲉⲙ ⲧⲓⲟⲩ ̀ⲛⲥⲁⲃⲏ : Ⲛⲓⲥⲟϫ ⲅⲁⲣ ̀ⲉⲧⲁⲩϭⲓ ̀ⲛⲛⲟⲩⲗⲁⲙⲡⲁⲥ. ⲙⲡⲟⲩⲉⲗ ⲛⲉϩ ⲛⲉⲙⲱⲟⲩ. Ⲛⲓⲥⲁⲃⲉⲩ ⲇⲉ ⲁⲩⲉⲗ ⲛⲉϩ ̀ⲛ̀ϧⲣⲏⲓ ϧⲉⲛ ⲛⲟⲩⲙⲟⲕⲓ ⲛⲉⲙ ⲛⲟⲩⲗⲁⲙⲡⲁⲥ : ̀Ⲉⲧⲁϥⲱⲥⲕ ⲇⲉ ̀ⲛϫⲉ ⲡⲓⲡⲁⲧϣⲉⲗⲉⲧ ⲁⲩϩⲓ ⲛⲓⲙ ⲧⲏⲣⲟⲩ ⲟⲩⲟϩ ⲁⲩⲉⲛⲕⲟⲧ : ̀Ⲉⲧⲁ ̀ⲧⲫⲁϣⲓ ⲇⲉ ⲙⲡⲓ ̀ⲉϫⲱⲣϩ ϣⲱⲡⲓ : ̀ⲁⲟⲩ̀ϧⲣⲱⲟⲩ ϣⲱⲡⲓ ϫⲉ ⲓⲥ ⲡⲓⲡⲁⲧϣⲉⲗⲉⲧ ⲁϥ̀ⲓ ⲧⲉⲛⲑⲏⲛⲟⲩ ̀ⲁⲙⲱⲓⲛⲓ ̀ⲉⲃⲟⲗ ̀ⲉ̀ϩⲣⲁϥ.<br>... Ⲟⲩⲱϣⲧ ̀ⲙⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲧⲟⲧⲉ ⲥ̀ⲟ̀ⲛⲓ ⲛ̀ϫⲉ ϯⲙⲉⲧ ⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲛⲓⲫⲏⲟⲩⲓ̀ ⲙ̀ⲙⲏϯ ⲙ̀ⲡⲁⲣⲑⲉⲛⲟⲥ ⲛⲁⲓ ⲉ̀ⲧⲁⲩϭⲓ ⲛ̀ⲛⲟⲩⲗⲁⲙⲡⲁⲥ ⲁⲩⲓ̀ ⲉ̀ⲃⲟⲗ ⲉ̀ϩ̀ⲣⲉⲛ ⲡⲓⲡⲁⲧϣⲉⲗⲉⲧ : Ⲛⲉ ⲥⲩⲟⲛ ⲧ̀ⲓⲟⲩ ⲇⲉ ⲛ̀ⲥⲟϫ ⲛ̀ϧⲏⲧⲟⲩ ⲛⲉⲙ ⲧⲓⲟⲩ ⲛ̀ⲥⲁⲃⲏ : Ⲛⲓⲥⲟϫ ⲅⲁⲣ ⲉ̀ⲧⲁⲩϭⲓ ⲛ̀ⲛⲟⲩⲗⲁⲙⲡⲁⲥ. ⲙⲡⲟⲩⲉⲗ ⲛⲉϩ ⲛⲉⲙⲱⲟⲩ. Ⲛⲓⲥⲁⲃⲉⲩ ⲇⲉ ⲁⲩⲉⲗ ⲛⲉϩ ⲛ̀ϧ̀ⲣⲏⲓ ϧⲉⲛ ⲛⲟⲩⲙⲟⲕⲓ ⲛⲉⲙ ⲛⲟⲩⲗⲁⲙⲡⲁⲥ : Ⲉ̀ⲧⲁϥⲱⲥⲕ ⲇⲉ ⲛ̀ϫⲉ ⲡⲓⲡⲁⲧϣⲉⲗⲉⲧ ⲁⲩϩⲓ ⲛⲓⲙ ⲧⲏⲣⲟⲩ ⲟⲩⲟϩ ⲁⲩⲉⲛⲕⲟⲧ : Ⲉ̀ⲧⲁ ⲧ̀ⲫⲁϣⲓ ⲇⲉ ⲙⲡⲓ ⲉ̀ϫⲱⲣϩ ϣⲱⲡⲓ : ⲁ̀ⲟⲩϧ̀ⲣⲱⲟⲩ ϣⲱⲡⲓ ϫⲉ ⲓⲥ ⲡⲓⲡⲁⲧϣⲉⲗⲉⲧ ⲁϥⲓ̀ ⲧⲉⲛⲑⲏⲛⲟⲩ ⲁ̀ⲙⲱⲓⲛⲓ ⲉ̀ⲃⲟⲗ ⲉ̀ϩ̀ⲣⲁϥ.<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_8_row_4" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓ̀ⲉ</td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ̀</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
     </table>

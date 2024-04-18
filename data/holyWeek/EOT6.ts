@@ -20,13 +20,13 @@ ${hourIntroHtml}
     <caption class="caption" id="caption_table_2">Coptic Prophecies
     <span class="arabic-caption">النبوات قبطي</span></caption>
         <tr id="table_2_row_3" class="intro">
-            <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ ̀Ⲱⲥⲓ̀ⲉ ⲡⲓ̀ⲡⲣⲟⲫⲏⲧⲏⲥ: ̀ⲉⲣⲉⲡⲉϥ̀ⲥⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ̀ⲁⲙⲏⲛ ⲉϥϫⲱ ̀ⲙⲙⲟⲥ:</td>
+            <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲱ̀ⲥⲓⲉ̀ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ:</td>
         </tr>
         <tr id="table_2_row_4" class="text">
-            <td class="coptic"> ̀Ⲛⲑⲟⲕ ⲇⲉ ̀ⲡ̀Ⲓ̅ⲥ̅ⲗ ̀ⲙⲡⲉⲣⲉⲣⲁⲧ ̀ⲉⲙⲓ : ⲟⲩⲟϩ Ⲓⲟⲩⲇⲁ ⲙⲡⲉⲣϣⲉ ̀ⲉϧⲟⲩⲛ ̀ⲉⲅⲁⲗⲅⲁⲇⲁ : ⲟⲩⲟϩ ̀ⲙⲡⲉⲣϣⲉⲛⲱⲧⲉⲛ ̀ⲉ̀ϩⲣⲏⲓ ⲉ̀ⲡϭⲓ̀ⲛϫⲟⲛⲥ : ⲟⲩⲟϩ ̀ⲙⲡⲉⲣⲱⲣⲕ ̀ⲙⲠ⳪ ⲉⲧⲟⲛϧ.</td>
+            <td class="coptic"> Ⲛ̀ⲑⲟⲕ ⲇⲉ ⲡ̀Ⲓ̀̅ⲥ̅ⲗ ⲙ̀ⲡⲉⲣⲉⲣⲁⲧ ⲉ̀ⲙⲓ : ⲟⲩⲟϩ Ⲓⲟⲩⲇⲁ ⲙⲡⲉⲣϣⲉ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲅⲁⲗⲅⲁⲇⲁ : ⲟⲩⲟϩ ⲙ̀ⲡⲉⲣϣⲉⲛⲱⲧⲉⲛ ⲉ̀ϩ̀ⲣⲏⲓ ⲉⲡ̀ϭⲓⲛ̀ϫⲟⲛⲥ : ⲟⲩⲟϩ ⲙ̀ⲡⲉⲣⲱⲣⲕ ⲙ̀Ⲡ⳪ ⲉⲧⲟⲛϧ.</td>
         </tr>
         <tr id="table_2_row_35" class="intro">
-            <td class="coptic">Ⲟⲩ̀ⲱⲟⲩ ̀ⲛϯ̀ⲧⲣⲓⲁⲥ ̀ⲉⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ϣⲁ ̀ⲉⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉⲛⲉϩ ̀ⲛⲧⲉ ⲛⲓ̀ⲉⲛⲉϩ ⲧⲏⲣⲟⲩ: ̀ⲁⲙⲏⲛ.</td>
+            <td class="coptic">Ⲟⲩⲱ̀ⲟⲩ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ: ⲁ̀ⲙⲏⲛ.</td>
         </tr>
     </table>
 </div>
@@ -34,6 +34,66 @@ ${hourIntroHtml}
 
 <div class="section" id="section_3" title="Prophecies">
 
+<table id="table_3" title="1st Prophecy">
+    <caption id="caption_table_3" class="caption">1st Prophecy<br>(Hosea 4:15-5:7)
+    <span class="arabic-caption">النبوة الأولي<br>(هوشع 4: 15- 5: 7)</span></caption>
+    <tr id="table_3_row_1" class="intro">
+        <td class="english">A reading from Hosea the prophet. May his blessings be with us. Amen.</td>
+        <td class="arabic">من هوشع النبى بركته تكون معنا، آمين.</td>
+    </tr>
+    <tr id="table_3_row_4" class="text">
+        <td class="english">"Though you, Israel, play the harlot, Let not Judah offend. Do not come up to Gilgal, Nor go up to Beth Aven, Nor swear an oath, saying, 'As the Lord lives'--</td>
+        <td class="arabic">«إِنْ كُنْتَ أَنْتَ زَانِياً يَا إِسْرَائِيلُ فَلاَ يَأْثَمُ يَهُوذَا. وَلاَ تَأْتُوا إِلَى الْجِلْجَالِ وَلاَ تَصْعَدُوا إِلَى بَيْتِ آوَنَ وَلاَ تَحْلِفُوا: حَيٌّ هُوَ الرَّبُّ.</td>
+    </tr>
+    <tr id="table_3_row_5" class="text">
+        <td class="english">"For Israel is stubborn Like a stubborn calf; Now the Lord will let them forage Like a lamb in open country.</td>
+        <td class="arabic">إِنَّهُ قَدْ جَمَحَ إِسْرَائِيلُ كَبَقَرَةٍ جَامِحَةٍ. الآنَ يَرْعَاهُمُ الرَّبُّ كَخَرُوفٍ فِي مَكَانٍ وَاسِعٍ.</td>
+    </tr>
+    <tr id="table_3_row_6" class="text">
+        <td class="english">"Ephraim is joined to idols, Let him alone.</td>
+        <td class="arabic">أَفْرَايِمُ مُوثَقٌ بِالأَصْنَامِ. اتْرُكُوهُ.</td>
+    </tr>
+    <tr id="table_3_row_7" class="text">
+        <td class="english">Their drink is rebellion, They commit harlotry continually. Her rulers dearly love dishonor.</td>
+        <td class="arabic">مَتَى انْتَهَتْ مُنَادَمَتُهُمْ زَنِوا زِنًى. أَحَبَّ مَجَانُّهَا أَحَبُّوا الْهَوَانَ.</td>
+    </tr>
+    <tr id="table_3_row_8" class="text">
+        <td class="english">The wind has wrapped her up in its wings, And they shall be ashamed because of their sacrifices.</td>
+        <td class="arabic">قَدْ صَرَّتْهَا الرِّيحُ فِي أَجْنِحَتِهَا وَخَجِلُوا مِنْ ذَبَائِحِهِمْ.</td>
+    </tr>
+    <tr id="table_3_row_9" class="text">
+        <td class="english">"Hear this, O priests! Take heed, O house of Israel! Give ear, O house of the king! For yours is the judgment, Because you have been a snare to Mizpah And a net spread on Tabor.</td>
+        <td class="arabic">«اِسْمَعُوا هَذَا أَيُّهَا الْكَهَنَةُ وَانْصِتُوا يَا بَيْتَ إِسْرَائِيلَ وَأَصْغُوا يَا بَيْتَ الْمَلِكِ لأَنَّ عَلَيْكُمُ الْقَضَاءَ إِذْ صِرْتُمْ فَخّاً فِي مِصْفَاةَ وَشَبَكَةً مَبْسُوطَةً عَلَى تَابُورَ.</td>
+    </tr>
+    <tr id="table_3_row_10" class="text">
+        <td class="english">The revolters are deeply involved in slaughter, Though I rebuke them all.</td>
+        <td class="arabic">وَقَدْ تَوَغَّلُوا فِي ذَبَائِحِ الزَّيَغَانِ فَأَنَا تَأْدِيبٌ لِجَمِيعِهِمْ.</td>
+    </tr>
+    <tr id="table_3_row_11" class="text">
+        <td class="english">I know Ephraim, And Israel is not hidden from Me; For now, O Ephraim, you commit harlotry; Israel is defiled.</td>
+        <td class="arabic">أَنَا أَعْرِفُ أَفْرَايِمَ. وَإِسْرَائِيلُ لَيْسَ مَخْفِيّاً عَنِّي. إِنَّكَ الآنَ زَنَيْتَ يَا أَفْرَايِمُ. قَدْ تَنَجَّسَ إِسْرَائِيلُ.</td>
+    </tr>
+    <tr id="table_3_row_12" class="text">
+        <td class="english">"They do not direct their deeds Toward turning to their God, For the spirit of harlotry is in their midst, And they do not know the Lord.</td>
+        <td class="arabic">أَفْعَالُهُمْ لاَ تَدَعُهُمْ يَرْجِعُونَ إِلَى إِلَهِهِمْ لأَنَّ رُوحَ الزِّنَى فِي بَاطِنِهِمْ وَهُمْ لاَ يَعْرِفُونَ الرَّبَّ.</td>
+    </tr>
+    <tr id="table_3_row_13" class="text">
+        <td class="english">The pride of Israel testifies to his face; Therefore Israel and Ephraim stumble in their iniquity; Judah also stumbles with them.</td>
+        <td class="arabic">وَقَدْ أُذِلَّتْ عَظَمَةُ إِسْرَائِيلَ فِي وَجْهِهِ فَيَتَعَثَّرُ إِسْرَائِيلُ وَأَفْرَايِمُ فِي إِثْمِهِمَا وَيَتَعَثَّرُ يَهُوذَا أَيْضاً مَعَهُمَا.</td>
+    </tr>
+    <tr id="table_3_row_14" class="text">
+        <td class="english">"With their flocks and herds They shall go to seek the Lord, But they will not find Him; He has withdrawn Himself from them.</td>
+        <td class="arabic">يَذْهَبُونَ بِغَنَمِهِمْ وَبَقَرِهِمْ لِيَطْلُبُوا الرَّبَّ وَلاَ يَجِدُونَهُ. قَدْ تَنَحَّى عَنْهُمْ.</td>
+    </tr>
+    <tr id="table_3_row_15" class="text">
+        <td class="english">They have dealt treacherously with the Lord, For they have begotten pagan children. Now a New Moon shall devour them and their heritage.</td>
+        <td class="arabic">قَدْ غَدَرُوا بِالرَّبِّ. لأَنَّهُمْ وَلَدُوا أَوْلاَداً أَجْنَبِيِّينَ الآنَ يَأْكُلُهُمْ شَهْرٌ مَعَ أَنْصِبَتِهِمْ.</td>
+    </tr>
+    <tr id="table_3_row_17" class="intro">
+        <td class="english">Glory be to the Holy Trinity, our God, forever and unto the age of all ages. Amen.</td>
+        <td class="arabic">مجداً للثالوث القدوس الهنا إلى الأبد وإلى أبد الآبدين كلها، آمين.</td>
+    </tr>
+</table>
 
 </div>
 
@@ -54,22 +114,22 @@ ${paschalPraiseHtml}
         </tr>
         <tr id="table_6_row_1" class="text">
             <td class="english">You are my helper and my refuge; my God;</td>
-            <td class="coptic">Ⲡⲁⲙⲁ ̀ⲙⲫⲱϯ ⲡⲁⲛⲟⲩϯ ϯⲛⲁⲉⲣϩⲉⲗⲡⲓⲥ ̀ⲉⲣⲟϥ :</td>
+            <td class="coptic">Ⲡⲁⲙⲁ ⲙ̀ⲫⲱϯ ⲡⲁⲛⲟⲩϯ ϯⲛⲁⲉⲣϩⲉⲗⲡⲓⲥ ⲉ̀ⲣⲟϥ :</td>
             <td class="arabic">ملجأي إلهي . </td>
         </tr>
         <tr id="table_6_row_2" class="text">
             <td class="english">I will trust in Him.</td>
-            <td class="coptic">ϫⲉ ̀ⲛⲑⲟϥ ⲉϥ̀ⲉⲛⲁϩⲙⲉⲧ :</td>
+            <td class="coptic">ϫⲉ ⲛ̀ⲑⲟϥ ⲉϥⲉ̀ⲛⲁϩⲙⲉⲧ :</td>
             <td class="arabic">فأتكل عليه</td>
         </tr>
         <tr id="table_6_row_3" class="text">
             <td class="english">For He shall deliver you from the snare of the fowler,</td>
-            <td class="coptic">ⲉⲃⲟⲗϩⲁ ⲡⲓⲫⲁϣ ̀ⲛⲧⲉ ⲡⲓⲣⲉϥϫⲱⲣϫ :</td>
+            <td class="coptic">ⲉⲃⲟⲗϩⲁ ⲡⲓⲫⲁϣ ⲛ̀ⲧⲉ ⲡⲓⲣⲉϥϫⲱⲣϫ :</td>
             <td class="arabic">لأنه ينجيني من فخ الصياد</td>
         </tr>
         <tr id="table_6_row_4" class="text">
             <td class="english">and from every troublesome matter.</td>
-            <td class="coptic">ⲛⲉⲙ ̀ⲉⲃⲟⲗ ϩⲁ ⲟⲩⲥⲁϫⲓ ̀ⲛⲣⲉϥ ̀ϣⲑⲟⲣⲧⲉⲣ</td>
+            <td class="coptic">ⲛⲉⲙ ⲉ̀ⲃⲟⲗ ϩⲁ ⲟⲩⲥⲁϫⲓ ⲛ̀ⲣⲉϥ ϣ̀ⲑⲟⲣⲧⲉⲣ</td>
             <td class="arabic">ومن كلمة مقلقة.</td>
         </tr>
         <tr id="table_6_row_5" class="intro">
@@ -84,21 +144,21 @@ ${paschalPraiseHtml}
         <span class="arabic-caption">الإناجيل قبطي</span></caption>
         <tr id="table_8_row_0" class="priest">
             <td class="english">A chapter according to St. Luke,</td>
-            <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ̀ⲉⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲗⲟⲩⲕⲁⲛ ⲁⲅⲓⲟⲩ.</td>
+            <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲗⲟⲩⲕⲁⲛ ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">فصل من إنجيل معلمنا مار لوقا</td>
         </tr>
 
         <tr id="table_8_row_1" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓ̀ⲉ</td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ̀</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_8_row_2" class="text">
-            <td class="coptic">Ⲙⲁϩⲑⲏⲧⲉⲛ ⲇⲉ ̀ⲉⲣⲱⲧⲉⲛ ⲙⲏⲡⲟⲧⲉ ⲛⲧⲟⲩ̀ϩⲣⲟϣ ̀ⲛϫⲉ ⲛⲉⲧⲉⲛϩⲏⲧ ϧⲉⲛ ⲟⲩϭⲓⲙⲏ ⲛⲉⲙ ⲟⲩⲑⲓϧⲓ ⲛⲉⲙ ϩⲁⲛⲣⲱⲟⲩϣ ̀ⲙⲃⲓ̀ⲱⲧⲓⲕⲟⲛ ⲟⲩⲟϩ ̀ⲛⲟⲩϩⲟϯ ϧⲉⲛ ⲟⲩϩⲟϯ ̀ⲛⲧⲉϥⲓ ̀ⲉϫⲉⲛ ⲑⲏⲛⲟⲩ ̀ⲛϫⲉ ⲡⲓ̀ⲉϩⲟⲟⲩ ̀ⲉⲧⲉ̀ⲙⲙⲁⲩ. ̀ⲙ̀ⲫⲣⲏϯ ̀ⲛⲟⲩⲫⲁϣ ⲉϥ̀ⲉ̀ⲓ ⲅⲁⲣ ̀ⲉϫⲉⲛ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ ⲉⲧϩⲉⲙⲥⲓ ϩⲓϫⲉⲛ ̀ⲡϩⲟ ̀ⲙ̀ⲡⲕⲁϩⲓ ⲧⲏⲣϥ : Ⲣⲱⲓⲥ ⲟⲩⲛ ̀ⲛⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ ̀ⲉⲣⲉⲧⲉⲛⲧⲱⲃϩ ϩⲓⲛⲁ ̀ⲛⲧⲉⲧⲉⲛ ̀ϣϫⲉⲙϫⲟⲙ ̀ⲉⲉⲣ ⲥⲁⲃⲟⲗ ̀ⲉⲛⲁⲓ ⲧⲏⲣⲟⲩ ⲉⲑⲛⲁϣⲱⲡⲓ : ⲟⲩⲟϩ ̀ⲛⲧⲉⲧⲉⲛⲟϩⲓ ̀ⲑⲏⲛⲟⲩ ̀ⲙⲡⲉ̀ⲙⲑⲟ ̀ⲙ̀ⲡϣⲏⲣⲓ ̀ⲙ̀ⲫⲣⲱⲙⲓ. Ⲛⲁϥ̀ⲓⲣⲓ ⲇⲉ ̀ⲙⲡⲓ̀ⲉϩⲟⲟⲩ ⲉϥϯ̀ⲥⲃⲱ ϧⲉⲛ ⲡⲓⲉⲣⲫⲉⲓ <br>... Ⲟⲩⲱϣⲧ ̀ⲙⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲙⲁϩⲑⲏⲧⲉⲛ ⲇⲉ ⲉ̀ⲣⲱⲧⲉⲛ ⲙⲏⲡⲟⲧⲉ ⲛⲧⲟⲩϩ̀ⲣⲟϣ ⲛ̀ϫⲉ ⲛⲉⲧⲉⲛϩⲏⲧ ϧⲉⲛ ⲟⲩϭⲓⲙⲏ ⲛⲉⲙ ⲟⲩⲑⲓϧⲓ ⲛⲉⲙ ϩⲁⲛⲣⲱⲟⲩϣ ⲙ̀ⲃⲓⲱ̀ⲧⲓⲕⲟⲛ ⲟⲩⲟϩ ⲛ̀ⲟⲩϩⲟϯ ϧⲉⲛ ⲟⲩϩⲟϯ ⲛ̀ⲧⲉϥⲓ ⲉ̀ϫⲉⲛ ⲑⲏⲛⲟⲩ ⲛ̀ϫⲉ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲉ̀ⲧⲉⲙ̀ⲙⲁⲩ. ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲟⲩⲫⲁϣ ⲉϥⲉ̀ⲓ̀ ⲅⲁⲣ ⲉ̀ϫⲉⲛ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ ⲉⲧϩⲉⲙⲥⲓ ϩⲓϫⲉⲛ ⲡ̀ϩⲟ ⲙ̀ⲡ̀ⲕⲁϩⲓ ⲧⲏⲣϥ : Ⲣⲱⲓⲥ ⲟⲩⲛ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ ⲉ̀ⲣⲉⲧⲉⲛⲧⲱⲃϩ ϩⲓⲛⲁ ⲛ̀ⲧⲉⲧⲉⲛ ϣ̀ϫⲉⲙϫⲟⲙ ⲉ̀ⲉⲣ ⲥⲁⲃⲟⲗ ⲉ̀ⲛⲁⲓ ⲧⲏⲣⲟⲩ ⲉⲑⲛⲁϣⲱⲡⲓ : ⲟⲩⲟϩ ⲛ̀ⲧⲉⲧⲉⲛⲟϩⲓ ⲑ̀ⲏⲛⲟⲩ ⲙ̀ⲡⲉⲙ̀ⲑⲟ ⲙ̀ⲡ̀ϣⲏⲣⲓ ⲙ̀ⲫ̀ⲣⲱⲙⲓ. Ⲛⲁϥⲓ̀ⲣⲓ ⲇⲉ ⲙ̀ⲡⲓⲉ̀ϩⲟⲟⲩ ⲉϥϯⲥ̀ⲃⲱ ϧⲉⲛ ⲡⲓⲉⲣⲫⲉⲓ <br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_8_row_4" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓ̀ⲉ</td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ̀</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
     </table>
@@ -191,7 +251,7 @@ ${nighttimeExpositionIntroHtml}
         <td class="arabic">أن زيادة الأكل تثقل القلوب وتضعف القوة من الجسد،</td>
     </tr>
     <tr id="table_12_row_6" class="text">
-        <td class="english">Likewise, consumption in worldly concerns could bring on us vicious passions.  It can cause us to stray away from the fear of God.</td>
+        <td class="english">Likewise, consumption in worldly concerns could bring on us vicious passions. It can cause us to stray away from the fear of God.</td>
         <td class="arabic">والاهتمام الدنيوى أيضاً يجلب على الإنسان شروراً كثيرة ويحيد بالإنسان عن مخافة الله</td>
     </tr>
     <tr id="table_12_row_7" class="text">
@@ -203,7 +263,7 @@ ${nighttimeExpositionIntroHtml}
         <td class="arabic">ومعرفة خلاص نفسه. ويوقعه فى سلطان الموت، مثل الفخ الذى يخطف الفريسة.</td>
     </tr>
     <tr id="table_12_row_9" class="text">
-        <td class="english">Be alert and present fruits worthy of  righteousness and atonement so that you may stand in front of our Judge and Savior Jesus.</td>
+        <td class="english">Be alert and present fruits worthy of righteousness and atonement so that you may stand in front of our Judge and Savior Jesus.</td>
         <td class="arabic">اسهروا أنتم أيضاً واصنعوا ثمرة تليق بالبر والتوبة، لكى تكونوا قائمين أمام الديان يسوع المخلص.</td>
     </tr>
     <tr id="table_12_row_10" class="text">
