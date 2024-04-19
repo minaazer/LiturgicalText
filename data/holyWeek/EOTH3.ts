@@ -1,8 +1,8 @@
-import { hourIntro, paschalPraise3 , copticGospelIntro, nighttimeExpositionIntro, expositionConclusion,  cross} from "../repeatedPrayers";
+import { hourIntro, paschalPraise2 , copticGospelIntro, nighttimeExpositionIntro, expositionConclusion,  cross} from "../repeatedPrayers";
 
 export const EOTH3 = () => {
     const hourIntroHtml = hourIntro("THIRD","الثالثة","EVE of COVENANT THURSDAY","ليلة خميس العهد");
-    const paschalPraiseHtml = paschalPraise3("4","4","5","THIRD","الثالثة","EVE of COVENANT THURSDAY","ليلة خميس العهد");
+    const paschalPraiseHtml = paschalPraise2("4","4","5","THIRD","الثالثة","EVE of COVENANT THURSDAY","ليلة خميس العهد");
     const copticGospelIntroHtml = copticGospelIntro("7");
     const nighttimeExpositionIntroHtml = nighttimeExpositionIntro("11");
     const expositionConclusionHtml = expositionConclusion("13");

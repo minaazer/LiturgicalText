@@ -33,6 +33,12 @@ import { EOF1sc , EOF3sc , EOF6sc , EOF9sc , EOF11sc } from "../screens/holyWeek
 import { EOTH1sc , EOTH3sc , EOTH6sc , EOTH9sc , EOTH11sc } from "../screens/holyWeek/hours/eOTH";
 import { EOT1sc , EOT3sc , EOT6sc , EOT9sc , EOT11sc } from "../screens/holyWeek/hours/eOT";
 import { EOW1sc , EOW3sc , EOW6sc , EOW9sc , EOW11sc } from "../screens/holyWeek/hours/eOW";
+import { DOM1sc , DOM3sc , DOM6sc , DOM9sc , DOM11sc } from "../screens/holyWeek/hours/dOM";
+import { DOT1sc , DOT3sc , DOT6sc , DOT9sc , DOT11sc } from "../screens/holyWeek/hours/dOT";
+import { EOM1sc , EOM3sc , EOM6sc , EOM9sc , EOM11sc } from "../screens/holyWeek/hours/eOM";
+import { DOW1sc , DOW3sc , DOW6sc , DOW9sc , DOW11sc } from "../screens/holyWeek/hours/dOW";
+
+
 
 
 const RouteConfig = [
@@ -64,11 +70,25 @@ const RouteConfig = [
         screenName: "EveOfMonday",
         label: "Eve of Monday",
         component: EveOfMonday,
+        children: [
+          { screenName: "EOM1sc", label: "1st Hour", component: EOM1sc },
+          { screenName: "EOM3sc", label: "3rd Hour", component: EOM3sc },
+          { screenName: "EOM6sc", label: "6th Hour", component: EOM6sc },
+          { screenName: "EOM9sc", label: "9th Hour", component: EOM9sc },
+          { screenName: "EOM11sc", label: "11th Hour", component: EOM11sc },
+        ],
       },
       {
         screenName: "DayOfMonday",
         label: "Day of Monday",
         component: DayOfMonday,
+        children: [
+          { screenName: "DOM1sc", label: "1st Hour", component: DOM1sc },
+          { screenName: "DOM3sc", label: "3rd Hour", component: DOM3sc },
+          { screenName: "DOM6sc", label: "6th Hour", component: DOM6sc },
+          { screenName: "DOM9sc", label: "9th Hour", component: DOM9sc },
+          { screenName: "DOM11sc", label: "11th Hour", component: DOM11sc },
+        ],
       },
       {
         screenName: "EveOfTuesday",
@@ -86,6 +106,13 @@ const RouteConfig = [
         screenName: "DayOfTuesday",
         label: "Day of Tuesday",
         component: DayOfTuesday,
+        children: [
+          { screenName: "DOT1sc", label: "1st Hour", component: DOT1sc },
+          { screenName: "DOT3sc", label: "3rd Hour", component: DOT3sc },
+          { screenName: "DOT6sc", label: "6th Hour", component: DOT6sc },
+          { screenName: "DOT9sc", label: "9th Hour", component: DOT9sc },
+          { screenName: "DOT11sc", label: "11th Hour", component: DOT11sc },
+        ],
       },
       {
         screenName: "EveOfWednesday",
@@ -103,6 +130,13 @@ const RouteConfig = [
         screenName: "DayOfWednesday",
         label: "Day of Wednesday",
         component: DayOfWednesday,
+        children: [
+          { screenName: "DOW1sc", label: "1st Hour", component: DOW1sc },
+          { screenName: "DOW3sc", label: "3rd Hour", component: DOW3sc },
+          { screenName: "DOW6sc", label: "6th Hour", component: DOW6sc },
+          { screenName: "DOW9sc", label: "9th Hour", component: DOW9sc },
+          { screenName: "DOW11sc", label: "11th Hour", component: DOW11sc },
+        ],
       },
       {
         screenName: "EveOfThursday",
