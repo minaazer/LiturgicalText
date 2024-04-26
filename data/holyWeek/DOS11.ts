@@ -1,8 +1,8 @@
 import { hourIntro, paschalPraise1 , copticGospelIntro, daytimeExpositionIntro, expositionConclusion, daytimeLitanies, evnotiNaiNan, endOfServiceHymn , cross} from "../repeatedPrayers";
 
 export const DOS11 = () => {
-    const hourIntroHtml = hourIntro("ELEVENTH","الحادية عشر","DAY of PALM SUNDAY","يوم أحد الشعانين");
-    const paschalPraiseHtml = paschalPraise1("4","5","6","ELEVENTH","الحادية عشر","DAY of PALM SUNDAY","يوم أحد الشعانين");
+    const hourIntroHtml = hourIntro("ELEVENTH","الحادية عشر","DAY of HOSANNA SUNDAY","يوم أحد الشعانين");
+    const paschalPraiseHtml = paschalPraise1("4","5","6","ELEVENTH","الحادية عشر","DAY of HOSANNA SUNDAY","يوم أحد الشعانين");
     const copticGospelIntroHtml = copticGospelIntro("8");
     const daytimeExpositionIntroHtml = daytimeExpositionIntro("12");
     const expositionConclusionHtml = expositionConclusion("14");
@@ -15,7 +15,7 @@ ${hourIntroHtml}
 <div class="section" id="section_2" title="Coptic Prophecies">
     <table id="table_2" title="Coptic Prophecies">
         <caption class="caption" id="caption_table_2">Coptic Prophecies
-        <span class="arabic-caption">النبوات قبطي</span></caption>
+        <span class="arabic-caption">النبوات قبطياً</span></caption>
 
         <tr id="table_2_row_3" class="intro">
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲏ̀ⲥⲁⲏ̀ⲁⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ (ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ): </td>
@@ -45,7 +45,7 @@ ${hourIntroHtml}
         <caption id="caption_table_3" class="caption">1st Prophecy<br>(Isaiah 48:12-22)
             <span class="arabic-caption">النبوة الأولي<br>(أشعياء 12:48-22)</span></caption>
         <tr id="table_3_row_1" class="intro">
-            <td class="english">A reading from Isaiah the Prophet may his blessings be with us Amen.</td>
+            <td class="english">A reading from Isaiah the prophet. May his blessings be with us. Amen.</td>
             <td class="arabic">من اشعياء النبي بركته تكون معنا، آمين.</td>
         </tr>
         <tr id="table_3_row_4" class="text">
@@ -102,7 +102,7 @@ ${hourIntroHtml}
         <caption id="caption_table_4" class="caption">2nd Prophecy<br>(Nahum 1:2-8)
             <span class="arabic-caption">النبوة الثانية<br>(ناحوم 2:1-8)</span></caption>
         <tr id="table_4_row_1" class="intro">
-            <td class="english">A reading from the Nahum the Prophet may his blessings be with us Amen.</td>
+            <td class="english">A reading from Nahum the prophet. May his blessings be with us. Amen.</td>
             <td class="arabic">من ناحوم النبى بركته تكون معنا، آمين.</td>
         </tr>
         <tr id="table_4_row_4" class="text">
@@ -146,11 +146,11 @@ ${paschalPraiseHtml}
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_7" title="Coptic Psalm">
         <caption class="caption" id="caption_table_7">Coptic Psalm<br>(22:22-23)
-        <span class="arabic-caption">المزمور قبطي<br>(22:22-23)</span></caption>
+        <span class="arabic-caption">المزمور قبطياً<br>(21: 21، 22)</span></caption>
         </caption>
 
         <tr id="table_7_row_0" class="intro">
-            <td class="english">A psalm of David</td>
+            <td class="english">A Psalm of David</td>
             <td class="coptic">Ⲯⲁⲗⲙⲟⲥ ⲧⲱ Ⲇⲁⲩⲓⲇ</td>
             <td class="arabic">مزمور لداود</td>
         </tr>
@@ -173,11 +173,16 @@ ${paschalPraiseHtml}
     ${copticGospelIntroHtml}
     <table id="table_9" title="Coptic Gospel">
         <caption class="caption" id="caption_table_9">Coptic Gospel<br>(Matthew 20:20-28)
-        <span class="arabic-caption">الأنجيل قبطي<br>(متى 20: 20-28)</span></caption>
+        <span class="arabic-caption">الأنجيل قبطياً<br>(متى 20: 20-28)</span></caption>
         <tr id="table_9_row_0" class="priest">
             <td class="english">A chapter according to St. Mathew,</td>
             <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲱⲛ ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">فصل من إنجيل معلمنا مار متى</td>
+        </tr>
+        <tr id="table_9_row_0.5" class="intro">
+            <td class="english">Glory be to God forever.</td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ</td>
+            <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_9_row_1" class="text">
             <td class="coptic">Ⲧⲟⲧⲉ ⲁⲥⲓ̀ ϩⲁⲣⲟϥ ⲛ̀ϫⲉ ⲑ̀ⲙⲁⲩ ⲛ̀ⲛⲉⲛϣⲏⲣⲓ ⲛ̀ⲍⲉⲃⲉⲇⲉⲟⲥ ⲛⲉⲙ ⲛⲉⲥϣⲏⲣⲓ ⲉⲥⲟⲩⲱϣⲧ ⲙ̀ⲙⲟϥ ⲟⲩⲟϩ ⲉⲥⲉⲣⲉⲧⲓⲛ ⲙ̀ⲙⲟϥ ⲛ̀ⲟⲩϩⲱⲃ. </td>
@@ -190,7 +195,7 @@ ${paschalPraiseHtml}
         </tr>
         <tr id="table_9_row_6" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ̀</td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
     </table>
@@ -198,10 +203,10 @@ ${paschalPraiseHtml}
 
 
 
-<div class="section" id="section_7" title="Engligh and Arabic Psalm & Gospel">
+<div class="section" id="section_7" title="English and Arabic Psalm & Gospel">
     <table id="table_10" title="Psalm">
         <caption id="caption_table_10" class="caption">Psalm<br>(22:22-23)
-        <span class="arabic-caption">المزمور<br>(22:22-23)</span></caption>
+        <span class="arabic-caption">المزمور<br>(21: 21، 22)</span></caption>
         <tr id="table_10_row_1" class="intro">
             <td class="english">From the Psalms of our teacher David the prophet. May his blessing be with us. Amen. </td>
             <td class="arabic">من مزامير معلمنا داود النبي، بركته تكون معنا، آمين.</td>
@@ -260,8 +265,8 @@ ${paschalPraiseHtml}
             <td class="arabic">وَمَنْ أَرَادَ أَنْ يَكُونَ فِيكُمْ أَوَّلاً فَلْيَكُنْ لَكُمْ عَبْداً</td>
         </tr>
         <tr id="table_11_row_12" class="text">
-            <td class="english">just as the Son of Man did not come to be served, but to serve, and to give His life a ransom for many."<br>Bow down before the Holy Gospel.</td>
-            <td class="arabic">كَمَا أَنَّ ابْنَ الإِنْسَانِ لَمْ يَأْتِ لِيُخْدَمَ بَلْ لِيَخْدِمَ وَلِيَبْذِلَ نَفْسَهُ فِدْيَةً عَنْ كَثِيرِينَ».<br>أسجدوا للإنجيل المقدس.</td>
+            <td class="english">just as the Son of Man did not come to be served, but to serve, and to give His life a ransom for many."<br><i>Bow down before the Holy Gospel.</i></td>
+            <td class="arabic">كَمَا أَنَّ ابْنَ الإِنْسَانِ لَمْ يَأْتِ لِيُخْدَمَ بَلْ لِيَخْدِمَ وَلِيَبْذِلَ نَفْسَهُ فِدْيَةً عَنْ كَثِيرِينَ».<br><i>أسجدوا للإنجيل المقدس.</i></td>
         </tr>
         <tr id="table_11_row_14" class="intro">
             <td class="english">Glory be to God forever.</td>
@@ -274,11 +279,11 @@ ${paschalPraiseHtml}
 <div class="section" id="section_8" title="Exposition">
 ${daytimeExpositionIntroHtml}
 
-<table id="table_13" title="The Exposition">
-    <caption id="caption_table_13" class="caption">The Exposition
+<table id="table_13" title="Exposition">
+    <caption id="caption_table_13" class="caption">Exposition
 <span class="arabic-caption">الطرح</span></caption>
     <tr id="table_13_row_1" class="intro">
-        <td class="english">The Exposition of The ELEVENTH Hour of the DAY of PALM SUNDAY of Holy Pascha. May its blessings be with us. Amen.</td>
+        <td class="english">The Exposition of The ELEVENTH Hour of the DAY of HOSANNA SUNDAY of Holy Pascha. May its blessings be with us. Amen.</td>
         <td class="arabic">طرح الساعة الحادية عشر من يوم أحد الشعانين من البصخة المقدسة بركتها تكون معنا. آمين.</td>
     </tr>
     <tr id="table_13_row_4" class="text">

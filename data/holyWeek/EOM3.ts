@@ -18,12 +18,12 @@ ${hourIntroHtml}
 <div class="section" id="section_2" title="Coptic Prophecies">
     <table id="table_2" title="Coptic Prophecies">
     <caption class="caption" id="caption_table_2">Coptic Prophecies
-    <span class="arabic-caption">النبوات قبطي</span></caption>
+    <span class="arabic-caption">النبوات قبطياً</span></caption>
         <tr id="table_2_row_3" class="intro">
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲥⲟⲫⲟⲛⲓⲁⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ:</td>
         </tr>
         <tr id="table_2_row_4" class="text">
-            <td class="coptic">Ϥϧⲉⲛⲧⲧ ⲛ̀ϫⲉ ⲡ̀ⲉ̀ϩⲟⲟⲩ ⲙ̀Ⲡ̀⳪ ⲡⲓⲛⲓϣϯ : ϥ̀ϧⲉⲛⲧ ⲟⲩⲟϩ ϥ̀ⲓⲏⲥ ⲉ̀ⲙⲁϣⲱ.</td>
+            <td class="coptic">Ϥϧⲉⲛⲧ ⲛ̀ϫⲉ ⲡ̀ⲉ̀ϩⲟⲟⲩ ⲙ̀Ⲡ̀⳪ ⲡⲓⲛⲓϣϯ : ϥ̀ϧⲉⲛⲧ ⲟⲩⲟϩ ϥ̀ⲓⲏⲥ ⲉ̀ⲙⲁϣⲱ.</td>
         </tr>
         <tr id="table_2_row_35" class="intro">
             <td class="coptic">Ⲟⲩⲱⲟ̀ⲩ ⲛϯ̀ⲧⲣ̀ⲓⲁⲥ ⲉⲑ̀ⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ϣⲁ ⲉⲛ̀ⲉϩ ⲛⲉⲙ ϣⲁ ⲉⲛⲉϩ ⲛⲧ̀ⲉ ⲛⲓⲉⲛ̀ⲉϩ ⲧⲏⲣⲟⲩ: ⲁⲙ̀ⲏⲛ.</td>
@@ -68,11 +68,7 @@ ${hourIntroHtml}
         <td class="english">Before the decree is issued, Or the day passes like chaff, Before the Lord's fierce anger comes upon you, Before the day of the Lord's anger comes upon you!</td>
         <td class="arabic">قَبْلَ وِلاَدَةِ الْقَضَاءِ. كَالْعُصَافَةِ عَبَرَ الْيَوْمُ. قَبْلَ أَنْ يَأْتِيَ عَلَيْكُمْ حُمُوُّ غَضَبِ الرَّبِّ. قَبْلَ أَنْ يَأْتِيَ عَلَيْكُمْ يَوْمُ سَخَطِ الرَّبِّ.</td>
     </tr>
-    <tr id="table_3_row_11" class="text">
-        <td class="english">Seek the Lord, all you meek of the earth, Who have upheld His justice. Seek righteousness, seek humility. It may be that you will be hidden In the day of the Lord's anger.</td>
-        <td class="arabic"></td>
-    </tr>
-    <tr id="table_3_row_13" class="intro">
+    <tr id="table_3_row_11" class="intro">
         <td class="english">Glory be to the Holy Trinity, our God, forever and unto the age of all ages. Amen.</td>
         <td class="arabic">مجداً للثالوث القدوس الهنا إلى الأبد وإلى أبد الآبدين كلها، آمين.</td>
     </tr>
@@ -88,10 +84,10 @@ ${paschalPraiseHtml}
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_6" title="Coptic Psalm">
         <caption class="caption" id="caption_table_6">Coptic Psalm<br>(28:9,2)
-        <span class="arabic-caption">المزمور قبطي<br>(28:9,2)</span></caption>
+        <span class="arabic-caption">المزمور قبطياً<br>(27: 10 ، 2)</span></caption>
 
         <tr id="table_6_row_0" class="intro">
-            <td class="english">A psalm of David</td>
+            <td class="english">A Psalm of David</td>
             <td class="coptic">Ⲯⲁⲗⲙⲟⲥ ⲧⲱ Ⲇⲁⲩⲓⲇ</td>
             <td class="arabic">مزمور لداود</td>
         </tr>
@@ -123,8 +119,8 @@ ${paschalPraiseHtml}
     </table>
     ${copticGospelIntroHtml}
     <table id="table_8" title="Coptic Gospel">
-        <caption class="caption" id="caption_table_8">Coptic Gospels
-        <span class="arabic-caption">الإناجيل قبطي</span></caption>
+        <caption class="caption" id="caption_table_8">Coptic Gospel
+        <span class="arabic-caption">الإنجيل قبطياً</span></caption>
         <tr id="table_8_row_0" class="priest">
             <td class="english">A chapter according to St. Luke,</td>
             <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉⲃ̀ⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲗⲟⲩⲕⲁⲛ ⲁⲅⲓⲟⲩ.</td>
@@ -133,7 +129,7 @@ ${paschalPraiseHtml}
 
         <tr id="table_8_row_1" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ<̀/td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_8_row_2" class="text">
@@ -141,7 +137,7 @@ ${paschalPraiseHtml}
         </tr>
         <tr id="table_8_row_4" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ<̀/td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
     </table>
@@ -149,11 +145,11 @@ ${paschalPraiseHtml}
 
 
 
-<div class="section" id="section_7" title="Engligh and Arabic Psalm & Gospel">
+<div class="section" id="section_7" title="English and Arabic Psalm & Gospel">
 
 <table id="table_9" title="Psalm">
-    <caption id="caption_table_9" class="caption">Psalm<br>(Psalm 28:9,2)
-    <span class="arabic-caption">المزمور<br>(المزمور 28: 9 و 2)</span></caption>
+    <caption id="caption_table_9" class="caption">Psalm<br>(28:9,2)
+    <span class="arabic-caption">المزمور<br>(27: 10 ، 2)</span></caption>
     <tr id="table_9_row_1" class="intro">
         <td class="english">From the Psalms of our teacher David the prophet. May his blessing be with us. Amen.</td>
         <td class="arabic">من مزامير معلمنا داود النبي، بركته تكون معنا، آمين.</td>
@@ -200,7 +196,7 @@ ${paschalPraiseHtml}
         <td class="arabic">قَائِلاً: «إِنَّهُ يَنْبَغِي أَنَّ ابْنَ الإِنْسَانِ يَتَأَلَّمُ كَثِيراً وَيُرْفَضُ مِنَ الشُّيُوخِ وَرُؤَسَاءِ الْكَهَنَةِ وَالْكَتَبَةِ وَيُقْتَلُ وَفِي الْيَوْمِ الثَّالِثِ يَقُومُ».</td>
     </tr>
     <tr id="table_10_row_9" class="text">
-        <td class="english">Bow down before the Holy Gospel.</td>
+        <td class="english"><i>Bow down before the Holy Gospel.</i></td>
         <td class="arabic">اسجدوا للإنجيل المقدس.</td>
     </tr>
     <tr id="table_10_row_11" class="intro">

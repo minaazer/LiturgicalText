@@ -19,7 +19,7 @@ ${hourIntroHtml}
 <div class="section" id="section_2" title="Coptic Prophecies">
     <table id="table_2" title="Coptic Prophecies">
     <caption class="caption" id="caption_table_2">Coptic Prophecies
-    <span class="arabic-caption">النبوات قبطي</span></caption>
+    <span class="arabic-caption">النبوات قبطياً</span></caption>
         <tr id="table_2_row_3" class="intro">
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲏ̀ⲥⲁⲏ̀ⲁⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ:</td>
         </tr>
@@ -131,8 +131,8 @@ ${hourIntroHtml}
     <caption id="caption_table_4" class="caption">2nd Prophecy<br>(Isaiah 19:19-25)
     <span class="arabic-caption">النبوة الثانية<br>(اشعياء 19: 19 - 25)</span></caption>
     <tr id="table_4_row_1" class="intro">
-        <td class="english">A reading from Isaiah the prophet. May his blessings be with us. Amen.</td>
-        <td class="arabic">من اشعياء النبى بركته تكون معنا، آمين.</td>
+        <td class="english">Also from Isaiah the prophet. May his blessings be with us. Amen.</td>
+        <td class="arabic">وايضا من اشعياء النبى بركته تكون معنا، آمين.</td>
     </tr>
     <tr id="table_4_row_4" class="text">
         <td class="english">In that day there will be an altar to the Lord in the midst of the land of Egypt, and a pillar to the Lord at its border.</td>
@@ -271,10 +271,10 @@ ${paschalPraiseHtml}
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_10" title="Coptic Psalm">
         <caption class="caption" id="caption_table_10">Coptic Psalm<br>(50: 17-18)
-        <span class="arabic-caption">المزمور قبطي<br>(50: 17-18)</span></caption>
+        <span class="arabic-caption">المزمور قبطياً<br>(50: 17-18)</span></caption>
 
         <tr id="table_10_row_0" class="intro">
-            <td class="english">A psalm of David</td>
+            <td class="english">A Psalm of David</td>
             <td class="coptic">Ⲯⲁⲗⲙⲟⲥ ⲧⲱ Ⲇⲁⲩⲓⲇ</td>
             <td class="arabic">مزمور لداود</td>
         </tr>
@@ -307,7 +307,7 @@ ${paschalPraiseHtml}
     ${copticGospelIntroHtml}
     <table id="table_12" title="Coptic Gospel">
         <caption class="caption" id="caption_table_12">Coptic Gospel<br>(John 13:21-30)
-        <span class="arabic-caption">الإنجيل قبطي<br>(يوحنا 13: 21 – 30)</span></caption>
+        <span class="arabic-caption">الإنجيل قبطياً<br>(يوحنا 13: 21 – 30)</span></caption>
         <tr id="table_12_row_0" class="priest">
             <td class="english">A chapter according to St. John,</td>
             <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲓⲱⲁⲛⲛⲏⲛ ⲁⲅⲓⲟⲩ.</td>
@@ -327,7 +327,7 @@ ${paschalPraiseHtml}
 
 
 
-<div class="section" id="section_7" title="Engligh and Arabic Psalm & Gospel">
+<div class="section" id="section_7" title="English and Arabic Psalm & Gospel">
 
 <table id="table_13" title="Psalm">
     <caption id="caption_table_13" class="caption">Psalm<br>(50:17-18)
@@ -394,8 +394,8 @@ ${paschalPraiseHtml}
         <td class="arabic">لأَنَّ قَوْماً إِذْ كَانَ الصُّنْدُوقُ مَعَ يَهُوذَا ظَنُّوا أَنَّ يَسُوعَ قَالَ لَهُ: اشْتَرِ مَا نَحْتَاجُ إِلَيْهِ لِلْعِيدِ أَوْ أَنْ يُعْطِيَ شَيْئاً لِلْفُقَرَاءِ.</td>
     </tr>
     <tr id="table_14_row_13" class="text">
-        <td class="english">Having received the piece of bread, he then went out immediately. And it was night.<br>Bow down before the Holy Gospel.</td>
-        <td class="arabic">فَذَاكَ لَمَّا أَخَذَ اللُّقْمَةَ خَرَجَ لِلْوَقْتِ. وَكَانَ لَيْلاً.<br>أسجدوا للإنجيل المقدس.</td>
+        <td class="english">Having received the piece of bread, he then went out immediately. And it was night.<br><i>Bow down before the Holy Gospel.</i></td>
+        <td class="arabic">فَذَاكَ لَمَّا أَخَذَ اللُّقْمَةَ خَرَجَ لِلْوَقْتِ. وَكَانَ لَيْلاً.<br><i>أسجدوا للإنجيل المقدس.</i></td>
     </tr>
     <tr id="table_14_row_15" class="intro">
         <td class="english">Glory be to God forever.</td>

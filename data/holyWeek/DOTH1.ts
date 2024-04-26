@@ -1,7 +1,11 @@
 import { hourIntro, paschalPraise2 , copticGospelIntro, daytimeExpositionIntro, expositionConclusion, daytimeLitanies, evnotiNaiNan, endOfServiceHymn , cross, faiEtafEnf} from "../repeatedPrayers";
 
 export const DOTH1 = () => {
-    const hourIntroHtml = hourIntro("FIRST","الأولى","DAY of COVENANT THURSDAY","يوم خميس العهد");
+    const introCommentary = `
+        <td class="english">The door of the chorus and sanctuary are opened and it is to be covered with black covering and the the head priest begins reading the prophecies in Coptic, Arabic and English.</td>
+        <td class="arabic">يفتح باب الخورس والهيكل ويكون مكسواً بكسوة سوداء ويبتدئ رئيس الكهنة بقراءة النبوات قبطياً وعربياً وانجليزياً.</td>
+    `;
+    const hourIntroHtml = hourIntro("FIRST","الأولى","DAY of COVENANT THURSDAY","يوم خميس العهد", introCommentary);
     const paschalPraiseHtml = paschalPraise2("5","8","9","FIRST","الأولى","DAY of COVENANT THURSDAY","يوم خميس العهد");
     const faiEtafEnfHtml = faiEtafEnf("32");
     const copticGospelIntroHtml = copticGospelIntro("40");
@@ -22,7 +26,7 @@ ${hourIntroHtml}
 <div class="section" id="section_2" title="Coptic Prophecies">
     <table id="table_2" title="Coptic Prophecies">
         <caption class="caption" id="caption_table_2">Coptic Prophecies
-        <span class="arabic-caption">النبوات قبطي</span></caption>
+        <span class="arabic-caption">النبوات قبطياً</span></caption>
 
         <tr id="table_2_row_3" class="intro">
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ ⲡⲓⲇⲟⲝⲟⲇⲟⲥ ⲛ̀ⲧⲉ Ⲙⲱⲩ̀ⲥⲏⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ (ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ):</td>
@@ -121,8 +125,8 @@ ${hourIntroHtml}
         <caption id="caption_table_4" class="caption">2nd Prophecy<br>(Exodus 15:22-16:3)
     <span class="arabic-caption">النبوة الثانية<br>(سفر الخروج 15: 22 - 16: 3)</span></caption>
         <tr id="table_4_row_1" class="intro">
-            <td class="english">A reading from the book of Exodus of Moses the prophet. May his blessings be with us. Amen.</td>
-            <td class="arabic">من سفر الخروج لموسى النبى بركته تكون معنا، آمين.</td>
+            <td class="english">Also from the book of Exodus of Moses the prophet. May his blessings be with us. Amen.</td>
+            <td class="arabic">وايضا من سفر الخروج لموسى النبى بركته تكون معنا، آمين.</td>
         </tr>
         <tr id="table_4_row_4" class="text">
             <td class="english">So Moses brought Israel from the Red Sea; then they went out into the Wilderness of Shur. And they went three days in the wilderness and found no water.</td>
@@ -352,7 +356,7 @@ ${paschalPraiseHtml}
         <span class="arabic-caption">صلاة الشكر</span></caption>
         <tr id="table_10_row_1" class="text">
             <td class="english"><span class="role">Priest:<br></span>Have mercy on us, O God, the Father, the Pantocrator. O Holy Trinity, have mercy on us.</td>
-            <td class="coptic"><span class="role">Ⲡⲓⲟⲩⲏⲃ:<br></span>Ⲉⲗⲉⲏⲥⲟⲛ ⲏ̀ⲙⲁⲥ ⲟ̀ Ⲑⲉⲟⲥ ⲟ̀Ⲡⲁⲧⲏⲣ ⲟ̀ ⲡⲁⲛⲧⲟⲕⲣⲁⲧⲱⲣ”’: Ⲡⲁⲛⲁ̀ⲅⲓⲁ̀ ⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲗⲉⲏⲥⲟⲛ ⲏ̀ⲙⲁⲥ</td>
+            <td class="coptic"><span class="role">Ⲡⲓⲟⲩⲏⲃ:<br></span>Ⲉⲗⲉⲏⲥⲟⲛ ⲏ̀ⲙⲁⲥ ⲟ̀ Ⲑⲉⲟⲥ ⲟ̀Ⲡⲁⲧⲏⲣ ⲟ̀ ⲡⲁⲛⲧⲟⲕⲣⲁⲧⲱⲣ: Ⲡⲁⲛⲁ̀ⲅⲓⲁ̀ ⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲗⲉⲏⲥⲟⲛ ⲏ̀ⲙⲁⲥ</td>
             <td class="arabic"><span class="role">الكاهن:<br></span>ارحمنا يا الله الآب ضابط الكل ايها الثالوث القدوس ارحمنا</td>
         </tr>
         <tr id="table_10_row_2" class="text">
@@ -480,9 +484,14 @@ ${paschalPraiseHtml}
         <caption class="caption" id="caption_table_11">Verses of Cymbals
         <span class="arabic-caption">أرباع الناقوص</span></caption>
         <tr id="table_11_row_0" class="north">
-            <td class="english"><span class="role">Congregation:<br></span>Lord have mercy.<br>We worship the Father and the Son, and the Holy Spirit, The Holy and Co-essential, Trinity.</td>
-            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:<br></span>Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ<br>Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲫⲓⲱⲧ ⲛⲉⲙ Ⲡ̀ϣⲏⲣⲓ ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ  : ϯⲧ̀ⲣⲓⲁⲥ ⲉⲑⲟⲩⲁⲃ : ⲛ̀ⲟⲙⲟⲩⲟⲥⲓⲟⲥ.</td>
-            <td class="arabic"><span class="role">الشعب:<br></span>يارب ارحم.<br>نسجد للآب والأبن والروح القدس الثالوث المساوى فى الجوهر.</td>
+            <td class="english"><span class="role">Congregation:<br></span>Lord have mercy.</td>
+            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:<br></span>Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ</td>
+            <td class="arabic"><span class="role">الشعب:<br></span>يارب ارحم.</td>
+        </tr>
+        <tr id="table_11_row_0.5" class="north">
+            <td class="english">We worship the Father and the Son, and the Holy Spirit, The Holy and Co-essential, Trinity.</td>
+            <td class="coptic">Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲫⲓⲱⲧ ⲛⲉⲙ Ⲡ̀ϣⲏⲣⲓ ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ  : ϯⲧ̀ⲣⲓⲁⲥ ⲉⲑⲟⲩⲁⲃ : ⲛ̀ⲟⲙⲟⲩⲟⲥⲓⲟⲥ.</td>
+            <td class="arabic">نسجد للآب والأبن والروح القدس الثالوث المساوى فى الجوهر.</td>
         </tr>
         <tr id="table_11_row_1" class="south">
             <td class="english">Hail to the Church, the house of the angels, Hail to the Virgin, who gave birth to our Savior.</td>
@@ -884,9 +893,14 @@ ${paschalPraiseHtml}
         <caption class="caption" id="caption_table_18">Introduction to the Doxologies
         <span class="arabic-caption">مقدمة الذوكصولوجيات</span></caption>
         <tr id="table_18_row_0" class="north">
-            <td class="english">In Christ Jesus our Lord. Amen. Alleluia.<br>Hail to you. We ask you, O saint, full of glory, the ever-virgin, the Theotokos, the Mother of Christ.</td>
-            <td class="coptic">Ϧⲉⲛ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲓⲏⲥⲟⲩⲥ Ⲡⲉⲛϭⲟⲓⲥ. Ⲁⲙⲏⲛ. Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.<br>Ⲭⲉⲣⲉ ⲛⲉ ⲧⲉⲛϯϩⲟ  ⲉ̀ⲣⲟ : ⲱ̀ ⲑⲏⲉⲑⲟⲩⲁⲃ ⲉⲑⲙⲉϩ ⲛ̀ⲱ̀ⲟⲩ : ⲉⲧⲟⲓ ⲙ̀ⲡⲁⲣⲑⲉⲛⲟⲥ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ : ϯⲙⲁⲥⲛⲟⲩϯ ⲑ̀ⲙⲁⲩ ⲙ̀Ⲡⲓⲭⲣⲓⲥⲧⲟⲥ.</td>
-            <td class="arabic">بالمسيح يسوع ربنا. امين. الليلويا.<br>السلام لك. نسألك أيتها القديسة الممتلئة مجدا العذراء كل حين، والدة الإله أم المسيح.</td>
+            <td class="english">In Christ Jesus our Lord. Amen. Alleluia.</td>
+            <td class="coptic">Ϧⲉⲛ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲓⲏⲥⲟⲩⲥ Ⲡⲉⲛϭⲟⲓⲥ. Ⲁⲙⲏⲛ. Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.</td>
+            <td class="arabic">بالمسيح يسوع ربنا. امين. الليلويا.</td>
+        </tr>
+        <tr id="table_18_row_0.5" class="north">
+            <td class="english">Hail to you. We ask you, O saint, full of glory, the ever-virgin, the Theotokos, the Mother of Christ.</td>
+            <td class="coptic">Ⲭⲉⲣⲉ ⲛⲉ ⲧⲉⲛϯϩⲟ  ⲉ̀ⲣⲟ : ⲱ̀ ⲑⲏⲉⲑⲟⲩⲁⲃ ⲉⲑⲙⲉϩ ⲛ̀ⲱ̀ⲟⲩ : ⲉⲧⲟⲓ ⲙ̀ⲡⲁⲣⲑⲉⲛⲟⲥ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ : ϯⲙⲁⲥⲛⲟⲩϯ ⲑ̀ⲙⲁⲩ ⲙ̀Ⲡⲓⲭⲣⲓⲥⲧⲟⲥ.</td>
+            <td class="arabic">السلام لك. نسألك أيتها القديسة الممتلئة مجدا العذراء كل حين، والدة الإله أم المسيح.</td>
         </tr>
         <tr id="table_18_row_1" class="south">
             <td class="english">Lift up our prayers unto your beloved Son, that He may forgive us our sins.</td>
@@ -929,7 +943,7 @@ ${paschalPraiseHtml}
         <span class="arabic-caption">ذوكصولوجية للسيدة العذراء مريم (باكر)</span></caption>
         <tr id="table_19_row_0" class="north">
             <td class="english">Blessed are you O Mary, the wise and the chaste, the Second Tabernacle, the spiritual treasure.</td>
-            <td class="coptic">Ⲱⲟⲛⲓⲁϯ ⲛ̀ⲑⲟ Ⲙⲁⲣⲓⲁ̀: ϯⲥⲁⲃⲏ ⲟⲩⲟϩ ⲛ̀ⲥⲉⲙⲛⲉ: ϯⲙⲁϩⲥ̀ⲛⲟⲩϯ ⲛ̀ⲥ̀ⲕⲏⲛⲏ: ⲡⲓⲁ̀ϩⲟ ⲙ̀ⲡ̀ⲛⲉⲩⲙⲁⲧⲓⲕⲟⲛ.</td>
+            <td class="coptic">Ⲱⲟⲩⲛⲓⲁϯ ⲛ̀ⲑⲟ Ⲙⲁⲣⲓⲁ̀: ϯⲥⲁⲃⲏ ⲟⲩⲟϩ ⲛ̀ⲥⲉⲙⲛⲉ: ϯⲙⲁϩⲥ̀ⲛⲟⲩϯ ⲛ̀ⲥ̀ⲕⲏⲛⲏ: ⲡⲓⲁ̀ϩⲟ ⲙ̀ⲡ̀ⲛⲉⲩⲙⲁⲧⲓⲕⲟⲛ.</td>
             <td class="arabic">طوباك أنت يا مريم الحكيمة العفيفة القبة الثانية الكنز الروحى.</td>
         </tr>
         <tr id="table_19_row_1" class="south">
@@ -1650,7 +1664,7 @@ ${paschalPraiseHtml}
 
         <tr id="table_31_row_3" class="text">
             <td class="english"><span class="role">Congregation:<br></span>Amen.</td>
-            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:<br></span>ⲁⲙⲉⲛ.</td>
+            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:<br></span>ⲁⲙⲏⲛ.</td>
             <td class="arabic"><span class="role">الشعب:<br></span>آمين.</td>
         </tr>
 
@@ -1662,7 +1676,7 @@ ${paschalPraiseHtml}
 
         <tr id="table_31_row_7" class="text">
             <td class="english"><span class="role">Congregation:<br></span>Amen.</td>
-            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:<br></span>ⲁⲙⲉⲛ.</td>
+            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:<br></span>ⲁⲙⲏⲛ.</td>
             <td class="arabic"><span class="role">الشعب:<br></span>آمين.</td>
         </tr>
 
@@ -1674,7 +1688,7 @@ ${paschalPraiseHtml}
 
         <tr id="table_31_row_11" class="text">
             <td class="english"><span class="role">Congregation:<br></span>Amen.</td>
-            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:<br></span>ⲁⲙⲉⲛ.</td>
+            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:<br></span>ⲁⲙⲏⲛ.</td>
             <td class="arabic"><span class="role">الشعب:<br></span>آمين.</td>
         </tr>
 
@@ -1686,7 +1700,7 @@ ${paschalPraiseHtml}
 
         <tr id="table_31_row_15" class="text">
             <td class="english"><span class="role">Congregation:<br></span>Amen. Lord have mercy. Lord have mercy. Lord have mercy.</td>
-            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:<br></span>ⲁⲙⲉⲛ. Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ. Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ. Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.</td>
+            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:<br></span>ⲁⲙⲏⲛ. Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ. Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ. Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.</td>
             <td class="arabic"><span class="role">الشعب:<br></span>آمين. يارب ارحم. يارب ارحم. يارب ارحم.</td>
         </tr>   
     </table>
@@ -1698,7 +1712,7 @@ ${faiEtafEnfHtml}
     <span class="arabic-caption">البولس<br>(افسس 13:2-18)</span></caption>
         <tr id="table_33_row_1" class="intro">
             <td class="english">Paul the servant of our Lord Jesus Christ, called to be an apostle, appointed to the Gospel of God. A reading from the epistle of our teacher Paul to the Ephesians. May his blessings be with us. Amen </td>
-            <td class="arabic">من رسالة معلمنا بولس الرسول إلى أهل أفسس بركته تكون معنا. آمين.</td>
+            <td class="arabic">بُولُسُ، عَبْدٌ لِيَسُوعَ الْمَسِيحِ، الْمَدْعُوُّ رَسُولًا، الْمُفْرَزُ لإِنْجِيلِ اللهِ، مِن رسالة معلمنا بولس الرسول إلى أهل أفسس بركته تكون معنا. آمين.</td>
         </tr>
         
         <tr id="table_33_row_4" class="text">
@@ -1839,18 +1853,23 @@ ${faiEtafEnfHtml}
         </tr>
         <tr id="table_37_row_5" class="text">
             <td class="english">Holy God, Holy Mighty, Holy Immortal, Who was crucified for us, Have mercy on us.</td>
-            <td class="coptic">Ⲁⲅⲓⲟⲥ ⲟ̀ Ⲑⲉⲟⲥ : ⲁ̀ⲅⲓⲟⲥ Ⲓⲥⲭⲩⲣⲟⲥ : ⲁ̀ⲅⲓⲟⲥ Ⲁⲑⲁⲛⲁⲧⲟⲥ : ⲟ̀ ⲥ̀ⲧⲁⲩⲣⲱⲑⲓⲥ Ⲇⲓ Ⲏ̀ⲙⲁⲥ Ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ .</td>
+            <td class="coptic">Ⲁⲅⲓⲟⲥ ⲟ̀ Ⲑⲉⲟⲥ : ⲁⲅⲓⲟⲥ ⲓⲥⲭⲩⲣⲟⲥ : ⲁⲅⲓⲟⲥ ⲁⲑⲁⲛⲁⲧⲟⲥ : ⲟ̀ ⲥ̀ⲧⲁⲩⲣⲱⲑⲓⲥ ⲇⲓ ⲏ̀ⲙⲁⲥ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ.</td>
             <td class="arabic">قدوس الله . قدوس القوى . قدوس الحى الذى لا يموت، الذى صلب عنا ، أرحمنا .</td>
         </tr>
         <tr id="table_37_row_6" class="text">
             <td class="english">Holy God, Holy Mighty, Holy Immortal, Who was crucified for us, Have mercy on us.</td>
-            <td class="coptic">Ⲁⲅⲓⲟⲥ ⲟ̀ Ⲑⲉⲟⲥ : ⲁ̀ⲅⲓⲟⲥ Ⲓⲥⲭⲩⲣⲟⲥ : ⲁ̀ⲅⲓⲟⲥ Ⲁⲑⲁⲛⲁⲧⲟⲥ : ⲟ̀ ⲥ̀ⲧⲁⲩⲣⲱⲑⲓⲥ Ⲇⲓ Ⲏ̀ⲙⲁⲥ Ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ .</td>
+            <td class="coptic">Ⲁⲅⲓⲟⲥ ⲟ̀ Ⲑⲉⲟⲥ : ⲁⲅⲓⲟⲥ ⲓⲥⲭⲩⲣⲟⲥ : ⲁⲅⲓⲟⲥ ⲁⲑⲁⲛⲁⲧⲟⲥ : ⲟ̀ ⲥ̀ⲧⲁⲩⲣⲱⲑⲓⲥ ⲇⲓ ⲏ̀ⲙⲁⲥ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ.</td>
             <td class="arabic">قدوس الله . قدوس القوى . قدوس الحى الذى لا يموت، الذى صلب عنا ، أرحمنا .</td>
         </tr>
         <tr id="table_37_row_7" class="text">
-            <td class="english">Glory to the Father and to the Son, and to the Holy Spirit, now and ever, and unto the ages of ages, Amen. O Holy Trinity, have mercy upon us.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ Ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩⲓⲱ̀ : ⲕⲉ ⲁ̀ⲅⲓⲱ̀ ⲡ̅ⲛ̅ⲁ̅ⲧ̅ⲓ̅ . Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ⲓ̀ ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲉⲛ. </td>
+            <td class="english">Glory to the Father and to the Son, and to the Holy Spirit, now and ever, and unto the ages of ages, Amen.</td>
+            <td class="coptic">Ⲇⲟⲝⲁ Ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩ̀ⲓⲱ ⲕⲉ Ⲁ̀ⲅⲓⲱ Ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ: Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ ⲓ̀ ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲏⲛ. Ⲁ̀ⲙⲏⲛ.</td>
             <td class="arabic">المجد للآب و الإبن و الروح القدس . الآن و كل آوان و الى دهر الدهور ، آمين .</td>
+        </tr>
+        <tr id="table_37_row_8" class="text">
+            <td class="english">O holy Trinity, have mercy upon us.</td>
+            <td class="coptic">Ⲁ̀ⲅⲓⲁ Ⲧ̀ⲣⲓⲁⲥ: ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ.</td>
+            <td class="arabic">أيها الثالوث القدوس، إرحمنا.</td>
         </tr>
     </table>
     <table id="table_38" title="Litany of the Gospel">
@@ -1939,7 +1958,7 @@ ${faiEtafEnfHtml}
 <div class="section" id="section_10" title="Coptic Psalm & Gospel">
     <table id="table_39" title="Coptic Psalm">
         <caption id="caption_table39" class="caption" id="caption_table_39">Coptic Psalm<br>(55: 21,12)
-        <span class="arabic-caption">المزمور قبطي<br>(55: 21 و 12)</span></caption>
+        <span class="arabic-caption">المزمور قبطياً<br>(55: 21 و 12)</span></caption>
         <tr id="table_39_row_0" class="intro">
             <td class="english">A Psalm of David</td>
             <td class="coptic">Ⲯⲁⲗⲙⲟⲥ ⲧⲱ Ⲇⲁⲩⲓⲇ</td>
@@ -1974,7 +1993,7 @@ ${faiEtafEnfHtml}
     ${copticGospelIntroHtml}
     <table id="table_41" title="Coptic Gospel">
         <caption id="caption_table_41" class="caption">Coptic Gospel<br>(Luke 22: 7 - 13)
-        <span class="arabic-caption">الأنجيل قبطي<br>(لوقا 22: 7 - 13)</span></caption>
+        <span class="arabic-caption">الأنجيل قبطياً<br>(لوقا 22: 7 - 13)</span></caption>
         <tr id="table_41_row_0" class="priest">
             <td class="english">A chapter according to St. Luke,</td>
             <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲗⲟⲩⲕⲁⲛ ⲁⲅⲓⲟⲩ.</td>
@@ -1999,7 +2018,7 @@ ${faiEtafEnfHtml}
 
 
 
-<div class="section" id="section_11" title="Engligh and Arabic Psalm & Gospel">
+<div class="section" id="section_11" title="English and Arabic Psalm & Gospel">
 <table id="table_42" title="Psalm">
     <caption id="caption_table_42" class="caption">Psalm<br>(55:21,12)
     <span class="arabic-caption">المزمور<br>(55: 21 و 12)</span></caption>
@@ -2053,8 +2072,8 @@ ${faiEtafEnfHtml}
         <td class="arabic">فَذَاكَ يُرِيكُمَا عِلِّيَّةً كَبِيرَةً مَفْرُوشَةً. هُنَاكَ أَعِدَّا».</td>
     </tr>
     <tr id="table_43_row_10" class="text">
-        <td class="english">So they went and found it just as He had said to them, and they prepared the Passover.<br>Bow down before the Holy Gospel.</td>
-        <td class="arabic">فَانْطَلَقَا وَوَجَدَا كَمَا قَالَ لَهُمَا فَأَعَدَّا الْفِصْحَ.<br>أسجدوا للإنجيل المقدس.</td>
+        <td class="english">So they went and found it just as He had said to them, and they prepared the Passover.<br><i>Bow down before the Holy Gospel.</i></td>
+        <td class="arabic">فَانْطَلَقَا وَوَجَدَا كَمَا قَالَ لَهُمَا فَأَعَدَّا الْفِصْحَ.<br><i>أسجدوا للإنجيل المقدس.</i></td>
     </tr>
     <tr id="table_43_row_12" class="intro">
         <td class="english">Glory be to God forever.</td>

@@ -57,6 +57,12 @@ const EveOfMonday = () => {
             >
               <Text style={presentationStyles.pageMenu}>Eleventh Hour</Text>
             </TouchableOpacity>
+            <TouchableOpacity
+              style={[presentationStyles.itemContainer]}
+              onPress={() => navigation.navigate("NighttimeLitaniessc")}
+            >
+              <Text style={presentationStyles.pageMenu}>Nighttime Litanies</Text>
+            </TouchableOpacity>
           </View>
         </View>
       </ImageBackground>

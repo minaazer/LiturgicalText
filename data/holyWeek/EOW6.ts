@@ -18,7 +18,7 @@ ${hourIntroHtml}
 <div class="section" id="section_2" title="Coptic Prophecies">
     <table id="table_2" title="Coptic Prophecies">
     <caption class="caption" id="caption_table_2">Coptic Prophecies
-    <span class="arabic-caption">النبوات قبطي</span></caption>
+    <span class="arabic-caption">النبوات قبطياً</span></caption>
         <tr id="table_2_row_3" class="intro">
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲓⲉⲣⲉⲙⲓⲁⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ:</td>
         </tr>
@@ -35,6 +35,42 @@ ${hourIntroHtml}
 <div class="section" id="section_3" title="Prophecies">
 
 
+<table id="table_3" title="1st Prophecy">
+    <caption id="caption_table_3" class="caption">1st Prophecy<br>(Jeremiah 13:9, 16:9-13)
+    <span class="arabic-caption">النبوة الأولي<br>(أرميا 13: 9 و 16: 9-13)</span></caption>
+    <tr id="table_3_row_1" class="intro">
+        <td class="english">A reading from Jeremiah the prophet. May his blessings be with us. Amen.</td>
+        <td class="arabic">من أرميا النبى بركته تكون معنا، آمين.</td>
+    </tr>
+    <tr id="table_3_row_4" class="text">
+        <td class="english">"Thus says the Lord: 'In this manner I will ruin the pride of Judah and the great pride of Jerusalem.</td>
+        <td class="arabic">[هَكَذَا قَالَ الرَّبُّ: هَكَذَا أُفْسِدُ كِبْرِيَاءَ يَهُوذَا وَكِبْرِيَاءَ أُورُشَلِيمَ الْعَظِيمَةِ.</td>
+    </tr>
+    <tr id="table_3_row_5" class="text">
+        <td class="english">For thus says the Lord of hosts, the God of Israel: "Behold, I will cause to cease from this place, before your eyes and in your days, the voice of mirth and the voice of gladness, the voice of the bridegroom and the voice of the bride.</td>
+        <td class="arabic">لأَنَّهُ هَكَذَا قَالَ رَبُّ الْجُنُودِ إِلَهُ إِسْرَائِيلَ: هَئَنَذَا مُبَطِّلٌ مِنْ هَذَا الْمَوْضِعِ أَمَامَ أَعْيُنِكُمْ وَفِي أَيَّامِكُمْ صَوْتَ الطَّرَبِ وَصَوْتَ الْفَرَحِ صَوْتَ الْعَرِيسِ وَصَوْتَ الْعَرُوسِ.</td>
+    </tr>
+    <tr id="table_3_row_6" class="text">
+        <td class="english">"And it shall be, when you show this people all these words, and they say to you, 'Why has the Lord pronounced all this great disaster against us? Or what is our iniquity? Or what is our sin that we have committed against the Lord our God?'</td>
+        <td class="arabic">[وَيَكُونُ حِينَ تُخْبِرُ هَذَا الشَّعْبَ بِكُلِّ هَذِهِ الأُمُورِ أَنَّهُمْ يَقُولُونَ لَكَ: لِمَاذَا تَكَلَّمَ الرَّبُّ عَلَيْنَا بِكُلِّ هَذَا الشَّرِّ الْعَظِيمِ فَمَا هُوَ ذَنْبُنَا وَمَا هِيَ خَطِيَّتُنَا الَّتِي أَخْطَأْنَاهَا إِلَى الرَّبِّ إِلَهِنَا؟</td>
+    </tr>
+    <tr id="table_3_row_7" class="text">
+        <td class="english">then you shall say to them, 'Because your fathers have forsaken Me,' says the Lord; 'they have walked after other gods and have served them and worshiped them, and have forsaken Me and not kept My law.</td>
+        <td class="arabic">فَتَقُولُ لَهُمْ: مِنْ أَجْلِ أَنَّ آبَاءَكُمْ قَدْ تَرَكُونِي يَقُولُ الرَّبُّ وَذَهَبُوا وَرَاءَ آلِهَةٍ أُخْرَى وَعَبَدُوهَا وَسَجَدُوا لَهَا وَإِيَّايَ تَرَكُوا وَشَرِيعَتِي لَمْ يَحْفَظُوهَا.</td>
+    </tr>
+    <tr id="table_3_row_8" class="text">
+        <td class="english">And you have done worse than your fathers, for behold, each one follows the dictates of his own evil heart, so that no one listens to Me.</td>
+        <td class="arabic">وَأَنْتُمْ أَسَأْتُمْ فِي عَمَلِكُمْ أَكْثَرَ مِنْ آبَائِكُمْ. وَهَا أَنْتُمْ ذَاهِبُونَ كُلُّ وَاحِدٍ وَرَاءَ عِنَادِ قَلْبِهِ الشِّرِّيرِ حَتَّى لاَ تَسْمَعُوا لِي.</td>
+    </tr>
+    <tr id="table_3_row_9" class="text">
+        <td class="english">Therefore I will cast you out of this land into a land that you do not know, neither you nor your fathers; and there you shall serve other gods day and night, where I will not show you favor.'</td>
+        <td class="arabic">فَأَطْرُدُكُمْ مِنْ هَذِهِ الأَرْضِ إِلَى أَرْضٍ لَمْ تَعْرِفُوهَا أَنْتُمْ وَلاَ آبَاؤُكُمْ فَتَعْبُدُونَ هُنَاكَ آلِهَةً أُخْرَى نَهَاراً وَلَيْلاً حَيْثُ لاَ أُعْطِيكُمْ نِعْمَةً.</td>
+    </tr>
+    <tr id="table_3_row_11" class="intro">
+        <td class="english">Glory be to the Holy Trinity, our God, forever and unto the age of all ages. Amen.</td>
+        <td class="arabic">مجداً للثالوث القدوس الهنا إلى الأبد وإلى أبد الآبدين كلها، آمين.</td>
+    </tr>
+</table>
 </div>
 
 
@@ -45,10 +81,10 @@ ${paschalPraiseHtml}
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_6" title="Coptic Psalm">
         <caption class="caption" id="caption_table_6">Coptic Psalm<br>(102: 1 - 2)
-        <span class="arabic-caption">المزمور قبطي<br>(102: 1 - 2)</span></caption>
+        <span class="arabic-caption">المزمور قبطياً<br>(101: 1 ، 2)</span></caption>
 
         <tr id="table_6_row_0" class="intro">
-            <td class="english">A psalm of David</td>
+            <td class="english">A Psalm of David</td>
             <td class="coptic">Ⲯⲁⲗⲙⲟⲥ ⲧⲱ Ⲇⲁⲩⲓⲇ</td>
             <td class="arabic">مزمور لداود</td>
         </tr>
@@ -80,8 +116,8 @@ ${paschalPraiseHtml}
     </table>
     ${copticGospelIntroHtml}
     <table id="table_8" title="Coptic Gospel">
-        <caption class="caption" id="caption_table_8">Coptic Gospels
-        <span class="arabic-caption">الإناجيل قبطي</span></caption>
+        <caption class="caption" id="caption_table_8">Coptic Gospel
+        <span class="arabic-caption">الإنجيل قبطياً</span></caption>
         <tr id="table_8_row_0" class="priest">
             <td class="english">A chapter according to St. Matthew,</td>
             <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲟⲛ ⲁⲅⲓⲟⲩ.</td>
@@ -106,11 +142,11 @@ ${paschalPraiseHtml}
 
 
 
-<div class="section" id="section_7" title="Engligh and Arabic Psalm & Gospel">
+<div class="section" id="section_7" title="English and Arabic Psalm & Gospel">
 
 <table id="table_9" title="Psalm">
     <caption id="caption_table_9" class="caption">Psalm<br>(102:1-2)
-    <span class="arabic-caption">المزمور<br>(102: 1 - 2)</span></caption>
+    <span class="arabic-caption">المزمور<br>(101: 1 ، 2)</span></caption>
     <tr id="table_9_row_1" class="intro">
         <td class="english">From the Psalms of our teacher David the prophet. May his blessing be with us. Amen.</td>
         <td class="arabic">من مزامير معلمنا داود النبي، بركته تكون معنا، آمين.</td>
@@ -189,8 +225,8 @@ ${paschalPraiseHtml}
         <td class="arabic">فَاسْهَرُوا إِذاً لأَنَّكُمْ لاَ تَعْرِفُونَ الْيَوْمَ وَلاَ السَّاعَةَ الَّتِي يَأْتِي فِيهَا ابْنُ الإِنْسَانِ.</td>
     </tr>
     <tr id="table_10_row_17" class="text">
-        <td class="english">Bow down before the Holy Gospel.</td>
-        <td class="arabic">أسجدوا للإنجيل المقدس.</td>
+        <td class="english"><i>Bow down before the Holy Gospel.</i></td>
+        <td class="arabic"><i>أسجدوا للإنجيل المقدس.</i></td>
     </tr>
     <tr id="table_10_row_19" class="intro">
         <td class="english">Glory be to God forever.</td>

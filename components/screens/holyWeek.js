@@ -8,11 +8,10 @@ import {
   View,
   Text,
   TouchableOpacity,
-  Image,
+  
 } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import backgroundImage from "../../assets/background.png";
-import dayOfSundayImage from "../../assets/dayOfSunday.png";
 import { ScrollView } from "react-native-gesture-handler";
 import { presentationStyles } from "../css/presentationStyles";
 
@@ -29,16 +28,17 @@ const HolyWeek = () => {
         <View style={presentationStyles.pageContainer}>
           <View style={presentationStyles.headerContainer}>
             <Text style={presentationStyles.pageHeader}>Holy</Text>
+            <Text style={presentationStyles.pageHeader}>Pascha</Text>
             <Text style={presentationStyles.pageHeader}>Week</Text>
           </View>
 
-          <View style={presentationStyles.hoursContainer}>
+          <View style={presentationStyles.daysContainer}>
             <ScrollView contentContainerStyle={presentationStyles.iconRow}>
               <TouchableOpacity
                 style={[presentationStyles.itemContainer]}
                 onPress={() => navigation.navigate("DayOfSunday")}
               >
-                <Text style={presentationStyles.pageMenuAlt}>Day of Palm Sunday</Text>
+                <Text style={presentationStyles.pageMenuAlt}>Day of Hosanna Sunday</Text>
               </TouchableOpacity>
               <TouchableOpacity
                 style={[presentationStyles.itemContainer]}
@@ -98,7 +98,7 @@ const HolyWeek = () => {
                 style={[presentationStyles.itemContainer]}
                 onPress={() => navigation.navigate("DayOfFriday")}
               >
-                <Text style={presentationStyles.pageMenuAlt}>Good Friday</Text>
+                <Text style={presentationStyles.pageMenuAlt}>Great Friday</Text>
               </TouchableOpacity>
           </ScrollView>
           </View>

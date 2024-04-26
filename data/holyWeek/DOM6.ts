@@ -18,7 +18,7 @@ ${hourIntroHtml}
 <div class="section" id="section_2" title="Coptic Prophecies">
     <table id="table_2" title="Coptic Prophecies">
     <caption class="caption" id="caption_table_2">Coptic Prophecies
-    <span class="arabic-caption">النبوات قبطي</span></caption>
+    <span class="arabic-caption">النبوات قبطياً</span></caption>
         <tr id="table_2_row_3" class="intro">
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ ⲡⲓⲇⲟⲝⲟⲇⲟⲥ ⲛ̀ⲧⲉ Ⲙⲱⲩⲥⲏⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ (ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ): </td>
         </tr>
@@ -96,9 +96,9 @@ ${hourIntroHtml}
 
 <table id="table_4" title="2nd Prophecy">
     <caption id="caption_table_4" class="caption">2nd Prophecy<br>(Wisdom of Solomon 1:1-9)
-    <span class="arabic-caption">النبوة الثانية<br>(اشعياء 1: 1 – 9)</span></caption>
+    <span class="arabic-caption">النبوة الثانية<br>(حكمة سليمان 1: 1 – 9)</span></caption>
     <tr id="table_4_row_1" class="intro">
-        <td class="english">A reading from the Wisdom of Solomon the prophet. May his blessings be with us. Amen.</td>
+        <td class="english">The beginning of the Wisdom of Solomon the prophet. May his blessings be with us. Amen.</td>
         <td class="arabic">بدء حكمة سليمان النبى بركته تكون معنا، آمين.</td>
     </tr>
     <tr id="table_4_row_4" class="text">
@@ -156,10 +156,10 @@ ${paschalPraiseHtml}
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_16" title="Coptic Psalm">
         <caption class="caption" id="caption_table_16">Coptic Psalm<br>(122:4)
-        <span class="arabic-caption">المزمور قبطي<br>(122:4)</span></caption>
+        <span class="arabic-caption">المزمور قبطياً<br>(121: 4)</span></caption>
 
         <tr id="table_16_row_0" class="intro">
-            <td class="english">A psalm of David</td>
+            <td class="english">A Psalm of David</td>
             <td class="coptic">Ⲯⲁⲗⲙⲟⲥ ⲧⲱ Ⲇⲁⲩⲓⲇ</td>
             <td class="arabic">مزمور لداود</td>
         </tr>
@@ -191,8 +191,8 @@ ${paschalPraiseHtml}
     </table>
     ${copticGospelIntroHtml}
     <table id="table_18" title="Coptic Gospel">
-        <caption class="caption" id="caption_table_18">Coptic Gospels
-        <span class="arabic-caption">الإناجيل قبطي</span></caption>
+        <caption class="caption" id="caption_table_18">Coptic Gospel
+        <span class="arabic-caption">الإنجيل قبطياً</span></caption>
         <tr id="table_18_row_0" class="priest">
             <td class="english">A chapter according to St. John,</td>
             <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉⲃ̀ⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲓⲱⲁⲛⲛⲏⲛ ⲁⲅⲓⲟⲩ.</td>
@@ -201,7 +201,7 @@ ${paschalPraiseHtml}
 
         <tr id="table_18_row_1" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ<̀/td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_18_row_2" class="text">
@@ -209,7 +209,7 @@ ${paschalPraiseHtml}
         </tr>
         <tr id="table_18_row_4" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ<̀/td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
     </table>
@@ -217,30 +217,18 @@ ${paschalPraiseHtml}
 
 
 
-<div class="section" id="section_7" title="Engligh and Arabic Psalm & Gospel">
+<div class="section" id="section_7" title="English and Arabic Psalm & Gospel">
 
 <table id="table_19" title="Psalm">
     <caption id="caption_table_19" class="caption">Psalm<br>(122:4)
-    <span class="arabic-caption">المزمور<br>(122: 4)</span></caption>
+    <span class="arabic-caption">المزمور<br>(121: 4)</span></caption>
     <tr id="table_19_row_1" class="intro">
         <td class="english">From the Psalms of our teacher David the prophet. May his blessing be with us. Amen.</td>
         <td class="arabic">من مزامير معلمنا داود النبي، بركته تكون معنا، آمين.</td>
     </tr>
     <tr id="table_19_row_4" class="text">
-        <td class="english">Where the tribes go up, 
-
-The tribes of the Lord, 
-
-To the Testimony of Israel, 
-
-To give thanks to the name of the Lord.</td>
-        <td class="arabic">لانه هناك صعدت القبائل،
-
- قبائل الرب
-
- شهادة لاسرائيل.
-
- يعترفون لاسم الرب.</td>
+        <td class="english">Where the tribes go up, The tribes of the Lord, To the Testimony of Israel, To give thanks to the name of the Lord.</td>
+        <td class="arabic">لانه هناك صعدت القبائل، قبائل الرب  شهادة لاسرائيل. يعترفون لاسم الرب.</td>
     </tr>
     <tr id="table_19_row_6" class="intro">
         <td class="english">Alleluia.</td>
@@ -276,8 +264,8 @@ To give thanks to the name of the Lord.</td>
         <td class="arabic">فَتَذَكَّرَ تلاَمِيذُهُ أَنَّهُ مَكْتُوبٌ: «غَيْرَةُ بَيْتِكَ أَكَلَتْنِي».</td>
     </tr>
     <tr id="table_20_row_9" class="text">
-        <td class="english">Bow down before the Holy Gospel.</td>
-        <td class="arabic">أسجدوا للإنجيل المقدس.</td>
+        <td class="english"><i>Bow down before the Holy Gospel.</i></td>
+        <td class="arabic"><i>أسجدوا للإنجيل المقدس.</i></td>
     </tr>
     <tr id="table_20_row_11" class="intro">
         <td class="english">Glory be to God forever.</td>

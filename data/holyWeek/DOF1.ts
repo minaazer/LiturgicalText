@@ -1,8 +1,9 @@
-import { hourIntro, paschalPraise3 , copticGospelIntro, daytimeExpositionIntro, expositionConclusion, daytimeLitanies, evnotiNaiNan, endOfServiceHymn , cross} from "../repeatedPrayers";
+import { hourIntro, paschalPraise3 , copticGospelIntro, daytimeExpositionIntro, expositionConclusion, daytimeLitanies, evnotiNaiNan, endOfServiceHymn , tenouosht , cross} from "../repeatedPrayers";
 
 export const DOF1 = () => {
-    const hourIntroHtml = hourIntro("FIRST","الأولى","DAY of GOOD FRIDAY","يوم الجمعة العظيمة");
-    const paschalPraiseHtml = paschalPraise3("4","17","18","FIRST","الأولى","DAY of GOOD FRIDAY","يوم الجمعة العظيمة");
+    const hourIntroHtml = hourIntro("FIRST","الأولى","DAY of GREAT FRIDAY","يوم الجمعة العظيمة");
+    const paschalPraiseHtml = paschalPraise3("4","17","18","FIRST","الأولى","DAY of GREAT FRIDAY","يوم الجمعة العظيمة");
+    const tenouoshtHtml = tenouosht("15");
     const copticGospelIntroHtml = copticGospelIntro("20");
     const daytimeExpositionIntroHtml = daytimeExpositionIntro("28");
     const expositionConclusionHtml = expositionConclusion("30");
@@ -19,7 +20,7 @@ ${hourIntroHtml}
 <div class="section" id="section_2" title="Coptic Prophecies">
     <table id="table_2" title="Coptic Prophecies">
     <caption class="caption" id="caption_table_2">Coptic Prophecies
-    <span class="arabic-caption">النبوات قبطي</span></caption>
+    <span class="arabic-caption">النبوات قبطياً</span></caption>
         <tr id="table_2_row_3" class="intro">
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ ⲡⲓⲇⲉⲩⲧⲉⲣⲟⲛⲟⲙⲓⲟⲛ ⲛ̀ⲧⲉ Ⲙⲱⲩ̀ⲥⲏⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ̀ⲉⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ (ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ)</td>
         </tr>
@@ -567,7 +568,7 @@ and make trial of his forbearance.</td>
     <caption id="caption_table_10" class="caption">8th Prophecy<br>(Job 12:17-13:1)
     <span class="arabic-caption">النبوة  الثامنة<br>(أيوب 12: 17 - 13: 1)</span></caption>
     <tr id="table_10_row_1" class="intro">
-        <td class="english">A reading from Job the rightous. May his blessings be with us. Amen.</td>
+        <td class="english">A reading from Job the righteous. May his blessings be with us. Amen.</td>
         <td class="arabic">من أيوب الصديق بركته تكون معنا، آمين.</td>
     </tr>
     <tr id="table_10_row_4" class="text">
@@ -795,14 +796,7 @@ and make trial of his forbearance.</td>
     </tr>
 </table>
 
-<table id="table_15" title="Tenouosht">
-    <caption id="caption_table_15" class="caption"><span class="coptic-caption">Ⲧⲉⲛⲟⲩⲱ̀ϣⲧ</span></caption>
-    <tr id="table_15_row_1" class="text">
-        <td class="english">We worship You O Christ with Your good Father and the Holy Spirit for You were crucified and saved us.</td>
-        <td class="coptic">Ⲧⲉⲛⲟⲩⲱ̀ϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡ̅ⲭ̅ⲥ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: ϫⲉ ⲁⲩⲁϣⲕ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ ⲛⲁⲓ ⲛⲁⲛ.</td>
-        <td class="arabic">نسجد لكَ أيها المسيح مع أبيك الصالح والروح القدس لأنكَ صلبت وخلصتنا</td>
-    </tr>
-</table>
+${tenouoshtHtml}
 
 <table id="table_16" title="Pauline Epistle">
     <caption id="caption_table_16" class="caption">Pauline Epistle<br>(1 Corinthians 1:23-2:5)
@@ -883,10 +877,10 @@ ${paschalPraiseHtml}
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_19" title="Coptic Psalm">
         <caption class="caption" id="caption_table_19">Coptic Psalm<br>(27:12, 35:11-12, 16)
-        <span class="arabic-caption">المزمور قبطي<br>(27: 12 و 35: 11 - 12 و 16)</span></caption>
+        <span class="arabic-caption">المزمور قبطياً<br>(27: 12 و 35: 11 - 12 و 16)</span></caption>
 
         <tr id="table_19_row_0" class="intro">
-            <td class="english">A psalm of David</td>
+            <td class="english">A Psalm of David</td>
             <td class="coptic">Ⲯⲁⲗⲙⲟⲥ ⲧⲱ Ⲇⲁⲩⲓⲇ</td>
             <td class="arabic">مزمور لداود</td>
         </tr>
@@ -919,10 +913,10 @@ ${paschalPraiseHtml}
     ${copticGospelIntroHtml}
     <table id="table_21" title="Coptic Gospel">
         <caption class="caption" id="caption_table_21">Coptic Gospels
-        <span class="arabic-caption">الإناجيل قبطي</span></caption>
+        <span class="arabic-caption">الأناجيل قبطياً</span></caption>
         <tr id="table_21_row_0" class="priest">
             <td class="english">A chapter according to St. Matthew,</td>
-            <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲱⲛ ⲁⲅⲓⲟⲩ.</td>
+            <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲱⲛ ̀ⲁⲅⲓⲟ.</td>
             <td class="arabic">فصل من إنجيل معلمنا مار متى</td>
         </tr>
 
@@ -936,7 +930,7 @@ ${paschalPraiseHtml}
         </tr>
         <tr id="table_21_row_3" class="priest">
             <td class="english">According to St. Mark</td>
-            <td class="coptic">ⲕⲁⲧⲁ Ⲙⲁⲣⲕⲟⲛ ⲁⲅⲓⲟⲩ.</td>
+            <td class="coptic">ⲕⲁⲧⲁ Ⲙⲁⲣⲕⲟⲛ ̀ⲁⲅⲓⲟ.</td>
             <td class="arabic">حسب مار مرقس</td>
         </tr>
         <tr id="table_21_row_4" class="intro">
@@ -983,7 +977,7 @@ ${paschalPraiseHtml}
 
 
 
-<div class="section" id="section_7" title="Engligh and Arabic Psalm & Gospel">
+<div class="section" id="section_7" title="English and Arabic Psalm & Gospel">
     <table id="table_22" title="Psalm">
         <caption id="caption_table_22" class="caption">Psalm<br>(27:12, 35:11-12, 16)
         <span class="arabic-caption">المزمور<br>(27: 12 و 35: 11 - 12 و 16)</span></caption>
@@ -1073,8 +1067,8 @@ ${paschalPraiseHtml}
             <td class="arabic">فَقَالَ لَهُ بِيلاَطُسُ: «أَمَا تَسْمَعُ كَمْ يَشْهَدُونَ عَلَيْكَ؟»</td>
         </tr>
         <tr id="table_23_row_17" class="text">
-            <td class="english">But He answered him not one word, so that the governor marveled greatly.<br>Bow down before the Holy Gospel.</td>
-            <td class="arabic">فَلَمْ يُجِبْهُ وَلاَ عَنْ كَلِمَةٍ وَاحِدَةٍ حَتَّى تَعَجَّبَ الْوَالِي جِدّاً.<br>أسجدوا للإنجيل المقدس.</td>
+            <td class="english">But He answered him not one word, so that the governor marveled greatly.<br><i>Bow down before the Holy Gospel.</i></td>
+            <td class="arabic">فَلَمْ يُجِبْهُ وَلاَ عَنْ كَلِمَةٍ وَاحِدَةٍ حَتَّى تَعَجَّبَ الْوَالِي جِدّاً.<br><I><i>أسجدوا للإنجيل المقدس.</i></I></td>
         </tr>
         <tr id="table_23_row_19" class="intro">
             <td class="english">Glory be to God forever.</td>
@@ -1089,23 +1083,23 @@ ${paschalPraiseHtml}
             <td class="english">From the Psalms of our teacher David the prophet. May his blessing be with us. Amen.</td>
             <td class="arabic">من مزامير معلمنا داود النبي، بركته تكون معنا، آمين.</td>
         </tr>
-        <tr id="table_22_row_4" class="text">
+        <tr id="table_24_row_4" class="text">
             <td class="english">For false witnesses have risen against me, And such as breathe out violence.</td>
             <td class="arabic">لأنه قام على شهود زور: وكذب الظلم لذاته.</td>
         </tr>
-        <tr id="table_22_row_5" class="text">
+        <tr id="table_24_row_5" class="text">
             <td class="english">Fierce witnesses rise up; They ask me things that I do not know.</td>
             <td class="arabic">قام على شهود جور وعما لا أعلم سألوني.</td>
         </tr>
-        <tr id="table_22_row_6" class="text">
+        <tr id="table_24_row_6" class="text">
             <td class="english">They reward me evil for good;</td>
             <td class="arabic">جازونى بدل الخير شراً</td>
         </tr>
-        <tr id="table_22_row_7" class="text">
+        <tr id="table_24_row_7" class="text">
             <td class="english">They gnashed at me with their teeth.</td>
             <td class="arabic">صارين على بأسنانهم.</td>
         </tr>
-        <tr id="table_22_row_9" class="intro">
+        <tr id="table_24_row_9" class="intro">
             <td class="english">Alleluia.</td>
             <td class="arabic">هلليلويا.</td>
         </tr>
@@ -1135,8 +1129,8 @@ ${paschalPraiseHtml}
             <td class="arabic">فَسَأَلَهُ بِيلاَطُسُ أَيْضاً: «أَمَا تُجِيبُ بِشَيْءٍ؟ انْظُرْ كَمْ يَشْهَدُونَ عَلَيْكَ!»</td>
         </tr>
         <tr id="table_25_row_8" class="text">
-            <td class="english">But Jesus still answered nothing, so that Pilate marveled.<br>Bow down before the Holy Gospel.</td>
-            <td class="arabic">فَلَمْ يُجِبْ يَسُوعُ أَيْضاً بِشَيْءٍ حَتَّى تَعَجَّبَ بِيلاَطُسُ.<br>أسجدوا للإنجيل المقدس.</td>
+            <td class="english">But Jesus still answered nothing, so that Pilate marveled.<br><i>Bow down before the Holy Gospel.</i></td>
+            <td class="arabic">فَلَمْ يُجِبْ يَسُوعُ أَيْضاً بِشَيْءٍ حَتَّى تَعَجَّبَ بِيلاَطُسُ.<br><I><i>أسجدوا للإنجيل المقدس.</i></I></td>
         </tr>
         <tr id="table_25_row_10" class="intro">
             <td class="english">Glory be to God forever.</td>
@@ -1220,8 +1214,8 @@ ${paschalPraiseHtml}
             <td class="arabic">فَاحْتَقَرَهُ هِيرُودُسُ مَعَ عَسْكَرِهِ وَاسْتَهْزَأَ بِهِ وَأَلْبَسَهُ لِبَاساً لاَمِعاً وَرَدَّهُ إِلَى بِيلاَطُسَ.</td>
         </tr>
         <tr id="table_26_row_21" class="text">
-            <td class="english">That very day Pilate and Herod became friends with each other, for previously they had been at enmity with each other.<br>Bow down before the Holy Gospel.</td>
-            <td class="arabic">فَصَارَ بِيلاَطُسُ وَهِيرُودُسُ صَدِيقَيْنِ مَعَ بَعْضِهِمَا فِي ذَلِكَ الْيَوْمِ لأَنَّهُمَا كَانَا مِنْ قَبْلُ فِي عَدَاوَةٍ بَيْنَهُمَا.<br>أسجدوا للإنجيل المقدس.</td>
+            <td class="english">That very day Pilate and Herod became friends with each other, for previously they had been at enmity with each other.<br><i>Bow down before the Holy Gospel.</i></td>
+            <td class="arabic">فَصَارَ بِيلاَطُسُ وَهِيرُودُسُ صَدِيقَيْنِ مَعَ بَعْضِهِمَا فِي ذَلِكَ الْيَوْمِ لأَنَّهُمَا كَانَا مِنْ قَبْلُ فِي عَدَاوَةٍ بَيْنَهُمَا.<br><I><i>أسجدوا للإنجيل المقدس.</i></I></td>
         </tr>
         <tr id="table_26_row_23" class="intro">
             <td class="english">Glory be to God forever.</td>
@@ -1285,8 +1279,8 @@ ${paschalPraiseHtml}
             <td class="arabic">وَلَكُمْ عَادَةٌ أَنْ أُطْلِقَ لَكُمْ وَاحِداً فِي الْفِصْحِ. أَفَتُرِيدُونَ أَنْ أُطْلِقَ لَكُمْ مَلِكَ الْيَهُودِ؟».</td>
         </tr>
         <tr id="table_27_row_16" class="text">
-            <td class="english">Then they all cried again, saying, "Not this Man, but Barabbas!" Now Barabbas was a robber.<br>Bow down before the Holy Gospel.</td>
-            <td class="arabic">فَصَرَخُوا أَيْضاً جَمِيعُهُمْ: «لَيْسَ هَذَا بَلْ بَارَابَاسَ». وَكَانَ بَارَابَاسُ لِصّاً.<br>أسجدوا للإنجيل المقدس.</td>
+            <td class="english">Then they all cried again, saying, "Not this Man, but Barabbas!" Now Barabbas was a robber.<br><i>Bow down before the Holy Gospel.</i></td>
+            <td class="arabic">فَصَرَخُوا أَيْضاً جَمِيعُهُمْ: «لَيْسَ هَذَا بَلْ بَارَابَاسَ». وَكَانَ بَارَابَاسُ لِصّاً.<br><I><i>أسجدوا للإنجيل المقدس.</i></I></td>
         </tr>
         <tr id="table_27_row_18" class="intro">
             <td class="english">Glory be to God forever.</td>
@@ -1302,7 +1296,7 @@ ${daytimeExpositionIntroHtml}
     <caption id="caption_table_29" class="caption">Exposition
     <span class="arabic-caption">الطرح</span></caption>
     <tr id="table_29_row_1" class="intro">
-        <td class="english">The exposition of the FIRST Hour of the DAY of GOOD FRIDAY of Holy Pascha. May its blessings be with us. Amen.</td>
+        <td class="english">The exposition of the FIRST Hour of the DAY of GREAT FRIDAY of Holy Pascha. May its blessings be with us. Amen.</td>
         <td class="arabic">طرح الساعة الأولى من يوم الجمعة العظيمة من البصخة المقدسة بركتها تكون معنا. آمين.</td>
     </tr>
     <tr id="table_29_row_4" class="text">

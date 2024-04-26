@@ -57,6 +57,13 @@ const DayOfMonday = () => {
             >
               <Text style={presentationStyles.pageMenu}>Eleventh Hour</Text>
             </TouchableOpacity>
+            <TouchableOpacity
+              style={[presentationStyles.itemContainer]}
+              onPress={() => navigation.navigate("DaytimeLitaniessc")}
+            >
+              <Text style={presentationStyles.pageMenu}>Daytime Litanies</Text>
+            </TouchableOpacity>
+            
           </View>
         </View>
       </ImageBackground>

@@ -52,5 +52,19 @@ export const fontTypeface = `
         font-style: normal;
       }
 
+      @font-face {
+        font-family: "Simplified Arabic";
+        src: url("https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/simpo.ttf") format('truetype');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+        @font-face {
+            font-family: "Times New Roman";
+            src: url("https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/times.ttf") format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
       
 `;   

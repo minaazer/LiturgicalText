@@ -18,7 +18,7 @@ ${hourIntroHtml}
 <div class="section" id="section_2" title="Coptic Prophecies">
     <table id="table_2" title="Coptic Prophecies">
     <caption class="caption" id="caption_table_2">Coptic Prophecies
-    <span class="arabic-caption">النبوات قبطي</span></caption>
+    <span class="arabic-caption">النبوات قبطياً</span></caption>
         <tr id="table_2_row_3" class="intro">
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ ̀̀Ⲏⲥⲁⲏ̀ⲁⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ (ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ):</td>
         </tr>
@@ -155,10 +155,10 @@ ${paschalPraiseHtml}
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_16" title="Coptic Psalm">
         <caption class="caption" id="caption_table_16">Coptic Psalm<br>(122:1-2)
-        <span class="arabic-caption">المزمور قبطي<br>(122:1-2)</span></caption>
+        <span class="arabic-caption">المزمور قبطياً<br>(121: 1 ، 2)</span></caption>
 
         <tr id="table_16_row_0" class="intro">
-            <td class="english">A psalm of David</td>
+            <td class="english">A Psalm of David</td>
             <td class="coptic">Ⲯⲁⲗⲙⲟⲥ ⲧⲱ Ⲇⲁⲩⲓⲇ</td>
             <td class="arabic">مزمور لداود</td>
         </tr>
@@ -190,8 +190,8 @@ ${paschalPraiseHtml}
     </table>
     ${copticGospelIntroHtml}
     <table id="table_18" title="Coptic Gospel">
-        <caption class="caption" id="caption_table_18">Coptic Gospels
-        <span class="arabic-caption">الإناجيل قبطي</span></caption>
+        <caption class="caption" id="caption_table_18">Coptic Gospel
+        <span class="arabic-caption">الإنجيل قبطياً</span></caption>
         <tr id="table_18_row_0" class="priest">
             <td class="english">A chapter according to St. Mark,</td>
             <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉⲃ̀ⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲣⲕⲟⲛ ⲁⲅⲓⲟⲩ.</td>
@@ -200,7 +200,7 @@ ${paschalPraiseHtml}
 
         <tr id="table_18_row_1" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ<̀/td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_18_row_2" class="text">
@@ -208,7 +208,7 @@ ${paschalPraiseHtml}
         </tr>
         <tr id="table_18_row_4" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ<̀/td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
     </table>
@@ -216,11 +216,11 @@ ${paschalPraiseHtml}
 
 
 
-<div class="section" id="section_7" title="Engligh and Arabic Psalm & Gospel">
+<div class="section" id="section_7" title="English and Arabic Psalm & Gospel">
 
 <table id="table_19" title="Psalm">
-    <caption id="caption_table_19" class="caption">Psalm<br>(Psalm 122:1-2)
-    <span class="arabic-caption">المزمور<br>(المزمور 121: 1 و 2)</span></caption>
+    <caption id="caption_table_19" class="caption">Psalm<br>(122:1-2)
+    <span class="arabic-caption">المزمور<br>(121: 1 ، 2)</span></caption>
     <tr id="table_19_row_1" class="intro">
         <td class="english">From the Psalms of our teacher David the prophet. May his blessing be with us. Amen.</td>
         <td class="arabic">من مزامير معلمنا داود النبي، بركته تكون معنا، آمين.</td>
@@ -283,8 +283,8 @@ ${paschalPraiseHtml}
         <td class="arabic">وَلَمَّا صَارَ الْمَسَاءُ خَرَجَ إِلَى خَارِجِ الْمَدِينَةِ.</td>
     </tr>
     <tr id="table_20_row_13" class="text">
-        <td class="english">Bow down before the Holy Gospel.</td>
-        <td class="arabic">أسجدوا للإنجيل المقدس.</td>
+        <td class="english"><i>Bow down before the Holy Gospel.</i></td>
+        <td class="arabic"><i>أسجدوا للإنجيل المقدس.</i></td>
     </tr>
     <tr id="table_20_row_15" class="intro">
         <td class="english">Glory be to God forever.</td>
@@ -307,57 +307,55 @@ ${daytimeExpositionIntroHtml}
         <td class="arabic">طرح الساعة الثالثة من يوم الاثنين من البصخة المقدسة بركتها علينا. آمين.</td>
     </tr>
     <tr id="table_22_row_4" class="text">
-        <td class="english">On the evening of Palm Sunday, our Lord and Savior Jesus Christ went with His disciples outside the city. 
-
-He felt hungry and said, “I want something to eat.” He saw a fig tree from a distance and sought some of its fruits.</td>
+        <td class="english">On the evening of Palm Sunday, our Lord and Savior Jesus Christ went with His disciples outside the city.</td>
         <td class="arabic">فى عشية يوم الشعانين أتى المسيح الهنا يسوع المخلص خارج المدينة مع تلاميذه،</td>
     </tr>
     <tr id="table_22_row_5" class="text">
-        <td class="english">He found it fruitless. He condemned the tree and it dried from its roots.</td>
+        <td class="english">He felt hungry and said, “I want something to eat.” He saw a fig tree from a distance and sought some of its fruits.</td>
         <td class="arabic">فجاع وقال: اطلب طعاماً. فرأى شجرة تين من بعيد، وأتى إليها يطلب ثمراً فيها،</td>
     </tr>
     <tr id="table_22_row_6" class="text">
-        <td class="english">The disciples were taken by the incident and said to the Lord, “the fig tree has withered away.”</td>
+        <td class="english">He found it fruitless. He condemned the tree and it dried from its roots.</td>
         <td class="arabic">فوجد ورقاً بغير ثمر، فلعنها فيبست من أصلها.</td>
     </tr>
     <tr id="table_22_row_7" class="text">
-        <td class="english">Keep faith in your hearts and you shall be granted your requests.</td>
+        <td class="english">The disciples were taken by the incident and said to the Lord, “the fig tree has withered away.”</td>
         <td class="arabic">فتعجب جميع تلاميذه، وقالوا للرب: أن شجرة التين يبست.</td>
     </tr>
     <tr id="table_22_row_8" class="text">
-        <td class="english">Do not be surprised that by one single word, the fig tree dried from its roots up.</td>
+        <td class="english">Keep faith in your hearts and you shall be granted your requests.</td>
         <td class="arabic">ضعوا الايمان فى قلوبكم وكل شئ يخضع لكم.</td>
     </tr>
     <tr id="table_22_row_9" class="text">
-        <td class="english">If you have faith in your hearts, you can move mountains.</td>
+        <td class="english">Do not be surprised that by one single word, the fig tree dried from its roots up.</td>
         <td class="arabic">ولا تتعجبوا من شجرة التين هذه انها بكلمة واحدة يبست من أصلها،</td>
     </tr>
     <tr id="table_22_row_10" class="text">
-        <td class="english">Come all you ignorant and see what happened to the fig tree.</td>
+        <td class="english">If you have faith in your hearts, you can move mountains.</td>
         <td class="arabic">فاذا كان فى قلوبكم ايمان لنقلتم هذا الجبل من مكانه.</td>
     </tr>
     <tr id="table_22_row_11" class="text">
-        <td class="english">Present the Lord with good fruits to save yourselves from the evil.</td>
+        <td class="english">Come all you ignorant and see what happened to the fig tree.</td>
         <td class="arabic">تعالوا وانظروا أيها الناس الجهال ما كان من شجرة التين هذه،</td>
     </tr>
     <tr id="table_22_row_12" class="text">
-        <td class="english">Repent all you who slumber so that you may receive forgiveness.</td>
+        <td class="english">Present the Lord with good fruits to save yourselves from the evil.</td>
         <td class="arabic">واصنعوا ثمراً صالحاً للرب لكى تخلصوا من الشرير.</td>
     </tr>
     <tr id="table_22_row_13" class="text">
-        <td class="english">Clean your faces with tears because tears wipe out sins.</td>
+        <td class="english">Repent all you who slumber so that you may receive forgiveness.</td>
         <td class="arabic">واصنعوا توبة أيها الكسالى، لكى تنالوا الغفران.</td>
     </tr>
     <tr id="table_22_row_14" class="text">
-        <td class="english">Light your lamps with virtues so that their light may shine upon you in the Day of Judgment.</td>
+        <td class="english">Clean your faces with tears because tears wipe out sins.</td>
         <td class="arabic">واغسلوا وجوهكم بدموع غزيرة، فان الدموع تمحو الآثام.</td>
     </tr>
     <tr id="table_22_row_15" class="text">
-        <td class="english">Share the suffering with your brother and remember how the Lord suffered for our salvation.</td>
+        <td class="english">Light your lamps with virtues so that their light may shine upon you in the Day of Judgment.</td>
         <td class="arabic">واوقدوا مصابيحكم بالفضائل، لتضئ عليكم فى الحكم.</td>
     </tr>
     <tr id="table_22_row_16" class="text">
-        <td class="english"></td>
+        <td class="english">Share the suffering with your brother and remember how the Lord suffered for our salvation.</td>
         <td class="arabic">تألم عن أخيك وأنظر الرب كيف تألم عنا حتى خلصنا.</td>
     </tr>
 </table>

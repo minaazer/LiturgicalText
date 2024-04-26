@@ -18,7 +18,7 @@ ${hourIntroHtml}
 <div class="section" id="section_2" title="Coptic Prophecies">
     <table id="table_2" title="Coptic Prophecies">
     <caption class="caption" id="caption_table_2">Coptic Prophecies
-    <span class="arabic-caption">النبوات قبطي</span></caption>
+    <span class="arabic-caption">النبوات قبطياً</span></caption>
         <tr id="table_2_row_3" class="intro">
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲁⲙⲟⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ (ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ):</td>
         </tr>
@@ -40,7 +40,7 @@ ${hourIntroHtml}
     <span class="arabic-caption">النبوة الأولي<br>(عاموس 4: 4 الخ)</span></caption>
     <tr id="table_3_row_1" class="intro">
         <td class="english">A reading from Amos the prophet. May his blessings be with us. Amen.</td>
-        <td class="arabic">من عاموس النبى بركته المقدسة تكون معنا، آمين.</td>
+        <td class="arabic">من عاموس النبى بركته تكون معنا، آمين.</td>
     </tr>
     <tr id="table_3_row_4" class="text">
         <td class="english">"Come to Bethel and transgress, At Gilgal multiply transgression; Bring your sacrifices every morning, Your tithes every three days.</td>
@@ -97,11 +97,11 @@ ${paschalPraiseHtml}
 
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_6" title="Coptic Psalm">
-        <caption class="caption" id="caption_table_6">Coptic Psalm<br>(102:1,8)
-        <span class="arabic-caption">المزمور قبطي<br>(102: 1 و 8)</span></caption>
+        <caption class="caption" id="caption_table_6">Coptic Psalm<br>(55:21,1)
+        <span class="arabic-caption">المزمور قبطياً<br>(54: 18 ، 1)</span></caption>
 
         <tr id="table_6_row_0" class="intro">
-            <td class="english">A psalm of David</td>
+            <td class="english">A Psalm of David</td>
             <td class="coptic">Ⲯⲁⲗⲙⲟⲥ ⲧⲱ Ⲇⲁⲩⲓⲇ</td>
             <td class="arabic">مزمور لداود</td>
         </tr>
@@ -133,8 +133,8 @@ ${paschalPraiseHtml}
     </table>
     ${copticGospelIntroHtml}
     <table id="table_8" title="Coptic Gospel">
-        <caption class="caption" id="caption_table_8">Coptic Gospels
-        <span class="arabic-caption">الإناجيل قبطي</span></caption>
+        <caption class="caption" id="caption_table_8">Coptic Gospel
+        <span class="arabic-caption">الإنجيل قبطياً</span></caption>
         <tr id="table_8_row_0" class="priest">
             <td class="english">A chapter according to St. Mark,</td>
             <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲣⲕⲟⲛ ⲁⲅⲓⲟⲩ.</td>
@@ -159,26 +159,22 @@ ${paschalPraiseHtml}
 
 
 
-<div class="section" id="section_7" title="Engligh and Arabic Psalm & Gospel">
+<div class="section" id="section_7" title="English and Arabic Psalm & Gospel">
 
 <table id="table_9" title="Psalm">
     <caption id="caption_table_9" class="caption">Psalm<br>(55:21,1)
-    <span class="arabic-caption">المزمور<br>(٥٥ : ٢١ و ١)</span></caption>
+    <span class="arabic-caption">المزمور<br>(54: 18 ، 1)</span></caption>
     <tr id="table_9_row_1" class="intro">
         <td class="english">From the Psalms of David the Prophet, may his blessing be with us, Amen.</td>
-        <td class="arabic">من مزامير أبينا داود النبى بركته المقدسة تكون معنا، آمين.</td>
+        <td class="arabic">من مزامير أبينا داود النبى بركته تكون معنا، آمين.</td>
     </tr>
     <tr id="table_9_row_4" class="text">
-        <td class="english">His words were softer than oil, 
-Yet they were drawn swords.</td>
-        <td class="arabic">كلامه الين من الدهن
-و هو نصال.</td>
+        <td class="english">His words were softer than oil, Yet they were drawn swords.</td>
+        <td class="arabic">كلامه الين من الدهن و هو نصال.</td>
     </tr>
     <tr id="table_9_row_5" class="text">
-        <td class="english">Give ear to my prayer, O God, 
-And do not hide Yourself from my supplication.</td>
-        <td class="arabic">انصت يا الله لصلاتى. 
-ولا تغفل عن تضرعى.</td>
+        <td class="english">Give ear to my prayer, O God, And do not hide Yourself from my supplication.</td>
+        <td class="arabic">انصت يا الله لصلاتى. ولا تغفل عن تضرعى.</td>
     </tr>
     <tr id="table_9_row_7" class="intro">
         <td class="english">Alleluia.</td>
@@ -202,7 +198,7 @@ And do not hide Yourself from my supplication.</td>
         <td class="arabic">وَكَانَ قَوْمٌ مُغْتَاظِينَ فِي أَنْفُسِهِمْ فَقَالُوا: «لِمَاذَا كَانَ تَلَفُ الطِّيبِ هَذَا؟</td>
     </tr>
     <tr id="table_10_row_6" class="text">
-        <td class="english">" For it might have been sold for more than three hundred denarii and given to the poor." And they criticized her sharply.</td>
+        <td class="english">For it might have been sold for more than three hundred denarii and given to the poor." And they criticized her sharply.</td>
         <td class="arabic">لأَنَّهُ كَانَ يُمْكِنُ أَنْ يُبَاعَ هَذَا بِأَكْثَرَ مِنْ ثَلاَثِمِئَةِ دِينَارٍ وَيُعْطَى لِلْفُقَرَاءِ». وَكَانُوا يُؤَنِّبُونَهَا.</td>
     </tr>
     <tr id="table_10_row_7" class="text">
@@ -218,7 +214,7 @@ And do not hide Yourself from my supplication.</td>
         <td class="arabic">عَمِلَتْ مَا عِنْدَهَا. قَدْ سَبَقَتْ وَدَهَنَتْ بِالطِّيبِ جَسَدِي لِلتَّكْفِينِ.</td>
     </tr>
     <tr id="table_10_row_10" class="text">
-        <td class="english">" Assuredly, I say to you, wherever this gospel is preached in the whole world, what this woman has done will also be told as a memorial to her."</td>
+        <td class="english">Assuredly, I say to you, wherever this gospel is preached in the whole world, what this woman has done will also be told as a memorial to her."</td>
         <td class="arabic">اَلْحَقَّ أَقُولُ لَكُمْ: حَيْثُمَا يُكْرَزْ بِهَذَا الإِنْجِيلِ فِي كُلِّ الْعَالَمِ يُخْبَرْ أَيْضاً بِمَا فَعَلَتْهُ هَذِهِ تَذْكَاراً لَهَا».</td>
     </tr>
     <tr id="table_10_row_11" class="text">
@@ -230,8 +226,8 @@ And do not hide Yourself from my supplication.</td>
         <td class="arabic">وَلَمَّا سَمِعُوا فَرِحُوا وَوَعَدُوهُ أَنْ يُعْطُوهُ فِضَّةً. وَكَانَ يَطْلُبُ كَيْفَ يُسَلِّمُهُ فِي فُرْصَةٍ مُوافِقَةٍ.</td>
     </tr>
     <tr id="table_10_row_13" class="text">
-        <td class="english">Bow down before the Holy Gospel.</td>
-        <td class="arabic">أسجدوا للإنجيل المقدس.</td>
+        <td class="english"><i>Bow down before the Holy Gospel.</i></td>
+        <td class="arabic"><i>أسجدوا للإنجيل المقدس.</i></td>
     </tr>
     <tr id="table_10_row_15" class="intro">
         <td class="english">Glory be to God forever.</td>
@@ -251,7 +247,7 @@ ${nighttimeExpositionIntroHtml}
     <span class="arabic-caption">الطرح</span></caption>
     <tr id="table_12_row_1" class="intro">
         <td class="english">The exposition of the THIRD Hour of the EVE of COVENANT THURSDAY of Holy Pascha. May its blessings be with us. Amen.</td>
-        <td class="arabic">طرح الساعة الثالثة من ليلة الخميس العهد من البصخة المقدسة بركتها علينا. آمين.</td>
+        <td class="arabic">طرح الساعة الثالثة من ليلة الخميس العهد من البصخة المقدسة بركتها تكون معنا. أمين.</td>
     </tr>
     <tr id="table_12_row_4" class="text">
         <td class="english">The woman poured the precious oil over the Lord’s feet and wiped them with her hair because of her great love.</td>

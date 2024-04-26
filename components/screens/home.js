@@ -1,7 +1,7 @@
 // screens/Home.js
 
 import React, { useEffect, useState } from 'react';
-import { ImageBackground, View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native';
+import { ImageBackground, View, Text, StyleSheet, TouchableOpacity, Image , Dimensions } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import backgroundImage from '../../assets/background.png';
 import glorificationImage from '../../assets/glorification.png';
@@ -12,9 +12,12 @@ import baptismImage from '../../assets/baptism.png';
 import weddingImage from '../../assets/wedding.png';
 import { ScrollView } from 'react-native-gesture-handler';
 
+const screenWidth = Dimensions.get('window').width;
+const screenHeight = Dimensions.get('window').height;
 
 const Home = () => {
   const navigation = useNavigation();
+
 
   return (
     <View style={styles.pageContainer}>
@@ -43,7 +46,7 @@ const Home = () => {
               </TouchableOpacity>
 
               <TouchableOpacity
-                style={[styles.iconContainer, { opacity: 0.5}]}
+                style={[styles.iconContainer]}
                 onPress={() => navigation.navigate('HolyWeek')}
               >
                 <Image source={holyWeekImage} style={styles.iconImage} />
@@ -52,14 +55,12 @@ const Home = () => {
             <View style={styles.iconRow}>
               <TouchableOpacity
                 style={[styles.iconContainer, { opacity: 0.5}]}
-              //onPress={() => navigation.navigate('Glorification2')}
               >
                 <Image source={baptismImage} style={styles.iconImage} />
               </TouchableOpacity>
 
               <TouchableOpacity
                 style={[styles.iconContainer, { opacity: 0.5}]}
-              //onPress={() => navigation.navigate('Glorification2')}
               >
                 <Image source={weddingImage} style={styles.iconImage} />
               </TouchableOpacity>
@@ -86,7 +87,7 @@ const styles = StyleSheet.create({
     height: '100%',
   },
   pageHeader: {
-    fontSize: 40,
+    fontSize: screenWidth * 0.05,
     fontFamily: 'Garamond Bold',
     textAlign: 'center',
     color: '#003060',
@@ -114,7 +115,7 @@ const styles = StyleSheet.create({
   },
 
   booksContainer: {
-    flex: 3.5,
+    flex: 2.5,
     marginLeft: -20,
     justifyContent: 'center',
     alignItems: 'center', // adjusted from 'flex-start'
@@ -125,10 +126,10 @@ const styles = StyleSheet.create({
   },
 
   iconContainer: {
-    width: 150,
-    height: 150,
-    justifyContent: 'center',
-    alignItems: 'center',
+    flex:1,
+    justifyContent: 'space-evenly',
+    alignItems: 'space-evenly',
+    alignContent: 'space-evenly',
     margin: 0,
     padding: 0,
     borderColor: '#ccc',
@@ -138,14 +139,16 @@ const styles = StyleSheet.create({
   iconRow: {
     flexDirection: 'row',
     justifyContent: 'space-evenly',
-    alignItems: 'center',
-    padding: 0,
+    flexWrap: 'wrap',
+    alignItems: 'space-evenly',
+    alignContent: 'space-evenly',
+    padding: 10,
     width: '100%',
   },
 
   iconImage: {
-    width: 140, // adjusted from 200
-    height: 140, // adjusted from 200
+    width: screenWidth * 0.16, // adjusted from 200
+    height: screenWidth * 0.16, // adjusted from 200
     resizeMode: 'contain',
     margin: 0,
     padding: 0,

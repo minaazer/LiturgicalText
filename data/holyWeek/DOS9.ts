@@ -1,10 +1,13 @@
-import {hourIntro, paschalPraise1 , copticGospelIntro , cross} from "../repeatedPrayers";
+import {hourIntro, paschalPraise1 , copticGospelIntro , daytimeExpositionIntro , expositionConclusion , cross} from "../repeatedPrayers";
 
 export const DOS9 = () => {
-    const hourIntroHtml = hourIntro("NINTH","التاسعة","DAY of Palm Sunday","يوم أحد الشعانين");
+    const hourIntroHtml = hourIntro("NINTH","التاسعة","DAY of HOSANNA Sunday","يوم أحد الشعانين");
 
-    const paschalPraiseHtml = paschalPraise1("4","5","6","NINTH","التاسعة","DAY of Palm Sunday","يوم أحد الشعانين");
+    const paschalPraiseHtml = paschalPraise1("4","5","6","NINTH","التاسعة","DAY of HOSANNA Sunday","يوم أحد الشعانين");
     const copticGospelIntroHtml = copticGospelIntro("8");
+    const daytimeExpositionIntroHtml = daytimeExpositionIntro("12");
+    const expositionConclusionHtml = expositionConclusion("14");
+
 
 
 return `
@@ -14,11 +17,10 @@ ${hourIntroHtml}
 <div class="section" id="section_2" title="Coptic Prophecies">
     <table id="table_2" title="Coptic Prophecies">
         <caption class="caption" id="caption_table_2">Coptic Prophecies
-        <span class="arabic-caption">النبوات قبطي</span></caption>
+        <span class="arabic-caption">النبوات قبطياً</span></caption>
 
         <tr id="table_2_row_3" class="intro">
-            <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ ̀ⲑⲣⲓⲛⲟⲓ ̀ⲛⲧⲉ Ⲓⲉⲣⲉⲙⲓⲁⲥ ⲡⲓ̀ⲡⲣⲟⲫⲏⲧⲏⲥ: ̀ⲉⲣⲉⲡⲉϥ̀ⲥⲙⲟⲩ ̀ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ̀ⲁⲙⲏⲛ
-                (ⲉϥϫⲱ ̀ⲙⲙⲟⲥ):</td>
+            <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ ̀ⲑⲣⲓⲛⲟⲓ ̀ⲛⲧⲉ Ⲓⲉⲣⲉⲙⲓⲁⲥ ⲡⲓ̀ⲡⲣⲟⲫⲏⲧⲏⲥ: ̀ⲉⲣⲉⲡⲉϥ̀ⲥⲙⲟⲩ ̀ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ̀ⲁⲙⲏⲛ (ⲉϥϫⲱ ̀ⲙⲙⲟⲥ):</td>
         </tr>
         <tr id="table_2_row_4" class="text">
             <td class="coptic">Ⲁⲥϣⲱⲡⲓ ⲇⲉ ⲙⲉⲛⲉⲛⲥⲁ ̀ⲑⲣⲟⲩⲉⲣ ̀ⲭⲙⲁⲗⲱⲧⲉⲩⲓⲛ ̀ⲙⲡⲓⲒ̅ⲥ̅ⲗ ⲟⲩⲟϩ ̀Ⲓ̅ⲗ̅ⲏ̅ⲙ ̀ⲛⲧⲟⲩϣⲟⲣⲥ ⲁϥϩⲉⲙⲥⲓ
@@ -54,7 +56,7 @@ ${hourIntroHtml}
         </tr>
         <tr id="table_3_row_1" class="text">
             <td class="english">It came to pass after the captivity of Israel and the destruction of Jerusalem that Jeremiah wept on Jerusalem and said: How lonely sits the city That was full of people! How like a widow is she, Who was great among the nations! The princess among the provinces Has become a slave!</td>
-            <td class="arabic">وكان بعد سبى إسرائيل وخراب أورشليم. أن أرميا جلس باكياً وناح على أورشليم بهذا النوح وقال: "كَيْفَ جَلَسَتْ وَحْدَهَا الْمَدِينَةُ الْكَثِيرَةُ الشَّعْبِ؟ كَيْفَ صَارَتْ كَأَرْمَلَةٍ الْعَظِيمَةُ فِي الأُمَمِ؟ السَّيِّدَةُ في الْبُلْدَانِ صَارَتْ تَحْتَ الْجِزْيَةِ!</td>
+            <td class="arabic">وكان بعد سبى إسرائيل وخراب أورشليم أن أرميا جلس باكياً وناح على أورشليم بهذا النوح وقال: "كَيْفَ جَلَسَتْ وَحْدَهَا الْمَدِينَةُ الْكَثِيرَةُ الشَّعْبِ؟ كَيْفَ صَارَتْ كَأَرْمَلَةٍ الْعَظِيمَةُ فِي الأُمَمِ؟ السَّيِّدَةُ في الْبُلْدَانِ صَارَتْ تَحْتَ الْجِزْيَةِ!</td>
         </tr>
         <tr id="table_3_row_2" class="text">
             <td class="english">She weeps bitterly in the night, Her tears are on her cheeks; Among all her lovers She has none to comfort her. All her friends have dealt treacherously with her; They have become her enemies.</td>
@@ -133,34 +135,52 @@ ${paschalPraiseHtml}
 
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_7" title="Coptic Psalm">
-        <caption class="caption" id="caption_table_7">Coptic Psalm<br>(8:2,1)
-        <span class="arabic-caption">المزمور قبطي<br>(8: 2,1)</span></caption>
+        <caption class="caption" id="caption_table_7">Coptic Psalm<br>(8:2,3)
+        <span class="arabic-caption">المزمور قبطياً<br>(8: 2, 3)</span></caption>
         <tr id="table_7_row_0" class="intro">
-            <td class="english">A psalm of David</td>
+            <td class="english">A Psalm of David</td>
             <td class="coptic">Ⲯⲁⲗⲙⲟⲥ ⲧⲱ Ⲇⲁⲩⲓⲇ</td>
             <td class="arabic">مزمور لداود</td>
         </tr>
         <tr id="table_7_row_1" class="text">
-            <td class="english">Out of the mouth of babes and nursing infants You have ordained strength, O
-                Lord, our Lord, How excellent is Your name in all the earth. Alleluia</td>
-            <td class="coptic">̀Ⲉⲃⲟⲗϧⲉⲛ ⲣⲱⲟⲩ ̀ⲛϩⲁⲛⲕⲟⲩϫⲓ ̀ⲛ̀ⲁⲗⲱⲟⲩ̀ⲓ : ⲛⲉⲙ ⲛⲏⲉⲑⲟⲩⲉⲙϭⲓ ⲁⲕⲥⲉⲃⲧⲉ ⲡⲓ̀ⲥⲙⲟⲩ : ̀Ⲡ⳪ ⲡⲉⲛ⳪
-                ̀ⲙ̀ⲫⲣⲏϯ ̀ⲛⲟⲩ ̀ϣⲫⲏⲣⲓ : ⲁϥϣⲱⲡⲓ ̀ⲛϫⲉ ⲡⲉⲕⲣⲁⲛ ϩⲓϫⲉⲛ ̀ⲡⲕⲁϩⲓ ⲧⲏⲣϥ. ̅ⲁ̅ⲗ.</td>
-            <td class="arabic">من أفواه الاطفال والرضعان هيأت سبحاً. أيها الرب ربنا مثل عجب صار اسمك على الأرض
-                كلها. الليلويا.</td>
+            <td class="english">Out of the mouth of babes and nursing infants You have ordained strength,</td>
+            <td class="coptic">̀Ⲉⲃⲟⲗϧⲉⲛ ⲣⲱⲟⲩ ⲛϩ̀ⲁⲛⲕⲟⲩϫⲓ ⲛ̀ⲁ̀ⲗⲱⲟⲩⲓ̀ ⲛⲉⲙ ⲛⲏⲉⲑⲟⲩⲉⲙϭⲓ ⲁⲕⲥⲉⲃⲧⲉ ⲡⲓⲥ̀ⲙⲟⲩ:</td>
+            <td class="arabic">من أفوه الأطفال والرضعان هيأت سبحاً،</td>
         </tr>
+        <tr id="table_7_row_2" class="text">
+            <td class="english">Because of Your enemies, that You may silence the enemy and the avenger.</td>
+            <td class="coptic">ⲉⲑⲃⲉ ⲛⲉⲕϫⲁϫⲓ ⲉ̀ⲡ̀ϫⲓⲛϯⲟⲩⲱ̀ ⲛ̀ⲟⲩϫⲁϫⲓ ⲛⲉⲙ ⲟⲩⲣⲉϥϭⲓ ⲙ̀ⲡ̀ϣⲓϣ.</td>
+            <td class="arabic">من أجل أعدائك لتهد عدواً ومنتقماً،</td>
+        </tr>
+        <tr id="table_7_row_3" class="text">
+            <td class="english">When I consider Your heavens, the work of Your fingers,</td>
+            <td class="coptic">Ϫⲉ ϯⲛⲁⲛⲁⲩ ⲉ̀ⲛⲓ ⲫⲏⲟⲩⲓ̀ ⲛⲓ̀ϩⲃⲏⲟⲩⲓ̀ ⲛ̀ⲧⲉⲛⲉⲕⲧⲏⲃ:</td>
+            <td class="arabic">لأنى أرى السموات أعمال أصابعك</td>
+        </tr>
+        <tr id="table_7_row_4" class="text">
+            <td class="english">The moon and the stars, which You have ordained,</td>
+            <td class="coptic">ⲡⲓⲓⲟϩ ⲛⲉⲙ ⲛⲓⲥⲓⲟⲩ ⲛ̀ⲑⲟⲕ ⲁⲕϩⲓⲥⲉⲛϯ ⲙ̀ⲙⲱⲟⲩ:</td>
+            <td class="arabic">القمر والنجوم أنت أسستها،</td>
+        </tr>
+        <tr id="table_7_row_5" class="intro">
+            <td class="english">Alleluia.</td>
+            <td class="coptic">Ⲁ̅Ⲗ̅</td>
+            <td class="arabic">الليلويا</td>
+        </tr>
+
     </table>
     ${copticGospelIntroHtml}
     <table id="table_9" title="Coptic Gospel">
         <caption class="caption" id="caption_table_9">Coptic Gospel<br>(Matthew 21:10-17)
-        <span class="arabic-caption">الأنجيل قبطي<br>(متى 21: 10-17)</span></caption>
+        <span class="arabic-caption">الأنجيل قبطياً<br>(متى 21: 10-17)</span></caption>
         <tr id="table_9_row_0" class="priest">
             <td class="english">A chapter according to St. Matthew,</td>
             <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ̀ⲉⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲱⲛ ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">فصل من إنجيل معلمنا مار متى</td>
         </tr>
-        <tr id="table_41_row_1" class="intro">
+        <tr id="table_9_row_1" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓ̀ⲉ</td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_9_row_2" class="text">
@@ -174,23 +194,27 @@ ${paschalPraiseHtml}
 
         <tr id="table_9_row_6" class="intro">
         <td class="english">Glory be to God forever.</td>
-        <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓ̀ⲉ</td>
+        <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ</td>
         <td class="arabic">والمجد لله دائما.</td>
     </tr>
     </table>
 </div>
-<div class="section" id="section_7" title="Engligh and Arabic Psalm & Gospel">
+<div class="section" id="section_7" title="English and Arabic Psalm & Gospel">
     <table id="table_10" title="Psalm">
-        <caption class="caption" id="caption_table_10">Psalm<br>(8: 2,1)
-        <span class="arabic-caption>المزمور<br>(8: 2,1)</span></caption>
+        <caption class="caption" id="caption_table_10">Psalm<br>(8: 2,3)
+        <span class="arabic-caption">المزمور<br>(8: 2,3)</span></caption>
         <tr id="table_10_row_0" class="intro">
             <td class="english">From the Psalms of our teacher David the prophet. May his blessing be with us. Amen.</td>
             <td class="arabic">من مزامير معلمنا داود النبي، بركته تكون معنا، آمين.</td>
         </tr>
 
         <tr id="table_10_row_1" class="text">
-            <td class="english">Out of the mouth of babes and nursing infants You have ordained strength, O Lord, our Lord, How excellent is Your name in all the earth.</td>
-            <td class="arabic">من أفواه الاطفال والرضعان هيأت سبحاً. أيها الرب ربنا مثل عجب صار اسمك على الأرض كلها.</td>
+            <td class="english">Out of the mouth of babes and nursing infants You have ordained strength, because of Your enemies, that You may silence the enemy and the avenger.</td>
+            <td class="arabic">من افواه الأطفال والرضعان هيأت سبحا. من أجل اعدائك لتهد عدوا ومنتقما. </td>
+        </tr>
+        <tr id="table_10_row_2" class="text">
+            <td class="english">When I consider Your heavens, the work of Your fingers, The moon and the stars, which You have ordained,<td>
+            <td class="arabic">لأنى أرى السموات اعمال يديك. القمر والنجوم أنت أسستها،</td>
         </tr>
         <tr id="table_10_row_2" class="intro">
             <td class="english">Alleluia.<td>
@@ -199,13 +223,13 @@ ${paschalPraiseHtml}
     </table>
     <table id="table_11" title="Gospel">
         <caption class="caption" id="caption_table_11">Gospel<br>(Matthew 21: 10-17)
-        <span class="arabic-caption">الإنجيل<br>(17-10 :متى 21)</span></caption>
+        <span class="arabic-caption">الإنجيل<br>(متى21 : 10-17)</span></caption>
         <tr id="table_11_row_0" class="intro">
             <td class="english">May God have mercy and compassion upon us, and make us worthy to hear Your Holy Gospel. A chapter according to our teacher St.  Matthew the evangelist. May his blessings be with us. Amen.</td>
             <td class="arabic">اللهم تراءف علينا و أرحمنا و أجعلنا مستحقين لسماع إنجيلك المقدس، فصل من إنجيل معلمنا متى البشير، بركاته تكون معنا أمين.</td>
         </tr>
 
-        <tr id="table_10_row_1" class="text">
+        <tr id="table_11_row_1" class="text">
             <td class="english">And when He had come into Jerusalem, all the city was moved, saying, “Who is this?”</td>
             <td class="arabic">وَلَمَّا دَخَلَ أُورُشَلِيمَ ارْتَجَّتِ الْمَدِينَةُ كُلُّهَا قَائِلَةً: «مَنْ هَذَا؟» </td>
         </tr>
@@ -234,14 +258,71 @@ ${paschalPraiseHtml}
             <td class="arabic">وَقَالُوا لَهُ: «أَتَسْمَعُ مَا يَقُولُ هَؤُلاَءِ؟» فَقَالَ لَهُمْ يَسُوعُ: «نَعَمْ! أَمَا قَرَأْتُمْ قَطُّ: مِنْ أَفْوَاهِ الأَطْفَالِ وَالرُّضَّعِ هَيَّأْتَ تَسْبِيحاً؟».</td>
         </tr>
         <tr id="table_11_row_8" class="text">
-            <td class="english">Then He left them and went out of the city to Bethany, and He lodged there.<br>Bow down before the Holy Gospel.</td>
-            <td class="arabic">ثُمَّ تَرَكَهُمْ وَخَرَجَ خَارِجَ الْمَدِينَةِ إِلَى بَيْتِ عَنْيَا وَبَاتَ هُنَاكَ.<br>أسجدوا للإنجيل المقدس.</td>
+            <td class="english">Then He left them and went out of the city to Bethany, and He lodged there.<br><i>Bow down before the Holy Gospel.</i></td>
+            <td class="arabic">ثُمَّ تَرَكَهُمْ وَخَرَجَ خَارِجَ الْمَدِينَةِ إِلَى بَيْتِ عَنْيَا وَبَاتَ هُنَاكَ.<br><i>أسجدوا للإنجيل المقدس.</i></td>
         </tr>
         <tr id="table_11_row_6" class="intro">
             <td class="english">Glory be to God, forever.</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
     </table>
+</div>
+
+
+<div class="section" id="section_8" title="Exposition">
+${daytimeExpositionIntroHtml}
+
+<table id="table_13" title="Exposition">
+    <caption id="caption_table_13" class="caption">Exposition
+<span class="arabic-caption">الطرح</span></caption>
+    <tr id="table_13_row_1" class="intro">
+        <td class="english">The Exposition of The NINTH Hour of the DAY of HOSANNA SUNDAY of Holy Pascha. May its blessings be with us. Amen.</td>
+        <td class="arabic">طرح الساعة التاسعة من يوم أحد الشعانين من البصخة المقدسة بركتها تكون معنا. آمين.</td>
+    </tr>
+    <tr id="table_13_row_4" class="text">
+        <td class="english">Come all of you today, O blessed people who love the church,</td>
+        <td class="arabic">هَلُمَّ كُلُّكُمُ اليَومَ أَيُّها الشَّعبُ المُبارَكُ المُحِبُّ للكنيسة،</td>
+    </tr>
+    <tr id="table_13_row_5" class="text">
+        <td class="english">to glorify the one God who accepted suffering for us this Friday for our salvation.</td>
+        <td class="arabic">لتمجد الله الواحد الذي قَبلَ الآلام عنا في هذه الجمعة لأجل خلاصنا.</td>
+    </tr>
+    <tr id="table_13_row_7" class="text">
+        <td class="english">On this day the Lord entered Jerusalem and His disciples with Him, and when He entered Jerusalem the whole city was stirred up, saying: "Who is this?" </td>
+        <td class="arabic">في هذا اليوم دخل الربُّ إلى أورشليم وتلاميذه معه، وما دَخَلَ أُورُشَلِيمَ ارْتَجَتِ الْمَدِينَةُ كُلُّهَا قَائِلةً: " مَنْ هَذَا ؟ " .</td>
+    </tr>
+    <tr id="table_13_row_8" class="text">
+        <td class="english">Then the crowds said: "This is Jesus the prophet who is from Nazareth of Galilee."</td>
+        <td class="arabic">فَقَالَتِ الْجُمُوعُ : " هَذَا هُو يَسُوعُ النَّبِيُّ الذي مِنْ نَاصِرَةِ الجَلِيل ".</td>
+    </tr>
+    <tr id="table_13_row_9" class="text">
+        <td class="english">The blind and the lame came to him in the temple and He healed them.</td>
+        <td class="arabic">وتَقَدَّمَ إِليهِ عُميٌّ وعُرْجٌ فِي الْهَيْكَلِ فَشَفَاهُمْ. </td>
+    </tr>
+    <tr id="table_13_row_10" class="text">
+        <td class="english">When the chief priests and the scribes saw the wonders that He had done, and the children crying out in the temple and saying: "Hosanna to the Son of David!"</td>
+        <td class="arabic">فَلَمَّا رأى رؤساء الكهنة والكَتَبَةُ العَجَائِبَ التي صَنَعَها ، والأولادَ يَصِيحُونَ فِي الْهَيْكَلِ ويقولون: " أوصنا لابن داود " ،</td>
+    </tr>
+    <tr id="table_13_row_11" class="text">
+        <td class="english">they were indignant. And they said to Him: "Do you not hear what these people are saying?"</td>
+        <td class="arabic">تَذمَّروا. وقَالُوا لَهُ: " أَمَا تَسْمَعُ مَا يَقُولُهُ هؤلاءِ؟ "</td>
+    </tr>
+    <tr id="table_13_row_12" class="text">
+        <td class="english">Then Jesus said to them: "Yes! Have you never read in the scriptures that: 'Out of the mouth of babes and sucklings You have ordained praise?'"</td>
+        <td class="arabic">فَقَالَ لَهُمْ يَسُوعُ: " نَعَمْ! أَمَا قَرَأْتُمْ قَطُّ فِي الكُتب أَنَّهُ: مِنْ أَفْوَاهِ الأَطْفَالِ والرُّضَّعَانِ هَيَّأت سُبْحاً ؟ ". </td>
+    </tr>
+    <tr id="table_13_row_13" class="text">
+        <td class="english">Then He left them and went out out of the city to Bethany and lodged there.</td>
+        <td class="arabic">ثُمَّ تَرَكَهُمْ وَخَرَجَ خَارِجَ المَدِينَةِ إِلى بَيْتِ عَنْيَا وَبَاتَ هُنَاكَ.</td>
+    </tr>
+    <tr id="table_13_row_14" class="text">
+        <td class="english">Then when the stubborn Jews heard this, they all consulted together so that they might kill Him.</td>
+        <td class="arabic">فلما سمع هذا اليهود المعاندون، تشاوروا جميعاً لكي يقتلوه.</td>
+    </tr>
+</table>
+
+${expositionConclusionHtml}
+
 </div>
         `;
 };

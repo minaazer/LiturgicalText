@@ -1,9 +1,9 @@
 import { hourIntro, paschalPraise3 , copticGospelIntro, daytimeExpositionIntro, expositionConclusion, daytimeLitanies, evnotiNaiNanGreat, endOfServiceHymn , cross, candle, faiEtafEnf } from "../repeatedPrayers";
 
 export const DOF6 = () => {
-    const hourIntroHtml = hourIntro("SIXTH","السادسة","DAY of GOOD FRIDAY","يوم الجمعة العظيمة");
-    const paschalPraiseHtml = paschalPraise3("4","7","8","SIXTH","السادسة","DAY of GOOD FRIDAY","يوم الجمعة العظيمة");
-    const faiEtafEnfHtml = faiEtafEnf("11");
+    const hourIntroHtml = hourIntro("SIXTH","السادسة","DAY of GREAT FRIDAY","يوم الجمعة العظيمة");
+    const paschalPraiseHtml = paschalPraise3("4","7","8","SIXTH","السادسة","DAY of GREAT FRIDAY","يوم الجمعة العظيمة");
+    const faiEtafEnfHtml = faiEtafEnf("12");
     const copticGospelIntroHtml = copticGospelIntro("18");
     const daytimeExpositionIntroHtml = daytimeExpositionIntro("26");
     const expositionConclusionHtml = expositionConclusion("28");
@@ -20,12 +20,12 @@ ${hourIntroHtml}
 <div class="section" id="section_2" title="Coptic Prophecies">
     <table id="table_2" title="Coptic Prophecies">
     <caption class="caption" id="caption_table_2">Coptic Prophecies
-    <span class="arabic-caption">النبوات قبطي</span></caption>
+    <span class="arabic-caption">النبوات قبطياً</span></caption>
         <tr id="table_2_row_3" class="intro">
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ ⲡ̀ϫⲱⲙ ⲛ̀ⲧⲉ ⲡⲓⲁ̀ⲣⲓⲑⲙⲟⲥ ⲛ̀ⲧⲉ Ⲙⲱ̀̀ⲩⲥⲏⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ (ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ)</td>
         </tr>
         <tr id="table_2_row_4" class="text">
-            <td class="coptic">Ⲟⲩⲟϩ ⲉ̀ⲧⲁϥⲥⲱⲧⲉⲙ ⲛ̀ϫⲉ ⲡⲓⲬⲁⲛⲁⲛⲉⲟⲥ ⲡ̀ⲟⲩⲣⲟ ⲛ̀Ⲇⲁⲣⲁⲇ ⲫⲏⲉⲧϣⲟⲡ ϩⲓ ⲡ̀ϣⲁϥⲉ : ϫⲉ ⲁϥⲓ̀ ⲛ̀ϫⲉ ⲡⲒ̅ⲥ̅ⲗ ⲉ̀ⲫ̀ⲙⲱⲓⲧ ⲛ̀Ⲁⲑⲁⲣⲓⲙ : ⲟⲩⲟϩ ⲁϥⲃⲱⲧⲥ ⲉ̀ⲡ̀Ⲓ̅ⲥ̅ⲗ ⲟⲩⲟϩ ⲁⲩⲱⲗⲓ ⲛ̀ⲟⲩⲉⲭⲙⲁⲗⲱⲥⲓⲁ̀ ⲛ̀ϧⲏⲧⲟⲩ.</td>
+            <td class="coptic">Ⲟⲩⲟϩ ⲉ̀ⲧⲁϥⲥⲱⲧⲉⲙ ⲛ̀ϫⲉ ⲡⲓⲬⲁⲛⲁⲛⲉⲟⲥ ⲡ̀ⲟⲩⲣⲟ ⲛ̀Ⲇⲁⲣⲁⲇ ⲫⲏⲉⲧϣⲟⲡ ϩⲓ ⲡ̀ϣⲁϥⲉ : ϫⲉ ⲁϥⲓ̀ ⲛ̀ϫⲉ ⲡⲓⲒ̀ⲥⲣⲁⲏⲗ ⲉ̀ⲫ̀ⲙⲱⲓⲧ ⲛ̀Ⲁⲑⲁⲣⲓⲙ : ⲟⲩⲟϩ ⲁϥⲃⲱⲧⲥ ⲉ̀ⲡ̀ⲓⲒ̀ⲥⲣⲁⲏⲗ ⲟⲩⲟϩ ⲁⲩⲱⲗⲓ ⲛ̀ⲟⲩⲉⲭⲙⲁⲗⲱⲥⲓⲁ̀ ⲛ̀ϧⲏⲧⲟⲩ.</td>
         </tr>
         <tr id="table_2_row_5" class="intro">
             <td class="coptic">Ⲟⲩⲱ̀ⲟⲩ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ...</td>
@@ -34,7 +34,7 @@ ${hourIntroHtml}
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲏ̀ⲥⲁⲏ̀ⲁⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ (ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ)</td>
         </tr>
         <tr id="table_2_row_7" class="text">
-            <td class="coptic"> Ⲙ̀ⲫⲣⲓⲓϯ ⲛ̀ⲟⲩⲉ̀ⲥⲱⲟⲩ ⲉ̀ⲁⲩⲉⲛϥ ⲉ̀ⲡ̀ϧⲟⲗϧⲉⲗ ⲛⲉⲙ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲟⲩϩⲓⲏⲃ ⲙ̀ⲡⲉⲙ̀ⲑⲟ ⲙ̀ⲫⲏⲉⲧϧⲱⲕ ⲙ̀ⲙⲟϥⲉϥⲟⲓ ⲛ̀ⲁⲧⲥ̀ⲙⲏ ⲡⲁⲓⲣⲏϯ ⲛ̀ϥⲟⲩⲱⲛ ⲛ̀ⲣⲱϥ ⲁⲛ</td>
+            <td class="coptic"> Ⲙ̀ⲫⲣⲏϯ ⲛ̀ⲟⲩⲉ̀ⲥⲱⲟⲩ ⲉ̀ⲁⲩⲉⲛϥ ⲉ̀ⲡ̀ϧⲟⲗϧⲉⲗ ⲛⲉⲙ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲟⲩϩⲓⲏⲃ ⲙ̀ⲡⲉⲙ̀ⲑⲟ ⲙ̀ⲫⲏⲉⲧϧⲱⲕ ⲙ̀ⲙⲟϥ ⲉϥⲟⲓ ⲛ̀ⲁⲧⲥ̀ⲙⲏ ⲡⲁⲓⲣⲏϯ ⲛ̀ϥⲟⲩⲱⲛ ⲛ̀ⲣⲱϥ ⲁⲛ</td>
         </tr>
         <tr id="table_2_row_8" class="intro">
             <td class="coptic">Ⲟⲩⲱ̀ⲟⲩ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ...</td>
@@ -258,7 +258,7 @@ ${hourIntroHtml}
 ${paschalPraiseHtml}
 
 <div class="section" id="section_5" title="Pauline">
-    <table id="table_9" title="Taishory">
+    <table id="table_9" title="Offering Incense Prayers">
         <caption class="caption" id="caption_table_9">Offering Incense Prayers
         <span class="arabic-caption">صلوات البخور</span></caption>
         <tr id="table_9_row_0" class="commentary">
@@ -270,91 +270,91 @@ ${paschalPraiseHtml}
             <td class="arabic">يصلي الكاهن الآتي باطنًا أثناء رفع البخور:</td>
         </tr>
     </table>
-    <table id="table_9.5" class="onePage"title="Incense Prayers">
-        <tr id="table_9.5_row_0" class="text">
+    <table id="table_10" class="onePage" title="Incense Prayers">
+        <tr id="table_10_row_0" class="text">
             <td class="english">${cross} We worship You, O Christ, and Your life-giving cross, that You were crucified on to deliver us from our sins.</td>
             <td class="arabic">${cross} نسجد لك أيها المسيح ولصليبك المحى الذى صلبت حتى خلصتنا من خطايانا.</td>
         </tr>
-        <tr id="table_9.5_row_3" class="text">
+        <tr id="table_10_row_3" class="text">
             <td class="english">${cross} O my Lord Jesus Christ, who was crucified on the cross, trample down Satan under our feet.</td>
             <td class="arabic">${cross} يا ربى يسوع المسيح يا من صلبت على الصليب أسحق الشيطان تحت أقدامنا.</td>
         </tr>
-        <tr id="table_9.5_row_4" class="text">
+        <tr id="table_10_row_4" class="text">
             <td class="english">${cross} Hail to the cross, that Christ our King was crucified on, to deliver us from our sins.</td>
             <td class="arabic">${cross} السلام للصليب الذي صلب عليه الملك المسيح حتى خلصنا من خطايانا. </td>
         </tr>
     </table>
     
-    <table id="table_10" title="Taishori">
-        <caption class="caption" id="caption_table_10"><span class="coptic-caption">Ⲧⲁⲓϣⲟⲩⲣⲏ</span></caption>
-        <tr id="table_10_row_0" class="text">
+    <table id="table_11" title="Taishori">
+        <caption class="caption" id="caption_table_11"><span class="coptic-caption">Ⲧⲁⲓϣⲟⲩⲣⲏ</span></caption>
+        <tr id="table_11_row_0" class="text">
             <td class="english">This censer of pure gold, bearing the aroma, is in the hands of Aaron the priest, offering up incense on the altar.</td>
-            <td class="coptic">Ⲧⲁⲓϣⲟⲩⲣⲏ ⲛ̀ⲛⲟⲩⲃ ⲛ̀ⲕⲁⲑⲁⲣⲟⲥ ⲉⲧϥⲁⲓ ϧⲁ ⲡⲓⲁ̀ⲣⲱⲙⲁⲧⲁ ⲉⲧ ϧⲉⲛ ⲛⲉⲛϫⲓϫ ⲛ̀Ⲁⲁ̀ⲣⲱⲛ ⲡⲓⲟⲩⲏⲃ ⲉϥⲧⲁⲗⲉ ⲟⲩⲥ̀ⲑⲟⲓⲛⲟⲩϥⲓ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ϫⲉⲛ ⲡⲓⲙⲁ ⲛ̀ⲉⲣϣⲱⲟⲩϣⲓ.</td>
+            <td class="coptic">Ⲧⲁⲓϣⲟⲩⲣⲏ ⲛ̀ⲛⲟⲩⲃ ⲛ̀ⲕⲁⲑⲁⲣⲟⲥ ⲉⲧϥⲁⲓ ϧⲁ ⲡⲓⲁ̀ⲣⲱⲙⲁⲧⲁ ⲉⲧϧⲉⲛ ⲛⲉⲛϫⲓϫ ⲛ̀Ⲁⲁ̀ⲣⲱⲛ ⲡⲓⲟⲩⲏⲃ ⲉϥⲧⲁⲗⲉ ⲟⲩⲥ̀ⲑⲟⲓⲛⲟⲩϥⲓ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ϫⲉⲛ ⲡⲓⲙⲁ ⲛ̀ⲉⲣϣⲱⲟⲩϣⲓ.</td>
             <td class="arabic"> هذه المجمرة الذهب النقى الحاملة العنبر التى فى يدى هرون الكاهن، يرفع بخوراً على  المذبح.</td>
         </tr>
     </table>
     ${faiEtafEnfHtml}
-    <table id="table_12" title="Pauline Introduction">
-        <caption class="caption" id="caption_table_12"><span class="coptic-caption">Ϯⲉ̀ⲡⲓⲥⲧⲟⲗⲏ</span></caption>
-        <tr id="table_12_row_0" class="text">
+    <table id="table_13" title="Pauline Introduction">
+        <caption class="caption" id="caption_table_13"><span class="coptic-caption">Ϯⲉ̀ⲡⲓⲥⲧⲟⲗⲏ</span></caption>
+        <tr id="table_13_row_0" class="text">
             <td class="english">The epistle of our teacher Paul, may his holy blessing be with us. Amen.</td>
             <td class="coptic">Ϯⲉ̀ⲡⲓⲥⲧⲟⲗⲏ ⲛ̀ⲧⲉ ⲡⲉⲛⲥⲁϧ Ⲡⲁⲩⲗⲟⲥ : ⲉ̀ⲣⲉ ⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ.</td>
             <td class="arabic">رسالة معلمنا بولس بركته المقدسة تكن معنا آمين.</td>
         </tr>
-        <tr id="table_12_row_1" class="text">
+        <tr id="table_13_row_1" class="text">
             <td class="english">Paul, a bondservant of Jesus Christ, called to be an apostle, separated to the gospel of God.</td>
             <td class="coptic">Ⲡⲁⲩⲗⲟⲥ ⲫ̀ⲃⲱⲕ ⲙ̀Ⲡⲉⲛ⳪ Ⲓ̅ⲏ̅ⲥ Ⲡ̅ⲭ̅ⲥ : ⲡⲓⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ ⲉⲧⲑⲁϩⲉⲙ : ⲫⲏⲉ̀ⲧⲁⲩⲑⲁϣϥ ⲉ̀ⲡⲓϩⲓϣⲉⲛⲛⲟⲩϥⲓ ⲛ̀ⲧⲉ Ⲫϯ.</td>
             <td class="arabic">من بولس عبد ربنا يسوع المسيح الرسول المدعوا   المفرز لبشارة الله.</td>
         </tr>
-        <tr id="table_12_row_2" class="text">
+        <tr id="table_13_row_2" class="text">
             <td class="english">But God forbid that I should boast except in the cross of our Lord Jesus Christ</td>
             <td class="coptic">Ⲁⲛⲟⲕ ⲇⲉ ⲛ̀ⲛⲉⲥϣⲱⲡⲓ ⲛⲏⲓ ⲛ̀ⲧⲁϣⲟⲩϣⲟⲩ ⲙ̀ⲙⲟⲓ ⲉ̀ⲃⲏⲗ ϧⲉⲛ ⲡⲓⲥ̀ⲧⲁⲩⲣⲟⲥ ⲛ̀ⲧⲉ Ⲡⲉⲛ⳪ Ⲓ̅ⲏ̅ⲥ Ⲡ̅ⲭ̅ⲥ </td>
             <td class="arabic"> وأما من جهتى فحاشا لي أن أفتخر إلا بصليب ربنا يسوع المسيح</td>
         </tr>
-        <tr id="table_12_row_3" class="text">
+        <tr id="table_13_row_3" class="text">
             <td class="english">May the Grace of God the Father be with you, Amen.</td>
             <td class="coptic">Ⲡⲓϩ̀ⲙⲟⲧ ⲅⲁⲣ ⲛⲉⲙⲱⲧⲉⲛ ⲧⲏⲣⲟⲩ ϫⲉ ⲁⲙⲏⲛ ⲉ̀ⲥⲉϣⲱⲡⲓ.</td>
             <td class="arabic">نعمة الله الآب تحل على جميعنا آمين.</td>
         </tr>
-        <tr id="table_12_row_4" class="text">
+        <tr id="table_13_row_4" class="text">
             <td class="english">The Grace of our Lord Jesus Christ be with your saintly spirit, my lord, the Honored father, the high priest, Papa Abba Tawadros.</td>
             <td class="coptic">Ⲡⲓϩ̀ⲙⲟⲧ ⲅⲁⲣ ⲙ̀Ⲡⲉⲛ⳪ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ ⲉϥⲉ̀ϣⲱⲡⲓ ⲛⲉⲙ ⲡⲉⲕⲁ̀ⲅⲓⲟⲛ ⲡ̀ⲛⲉⲩⲙⲁ ⲡⲁϭⲟⲓⲥ ⲛ̀ⲓⲱⲧ ⲉ̀ⲧⲧⲁⲓⲏⲟⲩⲧ ⲛ̀ⲁⲣⲭⲏⲉ̀ⲣⲉⲩⲥ Ⲡⲁⲡⲁ ⲁⲃⲃⲁ  Ⲧⲁⲱⲁⲇⲣⲟⲥ :</td>
             <td class="arabic">نعمة ربنا يسوع المسيح تكون مع روحك الطاهرة ياسيدى المكرم رئيس الكهنة البابا أنبا تواضروس.</td>
         </tr>
-        <tr id="table_12_row_5" class="text">
+        <tr id="table_13_row_5" class="text">
             <td class="english">May the clergy and all the people be safe in the Lord.  Amen. So be it.</td>
             <td class="coptic">Ⲙⲁⲣⲉ ⲡⲓⲕ̀ⲗⲏⲣⲟⲥ ⲛⲉⲙ ⲡⲓⲗⲁⲟⲥ ⲧⲏⲣϥ ⲟⲩϫⲁⲓ ϧⲉⲛ Ⲡ⳪: ϫⲉ ⲁⲙⲏⲛ. ⲉⲥⲉ̀ϣⲱⲡⲓ.</td>
             <td class="arabic">فليكن الاكليروس وكل الشعب معافين من الرب آمين. يكون.</td>
         </tr>
     </table>
-    <table id="table_13" title="Pauline Epistle">
-        <caption id="caption_table_13" class="caption">Pauline Epistle<br>(Galatians 6:14-18)
+    <table id="table_13.5" title="Pauline Epistle">
+        <caption id="caption_table_13.5" class="caption">Pauline Epistle<br>(Galatians 6:14-18)
         <span class="arabic-caption">البولس<br>(غلاطية 6: 14 - 18)</span></caption>
-        <tr id="table_13_row_1" class="intro">
+        <tr id="table_13.5_row_1" class="intro">
             <td class="english">Paul the servant of our Lord Jesus Christ, called to be an apostle, appointed to the Gospel of God. A reading from the epistle of our teacher Paul to the Galatians. May his blessing be with us. Amen.</td>
             <td class="arabic">بولس عبد يسوع المسيح الرسول المدعو المفرز لبشرى الله. من رسالة معلمنا بولس الرسول إلى أهل غلاطية بركته تكون معنا. آمين.</td>
         </tr>
-        <tr id="table_13_row_4" class="text">
+        <tr id="table_13.5_row_4" class="text">
             <td class="english">But God forbid that I should boast except in the cross of our Lord Jesus Christ, by whom the world has been crucified to me, and I to the world.</td>
             <td class="arabic">وَأَمَّا مِنْ جِهَتِي، فَحَاشَا لِي أَنْ أَفْتَخِرَ إِلاَّ بِصَلِيبِ رَبِّنَا يَسُوعَ الْمَسِيحِ، الَّذِي بِهِ قَدْ صُلِبَ الْعَالَمُ لِي وَأَنَا لِلْعَالَمِ.</td>
         </tr>
-        <tr id="table_13_row_5" class="text">
+        <tr id="table_13.5_row_5" class="text">
             <td class="english">For in Christ Jesus neither circumcision nor uncircumcision avails anything, but a new creation.</td>
             <td class="arabic">لأَنَّهُ فِي الْمَسِيحِ يَسُوعَ لَيْسَ الْخِتَانُ يَنْفَعُ شَيْئاً وَلاَ الْغُرْلَةُ، بَلِ الْخَلِيقَةُ الْجَدِيدَةُ.</td>
         </tr>
-        <tr id="table_13_row_6" class="text">
+        <tr id="table_13.5_row_6" class="text">
             <td class="english">And as many as walk according to this rule, peace and mercy be upon them, and upon the Israel of God.</td>
             <td class="arabic">فَكُلُّ الَّذِينَ يَسْلُكُونَ بِحَسَبِ هَذَا الْقَانُونِ عَلَيْهِمْ سَلاَمٌ وَرَحْمَةٌ، وَعَلَى إِسْرَائِيلِ اللهِ.</td>
         </tr>
-        <tr id="table_13_row_7" class="text">
+        <tr id="table_13.5_row_7" class="text">
             <td class="english">From now on let no one trouble me, for I bear in my body the marks of the Lord Jesus.</td>
             <td class="arabic">فِي مَا بَعْدُ لاَ يَجْلِبُ أَحَدٌ عَلَيَّ أَتْعَاباً، لأَنِّي حَامِلٌ فِي جَسَدِي سِمَاتِ الرَّبِّ يَسُوعَ.</td>
         </tr>
-        <tr id="table_13_row_8" class="text">
+        <tr id="table_13.5_row_8" class="text">
             <td class="english">Brethren, the grace of our Lord Jesus Christ be with your spirit. Amen.</td>
             <td class="arabic">نِعْمَةُ رَبِّنَا يَسُوعَ الْمَسِيحِ مَعَ رُوحِكُمْ أَيُّهَا الإِخْوَةُ. آمِينَ.</td>
         </tr>
-        <tr id="table_13_row_10" class="intro">
+        <tr id="table_13.5_row_10" class="intro">
             <td class="english">The grace of God the Father be with you all. Amen.</td>
             <td class="arabic">نعمة الله الآب تحل مع جميعكم آمين.</td>
         </tr>
@@ -364,17 +364,17 @@ ${paschalPraiseHtml}
         <span class="arabic-caption">قطع الساعة السادسة</span></caption>
         <tr id="table_14_row_0" class="text">
             <td class="english"><span class="role">Congregation:</span><br>O You, Who on the sixth day and in the sixth hour was nailed to the cross, for the sin which our father Adam dared to commit in Paradise, tear the handwriting of our sins, O Christ our God, and save us.</td>
-            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲱⲫⲏⲉⲧ ϧⲉⲛ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲙ̀ⲙⲁϩ ⲋ ϧⲉⲛ ⲫ̀ⲛⲁⲩ ⲛ̀ⲁϫⲡ ⲋ: ⲁⲩϯⲓϥⲧ ⲛⲁⲕ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲡⲓⲥ̀ⲧⲁⲩⲣⲟⲥ: ⲉⲑⲃⲉ ⲫ̀ⲛⲟⲃⲓ ⲉ̀ⲧⲁϥⲉⲣⲧⲟⲗⲙⲁⲛ ⲉ̀ⲣⲟϥ ⲛ̀ϫⲉ Ⲁⲇⲁⲙ ϧⲉⲛ ⲡⲓⲡⲁⲣⲁⲇⲓⲥⲟⲥ: ⲫⲱϧ ⲙ̀ⲡⲓⲥ̀ϧⲓ ⲛ̀ϫⲓϫ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ: ⲱ̀Ⲡ̅ⲭ̅ⲥ Ⲡⲉⲛⲛⲟⲩϯ ⲟⲩⲟϩ ⲛⲁϩⲙⲉⲛ.</td>
+            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲱⲫⲏⲉⲧ ϧⲉⲛ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲙ̀ⲙⲁϩ ⲥⲟⲟⲩ ϧⲉⲛ ⲫ̀ⲛⲁⲩ ⲛ̀ⲁϫⲡ ⲥⲟⲟⲩ: ⲁⲩϯⲓϥⲧ ⲛⲁⲕ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲡⲓⲥ̀ⲧⲁⲩⲣⲟⲥ: ⲉⲑⲃⲉ ⲫ̀ⲛⲟⲃⲓ ⲉ̀ⲧⲁϥⲉⲣⲧⲟⲗⲙⲁⲛ ⲉ̀ⲣⲟϥ ⲛ̀ϫⲉ Ⲁⲇⲁⲙ ϧⲉⲛ ⲡⲓⲡⲁⲣⲁⲇⲓⲥⲟⲥ: ⲫⲱϧ ⲙ̀ⲡⲓⲥ̀ϧⲓ ⲛ̀ϫⲓϫ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ: ⲱ̀Ⲡ̅ⲭ̅ⲥ Ⲡⲉⲛⲛⲟⲩϯ ⲟⲩⲟϩ ⲛⲁϩⲙⲉⲛ.</td>
             <td class="arabic"><span class="role">الشعب:</span><br>يا من فى اليوم السادس وفى وقت الساعة السادسة سمرت على الصليب من أجل الخطية التى تجرأ عليها آدم فى الفردوس. مزق صك خطايانا أيها المسيح إلهنا وخلصنا.</td>
         </tr>
         <tr id="table_14_row_1" class="text">
             <td class="english"><span class="role">Priest:</span><br>O You, Who on the sixth day and in the sixth hour was nailed to the cross, for the sin which our father Adam dared to commit in Paradise, tear the handwriting of our sins, O Christ our God, and save us.</td>
-            <td class="coptic"><span class="role">Ⲡⲓⲟⲩⲏⲃ:</span><br>Ⲱⲫⲏⲉⲧ ϧⲉⲛ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲙ̀ⲙⲁϩ ⲋ ϧⲉⲛ ⲫ̀ⲛⲁⲩ ⲛ̀ⲁϫⲡ ⲋ : ⲁⲩϯⲓϥⲧ ⲛⲁⲕ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲡⲓⲥ̀ⲧⲁⲩⲣⲟⲥ : ⲉⲑⲃⲉ ⲫ̀ⲛⲟⲃⲓ ⲉ̀ⲧⲁϥⲉⲣⲧⲟⲗⲙⲁⲛ ⲉ̀ⲣⲟϥ ⲛ̀ϫⲉ Ⲁⲇⲁⲙ ϧⲉⲛ ⲡⲓⲡⲁⲣⲁⲇⲓⲥⲟⲥ : ⲫⲱϧ ⲙ̀ⲡⲓⲥ̀ϧⲓ ⲛ̀ϫⲓϫ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ : ⲱ̀Ⲡ̅ⲭ̅ⲥ Ⲡⲉⲛⲛⲟⲩϯ ⲟⲩⲟϩ ⲛⲁϩⲙⲉⲛ.</td>
+            <td class="coptic"><span class="role">Ⲡⲓⲟⲩⲏⲃ:</span><br>Ⲱⲫⲏⲉⲧ ϧⲉⲛ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲙ̀ⲙⲁϩ ⲥⲟⲟⲩ ϧⲉⲛ ⲫ̀ⲛⲁⲩ ⲛ̀ⲁϫⲡ ⲥⲟⲟⲩ : ⲁⲩϯⲓϥⲧ ⲛⲁⲕ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲡⲓⲥ̀ⲧⲁⲩⲣⲟⲥ : ⲉⲑⲃⲉ ⲫ̀ⲛⲟⲃⲓ ⲉ̀ⲧⲁϥⲉⲣⲧⲟⲗⲙⲁⲛ ⲉ̀ⲣⲟϥ ⲛ̀ϫⲉ Ⲁⲇⲁⲙ ϧⲉⲛ ⲡⲓⲡⲁⲣⲁⲇⲓⲥⲟⲥ : ⲫⲱϧ ⲙ̀ⲡⲓⲥ̀ϧⲓ ⲛ̀ϫⲓϫ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ : ⲱ̀Ⲡ̅ⲭ̅ⲥ Ⲡⲉⲛⲛⲟⲩϯ ⲟⲩⲟϩ ⲛⲁϩⲙⲉⲛ.</td>
             <td class="arabic"><span class="role">الكاهن:</span><br>يا من فى اليوم السادس وفى وقت الساعة السادسة سمرت على الصليب من أجل الخطية التى تجرأ عليها آدم فى الفردوس. مزق صك خطايانا أيها المسيح إلهنا وخلصنا.</td>
         </tr>
         <tr id="table_14_row_2" class="text">
             <td class="english"><span class="role">Congregation:</span><br>O You, Who on the sixth day and in the sixth hour was nailed to the cross, for the sin which our father Adam dared to commit in Paradise, tear the handwriting of our sins, O Christ our God, and save us.</td>
-            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲱⲫⲏⲉⲧ ϧⲉⲛ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲙ̀ⲙⲁϩ ⲋ ϧⲉⲛ ⲫ̀ⲛⲁⲩ ⲛ̀ⲁϫⲡ ⲋ : ⲁⲩϯⲓϥⲧ ⲛⲁⲕ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲡⲓⲥ̀ⲧⲁⲩⲣⲟⲥ : ⲉⲑⲃⲉ ⲫ̀ⲛⲟⲃⲓ ⲉ̀ⲧⲁϥⲉⲣⲧⲟⲗⲙⲁⲛ ⲉ̀ⲣⲟϥ ⲛ̀ϫⲉ Ⲁⲇⲁⲙ ϧⲉⲛ ⲡⲓⲡⲁⲣⲁⲇⲓⲥⲟⲥ : ⲫⲱϧ ⲙ̀ⲡⲓⲥ̀ϧⲓ ⲛ̀ϫⲓϫ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ : ⲱ̀Ⲡ̅ⲭ̅ⲥ Ⲡⲉⲛⲛⲟⲩϯ ⲟⲩⲟϩ ⲛⲁϩⲙⲉⲛ.</td>
+            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲱⲫⲏⲉⲧ ϧⲉⲛ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲙ̀ⲙⲁϩ ⲥⲟⲟⲩ ϧⲉⲛ ⲫ̀ⲛⲁⲩ ⲛ̀ⲁϫⲡ ⲥⲟⲟⲩ : ⲁⲩϯⲓϥⲧ ⲛⲁⲕ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲡⲓⲥ̀ⲧⲁⲩⲣⲟⲥ : ⲉⲑⲃⲉ ⲫ̀ⲛⲟⲃⲓ ⲉ̀ⲧⲁϥⲉⲣⲧⲟⲗⲙⲁⲛ ⲉ̀ⲣⲟϥ ⲛ̀ϫⲉ Ⲁⲇⲁⲙ ϧⲉⲛ ⲡⲓⲡⲁⲣⲁⲇⲓⲥⲟⲥ : ⲫⲱϧ ⲙ̀ⲡⲓⲥ̀ϧⲓ ⲛ̀ϫⲓϫ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ : ⲱ̀Ⲡ̅ⲭ̅ⲥ Ⲡⲉⲛⲛⲟⲩϯ ⲟⲩⲟϩ ⲛⲁϩⲙⲉⲛ.</td>
             <td class="arabic"><span class="role">الشعب:</span><br>يا من فى اليوم السادس وفى وقت الساعة السادسة سمرت على الصليب من أجل الخطية التى تجرأ عليها آدم فى الفردوس. مزق صك خطايانا أيها المسيح إلهنا وخلصنا.</td>
         </tr>
         <tr id="table_14_row_3" class="text">
@@ -383,7 +383,7 @@ ${paschalPraiseHtml}
         </tr>
         <tr id="table_14_row_4" class="text">
             <td class="english"><span class="role">Congregation:</span><br>O You, Who on the sixth day and in the sixth hour was nailed to the cross, for the sin which our father Adam dared to commit in Paradise, tear the handwriting of our sins, O Christ our God, and save us.</td>
-            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲱⲫⲏⲉⲧ ϧⲉⲛ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲙ̀ⲙⲁϩ ⲋ ϧⲉⲛ ⲫ̀ⲛⲁⲩ ⲛ̀ⲁϫⲡ ⲋ : ⲁⲩϯⲓϥⲧ ⲛⲁⲕ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲡⲓⲥ̀ⲧⲁⲩⲣⲟⲥ : ⲉⲑⲃⲉ ⲫ̀ⲛⲟⲃⲓ ⲉ̀ⲧⲁϥⲉⲣⲧⲟⲗⲙⲁⲛ ⲉ̀ⲣⲟϥ ⲛ̀ϫⲉ Ⲁⲇⲁⲙ ϧⲉⲛ ⲡⲓⲡⲁⲣⲁⲇⲓⲥⲟⲥ : ⲫⲱϧ ⲙ̀ⲡⲓⲥ̀ϧⲓ ⲛ̀ϫⲓϫ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ : ⲱ̀Ⲡ̅ⲭ̅ⲥ Ⲡⲉⲛⲛⲟⲩϯ ⲟⲩⲟϩ ⲛⲁϩⲙⲉⲛ.</td>
+            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲱⲫⲏⲉⲧ ϧⲉⲛ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲙ̀ⲙⲁϩ ⲥⲟⲟⲩ ϧⲉⲛ ⲫ̀ⲛⲁⲩ ⲛ̀ⲁϫⲡ ⲥⲟⲟⲩ : ⲁⲩϯⲓϥⲧ ⲛⲁⲕ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲡⲓⲥ̀ⲧⲁⲩⲣⲟⲥ : ⲉⲑⲃⲉ ⲫ̀ⲛⲟⲃⲓ ⲉ̀ⲧⲁϥⲉⲣⲧⲟⲗⲙⲁⲛ ⲉ̀ⲣⲟϥ ⲛ̀ϫⲉ Ⲁⲇⲁⲙ ϧⲉⲛ ⲡⲓⲡⲁⲣⲁⲇⲓⲥⲟⲥ : ⲫⲱϧ ⲙ̀ⲡⲓⲥ̀ϧⲓ ⲛ̀ϫⲓϫ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ : ⲱ̀Ⲡ̅ⲭ̅ⲥ Ⲡⲉⲛⲛⲟⲩϯ ⲟⲩⲟϩ ⲛⲁϩⲙⲉⲛ.</td>
             <td class="arabic"><span class="role">الشعب:</span><br>يا من فى اليوم السادس وفى وقت الساعة السادسة سمرت على الصليب من أجل الخطية التى تجرأ عليها آدم فى الفردوس. مزق صك خطايانا أيها المسيح إلهنا وخلصنا.</td>
         </tr>
         <tr id="table_14_row_5" class="text">
@@ -401,7 +401,7 @@ ${paschalPraiseHtml}
         </tr>
         <tr id="table_14_row_8" class="text">
             <td class="english"><span class="role">Congregation:</span><br>Now and forever, and unto the age of all ages, Amen.</td>
-            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ ⲓ̀ ⲕⲉ ⲓⲉⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲏⲛ.</td>
+            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ ⲓ̀ ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲏⲛ.</td>
             <td class="arabic"><span class="role">الشعب:</span><br>المجد للآب والابن والروح القدس</td>
         </tr>
         <tr id="table_14_row_9" class="text">
@@ -418,7 +418,7 @@ ${paschalPraiseHtml}
         </tr>
         <tr id="table_14_row_12" class="text">
             <td class="english"><span class="role">Congregation:</span><br>Now and forever, and unto the age of all ages, Amen.</td>
-            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ ̀̀ⲓ ⲕⲉ ⲓⲉⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲏⲛ.</td>
+            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ ⲓ̀ ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲏⲛ.</td>
             <td class="arabic"><span class="role">الشعب:</span><br>المجد للآب والابن والروح القدس</td>
         </tr>
         <tr id="table_14_row_13" class="text">
@@ -431,12 +431,12 @@ ${paschalPraiseHtml}
             <td class="arabic"><span class="role">الشعب:</span><br>المجد للآب والابن والروح القدس</td>
         </tr>
         <tr id="table_14_row_15" class="text">
-            <td class="english"><span class="role">Priest:</span><br>We worship Your incorruptible person, O Good One, asking for the forgiveness of our sins, O Christ our God, for of Your own will You were pleased to be lifted up onto the cross to deliver those whom You created from the bondage of the enemy. We cry out unto You and give thanks to You, for You have filled all with joy, O Savior, when You came to help the world.</td>
+            <td class="english"><span class="role">Priest:</span><br>We worship Your incorruptible person, O Good One, asking for the forgiveness of our sins, O Christ our God, for of Your own will You were pleased to be lifted up onto the cross to deliver those whom You created from the bondage of the enemy. We cry out unto You and give thanks to You, for You have filled all with joy, O Savior, when You came to help the world. Lord Glory be to You.</td>
             <td class="arabic"><span class="role">الكاهن:</span><br>نسجد لشخصك غير الفاسد أيها الصالح ونسأل غفران خطايانا أيها المسيح إلهنا، لأن بمشيئتك سررت أن تصعد على الصليب لتنجى الذين خلقتهم من عبودية العدو. نصرخ إليكَ ونشكرك لأنك ملأت الكل فرحاً أيها المخلص لما أتيت لتعين العالم، يارب المجد لكً. </td>
         </tr>
         <tr id="table_14_row_16" class="text">
             <td class="english"><span class="role">Congregation:</span><br>Now and forever, and unto the age of all ages, Amen.</td>
-            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ ̀̀ⲓ ⲕⲉ ⲓⲉⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲏⲛ.</td>
+            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ ⲓ̀ ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲏⲛ.</td>
             <td class="arabic"><span class="role">الشعب:</span><br>المجد للآب والابن والروح القدس</td>
         </tr>
         <tr id="table_14_row_17" class="text">
@@ -448,7 +448,7 @@ ${paschalPraiseHtml}
         <caption class="caption" id="caption_table_15"><span class="coptic-caption">Ⲟ̀ⲙⲟⲛⲟⲅⲉⲛⲏⲥ</span></caption>
         <tr id="table_15_row_0" class="text">
             <td class="english">O Only-Begotten Son, Eternal, and Immortal Word of God; who for our salvation willed to be incarnate of the Holy Mother of God (and ever-virgin Mary)2</td>
-            <td class="coptic">Ⲟ̀ⲙⲟⲛⲟⲅⲉⲛⲏⲥ ⲩ̀ⲓⲟⲥ ⲕⲉ ⲗⲟⲅⲟⲥ ⲧⲟⲩ ⲑⲉⲟⲩ ⲁ̀ⲑⲁⲛⲁⲧⲟⲥ ⲩ̀ⲡⲁⲣⲭⲱⲛ ⲕⲉ ⲕⲁⲧⲁ ⲇⲉⲝⲁⲙⲉⲛⲟⲥ : ⲇⲓⲁ̀ⲧⲏⲛ ⲏ̀ⲙⲉⲧⲉⲣⲁⲛ ⲥⲱⲧⲏⲣⲓⲁⲛ : ⲥⲁⲣⲕⲱⲑⲏⲛⲉ ⲉⲕ ⲧⲏⲥ ⲁ̀ⲅⲓⲁ̀ⲥ ⲑⲉⲟ̀ⲧⲟⲕⲟⲩ ⲕⲉ ⲁ̀ⲓ̀ ⲡⲁⲣⲑⲉⲛⲟⲩ Ⲙⲁⲣⲓⲁⲥ.</td>
+            <td class="coptic">Ⲟ̀ⲙⲟⲛⲟⲅⲉⲛⲏⲥ Ⲩⲓⲟⲥ ⲕⲉ ⲗⲟⲅⲟⲥ ⲧⲟⲩ Ⲑⲉⲟⲩ ⲁ̀ⲑⲁⲛⲁⲧⲟⲥ ⲩ̀ⲡⲁⲣⲭⲱⲛ ⲕⲉ ⲕⲁⲧⲁ ⲇⲉⲝⲁⲙⲉⲛⲟⲥ : ⲇⲓⲁ̀ⲧⲏⲛ ⲏ̀ⲙⲉⲧⲉⲣⲁⲛ ⲥⲱⲧⲏⲣⲓⲁⲛ : ⲥⲁⲣⲕⲱⲑⲏⲛⲉ ⲉⲕ ⲧⲏⲥ ⲁ̀ⲅⲓⲁ̀ⲥ ⲑⲉⲟ̀ⲧⲟⲕⲟⲩ ⲕⲉ ⲁ̀ⲓ̀ ⲡⲁⲣⲑⲉⲛⲟⲩ Ⲙⲁⲣⲓⲁⲥ.</td>
             <td class="arabic">أيها الإبن الوحيد الجنس وكلمة الله الذى لا يموت : و انت الأزلى قبلت : من أجل خلاصنا : ان تتجسد من القديسة : والدة الإله (الدائمة البتولية مريم)2</td>
        </tr>
         <tr id="table_15_row_1" class="text">
@@ -458,7 +458,7 @@ ${paschalPraiseHtml}
         </tr>
         <tr id="table_15_row_2" class="text">
             <td class="english">Holy God, who being God, for our sake, became Man without change.</td>
-            <td class="coptic">Ⲁⲅⲓⲟⲥ ⲟ̀Ⲑⲉⲟⲥ: ⲟ̀ⲇⲓ ⲏ̀ⲙⲁⲥ ⲁⲛ ⲑ̀ⲣⲱⲡⲟⲥ: ⲅⲉⲅⲟⲛⲱⲥ ⲁⲧⲣⲉⲡⲧⲱⲥ ⲕⲉ ⲙⲓⲛⲁⲥ Ⲑⲉⲟⲥ.</td>
+            <td class="coptic">Ⲁⲅⲓⲟⲥ ⲟ̀ Ⲑⲉⲟⲥ: ⲟ̀ⲇⲓ ⲏ̀ⲙⲁⲥ ⲁⲛ ⲑ̀ⲣⲱⲡⲟⲥ: ⲅⲉⲅⲟⲛⲱⲥ ⲁⲧⲣⲉⲡⲧⲱⲥ ⲕⲉ ⲙⲓⲛⲁⲥ Ⲑⲉⲟⲥ.</td>
             <td class="arabic">قدوس الله الذى  : من أجلنا صرت إنساناً : بغير إستحالة : وانت الإله.</td>
         </tr>
         <tr id="table_15_row_3" class="text">
@@ -467,13 +467,13 @@ ${paschalPraiseHtml}
             <td class="arabic">قدوس القوى الذى : أظهرت بالضعف : ما هو : أعظم من القوة</td>
         </tr>
         <tr id="table_15_row_4" class="text">
-            <td class="english">Holy Immortal, Who was crucified for our sake, and endured death in His flesh, the Eternal and Immortal.</td>
-            <td class="coptic">Ⲁⲅⲓⲟⲥ ⲁ̀ⲑⲁⲛⲁⲧⲟⲥ ⲟ̀ⲥ̀ⲧⲁⲩⲣⲱⲑⲓⲥ ⲇⲓⲏ̀ⲙⲁⲥ: ⲟ̀ⲧⲟⲛ ⲇⲓⲁ̀ⲥ̀ⲧⲁⲩⲣⲟⲩ ⲑⲁⲛⲁⲧⲟⲛ ⲩ̀ⲡⲟⲙⲓⲛⲁⲥ ⲥⲁⲣⲕⲓ ⲕⲉ ⲇⲓⲝⲁⲥⲩⲱⲥ ⲕⲉ ⲉⲛ ⲑⲁⲛⲁⲧⲱ ⲅⲉⲅⲟⲛⲱⲥ ⲩ̀ⲡⲁⲣⲭⲓⲥ ⲁ̀ⲑⲁⲛⲁⲧⲟⲥ.</td>
+            <td class="english">Holy Immortal, who was crucified for our sake, and endured death in His flesh, the Eternal and Immortal.</td>
+            <td class="coptic">Ⲁⲅⲓⲟⲥ ⲁ̀ⲑⲁⲛⲁⲧⲟⲥ ⲟ̀ⲥ̀ⲧⲁⲩⲣⲱⲑⲓⲥ ⲇⲓ ⲏ̀ⲙⲁⲥ: ⲟ̀ⲧⲟⲛ ⲇⲓⲁ̀ⲥ̀ⲧⲁⲩⲣⲟⲩ ⲑⲁⲛⲁⲧⲟⲛ ⲩ̀ⲡⲟⲙⲓⲛⲁⲥ ⲥⲁⲣⲕⲓ ⲕⲉ ⲇⲓⲝⲁⲥⲩⲱⲥ ⲕⲉ ⲉⲛ ⲑⲁⲛⲁⲧⲱ ⲅⲉⲅⲟⲛⲱⲥ ⲩ̀ⲡⲁⲣⲭⲓⲥ ⲁ̀ⲑⲁⲛⲁⲧⲟⲥ.</td>
             <td class="arabic">قدوس الذى لا يموت : يا من صلبت من أجلنا : وصبرت على موت الصليب : وقبلته فى جسدك : وانت أزلىٌ: غير مائت</td>
         </tr>
         <tr id="table_15_row_5" class="text">
             <td class="english">O Holy Trinity, have mercy on us.</td>
-            <td class="coptic">Ⲁ̀ⲅⲓⲁ̀ ⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ.</td>
+            <td class="coptic">Ⲁ̀ⲅⲓⲁ̀ Ⲧⲣⲓⲁⲥ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ.</td>
             <td class="arabic">أيها الثالوث القدوس إرحمنا.</td>
         </tr>
     </table>
@@ -497,8 +497,13 @@ ${paschalPraiseHtml}
         </tr>        
         <tr id="table_16_row_3" class="text">
             <td class="english">Glory be to the Father and to the Son, and to the Holy Spirit, both now, and ever, and unto the ages of ages, Amen.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ Ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩⲓⲱ̀ ⲕⲉ ⲁ̀ⲅⲓⲱ̀ Ⲡⲛⲉⲩⲙⲁⲧⲓ : ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ⲓ̀ ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲏⲛ..</td>
+            <td class="coptic">Ⲇⲟⲝⲁ Ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩ̀ⲓⲱ ⲕⲉ Ⲁ̀ⲅⲓⲱ Ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ: Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ ⲓ̀ ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲏⲛ. Ⲁ̀ⲙⲏⲛ.</td>
             <td class="arabic">المجد للآب والإبن و الروح القدس. الآن وكل آوان والى دهر الدهور، آمين.</td>
+        </tr>
+        <tr id="table_16_row_4" class="text">
+            <td class="english">O holy Trinity, have mercy upon us.</td>
+            <td class="coptic">Ⲁ̀ⲅⲓⲁ Ⲧ̀ⲣⲓⲁⲥ: ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ.</td>
+            <td class="arabic">أيها الثالوث القدوس، إرحمنا.</td>
         </tr>
     </table>
 </div>
@@ -508,10 +513,10 @@ ${paschalPraiseHtml}
 <div class="section" id="section_6" title="Coptic Psalm & Gospel">
     <table id="table_17" title="Coptic Psalm">
         <caption class="caption" id="caption_table_17">Coptic Psalm<br>(37: 21, 22)
-        <span class="arabic-caption">المزمور قبطي<br>(37: 21, 22)</span></caption>
+        <span class="arabic-caption">المزمور قبطياً<br>(37: 21, 22)</span></caption>
 
         <tr id="table_17_row_0" class="intro">
-            <td class="english">A psalm of David</td>
+            <td class="english">A Psalm of David</td>
             <td class="coptic">Ⲯⲁⲗⲙⲟⲥ ⲧⲱ Ⲇⲁⲩⲓⲇ</td>
             <td class="arabic">مزمور لداود</td>
         </tr>
@@ -529,10 +534,10 @@ ${paschalPraiseHtml}
     ${copticGospelIntroHtml}
     <table id="table_19" title="Coptic Gospel">
         <caption class="caption" id="caption_table_19">Coptic Gospels
-        <span class="arabic-caption">الإناجيل قبطي</span></caption>
+        <span class="arabic-caption">الأناجيل قبطياً</span></caption>
         <tr id="table_19_row_0" class="priest">
             <td class="english">A chapter according to St. Matthew,</td>
-            <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲱⲛ ⲁⲅⲓⲟⲩ.</td>
+            <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲱⲛ ̀ⲁⲅⲓⲟ.</td>
             <td class="arabic">فصل من إنجيل معلمنا مار متى</td>
         </tr>
 
@@ -546,7 +551,7 @@ ${paschalPraiseHtml}
         </tr>
         <tr id="table_19_row_3" class="priest">
             <td class="english">According to St. Mark</td>
-            <td class="coptic">ⲕⲁⲧⲁ Ⲙⲁⲣⲕⲟⲛ ⲁⲅⲓⲟⲩ.</td>
+            <td class="coptic">ⲕⲁⲧⲁ Ⲙⲁⲣⲕⲟⲛ ̀ⲁⲅⲓⲟ.</td>
             <td class="arabic">حسب مار مرقس</td>
         </tr>
         <tr id="table_19_row_4" class="intro">
@@ -593,7 +598,7 @@ ${paschalPraiseHtml}
 
 
 
-<div class="section" id="section_7" title="Engligh and Arabic Psalm & Gospel">
+<div class="section" id="section_7" title="English and Arabic Psalm & Gospel">
 <table id="table_20" title="Psalm">
     <caption id="caption_table_20" class="caption">Psalm<br>(37:21-22, 21:16-18,7-8)
     <span class="arabic-caption">المزمور<br>(37: 21-22 و 21: 16-18 و 7-8)</span></caption>
@@ -700,7 +705,7 @@ ${paschalPraiseHtml}
         <td class="arabic">وَكَذَلِكَ رُؤَسَاءُ الْكَهَنَةِ أَيْضاً وَهُمْ يَسْتَهْزِئُونَ مَعَ الْكَتَبَةِ وَالشُّيُوخِ قَالُوا:</td>
     </tr>
     <tr id="table_21_row_19" class="text">
-        <td class="english">"He saved others; Himself He cannot save. If He is the King of Israel,</td>
+        <td class="english">“He saved others; Himself He cannot save. If He is the King of Israel, let Him now come down from the cross, and we will believe Him.</td>
         <td class="arabic">«خَلَّصَ آخَرِينَ وَأَمَّا نَفْسُهُ فَمَا يَقْدِرُ أَنْ يُخَلِّصَهَا». إِنْ كَانَ هُوَ مَلِكَ إِسْرَائِيلَ فَلْيَنْزِلِ الآنَ عَنِ الصَّلِيبِ فَنُؤْمِنَ بِهِ!</td>
     </tr>
     <tr id="table_21_row_20" class="text">
@@ -712,13 +717,12 @@ ${paschalPraiseHtml}
         <td class="arabic">وَبِذَلِكَ أَيْضاً كَانَ اللِّصَّانِ اللَّذَانِ صُلِبَا مَعَهُ يُعَيِّرَانِهِ.</td>
     </tr>
     <tr id="table_21_row_22" class="text">
-        <td class="english">Now from the sixth hour until the ninth hour there was darkness over all the land. ${candle} <br>Bow down before the Holy Gospel.</td>
-        <td class="arabic">وَمِنَ السَّاعَةِ السَّادِسَةِ كَانَتْ ظُلْمَةٌ عَلَى كُلِّ الأَرْضِ إِلَى السَّاعَةِ التَّاسِعَةِ. ${candle} <br>أسجدوا للإنجيل المقدس.</td>
+        <td class="english">Now from the sixth hour until the ninth hour there was darkness over all the land. ${candle} <br><i>Bow down before the Holy Gospel.</i></td>
+        <td class="arabic">وَمِنَ السَّاعَةِ السَّادِسَةِ كَانَتْ ظُلْمَةٌ عَلَى كُلِّ الأَرْضِ إِلَى السَّاعَةِ التَّاسِعَةِ. ${candle} <br><i>أسجدوا للإنجيل المقدس.</i></td>
     </tr>
     <tr id="table_21_row_24" class="intro">
         <td class="english">Glory be to God forever.</td>
-        <td class="arabic">أسجدوا للإنجيل المقدس. 
-والمجد لله دائماً.</td>
+        <td class="arabic">والمجد لله دائماً.</td>
     </tr>
 </table>
 
@@ -776,7 +780,7 @@ ${paschalPraiseHtml}
         <td class="arabic">وَصَلَبُوا مَعَهُ لِصَّيْنِ وَاحِداً عَنْ يَمِينِهِ وَآخَرَ عَنْ يَسَارِهِ.</td>
     </tr>
     <tr id="table_23_row_6" class="text">
-        <td class="english">So the Scripture was fulfilled</td>
+        <td class="english">So the Scripture was fulfilled which says, “And He was numbered with the transgressors.”</td>
         <td class="arabic">فَتَمَّ الْكِتَابُ الْقَائِلُ: «وَأُحْصِيَ مَعَ أَثَمَةٍ».</td>
     </tr>
     <tr id="table_23_row_7" class="text">
@@ -792,12 +796,12 @@ ${paschalPraiseHtml}
         <td class="arabic">وَكَذَلِكَ رُؤَسَاءُ الْكَهَنَةِ وَهُمْ مُسْتَهْزِئُونَ فِيمَا بَيْنَهُمْ مَعَ الْكَتَبَةِ قَالُوا: «خَلَّصَ آخَرِينَ وَأَمَّا نَفْسُهُ فَمَا يَقْدِرُ أَنْ يُخَلِّصَهَا.</td>
     </tr>
     <tr id="table_23_row_10" class="text">
-        <td class="english">Let the Christ, the King of Israel, descend now from the cross, that we may see and believe."</td>
+        <td class="english">Let the Christ, the King of Israel, descend now from the cross, that we may see and believe.” Even those who were crucified with Him reviled Him.</td>
         <td class="arabic">لِيَنْزِلِ الآنَ الْمَسِيحُ مَلِكُ إِسْرَائِيلَ عَنِ الصَّلِيبِ لِنَرَى وَنُؤْمِنَ». وَاللَّذَانِ صُلِبَا مَعَهُ كَانَا يُعَيِّرَانِهِ.</td>
     </tr>
     <tr id="table_23_row_11" class="text">
-        <td class="english">Now when the sixth hour had come, there was darkness over the whole land until the ninth hour.<br>Bow down before the Holy Gospel.</td>
-        <td class="arabic">وَلَمَّا كَانَتِ السَّاعَةُ السَّادِسَةُ كَانَتْ ظُلْمَةٌ عَلَى الأَرْضِ كُلِّهَا إِلَى السَّاعَةِ التَّاسِعَةِ.<br>أسجدوا للإنجيل المقدس.</td>
+        <td class="english">Now when the sixth hour had come, there was darkness over the whole land until the ninth hour.<br><i>Bow down before the Holy Gospel.</i></td>
+        <td class="arabic">وَلَمَّا كَانَتِ السَّاعَةُ السَّادِسَةُ كَانَتْ ظُلْمَةٌ عَلَى الأَرْضِ كُلِّهَا إِلَى السَّاعَةِ التَّاسِعَةِ.<br><i>أسجدوا للإنجيل المقدس.</i></td>
     </tr>
     <tr id="table_23_row_13" class="intro">
         <td class="english">Glory be to God forever.</td>
@@ -885,13 +889,12 @@ ${paschalPraiseHtml}
         <td class="arabic">فَقَالَ لَهُ يَسُوعُ: «الْحَقَّ أَقُولُ لَكَ: إِنَّكَ الْيَوْمَ تَكُونُ مَعِي فِي الْفِرْدَوْسِ».</td>
     </tr>
     <tr id="table_24_row_22" class="text">
-        <td class="english">Now it was about the sixth hour, and there was darkness over all the earth until the ninth hour.<br>Bow down before the Holy Gospel.</td>
-        <td class="arabic">وَكَانَ نَحْوُ السَّاعَةِ السَّادِسَةِ فَكَانَتْ ظُلْمَةٌ عَلَى الأَرْضِ كُلِّهَا إِلَى السَّاعَةِ التَّاسِعَةِ.<br>أسجدوا للإنجيل المقدس.</td>
+        <td class="english">Now it was about the sixth hour, and there was darkness over all the earth until the ninth hour.<br><i>Bow down before the Holy Gospel.</i></td>
+        <td class="arabic">وَكَانَ نَحْوُ السَّاعَةِ السَّادِسَةِ فَكَانَتْ ظُلْمَةٌ عَلَى الأَرْضِ كُلِّهَا إِلَى السَّاعَةِ التَّاسِعَةِ.<br><i>أسجدوا للإنجيل المقدس.</i></td>
     </tr>
     <tr id="table_24_row_24" class="intro">
         <td class="english">Glory be to God forever.</td>
-        <td class="arabic">أسجدوا للإنجيل المقدس. 
-والمجد لله دائماً.</td>
+        <td class="arabic">والمجد لله دائماً.</td>
     </tr>
 </table>
 
@@ -959,8 +962,8 @@ ${paschalPraiseHtml}
         <td class="arabic">فَلَمَّا رَأَى يَسُوعُ أُمَّهُ وَالتِّلْمِيذَ الَّذِي كَانَ يُحِبُّهُ وَاقِفاً قَالَ لِأُمِّهِ: «يَا امْرَأَةُ هُوَذَا ابْنُكِ».</td>
     </tr>
     <tr id="table_25_row_18" class="text">
-        <td class="english">Then He said to the disciple, "Behold your mother!" And from that hour that disciple took her to his own home.<br>Bow down before the Holy Gospel.</td>
-        <td class="arabic">ثُمَّ قَالَ لِلتِّلْمِيذِ: «هُوَذَا أُمُّكَ». وَمِنْ تِلْكَ السَّاعَةِ أَخَذَهَا التِّلْمِيذُ إِلَى خَاصَّتِهِ.<br>أسجدوا للإنجيل المقدس.</td>
+        <td class="english">Then He said to the disciple, "Behold your mother!" And from that hour that disciple took her to his own home.<br><i>Bow down before the Holy Gospel.</i></td>
+        <td class="arabic">ثُمَّ قَالَ لِلتِّلْمِيذِ: «هُوَذَا أُمُّكَ». وَمِنْ تِلْكَ السَّاعَةِ أَخَذَهَا التِّلْمِيذُ إِلَى خَاصَّتِهِ.<br><i>أسجدوا للإنجيل المقدس.</i></td>
     </tr>
     <tr id="table_25_row_20" class="intro">
         <td class="english">Glory be to God forever.</td>
@@ -977,7 +980,7 @@ ${daytimeExpositionIntroHtml}
     <caption id="caption_table_27" class="caption">Exposition
     <span class="arabic-caption">الطرح</span></caption>
     <tr id="table_27_row_1" class="intro">
-        <td class="english">The exposition of the SIXTH Hour of the DAY of GOOD FRIDAY of Holy Pascha. May its blessings be with us. Amen.</td>
+        <td class="english">The exposition of the SIXTH Hour of the DAY of GREAT FRIDAY of Holy Pascha. May its blessings be with us. Amen.</td>
         <td class="arabic">طرح الساعة السادسة من يوم الجمعة العظيمة من البصخة المقدسة بركتها تكون معنا. آمين.</td>
     </tr>
     <tr id="table_27_row_4" class="text">

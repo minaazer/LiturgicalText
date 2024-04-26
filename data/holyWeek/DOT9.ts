@@ -18,7 +18,7 @@ ${hourIntroHtml}
 <div class="section" id="section_2" title="Coptic Prophecies">
     <table id="table_2" title="Coptic Prophecies">
     <caption class="caption" id="caption_table_2">Coptic Prophecies
-    <span class="arabic-caption">النبوات قبطي</span></caption>
+    <span class="arabic-caption">النبوات قبطياً</span></caption>
         <tr id="table_2_row_3" class="intro">
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ ⲡ̀ⲅⲱⲙ ⲛ̀ϯϫⲉⲛⲉⲥⲓⲥ ⲛ̀ⲧⲉ Ⲙⲱⲩ̀ⲥⲏⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ (ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ): </td>
         </tr>
@@ -686,11 +686,11 @@ ${paschalPraiseHtml}
 
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_16" title="Coptic Psalm">
-        <caption class="caption" id="caption_table_16">Coptic Psalm<br>(24:1-2)
-        <span class="arabic-caption">المزمور قبطي<br>(24:1-2)</span></caption>
+        <caption class="caption" id="caption_table_16">Coptic Psalm<br>(25:1-3)
+        <span class="arabic-caption">المزمور قبطياً<br>(24: 1 ، 2)</span></caption>
 
         <tr id="table_16_row_0" class="intro">
-            <td class="english">A psalm of David</td>
+            <td class="english">A Psalm of David</td>
             <td class="coptic">Ⲯⲁⲗⲙⲟⲥ ⲧⲱ Ⲇⲁⲩⲓⲇ</td>
             <td class="arabic">مزمور لداود</td>
         </tr>
@@ -722,8 +722,8 @@ ${paschalPraiseHtml}
     </table>
     ${copticGospelIntroHtml}
     <table id="table_18" title="Coptic Gospel">
-        <caption class="caption" id="caption_table_18">Coptic Gospels
-        <span class="arabic-caption">الإناجيل قبطي</span></caption>
+        <caption class="caption" id="caption_table_18">Coptic Gospel
+        <span class="arabic-caption">الإنجيل قبطياً</span></caption>
         <tr id="table_18_row_0" class="priest">
             <td class="english">A chapter according to St. Matthew,</td>
             <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉⲃ̀ⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲟⲛ ⲁⲅⲓⲟⲩ.</td>
@@ -732,7 +732,7 @@ ${paschalPraiseHtml}
 
         <tr id="table_18_row_1" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ<̀/td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_18_row_2" class="text">
@@ -740,7 +740,7 @@ ${paschalPraiseHtml}
         </tr>
         <tr id="table_18_row_4" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ<̀/td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
     </table>
@@ -748,30 +748,26 @@ ${paschalPraiseHtml}
 
 
 
-<div class="section" id="section_7" title="Engligh and Arabic Psalm & Gospel">
+<div class="section" id="section_7" title="English and Arabic Psalm & Gospel">
 
 <table id="table_19" title="Psalm">
     <caption id="caption_table_19" class="caption">Psalm<br>(25:1-3)
-    <span class="arabic-caption">المزمور<br>(25: 1 - 3)</span></caption>
+    <span class="arabic-caption">المزمور<br>(24: 1 ، 2)</span></caption>
     <tr id="table_19_row_1" class="intro">
         <td class="english">From the Psalms of our teacher David the prophet. May his blessing be with us. Amen.</td>
         <td class="arabic">من مزامير معلمنا داود النبي، بركته تكون معنا، آمين.</td>
     </tr>
     <tr id="table_19_row_4" class="text">
         <td class="english">To You, O Lord, have I lifted up my soul.</td>
-        <td class="arabic">الهى عليك توكلت فلا تخزنى إلى الابد.</td>
+        <td class="arabic">اليك يارب رفعت نفسي.</td>
     </tr>
     <tr id="table_19_row_5" class="text">
         <td class="english">O my God, I have trusted in You; let me not be confounded forever,</td>
-        <td class="arabic">أَيْضاً كُلُّ مُنْتَظِرِيكَ لاَ يَخْزَوْا.
-
- لِيَخْزَ الْغَادِرُونَ بِلاَ سَبَبٍ.</td>
+        <td class="arabic">الهى عليك توكلت فلا تخزنى إلى الابد.</td>
     </tr>
     <tr id="table_19_row_6" class="text">
-        <td class="english">neither let my enemies laugh me to scorn; 
-
-let them be ashamed that transgress without cause.</td>
-        <td class="arabic"></td>
+        <td class="english">neither let my enemies laugh me to scorn; let them be ashamed that transgress without cause.</td>
+        <td class="arabic">أَيْضاً كُلُّ مُنْتَظِرِيكَ لاَ يَخْزَوْا. لِيَخْزَ الْغَادِرُونَ بِلاَ سَبَبٍ.</td>
     </tr>
     <tr id="table_19_row_8" class="intro">
         <td class="english">Alleluia.</td>
@@ -919,9 +915,9 @@ let them be ashamed that transgress without cause.</td>
         <td class="arabic">اَلسَّمَاءُ وَالأَرْضُ تَزُولاَنِ وَلَكِنَّ كَلاَمِي لاَ يَزُولُ.</td>
     </tr>
     <tr id="table_20_row_38" class="intro">
-        <td class="english">Bow down before the Holy Gospel.
+        <td class="english"><i>Bow down before the Holy Gospel.</i>
 Glory be to God forever.</td>
-        <td class="arabic">أسجدوا للإنجيل المقدس. 
+        <td class="arabic"><i>أسجدوا للإنجيل المقدس.</i> 
 والمجد لله دائماً.</td>
     </tr>
 </table>
@@ -939,7 +935,7 @@ ${daytimeExpositionIntroHtml}
     <span class="arabic-caption">الطرح</span></caption>
     <tr id="table_22_row_1" class="intro">
         <td class="english">The exposition of The NINTH Hour of the DAY of TUESDAY of Holy Pascha. May its blessings be with us. Amen.</td>
-        <td class="arabic">طرح الساعة الأولى من يوم الاثنين من البصخة المقدسة بركتها علينا. آمين.</td>
+        <td class="arabic">طرح الساعة التاسعة من يوم الثلاثاء من البصخة المقدسة بركتها علينا. آمين.</td>
     </tr>
     <tr id="table_22_row_4" class="text">
         <td class="english">Come all you people of Jerusalem to the Mount of Olives to see Jesus of Nazareth,</td>

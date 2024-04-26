@@ -1,8 +1,8 @@
 import { hourIntro, paschalPraise3 , copticGospelIntro, nighttimeExpositionIntro, expositionConclusion, cross} from "../repeatedPrayers";
 
 export const EOF3 = () => {
-    const hourIntroHtml = hourIntro("THIRD","الثالثة","EVE of GOOD FRIDAY","ليلة الجمعة العظيمة");
-    const paschalPraiseHtml = paschalPraise3("4","4","5","THIRD","الثالثة","EVE of GOOD FRIDAY","ليلة الجمعة العظيمة");
+    const hourIntroHtml = hourIntro("THIRD","الثالثة","EVE of Great Friday","ليلة الجمعة العظيمة");
+    const paschalPraiseHtml = paschalPraise3("4","4","5","THIRD","الثالثة","EVE of Great Friday","ليلة الجمعة العظيمة");
     const copticGospelIntroHtml = copticGospelIntro("7");
     const nighttimeExpositionIntroHtml = nighttimeExpositionIntro("15");
     const expositionConclusionHtml = expositionConclusion("17");
@@ -18,7 +18,7 @@ ${hourIntroHtml}
 <div class="section" id="section_2" title="Coptic Prophecies">
     <table id="table_2" title="Coptic Prophecies">
     <caption class="caption" id="caption_table_2">Coptic Prophecies
-    <span class="arabic-caption">النبوات قبطي</span></caption>
+    <span class="arabic-caption">النبوات قبطياً</span></caption>
         <tr id="table_2_row_3" class="intro">
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲓⲉⲍⲉⲕⲓⲏⲗ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ (ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ):</td>
         </tr>
@@ -89,21 +89,21 @@ ${paschalPraiseHtml}
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_6" title="Coptic Psalm">
         <caption class="caption" id="caption_table_6">Coptic Psalm<br>(109:1-3)
-        <span class="arabic-caption">المزمور قبطي<br>(109:1-3)</span></caption>
+        <span class="arabic-caption">المزمور قبطياً<br>(109:1-3)</span></caption>
 
         <tr id="table_6_row_0" class="intro">
-            <td class="english">A psalm of David</td>
+            <td class="english">A Psalm of David</td>
             <td class="coptic">Ⲯⲁⲗⲙⲟⲥ ⲧⲱ Ⲇⲁⲩⲓⲇ</td>
             <td class="arabic">مزمور لداود</td>
         </tr>
         <tr id="table_6_row_1" class="text">
             <td class="english">Do not keep silent, O God of my praise!</td>
-            <td class="coptic">Ⲫϯ ⲙ̀ⲡⲉⲣⲭⲁⲣⲱⲕ ⲉ̀ⲡⲁⲥ̀ⲙⲟⲩ ϫⲉ ⲁϥⲟⲩⲱⲛ ⲉ̀ⲣⲟⲓ ⲛ̀ϫⲉ ⲣⲱϥ ⲛ̀ⲟⲩⲣⲉϥⲉⲣⲛⲟⲃⲓ:</td>
+            <td class="coptic">Ⲫϯ ⲙ̀ⲡⲉⲣⲭⲁⲣⲱⲕ ⲉ̀ⲡⲁⲥ̀ⲙⲟⲩ:</td>
             <td class="arabic">اللهم لا تسكت عن تسبحتي</td>
         </tr>
         <tr id="table_6_row_2" class="text">
             <td class="english">For the mouth of the wicked and the mouth of the deceitful have opened against me;</td>
-            <td class="coptic">ⲛⲉⲙ ⲣⲱϥ ⲛ̀ⲟⲩⲣⲉϥⲉⲣⲭ̀ⲣⲟϥ.</td>
+            <td class="coptic">ϫⲉ ⲁϥⲟⲩⲱⲛ ⲉ̀ⲣⲟⲓ ⲛ̀ϫⲉ ⲣⲱϥ ⲛ̀ⲟⲩⲣⲉϥⲉⲣⲛⲟⲃⲓ ⲛⲉⲙ ⲣⲱϥ ⲛ̀ⲟⲩⲣⲉϥⲉⲣⲭ̀ⲣⲟϥ.</td>
             <td class="arabic">لان فم الخاطئ وفم الغاش قد انفتحا على. </td>
         </tr>
         <tr id="table_6_row_3" class="text">
@@ -125,10 +125,10 @@ ${paschalPraiseHtml}
     ${copticGospelIntroHtml}
     <table id="table_8" title="Coptic Gospel">
         <caption class="caption" id="caption_table_8">Coptic Gospels
-        <span class="arabic-caption">الإناجيل قبطي</span></caption>
+        <span class="arabic-caption">الأناجيل قبطياً</span></caption>
         <tr id="table_8_row_0" class="priest">
             <td class="english">A chapter according to St. Matthew,</td>
-            <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲟⲛ ⲁⲅⲓⲟⲩ.</td>
+            <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲟⲛ ̀ⲁⲅⲓⲟ.</td>
             <td class="arabic">فصل من إنجيل معلمنا مار متى</td>
         </tr>
 
@@ -142,7 +142,7 @@ ${paschalPraiseHtml}
         </tr>
         <tr id="table_8_row_3" class="priest">
             <td class="english">According to St. Mark</td>
-            <td class="coptic">ⲕⲁⲧⲁ Ⲙⲁⲣⲕⲟⲛ ⲁⲅⲓⲟⲩ.</td>
+            <td class="coptic">ⲕⲁⲧⲁ Ⲙⲁⲣⲕⲟⲛ ̀ⲁⲅⲓⲟ.</td>
             <td class="arabic">حسب مار مرقس</td>
         </tr>
         <tr id="table_8_row_4" class="intro">
@@ -189,7 +189,7 @@ ${paschalPraiseHtml}
 
 
 
-<div class="section" id="section_7" title="Engligh and Arabic Psalm & Gospel">
+<div class="section" id="section_7" title="English and Arabic Psalm & Gospel">
 
 <table id="table_9" title="Psalm">
     <caption id="caption_table_9" class="caption">Psalm<br>(109:1-3)
@@ -252,7 +252,7 @@ and fought against me without a cause.</td>
         <td class="arabic">قَالَ لَهُ بُطْرُسُ: «وَلَوِ اضْطُرِرْتُ أَنْ أَمُوتَ مَعَكَ لاَ أُنْكِرُكَ!» هَكَذَا قَالَ أَيْضاً جَمِيعُ التَّلاَمِيذِ.</td>
     </tr>
     <tr id="table_10_row_10" class="text">
-        <td class="english">Bow down before the Holy Gospel.</td>
+        <td class="english"><i>Bow down before the Holy Gospel.</i></td>
         <td class="arabic">اسجدوا للإنجيل المقدس.</td>
     </tr>
     <tr id="table_10_row_12" class="intro">
@@ -322,7 +322,7 @@ and fought against me without a cause.</td>
         <td class="arabic">فَقَالَ بِأَكْثَرِ تَشْدِيدٍ: «وَلَوِ اضْطُرِرْتُ أَنْ أَمُوتَ مَعَكَ لاَ أُنْكِرُكَ». وَهَكَذَا قَالَ أَيْضاً الْجَمِيعُ.</td>
     </tr>
     <tr id="table_12_row_10" class="text">
-        <td class="english">Bow down before the Holy Gospel.</td>
+        <td class="english"><i>Bow down before the Holy Gospel.</i></td>
         <td class="arabic">اسجدوا للإنجيل المقدس.</td>
     </tr>
     <tr id="table_12_row_12" class="intro">
@@ -375,7 +375,7 @@ and fought against me without a cause.</td>
         <td class="arabic">وَخَرَجَ وَمَضَى كَالْعَادَةِ إِلَى جَبَلِ الزَّيْتُونِ وَتَبِعَهُ أَيْضاً تَلاَمِيذُهُ.</td>
     </tr>
     <tr id="table_13_row_13" class="text">
-        <td class="english">Bow down before the Holy Gospel.</td>
+        <td class="english"><i>Bow down before the Holy Gospel.</i></td>
         <td class="arabic">اسجدوا للإنجيل المقدس.</td>
     </tr>
     <tr id="table_13_row_15" class="intro">
@@ -400,7 +400,7 @@ and fought against me without a cause.</td>
         <td class="arabic">وَكَانَ يَهُوذَا مُسَلِّمُهُ يَعْرِفُ الْمَوْضِعَ لأَنَّ يَسُوعَ اجْتَمَعَ هُنَاكَ كَثِيراً مَعَ تلاَمِيذِهِ.</td>
     </tr>
     <tr id="table_14_row_6" class="text">
-        <td class="english">Bow down before the Holy Gospel.</td>
+        <td class="english"><i>Bow down before the Holy Gospel.</i></td>
         <td class="arabic">اسجدوا للإنجيل المقدس.</td>
     </tr>
     <tr id="table_14_row_8" class="intro">
@@ -420,7 +420,7 @@ ${nighttimeExpositionIntroHtml}
     <caption id="caption_table_16" class="caption">Exposition
     <span class="arabic-caption">الطرح</span></caption>
     <tr id="table_16_row_1" class="intro">
-        <td class="english">The exposition of the THIRD Hour of the EVE of GOOD FRIDAY of Holy Pascha. May its blessings be with us. Amen.</td>
+        <td class="english">The exposition of the THIRD Hour of the EVE of Great Friday of Holy Pascha. May its blessings be with us. Amen.</td>
         <td class="arabic">طرح الساعة الثالثة من ليلة الجمعة  العظيمة من البصخة المقدسة بركتها علينا. آمين.</td>
     </tr>
     <tr id="table_16_row_4" class="text">
@@ -436,7 +436,7 @@ ${nighttimeExpositionIntroHtml}
         <td class="arabic">ويكمل المكتوب فى هذا الزمان وسائر أقوال الأنبياء الذين قالوا: أنى أضرب الراعى فتتفرق غنم رعيته.</td>
     </tr>
     <tr id="table_16_row_7" class="text">
-        <td class="english">Peter said in front of his brethren, “If they deny You, I shall not.”</td>
+        <td class="english">After all of this, I will go before you to Galillee. Peter said in front of his brethren, “If they deny You, I shall not.”</td>
         <td class="arabic">وبعد هذا كله أنا أقوم وأسبقكم إلى الجليل.
 فقال بطرس أمام اخوته. لو جحدوك كلهم إلا أنا يا سيدى.</td>
     </tr>

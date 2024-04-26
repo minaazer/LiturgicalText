@@ -18,7 +18,7 @@ ${hourIntroHtml}
 <div class="section" id="section_2" title="Coptic Prophecies">
     <table id="table_2" title="Coptic Prophecies">
     <caption class="caption" id="caption_table_2">Coptic Prophecies
-    <span class="arabic-caption">النبوات قبطي</span></caption>
+    <span class="arabic-caption">النبوات قبطياً</span></caption>
         <tr id="table_2_row_3" class="intro">
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ ⲡⲓⲇⲟⲝⲟⲇⲟⲥ ⲛ̀ⲧⲉ Ⲙⲱⲩ̀ⲥⲏⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ (ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ)</td>
         </tr>
@@ -66,7 +66,7 @@ ${hourIntroHtml}
     <span class="arabic-caption">النبوة الأولي<br>(خروج 17: 1 - 7)</span></caption>
     <tr id="table_3_row_1" class="intro">
         <td class="english">A reading from the book of Exodus of Moses the prophet. May his blessings be with us. Amen.</td>
-        <td class="arabic">من سفر الخروج لموسى النبى بركته المقدسة تكون معنا، آمين.</td>
+        <td class="arabic">من سفر الخروج لموسى النبى بركته تكون معنا، آمين.</td>
     </tr>
     <tr id="table_3_row_4" class="text">
         <td class="english">Then all the congregation of the children of Israel set out on their journey from the Wilderness of Sin, according to the commandment of the Lord, and camped in Rephidim; but there was no water for the people to drink.</td>
@@ -107,7 +107,7 @@ ${hourIntroHtml}
     <span class="arabic-caption">النبوة الثانية<br>(أمثال سليمان 3: 5 - 14)</span></caption>
     <tr id="table_4_row_1" class="intro">
         <td class="english">A reading from the Proverbs of Solomon the prophet. May his blessings be with us. Amen.</td>
-        <td class="arabic">بدء امثال سليمان النبى بركته تكون معنا، آمين.</td>
+        <td class="arabic">من امثال سليمان النبى بركته تكون معنا، آمين.</td>
     </tr>
     <tr id="table_4_row_4" class="text">
         <td class="english">Trust in the Lord with all your heart, And lean not on your own understanding;</td>
@@ -378,10 +378,10 @@ ${paschalPraiseHtml}
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_16" title="Coptic Psalm">
         <caption class="caption" id="caption_table_16">Coptic Psalm<br>(51:4, 33:10)
-        <span class="arabic-caption">المزمور قبطي<br>(51:4, 33:10)</span></caption>
+        <span class="arabic-caption">المزمور قبطياً<br>(50: 4 ، 32: 10)</span></caption>
 
         <tr id="table_16_row_0" class="intro">
-            <td class="english">A psalm of David</td>
+            <td class="english">A Psalm of David</td>
             <td class="coptic">Ⲯⲁⲗⲙⲟⲥ ⲧⲱ Ⲇⲁⲩⲓⲇ</td>
             <td class="arabic">مزمور لداود</td>
         </tr>
@@ -413,8 +413,8 @@ ${paschalPraiseHtml}
     </table>
     ${copticGospelIntroHtml}
     <table id="table_18" title="Coptic Gospel">
-        <caption class="caption" id="caption_table_18">Coptic Gospels
-        <span class="arabic-caption">الإناجيل قبطي</span></caption>
+        <caption class="caption" id="caption_table_18">Coptic Gospel
+        <span class="arabic-caption">الإنجيل قبطياً</span></caption>
         <tr id="table_18_row_0" class="priest">
             <td class="english">A chapter according to St. John,</td>
             <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉⲃ̀ⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲓⲱⲁⲛⲛⲏⲛ ⲁⲅⲓⲟⲩ.</td>
@@ -423,7 +423,7 @@ ${paschalPraiseHtml}
 
         <tr id="table_18_row_1" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ<̀/td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_18_row_2" class="text">
@@ -431,7 +431,7 @@ ${paschalPraiseHtml}
         </tr>
         <tr id="table_18_row_4" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ<̀/td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
     </table>
@@ -439,32 +439,22 @@ ${paschalPraiseHtml}
 
 
 
-<div class="section" id="section_7" title="Engligh and Arabic Psalm & Gospel">
+<div class="section" id="section_7" title="English and Arabic Psalm & Gospel">
 
 <table id="table_19" title="Psalm">
     <caption id="caption_table_19" class="caption">Psalm<br>(51:4 and 33:10)
-    <span class="arabic-caption">المزمور<br>(51: 4 و 33: 10)</span></caption>
+    <span class="arabic-caption">المزمور<br>(50: 4 ، 32: 10)</span></caption>
     <tr id="table_19_row_1" class="intro">
         <td class="english">From the Psalms of our teacher David the prophet. May his blessing be with us. Amen.</td>
         <td class="arabic">من مزامير معلمنا داود النبي، بركته تكون معنا، آمين.</td>
     </tr>
     <tr id="table_19_row_4" class="text">
-        <td class="english">That You may be found just when You speak, 
-
-And blameless when You judge.</td>
-        <td class="arabic">لكيما تبرر فى أقوالك 
-
-وتغلب إذا حوكمت. 
-
-١٠الرب يفرق مؤامرة الامم 
-
-ويرذل أفكار الشعوب.</td>
+        <td class="english">That You may be found just when You speak, And blameless when You judge.</td>
+        <td class="arabic">لكيما تبرر فى أقوالك وتغلب إذا حوكمت.</td>
     </tr>
     <tr id="table_19_row_5" class="text">
-        <td class="english">The Lord brings the counsel of the nations to nothing; 
-
-He makes the plans of the peoples of no effect.</td>
-        <td class="arabic"></td>
+        <td class="english">The Lord brings the counsel of the nations to nothing; He makes the plans of the peoples of no effect.</td>
+        <td class="arabic"> الرب يفرق مؤامرة الامم ويرذل أفكار الشعوب.</td>
     </tr>
     <tr id="table_19_row_7" class="intro">
         <td class="english">Alleluia.</td>
@@ -528,8 +518,8 @@ He makes the plans of the peoples of no effect.</td>
         <td class="arabic">وَكَانَ أَيْضاً رُؤَسَاءُ الْكَهَنَةِ وَالْفَرِّيسِيُّونَ قَدْ أَصْدَرُوا أَمْراً أَنَّهُ إِنْ عَرَفَ أَحَدٌ أَيْنَ هُوَ فَلْيَدُلَّ عَلَيْهِ لِكَيْ يُمْسِكُوهُ.</td>
     </tr>
     <tr id="table_20_row_16" class="text">
-        <td class="english">Bow down before the Holy Gospel.</td>
-        <td class="arabic">أسجدوا للإنجيل المقدس.</td>
+        <td class="english"><i>Bow down before the Holy Gospel.</i></td>
+        <td class="arabic"><i>أسجدوا للإنجيل المقدس.</i></td>
     </tr>
     <tr id="table_20_row_18" class="intro">
         <td class="english">Glory be to God forever.</td>

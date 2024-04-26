@@ -3,7 +3,7 @@ import { hourIntro, paschalPraise2 , copticGospelIntro, daytimeExpositionIntro, 
 export const DOTH6 = () => {
     const hourIntroHtml = hourIntro("SIXTH","السادسة","DAY of COVENANT THURSDAY","يوم خميس العهد");
     const paschalPraiseHtml = paschalPraise2("5","7","8","SIXTH","السادسة","DAY of COVENANT THURSDAY","يوم خميس العهد");
-    const copticGospelIntroHtml = copticGospelIntro("8");
+    const copticGospelIntroHtml = copticGospelIntro("10");
     const daytimeExpositionIntroHtml = daytimeExpositionIntro("14");
     const expositionConclusionHtml = expositionConclusion("16");
 
@@ -16,7 +16,7 @@ ${hourIntroHtml}
 <div class="section" id="section_2" title="Coptic Prophecies">
     <table id="table_2" title="Coptic Prophecies">
     <caption class="caption" id="caption_table_2">Coptic Prophecies
-    <span class="arabic-caption">النبوات قبطي</span></caption>
+    <span class="arabic-caption">النبوات قبطياً</span></caption>
         <tr id="table_2_row_3" class="intro">
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲓⲉⲣⲉⲙⲓⲁⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ (ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ):</td>
         </tr>
@@ -166,31 +166,31 @@ ${hourIntroHtml}
     </tr>
     <tr id="table_5_row_4" class="text">
         <td class="english">Who will pity a snake charmer bitten by a serpent, or any who go near wild beasts?</td>
-        <td class="arabic"></td>
+        <td class="arabic">مَنْ يَرحَمْ حاويًا لَدَغَتْهُ الحَيَّةُ؟ أو الذي يُدَجِّنُ الوُحوشَ؟</td>
     </tr>
     <tr id="table_5_row_5" class="text">
         <td class="english">So no one will pity a man who associates with a sinner and becomes involved in his sins.</td>
-        <td class="arabic"></td>
+        <td class="arabic">هكذا لا تَرحَمْ مَنْ يُسايِرُ الخاطِـئَ وفي خطاياهُ يُوَرِّطُ نَفسَهُ.</td>
     </tr>
     <tr id="table_5_row_6" class="text">
         <td class="english">He will stay with you for a time, but if you falter, he will not stand by you.</td>
-        <td class="arabic"></td>
+        <td class="arabic">وقتًا قَصيرًا يَظَلُّ معَكَ، وإنْ حِدْتَ عَنهُ سريعًا يَترُكُكَ.</td>
     </tr>
     <tr id="table_5_row_7" class="text">
         <td class="english">An enemy will speak sweetly with his lips, but in his mind he will plan to throw you into a pit; an enemy will weep with his eyes, but if he finds an opportunity his thirst for blood will be insatiable.</td>
-        <td class="arabic"></td>
+        <td class="arabic">شَفَتا العَدُوٌ تُظهِرانِ حَلاوَةً، وقَلبُهُ يَنوي الإِيقاعَ بِكَ. معَكَ يَسكُبُ الدَّمعَ، ولمَّا تَحينُ الفُرصَةُ يَسفُكُ دَمَكَ.</td>
     </tr>
     <tr id="table_5_row_8" class="text">
         <td class="english">If calamity befalls you, you will find him there ahead of you; and while pretending to help you, he will trip you by the heel;</td>
-        <td class="arabic"></td>
+        <td class="arabic">إنْ أصابَكَ شَرٌّ سَبَقَكَ إلى المَكانِ وفيما يوهِمُكَ بِالعَونِ يُعَرقِلُ أُمورَكَ.</td>
     </tr>
     <tr id="table_5_row_9" class="text">
         <td class="english">he will shake his head, and clap his hands, and whisper much, and change his expression.</td>
-        <td class="arabic"></td>
+        <td class="arabic">فيكْشِفُ عَنْ حقيقةِ وجهِهِ: يَفرُكُ يَدَيهِ، بِرأْسِهِ يُومِـئْ مُستَحسِنًا ويَنشُرُ الإِشاعاتِ.</td>
     </tr>
     <tr id="table_5_row_10" class="text">
         <td class="english">Whoever touches pitch will be defiled, and whoever associates with a proud man will become like him.</td>
-        <td class="arabic"></td>
+        <td class="arabic">مَنْ لَمَسَ الزِّفتَ تَوسَّخَ، ومَنْ عاشَرَ المُتكَبِّرَ مِثلَهُ صارَ.</td>
     </tr>
     <tr id="table_5_row_12" class="intro">
         <td class="english">Glory be to the Holy Trinity, our God, forever and unto the age of all ages. Amen.</td>
@@ -208,10 +208,10 @@ ${paschalPraiseHtml}
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_9" title="Coptic Psalm">
         <caption class="caption" id="caption_table_9">Coptic Psalm<br>(31:18, 13)
-        <span class="arabic-caption">المزمور قبطي<br>(31:18, 13)</span></caption>
+        <span class="arabic-caption">المزمور قبطياً<br>(31:18, 13)</span></caption>
 
         <tr id="table_9_row_0" class="intro">
-            <td class="english">A psalm of David</td>
+            <td class="english">A Psalm of David</td>
             <td class="coptic">Ⲯⲁⲗⲙⲟⲥ ⲧⲱ Ⲇⲁⲩⲓⲇ</td>
             <td class="arabic">مزمور لداود</td>
         </tr>
@@ -244,7 +244,7 @@ ${paschalPraiseHtml}
     ${copticGospelIntroHtml}
     <table id="table_11" title="Coptic Gospel">
         <caption class="caption" id="caption_table_11">Coptic Gospel<br>(Mark 14:12-16)
-        <span class="arabic-caption">الإنجيل قبطي<br>(مرقس 14:12-16)</span></caption>
+        <span class="arabic-caption">الإنجيل قبطياً<br>(مرقس 14:12-16)</span></caption>
         <tr id="table_11_row_0" class="priest">
             <td class="english">A chapter according to St. Mark,</td>
             <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲣⲕⲟⲛ ⲁⲅⲓⲟⲩ.</td>
@@ -262,7 +262,7 @@ ${paschalPraiseHtml}
 
 
 
-<div class="section" id="section_7" title="Engligh and Arabic Psalm & Gospel">
+<div class="section" id="section_7" title="English and Arabic Psalm & Gospel">
 <table id="table_12" title="Psalm">
     <caption id="caption_table_12" class="caption">Psalm<br>(31:18, 13)
     <span class="arabic-caption">المزمور<br>(30: 18 و 13)</span></caption>
@@ -314,8 +314,8 @@ when they were gathered together against me, when they plotted to take my life.<
         <td class="arabic">فَهُوَ يُرِيكُمَا عِلِّيَّةً كَبِيرَةً مَفْرُوشَةً مُعَدَّةً. هُنَاكَ أَعِدَّا لَنَا».</td>
     </tr>
     <tr id="table_13_row_8" class="text">
-        <td class="english">So His disciples went out, and came into the city, and found it just as He had said to them; and they prepared the Passover.<br>Bow down before the Holy Gospel.</td>
-        <td class="arabic">فَخَرَجَ تِلْمِيذَاهُ وَأَتَيَا إِلَى الْمَدِينَةِ وَوَجَدَا كَمَا قَالَ لَهُمَا. فَأَعَدَّا الْفِصْحَ.<br>أسجدوا للإنجيل المقدس.</td>
+        <td class="english">So His disciples went out, and came into the city, and found it just as He had said to them; and they prepared the Passover.<br><i>Bow down before the Holy Gospel.</i></td>
+        <td class="arabic">فَخَرَجَ تِلْمِيذَاهُ وَأَتَيَا إِلَى الْمَدِينَةِ وَوَجَدَا كَمَا قَالَ لَهُمَا. فَأَعَدَّا الْفِصْحَ.<br><i>أسجدوا للإنجيل المقدس.</i></td>
     </tr>
     <tr id="table_13_row_10" class="intro">
         <td class="english">Glory be to God forever.</td>

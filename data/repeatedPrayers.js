@@ -1,22 +1,26 @@
 /** @format */
 
-function hourIntro(eHour, aHour, eDay, aDay) {
+function hourIntro(eHour, aHour, eDay, aDay , commentary) {
+    let commentaryHtml = '';
+    if (commentary) {
+        commentaryHtml = `
+        <tr id="table_1_row_1" class="commentary">
+            ${commentary}
+        </tr>
+        `
+    } 
     let html = `
         <div class="section" id="section_1" title="Introduction">
             <table id="table_1" title="Introduction of the ${eHour} Hour of the ${eDay}">
                 <caption class="caption" id="caption_table_1">The ${eHour} Hour of the ${eDay}<br><span class="arabic-caption">الساعة ${aHour} من ${aDay}</span></caption>
-                <tr id="table_1_row_1" class="role">
-                    <td class="english">Priest:</td>
-                    <td class="coptic">Ⲡⲓⲟⲩⲏⲃ:</td>
-                    <td class="arabic">الكاهن:</td>
-                </tr>
+                ${commentaryHtml}
                 <tr id="table_1_row_2" class="text">
-                    <td class="english">In the name of the Father, and the Son, and the Holy Spirit, one God. Amen.</td>
-                    <td class="coptic">Ϧⲉⲛ ⲫ̀ⲣⲁⲛ ⲙ̀Ⲫⲓⲱⲧ ⲛⲉⲙ Ⲡϣⲏⲣⲓ ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉ̀ⲑⲟⲩⲁⲃ ⲟⲩⲛⲟⲩϯ ⲛ̀ⲟⲩⲱⲧ: Ⲁⲙⲏⲛ.</td>
-                    <td class="arabic">باسم الأب والإبن والروح القدس اله واحد، امين.</td>
+                    <td class="english"><span class="role">Priest:</span><br>In the name of the Father, and the Son, and the Holy Spirit, one God. Amen.</td>
+                    <td class="coptic"><span class="role">Ⲡⲓⲟⲩⲏⲃ:</span><br>Ϧⲉⲛ ⲫ̀ⲣⲁⲛ ⲙ̀Ⲫⲓⲱⲧ ⲛⲉⲙ Ⲡϣⲏⲣⲓ ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉ̀ⲑⲟⲩⲁⲃ ⲟⲩⲛⲟⲩϯ ⲛ̀ⲟⲩⲱⲧ: Ⲁⲙⲏⲛ.</td>
+                    <td class="arabic"><span class="role">الكاهن:</span><br>باسم الأب والإبن والروح القدس اله واحد، امين.</td>
                 <tr id="table_1_row_3" class="text">
                     <td class="english">The prophecies of the ${eHour} hour of the ${eDay} of Holy Pascha. May its blessings be with us. Amen.</td>
-                    <td class="arabic">نبوات الساعة ${aHour} من ${aDay} من البصخة المقدسة بركاتها علينا، امين.</td>
+                    <td class="arabic">نبوات الساعة ${aHour} من ${aDay} من البصخة المقدسة بركاتها تكون معنا، امين.</td>
                 </tr>
                 
             </table>
@@ -56,12 +60,12 @@ function paschalPraise1(
                 </tr>
                 <tr id="table_${tableNumber1}_row_3" class="priest">
                     <td class="english">The doxology of the ${eHour} hour of the ${eDay} of Holy Pascha. May its blessings be with us. Amen.</td>
-                    <td class="arabic">تسبحة الساعة ${aHour} من ${aDay} من البصخة المقدسة بركاتها علينا، أمين.
+                    <td class="arabic">تسبحة الساعة ${aHour} من ${aDay} من البصخة المقدسة بركاتها تكون معنا، أمين.
                     </td>
                 </tr>
                 <tr id="table_${tableNumber1}_row_4" class="priest">
                     <td class="english">O Lord make us worthy to pray thankfully saying: Our Father…</td>
-                    <td class="coptic">Ⲁⲣⲓⲧⲉⲛ ⲛ̀ⲉⲙⲡ̀ϣⲁ ⲛ̀ϫⲟⲥ ϧⲉⲛ ⲟⲩϣⲉⲡϩ̀ⲙⲟⲧ: Ϫⲉ Ⲡⲉⲛⲓⲱⲟⲧ ...</td>
+                    <td class="coptic">Ⲁⲣⲓⲧⲉⲛ ⲛ̀ⲉⲙⲡ̀ϣⲁ ⲛ̀ϫⲟⲥ ϧⲉⲛ ⲟⲩϣⲉⲡϩ̀ⲙⲟⲧ: Ϫⲉ Ⲡⲉⲛⲓⲱⲧ ...</td>
                     <td class="arabic">اللهُمَ اجعلنا مستحقين ان نقول بشكر: أبانا الذي...</td>
                 </tr>
             </table>
@@ -122,12 +126,12 @@ function paschalPraise2(
                   </tr>
                   <tr id="table_${tableNumber1}_row_3" class="priest">
                       <td class="english">The doxology of the ${eHour} hour of the ${eDay} of Holy Pascha. May its blessings be with us. Amen.</td>
-                      <td class="arabic">تسبحة الساعة ${aHour} من ${aDay} من البصخة المقدسة بركاتها علينا، أمين.
+                      <td class="arabic">تسبحة الساعة ${aHour} من ${aDay} من البصخة المقدسة بركاتها تكون معنا، أمين.
                       </td>
                   </tr>
                   <tr id="table_${tableNumber1}_row_4" class="priest">
                       <td class="english">O Lord make us worthy to pray thankfully saying: Our Father…</td>
-                      <td class="coptic">Ⲁⲣⲓⲧⲉⲛ ⲛ̀ⲉⲙⲡ̀ϣⲁ ⲛ̀ϫⲟⲥ ϧⲉⲛ ⲟⲩϣⲉⲡϩ̀ⲙⲟⲧ: Ϫⲉ Ⲡⲉⲛⲓⲱⲟⲧ ...</td>
+                      <td class="coptic">Ⲁⲣⲓⲧⲉⲛ ⲛ̀ⲉⲙⲡ̀ϣⲁ ⲛ̀ϫⲟⲥ ϧⲉⲛ ⲟⲩϣⲉⲡϩ̀ⲙⲟⲧ: Ϫⲉ Ⲡⲉⲛⲓⲱⲧ ...</td>
                       <td class="arabic">اللهُمَ اجعلنا مستحقين ان نقول بشكر: أبانا الذي...</td>
                   </tr>
               </table>
@@ -186,12 +190,12 @@ function paschalPraise3(
                   </tr>
                   <tr id="table_${tableNumber1}_row_3" class="priest">
                       <td class="english">The doxology of the ${eHour} hour of the ${eDay} of Holy Pascha. May its blessings be with us. Amen.</td>
-                      <td class="arabic">تسبحة الساعة ${aHour} من ${aDay} من البصخة المقدسة بركاتها علينا، أمين.
+                      <td class="arabic">تسبحة الساعة ${aHour} من ${aDay} من البصخة المقدسة بركاتها تكون معنا، أمين.
                       </td>
                   </tr>
                   <tr id="table_${tableNumber1}_row_4" class="priest">
                       <td class="english">O Lord make us worthy to pray thankfully saying: Our Father…</td>
-                      <td class="coptic">Ⲁⲣⲓⲧⲉⲛ ⲛ̀ⲉⲙⲡ̀ϣⲁ ⲛ̀ϫⲟⲥ ϧⲉⲛ ⲟⲩϣⲉⲡϩ̀ⲙⲟⲧ: Ϫⲉ Ⲡⲉⲛⲓⲱⲟⲧ ...</td>
+                      <td class="coptic">Ⲁⲣⲓⲧⲉⲛ ⲛ̀ⲉⲙⲡ̀ϣⲁ ⲛ̀ϫⲟⲥ ϧⲉⲛ ⲟⲩϣⲉⲡϩ̀ⲙⲟⲧ: Ϫⲉ Ⲡⲉⲛⲓⲱⲧ ...</td>
                       <td class="arabic">اللهُمَ اجعلنا مستحقين ان نقول بشكر: أبانا الذي...</td>
                   </tr>
               </table>
@@ -234,7 +238,7 @@ function copticGospelIntro(tableNumber) {
         </tr>
         <tr id="table_${tableNumber}_row_2" class="text">
             <td class="english">To hear the Holy Gospel.</td>
-            <td class="coptic">ⲕⲩⲣⲓⲟⲛ ⲕⲉ ⲧⲟⲛ ⲑⲉⲟⲛ ⲏ̀ⲙⲱⲛ: <̀/td>
+            <td class="coptic">ⲕⲩⲣⲓⲟⲛ ⲕⲉ ⲧⲟⲛ ⲑⲉⲟⲛ ⲏ̀ⲙⲱⲛ:</td>
             <td class="arabic">لسماع الإنجيل المقدس.</td>
         </tr>
         <tr id="table_${tableNumber}_row_3" class="text">
@@ -253,7 +257,7 @@ function daytimeExpositionIntro(tableNumber) {
         <span class="arabic-caption">مقدمة الطرح</span></caption>
         <tr id="table_${tableNumber}_row_0" class="priest">
             <td class="english">In the name of the Trinity,</td>
-            <td class="coptic">Ϧⲉⲛ ⲫ̀ⲣⲁⲛ ⲛ̀ ϯⲧ̀ⲣⲓⲁⲥ:</td>
+            <td class="coptic">Ϧⲉⲛ ⲫ̀ⲣⲁⲛ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ:</td>
             <td class="arabic">باسم الثالوث</td>
         </tr>
         <tr id="table_${tableNumber}_row_1" class="congregation">
@@ -268,7 +272,7 @@ function daytimeExpositionIntro(tableNumber) {
         </tr>
         <tr id="table_${tableNumber}_row_3" class="congregation">
             <td class="english">And the Holy Spirit.</td>
-            <td class="coptic">ⲛⲉⲙ ⲡⲓ Ⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ.</td>
+            <td class="coptic">ⲛⲉⲙ ⲡⲓⲠ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ.</td>
             <td class="arabic">والروح القدس</td>
         </tr>
         <tr id="table_${tableNumber}_row_4" class="priest">
@@ -302,7 +306,7 @@ function nighttimeExpositionIntro(tableNumber) {
           <span class="arabic-caption">مقدمة الطرح</span></caption>
           <tr id="table_${tableNumber}_row_0" class="priest">
               <td class="english">In the name of the Trinity,</td>
-              <td class="coptic">Ϧⲉⲛ ⲫ̀ⲣⲁⲛ ⲛ̀ ϯⲧ̀ⲣⲓⲁⲥ :</td>
+              <td class="coptic">Ϧⲉⲛ ⲫ̀ⲣⲁⲛ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ :</td>
               <td class="arabic">باسم الثالوث</td>
           </tr>
           <tr id="table_${tableNumber}_row_1" class="congregation">
@@ -317,16 +321,16 @@ function nighttimeExpositionIntro(tableNumber) {
           </tr>
           <tr id="table_${tableNumber}_row_3" class="congregation">
               <td class="english">And the Holy Spirit</td>
-              <td class="coptic">ⲛⲉⲙ ⲡⲓ  ̀Ⲡⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ.</td>
+              <td class="coptic">ⲛⲉⲙ ⲡⲓⲠ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ.</td>
               <td class="arabic">والروح القدس</td>
           </tr>
           <tr id="table_${tableNumber}_row_4" class="priest">
               <td class="english">Hail thee O Mary;</td>
-              <td class="coptic">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ:̀</td>
+              <td class="coptic">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ:</td>
               <td class="arabic">السلام لك يا مريم</td>
           </tr>
           <tr id="table_${tableNumber}_row_5" class="congregation">
-              <td class="english">The Pure dove;</td>
+              <td class="english">The pure dove;</td>
               <td class="coptic">ϯ ϭ̀ⲣⲟⲙⲡⲓ ⲉⲑⲛⲉⲥⲱⲥ:</td>
               <td class="arabic">الحمامة الحسنة</td>
           </tr>
@@ -337,7 +341,7 @@ function nighttimeExpositionIntro(tableNumber) {
           </tr>
           <tr id="table_${tableNumber}_row_7" class="congregation">
               <td class="english">God  the Logos.</td>
-              <td class="coptic"> ⲙ̀Ⲫ̀ⲛⲟⲩϯ ⲡⲓⲗⲟⲅⲟⲥ.</td>
+              <td class="coptic">ⲙ̀Ⲫ̀ⲛⲟⲩϯ ⲡⲓⲗⲟⲅⲟⲥ.</td>
               <td class="arabic">الله الكلمة</td>
           </tr>
       </table>\n`;
@@ -360,7 +364,7 @@ function expositionConclusion(tableNumber) {
             <td class="arabic">جاء وتألم</td>
         </tr>
         <tr id="table_${tableNumber}_row_2" class="priest">
-            <td class="english">That through His passion,</td>
+            <td class="english">That through His Passion,</td>
             <td class="coptic">ϩⲓⲛⲁ ϧⲉⲛ ⲛⲉϥⲙ̀ⲕⲁⲩϩ:</td>
             <td class="arabic">لكى بألآمه</td>
         </tr>
@@ -676,57 +680,57 @@ function evnotiNaiNan(tableNumber) {
         <caption class="caption" id="caption_table_${tableNumber}"><span class="coptic-caption">˙Ⲫⲛⲟⲩϯ ⲛⲁⲓ ⲛⲁⲛ</span></caption>
         <tr id="table_${tableNumber}_row_0" class="priest">
             <td class="english">God, have mercy upon us, settle your mercy upon us, show us mercy in Your Kingdom.</td>
-            <td class="coptic">˙Ⲫⲛⲟⲩϯ ⲛⲁⲓ ⲛⲁⲛ ⲑⲉϣⲟⲩⲛⲁⲓ ⲉⲣⲟⲛ ⲁⲣⲓⲟⲩⲛⲁⲓ ⲛⲉⲙⲁⲛ ϧⲉⲛ ⲧⲉⲕⲙⲉⲧⲟⲩⲣⲟ .</td>
+            <td class="coptic">˙Ⲫⲛⲟⲩϯ ⲛⲁⲓ ⲛⲁⲛ: ⲑⲉϣⲟⲩⲛⲁⲓ ⲉⲣⲟⲛ: ⲁⲣⲓⲟⲩⲛⲁⲓ ⲛⲉⲙⲁⲛ: ϧⲉⲛ ⲧⲉⲕⲙⲉⲧⲟⲩⲣⲟ.</td>
             <td class="arabic">اللهم ارحمنا . قرر لنا رحمة . اصنع معنا رحمة فى ملكوتك.</td>
         </tr>
         <tr id="table_${tableNumber}_row_1" class="congregation">
-            <td class="english">Lord Have Mercy (12)</td>
+            <td class="english">Lord have mercy (12)</td>
             <td class="coptic">Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ (12)</td>
             <td class="arabic">يارب ارحم (12)</td>
         </tr>
         <tr id="table_${tableNumber}_row_2" class="north">
             <td class="english">O King of peace, grant us Your peace, establish for us Your peace, and forgive us our sins.</td>
-            <td class="coptic">˙Ⲡⲟⲩⲣⲟ ⲛ̀ⲧⲉ ϯϩⲓⲣⲏⲛⲏ ⲙⲟⲓ ⲛⲁⲛ ⲛ̀ⲧⲉⲕϩⲓⲣⲏⲛⲏ ⲥⲉⲙⲛⲓ ⲛⲁⲛ ⲛ̀ⲧⲉⲕϩⲓⲣⲏⲛⲏ :ⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ .</td>
+            <td class="coptic">˙Ⲡⲟⲩⲣⲟ ⲛ̀ⲧⲉ ϯϩⲓⲣⲏⲛⲏ: ⲙⲟⲓ ⲛⲁⲛ ⲛ̀ⲧⲉⲕϩⲓⲣⲏⲛⲏ: ⲥⲉⲙⲛⲓ ⲛⲁⲛ ⲛ̀ⲧⲉⲕϩⲓⲣⲏⲛⲏ: ⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.</td>
             <td class="arabic">يا ملك السلام:  إعطنا سلامك: قرر لنا سلامك:  وإغفر لنا خطايانا.</td>
         </tr>
         <tr id="table_${tableNumber}_row_3" class="congregation">
-            <td class="english">Lord Have Mercy (6)</td>
+            <td class="english">Lord have mercy (6)</td>
             <td class="coptic">Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ (6)</td>
             <td class="arabic">يارب ارحم (6)</td>
         </tr>
         <tr id="table_${tableNumber}_row_4" class="south">
             <td class="english">Disperse the enemies, of the church, and fortify her, that she may not be shaken forever.</td>
-            <td class="coptic">Ϫⲱⲣ ⲉ̀ⲃⲟⲗ ⲛ̀ⲛⲓϫⲁϫⲓ  ⲛ̀ⲧⲉ ϯⲉⲕⲕⲗⲏⲥⲓⲁ  ⲁⲣⲓⲥⲟⲃⲧ ⲉ̀ⲣⲟⲥ ⲛ̀ⲛⲉⲥⲕⲓⲙ ϣⲁ ⲉ̀ⲛⲉϩ .</td>
+            <td class="coptic">Ϫⲱⲣ ⲉ̀ⲃⲟⲗ ⲛ̀ⲛⲓϫⲁϫⲓ:  ⲛ̀ⲧⲉ ϯⲉⲕⲕⲗⲏⲥⲓⲁ:  ⲁⲣⲓⲥⲟⲃⲧ ⲉ̀ⲣⲟⲥ: ⲛ̀ⲛⲉⲥⲕⲓⲙ ϣⲁ ⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">فرق أعداء الكنيسة: وحصنها فلا تتزعزع إلى الأبد.</td>
         </tr>
         <tr id="table_${tableNumber}_row_5" class="congregation">
-            <td class="english">Lord Have Mercy (6)</td>
+            <td class="english">Lord have mercy (6)</td>
             <td class="coptic">Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ (6)</td>
             <td class="arabic">يارب ارحم (6)</td>
         </tr>
         <tr id="table_${tableNumber}_row_6" class="north">
             <td class="english">Emmanuel our God, is now in our midst, with the glory of His Father, and the Holy Spirit.</td>
-            <td class="coptic">Ⲉⲙⲙⲁⲛⲟⲩⲏⲗ ⲡⲉⲛⲛⲟⲩϯ ϧⲉⲛ ⲧⲉⲛⲙⲏϯ ϯⲛⲟⲩ  ϧⲉⲛ ⲡ̀ⲱⲟⲩ ⲛ̀ⲧⲉ ⲡⲉϥⲓⲱⲧ  ⲛⲉⲙ ⲡⲓⲡ̅ⲛ̅ⲁ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲉⲙⲙⲁⲛⲟⲩⲏⲗ ⲡⲉⲛⲛⲟⲩϯ: ϧⲉⲛ ⲧⲉⲛⲙⲏϯ ϯⲛⲟⲩ:  ϧⲉⲛ ⲡ̀ⲱⲟⲩ ⲛ̀ⲧⲉ ⲡⲉϥⲓⲱⲧ:  ⲛⲉⲙ ⲡⲓⲡ̅ⲛ̅ⲁ ⲉⲑ̅ⲩ̅.</td>
             <td class="arabic">عمانوئيل إلهنا: فى وسطنا الآن: بمجد أبيه: والروح القدس .</td>
         </tr>
         <tr id="table_${tableNumber}_row_7" class="congregation">
-            <td class="english">Lord Have Mercy (6)</td>
+            <td class="english">Lord have mercy (6)</td>
             <td class="coptic">Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ (6)</td>
             <td class="arabic">يارب ارحم (6)</td>
         </tr>
         <tr id="table_${tableNumber}_row_8" class="south">
             <td class="english">May He bless us all, and purify our hearts, and heal the sicknesses, of our souls and bodies.</td>
-            <td class="coptic">˙Ⲛⲧⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟⲛ ⲧⲏⲣⲉⲛ ⲛ̀ⲧⲉϥⲧⲟⲩⲃⲟ ⲛ̀ⲛⲉⲛϩⲏⲧ ⲛ̀ⲧⲉϥⲧⲁⲗϭⲟ ⲛ̀ⲛⲓϣⲱⲛⲓ  ⲛ̀ⲧⲉ ⲛⲉⲛⲯⲩⲭⲏ ⲛⲉⲙ ⲛⲉⲛⲥⲱⲙⲁ </td>
+            <td class="coptic">˙Ⲛⲧⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟⲛ ⲧⲏⲣⲉⲛ: ⲛ̀ⲧⲉϥⲧⲟⲩⲃⲟ ⲛ̀ⲛⲉⲛϩⲏⲧ: ⲛ̀ⲧⲉϥⲧⲁⲗϭⲟ ⲛ̀ⲛⲓϣⲱⲛⲓ: ⲛ̀ⲧⲉ ⲛⲉⲛⲯⲩⲭⲏ ⲛⲉⲙ ⲛⲉⲛⲥⲱⲙⲁ.</td>
             <td class="arabic">ليباركنا كلنا: ويطهر قلوبنا: ويشفى أمراض: نفوسنا وأجسادنا</td>
         </tr>
         <tr id="table_${tableNumber}_row_9" class="congregation">
-            <td class="english">Lord Have Mercy (6)</td>
+            <td class="english">Lord have mercy (6)</td>
             <td class="coptic">Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ (6)</td>
             <td class="arabic">يارب ارحم (6)</td>
         </tr>
         <tr id="table_${tableNumber}_row_10" class="north">
             <td class="english">We worship You O  Christ, with Your Good Father, and the Holy Spirit, for You were crucified and saved us.</td>
-            <td class="coptic">Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲓⲭⲣⲓⲥⲧⲟⲥ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: ϫⲉ ⲁϥⲁϣⲕ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ .</td>
+            <td class="coptic">Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲓⲭⲣⲓⲥⲧⲟⲥ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: ϫⲉ ⲁϥⲁϣⲕ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ.</td>
             <td class="arabic">نسجد لك أيها المسيح :مع أبيك الصالح: والروح القدس : لأنك صلبت وخلصتنا</td>
         </tr> 
 
@@ -778,7 +782,7 @@ function evnotiNaiNanGreat(tableNumber) {
             <td class="arabic">وارفع غضبك عنا وافتقدنا بخلاصك واغفر لنا خطايانا.</td>
         </tr>
         <tr id="table_${tableNumber}_row_8" class="congregation">
-            <td class="english">Lord Have Mercy (12)</td>
+            <td class="english">Lord have mercy (12)</td>
             <td class="coptic">Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ (12)</td>
             <td class="arabic">يارب ارحم (12)</td>
         </tr>
@@ -792,24 +796,34 @@ function endOfServiceHymn(tableNumber) {
             <caption class="caption" id="caption_table_${tableNumber}">Conclusion Hymn
             <span class="arabic-caption">لحن ختام الخدمة</span></caption>
             <tr id="table_${tableNumber}_row_0" class="congregation">
-                <td class="english">Amen, Alleluia, glory be to the Father and to the Son and to the Holy Spirit, both now and ever and unto the ages of ages. Amen.</td>
-                <td class="coptic">Ⲁⲙⲏⲛ ⲁⲗ̅ ⲇⲟⲝⲁⲡⲁⲧⲣⲓ ⲕⲉ Ⲩⲓⲱ̀ ⲕ̀ⲉ ⲁ̀ⲅⲓⲱ̀ Ⲡⲛⲉⲩⲙⲁⲧⲓ:  Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ⲓ̀ ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ : ⲁⲙⲏⲛ.</td>
-                <td class="arabic">آمين الليلويا المجد للآب و الابن والروح القدس ، الآن و كل اوان والى دهر الداهرين، آمين .</td>
+                <td class="english">Amen, Alleluia, glory be to the Father and to the Son and to the Holy Spirit,</td>
+                <td class="coptic">Ⲁⲙⲏⲛ ⲁⲗ̅ ⲇⲟⲝⲁ ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩⲓⲱ̀ ⲕ̀ⲉ ⲁ̀ⲅⲓⲱ̀ Ⲡⲛⲉⲩⲙⲁⲧⲓ:</td>
+                <td class="arabic">آمين الليلويا المجد للآب و الابن والروح القدس،</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_0.5" class="congregation">
+                <td class="english">both now and ever and unto the ages of ages. Amen.</td>
+                <td class="coptic">Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ⲓ̀ ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ : ⲁⲙⲏⲛ.</td>
+                <td class="arabic">الآن و كل اوان والى دهر الداهرين، آمين.</td>
             </tr>
             <tr id="table_${tableNumber}_row_1" class="congregation">
-                <td class="english">We cry out saying, our Lord Jesus Christ, Who was crucified on the cross, trample down Satan under our feet.</td>
-                <td class="coptic">Ⲧⲉⲛⲱϣ ⲉ̀ⲃⲟⲗ ⲉⲛϫⲱ ⲙ̀ⲙⲟⲥ  ϫⲉ ⲱ̀Ⲡⲉⲛ⳪ Ⲓⲏⲥ̅ Ⲡⲭⲥ̅. Ⲫⲏ ⲉⲧⲁⲩⲁϣϥ ⲉ̀ⲡⲓⲥⲧⲁⲩⲣⲟⲥ  ⲉⲕⲉ̀ϧⲟⲙϧⲉⲙ ⲙ̀ⲡ̀ⲥⲁⲧⲁⲛⲁⲥ ⲥⲁⲡⲉⲥⲏⲧ ⲛ̀ⲛⲉⲛϭⲁⲗⲁⲩϫ:</td>
-                <td class="arabic">نصرخ قائلين يا ربنا يسوع المسيح الذى صلب على الصليب، إسحق الشيطان تحت أقدامنا</td>
+                <td class="english">We cry out saying, our Lord Jesus Christ,</td>
+                <td class="coptic">Ⲧⲉⲛⲱϣ ⲉ̀ⲃⲟⲗ ⲉⲛϫⲱ ⲙ̀ⲙⲟⲥ  ϫⲉ ⲱ̀Ⲡⲉⲛ⳪ Ⲓⲏⲥ̅ Ⲡⲭⲥ̅.</td>
+                <td class="arabic">نصرخ قائلين يا ربنا يسوع المسيح</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_1.5" class="congregation">
+                <td class="english">Who was crucified on the cross, trample down Satan under our feet.</td>
+                <td class="coptic">Ⲫⲏⲉⲧⲁⲩⲁϣϥ ⲉ̀ⲡⲓⲥⲧⲁⲩⲣⲟⲥ  ⲉⲕⲉ̀ϧⲟⲙϧⲉⲙ ⲙ̀ⲡ̀ⲥⲁⲧⲁⲛⲁⲥ ⲥⲁⲡⲉⲥⲏⲧ ⲛ̀ⲛⲉⲛϭⲁⲗⲁⲩϫ:</td>
+                <td class="arabic">الذى صلب على الصليب، إسحق الشيطان تحت أقدامنا</td>
             </tr>
             <tr id="table_${tableNumber}_row_2" class="congregation">
                 <td class="english">Save us and have mercy. Lord have mercy. Lord have mercy. Lord bless. Amen. </td>
-                <td class="coptic">ⲥⲱϯ ⲙ̀ⲙⲟⲛ ⲟⲩⲟϩ ⲛⲁⲓⲛⲁⲛ  Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ Ⲕⲩⲣⲓⲉ̀ ⲉⲩⲗⲟⲅⲏⲥⲟⲛ ⲁ̀ⲙⲉⲛ.</td>
+                <td class="coptic">ⲥⲱϯ ⲙ̀ⲙⲟⲛ ⲟⲩⲟϩ ⲛⲁⲓ ⲛⲁⲛ  Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ Ⲕⲩⲣⲓⲉ̀ ⲉⲩⲗⲟⲅⲏⲥⲟⲛ ⲁⲙⲏⲛ.</td>
                 <td class="arabic">خلصنا وارحمنا. يارب ارحم ، يارب ارحم، يارب بارك آمين</td>
             </tr>
             <tr id="table_${tableNumber}_row_3" class="congregation">
                 <td class="english">Give the blessing, give the blessing, we prostrate, absolve us, and give the blessing.</td>
-                <td class="coptic"> ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟⲓ ⲥⲙⲟⲩ ⲉ̀ⲣⲟⲓ  ⲓⲥ ϯⲙⲉⲧⲁⲛⲟⲓ̀ⲁ  ⲭⲱⲛⲏⲓ ⲉ̀ⲃⲟⲗ ϫⲱ ⲙ̀ⲡⲓⲥ̀ⲙⲟⲩ.</td>
-                <td class="arabic">. باركوا علىّ باركوا علىّ ها الميطانية اغفروا لى .فلتقل البركة.</td>
+                <td class="coptic">ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟⲓ ⲥⲙⲟⲩ ⲉ̀ⲣⲟⲓ  ⲓⲥ ϯⲙⲉⲧⲁⲛⲟⲓ̀ⲁ  ⲭⲱ ⲛⲏⲓ ⲉ̀ⲃⲟⲗ ϫⲱ ⲙ̀ⲡⲓⲥ̀ⲙⲟⲩ.</td>
+                <td class="arabic">باركوا علىّ باركوا علىّ ها الميطانية اغفروا لى .فلتقل البركة.</td>
             </tr>
             <tr id="table_${tableNumber}_row_4" class="priest">
                 <td class="english">May Jesus Christ, our true God who through His own goodwill accepted sufferings, and was crucified on the cross for our sakes, </td>
@@ -821,7 +835,7 @@ function endOfServiceHymn(tableNumber) {
             </tr>
             <tr id="table_${tableNumber}_row_6" class="priest">
                 <td class="english">Through the never-ending intercessions of the holy, Theotokos St. Mary, and all the choirs of angels and archangels;</td>
-                <td class="arabic">بالسؤلات والطلبات التى تصنعها عنا كل حين سيدتنا وملكتنا كلنا والدة الإله القديسة مريم والثلاثة المنيرين الأطهار ميخائيل وغبريال ورافائيل .وجميع مصاف الملائكة وكل الطغمات السمائية</td>
+                <td class="arabic">بالسؤلات والطلبات التى تصنعها عنا كل حين سيدتنا وملكتنا كلنا والدة الإله القديسة مريم وكل صفوف الملائكة ورؤساء الملائكة</td>
             </tr>
             <tr id="table_${tableNumber}_row_7" class="priest">
                 <td class="english">through the prayers of the Patriarchs, the prophets, the Apostles, the martyrs, the righteous and holy ones, the cross-bearers, the ascetics, the confessors and anchorites;</td>
@@ -851,7 +865,7 @@ function endOfServiceHymn(tableNumber) {
             </tr>
             <tr id="table_${tableNumber}_row_13" class="priest">
                 <td class="english">Make us, O Lord, worthy to pray thankfully:</td>
-                <td class="arabic">اللهم اجعلنا مستحقين ان نقول جميعا بشكر:</td>
+                <td class="arabic">اللهم اجعلنا مستحقين ان نقول بشكر:</td>
             </tr>
             <tr id="table_${tableNumber}_row_14" class="congregation">
                 <td class="english">Our Father who art in heaven...</td>
@@ -877,13 +891,27 @@ function faiEtafEnf(tableNumber) {
             <td class="arabic"> فاشتمه أبوه الصالح وقت المساء على الجلجثة.</td>
         </tr>
         <tr id="table_${tableNumber}_row_2" class="text">
-            <td class="english">We worship you O Christ with your good Father and the Holy Spirit for You were crucified and saved us. </td>
-            <td class="coptic">Ⲧⲉⲛⲟⲩⲱ̀ϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡ̅ⲭ̅ⲥ ⲛⲉⲙ ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁⲅⲁⲑⲟⲥ ⲛⲉⲙ ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ ϫⲉ ⲁⲩⲁϣⲕ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ ⲛⲁⲓ ⲛⲁⲛ.</td>
-            <td class="arabic">نسجد لكَ أيها المسيح مع أبيك الصالح والروح القدس لأنكَ صلبت وخلصتنا</td>
+            <td class="english">We worship You O Christ: with Your good Father: and the Holy Spirit: for You were crucified and saved us. </td>
+            <td class="coptic">Ⲧⲉⲛⲟⲩⲱ̀ϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡ̅ⲭ̅ⲥ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: ϫⲉ ⲁⲩⲁϣⲕ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ ⲛⲁⲓ ⲛⲁⲛ.</td>
+            <td class="arabic">نسجد لكَ أيها المسيح: مع أبيك الصالح: والروح القدس: لأنكَ صلبت وخلصتنا.</td>
         </tr>
     </table>
 `;
    return html;
+}
+
+function tenouosht(tableNumber) {
+    let html = `
+    <table id="table_${tableNumber}" title="Tenouosht">
+        <caption class="caption" id="caption_table_${tableNumber}"><span class="coptic-caption">Ⲧⲉⲛⲟⲩⲱ̀ϣⲧ</span></caption>
+        <tr id="table_${tableNumber}_row_0" class="text">
+            <td class="english">We worship You O Christ: with Your good Father: and the Holy Spirit: for You were crucified and saved us. </td>
+            <td class="coptic">Ⲧⲉⲛⲟⲩⲱ̀ϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡ̅ⲭ̅ⲥ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: ϫⲉ ⲁⲩⲁϣⲕ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ ⲛⲁⲓ ⲛⲁⲛ.</td>
+            <td class="arabic">نسجد لكَ أيها المسيح: مع أبيك الصالح: والروح القدس: لأنكَ صلبت وخلصتنا.</td>
+        </tr>
+    </table>
+`;
+    return html;
 }
 
 const cross =
@@ -911,6 +939,7 @@ export {
     evnotiNaiNanGreat,
     endOfServiceHymn,
     faiEtafEnf,
+    tenouosht,
     cross,
     candle,
     arrowUp,

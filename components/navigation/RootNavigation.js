@@ -37,6 +37,7 @@ import { DOM1sc , DOM3sc , DOM6sc , DOM9sc , DOM11sc } from "../screens/holyWeek
 import { DOT1sc , DOT3sc , DOT6sc , DOT9sc , DOT11sc } from "../screens/holyWeek/hours/dOT";
 import { EOM1sc , EOM3sc , EOM6sc , EOM9sc , EOM11sc } from "../screens/holyWeek/hours/eOM";
 import { DOW1sc , DOW3sc , DOW6sc , DOW9sc , DOW11sc } from "../screens/holyWeek/hours/dOW";
+import { DaytimeLitaniessc , NighttimeLitaniessc } from "../screens/holyWeek/hours/litanies";
 
 
 
@@ -64,6 +65,7 @@ const RouteConfig = [
         children: [
           { screenName: "DOS9sc", label: "9th Hour", component: DOS9sc },
           { screenName: "DOS11sc", label: "11th Hour", component: DOS11sc },
+          { screenName: "DaytimeLitaniessc", label: "Daytime Litanies", component: DaytimeLitaniessc , linkStack: true },
         ],
       },
       {
@@ -76,6 +78,7 @@ const RouteConfig = [
           { screenName: "EOM6sc", label: "6th Hour", component: EOM6sc },
           { screenName: "EOM9sc", label: "9th Hour", component: EOM9sc },
           { screenName: "EOM11sc", label: "11th Hour", component: EOM11sc },
+          { screenName: "NighttimeLitaniessc", label: "Nighttime Litanies", component: NighttimeLitaniessc , linkStack: true },
         ],
       },
       {
@@ -88,6 +91,7 @@ const RouteConfig = [
           { screenName: "DOM6sc", label: "6th Hour", component: DOM6sc },
           { screenName: "DOM9sc", label: "9th Hour", component: DOM9sc },
           { screenName: "DOM11sc", label: "11th Hour", component: DOM11sc },
+          { screenName: "DaytimeLitaniessc", label: "Daytime Litanies", component: DaytimeLitaniessc , linkStack: true },
         ],
       },
       {
@@ -100,6 +104,7 @@ const RouteConfig = [
           { screenName: "EOT6sc", label: "6th Hour", component: EOT6sc },
           { screenName: "EOT9sc", label: "9th Hour", component: EOT9sc },
           { screenName: "EOT11sc", label: "11th Hour", component: EOT11sc },
+          { screenName: "NighttimeLitaniessc", label: "Nighttime Litanies", component: NighttimeLitaniessc , linkStack: true },
         ],
       },
       {
@@ -112,6 +117,7 @@ const RouteConfig = [
           { screenName: "DOT6sc", label: "6th Hour", component: DOT6sc },
           { screenName: "DOT9sc", label: "9th Hour", component: DOT9sc },
           { screenName: "DOT11sc", label: "11th Hour", component: DOT11sc },
+          { screenName: "DaytimeLitaniessc", label: "Daytime Litanies", component: DaytimeLitaniessc , linkStack: true },
         ],
       },
       {
@@ -124,6 +130,7 @@ const RouteConfig = [
           { screenName: "EOW6sc", label: "6th Hour", component: EOW6sc },
           { screenName: "EOW9sc", label: "9th Hour", component: EOW9sc },
           { screenName: "EOW11sc", label: "11th Hour", component: EOW11sc },
+          { screenName: "NighttimeLitaniessc", label: "Nighttime Litanies", component: NighttimeLitaniessc , linkStack: true },
         ],
       },
       {
@@ -136,6 +143,7 @@ const RouteConfig = [
           { screenName: "DOW6sc", label: "6th Hour", component: DOW6sc },
           { screenName: "DOW9sc", label: "9th Hour", component: DOW9sc },
           { screenName: "DOW11sc", label: "11th Hour", component: DOW11sc },
+          { screenName: "DaytimeLitaniessc", label: "Daytime Litanies", component: DaytimeLitaniessc , linkStack: true },
         ],
       },
       {
@@ -148,6 +156,7 @@ const RouteConfig = [
           { screenName: "EOTH6sc", label: "6th Hour", component: EOTH6sc },
           { screenName: "EOTH9sc", label: "9th Hour", component: EOTH9sc },
           { screenName: "EOTH11sc", label: "11th Hour", component: EOTH11sc },
+          { screenName: "NighttimeLitaniessc", label: "Nighttime Litanies", component: NighttimeLitaniessc , linkStack: true },
         ],
       },
       {
@@ -160,6 +169,7 @@ const RouteConfig = [
           { screenName: "DOTH6sc", label: "6th Hour", component: DOTH6sc },
           { screenName: "DOTH9sc", label: "9th Hour", component: DOTH9sc },
           { screenName: "DOTH11sc", label: "11th Hour", component: DOTH11sc },
+          { screenName: "DaytimeLitaniessc", label: "Daytime Litanies", component: DaytimeLitaniessc , linkStack: true },
         ],
       },
       {
@@ -172,6 +182,7 @@ const RouteConfig = [
           { screenName: "EOF6sc", label: "6th Hour", component: EOF6sc },
           { screenName: "EOF9sc", label: "9th Hour", component: EOF9sc },
           { screenName: "EOF11sc", label: "11th Hour", component: EOF11sc },
+          { screenName: "NighttimeLitaniessc", label: "Nighttime Litanies", component: NighttimeLitaniessc , linkStack: true },
         ],
 
       },
@@ -188,7 +199,17 @@ const RouteConfig = [
           { screenName: "DOF11sc", label: "11th Hour", component: DOF11sc },
           { screenName: "DOF12sc", label: "12th Hour", component: DOF12sc },
         ],
-      }
+      },
+      {
+        screenName: "DaytimeLitaniessc",
+        label: "Daytime Litanies",
+        component: DaytimeLitaniessc,
+      },
+      {
+        screenName: "NighttimeLitaniessc",
+        label: "Nighttime Litanies",
+        component: NighttimeLitaniessc,
+      },
     ],
   },
 ];
@@ -205,27 +226,24 @@ const LeftDrawerContent = ({ navigation, currentRoute, ...props }) => {
     navigation.closeDrawer();
   };
 
-  const findParentAndSiblings = (items, targetRoute, parent = null) => {
+  const findParentAndSiblings = (items, targetRoute, parent = null, grandParent = null) => {
     for (const item of items) {
       if (item.screenName === targetRoute) {
-        // Include parent and its siblings, excluding the target route
-        if (parent) {
-          return [
-            { ...parent, type: "parent" }, // Add type property to parent
-            ...items
-              .filter(
-                (sibling) =>
-                  sibling.screenName !== targetRoute && sibling !== parent
-              )
-              .map((sibling) => ({ ...sibling, type: "child" })), // Add type property to siblings
-          ];
-        } else {
-          return items
-            .filter((sibling) => sibling.screenName !== targetRoute)
-            .map((sibling) => ({ ...sibling, type: "child" })); // Add type property to siblings
-        }
+        const parentItem = parent ? { ...parent, type: "parent" } : null;
+        const grandParentItem = grandParent ? { ...grandParent, type: "parent" } : null;
+        const siblings = items.filter(
+          (sibling) =>
+            sibling.screenName !== targetRoute &&
+            sibling !== parent &&
+            sibling !== grandParent
+        ).map((sibling) => ({ ...sibling, type: "child" }));
+        return [
+          grandParentItem,
+          parentItem,
+          ...siblings
+        ].filter(Boolean); // Remove any null values
       } else if (Array.isArray(item.children)) {
-        const found = findParentAndSiblings(item.children, targetRoute, item);
+        const found = findParentAndSiblings(item.children, targetRoute, item, parent);
         if (found) {
           return found;
         }
@@ -233,7 +251,7 @@ const LeftDrawerContent = ({ navigation, currentRoute, ...props }) => {
     }
     return null;
   };
-  
+      
 
   const renderDrawerItems = (items) => {
     const renderedItems = items.map((item, index) => (
@@ -302,13 +320,17 @@ const LeftDrawerContent = ({ navigation, currentRoute, ...props }) => {
 // Define the MainStackNavigator which nests all the main screens.
 
 const createStackScreens = (route) => {
-  if (!route || !route.screenName) {
+  if (!route || !route.screenName ) {
     console.error("Invalid route:", route);
     return null; // Return null if route is invalid
   }
 
-  const { screenName, component, children } = route;
+  const { screenName, component, children , linkStack } = route;
   const Stack = createStackNavigator();
+
+  if (linkStack) {
+    return null;
+  }
 
   // Create a stack screen for the parent route
   const parentScreen = (

@@ -3,7 +3,7 @@ import { hourIntro, paschalPraise2 , copticGospelIntro, daytimeExpositionIntro, 
 export const DOTH3 = () => {
     const hourIntroHtml = hourIntro("THIRD","الثالثة","DAY of COVENANT THURSDAY","يوم خميس العهد");
     const paschalPraiseHtml = paschalPraise2("5","7","8","THIRD","الثالثة","DAY of COVENANT THURSDAY","يوم خميس العهد");
-    const copticGospelIntroHtml = copticGospelIntro("8");
+    const copticGospelIntroHtml = copticGospelIntro("10");
     const daytimeExpositionIntroHtml = daytimeExpositionIntro("14");
     const expositionConclusionHtml = expositionConclusion("16");
 
@@ -17,7 +17,7 @@ ${hourIntroHtml}
 <div class="section" id="section_2" title="Coptic Prophecies">
     <table id="table_2" title="Coptic Prophecies">
     <caption class="caption" id="caption_table_2">Coptic Prophecies
-    <span class="arabic-caption">النبوات قبطي</span></caption>
+    <span class="arabic-caption">النبوات قبطياً</span></caption>
         <tr id="table_2_row_3" class="intro">
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲡⲓⲇⲟⲝⲟⲇⲟⲥ ⲛ̀ⲧⲉ Ⲙⲱ̀̀ⲩⲥⲏⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ (ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ):</td>
         </tr>
@@ -250,32 +250,32 @@ ${paschalPraiseHtml}
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_9" title="Coptic Psalm">
         <caption class="caption" id="caption_table_9">Coptic Psalm<br>(94:21 and 23)
-        <span class="arabic-caption">المزمور قبطي<br>(94:21 and 23)</span></caption>
+        <span class="arabic-caption">المزمور قبطياً<br>(94:21 and 23)</span></caption>
 
         <tr id="table_9_row_0" class="intro">
-            <td class="english">A psalm of David</td>
+            <td class="english">A Psalm of David</td>
             <td class="coptic">Ⲯⲁⲗⲙⲟⲥ ⲧⲱ Ⲇⲁⲩⲓⲇ</td>
             <td class="arabic">مزمور لداود</td>
         </tr>
         <tr id="table_9_row_1" class="text">
             <td class="english">They shall hunt for the soul of a righteous man,</td>
             <td class="coptic">Ⲥⲉⲛⲁϫⲱⲣϫ ⲉ̀ϫⲉⲛ ⲧ̀ⲯⲩⲭⲏ ⲛ̀ⲟⲩⲑ̀ⲙⲏⲓ :</td>
-            <td class="arabic">يتصيدون على نفس الصديق. </td>
+            <td class="arabic">يتصيدون على نفس الصديق،</td>
         </tr>
         <tr id="table_9_row_2" class="text">
             <td class="english">And shall condemn innocent blood.</td>
             <td class="coptic">ⲟⲩⲟϩ ⲟⲩⲥ̀ⲛⲟϥ ⲛ̀ⲁⲑⲛⲟⲃⲓ ⲥⲉⲛⲁϩⲓⲧϥ ⲉ̀ⲡ̀ϩⲁⲡ : </td>
-            <td class="arabic">ويلقون إلى الحكم دماً زكياً </td>
+            <td class="arabic">ويلقون إلى الحكم دمًا ذكيًا </td>
         </tr>
         <tr id="table_9_row_3" class="text">
             <td class="english">He will repay their lawlessness to them, and according to their wickedness,</td>
             <td class="coptic">Ⲟⲩⲟϩ ⲉϥⲉ̀ⲧⲱⲃ ⲛⲱⲟⲩ ⲛ̀ⲧⲟⲩⲁ̀ⲛⲟⲙⲓⲁ̀ ⲛⲉⲙ ⲡⲟⲩⲡⲉⲧϩⲱⲟⲩ : </td>
-            <td class="arabic">وسيكافئهم بإثمهم وشرهم.</td>
+            <td class="arabic">وسيكافئكم بإثمهم وشرهم، </td>
         </tr>
         <tr id="table_9_row_4" class="text">
             <td class="english">the Lord our God shall destroy them. </td>
             <td class="coptic">ⲟⲩⲟϩ ⲉϥⲉ̀ⲧⲁⲕⲱⲟⲩ ⲛ̀ϫⲉ Ⲡ⳪ ⲡⲁⲛⲟⲩϯ:</td>
-            <td class="arabic">ويبيدهم الرب إلهى.</td>
+            <td class="arabic">ويبيدهم الرب إلهى:</td>
         </tr>
         <tr id="table_9_row_5" class="intro">
             <td class="english">Alleluia.</td>
@@ -286,9 +286,9 @@ ${paschalPraiseHtml}
     ${copticGospelIntroHtml}
     <table id="table_11" title="Coptic Gospel">
         <caption class="caption" id="caption_table_11">Coptic Gospel<br>(Matthew 26:17-19)
-        <span class="arabic-caption">الإنجيل قبطي<br>(متى 26:17-19)</span></caption>
+        <span class="arabic-caption">الإنجيل قبطياً<br>(متى 26:17-19)</span></caption>
         <tr id="table_11_row_0" class="priest">
-            <td class="english">A chapter according to St. Mathew,</td>
+            <td class="english">A chapter according to St. Matthew,</td>
             <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲱⲛ ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">فصل من إنجيل معلمنا مار متى</td>
         </tr>
@@ -303,7 +303,7 @@ ${paschalPraiseHtml}
 
 
 
-<div class="section" id="section_7" title="Engligh and Arabic Psalm & Gospel">
+<div class="section" id="section_7" title="English and Arabic Psalm & Gospel">
     <table id="table_12" title="Psalm">
         <caption id="caption_table_12" class="caption">Psalm<br>(94:21 and 23)
         <span class="arabic-caption">المزمور<br>(94: 21 و 23)</span></caption>
@@ -312,16 +312,12 @@ ${paschalPraiseHtml}
             <td class="arabic">من مزامير معلمنا داود النبي، بركته تكون معنا، آمين.</td>
         </tr>
         <tr id="table_12_row_4" class="text">
-            <td class="english">They shall hunt for the soul of a righteous man,
-    
-    And shall condemn innocent blood.</td>
-            <td class="arabic"></td>
+            <td class="english">They shall hunt for the soul of a righteous man, and shall condemn innocent blood.</td>
+            <td class="arabic">يتصيدون على نفس الصديق، ويلقون إلى الحكم دمًا ذكيًا </td>
         </tr>
         <tr id="table_12_row_5" class="text">
-            <td class="english">He will repay their lawlessness to them, and according to their wickedness,
-
-    the Lord our God shall destroy them.</td>
-            <td class="arabic"></td>
+            <td class="english">He will repay their lawlessness to them, and according to their wickedness, the Lord our God shall destroy them.</td>
+            <td class="arabic">وسيكافئكم بإثمهم وشرهم، ويبيدهم الرب إلهى:</td>
         </tr>
         <tr id="table_12_row_7" class="intro">
             <td class="english">Alleluia.</td>
@@ -345,8 +341,8 @@ ${paschalPraiseHtml}
             <td class="arabic">فَقَالَ: «اذْهَبُوا إِلَى الْمَدِينَةِ إِلَى فُلاَنٍ وَقُولُوا لَهُ: الْمُعَلِّمُ يَقُولُ إِنَّ وَقْتِي قَرِيبٌ. عِنْدَكَ أَصْنَعُ الْفِصْحَ مَعَ تَلاَمِيذِي».</td>
         </tr>
         <tr id="table_13_row_6" class="text">
-            <td class="english">So the disciples did as Jesus had directed them; and they prepared the Passover.<br>Bow down before the Holy Gospel.</td>
-            <td class="arabic">فَفَعَلَ التَّلاَمِيذُ كَمَا أَمَرَهُمْ يَسُوعُ وَأَعَدُّوا الْفِصْحَ.<br>أسجدوا للإنجيل المقدس.</td>
+            <td class="english">So the disciples did as Jesus had directed them; and they prepared the Passover.<br><i>Bow down before the Holy Gospel.</i></td>
+            <td class="arabic">فَفَعَلَ التَّلاَمِيذُ كَمَا أَمَرَهُمْ يَسُوعُ وَأَعَدُّوا الْفِصْحَ.<br><i>أسجدوا للإنجيل المقدس.</i></td>
         </tr>
         <tr id="table_13_row_8" class="intro">
             <td class="english">Glory be to God forever.</td>

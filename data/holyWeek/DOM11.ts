@@ -6,7 +6,7 @@ export const DOM11 = () => {
     const copticGospelIntroHtml = copticGospelIntro("17");
     const daytimeExpositionIntroHtml = daytimeExpositionIntro("21");
     const expositionConclusionHtml = expositionConclusion("23");
-    const daytimeLitaniesHtml = daytimeLitanies("24");
+    const daytimeLitaniesHtml = daytimeLitanies("24",true);
     const evnotiNaiNanHtml = evnotiNaiNan("25");
     const endOfServiceHymnHtml = endOfServiceHymn("26");
 
@@ -20,7 +20,7 @@ ${hourIntroHtml}
 <div class="section" id="section_2" title="Coptic Prophecies">
     <table id="table_2" title="Coptic Prophecies">
     <caption class="caption" id="caption_table_2">Coptic Prophecies
-    <span class="arabic-caption">النبوات قبطي</span></caption>
+    <span class="arabic-caption">النبوات قبطياً</span></caption>
         <tr id="table_2_row_3" class="intro">
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲏ̀ⲥⲁⲏ̀ⲁⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ (ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ): </td>
         </tr>
@@ -73,57 +73,53 @@ ${hourIntroHtml}
     <caption id="caption_table_4" class="caption">2nd Prophecy<br>(Sirach 1:20-30)
     <span class="arabic-caption">النبوة الثانية<br>(يشوع بن سيراخ 1: 20-30)</span></caption>
     <tr id="table_4_row_1" class="intro">
-        <td class="english">A reading from Sirach the prophet. May his blessings be with us. Amen.</td>
+        <td class="english">The beginning of Joshua, son of Sirach the prophet. May his blessings be with us. Amen.</td>
         <td class="arabic">بدء يشوع ابن سيراخ بركته تكون معنا، آمين.</td>
     </tr>
     <tr id="table_4_row_4" class="text">
         <td class="english">To fear the Lord is the root of wisdom,
 and her branches are long life.</td>
-        <td class="arabic">مِنْ نَقلِ مَعنَى الكلامِ بِوضوحِ كُلِّيٍّ في بَعضِ العِبارَاتِ،</td>
+        <td class="arabic">أصلُ الحِكمةِ مَخافةُ الرّبٌ وفُروعُها حياةٌ طويلَةٌ.</td>
     </tr>
     <tr id="table_4_row_5" class="text">
         <td class="english">Unrighteous anger cannot be justified,
 for a man's anger tips the scale to his ruin.</td>
-        <td class="arabic">ذلِكَ أنَّ مَعنَى النَّصٌ العِبْريٌ</td>
+        <td class="arabic">الغضَبُ بلا سبَبٍ لا يتَبَرَّرُ وبِصاحِبِهِ يُؤَدِّي إلى السُّقوطِ.</td>
     </tr>
     <tr id="table_4_row_6" class="text">
         <td class="english">A patient man will endure until the right moment, and then joy will burst forth for him.</td>
-        <td class="arabic">لا يَبقَى دائِمًا ذاتَهُ حينَ يُتَرجَمُ إلى لُغَةٍ أُخرَى،</td>
+        <td class="arabic">الصَّبورُ يتَحَمَّلُ إلى أنْ يَحينَ الوقتُ، ولا بُدَ أَنْ يُعاودَهُ الفرَحُ.</td>
     </tr>
     <tr id="table_4_row_7" class="text">
         <td class="english">He will hide his words until the right moment, and the lips of many will tell of his good sense.</td>
-        <td class="arabic">وهذا لا يَنطَبِقُ فقط على هذا الكِتابِ،</td>
+        <td class="arabic">يَصمُتُ حتـى يَجيءَ الوقتُ، فيَمتَدِحُ حِكمتَهُ مُعظَمُ النَّاسِ.</td>
     </tr>
     <tr id="table_4_row_8" class="text">
         <td class="english">In the treasuries of wisdom are wise sayings, but godliness is an abomination to a sinner.</td>
-        <td class="arabic">بل أيضًا على الشَّريعةِ والأَنبـياءِ</td>
+        <td class="arabic">في خَزائِنِ الحِكمةِ أقوالٌ مأثورةٌ: لكِنِ التَّقوى رجسٌ عِندَ الخاطئِ.</td>
     </tr>
     <tr id="table_4_row_9" class="text">
         <td class="english">If you desire wisdom, keep the commandments, and the Lord will supply it for you.</td>
-        <td class="arabic">وبَقيَّةِ الكِتاباتِ،</td>
+        <td class="arabic">إنْ شِئْتَ الحِكمةَ، فاَحْفَظِ الوصايا. وبِها يَجودُ الرّبُّ علَيكَ.</td>
     </tr>
     <tr id="table_4_row_10" class="text">
         <td class="english">For the fear of the Lord is wisdom and instruction, and he delights in fidelity and meekness.</td>
-        <td class="arabic">فدائِمًا بَينَ الأَصلِ وَالتَّرجمةِ فَرْقٌ ظاهِرٌ.</td>
+        <td class="arabic">مَخافةُ الرّبٌ حِكمةٌ وتأْديبٌ، وَالإيمانُ والوداعةُ يُرضِيانِهِ.</td>
     </tr>
     <tr id="table_4_row_11" class="text">
         <td class="english">Do not disobey the fear of the Lord; do not approach him with a divided mind.</td>
-        <td class="arabic">أمَّا أنا فجِئْتُ في السَّنةِ الثَّامِنةِ والثَّلاثينَ</td>
+        <td class="arabic">لا تتوقَّفْ عَنْ مَخافةِ الرّبٌ، وبِكُلٌ قلبِكَ تقَرَّبْ إليهِ.</td>
     </tr>
     <tr id="table_4_row_12" class="text">
         <td class="english">Be not a hypocrite in men's sight, and keep watch over your lips.</td>
-        <td class="arabic">مِنْ حُكْمِ المَلِكِ أوَرْجَتيسَ إلى مِصْرَ حَيثُ مكَثتُ مُدَّةً طَويلةً،</td>
+        <td class="arabic">لا تكُنْ مُرائيًا معَ النَّاسِ، واَنْتَبِهْ لِكلامِ شَفَتَيكَ.</td>
     </tr>
     <tr id="table_4_row_13" class="text">
         <td class="english">Do not exalt yourself lest you fall,
 and thus bring dishonor upon yourself.
 The Lord will reveal your secrets
 and cast you down in the midst of the congregation, because you did not come in the fear of the Lord, and your heart was full of deceit.</td>
-        <td class="arabic">ورأيتُ اَحتِرَامًا كبِـيرًا لِلتَّعلِـيمِ هُناكَ أيضًا.</td>
-    </tr>
-    <tr id="table_4_row_14" class="text">
-        <td class="english"></td>
-        <td class="arabic">وجَدتُ مِنَ الضَّرُوريٌ أنْ أبذُلَ بَعضَ الجَهدِ والعَناءِ لِتَرجمَةِ كتابِ جدِّي.</td>
+        <td class="arabic">لا تتكَبَّرْ لِئلاَ تَسقُطَ وعلى نفْسِكَ تَجلِبَ الذُلَ، فيَكشِفَ الرّبُّ خَفاياكَ ويُذِلَّكَ أمامَ الجَميعِ لأنَّكَ لم تَخَفِ الرّبَ، وقلبُكَ مُمْتَلئٌ بِالمكْرِ.</td>
     </tr>
     <tr id="table_4_row_15" class="intro">
         <td class="english">Glory be to the Holy Trinity, our God, forever and unto the age of all ages. Amen.</td>
@@ -212,10 +208,10 @@ ${paschalPraiseHtml}
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_16" title="Coptic Psalm">
         <caption class="caption" id="caption_table_16">Coptic Psalm<br>(13:3-4)
-        <span class="arabic-caption">المزمور قبطي<br>(13:3-4)</span></caption>
+        <span class="arabic-caption">المزمور قبطياً<br>(12: 4)</span></caption>
 
         <tr id="table_16_row_0" class="intro">
-            <td class="english">A psalm of David</td>
+            <td class="english">A Psalm of David</td>
             <td class="coptic">Ⲯⲁⲗⲙⲟⲥ ⲧⲱ Ⲇⲁⲩⲓⲇ</td>
             <td class="arabic">مزمور لداود</td>
         </tr>
@@ -247,8 +243,8 @@ ${paschalPraiseHtml}
     </table>
     ${copticGospelIntroHtml}
     <table id="table_18" title="Coptic Gospel">
-        <caption class="caption" id="caption_table_18">Coptic Gospels
-        <span class="arabic-caption">الإناجيل قبطي</span></caption>
+        <caption class="caption" id="caption_table_18">Coptic Gospel
+        <span class="arabic-caption">الإنجيل قبطياً</span></caption>
         <tr id="table_18_row_0" class="priest">
             <td class="english">A chapter according to St. John,</td>
             <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉⲃ̀ⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲓⲱⲁⲛⲛⲏⲛ ⲁⲅⲓⲟⲩ.</td>
@@ -257,7 +253,7 @@ ${paschalPraiseHtml}
 
         <tr id="table_18_row_1" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ<̀/td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_18_row_2" class="text">
@@ -265,7 +261,7 @@ ${paschalPraiseHtml}
         </tr>
         <tr id="table_18_row_4" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ<̀/td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
     </table>
@@ -273,11 +269,11 @@ ${paschalPraiseHtml}
 
 
 
-<div class="section" id="section_7" title="Engligh and Arabic Psalm & Gospel">
+<div class="section" id="section_7" title="English and Arabic Psalm & Gospel">
 
 <table id="table_19" title="Psalm">
-    <caption id="caption_table_19" class="caption">Psalm<br>(Psalm 13:3-4)
-    <span class="arabic-caption">المزمور<br>(المزمور 13: 3-4)</span></caption>
+    <caption id="caption_table_19" class="caption">Psalm<br>(13:3-4)
+    <span class="arabic-caption">المزمور<br>(12: 4)</span></caption>
     <tr id="table_19_row_1" class="intro">
         <td class="english">From the Psalms of our teacher David the prophet. May his blessing be with us. Amen.</td>
         <td class="arabic">من مزامير معلمنا داود النبي، بركته تكون معنا، آمين.</td>
@@ -340,8 +336,8 @@ ${paschalPraiseHtml}
         <td class="arabic">فَرَفَعُوا حِجَارَةً لِيَرْجُمُوهُ. أَمَّا يَسُوعُ فَاخْتَفَى وَخَرَجَ مِنَ الْهَيْكَلِ مُجْتَازاً فِي وَسْطِهِمْ وَمَضَى هَكَذَا.</td>
     </tr>
     <tr id="table_20_row_13" class="text">
-        <td class="english">Bow down before the Holy Gospel.</td>
-        <td class="arabic">أسجدوا للإنجيل المقدس.</td>
+        <td class="english"><i>Bow down before the Holy Gospel.</i></td>
+        <td class="arabic"><i>أسجدوا للإنجيل المقدس.</i></td>
     </tr>
     <tr id="table_20_row_15" class="intro">
         <td class="english">Glory be to God forever.</td>
@@ -360,7 +356,7 @@ ${daytimeExpositionIntroHtml}
     <caption id="caption_table_22" class="caption">Exposition
     <span class="arabic-caption">الطرح</span></caption>
     <tr id="table_22_row_1" class="intro">
-        <td class="english">The exposition of the ELEVENTH Hour of the DAY of MONDAY of Holy Pascha, may its blessings be with us all. Amen.</td>
+        <td class="english">The exposition of the ELEVENTH Hour of the DAY of MONDAY of Holy Pascha. May its blessings be with us. Amen.</td>
         <td class="arabic">طرح الساعة الحادية عشرة من يوم الاثنين من البصخة المقدسة بركتها تكون معنا، آمين.</td>
     </tr>
     <tr id="table_22_row_4" class="text">

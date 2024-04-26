@@ -18,7 +18,7 @@ const DayOfSunday = () => {
         <View style={presentationStyles.pageContainer}>
           <View style={presentationStyles.headerContainer}>
             <Text style={presentationStyles.pageHeader}>Day of</Text>
-            <Text style={presentationStyles.pageHeader}>Palm Sunday</Text>
+            <Text style={presentationStyles.pageHeader}>Hosanna Sunday</Text>
           </View>
 
           <View style={presentationStyles.hoursContainer}>
@@ -33,6 +33,12 @@ const DayOfSunday = () => {
               onPress={() => navigation.navigate("DOS11sc")}
             >
               <Text style={presentationStyles.pageMenu}>11th Hour</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={[presentationStyles.itemContainer]}
+              onPress={() => navigation.navigate("DaytimeLitaniessc")}
+            >
+              <Text style={presentationStyles.pageMenu}>Daytime Litanies</Text>
             </TouchableOpacity>
           </View>
         </View>

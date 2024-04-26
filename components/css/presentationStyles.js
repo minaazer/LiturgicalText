@@ -256,11 +256,27 @@ export const presentationStyles = StyleSheet.create({
       textShadowOffset: { width: 1, height: 1 },
     },
     hoursContainer: {
-      flex: 3,
-      flexDirection: "row",
+      flex: 2.5,
+      marginTop: 30,
+      marginBottom: 30,
+      flexDirection: "column",
       justifyContent: "flex-start",
       alignItems: "flex-start",
+      alignContent: "center",
+      // different types of flexWrap: "wrap", "nowrap", "wrap-reverse"
+      // is there a way to wrap evenly with a fixed number of items per row?
+
+      flexWrap: "wrap",
+    },
+    daysContainer: {
+      flex: 3,
+      flexDirection: "row",
+      justifyContent: "center",
+      alignItems: "center",
       alignContent: "flex-start",
+      // different types of flexWrap: "wrap", "nowrap", "wrap-reverse"
+      // is there a way to wrap evenly with a fixed number of items per row?
+
       flexWrap: "wrap",
     },
     itemContainer: {

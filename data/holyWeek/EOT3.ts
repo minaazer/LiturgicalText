@@ -18,7 +18,7 @@ ${hourIntroHtml}
 <div class="section" id="section_2" title="Coptic Prophecies">
     <table id="table_2" title="Coptic Prophecies">
     <caption class="caption" id="caption_table_2">Coptic Prophecies
-    <span class="arabic-caption">النبوات قبطي</span></caption>
+    <span class="arabic-caption">النبوات قبطياً</span></caption>
         <tr id="table_2_row_3" class="intro">
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲙⲁⲗⲁⲭⲓⲁⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ:</td>
         </tr>
@@ -73,10 +73,6 @@ ${hourIntroHtml}
         <td class="english">And when you offer the blind as a sacrifice, Is it not evil? And when you offer the lame and sick, Is it not evil? Offer it then to your governor! Would he be pleased with you? Would he accept you favorably?" Says the Lord of hosts.</td>
         <td class="arabic">وَإِنْ قَرَّبْتُمُ الأَعْمَى ذَبِيحَةً أَفَلَيْسَ ذَلِكَ شَرّاً؟ وَإِنْ قَرَّبْتُمُ الأَعْرَجَ وَالسَّقِيمَ أَفَلَيْسَ ذَلِكَ شَرّاً؟ قَرِّبْهُ لِوَالِيكَ أَفَيَرْضَى عَلَيْكَ أَوْ يَرْفَعُ وَجْهَكَ؟ قَالَ رَبُّ الْجُنُودِ.</td>
     </tr>
-    <tr id="table_3_row_12" class="text">
-        <td class="english">"But now entreat God's favor, That He may be gracious to us. While this is being done by your hands, Will He accept you favorably?" Says the Lord of hosts.</td>
-        <td class="arabic">وَالآنَ تَرَضُّوا وَجْهَ اللَّهِ فَيَتَرَأَّفَ عَلَيْنَا. هَذِهِ كَانَتْ مِنْ يَدِكُمْ. هَلْ يَرْفَعُ وَجْهَكُمْ؟ قَالَ رَبُّ الْجُنُودِ.</td>
-    </tr>
     <tr id="table_3_row_14" class="intro">
         <td class="english">Glory be to the Holy Trinity, our God, forever and unto the age of all ages. Amen.</td>
         <td class="arabic">مجداً للثالوث القدوس الهنا إلى الأبد وإلى أبد الآبدين كلها، آمين.</td>
@@ -93,10 +89,10 @@ ${paschalPraiseHtml}
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_6" title="Coptic Psalm">
         <caption class="caption" id="caption_table_6">Coptic Psalm<br>(13:3, 5)
-        <span class="arabic-caption">المزمور قبطي<br>(13:3, 5)</span></caption>
+        <span class="arabic-caption">المزمور قبطياً<br>(12: 4 ، 6)</span></caption>
 
         <tr id="table_6_row_0" class="intro">
-            <td class="english">A psalm of David</td>
+            <td class="english">A Psalm of David</td>
             <td class="coptic">Ⲯⲁⲗⲙⲟⲥ ⲧⲱ Ⲇⲁⲩⲓⲇ</td>
             <td class="arabic">مزمور لداود</td>
         </tr>
@@ -128,8 +124,8 @@ ${paschalPraiseHtml}
     </table>
     ${copticGospelIntroHtml}
     <table id="table_8" title="Coptic Gospel">
-        <caption class="caption" id="caption_table_8">Coptic Gospels
-        <span class="arabic-caption">الإناجيل قبطي</span></caption>
+        <caption class="caption" id="caption_table_8">Coptic Gospel
+        <span class="arabic-caption">الإنجيل قبطياً</span></caption>
         <tr id="table_8_row_0" class="priest">
             <td class="english">A chapter according to St. Luke,</td>
             <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲗⲟⲩⲕⲁⲛ ⲁⲅⲓⲟⲩ.</td>
@@ -154,11 +150,11 @@ ${paschalPraiseHtml}
 
 
 
-<div class="section" id="section_7" title="Engligh and Arabic Psalm & Gospel">
+<div class="section" id="section_7" title="English and Arabic Psalm & Gospel">
 
 <table id="table_9" title="Psalm">
     <caption id="caption_table_9" class="caption">Psalm<br>(13:3,5)
-    <span class="arabic-caption">المزمور<br>(13: 3 و 5)</span></caption>
+    <span class="arabic-caption">المزمور<br>(12: 4 ، 6)</span></caption>
     <tr id="table_9_row_1" class="intro">
         <td class="english">From the Psalms of our teacher David the prophet. May his blessing be with us. Amen.</td>
         <td class="arabic">من مزامير معلمنا داود النبي، بركته تكون معنا، آمين.</td>
@@ -187,11 +183,11 @@ my heart shall rejoice in Your salvation.</td>
         <td class="arabic">اللهم تراءف علينا وأرحمنا وأجعلنا مستحقين لسماع إنجيلك المقدس، فصل من إنجيل معلمنا لوقا البشير، بركاته تكون معنا أمين.</td>
     </tr>
     <tr id="table_10_row_4" class="text">
-        <td class="english">On that very day</td>
+        <td class="english">On that very day some Pharisees came, saying to Him, “Get out and depart from here, for Herod wants to kill You.”</td>
         <td class="arabic">فِي ذَلِكَ الْيَوْمِ تَقَدَّمَ بَعْضُ الْفَرِّيسِيِّينَ قَائِلِينَ لَهُ: «اخْرُجْ وَاذْهَبْ مِنْ هَهُنَا لأَنَّ هِيرُودُسَ يُرِيدُ أَنْ يَقْتُلَكَ».</td>
     </tr>
     <tr id="table_10_row_5" class="text">
-        <td class="english">" And He said to them, "Go, tell that fox, 'Behold, I cast out demons and perform cures today and tomorrow, and the third day I shall be perfected.'</td>
+        <td class="english">And He said to them, “Go, tell that fox, ‘Behold, I cast out demons and perform cures today and tomorrow, and the third day I shall be perfected.’</td>
         <td class="arabic">فَقَالَ لَهُمُ: «امْضُوا وَقُولُوا لِهَذَا الثَّعْلَبِ: هَا أَنَا أُخْرِجُ شَيَاطِينَ وَأَشْفِي الْيَوْمَ وَغَداً وَفِي الْيَوْمِ الثَّالِثِ أُكَمَّلُ.</td>
     </tr>
     <tr id="table_10_row_6" class="text">
@@ -199,11 +195,11 @@ my heart shall rejoice in Your salvation.</td>
         <td class="arabic">بَلْ يَنْبَغِي أَنْ أَسِيرَ الْيَوْمَ وَغَداً وَمَا يَلِيهِ لأَنَّهُ لاَ يُمْكِنُ أَنْ يَهْلِكَ نَبِيٌّ خَارِجاً عَنْ أُورُشَلِيمَ.</td>
     </tr>
     <tr id="table_10_row_7" class="text">
-        <td class="english">" "O Jerusalem, Jerusalem, the one who kills the prophets and stones those who are sent to her! How often I wanted to gather your children together, as a hen gathers her brood under her wings, but you were not willing!</td>
+        <td class="english">“O Jerusalem, Jerusalem, the one who kills the prophets and stones those who are sent to her! How often I wanted to gather your children together, as a hen gathers her brood under her wings, but you were not willing!</td>
         <td class="arabic">يَا أُورُشَلِيمُ يَا أُورُشَلِيمُ يَا قَاتِلَةَ الأَنْبِيَاءِ وَرَاجِمَةَ الْمُرْسَلِينَ إِلَيْهَا كَمْ مَرَّةٍ أَرَدْتُ أَنْ أَجْمَعَ أَوْلاَدَكِ كَمَا تَجْمَعُ الدَّجَاجَةُ فِرَاخَهَا تَحْتَ جَنَاحَيْهَا وَلَمْ تُرِيدُوا.</td>
     </tr>
     <tr id="table_10_row_8" class="text">
-        <td class="english">" See! Your house is left to you desolate; and assuredly, I say to you, you shall not see Me until the time comes when you say, ‘Blessed is He who comes in the name of the Lord!’ “</td>
+        <td class="english">See! Your house is left to you desolate; and assuredly, I say to you, you shall not see Me until the time comes when you say, ‘Blessed is He who comes in the name of the Lord!’ ”</td>
         <td class="arabic">هُوَذَا بَيْتُكُمْ يُتْرَكُ لَكُمْ خَرَاباً! وَالْحَقَّ أَقُولُ لَكُمْ: إِنَّكُمْ لاَ تَرَوْنَنِي حَتَّى يَأْتِيَ وَقْتٌ تَقُولُونَ فِيهِ: مُبَارَكٌ الآتِي بِاسْمِ الرَّبِّ».</td>
     </tr>
     <tr id="table_10_row_9" class="text">

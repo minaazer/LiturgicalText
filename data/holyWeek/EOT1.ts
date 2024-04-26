@@ -18,7 +18,7 @@ ${hourIntroHtml}
 <div class="section" id="section_2" title="Coptic Prophecies">
     <table id="table_2" title="Coptic Prophecies">
     <caption class="caption" id="caption_table_2">Coptic Prophecies
-    <span class="arabic-caption">النبوات قبطي</span></caption>
+    <span class="arabic-caption">النبوات قبطياً</span></caption>
         <tr id="table_2_row_3" class="intro">
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲍⲁⲭⲁⲣⲓⲁⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ:</td>
         </tr>
@@ -45,7 +45,7 @@ ${hourIntroHtml}
         <td class="arabic">فِي الشَّهْرِ الثَّامِنِ فِي السَّنَةِ الثَّانِيَةِ لِدَارِيُوسَ كَانَتْ كَلِمَةُ الرَّبِّ إِلَى زَكَرِيَّا بْنِ بَرَخِيَّا بْنِ عِدُّو النَّبِيِّ:</td>
     </tr>
     <tr id="table_3_row_5" class="text">
-        <td class="english">"The Lord has been very angry with your fathers.</td>
+        <td class="english">"The Lord has been very angry with your fathers."</td>
         <td class="arabic">قَدْ غَضِبَ الرَّبُّ غَضَباً عَلَى آبَائِكُمْ.</td>
     </tr>
     <tr id="table_3_row_6" class="text">
@@ -61,7 +61,7 @@ ${hourIntroHtml}
         <td class="arabic">آبَاؤُكُمْ أَيْنَ هُمْ؟ وَالأَنْبِيَاءُ هَلْ أَبَداً يَحْيُونَ.</td>
     </tr>
     <tr id="table_3_row_9" class="text">
-        <td class="english">Yet surely My words and My statutes, Which I commanded My servants the prophets, Did they not overtake your fathers? "So they returned and said: 'Just as the Lord of hosts determined to do to us, According to our ways and according to our deeds, So He has dealt with us.' "</td>
+        <td class="english">Yet surely My words and My statutes, which I commanded My servants the prophets, Did they not overtake your fathers? "So they returned and said: 'Just as the Lord of hosts determined to do to us, according to our ways and according to our deeds, So He has dealt with us.' "</td>
         <td class="arabic">وَلَكِنْ كَلاَمِي وَفَرَائِضِي الَّتِي أَوْصَيْتُ بِهَا عَبِيدِي الأَنْبِيَاءَ أَفَلَمْ تُدْرِكْ آبَاءَكُمْ؟ فَرَجَعُوا وَقَالُوا: كَمَا قَصَدَ رَبُّ الْجُنُودِ أَنْ يَصْنَعَ بِنَا كَطُرُقِنَا وَكَأَعْمَالِنَا كَذَلِكَ فَعَلَ بِنَا].</td>
     </tr>
     <tr id="table_3_row_11" class="intro">
@@ -80,10 +80,10 @@ ${paschalPraiseHtml}
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_6" title="Coptic Psalm">
         <caption class="caption" id="caption_table_6">Coptic Psalm<br>(62:7,2)
-        <span class="arabic-caption">المزمور قبطي<br>(62:7,2)</span></caption>
+        <span class="arabic-caption">المزمور قبطياً<br>(61: 4 ، 1)</span></caption>
 
         <tr id="table_6_row_0" class="intro">
-            <td class="english">A psalm of David</td>
+            <td class="english">A Psalm of David</td>
             <td class="coptic">Ⲯⲁⲗⲙⲟⲥ ⲧⲱ Ⲇⲁⲩⲓⲇ</td>
             <td class="arabic">مزمور لداود</td>
         </tr>
@@ -115,8 +115,8 @@ ${paschalPraiseHtml}
     </table>
     ${copticGospelIntroHtml}
     <table id="table_8" title="Coptic Gospel">
-        <caption class="caption" id="caption_table_8">Coptic Gospels
-        <span class="arabic-caption">الإناجيل قبطي</span></caption>
+        <caption class="caption" id="caption_table_8">Coptic Gospel
+        <span class="arabic-caption">الإنجيل قبطياً</span></caption>
         <tr id="table_8_row_0" class="priest">
             <td class="english">A chapter according to St. Luke,</td>
             <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲗⲟⲩⲕⲁⲛ ⲁⲅⲓⲟⲩ.</td>
@@ -141,11 +141,11 @@ ${paschalPraiseHtml}
 
 
 
-<div class="section" id="section_7" title="Engligh and Arabic Psalm & Gospel">
+<div class="section" id="section_7" title="English and Arabic Psalm & Gospel">
 
 <table id="table_9" title="Psalm">
     <caption id="caption_table_9" class="caption">Psalm<br>(62:7,2)
-    <span class="arabic-caption">المزمور<br>(62: 7 و 2)</span></caption>
+    <span class="arabic-caption">المزمور<br>(61: 4 ، 1)</span></caption>
     <tr id="table_9_row_1" class="intro">
         <td class="english">From the Psalms of our teacher David the prophet. May his blessing be with us. Amen.</td>
         <td class="arabic">من مزامير معلمنا داود النبي، بركته تكون معنا، آمين.</td>
@@ -205,8 +205,8 @@ He is the God of my help, and my hope is in God.</td>
         <td class="arabic">وَهُوَذَا آخِرُونَ يَكُونُونَ أَوَّلِينَ وَأَوَّلُونَ يَكُونُونَ آخِرِينَ».</td>
     </tr>
     <tr id="table_10_row_12" class="text">
-        <td class="english">Bow down before the Holy Gospel.</td>
-        <td class="arabic">أسجدوا للإنجيل المقدس.</td>
+        <td class="english"><i>Bow down before the Holy Gospel.</i></td>
+        <td class="arabic"><i>أسجدوا للإنجيل المقدس.</i></td>
     </tr>
     <tr id="table_10_row_14" class="intro">
         <td class="english">Glory be to God forever.</td>
@@ -230,7 +230,7 @@ ${nighttimeExpositionIntroHtml}
         <td class="arabic">طرح الساعة الأولى من ليلة الثلاثاء من البصخة المقدسة بركتها تكون معنا أمين.</td>
     </tr>
     <tr id="table_12_row_4" class="text">
-        <td class="english">On His way to Jerusalem with His disciples, someone remarked to our Savior, “Few are those who will be saved.”</td>
+        <td class="english">On His way to Jerusalem with His disciples, someone remarked to our Savior, “Few are those who will be saved?”</td>
         <td class="arabic">أن مخلصنا جعل مسيرته إلى أورشليم مع خواصه، فقال له واحد من الجمع: يا رب أقليلون هم الذين يخلصون؟</td>
     </tr>
     <tr id="table_12_row_5" class="text">

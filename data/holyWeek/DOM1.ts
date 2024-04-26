@@ -18,7 +18,7 @@ ${hourIntroHtml}
 <div class="section" id="section_2" title="Coptic Prophecies">
     <table id="table_2" title="Coptic Prophecies">
     <caption class="caption" id="caption_table_2">Coptic Prophecies
-    <span class="arabic-caption">النبوات قبطي</span></caption>
+    <span class="arabic-caption">النبوات قبطياً</span></caption>
         <tr id="table_2_row_3" class="intro">
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲧ̀ⲁⲣⲭⲏ ⲛ̀ϯⲅⲉⲛⲉⲥⲓⲥ ⲛ̀ⲧⲉ Ⲙⲱⲩ̀ⲥⲏⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ (ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ)</td>
         </tr>
@@ -250,6 +250,7 @@ ${hourIntroHtml}
     </tr>
 </table>
 
+
 <table id="table_5" title="3rd Prophecy">
     <caption id="caption_table_5" class="caption">3rd Prophecy<br>(Sirach 1:1-19)
     <span class="arabic-caption">النبوة الثالثة<br>(يشوع ابن سيراخ 1: 1 – 19)</span></caption>
@@ -258,14 +259,12 @@ ${hourIntroHtml}
         <td class="arabic">من يشوع بن سيراخ النبى بركته تكون معنا، آمين.</td>
     </tr>
     <tr id="table_5_row_4" class="text">
-        <td class="english">All wisdom comes from the Lord
-and is with him forever.</td>
+        <td class="english">All wisdom comes from the Lord and is with him forever.</td>
         <td class="arabic">كُلُّ حِكمةٍ هيَ مِنَ الرّبٌ
 وتَبقَى معَهُ إلى الأَبَدِ.</td>
     </tr>
     <tr id="table_5_row_5" class="text">
-        <td class="english">The sand of the sea, the drops of rain,
-and the days of eternity—who can count them?</td>
+        <td class="english">The sand of the sea, the drops of rain, and the days of eternity—who can count them?</td>
         <td class="arabic">مَنْ يَعُدُّ رملَ البِحَارِ،
 مَنْ يَعُدُّ قَطَراتِ المطَرِ وأيّامَ الدَّهرِ؟</td>
     </tr>
@@ -293,67 +292,66 @@ and prudent understanding from eternity.</td>
     <tr id="table_5_row_10" class="text">
         <td class="english">The Lord himself created wisdom;
 he saw her and apportioned her,
-he poured her out upon all his works.
-10She dwells with all flesh according to his gift, and he supplied her to those who love him.</td>
+he poured her out upon all his works.</td>
         <td class="arabic">أوجَدَها تأمَّلَها وقَدَرها
 على كُلٌ أعمالِهِ</td>
     </tr>
     <tr id="table_5_row_11" class="text">
-        <td class="english">The fear of the Lord is glory and exultation,
-and gladness and a crown of rejoicing.</td>
+        <td class="english">She dwells with all flesh according to his gift, and he supplied her to those who love him.</td>
         <td class="arabic">وعلى البشَرِ أفاضَها،
 وبِكثرَةٍ على الـذينَ يُحِبُّونَهُ.</td>
     </tr>
     <tr id="table_5_row_12" class="text">
-        <td class="english">The fear of the Lord delights the heart,
-and gives gladness and joy and long life.</td>
+        <td class="english">The fear of the Lord is glory and exultation,
+and gladness and a crown of rejoicing.</td>
         <td class="arabic">مَخافةُ الرّبٌ شرَفٌ ومَجدٌ،
 فرَحٌ وإكليلُ اَبتِهاجِ.</td>
     </tr>
     <tr id="table_5_row_13" class="text">
-        <td class="english">With him who fears the Lord it will go well at the end; on the day of his death he will be blessed.</td>
+        <td class="english">The fear of the Lord delights the heart,
+and gives gladness and joy and long life.</td>
         <td class="arabic">مَخافةُ الرّبٌ تَسُرُّ القلبَ،
 تُطيلُ العُمرَ تُفرِحُهُ وتُسعِدُهُ.</td>
     </tr>
     <tr id="table_5_row_14" class="text">
-        <td class="english">To fear the Lord is the beginning of wisdom;she is created with the faithful in the womb.</td>
+        <td class="english">With him who fears the Lord it will go well at the end; on the day of his death he will be blessed.</td>
         <td class="arabic">مَنْ يخافُ الرّبَ تَطيبُ آخِرتُهُ
 وفي يومِ موتِهِ ينالُ البَركةَ.</td>
     </tr>
     <tr id="table_5_row_15" class="text">
-        <td class="english">She made among men an eternal foundation, and among their descendants she will be trusted.</td>
+        <td class="english">To fear the Lord is the beginning of wisdom;she is created with the faithful in the womb.</td>
         <td class="arabic">رأْسُ الحِكْمةِ مَخافةُ الرّبٌ.
 نشَأَت معَ المُؤْمنينَ في الرَّحِمِ،</td>
     </tr>
     <tr id="table_5_row_16" class="text">
-        <td class="english">To fear the Lord is wisdom's full measure;
-she satisfies men with her fruits;</td>
+        <td class="english">She made among men an eternal foundation, and among their descendants she will be trusted.</td>
         <td class="arabic">ومنَ القِدَمِ أقامَتْ بَينَ النَّاسِ،
 وأمينَةً ستَبقى لِذُرِّيَّتِهِم.</td>
     </tr>
     <tr id="table_5_row_17" class="text">
-        <td class="english">she fills their whole house with desirable goods, and their storehouses with her produce.</td>
+        <td class="english">To fear the Lord is wisdom's full measure;
+she satisfies men with her fruits;</td>
         <td class="arabic">كمالُ الحِكْمةِ مَخافةُ الرّبٌ،
 بِثِمارِها تُشْبِـعُ بَني البشَرِ،</td>
     </tr>
     <tr id="table_5_row_18" class="text">
-        <td class="english">The fear of the Lord is the crown of wisdom,
-making peace and perfect health to flourish.</td>
+        <td class="english">she fills their whole house with desirable goods, and their storehouses with her produce.</td>
         <td class="arabic">بِما يَشْتَهونَ تَملأُ بُيوتَهُم
 وبِغَلاَتِها مَخازِنَهُم،</td>
     </tr>
     <tr id="table_5_row_19" class="text">
-        <td class="english">He saw her and apportioned her;
-he rained down knowledge and discerning comprehension, and he exalted the glory of those who held her fast.</td>
+        <td class="english">The fear of the Lord is the crown of wisdom,
+making peace and perfect health to flourish.</td>
         <td class="arabic">تاجُ الحِكمةِ مَخافةُ الرّبٌ،
 وبِها السَّلامُ والشِّفاءُ التَّامُّ.</td>
     </tr>
     <tr id="table_5_row_20" class="text">
-        <td class="english"></td>
+        <td class="english">He saw her and apportioned her;
+he rained down knowledge and discerning comprehension, and he exalted the glory of those who held her fast.</td>
         <td class="arabic">الحِكمةُ تَسكُبُ المَعرِفةَ والفَهمَ
 وتُعْلي مَجدَ الـذينَ يَملِكونَها.</td>
     </tr>
-    <tr id="table_5_row_21" class="intro">
+    <tr id="table_5_row_22" class="intro">
         <td class="english">Glory be to the Holy Trinity, our God, forever and unto the age of all ages. Amen.</td>
         <td class="arabic">مجداً للثالوث القدوس الهنا إلى الأبد وإلى أبد الآبدين كلها، آمين.</td>
     </tr>
@@ -373,39 +371,39 @@ he rained down knowledge and discerning comprehension, and he exalted the glory 
     </tr>
     <tr id="table_6_row_5" class="text">
         <td class="english">let us sit every evening alone by ourselves</td>
-        <td class="arabic">فلنجلس بالعشاء كل يوم منفردين وحدنا عند كمال النهار. ونفتش ذواتنا عما قدمناه للملاك الذى يخدمنا (الملازم لنا) ليصعده إلى الرب.</td>
+        <td class="arabic">فلنجلس بالعشاء كل يوم منفردين وحدنا عند كمال النهار.</td>
     </tr>
     <tr id="table_6_row_6" class="text">
         <td class="english">and search our souls for what we presented to our guardian angel to offer to the Lord.</td>
-        <td class="arabic">وأيضاً إذا انقضى الليل وطلع النهار (وأشرق النور) نفتش ذواتنا وحدنا ونعلم ما الذى قدمناه للملاك الموكل بنا ليصعده إلى الله.</td>
+        <td class="arabic">ونفتش ذواتنا عما قدمناه للملاك الذى يخدمنا (الملازم لنا) ليصعده إلى الرب.</td>
     </tr>
     <tr id="table_6_row_7" class="text">
         <td class="english">Again, as the night goes by and a new day dawns and light prevails, let us search ourselves to know what we presented to our companion angel to offer to the Lord.</td>
-        <td class="arabic">ولا نشك البتة لان كل إنسان ذكراً كان أو أنثى صغيراً أو كبيراً.</td>
+        <td class="arabic">وأيضاً إذا انقضى الليل وطلع النهار (وأشرق النور) نفتش ذواتنا وحدنا ونعلم ما الذى قدمناه للملاك الموكل بنا ليصعده إلى الله.</td>
     </tr>
     <tr id="table_6_row_8" class="text">
         <td class="english">Let it be beyond doubt that everyone of us, male or female, young or old,</td>
-        <td class="arabic">قد اعتمد باسم الآب والابن والروح القدس قد جعل الله له ملاكاً موكلاً به إلى يوم وفاته.</td>
+        <td class="arabic">ولا نشك البتة لان كل إنسان ذكراً كان أو أنثى صغيراً أو كبيراً.</td>
     </tr>
     <tr id="table_6_row_9" class="text">
         <td class="english">who was baptized in the name of the Father, the Son and the Holy Spirit has been assigned to a designated angel until the day of his death</td>
-        <td class="arabic">وليصعد إليه كل يوم أعمال الإنسان الموكل به (الليلية والنهارية)</td>
+        <td class="arabic">قد اعتمد باسم الآب والابن والروح القدس قد جعل الله له ملاكاً موكلاً به إلى يوم وفاته.</td>
     </tr>
     <tr id="table_6_row_10" class="text">
         <td class="english">to report to him every day what his assigned individual has done by day or by night.</td>
-        <td class="arabic">ليس لان الله غير عارف بأعمالنا. حاشا. بل هو عارف بها أكثر.</td>
+        <td class="arabic">وليصعد إليه كل يوم أعمال الإنسان الموكل به (الليلية والنهارية)</td>
     </tr>
     <tr id="table_6_row_11" class="text">
         <td class="english">Not that God is unaware of what we have done. Heaven forbid! He is more knowledgeable about it.</td>
-        <td class="arabic">كما هو مكتوب أن عينى الرب ناظرة كل حين فى كل مكان على صانعى الشر وفاعلى الخير</td>
+        <td class="arabic">ليس لان الله غير عارف بأعمالنا. حاشا. بل هو عارف بها أكثر.</td>
     </tr>
     <tr id="table_6_row_12" class="text">
         <td class="english">As it is written, the eyes of the Lord are watching all the time everywhere on those who commit evil and on those who do good.</td>
-        <td class="arabic">انما الملائكة هم خدام قد أقامهم خالق الكل. من أجل المزمعين لوراثة الخلاص.</td>
+        <td class="arabic">كما هو مكتوب أن عينى الرب ناظرة كل حين فى كل مكان على صانعى الشر وفاعلى الخير</td>
     </tr>
     <tr id="table_6_row_13" class="text">
         <td class="english">Rather the angels are servants installed by the Creator of the universe for those who will inherit salvation.</td>
-        <td class="arabic"></td>
+        <td class="arabic">انما الملائكة هم خدام قد أقامهم خالق الكل. من أجل المزمعين لوراثة الخلاص.</td>
     </tr>
     <tr id="table_6_row_15" class="intro">
         <td class="english">We conclude the homily of our holy father Abba Shenouda, the Archimandrite who enlightened our minds and our hearts. In the name of the Father, and the Son, and the Holy Spirit, one God. Amen.</td>
@@ -413,6 +411,7 @@ he rained down knowledge and discerning comprehension, and he exalted the glory 
         <td class="arabic">فلنختم موعظة أبينا القديس أنبا شنودة رئيس المتوحدين الذى أنار عقولنا وعيون قلوبنا باسم الآب والابن والروح القدس الاله الواحد آمين.</td>
     </tr>
 </table>
+
 
 </div>
 
@@ -424,10 +423,10 @@ ${paschalPraiseHtml}
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_16" title="Coptic Psalm">
         <caption class="caption" id="caption_table_16">Coptic Psalm<br>(72:18-19)
-        <span class="arabic-caption">المزمور قبطي<br>(72:18-19)</span></caption>
+        <span class="arabic-caption">المزمور قبطياً<br>(71: 18)</span></caption>
 
         <tr id="table_16_row_0" class="intro">
-            <td class="english">A psalm of David</td>
+            <td class="english">A Psalm of David</td>
             <td class="coptic">Ⲯⲁⲗⲙⲟⲥ ⲧⲱ Ⲇⲁⲩⲓⲇ</td>
             <td class="arabic">مزمور لداود</td>
         </tr>
@@ -459,8 +458,8 @@ ${paschalPraiseHtml}
     </table>
     ${copticGospelIntroHtml}
     <table id="table_18" title="Coptic Gospel">
-        <caption class="caption" id="caption_table_18">Coptic Gospels
-        <span class="arabic-caption">الإناجيل قبطي</span></caption>
+        <caption class="caption" id="caption_table_18">Coptic Gospel
+        <span class="arabic-caption">الإنجيل قبطياً</span></caption>
         <tr id="table_18_row_0" class="priest">
             <td class="english">A chapter according to St. Mark,</td>
             <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉⲃ̀ⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲣⲕⲟⲛ ⲁⲅⲓⲟⲩ.</td>
@@ -469,7 +468,7 @@ ${paschalPraiseHtml}
 
         <tr id="table_18_row_1" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ<̀/td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_18_row_2" class="text">
@@ -477,7 +476,7 @@ ${paschalPraiseHtml}
         </tr>
         <tr id="table_18_row_4" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ<̀/td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
     </table>
@@ -485,11 +484,11 @@ ${paschalPraiseHtml}
 
 
 
-<div class="section" id="section_7" title="Engligh and Arabic Psalm & Gospel">
+<div class="section" id="section_7" title="English and Arabic Psalm & Gospel">
 
 <table id="table_19" title="Psalm">
-    <caption id="caption_table_19" class="caption">Psalm<br>(Psalm 71:18-19)
-    <span class="arabic-caption">المزمور<br>(المزمور 71: 18-19)</span></caption>
+    <caption id="caption_table_19" class="caption">Psalm<br>(72:18-19)
+    <span class="arabic-caption">المزمور<br>(71: 18)</span></caption>
     <tr id="table_19_row_1" class="intro">
         <td class="english">From the Psalms of our teacher David the prophet. May his blessing be with us. Amen.</td>
         <td class="arabic">من مزامير معلمنا داود النبي، بركته تكون معنا، آمين.</td>
@@ -556,7 +555,7 @@ ${paschalPraiseHtml}
         <td class="arabic">فَتَذَكَّرَ بُطْرُسُ وَقَالَ لَهُ: «يَا سَيِّدِي انْظُرْ التِّينَةُ الَّتِي لَعَنْتَهَا قَدْ يَبِسَتْ!»</td>
     </tr>
     <tr id="table_20_row_14" class="text">
-        <td class="english">" So Jesus answered and said to them, "Have faith in God.</td>
+        <td class="english">So Jesus answered and said to them, "Have faith in God.</td>
         <td class="arabic">فَأَجَابَ يَسُوعُ: «لِيَكُنْ لَكُمْ إِيمَانٌ بِاللَّهِ.</td>
     </tr>
     <tr id="table_20_row_15" class="text">
@@ -568,8 +567,8 @@ ${paschalPraiseHtml}
         <td class="arabic">لِذَلِكَ أَقُولُ لَكُمْ: كُلُّ مَا تَطْلُبُونَهُ حِينَمَا تُصَلُّونَ فَآمِنُوا أَنْ تَنَالُوهُ فَيَكُونَ لَكُمْ.</td>
     </tr>
     <tr id="table_20_row_17" class="text">
-        <td class="english">Bow down before the Holy Gospel.</td>
-        <td class="arabic">أسجدوا للإنجيل المقدس.</td>
+        <td class="english"><i>Bow down before the Holy Gospel.</i></td>
+        <td class="arabic"><i>أسجدوا للإنجيل المقدس.</i></td>
     </tr>
     <tr id="table_20_row_19" class="intro">
         <td class="english">Glory be to God forever.</td>

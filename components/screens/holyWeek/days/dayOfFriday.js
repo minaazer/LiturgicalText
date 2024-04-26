@@ -23,7 +23,7 @@ const DayOfFriday = () => {
         <View style={presentationStyles.pageContainer}>
           <View style={presentationStyles.headerContainer}>
             <Text style={presentationStyles.pageHeader}>Day of</Text>
-            <Text style={presentationStyles.pageHeader}>Good</Text>
+            <Text style={presentationStyles.pageHeader}>Great</Text>
             <Text style={presentationStyles.pageHeader}>Friday</Text>
           </View>
 

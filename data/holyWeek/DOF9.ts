@@ -1,8 +1,12 @@
 import { hourIntro, paschalPraise3  , copticGospelIntro, daytimeExpositionIntro, expositionConclusion, daytimeLitanies, evnotiNaiNanGreat, endOfServiceHymn , cross, faiEtafEnf} from "../repeatedPrayers";
 
 export const DOF9 = () => {
-    const hourIntroHtml = hourIntro("NINTH","التاسعة","DAY of GOOD FRIDAY","يوم الجمعة العظيمة");
-    const paschalPraiseHtml = paschalPraise3("4","7","8","NINTH","التاسعة","DAY of GOOD FRIDAY","يوم الجمعة العظيمة");
+    const introCommentary = `
+    <td class="english">They begin by reading the prophecies in Coptic, Arabic and English. After that <span class="coptic">Ⲑⲱⲕ ⲧⲉ ϯϫⲟⲙ </span> is chanted twelve times. The lights are then turned on and the candles are lit as a sign of the end of the darkness and the priest offers incense before the icon as in the 6th hour. </td>
+    <td class="arabic">يبتدئون بقراءة النبوات قبطياً وعربياً وانجليزياً. وتقال بعدها <span class="coptic">Ⲑⲱⲕ ⲧⲉ ϯϫⲟⲙ </span> اثنى عشر دفعة وبعد ذلك تضاء أنوار الكنيسة وتوقد الشموع علامة انتهاء الظلمة ويرفع الكاهن البخور امام الأيقونة مثل الساعة السادسة.</td>
+`;
+    const hourIntroHtml = hourIntro("NINTH","التاسعة","DAY of GREAT FRIDAY","يوم الجمعة العظيمة", introCommentary);
+    const paschalPraiseHtml = paschalPraise3("4","7","8","NINTH","التاسعة","DAY of GREAT FRIDAY","يوم الجمعة العظيمة");
     const faiEtafEnfHtml = faiEtafEnf("11");
     const copticGospelIntroHtml = copticGospelIntro("18");
     const daytimeExpositionIntroHtml = daytimeExpositionIntro("25");
@@ -20,7 +24,7 @@ ${hourIntroHtml}
 <div class="section" id="section_2" title="Coptic Prophecies">
     <table id="table_2" title="Coptic Prophecies">
     <caption class="caption" id="caption_table_2">Coptic Prophecies
-    <span class="arabic-caption">النبوات قبطي</span></caption>
+    <span class="arabic-caption">النبوات قبطياً</span></caption>
         <tr id="table_2_row_3" class="intro">
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲓⲉⲣⲉⲙⲓⲁⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ (ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ):</td>
         </tr>
@@ -255,7 +259,7 @@ ${paschalPraiseHtml}
         <caption class="caption" id="caption_table_10"><span class="coptic-caption">Ϯϣⲟⲩⲣⲏ</span></caption>
         <tr id="table_10_row_0" class="text">
             <td class="english">The golden censer is the Virgin, and the sweet aroma is our Savior. She gave birth to Him, who saved us and forgave us our sins.</td>
-            <td class="coptic">Ϯϣⲟⲩⲣⲏ ⲛ̀ⲛⲟⲩⲃ ⲧⲉ ϯⲡⲁⲣⲑⲉⲛⲟⲥ : ⲡⲉⲥⲁⲣⲱⲙⲁⲧⲁ ⲡⲉ ⲡⲉⲛⲥⲱⲧⲏⲣ : ⲁⲥⲙⲓⲥⲓ ⲙ̀ⲙⲟϥ ⲁϥⲥⲱϯ ⲙ̀ⲙⲟⲛ : ⲟⲩⲟϩ ⲁϥⲭⲁ ⲛⲉⲛⲟⲃ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.</td>
+            <td class="coptic">Ϯϣⲟⲩⲣⲏ ⲛ̀ⲛⲟⲩⲃ ⲧⲉ ϯⲡⲁⲣⲑⲉⲛⲟⲥ : ⲡⲉⲥⲁⲣⲱⲙⲁⲧⲁ ⲡⲉ ⲡⲉⲛⲥⲱⲧⲏⲣ : ⲁⲥⲙⲓⲥⲓ ⲙ̀ⲙⲟϥ ⲁϥⲥⲱϯ ⲙ̀ⲙⲟⲛ : ⲟⲩⲟϩ ⲁϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.</td>
             <td class="arabic">المجمرة الذهب هى العذراء، وعنبرها هو مخلصنا، ولدته وخلصنا وغفر لنا خطايانا.</td>
         </tr>
     </table>
@@ -381,7 +385,7 @@ ${faiEtafEnfHtml}
         </tr>
         <tr id="table_14_row_8" class="text">
             <td class="english"><span class="role">Congregation:</span><br>Now and forever, and unto the age of all ages, Amen.</td>
-            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ ⲓ̀ ⲕⲉ ⲓⲉⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲏⲛ.</td>
+            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ ⲓ̀ ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲏⲛ.</td>
             <td class="arabic"><span class="role">الشعب:</span><br>المجد للآب والابن والروح القدس</td>
         </tr>
         <tr id="table_14_row_9" class="text">
@@ -389,12 +393,12 @@ ${faiEtafEnfHtml}
             <td class="arabic"><span class="role">الكاهن:</span><br>يا من ولدت من البتول من اجلنا وإحتملت الصلب أيها الصالح وقتلت الموت بموتك وأظهرت القيامة بقيامتك لا تعرض يا الله عن  الذين جبلتهم بيديك. إظهر محبتك للبشـــر أيهـا الصالح.</td>
         </tr>
         <tr id="table_14_row_10" class="text">
-            <td class="english">Accept from Your mother an intercession on our behalf. Deliver, O Savior, a humble people. Do not leave us to the end, and do not forsake us forever. Do not break Your covenant, and do not take away from us Your mercy, for the sake of Abraham, Your beloved, Isaac, Your servant, and Israel, Your st. .</td>
+            <td class="english">Accept from Your mother an intercession on our behalf. Deliver, O Savior, a humble people. Do not leave us to the end, and do not forsake us forever. Do not break Your covenant, and do not take away from us Your mercy, for the sake of Abraham, Your beloved, Isaac, Your servant, and Israel, Your saint.</td>
             <td class="arabic">إقبل من والدتك شفاعة من أجلنا ونج يا مخلص شعباً متواضعاً ولا تتركنا إلى الانقضاء ولا تسلمنا إلى التمام ولا تنقض عهدك ولا تنزع عنا رحمتك من  أجل إبراهيم حبيبك وإسحق عبدك وإسرائيل قديسك.</td>
         </tr>
         <tr id="table_14_row_12" class="text">
             <td class="english"><span class="role">Congregation:</span><br>Now and forever, and unto the age of all ages, Amen.</td>
-            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ ̀̀ⲓ ⲕⲉ ⲓⲉⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲏⲛ.</td>
+            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ ⲓ̀ ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲏⲛ.</td>
             <td class="arabic"><span class="role">الشعب:</span><br>المجد للآب والابن والروح القدس</td>
         </tr>
         <tr id="table_14_row_13" class="text">
@@ -412,7 +416,7 @@ ${faiEtafEnfHtml}
         </tr>
         <tr id="table_14_row_16" class="text">
             <td class="english"><span class="role">Congregation:</span><br>Now and forever, and unto the age of all ages, Amen.</td>
-            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ ̀̀ⲓ ⲕⲉ ⲓⲉⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲏⲛ.</td>
+            <td class="coptic"><span class="role">Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ ⲓ̀ ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲏⲛ.</td>
             <td class="arabic"><span class="role">الشعب:</span><br>المجد للآب والابن والروح القدس</td>
         </tr>
         <tr id="table_14_row_17" class="text">
@@ -440,8 +444,13 @@ ${faiEtafEnfHtml}
         </tr>        
         <tr id="table_16_row_3" class="text">
             <td class="english">Glory be to the Father and to the Son, and to the Holy Spirit, both now, and ever, and unto the ages of ages, Amen.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ Ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩⲓⲱ̀ ⲕⲉ ⲁ̀ⲅⲓⲱ̀ Ⲡⲛⲉⲩⲙⲁⲧⲓ : ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ⲓ̀ ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲏⲛ..</td>
+            <td class="coptic">Ⲇⲟⲝⲁ Ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩ̀ⲓⲱ ⲕⲉ Ⲁ̀ⲅⲓⲱ Ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ: ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ⲓ̀ ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ. Ⲁ̀ⲙⲏⲛ.</td>
             <td class="arabic">المجد للآب والإبن و الروح القدس. الآن وكل آوان والى دهر الدهور، آمين.</td>
+        </tr>
+        <tr id="table_16_row_4" class="text">
+            <td class="english">O holy Trinity, have mercy upon us.</td>
+            <td class="coptic">Ⲁ̀ⲅⲓⲁ Ⲧ̀ⲣⲓⲁⲥ: ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ.</td>
+            <td class="arabic">أيها الثالوث القدوس، إرحمنا.</td>
         </tr>
     </table>
 </div>
@@ -451,10 +460,10 @@ ${faiEtafEnfHtml}
 <div class="section" id="section_6" title="Coptic Psalm & Gospel">
     <table id="table_17" title="Coptic Psalm">
         <caption class="caption" id="caption_table_17">Coptic Psalm<br>(69:1-2, 21)
-        <span class="arabic-caption">المزمور قبطي<br>(69:1-2, 21)</span></caption>
+        <span class="arabic-caption">المزمور قبطياً<br>(69:1-2, 21)</span></caption>
 
         <tr id="table_17_row_0" class="intro">
-            <td class="english">A psalm of David</td>
+            <td class="english">A Psalm of David</td>
             <td class="coptic">Ⲯⲁⲗⲙⲟⲥ ⲧⲱ Ⲇⲁⲩⲓⲇ</td>
             <td class="arabic">مزمور لداود</td>
         </tr>
@@ -487,10 +496,10 @@ ${faiEtafEnfHtml}
     ${copticGospelIntroHtml}
     <table id="table_19" title="Coptic Gospel">
         <caption class="caption" id="caption_table_19">Coptic Gospels
-        <span class="arabic-caption">الإناجيل قبطي</span></caption>
+        <span class="arabic-caption">الأناجيل قبطياً</span></caption>
         <tr id="table_19_row_0" class="priest">
             <td class="english">A chapter according to St. Matthew,</td>
-            <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲱⲛ ⲁⲅⲓⲟⲩ.</td>
+            <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲱⲛ ̀ⲁⲅⲓⲟ.</td>
             <td class="arabic">فصل من إنجيل معلمنا مار متى</td>
         </tr>
 
@@ -504,7 +513,7 @@ ${faiEtafEnfHtml}
         </tr>
         <tr id="table_19_row_3" class="priest">
             <td class="english">According to St. Mark</td>
-            <td class="coptic">ⲕⲁⲧⲁ Ⲙⲁⲣⲕⲟⲛ ⲁⲅⲓⲟⲩ.</td>
+            <td class="coptic">ⲕⲁⲧⲁ Ⲙⲁⲣⲕⲟⲛ ̀ⲁⲅⲓⲟ.</td>
             <td class="arabic">حسب مار مرقس</td>
         </tr>
         <tr id="table_19_row_4" class="intro">
@@ -551,7 +560,7 @@ ${faiEtafEnfHtml}
 
 
 
-<div class="section" id="section_7" title="Engligh and Arabic Psalm & Gospel">
+<div class="section" id="section_7" title="English and Arabic Psalm & Gospel">
 <table id="table_20" title="Psalm">
     <caption id="caption_table_20" class="caption">Psalm<br>(69:1-2, 21)
     <span class="arabic-caption">المزمور<br>(69: 1-2 و 21)</span></caption>
@@ -564,7 +573,7 @@ ${faiEtafEnfHtml}
         <td class="arabic">خَلِّصْنِي يَا اللهُ لأَنَّ الْمِيَاهَ قَدْ دَخَلَتْ إِلَى نَفْسِي.</td>
     </tr>
     <tr id="table_20_row_5" class="text">
-        <td class="english">I sink in deep mire,</td>
+        <td class="english">I sink in deep mire, Where there is no standing; I have come into deep waters, Where the floods overflow me.</td>
         <td class="arabic">غَرِقْتُ فِي حَمْأَةٍ عَمِيقَةٍ وَلَيْسَ مَقَرٌّ. دَخَلْتُ إِلَى أَعْمَاقِ الْمِيَاهِ وَالسَّيْلُ غَمَرَنِي.</td>
     </tr>
     <tr id="table_20_row_6" class="text">
@@ -601,8 +610,8 @@ ${faiEtafEnfHtml}
         <td class="arabic">وَأَمَّا الْبَاقُونَ فَقَالُوا: «اتْرُكْ. لِنَرَى هَلْ يَأْتِي إِيلِيَّا يُخَلِّصُهُ».</td>
     </tr>
     <tr id="table_21_row_8" class="text">
-        <td class="english">And Jesus cried out again with a loud voice, and yielded up His spirit.<br>Bow down before the Holy Gospel.</td>
-        <td class="arabic">فَصَرَخَ يَسُوعُ أَيْضاً بِصَوْتٍ عَظِيمٍ وَأَسْلَمَ الرُّوحَ.<br>أسجدوا للإنجيل المقدس.</td>
+        <td class="english">And Jesus cried out again with a loud voice, and yielded up His spirit.<br><i>Bow down before the Holy Gospel.</i></td>
+        <td class="arabic">فَصَرَخَ يَسُوعُ أَيْضاً بِصَوْتٍ عَظِيمٍ وَأَسْلَمَ الرُّوحَ.<br><i>أسجدوا للإنجيل المقدس.</i></td>
     </tr>
     <tr id="table_21_row_10" class="intro">
         <td class="english">Glory be to God forever.</td>
@@ -635,30 +644,30 @@ ${faiEtafEnfHtml}
     </tr>
 </table>
 
-<table id="table_8" title="Gospel">
-    <caption id="caption_table_8" class="caption">Gospel<br>(Mark 15:34-37)
+<table id="table_22.5" title="Gospel">
+    <caption id="caption_table_22.5" class="caption">Gospel<br>(Mark 15:34-37)
     <span class="arabic-caption">الانجيل<br>(مرقس 15: 34-37)</span></caption>
-    <tr id="table_8_row_0" class="intro">
+    <tr id="table_22.5_row_0" class="intro">
         <td class="english">May God have mercy and compassion upon us, and make us worthy to hear Your Holy Gospel. A chapter according to our teacher St. Mark the evangelist. May his blessings be with us. Amen.</td>
         <td class="arabic">اللهم تراءف علينا و أرحمنا و أجعلنا مستحقين لسماع إنجيلك المقدس، فصل من إنجيل معلمنا مرقس البشير، بركاته تكون معنا أمين</td>
     </tr>
-    <tr id="table_8_row_4" class="text">
+    <tr id="table_22.5_row_4" class="text">
         <td class="english">And at the ninth hour Jesus cried out with a loud voice, saying, "Eloi, Eloi, lama sabachthani?" which is translated, "My God, My God, why have You forsaken Me?"</td>
         <td class="arabic">وَفِي السَّاعَةِ التَّاسِعَةِ صَرَخَ يَسُوعُ بِصَوْتٍ عَظِيمٍ قَائِلاً: «إِلُوِي إِلُوِي لَمَا شَبَقْتَنِي؟» (اَلَّذِي تَفْسِيرُهُ: إِلَهِي إِلَهِي لِمَاذَا تَرَكْتَنِي؟)</td>
     </tr>
-    <tr id="table_8_row_5" class="text">
+    <tr id="table_22.5_row_5" class="text">
         <td class="english">Some of those who stood by, when they heard that, said, "Look, He is calling for Elijah!"</td>
         <td class="arabic">فَقَالَ قَوْمٌ مِنَ الْحَاضِرِينَ لَمَّا سَمِعُوا: «هُوَذَا يُنَادِي إِيلِيَّا».</td>
     </tr>
-    <tr id="table_8_row_6" class="text">
+    <tr id="table_22.5_row_6" class="text">
         <td class="english">Then someone ran and filled a sponge full of sour wine, put it on a reed, and offered it to Him to drink, saying, "Let Him alone; let us see if Elijah will come to take Him down."</td>
         <td class="arabic">فَرَكَضَ وَاحِدٌ وَمَلَأَ إِسْفِنْجَةً خَلاًّ وَجَعَلَهَا عَلَى قَصَبَةٍ وَسَقَاهُ قَائِلاً: «اتْرُكُوا. لِنَرَ هَلْ يَأْتِي إِيلِيَّا لِيُنْزِلَهُ!»</td>
     </tr>
-    <tr id="table_8_row_7" class="text">
-        <td class="english">And Jesus cried out with a loud voice, and breathed His last.<br>Bow down before the Holy Gospel.</td>
-        <td class="arabic">فَصَرَخَ يَسُوعُ بِصَوْتٍ عَظِيمٍ وَأَسْلَمَ الرُّوحَ.<br>أسجدوا للإنجيل المقدس.</td>
+    <tr id="table_22.5_row_7" class="text">
+        <td class="english">And Jesus cried out with a loud voice, and breathed His last.<br><i>Bow down before the Holy Gospel.</i></td>
+        <td class="arabic">فَصَرَخَ يَسُوعُ بِصَوْتٍ عَظِيمٍ وَأَسْلَمَ الرُّوحَ.<br><i>أسجدوا للإنجيل المقدس.</i></td>
     </tr>
-    <tr id="table_8_row_9" class="intro">
+    <tr id="table_22.5_row_9" class="intro">
         <td class="english">Glory be to God forever.</td>
         <td class="arabic">والمجد لله دائماً.</td>
     </tr>
@@ -676,8 +685,8 @@ ${faiEtafEnfHtml}
         <td class="arabic">وَأَظْلَمَتِ الشَّمْسُ وَانْشَقَّ حِجَابُ الْهَيْكَلِ مِنْ وَسَطِهِ.</td>
     </tr>
     <tr id="table_23_row_5" class="text">
-        <td class="english">And when Jesus had cried out with a loud voice, He said, "Father, 'into Your hands I commit My spirit.' " Having said this, He breathed His last.<br>Bow down before the Holy Gospel.</td>
-        <td class="arabic">وَنَادَى يَسُوعُ بِصَوْتٍ عَظِيمٍ: «يَا أَبَتَاهُ فِي يَدَيْكَ أَسْتَوْدِعُ رُوحِي». وَلَمَّا قَالَ هَذَا أَسْلَمَ الرُّوحَ.<br>أسجدوا للإنجيل المقدس.</td>
+        <td class="english">And when Jesus had cried out with a loud voice, He said, "Father, 'into Your hands I commit My spirit.' " Having said this, He breathed His last.<br><i>Bow down before the Holy Gospel.</i></td>
+        <td class="arabic">وَنَادَى يَسُوعُ بِصَوْتٍ عَظِيمٍ: «يَا أَبَتَاهُ فِي يَدَيْكَ أَسْتَوْدِعُ رُوحِي». وَلَمَّا قَالَ هَذَا أَسْلَمَ الرُّوحَ.<br><i>أسجدوا للإنجيل المقدس.</i></td>
     </tr>
     <tr id="table_23_row_7" class="intro">
         <td class="english">Glory be to God forever.</td>
@@ -701,8 +710,8 @@ ${faiEtafEnfHtml}
         <td class="arabic">وَكَانَ إِنَاءٌ مَوْضُوعاً مَمْلُوّاً خَلاًّ فَمَلَأُوا إِسْفِنْجَةً مِنَ الْخَلِّ وَوَضَعُوهَا عَلَى زُوفَا وَقَدَّمُوهَا إِلَى فَمِهِ.</td>
     </tr>
     <tr id="table_24_row_6" class="text">
-        <td class="english">So when Jesus had received the sour wine, He said, "It is finished!" And bowing His head, He gave up His spirit.<br>Bow down before the Holy Gospel.</td>
-        <td class="arabic">فَلَمَّا أَخَذَ يَسُوعُ الْخَلَّ قَالَ: «قَدْ أُكْمِلَ». وَنَكَّسَ رَأْسَهُ وَأَسْلَمَ الرُّوحَ.<br>أسجدوا للإنجيل المقدس.</td>
+        <td class="english">So when Jesus had received the sour wine, He said, "It is finished!" And bowing His head, He gave up His spirit.<br><i>Bow down before the Holy Gospel.</i></td>
+        <td class="arabic">فَلَمَّا أَخَذَ يَسُوعُ الْخَلَّ قَالَ: «قَدْ أُكْمِلَ». وَنَكَّسَ رَأْسَهُ وَأَسْلَمَ الرُّوحَ.<br><i>أسجدوا للإنجيل المقدس.</i></td>
     </tr>
     <tr id="table_24_row_8" class="intro">
         <td class="english">Glory be to God forever.</td>
@@ -720,7 +729,7 @@ ${daytimeExpositionIntroHtml}
     <caption id="caption_table_26" class="caption">Exposition
     <span class="arabic-caption">الطرح</span></caption>
     <tr id="table_26_row_1" class="intro">
-        <td class="english">The exposition of the NINTH Hour of the DAY of GOOD FRIDAY of Holy Pascha. May its blessings be with us. Amen.</td>
+        <td class="english">The exposition of the NINTH Hour of the DAY of GREAT FRIDAY of Holy Pascha. May its blessings be with us. Amen.</td>
         <td class="arabic">طرح الساعة التاسعة من يوم الجمعة العظيمة من البصخة المقدسة بركتها تكون معنا. آمين.</td>
     </tr>
     <tr id="table_26_row_4" class="text">

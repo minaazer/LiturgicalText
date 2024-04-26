@@ -18,7 +18,7 @@ ${hourIntroHtml}
 <div class="section" id="section_2" title="Coptic Prophecies">
     <table id="table_2" title="Coptic Prophecies">
     <caption class="caption" id="caption_table_2">Coptic Prophecies
-    <span class="arabic-caption">النبوات قبطي</span></caption>
+    <span class="arabic-caption">النبوات قبطياً</span></caption>
         <tr id="table_2_row_3" class="intro">
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ ϯⲄⲉⲛⲉⲥⲓⲥ ⲛ̀ⲧⲉ Ⲙⲱⲩ̀ⲥⲏⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ (ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ):</td>
         </tr>
@@ -76,7 +76,7 @@ ${hourIntroHtml}
     <span class="arabic-caption">النبوة الأولي<br>(تكوين 24: 1-9)</span></caption>
     <tr id="table_3_row_1" class="intro">
         <td class="english">A reading from the book of Genesis of Moses the prophet. May his blessings be with us. Amen.</td>
-        <td class="arabic">بدء سفر التكوين لموسى النبى بركته تكون معنا، آمين.</td>
+        <td class="arabic">من سفر التكوين لموسى النبى بركته تكون معنا، آمين.</td>
     </tr>
     <tr id="table_3_row_4" class="text">
         <td class="english">Now Abraham was old, well advanced in age; and the Lord had blessed Abraham in all things.</td>
@@ -408,9 +408,9 @@ ${hourIntroHtml}
     <caption id="caption_table_8" class="caption">Homily<br>(Abba Shenouda the Archimandrite)
     <span class="arabic-caption">العظة<br>(أنبا شنودة رئيس المتوحدين)</span></caption>
     <tr id="table_8_row_1" class="intro">
-        <td class="english">A homily of our holy father Abba John Chrysostom. May his blessings be with us. Amen.</td>
+        <td class="english">A homily of our holy father Abba Shenouda the Archimandrite. May his blessings be with us. Amen.</td>
         <td class="coptic">Ⲟⲩⲕⲁⲧⲏⲭⲏⲥⲓⲥ ⲛ̀ⲧⲉ ⲡⲉⲛⲓⲱⲧ ⲉ̅ⲑ̅ⲩ Ⲁⲃⲃⲁ Ϣⲉⲛⲟⲩϯ ⲡⲓⲁ̀ⲣⲭⲏ ⲙⲁⲛⲇ̀ⲣⲓⲧⲏⲥ : ⲉ̀ⲣⲉ ⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̅ⲑ̅ⲩ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ.</td>
-        <td class="arabic">عظة لابينا القديس انبا يوحنا فم الذهب بركته تكون معنا، آمين.</td>
+        <td class="arabic">عظة لابينا القديس أنبا شنودة رئيس المتوحدين بركته تكون معنا، آمين.</td>
     </tr>
     <tr id="table_8_row_4" class="text">
         <td class="english">I will tell you two things. Those who repented on earth and had heaven rejoice for their repentance,</td>
@@ -445,9 +445,9 @@ ${hourIntroHtml}
         <td class="arabic">أعرفكم كل هذه وأردأ منها نسمعها إذا تمادينا فى خطايانا.</td>
     </tr>
     <tr id="table_8_row_13" class="intro">
-        <td class="english">We conclude the homily of our holy father Abba John Chrysostom, who enlightened our minds and our hearts. In the name of the Father, and the Son, and the Holy Spirit, one God. Amen.</td>
+        <td class="english">We conclude the homily of our holy father Abba Shenouda the Archimandrite, who enlightened our minds and our hearts. In the name of the Father, and the Son, and the Holy Spirit, one God. Amen.</td>
         <td class="coptic">Ⲙⲁⲣⲉⲛⲉⲣ ⲥ̀ⲫ̀ⲣⲁϫⲓⲍⲓⲛ ⲛ̀ϯⲕⲁⲧⲏⲭⲏⲥⲓⲥ ⲛ̀ⲧⲉ ⲡⲉⲛⲓⲱⲧ ⲉ̅ⲑ̅ⲩ ⲁⲃⲃⲁ Ϣⲉⲛⲟⲩϯ ⲡⲓⲁ̀ⲣⲭⲏ ⲙⲁⲛⲇ̀ⲣⲓⲧⲏⲥ : ⲫⲏⲉ̀ⲧⲁϥⲉⲣⲟⲩⲱⲓⲛⲓ ⲙ̀ⲡⲉⲛⲛⲟⲩⲥ ⲛⲉⲙ ⲛⲓⲃⲁⲗ ⲛ̀ⲧⲉ ⲛⲉⲛϩⲏⲧ ϧⲉⲛ ⲫ̀ⲣⲁⲛ ⲙ̀Ⲫ̀ⲓⲱⲧ ⲛⲉⲙ Ⲡ̀ϣⲏⲣⲓ ⲛⲉⲙ ⲡⲓ̅ⲡ̅ⲛ̅ⲁ ⲉ̅ⲑ̅ⲩ ⲟⲩⲛⲟⲩϯ ⲛ̀ⲟⲩⲱⲧ ⲁ̀ⲙⲏⲛ.</td>
-        <td class="arabic">فلنختم موعظة أبينا القديس أنبا يوحنا فم الذهب الذى أنار عقولنا وعيون قلوبنا بأسم الآب والإبن والروح القدس الإله الواحد، آمين.</td>
+        <td class="arabic">فلنختم موعظة أبينا القديس أنبا شنودة رئيس المتوحدين الذى أنار عقولنا وعيون قلوبنا بأسم الآب والإبن والروح القدس الإله الواحد، آمين.</td>
     </tr>
 </table>
 </div>
@@ -460,10 +460,10 @@ ${paschalPraiseHtml}
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_16" title="Coptic Psalm">
         <caption class="caption" id="caption_table_16">Coptic Psalm<br>(41:5,7,6)
-        <span class="arabic-caption">المزمور قبطي<br>(41:5,7,6)</span></caption>
+        <span class="arabic-caption">المزمور قبطياً<br>(40: 5 ، 7 ، 6)</span></caption>
 
         <tr id="table_16_row_0" class="intro">
-            <td class="english">A psalm of David</td>
+            <td class="english">A Psalm of David</td>
             <td class="coptic">Ⲯⲁⲗⲙⲟⲥ ⲧⲱ Ⲇⲁⲩⲓⲇ</td>
             <td class="arabic">مزمور لداود</td>
         </tr>
@@ -495,8 +495,8 @@ ${paschalPraiseHtml}
     </table>
     ${copticGospelIntroHtml}
     <table id="table_18" title="Coptic Gospel">
-        <caption class="caption" id="caption_table_18">Coptic Gospels
-        <span class="arabic-caption">الإناجيل قبطي</span></caption>
+        <caption class="caption" id="caption_table_18">Coptic Gospel
+        <span class="arabic-caption">الإنجيل قبطياً</span></caption>
         <tr id="table_18_row_0" class="priest">
             <td class="english">A chapter according to St. Matthew,</td>
             <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉⲃ̀ⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲟⲛ ⲁⲅⲓⲟⲩ.</td>
@@ -505,7 +505,7 @@ ${paschalPraiseHtml}
 
         <tr id="table_18_row_1" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ<̀/td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_18_row_2" class="text">
@@ -513,7 +513,7 @@ ${paschalPraiseHtml}
         </tr>
         <tr id="table_18_row_4" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ<̀/td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
     </table>
@@ -521,30 +521,22 @@ ${paschalPraiseHtml}
 
 
 
-<div class="section" id="section_7" title="Engligh and Arabic Psalm & Gospel">
+<div class="section" id="section_7" title="English and Arabic Psalm & Gospel">
 
 <table id="table_19" title="Psalm">
     <caption id="caption_table_19" class="caption">Psalm<br>(41:5,6)
-    <span class="arabic-caption">المزمور<br>(41: 5 و6)</span></caption>
+    <span class="arabic-caption">المزمور<br>(40: 5 ، 7 ، 6)</span></caption>
     <tr id="table_19_row_1" class="intro">
         <td class="english">From the Psalms of our teacher David the prophet. May his blessing be with us. Amen.</td>
         <td class="arabic">من مزامير معلمنا داود النبي، بركته تكون معنا، آمين.</td>
     </tr>
     <tr id="table_19_row_4" class="text">
-        <td class="english">My enemies speak evil of me. 
-
-Against me they devise my hurt.</td>
-        <td class="arabic">أعدائى تقاولوا على شراً.
-
- وتشاوروا على بالسوء.</td>
+        <td class="english">My enemies speak evil of me. against me they devise my hurt.</td>
+        <td class="arabic">أعدائى تقاولوا على شراً. وتشاوروا على بالسوء.</td>
     </tr>
     <tr id="table_19_row_5" class="text">
-        <td class="english">And if he comes to see me, he speaks lies;
- 
-His heart gathers iniquity to itself.</td>
-        <td class="arabic">كان يدخل لينظر فكان يتكلم باطلاً.
-
- وقلبه جمع</td>
+        <td class="english">And if he comes to see me, he speaks lies; His heart gathers iniquity to itself.</td>
+        <td class="arabic">كان يدخل لينظر فكان يتكلم باطلاً. وقلبه جمع</td>
     </tr>
     <tr id="table_19_row_7" class="intro">
         <td class="english">Alleluia.</td>
@@ -616,8 +608,8 @@ His heart gathers iniquity to itself.</td>
         <td class="arabic">وَمِنْ ذَلِكَ الْوَقْتِ كَانَ يَطْلُبُ فُرْصَةً لِيُسَلِّمَهُ.</td>
     </tr>
     <tr id="table_20_row_18" class="text">
-        <td class="english">Bow down before the Holy Gospel.</td>
-        <td class="arabic">أسجدوا للإنجيل المقدس.</td>
+        <td class="english"><i>Bow down before the Holy Gospel.</i></td>
+        <td class="arabic"><i>أسجدوا للإنجيل المقدس.</i></td>
     </tr>
     <tr id="table_20_row_20" class="intro">
         <td class="english">Glory be to God forever.</td>

@@ -78,7 +78,7 @@ const SettingsScreen = () => {
 
                     <View style={styles.setting}>
 
-                        <Text style={styles.settingTitle}>Languages</Text>
+                        <Text style={styles.settingTitle}>Display</Text>
 
                         <View style={styles.languagesContainer}>
 

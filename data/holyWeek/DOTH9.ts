@@ -19,7 +19,7 @@ ${hourIntroHtml}
 <div class="section" id="section_2" title="Coptic Prophecies">
     <table id="table_2" title="Coptic Prophecies">
     <caption class="caption" id="caption_table_2">Coptic Prophecies
-    <span class="arabic-caption">النبوات قبطي</span></caption>
+    <span class="arabic-caption">النبوات قبطياً</span></caption>
         <tr id="table_2_row_3" class="intro">
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ ϯⲄⲉⲛⲉⲥⲓⲥ ⲛ̀ⲧⲉ Ⲙⲱⲩ̀ⲥⲏⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ (ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ):</td>
         </tr>
@@ -458,10 +458,10 @@ ${paschalPraiseHtml}
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_10" title="Coptic Psalm">
         <caption class="caption" id="caption_table_10">Coptic Psalm<br>(23:1-2)
-        <span class="arabic-caption">المزمور قبطي<br>(23:1-2)</span></caption>
+        <span class="arabic-caption">المزمور قبطياً<br>(23:1-2)</span></caption>
 
         <tr id="table_10_row_0" class="intro">
-            <td class="english">A psalm of David</td>
+            <td class="english">A Psalm of David</td>
             <td class="coptic">Ⲯⲁⲗⲙⲟⲥ ⲧⲱ Ⲇⲁⲩⲓⲇ</td>
             <td class="arabic">مزمور لداود</td>
         </tr>
@@ -494,7 +494,7 @@ ${paschalPraiseHtml}
     ${copticGospelIntroHtml}
     <table id="table_12" title="Coptic Gospel">
         <caption class="caption" id="caption_table_12">Coptic Gospel<br>(Matthew 26: 17 - 19)
-        <span class="arabic-caption">الإنجيل قبطي<br>(متى 26: 17 - 19)</span></caption>
+        <span class="arabic-caption">الإنجيل قبطياً<br>(متى 26: 17 - 19)</span></caption>
         <tr id="table_12_row_0" class="priest">
             <td class="english">A chapter according to St. Mathew,</td>
             <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲱⲛ ⲁⲅⲓⲟⲩ.</td>
@@ -514,7 +514,7 @@ ${paschalPraiseHtml}
 
 
 
-<div class="section" id="section_7" title="Engligh and Arabic Psalm & Gospel">
+<div class="section" id="section_7" title="English and Arabic Psalm & Gospel">
 
 <table id="table_13" title="Psalm">
     <caption id="caption_table_13" class="caption">Psalm<br>(23:1-2)
@@ -553,8 +553,8 @@ ${paschalPraiseHtml}
         <td class="arabic">فَقَالَ: «اذْهَبُوا إِلَى الْمَدِينَةِ إِلَى فُلاَنٍ وَقُولُوا لَهُ: الْمُعَلِّمُ يَقُولُ إِنَّ وَقْتِي قَرِيبٌ. عِنْدَكَ أَصْنَعُ الْفِصْحَ مَعَ تَلاَمِيذِي».</td>
     </tr>
     <tr id="table_14_row_6" class="text">
-        <td class="english">So the disciples did as Jesus had directed them; and they prepared the Passover.<br>Bow down before the Holy Gospel.</td>
-        <td class="arabic">فَفَعَلَ التَّلاَمِيذُ كَمَا أَمَرَهُمْ يَسُوعُ وَأَعَدُّوا الْفِصْحَ.<br>أسجدوا للإنجيل المقدس.</td>
+        <td class="english">So the disciples did as Jesus had directed them; and they prepared the Passover.<br><i>Bow down before the Holy Gospel.</i></td>
+        <td class="arabic">فَفَعَلَ التَّلاَمِيذُ كَمَا أَمَرَهُمْ يَسُوعُ وَأَعَدُّوا الْفِصْحَ.<br><i>أسجدوا للإنجيل المقدس.</i></td>
     </tr>
     <tr id="table_14_row_8" class="intro">
         <td class="english">Glory be to God forever.</td>

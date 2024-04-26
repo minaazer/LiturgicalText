@@ -18,7 +18,7 @@ ${hourIntroHtml}
 <div class="section" id="section_2" title="Coptic Prophecies">
     <table id="table_2" title="Coptic Prophecies">
     <caption class="caption" id="caption_table_2">Coptic Prophecies
-    <span class="arabic-caption">النبوات قبطي</span></caption>
+    <span class="arabic-caption">النبوات قبطياً</span></caption>
         <tr id="table_2_row_3" class="intro">
             <td class="coptic">Ⲉⲃⲟⲗ ϧⲉⲛ Ⲓⲉⲍⲉⲕⲓⲏⲗ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ (ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ):</td>
         </tr>
@@ -39,35 +39,35 @@ ${hourIntroHtml}
     <span class="arabic-caption">النبوة الأولي<br>(حزقيال 43: 5-11)</span></caption>
     <tr id="table_3_row_1" class="intro">
         <td class="english">A reading from Ezekiel the prophet. May his blessings be with us. Amen.</td>
-        <td class="arabic">من حزقيال النبى بركته المقدسة تكون معنا، آمين.</td>
+        <td class="arabic">من حزقيال النبى بركته تكون معنا، آمين.</td>
     </tr>
     <tr id="table_3_row_4" class="text">
         <td class="english">The Spirit lifted me up and brought me into the inner court; and behold, the glory of the Lord filled the temple.</td>
-        <td class="arabic">وَسَمِعْتُهُ يُكَلِّمُنِي مِنَ الْبَيْتِ. وَكَانَ رَجُلٌ وَاقِفاً عِنْدِي.</td>
+        <td class="arabic">فَحَمَلَنِي رُوحٌ وَأَتَى بِي إِلَى الدَّارِ الدَّاخِلِيَّةِ، وَإِذَا بِمَجْدِ الرَّبِّ قَدْ مَلأَ الْبَيْتَ.</td>
     </tr>
     <tr id="table_3_row_5" class="text">
         <td class="english">Then I heard Him speaking to me from the temple, while a man stood beside me.</td>
-        <td class="arabic">وَقَالَ لِي: [يَا ابْنَ آدَمَ, هَذَا مَكَانُ كُرْسِيِّي وَمَكَانُ بَاطِنِ قَدَمَيَّ حَيْثُ أَسْكُنُ فِي وَسَطِ بَنِي إِسْرَائِيلَ إِلَى الأَبَدِ, وَلاَ يُنَجِّسُ بَعْدُ بَيْتُ إِسْرَائِيلَ اسْمِي الْقُدُّوسَ, لاَ هُمْ وَلاَ مُلُوكُهُمْ, لاَ بِزِنَاهُمْ وَلاَ بِجُثَثِ مُلُوكِهِمْ فِي مُرْتَفَعَاتِهِمْ.</td>
+        <td class="arabic">وَسَمِعْتُهُ يُكَلِّمُنِي مِنَ الْبَيْتِ. وَكَانَ رَجُلٌ وَاقِفاً عِنْدِي.</td>
     </tr>
     <tr id="table_3_row_6" class="text">
         <td class="english">And He said to me, "Son of man, this is the place of My throne and the place of the soles of My feet, where I will dwell in the midst of the children of Israel forever. No more shall the house of Israel defile My holy name, they nor their kings, by their harlotry or with the carcasses of their kings on their high places.</td>
-        <td class="arabic">بِجَعْلِهِمْ عَتَبَتَهُمْ لَدَى عَتَبَتِي وَقَوَائِمَهُمْ لَدَى قَوَائِمِي وَبَيْنِي وَبَيْنَهُمْ حَائِطٌ, فَنَجَّسُوا اسْمِي الْقُدُّوسَ بِرَجَاسَاتِهِمِ الَّتِي فَعَلُوهَا, فَأَفْنَيْتُهُمْ بِغَضَبِي.</td>
+        <td class="arabic">وَقَالَ لِي: [يَا ابْنَ آدَمَ, هَذَا مَكَانُ كُرْسِيِّي وَمَكَانُ بَاطِنِ قَدَمَيَّ حَيْثُ أَسْكُنُ فِي وَسَطِ بَنِي إِسْرَائِيلَ إِلَى الأَبَدِ, وَلاَ يُنَجِّسُ بَعْدُ بَيْتُ إِسْرَائِيلَ اسْمِي الْقُدُّوسَ, لاَ هُمْ وَلاَ مُلُوكُهُمْ, لاَ بِزِنَاهُمْ وَلاَ بِجُثَثِ مُلُوكِهِمْ فِي مُرْتَفَعَاتِهِمْ.</td>
     </tr>
     <tr id="table_3_row_7" class="text">
         <td class="english">When they set their threshold by My threshold, and their doorpost by My doorpost, with a wall between them and Me, they defiled My holy name by the abominations which they committed; therefore I have consumed them in My anger.</td>
-        <td class="arabic">فَلْيُبْعِدُوا عَنِّي الآنَ زِنَاهُمْ وَجُثَثَ مُلُوكِهِمْ فَأَسْكُنَ فِي وَسَطِهِمْ إِلَى الأَبَدِ.</td>
+        <td class="arabic">بِجَعْلِهِمْ عَتَبَتَهُمْ لَدَى عَتَبَتِي وَقَوَائِمَهُمْ لَدَى قَوَائِمِي وَبَيْنِي وَبَيْنَهُمْ حَائِطٌ, فَنَجَّسُوا اسْمِي الْقُدُّوسَ بِرَجَاسَاتِهِمِ الَّتِي فَعَلُوهَا, فَأَفْنَيْتُهُمْ بِغَضَبِي.</td>
     </tr>
     <tr id="table_3_row_8" class="text">
         <td class="english">Now let them put their harlotry and the carcasses of their kings far away from Me, and I will dwell in their midst forever.</td>
-        <td class="arabic">[وَأَنْتَ يَا ابْنَ آدَمَ فَأَخْبِرْ بَيْتَ إِسْرَائِيلَ عَنِ الْبَيْتِ لِيَخْزُوا مِنْ آثَامِهِمْ. وَلْيَقِيسُوا الرَّسْمَ.</td>
+        <td class="arabic">فَلْيُبْعِدُوا عَنِّي الآنَ زِنَاهُمْ وَجُثَثَ مُلُوكِهِمْ فَأَسْكُنَ فِي وَسَطِهِمْ إِلَى الأَبَدِ.</td>
     </tr>
     <tr id="table_3_row_9" class="text">
         <td class="english">"Son of man, describe the temple to the house of Israel, that they may be ashamed of their iniquities; and let them measure the pattern.</td>
-        <td class="arabic">فَإِنْ خَزُوا مِنْ كُلِّ مَا فَعَلُوهُ فَعَرِّفْهُمْ صُورَةَ الْبَيْتِ وَرَسْمَهُ وَمَخَارِجَهُ وَمَدَاخِلَهُ وَكُلَّ أَشْكَالِهِ وَكُلَّ فَرَائِضِهِ وَكُلَّ أَشْكَالِهِ وَكُلَّ شَرَائِعِهِ. وَاكْتُبْ ذَلِكَ قُدَّامَ أَعْيُنِهِمْ لِيَحْفَظُوا كُلَّ رُسُومِهِ وَكُلَّ فَرَائِضِهِ وَيَعْمَلُوا بِهَا.</td>
+        <td class="arabic">[وَأَنْتَ يَا ابْنَ آدَمَ فَأَخْبِرْ بَيْتَ إِسْرَائِيلَ عَنِ الْبَيْتِ لِيَخْزُوا مِنْ آثَامِهِمْ. وَلْيَقِيسُوا الرَّسْمَ.</td>
     </tr>
     <tr id="table_3_row_10" class="text">
         <td class="english">And if they are ashamed of all that they have done, make known to them the design of the temple and its arrangement, its exits and its entrances, its entire design and all its ordinances, all its forms and all its laws. Write it down in their sight, so that they may keep its whole design and all its ordinances, and perform them.</td>
-        <td class="arabic"></td>
+        <td class="arabic">فَإِنْ خَزُوا مِنْ كُلِّ مَا فَعَلُوهُ فَعَرِّفْهُمْ صُورَةَ الْبَيْتِ وَرَسْمَهُ وَمَخَارِجَهُ وَمَدَاخِلَهُ وَكُلَّ أَشْكَالِهِ وَكُلَّ فَرَائِضِهِ وَكُلَّ أَشْكَالِهِ وَكُلَّ شَرَائِعِهِ. وَاكْتُبْ ذَلِكَ قُدَّامَ أَعْيُنِهِمْ لِيَحْفَظُوا كُلَّ رُسُومِهِ وَكُلَّ فَرَائِضِهِ وَيَعْمَلُوا بِهَا.</td>
     </tr>
     <tr id="table_3_row_12" class="intro">
         <td class="english">Glory be to the Holy Trinity, our God, forever and unto the age of all ages. Amen.</td>
@@ -85,21 +85,21 @@ ${paschalPraiseHtml}
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_6" title="Coptic Psalm">
         <caption class="caption" id="caption_table_6">Coptic Psalm<br>(69:1,16)
-        <span class="arabic-caption">المزمور قبطي<br>(69:1,16)</span></caption>
+        <span class="arabic-caption">المزمور قبطياً<br>(68: 1 ، 13)</span></caption>
 
         <tr id="table_6_row_0" class="intro">
-            <td class="english">A psalm of David</td>
+            <td class="english">A Psalm of David</td>
             <td class="coptic">Ⲯⲁⲗⲙⲟⲥ ⲧⲱ Ⲇⲁⲩⲓⲇ</td>
             <td class="arabic">مزمور لداود</td>
         </tr>
         <tr id="table_6_row_1" class="text">
             <td class="english">Save me, O God!</td>
-            <td class="coptic">Ⲙⲁⲧⲁⲛϧⲟⲓ Ⲫϯ ϫⲉ ⲁ̀ϩⲁⲛⲙⲱⲟⲩ :</td>
+            <td class="coptic">Ⲙⲁⲧⲁⲛϧⲟⲓ Ⲫϯ:</td>
             <td class="arabic">احيني يا الله</td>
         </tr>
         <tr id="table_6_row_2" class="text">
             <td class="english">For the waters have come up to my neck.</td>
-            <td class="coptic">ϣⲉ ⲉ̀ϧⲟⲩⲛ ϣⲁ ⲧⲁⲯⲩⲭⲏ :</td>
+            <td class="coptic">ϫⲉ ⲁ̀ϩⲁⲛⲙⲱⲟⲩ ϣⲉ ⲉ̀ϧⲟⲩⲛ ϣⲁ ⲧⲁⲯⲩⲭⲏ :</td>
             <td class="arabic">فان المياه قد بلغت إلى نفسى.</td>
         </tr>
         <tr id="table_6_row_3" class="text">
@@ -120,8 +120,8 @@ ${paschalPraiseHtml}
     </table>
     ${copticGospelIntroHtml}
     <table id="table_8" title="Coptic Gospel">
-        <caption class="caption" id="caption_table_8">Coptic Gospels
-        <span class="arabic-caption">الإناجيل قبطي</span></caption>
+        <caption class="caption" id="caption_table_8">Coptic Gospel
+        <span class="arabic-caption">الإنجيل قبطياً</span></caption>
         <tr id="table_8_row_0" class="priest">
             <td class="english">A chapter according to St. John,</td>
             <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲓⲱⲁⲛⲛⲏⲛ ⲁⲅⲓⲟⲩ.</td>
@@ -146,22 +146,22 @@ ${paschalPraiseHtml}
 
 
 
-<div class="section" id="section_7" title="Engligh and Arabic Psalm & Gospel">
+<div class="section" id="section_7" title="English and Arabic Psalm & Gospel">
 
 <table id="table_9" title="Psalm">
     <caption id="caption_table_9" class="caption">Psalm<br>(69:1,16)
-    <span class="arabic-caption">المزمور<br>(٦٩ :١و ١٦)</span></caption>
+    <span class="arabic-caption">المزمور<br>(68: 1 ، 13)</span></caption>
     <tr id="table_9_row_1" class="intro">
         <td class="english">From the Psalms of David the Prophet, may his blessing be with us, Amen.</td>
-        <td class="arabic">من مزامير أبينا داود النبى بركته المقدسة تكون معنا، آمين.</td>
+        <td class="arabic">من مزامير أبينا داود النبى بركته تكون معنا، آمين.</td>
     </tr>
     <tr id="table_9_row_4" class="text">
         <td class="english">Save me, O God!  For the waters have come up to my neck.</td>
-        <td class="arabic">وأنظر إلى ككثرة رأفاتك.</td>
+        <td class="arabic">احينى يا الله فان المياه قد بلغت إلى نفسى.</td>
     </tr>
     <tr id="table_9_row_5" class="text">
         <td class="english">Turn to me according to the multitude of Your tender mercies.</td>
-        <td class="arabic"></td>
+        <td class="arabic">وأنظر إلى ككثرة رأفاتك.</td>
     </tr>
     <tr id="table_9_row_7" class="intro">
         <td class="english">Alleluia.</td>
@@ -197,8 +197,8 @@ ${paschalPraiseHtml}
         <td class="arabic">آخَرُونَ قَالُوا: «لَيْسَ هَذَا كلاَمَ مَنْ بِهِ شَيْطَانٌ. أَلَعَلَّ شَيْطَاناً يَقْدِرُ أَنْ يَفْتَحَ أَعْيُنَ الْعُمْيَانِ؟».</td>
     </tr>
     <tr id="table_10_row_9" class="text">
-        <td class="english">Bow down before the Holy Gospel.</td>
-        <td class="arabic">أسجدوا للإنجيل المقدس.</td>
+        <td class="english"><i>Bow down before the Holy Gospel.</i></td>
+        <td class="arabic"><i>أسجدوا للإنجيل المقدس.</i></td>
     </tr>
     <tr id="table_10_row_11" class="intro">
         <td class="english">Glory be to God forever.</td>

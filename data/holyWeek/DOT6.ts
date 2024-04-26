@@ -18,7 +18,7 @@ ${hourIntroHtml}
 <div class="section" id="section_2" title="Coptic Prophecies">
     <table id="table_2" title="Coptic Prophecies">
     <caption class="caption" id="caption_table_2">Coptic Prophecies
-    <span class="arabic-caption">النبوات قبطي</span></caption>
+    <span class="arabic-caption">النبوات قبطياً</span></caption>
         <tr id="table_2_row_3" class="intro">
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲓⲉⲍⲉⲕⲓⲉⲗ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ:</td>
         </tr>
@@ -254,10 +254,10 @@ ${paschalPraiseHtml}
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_16" title="Coptic Psalm">
         <caption class="caption" id="caption_table_16">Coptic Psalm<br>(18:48,17)
-        <span class="arabic-caption">المزمور قبطي<br>(18:48,17)</span></caption>
+        <span class="arabic-caption">المزمور قبطياً<br>(17: 48 ، 19)</span></caption>
 
         <tr id="table_16_row_0" class="intro">
-            <td class="english">A psalm of David</td>
+            <td class="english">A Psalm of David</td>
             <td class="coptic">Ⲯⲁⲗⲙⲟⲥ ⲧⲱ Ⲇⲁⲩⲓⲇ</td>
             <td class="arabic">مزمور لداود</td>
         </tr>
@@ -289,8 +289,8 @@ ${paschalPraiseHtml}
     </table>
     ${copticGospelIntroHtml}
     <table id="table_18" title="Coptic Gospel">
-        <caption class="caption" id="caption_table_18">Coptic Gospels
-        <span class="arabic-caption">الإناجيل قبطي</span></caption>
+        <caption class="caption" id="caption_table_18">Coptic Gospel
+        <span class="arabic-caption">الإنجيل قبطياً</span></caption>
         <tr id="table_18_row_0" class="priest">
             <td class="english">A chapter according to St. John,</td>
             <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉⲃ̀ⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲓⲱⲁⲛⲛⲏⲛ ⲁⲅⲓⲟⲩ.</td>
@@ -299,7 +299,7 @@ ${paschalPraiseHtml}
 
         <tr id="table_18_row_1" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ<̀/td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_18_row_2" class="text">
@@ -307,7 +307,7 @@ ${paschalPraiseHtml}
         </tr>
         <tr id="table_18_row_4" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ<̀/td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
     </table>
@@ -315,32 +315,22 @@ ${paschalPraiseHtml}
 
 
 
-<div class="section" id="section_7" title="Engligh and Arabic Psalm & Gospel">
+<div class="section" id="section_7" title="English and Arabic Psalm & Gospel">
 
 <table id="table_19" title="Psalm">
     <caption id="caption_table_19" class="caption">Psalm<br>(18:48,17)
-    <span class="arabic-caption">المزمور<br>(18: 48 و 17)</span></caption>
+    <span class="arabic-caption">المزمور<br>(17: 48 ، 19)</span></caption>
     <tr id="table_19_row_1" class="intro">
         <td class="english">From the Psalms of our teacher David the prophet. May his blessing be with us. Amen.</td>
         <td class="arabic">من مزامير معلمنا داود النبي، بركته تكون معنا، آمين.</td>
     </tr>
     <tr id="table_19_row_4" class="text">
-        <td class="english">My deliverer from angry enemies; 
-
-You shall set me on high above them that rise up against me; 
-
-You shall deliver me from the unrighteous man.</td>
-        <td class="arabic">منقذى من أعدائى الراجزين 
-
-ومن الذين يقومون على ترفعنى.
-
-ومن الرجل الظالم تنجينى 
-
- ١٧يخلصنى من أعدائى الاشداء ومن أيدى الذين يبغضوننى.</td>
+        <td class="english">My deliverer from angry enemies; You shall set me on high above them that rise up against me; You shall deliver me from the unrighteous man.</td>
+        <td class="arabic">منقذى من أعدائى الراجزين ومن الذين يقومون على ترفعنى. ومن الرجل الظالم تنجينى</td>
     </tr>
     <tr id="table_19_row_5" class="text">
         <td class="english">He will deliver me from my mighty enemies, and from them that hate me.</td>
-        <td class="arabic"></td>
+        <td class="arabic">يخلصنى من أعدائى الاشداء ومن أيدى الذين يبغضوننى.</td>
     </tr>
     <tr id="table_19_row_7" class="intro">
         <td class="english">Alleluia.</td>
@@ -392,8 +382,8 @@ You shall deliver me from the unrighteous man.</td>
         <td class="arabic">هَذَا الْكلاَمُ قَالَهُ يَسُوعُ فِي الْخِزَانَةِ وَهُوَ يُعَلِّمُ فِي الْهَيْكَلِ. وَلَمْ يُمْسِكْهُ أَحَدٌ لأَنَّ سَاعَتَهُ لَمْ تَكُنْ قَدْ جَاءَتْ بَعْدُ.</td>
     </tr>
     <tr id="table_20_row_13" class="text">
-        <td class="english">Bow down before the Holy Gospel.</td>
-        <td class="arabic">أسجدوا للإنجيل المقدس.</td>
+        <td class="english"><i>Bow down before the Holy Gospel.</i></td>
+        <td class="arabic"><i>أسجدوا للإنجيل المقدس.</i></td>
     </tr>
     <tr id="table_20_row_15" class="intro">
         <td class="english">Glory be to God forever.</td>

@@ -18,7 +18,7 @@ ${hourIntroHtml}
 <div class="section" id="section_2" title="Coptic Prophecies">
     <table id="table_2" title="Coptic Prophecies">
     <caption class="caption" id="caption_table_2">Coptic Prophecies
-    <span class="arabic-caption">النبوات قبطي</span></caption>
+    <span class="arabic-caption">النبوات قبطياً</span></caption>
         <tr id="table_2_row_3" class="intro">
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ ⲡ̀ⲅⲱⲙ ⲛ̀ⲧⲉ ⲡⲓⲇⲉⲩⲧⲉⲣⲟⲛⲟⲙⲓⲟⲛ ⲛ̀ⲧⲉ Ⲙⲱⲩ̀ⲥⲏⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ (ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ):</td>
         </tr>
@@ -176,7 +176,7 @@ ${hourIntroHtml}
     <caption id="caption_table_5" class="caption">3rd Prophecy<br>(Job 27:2 - 28:2)
     <span class="arabic-caption">النبوة الثالثة<br>(أيوب 27: 2 - 28: 2)</span></caption>
     <tr id="table_5_row_1" class="intro">
-        <td class="english">A reading from Job the prophet. May his blessings be with us. Amen.</td>
+        <td class="english">A reading from Job the righteous. May his blessings be with us. Amen.</td>
         <td class="arabic">من أيوب الصديق بركته تكون معنا، آمين.</td>
     </tr>
     <tr id="table_5_row_4" class="text">
@@ -327,11 +327,11 @@ ${paschalPraiseHtml}
 
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_16" title="Coptic Psalm">
-        <caption class="caption" id="caption_table_16">Coptic Psalm<br>(118:118,119)
-        <span class="arabic-caption">المزمور قبطي<br>(118:118,119)</span></caption>
+        <caption class="caption" id="caption_table_16">Coptic Psalm<br>(119:154-155)
+        <span class="arabic-caption">المزمور قبطياً<br>(118: 118 ، 119)</span></caption>
 
         <tr id="table_16_row_0" class="intro">
-            <td class="english">A psalm of David</td>
+            <td class="english">A Psalm of David</td>
             <td class="coptic">Ⲯⲁⲗⲙⲟⲥ ⲧⲱ Ⲇⲁⲩⲓⲇ</td>
             <td class="arabic">مزمور لداود</td>
         </tr>
@@ -363,8 +363,8 @@ ${paschalPraiseHtml}
     </table>
     ${copticGospelIntroHtml}
     <table id="table_18" title="Coptic Gospel">
-        <caption class="caption" id="caption_table_18">Coptic Gospels
-        <span class="arabic-caption">الإناجيل قبطي</span></caption>
+        <caption class="caption" id="caption_table_18">Coptic Gospel
+        <span class="arabic-caption">الإنجيل قبطياً</span></caption>
         <tr id="table_18_row_0" class="priest">
             <td class="english">A chapter according to St. Matthew,</td>
             <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉⲃ̀ⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲟⲛ ⲁⲅⲓⲟⲩ.</td>
@@ -373,7 +373,7 @@ ${paschalPraiseHtml}
 
         <tr id="table_18_row_1" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ<̀/td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_18_row_2" class="text">
@@ -381,7 +381,7 @@ ${paschalPraiseHtml}
         </tr>
         <tr id="table_18_row_4" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ<̀/td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
     </table>
@@ -389,29 +389,21 @@ ${paschalPraiseHtml}
 
 
 
-<div class="section" id="section_7" title="Engligh and Arabic Psalm & Gospel">
+<div class="section" id="section_7" title="English and Arabic Psalm & Gospel">
 
 <table id="table_19" title="Psalm">
     <caption id="caption_table_19" class="caption">Psalm<br>(119:154-155)
-    <span class="arabic-caption">المزمور<br>(119: 154 و 155)</span></caption>
+    <span class="arabic-caption">المزمور<br>(118: 118 ، 119)</span></caption>
     <tr id="table_19_row_1" class="intro">
         <td class="english">From the Psalms of our teacher David the prophet. May his blessing be with us. Amen.</td>
         <td class="arabic">من مزامير معلمنا داود النبي، بركته تكون معنا، آمين.</td>
     </tr>
     <tr id="table_19_row_4" class="text">
-        <td class="english">Plead my cause and ransom me; 
-
-Revive me because of Your word. 
-
-1</td>
-        <td class="arabic">أحكم حكمى ونجنى من أجل كلامك أحينى بعيد
-
- ١</td>
+        <td class="english">Plead my cause and ransom me; Revive me because of Your word.</td>
+        <td class="arabic">أحكم حكمى ونجنى من أجل كلامك أحينى بعيد</td>
     </tr>
     <tr id="table_19_row_5" class="text">
-        <td class="english">Salvation is far from sinners; 
-
-For they have not searched out Your statutes.</td>
+        <td class="english">Salvation is far from sinners; For they have not searched out Your statutes.</td>
         <td class="arabic">الخلاص من الخطاة لانهم لم يطلبوا حقوقك.</td>
     </tr>
     <tr id="table_19_row_7" class="intro">
@@ -448,8 +440,8 @@ For they have not searched out Your statutes.</td>
         <td class="arabic">فَقَالَ لَهُمْ يَسُوعُ: «أَمَا تَنْظُرُونَ جَمِيعَ هَذِهِ؟ اَلْحَقَّ أَقُولُ لَكُمْ إِنَّهُ لاَ يُتْرَكُ هَهُنَا حَجَرٌ عَلَى حَجَرٍ لاَ يُنْقَضُ!»</td>
     </tr>
     <tr id="table_20_row_9" class="text">
-        <td class="english">Bow down before the Holy Gospel.</td>
-        <td class="arabic">أسجدوا للإنجيل المقدس.</td>
+        <td class="english"><i>Bow down before the Holy Gospel.</i></td>
+        <td class="arabic"><i>أسجدوا للإنجيل المقدس.</i></td>
     </tr>
     <tr id="table_20_row_11" class="intro">
         <td class="english">Glory be to God forever.</td>
@@ -469,7 +461,7 @@ ${daytimeExpositionIntroHtml}
     <span class="arabic-caption">الطرح</span></caption>
     <tr id="table_22_row_1" class="intro">
         <td class="english">The exposition of The THIRD Hour of the DAY of TUESDAY of Holy Pascha. May its blessings be with us. Amen.</td>
-        <td class="arabic">طرح الساعة الأولى من يوم الاثنين من البصخة المقدسة بركتها تكون معنا. آمين</td>
+        <td class="arabic">طرح الساعة الثالثة من يوم الثلاثاء من البصخة المقدسة بركتها تكون معنا. آمين</td>
     </tr>
     <tr id="table_22_row_4" class="text">
         <td class="english">Several times, the Lord said “O Jerusalem, How often I wanted to gather your children together, as the hen gathers her chicks under her wings, but you were not willing!”</td>

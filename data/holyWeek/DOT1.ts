@@ -18,7 +18,7 @@ ${hourIntroHtml}
 <div class="section" id="section_2" title="Coptic Prophecies">
     <table id="table_2" title="Coptic Prophecies">
     <caption class="caption" id="caption_table_2">Coptic Prophecies
-    <span class="arabic-caption">النبوات قبطي</span></caption>
+    <span class="arabic-caption">النبوات قبطياً</span></caption>
         <tr id="table_2_row_3" class="intro">
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ ⲡⲓⲇⲟⲝⲟⲇⲟⲥ ⲛ̀ⲧⲉ Ⲙⲱⲩ̀ⲥⲏⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ (ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ)</td>
         </tr>
@@ -105,7 +105,7 @@ ${hourIntroHtml}
     <caption id="caption_table_4" class="caption">2nd Prophecy<br>(Job 23:2-24:25)
     <span class="arabic-caption">النبوة الثانية<br>(أيوب 2:23 - 25:24)</span></caption>
     <tr id="table_4_row_1" class="intro">
-        <td class="english">A reading from Job the prophet. May his blessings be with us. Amen.</td>
+        <td class="english">A reading from Job the righteous. May his blessings be with us. Amen.</td>
         <td class="arabic">من أيوب الصديق بركته تكون معنا، آمين.</td>
     </tr>
     <tr id="table_4_row_4" class="text">
@@ -407,11 +407,11 @@ ${paschalPraiseHtml}
 
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_16" title="Coptic Psalm">
-        <caption class="caption" id="caption_table_16">Coptic Psalm<br>(119:2,5)
-        <span class="arabic-caption">المزمور قبطي<br>(119:2,5)</span></caption>
+        <caption class="caption" id="caption_table_16">Coptic Psalm<br>(120:2, 6, 7)
+        <span class="arabic-caption">المزمور قبطياً<br>(119: 2 ، 5)</span></caption>
 
         <tr id="table_16_row_0" class="intro">
-            <td class="english">A psalm of David</td>
+            <td class="english">A Psalm of David</td>
             <td class="coptic">Ⲯⲁⲗⲙⲟⲥ ⲧⲱ Ⲇⲁⲩⲓⲇ</td>
             <td class="arabic">مزمور لداود</td>
         </tr>
@@ -443,8 +443,8 @@ ${paschalPraiseHtml}
     </table>
     ${copticGospelIntroHtml}
     <table id="table_18" title="Coptic Gospel">
-        <caption class="caption" id="caption_table_18">Coptic Gospels
-        <span class="arabic-caption">الإناجيل قبطي</span></caption>
+        <caption class="caption" id="caption_table_18">Coptic Gospel
+        <span class="arabic-caption">الإنجيل قبطياً</span></caption>
         <tr id="table_18_row_0" class="priest">
             <td class="english">A chapter according to St. John,</td>
             <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉⲃ̀ⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲓⲱⲁⲛⲛⲏⲛ ⲁⲅⲓⲟⲩ.</td>
@@ -453,7 +453,7 @@ ${paschalPraiseHtml}
 
         <tr id="table_18_row_1" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ<̀/td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_18_row_2" class="text">
@@ -461,7 +461,7 @@ ${paschalPraiseHtml}
         </tr>
         <tr id="table_18_row_4" class="intro">
             <td class="english">Glory be to God forever.</td>
-            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ<̀/td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ</td>
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
     </table>
@@ -469,28 +469,26 @@ ${paschalPraiseHtml}
 
 
 
-<div class="section" id="section_7" title="Engligh and Arabic Psalm & Gospel">
+<div class="section" id="section_7" title="English and Arabic Psalm & Gospel">
 
 <table id="table_19" title="Psalm">
-    <caption id="caption_table_19" class="caption">Psalm<br>(Psalm 120:2, 6, 7)
-    <span class="arabic-caption">المزمور<br>(المزمور 120: 2 و 6 و 7)</span></caption>
+    <caption id="caption_table_19" class="caption">Psalm<br>(120:2, 6, 7)
+    <span class="arabic-caption">المزمور<br>(119: 2 ، 5)</span></caption>
     <tr id="table_19_row_1" class="intro">
         <td class="english">From the Psalms of our teacher David the prophet. May his blessing be with us. Amen.</td>
         <td class="arabic">من مزامير معلمنا داود النبي، بركته تكون معنا، آمين.</td>
     </tr>
     <tr id="table_19_row_4" class="text">
-        <td class="english">Deliver my soul, O Lord, from lying lips
-
-And from a deceitful tongue.</td>
-        <td class="arabic">يَا رَبُّ نَجِّ نَفْسِي مِنْ شِفَاهِ الْكَذِبِ مِنْ لِسَانِ غِشٍّ.</td>
+        <td class="english">Deliver my soul, O Lord, from lying lips and from a deceitful tongue.</td>
+        <td class="arabic">يارَبُّ تُنَجِّي نفسِي مِنْ الشَّفَاءِ الظَّالِمة ، ومِنْ اللِّسَانِ الغَاشِ،</td>
     </tr>
     <tr id="table_19_row_5" class="text">
         <td class="english">My soul has dwelt too long With one who hates peace.</td>
-        <td class="arabic">طَالَ عَلَى نَفْسِي سَكَنُهَا مَعَ مُبْغِضِ السَّلاَمِ.</td>
+        <td class="arabic">وَمَعَ مُبْغِضِي السَّلَامِ كُنْتُ صَاحِبَ سلام.</td>
     </tr>
     <tr id="table_19_row_6" class="text">
         <td class="english">I am for peace; But when I speak, they are for war.</td>
-        <td class="arabic">أَنَا سَلاَمٌ وَحِينَمَا أَتَكَلَّمُ فَهُمْ لِلْحَرْبِ.</td>
+        <td class="arabic">وحِينَ كُنْتُ أُكَلِّمُهُمُ كانوا يُقاتِلُونَني مَجَّاناً.</td>
     </tr>
     <tr id="table_19_row_8" class="intro">
         <td class="english">Alleluia.</td>
@@ -542,8 +540,8 @@ And from a deceitful tongue.</td>
         <td class="arabic">وَالَّذِي أَرْسَلَنِي هُوَ مَعِي وَلَمْ يَتْرُكْنِي الآبُ وَحْدِي لأَنِّي فِي كُلِّ حِينٍ أَفْعَلُ مَا يُرْضِيهِ».</td>
     </tr>
     <tr id="table_20_row_13" class="text">
-        <td class="english">Bow down before the Holy Gospel.</td>
-        <td class="arabic">أسجدوا للإنجيل المقدس.</td>
+        <td class="english"><i>Bow down before the Holy Gospel.</i></td>
+        <td class="arabic"><i>أسجدوا للإنجيل المقدس.</i></td>
     </tr>
     <tr id="table_20_row_15" class="intro">
         <td class="english">Glory be to God forever.</td>

@@ -1,8 +1,12 @@
 import { hourIntro, paschalPraise3 , copticGospelIntro, daytimeExpositionIntro, expositionConclusion, daytimeLitanies, cross} from "../repeatedPrayers";
 
 export const DOF12 = () => {
-    const hourIntroHtml = hourIntro("TWELFTH","الثانية عشر","DAY of GOOD FRIDAY","يوم الجمعة العظيمة");
-    const paschalPraiseHtml = paschalPraise3("4","5","6","TWELFTH","الثانية عشر","DAY of GOOD FRIDAY","يوم الجمعة العظيمة");
+    const introCommentary = `
+    <td class="english">The door of the sanctuary and chorus is opened and the sanctuary is covered with a covering befitting Joyous Saturday. The candles are lit and lanterns are turned on. The crucifixion icon and crosses are prepared. The priests, wearing their vestments and carrying the censors and incense, beign reading the Lamentations of Jeremiah. The priests and deacons then go up to the top of the "Enbel" with their heads uncovered while carrying the icon, crosses, censors, and candles and they begin praying <span class="coptic">Ⲑⲱⲕ ⲧⲉ ϯϫⲟⲙ </span> one verse above the "Enbel" and one verse below twelve times. The psalm <span class="coptic">Ⲡⲉⲕⲑ̀ⲣⲟⲛⲟⲥ </span> is then prayed in the Shamy tune from above the "Enbel".</td>
+    <td class="arabic">يفتح باب الهيكل والخورس ويكسى الهيكل بكسوة تلائم سبت الفرح وتوقد الشموع وتضاء القناديل وتجهز ايقونة الصلبوت الشريف والصلبان. والكهنة لابسين بدلهم وحاملين المجامر والبخور ويبتدئون بقراءة مراثي أرميا ثم يصعد الكهنة والشمامسة الى علو الأنبل مكشوفي الرؤوس وهم حاملين القون والصلبان والمجامر والشموع ويبتدئون بقراءة  <span class="coptic">Ⲑⲱⲕ ⲧⲉ ϯϫⲟⲙ </span> ربع فوق الأنبل وربع أسفل اثنى عشر دفعة ثم يطرح المزمور بالشامي <span class="coptic">Ⲡⲉⲕⲑ̀ⲣⲟⲛⲟⲥ </span> فوق الأنبل.</td>
+`;
+    const hourIntroHtml = hourIntro("TWELFTH","الثانية عشر","DAY of GREAT FRIDAY","يوم الجمعة العظيمة",introCommentary);
+    const paschalPraiseHtml = paschalPraise3("4","5","6","TWELFTH","الثانية عشر","DAY of GREAT FRIDAY","يوم الجمعة العظيمة");
     const copticGospelIntroHtml = copticGospelIntro("8");
     const daytimeExpositionIntroHtml = daytimeExpositionIntro("16");
     const expositionConclusionHtml = expositionConclusion("18");
@@ -17,12 +21,12 @@ ${hourIntroHtml}
 <div class="section" id="section_2" title="Coptic Prophecies">
     <table id="table_2" title="Coptic Prophecies">
     <caption class="caption" id="caption_table_2">Coptic Prophecies
-    <span class="arabic-caption">النبوات قبطي</span></caption>
+    <span class="arabic-caption">النبوات قبطياً</span></caption>
         <tr id="table_2_row_3" class="intro">
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲑ̀ⲣⲓⲛⲟⲓ Ⲓⲉⲣⲉⲙⲓⲟⲩ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ:</td>
         </tr>
         <tr id="table_2_row_4" class="text">
-            <td class="coptic">Ⲁ ⲁ̀ⲛⲟⲕ ⲫ̀ⲣⲱⲙⲓ ⲁ̀ⲛⲟⲕ ⲉⲑⲛⲁⲩ ⲉ̀ϯⲙⲉⲧϩⲏⲕⲓ : ⲁϥⲓ̀ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲓ ϧⲉⲛ ⲡⲓϣⲃⲱⲧ ⲛ̀ⲧⲉ ⲡⲉϥϫⲱⲛⲧ. Ⲁϥⲁ̀ⲙⲟⲛⲓ ⲙ̀ⲙⲟⲓ ⲟⲩⲟϩ ⲁϥⲟⲗⲧ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲟⲩⲭⲁⲕⲓ ⲉ̀ⲟⲩⲱⲓⲛⲓ ⲁⲛ : ⲡ̀ⲗⲏⲛ ⲁϥⲧⲁⲥⲑⲟ ⲛ̀ⲧⲉϥϫⲓϫ ⲛ̀ϧ̀ⲣⲏⲓ ⲛ̀ϧⲏⲧ ⲙ̀ⲡⲓⲉ̀ϩⲟⲟⲩ ⲧⲏⲣϥ.</td>
+            <td class="coptic">Ⲁⲛⲟⲕ ⲫ̀ⲣⲱⲙⲓ ⲁ̀ⲛⲟⲕ ⲉⲑⲛⲁⲩ ⲉ̀ϯⲙⲉⲧϩⲏⲕⲓ : ⲁϥⲓ̀ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲓ ϧⲉⲛ ⲡⲓϣⲃⲱⲧ ⲛ̀ⲧⲉ ⲡⲉϥϫⲱⲛⲧ. Ⲁϥⲁ̀ⲙⲟⲛⲓ ⲙ̀ⲙⲟⲓ ⲟⲩⲟϩ ⲁϥⲟⲗⲧ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲟⲩⲭⲁⲕⲓ ⲉ̀ⲟⲩⲱⲓⲛⲓ ⲁⲛ : ⲡ̀ⲗⲏⲛ ⲁϥⲧⲁⲥⲑⲟ ⲛ̀ⲧⲉϥϫⲓϫ ⲛ̀ϧ̀ⲣⲏⲓ ⲛ̀ϧⲏⲧ ⲙ̀ⲡⲓⲉ̀ϩⲟⲟⲩ ⲧⲏⲣϥ.</td>
         </tr>
         <tr id="table_2_row_5" class="intro">
             <td class="coptic">Ⲟⲩⲱ̀ⲟⲩ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ...</td>
@@ -226,10 +230,10 @@ ${paschalPraiseHtml}
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_7" title="Coptic Psalm">
         <caption class="caption" id="caption_table_7">Coptic Psalm<br>(27:12, 35:11-12, 16)
-        <span class="arabic-caption">المزمور قبطي<br>(27: 12 و 35: 11 - 12 و 16)</span></caption>
+        <span class="arabic-caption">المزمور قبطياً<br>(27: 12 و 35: 11 - 12 و 16)</span></caption>
 
         <tr id="table_7_row_0" class="intro">
-            <td class="english">A psalm of David</td>
+            <td class="english">A Psalm of David</td>
             <td class="coptic">Ⲯⲁⲗⲙⲟⲥ ⲧⲱ Ⲇⲁⲩⲓⲇ</td>
             <td class="arabic">مزمور لداود</td>
         </tr>
@@ -257,10 +261,10 @@ ${paschalPraiseHtml}
     ${copticGospelIntroHtml}
     <table id="table_9" title="Coptic Gospel">
         <caption class="caption" id="caption_table_9">Coptic Gospels
-        <span class="arabic-caption">الإناجيل قبطي</span></caption>
+        <span class="arabic-caption">الأناجيل قبطياً</span></caption>
         <tr id="table_9_row_0" class="priest">
             <td class="english">A chapter according to St. Matthew,</td>
-            <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲱⲛ ⲁⲅⲓⲟⲩ.</td>
+            <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲱⲛ ̀ⲁⲅⲓⲟ.</td>
             <td class="arabic">فصل من إنجيل معلمنا مار متى</td>
         </tr>
 
@@ -270,11 +274,11 @@ ${paschalPraiseHtml}
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_9_row_2" class="text">
-            <td class="coptic">Ⲉⲧⲁ̀ⲣⲟⲩϩⲓ ⲇⲉ ϣⲱⲡⲓ ⲁϥⲓ̀ ⲛ̀ϫⲉ ⲟⲩⲣⲱⲙⲓ ⲛ̀ⲣⲁⲙⲁⲟ ⲉ̀ⲃⲟⲗϧⲉⲛ ̀̀Ⲁⲣⲓⲙⲁⲑⲉⲁⲥ : ⲉ̀ⲡⲉϥⲣⲁⲛ ⲡⲉ Ⲓⲱⲥⲏⲫ : ⲫⲁⲓ ϩⲱϥ ⲛⲉ ⲁϥⲉⲣⲙⲁⲑⲏⲧⲏⲥ ⲛ̀Ⲓ̅ⲏ̅ⲥ. Ⲫⲁⲓ ⲁϥⲓ̀ ϩⲁⲠⲓⲗⲁⲧⲟⲥ ⲁϥⲉⲣⲉ̀ⲧⲓⲛ ⲙ̀ⲡⲓⲥⲱⲙⲁ ⲛ̀ⲧⲉ Ⲓⲏⲥ ⲧⲟⲧⲉ Ⲡⲓⲗⲁⲧⲟⲥ ⲁϥⲟⲩⲁϩ ⲥⲁϩⲛⲓ ⲉ̀ⲧⲏⲓϥ <br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲉⲧⲁ̀ⲣⲟⲩϩⲓ ⲇⲉ ϣⲱⲡⲓ ⲁϥⲓ̀ ⲛ̀ϫⲉ ⲟⲩⲣⲱⲙⲓ ⲛ̀ⲣⲁⲙⲁⲟ ⲉ̀ⲃⲟⲗϧⲉⲛ ̀̀Ⲁⲣⲓⲙⲁⲑⲉⲁⲥ : ⲉ̀ⲡⲉϥⲣⲁⲛ ⲡⲉ Ⲓⲱⲥⲏϥ : ⲫⲁⲓ ϩⲱϥ ⲛⲉ ⲁϥⲉⲣⲙⲁⲑⲏⲧⲏⲥ ⲛ̀Ⲓ̅ⲏ̅ⲥ. Ⲫⲁⲓ ⲁϥⲓ̀ ϩⲁⲠⲓⲗⲁⲧⲟⲥ ⲁϥⲉⲣⲉ̀ⲧⲓⲛ ⲙ̀ⲡⲓⲥⲱⲙⲁ ⲛ̀ⲧⲉ Ⲓⲏⲥ ⲧⲟⲧⲉ Ⲡⲓⲗⲁⲧⲟⲥ ⲁϥⲟⲩⲁϩ ⲥⲁϩⲛⲓ ⲉ̀ⲧⲏⲓϥ <br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_9_row_3" class="priest">
             <td class="english">According to St. Mark</td>
-            <td class="coptic">ⲕⲁⲧⲁ Ⲙⲁⲣⲕⲟⲛ ⲁⲅⲓⲟⲩ.</td>
+            <td class="coptic">ⲕⲁⲧⲁ Ⲙⲁⲣⲕⲟⲛ ̀ⲁⲅⲓⲟ.</td>
             <td class="arabic">حسب مار مرقس</td>
         </tr>
         <tr id="table_9_row_4" class="intro">
@@ -283,7 +287,7 @@ ${paschalPraiseHtml}
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_9_row_5" class="text">
-            <td class="coptic">Ⲟⲩⲟϩ ϩⲏⲇⲏⲉⲧ ⲁ̀ⲣ̀ⲟⲩϩⲓ ϣⲱⲡⲓ ⲉⲡⲓⲇⲏ ⲛⲉⲧ̀ⲡⲁⲣⲁⲥⲕⲉⲩⲏ̀ ⲧⲉ ⲉⲧϧⲁϫⲱϥ ⲙ̀ⲡⲓⲥⲁⲃⲃⲁⲧⲟⲛ : Ⲉ̀ⲧϥⲁⲓ ⲛ̀ϫⲉ Ⲓⲱⲥⲏⲫ ⲉ̀ⲃⲟⲗϧⲉⲛ Ⲁ̀ⲣⲓⲙⲁⲑⲉⲁⲥ : ⲉ̀ⲟⲩⲉⲩⲥ̀ⲭⲉⲙⲱⲛ ⲡⲉ ⲙ̀ⲃⲟⲩⲗⲉⲩⲧⲏⲥ : ⲫⲁⲓ ⲉ̀ⲧⲉ ⲛ̀ⲑⲟϥ ϩⲱϥ ⲛⲁϥϫⲟⲩϣⲧ ⲉ̀ⲃⲟⲗ ϧⲁⲧ̀ϩⲏ ⲛ̀ϯⲙⲉⲧⲟⲩⲣⲟ ⲛ̀ⲧⲉ Ⲫϯ : ⲁϥⲉⲣⲧⲟⲗⲙⲁⲛ ⲁϥϣⲉ ⲉ̀ϧⲟⲩⲛ ϩⲁⲠⲓⲗⲁⲧⲟⲥ ⲁϥⲉⲣⲉ̀ⲧⲓⲛ ⲙⲡ̀ⲥⲱⲙⲁ ⲛ̀Ⲓ̅ⲏ̅ⲥ. <br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲟⲩⲟϩ ϩⲏⲇⲏⲉⲧ ⲁ̀ⲣ̀ⲟⲩϩⲓ ϣⲱⲡⲓ ⲉⲡⲓⲇⲏ ⲛⲉⲧ̀ⲡⲁⲣⲁⲥⲕⲉⲩⲏ̀ ⲧⲉ ⲉⲧϧⲁϫⲱϥ ⲙ̀ⲡⲓⲥⲁⲃⲃⲁⲧⲟⲛ : Ⲉ̀ⲧϥⲁⲓ ⲛ̀ϫⲉ Ⲓⲱⲥⲏϥ ⲉ̀ⲃⲟⲗϧⲉⲛ Ⲁ̀ⲣⲓⲙⲁⲑⲉⲁⲥ : ⲉ̀ⲟⲩⲉⲩⲥ̀ⲭⲉⲙⲱⲛ ⲡⲉ ⲙ̀ⲃⲟⲩⲗⲉⲩⲧⲏⲥ : ⲫⲁⲓ ⲉ̀ⲧⲉ ⲛ̀ⲑⲟϥ ϩⲱϥ ⲛⲁϥϫⲟⲩϣⲧ ⲉ̀ⲃⲟⲗ ϧⲁⲧ̀ϩⲏ ⲛ̀ϯⲙⲉⲧⲟⲩⲣⲟ ⲛ̀ⲧⲉ Ⲫϯ : ⲁϥⲉⲣⲧⲟⲗⲙⲁⲛ ⲁϥϣⲉ ⲉ̀ϧⲟⲩⲛ ϩⲁⲠⲓⲗⲁⲧⲟⲥ ⲁϥⲉⲣⲉ̀ⲧⲓⲛ ⲙⲡ̀ⲥⲱⲙⲁ ⲛ̀Ⲓ̅ⲏ̅ⲥ. <br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_9_row_6" class="priest">
             <td class="english">According to St. Luke</td>
@@ -296,7 +300,7 @@ ${paschalPraiseHtml}
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_9_row_8" class="text">
-            <td class="coptic">̀̀Ⲟⲩⲟϩ ϩⲏⲡⲡⲉ ⲓⲥ ⲟⲩⲣⲱⲙⲓ ⲉ̀ⲡⲉϥⲣⲁⲛ ⲡⲉ Ⲓⲱⲥⲏⲫ : ⲉ̀ⲟⲩⲃⲟⲩⲗⲉⲩⲧⲏⲥ ⲡⲉ : ⲟⲩⲣⲙⲙⲓ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ ⲟⲩⲟϩ ⲛ̀ⲑ̀ⲙⲏⲓ : Ⲫⲁⲓ ⲉ̀ⲛⲁϥ ϯⲙⲁϯ ⲁⲛ ⲡⲉ ϧⲉⲛ ⲡⲟⲩⲥⲟϭⲛⲓ ⲛⲉⲙ ⲧⲟⲩ ⲡ̀ⲣⲁⲝⲓⲥ ⲛⲉ ⲟⲩⲉ̀ⲃⲟⲗϧⲉⲛ Ⲁ̀ⲣⲓⲙⲁⲑⲉⲁⲥ ⲟⲩ ⲃⲁⲕⲓ ⲛ̀ⲧⲉ ⲛⲓⲒⲟⲩⲇⲁⲓ<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">̀̀Ⲟⲩⲟϩ ϩⲏⲡⲡⲉ ⲓⲥ ⲟⲩⲣⲱⲙⲓ ⲉ̀ⲡⲉϥⲣⲁⲛ ⲡⲉ Ⲓⲱⲥⲏϥ : ⲉ̀ⲟⲩⲃⲟⲩⲗⲉⲩⲧⲏⲥ ⲡⲉ : ⲟⲩⲣⲙⲙⲓ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ ⲟⲩⲟϩ ⲛ̀ⲑ̀ⲙⲏⲓ : Ⲫⲁⲓ ⲉ̀ⲛⲁϥ ϯⲙⲁϯ ⲁⲛ ⲡⲉ ϧⲉⲛ ⲡⲟⲩⲥⲟϭⲛⲓ ⲛⲉⲙ ⲧⲟⲩ ⲡ̀ⲣⲁⲝⲓⲥ ⲛⲉ ⲟⲩⲉ̀ⲃⲟⲗϧⲉⲛ Ⲁ̀ⲣⲓⲙⲁⲑⲉⲁⲥ ⲟⲩ ⲃⲁⲕⲓ ⲛ̀ⲧⲉ ⲛⲓⲒⲟⲩⲇⲁⲓ<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_9_row_9" class="priest">
             <td class="english">According to St. John</td>
@@ -309,7 +313,7 @@ ${paschalPraiseHtml}
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_9_row_11" class="text">
-            <td class="coptic">Ⲙⲉⲛⲉⲛⲥⲁ ⲛⲁⲓ ⲇⲉ ⲁϥⲓ̀ ⲛ̀ϫⲉ ⲓⲱⲥⲏⲫ ⲡⲓⲣⲉⲙ Ⲁ̀ⲣⲓⲙⲁⲑⲉⲁⲥ ⲁϥϯϩⲟ ⲉ̀Ⲡⲓⲗⲁⲧⲟⲥ : ⲉ̀ⲟⲩⲙⲁⲑⲏⲧⲏⲥ ϩⲱϥ ⲛ̀ⲧⲉ Ⲓ̅ⲏ̅ⲥ ⲛⲁϥⲭⲏⲡ ⲇⲉ ⲡⲉ ⲉⲑⲃⲉ ⲧ̀ϩⲟϯ ⲛ̀ⲛⲓⲒⲟⲩⲇⲁⲓ : ϩⲓⲛⲁ ⲛ̀ⲧⲉϥⲱ̀ⲗⲓ ⲙ̀ⲡⲓⲥⲱⲙⲁ ⲛ̀ⲧⲉ Ⲓ̅ⲏ̅ⲥ <br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲙⲉⲛⲉⲛⲥⲁ ⲛⲁⲓ ⲇⲉ ⲁϥⲓ̀ ⲛ̀ϫⲉ ⲓⲱⲥⲏϥ ⲡⲓⲣⲉⲙ Ⲁ̀ⲣⲓⲙⲁⲑⲉⲁⲥ ⲁϥϯϩⲟ ⲉ̀Ⲡⲓⲗⲁⲧⲟⲥ : ⲉ̀ⲟⲩⲙⲁⲑⲏⲧⲏⲥ ϩⲱϥ ⲛ̀ⲧⲉ Ⲓ̅ⲏ̅ⲥ ⲛⲁϥⲭⲏⲡ ⲇⲉ ⲡⲉ ⲉⲑⲃⲉ ⲧ̀ϩⲟϯ ⲛ̀ⲛⲓⲒⲟⲩⲇⲁⲓ : ϩⲓⲛⲁ ⲛ̀ⲧⲉϥⲱ̀ⲗⲓ ⲙ̀ⲡⲓⲥⲱⲙⲁ ⲛ̀ⲧⲉ Ⲓ̅ⲏ̅ⲥ <br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_9_row_12" class="intro">
             <td class="english">Glory be to God forever.</td>
@@ -321,7 +325,7 @@ ${paschalPraiseHtml}
 
 
 
-<div class="section" id="section_7" title="Engligh and Arabic Psalm & Gospel">
+<div class="section" id="section_7" title="English and Arabic Psalm & Gospel">
 <table id="table_10" title="Psalm">
     <caption id="caption_table_10" class="caption">Psalm<br>(88:6, 23:4, 45:6,8)
     <span class="arabic-caption">المزمور<br>(88: 6 و 23: 34 و 45: 6 و 8)</span></caption>
@@ -374,8 +378,8 @@ ${paschalPraiseHtml}
         <td class="arabic">وَوَضَعَهُ فِي قَبْرِهِ الْجَدِيدِ الَّذِي كَانَ قَدْ نَحَتَهُ فِي الصَّخْرَةِ ثُمَّ دَحْرَجَ حَجَراً كَبِيراً عَلَى بَابِ الْقَبْرِ وَمَضَى.</td>
     </tr>
     <tr id="table_11_row_8" class="text">
-        <td class="english">And Mary Magdalene was there, and the other Mary, sitting opposite the tomb.<br>Bow down before the Holy Gospel.</td>
-        <td class="arabic">وَكَانَتْ هُنَاكَ مَرْيَمُ الْمَجْدَلِيَّةُ وَمَرْيَمُ الأُخْرَى جَالِسَتَيْنِ تُجَاهَ الْقَبْرِ.<br>أسجدوا للإنجيل المقدس.</td>
+        <td class="english">And Mary Magdalene was there, and the other Mary, sitting opposite the tomb.<br><i>Bow down before the Holy Gospel.</i></td>
+        <td class="arabic">وَكَانَتْ هُنَاكَ مَرْيَمُ الْمَجْدَلِيَّةُ وَمَرْيَمُ الأُخْرَى جَالِسَتَيْنِ تُجَاهَ الْقَبْرِ.<br><i>أسجدوا للإنجيل المقدس.</i></td>
     </tr>
     <tr id="table_11_row_10" class="intro">
         <td class="english">Glory be to God forever.</td>
@@ -444,8 +448,8 @@ ${paschalPraiseHtml}
         <td class="arabic">وَكَانَتْ مَرْيَمُ الْمَجْدَلِيَّةُ وَمَرْيَمُ أُمُّ يُوسِي تَنْظُرَانِ أَيْنَ وُضِعَ.</td>
     </tr>
     <tr id="table_13_row_10" class="text">
-        <td class="english">Now when the Sabbath was past, Mary Magdalene, Mary the mother of James, and Salome bought spices, that they might come and anoint Him.<br>Bow down before the Holy Gospel.</td>
-        <td class="arabic">وَبَعْدَمَا مَضَى السَّبْتُ اشْتَرَتْ مَرْيَمُ الْمَجْدَلِيَّةُ وَمَرْيَمُ أُمُّ يَعْقُوبَ وَسَالُومَةُ حَنُوطاً لِيَأْتِينَ وَيَدْهَنَّهُ.<br>أسجدوا للإنجيل المقدس.</td>
+        <td class="english">Now when the Sabbath was past, Mary Magdalene, Mary the mother of James, and Salome bought spices, that they might come and anoint Him.<br><i>Bow down before the Holy Gospel.</i></td>
+        <td class="arabic">وَبَعْدَمَا مَضَى السَّبْتُ اشْتَرَتْ مَرْيَمُ الْمَجْدَلِيَّةُ وَمَرْيَمُ أُمُّ يَعْقُوبَ وَسَالُومَةُ حَنُوطاً لِيَأْتِينَ وَيَدْهَنَّهُ.<br><i>أسجدوا للإنجيل المقدس.</i></td>
     </tr>
     <tr id="table_13_row_12" class="intro">
         <td class="english">Glory be to God forever.</td>
@@ -489,8 +493,8 @@ ${paschalPraiseHtml}
         <td class="arabic">فَرَجَعْنَ وَأَعْدَدْنَ حَنُوطاً وَأَطْيَاباً. وَفِي السَّبْتِ اسْتَرَحْنَ حَسَبَ الْوَصِيَّةِ.</td>
     </tr>
     <tr id="table_14_row_11" class="text">
-        <td class="english">Bow down before the Holy Gospel.</td>
-        <td class="arabic">أسجدوا للإنجيل المقدس.</td>
+        <td class="english"><i>Bow down before the Holy Gospel.</i></td>
+        <td class="arabic"><i>أسجدوا للإنجيل المقدس.</i></td>
     </tr>
     <tr id="table_14_row_13" class="intro">
         <td class="english">Glory be to God forever.</td>
@@ -526,8 +530,8 @@ ${paschalPraiseHtml}
         <td class="arabic">فَهُنَاكَ وَضَعَا يَسُوعَ لِسَبَبِ اسْتِعْدَادِ الْيَهُودِ لأَنَّ الْقَبْرَ كَانَ قَرِيباً.</td>
     </tr>
     <tr id="table_15_row_9" class="text">
-        <td class="english">Bow down before the Holy Gospel.</td>
-        <td class="arabic">أسجدوا للإنجيل المقدس.</td>
+        <td class="english"><i>Bow down before the Holy Gospel.</i></td>
+        <td class="arabic"><i>أسجدوا للإنجيل المقدس.</i></td>
     </tr>
     <tr id="table_15_row_11" class="intro">
         <td class="english">Glory be to God forever.</td>
@@ -544,7 +548,7 @@ ${daytimeExpositionIntroHtml}
     <caption id="caption_table_17" class="caption">Exposition
     <span class="arabic-caption">الطرح</span></caption>
     <tr id="table_17_row_1" class="intro">
-        <td class="english">The exposition of the TWELFTH Hour of the DAY of GOOD FRIDAY of Holy Pascha. May its blessings be with us. Amen.</td>
+        <td class="english">The exposition of the TWELFTH Hour of the DAY of GREAT FRIDAY of Holy Pascha. May its blessings be with us. Amen.</td>
         <td class="arabic">طرح الساعة الثانية عشرة من يوم الجمعة العظيمة من البصخة المقدسة بركتها تكون معنا. آمين.</td>
     </tr>
     <tr id="table_17_row_4" class="text">
@@ -685,7 +689,7 @@ ${daytimeLitaniesHtml}
     </tr>
     <tr id="table_21_row_3" class="text">
         <td class="english">You stretched out Your hands, and crucified two thieves with You; one on Your right side, the other on Your left, and You, O good savior, in the midst</td>
-        <td class="coptic">ⲁⲕⲫⲱⲣϣ ⲛ̀ⲛⲉⲕϫⲓϫ ⲉ̀ⲃⲟⲗ ⲁϥⲓ̀ϣⲓ ⲛⲉⲙⲁⲕ ⲛ̀ⲕⲉⲥⲟⲛⲓ ⲥ̀ⲛⲁⲩ : ⲥⲁⲧⲉⲕⲟⲩⲓ̀ⲛⲁⲙ ⲛⲉⲙ ⲥⲁⲧⲉⲕϫⲁⲧϭⲏ : ⲛ̀ⲑⲟⲕ ⲉⲕⲭⲏ ϧⲉⲛ ⲧⲟⲩⲙⲏϯ ⲱ̀ ⲡⲓⲥⲱⲧⲏⲣ ⲛ̀ⲁⲅⲁⲑⲟⲥ.</td>
+        <td class="coptic">ⲁⲕⲫⲱⲣϣ ⲛ̀ⲛⲉⲕϫⲓϫ ⲉ̀ⲃⲟⲗ ⲁϥⲓ̀ϣⲓ ⲛⲉⲙⲁⲕ ⲛ̀ⲕⲉⲥⲟⲛⲓ ⲥ̀ⲛⲁⲩ : ⲥⲁⲧⲉⲕⲟⲩⲓ̀ⲛⲁⲙ ⲛⲉⲙ ⲥⲁⲧⲉⲕϫⲁϭⲏ : ⲛ̀ⲑⲟⲕ ⲉⲕⲭⲏ ϧⲉⲛ ⲧⲟⲩⲙⲏϯ ⲱ̀ ⲡⲓⲥⲱⲧⲏⲣ ⲛ̀ⲁⲅⲁⲑⲟⲥ.</td>
         <td class="arabic">بسطت يديك وصلبوا معك لصين عن يمينك وعن يسارك وانت كائن فى الوسط أيها المخلص الصالح.</td>
     </tr>
     <tr id="table_21_row_4" class="text">
@@ -710,7 +714,7 @@ ${daytimeLitaniesHtml}
     </tr>
     <tr id="table_21_row_8" class="text">
         <td class="english">The righteous Joseph and Nicodemus came took away the Body of Christ, wrapped it in linen cloths with spices, and put it in a sepulcher and praised Him saying, </td>
-        <td class="coptic">Ⲁⲩⲓ̀ ⲛ̀ϫⲉ ⲛⲓⲇⲓⲕⲉⲟⲥ : Ⲓⲱⲥⲏⲫ ⲛⲉⲙ Ⲛⲓⲕⲟⲇⲏⲙⲟⲥ : ⲁⲩϭⲓ ⲛ̀ⲧ̀ⲥⲁⲣⲝ ⲛ̀ⲧⲉ Ⲡⲭ̅ⲥ̅  : ⲁⲩϯ ⲛ̀ⲟⲩⲥⲟϫⲉⲛ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱϥ : ⲁⲩⲕⲟⲥϥ ⲁⲩⲭⲁϥ ϧⲉⲛ ⲟⲩⲙ̀ϩⲁⲩ : ⲉⲩϩⲱⲥ ⲉⲣⲟϥ ⲉⲩϫⲱ ⲙ̀ⲙⲟⲥ :</td>
+        <td class="coptic">Ⲁⲩⲓ̀ ⲛ̀ϫⲉ ⲛⲓⲇⲓⲕⲉⲟⲥ : Ⲓⲱⲥⲏϥ ⲛⲉⲙ Ⲛⲓⲕⲟⲇⲏⲙⲟⲥ : ⲁⲩϭⲓ ⲛ̀ⲧ̀ⲥⲁⲣⲝ ⲛ̀ⲧⲉ Ⲡⲭ̅ⲥ̅  : ⲁⲩϯ ⲛ̀ⲟⲩⲥⲟϫⲉⲛ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱϥ : ⲁⲩⲕⲟⲥϥ ⲁⲩⲭⲁϥ ϧⲉⲛ ⲟⲩⲙ̀ϩⲁⲩ : ⲉⲩϩⲱⲥ ⲉⲣⲟϥ ⲉⲩϫⲱ ⲙ̀ⲙⲟⲥ :</td>
         <td class="arabic">أتيا الصديقان يوسف ونيقوديموس واخذا جسد المسيح وجعلا عليه طيباً وكفناه ووضعاه فى قبر وسبحاه قائلين</td>
     </tr>
     <tr id="table_21_row_9" class="text">
@@ -794,7 +798,7 @@ ${daytimeLitaniesHtml}
         </tr>
         <tr id="table_23_row_6" class="priest">
             <td class="english">Through the never-ending intercessions of the holy, Theotokos St. Mary, and all the choirs of angels and archangels;</td>
-            <td class="arabic">بالسؤلات والطلبات التى تصنعها عنا كل حين سيدتنا وملكتنا كلنا والدة الإله القديسة مريم والثلاثة المنيرين الأطهار ميخائيل وغبريال ورافائيل .وجميع مصاف الملائكة وكل الطغمات السمائية</td>
+            <td class="arabic">بالسؤلات والطلبات التى تصنعها عنا كل حين سيدتنا وملكتنا كلنا والدة الإله القديسة مريم وكل صفوف الملائكة ورؤساء الملائكة</td>
         </tr>
         <tr id="table_23_row_7" class="priest">
             <td class="english">through the prayers of the Patriarchs, the prophets, the Apostles, the martyrs, the righteous and holy ones, the cross-bearers, the ascetics, the confessors and anchorites;</td>

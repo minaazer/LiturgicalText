@@ -123,11 +123,15 @@ return `
 <table id="table_2" title="O Beloved">
     <caption class="caption" id="caption_table_2">O Beloved
     <span class="arabic-caption">و حبيبي</span></caption>
-    <tr id="table_2_row_0" class="north">
+    <tr id="table_2_row_0" class="commentary">
+        <td class="english">This melody is not part of the official rites of the day of Great Friday. It is the custom of some churches to chant it at some point during Great Friday.</td>
+        <td class="arabic">هذه الترنيمة ليست جزء من طقس يوم الجمعة العظيمة. جرت عادة بعض الكنائس ترتيل هذه الترنيمة في يوم الجمعى العظيمة.</td>
+    </tr>
+    <tr id="table_2_row_1" class="north">
         <td class="english">O Beloved, O Beloved, nailed unto the cross for me</td>
         <td class="arabic">وا حبيبي وآ حبيبي، أي حال أنت فيه</td>
     </tr>
-    <tr id="table_2_row_1" class="north">
+    <tr id="table_2_row_1.5" class="north">
         <td class="english">O what sin hast Thou committed, Thou who callest all to be.</td>
         <td class="arabic">من شجاك من سقاك، كأس خل ترتضيه</td>
     </tr>

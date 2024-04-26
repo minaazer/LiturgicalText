@@ -18,7 +18,7 @@
     "@react-navigation/stack": "^6.3.17",
     "@types/react": "~18.2.45",
     "babel-plugin-module-resolver": "^5.0.0",
-    "expo": "^50.0.14",
+    "expo": "^50.0.17",
     "expo-app-loading": "^1.0.3",
     "expo-asset": "~9.0.2",
     "expo-font": "~11.10.3",

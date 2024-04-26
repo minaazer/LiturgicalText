@@ -12,7 +12,7 @@ export const useDynamicStyles = (webviewRef) => {
         { label: 'Coptic', value: 'Coptic' , checked: true },
         { label: 'English Phonics', value: 'English Phonics' , checked: true },
         { label: 'Arabic Phonics', value: 'Arabic Phonics' , checked: true },
-        { label: 'Coptic Readings', value: 'Coptic Readings' , checked: true },
+        { label: 'Commentary', value: 'Commentary' , checked: true},
       ]);
 
     useEffect(() => {
@@ -49,6 +49,7 @@ export const useDynamicStyles = (webviewRef) => {
 html {
  background-color: black;
  margin-top: 0px;
+ padding-top: 0px;
  padding-top: 0px;
  margin-right: 20px;
 }
@@ -210,6 +211,8 @@ div {
 }
 .commentary {
     color: #C3B1E1 !important;
+    display: ${settings.languages && !visibleLangues[5].checked ? 'none' : 'flex'};
+
 
 }
 .priest {
@@ -277,7 +280,7 @@ div {
     padding-right: 10px;
     padding-left: 15px;
     text-align: justify;
-    display: ${settings.languages && !visibleLangues[5].checked ? 'none' : 'inline'};
+    display: ${settings.languages && !visibleLangues[2].checked ? 'none' : 'inline'};
     flex: 5;
 }
 
