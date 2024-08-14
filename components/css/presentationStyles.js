@@ -1,5 +1,6 @@
 import {StyleSheet} from 'react-native';
 import { Dimensions , Platform } from 'react-native';
+import { songs } from '../../data/songs';
 
 const screenWidth = Dimensions.get('window').width;
 
@@ -283,6 +284,11 @@ export const presentationStyles = StyleSheet.create({
       marginVertical: 5,
       paddingHorizontal: 5,
       width: "50%",
+    },
+    songsContainer: {
+      marginVertical: 5,
+      paddingHorizontal: 5,
+      width: "100%",
     },
 
 

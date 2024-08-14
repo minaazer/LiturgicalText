@@ -107,10 +107,10 @@ ${hourIntroHtml}
 </table>
 
 <table id="table_6" title="Homily">
-    <caption id="caption_table_6" class="caption">Homily<br>(Abba Severus)
+    <caption id="caption_table_6" class="caption">Homily<br>(Abba Severianus)
     <span class="arabic-caption">العظة<br>(انبا ساويرس بر)</span></caption>
     <tr id="table_6_row_1" class="intro">
-        <td class="english">A homily of our holy father Abba Severus. May his blessings be with us. Amen.</td>
+        <td class="english">A homily of our holy father Abba Severianus. May his blessings be with us. Amen.</td>
         <td class="coptic">Ⲟⲩⲕⲁⲧⲏⲭⲏⲥⲓⲥ ⲛ̀ⲧⲉ ⲡⲉⲛⲓⲱⲧ ⲉ̅ⲑ̅ⲩ Ⲁⲃⲃⲁ Ⲥⲉⲩⲏⲣⲓⲁⲛⲟⲥ : ⲉ̀ⲣⲉ ⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̅ⲑ̅ⲩ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ.</td>
         <td class="arabic">عظة لابينا القديس انبا ساويرس بركته تكون معنا، آمين.</td>
     </tr>
@@ -151,8 +151,8 @@ ${hourIntroHtml}
         <td class="arabic">هذا هو اليوم الذى يقال فيه للخطاة أذهبوا إلى الجحيم مسكنكم إلى الابد.</td>
     </tr>
     <tr id="table_6_row_14" class="intro">
-        <td class="english">We conclude the homily of our holy father Abba Severus, who enlightened our minds and our hearts. In the name of the Father, and the Son, and the Holy Spirit, one God. Amen.</td>
-        <td class="coptic">Ⲙⲁⲣⲉⲛⲉⲣ ⲥ̀ⲫ̀ⲣⲁϫⲓⲍⲓⲛ ⲛ̀ϯⲕⲁⲧⲏⲭⲏⲥⲓⲥ ⲛ̀ⲧⲉ ⲡⲉⲛⲓⲱⲧ ⲉ̅ⲑ̅ⲩ ⲁⲃⲃⲁ Ⲥⲉⲩⲏ̀ⲣⲟⲥ : ⲫⲏⲉ̀ⲧⲁϥⲉⲣⲟⲩⲱⲓⲛⲓ ⲙ̀ⲡⲉⲛⲛⲟⲩⲥ ⲛⲉⲙ ⲛⲓⲃⲁⲗ ⲛ̀ⲧⲉ ⲛⲉⲛϩⲏⲧ ϧⲉⲛ ⲫ̀ⲣⲁⲛ ⲙ̀Ⲫ̀ⲓⲱⲧ ⲛⲉⲙ Ⲡ̀ϣⲏⲣⲓ ⲛⲉⲙ ⲡⲓ̅ⲡ̅ⲛ̅ⲁ ⲉ̅ⲑ̅ⲩ ⲟⲩⲛⲟⲩϯ ⲛ̀ⲟⲩⲱⲧ ⲁ̀ⲙⲏⲛ.</td>
+        <td class="english">We conclude the homily of our holy father Abba Severianus, who enlightened our minds and our hearts. In the name of the Father, and the Son, and the Holy Spirit, one God. Amen.</td>
+        <td class="coptic">Ⲙⲁⲣⲉⲛⲉⲣ ⲥ̀ⲫ̀ⲣⲁϫⲓⲍⲓⲛ ⲛ̀ϯⲕⲁⲧⲏⲭⲏⲥⲓⲥ ⲛ̀ⲧⲉ ⲡⲉⲛⲓⲱⲧ ⲉ̅ⲑ̅ⲩ ⲁⲃⲃⲁ Ⲥⲉⲩⲏⲣⲓⲁⲛⲟⲥ : ⲫⲏⲉ̀ⲧⲁϥⲉⲣⲟⲩⲱⲓⲛⲓ ⲙ̀ⲡⲉⲛⲛⲟⲩⲥ ⲛⲉⲙ ⲛⲓⲃⲁⲗ ⲛ̀ⲧⲉ ⲛⲉⲛϩⲏⲧ ϧⲉⲛ ⲫ̀ⲣⲁⲛ ⲙ̀Ⲫ̀ⲓⲱⲧ ⲛⲉⲙ Ⲡ̀ϣⲏⲣⲓ ⲛⲉⲙ ⲡⲓ̅ⲡ̅ⲛ̅ⲁ ⲉ̅ⲑ̅ⲩ ⲟⲩⲛⲟⲩϯ ⲛ̀ⲟⲩⲱⲧ ⲁ̀ⲙⲏⲛ.</td>
         <td class="arabic">فلنختم موعظة أبينا القديس أنبا ساويرس الذى أنار عقولنا وعيون قلوبنا بأسم الآب والإبن والروح القدس الإله الواحد، آمين.</td>
     </tr>
 </table>
@@ -177,12 +177,12 @@ ${paschalPraiseHtml}
         </tr>
         <tr id="table_16_row_1" class="text">
             <td class="english">Have mercy on me, O Lord, for my bones are troubled.</td>
-            <td class="coptic">Ⲙⲁⲧⲁⲗϭⲟⲓ Ⲡ̀ϭⲟⲓⲥ ϫⲉ ⲛⲁ ⲕⲁⲥ ⲁⲩϣⲑⲟⲣⲧⲉⲣ :</td>
+            <td class="coptic">Ⲙⲁⲧⲁⲗϭⲟⲓ Ⲡ̀ϭⲟⲓⲥ ϫⲉ ⲛⲁ ⲕⲁⲥ ⲁⲩϣ̀ⲑⲟⲣⲧⲉⲣ :</td>
             <td class="arabic">اشفني يارب فان عظامي قد اضطربت</td>
         </tr>
         <tr id="table_16_row_2" class="text">
             <td class="english">My soul also is greatly troubled.</td>
-            <td class="coptic">ⲟⲩⲟϩ ⲁ̀ ⲧⲁⲯⲩⲭⲏ ϣⲑⲟⲣⲧⲉⲣ ⲉ̀ⲙⲁϣⲱ.</td>
+            <td class="coptic">ⲟⲩⲟϩ ⲁ̀ ⲧⲁⲯⲩⲭⲏ ϣ̀ⲑⲟⲣⲧⲉⲣ ⲉ̀ⲙⲁϣⲱ.</td>
             <td class="arabic">ونفسي قد انزعجت جداً.</td>
         </tr>
         <tr id="table_16_row_3" class="text">
@@ -217,7 +217,7 @@ ${paschalPraiseHtml}
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_18_row_2" class="text">
-            <td class="coptic">ϯⲛⲟⲩ ̀̀ⲁⲧⲁⲯⲩⲭⲏ ϣ̀ⲟⲟⲣⲧⲉⲣ ⲟⲩⲟϩ ⲟⲩ ⲡⲉϯ ⲛⲁϫⲟϥ ⲡⲁⲓⲱⲧ ⲛⲁϩⲙⲉⲧ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲧⲁⲓⲟⲩⲛⲟⲩ : ⲁⲗⲗⲁ ⲉⲑⲃⲉ ⲫⲁⲓ ⲁⲓⲓ̀ ⲉ̀ⲧⲁⲓⲟⲩⲛⲟⲩ : Ⲫ̀ⲓⲱⲧ ⲙⲁⲱ̀ⲟⲩ ⲙ̀ⲡⲉⲕϣⲏⲣⲓ : ⲟⲩⲥ̀ⲙⲏ ⲁⲥⲓ̀ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲧ̀ⲫⲉ ⲉⲥϫⲱⲙ̀ⲙⲟⲥ : ϫⲉ ⲁⲓϯⲱⲟⲩ ⲡⲁⲗⲓⲛ ϯⲛⲁϯⲱ̀ⲟⲩ : Ⲡⲓⲙⲏϣ ⲟⲩⲛ ⲉ̀ⲛⲁϥⲟϩⲓ ⲉ̀ⲣⲁⲧϥ ⲉ̀ⲧⲁⲩⲥⲱⲧⲉⲙ ⲛⲁⲩϫⲱ ⲙ̀ⲙⲟⲥ ϫⲉ ⲟⲩ ϧⲁⲣⲁⲃⲁⲓ ⲡⲉⲧⲁⲥϣⲱⲡⲓ : ϩⲁⲛⲕⲉⲭⲱⲟⲩⲛⲓ ⲇⲉ ⲛⲁⲩϫⲱ ⲙ̀ⲙⲟⲥ ϫⲉ ⲟⲩⲁⲅⲅⲉⲗⲟⲥ ⲡⲉⲧⲁϥⲥⲁϫⲓ ⲛⲉⲙⲁϥ Ⲁϥⲉ̀ⲣⲟⲩⲱ̀ ⲛ̀ϫⲉ Ⲓⲏⲥ ⲉϥϫⲱⲙ̀ⲙⲟⲥ ϫⲉ ⲉ̀ⲧⲁⲥϣⲱⲡⲓ ⲁⲛ ⲉⲑⲃⲏⲧ ⲛ̀ϫⲉ ⲧⲁⲓⲥ̀ⲙⲏ : ⲁⲗⲗⲁ ⲉⲑⲃⲉ ⲑⲏⲛⲟⲩ .<br>... Ⲟⲩⲱϣⲧ ⲙⲡ̀ⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">ϯⲛⲟⲩ ̀̀ⲁⲧⲁⲯⲩⲭⲏ ϣ̀ⲑⲟⲣⲧⲉⲣ ⲟⲩⲟϩ ⲟⲩⲡⲉϯⲛⲁϫⲟϥ ⲡⲁⲓⲱⲧ ⲛⲁϩⲙⲉⲧ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲧⲁⲓⲟⲩⲛⲟⲩ : ⲁⲗⲗⲁ ⲉⲑⲃⲉ ⲫⲁⲓ ⲁⲓⲓ̀ ⲉ̀ⲧⲁⲓⲟⲩⲛⲟⲩ : Ⲫ̀ⲓⲱⲧ ⲙⲁⲱ̀ⲟⲩ ⲙ̀ⲡⲉⲕϣⲏⲣⲓ : ⲟⲩⲥ̀ⲙⲏ ⲁⲥⲓ̀ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲧ̀ⲫⲉ ⲉⲥϫⲱⲙ̀ⲙⲟⲥ : ϫⲉ ⲁⲓϯⲱⲟⲩ ⲡⲁⲗⲓⲛ ϯⲛⲁϯⲱ̀ⲟⲩ : Ⲡⲓⲙⲏϣ ⲟⲩⲛ ⲉ̀ⲛⲁϥⲟϩⲓ ⲉ̀ⲣⲁⲧϥ ⲉ̀ⲧⲁⲩⲥⲱⲧⲉⲙ ⲛⲁⲩϫⲱ ⲙ̀ⲙⲟⲥ ϫⲉ ⲟⲩ ϧⲁⲣⲁⲃⲁⲓ ⲡⲉⲧⲁⲥϣⲱⲡⲓ : ϩⲁⲛⲕⲉⲭⲱⲟⲩⲛⲓ ⲇⲉ ⲛⲁⲩϫⲱ ⲙ̀ⲙⲟⲥ ϫⲉ ⲟⲩⲁⲅⲅⲉⲗⲟⲥ ⲡⲉⲧⲁϥⲥⲁϫⲓ ⲛⲉⲙⲁϥ Ⲁϥⲉ̀ⲣⲟⲩⲱ̀ ⲛ̀ϫⲉ Ⲓⲏⲥ ⲉϥϫⲱⲙ̀ⲙⲟⲥ ϫⲉ ⲉ̀ⲧⲁⲥϣⲱⲡⲓ ⲁⲛ ⲉⲑⲃⲏⲧ ⲛ̀ϫⲉ ⲧⲁⲓⲥ̀ⲙⲏ : ⲁⲗⲗⲁ ⲉⲑⲃⲉ ⲑⲏⲛⲟⲩ .<br>... Ⲟⲩⲱϣⲧ ⲙⲡ̀ⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_18_row_4" class="intro">
             <td class="english">Glory be to God forever.</td>
@@ -367,6 +367,14 @@ ${evnotiNaiNanHtml}
 ${endOfServiceHymnHtml}
 </div>
 
+<div class="section" id="section_30" title="Next Hour">
+<table id="table_50" title="Next Hour">
+    <tr id="table_50_row_0" data-navigation="EOTH1sc" class="navigationButton">
+        <td class="englishButton">The FIRST Hour of the EVE of THURSDAY</td>
+        <td class="arabicButton">الساعة الأولى من ليلة الخميس</td>
+    </tr>
+</table>
+</div>
 `;
 
 };

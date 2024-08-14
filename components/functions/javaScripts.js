@@ -1,3 +1,51 @@
+// Arabic numbers
+const arabicNumbers =
+`    // Function to replace English digits with Arabic
+function convertDigitsToArabic(text) {
+  const englishDigits = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+  const arabicDigits = ['٠', '١', '٢', '٣', '٤', '٥', '٦', '٧', '٨', '٩'];
+  
+  // Split text by line breaks
+  const lines = text.split('<br>');
+
+  // Convert digits in each line
+  const convertedLines = lines.map(line => {
+    let convertedLine = '';
+    for (let i = 0; i < line.length; i++) {
+      const char = line.charAt(i);
+      const digitIndex = englishDigits.indexOf(char);
+      if (digitIndex !== -1) {
+        convertedLine += arabicDigits[digitIndex];
+      } else {
+        convertedLine += char; // Keep non-digit characters as they are
+      }
+    }
+    return convertedLine;
+  });
+
+  // Join lines back together with preserved line breaks
+  const convertedText = convertedLines.join('<br>');
+
+  return convertedText;
+}
+
+function convertArabicCaptions() {
+  // Find all elements with class 'arabic-caption' and convert their text content
+  const elements = document.querySelectorAll('.arabic-caption');
+  elements.forEach(element => {
+    element.innerHTML = convertDigitsToArabic(element.innerHTML);
+  });
+}
+`;
+
+// Disable Scrolling
+const disableScrolling = 
+`    function disableScroll() {
+  document.body.style.overflow = 'hidden';
+  document.addEventListener('touchmove', preventDefault, { passive: false });
+  document.addEventListener('mousewheel', preventDefault, { passive: false });
+}`;
+
 // Table of contents
 const extractTableTitlesAndIds = 
 `function extractTableTitlesAndIds() {
@@ -82,279 +130,290 @@ let isSendingMessage = false;
 
 // Pagination
 const paginateTables =
-`function paginateTables() {
-    const viewportHeight = window.innerHeight;
-    let pages = [];
-    let currentPage = [];
-    let currentPageHeight = 0;
-    let pagesPerRow = [];
-    pagesPerRow.push(1);
-    let tableId = "table_0";
-  
-    document.querySelectorAll(".section").forEach((section) => {
-  
-      const sectionId = section.getAttribute("id");
-      // check if the section height is greater than the viewport height
-      let sectionInnerHeight = section
-        ? section.getBoundingClientRect().height
-        : 0;
-      let sectionBorderHeight = section
-        ? section.offsetHeight - section.clientHeight
-        : 0;
-      let sectionStyle = section ? window.getComputedStyle(section) : null;
-      let sectionMarginTop = sectionStyle ? parseInt(sectionStyle.marginTop) : 0;
-      let sectionMarginBottom = sectionStyle
-        ? parseInt(sectionStyle.marginBottom)
-        : 0;
-      const sectionHeight = section
-        ? sectionInnerHeight +
-          sectionBorderHeight +
-          sectionMarginTop +
-          sectionMarginBottom
-        : 0;
-  
-      if (currentPageHeight + sectionHeight < viewportHeight) {
-        currentPage.push(sectionId);
-        currentPageHeight += sectionHeight;
-      } else if (sectionHeight < viewportHeight) {
-        pages.push({
-          currentPage: currentPage[0],
-          pagesPerRow: pagesPerRow[pagesPerRow.length - 1],
-          tableId: tableId,
-        });
-        currentPage = [sectionId];
-        currentPageHeight = sectionHeight;
+`
+function paginateTables() {
+  const viewportHeight = window.innerHeight-2;
+  let pages = [];
+  let currentPage = [];
+  let currentPageHeight = 0;
+  let pagesPerRow = [];
+  pagesPerRow.push(1);
+  let tableId = "table_0";
 
-      } else {
-  
-  
-        // query all tables in the section
-        section.querySelectorAll("table").forEach((table) => {
-          tableId = table.getAttribute("id");
-          // Check if the table has a caption and get its height
-          const caption = table.querySelector("caption");
-          let captionInnerHeight = caption
-            ? caption.getBoundingClientRect().height
-            : 0;
-          let captionBorderHeight = caption
-            ? caption.offsetHeight - caption.clientHeight
-            : 0;
-          let captionStyle = caption ? window.getComputedStyle(caption) : null;
-          let captionMarginTop = captionStyle
-            ? parseInt(captionStyle.marginTop)
-            : 0;
-          let captionMarginBottom = captionStyle
-            ? parseInt(captionStyle.marginBottom)
-            : 0;
-          const captionHeight = caption
-            ? captionInnerHeight +
-              captionBorderHeight +
-              captionMarginTop +
-              captionMarginBottom
-            : 0;
-  
-          // check if table is class = onePage
-          const tableClass = table.getAttribute("class");
-          if (tableClass && tableClass === "onePage" && (table.clientHeight + currentPageHeight) >= viewportHeight) {
-            // check if current page height play table height > viewport height
+  document.querySelectorAll(".section").forEach((section) => {
 
-            
-            if (table.clientHeight >= viewportHeight) {
-              // add layout padding and margins and border to the table height
-             
-                   
-              let tableCurrentHeight = table.clientHeight;
-            
-              function adjustRowFontSize(minFontSize, maxFontSize, threshold) {
-                if (maxFontSize - minFontSize <= threshold) {
-                  return;
-                }
-              
-                let midFontSize = (minFontSize + maxFontSize) / 2;
-              
-                // Change the font size of each row
-                for (let row of table.rows) {
-                  row.style.fontSize = midFontSize + 'px';
-                }              
-                  
-                tableCurrentHeight = table.clientHeight;
-                  if (tableCurrentHeight >= (viewportHeight)) {
-                    adjustRowFontSize(minFontSize, midFontSize, threshold);
-                  } else {
-                    adjustRowFontSize(midFontSize, maxFontSize, threshold);
-                  } 
+    const sectionId = section.getAttribute("id");
+    // check if the section height is greater than the viewport height
+    let sectionInnerHeight = section
+      ? section.getBoundingClientRect().height
+      : 0;
+    let sectionBorderHeight = section
+      ? section.offsetHeight - section.clientHeight
+      : 0;
+    let sectionStyle = section ? window.getComputedStyle(section) : null;
+    let sectionMarginTop = sectionStyle ? parseInt(sectionStyle.marginTop) : 0;
+    let sectionMarginBottom = sectionStyle
+      ? parseInt(sectionStyle.marginBottom)
+      : 0;
+    const sectionHeight = section
+      ? sectionInnerHeight +
+        sectionBorderHeight +
+        sectionMarginTop +
+        sectionMarginBottom
+      : 0;
+
+    if (currentPageHeight + sectionHeight < viewportHeight) {
+      currentPage.push(sectionId);
+      currentPageHeight += sectionHeight;
+    } else if (sectionHeight < viewportHeight) {
+      pages.push({
+        currentPage: currentPage[0],
+        pagesPerRow: pagesPerRow[pagesPerRow.length - 1],
+        tableId: tableId,
+      });
+      currentPage = [sectionId];
+      currentPageHeight = sectionHeight;
+
+    } else {
+
+
+      // query all tables in the section
+      section.querySelectorAll("table").forEach((table) => {
+        tableId = table.getAttribute("id");
+
+        // check if the table fits in the remaining space of the current page
+        if (currentPageHeight + table.clientHeight < viewportHeight) {
+          currentPage.push(tableId);
+          currentPageHeight += table.clientHeight;
+          return;
+        }
+        // Check if the table has a caption and get its height
+        const caption = table.querySelector("caption");
+        let captionInnerHeight = caption
+          ? caption.getBoundingClientRect().height
+          : 0;
+        let captionBorderHeight = caption
+          ? caption.offsetHeight - caption.clientHeight
+          : 0;
+        let captionStyle = caption ? window.getComputedStyle(caption) : null;
+        let captionMarginTop = captionStyle
+          ? parseInt(captionStyle.marginTop)
+          : 0;
+        let captionMarginBottom = captionStyle
+          ? parseInt(captionStyle.marginBottom)
+          : 0;
+        const captionHeight = caption
+          ? captionInnerHeight +
+            captionBorderHeight +
+            captionMarginTop +
+            captionMarginBottom
+          : 0;
+
+        // check if table is class = onePage
+        const tableClass = table.getAttribute("class");
+        if (tableClass && tableClass === "onePage" && (table.clientHeight + currentPageHeight) >= viewportHeight) {
+          // check if current page height play table height > viewport height
+          pages.push({
+            currentPage: currentPage[0],
+            pagesPerRow: pagesPerRow[pagesPerRow.length - 1],
+            tableId: tableId,
+          });
+
+          currentPage = [tableId];
+          currentPageHeight = viewportHeight;
+          pagesPerRow.push(1);
+          
+          if (table.clientHeight >= viewportHeight) {
+            // add layout padding and margins and border to the table height
+           
+                 
+            let tableCurrentHeight = table.clientHeight;
+          
+            function adjustRowFontSize(minFontSize, maxFontSize, threshold) {
+              if (maxFontSize - minFontSize <= threshold) {
+                return;
               }
-              
-              let minFontSize = 1; // Smallest readable font size
-              let maxFontSize = parseFloat(window.getComputedStyle(table.rows[0], null).getPropertyValue('font-size')); // Get the font size of the first row
-              let threshold = 0.1;
-              adjustRowFontSize(minFontSize, maxFontSize, threshold);
-              
-            }
-            pages.push({
-              currentPage: currentPage[0],
-              pagesPerRow: pagesPerRow[pagesPerRow.length - 1],
-              tableId: tableId,
-            });
-
-            currentPage = [tableId];
-            currentPageHeight = viewportHeight;
-            pagesPerRow.push(1);
-            return;
             
-
-          }
-  
-          let remainder = 0;
-          // If adding the caption causes the page to exceed viewport height, start a new page
-          if (caption && captionHeight) {
-            pages.push({
-              currentPage: currentPage[0],
-              pagesPerRow: pagesPerRow[pagesPerRow.length - 1],
-              tableId: tableId,
-            });
-            currentPage = [caption.id];
-            currentPageHeight = captionHeight; // Start the new page with the caption's height
-            pagesPerRow.push(1);
-          }
-  
-          table.querySelectorAll("tr").forEach((row) => {
-            let rowInnerHeight = row ? row.getBoundingClientRect().height : 0;
-            let rowBorderHeight = row ? row.offsetHeight - row.clientHeight : 0;
-            let rowStyle = row ? window.getComputedStyle(row) : null;
-            let rowMarginTop = rowStyle ? parseInt(rowStyle.marginTop) : 0;
-            let rowMarginBottom = rowStyle ? parseInt(rowStyle.marginBottom) : 0;
-            let rowPaddingBottom = rowStyle
-              ? parseInt(rowStyle.paddingBottom)
-              : 0;
-  
-            const rowHeight = row
-              ? rowInnerHeight + rowBorderHeight + rowMarginTop + rowMarginBottom
-              : 0;
+              let midFontSize = (minFontSize + maxFontSize) / 2;
             
-            if (pagesPerRow[pagesPerRow.length - 1] > 1) {
-              if (remainder > 0 && rowHeight + remainder <= viewportHeight) {
-                remainder += rowHeight;
-                currentPage.push(row.id);
-              } else {
-                pages.push({
-                  currentPage: currentPage[0],
-                  pagesPerRow: pagesPerRow[pagesPerRow.length - 1],
-                  tableId: tableId,
-                });
-  
-                if (rowHeight >= viewportHeight) {
-                  pagesPerRow.push(
-                    Math.ceil(
-                      (rowHeight - rowPaddingBottom) / (viewportHeight + 1)
-                    )
-                  );
-  
-                  fullPages = Math.floor(rowHeight / viewportHeight);
-                  remainder = rowHeight - fullPages * viewportHeight; // Calculate the height remaining after all full pages.
-                  currentPage = [row.id];
-                  currentPageHeight = remainder;
+              // Change the font size of each row
+              for (let row of table.rows) {
+                row.style.fontSize = midFontSize + 'px';
+              }              
+                
+              tableCurrentHeight = table.clientHeight;
+                if (tableCurrentHeight >= (viewportHeight)) {
+                  adjustRowFontSize(minFontSize, midFontSize, threshold);
                 } else {
-                  remainder = 0;
-                  pagesPerRow.push(1);
-                  currentPage = [row.id];
-                  currentPageHeight = rowHeight;
-                }
-              }
+                  adjustRowFontSize(midFontSize, maxFontSize, threshold);
+                } 
+            }
+            
+            let minFontSize = 1; // Smallest readable font size
+            let maxFontSize = parseFloat(window.getComputedStyle(table.rows[0], null).getPropertyValue('font-size')); // Get the font size of the first row
+            let threshold = 0.1;
+            adjustRowFontSize(minFontSize, maxFontSize, threshold);
+            
+          }
+   
+          return;
+          
+
+        }
+
+        let remainder = 0;
+        // If adding the caption causes the page to exceed viewport height, start a new page
+        if (caption && captionHeight ) {
+          pages.push({
+            currentPage: currentPage[0],
+            pagesPerRow: pagesPerRow[pagesPerRow.length - 1],
+            tableId: tableId,
+          });
+          currentPage = [caption.id];
+          currentPageHeight = captionHeight; // Start the new page with the caption's height
+          pagesPerRow.push(1);
+        }
+
+        table.querySelectorAll("tr").forEach((row) => {
+          let rowInnerHeight = row ? row.getBoundingClientRect().height : 0;
+          let rowBorderHeight = row ? row.offsetHeight - row.clientHeight : 0;
+          let rowStyle = row ? window.getComputedStyle(row) : null;
+          let rowMarginTop = rowStyle ? parseInt(rowStyle.marginTop) : 0;
+          let rowMarginBottom = rowStyle ? parseInt(rowStyle.marginBottom) : 0;
+          let rowPaddingBottom = rowStyle
+            ? parseInt(rowStyle.paddingBottom)
+            : 0;
+
+          const rowHeight = row
+            ? rowInnerHeight + rowBorderHeight + rowMarginTop + rowMarginBottom
+            : 0;
+          
+          if (pagesPerRow[pagesPerRow.length - 1] > 1) {
+            if (remainder > 0 && rowHeight + remainder <= viewportHeight) {
+              remainder += rowHeight;
+              currentPage.push(row.id);
             } else {
-              if (currentPageHeight + rowHeight <= viewportHeight) {
-                currentPage.push(row.id);
-                currentPageHeight += rowHeight;
-              } else if (
-                caption &&
-                currentPage[0] &&
-                currentPage.length === 1 &&
-                currentPage[0] === caption.id &&
-                currentPageHeight + rowHeight >= viewportHeight
-              ) {
+              pages.push({
+                currentPage: currentPage[0],
+                pagesPerRow: pagesPerRow[pagesPerRow.length - 1],
+                tableId: tableId,
+              });
+
+              if (rowHeight >= viewportHeight) {
                 pagesPerRow.push(
                   Math.ceil(
-                    (currentPageHeight + rowHeight - rowPaddingBottom) /
-                      (viewportHeight + 1)
+                    (rowHeight - rowPaddingBottom) / (viewportHeight + 1)
                   )
                 );
-                fullPages = Math.floor(
-                  (rowHeight - rowPaddingBottom + captionHeight) /
-                    (viewportHeight + 1)
-                );
-                remainder =
-                  rowHeight + captionHeight - fullPages * viewportHeight; // Calculate the height remaining after all full pages.
-                currentPage.push(row.id);
-                currentPageHeight = remainder;
-              } else if (rowHeight - rowPaddingBottom >= viewportHeight + 1) {
-                pages.push({
-                  currentPage: currentPage[0],
-                  pagesPerRow: pagesPerRow[pagesPerRow.length - 1],
-                  tableId: tableId,
-                });
-                pagesPerRow.push(
-                  Math.ceil((rowHeight - rowPaddingBottom) / (viewportHeight + 1))
-                );
-  
-                fullPages = Math.floor(
-                  (rowHeight - rowPaddingBottom) / (viewportHeight + 1)
-                );
+
+                fullPages = Math.floor(rowHeight / viewportHeight);
                 remainder = rowHeight - fullPages * viewportHeight; // Calculate the height remaining after all full pages.
                 currentPage = [row.id];
                 currentPageHeight = remainder;
               } else {
-                pages.push({
-                  currentPage: currentPage[0],
-                  pagesPerRow: pagesPerRow[pagesPerRow.length - 1],
-                  tableId: tableId,
-                });
+                remainder = 0;
+                pagesPerRow.push(1);
                 currentPage = [row.id];
                 currentPageHeight = rowHeight;
               }
             }
-          });
-          
-  
-        });
-  
-      }
-  
-      if (currentPage.length) {
-        
-        pages.push({
-          currentPage: currentPage[0], pagesPerRow: pagesPerRow[pagesPerRow.length-1], tableId: tableId});
-        currentPage = [];
-        currentPageHeight = 0;
-      }
-    });
-  
-    // Convert pages data to an array of Y-offsets for React Native to consume.
-    let yOffsetPages = [];
-    pages.forEach((page) => {
-      const element = document.getElementById(page.currentPage);
-      const pagesinRow = page.pagesPerRow;
-      const tableId = page.tableId;
-      if (element) {
-        let yOffset = element.getBoundingClientRect().top + window.scrollY;
-  
-        if (pagesinRow > 1) {
-          let increment = 0;
-  
-          // If the row spans more than one viewport, add additional offsets
-          for (let i = 0; i < pagesinRow; i++) {
-            increment = yOffset + i * viewportHeight; // Increase by the height of the viewport for each subsequent page
-  
-            yOffsetPages.push({ yOffset: increment, tableId: tableId });
+          } else {
+            if (currentPageHeight + rowHeight <= viewportHeight) {
+              currentPage.push(row.id);
+              currentPageHeight += rowHeight;
+            } else if (
+              caption &&
+              currentPage[0] &&
+              currentPage.length === 1 &&
+              currentPage[0] === caption.id &&
+              currentPageHeight + rowHeight >= viewportHeight
+            ) {
+              pagesPerRow.push(
+                Math.ceil(
+                  (currentPageHeight + rowHeight - rowPaddingBottom) /
+                    (viewportHeight + 1)
+                )
+              );
+              fullPages = Math.floor(
+                (rowHeight - rowPaddingBottom + captionHeight) /
+                  (viewportHeight + 1)
+              );
+              remainder =
+                rowHeight + captionHeight - fullPages * viewportHeight; // Calculate the height remaining after all full pages.
+              currentPage.push(row.id);
+              currentPageHeight = remainder;
+            } else if (rowHeight - rowPaddingBottom >= viewportHeight + 1) {
+              pages.push({
+                currentPage: currentPage[0],
+                pagesPerRow: pagesPerRow[pagesPerRow.length - 1],
+                tableId: tableId,
+              });
+              pagesPerRow.push(
+                Math.ceil((rowHeight - rowPaddingBottom) / (viewportHeight + 1))
+              );
+
+              fullPages = Math.floor(
+                (rowHeight - rowPaddingBottom) / (viewportHeight + 1)
+              );
+              remainder = rowHeight - fullPages * viewportHeight; // Calculate the height remaining after all full pages.
+              currentPage = [row.id];
+              currentPageHeight = remainder;
+            } else {
+              pages.push({
+                currentPage: currentPage[0],
+                pagesPerRow: pagesPerRow[pagesPerRow.length - 1],
+                tableId: tableId,
+              });
+              currentPage = [row.id];
+              currentPageHeight = rowHeight;
+            }
           }
-        } else {
-          yOffsetPages.push({ yOffset: yOffset, tableId: tableId });
+        });
+        
+
+      });
+
+    }
+
+    if (currentPage.length) {
+      
+      pages.push({
+        currentPage: currentPage[0], pagesPerRow: pagesPerRow[pagesPerRow.length-1], tableId: tableId});
+      currentPage = [];
+      currentPageHeight = 0;
+    }
+  });
+
+  // Convert pages data to an array of Y-offsets for React Native to consume.
+  let yOffsetPages = [];
+  pages.forEach((page) => {
+    const element = document.getElementById(page.currentPage);
+    const pagesinRow = page.pagesPerRow;
+    const tableId = page.tableId;
+    if (element) {
+      let yOffset = element.getBoundingClientRect().top + window.scrollY;
+
+      if (pagesinRow > 1) {
+        let increment = 0;
+
+        // If the row spans more than one viewport, add additional offsets
+        for (let i = 0; i < pagesinRow; i++) {
+          increment = yOffset + i * viewportHeight; // Increase by the height of the viewport for each subsequent page
+
+          yOffsetPages.push({ yOffset: increment, tableId: tableId });
         }
+      } else {
+        yOffsetPages.push({ yOffset: yOffset, tableId: tableId });
       }
-    });
-  
-  
-    sendMessage(JSON.stringify({type: 'PAGINATION_DATA', data: yOffsetPages}));
-  }
+    }
+  });
+
+
+  sendMessage(JSON.stringify({type: 'PAGINATION_DATA', data: yOffsetPages}));
+}
+
+
+
   `
 // Pagination glorification
 const paginateTablesGlorification =
@@ -413,8 +472,9 @@ const paginateTablesGlorification =
             }
           
             let tbodyCurrentHeight = tbodyId == 0 ? tbodyHeight + captionHeight : tbodyHeight;
+            
           
-            if (tbodyCurrentHeight > viewportHeight) {
+            if (tbodyCurrentHeight >= viewportHeight) {
               adjustRowFontSize(minFontSize, midFontSize, threshold);
             } else {
               adjustRowFontSize(midFontSize, maxFontSize, threshold);
@@ -426,11 +486,23 @@ const paginateTablesGlorification =
           let threshold = 1;
 
 
+
           adjustRowFontSize(minFontSize, maxFontSize, threshold);
-      
-          if (currentPageHeight + tbodyHeight <= viewportHeight) {
+
+
+          tbodyHeight = tbody.clientHeight;
+          if (tbodyId == 0 && caption) {
+            captionHeight = caption.clientHeight;
+            currentPageHeight = captionHeight;
+          }
+
+          // Check if the tbody fits in the remaining space of the current page
+          if ((tbodyId == 0 && caption && tbodyHeight <= viewportHeight) ||
+              (currentPageHeight + tbodyHeight <= viewportHeight))
+           {
                 currentPage.push(tbody.id);
                 currentPageHeight += tbodyHeight;
+                //sendMessage(JSON.stringify({type: 'debug', data: 'current page height' + currentPage[0]}));
 
             
               
@@ -495,6 +567,7 @@ const adjustOverlay =
   var lastStartRow = null;
   var currentTable = null;
   var lastCaption = 0;
+  var viewportHeight = window.innerHeight;
 
   for (let i = 0; i < rows.length; i++) {
     let rowTagName = rows[i].tagName.toLowerCase();
@@ -513,12 +586,12 @@ const adjustOverlay =
       let rowBorderHeight = rows[i].offsetHeight - rows[i].clientHeight;
       let rowStyle = window.getComputedStyle(rows[i]);
       let rowMarginBottom = parseInt(rowStyle.marginBottom);
-      let bottomRowRect = rowRect.bottom + rowBorderHeight + rowMarginBottom;
+      let bottomRowRect = rowRect.bottom;
 
       let firstVisibleRowHeight = null;
       // If row starts before the top and ends after the bottom, clear overlay
       if (rowRect.top < 0 && bottomRowRect > window.innerHeight) {
-          sendMessage(JSON.stringify({type: '1st if', data: 'row starts before ends after'}));
+          //sendMessage(JSON.stringify({type: '1st if', data: 'row starts before ends after'}));
           clearOverlays();
           overlayVisible = null;
           break;
@@ -558,7 +631,7 @@ const adjustOverlay =
 
       // Check if the first visible row is longer than the viewport
       if (firstVisibleRow && firstVisibleRowHeight > window.innerHeight && bottomRowRect > window.innerHeight) {
-          sendMessage(JSON.stringify({type: '3rd if', data: '1st visible row is longer than viewport'}));
+          //sendMessage(JSON.stringify({type: '3rd if', data: '1st visible row is longer than viewport'}));
           // If the first visible row is longer than the viewport, skip creating the overlay and break
           clearOverlays();
           overlayVisible = null;
@@ -572,7 +645,7 @@ const adjustOverlay =
       if (firstVisibleRow && firstVisibleRowPreviousTable && firstVisibleRowHeight
           && firstVisibleRowTable !== firstVisibleRowPreviousTable 
           && rowRect.top > 0  && bottomRowRect > window.innerHeight) {
-          sendMessage(JSON.stringify({type: '4th if', data: '1st visible row is from next table'}));
+          //sendMessage(JSON.stringify({type: '4th if', data: '1st visible row is from next table'}));
           // If the first visible row is longer than the viewport, skip creating the overlay and break
           clearOverlays();
           overlayVisible = null;
@@ -587,7 +660,7 @@ const adjustOverlay =
       // check if the row is from the next table
       
       if (rowRect.top > 0 && bottomRowRect > window.innerHeight && currentTable !== tableId) {
-          sendMessage(JSON.stringify({type: '5th if', data: 'row is from next table'}));
+          //sendMessage(JSON.stringify({type: '5th if', data: 'row is from next table'}));
           let rowIdComponents = rows[i].id.split("_");
           let tableId = rowIdComponents[1];
           let rowId = rowIdComponents[3];
@@ -602,11 +675,13 @@ const adjustOverlay =
         }
 
         // Check if the row is partially visible
-        if (rowRect.top < window.innerHeight && bottomRowRect >= window.innerHeight) {
+        if (rowRect.top < window.innerHeight && bottomRowRect > window.innerHeight) {
           if (i === lastCaption+1) {
             clearOverlays();
           } else {
-            sendMessage(JSON.stringify({type: '6th if', data: 'row is partially visible'}));
+            //sendMessage(JSON.stringify({type: '6th if', data: 'row is partially visible' + rows[i].id}));
+            //sendMessage(JSON.stringify({type: '6th if row bottom', data: window.innerHeight + ' ' + bottomRowRect}));
+            
             // Get the tableId and rowId from the first partially visible row
             let rowIdComponents = rows[i].id.split("_");
             let tableId = rowIdComponents[1];
@@ -821,4 +896,4 @@ const clearOverlays =
     });
 }`
 
-export { extractTableTitlesAndIds , sendMessage , setOverlays , clearOverlays, adjustOverlay , adjustOverlayGlorification , paginateTables , paginateTablesGlorification };
+export { arabicNumbers , disableScrolling , extractTableTitlesAndIds , sendMessage , setOverlays , clearOverlays, adjustOverlay , adjustOverlayGlorification , paginateTables , paginateTablesGlorification };

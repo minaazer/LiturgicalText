@@ -287,36 +287,36 @@ ${daytimeExpositionIntroHtml}
         <td class="arabic">طرح الساعة الحادية عشر من يوم أحد الشعانين من البصخة المقدسة بركتها تكون معنا. آمين.</td>
     </tr>
     <tr id="table_13_row_4" class="text">
-        <td class="english">In the minds of the antagonizing Jews, our Lord and Savior Jesus Christ was surrounded by people, troops, soldiers and warriors, similar to the kings of this world.</td>
+        <td class="english">“The thoughts of the insolent Jews regarding our Savior and King, the Christ, were that He was like earthly kings. And the multitudes, the soldiers, and the warriors surrounded him like kings.</td>
         <td class="arabic">الأفكار التى كانت لليهود المخالفين بخصوص مخلصنا وملكنا المسيح أنه مثل ملوك الأرض. والجموع الكثيرة والجنود والمحاربون يحيطون به مثل الملوك.</td>
     </tr>
     <tr id="table_13_row_5" class="text">
-        <td class="english">These were the thoughts of the mother of John and Jacob, sons of Zebedee.</td>
+        <td class="english">Thus, thought the mother of Zebedee’s sons, John and James.</td>
         <td class="arabic">هكذا ظنت أم يوحنا ويعقوب إبنى زبدى.</td>
     </tr>
     <tr id="table_13_row_6" class="text">
-        <td class="english">She came to our Savior while He was surrounded by the people and His disciples.</td>
-        <td class="arabic">فكرت هكذا وأتت إلى مخلصنا أمام الجمع مع تلاميذه</td>
+        <td class="english">So she came to our Savior before the assembly with His disciples and bowed down to Him with her sons.</td>
+        <td class="arabic">فكرت هكذا وأتت إلى مخلصنا أمام الجمع مع تلاميذه وسجدت له مع ابنيها،</td>
     </tr>
     <tr id="table_13_row_7" class="text">
-        <td class="english">She worshipped Him with her sons and said, “Grant that my two sons may sit, one on Your right hand, and the other on Your left, in Your kingdom.”</td>
-        <td class="arabic">وسجدت له مع ابنيها، وسألته وطلبت منه هكذا قائلة: "قل كلمة أن يجلس ابناى الاثنان معك فى ملكوتك، واحد عن يمينك والآخر عن يسارك فى مجد مملكتك".</td>
+        <td class="english">She asked and requested from Him, saying, ‘Say a word that my two sons may sit with You in Your Kingdom, one on Your right and the other on Your left, in the glory of Your kingdom.’</td>
+        <td class="arabic"> وسألته وطلبت منه هكذا قائلة: "قل كلمة أن يجلس ابناى الاثنان معك فى ملكوتك، واحد عن يمينك والآخر عن يسارك فى مجد مملكتك".</td>
     </tr>
     <tr id="table_13_row_8" class="text">
-        <td class="english">Hear then what the merciful and most compassionate Lord, who desires salvation for the whole world, said,</td>
-        <td class="arabic">اسمعوا الرؤوف الكثير الرحمة الذى يريد حياة جميع العالم قال:</td>
+        <td class="english">Listen to the compassionate and merciful One who desires the life of all the world.</td>
+        <td class="arabic">اسمعوا الرؤوف الكثير الرحمة الذى يريد حياة جميع العالم</td>
     </tr>
     <tr id="table_13_row_9" class="text">
-        <td class="english">“Are you able to drink of the cup that I shall drink of and be baptized with the baptism that I am baptized with?” They said to Him, “We are able.”</td>
-        <td class="arabic">" أتقدران أن تشربا الكأس التى أتيت لأجلها لكى أشربها، والصبغة التى اصطبغها؟". فقالا: "نقدر أن نصنع هذا".</td>
+        <td class="english">He said, ‘Are you able to drink the cup that I am about to drink, and to be baptized with the baptism that I am baptized with?’ They said, ‘We are able.’</td>
+        <td class="arabic">قال: "أتقدران أن تشربا الكأس التى أتيت لأجلها لكى أشربها، والصبغة التى اصطبغها؟". فقالا: "نقدر أن نصنع هذا".</td>
     </tr>
     <tr id="table_13_row_10" class="text">
-        <td class="english">He answered them, “You will indeed be able to, but to sit at My right hand and at My left is not Mine to give.   It shall be given to those chosen by My omnipresent Father.”</td>
-        <td class="arabic">"فلعلكما حقاً تقدران. فأما الجلوس فليس لى أن أعطيه لكما، لكنه لابى المالئ كل موضع،</td>
+        <td class="english">"Perhaps you both may be able to. As for the your place, it is not for me to grant it to you both, but it is for my Father who fills every place, and He is the one who grants it to His chosen ones."</td>
+        <td class="arabic">"فلعلكما حقاً تقدران. فأما الجلوس فليس لى أن أعطيه لكما، لكنه لابى المالئ كل موضع، وهو الذى يعطيه لأصفيائه".</td>
     </tr>
     <tr id="table_13_row_11" class="text">
-        <td class="english">The two brothers were quiet when they heard these words and departed because of the magnitude of His glory.</td>
-        <td class="arabic">وهو الذى يعطيه لأصفيائه". فلما سمع الأخوان هذا سكتا ومضيا من أجل عظم مجده.</td>
+        <td class="english">When the brothers heard this, they were silent and went away because of the greatness of His Glory.”</td>
+        <td class="arabic">فلما سمع الأخوان هذا سكتا ومضيا من أجل عظم مجده.</td>
     </tr>
 </table>
 
@@ -328,6 +328,14 @@ ${expositionConclusionHtml}
     ${daytimeLitaniesHtml}
     ${evnotiNaiNanHtml}
     ${endOfServiceHymnHtml}
+</div>
+<div class="section" id="section_30" title="Next Hour">
+<table id="table_50" title="Next Hour">
+    <tr id="table_50_row_0" data-navigation="EOM1sc" class="navigationButton">
+        <td class="englishButton">The FIRST Hour of the EVE of MONDAY</td>
+        <td class="arabicButton">الساعة الأولى من ليلة الإثنين</td>
+    </tr>
+</table>
 </div>
 
 `;

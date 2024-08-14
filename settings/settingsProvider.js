@@ -12,39 +12,41 @@ const defaultSettings = {
     { label: 'Arabic Phonics', value: 'Arabic Phonics' , checked: true },
     { label: 'Commentary', value: 'Commentary' , checked: true },
     
+  ],
+  onePage: [
+    { label: 'Paschal Praise', value: 'PaschalPraise', checked: true },
+    { label: 'Exposition Responses', value: 'ExpositionResponses', checked: false },
+    { label: 'Gospel Coptic Intro', value: 'GospelIntro', checked: false },
   ]
 };
 
 const SettingsProvider = ({ children }) => {
   const [settings, setSettings] = useState(defaultSettings);
-
-  // Load settings from AsyncStorage when the app starts
-  const currentVersion = 4;  // Update this number when you want to change the settings
+  const currentVersion = 6;  // Update this number when you want to change the settings
 
   useEffect(() => {
     AsyncStorage.getItem('settings').then(storedData => {
       if (storedData) {
-        let { version, settings } = JSON.parse(storedData);
-        // If the version is not stored in the stored data, treat it as version 0
-        if (version === undefined) {
-          version = 0;
-        }
-        if (version < currentVersion) {
-          // If the stored version is less than the current version, update the settings and the version number
-          AsyncStorage.setItem('settings', JSON.stringify({ version: currentVersion, settings: defaultSettings }));
-          setSettings(defaultSettings);
+        const { version, settings } = JSON.parse(storedData);
+        if (version === currentVersion) {
+          setSettings(settings); // Use stored settings
         } else {
-          // If the stored version is not less than the current version, use the stored settings
-          setSettings(settings);
+          // Handle version update or initialize settings
+          AsyncStorage.setItem('settings', JSON.stringify({ version: currentVersion, settings: defaultSettings }));
+          setSettings(defaultSettings); // Use default settings
         }
       } else {
-        // If there are no stored settings, use the default settings and store them along with the current version number
+        // No stored settings, initialize with default settings
         AsyncStorage.setItem('settings', JSON.stringify({ version: currentVersion, settings: defaultSettings }));
         setSettings(defaultSettings);
       }
     });
   }, []);
 
+  // Update AsyncStorage when settings change
+  useEffect(() => {
+    AsyncStorage.setItem('settings', JSON.stringify({ version: currentVersion, settings }));
+  }, [settings]);
 
   return (
     <SettingsContext.Provider value={[settings, setSettings]}>
@@ -52,5 +54,6 @@ const SettingsProvider = ({ children }) => {
     </SettingsContext.Provider>
   );
 };
+
 
 export default SettingsProvider;

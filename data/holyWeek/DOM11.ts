@@ -25,7 +25,7 @@ ${hourIntroHtml}
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲏ̀ⲥⲁⲏ̀ⲁⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ (ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ): </td>
         </tr>
         <tr id="table_2_row_4" class="text">
-            <td class="coptic">Ⲫⲁⲓ ⲡⲉ ⲙ̀ⲫ̀ⲣⲏϯ ⲉ̀ⲧⲉϥϫⲱ ⲙ̀ⲙⲟⲥ ⲛ̀ϫⲉ Ⲡ̀̅ⲟ̅ⲥ ϫⲉ ⲁϣⲡⲉ ⲡⲓϫⲱⲙ ⲛ̀ϩⲓⲟⲩⲒ̀ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲧⲉⲛⲙⲁⲩ ⲉ̀ⲧⲁⲓ ϩⲓⲧⲥ ⲉ̀ⲃⲟⲗ ⲛ̀ϧⲏⲧϥ.</td>
+            <td class="coptic">Ⲫⲁⲓ ⲡⲉ ⲙ̀ⲫ̀ⲣⲏϯ ⲉ̀ⲧⲉϥϫⲱ ⲙ̀ⲙⲟⲥ ⲛ̀ϫⲉ Ⲡ̀̅ⲟ̅ⲥ ϫⲉ ⲁϣⲡⲉ ⲡⲓϫⲱⲙ ⲛ̀ϩⲓⲟⲩⲓ̀ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲧⲉⲛⲙⲁⲩ ⲉ̀ⲧⲁⲓ ϩⲓⲧⲥ ⲉ̀ⲃⲟⲗ ⲛ̀ϧⲏⲧϥ.</td>
         </tr>
         <tr id="table_2_row_5" class="intro">
             <td class="coptic">Ⲟⲩⲱⲟ̀ⲩ ⲛϯ̀ⲧⲣ̀ⲓⲁⲥ ⲉⲑ̀ⲟⲩⲁⲃ ...</td>
@@ -73,8 +73,8 @@ ${hourIntroHtml}
     <caption id="caption_table_4" class="caption">2nd Prophecy<br>(Sirach 1:20-30)
     <span class="arabic-caption">النبوة الثانية<br>(يشوع بن سيراخ 1: 20-30)</span></caption>
     <tr id="table_4_row_1" class="intro">
-        <td class="english">The beginning of Joshua, son of Sirach the prophet. May his blessings be with us. Amen.</td>
-        <td class="arabic">بدء يشوع ابن سيراخ بركته تكون معنا، آمين.</td>
+        <td class="english">A reading from Joshua, son of Sirach the prophet. May his blessings be with us. Amen.</td>
+        <td class="arabic">من يشوع ابن سيراخ بركته تكون معنا، آمين.</td>
     </tr>
     <tr id="table_4_row_4" class="text">
         <td class="english">To fear the Lord is the root of wisdom,
@@ -217,7 +217,7 @@ ${paschalPraiseHtml}
         </tr>
         <tr id="table_16_row_1" class="text">
             <td class="english">Consider and hear me, O Lord my God;</td>
-            <td class="coptic">Ⲥⲟⲙⲥ ⲥⲱⲧⲉⲙ ⲉⲣⲟⲓ ⲡϬⲟⲓⲥ ⲡⲁⲛⲟⲩϯ :</td>
+            <td class="coptic">Ⲥⲟⲙⲥ ⲥⲱⲧⲉⲙ ⲉⲣⲟⲓ Ⲡ̀Ϭⲟⲓⲥ ⲡⲁⲛⲟⲩϯ :</td>
             <td class="arabic">انظر واستجب لي يا ربى والهى</td>
         </tr>
         <tr id="table_16_row_2" class="text">
@@ -257,7 +257,7 @@ ${paschalPraiseHtml}
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_18_row_2" class="text">
-            <td class="coptic">Ⲁⲙⲏⲛ ⲁⲙⲏⲛ ϯϫⲱ ⲙⲙⲟⲥ ⲛⲱⲧⲉⲛ ϫⲉ ⲉϣⲱⲡ ⲁⲣⲉϣⲁⲛ ⲟⲩⲁⲓ ⲁⲣⲉϩ ⲉⲡⲁⲥⲁϫⲓ ⲛⲛⲉϥⲛⲁⲩ ⲉⲫⲙⲟⲩ ϣⲁⲉⲛⲉϩ: Ⲡⲉϫⲉ ⲛⲓⲓⲟⲩⲇⲁⲓ ⲛⲁϥ ϫⲉ ϯⲛⲟⲩ ⲁⲛⲉⲙⲓ ϫⲉ ⲟⲩⲟⲛ ⲟⲩⲇⲉⲙⲱⲛ ⲛⲉⲙⲁⲕ : Ⲁⲃⲣⲁⲁⲙ ⲁϥⲙⲟⲩ ⲛⲉⲙ ⲛⲓⲕⲉⲡⲣⲟⲫⲏⲧⲏⲥ ⲟⲩⲟϩ ⲛⲑⲟⲕ ⲕϫⲱⲙⲙⲟⲥ ϫⲉ ⲫⲏⲉⲑⲛⲁⲁⲣⲉϩ ⲉⲡⲁⲥⲁϫⲓ ⲛⲛⲉϥϫⲉⲙϯⲡⲓ ⲙⲫⲙⲟⲩ ϣⲁⲉⲛⲉϩ : Ⲙⲏ ⲛⲑⲟⲕ ⲟⲩⲛⲓϣϯ ⲛⲑⲟⲕ ⲉⲡⲉⲛⲓⲱⲧ Ⲁⲃⲣⲁⲁⲙ ⲫⲏⲉⲧⲁϥⲙⲟⲩ ⲛⲉⲙ ⲛⲓⲕⲉⲡⲣⲟⲫⲏⲧⲏⲥ ⲁⲩⲙⲟⲩ ⲕⲓⲣⲓ ⲙⲙⲟⲕ ⲛⲛⲓⲙ Ⲁϥⲉⲣⲟⲩⲱ ⲛϫⲉ Ⲓ̅ⲏ̅ⲥ ⲉϥϫⲱ ⲙⲙⲟⲥ ϫⲉ ⲉϣⲱⲡ ⲁⲛⲟⲕ ⲁⲓϣⲁⲛ ϯⲱⲟⲩ ⲛⲏⲓ ⲙⲙⲁⲩⲁⲧ ⲡⲁⲱⲟⲩ ϩⲗⲓ ⲁⲛ ⲡⲉ: ϥϣⲟⲡⲛϫⲉ ⲡⲁⲓⲱⲧ ⲉⲑⲛⲁϯⲱⲟⲩ ⲛⲏⲓ. <br>... Ⲟⲩⲱϣⲧ ⲙⲡ̀ⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲁⲙⲏⲛ ⲁⲙⲏⲛ ϯϫⲱ ⲙⲙⲟⲥ ⲛⲱⲧⲉⲛ ϫⲉ ⲉϣⲱⲡ ⲁⲣⲉϣⲁⲛ ⲟⲩⲁⲓ ⲁⲣⲉϩ ⲉⲡⲁⲥⲁϫⲓ ⲛⲛⲉϥⲛⲁⲩ ⲉⲫⲙⲟⲩ ϣⲁⲉⲛⲉϩ: Ⲡⲉϫⲉ ⲛⲓⲓⲟⲩⲇⲁⲓ ⲛⲁϥ ϫⲉ ϯⲛⲟⲩ ⲁⲛⲉⲙⲓ ϫⲉ ⲟⲩⲟⲛ ⲟⲩⲇⲉⲙⲱⲛ ⲛⲉⲙⲁⲕ : Ⲁⲃⲣⲁⲁⲙ ⲁϥⲙⲟⲩ ⲛⲉⲙ ⲛⲓⲕⲉⲡⲣⲟⲫⲏⲧⲏⲥ ⲟⲩⲟϩ ⲛⲑⲟⲕ ⲕϫⲱⲙⲙⲟⲥ ϫⲉ ⲫⲏⲉⲑⲛⲁⲁⲣⲉϩ ⲉⲡⲁⲥⲁϫⲓ ⲛⲛⲉϥϫⲉⲙϯⲡⲓ ⲙⲫⲙⲟⲩ ϣⲁⲉⲛⲉϩ : Ⲙⲏ ⲛⲑⲟⲕ ⲟⲩⲛⲓϣϯ ⲛⲑⲟⲕ ⲉⲡⲉⲛⲓⲱⲧ Ⲁⲃⲣⲁⲁⲙ ⲫⲏⲉⲧⲁϥⲙⲟⲩ ⲛⲉⲙ ⲛⲓⲕⲉⲡⲣⲟⲫⲏⲧⲏⲥ ⲁⲩⲙⲟⲩ ⲕⲓⲣⲓ ⲙⲙⲟⲕ ⲛⲛⲓⲙ Ⲁϥⲉⲣⲟⲩⲱ ⲛϫⲉ Ⲓ̅ⲏ̅ⲥ ⲉϥϫⲱ ⲙⲙⲟⲥ ϫⲉ ⲉϣⲱⲡ ⲁⲛⲟⲕ ⲁⲓϣⲁⲛ ϯⲱⲟⲩ ⲛⲏⲓ ⲙⲙⲁⲩⲁⲧ ⲡⲁⲱⲟⲩ ϩⲗⲓ ⲁⲛ ⲡⲉ: ϥ̀ϣⲟⲡ ⲛ̀ϫⲉ ⲡⲁⲓⲱⲧ ⲉⲑⲛⲁϯⲱⲟⲩ ⲛⲏⲓ. <br>... Ⲟⲩⲱϣⲧ ⲙⲡ̀ⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_18_row_4" class="intro">
             <td class="english">Glory be to God forever.</td>
@@ -368,7 +368,7 @@ ${daytimeExpositionIntroHtml}
         <td class="arabic">أما هو فأعلن لهم قائلاً: أن من يؤمن به لن يموت إلى الأبد.</td>
     </tr>
     <tr id="table_22_row_6" class="text">
-        <td class="english">the ignorant and trespassers of the law accused Him, that by Satan, He exorcizes Demons.</td>
+        <td class="english">the ignorant and trespassers of the law accused Him, that by Satan, He exorcizes demons.</td>
         <td class="arabic">اسمعوا كيف أن الجهال ومخالفى الناموس قالوا أن معه شيطان،</td>
     </tr>
     <tr id="table_22_row_7" class="text">
@@ -392,20 +392,21 @@ ${daytimeExpositionIntroHtml}
         <td class="arabic">نطق المخلص بالحق، أنه كائن من قبل أن يكون ابراهيم.</td>
     </tr>
     <tr id="table_22_row_12" class="text">
-        <td class="english">We, God’s new nation, believe in Him and observe His commandments.</td>
+        <td class="english">We, the multitude of new nations, believe and observe His commandments.</td>
         <td class="arabic">نحن أيضاً نؤمن ـ معشر الشعوب الجديدة ـ ونواظب على وصاياه فى أفواهنا،</td>
     </tr>
     <tr id="table_22_row_13" class="text">
-        <td class="english">We confess by word and in the depth of our hearts that the True Word, the Righteous Master is Eternal,</td>
+        <td class="english">We confess from the depth of our hearts the True Word of the Omnipotent.</td>
         <td class="arabic">ونعترف من عمق قلوبنا بالكلمة الحقيقى الذى للآب الضابط الكل.</td>
     </tr>
+    
     <tr id="table_22_row_14" class="text">
-        <td class="english">with the Holy Spirit the Comforter. Despite all that He did to teach them,</td>
-        <td class="arabic">أن الصالح الكائن منذ البدء مع الروح القدس المعزى، لم يزل يخبر الجهال المملوئين إثماً،</td>
+        <td class="english"> That the Righteous One exists from the beginning, along with the Comforter Holy Spirit.</td>
+        <td class="arabic">أن الصالح الكائن منذ البدء مع الروح القدس المعزى، </td>
     </tr>
     <tr id="table_22_row_15" class="text">
-        <td class="english">the ignorant rejected this great blessing as well as the many miracles He performed among them.</td>
-        <td class="arabic">المخالفين، الأبناء المرذولين، فجحدوا هذه النعمة العظيمة والعجائب الجزيلة التى أظهرها فيهم</td>
+        <td class="english">He still informs the ignorant, the sinful, the disobedient children, but they denied him, did not accept him, rejected him, and became without God.</td>
+        <td class="arabic">لم يزل يخبر الجهال المملوئين إثماً، المخالفين، الأبناء المرذولين، فجحدوا هذه النعمة العظيمة والعجائب الجزيلة التى أظهرها فيهم</td>
     </tr>
     <tr id="table_22_row_16" class="text">
         <td class="english">They did not realize that He was their Savior according to the prophecies.</td>
@@ -427,6 +428,16 @@ ${evnotiNaiNanHtml}
 ${endOfServiceHymnHtml}
 </div>
 
+</div>
+<div class="section" id="section_30" title="Next Hour">
+<table id="table_50" title="Next Hour">
+    <tr id="table_50_row_0" data-navigation="EOT1sc" class="navigationButton">
+        <td class="englishButton">The FIRST Hour of the EVE of TUESDAY</td>
+        <td class="arabicButton">الساعة الأولى من ليلة الثلاثاء</td>
+    </tr>
+
+</table>
+</div>
 `;
 
 };

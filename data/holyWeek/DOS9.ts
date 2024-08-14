@@ -11,7 +11,7 @@ export const DOS9 = () => {
 
 
 return `
-    
+
 ${hourIntroHtml}
 
 <div class="section" id="section_2" title="Coptic Prophecies">
@@ -45,6 +45,7 @@ ${hourIntroHtml}
         </tr>
     </table>
 </div>
+
 <div class="section" id="section_3" title="Prophecies">
     <title class="sectionTitle">Prophecies</title>
     <table id="table_3" title="1st Prophecy - Lamentations">
@@ -324,5 +325,19 @@ ${daytimeExpositionIntroHtml}
 ${expositionConclusionHtml}
 
 </div>
+<div class="section" id="section_30" title="Next Hour">
+<table id="table_50" title="Next Hour">
+    <tr id="table_50_row_0" data-navigation="DOS11sc" class="navigationButton">
+        <td class="englishButton">The ELEVENTH Hour of the DAY of HOSANNA SUNDAY</td>
+        <td class="arabicButton">الساعة الحادية عشر من يوم أحد الشعانين</td>
+    </tr>
+    <tr id="table_50_row_1" data-navigation="DaytimeLitaniessc" class="navigationButton">
+        <td class="englishButton">Daytime Litanies</td>
+        <td class="arabicButton">طلبات النهار</td>
+    </tr>
+</table>
+</div>
+
+
         `;
 };

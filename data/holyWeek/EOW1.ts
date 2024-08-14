@@ -23,7 +23,7 @@ ${hourIntroHtml}
             <td class="coptic">Ⲉⲃⲟⲗ ϧⲉⲛ Ⲓⲉⲍⲉⲕⲓⲏⲗ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ (ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ):</td>
         </tr>
         <tr id="table_2_row_4" class="text">
-            <td class="coptic">Ⲟⲩⲟϩ ⲁ̀ⲟⲩⲥⲁϫⲓ ⲛ̀ⲧⲉ Ⲡ̀⳪ ϣⲱⲡⲓ ϩⲁⲣⲟⲓ ⲉϥϫⲱⲙ̀ⲙⲟⲥ : Ϫⲉ ⲡ̀ϣⲏⲣⲓ ⲙ̀ⲫ̀ⲣⲱⲙⲓ : ϩⲏⲡⲡⲉ ⲁⲩϣⲱⲡⲓ ⲛⲏⲓ ⲛ̀ϫⲉ ⲡ̀ⲏⲓ ⲙ̀ⲡⲒ̀̅ⲥ̅ⲗ ⲉⲩⲙⲟⲩϫⲧ ⲧⲏⲣⲟⲩ ⲛ̀ⲟⲩϩⲟⲙⲧ ⲛⲉⲙ ⲟⲩⲑ̀ⲣⲁⲛ ⲛⲉⲙ ⲟⲩⲃⲉⲛⲓⲡⲓ ⲛⲉⲙ ⲟⲩⲧⲁⲧϩ ⲉϥⲙⲟⲩϫⲧ ⲛⲉⲙ ⲟⲩϩⲁⲧ</td>
+            <td class="coptic">Ⲟⲩⲟϩ ⲁ̀ⲟⲩⲥⲁϫⲓ ⲛ̀ⲧⲉ Ⲡ̀⳪ ϣⲱⲡⲓ ϩⲁⲣⲟⲓ ⲉϥϫⲱⲙ̀ⲙⲟⲥ : Ϫⲉ ⲡ̀ϣⲏⲣⲓ ⲙ̀ⲫ̀ⲣⲱⲙⲓ : ϩⲏⲡⲡⲉ ⲁⲩϣⲱⲡⲓ ⲛⲏⲓ ⲛ̀ϫⲉ ⲡ̀ⲏⲓ ⲙ̀ⲡ̀Ⲓⲥⲣⲁⲏⲗ ⲉⲩⲙⲟⲩϫⲧ ⲧⲏⲣⲟⲩ ⲛ̀ⲟⲩϩⲟⲙⲧ ⲛⲉⲙ ⲟⲩⲑ̀ⲣⲁⲛ ⲛⲉⲙ ⲟⲩⲃⲉⲛⲓⲡⲓ ⲛⲉⲙ ⲟⲩⲧⲁⲧϩ ⲉϥⲙⲟⲩϫⲧ ⲛⲉⲙ ⲟⲩϩⲁⲧ</td>
         </tr>
         <tr id="table_2_row_35" class="intro">
             <td class="coptic">Ⲟⲩⲱ̀ⲟⲩ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ...</td>
@@ -153,7 +153,7 @@ ${paschalPraiseHtml}
             <td class="english">For God is my defense, My God of mercy. </td>
             <td class="coptic">ϫⲉ ⲛ̀ⲑⲟⲕ ⲡⲉ ⲡⲁⲣⲉϥϣⲟⲡⲧ ⲉ̀ⲣⲟϥ ⲡⲁⲛⲟⲩϯ ⲡⲁⲛⲁⲓ</td>
             <td class="arabic">لأنَكَ أنت ناصري إلهي ورحمتي</td>
-        </tr>123
+        </tr>
         <tr id="table_6_row_5" class="intro">
             <td class="english">Alleluia.</td>
             <td class="coptic">Ⲁ̅Ⲗ̅</td>
@@ -352,7 +352,18 @@ ${expositionConclusionHtml}
 
 </div>
 
-
+<div class="section" id="section_30" title="Next Hour">
+<table id="table_50" title="Next Hour">
+    <tr id="table_50_row_0" data-navigation="EOW3sc" class="navigationButton">
+        <td class="englishButton">The THIRD Hour of the EVE of WEDNESDAY</td>
+        <td class="arabicButton">الساعة الثالثة من ليلة الأربهاء</td>
+    </tr>
+    <tr id="table_50_row_1" data-navigation="NighttimeLitaniessc" class="navigationButton">
+    <td class="englishButton">Nighttime Litanies</td>
+    <td class="arabicButton">طلبات المساء</td>
+</tr>
+</table>
+</div>
 
 `;
 

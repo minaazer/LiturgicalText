@@ -150,7 +150,7 @@ ${paschalPraiseHtml}
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_8_row_2" class="text">
-            <td class="coptic">Ⲛⲁⲓ ⲉ̀ⲧⲁϥ ϫⲟⲧⲟⲩ ⲛ̀ϫⲉ Ⲓ̅ⲏ̅ⲥ ⲁϥϣⲉⲛⲁϥ ⲁϥⲭⲟⲡϥ ⲉ̀ⲃⲟⲗ ϩⲁⲣⲱⲟⲩ. Ⲛⲁⲓⲙⲏϣ ⲇⲉ ⲙ̀ⲙⲏⲛⲓ ⲁϥⲁⲓⲧⲟⲩ ⲙⲡⲟⲩⲙⲑ̀ⲟ ⲉ̀ⲃⲟⲗ ⲙ̀ⲡⲟⲩⲛⲁϩϯ ⲉ̀ⲣⲟϥ : ϩⲓⲛⲁ ⲛ̀ⲧⲉϥϫⲱⲕ ⲉ̀ⲃⲟⲗ ⲛ̀ϫⲉ ⲡ̀ⲥⲁϫⲓ ⲛ̀ⲏ̀ⲥⲁⲓ̀ⲁⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ ⲫⲏⲉ̀ⲧⲁϥϫⲟϥ ϫⲉ Ⲡ̀̅ⲟ̅ⲥ ⲛⲓⲙ ⲡⲉ ⲉ̀ⲧⲁϥⲛⲁϩϯ ⲉ̀ⲧⲉⲛⲥ̀ⲙⲏ : ⲟⲩⲟϩ ⲡ̀ϣⲱⲃϣ ⲙ̀Ⲡ⳪ ⲉ̀ⲧⲁϥϭⲱⲣⲡ ⲉ̀ⲛⲓⲙ.<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲛⲁⲓ ⲉ̀ⲧⲁϥ ϫⲟⲧⲟⲩ ⲛ̀ϫⲉ Ⲓⲏⲥⲟⲩⲥ ⲁϥϣⲉⲛⲁϥ ⲁϥⲭⲟⲡϥ ⲉ̀ⲃⲟⲗ ϩⲁⲣⲱⲟⲩ. Ⲛⲁⲓⲙⲏϣ ⲇⲉ ⲙ̀ⲙⲏⲛⲓ ⲁϥⲁⲓⲧⲟⲩ ⲙⲡⲟⲩⲙⲑ̀ⲟ ⲉ̀ⲃⲟⲗ ⲙ̀ⲡⲟⲩⲛⲁϩϯ ⲉ̀ⲣⲟϥ : ϩⲓⲛⲁ ⲛ̀ⲧⲉϥϫⲱⲕ ⲉ̀ⲃⲟⲗ ⲛ̀ϫⲉ ⲡ̀ⲥⲁϫⲓ ⲛ̀ⲏ̀ⲥⲁⲓ̀ⲁⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ ⲫⲏⲉ̀ⲧⲁϥϫⲟϥ ϫⲉ Ⲡ̀̅ⲟ̅ⲥ ⲛⲓⲙ ⲡⲉ ⲉ̀ⲧⲁϥⲛⲁϩϯ ⲉ̀ⲧⲉⲛⲥ̀ⲙⲏ : ⲟⲩⲟϩ ⲡ̀ϣⲱⲃϣ ⲙ̀Ⲡ⳪ ⲉ̀ⲧⲁϥϭⲱⲣⲡ ⲉ̀ⲛⲓⲙ.<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_8_row_4" class="intro">
             <td class="english">Glory be to God forever.</td>
@@ -310,7 +310,18 @@ ${expositionConclusionHtml}
 
 </div>
 
-
+<div class="section" id="section_30" title="Next Hour">
+<table id="table_50" title="Next Hour">
+    <tr id="table_50_row_0" data-navigation="EOTH9sc" class="navigationButton">
+        <td class="englishButton">The NINTH Hour of the EVE of THURSDAY</td>
+        <td class="arabicButton">الساعة التاسعة من ليلة الخميس</td>
+    </tr>
+    <tr id="table_50_row_1" data-navigation="NighttimeLitaniessc" class="navigationButton">
+    <td class="englishButton">Nighttime Litanies</td>
+    <td class="arabicButton">طلبات المساء</td>
+</tr>
+</table>
+</div>
 
 `;
 

@@ -25,7 +25,7 @@ ${hourIntroHtml}
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲁ̀ⲙⲱⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ:</td>
         </tr>
         <tr id="table_2_row_4" class="text">
-            <td class="coptic">Ⲕⲱϯ ⲛ̀ⲥⲁ Ⲡ̀⳪ ⲟⲩⲟϩ ⲉⲣⲉⲧⲉⲛⲉ̀ⲱⲛϧ : ϩⲟⲡⲱⲥ ⲛ̀ⲧⲉϥ ϣⲧⲉⲙϣⲱⲡⲓ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲟⲩⲭ̀ⲣⲱⲙ ⲛ̀ϫⲉ ⲡⲏⲓ ⲛ̀Ⲓⲱⲥⲏⲫ ⲟⲩⲟϩ ⲉϥⲉ̀ⲟⲩⲟⲙϥ</td>
+            <td class="coptic">Ⲕⲱϯ ⲛ̀ⲥⲁ Ⲡ̀⳪ ⲟⲩⲟϩ ⲉⲣⲉⲧⲉⲛⲉ̀ⲱⲛϧ : ϩⲟⲡⲱⲥ ⲛ̀ⲧⲉϥ ϣⲧⲉⲙϣⲱⲡⲓ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲟⲩⲭ̀ⲣⲱⲙ ⲛ̀ϫⲉ ⲡⲏⲓ ⲛ̀Ⲓⲱⲥⲏϥ ⲟⲩⲟϩ ⲉϥⲉ̀ⲟⲩⲟⲙϥ</td>
         </tr>
         <tr id="table_2_row_35" class="intro">
             <td class="coptic">Ⲟⲩⲱ̀ⲟⲩ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ: ⲁ̀ⲙⲏⲛ.</td>
@@ -273,7 +273,15 @@ ${nighttimeLitaniesHtml}
 ${evnotiNaiNanHtml}
 ${endOfServiceHymnHtml}
 </div>
+<div class="section" id="section_30" title="Next Hour">
+<table id="table_50" title="Next Hour">
+    <tr id="table_50_row_0" data-navigation="DOW1sc" class="navigationButton">
+        <td class="englishButton">The FIRST Hour of the DAY of WEDNESDAY</td>
+        <td class="arabicButton">الساعة الثالثة من ليلة الثلاثاء</td>
+    </tr>
 
+</table>
+</div>
 `;
 
 };

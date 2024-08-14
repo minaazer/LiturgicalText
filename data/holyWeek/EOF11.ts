@@ -132,7 +132,7 @@ ${paschalPraiseHtml}
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_6" title="Coptic Psalm">
         <caption class="caption" id="caption_table_6">Coptic Psalm<br>(2:1-2, 4-5)
-        <span class="arabic-caption">المزمور قبطياً<br>(2:1-2, 4-5)</span></caption>
+        <span class="arabic-caption">المزمور قبطياً<br>(2: 1 ، 3)</span></caption>
 
         <tr id="table_6_row_0" class="intro">
             <td class="english">A Psalm of David</td>
@@ -156,7 +156,7 @@ ${paschalPraiseHtml}
         </tr>
         <tr id="table_6_row_4" class="text">
             <td class="english">Then He shall speak to them in His wrath, And distress them in His deep displeasure.</td>
-            <td class="coptic">Ⲧⲟⲧⲉ ⲉϥⲉ̀ⲥⲁϫⲓ ⲛⲉⲙⲱⲟⲩ ⲛ̀ϩ̀ⲣⲏⲓ ϧⲉⲛ ⲡⲉϥϫⲱⲛⲧ: ⲟⲩⲟϩ ⲛ̀ϧ̀ⲣⲏⲓ ϧⲉⲛ ⲡⲉϥⲙ̀ⲃⲟⲛ ⲉϥⲉ̀ϣ̀ⲧⲉⲣⲑⲱⲣⲟ</td>
+            <td class="coptic">Ⲧⲟⲧⲉ ⲉϥⲉ̀ⲥⲁϫⲓ ⲛⲉⲙⲱⲟⲩ ⲛ̀ϩ̀ⲣⲏⲓ ϧⲉⲛ ⲡⲉϥϫⲱⲛⲧ: ⲟⲩⲟϩ ⲛ̀ϧ̀ⲣⲏⲓ ϧⲉⲛ ⲡⲉϥⲙ̀ⲃⲟⲛ ⲉϥⲉ̀ϣ̀ⲧⲉⲣⲑⲱⲣⲟⲩ</td>
             <td class="arabic">حينئذ يكلمهم بغضبه وبرجزه يقلقهم.</td>
         </tr>
         <tr id="table_6_row_5" class="intro">
@@ -171,7 +171,7 @@ ${paschalPraiseHtml}
         <span class="arabic-caption">الأناجيل قبطياً</span></caption>
         <tr id="table_8_row_0" class="priest">
             <td class="english">A chapter according to St. Matthew,</td>
-            <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲟⲛ ̀ⲁⲅⲓⲟ.</td>
+            <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲟⲛ ⲁ̀ⲅⲓⲟⲩ.</td>
             <td class="arabic">فصل من إنجيل معلمنا مار متى</td>
         </tr>
 
@@ -181,11 +181,11 @@ ${paschalPraiseHtml}
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_8_row_2" class="text">
-            <td class="coptic">Ⲛⲓⲁⲣⲭⲏⲉⲣⲉⲩⲥ ⲇⲉ ⲛⲉⲙ ⲡⲓⲙⲁⲛϯϩⲁⲡ ⲧⲏⲣϥ ⲛⲁⲩⲕⲱϯ ⲛⲥⲁⲟⲩⲙⲉⲧⲙⲉⲑⲣⲉ ⲛⲛⲟⲩϫ ϧⲁ Ⲓⲏⲥ ϩⲓⲛⲁ ⲛⲥⲉϧⲟⲑⲃⲉϥ Ⲟⲩⲟϩ ⲙⲡⲟⲩϫⲓⲙⲓ: ⲉⲁⲩⲓ ⲛϫⲉ ⲟⲩⲙⲏϣ ⲙⲙⲉⲑⲣⲉ ⲛⲛⲟⲩϫ:<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲛⲓⲁⲣⲭⲏⲉ̀ⲣⲉⲩⲥ ⲇⲉ ⲛⲉⲙ ⲡⲓⲙⲁⲛϯϩⲁⲡ ⲧⲏⲣϥ ⲛⲁⲩⲕⲱϯ ⲛ̀ⲥⲁⲟⲩⲙⲉⲧⲙⲉⲑⲣⲉ ⲛ̀ⲛⲟⲩϫ ϧⲁ Ⲓⲏⲥ ϩⲓⲛⲁ ⲛ̀ⲥⲉϧⲟⲑⲃⲉϥ. Ⲟⲩⲟϩ ⲙ̀ⲡⲟⲩϫⲓⲙⲓ: ⲉ̀ⲁⲩⲓ̀ ⲛ̀ϫⲉ ⲟⲩⲙⲏϣ ⲙ̀ⲙⲉⲑⲣⲉ ⲛ̀ⲛⲟⲩϫ:<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_8_row_3" class="priest">
             <td class="english">According to St. Mark</td>
-            <td class="coptic">ⲕⲁⲧⲁ Ⲙⲁⲣⲕⲟⲛ ̀ⲁⲅⲓⲟ.</td>
+            <td class="coptic">ⲕⲁⲧⲁ Ⲙⲁⲣⲕⲟⲛ ⲁ̀ⲅⲓⲟⲩ.</td>
             <td class="arabic">حسب مار مرقس</td>
         </tr>
         <tr id="table_8_row_4" class="intro">
@@ -194,11 +194,11 @@ ${paschalPraiseHtml}
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_8_row_5" class="text">
-            <td class="coptic">Ⲛⲓⲁⲣⲭⲏⲉⲣⲉⲩⲥ ⲇⲉ ⲛⲉⲙ ⲡⲓⲙⲁⲛϯϩⲁⲡ ⲧⲏⲣϥ : ⲛⲁⲩⲕⲱϯ ⲛⲥⲁ ⲟⲩⲙⲉⲧ-ⲙⲉⲑⲣⲉ ϧⲁ Ⲓⲏⲥ ⲉⲡϫⲓⲛϧⲟⲑⲃⲉϥ ⲟⲩⲟϩ ⲛⲁⲩϫⲓⲙⲓ ⲁⲛ ⲡⲉ Ⲛⲁⲣⲉ ⲟⲩⲙⲏϣ ⲅⲁⲣ ⲉⲣⲙⲉⲑⲣⲉ ⲛⲛⲟⲩϫ ϧⲁⲣⲟϥ ⲡⲉ :<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲛⲓⲁⲣⲭⲏⲉ̀ⲣⲉⲩⲥ ⲇⲉ ⲛⲉⲙ ⲡⲓⲙⲁⲛϯϩⲁⲡ ⲧⲏⲣϥ : ⲛⲁⲩⲕⲱϯ ⲛ̀ⲥⲁ ⲟⲩⲙⲉⲧ-ⲙⲉⲑⲣⲉ ϧⲁ Ⲓⲏⲥⲟⲩⲥ ⲉ̀ⲡ̀ϫⲓⲛϧⲟⲑⲃⲉϥ ⲟⲩⲟϩ ⲛⲁⲩϫⲓⲙⲓ ⲁⲛ ⲡⲉ. Ⲛⲁⲣⲉ ⲟⲩⲙⲏϣ ⲅⲁⲣ ⲉⲣⲙⲉⲑⲣⲉ ⲛ̀ⲛⲟⲩϫ ϧⲁⲣⲟϥ ⲡⲉ :<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_8_row_6" class="priest">
             <td class="english">According to St. Luke</td>
-            <td class="coptic">ⲕⲁⲧⲁ Ⲗⲟⲩⲕⲁⲛ  ̀ⲁⲅⲓⲟⲩ.</td>
+            <td class="coptic">ⲕⲁⲧⲁ Ⲗⲟⲩⲕⲁⲛ  ⲁ̀ⲅⲓⲟⲩ.</td>
             <td class="arabic">حسب مار لوقا</td>
         </tr>
         <tr id="table_8_row_7" class="intro">
@@ -207,11 +207,11 @@ ${paschalPraiseHtml}
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_8_row_8" class="text">
-            <td class="coptic">Ⲥⲉⲧⲁⲥⲛⲁⲩ ⲉⲡⲉⲧⲣⲟⲥ ⲛϫⲉ ⲟⲩⲁⲗⲟⲩ ⲙⲃⲱⲕⲓ ⲉϥϩⲉⲙⲥⲓ ϧⲁⲧⲉⲛ ⲡⲓⲟⲩⲱⲓⲛⲓ: ⲟⲩⲟϩ ⲉⲧⲁⲥⲥⲟⲙⲥ ⲉⲣⲟϥ ⲡⲉϫⲁⲥ: ϫⲉ ⲛⲁⲣⲉ ⲫⲁⲓ ϩⲱϥ ⲭⲏ ⲛⲉⲙⲁϥ ⲡⲉ<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲥⲉⲧⲁⲥⲛⲁⲩ ⲉ̀Ⲡⲉⲧⲣⲟⲥ ⲛ̀ϫⲉ ⲟⲩⲁ̀ⲗⲟⲩ ⲙ̀ⲃⲱⲕⲓ ⲉϥϩⲉⲙⲥⲓ ϧⲁⲧⲉⲛ ⲡⲓⲟⲩⲱⲓⲛⲓ: ⲟⲩⲟϩ ⲉ̀ⲧⲁⲥⲥⲟⲙⲥ ⲉ̀ⲣⲟϥ ⲡⲉϫⲁⲥ: ϫⲉ ⲛⲁⲣⲉ ⲫⲁⲓ ϩⲱϥ ⲭⲏ ⲛⲉⲙⲁϥ ⲡⲉ<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_8_row_9" class="priest">
             <td class="english">According to St. John</td>
-            <td class="coptic">ⲕⲁⲧⲁ Ⲓⲱⲁⲛⲛⲏⲛ  ̀ⲁⲅⲓⲟⲩ.</td>
+            <td class="coptic">ⲕⲁⲧⲁ Ⲓⲱⲁⲛⲛⲏⲛ ⲁ̀ⲅⲓⲟⲩ.</td>
             <td class="arabic">حسب مار يوحنا</td>
         </tr>
         <tr id="table_8_row_10" class="intro">
@@ -220,7 +220,7 @@ ${paschalPraiseHtml}
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_8_row_11" class="text">
-            <td class="coptic">Ⲛⲁϥⲙⲟϣⲓ ⲇⲉ ⲡⲉ ⲛⲥⲁ ⲓ̅ⲏ̅ⲥ ⲛϫⲉ Ⲥⲓⲙⲱⲛ Ⲡⲉⲧⲣⲟⲥ ⲛⲉⲙ ⲡⲓⲕⲉⲙⲁⲑⲏⲧⲏⲥ: Ⲛⲓⲙⲁⲑⲏⲧⲏⲥ ⲇⲉ ⲉⲧⲉ ⲙⲙⲁⲩ ⲛⲁϥⲟⲓ ⲛⲥⲟⲩⲓⲛ ⲡⲉ ⲛⲧⲉ ⲡⲓⲁⲣⲭⲏⲉⲣⲉⲩⲥ : ⲟⲩⲟϩ ⲁϥⲓ ⲉϧⲟⲩⲛ ⲛⲉⲙ Ⲓ̅ⲏ̅ⲥ ϯⲁⲩⲗⲏ ⲛⲧⲉ ⲡⲓⲁⲣⲭⲏⲉⲣⲉⲩⲥ<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲛⲁϥⲙⲟϣⲓ ⲇⲉ ⲡⲉ ⲛ̀ⲥⲁ Ⲓⲏⲥⲟⲩⲥ ⲛ̀ϫⲉ Ⲥⲓⲙⲱⲛ Ⲡⲉⲧⲣⲟⲥ ⲛⲉⲙ ⲡⲓⲕⲉⲙⲁⲑⲏⲧⲏⲥ: Ⲛⲓⲙⲁⲑⲏⲧⲏⲥ ⲇⲉ ⲉ̀ⲧⲉ ⲙⲙⲁⲩ ⲛⲁϥⲟⲓ ⲛ̀ⲥⲟⲩⲓⲛ ⲡⲉ ⲛ̀ⲧⲉ ⲡⲓⲁⲣⲭⲏⲉ̀ⲣⲉⲩⲥ : ⲟⲩⲟϩ ⲁϥⲓ ⲉ̀ϧⲟⲩⲛ ⲛⲉⲙ Ⲓⲏⲥⲟⲩⲥ ϯⲁⲩⲗⲏ ⲛⲧⲉ ⲡⲓⲁⲣⲭⲏⲉ̀ⲣⲉⲩⲥ<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_8_row_12" class="intro">
             <td class="english">Glory be to God forever.</td>
@@ -237,7 +237,7 @@ ${paschalPraiseHtml}
 
 <table id="table_9" title="Psalm">
     <caption id="caption_table_9" class="caption">Psalm<br>(2:1-2, 4-5)
-    <span class="arabic-caption">المزمور<br>(2: 1- 2 و  4-5)</span></caption>
+    <span class="arabic-caption">المزمور<br>(2: 1 ، 3)</span></caption>
     <tr id="table_9_row_1" class="intro">
         <td class="english">From the Psalms of our teacher David the prophet. May his blessing be with us. Amen.</td>
         <td class="arabic">من مزامير أبينا داود النبى بركته المقدسة تكون معنا، آمين.</td>
@@ -247,7 +247,7 @@ ${paschalPraiseHtml}
         <td class="arabic">لِمَاذَا ارْتَجَّتِ الأُمَمُ وَتَفَكَّرَ الشُّعُوبُ فِي الْبَاطِلِ؟</td>
     </tr>
     <tr id="table_9_row_5" class="text">
-        <td class="english">The kings of the earth set themselves, And the rulers take counsel together, Against the Lord and against His Anointed. Alleulia.</td>
+        <td class="english">The kings of the earth set themselves, And the rulers take counsel together, Against the Lord and against His Anointed.</td>
         <td class="arabic">قَامَ مُلُوكُ الأَرْضِ وَتَآمَرَ الرُّؤَسَاءُ مَعاً عَلَى الرَّبِّ وَعَلَى مَسِيحِهِ قَائِلِينَ</td>
     </tr>
     <tr id="table_9_row_6" class="text">
@@ -277,7 +277,7 @@ ${paschalPraiseHtml}
         <td class="arabic">وَكَانَ رُؤَسَاءُ الْكَهَنَةِ وَالشُّيُوخُ وَالْمَجْمَعُ كُلُّهُ يَطْلُبُونَ شَهَادَةَ زُورٍ عَلَى يَسُوعَ لِكَيْ يَقْتُلُوهُ</td>
     </tr>
     <tr id="table_10_row_5" class="text">
-        <td class="english">but found none. Even though many false witnesses came forward, they found none. came forward</td>
+        <td class="english">but found none. Even though many false witnesses came forward, they found none. But at last two false witnesses came forward.</td>
         <td class="arabic">فَلَمْ يَجِدُوا. وَمَعَ أَنَّهُ جَاءَ شُهُودُ زُورٍ كَثِيرُونَ لَمْ يَجِدُوا. وَلَكِنْ أَخِيراً تَقَدَّمَ شَاهِدَا زُورٍ</td>
     </tr>
     <tr id="table_10_row_6" class="text">
@@ -352,7 +352,7 @@ ${paschalPraiseHtml}
 
 <table id="table_11" title="Psalm">
     <caption id="caption_table_11" class="caption">Psalm<br>(2:1-2, 4-5)
-    <span class="arabic-caption">المزمور<br>(2: 1- 2 و  4-5)</span></caption>
+    <span class="arabic-caption">المزمور<br>(2: 1 ، 3)</span></caption>
     <tr id="table_11_row_1" class="intro">
         <td class="english">From the Psalms of our teacher David the prophet. May his blessing be with us. Amen.</td>
         <td class="arabic">من مزامير أبينا داود النبى بركته المقدسة تكون معنا، آمين.</td>
@@ -362,7 +362,7 @@ ${paschalPraiseHtml}
         <td class="arabic">لِمَاذَا ارْتَجَّتِ الأُمَمُ وَتَفَكَّرَ الشُّعُوبُ فِي الْبَاطِلِ؟</td>
     </tr>
     <tr id="table_11_row_5" class="text">
-        <td class="english">The kings of the earth set themselves, And the rulers take counsel together, Against the Lord and against His Anointed. Alleulia.</td>
+        <td class="english">The kings of the earth set themselves, And the rulers take counsel together, Against the Lord and against His Anointed.</td>
         <td class="arabic">قَامَ مُلُوكُ الأَرْضِ وَتَآمَرَ الرُّؤَسَاءُ مَعاً عَلَى الرَّبِّ وَعَلَى مَسِيحِهِ قَائِلِينَ</td>
     </tr>
     <tr id="table_11_row_6" class="text">
@@ -497,7 +497,7 @@ ${paschalPraiseHtml}
         <td class="arabic">فَقَالَ بُطْرُسُ: «يَا إِنْسَانُ لَسْتُ أَعْرِفُ مَا تَقُولُ». وَفِي الْحَالِ بَيْنَمَا هُوَ يَتَكَلَّمُ صَاحَ الدِّيكُ.</td>
     </tr>
     <tr id="table_13_row_9" class="text">
-        <td class="english">And the Lord turned and looked at Peter. And Peter remembered the word of the Lord, how He had said to him, "Before the rooster crows*, you will deny Me three times."</td>
+        <td class="english">And the Lord turned and looked at Peter. And Peter remembered the word of the Lord, how He had said to him, "Before the rooster crows, you will deny Me three times."</td>
         <td class="arabic">فَالْتَفَتَ الرَّبُّ وَنَظَرَ إِلَى بُطْرُسَ فَتَذَكَّرَ بُطْرُسُ كَلاَمَ الرَّبِّ كَيْفَ قَالَ لَهُ: «إِنَّكَ قَبْلَ أَنْ يَصِيحَ الدِّيكُ تُنْكِرُنِي ثَلاَثَ مَرَّاتٍ».</td>
     </tr>
     <tr id="table_13_row_10" class="text">
@@ -670,7 +670,7 @@ ${nighttimeExpositionIntroHtml}
         <td class="arabic">فحرم نفسه وحده قائلاً: انى لا أعرف ما تقولون.</td>
     </tr>
     <tr id="table_16_row_19" class="text">
-        <td class="english">When the cock crew, Peter became aware of what he had done, left and wept bitterly.</td>
+        <td class="english">When the rooster crowed, Peter became aware of what he had done, left and wept bitterly.</td>
         <td class="arabic">وعندما صاح الديك تيقظ بطرس وخرج إلى خارج وبكى بكاء مراً.</td>
     </tr>
 </table>
@@ -685,6 +685,14 @@ ${evnotiNaiNanHtml}
 ${endOfServiceHymnHtml}
 </div>
 
+<div class="section" id="section_30" title="Next Hour">
+<table id="table_50" title="Next Hour">
+    <tr id="table_50_row_0" data-navigation="DOF1sc" class="navigationButton">
+        <td class="englishButton">The FIRST Hour of the DAY of GREAT FRIDAY</td>
+        <td class="arabicButton">الساعة الأولى من يوم الجمعة العظيمة</td>
+    </tr>
+</table>
+</div>
 `;
 
 };

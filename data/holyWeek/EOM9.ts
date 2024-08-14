@@ -263,7 +263,18 @@ ${expositionConclusionHtml}
 
 </div>
 
-
+<div class="section" id="section_30" title="Next Hour">
+<table id="table_50" title="Next Hour">
+    <tr id="table_50_row_0" data-navigation="EOM11sc" class="navigationButton">
+        <td class="englishButton">The ELEVENTH Hour of the EVE of MONDAY</td>
+        <td class="arabicButton">الساعة الحادية عشر من ليلة الإثنين</td>
+    </tr>
+    <tr id="table_50_row_1" data-navigation="NighttimeLitaniessc" class="navigationButton">
+    <td class="englishButton">Nighttime Litanies</td>
+    <td class="arabicButton">طلبات المساء</td>
+</tr>
+</table>
+</div>
 `;
 
 };

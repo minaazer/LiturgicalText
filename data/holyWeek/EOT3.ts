@@ -23,7 +23,7 @@ ${hourIntroHtml}
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲙⲁⲗⲁⲭⲓⲁⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ:</td>
         </tr>
         <tr id="table_2_row_4" class="text">
-            <td class="coptic">̀̀Ⲡⲗⲏⲙⲙⲁ ⲙ̀ⲡ̀ⲥⲁϫⲓ ⲙ̀Ⲡ̀ϭⲟⲓⲥ ⲉ̀ϫⲉⲛ ⲡ̀Ⲓ̅ⲥ̅ⲗ ϧⲉⲛ ⲧϫⲓϫ ⲙ̀ⲡⲉϥⲁⲅⲅⲉⲗⲟⲥ : ⲭⲁⲥ ⲉϫⲉⲛ ⲡⲉⲧⲉⲛϩⲏⲧ : ⲁⲓⲙⲉⲛⲣⲉ ⲑⲏⲛⲟⲩ ⲡⲉϫⲉ Ⲡ̀⳪ ⲟⲩⲟϩ ⲡⲉϫⲱⲧⲉⲛ ϫⲉ ϧⲉⲛ ⲟⲩ ⲁⲕⲙⲉⲛⲣⲓⲧⲉⲛ.</td>
+            <td class="coptic">̀̀Ⲡⲗⲏⲙⲙⲁ ⲙ̀ⲡ̀ⲥⲁϫⲓ ⲙ̀Ⲡ̀ϭⲟⲓⲥ ⲉ̀ϫⲉⲛ ⲡ̀Ⲓⲥⲣⲁⲏⲗ ϧⲉⲛ ⲧ̀ϫⲓϫ ⲙ̀ⲡⲉϥⲁⲅⲅⲉⲗⲟⲥ : ⲭⲁⲥ ⲉ̀ϫⲉⲛ ⲡⲉⲧⲉⲛϩⲏⲧ : ⲁⲓⲙⲉⲛⲣⲉ ⲑⲏⲛⲟⲩ ⲡⲉϫⲉ Ⲡ̀⳪ ⲟⲩⲟϩ ⲡⲉϫⲱⲧⲉⲛ ϫⲉ ϧⲉⲛ ⲟⲩ ⲁⲕⲙⲉⲛⲣⲓⲧⲉⲛ.</td>
         </tr>
         <tr id="table_2_row_35" class="intro">
             <td class="coptic">Ⲟⲩⲱ̀ⲟⲩ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ: ⲁ̀ⲙⲏⲛ.</td>
@@ -138,7 +138,7 @@ ${paschalPraiseHtml}
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_8_row_2" class="text">
-            <td class="coptic">Ⲛ̀ϩ̀ⲣⲏⲓ ⲇⲉ ϧⲉⲛ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲉ̀ⲧⲉ ⲙ̀ⲙⲁⲩ ⲁⲩⲓ̀ϩⲁⲣⲟϥ ⲛ̀ϫⲉ ϩⲁⲛⲫⲁⲣⲓⲥⲉⲟⲥ ⲉⲩϫⲱ ⲙ̀ⲙⲟⲥ ⲛⲁϥ : ϫⲉ ⲙⲁϣⲉⲛⲁⲕ ⲉ̀ⲃⲟⲗ ⲟⲩⲟϩ ϩⲱⲗ ⲉ̀ⲃⲟⲗ ⲧⲁⲓ ϫⲉ ̀̀Ⲡⲣⲱⲇⲏⲥ ϥ̀ⲟⲩⲱϣ ⲉ̀ϧⲟⲑⲃⲉⲕ. Ⲟⲩⲟϩ ⲡⲉϫⲁϥ ⲛⲱⲟⲩ ϫⲉ ⲙⲁϣⲉⲛⲱⲧⲉⲛ ⲁ̀ϫⲟⲥ ⲛ̀ⲧⲁⲓⲃⲁϣⲟⲣ : ϫⲉ ϩⲏⲡⲡⲉ ϯϩⲓ ⲇⲉⲙⲱⲛ ⲉ̀ⲃⲟⲗ : ⲟⲩⲟϩ ϯϫⲱⲕ ⲛ̀ϩⲁⲛⲧⲁⲗϭⲟ ⲙ̀ⲫⲟⲟⲩ ⲛⲉⲙ ⲣⲁⲥϯ ⲟⲩⲟϩ ϧⲉⲛ ⲡⲓⲙⲁϩ ϣⲟⲙⲧ ϯⲛⲁϫⲱⲕ ⲉ̀ⲃⲟⲗ. Ⲡ̀ⲗⲏⲛ ϩⲱϯ ⲉ̀ⲣⲟⲓ ⲡⲉ ⲛ̀ⲧⲁⲉⲣⲫⲟⲟⲩ ⲛⲉⲙ ⲣⲁⲥϯ ⲟⲩⲟϩ ⲡⲉⲑⲛⲏⲟⲩ ⲛ̀ⲧⲁϣⲉⲛⲏⲓ : ϫⲉ ⲛ̀ⲥ̀ⲭⲏ ⲁⲛ ⲛ̀ⲧⲉ ⲟⲩⲡ̀ⲣⲟⲫⲏⲧⲏⲥ ⲧⲁⲕⲟ ⲥⲁⲃⲟⲗ ⲛ̀Ⲓ̅ⲗ̅ⲏ̅ⲙ.<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲛ̀ϩ̀ⲣⲏⲓ ⲇⲉ ϧⲉⲛ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲉ̀ⲧⲉ ⲙ̀ⲙⲁⲩ ⲁⲩⲓ̀ϩⲁⲣⲟϥ ⲛ̀ϫⲉ ϩⲁⲛⲫⲁⲣⲓⲥⲉⲟⲥ ⲉⲩϫⲱ ⲙ̀ⲙⲟⲥ ⲛⲁϥ : ϫⲉ ⲙⲁϣⲉⲛⲁⲕ ⲉ̀ⲃⲟⲗ ⲟⲩⲟϩ ϩⲱⲗ ⲉ̀ⲃⲟⲗ ⲧⲁⲓ ϫⲉ Ⲏⲣⲱⲇⲏⲥ ϥ̀ⲟⲩⲱϣ ⲉ̀ϧⲟⲑⲃⲉⲕ. Ⲟⲩⲟϩ ⲡⲉϫⲁϥ ⲛⲱⲟⲩ ϫⲉ ⲙⲁϣⲉⲛⲱⲧⲉⲛ ⲁ̀ϫⲟⲥ ⲛ̀ⲧⲁⲓⲃⲁϣⲟⲣ : ϫⲉ ϩⲏⲡⲡⲉ ϯϩⲓ ⲇⲉⲙⲱⲛ ⲉ̀ⲃⲟⲗ : ⲟⲩⲟϩ ϯϫⲱⲕ ⲛ̀ϩⲁⲛⲧⲁⲗϭⲟ ⲙ̀ⲫⲟⲟⲩ ⲛⲉⲙ ⲣⲁⲥϯ ⲟⲩⲟϩ ϧⲉⲛ ⲡⲓⲙⲁϩ ϣⲟⲙⲧ ϯⲛⲁϫⲱⲕ ⲉ̀ⲃⲟⲗ. Ⲡ̀ⲗⲏⲛ ϩⲱϯ ⲉ̀ⲣⲟⲓ ⲡⲉ ⲛ̀ⲧⲁⲉⲣⲫⲟⲟⲩ ⲛⲉⲙ ⲣⲁⲥϯ ⲟⲩⲟϩ ⲡⲉⲑⲛⲏⲟⲩ ⲛ̀ⲧⲁϣⲉⲛⲏⲓ : ϫⲉ ⲛ̀ⲥ̀ⲭⲏ ⲁⲛ ⲛ̀ⲧⲉ ⲟⲩⲡ̀ⲣⲟⲫⲏⲧⲏⲥ ⲧⲁⲕⲟ ⲥⲁⲃⲟⲗ ⲛ̀Ⲓ̅ⲗ̅ⲏ̅ⲙ.<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_8_row_4" class="intro">
             <td class="english">Glory be to God forever.</td>
@@ -160,13 +160,11 @@ ${paschalPraiseHtml}
         <td class="arabic">من مزامير معلمنا داود النبي، بركته تكون معنا، آمين.</td>
     </tr>
     <tr id="table_9_row_4" class="text">
-        <td class="english">Look on me, hearken to me, O Lord my God: 
-lighten my eyes, lest I sleep in death;</td>
+        <td class="english">Look on me, hearken to me, O Lord my God: lighten my eyes, lest I sleep in death;</td>
         <td class="arabic">أنظر واستجب لى ياربى والهى أنر عينى لئلا أنام فى الموت</td>
     </tr>
     <tr id="table_9_row_5" class="text">
-        <td class="english">But I have hoped in Your mercy; 
-my heart shall rejoice in Your salvation.</td>
+        <td class="english">But I have hoped in Your mercy; my heart shall rejoice in Your salvation.</td>
         <td class="arabic">أما أنا فعلى رحمتك توكلت يبتهج قلبى بخلاصك.</td>
     </tr>
     <tr id="table_9_row_7" class="intro">
@@ -264,7 +262,18 @@ ${expositionConclusionHtml}
 
 </div>
 
-
+<div class="section" id="section_30" title="Next Hour">
+<table id="table_50" title="Next Hour">
+    <tr id="table_50_row_0" data-navigation="EOT6sc" class="navigationButton">
+        <td class="englishButton">The SIXTH Hour of the EVE of TUESDAY</td>
+        <td class="arabicButton">الساعة السادسة من ليلة الثلاثاء</td>
+    </tr>
+    <tr id="table_50_row_1" data-navigation="NighttimeLitaniessc" class="navigationButton">
+    <td class="englishButton">Nighttime Litanies</td>
+    <td class="arabicButton">طلبات المساء</td>
+</tr>
+</table>
+</div>
 
 `;
 

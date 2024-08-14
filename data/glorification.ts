@@ -1628,10 +1628,10 @@ return `
                 <td class="arabic">من اجل هذا مخلصنا رفعها الى ملكوته.</td>
             </tr>
             <tr class="south" id="table_8_row_9">
-                <td class="enPhonics" style="border-right: 1px solid black;">Ethve fai a-Pensoteer: ols ekhon
+                <td class="enPhonics" style="border-right: 1px solid black;">Ethve fai e-Pensoteer: ols ekhon
                     etef-metoro:
                 </td>
-                <td class="arPhonics" style="border-right: 1px solid black;">إثفى فاى آ بينسوتير: أولس إيخون إيتيف ميت
+                <td class="arPhonics" style="border-right: 1px solid black;">إثفى فاى إ بينسوتير: أولس إيخون إيتيف ميت
                     أورو.
                 </td>
             </tr>
@@ -2114,7 +2114,7 @@ return `
             <tr id="table_11_row_3" class="south">
                 <td class="enPhonics" style="border-right: 1px solid black;">Khen efran emif-iot nem ep-she-ree nem
                     pi-epnevma eth-owab tit-reias eth-owab en-omo-sios. Axeia, axeia, axeia, ti-ageia Mareia
-                    ti-pa-arthenos. 
+                    ti-pa-arthenos.
                     Axeios(a) [3]...</td>
                 <td class="arPhonics" style="border-right: 1px solid black;">خين افران أم أفيوت نيم ابشيري نيم بي ابنفما
                     اثؤواب تي اترياس اثؤواب ان اموسيوس . آكسيا آكسيا آكسيا تي آجيا ماريا تي بارثينوس.
@@ -2398,7 +2398,7 @@ return `
             <tr class="south" id="table_14_row_1">
                 <td class="enPhonics" style="border-right: 1px solid black;">Pi-angelos ente pai-eho-ou: et-heel
                     e-epetchee-see nem pai-hemnos: aripen-mevee kha et-hee em-epchois: entef ka nen novi nan evol.</td>
-                <td class="arPhonics" style="border-right: 1px solid black;">Ya malak haza al-yom al-ta’er: eelal
+                <td class="enPhonics" style="border-right: 1px solid black;">Ya malak haza al-yom al-ta’er: eelal
                     aaolowa
                     be-hazee al-tasbeha: ozkorna qodam al-Rab: leyaghfer lana khatayana.</td>
             </tr>
@@ -2417,7 +2417,7 @@ return `
             <tr class="south" id="table_14_row_3">
                 <td class="enPhonics" style="border-right: 1px solid black;">Nee-etshoni mata-letcho-ou: nee-etavenkot
                     epchois ma-emton no-ou: nen-esneou etkee khen hogheg niven: epchois ari-voi-theen eron nemo-ou.</td>
-                <td class="arPhonics" style="border-right: 1px solid black;">El-marda eshfeehom: walazeena raqadou ya
+                <td class="enPhonics" style="border-right: 1px solid black;">El-marda eshfeehom: walazeena raqadou ya
                     Rab
                     nayehom: wa-ekhwatna alazeena fee kol sheda: ya Rab aaena wa-eyahom.</td>
             </tr>
@@ -2435,7 +2435,7 @@ return `
             <tr class="south" id="table_14_row_5">
                 <td class="enPhonics" style="border-right: 1px solid black;">Ef-e-smou eron enje Efnoutee: ten-na-esmou
                     epefran ethowab: ensiou niven ere pef-ezmou: ne-shopi efmeen evol khen ron.</td>
-                <td class="arPhonics" style="border-right: 1px solid black;">Youbarekna Allah: wal-noubarek esmahou
+                <td class="enPhonics" style="border-right: 1px solid black;">Youbarekna Allah: wal-noubarek esmahou
                     al-qodos: fee kol heen tasbehatou: da’eman fee afwahena.</td>
             </tr>
         </tbody>
@@ -2965,597 +2965,322 @@ return `
 
     </table>
     <br>
-    <table id="table_19" style="display: table;" title="O M A R Y">
-        <caption class="caption" id="caption_table_19">O M A R Y</caption>
 
+
+    <table id="table_19" style="display: table;" title="O MARY">
+        <caption id="caption_table_19" class="caption">O MARY</caption>
         <tbody class="scaling-container"  id="table_19_tbody_0">
-            <tr class="north" id="table_19_row_0">
-                <td class="english" style="border-right: 1px solid black;">O M A R Y, Lady of virgins, you attained
-                    greatness, from the True Light, You were exalted, by the Lord Himself, you bore the Creator, O what
-                    a
-                    great marvel!</td>
-                <td class="arabic" style="border-right: 1px solid black;">يا م ر ى مياست الأبكارقد نلت تعظيممن نور
-                    الأنوارووهبت تعظيممن عنده قد صاروحملت الخالقمن ذا لا يحتار</td>
+            <tr id="table_19_row_0" class="north">
+                <td class="english" >O Mary: Lady of virgins: you
+                    attained greatness: from the True Light: You are exalted: by the Lord
+                    Himself: you bore the Creator: O what a great marvel!</td>
+                <td class="enPhonics1" >Ya meem reh yeh meem: ya set
+                    el-abkar: qad nelty taazeem: men noor el-anwar: wa wohebty taazeem: men
+                    endoo qad sar: wa Hamalty al-khaleq: man za la yaHtar.</td>
+                <td class="arabic">يا م ر ى م : ياست الأبكار : قد نلت تعظيم : من نور الأنوار :
+                    ووهبت تعظيم : من عنده قد صار : وحملت الخالق : من ذا لا يحتار</td>
             </tr>
-            <tr class="south" id="table_19_row_1">
-                <td class="enPhonics" style="border-right: 1px solid black;">Ya meem reh yeh meem,
-                    qad nelty taazeem,
-                    wa wohebty taazeem,
-                    wa Hamalty al-khaleq,</td>
-                <td class="enPhonics" style="border-right: 1px solid black;">ya set el-abkar,
-                    men noor el-anwar,
-                    men endoo qad sar,
-                    man za la yaHtar.</td>
+            </tbody>
+            <tbody class="scaling-container"  id="table_19_tbody_1">
+            <tr id="table_19_row_2" class="north">
+                <td class="english" >Wondrous among nations: wisdom to
+                    rulers: a hidden gem: and the gospel spoke of you:: They give you
+                    blessings: in all generations: O daughter of Joachim: exalted above the
+                    Cherubim.</td>
+                <td class="enPhonics1" >Qad serty ogooba: lel roasa
+                    amthal: dorrah maHgooba: wa fi el-engeel qad qal: yotonek el-tooba: fi
+                    kol al-gial: ya ebnat youaqeem: qad foqty el-Cheroubim.</td>
+                <td class="arabic">قد صرت اعجوبة : للرؤساء امثال : درة محجوبة : وفي الانجيل قد قال
+                    : يعطونك الطوبا : في كل الاجيال : يا ابنة يواقيم : قد فقتي الشاروبيم</td>
             </tr>
+            </tbody>
+            <tbody class="scaling-container"  id="table_19_tbody_2">
+            <tr id="table_19_row_4" class="south">
+                <td class="english" >You attained what no one could: O
+                    Mother of the Mercy: and you became: filled with grace: To the Divine you
+                    became: a veil for the Word: and greatly marveled: were you among the
+                    scholars.</td>
+                <td class="enPhonics1" >Man nal ma nelty: ya om
+                    el-raHma: wa anty qaad serty: mamlooa nema: wa lel lahot serty: Hegaban
+                    lel-kalema: wa aHtar fiki: arbab al-tafheem.</td>
+                <td class="arabic">من نال ما نلتى : يا ام الرحمة : وانتي قد صرتي : مملؤة نعمه :
+                    وللاهوت صرتي : حجابا للكلمة : واحتار فيك: ارباب التفهيم</td>
+            </tr>
+            </tbody>
+            <tbody class="scaling-container"  id="table_19_tbody_3">
+            <tr id="table_19_row_6" class="south">
+                <td class="english" >O tabernacle of the covenant: O
+                    censer of Aaron: O spirit of glory: O daughter of Zion: O the light of
+                    eyes: with you we rejoice: and abide in grace: O full of grace.</td>
+                <td class="enPhonics1" >Ya taboot el-ahde: ya magmaret
+                    Haroun: ya roH el-magd: ya ebnat Sehioun: ya noor el-oyoon: beky
+                    nasadoo: wa naHza bel-naeem: ya mamloua nema.</td>
+                <td class="arabic">يا تابوت العهد : يا مجمرة هارون : يا روح المجد : يا ابنة صهيون
+                    : يا نور العيون : بك نسعد : ونحظي بالنعيم : يا مملؤة نعمه</td>
+            </tr>
+            </tbody>
+            <tbody class="scaling-container"  id="table_19_tbody_4">
+            <tr id="table_19_row_8" class="north">
+                <td class="english" >O full of grace: the fortifying
+                    fortress: the jewel of mercy: the aid of the poor: Your son has purged
+                    death: O the intercessor of saints: intercede for us: O Mother of Mercy.</td>
+                <td class="enPhonics1" >Ya mamloua nema: anty el-Hesn
+                    el-Haseen: anty kanz el-raHma: ya awn al-masakeen: be-ebnek zalet el
+                    naqma: ya shafee3et el-qedisin: Wa shafi3etna fil-zaHma: ya om el-raHim.</td>
+                <td class="arabic">يا مملؤة نعمه : انت الحصن الحصين: انت كنز الرحمة: يا عون المساكين
+                    : بإبنك زالت النقمة : يا شفيعة القديسين : وشفيعتنا في الزحمة : يا ام الرحيم
+                </td>
+            </tr>
+            </tbody>
+            <tbody class="scaling-container"  id="table_19_tbody_5">
+            <tr id="table_19_row_10" class="north">
+                <td class="english" >Hail to you: O Lady of
+                    virgins: O daughter of Joachim: the chosen throne: Righteous is your
+                    Son: He purged our shame: the glorious God: the Creator of ages.</td>
+                <td class="enPhonics1" >Noqadem laky a-tazeem: ya set
+                    el-abkar: ya ebnat Yowaqim: ya korseyan mokhtar: wel-mawlood menky
+                    karim: azal anna al-ar: al-elah el-azeem: khalek el ad-har.</td>
+                <td class="arabic">نقدم لك التعظيم : ياست الأبكار : يا ابنة يواقيم : يا كرسيا مختار
+                    : والمولود منك كريم : ازال عنا العار : الاله العظيم : خالق الادهار</td>
+            </tr>
+            </tbody>
+            <tbody class="scaling-container"  id="table_19_tbody_6">
+            <tr id="table_19_row_12" class="south">
+                <td class="english" >The adornment of virgins: the holy
+                    Mother: the purity of the pure: O light of lights: O jewel of grace: O
+                    Mother of Mercy: truly you are the vine: filled and bearing fruit.</td>
+                <td class="enPhonics1" >Ya zen el-abkar: ya qods
+                    el-aHbar: ya tohr el-at-har: ya noor el-anwar: ya kanz al-nema: ya om
+                    el-raHma: anty heya al-karma: al-mamloua athmar.</td>
+                <td class="arabic">يا زين الأبكار : يا قدس الأحبار : يا طهر الأطهار : يا نور الأنوار
+                    : يا كنز النعمة : يا ام الرحمة: أنت هي الكرمة : المملؤة أثمار</td>
+            </tr>
+            </tbody>
+            <tbody class="scaling-container"  id="table_19_tbody_7">
+            <tr id="table_19_row_14" class="south">
+                <td class="english" >O daughter of Joachim: you
+                    attained greatness: you are Jerusalem: glorious and honored: You are
+                    Zion: O precious jewel;: you released the captive: from the Deceiver&rsquo;s
+                    hand.</td>
+                <td class="enPhonics1" >Ya ebnat Yowaqim: qad nelty
+                    al-tazeem: anty heya Orshaleem: zat al-magd wal fakhar: anty heya
+                    Sehioun: ya gawharan maknoon: fakakty el-masgoon: men yad el-makar.</td>
+                <td class="arabic">يا ابنة يواقيم : قد نلت التعظيم : انت هي اورشليم : ذات المجد
+                    والفخار : انت هي صهيون : يا جوهرا مكنون : فككت المسجون : من يد المكار</td>
+            </tr>
+            </tbody>
+            <tbody class="scaling-container"  id="table_19_tbody_8">
+            <tr id="table_19_row_16" class="north">
+                <td class="english" >Your son saved Adam: the repentant
+                    sinner: humanity He set free: from all adversaries: The Lord from your
+                    childhood: witnessed your purity: and therefore has blessed you: before all
+                    nations.</td>
+                <td class="enPhonics1" >Ebnek khalas Adam: el-khaty
+                    el-nadem: we ataq el-alam: men kol el-adrar: rabek men soghrek: lamma
+                    raa tohrek: qad tayab zekrek: fi kol el-aqtar.</td>
+                <td class="arabic">ابنك خلص ادم : الخاطئ النادم : وعتق العالم : من كل الاضرار :
+                    ربك من صغرك : لما رأي طهرك : قد طيب ذكرك: في كل الاقطار</td>
+            </tr>
+            </tbody>
+            <tbody class="scaling-container"  id="table_19_tbody_9">
+            <tr id="table_19_row_18" class="north">
+                <td class="english" >He sent you Gabriel: the Messenger
+                    of His words: and greeted you saying: The Lord has chosen you: His Holy
+                    Spirit: filled and dwelt within you: blessed are you O Virgin: throughout all
+                    ages."</td>
+                <td class="enPhonics1" >Arsal laky Ghabrial: bemoHkam el
+                    aqwal: wa basharek ez qal: Allaho laky ekhtar: roH qodsoh malaky: wa
+                    sakan fi aHshaky: ya adra toobaky: fi kol el agial.</td>
+                <td class="arabic">ارسل لك غبريال : بمحكم الاقوال : وبشرك اذ قال : الله لك اختار
+                    : روح قدسه ملاك : وسكن في احشاك يا: عذرا طوباك : في كل الاجيال</td>
+            </tr>
+            </tbody>
+            <tbody class="scaling-container"  id="table_19_tbody_10">
+            <tr id="table_19_row_20" class="south">
+                <td class="english" >The Unseen and Holy: was born from
+                    you: and was called Jesus: for all eyes to see: Moses saw the bush:
+                    blazing with fire: its branches flaming: yet the bush was not consumed.</td>
+                <td class="enPhonics1" >An gher el-maHsoos: al-rab el
+                    qodoos: menky ata wa doaya Isoos: wa nazarat-ho el-absar: Mousa raa
+                    al-awsag: wal-nar fihi tata-gag: wa aghsanoh tatawahag: ma darat-ho al-nar.
+                </td>
+                <td class="arabic">ان غير المحسوس : الرب القدوس : منك اتي ودعي ايسوس : ونظرته الابصار
+                    : موسي رأي العوسج : والنار فيه تتأجج : وأغصانه تتوهج : ما ضرته النار</td>
+            </tr>
+            </tbody>
+            <tbody class="scaling-container"  id="table_19_tbody_11">
+            <tr id="table_19_row_22" class="south">
+                <td class="english" >The blazing bush: which Moses had
+                    seen: was indeed Mary: the adornment of virgins: The fire is Jesus: the
+                    Holy Lord: who gave us the Law: engraved in stone.</td>
+                <td class="enPhonics1" >Ena ma raat-ho al-aynan:
+                    moltaheban bel-niran: fi el-awsag wal-aghsan: heya Mariam zenat el-abkar:
+                    wel-nar heya Isoos: al-rab el-qodoos: motina el-namoos: maktooban fil-aHgar.
+                </td>
+                <td class="arabic">ان ما رأته العينان : ملتهبا بالنيران : في العوسج والأغصان : هي
+                    مريم زينة الأبكار : والنار هي إيسوس : الرب القدوس : معطينا الناموس : مكتوبا
+                    في الاحجار</td>
+            </tr>
+            </tbody>
+            <tbody class="scaling-container"  id="table_19_tbody_12">
+            <tr id="table_19_row_24" class="north">
+                <td class="english" >Isaiah prophesied: about the
+                    birth: of Emmanuel: the Almighty King: Ezekiel saw a door: through which
+                    the Lord entered: He sealed the door and claimed it: highly exalted.</td>
+                <td class="enPhonics1" >Fi Asheya qad qeel: an haza
+                    el-taweel: taled emanoueel: al-malek el-gabar: wa Hazqeyal raa bab:
+                    dakhal feeh rab el-arbab: wa khetm el-bab mohab: alya el-meqdar.</td>
+                <td class="arabic">في اشعيا قد قيل : عن هذا التأويل : تلد عمانوئيل : الملك الجبار
+                    : وحزقيال رأي باب : دخل فيه رب الارباب : وختم الباب مهاب : عالي المقدار</td>
+            </tr>
+            </tbody>
+            <tbody class="scaling-container"  id="table_19_tbody_13">
+            <tr id="table_19_row_26" class="north">
+                <td class="english" >Highly exalted are you: and your
+                    Son Jesus: when He was born of you: the earth was adorned: And also
+                    Daniel: prophesied and said: I saw the high throne: highly exalted.</td>
+                <td class="enPhonics1" >Alen howa qadrek: lean yasoo
+                    ebnek: lamma woled mennek: tazayanat el-aktar: wa aydan Danial: tanaba
+                    Haytho qal: raayto el-korsy el-al: aleya el meqdar.</td>
+                <td class="arabic">عال هو قدرك : لإن يسوع ابنك : لما ولد منك : تزينت الاقطار :
+                    وايضا دانيال : تنبأ حيث قال : رأيت الكرسي العال : عالي المقدار</td>
+            </tr>
+            </tbody>
+            <tbody class="scaling-container"  id="table_19_tbody_14">
+            <tr id="table_19_row_28" class="south">
+                <td class="english" >In the firmaments high I saw: one
+                    like the Son of Man: who has dominion: over all the earth: He is the Lord of
+                    Hosts: around Him are the ranks: thousands and myriads: glorifying in
+                    reverence.</td>
+                <td class="enPhonics1" >Nazarto fok el-arkan: shebh ebn
+                    el-ensan: wa laho al-soltan: ala kol el aqtar: wa howa rabo el-qowat: wa
+                    men Hawloh taghamat: oloof wa rabawat: be ezamen wa waqar.</td>
+                <td class="arabic">نظرت فوق الأركان : شبه ابن الانسان : وله السلطان : علي كل الأقطار
+                    : وهو رب القوات : ومن حوله طغمات: الوف وربوات : بعظم ووقار</td>
+            </tr>
+            </tbody>
+            <tbody class="scaling-container"  id="table_19_tbody_15">
+            <tr id="table_19_row_30" class="south">
+                <td class="english" >O daughter of Joachim: you are
+                    exalted above: the Cherubim and Seraphim: and all righteous fathers: The Lord
+                    was born from you: and David praises you: with his harp he sings: playing its
+                    ten strings.</td>
+                <td class="enPhonics1" >Ya ebnat Yowaqim: foqt
+                    el-karoubim: aydan el-serafaim: wa kol el-aba el-abrar: menky ga
+                    el-mawlood: al-rab el-mabood: yamdaH fiki Dawood: bel-asharat awtar.</td>
+                <td class="arabic">ياابنة يواقيم : فقت الكروبيم : وايضا السرافيم : وكل الاباء الابرار
+                    : منك جاء المولود : الرب المعبود: يمدح فيك داود : بالعشرة أوتار</td>
+            </tr>
+            </tbody>
+            <tbody class="scaling-container"  id="table_19_tbody_16">
+            <tr id="table_19_row_32" class="north">
+                <td class="english" >The sound of the first string: is
+                    in honor of your name: the Virgin will carry: the Almighty King: And with the
+                    second string: David rejoices: chanting with hymns: while playing his harp.
+                </td>
+                <td class="enPhonics1" >El-watar el-awal: qawlon
+                    mobagal: wel-adra taHbal: bel-malek el-gabar: el-watar el-thany: Dawood
+                    bil-tahany: yoratel bel-alHan: ma darb el-qithar.</td>
+                <td class="arabic">الوتر الاول : قول مبجل : والعذراء تحبل: بالملك الجبار : الوتر
+                    الثاني : داود بالتهاني : و يرتل بالالحان : مع ضرب القيثار</td>
+            </tr>
+            </tbody>
+            <tbody class="scaling-container"  id="table_19_tbody_17">
+            <tr id="table_19_row_34" class="north">
+                <td class="english" >And the third O daughter: because
+                    you were faithful: you were filled with light: and the Lord chose you: The
+                    fourth string is sounded: so that all can hear: of her who is praised: all
+                    over the world.</td>
+                <td class="enPhonics1" >Wel-thaleth ya ibna: anty
+                    motamana: bel-noor moshtamala: wal-rabo laky ekhtar: el-watar el-rabe:
+                    esghy ya same: za qawlon shae: fi kol el-aqtar.</td>
+                <td class="arabic">الثالث يا ابنة : أنت مؤتمنة : بالنورمشتملة : والرب لك إختار :
+                    الوتر الرابع : اصغ يا سامع : ذا قول شائع : في كل الاقطار</td>
+            </tr>
+            </tbody>
+            <tbody class="scaling-container"  id="table_19_tbody_18">
+            <tr id="table_19_row_36" class="south">
+                <td class="english" >The fifth is a sign of hope: as a
+                    dove she appears: with Ophir gold: upon her shoulders: With the sixth he
+                    sung: praises I will not hide: but I will praise with him: and proclaim to
+                    all.</td>
+                <td class="enPhonics1" >Wel-khames khabar: Hamama heya
+                    tazhar: bel-zahab el-asfar: ala menkabayha sar: wel-sades qal fih:
+                    qawlan ma akhfih: lakeny arweeh: wa osh-heraho eg-har.</td>
+                <td class="arabic">الخامس خبر : حمامة هي تظهر : بالذهب الاصفر : علي منكبيها صار
+                    : السادس قال فيه : قولاً ما أخفيه : لكني أرويه : واشهره أجهار</td>
+            </tr>
+            </tbody>
+            <tbody class="scaling-container"  id="table_19_tbody_19">
+            <tr id="table_19_row_38" class="south">
+                <td class="english" >With the seventh string he said: O
+                    mountain, of the High God: the High took flesh from you: without a doubt: And
+                    with the eighth he sang: to the Virgin Mary: the Great chose her: and crowned
+                    her with honor.</td>
+                <td class="enPhonics1" >Wel-sabe ez qal: ya gabal Allah
+                    el-al: tagasad menky el-motaal: bela shak wala enkar: wel-thamen ranam:
+                    lel-adra Mariam: ekhtarha al-moazam: wa kallalha bel-fakhar.</td>
+                <td class="arabic">السابع اذ قال : يا جبل الله العال : تجسد منك المتعال : بلا شك ولا
+                    إنكار : والثامن رنم : للعذ را مريم : اختارها المعظم : وكللها بالفخار</td>
+            </tr>
+            </tbody>
+            <tbody class="scaling-container"  id="table_19_tbody_20">
+            <tr id="table_19_row_40" class="north">
+                <td class="english" >With the ninth string he said:
+                    from her will surely come: God her son: who sealed her virginity: With the
+                    tenth he sang: the Powerful God: in Zion he appeared: the dwelling of the
+                    righteous.</td>
+                <td class="enPhonics1" >El-tase qal anha: yazhar Haqan
+                    menha: al-Elah wa howa ebnaha: wal-bokooreya fi Hefzen wa waqar: El-watar
+                    el-asher: Allah el-qader: fi Sehioun zaher: maskan el-abrar.</td>
+                <td class="arabic">التاسع قال عنها : يظهر حقا منها : الإله وهو إبنها : والبكورية في
+                    حفط ووقار : الوتر العاشر : الله القادر : في صهيون ظاهر : مسكن الأبرار</td>
+            </tr>
+            </tbody>
+            <tbody class="scaling-container"  id="table_19_tbody_21">
+            <tr id="table_19_row_42" class="north">
+                <td class="english" >There isn&rsquo;t in all ages:
+                    anyone like you O Virgin: for you released the chains: and shame of Adam: O
+                    Lady of the creation: the pride of faith: your servant is in need: drowning
+                    because of sins.</td>
+                <td class="enPhonics1" >Lam yowgad fi el-dahr: methlek
+                    ayatoha el-bekr, : leanek fakakty el-asr: an Adam wal-ar: ya sayedet
+                    el-akwan: ya fakhr el-eiman: ana abdek Hayran: gharek fil-awzar.</td>
+                <td class="arabic">لم يوجد في الدهر : مثلك أيتها البكر : لأنك فككت الاسر : عن آدم
+                    والعار : يا سيدة الأكوان : يا فخر الإيمان : عبدك حيران : غارق في الاوزار
+                </td>
+            </tr>
+            </tbody>
+            <tbody class="scaling-container"  id="table_19_tbody_22">
+            <tr id="table_19_row_44" class="south">
+                <td class="english" >Intercede for me: do not leave
+                    your servant: Ask your son to save me: From the fire: For your
+                    intercession: is heard and accepted: and He defends from the attacks: of the
+                    adversary.</td>
+                <td class="enPhonics1" >Alen howa qadrek: la tatroky
+                    abdek: qasdy men waladek: Toba wa esteghfar: Wel adra tashfa: Fe elodar
+                    agma: We heia ana tadfa: darabat el-ashrar.</td>
+                <td class="arabic">عالي هو قدرك : لا تتركي عبدك : قصدي من ولدك : توبة و أستغفار
+                    : و العذراء تشفع : في الحضار اجمع : و هي عنا تدفع : ضربات الاشرار</td>
+            </tr>
+            </tbody>
+            <tbody class="scaling-container"  id="table_19_tbody_23">
+            <tr id="table_19_row_46" class="south">
+                <td class="english" >Arise O poor one, and clothe yourself in
+                    faith: and say Amen Amen: for us she intercedes: The persistent servant:
+                    Will always praise her: For by his side that Day: The Lady of virgins shall be.</td>
+                <td class="enPhonics1" >Qom enhad ya meskeen: wa elbes
+                    thob el-yaqeen, : wa qol amin amin: fa heya tashfa fil-hadreen: wal-nazem
+                    el-meskeen: madeHha fi kol Hin: maloh yom el-din: sewa sayedet el-abkar.</td>
+                <td class="arabic">قم وانهض يا مسكين : والبس ثوب اليقين : وقل امين امين : فهي تشفع في
+                    الحاضرين : و أنا الخاطي المسكين : مادحها في كل حين : مالي يوم الدين : سوي
+                    سيدة الابكار</td>
+            </tr>
+            </tbody>
         </tbody>
-        <tbody class="scaling-container"  id="table_19_tbody_1">
-            <tr class="north" id="table_19_row_2">
-                <td class="english" style="border-right: 1px solid black;">Wondrous among nations,
-                    wisdom to rulers,
-                    a hidden gem,
-                    and the gospel spoke of you:
-                    They give you blessings,
-                    in all generations,
-                    O daughter of Joachim,
-                    exalted above the Cherubim.</td>
-                <td class="arabic" style="border-right: 1px solid black;">قد صرت اعجوبةللرؤساء امثالدرة محجوبةوفي
-                    الانجيل قد
-                    قاليعطونك الطوبافي كل الاجياليا ابنة يواقيمقد فقتي الشاروبيم</td>
-            </tr>
-            <tr class="south" id="table_19_row_3">
-                <td class="enPhonics" style="border-right: 1px solid black;">Qad serty ogooba,
-                    dorrah maHgooba,
-                    yotonek el-tooba,
-                    ya ebnat youaqeem,</td>
-                <td class="enPhonics" style="border-right: 1px solid black;">lel roasa amthal,
-                    wa fi el-engeel qad qal,
-                    fi kol al-gial,
-                    qad foqty el-Cheroubim.</td>
-            </tr>
-        </tbody>
-        <tbody class="scaling-container"  id="table_19_tbody_2">
-            <tr class="north" id="table_19_row_4">
-                <td class="english" style="border-right: 1px solid black;">You attained what no one could,
-                    O Mother of the Mercy,
-                    and you became,
-                    filled with grace,
-                    To the Divine you became,
-                    a veil for the Word,
-                    and greatly marveled,
-                    were you among the scholars.</td>
-                <td class="arabic" style="border-right: 1px solid black;">من نال ما نلتىيا ام الرحمةوانتي قد صرتيمملؤة
-                    نعمهوللاهوت صرتيحجابا للكلمةواحتار فيكارباب التفهيم</td>
-            </tr>
-            <tr class="south" id="table_19_row_5">
-                <td class="enPhonics" style="border-right: 1px solid black;">Man nal ma nelty,
-                    wa anty qaad serty,
-                    wa lel lahot serty,
-                    wa aHtar fiki,</td>
-                <td class="enPhonics" style="border-right: 1px solid black;">ya om el-raHma,
-                    mamlooa nema,
-                    Hegaban lel-kalema,
-                    arbab al-tafheem.</td>
-            </tr>
-        </tbody>
-        <tbody class="scaling-container"  id="table_19_tbody_3">
-            <tr class="north" id="table_19_row_6">
-                <td class="english" style="border-right: 1px solid black;">O tabernacle of the covenant,
-                    O censer of Aaron,
-                    O spirit of glory,
-                    O daughter of Zion,
-                    O the light of eyes,
-                    with you we rejoice,
-                    and abide in grace,
-                    O full of grace.</td>
-                <td class="arabic" style="border-right: 1px solid black;">يا تابوت العهديا مجمرة هارونيا روح المجديا
-                    ابنة
-                    صهيونيا نور العيونبك نسعدونحظي بالنعيم يا مملؤة نعمه</td>
-            </tr>
-            <tr class="south" id="table_19_row_7">
-                <td class="enPhonics" style="border-right: 1px solid black;">Ya taboot el-ahde,
-                    ya roH el-magd,
-                    ya noor el-oyoon,
-                    wa naHza bel-naeem,</td>
-                <td class="enPhonics" style="border-right: 1px solid black;">ya magmaret Haroun,
-                    ya ebnat Sehioun,
-                    beky nasadoo,
-                    ya mamloua nema.</td>
-            </tr>
-        </tbody>
-        <tbody class="scaling-container"  id="table_19_tbody_4">
-            <tr class="north" id="table_19_row_8">
-                <td class="english" style="border-right: 1px solid black;">O full of grace,
-                    the fortifying fortress,
-                    the jewel of mercy,
-                    the aid of the poor,
-                    Your son has purged death,
-                    O the intercessor of saints,
-                    intercede for us,
-                    O Mother of Mercy.</td>
-                <td class="arabic" style="border-right: 1px solid black;">يا مملؤة نعمه انت الحصن الحصينانت كنز الرحمةيا
-                    عون
-                    المساكينبإبنك زالت النقمةيا شفيعة القديسينوشفيعتنا في الزحمةيا ام الرحيم</td>
-            </tr>
-            <tr class="south" id="table_19_row_9">
-                <td class="enPhonics" style="border-right: 1px solid black;">Ya mamloua nema,
-                    anty kanz el-raHma,
-                    be-ebnek zalet el naqma,
-                    Wa shafietna fil-zaHma,</td>
-                <td class="enPhonics" style="border-right: 1px solid black;">anty el-Hesn el-Haseen,
-                    ya awn al-masakeen,
-                    ya sahfiat el-qedisin,
-                    ya om el-raHim.</td>
-            </tr>
-        </tbody>
-        <tbody class="scaling-container"  id="table_19_tbody_5">
-            <tr class="north" id="table_19_row_10">
-                <td class="english" style="border-right: 1px solid black;">Hail to you,
-                    O Lady of virgins,
-                    O daughter of Joachim,
-                    the chosen throne,
-                    Righteous is your Son,
-                    He purged our shame,
-                    the glorious God,
-                    the Creator of ages.</td>
-                <td class="arabic" style="border-right: 1px solid black;">نقدم لك التعظيمياست الأبكار يا ابنة يواقيميا
-                    كرسيا
-                    مختاروالمولود منك كريمازال عنا العارالاله العظيمخالق الادهار</td>
-            </tr>
-            <tr class="south" id="table_19_row_11">
-                <td class="enPhonics" style="border-right: 1px solid black;">Noqadem laky a-tazeem,
-                    ya ebnat Yowaqim,
-                    wel-mawlood menky karim,
-                    al-elah el-azeem,</td>
-                <td class="enPhonics" style="border-right: 1px solid black;">ya set el-abkar,
-                    ya korseyan mokhtar,
-                    azal anna al-ar,
-                    khalek el ad-har.</td>
-            </tr>
-        </tbody>
-        <tbody class="scaling-container"  id="table_19_tbody_6">
-            <tr class="north" id="table_19_row_12">
-                <td class="english" style="border-right: 1px solid black;">The adornment of virgins,
-                    the holy Mother,
-                    the purity of the pure,
-                    O light of lights,
-                    O jewel of grace,
-                    O Mother of Mercy,
-                    truly you are the vine,
-                    filled and bearing fruit.</td>
-                <td class="arabic" style="border-right: 1px solid black;">يا زين الأبكاريا قدس الأحباريا طهر الأطهاريا
-                    نور
-                    الأنواريا كنز النعمةيا ام الرحمةأنت هي الكرمةالمملؤة أثمار</td>
-            </tr>
-            <tr class="south" id="table_19_row_13">
-                <td class="enPhonics" style="border-right: 1px solid black;">Ya zen el-abkar,
-                    ya tohr el-at-har,
-                    ya kanz al-nema,
-                    anty heya al-karma,</td>
-                <td class="enPhonics" style="border-right: 1px solid black;">ya qods el-aHbar,
-                    ya noor el-anwar,
-                    ya om el-raHma,
-                    al-mamloua athmar.</td>
-            </tr>
-        </tbody>
-        <tbody class="scaling-container"  id="table_19_tbody_7">
-            <tr class="north" id="table_19_row_14">
-                <td class="english" style="border-right: 1px solid black;">O daughter of Joachim,
-                    you attained greatness,
-                    you are Jerusalem,
-                    glorious and honored,
-                    You are Zion,
-                    O precious jewel;
-                    you released the captive,
-                    from the Deceiver’s hand.</td>
-                <td class="arabic" style="border-right: 1px solid black;">يا ابنة يواقيم قد نلت التعظيم انت هي
-                    اورشليمذات
-                    المجد والفخارانت هي صهيونيا جوهرا مكنونفككت المسجونمن يد المكار</td>
-            </tr>
-            <tr class="south" id="table_19_row_15">
-                <td class="enPhonics" style="border-right: 1px solid black;">Ya ebnat Yowaqim,
-                    anty heya Orshaleem,
-                    anty heya Sehioun,
-                    fakakty el-masgoon,</td>
-                <td class="enPhonics" style="border-right: 1px solid black;">qad nelty al-tazeem,
-                    zat al-magd wal fakhar,
-                    ya gawharan maknoon,
-                    men yad el-makar.</td>
-            </tr>
-        </tbody>
-        <tbody class="scaling-container"  id="table_19_tbody_8">
-            <tr class="north" id="table_19_row_16">
-                <td class="english" style="border-right: 1px solid black;">Your son saved Adam,
-                    the repentant sinner,
-                    humanity He set free,
-                    from all adversaries,
-                    The Lord from your childhood,
-                    witnessed your purity,
-                    and therefore has blessed you,
-                    before all nations.</td>
-                <td class="arabic" style="border-right: 1px solid black;">ابنك خلص ادمالخاطئ النادموعتق العالممن كل
-                    الاضرارربك من صغركلما رأي طهركقد طيب ذكركفي كل الاقطار</td>
-            </tr>
-            <tr class="south" id="table_19_row_17">
-                <td class="enPhonics" style="border-right: 1px solid black;">Ebnek khalas Adam,
-                    we ataq el-alam,
-                    rabek men soghrek,
-                    qad tayab zekrek,</td>
-                <td class="enPhonics" style="border-right: 1px solid black;">el-khaty el-nadem,
-                    men kol el-adrar,
-                    lamma raa tohrek,
-                    fi kol el-aqtar.</td>
-            </tr>
-        </tbody>
-        <tbody class="scaling-container"  id="table_19_tbody_9">
-            <tr class="north" id="table_19_row_18">
-                <td class="english" style="border-right: 1px solid black;">He sent you Gabriel,
-                    the Messenger of His words,
-                    and greeted you saying,
-                    The Lord has chosen you,
-                    His Holy Spirit,
-                    filled and dwelt within you,
-                    blessed are you O Virgin,
-                    throughout all ages."</td>
-                <td class="arabic" style="border-right: 1px solid black;">ارسل لك غبريالبمحكم الاقوالوبشرك اذ قالالله لك
-                    اختارروح قدسه ملاكوسكن في احشاكيا عذرا طوباكفي كل الاجيال</td>
-            </tr>
-            <tr class="south" id="table_19_row_19">
-                <td class="enPhonics" style="border-right: 1px solid black;">Arsal laky Ghabrial,
-                    wa basharek ez qal,
-                    roH qodsoh malaky,
-                    ya adra toobaky,</td>
-                <td class="enPhonics" style="border-right: 1px solid black;">bemoHkam el aqwal,
-                    Allaho laky ekhtar,
-                    wa sakan fi aHshaky,
-                    fi kol el agial.</td>
-            </tr>
-        </tbody>
-        <tbody class="scaling-container"  id="table_19_tbody_10">
-            <tr class="north" id="table_19_row_20">
-                <td class="english" style="border-right: 1px solid black;">The Unseen and Holy,
-                    was born from you,
-                    and was called Jesus,
-                    for all eyes to see,
-                    Moses saw the bush,
-                    blazing with fire,
-                    its branches flaming,
-                    yet the bush was not consumed.</td>
-                <td class="arabic" style="border-right: 1px solid black;">ان غير المحسوسالرب القدوسمنك اتي ودعي
-                    ايسوسونظرته
-                    الابصارموسي رأي العوسجوالنار فيه تتأججوأغصانه تتوهجما ضرته النار</td>
-            </tr>
-            <tr class="south" id="table_19_row_21">
-                <td class="enPhonics" style="border-right: 1px solid black;">An gher el-maHsoos,
-                    menky ata wa doaya Isoos,
-                    Mousa raa al-awsag,
-                    wa aghsanoh tatawahag,</td>
-                <td class="enPhonics" style="border-right: 1px solid black;">al-rab el qodoos,
-                    wa nazarat-ho el-absar,
-                    wal-nar fihi tata-gag,
-                    ma darat-ho al-nar.</td>
-            </tr>
-        </tbody>
-        <tbody class="scaling-container"  id="table_19_tbody_11">
-            <tr class="north" id="table_19_row_22">
-                <td class="english" style="border-right: 1px solid black;">The blazing bush,
-                    which Moses had seen,
-                    was indeed Mary,
-                    the adornment of virgins,
-                    The fire is Jesus,
-                    the Holy Lord,
-                    who gave us the Law,
-                    engraved in stone.</td>
-                <td class="arabic" style="border-right: 1px solid black;">ان ما رأته العينانملتهبا بالنيرانفي العوسج
-                    والأغصانهي مريم زينة الأبكاروالنار هي إيسوسالرب القدوسمعطينا الناموسمكتوبا في الاحجار</td>
-            </tr>
-            <tr class="south" id="table_19_row_23">
-                <td class="enPhonics" style="border-right: 1px solid black;">Ena ma raat-ho al-aynan,
-                    fi el-awsag wal-aghsan,
-                    wel-nar heya Isoos,
-                    motina el-namoos,</td>
-                <td class="enPhonics" style="border-right: 1px solid black;">moltaheban bel-niran,
-                    heya Mariam zenat el-abkar,
-                    al-rab el-qodoos,
-                    maktooban fil-aHgar.</td>
-            </tr>
-        </tbody>
-        <tbody class="scaling-container"  id="table_19_tbody_12">
-            <tr class="north" id="table_19_row_24">
-                <td class="english" style="border-right: 1px solid black;">Isaiah prophesied,
-                    about the birth,
-                    of Emmanuel,
-                    the Almighty King,
-                    Ezekiel saw a door,
-                    through which the Lord entered,
-                    He sealed the door and claimed it,
-                    highly exalted.</td>
-                <td class="arabic" style="border-right: 1px solid black;">في اشعيا قد قيلعن هذا التأويلتلد عمانوئيلالملك
-                    الجباروحزقيال رأي بابدخل فيه رب الاربابوختم الباب مهابعالي المقدار</td>
-            </tr>
-            <tr class="south" id="table_19_row_25">
-                <td class="enPhonics" style="border-right: 1px solid black;">Fi Asheya qad qeel,
-                    taled emanoueel,
-                    wa Hazqeyal raa bab,
-                    wa khetm el-bab mohab,</td>
-                <td class="enPhonics" style="border-right: 1px solid black;">an haza el-taweel,
-                    al-malek el-gabar,
-                    dakhal feeh rab el-arbab,
-                    alya el-meqdar.</td>
-            </tr>
-        </tbody>
-        <tbody class="scaling-container"  id="table_19_tbody_13">
-            <tr class="north" id="table_19_row_26">
-                <td class="english" style="border-right: 1px solid black;">Highly exalted are you,
-                    and your Son Jesus,
-                    when He was born of you,
-                    the earth was adorned,
-                    And also Daniel,
-                    prophesied and said,
-                    I saw the high throne,
-                    highly exalted.</td>
-                <td class="arabic" style="border-right: 1px solid black;">عال هو قدركلإن يسوع ابنكلما ولد منكتزينت
-                    الاقطاروايضا دانيالتنبأ حيث قالرأيت الكرسي العالعالي المقدار</td>
-            </tr>
-            <tr class="south" id="table_19_row_27">
-                <td class="enPhonics" style="border-right: 1px solid black;">Alen howa qadrek,
-                    lamma woled mennek,
-                    wa aydan Danial,
-                    raayto el-korsy el-al,</td>
-                <td class="enPhonics" style="border-right: 1px solid black;">lean yasoo ebnek,
-                    tazayanat el-aktar,
-                    tanaba Haytho qal,
-                    aleya el meqdar.</td>
-            </tr>
-        </tbody>
-        <tbody class="scaling-container"  id="table_19_tbody_14">
-            <tr class="north" id="table_19_row_28">
-                <td class="english" style="border-right: 1px solid black;">In the firmaments high I saw,
-                    one like the Son of Man,
-                    who has dominion,
-                    over all the earth,
-                    He is the Lord of Hosts,
-                    around Him are the ranks,
-                    thousands and myriads,
-                    glorifying in reverence.</td>
-                <td class="arabic" style="border-right: 1px solid black;">نظرت فوق الأركانشبه ابن الانسانوله السلطانعلي
-                    كل
-                    الأقطاروهو رب القواتومن حوله طغماتالوف وربواتبعظم ووقار</td>
-            </tr>
-            <tr class="south" id="table_19_row_29">
-                <td class="enPhonics" style="border-right: 1px solid black;">Nazarto fok el-arkan,
-                    wa laho al-soltan,
-                    wa howa rabo el-qowat,
-                    oloof wa rabawat,</td>
-                <td class="enPhonics" style="border-right: 1px solid black;">shebh ebn el-ensan,
-                    ala kol el aqtar,
-                    wa men Hawloh taghamat,
-                    be ezamen wa waqar.</td>
-            </tr>
-        </tbody>
-        <tbody class="scaling-container"  id="table_19_tbody_15">
-            <tr class="north" id="table_19_row_30">
-                <td class="english" style="border-right: 1px solid black;">O daughter of Joachim,
-                    you are exalted above,
-                    the Cherubim and Seraphim,
-                    and all righteous fathers,
-                    The Lord was born from you,
-                    and David praises you,
-                    with his harp he sings,
-                    playing its ten strings.</td>
-                <td class="arabic" style="border-right: 1px solid black;">ياابنة يواقيمفقت الكروبيموايضا السرافيموكل
-                    الاباء
-                    الابرارمنك جاء المولودالرب المعبوديمدح فيك داودبالعشرة أوتار</td>
-            </tr>
-            <tr class="south" id="table_19_row_31">
-                <td class="enPhonics" style="border-right: 1px solid black;">Ya ebnat Yowaqim,
-                    aydan el-serafaim,
-                    menky ga el-mawlood,
-                    yamdaH fiki Dawood,</td>
-                <td class="enPhonics" style="border-right: 1px solid black;">foqt el-karoubim,
-                    wa kol el-aba el-abrar,
-                    al-rab el-mabood,
-                    bel-asharat awtar.</td>
-            </tr>
-        </tbody>
-        <tbody class="scaling-container"  id="table_19_tbody_16">
-            <tr class="north" id="table_19_row_32">
-                <td class="english" style="border-right: 1px solid black;">The sound of the first string,
-                    is in honor of your name,
-                    the Virgin will carry,
-                    the Almighty King,
-                    And with the second string,
-                    David rejoices,
-                    chanting with hymns,
-                    while playing his harp.</td>
-                <td class="arabic" style="border-right: 1px solid black;">الوتر الاولقول مبجلوالعذراء تحبلبالملك
-                    الجبارالوتر
-                    الثانيداود بالتهانيو يرتل بالالحانمع ضرب القيثار</td>
-            </tr>
-            <tr class="south" id="table_19_row_33">
-                <td class="enPhonics" style="border-right: 1px solid black;">El-watar el-awal,
-                    wel-adra taHbal,
-                    el-watar el-thany,
-                    yoratel bel-alHan,</td>
-                <td class="enPhonics" style="border-right: 1px solid black;">qawlon mobagal,
-                    bel-malek el-gabar,
-                    Dawood bil-tahany,
-                    ma darb el-qithar.</td>
-            </tr>
-        </tbody>
-        <tbody class="scaling-container"  id="table_19_tbody_17">
-            <tr class="north" id="table_19_row_34">
-                <td class="english" style="border-right: 1px solid black;">And the third O daughter,
-                    because you were faithful,
-                    you were filled with light,
-                    and the Lord chose you,
-                    The fourth string is sounded,
-                    so that all can hear,
-                    of her who is praised,
-                    all over the world.</td>
-                <td class="arabic" style="border-right: 1px solid black;">الثالث يا ابنةأنت مؤتمنةبالنورمشتملةوالرب لك
-                    إختارالوتر الرابعاصغ يا سامعذا قول شائعفي كل الاقطار</td>
-            </tr>
-            <tr class="south" id="table_19_row_35">
-                <td class="enPhonics" style="border-right: 1px solid black;">Wel-thaleth ya ibna,
-                    bel-noor moshtamala,
-                    el-watar el-rabe,
-                    za qawlon shae,</td>
-                <td class="enPhonics" style="border-right: 1px solid black;">anty motamana,
-                    wal-rabo laky ekhtar,
-                    esghy ya same,
-                    fi kol el-aqtar.</td>
-            </tr>
-        </tbody>
-        <tbody class="scaling-container"  id="table_19_tbody_18">
-            <tr class="north" id="table_19_row_36">
-                <td class="english" style="border-right: 1px solid black;">The fifth is a sign of hope,
-                    as a dove she appears,
-                    with Ophir gold,
-                    upon her shoulders,
-                    With the sixth he sung,
-                    praises I will not hide,
-                    but I will praise with him,
-                    and proclaim to all.</td>
-                <td class="arabic" style="border-right: 1px solid black;">الخامس خبرحمامة هي تظهربالذهب الاصفرعلي
-                    منكبيها
-                    صارالسادس قال فيهقولاً ما أخفيهلكني أرويهواشهره أجهار</td>
-            </tr>
-            <tr class="south" id="table_19_row_37">
-                <td class="enPhonics" style="border-right: 1px solid black;">Wel-khames khabar,
-                    bel-zahab el-asfar,
-                    wel-sades qal fih,
-                    lakeny arweeh,</td>
-                <td class="enPhonics" style="border-right: 1px solid black;">Hamama heya tazhar,
-                    ala menkabayha sar,
-                    qawlan ma akhfih,
-                    wa osh-heraho eg-har.</td>
-            </tr>
-        </tbody>
-        <tbody class="scaling-container"  id="table_19_tbody_19">
-            <tr class="north" id="table_19_row_38">
-                <td class="english" style="border-right: 1px solid black;">With the seventh string he said
-                    O mountain, of the High God,
-                    the High took flesh from you,
-                    without a doubt,
-                    And with the eighth he sang,
-                    to the Virgin Mary,
-                    the Great chose her,
-                    and crowned her with honor.</td>
-                <td class="arabic" style="border-right: 1px solid black;">السابع اذ قاليا جبل الله العالتجسد منك
-                    المتعالبلا
-                    شك ولا إنكاروالثامن رنمللعذ را مريماختارها المعظموكللها بالفخار</td>
-            </tr>
-            <tr class="south" id="table_19_row_39">
-                <td class="enPhonics" style="border-right: 1px solid black;">Wel-sabe ez qal,
-                    tagasad menky el-motaal,
-                    wel-thamen ranam,
-                    ekhtarha al-moazam,</td>
-                <td class="enPhonics" style="border-right: 1px solid black;">ya gabal Allah el-al,
-                    bela shak wala enkar,
-                    lel-adra Mariam,
-                    wa kallalha bel-fakhar.</td>
-            </tr>
-        </tbody>
-        <tbody class="scaling-container"  id="table_19_tbody_20">
-            <tr class="north" id="table_19_row_40">
-                <td class="english" style="border-right: 1px solid black;">With the ninth string he said,
-                    from her will surely come,
-                    God her son,
-                    who sealed her virginity,
-                    With the tenth he sang,
-                    the Powerful God,
-                    in Zion he appeared,
-                    the dwelling of the righteous.</td>
-                <td class="arabic" style="border-right: 1px solid black;">التاسع قال عنهايظهر حقا منهاالإله وهو
-                    إبنهاوالبكورية في حفط ووقارالوتر العاشرالله القادرفي صهيون ظاهرمسكن الأبرار</td>
-            </tr>
-            <tr class="south" id="table_19_row_41">
-                <td class="enPhonics" style="border-right: 1px solid black;">El-tase qal anha,
-                    al-Elah wa howa ebnaha,
-                    El-watar el-asher,
-                    fi Sehioun zaher,</td>
-                <td class="enPhonics" style="border-right: 1px solid black;">yazhar Haqan menha,
-                    wal-bokooreya fi Hefzen wa waqar,
-                    Allah el-qader,
-                    maskan el-abrar.</td>
-            </tr>
-        </tbody>
-        <tbody class="scaling-container"  id="table_19_tbody_21">
-            <tr class="north" id="table_19_row_42">
-                <td class="english" style="border-right: 1px solid black;">There isn’t in all ages,
-                    anyone like you O Virgin,
-                    for you released the chains,
-                    and shame of Adam,
-                    O Lady of the creation,
-                    the pride of faith,
-                    your servant is in need,
-                    drowning because of sins.</td>
-                <td class="arabic" style="border-right: 1px solid black;">لم يوجد في الدهرمثلك أيتها البكرلأنك فككت
-                    الاسرعن
-                    آدم والعاريا سيدة الأكوانيا فخر الإيمانعبدك حيرانغارق في الاوزار</td>
-            </tr>
-            <tr class="south" id="table_19_row_43">
-                <td class="enPhonics" style="border-right: 1px solid black;">Lam yowgad fi el-dahr,
-                    leanek fakakty el-asr,
-                    ya sayedet el-akwan,
-                    ana abdek Hayran,</td>
-                <td class="enPhonics" style="border-right: 1px solid black;">methlek ayatoha el-bekr,
-                    an Adam wal-ar,
-                    ya fakhr el-eiman,
-                    gharek fil-awzar.</td>
-            </tr>
-        </tbody>
-        <tbody class="scaling-container"  id="table_19_tbody_22">
-            <tr class="north" id="table_19_row_44">
-                <td class="english" style="border-right: 1px solid black;">Intercede for me,
-                    do not leave your servant,
-                    Ask your son to save me,
-                    From the fire,
-                    For your intercession,
-                    is heard and accepted,
-                    and He defends from the attacks,
-                    of the adversary.</td>
-                <td class="arabic" style="border-right: 1px solid black;">عالي هو قدركلا تتركي عبدكقصدي من ولدكتوبة و
-                    أستغفارو العذراء تشفعفي الحضار اجمعو هي عنا تدفعضربات الاشرار</td>
-            </tr>
-            <tr class="south" id="table_19_row_45">
-                <td class="enPhonics" style="border-right: 1px solid black;">Alen howa qadrek,
-                    qasdy men waladek,
-                    Wel adra tashfa,
-                    We heia ana tadfa,</td>
-                <td class="enPhonics" style="border-right: 1px solid black;">la tatroky abdek,
-                    Toba wa esteghfar,
-                    Fe elodar agma,
-                    darabat el-ashrar.</td>
-            </tr>
-        </tbody>
-        <tbody class="scaling-container"  id="table_19_tbody_23">
-            <tr class="north" id="table_19_row_46">
-                <td class="english" style="border-right: 1px solid black;">Arise O poor one,
-                    and clothe yourself in faith,
-                    and say Amen Amen,
-                    for us she intercedes,
-                    The persistent servant,
-                    Will always praise her,
-                    For by his side that Day,
-                    The Lady of virgins shall be.</td>
-                <td class="arabic" style="border-right: 1px solid black;">قم وانهض يا مسكينوالبس ثوب اليقينوقل امين
-                    امينفهي
-                    تشفع في الحاضرينو أنا الخاطي المسكينمادحها في كل حينمالي يوم الدينسوي سيدة الابكار</td>
-            </tr>
-            <tr class="south" id="table_19_row_47">
-                <td class="enPhonics" style="border-right: 1px solid black;">Qom enhad ya meskeen,
-                    wa qol amin amin,
-                    wal-nazem el-meskeen,
-                    maloh yom el-din,</td>
-                <td class="enPhonics" style="border-right: 1px solid black;">wa elbes thob el-yaqeen,
-                    fa heya tashfa fil-Hodar,
-                    madeHha fi kol Hin,
-                    sewa sayedet el-abkar.</td>
-            </tr>
-        </tbody>
-
     </table>
+
+
     <br>
     <table id="table_20" style="display: table;" title="I praise the virgin">
         <caption class="caption" id="caption_table_20">I praise the virgin</caption>
@@ -3956,7 +3681,7 @@ return `
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_21_tbody_1">
-            <tr class="south" id="table_21_row_1">
+            <tr class="north" id="table_21_row_1">
                 <td class="english" style="border-right: 1px solid black;">How can I speak and what can I say,
                     About the mystery of her virginity,
                     A great Virgin and her pregnancy,
@@ -3969,10 +3694,7 @@ return `
                     ومَنْ كان لبيباً نطق باليسير.</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container"  id="table_21_tbody_2">
-            <tr class="north" id="table_21_row_2">
-            </tr>
-        </tbody>
+
         <tbody class="scaling-container"  id="table_21_tbody_3">
             <tr class="south" id="table_21_row_3">
                 <td class="english" style="border-right: 1px solid black;">Ezekiel the prophet spoke about her,
@@ -3988,7 +3710,7 @@ return `
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_21_tbody_4">
-            <tr class="north" id="table_21_row_4">
+            <tr class="south" id="table_21_row_4">
                 <td class="english" style="border-right: 1px solid black;">All the arts and all the wonders,
                     Even the sayings of the scholars,
                     Her virginity we should not ponder,
@@ -4001,10 +3723,7 @@ return `
                     في البطن أنتجب مثل طفل صغير.</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container"  id="table_21_tbody_5">
-            <tr class="south" id="table_21_row_5">
-            </tr>
-        </tbody>
+ 
         <tbody class="scaling-container"  id="table_21_tbody_6">
             <tr class="north" id="table_21_row_6">
                 <td class="english" style="border-right: 1px solid black;">By His will He suffered and was crucified,
@@ -4020,7 +3739,7 @@ return `
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_21_tbody_7">
-            <tr class="south" id="table_21_row_7">
+            <tr class="north" id="table_21_row_7">
                 <td class="english" style="border-right: 1px solid black;">The salvation of the creation appeared from,
                     The pure and chosen Virgin, Mount Zion,
                     Her pregnancy is a mysterious one,
@@ -4033,10 +3752,7 @@ return `
                     وليس عند ربي أمر عسير.</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container"  id="table_21_tbody_8">
-            <tr class="north" id="table_21_row_8">
-            </tr>
-        </tbody>
+
         <tbody class="scaling-container"  id="table_21_tbody_9">
             <tr class="south" id="table_21_row_9">
                 <td class="english" style="border-right: 1px solid black;">Moses the prophet spoke a great saying,
@@ -4052,7 +3768,7 @@ return `
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_21_tbody_10">
-            <tr class="north" id="table_21_row_10">
+            <tr class="south" id="table_21_row_10">
                 <td class="english" style="border-right: 1px solid black;">He saw you in a burning bush with flames,
                     He became amazed and was marveled,
                     Many explained what this means,
@@ -4065,10 +3781,7 @@ return `
                     وأكرز ونادى يوحنا البشير.</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container"  id="table_21_tbody_11">
-            <tr class="south" id="table_21_row_11">
-            </tr>
-        </tbody>
+
         <tbody class="scaling-container"  id="table_21_tbody_12">
             <tr class="north" id="table_21_row_12">
                 <td class="english" style="border-right: 1px solid black;">All my life I glorified,
@@ -4084,7 +3797,7 @@ return `
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_21_tbody_13">
-            <tr class="south" id="table_21_row_13">
+            <tr class="north" id="table_21_row_13">
                 <td class="english" style="border-right: 1px solid black;">Solomon spoke of you in the Song of Songs,
                     “Welcome my sister, to you I long,
                     The aroma of your clothes is sweet,"
@@ -4097,10 +3810,7 @@ return `
                     على البكر مريم كلاماً كثير.</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container"  id="table_21_tbody_14">
-            <tr class="north" id="table_21_row_14">
-            </tr>
-        </tbody>
+
         <tbody class="scaling-container"  id="table_21_tbody_15">
             <tr class="south" id="table_21_row_15">
                 <td class="english" style="border-right: 1px solid black;">He testified saying "I saw a lady,
@@ -4116,7 +3826,7 @@ return `
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_21_tbody_16">
-            <tr class="north" id="table_21_row_16">
+            <tr class="south" id="table_21_row_16">
                 <td class="english" style="border-right: 1px solid black;">There is no doubt that this is true,
                     The moon is no one but John the Baptist,
                     And the twelve stars are the twelve Apostles,
@@ -4129,10 +3839,7 @@ return `
                     دي قدرة بسيطة ورباً قدير.</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container"  id="table_21_tbody_17">
-            <tr class="south" id="table_21_row_17">
-            </tr>
-        </tbody>
+
         <tbody class="scaling-container"  id="table_21_tbody_18">
             <tr class="north" id="table_21_row_18">
                 <td class="english" style="border-right: 1px solid black;">My heart and mind are attached to you,
@@ -4148,7 +3855,7 @@ return `
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_21_tbody_19">
-            <tr class="south" id="table_21_row_19">
+            <tr class="north" id="table_21_row_19">
                 <td class="english" style="border-right: 1px solid black;">We asked and we were given to be,
                     Led and guided to enlightenment,
                     For we believed with all understanding,
@@ -4161,10 +3868,7 @@ return `
                     يسوع بإستطاعه وشعباً منير.</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container"  id="table_21_tbody_20">
-            <tr class="north" id="table_21_row_20">
-            </tr>
-        </tbody>
+
         <tbody class="scaling-container"  id="table_21_tbody_21">
             <tr class="south" id="table_21_row_21">
                 <td class="english" style="border-right: 1px solid black;">The Logos appeared from you in a great
@@ -4181,7 +3885,7 @@ return `
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_21_tbody_22">
-            <tr class="north" id="table_21_row_22">
+            <tr class="south" id="table_21_row_22">
                 <td class="english" style="border-right: 1px solid black;">You were exalted to God´s heaven,
                     You were raised to be a heaven,
                     Truly you surpassed all the ranks,
@@ -4194,10 +3898,7 @@ return `
                     ومدحِك تجارة وربحه كثير.</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container"  id="table_21_tbody_23">
-            <tr class="south" id="table_21_row_23">
-            </tr>
-        </tbody>
+
         <tbody class="scaling-container"  id="table_21_tbody_24">
             <tr class="north" id="table_21_row_24">
                 <td class="english" style="border-right: 1px solid black;">Your Son is the One who created you,
@@ -4212,7 +3913,7 @@ return `
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_21_tbody_25">
-            <tr class="south" id="table_21_row_25">
+            <tr class="north" id="table_21_row_25">
                 <td class="english" style="border-right: 1px solid black;">And if my ink was like the Euphrates,
                     And my paper like a great valley,
                     And my pen like a field of many plants,
@@ -4225,17 +3926,14 @@ return `
                     من الرمل ماذا يشيل البعير.</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container"  id="table_21_tbody_26">
-            <tr class="north" id="table_21_row_26">
-            </tr>
-        </tbody>
+
         <tbody class="scaling-container"  id="table_21_tbody_27">
             <tr class="south" id="table_21_row_27">
                 <td class="english" style="border-right: 1px solid black;">The Eternal, the Mighty and Unchangeable,
                     Descended from heaven to the Virgin´s womb
                     His miracles were beyond understanding,
                     The thoughts of men were known to Him,
-                    He healed the paralytic who he carried his bed</td>
+                    He healed the paralytic who carried his bed</td>
                 <td class="arabic" style="border-right: 1px solid black;">قديماً بذاته قوي لا يحول،
                     نزل من سماءه لبطن البتول،
                     وكانت آياته تفوق العقول،
@@ -4244,7 +3942,7 @@ return `
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_21_tbody_28">
-            <tr class="north" id="table_21_row_28">
+            <tr class="south" id="table_21_row_28">
                 <td class="english" style="border-right: 1px solid black;">Many are the wonders of Jesus Christ,
                     The mind of scholars cannot understand,
                     He accepted the sinners and raised the dead,
@@ -4257,10 +3955,7 @@ return `
                     وأبرأ المعتري من الروح الشرير.</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container"  id="table_21_tbody_29">
-            <tr class="south" id="table_21_row_29">
-            </tr>
-        </tbody>
+
         <tbody class="scaling-container"  id="table_21_tbody_30">
             <tr class="north" id="table_21_row_30">
                 <td class="english" style="border-right: 1px solid black;">I gave my life to describing you,
@@ -4276,7 +3971,7 @@ return `
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_21_tbody_31">
-            <tr class="south" id="table_21_row_31">
+            <tr class="north" id="table_21_row_31">
                 <td class="english" style="border-right: 1px solid black;">Mary you are called the highest heaven,
                     This you were called, and your name is sweet,
                     And my speech cannot describe you,
@@ -4289,10 +3984,7 @@ return `
                     ويعجز لساني ودهري قصير.</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container"  id="table_21_tbody_32">
-            <tr class="north" id="table_21_row_32">
-            </tr>
-        </tbody>
+
         <tbody class="scaling-container"  id="table_21_tbody_33">
             <tr class="south" id="table_21_row_33">
                 <td class="english" style="border-right: 1px solid black;">I went into the sea of knowledge,
@@ -4308,7 +4000,7 @@ return `
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_21_tbody_34">
-            <tr class="north" id="table_21_row_34">
+            <tr class="south" id="table_21_row_34">
                 <td class="english" style="border-right: 1px solid black;">The true God was crucified on the Cross,
                     And truly endured the oppression of the Jews,
                     What great a sacrifice despite denial,
@@ -4321,10 +4013,7 @@ return `
                     سقوه المرارة خلاً وخمير.الشرير.</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container"  id="table_21_tbody_35">
-            <tr class="south" id="table_21_row_35">
-            </tr>
-        </tbody>
+
         <tbody class="scaling-container"  id="table_21_tbody_36">
             <tr class="north" id="table_21_row_36">
                 <td class="english" style="border-right: 1px solid black;">He fulfilled His eternal promise,
@@ -4340,7 +4029,7 @@ return `
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_21_tbody_37">
-            <tr class="south" id="table_21_row_37">
+            <tr class="north" id="table_21_row_37">
                 <td class="english" style="border-right: 1px solid black;">He came to us a humble Man,
                     And Judas His disciple betrayed Him,
                     He willingly submitted to the sufferings,
@@ -4353,10 +4042,7 @@ return `
                     وأخرج آدم من الزمهرير.</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container"  id="table_21_tbody_38">
-            <tr class="north" id="table_21_row_38">
-            </tr>
-        </tbody>
+
         <tbody class="scaling-container"  id="table_21_tbody_39">
             <tr class="south" id="table_21_row_39">
                 <td class="english" style="border-right: 1px solid black;">Indescribable is the Mother of God,
@@ -4372,7 +4058,7 @@ return `
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_21_tbody_40">
-            <tr class="north" id="table_21_row_40">
+            <tr class="south" id="table_21_row_40">
                 <td class="english" style="border-right: 1px solid black;">Hail to you, our duty is to praise you,
                     All people and ranks offer you praise,
                     With every father asking on our behalf,
@@ -4385,10 +4071,7 @@ return `
                     والشعب جميعه كبير مع صغير.</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container"  id="table_21_tbody_41">
-            <tr class="south" id="table_21_row_41">
-            </tr>
-        </tbody>
+
 
     </table>
     <br>
@@ -4433,7 +4116,7 @@ return `
                 <td class="english" style="border-right: 1px solid black;">Rejoice O daughter of Zion, we rejoice, O
                     mother
                     of the King.</td>
-                <td class="coptic" style="border-right: 1px solid black;">Ⲣⲁϣⲓ ⲛⲉ ⲱ̀ ⲧ̀ϣⲏⲣⲓ ⲛ̀Ⲥⲓⲱⲛ : ⲑⲉⲗⲏⲗ ⲙ̀ⲙⲁⲩ ⲑ̀ⲙⲁⲩ
+                <td class="coptic" style="border-right: 1px solid black;">Ⲣⲁϣⲓ ⲛⲉ ⲱ̀ ⲧ̀ϣⲉⲣⲓ ⲛ̀Ⲥⲓⲱⲛ : ⲑⲉⲗⲏⲗ ⲙ̀ⲙⲁⲩ ⲑ̀ⲙⲁⲩ
                     ⲙ̀ⲡ̀ⲟⲩⲣⲟ.</td>
                 <td class="arabic">الفرح لك يا إبنة صهيون تهللى يا أم الملك.</td>
             </tr>
@@ -4588,7 +4271,7 @@ return `
                 <td class="arabic">نتهلل إلى الأبد نعم ونترجى.</td>
             </tr>
             <tr class="south" id="table_22_row_23">
-                <td class="enPhonics" style="border-right: 1px solid black;">Sena theleel sha ni-eneh: ensa-ouonh
+                <td class="enPhonics" style="border-right: 1px solid black;">Sena theleel sha ni-eneh: ense-ouonh
                     eno-helpees.</td>
                 <td class="arPhonics" style="border-right: 1px solid black;">سينا ثيليل شا نى إينيه إن سى أو أونه إن أو
                     هيلبيس.</td>
@@ -4682,7 +4365,7 @@ return `
             <tr class="north" id="table_22_row_34">
                 <td class="english" style="border-right: 1px solid black;">My heart rejoices, for this my tongue also
                     praises.</td>
-                <td class="coptic" style="border-right: 1px solid black;">Ⲁⲡⲁϩⲏⲧ ⲉ̀ⲟⲩⲫⲣⲁⲛⲉ : ⲉⲑⲃⲉ ⲡⲁⲗⲁⲥ ϧⲉⲛ ⲟⲩⲑⲉⲗⲏⲗ.
+                <td class="coptic" style="border-right: 1px solid black;">Ⲁⲡⲁϩⲏⲧ ⲉ̀ⲟⲩⲫ̀ⲣⲁⲛⲉ : ⲉⲑⲃⲉ ⲡⲁⲗⲁⲥ ϧⲉⲛ ⲟⲩⲑⲉⲗⲏⲗ.
                 </td>
                 <td class="arabic">قلبى يفرح من اجل لسانى بتهليل.</td>
             </tr>

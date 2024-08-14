@@ -225,6 +225,15 @@ return `
 
 </table>
 </div>
+
+<div class="section" id="section_30" title="Next Hour">
+<table id="table_50" title="Next Hour">
+    <tr id="table_50_row_0" data-navigation="DOF9sc" class="navigationButton">
+        <td class="englishButton">The NINTH Hour of the DAY of GREAT FRIDAY</td>
+        <td class="arabicButton">الساعة التاسعة من يوم الجمعة العظيمة</td>
+    </tr>
+</table>
+</div>
 `;
 
 };

@@ -23,7 +23,7 @@ ${hourIntroHtml}
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲓⲟⲩⲏⲗ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ:</td>
         </tr>
         <tr id="table_2_row_4" class="text">
-            <td class="coptic">Ⲁⲣⲓⲛⲩⲙⲫⲓⲛ ⲛⲏⲉⲧⲟⲁϧⲓ ⲉ̀ⲃⲟⲗ Ⲁϧⲉⲛ ⲡ̀ⲏⲣⲡ : ⲟⲩⲟϩ ⲣⲓⲙⲓ ⲁ̀ⲣⲓϩⲏⲃⲓ ⲛⲏ ⲧⲏⲣⲟⲩ ⲉⲧⲥⲱ ⲙ̀ⲡⲓⲏⲣⲡ ⲉⲩⲑⲁϧⲓ.</td>
+            <td class="coptic">Ⲁⲣⲓⲛⲩⲙⲫⲓⲛ ⲛⲏⲉⲧⲑⲁϧⲓ ⲉ̀ⲃⲟⲗ Ⲁϧⲉⲛ ⲡ̀ⲏⲣⲡ : ⲟⲩⲟϩ ⲣⲓⲙⲓ ⲁ̀ⲣⲓϩⲏⲃⲓ ⲛⲏ ⲧⲏⲣⲟⲩ ⲉⲧⲥⲱ ⲙ̀ⲡⲓⲏⲣⲡ ⲉⲩⲑⲁϧⲓ.</td>
         </tr>
         <tr id="table_2_row_35" class="intro">
             <td class="coptic">Ⲟⲩⲱⲟ̀ⲩ ⲛϯ̀ⲧⲣ̀ⲓⲁⲥ ⲉⲑ̀ⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ϣⲁ ⲉⲛ̀ⲉϩ ⲛⲉⲙ ϣⲁ ⲉⲛⲉϩ ⲛⲧ̀ⲉ ⲛⲓⲉⲛ̀ⲉϩ ⲧⲏⲣⲟⲩ: ⲁⲙ̀ⲏⲛ.</td>
@@ -189,8 +189,8 @@ Give unto the Lord glory and strength.</td>
     <caption id="caption_table_10" class="caption">Gospel<br>(Mark 10:32-34)
     <span class="arabic-caption">الانجيل<br>(مرقس ١٠ : ٣٢-٣٤)</span></caption>
     <tr id="table_10_row_1" class="intro">
-        <td class="english">May God have mercy and compassion upon us, and make us worthy to hear Your Holy Gospel. A chapter according to our teacher Saint Matthew the evangelist. May his blessings be with us. Amen.</td>
-        <td class="arabic">اللهم تراءف علينا وأرحمنا وأجعلنا مستحقين لسماع إنجيلك المقدس، فصل من إنجيل معلمنا متى البشير، بركاته تكون معنا أمين.</td>
+        <td class="english">May God have mercy and compassion upon us, and make us worthy to hear Your Holy Gospel. A chapter according to our teacher Saint Mark the evangelist. May his blessings be with us. Amen.</td>
+        <td class="arabic">اللهم تراءف علينا وأرحمنا وأجعلنا مستحقين لسماع إنجيلك المقدس، فصل من إنجيل معلمنا مرقس البشير، بركاته تكون معنا أمين.</td>
     </tr>
     <tr id="table_10_row_4" class="text">
         <td class="english">Now they were on the road, going up to Jerusalem, and Jesus was going before them; and they were amazed. And as they followed they were afraid. Then He took the twelve aside again and began to tell them the things that would happen to Him:</td>
@@ -265,7 +265,18 @@ ${nighttimeExpositionIntroHtml}
 ${expositionConclusionHtml}
 
 </div>
-
+<div class="section" id="section_30" title="Next Hour">
+<table id="table_50" title="Next Hour">
+    <tr id="table_50_row_0" data-navigation="EOM9sc" class="navigationButton">
+        <td class="englishButton">The NINTH Hour of the EVE of MONDAY</td>
+        <td class="arabicButton">الساعة التاسعة من ليلة الإثنين</td>
+    </tr>
+    <tr id="table_50_row_1" data-navigation="NighttimeLitaniessc" class="navigationButton">
+    <td class="englishButton">Nighttime Litanies</td>
+    <td class="arabicButton">طلبات المساء</td>
+</tr>
+</table>
+</div>
 
 `;
 

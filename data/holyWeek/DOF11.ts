@@ -22,19 +22,19 @@ ${hourIntroHtml}
     <caption class="caption" id="caption_table_2">Coptic Prophecies
     <span class="arabic-caption">النبوات قبطياً</span></caption>
         <tr id="table_2_row_3" class="intro">
-            <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲡⲓⲇⲟⲝⲟⲇⲟⲥ ⲛ̀ⲧⲉ Ⲙⲱⲩ̀ⲥⲏⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ:</td>
+            <td class="coptic">Ⲉ̀ⲃⲟⲗϧⲉⲛ Ⲡⲓⲇⲟⲝⲟⲇⲟⲥ ⲛ̀ⲧⲉ Ⲙⲱⲩ̀ⲥⲏⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ:</td>
         </tr>
         <tr id="table_2_row_4" class="text">
-            <td class="coptic">Ⲡⲉϫⲉ Ⲡ̀⳪ ⲙ̀Ⲙⲱⲩ̀ⲥⲏⲥ ⲛⲉⲙ ̀̀Ⲁⲁⲣⲱⲛ ϧⲉⲛ ⲡⲕⲁϩⲓ ⲛ̀Ⲭⲏⲙⲓ ⲉϥϫⲱⲙ̀ⲙⲟⲥ Ϫⲉ ⲡⲁⲓⲁ̀ⲃⲟⲧ ⲫⲁⲓ ⲧ̀ⲁⲣⲭⲏ ⲛ̀ⲛⲓⲁ̀ⲃⲟⲧ ⲛ̀ⲧⲉ ϯⲣⲟⲙⲡⲓ : Ⲥⲁϫⲓ ⲛⲉⲙ ϯⲥⲩⲛⲁⲅⲱⲏ ⲧⲏⲣⲥ ⲛ̀ⲧⲉ ⲛⲉⲛϣⲏⲣⲓ ⲙ̀ⲡ̀Ⲓ̅ⲥ̅ⲗ ⲉⲕϫⲱⲙ̀ⲙⲟⲥ : ϫⲉ ⲛ̀ϧ̀ⲣⲏⲓ ϧⲉⲛⲥⲟⲩ ⲙⲏⲧ ⲙ̀ⲡⲓⲁ̀ⲃⲟⲧ </td>
+            <td class="coptic">Ⲡⲉϫⲉ Ⲡ̀ϭⲟⲓⲥ ⲙ̀Ⲙⲱⲩ̀ⲥⲏⲥ ⲛⲉⲙ Ⲁ̀ⲁⲣⲱⲛ ϧⲉⲛ ⲡ̀ⲕⲁϩⲓ ⲛ̀Ⲭⲏⲙⲓ ⲉϥϫⲱⲙ̀ⲙⲟⲥ Ϫⲉ ⲡⲁⲓⲁ̀ⲃⲟⲧ ⲫⲁⲓ ⲧ̀ⲁⲣⲭⲏ ⲛ̀ⲛⲓⲁ̀ⲃⲟⲧ ⲛ̀ⲧⲉ ϯⲣⲟⲙⲡⲓ : Ⲥⲁϫⲓ ⲛⲉⲙ ϯⲥⲩⲛⲁⲅⲱⲏ ⲧⲏⲣⲥ ⲛ̀ⲧⲉ ⲛⲉⲛϣⲏⲣⲓ ⲙ̀ⲡ̀Ⲓⲥⲣⲁⲏⲗ ⲉⲕϫⲱⲙ̀ⲙⲟⲥ : ϫⲉ ⲛ̀ϧ̀ⲣⲏⲓ ϧⲉⲛⲥⲟⲩ ⲙⲏⲧ ⲙ̀ⲡⲓⲁ̀ⲃⲟⲧ </td>
         </tr>
         <tr id="table_2_row_5" class="intro">
             <td class="coptic">Ⲟⲩⲱ̀ⲟⲩ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ...</td>
         </tr>
         <tr id="table_2_row_6" class="intro">
-            <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ ⲡⲓⲗⲉⲩⲓⲧⲓⲕⲟⲛ ⲛ̀ⲧⲉ Ⲙⲱⲩ̀ⲥⲏⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ:</td>
+            <td class="coptic">Ⲉ̀ⲃⲟⲗϧⲉⲛ ⲡⲓⲗⲉⲩⲓⲧⲓⲕⲟⲛ ⲛ̀ⲧⲉ Ⲙⲱⲩ̀ⲥⲏⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ:</td>
         </tr>
         <tr id="table_2_row_7" class="text">
-            <td class="coptic">Ⲉ̀ϩ̀ⲣⲏⲓ ϧⲉⲛ ⲡⲓⲁⲃⲟⲧ ⲛ̀ϣⲟⲣⲡ ⲛ̀ⲥⲟⲩ ̅ⲓ̅ⲇ ⲙ̀ⲡⲓⲁⲃⲟⲧ ϫⲓⲛ ⲡⲛⲁⲩ ⲛ̀ⲣⲟⲩϩⲓ ⲙⲡⲓⲡⲁⲥⲭⲁ ⲙ̀Ⲡ⳪ ⲟⲩⲟϩ ϧⲉⲛ ⲥⲟⲩ ⲓⲉ ⲙ̀ⲡⲓⲁ̀ⲃⲟⲧ ⲛ̀ⲟⲩⲱⲧ ⲡ̀ϣⲁ ⲡⲉ ⲛ̀ⲛⲁⲑⲁⲃ ⲙ̀Ⲡ⳪.</td>
+            <td class="coptic">Ⲉ̀ϩ̀ⲣⲏⲓ ϧⲉⲛ ⲡⲓⲁⲃⲟⲧ ⲛ̀ϣⲟⲣⲡ ⲛ̀ⲥⲟⲩ ⲙⲏⲧ ϥ̀ⲧⲟⲩ ⲙ̀ⲡⲓⲁⲃⲟⲧ ϫⲓⲛ ⲡ̀ⲛⲁⲩ ⲛ̀ⲣⲟⲩϩⲓ ⲙ̀ⲡⲓⲡⲁⲥⲭⲁ ⲙ̀Ⲡ̀ϭⲟⲓⲥ ⲟⲩⲟϩ ϧⲉⲛ ⲥⲟⲩ ⲓⲉ ⲙ̀ⲡⲓⲁ̀ⲃⲟⲧ ⲛ̀ⲟⲩⲱⲧ ⲡ̀ϣⲁ ⲡⲉ ⲛ̀ⲛⲁⲑⲁⲃ ⲙ̀Ⲡ̀ϭⲟⲓⲥ.</td>
         </tr>
         <tr id="table_2_row_8" class="intro">
             <td class="coptic">Ⲟⲩⲱ̀ⲟⲩ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ: ⲁ̀ⲙⲏⲛ.</td>
@@ -154,10 +154,23 @@ ${hourIntroHtml}
             <td class="english">And you shall offer on that day, when you wave the sheaf, a male lamb of the first year, without blemish, as a burnt offering to the Lord.</td>
             <td class="arabic">وَتَعْمَلُونَ يَوْمَ تَرْدِيدِكُمُ الْحُزْمَةَ خَرُوفا صَحِيحا حَوْلِيّا مُحْرَقَةً لِلرَّبِّ.</td>
         </tr>
-        <tr id="table_4_row_13" class="intro">
+        <tr id="table_4_row_12" class="text">
+            <td class="english">Its grain offering shall be two-tenths of an ephah of fine flour mixed with oil, an offering made by fire to the LORD, for a sweet aroma; and its drink offering shall be of wine, one-fourth of a hin</td>
+            <td class="arabic">وَتَقْدِمَتَهُ عُشْرَيْنِ مِنْ دَقِيق مَلْتُوتٍ بِزَيْتٍ، وَقُودًا لِلرَّبِّ رَائِحَةَ سَرُورٍ، وَسَكِيبَهُ رُبْعَ الْهِينِ مِنْ خَمْرٍ.</td>
+        </tr>
+        <tr id="table_4_row_13" class="text">
+            <td class="english">You shall eat neither bread nor parched grain nor fresh grain until the same day that you have brought an offering to your God; it shall be a statute forever throughout your generations in all your dwellings.</td>
+            <td class="arabic">وَخُبْزًا وَفَرِيكًا وَسَوِيقًا لاَ تَأْكُلُوا إِلَى هذَا الْيَوْمِ عَيْنِهِ، إِلَى أَنْ تَأْتُوا بِقُرْبَانِ إِلهِكُمْ، فَرِيضَةً دَهْرِيَّةً فِي أَجْيَالِكُمْ فِي جَمِيعِ مَسَاكِنِكُمْ.</td>
+        </tr>
+        <tr id="table_4_row_14" class="text">
+            <td class="english">‘And you shall count for yourselves from the day after the Sabbath, from the day that you brought the sheaf of the wave offering: seven Sabbaths shall be completed.</td>
+            <td class="arabic">«ثُمَّ تَحْسُبُونَ لَكُمْ مِنْ غَدِ السَّبْتِ مِنْ يَوْمِ إِتْيَانِكُمْ بِحُزْمَةِ التَّرْدِيدِ سَبْعَةَ أَسَابِيعَ تَكُونُ كَامِلَةً.</td>
+        </tr>
+        <tr id="table_4_row_15" class="intro">
             <td class="english">Glory be to the Holy Trinity, our God, forever and unto the age of all ages. Amen.</td>
             <td class="arabic">مجداً للثالوث القدوس الهنا إلى الأبد وإلى أبد الآبدين كلها، آمين.</td>
         </tr>
+        
     </table>   
 
 
@@ -293,7 +306,7 @@ ${paschalPraiseHtml}
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_10" title="Coptic Psalm">
         <caption class="caption" id="caption_table_10">Coptic Psalm<br>(27:12, 35:11-12, 16)
-        <span class="arabic-caption">المزمور قبطياً<br>(27: 12 و 35: 11 - 12 و 16)</span></caption>
+        <span class="arabic-caption">المزمور قبطياً<br>(142: 6 ، 7 ، 30: 3 ، 4)</span></caption>
 
         <tr id="table_10_row_0" class="intro">
             <td class="english">A Psalm of David</td>
@@ -307,12 +320,12 @@ ${paschalPraiseHtml}
         </tr>
         <tr id="table_10_row_2" class="text">
             <td class="english">Answer me speedily, O Lord; My spirit fails! Do not hide Your face from me, Lest I be like those who go down into the pit.</td>
-            <td class="coptic">ⲥⲱⲧⲉⲙ ⲉⲣⲟⲓ ⲛ̀ⲭⲱⲗⲉⲙ Ⲡ̀⳪ ϫⲉ ⲁϥⲙⲟⲩⲛⲕ ⲛ̀ϫⲉ ⲡⲁⲡ̀ⲛⲉⲩⲙⲁ : ⲙ̀ⲡⲉⲣⲧⲁⲥⲑⲟ ⲙ̀ⲡⲉⲕϩⲟ ⲥⲁⲃⲟⲗ ⲙ̀ⲙⲟⲓ ⲟⲩⲟϩ ⲛ̀ⲧⲁⲉⲣ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲛⲏⲉⲑⲛⲁ ⲉ̀ϧ̀ⲣⲏⲓ ⲉ̀ⲫ̀ⲗⲁⲕⲕⲟⲥ </td>
+            <td class="coptic">ⲥⲱⲧⲉⲙ ⲉⲣⲟⲓ ⲛ̀ⲭⲱⲗⲉⲙ Ⲡ̀ϭⲟⲓⲥ ϫⲉ ⲁϥⲙⲟⲩⲛⲕ ⲛ̀ϫⲉ ⲡⲁⲡ̀ⲛⲉⲩⲙⲁ : ⲙ̀ⲡⲉⲣⲧⲁⲥⲑⲟ ⲙ̀ⲡⲉⲕϩⲟ ⲥⲁⲃⲟⲗ ⲙ̀ⲙⲟⲓ ⲟⲩⲟϩ ⲛ̀ⲧⲁⲉⲣ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲛⲏⲉⲑⲛⲁ ⲉ̀ϧ̀ⲣⲏⲓ ⲉ̀ⲫ̀ⲗⲁⲕⲕⲟⲥ </td>
             <td class="arabic">أَسْرِعْ أَجِبْنِي يَا رَبُّ. فَنِيَتْ رُوحِي. لاَ تَحْجُبْ وَجْهَكَ عَنِّي فَأُشْبِهَ الْهَابِطِينَ فِي الْجُبِّ.</td>
         </tr>
         <tr id="table_10_row_3" class="text">
             <td class="english">Into Your hand I commit my spirit; You have redeemed me, O Lord God of truth.</td>
-            <td class="coptic">Ⲉⲓⲉ̀ⲭⲱ ⲙ̀ⲡⲁ ⲡ̀ⲛⲉⲩⲙⲁ ϧⲉⲛ ⲛⲉⲕϫⲓϫ : ⲁⲕⲥⲟⲧⲧ Ⲡ̀⳪ Ⲫϯ ⲛ̀ⲧⲉ ϯⲙⲉⲑⲙⲏⲓ :</td>
+            <td class="coptic">Ⲉⲓⲉ̀ⲭⲱ ⲙ̀ⲡⲁ ⲡ̀ⲛⲉⲩⲙⲁ ϧⲉⲛ ⲛⲉⲕϫⲓϫ : ⲁⲕⲥⲟⲧⲧ Ⲡ̀ϭⲟⲓⲥ Ⲫϯ ⲛ̀ⲧⲉ ϯⲙⲉⲑⲙⲏⲓ :</td>
             <td class="arabic">فِي يَدِكَ أَسْتَوْدِعُ رُوحِي. فَدَيْتَنِي يَا رَبُّ إِلَهَ الْحَقِّ.</td>
         </tr>
         </tr>
@@ -328,7 +341,7 @@ ${paschalPraiseHtml}
         <span class="arabic-caption">الأناجيل قبطياً</span></caption>
         <tr id="table_12_row_0" class="priest">
             <td class="english">A chapter according to St. Matthew,</td>
-            <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲱⲛ ̀ⲁⲅⲓⲟ.</td>
+            <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲟⲛ ⲁ̀ⲅⲓⲟⲩ.</td>
             <td class="arabic">فصل من إنجيل معلمنا مار متى</td>
         </tr>
 
@@ -338,11 +351,11 @@ ${paschalPraiseHtml}
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_12_row_2" class="text">
-            <td class="coptic">Ⲟⲩⲟϩ ⲓⲥ ⲡⲓⲕⲁⲧⲁⲡⲉⲧⲁⲥⲙⲁ ⲛ̀ⲧⲉ ⲡⲓⲉⲣⲫⲉⲓ ⲁϥ ⲫⲱϫⲓ ⲓⲥ ϫⲉⲛ ⲡ̀ϣⲱⲓ ⲉ̀ⲡⲉⲥⲏⲧ ⲁϥ ⲉⲣⲥ̀ⲛⲁⲩ : ⲟⲩⲟϩ ⲡⲓⲕⲁϩⲓ ⲁϥⲙⲟⲛⲙⲉⲛ : ⲛⲓⲡⲉⲧⲣⲁ ⲁⲩⲫⲱϫⲓ. Ⲟⲩⲟϩ ⲛⲓⲙ̀ϩⲁⲩ ⲁⲩⲟⲩⲱⲛ : ⲟⲩⲟϩ ⲟⲩⲙⲏϣ ⲛ̀ⲥⲱⲙⲁ ⲛ̀ⲧⲉ ⲛⲏ ⲉ̀ⲑⲟⲩⲁⲃ ⲛⲏⲉ̀ⲧⲁⲩⲉⲛⲕⲟⲧ ⲁⲩⲧⲱⲟⲩⲛⲟⲩ <br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲟⲩⲟϩ ⲓⲥ ⲡⲓⲕⲁⲧⲁⲡⲉⲧⲁⲥⲙⲁ ⲛ̀ⲧⲉ ⲡⲓⲉⲣⲫⲉⲓ ⲁϥ ⲫⲱϫⲓ ⲓⲥϫⲉⲛ ⲡ̀ϣⲱⲓ ⲉ̀ⲡⲉⲥⲏⲧ ⲁϥ ⲉⲣⲥ̀ⲛⲁⲩ : ⲟⲩⲟϩ ⲡⲓⲕⲁϩⲓ ⲁϥⲙⲟⲛⲙⲉⲛ : ⲛⲓⲡⲉⲧⲣⲁ ⲁⲩⲫⲱϫⲓ. Ⲟⲩⲟϩ ⲛⲓⲙ̀ϩⲁⲩ ⲁⲩⲟⲩⲱⲛ : ⲟⲩⲟϩ ⲟⲩⲙⲏϣ ⲛ̀ⲥⲱⲙⲁ ⲛ̀ⲧⲉ ⲛⲏ ⲉ̀ⲑⲟⲩⲁⲃ ⲛⲏⲉ̀ⲧⲁⲩⲉⲛⲕⲟⲧ ⲁⲩⲧⲱⲟⲩⲛⲟⲩ <br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_12_row_3" class="priest">
             <td class="english">According to St. Mark</td>
-            <td class="coptic">ⲕⲁⲧⲁ Ⲙⲁⲣⲕⲟⲛ ̀ⲁⲅⲓⲟ.</td>
+            <td class="coptic">ⲕⲁⲧⲁ Ⲙⲁⲣⲕⲟⲛ ⲁ̀ⲅⲓⲟⲩ.</td>
             <td class="arabic">حسب مار مرقس</td>
         </tr>
         <tr id="table_12_row_4" class="intro">
@@ -351,11 +364,11 @@ ${paschalPraiseHtml}
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_12_row_5" class="text">
-            <td class="coptic">Ⲟⲩⲟϩ ⲡⲓⲕⲁⲧⲁⲡⲉⲧⲁⲥⲙⲁ ⲛ̀ⲧⲉ ⲡⲓⲉⲣⲫⲉⲓ ⲁϥⲫⲱϧ ϧⲉⲛ ⲥ̀ⲛⲁⲩ : ⲓⲥϫⲉⲛ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ϧ̀ⲣⲏⲓ.Ⲉ̀ⲧⲁⲛⲁⲩ ⲇⲉ ⲛ̀ϫⲉ ⲡⲓⲉ̀ⲕⲁⲧⲟⲛⲧⲁⲣⲭⲟⲥ ⲫⲏⲉⲧⲟϩⲓ ⲉ̀ⲣⲁⲧϥ ⲙ̀ⲡⲉϥⲙ̀ⲑⲟ ϫⲉ ⲁϥϯ ⲙ̀ⲡⲓ̅ⲡ̅ⲛ̅ⲁ : ⲡⲉϫⲁϥ ϫⲉ : ⲁ̀ⲗⲏⲑⲱⲥ ⲡⲁⲓ ⲣⲱⲙⲓ ⲛⲉ ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫϯ ⲡⲉ.<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲟⲩⲟϩ ⲡⲓⲕⲁⲧⲁⲡⲉⲧⲁⲥⲙⲁ ⲛ̀ⲧⲉ ⲡⲓⲉⲣⲫⲉⲓ ⲁϥⲫⲱϧ ϧⲉⲛ ⲥ̀ⲛⲁⲩ : ⲓⲥϫⲉⲛ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ϧ̀ⲣⲏⲓ. Ⲉ̀ⲧⲁⲛⲁⲩ ⲇⲉ ⲛ̀ϫⲉ ⲡⲓⲉ̀ⲕⲁⲧⲟⲛⲧⲁⲣⲭⲟⲥ ⲫⲏⲉⲧⲟϩⲓ ⲉ̀ⲣⲁⲧϥ ⲙ̀ⲡⲉϥⲙ̀ⲑⲟ ϫⲉ ⲁϥϯ ⲙ̀ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ : ⲡⲉϫⲁϥ ϫⲉ : ⲁ̀ⲗⲏⲑⲱⲥ ⲡⲁⲓ ⲣⲱⲙⲓ ⲛⲉ ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫϯ ⲡⲉ.<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_12_row_6" class="priest">
             <td class="english">According to St. Luke</td>
-            <td class="coptic">ⲕⲁⲧⲁ Ⲗⲟⲩⲕⲁⲛ  ̀ⲁⲅⲓⲟⲩ.</td>
+            <td class="coptic">ⲕⲁⲧⲁ Ⲗⲟⲩⲕⲁⲛ ⲁ̀ⲅⲓⲟⲩ.</td>
             <td class="arabic">حسب مار لوقا</td>
         </tr>
         <tr id="table_12_row_7" class="intro">
@@ -364,11 +377,11 @@ ${paschalPraiseHtml}
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_12_row_8" class="text">
-            <td class="coptic">̀̀Ⲉⲧⲁϥⲛⲁⲩ ⲇⲉ ⲛ̀ϫⲉ ⲡⲓⲉ̀ⲕⲁⲧⲟⲛⲧⲁⲣⲭⲟⲥ ⲉ̀ⲫⲏⲉ̀ⲧⲁϥϣⲱⲡⲓ ⲁϥϯⲱ̀ⲟⲩ ⲙ̀Ⲫϯ ⲉϥϫⲱⲙ̀ⲙⲟⲥ : ϫⲉ ⲟⲛⲧⲱⲥ ⲛⲉⲟⲩⲑ̀ⲙⲏⲓ ⲡⲉ ⲡⲓⲣⲱⲙⲓ : Ⲟⲩⲟϩ ⲛⲓⲙⲏϣ ⲧⲏⲣⲟⲩ ⲉ̀ⲧⲁⲩⲓ̀ ⲉ̀ϫⲉⲛ ⲧⲁⲓ ⲑⲉⲟⲣⲓⲁ̀ ⲉ̀ⲧⲁⲩⲛⲁⲩ ⲉ̀ⲛⲏⲉ̀ⲧⲁⲩϣⲱⲡⲓ : ⲁⲩⲧⲁⲥⲑⲟⲉⲩⲕⲱⲗϩ ϧⲉⲛ ⲧⲟⲩⲙⲉⲥⲧⲉⲛϩⲏⲧ<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲉ̀ⲧⲁϥⲛⲁⲩ ⲇⲉ ⲛ̀ϫⲉ ⲡⲓⲉ̀ⲕⲁⲧⲟⲛⲧⲁⲣⲭⲟⲥ ⲉ̀ⲫⲏⲉ̀ⲧⲁϥϣⲱⲡⲓ ⲁϥϯⲱ̀ⲟⲩ ⲙ̀Ⲫϯ ⲉϥϫⲱⲙ̀ⲙⲟⲥ : ϫⲉ ⲟⲛⲧⲱⲥ ⲛⲉⲟⲩⲑ̀ⲙⲏⲓ ⲡⲉ ⲡⲓⲣⲱⲙⲓ : Ⲟⲩⲟϩ ⲛⲓⲙⲏϣ ⲧⲏⲣⲟⲩ ⲉ̀ⲧⲁⲩⲓ̀ ⲉ̀ϫⲉⲛ ⲧⲁⲓ ⲑⲉⲟⲣⲓⲁ̀ ⲉ̀ⲧⲁⲩⲛⲁⲩ ⲉ̀ⲛⲏⲉ̀ⲧⲁⲩϣⲱⲡⲓ : ⲁⲩⲧⲁⲥⲑⲟⲉⲩⲕⲱⲗϩ ϧⲉⲛ ⲧⲟⲩⲙⲉⲥⲧⲉⲛϩⲏⲧ<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_12_row_9" class="priest">
             <td class="english">According to St. John</td>
-            <td class="coptic">ⲕⲁⲧⲁ Ⲓⲱⲁⲛⲛⲏⲛ  ̀ⲁⲅⲓⲟⲩ.</td>
+            <td class="coptic">ⲕⲁⲧⲁ Ⲓⲱⲁⲛⲛⲏⲛ ⲁ̀ⲅⲓⲟⲩ.</td>
             <td class="arabic">حسب مار يوحنا</td>
         </tr>
         <tr id="table_12_row_10" class="intro">
@@ -377,7 +390,7 @@ ${paschalPraiseHtml}
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_12_row_11" class="text">
-            <td class="coptic">Ⲛⲓⲟⲩⲇⲁⲓ ⲟⲩⲛⲉ̀ⲡⲓⲇⲏ ⲛⲉⲧ̀ⲡⲁⲣⲁⲥⲕⲉⲩⲏ ⲇⲉ : ϩⲓⲛⲁ ⲛ̀ⲧⲟⲩϣ̀ⲧⲉⲙ ⲟϩⲓ ⲛ̀ϫⲉ ⲛⲓⲥⲱⲙⲁ ϩⲓϫⲉⲛ ⲡⲓ⳧ ⲙ̀ⲡ̀ⲥⲁⲃⲃⲁⲧⲟⲛ : ⲛⲉⲟⲩⲛⲓϣϯ ⲅⲁⲣ ⲡⲉ ⲡⲉ̀ϩⲟⲟⲩ ⲙ̀ⲡ̀ⲥⲁⲃⲃⲁⲧⲟⲛ ⲉ̀ⲧⲉⲙ̀ⲙⲁⲩ : ⲁⲩϯϩⲟ ⲉ̀Ⲡⲓⲗⲁⲧⲟⲥ ϩⲓⲛⲁ ⲛ̀ⲧⲟⲩⲕⲱϣ ⲛ̀ⲛⲟⲩⲕⲉⲗⲓ ⲟⲩⲟϩ ⲛ̀ⲧⲟⲩⲟⲗⲟⲩ.<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲛⲓⲟⲩⲇⲁⲓ ⲟⲩⲛⲉ̀ⲡⲓⲇⲏ ⲛⲉⲧ̀ⲡⲁⲣⲁⲥⲕⲉⲩⲏ ⲇⲉ : ϩⲓⲛⲁ ⲛ̀ⲧⲟⲩϣ̀ⲧⲉⲙ ⲟϩⲓ ⲛ̀ϫⲉ ⲛⲓⲥⲱⲙⲁ ϩⲓϫⲉⲛ ⲡⲓ⳧ ⲙ̀ⲡ̀ⲥⲁⲃⲃⲁⲧⲟⲛ : ⲛⲉⲟⲩⲛⲓϣϯ ⲅⲁⲣ ⲡⲉ ⲡⲉ̀ϩⲟⲟⲩ ⲙ̀ⲡ̀ⲥⲁⲃⲃⲁⲧⲟⲛ ⲉ̀ⲧⲉⲙ̀ⲙⲁⲩ: ⲁⲩϯϩⲟ ⲉ̀Ⲡⲓⲗⲁⲧⲟⲥ ϩⲓⲛⲁ ⲛ̀ⲧⲟⲩⲕⲱϣ ⲛ̀ⲛⲟⲩⲕⲉⲗⲓ ⲟⲩⲟϩ ⲛ̀ⲧⲟⲩⲟⲗⲟⲩ.<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_12_row_12" class="intro">
             <td class="english">Glory be to God forever.</td>
@@ -392,7 +405,7 @@ ${paschalPraiseHtml}
 <div class="section" id="section_7" title="English and Arabic Psalm & Gospel">
 <table id="table_13" title="Psalm">
     <caption id="caption_table_13" class="caption">Psalm<br>(143:6-7, 31:5)
-    <span class="arabic-caption">المزمور<br>(143: 6-7 و 31: 5)</span></caption>
+    <span class="arabic-caption">المزمور<br>(142: 6 ، 7 ، 30: 3 ، 4)</span></caption>
     <tr id="table_13_row_1" class="intro">
         <td class="english">From the Psalms of our teacher David the prophet. May his blessing be with us. Amen.</td>
         <td class="arabic">من مزامير معلمنا داود النبي، بركته تكون معنا، آمين.</td>
@@ -454,7 +467,7 @@ ${paschalPraiseHtml}
 
 <table id="table_15" title="Psalm">
     <caption id="caption_table_15" class="caption">Psalm<br>(143:6-7, 31:5)
-    <span class="arabic-caption">المزمور<br>(143: 6-7 و 31: 5)</span></caption>
+    <span class="arabic-caption">المزمور<br>(142: 6 ، 7 ، 30: 3 ، 4)</span></caption>
     <tr id="table_15_row_1" class="intro">
         <td class="english">From the Psalms of our teacher David the prophet. May his blessing be with us. Amen.</td>
         <td class="arabic">من مزامير معلمنا داود النبي، بركته تكون معنا، آمين.</td>
@@ -661,7 +674,14 @@ ${daytimeLitaniesHtml}
 ${evnotiNaiNanGreatHtml}
 ${endOfServiceHymnHtml}
 </div>
-
+<div class="section" id="section_30" title="Next Hour">
+<table id="table_50" title="Next Hour">
+    <tr id="table_50_row_0" data-navigation="DOF12sc" class="navigationButton">
+        <td class="englishButton">The TWELFTH Hour of the DAY of GREAT FRIDAY</td>
+        <td class="arabicButton">الساعة الثانية عشر من يوم الجمعة العظيمة</td>
+    </tr>
+</table>
+</div>
 `;
 
 };

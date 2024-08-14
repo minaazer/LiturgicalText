@@ -224,33 +224,31 @@ ${nighttimeExpositionIntroHtml}
         <td class="arabic">صلى مخلصنا لكى يعلمنا أن نسهر كل حين فى الصلاة.</td>
     </tr>
     <tr id="table_12_row_5" class="text">
-        <td class="english">After He finished, He asked His disciples, “Who do the crowds say that I am?” 
-
-They answered, “John the Baptist, but some say Elijah; others say that one of the old prophets has risen again.</td>
+        <td class="english">After He finished, He asked His disciples, “Who do the crowds say that I am?”</td>
         <td class="arabic">وبعد أن فرغ سأل تلاميذه قائلاً: ماذا يقول الناس عنى؟</td>
     </tr>
     <tr id="table_12_row_6" class="text">
-        <td class="english">” At this time our omniscient Lord was testing them. He said to them, “But who do you say that I am?”</td>
+        <td class="english">They answered, “John the Baptist, but some say Elijah; others say that one of the old prophets has risen again.</td>
         <td class="arabic">فأجابوه: أن قوماً يقولون أنك أنت القديس يوحنا المعمدان، وآخرون يقولون أنت إيليا أو واحد من الأنبياء الأولين…</td>
     </tr>
     <tr id="table_12_row_7" class="text">
-        <td class="english">But Peter answered and said, “The Christ of God.”</td>
+        <td class="english">At this time our omniscient Lord was testing them. He said to them, “But who do you say that I am?”</td>
         <td class="arabic">أن العارف بكل شيء قبل كونه، امتحنهم ثم قال لهم: وأنتم ماذا تقولون؟</td>
     </tr>
     <tr id="table_12_row_8" class="text">
-        <td class="english">Then Jesus said, “Blessed are you Peter the solid rock because flesh and blood did not reveal this to you but My Father did, that you may preach it to the world.</td>
+        <td class="english">But Peter answered and said, “The Christ of God.”</td>
         <td class="arabic">فأجاب بطرس وقال: أنت هو المسيح ابن الله الذى أتى إلى العالم حتى يخلّصنا.</td>
     </tr>
     <tr id="table_12_row_9" class="text">
-        <td class="english">As for the cursed Jews, they are rejecting Me because of their envy and will deliver Me to death.</td>
+        <td class="english">Then Jesus said, “Blessed are you Peter the solid rock because flesh and blood did not reveal this to you but My Father did, that you may preach it to the world.</td>
         <td class="arabic">طوباك أنت يا بطرس، لأنه ليس لحم ودم أعلن لك هذا، لكن أبى هو الذى أظهره لك لكي تكرز به فى المسكونة.</td>
     </tr>
     <tr id="table_12_row_10" class="text">
-        <td class="english">I shall expose, defame and give them eternal disgrace and shame.”</td>
+        <td class="english">As for the cursed Jews, they are rejecting Me because of their envy and will deliver Me to death.</td>
         <td class="arabic">أما اليهود المخالفون فإنهم يجحدوننى من أجل حسدهم ويسلموننى إلى الموت.</td>
     </tr>
     <tr id="table_12_row_11" class="text">
-        <td class="english"></td>
+        <td class="english">I shall expose, defame and give them eternal disgrace and shame.”</td>
         <td class="arabic">وأنا أشهرهم وأفضحهم وأعطيهم عاراً وخزياً أبدياً.</td>
     </tr>
 </table>
@@ -258,7 +256,18 @@ They answered, “John the Baptist, but some say Elijah; others say that one of 
 ${expositionConclusionHtml}
 
 </div>
-
+<div class="section" id="section_30" title="Next Hour">
+<table id="table_50" title="Next Hour">
+    <tr id="table_50_row_0" data-navigation="EOM6sc" class="navigationButton">
+        <td class="englishButton">The SIXTH Hour of the EVE of MONDAY</td>
+        <td class="arabicButton">الساعة السادسة من ليلة الإثنين</td>
+    </tr>
+    <tr id="table_50_row_1" data-navigation="NighttimeLitaniessc" class="navigationButton">
+    <td class="englishButton">Nighttime Litanies</td>
+    <td class="arabicButton">طلبات المساء</td>
+</tr>
+</table>
+</div>
 
 `;
 

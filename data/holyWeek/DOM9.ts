@@ -32,7 +32,7 @@ ${hourIntroHtml}
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ  Ⲏ̀ⲥⲁⲏ̀ⲁⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ (ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ): </td>
         </tr>
         <tr id="table_2_row_7" class="text">
-            <td class="coptic">Ⲡⲉϫⲉ Ⲫϯ ϫⲉ ⲙⲁϯϩⲟ ⲙⲁϯϩⲟ ⲉ̀ⲡⲁⲗⲁⲟⲥ ⲛⲓⲟⲩⲏⲃ ⲥⲁϫⲓ ⲉ̀ⲡϩⲏ ⲧⲛ̀Ⲓ̀̅ⲗ̅ⲏ̅ⲙ ⲙⲁϯϩⲟ ⲉ̀ⲣⲟⲥ ϫⲉ ⲁϥⲁ̀ϣⲁⲓ ⲛ̀ϫⲉ ⲡⲉⲥⲑⲉⲃⲓⲟ </td>
+            <td class="coptic">Ⲡⲉϫⲉ Ⲫϯ ϫⲉ ⲙⲁϯϩⲟ ⲙⲁϯϩⲟ ⲉ̀ⲡⲁⲗⲁⲟⲥ ⲛⲓⲟⲩⲏⲃ ⲥⲁϫⲓ ⲉ̀ⲡϩⲏⲧ ⲛ̀Ⲓⲉⲣⲟⲩⲥⲁⲗⲏⲙ ⲙⲁϯϩⲟ ⲉ̀ⲣⲟⲥ ϫⲉ ⲁϥⲁ̀ϣⲁⲓ ⲛ̀ϫⲉ ⲡⲉⲥⲑⲉⲃⲓⲟ </td>
         </tr>
         <tr id="table_2_row_8" class="intro">
             <td class="coptic">Ⲟⲩⲱⲟ̀ⲩ ⲛϯ̀ⲧⲣ̀ⲓⲁⲥ ⲉⲑ̀ⲟⲩⲁⲃ ...</td>
@@ -41,7 +41,7 @@ ${hourIntroHtml}
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ  ⲛⲓⲡⲁⲣⲟⲓⲙⲓⲁ ⲛ̀ⲧⲉ Ⲥⲟⲗⲟⲙⲱⲛ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ (ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ) </td>
         </tr>
         <tr id="table_2_row_10" class="text">
-            <td class="coptic">Ⲙⲡⲁⲣⲟⲓⲙⲓⲁ ⲛ̀ⲥⲟⲗⲟⲙⲱⲛ ⲡ̀ϣⲏⲣⲓ ⲙ̀ⲡ̀ⲟⲩⲣⲟ Ⲇⲁⲩⲓⲇ. Ⲫⲏⲉ̀ⲧⲁϥⲉⲣⲟⲩⲣⲟ ϧⲉⲛ ⲡⲒⲥⲣⲁⲏⲗ. </td>
+            <td class="coptic">Ⲛⲓⲡⲁⲣⲟⲓⲙⲓⲁ ⲛ̀ⲥⲟⲗⲟⲙⲱⲛ ⲡ̀ϣⲏⲣⲓ ⲙ̀ⲡ̀ⲟⲩⲣⲟ Ⲇⲁⲩⲓⲇ. Ⲫⲏⲉ̀ⲧⲁϥⲉⲣⲟⲩⲣⲟ ϧⲉⲛ ⲡⲒⲥⲣⲁⲏⲗ. </td>
         </tr>
         <tr id="table_2_row_20" class="intro">
             <td class="coptic">Ⲟⲩⲱⲟ̀ⲩ ⲛϯ̀ⲧⲣ̀ⲓⲁⲥ ⲉⲑ̀ⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ϣⲁ ⲉⲛ̀ⲉϩ ⲛⲉⲙ ϣⲁ ⲉⲛⲉϩ ⲛⲧ̀ⲉ ⲛⲓⲉⲛ̀ⲉϩ ⲧⲏⲣⲟⲩ: ⲁⲙ̀ⲏⲛ.</td>
@@ -454,7 +454,7 @@ ${daytimeExpositionIntroHtml}
         <td class="arabic">وأوصيتنى وصية فخالفتها يا ربى والهى.</td>
     </tr>
     <tr id="table_22_row_9" class="intro">
-        <td class="english">I ask of You O good One to have mercy upon me according to Your great mercy.</td>
+        <td class="english">I ask of You O Good One to have mercy upon me according to Your great mercy.</td>
         <td class="arabic">أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك.</td>
     </tr>
     <tr id="table_22_row_10" class="text">
@@ -478,11 +478,11 @@ ${daytimeExpositionIntroHtml}
         <td class="arabic">ولكنك أطعتها وتركت أوامرى ورفضت قولى ووصاياى.</td>
     </tr>
     <tr id="table_22_row_15" class="intro">
-        <td class="english">I ask of You O Good One to have mercy upon me according to Your great mercy and remember me O Lord.</td>
+        <td class="english">I ask of You O Good One to have mercy upon me according to Your great mercy.</td>
         <td class="arabic">أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك.</td>
     </tr>
     <tr id="table_22_row_16" class="text">
-        <td class="english">From dust I was created and like the herbs of the field You gave me the prowess of Your power and diminished my humility.</td>
+        <td class="english">Remember me O Lord, from dust I was created and like the herbs of the field You gave me the prowess of Your power and diminished my humility.</td>
         <td class="arabic">اذكرنى يا رب، اننى تراب، ومثل العُشب الذى فى الحقل. أعطيتنى يا ربى عزة قوتك، فتناقصت حقارتى.</td>
     </tr>
     <tr id="table_22_row_17" class="text">
@@ -495,7 +495,7 @@ ${daytimeExpositionIntroHtml}
     </tr>
     <tr id="table_22_row_19" class="intro">
         <td class="english">I ask of You O Good One to have mercy upon me according to Your great mercy.</td>
-        <td class="arabic">المرد: أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك.</td>
+        <td class="arabic">أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك.</td>
     </tr>
     <tr id="table_22_row_20" class="text">
         <td class="english">You desired divinity and wanted to be a creator like your Lord.</td>
@@ -554,7 +554,7 @@ ${daytimeExpositionIntroHtml}
         <td class="arabic">يا آدم أنت تراب، وسأردك إلى التراب جزاء الأعمال التى تجاسرت عليها.</td>
     </tr>
     <tr id="table_22_row_34" class="text">
-        <td class="english">And Eve, why did you do this and disobey My commandments?</td>
+        <td class="english">And Eve, why did you do this and disobey My commandments? It was not that an angel or a bird talked to you about it but a serpent, beast by its nature and you listened to his advice.</td>
         <td class="arabic">وأنت يا حواء لماذا صنعت هكذا وخالفت وصاياى؟  ليس ملاك تكلم معك، ولا طائر من الجو، بل وحش، ثعبان بطبيعته، فسمعت منه مشورته.</td>
     </tr>
     <tr id="table_22_row_35" class="text">
@@ -661,6 +661,19 @@ ${daytimeExpositionIntroHtml}
 
 ${expositionConclusionHtml}
 
+</div>
+<div class="section" id="section_30" title="Next Hour">
+<table id="table_50" title="Next Hour">
+    <tr id="table_50_row_0" data-navigation="DOM11sc" class="navigationButton">
+        <td class="englishButton">The ELEVENTH Hour of the DAY of MONDAY</td>
+        <td class="arabicButton">الساعة الحادية عشر من يوم الإثنين</td>
+    </tr>
+    <tr id="table_50_row_1" data-navigation="DaytimeLitaniessc" class="navigationButton">
+        <td class="englishButton">Daytime Litanies</td>
+        <td class="arabicButton">طلبات النهار</td>
+    </tr>
+</table>
+</div>
 </div>
 
 

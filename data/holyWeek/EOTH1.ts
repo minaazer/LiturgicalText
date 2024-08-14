@@ -241,7 +241,7 @@ ${nighttimeExpositionIntroHtml}
         <td class="arabic">فصار انشقاق بين اليهود من أجل هذا الكلام الذى قاله لهم. وقال قوم من المنافقين أنه مجنون لماذا تسمعون منه؟</td>
     </tr>
     <tr id="table_12_row_9" class="text">
-        <td class="english">Others said, “These are not the words of one who has a man.</td>
+        <td class="english">Others said, “These are not the words of one possessed by a demon.</td>
         <td class="arabic">وقال آخرون: هذا الكلام ليس هو كلام إنسان به شيطان.</td>
     </tr>
     <tr id="table_12_row_10" class="text">
@@ -270,7 +270,18 @@ ${nighttimeExpositionIntroHtml}
 ${expositionConclusionHtml}
 
 </div>
-
+<div class="section" id="section_30" title="Next Hour">
+<table id="table_50" title="Next Hour">
+    <tr id="table_50_row_0" data-navigation="EOTH3sc" class="navigationButton">
+        <td class="englishButton">The THIRD Hour of the EVE of THURSDAY</td>
+        <td class="arabicButton">الساعة الثالثة من ليلة الخميس</td>
+    </tr>
+    <tr id="table_50_row_1" data-navigation="NighttimeLitaniessc" class="navigationButton">
+    <td class="englishButton">Nighttime Litanies</td>
+    <td class="arabicButton">طلبات المساء</td>
+</tr>
+</table>
+</div>
 `;
 
 };

@@ -180,7 +180,7 @@ ${paschalPraiseHtml}
         <td class="arabic">وَأَمَّا الْفَرِّيسِيُّ فَلَمَّا رَأَى ذَلِكَ تَعَجَّبَ أَنَّهُ لَمْ يَغْتَسِلْ أَوَّلاً قَبْلَ الْغَدَاءِ.</td>
     </tr>
     <tr id="table_10_row_6" class="text">
-        <td class="english">" Then the Lord said to him, "Now you Pharisees make the outside of the cup and dish clean, but your inward part is full of greed and wickedness.</td>
+        <td class="english">Then the Lord said to him, "Now you Pharisees make the outside of the cup and dish clean, but your inward part is full of greed and wickedness.</td>
         <td class="arabic">فَقَالَ لَهُ الرَّبُّ: «أَنْتُمُ الآنَ أَيُّهَا الْفَرِّيسِيُّونَ تُنَقُّونَ خَارِجَ الْكَأْسِ وَالْقَصْعَةِ وَأَمَّا بَاطِنُكُمْ فَمَمْلُوءٌ اخْتِطَافاً وَخُبْثاً.</td>
     </tr>
     <tr id="table_10_row_7" class="text">
@@ -200,7 +200,7 @@ ${paschalPraiseHtml}
         <td class="arabic">وَيْلٌ لَكُمْ أَيُّهَا الْفَرِّيسِيُّونَ لأَنَّكُمْ تُحِبُّونَ الْمَجْلِسَ الأَوَّلَ فِي الْمَجَامِعِ وَالتَّحِيَّاتِ فِي الأَسْوَاقِ.</td>
     </tr>
     <tr id="table_10_row_11" class="text">
-        <td class="english">" Woe to you, scribes and Pharisees, hypocrites!</td>
+        <td class="english">Woe to you, scribes and Pharisees, hypocrites! For you are like graves which are not seen, and the men who walk over them are not aware of them."</td>
         <td class="arabic">وَيْلٌ لَكُمْ أَيُّهَا الْكَتَبَةُ وَالْفَرِّيسِيُّونَ الْمُرَاؤُونَ لأَنَّكُمْ مِثْلُ الْقُبُورِ الْمُخْتَفِيَةِ وَالَّذِينَ يَمْشُونَ عَلَيْهَا لاَ يَعْلَمُونَ!».</td>
     </tr>
     <tr id="table_10_row_12" class="text">
@@ -290,7 +290,18 @@ ${expositionConclusionHtml}
 
 </div>
 
-
+<div class="section" id="section_30" title="Next Hour">
+<table id="table_50" title="Next Hour">
+    <tr id="table_50_row_0" data-navigation="EOT11sc" class="navigationButton">
+        <td class="englishButton">The ELEVENTH Hour of the EVE of TUESDAY</td>
+        <td class="arabicButton">الساعة الحادية عشر من ليلة الثلاثاء</td>
+    </tr>
+    <tr id="table_50_row_1" data-navigation="NighttimeLitaniessc" class="navigationButton">
+    <td class="englishButton">Nighttime Litanies</td>
+    <td class="arabicButton">طلبات المساء</td>
+</tr>
+</table>
+</div>
 
 `;
 

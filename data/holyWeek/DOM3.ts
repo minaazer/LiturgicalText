@@ -271,7 +271,7 @@ ${paschalPraiseHtml}
         <td class="arabic">وَلَمْ يَدَعْ أَحَداً يَجْتَازُ الْهَيْكَلَ بِمَتَاعٍ.</td>
     </tr>
     <tr id="table_20_row_10" class="text">
-        <td class="english">Then He taught, saying to them, "Is it not written, 'My house shall be called a house of prayer for all nations'?</td>
+        <td class="english">Then He taught, saying to them, "Is it not written, 'My house shall be called a house of prayer for all nations'? But you have made it a 'den of thieves.'"</td>
         <td class="arabic">وَكَانَ يُعَلِّمُ قَائِلاً لَهُمْ: «أَلَيْسَ مَكْتُوباً: بَيْتِي بَيْتَ صَلاَةٍ يُدْعَى لِجَمِيعِ الأُمَمِ؟ وَأَنْتُمْ جَعَلْتُمُوهُ مَغَارَةَ لُصُوصٍ».</td>
     </tr>
     <tr id="table_20_row_11" class="text">
@@ -307,7 +307,7 @@ ${daytimeExpositionIntroHtml}
         <td class="arabic">طرح الساعة الثالثة من يوم الاثنين من البصخة المقدسة بركتها علينا. آمين.</td>
     </tr>
     <tr id="table_22_row_4" class="text">
-        <td class="english">On the evening of Palm Sunday, our Lord and Savior Jesus Christ went with His disciples outside the city.</td>
+        <td class="english">On the evening of Hosanna Sunday, our Lord and Savior Jesus Christ went with His disciples outside the city.</td>
         <td class="arabic">فى عشية يوم الشعانين أتى المسيح الهنا يسوع المخلص خارج المدينة مع تلاميذه،</td>
     </tr>
     <tr id="table_22_row_5" class="text">
@@ -364,6 +364,19 @@ ${expositionConclusionHtml}
 
 </div>
 
+<div class="section" id="section_30" title="Next Hour">
+<table id="table_50" title="Next Hour">
+    <tr id="table_50_row_0" data-navigation="DOM6sc" class="navigationButton">
+        <td class="englishButton">The SIXTH Hour of the DAY of MONDAY</td>
+        <td class="arabicButton">الساعة السادسة من يوم الإثنين</td>
+    </tr>
+    <tr id="table_50_row_1" data-navigation="DaytimeLitaniessc" class="navigationButton">
+        <td class="englishButton">Daytime Litanies</td>
+        <td class="arabicButton">طلبات النهار</td>
+    </tr>
+</table>
+</div>
+</div>
 
 `;
 

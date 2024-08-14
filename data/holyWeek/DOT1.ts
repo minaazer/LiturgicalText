@@ -23,7 +23,7 @@ ${hourIntroHtml}
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ ⲡⲓⲇⲟⲝⲟⲇⲟⲥ ⲛ̀ⲧⲉ Ⲙⲱⲩ̀ⲥⲏⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ (ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ)</td>
         </tr>
         <tr id="table_2_row_4" class="text">
-            <td class="coptic">Ⲛ̀ϩ̀ⲣⲏⲓ ⲇⲉ ϧⲉⲛ ⲡⲓⲁⲃⲟⲧ ⲙ̀ⲙⲁϩ ϣⲟⲙⲧ ⲛⲧⲉ ⲡ̀ϫⲓⲛⲓ̀ ⲉ̀ⲃⲟⲗ ⲛ̀ⲛⲉⲛ ϣⲏⲣⲓ ⲙ̀ⲡ̀Ⲓⲥⲣⲁⲏⲗ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡ̀ⲕⲁϩⲓ ⲛ̀ⲭⲏⲙⲓ : ϧⲉⲛ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲉ̀ⲧⲉⲙ̀ⲙⲁⲩ : ⲁⲩⲓ̀ ⲉϩ̀ⲣⲏⲓ ⲉ̀ⲡ̀ϣⲁϥⲉ ⲛ̀Ⲥⲓⲛⲁ.</td>
+            <td class="coptic">Ⲛ̀ϩ̀ⲣⲏⲓ ⲇⲉ ϧⲉⲛ ⲡⲓⲁⲃⲟⲧ ⲙ̀ⲙⲁϩ ϣⲟⲙⲧ ⲛ̀ⲧⲉ ⲡ̀ϫⲓⲛⲓ̀ ⲉ̀ⲃⲟⲗ ⲛ̀ⲛⲉⲛϣⲏⲣⲓ ⲙ̀ⲡ̀Ⲓⲥⲣⲁⲏⲗ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡ̀ⲕⲁϩⲓ ⲛ̀ⲭⲏⲙⲓ : ϧⲉⲛ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲉ̀ⲧⲉⲙ̀ⲙⲁⲩ : ⲁⲩⲓ̀ ⲉϩ̀ⲣⲏⲓ ⲉ̀ⲡ̀ϣⲁϥⲉ ⲛ̀Ⲥⲓⲛⲁ.</td>
         </tr>
         <tr id="table_2_row_5" class="intro">
             <td class="coptic">Ⲟⲩⲱⲟ̀ⲩ ⲛϯ̀ⲧⲣ̀ⲓⲁⲥ ⲉⲑ̀ⲟⲩⲁⲃ ...</td>
@@ -41,7 +41,7 @@ ${hourIntroHtml}
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ ̀̀̀̀̀̀Ⲱⲥⲓⲉ̀ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ (ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ)</td>
         </tr>
         <tr id="table_2_row_10" class="text">
-            <td class="coptic">Ⲥⲱⲧⲉⲙ ⲉ̀ⲡ̀ⲥⲁϫⲓ ⲙ̀Ⲡ⳪ ⲛⲉⲛϣⲏⲣⲓ ⲙ̀ⲡⲒ̀̅ⲥ̅ⲗ : ϫⲉ ⲡⲓϩⲁⲡ ⲙ̀Ⲡ̀⳪ ⲟⲩⲃⲉ ⲛⲏⲉⲧϣⲟⲡ ϩⲓϫⲉⲛ ⲡ̀ⲕⲁϩⲓ : ϫⲉ ⲟⲩⲏⲓ ⲙ̀ⲙⲟⲛ ⲙⲉⲑⲙⲏⲓ</td>
+            <td class="coptic">Ⲥⲱⲧⲉⲙ ⲉ̀ⲡ̀ⲥⲁϫⲓ ⲙ̀Ⲡ⳪ ⲛⲉⲛϣⲏⲣⲓ ⲙ̀ⲡ̀Ⲓⲥⲣⲁⲏⲗ : ϫⲉ ⲡⲓϩⲁⲡ ⲙ̀Ⲡ̀⳪ ⲟⲩⲃⲉ ⲛⲏⲉⲧϣⲟⲡ ϩⲓϫⲉⲛ ⲡ̀ⲕⲁϩⲓ : ϫⲉ ⲟⲩⲏⲓ ⲙ̀ⲙⲟⲛ ⲙⲉⲑⲙⲏⲓ</td>
         </tr>
         <tr id="table_2_row_20" class="intro">
             <td class="coptic">Ⲟⲩⲱⲟ̀ⲩ ⲛϯ̀ⲧⲣ̀ⲓⲁⲥ ⲉⲑ̀ⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ϣⲁ ⲉⲛ̀ⲉϩ ⲛⲉⲙ ϣⲁ ⲉⲛⲉϩ ⲛⲧ̀ⲉ ⲛⲓⲉⲛ̀ⲉϩ ⲧⲏⲣⲟⲩ: ⲁⲙ̀ⲏⲛ.</td>
@@ -149,7 +149,7 @@ ${hourIntroHtml}
         <td class="arabic">بِخَطَوَاتِهِ اسْتَمْسَكَتْ رِجْلِي. حَفِظْتُ طَرِيقَهُ وَلَمْ أَحِدْ.</td>
     </tr>
     <tr id="table_4_row_14" class="text">
-        <td class="english">I have not departed from the commandment of His lips; I have treasured the words of His mouth More than my necessary food.</td>
+        <td class="english">I have not departed from the commandment of His lips; I have treasured the words of His mouth more than my necessary food.</td>
         <td class="arabic">مِنْ وَصِيَّةِ شَفَتَيْهِ لَمْ أَبْرَحْ. أَكْثَرَ مِنْ فَرِيضَتِي ذَخَرْتُ كَلاَمَ فَمِهِ.</td>
     </tr>
     <tr id="table_4_row_15" class="text">
@@ -417,7 +417,7 @@ ${paschalPraiseHtml}
         </tr>
         <tr id="table_16_row_1" class="text">
             <td class="english">Deliver my soul, O Lord, from lying lips</td>
-            <td class="coptic">Ⲡ̀ϭⲟⲓⲥ ⲉⲕⲉⲛⲟϩⲉⲙ ⲛ̀ⲧⲁⲯⲩⲭⲏ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ϩⲁⲛⲥ̀ⲫⲟⲧⲟⲩ ⲛ̀ⲟϫⲓ :</td>
+            <td class="coptic">Ⲡ̀ϭⲟⲓⲥ ⲉⲕⲉ̀ⲛⲟϩⲉⲙ ⲛ̀ⲧⲁⲯⲩⲭⲏ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ϩⲁⲛⲥ̀ⲫⲟⲧⲟⲩ ⲛ̀ⲟϫⲓ :</td>
             <td class="arabic">يارب تنجى نفسي من الشفاه الظالمة</td>
         </tr>
         <tr id="table_16_row_2" class="text">
@@ -432,7 +432,7 @@ ${paschalPraiseHtml}
         </tr>
         <tr id="table_16_row_4" class="text">
             <td class="english">I am for peace; But when I speak, they are for war.</td>
-            <td class="coptic">ⲉϣⲱⲡ ⲁⲓϣⲁⲛⲥⲁϫⲓ ⲛⲉⲙⲱⲟⲩ ϣⲁⲩⲃⲱⲧⲥ ⲉ̀ⲣⲟⲓ ⲛ̀ϫⲓⲛϫⲏ:</td>
+            <td class="coptic">ⲉ̀ϣⲱⲡ ⲁⲓϣⲁⲛⲥⲁϫⲓ ⲛⲉⲙⲱⲟⲩ ϣⲁⲩⲃⲱⲧⲥ ⲉ̀ⲣⲟⲓ ⲛ̀ϫⲓⲛϫⲏ:</td>
             <td class="arabic">وحين كنت أكلمهم كانوا يقاتلونني مجاناً.</td>
         </tr>
         <tr id="table_16_row_5" class="intro">
@@ -457,7 +457,7 @@ ${paschalPraiseHtml}
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_18_row_2" class="text">
-            <td class="coptic">Ⲡⲁⲗⲓⲛⲟⲛ ⲡⲉϫⲉ ⲓⲏⲥⲟⲩⲥ ⲛⲱⲟⲩ ϫⲉ ⲁ̀ⲛⲟⲕ ϯⲛⲁϣⲉⲛⲏⲓ ⲟⲩⲟϩ ⲧⲉⲧⲉⲛⲛⲁⲕⲱϯ ⲛ̀ⲥⲱⲓ ⲟⲩⲟϩ ⲧⲉⲧⲉⲛⲛⲁϫⲉⲙⲧ ⲁⲛ ⲟⲩⲟϩ ⲧⲉⲧⲉⲛⲛⲁⲙⲟⲩ ϧⲉⲛ ⲛⲉⲧⲉⲛ ⲛⲟⲃⲓ ϫⲉ ⲡⲓⲙⲁ ⲁ̀ⲛⲟⲕ ⲉ̀ϯⲛⲁϣⲉⲛⲏⲓ ⲉ̀ⲣⲟϥ ⲙ̀ⲙⲟⲛ ϣ̀ϫⲟⲙ ⲙ̀ⲙⲱⲧⲉⲛ ⲉ̀ⲓ̀ ⲉ̀ⲣⲟϥ. Ⲛⲁⲩϫⲱ ⲟⲩⲛ ⲙ̀ⲙⲟⲥ ⲡⲉ ⲛ̀ϫⲉ ⲛⲓⲓⲟⲩⲇⲁⲓ ϫⲉ ⲙⲏⲧⲓ ⲁϥⲛⲁϧⲟⲑⲃⲉϥ ⲙ̀ⲙⲁⲩⲁⲧϥ : ϫⲉ ϥ̀ϫⲱ ⲙ̀ⲙⲟⲥ ϫⲉⲡⲓⲙⲁ ⲁ̀ⲛⲟⲕ ⲉ̀ϯⲛⲁϣⲉⲛⲏⲓ ⲉ̀ⲣⲟϥ ⲛ̀ⲑⲱⲧⲉⲛ ⲛ̀ⲧⲉⲧⲉⲛⲛⲁϣ̀ⲓ̀ ⲉ̀ⲣⲟϥ ⲁⲛ. Ⲟⲩⲟϩ ⲛⲁⲩϫⲱ ⲙ̀ⲙⲟⲥ ⲛⲱⲟⲩ ⲡⲉ ϫⲉ ⲛ̀ⲑⲱⲧⲉⲛ ⲛ̀ⲑⲱⲧⲉⲛ ϩⲁⲛ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲏⲉ̀ⲧⲉ ⲛ̀ϧ̀ⲣⲏⲓ ⲁ̀ⲛⲟⲕ ⲇⲉ ⲁ̀ⲛⲟⲕ ⲟⲩ ⲉ̀ⲃⲟⲗ ⲙⲡ̀ϣⲱⲓ:<br>... Ⲟⲩⲱϣⲧ ⲙⲡ̀ⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲡⲁⲗⲓⲛⲟⲛ ⲡⲉϫⲉ Ⲓⲏⲥⲟⲩⲥ ⲛⲱⲟⲩ ϫⲉ ⲁ̀ⲛⲟⲕ ϯⲛⲁϣⲉⲛⲏⲓ ⲟⲩⲟϩ ⲧⲉⲧⲉⲛⲛⲁⲕⲱϯ ⲛ̀ⲥⲱⲓ ⲟⲩⲟϩ ⲧⲉⲧⲉⲛⲛⲁϫⲉⲙⲧ ⲁⲛ ⲟⲩⲟϩ ⲧⲉⲧⲉⲛⲛⲁⲙⲟⲩ ϧⲉⲛ ⲛⲉⲧⲉⲛ ⲛⲟⲃⲓ ϫⲉ ⲡⲓⲙⲁ ⲁ̀ⲛⲟⲕ ⲉ̀ϯⲛⲁϣⲉⲛⲏⲓ ⲉ̀ⲣⲟϥ ⲙ̀ⲙⲟⲛ ϣ̀ϫⲟⲙ ⲙ̀ⲙⲱⲧⲉⲛ ⲉ̀ⲓ̀ ⲉ̀ⲣⲟϥ. Ⲛⲁⲩϫⲱ ⲟⲩⲛ ⲙ̀ⲙⲟⲥ ⲡⲉ ⲛ̀ϫⲉ ⲛⲓⲓⲟⲩⲇⲁⲓ ϫⲉ ⲙⲏⲧⲓ ⲁϥⲛⲁϧⲟⲑⲃⲉϥ ⲙ̀ⲙⲁⲩⲁⲧϥ : ϫⲉ ϥ̀ϫⲱ ⲙ̀ⲙⲟⲥ ϫⲉ ⲡⲓⲙⲁ ⲁ̀ⲛⲟⲕ ⲉ̀ϯⲛⲁϣⲉⲛⲏⲓ ⲉ̀ⲣⲟϥ ⲛ̀ⲑⲱⲧⲉⲛ ⲛ̀ⲧⲉⲧⲉⲛⲛⲁϣ̀ⲓ̀ ⲉ̀ⲣⲟϥ ⲁⲛ. Ⲟⲩⲟϩ ⲛⲁⲩϫⲱ ⲙ̀ⲙⲟⲥ ⲛⲱⲟⲩ ⲡⲉ ϫⲉ ⲛ̀ⲑⲱⲧⲉⲛ ⲛ̀ⲑⲱⲧⲉⲛ ϩⲁⲛ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲏⲉ̀ⲧⲉ ⲛ̀ϧ̀ⲣⲏⲓ ⲁ̀ⲛⲟⲕ ⲇⲉ ⲁ̀ⲛⲟⲕ ⲟⲩ ⲉ̀ⲃⲟⲗ ⲙⲡ̀ϣⲱⲓ:<br>... Ⲟⲩⲱϣⲧ ⲙⲡ̀ⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_18_row_4" class="intro">
             <td class="english">Glory be to God forever.</td>
@@ -625,7 +625,19 @@ ${expositionConclusionHtml}
 
 </div>
 
-
+</div>
+<div class="section" id="section_30" title="Next Hour">
+<table id="table_50" title="Next Hour">
+    <tr id="table_50_row_0" data-navigation="DOT3sc" class="navigationButton">
+        <td class="englishButton">The THIRD Hour of the DAY of TUESDAY</td>
+        <td class="arabicButton">الساعة الثالثة من يوم الثلاثاء</td>
+    </tr>
+    <tr id="table_50_row_1" data-navigation="DaytimeLitaniessc" class="navigationButton">
+        <td class="englishButton">Daytime Litanies</td>
+        <td class="arabicButton">طلبات النهار</td>
+    </tr>
+</table>
+</div>
 
 `;
 

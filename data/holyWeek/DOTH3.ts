@@ -31,7 +31,7 @@ ${hourIntroHtml}
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲓⲏⲥⲟⲩ ⲛ̀ⲧⲉ Ⲥⲓⲣⲁⲭ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ (ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ):</td>
         </tr>
         <tr id="table_2_row_7" class="text">
-            <td class="coptic">ϯⲥⲟⲫⲓⲁ̀ ⲇⲉ ⲉ̀ⲉ̀ⲙⲟⲩ ⲉ̀ⲧⲉⲥⲯⲩⲭⲏ : ⲟⲩⲟϩ ⲥⲛⲁϣⲱⲡⲉ̀ⲣⲟⲥ ⲛ̀ⲛⲏⲉⲧⲕⲱϯ ⲛ̀ⲥⲱⲥ : ⲥ̀ⲛⲁϣⲟⲩϣⲟⲩ ⲙ̀ⲙⲟⲥ ϧⲉⲛ ⲑ̀ⲙⲏϯ ⲛ̀ⲟⲩⲙⲏϣ : ⲥⲛⲁⲟⲩⲱⲛ ⲛ̀ⲣⲱⲥ ϧⲉⲛ ⲧ̀ⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀ ⲙ̀ⲫⲏⲉⲧϭⲟⲥⲓ : ⲛ̀ⲧⲉⲥϣⲟⲩϣⲟⲩ ⲙ̀ⲙⲟⲥ ⲙ̀ⲡⲉⲙ̀ⲑⲟ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉϥϫⲟⲙ</td>
+            <td class="coptic">ϯⲥⲟⲫⲓⲁ̀ ⲇⲉ ⲥⲉⲥ̀ⲙⲟⲩ ⲉ̀ⲧⲉⲥⲯⲩⲭⲏ : ⲟⲩⲟϩ ⲥⲛⲁϣⲱⲡⲉ̀ⲣⲟⲥ ⲛ̀ⲛⲏⲉⲧⲕⲱϯ ⲛ̀ⲥⲱⲥ : ⲥ̀ⲛⲁϣⲟⲩϣⲟⲩ ⲙ̀ⲙⲟⲥ ϧⲉⲛ ⲑ̀ⲙⲏϯ ⲛ̀ⲟⲩⲙⲏϣ : ⲥⲛⲁⲟⲩⲱⲛ ⲛ̀ⲣⲱⲥ ϧⲉⲛ ⲧ̀ⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀ ⲙ̀ⲫⲏⲉⲧϭⲟⲥⲓ : ⲛ̀ⲧⲉⲥϣⲟⲩϣⲟⲩ ⲙ̀ⲙⲟⲥ ⲙ̀ⲡⲉⲙ̀ⲑⲟ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉϥϫⲟⲙ</td>
         </tr>
         <tr id="table_2_row_8" class="intro">
             <td class="coptic">Ⲟⲩⲱ̀ⲟⲩ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ...</td>
@@ -211,7 +211,7 @@ I sought in whose territory I might lodge.</td>
     <span class="arabic-caption">النبوة الرابعة<br>(أمثال سليمان 30: 2-6)</span></caption>
     <tr id="table_6_row_1" class="intro">
         <td class="english">A reading from the Proverbs of Solomon the prophet. May his blessings be with us. Amen.</td>
-        <td class="arabic">بدء امثال سليمان النبى بركته تكون معنا، آمين.</td>
+        <td class="arabic">من امثال سليمان النبى بركته تكون معنا، آمين.</td>
     </tr>
     <tr id="table_6_row_4" class="text">
         <td class="english">Surely I am more stupid than any man, And do not have the understanding of a man.</td>
@@ -249,8 +249,8 @@ ${paschalPraiseHtml}
 
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_9" title="Coptic Psalm">
-        <caption class="caption" id="caption_table_9">Coptic Psalm<br>(94:21 and 23)
-        <span class="arabic-caption">المزمور قبطياً<br>(94:21 and 23)</span></caption>
+        <caption class="caption" id="caption_table_9">Coptic Psalm<br>(94:21,23)
+        <span class="arabic-caption">المزمور قبطياً<br>(93: 13 ، 15)</span></caption>
 
         <tr id="table_9_row_0" class="intro">
             <td class="english">A Psalm of David</td>
@@ -286,17 +286,20 @@ ${paschalPraiseHtml}
     ${copticGospelIntroHtml}
     <table id="table_11" title="Coptic Gospel">
         <caption class="caption" id="caption_table_11">Coptic Gospel<br>(Matthew 26:17-19)
-        <span class="arabic-caption">الإنجيل قبطياً<br>(متى 26:17-19)</span></caption>
+        <span class="arabic-caption">الإنجيل قبطياً<br>(متى 26: 17 - 19)</span></caption>
         <tr id="table_11_row_0" class="priest">
             <td class="english">A chapter according to St. Matthew,</td>
             <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲱⲛ ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">فصل من إنجيل معلمنا مار متى</td>
         </tr>
-        <tr id="table_11_row_1" class="text">
-            <td class="coptic">Ⲛϩ̀ⲣⲏⲓ ⲇⲉ ϧⲉⲛ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲛ̀ϩⲟⲩⲓⲧ ⲛ̀ⲧⲉ ⲛⲓⲁⲧⲕⲱⲃ : ⲁⲩⲓ̀ ⲛ̀ϫⲉ ⲛⲓⲙⲁⲑⲏⲧⲏⲥ ϩⲁ Ⲓ̅ⲏ̅ⲥ ⲉⲩϫⲱⲙ̀ⲙⲟⲥ : ϫⲉ ⲁⲕⲟⲩⲱϣ ⲉ̀ⲥⲉⲃⲧⲉ ⲡⲓⲡⲁⲥⲭⲁ ⲛⲁⲕ ⲑⲱⲛ ⲉ̀ⲟⲩⲟⲙϥ. Ⲛ̀ⲑⲟϥ ⲇⲉ ⲡⲉϫⲁϥ ⲛⲱⲟⲩ : ϫⲉ ⲙⲁϣⲉⲛⲱⲧⲉⲛ ⲉ̀ⲧⲁⲓⲃⲁⲕⲓ ϩⲁ ⲡⲁⲫ̀ⲙⲁⲛ ⲛ̀ⲣⲱⲙⲓ ⲟⲩⲟϩ ⲁ̀ϫⲟⲥ ⲛⲁϥ : ϫⲉ ⲡⲉϫⲉ ⲡⲓⲣⲉϥϯⲥ̀ⲃⲱ ϫⲉ ⲡⲁⲥⲏⲟⲩ ⲁϥϧⲱⲛⲧ
+        <tr id="table_11_row_1" class="intro">
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ̀.</td>
+        </tr> 
+        <tr id="table_11_row_2" class="text">
+            <td class="coptic">Ⲛϩ̀ⲣⲏⲓ ⲇⲉ ϧⲉⲛ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲛ̀ϩⲟⲩⲓⲧ ⲛ̀ⲧⲉ ⲛⲓⲁⲧⲕⲱⲃ : ⲁⲩⲓ̀ ⲛ̀ϫⲉ ⲛⲓⲙⲁⲑⲏⲧⲏⲥ ϩⲁ Ⲓⲏⲥⲟⲩⲥ ⲉⲩϫⲱⲙ̀ⲙⲟⲥ : ϫⲉ ⲁⲕⲟⲩⲱϣ ⲉ̀ⲥⲉⲃⲧⲉ ⲡⲓⲡⲁⲥⲭⲁ ⲛⲁⲕ ⲑⲱⲛ ⲉ̀ⲟⲩⲟⲙϥ. Ⲛ̀ⲑⲟϥ ⲇⲉ ⲡⲉϫⲁϥ ⲛⲱⲟⲩ : ϫⲉ ⲙⲁϣⲉⲛⲱⲧⲉⲛ ⲉ̀ⲧⲁⲓⲃⲁⲕⲓ ϩⲁ ⲡⲁⲫ̀ⲙⲁⲛ ⲛ̀ⲣⲱⲙⲓ ⲟⲩⲟϩ ⲁ̀ϫⲟⲥ ⲛⲁϥ : ϫⲉ ⲡⲉϫⲉ ⲡⲓⲣⲉϥϯⲥ̀ⲃⲱ ϫⲉ ⲡⲁⲥⲏⲟⲩ ⲁϥϧⲱⲛⲧ
             <br> Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
-        <tr id="table_11_row_2" class="congregation">
-            <td class="coptic">Ⲇⲟⲝⲁⲥⲓ Ⲕⲩⲣⲓ ⲉ̀.</td>
+        <tr id="table_11_row_3" class="intro">
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ̀.</td>
         </tr>
     </table>
 </div>
@@ -305,8 +308,8 @@ ${paschalPraiseHtml}
 
 <div class="section" id="section_7" title="English and Arabic Psalm & Gospel">
     <table id="table_12" title="Psalm">
-        <caption id="caption_table_12" class="caption">Psalm<br>(94:21 and 23)
-        <span class="arabic-caption">المزمور<br>(94: 21 و 23)</span></caption>
+        <caption id="caption_table_12" class="caption">Psalm<br>(94:21,23)
+        <span class="arabic-caption">المزمور<br>(93: 13 ، 15)</span></caption>
         <tr id="table_12_row_1" class="intro">
             <td class="english">From the Psalms of our teacher David the prophet. May his blessing be with us. Amen.</td>
             <td class="arabic">من مزامير معلمنا داود النبي، بركته تكون معنا، آمين.</td>
@@ -408,7 +411,18 @@ ${expositionConclusionHtml}
 
 </div>
 
-
+<div class="section" id="section_30" title="Next Hour">
+<table id="table_50" title="Next Hour">
+    <tr id="table_50_row_0" data-navigation="DOTH6sc" class="navigationButton">
+        <td class="englishButton">The SIXTH Hour of the DAY of COVENANT THURSDAY</td>
+        <td class="arabicButton">الساعة السادسة من يوم خميس العهد</td>
+    </tr>
+    <tr id="table_50_row_1" data-navigation="DaytimeLitaniessc" class="navigationButton">
+        <td class="englishButton">Daytime Litanies</td>
+        <td class="arabicButton">طلبات النهار</td>
+    </tr>
+</table>
+</div>
 
 `;
 

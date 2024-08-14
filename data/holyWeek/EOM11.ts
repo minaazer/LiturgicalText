@@ -245,7 +245,14 @@ ${nighttimeLitaniesHtml}
 ${evnotiNaiNanHtml}
 ${endOfServiceHymnHtml}
 </div>
-
+<div class="section" id="section_30" title="Next Hour">
+<table id="table_50" title="Next Hour">
+    <tr id="table_50_row_0" data-navigation="DOM1sc" class="navigationButton">
+        <td class="englishButton">The FIRST Hour of the EVE of MONDAY</td>
+        <td class="arabicButton">الساعة الأولى من يوم الإثنين</td>
+    </tr>
+</table>
+</div>
 `;
 
 };

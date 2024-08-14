@@ -81,7 +81,7 @@ ${paschalPraiseHtml}
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_6" title="Coptic Psalm">
         <caption class="caption" id="caption_table_6">Coptic Psalm<br>(59:1, 69:20)
-        <span class="arabic-caption">المزمور قبطياً<br>(59:1, 69:20)</span></caption>
+        <span class="arabic-caption">المزمور قبطياً<br>(58: 1 ، 68: 18)</span></caption>
 
         <tr id="table_6_row_0" class="intro">
             <td class="english">A Psalm of David</td>
@@ -120,7 +120,7 @@ ${paschalPraiseHtml}
         <span class="arabic-caption">الأناجيل قبطياً</span></caption>
         <tr id="table_8_row_0" class="priest">
             <td class="english">A chapter according to St. Matthew,</td>
-            <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲟⲛ ̀ⲁⲅⲓⲟ.</td>
+            <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲟⲛ ⲁ̀ⲅⲓⲟⲩ.</td>
             <td class="arabic">فصل من إنجيل معلمنا مار متى</td>
         </tr>
 
@@ -130,11 +130,11 @@ ${paschalPraiseHtml}
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_8_row_2" class="text">
-            <td class="coptic">Ⲧⲟⲧⲉ ⲁϥⲓ ⲛⲉⲙⲱⲟⲩ ⲛϫⲉ ⲓ̅ⲏ̅ⲥ ⲉⲟⲩⲓⲟϩⲓ ⲉⲩⲙⲟⲩϯ ⲉⲣⲟϥ ϫⲉ Ⲅⲏⲑⲥⲉⲙⲁⲛⲓ: ⲟⲩⲟϩ ⲡⲉϫⲁϥ ⲛⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ ϫⲉ ϩⲉⲙⲥⲓ ⲙⲡⲁⲓⲙⲁ ϣⲁϯϣⲉⲛⲏⲓ ϣⲁⲙⲛⲁⲓ ⲛⲧⲁⲧⲱⲃϩ Ⲟⲩⲟϩ ⲁϥⲱⲗⲓ ⲙⲠⲉⲧⲣⲟⲥ ⲛⲉⲙⲁϥ ⲛⲉⲙ ⲛⲉⲛϣⲏⲣⲓ ⲛⲌⲉⲃⲉⲇⲉⲟⲥ: ⲟⲩⲟϩ ⲁϥⲉⲣϩⲏⲧⲥ ⲛⲉⲣⲙⲕⲁϩⲛϩⲏⲧ ⲛⲉⲙ ⲉⲉⲣϣⲗⲁϩ ⲛϩⲏⲧ<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲧⲟⲧⲉ ⲁϥⲓ ⲛⲉⲙⲱⲟⲩ ⲛ̀ϫⲉ Ⲓⲏⲥⲟⲩⲥ ⲉⲟⲩⲓⲟϩⲓ ⲉⲩⲙⲟⲩϯ ⲉⲣⲟϥ ϫⲉ Ⲅⲏⲑⲥⲉⲙⲁⲛⲓ: ⲟⲩⲟϩ ⲡⲉϫⲁϥ ⲛ̀ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ ϫⲉ ϩⲉⲙⲥⲓ ⲙ̀ⲡⲁⲓⲙⲁ ϣⲁϯϣⲉⲛⲏⲓ ϣⲁⲙ̀ⲛⲁⲓ ⲛ̀ⲧⲁⲧⲱⲃϩ. Ⲟⲩⲟϩ ⲁϥⲱ̀ⲗⲓ ⲙ̀Ⲡⲉⲧⲣⲟⲥ ⲛⲉⲙⲁϥ ⲛⲉⲙ ⲛⲉⲛϣⲏⲣⲓ ⲛ̀Ⲍⲉⲃⲉⲇⲉⲟⲥ: ⲟⲩⲟϩ ⲁϥⲉⲣϩⲏⲧⲥ ⲛ̀ⲉⲣⲙ̀ⲕⲁϩⲛϩⲏⲧ ⲛⲉⲙ ⲉ̀ⲉⲣϣ̀ⲗⲁϩ ⲛ̀ϩⲏⲧ<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_8_row_3" class="priest">
             <td class="english">According to St. Mark</td>
-            <td class="coptic">ⲕⲁⲧⲁ Ⲙⲁⲣⲕⲟⲛ ̀ⲁⲅⲓⲟ.</td>
+            <td class="coptic">ⲕⲁⲧⲁ Ⲙⲁⲣⲕⲟⲛ ̀ⲁⲅⲓⲩⲟ.</td>
             <td class="arabic">حسب مار مرقس</td>
         </tr>
         <tr id="table_8_row_4" class="intro">
@@ -143,11 +143,11 @@ ${paschalPraiseHtml}
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_8_row_5" class="text">
-            <td class="coptic">Ⲟⲩⲟϩ ⲁⲩⲓ ⲉⲟⲩⲓⲟϩⲓ ⲉⲡⲉϥⲣⲁⲛ ⲡⲉ Ⲅⲏⲑⲥⲉⲙⲁⲛⲓ : ⲟⲩⲟϩ ⲡⲉϫⲁϥ ⲛⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ ϫⲉ ϩⲉⲙⲥⲓ ϩⲁⲙⲛⲁⲓ ϩⲱⲥ ϯⲉⲣⲡⲣⲟⲥ ⲉⲩⲭⲉⲥⲑⲉ Ⲟⲩⲟϩ ⲁϥⲱⲗⲓ ⲛⲉⲙⲁϥ ⲙⲠⲉⲧⲣⲟⲥ ⲛⲉⲙ Ⲓⲁⲕⲱⲃⲟⲥ ⲛⲉⲙ Ⲓⲱⲁⲛⲛⲏⲥ: ⲟⲩⲟϩ ⲁϥⲉⲣϩⲏⲧⲥ ⲛϣⲑⲟⲣⲧⲉⲣ ⲛⲉⲙⲉⲉⲣⲙⲕⲁϩⲛϩⲏⲧ<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲟⲩⲟϩ ⲁⲩⲓ̀ ⲉ̀ⲟⲩⲓⲟϩⲓ ⲉ̀ⲡⲉϥⲣⲁⲛ ⲡⲉ Ⲅⲏⲑⲥⲉⲙⲁⲛⲓ : ⲟⲩⲟϩ ⲡⲉϫⲁϥ ⲛ̀ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ ϫⲉ ϩⲉⲙⲥⲓ ϩⲁⲙ̀ⲛⲁⲓ ϩⲱⲥ ϯⲉⲣⲡ̀ⲣⲟⲥ ⲉⲩⲭⲉⲥⲑⲉ. Ⲟⲩⲟϩ ⲁϥⲱⲗⲓ ⲛⲉⲙⲁϥ ⲙ̀Ⲡⲉⲧⲣⲟⲥ ⲛⲉⲙ Ⲓⲁⲕⲱⲃⲟⲥ ⲛⲉⲙ Ⲓⲱⲁⲛⲛⲏⲥ: ⲟⲩⲟϩ ⲁϥⲉⲣϩⲏⲧⲥ ⲛ̀ϣ̀ⲑⲟⲣⲧⲉⲣ ⲛⲉⲙⲉ̀ⲉⲣⲙ̀ⲕⲁϩⲛ̀ϩⲏⲧ<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_8_row_6" class="priest">
             <td class="english">According to St. Luke</td>
-            <td class="coptic">ⲕⲁⲧⲁ Ⲗⲟⲩⲕⲁⲛ  ̀ⲁⲅⲓⲟⲩ.</td>
+            <td class="coptic">ⲕⲁⲧⲁ Ⲗⲟⲩⲕⲁⲛ ⲁ̀ⲅⲓⲟⲩ.</td>
             <td class="arabic">حسب مار لوقا</td>
         </tr>
         <tr id="table_8_row_7" class="intro">
@@ -156,11 +156,11 @@ ${paschalPraiseHtml}
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_8_row_8" class="text">
-            <td class="coptic">Ⲉⲧⲁϥⲓ ⲇⲉ ⲉⲡⲓⲙⲁ ⲡⲉϫⲁϥ ⲛⲱⲟⲩ: ϫⲉ ⲧⲱⲃϩ ϫⲉ ⲛⲛⲉⲧⲉⲛϣⲉ ⲉϧⲟⲩⲛ ⲉⲡⲓⲣⲁⲥⲙⲟⲥ Ⲛⲑⲟϥ ⲇⲉ ⲁϥⲟⲩⲱϯ ⲉⲃⲟⲗ ⲙⲙⲱⲟⲩ ⲛⲁⲩ ⲫⲟⲩⲱϣ ⲛϩⲓⲟⲩⲓ ⲛⲟⲩⲱⲛⲓ ⲉⲃⲟⲗ: ⲟⲩⲟϩ ⲉⲧⲁϥϩⲓⲧϥ ⲉϫⲉⲛ ⲛⲉϥⲕⲉⲗⲓ ⲁϥⲧⲱⲃϩ <br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲉⲧⲁϥⲓ̀ ⲇⲉ ⲉ̀ⲡⲓⲙⲁ ⲡⲉϫⲁϥ ⲛⲱⲟⲩ: ϫⲉ ⲧⲱⲃϩ ϫⲉ ⲛ̀ⲛⲉⲧⲉⲛϣⲉ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲡⲓⲣⲁⲥⲙⲟⲥ. Ⲛ̀ⲑⲟϥ ⲇⲉ ⲁϥⲟⲩⲱ̀ϯ ⲉ̀ⲃⲟⲗ ⲙ̀ⲙⲱⲟⲩ ⲛⲁⲩ ⲫⲟⲩⲱϣ ⲛ̀ϩⲓⲟⲩⲓ̀ ⲛ̀ⲟⲩⲱⲛⲓ̀ ⲉ̀ⲃⲟⲗ: ⲟⲩⲟϩ ⲉ̀ⲧⲁϥϩⲓⲧϥ ⲉϫⲉⲛ ⲛⲉϥⲕⲉⲗⲓ ⲁϥⲧⲱⲃϩ <br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_8_row_9" class="priest">
             <td class="english">According to St. John</td>
-            <td class="coptic">ⲕⲁⲧⲁ Ⲓⲱⲁⲛⲛⲏⲛ  ̀ⲁⲅⲓⲟⲩ.</td>
+            <td class="coptic">ⲕⲁⲧⲁ Ⲓⲱⲁⲛⲛⲏⲛ ⲁ̀ⲅⲓⲟⲩ.</td>
             <td class="arabic">حسب مار يوحنا</td>
         </tr>
         <tr id="table_8_row_10" class="intro">
@@ -169,7 +169,7 @@ ${paschalPraiseHtml}
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_8_row_11" class="text">
-            <td class="coptic">Ⲓⲟⲩⲇⲁⲥ ⲟⲩⲛ ⲉⲧⲁϥϭⲓ ⲙⲡⲓⲙⲏϣ ⲛⲉⲙ ⲛⲓϩⲩⲡⲉⲣⲉⲧⲏⲥ ⲉⲃⲟⲗ ϧⲉⲛ ⲛⲓⲁⲣⲭⲏⲉⲣⲉⲩⲥ ⲛⲉⲙ ⲛⲓⲫⲁⲣⲓⲥⲉⲟⲥ: ⲁϥⲓ ⲉⲙⲁⲩ ⲛⲉⲙ ϩⲁⲛⲫⲁⲛⲟⲥ ⲛⲉⲙ ϩⲁⲛⲗⲁⲙⲡⲁⲥ ⲛⲉⲙ ϩⲁⲛϩⲟⲡⲗⲟⲛ<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲓⲟⲩⲇⲁⲥ ⲟⲩⲛ ⲉ̀ⲧⲁϥϭⲓ ⲙ̀ⲡⲓⲙⲏϣ ⲛⲉⲙ ⲛⲓϩⲩⲡⲉⲣⲉⲧⲏⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲓⲁⲣⲭⲏⲉ̀ⲣⲉⲩⲥ ⲛⲉⲙ ⲛⲓⲫⲁⲣⲓⲥⲉⲟⲥ: ⲁϥⲓ ⲉⲙⲁⲩ ⲛⲉⲙ ϩⲁⲛⲫⲁⲛⲟⲥ ⲛⲉⲙ ϩⲁⲛⲗⲁⲙⲡⲁⲥ ⲛⲉⲙ ϩⲁⲛϩⲟⲡⲗⲟⲛ<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_8_row_12" class="intro">
             <td class="english">Glory be to God forever.</td>
@@ -186,7 +186,7 @@ ${paschalPraiseHtml}
 
 <table id="table_9" title="Psalm">
     <caption id="caption_table_9" class="caption">Psalm<br>(59:1, 69:20)
-    <span class="arabic-caption">المزمور<br>(59: 1 و 69: 20)</span></caption>
+    <span class="arabic-caption">المزمور<br>(58: 1 ، 68: 18)</span></caption>
     <tr id="table_9_row_1" class="intro">
         <td class="english">From the Psalms of our teacher David the prophet. May his blessing be with us. Amen.</td>
         <td class="arabic">من مزامير أبينا داود النبى بركته المقدسة تكون معنا، آمين.</td>
@@ -268,7 +268,7 @@ ${paschalPraiseHtml}
 
 <table id="table_11" title="Psalm">
     <caption id="caption_table_11" class="caption">Psalm<br>(59:1, 69:20)
-    <span class="arabic-caption">المزمور<br>(59: 1 و 69: 20)</span></caption>
+    <span class="arabic-caption">المزمور<br>(58: 1 ، 68: 18)</span></caption>
     <tr id="table_11_row_1" class="intro">
         <td class="english">From the Psalms of our teacher David the prophet. May his blessing be with us. Amen.</td>
         <td class="arabic">من مزامير أبينا داود النبى بركته المقدسة تكون معنا، آمين.</td>
@@ -511,7 +511,18 @@ ${expositionConclusionHtml}
 
 </div>
 
-
+<div class="section" id="section_30" title="Next Hour">
+<table id="table_50" title="Next Hour">
+    <tr id="table_50_row_0" data-navigation="EOF9sc" class="navigationButton">
+        <td class="englishButton">The NINTH Hour of the EVE of GREAT FRIDAY</td>
+        <td class="arabicButton">الساعة التاسعة من ليلة الجمعة العظيمة</td>
+    </tr>
+    <tr id="table_50_row_1" data-navigation="NighttimeLitaniessc" class="navigationButton">
+    <td class="englishButton">Nighttime Litanies</td>
+    <td class="arabicButton">طلبات المساء</td>
+</tr>
+</table>
+</div>
 
 `;
 

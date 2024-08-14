@@ -4,9 +4,11 @@ import { presentationStyles } from '../css/presentationStyles';
 import { WebView } from 'react-native-webview';
 import { Dimensions } from 'react-native';
 import { handleMessage , handleNext , handlePrevious  } from './renderFunctions';
+import { useNavigation } from '@react-navigation/native';
 
 
 export const MainContent = ({ html , webviewRef , setDrawerItems, setCurrentTable}) => {
+    const navigation = useNavigation();
   
     const [currentPage, setCurrentPage] = useState(0);
     const [pageOffsets, setPageOffsets] = useState([]);
@@ -30,6 +32,8 @@ export const MainContent = ({ html , webviewRef , setDrawerItems, setCurrentTabl
     
         initialTouchX = null;
     };
+
+
     
     return (
         <View style={presentationStyles.container} activeOpacity={1} onTouchStart={(event) => initialTouchX = event.nativeEvent.pageX} onTouchEnd={handleTouchEnd} >
@@ -41,10 +45,10 @@ export const MainContent = ({ html , webviewRef , setDrawerItems, setCurrentTabl
           javaScriptEnabled={true}
           domStorageEnabled={true}
           startInLoadingState={true}
-          onMessage={(event) => handleMessage(event, setDrawerItems, pageOffsets, setPageOffsets, setCurrentPage, setCurrentTable , webviewRef)}
+          onMessage={(event) => handleMessage(event, setDrawerItems, pageOffsets, setPageOffsets, setCurrentPage, setCurrentTable , webviewRef , navigation)}
           style={presentationStyles.webview}
           userSelect="none"
-          pointerEvents='none'
+          pointerEvents='auto'
           
         />
         </View>

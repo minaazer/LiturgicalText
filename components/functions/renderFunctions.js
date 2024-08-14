@@ -1,6 +1,4 @@
-
-
-export const handleMessage = (event, setDrawerItems, pageOffsets, setPageOffsets, setCurrentPage, setCurrentTable, webviewRef) => {
+export const handleMessage = (event, setDrawerItems, pageOffsets, setPageOffsets, setCurrentPage, setCurrentTable, webviewRef, navigation) => {
     try {
       const message = JSON.parse(event.nativeEvent.data);
       webviewRef.current.injectJavaScript(`window.postMessage(JSON.stringify({ type: 'ACKNOWLEDGED' }));`);
@@ -11,6 +9,10 @@ export const handleMessage = (event, setDrawerItems, pageOffsets, setPageOffsets
       else if (message.type === 'PAGINATION_DATA') {
         setPageOffsets(message.data);
         //console.log("pageOffsets:", pageOffsets);
+      }
+      else if (message.type === 'NAVIGATION') {
+        // navigate to message.data
+        navigation.navigate(message.data);
       }
       //set current page after right menu navigation
       else if (message.type === 'CURRENT_PAGE_YOFFSET') {
@@ -44,7 +46,7 @@ export const handleMessage = (event, setDrawerItems, pageOffsets, setPageOffsets
 export const handleNext = (currentPage, setCurrentPage , pageOffsets, setCurrentTable, webviewRef) => {
     
     if (currentPage < pageOffsets.length - 1) {
-        console.log("currentPage in if:", currentPage);
+        //console.log("currentPage in if:", currentPage);
         setCurrentPage(prevPage => prevPage + 1);
         setCurrentTable(pageOffsets[currentPage + 1].tableId);
         const yOffset = pageOffsets[currentPage + 1].yOffset;

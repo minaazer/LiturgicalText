@@ -145,7 +145,7 @@ ${paschalPraiseHtml}
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_8_row_2" class="text">
-            <td class="coptic">Ⲉⲑⲃⲉ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲇⲉ ⲉⲧⲉ ⲙ̀ⲙⲁⲩ ⲛⲉⲙ ϯⲥⲩⲛⲟⲩ : ⲙ̀ⲙⲟⲛ ϩⲗⲓ ⲉ̀ⲙⲓ ⲉ̀ⲣⲱⲟⲩ : ⲟⲩⲇⲉ ⲛⲓⲁⲅⲅⲉⲗⲟⲥ ⲛ̀ⲧⲉ ⲛⲓⲫⲏⲟⲩⲓ̀ : ⲉ̀ⲃⲏⲗ ⲉ̀ⲫ̀ⲓⲱⲧ ⲙ̀ⲙⲁⲩⲁⲧϥ : ⲙ̀ⲫ̀ⲣⲏϯ ⲅⲁⲣ ⲛ̀ⲛⲓⲉ̀ϩⲟⲟⲩ ⲛ̀ⲧⲉ Ⲛⲱⲉ̀ : ⲡⲁⲓⲣⲏϯ ⲉⲑⲛⲁϣⲱⲡⲓ ϧⲉⲛ ⲧ̀ⲡⲁⲣⲟⲩⲥⲓⲁ̀ ⲙ̀ⲡ̀ϣⲏⲣⲓ ⲙ̀ⲫ̀ⲣⲱⲙⲓ. ⲙ̀ⲫ̀ⲣⲏϯ ⲅⲁⲣ ⲉ̀ⲛⲁⲩϣⲟⲡ ϧⲉⲛ ⲛⲓⲉ̀ϩⲟⲟⲩ ⲉⲧϧⲁϫⲱϥ ⲙ̀ⲡⲓⲕⲁⲧⲁⲕ̀ⲗⲩⲥⲙⲟⲥ ⲉⲩⲟⲩⲱⲙ ⲟⲩⲟϩ ⲉⲩⲥⲱ : ⲉⲩϭⲓⲥ̀ϩⲓⲙⲓ ⲟⲩⲟϩ ⲉⲩϭⲓϩⲁⲓ : ϣⲁ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲉ̀ⲧⲁ Ⲛⲱⲉ̀ ϣⲉⲛⲁϥ ⲉ̀ϧⲟⲩⲛ ⲉ̀ϯⲕⲩⲃⲱⲧⲟⲥ ⲙ̀ⲙⲟϥ. Ⲟⲩⲟϩ ⲙ̀ⲡⲟⲩⲉ̀ⲙⲓ ϣⲁⲧⲉϥⲓ̀ ⲛ̀ϫⲉ ⲡⲓⲕⲁⲧⲁ ⲕ̀ⲗⲩⲥⲙⲟⲥ ⲟⲩⲟϩ ⲛ̀ⲧⲉϥⲉⲗ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ : ⲡⲁⲓⲣⲏϯ ⲉⲑⲛⲁϣⲱⲡⲓ ϧⲉⲛ ⲡ̀ϫⲓⲛⲓ̀ ⲙ̀ⲡ̀ϣⲏⲣⲓ ⲙ̀ⲫ̀ⲣⲱⲙⲓ.<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲉⲑⲃⲉ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲇⲉ ⲉⲧⲉ ⲙ̀ⲙⲁⲩ ⲛⲉⲙ ϯⲟⲩⲛⲟⲩ : ⲙ̀ⲙⲟⲛ ϩⲗⲓ ⲉ̀ⲙⲓ ⲉ̀ⲣⲱⲟⲩ : ⲟⲩⲇⲉ ⲛⲓⲁⲅⲅⲉⲗⲟⲥ ⲛ̀ⲧⲉ ⲛⲓⲫⲏⲟⲩⲓ̀ : ⲉ̀ⲃⲏⲗ ⲉ̀ⲫ̀ⲓⲱⲧ ⲙ̀ⲙⲁⲩⲁⲧϥ : ⲙ̀ⲫ̀ⲣⲏϯ ⲅⲁⲣ ⲛ̀ⲛⲓⲉ̀ϩⲟⲟⲩ ⲛ̀ⲧⲉ Ⲛⲱⲉ̀ : ⲡⲁⲓⲣⲏϯ ⲉⲑⲛⲁϣⲱⲡⲓ ϧⲉⲛ ⲧ̀ⲡⲁⲣⲟⲩⲥⲓⲁ̀ ⲙ̀ⲡ̀ϣⲏⲣⲓ ⲙ̀ⲫ̀ⲣⲱⲙⲓ. ⲙ̀ⲫ̀ⲣⲏϯ ⲅⲁⲣ ⲉ̀ⲛⲁⲩϣⲟⲡ ϧⲉⲛ ⲛⲓⲉ̀ϩⲟⲟⲩ ⲉⲧϧⲁϫⲱϥ ⲙ̀ⲡⲓⲕⲁⲧⲁⲕ̀ⲗⲩⲥⲙⲟⲥ ⲉⲩⲟⲩⲱⲙ ⲟⲩⲟϩ ⲉⲩⲥⲱ : ⲉⲩϭⲓⲥ̀ϩⲓⲙⲓ ⲟⲩⲟϩ ⲉⲩϭⲓϩⲁⲓ : ϣⲁ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲉ̀ⲧⲁ Ⲛⲱⲉ̀ ϣⲉⲛⲁϥ ⲉ̀ϧⲟⲩⲛ ⲉ̀ϯⲕⲩⲃⲱⲧⲟⲥ ⲙ̀ⲙⲟϥ. Ⲟⲩⲟϩ ⲙ̀ⲡⲟⲩⲉ̀ⲙⲓ ϣⲁⲧⲉϥⲓ̀ ⲛ̀ϫⲉ ⲡⲓⲕⲁⲧⲁ ⲕ̀ⲗⲩⲥⲙⲟⲥ ⲟⲩⲟϩ ⲛ̀ⲧⲉϥⲉⲗ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ : ⲡⲁⲓⲣⲏϯ ⲉⲑⲛⲁϣⲱⲡⲓ ϧⲉⲛ ⲡ̀ϫⲓⲛⲓ̀ ⲙ̀ⲡ̀ϣⲏⲣⲓ ⲙ̀ⲫ̀ⲣⲱⲙⲓ.<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_8_row_4" class="intro">
             <td class="english">Glory be to God forever.</td>
@@ -305,7 +305,18 @@ ${expositionConclusionHtml}
 
 </div>
 
-
+<div class="section" id="section_30" title="Next Hour">
+<table id="table_50" title="Next Hour">
+    <tr id="table_50_row_0" data-navigation="EOW6sc" class="navigationButton">
+        <td class="englishButton">The SIXTH Hour of the EVE of WEDNESDAY</td>
+        <td class="arabicButton">الساعة السادسة من ليلة الأربهاء</td>
+    </tr>
+    <tr id="table_50_row_1" data-navigation="NighttimeLitaniessc" class="navigationButton">
+    <td class="englishButton">Nighttime Litanies</td>
+    <td class="arabicButton">طلبات المساء</td>
+</tr>
+</table>
+</div>
 
 `;
 

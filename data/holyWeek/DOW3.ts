@@ -23,7 +23,7 @@ ${hourIntroHtml}
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲡⲓⲇⲟⲝⲟⲇⲟⲥ ⲛ̀ⲧⲉ Ⲙⲱ̀̀ⲩⲥⲏⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ (ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ):</td>
         </tr>
         <tr id="table_2_row_4" class="text">
-            <td class="coptic">ϧⲉⲛ ̀̀ⲡϫⲓⲛⲑ̀ⲣⲉ ⲫⲁⲣⲁⲱ̀ ⲭⲱ ⲙ̀ⲡⲓⲗⲁⲟⲥ ⲉ̀ⲃⲟⲗ ⲙ̀ⲡⲉϥϭⲓⲙⲱⲓⲧ ϧⲁϫⲱⲟⲩ ⲛ̀ϫⲉ Ⲫϯ ⲉ̀ⲫ̀ⲙⲱⲓⲧ ⲙ̀Ⲫⲩⲗⲓⲥⲧⲓⲛ : ϫⲉ ⲛⲁϥϧⲉⲛⲧ ⲡⲉ : ⲉ̀ⲁϥϫⲟⲥ ⲅⲁⲣ ⲛ̀ϫⲉ Ⲡ̀⳪ </td>
+            <td class="coptic">Ϧⲉⲛ ⲡ̀ϫⲓⲛⲑ̀ⲣⲉ ⲫⲁⲣⲁⲱ̀ ⲭⲱ ⲙ̀ⲡⲓⲗⲁⲟⲥ ⲉ̀ⲃⲟⲗ ⲙ̀ⲡⲉϥϭⲓⲙⲱⲓⲧ ϧⲁϫⲱⲟⲩ ⲛ̀ϫⲉ Ⲫϯ ⲉ̀ⲫ̀ⲙⲱⲓⲧ ⲙ̀Ⲫⲩⲗⲓⲥⲧⲓⲛ : ϫⲉ ⲛⲁϥϧⲉⲛⲧ ⲡⲉ : Ⲉ̀ⲁϥϫⲟⲥ ⲅⲁⲣ ⲛ̀ϫⲉ Ⲡ̀⳪ </td>
         </tr>
         <tr id="table_2_row_5" class="intro">
             <td class="coptic">Ⲟⲩⲱⲟ̀ⲩ ⲛϯ̀ⲧⲣ̀ⲓⲁⲥ ⲉⲑ̀ⲟⲩⲁⲃ ...</td>
@@ -405,7 +405,7 @@ ${paschalPraiseHtml}
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_18_row_2" class="text">
-            <td class="coptic">Ⲛⲁϥϧⲉⲛⲧ ⲇⲉ ⲡⲉ ⲛ̀ϫⲉ ⲡ̀ϣⲁⲓ ⲛ̀ⲧⲉ ⲛⲓⲁⲧϣⲉⲙⲏⲣ ⲫⲏⲉ̀ⲧⲟⲩ ⲙⲟⲩϯ ⲉ̀ⲣⲟϥ ϫⲉ ⲡⲓⲡⲁⲥⲭⲁ : Ⲟⲩⲟϩ ⲛⲁⲩⲕⲱϯ ⲡⲉ ⲛ̀ϫⲉ ⲛⲓⲁⲣⲭⲏⲉ̀ⲣⲉⲩⲥ ⲛⲉⲙ ⲛⲓⲥⲁϧ ϫⲉ ⲁⲩⲛⲁⲧⲁⲕⲟϥ ⲛ̀ⲁϣ ⲛ̀ⲣⲏϯ ⲛⲁⲩⲉⲣϩⲟϯ ⲅⲁⲣ ⲡⲉ ϧⲁⲧ̀ϩⲏ ⲙ̀ⲡⲓⲗⲁⲟⲥ : Ⲁ̀ ⲡ̀ⲥⲁⲧⲁⲛⲁⲥ ⲇⲉ ϣⲉ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲡ̀ϩⲏⲧ ⲛ̀Ⲓⲟⲩⲇⲁⲥ ⲫⲏⲉ̀ⲧⲟⲩ ⲙⲟⲩϯ ⲉ̀ⲣⲟϥ ϫⲉ ⲡⲓⲓⲥⲕⲁⲣⲓⲱⲧⲏⲥ ⲉⲟⲩⲁⲓ ⲡⲉ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲙⲏⲧ ⲥⲛⲁⲩ. Ⲟⲩⲟϩ ⲁϥϣⲉⲛⲁϥ ⲁϥⲥⲁϫⲓ ⲛⲉⲙ ⲛⲓⲁⲣⲭⲏⲉ̀ⲣⲉⲩⲥ ⲛⲉⲙ ⲛⲓⲥⲁⲧⲏⲅⲟⲩⲥ ⲉⲑⲃⲉ ⲡⲓⲣⲏϯ ⲉ̀ⲧⲉϥⲛⲁⲧⲏⲓϥ ⲉ̀ⲧⲟⲧⲟⲩ .<br>... Ⲟⲩⲱϣⲧ ⲙⲡ̀ⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲛⲁϥϧⲉⲛⲧ ⲇⲉ ⲡⲉ ⲛ̀ϫⲉ ⲡ̀ϣⲁⲓ ⲛ̀ⲧⲉ ⲛⲓⲁⲧϣⲉⲙⲏⲣ ⲫⲏⲉ̀ⲧⲟⲩⲙⲟⲩϯ ⲉ̀ⲣⲟϥ ϫⲉ ⲡⲓⲡⲁⲥⲭⲁ : Ⲟⲩⲟϩ ⲛⲁⲩⲕⲱϯ ⲡⲉ ⲛ̀ϫⲉ ⲛⲓⲁⲣⲭⲏⲉ̀ⲣⲉⲩⲥ ⲛⲉⲙ ⲛⲓⲥⲁϧ ϫⲉ ⲁⲩⲛⲁⲧⲁⲕⲟϥ ⲛ̀ⲁϣ ⲛ̀ⲣⲏϯ ⲛⲁⲩⲉⲣϩⲟϯ ⲅⲁⲣ ⲡⲉ ϧⲁⲧ̀ϩⲏ ⲙ̀ⲡⲓⲗⲁⲟⲥ : Ⲁ̀ ⲡ̀ⲥⲁⲧⲁⲛⲁⲥ ⲇⲉ ϣⲉ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲡ̀ϩⲏⲧ ⲛ̀Ⲓⲟⲩⲇⲁⲥ ⲫⲏⲉ̀ⲧⲟⲩⲙⲟⲩϯ ⲉ̀ⲣⲟϥ ϫⲉ ⲡⲓⲓⲥⲕⲁⲣⲓⲱⲧⲏⲥ ⲉⲟⲩⲁⲓ ⲡⲉ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲙⲏⲧ ⲥⲛⲁⲩ. Ⲟⲩⲟϩ ⲁϥϣⲉⲛⲁϥ ⲁϥⲥⲁϫⲓ ⲛⲉⲙ ⲛⲓⲁⲣⲭⲏⲉ̀ⲣⲉⲩⲥ ⲛⲉⲙ ⲛⲓⲥⲁⲧⲏⲅⲟⲩⲥ ⲉⲑⲃⲉ ⲡⲓⲣⲏϯ ⲉ̀ⲧⲉϥⲛⲁⲧⲏⲓϥ ⲉ̀ⲧⲟⲧⲟⲩ .<br>... Ⲟⲩⲱϣⲧ ⲙⲡ̀ⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_18_row_4" class="intro">
             <td class="english">Glory be to God forever.</td>
@@ -524,7 +524,18 @@ ${daytimeExpositionIntroHtml}
 ${expositionConclusionHtml}
 
 </div>
-
+<div class="section" id="section_30" title="Next Hour">
+<table id="table_50" title="Next Hour">
+    <tr id="table_50_row_0" data-navigation="DOW6sc" class="navigationButton">
+        <td class="englishButton">The SIXTH Hour of the DAY of WEDNESDAY</td>
+        <td class="arabicButton">الساعة السادسة من يوم الأربعاء</td>
+    </tr>
+    <tr id="table_50_row_1" data-navigation="DaytimeLitaniessc" class="navigationButton">
+    <td class="englishButton">Daytime Litanies</td>
+    <td class="arabicButton">طلبات النهار</td>
+</tr>
+</table>
+</div>
 
 
 `;

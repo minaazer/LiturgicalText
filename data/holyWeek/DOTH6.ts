@@ -21,7 +21,7 @@ ${hourIntroHtml}
             <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲓⲉⲣⲉⲙⲓⲁⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ (ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ):</td>
         </tr>
         <tr id="table_2_row_4" class="text">
-            <td class="coptic">Ⲥⲱⲧⲉⲙ ⲁ̀ⲡ̀ⲥⲁϫⲓ ⲙ̀Ⲡ̀ϭⲟⲓⲥ ϯⲒⲟⲩⲇⲉⲁ̀ ⲧⲏⲣⲥ. Ⲛⲁⲓⲛⲉ ⲛⲏⲉ̀ⲧⲉϥϫⲱ ⲙ̀ⲙⲱⲟⲩ ⲛ̀ϫⲉ Ⲡ̀⳪ ⲛ̀ⲧⲉ ⲛⲓϫⲟⲙ Ⲫϯ ⲛ̀ⲧⲉ ⲡⲒ̀̅ⲥ̅ⲗ : ϫⲉ ⲙⲁⲧⲁϩⲉ ⲛⲉⲧⲉⲛⲙⲱⲓⲧ ⲉ̀ⲣⲁⲧⲟⲩ ⲛⲉⲙ ⲛⲉⲧⲉⲛϩⲃⲏⲟⲩⲓ̀ </td>
+            <td class="coptic">Ⲥⲱⲧⲉⲙ ⲁ̀ⲡ̀ⲥⲁϫⲓ ⲙ̀Ⲡ̀ϭⲟⲓⲥ ϯⲒⲟⲩⲇⲉⲁ̀ ⲧⲏⲣⲥ. Ⲛⲁⲓⲛⲉ ⲛⲏⲉ̀ⲧⲉϥϫⲱ ⲙ̀ⲙⲱⲟⲩ ⲛ̀ϫⲉ Ⲡ̀⳪ ⲛ̀ⲧⲉ ⲛⲓϫⲟⲙ Ⲫϯ ⲛ̀ⲧⲉ ⲡ̀Ⲓⲥⲣⲁⲏⲗ: ϫⲉ ⲙⲁⲧⲁϩⲉ ⲛⲉⲧⲉⲛⲙⲱⲓⲧ ⲉ̀ⲣⲁⲧⲟⲩ ⲛⲉⲙ ⲛⲉⲧⲉⲛϩⲃⲏⲟⲩⲓ̀ </td>
         </tr>
         <tr id="table_2_row_5" class="intro">
             <td class="coptic">Ⲟⲩⲱ̀ⲟⲩ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ...</td>
@@ -208,7 +208,7 @@ ${paschalPraiseHtml}
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_9" title="Coptic Psalm">
         <caption class="caption" id="caption_table_9">Coptic Psalm<br>(31:18, 13)
-        <span class="arabic-caption">المزمور قبطياً<br>(31:18, 13)</span></caption>
+        <span class="arabic-caption">المزمور قبطياً<br>(30: 18 ، 13)</span></caption>
 
         <tr id="table_9_row_0" class="intro">
             <td class="english">A Psalm of David</td>
@@ -244,18 +244,21 @@ ${paschalPraiseHtml}
     ${copticGospelIntroHtml}
     <table id="table_11" title="Coptic Gospel">
         <caption class="caption" id="caption_table_11">Coptic Gospel<br>(Mark 14:12-16)
-        <span class="arabic-caption">الإنجيل قبطياً<br>(مرقس 14:12-16)</span></caption>
+        <span class="arabic-caption">الإنجيل قبطياً<br>(مرقس 14: 12 - 16)</span></caption>
         <tr id="table_11_row_0" class="priest">
             <td class="english">A chapter according to St. Mark,</td>
             <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲣⲕⲟⲛ ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">فصل من إنجيل معلمنا مار مرقس</td>
         </tr>
-        <tr id="table_11_row_1" class="text">
+        <tr id="table_11_row_1" class="intro">
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓ ⲉ̀.</td>
+        </tr>
+        <tr id="table_11_row_2" class="text">
             <td class="coptic">Ⲟⲩⲟϩ ϧⲉⲛ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲛ̀ϩⲟⲩⲓⲧ ⲛ̀ⲧⲉ ⲛⲓⲁⲧϣⲉⲙⲏⲣ : ϩⲟⲧⲉ ⲉⲩϣⲱⲧ ⲙ̀ⲡⲓⲡⲁⲥⲭⲁ : ⲡⲉϫⲱⲟⲩ ⲛⲁϥ ⲛ̀ϫⲉ ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ : ϫⲉ ⲁⲕⲟⲩⲱϣ ⲛ̀ⲧⲉⲛϣⲉⲛⲁⲛ ⲉ̀ⲑⲱⲛ ⲛ̀ⲧⲉⲛⲥⲟⲃϯ ϩⲓⲛⲁ ⲛ̀ⲧⲉⲕⲟⲩⲱⲙ ⲙⲡⲓⲡⲁⲥⲭⲁ. Ⲟⲩⲟϩ ⲁϥⲟⲩⲱⲣⲡ ⲛ̀ⲥ̀ⲛⲁⲩ ⲛ̀ⲧⲉ ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ ⲟⲩⲟϩ ⲡⲉϫⲁϥ ⲛⲱⲟⲩ : ϫⲉ ⲙⲁϣⲉⲛⲱⲧⲉⲛ ⲉ̀ϯⲃⲁⲕⲓ ⲟⲩⲟϩ ϥ̀ⲛⲁⲉⲣⲁ̀ⲡⲁⲛⲧⲁⲛ ⲉ̀ⲣⲱⲧⲉⲛ ⲛ̀ϫⲉ ⲟⲩⲣⲱⲙⲓ ⲉϥϥⲁⲓ ⲛ̀ⲟⲩϣⲟϣⲟⲩ ⲙⲙⲱⲟⲩ : ⲙⲟϣⲓ ⲛ̀ⲥⲱϥ. 
             <br>Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅ </td>
         </tr>
-        <tr id="table_11_row_2" class="congregation">
-            <td class="coptic">Ⲇⲟⲝⲁⲥⲓ Ⲕⲩⲣⲓ ⲉ̀.</td>
+        <tr id="table_11_row_3" class="intro">
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓ ⲉ̀.</td>
         </tr>
     </table>
 </div>
@@ -265,7 +268,7 @@ ${paschalPraiseHtml}
 <div class="section" id="section_7" title="English and Arabic Psalm & Gospel">
 <table id="table_12" title="Psalm">
     <caption id="caption_table_12" class="caption">Psalm<br>(31:18, 13)
-    <span class="arabic-caption">المزمور<br>(30: 18 و 13)</span></caption>
+    <span class="arabic-caption">المزمور<br>(30: 18 ، 13)</span></caption>
     <tr id="table_12_row_1" class="intro">
         <td class="english">From the Psalms of David the Prophet, may his blessing be with us, Amen.</td>
         <td class="arabic">من مزامير أبينا داود النبى بركته المقدسة تكون معنا، آمين.</td>
@@ -274,15 +277,11 @@ ${paschalPraiseHtml}
         <td class="english">Let deceitful lips become speechless, 
 
 When they speak lawlessness against the righteous.</td>
-        <td class="arabic">لانى سمعت المذمة من كثيرين يسكنون حولى 
-
-حين اجتمعوا على جميعاً تآمروا على اخذ نفسى</td>
+        <td class="arabic">ولتصر خرصاء الشفاه الغاشة. المتكلمة على الصديق بالإثم.</td>
     </tr>
     <tr id="table_12_row_5" class="text">
-        <td class="english">For I heard the blame of many who dwell round about 
-
-when they were gathered together against me, when they plotted to take my life.</td>
-        <td class="arabic"></td>
+        <td class="english">For I heard the blame of many who dwell round about when they were gathered together against me, when they plotted to take my life.</td>
+        <td class="arabic">لانى سمعت المذمة من كثيرين يسكنون حولى حين اجتمعوا على جميعاً تآمروا على اخذ نفسى</td>
     </tr>
     <tr id="table_12_row_7" class="intro">
         <td class="english">Alleluia.</td>
@@ -368,7 +367,18 @@ ${expositionConclusionHtml}
 
 </div>
 
-
+<div class="section" id="section_30" title="Next Hour">
+<table id="table_50" title="Next Hour">
+    <tr id="table_50_row_0" data-navigation="DOTH9sc" class="navigationButton">
+        <td class="englishButton">The NINTH Hour of the DAY of COVENANT THURSDAY</td>
+        <td class="arabicButton">الساعة التاسعة من يوم خميس العهد</td>
+    </tr>
+    <tr id="table_50_row_1" data-navigation="DaytimeLitaniessc" class="navigationButton">
+        <td class="englishButton">Daytime Litanies</td>
+        <td class="arabicButton">طلبات النهار</td>
+    </tr>
+</table>    
+</div>
 
 `;
 

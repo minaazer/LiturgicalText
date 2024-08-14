@@ -38,14 +38,32 @@ const SettingsScreen = () => {
         setSettings(updatedSettings);
     }
 
+    const setOnePageHandler = (value, checked) => {
+
+        const updatedSettings = {
+            ...settings,
+            onePage: settings.onePage.map((item, index) => {
+                if (index === value) {
+                    return {
+                        ...item,
+                        checked: checked
+                    };
+                }
+                return item;
+            })
+        };
+
+        setSettings(updatedSettings);
+    }
+
 
     const handleBackPress = () => {
         navigation.goBack();
     }
 
     return (
-        <ScrollView style={styles.scrollView}>
-            <View style={styles.container}>
+        <View style={styles.settingsScreen}>
+            <ScrollView contentContainerStyle={styles.container} style={styles.scrollView}>
 
                 <Text style={styles.title}>Settings</Text>
 
@@ -96,25 +114,50 @@ const SettingsScreen = () => {
                         </View>
                     
                     </View>
+                    <View style={styles.setting}>
+
+                        <Text style={styles.settingTitle}>Display on one page</Text>
+
+                        <View style={styles.languagesContainer}>
+
+                            {settings.onePage && settings.onePage.map((item, index) => (
+                                <View key={index} style={styles.language}>
+                                    <Text style={styles.languageTitle}>{item.label}</Text>
+                                    <Checkbox
+                                        status={item.checked ? 'checked' : 'unchecked'}
+                                        onPress={() => setOnePageHandler(index, !item.checked)}
+                                        color={'#e19d09'}
+                                    />
+                                </View>
+                            ))}
+
+                        </View>
+                    
+                    </View>
                     <TouchableOpacity style={styles.button} onPress={handleBackPress}>
                             <Text style={styles.buttonText}>Apply Changes</Text>
                         </TouchableOpacity>
                 </View>
 
-            </View>
-        </ScrollView>
+            </ScrollView>
+        </View>
     );
 }
 
 
 const styles = StyleSheet.create({
 
-    scrollView: {
+    settingsScreen: {
         backgroundColor: '#003060',
+        flex: 1,
+    },
+    scrollView: {
+        
+
     },
 
     container: {
-        flex: 1,
+        //flex: 1,
         backgroundColor: '#fff',
         alignItems: 'center',
         justifyContent: 'flex-start',

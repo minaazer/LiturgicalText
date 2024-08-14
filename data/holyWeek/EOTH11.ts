@@ -22,7 +22,7 @@ ${hourIntroHtml}
     <caption class="caption" id="caption_table_2">Coptic Prophecies
     <span class="arabic-caption">النبوات قبطياً</span></caption>
         <tr id="table_2_row_3" class="intro">
-            <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ ϯⲥⲟⲫⲓⲁ̀ ⲛ̀ⲧⲉ Ⲓⲉⲣⲉⲙⲓⲁⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ:</td>
+            <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲓⲉⲣⲉⲙⲓⲁⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ:</td>
         </tr>
         <tr id="table_2_row_4" class="text">
             <td class="coptic">Ⲛⲁⲓ ⲛⲉⲉ̀ⲧⲉϥ ϫⲱ ⲙ̀ⲙⲱⲟⲩ ⲛ̀ϫⲉ Ⲡ̀⳪ ϫⲉ ⲙⲏ ⲫⲏⲉ̀ϣⲁϥϩⲉⲓ ⲙⲏ ϥ̀ⲛⲁⲧⲱⲛϥ ⲁⲛ ϫⲉ : ⲓⲉ ⲫⲏⲉⲧⲁϥⲧⲁⲥⲑⲟ ⲉ̀ⲃⲟⲗ ⲙⲏ ⲙ̀ⲡⲁϥⲧⲁⲥⲑⲟ ⲉ̀ϧⲟⲩⲛ ϫⲉ : ⲉⲑⲃⲉⲟⲩ ⲁϥⲧⲁⲥⲑⲟ ⲉ̀ⲃⲟⲗ ⲛ̀ϫⲉ ⲡⲁⲓⲗⲁⲟⲥ ϧⲉⲛ ⲟⲩⲧⲁⲥⲑⲟ ⲉ̀ⲃⲟⲗ ⲛ̀ⲁⲧϣⲓⲡⲓ</td>
@@ -132,7 +132,7 @@ ${paschalPraiseHtml}
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_8_row_2" class="text">
-            <td class="coptic">Ⲓ̅ⲏ̅ⲥ ⲇⲉ ⲁϥⲱϣ ⲉ̀ⲃⲟⲗ ⲟⲩⲟϩ ⲡⲉϫⲁϥ : ϫⲉ ⲫⲏⲉⲟⲛⲁϩϯ ⲉ̀ⲣⲟⲓ ⲁϥⲛⲁϩϯ ⲉ̀ⲣⲟⲓ ⲁⲛ : ⲁⲗⲗⲁ ⲁϥⲛⲁϩϯ ⲉ̀ⲫⲏⲉ̀ⲧⲁϥⲧⲁⲟⲩⲟⲓ. Ⲟⲩⲟϩ ⲫⲏⲉⲑⲛⲁⲩ ⲉ̀ⲣⲟⲓ ⲁϥⲛⲁⲩ ⲉ̀ⲫⲏⲉ̀ⲧⲁϥⲧⲁⲟⲩⲟⲓ. Ⲁ̀ⲛⲟⲕ ⲁⲓⲓ̀ ⲉⲩⲟⲩⲱⲓⲛⲓ ⲙ̀ⲡⲓⲕⲟⲥⲙⲟⲥ <br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲓⲏⲥⲟⲩⲥ ⲇⲉ ⲁϥⲱϣ ⲉ̀ⲃⲟⲗ ⲟⲩⲟϩ ⲡⲉϫⲁϥ : ϫⲉ ⲫⲏⲉⲟⲛⲁϩϯ ⲉ̀ⲣⲟⲓ ⲁϥⲛⲁϩϯ ⲉ̀ⲣⲟⲓ ⲁⲛ : ⲁⲗⲗⲁ ⲁϥⲛⲁϩϯ ⲉ̀ⲫⲏⲉ̀ⲧⲁϥⲧⲁⲟⲩⲟⲓ. Ⲟⲩⲟϩ ⲫⲏⲉⲑⲛⲁⲩ ⲉ̀ⲣⲟⲓ ⲁϥⲛⲁⲩ ⲉ̀ⲫⲏⲉ̀ⲧⲁϥⲧⲁⲟⲩⲟⲓ. Ⲁ̀ⲛⲟⲕ ⲁⲓⲓ̀ ⲉⲩⲟⲩⲱⲓⲛⲓ ⲙ̀ⲡⲓⲕⲟⲥⲙⲟⲥ <br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_8_row_4" class="intro">
             <td class="english">Glory be to God forever.</td>
@@ -236,26 +236,23 @@ ${nighttimeExpositionIntroHtml}
         <td class="arabic">من يؤمن بى ويقبل كلامى لا يمكن أن يلبث فى الظلام.</td>
     </tr>
     <tr id="table_12_row_6" class="text">
-        <td class="english">He who denies Me and does not listen nor obey My words, I will not judge Him, but the words I said shall judge him.</td>
+        <td class="english">He who denies Me and does not listen nor obey My words, I will not judge him, but the words I said shall judge him.</td>
         <td class="arabic">ومن يجحدنى ولم يرد أن يسمع لقولى ولم يطعه فأنا لا أدينه،</td>
     </tr>
     <tr id="table_12_row_7" class="text">
-        <td class="english">What I have said is not from Me but from the Father who sent Me. 
-
-
-He gave Me the commandment of what to say and what to tell.”</td>
+        <td class="english">What I have said is not from Me but from the Father who sent Me.</td>
         <td class="arabic">لكن القول الذى قلته أنا هو يدينه. فان القول الذى نطقت به ليس هو لى بل للآب الذى أرسلنى.</td>
     </tr>
     <tr id="table_12_row_8" class="text">
-        <td class="english">We believe that You are the truly the Word of God the Father</td>
+        <td class="english">He gave Me the commandment of what to say and what to tell.”</td>
         <td class="arabic">وهو أعطانى الوصية بماذا أقول وبماذا أنطق.</td>
     </tr>
     <tr id="table_12_row_9" class="text">
-        <td class="english">and that You have power over all and nothing is impossible with You.</td>
+        <td class="english">We believe that You are the truly the Word of God the Father</td>
         <td class="arabic">نحن نؤمن أنك أنت بالحقيقة كلمة الله الآب الصالح.</td>
     </tr>
     <tr id="table_12_row_10" class="text">
-        <td class="english"></td>
+        <td class="english">and that You have power over all and nothing is impossible with You.</td>
         <td class="arabic">وأن لك القدرة على كل شئ وليس شئ يعسر عليك.</td>
     </tr>
 </table>
@@ -270,6 +267,14 @@ ${evnotiNaiNanHtml}
 ${endOfServiceHymnHtml}
 </div>
 
+<div class="section" id="section_30" title="Next Hour">
+<table id="table_50" title="Next Hour">
+    <tr id="table_50_row_0" data-navigation="DOTH1sc" class="navigationButton">
+        <td class="englishButton">The FIRST Hour of the DAY of COVENANT THURSDAY</td>
+        <td class="arabicButton">الساعة الأولى من يوم خميس العهد</td>
+    </tr>
+</table>
+</div>
 `;
 
 };

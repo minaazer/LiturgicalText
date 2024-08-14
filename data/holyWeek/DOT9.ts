@@ -333,7 +333,7 @@ ${hourIntroHtml}
         <td class="arabic">مُدَّةَ كُلِّ ايَّامِ الارْضِ زَرْعٌ وَحَصَادٌ وَبَرْدٌ وَحَرٌّ وَصَيْفٌ وَشِتَاءٌ وَنَهَارٌ وَلَيْلٌ لا تَزَالُ».</td>
     </tr>
     <tr id="table_3_row_68" class="text">
-        <td class="english">So God blessed Noah and his sons, and said to them: "Be fruitful and multiply, and fill the earth.*</td>
+        <td class="english">So God blessed Noah and his sons, and said to them: "Be fruitful and multiply, and fill the earth.</td>
         <td class="arabic">وَبَارَكَ اللهُ نُوحا وَبَنِيهِ وَقَالَ لَهُمْ: «اثْمِرُوا وَاكْثُرُوا وَامْلَاوا الارْضَ.</td>
     </tr>
     <tr id="table_3_row_69" class="text">
@@ -736,7 +736,7 @@ ${paschalPraiseHtml}
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_18_row_2" class="text">
-            <td class="coptic">Ⲉϥϩⲉⲙⲥⲓ ⲇⲉ ϩⲓϫⲉⲛ ⲡⲓⲧⲱⲟⲩ ⲛ̀ⲧⲉ ⲛⲓϫⲱⲓⲧ : ⲁⲩⲓ̀ ϩⲁⲣⲟϥ ⲛ̀ϫⲉ ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ ⲥⲁⲡ̀ⲥⲁ ⲙ̀ⲙⲁⲩⲁ̀ⲧⲟⲩ ⲉⲩϫⲱⲙ̀ⲙⲟⲥ ϫⲉ ⲁϫⲟⲥ ⲛⲁⲛ ϫⲉ ⲁ̀ⲣⲉ ⲛⲁⲓ ⲛⲁϣⲱⲡⲓ ⲛ̀ⲑ̀ⲛⲁⲩ : ⲟⲩⲟϩ ⲁϣ ⲡⲉ ⲡⲓⲙⲏⲓⲛⲓ ⲛ̀ⲧⲉ ⲡⲉⲕϫⲓⲛⲓ̀ ⲛⲉⲙ ⲧ̀ϧⲁⲉ̀ ⲛ̀ⲧⲉ ⲡⲁⲓ ⲉ̀ⲛⲉϩ : Ⲟⲩⲟϩ ⲁϥⲉ̀ⲣⲟⲩⲱ̀ ⲛ̀ϫⲉ Ⲓ̅ⲏ̅ⲥ ⲡⲉϫⲁϥ ⲛⲱⲟⲩ : ϫⲉ ⲁ̀ⲛⲁⲩ ⲙ̀ⲡⲉⲣⲭⲁⲥ ⲛ̀ⲧⲉ ⲟⲩⲁⲓ ⲥⲉⲣⲉⲙ ⲑⲏⲛⲟⲩ : Ⲉⲣⲉ ⲟⲩⲙⲏϣ ⲅⲁⲣ ⲓ̀ ϧⲉⲛ ⲡⲁⲣⲁⲛ ⲉⲩϫⲱ ⲙ̀ⲙⲟⲥ : ϫⲉ ⲁ̀ⲛⲟⲕ ⲡⲉ Ⲡ̅ⲭ̅ⲥ : ⲟⲩⲟϩ ⲉⲩⲉ̀ⲥⲉⲣⲉⲙ ⲟⲩⲙⲏϣ Ⲉ̀ⲣⲉⲧⲉⲛⲉ̀ⲥⲱⲧⲉⲙ ⲇⲉ ⲛ̀ϩⲁⲛⲃⲱⲧⲟⲥ ⲛⲉⲙ ϩⲁⲛⲥ̀ⲙⲏ ⲙ̀ⲃⲱⲧⲟⲥ : ⲁ̀ⲛⲁⲩ ⲙ̀ⲡⲉⲣϣ̀ⲑⲟⲣⲧⲉⲣ ϩⲱϯ ⲅⲁⲣ ⲡⲉ ⲛ̀ⲧⲟⲩϣⲱⲡⲓ.<br>... Ⲟⲩⲱϣⲧ ⲙⲡ̀ⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲉϥϩⲉⲙⲥⲓ ⲇⲉ ϩⲓϫⲉⲛ ⲡⲓⲧⲱⲟⲩ ⲛ̀ⲧⲉ ⲛⲓϫⲱⲓⲧ : ⲁⲩⲓ̀ ϩⲁⲣⲟϥ ⲛ̀ϫⲉ ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ ⲥⲁⲡ̀ⲥⲁ ⲙ̀ⲙⲁⲩⲁ̀ⲧⲟⲩ ⲉⲩϫⲱⲙ̀ⲙⲟⲥ ϫⲉ ⲁϫⲟⲥ ⲛⲁⲛ ϫⲉ ⲁ̀ⲣⲉ ⲛⲁⲓ ⲛⲁϣⲱⲡⲓ ⲛ̀ⲑ̀ⲛⲁⲩ : ⲟⲩⲟϩ ⲁϣ ⲡⲉ ⲡⲓⲙⲏⲓⲛⲓ ⲛ̀ⲧⲉ ⲡⲉⲕϫⲓⲛⲓ̀ ⲛⲉⲙ ⲧ̀ϧⲁⲉ̀ ⲛ̀ⲧⲉ ⲡⲁⲓ ⲉ̀ⲛⲉϩ : Ⲟⲩⲟϩ ⲁϥⲉ̀ⲣⲟⲩⲱ̀ ⲛ̀ϫⲉ Ⲓⲏⲥⲟⲩⲥ ⲡⲉϫⲁϥ ⲛⲱⲟⲩ : ϫⲉ ⲁ̀ⲛⲁⲩ ⲙ̀ⲡⲉⲣⲭⲁⲥ ⲛ̀ⲧⲉ ⲟⲩⲁⲓ ⲥⲉⲣⲉⲙ ⲑⲏⲛⲟⲩ : Ⲉⲣⲉ ⲟⲩⲙⲏϣ ⲅⲁⲣ ⲓ̀ ϧⲉⲛ ⲡⲁⲣⲁⲛ ⲉⲩϫⲱ ⲙ̀ⲙⲟⲥ : ϫⲉ ⲁ̀ⲛⲟⲕ ⲡⲉ Ⲡ̅ⲭ̅ⲥ : ⲟⲩⲟϩ ⲉⲩⲉ̀ⲥⲉⲣⲉⲙ ⲟⲩⲙⲏϣ Ⲉ̀ⲣⲉⲧⲉⲛⲉ̀ⲥⲱⲧⲉⲙ ⲇⲉ ⲛ̀ϩⲁⲛⲃⲱⲧⲟⲥ ⲛⲉⲙ ϩⲁⲛⲥ̀ⲙⲏ ⲙ̀ⲃⲱⲧⲟⲥ : ⲁ̀ⲛⲁⲩ ⲙ̀ⲡⲉⲣϣ̀ⲑⲟⲣⲧⲉⲣ ϩⲱϯ ⲅⲁⲣ ⲡⲉ ⲛ̀ⲧⲟⲩϣⲱⲡⲓ.<br>... Ⲟⲩⲱϣⲧ ⲙⲡ̀ⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_18_row_4" class="intro">
             <td class="english">Glory be to God forever.</td>
@@ -911,14 +911,12 @@ ${paschalPraiseHtml}
         <td class="arabic">اَلْحَقَّ أَقُولُ لَكُمْ: لاَ يَمْضِي هَذَا الْجِيلُ حَتَّى يَكُونَ هَذَا كُلُّهُ.</td>
     </tr>
     <tr id="table_20_row_36" class="text">
-        <td class="english">Heaven and earth will pass away, but My words will by no means pass away.</td>
-        <td class="arabic">اَلسَّمَاءُ وَالأَرْضُ تَزُولاَنِ وَلَكِنَّ كَلاَمِي لاَ يَزُولُ.</td>
+        <td class="english">Heaven and earth will pass away, but My words will by no means pass away.<br><i>Bow down before the Holy Gospel.</i></td>
+        <td class="arabic">اَلسَّمَاءُ وَالأَرْضُ تَزُولاَنِ وَلَكِنَّ كَلاَمِي لاَ يَزُولُ.<br><i>أسجدوا للإنجيل المقدس.</i></td>
     </tr>
     <tr id="table_20_row_38" class="intro">
-        <td class="english"><i>Bow down before the Holy Gospel.</i>
-Glory be to God forever.</td>
-        <td class="arabic"><i>أسجدوا للإنجيل المقدس.</i> 
-والمجد لله دائماً.</td>
+        <td class="english">Glory be to God forever.</td>
+        <td class="arabic">والمجد لله دائماً.</td>
     </tr>
 </table>
 
@@ -978,7 +976,18 @@ ${daytimeExpositionIntroHtml}
 ${expositionConclusionHtml}
 
 </div>
-
+<div class="section" id="section_30" title="Next Hour">
+<table id="table_50" title="Next Hour">
+    <tr id="table_50_row_0" data-navigation="DOT11sc" class="navigationButton">
+        <td class="englishButton">The ELEVENTH Hour of the DAY of TUESDAY</td>
+        <td class="arabicButton">الساعة الحادية عشر من يوم الثلاثاء</td>
+    </tr>
+    <tr id="table_50_row_1" data-navigation="DaytimeLitaniessc" class="navigationButton">
+        <td class="englishButton">Daytime Litanies</td>
+        <td class="arabicButton">طلبات النهار</td>
+    </tr>
+</table>
+</div>
 
 
 `;

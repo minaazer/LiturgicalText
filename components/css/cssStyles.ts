@@ -163,6 +163,37 @@ break-before: auto;
 
 }
 
+.navigationButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: ${fontSize}vw;
+    color: white !important;
+    background-color: #614051 !important;
+    font-weight: bold;
+    padding: 3px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.arabicButton {
+    flex: 2; /* 40% width */
+    text-align: center;
+    direction: rtl;
+    padding-left: 10px;
+    display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'flex'};
+}
+
+.englishButton {
+    flex: 3; /* 60% width */
+    font-family: 'Georgia' !important;
+    padding-right: 10px;
+    text-align: center;
+    display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'flex'};
+}
+
+
 h1 {
     font-size: ${fontSize}vw !important;
     text-align: center !important;
@@ -227,7 +258,8 @@ div {
 
 .arabic {
     text-align: right;
-    direction: rtl !important;    
+    direction: rtl !important; 
+    unicode-bidi: embed; /* Ensure proper rendering of Arabic text */
     vertical-align: top ;
     padding-bottom: 10px;
     text-align: justify;
@@ -238,6 +270,7 @@ div {
     line-height: 1.4;
 
 }
+
 .arabic1 {
     
     vertical-align: top ;
@@ -292,6 +325,7 @@ div {
     display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'inline'};
     flex: 3.5;
 }
+
 .engRef {  
     vertical-align: top ;
     font-family: 'Georgia' !important;
@@ -309,6 +343,14 @@ div {
     display: ${settings.languages && !visibleLangues[3].checked ? 'none' : 'flex'};
     flex: 4;
     color: #FDFD96 !important;
+}
+.enPhonicsSongs {
+    vertical-align: top ;
+    font-family: 'Georgia' !important;
+    padding-right: 10px;
+    text-align: justify;
+    display: ${settings.languages && !visibleLangues[3].checked ? 'none' : 'flex'};
+    flex: 4;
 }
 .enPhonics1 {
     

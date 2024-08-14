@@ -69,7 +69,7 @@ ${hourIntroHtml}
     <span class="arabic-caption">النبوة الأولي<br>(سفر التكوين 22: 1 - 19)</span></caption>
     <tr id="table_3_row_1" class="intro">
         <td class="english">A reading from the book of Genesis of Moses the prophet. May his blessings be with us. Amen.</td>
-        <td class="arabic">من سفر التكوين لموسى النبى بركته المقدسة تكون معنا، آمين.</td>
+        <td class="arabic">من سفر التكوين لموسى النبى بركته تكون معنا، آمين.</td>
     </tr>
     <tr id="table_3_row_4" class="text">
         <td class="english">Now it came to pass after these things that God tested Abraham, and said to him, "Abraham!" And he said, "Here I am."</td>
@@ -158,7 +158,7 @@ ${hourIntroHtml}
     <span class="arabic-caption">النبوة الثانية<br>(اشعياء 61: 1 - 6)</span></caption>
     <tr id="table_4_row_1" class="intro">
         <td class="english">A reading from Isaiah the prophet. May his blessings be with us. Amen.</td>
-        <td class="arabic">من اشعياء النبى بركته المقدسة تكون معنا، آمين.</td>
+        <td class="arabic">من اشعياء النبى بركته تكون معنا، آمين.</td>
     </tr>
     <tr id="table_4_row_4" class="text">
         <td class="english">"The Spirit of the Lord God is upon Me, Because the Lord has anointed Me To preach good tidings to the poor; He has sent Me to heal the brokenhearted, To proclaim liberty to the captives, And the opening of the prison to those who are bound;</td>
@@ -195,7 +195,7 @@ ${hourIntroHtml}
     <span class="arabic-caption">النبوة الثالثة<br>(سفر التكوين 14: 17 – 20)</span></caption>
     <tr id="table_5_row_1" class="intro">
         <td class="english">A reading from the book of Genesis of Moses the prophet. May his blessings be with us. Amen.</td>
-        <td class="arabic">من سفر التكوين لموسى النبى بركته المقدسة تكون معنا، آمين.</td>
+        <td class="arabic">من سفر التكوين لموسى النبى بركته تكون معنا، آمين.</td>
     </tr>
     <tr id="table_5_row_4" class="text">
         <td class="english">And the king of Sodom went out to meet him at the Valley of Shaveh (that is, the King's Valley), after his return from the defeat of Chedorlaomer and the kings who were with him.</td>
@@ -224,7 +224,7 @@ ${hourIntroHtml}
     <span class="arabic-caption">النبوة الرابعة<br>(أيوب 27: 2 28: 13)</span></caption>
     <tr id="table_6_row_1" class="intro">
         <td class="english">A reading from the book of Job may his blessings be with us Amen.</td>
-        <td class="arabic">من أيوب الصديق بركته المقدسة تكون معنا، آمين.</td>
+        <td class="arabic">من أيوب الصديق بركته تكون معنا، آمين.</td>
     </tr>
     <tr id="table_6_row_4" class="text">
         <td class="english">"As God lives, who has taken away my justice, And the Almighty, who has made my soul bitter,</td>
@@ -458,7 +458,7 @@ ${paschalPraiseHtml}
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_10" title="Coptic Psalm">
         <caption class="caption" id="caption_table_10">Coptic Psalm<br>(23:1-2)
-        <span class="arabic-caption">المزمور قبطياً<br>(23:1-2)</span></caption>
+        <span class="arabic-caption">المزمور قبطياً<br>(22: 1)</span></caption>
 
         <tr id="table_10_row_0" class="intro">
             <td class="english">A Psalm of David</td>
@@ -500,14 +500,15 @@ ${paschalPraiseHtml}
             <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲱⲛ ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">فصل من إنجيل معلمنا مار متى</td>
         </tr>
-        <tr id="table_12_row_1" class="text">
-            <td class="coptic">Ⲛϩ̀ⲣⲏⲓ ⲇⲉ ϧⲉⲛ ⲡⲓϩ̀ⲟⲟⲩ ⲛ̀ϩⲟⲩⲓⲧ ⲛ̀ⲧⲉ ⲛⲓⲁⲧⲕⲱⲃ : ⲁⲩⲓ̀ ϩⲁ Ⲓ̅ⲏ̅ⲥ ⲛ̀ϫⲉ ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ ⲉⲩϫⲱ ⲙ̀ⲙⲟⲥ : ϫⲉ ⲁⲕⲟⲩⲱϣ ⲉ̀ⲥⲉⲃⲧⲉ ⲡⲓⲡⲁⲥⲭⲁ ⲛⲁⲕ ⲑⲱⲛ ⲉ̀ⲟⲩⲙⲟϥ : Ⲛ̀ⲑⲟϥ ⲇⲉ ⲡⲉϫⲁϥ ⲛⲱⲟⲩ : ϫⲉ ⲙⲁϣⲉⲛⲱⲧⲉⲛ ⲉ̀ⲧⲁⲓⲃⲁⲕⲓ ϩⲁ ⲡⲁⲫ̀ⲙⲁⲛ ⲛ̀ⲣⲱⲙⲓ ⲟⲩⲟϩ ⲁ̀ϫⲟⲥ ⲛⲁϥ ϫⲉ : ⲡⲉϫⲉ ⲡⲓⲣⲉϥϯⲥⲃⲱ ϫⲉ ⲡⲁⲥⲏⲟⲩ ⲁϥϧⲱⲛⲧ : ⲁⲓⲛⲁⲓ̀ⲣⲓ ⲙ̀ⲡⲁⲡⲁⲥⲭⲁ ϧⲁⲧⲟⲧⲕ ⲛⲉⲙ ⲛⲁⲙⲁⲑⲏⲧⲏⲥ. Ⲟⲩⲟϩ ⲁⲩⲓ̀ⲣⲓ ⲛ̀ϫⲉ ⲛⲓⲙⲁⲑⲏⲧⲏⲥ ⲙ̀ⲫ̀ⲣⲏϯ ⲉ̀ⲧⲁ Ⲓ̅ⲏ̅ⲥ ϫⲟⲥ ⲛⲱⲟⲩ ⲟⲩⲟϩ ⲁⲩⲥⲉⲃⲧⲉ ⲡⲓⲡⲁⲥⲭⲁ.
+        <tr id="table_12_row_1" class="intro">
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓ ⲉ̀.</td>
+        </tr>
+        <tr id="table_12_row_2" class="text">
+            <td class="coptic">Ⲛϩ̀ⲣⲏⲓ ⲇⲉ ϧⲉⲛ ⲡⲓϩ̀ⲟⲟⲩ ⲛ̀ϩⲟⲩⲓⲧ ⲛ̀ⲧⲉ ⲛⲓⲁⲧⲕⲱⲃ : ⲁⲩⲓ̀ ϩⲁ Ⲓⲏⲥⲟⲩⲥ ⲛ̀ϫⲉ ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ ⲉⲩϫⲱ ⲙ̀ⲙⲟⲥ : ϫⲉ ⲁⲕⲟⲩⲱϣ ⲉ̀ⲥⲉⲃⲧⲉ ⲡⲓⲡⲁⲥⲭⲁ ⲛⲁⲕ ⲑⲱⲛ ⲉ̀ⲟⲩⲙⲟϥ : Ⲛ̀ⲑⲟϥ ⲇⲉ ⲡⲉϫⲁϥ ⲛⲱⲟⲩ : ϫⲉ ⲙⲁϣⲉⲛⲱⲧⲉⲛ ⲉ̀ⲧⲁⲓⲃⲁⲕⲓ ϩⲁ ⲡⲁⲫ̀ⲙⲁⲛ ⲛ̀ⲣⲱⲙⲓ ⲟⲩⲟϩ ⲁ̀ϫⲟⲥ ⲛⲁϥ: ϫⲉ ⲡⲉϫⲉ ⲡⲓⲣⲉϥϯⲥ̀ⲃⲱ ϫⲉ ⲡⲁⲥⲏⲟⲩ ⲁϥϧⲱⲛⲧ : ⲁⲓⲛⲁⲓ̀ⲣⲓ ⲙ̀ⲡⲁⲡⲁⲥⲭⲁ ϧⲁⲧⲟⲧⲕ ⲛⲉⲙ ⲛⲁⲙⲁⲑⲏⲧⲏⲥ. Ⲟⲩⲟϩ ⲁⲩⲓ̀ⲣⲓ ⲛ̀ϫⲉ ⲛⲓⲙⲁⲑⲏⲧⲏⲥ ⲙ̀ⲫ̀ⲣⲏϯ ⲉ̀ⲧⲁ Ⲓⲏⲥⲟⲩⲥ ϫⲟⲥ ⲛⲱⲟⲩ ⲟⲩⲟϩ ⲁⲩⲥⲉⲃⲧⲉ ⲡⲓⲡⲁⲥⲭⲁ.
             <br> Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
-        <tr id="table_12_row_2" class="intro">
-            <td class="coptic">Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅ </td>
         </tr>
         <tr id="table_12_row_3" class="congregation">
-            <td class="coptic">Ⲇⲟⲝⲁⲥⲓ Ⲕⲩⲣⲓ ⲉ̀.</td>
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓ ⲉ̀.</td>
         </tr>
     </table>
 </div>
@@ -518,13 +519,13 @@ ${paschalPraiseHtml}
 
 <table id="table_13" title="Psalm">
     <caption id="caption_table_13" class="caption">Psalm<br>(23:1-2)
-    <span class="arabic-caption">المزمور<br>(23: 1-2)</span></caption>
+    <span class="arabic-caption">المزمور<br>(22: 1)</span></caption>
     <tr id="table_13_row_1" class="intro">
         <td class="english">From the Psalms of David the Prophet, may his blessing be with us, Amen.</td>
-        <td class="arabic">من مزامير أبينا داود النبى بركته المقدسة تكون معنا، آمين.</td>
+        <td class="arabic">من مزامير أبينا داود النبى بركته تكون معنا، آمين.</td>
     </tr>
     <tr id="table_13_row_4" class="text">
-        <td class="english">A Psalm of David. The Lord is my shepherd; I shall not want.</td>
+        <td class="english">The Lord is my shepherd; I shall not want.</td>
         <td class="arabic">اَلرَّبُّ رَاعِيَّ فَلاَ يُعْوِزُنِي شَيْءٌ.</td>
     </tr>
     <tr id="table_13_row_5" class="text">
@@ -670,6 +671,18 @@ ${evnotiNaiNanHtml}
 ${endOfServiceHymnHtml}
 </div>
 
+<div class="section" id="section_30" title="Next Hour">
+<table id="table_50" title="Next Hour">
+    <tr id="table_50_row_0" data-navigation="DOTH11sc" class="navigationButton">
+        <td class="englishButton">The ELEVENTH Hour of the DAY of COVENANT THURSDAY</td>
+        <td class="arabicButton">الساعة الحادية عشر من يوم خميس العهد</td>
+    </tr>
+    <tr id="table_50_row_1" data-navigation="DaytimeLitaniessc" class="navigationButton">
+        <td class="englishButton">Daytime Litanies</td>
+        <td class="arabicButton">طلبات النهار</td>
+    </tr>
+</table>
+</div>
 
 `;
 

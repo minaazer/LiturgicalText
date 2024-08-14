@@ -472,7 +472,7 @@ ${paschalPraiseHtml}
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_18_row_2" class="text">
-            <td class="coptic">Ⲟⲩⲟϩ ⲉ̀ⲡⲉϥⲣⲁⲥϯ ⲉ̀ⲧⲁⲩⲓ⳪ ⲉⲃⲟⲗ ϧⲉⲛ ⲉ̀Ⲃⲏⲑⲁ̀ⲛⲓⲁ̀ ⲁϥϩ̀ⲕⲟ : Ⲟⲩⲟϩ ⲉ̀ⲧⲁϥⲛⲁⲩ ⲉ̀ⲟⲩⲃⲱ ⲛ̀ⲕⲉⲛⲧⲉ ϩⲓⲫⲟⲩⲉⲓ ⲉ̀ⲟⲩⲟⲛ ϩⲁⲛϫⲱⲃⲓ ϩⲓⲱⲧⲥ ⲁϥⲓ̀ ⲇⲉ ϩⲁⲣⲁ ⲁϥⲛⲁϫⲉⲙ ϩ̀ⲗⲓ ϩⲓⲱⲧⲥ ⲟⲩⲟϩ ⲉ̀ⲧⲁϥⲓ̀ ⲉ̀ϫⲱⲥ ⲙ̀ⲡⲉϥϫⲉⲙ ϩ̀ⲗⲓ ⲉ̀ⲃⲏⲗ ⲉ̀ϩⲁⲛϫⲱⲃⲓ : ⲛⲉ ⲡ̀ⲥⲏⲟⲩ ⲅⲁⲣ ⲛ̀ⲕⲉⲛⲧⲉ ⲁⲛ ⲡⲉ : Ⲟⲩⲟϩ ⲉ̀ⲧⲁϥⲉ̀ⲣⲟⲩⲱ̀ ⲛ̀ϫⲉ Ⲓ̅ⲏ̅ⲥ ⲡⲉϫⲁϥ ⲛⲁⲥ ϫⲉ ⲛ̀ⲛⲉϩ̀ⲗⲓ ϫⲉ ⲟⲩⲉⲙ ⲟⲩⲧⲁϩ ϩⲓⲱ̀ϯ ϣⲁⲉ̀ⲛⲉϩ ⲟⲩⲟϩ ⲛⲁⲩⲥⲱⲧⲉⲙ ⲛ̀ϫⲉ ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ. Ⲟⲩⲟϩ ⲁⲩⲓ̀ ⲉ̀Ⲓ̀̅ⲗ̅ⲏ̅ⲙ ⲟⲩⲟϩ ⲉ̀ⲧⲁϥⲓ̀ ⲉ̀ϧⲟⲩⲛ ⲛ̀ϫⲉ Ⲓ̅ⲏ̅ⲥ ⲉ̀ⲡⲓⲉⲣⲫⲉⲓ ⲁϥⲉⲣϩⲏⲧⲥ ⲛ̀ϩⲓⲟⲩⲓ̀ ⲉ̀ⲃⲟⲗ ⲛ̀ⲛⲏⲧⲏⲣⲟⲩ ⲉⲧϯ ⲉ̀ⲃⲟⲗ ⲛⲉⲙ ⲛⲏⲉⲧϣⲱⲡ ϧⲉⲛ ⲡⲓⲉⲣⲫⲉⲓ<br>... Ⲟⲩⲱϣⲧ ⲙⲡ̀ⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲟⲩⲟϩ ⲉ̀ⲡⲉϥⲣⲁⲥϯ ⲉ̀ⲧⲁⲩⲓ̀ ⲉⲃⲟⲗ ϧⲉⲛ ⲉ̀Ⲃⲏⲑⲁ̀ⲛⲓⲁ̀ ⲁϥϩ̀ⲕⲟ : Ⲟⲩⲟϩ ⲉ̀ⲧⲁϥⲛⲁⲩ ⲉ̀ⲟⲩⲃⲱ ⲛ̀ⲕⲉⲛⲧⲉ ϩⲓⲫⲟⲩⲉⲓ ⲉ̀ⲟⲩⲟⲛ ϩⲁⲛϫⲱⲃⲓ ϩⲓⲱⲧⲥ ⲁϥⲓ̀ ⲇⲉ ϩⲁⲣⲁ ⲁϥⲛⲁϫⲉⲙ ϩ̀ⲗⲓ ϩⲓⲱⲧⲥ ⲟⲩⲟϩ ⲉ̀ⲧⲁϥⲓ̀ ⲉ̀ϫⲱⲥ ⲙ̀ⲡⲉϥϫⲉⲙ ϩ̀ⲗⲓ ⲉ̀ⲃⲏⲗ ⲉ̀ϩⲁⲛϫⲱⲃⲓ : ⲛⲉ ⲡ̀ⲥⲏⲟⲩ ⲅⲁⲣ ⲛ̀ⲕⲉⲛⲧⲉ ⲁⲛ ⲡⲉ : Ⲟⲩⲟϩ ⲉ̀ⲧⲁϥⲉ̀ⲣⲟⲩⲱ̀ ⲛ̀ϫⲉ Ⲓ̅ⲏ̅ⲥ ⲡⲉϫⲁϥ ⲛⲁⲥ ϫⲉ ⲛ̀ⲛⲉϩ̀ⲗⲓ ϫⲉ ⲟⲩⲉⲙ ⲟⲩⲧⲁϩ ϩⲓⲱ̀ϯ ϣⲁⲉ̀ⲛⲉϩ ⲟⲩⲟϩ ⲛⲁⲩⲥⲱⲧⲉⲙ ⲛ̀ϫⲉ ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ. Ⲟⲩⲟϩ ⲁⲩⲓ̀ ⲉ̀Ⲓ̀̅ⲗ̅ⲏ̅ⲙ ⲟⲩⲟϩ ⲉ̀ⲧⲁϥⲓ̀ ⲉ̀ϧⲟⲩⲛ ⲛ̀ϫⲉ Ⲓ̅ⲏ̅ⲥ ⲉ̀ⲡⲓⲉⲣⲫⲉⲓ ⲁϥⲉⲣϩⲏⲧⲥ ⲛ̀ϩⲓⲟⲩⲓ̀ ⲉ̀ⲃⲟⲗ ⲛ̀ⲛⲏⲧⲏⲣⲟⲩ ⲉⲧϯ ⲉ̀ⲃⲟⲗ ⲛⲉⲙ ⲛⲏⲉⲧϣⲱⲡ ϧⲉⲛ ⲡⲓⲉⲣⲫⲉⲓ<br>... Ⲟⲩⲱϣⲧ ⲙⲡ̀ⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_18_row_4" class="intro">
             <td class="english">Glory be to God forever.</td>
@@ -535,7 +535,7 @@ ${paschalPraiseHtml}
         <td class="arabic">وَلَمْ يَدَعْ أَحَداً يَجْتَازُ الْهَيْكَلَ بِمَتَاعٍ.</td>
     </tr>
     <tr id="table_20_row_9" class="text">
-        <td class="english">Then He taught, saying to them, "Is it not written, 'My house shall be called a house of prayer for all nations'?</td>
+        <td class="english">Then He taught, saying to them, "Is it not written, 'My house shall be called a house of prayer for all nations'? But you have made it a 'den of thieves.'"</td>
         <td class="arabic">وَكَانَ يُعَلِّمُ قَائِلاً لَهُمْ: «أَلَيْسَ مَكْتُوباً: بَيْتِي بَيْتَ صَلاَةٍ يُدْعَى لِجَمِيعِ الأُمَمِ؟ وَأَنْتُمْ جَعَلْتُمُوهُ مَغَارَةَ لُصُوصٍ».</td>
     </tr>
     <tr id="table_20_row_10" class="text">
@@ -611,16 +611,16 @@ ${daytimeExpositionIntroHtml}
         <td class="arabic">وبعد هذا ثبت الله الماء العلوى وأسماه سماء.</td>
     </tr>
     <tr id="table_22_row_9" class="text">
-        <td class="english">On the third day, He gathered the water and made the land appear over it.</td>
-        <td class="arabic">وفى اليوم الثالث جمع المياه وثبت الأرض فوق المياه،</td>
+        <td class="english">On the third day, He gathered the water and made the land appear over it. And He created various kinds of grass, plants, and fruitful trees</td>
+        <td class="arabic">وفى اليوم الثالث جمع المياه وثبت الأرض فوق المياه، وخلق أنواع الشجر ومزروعات الحقل والعشب المزروع المثمر،</td>
     </tr>
     <tr id="table_22_row_10" class="text">
         <td class="english">On the fourth day, God created the sun, the moon, and the multitude of stars.</td>
         <td class="arabic">وفى اليوم الرابع خلق الشمس والقمر وكثرة النجوم،</td>
     </tr>
     <tr id="table_22_row_11" class="text">
-        <td class="english">On the fifth day, God created the birds, the whales, the farm animals and various kinds of grass, plants, and fruitful trees.</td>
-        <td class="arabic">وفى اليوم الخامس خلق الهواء والطيور والحيتان الكبار وحيوانات الحقل وخلق أنواع الشجر ومزروعات الحقل والعشب المزروع المثمر.</td>
+        <td class="english">On the fifth day, God created the birds, the whales, the farm animals.</td>
+        <td class="arabic">وفى اليوم الخامس خلق الهواء والطيور والحيتان الكبار وحيوانات الحقل.</td>
     </tr>
     <tr id="table_22_row_12" class="text">
         <td class="english">On the sixth day, God created Adam, the first man, and a companion for him from his own flesh.</td>
@@ -640,6 +640,19 @@ ${expositionConclusionHtml}
 
 </div>
 
+<div class="section" id="section_30" title="Next Hour">
+<table id="table_50" title="Next Hour">
+    <tr id="table_50_row_0" data-navigation="DOM3sc" class="navigationButton">
+        <td class="englishButton">The THIRD Hour of the DAY of MONDAY</td>
+        <td class="arabicButton">الساعة الثالثة من يوم الإثنين</td>
+    </tr>
+    <tr id="table_50_row_1" data-navigation="DaytimeLitaniessc" class="navigationButton">
+        <td class="englishButton">Daytime Litanies</td>
+        <td class="arabicButton">طلبات النهار</td>
+    </tr>
+</table>
+</div>
+</div>
 
 `;
 

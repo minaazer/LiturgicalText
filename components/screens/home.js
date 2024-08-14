@@ -68,8 +68,8 @@ const Home = () => {
 
 
               <TouchableOpacity
-                style={[styles.iconContainer, { opacity: 0.5}]}
-              //onPress={() => navigation.navigate('Glorification2')}
+                style={[styles.iconContainer]}
+              onPress={() => navigation.navigate('Songs')}
               >
                 <Image source={songsImage} style={styles.iconImage} />
               </TouchableOpacity>

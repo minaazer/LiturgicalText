@@ -305,7 +305,7 @@ ${daytimeExpositionIntroHtml}
         <td class="arabic">ما هو هذا الربح المملوء من كل نجس، وهذا الظلم الذى صنعتموه؟!</td>
     </tr>
     <tr id="table_22_row_8" class="text">
-        <td class="english">When the Son of God saw this done in His Father’s house,</td>
+        <td class="english">When the Son of God saw this done in His Father’s house - for they have turned it in to a den for thievery, bandits, the unjust and a house of trade -</td>
         <td class="arabic">لما نظر ابن الله بيت أبيه، وهذه كلها تصنع فيه، فانهم صيروه مسكناً للصوص الخاطفين والظلمة، وبيتاً للتجارة،</td>
     </tr>
     <tr id="table_22_row_9" class="text">
@@ -329,7 +329,19 @@ ${daytimeExpositionIntroHtml}
 ${expositionConclusionHtml}
 
 </div>
-
+<div class="section" id="section_30" title="Next Hour">
+<table id="table_50" title="Next Hour">
+    <tr id="table_50_row_0" data-navigation="DOM9sc" class="navigationButton">
+        <td class="englishButton">The NINTH Hour of the DAY of MONDAY</td>
+        <td class="arabicButton">الساعة التاسعة من يوم الإثنين</td>
+    </tr>
+    <tr id="table_50_row_1" data-navigation="DaytimeLitaniessc" class="navigationButton">
+        <td class="englishButton">Daytime Litanies</td>
+        <td class="arabicButton">طلبات النهار</td>
+    </tr>
+</table>
+</div>
+</div>
 
 `;
 

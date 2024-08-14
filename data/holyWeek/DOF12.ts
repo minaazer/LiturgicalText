@@ -23,19 +23,19 @@ ${hourIntroHtml}
     <caption class="caption" id="caption_table_2">Coptic Prophecies
     <span class="arabic-caption">النبوات قبطياً</span></caption>
         <tr id="table_2_row_3" class="intro">
-            <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲑ̀ⲣⲓⲛⲟⲓ Ⲓⲉⲣⲉⲙⲓⲟⲩ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ:</td>
+            <td class="coptic">Ⲉ̀ⲃⲟⲗϧⲉⲛ Ⲑ̀ⲣⲓⲛⲟⲓ Ⲓⲉⲣⲉⲙⲓⲟⲩ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ:</td>
         </tr>
         <tr id="table_2_row_4" class="text">
-            <td class="coptic">Ⲁⲛⲟⲕ ⲫ̀ⲣⲱⲙⲓ ⲁ̀ⲛⲟⲕ ⲉⲑⲛⲁⲩ ⲉ̀ϯⲙⲉⲧϩⲏⲕⲓ : ⲁϥⲓ̀ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲓ ϧⲉⲛ ⲡⲓϣⲃⲱⲧ ⲛ̀ⲧⲉ ⲡⲉϥϫⲱⲛⲧ. Ⲁϥⲁ̀ⲙⲟⲛⲓ ⲙ̀ⲙⲟⲓ ⲟⲩⲟϩ ⲁϥⲟⲗⲧ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲟⲩⲭⲁⲕⲓ ⲉ̀ⲟⲩⲱⲓⲛⲓ ⲁⲛ : ⲡ̀ⲗⲏⲛ ⲁϥⲧⲁⲥⲑⲟ ⲛ̀ⲧⲉϥϫⲓϫ ⲛ̀ϧ̀ⲣⲏⲓ ⲛ̀ϧⲏⲧ ⲙ̀ⲡⲓⲉ̀ϩⲟⲟⲩ ⲧⲏⲣϥ.</td>
+            <td class="coptic">Ⲁⲛⲟⲕ ⲫ̀ⲣⲱⲙⲓ ⲁ̀ⲛⲟⲕ ⲉⲑⲛⲁⲩ ⲉ̀ϯⲙⲉⲧϩⲏⲕⲓ : ⲁϥⲓ̀ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲓ ϧⲉⲛ ⲡⲓϣ̀ⲃⲱⲧ ⲛ̀ⲧⲉ ⲡⲉϥϫⲱⲛⲧ. Ⲁϥⲁ̀ⲙⲟⲛⲓ ⲙ̀ⲙⲟⲓ ⲟⲩⲟϩ ⲁϥⲟⲗⲧ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲟⲩⲭⲁⲕⲓ ⲉ̀ⲟⲩⲱⲓⲛⲓ ⲁⲛ : ⲡ̀ⲗⲏⲛ ⲁϥⲧⲁⲥⲑⲟ ⲛ̀ⲧⲉϥϫⲓϫ ⲛ̀ϧ̀ⲣⲏⲓ ⲛ̀ϧⲏⲧ ⲙ̀ⲡⲓⲉ̀ϩⲟⲟⲩ ⲧⲏⲣϥ.</td>
         </tr>
         <tr id="table_2_row_5" class="intro">
             <td class="coptic">Ⲟⲩⲱ̀ⲟⲩ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ...</td>
         </tr>
         <tr id="table_2_row_6" class="intro">
-            <td class="coptic">Ⲉⲃⲟⲗϧⲉⲛ Ⲓⲱⲛⲁ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ:</td>
+            <td class="coptic">Ⲉ̀ⲃⲟⲗϧⲉⲛ Ⲓⲱⲛⲁ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ:</td>
         </tr>
         <tr id="table_2_row_7" class="text">
-            <td class="coptic">Ⲟ̀ⲩⲟϩ ⲁϥⲉⲣϩⲟϯ ⲛ̀ϫⲉ ⲛⲓⲣⲱⲙⲓ ϧⲉⲛ ⲟⲩⲛⲓϣϯ ⲛ̀ϩⲟϯ ⲟⲩⲟϩ ⲡⲉϫⲱⲟⲩ ⲛⲁϥϫⲉⲟⲩ ⲡⲉ ⲫⲁⲓ ⲉ̀ⲧⲁⲕⲁⲓϥ ⲛⲁⲛ ϫⲉⲟⲩⲏⲓ ⲁⲩⲉ̀ⲙⲓ ⲛ̀ϫⲉ ⲛⲓⲣⲱⲙⲓ ϫⲉ ⲛⲁϥ ⲫⲏⲧ ⲉ̀ⲃⲟⲗϩⲁ ⲡ̀ϩⲟ ⲙ̀Ⲡ⳪.</td>
+            <td class="coptic">Ⲟ̀ⲩⲟϩ ⲁϥⲉⲣϩⲟϯ ⲛ̀ϫⲉ ⲛⲓⲣⲱⲙⲓ ϧⲉⲛ ⲟⲩⲛⲓϣϯ ⲛ̀ϩⲟϯ ⲟⲩⲟϩ ⲡⲉϫⲱⲟⲩ ⲛⲁϥϫⲉⲟⲩ ⲡⲉ ⲫⲁⲓ ⲉ̀ⲧⲁⲕⲁⲓϥ ⲛⲁⲛ ϫⲉⲟⲩⲏⲓ ⲁⲩⲉ̀ⲙⲓ ⲛ̀ϫⲉ ⲛⲓⲣⲱⲙⲓ ϫⲉ ⲛⲁϥ ⲫⲏⲧ ⲉ̀ⲃⲟⲗϩⲁ ⲡ̀ϩⲟ ⲙ̀Ⲡ̀ϭⲟⲓⲥ.</td>
         </tr>
         <tr id="table_2_row_8" class="intro">
             <td class="coptic">Ⲟⲩⲱ̀ⲟⲩ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ ⲉ̀ⲑⲟⲩⲁⲃ ⲡⲉⲛⲛⲟⲩϯ ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ: ⲁ̀ⲙⲏⲛ.</td>
@@ -55,91 +55,91 @@ ${hourIntroHtml}
         </tr>
         <tr id="table_3_row_4" class="text">
             <td class="english">I am the man that sees poverty, through the rod of His wrath upon me. He has taken me, and led me away into darkness, and not into light.   Nay, against me has He turned His hand all the day.</td>
-            <td class="arabic">أنا هو الرجل الذى رأى الـمـذلة. أتى علـىّ بقضيـب غضبه. قادني وسـيـرنى في الظلمة لا في النـور. والآن رد يـده عـلىّ النهار كله.</td>
+            <td class="arabic">أنَا هُوَ الرَّجُلُ الذي رَأى المَذَلَّةَ ، أَتَى عَلَيَّ بِقَضيب غَضَبِهِ، وَقَادَنِي وَسَيَّرَنِي فِي الظُّلْمَةِ لا في النُّورِ. والآنَ رَدَّ يَدَهُ عَليَّ النَّهَارَ كُلَّهُ.</td>
         </tr>
         <tr id="table_3_row_5" class="text">
             <td class="english">He has made old my flesh and my skin; He has broken my bones. He has built against me, and compassed my head, and brought travail upon me. He has set me in dark places, as them that have long been dead.</td>
-            <td class="arabic">أبلى لحمى وجلدي وسحق عظامي. أحاط بي ونكس رأسي، وأذلني وأجلسني في مواضع مظلمة، مثل الموتى منذ القدم.</td>
+            <td class="arabic">أَبْلَى لَحْمِي وَجِلْدِي. وَسَحَقَ عِظَامِي. أَحَاطَ بِي وَنَكِّسَ رَأْسِي وأَذَلَّنِي وأَجْلَسَنِي فِي مَوَاضِعَ مُظْلِمَةٍ مِثْلَ المَوْتَى مُنذُ القِدَم.</td>
         </tr>
         <tr id="table_3_row_6" class="text">
             <td class="english">He has hedged me in, and I cannot come forth; He has made my brazen chain heavy. Yea, though I cry and shout, He shuts out my prayer. He has built up my ways, He has hedged my paths;</td>
-            <td class="arabic">سيج علىّ حتى لا أخرج، ضاعف ربطي ووثق سلسلتي. أدعوه فلم يستجيب لي. وأصرخ إليه فلم يسر، وصد صلاتي. سيج سبلي وأغلق طرقي المسلوكة.</td>
+            <td class="arabic">سَيَّجّ عَلَيَّ حَتَّى لا أَخْرُجَ ضاعَفَ رُبطي ووثْقَ سِلْسِلَي. أَدعوهُ فَلَمْ يَسْتَجِبْ لِي. وأصرخ إليه فَلَمْ يُسَرَّ وَصَدَّ صلاتي. سَيَّجّ سُبُلي وأَعْلقَ طُرُقِي المَسْلوكَةَ.</td>
         </tr>
         <tr id="table_3_row_7" class="text">
             <td class="english">He has troubled me, as a female bear lying in wait; He is to me as a lion in secret places. He pursued me after I departed, and brought me to a stand; He has utterly ruined me. He has bent His bow, and set me as a mark for the arrow.</td>
-            <td class="arabic">فقلق جسم قوى. صار لي كدب كامن وكأسد في موضع مختفى. طاردني وصرعني وتركني هالكاً. أوتر قوسه وأقامني هدفاً ليلقى فيّ سهامه.</td>
+            <td class="arabic">فقَلِق جسم قوي. صارَ لي كأسدٍ كامِن فِي مَوْضِعِ مُحْتَفِ. طَارَدَنِي وَصَرَعَنِي وتَرَكَنِي هَالِكاً. أَوْتَرَ قَوْسَهُ وأَقَامَنِي هَدَفَاً لِيُلْقِيَ فِي سِهَامَهُ.</td>
         </tr>
         <tr id="table_3_row_8" class="text">
             <td class="english">He has caused the arrows of His quiver to enter into my reins. I became a laughing stock to all my people; and their song all the day. He has filled me with bitterness, He has drenched me with gall.</td>
-            <td class="arabic">أدخل في كليتي نبال جعبته. صرت ضحكة لكل شعبي وأغنية لهم النهار كله. جرعني الحنظل. وأسكرني من العلقم.</td>
+            <td class="arabic">أَدْخَلَ فِي كُلْيَتَيْ نِبَالَ جُعْبَتِهِ. صِرْتُ صُحْكَةً لِكُلِّ شَعْبِي، وأُغْنِيَةً لَهُمُ النَّهَارِ كُلَّهُ. جَرَّعَنِي الحَنْظَلَ وأَسْكَرَنِي مِنَ العَلْقَم.</td>
         </tr>
         <tr id="table_3_row_9" class="text">
             <td class="english">And He has dashed out my teeth with gravel, He has fed me with ashes. He has also removed my soul from peace: I forgot prosperity. Therefore my success has perished, and my hope from the Lord.</td>
-            <td class="arabic">هتم بالحصى أسناني وأطعمني الرماد. أبعد نفسي عن السلام. ونسيت خيراتي.  وباد اقنومي ورجائي من الرب.</td>
+            <td class="arabic">هَتَّمَ بِالحَصَى أَسْنَانِي. وَأَطْعَمَنِي الرَّمَادَ. وأَبْعَدَ نَفْسِي عَنِ السَّلَامِ. وَنَسِيتُ خَيْراتِي. وبَادَ أُقْنُومِي ورَجَائِي مِنَ الرَّبِّ.</td>
         </tr>
         <tr id="table_3_row_10" class="text">
             <td class="english">I remembered by reason of my poverty, and because of persecution my bitterness and gall shall be remembered; and my soul shall meditate with me. This will I lay up in my heart, therefore I will endure.</td>
-            <td class="arabic">أذكر بؤسى وشقائي والا فسنتين والمرارة التى لم تبرح من ذاكرتي. هذا ما تردده نفسي في، وأشعر به في قلبي.</td>
+            <td class="arabic">أَذْكُرُ بُؤْسِي وشَقَائِي والأَفْسَنْتِينَ والمَرَارَةَ التِي لَمْ تَبْرَحْ مِنْ ذاكِرَتي. هذا ما تُرَدِّدُهُ نَفْسِي فِيَّ وأَشْعُرُ بِهِ فِي قَلْبِي.</td>
         </tr>
         <tr id="table_3_row_11" class="text">
             <td class="english">It is through the mercies of the Lord that He has not failed me, because His compassions are not exhausted. Pity us, O Lord, early every month: for we are not brought to an end, because His compassions are not exhausted. They are new every morning: great is Your faithfulness.  The Lord is my portion, says my soul; therefore will I wait for Him.</td>
-            <td class="arabic">من أجل ذلك أتمسك بمراحم الرب لأنه لم يتركني عنه. لأن رأفته لا تزول على ممر الشهور والأيام كله. ارحمنا يارب في فنائنا لأن رأفتك لا تفرغ وهي جديدة في كل صباح وعظيم هو إيمانك. قالت نفسي نصيبي هو الرب، فلذلك أرجوه.</td>
+            <td class="arabic">مِنْ أَجْلِ ذَلِكَ أَتَمسَّكُ بِمَرَاحِمِ الرَّبِّ لأنَّهُ لَمْ يَتْرُكْنِي عَنْهُ؛ لأَنَّ رَأْفَاتِهِ لا تَزُولُ على مَمَرِّ الشهورِ والأَيَّامِ كُلُّها. ارْحَمْنَا يَارَبُّ فِي فَنَائِنَا ؛ لأَنَّ رَأْفَاتِكَ لا تَفْرَغُ. هِيَ جَدِيدَةٌ فِي كُلِّ صَبَاحٍ. وعَظِيمٌ هو إِيمَانُكَ. قَالَتْ نَفْسِي نَصِيبِي هُوَ الرَّبُّ، فَلِذَلِكَ أَرْجُوهُ.</td>
         </tr>
         <tr id="table_3_row_12" class="text">
             <td class="english">The Lord is good to them that wait for Him; the soul which shall seek Him   is good, and shall wait for, and quietly expect salvation from the Lord. It is good for a man when he bears a yoke in his youth.</td>
-            <td class="arabic">صالح هو الرب للذين يترجونه. طيب هو للنفس التى تطلبه وتتوقع بسكوت خلاص الرب. جيد للرجل أن يحمل النير من منذ صباه.</td>
+            <td class="arabic">صَالِحٌ هُوَ الرَّبُّ الَّذِينَ يَتَرَجَّوْنَهُ ، طَيِّبٌ هُوَ النَّفْسِ التِي تَطْلُبُهُ. وتَتَوَقِّعُ بِسُكُوتِ خَلاَصَ الرَّبِّ. جَيِّدٌ للرَّجُلِ أَنْ يَحْمِلَ النِّيرَ مُنْذُ صِبَائِهِ.</td>
         </tr>
         <tr id="table_3_row_13" class="text">
             <td class="english">He will sit alone, and be silent, because he has borne it upon him. He will give his cheek to him that smites him: he will be filled full with reproaches.</td>
-            <td class="arabic">يجلس وحده ويصمت لأنه قد وضعه عليه. يجعل في التراب فمه لعله يجد رجاء. يميل خده لمن يلطمه ويشبع تعييراً.</td>
+            <td class="arabic">يَجْلِسُ وَحْدَهُ وَيَصْمُتُ ؛ لأَنَّهُ قَدْ وَضَعَهُ عَلَيْهِ. يَجْعَلُ فِي التُّرَابِ فَمَهُ لَعَلَّهُ يَجِدُ رَجَاءً. يُمِيلُ خَدَّهُ لِمَنْ يَلْطِمُهُ. وَيَشبَعُ تَعْبِيراً.</td>
         </tr>
         <tr id="table_3_row_14" class="text">
             <td class="english">For the Lord will not reject forever. For He that has brought down will pity, and that according to the abundance of His mercy.   He has not answered in anger from His heart, though He has brought low the children of a man.</td>
-            <td class="arabic">إلا أن الرب لا يقصيه عنه إلى الأبد. فإنه ولو وضع يترأف عليه ككثرة رحمته. لأنه لم يصغر قلبه بل تواضع لبنى البشر.</td>
+            <td class="arabic">إلا أَنَّ الرَّبَّ لا يُقصيهِ عَنْهُ إلى الأَبَدِ. فإنَّهُ ولَـو واضَعَهُ يَتَرَأْفُ عَلَيْهِ كَكَثْرَةِ رَحْمَتِهِ؛ لأنَّهُ لَمْ يَصغُرْ قَلْبُهُ بَلْ تَوَاضَعَ لِبَنِي البَشَرِ.</td>
         </tr>
         <tr id="table_3_row_15" class="text">
-            <td class="english">To bring down under His feet all the prisoners of the earth,   to turn aside the judgment of a man before the face of the Most High,   to condemn a man unjustly in his judgment, the Lord has not given commandment.</td>
-            <td class="arabic">ليذل تحت قدميه جميع المرتبطين بالأرض. أو حرف حكم الرجل أمام وجه العلى. ليلقى الإنسان إلى القضاء عندما يحكم عليه، أفما يقول الرب؟</td>
+            <td class="english">To bring down under His feet all the prisoners of the earth, to turn aside the judgment of a man before the face of the Most High,   to condemn a man unjustly in his judgment, the Lord has not given commandment.</td>
+            <td class="arabic">لِيُذِلُّ تَحتَ قَدَمَيْهِ جَمِيعَ الْمُرْتَبِطِينَ بالأَرْضِ ، أو حَرَّفَ حُكْمَ الرَّجُلِ أمامَ وَجْهِ العَلِيّ، ليُلقي الإنسانَ إِلى القَضَاءِ عِنْدَمَا يُحْكَمُ عَلَيْهِ، أَفَما يَقُولُ الرَّبُّ ؟!</td>
         </tr>
         <tr id="table_3_row_16" class="text">
             <td class="english">Who has thus spoken, and it has come to pass? The Lord has not commanded it. Out of the mouth of the Most High there shall not come forth evil and good. Why should a living man complain, a man concerning his sin?</td>
-            <td class="arabic">من ذا الذى قال فكان؟ والرب لم يأمر بهذه. أليس من فم العلى تخرج الخيرات والشرور؟ كيف يتذمر الإنسان الحي الرجل المعاقب لأجل خطيته؟</td>
+            <td class="arabic">مَنْ ذا الذي قَالَ فَكانَ والرَّبُّ لَمْ يَأْمُرْ بِهَذِهِ ؟ أَلَيْسَ مِنْ فَمِ العَلِيِّ تَخْرُجُ الخَيْرَاتُ والشُّرُورُ ؟ كَيْفَ يَتَذَمَّرُ الإِنْسَانُ الحَيُّ الرَّجُلُ الْمُعَاقَبُ لأَجْلِ خَطِيَّتِهِ ؟</td>
         </tr>
         <tr id="table_3_row_17" class="text">
             <td class="english">Our way has been searched out and examined, and we will turn to the Lord. Let us lift up our hearts with our hand to the lofty One in heaven. We have sinned, we have transgressed; and You have not pardoned.</td>
-            <td class="arabic">فلنفحص طرقنا ونختبر خطواتنا، ونرجع إلى الرب ولنرفع قلوبنا مع أيدينا لدى العلى الذى في السماء. قد أخطأنا ونافقنا وأغضبنا وأنت لم تغفر لنا.</td>
+            <td class="arabic">فَلنَفْحَصٌ طُرُقَنَا وَنَحْتَبِرْ خُطُوَاتِنا ونَرْجِعْ إِلى الرَّبِّ. وَلْنَرْفَعْ قُلُوبَنَا مَعَ أَيْدِينَا لَدَى العَلِيِّ الذي في السَّمَاءِ قَدْ أَخْطَأنَا ونَافَقْنَا وأَغْضَبْنَا وَأَنْتَ لَمْ تَغْفِرْ لَنَا.</td>
         </tr>
         <tr id="table_3_row_18" class="text">
             <td class="english">You has visited us in wrath, and driven us away; You have slain, You have not pitied. You have veiled Yourself with a cloud because of prayer, that I might be blind, and be cast off.</td>
-            <td class="arabic">قد التحفت وحكمت بالغضب وطردتنا وقتلتنا ولم تشفق. التحفت بغمام لئلا تبلغ إليك صلاتي. لأتضع لكي لا أرى فأطرح.</td>
+            <td class="arabic">قَدِ التَحَفْتَ وحَكَمْتَ بِالغَضَبِ وطَرَدْتَنَا وقَتَلْتَنَا وَلَمْ تُشْفِق التَحَفْتَ بِغَمَامِ لِئَلاً تَبْلُغَ إِلَيْكَ صَلاتِي. لأَتْضِعْ لِكَي لا أَرَى فَأُطْرَحُ.</td>
         </tr>
         <tr id="table_3_row_19" class="text">
             <td class="english">You have set us alone in the midst of the nations. All our enemies have opened their mouth against us. Fear and wrath have come upon us, suspense and destruction. My eye shall pour down torrents of water, for the destruction of the daughter of my people.</td>
-            <td class="arabic">تركتنا في وسط الشعوب. ففتح جميع أعدائنا أفواههم علينا فرفعونا ثم طرحونا. فحل بنا خوف وسخط. عيناي تسيل ينابيع مياه على سحق بنت شعبي.</td>
+            <td class="arabic">تَرَكْتُنَا فِي وَسَطِ الشُّعُوبِ. فَفَتَحَ جَمِيعُ أَعْدَائِنَا أَفْوَاهَهُمْ عَلَيْنَا فَرَفَعُونَا ثُمَّ طَرَحُونَا. فَحَلَّ بِنَا خَوْفٌ وَسُخَطٌ. عَيْنَايَ تُسِيلُ يَنَابِيعَ مِيَاهِ على سَحْقِ بِنْتِ شَعْبِي.</td>
         </tr>
         <tr id="table_3_row_20" class="text">
             <td class="english">My eye is drowned with tears, and I will not be silent, so that there shall be no rest, until the Lord look down, and behold from heaven.   My eye shall prey upon my soul, because of all the daughters of the city.</td>
-            <td class="arabic">عينيّ حزنت و لا تكف، ولا أرفع رأسي حتى يتطلع الرب وينظر من السماء. عينيّ تحزن على نفسي أكثر من جميع بنى المدينة.</td>
+            <td class="arabic">عَيْنِي حَزِنَتْ ولا تَكُف ولا أَرْفَعُ رَأْسِي حَتَّى يَتَطَلَّعَ الرَّبُّ ويَنْظُرَ مِنَ السَّمَاءِ. عَيْنِي تَحْزَنُ على نَفْسِي أَكْثَرَ مِنْ جَمِيعِ بَنِي المَدِينَةِ.</td>
         </tr>
         <tr id="table_3_row_21" class="text">
             <td class="english">The fowlers chased me as a sparrow;  all my enemies destroyed my life in a pit without cause,   and laid a stone upon me.   Water flowed over my head:  I said, I am cut off.</td>
-            <td class="arabic">قد اصطادني أعدائي اصطياداً كعصفور بلا سبب. وقرضوا في الجب حياتي. وطرحوا علىّ شبكة. فاضت المياه فوق رأسي. وقلت إنه تركني عنه.</td>
+            <td class="arabic">قَدِ اصْطَادَنِي أَعْدَائِي اصطياداً كَعُصْفُورٍ بلا سَبَبٍ. وَقَرَضُوا فِي الجُبِّ حَياتي وطَرَحُوا عَليَّ شَبَكَةً. فَاضَتِ المياهُ فَوق رأسي. وقُلْتُ: إِنَّهُ تَرَكَنِي عَنْهُ.</td>
         </tr>
         <tr id="table_3_row_22" class="text">
             <td class="english">I called upon Your name, O Lord, out of the lowest dungeon. You heard my voice; close not Your ears to my supplication. You drew near to my help; in the day that I called upon You, You said to me, Fear not.</td>
-            <td class="arabic">صرخت باسمك يارب من جب سفلى، فسمعت صوتي. لا تمل أذنك عن طلبتي. في اليوم الذي صرخت إليك اقتربت من معونتي وقلت لي لا تخف.</td>
+            <td class="arabic">صَرَحْتُ بِاسْمِكَ يَارَبُ مِنْ جُبِّ سُفْلِيٍّ، فَسَمِعْتَ صَوْتِي، لَا تُمِل أُذُنَكَ طلبتي في اليَوْمِ الذِي صَرَحْتُ إِلَيْكَ اقْتَرَبْتَ مِنْ مَعُونَتِي. وقُلْتَ لِي: لَا تَخَفْ.</td>
         </tr>
         <tr id="table_3_row_23" class="text">
             <td class="english">O Lord, You have pleaded the causes of my soul; You have redeemed my life. You have seen my troubles, O Lord; You have judged my cause. You have seen all their vengeance; You have looked on all their devices against me.</td>
-            <td class="arabic">حكمت يارب لأحكام نفسي وخلصت حياتي. نظرت يارب إلى اضطرابي وحكمت في دعواي. رأيت انتقامهم كله. وجميع أفكارهم الكائنة عليّ.</td>
+            <td class="arabic">حَكَمْتَ يَارَبُّ لأَحْكَامِ نَفْسِي وخَلَّصْتَ حَيَاتِي. نَظَرْتَ يَارَبُّ إِلى اضْطِرَابِي وحَكَمْتَ في دَعْوَايَ. رأيْتَ انْتِقَامَهُمْ كُلَّهُ، وجَمِيعَ أَفْكَارِهِمْ الكَائِنَةَ عَلَيَّ.</td>
         </tr>
         <tr id="table_3_row_24" class="text">
             <td class="english">You have heard their reproach and all their devices against me;  the lips of them that rose up against me,  and  their plots against me all the day;  their sitting down and their rising up:</td>
-            <td class="arabic">سمعت تعييرهم يارب وكل مؤامراتهم التى صنعوها بي اليوم كله، وتحريك شفاة القائمين علىّ. وكانت جميع تلاوتهم في النهار كله في جلوسهم وقيامهم</td>
+            <td class="arabic">سَمِعْتَ تَعْيِيرَهُمْ يَارَبُّ ، وكُلَّ مؤامَرَاتِهِمْ التي صَنَعُوها بِي الْيَوْمَ كُلَّهُ. وَتَحْرِيكَ شِفَاهِ القائِمِينَ عَلَيَّ وصِرْتُ تِلاواتِهِمْ في النَّهَارِ كُلَّهُ فِي جُلُوسِهِمْ وَقِيامِهِمْ.</td>
         </tr>
         <tr id="table_3_row_25" class="text">
             <td class="english">Look upon their eyes. You will render them a recompense, O Lord, according to the works of their hands. You will give them as a covering, the grief of my heart. You will persecute them in anger, and will consume them from under the heaven, O Lord.</td>
-            <td class="arabic">أنظر إلى عيونهم وجازيهم بالتعب على قساوة قلوبهم. وأطردهم بغضبك وأفنهم يارب من تحت السماء.</td>
+            <td class="arabic">أَنْظُرْ إِلى عُيُونِهِمْ وَجَازِهِمْ بِالتَّعَب على قَسَاوَةِ قُلُوبِهِمْ، وَاطْرُدْهُمْ بِغَضَبِكَ وافْنِهِمْ يَارَبُّ مِنْ تَحْتِ السَّمَاءِ.</td>
         </tr>
         <tr id="table_3_row_27" class="intro">
             <td class="english">Glory be to the Holy Trinity, our God, forever and unto the age of all ages. Amen.</td>
@@ -230,7 +230,7 @@ ${paschalPraiseHtml}
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_7" title="Coptic Psalm">
         <caption class="caption" id="caption_table_7">Coptic Psalm<br>(27:12, 35:11-12, 16)
-        <span class="arabic-caption">المزمور قبطياً<br>(27: 12 و 35: 11 - 12 و 16)</span></caption>
+        <span class="arabic-caption">المزمور قبطياً<br>(44: 9 ، 11)</span></caption>
 
         <tr id="table_7_row_0" class="intro">
             <td class="english">A Psalm of David</td>
@@ -264,7 +264,7 @@ ${paschalPraiseHtml}
         <span class="arabic-caption">الأناجيل قبطياً</span></caption>
         <tr id="table_9_row_0" class="priest">
             <td class="english">A chapter according to St. Matthew,</td>
-            <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲱⲛ ̀ⲁⲅⲓⲟ.</td>
+            <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲙⲁⲧⲑⲉⲟⲛ ⲁ̀ⲅⲓⲟⲩ.</td>
             <td class="arabic">فصل من إنجيل معلمنا مار متى</td>
         </tr>
 
@@ -274,11 +274,11 @@ ${paschalPraiseHtml}
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_9_row_2" class="text">
-            <td class="coptic">Ⲉⲧⲁ̀ⲣⲟⲩϩⲓ ⲇⲉ ϣⲱⲡⲓ ⲁϥⲓ̀ ⲛ̀ϫⲉ ⲟⲩⲣⲱⲙⲓ ⲛ̀ⲣⲁⲙⲁⲟ ⲉ̀ⲃⲟⲗϧⲉⲛ ̀̀Ⲁⲣⲓⲙⲁⲑⲉⲁⲥ : ⲉ̀ⲡⲉϥⲣⲁⲛ ⲡⲉ Ⲓⲱⲥⲏϥ : ⲫⲁⲓ ϩⲱϥ ⲛⲉ ⲁϥⲉⲣⲙⲁⲑⲏⲧⲏⲥ ⲛ̀Ⲓ̅ⲏ̅ⲥ. Ⲫⲁⲓ ⲁϥⲓ̀ ϩⲁⲠⲓⲗⲁⲧⲟⲥ ⲁϥⲉⲣⲉ̀ⲧⲓⲛ ⲙ̀ⲡⲓⲥⲱⲙⲁ ⲛ̀ⲧⲉ Ⲓⲏⲥ ⲧⲟⲧⲉ Ⲡⲓⲗⲁⲧⲟⲥ ⲁϥⲟⲩⲁϩ ⲥⲁϩⲛⲓ ⲉ̀ⲧⲏⲓϥ <br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲉⲧⲁ̀ⲣⲟⲩϩⲓ ⲇⲉ ϣⲱⲡⲓ ⲁϥⲓ̀ ⲛ̀ϫⲉ ⲟⲩⲣⲱⲙⲓ ⲛ̀ⲣⲁⲙⲁⲟ ⲉ̀ⲃⲟⲗϧⲉⲛ Ⲁ̀ⲣⲓⲙⲁⲑⲉⲁⲥ : ⲉ̀ⲡⲉϥⲣⲁⲛ ⲡⲉ Ⲓⲱⲥⲏϥ : ⲫⲁⲓ ϩⲱϥ ⲛⲉ ⲁϥⲉⲣⲙⲁⲑⲏⲧⲏⲥ ⲛ̀Ⲓⲏⲥⲟⲩⲥ. Ⲫⲁⲓ ⲁϥⲓ̀ ϩⲁⲠⲓⲗⲁⲧⲟⲥ ⲁϥⲉⲣⲉ̀ⲧⲓⲛ ⲙ̀ⲡⲓⲥⲱⲙⲁ ⲛ̀ⲧⲉ Ⲓⲏⲥⲟⲩⲥ ⲧⲟⲧⲉ Ⲡⲓⲗⲁⲧⲟⲥ ⲁϥⲟⲩⲁϩ ⲥⲁϩⲛⲓ ⲉ̀ⲧⲏⲓϥ <br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_9_row_3" class="priest">
             <td class="english">According to St. Mark</td>
-            <td class="coptic">ⲕⲁⲧⲁ Ⲙⲁⲣⲕⲟⲛ ̀ⲁⲅⲓⲟ.</td>
+            <td class="coptic">ⲕⲁⲧⲁ Ⲙⲁⲣⲕⲟⲛ ⲁ̀ⲅⲓⲟⲩ.</td>
             <td class="arabic">حسب مار مرقس</td>
         </tr>
         <tr id="table_9_row_4" class="intro">
@@ -287,11 +287,11 @@ ${paschalPraiseHtml}
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_9_row_5" class="text">
-            <td class="coptic">Ⲟⲩⲟϩ ϩⲏⲇⲏⲉⲧ ⲁ̀ⲣ̀ⲟⲩϩⲓ ϣⲱⲡⲓ ⲉⲡⲓⲇⲏ ⲛⲉⲧ̀ⲡⲁⲣⲁⲥⲕⲉⲩⲏ̀ ⲧⲉ ⲉⲧϧⲁϫⲱϥ ⲙ̀ⲡⲓⲥⲁⲃⲃⲁⲧⲟⲛ : Ⲉ̀ⲧϥⲁⲓ ⲛ̀ϫⲉ Ⲓⲱⲥⲏϥ ⲉ̀ⲃⲟⲗϧⲉⲛ Ⲁ̀ⲣⲓⲙⲁⲑⲉⲁⲥ : ⲉ̀ⲟⲩⲉⲩⲥ̀ⲭⲉⲙⲱⲛ ⲡⲉ ⲙ̀ⲃⲟⲩⲗⲉⲩⲧⲏⲥ : ⲫⲁⲓ ⲉ̀ⲧⲉ ⲛ̀ⲑⲟϥ ϩⲱϥ ⲛⲁϥϫⲟⲩϣⲧ ⲉ̀ⲃⲟⲗ ϧⲁⲧ̀ϩⲏ ⲛ̀ϯⲙⲉⲧⲟⲩⲣⲟ ⲛ̀ⲧⲉ Ⲫϯ : ⲁϥⲉⲣⲧⲟⲗⲙⲁⲛ ⲁϥϣⲉ ⲉ̀ϧⲟⲩⲛ ϩⲁⲠⲓⲗⲁⲧⲟⲥ ⲁϥⲉⲣⲉ̀ⲧⲓⲛ ⲙⲡ̀ⲥⲱⲙⲁ ⲛ̀Ⲓ̅ⲏ̅ⲥ. <br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲟⲩⲟϩ ϩⲏⲇⲏⲉⲧ ⲁ̀ⲣ̀ⲟⲩϩⲓ ϣⲱⲡⲓ ⲉⲡⲓⲇⲏ ⲛⲉⲧ̀ⲡⲁⲣⲁⲥⲕⲉⲩⲏ̀ ⲧⲉ ⲉⲧϧⲁϫⲱϥ ⲙ̀ⲡⲓⲥⲁⲃⲃⲁⲧⲟⲛ : Ⲉ̀ⲧϥⲁⲓ ⲛ̀ϫⲉ Ⲓⲱⲥⲏϥ ⲉ̀ⲃⲟⲗϧⲉⲛ Ⲁ̀ⲣⲓⲙⲁⲑⲉⲁⲥ : ⲉ̀ⲟⲩⲉⲩⲥ̀ⲭⲉⲙⲱⲛ ⲡⲉ ⲙ̀ⲃⲟⲩⲗⲉⲩⲧⲏⲥ : ⲫⲁⲓ ⲉ̀ⲧⲉ ⲛ̀ⲑⲟϥ ϩⲱϥ ⲛⲁϥϫⲟⲩϣⲧ ⲉ̀ⲃⲟⲗ ϧⲁⲧ̀ϩⲏ ⲛ̀ϯⲙⲉⲧⲟⲩⲣⲟ ⲛ̀ⲧⲉ Ⲫϯ : ⲁϥⲉⲣⲧⲟⲗⲙⲁⲛ ⲁϥϣⲉ ⲉ̀ϧⲟⲩⲛ ϩⲁⲠⲓⲗⲁⲧⲟⲥ ⲁϥⲉⲣⲉ̀ⲧⲓⲛ ⲙⲡ̀ⲥⲱⲙⲁ ⲛ̀Ⲓⲏⲥⲟⲩⲥ. <br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_9_row_6" class="priest">
             <td class="english">According to St. Luke</td>
-            <td class="coptic">ⲕⲁⲧⲁ Ⲗⲟⲩⲕⲁⲛ  ̀ⲁⲅⲓⲟⲩ.</td>
+            <td class="coptic">ⲕⲁⲧⲁ Ⲗⲟⲩⲕⲁⲛ ⲁ̀ⲅⲓⲟⲩ.</td>
             <td class="arabic">حسب مار لوقا</td>
         </tr>
         <tr id="table_9_row_7" class="intro">
@@ -300,11 +300,11 @@ ${paschalPraiseHtml}
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_9_row_8" class="text">
-            <td class="coptic">̀̀Ⲟⲩⲟϩ ϩⲏⲡⲡⲉ ⲓⲥ ⲟⲩⲣⲱⲙⲓ ⲉ̀ⲡⲉϥⲣⲁⲛ ⲡⲉ Ⲓⲱⲥⲏϥ : ⲉ̀ⲟⲩⲃⲟⲩⲗⲉⲩⲧⲏⲥ ⲡⲉ : ⲟⲩⲣⲙⲙⲓ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ ⲟⲩⲟϩ ⲛ̀ⲑ̀ⲙⲏⲓ : Ⲫⲁⲓ ⲉ̀ⲛⲁϥ ϯⲙⲁϯ ⲁⲛ ⲡⲉ ϧⲉⲛ ⲡⲟⲩⲥⲟϭⲛⲓ ⲛⲉⲙ ⲧⲟⲩ ⲡ̀ⲣⲁⲝⲓⲥ ⲛⲉ ⲟⲩⲉ̀ⲃⲟⲗϧⲉⲛ Ⲁ̀ⲣⲓⲙⲁⲑⲉⲁⲥ ⲟⲩ ⲃⲁⲕⲓ ⲛ̀ⲧⲉ ⲛⲓⲒⲟⲩⲇⲁⲓ<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲟⲩⲟϩ ϩⲏⲡⲡⲉ ⲓⲥ ⲟⲩⲣⲱⲙⲓ ⲉ̀ⲡⲉϥⲣⲁⲛ ⲡⲉ Ⲓⲱⲥⲏϥ : ⲉ̀ⲟⲩⲃⲟⲩⲗⲉⲩⲧⲏⲥ ⲡⲉ : ⲟⲩⲣⲙⲙⲓ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ ⲟⲩⲟϩ ⲛ̀ⲑ̀ⲙⲏⲓ : Ⲫⲁⲓ ⲉ̀ⲛⲁϥ ϯⲙⲁϯ ⲁⲛ ⲡⲉ ϧⲉⲛ ⲡⲟⲩⲥⲟϭⲛⲓ ⲛⲉⲙ ⲧⲟⲩ ⲡ̀ⲣⲁⲝⲓⲥ ⲛⲉ ⲟⲩⲉ̀ⲃⲟⲗϧⲉⲛ Ⲁ̀ⲣⲓⲙⲁⲑⲉⲁⲥ ⲟⲩ ⲃⲁⲕⲓ ⲛ̀ⲧⲉ ⲛⲓⲒⲟⲩⲇⲁⲓ<br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_9_row_9" class="priest">
             <td class="english">According to St. John</td>
-            <td class="coptic">ⲕⲁⲧⲁ Ⲓⲱⲁⲛⲛⲏⲛ  ̀ⲁⲅⲓⲟⲩ.</td>
+            <td class="coptic">ⲕⲁⲧⲁ Ⲓⲱⲁⲛⲛⲏⲛ ⲁ̀ⲅⲓⲟⲩ.</td>
             <td class="arabic">حسب مار يوحنا</td>
         </tr>
         <tr id="table_9_row_10" class="intro">
@@ -313,7 +313,7 @@ ${paschalPraiseHtml}
             <td class="arabic">والمجد لله دائما.</td>
         </tr>
         <tr id="table_9_row_11" class="text">
-            <td class="coptic">Ⲙⲉⲛⲉⲛⲥⲁ ⲛⲁⲓ ⲇⲉ ⲁϥⲓ̀ ⲛ̀ϫⲉ ⲓⲱⲥⲏϥ ⲡⲓⲣⲉⲙ Ⲁ̀ⲣⲓⲙⲁⲑⲉⲁⲥ ⲁϥϯϩⲟ ⲉ̀Ⲡⲓⲗⲁⲧⲟⲥ : ⲉ̀ⲟⲩⲙⲁⲑⲏⲧⲏⲥ ϩⲱϥ ⲛ̀ⲧⲉ Ⲓ̅ⲏ̅ⲥ ⲛⲁϥⲭⲏⲡ ⲇⲉ ⲡⲉ ⲉⲑⲃⲉ ⲧ̀ϩⲟϯ ⲛ̀ⲛⲓⲒⲟⲩⲇⲁⲓ : ϩⲓⲛⲁ ⲛ̀ⲧⲉϥⲱ̀ⲗⲓ ⲙ̀ⲡⲓⲥⲱⲙⲁ ⲛ̀ⲧⲉ Ⲓ̅ⲏ̅ⲥ <br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+            <td class="coptic">Ⲙⲉⲛⲉⲛⲥⲁ ⲛⲁⲓ ⲇⲉ ⲁϥⲓ̀ ⲛ̀ϫⲉ Ⲓⲱⲥⲏϥ ⲡⲓⲣⲉⲙ Ⲁ̀ⲣⲓⲙⲁⲑⲉⲁⲥ ⲁϥϯϩⲟ ⲉ̀Ⲡⲓⲗⲁⲧⲟⲥ : ⲉ̀ⲟⲩⲙⲁⲑⲏⲧⲏⲥ ϩⲱϥ ⲛ̀ⲧⲉ Ⲓⲏⲥⲟⲩⲥ ⲛⲁϥⲭⲏⲡ ⲇⲉ ⲡⲉ ⲉⲑⲃⲉ ⲧ̀ϩⲟϯ ⲛ̀ⲛⲓⲒⲟⲩⲇⲁⲓ : ϩⲓⲛⲁ ⲛ̀ⲧⲉϥⲱ̀ⲗⲓ ⲙ̀ⲡⲓⲥⲱⲙⲁ ⲛ̀ⲧⲉ Ⲓⲏⲥⲟⲩⲥ <br>... Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
         </tr>
         <tr id="table_9_row_12" class="intro">
             <td class="english">Glory be to God forever.</td>
@@ -328,7 +328,7 @@ ${paschalPraiseHtml}
 <div class="section" id="section_7" title="English and Arabic Psalm & Gospel">
 <table id="table_10" title="Psalm">
     <caption id="caption_table_10" class="caption">Psalm<br>(88:6, 23:4, 45:6,8)
-    <span class="arabic-caption">المزمور<br>(88: 6 و 23: 34 و 45: 6 و 8)</span></caption>
+    <span class="arabic-caption">المزمور<br>(87: 4 ، 22: 3 ، 44: 9 ، 11)</span></caption>
     <tr id="table_10_row_1" class="intro">
         <td class="english">From the Psalms of our teacher David the prophet. May his blessing be with us. Amen.</td>
         <td class="arabic">من مزامير معلمنا داود النبي، بركته تكون معنا، آمين.</td>
@@ -389,7 +389,7 @@ ${paschalPraiseHtml}
 
 <table id="table_12" title="Psalm">
     <caption id="caption_table_12" class="caption">Psalm<br>(88:6, 23:4, 45:6,8)
-    <span class="arabic-caption">المزمور<br>(88: 6 و 23: 34 و 45: 6 و 8)</span></caption>
+    <span class="arabic-caption">المزمور<br>(87: 4 ، 22: 3 ، 44: 9 ، 11 )</span></caption>
     <tr id="table_12_row_1" class="intro">
         <td class="english">From the Psalms of our teacher David the prophet. May his blessing be with us. Amen.</td>
         <td class="arabic">من مزامير معلمنا داود النبي، بركته تكون معنا، آمين.</td>
@@ -684,12 +684,12 @@ ${daytimeLitaniesHtml}
     </tr>
     <tr id="table_21_row_2" class="text">
         <td class="english">Golgotha in Hebrew, Cranium in Greek, the place where You were crucified, O Lord. </td>
-        <td class="coptic">Ⲅⲟⲗⲅⲟⲑⲁ ⲙ̀ⲙⲉⲧ ϩⲉⲃⲣⲉⲟⲥ : ⲡⲓⲕ̀ⲣⲁⲛⲓⲟⲛ ⲙ̀ⲙⲉⲧⲟⲩⲉⲓⲛⲓⲛ : ⲡⲓⲙⲁⲉⲧⲁⲩⲁϣⲕ Ⲡ⳪ ⲛ̀ϧⲏⲧϥ : </td>
+        <td class="coptic">Ⲅⲟⲗⲅⲟⲑⲁ ⲙ̀ⲙⲉⲧ ϩⲉⲃⲣⲉⲟⲥ : ⲡⲓⲕ̀ⲣⲁⲛⲓⲟⲛ ⲙ̀ⲙⲉⲧⲟⲩⲉⲓⲛⲓⲛ : ⲡⲓⲙⲁⲉⲧⲁⲩⲁϣⲕ Ⲡ̀ϭⲟⲓⲥ ⲛ̀ϧⲏⲧϥ : </td>
         <td class="arabic">الجلجلة بالعبرانية والأقرانيون باليونانية الموضع الذى صلبت فيه يارب</td>
     </tr>
     <tr id="table_21_row_3" class="text">
-        <td class="english">You stretched out Your hands, and crucified two thieves with You; one on Your right side, the other on Your left, and You, O good savior, in the midst</td>
-        <td class="coptic">ⲁⲕⲫⲱⲣϣ ⲛ̀ⲛⲉⲕϫⲓϫ ⲉ̀ⲃⲟⲗ ⲁϥⲓ̀ϣⲓ ⲛⲉⲙⲁⲕ ⲛ̀ⲕⲉⲥⲟⲛⲓ ⲥ̀ⲛⲁⲩ : ⲥⲁⲧⲉⲕⲟⲩⲓ̀ⲛⲁⲙ ⲛⲉⲙ ⲥⲁⲧⲉⲕϫⲁϭⲏ : ⲛ̀ⲑⲟⲕ ⲉⲕⲭⲏ ϧⲉⲛ ⲧⲟⲩⲙⲏϯ ⲱ̀ ⲡⲓⲥⲱⲧⲏⲣ ⲛ̀ⲁⲅⲁⲑⲟⲥ.</td>
+        <td class="english">You stretched out Your hands, and crucified two thieves with You; one on Your right side, the other on Your left, and You, O good Savior, in the midst</td>
+        <td class="coptic">ⲁⲕⲫⲱⲣϣ ⲛ̀ⲛⲉⲕϫⲓϫ ⲉ̀ⲃⲟⲗ ⲁⲩⲓ̀ϣⲓ ⲛⲉⲙⲁⲕ ⲛ̀ⲕⲉⲥⲟⲛⲓ ⲥ̀ⲛⲁⲩ : ⲥⲁⲧⲉⲕⲟⲩⲓ̀ⲛⲁⲙ ⲛⲉⲙ ⲥⲁⲧⲉⲕϫⲁϭⲏ : ⲛ̀ⲑⲟⲕ ⲉⲕⲭⲏ ϧⲉⲛ ⲧⲟⲩⲙⲏϯ ⲱ̀ ⲡⲓⲥⲱⲧⲏⲣ ⲛ̀ⲁⲅⲁⲑⲟⲥ.</td>
         <td class="arabic">بسطت يديك وصلبوا معك لصين عن يمينك وعن يسارك وانت كائن فى الوسط أيها المخلص الصالح.</td>
     </tr>
     <tr id="table_21_row_4" class="text">
@@ -698,13 +698,13 @@ ${daytimeLitaniesHtml}
         <td class="arabic">المجد للآب والابن والروح القدس.</td>
     </tr>
     <tr id="table_21_row_5" class="text">
-        <td class="english">The right-hand thief cried out saying: Remember me, O my Lord, remember me, O my savior, remember me, O my King, when You come into Your Kingdom.</td>
-        <td class="coptic">Ⲁϥⲱϣ ⲉ̀ⲃⲟⲗ ⲛ̀ϫⲉ ⲡⲓⲥⲟⲛⲓ : ⲉⲧⲥⲁⲟⲩⲓ̀ ⲛⲁⲙ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ : ϫⲉ ⲁ̀ⲣⲓⲡⲁⲙⲉⲩⲓ̀ ⲱ Ⲡⲁ⳪ : ⲁ̀ⲣⲓⲡⲁⲙⲉⲩⲓ̀ ⲱ Ⲡⲁⲥⲱⲧⲏⲣ : ⲁ̀ⲣⲓⲡⲁⲙⲉⲩⲓ̀ ⲱ Ⲡⲁⲟⲩⲣⲟ : ⲁⲕϣⲁⲛⲓ̀ ϧⲉⲛ ⲧⲉⲕⲙⲉⲧⲟⲩⲣⲟ</td>
+        <td class="english">The right-hand thief cried out saying: Remember me, O my Lord, remember me, O my Savior, remember me, O my King, when You come into Your Kingdom.</td>
+        <td class="coptic">Ⲁϥⲱϣ ⲉ̀ⲃⲟⲗ ⲛ̀ϫⲉ ⲡⲓⲥⲟⲛⲓ : ⲉⲧⲥⲁⲟⲩⲓ̀ ⲛⲁⲙ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ : ϫⲉ ⲁ̀ⲣⲓⲡⲁⲙⲉⲩⲓ̀ ⲱ̀ Ⲡⲁϭⲟⲓⲥ : ⲁ̀ⲣⲓⲡⲁⲙⲉⲩⲓ̀ ⲱ Ⲡⲁⲥⲱⲧⲏⲣ : ⲁ̀ⲣⲓⲡⲁⲙⲉⲩⲓ̀ ⲱ Ⲡⲁⲟⲩⲣⲟ : ⲁⲕϣⲁⲛⲓ̀ ϧⲉⲛ ⲧⲉⲕⲙⲉⲧⲟⲩⲣⲟ</td>
         <td class="arabic">فصرخ اللص اليمين قائلاً اذكرنى ياربى اذكرنى يا مخلصى اذكرنى يا ملكى اذا جئت فى ملكوتك،</td>
     </tr>
     <tr id="table_21_row_6" class="text">
         <td class="english">The Lord answered him in a lowly voice saying: This day you will be with Me in Paradise.</td>
-        <td class="coptic">Ⲁϥⲉⲣⲟⲩⲱ ⲛⲁϥ ⲛ̀ϫⲉ Ⲡ⳪ : ϧⲉⲛ ⲟⲩⲥ̀ⲙⲏ ⲙ̀ⲙⲉⲧⲣⲉⲙⲣⲁⲩϣ : ϫⲉ ⲙ̀ⲫⲟⲟⲩ ⲉⲕ ⲉ̀ϣⲱⲡⲓ ⲛⲉⲙⲏⲓ : ⲛ̀ϩ̀ⲣⲏⲓ ϧⲉⲛ ⲧⲁⲙⲉⲧⲟⲩⲣⲟ.</td>
+        <td class="coptic">Ⲁϥⲉⲣⲟⲩⲱ ⲛⲁϥ ⲛ̀ϫⲉ Ⲡ̀ϭⲟⲓⲥ : ϧⲉⲛ ⲟⲩⲥ̀ⲙⲏ ⲙ̀ⲙⲉⲧⲣⲉⲙⲣⲁⲩϣ : ϫⲉ ⲙ̀ⲫⲟⲟⲩ ⲉⲕ ⲉ̀ϣⲱⲡⲓ ⲛⲉⲙⲏⲓ : ⲛ̀ϩ̀ⲣⲏⲓ ϧⲉⲛ ⲧⲁⲙⲉⲧⲟⲩⲣⲟ.</td>
         <td class="arabic">آجابه الرب بصوت وديع انك اليوم تكون معى فى ملكوتى.</td>
     </tr>
     <tr id="table_21_row_7" class="text">
@@ -714,7 +714,7 @@ ${daytimeLitaniesHtml}
     </tr>
     <tr id="table_21_row_8" class="text">
         <td class="english">The righteous Joseph and Nicodemus came took away the Body of Christ, wrapped it in linen cloths with spices, and put it in a sepulcher and praised Him saying, </td>
-        <td class="coptic">Ⲁⲩⲓ̀ ⲛ̀ϫⲉ ⲛⲓⲇⲓⲕⲉⲟⲥ : Ⲓⲱⲥⲏϥ ⲛⲉⲙ Ⲛⲓⲕⲟⲇⲏⲙⲟⲥ : ⲁⲩϭⲓ ⲛ̀ⲧ̀ⲥⲁⲣⲝ ⲛ̀ⲧⲉ Ⲡⲭ̅ⲥ̅  : ⲁⲩϯ ⲛ̀ⲟⲩⲥⲟϫⲉⲛ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱϥ : ⲁⲩⲕⲟⲥϥ ⲁⲩⲭⲁϥ ϧⲉⲛ ⲟⲩⲙ̀ϩⲁⲩ : ⲉⲩϩⲱⲥ ⲉⲣⲟϥ ⲉⲩϫⲱ ⲙ̀ⲙⲟⲥ :</td>
+        <td class="coptic">Ⲁⲩⲓ̀ ⲛ̀ϫⲉ ⲛⲓⲇⲓⲕⲉⲟⲥ : Ⲓⲱⲥⲏϥ ⲛⲉⲙ Ⲛⲓⲕⲟⲇⲏⲙⲟⲥ : ⲁⲩϭⲓ ⲛ̀ⲧ̀ⲥⲁⲣⲝ ⲛ̀ⲧⲉ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲁⲩϯ ⲛ̀ⲟⲩⲥⲟϫⲉⲛ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱϥ : ⲁⲩⲕⲟⲥϥ ⲁⲩⲭⲁϥ ϧⲉⲛ ⲟⲩⲙ̀ϩⲁⲩ : ⲉⲩϩⲱⲥ ⲉⲣⲟϥ ⲉⲩϫⲱ ⲙ̀ⲙⲟⲥ :</td>
         <td class="arabic">أتيا الصديقان يوسف ونيقوديموس واخذا جسد المسيح وجعلا عليه طيباً وكفناه ووضعاه فى قبر وسبحاه قائلين</td>
     </tr>
     <tr id="table_21_row_9" class="text">
@@ -728,7 +728,7 @@ ${daytimeLitaniesHtml}
         <td class="arabic">المجد للآب والابن والروح القدس. الآن وكل اوان والى دهر الدهور. آمين.</td>
     </tr>
     <tr id="table_21_row_11" class="text">
-        <td class="english">We also worship him saying: “Have mercy on us, O God our Savior, who was crucified on the cross, destroy Satan under our feet.”</td>
+        <td class="english">We also worship Him saying: “Have mercy on us, O God our Savior, who was crucified on the cross, destroy Satan under our feet.”</td>
         <td class="coptic">Ⲁⲛⲟⲛ ϩⲱⲛ ⲙⲁⲣⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟϥ : ⲉⲛⲱϣ ⲉ̀ⲃⲟⲗ ⲉⲛϫⲱ ⲙ̀ⲙⲟⲥ : ϫⲉ ⲛⲁⲓ ⲛⲁⲛ Ⲫϯ ⲡⲉⲛⲥⲱⲧⲏⲣ : ⲫⲏⲉ̀ⲧⲁⲩⲁϣϥ ⲉ̀ⲡⲓⲥ̀ⲧⲁⲩⲣⲟⲥ : ⲉⲕⲉ̀ϧⲟⲙϧⲉⲙ ⲙ̀ⲡ̀ⲥⲁⲧⲁⲛⲁⲥ: ⲥⲁⲡⲉⲥⲏⲧ ⲛ̀ⲛⲉⲛϭⲁⲗⲁⲩϫ.</td>
         <td class="arabic">ونحن أيضاً نسجد له صارخين قائلين ارحمنا يا الله مخلصنا الذى صلبت على الصليب وسحقت الشيطان تحت أقدامنا.</td>
     </tr>
@@ -819,7 +819,7 @@ ${daytimeLitaniesHtml}
         </tr>
         <tr id="table_23_row_11" class="congregation">
             <td class="english">Amen. So be it.</td>
-            <td class="coptic">Ⲁⲙⲏⲛ ⲉⲥⲉϣⲱⲡⲓ</td>
+            <td class="coptic">Ⲁ̀ⲙⲏⲛ ⲉⲥⲉϣⲱⲡⲓ</td>
             <td class="arabic">آمين يكون</td>
         </tr>
         <tr id="table_23_row_12" class="priest">

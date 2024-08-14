@@ -173,7 +173,7 @@ ${hourIntroHtml}
     <span class="arabic-caption">النبوة الثالثة<br>(زكريا 12: 11 - 14: 3، 6-9)</span></caption>
     <tr id="table_5_row_1" class="intro">
         <td class="english">A reading from Zechariah the prophet. May his blessings be with us. Amen.</td>
-        <td class="arabic">من زكريا بركته تكون معنا، آمين.</td>
+        <td class="arabic">من زكريا النبي بركته تكون معنا، آمين.</td>
     </tr>
     <tr id="table_5_row_4" class="text">
         <td class="english">In that day there shall be a great mourning in Jerusalem, like the mourning at Hadad Rimmon in the plain of Megiddo.</td>
@@ -271,7 +271,7 @@ ${paschalPraiseHtml}
 <div class="section" id="section_5" title="Coptic Psalm & Gospel">
     <table id="table_10" title="Coptic Psalm">
         <caption class="caption" id="caption_table_10">Coptic Psalm<br>(50: 17-18)
-        <span class="arabic-caption">المزمور قبطياً<br>(50: 17-18)</span></caption>
+        <span class="arabic-caption">المزمور قبطياً<br>(49: 14)</span></caption>
 
         <tr id="table_10_row_0" class="intro">
             <td class="english">A Psalm of David</td>
@@ -313,14 +313,14 @@ ${paschalPraiseHtml}
             <td class="coptic">Ⲟⲩⲁⲛⲁⲅⲛⲱⲥⲓⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ Ⲓⲱⲁⲛⲛⲏⲛ ⲁⲅⲓⲟⲩ.</td>
             <td class="arabic">فصل من إنجيل معلمنا مار يوحنا</td>
         </tr>
-        <tr id="table_12_row_1" class="text">
-            <td class="coptic">Ⲛⲁⲓ ⲇⲉ ⲉ̀ⲧⲁϥϫⲟⲧⲟⲩ ⲛ̀ϫⲉ Ⲓ̅ⲏ̅ⲥ ⲁϥϣ̀ⲑⲟⲣⲧⲉⲣ ϧⲉⲛ ⲡⲓ̅ⲡ̅ⲛ̅ⲁ : ⲁϥⲉⲣⲙⲉⲑⲣⲉ ⲟⲩⲟϩ ⲡⲉϫⲁϥ : ϫⲉ ⲁ̀ⲙⲏⲛ ⲁ̀ⲙⲏⲛ ϯϫⲱⲙ̀ⲙⲟⲥ ⲛⲱⲧⲉⲛ ϫⲉ ⲟⲩⲁⲓ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲑⲏⲛⲟⲩ ⲡⲉⲑⲛⲁⲧⲏⲓⲧ : Ⲛⲁⲩⲥⲟⲙⲥ ⲟⲩⲛ ⲟⲩⲃⲉ ⲛⲟⲩⲉ̀ⲣⲏⲟⲩ ⲛ̀ϫⲉ ⲛⲓⲙⲁⲑⲏⲧⲏⲥ ⲛ̀ⲥⲉⲉ̀ⲙⲓ ⲁⲛ ϫⲉ ⲁϥϫⲉⲣⲉ ⲛⲓⲙ ⲙ̀ⲙⲱⲟⲩ : Ⲛⲁϥⲣⲱⲧⲉⲃ ⲇⲉ ⲛ̀ϫⲉ ⲟⲩⲁⲓ ϧⲉⲛ ⲕⲉⲛϥ ⲛ̀Ⲓ̅ⲏ̅ⲥ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ ...
-            <br> Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
-        <tr id="table_12_row_2" class="intro">
-            <td class="coptic">Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅ </td>
+        <tr id="table_12_row_1" class="intro">
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ̀.</td>
         </tr>
-        <tr id="table_12_row_3" class="congregation">
-            <td class="coptic">Ⲇⲟⲝⲁⲥⲓ Ⲕⲩⲣⲓ ⲉ̀.</td>
+        <tr id="table_12_row_2" class="text">
+            <td class="coptic">Ⲛⲁⲓ ⲇⲉ ⲉ̀ⲧⲁϥϫⲟⲧⲟⲩ ⲛ̀ϫⲉ Ⲓⲏⲥⲟⲩⲥ ⲁϥϣ̀ⲑⲟⲣⲧⲉⲣ ϧⲉⲛ ⲡⲓ̅ⲡ̅ⲛ̅ⲁ : ⲁϥⲉⲣⲙⲉⲑⲣⲉ ⲟⲩⲟϩ ⲡⲉϫⲁϥ : ϫⲉ ⲁ̀ⲙⲏⲛ ⲁ̀ⲙⲏⲛ ϯϫⲱⲙ̀ⲙⲟⲥ ⲛⲱⲧⲉⲛ ϫⲉ ⲟⲩⲁⲓ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲑⲏⲛⲟⲩ ⲡⲉⲑⲛⲁⲧⲏⲓⲧ : Ⲛⲁⲩⲥⲟⲙⲥ ⲟⲩⲛ ⲟⲩⲃⲉ ⲛⲟⲩⲉ̀ⲣⲏⲟⲩ ⲛ̀ϫⲉ ⲛⲓⲙⲁⲑⲏⲧⲏⲥ ⲛ̀ⲥⲉⲉ̀ⲙⲓ ⲁⲛ ϫⲉ ⲁϥϫⲉⲣⲉ ⲛⲓⲙ ⲙ̀ⲙⲱⲟⲩ : Ⲛⲁϥⲣⲱⲧⲉⲃ ⲇⲉ ⲛ̀ϫⲉ ⲟⲩⲁⲓ ϧⲉⲛ ⲕⲉⲛϥ ⲛ̀Ⲓⲏⲥⲟⲩⲥ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ ...
+            <br> Ⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉⲑ̅ⲩ̅</td>
+        <tr id="table_12_row_3" class="intro">
+            <td class="coptic">Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ̀.</td>
         </tr>
     </table>
 </div>
@@ -331,7 +331,7 @@ ${paschalPraiseHtml}
 
 <table id="table_13" title="Psalm">
     <caption id="caption_table_13" class="caption">Psalm<br>(50:17-18)
-    <span class="arabic-caption">المزمور<br>(50: 17-18)</span></caption>
+    <span class="arabic-caption">المزمور<br>(49: 14)</span></caption>
     <tr id="table_13_row_1" class="intro">
         <td class="english">From the Psalms of our teacher David the prophet. May his blessing be with us. Amen.</td>
         <td class="arabic">من مزامير معلمنا داود النبي، بركته تكون معنا، آمين.</td>
@@ -421,29 +421,26 @@ ${daytimeExpositionIntroHtml}
         <td class="arabic">شمس البر أضاء، وشعاعه بلغ ضياؤه إلى أقطار الأرض، الذى هو يسوع النور الحقيقى الذى يضئ لكل إنسان آتٍ إلى العالم.</td>
     </tr>
     <tr id="table_16_row_5" class="text">
-        <td class="english">The life-giving Bread came from heaven and nourished all creation. From the beginning of time, He prepared a table in the wilderness and nourished the people with manna for forty years,</td>
-        <td class="arabic">الخبز السمائى المعطى الحياة المغذى كل صنعة يديه فى أول الزمان أعد مائدة فى البرية من المَن، وأعال منها الجموع أربعين سنة</td>
+        <td class="english">The life-giving Bread came from heaven and nourished all creation. From the beginning of time, He prepared a table in the wilderness and nourished the people with manna for forty years, “They ate and died,” as the Lord said.</td>
+        <td class="arabic">الخبز السمائى المعطى الحياة المغذى كل صنعة يديه فى أول الزمان أعد مائدة فى البرية من المَن، وأعال منها الجموع أربعين سنة فأكلوا وماتوا كقول الرب.</td>
     </tr>
     <tr id="table_16_row_6" class="text">
-        <td class="english">“They ate and died,” as the Lord said.</td>
-        <td class="arabic">فأكلوا وماتوا كقول الرب.</td>
+        <td class="english">A New Table [meal] was prepared by the Son in the Upper Room at Mother Zion [the City of Jerusalem]</td>
+        <td class="arabic">ومائدة جديدة أعدها الإبن فى علية صهيون الأم.</td>
     </tr>
     <tr id="table_16_row_7" class="text">
         <td class="english">On the eve of that day in which they ate the unleavened bread of Passover, our Lord and Savior Jesus Christ sat there in the upper room of Zion with His disciples to celebrate the new Passover.</td>
-        <td class="arabic">ومائدة جديدة أعدها الإبن فى علية صهيون الأم.</td>
+        <td class="arabic">لما كان عشية ذلك اليوم الذى أكلوا فيه فَطير الفصح، اتكأ الرب يسوع المخلص فى الموضع المرتفع الذى هو علية صهيون، واتكأ مع تلاميذه وكانوا يأكلون الفصح الجديد،</td>
     </tr>
     <tr id="table_16_row_8" class="text">
-        <td class="english">On that evening He offered to them His true body, that he gave them as a sacrament,</td>
-        <td class="arabic">لما كان عشية ذلك اليوم الذى أكلوا فيه فَطير الفصح،</td>
+        <td class="english">That is His flesh which He Himself offered to them in a hidden mystery, and the precious blood, which is better than the blood offerings.</td>
+        <td class="arabic">الذى هو جسده هو بذاته الذى أعطاه لهم بأمر سرى، والدم الكريم الحقيقى الذى هو أفضل من دم الحيوانات.</td>
     </tr>
     <tr id="table_16_row_9" class="text">
-        <td class="english">and the precious blood, which is better than the blood offerings.</td>
-        <td class="arabic">اتكأ الرب يسوع المخلص فى الموضع المرتفع الذى هو علية صهيون، واتكأ مع تلاميذه وكانوا يأكلون الفصح الجديد، الذى هو جسده هو بذاته الذى أعطاه لهم بأمر سرى، والدم الكريم الحقيقى الذى هو أفضل من دم الحيوانات.</td>
-    </tr>
-    <tr id="table_16_row_10" class="text">
         <td class="english">Our Savior took the bread, blessed, broke, and gave it to His disciples saying,</td>
         <td class="arabic">أخذ مخلصنا خبزاً وباركه، وهكذا قسمه وناوله لرسله المختارين قائلاً</td>
     </tr>
+r>
     <tr id="table_16_row_11" class="text">
         <td class="english">“Take eat of it all of you for this is My body which is broken for you and for many to be given for the remission of sins.”</td>
         <td class="arabic">"خذوا كلوا منه كلكم لأن هذا هو جسدى، الذى أقسمه عنكم وعن كثيرين لمغفرة خطاياهم".</td>
@@ -499,7 +496,14 @@ ${evnotiNaiNanHtml}
 ${endOfServiceHymnHtml}
 </div>
 
-
+<div class="section" id="section_30" title="Next Hour">
+<table id="table_50" title="Next Hour">
+    <tr id="table_50_row_0" data-navigation="EOF1sc" class="navigationButton">
+        <td class="englishButton">The FIRST Hour of the EVE of GREAT FRIDAY</td>
+        <td class="arabicButton">الساعة الأولى من ليلة الجمعة العظيمة</td>
+    </tr>
+</table>
+</div>
 `;
 
 };
