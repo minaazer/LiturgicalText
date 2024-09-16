@@ -2,7 +2,7 @@
   "expo": {
     "name": "LiturgicalBooks",
     "slug": "LiturgicalBooks",
-    "version": "1.0.40",
+    "version": "1.0.41",
     "orientation": "landscape",
     "icon": "./assets/cymbals.png",
     "userInterfaceStyle": "light",
@@ -17,7 +17,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.minaazer.liturgicalbooks",
-      "buildNumber": "45"
+      "buildNumber": "46"
     },
     "android": {
       "adaptiveIcon": {
@@ -30,7 +30,7 @@
         "ACCESS_NETWORK_STATE",
         "ACCESS_WIFI_STATE"
       ],
-      "versionCode": 39
+      "versionCode": 41
     },
     "web": {
       "favicon": "./assets/favicon.png"

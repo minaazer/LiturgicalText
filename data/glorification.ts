@@ -3283,384 +3283,243 @@ return `
 
     <br>
     <table id="table_20" style="display: table;" title="I praise the virgin">
-        <caption class="caption" id="caption_table_20">I praise the virgin</caption>
+        <caption class="caption" id="caption_table_20">I praise the virgin<br /><span
+                class="arabic-caption">امدح في البتول</span></caption>
         <tbody class="scaling-container"  id="table_20_tbody_0">
-            <tr class="north" id="table_20_row_0">
-                <td class="english" style="border-right: 1px solid black;">I praise the Virgin
-                    And explain and say
-                    O the origin
-                    And the hidden pearl</td>
-                <td class="arabic" style="border-right: 1px solid black;">أمدح فى البتولوأشرح فيها وأقولياأصل
-                    الأصولياجوهر
-                    مكنون</td>
+            <tr id="table_20_row_0" class="north">
+                <td class="english" >I praise the Virgin And explain and say O
+                    the origin And the hidden pearl</td>
+                <td class="arabic">أمدح فى البتول: وأشرح فيها وأقول: ياأصل الأصول: ياجوهر مكنون</td>
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_20_tbody_1">
-            <tr class="south" id="table_20_row_1">
-                <td class="english" style="border-right: 1px solid black;">Through your Son, our Lady
-                    Cause of salvation
-                    We reached the goal
-                    And you brought us joy</td>
-                <td class="arabic" style="border-right: 1px solid black;">بأبنك ياستناخلاص جنسناوبلغنا المنىوبك صرنا
-                    فرحون
-                </td>
+            <tr id="table_20_row_1" class="north">
+                <td class="english" >Through your Son, our Lady Cause of
+                    salvation We reached the goal And you brought us joy</td>
+                <td class="arabic">بأبنك ياستنا: خلاص جنسنا: وبلغنا المنى: وبك صرنا فرحون</td>
             </tr>
+        
         </tbody>
         <tbody class="scaling-container"  id="table_20_tbody_2">
-            <tr class="north" id="table_20_row_2">
-                <td class="english" style="border-right: 1px solid black;">Was truly Incarnate
-                    From a Virgin girl
-                    Crucified and died
-                    For us at Golgotha</td>
-                <td class="arabic" style="border-right: 1px solid black;">تجسد بثباتمن ست البناتصلب عنا وماتعند
-                    الاقرانيون
-                </td>
+            <tr id="table_20_row_2" class="south">
+                <td class="english" >Was truly Incarnate From a Virgin girl
+                    Crucified and died For us at Golgotha</td>
+                <td class="arabic">تجسد الابن بثبات: من ست البنات: صلب عنا ومات: عند الاقرانيون</td>
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_20_tbody_3">
-            <tr class="south" id="table_20_row_3">
-                <td class="english" style="border-right: 1px solid black;">The fruit of my pledge
-                    O daughter of Zion
-                    To love your Son
-                    And proclaim and say</td>
-                <td class="arabic" style="border-right: 1px solid black;">ثمرة عربونىياأبنة صهيونأحب الهيوأصيح وأقول
-                </td>
+            <tr id="table_20_row_3" class="south">
+                <td class="english" >The fruit of my pledge O daughter of Zion
+                    To love your Son And proclaim and say</td>
+                <td class="arabic">ثمرة عربونى: ياأبنة صهيون: أحب الهي: وأصيح وأقول</td>
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_20_tbody_4">
-            <tr class="north" id="table_20_row_4">
-                <td class="english" style="border-right: 1px solid black;">Gabriel came
-                    With tidings and sayings
-                    You accepted His word
-                    In calmness and wisdom</td>
-                <td class="arabic" style="border-right: 1px solid black;">جاك غبريالببشائر وأقوالوقبلت ما قالبسر خفي
-                    مكنون
-                </td>
+            <tr id="table_20_row_4" class="north">
+                <td class="english" >Gabriel came With tidings and sayings You
+                    accepted His word In calmness and wisdom</td>
+                <td class="arabic">جاك غبريال: ببشائر وأقوال: وقبلت ما قال: بسر خفي مكنون</td>
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_20_tbody_5">
-            <tr class="south" id="table_20_row_5">
-                <td class="english" style="border-right: 1px solid black;">He dwelt by His Word
-                    In strength and power
-                    You became like heaven
-                    O, daughter of Zion</td>
-                <td class="arabic" style="border-right: 1px solid black;">حل بكلمتهوشرح قدرتهصرت كسمائهيا إبنة صهيون
-                </td>
+            <tr id="table_20_row_5" class="north">
+                <td class="english" >He dwelt by His Word In strength and
+                    power You became like heaven O, daughter of Zion</td>
+                <td class="arabic">حل بكلمته: وشرح قدرته: صرت كسمائه: يا إبنة صهيون</td>
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_20_tbody_6">
-            <tr class="refrain" id="table_20_row_7">
-                <td class="english" style="border-right: 1px solid black;">Your love embraced me
-                    O pride of nations
-                    Moses has seen you
-                    Surprise and marvel
-                    And the lamps are bright
-                    With golden crosses
-                    The praise of the virgin
-                    Increased my joy
-                    Praising her always
-                    Increased my bliss
-                    Moses' dome, O Mary
-                    O Aaron's censer</td>
-                <td class="arabic" style="border-right: 1px solid black;">سباني حُبكيافخرَ الرتبموسى رآكِعجب من
-                    عجبوالقناديل
-                    فضة بتضويوالصلبان ذهبودا مدح البتول زاد قلبى فرحمدحها علطولخلاه إنشرحياقبة موسى يامريمياشورية هرون
-                </td>
+            <tr id="table_20_row_7" class="refrain">
+                <td class="english" >Your love embraced me: O pride of nations:
+                    Moses has seen you: Surprise and marvel: And the lamps are bright: With golden crosses.<br> 
+                    The praise of the virgin: Increased my joy: Praising her always: Increased my bliss: Moses' dome, O Mary: O
+                    Aaron's censer</td>
+                <td class="arabic">سباني حُبك: يافخرَ الرتب: موسى رآكِ: عجب من عجب: والقناديل فضة بتضوي: والصلبان ذهب. <br>
+                ودا مدح البتول: زاد قلبى فرح: مدحها علطول: خلاه إنشرح: ياقبة موسى يامريم: ياشورية هرون</td>
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_20_tbody_7">
-            <tr class="north" id="table_20_row_8">
-                <td class="english" style="border-right: 1px solid black;">He saved Adam
-                    After his sorrow
-                    And has freed the world
-                    We rejoice in you</td>
-                <td class="arabic" style="border-right: 1px solid black;">خلص آدمبعد أن كان نادموعتق العالمونحن بك فرحون
-                </td>
+            <tr id="table_20_row_8" class="south">
+                <td class="english" >He saved Adam After his sorrow And has
+                    freed the world We rejoice in you</td>
+                <td class="arabic">إبنك خلص آدم: بعد أن كان نادم: وعتق العالم: ونحن بك فرحون</td>
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_20_tbody_8">
-            <tr class="south" id="table_20_row_9">
-                <td class="english" style="border-right: 1px solid black;">He is glorified
-                    And promised His Apostles
-                    To save His people
-                    From Satan's bondage</td>
-                <td class="arabic" style="border-right: 1px solid black;">دائم تمجيدهوعاهد تلاميذهيخلص عبيدهمن كيد
-                    الأركون
-                </td>
+            <tr id="table_20_row_9" class="south">
+                <td class="english" >He is glorified And promised His Apostles
+                    To save His people From Satan's bondage</td>
+                <td class="arabic">دائم تمجيده: وعاهد تلاميذه: يخلص عبيده: من كيد الأركون</td>
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_20_tbody_9">
-            <tr class="north" id="table_20_row_10">
-                <td class="english" style="border-right: 1px solid black;">Concerning you, David said,
-                    “The King rejoiced in you
-                    And took flesh from you
-                    The Lord on His Throne.”</td>
-                <td class="arabic" style="border-right: 1px solid black;">داود قال عنكالملك إشتهى حسنكوتجسد منكرب العرش
-                    المكنون</td>
+            <tr id="table_20_row_10" class="north">
+                <td class="english" >Concerning you, David said, &ldquo;The
+                    King rejoiced in you And took flesh from you The Lord on His Throne.&rdquo;</td>
+                <td class="arabic">داود قال عنك: الملك إشتهى حسنك: وتجسد منك: رب العرش المكنون</td>
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_20_tbody_10">
-            <tr class="south" id="table_20_row_11">
-                <td class="english" style="border-right: 1px solid black;">Myriads and thousands
-                    Standing around the Throne
-                    Ranks and orders
-                    Saints and martyrs</td>
-                <td class="arabic" style="border-right: 1px solid black;">ربوات وألوفحول العرش وقوفوطغمات وصفوفوشهداء
-                    متصلون
-                </td>
+            <tr id="table_20_row_11" class="north">
+                <td class="english" >Myriads and thousands Standing around the
+                    Throne Ranks and orders Saints and martyrs</td>
+                <td class="arabic">ربوات وألوف: حول العرش وقوف: وطغمات وصفوف: وشهداء متصلون</td>
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_20_tbody_11">
-            <tr class="north" id="table_20_row_12">
-                <td class="english" style="border-right: 1px solid black;">Sorrow was taken away
-                    And we are comforted
-                    Through you, O Mary
-                    The pride of the human race</td>
-                <td class="arabic" style="border-right: 1px solid black;">زالت عنا الأحزانوصرنا فى أطمئنانبك يامريميا
-                    فخر
-                    البشريون</td>
+            <tr id="table_20_row_12" class="south">
+                <td class="english" >Sorrow was taken away And we are
+                    comforted Through you, O Mary The pride of the human race</td>
+                <td class="arabic">زالت عنا الأحزان وصرنا فى أطمئنان بك يامريم يا فخر البشريون</td>
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_20_tbody_12">
-            <tr class="south" id="table_20_row_13">
-                <td class="english" style="border-right: 1px solid black;">Salome witnessed
-                    That the Virgin gave birth
-                    She believed and confirmed
-                    The mystery of mysteries.</td>
-                <td class="arabic" style="border-right: 1px solid black;">سالومي شهدتإن العذراء ولدتآمنت وأعتقدتبالسر
-                    المكنون</td>
+            <tr id="table_20_row_13" class="south">
+                <td class="english" >Salome witnessed That the Virgin gave
+                    birth She believed and confirmed The mystery of mysteries.</td>
+                <td class="arabic">سالومي شهدت: إن العذراء ولدت: آمنت وأعتقدت: بالسر المكنون</td>
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_20_tbody_13">
-            <tr class="refrain" id="table_20_row_15">
-                <td class="english" style="border-right: 1px solid black;">Your love embraced me
-                    O pride of nations
-                    Moses has seen you
-                    Surprise and marvel
-                    And the lamps are bright
-                    With golden crosses
-                    The praise of the virgin
-                    Increased my joy
-                    Praising her always
-                    Increased my bliss
-                    Moses' dome, O Mary
-                    O Aaron's censer</td>
-                <td class="arabic" style="border-right: 1px solid black;">سباني حُبكيافخرَ الرتبموسى رآكِعجب من
-                    عجبوالقناديل
-                    فضة بتضويوالصلبان ذهبودا مدح البتول زاد قلبى فرحمدحها علطولخلاه إنشرحياقبة موسى يامريمياشورية هرون
-                </td>
+            <tr id="table_20_row_15" class="refrain">
+                <td class="english" >Your love embraced me: O pride of nations:
+                    Moses has seen you: Surprise and marvel: And the lamps are bright: With golden crosses.<br> 
+                    The praise of the virgin: Increased my joy: Praising her always: Increased my bliss: Moses' dome, O Mary: O
+                    Aaron's censer</td>
+                <td class="arabic">سباني حُبك: يافخرَ الرتب: موسى رآكِ: عجب من عجب: والقناديل فضة بتضوي: والصلبان ذهب. <br>
+                ودا مدح البتول: زاد قلبى فرح: مدحها علطول: خلاه إنشرح: ياقبة موسى يامريم: ياشورية هرون</td>
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_20_tbody_14">
-            <tr class="north" id="table_20_row_16">
-                <td class="english" style="border-right: 1px solid black;">Solomon, your father,
-                    Praised in hymns and songs
-                    And Jacob saw you
-                    An upright ladder</td>
-                <td class="arabic" style="border-right: 1px solid black;">سليمان أباكصار ينشد بفنونويعقوب رآكسلم مرتفعون
-                </td>
+            <tr id="table_20_row_16" class="north">
+                <td class="english" >Solomon, your father, Praised in hymns
+                    and songs And Jacob saw you An upright ladder</td>
+                <td class="arabic">سليمان أباك: صار ينشد بفنون: ويعقوب رآك: سلم مرتفعون</td>
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_20_tbody_15">
-            <tr class="south" id="table_20_row_17">
-                <td class="english" style="border-right: 1px solid black;">The chiefs had proclaimed
-                    O fruitful vine
-                    You are a Virgin and a bride
-                    As they prophesied</td>
-                <td class="arabic" style="border-right: 1px solid black;">شهد عنك الرؤساءياكرمة مغروسةيابكرة وعروسةكما
-                    عنك
-                    تنبأون</td>
+            <tr id="table_20_row_17" class="north">
+                <td class="english" >The chiefs had proclaimed O fruitful vine
+                    You are a Virgin and a bride As they prophesied</td>
+                <td class="arabic">شهد عنك الرؤساء: ياكرمة مغروسة: يابكرة وعروسة: كما عنك تنبأون</td>
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_20_tbody_16">
-            <tr class="north" id="table_20_row_18">
-                <td class="english" style="border-right: 1px solid black;">Zephaniah proclaimed
-                    That Jesus will appear
-                    As rain and dew
-                    While her Virginity is sealed</td>
-                <td class="arabic" style="border-right: 1px solid black;">صوفونيوس خبربأن يسوع يظهرشبه ندي ومطروالختم
-                    حصن
-                    مصون</td>
+            <tr id="table_20_row_18" class="south">
+                <td class="english" >Zephaniah proclaimed That Jesus will
+                    appear As rain and dew While her Virginity is sealed</td>
+                <td class="arabic">صوفونيوس خبر: بأن يسوع يظهر: شبه ندي ومطر: والختم حصن مصون</td>
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_20_tbody_17">
-            <tr class="south" id="table_20_row_19">
-                <td class="english" style="border-right: 1px solid black;">Eve caused Adam to stray,
-                    In tears, he cried
-                    Naked, he was exiled
-                    Without you they would not return</td>
-                <td class="arabic" style="border-right: 1px solid black;">ضللت حواء آدموصار يبكى نادمخرج عريان عادملولاك
-                    ما
-                    رجعون</td>
+            <tr id="table_20_row_19" class="south">
+                <td class="english" >Eve caused Adam to stray, In tears, he
+                    cried Naked, he was exiled Without you they would not return</td>
+                <td class="arabic">ضللت حواء آدم: وصار يبكى نادم: خرج عريان عادم: لولاك ما رجعون</td>
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_20_tbody_18">
-            <tr class="north" id="table_20_row_20">
-                <td class="english" style="border-right: 1px solid black;">Your rank is up high
-                    And great is your glory
-                    The Lord honored you
-                    O Aaron's censer</td>
-                <td class="arabic" style="border-right: 1px solid black;">عال هو قدركوعظيم هو مجدكوالله شرف ذكركيا شورية
-                    هرون</td>
+            <tr id="table_20_row_20" class="north">
+                <td class="english" >Your rank is up high And great is your
+                    glory The Lord honored you O Aaron's censer</td>
+                <td class="arabic">عال هو قدرك: وعظيم هو مجدك: والله شرف ذكرك: يا شورية هرون</td>
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_20_tbody_19">
-            <tr class="south" id="table_20_row_21">
-                <td class="english" style="border-right: 1px solid black;">Many praised you
-                    You are the cause of all joy
-                    You comfort everyone
-                    Who is sorrowful and humble</td>
-                <td class="arabic" style="border-right: 1px solid black;">غلب فيك المداحيا بدء الأفراحبمديحك يرتاحكل
-                    ذليل
-                    محزون</td>
+            <tr id="table_20_row_21" class="north">
+                <td class="english" >Many praised you You are the cause of all
+                    joy You comfort everyone Who is sorrowful and humble</td>
+                <td class="arabic">غلب فيك المداح: يا بدء الأفراح: بمديحك يرتاح: كل ذليل محزون</td>
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_20_tbody_20">
-            <tr class="refrain" id="table_20_row_23">
-                <td class="english" style="border-right: 1px solid black;">Your love embraced me
-                    O pride of nations
-                    Moses has seen you
-                    Surprise and marvel
-                    And the lamps are bright
-                    With golden crosses
-                    The praise of the virgin
-                    Increased my joy
-                    Praising her always
-                    Increased my bliss
-                    Moses' dome, O Mary
-                    O Aaron's censer</td>
-                <td class="arabic" style="border-right: 1px solid black;">سباني حُبكيافخرَ الرتبموسى رآكِعجب من
-                    عجبوالقناديل
-                    فضة بتضويوالصلبان ذهبودا مدح البتول زاد قلبى فرحمدحها علطولخلاه إنشرحياقبة موسى يامريمياشورية هرون
-                </td>
+            <tr id="table_20_row_23" class="refrain">
+                <td class="english" >Your love embraced me: O pride of nations:
+                    Moses has seen you: Surprise and marvel: And the lamps are bright: With golden crosses.<br> 
+                    The praise of the virgin: Increased my joy: Praising her always: Increased my bliss: Moses' dome, O Mary: O
+                    Aaron's censer</td>
+                <td class="arabic">سباني حُبك: يافخرَ الرتب: موسى رآكِ: عجب من عجب: والقناديل فضة بتضوي: والصلبان ذهب. <br>
+                ودا مدح البتول: زاد قلبى فرح: مدحها علطول: خلاه إنشرح: ياقبة موسى يامريم: ياشورية هرون</td>
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_20_tbody_21">
-            <tr class="north" id="table_20_row_24">
-                <td class="english" style="border-right: 1px solid black;">My heart rejoices in you
-                    O Virgin Mary
-                    Ask your Son Jesus
-                    To protect me by His Might</td>
-                <td class="arabic" style="border-right: 1px solid black;">فيك رضا قلبىيامريم طلبىيسوع إبنك حسبىبقوته
-                    أكون
-                </td>
+            <tr id="table_20_row_24" class="south">
+                <td class="english" >My heart rejoices in you O Virgin Mary
+                    Ask your Son Jesus To protect me by His Might</td>
+                <td class="arabic">فيك رضا قلبى: يامريم طلبى: يسوع إبنك حسبى: بقوته أكون</td>
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_20_tbody_22">
-            <tr class="south" id="table_20_row_25">
-                <td class="english" style="border-right: 1px solid black;">Existent before the ages
-                    Suffered and was crucified
-                    He rose from His sleep
-                    And the Disciples preached</td>
-                <td class="arabic" style="border-right: 1px solid black;">قديم أذلي دائمصلب عنا وتألماستيقظ
-                    كالنائموالتلاميذ
-                    يكرزون</td>
+            <tr id="table_20_row_25" class="south">
+                <td class="english" >Existent before the ages Suffered and was
+                    crucified He rose from His sleep And the Disciples preached</td>
+                <td class="arabic">قديم أذلي دائم: صلب عنا وتألم: استيقظ كالنائم: والتلاميذ يكرزون</td>
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_20_tbody_23">
-            <tr class="north" id="table_20_row_26">
-                <td class="english" style="border-right: 1px solid black;">The righteous Apostles
-                    And the four Evangelists
-                    Preached in all nations
-                    The tidings and rejoice</td>
-                <td class="arabic" style="border-right: 1px solid black;">كرزوا في الأقطارالرسل الأبرارونادوا
-                    باستبشارالأباء
-                    الإنجيليون</td>
+            <tr id="table_20_row_26" class="north">
+                <td class="english" >The righteous Apostles And the four
+                    Evangelists Preached in all nations The tidings and rejoice</td>
+                <td class="arabic">كرزوا في الأقطار: الرسل الأبرار: ونادوا باستبشار: الأباء الإنجيليون</td>
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_20_tbody_24">
-            <tr class="south" id="table_20_row_27">
-                <td class="english" style="border-right: 1px solid black;">Glory is due to you
-                    O daughter of Joachim
-                    You bore a great mystery
-                    And gave birth to the Most High</td>
-                <td class="arabic" style="border-right: 1px solid black;">لك كل التعظيمياإبنة يواقيمحملت سر عظيمووضعت
-                    المكنون</td>
+            <tr id="table_20_row_27" class="north">
+                <td class="english" >Glory is due to you O daughter of Joachim
+                    You bore a great mystery And gave birth to the Most High</td>
+                <td class="arabic">لك كل التعظيم: ياإبنة يواقيم: حملت سر عظيم: ووضعت المكنون</td>
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_20_tbody_25">
-            <tr class="north" id="table_20_row_28">
-                <td class="english" style="border-right: 1px solid black;">Moses and Daniel
-                    Said many parables
-                    And you fit all that
-                    Mysteriously and more</td>
-                <td class="arabic" style="border-right: 1px solid black;">موسي ودانيالضربوا عنك أمثالوقبلت ماقالبسر خفي
-                    مكنون</td>
+            <tr id="table_20_row_28" class="south">
+                <td class="english" >Moses and Daniel Said many parables And
+                    you fit all that Mysteriously and more</td>
+                <td class="arabic">موسي ودانيال: ضربوا عنك أمثال: وقبلت ماقال: بسر خفي مكنون</td>
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_20_tbody_26">
-            <tr class="south" id="table_20_row_29">
-                <td class="english" style="border-right: 1px solid black;">You caused the world to shine
-                    O the pride of faith
-                    All the creatures were free
-                    Because of you Mary</td>
-                <td class="arabic" style="border-right: 1px solid black;">نورت الأكوانيافخر الإيمانلولاك ماكانكل الخلائق
-                    يعتقون</td>
+            <tr id="table_20_row_29" class="south">
+                <td class="english" >You caused the world to shine O the pride
+                    of faith All the creatures were free Because of you Mary</td>
+                <td class="arabic">نورت الأكوان: يافخر الإيمان: لولاك ماكان: كل الخلائق يعتقون</td>
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_20_tbody_27">
-            <tr class="north" id="table_20_row_30">
-                <td class="english" style="border-right: 1px solid black;">Gifts were offered in faith
-                    To the King of kings
-                    By the great Magi
-                    Myrrh, gold and frankincense</td>
-                <td class="arabic" style="border-right: 1px solid black;">هدايا بإيمانأتوا بهم الأعيانمرا وذهباً
-                    ولبانبها
-                    المجوس حاملون</td>
+            <tr id="table_20_row_30" class="north">
+                <td class="english" >Gifts were offered in faith To the King
+                    of kings By the great Magi Myrrh, gold and frankincense</td>
+                <td class="arabic">هدايا بإيمان: أتوا بهم الأعيان: مرا وذهباً ولبان: بها المجوس حاملون</td>
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_20_tbody_28">
-            <tr class="south" id="table_20_row_31">
-                <td class="english" style="border-right: 1px solid black;">They worshipped the born King
-                    The Lord of lords
-                    And Herod was terrified
-                    And his soldiers marveled</td>
-                <td class="arabic" style="border-right: 1px solid black;">وسجدوا للمولودالرب المعبودوهيرودس صار
-                    مرعوبوجنده
-                    محتارون</td>
+            <tr id="table_20_row_31" class="north">
+                <td class="english" >They worshipped the born King The Lord of
+                    lords And Herod was terrified And his soldiers marveled</td>
+                <td class="arabic">وسجدوا للمولود: الرب المعبود: وهيرودس صار مرعوب: وجنده محتارون</td>
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_20_tbody_29">
-            <tr class="north" id="table_20_row_32">
-                <td class="english" style="border-right: 1px solid black;">Do not forsake at that time
-                    A poor and humble sinner
-                    Your plead on Judgment Day
-                    And for all the Christians</td>
-                <td class="arabic" style="border-right: 1px solid black;">لا تنسى في ذلك الحينعبداً خاطئ مسكينشفاعتك يوم
-                    الدينلشعب ابنك أجمعين</td>
+            <tr id="table_20_row_32" class="south">
+                <td class="english" >Do not forsake at that time A poor and
+                    humble sinner Your plead on Judgment Day And for all the Christians</td>
+                <td class="arabic">لا تنسى في ذلك الحين: عبداً خاطئ مسكين: شفاعتك يوم الدين: لشعب ابنك أجمعين</td>
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_20_tbody_30">
-            <tr class="south" id="table_20_row_33">
-                <td class="english" style="border-right: 1px solid black;">We ask of Him forgiveness
-                    Faith and repentance
-                    To be in calmness
-                    We the believers</td>
-                <td class="arabic" style="border-right: 1px solid black;">ونسأل من جوده الغفرانوتوبة مع إيمانلنصبر في
-                    اطمئناننحن المؤمنون</td>
+            <tr id="table_20_row_33" class="south">
+                <td class="english" >We ask of Him forgiveness Faith and
+                    repentance To be in calmness We the believers</td>
+                <td class="arabic">ونسأل من جوده الغفران: وتوبة مع إيمان: لنصير في اطمئنان: نحن المؤمنون</td>
             </tr>
         </tbody>
         <tbody class="scaling-container"  id="table_20_tbody_31">
-            <tr class="refrain" id="table_20_row_35">
-                <td class="english" style="border-right: 1px solid black;">Your love embraced me
-                    O pride of nations
-                    Moses has seen you
-                    Surprise and marvel
-                    And the lamps are bright
-                    With golden crosses
-                    The praise of the virgin
-                    Increased my joy
-                    Praising her always
-                    Increased my bliss
-                    Moses' dome, O Mary
-                    O Aaron's censer</td>
-                <td class="arabic" style="border-right: 1px solid black;">سباني حُبكيافخرَ الرتبموسى رآكِعجب من
-                    عجبوالقناديل
-                    فضة بتضويوالصلبان ذهبودا مدح البتول زاد قلبى فرحمدحها علطولخلاه إنشرحياقبة موسى يامريمياشورية هرون
-                </td>
+            <tr id="table_20_row_35" class="refrain">
+                <td class="english" >Your love embraced me: O pride of nations: Moses has seen you: Surprise and marvel: And the lamps are bright: With golden crosses.<br> 
+                The praise of the virgin: Increased my joy: Praising her always: Increased my bliss: Moses' dome, O Mary: O Aaron's censer</td>
+                <td class="arabic">سباني حُبك: يافخرَ الرتب: موسى رآكِ: عجب من عجب: والقناديل فضة بتضوي: والصلبان ذهب. <br>
+                ودا مدح البتول: زاد قلبى فرح: مدحها علطول: خلاه إنشرح: ياقبة موسى يامريم: ياشورية هرون</td>
             </tr>
         </tbody>
-
     </table>
     <br>
     <table id="table_21" style="display: table;" title="Estermeji">
