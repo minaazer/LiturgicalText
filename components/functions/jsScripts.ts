@@ -6,12 +6,11 @@ window.onload = function() {
     convertArabicCaptions();
     extractTableTitlesAndIds();
     paginateTables();
-    adjustOverlay();
     listenToButtonClicks();
 }
 function listenToButtonClicks() {
-    // Get all elements with class .navigationButton
-    const navigationButtons = document.querySelectorAll('.navigationButton');
+    // Get all elements with class .navigationButton and .navigationLink
+    const navigationButtons = document.querySelectorAll('.navigationButton, .navigationLink');
 
     // Loop through each navigation button
     navigationButtons.forEach(button => {

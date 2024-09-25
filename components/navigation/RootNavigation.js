@@ -14,6 +14,7 @@ import SettingsScreen from "../screens/settings";
 import AboutScreen from "../screens/about";
 import Home from "../screens/home";
 import Kiahk from "../screens/kiahk";
+import KiahkDoxologies from "../screens/kiahkDoxologies";
 import Glorification from "../screens/glorification";
 import Songs from "../screens/songs";
 import StMarySongs from "../screens/songs/stMarySongs";
@@ -118,6 +119,7 @@ const RouteConfig = [
     screenName: "Kiahk",
     label: "Kiahk Praises",
     component: Kiahk,
+    children: [{screenName: "KiahkDoxologies", label: "Kiahk Doxologies", component: KiahkDoxologies, },],
   },
   {
     screenName: "HolyWeek",

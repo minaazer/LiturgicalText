@@ -1,9 +1,34 @@
+import { useContext, useState, useEffect } from 'react';
+import SettingsContext from '../settings/settingsContext';
+
+const userSettings = (value, settingsKey) => {
+    const [settings] = useContext(SettingsContext);
+    const [settingsData, setSettingsData] = useState([]);
+  
+    useEffect(() => {
+  
+      if (settings[settingsKey]) {
+        setSettingsData(settings[settingsKey]);
+      }
+    }, [settings, settingsKey]);
+  
+    // Find the item with the provided value in the settingsData array
+    const item = settingsData.find(item => item.value === value);
+  
+    // If the item is found, return its checked property; otherwise, return false
+    return item ? item.checked : false;
+  };
+  
+
 function amenAmenCome(tableNumber) {
-    let html = `
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
         <table id="table_${tableNumber}" title="Amen Amen Come">
             <caption class="caption" id="caption_table_${tableNumber}">Amen Amen Come
             <span class="arabic-caption">امين تعال أيها الرب يسوع</span></caption>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_0">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
                 <tr id="table_${tableNumber}_row_0" class="north">
                     <td class="english">Amen Amen Come</td>
                     <td class="arabic">امين تعال</td>
@@ -21,7 +46,7 @@ function amenAmenCome(tableNumber) {
                     <td class="arabic">قلوبنا إشتاقت للرجوع</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_1">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_1">
                 <tr id="table_${tableNumber}_row_4" class="refrain">
                     <td class="english">(We´re waiting for you</td>
                     <td class="arabic">(منتظرينك</td>
@@ -35,7 +60,7 @@ function amenAmenCome(tableNumber) {
                     <td class="arabic">(قلت سآتي سريعًا آمين) x2</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_2">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
                 <tr id="table_${tableNumber}_row_7" class="north">
                     <td class="english">We see Thy glory,</td>
                     <td class="arabic">نراك بمجدك</td>
@@ -53,7 +78,7 @@ function amenAmenCome(tableNumber) {
                     <td class="arabic">وفي طرفة عين إليك نطير</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_3">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
                 <tr id="table_${tableNumber}_row_11" class="refrain">
                     <td class="english">(We´re waiting for you</td>
                     <td class="arabic">(منتظرينك</td>
@@ -67,7 +92,7 @@ function amenAmenCome(tableNumber) {
                     <td class="arabic">(قلت سآتي سريعًا آمين) x2</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_4">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
                 <tr id="table_${tableNumber}_row_14" class="north">
                     <td class="english">Thy sight would cheer us,</td>
                     <td class="arabic">نفرح بقربك</td>
@@ -85,7 +110,7 @@ function amenAmenCome(tableNumber) {
                     <td class="arabic">لنا يا حبيب الروح</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_5">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_5">
                 <tr id="table_${tableNumber}_row_18" class="refrain">
                     <td class="english">(We´re waiting for you</td>
                     <td class="arabic">(منتظرينك</td>
@@ -99,7 +124,7 @@ function amenAmenCome(tableNumber) {
                     <td class="arabic">(قلت سآتي سريعًا آمين) x2</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_6">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_6">
                 <tr id="table_${tableNumber}_row_21" class="north">
                     <td class="english">Around our Groom there</td>
                     <td class="arabic">نسعد بشخصك</td>
@@ -117,7 +142,7 @@ function amenAmenCome(tableNumber) {
                     <td class="arabic">مع  جماعة  المفديين</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_7">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_7">
                 <tr id="table_${tableNumber}_row_25" class="refrain">
                     <td class="english">(We´re waiting for you</td>
                     <td class="arabic">(منتظرينك</td>
@@ -131,7 +156,7 @@ function amenAmenCome(tableNumber) {
                     <td class="arabic">(قلت سآتي سريعًا آمين) x2</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_8">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_8">
                 <tr id="table_${tableNumber}_row_28" class="north">
                     <td class="english">No more sorrow,</td>
                     <td class="arabic">ننسي اتعابنا</td>
@@ -149,7 +174,7 @@ function amenAmenCome(tableNumber) {
                     <td class="arabic">دوما  نكون  فرحانين</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_9">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_9">
                 <tr id="table_${tableNumber}_row_32" class="refrain">
                     <td class="english">(We´re waiting for you</td>
                     <td class="arabic">(منتظرينك</td>
@@ -163,7 +188,7 @@ function amenAmenCome(tableNumber) {
                     <td class="arabic">(قلت سآتي سريعًا آمين) x2</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_10">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_10">
                 <tr id="table_${tableNumber}_row_35" class="north">
                     <td class="english">There shall be no night,</td>
                     <td class="arabic">أشواق  قلوبنا</td>
@@ -187,11 +212,14 @@ function amenAmenCome(tableNumber) {
 }
 
 function beFaithfulUntoDeath(tableNumber) {
-    let html = `
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
         <table id="table_${tableNumber}" title="Be Faithful Unto Death">
             <caption class="caption" id="caption_table_${tableNumber}">Be Faithful Unto Death
             <span class="arabic-caption">كن أمينا إلى الموت</span></caption>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_0">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
                 <tr id="table_${tableNumber}_row_0" class="north">
                     <td class="english">He who overcomes shall eat,</td>
                     <td class="arabic">من يغلب سيأكل</td>
@@ -209,7 +237,7 @@ function beFaithfulUntoDeath(tableNumber) {
                     <td class="arabic">في وسط فردوس الله</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_1">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_1">
                 <tr id="table_${tableNumber}_row_4" class="refrain">
                     <td class="english">Be faithful unto death,</td>
                     <td class="arabic">كن أمينا إلى الموت</td>
@@ -235,7 +263,7 @@ function beFaithfulUntoDeath(tableNumber) {
                     <td class="arabic">من ينبوع ماء الحياة</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_2">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
                 <tr id="table_${tableNumber}_row_10" class="north">
                     <td class="english">He who overcomes and keeps</td>
                     <td class="arabic">من يغلب و يحفظ</td>
@@ -253,7 +281,7 @@ function beFaithfulUntoDeath(tableNumber) {
                     <td class="arabic">ليملك كل مالي</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_3">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
                 <tr id="table_${tableNumber}_row_14" class="refrain">
                     <td class="english">Be faithful unto death,</td>
                     <td class="arabic">كن أمينا إلى الموت</td>
@@ -279,7 +307,7 @@ function beFaithfulUntoDeath(tableNumber) {
                     <td class="arabic">من ينبوع ماء الحياة</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_4">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
                 <tr id="table_${tableNumber}_row_20" class="north">
                     <td class="english">He who overcomes shall not</td>
                     <td class="arabic">من يغلب اعترف</td>
@@ -297,7 +325,7 @@ function beFaithfulUntoDeath(tableNumber) {
                     <td class="arabic">ذاك الموت الثاني</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_5">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_5">
                 <tr id="table_${tableNumber}_row_24" class="refrain">
                     <td class="english">Be faithful unto death,</td>
                     <td class="arabic">كن أمينا إلى الموت</td>
@@ -323,7 +351,7 @@ function beFaithfulUntoDeath(tableNumber) {
                     <td class="arabic">من ينبوع ماء الحياة</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_6">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_6">
                 <tr id="table_${tableNumber}_row_30" class="north">
                     <td class="english">He who overcomes I will</td>
                     <td class="arabic">من يغلب فطوباه</td>
@@ -341,7 +369,7 @@ function beFaithfulUntoDeath(tableNumber) {
                     <td class="arabic">يوم مجد في السماء</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_7">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_7">
                 <tr id="table_${tableNumber}_row_34" class="refrain">
                     <td class="english">Be faithful unto death,</td>
                     <td class="arabic">كن أمينا إلى الموت</td>
@@ -377,12 +405,15 @@ function beFaithfulUntoDeath(tableNumber) {
 }
 
 function blessedAreYouOMary(tableNumber) { 
-    let html = `
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
     
-    <table id="${tableNumber}" title="Blessed are you Mary">
+    <table id="table_${tableNumber}" title="Blessed are you Mary">
         <caption id="caption_table_${tableNumber}" class="caption">Blessed are you Mary
         <span class="arabic-caption">طوباك يا مريم</span></caption>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_0">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
             <tr id="table_${tableNumber}_row_1" class="Refrain">
                 <td class="english">Blessed are you Mary</td>
                 <td class="enPhonicsSongs">Tobaki ya Mariam</td>
@@ -404,7 +435,7 @@ function blessedAreYouOMary(tableNumber) {
                 <td class="arabic">و شورية هارون</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_2">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
             <tr id="table_${tableNumber}_row_5" class="north">
                 <td class="english">Your glory O Mary</td>
                 <td class="enPhonicsSongs">Magdoki ya Mariam</td>
@@ -426,7 +457,7 @@ function blessedAreYouOMary(tableNumber) {
                 <td class="arabic">و أعطاك كل بهاء</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_3">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
             <tr id="table_${tableNumber}_row_9" class="refrain">
                 <td class="english">Blessed are you Mary</td>
                 <td class="enPhonicsSongs">Tobaki ya Mariam</td>
@@ -448,7 +479,7 @@ function blessedAreYouOMary(tableNumber) {
                 <td class="arabic">و شورية هارون</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_4">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
             <tr id="table_${tableNumber}_row_13" class="south">
                 <td class="english">Your glory O Mary</td>
                 <td class="enPhonicsSongs">Magdoki ya Mariam</td>
@@ -470,7 +501,7 @@ function blessedAreYouOMary(tableNumber) {
                 <td class="arabic">و أيضا على السيرافيم</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_5">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_5">
             <tr id="table_${tableNumber}_row_17" class="refrain">
                 <td class="english">Blessed are you Mary</td>
                 <td class="enPhonicsSongs">Tobaki ya Mariam</td>
@@ -492,7 +523,7 @@ function blessedAreYouOMary(tableNumber) {
                 <td class="arabic">و شورية هارون</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_6">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_6">
             <tr id="table_${tableNumber}_row_21" class="north">
                 <td class="english">Your glory O Mary</td>
                 <td class="enPhonicsSongs">Magdoki ya Mariam</td>
@@ -514,7 +545,7 @@ function blessedAreYouOMary(tableNumber) {
                 <td class="arabic">بك أعطانا الفداء</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_7">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_7">
             <tr id="table_${tableNumber}_row_25" class="refrain">
                 <td class="english">Blessed are you Mary</td>
                 <td class="enPhonicsSongs">Tobaki ya Mariam</td>
@@ -536,7 +567,7 @@ function blessedAreYouOMary(tableNumber) {
                 <td class="arabic">و شورية هارون</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_8">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_8">
             <tr id="table_${tableNumber}_row_29" class="south">
                 <td class="english">Your glory O Mary</td>
                 <td class="enPhonicsSongs">Magdoki ya Mariam</td>
@@ -558,7 +589,7 @@ function blessedAreYouOMary(tableNumber) {
                 <td class="arabic">أم الله الديان</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_9">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_9">
             <tr id="table_${tableNumber}_row_33" class="refrain">
                 <td class="english">Blessed are you Mary</td>
                 <td class="enPhonicsSongs">Tobaki ya Mariam</td>
@@ -586,12 +617,185 @@ function blessedAreYouOMary(tableNumber) {
     `;return html;
 }
 
+function shineBright(tableNumber) {
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
+
+    <table id="table_${tableNumber}" title="Shine Bright!">
+  <caption id="caption_table_${tableNumber}" class="caption">
+    Shine Bright!
+    <span class="arabic-caption">نوري يا كنيسة المسيح</span>
+  </caption>
+
+  <!-- Refrain -->
+  <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
+    <tr id="table_${tableNumber}_row_1" class="refrain">
+      <td class="english">Shine Bright! Shine Bright! Our church of Christ</td>
+      <td class="enPhonicsSongs">Nawari Nawari ya Kanisat el-Masih</td>
+      <td class="arabic">نورى نورى يا كنيسة المسيح</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_2" class="refrain">
+      <td class="english">Shine Bright! Shine Bright! Shine Bright!</td>
+      <td class="enPhonicsSongs">Nawari Nawari Nawari</td>
+      <td class="arabic">نورى نورى نورى</td>
+    </tr>
+  </tbody>
+
+  <!-- Verse 1 -->
+  <tbody ${tbodyClass} id="table_${tableNumber}_tbody_1">
+    <tr id="table_${tableNumber}_row_3" class="North">
+      <td class="english">In celebrating your Martyrs, the righteous and saints!</td>
+      <td class="enPhonicsSongs">Fi 3eed shohada’ik, 3eed shohada’ik al-abrar al-qaddisin</td>
+      <td class="arabic">في عيد شهدائك عيد شهدائك الابرار القديسين</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_4" class="North">
+      <td class="english">Shine Bright! Shine Bright! Shine Bright!</td>
+      <td class="enPhonicsSongs">Nawari Nawari Nawari</td>
+      <td class="arabic">نورى نورى نورى</td>
+    </tr>
+  </tbody>
+
+  <!-- Refrain -->
+  <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
+    <tr id="table_${tableNumber}_row_5" class="refrain">
+      <td class="english">Shine Bright! Shine Bright! Our church of Christ</td>
+      <td class="enPhonicsSongs">Nawari Nawari ya Kanisat el-Masih</td>
+      <td class="arabic">نورى نورى يا كنيسة المسيح</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_6" class="refrain">
+      <td class="english">Shine Bright! Shine Bright! Shine Bright!</td>
+      <td class="enPhonicsSongs">Nawari Nawari Nawari</td>
+      <td class="arabic">نورى نورى نورى</td>
+    </tr>
+  </tbody>
+
+  <!-- Verse 2 -->
+  <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
+    <tr id="table_${tableNumber}_row_7" class="South">
+      <td class="english">Their blood was shed for their faith in our God and savior</td>
+      <td class="enPhonicsSongs">El-dam sal lama sal anhar dam el-shohada</td>
+      <td class="arabic">الدم سال ياما سال انهار دم الشهداء</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_8" class="South">
+      <td class="english">Jesus Christ! Jesus Christ! Jesus Christ!</td>
+      <td class="enPhonicsSongs">Dam al-abrar, dam al-at-har, dam al-abtal</td>
+      <td class="arabic">دم الابرار دم الاطهار دم الابطال</td>
+    </tr>
+  </tbody>
+
+  <!-- Refrain -->
+  <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
+    <tr id="table_${tableNumber}_row_9" class="refrain">
+      <td class="english">Shine Bright! Shine Bright! Our church of Christ</td>
+      <td class="enPhonicsSongs">Nawari Nawari ya Kanisat el-Masih</td>
+      <td class="arabic">نورى نورى يا كنيسة المسيح</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_10" class="refrain">
+      <td class="english">Shine Bright! Shine Bright! Shine Bright!</td>
+      <td class="enPhonicsSongs">Nawari Nawari Nawari</td>
+      <td class="arabic">نورى نورى نورى</td>
+    </tr>
+  </tbody>
+
+  <!-- Verse 3 -->
+  <tbody ${tbodyClass} id="table_${tableNumber}_tbody_5">
+    <tr id="table_${tableNumber}_row_11" class="North">
+      <td class="english">In the Nayrouz, commemorating your saintly Martyrs!</td>
+      <td class="enPhonicsSongs">Fi el-Nayrouz el-Nayrouz zekra el-shohada al-qaddisin</td>
+      <td class="arabic">فى النيروز النيروز ذكرى الشهداء القديسين</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_12" class="North">
+      <td class="english">Shine Bright! Shine Bright! Shine Bright!</td>
+      <td class="enPhonicsSongs">Nawari Nawari Nawari</td>
+      <td class="arabic">نورى نورى نورى</td>
+    </tr>
+  </tbody>
+
+  <!-- Refrain -->
+  <tbody ${tbodyClass} id="table_${tableNumber}_tbody_6">
+    <tr id="table_${tableNumber}_row_13" class="refrain">
+      <td class="english">Shine Bright! Shine Bright! Our church of Christ</td>
+      <td class="enPhonicsSongs">Nawari Nawari ya Kanisat el-Masih</td>
+      <td class="arabic">نورى نورى يا كنيسة المسيح</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_14" class="refrain">
+      <td class="english">Shine Bright! Shine Bright! Shine Bright!</td>
+      <td class="enPhonicsSongs">Nawari Nawari Nawari</td>
+      <td class="arabic">نورى نورى نورى</td>
+    </tr>
+  </tbody>
+
+  <!-- Verse 4 -->
+  <tbody ${tbodyClass} id="table_${tableNumber}_tbody_7">
+    <tr id="table_${tableNumber}_row_15" class="South">
+      <td class="english">O God our Lord, keep us in your faith and in your love</td>
+      <td class="enPhonicsSongs">Ya Rabb e7faz lena imanena wa e7faz lena batrakena</td>
+      <td class="arabic">يا رب احفظ لينا ايمانا واحفظ لينا بطركنا</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_16" class="South">
+      <td class="english">Forever! and ever! and ever!</td>
+      <td class="enPhonicsSongs">Nawari Nawari Nawari</td>
+      <td class="arabic">نورى نورى نورى</td>
+    </tr>
+  </tbody>
+
+  <!-- Refrain -->
+  <tbody ${tbodyClass} id="table_${tableNumber}_tbody_8">
+    <tr id="table_${tableNumber}_row_17" class="refrain">
+      <td class="english">Shine Bright! Shine Bright! Our church of Christ</td>
+      <td class="enPhonicsSongs">Nawari Nawari ya Kanisat el-Masih</td>
+      <td class="arabic">نورى نورى يا كنيسة المسيح</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_18" class="refrain">
+      <td class="english">Shine Bright! Shine Bright! Shine Bright!</td>
+      <td class="enPhonicsSongs">Nawari Nawari Nawari</td>
+      <td class="arabic">نورى نورى نورى</td>
+    </tr>
+  </tbody>
+
+  <!-- Verse 5 -->
+  <tbody ${tbodyClass} id="table_${tableNumber}_tbody_9">
+    <tr id="table_${tableNumber}_row_19" class="North">
+      <td class="english">O God our Lord, protect our pope and our beloved church</td>
+      <td class="enPhonicsSongs">Ya Rabb e7faz lena imanena wa e7faz lena batrakena</td>
+      <td class="arabic">يا رب احفظ لينا ايمانا واحفظ لينا بطركنا</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_20" class="North">
+      <td class="english">Forever! and ever! and ever!</td>
+      <td class="enPhonicsSongs">Nawari Nawari Nawari</td>
+      <td class="arabic">نورى نورى نورى</td>
+    </tr>
+  </tbody>
+
+  <!-- Refrain -->
+  <tbody ${tbodyClass} id="table_${tableNumber}_tbody_10">
+    <tr id="table_${tableNumber}_row_21" class="refrain">
+      <td class="english">Shine Bright! Shine Bright! Our church of Christ</td>
+      <td class="enPhonicsSongs">Nawari Nawari ya Kanisat el-Masih</td>
+      <td class="arabic">نورى نورى يا كنيسة المسيح</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_22" class="refrain">
+      <td class="english">Shine Bright! Shine Bright! Shine Bright!</td>
+      <td class="enPhonicsSongs">Nawari Nawari Nawari</td>
+      <td class="arabic">نورى نورى نورى</td>
+    </tr>
+  </tbody>
+</table>
+
+    `;return html;
+}
+
 function dontLeaveMeAlone(tableNumber) {
-    let html = `
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
         <table id="table_${tableNumber}" title="Don't Leave Me Alone">
             <caption class="caption" id="caption_table_${tableNumber}">Don't Leave Me Alone
             <span class="arabic-caption">لا لا تتركني وحدي</span></caption>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_0">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
                 <tr id="table_${tableNumber}_row_0" class="north">
                     <td class="english">No don't leave me alone,</td>
                     <td class="arabic">لا لا تتركني وحدي</td>
@@ -609,7 +813,7 @@ function dontLeaveMeAlone(tableNumber) {
                     <td class="arabic">و سر معي يا معين</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_1">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_1">
                 <tr id="table_${tableNumber}_row_4" class="refrain">
                     <td class="english">I am o Lord without you nothing at all</td>
                     <td class="arabic">أنا يا رب دونك لا شئ أبدا</td>
@@ -627,7 +831,7 @@ function dontLeaveMeAlone(tableNumber) {
                     <td class="arabic">في طريقي دائما</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_2">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
                 <tr id="table_${tableNumber}_row_8" class="north">
                     <td class="english">And don't leave me alone,</td>
                     <td class="arabic">ولا تتركني وحدي</td>
@@ -645,7 +849,7 @@ function dontLeaveMeAlone(tableNumber) {
                     <td class="arabic">يا رب للسلام</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_3">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
                 <tr id="table_${tableNumber}_row_12" class="refrain">
                     <td class="english">I am o Lord without you nothing at all</td>
                     <td class="arabic">أنا يا رب دونك لا شئ أبدا</td>
@@ -663,7 +867,7 @@ function dontLeaveMeAlone(tableNumber) {
                     <td class="arabic">في طريقي دائما</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_4">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
                 <tr id="table_${tableNumber}_row_16" class="north">
                     <td class="english">And don't leave me alone,</td>
                     <td class="arabic">ولا تتركني وحدي</td>
@@ -681,7 +885,7 @@ function dontLeaveMeAlone(tableNumber) {
                     <td class="arabic">ربى كل حياتي</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_5">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_5">
                 <tr id="table_${tableNumber}_row_20" class="refrain">
                     <td class="english">I am o Lord without you nothing at all</td>
                     <td class="arabic">أنا يا رب دونك لا شئ أبدا</td>
@@ -699,7 +903,7 @@ function dontLeaveMeAlone(tableNumber) {
                     <td class="arabic">في طريقي دائما</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_6">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_6">
                 <tr id="table_${tableNumber}_row_24" class="north">
                     <td class="english">And don't leave me alone,</td>
                     <td class="arabic">ولا تتركني وحدي</td>
@@ -717,7 +921,7 @@ function dontLeaveMeAlone(tableNumber) {
                     <td class="arabic">إن زلت قدمي</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_7">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_7">
                 <tr id="table_${tableNumber}_row_28" class="refrain">
                     <td class="english">I am o Lord without you nothing at all</td>
                     <td class="arabic">أنا يا رب دونك لا شئ أبدا</td>
@@ -735,7 +939,7 @@ function dontLeaveMeAlone(tableNumber) {
                     <td class="arabic">في طريقي دائما</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_8">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_8">
                 <tr id="table_${tableNumber}_row_32" class="north">
                     <td class="english">No don't leave me alone,</td>
                     <td class="arabic">و لا تتركني وحدي</td>
@@ -753,7 +957,7 @@ function dontLeaveMeAlone(tableNumber) {
                     <td class="arabic">وخذني للسما</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_9">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_9">
                 <tr id="table_${tableNumber}_row_36" class="refrain">
                     <td class="english">I am o Lord without you nothing at all</td>
                     <td class="arabic">أنا يا رب دونك لا شئ أبدا</td>
@@ -777,12 +981,15 @@ function dontLeaveMeAlone(tableNumber) {
 }
 
 function drawAPortraitOfTheVirgin(tableNumber) { 
-    let html = `
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
     
-    <table id="${tableNumber}" title="Draw a portrait of the Virgin">
+    <table id="table_${tableNumber}" title="Draw a portrait of the Virgin">
         <caption id="caption_table_${tableNumber}" class="caption">Draw a portrait of the Virgin
         <span class="arabic-caption">ارسموا للعذراء صوره</span></caption>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_0">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
             <tr id="table_${tableNumber}_row_1" class="North">
                 <td class="english">Draw a portrait of the Virgin,</td>
                 <td class="enPhonicsSongs">Ersemo lel3adra soora</td>
@@ -804,7 +1011,7 @@ function drawAPortraitOfTheVirgin(tableNumber) {
                 <td class="arabic">قدموا لها التسابيح</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_2">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
             <tr id="table_${tableNumber}_row_5" class="south">
                 <td class="english">Draw a portrait of the Virgin,</td>
                 <td class="enPhonicsSongs">Ersemo lel3adra soora</td>
@@ -826,7 +1033,7 @@ function drawAPortraitOfTheVirgin(tableNumber) {
                 <td class="arabic">العذراء نبع الحنان</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_3">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
             <tr id="table_${tableNumber}_row_9" class="refrain">
                 <td class="english">Draw a portrait of the Virgin,</td>
                 <td class="enPhonicsSongs">Ersemo lel3adra soora</td>
@@ -848,7 +1055,7 @@ function drawAPortraitOfTheVirgin(tableNumber) {
                 <td class="arabic">ده ابنها عنا اتصلب</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_4">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
             <tr id="table_${tableNumber}_row_13" class="north">
                 <td class="english">Draw a portrait of the Virgin,</td>
                 <td class="enPhonicsSongs">Ersemo lel3adra soora</td>
@@ -870,7 +1077,7 @@ function drawAPortraitOfTheVirgin(tableNumber) {
                 <td class="arabic">ده ابنها اللي داس الموت</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_5">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_5">
             <tr id="table_${tableNumber}_row_17" class="south">
                 <td class="english">Draw a portrait of the Virgin,</td>
                 <td class="enPhonicsSongs">Ersemo lel3adra soora</td>
@@ -892,7 +1099,7 @@ function drawAPortraitOfTheVirgin(tableNumber) {
                 <td class="arabic">ده ابنها هو الطريق</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_6">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_6">
             <tr id="table_${tableNumber}_row_21" class="refrain">
                 <td class="english">Draw a portrait of the Virgin,</td>
                 <td class="enPhonicsSongs">Ersemo lel3adra soora</td>
@@ -914,7 +1121,7 @@ function drawAPortraitOfTheVirgin(tableNumber) {
                 <td class="arabic">ده ابنها عنا اتصلب</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_7">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_7">
             <tr id="table_${tableNumber}_row_25" class="north">
                 <td class="english">Draw a portrait of the Virgin,</td>
                 <td class="enPhonicsSongs">Ersemo lel3adra soora</td>
@@ -936,7 +1143,7 @@ function drawAPortraitOfTheVirgin(tableNumber) {
                 <td class="arabic">نور ايماننا يبقى ظاهر</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_8">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_8">
             <tr id="table_${tableNumber}_row_29" class="south">
                 <td class="english">Draw a portrait of the Virgin,</td>
                 <td class="enPhonicsSongs">Ersemo lel3adra soora</td>
@@ -958,7 +1165,7 @@ function drawAPortraitOfTheVirgin(tableNumber) {
                 <td class="arabic">دي ام ملك الدهور</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_9">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_9">
             <tr id="table_${tableNumber}_row_33" class="refrain">
                 <td class="english">Draw a portrait of the Virgin,</td>
                 <td class="enPhonicsSongs">Ersemo lel3adra soora</td>
@@ -980,7 +1187,7 @@ function drawAPortraitOfTheVirgin(tableNumber) {
                 <td class="arabic">ده ابنها عنا اتصلب</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_10">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_10">
             <tr id="table_${tableNumber}_row_37" class="north">
                 <td class="english">Draw a portrait of the Virgin,</td>
                 <td class="enPhonicsSongs">Ersemo lel3adra soora</td>
@@ -1002,7 +1209,7 @@ function drawAPortraitOfTheVirgin(tableNumber) {
                 <td class="arabic">الشيطان يهرب مغتاظ</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_11">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_11">
             <tr id="table_${tableNumber}_row_41" class="south">
                 <td class="english">Draw a portrait of the Virgin,</td>
                 <td class="enPhonicsSongs">Ersemo lel3adra soora</td>
@@ -1024,7 +1231,7 @@ function drawAPortraitOfTheVirgin(tableNumber) {
                 <td class="arabic">دي ام رب الارباب</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_12">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_12">
             <tr id="table_${tableNumber}_row_45" class="refrain">
                 <td class="english">Draw a portrait of the Virgin,</td>
                 <td class="enPhonicsSongs">Ersemo lel3adra soora</td>
@@ -1046,7 +1253,7 @@ function drawAPortraitOfTheVirgin(tableNumber) {
                 <td class="arabic">ده ابنها عنا اتصلب</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_13">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_13">
             <tr id="table_${tableNumber}_row_49" class="south">
                 <td class="english">Draw a portrait of the Virgin,</td>
                 <td class="enPhonicsSongs">Ersemo lel3adra soora</td>
@@ -1068,7 +1275,7 @@ function drawAPortraitOfTheVirgin(tableNumber) {
                 <td class="arabic">دي العذراء نور العيون</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_14">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_14">
             <tr id="table_${tableNumber}_row_53" class="south">
                 <td class="english">Draw a portrait of the Virgin,</td>
                 <td class="enPhonicsSongs">Ersemo lel3adra soora</td>
@@ -1090,7 +1297,7 @@ function drawAPortraitOfTheVirgin(tableNumber) {
                 <td class="arabic">دي ام الالف والياء</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_15">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_15">
             <tr id="table_${tableNumber}_row_57" class="refrain">
                 <td class="english">Draw a portrait of the Virgin,</td>
                 <td class="enPhonicsSongs">Ersemo lel3adra soora</td>
@@ -1119,12 +1326,15 @@ function drawAPortraitOfTheVirgin(tableNumber) {
 }
 
 function hailToYouOMotherOfComfort(tableNumber) { 
-    let html = `
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
     
-    <table id="${tableNumber}" title="Hail to you O Mother of Comfort">
+    <table id="table_${tableNumber}" title="Hail to you O Mother of Comfort">
         <caption id="caption_table_${tableNumber}" class="caption">Hail to you O Mother of Comfort
         <span class="arabic-caption">سلامنا إليك يا أم المعونه</span></caption>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_0">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
             <tr id="table_${tableNumber}_row_1" class="Refrain">
                 <td class="english">Hail to you O Mother of Comfort</td>
                 <td class="enPhonicsSongs">Salamna elekee ya om el ma3oona</td>
@@ -1146,7 +1356,7 @@ function hailToYouOMotherOfComfort(tableNumber) {
                 <td class="arabic">ونلجأ إليك عشان تنجدينا</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_1">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_1">
             <tr id="table_${tableNumber}_row_5" class="north">
                 <td class="english">Who among the people whose heart is more merciful</td>
                 <td class="enPhonicsSongs">Meen fel bashar albo a7ane 3alena</td>
@@ -1168,7 +1378,7 @@ function hailToYouOMotherOfComfort(tableNumber) {
                 <td class="arabic">و يحزن إذا الحزن جه نواحينا</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_2">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
             <tr id="table_${tableNumber}_row_9" class="south">
                 <td class="english">Matthias the Lord's apostle during his imprisonment</td>
                 <td class="enPhonicsSongs">We metias rasool elmasee7 wa’t segno</td>
@@ -1190,7 +1400,7 @@ function hailToYouOMotherOfComfort(tableNumber) {
                 <td class="arabic">شفاعتك جابت له سلامه وأمنه</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_3">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
             <tr id="table_${tableNumber}_row_13" class="north">
                 <td class="english">He asked for your intercession our father Anba Abraam ibn Zaraa</td>
                 <td class="enPhonicsSongs">Tadara3 elekee abouna ebn zar3a</td>
@@ -1212,7 +1422,7 @@ function hailToYouOMotherOfComfort(tableNumber) {
                 <td class="arabic">بآيه لها في التاريخ أي روعة</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_4">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
             <tr id="table_${tableNumber}_row_17" class="south">
                 <td class="english">At the church of Zeitun you blessed us</td>
                 <td class="enPhonicsSongs">We lamma kona fee keneeset elzatoon barekteena</td>
@@ -1242,12 +1452,15 @@ function hailToYouOMotherOfComfort(tableNumber) {
 
 
 function hailToMary(tableNumber) { 
-    let html = `
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
     
-    <table id="${tableNumber}" title="Hail to Mary">
+    <table id="table_${tableNumber}" title="Hail to Mary">
         <caption id="caption_table_${tableNumber}" class="caption">Hail to Mary
         <span class="arabic-caption">مجد مريم يتعظم</span></caption>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_0">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
             <tr id="table_${tableNumber}_row_1" class="Refrain">
                 <td class="english">Hail to Mary, Mother of God.</td>
                 <td class="enPhonicsSongs">Magdo Mariam yata3azam</td>
@@ -1269,7 +1482,7 @@ function hailToMary(tableNumber) {
                 <td class="arabic">ملكوها في القلوب</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_2">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
             <tr id="table_${tableNumber}_row_5" class="north">
                 <td class="english">She has born unto us,</td>
                 <td class="enPhonicsSongs">Qad talalat wa ta3alat</td>
@@ -1291,7 +1504,7 @@ function hailToMary(tableNumber) {
                 <td class="arabic">فلتطوبني الشعوب</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_3">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
             <tr id="table_${tableNumber}_row_9" class="refrain">
                 <td class="english">Hail to Mary, Mother of God.</td>
                 <td class="enPhonicsSongs">Magdo Mariam yata3azam</td>
@@ -1313,7 +1526,7 @@ function hailToMary(tableNumber) {
                 <td class="arabic">ملكوها في القلوب</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_4">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
             <tr id="table_${tableNumber}_row_13" class="south">
                 <td class="english">She's the lady and the Virgin,</td>
                 <td class="enPhonicsSongs">Qad ra’aha wa’stafaha</td>
@@ -1335,7 +1548,7 @@ function hailToMary(tableNumber) {
                 <td class="arabic">كل محظور يشين</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_5">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_5">
             <tr id="table_${tableNumber}_row_17" class="refrain">
                 <td class="english">Hail to Mary, Mother of God.</td>
                 <td class="enPhonicsSongs">Magdo Mariam yata3azam</td>
@@ -1357,7 +1570,7 @@ function hailToMary(tableNumber) {
                 <td class="arabic">ملكوها في القلوب</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_6">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_6">
             <tr id="table_${tableNumber}_row_21" class="north">
                 <td class="english">She is famous and well known,</td>
                 <td class="enPhonicsSongs">Heyya ragakom fee shaqakom</td>
@@ -1379,7 +1592,7 @@ function hailToMary(tableNumber) {
                 <td class="arabic">لحماها طالبين</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_7">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_7">
             <tr id="table_${tableNumber}_row_25" class="refrain">
                 <td class="english">Hail to Mary, Mother of God.</td>
                 <td class="enPhonicsSongs">Magdo Mariam yata3azam</td>
@@ -1401,7 +1614,7 @@ function hailToMary(tableNumber) {
                 <td class="arabic">ملكوها في القلوب</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_8">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_8">
             <tr id="table_${tableNumber}_row_29" class="south">
                 <td class="english">Please O Mary, pray for us</td>
                 <td class="enPhonicsSongs">Heya to3raf wahya toosaf</td>
@@ -1423,7 +1636,7 @@ function hailToMary(tableNumber) {
                 <td class="arabic">لمعونتكم تميل</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_9">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_9">
             <tr id="table_${tableNumber}_row_33" class="refrain">
                 <td class="english">Hail to Mary, Mother of God.</td>
                 <td class="enPhonicsSongs">Magdo Mariam yata3azam</td>
@@ -1445,7 +1658,7 @@ function hailToMary(tableNumber) {
                 <td class="arabic">ملكوها في القلوب</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_10">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_10">
             <tr id="table_${tableNumber}_row_37" class="north">
                 <td class="english"></td>
                 <td class="enPhonicsSongs">Ozkoreena wanzoreena</td>
@@ -1467,7 +1680,7 @@ function hailToMary(tableNumber) {
                 <td class="arabic">بين صف العابدين</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_11">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_11">
             <tr id="table_${tableNumber}_row_41" class="refrain">
                 <td class="english">Hail to Mary, Mother of God.</td>
                 <td class="enPhonicsSongs">Magdo Mariam yata3azam</td>
@@ -1489,7 +1702,7 @@ function hailToMary(tableNumber) {
                 <td class="arabic">ملكوها في القلوب</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_12">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_12">
             <tr id="table_${tableNumber}_row_45" class="south">
                 <td class="english"></td>
                 <td class="enPhonicsSongs">Engedeena wa’rshedeena</td>
@@ -1511,7 +1724,7 @@ function hailToMary(tableNumber) {
                 <td class="arabic">لإبنك حسن الوداد</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_13">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_13">
             <tr id="table_${tableNumber}_row_49" class="refrain">
                 <td class="english">Hail to Mary, Mother of God.</td>
                 <td class="enPhonicsSongs">Magdo Mariam yata3azam</td>
@@ -1533,7 +1746,7 @@ function hailToMary(tableNumber) {
                 <td class="arabic">ملكوها في القلوب</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_14">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_14">
             <tr id="table_${tableNumber}_row_53" class="north">
                 <td class="english"></td>
                 <td class="enPhonicsSongs">La tamallee an tosallee</td>
@@ -1555,7 +1768,7 @@ function hailToMary(tableNumber) {
                 <td class="arabic">إنك الملجأ الأمين</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_15">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_15">
             <tr id="table_${tableNumber}_row_57" class="refrain">
                 <td class="english">Hail to Mary, Mother of God.</td>
                 <td class="enPhonicsSongs">Magdo Mariam yata3azam</td>
@@ -1577,7 +1790,7 @@ function hailToMary(tableNumber) {
                 <td class="arabic">ملكوها في القلوب</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_16">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_16">
             <tr id="table_${tableNumber}_row_61" class="south">
                 <td class="english"></td>
                 <td class="enPhonicsSongs">Thomma nas’al ‘an no’ahal</td>
@@ -1599,7 +1812,7 @@ function hailToMary(tableNumber) {
                 <td class="arabic">مدحك علي الدوام</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_17">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_17">
             <tr id="table_${tableNumber}_row_65" class="refrain">
                 <td class="english">Hail to Mary, Mother of God.</td>
                 <td class="enPhonicsSongs">Magdo Mariam yata3azam</td>
@@ -1628,12 +1841,15 @@ function hailToMary(tableNumber) {
 }
 
 function howSweetAreYouOMary(tableNumber) { 
-    let html = `
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
     
-    <table id="${tableNumber}" title="How Sweet You Are O Mary">
+    <table id="table_${tableNumber}" title="How Sweet You Are O Mary">
         <caption id="caption_table_${tableNumber}" class="caption">How Sweet You Are O Mary
         <span class="arabic-caption">ما أحلاكِ يا مريم ما أحلاك</span></caption>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_0">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
             <tr id="table_${tableNumber}_row_1" class="Refrain">
                 <td class="english">How sweet you are O Mary.</td>
                 <td class="enPhonicsSongs">Ma7laki ya mariam ma7laki</td>
@@ -1655,7 +1871,7 @@ function howSweetAreYouOMary(tableNumber) {
                 <td class="arabic">طوباكِ يا مريم طوباكِ (2)</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_1">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_1">
             <tr id="table_${tableNumber}_row_5" class="north">
                 <td class="english">You carried the redeemer of the world.</td>
                 <td class="enPhonicsSongs">7amalti fadi elbashareya</td>
@@ -1677,7 +1893,7 @@ function howSweetAreYouOMary(tableNumber) {
                 <td class="arabic">طوباكِ يا مريم طوباكِ (2)</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_2">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
             <tr id="table_${tableNumber}_row_9" class="refrain">
                 <td class="english">How sweet you are O Mary.</td>
                 <td class="enPhonicsSongs">Ma7laki ya mariam ma7laki</td>
@@ -1699,7 +1915,7 @@ function howSweetAreYouOMary(tableNumber) {
                 <td class="arabic">طوباكِ يا مريم طوباكِ (2)</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_3">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
             <tr id="table_${tableNumber}_row_13" class="south">
                 <td class="english">You became the mother of your creator.</td>
                 <td class="enPhonicsSongs">Konti oman lefadiki</td>
@@ -1721,7 +1937,7 @@ function howSweetAreYouOMary(tableNumber) {
                 <td class="arabic">طوباكِ يا مريم طوباكِ (2)</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_4">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
             <tr id="table_${tableNumber}_row_17" class="refrain">
                 <td class="english">How sweet you are O Mary.</td>
                 <td class="enPhonicsSongs">Ma7laki ya mariam ma7laki</td>
@@ -1743,7 +1959,7 @@ function howSweetAreYouOMary(tableNumber) {
                 <td class="arabic">طوباكِ يا مريم طوباكِ (2)</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_5">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_5">
             <tr id="table_${tableNumber}_row_21" class="north">
                 <td class="english">Ask and intercede for us O Virgin</td>
                 <td class="enPhonicsSongs">Otlobi wa eshfa3i fina ya 3adra</td>
@@ -1765,7 +1981,7 @@ function howSweetAreYouOMary(tableNumber) {
                 <td class="arabic">طوباكِ يا مريم طوباكِ (2)</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_6">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_6">
             <tr id="table_${tableNumber}_row_25" class="refrain">
                 <td class="english">How sweet you are O Mary.</td>
                 <td class="enPhonicsSongs">Ma7laki ya mariam ma7laki</td>
@@ -1787,7 +2003,7 @@ function howSweetAreYouOMary(tableNumber) {
                 <td class="arabic">طوباكِ يا مريم طوباكِ (2)</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_7">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_7">
             <tr id="table_${tableNumber}_row_29" class="south">
                 <td class="english">You are a treasure of grace, O my mother the Virgin.</td>
                 <td class="enPhonicsSongs">Kanz el ne3ma ‘omy ya 3adra</td>
@@ -1809,7 +2025,7 @@ function howSweetAreYouOMary(tableNumber) {
                 <td class="arabic">طوباكِ يا مريم طوباكِ (2)</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_8">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_8">
             <tr id="table_${tableNumber}_row_33" class="refrain">
                 <td class="english">How sweet you are O Mary.</td>
                 <td class="enPhonicsSongs">Ma7laki ya mariam ma7laki</td>
@@ -1839,11 +2055,14 @@ function howSweetAreYouOMary(tableNumber) {
 
 function iCanHearMySaviorCalling(tableNumber) {
 
-    let html = `
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
         <table id="table_${tableNumber}" title="I Can Hear My Savior Calling">
             <caption class="caption" id="caption_table_${tableNumber}">I Can Hear My Savior Calling
             <span class="arabic-caption">حيث قادنى اسير</span></caption>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_0">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
                 <tr id="table_${tableNumber}_row_0" class="north">
                     <td class="english">I can hear my Savior calling</td>
                 </tr>
@@ -1851,7 +2070,7 @@ function iCanHearMySaviorCalling(tableNumber) {
                     <td class="english">Take the cross and follow, follow me.</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_1">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_1">
                 <tr id="table_${tableNumber}_row_2" class="south">
                     <td class="english">Where He leads me I will follow</td>
                     <td class="arabic">حيث قادنى اسير</td>
@@ -1861,7 +2080,7 @@ function iCanHearMySaviorCalling(tableNumber) {
                     <td class="arabic">أمشى معك دوماً كل حين.</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_2">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
                 <tr id="table_${tableNumber}_row_4" class="north">
                     <td class="english">If He leads me to crucifixion</td>
                     <td class="arabic">ولو قادنى للصلب</td>
@@ -1871,7 +2090,7 @@ function iCanHearMySaviorCalling(tableNumber) {
                     <td class="arabic">أمشى معك دوماً كل حين.</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_3">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
                 <tr id="table_${tableNumber}_row_6" class="south">
                     <td class="english">If He leads me to the judgment</td>
                     <td class="arabic">ولو إلى جثمانى</td>
@@ -1881,7 +2100,7 @@ function iCanHearMySaviorCalling(tableNumber) {
                     <td class="arabic">أمشى معك دوماً كل حين.</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_4">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
                 <tr id="table_${tableNumber}_row_8" class="north">
                     <td class="english">If in war or in peace</td>
                     <td class="arabic"> أن فى حرب أم سلام</td>
@@ -1891,7 +2110,7 @@ function iCanHearMySaviorCalling(tableNumber) {
                     <td class="arabic">أمشى معك دوماً كل حين.</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_5">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_5">
                 <tr id="table_${tableNumber}_row_10" class="south">
                     <td class="english">If in health or in sickness</td>
                     <td class="arabic">فى صحه ام سقام</td>
@@ -1901,7 +2120,7 @@ function iCanHearMySaviorCalling(tableNumber) {
                     <td class="arabic">أمشى معك دوماً كل حين.</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_6">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_6">
                 <tr id="table_${tableNumber}_row_12" class="north">
                     <td class="english">If I am beaten or afflicted</td>
                     <td class="arabic">لو ضربت او اوهنت</td>
@@ -1911,7 +2130,7 @@ function iCanHearMySaviorCalling(tableNumber) {
                     <td class="arabic">أمشى معك دوماً كل حين.</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_7">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_7">
                 <tr id="table_${tableNumber}_row_14" class="south">
                     <td class="english">If in jail or in chains</td>
                     <td class="arabic">لو سجنت او رجمت</td>
@@ -1921,7 +2140,7 @@ function iCanHearMySaviorCalling(tableNumber) {
                     <td class="arabic">أمشى معك دوماً كل حين.</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_8">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_8">
                 <tr id="table_${tableNumber}_row_16" class="north">
                     <td class="english">He will lead me to grace and glory</td>
                     <td class="arabic">سيقودنى للظفر</td>
@@ -1931,7 +2150,7 @@ function iCanHearMySaviorCalling(tableNumber) {
                     <td class="arabic">أمشى معك دوماً كل حين.</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_9">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_9">
                 <tr id="table_${tableNumber}_row_18" class="south">
                     <td class="arabic">ويأخذنى للمجد</td>
                 </tr>
@@ -1939,7 +2158,7 @@ function iCanHearMySaviorCalling(tableNumber) {
                     <td class="arabic">أمشى معك دوماً كل حين.</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_10">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_10">
                 <tr id="table_${tableNumber}_row_20" class="refrain">
                     <td class="arabic">ربى اجذبنى ورائك</td>
                 </tr>
@@ -1953,12 +2172,15 @@ return html;
 }
 
 function inTheShadeOfYourProtection(tableNumber) { 
-    let html = `
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
     
-    <table id="${tableNumber}" title="In the Shade of Your Protection">
+    <table id="table_${tableNumber}" title="In the Shade of Your Protection">
         <caption id="caption_table_${tableNumber}" class="caption">In the Shade of Your Protection
         <span class="arabic-caption">في ظل حمايتك</span></caption>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_0">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
             <tr id="table_${tableNumber}_row_1" class="Refrain">
                 <td class="english">In the shade of your protection</td>
                 <td class="enPhonicsSongs">Fee zel 7emayateki</td>
@@ -1980,7 +2202,7 @@ function inTheShadeOfYourProtection(tableNumber) {
                 <td class="arabic">عندما ندعوك</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_2">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
             <tr id="table_${tableNumber}_row_5" class="north">
                 <td class="english">O the pride of the human race,</td>
                 <td class="enPhonicsSongs">Ya fakhr albaraya</td>
@@ -2002,7 +2224,7 @@ function inTheShadeOfYourProtection(tableNumber) {
                 <td class="arabic">فى الدنيا جَرَى</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_3">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
             <tr id="table_${tableNumber}_row_9" class="refrain">
                 <td class="english">In the shade of your protection</td>
                 <td class="enPhonicsSongs">Fee zel 7emayateki</td>
@@ -2024,7 +2246,7 @@ function inTheShadeOfYourProtection(tableNumber) {
                 <td class="arabic">عندما ندعوك</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_4">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
             <tr id="table_${tableNumber}_row_13" class="south">
                 <td class="english">O you gate of heaven,</td>
                 <td class="enPhonicsSongs">Ya bab alsama</td>
@@ -2046,7 +2268,7 @@ function inTheShadeOfYourProtection(tableNumber) {
                 <td class="arabic">يا أحلى نِداء</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_5">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_5">
             <tr id="table_${tableNumber}_row_17" class="refrain">
                 <td class="english">In the shade of your protection</td>
                 <td class="enPhonicsSongs">Fee zel 7emayateki</td>
@@ -2068,7 +2290,7 @@ function inTheShadeOfYourProtection(tableNumber) {
                 <td class="arabic">عندما ندعوك</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_6">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_6">
             <tr id="table_${tableNumber}_row_21" class="north">
                 <td class="english">Intercede for your people.</td>
                 <td class="enPhonicsSongs">Eshfa3i fi sha3bek</td>
@@ -2090,7 +2312,7 @@ function inTheShadeOfYourProtection(tableNumber) {
                 <td class="arabic">بروحِ البنينَ</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_7">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_7">
             <tr id="table_${tableNumber}_row_25" class="refrain">
                 <td class="english">In the shade of your protection</td>
                 <td class="enPhonicsSongs">Fee zel 7emayateki</td>
@@ -2112,7 +2334,7 @@ function inTheShadeOfYourProtection(tableNumber) {
                 <td class="arabic">عندما ندعوك</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_8">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_8">
             <tr id="table_${tableNumber}_row_29" class="south">
                 <td class="english">Have mercy on your servants</td>
                 <td class="enPhonicsSongs">Er7ami 3abidan</td>
@@ -2134,7 +2356,7 @@ function inTheShadeOfYourProtection(tableNumber) {
                 <td class="arabic">منكِ كُلَ حيِنٍ</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_9">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_9">
             <tr id="table_${tableNumber}_row_33" class="refrain">
                 <td class="english">In the shade of your protection</td>
                 <td class="enPhonicsSongs">Fee zel 7emayateki</td>
@@ -2162,12 +2384,428 @@ function inTheShadeOfYourProtection(tableNumber) {
     `;return html;
 }
 
+function myCopticChurch(tableNumber) { 
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
+    
+    <table id="table_${tableNumber}" title="My Coptic Church">
+        <caption id="caption_table_${tableNumber}" class="caption">My Coptic Church
+        <span class="arabic-caption">كنيستي القبطية</span></caption>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
+            <tr id="table_${tableNumber}_row_1" class="North">
+                <td class="english">My Coptic Church. The church of the Lord</td>
+                <td class="enPhonicsSongs">Kaneesati el qebteya, kaneesatol elah</td>
+                <td class="arabic">كنيستي القبطية كنيسة الإله</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_2" class="North">
+                <td class="english">Ancient and Strong, I wish her long life</td>
+                <td class="enPhonicsSongs">Qadeematon qaweya, argo laha al7aya</td>
+                <td class="arabic">قديمة قوية أرجو لها الحياة</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_3" class="North">
+                <td class="english">In the early years, After the birth of Christ</td>
+                <td class="enPhonicsSongs">Fi ‘awal el 3esoor, lemawled el masee7</td>
+                <td class="arabic">في أول العصور لمولد المسيح</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_4" class="North">
+                <td class="english">St. Mark came bearing, The light of the true faith</td>
+                <td class="enPhonicsSongs">Morqos ‘ata benoor, ‘eemanahol sa7ee7</td>
+                <td class="arabic">مر قس أتى بنور إيمانه الصحيح</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_5" class="North">
+                <td class="english">He dwelt in the land, proclaiming salvation</td>
+                <td class="enPhonicsSongs">Wa 7alla fel belade, yonadee bel khalas</td>
+                <td class="arabic">و جال في البلاد ينادى بالخلاص</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_6" class="North">
+                <td class="english">In the name of our Redeemer, Christ who removed our sins</td>
+                <td class="enPhonicsSongs">Besmel masee7 el fadi, man yarfa3ol qasas</td>
+                <td class="arabic">بإسم المسيح الفادى من يرفع القصاص</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_1">
+            <tr id="table_${tableNumber}_row_7" class="south">
+                <td class="english">The Copts then believed, in the Lord Jesus</td>
+                <td class="enPhonicsSongs">Fa’aman al aqbato berabena yasoo3</td>
+                <td class="arabic">فآمن الأقباط بربنا يسوع</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_8" class="south">
+                <td class="english">And Joy filled all the cities of Egypt</td>
+                <td class="enPhonicsSongs">Wa 7al aleghtebato, fi kafat elreboo3</td>
+                <td class="arabic">و حل الاغتباط في كافة الربوع</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_9" class="south">
+                <td class="english">In a very very short time, He abolished all idols</td>
+                <td class="enPhonicsSongs">Fi ‘amaden qareeb, qad 7attamol awthan</td>
+                <td class="arabic">في أمد قريب قد حطموا الأوثان</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_10" class="south">
+                <td class="english">The cross was exalted, the sign of the faith</td>
+                <td class="enPhonicsSongs">Wartafa3al saleeb, warayat al’eeman</td>
+                <td class="arabic">و ارتفع الصليب و راية الإيمان</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_11" class="south">
+                <td class="english">Satan quickly rose, to war the Son of God</td>
+                <td class="enPhonicsSongs">Ebleeso 7alan qama, yo7areb ebn allah</td>
+                <td class="arabic">إبليس حالا قام يحارب ابن الله</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_12" class="south">
+                <td class="english">He stirred the rulers, emperors and armies</td>
+                <td class="enPhonicsSongs">Fahayagal 7okkama, walgonda wal wolah</td>
+                <td class="arabic">فهيج الحكام و الجند و الولاة</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
+            <tr id="table_${tableNumber}_row_13" class="north">
+                <td class="english">He then declared war, on the sons of the faith</td>
+                <td class="enPhonicsSongs">Fa ‘ash harol sela7a, 3ala bani eleeman</td>
+                <td class="arabic">فأشهروا السلاح على بنى الإيمان</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_14" class="north">
+                <td class="english">Deny your Christ, or be thrown in the fire</td>
+                <td class="enPhonicsSongs">Hayya enkerol masee7a, aw tolqo fel neeran</td>
+                <td class="arabic">هيا انكروا المسيح أو تلقوا في النيران</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_15" class="north">
+                <td class="english">Our honored fathers, elders and youngsters</td>
+                <td class="enPhonicsSongs">‘aba’onal keram, kebaron ma3 seghar</td>
+                <td class="arabic">آباؤنا الكرام كبار مع صغار</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_16" class="north">
+                <td class="english">Were not moved by pain, distress nor dishonor</td>
+                <td class="enPhonicsSongs">Lam yothnehem ‘alam, wa shedaten wa 3ar</td>
+                <td class="arabic">لم يثنهم آلام و شدة و عار</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_17" class="north">
+                <td class="english">But said courageously, forward no turning back</td>
+                <td class="enPhonicsSongs">Balqalo bentesaren, lelkhalfe la regoo3</td>
+                <td class="arabic">بل قالوا بانتصار للخلف لا رجوع</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_18" class="north">
+                <td class="english">We don't fear fire, Our Lord is Jesus Christ</td>
+                <td class="enPhonicsSongs">La nagza3o men naren, elahona yasoo3</td>
+                <td class="arabic">لا نجزع من نار إلهنا يسوع</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
+            <tr id="table_${tableNumber}_row_19" class="south">
+                <td class="english">They were beaten and imprisoned, they lived in oppression</td>
+                <td class="enPhonicsSongs">Kam dorebo kam sogeno, kam 3asho fekte’ab</td>
+                <td class="arabic">كم ضربوا كم سجنوا كم عاشوا في اكتئاب</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_20" class="south">
+                <td class="english">They were burned and killed, and tasted every pain</td>
+                <td class="enPhonicsSongs">Kam qotelo kam 7oreqo, kam zaqo men 3azab</td>
+                <td class="arabic">كم قتلوا كم حرقوا كم ذاقوا من عذاب</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_21" class="south">
+                <td class="english">By the power of their faith, they overcame their pains</td>
+                <td class="enPhonicsSongs">Beqowatel yaqeen, qad ghalabol ‘alam</td>
+                <td class="arabic">بقوة اليقين قد غلبوا الآلام</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_22" class="south">
+                <td class="english">And remained believing in, the King of Peace</td>
+                <td class="enPhonicsSongs">Wa damo thabeteen, fee malekel salam</td>
+                <td class="arabic">و داموا ثابتين في ملك السلام</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_23" class="south">
+                <td class="english">With blood and suffering, they bought the faith</td>
+                <td class="enPhonicsSongs">Beldamme wal3ana’, qad eshtarol eeman</td>
+                <td class="arabic">بالدم و العناء قد اشتروا الإيمان</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_24" class="south">
+                <td class="english">And preserved it for us, in the name of Our Savior</td>
+                <td class="enPhonicsSongs">Wa ’e7tafazo lana, be’smel fadeel ra7man</td>
+                <td class="arabic">و احتفظوا لنا بإسم الفادي الرحمن</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
+            <tr id="table_${tableNumber}_row_25" class="north">
+                <td class="english">Let us all rise, from our laziness</td>
+                <td class="enPhonicsSongs">Haya bena naqoom, men shedatel kasal</td>
+                <td class="arabic">هيا بنا نقوم من شدة الكسل</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_26" class="north">
+                <td class="english">With diligence seeking, the heavenly rewards</td>
+                <td class="enPhonicsSongs">Wa lel3ola naroom, wa nas3a bel3agal</td>
+                <td class="arabic">و للعلى نروم و نسعى بالعجل</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_27" class="north">
+                <td class="english">The Church of the Fathers, you are our pride</td>
+                <td class="enPhonicsSongs">Kaneesatel ‘aba’e, ‘anti eftekharona</td>
+                <td class="arabic">كنيسة الأباء أنت افتخارنا</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_28" class="north">
+                <td class="english">To her success, let us all join together</td>
+                <td class="enPhonicsSongs">‘eela naga7oha, hayya hayya bena</td>
+                <td class="arabic">إلى نجاحها هيا هيا بنا</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_29" class="north">
+                <td class="english">My Coptic Church, her faith is orthodox</td>
+                <td class="enPhonicsSongs">Kaneesatel qebteya, ‘eemanoha sa7ee7</td>
+                <td class="arabic">كنيستي القبطية إيمانها صحيح</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_30" class="north">
+                <td class="english">Forever strong, Egypt is Christ's</td>
+                <td class="enPhonicsSongs">‘eelal ‘abad qaweya, ya masr lel masee7</td>
+                <td class="arabic">إلى الأبد قوية يا مصر للمسيح</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    
+    `;return html;
+    }
+
+function myCopticChurchSoGreat(tableNumber) {
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
+    <table id="table_${tableNumber}" title="My Coptic Church So Great">
+  <caption id="caption_table_${tableNumber}" class="caption">
+    My Coptic Church So Great
+    <span class="arabic-caption">كنيستي القبطية نشرت المسيحية</span>
+  </caption>
+
+  <!-- Verse 1 -->
+  <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
+    <tr id="table_${tableNumber}_row_1" class="North">
+      <td class="english">My Coptic Church so great</td>
+      <td class="enPhonicsSongs">Kenisty el-qibtiya</td>
+      <td class="arabic">كنيستي القبطية</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_2" class="North">
+      <td class="english">You spread the Christian faith</td>
+      <td class="enPhonicsSongs">Nasharat el-messihiya</td>
+      <td class="arabic">نشرت المسيحية</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_3" class="North">
+      <td class="english">In the Ethiopian country</td>
+      <td class="enPhonicsSongs">Fi belad el-ethiobiya</td>
+      <td class="arabic">في بلاد الأثيوبية</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_4" class="North">
+      <td class="english">In Nubia and Sudan</td>
+      <td class="enPhonicsSongs">Wa el-nuba wa el-sudan</td>
+      <td class="arabic">والنوبة والسودان</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_5" class="North">
+      <td class="english">In the Western nations</td>
+      <td class="enPhonicsSongs">Fi el-modon el-gharbeya</td>
+      <td class="arabic">في المدن الغربية</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_6" class="North">
+      <td class="english">In the African continent</td>
+      <td class="enPhonicsSongs">Wa el-qara el-afriqiya</td>
+      <td class="arabic">والقارة الإفريقية</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_7" class="North">
+      <td class="english">And in European cities</td>
+      <td class="enPhonicsSongs">Wa fi el-mudon el-eurobiya</td>
+      <td class="arabic">و في المدن الأوربية</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_8" class="North">
+      <td class="english">You witnessed for the faith</td>
+      <td class="enPhonicsSongs">Shahidti lil-iman</td>
+      <td class="arabic">شهدت للإيمان</td>
+    </tr>
+  </tbody>
+
+  <!-- Refrain -->
+  <tbody ${tbodyClass} id="table_${tableNumber}_tbody_refrain_1">
+    <tr id="table_${tableNumber}_row_9" class="refrain">
+      <td class="english">O Coptic Church of God</td>
+      <td class="enPhonicsSongs">Ya kenisa ya qaweya ya madinat el-salat</td>
+      <td class="arabic">يا كنيسة يا قوية يا مدينة الصلاة</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_10" class="refrain">
+      <td class="english">Persecuted but survived</td>
+      <td class="enPhonicsSongs">Neftideek bil-dimaa, neftideek bil-hayat</td>
+      <td class="arabic">( نفتديك بالدماء نفتديك بالحياة )2</td>
+    </tr>
+  </tbody>
+
+  <!-- Verse 2 -->
+  <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
+    <tr id="table_${tableNumber}_row_11" class="South">
+      <td class="english">In the council of Nicea</td>
+      <td class="enPhonicsSongs">Fi el-majma fi Niqueya</td>
+      <td class="arabic">في المجمع في نيقية</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_12" class="South">
+      <td class="english">Heresies, you stood against</td>
+      <td class="enPhonicsSongs">Wa qafatay ya qibtiya</td>
+      <td class="arabic">وقفت يا قبطية</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_13" class="South">
+      <td class="english">Your deacon Athanasius</td>
+      <td class="enPhonicsSongs">Shammasak Athanasius</td>
+      <td class="arabic">شماسك اثناسيوس</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_14" class="South">
+      <td class="english">He is the hero of faith</td>
+      <td class="enPhonicsSongs">Da batal el-iman</td>
+      <td class="arabic">ده بطل الإيمان</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_15" class="South">
+      <td class="english">St. Clement and St. Oregon</td>
+      <td class="enPhonicsSongs">Klimendos wa Didimos</td>
+      <td class="arabic">كليمنضس وديديموس</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_16" class="South">
+      <td class="english">St. Cyril and St. Dioscorus</td>
+      <td class="enPhonicsSongs">Kyrillos wa Discorous</td>
+      <td class="arabic">كيرلس ديسقورس</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_17" class="South">
+      <td class="english">St.Paul and St. Anthony</td>
+      <td class="enPhonicsSongs">Wa Bola wa Antonios</td>
+      <td class="arabic">و بولا و انطونيوس</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_18" class="South">
+      <td class="english">Your men that were so brave</td>
+      <td class="enPhonicsSongs">Rijalek al-shojaan</td>
+      <td class="arabic">رجالك الشجعان</td>
+    </tr>
+  </tbody>
+
+  <!-- Refrain -->
+  <tbody ${tbodyClass} id="table_${tableNumber}_tbody_refrain_2">
+    <tr id="table_${tableNumber}_row_19" class="refrain">
+      <td class="english">O Coptic Church of God</td>
+      <td class="enPhonicsSongs">Ya kenisa ya qaweya ya madinat el-salat</td>
+      <td class="arabic">يا كنيسة يا قوية يا مدينة الصلاة</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_20" class="refrain">
+      <td class="english">Persecuted but survived</td>
+      <td class="enPhonicsSongs">Neftideek bil-dimaa, neftideek bil-hayat</td>
+      <td class="arabic">( نفتديك بالدماء نفتديك بالحياة )2</td>
+    </tr>
+  </tbody>
+
+  <!-- Verse 3 -->
+  <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
+    <tr id="table_${tableNumber}_row_21" class="North">
+      <td class="english">A church and a monastery</td>
+      <td class="enPhonicsSongs">Kenisa wa dayr wa mazbah wa heber</td>
+      <td class="arabic">كنيسة و دير و مذبح و حبر</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_22" class="North">
+      <td class="english">An altar and a sanctuary</td>
+      <td class="enPhonicsSongs">Be-qowwa ilahiya wa salah rohaniya</td>
+      <td class="arabic">بقوة إلهية و صلاة روحانية</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_23" class="North">
+      <td class="english">Your sacraments are seven</td>
+      <td class="enPhonicsSongs">Qorban wa sir, wasaeit el-khalas</td>
+      <td class="arabic">قربانة و سر وسائط الخلاص</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_24" class="North">
+      <td class="english">They lead us up to heaven</td>
+      <td class="enPhonicsSongs">Qad dushanat al-barriya</td>
+      <td class="arabic">قد دشنت البرية</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_25" class="North">
+      <td class="english">By powers so divine</td>
+      <td class="enPhonicsSongs">Be-qowwat el-alamia</td>
+      <td class="arabic">بقوة عالمية</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_26" class="North">
+      <td class="english">By prayers and by strife</td>
+      <td class="enPhonicsSongs">Bi-salat wa strife</td>
+      <td class="arabic">بالصلاة و الصراع</td>
+    </tr>
+  </tbody>
+
+  <!-- Refrain -->
+  <tbody ${tbodyClass} id="table_${tableNumber}_tbody_refrain_3">
+    <tr id="table_${tableNumber}_row_27" class="refrain">
+      <td class="english">O Coptic Church of God</td>
+      <td class="enPhonicsSongs">Ya kenisa ya qaweya ya madinat el-salat</td>
+      <td class="arabic">يا كنيسة يا قوية يا مدينة الصلاة</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_28" class="refrain">
+      <td class="english">Persecuted but survived</td>
+      <td class="enPhonicsSongs">Neftideek bil-dimaa, neftideek bil-hayat</td>
+      <td class="arabic">( نفتديك بالدماء نفتديك بالحياة )2</td>
+    </tr>
+  </tbody>
+
+  <!-- Verse 4 -->
+  <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
+    <tr id="table_${tableNumber}_row_29" class="South">
+      <td class="english">Jesus Christ visited you</td>
+      <td class="enPhonicsSongs">Yesoua qad atak</td>
+      <td class="arabic">يسوع قد أتاك</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_30" class="South">
+      <td class="english">With His mother St. Mary</td>
+      <td class="enPhonicsSongs">Ma ommoh hayak</td>
+      <td class="arabic">مع أمه حياك</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_31" class="South">
+      <td class="english">St. Mark’s blood so pure</td>
+      <td class="enPhonicsSongs">Wa dam Mar Morqos</td>
+      <td class="arabic">و دم مارمرقس</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_32" class="South">
+      <td class="english">Watered you with the faith</td>
+      <td class="enPhonicsSongs">Rawak bil-iman</td>
+      <td class="arabic">رواك بالإيمان</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_33" class="South">
+      <td class="english">O Mother of the Martyrs</td>
+      <td class="enPhonicsSongs">Omm el-shuhada</td>
+      <td class="arabic">أم الشهداء</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_34" class="South">
+      <td class="english">St. George and St. Demiana</td>
+      <td class="enPhonicsSongs">Mar Gerges wa Damiana</td>
+      <td class="arabic">مارجرجس و دميانة</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_35" class="South">
+      <td class="english">And the blessed St. Peter</td>
+      <td class="enPhonicsSongs">Wa dam al-anba Boutros</td>
+      <td class="arabic">و دم الأنبا بطرس</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_36" class="South">
+      <td class="english">The seal of the martyrs</td>
+      <td class="enPhonicsSongs">Inha aasr el-awthan</td>
+      <td class="arabic">أنهى عصر الأوثان</td>
+    </tr>
+  </tbody>
+
+  <!-- Refrain -->
+  <tbody ${tbodyClass} id="table_${tableNumber}_tbody_refrain_4">
+    <tr id="table_${tableNumber}_row_37" class="refrain">
+      <td class="english">O Coptic Church of God</td>
+      <td class="enPhonicsSongs">Ya kenisa ya qaweya ya madinat el-salat</td>
+      <td class="arabic">يا كنيسة يا قوية يا مدينة الصلاة</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_38" class="refrain">
+      <td class="english">Persecuted but survived</td>
+      <td class="enPhonicsSongs">Neftideek bil-dimaa, neftideek bil-hayat</td>
+      <td class="arabic">( نفتديك بالدماء نفتديك بالحياة )2</td>
+    </tr>
+  </tbody>
+</table>
+
+    `;return html;
+}
+
+
 function oBeloved(tableNumber) {
-    let html = `
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
     <table id="table_${tableNumber}" title="O Beloved">
     <caption class="caption" id="caption_table_${tableNumber}">O Beloved
     <span class="arabic-caption">و حبيبي</span></caption>
-    <tbody class="scaling-container" id="table_${tableNumber}_tbody_0">
+    <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
         <tr id="table_${tableNumber}_row_1" class="north">
             <td class="english">O Beloved, O Beloved, nailed unto the cross for me</td>
             <td class="arabic">وا حبيبي وآ حبيبي، أي حال أنت فيه</td>
@@ -2185,7 +2823,7 @@ function oBeloved(tableNumber) {
             <td class="arabic">أنت مجهود جريح، ليس فيك من شفاء</td>
         </tr>
     </tbody>
-    <tbody class="scaling-container" id="table_${tableNumber}_tbody_1">
+    <tbody ${tbodyClass} id="table_${tableNumber}_tbody_1">
         <tr id="table_${tableNumber}_row_4" class="south">
             <td class="english">Daughter of Zion behold Me, stricken and smitten for Thee</td>
             <td class="arabic">بنت صهيون انظريني، غارقا في ذي اللجج</td>
@@ -2203,7 +2841,7 @@ function oBeloved(tableNumber) {
             <td class="arabic">كي يذود العار عنى، ويُسَلي المُبتلى</td>
         </tr>
     </tbody>
-    <tbody class="scaling-container" id="table_${tableNumber}_tbody_2">
+    <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
         <tr id="table_${tableNumber}_row_8" class="north">
             <td class="english">I was bound and I was smitten, and they did spit in my face</td>
             <td class="arabic">قد ربطت و ضربت، مثل أدنى المرذولين</td>
@@ -2221,7 +2859,7 @@ function oBeloved(tableNumber) {
             <td class="arabic">فانظروني هل رأيتم، مثل سقمي في الورى</td>
         </tr>
     </tbody>
-    <tbody class="scaling-container" id="table_${tableNumber}_tbody_3">
+    <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
         <tr id="table_${tableNumber}_row_12" class="south">
             <td class="english">Like a lamb brought to the slaughter, like a dumb sheep to be sheered</td>
             <td class="arabic">رحت في البستان ليلا، والحشى مني أضطرب</td>  
@@ -2239,7 +2877,7 @@ function oBeloved(tableNumber) {
             <td class="arabic">حزن نفسي لا يماثل، بغريق في الطمى</td>
         </tr>
     </tbody>
-    <tbody class="scaling-container" id="table_${tableNumber}_tbody_4">
+    <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
         <tr id="table_${tableNumber}_row_16" class="north">
             <td class="english">Lord, create in us a fountain that with tears will ever flow</td>
             <td class="arabic">مددوني كخروف، سمروني في الصليب</td>
@@ -2257,7 +2895,7 @@ function oBeloved(tableNumber) {
             <td class="arabic">أعقب الظلم إنخذالى، و اضطراب و بكاء</td>
         </tr>
     </tbody>
-    <tbody class="scaling-container" id="table_${tableNumber}_tbody_5">
+    <tbody ${tbodyClass} id="table_${tableNumber}_tbody_5">
         <tr id="table_${tableNumber}_row_20" class="south">
             <td class="arabic">يا يسوع اجر فينا، سيل دمع منهمر</td>
         </tr>
@@ -2278,12 +2916,15 @@ function oBeloved(tableNumber) {
 }
 
 function oMaryOurMotherTheBelovedOfUsAll(tableNumber) { 
-    let html = `
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
     
-    <table id="${tableNumber}" title="O Mary our Mother, the Beloved of Us All">
+    <table id="table_${tableNumber}" title="O Mary our Mother, the Beloved of Us All">
         <caption id="caption_table_${tableNumber}" class="caption">O Mary our Mother, the Beloved of Us All
         <span class="arabic-caption">العدرا أمنا حبيبتنا كلنا</span></caption>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_0">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
             <tr id="table_${tableNumber}_row_1" class="Refrain">
                 <td class="english">O Mary our mother,</td>
                 <td class="enPhonicsSongs">El3adra ‘omena</td>
@@ -2305,7 +2946,7 @@ function oMaryOurMotherTheBelovedOfUsAll(tableNumber) {
                 <td class="arabic">كلها معونة</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_2">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
             <tr id="table_${tableNumber}_row_5" class="north">
                 <td class="english">You’re a symbol of purity</td>
                 <td class="enPhonicsSongs">Anti methal leltahara</td>
@@ -2327,7 +2968,7 @@ function oMaryOurMotherTheBelovedOfUsAll(tableNumber) {
                 <td class="arabic">يا أَمَة  الرب العظيم</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_3">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
             <tr id="table_${tableNumber}_row_9" class="refrain">
                 <td class="english">O Mary our mother,</td>
                 <td class="enPhonicsSongs">El3adra ‘omena</td>
@@ -2349,7 +2990,7 @@ function oMaryOurMotherTheBelovedOfUsAll(tableNumber) {
                 <td class="arabic">كلها معونة</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_4">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
             <tr id="table_${tableNumber}_row_13" class="south">
                 <td class="english">You bore the beloved son</td>
                 <td class="enPhonicsSongs">7amaltee alebn el7abeeb</td>
@@ -2371,7 +3012,7 @@ function oMaryOurMotherTheBelovedOfUsAll(tableNumber) {
                 <td class="arabic">نيجي ونسكب  له الدموع</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_5">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_5">
             <tr id="table_${tableNumber}_row_17" class="refrain">
                 <td class="english">O Mary our mother,</td>
                 <td class="enPhonicsSongs">El3adra ‘omena</td>
@@ -2393,7 +3034,7 @@ function oMaryOurMotherTheBelovedOfUsAll(tableNumber) {
                 <td class="arabic">كلها معونة</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_6">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_6">
             <tr id="table_${tableNumber}_row_21" class="north">
                 <td class="english">We see our mother the Virgin,</td>
                 <td class="enPhonicsSongs">Neshoof el3adra ‘omena</td>
@@ -2415,7 +3056,7 @@ function oMaryOurMotherTheBelovedOfUsAll(tableNumber) {
                 <td class="arabic">ترفع صلاتنا لربنا</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_7">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_7">
             <tr id="table_${tableNumber}_row_25" class="refrain">
                 <td class="english">O Mary our mother,</td>
                 <td class="enPhonicsSongs">El3adra ‘omena</td>
@@ -2437,7 +3078,7 @@ function oMaryOurMotherTheBelovedOfUsAll(tableNumber) {
                 <td class="arabic">كلها معونة</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_8">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_8">
             <tr id="table_${tableNumber}_row_29" class="south">
                 <td class="english">You performed miracles,</td>
                 <td class="enPhonicsSongs">3amalti almo3gezat</td>
@@ -2459,7 +3100,7 @@ function oMaryOurMotherTheBelovedOfUsAll(tableNumber) {
                 <td class="arabic">وشفيت  المعذبين</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_9">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_9">
             <tr id="table_${tableNumber}_row_33" class="refrain">
                 <td class="english">O Mary our mother,</td>
                 <td class="enPhonicsSongs">El3adra ‘omena</td>
@@ -2481,7 +3122,7 @@ function oMaryOurMotherTheBelovedOfUsAll(tableNumber) {
                 <td class="arabic">كلها معونة</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_10">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_10">
             <tr id="table_${tableNumber}_row_37" class="north">
                 <td class="english">You’re my shelter and support;</td>
                 <td class="enPhonicsSongs">Antee malazee wa 3awnee</td>
@@ -2503,7 +3144,7 @@ function oMaryOurMotherTheBelovedOfUsAll(tableNumber) {
                 <td class="arabic">وأذكري شعبنا</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_11">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_11">
             <tr id="table_${tableNumber}_row_41" class="refrain">
                 <td class="english">O Mary our mother,</td>
                 <td class="enPhonicsSongs">El3adra ‘omena</td>
@@ -2532,12 +3173,15 @@ function oMaryOurMotherTheBelovedOfUsAll(tableNumber) {
 }
 
 function oMaryOurMotherYouAreTheMotherOfOurLord(tableNumber) { 
-    let html = `
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
     
-    <table id="${tableNumber}" title="O Mary our Mother, You’re the Mother of our Lord">
+    <table id="table_${tableNumber}" title="O Mary our Mother, You’re the Mother of our Lord">
         <caption id="caption_table_${tableNumber}" class="caption">O Mary our Mother, You’re the Mother of our Lord
         <span class="arabic-caption">يامريم ياأمنا إنت أم ربنا</span></caption>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_0">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
             <tr id="table_${tableNumber}_row_1" class="North">
                 <td class="english">O Mary our Mother,</td>
                 <td class="enPhonicsSongs">Ya mariam ya ‘omena</td>
@@ -2564,7 +3208,7 @@ function oMaryOurMotherYouAreTheMotherOfOurLord(tableNumber) {
                 <td class="arabic">يامريم ياأمنا</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_2">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
             <tr id="table_${tableNumber}_row_6" class="south">
                 <td class="english">O Jesus Christ your Son,</td>
                 <td class="enPhonicsSongs">Yasoo3 almasee7 ebnokee</td>
@@ -2598,12 +3242,15 @@ function oMaryOurMotherYouAreTheMotherOfOurLord(tableNumber) {
 }
 
 function oMotherOfLight(tableNumber) { 
-    let html = `
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
     
-    <table id="${tableNumber}" title="O Mother of Light">
+    <table id="table_${tableNumber}" title="O Mother of Light">
         <caption id="caption_table_${tableNumber}" class="caption">O Mother of Light
         <span class="arabic-caption">يا أم النور. يا فخر الأمة</span></caption>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_0">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
             <tr id="table_${tableNumber}_row_1" class="North">
                 <td class="english">O Mother of light, the pride of nations,</td>
                 <td class="enPhonicsSongs">Ya om al noor. Ya fakhr al ‘oma</td>
@@ -2625,7 +3272,7 @@ function oMotherOfLight(tableNumber) {
                 <td class="arabic">يا مريم يا ابنة يواقيم</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_1">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_1">
             <tr id="table_${tableNumber}_row_5" class="south">
                 <td class="english">The exalted, living, worshipped Lord,</td>
                 <td class="enPhonicsSongs">Alrab almota3al. Al 7ay almawgood</td>
@@ -2647,7 +3294,7 @@ function oMotherOfLight(tableNumber) {
                 <td class="arabic">يا مريم يا ابنة يواقيم</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_2">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
             <tr id="table_${tableNumber}_row_9" class="north">
                 <td class="english">He granted you blessedness, by the descent of the Grace,</td>
                 <td class="enPhonicsSongs">A3taki eltatweeb. Be7elool el ne3ma</td>
@@ -2669,7 +3316,7 @@ function oMotherOfLight(tableNumber) {
                 <td class="arabic">يا مريم يا ابنة يواقيم</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_3">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
             <tr id="table_${tableNumber}_row_13" class="south">
                 <td class="english">Hail to you, O rod of Aaron,</td>
                 <td class="enPhonicsSongs">Alsalam 3aleki. Ya 3asa Haroon</td>
@@ -2691,7 +3338,7 @@ function oMotherOfLight(tableNumber) {
                 <td class="arabic">يا مريم يا ابنة يواقيم</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_4">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
             <tr id="table_${tableNumber}_row_17" class="north">
                 <td class="english">Rejoice O Mary, O chosen bride,</td>
                 <td class="enPhonicsSongs">Anti ya Mariam. 3aroos mokhtara</td>
@@ -2713,7 +3360,7 @@ function oMotherOfLight(tableNumber) {
                 <td class="arabic">يا مريم يا ابنة يواقيم</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_5">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_5">
             <tr id="table_${tableNumber}_row_21" class="south">
                 <td class="english">You became as the heavens, carrying the Holy One</td>
                 <td class="enPhonicsSongs">Serti kalsamawat. 7amela alqodoos</td>
@@ -2735,7 +3382,7 @@ function oMotherOfLight(tableNumber) {
                 <td class="arabic">يا مريم يا ابنة يواقيم</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_6">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_6">
             <tr id="table_${tableNumber}_row_25" class="north">
                 <td class="english">We ask you O Virgin, O crown of Israel,</td>
                 <td class="enPhonicsSongs">Nas’alek ya 3adra. Ya tag al’akaleel</td>
@@ -2764,12 +3411,15 @@ function oMotherOfLight(tableNumber) {
 }
 
 function oMotherOfLightOBeautiful(tableNumber) { 
-    let html = `
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
     
-    <table id="${tableNumber}" title="Ya om el noor ya gameela">
+    <table id="table_${tableNumber}" title="Ya om el noor ya gameela">
         <caption id="caption_table_${tableNumber}" class="caption">Ya om el noor ya gameela
         <span class="arabic-caption">يا أم النور ياجميلة</span></caption>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_0">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
             <tr id="table_${tableNumber}_row_1" class="North">
                 <td class="enPhonicsSongs">Ya om el noor ya gameela</td>
                 <td class="arabic">يا أم النور ياجميلة</td>
@@ -2787,7 +3437,7 @@ function oMotherOfLightOBeautiful(tableNumber) {
                 <td class="arabic">يا أم ألهنا وراعينا (2)</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_1">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_1">
             <tr id="table_${tableNumber}_row_5" class="south">
                 <td class="enPhonicsSongs">Norek yoshbeh almesba7</td>
                 <td class="arabic">نورك يشبه المصباح</td>
@@ -2805,7 +3455,7 @@ function oMotherOfLightOBeautiful(tableNumber) {
                 <td class="arabic">ويرش الورد حوالينا (2)</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_2">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
             <tr id="table_${tableNumber}_row_9" class="north">
                 <td class="enPhonicsSongs">Almalak galek we 7ayaki</td>
                 <td class="arabic">الملاك جالك وحياكى</td>
@@ -2823,7 +3473,7 @@ function oMotherOfLightOBeautiful(tableNumber) {
                 <td class="arabic">ها تكونى أم فادينا (2)</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_3">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
             <tr id="table_${tableNumber}_row_13" class="south">
                 <td class="enPhonicsSongs">Galek elmalak bebeshara</td>
                 <td class="arabic">جالك الملاك ببشارة</td>
@@ -2841,7 +3491,7 @@ function oMotherOfLightOBeautiful(tableNumber) {
                 <td class="arabic">ونور أبنك يحل علينا (2)</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_4">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
             <tr id="table_${tableNumber}_row_17" class="north">
                 <td class="enPhonicsSongs">Nomagedek wa noqeed elshemoo3</td>
                 <td class="arabic">نمجدك ونقيد الشموع</td>
@@ -2866,11 +3516,14 @@ function oMotherOfLightOBeautiful(tableNumber) {
 }
 
 function oSeekerToMeetJesus(tableNumber) {
-    let html = `
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
         <table id="table_${tableNumber}" title="O Seeker To Meet Jesus">
             <caption class="caption" id="caption_table_${tableNumber}">O Seeker To Meet Jesus
             <span class="arabic-caption">يا سائح للقاء يسوع</span></caption>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_0">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
                 <tr id="table_${tableNumber}_row_0" class="north">
                     <td class="english">O seeker to meet Jesus</td>
                     <td class="arabic">يا سائح للقاء يسوع</td>
@@ -2888,7 +3541,7 @@ function oSeekerToMeetJesus(tableNumber) {
                     <td class="arabic">ويرويك ماء الينبوع</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_1">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_1">
                 <tr id="table_${tableNumber}_row_4" class="south">
                     <td class="english">You traveller forget the past</td>
                     <td class="arabic">يا سائح اترك ما فات</td>
@@ -2906,7 +3559,7 @@ function oSeekerToMeetJesus(tableNumber) {
                     <td class="arabic">أذكر من في حبك مات</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_2">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
                 <tr id="table_${tableNumber}_row_8" class="north">
                     <td class="english">The trumpet will be heard soon</td>
                     <td class="arabic">البوق يضرب بعد قليل</td>
@@ -2924,7 +3577,7 @@ function oSeekerToMeetJesus(tableNumber) {
                     <td class="arabic">والسهران يلبس اكليل</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_3">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
                 <tr id="table_${tableNumber}_row_12" class="south">
                     <td class="english">He´ll prepare a place for you</td>
                     <td class="arabic">راح يعد لك مكان</td>
@@ -2942,7 +3595,7 @@ function oSeekerToMeetJesus(tableNumber) {
                     <td class="arabic">سعدك لو لقاك سهران</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_4">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
                 <tr id="table_${tableNumber}_row_16" class="north">
                     <td class="english">You are a part in Jesus Christ</td>
                     <td class="arabic">يا وديعة المسيح</td>
@@ -2960,7 +3613,7 @@ function oSeekerToMeetJesus(tableNumber) {
                     <td class="arabic">حاميكي صخر الدهور</td>
                 </tr>
             </tbody>
-            <tbody class="scaling-container" id="table_${tableNumber}_tbody_5">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_5">
                 <tr id="table_${tableNumber}_row_20" class="south">
                     <td class="english">O seeker to meet Jesus</td>
                     <td class="arabic">يا سائح للقاء يسوع</td>
@@ -2984,12 +3637,15 @@ function oSeekerToMeetJesus(tableNumber) {
 }
 
 function ourMotherOVirgin(tableNumber) { 
-    let html = `
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
     
-    <table id="${tableNumber}" title="">
+    <table id="table_${tableNumber}" title="">
         <caption id="caption_table_${tableNumber}" class="caption">Omena Ya 3adra
         <span class="arabic-caption">أمنا يا عذراء</span></caption>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_0">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
             <tr id="table_${tableNumber}_row_1" class="Refrain">
                 <td class="enPhonicsSongs">Omena ya 3adra – Ya om elmasih</td>
                 <td class="arabic">أمنا يا عذراء - يا أم المسيح</td>
@@ -2999,7 +3655,7 @@ function ourMotherOVirgin(tableNumber) {
                 <td class="arabic">يا للى فيك دايمًا - بيحلو المديح</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_2">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
             <tr id="table_${tableNumber}_row_3" class="north">
                 <td class="enPhonicsSongs">Olobna bet7ebek – 7ob malhosh mathil</td>
                 <td class="arabic">قلوبنا بتحبك - حب ملهوش مثيل</td>
@@ -3009,7 +3665,7 @@ function ourMotherOVirgin(tableNumber) {
                 <td class="arabic">عايزين نفضل جنبك - ونقول تراتيل</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_3">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
             <tr id="table_${tableNumber}_row_5" class="refrain">
                 <td class="enPhonicsSongs">Omena ya 3adra – Ya om elmasih</td>
                 <td class="arabic">أمنا يا عذراء - يا أم المسيح</td>
@@ -3019,7 +3675,7 @@ function ourMotherOVirgin(tableNumber) {
                 <td class="arabic">يا للى فيك دايمًا - بيحلو المديح</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_4">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
             <tr id="table_${tableNumber}_row_7" class="south">
                 <td class="enPhonicsSongs">Betsedi e7teyagatna – we tefidi kaman</td>
                 <td class="arabic">بتسدي احتياجنا - وتفيضي كمان</td>
@@ -3029,7 +3685,7 @@ function ourMotherOVirgin(tableNumber) {
                 <td class="arabic">وفى زحمة حياتنا - تدينا الأمان</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_5">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_5">
             <tr id="table_${tableNumber}_row_9" class="refrain">
                 <td class="enPhonicsSongs">Omena ya 3adra – Ya om elmasih</td>
                 <td class="arabic">أمنا يا عذراء - يا أم المسيح</td>
@@ -3039,7 +3695,7 @@ function ourMotherOVirgin(tableNumber) {
                 <td class="arabic">يا للى فيك دايمًا - بيحلو المديح</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_6">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_6">
             <tr id="table_${tableNumber}_row_11" class="north">
                 <td class="enPhonicsSongs">Ya gamal masha3rek – 7ob 7anan re3aya</td>
                 <td class="arabic">يا جمال مشاعرك - حب حنان رعاية</td>
@@ -3049,7 +3705,7 @@ function ourMotherOVirgin(tableNumber) {
                 <td class="arabic">يا هنانا بأمومتك - يا فخر البرايا</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_7">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_7">
             <tr id="table_${tableNumber}_row_13" class="refrain">
                 <td class="enPhonicsSongs">Omena ya 3adra – Ya om elmasih</td>
                 <td class="arabic">أمنا يا عذراء - يا أم المسيح</td>
@@ -3059,7 +3715,7 @@ function ourMotherOVirgin(tableNumber) {
                 <td class="arabic">يا للى فيك دايمًا - بيحلو المديح</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_8">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_8">
             <tr id="table_${tableNumber}_row_15" class="south">
                 <td class="enPhonicsSongs">Menki zad emana – bzyartek byotna</td>
                 <td class="arabic">منك زاد إيماننا - بزيارتك بيوتنا</td>
@@ -3069,7 +3725,7 @@ function ourMotherOVirgin(tableNumber) {
                 <td class="arabic">مين يوفى بجمايلك - يا قمره فى حياتنا</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_9">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_9">
             <tr id="table_${tableNumber}_row_17" class="refrain">
                 <td class="enPhonicsSongs">Omena ya 3adra – Ya om elmasih</td>
                 <td class="arabic">أمنا يا عذراء - يا أم المسيح</td>
@@ -3079,7 +3735,7 @@ function ourMotherOVirgin(tableNumber) {
                 <td class="arabic">يا للى فيك دايمًا - بيحلو المديح</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_10">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_10">
             <tr id="table_${tableNumber}_row_19" class="north">
                 <td class="enPhonicsSongs">Fara7ti olobna – lamma shofna norek</td>
                 <td class="arabic">فرحتي قلوبنا - لما شوقنا نورك</td>
@@ -3096,12 +3752,15 @@ function ourMotherOVirgin(tableNumber) {
 }
 
 function overTheDomes(tableNumber) { 
-    let html = `
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
     
-    <table id="${tableNumber}" title="Over the Domes">
+    <table id="table_${tableNumber}" title="Over the Domes">
         <caption id="caption_table_${tableNumber}" class="caption">Over the Domes
         <span class="arabic-caption">فوق القباب بصوا و شوفوا</span></caption>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_0">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
             <tr id="table_${tableNumber}_row_1" class="Refrain">
                 <td class="english">Over the domes, come look and see,</td>
                 <td class="enPhonicsSongs">Fo’ el ‘obab, boso we shofo</td>
@@ -3123,7 +3782,7 @@ function overTheDomes(tableNumber) {
                 <td class="arabic">الست العدرا الجوهرة</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_2">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
             <tr id="table_${tableNumber}_row_5" class="north">
                 <td class="english">Praise her O people, come and see her,</td>
                 <td class="enPhonicsSongs">Ratelo ya sabaya we qabloha</td>
@@ -3150,7 +3809,7 @@ function overTheDomes(tableNumber) {
                 <td class="arabic">دى الست العذراء الجوهرة</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_3">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
             <tr id="table_${tableNumber}_row_10" class="refrain">
                 <td class="english">Over the domes, come look and see,</td>
                 <td class="enPhonicsSongs">Fo’ el ‘obab, boso we shofo</td>
@@ -3172,7 +3831,7 @@ function overTheDomes(tableNumber) {
                 <td class="arabic">الست العدرا الجوهرة</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_4">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
             <tr id="table_${tableNumber}_row_14" class="south">
                 <td class="english">The Pure Virgin’s always with us, (x2)</td>
                 <td class="enPhonicsSongs">Set el3adra wa’fa ma3ana</td>
@@ -3199,7 +3858,7 @@ function overTheDomes(tableNumber) {
                 <td class="arabic">يا ست يا عدرا يا جوهرة</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_5">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_5">
             <tr id="table_${tableNumber}_row_19" class="refrain">
                 <td class="english">Over the domes, come look and see,</td>
                 <td class="enPhonicsSongs">Fo’ el ‘obab, boso we shofo</td>
@@ -3221,7 +3880,7 @@ function overTheDomes(tableNumber) {
                 <td class="arabic">الست العدرا الجوهرة</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_6">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_6">
             <tr id="table_${tableNumber}_row_23" class="north">
                 <td class="english"></td>
                 <td class="enPhonicsSongs">Ya rab men elshar enqezna</td>
@@ -3248,7 +3907,7 @@ function overTheDomes(tableNumber) {
                 <td class="arabic">يا ست يا عدرا يا جوهرة</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_7">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_7">
             <tr id="table_${tableNumber}_row_28" class="refrain">
                 <td class="english">Over the domes, come look and see,</td>
                 <td class="enPhonicsSongs">Fo’ el ‘obab, boso we shofo</td>
@@ -3270,7 +3929,7 @@ function overTheDomes(tableNumber) {
                 <td class="arabic">الست العدرا الجوهرة</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_8">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_8">
             <tr id="table_${tableNumber}_row_32" class="south">
                 <td class="english"></td>
                 <td class="enPhonicsSongs">Saybeen deyarna we beyotna</td>
@@ -3297,7 +3956,7 @@ function overTheDomes(tableNumber) {
                 <td class="arabic">يا ست يا عدرا يا جوهرة</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_9">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_9">
             <tr id="table_${tableNumber}_row_37" class="refrain">
                 <td class="english">Over the domes, come look and see,</td>
                 <td class="enPhonicsSongs">Fo’ el ‘obab, boso we shofo</td>
@@ -3326,12 +3985,15 @@ function overTheDomes(tableNumber) {
 }
 
 function oYouWhoReceivedTheMostHonorableGift(tableNumber) { 
-    let html = `
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
     
-    <table id="${tableNumber}" title="O You Who Received the Most Honorable Gift">
+    <table id="table_${tableNumber}" title="O You Who Received the Most Honorable Gift">
         <caption id="caption_table_${tableNumber}" class="caption">O You Who Received the Most Honorable Gift
         <span class="arabic-caption">يا من عطيت اشرف عطية</span></caption>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_0">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
             <tr id="table_${tableNumber}_row_1" class="Refrain">
                 <td class="english">O you who received</td>
                 <td class="enPhonicsSongs">Ya man 3otiti</td>
@@ -3353,7 +4015,7 @@ function oYouWhoReceivedTheMostHonorableGift(tableNumber) {
                 <td class="arabic">روحه هدية</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_1">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_1">
             <tr id="table_${tableNumber}_row_5" class="north">
                 <td class="english">With Him, we rejoiced</td>
                 <td class="enPhonicsSongs">Behe fare7na</td>
@@ -3375,7 +4037,7 @@ function oYouWhoReceivedTheMostHonorableGift(tableNumber) {
                 <td class="arabic">وكسبنا الأبدية</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_2">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
             <tr id="table_${tableNumber}_row_9" class="south">
                 <td class="english">The fruit of your womb</td>
                 <td class="enPhonicsSongs">Thamaret 7ashaki</td>
@@ -3397,7 +4059,7 @@ function oYouWhoReceivedTheMostHonorableGift(tableNumber) {
                 <td class="arabic">يا طاهرة ونقية</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_3">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
             <tr id="table_${tableNumber}_row_13" class="refrain">
                 <td class="english">O you who received</td>
                 <td class="enPhonicsSongs">Ya man 3otiti</td>
@@ -3419,7 +4081,7 @@ function oYouWhoReceivedTheMostHonorableGift(tableNumber) {
                 <td class="arabic">روحه هدية</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_4">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
             <tr id="table_${tableNumber}_row_17" class="north">
                 <td class="english">Our strength fainted,</td>
                 <td class="enPhonicsSongs">Kharat qowana</td>
@@ -3441,7 +4103,7 @@ function oYouWhoReceivedTheMostHonorableGift(tableNumber) {
                 <td class="arabic">ابنك المسيا</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_5">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_5">
             <tr id="table_${tableNumber}_row_21" class="south">
                 <td class="english">The God of creation,</td>
                 <td class="enPhonicsSongs">Rab el baraya</td>
@@ -3463,7 +4125,7 @@ function oYouWhoReceivedTheMostHonorableGift(tableNumber) {
                 <td class="arabic">فادى البشرية</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_6">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_6">
             <tr id="table_${tableNumber}_row_25" class="refrain">
                 <td class="english">O you who received</td>
                 <td class="enPhonicsSongs">Ya man 3otiti</td>
@@ -3485,7 +4147,7 @@ function oYouWhoReceivedTheMostHonorableGift(tableNumber) {
                 <td class="arabic">روحه هدية</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_7">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_7">
             <tr id="table_${tableNumber}_row_29" class="north">
                 <td class="english">Your humanity</td>
                 <td class="enPhonicsSongs">Salomat 3adaki</td>
@@ -3507,7 +4169,7 @@ function oYouWhoReceivedTheMostHonorableGift(tableNumber) {
                 <td class="arabic">سما جسدانية</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_8">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_8">
             <tr id="table_${tableNumber}_row_33" class="south">
                 <td class="english">A censer and an ark,</td>
                 <td class="enPhonicsSongs">Shorya we taboot</td>
@@ -3529,7 +4191,7 @@ function oYouWhoReceivedTheMostHonorableGift(tableNumber) {
                 <td class="arabic">متحد باللاهوت</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_9">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_9">
             <tr id="table_${tableNumber}_row_37" class="refrain">
                 <td class="english">O you who received</td>
                 <td class="enPhonicsSongs">Ya man 3otiti</td>
@@ -3551,7 +4213,7 @@ function oYouWhoReceivedTheMostHonorableGift(tableNumber) {
                 <td class="arabic">روحه هدية</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_10">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_10">
             <tr id="table_${tableNumber}_row_41" class="north">
                 <td class="english">There was no intercessor</td>
                 <td class="enPhonicsSongs">Samat algami3</td>
@@ -3573,7 +4235,7 @@ function oYouWhoReceivedTheMostHonorableGift(tableNumber) {
                 <td class="arabic">منك يانقية</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_11">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_11">
             <tr id="table_${tableNumber}_row_45" class="south">
                 <td class="english">Peace returned</td>
                 <td class="enPhonicsSongs">3ad lana alaman</td>
@@ -3595,7 +4257,7 @@ function oYouWhoReceivedTheMostHonorableGift(tableNumber) {
                 <td class="arabic">بالبشرى الصفية</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_12">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_12">
             <tr id="table_${tableNumber}_row_49" class="refrain">
                 <td class="english">O you who received</td>
                 <td class="enPhonicsSongs">Ya man 3otiti</td>
@@ -3617,7 +4279,7 @@ function oYouWhoReceivedTheMostHonorableGift(tableNumber) {
                 <td class="arabic">روحه هدية</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_13">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_13">
             <tr id="table_${tableNumber}_row_53" class="north">
                 <td class="english">You surpassed the creation</td>
                 <td class="enPhonicsSongs">Foqti elkhaliqa</td>
@@ -3639,7 +4301,7 @@ function oYouWhoReceivedTheMostHonorableGift(tableNumber) {
                 <td class="arabic">انقذت البشرية</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_14">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_14">
             <tr id="table_${tableNumber}_row_57" class="south">
                 <td class="english">O pure</td>
                 <td class="enPhonicsSongs">Ya omon 3afifa</td>
@@ -3661,7 +4323,7 @@ function oYouWhoReceivedTheMostHonorableGift(tableNumber) {
                 <td class="arabic">حنّي عليَّ</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_15">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_15">
             <tr id="table_${tableNumber}_row_61" class="refrain">
                 <td class="english">O you who received</td>
                 <td class="enPhonicsSongs">Ya man 3otiti</td>
@@ -3690,12 +4352,15 @@ function oYouWhoReceivedTheMostHonorableGift(tableNumber) {
     }
 
 function oVirginMary(tableNumber) { 
-    let html = `
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
     
-    <table id="${tableNumber}" title="O Virgin Mary">
+    <table id="table_${tableNumber}" title="O Virgin Mary">
         <caption id="caption_table_${tableNumber}" class="caption">O Virgin Mary
         <span class="arabic-caption">يامريم البكر</span></caption>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_0">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
             <tr id="table_${tableNumber}_row_1" class="North">
                 <td class="english">O Virgin Mary, you're exalted</td>
                 <td class="enPhonicsSongs">Ya mariam albekra foqtee</td>
@@ -3717,7 +4382,7 @@ function oVirginMary(tableNumber) {
                 <td class="arabic">السماء سرى</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_2">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
             <tr id="table_${tableNumber}_row_5" class="south">
                 <td class="english">O morning star that shines</td>
                 <td class="enPhonicsSongs">Ya nagmat alsob7a she3ee</td>
@@ -3739,7 +4404,7 @@ function oVirginMary(tableNumber) {
                 <td class="arabic">والسمع والبصر</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_3">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
             <tr id="table_${tableNumber}_row_9" class="north">
                 <td class="english">O Mother of Jesus Christ</td>
                 <td class="enPhonicsSongs">Ya ‘oma yaso3a ya ‘omy</td>
@@ -3761,7 +4426,7 @@ function oVirginMary(tableNumber) {
                 <td class="arabic">منى الخطا صدرا</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_4">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
             <tr id="table_${tableNumber}_row_13" class="south">
                 <td class="english">You're my help and support in all</td>
                 <td class="enPhonicsSongs">Antee malazee wa 3awnee</td>
@@ -3790,12 +4455,15 @@ function oVirginMary(tableNumber) {
 }
 
 function oVirginMyMotherShine(tableNumber) { 
-    let html = `
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
     
-    <table id="${tableNumber}" title="O Virgin My Mother shine with your radiance">
+    <table id="table_${tableNumber}" title="O Virgin My Mother shine with your radiance">
         <caption id="caption_table_${tableNumber}" class="caption">O Virgin My Mother shine with your radiance
         <span class="arabic-caption">يا عذرا يا أمي، طلى بنورك طلى</span></caption>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_0">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
             <tr id="table_${tableNumber}_row_1" class="North">
                 <td class="english">O Virgin My Mother,</td>
                 <td class="enPhonicsSongs">Ya 3adra ya ‘omy</td>
@@ -3832,7 +4500,7 @@ function oVirginMyMotherShine(tableNumber) {
                 <td class="arabic">ياعدرا يا أمي</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_2">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
             <tr id="table_${tableNumber}_row_8" class="south">
                 <td class="english">O our Queen in heaven,</td>
                 <td class="enPhonicsSongs">Ya maleka lekol elsama</td>
@@ -3869,7 +4537,7 @@ function oVirginMyMotherShine(tableNumber) {
                 <td class="arabic">ياعدرا يا أمي</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_3">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
             <tr id="table_${tableNumber}_row_15" class="north">
                 <td class="english">O intercessor for everyone</td>
                 <td class="enPhonicsSongs">Ya shafee3a lekol elnefoos</td>
@@ -3906,7 +4574,7 @@ function oVirginMyMotherShine(tableNumber) {
                 <td class="arabic">ياعدرا يا أمي</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_4">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
             <tr id="table_${tableNumber}_row_22" class="north">
                 <td class="english">O you great second Heaven,</td>
                 <td class="enPhonicsSongs">Ya 3azeema ya sama tania</td>
@@ -3950,12 +4618,15 @@ function oVirginMyMotherShine(tableNumber) {
 }
 
 function theGloryOfMary(tableNumber) { 
-    let html = `
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
     
-    <table id="${tableNumber}" title="The Glory of Mary">
+    <table id="table_${tableNumber}" title="The Glory of Mary">
         <caption id="caption_table_${tableNumber}" class="caption">The Glory of Mary
         <span class="arabic-caption">مجد مريم يتعظم</span></caption>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_0">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
             <tr id="table_${tableNumber}_row_1" class="Refrain">
                 <td class="english">The glory of Mary is magnified,</td>
                 <td class="enPhonicsSongs">Magdo mariam yata3azam</td>
@@ -3977,7 +4648,7 @@ function theGloryOfMary(tableNumber) {
                 <td class="arabic">ملكوها في القلوب</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_2">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
             <tr id="table_${tableNumber}_row_5" class="south">
                 <td class="english">She is the highest shing star;</td>
                 <td class="enPhonicsSongs">Qad talalat wa ta3alat</td>
@@ -3999,7 +4670,7 @@ function theGloryOfMary(tableNumber) {
                 <td class="arabic">فلتطوبني الشعوب</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_3">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
             <tr id="table_${tableNumber}_row_9" class="refrain">
                 <td class="english">The glory of Mary is magnified,</td>
                 <td class="enPhonicsSongs">Magdo mariam yata3azam</td>
@@ -4021,7 +4692,7 @@ function theGloryOfMary(tableNumber) {
                 <td class="arabic">ملكوها في القلوب</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_4">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
             <tr id="table_${tableNumber}_row_13" class="north">
                 <td class="english">The angel said, “The Holy Spirit</td>
                 <td class="enPhonicsSongs">Qad talalat wa ta3alat</td>
@@ -4043,7 +4714,7 @@ function theGloryOfMary(tableNumber) {
                 <td class="arabic">فلتطوبني الشعوب</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_5">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_5">
             <tr id="table_${tableNumber}_row_17" class="refrain">
                 <td class="english">The glory of Mary is magnified,</td>
                 <td class="enPhonicsSongs">Magdo mariam yata3azam</td>
@@ -4065,7 +4736,7 @@ function theGloryOfMary(tableNumber) {
                 <td class="arabic">ملكوها في القلوب</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_6">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_6">
             <tr id="table_${tableNumber}_row_21" class="south">
                 <td class="english">She is our hope when we are hopeless.</td>
                 <td class="enPhonicsSongs">Heya ragakom fi shaqakom</td>
@@ -4087,7 +4758,7 @@ function theGloryOfMary(tableNumber) {
                 <td class="arabic">لحماها طالبين</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_7">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_7">
             <tr id="table_${tableNumber}_row_25" class="refrain">
                 <td class="english">The glory of Mary is magnified,</td>
                 <td class="enPhonicsSongs">Magdo mariam yata3azam</td>
@@ -4109,7 +4780,7 @@ function theGloryOfMary(tableNumber) {
                 <td class="arabic">ملكوها في القلوب</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_8">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_8">
             <tr id="table_${tableNumber}_row_29" class="north">
                 <td class="english">She is known to all her children</td>
                 <td class="enPhonicsSongs">Qad ra’aha wastafaha</td>
@@ -4131,7 +4802,7 @@ function theGloryOfMary(tableNumber) {
                 <td class="arabic">لمعونتكم تميل</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_9">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_9">
             <tr id="table_${tableNumber}_row_33" class="refrain">
                 <td class="english">The glory of Mary is magnified,</td>
                 <td class="enPhonicsSongs">Magdo mariam yata3azam</td>
@@ -4153,7 +4824,7 @@ function theGloryOfMary(tableNumber) {
                 <td class="arabic">ملكوها في القلوب</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_10">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_10">
             <tr id="table_${tableNumber}_row_37" class="south">
                 <td class="english">Remember us and have pity;</td>
                 <td class="enPhonicsSongs">Ozkorina wanzorina</td>
@@ -4175,7 +4846,7 @@ function theGloryOfMary(tableNumber) {
                 <td class="arabic">بين صف العابدين</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_11">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_11">
             <tr id="table_${tableNumber}_row_41" class="refrain">
                 <td class="english">The glory of Mary is magnified,</td>
                 <td class="enPhonicsSongs">Magdo mariam yata3azam</td>
@@ -4197,7 +4868,7 @@ function theGloryOfMary(tableNumber) {
                 <td class="arabic">ملكوها في القلوب</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_12">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_12">
             <tr id="table_${tableNumber}_row_45" class="north">
                 <td class="english">Help us and guide us</td>
                 <td class="enPhonicsSongs">Engedina warshedina</td>
@@ -4219,7 +4890,7 @@ function theGloryOfMary(tableNumber) {
                 <td class="arabic">لإبنك حسن الوداد</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_13">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_13">
             <tr id="table_${tableNumber}_row_49" class="refrain">
                 <td class="english">The glory of Mary is magnified,</td>
                 <td class="enPhonicsSongs">Magdo mariam yata3azam</td>
@@ -4241,7 +4912,7 @@ function theGloryOfMary(tableNumber) {
                 <td class="arabic">ملكوها في القلوب</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_14">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_14">
             <tr id="table_${tableNumber}_row_53" class="south">
                 <td class="english">Don’t tire of praying</td>
                 <td class="enPhonicsSongs">La tamali an tosali</td>
@@ -4263,7 +4934,7 @@ function theGloryOfMary(tableNumber) {
                 <td class="arabic">إنك الملجأ الأمين</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_15">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_15">
             <tr id="table_${tableNumber}_row_57" class="refrain">
                 <td class="english">The glory of Mary is magnified,</td>
                 <td class="enPhonicsSongs">Magdo mariam yata3azam</td>
@@ -4285,7 +4956,7 @@ function theGloryOfMary(tableNumber) {
                 <td class="arabic">ملكوها في القلوب</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_16">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_16">
             <tr id="table_${tableNumber}_row_61" class="north">
                 <td class="english">And we ask to be granted,</td>
                 <td class="enPhonicsSongs">Thoma nas’al an no’ahal</td>
@@ -4307,7 +4978,7 @@ function theGloryOfMary(tableNumber) {
                 <td class="arabic">مدحك علي الدوام</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_17">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_17">
             <tr id="table_${tableNumber}_row_65" class="refrain">
                 <td class="english">The glory of Mary is magnified,</td>
                 <td class="enPhonicsSongs">Magdo mariam yata3azam</td>
@@ -4336,12 +5007,15 @@ function theGloryOfMary(tableNumber) {
     }
 
 function trulyRisen(tableNumber) { 
-    let html = `
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
     
-    <table id="${tableNumber}" title="Truly Risen">
+    <table id="table_${tableNumber}" title="Truly Risen">
         <caption id="caption_table_${tableNumber}" class="caption">Truly Risen
         <span class="arabic-caption">قام حقاً</span></caption>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_0">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
             <tr id="table_${tableNumber}_row_1" class="Refrain">
                 <td class="english">Truly risen is the King of Peace,</td>
                 <td class="arabic">قام حقا قام رئيس السلام</td>
@@ -4351,7 +5025,7 @@ function trulyRisen(tableNumber) {
                 <td class="arabic">هلليلويا هلليلويا الرب قام.</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_2">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
             <tr id="table_${tableNumber}_row_3" class="north">
                 <td class="english">Mary went on Sunday at the time of dawn,</td>
                 <td class="arabic">مريم قد ذهبت فجر الأحد،</td>
@@ -4361,7 +5035,7 @@ function trulyRisen(tableNumber) {
                 <td class="arabic">بأطياب وحنوط للجسد.</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_3">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
             <tr id="table_${tableNumber}_row_5" class="south">
                 <td class="english">She found the stone already rolled away,</td>
                 <td class="arabic">ويسوع قام حقا وانتصر،</td>
@@ -4371,7 +5045,7 @@ function trulyRisen(tableNumber) {
                 <td class="arabic">ولذا الملاك دحرج الحجر.</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_4">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
             <tr id="table_${tableNumber}_row_7" class="north">
                 <td class="english">But Mary was outside weeping,</td>
                 <td class="arabic">أما مريم فكانت خارجاً،</td>
@@ -4381,7 +5055,7 @@ function trulyRisen(tableNumber) {
                 <td class="arabic">ببكاء ترى قبرا فارغاً.</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_5">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_5">
             <tr id="table_${tableNumber}_row_9" class="south">
                 <td class="english">She saw Jesus as a strange man,</td>
                 <td class="arabic">نظرت يسوع كشخص غريب،</td>
@@ -4391,7 +5065,7 @@ function trulyRisen(tableNumber) {
                 <td class="arabic">ولا تدرى أنه شخص حبيب.</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_6">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_6">
             <tr id="table_${tableNumber}_row_11" class="north">
                 <td class="english">While crying she asked O Master,</td>
                 <td class="arabic">فقالت وهي تبكي يا سيدي،</td>
@@ -4401,7 +5075,7 @@ function trulyRisen(tableNumber) {
                 <td class="arabic">أين ربى وحبيبي أجد.</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_7">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_7">
             <tr id="table_${tableNumber}_row_13" class="south">
                 <td class="english">He said to her O Mary rejoice,</td>
                 <td class="arabic">فقال لها يا مريم أبشرى،</td>
@@ -4411,7 +5085,7 @@ function trulyRisen(tableNumber) {
                 <td class="arabic">وإذهبي لإخوتى وأخبري.</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_8">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_8">
             <tr id="table_${tableNumber}_row_15" class="north">
                 <td class="english">Mary went to His beloved disciples</td>
                 <td class="arabic">مريم مضت لرسله الكرام،</td>
@@ -4421,7 +5095,7 @@ function trulyRisen(tableNumber) {
                 <td class="arabic">بنداها بشرت الرب قام.</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_9">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_9">
             <tr id="table_${tableNumber}_row_17" class="south">
                 <td class="english">Jesus Himself truly came among them,</td>
                 <td class="arabic">ويسوع نفسه جاء وسطهم،</td>
@@ -4431,7 +5105,7 @@ function trulyRisen(tableNumber) {
                 <td class="arabic">ولهم قد قال سلام لكم.</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_10">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_10">
             <tr id="table_${tableNumber}_row_19" class="north">
                 <td class="english">He showed them His hands and also His side,</td>
                 <td class="arabic">أراهم يديه أيضاً جنبه،</td>
@@ -4441,7 +5115,7 @@ function trulyRisen(tableNumber) {
                 <td class="arabic">ففرحوا حين رأوا شخصه.</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_11">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_11">
             <tr id="table_${tableNumber}_row_21" class="south">
                 <td class="english">Alleluia, this news is very true,</td>
                 <td class="arabic">هلليلويا قد تحقق الخبر،</td>
@@ -4451,7 +5125,7 @@ function trulyRisen(tableNumber) {
                 <td class="arabic">هلليلويا قام حقا وانتصر.</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_12">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_12">
             <tr id="table_${tableNumber}_row_23" class="north">
                 <td class="english">Alleluia, for the Savior of mankind,</td>
                 <td class="arabic">هلليلويا لمخلص البشر،</td>
@@ -4461,7 +5135,7 @@ function trulyRisen(tableNumber) {
                 <td class="arabic">هلليلويا شوكة الموت كسر.</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_13">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_13">
             <tr id="table_${tableNumber}_row_25" class="south">
                 <td class="english">Alleluia risen is the King of Peace,</td>
                 <td class="arabic">هلليلويا قام رئيس السلام،</td>
@@ -4479,12 +5153,15 @@ function trulyRisen(tableNumber) {
 
 
 function veryEarlySundayMorning(tableNumber) { 
-    let html = `
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
     
-    <table id="${tableNumber}" title="Very Early Sunday Morning">
+    <table id="table_${tableNumber}" title="Very Early Sunday Morning">
         <caption id="caption_table_${tableNumber}" class="caption">Very Early Sunday Morning
         <span class="arabic-caption">عند شق الفجر باكر</span></caption>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_0">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
             <tr id="table_${tableNumber}_row_1" class="North">
                 <td class="english">Very early Sunday morning,</td>
                 <td class="arabic">عند شق الفجر باكر</td>
@@ -4502,7 +5179,7 @@ function veryEarlySundayMorning(tableNumber) {
                 <td class="arabic">شعبه للأبد</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_2">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
             <tr id="table_${tableNumber}_row_5" class="refrain">
                 <td class="english">Resurrection is my song,</td>
                 <td class="arabic">أنت دست الموت وحدك</td>
@@ -4520,7 +5197,7 @@ function veryEarlySundayMorning(tableNumber) {
                 <td class="arabic">بالجمال الباهر</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_3">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
             <tr id="table_${tableNumber}_row_9" class="south">
                 <td class="english">Jesus is risen in glory,</td>
                 <td class="arabic">كسر الموت جلاله</td>
@@ -4538,7 +5215,7 @@ function veryEarlySundayMorning(tableNumber) {
                 <td class="arabic">بان بالنور الخطير</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_4">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
             <tr id="table_${tableNumber}_row_13" class="north">
                 <td class="english">Mary Magdalene was looking,</td>
                 <td class="arabic">قام بكر الراقدين</td>
@@ -4556,7 +5233,7 @@ function veryEarlySundayMorning(tableNumber) {
                 <td class="arabic">قام من بعد الوفاة</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_5">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_5">
             <tr id="table_${tableNumber}_row_17" class="refrain">
                 <td class="english">Resurrection is my song,</td>
                 <td class="arabic">أنت دست الموت وحدك</td>
@@ -4574,7 +5251,7 @@ function veryEarlySundayMorning(tableNumber) {
                 <td class="arabic">بالجمال الباهر</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_6">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_6">
             <tr id="table_${tableNumber}_row_21" class="south">
                 <td class="english">All the disciples were praying,</td>
                 <td class="arabic">ها سيوف النصر سلت</td>
@@ -4592,7 +5269,7 @@ function veryEarlySundayMorning(tableNumber) {
                 <td class="arabic">هاربين سرمدا</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_7">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_7">
             <tr id="table_${tableNumber}_row_25" class="north">
                 <td class="english">While they were in the room,</td>
                 <td class="arabic">قمت من بين اللحود</td>
@@ -4610,7 +5287,7 @@ function veryEarlySundayMorning(tableNumber) {
                 <td class="arabic">لرقود في القبور</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_8">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_8">
             <tr id="table_${tableNumber}_row_29" class="refrain">
                 <td class="english">Resurrection is my song,</td>
                 <td class="arabic">أنت دست الموت وحدك</td>
@@ -4628,7 +5305,7 @@ function veryEarlySundayMorning(tableNumber) {
                 <td class="arabic">بالجمال الباهر</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_9">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_9">
             <tr id="table_${tableNumber}_row_33" class="south">
                 <td class="english">But Thomas did not believe,</td>
                 <td class="arabic">و جموع الناس عادت</td>
@@ -4646,7 +5323,7 @@ function veryEarlySundayMorning(tableNumber) {
                 <td class="arabic">قام حقا قام قام</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_10">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_10">
             <tr id="table_${tableNumber}_row_37" class="north">
                 <td class="english">The heavenly hosts were singing,</td>
                 <td class="arabic">و الجنود العلوية</td>
@@ -4664,7 +5341,7 @@ function veryEarlySundayMorning(tableNumber) {
                 <td class="arabic">فوق في دار الأبد</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_11">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_11">
             <tr id="table_${tableNumber}_row_41" class="refrain">
                 <td class="english">Resurrection is my song,</td>
                 <td class="arabic">أنت دست الموت وحدك</td>
@@ -4682,7 +5359,7 @@ function veryEarlySundayMorning(tableNumber) {
                 <td class="arabic">بالجمال الباهر</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_12">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_12">
             <tr id="table_${tableNumber}_row_45" class="south">
                 <td class="english">Alleluia Alleluia,</td>
                 <td class="arabic">دخلوا المجد العليا</td>
@@ -4707,12 +5384,15 @@ function veryEarlySundayMorning(tableNumber) {
 }
 
 function watchingUs(tableNumber) { 
-    let html = `
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
     
-    <table id="${tableNumber}" title="Watching us">
+    <table id="table_${tableNumber}" title="Watching us">
         <caption id="caption_table_${tableNumber}" class="caption">Watching us
         <span class="arabic-caption">سامعانا .. شايفانا .. فاكرانا</span></caption>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_0">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
             <tr id="table_${tableNumber}_row_1" class="Refrain">
                 <td class="english">Watching us, hearing us, loving us,</td>
                 <td class="enPhonicsSongs">Sam3ana, Shayfana, Fakrana</td>
@@ -4734,7 +5414,7 @@ function watchingUs(tableNumber) {
                 <td class="arabic">وإحنا إخواته نبقى ولادها وترعانا</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_2">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
             <tr id="table_${tableNumber}_row_5" class="north">
                 <td class="english">She’s in heaven in her glory</td>
                 <td class="enPhonicsSongs">Felsama heya bemagd 3azeem</td>
@@ -4756,7 +5436,7 @@ function watchingUs(tableNumber) {
                 <td class="arabic">عنا دي أم وإحنا بنين</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_3">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
             <tr id="table_${tableNumber}_row_9" class="refrain">
                 <td class="english">Watching us, hearing us, loving us,</td>
                 <td class="enPhonicsSongs">Sam3ana, Shayfana, Fakrana</td>
@@ -4778,7 +5458,7 @@ function watchingUs(tableNumber) {
                 <td class="arabic">وإحنا إخواته نبقى ولادها وترعانا</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_4">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
             <tr id="table_${tableNumber}_row_13" class="south">
                 <td class="english">She´s in heaven but she appears</td>
                 <td class="enPhonicsSongs">Felsama heya bas betezhar</td>
@@ -4800,7 +5480,7 @@ function watchingUs(tableNumber) {
                 <td class="arabic">وتثبتنا على الإيمان</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_5">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_5">
             <tr id="table_${tableNumber}_row_17" class="refrain">
                 <td class="english">Watching us, hearing us, loving us,</td>
                 <td class="enPhonicsSongs">Sam3ana, Shayfana, Fakrana</td>
@@ -4822,7 +5502,7 @@ function watchingUs(tableNumber) {
                 <td class="arabic">وإحنا إخواته نبقى ولادها وترعانا</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_6">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_6">
             <tr id="table_${tableNumber}_row_21" class="north">
                 <td class="english">She´s in heaven but she sees,</td>
                 <td class="enPhonicsSongs">Felsama heya laken shayfa</td>
@@ -4844,7 +5524,7 @@ function watchingUs(tableNumber) {
                 <td class="arabic">جاءت حلت الحديد</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_7">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_7">
             <tr id="table_${tableNumber}_row_25" class="refrain">
                 <td class="english">Watching us, hearing us, loving us,</td>
                 <td class="enPhonicsSongs">Sam3ana, Shayfana, Fakrana</td>
@@ -4866,7 +5546,7 @@ function watchingUs(tableNumber) {
                 <td class="arabic">وإحنا إخواته نبقى ولادها وترعانا</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_8">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_8">
             <tr id="table_${tableNumber}_row_29" class="south">
                 <td class="english">She´s in heaven but she hears</td>
                 <td class="enPhonicsSongs">Felsama heya laken sam3a</td>
@@ -4888,7 +5568,7 @@ function watchingUs(tableNumber) {
                 <td class="arabic">دباغ ينقل المقطم</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_9">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_9">
             <tr id="table_${tableNumber}_row_33" class="refrain">
                 <td class="english">Watching us, hearing us, loving us,</td>
                 <td class="enPhonicsSongs">Sam3ana, Shayfana, Fakrana</td>
@@ -4910,7 +5590,7 @@ function watchingUs(tableNumber) {
                 <td class="arabic">وإحنا إخواته نبقى ولادها وترعانا</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_10">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_10">
             <tr id="table_${tableNumber}_row_37" class="north">
                 <td class="english">She´s in heaven but she leaves</td>
                 <td class="enPhonicsSongs">Felsama heya laken fakra</td>
@@ -4932,7 +5612,7 @@ function watchingUs(tableNumber) {
                 <td class="arabic">وإحنا نشوفها إيمان وعيان</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_11">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_11">
             <tr id="table_${tableNumber}_row_41" class="refrain">
                 <td class="english">Watching us, hearing us, loving us,</td>
                 <td class="enPhonicsSongs">Sam3ana, Shayfana, Fakrana</td>
@@ -4961,12 +5641,15 @@ function watchingUs(tableNumber) {
 }
 
 function yourLoveOMary(tableNumber) { 
-    let html = `
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
     
-    <table id="${tableNumber}" title="Your Love, O Mary">
+    <table id="table_${tableNumber}" title="Your Love, O Mary">
         <caption id="caption_table_${tableNumber}" class="caption">Your Love, O Mary
         <span class="arabic-caption">حُبُكِ يا مريم</span></caption>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_0">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
             <tr id="table_${tableNumber}_row_1" class="Refrain">
                 <td class="english">Your love, O Mary</td>
                 <td class="enPhonicsSongs">7oboki ya mariam</td>
@@ -4988,7 +5671,7 @@ function yourLoveOMary(tableNumber) {
                 <td class="arabic">كوني أمنا</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_2">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
             <tr id="table_${tableNumber}_row_5" class="north">
                 <td class="english">Your Son reminded you of us,</td>
                 <td class="enPhonicsSongs">Ebnoki awsaki</td>
@@ -5010,7 +5693,7 @@ function yourLoveOMary(tableNumber) {
                 <td class="arabic">في شخصِ الحبيب</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_3">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
             <tr id="table_${tableNumber}_row_9" class="south">
                 <td class="english">As our kind mother,</td>
                 <td class="enPhonicsSongs">Kal om el 7anoona</td>
@@ -5032,7 +5715,7 @@ function yourLoveOMary(tableNumber) {
                 <td class="arabic">منكِ للبنين</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_4">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
             <tr id="table_${tableNumber}_row_13" class="refrain">
                 <td class="english">Your love, O Mary</td>
                 <td class="enPhonicsSongs">7oboki ya mariam</td>
@@ -5054,7 +5737,7 @@ function yourLoveOMary(tableNumber) {
                 <td class="arabic">كونى أمنا</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_5">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_5">
             <tr id="table_${tableNumber}_row_17" class="north">
                 <td class="english">When we have hope in you,</td>
                 <td class="enPhonicsSongs">Kol ma nargoki</td>
@@ -5076,7 +5759,7 @@ function yourLoveOMary(tableNumber) {
                 <td class="arabic">من وادي النَحِيب</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_6">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_6">
             <tr id="table_${tableNumber}_row_21" class="south">
                 <td class="english">We ask for protection,</td>
                 <td class="enPhonicsSongs">Nargoki el7emaya</td>
@@ -5098,7 +5781,7 @@ function yourLoveOMary(tableNumber) {
                 <td class="arabic">في يوم النشور</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_7">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_7">
             <tr id="table_${tableNumber}_row_25" class="refrain">
                 <td class="english">Your love, O Mary</td>
                 <td class="enPhonicsSongs">7oboki ya mariam</td>
@@ -5120,7 +5803,7 @@ function yourLoveOMary(tableNumber) {
                 <td class="arabic">كوني أمنا</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_8">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_8">
             <tr id="table_${tableNumber}_row_29" class="north">
                 <td class="english">O Mother of yearning,</td>
                 <td class="enPhonicsSongs">Ya om al raga’</td>
@@ -5142,7 +5825,7 @@ function yourLoveOMary(tableNumber) {
                 <td class="arabic">حُبُكِ السبيل</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_9">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_9">
             <tr id="table_${tableNumber}_row_33" class="south">
                 <td class="english">The mother said,</td>
                 <td class="enPhonicsSongs">Qalat el ‘a’ema</td>
@@ -5164,7 +5847,7 @@ function yourLoveOMary(tableNumber) {
                 <td class="arabic">منك تستفاد</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_10">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_10">
             <tr id="table_${tableNumber}_row_37" class="refrain">
                 <td class="english">Your love, O Mary</td>
                 <td class="enPhonicsSongs">7oboki ya mariam</td>
@@ -5186,7 +5869,7 @@ function yourLoveOMary(tableNumber) {
                 <td class="arabic">كوني أمنا</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_11">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_11">
             <tr id="table_${tableNumber}_row_41" class="north">
                 <td class="english">The fortune of the servants,</td>
                 <td class="enPhonicsSongs">La yakon ya mariam</td>
@@ -5208,7 +5891,7 @@ function yourLoveOMary(tableNumber) {
                 <td class="arabic">مثل الكافرين</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_12">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_12">
             <tr id="table_${tableNumber}_row_45" class="south">
                 <td class="english">Show us your glory,</td>
                 <td class="enPhonicsSongs">Ezheri sakhaki</td>
@@ -5230,7 +5913,7 @@ function yourLoveOMary(tableNumber) {
                 <td class="arabic">طالب وخاب</td>
             </tr>
         </tbody>
-        <tbody class="scaling-container" id="table_${tableNumber}_tbody_13">
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_13">
             <tr id="table_${tableNumber}_row_49" class="refrain">
                 <td class="english">Your love, O Mary</td>
                 <td class="enPhonicsSongs">7oboki ya mariam</td>
@@ -5258,8 +5941,34 @@ function yourLoveOMary(tableNumber) {
     `;return html;
     }
 
-export { amenAmenCome , beFaithfulUntoDeath , blessedAreYouOMary , dontLeaveMeAlone , drawAPortraitOfTheVirgin , 
-    hailToYouOMotherOfComfort , hailToMary , howSweetAreYouOMary , iCanHearMySaviorCalling , inTheShadeOfYourProtection , 
-    oBeloved, oMaryOurMotherTheBelovedOfUsAll , oMaryOurMotherYouAreTheMotherOfOurLord , oMotherOfLight , oMotherOfLightOBeautiful ,
-    oSeekerToMeetJesus , ourMotherOVirgin , overTheDomes , oVirginMary , oVirginMyMotherShine, oYouWhoReceivedTheMostHonorableGift , theGloryOfMary , 
-    trulyRisen , veryEarlySundayMorning , watchingUs , yourLoveOMary};
+export {
+  amenAmenCome,
+  beFaithfulUntoDeath,
+  blessedAreYouOMary,
+  shineBright,
+  dontLeaveMeAlone,
+  drawAPortraitOfTheVirgin,
+  hailToYouOMotherOfComfort,
+  hailToMary,
+  howSweetAreYouOMary,
+  iCanHearMySaviorCalling,
+  inTheShadeOfYourProtection,
+  myCopticChurch,
+  myCopticChurchSoGreat,
+  oBeloved,
+  oMaryOurMotherTheBelovedOfUsAll,
+  oMaryOurMotherYouAreTheMotherOfOurLord,
+  oMotherOfLight,
+  oMotherOfLightOBeautiful,
+  oSeekerToMeetJesus,
+  ourMotherOVirgin,
+  overTheDomes,
+  oVirginMary,
+  oVirginMyMotherShine,
+  oYouWhoReceivedTheMostHonorableGift,
+  theGloryOfMary,
+  trulyRisen,
+  veryEarlySundayMorning,
+  watchingUs,
+  yourLoveOMary,
+};

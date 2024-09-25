@@ -15,14 +15,16 @@ const defaultSettings = {
   ],
   onePage: [
     { label: 'Paschal Praise', value: 'PaschalPraise', checked: true },
-    { label: 'Exposition Responses', value: 'ExpositionResponses', checked: false },
-    { label: 'Gospel Coptic Intro', value: 'GospelIntro', checked: false },
+    { label: 'Exposition Responses', value: 'ExpositionResponses', checked: true },
+    { label: 'Gospel Coptic Intro', value: 'GospelIntro', checked: true },
+    { label: 'Glorification Paragraphs', value: 'Glorification', checked: true },
+    { label: 'Songs', value: 'Songs', checked: true },
   ]
 };
 
 const SettingsProvider = ({ children }) => {
   const [settings, setSettings] = useState(defaultSettings);
-  const currentVersion = 6;  // Update this number when you want to change the settings
+  const currentVersion = 8;  // Update this number when you want to change the settings
 
   useEffect(() => {
     AsyncStorage.getItem('settings').then(storedData => {

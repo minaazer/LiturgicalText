@@ -1,4 +1,4 @@
-import { extractTableTitlesAndIds , paginateTablesGlorification , sendMessage , adjustOverlayGlorification , setOverlays , clearOverlays } from "./javaScripts";
+import { extractTableTitlesAndIds , paginateTables , sendMessage , adjustOverlay , setOverlays , clearOverlays } from "./javaScripts";
 
 export const htmlRenderScript = `
 
@@ -11,7 +11,7 @@ window.onload = function() {
 /** @format */
 
 // Handle pagination
-${paginateTablesGlorification}
+${paginateTables}
 
 // Handle table of contents
 ${extractTableTitlesAndIds}
@@ -20,7 +20,7 @@ ${extractTableTitlesAndIds}
 ${sendMessage}
 
 // Handle overlay
-${adjustOverlayGlorification}
+${adjustOverlay}
 ${setOverlays}
 ${clearOverlays}
 

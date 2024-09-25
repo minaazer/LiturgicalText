@@ -25,6 +25,8 @@ export const stMarySongs = () => {
 
 
     return `
+    <div class="section" id="section_1">
+
     ${blessedAreYouOMaryHtml}
     ${drawAPortraitOfTheVirginHtml}
     ${hailToYouOMotherOfComfortHtml}
@@ -43,5 +45,7 @@ export const stMarySongs = () => {
     ${theGloryOfMaryHtml}
     ${watchingUsHtml}
     ${yourLoveOMaryHtml}
+    <div class="section" id="section_1">
+
 `
 };  

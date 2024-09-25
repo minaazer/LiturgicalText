@@ -6,6 +6,7 @@ export const useDynamicStyles = (webviewRef) => {
     const [settings] = useContext(SettingsContext);
     const [fontSize, setFontSize] = useState(3.5);
     const [titleFontSize, setTitleFontSize] = useState(4);
+    const [linkFontSize, setLinkFontSize] = useState(5);
     const [visibleLangues, setVisibleLangues] = useState([
         { label: 'English', value: 'English' , checked: true },
         { label: 'Arabic', value: 'Arabic' , checked: true },
@@ -19,6 +20,7 @@ export const useDynamicStyles = (webviewRef) => {
         if (settings.fontSize) {
             setFontSize(settings.fontSize);
             setTitleFontSize(parseFloat(settings.fontSize) + 0.5);
+            setLinkFontSize(parseFloat(settings.fontSize) + 2);
             webviewRef.current.injectJavaScript(`paginateTables();`);
             webviewRef.current.injectJavaScript(`clearOverlays()`);
             webviewRef.current.injectJavaScript(`adjustOverlay();`);
@@ -193,6 +195,38 @@ break-before: auto;
     display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'flex'};
 }
 
+.navigationLink {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: ${linkFontSize}vw;
+    color: red !important;
+    background-color: 'black' !important;
+    font-weight: bold;
+    padding: 3px;
+    margin: 10px;
+    border-radius: 10px;
+    text-decoration: underline;
+    font-style: italic;
+    
+}
+
+.arabicLink {
+    flex: 2; /* 40% width */
+    text-align: center;
+    direction: rtl;
+    padding-left: 10px;
+    display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'flex'};
+
+}
+
+.englishLink {
+    flex: 3; /* 60% width */
+    font-family: 'Georgia' !important;
+    padding-right: 10px;
+    text-align: center;
+    display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'flex'};
+}
 
 h1 {
     font-size: ${fontSize}vw !important;
@@ -207,7 +241,7 @@ body {
  width: 100% !important;
  margin-top: 0px;
  padding-top: 0px;
- margin-bottom: 500px;
+ margin-bottom: 1000px;
 }
 
 div {

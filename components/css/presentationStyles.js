@@ -14,6 +14,17 @@ export const presentationStyles = StyleSheet.create({
       paddingVertical: 0,
       backgroundColor: 'black',
     },
+    loadingContainer: {
+      position: 'absolute',
+      left: 0,
+      top: 0,
+      right: 0,
+      bottom: 0,
+      justifyContent: 'center',
+      alignItems: 'center',
+      backgroundColor: 'black',
+      zIndex: 10, // To ensure it is above the webview
+    },
     webview: {
       flex: 1,
       pointerEvents: 'none',
@@ -289,6 +300,44 @@ export const presentationStyles = StyleSheet.create({
       marginVertical: 5,
       paddingHorizontal: 5,
       width: "100%",
+    },
+    searchContainer: {
+      paddingTop: 5,
+      marginTop: -5,
+      backgroundColor: '#003060', // Make the background visible
+      borderBottomWidth: 1,
+      borderBottomColor: '#ccc', // Add a border for separation
+    },
+    searchInput: {
+      height: 40,
+      borderColor: '#003060',
+      borderWidth: 2,
+      borderRadius: 5,
+      paddingHorizontal: 10,
+      marginHorizontal: 10,
+      marginBottom: 5,
+      backgroundColor: '#fff',
+    },
+
+    sortContainer: {
+      flexDirection: 'row',
+      justifyContent: 'space-around',
+      padding: 7,
+    },
+    sortButton: {
+      padding: 0,
+      backgroundColor: '#003060',
+      borderRadius: 5,
+    },
+    sortButtonText: {
+      fontSize: 16,
+      color: 'white',
+    },
+    activeSortButton: {
+      fontSize: 16,
+      color: '#e19d09', // Active sort button color
+      // make it bold
+      fontWeight: 'bold',
     },
 
 

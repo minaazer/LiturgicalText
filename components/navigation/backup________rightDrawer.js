@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
-import React from 'react';
-import { View, Text } from 'react-native';
+import React , { useState} from 'react';
+import { View, Text, TextInput } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { DrawerContentScrollView, DrawerItem , createDrawerNavigator } from '@react-navigation/drawer';
 import { useNavigation } from '@react-navigation/native';
@@ -10,11 +10,35 @@ import { MainContent } from '../functions/mainContent';
 
 const screenWidth = Dimensions.get('window').width;
 
-const RightDrawerContent = ({ currentTable, drawerItems,  handleDrawerItemPress, navigation, props }) => {
-  
+const RightDrawerContent = ({ currentTable, drawerItems, handleDrawerItemPress, navigation, props }) => {
+  // State to store the search query
+  const [searchQuery, setSearchQuery] = useState('');
+
+  // Filter the drawer items based on the search query
+  const filteredItems = drawerItems.filter(item => {
+    const searchText = searchQuery.toLowerCase();
+    const englishText = item.title.english?.toLowerCase() || '';
+    const copticText = item.title.coptic?.toLowerCase() || '';
+    const arabicText = item.title.arabic?.toLowerCase() || '';
+
+    // Check if any of the languages match the search query
+    return englishText.includes(searchText) || copticText.includes(searchText) || arabicText.includes(searchText);
+  });
+
   return (
     <DrawerContentScrollView {...props}>
-      {drawerItems.map((item, index) => {
+      {/* Search bar */}
+      <View style={presentationStyles.searchContainer}>
+        <TextInput
+          style={presentationStyles.searchInput}
+          placeholder="Search..."
+          value={searchQuery}
+          onChangeText={(text) => setSearchQuery(text)}
+        />
+      </View>
+
+      {/* Render filtered drawer items */}
+      {filteredItems.map((item, index) => {
         const isActive = item.id === currentTable;
 
         return (
@@ -51,6 +75,7 @@ const RightDrawerContent = ({ currentTable, drawerItems,  handleDrawerItemPress,
     </DrawerContentScrollView>
   );
 };
+
   
 const drawerMenu = createDrawerNavigator();
 
