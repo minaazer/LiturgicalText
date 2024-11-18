@@ -1,19 +1,25 @@
 
-import React, { useContext } from 'react';
-import { StyleSheet, Text, View, Dimensions, ScrollView, TouchableOpacity , Platform } from 'react-native';
+import React, { useContext , useEffect , useState } from 'react';
+import { Text, View, ScrollView, TouchableOpacity } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
 import { Checkbox } from 'react-native-paper';
 import SettingsContext from '../../settings/settingsContext';
 import { useNavigation } from '@react-navigation/native';
+import { gregorianToCoptic } from '../functions/copticDate';
+import { presentationStyles } from '../css/presentationStyles';
 
-
-const screenWidth = Dimensions.get('window').width;
 
 const SettingsScreen = () => {
     const [settings, setSettings] = useContext(SettingsContext);
     const navigation = useNavigation();  // Use the useNavigation hook to access navigation functions
+    const [copticDate, setCopticDate] = useState(null);
 
+    useEffect(() => {
+        const today = new Date();  // Get the current date
+        const coptic = gregorianToCoptic(today);  // Convert to Coptic date
+        setCopticDate(coptic);  // Set the state with the Coptic date
 
+    }, []);
 
     const setFontSizeHandler = (value) => {
         // change the font size property in my settings object
@@ -62,18 +68,25 @@ const SettingsScreen = () => {
     }
 
     return (
-        <View style={styles.settingsScreen}>
-            <ScrollView contentContainerStyle={styles.container} style={styles.scrollView}>
+        <View style={presentationStyles.settingsScreen}>
+            <ScrollView contentContainerStyle={presentationStyles.settingsInnerContainer} style={presentationStyles.scrollView}>
 
-                <Text style={styles.title}>Settings</Text>
+                <Text style={presentationStyles.screenTitle}>Settings</Text>
+                {copticDate ? (
+                    <Text>
+                        Coptic Date: {copticDate.copticMonthName} {copticDate.copticDay}, {copticDate.copticYear}
+                    </Text>
+                ) : (
+                    <Text>Loading Coptic Date...</Text>
+                )}
 
-                <View style={styles.settingsContainer}>
+                <View style={presentationStyles.settingsContainer}>
 
-                    <View style={styles.fontSetting}>
-                        <Text style={styles.settingTitle}>Font Size</Text>
+                    <View style={presentationStyles.fontSetting}>
+                        <Text style={presentationStyles.settingTitle}>Font Size</Text>
                         <Picker
                             selectedValue={settings.fontSize}
-                            style={styles.picker}
+                            style={presentationStyles.picker}
                             onValueChange={(itemValue, itemIndex) => setFontSizeHandler(itemValue)}
                             dropdownIconColor={'black'}
                         >
@@ -94,15 +107,15 @@ const SettingsScreen = () => {
 
                     </View>
 
-                    <View style={styles.setting}>
+                    <View style={presentationStyles.setting}>
 
-                        <Text style={styles.settingTitle}>Display</Text>
+                        <Text style={presentationStyles.settingTitle}>Display</Text>
 
-                        <View style={styles.languagesContainer}>
+                        <View style={presentationStyles.languagesContainer}>
 
                             {settings.languages && settings.languages.map((language, index) => (
-                                <View key={index} style={styles.language}>
-                                    <Text style={styles.languageTitle}>{language.label}</Text>
+                                <View key={index} style={presentationStyles.language}>
+                                    <Text style={presentationStyles.languageTitle}>{language.label}</Text>
                                     <Checkbox
                                         status={language.checked ? 'checked' : 'unchecked'}
                                         onPress={() => setLanguagesHandler(index, !language.checked)}
@@ -114,15 +127,15 @@ const SettingsScreen = () => {
                         </View>
                     
                     </View>
-                    <View style={styles.setting}>
+                    <View style={presentationStyles.setting}>
 
-                        <Text style={styles.settingTitle}>Display on one page</Text>
+                        <Text style={presentationStyles.settingTitle}>Display on one page</Text>
 
-                        <View style={styles.languagesContainer}>
+                        <View style={presentationStyles.languagesContainer}>
 
                             {settings.onePage && settings.onePage.map((item, index) => (
-                                <View key={index} style={styles.language}>
-                                    <Text style={styles.languageTitle}>{item.label}</Text>
+                                <View key={index} style={presentationStyles.language}>
+                                    <Text style={presentationStyles.languageTitle}>{item.label}</Text>
                                     <Checkbox
                                         status={item.checked ? 'checked' : 'unchecked'}
                                         onPress={() => setOnePageHandler(index, !item.checked)}
@@ -134,126 +147,13 @@ const SettingsScreen = () => {
                         </View>
                     
                     </View>
-                    <TouchableOpacity style={styles.button} onPress={handleBackPress}>
-                            <Text style={styles.buttonText}>Apply Changes</Text>
-                        </TouchableOpacity>
+                    <TouchableOpacity style={presentationStyles.button} onPress={handleBackPress}>
+                            <Text style={presentationStyles.buttonText}>Apply Changes</Text>
+                    </TouchableOpacity>
                 </View>
-
             </ScrollView>
         </View>
     );
 }
-
-
-const styles = StyleSheet.create({
-
-    settingsScreen: {
-        backgroundColor: '#003060',
-        flex: 1,
-    },
-    scrollView: {
-        
-
-    },
-
-    container: {
-        //flex: 1,
-        backgroundColor: '#fff',
-        alignItems: 'center',
-        justifyContent: 'flex-start',
-        paddingTop: 10,
-        borderRadius: 20,
-        paddingBottom: 0,
-        marginHorizontal: 20,
-        marginVertical: 10,
-
-    },
-
-    title: {
-        fontSize: screenWidth * 0.04,
-        fontWeight: 'bold',
-        marginBottom: '0%',
-        color: '#e19d09',
-        marginTop: 15,
-
-
-    },
-
-    settingsContainer: {
-        width: '90%',
-        alignItems: 'center',
-        justifyContent: 'flex-start',
-    },
-
-    fontSetting: {
-        display: 'flex',
-        flexDirection: Platform.OS === 'ios' ? "column" : 'row',
-        alignItems: Platform.OS === 'ios' ? "flex-start" : 'center',
-        justifyContent: 'space-between',
-        width: '30%',
-        marginBottom: '1%',
-    },
-    picker: {
-        flex: 1,
-        width: Platform.OS === 'ios' ? "100%" : "auto",
-        overflow: "hidden",
-        
-    },
-
-    setting: {
-        width: '100%',
-        marginBottom: '1%',
-    },
-
-    settingTitle: {
-        fontSize: screenWidth * 0.03,
-        fontWeight: 'bold',
-        flex: 1,
-        color: 'black',
-        marginBottom: 10
-    },
-
-    languagesContainer: {
-        width: '100%',
-        flexDirection: Platform.OS === 'ios' ? 'column' : 'row',
-        justifyContent: 'space-between',
-        paddingTop: 5,
-        flexWrap: 'wrap',
-    },
-
-
-    language: {
-        width: Platform.OS === 'ios' ? '100%' : '30%',
-        display: "flex",
-        flexDirection: Platform.OS !== 'ios' ? 'column' : "row",
-        alignItems: 'center',
-        justifyContent: Platform.OS === 'ios' ? "flex-start" : 'center',
-    },
-
-    languageTitle: {
-        fontSize: 18,
-        fontWeight: 'bold',
-        marginBottom: '0%',
-        color: 'black',
-    },
-
-    button: {
-        backgroundColor: '#003060',
-        borderRadius: 20,
-        padding: 10,
-        marginBottom: 15,
-        marginTop: '0%',
-        justifyContent: 'center',
-        width: '30%',
-        
-    },
-    buttonText: {
-        color: 'white',
-        fontSize: 18,
-        fontWeight: 'bold',
-        textAlign: 'center',
-    }
-
-});
 
 export default SettingsScreen;

@@ -1,14 +1,26 @@
-import { extractTableTitlesAndIds , paginateTables , sendMessage , adjustOverlay , setOverlays , clearOverlays } from "./javaScripts";
+import { arabicNumbers , disableScrolling , extractTableTitlesAndIds , paginateTables , sendMessage , adjustOverlay , setOverlays , clearOverlays , showBlackScreen , removeBlackScreen , tableToggle , listenToButtonClicks , handleSpinner } from "./javaScripts";
 
 export const htmlRenderScript = `
 
 window.onload = function() {
-    extractTableTitlesAndIds();
-    paginateTables();
-    adjustOverlay();
+    injectSpinner();
+    showSpinner();
+    // change the spinner overlay color to black
+
+    // change body display to visible
+    setTimeout(() => {
+        convertArabicCaptions();
+        extractTableTitlesAndIds();
+        paginateTables();
+        hideSpinner(); // Hide spinner after processing
+    }, 25); // Adjust the delay as needed
+
+    listenToButtonClicks();
+    listenToTableCaptions();
 }
 
-/** @format */
+// Arabic caption numbers
+${arabicNumbers}
 
 // Handle pagination
 ${paginateTables}
@@ -24,5 +36,15 @@ ${adjustOverlay}
 ${setOverlays}
 ${clearOverlays}
 
+// Handle black screen
+${showBlackScreen}
+${removeBlackScreen}
+
+// Handle Buttons
+${tableToggle}
+${listenToButtonClicks}
+
+// Handle Spinner
+${handleSpinner}
 `
 

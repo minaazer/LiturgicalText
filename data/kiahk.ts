@@ -1,5 +1,6 @@
 import { cross , skip } from './repeatedPrayers';
 
+
 export const kiahk = () => {
 return `
 <body>
@@ -191,9 +192,9 @@ return `
             </tr>
             <tr id="table_0_row_25" class="south">
                 <td class="english" >O Lord, open my lips, and my mouth shall show
-                    forth Your praise.${cross}</td>
-                <td class="coptic" >Ⲡϭⲟⲓⲥ ⲉⲕⲉ̀ⲁ̀ⲟⲩⲱⲛ ⲛ̀ⲛⲁⲥ̀ⲫⲟⲧⲟⲩ : ⲟⲩⲟϩ ⲉ̀ⲣⲉ ⲣⲱⲓ ϫⲱ ⲙ̀ⲡⲉⲕⲥ̀ⲙⲟⲩ.${cross}</td>
-                <td class="arabic">يارب افتح شفتى. ولينطق فمى بتسبحتك.${cross}</td>
+                    forth Your praise. ${cross}</td>
+                <td class="coptic" >Ⲡϭⲟⲓⲥ ⲉⲕⲉ̀ⲁ̀ⲟⲩⲱⲛ ⲛ̀ⲛⲁⲥ̀ⲫⲟⲧⲟⲩ : ⲟⲩⲟϩ ⲉ̀ⲣⲉ ⲣⲱⲓ ϫⲱ ⲙ̀ⲡⲉⲕⲥ̀ⲙⲟⲩ. ${cross}</td>
+                <td class="arabic">يارب افتح شفتى. ولينطق فمى بتسبحتك. ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -288,9 +289,9 @@ return `
             <tr id="table_1_row_11" class="south">
                 <td class="english" >His foundation is in the holy mountains. The
                     Lord loves the gates of Zion more than all the dwellings of Jacob. Glorious things are spoken of
-                    You, O City of God. Alleluia.<br/><div class="lineBreak">${skip}</div></td>
+                    You, O City of God. Alleluia.<br/><div class="skipButton" data-navigation="table_1">${skip}</div></td>
                 <td class="arabic">أساساته في الجبال المقدسة: الرب أحب أبواب صهيون أفضل من جميع مساكن يعقوب أعمال كريمة
-                    قيلت من أجلك يا مدينة الله. الليلويا.<br/><div class="lineBreak">${skip}</div></td>
+                    قيلت من أجلك يا مدينة الله. الليلويا.<br/><div class="skipButton" data-navigation="table_1">${skip}</div></td>
             </tr>
             <tr id="table_1_row_12" class="north">
                 <td class="english" >And of Zion it shall be said: This and that
@@ -494,9 +495,9 @@ return `
                 <td class="arabic">المجد للاب والابن والروح القدس الان وكل أوان وإلي دهر الدهور</td>
             </tr>
             <tr id="table_1.5_row_42" class="north">
-                <td class="english" >Amen. Alleluia. Lord have mercy. Lord have mercy. Lord have mercy.${cross}</td>
-                <td class="coptic" >Ⲁ̀ⲙⲏⲛ ⲁⲗ̅. Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ. Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ. Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.${cross}</td>
-                <td class="arabic">آمين. هلليلويا. يارب ارحم يارب ارحم يارب ارحم.${cross}</td>
+                <td class="english" >Amen. Alleluia. Lord have mercy. Lord have mercy. Lord have mercy. ${cross}</td>
+                <td class="coptic" >Ⲁ̀ⲙⲏⲛ ⲁⲗ̅. Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ. Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ. Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ. ${cross}</td>
+                <td class="arabic">آمين. هلليلويا. يارب ارحم يارب ارحم يارب ارحم. ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -602,8 +603,8 @@ return `
             </tr>
             <tr id="table_2_row_19" class="south">
                 <td class="english" >Alleluia is praise: Hymns and songs: We
-                    cry out saying: Amen Alleluia<br/><div class="lineBreak">${skip}</div></td>
-                <td class="arabic">الليلويا تسبيح: وترتيل ومديح: بها نصرخ ونصيح: آمين الليلويا<div class="lineBreak">${skip}</div></td>
+                    cry out saying: Amen Alleluia<br/><div class="skipButton" data-navigation="table_2">${skip}</div></td>
+                <td class="arabic">الليلويا تسبيح: وترتيل ومديح: بها نصرخ ونصيح: آمين الليلويا<div class="skipButton" data-navigation="table_2">${skip}</div></td>
             </tr>
             <tr id="table_2_row_20" class="north">
                 <td class="english" >Alleluia is glorification: For a mighty
@@ -748,8 +749,8 @@ return `
                 <td class="arabic">واحفظ يارب الأرباب: سائر كل الأحباب: الحضار والغياب: آمين الليلويا</td>
             </tr>
             <tr id="table_2.5_row_47" class="south">
-                <td class="english" >And also protect the reader: Who said it to the audience: And living it in abundance: Amen Alleluia${cross}</td>
-                <td class="arabic">وأحفظ قاريها: والشارح لمعانيها: والعامل بما فيها: آمين الليلويا${cross}</td>
+                <td class="english" >And also protect the reader: Who said it to the audience: And living it in abundance: Amen Alleluia ${cross}</td>
+                <td class="arabic">وأحفظ قاريها: والشارح لمعانيها: والعامل بما فيها: آمين الليلويا ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -941,10 +942,10 @@ return `
             </tr>
             <tr id="table_3_row_23" class="south">
                 <td class="english" >The horse and its rider He has thrown
-                    into the sea, "Let us sing to the Lord for He has triumphed gloriously.&rdquo;${cross}</td>
+                    into the sea, "Let us sing to the Lord for He has triumphed gloriously.&rdquo; ${cross}</td>
                 <td class="coptic" >Ⲟⲩϩ̀ⲑⲟ ⲛⲉⲙ ⲟⲩϭⲁⲥⲓϩ̀ⲑⲟ ⲁϥⲃⲉⲣⲃⲱⲣⲟⲩ ⲉ̀ⲫ̀ⲓⲟⲙ:
-                    ϫⲉ ⲙⲁⲣⲉⲛϩⲱⲥ ⲉ̀Ⲡϭⲟⲓⲥ: ϫⲉ ϧⲉⲛ ⲟⲩⲱ̀ⲟⲩ ⲅⲁⲣ ⲁϥϭⲓⲱ̀ⲟⲩ.${cross}</td>
-                <td class="arabic">الفرس وراكب الفرس طرحهما فى البحر فلنسبح الرب لانه بالمجد قد تمجد.${cross}</td>
+                    ϫⲉ ⲙⲁⲣⲉⲛϩⲱⲥ ⲉ̀Ⲡϭⲟⲓⲥ: ϫⲉ ϧⲉⲛ ⲟⲩⲱ̀ⲟⲩ ⲅⲁⲣ ⲁϥϭⲓⲱ̀ⲟⲩ. ${cross}</td>
+                <td class="arabic">الفرس وراكب الفرس طرحهما فى البحر فلنسبح الرب لانه بالمجد قد تمجد. ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -1013,10 +1014,10 @@ return `
             </tr>
             <tr id="table_4_row_8" class="north">
                 <td class="english" >We worship You O Christ, with Your Good
-                    Father, and the Holy Spirit, for You have come and saved us.${cross}</td>
+                    Father, and the Holy Spirit, for You have come and saved us. ${cross}</td>
                 <td class="coptic" >Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ⲠⲓⲬⲣⲓⲥⲧⲟⲥ ⲛⲉⲙ ⲡⲉⲕⲓⲱⲧ
-                    ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ : ⲛⲉⲙ ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉ̀ⲑⲟⲩⲁⲃ : ϫⲉ ⲁⲕⲓ̀ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ.${cross}</td>
-                <td class="arabic">نسجد لك أيها المسيح مع أبيك الصالح والروح القدس لانك أتيت وخلصتنا.${cross}</td>
+                    ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ : ⲛⲉⲙ ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉ̀ⲑⲟⲩⲁⲃ : ϫⲉ ⲁⲕⲓ̀ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ. ${cross}</td>
+                <td class="arabic">نسجد لك أيها المسيح مع أبيك الصالح والروح القدس لانك أتيت وخلصتنا. ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -1117,8 +1118,8 @@ return `
             </tr>
             <tr id="table_5_row_17" class="north">
                 <td class="english" >This is the Lord my God: I glorify His
-                    Great Name: This is the Lord my God: Maker of all great things<div class="lineBreak">${skip}</div></td>
-                <td class="arabic">هذا هو إلهى: أمجد اسمه دائم: هذا هو إله آبائى: صانع كل عظائم.<div class="lineBreak">${skip}</div></td>
+                    Great Name: This is the Lord my God: Maker of all great things<div class="skipButton" data-navigation="table_5">${skip}</div></td>
+                <td class="arabic">هذا هو إلهى: أمجد اسمه دائم: هذا هو إله آبائى: صانع كل عظائم.<div class="skipButton" data-navigation="table_5">${skip}</div></td>
             </tr>
             <tr id="table_5_row_18" class="south">
                 <td class="english" >He abolished the army by His Might: The
@@ -1194,7 +1195,7 @@ return `
             </tr>
             <tr id="table_5_row_32" class="north">
                 <td class="english" >And Moses praised before them: Till they
-                    reached the harbor: In peace and happiness: In the wilderness of Sinai${cross}</td>
+                    reached the harbor: In peace and happiness: In the wilderness of Sinai ${cross}</td>
                 <td class="arabic">وكان موسي يسبح قدام: وطلعوا من المينا: إلي حين وصلوا بسلام: هي ابشا في انسينا.
                 ${cross}</td>
             </tr>
@@ -1305,8 +1306,8 @@ return `
             </tr>
             <tr id="table_6_row_19" class="south">
                 <td class="english" >You are the Mother of Christ: And to all
-                    the world: You are truly declared: Maria- Ti Parthenos<div class="lineBreak">${skip}</div></td>
-                <td class="arabic">كوني لي يا أم ايسوس: ولسائر بي كوسموس: عند الصوت المسموع: ماريا تي بارثينوس<div class="lineBreak">${skip}</div></td>
+                    the world: You are truly declared: Maria- Ti Parthenos<div class="skipButton" data-navigation="table_6">${skip}</div></td>
+                <td class="arabic">كوني لي يا أم ايسوس: ولسائر بي كوسموس: عند الصوت المسموع: ماريا تي بارثينوس<div class="skipButton" data-navigation="table_6">${skip}</div></td>
             </tr>
             <tr id="table_6_row_20" class="north">
                 <td class="english" >Without you who could have: Witnessed the
@@ -1362,8 +1363,8 @@ return `
             </tr>
             <tr id="table_6_row_30" class="south">
                 <td class="english" >I conclude my words with: Praising the
-                    mother of God: Mary, the gate of Heaven: Maria- Ti Parthenos${cross}</td>
-                <td class="arabic">وأختم قولي يااخوة: بمدح تى ثيؤطوكوس: مريم باب السما: ماريا تى بارثينوس${cross}</td>
+                    mother of God: Mary, the gate of Heaven: Maria- Ti Parthenos ${cross}</td>
+                <td class="arabic">وأختم قولي يااخوة: بمدح تى ثيؤطوكوس: مريم باب السما: ماريا تى بارثينوس ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -1450,8 +1451,8 @@ return `
             </tr>
             <tr id="table_7_row_15" class="south">
                 <td class="english" >Our Pope the Patriarch: A good and honest
-                    shepherd: Grant him a long life: For his honor pleases me${cross}</td>
-                <td class="arabic">والأب بطريركنا: راعي صالح وأمين: أعطيه يارب سنين: دا مقامه يرضيني${cross}</td>
+                    shepherd: Grant him a long life: For his honor pleases me ${cross}</td>
+                <td class="arabic">والأب بطريركنا: راعي صالح وأمين: أعطيه يارب سنين: دا مقامه يرضيني ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -1679,10 +1680,10 @@ return `
             </tr>
             <tr id="table_8_row_32" class="refrain">
                 <td class="english" >My heart and my tongue, praise the
-                    Trinity. O Holy Trinity, have mercy on us.${cross}</td>
+                    Trinity. O Holy Trinity, have mercy on us. ${cross}</td>
                 <td class="coptic" >Ⲁⲡⲁϩⲏⲧ ⲛⲉⲙ ⲡⲁⲗⲁⲥ: ϩⲱⲥ ⲉ̀ϯⲧ̀ⲣⲓⲁⲥ: ⲁ̀ⲅⲓⲁ̀
-                    ⲧ̀ⲣⲓⲁⲥ: ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ.${cross}</td>
-                <td class="arabic">قلبى ولسانى: يسبحان الثالوث: أيها الثالوث القدوس أرحمنا${cross}</td>
+                    ⲧ̀ⲣⲓⲁⲥ: ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ. ${cross}</td>
+                <td class="arabic">قلبى ولسانى: يسبحان الثالوث: أيها الثالوث القدوس أرحمنا ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -1884,10 +1885,10 @@ return `
             </tr>
             <tr id="table_9_row_27" class="south">
                 <td class="english" >O give thanks to the Lord of lords for He
-                    is good and virtuous: Alleluia, His mercy endures forever.${cross}</td>
+                    is good and virtuous: Alleluia, His mercy endures forever. ${cross}</td>
                 <td class="coptic" >Ⲟⲩⲱⲛϩ ⲉ̀ⲃⲟⲗ ⲙ̀Ⲡϭⲟⲓⲥ ⲛ̀ⲧⲉ ⲛⲓϭⲟⲓⲥ ϫⲉ
-                    ⲟⲩⲭ̀ⲣⲓⲥⲧⲟⲥ ⲟⲩⲁ̀ⲅⲁⲑⲟⲥ ⲡⲉ ⲁⲗ̅ : ϫⲉ ⲡⲉϥⲛⲁⲓ ϣⲟⲡ ϣⲁ ⲉ̀ⲛⲉϩ.${cross}</td>
-                <td class="arabic">احمدوا رب الأرباب لأنه طيب وصالح الليلويا لأن رحمته إلى الأبد.${cross}</td>
+                    ⲟⲩⲭ̀ⲣⲓⲥⲧⲟⲥ ⲟⲩⲁ̀ⲅⲁⲑⲟⲥ ⲡⲉ ⲁⲗ̅ : ϫⲉ ⲡⲉϥⲛⲁⲓ ϣⲟⲡ ϣⲁ ⲉ̀ⲛⲉϩ. ${cross}</td>
+                <td class="arabic">احمدوا رب الأرباب لأنه طيب وصالح الليلويا لأن رحمته إلى الأبد. ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -1977,10 +1978,10 @@ return `
             </tr>
             <tr id="table_10_row_11" class="south">
                 <td class="english" >Blessed are You indeed: with Your good
-                    Father: and the Holy Spirit: for You have come and saved us.${cross}</td>
+                    Father: and the Holy Spirit: for You have come and saved us. ${cross}</td>
                 <td class="coptic" >̀ Ⲕⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲁ̀ⲗⲏⲑⲱⲥ : ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ
-                    ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ : ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ : ϫⲉ ⲁⲕⲓ̀ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ.${cross}</td>
-                <td class="arabic">مبارك أنت بالحقيقة مع أبيك الصالح والروح القدس لأنك أتيت وخلصتنا.${cross}</td>
+                    ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ : ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ : ϫⲉ ⲁⲕⲓ̀ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ. ${cross}</td>
+                <td class="arabic">مبارك أنت بالحقيقة مع أبيك الصالح والروح القدس لأنك أتيت وخلصتنا. ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -2056,9 +2057,9 @@ return `
             </tr>
             <tr id="table_11_row_11" class="south">
                 <td class="english" >The Egyptians and their horsemen: Were
-                    hit by a Mighty hand: And saved His people from them: Je pef-nay Shop Sha-eneh<div class="lineBreak">${skip}</div></td>
+                    hit by a Mighty hand: And saved His people from them: Je pef-nay Shop Sha-eneh<div class="skipButton" data-navigation="table_11">${skip}</div></td>
                 <td class="arabic">المصريون وأبكارهم: ضربهم بذراع ما أعلاه: وخلص شعبه من وسطهم: جي بيف ناي شوب شا
-                    إينيه<div class="lineBreak">${skip}</div></td>
+                    إينيه<div class="skipButton" data-navigation="table_11">${skip}</div></td>
             </tr>
             <tr id="table_11_row_12" class="north">
                 <td class="english" >The sea was split in half: And Pharaoh
@@ -2137,9 +2138,9 @@ return `
             </tr>
             <tr id="table_11_row_25" class="north">
                 <td class="english" >We reached the promised land: And
-                    received the new promise: Which is the Kingdom of heaven: Je pef-nay Shop Sha-eneh${cross}</td>
+                    received the new promise: Which is the Kingdom of heaven: Je pef-nay Shop Sha-eneh ${cross}</td>
                 <td class="arabic">وأوصلنا ارض الميعاد: والوعد الجديد نلناه: وهو ملكوت السموات: جي بيف ناي شوب شا
-                    إينيه${cross}</td>
+                    إينيه ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -2217,9 +2218,9 @@ return `
             </tr>
             <tr id="table_12_row_11" class="south">
                 <td class="english" >Zephaniah proclaimed of you: A
-                    prophesy about the birth of Jesus: "He will come down as rain and dew": Blessed are you, O Virgin and bride<div class="lineBreak">${skip}</div></td>
+                    prophesy about the birth of Jesus: "He will come down as rain and dew": Blessed are you, O Virgin and bride<div class="skipButton" data-navigation="table_12">${skip}</div></td>
                 <td class="arabic">صوفونيوس عنك خبر: بشهادة عن ميلاد إيسوس: قال ينزل كندي ومطر: طوباك يا بكر وعروس
-                <div class="lineBreak">${skip}</div></td>
+                <div class="skipButton" data-navigation="table_12">${skip}</div></td>
             </tr>
             <tr id="table_12_row_12" class="north">
                 <td class="english" >Daniel said in his vision: "I have seen a
@@ -2316,9 +2317,9 @@ return `
                 </td>
             </tr>
             <tr id="table_12_row_29" class="north">
-                <td class="english" >And the Orthodox believers: The leaders and servents alike: All the seven ranks of the Church: Blessed are you, O Virgin and bride${cross}</td>
+                <td class="english" >And the Orthodox believers: The leaders and servents alike: All the seven ranks of the Church: Blessed are you, O Virgin and bride ${cross}</td>
                 <td class="arabic">وأبناء البيعة الأرثوذكسية: الرئيس منهم والمرءوس: شاشف إن طغما إن إكليسيا: طوباك
-                    يا بكر وعروس${cross}</td>
+                    يا بكر وعروس ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -2660,7 +2661,7 @@ return `
             </tr>
             <tr id="table_13_row_61" class="refrain">
                 <td class="english" >The same with the Theotokos Mary: Carried
-                    the fire of Divinity: Nine months in her holy body: Without blemishing her virginity${cross}</td>
+                    the fire of Divinity: Nine months in her holy body: Without blemishing her virginity ${cross}</td>
                 <td class="arabic">مثال ام النور طوباها: حملت جمر اللاهوتية: تسعة أشهر فى احشاها: وهى عذراء ببكورية
                 ${cross}</td>
             </tr>
@@ -2808,10 +2809,10 @@ return `
             </tr>
             <tr id="table_14_row_19" class="south">
                 <td class="english" >I thank You, O God of Israel, We glorify
-                    Your Name, And we worship You.${cross}</td>
+                    Your Name, And we worship You. ${cross}</td>
                 <td class="coptic" >Ϯϣⲉⲡϩ̀ⲙⲟⲧ ⲛ̀ⲧⲟⲧⲕ: Ⲫϯ ⲙ̀Ⲡⲓⲥ̀ⲣⲁⲏⲗ : ϫⲉ
-                    ϯϯⲱ̀ⲟⲩ ⲙ̀ⲡⲉⲕⲣⲁⲛ ⲟⲩⲟϩ ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ.${cross}</td>
-                <td class="arabic">أشكرك: ياإله اسرائيل: ونمجد إسمك: ونسجد لك${cross}</td>
+                    ϯϯⲱ̀ⲟⲩ ⲙ̀ⲡⲉⲕⲣⲁⲛ ⲟⲩⲟϩ ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ. ${cross}</td>
+                <td class="arabic">أشكرك: ياإله اسرائيل: ونمجد إسمك: ونسجد لك ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -3038,8 +3039,8 @@ return `
             </tr>
             <tr id="table_15_row_41" class="north">
                 <td class="english" >O Lord keep our priests: And also our
-                    deacons: And the rest of our people: At the gates of Zion's daughter${cross}</td>
-                <td class="arabic">يا رب احفظ كهنتنا: وأيضًا شمامستنا: مع كافة أُمِّتنا: في أبواب ابنة صهيون${cross}</td>
+                    deacons: And the rest of our people: At the gates of Zion's daughter ${cross}</td>
+                <td class="arabic">يا رب احفظ كهنتنا: وأيضًا شمامستنا: مع كافة أُمِّتنا: في أبواب ابنة صهيون ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -3323,10 +3324,10 @@ return `
             </tr>
             <tr id="table_16_row_39" class="south">
                 <td class="english" >Bless the Lord, O you who worship the
-                    Lord, the God of our fathers: Praise ye Him and exalt Him above all forever.${cross}</td>
+                    Lord, the God of our fathers: Praise ye Him and exalt Him above all forever. ${cross}</td>
                 <td class="coptic" >̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲛⲏⲉⲧⲉⲣⲥⲉⲃⲉⲥⲑⲉ ⲙ̀Ⲡϭⲟⲓⲥ Ⲫϯ ⲛ̀ⲧⲉ
-                    ⲛⲉⲛⲓⲟϯ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.${cross}</td>
-                <td class="arabic">باركوا الرب ياعابدي الرب اله آبائنا سبّحوه وزيدوه علواً إلى الآباد.${cross}</td>
+                    ⲛⲉⲛⲓⲟϯ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ. ${cross}</td>
+                <td class="arabic">باركوا الرب ياعابدي الرب اله آبائنا سبّحوه وزيدوه علواً إلى الآباد. ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -3520,11 +3521,11 @@ return `
             <tr id="table_17_row_23" class="south">
                 <td class="english" >And also Your poor servant Sarkis, make
                     him without condemnation, that we may join all those and say, Praise Him and exalt Him above
-                    all.${cross}</td>
+                    all. ${cross}</td>
                 <td class="coptic" >Ⲱⲥⲁⲩⲧⲱⲥ ⲡⲉⲕⲃⲱⲕ ⲡⲓⲡ̀ⲧⲱⲭⲟⲥ: Ⲥⲁⲣⲕⲓⲥ ⲁ̀ⲣⲓⲧϥ
-                    ⲉϥⲟⲓ ⲛ̀ⲉ̀ⲛⲟⲭⲟⲥ ⲉ̀ⲥⲁϫⲓ ⲛⲉⲙ ⲛⲁⲓ ϩⲱⲥ ⲙⲉⲧⲟⲭⲟⲥ: ϩⲱⲥ ̀ ⲉⲣⲟϥ ̀ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.${cross}</td>
+                    ⲉϥⲟⲓ ⲛ̀ⲉ̀ⲛⲟⲭⲟⲥ ⲉ̀ⲥⲁϫⲓ ⲛⲉⲙ ⲛⲁⲓ ϩⲱⲥ ⲙⲉⲧⲟⲭⲟⲥ: ϩⲱⲥ ̀ ⲉⲣⲟϥ ̀ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ. ${cross}</td>
                 <td class="arabic">كذلك عبدك المسكين سركيس اجعله بغير دينونة. ليقول مع هؤلاء كشريك سبّحوه وزيدوه
-                    علواً.${cross}</td>
+                    علواً. ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -3629,9 +3630,9 @@ return `
             </tr>
             <tr id="table_18_row_15" class="south">
                 <td class="english" >Praise Him and glorify Him: In the
-                    congregations exalt Him: And above all the elders bless Him: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span><div class="lineBreak">${skip}</div></td>
+                    congregations exalt Him: And above all the elders bless Him: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span><div class="skipButton" data-navigation="table_18">${skip}</div></td>
                 <td class="arabic">سبحوه ومجدوه: فى كنائس شعبه ارفعوه: على منابر الشيوخ باركوه: هوس إيروف آرى
-                    هوؤتشاسف<div class="lineBreak">${skip}</div></td>
+                    هوؤتشاسف<div class="skipButton" data-navigation="table_18">${skip}</div></td>
             </tr>
             <tr id="table_18_row_16" class="north">
                 <td class="english" >Praise your God O Sedrak: Abdenego and the
@@ -3746,9 +3747,9 @@ return `
             </tr>
             <tr id="table_18_row_34" class="south">
                 <td class="english" >To Him are due glory and worship: Before
-                    the Creator and feared God: The Gracious God, Bestower of Life: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span>${cross}</td>
+                    the Creator and feared God: The Gracious God, Bestower of Life: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span> ${cross}</td>
                 <td class="arabic">يليق الإكرام والسجود: بالإله الخالق المعبود: رب الأحسان مصدر الجود: هوس إيروف آرى
-                    هوؤتشاسف${cross}</td>
+                    هوؤتشاسف ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -3780,9 +3781,9 @@ return `
                     حنانيا وعزاريا وميصائيل.</td>
             </tr>
             <tr id="table_19_row_2" class="north">
-                <td class="english" >Praise and Glorify God at times.${cross}</td>
-                <td class="coptic" >Ⲉⲩϩⲱⲥ ⲉⲩⲥ̀ⲙⲟⲩ ⲉ̀Ⲫϯ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ.${cross}</td>
-                <td class="arabic">يسبحون ويباركون الله فى كل حين.${cross}</td>
+                <td class="english" >Praise and Glorify God at times. ${cross}</td>
+                <td class="coptic" >Ⲉⲩϩⲱⲥ ⲉⲩⲥ̀ⲙⲟⲩ ⲉ̀Ⲫϯ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ. ${cross}</td>
+                <td class="arabic">يسبحون ويباركون الله فى كل حين. ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -3831,11 +3832,11 @@ return `
             </tr>
             <tr id="table_20_row_5" class="south">
                 <td class="english" >Pray to the Lord on our behalf, O three
-                    saintly children, Sedrach, Misach and Abednego, that He may forgive us our sins.${cross}</td>
+                    saintly children, Sedrach, Misach and Abednego, that He may forgive us our sins. ${cross}</td>
                 <td class="coptic" >Ⲧⲱ̅: ⲱ̀ ⲡⲓϣⲟⲙⲧ
-                    ⲛ̀ⲁ̀ⲗⲟⲩ ⲛ̀ⲁ̀ⲅⲓⲟⲥ : Ⲥⲉⲇⲣⲁⲕ Ⲙⲓⲥⲁⲕ Ⲁⲃⲇⲉⲛⲁⲅⲱ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.${cross}</td>
+                    ⲛ̀ⲁ̀ⲗⲟⲩ ⲛ̀ⲁ̀ⲅⲓⲟⲥ : Ⲥⲉⲇⲣⲁⲕ Ⲙⲓⲥⲁⲕ Ⲁⲃⲇⲉⲛⲁⲅⲱ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ. ${cross}</td>
                 <td class="arabic">أطلبوا من الرب عنا أيها الثلاثة فتية القديسين سدراك وميساك وابدناغو ليغفر لنا
-                    خطايانا.${cross}</td>
+                    خطايانا. ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -4422,11 +4423,11 @@ return `
             </tr>
             <tr id="table_21_row_81" class="south">
                 <td class="english" >Pray: Our Holy father, the patriarch Abba
-                    (&hellip;), the high priest, That He may forgive us our sins.${cross}</td>
+                    (&hellip;), the high priest, That He may forgive us our sins. ${cross}</td>
                 <td class="coptic" >Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉϩ̀ⲣⲏⲓ ⲉϫⲱⲛ : ⲡⲉⲛⲓⲱⲧ ⲉⲑⲟⲩⲁⲃ
-                    ⲙ̀ⲡⲁⲧⲣⲓⲁⲣⲭⲏⲥ : ⲁⲃⲃⲁ (...) ⲡⲓⲁⲣⲭⲓⲉⲣⲉⲩⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ.${cross}</td>
+                    ⲙ̀ⲡⲁⲧⲣⲓⲁⲣⲭⲏⲥ : ⲁⲃⲃⲁ (...) ⲡⲓⲁⲣⲭⲓⲉⲣⲉⲩⲥ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ. ${cross}</td>
                 <td class="arabic">أطلب من الرب عنا : يا أبانا القديس البطريرك : أنبا (...) رئيس الكهنة. ليغفر لنا
-                    خطايانا.${cross}</td>
+                    خطايانا. ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -4538,8 +4539,8 @@ return `
             </tr>
             <tr id="table_22_row_20" class="north">
                 <td class="english" >Pray for our iniquities: And the weakness
-                    of our nature: For we are strangers in this world: Peniot Ava Antonios${cross}</td>
-                <td class="arabic">اشفع فى مذلتنا: وضعف طبيعتنا: فى مدة غربتنا: بنيوت آفا أنطونيوس${cross}</td>
+                    of our nature: For we are strangers in this world: Peniot Ava Antonios ${cross}</td>
+                <td class="arabic">اشفع فى مذلتنا: وضعف طبيعتنا: فى مدة غربتنا: بنيوت آفا أنطونيوس ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -4640,8 +4641,8 @@ return `
             </tr>
             <tr id="table_23_row_17" class="north">
                 <td class="english" >Hail to Saint Mary: The intercessor for
-                    all people: The great honored name: Our guide to Paradise${cross}</td>
-                <td class="arabic">وسلامى إلى مريم: الشفيعة فى كل جنوس: صاحبة الاسم الأعظم وتوصلنا إلى الفردوس${cross}</td>
+                    all people: The great honored name: Our guide to Paradise ${cross}</td>
+                <td class="arabic">وسلامى إلى مريم: الشفيعة فى كل جنوس: صاحبة الاسم الأعظم وتوصلنا إلى الفردوس ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -4768,8 +4769,8 @@ return `
                 <td class="arabic" >صلي عنا للديان: يثبتنا في الايمان: الي اخر الازمان: بنيوت افا صموئيل</td>
             </tr>
             <tr id="table_24_row_29" class="north">
-                <td class="english">O Lord please preserve: Our Pope and the bishops with him: Also our monks and clergy: T hrough the prayers of Abba Samuel${cross}</td>
-                <td class="arabic" >احفظ يا رب بطركنا: وشركاؤه اساقفنا: ورهبانا وكهنتنا: بصلاة الانبا صموئيل${cross}</td>
+                <td class="english">O Lord please preserve: Our Pope and the bishops with him: Also our monks and clergy: T hrough the prayers of Abba Samuel ${cross}</td>
+                <td class="arabic" >احفظ يا رب بطركنا: وشركاؤه اساقفنا: ورهبانا وكهنتنا: بصلاة الانبا صموئيل ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -4807,10 +4808,10 @@ return `
             </tr>
             <tr id="table_38_row_2" class="north">
                 <td class="english" >Blessed is the Father and the Son and the
-                    Holy Spirit, the perfect Trinity: we worship Him and glorify Him.${cross}</td>
+                    Holy Spirit, the perfect Trinity: we worship Him and glorify Him. ${cross}</td>
                 <td class="coptic" >Ϫⲉ ϥ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲛ̀ϫⲉ Ⲫⲓⲱⲧ ⲛⲉⲙ Ⲡϣⲏⲣⲓ: ⲛⲉⲙ
-                    Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: ϯⲧ̀ⲣⲓⲁⲥ ⲉⲧϫⲏⲕ ⲉ̀ⲃⲟⲗ: ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲥ ⲧⲉⲛϯⲱ̀ⲟⲩ ⲛⲁⲥ.${cross}</td>
-                <td class="arabic">مبارك الآب والإبن والروح القدس الثالوث الكامل نسجد له ونمجده.${cross}</td>
+                    Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: ϯⲧ̀ⲣⲓⲁⲥ ⲉⲧϫⲏⲕ ⲉ̀ⲃⲟⲗ: ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲥ ⲧⲉⲛϯⲱ̀ⲟⲩ ⲛⲁⲥ. ${cross}</td>
+                <td class="arabic">مبارك الآب والإبن والروح القدس الثالوث الكامل نسجد له ونمجده. ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -5170,9 +5171,9 @@ return `
             </tr>
             <tr id="table_39_row_50" class="north">
                 <td class="english" >Alleluia. Alleluia. Glory be to our God.
-                    Alleluia.${cross}</td>
-                <td class="coptic" >Ⲁ̅̅ⲗ̅ Ⲁ̅̅ⲗ̅ Ⲡⲓⲱ̀ⲟⲩ ⲫⲁ Ⲡⲉⲛⲛⲟⲩϯ ⲡⲉ Ⲁ̅ⲗ.${cross}</td>
-                <td class="arabic">المجد لإلهنا الليلويا.${cross}</td>
+                    Alleluia. ${cross}</td>
+                <td class="coptic" >Ⲁ̅̅ⲗ̅ Ⲁ̅̅ⲗ̅ Ⲡⲓⲱ̀ⲟⲩ ⲫⲁ Ⲡⲉⲛⲛⲟⲩϯ ⲡⲉ Ⲁ̅ⲗ. ${cross}</td>
+                <td class="arabic">المجد لإلهنا الليلويا. ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -5324,8 +5325,8 @@ return `
             </tr>
             <tr id="table_40_row_28" class="north">
                 <td class="english" >And to the Lord of hosts: We cry Lord
-                    Have Mercy: Shouting with a loud voice: Hail to you O Mary${cross}</td>
-                <td class="arabic">وإلى رب القوات: نصرخ يا رب ارحم: ونصيح بأعلا الأصوات: السلام لك يا مريم${cross}</td>
+                    Have Mercy: Shouting with a loud voice: Hail to you O Mary ${cross}</td>
+                <td class="arabic">وإلى رب القوات: نصرخ يا رب ارحم: ونصيح بأعلا الأصوات: السلام لك يا مريم ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -5554,10 +5555,10 @@ return `
             </tr>
             <tr id="table_41_row_31" class="south">
                 <td class="english" >Grant us Your true peace: and forgive us
-                    our sins: My Lord Jesus Christ: help me.${cross}</td>
+                    our sins: My Lord Jesus Christ: help me. ${cross}</td>
                 <td class="coptic" >Ϯⲛⲁⲛ ⲛ̀ⲧⲉⲕϩⲓⲣⲏⲛⲏ ⲙ̀ⲙⲏⲓ : ⲭⲁ ⲛⲉⲛⲟⲃⲓ ⲛⲁⲛ
-                    ⲉ̀ⲃⲟⲗ : Ⲡⲁϭⲟⲓⲥ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ : ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ.${cross}</td>
-                <td class="arabic">أعطنا سلامك الحقيقى وأغفر لنا خطايانا: ياربى يسوع المسيح أعني${cross}</td>
+                    ⲉ̀ⲃⲟⲗ : Ⲡⲁϭⲟⲓⲥ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ : ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ. ${cross}</td>
+                <td class="arabic">أعطنا سلامك الحقيقى وأغفر لنا خطايانا: ياربى يسوع المسيح أعني ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -5824,8 +5825,8 @@ return `
             </tr>
             <tr id="table_42_row_51" class="south">
                 <td class="english" >We ask You O Our King: Preserve the life
-                    of our Patriarch: And the bishops his companions: Amen Alleluia${cross}</td>
-                <td class="arabic">نسألك ياملكنا: أدم رئاسة بطركنا: وشركاؤه مطارنتنا: امين الليلويا${cross}</td>
+                    of our Patriarch: And the bishops his companions: Amen Alleluia ${cross}</td>
+                <td class="arabic">نسألك ياملكنا: أدم رئاسة بطركنا: وشركاؤه مطارنتنا: امين الليلويا ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -5866,10 +5867,10 @@ return `
             </tr>
             <tr id="table_43_row_4" class="north">
                 <td class="english" >Now, and forever, And to the age of all
-                    ages. Amen.${cross}</td>
+                    ages. Amen. ${cross}</td>
                 <td class="coptic" >Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ⲓ̀ ⲕⲉ ⲓⲥⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ
-                    ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲏⲛ.${cross}</td>
-                <td class="arabic">الآن وكل اوان والى دهر الداهرين آمين.${cross}</td>
+                    ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲏⲛ. ${cross}</td>
+                <td class="arabic">الآن وكل اوان والى دهر الداهرين آمين. ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -5979,10 +5980,10 @@ return `
             </tr>
             <tr id="table_44_row_14" class="north">
                 <td class="english" >We entreat and pray, That we may win
-                    mercy, Through your intercessions, With the Lover of mankind.${cross}</td>
+                    mercy, Through your intercessions, With the Lover of mankind. ${cross}</td>
                 <td class="coptic" >Ⲧⲉⲛϯϩⲟ ⲧⲉⲛⲧⲱⲃϩ : ⲉⲑⲣⲉⲛϣⲁϣⲛⲓ ⲉⲩⲛⲁⲓ ϩⲓⲧⲉⲛ
-                    ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ.${cross}</td>
-                <td class="arabic">نسأل ونطلب: أن نفوز برحمة: بشفاعاتك: عند محب البشر.${cross}</td>
+                    ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ. ${cross}</td>
+                <td class="arabic">نسأل ونطلب: أن نفوز برحمة: بشفاعاتك: عند محب البشر. ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -6061,8 +6062,8 @@ return `
             </tr>
             <tr id="table_45_row_13" class="south">
                 <td class="english" >Decorate it, O Moses: With various lights:
-                    Make also in it: Seven burning candles${cross}</td>
-                <td class="arabic">وزينها ياموسى: بسائر كل الأنوار: واجعل فيها أيضاً: سبعة سرج ينيرون${cross}</td>
+                    Make also in it: Seven burning candles ${cross}</td>
+                <td class="arabic">وزينها ياموسى: بسائر كل الأنوار: واجعل فيها أيضاً: سبعة سرج ينيرون ${cross}</td>
             </tr>
             <tr id="table_45_row_14" class="refrain">
                 <td class="english" >Hail to you O Mary: O you full of grace:
@@ -6086,10 +6087,10 @@ return `
                     Lord. And my spirit has rejoiced in God my Savior. For He has regarded the low estate of His
                     handmaiden. For behold, from henceforth all generations shall call me blessed. For He that is
                     mighty has done great things and Holy is His Name. And His mercy is on them that fear Him from
-                    generation to generation. And Glory be to God forever. Amen${cross}</td>
+                    generation to generation. And Glory be to God forever. Amen ${cross}</td>
                 <td class="arabic">فقالت مريم تعظم نفسى الرب. وتتهلل روحى بالله مخلصى لأنه نظر إلى تواضع أمته. هوذا
                     منذ الآن تعطينى الطوبى. جميع الأجيال. صنع بى القوى عظائم. قدوس اسمه ورحمته إلى جيل الأجيال
-                    لخائفيه" والمجد لله دائماً أبدياً. آمين.${cross}</td>
+                    لخائفيه" والمجد لله دائماً أبدياً. آمين. ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -6199,10 +6200,10 @@ return `
             </tr>
             <tr id="table_46_row_14" class="south">
                 <td class="english" >We entreat and pray, That we may win
-                    mercy, Through your intercessions, with the Lover of mankind.${cross}</td>
+                    mercy, Through your intercessions, with the Lover of mankind. ${cross}</td>
                 <td class="coptic" >Ⲧⲉⲛϯϩⲟ ⲧⲉⲛⲧⲱⲃϩ : ⲉⲑⲣⲉⲛϣⲁϣⲛⲓ ⲉⲩⲛⲁⲓ ϩⲓⲧⲉⲛ
-                    ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ.${cross}</td>
-                <td class="arabic">نسأل ونطلب: أن نفوز برحمة: بشفاعاتك: عند محب البشر.${cross}</td>
+                    ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ. ${cross}</td>
+                <td class="arabic">نسأل ونطلب: أن نفوز برحمة: بشفاعاتك: عند محب البشر. ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -6279,8 +6280,8 @@ return `
             </tr>
             <tr id="table_47_row_13" class="south">
                 <td class="english" >He shall save His people: At the end of
-                    days: Your Son granted us salvation: O censer of Aaron${cross}</td>
-                <td class="arabic">ويخلص شعبه: فى آخر الأجيال: بابنك نلنا الغفران: ياشورية هارون${cross}</td>
+                    days: Your Son granted us salvation: O censer of Aaron ${cross}</td>
+                <td class="arabic">ويخلص شعبه: فى آخر الأجيال: بابنك نلنا الغفران: ياشورية هارون ${cross}</td>
             </tr>
             <tr id="table_47_row_14" class="refrain">
                 <td class="english" >Hail to you O Mary: O you full of grace:
@@ -6304,10 +6305,10 @@ return `
                     has scattered the proud in the imagination of their hearts. He has put down the mighty from
                     their thrones and exalted the lowly. He has filled the hungry with good things and the rich He
                     has sent away empty. He has helped His servant Israel, In remembrance of His mercy, As He spoke
-                    to our fathers, To Abraham and to his seed forever." And Glory be to God forever. Amen${cross}</td>
+                    to our fathers, To Abraham and to his seed forever." And Glory be to God forever. Amen ${cross}</td>
                 <td class="arabic">صنع قوة بذراعه. وفرق المستكبرين بفكر قلوبهم. أنزل الأقوياء عن الكراسى، ورفع
                     المتواضعين أشبع الجياع من الخيرات. وأرسل الأغنياء فارغين. عضد إسرائيل فتاه&lsquo; وذكر رحمة كما
-                    قال لآبائنا إبراهيم وزرعه إلى الأبد. والمجد لله دائماً أبدياً آمين${cross}</td>
+                    قال لآبائنا إبراهيم وزرعه إلى الأبد. والمجد لله دائماً أبدياً آمين ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -6396,10 +6397,10 @@ return `
             </tr>
             <tr id="table_48_row_11" class="south">
                 <td class="english" >We entreat and pray, That we may win
-                    mercy, Through your intercessions, with the Lover of mankind.${cross}</td>
+                    mercy, Through your intercessions, with the Lover of mankind. ${cross}</td>
                 <td class="coptic" >Ⲧⲉⲛϯϩⲟ ⲧⲉⲛⲧⲱⲃϩ : ⲉⲑⲣⲉⲛϣⲁϣⲛⲓ ⲉⲩⲛⲁⲓ ϩⲓⲧⲉⲛ
-                    ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ.${cross}</td>
-                <td class="arabic">نسأل ونطلب: أن نفوز برحمة: بشفاعاتك: عند محب البشر.${cross}</td>
+                    ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ. ${cross}</td>
+                <td class="arabic">نسأل ونطلب: أن نفوز برحمة: بشفاعاتك: عند محب البشر. ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -6476,8 +6477,8 @@ return `
             </tr>
             <tr id="table_49_row_13" class="south">
                 <td class="english" >You held Him in your womb: O Virgin and
-                    bride: You gave birth to Him and He drank your milk: Like all the humans.${cross}</td>
-                <td class="arabic">وحملتيه فى أحشاك: يابكره وعروس: ولدتيه ورضع لبنك: هوس رومى إنتى ليوس${cross}</td>
+                    bride: You gave birth to Him and He drank your milk: Like all the humans. ${cross}</td>
+                <td class="arabic">وحملتيه فى أحشاك: يابكره وعروس: ولدتيه ورضع لبنك: هوس رومى إنتى ليوس ${cross}</td>
             </tr>
             <tr id="table_49_row_14" class="refrain">
                 <td class="english" >Hail to you O Mary: O you full of grace:
@@ -6502,10 +6503,10 @@ return `
                     of His servant David. As He spoke by the mouth of His holy prophets, who have been since the
                     world began, that we should be saved from our enemies and from the hand of all who hate us to
                     perform the mercy promised to our fathers and to remember His holy covenant. And Glory be to God
-                    forever. Amen.${cross}</td>
+                    forever. Amen. ${cross}</td>
                 <td class="arabic">مبارك الرب إله اسرائيل لأنه افتقد وصنع نجاة لشعبه، وأقام لنا قرن خلاص من بيت داود
                     عبده. ليذكر رحمته كما تكلم من أفواه أنبيائه الأطهار منذ البدء. خلاص من أعدائنا ، ومن أيدى كل
-                    مبغضينا، ليصنع رحمة مع آبائنا ويذكر عهده المقدس. والمجد لله دائماً أبدياً آمين.${cross}</td>
+                    مبغضينا، ليصنع رحمة مع آبائنا ويذكر عهده المقدس. والمجد لله دائماً أبدياً آمين. ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -6594,10 +6595,10 @@ return `
             </tr>
             <tr id="table_50_row_11" class="south">
                 <td class="english" >We entreat and pray, That we may win
-                    mercy, Through your intercessions, with the Lover of mankind.${cross}</td>
+                    mercy, Through your intercessions, with the Lover of mankind. ${cross}</td>
                 <td class="coptic" >Ⲧⲉⲛϯϩⲟ ⲧⲉⲛⲧⲱⲃϩ : ⲉⲑⲣⲉⲛϣⲁϣⲛⲓ ⲉⲩⲛⲁⲓ ϩⲓⲧⲉⲛ
-                    ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ.${cross}</td>
-                <td class="arabic">نسأل ونطلب: أن نفوز برحمة: بشفاعاتك: عند محب البشر.${cross}</td>
+                    ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ. ${cross}</td>
+                <td class="arabic">نسأل ونطلب: أن نفوز برحمة: بشفاعاتك: عند محب البشر. ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -6673,8 +6674,8 @@ return `
             </tr>
             <tr id="table_51_row_13" class="south">
                 <td class="english" >Your Son illuminated the darkness: And
-                    made us free: We inherited the kingdom: Through baptism and Holy Myron.${cross}</td>
-                <td class="arabic">بابنك زالت الظلمة: وقد صرنا أحرار: وورثنا الملكوت: بعمادنا بالميرون${cross}</td>
+                    made us free: We inherited the kingdom: Through baptism and Holy Myron. ${cross}</td>
+                <td class="arabic">بابنك زالت الظلمة: وقد صرنا أحرار: وورثنا الملكوت: بعمادنا بالميرون ${cross}</td>
             </tr>
             <tr id="table_51_row_14" class="refrain">
                 <td class="english" >Hail to you O Mary: O you full of grace:
@@ -6699,10 +6700,10 @@ return `
                     without fear, in holiness and righteousness before Him all the days of our life. "And you,
                     child, will be called the prophet of the Highest, for you will go before the face of the Lord to
                     prepare His ways. To give knowledge of salvation to His people by the remission of their sins,
-                    And Glory be to God forever. Amen${cross}</td>
+                    And Glory be to God forever. Amen ${cross}</td>
                 <td class="arabic">القسم الذى حلف لإبراهيم أبينا ليعطينا الخلاص بغير خوف من أيدى أعدائنا ، لنخدمه
                     بطهارة وبر أمامه كل أيام حياتنا ، وأنت أيها الصبى تدعى نبى العلى لأنك تسبق بالمسير أمام الرب
-                    لتعد طريقه ، وتعطى علم الخلاص لشعبه لمغفرة خطاياهم. والمجد لله دائماً أبدياً آمين.${cross}</td>
+                    لتعد طريقه ، وتعطى علم الخلاص لشعبه لمغفرة خطاياهم. والمجد لله دائماً أبدياً آمين. ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -6812,10 +6813,10 @@ return `
             </tr>
             <tr id="table_52_row_14" class="north">
                 <td class="english" >We entreat and pray, That we may win
-                    mercy, Through your intercessions, with the Lover of mankind.${cross}</td>
+                    mercy, Through your intercessions, with the Lover of mankind. ${cross}</td>
                 <td class="coptic" >Ⲧⲉⲛϯϩⲟ ⲧⲉⲛⲧⲱⲃϩ : ⲉⲑⲣⲉⲛϣⲁϣⲛⲓ ⲉⲩⲛⲁⲓ ϩⲓⲧⲉⲛ
-                    ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ.${cross}</td>
-                <td class="arabic">نسأل ونطلب: أن نفوز برحمة: بشفاعاتك: عند محب البشر.${cross}</td>
+                    ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ. ${cross}</td>
+                <td class="arabic">نسأل ونطلب: أن نفوز برحمة: بشفاعاتك: عند محب البشر. ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -6892,8 +6893,8 @@ return `
             </tr>
             <tr id="table_53_row_13" class="south">
                 <td class="english" >He Who overshadowed her: And sent her His
-                    Holy Spirit: You gave birth to the True God: The Creator of souls.${cross}</td>
-                <td class="arabic">الذى انشأها وأرسل: لها روح قدسه ببيان: ووضعت الله الحق: الخالق كل نفوس${cross}</td>
+                    Holy Spirit: You gave birth to the True God: The Creator of souls. ${cross}</td>
+                <td class="arabic">الذى انشأها وأرسل: لها روح قدسه ببيان: ووضعت الله الحق: الخالق كل نفوس ${cross}</td>
             </tr>
             <tr id="table_53_row_14" class="refrain">
                 <td class="english" >Hail to you O Mary: O you full of grace:
@@ -6918,7 +6919,7 @@ return `
                     the shadow of death, to guide our feet into the way of peace." And Glory be to God forever. Amen
                     ${cross}</td>
                 <td class="arabic">من أجل تحنن رحمة إلهنا بهذه الذى افتقدنا به مشرقاً من العلاء ليضئ للجالسين فى
-                    الظلمة وظلال الموت ، لتستقيم أرجلنا إلى سبل السلام. والمجد لله دائماً أبدياً آمين.${cross}</td>
+                    الظلمة وظلال الموت ، لتستقيم أرجلنا إلى سبل السلام. والمجد لله دائماً أبدياً آمين. ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -7014,10 +7015,10 @@ return `
             </tr>
             <tr id="table_54_row_12" class="south">
                 <td class="english" >We entreat and pray, That we may win
-                    mercy, Through your intercessions, with the Lover of mankind.${cross}</td>
+                    mercy, Through your intercessions, with the Lover of mankind. ${cross}</td>
                 <td class="coptic" >Ⲧⲉⲛϯϩⲟ ⲧⲉⲛⲧⲱⲃϩ : ⲉⲑⲣⲉⲛϣⲁϣⲛⲓ ⲉⲩⲛⲁⲓ ϩⲓⲧⲉⲛ
-                    ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ.${cross}</td>
-                <td class="arabic">نسأل ونطلب: أن نفوز برحمة: بشفاعاتك: عند محب البشر.${cross}</td>
+                    ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ. ${cross}</td>
+                <td class="arabic">نسأل ونطلب: أن نفوز برحمة: بشفاعاتك: عند محب البشر. ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -7094,8 +7095,8 @@ return `
             </tr>
             <tr id="table_55_row_13" class="south">
                 <td class="english" >You held the Creator: The Son of God, the
-                    Judge: You gave birth to His Humanity: With the united Divinity.${cross}</td>
-                <td class="arabic">وحملت الخالق ابن الله الديان وولدتيه انسان باللاهوت متحدون${cross}</td>
+                    Judge: You gave birth to His Humanity: With the united Divinity. ${cross}</td>
+                <td class="arabic">وحملت الخالق ابن الله الديان وولدتيه انسان باللاهوت متحدون ${cross}</td>
             </tr>
             <tr id="table_55_row_15" class="refrain">
                 <td class="english" >Hail to you O Mary: O you full of grace:
@@ -7125,12 +7126,12 @@ return `
                 <td class="english" >Lord, now You are letting Your servant
                     depart in peace, according to Your word: For my eyes have seen Your salvation, Which You have
                     prepared before the face of all peoples; A light to bring revelation to the Gentiles, and the
-                    glory of Your people Israel. Glory be to God forever.${cross}</td>
+                    glory of Your people Israel. Glory be to God forever. ${cross}</td>
                 <td class="coptic" >Ⲧⲏⲛⲟⲩ ⲡⲁⲛⲏⲃ ⲭ̀ⲛⲁⲭⲁ ⲡⲉⲕⲃⲱⲕ ⲉ̀ⲃⲟⲗ : ϧⲉⲛ
                     ⲟⲩϩⲓⲣⲏⲛⲏ ⲕⲁⲧⲁ ⲡⲉⲕⲥⲁϫⲓ : ϫⲉ ⲁⲩⲛⲁⲩ ⲛ̀ϫⲉ ⲛⲁⲃⲁⲗ ⲉ̀ⲡⲉⲕⲛⲟϩⲉⲙ : ⲫⲏⲉ̀ⲧⲁⲕ ⲥⲉⲃⲧⲱⲧϥ ⲙ̀ⲡⲉ ⲙ̀ⲑⲟ ⲛ̀ⲛⲓⲗⲁⲟⲥ
-                    ⲧⲏⲣⲟⲩ. Ⲟⲩⲟⲩⲱⲓⲛⲓ ⲉⲩϭⲱⲣⲡⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ϩⲁⲛⲉⲑⲛⲟⲥ : ⲛⲉⲙ ⲟⲩⲱ̀ⲟⲩ ⲛ̀ⲧⲉ ⲡⲉⲕⲗⲁⲟⲥ Ⲡⲓⲥⲣⲁⲏⲗ.${cross}</td>
+                    ⲧⲏⲣⲟⲩ. Ⲟⲩⲟⲩⲱⲓⲛⲓ ⲉⲩϭⲱⲣⲡⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ϩⲁⲛⲉⲑⲛⲟⲥ : ⲛⲉⲙ ⲟⲩⲱ̀ⲟⲩ ⲛ̀ⲧⲉ ⲡⲉⲕⲗⲁⲟⲥ Ⲡⲓⲥⲣⲁⲏⲗ. ${cross}</td>
                 <td class="arabic">الآن ياسيد تطلق عبدك بسلام كقولك. لأن عينىّ قد ابصرتا خلاصك الذى أعددتة قدام جميع
-                    الشعوب. نوراً تجلى للأمم ومجداً لشعبك اسرائيل.${cross}</td>
+                    الشعوب. نوراً تجلى للأمم ومجداً لشعبك اسرائيل. ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -7183,10 +7184,10 @@ return `
             </tr>
             <tr id="table_56_row_5" class="south">
                 <td class="english" >And we also pray, that we may win mercy,
-                    Through your intercessions,With the Lover of mankind.${cross}</td>
+                    Through your intercessions,With the Lover of mankind. ${cross}</td>
                 <td class="coptic" >̀ Ⲁⲛⲟⲛ ϩⲱⲛ ⲧⲉⲛⲧⲱⲃϩ : ⲉⲑⲣⲉⲛϣⲁϣⲛⲓ ⲉⲩⲛⲁⲓ :
-                    ϩⲓⲧⲉⲛ ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ.${cross}</td>
-                <td class="arabic">ونحن أيضاً: نطلب أن نفوز: برحمة بشفاعاتك: عند محب البشر.${cross}</td>
+                    ϩⲓⲧⲉⲛ ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ. ${cross}</td>
+                <td class="arabic">ونحن أيضاً: نطلب أن نفوز: برحمة بشفاعاتك: عند محب البشر. ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -7241,10 +7242,10 @@ return `
             </tr>
             <tr id="table_57_row_6" class="north">
                 <td class="english" >We entreat and pray, That we may win
-                    mercy, Through your intercessions, with the Lover of mankind.${cross}</td>
+                    mercy, Through your intercessions, with the Lover of mankind. ${cross}</td>
                 <td class="coptic" >Ⲧⲉⲛϯϩⲟ ⲧⲉⲛⲧⲱⲃϩ : ⲉⲑⲣⲉⲛϣⲁϣⲛⲓ ⲉⲩⲛⲁⲓ: ϩⲓⲧⲉⲛ
-                    ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ.${cross}</td>
-                <td class="arabic">نسأل ونطلب: أن نفوز برحمة: بشفاعاتك: عند محب البشر.${cross}</td>
+                    ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ. ${cross}</td>
+                <td class="arabic">نسأل ونطلب: أن نفوز برحمة: بشفاعاتك: عند محب البشر. ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -7311,8 +7312,8 @@ return `
             </tr>
             <tr id="table_58_row_11" class="south">
                 <td class="english" >Before Christ your Son Be unto me a
-                    helper and provider So He may forgive me The multitude of sins${cross}</td>
-                <td class="arabic">عند يسوع ابنك: كونى لى عوناً ومعين: لكى يغفر لى ذنبى: ومن قد سَلَفون${cross}</td>
+                    helper and provider So He may forgive me The multitude of sins ${cross}</td>
+                <td class="arabic">عند يسوع ابنك: كونى لى عوناً ومعين: لكى يغفر لى ذنبى: ومن قد سَلَفون ${cross}</td>
             </tr>
             <tr id="table_58_row_12" class="refrain">
                 <td class="english" >Hail to you O Mary O you full of grace
@@ -7644,12 +7645,12 @@ return `
                     <span CLASS="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>We ask of you<br />
                     <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> To ask your Son<br />
                     <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> O blessed Mary<br />
-                    <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> To forgive us${cross}</td>
+                    <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> To forgive us ${cross}</td>
                 <td class="arabic1" >
                     <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>لازم نترجاك <br />
                     <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>عند الابن عساك <br />
                     <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>يامريم طوباك <br />
-                    <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>راعينا بعيون${cross}</td>
+                    <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>راعينا بعيون ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -7840,10 +7841,10 @@ return `
             </tr>
             <tr id="table_60_row_23" class="south">
                 <td class="english" >Let us ask her: to intercede for us:
-                    before her beloved: that He may forgive us.${cross}</td>
+                    before her beloved: that He may forgive us. ${cross}</td>
                 <td class="coptic" >Ⲙⲁⲣⲉⲛϯϩⲟ ⲉ̀ⲣⲟⲥ: ⲉⲑⲣⲉⲥⲧⲱⲃϩ ⲉ̀ϫⲱⲛ: ⲛⲁϩⲣⲉⲛ
-                    ⲡⲉⲥⲙⲉⲛⲣⲓⲧ: ⲉⲑⲣⲉϥⲭⲱ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.${cross}</td>
-                <td class="arabic">فلنسألها: أن تطلب عنا: عند حبيبها: ليغفر لنا.${cross}</td>
+                    ⲡⲉⲥⲙⲉⲛⲣⲓⲧ: ⲉⲑⲣⲉϥⲭⲱ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ. ${cross}</td>
+                <td class="arabic">فلنسألها: أن تطلب عنا: عند حبيبها: ليغفر لنا. ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -8105,13 +8106,13 @@ return `
             <tr id="table_61_row_46" class="south">
                 <td class="english" >Arise O poor one, and clothe yourself in
                     faith: and say Amen Amen: for us she intercedes: The persistent servant:
-                    Will always praise her: For by his side that Day: The Lady of virgins shall be.${cross}</td>
+                    Will always praise her: For by his side that Day: The Lady of virgins shall be. ${cross}</td>
                 <td class="enPhonics1" >Qom enhad ya meskeen: wa elbes
                     thob el-yaqeen, : wa qol amin amin: fa heya tashfa fil-Hodar: wal-nazem
-                    el-meskeen: madeHha fi kol Hin: maloh yom el-din: sewa sayedet el-abkar.${cross}</td>
+                    el-meskeen: madeHha fi kol Hin: maloh yom el-din: sewa sayedet el-abkar. ${cross}</td>
                 <td class="arabic">قم وانهض يا مسكين : والبس ثوب اليقين : وقل امين امين : فهي تشفع في
                     الحاضرين : و أنا الخاطي المسكين : مادحها في كل حين : مالي يوم الدين : سوي
-                    سيدة الابكار${cross}</td>
+                    سيدة الابكار ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -8151,10 +8152,10 @@ return `
             </tr>
             <tr id="table_62_row_4" class="north">
                 <td class="english" >Wherefore we glorify you: as the Mother
-                    of God: ask your Son: to forgive us.${cross}</td>
+                    of God: ask your Son: to forgive us. ${cross}</td>
                 <td class="coptic" >Ⲉⲑⲃⲉ ⲫⲁⲓ ⲧⲉⲛϯⲱ̀ⲟⲩ ⲛⲉ: ϩⲱⲥ ⲑⲉⲟ̀ⲧⲟⲕⲟⲥ ⲙⲁϯϩⲟ
-                    ⲙ̀ⲡⲉϣⲏⲣⲓ: ⲉⲑⲣⲉϥⲭⲱ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.${cross}</td>
-                <td class="arabic">فلهذا نمجدك: كوالدة الاله. اسألى ابنك: ليغفر لنا.${cross}</td>
+                    ⲙ̀ⲡⲉϣⲏⲣⲓ: ⲉⲑⲣⲉϥⲭⲱ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ. ${cross}</td>
+                <td class="arabic">فلهذا نمجدك: كوالدة الاله. اسألى ابنك: ليغفر لنا. ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -8345,12 +8346,12 @@ return `
                     <span class="coptic-caption">ⲣⲁϣⲓ ⲱ̀ ⲙⲁⲣⲓⲁ: </span> If the witness said<br />
                     <span class="coptic-caption">ⲣⲁϣⲓ ⲱ̀ ⲙⲁⲣⲓⲁ: </span>  Account of your honor stands<br />
                     <span class="coptic-caption">ⲣⲁϣⲓ ⲱ̀ ⲙⲁⲣⲓⲁ: </span>  But with resolve<br />
-                    <span class="coptic-caption">ⲣⲁϣⲓ ⲱ̀ ⲙⲁⲣⲓⲁ: </span>  Attained from you${cross}</td>
+                    <span class="coptic-caption">ⲣⲁϣⲓ ⲱ̀ ⲙⲁⲣⲓⲁ: </span>  Attained from you ${cross}</td>
                 <td class="arabic1">
                     <span class="coptic-caption">ⲣⲁϣⲓ ⲱ̀ ⲙⲁⲣⲓⲁ: </span> وإن قال الناظر <br />
                     <span class="coptic-caption">ⲣⲁϣⲓ ⲱ̀ ⲙⲁⲣⲓⲁ: </span> وصف شرفك قائم <br />
                     <span class="coptic-caption">ⲣⲁϣⲓ ⲱ̀ ⲙⲁⲣⲓⲁ: </span> لكن بعزائم <br />
-                    <span class="coptic-caption">ⲣⲁϣⲓ ⲱ̀ ⲙⲁⲣⲓⲁ: </span> منك متصلون${cross}</td>
+                    <span class="coptic-caption">ⲣⲁϣⲓ ⲱ̀ ⲙⲁⲣⲓⲁ: </span> منك متصلون ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -8530,7 +8531,7 @@ return `
             The praise of the virgin: Increased my joy: Praising her always: Increased my bliss: Moses' dome, O Mary: O
             Aaron's censer</td>
         <td class="arabic">سباني حُبك: يافخرَ الرتب: موسى رآكِ: عجب من عجب: والقناديل فضة بتضوي: والصلبان ذهب. <br>
-        ودا مدح البتول: زاد قلبى فرح: مدحها علطول: خلاه إنشرح: ياقبة موسى يامريم: ياشورية هرون${cross}</td>
+        ودا مدح البتول: زاد قلبى فرح: مدحها علطول: خلاه إنشرح: ياقبة موسى يامريم: ياشورية هرون ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -8772,9 +8773,9 @@ return `
             <tr id="table_65_row_45" class="south">
                 <td class="english" >I conclude my words O brothers: Praising
                     <span class="coptic">Ϯⲡⲁⲣⲑⲉⲛⲟⲥ</span>: The prayers of the pride of warriors: My Lord <span
-                        class="coptic">Ⲅⲉⲟⲣⲅⲓⲟⲥ</span>${cross}</td>
+                        class="coptic">Ⲅⲉⲟⲣⲅⲓⲟⲥ</span> ${cross}</td>
                 <td class="arabic">وأختم قولي يا أخوان: بمديح<span class="coptic"> Ϯⲡⲁⲣⲑⲉⲛⲟⲥ:</span> :وصلاة فخر الشجعان
-                    سيدي <span class="coptic">Ⲅⲉⲟⲣⲅⲓⲟⲥ</span>${cross}</td>
+                    سيدي <span class="coptic">Ⲅⲉⲟⲣⲅⲓⲟⲥ</span> ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -9158,10 +9159,10 @@ return `
             </tr>
             <tr id="table_66_row_53" class="south">
                 <td class="english" >And we also pray, that we may win mercy,
-                    through your intercessions, with the Lover of mankind.${cross}</td>
+                    through your intercessions, with the Lover of mankind. ${cross}</td>
                 <td class="coptic" >̀ Ⲁⲛⲟⲛ ϩⲱⲛ ⲧⲉⲛⲧⲱⲃϩ : ⲉⲑⲣⲉⲛϣⲁϣⲛⲓ ⲉⲩⲛⲁⲓ :
-                    ϩⲓⲧⲉⲛ ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ.${cross}</td>
-                <td class="arabic">ونحن أيضاً: نطلب أن نفوز: برحمة بشفاعاتك: عند محب البشر.${cross}</td>
+                    ϩⲓⲧⲉⲛ ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ. ${cross}</td>
+                <td class="arabic">ونحن أيضاً: نطلب أن نفوز: برحمة بشفاعاتك: عند محب البشر. ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -9248,8 +9249,8 @@ return `
             </tr>
             <tr id="table_67_row_15" class="south">
                 <td class="english" >We worship the Father and the Son: And the
-                    Holy Spirit: Both now and forever: And to the end of ages, Amen.${cross}</td>
-                <td class="arabic">نسجد للآب والأبن: والروح القدس: الآن وكل أوان: والى الأبد آمين${cross}</td>
+                    Holy Spirit: Both now and forever: And to the end of ages, Amen. ${cross}</td>
+                <td class="arabic">نسجد للآب والأبن: والروح القدس: الآن وكل أوان: والى الأبد آمين ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -9431,9 +9432,9 @@ return `
                 <td class="arabic">تعهدنا بخلاصك.</td>
             </tr>
             <tr id="table_70_row_15" class="south">
-                <td class="english" >And forgive us our sins${cross}</td>
-                <td class="coptic" >Ⲟⲩⲟϩ ⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.${cross}</td>
-                <td class="arabic">واغفر لنا خطيانا.${cross}</td>
+                <td class="english" >And forgive us our sins ${cross}</td>
+                <td class="coptic" >Ⲟⲩⲟϩ ⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ. ${cross}</td>
+                <td class="arabic">واغفر لنا خطيانا. ${cross}</td>
             </tr>
         </tbody>
     </table>
@@ -9962,10 +9963,10 @@ return `
             </tr>
             <tr id="table_71_row_73" class="south">
                 <td class="english" >Pray: Our Holy father, the patriarch Abba
-                    (&hellip;), the high priest, That He may forgive us our sins.${cross}</td>
+                    (&hellip;), the high priest, That He may forgive us our sins. ${cross}</td>
                 <td class="coptic" >Ⲧⲱ̅: ⲡⲉⲛⲓⲱⲧ ⲉⲑⲟⲩⲁⲃ ⲙ̀ⲡⲁⲧⲣⲓⲁⲣⲭⲏⲥ : ⲁⲃⲃⲁ
-                    (...) ⲡⲓⲁⲣⲭⲏⲉ̀ⲣⲉⲩⲥ : ⲛ̀ⲧⲉϥ ⲭⲁ ⲛⲉⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.${cross}</td>
-                <td class="arabic">اطلب من الرب عنا ياابانا القديس البطريرك انبا (...) رئيس الكهنة ليغفر.${cross}</td>
+                    (...) ⲡⲓⲁⲣⲭⲏⲉ̀ⲣⲉⲩⲥ : ⲛ̀ⲧⲉϥ ⲭⲁ ⲛⲉⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ. ${cross}</td>
+                <td class="arabic">اطلب من الرب عنا ياابانا القديس البطريرك انبا (...) رئيس الكهنة ليغفر. ${cross}</td>
             </tr>
         </tbody>
     </table>

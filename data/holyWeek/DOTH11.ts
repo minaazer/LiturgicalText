@@ -2,7 +2,7 @@ import { hourIntro, paschalPraise2 , copticGospelIntro, daytimeExpositionIntro, 
 
 export const DOTH11 = () => {
     const hourIntroHtml = hourIntro("ELEVENTH","الحادية عشر","DAY of COVENANT THURSDAY","يوم خميس العهد");
-    const paschalPraiseHtml = paschalPraise2("5","8","9","ELEVENTH","الحادية عشر","DAY of COVENANT THURSDAY","يوم خميس العهد");
+    const paschalPraiseHtml = paschalPraise2("4","8","9","ELEVENTH","الحادية عشر","DAY of COVENANT THURSDAY","يوم خميس العهد");
     const copticGospelIntroHtml = copticGospelIntro("11");
     const daytimeExpositionIntroHtml = daytimeExpositionIntro("15");
     const expositionConclusionHtml = expositionConclusion("17");

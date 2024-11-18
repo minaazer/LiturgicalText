@@ -1015,8 +1015,7 @@ function setOverlayOnRow(tableId, rowId) {
     }
 }
 `
-const clearOverlays =
-`function clearOverlays() {
+const clearOverlays =`function clearOverlays() {
 var sections = document.querySelectorAll('.section');
 sections.forEach(section => {
     section.style.removeProperty('visibility');
@@ -1047,4 +1046,216 @@ sections.forEach(section => {
     });
 }`
 
-export { arabicNumbers , disableScrolling , extractTableTitlesAndIds , sendMessage , setOverlays , clearOverlays, adjustOverlay , adjustOverlayGlorification , paginateTables , paginateTablesGlorification };
+
+const showBlackScreen =`
+window.showBlackScreen = function() {
+    console.log('showBlackScreen called'); // Debugging: check if the function is triggered
+    const existingOverlay = document.getElementById('blackScreenOverlay');
+    if (!existingOverlay) {
+        const overlay = document.createElement('div');
+        overlay.id = 'blackScreenOverlay';
+        overlay.style.position = 'fixed';
+        overlay.style.top = 0;
+        overlay.style.left = 0;
+        overlay.style.width = '100vw';  // Ensure it spans the full viewport width
+        overlay.style.height = '100vh'; // Ensure it spans the full viewport height
+        overlay.style.backgroundColor = 'rgba(0, 0, 0, 1)'; // Ensure the black background is opaque
+        overlay.style.zIndex = 9999; // Ensure high z-index
+        overlay.style.pointerEvents = 'none'; // Make sure it doesn't block interactions
+        document.body.appendChild(overlay);
+    }
+};
+
+`
+
+const removeBlackScreen = `
+
+// Define the removeBlackScreen function to remove the black screen overlay
+window.removeBlackScreen = function() {
+  const overlay = document.getElementById('blackScreenOverlay');
+  if (overlay) {
+      overlay.remove();
+  }
+};`
+
+
+const tableToggle = `
+function listenToTableCaptions() {
+    const tableCaptions = document.querySelectorAll('.caption');
+
+    tableCaptions.forEach(caption => {
+        caption.addEventListener('click', function() {
+            const tableId = this.id.replace('caption_', '');
+            const table = document.getElementById(tableId);
+            
+            if (table) {
+
+                showSpinner(); // Show spinner before processing
+                document.getElementById('spinner-overlay').style.removeProperty('background-color');
+                document.getElementById('spinner-overlay').style.backgroundColor = 'rgba(20,20,20,0.8)'; // Make the spinner overlay semi-transparent
+
+                const tableBodies = table.getElementsByTagName('tbody'); // Faster than querySelectorAll
+
+                if (tableBodies.length > 0) {
+                    Array.from(tableBodies).forEach(tbody => {
+                        // Check if the table body (or rows) are hidden and toggle accordingly
+                        if (!tbody.style.display) {
+                            tbody.style.display = 'none'; // Hide the table body or rows
+                            this.classList.add('table-invisible'); // Add the class for plus icon/
+                            
+                            currentFileStates[tableId] = false;
+                            savedStates[fileKey] = currentFileStates;
+                            sendMessage(JSON.stringify({ type: 'setStoredItem', data: { key: 'tableStates', value: savedStates } }));
+
+
+                        } else if (tbody.style.display === 'none' || tbody.style.display === '') {
+                            tbody.style.display = 'table-row-group'; // Show the table body or rows
+                            this.classList.remove('table-invisible'); // Remove the class for minus icon
+                            
+                            currentFileStates[tableId] = true;
+                            savedStates[fileKey] = currentFileStates;
+                            sendMessage(JSON.stringify({ type: 'setStoredItem', data: { key: 'tableStates', value: savedStates } }));
+
+
+                        } else {
+                            tbody.style.display = 'none'; // Hide the table body or rows
+                            this.classList.add('table-invisible'); // Add the class for plus icon
+                            
+                            currentFileStates[tableId] = false;
+                            savedStates[fileKey] = currentFileStates;
+                            sendMessage(JSON.stringify({ type: 'setStoredItem', data: { key: 'tableStates', value: savedStates } }));
+
+
+                        }
+                    });
+                    // Re-paginate after the toggle
+                    setTimeout(() => {
+                        paginateTables(); // Simulate pagination with timeout (if needed)
+                        sendMessage(JSON.stringify({ type: 'TABLE_TOGGLE', data: tableId })); // Navigate to the table
+                        hideSpinner(); // Hide spinner after processing
+                    }, 100); // Adjust the delay as needed
+                }
+            }
+        });
+    });
+}
+
+`;
+
+const loadStoredSettings = `function loadStoredSettings() {
+      const tableCaptions = document.querySelectorAll('.caption');
+    // Apply the saved state on page load
+    Object.entries(currentFileStates).forEach(([tableId, isVisible]) => {
+        const table = document.getElementById(tableId);
+        if (table) {
+            const tableBodies = table.getElementsByTagName('tbody');
+            Array.from(tableBodies).forEach(tbody => {
+                tbody.style.display = isVisible ? 'table-row-group' : 'none';
+                const caption = document.getElementById('caption_' + tableId);
+                caption?.classList.toggle('table-invisible', !isVisible);
+            });
+        }
+    });
+
+}`;
+
+const listenToButtonClicks = `
+function listenToButtonClicks() {
+  // Get all elements with class .navigationButton and .navigationLink
+  const navigationButtons = document.querySelectorAll('.navigationButton, .navigationLink');
+  
+
+  // Loop through each navigation button
+  navigationButtons.forEach(button => {
+      // Attach click event listener to each button
+      button.addEventListener('click', function() {
+          const buttonId = this.dataset.navigation;
+          sendMessage(JSON.stringify({ type: 'NAVIGATION', data: buttonId }));
+      });
+  });
+};
+`;
+
+const bookNavigationButtons = `
+function listenToBookNavigationButtons() {
+  // Get all elements with class .skipButton
+  const bookNavigationButtons = document.querySelectorAll('.skipButton');
+
+  // Loop through each navigation button
+  bookNavigationButtons.forEach(button => {
+    // Attach click event listener to each button
+    button.addEventListener('click', function () {
+
+      const tableId = this.dataset.navigation; // Get current tableId from data attribute
+      const currentTable = document.getElementById(tableId); // Get the current table by its id
+
+      if (currentTable) {
+        // Find the parent <div> that contains the current table
+        const currentDiv = currentTable.closest('div');
+
+        // Try to find the next table in the same div
+        let nextTable = currentTable.nextElementSibling;
+
+        // If there's no next table in the same div, move to the next div
+        while (nextTable && nextTable.tagName !== 'TABLE') {
+          nextTable = nextTable.nextElementSibling;
+        }
+
+        // If no next table is found in the current div
+        if (!nextTable) {
+          // Move to the next div that contains tables
+          let nextDiv = currentDiv.nextElementSibling;
+
+          // If the next div is found, check for a table inside it
+          if (nextDiv) {
+            nextTable = nextDiv.querySelector('table'); // Get the first table in the next div
+          }
+        }
+
+        // If we found the next table, get its ID and do something with it
+        if (nextTable) {
+          const nextTableId = nextTable.id; // Get the id of the next table
+          sendMessage(JSON.stringify({ type: 'TABLE_TOGGLE', data: nextTableId })); // Navigate to the next table
+        } else {
+          sendMessage(JSON.stringify({ type: 'debug', data: 'No next table found' }));
+        }
+      }
+    });
+  });
+}
+`;
+
+// Handle Spinner
+const handleSpinner = `
+// Inject Spinner and Overlay into the DOM
+function injectSpinner() {
+    const overlayDiv = document.createElement('div');
+    overlayDiv.id = 'spinner-overlay';
+    overlayDiv.style.zIndex = '9998'; // Make sure it's behind the spinner
+
+    const spinnerDiv = document.createElement('div');
+    spinnerDiv.id = 'spinner';
+    spinnerDiv.style.zIndex = '9999'; // Ensure it's above the overlay
+
+    const loaderDiv = document.createElement('div');
+    loaderDiv.classList.add('loader'); // The class that controls spinner appearance
+
+    spinnerDiv.appendChild(loaderDiv);
+    document.body.appendChild(overlayDiv);
+    document.body.appendChild(spinnerDiv);
+}
+
+// Show the spinner and overlay
+function showSpinner() {
+    document.getElementById('spinner-overlay').style.display = 'block';
+    document.getElementById('spinner').style.display = 'block';
+}
+
+// Hide the spinner and overlay
+function hideSpinner() {
+    document.getElementById('spinner-overlay').style.display = 'none';
+    document.getElementById('spinner').style.display = 'none';
+}
+`;
+
+export { arabicNumbers , disableScrolling , extractTableTitlesAndIds , sendMessage , setOverlays , clearOverlays, adjustOverlay , adjustOverlayGlorification , paginateTables , paginateTablesGlorification , showBlackScreen , removeBlackScreen , tableToggle , listenToButtonClicks , handleSpinner , bookNavigationButtons , loadStoredSettings};

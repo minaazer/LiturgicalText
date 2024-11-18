@@ -9,6 +9,7 @@ import {
   drawAPortraitOfTheVirgin,
   hailToYouOMotherOfComfort,
   hailToMary,
+  hearMyCry,
   howSweetAreYouOMary,
   iCanHearMySaviorCalling,
   inTheShadeOfYourProtection,
@@ -41,27 +42,30 @@ export const songs = () => {
   const drawAPortraitOfTheVirginHtml = drawAPortraitOfTheVirgin("6");
   const hailToYouOMotherOfComfortHtml = hailToYouOMotherOfComfort("7");
   const hailToMaryHtml = hailToMary("8");
-  const howSweetAreYouOMaryHtml = howSweetAreYouOMary("9");
-  const iCanHearMySaviorCallingHtml = iCanHearMySaviorCalling("10");
-  const inTheShadeOfYourProtectionHtml = inTheShadeOfYourProtection("11");
-  const myCopticChurchHtml = myCopticChurch("12");
-  const myCopticChurchSoGreatHtml = myCopticChurchSoGreat("13");
-  const oBelovedHtml = oBeloved("14");
-  const oMaryOurMotherTheBelovedOfUsAllHtml = oMaryOurMotherTheBelovedOfUsAll("15");
-  const oMaryOurMotherYouAreTheMotherOfOurLordHtml = oMaryOurMotherYouAreTheMotherOfOurLord("16");
-  const oMotherOfLightHtml = oMotherOfLight("17");
-  const oMotherOfLightOBeautifulHtml = oMotherOfLightOBeautiful("18");
-  const oSeekerToMeetJesusHtml = oSeekerToMeetJesus("19");
-  const ourMotherOVirginHtml = ourMotherOVirgin("20");
-  const overTheDomesHtml = overTheDomes("21");
-  const oVirginMaryHtml = oVirginMary("22");
-  const oVirginMyMotherShineHtml = oVirginMyMotherShine("23");
-  const oYouWhoReceivedTheMostHonorableGiftHtml = oYouWhoReceivedTheMostHonorableGift("24");
-  const theGloryOfMaryHtml = theGloryOfMary("25");
-  const trulyRisenHtml = trulyRisen("26");
-  const veryEarlySundayMorningHtml = veryEarlySundayMorning("27");
-  const watchingUsHtml = watchingUs("28");
-  const yourLoveOMaryHtml = yourLoveOMary("29");
+  const hearMyCryHtml = hearMyCry("9");
+  const howSweetAreYouOMaryHtml = howSweetAreYouOMary("10");
+  const iCanHearMySaviorCallingHtml = iCanHearMySaviorCalling("11");
+  const inTheShadeOfYourProtectionHtml = inTheShadeOfYourProtection("12");
+  const myCopticChurchHtml = myCopticChurch("13");
+  const myCopticChurchSoGreatHtml = myCopticChurchSoGreat("14");
+  const oBelovedHtml = oBeloved("15");
+  const oMaryOurMotherTheBelovedOfUsAllHtml = oMaryOurMotherTheBelovedOfUsAll("16");
+  const oMaryOurMotherYouAreTheMotherOfOurLordHtml = oMaryOurMotherYouAreTheMotherOfOurLord("17");
+  const oMotherOfLightHtml = oMotherOfLight("18");
+  const oMotherOfLightOBeautifulHtml = oMotherOfLightOBeautiful("19");
+  const oSeekerToMeetJesusHtml = oSeekerToMeetJesus("20");
+  const ourMotherOVirginHtml = ourMotherOVirgin("21");
+  const overTheDomesHtml = overTheDomes("22");
+  const oVirginMaryHtml = oVirginMary("23");
+  const oVirginMyMotherShineHtml = oVirginMyMotherShine("24");
+  const oYouWhoReceivedTheMostHonorableGiftHtml = oYouWhoReceivedTheMostHonorableGift("25");
+  const theGloryOfMaryHtml = theGloryOfMary("26");
+  const trulyRisenHtml = trulyRisen("27");
+  const veryEarlySundayMorningHtml = veryEarlySundayMorning("28");
+  const watchingUsHtml = watchingUs("29");
+  const yourLoveOMaryHtml = yourLoveOMary("30");
+
+
 
 
 
@@ -76,6 +80,7 @@ export const songs = () => {
     ${drawAPortraitOfTheVirginHtml}
     ${hailToYouOMotherOfComfortHtml}
     ${hailToMaryHtml}
+    ${hearMyCryHtml}
     ${howSweetAreYouOMaryHtml}
     ${iCanHearMySaviorCallingHtml}
     ${inTheShadeOfYourProtectionHtml}

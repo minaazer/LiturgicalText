@@ -3,6 +3,7 @@ import React , {useEffect , useState } from 'react';
 import { View, Text , TextInput , TouchableOpacity , ImageBackground} from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { DrawerContentScrollView, DrawerItem , createDrawerNavigator } from '@react-navigation/drawer';
+import { useIsDrawerOpen } from '@react-navigation/drawer';
 import { useNavigation } from '@react-navigation/native';
 import { presentationStyles } from '../css/presentationStyles';
 import { Dimensions } from 'react-native';
@@ -143,6 +144,8 @@ const drawerMenu = createDrawerNavigator();
 
 const RightMenuDrawer = ({ html , currentTable, setCurrentTable , drawerItems, setDrawerItems , handleDrawerItemPress, webviewRef }) => {
   const navigation = useNavigation();
+
+
   return (
 
     <SafeAreaProvider>
@@ -153,8 +156,9 @@ const RightMenuDrawer = ({ html , currentTable, setCurrentTable , drawerItems, s
           headerShown: false, // Hide the default header
           gestureDirection: 'horizontal-inverted', // For RTL swipe gesture
           drawerPosition: 'right',
-          drawerType: 'slide', 
+          drawerType: 'front', 
           swipeEdgeWidth: screenWidth /3 ,
+          swipeMinDistance: 10,
           overlayColor: 'rgba(0,0,0,0.5)', // Semi-transparent overlay
           drawerStyle: {width: screenWidth *.4}
         }}
@@ -171,9 +175,11 @@ const RightMenuDrawer = ({ html , currentTable, setCurrentTable , drawerItems, s
         }
         >    
           <drawerMenu.Screen name="MainContent">
-            {() => <MainContent html={html} webviewRef={webviewRef} setDrawerItems={setDrawerItems} setCurrentTable={setCurrentTable}/>}
+            {() => <MainContent html={html} webviewRef={webviewRef} setDrawerItems={setDrawerItems} setCurrentTable={setCurrentTable} currentTable={currentTable}/>}
           </drawerMenu.Screen>
       </drawerMenu.Navigator>
+
+      
       </SafeAreaProvider>    
       
   );

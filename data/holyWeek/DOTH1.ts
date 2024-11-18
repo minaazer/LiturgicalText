@@ -6,7 +6,7 @@ export const DOTH1 = () => {
         <td class="arabic">يفتح باب الخورس والهيكل ويكون مكسواً بكسوة سوداء ويبتدئ رئيس الكهنة بقراءة النبوات قبطياً وعربياً وانجليزياً.</td>
     `;
     const hourIntroHtml = hourIntro("FIRST","الأولى","DAY of COVENANT THURSDAY","يوم خميس العهد", introCommentary);
-    const paschalPraiseHtml = paschalPraise2("5","8","9","FIRST","الأولى","DAY of COVENANT THURSDAY","يوم خميس العهد");
+    const paschalPraiseHtml = paschalPraise2("4","8","9","FIRST","الأولى","DAY of COVENANT THURSDAY","يوم خميس العهد");
     const faiEtafEnfHtml = faiEtafEnf("32");
     const copticGospelIntroHtml = copticGospelIntro("40");
     const daytimeExpositionIntroHtml = daytimeExpositionIntro("44");

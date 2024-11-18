@@ -1,20 +1,27 @@
 /** @format */
 
-import React from "react";
+import React, {useEffect} from "react";
 import {
   createDrawerNavigator,
   DrawerContentScrollView,
   DrawerItem,
 } from "@react-navigation/drawer";
+import { useNavigation } from '@react-navigation/native';
 import { createStackNavigator } from "@react-navigation/stack";
 import { Dimensions, View, Text } from "react-native";
 import { presentationStyles } from "../css/presentationStyles";
 import { useNavigationState } from "@react-navigation/native";
+import SettingsContext from "../../settings/settingsContext";
 import SettingsScreen from "../screens/settings";
+import CalendarScreen from "../screens/calendar";
+import SaintSettingsScreen from "../screens/saintSettings";
 import AboutScreen from "../screens/about";
 import Home from "../screens/home";
 import Kiahk from "../screens/kiahk";
+import Psalmody from "../screens/psalmody";
 import KiahkDoxologies from "../screens/kiahkDoxologies";
+import Doxologies from "../screens/doxologies";
+import SeasonalDoxologies from "../screens/seasonalDoxologies";
 import Glorification from "../screens/glorification";
 import Songs from "../screens/songs";
 import StMarySongs from "../screens/songs/stMarySongs";
@@ -120,6 +127,14 @@ const RouteConfig = [
     label: "Kiahk Praises",
     component: Kiahk,
     children: [{screenName: "KiahkDoxologies", label: "Kiahk Doxologies", component: KiahkDoxologies, },],
+  },
+  {
+    screenName: "Psalmody",
+    label: "Psalmody",
+    component: Psalmody,
+    children: [{screenName: "Doxologies", label: "Doxologies", component: Doxologies, },
+    {screenName: "SeasonalDoxologies", label: "Seasonal Doxologies", component: SeasonalDoxologies, },
+    ],
   },
   {
     screenName: "HolyWeek",
@@ -430,6 +445,9 @@ const LeftDrawerContent = ({ navigation, currentRoute, ...props }) => {
     drawerItemsByRoute &&
     findParentAndSiblings(drawerItemsByRoute, currentRoute);
 
+    const [settings] = React.useContext(SettingsContext);
+    const developerMode = settings.developerMode;
+  
   return (
     <DrawerContentScrollView
       style={presentationStyles.drawerContentScrollView}
@@ -459,6 +477,36 @@ const LeftDrawerContent = ({ navigation, currentRoute, ...props }) => {
         labelStyle={presentationStyles.drawerLabel}
         onPress={() => closeDrawerAndNavigate("Settings")}
       />
+      <DrawerItem
+        label="Calendar"
+        style={presentationStyles.drawerItem}
+        labelStyle={presentationStyles.drawerLabel}
+        onPress={() => closeDrawerAndNavigate("Calendar")}
+      />
+      {developerMode && (
+            <DrawerItem
+        label="Saints Settings"
+        style={presentationStyles.drawerItem}
+        labelStyle={presentationStyles.drawerLabel}
+        onPress={() => closeDrawerAndNavigate("SaintSettings")}
+      />
+      )}
+            {developerMode && (
+            <DrawerItem
+        label="Doxologies"
+        style={presentationStyles.drawerItem}
+        labelStyle={presentationStyles.drawerLabel}
+        onPress={() => closeDrawerAndNavigate("Doxologies")}
+      />
+      )}
+      {developerMode && (
+            <DrawerItem
+        label="Seasonal Doxologies"
+        style={presentationStyles.drawerItem}
+        labelStyle={presentationStyles.drawerLabel}
+        onPress={() => closeDrawerAndNavigate("SeasonalDoxologies")}
+      />
+      )}
       <DrawerItem
         label="About"
         style={presentationStyles.drawerItem}
@@ -507,7 +555,6 @@ const createStackScreens = (route) => {
 
 const MainStackNavigator = () => {
   const Stack = createStackNavigator(); // Define Stack navigator outside the function
-
   return (
     <Stack.Navigator
       initialRouteName="Home"
@@ -524,6 +571,18 @@ const MainStackNavigator = () => {
         options={{ headerShown: false }}
       />
       <Stack.Screen
+        name="Calendar"
+        component={CalendarScreen}
+        options={{ headerShown: false }}
+      />
+      <Stack.Screen
+        name="SaintSettings"
+        component={SaintSettingsScreen}
+        options={{ headerShown: false }}
+      />
+
+      
+      <Stack.Screen
         name="About"
         component={AboutScreen}
         options={{ headerShown: false }}
@@ -535,6 +594,26 @@ const MainStackNavigator = () => {
 };
 
 const RootNavigation = () => {
+
+  const navigation = useNavigation();
+
+  // Ensure the left drawer fully opens or closes
+  useEffect(() => {
+    const unsubscribeOpen = navigation.addListener('drawerOpen', () => {
+      // Left drawer fully opened
+    });
+
+    const unsubscribeClose = navigation.addListener('drawerClose', () => {
+      // Left drawer fully closed
+    });
+
+    return () => {
+      unsubscribeOpen();
+      unsubscribeClose();
+    };
+  }, [navigation]);
+
+
   const state = useNavigationState((state) => state);
   const currentState = state?.routes[state.index].state;
   const currentRoute = currentState?.routes[currentState.index].name;
@@ -545,7 +624,8 @@ const RootNavigation = () => {
       screenOptions={{
         gestureEnabled: true,
         swipeEdgeWidth: screenWidth / 3,
-        drawerType: "slide",
+        swipeMinDistance: 10,
+        drawerType: "front",
         overlayColor: "rgba(0,0,0,0.5)", // Semi-transparent overlay
       }}
       drawerContent={(props) => (

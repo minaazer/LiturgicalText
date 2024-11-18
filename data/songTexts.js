@@ -1840,6 +1840,256 @@ let html = `
     `;return html;
 }
 
+function hearMyCry(tableNumber) {
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
+
+<table id="table_${tableNumber}" title="Hear My Cry">
+    <caption id="caption_table_${tableNumber}" class="caption">
+        Hear My Cry
+        <span class="arabic-caption">اسمع صراخى يا سيدى</span>
+    </caption>
+    <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
+
+            <tr id="table_${tableNumber}_row_0" class="refrain">
+                <td class="english">Hear my cry, I pray to thee,</td>
+                <td class="enPhonicsSongs">Isma3 sorakhee ya sayidi</td>
+                <td class="arabic">اسمع صراخى يا سيدى</td>
+            </tr>
+            
+            <tr id="table_${tableNumber}_row_1" class="refrain">
+                <td class="english">And to my voice incline your ear,</td>
+                <td class="enPhonicsSongs">Wal ila salati amil othnayk</td>
+                <td class="arabic">والى صلاتى امل اذنيك</td>
+            </tr>
+            
+            <tr id="table_${tableNumber}_row_2" class="refrain">
+                <td class="english">Hold me and have mercy on me,</td>
+                <td class="enPhonicsSongs">Er7ani wa amsik biyadi</td>
+                <td class="arabic">ارحنى وامسك بيدى</td>
+            </tr>
+            
+            <tr id="table_${tableNumber}_row_3" class="refrain">
+                <td class="english">For you O Lord I'm in great need.</td>
+                <td class="enPhonicsSongs">Fa ana fi 7aga shadeeda ilayk</td>
+                <td class="arabic">فانا فى حاجة شديدة اليك</td>
+            </tr>
+            </tbody>
+<tbody ${tbodyClass} id="table_${tableNumber}_tbody_1">
+
+            <tr id="table_${tableNumber}_row_4" class="north">
+                <td class="english">My soul is troubled in the deep,</td>
+                <td class="enPhonicsSongs">Ha qad 3iyat fi nafsi</td>
+                <td class="arabic">ها قد اعيت فى نفسى</td>
+            </tr>
+            
+            <tr id="table_${tableNumber}_row_5" class="north">
+                <td class="english">And my eyes are full of tears,</td>
+                <td class="enPhonicsSongs">Min deeqi ad3o ya rabbi</td>
+                <td class="arabic">من ضيقى ادعوا يا ربى</td>
+            </tr>
+            
+            <tr id="table_${tableNumber}_row_6" class="north">
+                <td class="english">Now I remember you indeed,</td>
+                <td class="enPhonicsSongs">Wa anta wa7dak athkurak</td>
+                <td class="arabic">وانت وحدك اذكرك</td>
+            </tr>
+            
+            <tr id="table_${tableNumber}_row_7" class="north">
+                <td class="english">For your salvation is near.</td>
+                <td class="enPhonicsSongs">Li annaka shib3a qalbi</td>
+                <td class="arabic">لانك شبع قلبى</td>
+            </tr>
+            </tbody>
+<tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
+
+            <tr id="table_${tableNumber}_row_8" class="refrain">
+                <td class="english">Hear my cry, I pray to thee,</td>
+                <td class="enPhonicsSongs">Isma3 sorakhee ya sayidi</td>
+                <td class="arabic">اسمع صراخى يا سيدى</td>
+            </tr>
+            
+            <tr id="table_${tableNumber}_row_9" class="refrain">
+                <td class="english">And to my voice incline your ear,</td>
+                <td class="enPhonicsSongs">Wal ila salati amil othnayk</td>
+                <td class="arabic">والى صلاتى امل اذنيك</td>
+            </tr>
+            
+            <tr id="table_${tableNumber}_row_10" class="refrain">
+                <td class="english">Hold me and have mercy on me,</td>
+                <td class="enPhonicsSongs">Er7ani wa amsik biyadi</td>
+                <td class="arabic">ارحنى وامسك بيدى</td>
+            </tr>
+            
+            <tr id="table_${tableNumber}_row_11" class="refrain">
+                <td class="english">For you O Lord I'm in great need.</td>
+                <td class="enPhonicsSongs">Fa ana fi 7aga shadeeda ilayk</td>
+                <td class="arabic">فانا فى حاجة شديدة اليك</td>
+            </tr>
+            </tbody>
+<tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
+
+            <tr id="table_${tableNumber}_row_12" class="south">
+                <td class="english">All the waves came upon me,</td>
+                <td class="enPhonicsSongs">Haqad a7ata bi nahar</td>
+                <td class="arabic">هاقد احاط بى نهر</td>
+            </tr>
+            
+            <tr id="table_${tableNumber}_row_13" class="south">
+                <td class="english">I was drowned in the deep sea,</td>
+                <td class="enPhonicsSongs">Thumma a7ata bi ghamr</td>
+                <td class="arabic">ثم احاط بى غمر</td>
+            </tr>
+            
+            <tr id="table_${tableNumber}_row_14" class="south">
+                <td class="english">I asked for help where it could be,</td>
+                <td class="enPhonicsSongs">Wal 3oshb iltafa bira'si</td>
+                <td class="arabic">والعشب التف براسى</td>
+            </tr>
+            
+            <tr id="table_${tableNumber}_row_15" class="south">
+                <td class="english">But in the hands of my Lord dear.</td>
+                <td class="enPhonicsSongs">Wal ma' 3abara ila nafsi</td>
+                <td class="arabic">والماء عبر الى نفسى</td>
+            </tr>
+            </tbody>
+<tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
+
+            <tr id="table_${tableNumber}_row_16" class="refrain">
+                <td class="english">Hear my cry, I pray to thee,</td>
+                <td class="enPhonicsSongs">Isma3 sorakhee ya sayidi</td>
+                <td class="arabic">اسمع صراخى يا سيدى</td>
+            </tr>
+            
+            <tr id="table_${tableNumber}_row_17" class="refrain">
+                <td class="english">And to my voice incline your ear,</td>
+                <td class="enPhonicsSongs">Wal ila salati amil othnayk</td>
+                <td class="arabic">والى صلاتى امل اذنيك</td>
+            </tr>
+            
+            <tr id="table_${tableNumber}_row_18" class="refrain">
+                <td class="english">Hold me and have mercy on me,</td>
+                <td class="enPhonicsSongs">Er7ani wa amsik biyadi</td>
+                <td class="arabic">ارحنى وامسك بيدى</td>
+            </tr>
+            
+            <tr id="table_${tableNumber}_row_19" class="refrain">
+                <td class="english">For you O Lord I'm in great need.</td>
+                <td class="enPhonicsSongs">Fa ana fi 7aga shadeeda ilayk</td>
+                <td class="arabic">فانا فى حاجة شديدة اليك</td>
+            </tr>
+            </tbody>
+<tbody ${tbodyClass} id="table_${tableNumber}_tbody_5">
+
+            <tr id="table_${tableNumber}_row_20" class="north">
+                <td class="english">My heart is trembling in great fear,</td>
+                <td class="enPhonicsSongs">Jazat min fawqi ettirarat</td>
+                <td class="arabic">جازت من فوقى التيارات</td>
+            </tr>
+            
+            <tr id="table_${tableNumber}_row_21" class="north">
+                <td class="english">And my head is wrapped in weeds,</td>
+                <td class="enPhonicsSongs">Wa aghraqaatni eldayqat</td>
+                <td class="arabic">و اغرقتنى الضيقات</td>
+            </tr>
+            
+            <tr id="table_${tableNumber}_row_22" class="north">
+                <td class="english">Out of the depth I cried to Thee,</td>
+                <td class="enPhonicsSongs">Wa kanaka rafadtani</td>
+                <td class="arabic">وكانك رفضتنى</td>
+            </tr>
+            
+            <tr id="table_${tableNumber}_row_23" class="north">
+                <td class="english">Save my soul and set me free.</td>
+                <td class="enPhonicsSongs">Wa ishtahayt nafsi elta3ziyat</td>
+                <td class="arabic">واشتهيت نفسى التعزيات</td>
+            </tr>
+            </tbody>
+<tbody ${tbodyClass} id="table_${tableNumber}_tbody_6">
+
+            <tr id="table_${tableNumber}_row_24" class="refrain">
+                <td class="english">Hear my cry, I pray to thee,</td>
+                <td class="enPhonicsSongs">Isma3 sorakhee ya sayidi</td>
+                <td class="arabic">اسمع صراخى يا سيدى</td>
+            </tr>
+            
+            <tr id="table_${tableNumber}_row_25" class="refrain">
+                <td class="english">And to my voice incline your ear,</td>
+                <td class="enPhonicsSongs">Wal ila salati amil othnayk</td>
+                <td class="arabic">والى صلاتى امل اذنيك</td>
+            </tr>
+            
+            <tr id="table_${tableNumber}_row_26" class="refrain">
+                <td class="english">Hold me and have mercy on me,</td>
+                <td class="enPhonicsSongs">Er7ani wa amsik biyadi</td>
+                <td class="arabic">ارحنى وامسك بيدى</td>
+            </tr>
+            
+            <tr id="table_${tableNumber}_row_27" class="refrain">
+                <td class="english">For you O Lord I'm in great need.</td>
+                <td class="enPhonicsSongs">Fa ana fi 7aga shadeeda ilayk</td>
+                <td class="arabic">فانا فى حاجة شديدة اليك</td>
+            </tr>
+            </tbody>
+<tbody ${tbodyClass} id="table_${tableNumber}_tbody_7">
+
+            <tr id="table_${tableNumber}_row_28" class="south">
+                <td class="english">God ordered the whale in the sea,</td>
+                <td class="enPhonicsSongs">Salla Yonan min jawf ilhoot</td>
+                <td class="arabic">صلى يونان من جوف الحوت</td>
+            </tr>
+            
+            <tr id="table_${tableNumber}_row_29" class="south">
+                <td class="english">To safely drop Jonah in peace,</td>
+                <td class="enPhonicsSongs">Isdar amran alla yamoot</td>
+                <td class="arabic">اصدار امرا الا يموت</td>
+            </tr>
+            
+            <tr id="table_${tableNumber}_row_30" class="south">
+                <td class="english">In the whale's belly Jonah kneeled,</td>
+                <td class="enPhonicsSongs">Min jawf elhawiyah sarakh</td>
+                <td class="arabic">من جوف الهاويه صرخ</td>
+            </tr>
+            
+            <tr id="table_${tableNumber}_row_31" class="south">
+                <td class="english">And thanked the Lord for His great deed.</td>
+                <td class="enPhonicsSongs">Wabil marah sam3at alsowt</td>
+                <td class="arabic">وبالمراح سمعت الصوت</td>
+            </tr>
+            </tbody>
+<tbody ${tbodyClass} id="table_${tableNumber}_tbody_8">
+
+            <tr id="table_${tableNumber}_row_32" class="refrain">
+                <td class="english">Hear my cry, I pray to thee,</td>
+                <td class="enPhonicsSongs">Isma3 sorakhee ya sayidi</td>
+                <td class="arabic">اسمع صراخى يا سيدى</td>
+            </tr>
+            
+            <tr id="table_${tableNumber}_row_33" class="refrain">
+                <td class="english">And to my voice incline your ear,</td>
+                <td class="enPhonicsSongs">Wal ila salati amil othnayk</td>
+                <td class="arabic">والى صلاتى امل اذنيك</td>
+            </tr>
+            
+            <tr id="table_${tableNumber}_row_34" class="refrain">
+                <td class="english">Hold me and have mercy on me,</td>
+                <td class="enPhonicsSongs">Er7ani wa amsik biyadi</td>
+                <td class="arabic">ارحنى وامسك بيدى</td>
+            </tr>
+            
+            <tr id="table_${tableNumber}_row_35" class="refrain">
+                <td class="english">For you O Lord I'm in great need.</td>
+                <td class="enPhonicsSongs">Fa ana fi 7aga shadeeda ilayk</td>
+                <td class="arabic">فانا فى حاجة شديدة اليك</td>
+            </tr>
+            </tbody>
+</table>`;
+return html;
+}
+
+
 function howSweetAreYouOMary(tableNumber) { 
     const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
     let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
@@ -5950,6 +6200,7 @@ export {
   drawAPortraitOfTheVirgin,
   hailToYouOMotherOfComfort,
   hailToMary,
+  hearMyCry,
   howSweetAreYouOMary,
   iCanHearMySaviorCalling,
   inTheShadeOfYourProtection,

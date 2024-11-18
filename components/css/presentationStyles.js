@@ -3,6 +3,9 @@ import { Dimensions , Platform } from 'react-native';
 import { songs } from '../../data/songs';
 
 const screenWidth = Dimensions.get('window').width;
+const isTablet = screenWidth >= 600;
+const isComputer = screenWidth >= 1000;
+const languageWidth = isComputer ? '30%' : isTablet ? '45%' : '90%';
 
 export const presentationStyles = StyleSheet.create({
 
@@ -160,9 +163,8 @@ export const presentationStyles = StyleSheet.create({
       marginHorizontal: '5%',
       marginVertical: 0,
     },
-    settingsScreen: {
-      shadowColor: 'black',
-    },
+
+
   
 
 
@@ -340,6 +342,190 @@ export const presentationStyles = StyleSheet.create({
       fontWeight: 'bold',
     },
 
+// Settings screen styles *********************************************************
+settingsScreen: {
+  backgroundColor: '#003060',
+  flex: 1,
+},
+
+settingsInnerContainer: {
+  //flex: 1,
+  backgroundColor: '#fff',
+  alignItems: 'center',
+  justifyContent: 'flex-start',
+  paddingTop: 0,
+  borderRadius: 20,
+  paddingBottom: 0,
+  marginHorizontal: 20,
+  marginVertical: 10,
+},
+screenTitle: {
+  fontSize: screenWidth * 0.04,
+  fontWeight: 'bold',
+  marginBottom: '0%',
+  color: '#e19d09',
+  marginTop: 10,
+},
+settingsContainer: {
+  width: '90%',
+  alignItems: 'center',
+  justifyContent: 'flex-start',
+},
+
+fontSetting: {
+  display: 'flex',
+  flexDirection: Platform.OS === 'ios' ? "column" : 'row',
+  alignItems: Platform.OS === 'ios' ? "flex-start" : 'center',
+  justifyContent: 'space-between',
+  width: '30%',
+  marginBottom: '1%',
+},
+picker: {
+  flex: 1,
+  width: Platform.OS === 'ios' ? "100%" : "auto",
+  overflow: "hidden",
+  
+},
+
+setting: {
+  width: '100%',
+  marginBottom: '1%',
+},
+
+settingTitle: {
+  fontSize: screenWidth * 0.03,
+  fontWeight: 'bold',
+  flex: 1,
+  color: 'black',
+  marginBottom: 10
+},
+
+languagesContainer: {
+  width: '100%',
+  flexDirection: Platform.OS === 'ios' ? 'column' : 'row',
+  justifyContent: 'space-between',
+  paddingVertical: 5,
+  
+  flexWrap: 'wrap',
+},
+
+
+language: {
+  width: languageWidth,
+  display: "flex",
+  flexDirection: "row",
+  alignItems: 'center',
+  justifyContent: "space-between",
+  marginHorizontal: 15,
+},
+
+languageTitle: {
+  fontSize: 18,
+  fontWeight: 'bold',
+  marginBottom: '0%',
+  color: 'black',
+},
+
+button: {
+  backgroundColor: '#003060',
+  borderRadius: 20,
+  padding: 10,
+  marginBottom: 15,
+  marginTop: '0%',
+  justifyContent: 'center',
+  width: '30%',
+  
+},
+
+buttonText: {
+  color: 'white',
+  fontSize: 18,
+  fontWeight: 'bold',
+  textAlign: 'center',
+},
+
+
+    
+/// Coptic Seasons
+seasonsContainer: {
+  marginTop: 0,
+  width: '90%',
+  display: 'flex',
+  flexDirection: 'row',
+  flexWrap: 'wrap',
+  justifyContent: 'flex-start',
+},
+
+seasonPickerContainer: {
+  marginTop: 20,
+  width: '80%',
+  display: 'flex',
+  flexDirection: 'row',
+  flexWrap: 'wrap',
+  justifyContent: 'space-evenly',
+  alignItems: 'center',
+},
+seasonCard: {
+  backgroundColor: '#f0f0f0',
+  borderRadius: 10,
+  padding: 15,
+  marginBottom: 10,
+  width: '100%',
+},
+currentSeasonCard: {
+  borderRadius: 10,
+  padding: 15,
+  marginBottom: 10,
+  width: '70%',
+},
+seasonTitle: {
+  fontSize: 16,
+  fontWeight: 'bold',
+  color: '#003060',
+},
+currentSeasonTitle: {
+  fontSize: 16,
+  fontWeight: 'bold',
+  color: '#003060',
+  textAlign: 'center',
+},
+seasonDate: {
+  fontSize: 14,
+  color: '#666',
+},
+seasonCopticDate: {
+  fontSize: 14,
+  color: '#666',
+  fontWeight: 'bold',
+},
+divider: {
+  height: 2, // Slightly thicker than 1px for better visibility
+  backgroundColor: '#003060', // Contrasting color
+  marginTop: 10, // Add vertical margins for space
+  width: '90%', // Ensure the divider stretches across the screen width
+},
+seasonsButtonContainer: {
+  marginTop: 20,
+  width: '30%',
+  
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'flex-start',
+},
+calendarButton: {
+  backgroundColor: '#003060',
+  borderRadius: 5,
+  padding: 10,
+  marginBottom: 15,
+  marginTop: '0%',
+  justifyContent: 'center',
+  width: '98%',
+  
+},
+
+inactiveButton: {
+  backgroundColor: '#ccc',
+},
 
   });
 

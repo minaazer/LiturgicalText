@@ -47,7 +47,7 @@ export const fontTypeface = `
 
       @font-face {
         font-family: "Georgia";
-        src: url("https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/georgia-bold.ttf") format('truetype');
+        src: url("https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/georgiab.ttf") format('truetype');
         font-weight: bold;
         font-style: normal;
       }
@@ -66,5 +66,15 @@ export const fontTypeface = `
             font-style: normal;
         }
 
+        /* Add Font Awesome */
+      @font-face {
+          font-family: "Font Awesome 5 Free";
+          src: url("https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/fa-solid-900.woff2") format("woff2"),
+              url("https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/fa-solid-900.woff") format("woff"),
+              url("https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/fa-solid-900.ttf") format("truetype");
+          font-weight: 900;
+          font-style: normal;
+      }
+      
       
 `;   

@@ -8,7 +8,8 @@ export const handleMessage = (
   setCurrentPage,
   setCurrentTable,
   webviewRef,
-  navigation
+  navigation,
+  localStorage
 ) => {
   try {
     const message = JSON.parse(event.nativeEvent.data);
@@ -110,6 +111,16 @@ export const handleMessage = (
       webviewRef.current.injectJavaScript(
         `adjustOverlay('${nextVisibleElementId}');`
       );
+    } else if (message.type === "TABLE_TOGGLE") {
+      handleDrawerItemPress(message.data, webviewRef);
+    } else if (message.type === "setStoredItem") {
+      try {
+        localStorage.setItem(message.data.key, message.data.value);
+      } catch (error) {
+        console.error("Error setting item:", error);
+      }
+
+      
     } else {
       console.log("message:", message.type, message.data);
     }
@@ -137,25 +148,7 @@ export const handleNext = (
     const nextVisibleElementId =
       pageOffsets[currentPage + 1].firstVisibleElementId;
 
-    // Inject JavaScript to display a black screen overlay
-    webviewRef.current.injectJavaScript(`
-          (function() {
-              const existingOverlay = document.getElementById('blackScreenOverlay');
-              if (!existingOverlay) {
-                  const overlay = document.createElement('div');
-                  overlay.id = 'blackScreenOverlay';
-                  overlay.style.position = 'fixed';
-                  overlay.style.top = 0;
-                  overlay.style.left = 0;
-                  overlay.style.width = '100%';
-                  overlay.style.height = '100%';
-                  overlay.style.backgroundColor = 'black';
-                  overlay.style.zIndex = 9999;
-                  document.body.appendChild(overlay);
-              }
-          })();
-      `);
-
+    webviewRef.current.injectJavaScript(`showBlackScreen();`);
     // Add a delay before executing the scroll and overlay removal
     setTimeout(() => {
       // Scroll to the new position
@@ -166,14 +159,7 @@ export const handleNext = (
       webviewRef.current.injectJavaScript(`window.scrollTo(0, ${yOffset});`);
 
       // Inject JavaScript to remove the black screen overlay after the scroll
-      webviewRef.current.injectJavaScript(`
-              (function() {
-                  const overlay = document.getElementById('blackScreenOverlay');
-                  if (overlay) {
-                      overlay.remove();
-                  }
-              })();
-          `);
+      webviewRef.current.injectJavaScript(`removeBlackScreen();`);
     }, 25); // Delay the scroll and removal of the overlay by 500 milliseconds
   }
 };
@@ -197,45 +183,20 @@ export const handlePrevious = (
 
     const yOffset = pageOffsets[currentPage - 1].yOffset;
     const nextVisibleElementId =
-      pageOffsets[currentPage - 1].firstVisibleElementId;
+    pageOffsets[currentPage - 1].firstVisibleElementId;
 
     // Inject JavaScript to display a black screen overlay
-    webviewRef.current.injectJavaScript(`
-          (function() {
-              const existingOverlay = document.getElementById('blackScreenOverlay');
-              if (!existingOverlay) {
-                  const overlay = document.createElement('div');
-                  overlay.id = 'blackScreenOverlay';
-                  overlay.style.position = 'fixed';
-                  overlay.style.top = 0;
-                  overlay.style.left = 0;
-                  overlay.style.width = '100%';
-                  overlay.style.height = '100%';
-                  overlay.style.backgroundColor = 'black';
-                  overlay.style.zIndex = 9999;
-                  document.body.appendChild(overlay);
-              }
-          })();
-      `);
+    webviewRef.current.injectJavaScript(`showBlackScreen();`);
 
     // Add a delay before executing the scroll and overlay removal
     setTimeout(() => {
       // Scroll to the previous position
       webviewRef.current.injectJavaScript(`clearOverlays();`);
-      webviewRef.current.injectJavaScript(
-        `adjustOverlay('${nextVisibleElementId}');`
-      );
+      webviewRef.current.injectJavaScript(`adjustOverlay('${nextVisibleElementId}');`);
       webviewRef.current.injectJavaScript(`window.scrollTo(0, ${yOffset});`);
 
       // Inject JavaScript to remove the black screen overlay after the scroll
-      webviewRef.current.injectJavaScript(`
-              (function() {
-                  const overlay = document.getElementById('blackScreenOverlay');
-                  if (overlay) {
-                      overlay.remove();
-                  }
-              })();
-          `);
+      webviewRef.current.injectJavaScript(`removeBlackScreen();`);
     }, 25); // Delay the scroll and removal of the overlay by 500 milliseconds
   }
 };

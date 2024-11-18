@@ -1,43 +1,38 @@
 /** @format */
-import { useContext, useState, useEffect } from 'react';
-import SettingsContext from '../settings/settingsContext';
+import { useContext, useState, useEffect } from "react";
+import SettingsContext from "../settings/settingsContext";
 
 const userSettings = (value, settingsKey) => {
-    const [settings] = useContext(SettingsContext);
-    const [settingsData, setSettingsData] = useState([]);
-  
-    useEffect(() => {
-  
-      if (settings[settingsKey]) {
-        setSettingsData(settings[settingsKey]);
-      }
-    }, [settings, settingsKey]);
-  
-    // Find the item with the provided value in the settingsData array
-    const item = settingsData.find(item => item.value === value);
-  
-    // If the item is found, return its checked property; otherwise, return false
-    return item ? item.checked : false;
-  };
-  
-  
+  const [settings] = useContext(SettingsContext);
+  const [settingsData, setSettingsData] = useState([]);
 
+  useEffect(() => {
+    if (settings[settingsKey]) {
+      setSettingsData(settings[settingsKey]);
+    }
+  }, [settings, settingsKey]);
 
+  // Find the item with the provided value in the settingsData array
+  const item = settingsData.find((item) => item.value === value);
 
+  // If the item is found, return its checked property; otherwise, return false
+  return item ? item.checked : false;
+};
 
-function hourIntro(eHour, aHour, eDay, aDay , commentary) {
-    let commentaryHtml = '';
-    if (commentary) {
-        commentaryHtml = `
+function hourIntro(eHour, aHour, eDay, aDay, commentary) {
+  let commentaryHtml = "";
+  if (commentary) {
+    commentaryHtml = `
         <tr id="table_1_row_1" class="commentary">
             ${commentary}
         </tr>
-        `
-    } 
-    let html = `
+        `;
+  }
+  let html = `
         <div class="section" id="section_1" title="Introduction">
             <table id="table_1" title="Introduction of the ${eHour} Hour of the ${eDay}">
                 <caption class="caption" id="caption_table_1">The ${eHour} Hour of the ${eDay}<br><span class="arabic-caption">الساعة ${aHour} من ${aDay}</span></caption>
+<tbody>
                 ${commentaryHtml}
                 <tr id="table_1_row_2" class="text">
                     <td class="english"><span class="role">Priest:</span><br>In the name of the Father, and the Son, and the Holy Spirit, one God. Amen.</td>
@@ -48,110 +43,116 @@ function hourIntro(eHour, aHour, eDay, aDay , commentary) {
                     <td class="arabic">نبوات الساعة ${aHour} من ${aDay} من البصخة المقدسة بركاتها تكون معنا، امين.</td>
                 </tr>
                 
-            </table>
+            </tbody>
+</table>
         </div>\n`;
-    return html;
+  return html;
 }
 
 function paschalPraise1(
-    sectionNumber,
-    tableNumber1,
-    tableNumber2,
-    eHour,
-    aHour,
-    eDay,
-    aDay
+  sectionNumber,
+  tableNumber1,
+  tableNumber2,
+  eHour,
+  aHour,
+  eDay,
+  aDay
 ) {
+  const isOnePageChecked = userSettings("PaschalPraise", "onePage"); // Example usage
+  let tableClass = "";
+  if (isOnePageChecked) {
+    tableClass = 'class= "onePage"';
+  }
 
-    const isOnePageChecked = userSettings('PaschalPraise', 'onePage'); // Example usage
-    let tableClass = '';
-    if (isOnePageChecked) {
-        tableClass = 'class= "onePage"'
-    }
-
-    let html = `
-        <div class="section" id="section_${sectionNumber}">
-            <table id="table_${tableNumber1}" title="Paschal Praise">
-                <caption class="caption" id="caption_table_${tableNumber1}">Paschal Praise</caption>
-                <tr id="table_${tableNumber1}_row_0" class="priest">
-                    <td class="english">Lord have mercy upon us. Alleluia.</td>
-                    <td class="coptic">Ⲡϭⲟⲓⲥ ⲛⲁⲓ ⲛⲁⲛ: Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.</td>
-                    <td class="arabic">يا رب ارحمنا. الليلويا.</td>
-                </tr>
-                <tr id="table_${tableNumber1}_row_1" class="priest">
-                    <td class="english">In the name of the Father, and the Son, and the Holy Spirit, one God. Amen.</td>
-                    <td class="coptic">Ϧⲉⲛ ⲫ̀ⲣⲁⲛ ⲙ̀Ⲫⲓⲱⲧ ⲛⲉⲙ Ⲡϣⲏⲣⲓ ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉ̀ⲑⲟⲩⲁⲃ ⲟⲩⲛⲟⲩϯ ⲛ̀ⲟⲩⲱⲧ ⲁ̀ⲙⲏⲛ.</td>
-                    <td class="arabic">باسم الأب و الابن و الروح القدس اله واحد، أمين.</td>
-                </tr>
-                <tr id="table_${tableNumber1}_row_2" class="priest">
-                    <td class="english">Glory be to the Father, and to the Son, and to the Holy Spirit, Both now and
-                        ever and unto the ages of ages. Amen.</td>
-                    <td class="coptic">Ⲇⲟⲝⲁ Ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩⲓⲱ ⲕⲉ Ⲁⲅⲓⲱ Ⲡⲛⲉⲩⲙⲁⲧⲓ: Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁⲓ̀ ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ:
-                        ⲁ̀ⲙⲏⲛ.</td>
-                    <td class="arabic">المجد للأب والإبن والروح القدس الأن وكل أوان والى دهر الدهور كلها، أمين.</td>
-                </tr>
-                <tr id="table_${tableNumber1}_row_3" class="priest">
-                    <td class="english">The doxology of the ${eHour} hour of the ${eDay} of Holy Pascha. May its blessings be with us. Amen.</td>
-                    <td class="arabic">تسبحة الساعة ${aHour} من ${aDay} من البصخة المقدسة بركاتها تكون معنا، أمين.
-                    </td>
-                </tr>
-                <tr id="table_${tableNumber1}_row_4" class="priest">
-                    <td class="english">O Lord make us worthy to pray thankfully saying: Our Father…</td>
-                    <td class="coptic">Ⲁⲣⲓⲧⲉⲛ ⲛ̀ⲉⲙⲡ̀ϣⲁ ⲛ̀ϫⲟⲥ ϧⲉⲛ ⲟⲩϣⲉⲡϩ̀ⲙⲟⲧ: Ϫⲉ Ⲡⲉⲛⲓⲱⲧ ...</td>
-                    <td class="arabic">اللهُمَ اجعلنا مستحقين ان نقول بشكر: أبانا الذي...</td>
-                </tr>
-            </table>
-            <table id="table_${tableNumber2}" ${tableClass} title="Paschal Praise">
-                <tr id="table_${tableNumber2}_row_0" class="text">  
-                      <td class="english">Lord have mercy.</td>
-                      <td class="coptic">Ⲕⲩⲣⲓⲉ ⲉⲗⲉⲏ̀ⲥⲟⲛ.</td>
-                      <td class="arabic">يارب ارحم.</td>
-                  </tr>      
-                <tr id="table_${tableNumber2}_row_1" class="text">
-                    <td class="english">For Thine is the power, the glory, the blessing, the majesty forever. Amen;
-                        Emmanuel our God and King.</td>
-                    <td class="coptic">Ⲑⲱⲕ ⲧⲉ ϯϫⲟⲙ ⲛⲉⲙ ⲡⲓⲱ̀ⲟⲩ ⲛⲉⲙ ⲡⲓⲥ̀ⲙⲟⲩ ⲛⲉⲙ ⲡⲓⲁ̀ⲙⲁϩⲓ ϣⲁ ⲉ̀ⲛⲉϩ ⲁ̀ⲙⲏⲛ: Ⲉⲙⲙⲁⲛⲟⲩⲏⲗ ⲡⲉⲛⲛⲟⲩϯ
-                        ⲡⲉⲛⲟⲩⲣⲟ .</td>
-                        <td class="arabic">لَكَ القُوَّةُ وَالمَجدُ وَالبَرَكَةُ وَالعِزَّةُ إِلَى الأَبَدِ، آمِينَ. عَمَانُوئِيلُ إِلَهُنَا وَمَلِكُنَا.</td>
-                        </tr>
-                <tr id="table_${tableNumber2}_row_2" class="text">
-                    <td class="english">For Thine is the power, the glory, the blessing, the majesty forever. Amen; My
-                        Lord Jesus Christ.</td>
-                    <td class="coptic">Ⲑⲱⲕ ⲧⲉ ϯϫⲟⲙ ⲛⲉⲙ ⲡⲓⲱ̀ⲟⲩ ⲛⲉⲙ ⲡⲓⲥ̀ⲙⲟⲩ ⲛⲉⲙ ⲡⲓⲁ̀ⲙⲁϩⲓ ϣⲁ ⲉ̀ⲛⲉϩ ⲁ̀ⲙⲏⲛ: Ⲡⲁϭⲟⲓⲥ Ⲓⲏⲥⲟⲩⲥ
-                        Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ:</td>
-                        <td class="arabic">لَكَ القُوَّةُ وَالمَجدُ وَالبَرَكَةُ وَالعِزَّةُ إِلَى الأَبَدِ، آمِينَ. يَا رَبِّي يَسُوعَ المَسِيحِ.</td>
-                        </tr>
-                <tr id="table_${tableNumber2}_row_3" class="text">
-                    <td class="english">For Thine …</td>
-                    <td class="coptic">Ⲑⲱⲕ ...</td>
-                    <td class="arabic">لَكَ القُوَّةُ ...</td>
-                </tr>
-            </table>
-        </div>\n`;
-    return html;
+  let html = `
+  <div class="section" id="section_${sectionNumber}">
+    <table id="table_${tableNumber1}" title="Paschal Praise">
+        <caption class="caption" id="caption_table_${tableNumber1}">Paschal Praise</caption>
+        <tbody>
+            <tr id="table_${tableNumber1}_row_0" class="priest">
+                <td class="english">Lord have mercy upon us. Alleluia.</td>
+                <td class="coptic">Ⲡϭⲟⲓⲥ ⲛⲁⲓ ⲛⲁⲛ: Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.</td>
+                <td class="arabic">يا رب ارحمنا. الليلويا.</td>
+            </tr>
+            <tr id="table_${tableNumber1}_row_1" class="priest">
+                <td class="english">In the name of the Father, and the Son, and the Holy Spirit, one God. Amen.</td>
+                <td class="coptic">Ϧⲉⲛ ⲫ̀ⲣⲁⲛ ⲙ̀Ⲫⲓⲱⲧ ⲛⲉⲙ Ⲡϣⲏⲣⲓ ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉ̀ⲑⲟⲩⲁⲃ ⲟⲩⲛⲟⲩϯ ⲛ̀ⲟⲩⲱⲧ ⲁ̀ⲙⲏⲛ.</td>
+                <td class="arabic">باسم الأب و الابن و الروح القدس اله واحد، أمين.</td>
+            </tr>
+            <tr id="table_${tableNumber1}_row_2" class="priest">
+                <td class="english">Glory be to the Father, and to the Son, and to the Holy Spirit, Both now and
+                    ever and unto the ages of ages. Amen.</td>
+                <td class="coptic">Ⲇⲟⲝⲁ Ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩⲓⲱ ⲕⲉ Ⲁⲅⲓⲱ Ⲡⲛⲉⲩⲙⲁⲧⲓ: Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁⲓ̀ ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ:
+                    ⲁ̀ⲙⲏⲛ.</td>
+                <td class="arabic">المجد للأب والإبن والروح القدس الأن وكل أوان والى دهر الدهور كلها، أمين.</td>
+            </tr>
+            <tr id="table_${tableNumber1}_row_3" class="priest">
+                <td class="english">The doxology of the ${eHour} hour of the ${eDay} of Holy Pascha. May its blessings
+                    be with us. Amen.</td>
+                <td class="arabic">تسبحة الساعة ${aHour} من ${aDay} من البصخة المقدسة بركاتها تكون معنا، أمين.
+                </td>
+            </tr>
+            <tr id="table_${tableNumber1}_row_4" class="priest">
+                <td class="english">O Lord make us worthy to pray thankfully saying: Our Father…</td>
+                <td class="coptic">Ⲁⲣⲓⲧⲉⲛ ⲛ̀ⲉⲙⲡ̀ϣⲁ ⲛ̀ϫⲟⲥ ϧⲉⲛ ⲟⲩϣⲉⲡϩ̀ⲙⲟⲧ: Ϫⲉ Ⲡⲉⲛⲓⲱⲧ ...</td>
+                <td class="arabic">اللهُمَ اجعلنا مستحقين ان نقول بشكر: أبانا الذي...</td>
+            </tr>
+        </tbody>
+    </table>
+    <table id="table_${tableNumber2}" ${tableClass} title="Paschal Praise">
+        <caption class="caption" id="caption_table_${tableNumber2}"></caption>
+        <tr id="table_${tableNumber2}_row_0" class="text">
+            <td class="english">Lord have mercy.</td>
+            <td class="coptic">Ⲕⲩⲣⲓⲉ ⲉⲗⲉⲏ̀ⲥⲟⲛ.</td>
+            <td class="arabic">يارب ارحم.</td>
+        </tr>
+        <tr id="table_${tableNumber2}_row_1" class="text">
+            <td class="english">For Thine is the power, the glory, the blessing, the majesty forever. Amen;
+                Emmanuel our God and King.</td>
+            <td class="coptic">Ⲑⲱⲕ ⲧⲉ ϯϫⲟⲙ ⲛⲉⲙ ⲡⲓⲱ̀ⲟⲩ ⲛⲉⲙ ⲡⲓⲥ̀ⲙⲟⲩ ⲛⲉⲙ ⲡⲓⲁ̀ⲙⲁϩⲓ ϣⲁ ⲉ̀ⲛⲉϩ ⲁ̀ⲙⲏⲛ: Ⲉⲙⲙⲁⲛⲟⲩⲏⲗ ⲡⲉⲛⲛⲟⲩϯ
+                ⲡⲉⲛⲟⲩⲣⲟ .</td>
+            <td class="arabic">لَكَ القُوَّةُ وَالمَجدُ وَالبَرَكَةُ وَالعِزَّةُ إِلَى الأَبَدِ، آمِينَ. عَمَانُوئِيلُ
+                إِلَهُنَا وَمَلِكُنَا.</td>
+        </tr>
+        <tr id="table_${tableNumber2}_row_2" class="text">
+            <td class="english">For Thine is the power, the glory, the blessing, the majesty forever. Amen; My
+                Lord Jesus Christ.</td>
+            <td class="coptic">Ⲑⲱⲕ ⲧⲉ ϯϫⲟⲙ ⲛⲉⲙ ⲡⲓⲱ̀ⲟⲩ ⲛⲉⲙ ⲡⲓⲥ̀ⲙⲟⲩ ⲛⲉⲙ ⲡⲓⲁ̀ⲙⲁϩⲓ ϣⲁ ⲉ̀ⲛⲉϩ ⲁ̀ⲙⲏⲛ: Ⲡⲁϭⲟⲓⲥ Ⲓⲏⲥⲟⲩⲥ
+                Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ:</td>
+            <td class="arabic">لَكَ القُوَّةُ وَالمَجدُ وَالبَرَكَةُ وَالعِزَّةُ إِلَى الأَبَدِ، آمِينَ. يَا رَبِّي
+                يَسُوعَ المَسِيحِ.</td>
+        </tr>
+        <tr id="table_${tableNumber2}_row_3" class="text">
+            <td class="english">For Thine …</td>
+            <td class="coptic">Ⲑⲱⲕ ...</td>
+            <td class="arabic">لَكَ القُوَّةُ ...</td>
+        </tr>
+        </tbody>
+    </table>
+</div>\n`;
+  return html;
 }
 
 function paschalPraise2(
-    sectionNumber,
-    tableNumber1,
-    tableNumber2,
-    eHour,
-    aHour,
-    eDay,
-    aDay
+  sectionNumber,
+  tableNumber1,
+  tableNumber2,
+  eHour,
+  aHour,
+  eDay,
+  aDay
 ) {
+  const isOnePageChecked = userSettings("PaschalPraise", "onePage"); // Example usage
+  let tableClass = "";
+  if (isOnePageChecked) {
+    tableClass = 'class= "onePage"';
+  }
 
-    const isOnePageChecked = userSettings('PaschalPraise', 'onePage'); // Example usage
-    let tableClass = '';
-    if (isOnePageChecked) {
-        tableClass = 'class= "onePage"'
-    }
-
-
-    let html = `
+  let html = `
           <div class="section" id="section_${sectionNumber}">
               <table id="table_${tableNumber1}" title="Paschal Praise">
                   <caption class="caption" id="caption_table_${tableNumber1}">Paschal Praise</caption>
+                  <tbody>
                   <tr id="table_${tableNumber1}_row_0" class="priest">
                       <td class="english">Lord have mercy upon us. Alleluia.</td>
                       <td class="coptic">Ⲡϭⲟⲓⲥ ⲛⲁⲓ ⲛⲁⲛ: Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.</td>
@@ -179,8 +180,12 @@ function paschalPraise2(
                       <td class="coptic">Ⲁⲣⲓⲧⲉⲛ ⲛ̀ⲉⲙⲡ̀ϣⲁ ⲛ̀ϫⲟⲥ ϧⲉⲛ ⲟⲩϣⲉⲡϩ̀ⲙⲟⲧ: Ϫⲉ Ⲡⲉⲛⲓⲱⲧ ...</td>
                       <td class="arabic">اللهُمَ اجعلنا مستحقين ان نقول بشكر: أبانا الذي...</td>
                   </tr>
-              </table>
+              </tbody>
+            </table>
               <table id="table_${tableNumber2}" ${tableClass} title="Paschal Praise">
+                <caption class="caption" id="caption_table_${tableNumber2}"></caption>
+
+              <tbody>
                 <tr id="table_${tableNumber2}_row_0" class="text">  
                       <td class="english">Lord have mercy.</td>
                       <td class="coptic">Ⲕⲩⲣⲓⲉ ⲉⲗⲉⲏ̀ⲥⲟⲛ.</td>
@@ -203,30 +208,32 @@ function paschalPraise2(
                       <td class="coptic">Ⲑⲱⲕ ...</td>
                       <td class="arabic">لَكَ القُوَّةُ ...</td>
                   </tr>
-              </table>
+              </tbody>
+            </table>
           </div>\n`;
-    return html;
+  return html;
 }
 
 function paschalPraise3(
-    sectionNumber,
-    tableNumber1,
-    tableNumber2,
-    eHour,
-    aHour,
-    eDay,
-    aDay
+  sectionNumber,
+  tableNumber1,
+  tableNumber2,
+  eHour,
+  aHour,
+  eDay,
+  aDay
 ) {
-    const isOnePageChecked = userSettings('PaschalPraise', 'onePage'); // Example usage
-    let tableClass = '';
-    if (isOnePageChecked) {
-        tableClass = 'class= "onePage"'
-    }
+  const isOnePageChecked = userSettings("PaschalPraise", "onePage"); // Example usage
+  let tableClass = "";
+  if (isOnePageChecked) {
+    tableClass = 'class= "onePage"';
+  }
 
-    let html = `
+  let html = `
           <div class="section" id="section_${sectionNumber}">
               <table id="table_${tableNumber1}" title="Paschal Praise">
                   <caption class="caption" id="caption_table_${tableNumber1}">Paschal Praise</caption>
+                  <tbody>
                   <tr id="table_${tableNumber1}_row_0" class="priest">
                       <td class="english">Lord have mercy upon us. Alleluia.</td>
                       <td class="coptic">Ⲡϭⲟⲓⲥ ⲛⲁⲓ ⲛⲁⲛ: Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.</td>
@@ -254,9 +261,14 @@ function paschalPraise3(
                       <td class="coptic">Ⲁⲣⲓⲧⲉⲛ ⲛ̀ⲉⲙⲡ̀ϣⲁ ⲛ̀ϫⲟⲥ ϧⲉⲛ ⲟⲩϣⲉⲡϩ̀ⲙⲟⲧ: Ϫⲉ Ⲡⲉⲛⲓⲱⲧ ...</td>
                       <td class="arabic">اللهُمَ اجعلنا مستحقين ان نقول بشكر: أبانا الذي...</td>
                   </tr>
-              </table>
+                  </tbody>
+                </table>
+
               <table id="table_${tableNumber2}" ${tableClass} title="Paschal Praise">
-                  <tr id="table_${tableNumber2}_row_0" class="text">  
+                <caption class="caption" id="caption_table_${tableNumber2}"></caption>
+
+                <tbody>  
+                <tr id="table_${tableNumber2}_row_0" class="text">  
                       <td class="english">Lord have mercy.</td>
                       <td class="coptic">Ⲕⲩⲣⲓⲉ ⲉⲗⲉⲏ̀ⲥⲟⲛ.</td>
                       <td class="arabic">يارب ارحم.</td>
@@ -276,21 +288,23 @@ function paschalPraise3(
                       <td class="coptic"><i>Ⲑⲱⲕ ...</i></td>
                       <td class="arabic"><i>لَكَ القُوَّةُ ...</i></td>
                   </tr>
-              </table>
+                  </tbody>
+                </table>
           </div>\n`;
-    return html;
+  return html;
 }
 
 function copticGospelIntro(tableNumber) {
-    const isOnePageChecked = userSettings('GospelIntro', 'onePage'); // Example usage
-    let tableClass = '';
-    if (isOnePageChecked) {
-        tableClass = 'class= "onePage"'
-    }
+  const isOnePageChecked = userSettings("GospelIntro", "onePage"); // Example usage
+  let tableClass = "";
+  if (isOnePageChecked) {
+    tableClass = 'class= "onePage"';
+  }
 
-    let html = `
+  let html = `
     <table id="table_${tableNumber}" ${tableClass} title="We Beseech">
         <caption class="caption" id="caption_table_${tableNumber}"><span class="coptic-caption">Ⲕⲉ ⲩⲡⲉⲣⲧⲟⲩ</span></caption>
+<tbody>
         <tr id="table_${tableNumber}_row_0" class="text">
             <td class="english">We beseech our Lord and God</td>
             <td class="coptic">Ⲕⲉ ⲩ̀ⲡⲉⲣⲧⲟⲩ ⲕⲁⲧⲁ ⲝⲓⲱ ⲑⲏⲛⲉ ⲏ̀ⲙⲁⲥ:</td>
@@ -311,20 +325,22 @@ function copticGospelIntro(tableNumber) {
             <td class="coptic">ⲓ̀ⲕⲉⲧⲉⲩⲥⲱⲙⲉⲛ ⲥⲟⲫⲓⲁ̀ ⲟⲣⲑⲓ ⲁ̀ⲕⲟⲩⲥⲱⲙⲉⲛ ⲧⲟⲩ ⲁ̀ⲅⲓⲟⲩ ⲉⲩⲁⲅⲅⲉⲗⲓⲟⲩ.</td>
             <td class="arabic">اصغوا وانصتوا بحكمة للإنجيل المقدس.</td>
         </tr>
-    </table>`;
-    return html;
+    </tbody>
+</table>`;
+  return html;
 }
 
 function daytimeExpositionIntro(tableNumber) {
-    const isOnePageChecked = userSettings('ExpositionResponses', 'onePage'); // Example usage
-    let tableClass = '';
-    if (isOnePageChecked) {
-        tableClass = 'class= "onePage"'
-    }
-    let html = `
+  const isOnePageChecked = userSettings("ExpositionResponses", "onePage"); // Example usage
+  let tableClass = "";
+  if (isOnePageChecked) {
+    tableClass = 'class= "onePage"';
+  }
+  let html = `
     <table id="table_${tableNumber}" ${tableClass} title="Daytime Exposition Introduction">
         <caption class="caption" id="caption_table_${tableNumber}">Exposition Introduction
         <span class="arabic-caption">مقدمة الطرح</span></caption>
+<tbody>
         <tr id="table_${tableNumber}_row_0" class="priest">
             <td class="english">In the name of the Trinity,</td>
             <td class="coptic">Ϧⲉⲛ ⲫ̀ⲣⲁⲛ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ:</td>
@@ -365,20 +381,22 @@ function daytimeExpositionIntro(tableNumber) {
             <td class="coptic">ⲉ̀ⲑⲛⲏⲟⲩ ⲉ̀ ⲡⲓⲕⲟⲥⲙⲟⲥ.</td>
             <td class="arabic">آتِ إلى العالم.</td>
         </tr>
-    </table>\n`;
-    return html;
+    </tbody>
+</table>\n`;
+  return html;
 }
 
 function nighttimeExpositionIntro(tableNumber) {
-    const isOnePageChecked = userSettings('ExpositionResponses', 'onePage'); // Example usage
-    let tableClass = '';
-    if (isOnePageChecked) {
-        tableClass = 'class= "onePage"'
-    }
-    let html = `
+  const isOnePageChecked = userSettings("ExpositionResponses", "onePage"); // Example usage
+  let tableClass = "";
+  if (isOnePageChecked) {
+    tableClass = 'class= "onePage"';
+  }
+  let html = `
       <table id="table_${tableNumber}" ${tableClass} title="Nighttime Exposition Introduction">
           <caption class="caption" id="caption_table_${tableNumber}">Exposition Introduction
           <span class="arabic-caption">مقدمة الطرح</span></caption>
+<tbody>
           <tr id="table_${tableNumber}_row_0" class="priest">
               <td class="english">In the name of the Trinity,</td>
               <td class="coptic">Ϧⲉⲛ ⲫ̀ⲣⲁⲛ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ :</td>
@@ -419,20 +437,22 @@ function nighttimeExpositionIntro(tableNumber) {
               <td class="coptic">ⲙ̀Ⲫ̀ⲛⲟⲩϯ ⲡⲓⲗⲟⲅⲟⲥ.</td>
               <td class="arabic">الله الكلمة</td>
           </tr>
-      </table>\n`;
-    return html;
+      </tbody>
+</table>\n`;
+  return html;
 }
 
 function expositionConclusion(tableNumber) {
-    const isOnePageChecked = userSettings('ExpositionResponses', 'onePage'); // Example usage
-    let tableClass = '';
-    if (isOnePageChecked) {
-        tableClass = 'class= "onePage"'
-    }
-    let html = `
+  const isOnePageChecked = userSettings("ExpositionResponses", "onePage"); // Example usage
+  let tableClass = "";
+  if (isOnePageChecked) {
+    tableClass = 'class= "onePage"';
+  }
+  let html = `
     <table id="table_${tableNumber}" ${tableClass} title="Daytime Exposition Conclusion">
         <caption class="caption" id="caption_table_${tableNumber}">Exposition Conclusion
         <span class="arabic-caption">ختام الطرح</span></caption>
+<tbody>
         <tr id="table_${tableNumber}_row_0" class="priest">
             <td class="english">Christ our Savior,</td>
             <td class="coptic">Ⲡⲓⲭⲣⲓⲥⲧⲟⲥ ⲡⲉⲛⲥⲱⲧⲏⲣ </td>
@@ -473,14 +493,15 @@ function expositionConclusion(tableNumber) {
             <td class="coptic">ⲕⲁⲧⲁ ⲡⲉϥⲛⲓϣϯ ⲛ̀ⲛⲁⲓ.</td>
             <td class="arabic">كعظيم رحمته.</td>
         </tr>
-    </table>\n`;
-    return html;
+    </tbody>
+</table>\n`;
+  return html;
 }
 
 function daytimeLitanies(tableNumber, prostrations) {
-    let prostrationsVariable
-    if (prostrations) {
-        prostrationsVariable = `
+  let prostrationsVariable;
+  if (prostrations) {
+    prostrationsVariable = `
         <tr id="table_${tableNumber}_row_0" class="priest">
             <td class="english">We bend our knees</td>
             <td class="coptic">Ⲕ̀ⲗⲓⲛⲱⲙⲉⲛ ⲧⲁⲅⲟⲛⲁⲧⲁ</td>
@@ -512,17 +533,18 @@ function daytimeLitanies(tableNumber, prostrations) {
             <td class="arabic">إرحمنا يا الله ثم إرحمنا.</td>
         </tr>
         `;
-    } else {
-        prostrationsVariable = `
+  } else {
+    prostrationsVariable = `
         <tr id="table_${tableNumber}_row_0" class="intro">
             <td class="english">Prayed without prostrations.</td>
             <td class="arabic">تصلي بدون ميطانيات</td>
         </tr>`;
-    }
-    let html = `
+  }
+  let html = `
     <table id="table_${tableNumber}" title="Daytime Litanies">
         <caption class="caption" id="caption_table_${tableNumber}">Daytime Litanies
         <span class="arabic-caption">طلبات الصباح</span></caption>
+<tbody>
         ${prostrationsVariable}
         <tr id="table_${tableNumber}_row_6" class="north">
             <td class="english"<strong>1)</strong> Let us pray that God may have mercy and compassion on us, hear us, help us, and accept the prayers and supplications of His saints for that which is good on our behalf at all times, and forgive us our sins. ${cross}</td>
@@ -621,15 +643,17 @@ function daytimeLitanies(tableNumber, prostrations) {
             <td class="english"<strong>22)</strong> Let us pray and ask for this Holy Week of Pascha of our Good Savior, that He may complete it for us in peace and bring us the joy of His Holy Resurrection in safety, and forgive us our sins. ${cross}</td>
             <td class="arabic"<strong>٢٢)</strong> صلوا واطلبوا عن هذه البصخة المقدسة التى لمخلصنا الصالح لكى يكملها لنا بسلام ويرينا بهجة قيامته المقدسة ونحن جميعاً سالمين.ويغفر لنا خطايانا. ${cross}</td>
         </tr>        
-    </table>`;
-    return html;
+    </tbody>
+</table>`;
+  return html;
 }
 
 function nighttimeLitanies(tableNumber) {
-    let html = `
+  let html = `
         <table id="table_${tableNumber}" title="Nighttime Litanies">
             <caption class="caption" id="caption_table_${tableNumber}">Nighttime Litanies
             <span class="arabic-caption">طلبات المساء</span></caption>
+<tbody>
             <tr id="table_${tableNumber}_row_0" class="north">
                 <td class="english"><strong>1) </strong>We ask and entreat You O Lord, God the Father the Pantocrator, and the Holy Only Begotten Son, the Creator and the Master of all, and the Holy Spirit the Life- Giver, the Holy Trinity before whom kneels down every knee in heaven and on earth. We ask You, O Lord, hear us and have mercy on us. ${cross}</td>
                 <td class="arabic"><strong>١) </strong>نسأل و نتضرع إليك أيها السيد الله الآب ضابط الكل والإبن الوحيد القدوس ، خالق الكل و مدبرهم والروح القدس المحيى الثالوث المقدس الذى تجثوا له كل ركبة ما فى السموات و ما فى الأرض. نسألك يارب إسمعنا وإرحمنا.  ${cross}</td>
@@ -790,14 +814,16 @@ function nighttimeLitanies(tableNumber) {
                 <td class="english">O You, the Savior of the humble, forsake us not, neither renounce us, unto the end, for the sake of Your Holy Name, do not break Your covenant with us, nor deprive us of Your mercy for the sake of Your beloved Abraham, Your servant Isaac and Your saint Jacob. We ask You, O Lord, hear us and have mercy on us. ${cross}</td>
                 <td class="arabic">يا مخلص شعباً متواضعاً لا تغفل عنا إلى الغاية ولا تسلمنا إلى الإنقضاء من أجل أسمك القدوس لا تنقض عهدك ولا تبعد عنا رحمتك من أجل إبراهيم حبيبك و أسحق عبدك ويعقوب إسرائيل قديسك نسألك يارب إسمعنا وإرحمنا.  ${cross}</td>
             </tr>
-        </table>`;
-    return html;
+        </tbody>
+</table>`;
+  return html;
 }
 
 function evnotiNaiNan(tableNumber) {
-    let html = `
+  let html = `
     <table id="table_${tableNumber}" title="Evnoti Nai Nan">
         <caption class="caption" id="caption_table_${tableNumber}"><span class="coptic-caption">˙Ⲫⲛⲟⲩϯ ⲛⲁⲓ ⲛⲁⲛ</span></caption>
+<tbody>
         <tr id="table_${tableNumber}_row_0" class="priest">
             <td class="english">God, have mercy upon us, settle your mercy upon us, show us mercy in Your Kingdom.</td>
             <td class="coptic">Ⲫ̀ⲛⲟⲩϯ ⲛⲁⲓ ⲛⲁⲛ: ⲑⲉϣⲟⲩⲛⲁⲓ ⲉⲣⲟⲛ: ⲁⲣⲓⲟⲩⲛⲁⲓ ⲛⲉⲙⲁⲛ: ϧⲉⲛ ⲧⲉⲕⲙⲉⲧⲟⲩⲣⲟ.</td>
@@ -854,14 +880,16 @@ function evnotiNaiNan(tableNumber) {
             <td class="arabic">نسجد لك أيها المسيح :مع أبيك الصالح: والروح القدس : لأنك صلبت وخلصتنا</td>
         </tr> 
 
-    </table>`;
-    return html;
+    </tbody>
+</table>`;
+  return html;
 }
 
 function evnotiNaiNanGreat(tableNumber) {
-    let html = `
+  let html = `
     <table id="table_${tableNumber}" title="Evnoti Nai Nan">
         <caption class="caption" id="caption_table_${tableNumber}"><span class="coptic-caption">˙Ⲫⲛⲟⲩϯ ⲛⲁⲓ ⲛⲁⲛ</span></caption>
+<tbody>
         <tr id="table_${tableNumber}_row_0" class="commentary">
             <td class="english">The priest chants <span class="coptic">Ⲫⲛⲟⲩϯ ⲛⲁⲓ ⲛⲁⲛ</span> (Melismatic Tune) then the congregation chants <span class="coptic">Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ</span> (Melismatic Tune 12 Times) then the conclusion.</td>
             <td class="arabic">يقول الكاهن <span class="coptic">Ⲫⲛⲟⲩϯ ⲛⲁⲓ ⲛⲁⲛ</span> (بالكبير) ثم يردد الشعب <span class="coptic">Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ</span> (12 مرة باللحن الكبير) ثم الختام.</td>
@@ -906,15 +934,17 @@ function evnotiNaiNanGreat(tableNumber) {
             <td class="coptic">Ⲁ̀ⲙⲏⲛ. Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ (12)</td>
             <td class="arabic">أمين. يارب ارحم (12)</td>
         </tr>
-    </table>`;
-    return html;
+    </tbody>
+</table>`;
+  return html;
 }
 
 function endOfServiceHymn(tableNumber) {
-    let html = `
+  let html = `
         <table id="table_${tableNumber}" title="Conclusion Hymn">
             <caption class="caption" id="caption_table_${tableNumber}">Conclusion Hymn
             <span class="arabic-caption">لحن ختام الخدمة</span></caption>
+<tbody>
             <tr id="table_${tableNumber}_row_0" class="congregation">
                 <td class="english">Amen, Alleluia, glory be to the Father and to the Son and to the Holy Spirit,</td>
                 <td class="coptic">Ⲁⲙⲏⲛ ⲁⲗⲗⲏⲗⲟⲩⲓⲁ ⲇⲟⲝⲁ ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩⲓⲱ̀ ⲕ̀ⲉ ⲁ̀ⲅⲓⲱ̀ Ⲡⲛⲉⲩⲙⲁⲧⲓ:</td>
@@ -995,14 +1025,16 @@ function endOfServiceHymn(tableNumber) {
                 <td class="arabic">أبانا الذى فى السماوات...</td>
             </tr>
 
-        </table>\n`;
-    return html;
+        </tbody>
+</table>\n`;
+  return html;
 }
 
 function faiEtafEnf(tableNumber) {
-    let html = `
+  let html = `
     <table id="table_${tableNumber}" title="Fai Etef Enf">
         <caption class="caption" id="caption_table_${tableNumber}"><span class="coptic-caption">Ⲫⲁⲓ ⲉ̀ⲧⲁϥⲉⲛϥ</span></caption>
+<tbody>
         <tr id="table_${tableNumber}_row_0" class="text">
             <td class="english">This is He who offered Himself up, as an acceptable sacrifice, on the Cross for the salvation of our race.</td>
             <td class="coptic">Ⲫⲁⲓ ⲉ̀ⲧⲁϥⲉⲛϥ ⲉ̀ⲡ̀ϣⲱⲓ : ⲛ̀ⲟⲩⲑⲩⲥⲓ̀ⲁ ⲉⲥϣⲏⲡ: ϩⲓϫⲉⲛ ⲡⲓⲥ̀ⲧⲁⲩⲣⲟⲥ : ϧⲁ ⲡ̀ⲟⲩϫⲁⲓ ⲙ̀ⲡⲉⲛⲅⲉⲛⲟⲥ.</td>
@@ -1018,55 +1050,57 @@ function faiEtafEnf(tableNumber) {
             <td class="coptic">Ⲧⲉⲛⲟⲩⲱ̀ϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡ̅ⲭ̅ⲥ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: ϫⲉ ⲁⲩⲁϣⲕ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ ⲛⲁⲓ ⲛⲁⲛ.</td>
             <td class="arabic">نسجد لكَ أيها المسيح: مع أبيك الصالح: والروح القدس: لأنكَ صلبت وخلصتنا.</td>
         </tr>
-    </table>
+    </tbody>
+</table>
 `;
-   return html;
+  return html;
 }
 
 function tenouosht(tableNumber) {
-    let html = `
+  let html = `
     <table id="table_${tableNumber}" title="Tenouosht">
         <caption class="caption" id="caption_table_${tableNumber}"><span class="coptic-caption">Ⲧⲉⲛⲟⲩⲱ̀ϣⲧ</span></caption>
+<tbody>
         <tr id="table_${tableNumber}_row_0" class="text">
             <td class="english">We worship You O Christ: with Your good Father: and the Holy Spirit: for You were crucified and saved us. </td>
             <td class="coptic">Ⲧⲉⲛⲟⲩⲱ̀ϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡ̅ⲭ̅ⲥ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: ϫⲉ ⲁⲩⲁϣⲕ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ ⲛⲁⲓ ⲛⲁⲛ.</td>
             <td class="arabic">نسجد لكَ أيها المسيح: مع أبيك الصالح: والروح القدس: لأنكَ صلبت وخلصتنا.</td>
         </tr>
-    </table>
+    </tbody>
+</table>
 `;
-    return html;
+  return html;
 }
 
 const cross =
-    '<img src="https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/cross.png" alt="+" style="width: 2vw; height: auto; filter: sepia(100%) saturate(500%) ">';
+  '<img src="https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/cross.png" alt="+" style="width: 2vw; height: auto; filter: sepia(100%) saturate(500%) ">';
 const arrowUp =
-    '<img src="https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/arrowUp.png" alt="arrow up" style="width: 2vw; height: auto; padding-bottom:1vw; filter: sepia(100%) saturate(500%) ">';
+  '<img src="https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/arrowUp.png" alt="arrow up" style="width: 2vw; height: auto; padding-bottom:1vw; filter: sepia(100%) saturate(500%) ">';
 const skip =
-    '<img src="https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/skip.png" alt="arrow up" style="width: 8vw; height: auto; padding-top:1vw; filter: sepia(100%) saturate(300%) ">';
-const candle  =
-    '<img src="https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/candle.png" alt="+" style="width: 2vw; height: auto; filter: sepia(100%) saturate(500%) ">';
-
+  '<img src="https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/skip.png" alt="arrow up" style="width: 8vw; height: auto; padding-top:1vw; filter: sepia(100%) saturate(300%) ">';
+const candle =
+  '<img src="https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/candle.png" alt="+" style="width: 2vw; height: auto; filter: sepia(100%) saturate(500%) ">';
 
 export {
-    hourIntro,
-    paschalPraise1,
-    paschalPraise2,
-    paschalPraise3,
-    copticGospelIntro,
-    daytimeExpositionIntro,
-    nighttimeExpositionIntro,
-    expositionConclusion,
-    daytimeLitanies,
-    nighttimeLitanies,
-    evnotiNaiNan,
-    evnotiNaiNanGreat,
-    endOfServiceHymn,
-    faiEtafEnf,
-    tenouosht,
-    cross,
-    candle,
-    arrowUp,
-    skip,
+  hourIntro,
+  paschalPraise1,
+  paschalPraise2,
+  paschalPraise3,
+  copticGospelIntro,
+  daytimeExpositionIntro,
+  nighttimeExpositionIntro,
+  expositionConclusion,
+  daytimeLitanies,
+  nighttimeLitanies,
+  evnotiNaiNan,
+  evnotiNaiNanGreat,
+  endOfServiceHymn,
+  faiEtafEnf,
+  tenouosht,
+  cross,
+  candle,
+  arrowUp,
+  skip,
 };
 
 // Path: data/holyWeek/repeatedPrayers.js

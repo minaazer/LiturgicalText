@@ -1,31 +1,39 @@
 // screens/Home.js
 
-import React, { useEffect, useState } from 'react';
-import { ImageBackground, View, Text, StyleSheet, TouchableOpacity, Image , Dimensions } from 'react-native';
+import React, { useContext } from 'react';
+import { ImageBackground, View, Text, StyleSheet, TouchableOpacity, Image , Dimensions, Alert, Platform } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import backgroundImage from '../../assets/background.png';
 import glorificationImage from '../../assets/glorification.png';
 import kiahkImage from '../../assets/kiahk.png';
+import psalmody from '../../assets/psalmody.png';
 import holyWeekImage from '../../assets/holyWeek.png';
 import songsImage from '../../assets/songs.png';
 import baptismImage from '../../assets/baptism.png';
 import weddingImage from '../../assets/wedding.png';
 import { ScrollView } from 'react-native-gesture-handler';
+import SettingsContext from '../../settings/settingsContext'; // Import SettingsContext
+
+
+
 
 const screenWidth = Dimensions.get('window').width;
 const screenHeight = Dimensions.get('window').height;
 
+
 const Home = () => {
   const navigation = useNavigation();
+  const [settings] = useContext(SettingsContext); // Get the settings from the context
+  const developerMode = settings.developerMode; // Get the developerMode setting
+ 
 
-
+  
   return (
-    <View style={styles.pageContainer}>
+    <ScrollView contentContainerStyle={styles.pageContainer}>
       <ImageBackground source={backgroundImage} style={styles.backgroundImage} resizeMode='repeat'>
-      <View style={styles.pageContainer}>
+      <View style={styles.pageContentContainer}>
         <View style={styles.headerContainer}>
-            <Text style={styles.pageHeader}>Liturgical</Text>
-            <Text style={styles.pageHeader}>Books</Text>
+            <Text style={styles.pageHeader}>Liturgical Books</Text>
         </View>
 
         <View style={styles.booksContainer}>
@@ -52,20 +60,29 @@ const Home = () => {
                 <Image source={holyWeekImage} style={styles.iconImage} />
               </TouchableOpacity>
             </View>
+
             <View style={styles.iconRow}>
+            {developerMode ? (
               <TouchableOpacity
                 style={[styles.iconContainer, { opacity: 0.5}]}
               >
                 <Image source={baptismImage} style={styles.iconImage} />
               </TouchableOpacity>
-
+              ) : null }
+              {developerMode ? (
               <TouchableOpacity
                 style={[styles.iconContainer, { opacity: 0.5}]}
               >
                 <Image source={weddingImage} style={styles.iconImage} />
               </TouchableOpacity>
+              ) : null }
 
-
+              <TouchableOpacity
+                style={[styles.iconContainer]}
+                onPress={() => navigation.navigate('Psalmody')}
+              >
+                <Image source={psalmody} style={styles.iconImage} />
+              </TouchableOpacity>
 
               <TouchableOpacity
                 style={[styles.iconContainer]}
@@ -77,7 +94,7 @@ const Home = () => {
         </View>
       </View>
     </ImageBackground>
-    </View>
+    </ScrollView>
   );
 };
 
@@ -99,28 +116,33 @@ const styles = StyleSheet.create({
     textShadowOffset: { width: 1, height: 1 },
   },
   pageContainer: {
-    display: "flex",
-    flexDirection: 'row',
+    display: "fex",
+    flexDirection: 'column',
     justifyContent: 'center',
-    alignItems: 'center',
+    alignItems: 'flex-start',
     width: "100%",
-    height: "100%"
+    minHeight: screenHeight,
+  },
+  pageContentContainer: {
+    display: "block",
+    width: "100%",
+    height: "100%",
+    flex: 1,
   },
   headerContainer: {
-    marginLeft: 20,
+    marginTop: 10,
+    marginBottom: 0,
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    flex: 1,
   },
 
   booksContainer: {
-    flex: 2.5,
-    marginLeft: -20,
-    justifyContent: 'center',
-    alignItems: 'center', // adjusted from 'flex-start'
+    flex: 3,
+    justifyContent: 'flex-start',
     alignContent: 'center',
-    flexDirection: 'column',
+    alignItems: 'center',
+    flexDirection: 'row',
     flexWrap: 'wrap',
     padding: 0,
   },
@@ -128,7 +150,7 @@ const styles = StyleSheet.create({
   iconContainer: {
     flex:1,
     justifyContent: 'space-evenly',
-    alignItems: 'space-evenly',
+    alignItems: 'center',
     alignContent: 'space-evenly',
     margin: 0,
     padding: 0,
@@ -144,11 +166,11 @@ const styles = StyleSheet.create({
     alignContent: 'space-evenly',
     padding: 10,
     width: '100%',
-  },
+    },
 
   iconImage: {
-    width: screenWidth * 0.16, // adjusted from 200
-    height: screenWidth * 0.16, // adjusted from 200
+    width: screenWidth * 0.15, // adjusted from 200
+    height: screenWidth * 0.15, // adjusted from 200
     resizeMode: 'contain',
     margin: 0,
     padding: 0,

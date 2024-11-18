@@ -1,33 +1,31 @@
-import { arabicNumbers , disableScrolling , extractTableTitlesAndIds , paginateTables , sendMessage , adjustOverlay , setOverlays , clearOverlays } from "./javaScripts";
+import { arabicNumbers , disableScrolling , extractTableTitlesAndIds , paginateTables , sendMessage , adjustOverlay , setOverlays , clearOverlays , showBlackScreen , removeBlackScreen , tableToggle , listenToButtonClicks , handleSpinner, bookNavigationButtons , loadStoredSettings } from "./javaScripts";
 
 export const htmlRenderScript = `
 
 window.onload = function() {
-    convertArabicCaptions();
-    extractTableTitlesAndIds();
-    paginateTables();
+    injectSpinner();
+    showSpinner();
+    // change body display to visible
+    setTimeout(() => {
+        convertArabicCaptions();
+        extractTableTitlesAndIds();
+        paginateTables();
+        hideSpinner(); // Hide spinner after processing
+
+    }, 0); // Adjust the delay as needed
+    
+    const fileKey = '';
+    const currentFileStates = {};
+    const savedStates = {};
+
+    loadStoredSettings();
+
     listenToButtonClicks();
+    listenToBookNavigationButtons();
 }
-function listenToButtonClicks() {
-    // Get all elements with class .navigationButton and .navigationLink
-    const navigationButtons = document.querySelectorAll('.navigationButton, .navigationLink');
 
-    // Loop through each navigation button
-    navigationButtons.forEach(button => {
-        // Attach click event listener to each button
-        button.addEventListener('click', function() {
-            const buttonId = this.dataset.navigation;
-            sendMessage(JSON.stringify({ type: 'NAVIGATION', data: buttonId }));
-        });
-    });
-};
-
-
-/** @format */
 // Arabic caption numbers
 ${arabicNumbers}
-
-// Disable Scrolling
 
 // Handle pagination
 ${paginateTables}
@@ -43,5 +41,18 @@ ${adjustOverlay}
 ${setOverlays}
 ${clearOverlays}
 
-`
+// Handle black screen
+${showBlackScreen}
+${removeBlackScreen}
 
+// Handle Buttons
+${tableToggle}
+${listenToButtonClicks}
+${bookNavigationButtons}
+
+// Handle Spinner
+${handleSpinner}
+
+// Load stored settings
+${loadStoredSettings}
+`

@@ -6,6 +6,7 @@ export const useDynamicStyles = (webviewRef) => {
     const [settings] = useContext(SettingsContext);
     const [fontSize, setFontSize] = useState(3.5);
     const [titleFontSize, setTitleFontSize] = useState(4);
+    const [toggleFontSize, setToggleFontSize] = useState(3);
     const [linkFontSize, setLinkFontSize] = useState(5);
     const [visibleLangues, setVisibleLangues] = useState([
         { label: 'English', value: 'English' , checked: true },
@@ -21,6 +22,7 @@ export const useDynamicStyles = (webviewRef) => {
             setFontSize(settings.fontSize);
             setTitleFontSize(parseFloat(settings.fontSize) + 0.5);
             setLinkFontSize(parseFloat(settings.fontSize) + 2);
+            setToggleFontSize(parseFloat(settings.fontSize) - 1);
             webviewRef.current.injectJavaScript(`paginateTables();`);
             webviewRef.current.injectJavaScript(`clearOverlays()`);
             webviewRef.current.injectJavaScript(`adjustOverlay();`);
@@ -57,6 +59,12 @@ html {
 }
 ${fontTypeface}
 
+div {
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;   
+}
 
 table {
 page-break-before: always; /* Use for older browsers */
@@ -68,9 +76,10 @@ display: table;
 width: 100% !important;
 table-layout: fixed;
 border-collapse: separate;
-
 font-size: ${fontSize}vw;
 }
+
+
 
 tbody {
     font-size: ${fontSize}vw;
@@ -137,11 +146,39 @@ break-before: auto;
     font-family: 'EB Garamond' !important;
     color: white !important;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between; /* Center the text after padding */
+    align-items: center;
     text-align: center;
+    padding-left: 40px; /* Ensure enough space for the icon on the left */
     padding-bottom: 10px;
     font-weight: bold;
+    position: relative; /* Necessary for absolute positioning of the icon */
+    cursor: pointer;
+}
 
+.caption.table-invisible {
+    color: grey !important;
+}
+
+.caption::before {
+    content: "\\f056"; /* Font Awesome Unicode for plus icon */
+    font-family: "Font Awesome 5 Free"; /* Font Awesome font family */
+    font-size: ${toggleFontSize}vw;
+    position: absolute; /* Ensure icon is positioned absolutely */
+    left: 0; /* Align icon to the leftmost side of the screen */
+    top: 50%; /* Vertically center the icon */
+    transform: translateY(-50%); /* Adjust to vertically center the icon */
+}
+
+.caption.table-invisible::before {
+    content: "\\f055"; /* Font Awesome Unicode for minus icon */
+    font-family: "Font Awesome 5 Free"; /* Font Awesome font family */
+    font-weight: 900;
+    font-size: ${toggleFontSize}vw;
+    position: absolute; /* Ensure icon is positioned absolutely */
+    left: 0; /* Align icon to the leftmost side of the screen */
+    top: 50%; /* Vertically center the icon */
+    transform: translateY(-50%); /* Adjust to vertically center the icon */
 }
 
 .coptic-caption {
@@ -244,12 +281,7 @@ body {
  margin-bottom: 1000px;
 }
 
-div {
-    margin-top: 0px;
-    padding-top: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;   
-}
+
 
 
 .north {
@@ -412,7 +444,7 @@ div {
 }
 
 
-.lineBreak {
+.skipButton {
  text-align: center;
 }
 
@@ -438,7 +470,54 @@ div {
  position: absolute;
  top: 10px;
  right: 10px;
-}`;
+}
+ 
+
+/* Spinner CSS */
+#spinner {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999; /* Ensure the spinner is above the overlay */
+}
+
+#spinner-overlay {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8); /* 90% transparent black */
+    backdrop-filter: blur(15px); /* Apply blur to the background */
+    z-index: 9998; /* Ensure it's behind the spinner */
+}
+
+.transparent-black {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    backdrop-filter: blur(15px); /* Apply blur to the background */
+
+}
+
+
+
+.loader {
+    border: 5px solid '#f0f0f0'; /* Light grey */
+    border-top: 5px solid #003060; /* Blue */
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+`;
 
     return cssStyles;
 };
