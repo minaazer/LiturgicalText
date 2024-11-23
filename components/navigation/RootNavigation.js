@@ -24,6 +24,9 @@ import Doxologies from "../screens/doxologies";
 import SeasonalDoxologies from "../screens/seasonalDoxologies";
 import Glorification from "../screens/glorification";
 import Songs from "../screens/songs";
+import ComfortSongs from "../screens/songs/comfortSongs";
+import NayroozSongs from "../screens/songs/nayroozSongs";
+import ResurrectionSongs from "../screens/songs/resurrectionSongs";
 import StMarySongs from "../screens/songs/stMarySongs";
 import AllSongs from "../screens/songs/allSongs";
 import HolyWeek from "../screens/holyWeek";
@@ -359,10 +362,26 @@ const RouteConfig = [
         component: AllSongs,
       },
       {
+        screenName: "ComfortSongs",
+        label: "Comfort Songs",
+        component: ComfortSongs,
+      },
+      {
+        screenName: "NayroozSongs",
+        label: "Coptic New Year Songs",
+        component: NayroozSongs,
+      },
+      {
+        screenName: "ResurrectionSongs",
+        label: "Resurrection Songs",
+        component: ResurrectionSongs,
+      },
+      {
         screenName: "StMarySongs",
         label: "St Mary Songs",
         component: StMarySongs,
       },
+      
     ],
   },
 ];

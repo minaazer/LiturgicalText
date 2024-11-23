@@ -6,7 +6,7 @@
 
 import React, { useRef, useState } from "react";
 import RightMenuDrawer from "../../navigation/BookDrawer";
-import { songs } from "../../../data/songs";
+import { songs } from "../../../data/songs/songs";
 import { useDynamicStyles } from "../../css/cssStyles";
 import { htmlRenderScript } from "../../functions/jsScriptsGlorification";
 import {

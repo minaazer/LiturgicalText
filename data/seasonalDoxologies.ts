@@ -1,4 +1,4 @@
-import { getDoxologyHtml , seasonalDoxologyFunctionNames} from './seasonal/seasonalDoxologyTexts';
+import { getSeasonalDoxologyHtml , seasonalDoxologyFunctionNames} from './seasonal/seasonalDoxologyTexts';
 
 export const seasonalDoxologiesHtml = (settings) => {
 
@@ -9,7 +9,7 @@ export const seasonalDoxologiesHtml = (settings) => {
     .flat();
 
     const doxologiesHtml = visibleDoxologies
-    .map((doxologyName, index) => getDoxologyHtml(doxologyName, index))
+    .map((doxologyName, index) => getSeasonalDoxologyHtml(doxologyName, index))
     .join('');
 
     return `

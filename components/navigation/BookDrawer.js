@@ -3,7 +3,6 @@ import React , {useEffect , useState } from 'react';
 import { View, Text , TextInput , TouchableOpacity , ImageBackground} from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { DrawerContentScrollView, DrawerItem , createDrawerNavigator } from '@react-navigation/drawer';
-import { useIsDrawerOpen } from '@react-navigation/drawer';
 import { useNavigation } from '@react-navigation/native';
 import { presentationStyles } from '../css/presentationStyles';
 import { Dimensions } from 'react-native';
@@ -12,69 +11,50 @@ import backgroundImage from "../../assets/background.png";
 
 const screenWidth = Dimensions.get('window').width;
 
-const RightDrawerContent = ({ currentTable, drawerItems, handleDrawerItemPress, navigation, props }) => {
-  // Create a ref for the ScrollView and each drawer item
-  const scrollViewRef = React.createRef();
+const RightDrawerContent = React.forwardRef(({ currentTable, drawerItems, handleDrawerItemPress, navigation, ...props }, scrollViewRef) => {
   const itemRefs = drawerItems.map(() => React.createRef());
 
-  // State for search query and sort option
   const [searchQuery, setSearchQuery] = useState('');
-  const [sortOption, setSortOption] = useState('original'); // 'original', 'english', 'arabic'
+  const [sortOption, setSortOption] = useState('original');
 
-  // Filter the drawer items based on the search query
   const filteredItems = drawerItems.filter(item => {
     const searchText = searchQuery.toLowerCase();
-    const englishText = item.title.english?.toLowerCase() || '';
-    const copticText = item.title.coptic?.toLowerCase() || '';
-    const arabicText = item.title.arabic?.toLowerCase() || '';
-
-    return englishText.includes(searchText) || copticText.includes(searchText) || arabicText.includes(searchText);
+    return (
+      item.title.english?.toLowerCase().includes(searchText) ||
+      item.title.coptic?.toLowerCase().includes(searchText) ||
+      item.title.arabic?.toLowerCase().includes(searchText)
+    );
   });
 
-  // Sort the filtered items based on the selected sort option
   const sortedItems = [...filteredItems].sort((a, b) => {
     if (sortOption === 'english') {
       return a.title.english?.localeCompare(b.title.english);
     } else if (sortOption === 'arabic') {
       return a.title.arabic?.localeCompare(b.title.arabic);
-    } else {
-      return 0; // Keep original order
     }
+    return 0;
   });
 
   useEffect(() => {
     const activeItemIndex = drawerItems.findIndex(item => item.id === currentTable);
     const activeItemRef = itemRefs[activeItemIndex];
 
-    if (activeItemRef && activeItemRef.current && scrollViewRef && scrollViewRef.current) {
+    if (activeItemRef && activeItemRef.current && scrollViewRef?.current) {
       activeItemRef.current.measureLayout(
-        scrollViewRef.current.getScrollableNode(),
+        scrollViewRef.current,
         (x, y) => {
-          if (scrollViewRef && scrollViewRef.current && currentTable && y) {
-            scrollViewRef.current.scrollTo({ x: 0, y: y, animated: false });
-          }
+          scrollViewRef.current.scrollTo({ x: 0, y, animated: true });
         },
-        error => console.error(error)
+        error => console.error("measureLayout error:", error)
       );
     }
   }, [drawerItems, currentTable, itemRefs]);
 
   return (
-    <ImageBackground
-      source={backgroundImage}
-      style={presentationStyles.backgroundImage}
-      resizeMode="repeat"
-    >
-      <DrawerContentScrollView
-        ref={scrollViewRef}
-        style={presentationStyles.bookDrawerContentScrollView}
-        {...props}
-      >
-        {/* Search bar */}
+    <ImageBackground source={backgroundImage} style={presentationStyles.backgroundImage} resizeMode="repeat">
+      <DrawerContentScrollView ref={scrollViewRef} style={presentationStyles.bookDrawerContentScrollView} {...props}>
         <View style={presentationStyles.searchContainer}>
-
           <View style={presentationStyles.sortContainer}>
-            
             <TouchableOpacity onPress={() => setSortOption('english')} style={presentationStyles.sortButton}>
               <Text style={sortOption === 'english' ? presentationStyles.activeSortButton : presentationStyles.sortButtonText}>English Sort</Text>
             </TouchableOpacity>
@@ -89,22 +69,14 @@ const RightDrawerContent = ({ currentTable, drawerItems, handleDrawerItemPress, 
             style={presentationStyles.searchInput}
             placeholder="Search..."
             value={searchQuery}
-            onChangeText={(text) => setSearchQuery(text)}
+            onChangeText={setSearchQuery}
           />
         </View>
 
-        {/* Sort buttons */}
-
-
-        {/* Render sorted drawer items */}
         {sortedItems.map((item, index) => {
           const isActive = item.id === currentTable;
           return (
-            <View
-              ref={itemRefs[index]}
-              style={presentationStyles.itemWrapper}
-              key={item.id}
-            >
+            <View ref={itemRefs[index]} key={item.id} style={presentationStyles.itemWrapper}>
               <DrawerItem
                 label={() => (
                   <View style={presentationStyles.labelViewContainer}>
@@ -125,10 +97,7 @@ const RightDrawerContent = ({ currentTable, drawerItems, handleDrawerItemPress, 
                   handleDrawerItemPress(item.id);
                   navigation.closeDrawer();
                 }}
-                labelStyle={presentationStyles.labelStyle}
                 style={presentationStyles.itemContainerStyle}
-                itemStyle={presentationStyles.itemStyle}
-                numberOfLines={null}
               />
               {index !== drawerItems.length - 1 && <View style={presentationStyles.embossedLine}></View>}
             </View>
@@ -137,53 +106,60 @@ const RightDrawerContent = ({ currentTable, drawerItems, handleDrawerItemPress, 
       </DrawerContentScrollView>
     </ImageBackground>
   );
-};
+});
+
+
 
   
 const drawerMenu = createDrawerNavigator();
 
-const RightMenuDrawer = ({ html , currentTable, setCurrentTable , drawerItems, setDrawerItems , handleDrawerItemPress, webviewRef }) => {
+const RightMenuDrawer = ({ html, currentTable, setCurrentTable, drawerItems, setDrawerItems, handleDrawerItemPress, webviewRef }) => {
   const navigation = useNavigation();
-
+  const scrollViewRef = React.useRef(null);
 
   return (
-
     <SafeAreaProvider>
-
       <drawerMenu.Navigator
-        initialRouteName='MainContent'
+        initialRouteName="MainContent"
         screenOptions={{
-          headerShown: false, // Hide the default header
-          gestureDirection: 'horizontal-inverted', // For RTL swipe gesture
+          headerShown: false,
+          gestureDirection: 'horizontal-inverted',
           drawerPosition: 'right',
-          drawerType: 'front', 
-          swipeEdgeWidth: screenWidth /3 ,
+          drawerType: 'front',
+          swipeEdgeWidth: screenWidth / 3,
           swipeMinDistance: 10,
-          overlayColor: 'rgba(0,0,0,0.5)', // Semi-transparent overlay
-          drawerStyle: {width: screenWidth *.4}
+          overlayColor: 'rgba(0,0,0,0.5)',
+          drawerStyle: { width: screenWidth * 0.4 }
         }}
-        drawerContent={props => 
-            <RightDrawerContent 
-              {...props}
+        drawerContent={props => (
+          <RightDrawerContent
+            {...props}
+            ref={scrollViewRef}
+            currentTable={currentTable}
+            drawerItems={drawerItems}
+            handleDrawerItemPress={(tableId) => {
+              handleDrawerItemPress(tableId, webviewRef);
+              navigation.closeDrawer();
+            }}
+          />
+        )}
+      >
+        <drawerMenu.Screen name="MainContent">
+          {() => (
+            <MainContent
+              html={html}
+              webviewRef={webviewRef}
+              setDrawerItems={setDrawerItems}
+              setCurrentTable={setCurrentTable}
               currentTable={currentTable}
-              drawerItems={drawerItems} 
-              handleDrawerItemPress={
-                (tableId) => {
-                  handleDrawerItemPress(tableId, webviewRef);
-                  navigation.closeDrawer();
-                } } />
-        }
-        >    
-          <drawerMenu.Screen name="MainContent">
-            {() => <MainContent html={html} webviewRef={webviewRef} setDrawerItems={setDrawerItems} setCurrentTable={setCurrentTable} currentTable={currentTable}/>}
-          </drawerMenu.Screen>
+            />
+          )}
+        </drawerMenu.Screen>
       </drawerMenu.Navigator>
-
-      
-      </SafeAreaProvider>    
-      
+    </SafeAreaProvider>
   );
 };
+
 
 
 export default RightMenuDrawer;

@@ -2,10 +2,11 @@
   "expo": {
     "name": "LiturgicalBooks",
     "slug": "LiturgicalBooks",
-    "version": "1.0.56",
+    "version": "1.0.58",
     "orientation": "landscape",
     "icon": "./assets/cymbals.png",
     "userInterfaceStyle": "light",
+    "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -17,7 +18,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.minaazer.liturgicalbooks",
-      "buildNumber": "61"
+      "buildNumber": "64"
     },
     "android": {
       "adaptiveIcon": {
@@ -30,7 +31,7 @@
         "ACCESS_NETWORK_STATE",
         "ACCESS_WIFI_STATE"
       ],
-      "versionCode": 84
+      "versionCode": 87
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -40,14 +41,13 @@
         "projectId": "2c2c0d93-d8b8-4188-864e-b797d38638fb"
       }
     },
-    "runtimeVersion": {
-      "policy": "appVersion"
-    },
+    "runtimeVersion": "1.0.0",
     "updates": {
       "url": "https://u.expo.dev/2c2c0d93-d8b8-4188-864e-b797d38638fb"
     },
     "plugins": [
-      "expo-font"
+      "expo-font",
+      "expo-asset"
     ]
   }
 }

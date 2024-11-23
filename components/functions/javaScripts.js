@@ -170,7 +170,6 @@ const paginateTables =
         } else if (((currentPageHeight !== 0 && pages.length > 0) || pages.length === 0 ) && currentPageHeight + sectionHeight < viewportHeight) {
           currentPage.push(sectionId);
           currentPageHeight += sectionHeight;
-          //SendMessage(JSON.stringify({type: 'debug', data: 'currentpageheight + section sectionHeight < viewportHeight: '+ sectionId}));
           return;
         } else if (currentPage.length && sectionHeight < viewportHeight) {
          //SendMessage(JSON.stringify({type: 'debug', data: 'section sectionHeight < viewportHeight: '+ sectionId}));
@@ -350,7 +349,6 @@ const paginateTables =
 /////// Check if the table has a tbody with scaling-container class
           if (table.querySelector("tbody.scaling-container")) {
           //sendMessage(JSON.stringify({type: 'debug', data: 'scaling container'}));
-            // Query all tbodies in the table
             table.querySelectorAll("tbody").forEach((tbody) => {
               //sendMessage(JSON.stringify({type: 'debug', data: 'scaling container tbody: ' + tbody.id}));
               let  tbodyHeight = tbody.clientHeight;

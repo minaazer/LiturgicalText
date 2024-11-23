@@ -11,6 +11,8 @@ import { useKeepAwake } from 'expo-keep-awake';
 import { useFonts } from 'expo-font';
 import VersionCheck from 'react-native-version-check';
 import app from './app.json';
+import Constants from 'expo-constants';
+
 
 
 
@@ -43,28 +45,24 @@ const App = () => {
 
 const checkForStoreUpdates = async () => {
   try {
-    // Get the current version from the Play Store or App Store
-    const latestVersion = (await VersionCheck.getLatestVersion()) || '1.0.0'; 
-    // Get the current version of the app installed on the device
-    const currentVersion = app.expo.version || '1.0.1'; 
+    const currentVersion = app.expo.version || '1.0.0';
 
-    // Compare versions
+
+    // Proceed with the version check if not in Expo Go
+    const latestVersion = await VersionCheck.getLatestVersion();
+
     if (latestVersion !== currentVersion) {
-      // If an update is needed, alert the user
       Alert.alert(
         'Update Available',
-        'A newer version of the app is available. Please update to the latest version.',
+        `A newer version of the app is available.\n\nCurrent version: ${currentVersion}\nLatest version: ${latestVersion}`,
         [
           {
             text: 'Update',
-            onPress: () => {
-              VersionCheck.getStoreUrl().then(storeUrl => {
-                if (storeUrl) {
-                  // Open the App Store or Play Store to the app page
-                  Linking.openURL(storeUrl);
-                  console.log('storeUrl:', storeUrl);
-                }
-              });
+            onPress: async () => {
+              const storeUrl = await VersionCheck.getStoreUrl();
+              if (storeUrl) {
+                Linking.openURL(storeUrl);
+              }
             },
           },
           { text: 'Cancel', style: 'cancel' },
@@ -72,7 +70,7 @@ const checkForStoreUpdates = async () => {
       );
     }
   } catch (error) {
-    console.error('Error checking for app update:', error);
+    console.error('Error checking for app updates:', error);
   }
 };
   

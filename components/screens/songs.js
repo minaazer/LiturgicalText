@@ -32,7 +32,7 @@ const Songs = () => {
           </View>
 
           <View style={presentationStyles.hoursContainer}>
-            <ScrollView contentContainerStyle={presentationStyles.hoursContainer}>
+            <ScrollView>
               <TouchableOpacity
                 style={[presentationStyles.songsContainer]}
                 onPress={() => navigation.navigate("AllSongs")}
@@ -42,17 +42,32 @@ const Songs = () => {
 
               <TouchableOpacity
                 style={[presentationStyles.songsContainer]}
-                onPress={() => navigation.navigate("StMarySongs")}
+                onPress={() => navigation.navigate("ComfortSongs")}
               >
-                <Text style={presentationStyles.pageMenu}>Spiritual Songs for St. Mary</Text>
+                <Text style={presentationStyles.pageMenu}>Comfort and Repentance</Text>
               </TouchableOpacity>
 
               <TouchableOpacity
-                style={[presentationStyles.songsContainer, { opacity: 0.5}]}
-                //onPress={() => navigation.navigate("ComfortingSongs")}
+                style={[presentationStyles.songsContainer]}
+                onPress={() => navigation.navigate("NayroozSongs")}
               >
-                <Text style={presentationStyles.pageMenu}>Spiritual Songs of Comfort</Text>
+                <Text style={presentationStyles.pageMenu}>Coptic New Year</Text>
               </TouchableOpacity>
+
+              <TouchableOpacity
+                style={[presentationStyles.songsContainer]}
+                onPress={() => navigation.navigate("ResurrectionSongs")}
+              >
+                <Text style={presentationStyles.pageMenu}>Resurrection</Text>
+              </TouchableOpacity>
+
+              <TouchableOpacity
+                style={[presentationStyles.songsContainer]}
+                onPress={() => navigation.navigate("StMarySongs")}
+              >
+                <Text style={presentationStyles.pageMenu}>St. Mary</Text>
+              </TouchableOpacity>
+
           </ScrollView>
           </View>
         </View>

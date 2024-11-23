@@ -3667,11 +3667,6 @@ return html;
 };
 
 
-
-
-
-
-
 // Helper function to clean feast names
 function cleanDoxologyName(functionName) {
     // Convert first letter to lowercase and keep the rest unchanged

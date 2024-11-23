@@ -1,4 +1,4 @@
-import { arabicNumbers , disableScrolling , extractTableTitlesAndIds , paginateTables , sendMessage , adjustOverlay , setOverlays , clearOverlays , showBlackScreen , removeBlackScreen , tableToggle , listenToButtonClicks , handleSpinner } from "./javaScripts";
+    import { arabicNumbers , extractTableTitlesAndIds , paginateTables , sendMessage , adjustOverlay , setOverlays , clearOverlays , showBlackScreen , removeBlackScreen , tableToggle , listenToButtonClicks , handleSpinner } from "./javaScripts";
 
 export const htmlRenderScript = `
 

@@ -1,5 +1,5 @@
 import { useContext, useState, useEffect } from 'react';
-import SettingsContext from '../settings/settingsContext';
+import SettingsContext from '../../settings/settingsContext';
 
 const userSettings = (value, settingsKey) => {
     const [settings] = useContext(SettingsContext);
@@ -10,7 +10,8 @@ const userSettings = (value, settingsKey) => {
       if (settings[settingsKey]) {
         setSettingsData(settings[settingsKey]);
       }
-    }, [settings, settingsKey]);
+    },
+ [settings, settingsKey]);
   
     // Find the item with the provided value in the settingsData array
     const item = settingsData.find(item => item.value === value);
@@ -19,8 +20,8 @@ const userSettings = (value, settingsKey) => {
     return item ? item.checked : false;
   };
   
-
-function amenAmenCome(tableNumber) {
+const songFunctions = {
+amenAmenCome(tableNumber) {
     const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
     let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
 
@@ -209,9 +210,9 @@ let html = `
         </table>
     \n`;
     return html;
-}
+},
 
-function beFaithfulUntoDeath(tableNumber) {
+beFaithfulUntoDeath(tableNumber) {
     const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
     let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
 
@@ -402,9 +403,9 @@ let html = `
 
 \n`;
     return html;
-}
+},
 
-function blessedAreYouOMary(tableNumber) { 
+blessedAreYouOMary(tableNumber) { 
     const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
     let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
 
@@ -615,9 +616,9 @@ let html = `
     
     
     `;return html;
-}
+},
 
-function shineBright(tableNumber) {
+shineBright(tableNumber) {
     const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
     let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
 
@@ -785,9 +786,9 @@ let html = `
 </table>
 
     `;return html;
-}
+},
 
-function dontLeaveMeAlone(tableNumber) {
+dontLeaveMeAlone(tableNumber) {
     const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
     let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
 
@@ -978,9 +979,9 @@ let html = `
         </table>
 \n`;
     return html;
-}
+},
 
-function drawAPortraitOfTheVirgin(tableNumber) { 
+drawAPortraitOfTheVirgin(tableNumber) { 
     const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
     let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
 
@@ -1323,9 +1324,9 @@ let html = `
     
     
     `;return html;
-}
+},
 
-function hailToYouOMotherOfComfort(tableNumber) { 
+hailToYouOMotherOfComfort(tableNumber) { 
     const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
     let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
 
@@ -1448,10 +1449,9 @@ let html = `
     
     
     `;return html;
-    }
+},
 
-
-function hailToMary(tableNumber) { 
+hailToMary(tableNumber) { 
     const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
     let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
 
@@ -1838,9 +1838,9 @@ let html = `
     
     
     `;return html;
-}
+},
 
-function hearMyCry(tableNumber) {
+hearMyCry(tableNumber) {
     const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
     let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
 
@@ -2087,10 +2087,271 @@ let html = `
             </tbody>
 </table>`;
 return html;
-}
+},
 
+howCouldIForget(tableNumber) {
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
 
-function howSweetAreYouOMary(tableNumber) { 
+let html = `
+<table id="table_${tableNumber}" title="How could I forget">
+    <caption id="caption_table_${tableNumber}" class="caption">
+        How could I forget
+        <span class="arabic-caption">كيف انسى</span>
+    </caption>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
+
+            <tr id="table_${tableNumber}_row_0" class="north">
+                <td class="english">How could I forget, the One who died for me</td>
+                <td class="enPhonicsSongs">Kayfa ansa sayyidi al-ghali al-Maseeh</td>
+                <td class="arabic">كيف انسى سيدي الغالي المسيح</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_1" class="north">
+                <td class="english">How could I forget His side that had to bleed</td>
+                <td class="enPhonicsSongs">Kayfa ansa dam dhi al-janb al-jareeh</td>
+                <td class="arabic">كيف آنسي دم ذي الجنب الجريح</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_2" class="north">
+                <td class="english">He who saw me in my misery so He came running to meet me</td>
+                <td class="enPhonicsSongs">Man raani fee hawani fa'ata taw'an ilayya</td>
+                <td class="arabic">من راني في هواني فآتى طوعا آلي</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_3" class="north">
+                <td class="english">He who bought me and redeemed me broke my chains and set me free</td>
+                <td class="enPhonicsSongs">Man fadayni washtarani kasiran qayd yadi</td>
+                <td class="arabic">من فدانى واشتراني كاسرا قيد يدي</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_1">
+
+            <tr id="table_${tableNumber}_row_4" class="south">
+                <td class="english">How could I forget your kindness through the years</td>
+                <td class="enPhonicsSongs">Kayfa ansa qalbaka al-aafi al-kabeer</td>
+                <td class="arabic">كيف آنسي قلبك العافي الكبير</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_5" class="south">
+                <td class="english">Your right hand always reaching out to me</td>
+                <td class="enPhonicsSongs">Yadaka tahrusuni fee kull heen</td>
+                <td class="arabic">يدك تحرسني في كل حين</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_6" class="south">
+                <td class="english">In my joys and in my sorrows, in all of life's storms</td>
+                <td class="enPhonicsSongs">Waqt huzni wa waqt deeqi wasat amwaj al-hayat</td>
+                <td class="arabic">وقت حزني وقت ضيقي وسط أمواج الحياة</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_7" class="south">
+                <td class="english">You've become my friend and fortress, You are the One to whom I call</td>
+                <td class="enPhonicsSongs">Surt hisni wa rafeeqi surt lee bab al-najat</td>
+                <td class="arabic">صرت حصني ورفيقي صرت لي باب النجاة</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
+
+            <tr id="table_${tableNumber}_row_8" class="north">
+                <td class="english">Help me Lord I want to lose myself in You</td>
+                <td class="enPhonicsSongs">Habni ansa sayyidi dhati hunak</td>
+                <td class="arabic">هبني آنسي سيدي ذاتي هناك</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_9" class="north">
+                <td class="english">All my pride has blinded me from seeing You</td>
+                <td class="enPhonicsSongs">Fa'anadi qad athaqani al-ana</td>
+                <td class="arabic">فعنادي قد أذاقني العناء</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_10" class="north">
+                <td class="english">So I'll keep watching and praying setting my eyes on You</td>
+                <td class="enPhonicsSongs">Ughni fee hayati aaliman anni ghareeb</td>
+                <td class="arabic">أغنى في حياتي عالما آني غريب</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_11" class="north">
+                <td class="english">Trusting in your sure promises that You will be there for me soon</td>
+                <td class="enPhonicsSongs">Dhakiran annaka rabbi sawfa ta'ti an qareeb</td>
+                <td class="arabic">ذاكرا انك ربى سوف تأتى عن قريب</td>
+            </tr>
+        </tbody>
+</table>`;
+return html;
+},
+
+howLovely(tableNumber) {
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
+<table id="table_${tableNumber}" title="How Lovely">
+    <caption id="caption_table_${tableNumber}" class="caption">
+        How Lovely
+        <span class="arabic-caption">ما أحلى أن نجتمع معا</span>
+    </caption>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_1">
+
+            <tr id="table_${tableNumber}_row_4" class="north">
+                <td class="english">How lovely it is to get together</td>
+                <td class="enPhonicsSongs">Ma ahla an najtama' ma'an</td>
+                <td class="arabic">ما أحلى أن نجتمع معا</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_5" class="north">
+                <td class="english">In love our Lord teaches us</td>
+                <td class="enPhonicsSongs">Bil hubb yaqoolu al-rab lana</td>
+                <td class="arabic">بالحب يقول الرب لنا</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_6" class="north">
+                <td class="english">When two meet in my name together</td>
+                <td class="enPhonicsSongs">Ma ijtama' bi-ismi ithnayn ma'an</td>
+                <td class="arabic">ما اجتمع باسمي اثنان معا</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_7" class="north">
+                <td class="english">I will always be in between their gather</td>
+                <td class="enPhonicsSongs">Ila wa hunaka akoonu ana</td>
+                <td class="arabic">إلى وهناك أكون أنا</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
+
+            <tr id="table_${tableNumber}_row_8" class="Refrain">
+                <td class="english">O Lord come now and join us here</td>
+                <td class="enPhonicsSongs">Ya Rab ta'ala al-aan huna</td>
+                <td class="arabic">يا رب تعالى الآن هنا</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_9" class="Refrain">
+                <td class="english">We ask you to come and give us cheer</td>
+                <td class="enPhonicsSongs">Nada'ooka ta'ala wakun ma'ana</td>
+                <td class="arabic">ندعوك تعالى وكن معنا</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_10" class="Refrain">
+                <td class="english">Fill us with joy from your Holy Spirit</td>
+                <td class="enPhonicsSongs">Min roohika amlana farahan</td>
+                <td class="arabic">من روحك أملأنا فرحاً</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_11" class="Refrain">
+                <td class="english">And peace no riches can provide</td>
+                <td class="enPhonicsSongs">Wa salaman la yu'teehi ghina</td>
+                <td class="arabic">وسلاماً لا يعطيه غنى</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
+
+            <tr id="table_${tableNumber}_row_12" class="south">
+                <td class="english">The Lord is here always with us</td>
+                <td class="enPhonicsSongs">Al-rabb huna da'iman ma'ana</td>
+                <td class="arabic">الرب هنا دوماً معنا</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_13" class="south">
+                <td class="english">How lovely he is, how content we are</td>
+                <td class="enPhonicsSongs">Ma ajmalahu ma as'adana</td>
+                <td class="arabic">ما أجمله ما أسعدنا</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_14" class="south">
+                <td class="english">We talk to him and he always listens</td>
+                <td class="enPhonicsSongs">Sana kallimuhu wa sayasma'na</td>
+                <td class="arabic">سنكلمه وسيسمعنا</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_15" class="south">
+                <td class="english">He'll always be with us in us</td>
+                <td class="enPhonicsSongs">Sayabqa lana feena wa ma'ana</td>
+                <td class="arabic">سيبقى لنا فينا ومعنا</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
+
+            <tr id="table_${tableNumber}_row_16" class="Refrain">
+                <td class="english">O Lord come now and join us here</td>
+                <td class="enPhonicsSongs">Ya Rab ta'ala al-aan huna</td>
+                <td class="arabic">يا رب تعالى الآن هنا</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_17" class="Refrain">
+                <td class="english">We ask you to come and give us cheer</td>
+                <td class="enPhonicsSongs">Nada'ooka ta'ala wakun ma'ana</td>
+                <td class="arabic">ندعوك تعالى وكن معنا</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_18" class="Refrain">
+                <td class="english">Fill us with joy from your Holy Spirit</td>
+                <td class="enPhonicsSongs">Min roohika amlana farahan</td>
+                <td class="arabic">من روحك أملأنا فرحاً</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_19" class="Refrain">
+                <td class="english">And peace no riches can provide</td>
+                <td class="enPhonicsSongs">Wa salaman la yu'teehi ghina</td>
+                <td class="arabic">وسلاماً لا يعطيه غنى</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_5">
+
+            <tr id="table_${tableNumber}_row_20" class="north">
+                <td class="english"></td>
+                <td class="enPhonicsSongs">Ith anta lana 'awn wa sanad</td>
+                <td class="arabic">إذ أنت لنا عون وسند</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_21" class="north">
+                <td class="english"></td>
+                <td class="enPhonicsSongs">Fi kull tareeqi naslukuhu</td>
+                <td class="arabic">في كل طريقٍ نسلكه</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_22" class="north">
+                <td class="english"></td>
+                <td class="enPhonicsSongs">Wa sadeeq laysa siwah najid</td>
+                <td class="arabic">وصديق ليس سواه نجد</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_23" class="north">
+                <td class="english"></td>
+                <td class="enPhonicsSongs">Na'teehi al-qalb wa namlikuhu</td>
+                <td class="arabic">نعطيه القلب نملكه</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_6">
+
+            <tr id="table_${tableNumber}_row_24" class="Refrain">
+                <td class="english">O Lord come now and join us here</td>
+                <td class="enPhonicsSongs">Ya Rab ta'ala al-aan huna</td>
+                <td class="arabic">يا رب تعالى الآن هنا</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_25" class="Refrain">
+                <td class="english">We ask you to come and give us cheer</td>
+                <td class="enPhonicsSongs">Nada'ooka ta'ala wakun ma'ana</td>
+                <td class="arabic">ندعوك تعالى وكن معنا</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_26" class="Refrain">
+                <td class="english">Fill us with joy from your Holy Spirit</td>
+                <td class="enPhonicsSongs">Min roohika amlana farahan</td>
+                <td class="arabic">من روحك أملأنا فرحاً</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_27" class="Refrain">
+                <td class="english">And peace no riches can provide</td>
+                <td class="enPhonicsSongs">Wa salaman la yu'teehi ghina</td>
+                <td class="arabic">وسلاماً لا يعطيه غنى</td>
+            </tr>
+        </tbody>
+</table>`;
+return html;
+},
+
+howSweetAreYouOMary(tableNumber) { 
     const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
     let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
 
@@ -2301,9 +2562,9 @@ let html = `
     
     
     `;return html;
-    }
+},
 
-function iCanHearMySaviorCalling(tableNumber) {
+iCanHearMySaviorCalling(tableNumber) {
 
     const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
     let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
@@ -2419,9 +2680,288 @@ let html = `
         </table>
 \n`;
 return html;
-}
+},
 
-function inTheShadeOfYourProtection(tableNumber) { 
+iPlaceMySoul(tableNumber) {
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
+<table id="table_${tableNumber}" title="I Place My Soul">
+    <caption id="caption_table_${tableNumber}" class="caption">
+        I Place My Soul
+        <span class="arabic-caption">قد قلت قبل الآن</span>
+    </caption>
+        
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_1">
+
+            <tr id="table_${tableNumber}_row_6" class="north">
+                <td class="english">I place my soul into your hands</td>
+                <td class="enPhonicsSongs">Sallamtu nafsi fee yadayk</td>
+                <td class="arabic">سلمت نفسي في يديك</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_7" class="north">
+                <td class="english">My Lord Jesus Christ</td>
+                <td class="enPhonicsSongs">Ya sayyidi Yassouh</td>
+                <td class="arabic">ياسيدي يسوع</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_8" class="north">
+                <td class="english">Lead me because I depend on you</td>
+                <td class="enPhonicsSongs">Qodni fa takallani 'alayk</td>
+                <td class="arabic">قدني فتكلاني عليك</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_9" class="north">
+                <td class="english">Lead me and I´ll serve you</td>
+                <td class="enPhonicsSongs">Kay akhdim al-joomoo'</td>
+                <td class="arabic">كي أخدم الجموع</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_10" class="north">
+                <td class="english">Please be my guide in everyway</td>
+                <td class="enPhonicsSongs">Kun harisi min al-dalal</td>
+                <td class="arabic">كن حارسي من الضلال</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_11" class="north">
+                <td class="english">Be my guard I won´t go astray</td>
+                <td class="enPhonicsSongs">Kun murshidi fee kull hal</td>
+                <td class="arabic">كن مرشدي في كل حال</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_12" class="north">
+                <td class="english">Sanctify my heart and my needs</td>
+                <td class="enPhonicsSongs">Wa al-qalb qaddis wa al-af'al</td>
+                <td class="arabic">والقلب قدس والفعال</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_13" class="north">
+                <td class="english">Until I see you Lord</td>
+                <td class="enPhonicsSongs">Hatta ara Yassouh</td>
+                <td class="arabic">حتى آرى يسوع</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
+
+            <tr id="table_${tableNumber}_row_14" class="Refrain">
+                <td class="english">As you have always said</td>
+                <td class="enPhonicsSongs">Qad qultu qabl al-aan</td>
+                <td class="arabic">قد قلت قبل الآن</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_15" class="Refrain">
+                <td class="english">All sorts of all goodness</td>
+                <td class="enPhonicsSongs">Ya manba' al-ihsan</td>
+                <td class="arabic">يامنبع الإحسان</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_16" class="Refrain">
+                <td class="english">"Come unto me all you weary</td>
+                <td class="enPhonicsSongs">Ya muta'ib al-qalb ta'al</td>
+                <td class="arabic">يا متعب القلب تعال</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_17" class="Refrain">
+                <td class="english">Come unto me and you will find rest</td>
+                <td class="enPhonicsSongs">Omkoth ma'ee hatta tanal</td>
+                <td class="arabic">امكث معي حتى تنال</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_18" class="Refrain">
+                <td class="english">Come unto me I am the way</td>
+                <td class="enPhonicsSongs">Hayya fafee al-qurb al-manaal</td>
+                <td class="arabic">هيا ففي القرب المنال</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_19" class="Refrain">
+                <td class="english">I am the truth and life"</td>
+                <td class="enPhonicsSongs">Lil-khayr fee Yassouh</td>
+                <td class="arabic">للخير في يسوع</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
+
+            <tr id="table_${tableNumber}_row_20" class="south">
+                <td class="english">When my life gets filled with worries</td>
+                <td class="enPhonicsSongs">Rabi amtlikni wa arwini</td>
+                <td class="arabic">ربي آمتلكني واروني</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_21" class="south">
+                <td class="english">And darkness overwhelms</td>
+                <td class="enPhonicsSongs">Min nab'ika al-malan</td>
+                <td class="arabic">من نبعك الملان</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_22" class="south">
+                <td class="english">The clouds will be dispersed away</td>
+                <td class="enPhonicsSongs">Id'oof fa asma' wa ahdini</td>
+                <td class="arabic">ادعوك فاسمع واهدني</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_23" class="south">
+                <td class="english">By you, O prince of peace</td>
+                <td class="enPhonicsSongs">Lil-khayr ya manan</td>
+                <td class="arabic">للخير يا منان</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_24" class="south">
+                <td class="english">You are my shield you are my hope</td>
+                <td class="enPhonicsSongs">Kayma a'ood min jadeed</td>
+                <td class="arabic">كيما أعود من جديد</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_25" class="south">
+                <td class="english">You are my strengths you are my go</td>
+                <td class="enPhonicsSongs">As'a wa atlub al-mazeed</td>
+                <td class="arabic">اسعى واطلب المزيد</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_26" class="south">
+                <td class="english">You are the perfect love, O Lord</td>
+                <td class="enPhonicsSongs">Min ni'mat al-3ahd al-jadeed</td>
+                <td class="arabic">من نعمة العهد الجديد</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_27" class="south">
+                <td class="english">Of whom then shall I fear!</td>
+                <td class="enPhonicsSongs">Hatta ara Yassouh</td>
+                <td class="arabic">حتى أرى يسوع</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
+
+            <tr id="table_${tableNumber}_row_28" class="Refrain">
+                <td class="english">As you have always said</td>
+                <td class="enPhonicsSongs">Qad qultu qabl al-aan</td>
+                <td class="arabic">قد قلت قبل الآن</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_29" class="Refrain">
+                <td class="english">All sorts of all goodness</td>
+                <td class="enPhonicsSongs">Ya manba' al-ihsan</td>
+                <td class="arabic">يامنبع الإحسان</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_30" class="Refrain">
+                <td class="english">"Come unto me all you weary</td>
+                <td class="enPhonicsSongs">Ya muta'ib al-qalb ta'al</td>
+                <td class="arabic">يا متعب القلب تعال</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_31" class="Refrain">
+                <td class="english">Come unto me and you will find rest</td>
+                <td class="enPhonicsSongs">Omkoth ma'ee hatta tanal</td>
+                <td class="arabic">امكث معي حتى تنال</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_32" class="Refrain">
+                <td class="english">Come unto me I am the way</td>
+                <td class="enPhonicsSongs">Hayya fafee al-qurb al-manaal</td>
+                <td class="arabic">هيا ففي القرب المنال</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_33" class="Refrain">
+                <td class="english">I am the truth and life"</td>
+                <td class="enPhonicsSongs">Lil-khayr fee Yassouh</td>
+                <td class="arabic">للخير في يسوع</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_5">
+
+            <tr id="table_${tableNumber}_row_34" class="north">
+                <td class="english">When worries overwhelm my life</td>
+                <td class="enPhonicsSongs">In nagasat 'ayshee al-humoom</td>
+                <td class="arabic">ان نغصت عيشي الهموم</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_35" class="north">
+                <td class="english">Or darkness closes in</td>
+                <td class="enPhonicsSongs">Aw in dana al-zalam</td>
+                <td class="arabic">أو إن دنا الظلام</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_36" class="north">
+                <td class="english">The clouds will be dispersed away</td>
+                <td class="enPhonicsSongs">Satanjali kull al-ghayoom</td>
+                <td class="arabic">ستنجلي كل الغيوم</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_37" class="north">
+                <td class="english">By you, O prince of peace</td>
+                <td class="enPhonicsSongs">Min manih al-salam</td>
+                <td class="arabic">من مانح السلام</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_38" class="north">
+                <td class="english">The Lord is my shield, my hope</td>
+                <td class="enPhonicsSongs">Al-rabb hisni wa al-amal</td>
+                <td class="arabic">الرب حصني والأمل</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_39" class="north">
+                <td class="english">The Lord will do as He has said</td>
+                <td class="enPhonicsSongs">Al-rabb in qala fa'al</td>
+                <td class="arabic">الرب إن قال فعل</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_40" class="north">
+                <td class="english">His love is complete, O Lord</td>
+                <td class="enPhonicsSongs">Wa al-hubb feehi mukammal</td>
+                <td class="arabic">والحب فيه مكتمل</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_41" class="north">
+                <td class="english">So I see you, Lord Jesus</td>
+                <td class="enPhonicsSongs">Lidha ara Yassouh</td>
+                <td class="arabic">لذا أرى يسوع</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_6">
+
+            <tr id="table_${tableNumber}_row_42" class="Refrain">
+                <td class="english">As you have always said</td>
+                <td class="enPhonicsSongs">Qad qultu qabl al-aan</td>
+                <td class="arabic">قد قلت قبل الآن</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_43" class="Refrain">
+                <td class="english">All sorts of all goodness</td>
+                <td class="enPhonicsSongs">Ya manba' al-ihsan</td>
+                <td class="arabic">يامنبع الإحسان</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_44" class="Refrain">
+                <td class="english">"Come unto me all you weary</td>
+                <td class="enPhonicsSongs">Ya muta'ib al-qalb ta'al</td>
+                <td class="arabic">يا متعب القلب تعال</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_45" class="Refrain">
+                <td class="english">Come unto me and you will find rest</td>
+                <td class="enPhonicsSongs">Omkoth ma'ee hatta tanal</td>
+                <td class="arabic">امكث معي حتى تنال</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_46" class="Refrain">
+                <td class="english">Come unto me I am the way</td>
+                <td class="enPhonicsSongs">Hayya fafee al-qurb al-manaal</td>
+                <td class="arabic">هيا ففي القرب المنال</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_47" class="Refrain">
+                <td class="english">I am the truth and life"</td>
+                <td class="enPhonicsSongs">Lil-khayr fee Yassouh</td>
+                <td class="arabic">للخير في يسوع</td>
+            </tr>
+        </tbody>
+</table>`;
+return html;
+},
+
+inTheShadeOfYourProtection(tableNumber) { 
     const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
     let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
 
@@ -2632,9 +3172,327 @@ let html = `
     
     
     `;return html;
-}
+},
 
-function myCopticChurch(tableNumber) { 
+
+intoYourHands(tableNumber) {
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
+<table id="table_${tableNumber}" title="Into Your Hands">
+    <caption id="caption_table_${tableNumber}" class="caption">
+        Into Your Hands
+        <span class="arabic-caption"></span>
+    </caption>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
+
+            <tr id="table_${tableNumber}_row_0" class="north">
+                <td class="english">O God, My God, Why have you gone from me</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_1" class="north">
+                <td class="english">Far from my prayers, far from my cry</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_2" class="north">
+                <td class="english">To you I call, but you never answer me</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_3" class="north">
+                <td class="english">You send no comfort and I don't know why</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_1">
+
+            <tr id="table_${tableNumber}_row_4" class="south">
+                <td class="english">Our fathers trusted and delivered them</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_5" class="south">
+                <td class="english">To you they cry, and they escaped</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_6" class="south">
+                <td class="english">In you they trusted when darkness came their way</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_7" class="south">
+                <td class="english">And in your goodness you made them free</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
+
+            <tr id="table_${tableNumber}_row_8" class="north">
+                <td class="english">You've been my guide since I was very young</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_9" class="north">
+                <td class="english">You showed the way when I needed someone's hand</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_10" class="north">
+                <td class="english">But now I'm lonely, nobody is at my side</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_11" class="north">
+                <td class="english">Stay near my Lord, and be my friend.</td>
+            </tr>
+        </tbody>
+</table>`;
+return html;
+},
+
+
+justLikeTheBird(tableNumber) {
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
+<table id="table_${tableNumber}" title="Just like the bird">
+    <caption id="caption_table_${tableNumber}" class="caption">
+        Just like the bird
+        <span class="arabic-caption">زي العصفور</span>
+    </caption>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
+
+            <tr id="table_${tableNumber}_row_0" class="Refrain">
+                <td class="english">Just like the bird when it found its home,</td>
+                <td class="enPhonicsSongs">Zay al-asfoor ma wajad baytuh</td>
+                <td class="arabic">زي العصفور ما وجد بيته</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_1" class="Refrain">
+                <td class="english">Just like the happy dove,</td>
+                <td class="enPhonicsSongs">Zay al-yamama al-farhana</td>
+                <td class="arabic">زي اليمامة الفرحانة</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_2" class="Refrain">
+                <td class="english">Your house O Lord, I love</td>
+                <td class="enPhonicsSongs">Baytak ya Rab ana habeetuh</td>
+                <td class="arabic">بيتك يا رب أنا حبيته</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_3" class="Refrain">
+                <td class="english">Your house I love with honesty.</td>
+                <td class="enPhonicsSongs">Baytak habeetuh bi-amanah</td>
+                <td class="arabic">بيتك حبيته بأمانة</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_1">
+
+            <tr id="table_${tableNumber}_row_4" class="north">
+                <td class="english">Your house is prayer, praise, and candles,</td>
+                <td class="enPhonicsSongs">Baytak salat wa tahleel wa shumu' </td>
+                <td class="arabic">بيتك صلاة وتهليل وشموع</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_5" class="north">
+                <td class="english">Your house is Love, Light, and Peace,</td>
+                <td class="enPhonicsSongs">Baytak mahabbah wa noor wa salam</td>
+                <td class="arabic">بيتك محبة ونور وسلام</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_6" class="north">
+                <td class="english">Just as I love your house O Lord</td>
+                <td class="enPhonicsSongs">Zay ma habeet baytak ya Yasouh</td>
+                <td class="arabic">زي ما حبيت بيتك يا يسوع</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_7" class="north">
+                <td class="english">I Love You unto the end of day</td>
+                <td class="enPhonicsSongs">Habeetuk inta mada al-ayyam</td>
+                <td class="arabic">حبيتك إنت مدى الأيام</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
+
+            <tr id="table_${tableNumber}_row_8" class="Refrain">
+                <td class="english">Just like the bird when it found its home,</td>
+                <td class="enPhonicsSongs">Zay al-asfoor ma wajad baytuh</td>
+                <td class="arabic">زي العصفور ما وجد بيته</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_9" class="Refrain">
+                <td class="english">Just like the happy dove,</td>
+                <td class="enPhonicsSongs">Zay al-yamama al-farhana</td>
+                <td class="arabic">زي اليمامة الفرحانة</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_10" class="Refrain">
+                <td class="english">Your house O Lord, I love</td>
+                <td class="enPhonicsSongs">Baytak ya Rab ana habeetuh</td>
+                <td class="arabic">بيتك يا رب أنا حبيته</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_11" class="Refrain">
+                <td class="english">Your house I love with honesty.</td>
+                <td class="enPhonicsSongs">Baytak habeetuh bi-amanah</td>
+                <td class="arabic">بيتك حبيته بأمانة</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
+
+            <tr id="table_${tableNumber}_row_12" class="south">
+                <td class="english">Your house is full of blessings,</td>
+                <td class="enPhonicsSongs">Baytak malyan min al-barakat</td>
+                <td class="arabic">بيتك مليان من البركات</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_13" class="south">
+                <td class="english">Protected against all demons.</td>
+                <td class="enPhonicsSongs">Aminu min kull al-shayateen</td>
+                <td class="arabic">أمنته من كل الشياطين</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_14" class="south">
+                <td class="english">We celebrate there the liturgies,</td>
+                <td class="enPhonicsSongs">Yawmati fee al-qadasat</td>
+                <td class="arabic">يوماتي فيه القداسات</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_15" class="south">
+                <td class="english">They’re prayed for the saints.</td>
+                <td class="enPhonicsSongs">Tuqamu ala 'ashan al-qudiseen</td>
+                <td class="arabic">تقام على علشان القديسين</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
+
+            <tr id="table_${tableNumber}_row_16" class="Refrain">
+                <td class="english">Just like the bird when it found its home,</td>
+                <td class="enPhonicsSongs">Zay al-asfoor ma wajad baytuh</td>
+                <td class="arabic">زي العصفور ما وجد بيته</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_17" class="Refrain">
+                <td class="english">Just like the happy dove,</td>
+                <td class="enPhonicsSongs">Zay al-yamama al-farhana</td>
+                <td class="arabic">زي اليمامة الفرحانة</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_18" class="Refrain">
+                <td class="english">Your house O Lord, I love</td>
+                <td class="enPhonicsSongs">Baytak ya Rab ana habeetuh</td>
+                <td class="arabic">بيتك يا رب أنا حبيته</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_19" class="Refrain">
+                <td class="english">Your house I love with honesty.</td>
+                <td class="enPhonicsSongs">Baytak habeetuh bi-amanah</td>
+                <td class="arabic">بيتك حبيته بأمانة</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_5">
+
+            <tr id="table_${tableNumber}_row_20" class="north">
+                <td class="english">In Your house we read the Bible</td>
+                <td class="enPhonicsSongs">Baytak binaqra fee anajeel</td>
+                <td class="arabic">بيتك بنقرا فيه أناجيل</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_21" class="north">
+                <td class="english">And learn there the nicest songs.</td>
+                <td class="enPhonicsSongs">Wa nahfaz feehi ajmal alhan</td>
+                <td class="arabic">ونحفظ فيه أجمل ألحان</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_22" class="north">
+                <td class="english">And hear there the blessed hymns,</td>
+                <td class="enPhonicsSongs">Wa nasma' feehi aqdas tarateel</td>
+                <td class="arabic">ونسمع فيه أقدس تراتيل</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_23" class="north">
+                <td class="english">And praise You all our lives.</td>
+                <td class="enPhonicsSongs">Wa nasabihak tool al-azman</td>
+                <td class="arabic">ونسبحك طول الأزمان</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_6">
+
+            <tr id="table_${tableNumber}_row_24" class="Refrain">
+                <td class="english">Just like the bird when it found its home,</td>
+                <td class="enPhonicsSongs">Zay al-asfoor ma wajad baytuh</td>
+                <td class="arabic">زي العصفور ما وجد بيته</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_25" class="Refrain">
+                <td class="english">Just like the happy dove,</td>
+                <td class="enPhonicsSongs">Zay al-yamama al-farhana</td>
+                <td class="arabic">زي اليمامة الفرحانة</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_26" class="Refrain">
+                <td class="english">Your house O Lord, I love</td>
+                <td class="enPhonicsSongs">Baytak ya Rab ana habeetuh</td>
+                <td class="arabic">بيتك يا رب أنا حبيته</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_27" class="Refrain">
+                <td class="english">Your house I love with honesty.</td>
+                <td class="enPhonicsSongs">Baytak habeetuh bi-amanah</td>
+                <td class="arabic">بيتك حبيته بأمانة</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_7">
+
+            <tr id="table_${tableNumber}_row_28" class="south">
+                <td class="english">Blessed are they who are blameless,</td>
+                <td class="enPhonicsSongs">Tubahum elli fee diarak</td>
+                <td class="arabic">طوباهم اللي في ديارك</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_29" class="south">
+                <td class="english">O Lord in Your house living.</td>
+                <td class="enPhonicsSongs">Elli bil-'eed feeh salkeen</td>
+                <td class="arabic">اللي بالعيد فيه سالكين</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_30" class="south">
+                <td class="english">Confirm me in Your luminous ways,</td>
+                <td class="enPhonicsSongs">Thabitni fee tareeq anwarak</td>
+                <td class="arabic">ثبتني في طريق أنوارك</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_31" class="south">
+                <td class="english">Forever and ever, Amen.</td>
+                <td class="enPhonicsSongs">Ila inqida' al-dahr, Ameen</td>
+                <td class="arabic">إلى انقضاء الدهر أمين</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_8">
+
+            <tr id="table_${tableNumber}_row_32" class="Refrain">
+                <td class="english">Just like the bird when it found its home,</td>
+                <td class="enPhonicsSongs">Zay al-asfoor ma wajad baytuh</td>
+                <td class="arabic">زي العصفور ما وجد بيته</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_33" class="Refrain">
+                <td class="english">Just like the happy dove,</td>
+                <td class="enPhonicsSongs">Zay al-yamama al-farhana</td>
+                <td class="arabic">زي اليمامة الفرحانة</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_34" class="Refrain">
+                <td class="english">Your house O Lord, I love</td>
+                <td class="enPhonicsSongs">Baytak ya Rab ana habeetuh</td>
+                <td class="arabic">بيتك يا رب أنا حبيته</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_35" class="Refrain">
+                <td class="english">Your house I love with honesty.</td>
+                <td class="enPhonicsSongs">Baytak habeetuh bi-amanah</td>
+                <td class="arabic">بيتك حبيته بأمانة</td>
+            </tr>
+        </tbody>
+</table>`;
+return html;
+},
+
+myCopticChurch(tableNumber) { 
     const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
     let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
 
@@ -2672,7 +3530,7 @@ let html = `
             <tr id="table_${tableNumber}_row_6" class="North">
                 <td class="english">In the name of our Redeemer, Christ who removed our sins</td>
                 <td class="enPhonicsSongs">Besmel masee7 el fadi, man yarfa3ol qasas</td>
-                <td class="arabic">بإسم المسيح الفادى من يرفع القصاص</td>
+                <td class="arabic">بإسم المسيح الفادى من يرفع القصاص</td>
             </tr>
         </tbody>
         <tbody ${tbodyClass} id="table_${tableNumber}_tbody_1">
@@ -2807,9 +3665,9 @@ let html = `
     
     
     `;return html;
-    }
+},
 
-function myCopticChurchSoGreat(tableNumber) {
+myCopticChurchSoGreat(tableNumber) {
     const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
     let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
 
@@ -3044,10 +3902,9 @@ let html = `
 </table>
 
     `;return html;
-}
+},
 
-
-function oBeloved(tableNumber) {
+oBeloved(tableNumber) {
     const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
     let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
 
@@ -3163,9 +4020,9 @@ let html = `
 </table>
 \n`;
     return html;
-}
+},
 
-function oMaryOurMotherTheBelovedOfUsAll(tableNumber) { 
+oMaryOurMotherTheBelovedOfUsAll(tableNumber) { 
     const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
     let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
 
@@ -3188,7 +4045,7 @@ let html = `
             <tr id="table_${tableNumber}_row_3" class="Refrain">
                 <td class="english">O tender Virgin,</td>
                 <td class="enPhonicsSongs">El3adra el7anoona</td>
-                <td class="arabic">العدرا  الحنونة</td>
+                <td class="arabic">العدرا الحنونة</td>
             </tr>
             <tr id="table_${tableNumber}_row_4" class="Refrain">
                 <td class="english">full of help for those who call.</td>
@@ -3205,7 +4062,7 @@ let html = `
             <tr id="table_${tableNumber}_row_6" class="north">
                 <td class="english">a guiding light of virginity. (x2)</td>
                 <td class="enPhonicsSongs">Anti manara lel3azara</td>
-                <td class="arabic">أنت  منارة للعذارى</td>
+                <td class="arabic">أنت منارة للعذارى</td>
             </tr>
             <tr id="table_${tableNumber}_row_7" class="north">
                 <td class="english">You’re the merciful mother,</td>
@@ -3215,7 +4072,7 @@ let html = `
             <tr id="table_${tableNumber}_row_8" class="north">
                 <td class="english">(O Servant of the great Lord) x2</td>
                 <td class="enPhonicsSongs">Ya ‘amat alrab el3azeem</td>
-                <td class="arabic">يا أَمَة  الرب العظيم</td>
+                <td class="arabic">يا أَمَة الرب العظيم</td>
             </tr>
         </tbody>
         <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
@@ -3232,7 +4089,7 @@ let html = `
             <tr id="table_${tableNumber}_row_11" class="refrain">
                 <td class="english">O tender Virgin,</td>
                 <td class="enPhonicsSongs">El3adra el7anoona</td>
-                <td class="arabic">العدرا  الحنونة</td>
+                <td class="arabic">العدرا الحنونة</td>
             </tr>
             <tr id="table_${tableNumber}_row_12" class="refrain">
                 <td class="english">full of help for those who call.</td>
@@ -3249,7 +4106,7 @@ let html = `
             <tr id="table_${tableNumber}_row_14" class="south">
                 <td class="english">who saved us on the cross. (x2)</td>
                 <td class="enPhonicsSongs">Ellee fadana 3ala elsaleeb</td>
-                <td class="arabic">اللي  فدانا على الصليب</td>
+                <td class="arabic">اللي فدانا على الصليب</td>
             </tr>
             <tr id="table_${tableNumber}_row_15" class="south">
                 <td class="english">Intercede on our behalf,</td>
@@ -3259,7 +4116,7 @@ let html = `
             <tr id="table_${tableNumber}_row_16" class="south">
                 <td class="english">(that He may forgive us our sins.) x2</td>
                 <td class="enPhonicsSongs">Neegee we neskob loh eldemoo3</td>
-                <td class="arabic">نيجي ونسكب  له الدموع</td>
+                <td class="arabic">نيجي ونسكب له الدموع</td>
             </tr>
         </tbody>
         <tbody ${tbodyClass} id="table_${tableNumber}_tbody_5">
@@ -3276,7 +4133,7 @@ let html = `
             <tr id="table_${tableNumber}_row_19" class="refrain">
                 <td class="english">O tender Virgin,</td>
                 <td class="enPhonicsSongs">El3adra el7anoona</td>
-                <td class="arabic">العدرا  الحنونة</td>
+                <td class="arabic">العدرا الحنونة</td>
             </tr>
             <tr id="table_${tableNumber}_row_20" class="refrain">
                 <td class="english">full of help for those who call.</td>
@@ -3298,7 +4155,7 @@ let html = `
             <tr id="table_${tableNumber}_row_23" class="north">
                 <td class="english">Intercede on our behalf.</td>
                 <td class="enPhonicsSongs">Tesallee dayman 3anna</td>
-                <td class="arabic">تصلي  دايما  عننا</td>
+                <td class="arabic">تصلي دايما عننا</td>
             </tr>
             <tr id="table_${tableNumber}_row_24" class="north">
                 <td class="english">(Lift our prayers to the Lord.) x2</td>
@@ -3320,7 +4177,7 @@ let html = `
             <tr id="table_${tableNumber}_row_27" class="refrain">
                 <td class="english">O tender Virgin,</td>
                 <td class="enPhonicsSongs">El3adra el7anoona</td>
-                <td class="arabic">العدرا  الحنونة</td>
+                <td class="arabic">العدرا الحنونة</td>
             </tr>
             <tr id="table_${tableNumber}_row_28" class="refrain">
                 <td class="english">full of help for those who call.</td>
@@ -3332,12 +4189,12 @@ let html = `
             <tr id="table_${tableNumber}_row_29" class="south">
                 <td class="english">You performed miracles,</td>
                 <td class="enPhonicsSongs">3amalti almo3gezat</td>
-                <td class="arabic">عملتِ  المعجزات</td>
+                <td class="arabic">عملتِ المعجزات</td>
             </tr>
             <tr id="table_${tableNumber}_row_30" class="south">
                 <td class="english">gave us comfort in distress. (x2)</td>
                 <td class="enPhonicsSongs">3azeteena feldeeqat</td>
-                <td class="arabic">عزيتينا  في الضيقات</td>
+                <td class="arabic">عزيتينا في الضيقات</td>
             </tr>
             <tr id="table_${tableNumber}_row_31" class="south">
                 <td class="english">You brought joy to the broken hearts,</td>
@@ -3347,7 +4204,7 @@ let html = `
             <tr id="table_${tableNumber}_row_32" class="south">
                 <td class="english">(and healed those who suffered.) x2</td>
                 <td class="enPhonicsSongs">Weshafetee almo3azabeen</td>
-                <td class="arabic">وشفيت  المعذبين</td>
+                <td class="arabic">وشفيت المعذبين</td>
             </tr>
         </tbody>
         <tbody ${tbodyClass} id="table_${tableNumber}_tbody_9">
@@ -3364,7 +4221,7 @@ let html = `
             <tr id="table_${tableNumber}_row_35" class="refrain">
                 <td class="english">O tender Virgin,</td>
                 <td class="enPhonicsSongs">El3adra el7anoona</td>
-                <td class="arabic">العدرا  الحنونة</td>
+                <td class="arabic">العدرا الحنونة</td>
             </tr>
             <tr id="table_${tableNumber}_row_36" class="refrain">
                 <td class="english">full of help for those who call.</td>
@@ -3391,7 +4248,7 @@ let html = `
             <tr id="table_${tableNumber}_row_40" class="north">
                 <td class="english">(Intercede for our people.) x2</td>
                 <td class="enPhonicsSongs">Wazkoree sha3bena</td>
-                <td class="arabic">وأذكري شعبنا</td>
+                <td class="arabic">وأذكري شعبنا</td>
             </tr>
         </tbody>
         <tbody ${tbodyClass} id="table_${tableNumber}_tbody_11">
@@ -3408,7 +4265,7 @@ let html = `
             <tr id="table_${tableNumber}_row_43" class="refrain">
                 <td class="english">O tender Virgin,</td>
                 <td class="enPhonicsSongs">El3adra el7anoona</td>
-                <td class="arabic">العدرا  الحنونة</td>
+                <td class="arabic">العدرا الحنونة</td>
             </tr>
             <tr id="table_${tableNumber}_row_44" class="refrain">
                 <td class="english">full of help for those who call.</td>
@@ -3420,9 +4277,9 @@ let html = `
     
     
     `;return html;
-}
+},
 
-function oMaryOurMotherYouAreTheMotherOfOurLord(tableNumber) { 
+oMaryOurMotherYouAreTheMotherOfOurLord(tableNumber) { 
     const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
     let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
 
@@ -3489,9 +4346,9 @@ let html = `
     
     
     `;return html;
-}
+},
 
-function oMotherOfLight(tableNumber) { 
+oMotherOfLight(tableNumber) { 
     const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
     let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
 
@@ -3658,9 +4515,9 @@ let html = `
     
     
     `;return html;
-}
+},
 
-function oMotherOfLightOBeautiful(tableNumber) { 
+oMotherOfLightOBeautiful(tableNumber) { 
     const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
     let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
 
@@ -3763,9 +4620,9 @@ let html = `
     
     
     `;return html;
-}
+},
 
-function oSeekerToMeetJesus(tableNumber) {
+oSeekerToMeetJesus(tableNumber) {
     const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
     let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
 
@@ -3884,9 +4741,9 @@ let html = `
         </table>
 \n`;
     return html;
-}
+},
 
-function ourMotherOVirgin(tableNumber) { 
+ourMotherOVirgin(tableNumber) { 
     const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
     let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
 
@@ -3999,9 +4856,9 @@ let html = `
     
     
     `;return html;
-}
+},
 
-function overTheDomes(tableNumber) { 
+overTheDomes(tableNumber) { 
     const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
     let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
 
@@ -4095,7 +4952,7 @@ let html = `
             <tr id="table_${tableNumber}_row_16" class="south">
                 <td class="english">Healing ailments with intercessions,</td>
                 <td class="enPhonicsSongs">Wa’fa beteshfee mardana</td>
-                <td class="arabic">واقفة  بتشفى مرضانا</td>
+                <td class="arabic">واقفة بتشفى مرضانا</td>
             </tr>
             <tr id="table_${tableNumber}_row_17" class="south">
                 <td class="english">all hearts rejoicing together (x2)</td>
@@ -4134,7 +4991,7 @@ let html = `
             <tr id="table_${tableNumber}_row_23" class="north">
                 <td class="english"></td>
                 <td class="enPhonicsSongs">Ya rab men elshar enqezna</td>
-                <td class="arabic">يا رب من الشر  انقذنا</td>
+                <td class="arabic">يا رب من الشر انقذنا</td>
             </tr>
             <tr id="table_${tableNumber}_row_24" class="north">
                 <td class="english"></td>
@@ -4149,7 +5006,7 @@ let html = `
             <tr id="table_${tableNumber}_row_26" class="north">
                 <td class="english"></td>
                 <td class="enPhonicsSongs">Beshafa3et ‘om mokhalesna</td>
-                <td class="arabic">بشفاعة  أم مخلصنا</td>
+                <td class="arabic">بشفاعة أم مخلصنا</td>
             </tr>
             <tr id="table_${tableNumber}_row_27" class="north">
                 <td class="english"></td>
@@ -4232,9 +5089,153 @@ let html = `
     
     
     `;return html;
-}
+},
 
-function oYouWhoReceivedTheMostHonorableGift(tableNumber) { 
+oThouWhosePresenceDelightethMySoul(tableNumber) {
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
+<table id="table_${tableNumber}" title="O Thou whose presence delighteth my soul">
+    <caption id="caption_table_${tableNumber}" class="caption">
+        O Thou whose presence delighteth my soul
+        <span class="arabic-caption">يا من بحضوره نفسي تطيب</span>
+    </caption>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
+
+            <tr id="table_${tableNumber}_row_0" class="north">
+                <td class="english">O Thou whose presence delighteth my soul</td>
+                <td class="enPhonicsSongs">Ya man bi-hodoorihi nafsi tateeb</td>
+                <td class="arabic">يا من بحضوره نفسي تطيب</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_1" class="north">
+                <td class="english">And whom in my distress I call</td>
+                <td class="enPhonicsSongs">Wa man yawma deeqa ad'ooh</td>
+                <td class="arabic">ومن يوم ضيقى أدعوه</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_2" class="north">
+                <td class="english">My comfort by day and my refuge by night</td>
+                <td class="enPhonicsSongs">Naharan ta'azzi wa fee al-layl raqeeb</td>
+                <td class="arabic">نهارا تعزى في الليل رقيب</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_3" class="north">
+                <td class="english">My stronghold whenever I fall.</td>
+                <td class="enPhonicsSongs">Khalasi min kull al-wujoo</td>
+                <td class="arabic">خلاصي من كل الوجوه</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_1">
+
+            <tr id="table_${tableNumber}_row_4" class="south">
+                <td class="english">Shepherd of my soul I beg Thee to tell</td>
+                <td class="enPhonicsSongs">Fi ayy al-mara'ee arbadt al-ghanam</td>
+                <td class="arabic">في أي المراعي أربضت الغنم</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_5" class="south">
+                <td class="english">Where thou keepest thy sheep to rest</td>
+                <td class="enPhonicsSongs">Ya ra'ee al-nufoos al-muree7</td>
+                <td class="arabic">يا راعي النفوس المريح</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_6" class="south">
+                <td class="english">For why should I roam in the valley of tears</td>
+                <td class="enPhonicsSongs">Lima athim fee wadi al-alam</td>
+                <td class="arabic">لماذا أهيم في وادي الألم</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_7" class="south">
+                <td class="english">And wander as one who is lost.</td>
+                <td class="enPhonicsSongs">Ka-daalin fee kufr fasee7</td>
+                <td class="arabic">كضال في كفر فسيح</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
+
+            <tr id="table_${tableNumber}_row_8" class="north">
+                <td class="english">I ask thee to tell me daughters of Zion</td>
+                <td class="enPhonicsSongs">Limatha atouf ka-anni ghareeb</td>
+                <td class="arabic">لماذا أطوف كأني غريب</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_9" class="north">
+                <td class="english">Have ye seen the One I adore</td>
+                <td class="enPhonicsSongs">Yaltamis aounan min kufr</td>
+                <td class="arabic">يلتمس عوناً من كفر</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_10" class="north">
+                <td class="english">I seek him in vain in the night of my soul</td>
+                <td class="enPhonicsSongs">A'ada'uka shamataw bee ya habeeb</td>
+                <td class="arabic">آعداؤك شمتوا بي يا حبيب</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_11" class="north">
+                <td class="english">But now I can find Him no more.</td>
+                <td class="enPhonicsSongs">Idh ra'aw dumo'ee ka-al-nahr</td>
+                <td class="arabic">إذ رأوا دموعي كالنهر</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
+
+            <tr id="table_${tableNumber}_row_12" class="south">
+                <td class="english">Shepherd of my soul I shall follow Thee</td>
+                <td class="enPhonicsSongs">Habeebi fata mithl arz lubnan</td>
+                <td class="arabic">حبيبي فتى مثل أرز لبنان</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_13" class="south">
+                <td class="english">O how sweet Thy voice is to me</td>
+                <td class="enPhonicsSongs">Saqah aamoodan rukham</td>
+                <td class="arabic">ساقاه عامودا رخام</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_14" class="south">
+                <td class="english">So guide me and lead me and show me the way</td>
+                <td class="enPhonicsSongs">Badee' al-jamaal wa 7ulu al-lisan</td>
+                <td class="arabic">بديع الجمال وحلو اللسان</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_15" class="south">
+                <td class="english">My only desire is Thee.</td>
+                <td class="enPhonicsSongs">Wa yud'aa ra'ees al-salaam</td>
+                <td class="arabic">ويدعى رئيس السلام</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
+
+            <tr id="table_${tableNumber}_row_16" class="north">
+                <td class="english">I am my beloved's and He is mine</td>
+                <td class="enPhonicsSongs">Ra'ee al-azeez nafsi tatba'ak</td>
+                <td class="arabic">راعي العزيز نفسي تتبعك</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_17" class="north">
+                <td class="english">He calleth me sister and bride</td>
+                <td class="enPhonicsSongs">Ma a'dhab sawtak lee</td>
+                <td class="arabic">ما اعذب صوتك لي</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_18" class="north">
+                <td class="english">O how do I long for the day we shall wed</td>
+                <td class="enPhonicsSongs">Darribni arshidni anta al-kull lee</td>
+                <td class="arabic">دربني أرشدني أنت الكل لي</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_19" class="north">
+                <td class="english">In heaven in His Father's house.</td>
+                <td class="enPhonicsSongs">Ya nafsi lahu hallili</td>
+                <td class="arabic">يا نفسي له هللي</td>
+            </tr>
+        </tbody>
+</table>`;
+return html;
+},
+
+oYouWhoReceivedTheMostHonorableGift(tableNumber) { 
     const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
     let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
 
@@ -4345,7 +5346,7 @@ let html = `
             <tr id="table_${tableNumber}_row_19" class="north">
                 <td class="english">But He came O Mary,</td>
                 <td class="enPhonicsSongs">Lawla ano atana ya mariam</td>
-                <td class="arabic">لولا انه اتانا  يا مريم</td>
+                <td class="arabic">لولا انه اتانا يا مريم</td>
             </tr>
             <tr id="table_${tableNumber}_row_20" class="north">
                 <td class="english">your Son the Messiah.</td>
@@ -4599,9 +5600,9 @@ let html = `
     
     
     `;return html;
-    }
+},
 
-function oVirginMary(tableNumber) { 
+oVirginMary(tableNumber) { 
     const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
     let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
 
@@ -4702,9 +5703,9 @@ let html = `
     
     
     `;return html;
-}
+},
 
-function oVirginMyMotherShine(tableNumber) { 
+oVirginMyMotherShine(tableNumber) { 
     const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
     let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
 
@@ -4865,9 +5866,133 @@ let html = `
     
     
     `;return html;
-}
+},
 
-function theGloryOfMary(tableNumber) { 
+shepherdOfMySoul(tableNumber) {
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
+<table id="table_${tableNumber}" title="Shepherd of my soul">
+    <caption id="caption_table_${tableNumber}" class="caption">
+        Shepherd of my soul
+        <span class="arabic-caption"></span>
+    </caption>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
+
+            <tr id="table_${tableNumber}_row_0" class="north">
+                <td class="english">Shepherd of my soul I shall follow Thee,</td>
+
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_1" class="north">
+                <td class="english">Oh, how sweet Thy voice is to me!</td>
+
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_2" class="north">
+                <td class="english">So guide me and lead me and show me the way,</td>
+
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_3" class="north">
+                <td class="english">My only desire is Thee.</td>
+
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_1">
+
+            <tr id="table_${tableNumber}_row_4" class="south">
+                <td class="english">I am my Beloved's and He is mine,</td>
+
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_5" class="south">
+                <td class="english">He calleth me sister and spouse,</td>
+
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_6" class="south">
+                <td class="english">Oh, how do I long for the day we shall wed,</td>
+
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_7" class="south">
+                <td class="english">In heaven in His Father's house.</td>
+
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
+
+            <tr id="table_${tableNumber}_row_8" class="north">
+                <td class="english">Oh Thou Whose presence delighteth my soul,</td>
+
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_9" class="north">
+                <td class="english">And Whom in my distress I call,</td>
+
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_10" class="north">
+                <td class="english">My comfort by day and my refuge by night,</td>
+
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_11" class="north">
+                <td class="english">My stronghold whenever I fall.</td>
+
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
+
+            <tr id="table_${tableNumber}_row_12" class="south">
+                <td class="english">Shepherd of my soul I beg Thee to tell,</td>
+
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_13" class="south">
+                <td class="english">Where Thou keepest Thy sheep to rest,</td>
+
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_14" class="south">
+                <td class="english">For why should I roam in the valley of tears,</td>
+
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_15" class="south">
+                <td class="english">And wander as one who is lost?</td>
+
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
+
+            <tr id="table_${tableNumber}_row_16" class="north">
+                <td class="english">I ask thee to tell me daughters of Zion:</td>
+
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_17" class="north">
+                <td class="english">Have ye seen the One I adore?</td>
+
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_18" class="north">
+                <td class="english">I seek Him in vain in the night of my soul,</td>
+
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_19" class="north">
+                <td class="english">But lo, I can find Him no more.</td>
+
+            </tr>
+        </tbody>
+</table>`;
+return html;
+},
+
+theGloryOfMary(tableNumber) { 
     const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
     let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
 
@@ -5254,9 +6379,273 @@ let html = `
     
     
     `;return html;
-    }
+},
 
-function trulyRisen(tableNumber) { 
+theLordIsMyShepherd(tableNumber) {
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
+<table id="table_${tableNumber}" title="The Lord is my shepherd">
+    <caption id="caption_table_${tableNumber}" class="caption">
+        The Lord is my shepherd
+        <span class="arabic-caption">الرب لى راعى</span>
+    </caption>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
+
+            <tr id="table_${tableNumber}_row_0" class="north">
+                <td class="english">The Lord is my shepherd</td>
+                <td class="enPhonicsSongs">Al-Rabb li ra'ee</td>
+                <td class="arabic">الرب لى راعى</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_1" class="north">
+                <td class="english">So I need nothing else</td>
+                <td class="enPhonicsSongs">Fala yu'wezuni shay'</td>
+                <td class="arabic">فلا يُعوزنى شئ</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_2" class="north">
+                <td class="english">even if I walk in the valley</td>
+                <td class="enPhonicsSongs">Wa in seertu fi al-wadi</td>
+                <td class="arabic">وإن سرتُ فى الوادى</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_3" class="north">
+                <td class="english">or in the shadows of death</td>
+                <td class="enPhonicsSongs">Aw fi dhilal al-mawt</td>
+                <td class="arabic">أو فى ظلال الموت</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_1">
+
+            <tr id="table_${tableNumber}_row_4" class="south">
+                <td class="english">I will never fear anything</td>
+                <td class="enPhonicsSongs">Fala akhaf abadan</td>
+                <td class="arabic">فلا أخاف ابداً</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_5" class="south">
+                <td class="english">with a shepherd next to me</td>
+                <td class="enPhonicsSongs">Madaam li ra'ee</td>
+                <td class="arabic">مدام لى راعى</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_6" class="south">
+                <td class="english">I will never fear anything</td>
+                <td class="enPhonicsSongs">Wa la akhaf abadan</td>
+                <td class="arabic">ولا أخافُ أبداً</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_7" class="south">
+                <td class="english">with Jesus leading me</td>
+                <td class="enPhonicsSongs">Madaamtu ma' Yasouh</td>
+                <td class="arabic">مادمتُ مع يسوع</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
+
+            <tr id="table_${tableNumber}_row_8" class="north">
+                <td class="english">From your spirit fill me with joy</td>
+                <td class="enPhonicsSongs">Min roohika imlani suroor</td>
+                <td class="arabic">من روحك إملأنى سُرور</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_9" class="north">
+                <td class="english">Help me walk with you O my Lord</td>
+                <td class="enPhonicsSongs">Sa'idni kay amshi fi al-noor</td>
+                <td class="arabic">ساعدنى كى أمشى فى النور</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_10" class="north">
+                <td class="english">Protect me from any evil thought</td>
+                <td class="enPhonicsSongs">Ihfadhni min kull al-shuroor</td>
+                <td class="arabic">احفظنى من كل الشرور</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_11" class="north">
+                <td class="english">Heal my soul O my dear Lord!</td>
+                <td class="enPhonicsSongs">Najji nafsi ya Yasouh</td>
+                <td class="arabic">نجِ نفسى يا يسوع</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
+
+            <tr id="table_${tableNumber}_row_12" class="south">
+                <td class="english">I have confidence in Jesus</td>
+                <td class="enPhonicsSongs">Inni wathiq bi-Rabbi</td>
+                <td class="arabic">إنى واثقٌ بربى</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_13" class="south">
+                <td class="english">in bad times He comes to save me</td>
+                <td class="enPhonicsSongs">Wasat deeqi yu'azzini</td>
+                <td class="arabic">وسط ضيقى يعزينى</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_14" class="south">
+                <td class="english">and if someday my soul weakens</td>
+                <td class="enPhonicsSongs">Wa in yawman da'afat nafsi</td>
+                <td class="arabic">وإن يوماً ضعفت نفسى</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_15" class="south">
+                <td class="english">He's always there to protect me!</td>
+                <td class="enPhonicsSongs">Fahuwa da'iman yuqweenee</td>
+                <td class="arabic">فهو دوماً يقوينى</td>
+            </tr>
+        </tbody>
+</table>`;
+return html;
+},
+
+theLordIsMyShepherdIShallBeWellSupplied(tableNumber) {
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
+<table id="table_${tableNumber}" title="The Lord is my shepherd I shall be well supplied">
+    <caption id="caption_table_${tableNumber}" class="caption">
+        The Lord is my shepherd I shall be well supplied
+        <span class="arabic-caption"></span>
+    </caption>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
+
+            <tr id="table_${tableNumber}_row_0" class="north">
+                <td class="english">The Lord is my shepherd</td>
+
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_1" class="north">
+                <td class="english">I shall be well supplied</td>
+
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_2" class="north">
+                <td class="english">Since He is mine and I am His</td>
+
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_3" class="north">
+                <td class="english">What can I want beside (x2)</td>
+
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_1">
+
+            <tr id="table_${tableNumber}_row_4" class="south">
+                <td class="english">He leads me to the place</td>
+
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_5" class="south">
+                <td class="english">Where heavenly pastures grow</td>
+
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_6" class="south">
+                <td class="english">Where living waters gently pass</td>
+
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_7" class="south">
+                <td class="english">And full salvation flows (x2)</td>
+
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
+
+            <tr id="table_${tableNumber}_row_8" class="north">
+                <td class="english">If ever I go astray</td>
+
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_9" class="north">
+                <td class="english">He doth my soul reclaim</td>
+
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_10" class="north">
+                <td class="english">And guides me in His own right way</td>
+
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_11" class="north">
+                <td class="english">For His most Holy Name (x2)</td>
+
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
+
+            <tr id="table_${tableNumber}_row_12" class="south">
+                <td class="english">While he offers His aid</td>
+
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_13" class="south">
+                <td class="english">I cannot yield to fear</td>
+
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_14" class="south">
+                <td class="english">Though I should walk through death’s dark shade</td>
+
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_15" class="south">
+                <td class="english">My Shepherd’s with me here (x2)</td>
+
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
+
+            <tr id="table_${tableNumber}_row_16" class="north">
+                <td class="english">In sight of all my foes</td>
+
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_17" class="north">
+                <td class="english">Though dost a table spread</td>
+
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_18" class="north">
+                <td class="english">My cup with blessing overflows</td>
+
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_19" class="north">
+                <td class="english">And joy exalts my head (x2)</td>
+
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_5">
+
+            <tr id="table_${tableNumber}_row_20" class="south">
+                <td class="english">The bounties of my love</td>
+
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_21" class="south">
+                <td class="english">Shall crown my following days</td>
+
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_22" class="south">
+                <td class="english">Nor from Thy house will I remove</td>
+
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_23" class="south">
+                <td class="english">Nor cease to speak Thy praise (x2)</td>
+
+            </tr>
+        </tbody>
+</table>`;
+return html;
+},
+
+trulyRisen(tableNumber) { 
     const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
     let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
 
@@ -5399,10 +6788,10 @@ let html = `
     
     
     `;return html;
-    }
+}
 
-
-function veryEarlySundayMorning(tableNumber) { 
+,
+veryEarlySundayMorning(tableNumber) { 
     const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
     let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
 
@@ -5631,9 +7020,9 @@ let html = `
     
     
     `;return html;
-}
+},
 
-function watchingUs(tableNumber) { 
+watchingUs(tableNumber) { 
     const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
     let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
 
@@ -5888,9 +7277,9 @@ let html = `
     
     
     `;return html;
-}
+},
 
-function yourLoveOMary(tableNumber) { 
+yourLoveOMary(tableNumber) { 
     const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
     let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
 
@@ -5957,7 +7346,7 @@ let html = `
             <tr id="table_${tableNumber}_row_11" class="south">
                 <td class="english">Show your help, O Mary,</td>
                 <td class="enPhonicsSongs">Ezheri elma3ona</td>
-                <td class="arabic">اظهري المعونة</td>
+                <td class="arabic">اظهري المعونة</td>
             </tr>
             <tr id="table_${tableNumber}_row_12" class="south">
                 <td class="english">to your children.</td>
@@ -6189,37 +7578,197 @@ let html = `
     
     
     `;return html;
-    }
+},
 
+whenIFeelTired(tableNumber) {
+    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+
+let html = `
+<table id="table_${tableNumber}" title="When I feel tired">
+    <caption id="caption_table_${tableNumber}" class="caption">
+        When I feel tired
+        <span class="arabic-caption">لما أكون تعبان</span>
+    </caption>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
+
+            <tr id="table_${tableNumber}_row_0" class="north">
+                <td class="english">When I feel tired</td>
+                <td class="enPhonicsSongs">Lamma akoon ta'baan</td>
+                <td class="arabic">لما أكون تعبان</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_1" class="north">
+                <td class="english">To whom shall I go</td>
+                <td class="enPhonicsSongs">Arooh lemeen ghayrak</td>
+                <td class="arabic">أروح لمين غيرك</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_2" class="north">
+                <td class="english">You comfort me O my Lord</td>
+                <td class="enPhonicsSongs">Anta alli turi7ni ya Yasouh</td>
+                <td class="arabic">أنت اللى تريحنى يا يسوع</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_3" class="north">
+                <td class="english">I kneel and pray to you x2</td>
+                <td class="enPhonicsSongs">Ark' wa usalli lak</td>
+                <td class="arabic">أركع وأصلى لك</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_1">
+
+            <tr id="table_${tableNumber}_row_4" class="south">
+                <td class="english">When I feel sad</td>
+                <td class="enPhonicsSongs">Lamma akoon hazeen</td>
+                <td class="arabic">لما أكون حزين</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_5" class="south">
+                <td class="english">To whom shall I go</td>
+                <td class="enPhonicsSongs">Arooh lemeen ghayrak</td>
+                <td class="arabic">أروح لمين غيرك</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_6" class="south">
+                <td class="english">You give me joy O my Lord</td>
+                <td class="enPhonicsSongs">Anta alli ta'zeeni ya Yasouh</td>
+                <td class="arabic">أنت اللى تعزينى يا يسوع</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_7" class="south">
+                <td class="english">I kneel and pray to you x2</td>
+                <td class="enPhonicsSongs">Ark' wa usalli lak</td>
+                <td class="arabic">أركع وأصلى لك</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
+
+            <tr id="table_${tableNumber}_row_8" class="north">
+                <td class="english">When I feel sick</td>
+                <td class="enPhonicsSongs">Lamma akoon mareed</td>
+                <td class="arabic">لما أكون مريض</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_9" class="north">
+                <td class="english">To whom shall I go</td>
+                <td class="enPhonicsSongs">Arooh lemeen ghayrak</td>
+                <td class="arabic">أروح لمين غيرك</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_10" class="north">
+                <td class="english">You heal me O my Lord</td>
+                <td class="enPhonicsSongs">Anta alli tashfeeni ya Yasouh</td>
+                <td class="arabic">أنت اللى تشفينى يا يسوع</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_11" class="north">
+                <td class="english">I kneel and pray to you x2</td>
+                <td class="enPhonicsSongs">Ark' wa usalli lak</td>
+                <td class="arabic">أركع وأصلى لك</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
+
+            <tr id="table_${tableNumber}_row_12" class="south">
+                <td class="english">When I feel worried</td>
+                <td class="enPhonicsSongs">Lamma akoon hayraan</td>
+                <td class="arabic">لما أكون حيران</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_13" class="south">
+                <td class="english">To whom shall I go</td>
+                <td class="enPhonicsSongs">Arooh lemeen ghayrak</td>
+                <td class="arabic">أروح لمين غيرك</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_14" class="south">
+                <td class="english">You give me peace O my Lord</td>
+                <td class="enPhonicsSongs">Anta alli turshidni ya Yasouh</td>
+                <td class="arabic">أنت اللى ترشدنى يا يسوع</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_15" class="south">
+                <td class="english">I kneel and pray to you x2</td>
+                <td class="enPhonicsSongs">Ark' wa usalli lak</td>
+                <td class="arabic">أركع وأصلى لك</td>
+            </tr>
+        </tbody>
+</table>`;
+return html;
+},
+
+};
+
+// Helper function to clean feast names
+function cleanFunctionName(functionName) {
+    // Convert first letter to lowercase and keep the rest unchanged
+    return functionName
+        .replace(/[\s.,()]+/g, "")  // Remove spaces, punctuation, parentheses
+        .replace(/[-]/g, "")        // Remove any hyphens or special characters
+        .replace(/\s/g, "")         // Remove any remaining whitespace
+        .trim();                    // Trim any leading/trailing spaces
+}
+
+
+// Main function to retrieve the HTML by feast name
+function getSongHtml(functionName, tableNumber) {
+    const cleanedDoxologyName = cleanFunctionName(functionName);
+    const songFunction = songFunctions[cleanedDoxologyName];  // Look up the function dynamically
+    
+    if (songFunction) {
+        return songFunction(tableNumber);  // Call the associated function
+    } else {
+        return `No function found for: ${functionName}`;
+    }
+}
+
+
+const songFunctionNames = [
+    { name: "amenAmenCome", properties: ["comfort"] },
+    { name: "beFaithfulUntoDeath", properties: ["comfort","faith"] },
+    { name: "blessedAreYouOMary", properties: ["stMary"] },
+    { name: "dontLeaveMeAlone", properties: ["comfort"] },
+    { name: "drawAPortraitOfTheVirgin", properties: ["stMary"] },
+    { name: "hailToYouOMotherOfComfort", properties: ["stMary"] },
+    { name: "hailToMary", properties: ["stMary"] },
+    { name: "hearMyCry", properties: ["comfort"] },
+    { name: "howCouldIForget", properties: ["comfort"] },
+    { name: "howLovely", properties: ["comfort"] },
+    { name: "howSweetAreYouOMary", properties: ["stMary"] },
+    { name: "iCanHearMySaviorCalling", properties: ["comfort"] },
+    { name: "iPlaceMySoul", properties: ["comfort"] },
+    { name: "inTheShadeOfYourProtection", properties: ["stMary"] },
+    { name: "intoYourHands", properties: ["comfort"] },
+    { name: "justLikeTheBird", properties: ["comfort"] },
+    { name: "myCopticChurch", properties: ["church","nayrooz"] },
+    { name: "myCopticChurchSoGreat", properties: ["church","nayrooz"] },
+    { name: "oBeloved", properties: ["comfort","cross"] },
+    { name: "oMaryOurMotherTheBelovedOfUsAll", properties: ["stMary"] },
+    { name: "oMaryOurMotherYouAreTheMotherOfOurLord", properties: ["stMary"] },
+    { name: "oMotherOfLight", properties: ["stMary"] },
+    { name: "oMotherOfLightOBeautiful", properties: ["stMary"] },
+    { name: "oSeekerToMeetJesus", properties: ["comfort"] },
+    { name: "oThouWhosePresenceDelightethMySoul", properties: ["comfort"] },
+    { name: "oYouWhoReceivedTheMostHonorableGift", properties: ["stMary"] },
+    { name: "oVirginMary", properties: ["stMary"] },
+    { name: "oVirginMyMotherShine", properties: ["stMary"] },
+    { name: "ourMotherOVirgin", properties: ["stMary"] },
+    { name: "overTheDomes", properties: ["stMary"] },
+    { name: "shepherdOfMySoul", properties: ["comfort"] },
+    { name: "shineBright", properties: ["church","nayrooz"] },
+    { name: "theGloryOfMary", properties: ["stMary"] },
+    { name: "theLordIsMyShepherd", properties: ["comfort"] },
+    { name: "theLordIsMyShepherdIShallBeWellSupplied", properties: ["comfort"] },
+    { name: "trulyRisen", properties: ["resurrection"] },
+    { name: "veryEarlySundayMorning", properties: ["resurrection"] },
+    { name: "watchingUs", properties: ["stMary"] },
+    { name: "yourLoveOMary", properties: ["stMary"] },
+    { name: "whenIFeelTired", properties: ["comfort"] }
+
+];
+    
 export {
-  amenAmenCome,
-  beFaithfulUntoDeath,
-  blessedAreYouOMary,
-  shineBright,
-  dontLeaveMeAlone,
-  drawAPortraitOfTheVirgin,
-  hailToYouOMotherOfComfort,
-  hailToMary,
-  hearMyCry,
-  howSweetAreYouOMary,
-  iCanHearMySaviorCalling,
-  inTheShadeOfYourProtection,
-  myCopticChurch,
-  myCopticChurchSoGreat,
-  oBeloved,
-  oMaryOurMotherTheBelovedOfUsAll,
-  oMaryOurMotherYouAreTheMotherOfOurLord,
-  oMotherOfLight,
-  oMotherOfLightOBeautiful,
-  oSeekerToMeetJesus,
-  ourMotherOVirgin,
-  overTheDomes,
-  oVirginMary,
-  oVirginMyMotherShine,
-  oYouWhoReceivedTheMostHonorableGift,
-  theGloryOfMary,
-  trulyRisen,
-  veryEarlySundayMorning,
-  watchingUs,
-  yourLoveOMary,
+    getSongHtml,
+    songFunctionNames
 };
