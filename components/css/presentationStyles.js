@@ -98,7 +98,7 @@ export const presentationStyles = StyleSheet.create({
   drawerContentScrollView: {
     backgroundColor: "#003060",
     margin: 0,
-    padding: 0,
+    padding:0,
     flex: 1,
   },
   bookDrawerContentScrollView: {
@@ -107,7 +107,7 @@ export const presentationStyles = StyleSheet.create({
     flex: 1,
   },
   drawerContentContainer: {
-    ...(Platform.OS === "ios" && !Platform.isPad && { marginLeft: -40 }),
+    ...(Platform.OS === "ios" && !Platform.isPad && { marginLeft: -20 }),
     paddingTop: 0,
     paddingBottom: 10,
   },

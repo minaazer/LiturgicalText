@@ -645,6 +645,7 @@ const RootNavigation = () => {
         swipeEdgeWidth: screenWidth / 3,
         swipeMinDistance: 10,
         drawerType: "front",
+ 
         overlayColor: "rgba(0,0,0,0.5)", // Semi-transparent overlay
       }}
       drawerContent={(props) => (

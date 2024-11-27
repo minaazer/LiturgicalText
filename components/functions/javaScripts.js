@@ -29,13 +29,24 @@ function convertDigitsToArabic(text) {
   return convertedText;
 }
 
-function convertArabicCaptions() {
-  // Find all elements with class 'arabic-caption' and convert their text content
-  const elements = document.querySelectorAll('.arabic-caption');
-  elements.forEach(element => {
-    element.innerHTML = convertDigitsToArabic(element.innerHTML);
-  });
+async function convertArabicCaptions() {
+    return new Promise((resolve, reject) => {
+        try {
+            // Find all elements with class 'arabic-caption' and convert their text content
+            const elements = document.querySelectorAll('.arabic-caption');
+            elements.forEach(element => {
+                element.innerHTML = convertDigitsToArabic(element.innerHTML);
+            });
+
+            // Resolve the Promise after the operation is complete
+            resolve();
+        } catch (error) {
+            // Reject the Promise if an error occurs
+            reject(error);
+        }
+    });
 }
+
 `;
 
 // Disable Scrolling
@@ -48,60 +59,98 @@ const disableScrolling =
 
 // Table of contents
 const extractTableTitlesAndIds = 
-`function extractTableTitlesAndIds() {
-    try {
-        var tables = document.querySelectorAll('table');
-        var titlesAndIds = [];
-  
-        tables.forEach((table, index) => {
-            const caption = table.querySelector('caption');
-  
-            var title = { english: '', coptic: '', arabic: '', order: [] };  // Initialize English and Coptic as empty strings
-            if (caption) {
-                Array.from(caption.childNodes).forEach(node => {
-                    if (node.nodeType === 3 && node.nodeValue.trim() !== '') {  // Text node for English
-                        title.english += node.nodeValue.trim() + ' ';  // Concatenate English text nodes
-                        if (!title.order.includes('english')) title.order.push('english');  // Only push 'english' once
-                    } else if (node.nodeType === 1 && node.classList.contains('coptic-caption')) {  // Element node for Coptic
-                        title.coptic += node.innerText.trim() + ' ';  // Concatenate Coptic text nodes
-                        if (!title.order.includes('coptic')) title.order.push('coptic');  // Only push 'coptic' once
-                    } else if (node.nodeType === 1 && node.classList.contains('arabic-caption')) {  // Element node for arabic
-                      // Concatenate Coptic text nodes, removing any <br> tags
-                      title.arabic += node.innerHTML.replace(/<br>/g, ' ').trim() + ' ';  
-                      if (!title.order.includes('arabic')) title.order.push('arabic');
-                  }
-                  
-                });
-            }
-  
-            var id = table.getAttribute('id') || 'generated-id-' + index;
-            table.id = id; // Ensure every table has an ID
-            //check if title is not empty
-            if (title.english.trim() !== '' || title.coptic.trim() !== '' || title.arabic.trim() !== '') {
-              titlesAndIds.push({ title, id });            
-            }  // Only push if there is a title
-        });
-  
-        sendMessage(JSON.stringify({ type: 'TABLES_INFO', data: titlesAndIds }));
-    } catch (error) {
-        sendMessage(JSON.stringify({ type: 'error', message: error.message }));
-    }
-  }`;
+`async function extractTableTitlesAndIds() {
+    return new Promise((resolve, reject) => {
+        try {
+            const tables = document.querySelectorAll('table');
+            const titlesAndIds = [];
+
+            tables.forEach((table, index) => {
+                const caption = table.querySelector('caption');
+
+                const title = { english: '', coptic: '', arabic: '', order: [] }; // Initialize English, Coptic, and Arabic as empty strings
+                if (caption) {
+                    Array.from(caption.childNodes).forEach((node) => {
+                        if (node.nodeType === 3 && node.nodeValue.trim() !== '') {
+                            // Text node for English
+                            title.english += node.nodeValue.trim() + ' '; // Concatenate English text nodes
+                            if (!title.order.includes('english')) title.order.push('english'); // Only push 'english' once
+                        } else if (node.nodeType === 1 && node.classList.contains('coptic-caption')) {
+                            // Element node for Coptic
+                            title.coptic += node.innerText.trim() + ' '; // Concatenate Coptic text nodes
+                            if (!title.order.includes('coptic')) title.order.push('coptic'); // Only push 'coptic' once
+                        } else if (node.nodeType === 1 && node.classList.contains('arabic-caption')) {
+                            // Element node for Arabic
+                            title.arabic += node.innerHTML.replace(/<br>/g, ' ').trim() + ' '; // Concatenate Arabic text nodes
+                            if (!title.order.includes('arabic')) title.order.push('arabic');
+                        }
+                    });
+                }
+
+                const id = table.getAttribute('id') || 'generated-id-' + index;
+                table.id = id; // Ensure every table has an ID
+
+                // Only push if there is a title
+                if (
+                    title.english.trim() !== '' ||
+                    title.coptic.trim() !== '' ||
+                    title.arabic.trim() !== ''
+                ) {
+                    titlesAndIds.push({ title, id });
+                }
+            });
+
+            // Send the data and resolve the Promise
+            sendMessage(JSON.stringify({ type: 'TABLES_INFO', data: titlesAndIds }));
+            resolve(titlesAndIds);
+        } catch (error) {
+            // Handle errors by rejecting the Promise
+            sendMessage(JSON.stringify({ type: 'error', message: error.message }));
+            reject(error);
+        }
+    });
+}
+`;
 
 // Send message to React Native
   const sendMessage =
-`let messageQueue = [];
-let isSendingMessage = false;
-
-  function sendMessage(message) {
-    if (isSendingMessage) {
-      messageQueue.push(message);
-
+`
+function debugMessage(log, retryCount = 5) {
+    if (window.ReactNativeWebView && window.ReactNativeWebView.postMessage) {
+        window.ReactNativeWebView.postMessage(
+            JSON.stringify({ type: 'DEBUG', data: log })
+        );
+    } else if (retryCount > 0) {
+        setTimeout(() => {
+            debugMessage(log, retryCount - 1);
+        }, 100); // Retry after 100ms
     } else {
-      isSendingMessage = true;
-      window.ReactNativeWebView.postMessage(message);
+        console.error("ReactNativeWebView.postMessage is not available.");
     }
 }
+
+
+
+let messageQueue = [];
+let isSendingMessage = false;
+
+function sendMessage(message, retryCount = 5) {
+    if (window.ReactNativeWebView && window.ReactNativeWebView.postMessage) {
+        if (isSendingMessage) {
+            messageQueue.push(message);
+        } else {
+            isSendingMessage = true;
+            window.ReactNativeWebView.postMessage(message);
+        }
+    } else if (retryCount > 0) {
+        setTimeout(() => {
+            sendMessage(message, retryCount - 1);
+        }, 100); // Retry after 100ms
+    } else {
+        console.error("ReactNativeWebView.postMessage is not available.");
+    }
+}
+
   
   // This function is called when an acknowledgment is received
   function onMessageAcknowledged() {
@@ -131,18 +180,23 @@ let isSendingMessage = false;
 // Pagination
 const paginateTables =
 `function paginateTables() {
+    return new Promise((resolve, reject) => {
+        try {
+
+  sendMessage(JSON.stringify({ type: 'debug', data: "pages" }));
+
   const viewportHeight = window.innerHeight - 2;
   let pages = [];
   let tableNumbers = [];
   let currentPage = [];
   let currentPageHeight = 0;
   let sectionsDisplayed = [];
+
   let pagesPerRow = [];
   pagesPerRow.push(1);
   let tableId = "table_0";
 
   // Query all sections in the document
-  //sendMessage(JSON.stringify({type: 'debug', data: 'in paginateTables'}));
   document.querySelectorAll(".section").forEach((section) => {
     const sectionId = section.getAttribute("id");
     // check if the section height is greater than the viewport height
@@ -683,9 +737,19 @@ const paginateTables =
     }
   });
 
-  //sendMessage(JSON.stringify({ type: 'debug', data: pages }));
   sendMessage(JSON.stringify({ type: 'PAGINATION_DATA', data: yOffsetPages }));
-  adjustOverlay(yOffsetPages[0].firstVisibleElementId);
+// Adjust overlay with the first visible element
+            if (yOffsetPages.length > 0) {
+                adjustOverlay(yOffsetPages[0].firstVisibleElementId);
+            }
+
+            // Resolve the promise once everything is done
+            resolve(yOffsetPages);
+        } catch (error) {
+            // Reject the promise in case of an error
+            reject(error);
+        }
+    });
 
 } `
 
@@ -1077,8 +1141,10 @@ window.removeBlackScreen = function() {
 };`
 
 
-const tableToggle = `
+const tableToggle =
+ `
 function listenToTableCaptions() {
+  sendMessage(JSON.stringify({ type: 'debug', data: 'listenToTableCaptions' }));
     const tableCaptions = document.querySelectorAll('.caption');
 
     tableCaptions.forEach(caption => {
@@ -1140,22 +1206,34 @@ function listenToTableCaptions() {
 
 `;
 
-const loadStoredSettings = `function loadStoredSettings() {
-      const tableCaptions = document.querySelectorAll('.caption');
-    // Apply the saved state on page load
-    Object.entries(currentFileStates).forEach(([tableId, isVisible]) => {
-        const table = document.getElementById(tableId);
-        if (table) {
-            const tableBodies = table.getElementsByTagName('tbody');
-            Array.from(tableBodies).forEach(tbody => {
-                tbody.style.display = isVisible ? 'table-row-group' : 'none';
-                const caption = document.getElementById('caption_' + tableId);
-                caption?.classList.toggle('table-invisible', !isVisible);
+const loadStoredSettings = `
+async function loadStoredSettings() {
+    return new Promise((resolve, reject) => {
+        try {
+            const tableCaptions = document.querySelectorAll('.caption');
+
+            // Apply the saved state on page load
+            Object.entries(currentFileStates).forEach(([tableId, isVisible]) => {
+                const table = document.getElementById(tableId);
+                if (table) {
+                    const tableBodies = table.getElementsByTagName('tbody');
+                    Array.from(tableBodies).forEach(tbody => {
+                        tbody.style.display = isVisible ? 'table-row-group' : 'none';
+                        const caption = document.getElementById('caption_' + tableId);
+                        caption?.classList.toggle('table-invisible', !isVisible);
+                    });
+                }
             });
+
+            // Resolve the promise after the operation is complete
+            resolve();
+        } catch (error) {
+            // Reject the promise if an error occurs
+            reject(error);
         }
     });
-
-}`;
+}
+`;
 
 const listenToButtonClicks = `
 function listenToButtonClicks() {

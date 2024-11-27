@@ -8,7 +8,7 @@ import React, { useRef, useState } from "react";
 import RightMenuDrawer from "../../navigation/BookDrawer";
 import { stMarySongs } from "../../../data/songs/stMarySongs";
 import { useDynamicStyles } from "../../css/cssStyles";
-import { htmlRenderScript } from "../../functions/jsScriptsGlorification";
+import { htmlRenderScript } from "../../functions/jsScripts";
 import {
   getHtml,
   handleDrawerItemPress,

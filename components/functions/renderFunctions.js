@@ -9,127 +9,145 @@ export const handleMessage = (
   setCurrentTable,
   webviewRef,
   navigation,
-  localStorage
+  localStorage,
+  setLoading
 ) => {
   try {
     const message = JSON.parse(event.nativeEvent.data);
+
+    if (message.type === 'READY') {
+      console.log('WebView is ready.');
+    }
+    // Acknowledge message receipt
     webviewRef.current.injectJavaScript(
-      `window.postMessage(JSON.stringify({ type: 'ACKNOWLEDGED' }));`
+      `window.postMessage(JSON.stringify({ type: 'ACKNOWLEDGED', originalType: '${message.type}' }));`
     );
 
-    if (message.type === "TABLES_INFO") {
-      setDrawerItems(message.data);
-    } else if (message.type === "PAGINATION_DATA") {
-      setPageOffsets(message.data);
-    } else if (message.type === "NAVIGATION") {
-      navigation.navigate(message.data);
-    } else if (message.type === "TABLE_NAVIGATION") {
-      const tableYOffset = message.data;
-      // Find the y-offset that is less than or equal to the tableYOffset
-      const pageIndex = pageOffsets.reduce((highestIndex, offset, index) => {
-        // Check if current offset is less than or equal to tableYOffset
-        if (offset.yOffset <= tableYOffset + 3) {
-          // If highestIndex is -1 or the current offset is greater than the one at highestIndex, update highestIndex
-          if (
-            highestIndex === -1 ||
-            offset.yOffset > pageOffsets[highestIndex].yOffset
-          ) {
-            return index;
+    // Helper functions for common tasks
+    const injectScript = (script) => {
+      webviewRef.current.injectJavaScript(script);
+    };
+
+    const scrollToYOffset = (yOffset, nextVisibleElementId) => {
+      injectScript(`clearOverlays();`);
+      injectScript(`adjustOverlay('${nextVisibleElementId}');`);
+      injectScript(`window.scrollTo(0, ${yOffset});`);
+    };
+
+    const showOverlay = () => {
+      injectScript(`
+        (function() {
+          const existingOverlay = document.getElementById('blackScreenOverlay');
+          if (!existingOverlay) {
+              const overlay = document.createElement('div');
+              overlay.id = 'blackScreenOverlay';
+              overlay.style.position = 'fixed';
+              overlay.style.top = 0;
+              overlay.style.left = 0;
+              overlay.style.width = '100%';
+              overlay.style.height = '100%';
+              overlay.style.backgroundColor = 'black';
+              overlay.style.zIndex = 9999;
+              document.body.appendChild(overlay);
           }
-        }
-        return highestIndex;
-      }, -1);
-
-      setCurrentPage(pageIndex);
-      setCurrentTable(pageOffsets[pageIndex].tableId);
-
-      const yOffset = pageOffsets[pageIndex].yOffset;
-      const nextVisibleElementId = pageOffsets[pageIndex].firstVisibleElementId;
-      webviewRef.current.injectJavaScript(
-        `adjustOverlay('${nextVisibleElementId}');`
-      );
-
-      // Inject JavaScript to display a black screen overlay
-      webviewRef.current.injectJavaScript(`
-          (function() {
-              const existingOverlay = document.getElementById('blackScreenOverlay');
-              if (!existingOverlay) {
-                  const overlay = document.createElement('div');
-                  overlay.id = 'blackScreenOverlay';
-                  overlay.style.position = 'fixed';
-                  overlay.style.top = 0;
-                  overlay.style.left = 0;
-                  overlay.style.width = '100%';
-                  overlay.style.height = '100%';
-                  overlay.style.backgroundColor = 'black';
-                  overlay.style.zIndex = 9999;
-                  document.body.appendChild(overlay);
-              }
-          })();
+        })();
       `);
+    };
 
-      // Add a delay before executing the scroll and overlay removal
-      setTimeout(() => {
-        // Scroll to the new position
-        webviewRef.current.injectJavaScript(`clearOverlays();`);
-        webviewRef.current.injectJavaScript(
-          `adjustOverlay('${nextVisibleElementId}');`
+    const removeOverlay = () => {
+      injectScript(`
+        (function() {
+          const overlay = document.getElementById('blackScreenOverlay');
+          if (overlay) {
+              overlay.remove();
+          }
+        })();
+      `);
+    };
+
+    // Message handlers
+    const handlers = {
+      TABLES_INFO: () => setDrawerItems(message.data),
+      PAGINATION_DATA: () => setPageOffsets(message.data),
+      LOADING: () => {
+        console.log("loading:", message.data);
+        setLoading(message.data);
+      },
+      NAVIGATION: () => navigation.navigate(message.data),
+      TABLE_NAVIGATION: () => {
+        const tableYOffset = message.data;
+
+        // Find the closest yOffset index
+        const pageIndex = pageOffsets.reduce((highestIndex, offset, index) => {
+          if (offset.yOffset <= tableYOffset + 3) {
+            if (
+              highestIndex === -1 ||
+              offset.yOffset > pageOffsets[highestIndex].yOffset
+            ) {
+              return index;
+            }
+          }
+          return highestIndex;
+        }, -1);
+
+        if (pageIndex === -1) {
+          console.warn("No valid pageIndex found for TABLE_NAVIGATION.");
+          return;
+        }
+
+        setCurrentPage(pageIndex);
+        setCurrentTable(pageOffsets[pageIndex].tableId);
+
+        const yOffset = pageOffsets[pageIndex].yOffset;
+        const nextVisibleElementId = pageOffsets[pageIndex].firstVisibleElementId;
+
+        // Show overlay and scroll
+        showOverlay();
+        setTimeout(() => {
+          scrollToYOffset(yOffset, nextVisibleElementId);
+          removeOverlay();
+        }, 25);
+      },
+      CURRENT_PAGE_YOFFSET: () => {
+        const yOffset = message.data;
+        const pageIndex = pageOffsets.findIndex(
+          (offset) => offset.yOffset >= yOffset
         );
-        webviewRef.current.injectJavaScript(`window.scrollTo(0, ${yOffset});`);
 
-        // Inject JavaScript to remove the black screen overlay after the scroll
-        webviewRef.current.injectJavaScript(`
-              (function() {
-                  const overlay = document.getElementById('blackScreenOverlay');
-                  if (overlay) {
-                      overlay.remove();
-                  }
-              })();
-          `);
-      }, 25); // Delay the scroll and removal of the overlay by 500 milliseconds
-    }
-    //set current page after right menu navigation
-    else if (message.type === "CURRENT_PAGE_YOFFSET") {
-      const yOffset = message.data;
-      const pageIndex = pageOffsets.findIndex(
-        (offset) => offset.yOffset >= yOffset
-      );
-      var currentPage = pageIndex;
-      if (pageOffsets[pageIndex].yOffset === yOffset) {
+        if (pageIndex === -1) {
+          console.warn("No valid pageIndex found for CURRENT_PAGE_YOFFSET.");
+          return;
+        }
+
         setCurrentPage(pageIndex);
         setCurrentTable(pageOffsets[pageIndex].tableId);
-      } else if (pageOffsets[pageIndex].yOffset > yOffset) {
-        setCurrentPage(pageIndex);
-        setCurrentTable(pageOffsets[pageIndex].tableId);
-      } else {
-        setCurrentPage(pageIndex + 1);
-        currentPage = pageIndex + 1;
-        setCurrentTable(pageOffsets[pageIndex].tableId);
-      }
-      const nextVisibleElementId =
-        pageOffsets[currentPage].firstVisibleElementId;
-      webviewRef.current.injectJavaScript(
-        `adjustOverlay('${nextVisibleElementId}');`
-      );
-    } else if (message.type === "TABLE_TOGGLE") {
-      handleDrawerItemPress(message.data, webviewRef);
-    } else if (message.type === "setStoredItem") {
-      try {
-        localStorage.setItem(message.data.key, message.data.value);
-      } catch (error) {
-        console.error("Error setting item:", error);
-      }
 
-      
+        const nextVisibleElementId = pageOffsets[pageIndex].firstVisibleElementId;
+        injectScript(`adjustOverlay('${nextVisibleElementId}');`);
+      },
+      TABLE_TOGGLE: () => {
+        handleDrawerItemPress(message.data, webviewRef);
+      },
+      setStoredItem: () => {
+        try {
+          localStorage.setItem(message.data.key, message.data.value);
+        } catch (error) {
+          console.error("Error setting item:", error);
+        }
+      },
+    };
+
+    // Execute the appropriate handler
+    if (handlers[message.type]) {
+      handlers[message.type]();
     } else {
-      console.log("message:", message.type, message.data);
+      console.log("Unhandled message:", message.type, message.data);
     }
-
-    // After processing, send an acknowledgment back to WebView
   } catch (error) {
-    console.error("Failed to parse message from WebView:", error);
+    console.error("Failed to parse message from WebView:", error, event.nativeEvent.data);
   }
 };
+
 
 // handleNext
 export const handleNext = (
@@ -226,6 +244,7 @@ export const getHtml = (dynamicStyles, body, script) => {
     ${dynamicStyles}
     </style>
     <script type="text/javascript">
+
     ${script}
     </script>
     </head>

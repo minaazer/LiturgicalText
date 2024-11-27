@@ -1,8 +1,10 @@
-    import { arabicNumbers , extractTableTitlesAndIds , paginateTables , sendMessage , adjustOverlay , setOverlays , clearOverlays , showBlackScreen , removeBlackScreen , tableToggle , listenToButtonClicks , handleSpinner } from "./javaScripts";
+    import { arabicNumbers , extractTableTitlesAndIds , paginateTables , sendMessage , adjustOverlay , setOverlays , clearOverlays , showBlackScreen , removeBlackScreen , tableToggle , listenToButtonClicks , handleSpinner , loadStoredSettings , bookNavigationButtons} from "./javaScripts";
 
 export const htmlRenderScript = `
 
 window.onload = function() {
+  sendMessage(JSON.stringify({type: 'debug', data: 'Loading...'}));
+
     injectSpinner();
     showSpinner();
     // change the spinner overlay color to black
@@ -14,9 +16,15 @@ window.onload = function() {
         paginateTables();
         hideSpinner(); // Hide spinner after processing
     }, 25); // Adjust the delay as needed
+    
+    const fileKey = '';
+    const currentFileStates = {};
+    const savedStates = {};
+
+    loadStoredSettings();
 
     listenToButtonClicks();
-    listenToTableCaptions();
+    listenToBookNavigationButtons();
 }
 
 // Arabic caption numbers
@@ -43,8 +51,12 @@ ${removeBlackScreen}
 // Handle Buttons
 ${tableToggle}
 ${listenToButtonClicks}
+${bookNavigationButtons}
 
 // Handle Spinner
 ${handleSpinner}
+
+// Load stored settings
+${loadStoredSettings}
 `
 

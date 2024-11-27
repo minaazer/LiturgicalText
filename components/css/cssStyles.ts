@@ -154,6 +154,7 @@ break-before: auto;
     font-weight: bold;
     position: relative; /* Necessary for absolute positioning of the icon */
     cursor: pointer;
+    pointer-events: auto;
 }
 
 .caption.table-invisible {

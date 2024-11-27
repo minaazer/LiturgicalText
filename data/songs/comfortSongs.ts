@@ -10,10 +10,11 @@ export const comfortSongs = () => {
     .map((songName, index) => getSongHtml(songName, index))
     .join('');
 
-
 return `
+<body>
 <div class="section" id="section_1">
 ${songsHtml}
 </div>
+</body>
 `;
 };

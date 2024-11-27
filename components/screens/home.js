@@ -1,7 +1,7 @@
 // screens/Home.js
 
 import React, { useContext } from 'react';
-import { ImageBackground, View, Text, StyleSheet, TouchableOpacity, Image , Dimensions } from 'react-native';
+import { ImageBackground, View, Text, StyleSheet, TouchableOpacity, Platform, Image , Dimensions } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import backgroundImage from '../../assets/background.png';
 import glorificationImage from '../../assets/glorification.png';

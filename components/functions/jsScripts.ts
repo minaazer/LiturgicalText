@@ -2,27 +2,50 @@ import { arabicNumbers , extractTableTitlesAndIds , paginateTables , sendMessage
 
 export const htmlRenderScript = `
 
-window.onload = function() {
-    injectSpinner();
-    showSpinner();
-    // change body display to visible
-    setTimeout(() => {
-        convertArabicCaptions();
-        extractTableTitlesAndIds();
-        paginateTables();
-        hideSpinner(); // Hide spinner after processing
+window.onload = function () {
+    (async function main() {
+        debugMessage('Setup started...');
 
-    }, 0); // Adjust the delay as needed
-    
-    const fileKey = '';
-    const currentFileStates = {};
-    const savedStates = {};
+        let fileKey = '';
+        let currentFileStates = {};
+        let savedStates = {};
 
-    loadStoredSettings();
 
-    listenToButtonClicks();
-    listenToBookNavigationButtons();
-}
+        // Inject spinner and show loading indicator
+        injectSpinner();
+        showSpinner();
+
+        // Custom ready flag to track initialization
+        let isInitialized = false;
+        try {
+            // Perform operations in sequence
+            await convertArabicCaptions();
+            await loadStoredSettings();
+            await extractTableTitlesAndIds();
+            await paginateTables();
+
+            // Mark as initialized
+            isInitialized = true;
+
+            debugMessage('Setup completed successfully.');
+        } catch (error) {
+            debugMessage('Error during setup:'+ error);
+        } finally {
+            hideSpinner(); // Ensure spinner is hidden even if there's an error
+        }
+
+        // Wait for initialization before enabling interactions
+        if (isInitialized) {
+            sendMessage(JSON.stringify({ type: 'LOADING', data: false }));
+
+            listenToButtonClicks();
+            listenToBookNavigationButtons();
+
+
+        }
+    })();
+};
+
 
 // Arabic caption numbers
 ${arabicNumbers}

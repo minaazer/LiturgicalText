@@ -3,7 +3,7 @@ import React, { useRef, useState } from 'react';
 import RightMenuDrawer from '../navigation/BookDrawer';
 import { glorification } from '../../data/glorification';
 import { useDynamicStyles } from '../css/cssStyles';
-import { htmlRenderScript } from '../functions/jsScriptsGlorification';
+import { htmlRenderScript } from '../functions/jsScripts';
 import { getHtml , handleDrawerItemPress } from '../functions/renderFunctions'
 
 

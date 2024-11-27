@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { View, ActivityIndicator, Dimensions } from 'react-native';
+import { View, ActivityIndicator, Dimensions, Platform } from 'react-native';
 import { presentationStyles } from '../css/presentationStyles';
 import { WebView } from 'react-native-webview';
 import { handleMessage, handleNext, handlePrevious, handleDrawerItemPress } from './renderFunctions'; // Assuming this is imported
@@ -16,7 +16,6 @@ export const MainContent = ({ html, webviewRef, setDrawerItems, setCurrentTable,
     const [loading, setLoading] = useState(true); // Add loading state
     const [hasLeftScreen, setHasLeftScreen] = useState(false); // Track if the user has left the screen
     const [savedStates, setSavedStates] = useState({}); // Use state to store loaded states
-
 
     const screenWidth = Dimensions.get('window').width;
     let initialTouchX = null;
@@ -45,6 +44,7 @@ export const MainContent = ({ html, webviewRef, setDrawerItems, setCurrentTable,
                 handleDrawerItemPress(currentTable, webviewRef); 
                 setHasLeftScreen(false); // Reset the flag
             }
+
         } else {
             // When the screen is unfocused, mark that the user has left the screen
             setHasLeftScreen(true);
@@ -65,14 +65,14 @@ export const MainContent = ({ html, webviewRef, setDrawerItems, setCurrentTable,
     }, []);
 
     const currentFileStates = savedStates[fileKey] || {};
-
     const injectedJavaScript = `
+
         fileKey = '${fileKey}';
         currentFileStates = ${JSON.stringify(currentFileStates)};
         savedStates = ${JSON.stringify(savedStates)};
+
         listenToTableCaptions(); // Initialize table logic
     `;
-    
 
 
 
@@ -83,6 +83,7 @@ export const MainContent = ({ html, webviewRef, setDrawerItems, setCurrentTable,
             activeOpacity={1}
             onTouchStart={(event) => (initialTouchX = event.nativeEvent.pageX)}
             onTouchEnd={handleTouchEnd}
+
         >
             {loading && (
                 <View style={presentationStyles.loadingContainer}>
@@ -97,7 +98,6 @@ export const MainContent = ({ html, webviewRef, setDrawerItems, setCurrentTable,
                 javaScriptEnabled={true}
                 domStorageEnabled={true}
                 startInLoadingState={false} // Disable default WebView loader
-                onLoadEnd={() => setLoading(false)} // Stop loading spinner when page has loaded
                 injectedJavaScript={injectedJavaScript} // Inject JavaScript
                 onMessage={(event) =>
                     handleMessage(
@@ -109,13 +109,13 @@ export const MainContent = ({ html, webviewRef, setDrawerItems, setCurrentTable,
                         setCurrentTable,
                         webviewRef,
                         navigation,
-                        localStorage
+                        localStorage,
+                        setLoading
                     )
                 }
                 style={presentationStyles.webview}
-                userSelect="none"
-                pointerEvents="auto"
-            />
+
+                />
         </View>
     );
 };
