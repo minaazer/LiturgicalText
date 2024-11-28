@@ -70,7 +70,6 @@ export const handleMessage = (
       TABLES_INFO: () => setDrawerItems(message.data),
       PAGINATION_DATA: () => setPageOffsets(message.data),
       LOADING: () => {
-        console.log("loading:", message.data);
         setLoading(message.data);
       },
       NAVIGATION: () => navigation.navigate(message.data),

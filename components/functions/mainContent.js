@@ -16,6 +16,7 @@ export const MainContent = ({ html, webviewRef, setDrawerItems, setCurrentTable,
     const [loading, setLoading] = useState(true); // Add loading state
     const [hasLeftScreen, setHasLeftScreen] = useState(false); // Track if the user has left the screen
     const [savedStates, setSavedStates] = useState({}); // Use state to store loaded states
+    const [reload, setReload] = useState(1); // Use state to force reload
 
     const screenWidth = Dimensions.get('window').width;
     let initialTouchX = null;
@@ -23,8 +24,7 @@ export const MainContent = ({ html, webviewRef, setDrawerItems, setCurrentTable,
     const isFocused = useIsFocused();
     const wasPreviouslyFocused = useRef(false); // Keep track of previous focus state
 
-    const handleTouchEnd = (event) => {
-        const touchX = event.nativeEvent.pageX;
+    const handleTouchEnd = (touchX) => {
         const difference = Math.abs(touchX - initialTouchX);
 
         if (difference < 30) { // Adjust this threshold as necessary
@@ -71,35 +71,46 @@ export const MainContent = ({ html, webviewRef, setDrawerItems, setCurrentTable,
         currentFileStates = ${JSON.stringify(currentFileStates)};
         savedStates = ${JSON.stringify(savedStates)};
 
+        initialize();
+        
         listenToTableCaptions(); // Initialize table logic
     `;
 
 
-
+    useEffect(() => {
+        if (reload < 3) {
+            setReload(reload + 1);
+            
+        }
+    }
+    , [reload, currentFileStates]);
     
     return (
-        <View
-            style={presentationStyles.container}
-            activeOpacity={1}
-            onTouchStart={(event) => (initialTouchX = event.nativeEvent.pageX)}
-            onTouchEnd={handleTouchEnd}
-
-        >
-            {loading && (
-                <View style={presentationStyles.loadingContainer}>
-                    <ActivityIndicator size="large" color="#003060" />
-                </View>
-            )}
-
-            <WebView
-                ref={webviewRef}
-                source={{ html: html }}
-                originWhitelist={['*']}
-                javaScriptEnabled={true}
-                domStorageEnabled={true}
-                startInLoadingState={false} // Disable default WebView loader
-                injectedJavaScript={injectedJavaScript} // Inject JavaScript
-                onMessage={(event) =>
+        <View style={{flex:1}}>
+        {loading && (
+            <ActivityIndicator
+                size="large"
+                color="#003060"
+                style={presentationStyles.loadingContainer}
+                zIndex={1}
+            />
+        )}
+        <WebView
+            ref={webviewRef}
+            key={reload}
+            source={{ html }}
+            originWhitelist={['*']}
+            javaScriptEnabled={true}
+            domStorageEnabled={true}
+            startInLoadingState={false}
+            injectedJavaScript={injectedJavaScript}
+            onMessage={(event) => {
+                const message = JSON.parse(event.nativeEvent.data);
+                if (message.type === 'TOUCH_START') {
+                    initialTouchX = message.data;
+                } else if (message.type === 'TOUCH_END') {
+                    handleTouchEnd(message.data);
+                } else {
                     handleMessage(
                         event,
                         setDrawerItems,
@@ -111,11 +122,14 @@ export const MainContent = ({ html, webviewRef, setDrawerItems, setCurrentTable,
                         navigation,
                         localStorage,
                         setLoading
-                    )
+                    );
                 }
-                style={presentationStyles.webview}
-
-                />
+            }}
+            style={presentationStyles.webview}
+        >
+            
+        </WebView>
         </View>
+
     );
 };

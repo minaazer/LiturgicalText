@@ -1,3 +1,72 @@
+// Initialize
+const initialize =`
+async function initialize() {
+    // Inject spinner and show loading indicator
+        injectSpinner();
+        showSpinner();
+
+        // Custom ready flag to track initialization
+        let isInitialized = false;
+        try {
+            // Perform operations in sequence
+            await convertArabicCaptions();
+            await loadStoredSettings(currentFileStates);
+            await extractTableTitlesAndIds();
+            await paginateTables();
+
+
+        } catch (error) {
+            debugMessage('Error during setup:'+ error);
+        } finally {
+            // Mark as initialized
+            isInitialized = true;
+
+            hideSpinner(); // Ensure spinner is hidden even if there's an error
+        }
+
+        // Wait for initialization before enabling interactions
+        if (isInitialized) {
+            sendMessage(JSON.stringify({ type: 'LOADING', data: false }));
+
+            listenToButtonClicks();
+            listenToBookNavigationButtons();
+
+
+        }
+}`;
+
+// touchNavigation
+const handleTouchNavigation = `
+function handleTouchNavigation(event) {
+    // Safely handle touchstart event
+    document.addEventListener('touchstart', function (event) {
+        if (event.touches.length > 0) {
+            const pageX = event.touches[0].pageX;
+            // Post message to React Native
+            if (window.ReactNativeWebView && window.ReactNativeWebView.postMessage) {
+                window.ReactNativeWebView.postMessage(JSON.stringify({ type: 'TOUCH_START', data: pageX }));
+            } else {
+                debugMessage('ReactNativeWebView is not available');
+            }
+        }
+    });
+
+    // Safely handle touchend event
+    document.addEventListener('touchend', function (event) {
+        if (event.changedTouches.length > 0) {
+            const pageX = event.changedTouches[0].pageX;
+
+            // Post message to React Native
+            if (window.ReactNativeWebView && window.ReactNativeWebView.postMessage) {
+                window.ReactNativeWebView.postMessage(JSON.stringify({ type: 'TOUCH_END', data: pageX }));
+            } else {
+                debugMessage('ReactNativeWebView is not available');
+            }
+        }
+    });
+}`;
+
+
 // Arabic numbers
 const arabicNumbers =
 `    // Function to replace English digits with Arabic
@@ -182,8 +251,6 @@ const paginateTables =
 `function paginateTables() {
     return new Promise((resolve, reject) => {
         try {
-
-  sendMessage(JSON.stringify({ type: 'debug', data: "pages" }));
 
   const viewportHeight = window.innerHeight - 2;
   let pages = [];
@@ -1144,7 +1211,6 @@ window.removeBlackScreen = function() {
 const tableToggle =
  `
 function listenToTableCaptions() {
-  sendMessage(JSON.stringify({ type: 'debug', data: 'listenToTableCaptions' }));
     const tableCaptions = document.querySelectorAll('.caption');
 
     tableCaptions.forEach(caption => {
@@ -1207,7 +1273,7 @@ function listenToTableCaptions() {
 `;
 
 const loadStoredSettings = `
-async function loadStoredSettings() {
+async function loadStoredSettings(currentFileStates) {
     return new Promise((resolve, reject) => {
         try {
             const tableCaptions = document.querySelectorAll('.caption');
@@ -1229,6 +1295,7 @@ async function loadStoredSettings() {
             resolve();
         } catch (error) {
             // Reject the promise if an error occurs
+            debugMessage('Error loading stored settings: ' + error);
             reject(error);
         }
     });
@@ -1334,4 +1401,8 @@ function hideSpinner() {
 }
 `;
 
-export { arabicNumbers , disableScrolling , extractTableTitlesAndIds , sendMessage , setOverlays , clearOverlays, adjustOverlay , adjustOverlayGlorification , paginateTables , paginateTablesGlorification , showBlackScreen , removeBlackScreen , tableToggle , listenToButtonClicks , handleSpinner , bookNavigationButtons , loadStoredSettings};
+export { 
+  initialize , handleTouchNavigation , arabicNumbers , disableScrolling , extractTableTitlesAndIds , 
+  sendMessage , setOverlays , clearOverlays, adjustOverlay , adjustOverlayGlorification , paginateTables , 
+  paginateTablesGlorification , showBlackScreen , removeBlackScreen , tableToggle , listenToButtonClicks , 
+  handleSpinner , bookNavigationButtons , loadStoredSettings};
