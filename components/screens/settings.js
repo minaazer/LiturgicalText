@@ -10,7 +10,7 @@ import { presentationStyles } from '../css/presentationStyles';
 
 
 const SettingsScreen = () => {
-    const [settings, setSettings] = useContext(SettingsContext);
+    const [settings,setSettings , , , , , setOrientation] = useContext(SettingsContext);
     const navigation = useNavigation();  // Use the useNavigation hook to access navigation functions
     const [copticDate, setCopticDate] = useState(null);
 
@@ -81,11 +81,12 @@ const SettingsScreen = () => {
                 )}
 
                 <View style={presentationStyles.settingsContainer}>
-
+                    <View style={presentationStyles.twoColumnSettingsContainer}>
                     <View style={presentationStyles.fontSetting}>
                         <Text style={presentationStyles.settingTitle}>Font Size</Text>
                         <Picker
                             selectedValue={settings.fontSize}
+                            mode= 'dropdown'
                             style={presentationStyles.picker}
                             onValueChange={(itemValue, itemIndex) => setFontSizeHandler(itemValue)}
                             dropdownIconColor={'black'}
@@ -104,8 +105,23 @@ const SettingsScreen = () => {
                             <Picker.Item label="12" value="6.5" />
 
                         </Picker>
+                    </View>
+                    <View style={presentationStyles.fontSetting}>
+                        <Text style={presentationStyles.settingTitle}>Screen Orientation</Text>
+
+                        <Picker
+                    style={presentationStyles.picker}
+                    selectedValue={settings.orientation}
+                    onValueChange={(value) => setOrientation(value)}
+                    >
+                    <Picker.Item label="Landscape" value="landscape" />
+                    <Picker.Item label="Portrait" value="portrait" />
+                    </Picker>
 
                     </View>
+                    </View>
+
+
 
                     <View style={presentationStyles.setting}>
 

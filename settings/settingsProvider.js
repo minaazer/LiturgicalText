@@ -36,11 +36,12 @@ const defaultSettings = {
   selectedDateProperties: null, // To be calculated
   developerMode: false, // Add developer mode to the settings
   doxologyFunctionNames: defaultDoxologyFunctionNames,
+  orientation: "landscape", // Default orientation
 };
 
 const SettingsProvider = ({ children }) => {
   const [settings, setSettings] = useState(defaultSettings);
-  const currentVersion = 13; // Update this number when you want to change the settings
+  const currentVersion = 14; // Update this number when you want to change the settings
 
   // Load settings from AsyncStorage on initialization
   useEffect(() => {
@@ -195,7 +196,14 @@ const SettingsProvider = ({ children }) => {
       ),
     }));
   };
-
+  // Function to set the orientation
+  const setOrientation = (newOrientation) => {
+    setSettings((prevSettings) => ({
+      ...prevSettings,
+      orientation: newOrientation,
+    }));
+  };
+  
   return (
     <SettingsContext.Provider
       value={[
@@ -205,6 +213,7 @@ const SettingsProvider = ({ children }) => {
         setDayTransitionTime,
         toggleDeveloperMode,
         setTextVisibility,
+        setOrientation,
       ]}
     >
       {children}

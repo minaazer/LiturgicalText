@@ -577,55 +577,6 @@ fifthKiahkDoxology(tableNumber) {
 </table>`;
  return html;
 },
-sixthKiahkDoxology(tableNumber) {
-    const html = `
-    <table id="table_${tableNumber}" style="display: table;" title="Sixth Kiahk Doxology">
-    
-    <caption id="caption_table_${tableNumber}" class="caption">Sixth Kiahk Doxology
-        <span class="coptic-caption">Ⲛ̀ⲑⲟⲕ ⲟⲩⲛⲓϣϯ ⲁ̀ⲗⲏⲑⲱⲥ</span>
-        <span class="arabic-caption">ذوكصولوجية كيهك السادسة</span>
-    </caption>
-    <tbody>
-    
-        <tr id="table_${tableNumber}_row_0" class="north">
-            <td class="english">When the lot fell on ZaYou are truly great, O good announcer, among the angelic ranks, and the heavenly orders.</td>
-            <td class="coptic">Ⲛ̀ⲑⲟⲕ ⲟⲩⲛⲓϣϯ ⲁ̀ⲗⲏⲑⲱⲥ: ⲱ̀ ⲡⲓϥⲁⲓϣⲉⲛⲛⲟⲩϥⲓ ⲛ̀ⲕⲁⲗⲟⲥ: ϧⲉⲛ ⲛⲓⲧⲁⲝⲓⲥ ⲛ̀ⲁⲅⲅⲉⲗⲓⲕⲟⲛ: ⲛⲉⲙ ⲛⲓⲧⲁⲅⲙⲁ ⲛ̀ⲉ̀ⲡⲟⲩⲣⲁⲛⲓⲟⲛ.</td>
-            <td class="arabic">أنت عظيم حقاً، أيها المبشر الحسن، في الطقوس الملائكية، والطغمات السمائية.</td>
-        </tr>
-        
-        <tr id="table_${tableNumber}_row_1" class="south">
-            <td class="english">Gabriel the announcer, the great among the angels, and the exalted holy orders, who carry fiery flaming swords.</td>
-            <td class="coptic">Ⲅⲁⲃⲣⲓⲏⲗ ⲡⲓϥⲁⲓϣⲉⲛⲛⲟⲩϥⲓ: ⲡⲓⲛⲓϣϯ ϧⲉⲛ ⲛⲓⲁⲅⲅⲉⲗⲟⲥ: ⲛⲉⲙ ⲛⲓⲧⲁⲅⲙⲁ ⲉⲑⲟⲩⲁⲃ ⲉⲧϭⲟⲥⲓ: ⲉⲧϥⲁⲓ ϧⲁ ⲧ̀ⲥⲏϥⲓ ⲛ̀ϣⲁϩ ⲛ̀ⲭ̀ⲣⲱⲙ.</td>
-            <td class="arabic">يا غبريـال المبشر، العظيم في الملائكة، والطغمات المقدسة العلوية، حامل السيف الملتهب ناراً.</td>
-        </tr>
-        
-        <tr id="table_${tableNumber}_row_2" class="north">
-            <td class="english">For Daniel the prophet, beheld your honor, and you revealed to him the mystery, of the life-giving Trinity.</td>
-            <td class="coptic">Ⲁϥⲛⲁⲩ ⲅⲁⲣ ⲉ̀ⲡⲉⲕⲧⲁⲓⲟ: ⲛ̀ϫⲉ Ⲇⲁⲛⲓⲏⲗ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲟⲩⲟϩ ⲁⲕⲧⲁⲙⲟϥ ⲉ̀ⲡⲓⲙⲩⲥⲧⲏⲣⲓⲟⲛ: ⲛ̀Ϯⲧ̀ⲣⲓⲁⲥ ⲛ̀ⲣⲉϥⲧⲁⲛϧⲟ.</td>
-            <td class="arabic">قد نظر كرامتك، دانيال النبي، وأعلمته، سر الثالوث المحيي.</td>
-        </tr>
-        
-        <tr id="table_${tableNumber}_row_3" class="south">
-            <td class="english">To Zacharias the priest, you have announced, the birth of the forerunner, John the Baptist.</td>
-            <td class="coptic">Ⲟⲩⲟϩ Ⲍⲁⲭⲁⲣⲓⲁⲥ ⲡⲓⲟⲩⲏⲃ: ⲛ̀ⲑⲟⲕ ⲁⲕϩⲓϣⲉⲛⲛⲟⲩϥⲓ ⲛⲁϥ: ϧⲉⲛ ⲡ̀ϫⲓⲛⲙⲓⲥⲓ ⲙ̀ⲡⲓⲡ̀ⲣⲟⲇⲣⲟⲙⲟⲥ: Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲣⲉϥϯⲱⲙⲥ.</td>
-            <td class="arabic">وزكريا الكاهن، أنت بشرته، بميلاد السابق، يوحنا المعمداني.</td>
-        </tr>
-        
-        <tr id="table_${tableNumber}_row_4" class="north">
-            <td class="english">Likewise you announced to the Virgin, saying "Hail to you O full of grace, the Lord is with you, you shall bring forth the Savior of the whole world."</td>
-            <td class="coptic">Ⲁⲕϩⲓϣⲉⲛⲛⲟⲩϥⲓ ⲟⲛ ⲛ̀Ϯⲡⲁⲣⲑⲉⲛⲟⲥ: ϫⲉ ⲭⲉⲣⲉ ⲑⲏⲉⲑⲙⲉϩ ⲛ̀ϩ̀ⲙⲟⲧ: Ⲡ̀ϭⲟⲓⲥ ⲛⲉⲙⲉ ⲧⲉⲣⲁⲙⲓⲥⲓ: ⲙ̀Ⲡⲓⲥⲱⲧⲏⲣ ⲙ̀ⲡⲓⲕⲟⲥⲙⲟⲥ ⲧⲏⲣϥ.</td>
-            <td class="arabic">وبشرت أيضاً العذراء، قائلاً "السلام لكِ يا ممتلئة نعمة، الرب معكِ، ستلدين مخلص العالم كله."</td>
-        </tr>
-        
-        <tr id="table_${tableNumber}_row_5" class="south">
-            <td class="english">Intercede on our behalf, O holy archangel, Gabriel the announcer, that He may forgive us our sins. ${cross}</td>
-            <td class="coptic">Ⲁ̀ⲣⲓⲡ̀ⲣⲉⲥⲃⲉⲩⲓⲛ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ: ⲱ̀ ⲡⲓⲁⲣⲭⲏⲁⲅⲅⲉⲗⲟⲥ ⲉⲑⲟⲩⲁⲃ: Ⲅⲁⲃⲣⲓⲏⲗ ⲡⲓϥⲁⲓϣⲉⲛⲛⲟⲩϥⲓ: ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ. ${cross}</td>
-            <td class="arabic">إشفع فينا [أمام الرب]، يا رئيس الملائكة الطاهر، غبريـال المبشر، ليغفر لنا خطايانا. ${cross}</td>
-        </tr>
-        </tbody>
-</table>`;
- return html;
-},
 nativityPramounDoxology(tableNumber) {
     const html = `
     <table id="table_${tableNumber}" style="display: table;" title="Nativity Pramoun Doxology">
@@ -2728,7 +2679,7 @@ feastofTransfigurationDoxology(tableNumber) {
 const seasonalDoxologyFunctionNames = [
     { name: "Coptic New Year", functions: ["copticNewYearDoxology"], visible: false, toggle: false },
     { name: "Feast of the Cross", functions: ["feastofCrossDoxology"], visible: false, toggle: false },
-    { name: "Kiahk", functions: ["firstKiahkDoxology","secondKiahkDoxology","thirdKiahkDoxology","fourthKiahkDoxology","fifthKiahkDoxology","sixthKiahkDoxology"], visible: false, toggle: false },
+    { name: "Kiahk", functions: ["firstKiahkDoxology","secondKiahkDoxology","thirdKiahkDoxology","fourthKiahkDoxology","fifthKiahkDoxology"], visible: false, toggle: false },
     { name: "Nativity Paramoun", functions: ["nativityPramounDoxology"], visible: false, toggle: false },
     { name: "Feast of the Nativity", functions: ["firstFeastofNativityDoxology","secondFeastofNativityDoxology","thirdFeastofNativityDoxology"], visible: false, toggle: false },
     { name: "Feast of Circumcision", functions: ["feastofCircumcisionDoxology"], visible: false, toggle: false },

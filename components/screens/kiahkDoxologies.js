@@ -5,6 +5,7 @@ import { kiahkDoxologiesHtml } from '../../data/kiahkDoxologies';
 import { useDynamicStyles } from '../css/cssStyles';
 import { htmlRenderScript } from '../functions/jsScripts';
 import { getHtml , handleDrawerItemPress } from '../functions/renderFunctions'
+import SettingsContext from '../../settings/settingsContext';
 
 
 // Main Function
@@ -12,9 +13,11 @@ const KiahkDoxologies = () => {
   const [drawerItems, setDrawerItems] = useState([]);
   const [currentTable, setCurrentTable] = useState('');
   const webviewRef = useRef(null);
+  const [settings] = React.useContext(SettingsContext);
+
 
   const dynamicStyles = useDynamicStyles(webviewRef);
-  const body = kiahkDoxologiesHtml();
+  const body = kiahkDoxologiesHtml(settings);
   const script = htmlRenderScript;
   const html = getHtml(dynamicStyles, body , script);
 

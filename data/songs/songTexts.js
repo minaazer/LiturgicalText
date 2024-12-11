@@ -21,389 +21,434 @@ const userSettings = (value, settingsKey) => {
   };
   
 const songFunctions = {
-amenAmenCome(tableNumber) {
-    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
-    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
 
-let html = `
-        <table id="table_${tableNumber}" title="Amen Amen Come">
-            <caption class="caption" id="caption_table_${tableNumber}">Amen Amen Come
-            <span class="arabic-caption">امين تعال أيها الرب يسوع</span></caption>
+amenAmenCome(tableNumber) {
+        const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+        let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+    
+    let html = `
+    <table id="table_${tableNumber}" title="Amen Amen Come">
+        <caption id="caption_table_${tableNumber}" class="caption">
+            Amen Amen Come
+            <span class="arabic-caption">أمين تعال</span>
+        </caption>
+            
             <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
+    
                 <tr id="table_${tableNumber}_row_0" class="north">
-                    <td class="english">Amen Amen Come</td>
-                    <td class="arabic">امين تعال</td>
+                    <td class="english">Amen, Amen, come</td>
+                    <td class="enPhonicsSongs">Ameen ta'al</td>
+                    <td class="arabic">أمين تعال</td>
                 </tr>
-                <tr id="table_${tableNumber}_row_1" class="north">
+            
+                <tr id="table_${tableNumber}_row_3" class="north">
                     <td class="english">My faithful Lord, Jesus Christ!</td>
+                    <td class="enPhonicsSongs">Ayuhal Rabb Yasouh</td>
                     <td class="arabic">أيها الرب يسوع</td>
                 </tr>
-                <tr id="table_${tableNumber}_row_2" class="north">
-                    <td class="english">Amen Amen Come</td>
-                    <td class="arabic">امين تعال</td>
+            
+                <tr id="table_${tableNumber}_row_4" class="north">
+                    <td class="english">Amen, Amen, come</td>
+                    <td class="enPhonicsSongs">Ameen ta'al</td>
+                    <td class="arabic">أمين تعال</td>
                 </tr>
-                <tr id="table_${tableNumber}_row_3" class="north">
+            
+                <tr id="table_${tableNumber}_row_5" class="north">
                     <td class="english">Our hearts are yearning for the flight!</td>
-                    <td class="arabic">قلوبنا إشتاقت للرجوع</td>
-                </tr>
-            </tbody>
-            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_1">
-                <tr id="table_${tableNumber}_row_4" class="refrain">
-                    <td class="english">(We´re waiting for you</td>
-                    <td class="arabic">(منتظرينك</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_5" class="refrain">
-                    <td class="english">As you have promised) x2</td>
-                    <td class="arabic">بحسب وعودك) x2</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_6" class="refrain">
-                    <td class="english">(Surely I come quickly Amen!) x2</td>
-                    <td class="arabic">(قلت سآتي سريعًا آمين) x2</td>
+                    <td class="enPhonicsSongs">Quloobuna ishtaqat lilrujoo'</td>
+                    <td class="arabic">قلوبنا اشتاقت للرجوع</td>
                 </tr>
             </tbody>
             <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
-                <tr id="table_${tableNumber}_row_7" class="north">
+    
+                <tr id="table_${tableNumber}_row_6" class="Refrain">
+                    <td class="english">We're waiting for you</td>
+                    <td class="enPhonicsSongs">Montazireenak hasba w'oodak</td>
+                    <td class="arabic">منتظرينك حسب وعودك</td>
+                </tr>
+            
+                <tr id="table_${tableNumber}_row_7" class="Refrain">
+                    <td class="english">As you have promised</td>
+                    <td class="enPhonicsSongs">Qulta sa'ati saree'an Ameen</td>
+                    <td class="arabic">قلت سآتي سريعًا آمين</td>
+                </tr>
+            </tbody>
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
+    
+                <tr id="table_${tableNumber}_row_8" class="south">
                     <td class="english">We see Thy glory,</td>
+                    <td class="enPhonicsSongs">Naraka bimajdik</td>
                     <td class="arabic">نراك بمجدك</td>
                 </tr>
-                <tr id="table_${tableNumber}_row_8" class="north">
+            
+                <tr id="table_${tableNumber}_row_9" class="south">
                     <td class="english">In the delightful clouds,</td>
+                    <td class="enPhonicsSongs">Ala al-sahab al-muneer</td>
                     <td class="arabic">على السحاب المنير</td>
                 </tr>
-                <tr id="table_${tableNumber}_row_9" class="north">
+            
+                <tr id="table_${tableNumber}_row_10" class="south">
                     <td class="english">You've made us like you,</td>
-                    <td class="arabic">تجعلنا  مثلك</td>
+                    <td class="enPhonicsSongs">Taj'aluna mithlak</td>
+                    <td class="arabic">تجعلنا مثلك</td>
                 </tr>
-                <tr id="table_${tableNumber}_row_10" class="north">
+            
+                <tr id="table_${tableNumber}_row_11" class="south">
                     <td class="english">In a quick twinkle of an eye.</td>
+                    <td class="enPhonicsSongs">Wa fee tarfat 'ayn ilayka nateer</td>
                     <td class="arabic">وفي طرفة عين إليك نطير</td>
                 </tr>
             </tbody>
-            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
-                <tr id="table_${tableNumber}_row_11" class="refrain">
-                    <td class="english">(We´re waiting for you</td>
-                    <td class="arabic">(منتظرينك</td>
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
+    
+                <tr id="table_${tableNumber}_row_12" class="Refrain">
+                    <td class="english">We're waiting for you</td>
+                    <td class="enPhonicsSongs">Montazireenak hasba w'oodak</td>
+                    <td class="arabic">منتظرينك حسب وعودك</td>
                 </tr>
-                <tr id="table_${tableNumber}_row_12" class="refrain">
-                    <td class="english">As you have promised) x2</td>
-                    <td class="arabic">بحسب وعودك) x2</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_13" class="refrain">
-                    <td class="english">(Surely I come quickly Amen!) x2</td>
-                    <td class="arabic">(قلت سآتي سريعًا آمين) x2</td>
+            
+                <tr id="table_${tableNumber}_row_13" class="Refrain">
+                    <td class="english">As you have promised</td>
+                    <td class="enPhonicsSongs">Qulta sa'ati saree'an Ameen</td>
+                    <td class="arabic">قلت سآتي سريعًا آمين</td>
                 </tr>
             </tbody>
-            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_5">
+    
                 <tr id="table_${tableNumber}_row_14" class="north">
-                    <td class="english">Thy sight would cheer us,</td>
+                    <td class="english">The sight would cheer us,</td>
+                    <td class="enPhonicsSongs">Nafrah bi-qurbik</td>
                     <td class="arabic">نفرح بقربك</td>
                 </tr>
+            
                 <tr id="table_${tableNumber}_row_15" class="north">
                     <td class="english">We see Thy wounds and thy scars;</td>
+                    <td class="enPhonicsSongs">Wa nashuf athar al-jurooh</td>
                     <td class="arabic">ونشوف آثار الجروح</td>
                 </tr>
+            
                 <tr id="table_${tableNumber}_row_16" class="north">
                     <td class="english">As You draw near us,</td>
+                    <td class="enPhonicsSongs">Alamat hubbik</td>
                     <td class="arabic">علامة حبك</td>
                 </tr>
+            
                 <tr id="table_${tableNumber}_row_17" class="north">
                     <td class="english">Signs of Your love fill our eyes.</td>
+                    <td class="enPhonicsSongs">Lana ya habeeb al-rooh</td>
                     <td class="arabic">لنا يا حبيب الروح</td>
                 </tr>
             </tbody>
-            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_5">
-                <tr id="table_${tableNumber}_row_18" class="refrain">
-                    <td class="english">(We´re waiting for you</td>
-                    <td class="arabic">(منتظرينك</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_19" class="refrain">
-                    <td class="english">As you have promised) x2</td>
-                    <td class="arabic">بحسب وعودك) x2</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_20" class="refrain">
-                    <td class="english">(Surely I come quickly Amen!) x2</td>
-                    <td class="arabic">(قلت سآتي سريعًا آمين) x2</td>
-                </tr>
-            </tbody>
             <tbody ${tbodyClass} id="table_${tableNumber}_tbody_6">
-                <tr id="table_${tableNumber}_row_21" class="north">
-                    <td class="english">Around our Groom there</td>
-                    <td class="arabic">نسعد بشخصك</td>
+    
+                <tr id="table_${tableNumber}_row_18" class="Refrain">
+                    <td class="english">We're waiting for you</td>
+                    <td class="enPhonicsSongs">Montazireenak hasba w'oodak</td>
+                    <td class="arabic">منتظرينك حسب وعودك</td>
                 </tr>
-                <tr id="table_${tableNumber}_row_22" class="north">
-                    <td class="english">We rejoice and be glad,</td>
-                    <td class="arabic">ونكون معك  في كل حين</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_23" class="north">
-                    <td class="english">With the redeemed church,</td>
-                    <td class="arabic">يجمعنا عرسك</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_24" class="north">
-                    <td class="english">The greatest love and joy ever.</td>
-                    <td class="arabic">مع  جماعة  المفديين</td>
+            
+                <tr id="table_${tableNumber}_row_19" class="Refrain">
+                    <td class="english">As you have promised</td>
+                    <td class="enPhonicsSongs">Qulta sa'ati saree'an Ameen</td>
+                    <td class="arabic">قلت سآتي سريعًا آمين</td>
                 </tr>
             </tbody>
             <tbody ${tbodyClass} id="table_${tableNumber}_tbody_7">
-                <tr id="table_${tableNumber}_row_25" class="refrain">
-                    <td class="english">(We´re waiting for you</td>
-                    <td class="arabic">(منتظرينك</td>
+    
+                <tr id="table_${tableNumber}_row_20" class="south">
+                    <td class="english">Around our Groom there</td>
+                    <td class="enPhonicsSongs">Hawaleen areesna</td>
+                    <td class="arabic">حوالين عريسنا</td>
                 </tr>
-                <tr id="table_${tableNumber}_row_26" class="refrain">
-                    <td class="english">As you have promised) x2</td>
-                    <td class="arabic">بحسب وعودك) x2</td>
+            
+                <tr id="table_${tableNumber}_row_21" class="south">
+                    <td class="english">We rejoice and be glad,</td>
+                    <td class="enPhonicsSongs">Nafrah wa naskun fee kull heen</td>
+                    <td class="arabic">نفرح ونكون معك في كل حين</td>
                 </tr>
-                <tr id="table_${tableNumber}_row_27" class="refrain">
-                    <td class="english">(Surely I come quickly Amen!) x2</td>
-                    <td class="arabic">(قلت سآتي سريعًا آمين) x2</td>
+            
+                <tr id="table_${tableNumber}_row_22" class="south">
+                    <td class="english">With the redeemed church,</td>
+                    <td class="enPhonicsSongs">Yajma'una ursak</td>
+                    <td class="arabic">يجمعنا عرسك</td>
+                </tr>
+            
+                <tr id="table_${tableNumber}_row_23" class="south">
+                    <td class="english">The greatest love and joy ever.</td>
+                    <td class="enPhonicsSongs">Ma' jama'at al-muftadeen</td>
+                    <td class="arabic">مع جماعة المفديين</td>
                 </tr>
             </tbody>
             <tbody ${tbodyClass} id="table_${tableNumber}_tbody_8">
-                <tr id="table_${tableNumber}_row_28" class="north">
-                    <td class="english">No more sorrow,</td>
-                    <td class="arabic">ننسي اتعابنا</td>
+    
+                <tr id="table_${tableNumber}_row_24" class="Refrain">
+                    <td class="english">We're waiting for you</td>
+                    <td class="enPhonicsSongs">Montazireenak hasba w'oodak</td>
+                    <td class="arabic">منتظرينك حسب وعودك</td>
                 </tr>
-                <tr id="table_${tableNumber}_row_29" class="north">
-                    <td class="english">No more pain, nor tears,</td>
-                    <td class="arabic">ولا يكون  هناك  أنين</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_30" class="north">
-                    <td class="english">The Lord our comfort,</td>
-                    <td class="arabic">حوالين  عر يسنا</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_31" class="north">
-                    <td class="english">Our hearts and souls He cheers,</td>
-                    <td class="arabic">دوما  نكون  فرحانين</td>
+            
+                <tr id="table_${tableNumber}_row_25" class="Refrain">
+                    <td class="english">As you have promised</td>
+                    <td class="enPhonicsSongs">Qulta sa'ati saree'an Ameen</td>
+                    <td class="arabic">قلت سآتي سريعًا آمين</td>
                 </tr>
             </tbody>
             <tbody ${tbodyClass} id="table_${tableNumber}_tbody_9">
-                <tr id="table_${tableNumber}_row_32" class="refrain">
-                    <td class="english">(We´re waiting for you</td>
-                    <td class="arabic">(منتظرينك</td>
+    
+                <tr id="table_${tableNumber}_row_26" class="north">
+                    <td class="english">No more sorrow,</td>
+                    <td class="enPhonicsSongs">Nansa a'taabna</td>
+                    <td class="arabic">ننسي اتعابنا</td>
                 </tr>
-                <tr id="table_${tableNumber}_row_33" class="refrain">
-                    <td class="english">As you have promised) x2</td>
-                    <td class="arabic">بحسب وعودك) x2</td>
+            
+                <tr id="table_${tableNumber}_row_27" class="north">
+                    <td class="english">No more pain, nor tears,</td>
+                    <td class="enPhonicsSongs">Wala yakoon huna aneen</td>
+                    <td class="arabic">ولا يكون هناك أنين</td>
                 </tr>
-                <tr id="table_${tableNumber}_row_34" class="refrain">
-                    <td class="english">(Surely I come quickly Amen!) x2</td>
-                    <td class="arabic">(قلت سآتي سريعًا آمين) x2</td>
+            
+                <tr id="table_${tableNumber}_row_28" class="north">
+                    <td class="english">The Lord our comfort,</td>
+                    <td class="enPhonicsSongs">Hawaleen areesna</td>
+                    <td class="arabic">حوالين عريسنا</td>
+                </tr>
+            
+                <tr id="table_${tableNumber}_row_29" class="north">
+                    <td class="english">Our hearts and souls He cheers,</td>
+                    <td class="enPhonicsSongs">Dawman nakoon farhanin</td>
+                    <td class="arabic">دوما نكون فرحانين</td>
                 </tr>
             </tbody>
             <tbody ${tbodyClass} id="table_${tableNumber}_tbody_10">
-                <tr id="table_${tableNumber}_row_35" class="north">
-                    <td class="english">There shall be no night,</td>
-                    <td class="arabic">أشواق  قلوبنا</td>
+    
+                <tr id="table_${tableNumber}_row_30" class="Refrain">
+                    <td class="english">We're waiting for you</td>
+                    <td class="enPhonicsSongs">Montazireenak hasba w'oodak</td>
+                    <td class="arabic">منتظرينك حسب وعودك</td>
                 </tr>
-                <tr id="table_${tableNumber}_row_36" class="north">
+            
+                <tr id="table_${tableNumber}_row_31" class="Refrain">
+                    <td class="english">As you have promised</td>
+                    <td class="enPhonicsSongs">Qulta sa'ati saree'an Ameen</td>
+                    <td class="arabic">قلت سآتي سريعًا آمين</td>
+                </tr>
+            </tbody>
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_11">
+    
+                <tr id="table_${tableNumber}_row_32" class="south">
+                    <td class="english">There shall be no night,</td>
+                    <td class="enPhonicsSongs">Ashwaq quloobina</td>
+                    <td class="arabic">أشواق قلوبنا</td>
+                </tr>
+            
+                <tr id="table_${tableNumber}_row_33" class="south">
                     <td class="english">No candle needed nor a sun,</td>
+                    <td class="enPhonicsSongs">Nalqaha wa nashufak bil-'ayn</td>
                     <td class="arabic">نلقاها ونشوفك بالعين</td>
                 </tr>
-                <tr id="table_${tableNumber}_row_37" class="north">
+            
+                <tr id="table_${tableNumber}_row_34" class="south">
                     <td class="english">Our Lord and Savior</td>
-                    <td class="arabic">يا فادي  نفوسنا</td>
+                    <td class="enPhonicsSongs">Ya fadi nufoosna</td>
+                    <td class="arabic">يا فادي نفوسنا</td>
                 </tr>
-                <tr id="table_${tableNumber}_row_38" class="north">
+            
+                <tr id="table_${tableNumber}_row_35" class="south">
                     <td class="english">Gives us Himself, the True Light.</td>
+                    <td class="enPhonicsSongs">Ya helw ya tayyib ya ameen</td>
                     <td class="arabic">يا حلو يا طيب يا أمين</td>
                 </tr>
             </tbody>
-        </table>
-    \n`;
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_12">
+    
+                <tr id="table_${tableNumber}_row_36" class="Refrain">
+                    <td class="english">We're waiting for you</td>
+                    <td class="enPhonicsSongs">Montazireenak hasba w'oodak</td>
+                    <td class="arabic">منتظرينك حسب وعودك</td>
+                </tr>
+            
+                <tr id="table_${tableNumber}_row_37" class="Refrain">
+                    <td class="english">As you have promised</td>
+                    <td class="enPhonicsSongs">Qulta sa'ati saree'an Ameen</td>
+                    <td class="arabic">قلت سآتي سريعًا آمين</td>
+                </tr>
+            </tbody>
+    </table>`;
     return html;
-},
+    },
+    
+
 
 beFaithfulUntoDeath(tableNumber) {
-    const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
-    let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
-
-let html = `
-        <table id="table_${tableNumber}" title="Be Faithful Unto Death">
-            <caption class="caption" id="caption_table_${tableNumber}">Be Faithful Unto Death
-            <span class="arabic-caption">كن أمينا إلى الموت</span></caption>
+        const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
+        let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
+    
+    let html = `
+    <table id="table_${tableNumber}" title="Be faithful unto death">
+        <caption id="caption_table_${tableNumber}" class="caption">
+            Be faithful unto death
+            <span class="arabic-caption">كن أميناً إلى الموت</span>
+        </caption>
             <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
-                <tr id="table_${tableNumber}_row_0" class="north">
-                    <td class="english">He who overcomes shall eat,</td>
-                    <td class="arabic">من يغلب سيأكل</td>
+    
+                <tr id="table_${tableNumber}_row_0" class="Refrain">
+                    <td class="english">Be faithful unto death, and I will give you the crown of life (x2)</td>
+                    <td class="enPhonicsSongs">Kun ameenan ila al-mawt fa sa'oteek ikleel al-hayat</td>
+                    <td class="arabic">كن أميناً إلى الموت فسأعطيك إكليل الحياة</td>
                 </tr>
-                <tr id="table_${tableNumber}_row_1" class="north">
-                    <td class="english">from the tree of life</td>
-                    <td class="arabic">من شجرة الحياة</td>
+            
+                <tr id="table_${tableNumber}_row_1" class="Refrain">
+                    <td class="english">Soon I come, soon I come, soon I come as the thief!</td>
+                    <td class="enPhonicsSongs">Ha ana aati saree'an ha ana aati kal-liss</td>
+                    <td class="arabic">ها أنا آت سريعاً ها أنا آت كلص</td>
                 </tr>
-                <tr id="table_${tableNumber}_row_2" class="north">
-                    <td class="english">The tree, in the midst</td>
-                    <td class="arabic">شجرة قائمة</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_3" class="north">
-                    <td class="english">of the Lord´s paradise</td>
-                    <td class="arabic">في وسط فردوس الله</td>
+            
+                <tr id="table_${tableNumber}_row_2" class="Refrain">
+                    <td class="english">And I will give him who thirsts from the water of life</td>
+                    <td class="enPhonicsSongs">Ha ana aati al-atshan min yanboo' maa' al-hayat</td>
+                    <td class="arabic">ها أنا أعطي العطشان من ينبوع ماء الحياة</td>
                 </tr>
             </tbody>
             <tbody ${tbodyClass} id="table_${tableNumber}_tbody_1">
-                <tr id="table_${tableNumber}_row_4" class="refrain">
-                    <td class="english">Be faithful unto death,</td>
-                    <td class="arabic">كن أمينا إلى الموت</td>
+    
+                <tr id="table_${tableNumber}_row_3" class="north">
+                    <td class="english">He who overcomes shall eat, from the tree of life</td>
+                    <td class="enPhonicsSongs">من يغلب سيأكل من شجرة الحياة</td>
+                    <td class="arabic">Man yaghlib sayakul min shajarat al-hayat</td>
                 </tr>
-                <tr id="table_${tableNumber}_row_5" class="refrain">
-                    <td class="english">and I will give you the crown of life</td>
-                    <td class="arabic">فسأعطيك إكليل الحياة</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_6" class="refrain">
-                    <td class="english">Soon I come, soon I come,</td>
-                    <td class="arabic">ها أنا آتي سريعا</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_7" class="refrain">
-                    <td class="english">soon I come as the thief!</td>
-                    <td class="arabic">ها أنا آتي كلص</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_8" class="refrain">
-                    <td class="english">And I will give him who thirsts</td>
-                    <td class="arabic">ها أنا أعطي العطشان</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_9" class="refrain">
-                    <td class="english">from the water of life</td>
-                    <td class="arabic">من ينبوع ماء الحياة</td>
+            
+                <tr id="table_${tableNumber}_row_4" class="north">
+                    <td class="english">The tree, in the midst of the Lord´s paradise (x2)</td>
+                    <td class="enPhonicsSongs">شجرة قائمة في وسط فردوس الله</td>
+                    <td class="arabic">Shajarat qaimah fee wasat firdaws Allah</td>
                 </tr>
             </tbody>
             <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
-                <tr id="table_${tableNumber}_row_10" class="north">
-                    <td class="english">He who overcomes and keeps</td>
-                    <td class="arabic">من يغلب و يحفظ</td>
+    
+                <tr id="table_${tableNumber}_row_5" class="Refrain">
+                    <td class="english">Be faithful unto death, and I will give you the crown of life (x2)</td>
+                    <td class="enPhonicsSongs">Kun ameenan ila al-mawt fa sa'oteek ikleel al-hayat</td>
+                    <td class="arabic">كن أميناً إلى الموت فسأعطيك إكليل الحياة</td>
                 </tr>
-                <tr id="table_${tableNumber}_row_11" class="north">
-                    <td class="english">my words till the end</td>
-                    <td class="arabic">للنهاية أعمالي</td>
+            
+                <tr id="table_${tableNumber}_row_6" class="Refrain">
+                    <td class="english">Soon I come, soon I come, soon I come as the thief!</td>
+                    <td class="enPhonicsSongs">Ha ana aati saree'an ha ana aati kal-liss</td>
+                    <td class="arabic">ها أنا آت سريعاً ها أنا آت كلص</td>
                 </tr>
-                <tr id="table_${tableNumber}_row_12" class="north">
-                    <td class="english">I will give power to rule</td>
-                    <td class="arabic">سلطانا سأعطيه</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_13" class="north">
-                    <td class="english">nations with an iron rod</td>
-                    <td class="arabic">ليملك كل مالي</td>
+            
+                <tr id="table_${tableNumber}_row_7" class="Refrain">
+                    <td class="english">And I will give him who thirsts from the water of life</td>
+                    <td class="enPhonicsSongs">Ha ana aati al-atshan min yanboo' maa' al-hayat</td>
+                    <td class="arabic">ها أنا أعطي العطشان من ينبوع ماء الحياة</td>
                 </tr>
             </tbody>
             <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
-                <tr id="table_${tableNumber}_row_14" class="refrain">
-                    <td class="english">Be faithful unto death,</td>
-                    <td class="arabic">كن أمينا إلى الموت</td>
+    
+                <tr id="table_${tableNumber}_row_8" class="south">
+                    <td class="english">He who overcomes and keeps my words till the end</td>
+                    <td class="enPhonicsSongs">من يغلب ويحفظ للنهاية أعمالي</td>
+                    <td class="arabic">Man yaghlib wa yahfath lil-nihayah a'mali</td>
                 </tr>
-                <tr id="table_${tableNumber}_row_15" class="refrain">
-                    <td class="english">and I will give you the crown of life</td>
-                    <td class="arabic">فسأعطيك إكليل الحياة</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_16" class="refrain">
-                    <td class="english">Soon I come, soon I come,</td>
-                    <td class="arabic">ها أنا آتي سريعا</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_17" class="refrain">
-                    <td class="english">soon I come as the thief!</td>
-                    <td class="arabic">ها أنا آتي كلص</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_18" class="refrain">
-                    <td class="english">And I will give him who thirsts</td>
-                    <td class="arabic">ها أنا أعطي العطشان</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_19" class="refrain">
-                    <td class="english">from the water of life</td>
-                    <td class="arabic">من ينبوع ماء الحياة</td>
+            
+                <tr id="table_${tableNumber}_row_9" class="south">
+                    <td class="english">I will give power to rule nations with an iron rod (x2)</td>
+                    <td class="enPhonicsSongs">سلطاناً سأعطيه ليملك كل ما لي</td>
+                    <td class="arabic">Sultan sa'oteeh limalik kull ma li</td>
                 </tr>
             </tbody>
             <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
-                <tr id="table_${tableNumber}_row_20" class="north">
-                    <td class="english">He who overcomes shall not</td>
-                    <td class="arabic">من يغلب اعترف</td>
+    
+                <tr id="table_${tableNumber}_row_10" class="Refrain">
+                    <td class="english">Be faithful unto death, and I will give you the crown of life (x2)</td>
+                    <td class="enPhonicsSongs">Kun ameenan ila al-mawt fa sa'oteek ikleel al-hayat</td>
+                    <td class="arabic">كن أميناً إلى الموت فسأعطيك إكليل الحياة</td>
                 </tr>
-                <tr id="table_${tableNumber}_row_21" class="north">
-                    <td class="english">be hurt by the second death</td>
-                    <td class="arabic">به قدام أبي</td>
+            
+                <tr id="table_${tableNumber}_row_11" class="Refrain">
+                    <td class="english">Soon I come, soon I come, soon I come as the thief!</td>
+                    <td class="enPhonicsSongs">Ha ana aati saree'an ha ana aati kal-liss</td>
+                    <td class="arabic">ها أنا آت سريعاً ها أنا آت كلص</td>
                 </tr>
-                <tr id="table_${tableNumber}_row_22" class="north">
-                    <td class="english">His name, his name,</td>
-                    <td class="arabic">من يغلب فلا يؤذيه</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_23" class="north">
-                    <td class="english">before my Father I confess</td>
-                    <td class="arabic">ذاك الموت الثاني</td>
+            
+                <tr id="table_${tableNumber}_row_12" class="Refrain">
+                    <td class="english">And I will give him who thirsts from the water of life</td>
+                    <td class="enPhonicsSongs">Ha ana aati al-atshan min yanboo' maa' al-hayat</td>
+                    <td class="arabic">ها أنا أعطي العطشان من ينبوع ماء الحياة</td>
                 </tr>
             </tbody>
             <tbody ${tbodyClass} id="table_${tableNumber}_tbody_5">
-                <tr id="table_${tableNumber}_row_24" class="refrain">
-                    <td class="english">Be faithful unto death,</td>
-                    <td class="arabic">كن أمينا إلى الموت</td>
+    
+                <tr id="table_${tableNumber}_row_13" class="north">
+                    <td class="english">He who overcomes shall not be hurt by the second death</td>
+                    <td class="enPhonicsSongs">من يغلب أعترف به قدام أبي</td>
+                    <td class="arabic">Man yaghlib a'taraf bihi qadam abi</td>
                 </tr>
-                <tr id="table_${tableNumber}_row_25" class="refrain">
-                    <td class="english">and I will give you the crown of life</td>
-                    <td class="arabic">فسأعطيك إكليل الحياة</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_26" class="refrain">
-                    <td class="english">Soon I come, soon I come,</td>
-                    <td class="arabic">ها أنا آتي سريعا</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_27" class="refrain">
-                    <td class="english">soon I come as the thief!</td>
-                    <td class="arabic">ها أنا آتي كلص</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_28" class="refrain">   
-                    <td class="english">And I will give him who thirsts</td>
-                    <td class="arabic">ها أنا أعطي العطشان</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_29" class="refrain">
-                    <td class="english">from the water of life</td>
-                    <td class="arabic">من ينبوع ماء الحياة</td>
+            
+                <tr id="table_${tableNumber}_row_14" class="north">
+                    <td class="english">His name, his name, before my Father I confess (x2)</td>
+                    <td class="enPhonicsSongs">من يغلب فلا يؤذيه ذاك الموت السني</td>
+                    <td class="arabic">Man yaghlib fala yo'zihi thak al-mawt al-thani</td>
                 </tr>
             </tbody>
             <tbody ${tbodyClass} id="table_${tableNumber}_tbody_6">
-                <tr id="table_${tableNumber}_row_30" class="north">
-                    <td class="english">He who overcomes I will</td>
-                    <td class="arabic">من يغلب فطوباه</td>
+    
+                <tr id="table_${tableNumber}_row_15" class="Refrain">
+                    <td class="english">Be faithful unto death, and I will give you the crown of life (x2)</td>
+                    <td class="enPhonicsSongs">Kun ameenan ila al-mawt fa sa'oteek ikleel al-hayat</td>
+                    <td class="arabic">كن أميناً إلى الموت فسأعطيك إكليل الحياة</td>
                 </tr>
-                <tr id="table_${tableNumber}_row_31" class="north">
-                    <td class="english">write on him my new name</td>
-                    <td class="arabic">سيدعى للعشاء</td>
+            
+                <tr id="table_${tableNumber}_row_16" class="Refrain">
+                    <td class="english">Soon I come, soon I come, soon I come as the thief!</td>
+                    <td class="enPhonicsSongs">Ha ana aati saree'an ha ana aati kal-liss</td>
+                    <td class="arabic">ها أنا آت سريعاً ها أنا آت كلص</td>
                 </tr>
-                <tr id="table_${tableNumber}_row_32" class="north">
-                    <td class="english">He who overcomes shall sit</td>
-                    <td class="arabic">يوم عرس الخروف</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_33" class="north">
-                    <td class="english">with me on my throne</td>
-                    <td class="arabic">يوم مجد في السماء</td>
+            
+                <tr id="table_${tableNumber}_row_17" class="Refrain">
+                    <td class="english">And I will give him who thirsts from the water of life</td>
+                    <td class="enPhonicsSongs">Ha ana aati al-atshan min yanboo' maa' al-hayat</td>
+                    <td class="arabic">ها أنا أعطي العطشان من ينبوع ماء الحياة</td>
                 </tr>
             </tbody>
             <tbody ${tbodyClass} id="table_${tableNumber}_tbody_7">
-                <tr id="table_${tableNumber}_row_34" class="refrain">
-                    <td class="english">Be faithful unto death,</td>
-                    <td class="arabic">كن أمينا إلى الموت</td>
+    
+                <tr id="table_${tableNumber}_row_18" class="south">
+                    <td class="english">He who overcomes I will write on him my new name</td>
+                    <td class="enPhonicsSongs">من يغلب فطوباه سيدعى للعشاء</td>
+                    <td class="arabic">Man yaghlib fatobah sayod'aa lil-asha'</td>
                 </tr>
-                <tr id="table_${tableNumber}_row_35" class="refrain">
-                    <td class="english">and I will give you the crown of life</td>
-                    <td class="arabic">فسأعطيك إكليل الحياة</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_36" class="refrain">
-                    <td class="english">Soon I come, soon I come,</td>
-                    <td class="arabic">ها أنا آتي سريعا</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_37" class="refrain">
-                    <td class="english">soon I come as the thief!</td>
-                    <td class="arabic">ها أنا آتي كلص</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_38" class="refrain">
-                    <td class="english">And I will give him who thirsts</td>
-                    <td class="arabic">ها أنا أعطي العطشان</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_39" class="refrain">
-                    <td class="english">from the water of life</td>
-                    <td class="arabic">من ينبوع ماء الحياة</td>
+            
+                <tr id="table_${tableNumber}_row_19" class="south">
+                    <td class="english">He who overcomes shall sit with me on my throne (x2)</td>
+                    <td class="enPhonicsSongs">يوم عرس للخروف يوم مجد في السماء</td>
+                    <td class="arabic">Yawma urs lil-kharouf yawma majd fee al-sama'</td>
                 </tr>
             </tbody>
-        </table>
-
-
-
-
-\n`;
+            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_8">
+    
+                <tr id="table_${tableNumber}_row_20" class="Refrain">
+                    <td class="english">Be faithful unto death, and I will give you the crown of life (x2)</td>
+                    <td class="enPhonicsSongs">Kun ameenan ila al-mawt fa sa'oteek ikleel al-hayat</td>
+                    <td class="arabic">كن أميناً إلى الموت فسأعطيك إكليل الحياة</td>
+                </tr>
+            
+                <tr id="table_${tableNumber}_row_21" class="Refrain">
+                    <td class="english">Soon I come, soon I come, soon I come as the thief!</td>
+                    <td class="enPhonicsSongs">Ha ana aati saree'an ha ana aati kal-liss</td>
+                    <td class="arabic">ها أنا آت سريعاً ها أنا آت كلص</td>
+                </tr>
+            
+                <tr id="table_${tableNumber}_row_22" class="Refrain">
+                    <td class="english">And I will give him who thirsts from the water of life</td>
+                    <td class="enPhonicsSongs">Ha ana aati al-atshan min yanboo' maa' al-hayat</td>
+                    <td class="arabic">ها أنا أعطي العطشان من ينبوع ماء الحياة</td>
+                </tr>
+            </tbody>
+    </table>`;
     return html;
 },
+    
 
 blessedAreYouOMary(tableNumber) { 
     const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
@@ -788,198 +833,161 @@ let html = `
     `;return html;
 },
 
+
 dontLeaveMeAlone(tableNumber) {
     const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
     let tbodyClass = isOnePageChecked ? 'class= "scaling-container"' : '';
 
 let html = `
-        <table id="table_${tableNumber}" title="Don't Leave Me Alone">
-            <caption class="caption" id="caption_table_${tableNumber}">Don't Leave Me Alone
-            <span class="arabic-caption">لا لا تتركني وحدي</span></caption>
-            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
-                <tr id="table_${tableNumber}_row_0" class="north">
-                    <td class="english">No don't leave me alone,</td>
-                    <td class="arabic">لا لا تتركني وحدي</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_1" class="north">
-                    <td class="english">O my faithful shepherd.</td>
-                    <td class="arabic">يا راعى الأمين</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_2" class="north">
-                    <td class="english">Guide me dear master</td>
-                    <td class="arabic">قدني أنت يا ربى</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_3" class="north">
-                    <td class="english">and be unto me a helper.</td>
-                    <td class="arabic">و سر معي يا معين</td>
-                </tr>
-            </tbody>
-            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_1">
-                <tr id="table_${tableNumber}_row_4" class="refrain">
-                    <td class="english">I am o Lord without you nothing at all</td>
-                    <td class="arabic">أنا يا رب دونك لا شئ أبدا</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_5" class="refrain">
-                    <td class="english">I am o Lord without you nothing at all</td>
-                    <td class="arabic">أنا يا رب دونك لا شئ أبدا</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_6" class="refrain">
-                    <td class="english">So take my right hand O Lord and guide me</td>
-                    <td class="arabic">فأمسك يميني ربى وأهديني</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_7" class="refrain">
-                    <td class="english">in your way forever</td>
-                    <td class="arabic">في طريقي دائما</td>
-                </tr>
-            </tbody>
-            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
-                <tr id="table_${tableNumber}_row_8" class="north">
-                    <td class="english">And don't leave me alone,</td>
-                    <td class="arabic">ولا تتركني وحدي</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_9" class="north">
-                    <td class="english">in the midst of this darkness</td>
-                    <td class="arabic">في وسط الظلام</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_10" class="north">
-                    <td class="english">Let your bright face guide me</td>
-                    <td class="arabic">اجعل وجهك يقودني</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_11" class="north">
-                    <td class="english">O Lord unto peace.</td>
-                    <td class="arabic">يا رب للسلام</td>
-                </tr>
-            </tbody>
-            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
-                <tr id="table_${tableNumber}_row_12" class="refrain">
-                    <td class="english">I am o Lord without you nothing at all</td>
-                    <td class="arabic">أنا يا رب دونك لا شئ أبدا</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_13" class="refrain">
-                    <td class="english">I am o Lord without you nothing at all</td>
-                    <td class="arabic">أنا يا رب دونك لا شئ أبدا</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_14" class="refrain">
-                    <td class="english">So take my right hand O Lord and guide me</td>
-                    <td class="arabic">فأمسك يميني ربى وأهديني</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_15" class="refrain">
-                    <td class="english">in your way forever</td>
-                    <td class="arabic">في طريقي دائما</td>
-                </tr>
-            </tbody>
-            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
-                <tr id="table_${tableNumber}_row_16" class="north">
-                    <td class="english">And don't leave me alone,</td>
-                    <td class="arabic">ولا تتركني وحدي</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_17" class="north">
-                    <td class="english">but hear my prayers</td>
-                    <td class="arabic">بل اسمع صلاتي</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_18" class="north">
-                    <td class="english">And be there for me redeemer</td>
-                    <td class="arabic">و قف أنت بجانبي</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_19" class="north">
-                    <td class="english">for the rest of my life</td>
-                    <td class="arabic">ربى كل حياتي</td>
-                </tr>
-            </tbody>
-            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_5">
-                <tr id="table_${tableNumber}_row_20" class="refrain">
-                    <td class="english">I am o Lord without you nothing at all</td>
-                    <td class="arabic">أنا يا رب دونك لا شئ أبدا</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_21" class="refrain">
-                    <td class="english">I am o Lord without you nothing at all</td>
-                    <td class="arabic">أنا يا رب دونك لا شئ أبدا</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_22" class="refrain">
-                    <td class="english">So take my right hand O Lord and guide me</td>
-                    <td class="arabic">فأمسك يميني ربى وأهديني</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_23" class="refrain">
-                    <td class="english">in your way forever</td>
-                    <td class="arabic">في طريقي دائما</td>
-                </tr>
-            </tbody>
-            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_6">
-                <tr id="table_${tableNumber}_row_24" class="north">
-                    <td class="english">And don't leave me alone,</td>
-                    <td class="arabic">ولا تتركني وحدي</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_25" class="north">
-                    <td class="english">because of my sins</td>
-                    <td class="arabic">من اجل خطأى</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_26" class="north">
-                    <td class="english">But forgive me O lord</td>
-                    <td class="arabic">بل سامحني يا ربى</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_27" class="north">
-                    <td class="english">and accept my repentance</td>
-                    <td class="arabic">إن زلت قدمي</td>
-                </tr>
-            </tbody>
-            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_7">
-                <tr id="table_${tableNumber}_row_28" class="refrain">
-                    <td class="english">I am o Lord without you nothing at all</td>
-                    <td class="arabic">أنا يا رب دونك لا شئ أبدا</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_29" class="refrain">
-                    <td class="english">I am o Lord without you nothing at all</td>
-                    <td class="arabic">أنا يا رب دونك لا شئ أبدا</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_30" class="refrain">
-                    <td class="english">So take my right hand O Lord and guide me</td>
-                    <td class="arabic">فأمسك يميني ربى وأهديني</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_31" class="refrain">
-                    <td class="english">in your way forever</td>
-                    <td class="arabic">في طريقي دائما</td>
-                </tr>
-            </tbody>
-            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_8">
-                <tr id="table_${tableNumber}_row_32" class="north">
-                    <td class="english">No don't leave me alone,</td>
-                    <td class="arabic">و لا تتركني وحدي</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_33" class="north">
-                    <td class="english">in the midst of this world</td>
-                    <td class="arabic">في وسط الخطاة</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_34" class="north">
-                    <td class="english">But Come quickly O Lord</td>
-                    <td class="arabic">بل تعال يا ربي</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_35" class="north">
-                    <td class="english">and take me to heaven</td>
-                    <td class="arabic">وخذني للسما</td>
-                </tr>
-            </tbody>
-            <tbody ${tbodyClass} id="table_${tableNumber}_tbody_9">
-                <tr id="table_${tableNumber}_row_36" class="refrain">
-                    <td class="english">I am o Lord without you nothing at all</td>
-                    <td class="arabic">أنا يا رب دونك لا شئ أبدا</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_37" class="refrain">
-                    <td class="english">I am o Lord without you nothing at all</td>
-                    <td class="arabic">أنا يا رب دونك لا شئ أبدا</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_38" class="refrain">   
-                    <td class="english">So take my right hand O Lord and guide me</td>
-                    <td class="arabic">فأمسك يميني ربى وأهديني</td>
-                </tr>
-                <tr id="table_${tableNumber}_row_39" class="refrain">
-                    <td class="english">in your way forever</td>
-                    <td class="arabic">في طريقي دائما</td>
-                </tr>
-            </tbody>
-        </table>
-\n`;
-    return html;
+<table id="table_${tableNumber}" title="Don't Leave Me Alone">
+    <caption id="caption_table_${tableNumber}" class="caption">
+        Don't Leave Me Alone
+        <span class="arabic-caption">لا تتركني وحدي</span>
+    </caption>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_0">
+
+            <tr id="table_${tableNumber}_row_2" class="north">
+                <td class="english">No don't leave me alone, O my faithful shepherd.</td>
+                <td class="enPhonicsSongs">لا لا تتركني وحدي يا راعي الأمين</td>
+                <td class="arabic">La la tatrukni wahdi ya ra'i al-ameen</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_3" class="north">
+                <td class="english">Guide me dear master and be unto me a helper.</td>
+                <td class="enPhonicsSongs">قدني أنت ربي وسر معي يا معين</td>
+                <td class="arabic">Qudni anta Rabbi wa sir ma'ee ya mu'een</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
+
+            <tr id="table_${tableNumber}_row_4" class="Refrain">
+                <td class="english">(I am o Lord without you nothing at all) (2)</td>
+                <td class="enPhonicsSongs">Ana ya Rab doonak la shay' abadan (2)</td>
+                <td class="arabic">أنا يا رب دونك لا شئ أبدا (2)</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_5" class="Refrain">
+                <td class="english">(So take my right hand O Lord and guide me in your way forever) (2)</td>
+                <td class="enPhonicsSongs">Fa amsik yameeni Rabbi wa ahdini fee tareeqi da'iman</td>
+                <td class="arabic">فامسك يميني ربي واهدني في طريقي دائما</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
+
+            <tr id="table_${tableNumber}_row_6" class="south">
+                <td class="english">And don't leave me alone in the midst of this darkness</td>
+                <td class="enPhonicsSongs">ولا تتركني وحدي في وسط الظلام</td>
+                <td class="arabic">Wa la tatrukni wahdi fee wasat al-zalam</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_7" class="south">
+                <td class="english">Let your bright face guide me O Lord unto peace.</td>
+                <td class="enPhonicsSongs">إجعل وجهك يقودني يا رب للسلام</td>
+                <td class="arabic">Ij'al wajhak yaqooduni ya Rab lil-salaam</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
+
+            <tr id="table_${tableNumber}_row_8" class="Refrain">
+                <td class="english">(I am o Lord without you nothing at all) (2)</td>
+                <td class="enPhonicsSongs">Ana ya Rab doonak la shay' abadan (2)</td>
+                <td class="arabic">أنا يا رب دونك لا شئ أبدا (2)</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_9" class="Refrain">
+                <td class="english">(So take my right hand O Lord and guide me in your way forever) (2)</td>
+                <td class="enPhonicsSongs">Fa amsik yameeni Rabbi wa ahdini fee tareeqi da'iman</td>
+                <td class="arabic">فامسك يميني ربي واهدني في طريقي دائما</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_5">
+
+            <tr id="table_${tableNumber}_row_10" class="north">
+                <td class="english">And don't leave me alone but hear my prayers</td>
+                <td class="enPhonicsSongs">ولا تتركني وحدي بل اسمع صلاتي</td>
+                <td class="arabic">Wa la tatrukni wahdi bal isma' salati</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_11" class="north">
+                <td class="english">And be there for me redeemer for the rest of my life</td>
+                <td class="enPhonicsSongs">وقف أنت بجانبي ربي كل حياتي</td>
+                <td class="arabic">Waqif anta bijanibi Rabbi kul hayati</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_6">
+
+            <tr id="table_${tableNumber}_row_12" class="Refrain">
+                <td class="english">(I am o Lord without you nothing at all) (2)</td>
+                <td class="enPhonicsSongs">Ana ya Rab doonak la shay' abadan (2)</td>
+                <td class="arabic">أنا يا رب دونك لا شئ أبدا (2)</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_13" class="Refrain">
+                <td class="english">(So take my right hand O Lord and guide me in your way forever) (2)</td>
+                <td class="enPhonicsSongs">Fa amsik yameeni Rabbi wa ahdini fee tareeqi da'iman</td>
+                <td class="arabic">فامسك يميني ربي واهدني في طريقي دائما</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_7">
+
+            <tr id="table_${tableNumber}_row_14" class="south">
+                <td class="english">And don't leave me alone because of my sins</td>
+                <td class="enPhonicsSongs">ولا تتركني وحدي من أجل خطاياي</td>
+                <td class="arabic">Wa la tatrukni wahdi min ajl khatayaya</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_15" class="south">
+                <td class="english">But forgive me O lord and accept my repentance</td>
+                <td class="enPhonicsSongs">بل سامحني يا ربي إن زلت قدماي</td>
+                <td class="arabic">Bal samihni ya Rabbi in zalat qadamaya</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_8">
+
+            <tr id="table_${tableNumber}_row_16" class="Refrain">
+                <td class="english">(I am o Lord without you nothing at all) (2)</td>
+                <td class="enPhonicsSongs">Ana ya Rab doonak la shay' abadan (2)</td>
+                <td class="arabic">أنا يا رب دونك لا شئ أبدا (2)</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_17" class="Refrain">
+                <td class="english">(So take my right hand O Lord and guide me in your way forever) (2)</td>
+                <td class="enPhonicsSongs">Fa amsik yameeni Rabbi wa ahdini fee tareeqi da'iman</td>
+                <td class="arabic">فامسك يميني ربي واهدني في طريقي دائما</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_9">
+
+            <tr id="table_${tableNumber}_row_18" class="north">
+                <td class="english">No don't leave me alone in the midst of this world</td>
+                <td class="enPhonicsSongs">ولا تتركني وحدي في وسط الخطاة</td>
+                <td class="arabic">Wa la tatrukni wahdi fee wasat al-khata</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_19" class="north">
+                <td class="english">But Come quickly O Lord and take me to heaven</td>
+                <td class="enPhonicsSongs">بل تعال يا ربي وخذني للسما</td>
+                <td class="arabic">Bal ta'al ya Rabbi wakhudhni lil-sama</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_10">
+
+            <tr id="table_${tableNumber}_row_20" class="Refrain">
+                <td class="english">(I am o Lord without you nothing at all) (2)</td>
+                <td class="enPhonicsSongs">Ana ya Rab doonak la shay' abadan (2)</td>
+                <td class="arabic">أنا يا رب دونك لا شئ أبدا (2)</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_21" class="Refrain">
+                <td class="english">(So take my right hand O Lord and guide me in your way forever) (2)</td>
+                <td class="enPhonicsSongs">Fa amsik yameeni Rabbi wa ahdini fee tareeqi da'iman</td>
+                <td class="arabic">فامسك يميني ربي واهدني في طريقي دائما</td>
+            </tr>
+        </tbody>
+</table>`;
+return html;
 },
+
 
 drawAPortraitOfTheVirgin(tableNumber) { 
     const isOnePageChecked = userSettings('Songs', 'onePage'); // Example usage
@@ -2584,96 +2592,116 @@ let html = `
             <tbody ${tbodyClass} id="table_${tableNumber}_tbody_1">
                 <tr id="table_${tableNumber}_row_2" class="south">
                     <td class="english">Where He leads me I will follow</td>
+                    <td class="enPhonicsSongs">Hayth qadani asir</td>
                     <td class="arabic">حيث قادنى اسير</td>
                 </tr>
                 <tr id="table_${tableNumber}_row_3" class="south">
                     <td class="english">I will go, with Him all the way</td>
+                    <td class="enPhonicsSongs">Amshi ma'ak dumaan kull hayn</td>
                     <td class="arabic">أمشى معك دوماً كل حين.</td>
                 </tr>
             </tbody>
             <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
                 <tr id="table_${tableNumber}_row_4" class="north">
                     <td class="english">If He leads me to crucifixion</td>
+                    <td class="enPhonicsSongs">Law qadani lilsalib</td>
                     <td class="arabic">ولو قادنى للصلب</td>
                 </tr>
                 <tr id="table_${tableNumber}_row_5" class="north">
                     <td class="english">I will go, with Him all the way</td>
+                    <td class="enPhonicsSongs">Amshi ma'ak dumaan kull hayn</td>
                     <td class="arabic">أمشى معك دوماً كل حين.</td>
                 </tr>
             </tbody>
             <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
                 <tr id="table_${tableNumber}_row_6" class="south">
                     <td class="english">If He leads me to the judgment</td>
+                    <td class="enPhonicsSongs">Law ila jithmani</td>
                     <td class="arabic">ولو إلى جثمانى</td>
                 </tr>
                 <tr id="table_${tableNumber}_row_7" class="south">
                     <td class="english">I will go, with Him all the way</td>
+                    <td class="enPhonicsSongs">Amshi ma'ak dumaan kull hayn</td>
                     <td class="arabic">أمشى معك دوماً كل حين.</td>
                 </tr>
             </tbody>
             <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
                 <tr id="table_${tableNumber}_row_8" class="north">
                     <td class="english">If in war or in peace</td>
+                    <td class="enPhonicsSongs">En fi harb amsalam</td>
                     <td class="arabic"> أن فى حرب أم سلام</td>
                 </tr>
                 <tr id="table_${tableNumber}_row_9" class="north">
                     <td class="english">I will go, with Him all the way</td>
+                    <td class="enPhonicsSongs">Amshi ma'ak dumaan kull hayn</td>
                     <td class="arabic">أمشى معك دوماً كل حين.</td>
                 </tr>
             </tbody>
             <tbody ${tbodyClass} id="table_${tableNumber}_tbody_5">
                 <tr id="table_${tableNumber}_row_10" class="south">
                     <td class="english">If in health or in sickness</td>
+                    <td class="enPhonicsSongs">Fi saha am seqam</td>
                     <td class="arabic">فى صحه ام سقام</td>
                 </tr>
                 <tr id="table_${tableNumber}_row_11" class="south">
                     <td class="english">I will go, with Him all the way</td>
+                    <td class="enPhonicsSongs">Amshi ma'ak dumaan kull hayn</td>
                     <td class="arabic">أمشى معك دوماً كل حين.</td>
                 </tr>
             </tbody>
             <tbody ${tbodyClass} id="table_${tableNumber}_tbody_6">
                 <tr id="table_${tableNumber}_row_12" class="north">
                     <td class="english">If I am beaten or afflicted</td>
+                    <td class="enPhonicsSongs">Law durbt aw ohnto</td>
                     <td class="arabic">لو ضربت او اوهنت</td>
                 </tr>
                 <tr id="table_${tableNumber}_row_13" class="north">
                     <td class="english">I will go, with Him all the way</td>
+                    <td class="enPhonicsSongs">Amshi ma'ak dumaan kull hayn</td>
                     <td class="arabic">أمشى معك دوماً كل حين.</td>
                 </tr>
             </tbody>
             <tbody ${tbodyClass} id="table_${tableNumber}_tbody_7">
                 <tr id="table_${tableNumber}_row_14" class="south">
                     <td class="english">If in jail or in chains</td>
+                    <td class="enPhonicsSongs">Law sijn aw ragmto</td>
                     <td class="arabic">لو سجنت او رجمت</td>
                 </tr>
                 <tr id="table_${tableNumber}_row_15" class="south">
                     <td class="english">I will go, with Him all the way</td>
+                    <td class="enPhonicsSongs">Amshi ma'ak dumaan kull hayn</td>
                     <td class="arabic">أمشى معك دوماً كل حين.</td>
                 </tr>
             </tbody>
             <tbody ${tbodyClass} id="table_${tableNumber}_tbody_8">
                 <tr id="table_${tableNumber}_row_16" class="north">
                     <td class="english">He will lead me to grace and glory</td>
+                    <td class="enPhonicsSongs">Sa yaqodani lilzafre</td>
                     <td class="arabic">سيقودنى للظفر</td>
                 </tr>
                 <tr id="table_${tableNumber}_row_17" class="north">
                     <td class="english">I will go, with Him all the way</td>
+                    <td class="enPhonicsSongs">Amshi ma'ak dumaan kull hayn</td>
                     <td class="arabic">أمشى معك دوماً كل حين.</td>
                 </tr>
             </tbody>
             <tbody ${tbodyClass} id="table_${tableNumber}_tbody_9">
                 <tr id="table_${tableNumber}_row_18" class="south">
+                    <td class="enPhonicsSongs">Wa ya'khodni lil majd</td>
                     <td class="arabic">ويأخذنى للمجد</td>
                 </tr>
                 <tr id="table_${tableNumber}_row_19" class="south">
+                    <td class="enPhonicsSongs">Amshi ma'ak dumaan kull hayn</td>
                     <td class="arabic">أمشى معك دوماً كل حين.</td>
                 </tr>
             </tbody>
             <tbody ${tbodyClass} id="table_${tableNumber}_tbody_10">
                 <tr id="table_${tableNumber}_row_20" class="refrain">
+                    <td class="enPhonicsSongs">Rabbi ajdibni wara'ak</td>
                     <td class="arabic">ربى اجذبنى ورائك</td>
                 </tr>
                 <tr id="table_${tableNumber}_row_21" class="refrain">
+                    <td class="enPhonicsSongs">Amshi ma'ak dumaan kull hayn</td>
                     <td class="arabic">أمشى معك دوماً كل حين.</td>
                 </tr>
             </tbody>
@@ -3204,39 +3232,81 @@ let html = `
             </tr>
         </tbody>
         <tbody ${tbodyClass} id="table_${tableNumber}_tbody_1">
-
-            <tr id="table_${tableNumber}_row_4" class="south">
-                <td class="english">Our fathers trusted and delivered them</td>
+            <tr id="table_${tableNumber}_row_4" class="refrain">
+                <td class="english">Into Your Hands, We commend our spirits O Lord</td>
             </tr>
-        
-            <tr id="table_${tableNumber}_row_5" class="south">
-                <td class="english">To you they cry, and they escaped</td>
+            <tr id="table_${tableNumber}_row_5" class="refrain">
+                <td class="english">Into Your Hands, We commend our hearts</td>
             </tr>
-        
-            <tr id="table_${tableNumber}_row_6" class="south">
-                <td class="english">In you they trusted when darkness came their way</td>
+            <tr id="table_${tableNumber}_row_6" class="refrain">
+                <td class="english">For we must die to ourselves in loving You</td>
             </tr>
-        
-            <tr id="table_${tableNumber}_row_7" class="south">
-                <td class="english">And in your goodness you made them free</td>
+            <tr id="table_${tableNumber}_row_7" class="refrain">
+                <td class="english">Into Your Hands we commend our love</td>
             </tr>
         </tbody>
         <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
 
-            <tr id="table_${tableNumber}_row_8" class="north">
+            <tr id="table_${tableNumber}_row_8" class="south">
+                <td class="english">Our fathers trusted and You delivered them</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_9" class="south">
+                <td class="english">To You they cry, and they escaped</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_10" class="south">
+                <td class="english">In You they trusted when darkness came their way</td>
+            </tr>
+        
+            <tr id="table_${tableNumber}_row_11" class="south">
+                <td class="english">And in Your goodness You made them free</td>
+            </tr>
+        </tbody>
+                <tbody ${tbodyClass} id="table_${tableNumber}_tbody_3">
+            <tr id="table_${tableNumber}_row_12" class="refrain">
+                <td class="english">Into Your Hands, We commend our spirits O Lord</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_13" class="refrain">
+                <td class="english">Into Your Hands, We commend our hearts</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_14" class="refrain">
+                <td class="english">For we must die to ourselves in loving You</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_15" class="refrain">
+                <td class="english">Into Your Hands we commend our love</td>
+            </tr>
+        </tbody>
+        <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
+
+            <tr id="table_${tableNumber}_row_16" class="north">
                 <td class="english">You've been my guide since I was very young</td>
             </tr>
         
-            <tr id="table_${tableNumber}_row_9" class="north">
+            <tr id="table_${tableNumber}_row_17" class="north">
                 <td class="english">You showed the way when I needed someone's hand</td>
             </tr>
         
-            <tr id="table_${tableNumber}_row_10" class="north">
+            <tr id="table_${tableNumber}_row_18" class="north">
                 <td class="english">But now I'm lonely, nobody is at my side</td>
             </tr>
         
-            <tr id="table_${tableNumber}_row_11" class="north">
+            <tr id="table_${tableNumber}_row_19" class="north">
                 <td class="english">Stay near my Lord, and be my friend.</td>
+            </tr>
+        </tbody>
+                <tbody ${tbodyClass} id="table_${tableNumber}_tbody_5">
+            <tr id="table_${tableNumber}_row_20" class="refrain">
+                <td class="english">Into Your Hands, We commend our spirits O Lord</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_21" class="refrain">
+                <td class="english">Into Your Hands, We commend our hearts</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_22" class="refrain">
+                <td class="english">For we must die to ourselves in loving You</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_23" class="refrain">
+                <td class="english">Into Your Hands we commend our love</td>
             </tr>
         </tbody>
 </table>`;

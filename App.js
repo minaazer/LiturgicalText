@@ -1,7 +1,8 @@
 /* global require */
 import 'react-native-gesture-handler';
-import React, { useCallback, useEffect } from 'react';
-import { StatusBar, Alert , Linking } from 'react-native';
+import React, { useCallback, useEffect, useContext } from 'react';
+import * as Updates from 'expo-updates'; // Import Updates for reloading
+import { StatusBar, Alert , Linking , Platform } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import * as SplashScreen from 'expo-splash-screen';
 import RootNavigation from './components/navigation/RootNavigation';
@@ -12,6 +13,9 @@ import { useFonts } from 'expo-font';
 import VersionCheck from 'react-native-version-check';
 import app from './app.json';
 import Constants from 'expo-constants';
+import * as ScreenOrientation from 'expo-screen-orientation';
+import SettingsContext from './settings/settingsContext';
+
 
 
 
@@ -19,8 +23,12 @@ import Constants from 'expo-constants';
 // Prevent the splash screen from auto-hiding
 SplashScreen.preventAutoHideAsync();
 
-const App = () => {
+const AppContent = () => {
   useKeepAwake();
+
+  const [settings] = useContext(SettingsContext);
+
+  console.log('orientation', settings.orientation);
 
   const [fontsLoaded, fontError] = useFonts({
     'CS New Athanasius': require('./assets/fonts/cs-new-athanasius.ttf'), // adjust the path as needed
@@ -37,11 +45,53 @@ const App = () => {
     'Georgia Bold': require('./assets/fonts/georgiab.ttf'),
   });
 
+  // Reload app when orientation changes
+  useEffect(() => {
+    const handleOrientationChange = async ({ orientationInfo }) => {
+      const { orientation } = orientationInfo;
+      const desiredOrientation =
+        settings.orientation === "landscape"
+          ? ScreenOrientation.Orientation.LANDSCAPE_LEFT
+          : ScreenOrientation.Orientation.PORTRAIT_UP;
+      const isRunningInExpoGo = Constants.executionEnvironment === 'storeClient';
+      if (orientation !== desiredOrientation && !isRunningInExpoGo) {
+        console.log("Orientation changed. Reloading app...");
+        await Updates.reloadAsync();
+      }
+    };
+
+    const subscription = ScreenOrientation.addOrientationChangeListener(
+      handleOrientationChange
+    );
+
+    return () => {
+      ScreenOrientation.removeOrientationChangeListener(subscription);
+    };
+  }, [settings.orientation]);
+
+  // Enforce orientation when app starts
+  useEffect(() => {
+    const enforceOrientation = async () => {
+      if (settings.orientation === "landscape") {
+        await ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.LANDSCAPE);
+      } else if (settings.orientation === "portrait") {
+        await ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.PORTRAIT);
+      }
+    };
+
+    enforceOrientation();
+  }, [settings.orientation]);
   
+
  // Check for updates
  useEffect(() => {
-  checkForStoreUpdates();
+
+  const isRunningInExpoGo = Constants.executionEnvironment === 'storeClient';
+  if (!isRunningInExpoGo) {
+    checkForStoreUpdates();
+  }
 }, []);
+
 
 const checkForStoreUpdates = async () => {
   try {
@@ -59,8 +109,10 @@ const checkForStoreUpdates = async () => {
           {
             text: 'Update',
             onPress: async () => {
-              const storeUrl = await VersionCheck.getStoreUrl();
-              if (storeUrl) {
+                const storeUrl = Platform.OS === 'ios'
+                  ? `https://apps.apple.com/app/id6470239938`
+                  : await VersionCheck.getStoreUrl();
+                if (storeUrl) {
                 Linking.openURL(storeUrl);
               }
             },
@@ -88,7 +140,6 @@ const checkForStoreUpdates = async () => {
   }
 
   return (
-    <SettingsProvider>
       <SafeAreaProvider>
         <SafeAreaView onLayout={onLayoutRootView} style={{ flex: 1, backgroundColor: 'black' }}>
           <NavigationContainer>
@@ -97,6 +148,13 @@ const checkForStoreUpdates = async () => {
           </NavigationContainer>
         </SafeAreaView>
       </SafeAreaProvider>
+  );
+};
+
+const App = () => {
+  return (
+    <SettingsProvider>
+      <AppContent />
     </SettingsProvider>
   );
 };

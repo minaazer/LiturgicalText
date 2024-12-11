@@ -502,16 +502,16 @@ const LeftDrawerContent = ({ navigation, currentRoute, ...props }) => {
         labelStyle={presentationStyles.drawerLabel}
         onPress={() => closeDrawerAndNavigate("Calendar")}
       />
-      {developerMode && (
+      
             <DrawerItem
         label="Saints Settings"
         style={presentationStyles.drawerItem}
         labelStyle={presentationStyles.drawerLabel}
         onPress={() => closeDrawerAndNavigate("SaintSettings")}
       />
-      )}
-            {developerMode && (
-            <DrawerItem
+    
+      {developerMode && (
+        <DrawerItem
         label="Doxologies"
         style={presentationStyles.drawerItem}
         labelStyle={presentationStyles.drawerLabel}

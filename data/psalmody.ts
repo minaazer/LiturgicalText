@@ -24,6 +24,7 @@ export const psalmody = (settings) => {
     let {
         postTenthino = '',
         postFirstCanticle = '',
+        preSecondCanticle = '',
         postSecondCanticle = '',
         postThirdCanticle = '',
         commemoration = annualCommemoration(25),
@@ -41,25 +42,25 @@ export const psalmody = (settings) => {
         postFirstCanticle = 
             getKiahkPraiseHtml("praiseAfterThe1stCanticle" , 6.1) +
             (dayOfWeek === 0 ? getKiahkPraiseHtml("praiseAfterMondayTheotokia" , 6.2) : '') +
-            (dayOfWeek === 0 ? getKiahkPraiseHtml("praiseAfterTuesdayTheotokia" , 6.3): '') +
-            getKiahkPraiseHtml("psaliAdamOn2ndCanticle" , 6.4);
+            (dayOfWeek === 0 ? getKiahkPraiseHtml("praiseAfterTuesdayTheotokia" , 6.3): '');
+        preSecondCanticle = getKiahkPraiseHtml("psaliAdamOn2ndCanticle" , 6.4);
         postSecondCanticle = 
             getKiahkPraiseHtml("praiseAfter2ndCanticleLobsh" , 11.1) +
             (dayOfWeek === 0 ? getKiahkPraiseHtml("praiseAfterWednesdayTheotokia" , 11.2):'') +
             (dayOfWeek === 0 ? getKiahkPraiseHtml("praiseAfterThursdayTheotokia" , 11.3):'') +
             getKiahkPraiseHtml("psaliAdamOn3rdCanticle" , 11.4) +
-            getKiahkPraiseHtml("secondPsaliAdamOn3rdCanticle" , 11.5);
-        postThirdCanticle = getKiahkPraiseHtml("praiseOnPsaliOfTheThreeYoungMenHtml" , 18.1);
+            getKiahkPraiseHtml("secondPsaliAdamOn3rdCanticle" , 11.5) +
+            getKiahkPraiseHtml("KiahkPraisefortheHolyTrinity" , 11.6);
+        postThirdCanticle = getKiahkPraiseHtml("praiseOnPsaliOfTheThreeYoungMen" , 18.1);
         commemoration = 
             getKiahkPraiseHtml("kiahkCommemoration" , 25.1) +
             getKiahkPraiseHtml("praiseForStAnthonyTheGreat" , 25.2) +
             getKiahkPraiseHtml("praiseForStMaximosAndDomadios" , 25.3) +
             getKiahkPraiseHtml("praiseForStSamuelTheConfessor" , 25.4);
-        fourthCanticle = getKiahkPraiseHtml("fourthCanticleKiahk" , 35);
-        postFourthCanticle = getKiahkPraiseHtml("praiseAdamOnAikoti" , 36);
+        fourthCanticle = (adam ? getKiahkPraiseHtml("AdamPsali_ComeLetUsWorship" , 35) : '') + getKiahkPraiseHtml("fourthCanticleKiahk" , 35.1);
+        postFourthCanticle = (dayOfWeek === 0 ? getKiahkPraiseHtml("praiseAdamOnAikoti" , 36) : '');
         postPsali = 
-            getKiahkPraiseHtml("iOpenMyMouthWithPraise" , 50.1) +
-            getKiahkPraiseHtml("AdamPsali_ComeLetUsWorship" , 50.2);
+            (dayOfWeek === 0 ? getKiahkPraiseHtml("iOpenMyMouthWithPraise" , 50.1) : '');
         switch (dayOfWeek) {
             case 1:
                 preTheotokia = getKiahkPraiseHtml("praiseAfterMondayTheotokia" , 55);
@@ -548,10 +549,9 @@ return `
             </tr>
         </tbody>
     </table>
-
-    ${weekDaySundayPostFirstCanticle}
     ${postFirstCanticle}
-
+    ${weekDaySundayPostFirstCanticle}
+    ${preSecondCanticle}
     <table id="table_9" style="display: table;" title="2nd Canticle">
         <caption id="caption_table_9" class="caption">2nd Canticle
             <span class="arabic-caption">الهوس الثانى</span>

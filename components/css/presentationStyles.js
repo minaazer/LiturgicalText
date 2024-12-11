@@ -31,7 +31,7 @@ export const presentationStyles = StyleSheet.create({
   },
   webview: {
     flex: 1,
-    pointerEvents: "none",
+    pointerEvents: "auto",
   },
   leftControl: {
     position: "absolute",
@@ -348,7 +348,15 @@ export const presentationStyles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "flex-start",
   },
+  twoColumnSettingsContainer:{
+    width: "100%",
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "space-evenly",
+    alignItems: "center",
+    flexWrap: "wrap",
 
+  },
   fontSetting: {
     display: "flex",
     flexDirection: Platform.OS === "ios" ? "column" : "row",
@@ -378,8 +386,9 @@ export const presentationStyles = StyleSheet.create({
 
   languagesContainer: {
     width: "100%",
-    flexDirection: Platform.OS === "ios" ? "column" : "row",
-    justifyContent: "space-between",
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
     paddingVertical: 5,
 
     flexWrap: "wrap",
@@ -399,6 +408,15 @@ export const presentationStyles = StyleSheet.create({
     fontWeight: "bold",
     marginBottom: "0%",
     color: "black",
+  },
+  checkboxWrapper: {
+    width: "30",
+    height: "30",
+    borderWidth: Platform.OS === "ios" ? 1 : 0, // Border width
+    borderColor: 'black', // Border color
+    borderRadius: 50,     // Optional: rounded corners
+    padding: 0,
+    margin: 3,          // Space between border and checkbox
   },
 
   button: {

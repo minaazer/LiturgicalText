@@ -199,7 +199,7 @@ return `
         </tbody>
     </table>
     <p></p>
-    <table id="table_1" style="display: table;" title="Kiahk Ode">
+    <table id="table_1" style="display: table;" class="continued" title="Kiahk Ode">
         <caption id="caption_table_1" class="caption">Kiahk Ode
         <span class="arabic-caption">الهوس الكيهكي</span>
         </caption>
@@ -460,7 +460,7 @@ return `
         <tbody>
     </table>
     <table id="table_1.5" style="display: table;" title="...Continuation of Kiahk Ode">
-        <caption id="caption_table_1.5" class="caption" style="display:none">...Continuation of Kiahk Ode</caption>
+        <caption id="caption_table_1.5" class="caption" style="display:none"></caption>
         <tbody>
             <tr id="table_1.5_row_37" class="south">
                 <td class="english" >God be merciful to us and bless us, and cause
@@ -501,7 +501,7 @@ return `
             </tr>
         </tbody>
     </table>
-    <table id="table_2" style="display: table;" title="Amen, Alleluia">
+    <table id="table_2" style="display: table;" class="continued" title="Amen, Alleluia">
         <caption id="caption_table_2" class="caption">Amen, Alleluia
         <span class="arabic-caption">أمين الليلويا</span>
         </caption>
@@ -720,7 +720,7 @@ return `
             <tbody>
     </table>
     <table id="table_2.5" style="display: table;" title="...Continuation of Amen, Alleluia">
-        <caption id="caption_table_2.5" class="caption" style="display:none">...Continuation of Amen, Alleluia</caption>
+        <caption id="caption_table_2.5" class="caption" style="display:none"></caption>
         <tbody>
             <tr id="table_2.5_row_42" class="south">
                 <td class="english" >He said, "Blessed is the man: Who is

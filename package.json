@@ -43,7 +43,8 @@
     "react-native-version-check": "^3.4.7",
     "react-native-webview": "13.12.4",
     "react-paginate": "^8.2.0",
-    "typescript": "~5.3.3"
+    "typescript": "~5.3.3",
+    "expo-screen-orientation": "~8.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.24.0",

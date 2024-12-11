@@ -3,9 +3,9 @@ import { cross , skip } from '../repeatedPrayers'
 
 const kiahkPraises = {
 kiahkOde(tableNumber) {
-    const continuationTableNumber = tableNumber + 0.5;
+    const continuationTableNumber = tableNumber + '.5';
     const html = `
-        <table id="table_${tableNumber}" style="display: table;" title="Kiahk Ode">
+        <table id="table_${tableNumber}" style="display: table;" class="continued" title="Kiahk Ode">
         <caption id="caption_table_${tableNumber}" class="caption">Kiahk Ode
         <span class="arabic-caption">الهوس الكيهكي</span>
         </caption>
@@ -266,7 +266,7 @@ kiahkOde(tableNumber) {
         <tbody>
     </table>
     <table id="table_${continuationTableNumber}" style="display: table;" title="...Continuation of Kiahk Ode">
-        <caption id="caption_table_${continuationTableNumber}" class="caption" style="display:none">...Continuation of Kiahk Ode</caption>
+        <caption id="caption_table_${continuationTableNumber}" class="caption" style="display:none"></caption>
         <tbody>
             <tr id="table_${continuationTableNumber}_row_37" class="south">
                 <td class="english" >God be merciful to us and bless us, and cause
@@ -311,9 +311,9 @@ kiahkOde(tableNumber) {
 }
 ,
 amenAlleluia(tableNumber) {
-    const continuationTableNumber = tableNumber + 0.5;
+    const continuationTableNumber = tableNumber + '.5';
     const html = `
-    <table id="table_${tableNumber}" style="display: table;" title="Amen, Alleluia">
+    <table id="table_${tableNumber}" style="display: table;" class="continued" title="Amen, Alleluia">
         <caption id="caption_table_${tableNumber}" class="caption">Amen, Alleluia
         <span class="arabic-caption">أمين الليلويا</span>
         </caption>
@@ -532,7 +532,7 @@ amenAlleluia(tableNumber) {
             <tbody>
     </table>
         <table id="table_${continuationTableNumber}" style="display: table;" title="...Continuation of Amen, Alleluia">
-        <caption id="caption_table_${continuationTableNumber}" class="caption" style="display:none">...Continuation of Amen, Alleluia</caption>
+        <caption id="caption_table_${continuationTableNumber}" class="caption" style="display:none"></caption>
         <tbody>
             <tr id="table_${continuationTableNumber}_row_42" class="south">
                 <td class="english" >He said, "Blessed is the man: Who is
@@ -2336,6 +2336,119 @@ title="2nd Psali Adam on the 3rd Canticle (I Thank You O God of Jacob)">
     return html;
 }
 ,
+KiahkPraisefortheHolyTrinity(tableNumber) {
+    const html = `
+    <table id="table_${tableNumber}" style="display: table;" title="Kiahk Praise for the Holy Trinity">
+    
+    <caption id="caption_table_${tableNumber}" class="caption">Kiahk Praise for the Holy Trinity
+        <span class="arabic-caption">مديح كيهكي للثالوث القدوس</span>
+    </caption>
+    <tbody>
+    
+        <tr id="table_${tableNumber}_row_0" class="north">
+            <td class="english">We worship the Holy Trinity: The Father, Son, and the Holy Spirit: We worship, we praise and sanctify: One God, Creator of mankind.</td>
+            <td class="arabic">السجود يَليق للثالوث القدوس: الآب والإبن والروح القُدُس: نسجد ونُسبِّح ونُقدِّس: لإله واحد خالق الأنفُس.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_1" class="north">
+            <td class="english">To Him is glory and honor always: Also, the reverence and the kingdom: Ever existing before all ages: Everlasting and immortal.</td>
+            <td class="arabic">له المجد الدائم والإكرام: صاحب الهيبة والملكوت: قديم أزلي قبل الأيام: دائم باقي حي لا يموت.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_2" class="south">
+            <td class="english">Holy God, holy Mighty: Holy Immortal: Lord of the throne, the highest King: We preach the Holy Trinity.</td>
+            <td class="arabic">قدوس الله قدوس القوي: قدوس الحي الذي لا يموت: رب العرش الملك العُلوِي: نَكرِز ونُبَشِّر بالثالوث.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_3" class="south">
+            <td class="english">Blessed is the Father, the Pantocrator: Blessed is the Son, Jesus Christ: Blessed is the Holy Spirit, the eternal: We worship and praise Him.</td>
+            <td class="arabic">مبارك الآب ضابط الكلِّ: مبارك الإبن يسوع المسيح: مبارك روح قدسه الذي لا يزال: يجب له السجود مع التسبيح.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_4" class="north">
+            <td class="english">The almighty and great in power: The knowing, good and honored Judge: One God in three hypostaseis: Indescribable by any human.</td>
+            <td class="arabic">صاحب قدرة وسلطان عظيم: حَاكِم عَالِمْ جيد وكريم: إله واحد في ثلاثة أقانيم: يَعْجَزْ عن وَصفهِ كل فَهيم.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_5" class="north">
+            <td class="english">Of one essence and one nature: One Being in His divinity: The Three are one in essence: Without mingling or separation.</td>
+            <td class="arabic">جوهر واحد طَبعٌ واحد: وذات واحد في اللاهوت فريد: الثلاثة واحد في الجوهر: من غير تَفْريد ولا تقسيم.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_6" class="south">
+            <td class="english">One Being in three hypostaseis: Without mingling or separation: The Almighty in His kingdom: Filling the heavens and all therein.</td>
+            <td class="arabic">جوهر واحد في ثلاثة أقانيم: من غير تَفْريد ولا تقسيم: سُلطان واحد في مُلكه مُقيم: مالئ سماوات وكل الأقانيم.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_7" class="south">
+            <td class="english">A mystery above the human mind: In essence, They are one God: But according to Their existence: Three hypostaseis, one God.</td>
+            <td class="arabic">سِرٌّ يفوق البشرية: بحسب الجوهر إله واحد: وأما حسب الاُقنومية: هم الثلاثة إله واحد.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_8" class="north">
+            <td class="english">The Son begotten before all ages: Begotten from the Father: In natural birth: And the Holy Spirit proceeds from the Father.</td>
+            <td class="arabic">الإبن مولود من الأزلية: ليس لتقديم الإرادة وُلد من الآب: لكن ولادة طبيعية: والروح القدس منبثق من الآب.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_9" class="north">
+            <td class="english">As the sun gives rays and heat: The Sun disk is the source of both: Without division or separation: This is natural birth.</td>
+            <td class="arabic">كولادة شعاع الشمس وحرارتها: والقُرص الباعث للإثنين: وهذه الولادة طبيعية: لا مُنقطعين ولا مُنفصلين.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_10" class="south">
+            <td class="english">Three equal hypostaseis: In essence and divinity: Since the beginning of the ages: And to the eternal life.</td>
+            <td class="arabic">الثلاثة أقانيم مُتساوية: في الجوهر واللاهوتية: وفي قِدَم الأزلية: ودَوام الحياة الأبدية.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_11" class="south">
+            <td class="english">Daniel witnessed the throne: Upon it, the Ancient of Days: Of whom came the Son of Man: And granted Him honor and dominion.</td>
+            <td class="arabic">شاف دانيال كرسي أعيان: والجالس عليه عتيق الأيام: دَنَا منهُ إبنُ الإنسان: وأعطاه الكرامة والسلطان.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_12" class="north">
+            <td class="english">The throne appeared as lightening: Upon it, He sat as fire: His hair, as white as snow: Carrying it four creatures of fire.</td>
+            <td class="arabic">نظر الكرسي شَبيه البرق: والجالس عليه شَبيه النار: شعر رأسه أبيض كالثلج: حاملينه أربعة كائنات من نار.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_13" class="north">
+            <td class="english">The four having no bodies: One like a man, one like a calf: The third is like a lion: And the fourth like an eagle.</td>
+            <td class="arabic">رأى الأربعة من غير جسد: واحد في شِبه إنسان وواحد في شِبه ثور: والكائن الثالث شِبه أسد: والكائن الرابع شَبيه النسور.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_14" class="south">
+            <td class="english">A face for each being: With six wings and many eyes: Two wings to cover their feet: Two covering their face and two to fly.</td>
+            <td class="arabic">أربعة وُجُوه للواحد منهُم: وستة أجنحة وكُله عيون: بإثنين يغطون أرجلهُم: يسترون وجوههم بإثنين ويطيرون بإثنين.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_15" class="south">
+            <td class="english">Twenty-four priests upon their seats: With golden crowns bright as fire: In their hands, golden censers: Incense rising day and night.</td>
+            <td class="arabic">أربعة وعشرون قسيساً بكراسيهُم: وأكاليل ذهب تشعل كالنار: ومجامر ذهب في أيديهُم: ببخور صاعد ليلاً ونهار.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_16" class="north">
+            <td class="english">Surrounding the throne thousands of thousands: And myriads of myriads of archangels: With choirs of thrones and dominions: Chanting to Him with joyful voices.</td>
+            <td class="arabic">يحوط بالكرسي اُلوف اُلوف: ورؤساء ملائكة ربوات ربوات: كراسي وسلاطين صفوف صفوف: تُرتِّل له بأعلى الأصوات.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_17" class="north">
+            <td class="english">Praising Him with joyful sounds: With the cries of the creatures and priests: Saying, “Holy, holy, holy: O Living One, Lord of hosts.</td>
+            <td class="arabic">وعند صِياح الكائنات والقسوس: يصيحون جميعاً بأعلى صوت: صارخين قائلين "قدوس قدوس: قدوس الحي رب الصباؤوت.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_18" class="south">
+            <td class="english">Heaven and earth are full of: Your glory and Your praise: To You, is honor and power: And all creatures praise you.</td>
+            <td class="arabic">السماء والأرض مملوءة: من مجدك الفائق ومديحك: لك المجدُ لك القوة: وجميع البرايا لتسابيحك.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_19" class="south">
+            <td class="english">Alleluia Alleluia: To You, is greatness and majesty: To You, is glory and power: To You, is honor and kingdom.</td>
+            <td class="arabic">هلليلويا هلليلويا: لك العظمة والجبروت: لك المجد لك القوة: ولك الهيبة ولك الملكوت.</td>
+        </tr>
+        </tbody>
+</table>`;
+ return html;
+}
+,
 praiseOnPsaliOfTheThreeYoungMen(tableNumber) {
     const html = `
 <table id="${tableNumber}" style="display: table;" title="Praise on the Psali of the Three Young Men (God Existent Before The Ages)">
@@ -3879,7 +3992,7 @@ fourthCanticleKiahk(tableNumber) {
 return html;
 }
 ,
-praiseAdamOnAikoti(tableNumber) {
+OnAikoti(tableNumber) {
 const html = `
     <table id="table_${tableNumber}" style="display: table;" title="Praise Adam on Aikoti (I Praise a Virgin and Bride)">
         <caption id="caption_table_${tableNumber}" class="caption">Praise Adam on Aikoti <br />(I Praise a Virgin and Bride)

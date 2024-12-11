@@ -1219,45 +1219,44 @@ function listenToTableCaptions() {
             const table = document.getElementById(tableId);
             
             if (table) {
-
                 showSpinner(); // Show spinner before processing
                 document.getElementById('spinner-overlay').style.removeProperty('background-color');
-                document.getElementById('spinner-overlay').style.backgroundColor = 'rgba(20,20,20,0.8)'; // Make the spinner overlay semi-transparent
+                document.getElementById('spinner-overlay').style.backgroundColor = 'rgba(20,20,20,0.8)'; // Semi-transparent spinner overlay
 
                 const tableBodies = table.getElementsByTagName('tbody'); // Faster than querySelectorAll
 
                 if (tableBodies.length > 0) {
                     Array.from(tableBodies).forEach(tbody => {
-                        // Check if the table body (or rows) are hidden and toggle accordingly
-                        if (!tbody.style.display) {
-                            tbody.style.display = 'none'; // Hide the table body or rows
-                            this.classList.add('table-invisible'); // Add the class for plus icon/
-                            
-                            currentFileStates[tableId] = false;
-                            savedStates[fileKey] = currentFileStates;
-                            sendMessage(JSON.stringify({ type: 'setStoredItem', data: { key: 'tableStates', value: savedStates } }));
+                        const isHidden = tbody.style.display === 'none';
 
+                        // Toggle the display
+                        tbody.style.display = isHidden ? 'table-row-group' : 'none';
+                        this.classList.toggle('table-invisible', !isHidden);
+                        // Update state
+                        currentFileStates[tableId] = isHidden;
+                        savedStates[fileKey] = currentFileStates;
+                        sendMessage(JSON.stringify({ type: 'setStoredItem', data: { key: 'tableStates', value: savedStates } }));
 
-                        } else if (tbody.style.display === 'none' || tbody.style.display === '') {
-                            tbody.style.display = 'table-row-group'; // Show the table body or rows
-                            this.classList.remove('table-invisible'); // Remove the class for minus icon
-                            
-                            currentFileStates[tableId] = true;
-                            savedStates[fileKey] = currentFileStates;
-                            sendMessage(JSON.stringify({ type: 'setStoredItem', data: { key: 'tableStates', value: savedStates } }));
+                        // Check if the table has the "continued" class
+                        if (table.classList.contains('continued')) {
+                            // Calculate the next table ID
+                            const nextTableId = tableId + '.5'; // No special handling needed here for $
+                            const nextTable = document.getElementById(nextTableId);
 
+                            if (nextTable) {
+                                const nextTableBodies = nextTable.getElementsByTagName('tbody');
+                                Array.from(nextTableBodies).forEach(nextTbody => {
+                                    nextTbody.style.display = isHidden ? 'table-row-group' : 'none';
+                                });
 
-                        } else {
-                            tbody.style.display = 'none'; // Hide the table body or rows
-                            this.classList.add('table-invisible'); // Add the class for plus icon
-                            
-                            currentFileStates[tableId] = false;
-                            savedStates[fileKey] = currentFileStates;
-                            sendMessage(JSON.stringify({ type: 'setStoredItem', data: { key: 'tableStates', value: savedStates } }));
-
-
+                                // Update state for the next table
+                                currentFileStates[nextTableId] = isHidden;
+                                savedStates[fileKey] = currentFileStates;
+                                sendMessage(JSON.stringify({ type: 'setStoredItem', data: { key: 'tableStates', value: savedStates } }));
+                            }
                         }
                     });
+
                     // Re-paginate after the toggle
                     setTimeout(() => {
                         paginateTables(); // Simulate pagination with timeout (if needed)
@@ -1269,6 +1268,7 @@ function listenToTableCaptions() {
         });
     });
 }
+
 
 `;
 

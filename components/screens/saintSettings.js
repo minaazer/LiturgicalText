@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Text, View, ScrollView, TouchableOpacity } from 'react-native';
+import { Text, View, ScrollView, TouchableOpacity, Platform } from 'react-native';
 import { Checkbox } from 'react-native-paper';
 import SettingsContext from '../../settings/settingsContext';
 import { useNavigation } from '@react-navigation/native';
@@ -36,12 +36,16 @@ const SaintSettingsScreen = () => {
                 .map(item => (
                     <View key={item.name} style={presentationStyles.language}>
                         <Text style={presentationStyles.languageTitle}>{item.name}</Text> 
-                            
-                        <Checkbox
-                        status={item.visible ? 'checked' : 'unchecked'}
-                        onPress={() => handleVisibilityChange('doxologyFunctionNames', item.name)}
-                        color={'#e19d09'}
-                        />
+
+                        <View style={presentationStyles.checkboxWrapper}>  
+                          <Checkbox
+                          status={item.visible ? 'checked' : 'unchecked'}
+                          onPress={() => handleVisibilityChange('doxologyFunctionNames', item.name)}
+                          color={'#e19d09'} // Set color for iOS
+                          height={Platform.OS === 'ios' ? 30 : 0} // Set height for iOS
+                          width={Platform.OS === 'ios' ? 30 : 0} // Set width for iOS
+                          />
+                      </View>
                     </View>
                 ))
                 }
