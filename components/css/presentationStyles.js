@@ -187,7 +187,6 @@ export const presentationStyles = StyleSheet.create({
     padding: 10,
     backgroundColor: "#003060",
   },
-
   booksContainer: {
     flex: 3.5,
     marginLeft: -20,
@@ -359,12 +358,21 @@ export const presentationStyles = StyleSheet.create({
   },
   fontSetting: {
     display: "flex",
-    flexDirection: Platform.OS === "ios" ? "column" : "row",
-    alignItems: Platform.OS === "ios" ? "flex-start" : "center",
+    flexDirection: "column",
+    alignItems: "center",
     justifyContent: "space-between",
-    width: "30%",
-    marginBottom: "1%",
+    width: "50%",
+    marginBottom: 10,
   },
+  pickerWrapper: {
+    width: "100%",
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "space-evenly",
+    alignItems: "center",
+    
+  },
+  
   picker: {
     flex: 1,
     width: Platform.OS === "ios" ? "100%" : "auto",
@@ -377,7 +385,7 @@ export const presentationStyles = StyleSheet.create({
   },
 
   settingTitle: {
-    fontSize: screenWidth * 0.03,
+    fontSize: screenWidth * 0.022,
     fontWeight: "bold",
     flex: 1,
     color: "black",
@@ -387,7 +395,7 @@ export const presentationStyles = StyleSheet.create({
   languagesContainer: {
     width: "100%",
     flexDirection: "row",
-    justifyContent: "center",
+    justifyContent: "flex-start",
     alignItems: "center",
     paddingVertical: 5,
 
@@ -399,8 +407,9 @@ export const presentationStyles = StyleSheet.create({
     display: "flex",
     flexDirection: "row",
     alignItems: "center",
-    justifyContent: "space-between",
-    marginHorizontal: 15,
+    justifyContent: "Flex-start",
+    marginHorizontal: 10,
+    marginBottom: 5,
   },
 
   languageTitle: {
@@ -409,15 +418,8 @@ export const presentationStyles = StyleSheet.create({
     marginBottom: "0%",
     color: "black",
   },
-  checkboxWrapper: {
-    width: "30",
-    height: "30",
-    borderWidth: Platform.OS === "ios" ? 1 : 0, // Border width
-    borderColor: 'black', // Border color
-    borderRadius: 50,     // Optional: rounded corners
-    padding: 0,
-    margin: 3,          // Space between border and checkbox
-  },
+
+
 
   button: {
     backgroundColor: "#003060",
@@ -428,6 +430,24 @@ export const presentationStyles = StyleSheet.create({
     justifyContent: "center",
     width: "30%",
   },
+  titleContainer: {
+    flex: 1,
+    width: "100%",
+    justifyContent: "center", // Center content vertically
+    alignItems: "center", // Center content horizontally
+    position: "relative", // Ensure children can use absolute positioning
+},
+
+  backButton: {
+    position: "absolute", // Position absolutely within the container
+    top: 10, // Distance from the top of the container
+    left: 10, // Distance from the left of the container
+    backgroundColor: "grey",
+    borderRadius: 5,
+    paddingVertical: 5,
+    paddingHorizontal: 10,
+    justifyContent: "center",
+},
 
   buttonText: {
     color: "white",
@@ -514,5 +534,48 @@ export const presentationStyles = StyleSheet.create({
 
   inactiveButton: {
     backgroundColor: "#ccc",
+  },
+});
+
+export const pickerSelectStyles = StyleSheet.create({
+  inputIOS: {
+      fontSize: 16,
+      paddingVertical: 6,
+      paddingHorizontal: 20,
+      borderWidth: 0,
+      borderColor: 'black',
+      borderRadius: 20,
+      color: 'black',
+      paddingRight: 35, // to ensure the text is not overlapping the dropdown icon
+      backgroundColor: 'white',
+  },
+  inputAndroid: {
+      fontSize: 16,
+      fontWeight: 'bold',
+      paddingVertical: 4,
+      borderWidth: 0,
+      color: 'black',
+      backgroundColor: 'transparent',
+      textAlign: 'center',
+      width: '100%',
+      paddingHorizontal: 40,
+
+  },
+  inputAndroidContainer: {
+      borderWidth: 0,
+      alignSelf: 'center',
+      alignContent: 'center',
+      justifyContent: 'center',
+      width: '100%',
+
+  },
+  iconContainer: {
+      top: 5,
+      right: Platform.OS === 'ios' ? 5 : 10,
+    },
+
+  placeholder: {
+      color: 'black',
+      fontSize: 16,
   },
 });

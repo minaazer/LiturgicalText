@@ -1,12 +1,16 @@
 
 import React, { useContext , useEffect , useState } from 'react';
 import { Text, View, ScrollView, TouchableOpacity } from 'react-native';
-import { Picker } from '@react-native-picker/picker';
-import { Checkbox } from 'react-native-paper';
 import SettingsContext from '../../settings/settingsContext';
 import { useNavigation } from '@react-navigation/native';
 import { gregorianToCoptic } from '../functions/copticDate';
-import { presentationStyles } from '../css/presentationStyles';
+import { presentationStyles , pickerSelectStyles } from '../css/presentationStyles';
+import RNPickerSelect from 'react-native-picker-select';
+import { Ionicons } from '@expo/vector-icons';
+import BouncyCheckbox from 'react-native-bouncy-checkbox';
+
+
+
 
 
 const SettingsScreen = () => {
@@ -70,10 +74,15 @@ const SettingsScreen = () => {
     return (
         <View style={presentationStyles.settingsScreen}>
             <ScrollView contentContainerStyle={presentationStyles.settingsInnerContainer} style={presentationStyles.scrollView}>
+            <View style={presentationStyles.titleContainer}>
+                    <TouchableOpacity style={presentationStyles.backButton} onPress={handleBackPress}>
+                                <Text style={presentationStyles.buttonText}>Back</Text>
+                    </TouchableOpacity>
+                    <Text style={presentationStyles.screenTitle}>Settings</Text>
+                    </View>
 
-                <Text style={presentationStyles.screenTitle}>Settings</Text>
                 {copticDate ? (
-                    <Text>
+                    <Text style={presentationStyles.settingTitle}>
                         Coptic Date: {copticDate.copticMonthName} {copticDate.copticDay}, {copticDate.copticYear}
                     </Text>
                 ) : (
@@ -84,40 +93,53 @@ const SettingsScreen = () => {
                     <View style={presentationStyles.twoColumnSettingsContainer}>
                     <View style={presentationStyles.fontSetting}>
                         <Text style={presentationStyles.settingTitle}>Font Size</Text>
-                        <Picker
-                            selectedValue={settings.fontSize}
-                            mode= 'dropdown'
-                            style={presentationStyles.picker}
-                            onValueChange={(itemValue, itemIndex) => setFontSizeHandler(itemValue)}
-                            dropdownIconColor={'black'}
-                        >
-                            <Picker.Item label="1" value="1" />
-                            <Picker.Item label="2" value="1.5" />
-                            <Picker.Item label="3" value="2" />
-                            <Picker.Item label="4" value="2.5" />
-                            <Picker.Item label="5" value="3" />
-                            <Picker.Item label="6" value="3.5" />
-                            <Picker.Item label="7" value="4" />
-                            <Picker.Item label="8" value="4.5" />
-                            <Picker.Item label="9" value="5" />
-                            <Picker.Item label="10" value="5.5" />
-                            <Picker.Item label="11" value="6" />
-                            <Picker.Item label="12" value="6.5" />
+                        <View style={presentationStyles.pickerWrapper}>
+                            <RNPickerSelect
+                                onValueChange={(value) => setFontSizeHandler(value)}
+                                items={[
+                                    { label: '1', value: '1' },
+                                    { label: '2', value: '1.5' },
+                                    { label: '3', value: '2' },
+                                    { label: '4', value: '2.5' },
+                                    { label: '5', value: '3' },
+                                    { label: '6', value: '3.5' },
+                                    { label: '7', value: '4' },
+                                    { label: '8', value: '4.5' },
+                                    { label: '9', value: '5' },
+                                    { label: '10', value: '5.5' },
+                                    { label: '11', value: '6' },
+                                    { label: '12', value: '6.5' },
+                                ]}
+                                value={settings.fontSize}
+                                useNativeAndroidPickerStyle = {false}
+                                
+                                style={pickerSelectStyles}
+                                Icon={() => (
+                                    <Ionicons name="caret-down-outline" size={ 20} color="grey"/>
+                                ) }
 
-                        </Picker>
+                            />
+                        </View>
                     </View>
                     <View style={presentationStyles.fontSetting}>
                         <Text style={presentationStyles.settingTitle}>Screen Orientation</Text>
-
-                        <Picker
-                    style={presentationStyles.picker}
-                    selectedValue={settings.orientation}
-                    onValueChange={(value) => setOrientation(value)}
-                    >
-                    <Picker.Item label="Landscape" value="landscape" />
-                    <Picker.Item label="Portrait" value="portrait" />
-                    </Picker>
-
+                        <View style={presentationStyles.pickerWrapper}>
+                            <RNPickerSelect
+                                onValueChange={(value) => setOrientation(value)}
+                                items={[
+                                    { label: 'Landscape', value: 'landscape' },
+                                    { label: 'Portrait', value: 'portrait' },
+                                ]}
+                                value={settings.orientation}
+                                useNativeAndroidPickerStyle = {false}
+                                style={pickerSelectStyles}
+                                Icon={() => (
+                                    <Ionicons name="caret-down-outline" size={ 20} color="grey" 
+                                     />
+                                ) }
+                                
+                            />
+                        </View>
                     </View>
                     </View>
 
@@ -131,11 +153,18 @@ const SettingsScreen = () => {
 
                             {settings.languages && settings.languages.map((language, index) => (
                                 <View key={index} style={presentationStyles.language}>
-                                    <Text style={presentationStyles.languageTitle}>{language.label}</Text>
-                                    <Checkbox
-                                        status={language.checked ? 'checked' : 'unchecked'}
-                                        onPress={() => setLanguagesHandler(index, !language.checked)}
-                                        color={'#e19d09'}
+                                    <BouncyCheckbox
+                                        isChecked={language.checked} // Control the checked state
+                                        onPress={(isChecked) => setLanguagesHandler(index, isChecked)} // Update state on press
+                                        fillColor="#e19d09" // Checked state color
+                                        unfillColor="#FFFFFF" // Unchecked state background color
+                                        iconStyle={{ borderColor: 'black' }} // Border color when unchecked
+                                        text={language.label} // Display the label text
+                                        textStyle={{
+                                            textDecorationLine: 'none', // Remove strikethrough
+                                            color: 'black', // Optional: Set text color
+                                            fontSize: 16, // Optional: Adjust text size
+                                        }}
                                     />
                                 </View>
                             ))}
@@ -151,21 +180,26 @@ const SettingsScreen = () => {
 
                             {settings.onePage && settings.onePage.map((item, index) => (
                                 <View key={index} style={presentationStyles.language}>
-                                    <Text style={presentationStyles.languageTitle}>{item.label}</Text>
-                                    <Checkbox
-                                        status={item.checked ? 'checked' : 'unchecked'}
-                                        onPress={() => setOnePageHandler(index, !item.checked)}
-                                        color={'#e19d09'}
+                                    <BouncyCheckbox
+                                        isChecked={item.checked} // Control the checked state
+                                        onPress={(isChecked) => setOnePageHandler(index, isChecked)} // Update state on press
+                                        fillColor="#e19d09" // Checked state color
+                                        unfillColor="#FFFFFF" // Unchecked state background color
+                                        iconStyle={{ borderColor: 'black' }} // Border color when unchecked
+                                        text={item.label} // Display the label text
+                                        textStyle={{
+                                            textDecorationLine: 'none', // Remove strikethrough
+                                            color: 'black', // Optional: Set text color
+                                            fontSize: 16, // Optional: Adjust text size
+                                        }}
                                     />
+
                                 </View>
                             ))}
 
                         </View>
                     
                     </View>
-                    <TouchableOpacity style={presentationStyles.button} onPress={handleBackPress}>
-                            <Text style={presentationStyles.buttonText}>Apply Changes</Text>
-                    </TouchableOpacity>
                 </View>
             </ScrollView>
         </View>
@@ -173,3 +207,4 @@ const SettingsScreen = () => {
 }
 
 export default SettingsScreen;
+

@@ -152,7 +152,8 @@ const SettingsProvider = ({ children }) => {
 
   // Function to update the current date (either live or custom)
   const setCurrentDate = (date, type = "live") => {
-    const newDate = new Date(date);
+    // new date in local time
+    const newDate = new Date(date); 
     const selectedDateProperties = getSelectedDateProperties(
       newDate,
       settings.dayTransitionTime

@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useContext } from 'react';
-import { Text, View, ScrollView, TouchableOpacity , Platform , Button } from 'react-native';
+import { Text, View, ScrollView, TouchableOpacity , Platform , Modal } from 'react-native';
 import DateTimePicker from '@react-native-community/datetimepicker'; // Date Picker
 import { useNavigation } from '@react-navigation/native';
 import { gregorianToCoptic, getCopticSeasons } from '../functions/copticDate';
@@ -136,8 +136,12 @@ const CalendarScreen = () => {
     return (
         <View style={presentationStyles.settingsScreen}>
             <ScrollView contentContainerStyle={presentationStyles.settingsInnerContainer} style={presentationStyles.scrollView}>
-
-                <Text style={presentationStyles.screenTitle}>Calendar</Text>
+                <View style={presentationStyles.titleContainer}>
+                    <TouchableOpacity style={presentationStyles.backButton} onPress={handleBackPress}>
+                                <Text style={presentationStyles.buttonText}>Back</Text>
+                    </TouchableOpacity>
+                    <Text style={presentationStyles.screenTitle}>Calendar</Text>
+                </View>
 
                 
                 
@@ -231,7 +235,7 @@ const CalendarScreen = () => {
                     <DateTimePicker
                         value={selectedTime}
                         mode="time"
-                        display="default"
+                        display={Platform.OS === 'ios' ? 'spinner' : 'clock'}
                         onChange={handleTimeChange}
                     />
                 )}
@@ -241,7 +245,7 @@ const CalendarScreen = () => {
                     <DateTimePicker
                         value={currentDate || new Date()} // Default to current date from settings
                         mode="date"
-                        display="default"
+                        display={Platform.OS === 'ios' ? 'inline' : 'spinner'} // Use spinner for iOS
                         onChange={handleDateChange} // Handle date selection
                     />
                 )}

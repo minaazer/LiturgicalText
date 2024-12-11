@@ -451,20 +451,22 @@ return copticSeasons;
 // Get the date factoring in the day transition time (e.g., 12:00 PM)
 function getAdjustedDate(gregorianDate, dayTransitionTime) {
     const [transitionHour, transitionMinute] = dayTransitionTime.split(":").map(Number);
-
     // Check if the current time of gregorianDate is after the dayTransitionTime
-    const currentHours = gregorianDate.getHours();
+    const hoursOffset = gregorianDate.getTimezoneOffset() / 60;
+    
+    const currentHours = gregorianDate.getHours() + hoursOffset;
     const currentMinutes = gregorianDate.getMinutes();
 
     // Reset the hours to start at midnight (local time)
-    gregorianDate.setHours(0, 0, 0, 0);
+    const adjustedDate = new Date(gregorianDate);
+    adjustedDate.setHours(0, 0, 0, 0);
 
     if (currentHours > transitionHour || (currentHours === transitionHour && currentMinutes >= transitionMinute)) {
         // If it's after the transition time, treat the date as the next day
-        gregorianDate.setDate(gregorianDate.getDate() + 1);
+        adjustedDate.setDate(gregorianDate.getDate() + 1);
     }
 
-    return gregorianDate;
+    return adjustedDate;
 }
 
 // Utility function to compare dates and match the season

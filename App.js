@@ -26,9 +26,14 @@ SplashScreen.preventAutoHideAsync();
 const AppContent = () => {
   useKeepAwake();
 
-  const [settings] = useContext(SettingsContext);
+  const [settings, , setCurrentDate] = useContext(SettingsContext); // Access settings and setCurrentDate
 
-  console.log('orientation', settings.orientation);
+  const handleStateChange = () => {
+    if (settings.currentDate.type === 'live') {
+        setCurrentDate(new Date(), 'live');
+    }
+  };
+
 
   const [fontsLoaded, fontError] = useFonts({
     'CS New Athanasius': require('./assets/fonts/cs-new-athanasius.ttf'), // adjust the path as needed
@@ -47,42 +52,61 @@ const AppContent = () => {
 
   // Reload app when orientation changes
   useEffect(() => {
-    const handleOrientationChange = async ({ orientationInfo }) => {
-      const { orientation } = orientationInfo;
-      const desiredOrientation =
-        settings.orientation === "landscape"
-          ? ScreenOrientation.Orientation.LANDSCAPE_LEFT
-          : ScreenOrientation.Orientation.PORTRAIT_UP;
-      const isRunningInExpoGo = Constants.executionEnvironment === 'storeClient';
-      if (orientation !== desiredOrientation && !isRunningInExpoGo) {
-        console.log("Orientation changed. Reloading app...");
-        await Updates.reloadAsync();
-      }
+    const enforceAndHandleOrientationChange = async () => {
+        // Determine the desired orientation lock
+        const desiredOrientationLock =
+            settings.orientation === "landscape"
+                ? ScreenOrientation.OrientationLock.LANDSCAPE_LEFT
+                : ScreenOrientation.OrientationLock.PORTRAIT_UP;
+
+        try {
+            // Enforce the desired orientation lock
+            await ScreenOrientation.lockAsync(desiredOrientationLock);
+            console.log("Orientation enforced:", settings.orientation);
+
+            // Add listener to handle orientation changes
+            const handleOrientationChange = async ({ orientationInfo }) => {
+                const { orientation } = orientationInfo;
+                const isRunningInExpoGo = Constants.executionEnvironment === "storeClient";
+
+                if (orientation !== desiredOrientationLock && !isRunningInExpoGo) {
+                    console.log("Orientation mismatch detected. Reloading app...");
+                    await Updates.reloadAsync();
+                }
+            };
+
+            const subscription = ScreenOrientation.addOrientationChangeListener(
+                handleOrientationChange
+            );
+
+            // Cleanup listener on unmount
+            return () => {
+                ScreenOrientation.removeOrientationChangeListener(subscription);
+            };
+        } catch (error) {
+            console.error("Error enforcing or handling orientation:", error.message);
+        }
     };
 
-    const subscription = ScreenOrientation.addOrientationChangeListener(
-      handleOrientationChange
-    );
-
-    return () => {
-      ScreenOrientation.removeOrientationChangeListener(subscription);
-    };
-  }, [settings.orientation]);
-
+    enforceAndHandleOrientationChange();
+}, [settings.orientation]);
+/*
   // Enforce orientation when app starts
   useEffect(() => {
     const enforceOrientation = async () => {
       if (settings.orientation === "landscape") {
-        await ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.LANDSCAPE);
+        await ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.LANDSCAPE_LEFT);
       } else if (settings.orientation === "portrait") {
-        await ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.PORTRAIT);
+        await ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.PORTRAIT_UP);
       }
     };
 
     enforceOrientation();
   }, [settings.orientation]);
   
+*/
 
+  
  // Check for updates
  useEffect(() => {
 
@@ -142,7 +166,7 @@ const checkForStoreUpdates = async () => {
   return (
       <SafeAreaProvider>
         <SafeAreaView onLayout={onLayoutRootView} style={{ flex: 1, backgroundColor: 'black' }}>
-          <NavigationContainer>
+        <NavigationContainer onStateChange={handleStateChange}>
             <StatusBar hidden />
             <RootNavigation />
           </NavigationContainer>

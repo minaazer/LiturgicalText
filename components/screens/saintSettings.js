@@ -1,9 +1,10 @@
 import React, { useContext } from 'react';
 import { Text, View, ScrollView, TouchableOpacity, Platform } from 'react-native';
-import { Checkbox } from 'react-native-paper';
 import SettingsContext from '../../settings/settingsContext';
 import { useNavigation } from '@react-navigation/native';
 import { presentationStyles } from '../css/presentationStyles';
+import BouncyCheckbox from 'react-native-bouncy-checkbox';
+
 
 const SaintSettingsScreen = () => {
     const [settings, , , , , setTextVisibility] = useContext(SettingsContext);
@@ -25,35 +26,40 @@ const SaintSettingsScreen = () => {
     return (
         <View style={presentationStyles.settingsScreen}>
           <ScrollView contentContainerStyle={presentationStyles.settingsInnerContainer} style={presentationStyles.scrollView}>
-            <Text style={presentationStyles.screenTitle}>Saints Settings</Text>
+          <View style={presentationStyles.titleContainer}>
+                    <TouchableOpacity style={presentationStyles.backButton} onPress={handleBackPress}>
+                                <Text style={presentationStyles.buttonText}>Back</Text>
+                    </TouchableOpacity>
+                    <Text style={presentationStyles.screenTitle}>Saint Settings</Text>
+                    <Text style={presentationStyles.settingTitle}>Doxologies</Text>
+
+                </View>
     
             {/* Render doxology settings */}
-            <Text style={presentationStyles.settingTitle}>Doxologies</Text>
 
             <View style={presentationStyles.languagesContainer}>
               {doxologyFunctionNames
                 .filter(item => item.toggle === true) // Only include items where toggle is true
                 .map(item => (
                     <View key={item.name} style={presentationStyles.language}>
-                        <Text style={presentationStyles.languageTitle}>{item.name}</Text> 
-
-                        <View style={presentationStyles.checkboxWrapper}>  
-                          <Checkbox
-                          status={item.visible ? 'checked' : 'unchecked'}
-                          onPress={() => handleVisibilityChange('doxologyFunctionNames', item.name)}
-                          color={'#e19d09'} // Set color for iOS
-                          height={Platform.OS === 'ios' ? 30 : 0} // Set height for iOS
-                          width={Platform.OS === 'ios' ? 30 : 0} // Set width for iOS
-                          />
-                      </View>
+                        <BouncyCheckbox
+                          isChecked={item.visible} // Control the checked state
+                          onPress={(isChecked) => handleVisibilityChange('doxologyFunctionNames', item.name, isChecked)} // Update state on press
+                          fillColor="#e19d09" // Checked state color
+                          unfillColor="#FFFFFF" // Unchecked state background color
+                          iconStyle={{ borderColor: 'black' }} // Border color when unchecked
+                          textStyle={{
+                            textDecorationLine: 'none', // Remove strikethrough
+                            color: 'black', // Optional: Set text color
+                            fontSize: 16, // Optional: Adjust text size
+                        }}
+                          text={item.name} // No text needed for this checkbox
+                      />
                     </View>
                 ))
                 }
 
             </View>
-            <TouchableOpacity style={presentationStyles.button} onPress={handleBackPress}>
-                    <Text style={presentationStyles.buttonText}>Apply Changes</Text>
-            </TouchableOpacity>
         </ScrollView>
     </View>
 );

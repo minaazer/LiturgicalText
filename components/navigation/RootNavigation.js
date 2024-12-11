@@ -615,6 +615,7 @@ const MainStackNavigator = () => {
 const RootNavigation = () => {
 
   const navigation = useNavigation();
+  
 
   // Ensure the left drawer fully opens or closes
   useEffect(() => {
