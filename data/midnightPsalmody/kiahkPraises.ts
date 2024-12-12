@@ -2451,7 +2451,7 @@ KiahkPraisefortheHolyTrinity(tableNumber) {
 ,
 praiseOnPsaliOfTheThreeYoungMen(tableNumber) {
     const html = `
-<table id="${tableNumber}" style="display: table;" title="Praise on the Psali of the Three Young Men (God Existent Before The Ages)">
+<table id="table_${tableNumber}" style="display: table;" title="Praise on the Psali of the Three Young Men (God Existent Before The Ages)">
 <caption id="caption_${tableNumber}" class="caption">Praise on the Psali of the Three Young Men <br /> (God Existent Before The Ages)
     <span class="arabic-caption">مديح على ابصاية الثلاثة فتية <br>(الله الأزلى قبل الأدهار)</span>
 </caption>

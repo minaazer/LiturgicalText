@@ -3704,7 +3704,6 @@ const doxologyFunctionNames = [
     { name: "Sts. Barbara and Juliana", functions: ["stsBerbaraAndJulianaDoxology"], visible: false , toggle: true},
     { name: "St. Marina the Martyr", functions: ["stMarinastMarinatheMartyrDoxologyDoxology"], visible: false , toggle: true},
     { name: "Any Female Martyr", functions: ["anyFemaleMartyrDoxology"], visible: false , toggle: true},
-
     { name: "St. Anthony the Great", functions: ["stAnthonyDoxology","stAnthonyAndStPaulDoxology"], visible: false , toggle: true},
     { name: "St. Athanasius the Apostolic", functions: ["stAthanasiusDoxology"], visible: false , toggle: true},
     { name: "St. Joseph the Carpentar", functions: ["stJosephtheCarpenterDoxology"], visible: false , toggle: true},

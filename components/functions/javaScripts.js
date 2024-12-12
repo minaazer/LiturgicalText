@@ -1328,10 +1328,10 @@ function listenToBookNavigationButtons() {
   bookNavigationButtons.forEach(button => {
     // Attach click event listener to each button
     button.addEventListener('click', function () {
-
+      debugMessage('Button clicked: ' + this.dataset.navigation);
       const tableId = this.dataset.navigation; // Get current tableId from data attribute
       const currentTable = document.getElementById(tableId); // Get the current table by its id
-
+      debugMessage('Current table: ' + currentTable.id);
       if (currentTable) {
         // Find the parent <div> that contains the current table
         const currentDiv = currentTable.closest('div');

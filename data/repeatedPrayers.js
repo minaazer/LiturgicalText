@@ -1,10 +1,16 @@
 /** @format */
 import { useContext, useState, useEffect } from "react";
+import { Dimensions } from "react-native";
 import SettingsContext from "../settings/settingsContext";
+
+const windowWidth = Dimensions.get("window").width;
+const skipSize = windowWidth * 0.2;
+
 
 const userSettings = (value, settingsKey) => {
   const [settings] = useContext(SettingsContext);
   const [settingsData, setSettingsData] = useState([]);
+
 
   useEffect(() => {
     if (settings[settingsKey]) {
@@ -1077,7 +1083,7 @@ const cross =
 const arrowUp =
   '<img src="https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/arrowUp.png" alt="arrow up" style="width: 2vw; height: auto; padding-bottom:1vw; filter: sepia(100%) saturate(500%) ">';
 const skip =
-  '<img src="https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/skip.png" alt="arrow up" style="width: 8vw; height: auto; padding-top:1vw; filter: sepia(100%) saturate(300%) ">';
+  `<img src="https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/skip.png" alt="arrow up" style="width: ${skipSize}px ; height: auto; padding-top:1vw; filter: sepia(100%) saturate(300%) ">`;
 const candle =
   '<img src="https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/candle.png" alt="+" style="width: 2vw; height: auto; filter: sepia(100%) saturate(500%) ">';
 

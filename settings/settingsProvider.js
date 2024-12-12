@@ -72,7 +72,7 @@ const SettingsProvider = ({ children }) => {
           );
           
 
-          settings.doxologyFunctionNames = mergedDoxologies;
+          settings.doxologyFunctionNames = sortArrayByTemplate(mergedDoxologies , defaultDoxologyFunctionNames);
 
           setSettings(settings); // Use stored settings
         } else {
@@ -80,7 +80,7 @@ const SettingsProvider = ({ children }) => {
           const storedDoxologySettings = 
           version < 13 || settings?.doxologyFunctionNames === undefined
             ? defaultDoxologyFunctionNames
-            : settings.doxologyFunctionNames;
+            : sortArrayByTemplate(settings.doxologyFunctionNames , defaultDoxologyFunctionNames);
 
           const storedDeveloperMode =
             settings?.developerMode !== undefined
@@ -126,6 +126,19 @@ const SettingsProvider = ({ children }) => {
     return merged;
   };
 
+  function sortArrayByTemplate(activeArray, templateArray) {
+    // Create a map of template elements to their indices
+    const templateIndexMap = new Map(templateArray.map((element, index) => [element, index]));
+  
+    // Sort the active array based on the indices from the template map
+    activeArray.sort((a, b) => {
+      const aIndex = templateIndexMap.get(a) ?? Infinity;
+      const bIndex = templateIndexMap.get(b) ?? Infinity;
+      return aIndex - bIndex;
+    });
+  
+    return activeArray;
+  }
   const initializeDefaultSettings = () => {
     const selectedDateProperties = getSelectedDateProperties(
       defaultSettings.currentDate.date,

@@ -19,6 +19,7 @@ import SettingsContext from '../../settings/settingsContext'; // Import Settings
 
 const screenWidth = Dimensions.get('window').width;
 const screenHeight = Dimensions.get('window').height;
+const isPortrait = screenHeight > screenWidth;
 
 
 const Home = () => {
@@ -59,9 +60,7 @@ const Home = () => {
               >
                 <Image source={holyWeekImage} style={styles.iconImage} />
               </TouchableOpacity>
-            </View>
-
-            <View style={styles.iconRow}>
+            
             {developerMode ? (
               <TouchableOpacity
                 style={[styles.iconContainer, { opacity: 0.5}]}
@@ -104,11 +103,11 @@ const styles = StyleSheet.create({
     height: '100%',
   },
   pageHeader: {
-    fontSize: screenWidth * 0.05,
+    fontSize: isPortrait ? screenHeight * 0.05 : screenWidth * 0.05,
     fontFamily: 'Garamond Bold',
     textAlign: 'center',
     color: '#003060',
-    margin:0,
+    margin: 0,
     padding: 0,
     elevation: 5,
     textShadowColor: 'grey',
@@ -116,66 +115,51 @@ const styles = StyleSheet.create({
     textShadowOffset: { width: 1, height: 1 },
   },
   pageContainer: {
-    display: "fex",
-    flexDirection: 'column',
+    flex: 1,
     justifyContent: 'center',
-    alignItems: 'flex-start',
-    width: "100%",
+    alignItems: 'center',
+    width: '100%',
     minHeight: screenHeight,
   },
   pageContentContainer: {
-    display: "block",
-    width: "100%",
-    height: "100%",
     flex: 1,
-  },
-  headerContainer: {
-    marginTop: 10,
-    marginBottom: 0,
-    flexDirection: 'column',
+    width: '100%',
     justifyContent: 'center',
     alignItems: 'center',
   },
-
-  booksContainer: {
-    flex: 3,
-    justifyContent: 'flex-start',
-    alignContent: 'center',
+  headerContainer: {
+    marginTop: 10,
+    marginBottom: 10,
+    justifyContent: 'center',
     alignItems: 'center',
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    padding: 0,
   },
-
-  iconContainer: {
-    flex:1,
-    justifyContent: 'space-evenly',
+  booksContainer: {
+    flex: 1,
+    justifyContent: 'center',
     alignItems: 'center',
-    alignContent: 'space-evenly',
-    margin: 0,
-    padding: 0,
+    flexWrap: 'wrap',
+    paddingHorizontal: 10,
+    width: '100%',
+  },
+  iconContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    margin: 5, // Space between icons
     borderColor: '#ccc',
     backgroundColor: 'transparent',
-
   },
   iconRow: {
-    flexDirection: 'row',
-    justifyContent: 'space-evenly',
-    flexWrap: 'wrap',
-    alignItems: 'space-evenly',
-    alignContent: 'space-evenly',
-    padding: 10,
+    flexDirection: 'row', // Row layout
+    justifyContent: 'space-evenly', // Evenly spaced items
+    flexWrap: 'wrap', // Allow wrapping
+    paddingVertical: 10,
     width: '100%',
-    },
-
-  iconImage: {
-    width: screenWidth * 0.15, // adjusted from 200
-    height: screenWidth * 0.15, // adjusted from 200
-    resizeMode: 'contain',
-    margin: 0,
-    padding: 0,
   },
-  
+  iconImage: {
+    width: isPortrait ? screenHeight * 0.15 : screenWidth * 0.15, // Adjust dynamically
+    height: isPortrait ? screenHeight * 0.15 : screenWidth * 0.15,
+    resizeMode: 'contain',
+  },
 });
 
 export default Home;

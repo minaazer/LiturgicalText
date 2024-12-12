@@ -50,45 +50,53 @@ const AppContent = () => {
     'Georgia Bold': require('./assets/fonts/georgiab.ttf'),
   });
 
-  // Reload app when orientation changes
-  useEffect(() => {
-    const enforceAndHandleOrientationChange = async () => {
-        // Determine the desired orientation lock
-        const desiredOrientationLock =
-            settings.orientation === "landscape"
-                ? ScreenOrientation.OrientationLock.LANDSCAPE_LEFT
-                : ScreenOrientation.OrientationLock.PORTRAIT_UP;
+// Reload app when orientation changes
+useEffect(() => {
+  const enforceAndHandleOrientationChange = async () => {
+      // Determine the desired orientation lock
+      let desiredOrientationLock;
 
-        try {
-            // Enforce the desired orientation lock
-            await ScreenOrientation.lockAsync(desiredOrientationLock);
-            console.log("Orientation enforced:", settings.orientation);
+      if (settings.orientation === "landscape") {
+          desiredOrientationLock = ScreenOrientation.OrientationLock.LANDSCAPE_RIGHT;
+      } else if (settings.orientation === "reverseLandscape") {
+          desiredOrientationLock = ScreenOrientation.OrientationLock.LANDSCAPE_LEFT;
+      } else if (settings.orientation === "portrait") {
+          desiredOrientationLock = ScreenOrientation.OrientationLock.PORTRAIT_UP;
+      } else {
+          console.warn("Unknown orientation setting:", settings.orientation);
+          return; // Exit if the orientation setting is invalid
+      }
 
-            // Add listener to handle orientation changes
-            const handleOrientationChange = async ({ orientationInfo }) => {
-                const { orientation } = orientationInfo;
-                const isRunningInExpoGo = Constants.executionEnvironment === "storeClient";
+      try {
+          // Enforce the desired orientation lock
+          await ScreenOrientation.lockAsync(desiredOrientationLock);
+          console.log("Orientation enforced:", settings.orientation);
 
-                if (orientation !== desiredOrientationLock && !isRunningInExpoGo) {
-                    console.log("Orientation mismatch detected. Reloading app...");
-                    await Updates.reloadAsync();
-                }
-            };
+          // Add listener to handle orientation changes
+          const handleOrientationChange = async ({ orientationInfo }) => {
+              const { orientation } = orientationInfo;
+              const isRunningInExpoGo = Constants.executionEnvironment === "storeClient";
 
-            const subscription = ScreenOrientation.addOrientationChangeListener(
-                handleOrientationChange
-            );
+              if (orientation !== desiredOrientationLock && !isRunningInExpoGo) {
+                  console.log("Orientation mismatch detected. Reloading app...");
+                  await Updates.reloadAsync();
+              }
+          };
 
-            // Cleanup listener on unmount
-            return () => {
-                ScreenOrientation.removeOrientationChangeListener(subscription);
-            };
-        } catch (error) {
-            console.error("Error enforcing or handling orientation:", error.message);
-        }
-    };
+          const subscription = ScreenOrientation.addOrientationChangeListener(
+              handleOrientationChange
+          );
 
-    enforceAndHandleOrientationChange();
+          // Cleanup listener on unmount
+          return () => {
+              ScreenOrientation.removeOrientationChangeListener(subscription);
+          };
+      } catch (error) {
+          console.error("Error enforcing or handling orientation:", error.message);
+      }
+  };
+
+  enforceAndHandleOrientationChange();
 }, [settings.orientation]);
 /*
   // Enforce orientation when app starts

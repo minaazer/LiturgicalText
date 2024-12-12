@@ -3,6 +3,7 @@ import { Dimensions } from 'react-native';
 import SettingsContext from '../../settings/settingsContext';
 import { fontTypeface } from './fontTypeface';
 
+
 export const useDynamicStyles = (webviewRef) => {
     const { width, height } = Dimensions.get("window");
     const isPortrait = height >= width; // Determine orientation
@@ -23,6 +24,7 @@ export const useDynamicStyles = (webviewRef) => {
 
     useEffect(() => {
         if (settings.fontSize) {
+            
             setFontSize(settings.fontSize + fontSizeUnit);
             setTitleFontSize((parseFloat(settings.fontSize) + 0.5) + fontSizeUnit);
             setLinkFontSize((parseFloat(settings.fontSize) + 2) + fontSizeUnit);
@@ -49,10 +51,11 @@ export const useDynamicStyles = (webviewRef) => {
 }
 
 :root {
- --fontSize: 26px;
  --copticFont: 'FreeSerif Avva Shenouda';
 }
 
+
+${fontTypeface}
 
 html {
  background-color: black;
@@ -61,7 +64,17 @@ html {
  padding-top: 0px;
  margin-right: 20px;
 }
-${fontTypeface}
+
+body {
+ overflow-horizontal: hidden;
+ touch-action: none;
+ color: white;
+ font-size: ${fontSize};
+ width: 100% !important;
+ margin-top: 0px;
+ padding-top: 0px;
+ margin-bottom: 1000px;
+}
 
 div {
     margin-top: 0px;
@@ -92,12 +105,12 @@ tbody {
 tr {
  display: flex;
  flex-direction: row;
- width: '100vw' !important;
+ width: '100%' !important;
+ max-width: '100%' !important;
  padding-bottom: 10px;
 }
 
 td {
-    display: flex;
     flex-direction: column;
 }
 
@@ -115,8 +128,8 @@ table tr td:first-child:not(:last-child) {
 
 /* Apply padding to the 2nd of 3 columns */
 table tr td:nth-child(2):nth-last-child(2) {
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 /* Apply padding to the 3rd of 3 columns */
@@ -130,6 +143,89 @@ table tr td:nth-child(2):last-child {
     padding-left: 35px;
     padding-right: 5px;
 }
+
+.arabic {
+    text-align: right;
+    direction: rtl !important; 
+    unicode-bidi: embed; /* Ensure proper rendering of Arabic text */
+    vertical-align: top ;
+    padding-bottom: 10px;
+    text-align: justify;
+    text-justify: newspaper;
+    padding-left: 10px;
+    display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'inline'};
+    flex: 0 0 3;
+    line-height: 1.4;
+
+}
+
+.arabic1 {
+    
+    vertical-align: top ;
+    font-family: 'Georgia' !important;
+    padding-left: 20px;
+    padding-right: 10px;
+    text-align: justify;
+    display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'inline'};
+    flex: 0 0 3.5;
+    line-height: 1.4;
+
+}
+
+.coptic {    
+    vertical-align: top ;
+    font-family: 'FreeSerif Avva Shenouda' !important;
+    padding-right: 10px;
+    padding-left: 15px;
+    text-align: justify;
+    display: ${settings.languages && !visibleLangues[2].checked ? 'none' : 'inline'};
+    flex: 0 0 5;
+    line-height: 1.5;
+    
+    word-wrap: break-word; /* Ensures long words break to the next line */
+    overflow-wrap: break-word; /* Modern property for word breaking */
+    white-space: normal; /* Prevents text from staying on a single line */
+
+}
+
+.copticReadings {
+    
+    vertical-align: top ;
+    font-family: 'FreeSerif Avva Shenouda' !important;
+    padding-right: 10px;
+    padding-left: 15px;
+    text-align: justify;
+    display: ${settings.languages && !visibleLangues[2].checked ? 'none' : 'inline'};
+    flex: 0 0 5;
+}
+
+.english {  
+    vertical-align: top ;
+    font-family: 'Georgia' !important;
+    padding-right: 10px;
+    text-align: justify;
+    display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'inline'};
+    flex: 0 0 35;
+    
+}
+
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    
+    table {
+        table-layout: fixed; /* Ensures consistent column sizes */
+    }
+    td {
+        padding: 5px; /* Reduce padding */
+    }
+
+    .english, .coptic, .arabic {
+        flex: 1 1 auto; /* Allow columns to shrink and grow as needed */
+        max-width: 100%; /* Prevent overflow */
+    }
+}
+
 
 
 /* Handle first table to avoid first-page break */
@@ -275,16 +371,6 @@ h1 {
     text-align: center !important;
 }
 
-body {
- overflow-horizontal: hidden;
- touch-action: none;
- color: white;
- font-size: ${fontSize};
- width: 100% !important;
- margin-top: 0px;
- padding-top: 0px;
- margin-bottom: 1000px;
-}
 
 
 
@@ -327,33 +413,6 @@ body {
     margin-bottom: 0px !important;
 }
 
-.arabic {
-    text-align: right;
-    direction: rtl !important; 
-    unicode-bidi: embed; /* Ensure proper rendering of Arabic text */
-    vertical-align: top ;
-    padding-bottom: 10px;
-    text-align: justify;
-    text-justify: newspaper;
-    padding-left: 10px;
-    display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'inline'};
-    flex: 3;
-    line-height: 1.4;
-
-}
-
-.arabic1 {
-    
-    vertical-align: top ;
-    font-family: 'Georgia' !important;
-    padding-left: 20px;
-    padding-right: 10px;
-    text-align: justify;
-    display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'inline'};
-    flex: 3.5;
-    line-height: 1.4;
-
-}
 
 .arRef {
     text-align: center !important;
@@ -364,37 +423,6 @@ body {
     padding-left: 10px;
     display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'inline'};
     flex: 3;
-}
-
-.coptic {    
-    vertical-align: top ;
-    font-family: 'FreeSerif Avva Shenouda' !important;
-    padding-right: 10px;
-    padding-left: 15px;
-    text-align: justify;
-    display: ${settings.languages && !visibleLangues[2].checked ? 'none' : 'inline'};
-    flex: 5;
-    line-height: 1.5;
-}
-
-.copticReadings {
-    
-    vertical-align: top ;
-    font-family: 'FreeSerif Avva Shenouda' !important;
-    padding-right: 10px;
-    padding-left: 15px;
-    text-align: justify;
-    display: ${settings.languages && !visibleLangues[2].checked ? 'none' : 'inline'};
-    flex: 5;
-}
-
-.english {  
-    vertical-align: top ;
-    font-family: 'Georgia' !important;
-    padding-right: 10px;
-    text-align: justify;
-    display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'inline'};
-    flex: 3.5;
 }
 
 .engRef {  

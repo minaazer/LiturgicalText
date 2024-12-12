@@ -5,6 +5,8 @@ import { Dimensions, Platform } from "react-native";
 import { songs } from "../../data/songs/songs";
 
 const screenWidth = Dimensions.get("window").width;
+const screenHeight = Dimensions.get("window").height;
+const isPortrait = screenHeight > screenWidth;
 const isTablet = screenWidth >= 600;
 const isComputer = screenWidth >= 1000;
 const languageWidth = isComputer ? "30%" : isTablet ? "45%" : "90%";
@@ -118,7 +120,7 @@ export const presentationStyles = StyleSheet.create({
   },
   drawerHeaderText: {
     textAlign: "center",
-    fontSize: screenWidth * 0.03,
+    fontSize: isPortrait ? screenHeight * 0.03 :screenWidth * 0.03,
     fontFamily: "Georgia Bold",
     color: "#e19d09",
     textShadowColor: "grey",
@@ -128,7 +130,7 @@ export const presentationStyles = StyleSheet.create({
   },
 
   drawerLabel: {
-    fontSize: screenWidth * 0.025,
+    fontSize: isPortrait ? screenHeight * 0.025 : screenWidth * 0.025,
     color: "white",
     fontFamily: "Georgia",
     marginVertical: -7,
@@ -171,7 +173,7 @@ export const presentationStyles = StyleSheet.create({
 
   pageContainer: {
     display: "flex",
-    flexDirection: "row",
+    flexDirection: isPortrait ? "column" : "row",
     justifyContent: "center",
     alignItems: "center",
     width: "100%",
@@ -336,11 +338,12 @@ export const presentationStyles = StyleSheet.create({
     marginVertical: 10,
   },
   screenTitle: {
-    fontSize: screenWidth * 0.04,
+    fontSize: isPortrait ? screenHeight * 0.04 : screenWidth * 0.04,
     fontWeight: "bold",
     marginBottom: "0%",
     color: "#e19d09",
     marginTop: 10,
+    textAlign: "center",
   },
   settingsContainer: {
     width: "90%",
@@ -350,22 +353,22 @@ export const presentationStyles = StyleSheet.create({
   twoColumnSettingsContainer:{
     width: "100%",
     display: "flex",
-    flexDirection: "row",
-    justifyContent: "space-evenly",
+    flexDirection: isPortrait ? "column" : "row",
+    justifyContent: isPortrait ? "center" : "space-evenly",
     alignItems: "center",
     flexWrap: "wrap",
 
   },
   fontSetting: {
     display: "flex",
-    flexDirection: "column",
+    flexDirection: isPortrait ? "row" : "column",
     alignItems: "center",
     justifyContent: "space-between",
-    width: "50%",
+    width: isPortrait ? "100%" : "50%",
     marginBottom: 10,
   },
   pickerWrapper: {
-    width: "100%",
+    width: isPortrait ? "auto" : "100%",
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-evenly",
@@ -385,7 +388,7 @@ export const presentationStyles = StyleSheet.create({
   },
 
   settingTitle: {
-    fontSize: screenWidth * 0.022,
+    fontSize: isPortrait ? screenHeight * 0.022 : screenWidth * 0.022,
     fontWeight: "bold",
     flex: 1,
     color: "black",
@@ -459,12 +462,32 @@ export const presentationStyles = StyleSheet.create({
   /// Coptic Seasons
   seasonsContainer: {
     marginTop: 0,
-    width: "90%",
+    width: "100%", // Ensure it spans the full width of the screen
     display: "flex",
-    flexDirection: "row",
-    flexWrap: "wrap",
-    justifyContent: "flex-start",
-  },
+    flexDirection: isPortrait ? "column" : "row", // Stack buttons vertically in portrait
+    justifyContent: "center", // Center content vertically
+    alignItems: "center", // Center content horizontally
+    paddingHorizontal: 10, // Add some padding for better spacing
+},
+seasonCardsContainer: {
+  marginTop: 0,
+  width: "90%",
+  display: "flex",
+  flexDirection: "row",
+  flexWrap: "wrap",
+  justifyContent: isPortrait ? "center" : "flex-start",
+  alignItems: "center",
+},
+
+seasonsButtonContainer: {
+    marginTop: 20,
+    width: isPortrait ? "90%" : "30%",
+    display: "flex",
+    flexDirection: "column", // Always stack buttons vertically
+    justifyContent: "center", // Center content vertically
+    alignItems: "center", // Center content horizontally
+    padding: 10, // Add padding around the buttons
+},
 
   seasonPickerContainer: {
     marginTop: 20,
@@ -514,14 +537,7 @@ export const presentationStyles = StyleSheet.create({
     marginTop: 10, // Add vertical margins for space
     width: "90%", // Ensure the divider stretches across the screen width
   },
-  seasonsButtonContainer: {
-    marginTop: 20,
-    width: "30%",
 
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "flex-start",
-  },
   calendarButton: {
     backgroundColor: "#003060",
     borderRadius: 5,

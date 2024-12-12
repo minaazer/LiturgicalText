@@ -129,6 +129,7 @@ const SettingsScreen = () => {
                                 items={[
                                     { label: 'Landscape', value: 'landscape' },
                                     { label: 'Portrait', value: 'portrait' },
+                                    { label: 'Reverse Landscape', value: 'reverseLandscape' },
                                 ]}
                                 value={settings.orientation}
                                 useNativeAndroidPickerStyle = {false}

@@ -135,7 +135,7 @@ const CalendarScreen = () => {
 
     return (
         <View style={presentationStyles.settingsScreen}>
-            <ScrollView contentContainerStyle={presentationStyles.settingsInnerContainer} style={presentationStyles.scrollView}>
+            <ScrollView contentContainerStyle={presentationStyles.settingsInnerContainer}>
                 <View style={presentationStyles.titleContainer}>
                     <TouchableOpacity style={presentationStyles.backButton} onPress={handleBackPress}>
                                 <Text style={presentationStyles.buttonText}>Back</Text>
@@ -252,11 +252,11 @@ const CalendarScreen = () => {
 
                 {/* Coptic Seasons List */}
                 {copticSeasons && copticSeasons.length > 0 && (
-                    <View>
+                    <View style={{alignItems: "center"}}>
                         <View style={presentationStyles.settingsInnerContainer}>
                             <Text style={presentationStyles.screenTitle}>Coptic Seasons for {currentDate?.getFullYear()}</Text>
                         </View>
-                        <View style={presentationStyles.seasonsContainer}>
+                        <View style={presentationStyles.seasonCardsContainer}>
                             {copticSeasons.map((season, index) => (
                                 season.visible && (  // Only render if season.visible is true
                                 <TouchableOpacity 
@@ -267,7 +267,7 @@ const CalendarScreen = () => {
                                     <Text style={presentationStyles.seasonTitle}>{season.season}</Text>
                                     
                                     {/* Container to place both dates on the same line */}
-                                    <View style={{ flexDirection: 'row', justifyContent: 'flex-start' }} >
+                                    <View style={{ flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'flex-start' }}>
                                         <Text style={presentationStyles.seasonDate}>{formatSeasonDate(season)}</Text>
                                         <Text style={presentationStyles.seasonDate}>  |  </Text>
                                         <Text style={presentationStyles.seasonDate}>{getCopticDate(season)}</Text>

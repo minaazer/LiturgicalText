@@ -164,10 +164,8 @@ return `
                 <td class="arabic">يباركك الرب من صهيون الذى خلق السماء والأرض. المجد..</td>
             </tr>
             <tr id="table_0_row_10" class="north">
-                <td class="english" >Let my cry come near before You, O Lord. Give
-                    me understanding according to Your word: Glory be to You, O Lover of mankind.</td>
-                <td class="coptic" >Ⲙⲁⲣⲉ ⲡⲁϯϩⲟ ϧⲱⲛⲧ ⲙ̀ⲡⲉⲕⲙ̀ⲑⲟ Ⲡϭⲟⲓⲥ : ⲙⲁⲕⲁϯ ⲛⲏⲓ
-                    ⲕⲁⲧⲁ ⲡⲉⲕⲥⲁϫⲓ: ⲇⲟⲝⲁ ⲥⲓ ⲫⲓⲗⲁⲛⲑ̀ⲣⲱⲡⲉ.</td>
+                <td class="english" >Let my cry come near before You, O Lord. Give me understanding according to Your word: Glory be to You, O Lover of mankind.</td>
+                <td class="coptic" >Ⲙⲁⲣⲉ ⲡⲁϯϩⲟ ϧⲱⲛⲧ ⲙ̀ⲡⲉⲕⲙ̀ⲑⲟ Ⲡϭⲟⲓⲥ : ⲙⲁⲕⲁϯ ⲛⲏⲓ ⲕⲁⲧⲁ ⲡⲉⲕⲥⲁϫⲓ: ⲇⲟⲝⲁ ⲥⲓ ⲫⲓⲗⲁⲛⲑ̀ⲣⲱⲡⲉ.</td>
                 <td class="arabic">فلتدن وسيلتى قدامك يارب. كقولك فهمنى المجد..</td>
             </tr>
             <tr id="table_0_row_11" class="south">
@@ -213,10 +211,8 @@ return `
                 <td class="arabic">تحيا نفسى وتسبحك وأحكامك تعيننى. المجد..</td>
             </tr>
             <tr id="table_0_row_17" class="south">
-                <td class="english" >I have gone astray like a lost sheep; seek
-                    Your servant, for I do not forget Your commandments: Glory&hellip;</td>
-                <td class="coptic" >Ⲁⲓⲥⲱⲣⲉⲙ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲟⲩⲉ̀ⲥⲱⲟⲩ ⲉ̀ⲁϥⲧⲁⲕⲟ : ⲕⲱϯ ⲛ̀ⲥⲁ
-                    ⲡⲉⲕⲃⲱⲕ ϫⲉ ⲛⲉⲕⲉⲛⲧⲟⲗⲏ ⲙ̀ⲡⲓⲉⲣⲡⲟⲩⲱⲃϣ : ⲇⲟ̅...</td>
+                <td class="english" >I have gone astray like a lost sheep; seek Your servant, for I do not forget Your commandments: Glory ...</td>
+                <td class="coptic" >Ⲁⲓⲥⲱⲣⲉⲙ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲟⲩⲉ̀ⲥⲱⲟⲩ ⲉ̀ⲁϥⲧⲁⲕⲟ : ⲕⲱϯ ⲛ̀ⲥⲁ ⲡⲉⲕⲃⲱⲕ ϫⲉ ⲛⲉⲕⲉⲛⲧⲟⲗⲏ ⲙ̀ⲡⲓⲉⲣⲡⲟⲩⲱⲃϣ : ⲇⲟ̅...</td>
                 <td class="arabic">ضللت مثل الخروف الضال فاطلب عبدك فإنى لوصاياك لم أنس. المجد</td>
             </tr>
             <tr id="table_0_row_18" class="north">
