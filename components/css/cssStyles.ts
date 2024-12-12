@@ -91,6 +91,7 @@ break-before: page; /* Modern browsers */
 margin: 0;
 padding: 0;
 display: table;
+layout: fixed;
 width: 100% !important;
 border-collapse: collapse;
 font-size: ${fontSize};
@@ -108,8 +109,7 @@ tbody {
 }
 
 tr {
- display: flex;
- flex-direction: row;
+ display: inline-flex;
  width: 100% !important;
  padding: 0 0 10px 0; /* Add padding to the bottom of each row */
 }
@@ -123,6 +123,7 @@ td {
 table tr td:first-child:last-child {
     padding-right: 5px;
     padding-left: 5px;
+    flex: 1;
 }
 
 /* Apply padding to the 1st of more than 1 column */
@@ -131,22 +132,30 @@ table tr td:first-child:not(:last-child) {
     padding-left: 5px;
   }
 
+  /* flex property to the 1st of 3 columns */
+table tr td:first-child:nth-last-child(3) {
+    flex: 0 1 30%;
+}
+
 /* Apply padding to the 2nd of 3 columns */
 table tr td:nth-child(2):nth-last-child(2) {
     padding-left: 25px;
     padding-right: 25px;
+    flex: 0 1 40%;
 }
 
 /* Apply padding to the 3rd of 3 columns */
 table tr td:nth-child(3):nth-last-child(1) {
     padding-left: 0;
     padding-right: 5px;
+    flex: 0 1 30%;
 }
 
 /* Apply padding to the 2nd of 2 columns */
 table tr td:nth-child(2):last-child {
     padding-left: 25px;
     padding-right: 5px;
+    flex: 0 0 45%;
 }
 
 .arabic {
@@ -157,7 +166,6 @@ table tr td:nth-child(2):last-child {
     text-align: justify;
     text-justify: newspaper;
     display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'inline'};
-    flex: 3;
     line-height: 1.4;
 
 }
@@ -168,7 +176,6 @@ table tr td:nth-child(2):last-child {
     font-family: 'Georgia' !important;
     text-align: justify;
     display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'inline'};
-    flex: 3.5;
     line-height: 1.4;
 
 }
@@ -180,7 +187,6 @@ table tr td:nth-child(2):last-child {
     padding-bottom: 10px;
     padding-left: 10px;
     display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'inline'};
-    flex: 3;
 }
 
 .coptic {    
@@ -188,7 +194,6 @@ table tr td:nth-child(2):last-child {
     font-family: 'FreeSerif Avva Shenouda' !important;
     text-align: justify;
     display: ${settings.languages && !visibleLangues[2].checked ? 'none' : 'inline'};
-    flex: 5;
     line-height: 1.5;
 }
 
@@ -198,7 +203,6 @@ table tr td:nth-child(2):last-child {
     font-family: 'FreeSerif Avva Shenouda' !important;
     text-align: justify;
     display: ${settings.languages && !visibleLangues[2].checked ? 'none' : 'inline'};
-    flex: 5;
 }
 
 .english {  
@@ -206,7 +210,6 @@ table tr td:nth-child(2):last-child {
     font-family: 'Georgia' !important;
     text-align: justify;
     display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'inline'};
-    flex: 3.5;
 }
 
 .engRef {  
@@ -215,7 +218,6 @@ table tr td:nth-child(2):last-child {
     padding-right: 10px;
     text-align: center !important;
     display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'inline'};
-    flex: 4;
 }
 
 .enPhonics {
@@ -223,7 +225,6 @@ table tr td:nth-child(2):last-child {
     font-family: 'Georgia' !important;
     text-align: justify;
     display: ${settings.languages && !visibleLangues[3].checked ? 'none' : 'flex'};
-    flex: 4;
     color: #FDFD96 !important;
 }
 .enPhonicsSongs {
@@ -231,7 +232,6 @@ table tr td:nth-child(2):last-child {
     font-family: 'Georgia' !important;
     text-align: justify;
     display: ${settings.languages && !visibleLangues[3].checked ? 'none' : 'flex'};
-    flex: 4;
 }
 .enPhonics1 {
     
@@ -239,7 +239,6 @@ table tr td:nth-child(2):last-child {
     font-family: 'Georgia' !important;
     text-align: left;
     display: ${settings.languages && !visibleLangues[3].checked ? 'none' : 'flex'};
-    flex: 4.5;
     color: #FDFD96 !important;
 }
 
@@ -249,7 +248,6 @@ table tr td:nth-child(2):last-child {
         vertical-align: top ;
         text-align: justify;
         display: ${settings.languages && !visibleLangues[4].checked ? 'none' : 'flex'};
-        flex: 4;
         color: #FDFD96 !important;
     
 }
