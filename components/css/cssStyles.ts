@@ -53,6 +53,7 @@ export const useDynamicStyles = (webviewRef) => {
  --copticFont: 'FreeSerif Avva Shenouda';
 }
 
+${fontTypeface}
 
 html {
  background-color: black;
@@ -61,7 +62,24 @@ html {
  padding-top: 0px;
  margin-right: 20px;
 }
-${fontTypeface}
+
+
+
+body {
+ overflow-horizontal: hidden;
+ touch-action: none;
+ color: white;
+ font-size: ${fontSize};
+ width: 100% !important;
+ margin-top: 0px;
+ padding-top: 0px;
+ margin-bottom: 1000px;
+}
+
+h1 {
+    font-size: ${fontSize} !important;
+    text-align: center !important;
+}
 
 div {
     margin-top: 0px;
@@ -84,6 +102,11 @@ font-size: ${fontSize};
 }
 
 
+/* Handle first table to avoid first-page break */
+table:first-of-type {
+page-break-before: auto;
+break-before: auto;
+}
 
 tbody {
     font-size: ${fontSize};
@@ -92,7 +115,7 @@ tbody {
 tr {
  display: flex;
  flex-direction: row;
- width: '100vw' !important;
+ width: 100% !important;
  padding-bottom: 10px;
 }
 
@@ -131,12 +154,128 @@ table tr td:nth-child(2):last-child {
     padding-right: 5px;
 }
 
+.arabic {
+    text-align: right;
+    direction: rtl !important; 
+    unicode-bidi: embed; /* Ensure proper rendering of Arabic text */
+    vertical-align: top ;
+    padding-bottom: 10px;
+    text-align: justify;
+    text-justify: newspaper;
+    padding-left: 10px;
+    display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'inline'};
+    flex: 3;
+    line-height: 1.4;
 
-/* Handle first table to avoid first-page break */
-table:first-of-type {
-page-break-before: auto;
-break-before: auto;
 }
+
+.arabic1 {
+    
+    vertical-align: top ;
+    font-family: 'Georgia' !important;
+    padding-left: 20px;
+    padding-right: 10px;
+    text-align: justify;
+    display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'inline'};
+    flex: 3.5;
+    line-height: 1.4;
+
+}
+
+.arRef {
+    text-align: center !important;
+    direction: rtl !important;    
+    vertical-align: top ;
+    padding-bottom: 10px;
+
+    padding-left: 10px;
+    display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'inline'};
+    flex: 3;
+}
+
+.coptic {    
+    vertical-align: top ;
+    font-family: 'FreeSerif Avva Shenouda' !important;
+    padding-right: 10px;
+    padding-left: 15px;
+    text-align: justify;
+    display: ${settings.languages && !visibleLangues[2].checked ? 'none' : 'inline'};
+    flex: 5;
+    line-height: 1.5;
+}
+
+.copticReadings {
+    
+    vertical-align: top ;
+    font-family: 'FreeSerif Avva Shenouda' !important;
+    padding-right: 10px;
+    padding-left: 15px;
+    text-align: justify;
+    display: ${settings.languages && !visibleLangues[2].checked ? 'none' : 'inline'};
+    flex: 5;
+}
+
+.english {  
+    vertical-align: top ;
+    font-family: 'Georgia' !important;
+    padding-right: 10px;
+    text-align: justify;
+    display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'inline'};
+    flex: 3.5;
+}
+
+.engRef {  
+    vertical-align: top ;
+    font-family: 'Georgia' !important;
+    padding-right: 10px;
+    text-align: center !important;
+    display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'inline'};
+    flex: 4;
+}
+
+.enPhonics {
+    vertical-align: top ;
+    font-family: 'Georgia' !important;
+    padding-right: 10px;
+    text-align: justify;
+    display: ${settings.languages && !visibleLangues[3].checked ? 'none' : 'flex'};
+    flex: 4;
+    color: #FDFD96 !important;
+}
+.enPhonicsSongs {
+    vertical-align: top ;
+    font-family: 'Georgia' !important;
+    padding-right: 10px;
+    text-align: justify;
+    display: ${settings.languages && !visibleLangues[3].checked ? 'none' : 'flex'};
+    flex: 4;
+}
+.enPhonics1 {
+    
+    vertical-align: top ;
+    font-family: 'Georgia' !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    display: ${settings.languages && !visibleLangues[3].checked ? 'none' : 'flex'};
+    flex: 4.5;
+    color: #FDFD96 !important;
+}
+
+.arPhonics {
+        text-align: right;
+        direction: rtl !important;        
+        vertical-align: top ;
+        padding-bottom: 10px;
+        text-align: justify;
+        padding-left: 10px;
+        display: ${settings.languages && !visibleLangues[4].checked ? 'none' : 'flex'};
+        flex: 4;
+        color: #FDFD96 !important;
+    
+}
+
+
 
 .bold {
     font-weight: bold !important;
@@ -270,22 +409,6 @@ break-before: auto;
     display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'flex'};
 }
 
-h1 {
-    font-size: ${fontSize} !important;
-    text-align: center !important;
-}
-
-body {
- overflow-horizontal: hidden;
- touch-action: none;
- color: white;
- font-size: ${fontSize};
- width: 100% !important;
- margin-top: 0px;
- padding-top: 0px;
- margin-bottom: 1000px;
-}
-
 
 
 
@@ -327,132 +450,9 @@ body {
     margin-bottom: 0px !important;
 }
 
-.arabic {
-    text-align: right;
-    direction: rtl !important; 
-    unicode-bidi: embed; /* Ensure proper rendering of Arabic text */
-    vertical-align: top ;
-    padding-bottom: 10px;
-    text-align: justify;
-    text-justify: newspaper;
-    padding-left: 10px;
-    display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'inline'};
-    flex: 3;
-    line-height: 1.4;
-
-}
-
-.arabic1 {
-    
-    vertical-align: top ;
-    font-family: 'Georgia' !important;
-    padding-left: 20px;
-    padding-right: 10px;
-    text-align: justify;
-    display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'inline'};
-    flex: 3.5;
-    line-height: 1.4;
-
-}
-
-.arRef {
-    text-align: center !important;
-    direction: rtl !important;    
-    vertical-align: top ;
-    padding-bottom: 10px;
-
-    padding-left: 10px;
-    display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'inline'};
-    flex: 3;
-}
-
-.coptic {    
-    vertical-align: top ;
-    font-family: 'FreeSerif Avva Shenouda' !important;
-    padding-right: 10px;
-    padding-left: 15px;
-    text-align: justify;
-    display: ${settings.languages && !visibleLangues[2].checked ? 'none' : 'inline'};
-    flex: 5;
-    line-height: 1.5;
-}
-
-.copticReadings {
-    
-    vertical-align: top ;
-    font-family: 'FreeSerif Avva Shenouda' !important;
-    padding-right: 10px;
-    padding-left: 15px;
-    text-align: justify;
-    display: ${settings.languages && !visibleLangues[2].checked ? 'none' : 'inline'};
-    flex: 5;
-}
-
-.english {  
-    vertical-align: top ;
-    font-family: 'Georgia' !important;
-    padding-right: 10px;
-    text-align: justify;
-    display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'inline'};
-    flex: 3.5;
-}
-
-.engRef {  
-    vertical-align: top ;
-    font-family: 'Georgia' !important;
-    padding-right: 10px;
-    text-align: center !important;
-    display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'inline'};
-    flex: 4;
-}
-
-.enPhonics {
-    vertical-align: top ;
-    font-family: 'Georgia' !important;
-    padding-right: 10px;
-    text-align: justify;
-    display: ${settings.languages && !visibleLangues[3].checked ? 'none' : 'flex'};
-    flex: 4;
-    color: #FDFD96 !important;
-}
-.enPhonicsSongs {
-    vertical-align: top ;
-    font-family: 'Georgia' !important;
-    padding-right: 10px;
-    text-align: justify;
-    display: ${settings.languages && !visibleLangues[3].checked ? 'none' : 'flex'};
-    flex: 4;
-}
-.enPhonics1 {
-    
-    vertical-align: top ;
-    font-family: 'Georgia' !important;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: left;
-    display: ${settings.languages && !visibleLangues[3].checked ? 'none' : 'flex'};
-    flex: 4.5;
-    color: #FDFD96 !important;
-}
-
-.arPhonics {
-        text-align: right;
-        direction: rtl !important;        
-        vertical-align: top ;
-        padding-bottom: 10px;
-        text-align: justify;
-        padding-left: 10px;
-        display: ${settings.languages && !visibleLangues[4].checked ? 'none' : 'flex'};
-        flex: 4;
-        color: #FDFD96 !important;
-    
-}
-
-
 .skipButton {
  text-align: center;
 }
-
 
 
 #drawer {
