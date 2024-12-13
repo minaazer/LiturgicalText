@@ -1,4 +1,4 @@
-import { initialize , handleTouchNavigation , arabicNumbers , extractTableTitlesAndIds , paginateTables , sendMessage , adjustOverlay , setOverlays , clearOverlays , showBlackScreen , removeBlackScreen , tableToggle , listenToButtonClicks , handleSpinner, bookNavigationButtons , loadStoredSettings } from "./javaScripts";
+import { initialize , dynamicTableClasses , handleTouchNavigation , arabicNumbers , extractTableTitlesAndIds , paginateTables , sendMessage , adjustOverlay , setOverlays , clearOverlays , showBlackScreen , removeBlackScreen , tableToggle , listenToButtonClicks , handleSpinner, bookNavigationButtons , loadStoredSettings } from "./javaScripts";
 
 export const htmlRenderScript = `
 
@@ -7,6 +7,9 @@ window.onload = function () {
     let currentFileStates = {};
     let savedStates = {};
 
+
+    applyDynamicTableClasses();
+
     handleTouchNavigation();
 
 };
@@ -14,6 +17,9 @@ window.onload = function () {
 
 // Initialize
 ${initialize}
+
+// Dynamic Table Classes
+${dynamicTableClasses}
 
 // Handle Touch Navigation
 ${handleTouchNavigation}

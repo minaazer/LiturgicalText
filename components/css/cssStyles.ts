@@ -5,6 +5,7 @@ import { fontTypeface } from './fontTypeface';
 
 export const useDynamicStyles = (webviewRef) => {
     const { width, height } = Dimensions.get("window");
+    const calculatedWidth = width - 10; // Adjust for padding
     const isPortrait = height >= width; // Determine orientation
     const fontSizeUnit = isPortrait ? 'vh' : 'vw';
     const [settings] = useContext(SettingsContext);
@@ -92,9 +93,10 @@ margin: 0;
 padding: 0;
 display: table;
 layout: fixed;
-width: 100% !important;
+width: ${calculatedWidth}px !important;
 border-collapse: collapse;
 font-size: ${fontSize};
+border-width: 0px;
 }
 
 
@@ -106,56 +108,81 @@ break-before: auto;
 
 tbody {
     font-size: ${fontSize};
+    border-width: 0px;
 }
 
 tr {
- display: inline-flex;
- width: 100% !important;
- padding: 0 0 10px 0; /* Add padding to the bottom of each row */
+    display: flex; /* Ensure rows behave like traditional table rows */
+    flex-direction: row;
+    width: ${calculatedWidth}px !important;
+    overflow-wrap: break-word; /* Prevent text overflow */
+    overflow-x: hidden;
+    padding: 0 0 10px 0; /* Add padding to the bottom of each row */
+    border-width: 0px;
+
 }
 
 td {
     display: flex;
     flex-direction: column;
+    overflow-wrap: break-word; /* Prevent text overflow */
+    word-wrap: break-word !important;
+    white-space: normal !important; /* Allow text wrapping */
+    vertical-align: top;
+    overflow-wrap: break-word; /* Prevent text overflow */
+    overflow-x: hidden;
+    border-width: 0px;
 }
 
-/* Apply padding to the 1st of 1 column */
-table tr td:first-child:last-child {
-    padding-right: 5px;
-    padding-left: 5px;
-    flex: 1;
+/* First column of a 3-column row */
+td.column-1-3 {
+    flex: 0 1 30%; /* 30% width */
+    padding-right: 20px;
 }
 
-/* Apply padding to the 1st of more than 1 column */
-table tr td:first-child:not(:last-child) {
-    padding-right: 0;
-    padding-left: 5px;
-  }
+/* Second column of a 3-column row */
+td.column-2-3 {
+    flex: 0 1 40%; /* 30% width */
+    padding-right: 20px;
 
-  /* flex property to the 1st of 3 columns */
-table tr td:first-child:nth-last-child(3) {
-    flex: 0 1 30%;
 }
 
-/* Apply padding to the 2nd of 3 columns */
-table tr td:nth-child(2):nth-last-child(2) {
-    padding-left: 25px;
-    padding-right: 25px;
-    flex: 0 1 40%;
+/* Third column of a 3-column row */
+td.column-3-3 {
+    flex: 0 1 30%; /* 30% width */
+    padding-right: 3px;
 }
 
-/* Apply padding to the 3rd of 3 columns */
-table tr td:nth-child(3):nth-last-child(1) {
-    padding-left: 0;
-    padding-right: 5px;
-    flex: 0 1 30%;
+/* First column of a 2-column row */
+td.column-1-2 {
+    flex: 0 1 60%; /* 30% width */
+    padding-right: 20px;
 }
 
-/* Apply padding to the 2nd of 2 columns */
-table tr td:nth-child(2):last-child {
-    padding-left: 25px;
-    padding-right: 5px;
-    flex: 0 0 45%;
+/* Second column of a 2-column row */
+td.column-2-2 {
+    flex: 0 1 40%; /* 30% width */
+    padding-right: 3px;
+
+}
+
+/* Full-width single column */
+td.column-1-1 {
+    width: 100%;
+    margin-right: 7px;
+}
+
+@media screen and (max-width: 400px) {
+    
+    td.column-1-3,
+    td.column-2-3,
+    td.column-1-2 {
+        padding-right: 10;
+    }
+    td.column-1-1 {
+        padding-right: 0;
+    }
+   
 }
 
 .arabic {

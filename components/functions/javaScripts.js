@@ -12,6 +12,7 @@ async function initialize() {
             await convertArabicCaptions();
             await loadStoredSettings(currentFileStates);
             await extractTableTitlesAndIds();
+
             await paginateTables();
 
 
@@ -34,6 +35,27 @@ async function initialize() {
 
         }
 }`;
+
+//
+const dynamicTableClasses = `
+function applyDynamicTableClasses() {
+    console.log('Applying dynamic table classes');
+
+    // Apply classes to all rows and cells dynamically
+    document.querySelectorAll('table tr').forEach(function (row) {
+        var columnCount = row.children.length; // Count the number of columns
+
+        // Add specific classes to each cell based on its position and the column count
+        row.querySelectorAll('td').forEach(function (cell, index) {
+            cell.classList.add('column-' + (index + 1) + '-' + columnCount); // Add a class based on position and total columns
+        });
+    });
+
+    // Optional: Verification step
+    var sampleCount = document.querySelectorAll('td.column-1-3').length;
+    console.log('Total cells with class "column-1-3": ' + sampleCount);
+}
+`;
 
 // touchNavigation
 const handleTouchNavigation = `
@@ -249,6 +271,8 @@ function sendMessage(message, retryCount = 5) {
 // Pagination
 const paginateTables =
 `function paginateTables() {
+
+
     return new Promise((resolve, reject) => {
         try {
 
@@ -1402,7 +1426,7 @@ function hideSpinner() {
 `;
 
 export { 
-  initialize , handleTouchNavigation , arabicNumbers , disableScrolling , extractTableTitlesAndIds , 
+  initialize , dynamicTableClasses , handleTouchNavigation , arabicNumbers , disableScrolling , extractTableTitlesAndIds , 
   sendMessage , setOverlays , clearOverlays, adjustOverlay , adjustOverlayGlorification , paginateTables , 
   paginateTablesGlorification , showBlackScreen , removeBlackScreen , tableToggle , listenToButtonClicks , 
   handleSpinner , bookNavigationButtons , loadStoredSettings};
