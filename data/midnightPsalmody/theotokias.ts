@@ -550,7 +550,7 @@ ${part3Explanation}
     </tr>
     <tr id="table_${tableNumber + 7}_row_5" class="south">
         <td class="english" >For that was kept, In the Tabernacle, As
-            a testimony, to The children of Israel:</td>
+            a testimony, to The children of Israel.</td>
         <td class="coptic" >Ⲫⲏ ⲙⲉⲛ ⲉ̀ⲧⲉ ⲙ̀ⲙⲁⲩ : ϣⲁⲩⲭⲁϥ ϧⲉⲛ ϯⲥ̀ⲕⲏⲛⲏ :
             ⲛ̀ⲟⲩⲙⲉⲧⲙⲉⲑⲣⲉ : ⲛ̀ⲧⲉ ⲛⲉⲛϣⲏⲣⲓ ⲙ̀Ⲡⲓⲥⲣⲁⲏⲗ.</td>
         <td class="arabic">فذاك وضع: فى القبة: شهادة: لبنى اسرائيل.</td>
@@ -887,7 +887,7 @@ function SundayTheotokia7ShereNeMaria(tableNumber) {
     </tr>
     <tr id="table_${tableNumber}_row_2" class="north">
         <td class="english" >The rod of Aaron, Which blossomed,
-            Without plantingor watering, Is a symbol of you.</td>
+            Without planting or watering, Is a symbol of you.</td>
         <td class="coptic" >Ⲡⲓϣ̀ⲃⲱⲧ
             ⲛ̀ⲧⲉ Ⲁⲁⲣⲱⲛ ⲉⲧⲁϥⲫⲓⲣⲓ
             ⲉ̀ⲃⲟⲗ : ⲭⲱⲣⲓⲥ ϭⲟ
@@ -1364,7 +1364,7 @@ function SundayTheotokia11TeoiEnHikanos(tableNumber) {
     </tr>
     <tr id="table_${tableNumber}_row_17" class="south">
         <td class="english" >The golden pot, where the manna was
-            hidden, Behold the Word of the Father,came and was incarnate of you.</td>
+            hidden, Behold the Word of the Father, came and was incarnate of you.</td>
         <td class="coptic" >Ⲡⲓⲥ̀ⲧⲁⲙⲛⲟⲥ ⲛ̀ⲛⲟⲩⲃ : ⲉ̀ⲣⲉ ⲡⲓⲙⲁⲛⲛⲁ ϩⲏⲡ
             ⲛ̀ϧⲏⲧϥ : ⲓⲥ ⲡⲓⲗⲟⲅⲟⲥ ⲛ̀ⲧⲉ ̀ Ⲫⲓⲱⲧ : ⲓ̀ ⲁϥϭⲓⲥⲁⲣⲝ ⲛ̀ϧⲏϯ.</td>
         <td class="arabic">القسط الذهبى: المخفى فيه المن: هوذا كلمة الآب: أتى وتجسد منك.</td>
@@ -4357,7 +4357,7 @@ function AdamTheotokiaConclusion(tableNumber, aktonkAki) {
         </tr>
         
         <tr id="table_${tableNumber}_row_1" class="south">
-            <td class="english">All the rain drops, are counted by You, and the sand of the sea, is before Your eyes.</td>
+            <td class="english">All the raindrops, are counted by You, and the sand of the sea, is before Your eyes.</td>
             <td class="coptic">Ⲛⲓⲧⲉⲗⲧⲓⲗⲓ ⲙ̀ⲙⲟⲩⲛϩⲱⲟⲩ: ⲥⲉⲏⲡ ⲛ̀ⲧⲟⲧⲕ ⲧⲏⲣⲟⲩ: ⲡⲓⲕⲉϣⲱ ⲛ̀ⲧⲉ ⲫ̀ⲓⲟⲙ: ⲥⲉⲭⲏ ⲛⲁϩⲣⲉⲛ ⲛⲉⲕⲃⲁⲗ.</td>
             <td class="arabic">قطرات المطر، محصاة عندك جميعها، ورمل البحر، كائن أمام عينيك.</td>
         </tr>
@@ -4381,7 +4381,7 @@ function AdamTheotokiaConclusion(tableNumber, aktonkAki) {
         </tr>
         
         <tr id="table_${tableNumber}_row_5" class="south">
-            <td class="english">And me too, the sinner, teach me O my Master, to offer repentance.</td>
+            <td class="english">And I too, the sinner, teach me O my Master, to offer repentance.</td>
             <td class="coptic">Ⲁ̀ⲛⲟⲕ ϩⲱ Ⲡⲁϭⲟⲓⲥ: ϧⲁ ⲡⲓⲣⲉϥⲉⲣⲛⲟⲃⲓ: ⲙⲁⲧ̀ⲥⲁⲃⲟⲓ ⲛ̀ⲧⲁⲓ̀ⲣⲓ: ⲛ̀ⲟⲩⲙⲉⲧⲁⲛⲟⲓⲁ.</td>
             <td class="arabic">وأنا أيضاً الخاطئ، يا سيدي، علمني، أن أصنع توبة.</td>
         </tr>

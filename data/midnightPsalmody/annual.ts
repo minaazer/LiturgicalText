@@ -45,7 +45,7 @@ function annualCommemoration(tableNumber) {
     </tr>
     <tr id="table_${tableNumber}_row_5" class="south">
         <td class="english" >Intercede on our behalf, O Four
-            Incorporeal Beasts, The ministers fervent as fire, That He may...</td>
+            Incorporeal creatures, The ministers fervent as fire, That He may...</td>
         <td class="coptic" >Ⲁ̀ⲣⲓⲡ̀ⲣⲉⲥⲃⲉⲩⲓⲛ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲡⲓϥ̀ⲧⲟⲩ
             ⲛ̀ⲍⲱⲟⲛ ⲛ̀ⲁ̀ⲥⲱⲙⲁⲧⲟⲥ : ⲛ̀ⲗⲓⲧⲟⲩⲣⲅⲟⲥ ⲛ̀ϣⲁϩ ⲛ̀ⲭ̀ⲣⲱⲙ : ⲛ̀ⲧⲉϥ...</td>
         <td class="arabic">أشفعوا فينا أيها الأربعة الحيوانات غير المتجسدين الخدام الملتهبين ناراً ليغفر...
@@ -172,8 +172,7 @@ function annualCommemoration(tableNumber) {
         <td class="arabic">اطلبوا من الرب عنا ياثيؤدوروس وثيؤدوروس ولاونديوس وبانيكاروس ليغفر..</td>
     </tr>
     <tr id="table_${tableNumber}_row_23" class="south">
-        <td class="english" >Pray to the Lord on our behalf, O lover
-            of the father Mercurius, and Abba Mina and Abba Victor, That He may...</td>
+        <td class="english" >Pray to the Lord on our behalf, O Philopater Mercurius, and Abba Mina and Abba Victor, That He may...</td>
         <td class="coptic" >Ⲧⲱ̅: Ⲫⲓⲗⲟⲡⲁⲧⲏⲣ
             Ⲙⲉⲣⲕⲟⲩⲣⲓⲟⲥ : ⲛⲉⲙ ⲁ̀ⲡⲁ Ⲙⲏⲛⲁ ⲛⲉⲙ ⲁ̀ⲡⲁ Ⲃⲓⲕⲧⲱⲣ : ⲛ̀ⲧⲉϥ...</td>
         <td class="arabic">اطلبوا من الرب عنا يافيلوباتير مرقوريوس وأبا مينا وأبا بقطر ليغفر...</td>

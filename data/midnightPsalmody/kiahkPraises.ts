@@ -2721,7 +2721,7 @@ kiahkCommemoration(tableNumber){
     </tr>
     <tr id="table_${tableNumber}_row_5" class="south">
         <td class="english" >Intercede on our behalf, O Four
-            Incorporeal Beasts, The ministers fervent as fire, That He may...</td>
+            Incorporeal creatures, The ministers fervent as fire, That He may...</td>
         <td class="coptic" >Ⲁ̀ⲣⲓⲡ̀ⲣⲉⲥⲃⲉⲩⲓⲛ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲡⲓϥ̀ⲧⲟⲩ
             ⲛ̀ⲍⲱⲟⲛ ⲛ̀ⲁ̀ⲥⲱⲙⲁⲧⲟⲥ : ⲛ̀ⲗⲓⲧⲟⲩⲣⲅⲟⲥ ⲛ̀ϣⲁϩ ⲛ̀ⲭ̀ⲣⲱⲙ : ⲛ̀ⲧⲉϥ...</td>
         <td class="arabic">أشفعوا فينا أيها الأربعة الحيوانات غير المتجسدين الخدام الملتهبين ناراً ليغفر...
@@ -2848,8 +2848,7 @@ kiahkCommemoration(tableNumber){
         <td class="arabic">اطلبوا من الرب عنا ياثيؤدوروس وثيؤدوروس ولاونديوس وبانيكاروس ليغفر..</td>
     </tr>
     <tr id="table_${tableNumber}_row_23" class="south">
-        <td class="english" >Pray to the Lord on our behalf, O lover
-            of the father Mercurius, and Abba Mina and Abba Victor, That He may...</td>
+        <td class="english" >Pray to the Lord on our behalf, O Philopater Mercurius, and Abba Mina and Abba Victor, That He may...</td>
         <td class="coptic" >Ⲧⲱ̅: Ⲫⲓⲗⲟⲡⲁⲧⲏⲣ
             Ⲙⲉⲣⲕⲟⲩⲣⲓⲟⲥ : ⲛⲉⲙ ⲁ̀ⲡⲁ Ⲙⲏⲛⲁ ⲛⲉⲙ ⲁ̀ⲡⲁ Ⲃⲓⲕⲧⲱⲣ : ⲛ̀ⲧⲉϥ...</td>
         <td class="arabic">اطلبوا من الرب عنا يافيلوباتير مرقوريوس وأبا مينا وأبا بقطر ليغفر...</td>
@@ -3244,7 +3243,7 @@ kiahkCommemoration(tableNumber){
         <td class="arabic">اطلبا من الرب عنا يا سيدى الملك قسطنطين: وهيلانه الملكة. ليغفر..</td>
     </tr>
     <tr id="table_${tableNumber}_row_79" class="south">
-        <td class="english" >Pray: O saints of this day: each by his
+        <td class="english" >Pray: O saints of this day: each one by his
             name: that He may&hellip;</td>
         <td class="coptic" >Ⲧⲱⲃϩ ⲙ̀Ⲡϭⲟⲓⲥ ⲉϩ̀ⲣⲏⲓ ⲉϫⲱⲛ : ⲛⲏⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲉ
             ⲡⲁⲓⲉϩⲟⲟⲩ : ⲡⲓⲟⲩⲁⲓ ⲡⲓⲟⲩⲁⲓ ⲕⲁⲧⲁ ⲡⲉϥⲣⲁⲛ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ.</td>
@@ -6136,33 +6135,33 @@ const html = `
     </caption>
     <tbody>
         <tr id="table_${tableNumber}_row_0" class="north">
-            <td class="english" >I praise the Virgin And explain and say O
-                the origin And the hidden pearl</td>
+            <td class="english" >I praise the Virgin: And explain and say: O
+                the origin: And the hidden pearl</td>
             <td class="arabic">أمدح فى البتول: وأشرح فيها وأقول: ياأصل الأصول: ياجوهر مكنون</td>
         </tr>
         <tr id="table_${tableNumber}_row_1" class="north">
-            <td class="english" >Through your Son, our Lady Cause of
-                salvation We reached the goal And you brought us joy</td>
+            <td class="english" >Through your Son, our Lady: Cause of
+                salvation: We reached the goal: And you brought us joy</td>
             <td class="arabic">بأبنك ياستنا: خلاص جنسنا: وبلغنا المنى: وبك صرنا فرحون</td>
         </tr>
         <tr id="table_${tableNumber}_row_2" class="south">
-            <td class="english" >Was truly Incarnate From a Virgin girl
-                Crucified and died For us at Golgotha</td>
+            <td class="english" >Was truly Incarnate: From a Virgin girl:
+                Crucified and died: For us at Golgotha</td>
             <td class="arabic">تجسد الابن بثبات: من ست البنات: صلب عنا ومات: عند الاقرانيون</td>
         </tr>
         <tr id="table_${tableNumber}_row_3" class="south">
-            <td class="english" >The fruit of my pledge O daughter of Zion
-                To love your Son And proclaim and say</td>
+            <td class="english" >The fruit of my pledge: O daughter of Zion:
+                To love your Son: And proclaim and say</td>
             <td class="arabic">ثمرة عربونى: ياأبنة صهيون: أحب الهي: وأصيح وأقول</td>
         </tr>
         <tr id="table_${tableNumber}_row_4" class="north">
-            <td class="english" >Gabriel came With tidings and sayings You
-                accepted His word In calmness and wisdom</td>
+            <td class="english" >Gabriel came: With tidings and sayings: You
+                accepted His word: In calmness and wisdom</td>
             <td class="arabic">جاك غبريال: ببشائر وأقوال: وقبلت ما قال: بسر خفي مكنون</td>
         </tr>
         <tr id="table_${tableNumber}_row_5" class="north">
-            <td class="english" >He dwelt by His Word In strength and
-                power You became like heaven O, daughter of Zion</td>
+            <td class="english" >He dwelt by His Word: In strength and
+                power: You became like heaven: O, daughter of Zion</td>
             <td class="arabic">حل بكلمته: وشرح قدرته: صرت كسمائه: يا إبنة صهيون</td>
         </tr>
         <tr id="table_${tableNumber}_row_7" class="refrain">
@@ -6174,33 +6173,33 @@ const html = `
             ودا مدح البتول: زاد قلبى فرح: مدحها علطول: خلاه إنشرح: ياقبة موسى يامريم: ياشورية هرون</td>
         </tr>
         <tr id="table_${tableNumber}_row_8" class="south">
-            <td class="english" >He saved Adam After his sorrow And has
-                freed the world We rejoice in you</td>
+            <td class="english" >He saved Adam: After his sorrow: And has
+                freed the world: We rejoice in you</td>
             <td class="arabic">إبنك خلص آدم: بعد أن كان نادم: وعتق العالم: ونحن بك فرحون</td>
         </tr>
         <tr id="table_${tableNumber}_row_9" class="south">
-            <td class="english" >He is glorified And promised His Apostles
-                To save His people From Satan's bondage</td>
+            <td class="english" >He is glorified: And promised His Apostles:
+                To save His people: From Satan's bondage</td>
             <td class="arabic">دائم تمجيده: وعاهد تلاميذه: يخلص عبيده: من كيد الأركون</td>
         </tr>
         <tr id="table_${tableNumber}_row_10" class="north">
-            <td class="english" >Concerning you, David said, &ldquo;The
-                King rejoiced in you And took flesh from you The Lord on His Throne.&rdquo;</td>
+            <td class="english" >Concerning you, David said,: &ldquo;The
+                King rejoiced in you: And took flesh from you: The Lord on His Throne.&rdquo;</td>
             <td class="arabic">داود قال عنك: الملك إشتهى حسنك: وتجسد منك: رب العرش المكنون</td>
         </tr>
         <tr id="table_${tableNumber}_row_11" class="north">
-            <td class="english" >Myriads and thousands Standing around the
-                Throne Ranks and orders Saints and martyrs</td>
+            <td class="english" >Myriads and thousands: Standing around the
+                Throne: Ranks and orders: Saints and martyrs</td>
             <td class="arabic">ربوات وألوف: حول العرش وقوف: وطغمات وصفوف: وشهداء متصلون</td>
         </tr>
         <tr id="table_${tableNumber}_row_12" class="south">
-            <td class="english" >Sorrow was taken away And we are
-                comforted Through you, O Mary The pride of the human race</td>
+            <td class="english" >Sorrow was taken away: And we are
+                comforted: Through you, O Mary: The pride of the human race</td>
             <td class="arabic">زالت عنا الأحزان وصرنا فى أطمئنان بك يامريم يا فخر البشريون</td>
         </tr>
         <tr id="table_${tableNumber}_row_13" class="south">
-            <td class="english" >Salome witnessed That the Virgin gave
-                birth She believed and confirmed The mystery of mysteries.</td>
+            <td class="english" >Salome witnessed: That the Virgin gave
+                birth: She believed and confirmed: The mystery of mysteries.</td>
             <td class="arabic">سالومي شهدت: إن العذراء ولدت: آمنت وأعتقدت: بالسر المكنون</td>
         </tr>
         <tr id="table_${tableNumber}_row_15" class="refrain">
@@ -6212,33 +6211,33 @@ const html = `
             ودا مدح البتول: زاد قلبى فرح: مدحها علطول: خلاه إنشرح: ياقبة موسى يامريم: ياشورية هرون</td>
         </tr>
         <tr id="table_${tableNumber}_row_16" class="north">
-            <td class="english" >Solomon, your father, Praised in hymns
-                and songs And Jacob saw you An upright ladder</td>
+            <td class="english" >Solomon, your father: Praised in hymns
+                and songs: And Jacob saw you: An upright ladder</td>
             <td class="arabic">سليمان أباك: صار ينشد بفنون: ويعقوب رآك: سلم مرتفعون</td>
         </tr>
         <tr id="table_${tableNumber}_row_17" class="north">
-            <td class="english" >The chiefs had proclaimed O fruitful vine
-                You are a Virgin and a bride As they prophesied</td>
+            <td class="english" >The chiefs had proclaimed: O fruitful vine:
+                You are a Virgin and a bride: As they prophesied</td>
             <td class="arabic">شهد عنك الرؤساء: ياكرمة مغروسة: يابكرة وعروسة: كما عنك تنبأون</td>
         </tr>
         <tr id="table_${tableNumber}_row_18" class="south">
-            <td class="english" >Zephaniah proclaimed That Jesus will
-                appear As rain and dew While her Virginity is sealed</td>
+            <td class="english" >Zephaniah proclaimed: That Jesus will
+                appear: As rain and dew: While her Virginity is sealed</td>
             <td class="arabic">صوفونيوس خبر: بأن يسوع يظهر: شبه ندي ومطر: والختم حصن مصون</td>
         </tr>
         <tr id="table_${tableNumber}_row_19" class="south">
-            <td class="english" >Eve caused Adam to stray, In tears, he
-                cried Naked, he was exiled Without you they would not return</td>
+            <td class="english" >Eve caused Adam to stray: In tears, he
+                cried: Naked, he was exiled: Without you they would not return</td>
             <td class="arabic">ضللت حواء آدم: وصار يبكى نادم: خرج عريان عادم: لولاك ما رجعون</td>
         </tr>
         <tr id="table_${tableNumber}_row_20" class="north">
-            <td class="english" >Your rank is up high And great is your
-                glory The Lord honored you O Aaron's censer</td>
+            <td class="english" >Your rank is up high: And great is your
+                glory: The Lord honored you: O Aaron's censer</td>
             <td class="arabic">عال هو قدرك: وعظيم هو مجدك: والله شرف ذكرك: يا شورية هرون</td>
         </tr>
         <tr id="table_${tableNumber}_row_21" class="north">
-            <td class="english" >Many praised you You are the cause of all
-                joy You comfort everyone Who is sorrowful and humble</td>
+            <td class="english" >Many praised you: You are the cause of all
+                joy: You comfort everyone: Who is sorrowful and humble</td>
             <td class="arabic">غلب فيك المداح: يا بدء الأفراح: بمديحك يرتاح: كل ذليل محزون</td>
         </tr>
         <tr id="table_${tableNumber}_row_23" class="refrain">
@@ -6250,53 +6249,53 @@ const html = `
             ودا مدح البتول: زاد قلبى فرح: مدحها علطول: خلاه إنشرح: ياقبة موسى يامريم: ياشورية هرون</td>
         </tr>
         <tr id="table_${tableNumber}_row_24" class="south">
-            <td class="english" >My heart rejoices in you O Virgin Mary
-                Ask your Son Jesus To protect me by His Might</td>
+            <td class="english" >My heart rejoices in you: O Virgin Mary:
+                Ask your Son Jesus: To protect me by His Might</td>
             <td class="arabic">فيك رضا قلبى: يامريم طلبى: يسوع إبنك حسبى: بقوته أكون</td>
         </tr>
         <tr id="table_${tableNumber}_row_25" class="south">
-            <td class="english" >Existent before the ages Suffered and was
-                crucified He rose from His sleep And the Disciples preached</td>
+            <td class="english" >Existent before the ages: Suffered and was
+                crucified: He rose from His sleep: And the Disciples preached</td>
             <td class="arabic">قديم أذلي دائم: صلب عنا وتألم: استيقظ كالنائم: والتلاميذ يكرزون</td>
         </tr>
         <tr id="table_${tableNumber}_row_26" class="north">
-            <td class="english" >The righteous Apostles And the four
-                Evangelists Preached in all nations The tidings and rejoice</td>
+            <td class="english" >The righteous Apostles: And the four
+                Evangelists: Preached in all nations: The tidings and rejoice</td>
             <td class="arabic">كرزوا في الأقطار: الرسل الأبرار: ونادوا باستبشار: الأباء الإنجيليون</td>
         </tr>
         <tr id="table_${tableNumber}_row_27" class="north">
-            <td class="english" >Glory is due to you O daughter of Joachim
-                You bore a great mystery And gave birth to the Most High</td>
+            <td class="english" >Glory is due to you: O daughter of Joachim:
+                You bore a great mystery: And gave birth to the Most High</td>
             <td class="arabic">لك كل التعظيم: ياإبنة يواقيم: حملت سر عظيم: ووضعت المكنون</td>
         </tr>
         <tr id="table_${tableNumber}_row_28" class="south">
-            <td class="english" >Moses and Daniel Said many parables And
-                you fit all that Mysteriously and more</td>
+            <td class="english" >Moses and Daniel: Said many parables: And
+                you fit all that: Mysteriously and more</td>
             <td class="arabic">موسي ودانيال: ضربوا عنك أمثال: وقبلت ماقال: بسر خفي مكنون</td>
         </tr>
         <tr id="table_${tableNumber}_row_29" class="south">
-            <td class="english" >You caused the world to shine O the pride
-                of faith All the creatures were free Because of you Mary</td>
+            <td class="english" >You caused the world to shine: O the pride
+                of faith: All the creatures were free: Because of you Mary</td>
             <td class="arabic">نورت الأكوان: يافخر الإيمان: لولاك ماكان: كل الخلائق يعتقون</td>
         </tr>
         <tr id="table_${tableNumber}_row_30" class="north">
-            <td class="english" >Gifts were offered in faith To the King
-                of kings By the great Magi Myrrh, gold and frankincense</td>
+            <td class="english" >Gifts were offered in faith: To the King
+                of kings: By the great Magi: Myrrh, gold and frankincense</td>
             <td class="arabic">هدايا بإيمان: أتوا بهم الأعيان: مرا وذهباً ولبان: بها المجوس حاملون</td>
         </tr>
         <tr id="table_${tableNumber}_row_31" class="north">
-            <td class="english" >They worshipped the born King The Lord of
-                lords And Herod was terrified And his soldiers marveled</td>
+            <td class="english" >They worshipped the born King: The Lord of
+                lords: And Herod was terrified: And his soldiers marveled</td>
             <td class="arabic">وسجدوا للمولود: الرب المعبود: وهيرودس صار مرعوب: وجنده محتارون</td>
         </tr>
         <tr id="table_${tableNumber}_row_32" class="south">
-            <td class="english" >Do not forsake at that time A poor and
-                humble sinner Your plead on Judgment Day And for all the Christians</td>
+            <td class="english" >Do not forsake at that time: A poor and
+                humble sinner: Your plead on Judgment Day: And for all the Christians</td>
             <td class="arabic">لا تنسى في ذلك الحين: عبداً خاطئ مسكين: شفاعتك يوم الدين: لشعب ابنك أجمعين</td>
         </tr>
         <tr id="table_${tableNumber}_row_33" class="south">
-            <td class="english" >We ask of Him forgiveness Faith and
-                repentance To be in calmness We the believers</td>
+            <td class="english" >We ask of Him forgiveness: Faith and
+                repentance: To be in calmness: We the believers</td>
             <td class="arabic">ونسأل من جوده الغفران: وتوبة مع إيمان: لنصير في اطمئنان: نحن المؤمنون</td>
         </tr>
         <tr id="table_${tableNumber}_row_35" class="refrain">

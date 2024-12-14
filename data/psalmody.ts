@@ -782,7 +782,7 @@ return `
             </tr>
             <tr id="table_10_row_3" class="south">
                 <td class="english" >He brought forth the winds: out of His
-                    treasure box: he breathed unto the trees: and they blossomed.</td>
+                    treasure: he breathed unto the trees: and they blossomed.</td>
                 <td class="coptic" >Ⲁϥⲓ̀ⲛⲓ ⲛ̀ϩⲁⲛⲑⲏⲟⲩ : ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲉϥⲁ̀ϩⲱⲣ :
                     ⲁϥⲛⲓϥⲓ ⲛ̀ⲥⲁ ⲛⲓϣ̀ϣⲏⲛ : ϣⲁⲛ̀ⲧⲟⲩⲫⲓⲣⲓ ⲉ̀ⲃⲟⲗ.</td>
                 <td class="arabic">أخرج الرياح من خباياها. نفخ في الأشجار حتى ازهرت.</td>

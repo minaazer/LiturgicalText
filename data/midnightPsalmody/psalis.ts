@@ -368,7 +368,7 @@ function TheSecondSundayPsali(tableNumber) {
         </tr>
         
         <tr id="table_${tableNumber}_row_14" class="south">
-            <td class="english">You know my thoughts, and You search my reins, my Lord Jesus, help me.</td>
+            <td class="english">You know my thoughts, and You search my depths, my Lord Jesus, help me.</td>
             <td class="coptic">Ⲝ̀ⲟⲩⲱⲛ ⲛ̀ⲛⲁⲙⲉⲩⲓ̀: ⲕ̀ϧⲟⲧϧⲉⲧ ⲛ̀ⲛⲁϭⲗⲱⲧ: Ⲡⲁϭⲟⲓⲥ Ⲓⲏⲥⲟⲩⲥ: ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ</td>
             <td class="arabic">أنت تعرف أفكاري، وتفحص كليتي، يا ربي يسوع، أعنِّي.</td>
         </tr>
@@ -416,7 +416,7 @@ function TheSecondSundayPsali(tableNumber) {
         </tr>
         
         <tr id="table_${tableNumber}_row_22" class="south">
-            <td class="english">Forgive me the multitude, of my transgressions, my Lord Jesus, help me.</td>
+            <td class="english">Forgive me the multitude, of my iniquities, my Lord Jesus, help me.</td>
             <td class="coptic">Ⲭⲱ ⲛⲏⲓ ⲉ̀ⲃⲟⲗ ⲙ̀ⲡ̀ⲁ̀ϣⲁⲓ: ⲛ̀ⲧⲉ ⲛⲁⲁ̀ⲛⲟⲙⲓⲁ: Ⲡⲁϭⲟⲓⲥ Ⲓⲏⲥⲟⲩⲥ: ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ.</td>
             <td class="arabic">إغفر ليَّ، كثرة آثامي، يا ربي يسوع، أعنِّي.</td>
         </tr>
