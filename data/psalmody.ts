@@ -216,7 +216,7 @@ return `
                 <td class="arabic">ضللت مثل الخروف الضال فاطلب عبدك فإنى لوصاياك لم أنس. المجد</td>
             </tr>
             <tr id="table_0_row_18" class="north">
-                <td class="english" >Glory be to the Father, and the Son, and the
+                <td class="english" >Glory to the Father, and the Son, and the
                     Holy Spirit: Glory...</td>
                 <td class="coptic" >Ⲇⲟⲝⲁ Ⲡⲁⲧⲣⲓ ⲕⲉ˙Ⲩⲓⲱ̀ ⲕⲉ ⲁ̀ⲅⲓⲱ̀ Ⲡⲛⲉⲩⲙⲁⲧⲓ : ⲇⲟ̅...
                 </td>
@@ -232,13 +232,13 @@ return `
             <tr id="table_0_row_20" class="north">
                 <td class="english" >Glory be to the Father, and the Son and the
                     Holy Spirit, now and forever and unto all ages, Amen: Glory be to You, O Lover of mankind.</td>
-                <td class="coptic" >Ⲡⲓⲱ̀ⲟⲩ ⲙ̀Ⲫⲓⲱⲧ ⲛⲉⲙ ˙Ⲡϣⲏⲣⲓ ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ
+                <td class="coptic" >Ⲡⲓⲱ̀ⲟⲩ ⲙ̀Ⲫⲓⲱⲧ ⲛⲉⲙ Ⲡϣⲏⲣⲓ ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ
                     : ⲓⲥϫⲉⲛ ϯⲛⲟⲩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ ⲁ̀ⲙⲏⲛ: ⲇⲟⲝⲁ ⲥⲓ ⲫⲓⲗⲁⲛⲑ̀ⲣⲱⲡⲉ.</td>
                 <td class="arabic">المجد للآب والابن والروح القدس منذ الآن وإلى أبد الآبدين كلها آمين. المجد</td>
             </tr>
             <tr id="table_0_row_21" class="south">
                 <td class="english" >Glory be to You, O Good One, the Lover of
-                    mankind. Glory be to Your Mother, the Virgin, and all Your saints: Glory...</td>
+                    Mankind. Glory be to Your Mother, the Virgin, and all Your saints: Glory...</td>
                 <td class="coptic" >Ⲡⲓⲱ̀ⲟⲩ ⲛⲁⲕ ⲡⲓⲙⲁⲓⲣⲱⲙⲓ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ : ⲡⲓⲱ̀ⲟⲩ
                     ⲛ̀ⲧⲉⲕⲙⲁⲩ ⲙ̀ⲡⲁⲣⲑⲉⲛⲟⲥ ⲛⲉⲙ ⲛⲏⲉⲑⲟⲩⲁⲃ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲁⲕ: ⲇⲟ̅...</td>
                 <td class="arabic">المجد لك يا محب البشر الصالح. المجد لأمك العذراء وجميع قديسيك. المجد..</td>
@@ -246,7 +246,7 @@ return `
             <tr id="table_0_row_22" class="north">
                 <td class="english" >Glory be to You, O Only-Begotten one. O Holy
                     Trinity, have mercy upon us: Glory...</td>
-                <td class="coptic" >Ⲇⲟⲝⲁ ⲥⲓ ⲟ̀ⲙⲟⲛⲟⲅⲉⲛⲏⲥ ⲁ̀ⲅⲓⲁ̀ ̀ Ⲧⲣⲓⲁⲥ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ
+                <td class="coptic" >Ⲇⲟⲝⲁ ⲥⲓ ⲟ̀ⲙⲟⲛⲟⲅⲉⲛⲏⲥ ⲁ̀ⲅⲓⲁ̀  Ⲧⲣⲓⲁⲥ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ
                     ⲏ̀ⲙⲁⲥ : ⲇⲟ̅...</td>
                 <td class="arabic">المجد لك أيها الوحيد. أيها الثالوث المقدس ارحمنا. المجد..</td>
             </tr>
@@ -289,7 +289,7 @@ return `
                     sang this song to the Lord, and spoke saying, "Let us sing to the Lord for He has triumphed
                     gloriously.&rdquo;</td>
                 <td class="coptic" >Ⲧⲟⲧⲉ ⲁϥϩⲱⲥ ⲛ̀ϫⲉ Ⲙⲱⲩ̀ⲥⲏⲥ ⲛⲉⲙ ⲛⲉⲛϣⲏⲣⲓ
-                    ⲙ̀Ⲡⲓⲥⲣⲁⲏⲗ ⲉ̀ⲧⲁⲓ ϩⲱⲇⲏ ̀ⲛ̀ⲧⲉ Ⲡϭⲟⲓⲥ ⲟⲩⲟϩ ⲁϥϫⲟⲥ ⲉⲑⲣⲟⲩϫⲟⲥ: ϫⲉ ⲙⲁⲣⲉⲛϩⲱⲥ ⲉ̀Ⲡϭⲟⲓⲥ: ϫⲉ ϧⲉⲛ ⲟⲩⲱ̀ⲟⲩ ⲅⲁⲣ
+                    ⲙ̀Ⲡⲓⲥⲣⲁⲏⲗ ⲉ̀ⲧⲁⲓϩⲱⲇⲏ ̀ⲛ̀ⲧⲉ Ⲡϭⲟⲓⲥ ⲟⲩⲟϩ ⲁϥϫⲟⲥ ⲉⲑⲣⲟⲩϫⲟⲥ: ϫⲉ ⲙⲁⲣⲉⲛϩⲱⲥ ⲉ̀Ⲡϭⲟⲓⲥ: ϫⲉ ϧⲉⲛ ⲟⲩⲱ̀ⲟⲩ ⲅⲁⲣ
                     ⲁϥϭⲓⲱ̀ⲟⲩ.</td>
                 <td class="arabic">حينئذ سبح موسى وبنو إسرائيل بهذة التسبحة للرب وقالوا فلنسبح للرب لانه بالمجد قد
                     تمجد.</td>
@@ -312,13 +312,13 @@ return `
                 <td class="english" >The Lord is a Man of war, the Lord is His
                     name. Pharaoh's chariots and his army He has cast into the sea.</td>
                 <td class="coptic" >Ⲡϭⲟⲓⲥ ⲡⲉⲧϧⲟⲙϧⲉⲙ ⲛ̀ⲛⲓⲃⲱⲧⲥ: Ⲡϭⲟⲓⲥ ⲡⲉ ⲡⲉϥⲣⲁⲛ:
-                    ⲛⲓⲃⲉⲣⲉϭⲱⲟⲩⲧⲥ ̀ⲛ̀ⲧⲉ Ⲫⲁⲣⲁⲱ̀ ⲛⲉⲙ ⲧⲉϥϫⲟⲙ ⲧⲏⲣⲥ ⲁϥⲃⲉⲣⲃⲱⲣⲟⲩ ⲉ̀ⲫ̀ⲓⲟⲙ.</td>
+                    ⲛⲓⲃⲉⲣⲉϭⲱⲟⲩⲧⲥ ̀ⲛⲧⲉ Ⲫⲁⲣⲁⲱ̀ ⲛⲉⲙ ⲧⲉϥϫⲟⲙ ⲧⲏⲣⲥ ⲁϥⲃⲉⲣⲃⲱⲣⲟⲩ ⲉ̀ⲫ̀ⲓⲟⲙ.</td>
                 <td class="arabic">الرب مكسر الحروب الرب اسمه. مركبات فرعون وكل قوته طرحهما فى البحر.</td>
             </tr>
             <tr id="table_3_row_4" class="north">
                 <td class="english" >His chosen captains also drowned in the
                     Red Sea.</td>
-                <td class="coptic" >Ϩⲁⲛⲥⲱⲧⲡ ⲛ̀ⲁ̀ⲛⲁⲃⲁⲧⲏⲥ ⲛ̀ⲧⲣⲓⲥⲧⲁⲧⲏⲥ ⲁϥϫⲟⲗⲕⲟⲩ
+                <td class="coptic" >Ϩⲁⲛⲥⲱⲧⲡ ⲛ̀ⲁ̀ⲛⲁⲃⲁⲧⲏⲥ ⲛ̀ⲧ̀ⲣⲓⲥⲧⲁⲧⲏⲥ ⲁϥϫⲟⲗⲕⲟⲩ
                     ϧⲉⲛ ⲫ̀ⲓⲟⲙ ⲛ̀ϣⲁⲣⲓ.</td>
                 <td class="arabic">ركباناً منتخبين ذي ثلاث جنبات غرّقهم فى البحر الأحمر.</td>
             </tr>
@@ -357,8 +357,8 @@ return `
                 <td class="english" >The enemy said, "I will pursue, I will
                     overtake, I will divide the spoil, my desire shall be satisfied on them, I will draw my sword,
                     and my hand shall destroy them.&rdquo;</td>
-                <td class="coptic" >Ⲁϥϫⲟⲥ ⲅⲁⲣ ⲛ̀ϫⲉ ⲡⲓϫⲁϫⲓ ϫⲉ ϯⲛⲁϭⲟϫⲓ ⲛ̀ⲧⲁⲧⲁϩⲟ:
-                    ⲛ̀ⲧⲁⲫⲱϣ ⲛ̀ϩⲁⲛϣⲱⲗ: ⲛ̀ⲧⲁⲧ̀ⲥⲓⲟ ⲛ̀ⲧⲁⲯⲩⲭⲏ: ⲛ̀ⲧⲁϧⲱⲧⲉⲃ ϧⲉⲛ ⲧⲁⲥⲏϥⲓ: ⲛ̀ϫⲉ ⲧⲁϫⲓϫ ⲉⲣϭⲟⲓⲥ.</td>
+                <td class="coptic" >Ⲁϥϫⲟⲥ ⲅⲁⲣ ⲛ̀ϫⲉ ⲡⲓϫⲁϫⲓ: ϫⲉ ϯⲛⲁϭⲟϫⲓ ⲛ̀ⲧⲁⲧⲁϩⲟ:
+                    ⲛ̀ⲧⲁⲫⲱϣ ⲛ̀ϩⲁⲛϣⲱⲗ: ⲛ̀ⲧⲁⲧ̀ⲥⲓⲟ̀ ⲛ̀ⲧⲁⲯⲩⲭⲏ: ⲛ̀ⲧⲁϧⲱⲧⲉⲃ ϧⲉⲛ ⲧⲁⲥⲏϥⲓ: ⲛ̀ϫⲉ ⲧⲁϫⲓϫ ⲉⲣϭⲟⲓⲥ.</td>
                 <td class="arabic">قال العدو انى اسرع فادرك. واقسم الغنائم واشبع نفسى. واقتل بسيفى ويدى تتسلط.</td>
             </tr>
             <tr id="table_3_row_10" class="north">
@@ -370,7 +370,7 @@ return `
             </tr>
             <tr id="table_3_row_11" class="south">
                 <td class="english" >Who is like You, O Lord, among the gods?
-                    Who is like You, glorified in his saints, amazing in glory, performing wonders?</td>
+                    Who is like You, glorified in His saints, amazing in glory, performing wonders?</td>
                 <td class="coptic" >Ⲛⲓⲙ ⲉⲧⲟ̀ⲛⲓ ⲙ̀ⲙⲟⲕ ϧⲉⲛ ⲛⲓⲛⲟⲩϯ Ⲡϭⲟⲓⲥ: ⲛⲓⲙ
                     ⲉⲧⲟ̀ⲛⲓ ⲙ̀ⲙⲟⲕ: ⲉ̀ⲁⲩϯⲱ̀ⲟⲩ ⲛⲁⲕ ϧⲉⲛ ⲛⲏⲉⲑⲟⲩⲁⲃ ̀ⲛ̀ⲧⲁⲕ: ⲉⲩⲉⲣϣ̀ⲫⲏⲣⲓ ⲙ̀ⲙⲟⲕ ϧⲉⲛ ⲟⲩⲱ̀ⲟⲩ : ⲉⲕⲓ̀ⲣⲓ
                     ⲛ̀ϩⲁⲛϣ̀ⲫⲏⲣⲓ.</td>
@@ -413,7 +413,7 @@ return `
                     be as still as a stone, till Your people pass over, O Lord, till Your people pass over whom You
                     have purchased.</td>
                 <td class="coptic" >Ϧⲉⲛ ⲡ̀ⲁ̀ϣⲁⲓ ⲛ̀ⲧⲉ ⲡⲉⲕϫ̀ⲫⲟⲓ ⲙⲁⲣⲟⲩⲉⲣⲱ̀ⲛⲓ:
-                    ϣⲁⲧⲉϥⲥⲓⲛⲓ ⲛ̀ϫⲉ ⲡⲉⲕⲗⲁⲟⲥ Ⲡϭⲟⲓⲥ ϣⲁⲧⲉϥⲥⲓⲛⲓ ⲛ̀ϫⲉ ⲡⲉⲕⲗⲁⲟⲥ ⲫⲁⲓ ⲉ̀ⲧⲁⲕϫ̀ⲫⲟϥ.</td>
+                    ϣⲁⲧⲉϥⲥⲓⲛⲓ ⲛ̀ϫⲉ ⲡⲉⲕⲗⲁⲟⲥ Ⲡϭⲟⲓⲥ ϣⲁⲧⲉϥⲥⲓⲛⲓ ⲛ̀ϫⲉ ⲡⲉⲕⲗⲁⲟⲥ: ⲫⲁⲓ ⲉ̀ⲧⲁⲕϫ̀ⲫⲟϥ.</td>
                 <td class="arabic">بكثرة ساعدك فليصيروا كالحجر. حتى يجتاز شعبك يارب حتى يجتاز شعبك هذا الذى اقتنيته.
                 </td>
             </tr>
@@ -459,7 +459,7 @@ return `
             </tr>
             <tr id="table_3_row_22" class="north">
                 <td class="english" >And Miriam answered them saying, " Let us
-                    sing to the Lord for He has triumphed gloriously&rdquo;.</td>
+                    sing to the Lord for He has triumphed gloriously.&rdquo;</td>
                 <td class="coptic" >Ⲁⲥⲉⲣϩⲏⲧⲥ ⲇⲉ ϧⲁϫⲱⲟⲩ ⲛ̀ϫⲉ Ⲙⲁⲣⲓⲁⲙ ⲉⲥϫⲱ ⲙ̀ⲙⲟⲥ:
                     ϫⲉ ⲙⲁⲣⲉⲛϩⲱⲥ ⲉ̀Ⲡϭⲟⲓⲥ: ϫⲉ ϧⲉⲛ ⲟⲩⲱ̀ⲟⲩ ⲅⲁⲣ ⲁϥϭⲓⲱ̀ⲟⲩ.</td>
                 <td class="arabic">وبدأت مريم فى مقدمتهن تقول فلنسبح الرب لانه بالمجد قد تمجد.</td>
@@ -481,66 +481,66 @@ return `
                 </caption>
         <tbody>
             <tr id="table_4_row_0" class="north">
-                <td class="english" >With the split, the waters of the sea
-                    split, And the very deep, became a walkway.</td>
+                <td class="english" >With the split: the waters of the sea
+                    split: And the very deep: became a walkway.</td>
                 <td class="coptic" >Ϧⲉⲛ ⲟⲩϣⲱⲧ ⲁϥϣⲱⲧ : ⲛ̀ϫⲉ ⲡⲓⲙⲱⲟⲩ ⲛ̀ⲧⲉ ⲫ̀ⲓⲟⲙ :
                     ⲟⲩⲟϩ ⲫ̀ⲛⲟⲩⲛ ⲉⲧϣⲏⲕ : ⲁϥϣⲱⲡⲓ ⲛ̀ⲟⲩⲙⲁⲙ̀ⲙⲟϣⲓ.</td>
                 <td class="arabic">قطعاً إنقطع ماء البحر. والعمق العميق صار مسلكاً.</td>
             </tr>
             <tr id="table_4_row_1" class="south">
-                <td class="english" >A hidden earth, was shone upon by the
-                    sun, And the untrodden road, was walked upon.</td>
-                <td class="coptic" >Ⲟⲕⲁϩⲓ ⲛ̀ⲁⲑⲟⲩⲱⲛϩ : ⲁ̀ⲫ̀ⲣⲏ ϣⲁⲓ ϩⲓϫⲱϥ :
+                <td class="english" >A hidden earth: was shone upon by the
+                    sun: And the untrodden road: was walked upon.</td>
+                <td class="coptic" >Ⲟⲩⲕⲁϩⲓ ⲛ̀ⲁⲑⲟⲩⲱⲛϩ : ⲁ̀ⲫ̀ⲣⲏ ϣⲁⲓ ϩⲓϫⲱϥ :
                     ⲟⲩⲙⲱⲓⲧ ⲛ̀ⲁⲧⲥⲓⲛⲓ : ⲁⲩⲙⲟϣⲓ ϩⲓⲱⲧϥ.</td>
                 <td class="arabic">أرض غير ظاهرة أشرقت الشمس عليها وطريق غير مسلوكه مشوا عليها.</td>
             </tr>
             <tr id="table_4_row_2" class="north">
-                <td class="english" >The flowing water, stood still, by a
-                    miraculous, act of wonder.</td>
+                <td class="english" >The flowing water: stood still: by a
+                    miraculous: act of wonder.</td>
                 <td class="coptic" >Ⲟⲩⲙⲱⲟⲩ ⲉϥⲃⲏⲗ ⲉ̀ⲃⲟⲗ : ⲁϥⲟ̀ϩⲓ ⲉ̀ⲣⲁⲧϥ : ϧⲉⲛ
                     ⲟⲩϩⲱⲃ ⲛ̀ϣⲫⲏⲣⲓ : ⲙ̀ⲡⲁⲣⲁⲇⲟⲝⲟⲛ.</td>
                 <td class="arabic">ماء منحل وقف بفعل عجيب معجز.</td>
             </tr>
             <tr id="table_4_row_3" class="south">
-                <td class="english" >Pharaoh and his chariots, were drowned,
-                    and the children of Israel, crossed the sea.</td>
+                <td class="english" >Pharaoh and his chariots: were drowned:
+                    and the children of Israel: crossed the sea.</td>
                 <td class="coptic" >Ⲫⲁⲣⲁⲱ̀ ⲛⲉⲙ ⲛⲉϥϩⲁⲣⲙⲁ : ⲁⲩⲱⲙⲥ ⲉ̀ⲡⲉⲥⲏⲧ:
                     ⲛⲉⲛϣⲏⲣⲓ ⲛ̀Ⲡⲓⲥⲣⲁⲏⲗ : ⲁⲩⲉⲣϫⲓⲛⲓⲟⲣ ⲙ̀ⲫ̀ⲓⲟⲙ.</td>
                 <td class="arabic">غرق فرعون ومركباته وعبر بنو اسرئيل البحر.</td>
             </tr>
             <tr id="table_4_row_4" class="north">
-                <td class="english" >And in front of them, was Moses the
-                    prophet praising, until he brought them to, the wilderness of Sinai.</td>
-                <td class="coptic" >˙Ⲉⲛⲁⲩϩⲱⲥ ϧⲁϫⲱⲟⲩ ⲡⲉ : ⲛ̀ϫⲉ Ⲙⲱⲩ̀ⲥⲏⲥ
+                <td class="english" >And in front of them: was Moses the
+                    prophet praising: until he brought them to: the wilderness of Sinai.</td>
+                <td class="coptic" >Ⲉⲛⲁⲩϩⲱⲥ ϧⲁϫⲱⲟⲩ ⲡⲉ : ⲛ̀ϫⲉ Ⲙⲱⲩ̀ⲥⲏⲥ
                     ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ : ϣⲁⲛ̀ⲧⲉϥϭⲓⲧⲟⲩ ⲉ̀ϧⲟⲩⲛ : ϩⲓ ⲡ̀ϣⲁϥⲉ ⲛ̀Ⲥⲓⲛⲁ.</td>
                 <td class="arabic">وكان موسى النبى يسبح قدامهم حتى ادخلهم بريه سيناء.</td>
             </tr>
             <tr id="table_4_row_5" class="south">
-                <td class="english" >And they were praising God, with this new
-                    psalmody, Saying, "Let us sing to the Lord, For He has triumphed gloriously."</td>
-                <td class="coptic" >Ⲉⲛⲁⲩϩⲱⲥ ⲉ̀Ⲫϯ : ϧⲉⲛ ⲧⲁⲓϩⲱⲇⲉ ⲙ̀ⲡⲓⲃⲉⲣⲓ : ϫⲉ
+                <td class="english" >And they were praising God: with this new
+                    psalmody: saying, "Let us sing to the Lord: For He has triumphed gloriously."</td>
+                <td class="coptic" >Ⲉⲛⲁⲩϩⲱⲥ ⲉ̀Ⲫϯ : ϧⲉⲛ ⲧⲁⲓϩⲱⲇⲏ ⲙ̀ⲃⲉⲣⲓ : ϫⲉ
                     ⲙⲁⲣⲉⲛϩⲱⲥ ⲉ̀Ⲡϭⲟⲓⲥ : ϫⲉ ϧⲉⲛ ⲟⲩⲱ̀ⲟⲩ ⲅⲁⲣ ⲁϥϭⲓⲱ̀ⲟⲩ.</td>
                 <td class="arabic">وكانوا يسبحون الله بهذه التسبحة الجديدة فلنسبح الرب لانه بالمجد قد تمجد.</td>
             </tr>
             <tr id="table_4_row_6" class="north">
-                <td class="english" >Through the prayers of, Moses the
-                    Archprophet, O Lord grant us, the forgiveness of our sins.</td>
-                <td class="coptic" >Ϩⲓⲧⲉⲛ ⲛⲓⲉⲩⲭⲏ ⲛ̀ⲧⲉ Ⲙⲱⲩ̀ⲥⲏⲥ ⲡⲓⲁⲣⲭⲏⲡ̀ⲣⲟⲫⲏⲧⲏⲥ
-                    : Ⲡϭⲟⲓⲥ ⲁ̀ⲣⲓϩ̀ⲙⲟⲧ ⲛⲁⲛ ⲙ̀ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ</td>
+                <td class="english" >Through the prayers: of Moses the
+                    archprophet: O Lord grant us: the forgiveness of our sins.</td>
+                <td class="coptic" >Ϩⲓⲧⲉⲛ ⲛⲓⲉⲩⲭⲏ: ⲛ̀ⲧⲉ Ⲙⲱⲩ̀ⲥⲏⲥ ⲡⲓⲁⲣⲭⲏⲡ̀ⲣⲟⲫⲏⲧⲏⲥ
+                    : Ⲡϭⲟⲓⲥ ⲁ̀ⲣⲓϩ̀ⲙⲟⲧ ⲛⲁⲛ: ⲙ̀ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ</td>
                 <td class="arabic">بصلوات موسى رئيس الأنبياء يارب أنعم لنا بمغفرة خطايانا.</td>
             </tr>
             <tr id="table_4_row_7" class="south">
-                <td class="english" >Through the intercessions, of the Mother
-                    of God, Saint Mary, O Lord grant us, the forgiveness of our sins.</td>
-                <td class="coptic" >Ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲃⲓⲁ ⲛ̀ⲧⲉ ϯⲑⲉⲟⲧⲟⲕⲟⲥ ⲉⲑⲟⲩⲁⲃ
-                    Ⲙⲁⲣⲓⲁ : Ⲡϭⲟⲓⲥ ⲁ̀ⲣⲓϩ̀ⲙⲟⲧ ⲛⲁⲛ ⲙ̀ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ.</td>
+                <td class="english" >Through the intercessions: of the Mother
+                    of God, Saint Mary: O Lord grant us: the forgiveness of our sins.</td>
+                <td class="coptic" >Ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲃⲓⲁ: ⲛ̀ⲧⲉ ϯⲑⲉⲟⲧⲟⲕⲟⲥ ⲉⲑⲟⲩⲁⲃ
+                    Ⲙⲁⲣⲓⲁ: Ⲡϭⲟⲓⲥ ⲁ̀ⲣⲓϩ̀ⲙⲟⲧ ⲛⲁⲛ: ⲙ̀ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ.</td>
                 <td class="arabic">بشفاعات والدة الاله القديسة مريم يارب انعم لنا بمغفرة خطايانا.</td>
             </tr>
             <tr id="table_4_row_8" class="north">
-                <td class="english" >We worship You O Christ, with Your Good
-                    Father, and the Holy Spirit, for You have come and saved us. ${cross}</td>
-                <td class="coptic" >Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ⲠⲓⲬⲣⲓⲥⲧⲟⲥ ⲛⲉⲙ ⲡⲉⲕⲓⲱⲧ
-                    ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ : ⲛⲉⲙ ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉ̀ⲑⲟⲩⲁⲃ : ϫⲉ ⲁⲕⲓ̀ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ. ${cross}</td>
+                <td class="english" >We worship You O Christ: with Your Good
+                    Father: and the Holy Spirit: for You have come and saved us. ${cross}</td>
+                <td class="coptic" >Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ⲠⲓⲬⲣⲓⲥⲧⲟⲥ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ
+                    ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉ̀ⲑⲟⲩⲁⲃ: ϫⲉ ⲁⲕⲓ̀ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ. ${cross}</td>
                 <td class="arabic">نسجد لك أيها المسيح مع أبيك الصالح والروح القدس لانك أتيت وخلصتنا. ${cross}</td>
             </tr>
         </tbody>
