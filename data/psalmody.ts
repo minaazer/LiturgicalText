@@ -1,5 +1,5 @@
 import { cross } from './repeatedPrayers';
-import { getTheotokia , getWeekdaySundayTheotokia , getTennav , AdamTheotokiaConclusion } from './midnightPsalmody/theotokias';
+import { getTheotokia , getWeekdaySundayTheotokia , getTennav } from './midnightPsalmody/theotokias';
 import {getPsali} from './midnightPsalmody/psalis';
 import { getKiahkPraiseHtml } from './midnightPsalmody/kiahkPraises';
 import { annualCommemoration , annualFourthCanticle , getAdamDoxologiesConclusion , theMorningDoxology ,
