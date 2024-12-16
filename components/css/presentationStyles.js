@@ -6,10 +6,13 @@ import { songs } from "../../data/songs/songs";
 
 const screenWidth = Dimensions.get("window").width;
 const screenHeight = Dimensions.get("window").height;
+const isIpad = Platform.OS === "ios" && Platform.isPad;
+const isIphone = Platform.OS === "ios" && !Platform.isPad;
 const isPortrait = screenHeight > screenWidth;
 const isTablet = screenWidth >= 600;
 const isComputer = screenWidth >= 1000;
 const languageWidth = isComputer ? "30%" : isTablet ? "45%" : "90%";
+const drawerMarginLeft = isIpad ? -20 : isIphone && !isPortrait ? -20 : 0;
 
 export const presentationStyles = StyleSheet.create({
   // Styles for bookDrawer *********************************************************
@@ -109,7 +112,7 @@ export const presentationStyles = StyleSheet.create({
     flex: 1,
   },
   drawerContentContainer: {
-    ...(Platform.OS === "ios" && !Platform.isPad && { marginLeft: -20 }),
+    marginLeft: drawerMarginLeft,
     paddingTop: 0,
     paddingBottom: 10,
   },
@@ -127,6 +130,13 @@ export const presentationStyles = StyleSheet.create({
     textShadowRadius: 5,
     textShadowOffset: { width: 1, height: 1 },
     elevation: 5,
+  },
+  drawerText: {
+    textAlign: "center",
+    fontSize: isPortrait ? screenHeight * 0.015 : screenWidth * 0.015,
+    fontFamily: "Georgia",
+    color: "#FFF",
+    marginVertical: 5,
   },
 
   drawerLabel: {
@@ -281,6 +291,24 @@ export const presentationStyles = StyleSheet.create({
     paddingHorizontal: 5,
     width: "100%",
   },
+  searchSortContainer: {
+    display: "flex",
+    flexDirection: isPortrait ? "column" : "row",
+    justifyContent: "space-between",
+    width: "100%",
+    marginBottom: 10,
+  },
+  settingsSortButton: {
+    backgroundColor: "grey",
+    borderRadius: 5,
+    paddingVertical: 5,
+    paddingHorizontal: 10,
+    marginRight: 10,
+    justifyContent: "center",
+    width: isPortrait ? "90%" : null,
+    alignSelf: "center",
+  },
+
   searchContainer: {
     paddingTop: 5,
     marginTop: -5,
@@ -459,6 +487,7 @@ export const presentationStyles = StyleSheet.create({
     textAlign: "center",
   },
 
+  
   /// Coptic Seasons
   seasonsContainer: {
     marginTop: 0,

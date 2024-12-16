@@ -1,8 +1,10 @@
 import { cross } from './repeatedPrayers';
-import { getTheotokia , getWeekdaySundayTheotokia , getTennav } from './midnightPsalmody/theotokias';
+import { getTheotokia , getWeekdaySundayTheotokia , getTennav , AdamTheotokiaConclusion } from './midnightPsalmody/theotokias';
 import {getPsali} from './midnightPsalmody/psalis';
 import { getKiahkPraiseHtml } from './midnightPsalmody/kiahkPraises';
-import { annualCommemoration , annualFourthCanticle , getAdamDoxologiesConclusion } from './midnightPsalmody/annual';
+import { annualCommemoration , annualFourthCanticle , getAdamDoxologiesConclusion , theMorningDoxology ,
+    creedInro , creed , holyHolyHoly , psalmodyConclusion , nekNai
+ } from './midnightPsalmody/annual';
 
 
 export const psalmody = (settings) => {
@@ -15,6 +17,10 @@ export const psalmody = (settings) => {
     const psali = getPsali(45 , false , settings);
 
     const theotokia = getTheotokia(60 , settings);
+
+    const midnightPsalmodyConclusion = creedInro(100) + creed(101) + psalmodyConclusion(102) + holyHolyHoly(103) ;
+    const morningDoxology = theMorningDoxology(104) + nekNai(105,aktonkAki);
+
 
     const weekDaySundayPostFirstCanticle = dayOfWeek !== 0 ? getWeekdaySundayTheotokia(5,settings) : '';
 
@@ -1444,192 +1450,8 @@ ${psali}
 ${postPsali}
 ${preTheotokia}
 ${theotokia}
-
-   
-
-    <table id="table_98" style="display: table;" title="Introduction to the Creed">
-        <caption id="caption_table_98" class="caption">Introduction to the Creed
-            <span class="arabic-caption">مقدمة قانون الإيمان</span>
-        </caption>
-        <tbody>
-            <tr id="table_98_row_0" class="north">
-                <td class="english">We exalt you, the Mother of the true Light. We glorify you, O Saint, the
-                    Theotokos, for you brought forth unto us the Savior of the whole world; He came and saved our
-                    souls.</td>
-                <td class="arabic" >نعظمك يا أم النور الحقيقي، ونمجدك أيتها
-                    العذراء القديسة، والدة الإله، لأنك ولدت لنا مخلص العالم، أتى وخلص نفوسنا.</td>
-            </tr>
-            <tr id="table_98_row_1" class="north">
-                <td class="english">Glory to You, our Master, our King, Christ, the pride of the apostles, the crown
-                    of the martyrs, the joy of the righteous, the firmness of the churches, the forgiveness of sins.
-                </td>
-                <td class="arabic" >المجد لكَ يا سيدنا وملكنا المسيح، فخر
-                    الرسل، إكليل الشهداء تهليل الصديقين، ثبات الكنائس، غفران الخطايا.</td>
-            </tr>
-            <tr id="table_98_row_2" class="north">
-                <td class="english">We proclaim the Holy Trinity in One Godhead. We worship Him. We glorify Him.
-                    Lord have mercy. Lord have mercy. Lord bless. Amen. ${cross}</td>
-                <td class="arabic" >نبشر بالثالوث القدوس، لاهوت واحد، نسجد له ونمجده. يا رب ارحم. يا رب ارحم. يا رب بارك. أمين. ${cross}</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <table id="table_99" style="display: table;" title="The Orthodox Creed">
-        <caption id="caption_table_99" class="caption">The Orthodox Creed
-            <span class="arabic-caption">قانون الإيمان</span>
-        </caption>
-        <tbody>
-            <tr id="table_99_row_0" class="north">
-                <td class="english" >We believe in One God, God the Father,
-                    the Pantocrator, Creator of Heaven and earth, and of all things seen and unseen. We believe in
-                    One Lord, Jesus Christ, the Only-Begotten Son of God, Begotten of the Father before all ages.
-                    Light of Light, True God of True God; begotten, not created;</td>
-                <td class="coptic" >Ⲧⲉⲛⲛⲁϩϯ ⲉ̀ⲟⲩⲛⲟⲩϯ ⲛ̀ⲟⲩⲱⲧ: Ⲫϯ Ⲫ̀ⲓⲱⲧ
-                    ⲡⲓⲡⲁⲛⲧⲟⲕⲣⲁⲧⲱⲣ ⲫⲏ ⲉ̀ⲧⲁϥⲑⲁⲙⲓⲟ ⲛ̀ⲧ̀ⲫⲉ ⲛⲉⲙ ⲡ̀ⲕⲁϩⲓ ⲛⲏ ⲉ̀ⲧⲟⲩⲛⲁⲩ ⲉ̀ⲣⲱⲟⲩ ⲛⲉⲙ ⲛⲏ ⲉⲧⲉ ⲛ̀ⲥⲉⲛⲁⲩ ⲉ̀ⲣⲱⲟⲩ ⲁⲛ.
-                    Ⲧⲉⲛⲛⲁϩϯ ⲉ̀ⲟⲩⲛⲟⲩϯ ⲛ̀ⲟⲩⲱⲧ Ⲓˉⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ ̀̀Ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫϯ ⲡⲓⲙⲟⲛⲟⲅⲉⲛⲏⲥ ⲡⲓⲙⲓⲥⲓ ⲉ̀ⲃⲟⲗϧⲉⲛ Ⲫ̀ⲓⲱⲧ
-                    ϧⲁϫⲱⲟⲩ ⲛ̀ⲛⲓⲉ̀ⲱⲛ ⲧⲏⲣⲟⲩ: ⲟⲩⲟⲩⲱⲓⲛⲓ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲟⲩⲟⲩⲱⲓⲛⲓ: ⲟⲩⲛⲟⲩϯ ⲛ̀ⲧⲁⲫ̀ⲙⲏⲓ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲟⲩⲛⲟⲩϯ ⲛ̀ⲧⲁⲫ̀ⲙⲏⲓ:
-                    ⲟ̀ⲩⲙⲓⲥⲓ ⲡⲉ ⲟⲩⲑⲁⲙⲓⲟ ⲁⲛ ⲡⲉ:</td>
-                <td class="arabic">نؤمن بإله واحد، الله الآب ضابط الكل، خالق السماء والأرض، ما يري وما لا يري.
-                    نؤمن برب واحد، يسوع المسيح، ابن الله الوحيد المولود من الآب قبل كل الدهور. نور من نور، إله حق من
-                    إله حق، مولود غير مخلوق،</td>
-            </tr>
-            <tr id="table_99_row_1" class="north">
-                <td class="english" >of one essence with the Father by whom
-                    all things were made; who, for us men and for our salvation came down from heaven, and was
-                    incarnate of the Holy Spirit and of the Virgin Mary, and became Man. And He was crucified for us
-                    under Pontius Pilate, suffered and was buried;</td>
-                <td class="coptic" >ⲟⲩⲟ̀ⲙⲟⲟⲩⲥⲓⲟⲥ ⲡⲉ ⲛⲉⲙ Ⲫ̀ⲓⲱⲧ ⲫⲏ ⲉ̀ⲧⲁ ϩⲱⲃ
-                    ⲛⲓⲃⲉⲛ ϣⲱⲡⲓ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲟⲧϥ. Ⲫⲁⲓ ⲉ̀ⲧⲉ ⲉⲑⲃⲏⲧⲉⲛ ⲁ̀ⲛⲟⲛ ϧⲁ ⲛⲓⲣⲱⲙⲓ ⲛⲉⲙ ⲉⲑⲃⲉ ⲡⲉⲛⲟⲩϫⲁⲓ: ⲁϥⲓ̀ ⲉ̀ⲡⲉⲥⲏⲧ
-                    ⲉ̀ⲃⲟⲗϧⲉⲛ ⲧ̀ⲫⲉ ⲁϥϭⲓⲥⲁⲣⲝ ⲉ̀ⲃⲟⲗϧⲉⲛ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ Ⲉⲑⲟⲩⲁⲃ ⲛⲉⲙ ⲉ̀ⲃⲟⲗϧⲉⲛ Ⲙⲁⲣⲓⲁ ϯⲡⲁⲣⲑⲉⲛⲟⲥ ⲟⲩⲟϩ ⲁϥⲉⲣⲣⲱⲙⲓ:
-                    ⲟⲩⲟϩ ⲁⲩⲉⲣⲥ̀ⲧⲁⲩⲣⲱⲛⲓⲛ ⲙ̀ⲙⲟϥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ ⲛⲁϩⲣⲉⲛ Ⲡⲟⲛⲧⲓⲟⲥ Ⲡⲓⲗⲁⲧⲟⲥ: ⲁϥϣⲉⲡⲉⲙⲕⲁϩ ⲟⲩⲟϩ ⲁⲩⲕⲟⲥϥ: ⲟⲩⲟϩ
-                    ⲁϥⲧⲱⲛϥ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲏ ⲉⲑⲙⲱⲟⲩⲧ</td>
-                <td class="arabic">مساو للآب في الجوهر، الذى به كان كل شئ. هذا الذي من أجلنا نحن البشر، ومن أجل
-                    خلاصنا ، نزل من السماء ، وتجسد من الروح القدس ومن مريم العذراء وتأنس. وصلب عنا علي عهد بيلاطس
-                    البنطي ، تألم وقبر. وقام من بين الأموات</td>
-            </tr>
-            <tr id="table_99_row_2" class="north">
-                <td class="english" >and on the third day He rose from the
-                    dead according to the Scriptures. Ascended into heaven, He sits at the right hand of His Father;
-                    and He is coming again in His Glory to judge the living and the dead; whose kingdom shall have
-                    no end. Yes, we believe in the Holy Spirit, the Lord, the Giver of Life, who proceeds from the
-                    Father;</td>
-                <td class="coptic" >ϧⲉⲛ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲙ̀ⲙⲁϩ ⲅˉ (ϣⲟⲙⲧ) ⲕⲁⲧⲁ
-                    ⲛⲓⲅ̀ⲣⲁⲫⲏ. Ⲁϥϣⲉⲛⲁϥ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ⲛⲓⲫⲏⲟⲩⲓ̀: ⲁϥϩⲉⲙⲥⲓ ⲥⲁⲟⲩⲓ̀ⲛⲁⲙ ⲙ̀Ⲡⲉϥⲓⲱⲧ. Ⲕⲉ ⲡⲁⲗⲓⲛ ⲉϥⲛⲏⲟⲩ ϧⲉⲛ ⲡⲉϥⲱ̀ⲟⲩ
-                    ⲉ̀ϯϩⲁⲡ ⲉ̀ ⲛⲏ ⲉⲧⲟⲛϧ ⲛⲉⲙ ⲛⲏ ⲉⲑⲙⲱⲟⲩⲧ: ⲫⲏ ⲉ̀ⲧⲉ ⲧⲉϥⲙⲉⲧⲟⲩⲣⲟ ⲟⲩⲁⲑⲙⲟⲩⲛⲕ ⲧⲉ. Ⲥⲉ ⲧⲉⲛⲛⲁϩϯ ⲉ̀Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ
-                    Ⲉⲑⲟⲩⲁⲃ Ⲡϭⲟⲓⲥ ⲛ̀ⲣⲉϥϯ ⲙ̀ⲡ̀ⲱⲛϧ ⲫⲏ ⲉⲑⲛⲏⲟⲩ ⲉ̀ⲃⲟⲗ ϧⲉⲛ Ⲫⲓⲱⲧ:</td>
-                <td class="arabic">في اليوم الثالث، كما في الكتب. وصعد الي السموات، وجلس عن يمين أبيه. وأيضا يأتي
-                    في مجده ليدين الأحياء والأموات ، الذي ليس لملكه انقضاء. نعم نؤمن بالروح القدس ، الرب المحيي
-                    المنبثق من الآب،</td>
-            </tr>
-            <tr id="table_99_row_3" class="north">
-                <td class="english" >who, with the Father and the Son, is
-                    Worshiped and Glorified; who spoke by the prophets. And in one Holy, Catholic and Apostolic
-                    Church. We confess one Baptism, for the remission of sins.</td>
-                <td class="coptic" >ⲥⲉⲟⲩⲱϣⲧ ⲙ̀ⲙⲟϥ ⲥⲉϯⲱ̀ⲟⲩ ⲛⲁϥ ⲛⲉⲙ Ⲫⲓⲱⲧ ⲛⲉⲙ
-                    Ⲡ̀ϣⲏⲣⲓ :ⲫⲏ ⲉ̀ⲧⲁϥⲥⲁϫⲓ ϧⲉⲛ ⲛⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ. Ⲉⲟⲩⲓ̀ ⲛ̀ⲁ̀ⲅⲓⲁ̀ ⲛ̀ⲕⲁⲑⲟⲗⲓⲕⲏ ⲛ̀ⲁ̀ⲡⲟⲥⲧⲟⲗⲓⲕⲏ ⲛ̀ⲉⲕⲕ̀ⲗⲏⲥⲓⲁ.
-                    Ⲧⲉⲛⲉⲣⲟ̀ⲙⲟⲗⲟⲅⲓⲛ ⲛ̀ⲟⲩⲱⲙⲥ ⲛ̀ⲟⲩⲱⲧ ⲉ̀ⲡ̀ⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲓⲛⲟⲃⲓ.</td>
-                <td class="arabic">نسجد له ونمجده مع الآب والابن، الناطق في الانبياء. وبكنيسة واحدة مقدسة جامعة
-                    رسولية. ونعترف بمعمودية واحدة لمغفرة الخطايا.</td>
-            </tr>
-            <tr id="table_99_row_4" class="north">
-                <td class="english" >We look for the resurrection of the dead,
-                    and the life of the age to come. Amen. ${cross}</td>
-                <td class="coptic" >Ⲧⲉⲛϫⲟⲩϣⲧ ⲉ̀ⲃⲟⲗ ϧⲁ ⲧ̀ϩⲏ ⲛ̀ϯⲁ̀ⲛⲁⲥⲧⲁⲥⲓⲥ ⲛ̀ⲧⲉ
-                    ⲛⲓⲣⲉϥⲙⲱⲟⲩⲧ: ⲛⲉⲙ ⲡⲓⲱⲛϧ ⲛ̀ⲧⲉ ⲡⲓⲉ̀ⲱⲛ ⲉⲑⲛⲏⲟⲩ: ⲁ̀ⲙⲏⲛ. ${cross}</td>
-                <td class="arabic">وننتظر قيامة الأموات ، وحياة الدهر الآتي آمين. ${cross}</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <table id="table_100" style="display: table;" title="Ⲫϯ ⲛⲁⲓ ⲛⲁⲛ">
-        <caption id="caption_table_100" class="caption">O God Have Mercy On Us
-            <span class="coptic-caption">Ⲫϯ ⲛⲁⲓ ⲛⲁⲛ</span>
-            <span class="arabic-caption">يا الله ارحمنا</span>
-            </caption>
-        <tbody>
-            <tr id="table_100_row_0" class="north">
-                <td class="english" >Lord Have Mercy (3)</td>
-                <td class="coptic" >Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ (3)</td>
-                <td class="arabic">يارب إرحم(3)</td>
-            </tr>
-            <tr id="table_100_row_1" class="south">
-                <td class="english" >O God have mercy on us:</td>
-                <td class="coptic" >Ⲫϯ ⲛⲁⲓ ⲛⲁⲛ.</td>
-                <td class="arabic">ياالله ارحمنا.</td>
-            </tr>
-            <tr id="table_100_row_2" class="north">
-                <td class="english" >O God hear us:</td>
-                <td class="coptic" >Ⲫϯ ⲥⲱⲧⲉⲙ ⲉ̀ⲣⲟⲛ.</td>
-                <td class="arabic">ياالله اسمعنا.</td>
-            </tr>
-            <tr id="table_100_row_3" class="south">
-                <td class="english" >O God behold us:</td>
-                <td class="coptic" >Ⲫϯ ⲥⲟⲙⲥ ⲉ̀ⲣⲟⲛ.</td>
-                <td class="arabic">ياالله انظر الينا.</td>
-            </tr>
-            <tr id="table_100_row_4" class="north">
-                <td class="english" >O God look to us:</td>
-                <td class="coptic" >Ⲫϯ ϫⲟⲩϣⲧ ⲉ̀ⲣⲟⲛ.</td>
-                <td class="arabic">ياالله اطّلع علينا</td>
-            </tr>
-            <tr id="table_100_row_5" class="south">
-                <td class="english" >O God have compassion on us:</td>
-                <td class="coptic" >Ⲫϯ ϣⲉⲛϩⲏⲧ ϧⲁⲣⲟⲛ.</td>
-                <td class="arabic">يا الله تراءف علينا.</td>
-            </tr>
-            <tr id="table_100_row_6" class="north">
-                <td class="english" >We are Your people:</td>
-                <td class="coptic" >Ⲁⲛⲟⲛ ϧⲁ ⲡⲉⲕⲗⲁⲟⲥ.</td>
-                <td class="arabic">نحن شعبك.</td>
-            </tr>
-            <tr id="table_100_row_7" class="south">
-                <td class="english" >We are Your creation:</td>
-                <td class="coptic" >Ⲁⲛⲟⲛ ϧⲁ ⲡⲉⲕⲡ̀ⲗⲁⲥⲙⲁ.</td>
-                <td class="arabic">نحن جبلتك</td>
-            </tr>
-            <tr id="table_100_row_8" class="north">
-                <td class="english" >Deliver us from our enemies:</td>
-                <td class="coptic" >Ⲛⲁϩⲙⲉⲛ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲉⲛϫⲁϫⲓ.</td>
-                <td class="arabic">نجنا من أعدائنا</td>
-            </tr>
-            <tr id="table_100_row_9" class="south">
-                <td class="english" >Deliver us from inflation:</td>
-                <td class="coptic" >Ⲛⲁϩⲙⲉⲛ ⲉ̀ⲃⲟⲗϩⲁ ⲟⲩϩ̀ⲃⲱⲛ.</td>
-                <td class="arabic">نجنا من الغلاء.</td>
-            </tr>
-            <tr id="table_100_row_10" class="north">
-                <td class="english" >We are Your servants:</td>
-                <td class="coptic" >Ⲁⲛⲟⲛ ϧⲁ ⲛⲉⲕⲉ̀ⲃⲓⲁⲓⲕ</td>
-                <td class="arabic">نحن عبيدك.</td>
-            </tr>
-            <tr id="table_100_row_11" class="south">
-                <td class="english" >You are the Son of God:</td>
-                <td class="coptic" >̀ Ⲩⲓⲟⲥ Ⲑⲉⲟⲥ ⲛ̀ⲑⲟⲕ.</td>
-                <td class="arabic">أنت ابن الله.</td>
-            </tr>
-            <tr id="table_100_row_12" class="north">
-                <td class="english" >We believe in You:</td>
-                <td class="coptic" >Ⲁⲛⲛⲁϩϯ ⲉ̀ⲣⲟⲕ.</td>
-                <td class="arabic">آمنا بك.</td>
-            </tr>
-            <tr id="table_100_row_13" class="south">
-                <td class="english" >For You Have come and saved us:</td>
-                <td class="coptic" >Ϫⲉ ⲁⲕⲓ̀ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ</td>
-                <td class="arabic">لانك أتيت وخلصتنا</td>
-            </tr>
-            <tr id="table_100_row_14" class="north">
-                <td class="english" >Visit us with Your salvation:</td>
-                <td class="coptic" >Ϫⲉⲙⲡⲉⲛϣⲓⲛⲓ ϧⲉⲛ ⲡⲉⲕⲟⲩϫⲁⲓ.</td>
-                <td class="arabic">تعهدنا بخلاصك.</td>
-            </tr>
-            <tr id="table_100_row_15" class="south">
-                <td class="english" >And forgive us our sins ${cross}</td>
-                <td class="coptic" >Ⲟⲩⲟϩ ⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ. ${cross}</td>
-                <td class="arabic">واغفر لنا خطيانا. ${cross}</td>
-            </tr>
-        </tbody>
-    </table>
-
+${midnightPsalmodyConclusion}
+${morningDoxology}
 
     </div>
 

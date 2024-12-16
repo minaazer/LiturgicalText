@@ -4635,4 +4635,5 @@ export {
     getTheotokia,
     getWeekdaySundayTheotokia,
     getTennav,
+    AdamTheotokiaConclusion
 }

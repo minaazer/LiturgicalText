@@ -15,6 +15,8 @@ import SettingsContext from "../../settings/settingsContext";
 import SettingsScreen from "../screens/settings";
 import CalendarScreen from "../screens/calendar";
 import SaintSettingsScreen from "../screens/saintSettings";
+import GoLive from "../reusableComponents/goLive";
+import CurrentSeason from "../reusableComponents/currentSeason";
 import AboutScreen from "../screens/about";
 import Home from "../screens/home";
 import Kiahk from "../screens/kiahk";
@@ -532,6 +534,14 @@ const LeftDrawerContent = ({ navigation, currentRoute, ...props }) => {
         labelStyle={presentationStyles.drawerLabel}
         onPress={() => closeDrawerAndNavigate("About")}
       />
+      <View style={presentationStyles.drawerLineBreak}></View>
+
+      <GoLive />
+
+      <CurrentSeason />
+
+      <View style={presentationStyles.drawerLineBreak}></View>
+
     </DrawerContentScrollView>
   );
 };
