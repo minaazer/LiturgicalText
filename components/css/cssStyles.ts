@@ -6,6 +6,7 @@ import { fontTypeface } from './fontTypeface';
 export const useDynamicStyles = (webviewRef) => {
     const { width, height } = Dimensions.get("window");
     const calculatedWidth = width - 10; // Adjust for padding
+    const columnPadding = width > 900 ? 35 : 20; // Adjust for padding
     const isPortrait = height >= width; // Determine orientation
     const fontSizeUnit = isPortrait ? 'vh' : 'vw';
     const [settings] = useContext(SettingsContext);
@@ -61,12 +62,15 @@ html {
  margin: 0;
  padding: 0;
  width: 99%;
-}
+ touch-action: none;
+ overflow-x: hidden;
+ pointer-events: auto;
+ }
 
 
 
 body {
- overflow-x: hidden;
+ overflow: hidden;
  touch-action: none;
  color: white;
  font-size: ${fontSize};
@@ -74,6 +78,7 @@ body {
  margin-top: 0px;
  padding-top: 0px;
  margin-bottom: 1000px;
+ pointer-events: box-none;
 }
 
 h1 {
@@ -84,6 +89,7 @@ h1 {
 div {
     margin: 0;
     padding: 0;
+
 }
 
 table {
@@ -97,6 +103,8 @@ width: ${calculatedWidth}px !important;
 border-collapse: collapse;
 font-size: ${fontSize};
 border-width: 0px;
+touch-action: none;
+
 }
 
 
@@ -109,6 +117,7 @@ break-before: auto;
 tbody {
     font-size: ${fontSize};
     border-width: 0px;
+
 }
 
 tr {
@@ -119,6 +128,8 @@ tr {
     overflow-x: hidden;
     padding: 0 0 10px 0; /* Add padding to the bottom of each row */
     border-width: 0px;
+    touch-action: none;
+
 
 }
 
@@ -132,18 +143,20 @@ td {
     overflow-wrap: break-word; /* Prevent text overflow */
     overflow-x: hidden;
     border-width: 0px;
+    pointer-events: none;
+
 }
 
 /* First column of a 3-column row */
 td.column-1-3 {
     flex: 0 1 30%; /* 30% width */
-    padding-right: 20px;
+    padding-right: ${columnPadding}px;
 }
 
 /* Second column of a 3-column row */
 td.column-2-3 {
     flex: 0 1 40%; /* 30% width */
-    padding-right: 20px;
+    padding-right: ${columnPadding}px;
 
 }
 
@@ -156,13 +169,14 @@ td.column-3-3 {
 /* First column of a 2-column row */
 td.column-1-2 {
     flex: 0 1 60%; /* 30% width */
-    padding-right: 20px;
+    padding-right: ${columnPadding}px;
 }
 
 /* Second column of a 2-column row */
 td.column-2-2 {
     flex: 0 1 40%; /* 30% width */
     padding-right: 3px;
+    pointer-events: none;
 
 }
 
@@ -331,6 +345,8 @@ td.column-1-1 {
 
 .coptic-caption {
     font-family: 'FreeSerif Avva Shenouda';
+    direction: ltr !important;
+    text-align: left !important;
 }
 .coptic-caption:lang(en) {
     font-family: 'Georgia' !important;
@@ -338,6 +354,10 @@ td.column-1-1 {
 .arabic-caption {
     direction: rtl !important;
     line-height: 1.4;
+}
+.arabic-text {
+    direction: rtl !important;
+    line-height: 1;
 }
 
 
@@ -352,48 +372,49 @@ td.column-1-1 {
 
 .navigationButton {
     display: flex;
-    justify-content: space-between;
+    width: 95% !important;
     align-items: center;
     font-size: ${fontSize};
     color: white !important;
     background-color: #614051 !important;
-    font-weight: bold;
-    padding: 3px;
-    margin: 10px;
-    border-radius: 10px;
+    font-weight: bold !important;
+    padding: 3px !important;
+    margin: 10px !important;
+    border-radius: 10px !important;
     border: 1px solid white;
+    cursor: pointer;
+    pointer-events: auto;
+
 }
 
 .arabicButton {
-    flex: 2; /* 40% width */
     text-align: center;
     direction: rtl;
     padding-left: 10px;
-    display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'flex'};
+    display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'table-cell'};
 }
 
 .englishButton {
-    flex: 3; /* 60% width */
     font-family: 'Georgia' !important;
     padding-right: 10px;
     text-align: center;
-    display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'flex'};
+    display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'table-cell'};
 }
 
 .navigationLink {
-    display: flex;
+    display: block;
     justify-content: space-between;
     align-items: center;
     font-size: ${linkFontSize};
-    color: red !important;
+    color: darkRed !important;
     background-color: 'black' !important;
     font-weight: bold;
     padding: 3px;
     margin: 10px;
     border-radius: 10px;
     text-decoration: underline;
-    font-style: italic;
-    
+    cursor: pointer;
+    pointer-events: auto; 
 }
 
 .arabicLink {
@@ -456,6 +477,10 @@ td.column-1-1 {
 
 .skipButton {
  text-align: center;
+ align-items: center;
+ justify-content: center;
+ pointer-events: auto;
+ cursor: pointer;
 }
 
 

@@ -6,7 +6,6 @@ async function initialize() {
         showSpinner();
 
         // Custom ready flag to track initialization
-        let isInitialized = false;
         try {
             // Perform operations in sequence
             await convertArabicCaptions();
@@ -60,34 +59,173 @@ function applyDynamicTableClasses() {
 // touchNavigation
 const handleTouchNavigation = `
 function handleTouchNavigation(event) {
-    // Safely handle touchstart event
-    document.addEventListener('touchstart', function (event) {
-        if (event.touches.length > 0) {
-            const pageX = event.touches[0].pageX;
-            // Post message to React Native
-            if (window.ReactNativeWebView && window.ReactNativeWebView.postMessage) {
-                window.ReactNativeWebView.postMessage(JSON.stringify({ type: 'TOUCH_START', data: pageX }));
-            } else {
-                debugMessage('ReactNativeWebView is not available');
-            }
+  let isTouching = false;
+  let touchStartX = 0;
+  let touchStartY = 0;
+  let buttonClicked = false;
+
+  // Shared logic for handling element interactions
+  function handleInteraction(pageX, pageY) {
+    const targetElement = document.elementFromPoint(pageX, pageY);
+    if (targetElement) {
+      let currentElement = targetElement;
+
+      while (currentElement) {
+        if (currentElement.classList.contains("caption")) {
+          listenToTableCaption(currentElement);
+          buttonClicked = true;
+          return; // Stop further processing
         }
-    });
 
-    // Safely handle touchend event
-    document.addEventListener('touchend', function (event) {
-        if (event.changedTouches.length > 0) {
-            const pageX = event.changedTouches[0].pageX;
-
-            // Post message to React Native
-            if (window.ReactNativeWebView && window.ReactNativeWebView.postMessage) {
-                window.ReactNativeWebView.postMessage(JSON.stringify({ type: 'TOUCH_END', data: pageX }));
-            } else {
-                debugMessage('ReactNativeWebView is not available');
-            }
+        if (
+          currentElement.classList.contains("navigationButton") ||
+          currentElement.classList.contains("navigationLink")
+        ) {
+          listenToButtonClick(currentElement);
+          buttonClicked = true;
+          return; // Stop further processing
         }
-    });
-}`;
 
+        if (currentElement.classList.contains("skipButton")) {
+          listenToBookNavigationButtons(currentElement);
+          buttonClicked = true;
+          return; // Stop further processing
+        }
+
+        currentElement = currentElement.parentElement; // Traverse up the DOM tree
+      }
+    }
+  }
+
+  // Touchstart and Mousedown: Start interaction
+  function startInteraction(event) {
+    event.preventDefault();
+    isTouching = true;
+    buttonClicked = false;
+
+    let pageX, pageY;
+    if (event.type === "touchstart") {
+      pageX = event.touches[0].pageX;
+      pageY = event.touches[0].pageY - window.scrollY; // Account for scroll position
+    } else if (event.type === "mousedown") {
+      pageX = event.pageX;
+      pageY = event.pageY - window.scrollY;
+    }
+
+    touchStartX = pageX;
+    touchStartY = pageY;
+
+    handleInteraction(pageX, pageY); // Handle element interaction
+  }
+
+  // Touchmove and Mousemove: Handle move interactions
+  function moveInteraction(event) {
+    if (!isTouching) return;
+    event.preventDefault();
+
+    let pageX, pageY;
+    if (event.type === "touchmove") {
+      pageX = event.touches[0].pageX;
+      pageY = event.touches[0].pageY - window.scrollY;
+    } else if (event.type === "mousemove") {
+      pageX = event.pageX;
+      pageY = event.pageY - window.scrollY;
+    }
+  }
+
+  // Touchend and Mouseup: End interaction
+  function endInteraction(event) {
+    event.preventDefault();
+    isTouching = false;
+
+    let pageX, pageY;
+    if (event.type === "touchend" || event.type === "mouseup") {
+      if (event.type === "touchend") {
+        pageX = event.changedTouches[0].pageX;
+        pageY = event.changedTouches[0].pageY - window.scrollY;
+      } else if (event.type === "mouseup") {
+        pageX = event.pageX;
+        pageY = event.pageY - window.scrollY;
+      }
+
+      const deltaX = pageX - touchStartX;
+      const deltaY = pageY - touchStartY;
+
+      // Horizontal swipe detection
+      if (Math.abs(deltaX) > 30 && Math.abs(deltaY) < 30) {
+        if (deltaX > 0) {
+          // Right swipe
+          postMessageToReactNative("LEFT_SWIPE", deltaX);
+        } else {
+          // Left swipe
+          postMessageToReactNative("RIGHT_SWIPE", deltaX);
+        }
+      } else if (!buttonClicked && Math.abs(deltaX) < 30 && Math.abs(deltaY) < 30) {
+        // No swipe, register a simple touch/click action
+        postMessageToReactNative("TOUCH_END", pageX);
+      }
+    }
+  }
+
+  // Touchcancel: Handle touch cancellation
+  function cancelInteraction(event) {
+    isTouching = false;
+    postMessageToReactNative("TOUCH_CANCEL", null);
+  }
+
+  // Keyboard interaction
+  function handleKeyPress(event) {
+    switch (event.key) {
+      case "ArrowRight":
+      case "ArrowDown":
+      case "Enter":
+      case " ":
+        // Handle "Next" action
+        postMessageToReactNative("HANDLE_NEXT", null);
+        break;
+      case "ArrowLeft":
+      case "ArrowUp":
+        // Handle "Previous" action
+        postMessageToReactNative("HANDLE_PREVIOUS", null);
+        break;
+      default:
+        break;
+    }
+  }
+
+  // Prevent all responses to mouse wheel actions
+  document.addEventListener(
+    "wheel",
+    function (event) {
+      event.preventDefault(); // Block default scrolling behavior
+    },
+    { passive: false }
+  );
+
+  // Event Listeners for Touch
+  document.addEventListener("touchstart", startInteraction, { passive: false });
+  document.addEventListener("touchmove", moveInteraction, { passive: false });
+  document.addEventListener("touchend", endInteraction, { passive: false });
+  document.addEventListener("touchcancel", cancelInteraction);
+
+  // Event Listeners for Mouse
+  document.addEventListener("mousedown", startInteraction);
+  document.addEventListener("mousemove", moveInteraction);
+  document.addEventListener("mouseup", endInteraction);
+
+  // Event Listener for Keyboard
+  document.addEventListener("keydown", handleKeyPress);
+
+  // Helper function to post messages to React Native WebView
+  function postMessageToReactNative(type, data) {
+    if (window.ReactNativeWebView && window.ReactNativeWebView.postMessage) {
+      window.ReactNativeWebView.postMessage(JSON.stringify({ type: type, data: data }));
+    } else {
+      console.debug("ReactNativeWebView is not available");
+    }
+  }
+}
+`;
 
 // Arabic numbers
 const arabicNumbers =
@@ -793,7 +931,7 @@ const paginateTables =
         currentPage: currentPage[0],
         pagesPerRow: pagesPerRow[pagesPerRow.length - 1],
         tableId: tableId,
-        test: 'remainder',
+        test: 'remainder for element',
         firstVisibleElementId: nextElementInClassId,
       });
       currentPage = [];
@@ -827,9 +965,9 @@ const paginateTables =
       }
     }
   });
-
   sendMessage(JSON.stringify({ type: 'PAGINATION_DATA', data: yOffsetPages }));
-// Adjust overlay with the first visible element
+
+  // Adjust overlay with the first visible element
             if (yOffsetPages.length > 0) {
                 adjustOverlay(yOffsetPages[0].firstVisibleElementId);
             }
@@ -984,6 +1122,7 @@ const paginateTablesGlorification =
 // Overlay functions
 const adjustOverlay =
 `function adjustOverlay(elementId) {
+  
   var element = document.getElementById(elementId);
   // check if element is a caption
   if (element && element.classList.contains('caption')) {
@@ -1234,64 +1373,49 @@ window.removeBlackScreen = function() {
 
 const tableToggle =
  `
-function listenToTableCaptions() {
-    const tableCaptions = document.querySelectorAll('.caption');
+  function listenToTableCaption(captionElement) {
+    const tableId = captionElement.id.replace('caption_', '');
+    const table = document.getElementById(tableId);
 
-    tableCaptions.forEach(caption => {
-        caption.addEventListener('click', function() {
-            const tableId = this.id.replace('caption_', '');
-            const table = document.getElementById(tableId);
-            
-            if (table) {
-                showSpinner(); // Show spinner before processing
-                document.getElementById('spinner-overlay').style.removeProperty('background-color');
-                document.getElementById('spinner-overlay').style.backgroundColor = 'rgba(20,20,20,0.8)'; // Semi-transparent spinner overlay
+    if (table) {
+      showSpinner();
+      document.getElementById('spinner-overlay').style.backgroundColor = 'rgba(20,20,20,0.8)';
 
-                const tableBodies = table.getElementsByTagName('tbody'); // Faster than querySelectorAll
+      const tableBodies = table.getElementsByTagName('tbody');
 
-                if (tableBodies.length > 0) {
-                    Array.from(tableBodies).forEach(tbody => {
-                        const isHidden = tbody.style.display === 'none';
+      if (tableBodies.length > 0) {
+        Array.from(tableBodies).forEach(tbody => {
+          const isHidden = tbody.style.display === 'none';
+          tbody.style.display = isHidden ? 'table-row-group' : 'none';
+          captionElement.classList.toggle('table-invisible', !isHidden); // Use the passed captionElement
+          currentFileStates[tableId] = isHidden;
+          savedStates[fileKey] = currentFileStates;
+          sendMessage(JSON.stringify({ type: 'setStoredItem', data: { key: 'tableStates', value: savedStates } }));
 
-                        // Toggle the display
-                        tbody.style.display = isHidden ? 'table-row-group' : 'none';
-                        this.classList.toggle('table-invisible', !isHidden);
-                        // Update state
-                        currentFileStates[tableId] = isHidden;
-                        savedStates[fileKey] = currentFileStates;
-                        sendMessage(JSON.stringify({ type: 'setStoredItem', data: { key: 'tableStates', value: savedStates } }));
+          if (table.classList.contains('continued')) {
+            const nextTableId = tableId + '.5';
+            const nextTable = document.getElementById(nextTableId);
 
-                        // Check if the table has the "continued" class
-                        if (table.classList.contains('continued')) {
-                            // Calculate the next table ID
-                            const nextTableId = tableId + '.5'; // No special handling needed here for $
-                            const nextTable = document.getElementById(nextTableId);
-
-                            if (nextTable) {
-                                const nextTableBodies = nextTable.getElementsByTagName('tbody');
-                                Array.from(nextTableBodies).forEach(nextTbody => {
-                                    nextTbody.style.display = isHidden ? 'table-row-group' : 'none';
-                                });
-
-                                // Update state for the next table
-                                currentFileStates[nextTableId] = isHidden;
-                                savedStates[fileKey] = currentFileStates;
-                                sendMessage(JSON.stringify({ type: 'setStoredItem', data: { key: 'tableStates', value: savedStates } }));
-                            }
-                        }
-                    });
-
-                    // Re-paginate after the toggle
-                    setTimeout(() => {
-                        paginateTables(); // Simulate pagination with timeout (if needed)
-                        sendMessage(JSON.stringify({ type: 'TABLE_TOGGLE', data: tableId })); // Navigate to the table
-                        hideSpinner(); // Hide spinner after processing
-                    }, 100); // Adjust the delay as needed
-                }
+            if (nextTable) {
+              const nextTableBodies = nextTable.getElementsByTagName('tbody');
+              Array.from(nextTableBodies).forEach(nextTbody => {
+                nextTbody.style.display = isHidden ? 'table-row-group' : 'none';
+              });
+              currentFileStates[nextTableId] = isHidden;
+              savedStates[fileKey] = currentFileStates;
+              sendMessage(JSON.stringify({ type: 'setStoredItem', data: { key: 'tableStates', value: savedStates } }));
             }
+          }
         });
-    });
-}
+
+        setTimeout(() => {
+          paginateTables();
+          sendMessage(JSON.stringify({ type: 'TABLE_TOGGLE', data: tableId }));
+          hideSpinner();
+        }, 100);
+      }
+    }
+  }
 
 
 `;
@@ -1314,7 +1438,6 @@ async function loadStoredSettings(currentFileStates) {
                     });
                 }
             });
-
             // Resolve the promise after the operation is complete
             resolve();
         } catch (error) {
@@ -1327,35 +1450,16 @@ async function loadStoredSettings(currentFileStates) {
 `;
 
 const listenToButtonClicks = `
-function listenToButtonClicks() {
-  // Get all elements with class .navigationButton and .navigationLink
-  const navigationButtons = document.querySelectorAll('.navigationButton, .navigationLink');
-  
-
-  // Loop through each navigation button
-  navigationButtons.forEach(button => {
-      // Attach click event listener to each button
-      button.addEventListener('click', function() {
-          const buttonId = this.dataset.navigation;
-          sendMessage(JSON.stringify({ type: 'NAVIGATION', data: buttonId }));
-      });
-  });
-};
+  function listenToButtonClick(buttonElement) { // Takes the element directly
+    const buttonId = buttonElement.dataset.navigation;
+    sendMessage(JSON.stringify({ type: 'NAVIGATION', data: buttonId }));
+  }
 `;
 
 const bookNavigationButtons = `
-function listenToBookNavigationButtons() {
-  // Get all elements with class .skipButton
-  const bookNavigationButtons = document.querySelectorAll('.skipButton');
-
-  // Loop through each navigation button
-  bookNavigationButtons.forEach(button => {
-    // Attach click event listener to each button
-    button.addEventListener('click', function () {
-      debugMessage('Button clicked: ' + this.dataset.navigation);
-      const tableId = this.dataset.navigation; // Get current tableId from data attribute
+function listenToBookNavigationButtons(element) {
+      const tableId = element.dataset.navigation; // Get current tableId from data attribute
       const currentTable = document.getElementById(tableId); // Get the current table by its id
-      debugMessage('Current table: ' + currentTable.id);
       if (currentTable) {
         // Find the parent <div> that contains the current table
         const currentDiv = currentTable.closest('div');
@@ -1387,9 +1491,7 @@ function listenToBookNavigationButtons() {
           sendMessage(JSON.stringify({ type: 'debug', data: 'No next table found' }));
         }
       }
-    });
-  });
-}
+    }
 `;
 
 // Handle Spinner

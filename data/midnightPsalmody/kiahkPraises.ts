@@ -95,9 +95,12 @@ kiahkOde(tableNumber) {
             <tr id="table_${tableNumber}_row_11" class="south">
                 <td class="english" >His foundation is in the holy mountains. The
                     Lord loves the gates of Zion more than all the dwellings of Jacob. Glorious things are spoken of
-                    You, O City of God. Alleluia.<br/><div class="skipButton" data-navigation="table_${tableNumber}">${skip}</div></td>
+                    You, O City of God. Alleluia.</td>
                 <td class="arabic">أساساته في الجبال المقدسة: الرب أحب أبواب صهيون أفضل من جميع مساكن يعقوب أعمال كريمة
-                    قيلت من أجلك يا مدينة الله. الليلويا.<br/><div class="skipButton" data-navigation="table_${tableNumber}">${skip}</div></td>
+                    قيلت من أجلك يا مدينة الله. الليلويا.</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_11.5" class="north">
+                <td class="skipButton" data-navigation="table_${tableNumber}">${skip}</td>
             </tr>
             <tr id="table_${tableNumber}_row_12" class="north">
                 <td class="english" >And of Zion it shall be said: This and that
@@ -415,8 +418,11 @@ amenAlleluia(tableNumber) {
             </tr>
             <tr id="table_${tableNumber}_row_19" class="south">
                 <td class="english" >Alleluia is praise: Hymns and songs: We
-                    cry out saying: Amen Alleluia<br/><div class="skipButton" data-navigation="table_${tableNumber}">${skip}</div></td>
-                <td class="arabic">الليلويا تسبيح: وترتيل ومديح: بها نصرخ ونصيح: آمين الليلويا<div class="skipButton" data-navigation="table_${tableNumber}">${skip}</div></td>
+                    cry out saying: Amen Alleluia</td>
+                <td class="arabic">الليلويا تسبيح: وترتيل ومديح: بها نصرخ ونصيح: آمين الليلويا</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_19.5" class="north">
+                <td class="skipButton" data-navigation="table_${tableNumber}">${skip}</td>
             </tr>
             <tr id="table_${tableNumber}_row_20" class="north">
                 <td class="english" >Alleluia is glorification: For a mighty
@@ -667,8 +673,11 @@ const html = `
     </tr>
     <tr id="table_${tableNumber}_row_17" class="north">
         <td class="english" >This is the Lord my God: I glorify His
-            Great Name: This is the Lord my God: Maker of all great things<div class="skipButton" data-navigation="table_${tableNumber}">${skip}</div></td>
-        <td class="arabic">هذا هو إلهى: أمجد اسمه دائم: هذا هو إله آبائى: صانع كل عظائم.<div class="skipButton" data-navigation="table_${tableNumber}">${skip}</div></td>
+            Great Name: This is the Lord my God: Maker of all great things</td>
+        <td class="arabic">هذا هو إلهى: أمجد اسمه دائم: هذا هو إله آبائى: صانع كل عظائم.</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_17.5" class="north">
+        <td class="skipButton" data-navigation="table_${tableNumber}">${skip}</td>
     </tr>
     <tr id="table_${tableNumber}_row_18" class="south">
         <td class="english" >He abolished the army by His Might: The
@@ -860,8 +869,11 @@ praiseAfterMondayTheotokia(tableNumber) {
     </tr>
     <tr id="table_${tableNumber}_row_19" class="south">
         <td class="english" >You are the Mother of Christ: And to all
-            the world: You are truly declared: Maria- Ti Parthenos<div class="skipButton" data-navigation="table_${tableNumber}">${skip}</div></td>
-        <td class="arabic">كوني لي يا أم ايسوس: ولسائر بي كوسموس: عند الصوت المسموع: ماريا تي بارثينوس<div class="skipButton" data-navigation="table_${tableNumber}">${skip}</div></td>
+            the world: You are truly declared: Maria- Ti Parthenos</td>
+        <td class="arabic">كوني لي يا أم ايسوس: ولسائر بي كوسموس: عند الصوت المسموع: ماريا تي بارثينوس</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_19.5" class="north">
+        <td class="skipButton" data-navigation="table_${tableNumber}">${skip}</td>
     </tr>
     <tr id="table_${tableNumber}_row_20" class="north">
         <td class="english" >Without you who could have: Witnessed the
@@ -1327,9 +1339,12 @@ praiseAfter2ndCanticleLobsh(tableNumber) {
     </tr>
     <tr id="table_${tableNumber}_row_11" class="south">
         <td class="english" >The Egyptians and their horsemen: Were
-            hit by a Mighty hand: And saved His people from them: Je pef-nay Shop Sha-eneh<div class="skipButton" data-navigation="table_${tableNumber}">${skip}</div></td>
+            hit by a Mighty hand: And saved His people from them: Je pef-nay Shop Sha-eneh</td>
         <td class="arabic">المصريون وأبكارهم: ضربهم بذراع ما أعلاه: وخلص شعبه من وسطهم: جي بيف ناي شوب شا
-            إينيه<div class="skipButton" data-navigation="table_${tableNumber}">${skip}</div></td>
+            إينيه</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_11.5" class="north">
+        <td class="skipButton" data-navigation="table_${tableNumber}">${skip}</td>
     </tr>
     <tr id="table_${tableNumber}_row_12" class="north">
         <td class="english" >The sea was split in half: And Pharaoh
@@ -1493,9 +1508,11 @@ praiseAfterWednesdayTheotokia(tableNumber) {
     </tr>
     <tr id="table_${tableNumber}_row_11" class="south">
         <td class="english" >Zephaniah proclaimed of you: A
-            prophesy about the birth of Jesus: "He will come down as rain and dew": Blessed are you, O Virgin and bride<div class="skipButton" data-navigation="table_${tableNumber}">${skip}</div></td>
-        <td class="arabic">صوفونيوس عنك خبر: بشهادة عن ميلاد إيسوس: قال ينزل كندي ومطر: طوباك يا بكر وعروس
-        <div class="skipButton" data-navigation="table_${tableNumber}">${skip}</div></td>
+            prophesy about the birth of Jesus: "He will come down as rain and dew": Blessed are you, O Virgin and bride</td>
+        <td class="arabic">صوفونيوس عنك خبر: بشهادة عن ميلاد إيسوس: قال ينزل كندي ومطر: طوباك يا بكر وعروس</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_11.5" class="north">
+        <td class="skipButton" data-navigation="table_${tableNumber}">${skip}</td>
     </tr>
     <tr id="table_${tableNumber}_row_12" class="north">
         <td class="english" >Daniel said in his vision: "I have seen a
@@ -2550,9 +2567,12 @@ praiseOnPsaliOfTheThreeYoungMen(tableNumber) {
     </tr>
     <tr id="${tableNumber}_row_15" class="south">
         <td class="english" >Praise Him and glorify Him: In the
-            congregations exalt Him: And above all the elders bless Him: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span><div class="skipButton" data-navigation="table_${tableNumber}">${skip}</div></td>
+            congregations exalt Him: And above all the elders bless Him: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
         <td class="arabic">سبحوه ومجدوه: فى كنائس شعبه ارفعوه: على منابر الشيوخ باركوه: هوس إيروف آرى
-            هوؤتشاسف<div class="skipButton" data-navigation="table_${tableNumber}">${skip}</div></td>
+            هوؤتشاسف</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_15.5" class="north">
+        <td class="skipButton" data-navigation="table_${tableNumber}">${skip}</td>
     </tr>
     <tr id="${tableNumber}_row_16" class="north">
         <td class="english" >Praise your God O Sedrak: Abdenego and the
@@ -3991,7 +4011,7 @@ fourthCanticleKiahk(tableNumber) {
 return html;
 }
 ,
-OnAikoti(tableNumber) {
+praiseAdamOnAikoti(tableNumber) {
 const html = `
     <table id="table_${tableNumber}" style="display: table;" title="Praise Adam on Aikoti (I Praise a Virgin and Bride)">
         <caption id="caption_table_${tableNumber}" class="caption">Praise Adam on Aikoti <br />(I Praise a Virgin and Bride)
@@ -4587,86 +4607,86 @@ const html = `
     </caption>
     <tbody>
         <tr id="table_${tableNumber}_row_0" class="north">
-            <td class="english" >I start in the Name of God: Who dwells in
-                light: Who spoke to Moses: Upon Mount Tabor</td>
-            <td class="arabic">أبدأ باسم الله: الساكن فى النور: الذى كلم موسى: من فوق جبل الطور</td>
+            <td class="english" >I start in the Name of God / Who dwells in
+                light / Who spoke to Moses / Upon Mount Tabor</td>
+            <td class="arabic">أبدأ باسم الله / الساكن فى النور / الذى كلم موسى / من فوق جبل الطور</td>
         </tr>
         <tr id="table_${tableNumber}_row_1" class="south">
-            <td class="english" >Saying O Moses: Arise joyfully: So I may
-                show you a place: Prophesied about</td>
-            <td class="arabic">قائلاً يا موسى: انهض فرحا ًمسروراً: لأعلمك بما كان: كما عنه تنبأون
+            <td class="english" >Saying O Moses / Arise joyfully / I will
+                show you a place / Prophesied about</td>
+            <td class="arabic">قائلاً يا موسى / انهض فرحا ًمسروراً / لأعلمك بما كان / كما عنه تنبأون
             </td>
         </tr>
         <tr id="table_${tableNumber}_row_2" class="north">
-            <td class="english" >Arise O Moses: And ascend to the highest
-                mount: There upon it build a dome: To resemble a tabernacle</td>
-            <td class="arabic">انهض يا موسى: واصعد إلى اعلى الجبال: وابن هناك قبة: تكون لك شبة مظال</td>
+            <td class="english" >Arise O Moses / And ascend to the highest
+                mount / Upon it build a dome / To resemble a tabernacle</td>
+            <td class="arabic">انهض يا موسى / واصعد إلى اعلى الجبال / وابن هناك قبة / تكون لك شبة مظال</td>
         </tr>
         <tr id="table_${tableNumber}_row_3" class="south">
-            <td class="english" >And all I say to you: Immediately write
-                down: This is a testimony: For the Israelites</td>
-            <td class="arabic">وجميع ما قلته لك: اكتبه فى الحال: هذه هى شهادة: للإسرائيليين
+            <td class="english" >And all I say to you / Immediately write
+                down / This is a testimony / For the Israelites</td>
+            <td class="arabic">وجميع ما قلته لك / اكتبه فى الحال / هذه هى شهادة / للإسرائيليين
             </td>
         </tr>
         <tr id="table_${tableNumber}_row_4" class="north">
-            <td class="english" >Hasten, O Moses: And observe the place:
-                Build there a dome: With granite stone</td>
-            <td class="arabic">إسرع ياموسى: انظر هذا المكان: وابن فيه قبة: بالحجر الصوان</td>
+            <td class="english" >Hasten, O Moses / And observe the place /
+                Build there a dome / With granite stone</td>
+            <td class="arabic">إسرع ياموسى / انظر هذا المكان / وابن فيه قبة / بالحجر الصوان</td>
         </tr>
         <tr id="table_${tableNumber}_row_5" class="south">
-            <td class="english" >Elevate its height: Give it four corners:
-                Gather what is needed: For the builders</td>
-            <td class="arabic">وعلى شوارعها: واعمل لها أربعة أركان: واجمع مايحتاج: إليه البناؤون</td>
+            <td class="english" >Elevate its height / Give it four corners /
+                Gather what is needed / For the builders</td>
+            <td class="arabic">وعلى شوارعها / واعمل لها أربعة أركان / واجمع مايحتاج / إليه البناؤون</td>
         </tr>
         <tr id="table_${tableNumber}_row_6" class="north">
-            <td class="english" >Make the outside of the dome: And widen
-                its hallway: Overlay it, O Moses: With pure gold</td>
-            <td class="arabic">واعمل خارج القبة: فسحة كالدهليز: واطليها ياموسى: بالذهب الإبريز</td>
+            <td class="english" >Make the outside of the dome / And widen
+                its hallway / Overlay it, O Moses / With pure gold</td>
+            <td class="arabic">واعمل خارج القبة / فسحة كالدهليز / واطليها ياموسى / بالذهب الإبريز</td>
         </tr>
         <tr id="table_${tableNumber}_row_7" class="south">
-            <td class="english" >Within and without: Honor for consecration:
-                From the height to the base: With the precious gold</td>
-            <td class="arabic">داخل مع خارج: كرامة للتكريس: من أعلى إلى أسفل: بالذهب الموزون</td>
+            <td class="english" >Within and without / Honor for consecration /
+                From the height to the base / With the precious gold</td>
+            <td class="arabic">داخل مع خارج / كرامة للتكريس / من أعلى إلى أسفل / بالذهب الموزون</td>
         </tr>
         <tr id="table_${tableNumber}_row_8" class="north">
-            <td class="english" >Make the inside of the dome: An altar for
-                the showbread: And around the altar: Make four pillars</td>
-            <td class="arabic">واعمل داخل القبة: مذبح للقربان: واعمل حول المذبح: أربعة عمدان</td>
+            <td class="english" >Make the inside of the dome / An altar for
+                the showbread / And around the altar / Make four pillars</td>
+            <td class="arabic">واعمل داخل القبة / مذبح للقربان / واعمل حول المذبح / أربعة عمدان</td>
         </tr>
         <tr id="table_${tableNumber}_row_9" class="south">
-            <td class="english" >Make there upon it: Cherubs made out of
-                gold: With their wings spread: Upon the cover</td>
-            <td class="arabic">يكون من فوقها: من الذهب كاروبان: بأجنحة مفروشة: إيجين بى إيللاستيريون</td>
+            <td class="english" >Make there upon it / Cherubs made out of
+                gold / With their wings spread / Upon the cover</td>
+            <td class="arabic">يكون من فوقها / من الذهب كاروبان / بأجنحة مفروشة / إيجين بى إيللاستيريون</td>
         </tr>
         <tr id="table_${tableNumber}_row_10" class="north">
-            <td class="english" >And in it place: The overlaid ark of
-                covenant: And in it the golden vessel: With the hidden manna</td>
-            <td class="arabic">واجعل فيها: تابوت العهد المطلى: وفيه القسط الذهب: بالمن المخفى</td>
+            <td class="english" >And in it place / The overlaid ark of
+                covenant / And in it the golden vessel / With the hidden manna</td>
+            <td class="arabic">واجعل فيها / تابوت العهد المطلى / وفيه القسط الذهب / بالمن المخفى</td>
         </tr>
         <tr id="table_${tableNumber}_row_11" class="south">
-            <td class="english" >And in it Aaron's censer: From the pure
-                gold: And the tablets of the covenant: With Aaron's rod</td>
-            <td class="arabic">وفيه شورية هرون: من الذهب المصفى: وفيه لوحا العهد: مع عصاة هارون</td>
+            <td class="english" >And in it Aaron's censer / From the pure
+                gold / And the tablets of the covenant / With Aaron's rod</td>
+            <td class="arabic">وفيه شورية هرون / من الذهب المصفى / وفيه لوحا العهد / مع عصاة هارون</td>
         </tr>
         <tr id="table_${tableNumber}_row_12" class="north">
-            <td class="english" >And in it the lampstand: With the chosen
-                gold: And the golden vessel: Burning as the ember</td>
-            <td class="arabic">وفيه المنارة: من الذهب المختار: وفيه المايدة ذهب: تشعل كجمر النار</td>
+            <td class="english" >And in it the lampstand / With the chosen
+                gold / And the golden vessel / Burning as the ember</td>
+            <td class="arabic">وفيه المنارة / من الذهب المختار / وفيه المايدة ذهب / تشعل كجمر النار</td>
         </tr>
         <tr id="table_${tableNumber}_row_13" class="south">
-            <td class="english" >Decorate it, O Moses: With various lights:
-                Make also in it: Seven burning candles ${cross}</td>
-            <td class="arabic">وزينها ياموسى: بسائر كل الأنوار: واجعل فيها أيضاً: سبعة سرج ينيرون ${cross}</td>
+            <td class="english" >Decorate it, O Moses / With various lights /
+                Make also in it / Seven burning candles ${cross}</td>
+            <td class="arabic">وزينها ياموسى / بسائر كل الأنوار / واجعل فيها أيضاً / سبعة سرج ينيرون ${cross}</td>
         </tr>
         <tr id="table_${tableNumber}_row_14" class="refrain">
-            <td class="english" >Hail to you O Mary: O you full of grace:
-                Who are engulfed in light: O mother of the Merciful</td>
-            <td class="arabic">السلام لك يامريم: يامملوءة نعمة: يامشتملة بالانوار: ياام الرحمة</td>
+            <td class="english" >Hail to you O Mary / O you full of grace /
+                Who are engulfed in light / O mother of the Merciful</td>
+            <td class="arabic">السلام لك يامريم / يامملوءة نعمة / يامشتملة بالانوار / ياام الرحمة</td>
         </tr>
         <tr id="table_${tableNumber}_row_15" class="refrain">
-            <td class="english" >Intercede for us: On judgment day: Your Son
-                granted us salvation: O daughter of Zion</td>
-            <td class="arabic">إشفعى فينا: فى يوم الزحمة: بابنك نلنا الخلاص: ياإبنة صهيون</td>
+            <td class="english" >Intercede for us / On judgment day / Your Son
+                granted us salvation / O daughter of Zion</td>
+            <td class="arabic">إشفعى فينا / فى يوم الزحمة / بابنك نلنا الخلاص / ياإبنة صهيون</td>
         </tr>
         <tr id="table_${tableNumber}_row_16" class="north">
             <td class="english" >Holy, Holy, Holy; a reading from the
@@ -5334,321 +5354,321 @@ const html = `
     <tbody>
         <tr id="table_${tableNumber}_row_0" class="north">
             <td class="english" >
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span>I start my praise<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span>Words from my heart<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span>I cry out and say<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span>A rhythmic song</td>
-            <td class="arabic1">
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span>أبدأ فيك بمديح <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>نظم بقلب صحيح <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>وأشرح فيك وأصيح <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>قول غالي موزون
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span><br>I start my praise<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span><br>Words from my heart<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span><br>I cry out and say<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span><br>A rhythmic song</td>
+            <td class="english">
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>أبدأ فيك بمديح <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>نظم بقلب صحيح <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>وأشرح فيك وأصيح <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>قول غالي موزون</span>
             </td>
         </tr>
         <tr id="table_${tableNumber}_row_1" class="south">
 
             <td class="english" >
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span>Every needy one<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> Rejoices and feels calm<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> You brought all joy<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> To every living soul</td>
-            <td class="arabic1">
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span>بمديحك يرتاح <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>كل ذليل محتاج <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>يابدء الأفراح <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>لك عندي عربون</td>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span><br>Every needy one<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> Rejoices and feels calm<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> You brought all joy<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> To every living soul</td>
+            <td class="english">
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>بمديحك يرتاح <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>كل ذليل محتاج <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>يابدء الأفراح <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>لك عندي عربون</span></td>
         </tr>
         <tr id="table_${tableNumber}_row_2" class="north">
 
             <td class="english" >
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span>O sweet fruit<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> Apple of my eye<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> No one can deny<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> You are from on high</td>
-            <td class="arabic1">
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span>ثمرة عربونى <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>هى طب عيونى <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>فى مدحك لامونى <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>كم عنى يقولون</td>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span><br>O sweet fruit<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> Apple of my eye<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> No one can deny<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> You are from on high</td>
+            <td class="english">
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>ثمرة عربونى <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>هى طب عيونى <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>فى مدحك لامونى <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>كم عنى يقولون</span></td>
         </tr>
         <tr id="table_${tableNumber}_row_3" class="south">
 
             <td class="english" >
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span>Gabriel came<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> With tidings and name<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> Emmanuel became<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> In your womb the same</td>
-            <td class="arabic1">
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span>جاءك غبريال <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>ببشائر وأقوال <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>وسكن فيك المتعال <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>سر خفي مكنون</td>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span><br>Gabriel came<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> With tidings and name<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> Emmanuel became<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> In your womb the same</td>
+            <td class="english">
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>جاءك غبريال <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>ببشائر وأقوال <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>وسكن فيك المتعال <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>سر خفي مكنون</span></td>
         </tr>
         <tr id="table_${tableNumber}_row_4" class="north">
 
             <td class="english" >
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span>The Logos dwelt<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> Able and shined<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> You became heaven<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> Fruitful and green</td>
-            <td class="arabic1">
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span>حل بكلمته <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>وأشرق بقدرته <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>صرت كسمائه <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>ياعوسج بغصون</td>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span><br>The Logos dwelt<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> Able and shined<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> You became heaven<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> Fruitful and green</td>
+            <td class="english">
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>حل بكلمته <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>وأشرق بقدرته <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>صرت كسمائه <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>ياعوسج بغصون</span></td>
         </tr>
         <tr id="table_${tableNumber}_row_5" class="south">
 
             <td class="english" >
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span>Savior of the world<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> Became in your womb<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> Was born of you<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> The Holy Spirit in you</td>
-            <td class="arabic1">
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span>مخلص العالم <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>صارفيك قائم <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>واستيقظ النائم <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>ومخمور بفنون</td>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span><br>Savior of the world<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> Became in your womb<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> Was born of you<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> The Holy Spirit in you</td>
+            <td class="english">
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>مخلص العالم <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>صارفيك قائم <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>واستيقظ النائم <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>ومخمور بفنون</span></td>
         </tr>
         <tr id="table_${tableNumber}_row_6" class="north">
 
             <td class="english" >
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span>David in the Psalms<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> Said you are the bride<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> Offerings and gifts<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> Was given to the One</td>
-            <td class="arabic1">
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span>داود فى المزمور <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>قال بنات صور <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>بهدايا ونذور <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>قالوا فيك بفنون</td>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span><br>David in the Psalms<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> Said you are the bride<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> Offerings and gifts<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> Was given to the One</td>
+            <td class="english">
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>داود فى المزمور <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>قال بنات صور <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>بهدايا ونذور <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>قالوا فيك بفنون</span></td>
         </tr>
         <tr id="table_${tableNumber}_row_7" class="south">
 
             <td class="english" >
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span>Myriads and myriads<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> Around the Throne Stands<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> Hosts and ranks<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> Many martyrs</td>
-            <td class="arabic1">
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span>ربوات ثم ألوف <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>حول العرش وقوف <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>وطغمات وصفوف <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>وشهداء متصلون</td>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span><br>Myriads and myriads<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> Around the Throne Stands<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> Hosts and ranks<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> Many martyrs</td>
+            <td class="english">
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>ربوات ثم ألوف <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>حول العرش وقوف <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>وطغمات وصفوف <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>وشهداء متصلون</span></td>
         </tr>
         <tr id="table_${tableNumber}_row_8" class="north">
 
             <td class="english" >
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span>You are beyond<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> Above all codes<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> You are purity respond<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> Any questions</td>
-            <td class="arabic1">
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span>زدت فى الأوصاف <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>عن كل الأوصاف <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>ومشيتى بعفاف <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>وسميت صهيون</td>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span><br>You are beyond<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> Above all codes<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> You are purity respond<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> Any questions</td>
+            <td class="english">
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>زدت فى الأوصاف <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>عن كل الأوصاف <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>ومشيتى بعفاف <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>وسميت صهيون</span></td>
         </tr>
         <tr id="table_${tableNumber}_row_9" class="south">
 
             <td class="english" >
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span>Witnessed by Salome<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> The Virgin from the Womb<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> Gave birth to Whom<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> While sealed by the One</td>
-            <td class="arabic1">
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span>سالومى شهدت <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>بأن العذراء وضعت <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>آمنت وأعتقدت <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>والخاتم مصون</td>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span><br>Witnessed by Salome<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> The Virgin from the Womb<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> Gave birth to Whom<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> While sealed by the One</td>
+            <td class="english">
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>سالومى شهدت <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>بأن العذراء وضعت <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>آمنت وأعتقدت <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>والخاتم مصون</span></td>
         </tr>
         <tr id="table_${tableNumber}_row_10" class="north">
 
             <td class="english" >
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span>Isaiah had said<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> That, your Son, Jesus<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> Was born of you<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> In the right season</td>
-            <td class="arabic1">
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span>أشعياء قال عنك <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>بأن يسوع ابنك <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>وخرج من بطنك <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>ونظرناه بعيون</td>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span><br>Isaiah had said<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> That, your Son, Jesus<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> Was born of you<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> In the right season</td>
+            <td class="english">
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>أشعياء قال عنك <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>بأن يسوع ابنك <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>وخرج من بطنك <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>ونظرناه بعيون</span></td>
         </tr>
         <tr id="table_${tableNumber}_row_11" class="south">
 
             <td class="english" >
-                <span CLASS="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>Zephaniah proclaimed<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> That Jesus appeared<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> As rain and dew<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> Surrounded by numerous ranks</td>
-            <td class="arabic1" >
-                <span CLASS="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>صوفونيوس خبر<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>بأن يسوع يظهر <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>شبه ندي ومطر <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>حوله صفوف لايحصون</td>
+                <span CLASS="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br>Zephaniah proclaimed<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> That Jesus appeared<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> As rain and dew<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> Surrounded by numerous ranks</td>
+            <td class="english" >
+                <span CLASS="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>صوفونيوس خبر<br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>بأن يسوع يظهر <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>شبه ندي ومطر <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>حوله صفوف لايحصون</span></td>
         </tr>
         <tr id="table_${tableNumber}_row_12" class="north">
 
             <td class="english" >
-                <span CLASS="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>You are blessed<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> You confused them all<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> By the water and Spirit<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> We conquered Satan</td>
-            <td class="arabic1" >
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>طوباك ثم طوباك <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>حيرت العلماء <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>بوجود الروح والماء <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>قهرنا الأركون
+                <span CLASS="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br>You are blessed<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> You confused them all<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> By the water and Spirit<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> We conquered Satan</td>
+            <td class="english" >
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>طوباك ثم طوباك <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>حيرت العلماء <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>بوجود الروح والماء <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>قهرنا الأركون</span>
             </td>
         </tr>
         <tr id="table_${tableNumber}_row_13" class="south">
 
             <td class="english" >
-                <span CLASS="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>Many thought in you<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> That this was illegal<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> Till He raised<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> The dead and healed the sick</td>
-            <td class="arabic1" >
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>ظنوا فيك أقوام <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>بإن الحبل ده حرام <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>حتى حل وأقام <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>الأموات والمجنون
+                <span CLASS="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br>Many thought in you<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> That this was illegal<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> Till He raised<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> The dead and healed the sick</td>
+            <td class="english" >
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>ظنوا فيك أقوام <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>بإن الحبل ده حرام <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>حتى حل وأقام <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>الأموات والمجنون</span>
             </td>
         </tr>
         <tr id="table_${tableNumber}_row_14" class="north">
 
             <td class="english" >
-                <span CLASS="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>The fathers said<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> A dome in a cloud<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> The dome of the Church<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> Your support we search</td>
-            <td class="arabic1" >
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>شبهك الاباء <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>قبة وسحابة <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>ووضعوا بإجابة <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>وجميعهم فيك محتارون</td>
+                <span CLASS="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br>The fathers said<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> A dome in a cloud<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> The dome of the Church<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> Your support we search</td>
+            <td class="english" >
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>شبهك الاباء <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>قبة وسحابة <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>ووضعوا بإجابة <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>وجميعهم فيك محتارون</span></td>
         </tr>
         <tr id="table_${tableNumber}_row_15" class="south">
 
             <td class="english" >
-                <span CLASS="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>Many before came<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> Praised and did not find Him<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> Many came after Him<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> But the Mighty was down</td>
-            <td class="arabic1" >
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>غلب أقوام سبقوه <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>مدحوا مالحقوه <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>جاءوا بعده وجدوه <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>بسر خفى مكنون
+                <span CLASS="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br>Many before came<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> Praised and did not find Him<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> Many came after Him<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> But the Mighty was down</td>
+            <td class="english" >
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>غلب أقوام سبقوه <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>مدحوا مالحقوه <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>جاءوا بعده وجدوه <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>بسر خفى مكنون</span>
             </td>
         </tr>
         <tr id="table_${tableNumber}_row_16" class="north">
 
             <td class="english" >
-                <span CLASS="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>My heart rejoice<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> For you are my choice<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> O Mary we praise<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> We cry with voices</td>
-            <td class="arabic1" >
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>فيك رضا قلبى <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>من شأن طلبى <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>يامريم حسبي <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>تاجي وأنا دون</td>
+                <span CLASS="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br>My heart rejoice<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> For you are my choice<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> O Mary we praise<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> We cry with voices</td>
+            <td class="english" >
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>فيك رضا قلبى <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>من شأن طلبى <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>يامريم حسبي <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>تاجي وأنا دون</span></td>
         </tr>
         <tr id="table_${tableNumber}_row_17" class="south">
 
             <td class="english" >
-                <span CLASS="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>You are Moses dome<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> Ornamented all<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> In all four corners<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> With instruments and arts</td>
-            <td class="arabic1" >
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>قبة موسى كان <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>زخرفها بالألوان <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>وجعل فيها الأركان <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>بكل آله وفنون
+                <span CLASS="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br>You are Moses dome<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> Ornamented all<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> In all four corners<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> With instruments and arts</td>
+            <td class="english" >
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>قبة موسى كان <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>زخرفها بالألوان <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>وجعل فيها الأركان <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>بكل آله وفنون</span>
             </td>
         </tr>
         <tr id="table_${tableNumber}_row_18" class="north">
 
             <td class="english" >
-                <span CLASS="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>God has in the dome<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> Many prayers and calls<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> The can is the love sign<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> Were the manna in it</td>
-            <td class="arabic1" >
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>لله فى القبة <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>صلوات وطلبة <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>والقسط علامة المحبة <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>المن فيه مكنون
+                <span CLASS="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br>God has in the dome<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> Many prayers and calls<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> The can is the love sign<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> Were the manna in it</td>
+            <td class="english" >
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>لله فى القبة <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>صلوات وطلبة <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>والقسط علامة المحبة <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>المن فيه مكنون</span>
             </td>
         </tr>
         <tr id="table_${tableNumber}_row_19" class="south">
 
             <td class="english" >
-                <span CLASS="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>A pure censer<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> Holding the aroma<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> You are the Ark of covenant<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> Carrying the True Word</td>
-            <td class="arabic1" >
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>مجمرة التصعيد <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>زهرة عطر تقيد <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>ياتابوت عهد جديد <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>بصفائح وقرون</td>
+                <span CLASS="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br>A pure censer<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> Holding the aroma<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> You are the Ark of covenant<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> Carrying the True Word</td>
+            <td class="english" >
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>مجمرة التصعيد <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>زهرة عطر تقيد <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>ياتابوت عهد جديد <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>بصفائح وقرون</span></td>
         </tr>
         <tr id="table_${tableNumber}_row_20" class="north">
 
             <td class="english" >
-                <span CLASS="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>You carried the Light<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> Like seven minarets lit<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> You're Aaron's rod<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> Which alone blossomed</td>
-            <td class="arabic1" >
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>نالوا نور من نور <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>سبع سرج ينيرون <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>وقضيب كان مذخور <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>بأسم الأب هرون
+                <span CLASS="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br>You carried the Light<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> Like seven minarets lit<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> You're Aaron's rod<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> Which alone blossomed</td>
+            <td class="english" >
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>نالوا نور من نور <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>سبع سرج ينيرون <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>وقضيب كان مذخور <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>بأسم الأب هرون</span>
             </td>
         </tr>
         <tr id="table_${tableNumber}_row_21" class="south">
 
             <td class="english" >
-                <span CLASS="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>You are the altar<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> With incense offered<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> Many prophesied<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> And were fulfilled</td>
-            <td class="arabic1" >
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>هيكل بموائد <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>وبخور وصعائد <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>وآيات وشواهد <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>عنك يتنبأون</td>
+                <span CLASS="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br>You are the altar<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> With incense offered<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> Many prophesied<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> And were fulfilled</td>
+            <td class="english" >
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>هيكل بموائد <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>وبخور وصعائد <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>وآيات وشواهد <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>عنك يتنبأون</span></td>
         </tr>
         <tr id="table_${tableNumber}_row_22" class="north">
 
             <td class="english" >
-                <span CLASS="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>All what they said<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> In the dome they found<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> As your purity showed<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> Her virginity sealed</td>
-            <td class="arabic1" >
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>وجميع ما وضعوه <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>في القبة وجدوه <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>ولقدسك ذكروه <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>عذراء بكر مصون</td>
+                <span CLASS="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br>All what they said<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> In the dome they found<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> As your purity showed<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> Her virginity sealed</td>
+            <td class="english" >
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>وجميع ما وضعوه <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>في القبة وجدوه <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>ولقدسك ذكروه <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>عذراء بكر مصون</span></td>
         </tr>
         <tr id="table_${tableNumber}_row_23" class="south">
 
             <td class="english" >
-                <span CLASS="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>We ask of you<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> To ask your Son<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> O blessed Mary<br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span> To forgive us ${cross}</td>
-            <td class="arabic1" >
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>لازم نترجاك <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>عند الابن عساك <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>يامريم طوباك <br />
-                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span>راعينا بعيون ${cross}</td>
+                <span CLASS="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br>We ask of you<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> To ask your Son<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> O blessed Mary<br />
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><br> To forgive us ${cross}</td>
+            <td class="english" >
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>لازم نترجاك <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>عند الابن عساك <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>يامريم طوباك <br /></span>
+                <span class="coptic-caption">Ⲭⲉⲣⲉ ⲛⲉ ⲙⲁⲣⲓⲁ̀: </span><span class="arabic-text"><br>راعينا بعيون ${cross}</span></td>
         </tr>
     </tbody>
 </table>`;

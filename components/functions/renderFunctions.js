@@ -10,7 +10,8 @@ export const handleMessage = (
   webviewRef,
   navigation,
   localStorage,
-  setLoading
+  setLoading,
+  setFirstTable
 ) => {
   try {
     const message = JSON.parse(event.nativeEvent.data);
@@ -67,12 +68,26 @@ export const handleMessage = (
 
     // Message handlers
     const handlers = {
-      TABLES_INFO: () => setDrawerItems(message.data),
+      TABLES_INFO: () => {
+        setDrawerItems(message.data)
+        setFirstTable(message.data[0].id);
+      },
       PAGINATION_DATA: () => setPageOffsets(message.data),
       LOADING: () => {
         setLoading(message.data);
       },
       NAVIGATION: () => navigation.navigate(message.data),
+      // OPEN RIGHT DRAWER
+      RIGHT_SWIPE: () => { 
+        console.log('Right Swipe');
+        navigation.openDrawer() 
+      },
+      // OPEN LEFT DRAWER
+      LEFT_SWIPE: () => {
+        console.log('Left Swipe');
+        navigation.getParent().openDrawer()
+      },
+      // HANDLE NEXT
       TABLE_NAVIGATION: () => {
         const tableYOffset = message.data;
 
@@ -156,8 +171,10 @@ export const handleNext = (
   setCurrentTable,
   webviewRef
 ) => {
+
   if (currentPage < pageOffsets.length - 1) {
     // Update the current page and table
+
     setCurrentPage((prevPage) => prevPage + 1);
     setCurrentTable(pageOffsets[currentPage + 1].tableId);
 
@@ -220,6 +237,7 @@ export const handlePrevious = (
 
 // handleDrawerItemPress
 export const handleDrawerItemPress = (tableId, webviewRef) => {
+  console.log("Navigating to table:", tableId);
   const scrollToTableScript = `
         var goToTableElement = document.getElementById('${tableId}');
         var tableYOffset = goToTableElement ? goToTableElement.getBoundingClientRect().top + window.scrollY : 0;
@@ -237,7 +255,6 @@ export const getHtml = (dynamicStyles, body, script) => {
     
     <html>
     <head>
-    <title>Day of Palm Sunday</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
     <style>
     ${dynamicStyles}

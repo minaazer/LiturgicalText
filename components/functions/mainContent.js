@@ -17,24 +17,19 @@ export const MainContent = ({ html, webviewRef, setDrawerItems, setCurrentTable,
     const [hasLeftScreen, setHasLeftScreen] = useState(false); // Track if the user has left the screen
     const [savedStates, setSavedStates] = useState({}); // Use state to store loaded states
     const [reload, setReload] = useState(1); // Use state to force reload
+    const [firstTable, setFirstTable] = useState(''); // Use state to track first table
 
     const screenWidth = Dimensions.get('window').width;
-    let initialTouchX = null;
 
     const isFocused = useIsFocused();
     const wasPreviouslyFocused = useRef(false); // Keep track of previous focus state
 
     const handleTouchEnd = (touchX) => {
-        const difference = Math.abs(touchX - initialTouchX);
-
-        if (difference < 30) { // Adjust this threshold as necessary
             if (touchX < screenWidth / 2) {
                 handlePrevious(currentPage, setCurrentPage, pageOffsets, setCurrentTable, webviewRef);
             } else if (touchX >= screenWidth / 2) {
                 handleNext(currentPage, setCurrentPage, pageOffsets, setCurrentTable, webviewRef);
             }
-        }
-        initialTouchX = null;
     };
 
     useEffect(() => {
@@ -43,6 +38,17 @@ export const MainContent = ({ html, webviewRef, setDrawerItems, setCurrentTable,
                 // Use handleDrawerItemPress to navigate to the currentTable
                 handleDrawerItemPress(currentTable, webviewRef); 
                 setHasLeftScreen(false); // Reset the flag
+            } else {
+                if(currentTable) {
+                    // If the user has not left the screen, set the current table
+                    handleDrawerItemPress(currentTable, webviewRef);
+                } else {
+                    // If the current table is not set, set the first table
+                    if (!loading) {
+                        webviewRef.current.injectJavaScript(`paginateTables();`); // Set the first table  
+                        handleDrawerItemPress(firstTable, webviewRef);
+                    }
+                }
             }
 
         } else {
@@ -51,7 +57,7 @@ export const MainContent = ({ html, webviewRef, setDrawerItems, setCurrentTable,
         }
 
         wasPreviouslyFocused.current = isFocused;
-    }, [isFocused, currentTable, hasLeftScreen]);
+    }, [isFocused, hasLeftScreen, loading]);
 
 
     // Load saved table states (visible or collapsed) from local storage
@@ -74,6 +80,7 @@ export const MainContent = ({ html, webviewRef, setDrawerItems, setCurrentTable,
         initialize();
         
         listenToTableCaptions(); // Initialize table logic
+        
     `;
 
 
@@ -106,10 +113,14 @@ export const MainContent = ({ html, webviewRef, setDrawerItems, setCurrentTable,
             injectedJavaScript={injectedJavaScript}
             onMessage={(event) => {
                 const message = JSON.parse(event.nativeEvent.data);
-                if (message.type === 'TOUCH_START') {
-                    initialTouchX = message.data;
-                } else if (message.type === 'TOUCH_END') {
+                if (message.type === 'TOUCH_END') {
                     handleTouchEnd(message.data);
+                } else if (message.type === 'HANDLE_NEXT') {
+                    console.log('Handling next');
+                    handleNext(currentPage, setCurrentPage, pageOffsets, setCurrentTable, webviewRef);
+                } else if (message.type === 'HANDLE_PREVIOUS') {
+                    console.log('Handling previous');
+                    handlePrevious(currentPage, setCurrentPage, pageOffsets, setCurrentTable, webviewRef);
                 } else {
                     handleMessage(
                         event,
@@ -121,7 +132,8 @@ export const MainContent = ({ html, webviewRef, setDrawerItems, setCurrentTable,
                         webviewRef,
                         navigation,
                         localStorage,
-                        setLoading
+                        setLoading,
+                        setFirstTable
                     );
                 }
             }}
