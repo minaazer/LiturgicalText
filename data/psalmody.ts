@@ -95,7 +95,7 @@ return `
             <tr id="table_0_row_0" class="north">
                 <td class="english" >Arise, O children of the Light: let us praise
                     the Lord of hosts.</td>
-                <td class="coptic" >Ⲧⲉⲛ ⲑⲏⲛⲟⲩ ⲉ̀ⲡ̀ϣⲱⲓ ⲛⲓϣⲏⲣⲓ ⲛ̀ⲧⲉ ⲡⲓⲟⲩⲱⲓⲛⲓ
+                <td class="coptic" >Ⲧⲉⲛⲑⲏⲛⲟⲩ ⲉ̀ⲡ̀ϣⲱⲓ ⲛⲓϣⲏⲣⲓ ⲛ̀ⲧⲉ ⲡⲓⲟⲩⲱⲓⲛⲓ
                     ⲛ̀ⲧⲉⲛϩⲱⲥ ⲉ̀Ⲡϭⲟⲓⲥ ⲛ̀ⲧⲉ ⲛⲓϫⲟⲙ.</td>
                 <td class="arabic">قوموا يا بنى النور لنسبح رب القوات.</td>
             </tr>
@@ -116,14 +116,14 @@ return `
             <tr id="table_0_row_3" class="south">
                 <td class="english" >Cast away from our minds the slumber of
                     sleep.</td>
-                <td class="coptic" >˙Ⲁⲗⲓⲟⲩⲓ̀ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲉⲛ ⲡⲉⲛⲛⲟⲩⲥ ⲙ̀ⲡⲓϩⲩⲛⲓⲙ ⲛ̀ⲧⲉ
+                <td class="coptic" >Ⲁⲗⲓⲟⲩⲓ̀ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲉⲛ ⲡⲉⲛⲛⲟⲩⲥ ⲙ̀ⲡⲓϩⲩⲛⲓⲙ ⲛ̀ⲧⲉ
                     ϯⲉⲃϣⲓ.</td>
                 <td class="arabic">إنزع عن عقولنا نوم الغفلة.</td>
             </tr>
             <tr id="table_0_row_4" class="north">
                 <td class="english" >Grant us sobriety, O Lord, that we may know
                     how to stand before You at times of prayer.</td>
-                <td class="coptic" >Ⲙⲟⲓ ⲛⲁⲛ Ⲡϭⲟⲓⲥ ⲛ̀ⲟⲩⲙⲉⲧⲣⲉϥ ⲉⲣⲛⲩⲙⲫⲓⲛ : ϩⲟⲡⲱⲥ
+                <td class="coptic" >Ⲙⲟⲓ ⲛⲁⲛ Ⲡϭⲟⲓⲥ ⲛ̀ⲟⲩⲙⲉⲧⲣⲉϥⲉⲣⲛⲩⲙⲫⲓⲛ : ϩⲟⲡⲱⲥ
                     ⲛ̀ⲧⲉⲛⲕⲁϯ ⲛ̀ⲧⲉⲛⲟ̀ϩⲓ ⲉ̀ⲣⲁⲧⲉⲛ ⲙ̀ⲡⲉⲕⲙ̀ⲑⲟ ⲙ̀ⲫ̀ⲛⲁⲩ ⲛ̀ⲧⲉ ϯⲡ̀ⲣⲟⲥⲉⲩⲭⲏ.</td>
                 <td class="arabic">أعطنا يا رب يقظة لكى نفهم أن نقف أمامك وقت الصلاة.</td>
             </tr>
@@ -152,7 +152,7 @@ return `
             <tr id="table_0_row_8" class="north">
                 <td class="english" >By night, lift up your hands, O you saints,
                     and bless the Lord: Glory...</td>
-                <td class="coptic" >Ⲛ̀ϩ̀ⲣⲏⲓ ϧⲉⲛ ⲛⲓⲉ̀ϫⲱⲣϩ ϥⲁⲓ ⲛ̀ⲧⲉⲛϫⲓϫ ⲉ̀ⲡ̀ϣⲱⲓ
+                <td class="coptic" >Ⲛ̀ϩ̀ⲣⲏⲓ ϧⲉⲛ ⲛⲓⲉ̀ϫⲱⲣϩ ϥⲁⲓ ⲛ̀ⲛⲧⲉⲛϫⲓϫ ⲉ̀ⲡ̀ϣⲱⲓ
                     ⲛⲏⲉⲑⲟⲩⲁⲃ ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ : ⲇⲟ̅...</td>
                 <td class="arabic">بالليالى إرفعوا أيديكم إلى فوق أيها القديسون باركوا الرب. المجد..</td>
             </tr>
