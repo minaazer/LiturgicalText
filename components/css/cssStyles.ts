@@ -355,10 +355,20 @@ td.column-1-1 {
     direction: rtl !important;
     line-height: 1.4;
 }
+
+.hidden-caption {
+    color: black !important;
+    pointer-events: none !important;
+    font-size: 0 !important;
+    line-height: 0 !important;
+}
+
 .arabic-text {
     direction: rtl !important;
     line-height: 1;
 }
+
+
 
 
 .title {

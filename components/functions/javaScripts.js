@@ -170,7 +170,6 @@ function handleTouchNavigation(event) {
   // Touchcancel: Handle touch cancellation
   function cancelInteraction(event) {
     isTouching = false;
-    postMessageToReactNative("TOUCH_CANCEL", null);
   }
 
   // Keyboard interaction

@@ -79,12 +79,10 @@ export const handleMessage = (
       NAVIGATION: () => navigation.navigate(message.data),
       // OPEN RIGHT DRAWER
       RIGHT_SWIPE: () => { 
-        console.log('Right Swipe');
         navigation.openDrawer() 
       },
       // OPEN LEFT DRAWER
       LEFT_SWIPE: () => {
-        console.log('Left Swipe');
         navigation.getParent().openDrawer()
       },
       // HANDLE NEXT
@@ -237,9 +235,10 @@ export const handlePrevious = (
 
 // handleDrawerItemPress
 export const handleDrawerItemPress = (tableId, webviewRef) => {
-  console.log("Navigating to table:", tableId);
+  const captionId = `caption_${tableId}`;
   const scrollToTableScript = `
-        var goToTableElement = document.getElementById('${tableId}');
+        var goToCaptionElement = document.getElementById('${captionId}');
+        var goToTableElement = goToCaptionElement || document.getElementById('${tableId}');
         var tableYOffset = goToTableElement ? goToTableElement.getBoundingClientRect().top + window.scrollY : 0;
 
         sendMessage(JSON.stringify({ type: 'TABLE_NAVIGATION', data: tableYOffset }));

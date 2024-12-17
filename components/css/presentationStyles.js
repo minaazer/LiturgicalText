@@ -12,7 +12,7 @@ const isPortrait = screenHeight > screenWidth;
 const isTablet = screenWidth >= 600;
 const isComputer = screenWidth >= 1000;
 const languageWidth = isComputer ? "30%" : isTablet ? "45%" : "90%";
-const drawerMarginLeft = isIpad ? -20 : isIphone && !isPortrait ? -20 : 0;
+const drawerMarginLeft = isIpad ? 0 : isIphone && !isPortrait ? -20 : 0;
 
 export const presentationStyles = StyleSheet.create({
   // Styles for bookDrawer *********************************************************
@@ -133,7 +133,7 @@ export const presentationStyles = StyleSheet.create({
   },
   drawerText: {
     textAlign: "center",
-    fontSize: isPortrait ? screenHeight * 0.015 : screenWidth * 0.015,
+    fontSize: isPortrait ? screenHeight * 0.015 : screenWidth * 0.02,
     fontFamily: "Georgia",
     color: "#FFF",
     marginVertical: 5,

@@ -75,7 +75,7 @@ export const psalmody = (settings) => {
                 preTheotokia = getKiahkPraiseHtml("praiseAfterTuesdayTheotokia" , 55);
                 break;
             case 3:
-                preTheotokia = getKiahkPraiseHtml("praiseAfterWednesdayTheotokia" , 55);
+                preTheotokia = getKiahkPraiseHtml("watosPsaliOnTheWednesdayTheotokia" , 55) + getKiahkPraiseHtml("praiseAfterWednesdayTheotokia" , 55.5);
                 break;
             case 4:
                 preTheotokia = getKiahkPraiseHtml("praiseAfterThursdayTheotokia" , 55);
@@ -1433,7 +1433,7 @@ return `
 
 
     <table id="table_30" title="Doxologies">
-        <caption id="caption_table_30" class="caption" style="display:none">Doxologies
+        <caption id="caption_table_30" class="caption hidden-caption">Doxologies
             <span class="arabic-caption">الذكصولوجيات</span>
         </caption>
         <tr id="table_30_row_0" data-navigation="Doxologies" class="navigationLink">

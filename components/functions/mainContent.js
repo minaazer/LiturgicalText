@@ -18,11 +18,11 @@ export const MainContent = ({ html, webviewRef, setDrawerItems, setCurrentTable,
     const [savedStates, setSavedStates] = useState({}); // Use state to store loaded states
     const [reload, setReload] = useState(1); // Use state to force reload
     const [firstTable, setFirstTable] = useState(''); // Use state to track first table
+    const [refreshing, setRefreshing] = useState(false); // Use state to track refreshing state
 
     const screenWidth = Dimensions.get('window').width;
 
     const isFocused = useIsFocused();
-    const wasPreviouslyFocused = useRef(false); // Keep track of previous focus state
 
     const handleTouchEnd = (touchX) => {
             if (touchX < screenWidth / 2) {
@@ -32,33 +32,44 @@ export const MainContent = ({ html, webviewRef, setDrawerItems, setCurrentTable,
             }
     };
 
-    useEffect(() => {
-        if (isFocused) {
-            if (hasLeftScreen && currentTable) {
-                // Use handleDrawerItemPress to navigate to the currentTable
-                handleDrawerItemPress(currentTable, webviewRef); 
+
+useEffect(() => {
+    let timeout; // Declare a timeout variable for clean-up
+
+    if (isFocused) {
+        if (hasLeftScreen && currentTable) {
+            setRefreshing(true); // Set refreshing state
+            timeout = setTimeout(() => {
+                handleDrawerItemPress(currentTable, webviewRef);
                 setHasLeftScreen(false); // Reset the flag
-            } else {
-                if(currentTable) {
-                    // If the user has not left the screen, set the current table
-                    handleDrawerItemPress(currentTable, webviewRef);
-                } else {
-                    // If the current table is not set, set the first table
-                    if (!loading) {
-                        webviewRef.current.injectJavaScript(`paginateTables();`); // Set the first table  
-                        handleDrawerItemPress(firstTable, webviewRef);
-                    }
-                }
-            }
+                setRefreshing(false); // Reset refreshing state
+            }, 500);
 
         } else {
-            // When the screen is unfocused, mark that the user has left the screen
-            setHasLeftScreen(true);
+            if (currentTable) {
+                handleDrawerItemPress(currentTable, webviewRef);
+            } else {
+                setRefreshing(true); // Set refreshing state
+                if (!loading) {
+                    timeout = setTimeout(() => {
+                        webviewRef.current.injectJavaScript(`paginateTables();`);
+                        handleDrawerItemPress(firstTable, webviewRef);
+                        setRefreshing(false); // Reset refreshing state
+                    }, 500);
+                }
+            }
         }
+    } else {
+        setCurrentTable(currentTable);
+        setHasLeftScreen(true);
+    }
 
-        wasPreviouslyFocused.current = isFocused;
-    }, [isFocused, hasLeftScreen, loading]);
+    // Clean up the timeout
+    return () => {
+        if (timeout) clearTimeout(timeout);
+    };
 
+}, [isFocused, hasLeftScreen, loading]);
 
     // Load saved table states (visible or collapsed) from local storage
     useEffect(() => {
@@ -94,6 +105,15 @@ export const MainContent = ({ html, webviewRef, setDrawerItems, setCurrentTable,
     
     return (
         <View style={{flex:1}}>
+          {refreshing && (
+            <ActivityIndicator
+                size="large"
+                color="#003060"
+                style={presentationStyles.loadingContainer}
+                zIndex={1}
+            />
+        )}  
+           
         {loading && (
             <ActivityIndicator
                 size="large"

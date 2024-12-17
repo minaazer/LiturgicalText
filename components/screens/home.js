@@ -40,12 +40,7 @@ const Home = () => {
         <View style={styles.booksContainer}>
           <View style={styles.iconRow}>
 
-              <TouchableOpacity
-                style={[styles.iconContainer]}
-                onPress={() => navigation.navigate('Kiahk')}
-              >
-                <Image source={kiahkImage} style={styles.iconImage} />
-              </TouchableOpacity>
+              
 
               <TouchableOpacity
                 style={[styles.iconContainer]}

@@ -1432,6 +1432,164 @@ praiseAfter2ndCanticleLobsh(tableNumber) {
     return html;
 }
 ,
+watosPsaliOnTheWednesdayTheotokia(tableNumber) {
+    const html = `
+    <table id="table_${tableNumber}" style="display: table;" title="Watos Psali on the Wednesday Theotokia">
+    
+    <caption id="caption_table_${tableNumber}" class="caption">Watos Psali on the Wednesday Theotokia
+        <span class="coptic-caption">Ⲁⲓⲉⲣϩⲉⲗⲡⲓⲥ ⲉ̀ⲣⲟⲕ Ⲡⲁⲛⲟⲩϯ</span>
+        <span class="arabic-caption">ابصالية واطس على تذاكية يوم الأربعاء</span>
+    </caption>
+    <tbody>
+    
+        <tr id="table_${tableNumber}_row_0" class="north">
+            <td class="english">I hope in You O my God, forgive me O my Lord Jesus, through the intercessions of the Theotokos, Mary the beautiful dove.</td>
+            <td class="coptic">Ⲁⲓⲉⲣϩⲉⲗⲡⲓⲥ ⲉ̀ⲣⲟⲕ Ⲡⲁⲛⲟⲩϯ: ⲭⲱ ⲛⲏⲓ ⲉ̀ⲃⲟⲗ ⲱ̀ Ⲡⲁϭⲟⲓⲥ Ⲓⲏⲥⲟⲩⲥ: ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲃⲩⲁ̀ ⲛ̀Ϯⲙⲁⲥⲛⲟⲩϯ: Ⲙⲁⲣⲓⲁ̀ ϯϭ̀ⲣⲟⲙⲡⲓ ⲉⲑⲛⲉⲥⲱⲥ.</td>
+            <td class="arabic">توكلت عليك يا إلهي · اغفر لي يا ربي يسوع · بشفاعة والدة الإله · مريم الحمامة الحسنة.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_1" class="south">
+            <td class="english">Everyone on earth, glorify the pure one, for all the heavenly ranks, speak of her blessedness.</td>
+            <td class="coptic">Ⲃⲟⲛ ⲛⲓⲃⲉⲛ ⲉⲧ ϩⲓϫⲉⲛ ⲡⲓⲕⲁϩⲓ: ⲉⲩϯⲱ̀ⲟⲩ ⲛ̀ϯⲕⲁⲑⲁⲣⲟⲥ: ϫⲉ ⲛⲓⲧⲁⲅⲙⲁ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲛⲓⲫⲏⲟⲩⲓ̀: ⲥⲉϫⲱ ⲛ̀ⲛⲉⲙⲁⲕⲁⲣⲓⲥⲙⲟⲥ.</td>
+            <td class="arabic">كل أحد على الأرض · يمجدون النقية · وجميع الطغمات السمائية · ينشدون طوبانيتك.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_2" class="north">
+            <td class="english">For you are the Mother of God, and the eastern gate, and the second tabernacle, the Mother of Christ Adonai.</td>
+            <td class="coptic">Ⲅⲉ ⲅⲁⲣ ⲛ̀ⲑⲟ ⲡⲉ ϯⲙⲁⲥⲛⲟⲩϯ: ⲛⲉⲙ ϯⲡⲩⲗⲏ ⲛ̀ⲧⲉ ⲛⲓⲙⲁⲛϣⲁⲓ: ⲛⲉⲙ ϯⲥ̀ⲕⲩⲛⲏ ⲙ̀ⲙⲁϩⲥ̀ⲛⲁⲩϯ: ⲑ̀ⲙⲁⲩ ⲙ̀Ⲡⲓⲭⲣⲓⲥⲧⲟⲥ Ⲁ̀ⲇⲱⲛⲁⲓ.</td>
+            <td class="arabic">لأنك أنت هي والدة الإله · وباب المشرق · والقبة الثانية · أم المسيح أدوناي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_3" class="south">
+            <td class="english">David taught us saying, "They spoke of you, with honors O city of God," whom Christ shone to us from.</td>
+            <td class="coptic">Ⲇⲁⲩⲓⲇ ⲁϥⲧⲁⲙⲟⲛ ⲙ̀ⲡⲁⲓⲣⲏϯ: ϫⲉ ⲁⲩⲥⲁϫⲓ ⲛ̀ϩⲁⲛⲧⲁⲓⲟ̀ ⲉⲑⲃⲏϯ: ⲱ̀ ϯⲃⲁⲕⲓ ⲛ̀ⲧⲉ Ⲫ̀ⲛⲟⲩϯ: ⲑⲏⲉ̀ⲧⲁ Ⲡⲓⲭⲣⲓⲥⲧⲟⲥ ϣⲁⲓ ⲛⲁⲛ ⲛ̀ϧⲏϯ.</td>
+            <td class="arabic">داود أعلمنا هكذا قائلاً · أنهم تكلموا من أجلك بكرامات · يا مدينة الله · الذي منكِ أشرق لنا المسيح.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_4" class="north">
+            <td class="english">Through the Virgin Mary, Adam Eve and the righteous, and our forefathers, were returned to Paradise.</td>
+            <td class="coptic">Ⲉⲑⲃⲉ Ⲙⲁⲣⲓⲁ̀ ϯⲡⲁⲣⲑⲉⲛⲟⲥ: ⲁⲩⲧⲁⲥⲑⲟ ⲉ̀ⲡⲓⲡⲁⲣⲁⲇⲓⲥⲟⲥ: Ⲁ̀ⲇⲁⲙ ⲛⲉⲙ Ⲉⲩⲁ̀ ⲛⲉⲙ ⲛⲓⲇⲓⲕⲉⲟⲥ: ⲛⲉⲙ ⲛⲉⲛⲓⲟϯ ⲛ̀ⲁⲣⲭⲉⲟⲥ.</td>
+            <td class="arabic">من قبل مريم العذراء · رجع إلى الفردوس · آدم وحواء والصديقون · وآباؤهم الأولون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_5" class="south">
+            <td class="english">The seven ranks of heaven, glorify you O Queen, for the Father looked down from heaven, and found no one like you.</td>
+            <td class="coptic">Ϣⲁϣϥ ⲛ̀ⲧⲁⲅⲙⲁ ⲉⲧϧⲉⲛ ⲧ̀ⲫⲉ: ⲉⲩϯⲱ̀ⲟⲩ ⲛⲉ ⲱ̀ ϯⲟⲩⲣⲟ: ϫⲉ ⲁ̀ Ⲫ̀ⲓⲱⲧ ϫⲟⲩϣⲧ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲧ̀ⲫⲉ: ⲙ̀ⲡⲉϥϫⲉⲙ ⲫⲏⲉⲧⲟ̀ⲛⲓ ⲙ̀ⲙⲟ.</td>
+            <td class="arabic">السبع الطغمات السمائية · يمجدونك أيتها الملكة · لأن الأب قد تطلع من السماء · فلم يجد من يشبهك.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_6" class="north">
+            <td class="english">Behold she was truly exalted, above the heavens and the leaders, for all the kings of the earth, walk in her light,</td>
+            <td class="coptic">Ⲏ̀ⲡⲡⲉ ⲁ̀ⲗⲏⲑⲱⲥ ⲁ̀ⲣⲉϭⲓⲥⲓ: ⲉ̀ϩⲟⲧⲉ ⲛⲓⲫⲏⲟⲩⲓ̀ ⲛⲉⲙ ⲛⲓⲁⲣⲭⲏ: ϫⲉ ⲛⲓⲟⲩⲣⲱⲟⲩ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲡ̀ⲕⲁϩⲓ: ⲥⲉⲙⲟϣⲓ ϧⲉⲛ ⲡⲉⲟⲩⲱⲓⲛⲓ.</td>
+            <td class="arabic">هوذا بالحقيقة ارتفعتِ · أكثر من السموات والرؤساء · لأن جميع ملوك الأرض · يمشون في ضياءكِ.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_7" class="south">
+            <td class="english">This is the light cloud, that carried the King of glory, for the Father made her, and the Holy Spirit dwelt in her.</td>
+            <td class="coptic">Ⲑⲁⲓ ⲧⲉ ϯϭⲏⲡⲓ ⲉⲧⲁ̀ⲥⲓⲱ̀ⲟⲩ: ⲑⲏⲉ̀ⲧⲁⲥϥⲁⲓ ϧⲁ ⲡ̀ⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲡ̀ⲱ̀ⲟⲩ: ϫⲉ ⲁ̀ Ⲫ̀ⲓⲱⲧ ⲉⲣⲧⲉⲭⲛⲓⲧⲏⲥ ⲉ̀ⲣⲟ: ⲁ̀ Ⲡⲓⲡⲛⲉⲩⲙⲁ ⲉ̀ⲑⲟⲩⲁⲃ ⲓ̀ ⲉ̀ϫⲱ.</td>
+            <td class="arabic">هذه هي السحابة الخفيفة · التي حملتْ ملك المجد · لأن الآب صنع أباكِ · والروح القدس حل فيك.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_8" class="north">
+            <td class="english">Jesus the Son of the Most High, loved your virginity, and the power of the Highest, overshadowed you O Mary.</td>
+            <td class="coptic">Ⲓⲏⲥⲟⲩⲥ ⲡ̀ϣⲏⲣⲓ ⲙ̀ⲫⲏⲉⲧϭⲟⲥⲓ: ⲁϥⲙⲉⲛⲣⲉ ⲧⲉⲡⲁⲣⲑⲉⲛⲓⲁ̀: ⲟⲩⲟϩ ⲟⲩϫⲟⲙ ⲛ̀ⲧⲉ ⲫⲏⲉⲧϭⲟⲥⲓ: ⲉⲑⲛⲁⲉⲣϧⲏⲓⲩⲓ ⲉ̀ⲣⲟ Ⲙⲁⲣⲓⲁ̀.</td>
+            <td class="arabic">يسوع ابن العلي · أحبَّ بتوليتك · وقوة العلي · ظللتكِ يا مريم.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_9" class="south">
+            <td class="english">For you are faithful, [Gabriel] was sent to you from heaven, saying "Hail O full of grace, the Lord is with you O pure."</td>
+            <td class="coptic">Ⲕⲉ ⲅⲁⲣ ⲛ̀ⲑⲟ ⲡⲉ ⲉ̀ⲧⲉⲛϩⲟⲧ: ⲁϥⲟⲩⲱⲣⲡ ϣⲁⲣⲟ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲧ̀ⲫⲉ: ϫⲉ ⲭⲉⲣⲉ ⲑⲏⲉⲑⲙⲉϩ ⲛ̀ϩ̀ⲙⲟⲧ: ⲱ̀ ϯⲕⲁⲑⲁⲣⲟⲥ Ⲡ̀ϭⲟⲓⲥ ⲛⲉⲙⲉ.</td>
+            <td class="arabic">لأنكِ أنتِ هي المؤتمنة · قد أرسل إليكِ من السماء قائلاً · السلام لك يا مملوءة نعمة · أيتها النقية الرب معك.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_10" class="north">
+            <td class="english">He also spoke to her, saying in a joyful voice, "Behold you will conceive, and give birth to Immanuel."</td>
+            <td class="coptic">Ⲗⲟⲓⲡⲟⲛ ⲛ̀ⲑⲟϥ ⲛⲉⲙⲁⲥ ⲁϥⲥⲁϫⲓ: ϧⲉⲛ ⲟⲩⲥ̀ⲙⲏ ⲛ̀ⲧⲉ ⲡ̀ⲑⲉⲗⲏⲗ: ϫⲉ ϩⲏⲡⲡⲉ ⲧⲉⲣⲁⲉⲣⲃⲟⲕⲓ: ⲟⲩⲟϩ ⲛ̀ⲧⲉⲙⲓⲥⲓ ⲛ̀Ⲉⲙⲙⲁⲛⲟⲩⲏⲗ.</td>
+            <td class="arabic">وأيضاً هو قد تكلم معها · بصوت الفرح قائلاً · هوذا تحبلين · وتلدين عمانوئيل.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_11" class="south">
+            <td class="english">O Mary the true Bride, Mary the salvation of our race, Mary the true ladder, that Jacob saw.</td>
+            <td class="coptic">Ⲙⲁⲣⲓⲁ̀ ϯϣⲉⲗⲉⲧ ⲙ̀ⲙⲏⲓ: Ⲙⲁⲣⲓⲁ̀ ⲡ̀ⲥⲱϯ ⲙ̀ⲡⲉⲛⲅⲉⲛⲟⲥ: Ⲙⲁⲣⲓⲁ̀ ϯⲙⲟⲩⲕⲓ ⲙ̀ⲙⲏⲓ: ⲑⲏⲉ̀ⲧⲁ Ⲓⲁⲕⲱⲃ ⲛⲁⲩ ⲉ̀ⲣⲟⲥ.</td>
+            <td class="arabic">يا مريم العروسة الحقيقية · مريم هي خلاص جنسنا · مريم هي السلم الحقيقي · الذي رآه يعقوب.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_12" class="north">
+            <td class="english">You are the paradise, the rational one to Christ, and the root of the righteous, the Mother of God the Logos.</td>
+            <td class="coptic">Ⲛ̀ⲑⲟ ⲡⲉ ⲡⲓⲡⲁⲣⲁⲇⲓⲥⲟⲥ: ⲛ̀ⲗⲟⲅⲓⲕⲟⲛ ⲛ̀ⲧⲉ Ⲡⲓⲭⲣⲓⲥⲧⲟⲥ: ⲛⲉⲙ ⲑ̀ⲛⲟⲩⲛⲓ ⲛ̀ⲛⲓⲇⲓⲕⲉⲟⲥ: ⲑ̀ⲙⲁⲩ ⲙ̀Ⲫ̀ⲛⲟⲩϯ ⲡⲓⲗⲟⲅⲟⲥ.</td>
+            <td class="arabic">أنت في الفردوس · الناطق الذي للمسيح · وأصل الصديقين · وأم الله الكلمة.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_13" class="south">
+            <td class="english">Foremost the Orthodox, glorify you with praises, saying, "Hail to the throne of Christ, our Master the Savior of the world."</td>
+            <td class="coptic">Ⲝⲁⲣⲓⲧⲟⲥ ⲛ̀ⲟⲣⲑⲟⲇⲟⲝⲟⲥ: ⲉⲩϯⲱ̀ⲟⲩ ⲛⲉ ϧⲉⲛ ϩⲁⲛϩⲩⲙⲛⲟⲥ: ϫⲉ ⲭⲉⲣⲉ ⲡⲓⲑ̀ⲣⲟⲛⲟⲥ ⲛ̀ⲧⲉ Ⲡⲓⲭⲣⲓⲥⲧⲟⲥ: ⲡⲉⲛⲛⲏⲃ Ⲡ̀ⲥⲱⲧⲏⲣ ⲙ̀ⲡⲓⲕⲟⲥⲙⲟⲥ.</td>
+            <td class="arabic">بالأكثر الأرثوذكسيون · يمجدون لكِ بتسابيح قائلين · السلام لكرسي المسيح · سيدنا مخلص العالم.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_14" class="north">
+            <td class="english">A virginal feast, and spiritual pangs, a wondrous paradox, according to the prophetic voices.</td>
+            <td class="coptic">Ⲟⲩϣⲁⲓ ⲙ̀ⲡⲁⲣⲑⲉⲛⲓⲕⲟⲛ: ⲛⲉⲙ ⲟⲩⲛⲁⲕϩⲓ ⲙ̀ⲡ̀ⲛⲉⲩⲙⲁⲧⲓⲕⲟⲛ: ⲟⲩϣ̀ⲫⲏⲣⲓ ⲙ̀ⲡⲁⲣⲁⲇⲟⲝⲟⲛ: ⲕⲁⲧⲁ ⲛⲓⲥ̀ⲙⲏ ⲙ̀ⲡ̀ⲣⲟⲫⲏⲧⲓⲕⲟⲛ.</td>
+            <td class="arabic">عيد بتولي · وطلق روحاني · وأعجوبة معجزة · كالأصوات النبوية.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_15" class="south">
+            <td class="english">That is the blessed Birth, from the Virgin Mary, the faithful and wise girl, the pure and golden censer.</td>
+            <td class="coptic">Ⲡⲉ ⲡⲓϫⲓⲛⲙⲓⲥⲓ ⲉⲧⲥ̀ⲙⲁⲣⲱⲟⲩⲧ: ⲉ̀ⲃⲟⲗϧⲉⲛ Ⲙⲁⲣⲓⲁ̀ Ϯⲡⲁⲣⲑⲉⲛⲟⲥ: ϯⲁ̀ⲗⲟⲩ ⲛ̀ⲥⲁⲃⲏ ⲑⲏⲉ̀ⲧⲉⲛϩⲟⲧ: ϯϣⲟⲩⲣⲏ ⲛ̀ⲛⲟⲩⲃ ⲛ̀ⲕⲁⲑⲁⲣⲟⲥ.</td>
+            <td class="arabic">هو الميلاد المبارك · من مريم العذارء · الصبية المؤتمنة · والمجمرة الذهب النقية.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_16" class="north">
+            <td class="english">Be glad O true Bride, and the holy city of Zion, Mary the true Queen, the Mother of the King of the ages.</td>
+            <td class="coptic">Ⲣⲁϣⲓ ⲱ̀ ϯϣⲉⲗⲉⲧ ⲙ̀ⲙⲏⲓ: ⲱ̀ ϯⲡⲟⲗⲓⲥ ⲙ̀ⲙⲏⲓ Ⲥⲓⲱⲛ: Ⲙⲁⲣⲓⲁ̀ ϯⲟⲩⲣⲟ ⲙ̀ⲙⲏⲓ: ⲑ̀ⲙⲁⲩ ⲙ̀ⲡ̀ⲟⲩⲣⲟ ⲛ̀ⲛⲓⲉ̀ⲱⲛ.</td>
+            <td class="arabic">افرحي أيتها العروس الحقيقية · والمدينة المقدسة صهيون · مريم الملكة الحقانية · أم ملك الدهور.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_17" class="south">
+            <td class="english">Hear us in our travails, deliver us from our enemies, O Jesus Christ the only-begotten, and disperse their counsel.</td>
+            <td class="coptic">Ⲥⲱⲧⲉⲙ ⲉ̀ⲣⲟⲛ ϧⲉⲛ ⲛⲉⲛⲑ̀ⲗⲩⲯⲓⲥ: ⲟⲩⲟϩ ⲛⲁϩⲙⲉⲛ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲉⲛϫⲁϫⲓ: ⲱ̀ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭⲣⲓⲥⲧⲟⲥ ⲡⲓⲙⲟⲛⲟⲅⲉⲛⲏⲥ: ⲟⲩⲟϩ ϫⲱⲣ ⲉ̀ⲃⲟⲗ ⲙ̀ⲡⲟⲩⲥⲟϭⲛⲓ.</td>
+            <td class="arabic">إسمعنا في ضوائقنا · ونجنا من أعدائنا · أيها المسيح الوحيد · وبدد مشورتهم.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_18" class="north">
+            <td class="english">You are exalted above the cherubim, and the powers and thrones, and honored more than the seraphim, O Mary the Mother of Christ.</td>
+            <td class="coptic">Ⲧⲉϭⲟⲥⲓ ⲉ̀ⲛⲓⲬⲉⲣⲟⲩⲃⲓⲙ: ⲛⲉⲙ ⲛⲓϫⲟⲙ ⲛⲉⲙ ⲛⲓⲑ̀ⲣⲟⲛⲟⲥ: ⲧⲉⲧⲁⲓⲏ̀ⲟⲩⲧ ⲉ̀ⲛⲓⲤⲉⲣⲁⲫⲓⲙ: ⲱ̀ Ⲙⲁⲣⲓⲁ̀ ⲑ̀ⲙⲁⲩ ⲙ̀Ⲡⲓⲭⲣⲓⲥⲧⲟⲥ.</td>
+            <td class="arabic">ارتفعتِ اكثر من الكاروبيم · والقوات والكراسي · وتكرمتِ اكثر من السارافيم · يا مريم أم المسيح.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_19" class="south">
+            <td class="english">Behold Ezekiel has said, "I saw a door in the East, sealed with a wondrous seal," you are the door and the sanctuary.</td>
+            <td class="coptic">Ⲩ̀ⲡⲡⲉ Ⲓⲉⲍⲉⲕⲓⲏⲗ ⲁϥⲥⲁϫⲓ: ϫⲉ ⲁⲓⲛⲁⲩ ⲉ̀ⲟⲩⲡⲩⲗⲏ ⲛ̀ⲥⲁ ⲛⲓⲙⲁⲛ̀ϣⲁⲓ: ⲉⲥⲧⲟⲃ ϧⲉⲛ ⲟⲩⲧⲉⲃⲥ ⲛ̀ϣ̀ⲫⲏⲣⲓ: ⲛ̀ⲑⲟ ⲡⲉ ϯⲡⲩⲗⲏ ⲛⲉⲙ ⲡⲓⲉⲣⲫⲉⲓ.</td>
+            <td class="arabic">هوذا حزقيال قد قال · أني رأيت باباً ناحية المشرق · مختوما بختم عجيب · فأنت هي الباب والهيكل.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_20" class="north">
+            <td class="english">God who rests, among His saints, you gave birth to Him, for He is God and we saw Him.</td>
+            <td class="coptic">Ⲫ̀ⲛⲟⲩϯ ⲫⲏⲉⲑⲙⲱⲧⲉⲛ ⲙ̀ⲙⲟϥ: ϧⲉⲛ ⲛⲏⲉ̀ⲑⲟⲩⲁⲃ ⲛ̀ⲧⲁϥ: ⲁϥϣⲁⲓ ⲛ̀ϧⲏϯ ⲁ̀ⲣⲉⲙⲓⲥⲓ ⲙ̀ⲙⲟϥ: ϩⲱⲥ Ⲛⲟⲩϯ ⲁⲛⲛⲁⲩ ⲉ̀ⲣⲟϥ.</td>
+            <td class="arabic">الله المستريح · في قديسيه · قد ولدتيه مشرقاً منكِ · لأنه إله ورأيناه.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_21" class="south">
+            <td class="english">Hail to the sanctuary of God, the Mother of Christ the Messiah, the uncontainable Son of God, the One of the Trinity.</td>
+            <td class="coptic">Ⲭⲉⲣⲉ ⲡⲓⲉⲣⲫⲉⲓ ⲛ̀ⲧⲉ Ⲫ̀ⲛⲟⲩϯ: ⲑ̀ⲙⲁⲩ ⲙ̀Ⲡⲓⲭⲣⲓⲥⲧⲟⲥ Ⲙⲁⲥⲓⲁⲥ: ⲡⲓⲁ̀ⲭⲱⲣⲏⲧⲟⲥ ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫ̀ⲛⲟⲩϯ: ⲡⲓⲟⲩⲁⲓ ⲉ̀ⲃⲟⲗϧⲉⲛ ϯⲧ̀ⲣⲓⲁⲥ.</td>
+            <td class="arabic">السلام لهيكل الله · أم المسيح ماسيا · الغير المحوي ابن الله · الواحد من الثالوث.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_22" class="north">
+            <td class="english">Repose all the souls in Paradise, for the sake of the Virgin, Mary the Mother of the King of glory, Jesus Christ the Logos.</td>
+            <td class="coptic">Ⲯⲩⲭⲏ ⲛⲓⲃⲉⲛ ⲙⲁⲉⲙⲧⲟⲛ ⲛⲱⲟⲩ: ϧⲉⲛ ⲡⲓⲡⲁⲣⲁⲇⲓⲥⲟⲥ ⲉⲑⲃⲉ ϯⲡⲁⲣⲑⲉⲛⲟⲥ: Ⲙⲁⲣⲓⲁ̀ ⲑ̀ⲙⲁⲩ ⲙ̀ⲡ̀ⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲡ̀ⲱ̀ⲟⲩ: Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭⲣⲓⲥⲧⲟⲥ ⲡⲓⲗⲟⲅⲟⲥ.</td>
+            <td class="arabic">الأنفس جميعاً نيحهم · في الفردوس من أجل العذراء · مريم أم ملك المجد · يسوع المسيح الكلمة.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_23" class="south">
+            <td class="english">O Virgin who gave birth to Him, as God true and good, save Your servant Nicodemus, with the rest of the Christians.</td>
+            <td class="coptic">Ⲱ̀ ⲫⲏⲉ̀ⲧⲁⲥⲙⲁⲥϥ ⲛ̀ϫⲉ Ϯⲡⲁⲣⲑⲉⲛⲟⲥ: ϩⲱⲥ Ⲛⲟⲩϯ ⲙ̀ⲙⲏⲓ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲟϩⲉⲙ ⲙ̀ⲡⲉⲕⲃⲱⲕ Ⲛⲓⲕⲟⲩⲇⲏⲙⲟⲥ: ⲛⲉⲙ ⲡ̀ⲥⲉⲡⲓ ⲛ̀ⲛⲓⲭ̀ⲣⲓⲥⲧⲓⲁ̀ⲛⲟⲥ.</td>
+            <td class="arabic">يا أيها الذي ولدته العذراء · إذ هو إله حقيقي صالح · خلص عبدك نيقوديموس · مع باقي المسيحيين.</td>
+        </tr>
+        </tbody>
+</table>`;
+ return html;
+}
+,
 praiseAfterWednesdayTheotokia(tableNumber) {
     const html = `
 
@@ -4343,7 +4501,7 @@ const html = `
         <tr id="table_${tableNumber}_row_33" class="north">
             <td class="english" >We rejoice with hymn: We sing with the
                 psaltery: My Lord Jesus Christ: Your praise is joy and delight</td>
-            <td class="arabic">نتهلل بالالحان: ونرتل بالمزمار: ياربى يسوع المسيح: تسبيحك بهجة وسرور</td>
+            <td class="arabic">نتهلل بالالحان: ونرتل بالمزمور: ياربى يسوع المسيح: تسبيحك بهجة وسرور</td>
         </tr>
         <tr id="table_${tableNumber}_row_34" class="south">
             <td class="english" >Our joy is in Your praise: Our splendor is
@@ -6658,7 +6816,7 @@ const html = `
         </tr>
         <tr id="table_${tableNumber}_row_14" class="south">
             <td class="english" >May He bless us all: And purify our hearts:
-                And heal the sickness: Of our souls and bodies</td>
+                And heal the sicknesses: Of our souls and bodies</td>
             <td class="arabic">فليباركنا كلنا: ويطهر قلوبنا: ويشفى أمراضنا: ويخلص نفوسنا</td>
         </tr>
         <tr id="table_${tableNumber}_row_15" class="south">
