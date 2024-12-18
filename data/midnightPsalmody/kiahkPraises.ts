@@ -1448,13 +1448,13 @@ watosPsaliOnTheWednesdayTheotokia(tableNumber) {
             <td class="arabic">توكلت عليك يا إلهي · اغفر لي يا ربي يسوع · بشفاعة والدة الإله · مريم الحمامة الحسنة.</td>
         </tr>
         
-        <tr id="table_${tableNumber}_row_1" class="south">
+        <tr id="table_${tableNumber}_row_1" class="north">
             <td class="english">Everyone on earth, glorify the pure one, for all the heavenly ranks, speak of her blessedness.</td>
             <td class="coptic">Ⲃⲟⲛ ⲛⲓⲃⲉⲛ ⲉⲧ ϩⲓϫⲉⲛ ⲡⲓⲕⲁϩⲓ: ⲉⲩϯⲱ̀ⲟⲩ ⲛ̀ϯⲕⲁⲑⲁⲣⲟⲥ: ϫⲉ ⲛⲓⲧⲁⲅⲙⲁ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲛⲓⲫⲏⲟⲩⲓ̀: ⲥⲉϫⲱ ⲛ̀ⲛⲉⲙⲁⲕⲁⲣⲓⲥⲙⲟⲥ.</td>
             <td class="arabic">كل أحد على الأرض · يمجدون النقية · وجميع الطغمات السمائية · ينشدون طوبانيتك.</td>
         </tr>
         
-        <tr id="table_${tableNumber}_row_2" class="north">
+        <tr id="table_${tableNumber}_row_2" class="south">
             <td class="english">For you are the Mother of God, and the eastern gate, and the second tabernacle, the Mother of Christ Adonai.</td>
             <td class="coptic">Ⲅⲉ ⲅⲁⲣ ⲛ̀ⲑⲟ ⲡⲉ ϯⲙⲁⲥⲛⲟⲩϯ: ⲛⲉⲙ ϯⲡⲩⲗⲏ ⲛ̀ⲧⲉ ⲛⲓⲙⲁⲛϣⲁⲓ: ⲛⲉⲙ ϯⲥ̀ⲕⲩⲛⲏ ⲙ̀ⲙⲁϩⲥ̀ⲛⲁⲩϯ: ⲑ̀ⲙⲁⲩ ⲙ̀Ⲡⲓⲭⲣⲓⲥⲧⲟⲥ Ⲁ̀ⲇⲱⲛⲁⲓ.</td>
             <td class="arabic">لأنك أنت هي والدة الإله · وباب المشرق · والقبة الثانية · أم المسيح أدوناي.</td>
@@ -1472,13 +1472,13 @@ watosPsaliOnTheWednesdayTheotokia(tableNumber) {
             <td class="arabic">من قبل مريم العذراء · رجع إلى الفردوس · آدم وحواء والصديقون · وآباؤهم الأولون.</td>
         </tr>
         
-        <tr id="table_${tableNumber}_row_5" class="south">
+        <tr id="table_${tableNumber}_row_5" class="north">
             <td class="english">The seven ranks of heaven, glorify you O Queen, for the Father looked down from heaven, and found no one like you.</td>
             <td class="coptic">Ϣⲁϣϥ ⲛ̀ⲧⲁⲅⲙⲁ ⲉⲧϧⲉⲛ ⲧ̀ⲫⲉ: ⲉⲩϯⲱ̀ⲟⲩ ⲛⲉ ⲱ̀ ϯⲟⲩⲣⲟ: ϫⲉ ⲁ̀ Ⲫ̀ⲓⲱⲧ ϫⲟⲩϣⲧ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲧ̀ⲫⲉ: ⲙ̀ⲡⲉϥϫⲉⲙ ⲫⲏⲉⲧⲟ̀ⲛⲓ ⲙ̀ⲙⲟ.</td>
             <td class="arabic">السبع الطغمات السمائية · يمجدونك أيتها الملكة · لأن الأب قد تطلع من السماء · فلم يجد من يشبهك.</td>
         </tr>
         
-        <tr id="table_${tableNumber}_row_6" class="north">
+        <tr id="table_${tableNumber}_row_6" class="south">
             <td class="english">Behold she was truly exalted, above the heavens and the leaders, for all the kings of the earth, walk in her light,</td>
             <td class="coptic">Ⲏ̀ⲡⲡⲉ ⲁ̀ⲗⲏⲑⲱⲥ ⲁ̀ⲣⲉϭⲓⲥⲓ: ⲉ̀ϩⲟⲧⲉ ⲛⲓⲫⲏⲟⲩⲓ̀ ⲛⲉⲙ ⲛⲓⲁⲣⲭⲏ: ϫⲉ ⲛⲓⲟⲩⲣⲱⲟⲩ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲡ̀ⲕⲁϩⲓ: ⲥⲉⲙⲟϣⲓ ϧⲉⲛ ⲡⲉⲟⲩⲱⲓⲛⲓ.</td>
             <td class="arabic">هوذا بالحقيقة ارتفعتِ · أكثر من السموات والرؤساء · لأن جميع ملوك الأرض · يمشون في ضياءكِ.</td>
@@ -1496,13 +1496,13 @@ watosPsaliOnTheWednesdayTheotokia(tableNumber) {
             <td class="arabic">يسوع ابن العلي · أحبَّ بتوليتك · وقوة العلي · ظللتكِ يا مريم.</td>
         </tr>
         
-        <tr id="table_${tableNumber}_row_9" class="south">
+        <tr id="table_${tableNumber}_row_9" class="north">
             <td class="english">For you are faithful, [Gabriel] was sent to you from heaven, saying "Hail O full of grace, the Lord is with you O pure."</td>
             <td class="coptic">Ⲕⲉ ⲅⲁⲣ ⲛ̀ⲑⲟ ⲡⲉ ⲉ̀ⲧⲉⲛϩⲟⲧ: ⲁϥⲟⲩⲱⲣⲡ ϣⲁⲣⲟ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲧ̀ⲫⲉ: ϫⲉ ⲭⲉⲣⲉ ⲑⲏⲉⲑⲙⲉϩ ⲛ̀ϩ̀ⲙⲟⲧ: ⲱ̀ ϯⲕⲁⲑⲁⲣⲟⲥ Ⲡ̀ϭⲟⲓⲥ ⲛⲉⲙⲉ.</td>
             <td class="arabic">لأنكِ أنتِ هي المؤتمنة · قد أرسل إليكِ من السماء قائلاً · السلام لك يا مملوءة نعمة · أيتها النقية الرب معك.</td>
         </tr>
         
-        <tr id="table_${tableNumber}_row_10" class="north">
+        <tr id="table_${tableNumber}_row_10" class="south">
             <td class="english">He also spoke to her, saying in a joyful voice, "Behold you will conceive, and give birth to Immanuel."</td>
             <td class="coptic">Ⲗⲟⲓⲡⲟⲛ ⲛ̀ⲑⲟϥ ⲛⲉⲙⲁⲥ ⲁϥⲥⲁϫⲓ: ϧⲉⲛ ⲟⲩⲥ̀ⲙⲏ ⲛ̀ⲧⲉ ⲡ̀ⲑⲉⲗⲏⲗ: ϫⲉ ϩⲏⲡⲡⲉ ⲧⲉⲣⲁⲉⲣⲃⲟⲕⲓ: ⲟⲩⲟϩ ⲛ̀ⲧⲉⲙⲓⲥⲓ ⲛ̀Ⲉⲙⲙⲁⲛⲟⲩⲏⲗ.</td>
             <td class="arabic">وأيضاً هو قد تكلم معها · بصوت الفرح قائلاً · هوذا تحبلين · وتلدين عمانوئيل.</td>
@@ -1520,13 +1520,13 @@ watosPsaliOnTheWednesdayTheotokia(tableNumber) {
             <td class="arabic">أنت في الفردوس · الناطق الذي للمسيح · وأصل الصديقين · وأم الله الكلمة.</td>
         </tr>
         
-        <tr id="table_${tableNumber}_row_13" class="south">
+        <tr id="table_${tableNumber}_row_13" class="north">
             <td class="english">Foremost the Orthodox, glorify you with praises, saying, "Hail to the throne of Christ, our Master the Savior of the world."</td>
             <td class="coptic">Ⲝⲁⲣⲓⲧⲟⲥ ⲛ̀ⲟⲣⲑⲟⲇⲟⲝⲟⲥ: ⲉⲩϯⲱ̀ⲟⲩ ⲛⲉ ϧⲉⲛ ϩⲁⲛϩⲩⲙⲛⲟⲥ: ϫⲉ ⲭⲉⲣⲉ ⲡⲓⲑ̀ⲣⲟⲛⲟⲥ ⲛ̀ⲧⲉ Ⲡⲓⲭⲣⲓⲥⲧⲟⲥ: ⲡⲉⲛⲛⲏⲃ Ⲡ̀ⲥⲱⲧⲏⲣ ⲙ̀ⲡⲓⲕⲟⲥⲙⲟⲥ.</td>
             <td class="arabic">بالأكثر الأرثوذكسيون · يمجدون لكِ بتسابيح قائلين · السلام لكرسي المسيح · سيدنا مخلص العالم.</td>
         </tr>
         
-        <tr id="table_${tableNumber}_row_14" class="north">
+        <tr id="table_${tableNumber}_row_14" class="south">
             <td class="english">A virginal feast, and spiritual pangs, a wondrous paradox, according to the prophetic voices.</td>
             <td class="coptic">Ⲟⲩϣⲁⲓ ⲙ̀ⲡⲁⲣⲑⲉⲛⲓⲕⲟⲛ: ⲛⲉⲙ ⲟⲩⲛⲁⲕϩⲓ ⲙ̀ⲡ̀ⲛⲉⲩⲙⲁⲧⲓⲕⲟⲛ: ⲟⲩϣ̀ⲫⲏⲣⲓ ⲙ̀ⲡⲁⲣⲁⲇⲟⲝⲟⲛ: ⲕⲁⲧⲁ ⲛⲓⲥ̀ⲙⲏ ⲙ̀ⲡ̀ⲣⲟⲫⲏⲧⲓⲕⲟⲛ.</td>
             <td class="arabic">عيد بتولي · وطلق روحاني · وأعجوبة معجزة · كالأصوات النبوية.</td>
@@ -1544,13 +1544,13 @@ watosPsaliOnTheWednesdayTheotokia(tableNumber) {
             <td class="arabic">افرحي أيتها العروس الحقيقية · والمدينة المقدسة صهيون · مريم الملكة الحقانية · أم ملك الدهور.</td>
         </tr>
         
-        <tr id="table_${tableNumber}_row_17" class="south">
+        <tr id="table_${tableNumber}_row_17" class="north">
             <td class="english">Hear us in our travails, deliver us from our enemies, O Jesus Christ the only-begotten, and disperse their counsel.</td>
             <td class="coptic">Ⲥⲱⲧⲉⲙ ⲉ̀ⲣⲟⲛ ϧⲉⲛ ⲛⲉⲛⲑ̀ⲗⲩⲯⲓⲥ: ⲟⲩⲟϩ ⲛⲁϩⲙⲉⲛ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲉⲛϫⲁϫⲓ: ⲱ̀ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭⲣⲓⲥⲧⲟⲥ ⲡⲓⲙⲟⲛⲟⲅⲉⲛⲏⲥ: ⲟⲩⲟϩ ϫⲱⲣ ⲉ̀ⲃⲟⲗ ⲙ̀ⲡⲟⲩⲥⲟϭⲛⲓ.</td>
             <td class="arabic">إسمعنا في ضوائقنا · ونجنا من أعدائنا · أيها المسيح الوحيد · وبدد مشورتهم.</td>
         </tr>
         
-        <tr id="table_${tableNumber}_row_18" class="north">
+        <tr id="table_${tableNumber}_row_18" class="south">
             <td class="english">You are exalted above the cherubim, and the powers and thrones, and honored more than the seraphim, O Mary the Mother of Christ.</td>
             <td class="coptic">Ⲧⲉϭⲟⲥⲓ ⲉ̀ⲛⲓⲬⲉⲣⲟⲩⲃⲓⲙ: ⲛⲉⲙ ⲛⲓϫⲟⲙ ⲛⲉⲙ ⲛⲓⲑ̀ⲣⲟⲛⲟⲥ: ⲧⲉⲧⲁⲓⲏ̀ⲟⲩⲧ ⲉ̀ⲛⲓⲤⲉⲣⲁⲫⲓⲙ: ⲱ̀ Ⲙⲁⲣⲓⲁ̀ ⲑ̀ⲙⲁⲩ ⲙ̀Ⲡⲓⲭⲣⲓⲥⲧⲟⲥ.</td>
             <td class="arabic">ارتفعتِ اكثر من الكاروبيم · والقوات والكراسي · وتكرمتِ اكثر من السارافيم · يا مريم أم المسيح.</td>
@@ -1568,13 +1568,13 @@ watosPsaliOnTheWednesdayTheotokia(tableNumber) {
             <td class="arabic">الله المستريح · في قديسيه · قد ولدتيه مشرقاً منكِ · لأنه إله ورأيناه.</td>
         </tr>
         
-        <tr id="table_${tableNumber}_row_21" class="south">
+        <tr id="table_${tableNumber}_row_21" class="north">
             <td class="english">Hail to the sanctuary of God, the Mother of Christ the Messiah, the uncontainable Son of God, the One of the Trinity.</td>
             <td class="coptic">Ⲭⲉⲣⲉ ⲡⲓⲉⲣⲫⲉⲓ ⲛ̀ⲧⲉ Ⲫ̀ⲛⲟⲩϯ: ⲑ̀ⲙⲁⲩ ⲙ̀Ⲡⲓⲭⲣⲓⲥⲧⲟⲥ Ⲙⲁⲥⲓⲁⲥ: ⲡⲓⲁ̀ⲭⲱⲣⲏⲧⲟⲥ ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫ̀ⲛⲟⲩϯ: ⲡⲓⲟⲩⲁⲓ ⲉ̀ⲃⲟⲗϧⲉⲛ ϯⲧ̀ⲣⲓⲁⲥ.</td>
             <td class="arabic">السلام لهيكل الله · أم المسيح ماسيا · الغير المحوي ابن الله · الواحد من الثالوث.</td>
         </tr>
         
-        <tr id="table_${tableNumber}_row_22" class="north">
+        <tr id="table_${tableNumber}_row_22" class="south">
             <td class="english">Repose all the souls in Paradise, for the sake of the Virgin, Mary the Mother of the King of glory, Jesus Christ the Logos.</td>
             <td class="coptic">Ⲯⲩⲭⲏ ⲛⲓⲃⲉⲛ ⲙⲁⲉⲙⲧⲟⲛ ⲛⲱⲟⲩ: ϧⲉⲛ ⲡⲓⲡⲁⲣⲁⲇⲓⲥⲟⲥ ⲉⲑⲃⲉ ϯⲡⲁⲣⲑⲉⲛⲟⲥ: Ⲙⲁⲣⲓⲁ̀ ⲑ̀ⲙⲁⲩ ⲙ̀ⲡ̀ⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲡ̀ⲱ̀ⲟⲩ: Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭⲣⲓⲥⲧⲟⲥ ⲡⲓⲗⲟⲅⲟⲥ.</td>
             <td class="arabic">الأنفس جميعاً نيحهم · في الفردوس من أجل العذراء · مريم أم ملك المجد · يسوع المسيح الكلمة.</td>
