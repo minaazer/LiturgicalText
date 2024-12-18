@@ -1,13 +1,16 @@
 import { useContext, useState, useEffect } from 'react';
+import { Platform } from 'react-native';
 import { Dimensions } from 'react-native';
 import SettingsContext from '../../settings/settingsContext';
 import { fontTypeface } from './fontTypeface';
 
 export const useDynamicStyles = (webviewRef) => {
     const { width, height } = Dimensions.get("window");
-    const calculatedWidth = width - 10; // Adjust for padding
-    const columnPadding = width > 900 ? 35 : 20; // Adjust for padding
     const isPortrait = height >= width; // Determine orientation
+    const isIpad = Platform.OS === 'ios' && isPortrait && width > 900; // Determine if iPad
+    const isIphone = Platform.OS === 'ios' && !isIpad && !isPortrait; // Determine if iPhone
+    const calculatedWidth = isIphone ? '100%' : width - 10; // Adjust for padding
+    const columnPadding = width > 900 ? 35 : 20; // Adjust for padding
     const fontSizeUnit = isPortrait ? 'vh' : 'vw';
     const [settings] = useContext(SettingsContext);
     const [fontSize, setFontSize] = useState('3.5 wv'); 
@@ -307,15 +310,18 @@ td.column-1-1 {
     font-family: 'EB Garamond' !important;
     color: white !important;
     display: flex;
+    flex-direction: column;
     justify-content: space-between; /* Center the text after padding */
     align-items: center;
     text-align: center;
-    padding-left: 40px; /* Ensure enough space for the icon on the left */
+    padding-Left: 40px; /* Ensure enough space for the icon on the left */
+    padding-right: 40px;
     padding-bottom: 10px;
     font-weight: bold;
     position: relative; /* Necessary for absolute positioning of the icon */
     cursor: pointer;
     pointer-events: auto;
+    line-height: 1.2 !important;
 }
 
 .caption.table-invisible {
@@ -330,6 +336,16 @@ td.column-1-1 {
     left: 0; /* Align icon to the leftmost side of the screen */
     top: 50%; /* Vertically center the icon */
     transform: translateY(-50%); /* Adjust to vertically center the icon */
+}
+
+.explanation-button {
+    position: absolute; /* Ensure icon is positioned absolutely */
+    right: 10; /* Align icon to the leftmost side of the screen */
+    top: 50%; /* Vertically center the icon */
+    transform: translateY(-50%); /* Adjust to vertically center the icon */
+    cursor: pointer;
+    pointer-events: auto;
+    z-index: 9999;
 }
 
 .caption.table-invisible::before {
@@ -353,7 +369,6 @@ td.column-1-1 {
   }
 .arabic-caption {
     direction: rtl !important;
-    line-height: 1.4;
 }
 
 .hidden-caption {

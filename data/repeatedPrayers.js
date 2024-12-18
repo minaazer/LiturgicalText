@@ -4,6 +4,9 @@ import { Dimensions } from "react-native";
 import SettingsContext from "../settings/settingsContext";
 
 const windowWidth = Dimensions.get("window").width;
+const windowHeight = Dimensions.get("window").height;
+const isPortrait = windowHeight > windowWidth;
+const iconWidth = isPortrait ? windowWidth * 0.1 : windowWidth * 0.05;
 const skipSize = windowWidth * 0.2;
 
 
@@ -1087,6 +1090,17 @@ const skip =
 const candle =
   '<img src="https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/candle.png" alt="+" style="width: 2vw; height: auto; filter: sepia(100%) saturate(500%) ">';
 
+const book = 
+`<img 
+  src="https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/book.png" 
+  alt="+" 
+  style="
+    width: ${iconWidth}; 
+    height: auto; 
+    filter: invert(100%) brightness(1000%) contrast(200%);
+  "
+>`;
+
 export {
   hourIntro,
   paschalPraise1,
@@ -1107,6 +1121,7 @@ export {
   candle,
   arrowUp,
   skip,
+  book,
 };
 
 // Path: data/holyWeek/repeatedPrayers.js

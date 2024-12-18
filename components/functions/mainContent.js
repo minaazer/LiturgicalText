@@ -1,10 +1,12 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { View, ActivityIndicator, Dimensions, Platform } from 'react-native';
+import React, { useState, useEffect } from 'react';
+import { View, ActivityIndicator, Dimensions } from 'react-native';
 import { presentationStyles } from '../css/presentationStyles';
 import { WebView } from 'react-native-webview';
 import { handleMessage, handleNext, handlePrevious, handleDrawerItemPress } from './renderFunctions'; // Assuming this is imported
-import { useNavigation, useIsFocused , useRoute } from '@react-navigation/native';
+import { useNavigation, useIsFocused } from '@react-navigation/native';
 import localStorage from './localStorage';
+import {ExplanationPopup} from '../reusableComponents/explanationPopup';
+import explanationsData from '../../data/explanations.json'; // Import the data
 
 
 export const MainContent = ({ html, webviewRef, setDrawerItems, setCurrentTable, currentTable }) => {
@@ -19,6 +21,9 @@ export const MainContent = ({ html, webviewRef, setDrawerItems, setCurrentTable,
     const [reload, setReload] = useState(1); // Use state to force reload
     const [firstTable, setFirstTable] = useState(''); // Use state to track first table
     const [refreshing, setRefreshing] = useState(false); // Use state to track refreshing state
+    const [popupVisible, setPopupVisible] = useState(false);
+    const [popupData, setPopupData] = useState({ title: '', text: '' });
+  
 
     const screenWidth = Dimensions.get('window').width;
 
@@ -43,7 +48,7 @@ useEffect(() => {
                 handleDrawerItemPress(currentTable, webviewRef);
                 setHasLeftScreen(false); // Reset the flag
                 setRefreshing(false); // Reset refreshing state
-            }, 500);
+            }, 1000);
 
         } else {
             if (currentTable) {
@@ -153,7 +158,10 @@ useEffect(() => {
                         navigation,
                         localStorage,
                         setLoading,
-                        setFirstTable
+                        setFirstTable,
+                        setPopupVisible, // Pass visibility setter
+                        setPopupData, // Pass data setter                  
+                        explanationsData // Pass the data
                     );
                 }
             }}
@@ -161,6 +169,14 @@ useEffect(() => {
         >
             
         </WebView>
+
+        <ExplanationPopup
+            visible={popupVisible}
+            title={popupData.title}
+            sections={popupData.sections || []} // Pass the array of sections
+            onClose={() => setPopupVisible(false)}
+            />
+
         </View>
 
     );

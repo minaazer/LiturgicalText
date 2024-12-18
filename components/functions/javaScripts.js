@@ -71,6 +71,12 @@ function handleTouchNavigation(event) {
       let currentElement = targetElement;
 
       while (currentElement) {
+        if (currentElement.classList.contains("explanation-button")) {
+          listenToPopupButtonClicks(currentElement);
+          buttonClicked = true;
+          return; // Stop further processing
+        }
+
         if (currentElement.classList.contains("caption")) {
           listenToTableCaption(currentElement);
           buttonClicked = true;
@@ -91,6 +97,7 @@ function handleTouchNavigation(event) {
           buttonClicked = true;
           return; // Stop further processing
         }
+
 
         currentElement = currentElement.parentElement; // Traverse up the DOM tree
       }
@@ -1455,9 +1462,23 @@ const listenToButtonClicks = `
   }
 `;
 
+const listenToPopupButtonClicks = `
+function listenToPopupButtonClicks(buttonElement) { 
+  const buttonId = buttonElement.dataset.message; // Get the 'message' attribute
+
+  try {
+    sendMessage(JSON.stringify({ type: 'POPUP', data: buttonId }));
+  } catch (error) {
+    console.error("Invalid JSON format in data-message:", error);
+  }
+}
+
+`;
+
 const bookNavigationButtons = `
 function listenToBookNavigationButtons(element) {
       const tableId = element.dataset.navigation; // Get current tableId from data attribute
+
       const currentTable = document.getElementById(tableId); // Get the current table by its id
       if (currentTable) {
         // Find the parent <div> that contains the current table
@@ -1465,7 +1486,7 @@ function listenToBookNavigationButtons(element) {
 
         // Try to find the next table in the same div
         let nextTable = currentTable.nextElementSibling;
-
+        
         // If there's no next table in the same div, move to the next div
         while (nextTable && nextTable.tagName !== 'TABLE') {
           nextTable = nextTable.nextElementSibling;
@@ -1529,5 +1550,5 @@ function hideSpinner() {
 export { 
   initialize , dynamicTableClasses , handleTouchNavigation , arabicNumbers , disableScrolling , extractTableTitlesAndIds , 
   sendMessage , setOverlays , clearOverlays, adjustOverlay , adjustOverlayGlorification , paginateTables , 
-  paginateTablesGlorification , showBlackScreen , removeBlackScreen , tableToggle , listenToButtonClicks , 
+  paginateTablesGlorification , showBlackScreen , removeBlackScreen , tableToggle , listenToButtonClicks , listenToPopupButtonClicks ,
   handleSpinner , bookNavigationButtons , loadStoredSettings};

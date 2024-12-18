@@ -1,4 +1,4 @@
-import { initialize , disableScrolling ,  dynamicTableClasses , handleTouchNavigation , arabicNumbers , extractTableTitlesAndIds , paginateTables , sendMessage , adjustOverlay , setOverlays , clearOverlays , showBlackScreen , removeBlackScreen , tableToggle , listenToButtonClicks , handleSpinner, bookNavigationButtons , loadStoredSettings } from "./javaScripts";
+import { initialize , disableScrolling ,  dynamicTableClasses , handleTouchNavigation , arabicNumbers , extractTableTitlesAndIds , paginateTables , sendMessage , adjustOverlay , setOverlays , clearOverlays , showBlackScreen , removeBlackScreen , tableToggle , listenToButtonClicks , listenToPopupButtonClicks , handleSpinner, bookNavigationButtons , loadStoredSettings } from "./javaScripts";
 
 export const htmlRenderScript = `
 
@@ -52,6 +52,7 @@ ${removeBlackScreen}
 // Handle Buttons
 ${tableToggle}
 ${listenToButtonClicks}
+${listenToPopupButtonClicks}
 ${bookNavigationButtons}
 
 // Handle Spinner

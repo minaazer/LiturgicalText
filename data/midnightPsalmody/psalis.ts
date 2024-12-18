@@ -1,4 +1,4 @@
-import { cross } from "../repeatedPrayers"
+import { cross, book } from "../repeatedPrayers"
 
 // Function to get the psali response based on the current seasons and table number
 function getPsali(basetableNumber, vespers , settings) {
@@ -280,6 +280,7 @@ function TheSecondSundayPsali(tableNumber) {
     <caption id="caption_table_${tableNumber}" class="caption">The Second Sunday Psali
         <span class="coptic-caption">Ϯⲯⲁⲗⲓ ⲙ̀Ⲙⲁϩⲥ̀ⲛⲟⲩϯ ⲛ̀ⲧⲉ Ϯⲕⲩⲣⲓⲁⲕⲏ</span>
         <span class="arabic-caption">إبصالية الأحد الثانية</span>
+    <span class="explanation-button" data-message='The Sunday Psali \"I sought after you\"'>${book}</span>
     </caption>
     <tbody>
     

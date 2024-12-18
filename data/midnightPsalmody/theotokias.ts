@@ -2820,48 +2820,6 @@ function TheWednesdayTheotokia_Watos(tableNumber) {
             <td class="coptic">Ϯⲙⲁϩϣⲁϣϥⲓ</td>
             <td class="arabic">القطعة السابعة</td>
         </tr>
-        
-        <tr id="table_${tableNumber}_row_41" class="north">
-            <td class="english">The Galilee of the Gentiles, who sit in darkness, and in the shadow of death, had the great Light shine to them.</td>
-            <td class="coptic">Ϯⲅⲁⲗⲓⲗⲉⲁ̀ ⲛ̀ⲧⲉ ⲛⲓⲉⲑⲛⲟⲥ: ⲛⲏⲉⲧϩⲉⲙⲥⲓ ϧⲉⲛ ⲡ̀ⲭⲁⲕⲓ: ⲛⲉⲙ ⲧ̀ϧⲏⲓⲃⲓ ⲙ̀ⲫ̀ⲙⲟⲩ: ⲟⲩⲛⲓϣϯ ⲛ̀Ⲟⲩⲱⲓⲛⲓ ⲁϥϣⲁⲓ ⲛⲱⲟⲩ.</td>
-            <td class="arabic">جليل الأُمم، الجالسون في الظلمة، وظلال الموت، أشرق عليهم النور العظيم.</td>
-        </tr>
-        
-        <tr id="table_${tableNumber}_row_42" class="south">
-            <td class="english">God who rests, among His saints, became incarnate of the Virgin, for our salvation.</td>
-            <td class="coptic">Ⲫ̀ⲛⲟⲩϯ ⲫⲏⲉⲑⲙⲟⲧⲉⲛ ⲙ̀ⲙⲟϥ: ϧⲉⲛ ⲛⲏⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲁϥ: ⲁϥϭⲓⲥⲁⲣⲝ ϧⲉⲛ Ϯⲡⲁⲣⲑⲉⲛⲟⲥ: ⲉⲑⲃⲉ ⲫⲏⲉ̀ⲧⲉ ⲫⲱⲛ ⲛ̀ⲟⲩϫⲁⲓ.</td>
-            <td class="arabic">الله المستريح، في قديسيه، تجسد من العذراء، لأجل خلاصنا.</td>
-        </tr>
-        
-        <tr id="table_${tableNumber}_row_43" class="north">
-            <td class="english">Come behold and be amazed, joyfully sing on account, of this mystery, which was revealed unto us.</td>
-            <td class="coptic">Ⲁ̀ⲙⲱⲓⲛⲓ ⲁ̀ⲛⲁⲩ ⲁ̀ⲣⲓϣ̀ⲫⲏⲣⲓ: ϩⲱⲥ ⲑⲉⲗⲏⲗ ϧⲉⲛ ⲟⲩϣ̀ⲗⲏⲗⲟⲩⲓ̀: ϩⲓϫⲉⲛ ⲡⲁⲓⲙⲩⲥⲧⲏⲣⲓⲟⲛ: ⲉ̀ⲧⲁϥⲟⲩⲱⲛϩ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.</td>
-            <td class="arabic">تعالوا أنظروا وتعجبوا، وسبحوا وهللوا، بإبتهاج لهذا السر، الذي ظهر لنا.</td>
-        </tr>
-        
-        <tr id="table_${tableNumber}_row_44" class="south">
-            <td class="english">For the Incorporeal was incarnate, and the Word became flesh, the One without beginning began, the Eternal came under time.</td>
-            <td class="coptic">Ϫⲉ Ⲡⲓⲁⲧⲥⲁⲣⲝ ⲁϥϭⲓⲥⲁⲣⲝ: ⲟⲩⲟϩ Ⲡⲓⲗⲟⲅⲟⲥ ⲁϥϧ̀ⲑⲁⲓ: Ⲡⲓⲁⲧⲁⲣⲭⲏ ⲁϥⲉⲣϩⲏⲧⲥ: Ⲡⲓⲁⲧⲥⲏⲟⲩ ⲁϥϣⲱⲡⲓ ϧⲁ ⲟⲩⲭ̀ⲣⲟⲛⲟⲥ.</td>
-            <td class="arabic">لأن غير المُتجسد تجسَّد، والكلمة تجسَّمت، غير المبتدئ إبتدأ، وغير الزمني صار زمنياً.</td>
-        </tr>
-        
-        <tr id="table_${tableNumber}_row_45" class="north">
-            <td class="english">The Incomprehensible has been touched, and the Unseen has been seen, and the Son of the living God, truly became the Son of Man.</td>
-            <td class="coptic">Ⲡⲓⲁⲧϣ̀ⲧⲁϩⲟϥ ⲁⲩϫⲉⲙϫⲱⲙϥ: Ⲡⲓⲁⲑⲛⲁⲩ ⲉ̀ⲣⲟϥ ⲥⲉⲛⲁⲩ ⲉ̀ⲣⲟϥ: Ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫ̀ⲛⲟⲩϯ ⲉⲧⲟⲛϧ: ⲁϥϣⲱⲡⲓ ⲛ̀Ϣⲏⲣⲓ ⲛ̀ⲣⲱⲙⲓ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓ.</td>
-            <td class="arabic">غير المُدرك لمسوه، وغير المرئي رأوه، إبن الله الحي، صار بشرياً بالحقيقة.</td>
-        </tr>
-        
-        <tr id="table_${tableNumber}_row_46" class="south">
-            <td class="english">Jesus Christ the same yesterday, today and forever, in one hypostasis, we worship and glorify Him.</td>
-            <td class="coptic">Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ ⲛ̀ⲥⲁϥ ⲛⲉⲙ ⲫⲟⲟⲩ: ⲛ̀ⲑⲟϥ ⲛ̀ⲑⲟϥ ⲡⲉ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ: ϧⲉⲛ ⲟⲩϩⲩⲡⲟⲥⲧⲁⲥⲓⲥ ⲛ̀ⲟⲩⲱⲧ: ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟϥ ⲧⲉⲛϯⲱ̀ⲟⲩ ⲛⲁϥ.</td>
-            <td class="arabic">يسوع المسيح هو هو أمس، واليوم وإلى الأبد، بأُقنوم واحد، نسجد له ونمجده.</td>
-        </tr>
-        
-        <tr id="table_${tableNumber}_row_47" class="north">
-            <td class="english">The Father looked from heaven, and found no one like you, He sent His only-begotten, who came and took flesh from you. ${cross}</td>
-            <td class="coptic">Ⲁ̀ Ⲫ̀ⲓⲱⲧ ϫⲟⲩϣⲧ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲧ̀ⲫⲉ: ⲙ̀ⲡⲉϥϫⲉⲙ ⲫⲏⲉⲧⲟ̀ⲛⲓ ⲙ̀ⲙⲟ: ⲁϥⲟⲩⲱⲣⲡ ⲙ̀ⲡⲉϥⲙⲟⲛⲟⲅⲉⲛⲏⲥ: ⲓ̀ ⲁϥϭⲓⲥⲁⲣⲝ ⲉ̀ⲃⲟⲗ ⲛ̀ϧⲏϯ. ${cross}</td>
-            <td class="arabic">تطَّلع الآب من السماء، فلم يجد مَنْ يُشبهكِ، أرسل وحيده، أتى وتجسد منكِ. ${cross}</td>
-        </tr>
         </tbody>
 </table>
 ${seventhPart}

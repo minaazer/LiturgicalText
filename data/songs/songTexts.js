@@ -313,14 +313,14 @@ beFaithfulUntoDeath(tableNumber) {
     
                 <tr id="table_${tableNumber}_row_3" class="north">
                     <td class="english">He who overcomes shall eat, from the tree of life</td>
-                    <td class="enPhonicsSongs">من يغلب سيأكل من شجرة الحياة</td>
-                    <td class="arabic">Man yaghlib sayakul min shajarat al-hayat</td>
+                    <td class="enPhonicsSongs">Man yaghlib sayakul min shajarat al-hayat</td>
+                    <td class="arabic">من يغلب سيأكل من شجرة الحياة</td>
                 </tr>
             
                 <tr id="table_${tableNumber}_row_4" class="north">
                     <td class="english">The tree, in the midst of the Lord´s paradise (x2)</td>
-                    <td class="enPhonicsSongs">شجرة قائمة في وسط فردوس الله</td>
-                    <td class="arabic">Shajarat qaimah fee wasat firdaws Allah</td>
+                    <td class="enPhonicsSongs">Shajarat qaimah fee wasat firdaws Allah</td>
+                    <td class="arabic">شجرة قائمة في وسط فردوس الله</td>
                 </tr>
             </tbody>
             <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
@@ -347,14 +347,14 @@ beFaithfulUntoDeath(tableNumber) {
     
                 <tr id="table_${tableNumber}_row_8" class="south">
                     <td class="english">He who overcomes and keeps my words till the end</td>
-                    <td class="enPhonicsSongs">من يغلب ويحفظ للنهاية أعمالي</td>
-                    <td class="arabic">Man yaghlib wa yahfath lil-nihayah a'mali</td>
+                    <td class="enPhonicsSongs">Man yaghlib wa yahfath lil-nihayah a'mali</td>
+                    <td class="arabic">من يغلب ويحفظ للنهاية أعمالي</td>
                 </tr>
             
                 <tr id="table_${tableNumber}_row_9" class="south">
                     <td class="english">I will give power to rule nations with an iron rod (x2)</td>
-                    <td class="enPhonicsSongs">سلطاناً سأعطيه ليملك كل ما لي</td>
-                    <td class="arabic">Sultan sa'oteeh limalik kull ma li</td>
+                    <td class="enPhonicsSongs">Sultan sa'oteeh limalik kull ma li</td>
+                    <td class="arabic">سلطاناً سأعطيه ليملك كل ما لي</td>
                 </tr>
             </tbody>
             <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
@@ -381,14 +381,14 @@ beFaithfulUntoDeath(tableNumber) {
     
                 <tr id="table_${tableNumber}_row_13" class="north">
                     <td class="english">He who overcomes shall not be hurt by the second death</td>
-                    <td class="enPhonicsSongs">من يغلب أعترف به قدام أبي</td>
-                    <td class="arabic">Man yaghlib a'taraf bihi qadam abi</td>
+                    <td class="enPhonicsSongs">Man yaghlib a'taraf bihi qadam abi</td>
+                    <td class="arabic">من يغلب أعترف به قدام أبي</td>
                 </tr>
             
                 <tr id="table_${tableNumber}_row_14" class="north">
                     <td class="english">His name, his name, before my Father I confess (x2)</td>
-                    <td class="enPhonicsSongs">من يغلب فلا يؤذيه ذاك الموت السني</td>
-                    <td class="arabic">Man yaghlib fala yo'zihi thak al-mawt al-thani</td>
+                    <td class="enPhonicsSongs">Man yaghlib fala yo'zihi thak al-mawt al-thani</td>
+                    <td class="arabic">من يغلب فلا يؤذيه ذاك الموت السني</td>
                 </tr>
             </tbody>
             <tbody ${tbodyClass} id="table_${tableNumber}_tbody_6">
@@ -415,14 +415,14 @@ beFaithfulUntoDeath(tableNumber) {
     
                 <tr id="table_${tableNumber}_row_18" class="south">
                     <td class="english">He who overcomes I will write on him my new name</td>
-                    <td class="enPhonicsSongs">من يغلب فطوباه سيدعى للعشاء</td>
-                    <td class="arabic">Man yaghlib fatobah sayod'aa lil-asha'</td>
+                    <td class="enPhonicsSongs">Man yaghlib fatobah sayod'aa lil-asha'</td>
+                    <td class="arabic">من يغلب فطوباه سيدعى للعشاء</td>
                 </tr>
             
                 <tr id="table_${tableNumber}_row_19" class="south">
                     <td class="english">He who overcomes shall sit with me on my throne (x2)</td>
-                    <td class="enPhonicsSongs">يوم عرس للخروف يوم مجد في السماء</td>
-                    <td class="arabic">Yawma urs lil-kharouf yawma majd fee al-sama'</td>
+                    <td class="enPhonicsSongs">Yawma urs lil-kharouf yawma majd fee al-sama'</td>
+                    <td class="arabic">يوم عرس للخروف يوم مجد في السماء</td>
                 </tr>
             </tbody>
             <tbody ${tbodyClass} id="table_${tableNumber}_tbody_8">
@@ -848,14 +848,14 @@ let html = `
 
             <tr id="table_${tableNumber}_row_2" class="north">
                 <td class="english">No don't leave me alone, O my faithful shepherd.</td>
-                <td class="enPhonicsSongs">لا لا تتركني وحدي يا راعي الأمين</td>
-                <td class="arabic">La la tatrukni wahdi ya ra'i al-ameen</td>
+                <td class="enPhonicsSongs">La la tatrukni wahdi ya ra'i al-ameen</td>
+                <td class="arabic">لا لا تتركني وحدي يا راعي الأمين</td>
             </tr>
         
             <tr id="table_${tableNumber}_row_3" class="north">
                 <td class="english">Guide me dear master and be unto me a helper.</td>
-                <td class="enPhonicsSongs">قدني أنت ربي وسر معي يا معين</td>
-                <td class="arabic">Qudni anta Rabbi wa sir ma'ee ya mu'een</td>
+                <td class="enPhonicsSongs">Qudni anta Rabbi wa sir ma'ee ya mu'een</td>
+                <td class="arabic">قدني أنت ربي وسر معي يا معين</td>
             </tr>
         </tbody>
         <tbody ${tbodyClass} id="table_${tableNumber}_tbody_2">
@@ -876,14 +876,14 @@ let html = `
 
             <tr id="table_${tableNumber}_row_6" class="south">
                 <td class="english">And don't leave me alone in the midst of this darkness</td>
-                <td class="enPhonicsSongs">ولا تتركني وحدي في وسط الظلام</td>
-                <td class="arabic">Wa la tatrukni wahdi fee wasat al-zalam</td>
+                <td class="enPhonicsSongs">Wa la tatrukni wahdi fee wasat al-zalam</td>
+                <td class="arabic">ولا تتركني وحدي في وسط الظلام</td>
             </tr>
         
             <tr id="table_${tableNumber}_row_7" class="south">
                 <td class="english">Let your bright face guide me O Lord unto peace.</td>
-                <td class="enPhonicsSongs">إجعل وجهك يقودني يا رب للسلام</td>
-                <td class="arabic">Ij'al wajhak yaqooduni ya Rab lil-salaam</td>
+                <td class="enPhonicsSongs">Ij'al wajhak yaqooduni ya Rab lil-salaam</td>
+                <td class="arabic">إجعل وجهك يقودني يا رب للسلام</td>
             </tr>
         </tbody>
         <tbody ${tbodyClass} id="table_${tableNumber}_tbody_4">
@@ -904,14 +904,14 @@ let html = `
 
             <tr id="table_${tableNumber}_row_10" class="north">
                 <td class="english">And don't leave me alone but hear my prayers</td>
-                <td class="enPhonicsSongs">ولا تتركني وحدي بل اسمع صلاتي</td>
-                <td class="arabic">Wa la tatrukni wahdi bal isma' salati</td>
+                <td class="enPhonicsSongs">Wa la tatrukni wahdi bal isma' salati</td>
+                <td class="arabic">ولا تتركني وحدي بل اسمع صلاتي</td>
             </tr>
         
             <tr id="table_${tableNumber}_row_11" class="north">
                 <td class="english">And be there for me redeemer for the rest of my life</td>
-                <td class="enPhonicsSongs">وقف أنت بجانبي ربي كل حياتي</td>
-                <td class="arabic">Waqif anta bijanibi Rabbi kul hayati</td>
+                <td class="enPhonicsSongs">Waqif anta bijanibi Rabbi kul hayati</td>
+                <td class="arabic">وقف أنت بجانبي ربي كل حياتي</td>
             </tr>
         </tbody>
         <tbody ${tbodyClass} id="table_${tableNumber}_tbody_6">
@@ -932,14 +932,14 @@ let html = `
 
             <tr id="table_${tableNumber}_row_14" class="south">
                 <td class="english">And don't leave me alone because of my sins</td>
-                <td class="enPhonicsSongs">ولا تتركني وحدي من أجل خطاياي</td>
-                <td class="arabic">Wa la tatrukni wahdi min ajl khatayaya</td>
+                <td class="enPhonicsSongs">Wa la tatrukni wahdi min ajl khatayaya</td>
+                <td class="arabic">ولا تتركني وحدي من أجل خطاياي</td>
             </tr>
         
             <tr id="table_${tableNumber}_row_15" class="south">
                 <td class="english">But forgive me O lord and accept my repentance</td>
-                <td class="enPhonicsSongs">بل سامحني يا ربي إن زلت قدماي</td>
                 <td class="arabic">Bal samihni ya Rabbi in zalat qadamaya</td>
+                <td class="arabic">بل سامحني يا ربي إن زلت قدماي</td>
             </tr>
         </tbody>
         <tbody ${tbodyClass} id="table_${tableNumber}_tbody_8">
@@ -960,14 +960,14 @@ let html = `
 
             <tr id="table_${tableNumber}_row_18" class="north">
                 <td class="english">No don't leave me alone in the midst of this world</td>
-                <td class="enPhonicsSongs">ولا تتركني وحدي في وسط الخطاة</td>
-                <td class="arabic">Wa la tatrukni wahdi fee wasat al-khata</td>
+                <td class="enPhonicsSongs">Wa la tatrukni wahdi fee wasat al-khata</td>
+                <td class="arabic">ولا تتركني وحدي في وسط الخطاة</td>
             </tr>
         
             <tr id="table_${tableNumber}_row_19" class="north">
                 <td class="english">But Come quickly O Lord and take me to heaven</td>
-                <td class="enPhonicsSongs">بل تعال يا ربي وخذني للسما</td>
-                <td class="arabic">Bal ta'al ya Rabbi wakhudhni lil-sama</td>
+                <td class="enPhonicsSongs">Bal ta'al ya Rabbi wakhudhni lil-sama</td>
+                <td class="arabic">بل تعال يا ربي وخذني للسما</td>
             </tr>
         </tbody>
         <tbody ${tbodyClass} id="table_${tableNumber}_tbody_10">

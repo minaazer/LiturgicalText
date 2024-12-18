@@ -1,4 +1,4 @@
-import { cross } from './repeatedPrayers';
+import { cross , book } from './repeatedPrayers';
 import { getTheotokia , getWeekdaySundayTheotokia , getTennav } from './midnightPsalmody/theotokias';
 import {getPsali} from './midnightPsalmody/psalis';
 import { getKiahkPraiseHtml } from './midnightPsalmody/kiahkPraises';
@@ -95,8 +95,8 @@ return `
     <table id="table_0" style="display: table;" title="Arise, O children of the Light Ⲧⲉⲛ ⲑⲏⲛⲟⲩ">
         <caption id="caption_table_0" class="caption">Arise, O children of the Light <br /><span
                 class="coptic-caption">Ⲧⲉⲛ ⲑⲏⲛⲟⲩ</span>
-                <span class="arabic-caption">قوموا يا بنى النور</span>
-                </caption>
+        <span class="arabic-caption">قوموا يا بنى النور</span>
+        </caption>
         <tbody>
             <tr id="table_0_row_0" class="north">
                 <td class="english" >Arise, O children of the Light: let us praise
@@ -1344,8 +1344,9 @@ return `
 
     <table id="table_19" style="display: table;" title="Hymn of the Three Young Men Ⲧⲉⲛⲉⲛ">
         <caption id="caption_table_19" class="caption">Hymn of the Three Young Men
-        <span class="coptic-caption">Ⲧⲉⲛⲉⲛ</span>
+        <span class="coptic-caption">Ⲧⲉⲛⲉⲛ</span> 
         <span class="arabic-caption">لحن الثلاثة  الفتية</span>
+        <span class="explanation-button" data-message='Hymn of the Three Young Men'>${book}</span>
         </caption>
         <tbody>
             <tr id="table_19_row_0" class="north">

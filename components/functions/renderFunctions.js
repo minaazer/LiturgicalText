@@ -1,5 +1,4 @@
 /** @format */
-
 export const handleMessage = (
   event,
   setDrawerItems,
@@ -11,7 +10,10 @@ export const handleMessage = (
   navigation,
   localStorage,
   setLoading,
-  setFirstTable
+  setFirstTable,
+  setPopupVisible,
+  setPopupData,
+  explanationsData
 ) => {
   try {
     const message = JSON.parse(event.nativeEvent.data);
@@ -71,6 +73,33 @@ export const handleMessage = (
       TABLES_INFO: () => {
         setDrawerItems(message.data)
         setFirstTable(message.data[0].id);
+      },
+      POPUP: () => {
+        try {
+    
+            if (!message.data) {
+                console.error("No message content found in POPUP data.");
+                return;
+            }
+    
+            const hymnTitle = message.data; // The title of the hymn is sent.
+            const explanation = explanationsData.find(exp => exp.title === hymnTitle);
+            
+
+            if (explanation) {
+              setPopupData({
+                title: explanation.title,
+                sections: explanation.text,
+              });
+              setPopupVisible(true);
+            } else {
+              console.error("Explanation not found for title:", hymnTitle)
+            }
+
+            setPopupVisible(true);
+        } catch (error) {
+            console.error("Failed to handle POPUP message:", error, message.data);
+        }
       },
       PAGINATION_DATA: () => setPageOffsets(message.data),
       LOADING: () => {
@@ -238,6 +267,8 @@ export const handleDrawerItemPress = (tableId, webviewRef) => {
   const captionId = `caption_${tableId}`;
   const scrollToTableScript = `
         var goToCaptionElement = document.getElementById('${captionId}');
+        var captionDisplay = goToCaptionElement ? goToCaptionElement.style.display : 'none';
+        goToCaptionElement = goToCaptionElement && captionDisplay !== 'none' ? goToCaptionElement : null;
         var goToTableElement = goToCaptionElement || document.getElementById('${tableId}');
         var tableYOffset = goToTableElement ? goToTableElement.getBoundingClientRect().top + window.scrollY : 0;
 

@@ -1,5 +1,4 @@
-import { kiahk } from '../kiahk';
-import { cross , skip } from '../repeatedPrayers'
+import { cross , skip , book } from '../repeatedPrayers'
 
 const kiahkPraises = {
 kiahkOde(tableNumber) {
@@ -1036,6 +1035,7 @@ psaliAdamOn2ndCanticle(tableNumber) {
 <table id="table_${tableNumber}" style="display: table;" title="Psali Adam on the 2nd Canticle (My Heart and My Tongue)">
 <caption id="caption_table_${tableNumber}" class="caption">Psali Adam on the 2nd Canticle <br />(My Heart and My Tongue)
     <span class="arabic-caption">بصاليم آدم على الهوس الثاني <br> (قلبي ولساني)</span>
+    <span class="explanation-button" data-message='My Heart and My Tongue'>${book}</span>
 </caption>
 <tbody>
     <tr id="table_${tableNumber}_row_0" class="refrain">
@@ -1782,6 +1782,7 @@ praiseAfterThursdayTheotokia(tableNumber) {
 <table id="table_${tableNumber}" style="display: table;" title="Praise After Thursday Theotokia (The Burning Bush)">
 <caption id="caption_table_${tableNumber}" class="caption">Praise on the Thursday Theotokia <br />(The Burning Bush)
     <span class="arabic-caption">مديح على ثيوطوكية الخميس<br> (العليقة)</span>
+    <span class="explanation-button" data-message='The Burning Bush'>${book}</span>
 </caption>
 <tbody>
     <tr id="table_${tableNumber}_row_1" class="refrain">

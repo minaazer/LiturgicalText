@@ -498,12 +498,6 @@ const LeftDrawerContent = ({ navigation, currentRoute, ...props }) => {
         labelStyle={presentationStyles.drawerLabel}
         onPress={() => closeDrawerAndNavigate("Settings")}
       />
-      <DrawerItem
-        label="Calendar"
-        style={presentationStyles.drawerItem}
-        labelStyle={presentationStyles.drawerLabel}
-        onPress={() => closeDrawerAndNavigate("Calendar")}
-      />
       
             <DrawerItem
         label="Saints Settings"
@@ -535,11 +529,14 @@ const LeftDrawerContent = ({ navigation, currentRoute, ...props }) => {
         onPress={() => closeDrawerAndNavigate("About")}
       />
       <View style={presentationStyles.drawerLineBreak}></View>
-
+      <DrawerItem
+        label="Calendar"
+        style={presentationStyles.drawerItem}
+        labelStyle={[presentationStyles.drawerLabel]}
+        onPress={() => closeDrawerAndNavigate("Calendar")}
+      />
       <GoLive />
-
-      <CurrentSeason />
-
+      
       <View style={presentationStyles.drawerLineBreak}></View>
 
     </DrawerContentScrollView>
