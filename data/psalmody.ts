@@ -561,14 +561,14 @@ return `
         
         <tbody>
             <tr id="table_9_row_0" class="north">
-                <td class="english" >O give thanks to the Lord: for He is
-                    good and virtuous, Alleluia, His mercy endures forever.</td>
+                <td class="english" >O give thanks to the Lord, for He is
+                    good and virtuous: Alleluia, His mercy endures forever.</td>
                 <td class="coptic" >Ⲟⲩⲱⲛϩ ⲉ̀ⲃⲟⲗ ⲙ̀Ⲡϭⲟⲓⲥ ϫⲉ ⲟⲩⲭ̀ⲣⲏⲥⲧⲟⲥ
                     ⲟⲩⲁ̀ⲅⲁⲑⲟⲥ ⲡⲉ ⲁⲗⲗⲏⲗⲟⲩⲓⲁ̀ : ϫⲉ ⲡⲉϥⲛⲁⲓ ϣⲟⲡ ϣⲁ ⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">اشكروا الرب لأنه صالح وخيّر الليلويا. لأن رحمته إلى الأبد.</td>
             </tr>
             <tr id="table_9_row_1" class="south">
-                <td class="english" >O give thanks to the God of gods,
+                <td class="english" >O give thanks to the God of gods:
                     Alleluia, His mercy endures forever.</td>
                 <td class="coptic" >Ⲟⲩⲱⲛϩ ⲉ̀ⲃⲟⲗ ⲙ̀Ⲫⲛⲟⲩϯ ⲛ̀ⲧⲉ ⲛⲓⲛⲟⲩϯ ⲁⲗ̅: ϫⲉ
                     ⲡⲉϥⲛⲁⲓ ϣⲟⲡ ϣⲁ ⲉ̀ⲛⲉϩ.</td>
@@ -612,7 +612,7 @@ return `
             <tr id="table_9_row_7" class="south">
                 <td class="english" >The sun to rule by day: Alleluia, His
                     mercy endures forever.</td>
-                <td class="coptic" >˙Ⲫⲣⲏ ⲉ̀ⲟⲩⲉⲣϣⲓϣⲓ ⲛ̀ⲧⲉ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲁⲗ̅ : ϫⲉ
+                <td class="coptic" >Ⲫⲣⲏ ⲉ̀ⲟⲩⲉⲣϣⲓϣⲓ ⲛ̀ⲧⲉ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲁⲗ̅ : ϫⲉ
                     ⲡⲉϥⲛⲁⲓ ϣⲟⲡ ϣⲁ ⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">الشمس لحكم النهار. الليلويا لأن رحمته إلى الأبد.</td>
             </tr>
@@ -633,7 +633,7 @@ return `
             <tr id="table_9_row_10" class="north">
                 <td class="english" >And brought out Israel from among them:
                     Alleluia, His mercy endures forever.</td>
-                <td class="coptic" >Ⲟⲩⲟϩ ⲁϥⲓ̀ⲛⲓ ⲙ̀Ⲡⲓⲥⲣⲁⲏⲗ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲧⲟⲩⲙⲏϯ ⲁⲗ̅
+                <td class="coptic" >Ⲟⲩⲟϩ ⲁϥⲓ̀ⲛⲓ ⲙ̀Ⲡⲓⲥ̀ⲣⲁⲏⲗ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲧⲟⲩⲙⲏϯ ⲁⲗ̅
                     : ϫⲉ ⲡⲉϥⲛⲁⲓ ϣⲟⲡ ϣⲁ ⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">وأخرج إسرائيل في وسطه الليلويا لأن رحمته إلى الأبد.</td>
             </tr>
@@ -654,7 +654,7 @@ return `
             <tr id="table_9_row_13" class="south">
                 <td class="english" >And made Israel pass through the midst of
                     it: Alleluia, His mercy endures forever.</td>
-                <td class="coptic" >Ⲟⲩⲟϩ ⲁϥⲓ̀ⲛⲓ ⲙ̀Ⲡⲓⲥⲣⲁⲏⲗ ⲉ̀ⲙⲏⲣ ϧⲉⲛ ⲧⲉϥⲙⲏϯ ⲁⲗ̅
+                <td class="coptic" >Ⲟⲩⲟϩ ⲁϥⲓ̀ⲛⲓ ⲙ̀Ⲡⲓⲥ̀ⲣⲁⲏⲗ ⲉ̀ⲙⲏⲣ ϧⲉⲛ ⲧⲉϥⲙⲏϯ ⲁⲗ̅
                     : ϫⲉ ⲡⲉϥⲛⲁⲓ ϣⲟⲡ ϣⲁ ⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">وأجاز إسرائيل في وسطه الليلويا لأن رحمته إلى الأبد.</td>
             </tr>
@@ -717,7 +717,7 @@ return `
             <tr id="table_9_row_22" class="north">
                 <td class="english" >A heritage to Israel His servant:
                     Alleluia, His mercy endures forever.</td>
-                <td class="coptic" >Ⲉⲩⲕ̀ⲗⲏⲣⲟⲛⲟⲙⲓⲁ̀ ⲙ̀ⲡⲉϥ ⲃⲱⲕ Ⲡⲓⲥ̀ⲣⲁⲏⲗ: ϫⲉ
+                <td class="coptic" >Ⲉⲩⲕ̀ⲗⲏⲣⲟⲛⲟⲙⲓⲁ̀ ⲙ̀ⲡⲉϥⲃⲱⲕ Ⲡⲓⲥ̀ⲣⲁⲏⲗ: ϫⲉ
                     ⲡⲉϥⲛⲁⲓ ϣⲟⲡ ϣⲁ ⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">ميراثاً لعبده إسرائيل :الليلويا لأن رحمته إلى الأبد.</td>
             </tr>
@@ -767,7 +767,7 @@ return `
         <tbody>
             <tr id="table_10_row_0" class="north">
                 <td class="english" >Let us give thanks: unto Christ our God:
-                    with David the prophet: and the psalmist.</td>
+                    with David the Prophet: and the Psalmist.</td>
                 <td class="coptic" >Ⲙⲁⲣⲉⲛⲟⲩⲱⲛϩ ⲉ̀ⲃⲟⲗ: ⲙ̀Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲡⲉⲛⲛⲟⲩϯ :
                     ⲛⲉⲙ ⲡⲓⲓⲉⲣⲟⲯⲁⲗⲧⲏⲥ: Ⲇⲁⲩⲓⲇ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ.</td>
                 <td class="arabic">فلنشكر المسيح إلهنا مع المرتل داود النبي.</td>
@@ -788,7 +788,7 @@ return `
             </tr>
             <tr id="table_10_row_3" class="south">
                 <td class="english" >He brought forth the winds: out of His
-                    treasure: he breathed unto the trees: and they blossomed.</td>
+                    treasures: He breathed unto the trees: and they blossomed.</td>
                 <td class="coptic" >Ⲁϥⲓ̀ⲛⲓ ⲛ̀ϩⲁⲛⲑⲏⲟⲩ : ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲉϥⲁ̀ϩⲱⲣ :
                     ⲁϥⲛⲓϥⲓ ⲛ̀ⲥⲁ ⲛⲓϣ̀ϣⲏⲛ : ϣⲁⲛ̀ⲧⲟⲩⲫⲓⲣⲓ ⲉ̀ⲃⲟⲗ.</td>
                 <td class="arabic">أخرج الرياح من خباياها. نفخ في الأشجار حتى ازهرت.</td>
@@ -823,23 +823,23 @@ return `
             </tr>
             <tr id="table_10_row_8" class="north">
                 <td class="english" >Through the prayers: of David the
-                    psalmist: O Lord, grant us: the forgiveness of our sins.</td>
+                    Psalmist: O Lord, grant us: the forgiveness of our sins.</td>
                 <td class="coptic" >Ϩⲓⲧⲉⲛ ⲛⲓⲉⲩⲭⲏ : ⲛ̀ⲧⲉ ⲡⲓⲓⲉⲣⲟⲯⲁⲗⲧⲏⲥ Ⲇⲁⲩⲓⲇ:
-                    Ⲡϭⲟⲓⲥ ⲁ̀ⲣⲓϩ̀ⲙⲟⲧ ⲛⲁⲛ : ⲙ̀ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲟⲃⲓ.</td>
+                    Ⲡϭⲟⲓⲥ ⲁ̀ⲣⲓϩ̀ⲙⲟⲧ ⲛⲁⲛ : ⲙ̀ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ.</td>
                 <td class="arabic">بصلوات المرتل داود يارب أنعم لنا بمغفرة خطايانا.</td>
             </tr>
             <tr id="table_10_row_9" class="south">
                 <td class="english" >Through the intercessions: of the Mother
                     of God Saint Mary: O Lord, grant us: the forgiveness of our sins.</td>
                 <td class="coptic" >Ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲉ ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ ⲉⲑⲟⲩⲁⲃ
-                    Ⲙⲁⲣⲓⲁ̀ : Ⲡϭⲟⲓⲥ ⲁ̀ⲣⲓϩ̀ⲙⲟⲧ ⲛⲁⲛ : ⲙ̀ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲟⲃⲓ.</td>
+                    Ⲙⲁⲣⲓⲁ̀ : Ⲡϭⲟⲓⲥ ⲁ̀ⲣⲓϩ̀ⲙⲟⲧ ⲛⲁⲛ : ⲙ̀ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ.</td>
                 <td class="arabic">بشفاعات والدة الاله القديسة مريم يارب انعم لنا بمغفرة خطايانا.</td>
             </tr>
             <tr id="table_10_row_10" class="north">
                 <td class="english" >Through the intercessions: of the whole
                     chorus of angels: O Lord, grant us: the forgiveness of our sins.</td>
                 <td class="coptic" >Ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲉ ⲡ̀ⲭⲟⲣⲟⲥ ⲧⲏⲣϥ ⲛ̀ⲧⲉ
-                    ⲛⲓⲁⲅⲅⲉⲗⲟⲥ : Ⲡϭⲟⲓⲥ ⲁ̀ⲣⲓϩ̀ⲙⲟⲧ ⲛⲁⲛ : ⲙ̀ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲟⲃⲓ.</td>
+                    ⲛⲓⲁⲅⲅⲉⲗⲟⲥ : Ⲡϭⲟⲓⲥ ⲁ̀ⲣⲓϩ̀ⲙⲟⲧ ⲛⲁⲛ : ⲙ̀ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ.</td>
                 <td class="arabic">بشفاعات كل صفوف الملائكة يارب انعم لنا بمغفرة خطايانا.</td>
             </tr>
             <tr id="table_10_row_11" class="south">
@@ -861,13 +861,13 @@ return `
         <tbody>
             <tr id="table_16_row_0" class="north">
                 <td class="english" >Blessed are You, O Lord, God of our
-                    fathers, And exceedingly to be blessed, and exalted above all forever.</td>
+                    fathers: And exceedingly to be blessed, and exalted above all forever.</td>
                 <td class="coptic" >Ⲕ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ Ⲡϭⲟⲓⲥ Ⲫⲛⲟⲩϯ ⲛ̀ⲧⲉ ⲛⲉⲛⲓⲟϯ :
                     ⲕ̀ⲉⲣϩⲟⲩⲟ̀ ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲕ̀ⲉⲣϩⲟⲩⲟ̀ ϭⲓⲥⲓ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">مبارك أنت أيها الرب إله أبائنا ومتزايد بركة ومتزايد علواً إلى الآباد.</td>
             </tr>
             <tr id="table_16_row_1" class="south">
-                <td class="english" >Blessed is the Holy Name of Your glory,
+                <td class="english" >Blessed is the Holy Name of Your glory:
                     And exceedingly to be blessed, and exalted above all forever.</td>
                 <td class="coptic" >Ϥ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲛ̀ϫⲉ ⲡⲓⲣⲁⲛ ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲉ ⲡⲉⲕⲱ̀ⲟⲩ
                     : ̀̀̀̀̀̀̀̀̀̀̀̀ϥ̀ⲉⲣϩⲟⲩⲟ̀ ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ϥ̀ⲉⲣϩⲟⲩⲟ̀ ϭⲓⲥⲓ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
@@ -875,26 +875,26 @@ return `
             </tr>
             <tr id="table_16_row_2" class="north">
                 <td class="english" >Blessed are You in the holy temple of
-                    Your glory, And exceedingly to be blessed, and exalted above all forever.</td>
+                    Your glory: And exceedingly to be blessed, and exalted above all forever.</td>
                 <td class="coptic" >˙Ⲕⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ϧⲉⲛ ⲡⲓⲉⲣⲫⲉⲓ ⲛ̀ⲧⲉ ⲡⲉⲕⲱ̀ⲟⲩ
                     ⲉⲑⲟⲩⲁⲃ : ⲕ̀ⲉⲣϩⲟⲩⲟ̀ ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲕ̀ⲉⲣϩⲟⲩⲟ̀ ϭⲓⲥⲓ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">مبارك أنت فى هيكل مجدك المقدس ومتزايد بركة ومتزايد علواً إلى الآباد.</td>
             </tr>
             <tr id="table_16_row_3" class="south">
-                <td class="english" >Blessed are You who beholds the depths and sits upon the Cherubim, And exceedingly to be blessed, and exalted above all forever.</td>
-                <td class="coptic" >Ⲕ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲫⲏⲉⲑⲛⲁⲩ ⲉ̀ⲛⲓⲛⲟⲩⲛ ⲉϥϩⲉⲙⲥⲓ ϩⲓϫⲉⲛ Ⲛⲓⲭⲉⲣⲟⲩⲃⲓⲙ : ⲕ̀ⲉⲣϩⲟⲩⲟ̀ ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲕ̀ⲉⲣϩⲟⲩⲟ̀ ϭⲓⲥⲓ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
+                <td class="english" >Blessed are You who beholds the depths and sits upon the cherubim: And exceedingly to be blessed, and exalted above all forever.</td>
+                <td class="coptic" >Ⲕ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲫⲏⲉⲑⲛⲁⲩ ⲉ̀ⲛⲓⲛⲟⲩⲛ ⲉϥϩⲉⲙⲥⲓ ϩⲓϫⲉⲛ ⲛⲓⲭⲉⲣⲟⲩⲃⲓⲙ: ⲕ̀ⲉⲣϩⲟⲩⲟ̀ ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲕ̀ⲉⲣϩⲟⲩⲟ̀ ϭⲓⲥⲓ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">مبارك أنت أيها الناظر إلى الأعماق الجالس على الشاروبيم ومتزايد بركة ومتزايد علواً إلى الآباد.</td>
             </tr>
             <tr id="table_16_row_4" class="north">
                 <td class="english" >Blessed are You on the throne of Your
-                    Kingdom, And exceedingly to be blessed, and exalted above all forever.</td>
+                    Kingdom: And exceedingly to be blessed, and exalted above all forever.</td>
                 <td class="coptic" >̀ Ⲕⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ϩⲓϫⲉⲛ ⲡⲓⲑ̀ⲣⲟⲛⲟⲥ ⲛ̀ⲧⲉ
                     ⲧⲉⲕⲙⲉⲧⲟⲩⲣⲟ : ⲕ̀ⲉⲣϩⲟⲩⲟ̀ ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲕ̀ⲉⲣϩⲟⲩⲟ̀ ϭⲓⲥⲓ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">مبارك أنت على عرش مُلكك ومتزايد بركة ومتزايد علواً إلى الآباد.</td>
             </tr>
             <tr id="table_16_row_5" class="south">
                 <td class="english" >Blessed are You in the firmament of
-                    heaven, And exceedingly to be blessed, and exalted above all forever.</td>
+                    heaven: And exceedingly to be blessed, and exalted above all forever.</td>
                 <td class="coptic" >̀ Ⲕⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ϧⲉⲛ ⲡⲓⲥ̀ⲧⲉⲣⲉⲱ̀ⲙⲁ ⲛ̀ⲧⲉ ⲧ̀ⲫⲉ :
                     ⲕ̀ⲉⲣϩⲟⲩⲟ̀ ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲕ̀ⲉⲣϩⲟⲩⲟ̀ ϭⲓⲥⲓ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">مبارك أنت فى فلك السماء ومتزايد بركة ومتزايد علواً إلى الآباد.</td>
@@ -916,154 +916,154 @@ return `
             <tr id="table_16_row_8" class="north">
                 <td class="english" >Bless the Lord, all you angels of the
                     Lord: Praise Him and exalt Him above all forever.</td>
-                <td class="coptic" >̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲛⲓⲁⲅⲅⲉⲗⲟⲥ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ Ⲡϭⲟⲓⲥ :
+                <td class="coptic" >̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲛⲓⲁⲅⲅⲉⲗⲟⲥ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ Ⲡϭⲟⲓⲥ :
                     ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">باركوا الرب يا جميع ملائكة الرب سبّحوه وزيدوه علواً إلى الآباد.</td>
             </tr>
             <tr id="table_16_row_9" class="south">
                 <td class="english" >Bless the Lord, all you waters above the
                     heaven: Praise Him and exalt Him above all forever.</td>
-                <td class="coptic" >̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲛⲓⲙⲱⲟⲩ ⲧⲏⲣⲟⲩ ⲉⲧⲥⲁ ⲡ̀ϣⲱⲓ
+                <td class="coptic" >̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲛⲓⲙⲱⲟⲩ ⲧⲏⲣⲟⲩ ⲉⲧⲥⲁ ⲡ̀ϣⲱⲓ
                     ⲛ̀ⲧ̀ⲫⲉ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">باركى الرب يا جميع المياه التي فوق السماء سبّحيه وزيديه علواً إلى الآباد.</td>
             </tr>
             <tr id="table_16_row_10" class="north">
                 <td class="english" >Bless the Lord, all you powers of the
                     Lord: Praise Him and exalt Him above all forever.</td>
-                <td class="coptic" >̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲛⲓϫⲟⲙ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ Ⲡϭⲟⲓⲥ : ϩⲱⲥ
+                <td class="coptic" >̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲛⲓϫⲟⲙ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ Ⲡϭⲟⲓⲥ : ϩⲱⲥ
                     ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">باركا الرب يا جميع قوات الرب سبّحيه وزيديه علواً إلى الآباد.</td>
             </tr>
             <tr id="table_16_row_11" class="south">
                 <td class="english" >Bless the Lord, O sun and moon: Praise
                     Him and exalt Him above all forever.</td>
-                <td class="coptic" >̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲡⲓⲣⲏ ⲛⲉⲙ ⲡⲓⲓⲟϩ : ϩⲱⲥ ⲉ̀ⲣⲟϥ
+                <td class="coptic" >̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲡⲓⲣⲏ ⲛⲉⲙ ⲡⲓⲓⲟϩ : ϩⲱⲥ ⲉ̀ⲣⲟϥ
                     ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">باركا الرب أيتها الشمس والقمر سبّحاه وزيداه علواً إلى الآباد.</td>
             </tr>
             <tr id="table_16_row_12" class="north">
-                <td class="english" >Bless the Lord, all ye stars of heaven:
+                <td class="english" >Bless the Lord, all you stars of heaven:
                     Praise Him and exalt Him above all forever.</td>
-                <td class="coptic" >̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲛⲓⲥⲓⲟⲩ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲧ̀ⲫⲉ : ϩⲱⲥ
+                <td class="coptic" >̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲛⲓⲥⲓⲟⲩ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲧ̀ⲫⲉ : ϩⲱⲥ
                     ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">باركي الرب ياسائر نجوم السماء سبّحيه وزيديه علواً إلى الآباد.</td>
             </tr>
             <tr id="table_16_row_13" class="south">
                 <td class="english" >Bless the Lord, O you rain and dew:
                     Praise Him and exalt Him above all forever.</td>
-                <td class="coptic" >̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲛⲓⲙⲟⲩⲛϩⲱⲟⲩ ⲛⲉⲙ ⲛⲓⲓⲱϯ: ϩⲱⲥ
+                <td class="coptic" >̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲛⲓⲙⲟⲩⲛϩⲱⲟⲩ ⲛⲉⲙ ⲛⲓⲓⲱϯ: ϩⲱⲥ
                     ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">باركى الرب أيتها الأمطار مع الأنداء سبّحيه وزيديه علواً إلى الآباد.</td>
             </tr>
             <tr id="table_16_row_14" class="north">
                 <td class="english" >Bless the Lord, O you clouds and winds:
                     Praise Him and exalt Him above all forever.</td>
-                <td class="coptic" >̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲛⲓϭⲏⲡⲓ ⲛⲉⲙ ⲛⲓⲑⲏⲟⲩ : ϩⲱⲥ ⲉ̀ⲣⲟϥ
+                <td class="coptic" >̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲛⲓϭⲏⲡⲓ ⲛⲉⲙ ⲛⲓⲑⲏⲟⲩ : ϩⲱⲥ ⲉ̀ⲣⲟϥ
                     ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">باركي الرب أيتها السحب والرياح سبّحيه وزيديه علواً إلى الآباد.</td>
             </tr>
             <tr id="table_16_row_15" class="south">
                 <td class="english" >Bless the Lord, all you spirits: Praise
                     Him and exalt Him above all forever.</td>
-                <td class="coptic" >̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲛⲓⲡ̀ⲛⲉⲩⲙⲁ ⲧⲏⲣⲟⲩ : ϩⲱⲥ ⲉ̀ⲣⲟϥ
+                <td class="coptic" >̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲛⲓⲡ̀ⲛⲉⲩⲙⲁ ⲧⲏⲣⲟⲩ : ϩⲱⲥ ⲉ̀ⲣⲟϥ
                     ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">باركي الرب ياجميع الأرواح سبحيه وزيديه علواً إلى الآباد.</td>
             </tr>
             <tr id="table_16_row_16" class="north">
                 <td class="english" >Bless the Lord, O fire and heat: Praise
                     Him and exalt Him above all forever.</td>
-                <td class="coptic" >̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲡⲓⲭ̀ⲣⲱⲙ ⲛⲉⲙ ⲡⲓⲕⲁⲩⲙⲁ : ϩⲱⲥ
+                <td class="coptic" >̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲡⲓⲭ̀ⲣⲱⲙ ⲛⲉⲙ ⲡⲓⲕⲁⲩⲙⲁ : ϩⲱⲥ
                     ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">باركا الرب أيتها النار والحرارة سبّحاه وزيداه علواً إلى الآباد.</td>
             </tr>
             <tr id="table_16_row_17" class="south">
                 <td class="english" >Bless the Lord, O cold and heat: Praise
                     Him and exalt Him above all forever.</td>
-                <td class="coptic" >̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲡⲓⲱ̀ϫⲉⲃ ⲛⲉⲙ ⲡⲓⲕⲁⲩⲥⲱⲛ : ϩⲱⲥ
+                <td class="coptic" >̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲡⲓⲱ̀ϫⲉⲃ ⲛⲉⲙ ⲡⲓⲕⲁⲩⲥⲱⲛ : ϩⲱⲥ
                     ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">باركا الرب أيها البرد والحر سبّحاه وزيداه علواً إلى الآباد.</td>
             </tr>
             <tr id="table_16_row_18" class="north">
                 <td class="english" >Bless the Lord, O you dew and winds:
                     Praise Him and exalt Him above all forever.</td>
-                <td class="coptic" >̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲛⲓⲓⲱϯ ⲛⲉⲙ ⲛⲓⲛⲓϥⲓ : ϩⲱⲥ ⲉ̀ⲣⲟϥ
+                <td class="coptic" >̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲛⲓⲓⲱϯ ⲛⲉⲙ ⲛⲓⲛⲓϥⲓ : ϩⲱⲥ ⲉ̀ⲣⲟϥ
                     ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">باركي الرب أيتها الأهوية والأنداء سبّحيه وزيديه علواً إلى الآباد.</td>
             </tr>
             <tr id="table_16_row_19" class="south">
                 <td class="english" >Bless the Lord, O you night and days:
                     Praise Him and exalt Him above all forever.</td>
-                <td class="coptic" >̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲛⲓⲉ̀ϫⲱⲣϩ ⲛⲉⲙ ⲛⲓⲉ̀ϩⲟⲟⲩ : ϩⲱⲥ
+                <td class="coptic" >̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲛⲓⲉ̀ϫⲱⲣϩ ⲛⲉⲙ ⲛⲓⲉ̀ϩⲟⲟⲩ : ϩⲱⲥ
                     ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">باركي الرب أيتها الليالى والأيام سبّحيه وزيديه علواً إلى الآباد.</td>
             </tr>
             <tr id="table_16_row_20" class="north">
                 <td class="english" >Bless the Lord, O light and darkness:
                     Praise Him and exalt Him above all forever.</td>
-                <td class="coptic" >̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲡⲓⲟⲩⲱⲓⲛⲓ ⲛⲉⲙ ⲡⲓⲭⲁⲕⲓ : ϩⲱⲥ
+                <td class="coptic" >̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲡⲓⲟⲩⲱⲓⲛⲓ ⲛⲉⲙ ⲡⲓⲭⲁⲕⲓ : ϩⲱⲥ
                     ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">باركا الرب أيها النور والظلمة سبّحاه وزيداه علواً إلى الآباد.</td>
             </tr>
             <tr id="table_16_row_21" class="south">
                 <td class="english" >Bless the Lord, O frost and cold: Praise
                     Him and exalt Him above all forever.</td>
-                <td class="coptic" >̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲡⲓϫⲁϥ ⲛⲉⲙ ⲡⲓⲱ̀ϫⲉⲃ : ϩⲱⲥ ⲉ̀ⲣⲟϥ
+                <td class="coptic" >̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲡⲓϫⲁϥ ⲛⲉⲙ ⲡⲓⲱ̀ϫⲉⲃ : ϩⲱⲥ ⲉ̀ⲣⲟϥ
                     ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">باركا الرب أيها البرد والصقيع سبّحاه وزيداه علواً إلى الآباد</td>
             </tr>
             <tr id="table_16_row_22" class="north">
                 <td class="english" >Bless the Lord, O snow and ice: Praise
                     Him and exalt Him above all forever.</td>
-                <td class="coptic" >̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ϯⲡⲁⲭⲛⲏ ⲛⲉⲙ ⲡⲓⲭⲓⲱⲛ : ϩⲱⲥ ⲉ̀ⲣⲟϥ
+                <td class="coptic" >̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ϯⲡⲁⲭⲛⲏ ⲛⲉⲙ ⲡⲓⲭⲓⲱⲛ : ϩⲱⲥ ⲉ̀ⲣⲟϥ
                     ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">باركا الرب أيها الجليد والثلج سبّحاه وزيداه علواً إلى الآباد.</td>
             </tr>
             <tr id="table_16_row_23" class="south">
                 <td class="english" >Bless the Lord, O you lightnings and
                     clouds: Praise Him and exalt Him above all forever.</td>
-                <td class="coptic" >̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲛⲓⲥⲉⲧⲉⲃⲣⲏϫ ⲛⲉⲙ ⲛⲓϭⲏⲡⲓ: ϩⲱⲥ
+                <td class="coptic" >̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲛⲓⲥⲉⲧⲉⲃⲣⲏϫ ⲛⲉⲙ ⲛⲓϭⲏⲡⲓ: ϩⲱⲥ
                     ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">باركي الرب أيتها البروق والسحب سبّحيه وزيديه علواً إلى الآباد.</td>
             </tr>
             <tr id="table_16_row_24" class="north">
                 <td class="english" >Bless the Lord, all the earth: Praise Him
                     and exalt Him above all forever.</td>
-                <td class="coptic" >̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲡⲓⲕⲁϩⲓ ⲧⲏⲣϥ : ϩⲱⲥ ⲉ̀ⲣⲟϥ
+                <td class="coptic" >̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲡⲓⲕⲁϩⲓ ⲧⲏⲣϥ : ϩⲱⲥ ⲉ̀ⲣⲟϥ
                     ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">باركي الرب أيتها الأرض كلها سبّحيه وزيديه علواً إلى الآباد.</td>
             </tr>
             <tr id="table_16_row_25" class="south">
                 <td class="english" >Bless the Lord, O you mountains and all
                     hills: Praise Him and exalt Him above all forever.</td>
-                <td class="coptic" >̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲛⲓⲧⲱⲟⲩ ⲛⲉⲙ ⲛⲓⲕⲁⲗⲁⲙⲫⲱⲟⲩ ⲧⲏⲣⲟⲩ
+                <td class="coptic" >̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲛⲓⲧⲱⲟⲩ ⲛⲉⲙ ⲛⲓⲕⲁⲗⲁⲙⲫⲱⲟⲩ ⲧⲏⲣⲟⲩ
                     : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">باركي الرب أيتها الجبال وجميع الآكام سبّحيه وزيديه علواً إلى الآباد.</td>
             </tr>
             <tr id="table_16_row_26" class="north">
                 <td class="english" >Bless the Lord, all you things that
                     spring upon the earth: Praise Him and exalt Him above all forever.</td>
-                <td class="coptic" >̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲛⲓⲧⲏⲣⲟⲩ ⲉⲧⲣⲏⲧ ϩⲓϫⲉⲛ ⲡ̀ϩⲟ
+                <td class="coptic" >̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲛⲓⲧⲏⲣⲟⲩ ⲉⲧⲣⲏⲧ ϩⲓϫⲉⲛ ⲡ̀ϩⲟ
                     ⲙ̀ⲡ̀ⲕⲁϩⲓ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">بارك الرب يا جميع ما ينبت على وجه الأرض سبّحه وزيده علواً إلى الآباد.</td>
             </tr>
             <tr id="table_16_row_27" class="south">
                 <td class="english" >Bless the Lord, O you fountains: Praise
                     Him and exalt Him above all forever.</td>
-                <td class="coptic" >̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲛⲓⲙⲟⲩⲙⲓ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀
+                <td class="coptic" >̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲛⲓⲙⲟⲩⲙⲓ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀
                     ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">باركي الرب أيتها الينابيع سبّحيه وزيديه علواً إلى الآباد.</td>
             </tr>
             <tr id="table_16_row_28" class="north">
                 <td class="english" >Bless the Lord, O you seas and rivers:
                     Praise Him and exalt Him above all forever.</td>
-                <td class="coptic" >̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲛⲓⲁ̀ⲙⲁⲓⲟⲩ ⲛⲉⲙ ⲛⲓⲓⲁⲣⲱⲟⲩ: ϩⲱⲥ
+                <td class="coptic" >̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲛⲓⲁ̀ⲙⲁⲓⲟⲩ ⲛⲉⲙ ⲛⲓⲓⲁⲣⲱⲟⲩ: ϩⲱⲥ
                     ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">باركي الرب أيتها البحار والأنهار سبّحيه وزيديه علواً إلى الآباد.</td>
             </tr>
             <tr id="table_16_row_29" class="south">
                 <td class="english" >Bless the Lord, O you whales and all that
                     moves in the waters: Praise Him and exalt Him above all forever.</td>
-                <td class="coptic" >̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲛⲓⲕⲏⲧⲟⲥ ⲛⲉⲙ ⲉⲛⲭⲁⲓ ⲛⲓⲃⲉⲛ ⲉⲧⲕⲓⲙ
+                <td class="coptic" >̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲛⲓⲕⲏⲧⲟⲥ ⲛⲉⲙ ⲉⲛⲭⲁⲓ ⲛⲓⲃⲉⲛ ⲉⲧⲕⲓⲙ
                     ϧⲉⲛ ⲛⲓⲙⲱⲟⲩ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">باركي الرب أيتها الحيتان وجميع ما يتحرك في المياه سبّحيه وزيديه علواً إلى الآباد.
                 </td>
@@ -1071,70 +1071,70 @@ return `
             <tr id="table_16_row_30" class="north">
                 <td class="english" >Bless the Lord, all you birds of the sky:
                     Praise Him and exalt Him above all forever.</td>
-                <td class="coptic" >̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲛⲓϩⲁⲗⲁϯ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲧ̀ⲫⲉ : ϩⲱⲥ
+                <td class="coptic" >̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲛⲓϩⲁⲗⲁϯ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲧ̀ⲫⲉ : ϩⲱⲥ
                     ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">باركي الرب يا جميع طيور السماء سبّحيه وزيديه علواً إلى الآباد.</td>
             </tr>
             <tr id="table_16_row_31" class="south">
                 <td class="english" >Bless the Lord, all you wild beasts and
                     cattle: Praise Him and exalt Him above all forever.</td>
-                <td class="coptic" >̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲛⲓⲑⲏⲣⲓⲟⲛ ⲛⲉⲙ ⲛⲓⲧⲉⲃⲛⲱⲟⲩⲓ̀
+                <td class="coptic" >̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲛⲓⲑⲏⲣⲓⲟⲛ ⲛⲉⲙ ⲛⲓⲧⲉⲃⲛⲱⲟⲩⲓ̀
                     ⲧⲏⲣⲟⲩ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">باركي الرب أيتها الوحوش وكل البهائم سبّحيه وزيديه علواً إلى الآباد.</td>
             </tr>
             <tr id="table_16_row_32" class="north">
-                <td class="english" >Bless the Lord, O you sons of men;
+                <td class="english" >Bless the Lord, O you sons of men
                     worship the Lord: Praise Him and exalt Him above all forever.</td>
-                <td class="coptic" >Ⲥ̀ⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲛⲓϣⲏⲣⲓ ⲛ̀ⲧⲉ ⲛⲓⲣⲱⲙⲓ ⲟⲩⲱϣⲧ
+                <td class="coptic" >Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲛⲓϣⲏⲣⲓ ⲛ̀ⲧⲉ ⲛⲓⲣⲱⲙⲓ ⲟⲩⲱϣⲧ
                     ⲙ̀Ⲡϭⲟⲓⲥ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">باركوا الرب يا بنى البشر واسجدوا للرب سبّحوه وزيدوه علواً إلى الآباد.</td>
             </tr>
             <tr id="table_16_row_33" class="south">
                 <td class="english" >Bless the Lord, O Israel: Praise Him and
                     exalt Him above all forever.</td>
-                <td class="coptic" >̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ Ⲡⲓⲥ̀ⲣⲁⲏⲗ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀
+                <td class="coptic" >̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ Ⲡⲓⲥ̀ⲣⲁⲏⲗ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀
                     ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">بارك الرب يا اسرائيل سبّحه وزيده علواً إلى الآباد.</td>
             </tr>
             <tr id="table_16_row_34" class="north">
                 <td class="english" >Bless the Lord, O you priests of the
                     Lord: Praise Him and exalt Him above all forever.</td>
-                <td class="coptic" >̀̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲛⲓⲟⲩⲏⲃ ⲛ̀ⲧⲉ Ⲡϭⲟⲓⲥ : ϩⲱⲥ
+                <td class="coptic" >̀̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲛⲓⲟⲩⲏⲃ ⲛ̀ⲧⲉ Ⲡϭⲟⲓⲥ : ϩⲱⲥ
                     ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">باركوا الرب يا كهنة الرب سبّحوه وزيدوه علواً إلى الآباد.</td>
             </tr>
             <tr id="table_16_row_35" class="south">
                 <td class="english" >Bless the Lord, O you servants of the
                     Lord: Praise Him and exalt Him above all forever.</td>
-                <td class="coptic" >̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲛⲓⲉ̀ⲃⲓⲁⲓⲕ ⲛ̀ⲧⲉ Ⲡϭⲟⲓⲥ : ϩⲱⲥ
+                <td class="coptic" >̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲛⲓⲉ̀ⲃⲓⲁⲓⲕ ⲛ̀ⲧⲉ Ⲡϭⲟⲓⲥ : ϩⲱⲥ
                     ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">باركوا الرب يا عبيد الرب سبّحوه وزيدوه علواً إلى الآباد.</td>
             </tr>
             <tr id="table_16_row_36" class="north">
                 <td class="english" >Bless the Lord, O you spirits and souls
                     of the just: Praise Him and exalt Him above all forever.</td>
-                <td class="coptic" >̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲛⲓⲡ̀ⲛⲉⲩⲙⲁ ⲛⲉⲙ ⲛⲓⲯⲩⲭⲏ ⲛ̀ⲧⲉ
+                <td class="coptic" >̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲛⲓⲡ̀ⲛⲉⲩⲙⲁ ⲛⲉⲙ ⲛⲓⲯⲩⲭⲏ ⲛ̀ⲧⲉ
                     ⲛⲓⲑ̀ⲙⲏⲓ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">باركوا الرب ياارواح وانفس الصديقين سبّحوه وزيدوه علواً إلى الآباد.</td>
             </tr>
             <tr id="table_16_row_37" class="south">
                 <td class="english" >Bless the Lord, O you holy and humble of
                     heart: Praise Him and exalt Him above all forever.</td>
-                <td class="coptic" >̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲛⲏⲉⲑⲟⲩⲁⲃ ⲛⲉⲙ ⲛⲏⲉⲧⲑⲉⲃⲓⲏ̀ⲟⲩⲧ
+                <td class="coptic" >̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲛⲏⲉⲑⲟⲩⲁⲃ ⲛⲉⲙ ⲛⲏⲉⲧⲑⲉⲃⲓⲏ̀ⲟⲩⲧ
                     ϧⲉⲛ ⲡⲟⲩϩⲏⲧ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">باركوا الرب أيها القديسون والمتواضعو القلوب سبّحوه وزيدوه علواً إلى الآباد.</td>
             </tr>
             <tr id="table_16_row_38" class="north">
-                <td class="english" >Bless the Lord, O Hananiah, Azariah,
+                <td class="english" >Bless the Lord, O Hananiah, Azariah, and
                     Mishael: Praise Him and exalt Him above all forever.</td>
-                <td class="coptic" >̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ̀ Ⲁⲛⲁⲛⲓⲁⲥ ̀Ⲁ̀ⲍⲁⲣⲓⲁⲥ Ⲙⲓⲥⲁⲏⲗ :
+                <td class="coptic" >̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ̀ Ⲁⲛⲁⲛⲓⲁⲥ ̀Ⲁ̀ⲍⲁⲣⲓⲁⲥ Ⲙⲓⲥⲁⲏⲗ :
                     ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">باركوا الرب ياحنانيا وعزاريا وميصائيل سبّحوه وزيدوه علواً إلى الآباد.</td>
             </tr>
             <tr id="table_16_row_39" class="south">
                 <td class="english" >Bless the Lord, O you who worship the
-                    Lord, the God of our fathers: Praise ye Him and exalt Him above all forever. ${cross}</td>
-                <td class="coptic" >̀ Ⲥⲙⲟⲩ Ⲡϭⲟⲓⲥ ⲛⲏⲉⲧⲉⲣⲥⲉⲃⲉⲥⲑⲉ ⲙ̀Ⲡϭⲟⲓⲥ Ⲫϯ ⲛ̀ⲧⲉ
+                    Lord, the God of our fathers: Praise Him and exalt Him above all forever. ${cross}</td>
+                <td class="coptic" >̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲛⲏⲉⲧⲉⲣⲥⲉⲃⲉⲥⲑⲉ ⲙ̀Ⲡϭⲟⲓⲥ Ⲫϯ ⲛ̀ⲧⲉ
                     ⲛⲉⲛⲓⲟϯ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ. ${cross}</td>
                 <td class="arabic">باركوا الرب ياعابدي الرب اله آبائنا سبّحوه وزيدوه علواً إلى الآباد. ${cross}</td>
             </tr>
@@ -1152,14 +1152,14 @@ return `
                     buried, and resurrected for us, and trampled and abolished death. Praise Him and exalt Him above
                     all.</td>
                 <td class="coptic" >Ⲁⲣⲓⲯⲁⲗⲓⲛ ⲉ̀ⲫⲏⲉ̀ⲧⲁⲩⲁϣϥ : ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ ⲟⲩⲟϩ
-                    ⲁⲩⲕⲟⲥϥ: ⲁϥⲧⲱⲛϥ ⲁϥⲕⲱⲣϥ ⲙ̀ⲫ̀ⲙⲟⲩ ⲁϥϯ ϣⲟϣϥ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
+                    ⲁⲩⲕⲟⲥϥ: ⲁϥⲧⲱⲛϥ ⲁϥⲕⲱⲣϥ ⲙ̀ⲫ̀ⲙⲟⲩ ⲁϥϯ ϣⲟϣϥ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
                 <td class="arabic">رتلوا للذي صلب عنا وقبر وقام وأبطل الموت وأهانه سبّحوه وزيدوه علواً.</td>
             </tr>
             <tr id="table_17_row_1" class="north">
                 <td class="english" >Take off the old man, and put on the new
                     and superior one, come closer to greatness of mercy, Praise Him and exalt Him above all.</td>
                 <td class="coptic" >Ⲃⲱϣ ⲙ̀ⲡⲓⲣⲱⲙⲓ ⲙ̀ⲡⲁⲗⲉⲟⲥ: ⲟⲩⲟϩ ϫⲱⲗϩ ⲙ̀ⲡⲓⲃⲉⲣⲓ
-                    ⲉⲩⲕ̀ⲗⲉⲟⲥ: ⲟⲩⲟϩ ⲉ̀ϧⲱⲛⲧ ⲉ̀ⲙⲉⲅⲁⲉ̀ⲗⲉⲟⲥ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
+                    ⲉⲩⲕ̀ⲗⲉⲟⲥ: ⲟⲩⲟϩ ⲉ̀ϧⲱⲛⲧ ⲉ̀ⲙⲉⲅⲁⲉ̀ⲗⲉⲟⲥ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
                 <td class="arabic">اخلعوا الإنسان العتيق والبسوا الجديد الفاخر. واقتربوا إلى عظم الرحمة سبّحوه
                     وزيدوه علواً.</td>
             </tr>
@@ -1167,7 +1167,7 @@ return `
                 <td class="english" >All you Christian people, the priests and
                     the deacons, glorify the Lord for He is worthy, Praise Him and exalt Him above all.</td>
                 <td class="coptic" >Ⲅⲉⲛⲟⲥ ⲛ̀ⲛⲓⲭ̀ⲣⲓⲥⲧⲓ̀ⲁⲛⲟⲥ: ⲛⲓⲡ̀ⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ ⲕⲉ
-                    ⲇⲓⲁ̀ⲕⲟⲛⲟⲥ: ⲙⲁⲱ̀ⲟⲩ ⲙ̀Ⲡϭⲟⲓⲥ ϫⲉ ⲟⲩϩⲓⲕⲁⲛⲟⲥ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
+                    ⲇⲓⲁ̀ⲕⲟⲛⲟⲥ: ⲙⲁⲱ̀ⲟⲩ ⲙ̀Ⲡϭⲟⲓⲥ ϫⲉ ⲟⲩϩⲓⲕⲁⲛⲟⲥ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
                 <td class="arabic">ياجنس المسيحين القسوس والشمامسة أعطوا مجداً للرب لانه مستوجب سبّحوه وزيدوه
                     علواً.</td>
             </tr>
@@ -1175,22 +1175,22 @@ return `
                 <td class="english" >Come to us O three children, whom Christ
                     our God has lifted, and from the devil has delivered, Praise Him and exalt Him above all.</td>
                 <td class="coptic" >Ⲇⲉⲩⲧⲉ ϩⲁⲣⲟⲛ ⲱ̀ ⲡⲓϣⲟⲙⲧ ⲛ̀ⲁ̀ⲗⲟⲩ : ⲉ̀ⲧⲁ
-                    Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲡⲉⲛⲛⲟⲩϯ ⲟ̀ⲗⲟⲩ : ⲁϥⲛⲁϩⲙⲟⲩ ⲉ̀ⲃⲟⲗϩⲁ ⲡⲓⲇⲓⲁ̀ⲃⲟⲗⲟⲩ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
+                    Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲡⲉⲛⲛⲟⲩϯ ⲟ̀ⲗⲟⲩ : ⲁϥⲛⲁϩⲙⲟⲩ ⲉ̀ⲃⲟⲗϩⲁ ⲡⲓⲇⲓⲁ̀ⲃⲟⲗⲟⲩ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
                 <td class="arabic">هلمّ إلينا أيها الثلاثة فتية الذين رفعهم المسيح إلهنا وأنقذهم من ابليس. سبّحوه
                     وزيدوه علواً.</td>
             </tr>
             <tr id="table_17_row_4" class="north">
                 <td class="english" >For the sake of your God the Messiah, the
                     giver of all good things, come unto us O Hananiah, Praise Him and exalt Him above all.</td>
-                <td class="coptic" >Ⲉⲑⲃⲉ Ⲡⲉⲕⲛⲟⲩϯ Ⲙⲁⲥⲓⲁⲥ ⲫ̀ⲣⲉϥϯ ⲛ̀ⲉⲩⲉⲣⲅⲉⲥⲓⲁⲥ:
-                    ⲁ̀ⲙⲟⲩ ϣⲁⲣⲟⲛ Ⲁⲛⲁⲛⲓⲁⲥ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
+                <td class="coptic" >Ⲉⲑⲃⲉ Ⲡⲉⲕⲛⲟⲩϯ Ⲙⲁⲥⲓⲁⲥ: ⲫ̀ⲣⲉϥϯ ⲛ̀ⲉⲩⲉⲣⲅⲉⲥⲓⲁⲥ:
+                    ⲁ̀ⲙⲟⲩ ϣⲁⲣⲟⲛ Ⲁⲛⲁⲛⲓⲁⲥ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
                 <td class="arabic">من أجل الهك ماسيا المانح الإحسان هلمّ إلينا ياحنانيا سبّحوه وزيدوه علوا.</td>
             </tr>
             <tr id="table_17_row_5" class="north">
-                <td class="english" >O Azariah the zealot, evening, and
-                    morning and at noon glorify the power of the Trinity, Praise Him and exalt Him above all.</td>
-                <td class="coptic" >Ⲍⲏⲗⲱⲧⲉ Ⲁⲍⲁⲣⲓⲁⲥ ⲉⲥⲡⲉⲣⲁⲥ ⲕⲉ ⲡ̀ⲣⲱⲓ̀ ⲕⲉ
-                    ⲙⲉⲥⲏⲙⲃ̀ⲣⲓⲁⲥ: ⲙⲁⲱ̀ⲟⲩ ⲛ̀ⲧ̀ϫⲟⲙ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
+                <td class="english" >O Azariah the zealot, evening and
+                    morning and at noon, glorify the power of the Trinity, Praise Him and exalt Him above all.</td>
+                <td class="coptic" >Ⲍⲏⲗⲱⲧⲉ Ⲁⲍⲁⲣⲓⲁⲥ: ⲉⲥⲡⲉⲣⲁⲥ ⲕⲉ ⲡ̀ⲣⲱⲓ̀ ⲕⲉ
+                    ⲙⲉⲥⲏⲙⲃ̀ⲣⲓⲁⲥ: ⲙⲁⲱ̀ⲟⲩ ⲛ̀ⲧ̀ϫⲟⲙ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
                 <td class="arabic">يا عزاريا الغيور عشية وبكرة والظهيرة أعط مجداً لقوة الثالوث. سبّحه وزده علواً.
                 </td>
             </tr>
@@ -1198,14 +1198,14 @@ return `
                 <td class="english" >Behold Emmanuel, is now in our midst O
                     Mishael, proclaim with the voice of joy, Praise Him and exalt Him above all.</td>
                 <td class="coptic" >Ⲏⲡⲡⲉ ⲅⲁⲣ ⲓⲥ Ⲉⲙⲙⲁⲛⲟⲩⲏⲗ: ϩⲓⲧⲉⲛ ⲙⲏϯ ⲱ̀
-                    Ⲙⲓⲥⲁⲏⲗ: ⲗⲁⲗⲓ ϧⲉⲛ ⲟⲩⲥ̀ⲙⲏ ⲛ̀ⲑⲉⲗⲏⲗ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
+                    Ⲙⲓⲥⲁⲏⲗ: ⲗⲁⲗⲓ ϧⲉⲛ ⲟⲩⲥ̀ⲙⲏ ⲛ̀ⲑⲉⲗⲏⲗ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
                 <td class="arabic">فها هوذا عمانوئيل فى وسطنا يا ميصائيل تكلم بصوت التهليل. سبّحه وزده علواً.</td>
             </tr>
             <tr id="table_17_row_7" class="south">
                 <td class="english" >Gather now and persevere, and proclaim
                     with the priests, bless the Lord all His works, Praise Him and exalt Him above all.</td>
                 <td class="coptic" >Ⲑⲱⲟⲩϯ ϯⲛⲟⲩ ⲕⲁⲧⲁⲭⲓⲛ ⲧⲏⲣⲟⲩ: ⲥⲁϫⲓ ⲛⲉⲙ
-                    ⲛⲓⲡ̀ⲣⲉⲥⲃⲩⲧⲏⲣⲟⲩ: ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲛⲉϥϩ̀ⲃⲏⲟⲩⲓ̀ ⲧⲏⲣⲟⲩ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
+                    ⲛⲓⲡ̀ⲣⲉⲥⲃⲩⲧⲏⲣⲟⲩ: ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲛⲉϥϩ̀ⲃⲏⲟⲩⲓ̀ ⲧⲏⲣⲟⲩ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
                 <td class="arabic">اجتمعوا وثابروا جميعاً. تكلموا مع القسوس وسبّحى الرب ياجميع أعماله سبّحوه وزيدوه
                     علواً.</td>
             </tr>
@@ -1213,7 +1213,7 @@ return `
                 <td class="english" >The heavens declare the glory, of God
                     until this day, O you angels whom He has made, Praise Him and exalt Him above all.</td>
                 <td class="coptic" >Ⲓⲥ ⲛⲓⲫⲏⲟⲩⲓ̀ ⲥⲉⲥⲁϫⲓ ⲙ̀ⲡ̀ⲱ̀ⲟⲩ: ⲙ̀Ⲫⲛⲟⲩϯ ϣⲁ
-                    ⲉ̀ϧⲟⲩⲛ ⲙ̀ⲫⲟⲟⲩ: ⲱ̀ ⲛⲓⲁⲅⲅⲉⲗⲟⲥ ⲉ̀ⲧⲁϥϫ̀ⲫⲱⲟⲩ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
+                    ⲉ̀ϧⲟⲩⲛ ⲙ̀ⲫⲟⲟⲩ: ⲱ̀ ⲛⲓⲁⲅⲅⲉⲗⲟⲥ ⲉ̀ⲧⲁϥϫ̀ⲫⲱⲟⲩ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
                 <td class="arabic">ها السموات تنطق بمجد الله الى هذا اليوم. يا أيها الملائكة الذين أنشأهم سبحوه
                     وزيدوه علواً</td>
             </tr>
@@ -1221,7 +1221,7 @@ return `
                 <td class="english" >Now all you powers of the Lord, bless His
                     honored name, O sun and moon and all the stars, Praise Him and exalt Him above all.</td>
                 <td class="coptic" >Ⲕⲉ ⲛⲩⲛ ⲇⲩⲛⲁⲙⲓⲥ ⲧⲟⲩ ⲕⲩⲣⲓⲟⲩ: ⲥ̀ⲙⲟⲩ ⲉ̀ⲡⲉϥⲣⲁⲛ
-                    ⲧⲟⲩ ⲧⲓⲙⲓⲟⲩ: ⲡⲓⲣⲏ ⲛⲉⲙ ⲡⲓⲓⲟϩ ⲛⲉⲙ ⲛⲓⲥⲓⲟⲩ: ϩⲱⲥ ̀ ⲉⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
+                    ⲧⲟⲩ ⲧⲓⲙⲓⲟⲩ: ⲡⲓⲣⲏ ⲛⲉⲙ ⲡⲓⲓⲟϩ ⲛⲉⲙ ⲛⲓⲥⲓⲟⲩ: ϩⲱⲥ ̀ ⲉⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
                 <td class="arabic">والآن ياقوات الرب باركوا أسمه الكريم. أيتها الشمس والقمر والنجوم. سبّحيه وزيديه
                     علواً.</td>
             </tr>
@@ -1229,7 +1229,7 @@ return `
                 <td class="english" >And also O you rain and dew, sing praises
                     unto our Savior, for He is God of our fathers, Praise Him and exalt Him above all.</td>
                 <td class="coptic" >Ⲗⲟⲓⲡⲟⲛ ⲛⲓⲙⲟⲩⲛ̀ϩⲱⲟⲩ ⲛⲉⲙ ⲛⲓⲓⲱϯ: ⲉⲩⲫⲏⲙⲓⲥⲁⲧⲉ
-                    ⲡⲉⲛⲣⲉϥⲥⲱϯ: ϫⲉ ⲛ̀ⲑⲟϥ ⲡⲉ Ⲫⲛⲟⲩϯ ⲛ̀ⲧⲉ ⲛⲉⲛⲓⲟϯ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
+                    ⲡⲉⲛⲣⲉϥⲥⲱϯ: ϫⲉ ⲛ̀ⲑⲟϥ ⲡⲉ Ⲫⲛⲟⲩϯ ⲛ̀ⲧⲉ ⲛⲉⲛⲓⲟϯ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
                 <td class="arabic">وأيضا ايتها الأمطار والأنداء امدحى مخلصنا لأنه هو اله آبائنا. سبحيه وزيديه علواً.
                 </td>
             </tr>
@@ -1238,7 +1238,7 @@ return `
                     together with the souls and the spirits, O you cold and fire and heat, Praise Him and exalt Him
                     above all.</td>
                 <td class="coptic" >Ⲙⲁⲱ̀ⲟⲩ ⲙ̀Ⲡϭⲟⲓⲥ ⲱ̀ ⲛⲓϭⲏⲡⲓ ⲉⲩⲙⲁ: ⲛⲓⲑⲏⲟⲩ ⲛⲉⲙ
-                    ⲛⲓⲛⲓϥⲓ ⲛⲉⲙ ⲛⲓⲡ̀ⲛⲉⲩⲙⲁ: ⲡⲓϫⲁϥ ⲛⲉⲙ ⲡⲓⲭ̀ⲣⲱⲙ ⲛⲉⲙ ⲡⲓⲕⲁⲩⲙⲁ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
+                    ⲛⲓⲛⲓϥⲓ ⲛⲉⲙ ⲛⲓⲡ̀ⲛⲉⲩⲙⲁ: ⲡⲓϫⲁϥ ⲛⲉⲙ ⲡⲓⲭ̀ⲣⲱⲙ ⲛⲉⲙ ⲡⲓⲕⲁⲩⲙⲁ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
                 <td class="arabic">أعطى مجداً أيتها السحب معاً والأهوية والنفوس والأرواح والبرد والنار والحرارة.
                     سبّحيه وزيده علوا.</td>
             </tr>
@@ -1246,7 +1246,7 @@ return `
                 <td class="english" >You also nights and days, light and
                     darkness and lightning, glorify the Lover of Mankind, Praise Him and exalt Him above all.</td>
                 <td class="coptic" >Ⲛⲩⲕⲧⲉⲥ ⲕⲉ ⲏ̀ⲙⲉⲣⲉ ⲣⲱ ⲡⲉ: ⲫⲱⲥⲕⲉ ⲥ̀ⲕⲟⲧⲟⲥ ⲕⲉ
-                    ⲁⲥⲧ̀ⲣⲁⲡⲉ: ϫⲉ ⲇⲟⲝⲁⲥⲓ ⲫⲓⲗⲁⲛⲑ̀ⲣⲱⲡⲉ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
+                    ⲁⲥⲧ̀ⲣⲁⲡⲉ: ϫⲉ ⲇⲟⲝⲁ ⲥⲓ ⲫⲓⲗⲁⲛⲑ̀ⲣⲱⲡⲉ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
                 <td class="arabic">ايتها الليالى والأيام أيضاً والنور والظلمة والبروق قائلة المجد لك يا محب البشر.
                     سبّحوه وزيدوه علواً.</td>
             </tr>
@@ -1255,7 +1255,7 @@ return `
                     earth, and all that moves in the waters, mountains and the forests, Praise Him and exalt Him
                     above all.</td>
                 <td class="coptic" >Ⲝⲩⲗⲁ ⲕⲉ ⲡⲁⲛⲧⲁ ⲧⲁ ⲫⲩⲟⲙⲉⲛⲁ: ⲉⲛ ⲧⲏ ⲅⲉ ⲕⲉ
-                    ⲡⲁⲛⲧⲁ ⲧⲁⲕⲓⲛⲟⲩⲙⲉⲛⲁ: ϩⲓ ⲛⲓⲙⲱⲟⲩ ⲛⲉⲙ ⲛⲓⲧⲱⲟⲩ ⲛⲉⲙ ⲇ̀ⲣⲩⲙⲟⲛⲁ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
+                    ⲡⲁⲛⲧⲁ ⲧⲁⲕⲓⲛⲟⲩⲙⲉⲛⲁ: ϩⲓ ⲛⲓⲙⲱⲟⲩ ⲛⲉⲙ ⲛⲓⲧⲱⲟⲩ ⲛⲉⲙ ⲛⲓⲇ̀ⲣⲩⲙⲟⲛⲁ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
                 <td class="arabic">أيتها الاشجار وجميع ما ينبت فى الأرض وكل ما يتحرك في المياه والجبال والغياض
                     سبّحوه وزيدوه علواً.</td>
             </tr>
@@ -1263,7 +1263,7 @@ return `
                 <td class="english" >Praise without ceasing, the Lord the King
                     of the Kings, O you rivers and seas, Praise Him and exalt Him above all.</td>
                 <td class="coptic" >Ⲟⲩⲟϩ ⲟⲛ ⲥ̀ⲙⲟⲩ ⲛ̀ⲁⲧⲭⲁⲣⲱⲟⲩ: ⲉ̀Ⲡϭⲟⲓⲥ ⲡ̀ⲟⲩⲣⲟ
-                    ⲛ̀ⲧⲉ ⲛⲓⲟⲩⲣⲱⲟⲩ: ⲛⲓⲁ̀ⲙⲁⲓⲟⲩ ⲛⲉⲙ ⲛⲓⲓⲁⲣⲱⲟⲩ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
+                    ⲛ̀ⲧⲉ ⲛⲓⲟⲩⲣⲱⲟⲩ: ⲛⲓⲁ̀ⲙⲁⲓⲟⲩ ⲛⲉⲙ ⲛⲓⲓⲁⲣⲱⲟⲩ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
                 <td class="arabic">وأيضاً سبّحى بغير فتور الرب ملك الملوك أيتها البحار والأنهار. سبّحيه وزيديه
                     علواً.</td>
             </tr>
@@ -1271,45 +1271,45 @@ return `
                 <td class="english" >And we also seeing them, let us say with
                     all these things, bless the Lord all you birds, Praise Him and exalt Him above all.</td>
                 <td class="coptic" >Ⲡⲁⲓⲣⲏϯ ⲁⲛⲟⲛ ⲧⲉⲛⲛⲁⲩ ⲉ̀ⲣⲱⲟⲩ: ⲙⲁⲣⲉⲛϫⲟⲥ ⲛⲉⲙ
-                    ⲛⲁⲓ ⲟⲛ ⲧⲏⲣⲟⲩ: ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲛⲓϩⲁⲗⲁϯ ⲧⲏⲣⲟⲩ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
+                    ⲛⲁⲓⲱⲛ ⲧⲏⲣⲟⲩ: ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲛⲓϩⲁⲗⲁϯ ⲧⲏⲣⲟⲩ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
                 <td class="arabic">هكذا نحن إذ ننظر اليهم فلنقل مع هذه الموجودات جميعها باركي الرب يا جميع الطيور
                     سبّحيه وزيديه علواً.</td>
             </tr>
             <tr id="table_17_row_16" class="north">
                 <td class="english" >O snow and ice, cattle and wild beasts,
-                    bless the Lord of Lords, Praise Him and exalt Him above all.</td>
+                    bless the Lord of lords, Praise Him and exalt Him above all.</td>
                 <td class="coptic" >Ⲣⲱ ⲛ̀ⲛⲓⲡⲁⲭⲛⲏ ⲛⲉⲙ ⲛⲓⲭⲓⲱⲛ: ⲕⲉ ⲕ̀ⲧⲏⲛⲱⲛ ⲛⲉⲙ
-                    ⲛⲓⲑⲏⲣⲓⲟⲛ: ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲧⲱⲛ ⲕⲩⲣⲓⲟⲛ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
+                    ⲛⲓⲑⲏⲣⲓⲟⲛ: ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲧⲱⲛ ⲕⲩⲣⲓⲟⲛ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
                 <td class="arabic">أيها الجليد والثلج والبهائم والوحوش باركي رب الارباب سبّحيه وزيديه علواً.</td>
             </tr>
             <tr id="table_17_row_17" class="north">
                 <td class="english" >Bless the Lord as befits Him, and not
                     like the disobedient, all you sons of men, Praise Him and exalt Him above all.</td>
                 <td class="coptic" >Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲕⲁⲧⲁ ⲫ̀ⲧⲱⲙⲓ: ⲉ̀ⲣⲟϥ ⲕⲉ ⲟⲩ ⲙⲏ
-                    ⲡⲁⲣⲁⲛⲟⲙⲓ: ⲱ̀ ⲛⲓϣⲏⲣⲓ ⲛ̀ⲧⲉ ⲛⲓⲣⲱⲙⲓ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
+                    ⲡⲁⲣⲁⲛⲟⲙⲓ: ⲱ̀ ⲛⲓϣⲏⲣⲓ ⲛ̀ⲧⲉ ⲛⲓⲣⲱⲙⲓ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
                 <td class="arabic">سبّحوا الرب كما يليق به وليس كالمخالفين يا أبناء البشر. سبّحوه وزيدوه علواًً.
                 </td>
             </tr>
             <tr id="table_17_row_18" class="south">
-                <td class="english" >O Israel offer before him, honor and
+                <td class="english" >O Israel offer before Him, honor and
                     glory in a joyful voice, all you priests of Emmanuel, Praise Him and exalt Him above all.</td>
-                <td class="coptic" >Ⲧⲓⲙⲏ ⲕⲉ ⲇⲟⲝⲁ ⲱ̀ Ⲡⲓⲥⲣⲁⲏⲗ ⲓ̀ⲛⲓ ⲛⲁϩⲣⲁϥ ϧⲉⲛ
-                    ⲟⲩⲥ̀ⲙⲏ ⲛ̀ⲑⲉⲗⲏⲗ: ⲛⲓⲟⲩⲏⲃ ⲛ̀ⲧⲉ Ⲉⲙⲙⲁⲛⲟⲩⲏⲗ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
+                <td class="coptic" >Ⲧⲓⲙⲏ ⲕⲉ ⲇⲟⲝⲁ ⲱ̀ Ⲡⲓⲥⲣⲁⲏⲗ: ⲓⲛ̀ⲓ ⲛⲁϩⲣⲁϥ ϧⲉⲛ
+                    ⲟⲩⲥ̀ⲙⲏ ⲛ̀ⲑⲉⲗⲏⲗ: ⲛⲓⲟⲩⲏⲃ ⲛ̀ⲧⲉ Ⲉⲙⲙⲁⲛⲟⲩⲏⲗ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
                 <td class="arabic">مجداً وإكراماً قدم أمامه يا اسرائيل بصوت التهليل. يا كهنة عمانوئيل سبّحوه وزيدوه
                     علواً.</td>
             </tr>
             <tr id="table_17_row_19" class="south">
                 <td class="english" >You servants of the true God, the souls
                     of the righteous, and the humble and the charitable, Praise Him and exalt Him above all.</td>
-                <td class="coptic" >̀̀̀̀ Ⲩⲡⲏⲣⲉⲧⲱⲛ ⲙ̀Ⲫⲛⲟⲩϯ ⲙ̀ⲙⲏⲓ: ⲛⲉⲙ ⲛⲓⲯⲩⲭⲏ
-                    ⲛ̀ⲧⲉ ⲛⲓⲑ̀ⲙⲏⲓ ⲛⲏⲉⲧⲑⲉⲃⲓⲏ̀ⲟⲩⲧ ⲛ̀ⲣⲉϥⲙⲉⲓ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
+                <td class="coptic" >̀̀̀̀Ⲩⲡⲏⲣⲉⲧⲱⲛ ⲙ̀Ⲫⲛⲟⲩϯ ⲙ̀ⲙⲏⲓ: ⲛⲉⲙ ⲛⲓⲯⲩⲭⲏ
+                    ⲛ̀ⲧⲉ ⲛⲓⲑ̀ⲙⲏⲓ: ⲛⲏⲉⲧⲑⲉⲃⲓⲏ̀ⲟⲩⲧ ⲛ̀ⲣⲉϥⲙⲉⲓ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
                 <td class="arabic">يا خدام الله الحقيقي وأنفس الأبرار المتواضعين المحبين سبّحوه وزيدوه علواً.</td>
             </tr>
             <tr id="table_17_row_20" class="north">
                 <td class="english" >God my God is the one, who saved you from
-                    danger, O Sedrach Misach and Abdenago, Praise Him and exalt Him above all.</td>
+                    danger, O Shadrach Misach and Abdenago, Praise Him and exalt Him above all.</td>
                 <td class="coptic" >Ⲫⲛⲟⲩϯ Ⲡⲁⲛⲟⲩϯ ⲉ̀ⲅⲱ: ⲡⲉⲧⲉⲛⲣⲉϥⲥⲱϯ ⲉⲕⲧⲟⲛ ⲁ̀ⲅⲱ:
-                    Ⲥⲉⲇⲣⲁⲭ Ⲙⲓⲥⲁⲭ Ⲁⲃⲇⲉⲛⲁⲅⲱ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
+                    Ⲥⲉⲇⲣⲁⲭ Ⲙⲓⲥⲁⲭ Ⲁⲃⲇⲉⲛⲁⲅⲱ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
                 <td class="arabic">الله إلهى أنا هو مخلصكم من الخطر ياسدراك وميساك وأبدناغو. سبّحوه وزيدوه علوا.
                 </td>
             </tr>
@@ -1317,22 +1317,22 @@ return `
                 <td class="english" >Hurry with great haste, O you righteous
                     of the Lord, and all the creatures He has made, Praise Him and exalt Him above all.</td>
                 <td class="coptic" >Ⲭⲱⲗⲉⲙ ϧⲉⲛ ⲟⲩⲛⲓϣϯ ⲛ̀ϣ̀ⲣⲱⲓⲥ: ⲱ̀
-                    ⲛⲏⲉⲧⲉⲣⲥⲉⲃⲉⲥⲑⲉ ⲙ̀Ⲡϭⲟⲓⲥ: ⲛⲉⲙ ⲛⲓⲫⲩⲥⲓⲥ ⲧⲏⲣⲟⲩ ⲉⲧⲁϥⲁⲓⲥ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
+                    ⲛⲏⲉⲧⲉⲣⲥⲉⲃⲉⲥⲑⲉ ⲙ̀Ⲡϭⲟⲓⲥ: ⲛⲉⲙ ⲛⲓⲫⲩⲥⲓⲥ ⲧⲏⲣⲟⲩ ⲉⲧⲁϥⲁⲓⲥ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
                 <td class="arabic">أسرعوا بحرص عظيم يا أتقياء الرب وكل الطبائع التي صنعها سبّحوه وزيدوه علواً.</td>
             </tr>
             <tr id="table_17_row_22" class="south">
                 <td class="english" >Coolness and repose without ceasing,
                     grant unto all of us, that we may joyfully proclaim, Praise Him and exalt Him above all.</td>
                 <td class="coptic" >Ⲯⲩⲭⲟⲥ ⲕⲉ ⲁ̀ⲛⲁⲡⲁⲩⲥⲓⲥ: ⲙⲟⲓ ⲛⲁⲛ ⲧⲏⲣⲉⲛ ⲭⲱⲣⲓⲥ
-                    ⲑ̀ⲣⲁⲩⲥⲓⲥ: ⲉⲑⲣⲉⲛϫⲱ ϧⲉⲛ ⲟⲩⲁ̀ⲡⲟⲗⲁⲩⲥⲓⲥ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
+                    ⲑ̀ⲣⲁⲩⲥⲓⲥ: ⲉⲑⲣⲉⲛϫⲱ ϧⲉⲛ ⲟⲩⲁ̀ⲡⲟⲗⲁⲩⲥⲓⲥ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
                 <td class="arabic">برودة ونياحاً أعطنا كلنا بغير انقطاع لنقول بتمتع سبّحوه وزيدوه علوا.ً</td>
             </tr>
             <tr id="table_17_row_23" class="south">
                 <td class="english" >And also Your poor servant Sarkis, make
-                    him without condemnation, that we may join all those and say, Praise Him and exalt Him above
+                    him without condemnation, that he may join all those and say, Praise Him and exalt Him above
                     all. ${cross}</td>
                 <td class="coptic" >Ⲱⲥⲁⲩⲧⲱⲥ ⲡⲉⲕⲃⲱⲕ ⲡⲓⲡ̀ⲧⲱⲭⲟⲥ: Ⲥⲁⲣⲕⲓⲥ ⲁ̀ⲣⲓⲧϥ
-                    ⲉϥⲟⲓ ⲛ̀ⲉ̀ⲛⲟⲭⲟⲥ ⲉ̀ⲥⲁϫⲓ ⲛⲉⲙ ⲛⲁⲓ ϩⲱⲥ ⲙⲉⲧⲟⲭⲟⲥ: ϩⲱⲥ ̀ ⲉⲣⲟϥ ̀ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ. ${cross}</td>
+                    ⲉϥⲟⲓ ⲛ̀ⲉ̀ⲛⲟⲭⲟⲥ ⲉ̀ⲥⲁϫⲓ ⲛⲉⲙ ⲛⲁⲓ ϩⲱⲥ ⲙⲉⲧⲟⲭⲟⲥ: ϩⲱⲥ ̀ ⲉⲣⲟϥ ̀ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ. ${cross}</td>
                 <td class="arabic">كذلك عبدك المسكين سركيس اجعله بغير دينونة. ليقول مع هؤلاء كشريك سبّحوه وزيدوه
                     علواً. ${cross}</td>
             </tr>
@@ -1353,24 +1353,24 @@ return `
                 <td class="english" >We therefore present an offering and
                     rational worship; we send unto you this day psalmodies for Your glory O our Savior; Hananiah
                     Azariah and Mishael.</td>
-                <td class="coptic" >Ⲧⲉⲛⲉⲛ ⲟⲑⲉⲛ ⲑⲩⲥⲓⲁⲛ ⲕⲉ ⲧⲏⲛ ⲗⲟⲅⲓⲕⲏⲛ ⲗⲁⲧⲣⲓⲁⲛ :
-                    ⲁ̀ⲛⲁⲡⲉⲙⲡⲱⲙⲉⲛ ⲥⲉⲁⲩⲧⲱ ⲥⲏⲙⲉⲣⲟⲛ ⲱ̀ⲇⲁⲥ : ⲡ̀ⲣⲟⲥ ⲇⲟⲝⲁ ⲥⲟⲩ ⲥⲱⲧⲏⲣ ⲏ̀ⲙⲱⲛ : ̀ Ⲁⲛⲁⲛⲓⲁⲥ ̀Ⲁ̀ⲍⲁⲣⲓⲁⲥ ⲕⲉ Ⲙⲓⲥⲁⲏⲗ.
+                <td class="coptic" >Ⲧⲉⲛⲉⲛ ⲟ̀ⲑⲉⲛ ⲑⲩⲥⲓⲁⲛ ⲕⲉ ⲧⲏⲛ ⲗⲟⲅⲓⲕⲏⲛ ⲗⲁⲧⲣⲓⲁⲛ:
+                    ⲁ̀ⲛⲁⲡⲉⲙⲡⲱⲙⲉⲛ ⲥⲉⲁⲩⲧⲱ ⲥⲏⲙⲉⲣⲟⲛ ⲱ̀ⲇⲁⲥ : ⲡ̀ⲣⲟⲥ ⲇⲟⲝⲁ ⲥⲟⲩ ⲥⲱⲧⲏⲣ ⲏ̀ⲙⲱⲛ: Ⲁⲛⲁⲛⲓⲁⲥ Ⲁⲍⲁⲣⲓⲁⲥ ⲕⲉ Ⲙⲓⲥⲁⲏⲗ.
                 </td>
                 <td class="arabic">فمن ثم نقدم الذبيحة والعبادة العقلية. ونرسل لك في هذا اليوم التسابيح لدى مجدك يا
                     مخلصنا. حنانيا وعزاريا وميصائيل.</td>
             </tr>
             <tr id="table_19_row_1" class="south">
                 <td class="english" >When they were raised to take glory in
-                    their bodies, the angel came down, stopped the fire and became cool for Hananiah Azariah and
+                    their bodies, the angel came down, stopped the fire and it became cool for Hananiah, Azariah, and
                     Mishael.</td>
                 <td class="coptic" >Ⲧⲣⲓⲟⲛ ⲡⲁⲓⲑⲟⲛ ⲛ̀ϫⲉ ⲙⲉⲗⲓⲛ ⲛⲁⲧⲟⲩ ⲡⲉⲣⲟⲥ ⲇⲟⲝⲁ
                     ⲙ̀ⲡ̀ⲥⲁⲧⲉⲧⲟⲩ: ⲥⲱⲙⲁⲧⲟⲥ ⲁⲅⲅⲉⲗⲟⲥ ⲅⲁⲣ ⲥⲉⲛⲁⲥⲉⲗ ⲑⲉⲇⲉ : ⲁⲩⲧⲟⲕⲓⲑⲟⲛ ⲫ̀ⲗⲓⲅⲁⲣⲧⲏⲥ : ⲉ̀ⲗⲉⲩⲥⲉⲱ̀ⲛ ⲏ̀ⲙⲱⲛ : ̀
-                    Ⲁⲛⲁⲛⲓⲁⲥ ̀ Ⲁⲍⲁⲣⲓⲁⲥ ⲕⲉ Ⲙⲓⲥⲁⲏⲗ.</td>
+                    Ⲁⲛⲁⲛⲓⲁⲥ Ⲁⲍⲁⲣⲓⲁⲥ ⲕⲉ Ⲙⲓⲥⲁⲏⲗ.</td>
                 <td class="arabic">لما رُفعوا ليأخذوا المجد فى أجسادهم انحدر ملاك وأطفأ اللهيب وصيره بارداً عن
                     حنانيا وعزاريا وميصائيل.</td>
             </tr>
             <tr id="table_19_row_2" class="north">
-                <td class="english" >Praise and Glorify God at times. ${cross}</td>
+                <td class="english" >Praise and Glorify God at all times. ${cross}</td>
                 <td class="coptic" >Ⲉⲩϩⲱⲥ ⲉⲩⲥ̀ⲙⲟⲩ ⲉ̀Ⲫϯ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ. ${cross}</td>
                 <td class="arabic">يسبحون ويباركون الله فى كل حين. ${cross}</td>
             </tr>
@@ -1384,46 +1384,46 @@ return `
                 </caption>
         <tbody>
             <tr id="table_20_row_0" class="north">
-                <td class="english" >We follow You with all our hearts, and we
-                    fear You, and we seek Your face, O God do not forsake us.</td>
-                <td class="coptic" >Ⲧⲉⲛⲟⲩⲉϩ ⲛ̀ⲥⲱⲕ ϧⲉⲛ ⲡⲉⲛϩⲏⲧ ⲧⲏⲣϥ : ⲧⲉⲛⲉⲣϩⲟϯ
-                    ϧⲁⲧⲉⲕϩⲏ : ⲟⲩⲟϩ ⲧⲉⲛⲕⲱϯ ⲛ̀ⲥⲁ ⲡⲉⲕϩⲟ : Ⲫϯ ⲙ̀ⲡⲉⲣϯϣⲓⲡⲓ ⲛⲁⲛ.</td>
+                <td class="english" >We follow You with all our hearts: and we
+                    fear You: and we seek Your face: O God do not forsake us.</td>
+                <td class="coptic" >Ⲧⲉⲛⲟⲩⲉϩ ⲛ̀ⲥⲱⲕ ϧⲉⲛ ⲡⲉⲛϩⲏⲧ ⲧⲏⲣϥ: ⲧⲉⲛⲉⲣϩⲟϯ
+                    ϧⲁⲧⲉⲕϩⲏ: ⲟⲩⲟϩ ⲧⲉⲛⲕⲱϯ ⲛ̀ⲥⲁ ⲡⲉⲕϩⲟ: Ⲫϯ ⲙ̀ⲡⲉⲣϯϣⲓⲡⲓ ⲛⲁⲛ.</td>
                 <td class="arabic">نتبعك بكل قلوبنا ونخافك ونطلب وجهك يا الله لا تخزنا.</td>
             </tr>
             <tr id="table_20_row_1" class="south">
-                <td class="english" >But rather deal with us, according to
-                    Your meekness, and according to Your great mercy, O Lord help us.</td>
-                <td class="coptic" >Ⲁⲗⲗⲁ ⲁ̀ⲣⲓⲟⲩⲓ̀ ⲛⲉⲙⲁⲛ : ⲕⲁⲧⲁ ⲧⲉⲕⲙⲉⲧⲉ̀ⲡⲓⲕⲏⲥ :
-                    ⲛⲉⲙ ⲕⲁⲧⲁ ⲡ̀ⲁ̀ϣⲁⲓ ⲛ̀ⲧⲉ ⲡⲉⲕⲛⲁⲓ : Ⲡϭⲟⲓⲥ ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲛ.</td>
+                <td class="english" >But rather deal with us: according to
+                    Your meekness: and according to Your great mercy: O Lord help us.</td>
+                <td class="coptic" >Ⲁⲗⲗⲁ ⲁ̀ⲣⲓⲟⲩⲓ̀ ⲛⲉⲙⲁⲛ: ⲕⲁⲧⲁ ⲧⲉⲕⲙⲉⲧⲉ̀ⲡⲓⲕⲏⲥ:
+                    ⲛⲉⲙ ⲕⲁⲧⲁ ⲡ̀ⲁ̀ϣⲁⲓ ⲛ̀ⲧⲉ ⲡⲉⲕⲛⲁⲓ: Ⲡϭⲟⲓⲥ ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲛ.</td>
                 <td class="arabic">بل إصنع معنا بحسب دعتك وكثرة رحمتك يارب أعنّا.</td>
             </tr>
             <tr id="table_20_row_2" class="north">
-                <td class="english" >May our prayers ascend unto You, O our
-                    Master, like burnt offerings of lambs, and fatted calves.</td>
-                <td class="coptic" >Ⲙⲁⲣⲉ ⲧⲉⲛⲡ̀ⲣⲟⲥⲉⲩⲭⲏ ⲡⲉⲛⲛⲏⲃ : ⲓ̀ ⲉ̀ⲡ̀ϣⲱⲓ
-                    ⲙ̀ⲡⲉⲕⲙ̀ⲑⲟ : ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ϩⲁⲛϭ̀ⲗⲓⲗ ⲛ̀ⲧⲉ ϩⲁⲛⲱⲓⲗⲓ: ⲛⲉⲙ ϩⲁⲛⲙⲁⲥⲓ ⲉⲩⲕⲉⲛⲓⲱ̀ⲟⲩⲧ.</td>
+                <td class="english" >May our prayers ascend unto You: O our
+                    Master: like burnt offerings of lambs: and fatted calves.</td>
+                <td class="coptic" >Ⲙⲁⲣⲉ ⲧⲉⲛⲡ̀ⲣⲟⲥⲉⲩⲭⲏ Ⲡⲉⲛⲛⲏⲃ: ⲓ̀ ⲉ̀ⲡ̀ϣⲱⲓ
+                    ⲙ̀ⲡⲉⲕⲙ̀ⲑⲟ: ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ϩⲁⲛϭ̀ⲗⲓⲗ ⲛ̀ⲧⲉ ϩⲁⲛⲱⲓⲗⲓ: ⲛⲉⲙ ϩⲁⲛⲙⲁⲥⲓ ⲉⲩⲕⲉⲛⲓⲱ̀ⲟⲩⲧ.</td>
                 <td class="arabic">فلتصعد صلاتنا أمامك يا سيدنا مثل محرقات كباش وعجول سمان.</td>
             </tr>
             <tr id="table_20_row_3" class="south">
-                <td class="english" >Do not forget the covenant, Which You
-                    have made with our fathers, Abraham, Isaac, and Jacob. Israel, Your Holy one.</td>
-                <td class="coptic" >˙Ⲙⲡⲉⲣⲉⲣⲡ̀ⲱⲃϣ ⲛ̀ϯⲇⲓⲁ̀ⲑⲏⲕⲏ : ⲑⲏⲉ̀ⲧⲁⲕⲥⲉⲙⲛⲏⲧⲥ
-                    ⲛⲉⲙ ⲛⲉⲛⲓⲟϯ : Ⲁⲃⲣⲁⲁⲙ Ⲓⲥⲁⲁⲕ Ⲓⲁⲕⲱⲃ : Ⲡⲓⲥ̀ⲣⲁⲏⲗ ⲡⲉⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲁⲕ.</td>
+                <td class="english" >Do not forget the covenant: which You
+                    have made with our fathers: Abraham, Isaac, and Jacob: Israel, Your holy one.</td>
+                <td class="coptic" >Ⲙⲡⲉⲣⲉⲣⲡ̀ⲱⲃϣ ⲛ̀ϯⲇⲓⲁ̀ⲑⲏⲕⲏ: ⲑⲏⲉ̀ⲧⲁⲕⲥⲉⲙⲛⲏⲧⲥ
+                    ⲛⲉⲙ ⲛⲉⲛⲓⲟϯ: Ⲁⲃⲣⲁⲁⲙ Ⲓⲥⲁⲁⲕ Ⲓⲁⲕⲱⲃ: Ⲡⲓⲥ̀ⲣⲁⲏⲗ ⲡⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲁⲕ.</td>
                 <td class="arabic">لا تنس العهد الذى قطعته مع آبائنا ابراهيم واسحق ويعقوب اسرائيل قديسك.</td>
             </tr>
             <tr id="table_20_row_4" class="north">
-                <td class="english" >Bless the Lord all you nations; the
-                    tribes and all kinds of tongues. praise Him and glorify Him, above all forever.</td>
-                <td class="coptic" >̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲛⲓⲗⲁⲟⲥ ⲧⲏⲣⲟⲩ : ⲛⲓⲫⲩⲗⲏ
-                    ⲛⲓⲁⲥⲡⲓ ⲛ̀ⲗⲁⲥ : ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲙⲁⲱ̀ⲟⲩ ⲛⲁϥ : ⲁ̀ⲣⲓϩⲟⲓⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
+                <td class="english" >Bless the Lord all you nations: the
+                    tribes and all kinds of tongues: praise Him and glorify Him: above all forever.</td>
+                <td class="coptic" >̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲛⲓⲗⲁⲟⲥ ⲧⲏⲣⲟⲩ: ⲛⲓⲫⲩⲗⲏ
+                    ⲛⲓⲁⲥⲡⲓ ⲛ̀ⲗⲁⲥ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲙⲁⲱ̀ⲟⲩ ⲛⲁϥ: ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
                 <td class="arabic">باركوا الرب ياجميع الشعوب والقبائل ولغات الالسن سبحوه ومجدوه وزيدوه علواً إلى
                     الآباد.</td>
             </tr>
             <tr id="table_20_row_5" class="south">
-                <td class="english" >Pray to the Lord on our behalf, O three
-                    saintly children, Sedrach, Misach and Abednego, that He may forgive us our sins. ${cross}</td>
+                <td class="english" >Pray to the Lord on our behalf: O three
+                    saintly children: Shadrach, Misach and Abednego: that He may forgive us our sins. ${cross}</td>
                 <td class="coptic" >Ⲧⲱ̅: ⲱ̀ ⲡⲓϣⲟⲙⲧ
-                    ⲛ̀ⲁ̀ⲗⲟⲩ ⲛ̀ⲁ̀ⲅⲓⲟⲥ : Ⲥⲉⲇⲣⲁⲕ Ⲙⲓⲥⲁⲕ Ⲁⲃⲇⲉⲛⲁⲅⲱ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ. ${cross}</td>
+                    ⲛ̀ⲁ̀ⲗⲟⲩ ⲛ̀ⲁ̀ⲅⲓⲟⲥ: Ⲥⲉⲇⲣⲁⲕ Ⲙⲓⲥⲁⲕ Ⲁⲃⲇⲉⲛⲁⲅⲱ: ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ. ${cross}</td>
                 <td class="arabic">أطلبوا من الرب عنا أيها الثلاثة فتية القديسين سدراك وميساك وابدناغو ليغفر لنا
                     خطايانا. ${cross}</td>
             </tr>

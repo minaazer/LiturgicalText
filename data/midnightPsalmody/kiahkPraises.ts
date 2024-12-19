@@ -5429,73 +5429,73 @@ const html = `
     </caption>
     <tbody>
         <tr id="table_${tableNumber}_row_0" class="north">
-            <td class="english" >You are called, O Theotokos The daughter
-                of Joachim You became the highest heaven You're higher than the Cherubim</td>
+            <td class="english" >You are called, O Theotokos: The daughter
+                of Joachim: You became the highest heaven: You're higher than the Cherubim.</td>
             <td class="arabic">دعيت أم الله: ياإبنة يواقيم: وصرت كأعلا سماه: وفقت الكاروبيم</td>
         </tr>
         <tr id="table_${tableNumber}_row_1" class="south">
-            <td class="english" >The Fountain of Life came forth from You
-                He healed all the sick He returned the lost sheep To the Paradise of Joy</td>
+            <td class="english" >The Fountain of Life came forth from You:
+                He healed all the sick: He returned the lost sheep: To the Paradise of Joy.</td>
             <td class="arabic">ظهر منك ينبوع الحياة: وأبرأ كل سقيم: ورد الخروف الضال: وحطم فخ الأركون</td>
         </tr>
         <tr id="table_${tableNumber}_row_2" class="north">
-            <td class="english" >You are the dome of Moses That is filled
-                with Light You are the ark of covenant Containing the secrets</td>
+            <td class="english" >You are the dome of Moses: That is filled
+                with Light: You are the ark of covenant: Containing the secrets.</td>
             <td class="arabic">ياقبة موسى: يامملوءة انوار: ياتابوت العهد: وفيه كل الاسرار</td>
         </tr>
         <tr id="table_${tableNumber}_row_3" class="south">
-            <td class="english" >O the flower of incense Your aroma filled
-                the earth O precious treasure O Aaron's rod</td>
+            <td class="english" >O the flower of incense: Your aroma filled
+                the earth: O precious treasure: O Aaron's rod.</td>
             <td class="arabic">يازهرة الاطياب: بخورك ملأ الأقطار: ياكنز الجوهر: ياعصاة هرون</td>
         </tr>
         <tr id="table_${tableNumber}_row_4" class="north">
-            <td class="english" >O golden vessel In it the hidden Manna O
-                pure sanctuary Wherein God was delighted and dwelled</td>
+            <td class="english" >O golden vessel: In it the hidden Manna: O
+                pure sanctuary: Wherein God was delighted and dwelled.</td>
             <td class="arabic">ياقسط ذهب غالى: والمن مخفى فيه: ياهيكل طاهر: أحبه الله وسكن فيه</td>
         </tr>
         <tr id="table_${tableNumber}_row_5" class="south">
-            <td class="english" >He who believes in Him Shall live after
-                death O you pure altar Carrying the hidden secrets</td>
+            <td class="english" >He who believes in Him: Shall live after
+                death: O you pure altar: Carrying the hidden secrets.</td>
             <td class="arabic">ومن يؤمن باسمه: بعد الموت يحييه: يامذبح طاهر: حامل السر المكنون</td>
         </tr>
         <tr id="table_${tableNumber}_row_6" class="north">
-            <td class="english" >Hail to you O Mary O favored above all
-                virgins The fathers called you, &ldquo;The golden lampstand&rdquo;</td>
+            <td class="english" >Hail to you O Mary: O favored above all
+                virgins: The fathers called you: &ldquo;The golden lampstand.&rdquo;</td>
             <td class="arabic">السلام لك يامريم: ياست العذارى: سماك الآباء: كنزاً ومنارة</td>
         </tr>
         <tr id="table_${tableNumber}_row_7" class="south">
-            <td class="english" >Many spoke of you With symbols and
-                proverbs O the aroma of Ember In Aaron's censer</td>
+            <td class="english" >Many spoke of you: With symbols and
+                proverbs: O the aroma of Ember: In Aaron's censer.</td>
             <td class="arabic">وكم ضربوا عنك: رمزاً وإشارة: يا بخور العنبر: فى شورية هارون</td>
         </tr>
         <tr id="table_${tableNumber}_row_8" class="north">
-            <td class="english" >O sanctuary and protection A dwelling
-                place for the Trinity O Throne of God the Father The Lord of Hosts</td>
+            <td class="english" >O sanctuary and protection: A dwelling
+                place for the Trinity: O Throne of God the Father: The Lord of Hosts.</td>
             <td class="arabic">ياهيكل وحجاب: مسكن للثالوث: ياكرسى الله الآب: رب الصاباؤوت</td>
         </tr>
         <tr id="table_${tableNumber}_row_9" class="south">
-            <td class="english" >Through you O Mary we were awarded The
-                kingdom of Joy Blessed are you O Mary The sister of Solomon</td>
+            <td class="english" >Through you O Mary, we were awarded: The
+                kingdom of Joy: Blessed are you O Mary: The sister of Solomon.</td>
             <td class="arabic">بك يا مريم: فزنا بنعيم الملكوت: طوباك يامريم: إتسونى ان سولومون</td>
         </tr>
         <tr id="table_${tableNumber}_row_10" class="north">
-            <td class="english" >Do not forget your servant For I am a
-                poor sinner I plead for your intercessions On judgment day</td>
+            <td class="english" >Do not forget your servant: For I am a
+                poor sinner: I plead for your intercessions: On judgment day.</td>
             <td class="arabic">لاتنسى عبدك: لأنى خاطى ومسكين: وأرجو شفاعتك: فى الموقف يوم الدين</td>
         </tr>
         <tr id="table_${tableNumber}_row_11" class="south">
-            <td class="english" >Before Christ your Son Be unto me a
-                helper and provider So He may forgive me The multitude of sins ${cross}</td>
+            <td class="english" >Before Christ your Son: Be unto me a
+                helper and provider: So He may forgive me: The multitude of sins. ${cross}</td>
             <td class="arabic">عند يسوع ابنك: كونى لى عوناً ومعين: لكى يغفر لى ذنبى: ومن قد سَلَفون ${cross}</td>
         </tr>
         <tr id="table_${tableNumber}_row_12" class="refrain">
-            <td class="english" >Hail to you O Mary O you full of grace
-                Who are engulfed in light O mother of the Merciful</td>
+            <td class="english" >Hail to you O Mary: O you full of grace:
+                Who are engulfed in light: O mother of the Merciful.</td>
             <td class="arabic">السلام لك يامريم: يامملوءة نعمة: يامشتملة بالانوار: ياام الرحمة</td>
         </tr>
         <tr id="table_${tableNumber}_row_13" class="refrain">
-            <td class="english" >Intercede for us On judgment day Your Son
-                granted us salvation O daughter of Zion ${cross}</td>
+            <td class="english" >Intercede for us: On judgment day: Your Son
+                granted us salvation: O daughter of Zion. ${cross}</td>
             <td class="arabic">إشفعى فينا: فى يوم الزحمة: بابنك نلنا الخلاص: ياإبنة صهيون ${cross}</td>
         </tr>
     </tbody>

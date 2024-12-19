@@ -842,7 +842,7 @@ function SundayTheotokia7ShereNeMaria(tableNumber) {
     </caption>
 <tbody>
     <tr id="table_${gospelTableNumber}_row_0" class="north">
-        <td class="english">Holy, holy, holy, a chapter reading from the Gospel according to our teacher Saint Luke the Evangelist. May his blessings be with us all. Amen.</td>
+        <td class="english">Holy, holy, holy, a reading from the Gospel according to our teacher Saint Luke the Evangelist. May his blessings be with us all. Amen.</td>
         <td class="coptic">Ⲭ̀ⲟⲩⲁⲃ ⲭ̀ⲟⲩⲁⲃ ⲭ̀ⲟⲩⲁⲃ: ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲕⲁⲧⲁ Ⲗⲟⲩⲕⲁⲛ ⲁ̀ⲅⲓⲟⲛ.</td>
         <td class="arabic">قدوس قدوس قدوس، فصل من الإنجيل لمعلمنا مار لوقا البشير. بركاته على جميعناً. آمين.</td>
     </tr>
@@ -852,7 +852,7 @@ function SundayTheotokia7ShereNeMaria(tableNumber) {
         <td class="arabic">لوقا 2: 29-32</td>
     </tr>
     <tr id="table_${gospelTableNumber}_row_2" class="north">
-        <td class="english">"Lord, now You are letting Your servant depart in peace, according to Your word. For my eyes have seen Your salvation which You have prepared before the face of all peoples. A light to bring revelation to the Gentiles, and the glory of Your people Israel."</td>
+        <td class="english">"Lord, now You are letting Your servant depart in peace, According to Your word. For my eyes have seen Your salvation which You have prepared before the face of all peoples. A light to bring revelation to the Gentiles, and the glory of Your people Israel."</td>
         <td class="coptic">Ϯⲛⲟⲩ Ⲡⲁⲛⲏⲃ ⲭ̀ⲛⲁⲭⲁ ⲡⲉⲕⲃⲱⲕ ⲉ̀ⲃⲟⲗ: ϧⲉⲛ ⲟⲩϩⲓⲣⲏⲛⲏ ⲕⲁⲧⲁ ⲡⲉⲕⲥⲁϫⲓ. Ϫⲉ ⲁⲩⲛⲁⲩ ⲛ̀ϫⲉ ⲛⲁⲃⲁⲗ ⲉ̀ⲡⲉⲕⲛⲟϩⲉⲙ: ⲫⲏⲉ̀ⲧⲁⲕⲥⲉⲃⲧⲱⲧϥ ⲙ̀ⲡⲉⲙ̀ⲑⲟ ⲛ̀ⲛⲓⲗⲁⲟⲥ ⲧⲏⲣⲟⲩ. Ⲟⲩⲟⲩⲱⲓⲛⲓ ⲉⲩϭⲱⲣⲡ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ϩⲁⲛⲉⲑⲛⲟⲥ: ⲛⲉⲙ ⲟⲩⲱ̀ⲟⲩ ⲛ̀ⲧⲉ ⲡⲉⲕⲗⲁⲟⲥ Ⲡⲓⲥⲣⲁⲏⲗ.</td>
         <td class="arabic">"الآن يا سيدي أطلق عبدك بسلام بحسب قولك. لأن عيني قد أبصرتا خلاصك الذي أعددته قدام جميع الشعوب. نوراً تجلى للأمم، ومجداً لشعبك إسرائيل."</td>
     </tr>
@@ -871,14 +871,14 @@ function SundayTheotokia7ShereNeMaria(tableNumber) {
         </caption>
 <tbody>
     <tr id="table_${tableNumber}_row_0" class="north">
-        <td class="english" >Hail to you Mary, The beautiful dove, Who
+        <td class="english" >Hail to you Mary, the beautiful dove, who
             gave birth, to God the Word for us.</td>
         <td class="coptic" >Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ: ϯϭⲣⲟⲙⲡⲓ ⲉⲑⲛⲉⲥⲱⲥ: ⲑⲏⲉ̀ⲧⲁⲥⲙⲓⲥⲓ ⲛⲁⲛ: ⲙ̀Ⲫϯ ⲡⲓⲗⲟⲅⲟⲥ.</td>
         <td class="arabic">السلام لك يا مريم: الحمامة الحسنة: التي ولدت: لنا الله الكلمة.</td>
     </tr>
     <tr id="table_${tableNumber}_row_1" class="south">
-        <td class="english" >You are the flower, Of incense, that has
-            blossomed, from The root of Jesse.</td>
+        <td class="english" >You are the flower, of incense, that has
+            blossomed, from the root of Jesse.</td>
         <td class="coptic" >̀ Ⲛⲑⲟ ⲧⲉ
             ϯϩ̀ⲣⲏⲣⲓ : ⲛ̀ⲧⲉ ⲡⲓⲥ̀ⲑⲟⲓⲛⲟⲩϥⲓ :
             ⲑⲏⲉⲧⲁⲥⲫⲓⲣⲓ ⲉ̀ⲃⲟⲗ : ϧⲉⲛ
@@ -886,34 +886,34 @@ function SundayTheotokia7ShereNeMaria(tableNumber) {
         <td class="arabic">أنت زهرة: البخور: التي أينعت: من أصل يسىّ.</td>
     </tr>
     <tr id="table_${tableNumber}_row_2" class="north">
-        <td class="english" >The rod of Aaron, Which blossomed,
-            Without planting or watering, Is a symbol of you.</td>
+        <td class="english" >The rod of Aaron, which blossomed,
+            without planting or watering, is a symbol of you.</td>
         <td class="coptic" >Ⲡⲓϣ̀ⲃⲱⲧ
-            ⲛ̀ⲧⲉ Ⲁⲁⲣⲱⲛ ⲉⲧⲁϥⲫⲓⲣⲓ
+            ⲛ̀ⲧⲉ Ⲁⲁ̀ⲣⲱⲛ: ⲉⲧⲁϥⲫⲓⲣⲓ
             ⲉ̀ⲃⲟⲗ : ⲭⲱⲣⲓⲥ ϭⲟ
             ⲛⲉⲙ ⲧ̀ⲥⲟ : ϥ̀ⲟⲓ
             ⲛ̀ⲧⲩⲡⲟⲥ ⲛⲉ.</td>
         <td class="arabic">عصا هرون التي: أزهرت بغير: غرس ولا سقى: هى مثال لك.</td>
     </tr>
     <tr id="table_${tableNumber}_row_3" class="south">
-        <td class="english" >You who gave birth to Christ, Our true
-            God, Without the seed of man, and Remained a virgin.</td>
-        <td class="coptic" >Ⲱ̀ⲑⲏⲉⲧⲁⲥⲙⲉⲥ
+        <td class="english" >You who gave birth to Christ, our true
+            God, without the seed of man, and remained a virgin.</td>
+        <td class="coptic" >Ⲱ ⲑⲏⲉⲧⲁⲥⲙⲉⲥ
             Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: Ⲡⲉⲛⲛⲟⲩϯ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓ :
             ⲁϭⲛⲉ ⲥ̀ⲡⲉⲣⲙⲁ ⲛ̀ⲣⲱⲙⲓ: ⲉⲥⲟⲓ ⲙ̀ⲡⲁⲣⲑⲉⲛⲟⲥ.</td>
         <td class="arabic">يامن ولدت المسيح: إلهنا بالحقيقة: وبغير زرع بشر: وأنت عذراء.</td>
     </tr>
     <tr id="table_${tableNumber}_row_4" class="north">
-        <td class="english" >Wherefore everyone, Magnifies you, O my
-            lady the Mother of God, The ever holy.</td>
+        <td class="english" >Wherefore everyone, magnifies you, o my
+            lady the Mother of God, the ever holy.</td>
         <td class="coptic" >Ⲉⲑⲃⲉ ⲫⲁⲓ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ : ⲥⲉϭⲓⲥⲓ ⲙ̀ⲙⲟ : ⲧⲁϭⲟⲓⲥ
             ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ : ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ.</td>
         <td class="arabic">من أجل هذا: كل واحد يعظمك: ياسيدتى والدة الاله: القديسة كل حين.</td>
     </tr>
     <tr id="table_${tableNumber}_row_5" class="south">
         <td class="english" >And we also pray, that we may win mercy,
-            Through your intercessions,With the Lover of mankind. ${cross}</td>
-        <td class="coptic" >̀ Ⲁⲛⲟⲛ ϩⲱⲛ ⲧⲉⲛⲧⲱⲃϩ : ⲉⲑⲣⲉⲛϣⲁϣⲛⲓ ⲉⲩⲛⲁⲓ :
+            through your intercessions,With the Lover of Mankind. ${cross}</td>
+        <td class="coptic" >̀Ⲁⲛⲟⲛ ϩⲱⲛ ⲧⲉⲛⲧⲱⲃϩ : ⲉⲑⲣⲉⲛϣⲁϣⲛⲓ ⲉⲩⲛⲁⲓ :
             ϩⲓⲧⲉⲛ ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ. ${cross}</td>
         <td class="arabic">ونحن أيضاً: نطلب أن نفوز: برحمة بشفاعاتك: عند محب البشر. ${cross}</td>
     </tr>
@@ -932,28 +932,28 @@ function SundayTheotokia8Semoti(tableNumber) {
 </caption>
 <tbody>
     <tr id="table_${tableNumber}_row_0" class="north">
-        <td class="english" >You are called righteous, O St. Mary, The
+        <td class="english" >You are called righteous, o St. Mary, the
             Second Tabernacle, belonging to the Holies.</td>
         <td class="coptic" >Ⲥⲉⲙⲟⲩϯ ⲉ̀ⲣⲟ ⲇⲓⲕⲉⲟⲥ : ⲱ̀ ⲑⲏⲉⲑⲟⲩⲁⲃ Ⲙⲁⲣⲓⲁ̀ :
             ϫⲉ ϯⲙⲁϩⲥ̀ⲛⲟⲩϯ ⲛ̀ⲥ̀ⲕⲏⲛⲏ : ⲛ̀ⲧⲉ ⲛⲏⲉⲑⲟⲩⲁⲃ.</td>
         <td class="arabic">مدعوة أنت: بالحقيقة أيتها: القديسة مريم: القبة التي للأقداس.</td>
     </tr>
     <tr id="table_${tableNumber}_row_1" class="south">
-        <td class="english" >Wherein is placed, The rod of Aaron, And
+        <td class="english" >Wherein is placed, the rod of Aaron, and
             the holy flower, of incense.</td>
         <td class="coptic" >Ⲑⲏⲉⲧⲟⲩⲭⲏ ⲛ̀ϧⲏⲧⲥ : ⲛ̀ϫⲉ ⲡⲓϣ̀ⲃⲱⲧ ⲛ̀ⲧⲉ Ⲁⲁⲣⲱⲛ
             : ⲛⲉⲙ ϯϩ̀ⲣⲏⲣⲓ ⲉⲑⲟⲩⲁⲃ : ⲛ̀ⲧⲉ ⲡⲓⲥ̀ⲑⲟⲓⲛⲟⲩϥⲓ.</td>
         <td class="arabic">تلك الموضوع فيها: عصا هرون: والزهرة المقدسة: التى للبخور.</td>
     </tr>
     <tr id="table_${tableNumber}_row_2" class="north">
-        <td class="english" >You are clothed with purity, Within and
-            without, O pure Tabernacle, the dwelling of the righteous.</td>
-        <td class="coptic" >Ⲧⲉϫⲟⲗϩ ⲙ̀ⲡⲓⲧⲟⲩⲃⲟ : ⲥⲁϧⲟⲩⲛ ⲛⲉⲙ ⲥⲁⲃⲟⲗ : ⲱ̀
-            ϯⲥ̀ⲕⲏⲛⲏ ⲛ̀ⲕⲁⲑⲁⲣⲟⲥ : ⲫ̀ⲙⲁⲛ̀ϣⲱⲡⲓ ⲛ̀ⲛⲓⲇⲓⲕⲉⲟⲥ.</td>
+        <td class="english" >You are clothed with purity, within and
+            without, O pure tabernacle, the dwelling of the righteous.</td>
+        <td class="coptic" >Ⲧⲉϫⲟⲗϩ ⲙ̀ⲡⲓⲧⲟⲩⲃⲟ: ⲥⲁϧⲟⲩⲛ ⲛⲉⲙ ⲥⲁⲃⲟⲗ: ⲱ̀
+            ϯⲥ̀ⲕⲏⲛⲏ ⲛ̀ⲕⲁⲑⲁⲣⲟⲥ: ⲫ̀ⲙⲁⲛ̀ϣⲱⲡⲓ ⲛ̀ⲛⲓⲇⲓⲕⲉⲟⲥ.</td>
         <td class="arabic">أنت مشتملة بالطهارة: من داخل ومن خارج: أيتها القبة النقية: مسكن الصديقين.</td>
     </tr>
     <tr id="table_${tableNumber}_row_3" class="south">
-        <td class="english" >The hosts of the high standings, And the
+        <td class="english" >The hosts of the high standings, and the
             chorus of the just, glorify You, and Your blessedness.</td>
         <td class="coptic" >Ⲛⲓⲧⲁⲅⲙⲁ ⲛ̀ⲧⲉ ⲡ̀ϭⲓⲥⲓ : ⲛⲉⲙ ⲡ̀ⲭⲟⲣⲟⲥ ⲛ̀ⲧⲉ
             ⲛⲓⲑ̀ⲙⲏⲓ : ⲥⲉⲉⲣⲉⲩⲇⲟⲝⲁⲍⲓⲛ : ⲛ̀ⲛⲉⲙⲁⲕⲁⲣⲓⲥⲙⲟⲥ.</td>
@@ -961,21 +961,21 @@ function SundayTheotokia8Semoti(tableNumber) {
     </tr>
     <tr id="table_${tableNumber}_row_4" class="north">
         <td class="english" >Wherefore we, magnify you befittingly,
-            With prophetic, Hymnology.</td>
+            with prophetic, hymnology.</td>
         <td class="coptic" >Ⲉⲑⲃⲉ ⲫⲁⲓ ⲧⲉⲛϭⲓⲥⲓ : ⲙ̀ⲙⲟ ⲁ̀ⲝⲓⲱⲥ : ϧⲉⲛ
             ϩⲁⲛⲩ̀ⲙⲛⲟⲗⲟⲅⲓⲁ̀ : ⲙ̀ⲡ̀ⲣⲟⲫⲏⲧⲓⲕⲟⲛ.</td>
         <td class="arabic">من أجل هذا: نعظمك باستحقاق: بتماجيد: نبوية.</td>
     </tr>
     <tr id="table_${tableNumber}_row_5" class="south">
-        <td class="english" >For they spoke of you, With great honor,
-            O Holy City, Of the Great King.</td>
+        <td class="english" >For they spoke of you, with great honor,
+            O holy city, of the great King.</td>
         <td class="coptic" >Ϫⲉ ⲁⲩⲥⲁϫⲓ ⲉⲑⲃⲏϯ : ⲛ̀ϩⲁⲛϩ̀ⲃⲏⲟⲩⲓ̀ ⲉⲩⲧⲁⲓⲏ̀ⲟⲩⲧ
             : ϯⲃⲁⲕⲓ ⲉⲑⲟⲩⲁⲃ : ⲛ̀ⲧⲉ ⲡⲓⲛⲓϣϯ ⲛ̀ⲟⲩⲣⲟ.</td>
         <td class="arabic">لانهم تكلموا من أجلك: بأعمال كريمة: أيتها المدينة المقدسة: التى للملك العظيم.</td>
     </tr>
     <tr id="table_${tableNumber}_row_6" class="north">
-        <td class="english" >We entreat and pray, That we may win
-            mercy, Through your intercessions, with the Lover of mankind. ${cross}</td>
+        <td class="english" >We entreat and pray, that we may win
+            mercy, through your intercessions, with the Lover of Mankind. ${cross}</td>
         <td class="coptic" >Ⲧⲉⲛϯϩⲟ ⲧⲉⲛⲧⲱⲃϩ : ⲉⲑⲣⲉⲛϣⲁϣⲛⲓ ⲉⲩⲛⲁⲓ: ϩⲓⲧⲉⲛ
             ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ. ${cross}</td>
         <td class="arabic">نسأل ونطلب: أن نفوز برحمة: بشفاعاتك: عند محب البشر. ${cross}</td>
@@ -997,7 +997,7 @@ function SundayTheotokia9ShashfEnsop(tableNumber) {
     <tr id="table_${tableNumber}_row_0" class="north">
         <td class="english" >Seven times everyday: I will praise Your
             name: with all my heart: O God of everyone.</td>
-        <td class="coptic" >͞Ⲍ ⲛ̀ⲥⲟⲡ ⲙ̀ⲙⲏⲛⲓ:̀ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲡⲁϩⲏⲧ ⲧⲏⲣϥ:
+        <td class="coptic" > Ϣⲁϣϥ ⲛ̀ⲥⲟⲡ ⲙ̀ⲙⲏⲛⲓ:̀ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲁϩⲏⲧ ⲧⲏⲣϥ:
             ϯⲛⲁⲥ̀ⲙⲟⲩ ⲉ̀ⲡⲉⲕⲣⲁⲛ: Ⲡϭⲟⲓⲥ ⲙ̀ⲡⲓⲉ̀ⲡ̀ⲧⲏⲣϥ.</td>
         <td class="arabic">سبع مرات كل يوم: من كل قلبي: أبارك أسمك: يارب الكل.</td>
     </tr>
@@ -1019,7 +1019,7 @@ function SundayTheotokia9ShashfEnsop(tableNumber) {
         <td class="english" >He was incarnate: of the Holy Spirit: and
             of Mary: the pure bride.</td>
         <td class="coptic" >Ⲁϥϭⲓⲥⲁⲣⲝ ⲉ̀ⲃⲟⲗ: ϧⲉⲛ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: ⲛⲉⲙ
-            ⲉ̀ⲃⲟⲗϧⲉⲛ Ⲙⲁⲣⲓⲁ̀: ϯϣⲉⲗⲉⲧ ⲉⲑⲟⲩⲁⲃ.</td>
+            ⲉ̀ⲃⲟⲗ ϧⲉⲛ Ⲙⲁⲣⲓⲁ̀: ϯϣⲉⲗⲉⲧ ⲉⲑⲟⲩⲁⲃ.</td>
         <td class="arabic">وتجسد: من الروح القدس: ومن مريم: العروس الطاهرة.</td>
     </tr>
     <tr id="table_${tableNumber}_row_4" class="north">
@@ -1047,35 +1047,35 @@ function SundayTheotokia9ShashfEnsop(tableNumber) {
         <td class="english" >Hail to you Mary: the salvation of our
             father Adam: Hail...: the Mother of the refuge: Hail...: the rejoicing of Eve: Hail...: the joy
             of all generations.</td>
-        <td class="coptic" >Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: ⲡ̀ⲥⲱϯ ⲛ̀Ⲁⲇⲁⲙ ⲡⲉⲛⲓⲱⲧ: ⲭˉⲉˉ
-            : ⲑ̀ⲙⲁⲩ ⲙ̀ⲡⲓⲙⲁⲙ̀ⲫⲱⲧ: ⲭˉⲉˉ : ⲡ̀ⲑⲉⲗⲏⲗ ⲛ̀Ⲉⲩⲁ̀: ⲭˉⲉˉ : ̀ ⲡⲟⲩⲛⲟϥ ⲛ̀ⲛⲓⲅⲉⲛⲉⲁ̀.</td>
+        <td class="coptic" >Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: ⲡ̀ⲥⲱϯ ⲛ̀Ⲁⲇⲁⲙ ⲡⲉⲛⲓⲱⲧ: ⲭ̅ⲉ̅ 
+            : ⲑ̀ⲙⲁⲩ ⲙ̀ⲡⲓⲙⲁⲙ̀ⲫⲱⲧ: ⲭ̅ⲉ̅  : ⲡ̀ⲑⲉⲗⲏⲗ ⲛ̀Ⲉⲩⲁ̀: ⲭ̅ⲉ̅  : ̀ ⲡⲟⲩⲛⲟϥ ⲛ̀ⲛⲓⲅⲉⲛⲉⲁ̀.</td>
         <td class="arabic">السلام لك يامريم: خلاص أبينا آدم. السلام.. أم الملجأ. السلام.. تهليل حواء.
             السلام.. فرح الأجيال.</td>
     </tr>
     <tr id="table_${tableNumber}_row_8" class="north">
         <td class="english" >Hail to you Mary: the joy of Abel the
-            just: Hail...: the true Virgin: Hail...: the Salvation of Noah: Hail...: the chaste and
+            just: Hail...: the true Virgin: Hail...: the salvation of Noah: Hail...: the chaste and
             undefiled.</td>
         <td class="coptic" >Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: ⲫ̀ⲣⲁϣⲓ ⲛ̀Ⲁⲃⲉⲗ ⲡⲓⲑ̀ⲙⲏⲓ:
-            ⲭˉⲉˉ : ϯⲡⲁⲣⲑⲉⲛⲟⲥ ⲛ̀ⲧⲁⲫ̀ⲙⲏⲓ: ⲭˉⲉˉ : ⲫ̀ⲛⲟϩⲉⲙ ⲛ̀Ⲛⲱⲉ̀: ⲭˉⲉˉ :ϯⲁⲧⲑⲱⲗⲉⲃ ⲛ̀ⲥⲉⲙⲛⲉ.</td>
+            ⲭ̅ⲉ̅  : ϯⲡⲁⲣⲑⲉⲛⲟⲥ ⲛ̀ⲧⲁⲫ̀ⲙⲏⲓ:  : ⲫ̀ⲛⲟϩⲉⲙ ⲛ̀Ⲛⲱⲉ̀: ⲭ̅ⲉ̅  :ϯⲁⲧⲑⲱⲗⲉⲃ ⲛ̀ⲥⲉⲙⲛⲏ.</td>
         <td class="arabic">السلام لك يامريم: فرح هابيل البار. السلام..العذراء الحقيقية. السلام.. خلاص نوح.
             السلام..غير الدنسة الهادئة.</td>
     </tr>
     <tr id="table_${tableNumber}_row_9" class="south">
         <td class="english" >Hail to you Mary: the grace of Abraham:
-            Hail...: the unfading crown: Hail...: the Redemption of Saint Isaac: Hail...: the Mother of The
+            Hail...: the unfading crown: Hail...: the redemption of Saint Isaac: Hail...: the Mother of the
             Holy.</td>
-        <td class="coptic" >Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: ⲡ̀ϩ̀ⲙⲟⲧ ⲛ̀Ⲁⲃⲣⲁⲁⲙ: ⲭˉⲉˉ :
-            ⲡⲓⲭ̀ⲗⲟⲙ ⲛ̀ⲁⲑⲗⲱⲙ: ⲭˉⲉˉ : ⲡ̀ⲥⲱϯ ⲛ̀Ⲓⲥⲁⲁⲕ ⲡⲉⲑⲟⲩⲁⲃ: ⲭˉⲉˉ : ⲑ̀ⲙⲁⲩ ⲙ̀ⲫⲏⲉⲑⲟⲩⲁⲃ.</td>
+        <td class="coptic" >Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: ⲡ̀ϩ̀ⲙⲟⲧ ⲛ̀Ⲁⲃⲣⲁⲁⲙ: ⲭ̅ⲉ̅  :
+            ⲡⲓⲭ̀ⲗⲟⲙ ⲛ̀ⲁⲑⲗⲱⲙ: ⲭ̅ⲉ̅  : ⲡ̀ⲥⲱϯ ⲛ̀Ⲓⲥⲁⲁⲕ ⲡⲉⲑⲟⲩⲁⲃ: ⲭ̅ⲉ̅  : ⲑ̀ⲙⲁⲩ ⲙ̀ⲫⲏⲉⲑⲟⲩⲁⲃ.</td>
         <td class="arabic">السلام لك يامريم: نعمة ابراهيم. السلام.. الاكليل غير المضمحل. السلام.. خلاص اسحق
             القديس. السلام.. أم القدوس.</td>
     </tr>
     <tr id="table_${tableNumber}_row_10" class="north">
         <td class="english" >Hail to you Mary: the rejoicing of Jacob:
-            Hail...: Myriads of Myriads: Hail...: the pride of Judah: Hail...: the mother of the Master.
+            Hail...: myriads of myriads: Hail...: the pride of Judah: Hail...: the mother of the Master.
         </td>
-        <td class="coptic" >Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: ⲡ̀ⲑⲉⲗⲏⲗ ⲛ̀Ⲓⲁⲕⲱⲃ: ⲭˉⲉˉ :
-            ϩⲁⲛⲑ̀ⲃⲁ ⲛ̀ⲕⲱⲃ: ⲭˉⲉˉ : ⲡ̀ϣⲟⲩϣⲟⲩ ⲛ̀Ⲓⲟⲩⲇⲁ: ⲭˉⲉˉ : ⲑ̀ⲙⲁⲩ ⲙ̀ⲡⲓⲇⲉⲥⲡⲟⲧⲁ.</td>
+        <td class="coptic" >Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: ⲡ̀ⲑⲉⲗⲏⲗ ⲛ̀Ⲓⲁⲕⲱⲃ: ⲭ̅ⲉ̅  :
+            ϩⲁⲛⲑ̀ⲃⲁ ⲛ̀ⲕⲱⲃ: ⲭ̅ⲉ̅  : ⲡ̀ϣⲟⲩϣⲟⲩ ⲛ̀Ⲓⲟⲩⲇⲁ: ⲭ̅ⲉ̅  : ⲑ̀ⲙⲁⲩ ⲙ̀ⲡⲓⲇⲉⲥⲡⲟⲧⲁ.</td>
         <td class="arabic">السلام لك يامريم: تهليل يعقوب. السلام.. ربوات مضاعفة. السلام.. فخر يهوذا. السلام..
             ام السيد.</td>
     </tr>
@@ -1083,8 +1083,8 @@ function SundayTheotokia9ShashfEnsop(tableNumber) {
         <td class="english" >Hail to you Mary: the preaching of Moses:
             Hail...: the Mother of the Master: Hail...: the honor of Samuel: Hail...: the pride of Israel.
         </td>
-        <td class="coptic" >Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: ⲡ̀ϩⲓⲱⲓϣ ⲙ̀Ⲙⲱⲩ̀ⲥⲏⲥ: ⲭˉⲉˉ :
-            ⲑ̀ⲙⲁⲩ ⲙ̀ⲡⲓⲇⲉⲥⲡⲟⲧⲏⲥ: ⲭˉⲉˉ : ⲡ̀ⲧⲁⲓⲟ̀ ⲛ̀Ⲥⲁⲙⲟⲩⲏⲗ: ⲭˉⲉˉ ⲡ̀ϣⲟⲩϣⲟⲩ ⲙ̀Ⲡⲓⲥ̀ⲣⲁⲏⲗ.</td>
+        <td class="coptic" >Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: ⲡ̀ϩⲓⲱⲓϣ ⲙ̀Ⲙⲱⲩ̀ⲥⲏⲥ: ⲭ̅ⲉ̅  :
+            ⲑ̀ⲙⲁⲩ ⲙ̀ⲡⲓⲇⲉⲥⲡⲟⲧⲏⲥ: ⲭ̅ⲉ̅  : ⲡ̀ⲧⲁⲓⲟ̀ ⲛ̀Ⲥⲁⲙⲟⲩⲏⲗ: ⲭ̅ⲉ̅  ⲡ̀ϣⲟⲩϣⲟⲩ ⲙ̀Ⲡⲓⲥ̀ⲣⲁⲏⲗ.</td>
         <td class="arabic">السلام لك يامريم: كرازة موسى. السلام.. والدة السيد. السلام.. كرامة صموئيل.
             السلام.. فخر اسرائيل.</td>
     </tr>
@@ -1093,7 +1093,7 @@ function SundayTheotokia9ShashfEnsop(tableNumber) {
             Job the just : Hail...: the precious stone: Hail...: the Mother of the Beloved: Hail...: the
             daughter of King David.</td>
         <td class="coptic" >Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: ⲡ̀ⲧⲁϫⲣⲟ ⲛ̀Ⲓⲱⲃ ⲡⲓⲑ̀ⲙⲏⲓ:
-            ⲭˉⲉˉ : ⲡⲓⲱ̀ⲛⲓ ⲛ̀ⲁ̀ⲛⲁⲙⲏⲓ: ⲭˉⲉˉ : ⲑ̀ⲙⲁⲩ ⲙ̀ⲡⲓⲙⲉⲛⲣⲓⲧ: ⲭˉⲉˉ : ⲧ̀ϣⲉⲣⲓ ⲙ̀ⲡ̀ⲟⲩⲣⲟ Ⲇⲁⲩⲓⲇ.</td>
+            ⲭ̅ⲉ̅  : ⲡⲓⲱ̀ⲛⲓ ⲛ̀ⲁ̀ⲛⲁⲙⲏⲓ: ⲭ̅ⲉ̅  : ⲑ̀ⲙⲁⲩ ⲙ̀ⲡⲓⲙⲉⲛⲣⲓⲧ: ⲭ̅ⲉ̅  : ⲧ̀ϣⲉⲣⲓ ⲙ̀ⲡ̀ⲟⲩⲣⲟ Ⲇⲁⲩⲓⲇ.</td>
         <td class="arabic">السلام لك يامريم: ثبات ايوب البار. السلام.. الحجر الكريم. السلام..أم الحبيب.
             السلام.. ابنة الملك داود.</td>
     </tr>
@@ -1101,8 +1101,8 @@ function SundayTheotokia9ShashfEnsop(tableNumber) {
         <td class="english" >Hail to you Mary: the friend of Solomon:
             Hail...: the exaltation of the righteous: Hail...: the redemption of Isaiah: Hail...: the
             healing of Jeremiah.</td>
-        <td class="coptic" >Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: ϯϣ̀ⲫⲉⲣⲓ ⲛ̀Ⲥⲟⲗⲟⲙⲱⲛ: ⲭˉⲉˉ :
-            ⲡ̀ϭⲓⲥⲓ ⲛ̀ⲛⲓⲇⲓⲕⲉⲟⲛ: ⲭˉⲉˉ : ⲡ̀ⲟⲩϫⲁⲓ ⲛ̀Ⲏⲥⲁⲏⲁⲥ: ⲭˉⲉˉ : ⲡ̀ⲧⲁⲗϭⲟ ⲛ̀Ⲓⲉⲣⲉⲙⲓⲁⲥ.</td>
+        <td class="coptic" >Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: ϯϣ̀ⲫⲉⲣⲓ ⲛ̀Ⲥⲟⲗⲟⲙⲱⲛ: ⲭ̅ⲉ̅  :
+            ⲡ̀ϭⲓⲥⲓ ⲛ̀ⲛⲓⲇⲓⲕⲉⲟⲛ: ⲭ̅ⲉ̅  : ⲡ̀ⲟⲩϫⲁⲓ ⲛ̀Ⲏⲥⲁⲏⲁⲥ: ⲭ̅ⲉ̅  : ⲡ̀ⲧⲁⲗϭⲟ ⲛ̀Ⲓⲉⲣⲉⲙⲓⲁⲥ.</td>
         <td class="arabic">السلام لك يامريم: صديقة سليمان. السلام.. رفعة الصديقين. السلام.. خلاص أشعياء.
             السلام.. شفاء أرميا.</td>
     </tr>
@@ -1110,17 +1110,17 @@ function SundayTheotokia9ShashfEnsop(tableNumber) {
         <td class="english" >Hail to you Mary: the knowledge of
             Ezekiel: Hail...: the grace of Daniel: Hail...: the power of Elijah: Hail...: the grace of
             Elisha.</td>
-        <td class="coptic" >Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: ⲡ̀ⲉⲙⲓ ⲛ̀Ⲓⲉⲍⲉⲕⲓⲏⲗ: ⲭˉⲉˉ :
-            ⲭⲁⲣⲓⲥ ⲧⲟⲩ Ⲇⲁⲛⲓⲏⲗ: ⲭˉⲉˉ : ⲧ̀ϫⲟⲙ ⲛ̀Ⲏⲗⲓⲁⲥ: ⲭˉⲉˉ : ⲡⲓϩ̀ⲙⲟⲧ ⲛ̀Ⲉⲗⲓⲥⲉⲟⲥ.</td>
+        <td class="coptic" >Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: ⲡ̀ⲉⲙⲓ ⲛ̀Ⲓⲉⲍⲉⲕⲓⲏⲗ: ⲭ̅ⲉ̅  :
+            ⲭⲁⲣⲓⲥ ⲧⲟⲩ Ⲇⲁⲛⲓⲏⲗ: ⲭ̅ⲉ̅  : ⲧ̀ϫⲟⲙ ⲛ̀Ⲏⲗⲓⲁⲥ: ⲭ̅ⲉ̅  : ⲡⲓϩ̀ⲙⲟⲧ ⲛ̀Ⲉⲗⲓⲥⲉⲟⲥ.</td>
         <td class="arabic">السلام لك يامريم: علم حزقيال. السلام.. نعمة دانيال. السلام..قوة ايليا. السلام..
             نعمة اليشع.</td>
     </tr>
     <tr id="table_${tableNumber}_row_15" class="south">
-        <td class="english" >Hail to you Mary: the mother of God:
-            Hail...: the Mother of Jesus Christ: Hail...: the beautiful dove: Hail...: the mother of the Son
+        <td class="english" >Hail to you Mary: the Mother of God:
+            Hail...: the mother of Jesus Christ: Hail...: the beautiful dove: Hail...: the mother of the Son
             of God.</td>
-        <td class="coptic" >Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ: ⲭˉⲉˉ : ⲑ̀ⲙⲁⲩ
-            ⲛ̀Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ : ⲭˉⲉˉ :ϯϭ̀ⲣⲟⲙⲡⲓ ⲉⲑⲛⲉⲥⲱⲥ: ⲭˉⲉˉ : ⲑ̀ⲙⲁⲩ ⲛ̀Ⲩⲓⲟⲥ Ⲑⲉⲟⲥ.</td>
+        <td class="coptic" >Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀: ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ: ⲭ̅ⲉ̅  : ⲑ̀ⲙⲁⲩ
+            ⲛ̀Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ : ⲭ̅ⲉ̅  :ϯϭ̀ⲣⲟⲙⲡⲓ ⲉⲑⲛⲉⲥⲱⲥ: ⲭ̅ⲉ̅  : ⲑ̀ⲙⲁⲩ ⲛ̀Ⲩⲓⲟⲥ Ⲑⲉⲟⲥ.</td>
         <td class="arabic">السلام لك يامريم: والدة الاله. السلام.. أم يسوع المسيح السلام.. الحمامة الحسناء.
             السلام..أم ابن الله.</td>
     </tr>
@@ -1154,7 +1154,7 @@ function SundayTheotokia9ShashfEnsop(tableNumber) {
     </tr>
     <tr id="table_${tableNumber}_row_20" class="north">
         <td class="english" >She conceived and gave birth: without a
-            man: to the son of the Highest: the word Himself.</td>
+            man: to the Son of the Highest: the Word Himself.</td>
         <td class="coptic" >Ⲁⲥⲉⲣⲃⲟⲕⲓ ⲁⲥⲙⲓⲥⲓ: ⲭⲱⲣⲓⲥ ⲥⲩⲛⲟⲩⲥⲓⲁ̀: ⲙ̀ⲡ̀ϣⲏⲣⲓ
             ⲙ̀ⲫⲏⲉⲧϭⲟⲥⲓ: ⲡⲓⲗⲟⲅⲟⲥ ⲛ̀ⲁⲓⲇⲓⲁ̀.</td>
         <td class="arabic">حبلت وولدت: بغير مباضعة: ابن العلى: الكلمة الذاتى.</td>
@@ -1167,7 +1167,7 @@ function SundayTheotokia9ShashfEnsop(tableNumber) {
         <td class="arabic">بصلواتها: وشفاعاتها: أفتح لنا يارب: باب الكنيسة.</td>
     </tr>
     <tr id="table_${tableNumber}_row_22" class="south">
-        <td class="english" >I entreat You: O mother of God: keep the
+        <td class="english" >I entreat You: O Mother of God: keep the
             gates of the church: open to the faithful.</td>
         <td class="coptic" >Ϯϯϩⲟ ⲉ̀ⲣⲟ: ⲱ̀ ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ: ⲭⲁ ⲫ̀ⲣⲟ
             ⲛ̀ⲛⲓⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀: ⲉϥⲟⲩⲏⲛ ⲛ̀ⲛⲓⲡⲓⲥⲧⲟⲥ.</td>
@@ -1195,7 +1195,7 @@ function SundayTheotokia10Avmoti(tableNumber) {
 </caption>
 <tbody>
     <tr id="table_${tableNumber}_row_0" class="north">
-        <td class="english" >You are called: O virgin Mary: the Holy
+        <td class="english" >You are called: O Virgin Mary: the holy
             flower: of incense.</td>
         <td class="coptic" >Ⲁⲩⲙⲟⲩϯ ⲉ̀ⲣⲟ: Ⲙⲁⲣⲓⲁ̀ ϯⲡⲁⲣⲑⲉⲛⲟⲥ: ϫⲉ ϯϩ̀ⲣⲏⲣⲓ
             ⲉⲑⲟⲩⲁⲃ: ⲛ̀ⲧⲉ ⲡⲓⲥ̀ⲑⲟⲓⲛⲟⲩϥⲓ.</td>
@@ -1216,10 +1216,10 @@ function SundayTheotokia10Avmoti(tableNumber) {
         <td class="arabic">مثل عصا: هرون الكاهن: أزهرت: وأوسقت ثمراً.</td>
     </tr>
     <tr id="table_${tableNumber}_row_3" class="south">
-        <td class="english" >For you gave birth to the word: without
+        <td class="english" >For you gave birth to the Word: without
             the seed of man: and your virginity: was not corrupted.</td>
         <td class="coptic" >Ϫⲉ ⲁ̀ⲣⲉϫ̀ⲫⲟ ⲙ̀ⲡⲓⲗⲟⲅⲟⲥ: ⲁϭⲛⲉ ⲥ̀ⲡⲉⲣⲙⲁ
-            ⲛ̀ⲣⲱⲙⲓ: ⲉⲥⲟⲓ ⲛ̀ⲁⲧⲧⲁⲕⲟ: ⲛ̀ϫⲉ ⲧⲉⲥⲡⲁⲣⲑⲉⲛⲓⲁ̀.</td>
+            ⲛ̀ⲣⲱⲙⲓ: ⲉⲥⲟⲓ ⲛ̀ⲁⲧⲧⲁⲕⲟ: ⲛ̀ϫⲉ ⲧⲉⲡⲁⲣⲑⲉⲛⲓⲁ̀.</td>
         <td class="arabic">لانك ولدت الكلمة: بغير زرع بشر: وبتوليتك بغير فساد.</td>
     </tr>
     <tr id="table_${tableNumber}_row_4" class="north">
