@@ -991,7 +991,7 @@ return `
                 <td class="arabic">باركي الرب أيتها الأهوية والأنداء سبّحيه وزيديه علواً إلى الآباد.</td>
             </tr>
             <tr id="table_16_row_19" class="south">
-                <td class="english" >Bless the Lord, O you night and days:
+                <td class="english" >Bless the Lord, O you nights and days:
                     Praise Him and exalt Him above all forever.</td>
                 <td class="coptic" >̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲛⲓⲉ̀ϫⲱⲣϩ ⲛⲉⲙ ⲛⲓⲉ̀ϩⲟⲟⲩ : ϩⲱⲥ
                     ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ.</td>
