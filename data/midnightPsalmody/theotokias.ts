@@ -352,7 +352,7 @@ ${part1Explanation}
     </tr>
     <tr id="table_${tableNumber + 3}_row_6" class="south">
         <td class="english" >And we also pray, that we may win mercy,
-            Through your intercessions,With the Lover of mankind.</td>
+            Through your intercessions, With the Lover of mankind.</td>
         <td class="coptic" >̀ Ⲁⲛⲟⲛ ϩⲱⲛ ⲧⲉⲛⲧⲱⲃϩ : ⲉⲑⲣⲉⲛϣⲁϣⲛⲓ ⲉⲩⲛⲁⲓ :
             ϩⲓⲧⲉⲛ ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ.</td>
         <td class="arabic">ونحن أيضاً: نطلب أن نفوز: برحمة بشفاعاتك: عند محب البشر.</td>
@@ -649,7 +649,7 @@ ${part4Explanation}
     </tr>
     <tr id="table_${tableNumber + 9}_row_6" class="north">
         <td class="english" >And we also pray, that we may win mercy,
-            Through your intercessions,With the Lover of mankind.</td>
+            Through your intercessions, With the Lover of mankind.</td>
         <td class="coptic" >̀ Ⲁⲛⲟⲛ ϩⲱⲛ ⲧⲉⲛⲧⲱⲃϩ : ⲉⲑⲣⲉⲛϣⲁϣⲛⲓ
             ⲉⲩⲛⲁⲓ : ϩⲓⲧⲉⲛ ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ.</td>
         <td class="arabic">ونحن أيضاً: نطلب أن نفوز: برحمة بشفاعاتك: عند محب البشر.</td>
@@ -912,7 +912,7 @@ function SundayTheotokia7ShereNeMaria(tableNumber) {
     </tr>
     <tr id="table_${tableNumber}_row_5" class="south">
         <td class="english" >And we also pray, that we may win mercy,
-            through your intercessions,With the Lover of Mankind. ${cross}</td>
+            through your intercessions, With the Lover of Mankind. ${cross}</td>
         <td class="coptic" >̀Ⲁⲛⲟⲛ ϩⲱⲛ ⲧⲉⲛⲧⲱⲃϩ : ⲉⲑⲣⲉⲛϣⲁϣⲛⲓ ⲉⲩⲛⲁⲓ :
             ϩⲓⲧⲉⲛ ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ̀ : ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ. ${cross}</td>
         <td class="arabic">ونحن أيضاً: نطلب أن نفوز: برحمة بشفاعاتك: عند محب البشر. ${cross}</td>
@@ -1239,14 +1239,14 @@ function SundayTheotokia11TeoiEnHikanos(tableNumber) {
 
 <table id="table_${tableNumber}" style="display: table;" title="Sunday Theotokia &ndash; Part 10 Ⲧⲉⲟⲓⲛ̀ϩⲓⲕⲁⲛⲟⲥ">
 <caption id="caption_table_${tableNumber}" class="caption">Sunday Theotokia &ndash; Part 10 <br /><span
-        class="coptic-caption">Ⲧⲉⲟⲓⲛ̀ϩⲓⲕⲁⲛⲟⲥ</span>
+        class="coptic-caption">Ⲧⲉⲟⲓ ⲛ̀ϩⲓⲕⲁⲛⲟⲥ</span>
         <span class="arabic-caption">ثيوطوكية الأحد - الجزء العاشر</span>
     </caption>
 <tbody>
     <tr id="table_${tableNumber}_row_0" class="north">
         <td class="english" >You are more worthy, than all of the
             saints, to pray on our behalf, O full of grace.</td>
-        <td class="coptic" >Ⲧ ⲉⲟⲓ ⲛ̀ϩⲓⲕⲁⲛⲟⲥ : ⲉ̀ϩⲟⲧⲉ ⲛⲏⲉⲑⲟⲩⲁⲃ ⲧⲏⲣⲟⲩ :
+        <td class="coptic" >Ⲧⲉⲟⲓ ⲛ̀ϩⲓⲕⲁⲛⲟⲥ : ⲉ̀ϩⲟⲧⲉ ⲛⲏⲉⲑⲟⲩⲁⲃ ⲧⲏⲣⲟⲩ :
             ⲉⲑⲣⲉⲧⲱⲃϩ ⲉ̀ϫⲱⲛ : ⲱ̀ ⲑⲏⲉⲑⲙⲉϩ ⲛ̀ϩ̀ⲙⲟⲧ.</td>
         <td class="arabic">أنت مستحقة: اكثر من جميع القديسين: أن تطلبى عنا: ايتها الممتلئة نعمة.</td>
     </tr>

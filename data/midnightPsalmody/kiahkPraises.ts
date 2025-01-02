@@ -1186,7 +1186,7 @@ psaliAdamOn2ndCanticle(tableNumber) {
         <td class="arabic">اسمك مبارك: أيها الكلمة الحقيقي أيها...</td>
     </tr>
     <tr id="table_${tableNumber}_row_22" class="south">
-        <td class="english" >Guard us, O Christ, With Your Goodness, O
+        <td class="english" >Guard us O Christ, With Your Goodness, O
             Holy ...</td>
         <td class="coptic" >Ⲣⲱⲓⲥ ⲉ̀ⲣⲟⲛ ⲱ̀ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ϧⲉⲛ
             ⲧⲉⲕⲙⲉⲧⲁ̀ⲅⲁⲑⲟⲥ : ⲁ̀ⲅⲓⲁ̀...</td>
@@ -2137,8 +2137,8 @@ psaliAdamOn3rdCanticle(tableNumber) {
     <tr id="table_${tableNumber}_row_0" class="north">
         <td class="english" >I thank You, O God of Israel, For You had
             mercy on us, According to Your great mercy</td>
-        <td class="coptic" >Ϯϣⲉⲡϩ̀ⲙⲟⲧ ⲛ̀ⲧⲟⲧⲕ : Ⲫϯ ⲙ̀Ⲡⲓⲥ̀ⲣⲁⲏⲗ : ϫⲉ
-            ⲁⲕⲓⲣⲓ ⲛⲉⲙⲁⲛ : ⲕⲁⲧⲁ ⲡⲉⲕⲛⲓϣϯ ⲛ̀ⲛⲁⲓ.</td>
+        <td class="coptic" >Ϯϣⲉⲡϩ̀ⲙⲟⲧ ⲛ̀ⲧⲟⲧⲕ: Ⲫϯ ⲙ̀Ⲡⲓⲥ̀ⲣⲁⲏⲗ: ϫⲉ
+            ⲁⲕⲓⲣⲓ ⲛⲉⲙⲁⲛ: ⲕⲁⲧⲁ ⲡⲉⲕⲛⲓϣϯ ⲛ̀ⲛⲁⲓ.</td>
         <td class="arabic">أشكرك: ياإله اسرائيل: لأنك صنعت معنا: كعظيم رحمتك</td>
     </tr>
     <tr id="table_${tableNumber}_row_1" class="north">
@@ -4001,8 +4001,8 @@ fourthCanticleKiahk(tableNumber) {
             <tr id="table_${tableNumber}_row_27" class="refrain">
                 <td class="english" >Unto our God is due glory and the Praise.
                     Praise the Lord our God with a joyful psalm.</td>
-                <td class="coptic" >Ⲉϥⲉ̀ⲣⲁⲛⲁϥ ⲙ̀ⲡⲉⲛⲛⲟⲩϯ ⲛ̀ϫⲉ ⲡⲓⲱⲟⲩ ⲛⲉⲙ
-                    ⲡⲓⲥ̀ⲙⲟⲩ. Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲡⲉⲛⲛⲟⲩϯ ϫⲉ ⲛⲁⲛⲉ ⲟⲩⲯⲁⲗⲙⲟⲥ.</td>
+                <td class="coptic" >Ⲉϥⲉ̀ⲣⲁⲛⲁϥ ⲙ̀Ⲡⲉⲛⲛⲟⲩϯ ⲛ̀ϫⲉ ⲡⲓⲱ̀ⲟⲩ ⲛⲉⲙ
+                    ⲡⲓⲥ̀ⲙⲟⲩ. Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ Ⲡⲉⲛⲛⲟⲩϯ ϫⲉ ⲛⲁⲛⲉ ⲟⲩⲯⲁⲗⲙⲟⲥ.</td>
                 <td class="arabic">يليق لإلهنا المجد والتسبيح. سبحوا الرب الهنا بحسن المزمار.</td>
             </tr>
             <tr id="table_${tableNumber}_row_28" class="south">
@@ -4015,8 +4015,8 @@ fourthCanticleKiahk(tableNumber) {
             <tr id="table_${tableNumber}_row_29" class="refrain">
                 <td class="english" >Unto our God is due glory and the Praise.
                     Praise the Lord our God with a joyful psalm.</td>
-                <td class="coptic" >Ⲉϥⲉ̀ⲣⲁⲛⲁϥ ⲙ̀ⲡⲉⲛⲛⲟⲩϯ ⲛ̀ϫⲉ ⲡⲓⲱⲟⲩ ⲛⲉⲙ
-                    ⲡⲓⲥ̀ⲙⲟⲩ. ̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲡⲉⲛⲛⲟⲩϯ ϫⲉ ⲛⲁⲛⲉ ⲟⲩⲯⲁⲗⲙⲟⲥ.</td>
+                <td class="coptic" >Ⲉϥⲉ̀ⲣⲁⲛⲁϥ ⲙ̀Ⲡⲉⲛⲛⲟⲩϯ ⲛ̀ϫⲉ ⲡⲓⲱ̀ⲟⲩ ⲛⲉⲙ
+                    ⲡⲓⲥ̀ⲙⲟⲩ. Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ Ⲡⲉⲛⲛⲟⲩϯ ϫⲉ ⲛⲁⲛⲉ ⲟⲩⲯⲁⲗⲙⲟⲥ.</td>
                 <td class="arabic">يليق لإلهنا المجد والتسبيح. سبحوا الرب الهنا بحسن المزمار.</td>
             </tr>
             <tr id="table_${tableNumber}_row_30" class="north">
@@ -4029,8 +4029,8 @@ fourthCanticleKiahk(tableNumber) {
             <tr id="table_${tableNumber}_row_31" class="refrain">
                 <td class="english" >Unto our God is due glory and the Praise.
                     Praise the Lord our God with a joyful psalm.</td>
-                <td class="coptic" >Ⲉϥⲉ̀ⲣⲁⲛⲁϥ ⲙ̀ⲡⲉⲛⲛⲟⲩϯ ⲛ̀ϫⲉ ⲡⲓⲱⲟⲩ ⲛⲉⲙ
-                    ⲡⲓⲥ̀ⲙⲟⲩ. ̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲡⲉⲛⲛⲟⲩϯ ϫⲉ ⲛⲁⲛⲉ ⲟⲩⲯⲁⲗⲙⲟⲥ.</td>
+                <td class="coptic" >Ⲉϥⲉ̀ⲣⲁⲛⲁϥ ⲙ̀Ⲡⲉⲛⲛⲟⲩϯ ⲛ̀ϫⲉ ⲡⲓⲱ̀ⲟⲩ ⲛⲉⲙ
+                    ⲡⲓⲥ̀ⲙⲟⲩ. Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ Ⲡⲉⲛⲛⲟⲩϯ ϫⲉ ⲛⲁⲛⲉ ⲟⲩⲯⲁⲗⲙⲟⲥ.</td>
                 <td class="arabic">يليق لإلهنا المجد والتسبيح. سبحوا الرب الهنا بحسن المزمار.</td>
             </tr>
             <tr id="table_${tableNumber}_row_32" class="south">
@@ -4043,8 +4043,8 @@ fourthCanticleKiahk(tableNumber) {
             <tr id="table_${tableNumber}_row_33" class="refrain">
                 <td class="english" >Unto our God is due glory and the Praise.
                     Praise the Lord our God with a joyful psalm.</td>
-                <td class="coptic" >Ⲉϥⲉ̀ⲣⲁⲛⲁϥ ⲙ̀ⲡⲉⲛⲛⲟⲩϯ ⲛ̀ϫⲉ ⲡⲓⲱⲟⲩ ⲛⲉⲙ
-                    ⲡⲓⲥ̀ⲙⲟⲩ. ̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲡⲉⲛⲛⲟⲩϯ ϫⲉ ⲛⲁⲛⲉ ⲟⲩⲯⲁⲗⲙⲟⲥ.</td>
+                <td class="coptic" >Ⲉϥⲉ̀ⲣⲁⲛⲁϥ ⲙ̀Ⲡⲉⲛⲛⲟⲩϯ ⲛ̀ϫⲉ ⲡⲓⲱ̀ⲟⲩ ⲛⲉⲙ
+                    ⲡⲓⲥ̀ⲙⲟⲩ. Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ Ⲡⲉⲛⲛⲟⲩϯ ϫⲉ ⲛⲁⲛⲉ ⲟⲩⲯⲁⲗⲙⲟⲥ.</td>
                 <td class="arabic">يليق لإلهنا المجد والتسبيح. سبحوا الرب الهنا بحسن المزمار.</td>
             </tr>
             <tr id="table_${tableNumber}_row_34" class="north">
@@ -4057,8 +4057,8 @@ fourthCanticleKiahk(tableNumber) {
             <tr id="table_${tableNumber}_row_35" class="refrain">
                 <td class="english" >Unto our God is due glory and the Praise.
                     Praise the Lord our God with a joyful psalm.</td>
-                <td class="coptic" >Ⲉϥⲉ̀ⲣⲁⲛⲁϥ ⲙ̀ⲡⲉⲛⲛⲟⲩϯ ⲛ̀ϫⲉ ⲡⲓⲱⲟⲩ ⲛⲉⲙ
-                    ⲡⲓⲥ̀ⲙⲟⲩ. ̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲡⲉⲛⲛⲟⲩϯ ϫⲉ ⲛⲁⲛⲉ ⲟⲩⲯⲁⲗⲙⲟⲥ.</td>
+                <td class="coptic" >Ⲉϥⲉ̀ⲣⲁⲛⲁϥ ⲙ̀Ⲡⲉⲛⲛⲟⲩϯ ⲛ̀ϫⲉ ⲡⲓⲱ̀ⲟⲩ ⲛⲉⲙ
+                    ⲡⲓⲥ̀ⲙⲟⲩ. Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ Ⲡⲉⲛⲛⲟⲩϯ ϫⲉ ⲛⲁⲛⲉ ⲟⲩⲯⲁⲗⲙⲟⲥ.</td>
                 <td class="arabic">يليق لإلهنا المجد والتسبيح. سبحوا الرب الهنا بحسن المزمار.</td>
             </tr>
             <tr id="table_${tableNumber}_row_36" class="south">
@@ -4071,8 +4071,8 @@ fourthCanticleKiahk(tableNumber) {
             <tr id="table_${tableNumber}_row_37" class="refrain">
                 <td class="english" >Unto our God is due glory and the Praise.
                     Praise the Lord our God with a joyful psalm.</td>
-                <td class="coptic" >Ⲉϥⲉ̀ⲣⲁⲛⲁϥ ⲙ̀ⲡⲉⲛⲛⲟⲩϯ ⲛ̀ϫⲉ ⲡⲓⲱⲟⲩ ⲛⲉⲙ
-                    ⲡⲓⲥ̀ⲙⲟⲩ. ̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲡⲉⲛⲛⲟⲩϯ ϫⲉ ⲛⲁⲛⲉ ⲟⲩⲯⲁⲗⲙⲟⲥ.</td>
+                <td class="coptic" >Ⲉϥⲉ̀ⲣⲁⲛⲁϥ ⲙ̀Ⲡⲉⲛⲛⲟⲩϯ ⲛ̀ϫⲉ ⲡⲓⲱ̀ⲟⲩ ⲛⲉⲙ
+                    ⲡⲓⲥ̀ⲙⲟⲩ. Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ Ⲡⲉⲛⲛⲟⲩϯ ϫⲉ ⲛⲁⲛⲉ ⲟⲩⲯⲁⲗⲙⲟⲥ.</td>
                 <td class="arabic">يليق لإلهنا المجد والتسبيح. سبحوا الرب الهنا بحسن المزمار.</td>
             </tr>
             <tr id="table_${tableNumber}_row_38" class="north">
@@ -4085,8 +4085,8 @@ fourthCanticleKiahk(tableNumber) {
             <tr id="table_${tableNumber}_row_39" class="refrain">
                 <td class="english" >Unto our God is due glory and the Praise.
                     Praise the Lord our God with a joyful psalm.</td>
-                <td class="coptic" >Ⲉϥⲉ̀ⲣⲁⲛⲁϥ ⲙ̀ⲡⲉⲛⲛⲟⲩϯ ⲛ̀ϫⲉ ⲡⲓⲱⲟⲩ ⲛⲉⲙ
-                    ⲡⲓⲥ̀ⲙⲟⲩ. ̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲡⲉⲛⲛⲟⲩϯ ϫⲉ ⲛⲁⲛⲉ ⲟⲩⲯⲁⲗⲙⲟⲥ.</td>
+                <td class="coptic" >Ⲉϥⲉ̀ⲣⲁⲛⲁϥ ⲙ̀Ⲡⲉⲛⲛⲟⲩϯ ⲛ̀ϫⲉ ⲡⲓⲱ̀ⲟⲩ ⲛⲉⲙ
+                    ⲡⲓⲥ̀ⲙⲟⲩ. Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ Ⲡⲉⲛⲛⲟⲩϯ ϫⲉ ⲛⲁⲛⲉ ⲟⲩⲯⲁⲗⲙⲟⲥ.</td>
                 <td class="arabic">يليق لإلهنا المجد والتسبيح. سبحوا الرب الهنا بحسن المزمار.</td>
             </tr>
             <tr id="table_${tableNumber}_row_40" class="south">
@@ -4099,8 +4099,8 @@ fourthCanticleKiahk(tableNumber) {
             <tr id="table_${tableNumber}_row_41" class="refrain">
                 <td class="english" >Unto our God is due glory and the Praise.
                     Praise the Lord our God with a joyful psalm.</td>
-                <td class="coptic" >Ⲉϥⲉ̀ⲣⲁⲛⲁϥ ⲙ̀ⲡⲉⲛⲛⲟⲩϯ ⲛ̀ϫⲉ ⲡⲓⲱⲟⲩ ⲛⲉⲙ
-                    ⲡⲓⲥ̀ⲙⲟⲩ. ̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲡⲉⲛⲛⲟⲩϯ ϫⲉ ⲛⲁⲛⲉ ⲟⲩⲯⲁⲗⲙⲟⲥ.</td>
+                <td class="coptic" >Ⲉϥⲉ̀ⲣⲁⲛⲁϥ ⲙ̀Ⲡⲉⲛⲛⲟⲩϯ ⲛ̀ϫⲉ ⲡⲓⲱ̀ⲟⲩ ⲛⲉⲙ
+                    ⲡⲓⲥ̀ⲙⲟⲩ. Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ Ⲡⲉⲛⲛⲟⲩϯ ϫⲉ ⲛⲁⲛⲉ ⲟⲩⲯⲁⲗⲙⲟⲥ.</td>
                 <td class="arabic">يليق لإلهنا المجد والتسبيح. سبحوا الرب الهنا بحسن المزمار.</td>
             </tr>
             <tr id="table_${tableNumber}_row_42" class="north">
@@ -4113,8 +4113,8 @@ fourthCanticleKiahk(tableNumber) {
             <tr id="table_${tableNumber}_row_43" class="refrain">
                 <td class="english" >Unto our God is due glory and the Praise.
                     Praise the Lord our God with a joyful psalm.</td>
-                <td class="coptic" >Ⲉϥⲉ̀ⲣⲁⲛⲁϥ ⲙ̀ⲡⲉⲛⲛⲟⲩϯ ⲛ̀ϫⲉ ⲡⲓⲱⲟⲩ ⲛⲉⲙ
-                    ⲡⲓⲥ̀ⲙⲟⲩ. ̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲡⲉⲛⲛⲟⲩϯ ϫⲉ ⲛⲁⲛⲉ ⲟⲩⲯⲁⲗⲙⲟⲥ.</td>
+                <td class="coptic" >Ⲉϥⲉ̀ⲣⲁⲛⲁϥ ⲙ̀Ⲡⲉⲛⲛⲟⲩϯ ⲛ̀ϫⲉ ⲡⲓⲱ̀ⲟⲩ ⲛⲉⲙ
+                    ⲡⲓⲥ̀ⲙⲟⲩ. Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ Ⲡⲉⲛⲛⲟⲩϯ ϫⲉ ⲛⲁⲛⲉ ⲟⲩⲯⲁⲗⲙⲟⲥ.</td>
                 <td class="arabic">يليق لإلهنا المجد والتسبيح. سبحوا الرب الهنا بحسن المزمار.</td>
             </tr>
             <tr id="table_${tableNumber}_row_44" class="south">
@@ -4127,8 +4127,8 @@ fourthCanticleKiahk(tableNumber) {
             <tr id="table_${tableNumber}_row_45" class="refrain">
                 <td class="english" >Unto our God is due glory and the Praise.
                     Praise the Lord our God with a joyful psalm.</td>
-                <td class="coptic" >Ⲉϥⲉ̀ⲣⲁⲛⲁϥ ⲙ̀ⲡⲉⲛⲛⲟⲩϯ ⲛ̀ϫⲉ ⲡⲓⲱⲟⲩ ⲛⲉⲙ
-                    ⲡⲓⲥ̀ⲙⲟⲩ. ̀ Ⲥⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ ⲡⲉⲛⲛⲟⲩϯ ϫⲉ ⲛⲁⲛⲉ ⲟⲩⲯⲁⲗⲙⲟⲥ.</td>
+                <td class="coptic" >Ⲉϥⲉ̀ⲣⲁⲛⲁϥ ⲙ̀Ⲡⲉⲛⲛⲟⲩϯ ⲛ̀ϫⲉ ⲡⲓⲱ̀ⲟⲩ ⲛⲉⲙ
+                    ⲡⲓⲥ̀ⲙⲟⲩ. Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡϭⲟⲓⲥ Ⲡⲉⲛⲛⲟⲩϯ ϫⲉ ⲛⲁⲛⲉ ⲟⲩⲯⲁⲗⲙⲟⲥ.</td>
                 <td class="arabic">يليق لإلهنا المجد والتسبيح. سبحوا الرب الهنا بحسن المزمار.</td>
             </tr>
             <tr id="table_${tableNumber}_row_46" class="north">
@@ -4445,7 +4445,7 @@ const html = `
             <td class="arabic">تتناهى كل ممالك: تفنى كنوز الأمراء: ياربى يسوع المسيح: أنت كنز الفقراء</td>
         </tr>
         <tr id="table_${tableNumber}_row_22" class="south">
-            <td class="english" >The poor make them rich: And heal the sick
+            <td class="english" >The poor make them rich: And heal the sick:
                 Raise the orphans: O Lord enrich them</td>
             <td class="arabic">فقراء شعبك اغنيهم: والمرضى أشفيهم: والايتام ربًيهم: من فضلك أغنيهم</td>
         </tr>
@@ -5012,7 +5012,7 @@ const html = `
         </tr>
         <tr id="table_${tableNumber}_row_5" class="south">
             <td class="english" >You held the Son of God: The Creator of
-                all things: The Life Giver To every body and soul</td>
+                all things: The Life Giver: To every body and soul</td>
             <td class="arabic">حملت ابن الله: خالق كل المخلوقات: معطى كل حياة: لكل جسد ونفوس</td>
         </tr>
         <tr id="table_${tableNumber}_row_6" class="north">

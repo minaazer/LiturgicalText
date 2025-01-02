@@ -258,7 +258,7 @@ firstKiahkDoxology(tableNumber) {
                 </tr>
                 <tr id="table_${tableNumber}_row_9" class="south">
                     <td class="english" >Therefore at all times, we glorify you
-                        asTheotokos, ask the Lord on our behalf, that He may forgive us our sins.</td>
+                        as Theotokos, ask the Lord on our behalf, that He may forgive us our sins.</td>
                     <td class="coptic" >Ⲉⲑⲃⲉ ⲫⲁⲓ ⲧⲉⲛϯⲱ̀ⲟⲩ ⲛⲉ: ϩⲱⲥ Ⲑⲉⲟ̀ⲧⲟⲕⲟⲥ ⲛ̀ⲥⲏⲟⲩ
                         ⲛⲓⲃⲉⲛ: ⲙⲁϯϩⲟ ⲉ̀Ⲡ̅ⲟ̅ⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ: ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.</td>
                     <td class="arabic">من اجل هذا نمجدك كوالدة الاله كل حين إسألي الرب عنا ليغفر لنا خطايانا.</td>
