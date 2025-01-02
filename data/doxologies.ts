@@ -1,20 +1,24 @@
 import { getDoxologyHtml } from './doxologyTexts';
 import { getSeasonalDoxologyHtml, seasonalDoxologyFunctionNames } from './seasonal/seasonalDoxologyTexts';
+import { getAdamDoxologiesConclusion } from './midnightPsalmody/annual';
 
-export const doxologiesHtml = (settings) => {
-    
-    
+export const doxologiesHtml = (settings , source) => {
+    // Deep copy of doxologyFunctionNames to avoid modifying the original array
+    const doxologyFunctionNames = settings.doxologyFunctionNames.map(doxology => ({ ...doxology }));
+
+    const adam = settings.selectedDateProperties.adamOrWatos === "Adam";
+    const adamDoxologiesConclusion = source === "midnightPraises" && adam ? getAdamDoxologiesConclusion(100) : '';
     // Get the selected date properties
     const copticSeason = settings.selectedDateProperties.copticSeason;
+    const saintFeasts = settings.selectedDateProperties.saintFeast;
 
     // Get the introductory doxology
-    // if Kiahk is in copticSeason, then do not show the intro
-    // const introductionHtml =  getDoxologyHtml('intro', 0);
-    const introductionHtml =  '';
+    const introductionHtml = '';
 
+    // Deep copy of seasonalDoxologyFunctionNames
+    const matchingSeasonsFunctionNames = seasonalDoxologyFunctionNames.map(doxology => ({ ...doxology }));
 
     // Update visibility of matching seasons
-    const matchingSeasonsFunctionNames = seasonalDoxologyFunctionNames;
 
     copticSeason.forEach(season => {
         const matchedSeason = matchingSeasonsFunctionNames.find(
@@ -24,7 +28,6 @@ export const doxologiesHtml = (settings) => {
             matchedSeason.visible = true;
         }
     });
-
 
     // Filter and generate HTML for seasonal doxologies
     const visibleSeasonalDoxologies = matchingSeasonsFunctionNames
@@ -37,7 +40,6 @@ export const doxologiesHtml = (settings) => {
         .join('');
     
     // Filter and generate HTML for regular doxologies
-    const doxologyFunctionNames = settings.doxologyFunctionNames;
     // Logic to modify visibility based on `copticSeason`
     if (copticSeason.includes('Kiahk')) {
         // Find the Archangel Gabriel Kiahk doxology and set it to visible
@@ -60,8 +62,19 @@ export const doxologiesHtml = (settings) => {
                 doxology.visible = false; // Set to not visible
             }
         });        
-    }
+    } 
 
+    if (saintFeasts.some(feast => feast.saintName)) {
+        // Make doxologies matching the saintName in saintFeasts visible
+        saintFeasts.forEach(feast => {
+            if (feast.saintName) {
+                const matchingDoxology = doxologyFunctionNames.find(doxology => doxology.name === feast.saintName);
+                if (matchingDoxology) {
+                    matchingDoxology.visible = true; // Set to visible
+                }
+            }
+        });
+    }
 
     // Filter and process visible doxologies
     const visibleDoxologies = doxologyFunctionNames
@@ -79,6 +92,7 @@ export const doxologiesHtml = (settings) => {
             ${introductionHtml}
             ${seasonalDoxologiesHtml}
             ${doxologiesHtml}
+            ${adamDoxologiesConclusion}
         </div>
     `;
 };

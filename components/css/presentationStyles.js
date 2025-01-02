@@ -137,6 +137,7 @@ export const presentationStyles = StyleSheet.create({
     fontFamily: "Georgia",
     color: "#FFF",
     marginVertical: 5,
+    marginHorizontal: 10,
   },
 
   drawerLabel: {
@@ -580,15 +581,47 @@ seasonsButtonContainer: {
   inactiveButton: {
     backgroundColor: "#ccc",
   },
+
+  // Bible screen styles *********************************************************
+  bibleScreenContainer: {
+    flex: 0, // Prevents the container from stretching to fill the screen
+    flexDirection: "column",
+    justifyContent: "flex-start", // Align items to the top
+    alignItems: "center",
+    paddingVertical: 20, // Optional padding for consistent spacing around the container
+  },
+  bibleSelectionContainer: {
+    width: "90%", // Keeps the width consistent
+    marginBottom: 10, // Add spacing between the containers
+  },
+  bibleSellectionTitle: {
+    fontSize: isPortrait ? screenHeight * 0.025 : screenWidth * 0.025,
+    fontWeight: "bold",
+    color: "black",
+    marginBottom: 5, // Reduce the space below the title
+    textAlign: "center",
+  },
+  bibleSelectionButton: {
+    backgroundColor: "#003060",
+    borderRadius: 10,
+    padding: 10,
+    marginTop: 20, // Space between the last selection container and the button
+    justifyContent: "center",
+    alignItems: "center",
+    width: "90%",
+  },
+  
+
 });
 
 export const pickerSelectStyles = StyleSheet.create({
   inputIOS: {
       fontSize: 16,
-      paddingVertical: 6,
+      paddingVertical: 10,
       paddingHorizontal: 20,
       borderWidth: 0,
       borderColor: 'black',
+      width: '100%',
       borderRadius: 20,
       color: 'black',
       paddingRight: 35, // to ensure the text is not overlapping the dropdown icon
@@ -615,12 +648,16 @@ export const pickerSelectStyles = StyleSheet.create({
 
   },
   iconContainer: {
-      top: 5,
-      right: Platform.OS === 'ios' ? 5 : 10,
+      top: 10,
+      right: Platform.OS === 'ios' ? 0 : 10,
+      alignSelf: 'center', // Centers the icon vertically
+      transform: [{ scale: 2.5 }], // Rotates the icon 180 degrees
+      
     },
 
   placeholder: {
       color: 'black',
       fontSize: 16,
   },
+
 });

@@ -1394,77 +1394,77 @@ function psalmodyConclusion(tableNumber) {
                 <td class="coptic" >Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ (3)</td>
                 <td class="arabic">يارب إرحم(3)</td>
             </tr>
-            <tr id="table_${tableNumber}_row_1" class="south">
+            <tr id="table_${tableNumber}_row_1" class="north">
                 <td class="english" >O God have mercy on us:</td>
                 <td class="coptic" >Ⲫϯ ⲛⲁⲓ ⲛⲁⲛ.</td>
                 <td class="arabic">ياالله ارحمنا.</td>
             </tr>
-            <tr id="table_${tableNumber}_row_2" class="north">
+            <tr id="table_${tableNumber}_row_2" class="south">
                 <td class="english" >O God hear us:</td>
                 <td class="coptic" >Ⲫϯ ⲥⲱⲧⲉⲙ ⲉ̀ⲣⲟⲛ.</td>
                 <td class="arabic">ياالله اسمعنا.</td>
             </tr>
-            <tr id="table_${tableNumber}_row_3" class="south">
+            <tr id="table_${tableNumber}_row_3" class="north">
                 <td class="english" >O God behold us:</td>
                 <td class="coptic" >Ⲫϯ ⲥⲟⲙⲥ ⲉ̀ⲣⲟⲛ.</td>
                 <td class="arabic">ياالله انظر الينا.</td>
             </tr>
-            <tr id="table_${tableNumber}_row_4" class="north">
+            <tr id="table_${tableNumber}_row_4" class="south">
                 <td class="english" >O God look to us:</td>
                 <td class="coptic" >Ⲫϯ ϫⲟⲩϣⲧ ⲉ̀ⲣⲟⲛ.</td>
                 <td class="arabic">ياالله اطّلع علينا</td>
             </tr>
-            <tr id="table_${tableNumber}_row_5" class="south">
+            <tr id="table_${tableNumber}_row_5" class="north">
                 <td class="english" >O God have compassion on us:</td>
                 <td class="coptic" >Ⲫϯ ϣⲉⲛϩⲏⲧ ϧⲁⲣⲟⲛ.</td>
                 <td class="arabic">يا الله تراءف علينا.</td>
             </tr>
-            <tr id="table_${tableNumber}_row_6" class="north">
+            <tr id="table_${tableNumber}_row_6" class="south">
                 <td class="english" >We are Your people:</td>
                 <td class="coptic" >Ⲁⲛⲟⲛ ϧⲁ ⲡⲉⲕⲗⲁⲟⲥ.</td>
                 <td class="arabic">نحن شعبك.</td>
             </tr>
-            <tr id="table_${tableNumber}_row_7" class="south">
+            <tr id="table_${tableNumber}_row_7" class="north">
                 <td class="english" >We are Your creation:</td>
                 <td class="coptic" >Ⲁⲛⲟⲛ ϧⲁ ⲡⲉⲕⲡ̀ⲗⲁⲥⲙⲁ.</td>
                 <td class="arabic">نحن جبلتك</td>
             </tr>
-            <tr id="table_${tableNumber}_row_8" class="north">
+            <tr id="table_${tableNumber}_row_8" class="south">
                 <td class="english" >Deliver us from our enemies:</td>
                 <td class="coptic" >Ⲛⲁϩⲙⲉⲛ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲉⲛϫⲁϫⲓ.</td>
                 <td class="arabic">نجنا من أعدائنا</td>
             </tr>
-            <tr id="table_${tableNumber}_row_9" class="south">
+            <tr id="table_${tableNumber}_row_9" class="north">
                 <td class="english" >Deliver us from inflation:</td>
                 <td class="coptic" >Ⲛⲁϩⲙⲉⲛ ⲉ̀ⲃⲟⲗϩⲁ ⲟⲩϩ̀ⲃⲱⲛ.</td>
                 <td class="arabic">نجنا من الغلاء.</td>
             </tr>
-            <tr id="table_${tableNumber}_row_10" class="north">
+            <tr id="table_${tableNumber}_row_10" class="south">
                 <td class="english" >We are Your servants:</td>
                 <td class="coptic" >Ⲁⲛⲟⲛ ϧⲁ ⲛⲉⲕⲉ̀ⲃⲓⲁⲓⲕ</td>
                 <td class="arabic">نحن عبيدك.</td>
             </tr>
-            <tr id="table_${tableNumber}_row_11" class="south">
+            <tr id="table_${tableNumber}_row_11" class="north">
                 <td class="english" >You are the Son of God:</td>
                 <td class="coptic" >̀ Ⲩⲓⲟⲥ Ⲑⲉⲟⲥ ⲛ̀ⲑⲟⲕ.</td>
                 <td class="arabic">أنت ابن الله.</td>
             </tr>
-            <tr id="table_${tableNumber}_row_12" class="north">
+            <tr id="table_${tableNumber}_row_12" class="south">
                 <td class="english" >We believe in You:</td>
                 <td class="coptic" >Ⲁⲛⲛⲁϩϯ ⲉ̀ⲣⲟⲕ.</td>
                 <td class="arabic">آمنا بك.</td>
             </tr>
-            <tr id="table_${tableNumber}_row_13" class="south">
+            <tr id="table_${tableNumber}_row_13" class="north">
                 <td class="english" >For You Have come and saved us:</td>
                 <td class="coptic" >Ϫⲉ ⲁⲕⲓ̀ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ</td>
                 <td class="arabic">لانك أتيت وخلصتنا</td>
             </tr>
-            <tr id="table_${tableNumber}_row_14" class="north">
+            <tr id="table_${tableNumber}_row_14" class="south">
                 <td class="english" >Visit us with Your salvation:</td>
                 <td class="coptic" >Ϫⲉⲙⲡⲉⲛϣⲓⲛⲓ ϧⲉⲛ ⲡⲉⲕⲟⲩϫⲁⲓ.</td>
                 <td class="arabic">تعهدنا بخلاصك.</td>
             </tr>
-            <tr id="table_${tableNumber}_row_15" class="south">
+            <tr id="table_${tableNumber}_row_15" class="north">
                 <td class="english" >And forgive us our sins ${cross}</td>
                 <td class="coptic" >Ⲟⲩⲟϩ ⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ. ${cross}</td>
                 <td class="arabic">واغفر لنا خطيانا. ${cross}</td>

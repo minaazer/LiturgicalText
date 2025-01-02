@@ -2,14 +2,18 @@ import { useContext, useState, useEffect } from 'react';
 import { Platform } from 'react-native';
 import { Dimensions } from 'react-native';
 import SettingsContext from '../../settings/settingsContext';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
+
 import { fontTypeface } from './fontTypeface';
 
 export const useDynamicStyles = (webviewRef) => {
+    const insets = useSafeAreaInsets();
     const { width, height } = Dimensions.get("window");
+    const safeAreaWidth = width - (insets.left + insets.right); // Account for safe area insets
     const isPortrait = height >= width; // Determine orientation
-    const isIpad = Platform.OS === 'ios' && isPortrait && width > 900; // Determine if iPad
+    const isIpad = Platform.OS === 'ios' && width > 1000; // Determine if iPad
     const isIphone = Platform.OS === 'ios' && !isIpad && !isPortrait; // Determine if iPhone
-    const calculatedWidth = isIphone ? '100%' : width - 10; // Adjust for padding
+    const calculatedWidth = isIphone ? `${safeAreaWidth-15}px` : `${width - 15}px`; // Adjust for padding
     const columnPadding = width > 900 ? 35 : 20; // Adjust for padding
     const fontSizeUnit = isPortrait ? 'vh' : 'vw';
     const [settings] = useContext(SettingsContext);
@@ -77,7 +81,7 @@ body {
  touch-action: none;
  color: white;
  font-size: ${fontSize};
- width: 100% !important;
+ width: ${calculatedWidth} !important;
  margin-top: 0px;
  padding-top: 0px;
  margin-bottom: 1000px;
@@ -102,7 +106,7 @@ margin: 0;
 padding: 0;
 display: table;
 layout: fixed;
-width: ${calculatedWidth}px !important;
+width: ${calculatedWidth} !important;
 border-collapse: collapse;
 font-size: ${fontSize};
 border-width: 0px;
@@ -126,7 +130,7 @@ tbody {
 tr {
     display: flex; /* Ensure rows behave like traditional table rows */
     flex-direction: row;
-    width: ${calculatedWidth}px !important;
+    width: ${calculatedWidth} !important;
     overflow-wrap: break-word; /* Prevent text overflow */
     overflow-x: hidden;
     padding: 0 0 10px 0; /* Add padding to the bottom of each row */

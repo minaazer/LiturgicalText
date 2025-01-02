@@ -2582,13 +2582,13 @@ function TheWednesdayTheotokia_Watos(tableNumber) {
         </tr>
         
         <tr id="table_${tableNumber}_row_1" class="north">
-            <td class="english">All the heavenly multitudes, declare your blessedness, for you are the second heaven, upon the earth.</td>
+            <td class="english">All the heavenly multitudes, declare your blessedness, for you are the Second Heaven, upon the earth.</td>
             <td class="coptic">Ⲛⲓⲧⲁⲅⲙⲁ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲛⲓⲫⲏⲟⲩⲓ̀: ⲥⲉϫⲱ ⲛ̀ⲛⲉⲙⲁⲕⲁⲣⲓⲥⲙⲟⲥ: ϫⲉ ⲛ̀ⲑⲟ ⲧⲉ ϯⲙⲁϩⲥ̀ⲛⲟⲩϯ ⲙ̀ⲫⲉ: ⲉⲧϣⲟⲡ ϩⲓϫⲉⲛ ⲡⲓⲕⲁϩⲓ.</td>
             <td class="arabic">كل الطغمات السمائية، ينطقون بطوباويتِك، لأنكِ أنتِ هي السماء الثانية، الكائنة على الأرض.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_2" class="south">
-            <td class="english">The door to the East, is the Virgin Mary, the pure bridal chamber, for the pure Bridegroom.</td>
+            <td class="english">The door to the East, is the Virgin Mary, the honored bridal chamber, for the pure Bridegroom.</td>
             <td class="coptic">Ϯⲡⲩⲗⲏ ⲛ̀ⲧⲉ ⲛⲓⲙⲁⲛ̀ϣⲁⲓ: ⲧⲉ Ⲙⲁⲣⲓⲁ Ϯⲡⲁⲣⲑⲉⲛⲟⲥ: ⲡⲓⲙⲁ ⲛ̀ϣⲉⲗⲉⲧ ⲉⲧⲧⲟⲩⲃⲏⲟⲩⲧ: ⲛ̀ⲧⲉ Ⲡⲓⲛⲩⲙⲫⲓⲟⲥ ⲛ̀ⲕⲁⲑⲁⲣⲟⲥ.</td>
             <td class="arabic">باب المشارق، هو مريم العذراء، الخدر الطاهر، الذي للختن النقي.</td>
         </tr>
@@ -2606,13 +2606,13 @@ function TheWednesdayTheotokia_Watos(tableNumber) {
         </tr>
         
         <tr id="table_${tableNumber}_row_5" class="south">
-            <td class="english">They spoke of you with honor, O city of God, for you are the dwelling place, of all the joyful.</td>
+            <td class="english">They spoke of you with honor, O City of God, for you are the dwelling place, of all the joyful.</td>
             <td class="coptic">Ⲁⲩⲥⲁϫⲓ ⲛ̀ϩⲁⲛⲧⲁⲓⲟ ⲉⲑⲃⲏϯ: ⲱ̀ ϯⲃⲁⲕⲓ ⲛ̀ⲧⲉ Ⲫ̀ⲛⲟⲩϯ: ϫⲉ ⲛ̀ⲑⲟ ⲡⲉⲧⲉⲣⲉ ⲫ̀ⲙⲁ ⲛ̀ϣⲱⲡⲓ: ⲛ̀ⲛⲏⲉ̀ⲧⲟⲩⲛⲟϥ ⲧⲏⲣⲟⲩ ⲛ̀ϧⲏϯ.</td>
             <td class="arabic">تكلموا بكرامات من أجلِك، يا مدينة الله، لأنك أنتِ مسكن، جميع الفرحين.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_6" class="north">
-            <td class="english">All the kings of the earth, walk in your light, and the nations in your brightness, O Mary the Mother of God.</td>
+            <td class="english">All the kings of the earth / walk in your light, / and the nations in your brightness, / O Mary the Mother of God.</td>
             <td class="coptic">Ⲛⲓⲟⲩⲣⲱⲟⲩ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲡ̀ⲕⲁϩⲓ: ⲥⲉⲙⲟϣⲓ ϧⲉⲛ ⲡⲉⲟⲩⲱⲓⲛⲓ: ⲟⲩⲟϩ ⲛⲓⲉⲑⲛⲟⲥ ϧⲉⲛ ⲡⲉⲫⲓⲣⲓ: ⲱ̀ Ⲙⲁⲣⲓⲁ Ⲑ̀ⲙⲁⲩ ⲙ̀Ⲫ̀ⲛⲟⲩϯ.</td>
             <td class="arabic">كل ملوك الأرض، يسيرون في نورك، والأمم في ضيائكِ، يا مريم أم الله.</td>
         </tr>
@@ -2636,13 +2636,13 @@ function TheWednesdayTheotokia_Watos(tableNumber) {
         </tr>
         
         <tr id="table_${tableNumber}_row_10" class="south">
-            <td class="english">You are the light cloud, that has lead us to, the rain of the coming, of the only-begotten God.</td>
+            <td class="english">You are the light cloud, that has led us to, the rain of the coming, of the only-begotten God.</td>
             <td class="coptic">Ⲛ̀ⲑⲟ ⲧⲉ ϯϭⲏⲡⲓ ⲉⲧⲁ̀ⲥⲓⲱⲟⲩ: ⲑⲏⲉ̀ⲧⲁⲥⲉⲣⲥⲩⲙⲙⲉⲛⲓⲛ ⲛⲁⲛ: ⲙ̀ⲡⲓⲙⲟⲩⲛϩⲱⲟⲩ ⲛ̀ⲧⲉ ϯⲡⲁⲣⲟⲩⲥⲓⲁ: ⲛ̀ⲧⲉ ⲡⲓⲙⲟⲛⲟⲅⲉⲛⲏⲥ ⲛ̀Ⲛⲟⲩϯ.</td>
             <td class="arabic">أنتِ هي السحابة الخفيفة، التي دلتنا على، مطر إستعلان، الإله الوحيد.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_11" class="north">
-            <td class="english">The Father created you, and the Holy Spirit came upon you, and the power of the Most High, overshadowed you O Mary.</td>
+            <td class="english">The Father created you, and the Holy Spirit came upon you, and the power of the highest, overshadowed you O Mary.</td>
             <td class="coptic">Ⲁ̀ Ⲫ̀ⲓⲱⲧ ⲉⲣⲧⲉⲭⲛⲓⲧⲏⲥ ⲉ̀ⲣⲟ: ⲁ̀ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ Ⲉⲑⲟⲩⲁⲃ ⲓ̀ ⲉ̀ϫⲱ: ⲟⲩϫⲟⲙ ⲛ̀ⲧⲉ Ⲫⲏⲉⲧϭⲟⲥⲓ: ⲉⲑⲛⲁⲉⲣϧⲏⲓⲃⲓ ⲉ̀ⲣⲟ Ⲙⲁⲣⲓⲁ.</td>
             <td class="arabic">الآب صنعِك، والرُّوح القُدُس حلَّ عليكِ، وقوة العلي، ظللتِك يا مريم.</td>
         </tr>
@@ -2678,13 +2678,13 @@ function TheWednesdayTheotokia_Watos(tableNumber) {
         </tr>
         
         <tr id="table_${tableNumber}_row_17" class="south">
-            <td class="english">Saying “Hail to you O full of grace, the Lord is with you, you have found grace, the Holy Spirit shall come upon you.</td>
+            <td class="english">Saying "Hail to you O full of grace, the Lord is with you, you have found favor, the Holy Spirit shall come upon you."</td>
             <td class="coptic">Ϫⲉ ⲭⲉⲣⲉ ⲑⲏⲉⲑⲙⲉϩ ⲛ̀ϩ̀ⲙⲟⲧ: ⲟⲩⲟϩ Ⲡ̀ϭⲟⲓⲥ ϣⲟⲡ ⲛⲉⲙⲉ: ⲁ̀ⲣⲉϫⲓⲙⲓ ⲅⲁⲣ ⲛ̀ⲟⲩϩ̀ⲙⲟⲧ: Ⲟⲩⲡ̀ⲛⲉⲩⲙⲁ ⲉϥⲟⲩⲁⲃ ⲉⲑⲛⲏⲟⲩ ⲉ̀ϫⲱ.</td>
             <td class="arabic">قائلاً "إفرحي يا مُمْتلئة نعمة، الربُّ مَعَكِ، لأنكِ وجدتِ نعمة، والرُّوح القُدُس يحل عليكِ."</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_18" class="north">
-            <td class="english">The power of the Most High, will overshadow you Mary, you shall give birth to the Holy One, the Savior of the whole world.”</td>
+            <td class="english">For the power of the Highest, will overshadow you Mary, you shall give birth to the Holy One, the Savior of the whole world.</td>
             <td class="coptic">Ⲟⲩϫⲟⲙ ⲛ̀ⲧⲉ Ⲫⲏⲉⲧϭⲟⲥⲓ: ⲉⲑⲛⲁⲉⲣϧⲏⲓⲃⲓ ⲉ̀ⲣⲟ Ⲙⲁⲣⲓⲁ: ⲧⲉⲣⲁⲙⲓⲥⲓ ⲙ̀Ⲫⲏⲉⲑⲟⲩⲁⲃ: Ⲡ̀ⲥⲱⲧⲏⲣ ⲙ̀ⲡⲓⲕⲟⲥⲙⲟⲥ ⲧⲏⲣϥ.</td>
             <td class="arabic">وقوة العلي، تظللكِ يا مريم، تلدين القدوس، مخلص العالم كله."</td>
         </tr>
@@ -2702,19 +2702,19 @@ function TheWednesdayTheotokia_Watos(tableNumber) {
         </tr>
         
         <tr id="table_${tableNumber}_row_21" class="north">
-            <td class="english">A virginal feast, today inspires our tongues, to give praise to, Mary the Theotokos.</td>
+            <td class="english">A virginal feast, today inspires our tongues, to give praise to, Mary the Mother of God.</td>
             <td class="coptic">Ⲟⲩϣⲁⲓ ⲙ̀ⲡⲁⲣⲑⲉⲛⲓⲕⲟⲛ: ⲉⲧⲑⲱϩⲉⲙ ⲙ̀ⲡⲉⲛⲗⲁⲥ ⲙ̀ⲫⲟⲟⲩ: ⲉⲑⲣⲉⲛⲉⲣⲉⲩⲫⲟⲙⲓⲛ: ⲛ̀Ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ Ⲙⲁⲣⲓⲁ.</td>
             <td class="arabic">عيدٌ بتولي، يدعو لساننا اليوم، لكي نمدح، والدة الإله مريم.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_22" class="south">
-            <td class="english">On account of Him who was born, for us in the city of David, our Savior Jesus, Christ the Lord.</td>
+            <td class="english">On account of Him who was born, for us in the City of David, our Savior Jesus, Christ the Lord.</td>
             <td class="coptic">Ⲉⲑⲃⲉ ⲫⲏⲉ̀ⲧⲁⲩⲙⲁⲥϥ ⲛⲁⲛ: ϧⲉⲛ ⲑ̀ⲃⲁⲕⲓ ⲛ̀Ⲇⲁⲩⲓⲇ: Ⲡⲉⲛⲥⲱⲧⲏⲣ Ⲓⲏⲥⲟⲩⲥ: ⲟⲩⲟϩ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲡ̀ϭⲟⲓⲥ.</td>
             <td class="arabic">مِن أجل الذي وُلد لنا، في مدينة داود، مُخلِّصنا يسوع، والمسيح الرب.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_23" class="north">
-            <td class="english">Come all you nations, that we may bless her, for she has become a mother, and a virgin.</td>
+            <td class="english">Come all you nations, so we may bless her, for she has become both, Mother and Virgin.</td>
             <td class="coptic">Ⲁ̀ⲙⲱⲓⲛⲓ ⲛⲓⲗⲁⲟⲥ ⲧⲏⲣⲟⲩ: ⲛ̀ⲧⲉⲛⲉⲣⲙⲁⲕⲁⲣⲓⲍⲓⲛ ⲙ̀ⲙⲟⲥ: ϫⲉ ⲁⲥϣⲱⲡⲓ ⲙ̀ⲙⲁⲩ: ⲟⲩⲟϩ ⲙ̀ⲡⲁⲣⲑⲉⲛⲟⲥ ⲉⲩⲥⲟⲡ.</td>
             <td class="arabic">تعالوا يا جميع الشعوب، لنغبطها، لأنها صارت أماً، وعذراء معاً.</td>
         </tr>
@@ -2732,7 +2732,7 @@ function TheWednesdayTheotokia_Watos(tableNumber) {
         </tr>
         
         <tr id="table_${tableNumber}_row_26" class="south">
-            <td class="english">Hail to the paradise, speaking for Christ, who became the second Adam, for the sake of Adam the first man.</td>
+            <td class="english">Hail to the rational, Paradise of Christ, who became the Second Adam, for the sake of Adam the first man.</td>
             <td class="coptic">Ⲭⲉⲣⲉ ⲡⲓⲡⲁⲣⲁⲇⲓⲥⲟⲥ: ⲛ̀ⲗⲟⲅⲓⲕⲟⲛ ⲛ̀ⲧⲉ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲫⲏⲉ̀ⲧⲁϥϣⲱⲡⲓ ⲙ̀ⲙⲁϩⲥ̀ⲛⲁⲩ ⲛ̀Ⲁ̀ⲇⲁⲙ: ⲉⲑⲃⲉ Ⲁ̀ⲇⲁⲙ ⲡⲓϣⲟⲣⲡ ⲛ̀ⲣⲱⲙⲓ.</td>
             <td class="arabic">السلام للفردوس، الناطق للمسيح، الذي صار آدم الثاني، من أجل آدم الإنسان الأول.</td>
         </tr>
@@ -2750,25 +2750,25 @@ function TheWednesdayTheotokia_Watos(tableNumber) {
         </tr>
         
         <tr id="table_${tableNumber}_row_29" class="north">
-            <td class="english">Hail to the soul of human nature, likened to the bush, which the fire of His divinity, did not burn any of it.</td>
-            <td class="coptic">Ⲭⲉⲣⲉ ⲙ̀ⲃⲁⲧⲟⲥ: ⲡⲓⲙ̀ⲯⲩⲭⲟⲛ ⲛ̀ⲧⲉ ϯⲫⲩⲥⲓⲥ: ⲉ̀ⲧⲉ ⲙ̀ⲡⲉ ⲡⲓⲭ̀ⲣⲱⲙ ⲛ̀ⲧⲉ ⲧⲉϥⲙⲉⲑⲛⲟⲩϯ: ⲣⲱⲕϩ ⲛ̀ϩ̀ⲗⲓ ⲛ̀ⲧⲁⲥ.</td>
-            <td class="arabic">السلام للعليقة النفسية، التي للطبيعة، ونار لاهوته، لم تحرق شيئاً منها.</td>
+            <td class="english">Hail to the rational bush, of the nature, which the fire of His divinity, did not burn any of it.</td>
+            <td class="coptic">Ⲭⲉⲣⲉ ⲡⲓⲙ̀ⲯⲩⲭⲟⲛ: ⲙ̀ⲃⲁⲧⲟⲥ ⲛ̀ⲧⲉ ϯⲫⲩⲥⲓⲥ: ⲉⲧⲉ ⲙ̀ⲡⲉ ⲡⲓⲭⲣⲱⲙ ⲛ̀ⲧⲉ ⲧⲉϥⲙⲉⲑⲛⲟⲩϯ: ⲣⲱⲕϩ ⲛ̀ϩ̀ⲗⲓ ⲛ̀ⲧⲁⲥ.</td>
+            <td class="arabic">السلام للعليقة النفسية، التي للطبيعة، اللتي نار لاهوته، لم تحرق شيئاً منها.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_30" class="south">
-            <td class="english">Hail to the handmaiden and Mother, the Virgin and the heaven, who carried in the flesh, He who sits upon the Cherubim.</td>
+            <td class="english">Hail to the handmaiden and mother, the Virgin and the heaven, who carried in the flesh, He who sits upon the cherubim.</td>
             <td class="coptic">Ⲭⲉⲣⲉ ϯⲃⲱⲕⲓ ⲟⲩⲟϩ Ϯⲙⲁⲩ: Ϯⲡⲁⲣⲑⲉⲛⲟⲥ ⲟⲩⲟϩ ⲧ̀ⲫⲉ: ⲑⲏⲉ̀ⲧⲁⲥϥⲁⲓ ⲥⲱⲙⲁⲧⲓⲕⲱⲥ: ϧⲁ ⲫⲏⲉⲧϩⲓϫⲉⲛ Ⲛⲓⲭⲉⲣⲟⲩⲃⲓⲙ.</td>
             <td class="arabic">السلام للعبدة والأم، العذراء والسماء، التي حَملت جسدياً، الذي على الشاروبيم.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_31" class="north">
-            <td class="english">For this we rejoice and sing, with the holy angels, and we joyfully proclaim, “Glory to God in the Highest.</td>
+            <td class="english">For this we rejoice and sing, with the holy angels, and we joyfully proclaim, "Glory to God in the Highest.”</td>
             <td class="coptic">Ϧⲉⲛ ⲛⲁⲓ ⲧⲉⲛⲣⲁϣⲓ ⲧⲉⲛⲉⲣⲯⲁⲗⲓⲛ: ⲛⲉⲙ ⲛⲓⲁⲅⲅⲉⲗⲟⲥ ⲉⲑⲟⲩⲁⲃ: ϧⲉⲛ ⲟⲩⲑⲉⲗⲏⲗ ⲉⲛϫⲱ ⲙ̀ⲙⲟⲥ: ϫⲉ ⲟⲩⲱ̀ⲟⲩ ϧⲉⲛ ⲛⲏⲉⲧϭⲟⲥⲓ ⲙ̀Ⲫ̀ⲛⲟⲩϯ.</td>
             <td class="arabic">بهذا نفرح ونرتل، مع الملائكة القديسين، بتهليل قائلين، "المجد لله في الأعالي.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_32" class="south">
-            <td class="english">And on earth peace, goodwill towards men, for He who is glorified forever, was pleased with you.”</td>
+            <td class="english">“And on Earth peace, goodwill toward man, for He who is glorified forever, was pleased with you.</td>
             <td class="coptic">Ⲛⲉⲙ ⲟⲩϩⲓⲣⲏⲛⲏ ϩⲓϫⲉⲛ ⲡⲓⲕⲁϩⲓ: ⲛⲉⲙ ⲟⲩϯⲙⲁϯ ϧⲉⲛ ⲛⲓⲣⲱⲙⲓ: ϫⲉ ⲁϥϯⲙⲁϯ ⲅⲁⲣ ⲛ̀ϧⲏϯ: ⲛ̀ϫⲉ ⲫⲏⲉ̀ⲧⲉ ⲫⲱϥ ⲡⲉ ⲡⲓⲱ̀ⲟⲩ ϣⲁ ⲉ̀ⲛⲉϩ.</td>
             <td class="arabic">وعلى الأرض السلام، وفي الناس المسرة، لأنه سُرَّ بكِ، الذي له المجد إلى الأبد."</td>
         </tr>
@@ -2798,13 +2798,13 @@ function TheWednesdayTheotokia_Watos(tableNumber) {
         </tr>
         
         <tr id="table_${tableNumber}_row_37" class="south">
-            <td class="english">She is exalted above the Cherubim, more honored than the Seraphim, she became a temple, for the One from the Trinity.</td>
+            <td class="english">She is exalted above the cherubim, more honored than the seraphim, she became a temple, for the One from the Trinity.</td>
             <td class="coptic">Ⲥ̀ϭⲟⲥⲓ ⲉ̀Ⲛⲓⲭⲉⲣⲟⲩⲃⲓⲙ: ⲥ̀ⲧⲁⲓⲏⲟⲩⲧ ⲉ̀Ⲛⲓⲥⲉⲣⲁⲫⲓⲙ: ϫⲉ ⲁⲥϣⲱⲡⲓ ⲛ̀ⲟⲩⲉⲣⲫⲉⲓ: ⲙ̀Ⲡⲓⲟⲩⲁⲓ ⲉ̀ⲃⲟⲗ ϧⲉⲛ Ϯⲧ̀ⲣⲓⲁⲥ.</td>
             <td class="arabic">هي أرفع من الشاروبيم، وأجَّل من السِّرافيم، لأنها صارت هيكلاً، للواحد من الثالوث.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_38" class="north">
-            <td class="english">She is Jerusalem, the city of our God, the joy of all saints, abides in her.</td>
+            <td class="english">This is Jerusalem, the City of our God, and the joy of all saints, abides in her.</td>
             <td class="coptic">Ⲑⲁⲓ ⲧⲉ Ⲓⲉⲣⲟⲩⲥⲁⲗⲏⲙ: ⲧ̀ⲡⲟⲗⲓⲥ ⲙ̀Ⲡⲉⲛⲛⲟⲩϯ ⲧⲉ: ⲉ̀ⲣⲉ ⲡ̀ⲟⲩⲛⲟϥ ⲛ̀ⲧⲉ ⲛⲏⲉⲑⲟⲩⲁⲃ ⲧⲏⲣⲟⲩ: ϣⲟⲡ ⲛ̀ϧ̀ⲣⲏⲓ ⲛ̀ϧⲏⲧⲥ.</td>
             <td class="arabic">هذه هي أورشليم، مدينة إلهنا، وفرح جميع القديسين، كائن فيها.</td>
         </tr>
@@ -2813,12 +2813,6 @@ function TheWednesdayTheotokia_Watos(tableNumber) {
             <td class="english">The Father looked from heaven, and found no one like you, He sent His only-begotten, who came and took flesh from you.</td>
             <td class="coptic">Ⲁ̀ Ⲫ̀ⲓⲱⲧ ϫⲟⲩϣⲧ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲧ̀ⲫⲉ: ⲙ̀ⲡⲉϥϫⲉⲙ ⲫⲏⲉⲧⲟ̀ⲛⲓ ⲙ̀ⲙⲟ: ⲁϥⲟⲩⲱⲣⲡ ⲙ̀ⲡⲉϥⲙⲟⲛⲟⲅⲉⲛⲏⲥ: ⲓ̀ ⲁϥϭⲓⲥⲁⲣⲝ ⲉ̀ⲃⲟⲗ ⲛ̀ϧⲏϯ.</td>
             <td class="arabic">تطَّلع الآب من السماء، فلم يجد مَنْ يُشبهكِ، أرسل وحيده، أتى وتجسد منكِ.</td>
-        </tr>
-        
-        <tr id="table_${tableNumber}_row_40" class="refrain">
-            <td class="english">The Seventh Part</td>
-            <td class="coptic">Ϯⲙⲁϩϣⲁϣϥⲓ</td>
-            <td class="arabic">القطعة السابعة</td>
         </tr>
         </tbody>
 </table>
@@ -2830,7 +2824,7 @@ ${lobsh}
 
 function Ti_galili_a_7thPartoftheWednesdayTheotokia(tableNumber) {
     const html = `
-    <table id="table_${tableNumber}" style="display: table;" title="Ti-galili-a (7th Part of the Wednesday Theotokia)">
+<table id="table_${tableNumber}" style="display: table;" title="Ti-galili-a (7th Part of the Wednesday Theotokia)">
     
     <caption id="caption_table_${tableNumber}" class="caption">Ti-galili-a (7th Part of the Wednesday Theotokia)
         <span class="coptic-caption">Ϯⲅⲁⲗⲓⲗⲉⲁ̀ (Ϯⲙⲁϩϣⲁϣϥⲓ)</span>
@@ -2845,13 +2839,13 @@ function Ti_galili_a_7thPartoftheWednesdayTheotokia(tableNumber) {
         </tr>
         
         <tr id="table_${tableNumber}_row_1" class="north">
-            <td class="english">The Galilee of the Gentiles, who sit in darkness, and in the shadow of death, had the great Light shine to them.</td>
+            <td class="english">Galilee of the Gentiles, those who were sitting in darkness, and the shadow of death, had great light shine upon them.</td>
             <td class="coptic">Ϯⲅⲁⲗⲓⲗⲉⲁ̀ ⲛ̀ⲧⲉ ⲛⲓⲉⲑⲛⲟⲥ: ⲛⲏⲉⲧϩⲉⲙⲥⲓ ϧⲉⲛ ⲡ̀ⲭⲁⲕⲓ: ⲛⲉⲙ ⲧ̀ϧⲏⲓⲃⲓ ⲙ̀ⲫ̀ⲙⲟⲩ: ⲟⲩⲛⲓϣϯ ⲛ̀Ⲟⲩⲱⲓⲛⲓ ⲁϥϣⲁⲓ ⲛⲱⲟⲩ.</td>
             <td class="arabic">جليل الأُمم، الجالسون في الظلمة، وظلال الموت، أشرق عليهم النور العظيم.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_2" class="south">
-            <td class="english">God who rests, among His saints, became incarnate of the Virgin, for our salvation.</td>
+            <td class="english">God who rests, within His saints, was incarnate of the Virgin, for our salvation.</td>
             <td class="coptic">Ⲫ̀ⲛⲟⲩϯ ⲫⲏⲉⲑⲙⲟⲧⲉⲛ ⲙ̀ⲙⲟϥ: ϧⲉⲛ ⲛⲏⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲁϥ: ⲁϥϭⲓⲥⲁⲣⲝ ϧⲉⲛ Ϯⲡⲁⲣⲑⲉⲛⲟⲥ: ⲉⲑⲃⲉ ⲫⲏⲉ̀ⲧⲉ ⲫⲱⲛ ⲛ̀ⲟⲩϫⲁⲓ.</td>
             <td class="arabic">الله المستريح، في قديسيه، تجسد من العذراء، لأجل خلاصنا.</td>
         </tr>
@@ -2863,25 +2857,25 @@ function Ti_galili_a_7thPartoftheWednesdayTheotokia(tableNumber) {
         </tr>
         
         <tr id="table_${tableNumber}_row_4" class="south">
-            <td class="english">For the Incorporeal was incarnate, and the Word became flesh, the One without beginning began, the Eternal came under time.</td>
+            <td class="english">For the One without flesh was incarnate, and the Word took body, the One with no beginning began, and the eternal One became temporal.</td>
             <td class="coptic">Ϫⲉ Ⲡⲓⲁⲧⲥⲁⲣⲝ ⲁϥϭⲓⲥⲁⲣⲝ: ⲟⲩⲟϩ Ⲡⲓⲗⲟⲅⲟⲥ ⲁϥϧ̀ⲑⲁⲓ: Ⲡⲓⲁⲧⲁⲣⲭⲏ ⲁϥⲉⲣϩⲏⲧⲥ: Ⲡⲓⲁⲧⲥⲏⲟⲩ ⲁϥϣⲱⲡⲓ ϧⲁ ⲟⲩⲭ̀ⲣⲟⲛⲟⲥ.</td>
             <td class="arabic">لأن غير المُتجسد تجسَّد، والكلمة تجسَّمت، غير المبتدئ إبتدأ، وغير الزمني صار زمنياً.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_5" class="north">
-            <td class="english">The Incomprehensible has been touched, and the Unseen has been seen, and the Son of the living God, truly became the Son of Man.</td>
+            <td class="english">The Incomprehensible has been touched, and the Unseen has been seen, and the Son of the Living God, truly became the Son of Man.</td>
             <td class="coptic">Ⲡⲓⲁⲧϣ̀ⲧⲁϩⲟϥ ⲁⲩϫⲉⲙϫⲱⲙϥ: Ⲡⲓⲁⲑⲛⲁⲩ ⲉ̀ⲣⲟϥ ⲥⲉⲛⲁⲩ ⲉ̀ⲣⲟϥ: Ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫ̀ⲛⲟⲩϯ ⲉⲧⲟⲛϧ: ⲁϥϣⲱⲡⲓ ⲛ̀Ϣⲏⲣⲓ ⲛ̀ⲣⲱⲙⲓ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓ.</td>
             <td class="arabic">غير المُدرك لمسوه، وغير المرئي رأوه، إبن الله الحي، صار بشرياً بالحقيقة.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_6" class="south">
-            <td class="english">Jesus Christ the same yesterday, today and forever, in one hypostasis, we worship and glorify Him.</td>
+            <td class="english">Jesus Christ is the same yesterday, today and forever, in one hypostasis, we worship Him and glorify Him.</td>
             <td class="coptic">Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ ⲛ̀ⲥⲁϥ ⲛⲉⲙ ⲫⲟⲟⲩ: ⲛ̀ⲑⲟϥ ⲛ̀ⲑⲟϥ ⲡⲉ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ: ϧⲉⲛ ⲟⲩϩⲩⲡⲟⲥⲧⲁⲥⲓⲥ ⲛ̀ⲟⲩⲱⲧ: ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟϥ ⲧⲉⲛϯⲱ̀ⲟⲩ ⲛⲁϥ.</td>
             <td class="arabic">يسوع المسيح هو هو أمس، واليوم وإلى الأبد، بأُقنوم واحد، نسجد له ونمجده.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_7" class="north">
-            <td class="english">The Father looked from heaven, and found no one like you, He sent His only-begotten, who came and took flesh from you. ${cross}</td>
+            <td class="english">The Father looked from heaven, and found no one like you, He sent His only-begotten, who came and took flesh from you.</td>
             <td class="coptic">Ⲁ̀ Ⲫ̀ⲓⲱⲧ ϫⲟⲩϣⲧ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲧ̀ⲫⲉ: ⲙ̀ⲡⲉϥϫⲉⲙ ⲫⲏⲉⲧⲟ̀ⲛⲓ ⲙ̀ⲙⲟ: ⲁϥⲟⲩⲱⲣⲡ ⲙ̀ⲡⲉϥⲙⲟⲛⲟⲅⲉⲛⲏⲥ: ⲓ̀ ⲁϥϭⲓⲥⲁⲣⲝ ⲉ̀ⲃⲟⲗ ⲛ̀ϧⲏϯ. ${cross}</td>
             <td class="arabic">تطَّلع الآب من السماء، فلم يجد مَنْ يُشبهكِ، أرسل وحيده، أتى وتجسد منكِ. ${cross}</td>
         </tr>
@@ -2892,7 +2886,7 @@ function Ti_galili_a_7thPartoftheWednesdayTheotokia(tableNumber) {
 
 function TheWednesdayTheotokia_Lobsh(tableNumber) {
     const html = `
-    <table id="table_${tableNumber}" style="display: table;" title="The Wednesday Theotokia Lobsh">
+<table id="table_${tableNumber}" style="display: table;" title="The Wednesday Theotokia Lobsh">
     
     <caption id="caption_table_${tableNumber}" class="caption">The Wednesday Theotokia Lobsh
         <span class="coptic-caption">Ⲡⲓⲗⲱⲃϣ ⲛ̀ⲧⲉ Ϯⲑⲉⲟ̀ⲧⲟⲕⲓⲁ ⲙ̀Ⲡ̀ⲉ̀ϩⲟⲟⲩ ⲙ̀Ⲡ̀ϥ̀ⲧⲟⲟⲩ</span>
@@ -2901,13 +2895,13 @@ function TheWednesdayTheotokia_Lobsh(tableNumber) {
     <tbody>
     
         <tr id="table_${tableNumber}_row_0" class="north">
-            <td class="english">Ezekiel the prophet, has witnessed saying, “I saw a gate to the East, sealed with a mysterious seal.</td>
+            <td class="english">Ezekiel the prophet, has witnessed saying, "I saw a gate to the East, sealed with a mysterious seal.</td>
             <td class="coptic">Ⲓⲉⲍⲉⲕⲓⲏⲗ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲱϣ ⲉ̀ⲃⲟⲗ ⲉϥⲟⲓ ⲙ̀ⲙⲉⲑⲣⲉ: ϫⲉ ⲁⲓⲛⲁⲩ ⲉ̀ⲟⲩⲡⲩⲗⲏ ⲛ̀ⲥⲁ ⲛⲓⲙⲁⲛ̀ϣⲁⲓ: ⲉⲥⲧⲟⲃ ϧⲉⲛ ⲟⲩⲧⲉⲃⲥ ⲛ̀ϣ̀ⲫⲏⲣⲓ.</td>
             <td class="arabic">حزقيال النبي، يشهد قائلاً، "إنني رأيت باباً ناحية المشرق، مختوماً بخاتم عجيب.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_1" class="south">
-            <td class="english">And no one else entered it, but the Lord of powers, He entered and went out, and the gate remained sealed.”</td>
+            <td class="english">And no one else entered it, but the Lord of Powers, He entered and went out, and the gate remained sealed.”</td>
             <td class="coptic">Ⲙ̀ⲡⲉ ϩ̀ⲗⲓ ϣⲉ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲣⲟⲥ: ⲉ̀ⲃⲏⲗ ⲉ̀Ⲡ̀ϭⲟⲓⲥ ⲛ̀ⲧⲉ ⲛⲓϫⲟⲙ: ⲁϥϣⲉ ⲉ̀ϧⲟⲩⲛ ⲁϥⲓ̀ ⲉ̀ⲃⲟⲗ: ⲁⲥⲟ̀ϩⲓ ⲉⲥϣⲟⲧⲉⲙ ⲙ̀ⲡⲉⲥⲣⲏϯ.</td>
             <td class="arabic">ولم يدخل فيه أحد، إلا رب القوات، دخل وخرج، وبقى مختوماً على حاله."</td>
         </tr>
@@ -2919,43 +2913,43 @@ function TheWednesdayTheotokia_Lobsh(tableNumber) {
         </tr>
         
         <tr id="table_${tableNumber}_row_3" class="south">
-            <td class="english">Blessed is the Fruit of your womb, O who gave birth to God for the world, so as to redeem us from the hands, of the unmerciful tyrant.</td>
+            <td class="english">Blessed is the fruit of your womb, O who gave birth to God for the world, so as to redeem us from the hands, of the unmerciful tyrant.</td>
             <td class="coptic">Ϥ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲛ̀ϫⲉ Ⲡⲉⲕⲁⲣⲡⲟⲥ: ⲱ̀ ⲑⲏⲉ̀ⲧⲁⲥϫ̀ⲫⲉ Ⲫ̀ⲛⲟⲩϯ ⲛⲁⲛ ⲉ̀ⲡⲓⲕⲟⲥⲙⲟⲥ: ϣⲁ ⲛ̀ⲧⲉϥⲥⲟⲧⲧⲉⲛ ϧⲉⲛ ⲛⲉⲛϫⲓϫ: ⲙ̀ⲡⲓⲧⲩⲣⲁⲛⲛⲟⲥ ⲛ̀ⲁⲑⲛⲁⲓ.</td>
             <td class="arabic">مباركة هي ثمرتِك، يا مَنْ ولِدت الله إلى العالم، كي ينقذنا من يدي، الظالم غير الرحوم.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_4" class="north">
-            <td class="english">Blessed and perfect are you, O who has found all grace, before the King of glory, our true Lord.</td>
+            <td class="english">Blessed and perfect are you, O who has found all grace, before the King of glory, our True Lord.</td>
             <td class="coptic">Ⲧⲉⲥ̀ⲙⲁⲙⲁⲧ ⲉⲧϫⲏⲕ ⲉ̀ⲃⲟⲗ: ⲱ̀ ⲑⲏⲉ̀ⲧⲁⲥϫⲉⲙ ⲭⲁⲣⲓⲥⲙⲁ ⲛⲓⲃⲉⲛ: ⲙ̀ⲡⲉⲙ̀ⲑⲟ ⲙ̀Ⲡ̀ⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲡ̀ⲱ̀ⲟⲩ: ⲡⲉⲛⲁ̀ⲗⲏⲑⲓⲛⲟⲥ ⲛ̀Ⲛⲟⲩϯ.</td>
             <td class="arabic">مباركة أنتِ وكاملة، يا مَنْ وجدِت كل نعمة، أمام ملك المجد، إلهنا الحقيقي.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_5" class="south">
-            <td class="english">You deserved all honor, more than any one on earth, for the Word of the Father, came and was incarnate of you.</td>
+            <td class="english">You deserved all honor, more than anyone on earth, for the Word of the Father, came and was incarnate of you.</td>
             <td class="coptic">Ⲁ̀ⲣⲉⲉⲙⲡ̀ϣⲁ ⲛ̀ⲧⲁⲓⲟ ⲛⲓⲃⲉⲛ: ⲡⲁⲣⲁ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ ⲉⲧϩⲓϫⲉⲛ ⲡⲓⲕⲁϩⲓ: ϫⲉ ⲁ̀ Ⲡⲓⲗⲟⲅⲟⲥ ⲛ̀ⲧⲉ Ⲫ̀ⲓⲱⲧ: ⲓ̀ ⲁϥϭⲓⲥⲁⲣⲝ ⲉ̀ⲃⲟⲗ ⲛ̀ϧⲏϯ.</td>
             <td class="arabic">إستحققتِ كل كرامة، أكثر من كل مَنْ على الأرض، لأن كلمة الآب، أتى وتجسد منكِ.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_6" class="north">
-            <td class="english">And He walked among men, as a compassionate Lover of Man, that He may save our souls, through His holy appearance.</td>
+            <td class="english">And He walked among men, as a caring Lover of Mankind, until He saved our souls, through His holy appearance.</td>
             <td class="coptic">Ⲟⲩⲟϩ ⲁϥⲙⲟϣⲓ ⲛⲉⲙ ⲛⲓⲣⲱⲙⲓ: ϩⲱⲥ Ⲙⲁⲓⲣⲱⲙⲓ ⲛ̀ⲣⲉϥϣⲉⲛϩⲏⲧ: ϣⲁ ⲛ̀ⲧⲉϥⲥⲱϯ ⲛ̀ⲛⲉⲛⲯⲩⲭⲏ: ϩⲓⲧⲉⲛ ⲧⲉϥⲡⲁⲣⲟⲩⲥⲓⲁ ⲉⲑⲟⲩⲁⲃ.</td>
             <td class="arabic">ومشى مع الناس، كرؤوف ومحب للبشر، حتى خلَّص نفوسنا، بظهوره المقدس.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_7" class="south">
-            <td class="english">Let us worship our Savior, the good Lover of Mankind, for He had compassion upon us, as He came and saved us.</td>
+            <td class="english">Let us worship our Savior, the Good Lover of Mankind, for He had compassion upon us, as He came and saved us.</td>
             <td class="coptic">Ⲙⲁⲣⲉⲛⲟⲩⲱϣⲧ ⲙ̀Ⲡⲉⲛⲥⲱⲧⲏⲣ: Ⲡⲓⲙⲁⲓⲣⲱⲙⲓ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ϫⲉ ⲛ̀ⲑⲟϥ ⲁϥϣⲉⲛϩⲏⲧ ϧⲁⲣⲟⲛ: ⲁϥⲓ̀ ⲟⲩⲟϩ ⲁϥⲥⲱϯ ⲙ̀ⲙⲟⲛ.</td>
             <td class="arabic">فلنسجد لمُخلِّصنا، محب البشر الصالح، لأنه ترأف علينا، أتى وخلصنا.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_8" class="north">
-            <td class="english">Hail to you O Virgin, the very and true queen, hail to the pride of our race, who gave birth to Emmanuel.</td>
+            <td class="english">Hail to you, O Virgin, / the right and true Queen. / Hail to the pride of our race / who bore to us Immanuel.</td>
             <td class="coptic">Ⲭⲉⲣⲉ ⲛⲉ ⲱ̀ Ϯⲡⲁⲣⲑⲉⲛⲟⲥ: ϯⲟⲩⲣⲱ ⲙ̀ⲙⲏⲓ ⲛ̀ⲁ̀ⲗⲏⲑⲓⲛⲏ: ⲭⲉⲣⲉ ⲡ̀ϣⲟⲩϣⲟⲩ ⲛ̀ⲧⲉ ⲡⲉⲛⲅⲉⲛⲟⲥ: ⲁ̀ⲣⲉϫ̀ⲫⲟ ⲛⲁⲛ ⲛ̀Ⲉⲙⲙⲁⲛⲟⲩⲏⲗ.</td>
             <td class="arabic">السلام لكِ أيتها العذراء، الملكة الحقيقية الحقانية، السلام لفخر جنسنا، ولدتِ لنا عمانوئيل.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_9" class="south">
-            <td class="english">We ask you to remember us, O our trusted advocate, before our Lord Jesus Christ, that He may forgive us our sins. ${cross}</td>
+            <td class="english">We ask you to remember us, / O our faithful advocate, / before our Lord Jesus Christ / that He may forgive us our sins.</td>
             <td class="coptic">Ⲧⲉⲛϯϩⲟ ⲁ̀ⲣⲓⲡⲉⲛⲙⲉⲩⲓ: ⲱ̀ ϯⲡ̀ⲣⲟⲥⲧⲁⲧⲏⲥ ⲉ̀ⲧⲉⲛϩⲟⲧ: ⲛⲁϩⲣⲉⲛ Ⲡⲉⲛϭⲟⲓⲥ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ. ${cross}</td>
             <td class="arabic">نسألِك أن تذكرينا، أيتها الشفيعة المؤتمنة، أمام ربنا يسوع المسيح، ليغفر لنا خطايانا. ${cross}</td>
         </tr>

@@ -9,14 +9,16 @@ import SettingsContext from '../../settings/settingsContext';
 
 
 // Main Function
-const Doxologies = () => {
+const Doxologies = ({ route }) => {
+  const { source } = route.params || {};
+
   const [drawerItems, setDrawerItems] = useState([]);
   const [currentTable, setCurrentTable] = useState('');
   const webviewRef = useRef(null);
   const [settings] = React.useContext(SettingsContext);
   
   const dynamicStyles = useDynamicStyles(webviewRef);
-  const body = doxologiesHtml(settings);
+  const body = doxologiesHtml(settings, source);
   const script = htmlRenderScript;
   const html = getHtml(dynamicStyles, body , script);
 

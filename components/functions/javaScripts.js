@@ -1432,18 +1432,31 @@ async function loadStoredSettings(currentFileStates) {
         try {
             const tableCaptions = document.querySelectorAll('.caption');
 
-            // Apply the saved state on page load
+            // Apply the saved state to captions
             Object.entries(currentFileStates).forEach(([tableId, isVisible]) => {
+                const caption = document.getElementById('caption_' + tableId);
+                if (caption) {
+                    caption.classList.toggle('table-invisible', !isVisible);
+                }
+            });
+
+            // Check all captions for the 'table-invisible' class and hide their tbodies
+            tableCaptions.forEach(caption => {
+                const tableId = caption.id.replace('caption_', '');
                 const table = document.getElementById(tableId);
-                if (table) {
+                if (caption.classList.contains('table-invisible') && table) {
                     const tableBodies = table.getElementsByTagName('tbody');
                     Array.from(tableBodies).forEach(tbody => {
-                        tbody.style.display = isVisible ? 'table-row-group' : 'none';
-                        const caption = document.getElementById('caption_' + tableId);
-                        caption?.classList.toggle('table-invisible', !isVisible);
+                        tbody.style.display = 'none';
+                    });
+                } else if (table) {
+                    const tableBodies = table.getElementsByTagName('tbody');
+                    Array.from(tableBodies).forEach(tbody => {
+                        tbody.style.display = 'table-row-group';
                     });
                 }
             });
+
             // Resolve the promise after the operation is complete
             resolve();
         } catch (error) {

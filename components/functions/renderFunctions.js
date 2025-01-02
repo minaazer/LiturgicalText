@@ -105,7 +105,16 @@ export const handleMessage = (
       LOADING: () => {
         setLoading(message.data);
       },
-      NAVIGATION: () => navigation.navigate(message.data),
+      NAVIGATION: () => {
+        const parsedData = typeof message.data === 'string' ? JSON.parse(message.data) : message.data;
+        if (parsedData.destination) {
+            // Correctly navigate to the destination and pass `source` as a parameter
+            navigation.navigate(parsedData.destination , { source: parsedData.source });
+        } else {
+            navigation.navigate(message.data);
+        }
+      },
+    
       // OPEN RIGHT DRAWER
       RIGHT_SWIPE: () => { 
         navigation.openDrawer() 

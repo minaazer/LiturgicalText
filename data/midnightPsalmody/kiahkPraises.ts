@@ -765,7 +765,7 @@ praiseAfterMondayTheotokia(tableNumber) {
     const html = `
 
 <table id="table_${tableNumber}" style="display: table;" title="Praise after Monday Theotokia (Be Strengthened in Faith)">
-<caption id="caption_table_${tableNumber}" class="caption">Praise after Monday Theotokia <br />(Be Strengthened in Faith)
+<caption id="caption_table_${tableNumber}" class="caption table-invisible">Praise after Monday Theotokia <br />(Be Strengthened in Faith)
     <span class="arabic-caption">مديع على ثيوطوكية الاثنين <br>(تقو بالإيمان)</span>
 </caption>
 <tbody>
@@ -940,7 +940,7 @@ praiseAfterTuesdayTheotokia(tableNumber) {
     const html = `
 
 <table id="table_${tableNumber}" style="display: table;" title="Praise after Tuesday Theotokia (O Mary, I am Your Servant)">
-<caption id="caption_table_${tableNumber}" class="caption">Praise after Tuesday Theotokia <br />(O Mary, I am Your Servant)
+<caption id="caption_table_${tableNumber}" class="caption table-invisible">Praise after Tuesday Theotokia <br />(O Mary, I am Your Servant)
     <span class="arabic-caption">مديع على ثيوطوكية الثلاثاء<br> (يا مريم أنا عبدك)</span>
 </caption>
 <tbody>
@@ -1045,209 +1045,198 @@ psaliAdamOn2ndCanticle(tableNumber) {
             ⲧ̀ⲣⲓⲁⲥ: ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ.</td>
         <td class="arabic">قلبى ولسانى: يسبحان الثالوث: أيها الثالوث القدوس أرحمنا</td>
     </tr>
-    <tr id="table_${tableNumber}_row_2" class="north">
+    <tr id="table_${tableNumber}_row_1" class="north">
         <td class="english" >Everyone praises You, And worships You, O
             Holy ...</td>
         <td class="coptic" >Ⲃⲟⲛ ⲛⲓⲃⲉⲛ ⲥⲉϩⲱⲥ ⲛⲁⲕ: ⲟⲩⲟϩ ⲥⲉⲉⲣⲃⲱⲕ ⲛⲁⲕ:
             ⲁ̀ⲅⲓⲁ̀...</td>
         <td class="arabic">كل أحد يسبحك: ويتعبد لك أيها &hellip;</td>
     </tr>
-    <tr id="table_${tableNumber}_row_3" class="north">
+    <tr id="table_${tableNumber}_row_2" class="north">
         <td class="english" >For You are our God, And our Great
             Savior, O Holy...</td>
         <td class="coptic" >Ⲅⲉ ⲅⲁⲣ ⲛ̀ⲑⲟⲕ Ⲡⲉⲛⲛⲟⲩϯ: Ⲡⲉⲛⲥⲱⲧⲏⲣ ⲟⲩⲟϩ
             ⲡⲓⲛⲓϣϯ: ⲁ̀ⲅⲓⲁ̀ ...</td>
         <td class="arabic">لأنك أنت إلهنا : ومخلصنا العظيم أيها...</td>
     </tr>
-    <tr id="table_${tableNumber}_row_4" class="refrain">
-        <td class="english" >My heart and my tongue, praise the
-            Trinity. O Holy Trinity, have mercy on us.</td>
-        <td class="coptic" >Ⲁⲡⲁϩⲏⲧ ⲛⲉⲙ ⲡⲁⲗⲁⲥ: ϩⲱⲥ ⲉ̀ϯⲧ̀ⲣⲓⲁⲥ: ⲁ̀ⲅⲓⲁ̀
-            ⲧ̀ⲣⲓⲁⲥ: ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ.</td>
-        <td class="arabic">قلبى ولسانى: يسبحان الثالوث: أيها الثالوث القدوس أرحمنا</td>
-    </tr>
-    <tr id="table_${tableNumber}_row_5" class="south">
+    <tr id="table_${tableNumber}_row_3" class="south">
         <td class="english" >The Master Lord , He came and saved us, O
             Holy &hellip;</td>
         <td class="coptic" >Ⲇⲉⲥⲡⲟⲩⲇⲉ ⲕⲩⲣⲓⲟⲛ : ⲁϥⲓ̀ⲁϥⲥⲱϯ ⲙ̀ⲙⲟⲛ :
             ⲁ̀ⲅⲓⲁ̀...</td>
         <td class="arabic">السيد الرب : أتى وخلصنا أيها...</td>
     </tr>
-    <tr id="table_${tableNumber}_row_6" class="south">
+    <tr id="table_${tableNumber}_row_4" class="south">
         <td class="english" >For the sake of Your true judgments,
             Teach me Your justice, O Holy &hellip;</td>
         <td class="coptic" >Ⲉⲑⲃⲉ ⲛⲉⲕϩⲁⲡ ⲙ̀ⲙⲏⲓ: ⲙⲁⲧ̀ⲥⲁⲃⲟⲓ ⲉ̀ⲛⲉⲕⲙⲉⲑⲙⲏⲓ:
             ⲁ̀ⲅⲓⲁ̀ ...</td>
         <td class="arabic">من أجل أحكامك الحقيقية: علمنى عدلك أيها...</td>
     </tr>
-    <tr id="table_${tableNumber}_row_7" class="south">
+    <tr id="table_${tableNumber}_row_5" class="refrain">
+        <td class="english" >My heart and my tongue, praise the
+            Trinity. O Holy Trinity, have mercy on us.</td>
+        <td class="coptic" >Ⲁⲡⲁϩⲏⲧ ⲛⲉⲙ ⲡⲁⲗⲁⲥ: ϩⲱⲥ ⲉ̀ϯⲧ̀ⲣⲓⲁⲥ: ⲁ̀ⲅⲓⲁ̀
+            ⲧ̀ⲣⲓⲁⲥ: ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ.</td>
+        <td class="arabic">قلبى ولسانى: يسبحان الثالوث: أيها الثالوث القدوس أرحمنا</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_6" class="north">
         <td class="english" >Many are Your mercies, Grant us Your
             salvation, O Holy...</td>
         <td class="coptic" >Ⲍⲉⲟϣ ⲡⲉ ⲡⲉⲕⲛⲁⲓ : ϫⲉⲙⲡⲉⲛϣⲓⲛⲓ ϧⲉⲛ ⲡⲉⲕⲟⲩϫⲁⲓ :
             ⲁ̀ⲅⲓⲁ̀ ...</td>
         <td class="arabic">كثيرة هى رحمتك: تعهدنا بخلاصك أيها...</td>
     </tr>
-    <tr id="table_${tableNumber}_row_8" class="refrain">
-        <td class="english" >My heart and my tongue, praise the
-            Trinity. O Holy Trinity, have mercy on us.</td>
-        <td class="coptic" >Ⲁⲡⲁϩⲏⲧ ⲛⲉⲙ ⲡⲁⲗⲁⲥ: ϩⲱⲥ ⲉ̀ϯⲧ̀ⲣⲓⲁⲥ: ⲁ̀ⲅⲓⲁ̀
-            ⲧ̀ⲣⲓⲁⲥ: ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ.</td>
-        <td class="arabic">قلبى ولسانى: يسبحان الثالوث: أيها الثالوث القدوس أرحمنا</td>
-    </tr>
-    <tr id="table_${tableNumber}_row_9" class="north">
+    <tr id="table_${tableNumber}_row_7" class="north">
         <td class="english" >I am here before You, I took refuge in
             You, O Holy &hellip;</td>
         <td class="coptic" >Ⲏⲥ ϩⲏⲡⲡⲉ ⲁ̀ⲛⲟⲕ: ⲉⲓⲉ̀ⲫⲱⲧ ϩⲁⲣⲟⲕ: ⲁ̀ⲅⲓⲁ̀...
         </td>
         <td class="arabic">هوذا أنا : التجأت إليك أيها...</td>
     </tr>
-    <tr id="table_${tableNumber}_row_10" class="north">
+    <tr id="table_${tableNumber}_row_8" class="south">
         <td class="english" >Yours is the power and glory, O King of
             glory, O Holy...</td>
         <td class="coptic" >Ⲑⲱⲕ ⲧⲉ ϯϫⲟⲙ ⲛⲉⲙ ⲡⲓⲱ̀ⲟⲩ: ⲱ̀ ⲡⲓⲟⲩⲣⲟ ⲛ̀ⲧⲉ
             ⲡ̀ⲱ̀ⲟⲩ: ⲁ̀ⲅⲓⲁ̀...</td>
         <td class="arabic">لك القوة والمجد: ياملك المجد أيها...</td>
     </tr>
-    <tr id="table_${tableNumber}_row_11" class="north">
+    <tr id="table_${tableNumber}_row_9" class="south">
         <td class="english" >Jesus is our hope, In our tribulations, O
             Holy ...</td>
         <td class="coptic" >Ⲓⲏⲥⲟⲩⲥ ⲡⲉ ⲧⲉⲛϩⲉⲗⲡⲓⲥ: ϧⲉⲛ ⲛⲉⲛⲑ̀ⲗⲩⲯⲓⲥ :
             ⲁ̀ⲅⲓⲁ̀...</td>
         <td class="arabic">يسوع هو رجاؤنا: في شدائدنا أيها...</td>
     </tr>
-    <tr id="table_${tableNumber}_row_12" class="refrain">
+        <tr id="table_${tableNumber}_row_10" class="refrain">
         <td class="english" >My heart and my tongue, praise the
             Trinity. O Holy Trinity, have mercy on us.</td>
         <td class="coptic" >Ⲁⲡⲁϩⲏⲧ ⲛⲉⲙ ⲡⲁⲗⲁⲥ: ϩⲱⲥ ⲉ̀ϯⲧ̀ⲣⲓⲁⲥ: ⲁ̀ⲅⲓⲁ̀
             ⲧ̀ⲣⲓⲁⲥ: ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ.</td>
         <td class="arabic">قلبى ولسانى: يسبحان الثالوث: أيها الثالوث القدوس أرحمنا</td>
     </tr>
-    <tr id="table_${tableNumber}_row_13" class="south">
+
+    <tr id="table_${tableNumber}_row_11" class="north">
         <td class="english" >You are blessed O Son of God, Deliver us
             from temptations, O Holy...</td>
         <td class="coptic" >Ⲕⲥ̀ⲙⲁⲣⲱⲟⲩⲧ Ⲩⲓⲟⲥ Ⲑⲉⲟⲥ : ⲛⲁϩⲙⲉⲛ ϧⲉⲛ
             ⲛⲓⲡⲓⲣⲁⲥⲙⲟⲥ: ⲁ̀ⲅⲓⲁ̀...</td>
         <td class="arabic">تباركت ياابن الله: نجنا من التجارب أيها...</td>
     </tr>
-    <tr id="table_${tableNumber}_row_14" class="south">
+    <tr id="table_${tableNumber}_row_12" class="north">
         <td class="english" >All nations praise You, O Christ the
             King, O Holy &hellip;</td>
         <td class="coptic" >Ⲗⲁⲟⲥ ⲛⲓⲃⲉⲛ ⲥⲉϩⲱⲥ ⲛⲁⲕ: ⲱ̀ ⲡ̀ⲟⲩⲣⲟ
             Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲁ̀ⲅⲓ̀ⲁ...</td>
         <td class="arabic">كل الشعوب تسبحك: أيها الملك المسيح أيها...</td>
     </tr>
-    <tr id="table_${tableNumber}_row_15" class="south">
+    <tr id="table_${tableNumber}_row_13" class="south">
         <td class="english" >Grant us Your peace, Heal our sicknesses, O
             Holy ...</td>
         <td class="coptic" >Ⲙⲟⲓ ⲛⲁⲛ ⲛ̀ⲧⲉⲕϩⲓⲣⲏⲛⲏ : ⲙⲁⲧⲁⲗϭⲟ ⲛ̀ⲛⲉⲛϣⲱⲛⲓ :
             ̀ⲁⲅⲓ̀ⲁ ...</td>
         <td class="arabic">أعطينا سلامك : إشف أمراضنا أيها...</td>
     </tr>
-    <tr id="table_${tableNumber}_row_16" class="refrain">
-        <td class="english" >My heart and my tongue, praise the
-            Trinity. O Holy Trinity, have mercy on us.</td>
-        <td class="coptic" >Ⲁⲡⲁϩⲏⲧ ⲛⲉⲙ ⲡⲁⲗⲁⲥ: ϩⲱⲥ ⲉ̀ϯⲧ̀ⲣⲓⲁⲥ: ⲁ̀ⲅⲓⲁ̀
-            ⲧ̀ⲣⲓⲁⲥ: ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ.</td>
-        <td class="arabic">قلبى ولسانى: يسبحان الثالوث: أيها الثالوث القدوس أرحمنا</td>
-    </tr>
-    <tr id="table_${tableNumber}_row_17" class="north">
+    <tr id="table_${tableNumber}_row_14" class="south">
         <td class="english" >You are the compassionate, And You are
             the Merciful, O Holy...</td>
         <td class="coptic" >Ⲛⲑⲟⲕ ⲟⲩⲣⲉϥϣⲉⲛϩⲏⲧ: ⲟⲩⲟϩ ⲛ̀ⲛⲁⲏⲧ : ⲁ̀ⲅⲓⲁ̀...
         </td>
         <td class="arabic">انت المتحنن: وانت الرحوم أيها...</td>
     </tr>
-    <tr id="table_${tableNumber}_row_18" class="north">
+        <tr id="table_${tableNumber}_row_15" class="refrain">
+        <td class="english" >My heart and my tongue, praise the
+            Trinity. O Holy Trinity, have mercy on us.</td>
+        <td class="coptic" >Ⲁⲡⲁϩⲏⲧ ⲛⲉⲙ ⲡⲁⲗⲁⲥ: ϩⲱⲥ ⲉ̀ϯⲧ̀ⲣⲓⲁⲥ: ⲁ̀ⲅⲓⲁ̀
+            ⲧ̀ⲣⲓⲁⲥ: ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ.</td>
+        <td class="arabic">قلبى ولسانى: يسبحان الثالوث: أيها الثالوث القدوس أرحمنا</td>
+    </tr>
+
+    <tr id="table_${tableNumber}_row_16" class="north">
         <td class="english" >You are blessed, We praise and bless You,
             O Holy ...</td>
         <td class="coptic" >Ⲝⲙⲁⲣⲱⲟⲩⲧ ⲛ̀ⲑⲟⲕ: ⲧⲉⲛϩⲱⲥ ⲛⲁⲕ ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟⲕ :
             ⲁ̀ⲅⲓⲁ̀ ...</td>
         <td class="arabic">تباركت أنت: نسبحك ونباركك أيها...</td>
     </tr>
-    <tr id="table_${tableNumber}_row_19" class="north">
+    <tr id="table_${tableNumber}_row_17" class="north">
         <td class="english" >Truly great, Is the Just Judge, O Holy...
         </td>
         <td class="coptic" >Ⲟⲩⲛⲓϣϯ ⲛ̀ⲧⲁⲫⲙⲏⲓ: ⲡⲓⲣⲉϥϯϩⲁⲡ ⲙ̀ⲙⲏⲓ:
             ⲁ̀ⲅⲓⲁ̀...</td>
         <td class="arabic">عظيم بالحقيقة : الديان العادل أيها...</td>
     </tr>
-    <tr id="table_${tableNumber}_row_20" class="refrain">
-        <td class="english" >My heart and my tongue, praise the
-            Trinity. O Holy Trinity, have mercy on us.</td>
-        <td class="coptic" >Ⲁⲡⲁϩⲏⲧ ⲛⲉⲙ ⲡⲁⲗⲁⲥ: ϩⲱⲥ ⲉ̀ϯⲧ̀ⲣⲓⲁⲥ: ⲁ̀ⲅⲓⲁ̀
-            ⲧ̀ⲣⲓⲁⲥ: ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ.</td>
-        <td class="arabic">قلبى ولسانى: يسبحان الثالوث: أيها الثالوث القدوس أرحمنا</td>
-    </tr>
-    <tr id="table_${tableNumber}_row_21" class="south">
+    <tr id="table_${tableNumber}_row_18" class="south">
         <td class="english" >Your Name is blessed, O the True Logos
             (Word), O Holy...</td>
         <td class="coptic" >Ⲡⲉⲕⲣⲁⲛ ⲉⲧⲥ̀ⲙⲁⲣⲱⲟⲩⲧ : ⲱ ⲡⲓⲗⲟⲅⲟⲥ ⲛ̀ⲧⲁⲫⲙⲏⲓ :
             ⲁ̀ⲅⲓⲁ̀ ...</td>
         <td class="arabic">اسمك مبارك: أيها الكلمة الحقيقي أيها...</td>
     </tr>
-    <tr id="table_${tableNumber}_row_22" class="south">
+    <tr id="table_${tableNumber}_row_19" class="south">
         <td class="english" >Guard us O Christ, With Your Goodness, O
             Holy ...</td>
         <td class="coptic" >Ⲣⲱⲓⲥ ⲉ̀ⲣⲟⲛ ⲱ̀ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ϧⲉⲛ
             ⲧⲉⲕⲙⲉⲧⲁ̀ⲅⲁⲑⲟⲥ : ⲁ̀ⲅⲓⲁ̀...</td>
         <td class="arabic">أحرسنا أيها المسيح: بصلاحك أيها...</td>
     </tr>
-    <tr id="table_${tableNumber}_row_23" class="south">
-        <td class="english" >Hearken unto the sinners, In their
-            tribulations, O Holy...</td>
-        <td class="coptic" >Ⲥⲱⲧⲉⲙ ⲉ̀ⲛⲓⲣⲉϥⲉⲣⲛⲟⲃⲓ : ϧⲉⲛ ⲛⲟⲩⲁ̀ⲛⲁⲅⲕⲏ:
-            ⲁ̀ⲅⲓⲁ̀...</td>
-        <td class="arabic">اسمع للخطاة: فى شدائدهم أيها...</td>
-    </tr>
-    <tr id="table_${tableNumber}_row_24" class="refrain">
-        <td class="english" >My heart and my tongue, praise the
-            Trinity. O Holy Trinity, have mercy on us.</td>
-        <td class="coptic" >Ⲁⲡⲁϩⲏⲧ ⲛⲉⲙ ⲡⲁⲗⲁⲥ: ϩⲱⲥ ⲉ̀ϯⲧ̀ⲣⲓⲁⲥ: ⲁ̀ⲅⲓⲁ̀
-            ⲧ̀ⲣⲓⲁⲥ: ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ</td>
-        <td class="arabic">قلبى ولسانى: يسبحان الثالوث: أيها الثالوث القدوس أرحمنا</td>
-    </tr>
-    <tr id="table_${tableNumber}_row_25" class="north">
-        <td class="english" >My soul and my mind, Lift them up to
-            heaven, O Holy...</td>
-        <td class="coptic" >Ⲧⲁⲯⲩⲭⲏ ⲛⲉⲙ ⲡⲁⲛⲟⲥ: ⲱ̀ⲗⲟⲩ ⲉ̀ⲟⲩⲣⲁⲛⲟⲥ:
-            ⲁ̀ⲅⲓⲁ̀...</td>
-        <td class="arabic">نفسي وعقلى : إرفعهما الى السماء أيها...</td>
-    </tr>
-    <tr id="table_${tableNumber}_row_26" class="north">
-        <td class="english" >O Son of our God, Grant us Your
-            salvation, O Holy ...</td>
-        <td class="coptic" >Ⲩⲓⲟⲥ Ⲑⲉⲟⲥ Ⲡⲉⲛⲛⲟⲩϯ : ⲙⲟⲓ ⲛⲁⲛ ⲛ̀ⲟⲩⲥⲱϯ :
-            ⲁ̀ⲅⲓⲁ̀...</td>
-        <td class="arabic">يا ابن الله إلهنا: أعطنا خلاصاً أيها...</td>
-    </tr>
-    <tr id="table_${tableNumber}_row_27" class="north">
-        <td class="english" >God the Merciful, The Long-suffering, O
-            Holy...</td>
-        <td class="coptic" >Ⲫϯ ⲡⲓⲛⲁⲏⲧ: ⲡⲓⲣⲉϥⲱⲟⲩⲛ̀ϩⲏⲧ : ⲁ̀ⲅⲓⲁ̀...</td>
-        <td class="arabic">الله الرحوم: طويل الآناة أيها...</td>
-    </tr>
-    <tr id="table_${tableNumber}_row_28" class="refrain">
+        <tr id="table_${tableNumber}_row_20" class="refrain">
         <td class="english" >My heart and my tongue, praise the
             Trinity. O Holy Trinity, have mercy on us.</td>
         <td class="coptic" >Ⲁⲡⲁϩⲏⲧ ⲛⲉⲙ ⲡⲁⲗⲁⲥ: ϩⲱⲥ ⲉ̀ϯⲧ̀ⲣⲓⲁⲥ: ⲁ̀ⲅⲓⲁ̀
             ⲧ̀ⲣⲓⲁⲥ: ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ.</td>
         <td class="arabic">قلبى ولسانى: يسبحان الثالوث: أيها الثالوث القدوس أرحمنا</td>
     </tr>
-    <tr id="table_${tableNumber}_row_29" class="south">
+
+    <tr id="table_${tableNumber}_row_21" class="north">
+        <td class="english" >Hearken unto the sinners, In their
+            tribulations, O Holy...</td>
+        <td class="coptic" >Ⲥⲱⲧⲉⲙ ⲉ̀ⲛⲓⲣⲉϥⲉⲣⲛⲟⲃⲓ : ϧⲉⲛ ⲛⲟⲩⲁ̀ⲛⲁⲅⲕⲏ:
+            ⲁ̀ⲅⲓⲁ̀...</td>
+        <td class="arabic">اسمع للخطاة: فى شدائدهم أيها...</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_22" class="north">
+        <td class="english" >My soul and my mind, Lift them up to
+            heaven, O Holy...</td>
+        <td class="coptic" >Ⲧⲁⲯⲩⲭⲏ ⲛⲉⲙ ⲡⲁⲛⲟⲥ: ⲱ̀ⲗⲟⲩ ⲉ̀ⲟⲩⲣⲁⲛⲟⲥ:
+            ⲁ̀ⲅⲓⲁ̀...</td>
+        <td class="arabic">نفسي وعقلى : إرفعهما الى السماء أيها...</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_23" class="south">
+        <td class="english" >O Son of our God, Grant us Your
+            salvation, O Holy ...</td>
+        <td class="coptic" >Ⲩⲓⲟⲥ Ⲑⲉⲟⲥ Ⲡⲉⲛⲛⲟⲩϯ : ⲙⲟⲓ ⲛⲁⲛ ⲛ̀ⲟⲩⲥⲱϯ :
+            ⲁ̀ⲅⲓⲁ̀...</td>
+        <td class="arabic">يا ابن الله إلهنا: أعطنا خلاصاً أيها...</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_24" class="south">
+        <td class="english" >God the Merciful, The Long-suffering, O
+            Holy...</td>
+        <td class="coptic" >Ⲫϯ ⲡⲓⲛⲁⲏⲧ: ⲡⲓⲣⲉϥⲱⲟⲩⲛ̀ϩⲏⲧ : ⲁ̀ⲅⲓⲁ̀...</td>
+        <td class="arabic">الله الرحوم: طويل الآناة أيها...</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_25" class="refrain">
+        <td class="english" >My heart and my tongue, praise the
+            Trinity. O Holy Trinity, have mercy on us.</td>
+        <td class="coptic" >Ⲁⲡⲁϩⲏⲧ ⲛⲉⲙ ⲡⲁⲗⲁⲥ: ϩⲱⲥ ⲉ̀ϯⲧ̀ⲣⲓⲁⲥ: ⲁ̀ⲅⲓⲁ̀
+            ⲧ̀ⲣⲓⲁⲥ: ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ.</td>
+        <td class="arabic">قلبى ولسانى: يسبحان الثالوث: أيها الثالوث القدوس أرحمنا</td>
+    </tr>
+    <tr id="table_${tableNumber}_row_26" class="north">
         <td class="english" >Holy, Holy, Holy, O Son of the Holy, O
             Holy...</td>
         <td class="coptic" >̀̀̀Ⲭ̀ⲟⲩⲁⲃ ⲭ̀ⲟⲩⲁⲃ ⲭ̀ⲟⲩⲁⲃ : ⲡ̀ϣⲏⲣⲓ
             ⲙ̀Ⲫⲏⲉⲑⲟⲩⲁⲃ: ⲁ̀ⲅⲓⲁ̀...</td>
         <td class="arabic">قدوس قدوس قدوس: يا ابن القدوس أيها...</td>
     </tr>
-    <tr id="table_${tableNumber}_row_30" class="south">
+    <tr id="table_${tableNumber}_row_27" class="north">
         <td class="english" >The souls of our fathers, Give rest to
             them, O Savior, O Holy...</td>
         <td class="coptic" >Ⲯⲩⲭⲏ ⲛ̀ⲛⲉⲛⲓⲟϯ : ⲙⲁⲙ̀ⲧⲟⲛ ⲛⲱⲟⲩ ⲱ̀ ⲡⲓⲣⲉϥⲥⲱϯ :
             ⲁ̀ⲅⲓⲁ̀ ...</td>
         <td class="arabic">آباؤنا الراقدون: نيحهم أيها المخلص أيها...</td>
     </tr>
-    <tr id="table_${tableNumber}_row_31" class="south">
+    <tr id="table_${tableNumber}_row_28" class="south">
         <td class="english" >O our Master remember us, In Your
             heavenly kingdom, O Holy...</td>
         <td class="coptic" >Ⲱ ⲡⲉⲛⲛⲏⲃ ⲁ̀ⲣⲓⲡⲉⲛⲙⲉⲩⲓ̀ : ϧⲉⲛ ⲧⲉⲕⲙⲉⲧⲟⲩⲣⲟ
@@ -1436,7 +1425,7 @@ watosPsaliOnTheWednesdayTheotokia(tableNumber) {
     const html = `
     <table id="table_${tableNumber}" style="display: table;" title="Watos Psali on the Wednesday Theotokia">
     
-    <caption id="caption_table_${tableNumber}" class="caption">Watos Psali on the Wednesday Theotokia
+    <caption id="caption_table_${tableNumber}" class="caption table-invisible">Watos Psali on the Wednesday Theotokia
         <span class="coptic-caption">Ⲁⲓⲉⲣϩⲉⲗⲡⲓⲥ ⲉ̀ⲣⲟⲕ Ⲡⲁⲛⲟⲩϯ</span>
         <span class="arabic-caption">ابصالية واطس على تذاكية يوم الأربعاء</span>
     </caption>
@@ -1594,7 +1583,7 @@ praiseAfterWednesdayTheotokia(tableNumber) {
     const html = `
 
 <table id="table_${tableNumber}" style="display: table;" title="Praise after Wednesday Theotokia (All the Heavenly Hosts)">
-<caption id="caption_table_${tableNumber}" class="caption">Praise on the Wednesday Theotokia <br />(All the Heavenly Hosts)
+<caption id="caption_table_${tableNumber}" class="caption table-invisible">Praise on the Wednesday Theotokia <br />(All the Heavenly Hosts)
     <span class="arabic-caption">مديح على ثيوطوكية الأربعاء<br> (كل الطغمات السمائية)</span>
 </caption>
 <tbody>
@@ -2284,7 +2273,7 @@ secondPsaliAdamOn3rdCanticle(tableNumber) {
 
 <table id="table_${tableNumber}" style="display: table;"
 title="2nd Psali Adam on the 3rd Canticle (I Thank You O God of Jacob)">
-<caption id="caption_table_${tableNumber}" class="caption">2nd Psali Adam on the 3rd Canticle <br />(I Thank You O God of Jacob)
+<caption id="caption_table_${tableNumber}" class="caption table-invisible">2nd Psali Adam on the 3rd Canticle <br />(I Thank You O God of Jacob)
     <span class="arabic-caption">ابصالية ثانية آدم على الهوس الثالث <br>(أشكرك يا إله يعقوب)</span>
 </caption>
 <tbody>
@@ -2510,6 +2499,219 @@ title="2nd Psali Adam on the 3rd Canticle (I Thank You O God of Jacob)">
 </tbody>
 </table>`;
     return html;
+}
+,
+AdamPsaliOnTheThirdCanticle(tableNumber) {
+    const html = `
+    <table id="table_${tableNumber}" style="display: table;" title="Adam Psali said on the Third Canticle">
+    
+    <caption id="caption_table_${tableNumber}" class="caption">Adam Psali said on the Third Canticle
+        <span class="arabic-caption">ابصالية آدام تقال على الهوس الثالث</span>
+    </caption>
+    <tbody>
+    
+        <tr id="table_${tableNumber}_row_0" class="north">
+            <td class="english">O Lord, to You is the glory: with Your only-begotten Son: and the mighty and guiding Spirit: Amen, Kyrie Eleison.</td>
+            <td class="arabic">يا رب لك التمجيد: مع ابنك الوحيد: والروح القوي الرشيد: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_1" class="north">
+            <td class="english">We know no one but You: You are the eternal God: Be our stronghold: Amen, Kyrie Eleison.</td>
+            <td class="arabic">لا نعرف غيرك أحد: أنت الله للأبد: فكن لنا سند: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_2" class="south">
+            <td class="english">You placed in us hope: Hearken to our prayers: Accept our supplications: Amen, Kyrie Eleison.</td>
+            <td class="arabic">وضعت فينا الرجاء: فاسمعنا في النداء: واقبل منا الدعاء: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_3" class="south">
+            <td class="english">Grant us repentance and forgiveness: Confirm us in the faith: Take away our sorrows: Amen, Kyrie Eleison.</td>
+            <td class="arabic">هب لنا توبة وغفران: وثبتنا في الإيمان: وابعد عنا الأحزان: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_4" class="north">
+            <td class="english">We are Your sinful servants: Forgive us, O Helper: Make us Your children: Amen, Kyrie Eleison.</td>
+            <td class="arabic">نحن عبيدك الخاطئين: فسامحنا يا معين: واجعلنا لك بنين: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_5" class="north">
+            <td class="english">Your mercies are boundless: Your blessings overflow: Grant us good conduct: Amen, Kyrie Eleison.</td>
+            <td class="arabic">مراحمك كثيرة: ونعمك غزيرة: هب لنا حسن السيرة: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_6" class="south">
+            <td class="english">You have abundance: and give without reproach: Grant us patience and discernment: Amen, Kyrie Eleison.</td>
+            <td class="arabic">لأن عندك كثير: وتعطي بلا تعيير: أعطنا صبرا وتدبير: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_7" class="south">
+            <td class="english">You are generous in giving: You bless without measure: Fulfill our hopes and desires: Amen, Kyrie Eleison.</td>
+            <td class="arabic">كريم في العطاء: وتهب الناس بسخاء: فحقق لنا الرجاء: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_8" class="north">
+            <td class="english">Close to the righteous: and seek the wicked's repentance: You're the revealer of secrets: Amen, Kyrie Eleison.</td>
+            <td class="arabic">قريب من الأبرار: وتريد توبة الأشرار: أنت كاشف الأسرار: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_9" class="north">
+            <td class="english">Your poor people, O Merciful One: Grant them heavenly blessings: and a share in eternal joy: Amen, Kyrie Eleison.</td>
+            <td class="arabic">فقراء شعبك يا رحيم: أعطهم غنى عميم: وميراثا في النعيم: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_10" class="south">
+            <td class="english">We are strangers and sojourners: in this world of toil: Write our names in the heavenly books: Amen, Kyrie Eleison.</td>
+            <td class="arabic">غرباء نحن ونزلاء: في دنيا أرض شقاء: فاكتبنا في السماء: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_11" class="south">
+            <td class="english">We confess our sins: and our unworthiness: Accept us, O our Father: Amen, Kyrie Eleison.</td>
+            <td class="arabic">عارفين بخطايانا: وبعدم الأمانة: فاقبلنا يا أبانا: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_12" class="north">
+            <td class="english">All that is seen and unseen: is laid bare before You: Have mercy on us, O Awesome Judge: Amen, Kyrie Eleison.</td>
+            <td class="arabic">ظاهر وخفي معروف: قدام عينيك مكشوف: فارحمنا يا مخوف: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_13" class="north">
+            <td class="english">You are patient and true: Your promises never fail: Keep us steadfast in You: Amen, Kyrie Eleison.</td>
+            <td class="arabic">طويل الروح وأمين: ومواعيدك بيقين: اجعلنا فيك ثابتين: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_14" class="south">
+            <td class="english">We are weak and needy: and rely on Your gifts: Grant us salvation and deliverance: Amen, Kyrie Eleison.</td>
+            <td class="arabic">ضعفاء نحن ومساكين: ولعطاياك محتاجين: والنجاة منك طالبين: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_15" class="south">
+            <td class="english">You are truthful in Your words: and righteous in Your deeds: Grant us to walk in Your ways: Amen, Kyrie Eleison.</td>
+            <td class="arabic">صادق في أقوالك: وصالح في أعمالك: فهب لنا كذلك: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_16" class="north">
+            <td class="english">We have strayed and erred: committing every sin: Bring us back to Your fold: Amen, Kyrie Eleison.</td>
+            <td class="arabic">شُردنا وضَلَلنا: وكل خطية فعلنا: لحظيرتك اقبلنا: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_17" class="north">
+            <td class="english">Grant us victory: You are the Lord of power: by the intercession of the holy Virgin: Amen, Kyrie Eleison.</td>
+            <td class="arabic">سألناك النصرة: أنت رب القدرة: بشفاعة أمنا العدرا: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_18" class="south">
+            <td class="english">Remove the obstacles before us: Shield us from tribulations: Relieve us in times of distress: Amen, Kyrie Eleison.</td>
+            <td class="arabic">ذلل أمامنا العقبات: واحمينا من النكبات: وافرج لنا الضيقات: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_19" class="south">
+            <td class="english">Shepherd us as Your children: Surround us with Your angels: and guide us with Your counsel: Amen, Kyrie Eleison.</td>
+            <td class="arabic">راعينا كأولادك: واحطنا بأجنادك: وقدنا بإرشادك: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_20" class="north">
+            <td class="english">Forgive our sins and iniquities: Remember us, O Lord: and do not forget us: Amen, Kyrie Eleison.</td>
+            <td class="arabic">ذنوبنا وخطايانا: اغفرها يا مولانا: وأذكرنا ولا تنسانا: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_21" class="north">
+            <td class="english">Manage our affairs: Protect us from all harm:through the intercession of the mother of Light: Amen, Kyrie Eleison.</td>
+            <td class="arabic">دبر لنا الأمور: واحفظنا من الشرور: بشفاعة ام النور: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_22" class="south">
+            <td class="english">Deliver us from the evil one: Grant us peace and tranquility: and guard us in every time: Amen, Kyrie Eleison.</td>
+            <td class="arabic">خلصنا من الشيطان: واجعلنا في اطمئنان: واحفظنا في كل زمان: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_23" class="south">
+            <td class="english">Defend Your holy Church: Exalt the faith of Your people: and strengthen us in our sojourn: Amen, Kyrie Eleison.</td>
+            <td class="arabic">حامي عن بيعتنا: وارفع شأن كنييستنا: وأعنا في غربتنا: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_24" class="north">
+            <td class="english">Renew Your covenant with us: Listen to our prayers: and gather us in Your heavenly kingdom: Amen, Kyrie Eleison.</td>
+            <td class="arabic">جدد عهدك معنا: وأصغ لنا واسمعنا: وفي النعيم اجمعنا: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_25" class="north">
+            <td class="english">Confirm us in the faith: Comfort us in sorrow: and bless this holy place: Amen, Kyrie Eleison.</td>
+            <td class="arabic">ثبتنا في الإيمان: وعزينا في الأحزان: وانظر لهذا المكان: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_26" class="south">
+            <td class="english">Your weary people, O Lord: Lift their burdens: And pardon every sin: Amen, Kyrie Eleison.</td>
+            <td class="arabic">تعابي شعبك يا رب: ارفع عنهم الكرب: واصفح عن كل ذنب: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_27" class="south">
+            <td class="english">"Bless this year: with Your goodness, O our God: and forgive us our sins: Amen, Kyrie Eleison.</td>
+            <td class="arabic">بارك هذه السنة: بصلاحك يا إلهنا: وانسى لنا خطايانا: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_28" class="north">
+            <td class="english">Heal our sick: Grant rest to the departed: And comfort the sorrowful: Amen, Kyrie Eleison.</td>
+            <td class="arabic">اشفى لنا مرضانا: ونيح موتانا: وعزى الحزانا: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_29" class="north">
+            <td class="english">Return the travelers: Safely to their homes: With blessings and gains: Amen, Kyrie Eleison.</td>
+            <td class="arabic">أرجع المسافرين: لمنازلهم سالمين: كاسبين ورابحين: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_30" class="south">
+            <td class="english">Be a Father to the orphans: Increase their provisions: So they feel no pain: Amen, Kyrie Eleison.</td>
+            <td class="arabic">أبْاً كُن للأيتام: وزدهم في الأنعام: كي لا يشعروا بآلام: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_31" class="south">
+            <td class="english">Aid the widows: Visit the imprisoned: And rescue the distressed: Amen, Kyrie Eleison.</td>
+            <td class="arabic">الأرامل علهم: والمحبوسين زرهم: والمتضايقين جِرهم: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_32" class="north">
+            <td class="english">Protect the absent: Shelter the poor: And provide for the needy: Amen, Kyrie Eleison.</td>
+            <td class="arabic">والغائبين أحميهم: الفقراء آويهم: والمحتاجين أعطهم: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_33" class="north">
+            <td class="english">Accept the repentant: Awaken the heedless: And lift up the fallen: Amen, Kyrie Eleison.</td>
+            <td class="arabic">اقبل التائبين: ونبه الغافلين: وأقم الساقطين: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_34" class="south">
+            <td class="english">Pay off the debts: Strengthen the catechumens: And guide the lost: Amen, Kyrie Eleison.</td>
+            <td class="arabic">أوفى عن المديونين: وثبت الموعوظين: وأرشد الضالين: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_35" class="south">
+            <td class="english">Keep the virgins pure: Bless the married: And calm the quarreling: Amen, Kyrie Eleison.</td>
+            <td class="arabic">احفظ البتوليين: وأربط المتزوجين: وهدئ المتحاربين: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_36" class="north">
+            <td class="english">Deliver the youth: Protect them from evil: And fill them with piety: Amen, Kyrie Eleison.</td>
+            <td class="arabic">الشبان نجيهم: ومن الشر أحميهم: وروح التقوى اعطيهم: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_37" class="north">
+            <td class="english">Grant the maidens: Chastity and purity: That they may live in holiness: Amen, Kyrie Eleison.</td>
+            <td class="arabic">اعطى للعذارى: عفافا وطهارة: ليعشن في برارة: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_38" class="south">
+            <td class="english">Strengthen the elderly: Raise the young: And guide the wayward: Amen, Kyrie Eleison.</td>
+            <td class="arabic">الشيوخ قويهم: والأحداث ربيهم: والطائشين أهديهم: أمين كيرياليسون.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_39" class="south">
+            <td class="english">And we who are gathered: hear us, O Helper: as we cry out, saying: Amen, Kyrie Eleison.</td>
+            <td class="arabic">ونحن المجمتمعين: اسمعنا يا معين: حين نصرخ قائلين: أمين كيرياليسون.</td>
+        </tr>
+        </tbody>
+</table>`;
+ return html;
 }
 ,
 KiahkPraisefortheHolyTrinity(tableNumber) {
@@ -3452,7 +3654,7 @@ kiahkCommemoration(tableNumber){
 praiseForStAnthonyTheGreat(tableNumber) {
     const html = `
 <table id="table_${tableNumber}" style="display: table;" title="Praise for St Anthony the Great">
-<caption id="caption_table_${tableNumber}" class="caption">Praise for St Anthony the Great
+<caption id="caption_table_${tableNumber}" class="caption table-invisible">Praise for St Anthony the Great
     <span class="arabic-caption">مديح القديس الأنبا أنطونيوس</span>
 </caption>
 <tbody>
@@ -3569,7 +3771,7 @@ praiseForStAnthonyTheGreat(tableNumber) {
 praiseForStMaximosAndDomadios(tableNumber) {
     const html = `
 <table id="table_${tableNumber}" style="display: table;" title="Praise for St. Maximos and Domadios">
-<caption id="caption_table_${tableNumber}" class="caption">Praise for St. Maximos and Domadios
+<caption id="caption_table_${tableNumber}" class="caption table-invisible">Praise for St. Maximos and Domadios
     <span class="arabic-caption">مديح القديسين مكسيموس ودوماديوس</span>
 </caption>
 <tbody>
@@ -3672,10 +3874,253 @@ praiseForStMaximosAndDomadios(tableNumber) {
     return html;
 }
 ,
+PraiseforStMosestheStrong(tableNumber) {
+    const html = `
+    <table id="table_${tableNumber}" style="display: table;" title="Praise for St Moses the Strong">
+    
+    <caption id="caption_table_${tableNumber}" class="caption table-invisible">Praise for St Moses the Strong
+        <span class="arabic-caption">مديح للقديس العظيم القوي الانبا موسى</span>
+    </caption>
+    <tbody>
+    
+        <tr id="table_${tableNumber}_row_0" class="north">
+            <td class="english">In the Church of the firstborn: in the pure assembly: living in all piety: the strong Abba Moses.</td>
+            <td class="arabic">في كنيسة الأبكار: في مجمع الأطهار: قائم بكل وقار: بي جوري افا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_1" class="north">
+            <td class="english">He was an idol worshipper: a highway robber: he inquired about the Judge: the strong Abba Moses.</td>
+            <td class="arabic">كان أصله عابد أوثان: قاطع طريق لزمان: وسأل عن الديان: بي جوري افا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_2" class="south">
+            <td class="english">Moses was a barbarian: his life was full of sin: he yearned to be purified: the strong Abba Moses.</td>
+            <td class="arabic">كان موسى من البربر: حياته مليئة بالشر: وطلب إنه يتبرر: بي جوري افا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_3" class="south">
+            <td class="english">A thief, murderer, and adulterer: lover of this passing world: the precious Blood washed him: the strong Abba Moses.</td>
+            <td class="arabic">سارق قاتل زاني: حب العالم الفاني: غسله الدم القاني: بي جوري افا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_4" class="north">
+            <td class="english">Moses the thirsty: heard of the fathers the monks: the dwellers of Shiheet: the strong Abba Moses.</td>
+            <td class="arabic">سمع موسى العطشان: عن الآباء الرهبان: بشيهيت كانوا سكان: بي جوري افا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_5" class="north">
+            <td class="english">He asked, “Is there a God: Great and Awesome: my heart yearns for Him”: the strong Abba Moses.</td>
+            <td class="arabic">سأل هل فيه إله: له العظمة والجاه: قلبي مشتاق لسماه: بي جوري اها موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_6" class="south">
+            <td class="english">Abba Isidore answered: “Our God is Strong and Holy: all heads bow to Him” : the strong Abba Moses.</td>
+            <td class="arabic">أجابه آفا إيسيذورس: إلهنا قوي قدوس: تنحني له الرؤوس: بي جوري افا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_7" class="south">
+            <td class="english">Our God is merciful: He took the form of man: through His love He accepted shame: the strong Abba Moses.</td>
+            <td class="arabic">إلهنا رؤوف حتّان: أخذ شكل الإنسان: من محبته رضي بالهوان: بي جوري افا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_8" class="north">
+            <td class="english">Our God’s promise is faithful: He accepts all the repentant: and loves the humble ones: the strong Abba Moses.</td>
+            <td class="arabic">إلهنا وعده أمين: يقبل كل التائبين: ويحب المنسحقين: بي جوري افا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_9" class="north">
+            <td class="english">Give your life to Him: abandon your past with Him: with His grace repent to Him: the strong Abba Moses.</td>
+            <td class="arabic">سلّم نفسك في إيديه: وأترك ماضيك عليه: بالنعمة تتوب إليه: بي جوري افا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_10" class="south">
+            <td class="english">Moses stood and said: “Receive me like a lost son: help me to repent now!” : the strong Abba Moses.</td>
+            <td class="arabic">وقف موسى وقال: إقبلني كإبن ضال: توبني أتوب في الحال: بي جوري افا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_11" class="south">
+            <td class="english">With tears and joy: with groaning and delight: he repented of his past: the strong Abba Moses.</td>
+            <td class="arabic">بدموع وإبتهالات: بتنهد وبزفرات: وندم على كل ما فات: بي جوري اذا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_12" class="north">
+            <td class="english">He approached Christ with love: heartbroken and wounded: he wished to gain rest: the strong Abba Moses.</td>
+            <td class="arabic">تدم للمسيح: بفؤاد محزون وجريح: وأراد أن يستريح: بي جوري اذا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_13" class="north">
+            <td class="english">He offered a true repentance: openly without return: revealing all his sins: the strong Abba Moses.</td>
+            <td class="arabic">قدم توبة ورعة: علناً وبلا رجعة: تفاصيلها متسعة: بي جوري اقا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_14" class="south">
+            <td class="english">Lo an angel of light: wiped away his black sins: the tablet became pure white: the strong Abba Moses.</td>
+            <td class="arabic">وإذا بملاك موجود: يمسح خطاياه السود: بيّضٍ لوحه المشهود: بي جوري افا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_15" class="south">
+            <td class="english">Abba Macarius witnessed: that his Lord forgave and saved him: a new life was granted to him: the strong Abba Moses.</td>
+            <td class="arabic">أنبا مكاريوس رآه: رَبّه سامحه ونجاه: وإنكتبت له الحياة: بي جوري افا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_16" class="north">
+            <td class="english">He received the first Mystery: by water, Spirit and fire: removing all impurities: the strong Abba Moses.</td>
+            <td class="arabic">نال أول الأسرار: بالماء والروح والنار: وأزال كل الأوزار: بي جوري اها موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_17" class="north">
+            <td class="english">Repentance is amazing: kindling fire in the heart: the stranger becomes a companion: the strong Abba Moses.</td>
+            <td class="arabic">دي التوبة أثرها عجيب: تشعل في القلب لهيب: والشارد يبقى قريب: بي جوري اذا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_18" class="south">
+            <td class="english">The murderer became righteous: the sinner a chosen vessel: the robber among the chosen ones: the strong Abba Moses.</td>
+            <td class="arabic">القائل أصبح بار: والخاطئ إناء مختار: والسارق من الأخيار: بي جوري افا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_19" class="south">
+            <td class="english">Repentance is powerful: making the adulterous a virgin: and the doubtful accepted: the strong Abba Moses.</td>
+            <td class="arabic">والتوبة لها مفعول: تجعل الزاني بتول: والمتمرد مقبول: بي جوري افا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_20" class="north">
+            <td class="english">A servant of desires and shame: received dignity through grace: becoming the strongest of the free: the strong Abba Moses.</td>
+            <td class="arabic">عبد الشهوات والعار: النعمة أعطت له فخار: واصبح أقوى الأحرار: بي جوري اها موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_21" class="north">
+            <td class="english">The Spirit guided the tyrant: from darkness to light: producing fruits for His beloved: the strong Abba Moses.</td>
+            <td class="arabic">والروح قاد الجبار: من الظلمة للأنوار: ووهب لحبيبه ثمار: بي جوري افا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_22" class="south">
+            <td class="english">He longed for monasticism: and vowed to walk in goodness: God showed him the way: the strong Abba Moses.</td>
+            <td class="arabic">إشتاق لحياة الدير: وعزم يسلك في الخير: فرسم له خط السير: بي جوري افا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_23" class="south">
+            <td class="english">His asceticism surpassed others: he served the other monks: with humility and vigils: the strong Abba Moses.</td>
+            <td class="arabic">في نسكه فاق الأقران: كان يخدم الرهبان: بتواضع السهران: بي جوري انا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_24" class="north">
+            <td class="english">With perseverance he exhausted himself: walking thousands of meters: to fill their water jars: the strong Abba Moses.</td>
+            <td class="arabic">يتعب نفسه بإصرار: يمشي آلاف الأمتار: يملأ لهم الجرار: بي جوري اها موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_25" class="north">
+            <td class="english">He was advancing in the way: in steadfastness and diligence: and growth in righteousness: the strong Abba Moses.</td>
+            <td class="arabic">صار يقطع الطريق: في ثبات مع تدقيق: وتقدم فيما يليق: بي جوري اذا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_26" class="south">
+            <td class="english">In virtues and prayers: in fasting and asceticism: in reverence and prostrations: the strong Abba Moses.</td>
+            <td class="arabic">في فضائل في صلوات: في صوم في نسكيات: بتخشع وميطانيات: بي جوري اذا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_27" class="south">
+            <td class="english">An ascetic faithful worshiper: with strong steadfast faith: terrifying the demons: the strong Abba Moses.</td>
+            <td class="arabic">عابد زاهد وأمين: وإيمانه أساسه متين: يرعب الشياطين: بي جوري افا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_28" class="north">
+            <td class="english">He loved the brothers: they chose him for the priesthood: they made known their desire: the strong Abba Moses.</td>
+            <td class="arabic">حب الأخوة وحبوه: للكهنوت إنتخبوه: رفعوا الرغبة وطلبوه: بي جوري اثا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_29" class="north">
+            <td class="english">When they tested him: the priests roused and expelled him: he submitted to their command: the strong Abba Moses.</td>
+            <td class="arabic">لكن حين إمتحنوه: ثاروا الكهنة وطردوه: وخضع لما أرادوه: بي جوري افا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_30" class="south">
+            <td class="english">He said, “I am not worthy: they banished you O black one: O you dark-skinned man!”: the strong Abba Moses.</td>
+            <td class="arabic">قال إستحقاقي يكون: نبذوك يا أسود اللون: يا رمادي الجلد تهون: بي جوري افا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_31" class="south">
+            <td class="english">The patriarch heard his sayings: he learned of his righteous acts: his humble and perfect soul: the strong Abba Moses.</td>
+            <td class="arabic">سمع البطرك أقواله: وعرف تقوى أحواله: واتضاع روحه وكماله: بي جوري افا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_32" class="north">
+            <td class="english">He ordained him in the Holy Name: a voice said “Worthy”: all the souls heard it: the strong Abba Moses.</td>
+            <td class="arabic">رسمه بأمر القدوس: وصوت قال أكسيوس: سمعته كل النفوس: بي جوري اقَا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_33" class="north">
+            <td class="english">Blessed are you O Moses: you received your King’s praise: the Lord of the vine empowered you: the strong Abba Moses.</td>
+            <td class="arabic">طوباك يا موسى طوباك: قد نلت رضا مولاك: رب الكرمة قوّاك: بي جوري افا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_34" class="south">
+            <td class="english">Once they requested you: for the case of a sinful monk: in the assembly they would judge him: the strong Abba Moses.</td>
+            <td class="arabic">وفي مرة جم طلبوه: لراهب إستذنبوه: في المجمع هايحاكموه: بي جوري اذا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_35" class="south">
+            <td class="english">Saint Moses came to them: a bag of sand on his back: he entered sad and sorrowful: the strong Abba Moses.</td>
+            <td class="arabic">جالهم موسى القديس: على ظهره الرمل في كيس: ودخل مهموم وتعيس: بي جوري افا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_36" class="north">
+            <td class="english">They asked him what he carried: what was it that he brought in: he said he is carrying his sins: the strong Abba Moses.</td>
+            <td class="arabic">سألوه إيه جاب وياه: وايه الحمل اللي معاه: قال إنه شايل خطاياه: بي جوري اها موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_37" class="north">
+            <td class="english">A famous helpful lesson: the monks accepted joyfully: they forgave the poor sinner: the strong Abba Moses.</td>
+            <td class="arabic">كان درس مفيد مشهور: قبله الرهبان بسرور: سامحو الخاطئ المكسور: بي جوري اقَا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_38" class="south">
+            <td class="english">We wish to live your life: we wish to be like you: remember us in your prayers: the strong Abba Moses.</td>
+            <td class="arabic">ياريت نحيا حياتك: ياريتنا في صفاتك: أذكرنا في صلاتك: بي جوري افا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_39" class="south">
+            <td class="english">Before the exalted throne: before God the Great: remember us our beloved father: the strong Abba Moses.</td>
+            <td class="arabic">قدام العرش العالي: وأمام الرب الوالي: أذكرنا يا أبانا الغالي: بي جوري افا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_40" class="north">
+            <td class="english">Abba (....) the great: may He grant him long life: to preach the Gospel: the strong Abba Moses.</td>
+            <td class="arabic">أنبا(....) الجليل: يعطي له عمر طويل: ليكرز بالإنجيل: بي جوري اها موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_41" class="north">
+            <td class="english">Abba (....) our bishop: keep him and us O Lord: with his prayers protect us: the strong Abba Moses.</td>
+            <td class="arabic">وأنبا (....) أسقفنا: إحفظه يارب واحفظنا: وبصلاته أحرسنا: بي جوري افا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_42" class="south">
+            <td class="english">The bishops and clergy: guard them O Holy: with the ranks of the angels: the strong Abba Moses.</td>
+            <td class="arabic">والأساقفة والإكليروس: إحميهم يا قدوس: حوطهم بعساكر ني أنجيلوس: بي جوري افا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_43" class="south">
+            <td class="english">The deacons and monks: the servants in every place: O Lord fill them with faith: the strong Abba Moses.</td>
+            <td class="arabic">والشمامسة والرهبان: والخدام في كل مكان: يارب إملأهم بالإيمان: بي جوري افا موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_44" class="north">
+            <td class="english">Abba Moses blessed are you: you received your King’s praise: the Lord of the vine protected you: the strong Abba Moses.</td>
+            <td class="arabic">أنبا موسى طوباك: قد نلت رضا مولاك: رب الكرمة صانك وحّماك: بي جوري اها موسي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_45" class="north">
+            <td class="english">The mention of your name: is in all the believers’ mouths: they all say “O God of Abba Moses: help all of us!”</td>
+            <td class="arabic">تفسير إسمك في أفواه: كل المؤمنين: الكل يقولون يا إله: أنبا موسى أعنا أجمعين.</td>
+        </tr>
+        </tbody>
+</table>`;
+ return html;
+}
+,
 praiseForStSamuelTheConfessor(tableNumber) {
     const html = `
 <table id="table_${tableNumber}" style="display: table;" title="Praise for St Samuel the Confessor">
-<caption id="caption_table_${tableNumber}" class="caption">Praise for St Samuel the Confessor
+<caption id="caption_table_${tableNumber}" class="caption table-invisible">Praise for St Samuel the Confessor
     <span class="arabic-caption">مديح القديس الأنبا صموئيل المعترف</span>
 </caption>
 <tbody>
@@ -3802,6 +4247,194 @@ praiseForStSamuelTheConfessor(tableNumber) {
 </tbody>
 </table>`;
     return html;
+}
+,
+PraiseforPopeKyrillosVI(tableNumber) {
+    const html = `
+    <table id="table_${tableNumber}" style="display: table;" title="Praise for Pope Kyrillos VI">
+    
+    <caption id="caption_table_${tableNumber}" class="caption table-invisible">Praise for Pope Kyrillos VI
+        <span class="arabic-caption">مديح للقديس العظيم البابا كيرلس السادس</span>
+    </caption>
+    <tbody>
+    
+        <tr id="table_${tableNumber}_row_0" class="north">
+            <td class="english">Among the stars of paradise / Servant of the Lord Jesus / The light of the Paramos+ / Our father Abba Kyrillos (Cyril)</td>
+            <td class="arabic">في كواكب الفردوس / خادم الرب إيسوس / ضياء دير البراموس / بنيوت آفا كيرلس</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_1" class="north">
+            <td class="english">Immanuel chose him / He determined to resign / And be servant of the Gospel / Our father Abba Kyrillos (Cyril)</td>
+            <td class="arabic">إختاره عمانوئيل / آثَّرَ أن يستقيل / ليكون خادم الإنجيل / بنيوت آفا كيرلس</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_2" class="south">
+            <td class="english">He was nominated for the bishopric / So he left the seminary / Preferring the wilderness / Our father Abba Kyrillos (Cyril)</td>
+            <td class="arabic">رُشّحَ للأسقفية / فغادر الإكليريكية / مُفَضّلاً الْبَرْيَة / بنيوت آفا كيرلس</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_3" class="south">
+            <td class="english">He preferred solitude / Walked in its harsh road / God granted him wisdom / Our father Abba Kyrillos (Cyril)</td>
+            <td class="arabic">فَضَّلَ حياة الخلوة / سَلَّكَ طريقها الكَرْبَة / أعطاه الله حكمة / بنيوت آفا كيرلس</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_4" class="north">
+            <td class="english">The fathers has compassion / The saint prayed with hope / The heavens supported him / Our father Abba Kyrillos (Cyril)</td>
+            <td class="arabic">أشفق عليه الأباء / صلى القديس برجاء / سَاتِدَتْهُ عناية السماء / بنيوت آفا كيرلس</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_5" class="north">
+            <td class="english">Seven monks were exiled / He offered himself to serve / Those who were expelled / Our father Abba Kyrillos (Cyril)</td>
+            <td class="arabic">خرج الرهبان السبعة / فَوَهَبَ نفسه لخدمة / الذين طْرِدُوا بالقوة / بنيوت آفا كيرلس</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_6" class="south">
+            <td class="english">In the due time / The monks returned with joy / To their monastery quickly / Our father Abba Kyrillos (Cyril)</td>
+            <td class="arabic">ولما جاء الحين / رجع الرهبان فرحين / إلى ديرهم مسرعين / بنيوت آفا كيرلس</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_7" class="south">
+            <td class="english">He prayed in the windmill / Matins and vespers / God granted him support / Our father Abba Kyrillos (Cyril)</td>
+            <td class="arabic">صلى في الطاحونة / باكر وعشية / أعطاه الله معونة / بنيوت آفا كيرلس</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_8" class="north">
+            <td class="english">Immanuel guided him / He performed a great deed / In the Monastery of Saint Samuel / Our father Abba Kyrillos (Cyril)</td>
+            <td class="arabic">أرشده عمانوئيل / قام بعمل جليل / في دير أنبا صموئيل / بنيوت آفا كيرلس</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_9" class="north">
+            <td class="english">God chose him to become / The shepherd of shepherds / He cried bitterly / Our father Abba Kyrillos (Cyril)</td>
+            <td class="arabic">إختارته عناية الله / ليكون راعي الرعاة / كان يبكي بمرارة / بنيوت آفا كيرلس</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_10" class="south">
+            <td class="english">Great is his struggle / Wise is his counsel / The Lord his God chose him / Our father Abba Kyrillos (Cyril)</td>
+            <td class="arabic">عظيمٌ في جهاده / حكيمٌ في إرشاده / إختاره الرب إلهه / بنيوت آفا كيرلس</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_11" class="south">
+            <td class="english">He heard the Apostle’s saying / He rebuked the slothful / He served his pure soul / Our father Abba Kyrillos (Cyril)</td>
+            <td class="arabic">سَمَعَ قول الرسول / وَوَبَّحَ الكسول / خَدَمَ نفسه البتول / بنيوت آفا كيرلس</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_12" class="north">
+            <td class="english">He had compassion on the flock / Did not let it get lost / Shepherding it with a meek heart / Our father Abba Kyrillos</td>
+            <td class="arabic">أشفق على القطيع / لم يتركه يضيع / رافقه بقلب وديع / بنيوت آفا كيرلس</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_13" class="north">
+            <td class="english">He sought not the flatterers / He guided those who were in opposition / He was a faithful man / Our father Abba Kyrillos</td>
+            <td class="arabic">لم يَخْطْب ود الْمَادِحِين / أَرْتْمَدَ المنافقين / كان الْرَجُل الأمين / بنيوت آفا كيرلس</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_14" class="south">
+            <td class="english">Truly humble / Lover of everyone / Friend of the angels / Our father Abba Kyrillos (Cyril)</td>
+            <td class="arabic">متضع بالحقيقة / محب الخليقة / صديق الملائكة / بنيوت آفا كيرلس</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_15" class="south">
+            <td class="english">He arose at dawn / Both in health and sickness / To praise the Lord of hosts / Our father Abba Kyrillos (Cyril)</td>
+            <td class="arabic">قام وقت الأسحار / في القوة والأمراض / لِيُسَبّح رَتّ القوات / بنيوت آفا كيرلس</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_16" class="north">
+            <td class="english">God smelled his prayers / His incense and fasting / He accepted them before Him / Our father Abba Kyrillos (Cyril)</td>
+            <td class="arabic">الله إشتم صلواته / وبخوره مع أصوامه / قَبِلْهَا قدامه / بنيوت آفا كيرلس</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_17" class="north">
+            <td class="english">Hail to the man of prayer! / Hail to the lover of God! / The receiver of sinners / Our father Abba Kyrillos (Cyril)</td>
+            <td class="arabic">السلام لِرَجُْلِ الصلاة / السلام لمحب الإله / وقابل الخطاة / بنيوت آفا كيرلس</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_18" class="south">
+            <td class="english">Hail to the new Jeremiah / Of great asceticism / Tears and groaning / Our father Abba Kyrillos (Cyril)</td>
+            <td class="arabic">السلام لإرميا الجديد / صاحب النسك الشديد / ذو الدموع والتنهيد / بنيوت آفا كيرلس</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_19" class="south">
+            <td class="english">You were granted Moses’ grace / Priesthood of Aaron / Wisdom of Solomon / Our father Abba Kyrillos (Cyril)</td>
+            <td class="arabic">ِلْتَ نعمة موسى / وكهنوت هارون / وحكمة صولومون / بنيوت آفا كيرلس</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_20" class="north">
+            <td class="english">To the light, he guided us / To the friendship of Saint Mina / He built his church / Our father Abba Kyrillos (Cyril)</td>
+            <td class="arabic">إلى النور هدانا / لصداقة مارمينا / وكنيستة بناها / بنيوت آفا كيرلس</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_21" class="north">
+            <td class="english">In a short time / He accomplished many deeds / By the help of the Creator / Our father Abba Kyrillos (Cyril)</td>
+            <td class="arabic">في مدة قصيرة / قام بأعمال كثيرة / بمعونة رَبّ الخليقة / بنيوت آفا كيرلس</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_22" class="south">
+            <td class="english">He built the cathedral / And many churches / He spread Christianity / Our father Abba Kyrillos (Cyril)</td>
+            <td class="arabic">بنى الكاتدرائية / وكنائس كثيرة / نشر المسيحية / بنيوت آفا كيرلس</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_23" class="south">
+            <td class="english">Amazingly he restored / The relics of our beloved / Saint Mark our preacher / Our father Abba Kyrillos (Cyril)</td>
+            <td class="arabic">بأعجوبة أعاد لنا / رفات حبيبنا / مارمرقس كاروزنا / بنيوت آفا كيرلس</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_24" class="north">
+            <td class="english">The poor, he gave them / The sick, he healed them / The mournful, he comforted / Our father Abba Kyrillos (Cyril)</td>
+            <td class="arabic">المساكين أعطاهم / المرضى ثفاهم / الحزانى عزاهم / بنيوت آفا كيرلس</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_25" class="north">
+            <td class="english">He loved the Ethiopians / As the shepherd of the church / He dealt with them in love / Our father Abba Kyrillos (Cyril)</td>
+            <td class="arabic">أحَبَّ أهل الحبشة / راعي الكنيسة / عاملهم بمحبة / بنيوت آفا كيرلس</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_26" class="south">
+            <td class="english">In the Church of Zeitun / The pure Mother appeared / In the era of this tender shepherd / Our father Abba Kyrillos (Cyril)</td>
+            <td class="arabic">في كنيسة الزيتون / ظهرت الأم البتول / في عهد الراعي الحنون / بنيوت آفا كيرلس</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_27" class="south">
+            <td class="english">He prepared the myron / Among the faithful / After many years / Our father Abba Kyrillos (Cyril)</td>
+            <td class="arabic">بيده عَمَلَ الميرون / بين المؤمنين / مِنْ بَعْدِ طول السنين / بنيوت آفا كيرلس</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_28" class="north">
+            <td class="english">He called the departure / Of the righteous a voyage / He prayed to the Lord of lights / Our father Abba Kyrillos (Cyril)</td>
+            <td class="arabic">سَمّى إنتقال الأبرار / إلى السماءٍ أسفار / طَلَب رَبَّ الأنوار / بنيوت آفا كيرلس</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_29" class="north">
+            <td class="english">He left a decree / To be buried in his Monastery / Next to his intercessor / Our father Abba Kyrillos (Cyril)</td>
+            <td class="arabic">ترك وثيقة / أن يُذْفَن في ديره / بجوار شفعيه / بنيوت آفا كيرلس</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_30" class="south">
+            <td class="english">Heaven called to him / He responded to the call / And departed to the fathers / Our father Abba Kyrillos (Cyril)</td>
+            <td class="arabic">دَعَنَهُ السماء / فَلَبَى النداء / وَرَحَكَ للآباء / بنيوت آفا كيرلس</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_31" class="south">
+            <td class="english">At the time of his departure / He said, “God shall guard you” / He completed his struggle / Our father Abba Kyrillos</td>
+            <td class="arabic">في ساعة إنتقاله / قال الرب يرعاكم / وَأَكْمَلَ جهاده / بنيوت آفا كيرلس</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_32" class="north">
+            <td class="english">Remember the church of faith / Remember us at all times / Before God, the Judge / Our father Abba Kyrillos (Cyril)</td>
+            <td class="arabic">أذكر وحدة الإيمان / وأذكرنا في كلٍ آوان / أمام الله الديان / بنيوت آفا كيرلس</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_33" class="north">
+            <td class="english">O children of praise / Compose today a praise / To the beloved of Christ / Our father Abba Kyrillos (Cyril)</td>
+            <td class="arabic">يا أبناء التسبيح / أنظموا اليوم مديح / لحبيب يسوع المسيح / بنيوت آفا كيرلس</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_34" class="south">
+            <td class="english">The mention of Your name / Is in all the believers’ mouths / They all say, “O God of Pope Kyrillos / Help all of us!”</td>
+            <td class="arabic">تفسير إسمك في أفواه / كل المؤمنين / الكل يقولون يا إله / البابا كيرلس أعنا أجمعين</td>
+        </tr>
+        </tbody>
+</table>`;
+ return html;
 }
 ,
 fourthCanticleKiahk(tableNumber) {
@@ -4168,6 +4801,658 @@ fourthCanticleKiahk(tableNumber) {
         </tbody>
     </table>`;
 return html;
+}
+,
+WatosPsaliontheFridayTheotokia(tableNumber) {
+    const html = `
+    <table id="table_${tableNumber}" style="display: table;" title="Watos Psali on the Friday Theotokia">
+    
+    <caption id="caption_table_${tableNumber}" class="caption table-invisible">Watos Psali on the Friday Theotokia
+        <span class="arabic-caption">ابصالية واطس على تذاكية يوم الجمعة</span>
+    </caption>
+    <tbody>
+    
+        <tr id="table_${tableNumber}_row_0" class="north">
+            <td class="english">I the dust asked, to speak of the glory of Mary, “Blessed are you among women, and blessed is the Fruit of your womb.”</td>
+            <td class="arabic">سألت أنا الرماد ان انطق بمجد العذراء قائلًا مباركة انت في النساء ومبارك هو ثمرة بطنك</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_1" class="north">
+            <td class="english">Everyone O my beloved, glorifies the holy one, Mary the Mother of God, the undefiled Virgin.</td>
+            <td class="arabic">كل أحد يا أحبائي يمجد القديسة مريم أم الله العذراء الغير دنسة</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_2" class="south">
+            <td class="english">For you are the Theotokos, the Mother of the true Light, the Sun of righteousness, shone to us from you.</td>
+            <td class="arabic">لأنك انت هي والدة الإله أم النور الحقيقي لأنه قد أشرق لنا منك شمس البر</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_3" class="south">
+            <td class="english">The true queen gave birth, to the Lord King of the ages, healing is under His wings, for He is the Creator.</td>
+            <td class="arabic">السيد ملك الدهور. ولدته الملكة الحقيقة والشفاء تحت أجنحته لأنه هو الخالق</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_4" class="north">
+            <td class="english">Therefore we celebrate, with exalted hymns, He took what is ours, and gave us what is His.</td>
+            <td class="arabic">من اجل هذا نعيد نحن بتسابيح نعظمه هو اخذ الذي لنا واعطانا الذي له</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_5" class="north">
+            <td class="english">The seven ranks O chaste, glorify you O new heaven, “blessed are you above heaven, and honored above earth.”</td>
+            <td class="arabic">سبع طغمات ايتها الهادئة يمجدونك ايتها السماء الجديدة مباركة أنت أكثر من السماء ومكرمة اكثر من الأرض</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_6" class="south">
+            <td class="english">Let us gather always, to glorify her who is full of glory, for you have exceeded all thoughts, who can speak of your honor.</td>
+            <td class="arabic">فلنجتمع كل حين نمجدك أيتها المملوءة مجدًا لأنك مرتفعة عن كل الأفكار من يقدر ينطق بكرامتك</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_7" class="south">
+            <td class="english">This is the city of the King, Zion the mother of Christ, for there is no one like you, O Mary the Virgin.</td>
+            <td class="arabic">هذه هي مدينة الملك صهيون أم المسيح لأنه ليس من يشبهك يا مريم العذراء</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_8" class="north">
+            <td class="english">Also Jerusalem, is Mary the Mother of God, for Him who sits on the cherubim, came and took flesh from her.</td>
+            <td class="arabic">وايضا مدينة اورشليم هي مريم والدة الإله لأن الذي على الكاروبيم اتي وتجسد منها</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_9" class="north">
+            <td class="english">The Lord of wisdom, loved the chaste one, blessed are you O Mary, and blessed is your Fruit.</td>
+            <td class="arabic">الرب ذو الحكمة أحب العفيفة مباركة انت يا مريم ومبارك هو ثمرتك</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_10" class="south">
+            <td class="english">All peoples and kings, glorify Mary the bride, for the Ancient of Days, came out of her womb.</td>
+            <td class="arabic">كل الشعوب والملوك يمجدون العروس مريم لأن عتيق الأيام خرج من أحشاءها</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_11" class="south">
+            <td class="english">Mary the daughter of the saints, who brought Christ in the flesh, He gave us His Holy Spirit, and took our body.</td>
+            <td class="arabic">مريم أبنه الأطهار والدة المسيح بالجسد اعطانا روح قدسه وهو اخذ جسدنا</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_12" class="north">
+            <td class="english">All the prophets and the just, spoke of you O queen, for many women received honor, yet you exceeded them all.</td>
+            <td class="arabic">الأنبياء والأبرار جميعًا تكلموا من أجلك أيتها الملكة لأن نساء كثيرات نلن كرامات ارتفعت انت أكثر منهم</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_13" class="north">
+            <td class="english">You were exalted O pure one, and full of blessings, you are the pride of virgins, Mary the Theotokos.</td>
+            <td class="arabic">ارتفعت أنت أيتها النقية المملوءة بركة انت هي فخر العذارى يا والدة الإله مريم</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_14" class="south">
+            <td class="english">Great is the honor of the Theotokos, the Mother of Christ the Incomprehensible, He held to your breasts, and you gave Him milk.</td>
+            <td class="arabic">عظيمة هي كرامة والدة الإله ام المسيح الغير مدروك مسك ثدييك وأعطيتيه اللبن في فمه</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_15" class="south">
+            <td class="english">O the ever-virgin, the garden of incense, the fountain of life to everyone, ask Christ concerning our sins.</td>
+            <td class="arabic">ايتها العذارء في كل حين بستان البخور ينبوع الحياة لكل أحد اسألي المسيح في خطايانا</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_16" class="north">
+            <td class="english">Rejoice O new heaven, Mary the healing of our sickness, for the Fruit of your womb, came and saved the world.</td>
+            <td class="arabic">أفرحي أيتها السماء الجديدة مريم شفاء أمراضنا لأن ثمرة بطنك أتي وخلص المسكونة</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_17" class="north">
+            <td class="english">You exceeded the cherubim, O faithful patroness, you were honored more the seraphim, O Mary the salvation of our father Adam.</td>
+            <td class="arabic">ارتفعتي عن الكاروبيم أيتها الشفيعة الأمينة تكرمتي عن السارافيم يا مريم خلاص أدم أبينا</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_18" class="south">
+            <td class="english">We glorify you joyfully, O the all-holy Virgin, for you carried the Infinite One, Christ the Incomprehensible.</td>
+            <td class="arabic">نمجدك بفرح أيتها العذراء القديسة لأنك حملتي الغير محوي المسيح الغير مدروك</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_19" class="south">
+            <td class="english">We say “Hail to the cloud, who carried the Christ,” for you became the rational hook, that catches Christians.</td>
+            <td class="arabic">ها نقول السلام لك أيتها السحابة حاملة المسيح لأنك أنت هي الصنارة العقلية التي تصيد المسيحيين</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_20" class="north">
+            <td class="english">The Creator of the heaven of heavens, took flesh from the womb of the chaste, who is brighter than the sun, and the door in the East.</td>
+            <td class="arabic">الذي خلق سماء السماء تجسد من بطن الهادئة أنت منيرة أكثر من الشمس أنت يا باب المشرقي</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_21" class="north">
+            <td class="english">Hail to the beautiful dove, hail to the Mother of the Word, hail you the Mother of the Creator, our Savior the Son of God.</td>
+            <td class="arabic">السلام للحمامة الحسنة السلام لأم الكلمة السلام لأم الخالق مخلصنا ابن الله</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_22" class="south">
+            <td class="english">Grant all the souls O our Master, blessing and an inheritance, in Your kingdom with all the saints, through the intercession of the Virgin.</td>
+            <td class="arabic">كل الأنفس يا مالكنا أعطهم حظا ونصيبا في ملكوتك مع جميع القديسين بشفاعة العذراء</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_23" class="south">
+            <td class="english">Remember me O our Savior, Nicodemus who is of dust, forgive me my sins, with the rest of the Christians. ${cross}</td>
+            <td class="arabic">يا مخلصنا أذكرني أنا الرماد نيقوديموس وأغفر لي خطاياي مع باقي المسيحيين ${cross}</td>
+        </tr>
+        </tbody>
+</table>`;
+ return html;
+},
+WatosPsaliontheSaturdayTheotokia(tableNumber) {
+    const html = `
+    <table id="table_${tableNumber}" style="display: table;" title="Watos Psali on the Saturday Theotokia">
+    
+    <caption id="caption_table_${tableNumber}" class="caption table-invisible">Watos Psali on the Saturday Theotokia
+        <span class="arabic-caption">ابصالية واطس على تذاكية يوم السبت</span>
+    </caption>
+    <tbody>
+    
+        <tr id="table_${tableNumber}_row_0" class="north">
+            <td class="english">I begin in the name of the high God / and praise Mary the daughter of David / who bore in her holy womb / Hail to you O full of grace.</td>
+            <td class="arabic">أبدأ بابسم الله المتعال / وأمدح مريم إبنة داود / حملت في أحشاها ذا الجلال / جى شيري ثي أثميه إن إهموت.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_1" class="north">
+            <td class="english">Gabriel was sent to you / from the Lord of Hosts / He sent you greetings saying / Hail to you O full of grace.</td>
+            <td class="arabic">بالبشارة آتاكِ غبريال مرسولاً / من عند رب الصباؤوت / والسلام أعطاكِ وصار يقول / جى شيري ثي أثميه إن إهموت.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_2" class="south">
+            <td class="english">All the prophecies, symbols, and testimonies / about you were fulfilled / through your bearing of the Lord of powers / Hail to you O full of grace.</td>
+            <td class="arabic">تمت عنك كل النبوات / وكل الرموز وكل الشهود / بحملك رب القوات / جى شيري ثي أثميه إن إهموت.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_3" class="south">
+            <td class="english">The fire of the divinity you have borne / the Son, One of the trinity / and she truly became a throne for Him / Hail to you O full of grace.</td>
+            <td class="arabic">جمر اللاهوت قد حملتٍ / الابن الواحد من الثالوث / وصرت له حقاً كرسياً / جى شيري ثي أثميه إن إهموت.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_4" class="north">
+            <td class="english">The Holy Spirit descended on you / because of your purity O Mary / and the Son took flesh from you / Hail to you O full of grace.</td>
+            <td class="arabic">حل الروح لطهارتك / يا مريم حقاً بثبوت / والابن أخذ جسداً منك / جى شيري ثي أثميه إن إهموت.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_5" class="north">
+            <td class="english">Your Son saved Adam and his children / and He freed him from death / and restored him to paradise / Hail to you O full of grace.</td>
+            <td class="arabic">خلص ابنك آدم وبنيه / وعتقه من بعد الموت / والي الفردوس عاد بعد التيه / جى شيري ثي أثميه إن إهموت.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_6" class="south">
+            <td class="english">All the saints have called you / a truly exalted throne / upon which is seated the Most High Lord / Hail to you O full of grace.</td>
+            <td class="arabic">دعاك كل الصديقين / كرسياً عال حقاً مثبوتاً / جالس فوقه الرب المكنون / جى شيري ثي أثميه إن إهموت.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_7" class="south">
+            <td class="english">Ezekiel saw you as an eastern door / shut with a wondrous and protected seal / God entered and left while your virginity is sealed / Hail to you O full of grace.</td>
+            <td class="arabic">رآكِ حزقيال باباً في الشرقية / مقفولاً بختم عجيب محروساً محفوظاً / دخله الإله وخرج وأنتِ ببكورية / جى شيري ثي أثميه إن إهموت.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_8" class="north">
+            <td class="english">The pride of all virgins is the mother of Christ / who carried the worshipped Lord / while being a Virgin and bride / Hail to you O full of grace.</td>
+            <td class="arabic">زين الأبكار أم بيخرستوس / بحملها الرب المعبود / وهي عذراء بكر وعروس / جى شيري ثي أثميه إن إهموت.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_9" class="north">
+            <td class="english">Jacob the patriarch saw you as a ladder; / hosts worshipped around it / for the feared Lord was on it / Hail to you O full of grace.</td>
+            <td class="arabic">سلماً رآك الأب يعقوب / وحوله طقوس بتمجيد وسجود / فقال سيجىء الرب المرهوب / جى شيري ثي أثميه إن إهموت.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_10" class="south">
+            <td class="english">You carried the Creator in your arms / Who is the Son, One of the Trinity / and nursed Him with your milk / Hail to you O full of grace.</td>
+            <td class="arabic">حملت الخالق علي ذراعيك / الابن الواحد من الثالوث / ورضعتيه اللبن من تدييك / جى شيري ثي أثميه إن إهموت.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_11" class="south">
+            <td class="english">The prophets prophesied about you / and David plucked his strings / and their words were truly fulfilled / Hail to you O full of grace.</td>
+            <td class="arabic">صرخ الأنبياء بالنبوات / وحرك أوتاره داود / وتم كلامهم حقاً بثبات / جى شيري ثي أثميه إن إهموت.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_12" class="north">
+            <td class="english">Mary's light has surpassed and shone / upon every being; / it was greater than the sun / Hail to you O full of grace.</td>
+            <td class="arabic">ضياؤك يا مريم حقاً فاق ولاح / وعلِي على كل مخلوق موجود / ونورك أعلى من نور الصباح / جى شيري ثي أثميه إن إهموت.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_13" class="north">
+            <td class="english">The Lord looked from the highest Heaven / and found no one like you / He chose you as His dwelling place / Hail to you O full of grace.</td>
+            <td class="arabic">تطلع الرب من علو سماه / ما وجد من يشبهكِ موجود / اختارك له مسكناً يا بكر فتاة / جى شيري ثي أثميه إن إهموت.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_14" class="south">
+            <td class="english">The eternal Word came forth from you / divinity united with humanity / while you still a pure Virgin / Hail to you O full of grace.</td>
+            <td class="arabic">ظهر منك الكلمة الأزلي / لاهوتاً متحداً بالناسوت / وأنت عذراء بكر نقية / جى شيري ثي أثميه إن إهموت.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_15" class="south">
+            <td class="english">You surpassed all the minds / and was called an ark and a dome; / a censer full of fire / Hail to you O full of grace.</td>
+            <td class="arabic">عليتٍ عن كل الأفكار / ودعيت أيضاً قبة وتابوت / ومجمرة تشعل فيها النار / جى شيري ثي أثميه إن إهموت.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_16" class="north">
+            <td class="english">Gabriel proclaimed to you / you will conceive and bear a Son; / the Most High God / Hail to you O full of grace.</td>
+            <td class="arabic">غبريال حين بشرك إذ قال / تحبلين وتلدين مولوداً / وهو ابن الله ذو الجلال / جى شيري ثي أثميه إن إهموت.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_17" class="north">
+            <td class="english">All the heavenly rejoiced with you; / the hosts and all the ranks / at the birth of God as a Child / Hail to you O full of grace.</td>
+            <td class="arabic">فَرحَ لك كل السمائيين / بكل رتب وكل طقوس / بميلادك الإله طفلاً جنين / جى شيري ثي أثميه إن إهموت.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_18" class="south">
+            <td class="english">You became Moses's dome; / adorned with gold and jewels; / yet truly you are exalted above all / Hail to you O full of grace.</td>
+            <td class="arabic">قبة موسي حقاً صرتٍ / المزينة بذهب وجواهر وياقوت / وعن القبة حقاً تعظمتِ / جى شيري ثي أثميه إن إهموت.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_19" class="south">
+            <td class="english">All the sayings were fulfilled / for you became the dwelling place / to the Most High Lord / Hail to you O full of grace.</td>
+            <td class="arabic">كَمُلت عليكِ كل الأقوال / وصرتٍ محلا للاهوت / الابن الأزلي الرب المتعال / جى شيري ثي أثميه إن إهموت.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_20" class="north">
+            <td class="english">Without your Son O Virgin / Paradise would have remained closed / for you bear the limitless God / Hail to you O full of grace.</td>
+            <td class="arabic">لولا وجود ابنك يا عذراء وبتول / ما كان ينفتح باب الملكوت / بحملك الرب غير المحمول / جى شيري ثي أثميه إن إهموت.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_21" class="north">
+            <td class="english">Who is likened to you O pure virgin / when the Son took humanity from you / uniting it with divinity / Hail to you O full of grace.</td>
+            <td class="arabic">من يشبهك يا بكر نقية / والابن أخذ منك طبع الناسوت / وحجب به اللاهوت / جى شيري ثي أثميه إن إهموت.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_22" class="south">
+            <td class="english">You have borne the Light of Light / the ever-existent and limitless God / and seated Him on your lap / Hail to you O full of grace.</td>
+            <td class="arabic">نور من نور قد حملتيه / الرب الأزلي غير المحدود / وعلى حجرك قد أجلستيه / جى شيري ثي أثميه إن إهموت.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_23" class="south">
+            <td class="english">Thus the Lord has come to us / and raised us from the dead / and He has given us His body and His blood / Hail to you O full of grace.</td>
+            <td class="arabic">هوذا الرب قد أتانا / وأحيانا من بعد الموت / وجسده ودمه قد أعطانا / جى شيري ثي أثميه إن إهموت.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_24" class="north">
+            <td class="english">The Lord has willed in His providence / to restore Adam to Paradise / by His Crucifixion / Hail to you O full of grace.</td>
+            <td class="arabic">والرب أراد بتدبيره / لرجوع آدم ذاك المطرود / أنه يصلب وللفردوس يُعيده / جى شيري ثي أثميه إن إهموت.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_25" class="north">
+            <td class="english">Do not forget Your people, O Holy Lord / Who trampled down death by death / and opened to us the door of Paradise / Hail to you O full of grace.</td>
+            <td class="arabic">لا تنسي شعبك يارب يا قدوس / يا من أبطلت عنا الموت بالموت / تفتح لنا باب الفردوس / جى شيري ثي أثميه إن إهموت.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_26" class="south">
+            <td class="english">O Lord, keep our patriarch; / protect and confirm him for us / our father Abba (...) our shepherd / Hail to you O full of grace.</td>
+            <td class="arabic">يارب احفظ بطركنا / يكون محروساً ثابتآً محفوظاً / بنيوت أثؤواب ابا (...) راعينا / جى شيري ثي أثميه إن إهموت.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_27" class="south">
+            <td class="english">And his partner in the apostolic service / Abba (...) our bishop / keep and protect him / Hail to you O full of grace.</td>
+            <td class="arabic">وشريكه في الخدمة الرسولية / انبا (...) أسقفنا / احفظهم الكل سوية / جى شيري ثي أثميه إن إهموت.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_28" class="north">
+            <td class="english">Also keep our Orthodox Church; / its people and servants, O Lord; / to offer acceptable sacrifices / Hail to you O full of grace.</td>
+            <td class="arabic">واحفظ بيعتنا الأرثوذكسية / وشعبها وخدامها يارب / برفع القرابين المرضية / جى شيري ثي أثميه إن إهموت.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_29" class="north">
+            <td class="english">And the hymn's composer; / praising the Virgin Mary; / the intercessor of all ages / Hail to you O full of grace.</td>
+            <td class="arabic">والعبد الناظم هذة الأقوال / مديح في مريم أم المعبود / الشفيعة في كل الأجيال / جى شيري ثي أثميه إن إهموت.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_30" class="south">
+            <td class="english">His name which is not blameless; / and he was called to the priesthood; / asking for mercy on Judgment day / Hail to you O full of grace.</td>
+            <td class="arabic">له اسم وبه معيوب / وقد دعي إلى الكهنوت / يسأل رحمه في اليوم المرهوب / جى شيري ثي أثميه إن إهموت.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_31" class="south">
+            <td class="english">Pachom who is the most wretched of all / asking for your goodness, O Mother of the Beloved / and cries out with all the Christians / Hail to you O full of grace.</td>
+            <td class="arabic">باخوم أحقر كل المخلوقين / يسأل احسانك يا أم المحبوب / يحظي مع كل المسيحيين / جى شيري ثي أثميه إن إهموت.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_32" class="north">
+            <td class="english">I conclude this hymn / with praising the Mother of God / to intercede for us in Paradise / Hail to you O full of grace. ${cross}</td>
+            <td class="arabic">واختم أقوال قد رتبناها / مديح في أم الواحد من الثالوث / تحظينا في مظال أبيها / جى شيري ثي أثميه إن إهموت. ${cross}</td>
+        </tr>
+        </tbody>
+</table>`;
+ return html;
+},
+WatosPraiseaftertheSaturdayTheotokia(tableNumber) {
+    const html = `
+    <table id="table_${tableNumber}" style="display: table;" title="Watos Praise after the Saturday Theotokia">
+    
+    <caption id="caption_table_${tableNumber}" class="caption table-invisible">Watos Praise after the Saturday Theotokia
+        <span class="arabic-caption">مديح واطس بعد ثيؤوطوكية السبت</span>
+    </caption>
+    <tbody>
+    
+        <tr id="table_${tableNumber}_row_0" class="north">
+            <td class="english">I praise you O chosen one / O honored offspring / with his psaltery and harp / righteous David is praising.</td>
+            <td class="arabic">أرتل فيك يا مختارة: يا نسل مكرم مختار: بالمزمار والقيثارة: يمدح فيك داود البار.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_1" class="north">
+            <td class="english">Your praise is very precious / of which many received / through your piety / intercession, knowledge, and honor.</td>
+            <td class="arabic">مَدحكِ غالي وتجارة: ياما رَبَحوا فيه تُجّار: ونالوا بطهارة قُدسك: شفاعة ومعونة وكرامة.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_2" class="south">
+            <td class="english">We received all joy / grace and acceptance, through you / God has pardoned us when / He was pleased to dwell in you.</td>
+            <td class="arabic">بك نلنا كل الأفراح: والنعمة والرضا والقبول: وأعطانا الرب السماح: حين مُرّ أن يكون فيك بحلول.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_3" class="south">
+            <td class="english">I offer you every day / greeting, O pure Virgin / ask the Lord, our Savior / that we peacefully reach our harbor.</td>
+            <td class="arabic">لكِ مني في كل صباح: ألف سلام يا بكر بتول: لتسألي الرب مخلصنا: يوصلنا إلى الميناء بسلام.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_4" class="north">
+            <td class="english">The mighty Lord crowned you / with crowns, luminous / chose you from the house of David / by the dwelling of the eternal Logos.</td>
+            <td class="arabic">توّجك الرب المعبود: بأكاليل نورانية: واختارك من بيت داود: بحلول الكلمة الأزلي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_5" class="north">
+            <td class="english">In your womb to become a Babe / for salvation of humans / to return the first man / to his rank in righteousness.</td>
+            <td class="arabic">في بطنِك يصير مولود: من أجل خلاص البشرية: ويرد الإنسان الأول: إلى مرتبته بكرامة.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_6" class="south">
+            <td class="english">The glorified King was incarnate / all the hosts praise Him / proclaiming His might forever / we worship and glorify Him.</td>
+            <td class="arabic">حل الملك المُتمجد: تسبح له كل الطغمات: له نسجد وإياه نعبّد: معترفين به كل الأوقات.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_7" class="south">
+            <td class="english">He came and dwelt in you / O pride of all brides / in an ineffable mystery / which scholars could not divine.</td>
+            <td class="arabic">بأنه أتى وتجسد: منك يا فخر الزينات: بِسِرٍ لا يدرك معناه: ولم تحوه عقول فهّامة.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_8" class="north">
+            <td class="english">Eve had deceived Adam / and fed him the serpent's venom / he disobeyed and regretted / he lost his glory of freedom.</td>
+            <td class="arabic">حواء قد أطغت آدم: وسقته من سم الحية: طاوعها وصبح نادم: عريان من مجد الحرية.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_9" class="north">
+            <td class="english">The Maker of mankind / the Creator had compassion / chose you from an honored tribe / and gave you glory and honor.</td>
+            <td class="arabic">فتحنن منشئ العالم: مُدبر كل البشرية: واختارك من سبط كريم: واعطاكِ مجداً وكرامة.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_10" class="south">
+            <td class="english">He preferred the daughter of Joachim / to dwell in you in great mystery / and chose you from David's house / the mighty living Lord of glory.</td>
+            <td class="arabic">خَصَكَ يا إبنة يواقيم: واختارك من بيت داود: ليسكن فيك سر عظيم: رب المجد الحي المعبود.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_11" class="south">
+            <td class="english">You were likened to the Cherubim / above angelic hosts, elevated / and all the luminous ranks / above them all, you were honored.</td>
+            <td class="arabic">وتشبّهت بالكاروبيم: وقد زدتِ عن كل جنود: وكل طقوس نورانية: تفضئلتي عنهم بالتمام.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_12" class="north">
+            <td class="english">David the righteous said / “The Lord chose your beauty” / in the psalms, he chanted / “He filled you with grace and purity.”</td>
+            <td class="arabic">داود البار قال عنك: بالمزمار والقيثارة: رب المجد اختار حُسنِك: وملاكِ نعمة وطهارة.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_13" class="north">
+            <td class="english">He came and dwelt in your womb / O help of every malefactor / which tongue can utter / of your glory and honor.</td>
+            <td class="arabic">أتى وسكن في بطنك: يا ملجأ كل الحيارى: أي لسان يقدر يتكلم: بمجدك أو ينطق بكرامة.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_14" class="south">
+            <td class="english">The Lord chose your beauty / Him, we worship, and glorify / your Maker became your Son / with a great Mystery.</td>
+            <td class="arabic">رب المجد اختار حُسنِك: نسجد له ونمجد إياه: من أنشاكِ قد صار ابنِك: بسر عظيم لا يُدرك معناه.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_15" class="south">
+            <td class="english">He came and dwelt in your womb / while with His Father, He dwells / He was incarnate and became man / a Babe, with your milk was fed.</td>
+            <td class="arabic">أتى وسكن في بطنك: وهو كائن في حضن أبيه: تجسد منك وصار مولوداً: رضيع وبعد الرضاع فطامه.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_16" class="north">
+            <td class="english">You were adorned with His Dwelling / He took from you humanity / you carried Him in your arms / united with the Divinity.</td>
+            <td class="arabic">زاك بحلوله في أحشاءك: وأخذ منك الناسوتية: وحملتيه من فوق يديك: مُتحداً باللاهوتية.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_17" class="north">
+            <td class="english">He drank your milk / the Lord of mankind / with your milk, you fed / He who feeds all humankind.</td>
+            <td class="arabic">ورضع من لبن ثدييك: رَبَ جميع البشرية: المُعطي شعبه كل طعام: ورضّعتيه وأكلَ بعد فطامه.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_18" class="south">
+            <td class="english">A luminous ladder was seen / by Jacob our father / the Lord is seated upon it / in glory and honor.</td>
+            <td class="arabic">ملم نوراني قد رآه: أبونا يعقوب إسرائيل: وهو منصوب وجالس أعلاه: إله الآلهة ذو التبجيل.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_19" class="south">
+            <td class="english">He wondered and was amazed / prophesied with illumination / the Divine Economy / a mystery beyond perception.</td>
+            <td class="arabic">فتحيّر في الأمر وتاه: وتنب وشرح تأويل: عن تدبير اللاهوتية: بسر يفوق كل فهّامه.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_20" class="north">
+            <td class="english">To take flesh and become man / God chose to dwell in you / with glad tidings of His birth / He sent Gabriel to you.</td>
+            <td class="arabic">شاء الرب أن يَسكُن فيك: واختارك من بيت داود: وأرسل جبرائيل إليك: بَشْرَكَ بحلول المولود.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_21" class="north">
+            <td class="english">By the Divine power / the Holy Spirit will come upon you / and grant you praise and honor / the Father will overshadow you.</td>
+            <td class="arabic">قال الروح القُدُس يَحلُ عليك: ويظلَلكِ الملك المرهوب: بالقوة الإلهية: واعطاك رفعة وكرامة.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_22" class="south">
+            <td class="english">Ezekiel’s vision was truthful / He saw a door in the East / it was veiled, and the Highest / entered thought it, the High Priest.</td>
+            <td class="arabic">صدق في رؤياه حزقيال: وقد عاين في المشرق باب: مرتفعاً والرب أتاه: دخل فيه وخرج وعليه حجاب.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_23" class="south">
+            <td class="english">He prophesied and explained / the plan of the Lord of hosts / the pure Virgin will bear / the Son of Man, the Logos.</td>
+            <td class="arabic">وتنبأ وشرح معناه: عن تدبير رب الأرباب: تحبل به بكر نقية: ويولد منها غلام.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_24" class="north">
+            <td class="english">Daniel likewise explained / when he saw the Throne / the honored God seated upon it / surrounded by angels with joyous tones.</td>
+            <td class="arabic">دانيال شرح بتأويل: لما عاين بي إثرونوس: وعليه جالس رب جليل: وحواليه تسجد ني أنجيلوس.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_25" class="north">
+            <td class="english">The wise one proclaimed / about the birth of Christ / that He will descend / as dew and rain without clouds.</td>
+            <td class="arabic">صح القول وصدق التأويل: وما تنب صفونيوص: بنزوله شبه ندى ومطر: قطر بغير سحاب وغمامة.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_26" class="south">
+            <td class="english">He bowed the heavens and descended / as prophesied by David His father / while He dwells in His heaven / Eternally in the glory of His Father.</td>
+            <td class="arabic">طأطأ السموات ونزل: كنبوة داود أباه: وفي علو سماه لم يزل: أزلي كائن في مجد أبيه.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_27" class="south">
+            <td class="english">When He fulfilled His Promise / He was incarnate of a virgin / chosen from an honored tribe / exalted above all favor and honor.</td>
+            <td class="arabic">حين وَفَىَ وعده وكَمّل: فتجسد من بكر فتاه: مختارة من سبط كريم: فضّلها بشرفب و كرامة.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_28" class="north">
+            <td class="english">As Isaiah proclaimed / all prophesies were fulfilled / a Virgin will bear in her womb / and give birth to Immanuel.</td>
+            <td class="arabic">ظهر ما تنبأوا به وكَمُل: وشرح فيه أشعياء تأويل: ها هوذا عذراء تحبل: بمولود يُسمى عمانوئيل.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_29" class="north">
+            <td class="english">He will come in due time / to save His people Israel / He fulfilled all prophesies / and appeared on earth out of His good will.</td>
+            <td class="arabic">يأتي في عقب الزمن المُقبل: ويخلص شعبه إسرائيل: وأكمل سائر ما تنبأوا: وظهر له على الأرض علامة.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_30" class="south">
+            <td class="english">Aaron's rod had budded / and brought forth flowers / without planting or watering / it sprouted green leaves.</td>
+            <td class="arabic">عصاة هرون قد أزهرت: وأينعت أوراقاً وأزهار: بغير سقية أخضرت: بعد اليبس أخرجت الأثمار.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_31" class="south">
+            <td class="english">You are the pride of virgins / All the fathers agree / a Virgin bore and gave birth / to the King of peace.</td>
+            <td class="arabic">والآباء قد تشاورا: عنك يا زين الأبكار: بكر بتول تحبل وتلد: من يُظهر على الأرض سلامُه.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_32" class="north">
+            <td class="english">Amos spoke many oracles / about the birth of the Only-begotten / born before all ages / and His birth was long awaited.</td>
+            <td class="arabic">عاموس شرح بمعاني: عن ميلاد وحيد الآب: المولود بدءٌ الأزماني: وميلاده في عقب الأحقاب.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_33" class="north">
+            <td class="english">He will be born in the flesh / from a Virgin, honored / of the root of David / As a Child, He was incarnate.</td>
+            <td class="arabic">يولد ميلاد جسداني: من بكر شريفة في الأنساب: من أصل قبيلة داود: يتجسد مولود كغلام.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_34" class="south">
+            <td class="english">John saw the Apocalypse / the vision of Revelation / a woman embraced by the sun / the moon at her feet as illumination.</td>
+            <td class="arabic">في رؤياه نظر بالأمس: أبو غالمسيس شهد عنك: كإمرأة مشتملة بالشمس: وقمر يضئ تحت أرجُلك.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_35" class="south">
+            <td class="english">A chorus of twelve stars / around your head with radiance / in the upper heavens / you shine on earth with magnificence.</td>
+            <td class="arabic">وكواكب اثنى عشر طقس: من حوليكِ وعاينك: في الأفاق العلوية: ضياؤكِ له على الأرض علامة.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_36" class="north">
+            <td class="english">It is true and right / the sun is Jesus Christ / the moon, the smaller light / is John the Baptist.</td>
+            <td class="arabic">قد صح القول وشمّر: الشمس إيسوس بي إخرستوس: والقمر الكوكب الأصغر: هو يوأنس بيبروذروموس.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_37" class="north">
+            <td class="english">The luminous twelve stars / the twelve Apostles, the holy / as for you O pure Virgin / you fulfilled the vision completely.</td>
+            <td class="arabic">ومصابيح جملة اثنى عشر: بيميت إسناف انآبوستولوس: وأنتٍ يا بكر نقية: اكملتي الرؤيا تماماً.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_38" class="south">
+            <td class="english">Your honor O Mary / is greater than moon and sun / they are deficient to describe you / O Mother of the Holy Son.</td>
+            <td class="arabic">كرامة مريم من يقدر: يشبهها بقمر وشموس: ها ذاك عاجز ومقصّر: بأوصافك يا أم القدوس.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_39" class="south">
+            <td class="english">You're greater and honored more / than the hosts and heavenly ranks / you are above all / the radiant angelic lights.</td>
+            <td class="arabic">أنتِ هي أعظم وأفخر: من الطغمات وكل طقوس: وكل أجناد نورانية: قد زدتي عنها قدراً وكرامة.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_40" class="north">
+            <td class="english">O Lady of virgins / you carried the Savior, our Lord / He took the form of man of you / was incarnate, and Him we adore.</td>
+            <td class="arabic">لولاك يا ست النساء: حملت الرب مخلصنا: وتجسد في شبه إنسان: تأئس منك ببشريتنا.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_41" class="north">
+            <td class="english">By His life-giving Death / He was crucified, naked / He saved Adam and his sons / who were captives with sorrow and regret.</td>
+            <td class="arabic">وصلَّب فوق عود عرياناً: وبموته المحيي خَلّصنا: لكان أدم و بنيه مسجوناً: في شدة حسرة وندامة.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_42" class="south">
+            <td class="english">Who else, O first-born Virgin / do we ask in distress / our request on any day / on our behalf, you intercede, and bless.</td>
+            <td class="arabic">من غيرك يا بكر بتول: نسأله في عَظم الشدة: ونترجّاه في يوم مجهول: ينجد بشفاعة جداً.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_43" class="south">
+            <td class="english">We all implore you / that our prayers be heard / You embrace who seek you / O adornment of the world.</td>
+            <td class="arabic">نحن الكل إليك نقول: أنتٍ أبدا بالنجدة: قاصّدذك كيف ينظر ضيم: يا زين العالم بتمامه.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_44" class="north">
+            <td class="english">Your servant beseeches you / do not forget me in your prayers / all people call upon you / and you grant deliverance.</td>
+            <td class="arabic">ها هوذا عبدك يترجاك: لا تنسيني بصلاتك: يا من كل إنسان يدعوك : يترجوا عَظَّم شفاعاتك.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_45" class="north">
+            <td class="english">Mother of the King of kings / I seek your intercession / all those who seek you / you grant liberation.</td>
+            <td class="arabic">يا أم ملك الملوك: متطلع لشفاعائك: يا من غيري قَصّدك: بلغتيه مُناه بكرامة.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_46" class="south">
+            <td class="english">I ask your intercession / in the heavenly palace / that God likens us with / the servants of the ten talents.</td>
+            <td class="arabic">وأسأل منك شفاعة فينا: أمام ابنك رب القوات: يتفضل ويساوينا: بأصحاب العشر الوزنات.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_47" class="south">
+            <td class="english">In His Name, help us / that we gain good wages / at this time and afterwards / before the end of ages.</td>
+            <td class="arabic">وأسألك باسمه غيثينا: في هذا العالم وفي الآخرات: كي نفوز بصالح الأعمال: قبل فروغ الأجيال بالتمام.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_48" class="north">
+            <td class="english">Forget me not, Mother of Jesus / keep me in your favor / your name is exalted / your fragrant name, we savor.</td>
+            <td class="arabic">لا تنسينا يا أم يسوع: ولا تُخليني من عَشَمِك: يا من اسمك صار مرفوعاً: لا تنسي مَن يذكر اسمك.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_49" class="north">
+            <td class="english">Your servant cries unto you / seeking your blessing / an intercession before your Son / to receive peace and healing</td>
+            <td class="arabic">عبدك أتاكِ بدموع: طالب ترياق من قَمُكِ: شفاعة عند يسوع ابنك: تبريني وأعود بسلامة.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_50" class="south">
+            <td class="english">O who were granted mercy / you carried the Just King / among all nations / you are exalted more than all kin.</td>
+            <td class="arabic">يا من خُصّصتي بالرحمة: وحملتي بالملك الديان: دون سائر كل الأمة: وتفضلتي عن كل إنسان.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_51" class="south">
+            <td class="english">Blessed are you O full of Grace / blessed are you among women / blessed is the fruit of your womb / we worship the Son of Man.</td>
+            <td class="arabic">طوباك يا مملوءة نعمة: مُباركة أنت في النساء: ومبارك هو ثمرة بطنك: له نسجد بوقار وكرامة.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_52" class="north">
+            <td class="english">Graciously Lord, have mercy / O Life of every soul / keep our patriarch / the good father who fulfills the law.</td>
+            <td class="arabic">تفضل يا رب وارحمنا: يا محيي كل الأرواح والنفوس: وأدِم رئاسة بطركنا: الأب العامل بالناموس.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_53" class="north">
+            <td class="english">He prays for us incessantly / Pope Abba (...) the holy / grant him a long life / give him peace and tranquility.</td>
+            <td class="arabic">الساهر في الصلوات عنا: بينيوت إثؤواب آفا (...): أعطيه يا رب زمان فسيح: وهئيه بطول عمره بتمامه.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_54" class="south">
+            <td class="english">Our father(s) Abba (...) the bishop(s) / partner(s) in the Apostolic ministry / accept his (their) prayer(s) on our behalf / to protect us from all misery.</td>
+            <td class="arabic">والأنبا (...) أسقفنا: شريكه في الخدمة الرسولية: بقبول صلاته يحرسنا: من كل الآفات الزمنية.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_55" class="south">
+            <td class="english">Keep also the priests / all the dwellers of the wilderness / monks, hermits, and anchorites / keep them in chastity and pureness.</td>
+            <td class="arabic">ويثبت سائر كهنتنا: وجميع سكان البرية: الرهبان لَبّاس الشكل: النوراني أحرصهم بتمامٌُه.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_56" class="north">
+            <td class="english">All the people who were baptized / the believers in Your holy Name / save them from all evil / and from the traps of Satan.</td>
+            <td class="arabic">وجميع شعب المعمودية: المؤمنين بإسمك يا ديان: نجهم من كل بلية: إكسر هنهم فخاخ الشيطان.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_57" class="north">
+            <td class="english">Forgive them all their sins / to be secured tranquilly / all those who are present and absent / to reach their destination peacefully.</td>
+            <td class="arabic">وامحٌ عنهم كل خطية: ليكونوا في أمان واطمئنان: الحاضرين معنا والغائبين: أوصلهم للميناء بسلامة.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_58" class="south">
+            <td class="english">I, the abject composer / ignorant since my youth / the least of your servants / dweller in iniquity in truth.</td>
+            <td class="arabic">وأنا الخاطىء ناظم ذي الاقوال: غارق في جهلي منذ صباي: أقل عبيدك غبريال: قاطن في قرية تسمى قاي.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_59" class="south">
+            <td class="english">I ask of Your goodness / that Your mother be my protection / on the day of Judgement / to rejoice in the second Resurrection.</td>
+            <td class="arabic">أسأل من جودك يا متعال: يا أم النور عوني و رجائي: مريم ذُخري يوم الحكم: تكون تصري وأفرح بقيامة.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_60" class="north">
+            <td class="english">I ask, O pride of brides / the aid of all Christians / I entreat day and night / O bestowed of favors.</td>
+            <td class="arabic">واسأل يا زين الأبكار: يا عون كل المسيحية: وأطلب منكِ ليل ونهار: يا صاحبة الفضّل علينا.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_61" class="north">
+            <td class="english">I fear the eternal fire / on my behalf, intercede / Ask your Son to have mercy / and grant us His peace.</td>
+            <td class="arabic">متخوف من حر النار: وشفاعتك قوية: أسألي ابنك يرحمنا: وينعم لنا بسلامه.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_62" class="south">
+            <td class="english">I entreat the hero / The struggle-mantled martyr / My lord prince George / The morning star of great armor.</td>
+            <td class="arabic">ومتوسل ببطل مُسمى: بي أتلوفوروس اممارتيروس: نجم الصبح الملطي قسمي: باشويس ابؤرو جيؤرجيوس.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_63" class="south">
+            <td class="english">By his prayers before Jesus / all my life, Iam protected / my helper in my sojourn / counted among his beloved.</td>
+            <td class="arabic">طول عمري بصلاته محمي: لأنه شفيعي عند إيسوس: محسوب من جملة أحبائه: مُعيني في السفر والاقامة.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_64" class="north">
+            <td class="english">O flower of Palestine / O morning star / O precious jewel / whose light is seen afar.</td>
+            <td class="arabic">يا زهرة أرض فلسطين: ويا كوكب صبح الاشراق: يا جوهر غالي وثمين: يا من نوره عمَّ الأفاق.</td>
+        </tr>
+        
+        <tr id="table_${tableNumber}_row_65" class="north">
+            <td class="english">Behold, I am a sinner / I praise You with eagerness / saying, O God of St. George / help me to gain paradise. ${cross}</td>
+            <td class="arabic">ها أنا خاطئ ومسكين: ومادح فيك بإشتياق: وأقول يا إله مارجرجس: إنجدني لأفوز بسلامة. ${cross}</td>
+        </tr>
+        </tbody>
+</table>`;
+ return html;
 }
 ,
 praiseAdamOnAikoti(tableNumber) {
@@ -4603,7 +5888,7 @@ AdamPsali_ComeLetUsWorship(tableNumber) {
     const html = `
     <table id="table_${tableNumber}" style="display: table;" title="Adam Psali - Come, Let Us Worship">
     
-    <caption id="caption_table_${tableNumber}" class="caption">Adam Psali - Come, Let Us Worship
+    <caption id="caption_table_${tableNumber}" class="caption table-invisible">Adam Psali - Come, Let Us Worship
         <span class="coptic-caption">Ⲁ̀ⲙⲱⲓⲛⲓ ⲙⲁⲣⲉⲛⲟⲩⲱϣⲧ</span>
         <span class="arabic-caption">ابصالية ادام - تعلوا ايها الشعوب</span>
     </caption>
@@ -5391,31 +6676,6 @@ const html = `
                 granted us salvation: O daughter of Zion</td>
             <td class="arabic">إشفعى فينا: فى يوم الزحمة: بابنك نلنا الخلاص: ياإبنة صهيون</td>
         </tr>
-        <tr id="table_${tableNumber}_row_17" class="south">
-            <td class="english" >Holy, Holy, Holy; a reading from the
-                Gospel according to our teacher St. Luke [2: 29-32] the Evangelist. May his blessings be with us
-                all. Amen.</td>
-            <td class="arabic">قدوس قدوس قدوس. فصل من الانجيل بحسب لوقا (٢ : ٢٩-٣٢) البشير. بركاته تكون معنا.
-                آمين.</td>
-        </tr>
-        <tr id="table_${tableNumber}_row_18" class="north">
-            <td class="english" >(The Gospel According to St. Luke) (CH.
-                2: 29-32)</td>
-            <td class="coptic" >( Ⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲁⲧⲁ Ⲗⲟⲩⲕⲁⲛ ) ( ⲃˉ : ⲕˉⲑˉ )
-            </td>
-            <td class="arabic">لوقا (٢ : ٢٩-٣٢)</td>
-        </tr>
-        <tr id="table_${tableNumber}_row_19" class="south">
-            <td class="english" >Lord, now You are letting Your servant
-                depart in peace, according to Your word: For my eyes have seen Your salvation, Which You have
-                prepared before the face of all peoples; A light to bring revelation to the Gentiles, and the
-                glory of Your people Israel. Glory be to God forever. ${cross}</td>
-            <td class="coptic" >Ⲧⲏⲛⲟⲩ ⲡⲁⲛⲏⲃ ⲭ̀ⲛⲁⲭⲁ ⲡⲉⲕⲃⲱⲕ ⲉ̀ⲃⲟⲗ : ϧⲉⲛ
-                ⲟⲩϩⲓⲣⲏⲛⲏ ⲕⲁⲧⲁ ⲡⲉⲕⲥⲁϫⲓ : ϫⲉ ⲁⲩⲛⲁⲩ ⲛ̀ϫⲉ ⲛⲁⲃⲁⲗ ⲉ̀ⲡⲉⲕⲛⲟϩⲉⲙ : ⲫⲏⲉ̀ⲧⲁⲕ ⲥⲉⲃⲧⲱⲧϥ ⲙ̀ⲡⲉ ⲙ̀ⲑⲟ ⲛ̀ⲛⲓⲗⲁⲟⲥ
-                ⲧⲏⲣⲟⲩ. Ⲟⲩⲟⲩⲱⲓⲛⲓ ⲉⲩϭⲱⲣⲡⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ϩⲁⲛⲉⲑⲛⲟⲥ : ⲛⲉⲙ ⲟⲩⲱ̀ⲟⲩ ⲛ̀ⲧⲉ ⲡⲉⲕⲗⲁⲟⲥ Ⲡⲓⲥⲣⲁⲏⲗ. ${cross}</td>
-            <td class="arabic">الآن ياسيد تطلق عبدك بسلام كقولك. لأن عينىّ قد ابصرتا خلاصك الذى أعددتة قدام جميع
-                الشعوب. نوراً تجلى للأمم ومجداً لشعبك اسرائيل. ${cross}</td>
-        </tr>
     </tbody>
 </table>`
 return html;
@@ -5507,7 +6767,7 @@ return html;
 praiseOnShereNeMaria(tableNumber) {
 const html = `
 <table id="table_${tableNumber}" style="display: table;" title="Praise on Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ̀">
-    <caption id="caption_table_${tableNumber}" class="caption">Praise on Shere Ne Maria
+    <caption id="caption_table_${tableNumber}" class="caption table-invisible">Praise on Shere Ne Maria
         <span class="arabic-caption">مديح على شيري ني ماريا</span>
     </caption>
     <tbody>
@@ -6344,12 +7604,10 @@ const html = `
             <td class="arabic">حل بكلمته: وشرح قدرته: صرت كسمائه: يا إبنة صهيون</td>
         </tr>
         <tr id="table_${tableNumber}_row_7" class="refrain">
-            <td class="english" >Your love embraced me: O pride of nations:
-                Moses has seen you: Surprise and marvel: And the lamps are bright: With golden crosses.<br> 
-                The praise of the virgin: Increased my joy: Praising her always: Increased my bliss: Moses' dome, O Mary: O
-                Aaron's censer</td>
-            <td class="arabic">سباني حُبك: يافخرَ الرتب: موسى رآكِ: عجب من عجب: والقناديل فضة بتضوي: والصلبان ذهب. <br>
-            ودا مدح البتول: زاد قلبى فرح: مدحها علطول: خلاه إنشرح: ياقبة موسى يامريم: ياشورية هرون</td>
+            <td class="english" >Your love embraced me: O pride of nations: Moses has seen you: Surprise and marvel: <br>
+            And the lamps are bright: With golden crosses. Moses' dome, O Mary: O Aaron's censer</td>
+            <td class="arabic">سباني حُبك: يافخرَ الرتب: موسى رآكِ: عجب من عجب: <br>
+            والقناديل فضة بتضوي: والصلبان ذهب : ياقبة موسى يامريم: ياشورية هرون</td>
         </tr>
         <tr id="table_${tableNumber}_row_8" class="south">
             <td class="english" >He saved Adam: After his sorrow: And has
@@ -6382,12 +7640,10 @@ const html = `
             <td class="arabic">سالومي شهدت: إن العذراء ولدت: آمنت وأعتقدت: بالسر المكنون</td>
         </tr>
         <tr id="table_${tableNumber}_row_15" class="refrain">
-            <td class="english" >Your love embraced me: O pride of nations:
-                Moses has seen you: Surprise and marvel: And the lamps are bright: With golden crosses.<br> 
-                The praise of the virgin: Increased my joy: Praising her always: Increased my bliss: Moses' dome, O Mary: O
-                Aaron's censer</td>
-            <td class="arabic">سباني حُبك: يافخرَ الرتب: موسى رآكِ: عجب من عجب: والقناديل فضة بتضوي: والصلبان ذهب. <br>
-            ودا مدح البتول: زاد قلبى فرح: مدحها علطول: خلاه إنشرح: ياقبة موسى يامريم: ياشورية هرون</td>
+            <td class="english" >Your love embraced me: O pride of nations: Moses has seen you: Surprise and marvel: <br>
+            And the lamps are bright: With golden crosses. Moses' dome, O Mary: O Aaron's censer</td>
+            <td class="arabic">سباني حُبك: يافخرَ الرتب: موسى رآكِ: عجب من عجب: <br>
+            والقناديل فضة بتضوي: والصلبان ذهب : ياقبة موسى يامريم: ياشورية هرون</td>
         </tr>
         <tr id="table_${tableNumber}_row_16" class="north">
             <td class="english" >Solomon, your father: Praised in hymns
@@ -6420,12 +7676,10 @@ const html = `
             <td class="arabic">غلب فيك المداح: يا بدء الأفراح: بمديحك يرتاح: كل ذليل محزون</td>
         </tr>
         <tr id="table_${tableNumber}_row_23" class="refrain">
-            <td class="english" >Your love embraced me: O pride of nations:
-                Moses has seen you: Surprise and marvel: And the lamps are bright: With golden crosses.<br> 
-                The praise of the virgin: Increased my joy: Praising her always: Increased my bliss: Moses' dome, O Mary: O
-                Aaron's censer</td>
-            <td class="arabic">سباني حُبك: يافخرَ الرتب: موسى رآكِ: عجب من عجب: والقناديل فضة بتضوي: والصلبان ذهب. <br>
-            ودا مدح البتول: زاد قلبى فرح: مدحها علطول: خلاه إنشرح: ياقبة موسى يامريم: ياشورية هرون</td>
+            <td class="english" >Your love embraced me: O pride of nations: Moses has seen you: Surprise and marvel: <br>
+            And the lamps are bright: With golden crosses. Moses' dome, O Mary: O Aaron's censer</td>
+            <td class="arabic">سباني حُبك: يافخرَ الرتب: موسى رآكِ: عجب من عجب: <br>
+            والقناديل فضة بتضوي: والصلبان ذهب : ياقبة موسى يامريم: ياشورية هرون</td>
         </tr>
         <tr id="table_${tableNumber}_row_24" class="south">
             <td class="english" >My heart rejoices in you: O Virgin Mary:
@@ -6478,12 +7732,10 @@ const html = `
             <td class="arabic">ونسأل من جوده الغفران: وتوبة مع إيمان: لنصير في اطمئنان: نحن المؤمنون</td>
         </tr>
         <tr id="table_${tableNumber}_row_35" class="refrain">
-        <td class="english" >Your love embraced me: O pride of nations:
-        Moses has seen you: Surprise and marvel: And the lamps are bright: With golden crosses.<br> 
-        The praise of the virgin: Increased my joy: Praising her always: Increased my bliss: Moses' dome, O Mary: O
-        Aaron's censer</td>
-    <td class="arabic">سباني حُبك: يافخرَ الرتب: موسى رآكِ: عجب من عجب: والقناديل فضة بتضوي: والصلبان ذهب. <br>
-    ودا مدح البتول: زاد قلبى فرح: مدحها علطول: خلاه إنشرح: ياقبة موسى يامريم: ياشورية هرون ${cross}</td>
+            <td class="english" >Your love embraced me: O pride of nations: Moses has seen you: Surprise and marvel: <br>
+            And the lamps are bright: With golden crosses. Moses' dome, O Mary: O Aaron's censer ${cross}</td>
+            <td class="arabic">سباني حُبك: يافخرَ الرتب: موسى رآكِ: عجب من عجب: <br>
+            والقناديل فضة بتضوي: والصلبان ذهب : ياقبة موسى يامريم: ياشورية هرون ${cross}</td>
         </tr>
     </tbody>
 </table>`;

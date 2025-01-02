@@ -2,7 +2,7 @@ import { cross , book } from './repeatedPrayers';
 import { getTheotokia , getWeekdaySundayTheotokia , getTennav } from './midnightPsalmody/theotokias';
 import {getPsali} from './midnightPsalmody/psalis';
 import { getKiahkPraiseHtml } from './midnightPsalmody/kiahkPraises';
-import { annualCommemoration , annualFourthCanticle , getAdamDoxologiesConclusion , theMorningDoxology ,
+import { annualCommemoration , annualFourthCanticle , theMorningDoxology ,
     creedInro , creed , holyHolyHoly , psalmodyConclusion , nekNai
  } from './midnightPsalmody/annual';
 
@@ -25,7 +25,6 @@ export const psalmody = (settings) => {
     const weekDaySundayPostFirstCanticle = dayOfWeek !== 0 ? getWeekdaySundayTheotokia(5,settings) : '';
 
     const tennav = aktonkAki.english === "risen" ? getTennav(1) : '';
-    const adamDoxologiesConclusion = adam ? getAdamDoxologiesConclusion(38) : '';
     // Initialize empty variables with let, including commemorationHtml and fourthCanticleHtml
     let {
         postTenthino = '',
@@ -33,11 +32,14 @@ export const psalmody = (settings) => {
         preSecondCanticle = '',
         postSecondCanticle = '',
         postThirdCanticle = '',
-        commemoration = annualCommemoration(25),
+        commemoration = annualCommemoration(29),
+        postCommemoration = '',
+        preFourthCanticle = '',
         fourthCanticle = annualFourthCanticle(35),
         postFourthCanticle = '',
         postPsali = '',
-        preTheotokia = ''
+        preTheotokia = '',
+        postTheotokia = '',
     } = {};
    
     // Check if conditions are met for Kiahk
@@ -56,15 +58,22 @@ export const psalmody = (settings) => {
             (dayOfWeek === 0 ? getKiahkPraiseHtml("praiseAfterThursdayTheotokia" , 11.3):'') +
             getKiahkPraiseHtml("psaliAdamOn3rdCanticle" , 11.4) +
             getKiahkPraiseHtml("secondPsaliAdamOn3rdCanticle" , 11.5) +
-            getKiahkPraiseHtml("KiahkPraisefortheHolyTrinity" , 11.6);
+            getKiahkPraiseHtml("AdamPsaliOnTheThirdCanticle" , 11.6) +
+            getKiahkPraiseHtml("KiahkPraisefortheHolyTrinity" , 11.7);
         postThirdCanticle = getKiahkPraiseHtml("praiseOnPsaliOfTheThreeYoungMen" , 18.1);
-        commemoration = 
-            getKiahkPraiseHtml("kiahkCommemoration" , 25.1) +
-            getKiahkPraiseHtml("praiseForStAnthonyTheGreat" , 25.2) +
-            getKiahkPraiseHtml("praiseForStMaximosAndDomadios" , 25.3) +
-            getKiahkPraiseHtml("praiseForStSamuelTheConfessor" , 25.4);
+        commemoration = getKiahkPraiseHtml("kiahkCommemoration" , 29);
+        postCommemoration = getKiahkPraiseHtml("praiseForStAnthonyTheGreat" , 31.1) +
+                            getKiahkPraiseHtml("praiseForStMaximosAndDomadios" , 31.2) +
+                            getKiahkPraiseHtml("PraiseforStMosestheStrong" , 31.3) +
+                            getKiahkPraiseHtml("praiseForStSamuelTheConfessor" , 31.4) +
+                            getKiahkPraiseHtml("PraiseforPopeKyrillosVI" , 31.5);
+        preFourthCanticle = (dayOfWeek === 0 ? 
+                            getKiahkPraiseHtml("WatosPsaliontheFridayTheotokia" , 34.1) +
+                            getKiahkPraiseHtml("WatosPsaliontheSaturdayTheotokia" , 34.2) : '') +
+                            getKiahkPraiseHtml("WatosPraiseaftertheSaturdayTheotokia" , 34.3);
         fourthCanticle = (adam ? getKiahkPraiseHtml("AdamPsali_ComeLetUsWorship" , 35) : '') + getKiahkPraiseHtml("fourthCanticleKiahk" , 35.1);
-        postFourthCanticle = (dayOfWeek === 0 ? getKiahkPraiseHtml("praiseAdamOnAikoti" , 36) : '');
+        postFourthCanticle = (dayOfWeek === 0 ?
+                getKiahkPraiseHtml("praiseAdamOnAikoti" , 36.2) : '');
         postPsali = 
             (dayOfWeek === 0 ? getKiahkPraiseHtml("iOpenMyMouthWithPraise" , 50.1) : '');
         switch (dayOfWeek) {
@@ -79,6 +88,13 @@ export const psalmody = (settings) => {
                 break;
             case 4:
                 preTheotokia = getKiahkPraiseHtml("praiseAfterThursdayTheotokia" , 55);
+                break;
+            case 5:
+                preTheotokia = getKiahkPraiseHtml("WatosPsaliontheFridayTheotokia" , 55);
+                break;
+            case 6:
+                preTheotokia = getKiahkPraiseHtml("WatosPsaliontheSaturdayTheotokia" , 55);
+                postTheotokia = getKiahkPraiseHtml("WatosPraiseaftertheSaturdayTheotokia" , 70);
                 break;
             default:
                 preTheotokia = '';
@@ -1437,20 +1453,25 @@ return `
         <caption id="caption_table_30" class="caption hidden-caption">Doxologies
             <span class="arabic-caption">الذكصولوجيات</span>
         </caption>
-        <tr id="table_30_row_0" data-navigation="Doxologies" class="navigationLink">
+<tr
+    id="table_30_row_0"
+    data-navigation='{"destination": "Doxologies", "source": "midnightPraises"}'
+    class="navigationLink"
+>
             <td class="englishLink">Doxologies</td>
             <td class="arabicLink">الذكصولوجيات</td>
         </tr>
 
     </table>
-
-${adamDoxologiesConclusion}
+${postCommemoration}
+${preFourthCanticle}
 ${fourthCanticle}
 ${postFourthCanticle}
 ${psali}
 ${postPsali}
 ${preTheotokia}
 ${theotokia}
+${postTheotokia}
 ${midnightPsalmodyConclusion}
 ${morningDoxology}
 

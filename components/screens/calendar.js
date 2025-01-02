@@ -73,7 +73,7 @@ const CalendarScreen = () => {
     // Function to initialize the season for the current date
     useEffect(() => {
         if (currentDate) {
-            const coptic = gregorianToCoptic(currentDate);
+            const coptic = selectedDateProperties && selectedDateProperties.copticDate ? selectedDateProperties.copticDate : gregorianToCoptic(currentDate);
             setCopticDate(coptic);
 
             const currentGregorianYear = currentDate.getFullYear();
@@ -81,7 +81,7 @@ const CalendarScreen = () => {
             setCopticSeasons(seasons);
 
         }
-    }, [currentDate]); // Trigger when currentDate changes
+    }, [currentDate , selectedDateProperties]); // Trigger when currentDate changes
 
 
     // Function to update season based on the selected date
@@ -246,7 +246,18 @@ const CalendarScreen = () => {
                         value={currentDate || new Date()} // Default to current date from settings
                         mode="date"
                         display={Platform.OS === 'ios' ? 'inline' : 'spinner'} // Use spinner for iOS
-                        onChange={handleDateChange} // Handle date selection
+                        onChange={(event, selectedDate) => {
+                            if (selectedDate) {
+                                // Normalize the selected date to local time
+                                const normalizedDate = new Date(
+                                    selectedDate.getTime() - selectedDate.getTimezoneOffset() * 60000
+                                );
+                                handleDateChange(event, normalizedDate); // Pass the normalized date
+                            } else {
+                                handleDateChange(event, selectedDate); // Pass null if no date is selected
+                            }
+                        }}                
+                
                     />
                 )}
 

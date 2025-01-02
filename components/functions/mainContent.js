@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, ActivityIndicator, Dimensions } from 'react-native';
+import { View, ActivityIndicator, Dimensions, Platform } from 'react-native';
 import { presentationStyles } from '../css/presentationStyles';
 import { WebView } from 'react-native-webview';
 import { handleMessage, handleNext, handlePrevious, handleDrawerItemPress } from './renderFunctions'; // Assuming this is imported
@@ -7,6 +7,7 @@ import { useNavigation, useIsFocused } from '@react-navigation/native';
 import localStorage from './localStorage';
 import {ExplanationPopup} from '../reusableComponents/explanationPopup';
 import explanationsData from '../../data/explanations.json'; // Import the data
+
 
 
 export const MainContent = ({ html, webviewRef, setDrawerItems, setCurrentTable, currentTable }) => {
@@ -45,6 +46,7 @@ useEffect(() => {
         if (hasLeftScreen && currentTable) {
             setRefreshing(true); // Set refreshing state
             timeout = setTimeout(() => {
+                webviewRef.current.injectJavaScript(`paginateTables();`);
                 handleDrawerItemPress(currentTable, webviewRef);
                 setHasLeftScreen(false); // Reset the flag
                 setRefreshing(false); // Reset refreshing state
@@ -52,7 +54,11 @@ useEffect(() => {
 
         } else {
             if (currentTable) {
-                handleDrawerItemPress(currentTable, webviewRef);
+                setRefreshing(true); // Set refreshing state
+                timeout = setTimeout(() => {
+                    handleDrawerItemPress(currentTable, webviewRef);
+                    setRefreshing(false); // Reset refreshing state
+                }, 1000);
             } else {
                 setRefreshing(true); // Set refreshing state
                 if (!loading) {
@@ -60,7 +66,7 @@ useEffect(() => {
                         webviewRef.current.injectJavaScript(`paginateTables();`);
                         handleDrawerItemPress(firstTable, webviewRef);
                         setRefreshing(false); // Reset refreshing state
-                    }, 500);
+                    }, 1000);
                 }
             }
         }
@@ -74,7 +80,7 @@ useEffect(() => {
         if (timeout) clearTimeout(timeout);
     };
 
-}, [isFocused, hasLeftScreen, loading]);
+}, [isFocused, loading]);
 
     // Load saved table states (visible or collapsed) from local storage
     useEffect(() => {

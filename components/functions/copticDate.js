@@ -107,8 +107,8 @@ const fixedFeastsCopticDates = [
     { date: "Tout 1", season: "Nayrouz (Coptic New Year)", priority: 2 , visible: true },
     { start: "Tout 2", end: "Tout 16", season: "Nayrouz Festive Season", priority: 2  , visible: false},
     { start: "Tout 17", end: "Tout 19", season: "Feast of the Cross", priority: 2 , visible: true},   
-    { start: "Hator 16", end: "Kiahk 28", season: "Fast of the Nativity - Advent", priority: 3 , visible: false},
-    { start: "Hator 16", end: "Kiahk 28", season: "Fast of the Nativity - Advent", priority: 3 , nextYear: true , visible: true},
+    { start: "Hator 16", end: "Kiahk 28", season: "Fast of the Nativity (Advent)", priority: 3 , visible: false},
+    { start: "Hator 16", end: "Kiahk 28", season: "Fast of the Nativity (Advent)", priority: 3 , nextYear: true , visible: true},
     { start: "Kiahk 1", end: "Kiahk 28", season: "Kiahk", priority: 3 , visible: false},
     { start: "Kiahk 1", end: "Kiahk 29", season: "Kiahk", priority: 3, nextYear: true , visible: true},
     { date: "Kiahk 29", season: "Feast of the Nativity", priority: 1 , nextYear: true , visible: true},
@@ -470,9 +470,8 @@ function getAdjustedDate(gregorianDate, dayTransitionTime) {
 }
 
 // Utility function to compare dates and match the season
-function findCopticSeason(gregorianDate, copticSeasons, dayTransitionTime) {
+function findCopticSeason(gregorianDateAdjusted, copticSeasons) {
     // Get the hours and minutes of the transition time
-    const gregorianDateAdjusted = getAdjustedDate(gregorianDate, dayTransitionTime);
     let matchingSeasons = [];
 
     // Iterate through the copticSeasons array to find all matching seasons
@@ -512,20 +511,13 @@ function findCopticSeason(gregorianDate, copticSeasons, dayTransitionTime) {
     return ["Annual Season"];
 }
 
-function findSaintFeast(gregorianDate, copticSaintFeasts, dayTransitionTime) {
-    const gregorianDateAdjusted = getAdjustedDate(gregorianDate, dayTransitionTime);
+function findSaintFeast(copticDate) {
     let matchingFeasts = [];
+    const copticMonthDay = `${copticDate.copticMonthName} ${copticDate.copticDay}`;
 
-    // Iterate through the copticSaintFeasts array to find all matching feasts
     for (let feast of copticSaintFeasts) {
-        if (feast.date) {
-            // If the feast has a single date, check if it matches the input date
-            const feastDate = new Date(feast.date);
-
-            // Compare dates using UTC components
-            if (compareDatesInUTC(gregorianDateAdjusted, feastDate) === 0) {
-                matchingFeasts.push(feast); // Add the matching feast to the list
-            }
+        if (feast.date === copticMonthDay) {
+            matchingFeasts.push(feast);
         }
     }
 
@@ -663,19 +655,17 @@ function isSunday(date) {
 function getSelectedDateProperties(selectedDate, dayTransitionTime) {
     // get the date in the current time zone
     const utcDate = new Date(selectedDate);
-    const gregorianDate = new Date(utcDate.getTime() - utcDate.getTimezoneOffset() * 60000);  // Convert to local time
-    const copticDate = gregorianToCoptic(gregorianDate);
-    const copticSeasons = getCopticSeasons(gregorianDate.getFullYear());
-    const copticSeason = findCopticSeason(gregorianDate, copticSeasons, dayTransitionTime);
-    const saintFeasts = getSaintFeasts(gregorianDate.getFullYear());
-    const saintFeast = findSaintFeast(gregorianDate, saintFeasts, dayTransitionTime);
+    const gregorianDate = new Date(utcDate.getTime() - utcDate.getTimezoneOffset() * 60000);  // Convert to local time\
     const adjustedDate = getAdjustedDate(gregorianDate, dayTransitionTime);
+    const copticDate = gregorianToCoptic(adjustedDate);
+    const copticSeasons = getCopticSeasons(adjustedDate.getFullYear());
+    const copticSeason = findCopticSeason(adjustedDate, copticSeasons);
+    const saintFeast = findSaintFeast(copticDate);
     const dayOfWeek = adjustedDate.getDay();
     const isAdam = dayOfWeek >= 0 && dayOfWeek <= 2;
     const adamOrWatos = isAdam ? "Adam" : "Watos";
     const aktonkAki = getAktonkAki(adjustedDate, copticSeasons, copticDate);
     const dayOfWeekIndex = adjustedDate.getDay();
-
 
     return {
         gregorianDate,
@@ -685,6 +675,7 @@ function getSelectedDateProperties(selectedDate, dayTransitionTime) {
         saintFeast,
         dayOfWeekIndex,
         aktonkAki,
+        adjustedDate,
     };
 }
 

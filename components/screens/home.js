@@ -5,7 +5,7 @@ import { ImageBackground, View, Text, StyleSheet, TouchableOpacity, Platform, Im
 import { useNavigation } from '@react-navigation/native';
 import backgroundImage from '../../assets/background.png';
 import glorificationImage from '../../assets/glorification.png';
-import kiahkImage from '../../assets/kiahk.png';
+import bibleImage from '../../assets/bible.png';
 import psalmody from '../../assets/psalmody.png';
 import holyWeekImage from '../../assets/holyWeek.png';
 import songsImage from '../../assets/songs.png';
@@ -40,13 +40,20 @@ const Home = () => {
         <View style={styles.booksContainer}>
           <View style={styles.iconRow}>
 
-              
+            
 
               <TouchableOpacity
                 style={[styles.iconContainer]}
                 onPress={() => navigation.navigate('Glorification')}
               >
                 <Image source={glorificationImage} style={styles.iconImage} />
+              </TouchableOpacity>
+              
+              <TouchableOpacity
+                style={[styles.iconContainer]}
+                onPress={() => navigation.navigate('Bible')}
+              >
+                <Image source={bibleImage} style={styles.iconImage} />
               </TouchableOpacity>
 
               <TouchableOpacity

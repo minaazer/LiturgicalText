@@ -19,6 +19,8 @@ import GoLive from "../reusableComponents/goLive";
 import CurrentSeason from "../reusableComponents/currentSeason";
 import AboutScreen from "../screens/about";
 import Home from "../screens/home";
+import BibleScreen from "../screens/bible/bibleScreen";
+import ChapterScreen from "../screens/bible/chapterScreen";
 import Kiahk from "../screens/kiahk";
 import Psalmody from "../screens/psalmody";
 import KiahkDoxologies from "../screens/kiahkDoxologies";
@@ -122,6 +124,18 @@ import {
 } from "../screens/holyWeek/hours/litanies";
 
 const RouteConfig = [
+  {
+    screenName: "Bible",
+    label: "The Holy Bible",
+    component: BibleScreen,
+    children: [
+      {
+        screenName: "ChapterScreen",
+        label: "Chapter",
+        component: ChapterScreen
+      }
+    ]
+  },
   {
     screenName: "Glorification",
     label: "Glorification",

@@ -41,7 +41,7 @@ const defaultSettings = {
 
 const SettingsProvider = ({ children }) => {
   const [settings, setSettings] = useState(defaultSettings);
-  const currentVersion = 14; // Update this number when you want to change the settings
+  const currentVersion = 15; // Update this number when you want to change the settings
 
   // Load settings from AsyncStorage on initialization
   useEffect(() => {
@@ -78,7 +78,7 @@ const SettingsProvider = ({ children }) => {
         } else {
           // Preserve user settings if they exist, otherwise fall back to defaults
           const storedDoxologySettings = 
-          version < 13 || settings?.doxologyFunctionNames === undefined
+          version < 15 || settings?.doxologyFunctionNames === undefined
             ? defaultDoxologyFunctionNames
             : sortArrayByTemplate(settings.doxologyFunctionNames , defaultDoxologyFunctionNames);
 

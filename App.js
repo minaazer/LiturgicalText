@@ -15,6 +15,9 @@ import app from './app.json';
 import Constants from 'expo-constants';
 import * as ScreenOrientation from 'expo-screen-orientation';
 import SettingsContext from './settings/settingsContext';
+import changelog from './changelog';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import semver from 'semver';
 
 
 
@@ -117,11 +120,11 @@ useEffect(() => {
   
  // Check for updates
  useEffect(() => {
-
   const isRunningInExpoGo = Constants.executionEnvironment === 'storeClient';
   if (!isRunningInExpoGo) {
     checkForStoreUpdates();
   }
+  checkForVersionUpdates();
 }, []);
 
 
@@ -133,7 +136,7 @@ const checkForStoreUpdates = async () => {
     // Proceed with the version check if not in Expo Go
     const latestVersion = await VersionCheck.getLatestVersion();
 
-    if (latestVersion !== currentVersion) {
+    if (latestVersion && latestVersion !== currentVersion) {
       Alert.alert(
         'Update Available',
         `A newer version of the app is available.\n\nCurrent version: ${currentVersion}\nLatest version: ${latestVersion}`,
@@ -158,6 +161,50 @@ const checkForStoreUpdates = async () => {
   }
 };
   
+
+const checkForVersionUpdates = async () => {
+  try {
+    const currentVersion = app.expo.version || '1.0.0';
+    var lastSeenVersion = await AsyncStorage.getItem('lastSeenVersion');
+    if (!lastSeenVersion) {
+      lastSeenVersion = '1.0.0';
+    }
+    // Get all versions in the changelog, sorted semantically
+    const allVersions = Object.keys(changelog).sort(semver.compare);
+
+    // Find the index of the last seen version
+    const lastSeenIndex = allVersions.indexOf(lastSeenVersion);
+
+    // Collect updates for all versions since the last seen version
+    const updates = [];
+    if (lastSeenIndex !== -1) {
+      for (let i = lastSeenIndex + 1; i < allVersions.length; i++) {
+        const version = allVersions[i];
+        updates.push(`\nVersion ${version}:\n- ${changelog[version]?.join('\n- ')}`);
+      }
+    } else {
+      // If the last seen version isn't found, assume all updates are new
+      for (const version of allVersions) {
+        updates.push(`\nVersion ${version}:\n- ${changelog[version]?.join('\n- ')}`);
+      }
+    }
+
+    if (updates.length > 0) {
+      Alert.alert(
+        `What’s New in ${currentVersion}`,
+        updates.join('\n'),
+        [{ text: 'Got it' }]
+      );
+
+      // Update the stored version
+      await AsyncStorage.setItem('lastSeenVersion', currentVersion);
+    }
+  } catch (error) {
+    console.error('Error checking for version updates:', error);
+  }
+};
+
+
 
   // Hide the splash screen when the root view is laid out
 

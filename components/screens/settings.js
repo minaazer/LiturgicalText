@@ -115,7 +115,10 @@ const SettingsScreen = () => {
                                 
                                 style={pickerSelectStyles}
                                 Icon={() => (
-                                    <Ionicons name="caret-down-outline" size={ 20} color="grey"/>
+                                    <Ionicons
+                                        name="caret-down-outline"
+                                        color="grey"
+                                    />
                                 ) }
 
                             />
@@ -135,7 +138,7 @@ const SettingsScreen = () => {
                                 useNativeAndroidPickerStyle = {false}
                                 style={pickerSelectStyles}
                                 Icon={() => (
-                                    <Ionicons name="caret-down-outline" size={ 20} color="grey" 
+                                    <Ionicons name="caret-down-outline" color="grey" 
                                      />
                                 ) }
                                 

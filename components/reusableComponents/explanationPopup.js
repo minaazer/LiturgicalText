@@ -1,9 +1,12 @@
 import React from 'react';
-import { Modal, View, Text, TouchableOpacity, StyleSheet, ScrollView } from 'react-native';
+import { View, Text, TouchableOpacity, StyleSheet, ScrollView } from 'react-native';
+
 
 export const ExplanationPopup = ({ visible, title, sections, onClose }) => {
+  if (!visible) return null;
+
+
   return (
-    <Modal transparent visible={visible} animationType="slide">
       <View style={styles.modalOverlay}>
         <View style={styles.alertBox}>
           {/* "X" Button in the top-left corner */}
@@ -15,17 +18,21 @@ export const ExplanationPopup = ({ visible, title, sections, onClose }) => {
           <Text style={styles.title}>{title}</Text>
 
           {/* Scrollable Content */}
-          <ScrollView contentContainerStyle={styles.content}>
-            {sections.map((section, index) => (
+          <ScrollView
+            contentContainerStyle={styles.content}
+            onContentSizeChange={(width, height) => {
+              console.log('Content Size:', { width, height });
+            }}
+          >
+             {sections.map((section, index) => (
               <View key={index} style={styles.section}>
                 <Text style={styles.sectionTitle}>{section.title}</Text>
-                {parseFormattedText(section.text)}
+                <Text>{parseFormattedText(section.text)}</Text>
               </View>
             ))}
           </ScrollView>
         </View>
       </View>
-    </Modal>
   );
 };
 
@@ -142,11 +149,15 @@ const parseFormattedText = (text) => {
 
 const styles = StyleSheet.create({
   modalOverlay: {
-    flex: 1,
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+    backgroundColor: 'rgba(0,0,0,0.5)',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'rgba(0, 0, 0, 0.5)',
-  },
+    },
   alertBox: {
     width: '90%',
     backgroundColor: '#fff',
@@ -196,5 +207,3 @@ const styles = StyleSheet.create({
     lineHeight: 22,
   },
 });
-
-export default ExplanationPopup;
