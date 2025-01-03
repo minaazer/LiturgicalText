@@ -35,6 +35,7 @@ function getPsali(basetableNumber, vespers , settings) {
         "Thomas Sunday - Watos" : PsaliWatosForThomasSunday,
         "Feast of the Transfiguration - Adam" : PsaliAdamForTransfiguration,
         "Feast of the Transfiguration - Watos" : PsaliWatosForTransfiguration,
+        "Feast of the Wedding at Cana of Galilee - Adam" : PsaliAdamForTheWeddingAtCanaOfGalilee,
         "Feast of the Wedding at Cana of Galilee - Watos" : PsaliWatosForTheWeddingAtCanaOfGalilee,
         "Nayrouz (Coptic New Year) - Adam" : PsaliAdamForTheCopticNewYear,
         "Nayrouz (Coptic New Year) - Watos" : PsaliWatosForTheCopticNewYear,
@@ -5611,7 +5612,144 @@ function PsaliWatosForTransfiguration(tableNumber) {
 }
 
 // Wedding of Cana of Galilee
-  /// Add Adam psali
+function PsaliAdamForTheWeddingAtCanaOfGalilee(tableNumber) {
+    const html = `
+    <table id="table_${tableNumber}" style="display: table;" title="Psali Adam For The Wedding At Cana Of Galilee">
+        <caption id="caption_table_${tableNumber}" class="caption">Psali Adam For The Wedding At Cana Of Galilee
+            <span class="coptic-caption">Ⲁⲓⲉⲣϩⲉⲗⲡⲓⲥ ⲉ̀ⲣⲟⲕ</span>
+            <span class="arabic-caption">ابصالية ادام لعرس قانا الجليل</span>
+        </caption>
+        <tbody>
+            <tr id="table_${tableNumber}_row_0" class="north">
+                <td class="english">I have hoped in You my God, / O my Lord Jesus, / do not forsake me / for You are Divine.</td>
+                <td class="coptic">Ⲁⲓⲉⲣϩⲉⲗⲡⲓⲥ ⲉ̀ⲣⲟⲕ: Ⲡⲁⲟ̅ⲥ̅ Ⲓⲏ̅ⲥ̅ ⲡⲁⲛⲟⲩϯ: ⲙ̀ⲡⲉⲣⲭⲁⲧ ⲛ̀ⲥⲱⲕ: ϫⲉ ⲛ̀ⲑⲟⲕ ⲅⲁⲣ ⲡⲉ Ⲫϯ.</td>
+                <td class="arabic">توكلت عليك يا ربى يسوع إلهى لاتتركنى عنك لأنك أنت الإله.</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_1" class="north">
+                <td class="english">Release me / from my sinful works; / do not reject me / because I have sinned.</td>
+                <td class="coptic">Ⲃⲱⲗ ⲉ̀ⲃⲟⲗ ϩⲁⲣⲟⲓ: ⲛ̀ⲛⲓϩ̀ⲃⲏⲟⲩⲓ̀ ⲛ̀ⲧⲉ ⲛⲁⲛⲟⲃⲓ: ⲙ̀ⲡⲉⲣϩⲓ ⲡ̀ϩⲟ ⲙ̀ⲙⲟⲓ: ⲉⲑⲃⲉ ϫⲉ ⲁⲓⲉⲣⲛⲟⲃⲓ.</td>
+                <td class="arabic">حل عنى أعمال خطاياى ولا ترفضنى لأنى أخطأت .</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_2" class="south">
+                <td class="english">Indeed, I am Your servant; / help me. / I beg You / to have compassion on me.</td>
+                <td class="coptic">Ⲅⲉ ⲅⲁⲣ ⲁ̀ⲛⲟⲕ ⲡⲉ ⲡⲉⲕⲃⲱⲕ: ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ: ϯϯϩⲟ ⲉ̀ⲣⲟⲕ: ⲉⲑⲣⲉⲕ ϣⲉⲛϩⲏⲧ ϧⲁⲣⲟⲓ.</td>
+                <td class="arabic">لآنى أنا عبدك فاعنى أسالك أن تترأف على.</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_3" class="south">
+                <td class="english">I entreat You, O Lord, / Christ, my true King, / because of Your goodness / to have mercy on me.</td>
+                <td class="coptic">Ⲇⲓⲧⲱⲃϩ ⲙ̀ⲙⲟⲕ Ⲡⲟ̅ⲥ̅: Ⲡⲭ̅ⲥ̅ ⲡⲁⲟⲩⲣⲟ ⲙ̀ⲙⲏⲓ: ⲉⲑⲃⲉ ⲧⲉⲕⲙⲉⲧⲁ̀ⲅⲁⲑⲟⲥ: ⲁ̀ⲣⲓⲟⲩⲛⲁⲓ ⲛⲉⲙⲏⲓ.</td>
+                <td class="arabic">أتضرع إليك ياربى أيها المسيح ملكى العادل ارحمنى من أجل صلاحك .</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_4" class="north">
+                <td class="english">Through Your compassion / and Your holy name / purify my heart / by Your Holy Spirit.</td>
+                <td class="coptic">Ⲉⲑⲃⲉ ⲛⲉⲕⲙⲉⲧϣⲉⲛϩⲏⲧ: ⲛⲉⲙ ⲡⲉⲕⲣⲁⲛ ⲉ̅ⲑ̅ⲩ̅: ⲙⲁⲧⲟⲩⲃⲟ ⲙ̀ⲡⲁϩⲏⲧ: ϩⲓⲧⲉⲛ ⲡⲉⲕⲡ̅ⲛ̅ⲁ̅ ⲉ̅ⲑ̅ⲩ̅.</td>
+                <td class="arabic">من أجل رأفتك وأسمك القدوس طهر قلبى بروح قدسك .</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_5" class="north">
+                <td class="english">Six water-pots / in Cana of Galilee, / You changed into wine / by Your wisdom.</td>
+                <td class="coptic">ⲋ ⲛ̀ϩⲩⲇⲣⲓⲁ̀ ⲙ̀ⲙⲱⲟⲩ: ϧⲉⲛ Ⲧ̀ⲕⲁⲛⲁ ⲛ̀ⲧⲉ ϯⲄⲁⲗⲓⲗⲉⲁ̀: ⲟⲩⲏⲣⲡ ⲁ̀ⲕⲟⲩⲱⲧⲉⲃ ⲙ̀ⲙⲱⲟⲩ: ϩⲓⲧⲉⲛ ⲧⲉⲕⲥⲟⲫⲓⲁ̀.</td>
+                <td class="arabic">سته أجران ماء فى قانا الجليل حولتها خمرا بحكمتك .</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_6" class="south">
+                <td class="english">Seven times a day / I will worship You, / O my God, grant us / Your peace and Your kingdom.</td>
+                <td class="coptic">Ⲍ̅ ⲛ̀ⲥⲟⲡ ⲙ̀ⲙⲏⲛⲓ: ϯⲛⲁⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲡⲁⲛⲟⲩϯ: ⲙⲟⲓ ⲛⲁⲛ ⲛ̀ⲧⲉⲕϩⲓⲣⲏⲛⲓ: ⲛⲉⲙ ⲧⲉⲕⲙⲉⲧⲟⲩⲣⲟ.</td>
+                <td class="arabic">سبع مرات كل يوم اسجد لك يا إلهى امنحنـا سـلامتك وملكوتك .</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_7" class="south">
+                <td class="english">Behold, the saints / praise You, O my Lord, / saying, “Holy, / O Jesus Christ our Lord.”</td>
+                <td class="coptic">Ⲏⲥ ⲛⲏⲉ̅ⲑ̅ⲩ̅: ⲉⲩϩⲱⲥ ⲙ̀ⲙⲟⲕ Ⲡⲁⲟ̅ⲥ̅: ⲉⲩϫⲟⲥ ϫⲉ ⲭ̀ⲟⲩⲁⲃ: Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ Ⲡⲉⲛⲟ̅ⲥ̅.</td>
+                <td class="arabic">هـوذا القديسون يسبحونك يا ربى ويقولون قدوس أنت يا يسوع المسيح ربنا .</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_8" class="north">
+                <td class="english">Thine is the power, / majesty, and glory / since the ages in heaven and on earth / now and forever.</td>
+                <td class="coptic">Ⲑⲱⲕ ⲧⲉ ϯϫⲟⲙ ⲛⲉⲙ ⲡⲓⲁ̀ⲙⲁϩⲓ: ⲛⲉⲙ ⲡⲓⲱ̀ⲟⲩ ⲓⲥϫⲉⲛ ⲡ̀ⲉ̀ⲛⲉϩ: ϧⲉⲛ ⲧ̀ⲫⲉ ⲛⲉⲙ ϩⲓϫⲉⲛ ⲡⲓⲕⲁϩⲓ: ϯⲛⲟⲩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ.</td>
+                <td class="arabic">لك القوه والعزه والمجد منذ الدهور فى السماء وعلى الآرض الآن والى الأبد .</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_9" class="north">
+                <td class="english">Jesus, the King of Glory, / whom we entreat, / You are yesterday and today. / Who can resemble You!</td>
+                <td class="coptic">Ⲓⲏ̅ⲥ̅ ⲡ̀ⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲡ̀ⲱ̀ⲟⲩ: ⲫⲏⲉ̀ⲧⲉⲛ ⲧⲱⲃϩ ⲙ̀ⲙⲟⲕ: ⲛ̀ⲑⲟⲕ ⲡⲉ ⲛ̀ⲥⲁϥ ⲛⲉⲙ ⲙ̀ⲫⲟⲟⲩ: ⲛ̀ⲑⲟⲕ ⲛⲓⲙ ⲡⲉⲧⲟ̀ⲛⲓ ⲙ̀ⲙⲟⲕ.</td>
+                <td class="arabic">يا يسوع ملك المجد يا من نتضرع إليك أنت هو أمس واليوم أنت من يشبهك .</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_10" class="south">
+                <td class="english">It is truly good / for us to worship / the Lover of Mankind, / the True God who became man.</td>
+                <td class="coptic">Ⲕⲁⲗⲱⲥ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓ: ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ: ⲡⲓⲛⲟⲩϯ ⲛ̀ⲧⲁⲫ̀ⲙⲏⲓ: ⲉ̀ⲧⲁϥϣⲱⲡⲓ ⲛ̀ⲣⲱⲙⲓ.</td>
+                <td class="arabic">حسنا بالحقيقعه نسجد لمحب البشر الإله الحق الذى صار إنسانا</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_11" class="south">
+                <td class="english">All people praise / the name of Immanuel, / for You are truly / the God of Israel.</td>
+                <td class="coptic">Ⲗⲁⲟⲥ ⲛⲓⲃⲉⲛ ⲉⲩϩⲱⲥ: ⲉ̀ⲫ̀ⲣⲁⲛ ⲛ̀Ⲉⲙⲙⲁⲛⲟⲩⲏⲗ: ϫⲉ ⲛ̀ⲑⲟⲕ ⲁ̀ⲗⲏⲑⲱⲥ: ⲡⲉ Ⲫϯ ⲙ̀Ⲡⲓ̅ⲥ̅ⲗ̅.</td>
+                <td class="arabic">كل الشعوب تسبح اسم عمانوئيل هو إله اسرائيل .</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_12" class="north">
+                <td class="english">Do not turn Your face / away from Your servant; / hear my petition, / for I entreat You.</td>
+                <td class="coptic">Ⲙ̀ⲡⲉⲣⲫⲱⲛϩ ⲙ̀ⲡⲉⲕϩⲟ: ⲥⲁⲃⲟⲗ ⲙ̀ⲡⲉⲕⲃⲱⲕ: ⲥⲱⲧⲉⲙ ⲉ̀ⲡⲁϯϩⲟ: ϫⲉ ϯϯϩⲟ ⲉ̀ⲣⲟⲕ.</td>
+                <td class="arabic">لا تصرف وحهك عن عبدك وأسمع ابتهالى لأننى أتوسل إليك .</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_13" class="north">
+                <td class="english">Who is like You, / O Lord, among the gods, / for You are the Son of God, / the Infinite.</td>
+                <td class="coptic">Ⲛⲓⲙ ⲅⲁⲣ ϧⲉⲛ ⲛⲓⲛⲟⲩϯ: ⲉⲧⲟ̀ⲛⲓ ⲙ̀ⲙⲟⲕ Ⲡⲟ̅ⲥ̅: ϫⲉ ⲛ̀ⲑⲟⲕ ⲡⲉ ⲡ̀ϣⲏⲣⲓ: ⲙ̀Ⲫϯ ⲡⲓⲁ̀ⲭⲱⲣⲓⲧⲟⲥ.</td>
+                <td class="arabic">من فى الآله يشبهك يارب لأنك هو أبن اللـه الغير المحوى .</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_14" class="south">
+                <td class="english">You know my thoughts / and what is within me; / in Your mercy remember me / and with Your salvation overtake me.</td>
+                <td class="coptic">Ⲝ̀ⲱ̀ⲟⲩⲛ ⲛ̀ⲛⲁⲙⲉⲩⲓ̀: ⲛⲉⲙ ⲡⲉⲧⲥⲁϧⲟⲩⲛ ⲙ̀ⲙⲟⲓ: ϧⲉⲛ ⲡⲉⲕⲛⲁⲓ ⲁ̀ⲣⲓⲡⲁⲙⲉⲩⲓ̀: ⲛⲉⲙ ⲡⲉⲕⲟⲩϫⲁⲓ ⲙⲁⲧⲁϩⲟⲓ.</td>
+                <td class="arabic">أنت تعرف أفكارى وما فى داخلى فذكرنى برحـمتك وادركنى بخلاصك .</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_15" class="south">
+                <td class="english">A mystery, / God the Logos / appeared to us / from the Virgin.</td>
+                <td class="coptic">Ⲟⲩⲙⲩⲥⲧⲏⲣⲓⲟⲛ: ⲙ̀Ⲫϯ ⲡⲓⲗⲟⲅⲟⲥ: ⲁϥⲟⲩⲱⲛϩ ⲉ̀ⲣⲟⲛ: ⲉ̀ⲃⲟⲗϧⲉⲛ ϯⲡⲁⲣⲑⲉⲛⲟⲥ.</td>
+                <td class="arabic">سر اللـه الكلمه ظهر لنا من العذراء .</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_16" class="north">
+                <td class="english">The One / of the Holy Trinity / took flesh / from the womb of the saint.</td>
+                <td class="coptic">Ⲡⲓⲟⲩⲁⲓ ⲉ̀ⲃⲟⲗ: ϧⲉⲛ ϯⲧ̀ⲣⲓⲁⲥ ⲉ̅ⲑ̅ⲩ̅: ⲁϥϭⲓⲥⲁⲣⲝ ⲉ̀ⲃⲟⲗ: ϧⲉⲛ ⲑ̀ⲛⲉϫⲓ ⲛ̀ⲑⲏⲉ̅ⲑ̅ⲩ̅.</td>
+                <td class="arabic">الواحد من الثالوث الأقدس تجسد من بطن القديسه .</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_17" class="north">
+                <td class="english">Our mouth filled with joy / for salvation has come to us; / He released us from / our bitter slavery.</td>
+                <td class="coptic">Ⲣⲱⲛ ⲁϥⲙⲟϩ ⲛ̀ⲣⲁϣⲓ: ϫⲉ ⲡⲓⲟⲩϫⲁⲓ ⲁϥⲓ̀ ϣⲁⲣⲟⲛ: ⲧⲉⲛⲙⲉⲧⲃⲱⲕ ⲉⲥⲉⲛϣⲁϣⲓ: ⲁϥⲃⲟⲗⲥ ⲉ̀ⲃⲟⲗ ϩⲁⲣⲟⲛ.</td>
+                <td class="arabic">أمتلأ فمنا فرحا لأن الخلاص قد جاء إلينا وعبوديتنا المره قد حلها لنا .</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_18" class="south">
+                <td class="english">Hear us and keep us, / O Good One; / be with us, / for You are our Help.</td>
+                <td class="coptic">Ⲥⲱⲧⲉⲙ ⲁ̀ⲣⲉϩ ⲉ̀ⲣⲟⲛ: ⲱ̀ ⲡⲓⲁ̀ⲅⲁⲑⲟⲥ: ⲉⲕⲉ̀ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ: ϫⲉ ⲛ̀ⲑⲟⲕ ⲡⲉ ⲡⲉⲛⲃⲟⲏ̀ⲑⲟⲥ.</td>
+                <td class="arabic">اسمعنا واحفظانا أيها الصالح وكن معنا لأنك أنت عوننا .</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_19" class="south">
+                <td class="english">We worship You, / O Compassionate sweet-named One, / with a humble heart / and bent knee.</td>
+                <td class="coptic">Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ ⲡⲓⲛⲁⲏⲧ: ⲫⲁ ⲡⲓⲣⲁⲛ ⲉⲧϩⲟⲗϫ: ϧⲉⲛ ⲟⲩⲑⲉⲃⲓⲟ̀ ⲛ̀ϩⲏⲧ: ⲛⲉⲙ ⲟⲩⲕⲉⲗⲓ ⲉⲧⲕⲱⲗϫ.</td>
+                <td class="arabic">نسجـد لك أيها المتحنن ياذا الأسم الحلو بقلب متواضع وركبه جاثيه .</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_20" class="north">
+                <td class="english">O Lord, Son of God, / have mercy on the sinner, / I the miserable one, / for my sins are complete.</td>
+                <td class="coptic">Ⲩⲥ̅ Ⲑⲥ̅ Ⲕⲥ̅: ⲛⲁⲓ ϧⲁ ⲡⲓⲣⲉϥⲉⲣⲛⲟⲃⲓ: ⲁ̀ⲛⲟⲕ ϧⲁ ⲡⲓⲉ̀ⲗⲁⲭⲓⲥⲧⲟⲥ: ϫⲉ ⲁⲩϫⲱⲕ ⲛ̀ϫⲉ ⲛⲁⲛⲟⲃⲓ.</td>
+                <td class="arabic">يا أيها السيد ابن اللـه ارحم الخاطئ أنا الحقير لأن خطاياى قد كملت .</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_21" class="north">
+                <td class="english">The Lover of Mankind, / the Long-suffering God, / became man / through His compassion.</td>
+                <td class="coptic">Ⲫϯ ⲡⲓⲙⲁⲓⲣⲱⲙⲓ: ⲡⲓⲣⲉϥⲱ̀ⲟⲩ ⲛ̀ϩⲏⲧ: ⲫⲏⲉ̀ⲧⲁϥϣⲱⲡⲓ ⲛ̀ⲣⲱⲙⲓ: ⲉⲑⲃⲉ ⲛⲉϥⲙⲉⲧϣⲉⲛϩⲏⲧ.</td>
+                <td class="arabic">يا اللـه محب البشر طويل ألآن الذى صار إنساناً من أجل رأفاته.</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_22" class="south">
+                <td class="english">O my God, / forgive my foremost sins / through the prayers of the Mother of God, / Mary the Virgin.</td>
+                <td class="coptic">Ⲭⲱ ⲛⲏⲓ ⲉ̀ⲃⲟⲗ ⲡⲁⲛⲟⲩϯ: ⲛ̀ⲛⲁⲛⲟⲃⲓ ⲛ̀ⲁⲣⲭⲉⲟⲥ: ⲉⲑⲃⲉ ⲛⲓϯϩⲟ ⲙ̀ⲙⲁⲥⲛⲟⲩϯ: Ⲙⲁⲣⲓⲁ̀ ϯⲡⲁⲣⲑⲉⲛⲟⲥ.</td>
+                <td class="arabic">اغفر لى يا إلهى خطاياى الأولى من أجل توسلات والده الإله مريم العذراء .</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_23" class="south">
+                <td class="english">Every soul praises / God the Creator, / sending hymns / to the Honorable One.</td>
+                <td class="coptic">Ⲯⲩⲭⲏ ⲛⲓⲃⲉⲛ ⲥⲉϩⲱⲥ: ⲉ̀Ⲫϯ ⲡⲓⲣⲉϥⲑⲁⲙⲓⲟ̀: ⲥⲉ ⲟⲩⲱⲣⲡ ⲙ̀ⲡⲓϩⲩⲙⲛⲟⲥ: ⲙ̀ⲫⲁ ⲡⲓⲧⲁⲓⲟ̀.</td>
+                <td class="arabic">كل نفس تسبح الإله الخالق وترسل التسبيح ذو الكرامه .</td>
+            </tr>
+            <tr id="table_${tableNumber}_row_24" class="north">
+                <td class="english">Have patience with me, / hear my prayer, / and protect me, O Lord, / from ambush.</td>
+                <td class="coptic">Ⲱ̀ⲟⲩⲛ̀ϩⲏⲧ ⲉ̀ϫⲱⲓ: ⲥⲱⲧⲉⲙ ⲉ̀ⲛⲁ ⲉⲩⲭⲏ: Ⲡⲟ̅ⲥ̅ ⲁ̀ⲣⲉϩ ⲉ̀ⲣⲟⲓ: ⲉ̀ⲃⲟⲗϩⲁ ⲡⲓⲫⲁϣ ⲉⲧⲭⲏ.</td>
+                <td class="arabic">أطل أناتك على وأسمع صلاتى وأحفظنى يارب من الشرك المنصوب .</td>
+            </tr>
+        </tbody>
+    </table>`;
+    return html;
+}
+
 function PsaliWatosForTheWeddingAtCanaOfGalilee(tableNumber) {
     const html = `
     <table id="table_${tableNumber}" style="display: table;" title="Psali Watos for the Wedding at Cana of Galilee">

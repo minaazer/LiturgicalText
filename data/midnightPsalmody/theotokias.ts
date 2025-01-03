@@ -15,7 +15,7 @@ function getTheotokia(basetableNumber, settings) {
 
     const selectedDateProperties = settings?.selectedDateProperties;
     const aktonkAki = selectedDateProperties.aktonkAki;
-    const adam = selectedDateProperties.adamOrWatos === 'adam';
+    const adam = selectedDateProperties.adamOrWatos === 'Adam';
     const seasons = selectedDateProperties.copticSeason;
     const kiahk = seasons.includes("Kiahk") ? true : false;
     const dayOfWeek = selectedDateProperties.dayOfWeekIndex;
@@ -2840,7 +2840,7 @@ function Ti_galili_a_7thPartoftheWednesdayTheotokia(tableNumber) {
         <tr id="table_${tableNumber}_row_1" class="north">
             <td class="english">Galilee of the Gentiles, those who were sitting in darkness, and the shadow of death, had great light shine upon them.</td>
             <td class="coptic">Ϯⲅⲁⲗⲓⲗⲉⲁ̀ ⲛ̀ⲧⲉ ⲛⲓⲉⲑⲛⲟⲥ: ⲛⲏⲉⲧϩⲉⲙⲥⲓ ϧⲉⲛ ⲡ̀ⲭⲁⲕⲓ: ⲛⲉⲙ ⲧ̀ϧⲏⲓⲃⲓ ⲙ̀ⲫ̀ⲙⲟⲩ: ⲟⲩⲛⲓϣϯ ⲛ̀Ⲟⲩⲱⲓⲛⲓ ⲁϥϣⲁⲓ ⲛⲱⲟⲩ.</td>
-            <td class="arabic">جليل الأُمم، الجالسون في الظلمة، وظلال الموت، أشرق عليهم النور العظيم.</td>
+            <td class="arabic">جليلوا الأُمم، الجالسون في الظلمة، وظلال الموت، أشرق عليهم النور العظيم.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_2" class="south">

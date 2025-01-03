@@ -3910,7 +3910,7 @@ PraiseforStMosestheStrong(tableNumber) {
         
         <tr id="table_${tableNumber}_row_5" class="north">
             <td class="english">He asked, “Is there a God: Great and Awesome: my heart yearns for Him”: the strong Abba Moses.</td>
-            <td class="arabic">سأل هل فيه إله: له العظمة والجاه: قلبي مشتاق لسماه: بي جوري اها موسي.</td>
+            <td class="arabic">سأل هل فيه إله: له العظمة والجاه: قلبي مشتاق لسماه: بي جوري افا موسي.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_6" class="south">
@@ -3920,7 +3920,7 @@ PraiseforStMosestheStrong(tableNumber) {
         
         <tr id="table_${tableNumber}_row_7" class="south">
             <td class="english">Our God is merciful: He took the form of man: through His love He accepted shame: the strong Abba Moses.</td>
-            <td class="arabic">إلهنا رؤوف حتّان: أخذ شكل الإنسان: من محبته رضي بالهوان: بي جوري افا موسي.</td>
+            <td class="arabic">إلهنا رؤوف حنّان: أخذ شكل الإنسان: من محبته رضي بالهوان: بي جوري افا موسي.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_8" class="north">
@@ -3940,17 +3940,17 @@ PraiseforStMosestheStrong(tableNumber) {
         
         <tr id="table_${tableNumber}_row_11" class="south">
             <td class="english">With tears and joy: with groaning and delight: he repented of his past: the strong Abba Moses.</td>
-            <td class="arabic">بدموع وإبتهالات: بتنهد وبزفرات: وندم على كل ما فات: بي جوري اذا موسي.</td>
+            <td class="arabic">بدموع وإبتهالات: بتنهد وبزفرات: وندم على كل ما فات: بي جوري افا موسي.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_12" class="north">
             <td class="english">He approached Christ with love: heartbroken and wounded: he wished to gain rest: the strong Abba Moses.</td>
-            <td class="arabic">تدم للمسيح: بفؤاد محزون وجريح: وأراد أن يستريح: بي جوري اذا موسي.</td>
+            <td class="arabic">قدم للمسيح: بفؤاد محزون وجريح: وأراد أن يستريح: بي جوري افا موسي.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_13" class="north">
             <td class="english">He offered a true repentance: openly without return: revealing all his sins: the strong Abba Moses.</td>
-            <td class="arabic">قدم توبة ورعة: علناً وبلا رجعة: تفاصيلها متسعة: بي جوري اقا موسي.</td>
+            <td class="arabic">قدم توبة ورعة: علناً وبلا رجعة: تفاصيلها متسعة: بي جوري افا موسي.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_14" class="south">
@@ -3965,12 +3965,12 @@ PraiseforStMosestheStrong(tableNumber) {
         
         <tr id="table_${tableNumber}_row_16" class="north">
             <td class="english">He received the first Mystery: by water, Spirit and fire: removing all impurities: the strong Abba Moses.</td>
-            <td class="arabic">نال أول الأسرار: بالماء والروح والنار: وأزال كل الأوزار: بي جوري اها موسي.</td>
+            <td class="arabic">نال أول الأسرار: بالماء والروح والنار: وأزال كل الأوزار: بي جوري افا موسي.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_17" class="north">
             <td class="english">Repentance is amazing: kindling fire in the heart: the stranger becomes a companion: the strong Abba Moses.</td>
-            <td class="arabic">دي التوبة أثرها عجيب: تشعل في القلب لهيب: والشارد يبقى قريب: بي جوري اذا موسي.</td>
+            <td class="arabic">دي التوبة أثرها عجيب: تشعل في القلب لهيب: والشارد يبقى قريب: بي جوري افا موسي.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_18" class="south">
@@ -3985,7 +3985,7 @@ PraiseforStMosestheStrong(tableNumber) {
         
         <tr id="table_${tableNumber}_row_20" class="north">
             <td class="english">A servant of desires and shame: received dignity through grace: becoming the strongest of the free: the strong Abba Moses.</td>
-            <td class="arabic">عبد الشهوات والعار: النعمة أعطت له فخار: واصبح أقوى الأحرار: بي جوري اها موسي.</td>
+            <td class="arabic">عبد الشهوات والعار: النعمة أعطت له فخار: واصبح أقوى الأحرار: بي جوري افا موسي.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_21" class="north">
@@ -4000,22 +4000,22 @@ PraiseforStMosestheStrong(tableNumber) {
         
         <tr id="table_${tableNumber}_row_23" class="south">
             <td class="english">His asceticism surpassed others: he served the other monks: with humility and vigils: the strong Abba Moses.</td>
-            <td class="arabic">في نسكه فاق الأقران: كان يخدم الرهبان: بتواضع السهران: بي جوري انا موسي.</td>
+            <td class="arabic">في نسكه فاق الأقران: كان يخدم الرهبان: بتواضع السهران: بي جوري افا موسي.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_24" class="north">
             <td class="english">With perseverance he exhausted himself: walking thousands of meters: to fill their water jars: the strong Abba Moses.</td>
-            <td class="arabic">يتعب نفسه بإصرار: يمشي آلاف الأمتار: يملأ لهم الجرار: بي جوري اها موسي.</td>
+            <td class="arabic">يتعب نفسه بإصرار: يمشي آلاف الأمتار: يملأ لهم الجرار: بي جوري افا موسي.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_25" class="north">
             <td class="english">He was advancing in the way: in steadfastness and diligence: and growth in righteousness: the strong Abba Moses.</td>
-            <td class="arabic">صار يقطع الطريق: في ثبات مع تدقيق: وتقدم فيما يليق: بي جوري اذا موسي.</td>
+            <td class="arabic">صار يقطع الطريق: في ثبات مع تدقيق: وتقدم فيما يليق: بي جوري افا موسي.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_26" class="south">
             <td class="english">In virtues and prayers: in fasting and asceticism: in reverence and prostrations: the strong Abba Moses.</td>
-            <td class="arabic">في فضائل في صلوات: في صوم في نسكيات: بتخشع وميطانيات: بي جوري اذا موسي.</td>
+            <td class="arabic">في فضائل في صلوات: في صوم في نسكيات: بتخشع وميطانيات: بي جوري افا موسي.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_27" class="south">
@@ -4025,7 +4025,7 @@ PraiseforStMosestheStrong(tableNumber) {
         
         <tr id="table_${tableNumber}_row_28" class="north">
             <td class="english">He loved the brothers: they chose him for the priesthood: they made known their desire: the strong Abba Moses.</td>
-            <td class="arabic">حب الأخوة وحبوه: للكهنوت إنتخبوه: رفعوا الرغبة وطلبوه: بي جوري اثا موسي.</td>
+            <td class="arabic">حب الأخوة وحبوه: للكهنوت إنتخبوه: رفعوا الرغبة وطلبوه: بي جوري افا موسي.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_29" class="north">
@@ -4045,7 +4045,7 @@ PraiseforStMosestheStrong(tableNumber) {
         
         <tr id="table_${tableNumber}_row_32" class="north">
             <td class="english">He ordained him in the Holy Name: a voice said “Worthy”: all the souls heard it: the strong Abba Moses.</td>
-            <td class="arabic">رسمه بأمر القدوس: وصوت قال أكسيوس: سمعته كل النفوس: بي جوري اقَا موسي.</td>
+            <td class="arabic">رسمه بأمر القدوس: وصوت قال أكسيوس: سمعته كل النفوس: بي جوري افا موسي.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_33" class="north">
@@ -4055,7 +4055,7 @@ PraiseforStMosestheStrong(tableNumber) {
         
         <tr id="table_${tableNumber}_row_34" class="south">
             <td class="english">Once they requested you: for the case of a sinful monk: in the assembly they would judge him: the strong Abba Moses.</td>
-            <td class="arabic">وفي مرة جم طلبوه: لراهب إستذنبوه: في المجمع هايحاكموه: بي جوري اذا موسي.</td>
+            <td class="arabic">وفي مرة جم طلبوه: لراهب إستذنبوه: في المجمع هايحاكموه: بي جوري افا موسي.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_35" class="south">
@@ -4065,12 +4065,12 @@ PraiseforStMosestheStrong(tableNumber) {
         
         <tr id="table_${tableNumber}_row_36" class="north">
             <td class="english">They asked him what he carried: what was it that he brought in: he said he is carrying his sins: the strong Abba Moses.</td>
-            <td class="arabic">سألوه إيه جاب وياه: وايه الحمل اللي معاه: قال إنه شايل خطاياه: بي جوري اها موسي.</td>
+            <td class="arabic">سألوه إيه جاب وياه: وايه الحمل اللي معاه: قال إنه شايل خطاياه: بي جوري افا موسي.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_37" class="north">
             <td class="english">A famous helpful lesson: the monks accepted joyfully: they forgave the poor sinner: the strong Abba Moses.</td>
-            <td class="arabic">كان درس مفيد مشهور: قبله الرهبان بسرور: سامحو الخاطئ المكسور: بي جوري اقَا موسي.</td>
+            <td class="arabic">كان درس مفيد مشهور: قبله الرهبان بسرور: سامحو الخاطئ المكسور: بي جوري افا موسي.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_38" class="south">
@@ -4085,7 +4085,7 @@ PraiseforStMosestheStrong(tableNumber) {
         
         <tr id="table_${tableNumber}_row_40" class="north">
             <td class="english">Abba (....) the great: may He grant him long life: to preach the Gospel: the strong Abba Moses.</td>
-            <td class="arabic">أنبا(....) الجليل: يعطي له عمر طويل: ليكرز بالإنجيل: بي جوري اها موسي.</td>
+            <td class="arabic">أنبا(....) الجليل: يعطي له عمر طويل: ليكرز بالإنجيل: بي جوري افا موسي.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_41" class="north">
@@ -4105,7 +4105,7 @@ PraiseforStMosestheStrong(tableNumber) {
         
         <tr id="table_${tableNumber}_row_44" class="north">
             <td class="english">Abba Moses blessed are you: you received your King’s praise: the Lord of the vine protected you: the strong Abba Moses.</td>
-            <td class="arabic">أنبا موسى طوباك: قد نلت رضا مولاك: رب الكرمة صانك وحّماك: بي جوري اها موسي.</td>
+            <td class="arabic">أنبا موسى طوباك: قد نلت رضا مولاك: رب الكرمة صانك وحّماك: بي جوري افا موسي.</td>
         </tr>
         
         <tr id="table_${tableNumber}_row_45" class="north">

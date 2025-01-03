@@ -1,32 +1,32 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, ScrollView } from 'react-native';
-
+import { presentationStyles } from '../css/presentationStyles';
 
 export const ExplanationPopup = ({ visible, title, sections, onClose }) => {
   if (!visible) return null;
 
 
   return (
-      <View style={styles.modalOverlay}>
-        <View style={styles.alertBox}>
+      <View style={presentationStyles.modalOverlay}>
+        <View style={presentationStyles.alertBox}>
           {/* "X" Button in the top-left corner */}
-          <TouchableOpacity onPress={onClose} style={styles.closeButton}>
-            <Text style={styles.closeButtonText}>X</Text>
+          <TouchableOpacity onPress={onClose} style={presentationStyles.closeButton}>
+            <Text style={presentationStyles.closeButtonText}>X</Text>
           </TouchableOpacity>
 
           {/* Title */}
-          <Text style={styles.title}>{title}</Text>
+          <Text style={presentationStyles.title}>{title}</Text>
 
           {/* Scrollable Content */}
           <ScrollView
-            contentContainerStyle={styles.content}
+            contentContainerStyle={presentationStyles.content}
             onContentSizeChange={(width, height) => {
               console.log('Content Size:', { width, height });
             }}
           >
              {sections.map((section, index) => (
-              <View key={index} style={styles.section}>
-                <Text style={styles.sectionTitle}>{section.title}</Text>
+              <View key={index} style={presentationStyles.section}>
+                <Text style={presentationStyles.sectionTitle}>{section.title}</Text>
                 <Text>{parseFormattedText(section.text)}</Text>
               </View>
             ))}
@@ -142,68 +142,3 @@ const parseFormattedText = (text) => {
   });
 };
 
-
-
-
-
-
-const styles = StyleSheet.create({
-  modalOverlay: {
-    position: 'absolute',
-    top: 0,
-    left: 0,
-    right: 0,
-    bottom: 0,
-    backgroundColor: 'rgba(0,0,0,0.5)',
-    justifyContent: 'center',
-    alignItems: 'center',
-    },
-  alertBox: {
-    width: '90%',
-    backgroundColor: '#fff',
-    padding: 20,
-    borderRadius: 10,
-    elevation: 5,
-    maxHeight: '80%',
-  },
-  closeButton: {
-    position: 'absolute',
-    top: 10,
-    left: 10,
-    zIndex: 1,
-    backgroundColor: '#ddd',
-    width: 30,
-    height: 30,
-    borderRadius: 15,
-    alignItems: 'center',
-    justifyContent: 'center',
-    elevation: 2,
-  },
-  closeButtonText: {
-    fontSize: 18,
-    color: '#333',
-    fontWeight: 'bold',
-  },
-  title: {
-    fontSize: 20,
-    fontWeight: 'bold',
-    marginBottom: 10,
-    textAlign: 'center',
-  },
-  content: {
-    paddingBottom: 20,
-    marginTop: 10,
-  },
-  section: {
-    marginBottom: 15,
-  },
-  sectionTitle: {
-    fontSize: 18,
-    fontWeight: 'bold',
-    marginBottom: 5,
-  },
-  sectionText: {
-    fontSize: 16,
-    lineHeight: 22,
-  },
-});

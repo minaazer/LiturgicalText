@@ -75,8 +75,8 @@ export const psalmody = (settings) => {
                             getKiahkPraiseHtml("PraiseforPopeKyrillosVI" , 31.5);
         preFourthCanticle = (dayOfWeek === 0 ? 
                             getKiahkPraiseHtml("WatosPsaliontheFridayTheotokia" , 34.1) +
-                            getKiahkPraiseHtml("WatosPsaliontheSaturdayTheotokia" , 34.2) : '') +
-                            getKiahkPraiseHtml("WatosPraiseaftertheSaturdayTheotokia" , 34.3);
+                            getKiahkPraiseHtml("WatosPsaliontheSaturdayTheotokia" , 34.2)  +
+                            getKiahkPraiseHtml("WatosPraiseaftertheSaturdayTheotokia" , 34.3): '');
         fourthCanticle = (adam ? getKiahkPraiseHtml("AdamPsali_ComeLetUsWorship" , 35) : '') + getKiahkPraiseHtml("fourthCanticleKiahk" , 35.1);
         postFourthCanticle = (dayOfWeek === 0 ?
                 getKiahkPraiseHtml("praiseAdamOnAikoti" , 36.2) : '');

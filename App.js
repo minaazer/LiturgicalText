@@ -1,8 +1,8 @@
 /* global require */
 import 'react-native-gesture-handler';
-import React, { useCallback, useEffect, useContext } from 'react';
+import React, { useCallback, useEffect, useContext , useState } from 'react';
 import * as Updates from 'expo-updates'; // Import Updates for reloading
-import { StatusBar, Alert , Linking , Platform } from 'react-native';
+import { StatusBar, Alert , Linking , Platform, View, ScrollView, Text, TouchableOpacity } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import * as SplashScreen from 'expo-splash-screen';
 import RootNavigation from './components/navigation/RootNavigation';
@@ -18,6 +18,7 @@ import SettingsContext from './settings/settingsContext';
 import changelog from './changelog';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import semver from 'semver';
+import { presentationStyles } from './components/css/presentationStyles';
 
 
 
@@ -28,7 +29,9 @@ SplashScreen.preventAutoHideAsync();
 
 const AppContent = () => {
   useKeepAwake();
-
+  const [popupVisible, setPopupVisible] = useState(false);
+  const [updates, setUpdates] = useState([]);
+  const currentVersion = app.expo.version || '1.0.0';
   const [settings, , setCurrentDate] = useContext(SettingsContext); // Access settings and setCurrentDate
 
   const handleStateChange = () => {
@@ -164,45 +167,40 @@ const checkForStoreUpdates = async () => {
 
 const checkForVersionUpdates = async () => {
   try {
-    const currentVersion = app.expo.version || '1.0.0';
-    var lastSeenVersion = await AsyncStorage.getItem('lastSeenVersion');
-    if (!lastSeenVersion) {
-      lastSeenVersion = '1.0.0';
-    }
-    // Get all versions in the changelog, sorted semantically
+    let lastSeenVersion = await AsyncStorage.getItem('lastSeenVersion');
+    if (!lastSeenVersion) lastSeenVersion = '1.0.0';
+
     const allVersions = Object.keys(changelog).sort(semver.compare);
-
-    // Find the index of the last seen version
     const lastSeenIndex = allVersions.indexOf(lastSeenVersion);
+    const newUpdates = [];
 
-    // Collect updates for all versions since the last seen version
-    const updates = [];
     if (lastSeenIndex !== -1) {
       for (let i = lastSeenIndex + 1; i < allVersions.length; i++) {
         const version = allVersions[i];
-        updates.push(`\nVersion ${version}:\n- ${changelog[version]?.join('\n- ')}`);
+        newUpdates.push({
+          title: `Version ${version}`,
+          text: changelog[version],
+        });
       }
     } else {
-      // If the last seen version isn't found, assume all updates are new
       for (const version of allVersions) {
-        updates.push(`\nVersion ${version}:\n- ${changelog[version]?.join('\n- ')}`);
+        newUpdates.push({
+          title: `Version ${version}`,
+          text: changelog[version],
+        });
       }
     }
 
-    if (updates.length > 0) {
-      Alert.alert(
-        `What’s New in ${currentVersion}`,
-        updates.join('\n'),
-        [{ text: 'Got it' }]
-      );
-
-      // Update the stored version
+    if (newUpdates.length > 0) {
+      setUpdates(newUpdates);
+      setPopupVisible(true);
       await AsyncStorage.setItem('lastSeenVersion', currentVersion);
     }
   } catch (error) {
     console.error('Error checking for version updates:', error);
   }
 };
+
 
 
 
@@ -225,6 +223,29 @@ const checkForVersionUpdates = async () => {
             <StatusBar hidden />
             <RootNavigation />
           </NavigationContainer>
+          {popupVisible && (
+          <View style={presentationStyles.modalOverlay}>
+            <View style={presentationStyles.alertBox}>
+              <TouchableOpacity onPress={() => setPopupVisible(false)} style={presentationStyles.closeButton}>
+                <Text style={presentationStyles.closeButtonText}>X</Text>
+              </TouchableOpacity>
+              <Text style={presentationStyles.title}>{`What’s New in ${currentVersion}`}</Text>
+              <ScrollView contentContainerStyle={presentationStyles.content}>
+                {updates.map((section, index) => (
+                  <View key={index} style={presentationStyles.section}>
+                    <Text style={presentationStyles.sectionTitle}>{section.title}</Text>
+                    {section.text.map((change, idx) => (
+                      <View key={idx} style={{ flexDirection: 'row', alignItems: 'flex-start', marginVertical: 2 }}>
+                        <Text style={{ marginRight: 8 }}>{'\u2022'}</Text> {/* Bullet point */}
+                        <Text>{change}</Text>
+                      </View>
+                    ))}                  
+                  </View>
+                ))}
+              </ScrollView>
+            </View>
+          </View>
+        )}
         </SafeAreaView>
       </SafeAreaProvider>
   );
