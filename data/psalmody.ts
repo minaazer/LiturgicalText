@@ -1,22 +1,27 @@
 import { cross , book } from './repeatedPrayers';
-import { getTheotokia , getWeekdaySundayTheotokia , getTennav } from './midnightPsalmody/theotokias';
+import { getTheotokia , getWeekdaySundayTheotokia , getTennav , AdamTheotokiaConclusion, WatosTheotokiaConclusion } from './midnightPsalmody/theotokias';
 import {getPsali} from './midnightPsalmody/psalis';
 import { getKiahkPraiseHtml } from './midnightPsalmody/kiahkPraises';
 import { annualCommemoration , annualFourthCanticle , theMorningDoxology ,
     creedInro , creed , holyHolyHoly , psalmodyConclusion , nekNai
  } from './midnightPsalmody/annual';
+import { getSeasonalDailyPsali } from './midnightPsalmody/seasonalDailyPsalis';
+import { getSeasonalExposition } from './midnightPsalmody/seasonalExpositions';
 
 
 export const psalmody = (settings) => {
 
     const dayOfWeek = settings.selectedDateProperties.dayOfWeekIndex;
+    const daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    const dayOfTheWeek = daysOfTheWeek[dayOfWeek];
     const seasons = settings.selectedDateProperties.copticSeason;
     const adam = settings.selectedDateProperties.adamOrWatos === "Adam";
     const aktonkAki = settings.selectedDateProperties.aktonkAki;
 
-    const psali = getPsali(45 , false , settings);
+    let psali = getPsali(45 , false , settings);
 
     const theotokia = getTheotokia(60 , settings);
+    const theotokiaConclusion = adam ? AdamTheotokiaConclusion(67,aktonkAki) : WatosTheotokiaConclusion(67);
 
     const midnightPsalmodyConclusion = creedInro(100) + creed(101) + psalmodyConclusion(102) + holyHolyHoly(103) ;
     const morningDoxology = theMorningDoxology(104) + nekNai(105,aktonkAki);
@@ -39,11 +44,12 @@ export const psalmody = (settings) => {
         postFourthCanticle = '',
         postPsali = '',
         preTheotokia = '',
+        preTheotokiaConclusion = '',
         postTheotokia = '',
     } = {};
    
     // Check if conditions are met for Kiahk
-    if (seasons.includes("Kiahk")) {
+    if (seasons.includes("Kiahk") && !seasons.includes("Feast of the Nativity") && !seasons.includes("Feast of the Nativity Paramoun")) {
 
         // Destructure and assign new values directly from kiahkHtmlVariables
         postTenthino = getKiahkPraiseHtml("kiahkOde" , 1.1) + getKiahkPraiseHtml("amenAlleluia" , 1.3);
@@ -76,6 +82,8 @@ export const psalmody = (settings) => {
                 getKiahkPraiseHtml("praiseAdamOnAikoti" , 36.2) : '');
         postPsali = 
             (dayOfWeek === 0 ? getKiahkPraiseHtml("iOpenMyMouthWithPraise" , 50.1) : '');
+        preTheotokiaConclusion = (adam) ? getKiahkPraiseHtml("yourMerciesOMyGod" , 66) : '';
+
         switch (dayOfWeek) {
             case 1:
                 preTheotokia = getKiahkPraiseHtml("praiseAfterMondayTheotokia" , 55);
@@ -99,6 +107,47 @@ export const psalmody = (settings) => {
             default:
                 preTheotokia = '';
         }
+    } else if (seasons.includes("Feast of the Nativity") || seasons.includes("Feast of the Nativity Paramoun") || seasons.includes("2nd Day of Nativity")) {
+        let currentSeason = "";
+
+        if (seasons.includes("Feast of the Nativity Paramoun")) {
+            currentSeason = "Nativity Paramoun";
+        } else if (seasons.includes("Feast of the Nativity") || seasons.includes("2nd Day of Nativity")) {
+            currentSeason = "Nativity";
+        }
+                    
+    
+        postTenthino = dayOfWeek !== 1? getSeasonalDailyPsali("Monday",currentSeason,1.1) : getSeasonalDailyPsali("Tuesday",currentSeason,1.1);
+        postFirstCanticle = getSeasonalExposition("FirstCanticle",currentSeason,6.1) +
+                            (dayOfWeek !== 0 ? getSeasonalDailyPsali("Sunday",currentSeason,6.2) : getSeasonalDailyPsali("Tuesday",currentSeason,6.2));
+        preSecondCanticle = dayOfWeek < 3 ? getSeasonalDailyPsali("Wednesday",currentSeason,6.4) : getSeasonalDailyPsali("Tuesday",currentSeason,6.4);
+        postSecondCanticle = getSeasonalExposition("SecondCanticle",currentSeason,11.1) +
+                            (dayOfWeek < 4 ? getSeasonalDailyPsali("Thursday",currentSeason,11.2) : getSeasonalDailyPsali("Wednesday",currentSeason,11.2));
+        postThirdCanticle = getSeasonalExposition("ThirdCanticle",currentSeason,18.1) +
+                            (dayOfWeek < 5 ? getSeasonalDailyPsali("Friday",currentSeason,18.2) : getSeasonalDailyPsali("Thursday",currentSeason,18.2));
+        commemoration = annualCommemoration(29),
+        postCommemoration = dayOfWeek < 6 ? getSeasonalDailyPsali("Saturday",currentSeason,31.1) : getSeasonalDailyPsali("Friday",currentSeason,11.1);
+        preFourthCanticle = '';
+        fourthCanticle = annualFourthCanticle(35);
+        postFourthCanticle = getSeasonalExposition("FourthCanticle",currentSeason,34.1);
+        psali = getSeasonalDailyPsali(dayOfTheWeek,currentSeason,35.1);
+        postPsali = '';
+        preTheotokia = '';
+        preTheotokiaConclusion = 
+            (adam 
+                ? getSeasonalExposition("postAdamTheotokia", currentSeason, 66) 
+                : getSeasonalExposition("postWatosTheotokia", currentSeason, 66)
+            ) +
+            (
+                dayOfWeek === 0
+                    ? getSeasonalExposition("adamPostSundayTheotokia", currentSeason, 66.1)
+                    : dayOfWeek === 6
+                        ? getSeasonalExposition("adamPostSaturdayTheotokia", currentSeason, 66.2)
+                        : adam
+                            ? getSeasonalExposition("adamPostMidnightPraise", currentSeason, 66.3)
+                            : getSeasonalExposition("watosPostMidnightPraise", currentSeason, 66.3)
+            );
+        postTheotokia = '';
     }
 
 
@@ -1471,6 +1520,8 @@ ${psali}
 ${postPsali}
 ${preTheotokia}
 ${theotokia}
+${preTheotokiaConclusion}
+${theotokiaConclusion}
 ${postTheotokia}
 ${midnightPsalmodyConclusion}
 ${morningDoxology}

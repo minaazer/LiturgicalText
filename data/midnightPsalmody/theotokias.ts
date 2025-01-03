@@ -35,11 +35,10 @@ function getTheotokia(basetableNumber, settings) {
         const theotokiaIntro= adam ? AdamTheotokiaIntro(basetableNumber,aktonkAki) : WatosTheotokiaIntro(basetableNumber);
         const theotokia = getTheotokiaFunction(basetableNumber + 1);
         const defnar = adam ? DifnarIntroduction_Adam(basetableNumber + 5) : DifnarIntroduction_Watos(basetableNumber + 5);
-        const postTheotokia = (kiahk && adam) ? getKiahkPraiseHtml("yourMerciesOMyGod" , basetableNumber + 6) : '';
-        const conclusion = adam ? AdamTheotokiaConclusion(basetableNumber + 7,aktonkAki) : WatosTheotokiaConclusion(basetableNumber + 7);
+
 
         // Call the function and generate the HTML
-        htmlOutput = theotokiaIntro + theotokia + defnar + postTheotokia + conclusion;
+        htmlOutput = theotokiaIntro + theotokia + defnar;
     }
     // Return the concatenated HTML or a fallback message if no responses were found
     return htmlOutput || `<p>No Theotokia response available for ${day}</p>`;
@@ -4587,5 +4586,6 @@ export {
     getTheotokia,
     getWeekdaySundayTheotokia,
     getTennav,
-    AdamTheotokiaConclusion
+    AdamTheotokiaConclusion,
+    WatosTheotokiaConclusion
 }

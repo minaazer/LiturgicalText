@@ -40,10 +40,6 @@ function getPsali(basetableNumber, vespers , settings) {
         "Nayrouz (Coptic New Year) - Watos" : PsaliWatosForTheCopticNewYear,
         "Feast of the Cross - Adam" : PsaliAdamForTheCross,
         "Feast of the Cross - Watos" : PsaliWatosForTheCross,
-        
-    
-    
-           
     };
     
     
