@@ -276,6 +276,7 @@ function TheSecondSundayPsali(tableNumber) {
     <caption id="caption_table_${tableNumber}" class="caption">The Second Sunday Psali
         <span class="coptic-caption">Ϯⲯⲁⲗⲓ ⲙ̀Ⲙⲁϩⲥ̀ⲛⲟⲩϯ ⲛ̀ⲧⲉ Ϯⲕⲩⲣⲓⲁⲕⲏ</span>
         <span class="arabic-caption">إبصالية الأحد الثانية</span>
+    // eslint-disable-next-line no-useless-escape, no-useless-escape, no-useless-escape, no-useless-escape
     <span class="explanation-button" data-message='The Sunday Psali \"I sought after you\"'>${book}</span>
     </caption>
     <tbody>
