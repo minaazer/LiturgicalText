@@ -404,6 +404,7 @@ const RouteConfig = [
 
 const Drawer = createDrawerNavigator();
 const screenWidth = Dimensions.get("window").width;
+const isPortrait = screenWidth < 500;
 
 const LeftDrawerContent = ({ navigation, currentRoute, ...props }) => {
   const drawerItemsByRoute = RouteConfig; // Access all route configurations
@@ -664,7 +665,7 @@ const RootNavigation = () => {
       initialRouteName="MainStack" // Set the initial route to MainStack
       screenOptions={{
         gestureEnabled: true,
-        swipeEdgeWidth: screenWidth / 3,
+        swipeEdgeWidth: isPortrait ? screenWidth / 2 : screenWidth / 3,
         swipeMinDistance: 10,
         drawerType: "front",
  

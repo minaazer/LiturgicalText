@@ -58,13 +58,20 @@ export const presentationStyles = StyleSheet.create({
     fontSize: 18,
     color: "black",
     fontFamily: "Georgia",
-    textAlign: "center",
+    textAlign: "left",
   },
+  arabicTitle: {
+    fontSize: 18,
+    color: "black",
+    fontFamily: "Georgia",
+    textAlign: "right",
+  },
+  
   copticTitle: {
     fontSize: 18,
     color: "black",
     fontFamily: "ArialCoptic",
-    textAlign: "center",
+    textAlign: "left",
   },
   labelViewContainer: {
     marginVertical: -15,
@@ -133,7 +140,7 @@ export const presentationStyles = StyleSheet.create({
   },
   drawerText: {
     textAlign: "center",
-    fontSize: isPortrait ? screenHeight * 0.015 : screenWidth * 0.02,
+    fontSize: isPortrait ? screenHeight * 0.02 : screenWidth * 0.02,
     fontFamily: "Georgia",
     color: "#FFF",
     marginVertical: 5,
@@ -591,7 +598,8 @@ seasonsButtonContainer: {
     paddingVertical: 20, // Optional padding for consistent spacing around the container
   },
   bibleSelectionContainer: {
-    width: "90%", // Keeps the width consistent
+    width: "90%",
+    alignSelf: "center",
     marginBottom: 10, // Add spacing between the containers
   },
   bibleSellectionTitle: {

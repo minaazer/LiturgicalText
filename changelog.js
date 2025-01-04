@@ -23,6 +23,9 @@ const changelog = {
     "Removed Saturday Psali Praise from weekdays in Kiahk",
     "Changed Theotokia Inro on Monday and Tuesday to be Adam",
     "Added Adam Psali for the Wedding at Cana of Galilee",
+    "Updated bible verse navigation menu",
+    "Added NKJV New Testament",
+
   ],
 };
 

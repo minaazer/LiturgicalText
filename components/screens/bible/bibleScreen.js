@@ -20,14 +20,14 @@ const BibleScreen = ({ navigation }) => {
           </View>
           <View style={styles.container}>
             <Text
-              style={[presentationStyles.pageMenu, { alignSelf: "center" }]}
+              style={[presentationStyles.languageTitle, { alignSelf: "center" }]}
             >
-              LXX2012 U.S. English Septuagint Translation
+              Old Testament: LXX 2012 US English Septuagint Translation
             </Text>
             <Text
-              style={[presentationStyles.pageMenu, { alignSelf: "center" }]}
+              style={[presentationStyles.languageTitle, { alignSelf: "center" }]}
             >
-              Old Testament Books
+              New Testament: NKJV Translation
             </Text>
             <BibleSelection
               navigation={navigation}

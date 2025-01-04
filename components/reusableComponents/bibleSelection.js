@@ -1,7 +1,7 @@
 /** @format */
 
 import React, { useState } from "react";
-import { View, Text, TouchableOpacity } from "react-native";
+import { View, Text, TouchableOpacity, ScrollView } from "react-native";
 import RNPickerSelect from "react-native-picker-select";
 import bible from "../../data/bible/bible.json";
 import {
@@ -19,7 +19,7 @@ export const BibleSelection = ({ navigation, defaultBook = "Genesis", defaultCha
   const chapters = book ? book.chapters : [];
 
   return (
-    <View style={presentationStyles.bibleScreenContainer}>
+    <ScrollView contentContainerStyle={presentationStyles.bibleScreenContainer}>
       <View style={presentationStyles.bibleSelectionContainer}>
         <Text style={presentationStyles.bibleSellectionTitle}>Select Book</Text>
         <View style={presentationStyles.pickerWrapper}>
@@ -66,6 +66,6 @@ export const BibleSelection = ({ navigation, defaultBook = "Genesis", defaultCha
       >
         <Text style={presentationStyles.buttonText}>Go to Chapter</Text>
       </TouchableOpacity>
-    </View>
+    </ScrollView>
   );
 };

@@ -158,6 +158,23 @@ export const handleMessage = (
           removeOverlay();
         }, 25);
       },
+      // HANDLE VERSE NAVIGATION
+      ROW_NAVIGATION: () => {
+        const rowYOffset = message.data;
+        const pageIndex = pageOffsets.findIndex(
+          (offset) => offset.yOffset > rowYOffset
+        );
+        const rowIndex = pageIndex === -1 ? pageOffsets.length - 1 : pageIndex - 1;
+        setCurrentPage(rowIndex);
+        setCurrentTable(pageOffsets[rowIndex].tableId);
+
+        const yOffset = pageOffsets[rowIndex].yOffset;
+        const nextVisibleElementId = pageOffsets[rowIndex].firstVisibleElementId;
+        console.log("nextVisibleElementId", nextVisibleElementId);
+        injectScript(`clearOverlays();`);
+        injectScript(`adjustOverlay('${nextVisibleElementId}');`);
+        injectScript(`window.scrollTo(0, ${yOffset});`);
+      },
       CURRENT_PAGE_YOFFSET: () => {
         const yOffset = message.data;
         const pageIndex = pageOffsets.findIndex(
@@ -271,21 +288,28 @@ export const handlePrevious = (
   }
 };
 
-// handleDrawerItemPress
-export const handleDrawerItemPress = (tableId, webviewRef) => {
-  const captionId = `caption_${tableId}`;
-  const scrollToTableScript = `
-        var goToCaptionElement = document.getElementById('${captionId}');
-        var captionDisplay = goToCaptionElement ? goToCaptionElement.style.display : 'none';
-        goToCaptionElement = goToCaptionElement && captionDisplay !== 'none' ? goToCaptionElement : null;
-        var goToTableElement = goToCaptionElement || document.getElementById('${tableId}');
-        var tableYOffset = goToTableElement ? goToTableElement.getBoundingClientRect().top + window.scrollY : 0;
-
-        sendMessage(JSON.stringify({ type: 'TABLE_NAVIGATION', data: tableYOffset }));
-
-      
+export const handleDrawerItemPress = (tableId, webviewRef, row) => {
+  if (row) {
+    const verseRowId = `table_0_row_${tableId}`; // The ID of the verse row
+    const verseYOffset = `
+          var goToElement = document.getElementById('${verseRowId}');
+          var yOffset = goToElement ? goToElement.getBoundingClientRect().top + window.scrollY : 0;
+          sendMessage(JSON.stringify({ type: 'ROW_NAVIGATION', data: yOffset }));
     `;
-  webviewRef.current.injectJavaScript(scrollToTableScript);
+    webviewRef.current.injectJavaScript(verseYOffset);
+  } else {
+    const captionId = `caption_${tableId}`;
+    const scrollToTableScript = `
+          var goToCaptionElement = document.getElementById('${captionId}');
+          var captionDisplay = goToCaptionElement ? goToCaptionElement.style.display : 'none';
+          goToCaptionElement = goToCaptionElement && captionDisplay !== 'none' ? goToCaptionElement : null;
+          var goToTableElement = goToCaptionElement || document.getElementById('${tableId}');
+          var tableYOffset = goToTableElement ? goToTableElement.getBoundingClientRect().top + window.scrollY : 0;
+
+          sendMessage(JSON.stringify({ type: 'TABLE_NAVIGATION', data: tableYOffset }));
+      `;
+    webviewRef.current.injectJavaScript(scrollToTableScript);
+  }
 };
 
 // getHtml

@@ -7,7 +7,7 @@ export const renderChapter = (bookTitle, chapter, verses) => {
             ${verses
               .map(
                 (verse, idx) =>
-                  `<tr id="table_0_row_${idx}" class="text">
+                  `<tr id="table_0_row_${verse.verse}" class="text">
                      <td class="english"><span class="verseNumber">${verse.verse}</span> ${verse.text}</td>
                    </tr>`
               )

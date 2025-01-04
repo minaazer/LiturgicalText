@@ -13,8 +13,16 @@ import { Dimensions } from "react-native";
 import { MainContent } from "../functions/mainContent";
 import backgroundImage from "../../assets/background.png";
 import { BibleSelection } from "../reusableComponents/bibleSelection";
+import BibleData from "../../data/bible/bible.json";
 
 const screenWidth = Dimensions.get("window").width;
+const isPortrait = screenWidth < 500;
+
+const getChapterVerses = (bookTitle, chapterNumber) => {
+  const book = BibleData.find((b) => b.title === bookTitle);
+  const chapter = book.chapters.find((c) => c.chapter === chapterNumber);
+  return chapter.verses;
+};
 
 const extractBookAndChapter = (title) => {
   // Trim the title to remove any leading or trailing whitespace
@@ -134,14 +142,36 @@ const RightDrawerContent = React.forwardRef(
           {sortedItems.map((item, index) => {
             const isActive = item.id === currentTable;
             const bookChapterInfo = extractBookAndChapter(item.title.english);
+            
             if (bookChapterInfo) {
+              const verses = getChapterVerses(bookChapterInfo.book, bookChapterInfo.chapter);
               return (
-                <View key={item.id} style={presentationStyles.bibleSelectionContainer}>
+                <View key={item.id} style={presentationStyles.itemWrapper}>
                   <BibleSelection
                     navigation={navigation}
                     defaultBook={bookChapterInfo.book}
                     defaultChapter={bookChapterInfo.chapter}
                   />
+                  {verses.map((verse, verseIndex) => (
+                    <View key={verse.verse} style={presentationStyles.itemWrapper}>
+                      <DrawerItem
+                        label={() => (
+                          <Text style={presentationStyles.englishTitle}>
+                            {verse.verse}: {verse.text.substring(0, 50)}...
+                          </Text>
+                        )}
+                        onPress={() => {
+                          // Handle verse selection
+                          handleDrawerItemPress(verse.verse, true);
+                          navigation.closeDrawer();
+                        }}
+                        style={presentationStyles.itemContainerStyle}
+                      />
+                      {verseIndex !== verses.length - 1 && (
+                        <View style={presentationStyles.embossedLine}></View>
+                      )}
+                    </View>
+                  ))}
                 </View>
               );
             }
@@ -225,10 +255,10 @@ const RightMenuDrawer = ({
           gestureDirection: "horizontal-inverted",
           drawerPosition: "right",
           drawerType: "front",
-          swipeEdgeWidth: screenWidth / 3,
+          swipeEdgeWidth: isPortrait ? screenWidth / 2 : screenWidth / 3,
           swipeMinDistance: 10,
           overlayColor: "rgba(0,0,0,0.5)",
-          drawerStyle: { width: screenWidth * 0.4 },
+          drawerStyle: { width: isPortrait ? screenWidth * 0.7 : screenWidth * 0.4 },
         }}
         drawerContent={(props) => (
           <RightDrawerContent
@@ -236,8 +266,8 @@ const RightMenuDrawer = ({
             ref={scrollViewRef}
             currentTable={currentTable}
             drawerItems={drawerItems}
-            handleDrawerItemPress={(tableId) => {
-              handleDrawerItemPress(tableId, webviewRef);
+            handleDrawerItemPress={(tableId,row) => {
+              handleDrawerItemPress(tableId, webviewRef, row);
               navigation.closeDrawer();
             }}
           />
