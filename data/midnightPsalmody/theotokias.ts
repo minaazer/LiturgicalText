@@ -185,7 +185,6 @@ const [
     const part11 = SundayTheotokia11TeoiEnHikanos(tableNumber + 23);
     const nimghar = selectedDateProperties.aktonkAki.english === "risen" ? SundayTheotokia12Nimghar(tableNumber + 24) : '';
     const difnar = DifnarIntroduction_Adam(tableNumber + 25);
-    const conclusion = AdamTheotokiaConclusion(tableNumber + 27,aktonkAki);
 
     const html = `
     ${introduction}
@@ -825,7 +824,6 @@ ${part11}
 ${nimghar}
 ${difnar}
 ${yourMerciesOMyGod}
-${conclusion}
 `;
     return html;
 }

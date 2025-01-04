@@ -21,7 +21,7 @@ export const psalmody = (settings) => {
     let psali = getPsali(45 , false , settings);
 
     const theotokia = getTheotokia(60 , settings);
-    const theotokiaConclusion = adam ? AdamTheotokiaConclusion(67,aktonkAki) : WatosTheotokiaConclusion(67);
+    const theotokiaConclusion = adam ? AdamTheotokiaConclusion(90,aktonkAki) : WatosTheotokiaConclusion(90);
 
     const midnightPsalmodyConclusion = creedInro(100) + creed(101) + psalmodyConclusion(102) + holyHolyHoly(103) ;
     const morningDoxology = theMorningDoxology(104) + nekNai(105,aktonkAki);
@@ -102,7 +102,7 @@ export const psalmody = (settings) => {
                 break;
             case 6:
                 preTheotokia = getKiahkPraiseHtml("WatosPsaliontheSaturdayTheotokia" , 55);
-                postTheotokia = getKiahkPraiseHtml("WatosPraiseaftertheSaturdayTheotokia" , 70);
+                postTheotokia = getKiahkPraiseHtml("WatosPraiseaftertheSaturdayTheotokia" , 91);
                 break;
             default:
                 preTheotokia = '';
