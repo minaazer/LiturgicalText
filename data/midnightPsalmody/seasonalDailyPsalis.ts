@@ -8,7 +8,7 @@ const sundayPsalis = {
             </caption>
             <tbody>
                 <tr id="table_${tableNumber}_row_0" class="north">
-                    <td class="english">Today you became rejoiced, O believers, for the birth of, Jesus Christ.</td>
+                    <td class="english">Joy happens today, O believers, for the birth of, Jesus Christ.</td>
                     <td class="coptic">Ⲁ̀ⲟ̀ⲩⲣⲁϣⲓ ϣⲱⲡⲓ: ⲙ̀ⲫⲟⲟ̀ⲩ ⲱ̀ ⲛⲓⲡⲓⲥⲧⲟⲥ: ⲉⲑⲃⲉ ⲡ̀ϫⲓⲛⲙⲓⲥⲓ: ⲛ̀Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅.</td>
                     <td class="arabic">فرح تم اليوم، أيها المؤمنون، من أجل ميلاد، يسوع المسيح.</td>
                 </tr>
@@ -19,36 +19,36 @@ const sundayPsalis = {
                 </tr>
                 <tr id="table_${tableNumber}_row_2" class="south">
                     <td class="english">The books of our fathers, greatly witnessed, to Christ our Lord, our Savior Jesus.</td>
-                    <td class="coptic">Ⲅ̀ⲣⲁⲫⲏ ⲛ̀ⲧⲉ ⲛⲉⲛⲓⲟϯ: ⲁⲩⲉ̀ⲣⲙⲉⲑⲣⲉ ⲕⲁⲗⲱⲥ: ⲉⲑⲃⲉ Ⲡⲭ̅ⲥ̅ ⲡⲉⲛⲚⲟⲩϯ: ⲡⲉⲛⲤⲱⲧⲏⲣ Ⲓⲏ̅ⲥ̅.</td>
+                    <td class="coptic">Ⲅ̀ⲣⲁⲫⲏ ⲛ̀ⲧⲉ ⲛⲉⲛⲓⲟϯ: ⲁⲩⲉ̀ⲣⲙⲉⲑⲣⲉ ⲕⲁⲗⲱⲥ: ⲉⲑⲃⲉ Ⲡⲭ̅ⲥ̅ Ⲡⲉⲛⲛⲟⲩϯ: Ⲡⲉⲛⲥⲱⲧⲏⲣ Ⲓⲏ̅ⲥ̅.</td>
                     <td class="arabic">شهدت حسناً، كتب آبائنا، من أجل المسيح إلهنا، مخلصنا يسوع.</td>
                 </tr>
                 <tr id="table_${tableNumber}_row_3" class="south">
                     <td class="english">David the king spoke, about the King of glory, saying "You are My Son, and today I begot You."</td>
-                    <td class="coptic">Ⲇⲁⲩⲓⲇ ⲡ̀ⲟⲩⲣⲟ ⲁϥⲥⲁϫⲓ: ⲉⲑⲃⲉ ⲡ̀Ⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲡ̀ⲱ̀ⲟ̀ⲩ: ϫⲉ ⲛ̀ⲑⲟⲕ ⲡⲉ ⲠⲁϢⲏⲣⲓ: ⲁ̀ⲛⲟⲕ ⲁⲓϫ̀ⲫⲟⲕ ⲙ̀ⲫⲟⲟ̀ⲩ.</td>
+                    <td class="coptic">Ⲇⲁⲩⲓⲇ ⲡ̀ⲟⲩⲣⲟ ⲁϥⲥⲁϫⲓ: ⲉⲑⲃⲉ Ⲡⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲡ̀ⲱⲟⲩ: ϫⲉ ⲛ̀ⲑⲟⲕ ⲡⲉ Ⲡⲁϣⲏⲣⲓ: ⲁ̀ⲛⲟⲕ ⲁⲓϫ̀ⲫⲟⲕ ⲙ̀ⲫⲟⲟ̀ⲩ.</td>
                     <td class="arabic">تكلم داود الملك، من أجل ملك المجد، قائلاً أنت ابني، وأنا اليوم ولدتك.</td>
                 </tr>
                 <tr id="table_${tableNumber}_row_4" class="north">
-                    <td class="english">Forgive us our trespasses, for the sake of our lady Mary, O Christ our Master, and the good One.</td>
-                    <td class="coptic">Ⲉⲑⲃⲉ ⲧⲉⲛⲟ̅ⲥ̅ Ⲙⲁⲣⲓⲁ: ⲱ̀ ⲡⲉⲛⲚⲏⲃ Ⲡⲭ̅ⲥ̅: ⲭⲱ ⲛⲁⲛ ⲛ̀ⲛⲉⲛⲁ̀ⲛⲟⲙⲓⲁ: ⲱ̀ ⲡⲓⲁ̀ⲅⲁⲑⲟⲥ.</td>
+                    <td class="english">For the sake of our lady Mary, O Christ our Master, forgive our trespasses, O Good One.</td>
+                    <td class="coptic">Ⲉⲑⲃⲉ ⲧⲉⲛⲟ̅ⲥ̅ Ⲙⲁⲣⲓⲁ: ⲱ̀ Ⲡⲉⲛⲛⲏⲃ Ⲡⲭ̅ⲥ̅: ⲭⲱ ⲛⲁⲛ ⲛ̀ⲛⲉⲛⲁ̀ⲛⲟⲙⲓⲁ: ⲱ̀ Ⲡⲓⲁ̀ⲅⲁⲑⲟⲥ.</td>
                     <td class="arabic">من أجل سيدتنا مريم، يا ملكنا المسيح، أغفر لنا آثامنا، أيها الصالح.</td>
                 </tr>
                 <tr id="table_${tableNumber}_row_5" class="north">
                     <td class="english">The seven angels, praise Christ the King, saying "Holy holy, holy O Lord."</td>
-                    <td class="coptic">Ϣⲁϣϥ (ⲍ̅) ⲛ̀ⲁ̀ⲅⲅⲉⲗⲟⲥ: ⲉⲩϩⲱⲥ ⲉ̀ⲡ̀Ⲟⲩⲣⲟ Ⲡⲭ̅ⲥ̅: ϫⲉ ⲁ̀ⲅⲓⲟⲥ ⲁ̀ⲅⲓⲟⲥ: ⲁ̀ⲅⲓⲟⲥ ⲛ̀Ⲕⲩⲣⲓⲟⲥ.</td>
+                    <td class="coptic">Ϣⲁϣϥ (ⲍ̅) ⲛ̀ⲁ̀ⲅⲅⲉⲗⲟⲥ: ⲉⲩϩⲱⲥ ⲉ̀Ⲡⲟⲩⲣⲟ Ⲡⲭ̅ⲥ̅: ϫⲉ ⲁ̀ⲅⲓⲟⲥ ⲁ̀ⲅⲓⲟⲥ: ⲁ̀ⲅⲓⲟⲥ ⲛ̀Ⲕⲩⲣⲓⲟⲥ.</td>
                     <td class="arabic">السبع الملائكة، يسبحون الملك المسيح، قائلين قدوس قدوس، قدوس الرب.</td>
                 </tr>
                 <tr id="table_${tableNumber}_row_6" class="south">
                     <td class="english">Gabriel the angel, announced to, the shepherds, about the Savior of the world.</td>
-                    <td class="coptic">Ⲏⲡⲡⲉ ⲛⲓⲙⲁⲛⲉ̀ⲥⲱⲟ̀ⲩ: Ⲅⲁⲃⲣⲓⲏⲗ ⲡⲓⲁ̀ⲅⲅⲉⲗⲟⲥ: ⲛ̀ⲑⲟϥ ⲁϥϩⲓⲱⲓϣ ⲛⲱⲟ̀ⲩ: ⲉⲑⲃⲉ ⲡ̀Ⲥⲱⲧⲏⲣ ⲙ̀ⲡⲓⲕⲟⲥⲙⲟⲥ.</td>
+                    <td class="coptic">Ⲏⲡⲡⲉ ⲛⲓⲙⲁⲛⲉ̀ⲥⲱⲟⲩ: Ⲅⲁⲃⲣⲓⲏⲗ ⲡⲓⲁ̀ⲅⲅⲉⲗⲟⲥ: ⲛ̀ⲑⲟϥ ⲁϥϩⲓⲱⲓϣ ⲛⲱⲟ̀ⲩ: ⲉⲑⲃⲉ Ⲡ̀ⲥⲱⲧⲏⲣ ⲙ̀ⲡⲓⲕⲟⲥⲙⲟⲥ.</td>
                     <td class="arabic">ها هم الرعاة، بشرهم، غبريال الملاك، من أجل مخلص العالم.</td>
                 </tr>
                 <tr id="table_${tableNumber}_row_7" class="south">
-                    <td class="english">To You glory and blessing, unto the end days, O Christ the King, the Eternal Word.</td>
-                    <td class="coptic">Ⲑⲱⲕ ⲧⲉ ϯϫⲟⲙ ⲛⲉⲙ ⲡⲓⲥ̀ⲙⲟⲩ: ϣⲁ ϯⲥⲩⲛⲧⲉⲗⲓⲁ: ⲱ̀ Ⲡⲭ̅ⲥ̅ ⲡ̀Ⲟⲩⲣⲟ: ⲡⲓⲖⲟⲅⲟⲥ ⲛ̀Ⲁ̀ⲓⲇⲓⲁ.</td>
+                    <td class="english">Yours is glory and blessing, unto the end of time, O Christ the King, the Eternal Word.</td>
+                    <td class="coptic">Ⲑⲱⲕ ⲧⲉ ϯϫⲟⲙ ⲛⲉⲙ ⲡⲓⲥ̀ⲙⲟⲩ: ϣⲁ ϯⲥⲩⲛⲧⲉⲗⲓⲁ: ⲱ̀ Ⲡⲭ̅ⲥ̅ Ⲡⲟⲩⲣⲟ: ⲡⲓⲗⲟⲅⲟⲥ ⲛ̀Ⲁ̀ⲓⲇⲓⲁ.</td>
                     <td class="arabic">لك القوة والبركة، إلى الانقضاء، أيها الملك المسيح، الكلمة الذاتية.</td>
                 </tr>
                 <tr id="table_${tableNumber}_row_8" class="north">
-                    <td class="english">Jesus is our hope, Jesus is our confirmation, Jesus is the only-begotten of the Father, before all ages.</td>
+                    <td class="english">Jesus is our hope, Jesus is our confirmation, Jesus is the only-begotten, of the Father before all ages.</td>
                     <td class="coptic">Ⲓⲏ̅ⲥ̅ ⲡⲉ ⲧⲉⲛϩⲉⲗⲡⲓⲥ: Ⲓⲏ̅ⲥ̅ ⲡⲉ ⲡⲉⲛⲧⲁϫⲣⲟ: Ⲓⲏ̅ⲥ̅ ⲡⲓⲙⲟⲛⲟⲅⲉⲛⲏⲥ: ⲙ̀Ⲫ̀ⲓⲱⲧ ϧⲁϫⲉⲛ ⲛⲓⲉ̀ⲱ̀ⲛ.</td>
                     <td class="arabic">يسوع هو رجاؤنا، يسوع هو ثباتنا، يسوع هو وحيد الآب، قبل كل الدهور.</td>
                 </tr>

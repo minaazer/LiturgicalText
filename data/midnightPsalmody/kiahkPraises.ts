@@ -3096,7 +3096,7 @@ kiahkCommemoration(tableNumber){
     <tr id="table_${tableNumber}_row_4" class="north">
         <td class="english" >Intercede: O thrones, dominions and
             powers, the cherubim and the seraphim, That He may...</td>
-        <td class="coptic" >̀ Ⲁⲣⲓⲡ̅: ⲛⲓⲑ̀ⲣⲟⲛⲟⲥ ⲛⲓⲙⲉⲧϭⲟⲓⲥ ⲛⲓϫⲟⲙ:
+        <td class="coptic" >̀Ⲁⲣⲓⲡ̅: ⲛⲓⲑ̀ⲣⲟⲛⲟⲥ ⲛⲓⲙⲉⲧϭⲟⲓⲥ ⲛⲓϫⲟⲙ:
             ⲛⲓⲭⲉⲣⲟⲃⲓⲙ ⲛⲉⲙ ⲛⲓⲥⲉⲣⲁⲫⲓⲙ: ⲛ̀ⲧⲉϥ...</td>
         <td class="arabic">أشفعى فينا أيتها الكراسى والارباب والقوات والشيروبيم والسرافيم ليغفر..</td>
     </tr>
@@ -3111,7 +3111,7 @@ kiahkCommemoration(tableNumber){
     <tr id="table_${tableNumber}_row_6" class="north">
         <td class="english" >Intercede: O priests of the Truth, the
             twenty four presbyters, That He may...</td>
-        <td class="coptic" >̀ Ⲁⲣⲓⲡ̅: ⲛⲓⲟⲩⲏⲃ ⲛ̀ⲧⲉ ϯⲙⲉⲑⲙⲏⲓ: ⲡⲓϫⲟⲩⲧ ϥ̀ⲧⲟⲩ
+        <td class="coptic" >̀Ⲁⲣⲓⲡ̅: ⲛⲓⲟⲩⲏⲃ ⲛ̀ⲧⲉ ϯⲙⲉⲑⲙⲏⲓ: ⲡⲓϫⲟⲩⲧ ϥ̀ⲧⲟⲩ
             ⲙ̀ⲡ̀ⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ: ⲛ̀ⲧⲉϥ...</td>
         <td class="arabic">إشفعوا فينا ياكهنة الحق الأربعة والعشرين قسيساً ليغفر...</td>
     </tr>
@@ -3123,7 +3123,7 @@ kiahkCommemoration(tableNumber){
         <td class="arabic">إشفعوا فينا أيها العساكر الملائكية والطغمات السمائية ليغفر...</td>
     </tr>
     <tr id="table_${tableNumber}_row_8" class="north">
-        <td class="english" >Pray to the Lord on our behalf, m,y lords
+        <td class="english" >Pray to the Lord on our behalf, my lords
             and fathers, the patriarchs, Abraham, Isaac and Jacob, That He may...</td>
         <td class="coptic" >Ⲧⲱ̅: ⲛⲁϭⲟⲓⲥ ⲛ̀ⲓⲟϯ
             ⲙ̀ⲡⲁⲧⲣⲓⲁⲣⲭⲏⲥ: Ⲁⲃⲣⲁⲁⲙ Ⲓⲥⲁⲁⲕ Ⲓⲁⲕⲱⲃ: ⲛ̀ⲧⲉϥ...</td>
@@ -3133,7 +3133,7 @@ kiahkCommemoration(tableNumber){
         <td class="english" >Pray to the Lord on our behalf, O perfect
             man, the righteous and just Enoch, That He may...</td>
         <td class="coptic" >Ⲧⲱ̅: ⲱ̀ ⲡⲓⲣⲱⲙⲓ
-            ⲛ̀ⲧⲉⲗⲓⲟⲥ: ⲡⲓⲑ̀ⲙⲏⲓ ̀ Ⲉⲛⲱⲭ ⲡⲓⲇⲓⲕⲉⲟⲥ: ⲛ̀ⲧⲉϥ...</td>
+            ⲛ̀ⲧⲉⲗⲓⲟⲥ: ⲡⲓⲑ̀ⲙⲏⲓ ̀Ⲉⲛⲱⲭ ⲡⲓⲇⲓⲕⲉⲟⲥ: ⲛ̀ⲧⲉϥ...</td>
         <td class="arabic">إطلب من الرب عنا أيها الرجل الكامل البار أخنوخ الصديق ليغفر..</td>
     </tr>
     <tr id="table_${tableNumber}_row_10" class="north">
@@ -3314,7 +3314,7 @@ kiahkCommemoration(tableNumber){
     </tr>
     <tr id="table_${tableNumber}_row_35" class="south">
         <td class="english" >Pray to the Lord on our behalf, O
-            victorious martyrs, The Forty Saints of Sebaste, That He may...</td>
+            victorious martyrs, the Forty Saints of Sebaste, That He may...</td>
         <td class="coptic" >Ⲧⲱ̅: ⲛⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ
             ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ : ⲡⲓϩ̀ⲙⲉ ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲉ Ⲥⲉⲃⲁⲥⲧⲉ : ⲛ̀ⲧⲉϥ...</td>
         <td class="arabic">اطلبوا من الرب عنا ايها الشهداء المجاهدون الأربعون قديساً بسبسطية ليغفر..</td>
@@ -3398,7 +3398,7 @@ kiahkCommemoration(tableNumber){
     </tr>
     <tr id="table_${tableNumber}_row_47" class="south">
         <td class="english" >Pray to the Lord on our behalf, O three
-            saints Abba Macarii, ⲁnd all their children the cross-bearers, That He may...</td>
+            saints Abba Macarii, and all their children the cross-bearers, That He may...</td>
         <td class="coptic" >Ⲧⲱ̅: ⲡⲓϣⲟⲙⲧ ⲉⲑⲟⲩⲁⲃ ⲁⲃⲃⲁ Ⲙⲁⲕⲁⲣⲓ: ⲛⲉⲙ
             ⲛⲟⲩϣⲏⲣⲓ ⲛ̀ⲥ̀ⲧⲁⲩⲣⲟⲫⲟⲣⲟⲥ: ⲛ̀ⲧⲉϥ...</td>
         <td class="arabic">اطلبوا من الرب عنا أيها الثلاثة مقارات القديسون وأولادهم لباس الصليب ليغفر..</td>
@@ -3457,7 +3457,7 @@ kiahkCommemoration(tableNumber){
         <td class="english" >Pray: Abba Nopher and Abba Karus, and our
             father Paphnutius, That He may...</td>
         <td class="coptic" >Ⲧⲱ̅: ⲁⲃⲃⲁ Ⲛⲟⲩϥⲉⲣ ⲛⲉⲙ ⲁⲃⲃⲁ Ⲕⲁⲣⲟⲥ: ⲛⲉⲙ
-            ⲡⲉⲛⲓⲱⲧ Ⲡⲁⲫ̀ⲛⲟⲩⲧⲓⲟⲥ:ⲛ̀ⲧⲉϥ...</td>
+            ⲡⲉⲛⲓⲱⲧ Ⲡⲁⲫ̀ⲛⲟⲩⲧⲓⲟⲥ: ⲛ̀ⲧⲉϥ...</td>
         <td class="arabic">اطلبوا من الرب عنا ياانبا نفر وانبا كاروس وابانا بفنوتيوس ليغفر..</td>
     </tr>
     <tr id="table_${tableNumber}_row_56" class="north">
@@ -3525,7 +3525,7 @@ kiahkCommemoration(tableNumber){
     </tr>
     <tr id="table_${tableNumber}_row_65" class="south">
         <td class="english" >Pray to the Lord on our behalf, O the one
-            hundred and fifty at Constantinople, and the two hundred at Ephesus,That He may...</td>
+            hundred and fifty at Constantinople, and the two hundred at Ephesus, That He may...</td>
         <td class="coptic" >Ⲧⲱ̅: ⲱ̀ ⲡⲓϣⲉ ⲧⲉⲃⲓ
             ⲛ̀ⲧⲉ Ⲕⲱⲥⲧⲁⲛⲧⲓⲛⲟⲩⲡⲟⲗⲓⲥ: ⲛⲉⲙ ⲡⲓⲥ̀ⲛⲁⲩ ϣⲉ ⲛ̀ⲧⲉ Ⲉⲫⲉⲥⲟⲥ: ⲛ̀ⲧⲉϥ &hellip;</td>
         <td class="arabic">اطلبوا من الرب عنا ايها ال ١٥٠ بمدينة القسطنطينية والمائتين بأفسس ليغفر..</td>
@@ -3539,7 +3539,7 @@ kiahkCommemoration(tableNumber){
             ليغفر..</td>
     </tr>
     <tr id="table_${tableNumber}_row_67" class="south">
-        <td class="english" >Pray: Abba Abraam the hegomen, αnd our
+        <td class="english" >Pray: Abba Abraam the hegumen, αnd our
             father Abba Mark, That He may...</td>
         <td class="coptic" >Ⲧⲱ̅: ⲁⲃⲃⲁ Ⲁⲃⲣⲁⲁⲙ ⲡⲓϩⲏⲅⲟⲩⲙⲉⲛⲟⲥ: ⲛⲉⲙ
             ⲡⲉⲛⲓⲱⲧ ⲁⲃⲃⲁ Ⲙⲁⲣⲕⲟⲥ: ⲛ̀ⲧⲉϥ...</td>
@@ -3844,7 +3844,7 @@ praiseForStMaximosAndDomadios(tableNumber) {
         <td class="arabic">وسلامى للثلاثة مقارات: وكل الآباء الرؤوس: السكان بجبل شيهيت: إسقيط مقاريوس</td>
     </tr>
     <tr id="table_${tableNumber}_row_13" class="north">
-        <td class="english" >Hail to Abba Youanis: The hegomen
+        <td class="english" >Hail to Abba Youanis: The hegumen
             (protopriest): And to Abba Pishoy: Pi romi ente leeos</td>
         <td class="arabic">وسلامى لأنبا يؤنس: بى هيغومينوس: والأب أنبا بيشوى: بى رومى إنتى ليوس</td>
     </tr>

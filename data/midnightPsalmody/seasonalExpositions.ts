@@ -7,13 +7,13 @@ const firstCanticleExposition = {
             </caption>
             <tbody>
                 <tr id="table_${tableNumber}_row_0" class="north">
-                    <td class="english">Come today, all you people of the earth and see this mystery.</td>
+                    <td class="english">Come today, all you people, of the earth, and see this mystery.</td>
                     <td class="coptic">Ⲁⲙⲱⲓⲛⲓ ⲧⲏⲣⲟⲩ ⲙ̀ⲫⲟⲟⲩ: ⲱ ⲛⲓⲗⲁⲟⲥ ⲛ̀ⲧⲉ ⲡ̀ⲕⲁϩⲓ: ̀ⲁⲣⲓⲑⲉⲱⲣⲓⲛ: ⲙ̀ⲡⲁⲓⲙⲩⲥⲧⲏⲣⲓⲟⲛ.</td>
                     <td class="arabic">تعالوا كلكم اليوم يا شعوب الأرض وانظروا هذا السر.</td>
                 </tr>
                 <tr id="table_${tableNumber}_row_1" class="north">
                     <td class="english">God was born for us from the Virgin without a the seed of man that He may save us.</td>
-                    <td class="coptic">Ϫⲉ ⲁⲩⲙⲓⲥⲓ ⲛⲁⲛ ⲙ̀Ⲫⲛⲟⲩϯ: ⲉ̀ⲃⲟⲗ ϧⲉⲛ ϯⲡⲁⲣⲑⲉⲛⲟⲥ: ⲁϭⲛⲉ ⲉ̀ⲡⲉⲣⲙⲁ ⲛ̀ⲣⲱⲙⲓ: ϣⲁ ⲛ̀ⲧⲉϥⲥⲱϯ ⲙ̀ⲙⲟⲛ.</td>
+                    <td class="coptic">Ϫⲉ ⲁⲩⲙⲓⲥⲓ ⲛⲁⲛ ⲙ̀Ⲫⲛⲟⲩϯ: ⲉ̀ⲃⲟⲗ ϧⲉⲛ ϯⲡⲁⲣⲑⲉⲛⲟⲥ: ⲁϭⲛⲉ ⲥ̀ⲡⲉⲣⲙⲁ ⲛ̀ⲣⲱⲙⲓ: ϣⲁ ⲛ̀ⲧⲉϥⲥⲱϯ ⲙ̀ⲙⲟⲛ.</td>
                     <td class="arabic">لأنه قد وُلد لنا الله من العذراء بدون زرع بشر لكي يخلصنا.</td>
                 </tr>
                 <tr id="table_${tableNumber}_row_2" class="north">
