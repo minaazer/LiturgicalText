@@ -25,8 +25,13 @@ const changelog = {
     "Added Adam Psali for the Wedding at Cana of Galilee",
     "Updated bible verse navigation menu",
     "Added NKJV New Testament",
-
   ],
+  "1.0.79": [
+    "Removed duplicate 'Your mercies, O my God'",
+    "Fixed Jenkims in 3rd Canticle",
+    "UI Improvements",
+  ]
+  
 };
 
 export default changelog;

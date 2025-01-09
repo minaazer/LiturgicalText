@@ -2830,105 +2830,105 @@ KiahkPraisefortheHolyTrinity(tableNumber) {
 praiseOnPsaliOfTheThreeYoungMen(tableNumber) {
     const html = `
 <table id="table_${tableNumber}" style="display: table;" title="Praise on the Psali of the Three Young Men (God Existent Before The Ages)">
-<caption id="caption_${tableNumber}" class="caption">Praise on the Psali of the Three Young Men <br /> (God Existent Before The Ages)
+<caption id="caption_table_${tableNumber}" class="caption">Praise on the Psali of the Three Young Men <br /> (God Existent Before The Ages)
     <span class="arabic-caption">مديح على ابصاية الثلاثة فتية <br>(الله الأزلى قبل الأدهار)</span>
 </caption>
 <tbody>
     <tr id="${tableNumber}_row_0" class="north">
         <td class="english" >God existent before the ages: Sent His
-            chosen Angel: To deliver the youths from the furnace: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
+            chosen Angel: To deliver the youths from the furnace: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
         <td class="arabic">الله الأزلى قبل الأدهار: ارسل ملاكه المختار: نجى الفتية من أتون النار: هوس إيروف
             آرى هوؤتشاسف</td>
     </tr>
     <tr id="${tableNumber}_row_1" class="north">
         <td class="english" >Nebuchadnezzar the king made a golden
-            image: And told the ministers and all people: When you hear the sound of the trumpet: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
+            image: And told the ministers and all people: When you hear the sound of the trumpet: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
         <td class="arabic">بختنصر الملك أقام صورة من ذهب: وقال للوزراء وكل الشعب: إذا ما سمعتم آلات الطرب:
             هوس إيروف آرى هوؤتشاسف</td>
     </tr>
     <tr id="${tableNumber}_row_2" class="south">
         <td class="english" >Immediately come out and fall down: To
-            worship the golden image: Or you'll be cast in the furnace: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
+            worship the golden image: Or you'll be cast in the furnace: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
         <td class="arabic">تعالوا لوقتكم مسرعين: ولتلك الصورة ساجدين: وإذا لم تسجدوا تلقون فى الآتون: هوس
             إيروف آرى هوؤتشاسف</td>
     </tr>
     <tr id="${tableNumber}_row_3" class="south">
         <td class="english" >Then came forth the Chaldeans: And
-            worshipped before the image: Except for the three saintly youths: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
+            worshipped before the image: Except for the three saintly youths: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
         <td class="arabic">تقدم الكلدانيون: لتلك الصورة خروا ساجدين: ماخلا الثلاثة الفتية القديسين: هوس
             إيروف آرى هوؤتشاسف</td>
     </tr>
     <tr id="${tableNumber}_row_4" class="north">
         <td class="english" >O come Ananias and praise: With the voice
-            of salvation: And praise your God the Messiah: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
+            of salvation: And praise your God the Messiah: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
         <td class="arabic">تعال إلينا ياأنانياس: ورتل معنا بصوت الخلاص: وسبح إلهك ماسياس: هوس إيروف آرى
             هوؤتشاسف</td>
     </tr>
     <tr id="${tableNumber}_row_5" class="north">
         <td class="english" >Men came and informed the king saying:
-            There are three men in the city: Who do not worship the image: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
+            There are three men in the city: Who do not worship the image: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
         <td class="arabic">جاء قوم وأعلموا الملك قائلين: هاهنا ثلاثة رجال ساكنين: لم يسجدوا للصورة بل
             مهملين: هوس إيروف آرى هوؤتشاسف</td>
     </tr>
     <tr id="${tableNumber}_row_6" class="south">
         <td class="english" >The king gathered the leaders: The
-            authorities and all ranks: And ordered the furnace to be hotter: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
+            authorities and all ranks: And ordered the furnace to be hotter: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
         <td class="arabic">جمع الملك رؤساء الشعب: وأرباب الدولة وكل الرتب: وقال لهم أوقدوا الأتون بالحطب:
             هوس إيروف آرى هوؤتشاسف</td>
     </tr>
     <tr id="${tableNumber}_row_7" class="south">
         <td class="english" >They bound the hands of the three youths:
-            And cast them in the midst of the furnace: But to them it became as dew not heat: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
+            And cast them in the midst of the furnace: But to them it became as dew not heat: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
         <td class="arabic">أتوا بالفتية موثقين: وطرحوهم فى وسط الأتون: فصار كندى اليسمين: هوس إيروف آرى
             هوؤتشاسف</td>
     </tr>
     <tr id="${tableNumber}_row_8" class="north">
         <td class="english" >The angel of the Lord came unto them: And
-            quenched the furnace and strengthened them: And they rejoiced when they saw Him: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
+            quenched the furnace and strengthened them: And they rejoiced when they saw Him: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
         <td class="arabic">حينئذ ملاك الله جاءهم: أطفأ الأتون وقواهم: وفرحوا به لما أتاهم: هوس إيروف آرى
             هوؤتشاسف</td>
     </tr>
     <tr id="${tableNumber}_row_9" class="north">
         <td class="english" >Azarias started to praise and pray:
-            Faithfully without defilement: And gave glory to the power of the Trinity: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
+            Faithfully without defilement: And gave glory to the power of the Trinity: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
         <td class="arabic">حينئذ صلى عزارياس: صلاة قوية بغير أدناس: تى اوأوإن إتجوم إن تى اترياس: هوس إيروف
             آرى هوؤتشاسف</td>
     </tr>
     <tr id="${tableNumber}_row_10" class="south">
         <td class="english" >Misael likewise proclaimed: With the voice
-            of rejoicing: Bless the Name of Emmanuel: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
+            of rejoicing: Bless the Name of Emmanuel: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
         <td class="arabic">خاصة بالأكثر ميصائيل: علَّ صوته بالتهليل: اسمو إإ فران إن إممانوئيل: هوس إيروف
             آرى هوؤتشاسف</td>
     </tr>
     <tr id="${tableNumber}_row_11" class="south">
         <td class="english" >The king was amazed and surprised: There
-            were only three in the furnace: But now there are four walking freely: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span>
+            were only three in the furnace: But now there are four walking freely: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span>
         </td>
         <td class="arabic">دهش الملك أيضاً واحتار: أليس ثلاثة ألقوا فى النار: هوذا أربعة يمشون أجهار: هوس
             إيروف آرى هوؤتشاسف</td>
     </tr>
     <tr id="${tableNumber}_row_12" class="north">
         <td class="english" >The king truly saw all of them free: Four
-            men walking in the fire: And praising with the voice of rejoicing: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span>
+            men walking in the fire: And praising with the voice of rejoicing: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span>
         </td>
         <td class="arabic">رأى الملك حقاً اجهار: أربعة رجال يمشون فى النار: ويسبحون ببهجة ووقار: هوس إيروف
             آرى هوؤتشاسف</td>
     </tr>
     <tr id="${tableNumber}_row_13" class="north">
         <td class="english" >The king was greatly amazed: And
-            proclaimed saying: The fourth looks like the Son of God: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
+            proclaimed saying: The fourth looks like the Son of God: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
         <td class="arabic">زاد عجباً ونطق بفاه: هوذا الرابع يشبه ابن الآلهة: فى منظره وفى رؤياه: هوس إيروف
             آرى هوؤتشاسف</td>
     </tr>
     <tr id="${tableNumber}_row_14" class="south">
         <td class="english" >Praise our God, O you people: The angels,
-            the thrones and the powers: Praise the Lord God of heaven: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
+            the thrones and the powers: Praise the Lord God of heaven: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
         <td class="arabic">سبحوه أيها السادات: الملائكة والكراسى والقوات: سبحوا رب السموات: هوس إيروف آرى
             هوؤتشاسف</td>
     </tr>
     <tr id="${tableNumber}_row_15" class="south">
         <td class="english" >Praise Him and glorify Him: In the
-            congregations exalt Him: And above all the elders bless Him: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
+            congregations exalt Him: And above all the elders bless Him: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</td>
         <td class="arabic">سبحوه ومجدوه: فى كنائس شعبه ارفعوه: على منابر الشيوخ باركوه: هوس إيروف آرى
             هوؤتشاسف</td>
     </tr>
@@ -2937,118 +2937,118 @@ praiseOnPsaliOfTheThreeYoungMen(tableNumber) {
     </tr>
     <tr id="${tableNumber}_row_16" class="north">
         <td class="english" >Praise your God O Sedrak: Abdenego and the
-            praised Misak: For He saved you from destruction: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
+            praised Misak: For He saved you from destruction: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
         <td class="arabic">سبح إلهك ياسدراك: وابدناغو والممدوح ميساك: لأنه نجاكم من الهلاك: هوس إيروف آرى
             هوؤتشاسف</td>
     </tr>
     <tr id="${tableNumber}_row_17" class="north">
         <td class="english" >Praise Him all you nations: The free, the
-            slave and the servant: For He saved you from annihilation: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
+            slave and the servant: For He saved you from annihilation: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
         <td class="arabic">سبحوه ياجميع الامم: الأحرار والعبيد والخدم: لأنه أنشاكم من العدم: هوس إيروف آرى
             هوؤتشاسف</td>
     </tr>
     <tr id="${tableNumber}_row_18" class="south">
         <td class="english" >The fiery furnace O Ananias: Was quenched
-            by your God the Messiah: O bless His honored Name: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
+            by your God the Messiah: O bless His honored Name: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
         <td class="arabic">سعير اللهيب ياأنانياس: أطفأه إلهك ماسياس: إسموا إبيفران توديمياس: هوس إيروف آرى
             هوؤتشاسف</td>
     </tr>
     <tr id="${tableNumber}_row_19" class="south">
         <td class="english" >The youths proclaimed with rejoicing:
-            Bless the Lord God of Israel: And remember Him in all generations: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span>
+            Bless the Lord God of Israel: And remember Him in all generations: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span>
         </td>
         <td class="arabic">صاح الفتية بالتهليل: باركوا الرب إله اسرائيل: وإذكروا اسمه من جيل إلى جيل: هوس
             إيروف آرى هوؤتشاسف</td>
     </tr>
     <tr id="${tableNumber}_row_20" class="north">
         <td class="english" >An undefiled sacrifice was offered: O
-            Azarias the praised: Praise the honored Name of God: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
+            Azarias the praised: Praise the honored Name of God: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
         <td class="arabic">تقدمة قربت بغير أدناس: أيها الممدوح عزارياس: إسمو إإفران توديمياس: هوس إيروف آرى
             هوؤتشاسف</td>
     </tr>
     <tr id="${tableNumber}_row_21" class="north">
         <td class="english" >Emmanuel quenched the furnace: So rejoice
-            and praise O Misael: And offer to your God praises: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
+            and praise O Misael: And offer to your God praises: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
         <td class="arabic">أخمد اللهيب عمانوئيل: فسر وسبح يا ميصائيل: ورتل لإلهك بالتهليل: هوس إيروف آرى
             هوؤتشاسف</td>
     </tr>
     <tr id="${tableNumber}_row_22" class="south">
         <td class="english" >The three youths praised with glory: And
-            proclaimed in a joyful sound: Holy is the Beloved Son: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
+            proclaimed in a joyful sound: Holy is the Beloved Son: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
         <td class="arabic">ظهر الفتية بالتمجيد: ورتلوا بصوت عالى شديد: إفؤاب إبشيرى إم مينريت: هوس إيروف آرى
             هوؤتشاسف</td>
     </tr>
     <tr id="${tableNumber}_row_23" class="south">
         <td class="english" >Seven times hotter the fire was lit: And
-            forty nine full breadths: But the youths did not fear this: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
+            forty nine full breadths: But the youths did not fear this: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
         <td class="arabic">علا اللهيب فوق الأتون: تسعة وأربعين ذراعاً كاملين: ولم يرهبه المجاهدون: هوس إيروف
             آرى هوؤتشاسف</td>
     </tr>
     <tr id="${tableNumber}_row_24" class="north">
         <td class="english" >The three youths overcame: The fiery
-            furnace: And conquered the enemy saying: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
+            furnace: And conquered the enemy saying: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
         <td class="arabic">غلب الفتية لهيب النار: وقهروا الاعداء الكفار: فاستحقوا المديح والتذكار: هوس إيروف
             آرى هوؤتشاسف</td>
     </tr>
     <tr id="${tableNumber}_row_25" class="north">
         <td class="english" >The king proclaimed in a heard voice:
-            Ananias, Azarias and Misael: The servants of the Most High God: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
+            Ananias, Azarias and Misael: The servants of the Most High God: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
         <td class="arabic">فصاح الملك بصوت عال: حنانيا وعزاريا وميصائيل: عبيد الله القوى المتعال: هوس إيروف
             آرى هوؤتشاسف</td>
     </tr>
     <tr id="${tableNumber}_row_26" class="south">
         <td class="english" >Come out from the fiery furnace: For your
-            God is powerful: The performer of wonders: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
+            God is powerful: The performer of wonders: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
         <td class="arabic">تعالوا اخرجوا من النار: لأن إلهكم ذو اقتدار: صانع العجائب الكبار: هوس إيروف آرى
             هوؤتشاسف</td>
     </tr>
     <tr id="${tableNumber}_row_27" class="south">
         <td class="english" >Honor and glory O Israel: Offer before God
-            Emmanuel: The sound of rejoicing and praise: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
+            Emmanuel: The sound of rejoicing and praise: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
         <td class="arabic">كرامة ومجداً يا اسرائيل: قدم لإلهك عمانوئيل: تسابيح البركة والتهليل: هوس إيروف
             آرى هوؤتشاسف</td>
     </tr>
     <tr id="${tableNumber}_row_28" class="north">
         <td class="english" >Before Him all the nations worship: And
-            all tongues and languages: They praise the Lord of Sabaoth (Hosts): <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span>
+            all tongues and languages: They praise the Lord of Sabaoth (Hosts): <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span>
         </td>
         <td class="arabic">له تسجد كل الأسباط: وكل الألسن واللغات: تسبح رب القوات: هوس إيروف آرى هوؤتشاسف
         </td>
     </tr>
     <tr id="${tableNumber}_row_29" class="north">
         <td class="english" >There is no other Lord like: You Who is
-            powerful and feared: Your dominion is eternal: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
+            powerful and feared: Your dominion is eternal: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
         <td class="arabic">من يشبهك يارب الأرباب: إله قوى عزيز مهاب: سلطانك في كل الأحقاب: هوس إيروف آرى
             هوؤتشاسف</td>
     </tr>
     <tr id="${tableNumber}_row_30" class="south">
         <td class="english" >The furnace became a cool mist: Therefore
-            the youths proclaimed saying: Praise you the gracious Lord: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
+            the youths proclaimed saying: Praise you the gracious Lord: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
         <td class="arabic">ندى بارد صار الأتون: فصاح الفتية بصوت حنون: إسمو إإبشويس تون كيريون: هوس إيروف
             آرى هوؤتشاسف</td>
     </tr>
     <tr id="${tableNumber}_row_31" class="south">
         <td class="english" >Rejoice in the God of Jacob: For He is a
-            powerful and feared God: And praise His Holy Name: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
+            powerful and feared God: And praise His Holy Name: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
         <td class="arabic">هللوا لإله يعقوب: وابتهجوا بالله القوى المرهوب: ورتلوا لإسمه المحبوب: هوس إيروف
             آرى هوؤتشاسف</td>
     </tr>
     <tr id="${tableNumber}_row_32" class="north">
         <td class="english" >Praise Him also with hymns: Bless the Lord
-            O you three youths: Praise the Lord at all times: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
+            O you three youths: Praise the Lord at all times: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span></td>
         <td class="arabic">وسبحوه أيضاً بالألحان: باركوا الرب أيها الفتيان: إفهوس إإفنوتى ان سيو نيفين: هوس
             إيروف آرى هوؤتشاسف</td>
     </tr>
     <tr id="${tableNumber}_row_33" class="north">
         <td class="english" >For the Lord our God is greatly praised:
-            And feared above the other gods: By His might He delivered the youths: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span>
+            And feared above the other gods: By His might He delivered the youths: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span>
         </td>
         <td class="arabic">لأنه عظيم ومبارك جدا: ومخوف على كل الآلهة: بقدرته نجى الفتية: هوس إيروف آرى
             هوؤتشاسف</td>
     </tr>
     <tr id="${tableNumber}_row_34" class="south">
         <td class="english" >To Him are due glory and worship: Before
-            the Creator and feared God: The Gracious God, Bestower of Life: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ̀ ⲁⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span> ${cross}</td>
+            the Creator and feared God: The Gracious God, Bestower of Life: <span class="coptic-caption">ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓ ϩⲟⲩⲟ̀ ϭⲁⲥϥ.</span> ${cross}</td>
         <td class="arabic">يليق الإكرام والسجود: بالإله الخالق المعبود: رب الأحسان مصدر الجود: هوس إيروف آرى
             هوؤتشاسف ${cross}</td>
     </tr>
@@ -6659,12 +6659,12 @@ const html = `
         <tr id="table_${tableNumber}_row_12" class="north">
             <td class="english" >Hail to you O Mary: O sanctuary for
                 protection: Your Light dawned upon us: And filled all the earth.</td>
-            <td class="arabic">السلام لك يامريم: ياهيكل منصان نورك أشرق فينا وملأ كل الأكوان</td>
+            <td class="arabic">السلام لك يامريم: ياهيكل منصان: نورك أشرق فينا: وملأ كل الأكوان</td>
         </tr>
         <tr id="table_${tableNumber}_row_13" class="south">
             <td class="english" >You held the Creator: The Son of God, the
                 Judge: You gave birth to His Humanity: With the united Divinity. ${cross}</td>
-            <td class="arabic">وحملت الخالق ابن الله الديان وولدتيه انسان باللاهوت متحدون ${cross}</td>
+            <td class="arabic">وحملت الخالق: ابن الله الديان: وولدتيه انسان: باللاهوت متحدون ${cross}</td>
         </tr>
         <tr id="table_${tableNumber}_row_15" class="refrain">
             <td class="english" >Hail to you O Mary: O you full of grace:

@@ -236,9 +236,9 @@ const checkForVersionUpdates = async () => {
                     <Text style={presentationStyles.sectionTitle}>{section.title}</Text>
                     {section.text.map((change, idx) => (
                       <View key={idx} style={{ flexDirection: 'row', alignItems: 'flex-start', marginVertical: 2 }}>
-                        <Text style={{ marginRight: 8 }}>{'\u2022'}</Text> {/* Bullet point */}
-                        <Text>{change}</Text>
-                      </View>
+                        <Text style={{ marginRight: 8 }}>{'\u2022'}</Text>
+                        <Text>{change || ''}</Text>
+                        </View>
                     ))}                  
                   </View>
                 ))}

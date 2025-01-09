@@ -2,8 +2,7 @@
   "cli": {
     "version": ">= 4.1.2",
     "promptToConfigurePushNotifications": false,
-    "appVersionSource": "local",
-    "preSubmit": "node extractReleaseNotes.js > release-notes.txt"
+    "appVersionSource": "local"
   },
   "build": {
     "development": {
@@ -24,7 +23,6 @@
   },
   "submit": {
     "production": {
-      "releaseNotes": "@release-notes.txt",
       "android": {
         "serviceAccountKeyPath": "./service-account.json",
         "track": "production"

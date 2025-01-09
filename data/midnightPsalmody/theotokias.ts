@@ -149,7 +149,6 @@ if (seasons.includes("Kiahk")) {
         { "name": "rashiOMaria", "tableNumber": tableNumber + 20 },
         { "name": "iPraiseTheVirgin", "tableNumber": tableNumber + 21 },
         { "name": "praiseOnTeoiEnHikanos", "tableNumber": tableNumber + 22 },
-        { "name": "yourMerciesOMyGod", "tableNumber": tableNumber + 26 },
 
     ];
 
@@ -174,7 +173,6 @@ const [
     { html: rashiOMaria = '' } = {},
     { html: iPraiseTheVirgin = '' } = {},
     { html: praiseOnTeoiEnHikanos = '' } = {},
-    { html: yourMerciesOMyGod = '' } = {},
 ] = kiahkPraises;
 
     
@@ -823,7 +821,6 @@ ${praiseOnTeoiEnHikanos}
 ${part11}
 ${nimghar}
 ${difnar}
-${yourMerciesOMyGod}
 `;
     return html;
 }

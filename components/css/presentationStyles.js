@@ -390,7 +390,7 @@ export const presentationStyles = StyleSheet.create({
     width: "100%",
     display: "flex",
     flexDirection: isPortrait ? "column" : "row",
-    justifyContent: isPortrait ? "center" : "space-evenly",
+    justifyContent: isPortrait ? "center" : "space-between",
     alignItems: "center",
     flexWrap: "wrap",
 
@@ -409,7 +409,6 @@ export const presentationStyles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-evenly",
     alignItems: "center",
-    
   },
   
   picker: {
@@ -683,50 +682,4 @@ seasonsButtonContainer: {
 
 });
 
-export const pickerSelectStyles = StyleSheet.create({
-  inputIOS: {
-      fontSize: 16,
-      paddingVertical: 10,
-      paddingHorizontal: 20,
-      borderWidth: 0,
-      borderColor: 'black',
-      width: '100%',
-      borderRadius: 20,
-      color: 'black',
-      paddingRight: 35, // to ensure the text is not overlapping the dropdown icon
-      backgroundColor: 'white',
-  },
-  inputAndroid: {
-      fontSize: 16,
-      fontWeight: 'bold',
-      paddingVertical: 4,
-      borderWidth: 0,
-      color: 'black',
-      backgroundColor: 'transparent',
-      textAlign: 'center',
-      width: '100%',
-      paddingHorizontal: 40,
 
-  },
-  inputAndroidContainer: {
-      borderWidth: 0,
-      alignSelf: 'center',
-      alignContent: 'center',
-      justifyContent: 'center',
-      width: '100%',
-
-  },
-  iconContainer: {
-      top: 10,
-      right: Platform.OS === 'ios' ? 0 : 10,
-      alignSelf: 'center', // Centers the icon vertically
-      transform: [{ scale: 2.5 }], // Rotates the icon 180 degrees
-      
-    },
-
-  placeholder: {
-      color: 'black',
-      fontSize: 16,
-  },
-
-});

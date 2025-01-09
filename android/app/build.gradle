@@ -91,8 +91,8 @@ android {
         applicationId 'com.minaazer.LiturgicalBooks'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 107
-        versionName "1.0.77"
+        versionCode 108
+        versionName "1.0.78"
     }
     signingConfigs {
         debug {

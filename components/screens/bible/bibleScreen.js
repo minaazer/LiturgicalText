@@ -4,7 +4,7 @@ import React from "react";
 import { View, Text, StyleSheet, ImageBackground } from "react-native";
 import { presentationStyles } from "../../css/presentationStyles";
 import backgroundImage from "../../../assets/background.png";
-import { BibleSelection } from "../../reusableComponents/bibleSelection";
+import { BibleChapterPicker } from "../../reusableComponents/pickers";
 
 const BibleScreen = ({ navigation }) => {
   return (
@@ -18,7 +18,7 @@ const BibleScreen = ({ navigation }) => {
           <View style={presentationStyles.headerContainer}>
             <Text style={presentationStyles.pageHeader}>The Holy Bible</Text>
           </View>
-          <View style={styles.container}>
+          <View style={[styles.container, {alignItems: "center"}]}>
             <Text
               style={[presentationStyles.languageTitle, { alignSelf: "center" }]}
             >
@@ -29,7 +29,7 @@ const BibleScreen = ({ navigation }) => {
             >
               New Testament: NKJV Translation
             </Text>
-            <BibleSelection
+            <BibleChapterPicker
               navigation={navigation}
               defaultBook="Genesis"
               defaultChapter={1}

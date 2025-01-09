@@ -4,9 +4,8 @@ import { Text, View, ScrollView, TouchableOpacity } from 'react-native';
 import SettingsContext from '../../settings/settingsContext';
 import { useNavigation } from '@react-navigation/native';
 import { gregorianToCoptic } from '../functions/copticDate';
-import { presentationStyles , pickerSelectStyles } from '../css/presentationStyles';
-import RNPickerSelect from 'react-native-picker-select';
-import { Ionicons } from '@expo/vector-icons';
+import { presentationStyles } from '../css/presentationStyles';
+import { FontSizePicker , ScreenOrientationPicker } from '../reusableComponents/pickers';
 import BouncyCheckbox from 'react-native-bouncy-checkbox';
 
 
@@ -25,10 +24,6 @@ const SettingsScreen = () => {
 
     }, []);
 
-    const setFontSizeHandler = (value) => {
-        // change the font size property in my settings object
-        setSettings({ ...settings, fontSize: value });
-    }
 
     const setLanguagesHandler = (value, checked) => {
 
@@ -94,55 +89,14 @@ const SettingsScreen = () => {
                     <View style={presentationStyles.fontSetting}>
                         <Text style={presentationStyles.settingTitle}>Font Size</Text>
                         <View style={presentationStyles.pickerWrapper}>
-                            <RNPickerSelect
-                                onValueChange={(value) => setFontSizeHandler(value)}
-                                items={[
-                                    { label: '1', value: '1' },
-                                    { label: '2', value: '1.5' },
-                                    { label: '3', value: '2' },
-                                    { label: '4', value: '2.5' },
-                                    { label: '5', value: '3' },
-                                    { label: '6', value: '3.5' },
-                                    { label: '7', value: '4' },
-                                    { label: '8', value: '4.5' },
-                                    { label: '9', value: '5' },
-                                    { label: '10', value: '5.5' },
-                                    { label: '11', value: '6' },
-                                    { label: '12', value: '6.5' },
-                                ]}
-                                value={settings.fontSize}
-                                useNativeAndroidPickerStyle = {false}
-                                
-                                style={pickerSelectStyles}
-                                Icon={() => (
-                                    <Ionicons
-                                        name="caret-down-outline"
-                                        color="grey"
-                                    />
-                                ) }
-
-                            />
+                            <FontSizePicker setSettings={setSettings} settings={settings} />
                         </View>
                     </View>
                     <View style={presentationStyles.fontSetting}>
                         <Text style={presentationStyles.settingTitle}>Screen Orientation</Text>
                         <View style={presentationStyles.pickerWrapper}>
-                            <RNPickerSelect
-                                onValueChange={(value) => setOrientation(value)}
-                                items={[
-                                    { label: 'Landscape', value: 'landscape' },
-                                    { label: 'Portrait', value: 'portrait' },
-                                    { label: 'Reverse Landscape', value: 'reverseLandscape' },
-                                ]}
-                                value={settings.orientation}
-                                useNativeAndroidPickerStyle = {false}
-                                style={pickerSelectStyles}
-                                Icon={() => (
-                                    <Ionicons name="caret-down-outline" color="grey" 
-                                     />
-                                ) }
-                                
-                            />
+                            <ScreenOrientationPicker setOrientation={setOrientation} orientation={settings.orientation} />
+                            
                         </View>
                     </View>
                     </View>

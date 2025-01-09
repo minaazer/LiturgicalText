@@ -12,7 +12,7 @@ import { presentationStyles } from "../css/presentationStyles";
 import { Dimensions } from "react-native";
 import { MainContent } from "../functions/mainContent";
 import backgroundImage from "../../assets/background.png";
-import { BibleSelection } from "../reusableComponents/bibleSelection";
+import { BibleChapterPicker } from "../reusableComponents/pickers";
 import BibleData from "../../data/bible/bible.json";
 
 const screenWidth = Dimensions.get("window").width;
@@ -147,7 +147,7 @@ const RightDrawerContent = React.forwardRef(
               const verses = getChapterVerses(bookChapterInfo.book, bookChapterInfo.chapter);
               return (
                 <View key={item.id} style={presentationStyles.itemWrapper}>
-                  <BibleSelection
+                  <BibleChapterPicker
                     navigation={navigation}
                     defaultBook={bookChapterInfo.book}
                     defaultChapter={bookChapterInfo.chapter}
@@ -183,6 +183,7 @@ const RightDrawerContent = React.forwardRef(
                       {item.title.order.map((lang) => {
                         let textStyle = isActive ? presentationStyles.activeTitle : {};
                         if (lang === "english" && item.title.english) {
+                          
                           return (
                             <Text
                               key="english"
