@@ -30,7 +30,31 @@ const changelog = {
     "Removed duplicate 'Your mercies, O my God'",
     "Fixed Jenkims in 3rd Canticle",
     "UI Improvements",
-  ]
+    "Added Nativity Season for period between Nativity and Circumcision",
+    "Added Great Ode for Nativity",
+    "Removed daily psalis and expositions for Nativity Season from 2nd Day of the Nativity",
+    "Added GreatOde, Psalis and Expositions for the Theophany",
+  ],
+  "1.0.80": [
+    "Fixed and resturctured Pascha Week Files"
+  ],
+  "1.0.81": [
+    "Minor typographical edits in Pascha Week",
+    "Fixed 3rd Hour of Day of Tuesday of Pascha Week"
+  ],
+  "1.0.82": [
+    "Added the ability to toggle between Original and Complete Readings of Pascha Week.",
+    "Minor typographical edits in Pascha Week",
+  ],
+  "1.0.83": [
+    "Minor typographical edits in Pascha Week",
+    "Fix app restart when not in focus",
+    "Limited hymn title toggle to the the toggle icon instead of the entire row",
+    "Other UI changes"
+  ],
+  "1.0.84": [
+    "Added musical notes to some hymns in Pascha Week",
+  ],
   
 };
 

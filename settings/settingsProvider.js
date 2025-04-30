@@ -23,7 +23,7 @@ const defaultSettings = {
       value: "ExpositionResponses",
       checked: true,
     },
-    { label: "Gospel Coptic Intro", value: "GospelIntro", checked: true },
+    { label: "Coptic Gospel Intro", value: "GospelIntro", checked: true },
     {
       label: "Glorification Paragraphs",
       value: "Glorification",
@@ -31,6 +31,7 @@ const defaultSettings = {
     },
     { label: "Songs", value: "Songs", checked: true },
   ],
+  paschalReadingsFull: true, // Show full readings for Paschal Praise
   currentDate: { type: "live", date: new Date() }, // Live or custom date
   dayTransitionTime: "18:00", // Default day transition time
   selectedDateProperties: null, // To be calculated
@@ -41,7 +42,7 @@ const defaultSettings = {
 
 const SettingsProvider = ({ children }) => {
   const [settings, setSettings] = useState(defaultSettings);
-  const currentVersion = 15; // Update this number when you want to change the settings
+  const currentVersion = 19; // Update this number when you want to change the settings
 
   // Load settings from AsyncStorage on initialization
   useEffect(() => {
@@ -78,7 +79,7 @@ const SettingsProvider = ({ children }) => {
         } else {
           // Preserve user settings if they exist, otherwise fall back to defaults
           const storedDoxologySettings = 
-          version < 15 || settings?.doxologyFunctionNames === undefined
+          version < 17 || settings?.doxologyFunctionNames === undefined
             ? defaultDoxologyFunctionNames
             : sortArrayByTemplate(settings.doxologyFunctionNames , defaultDoxologyFunctionNames);
 

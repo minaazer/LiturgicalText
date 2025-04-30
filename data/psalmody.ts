@@ -7,6 +7,7 @@ import { annualCommemoration , annualFourthCanticle , theMorningDoxology ,
  } from './midnightPsalmody/annual';
 import { getSeasonalDailyPsali } from './midnightPsalmody/seasonalDailyPsalis';
 import { getSeasonalExposition } from './midnightPsalmody/seasonalExpositions';
+import { getSeasonalGreatOde } from './midnightPsalmody/seasonalGreatOde';
 
 
 export const psalmody = (settings) => {
@@ -107,17 +108,30 @@ export const psalmody = (settings) => {
             default:
                 preTheotokia = '';
         }
-    } else if (seasons.includes("Feast of the Nativity") || seasons.includes("Feast of the Nativity Paramoun") || seasons.includes("2nd Day of Nativity")) {
+    } else if (seasons.includes("Feast of the Nativity") || seasons.includes("Feast of the Nativity Paramoun") || 
+              seasons.includes("2nd Day of Nativity") || seasons.includes("Nativity Season") || 
+              seasons.includes("Feast of the Theophany") || seasons.includes("2nd Day of Theophany")) {        
+
         let currentSeason = "";
+        let seasonalPeriod = "";
 
         if (seasons.includes("Feast of the Nativity Paramoun")) {
             currentSeason = "Nativity Paramoun";
-        } else if (seasons.includes("Feast of the Nativity") || seasons.includes("2nd Day of Nativity")) {
+        } else if (seasons.includes("Feast of the Nativity")) {
             currentSeason = "Nativity";
+        } else if (seasons.includes("Nativity Season") || seasons.includes("2nd Day of Nativity")) {
+            currentSeason = "";
+            seasonalPeriod = "Nativity";
+        } else if (seasons.includes("Feast of the Theophany")) {
+            currentSeason = "Theophany";
+        } else if (seasons.includes("2nd Day of Theophany")) {
+            currentSeason = "";
+            seasonalPeriod = "Theophany";
         }
-                    
-    
-        postTenthino = dayOfWeek !== 1? getSeasonalDailyPsali("Monday",currentSeason,1.1) : getSeasonalDailyPsali("Tuesday",currentSeason,1.1);
+        
+        if (currentSeason !== "") {
+        postTenthino = getSeasonalGreatOde(currentSeason,1.1);
+                            (dayOfWeek !== 1? getSeasonalDailyPsali("Monday",currentSeason,1.2) : getSeasonalDailyPsali("Tuesday",currentSeason,1.2));
         postFirstCanticle = getSeasonalExposition("FirstCanticle",currentSeason,6.1) +
                             (dayOfWeek !== 0 ? getSeasonalDailyPsali("Sunday",currentSeason,6.2) : getSeasonalDailyPsali("Tuesday",currentSeason,6.2));
         preSecondCanticle = dayOfWeek < 3 ? getSeasonalDailyPsali("Wednesday",currentSeason,6.4) : getSeasonalDailyPsali("Tuesday",currentSeason,6.4);
@@ -126,11 +140,11 @@ export const psalmody = (settings) => {
         postThirdCanticle = getSeasonalExposition("ThirdCanticle",currentSeason,18.1) +
                             (dayOfWeek < 5 ? getSeasonalDailyPsali("Friday",currentSeason,18.2) : getSeasonalDailyPsali("Thursday",currentSeason,18.2));
         commemoration = annualCommemoration(29),
-        postCommemoration = dayOfWeek < 6 ? getSeasonalDailyPsali("Saturday",currentSeason,31.1) : getSeasonalDailyPsali("Friday",currentSeason,11.1);
+        postCommemoration = getSeasonalExposition("Commemoration",currentSeason,31.1) +
+                            (dayOfWeek < 6 ? getSeasonalDailyPsali("Saturday",currentSeason,31.2) : getSeasonalDailyPsali("Friday",currentSeason,31.2));
         preFourthCanticle = '';
         fourthCanticle = annualFourthCanticle(35);
         postFourthCanticle = getSeasonalExposition("FourthCanticle",currentSeason,34.1);
-        psali = getSeasonalDailyPsali(dayOfTheWeek,currentSeason,35.1);
         postPsali = '';
         preTheotokia = '';
         preTheotokiaConclusion = 
@@ -148,6 +162,8 @@ export const psalmody = (settings) => {
                             : getSeasonalExposition("watosPostMidnightPraise", currentSeason, 66.3)
             );
         postTheotokia = '';
+        }
+        psali = getSeasonalDailyPsali(dayOfTheWeek,currentSeason !== "" ? currentSeason : seasonalPeriod,35.1);
     }
 
 
@@ -1495,7 +1511,7 @@ return `
     </table>
 
     ${commemoration}
-
+    ${postCommemoration}
 
     <table id="table_30" title="Doxologies">
         <caption id="caption_table_30" class="caption hidden-caption">Doxologies
@@ -1511,7 +1527,6 @@ return `
         </tr>
 
     </table>
-${postCommemoration}
 ${preFourthCanticle}
 ${fourthCanticle}
 ${postFourthCanticle}

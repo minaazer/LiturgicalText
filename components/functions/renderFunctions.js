@@ -13,7 +13,11 @@ export const handleMessage = (
   setFirstTable,
   setPopupVisible,
   setPopupData,
-  explanationsData
+  explanationsData,
+  setImagePopupVisible,
+  setImageUri,
+  imagesData
+  
 ) => {
   try {
     const message = JSON.parse(event.nativeEvent.data);
@@ -76,7 +80,7 @@ export const handleMessage = (
       },
       POPUP: () => {
         try {
-    
+            console.log("POPUP message received:", message.data);
             if (!message.data) {
                 console.error("No message content found in POPUP data.");
                 return;
@@ -87,11 +91,34 @@ export const handleMessage = (
             
 
             if (explanation) {
-              setPopupData({
-                title: explanation.title,
-                sections: explanation.text,
-              });
+              setPopupData(explanation);
               setPopupVisible(true);
+              setImagePopupVisible(false);
+            } else {
+              console.error("Explanation not found for title:", hymnTitle)
+            }
+
+            setPopupVisible(true);
+        } catch (error) {
+            console.error("Failed to handle POPUP message:", error, message.data);
+        }
+      },
+      IMAGEPOPUP: () => {
+        try {
+            console.log("POPUP message received:", message.data);
+            if (!message.data) {
+                console.error("No message content found in POPUP data.");
+                return;
+            }
+    
+            const hymnTitle = message.data; // The title of the hymn is sent.
+            const image = imagesData.find(exp => exp.title === hymnTitle);
+            
+
+            if (image) {
+              setImageUri(image.uri);
+              setImagePopupVisible(true);
+              setPopupVisible(false);
             } else {
               console.error("Explanation not found for title:", hymnTitle)
             }
@@ -106,10 +133,20 @@ export const handleMessage = (
         setLoading(message.data);
       },
       NAVIGATION: () => {
+        console.log('Message data:', message);
         const parsedData = typeof message.data === 'string' ? JSON.parse(message.data) : message.data;
+        console.log('Parsed data:', parsedData);
         if (parsedData.destination) {
+          console.log ('Parsed data destination:', parsedData.serviceName, parsedData.hourName);
             // Correctly navigate to the destination and pass `source` as a parameter
             navigation.navigate(parsedData.destination , { source: parsedData.source });
+        } else if ('screen' in parsedData) {
+          console.log ('Parsed data screen:', parsedData.serviceName, parsedData.hourName, parsedData.screen);
+          //navigation.navigate(parsedData.screen, { serviceName: parsedData.serviceName, hourName: parsedData.hourName });
+          navigation.navigate(`${parsedData.serviceName.replace(/\s+/g, "-")}-${parsedData.hourName.replace(/\s+/g, "-")}`, {
+            serviceName: parsedData.serviceName,
+            hourName: parsedData.hourName,
+        })
         } else {
             navigation.navigate(message.data);
         }

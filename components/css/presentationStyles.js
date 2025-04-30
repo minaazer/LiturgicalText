@@ -8,7 +8,7 @@ const screenWidth = Dimensions.get("window").width;
 const screenHeight = Dimensions.get("window").height;
 const isIpad = Platform.OS === "ios" && Platform.isPad;
 const isIphone = Platform.OS === "ios" && !Platform.isPad;
-const isPortrait = screenHeight > screenWidth;
+const isPortrait = screenWidth < screenHeight;
 const isTablet = screenWidth >= 600;
 const isComputer = screenWidth >= 1000;
 const languageWidth = isComputer ? "30%" : isTablet ? "45%" : "90%";
@@ -161,6 +161,13 @@ export const presentationStyles = StyleSheet.create({
     paddingVertical: 0,
     paddingHorizontal: 0,
   },
+  drawerTouchableOpacity: {
+    marginVertical: 5,
+    marginHorizontal: "5%",
+    paddingVertical: 10,
+    paddingHorizontal: 0,
+    backgroundColor: "transparent",
+  },
   drawerLineBreak: {
     height: 1,
     width: "90%",
@@ -274,7 +281,7 @@ export const presentationStyles = StyleSheet.create({
     marginBottom: 30,
     flexDirection: "column",
     justifyContent: "flex-start",
-    alignItems: "flex-start",
+    alignItems: isPortrait ? "center" : "flex-start",
     alignContent: "center",
     flexWrap: "wrap",
   },

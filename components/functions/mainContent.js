@@ -7,6 +7,8 @@ import { useNavigation, useIsFocused } from '@react-navigation/native';
 import localStorage from './localStorage';
 import {ExplanationPopup} from '../reusableComponents/explanationPopup';
 import explanationsData from '../../data/explanations.json'; // Import the data
+import imagesData from '../../data/images.json'; // Import the images data
+import { ImagePopup } from '../reusableComponents/imagePopup'; // Import the ImagePopup component
 
 
 
@@ -24,6 +26,8 @@ export const MainContent = ({ html, webviewRef, setDrawerItems, setCurrentTable,
     const [refreshing, setRefreshing] = useState(false); // Use state to track refreshing state
     const [popupVisible, setPopupVisible] = useState(false);
     const [popupData, setPopupData] = useState({ title: '', text: '' });
+    const [imagePopupVisible, setImagePopupVisible] = useState(false);
+    const [imageUri, setImageUri] = useState('');
   
 
     const screenWidth = Dimensions.get('window').width;
@@ -167,7 +171,10 @@ useEffect(() => {
                         setFirstTable,
                         setPopupVisible, // Pass visibility setter
                         setPopupData, // Pass data setter                  
-                        explanationsData // Pass the data
+                        explanationsData, // Pass the data
+                        setImagePopupVisible, // Pass image popup
+                        setImageUri, // Pass image URI setter
+                        imagesData, // Pass the images data
                     );
                 }
             }}
@@ -178,12 +185,23 @@ useEffect(() => {
 
         <ExplanationPopup
             visible={popupVisible}
-            title={popupData.title}
-            sections={popupData.sections || []} // Pass the array of sections
-            onClose={() => setPopupVisible(false)}
+            popupData={popupData}
+            onClose={() => {
+                setPopupVisible(false);
+                setImagePopupVisible(false); // Just in case
+            }}
             />
+        <ImagePopup
+            visible={imagePopupVisible}
+            imageUri={imageUri}
+            onClose={() => {
+                setImagePopupVisible(false);
+                setPopupVisible(false); // Just in case
+              }}
+        />
 
         </View>
+        
 
     );
 };

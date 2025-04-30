@@ -1,11 +1,12 @@
 import { getDoxologyHtml } from './doxologyTexts';
 import { getSeasonalDoxologyHtml, seasonalDoxologyFunctionNames } from './seasonal/seasonalDoxologyTexts';
 import { getAdamDoxologiesConclusion } from './midnightPsalmody/annual';
+import { get } from 'react-native/Libraries/TurboModule/TurboModuleRegistry';
 
 export const doxologiesHtml = (settings , source) => {
     // Deep copy of doxologyFunctionNames to avoid modifying the original array
     const doxologyFunctionNames = settings.doxologyFunctionNames.map(doxology => ({ ...doxology }));
-
+    console.log('source', source);
     const adam = settings.selectedDateProperties.adamOrWatos === "Adam";
     const adamDoxologiesConclusion = source === "midnightPraises" && adam ? getAdamDoxologiesConclusion(100) : '';
     // Get the selected date properties
@@ -13,7 +14,7 @@ export const doxologiesHtml = (settings , source) => {
     const saintFeasts = settings.selectedDateProperties.saintFeast;
 
     // Get the introductory doxology
-    const introductionHtml = '';
+    const introductionHtml = (source === "vespers" || source === "matins") ? getDoxologyHtml('doxologiesInro', 0) : '';
 
     // Deep copy of seasonalDoxologyFunctionNames
     const matchingSeasonsFunctionNames = seasonalDoxologyFunctionNames.map(doxology => ({ ...doxology }));
@@ -83,14 +84,19 @@ export const doxologiesHtml = (settings , source) => {
         .flat();
 
     const doxologiesHtml = visibleDoxologies
-        .map((doxologyName, index) => getDoxologyHtml(doxologyName, index + 20))
+        .map((doxologyName, index) => getDoxologyHtml(doxologyName, index + 30))
         .join('');
+
+    const stMaryDoxologyHtml = source === "midnightPraises" ? getDoxologyHtml('midnightDoxology', 20) : 
+        (source === "vespers" ? getDoxologyHtml('vespersDoxology', 20) : 
+        getDoxologyHtml('matinsDoxology', 20));
 
     // Combine all parts into the final HTML
     return `
         <div class="section" id="section_1">
             ${introductionHtml}
             ${seasonalDoxologiesHtml}
+            ${stMaryDoxologyHtml}
             ${doxologiesHtml}
             ${adamDoxologiesConclusion}
         </div>

@@ -76,12 +76,23 @@ function handleTouchNavigation(event) {
           buttonClicked = true;
           return; // Stop further processing
         }
-
-        if (currentElement.classList.contains("caption")) {
-          listenToTableCaption(currentElement);
+        
+        if (currentElement.classList.contains("image-button")) {
+          listenToImagePopupButtonClicks(currentElement);
           buttonClicked = true;
           return; // Stop further processing
         }
+
+       if (
+          currentElement.classList.contains("caption") &&
+          pageX <= 150 &&
+          Math.abs(touchStartY - pageY) < 15 // no vertical drag
+        ) {
+          listenToTableCaption(currentElement);
+          buttonClicked = true;
+          return;
+        }
+
 
         if (
           currentElement.classList.contains("navigationButton") ||
@@ -302,6 +313,8 @@ const extractTableTitlesAndIds =
 
             tables.forEach((table, index) => {
                 const caption = table.querySelector('caption');
+                const nonTraditionalPascha = table.getAttribute('nonTraditionalPascha') || false;
+                
 
                 const title = { english: '', coptic: '', arabic: '', order: [] }; // Initialize English, Coptic, and Arabic as empty strings
                 if (caption) {
@@ -331,7 +344,7 @@ const extractTableTitlesAndIds =
                     title.coptic.trim() !== '' ||
                     title.arabic.trim() !== ''
                 ) {
-                    titlesAndIds.push({ title, id });
+                    titlesAndIds.push({ title, id, nonTraditionalPascha });
                 }
             });
 
@@ -555,6 +568,9 @@ const paginateTables =
 
           ////// check if table is class = onePage
           const tableClass = table.getAttribute("class");
+          if (table.classList.contains('table-invisible')) {
+            debugMessage('table-invisible class found');
+          }
 
           if (tableClass && tableClass === "onePage" && (table.clientHeight + currentPageHeight) >= viewportHeight) {
             // check if current page height play table height > viewport height
@@ -813,15 +829,10 @@ const paginateTables =
 
     function findNextElementOrParentSibling(element) {
 
-        //sendMessage(JSON.stringify({type: 'debug', data: 'Element id at beginning of FUNCTION: '+ element.id}));
         // Start by finding the next sibling of the given element
         let nextElement = element.nextElementSibling;
         const visitedElements = new Set();
-        if (nextElement) {
-        //sendMessage(JSON.stringify({type: 'debug', data: 'NEXT element at beginning of FUNCTION: '+ nextElement.id}));
-        } else {
-         //sendMessage(JSON.stringify({type: 'debug', data: 'NO NEXT element at beginning of FUNCTION: '+ element.id}));
-        }
+        
         // If no next sibling is found, move to the parent and find its next sibling
         while (!nextElement && element.parentElement) {
           // Add the current element to the set of visited elements
@@ -842,11 +853,7 @@ const paginateTables =
             break;
           }
         }
-        if (nextElement) {
-          //sendMessage(JSON.stringify({type: 'debug', data: 'RETURNING next element at end of FUNCTION: '+ nextElement.id}));
-          } else {
-          //sendMessage(JSON.stringify({type: 'debug', data: 'NO next element at end of FUNCTION ' + ' parent element: '+ element.id}));
-          }
+        
         return nextElement;
       }
 
@@ -858,52 +865,30 @@ const paginateTables =
 
       // Get element class type (e.g., row, table, section)
       let elementType = element.tagName ? element.tagName.toLowerCase().trim() : "";
-      //sendMessage(JSON.stringify({type: 'debug', data: 'Element type: '+ elementType + ' element id: '+ element.id}));
+      
       // Declare variables in a broader scope
       let nextElementInClass;
       let nextElementInClassId;
-      //let remainderPageHeight = viewportHeight;
-      //sendMessage(JSON.stringify({type: 'debug', data: 'Element type Before IF: '+ elementType + ' element id: '+ element.id}));
-
+      
       if ( elementType === "tr" || elementType === "caption") {
-        //sendMessage(JSON.stringify({type: 'debug', data: 'IN tr caption IF element id: '+ element.id + ' element type: '+ elementType}));
-
         // Find the closest table ancestor
         let parentTable = element.closest('table');
         let parentTableClass = parentTable.getAttribute("class");
         
-        //if (parentTable && parentTableClass === "onePage") {
-          //remainderPageHeight -= parentTable.clientHeight;
-        //} else {
-          //remainderPageHeight -= currentPageHeight;  
-        //}
-          //sendMessage(JSON.stringify({type: 'debug', data: 'currentPage: '+ JSON.stringify(currentPage) }));
-
+        
         if (parentTable) {
           // Use the function to find the next sibling or the parent's next sibling
           nextElementInClass = findNextElementOrParentSibling(parentTable);
           nextElementInClassId = nextElementInClass ? nextElementInClass.id : "";
-          //sendMessage(JSON.stringify({type: 'debug', data: 'Next element id before height while: '+ nextElementInClassId + ' remainderPageHeight: '+ remainderPageHeight}));
-          //sendMessage(JSON.stringify({type: 'debug', data: 'current page height: '+ currentPageHeight}));
           // check if the elementHeight + remainderPageHeight is less than viewport height
           
-          while (nextElementInClass && currentPage.includes(nextElementInClass.id)) {
-
-            //sendMessage(JSON.stringify({type: 'debug', data: 'Next element id in height while: '+ nextElementInClassId}));
-            
-            //remainderPageHeight -= nextElementInClass.clientHeight;
-            
+          while (nextElementInClass && currentPage.includes(nextElementInClass.id)) {    
             const classAttribute = nextElementInClass.getAttribute("class");
             nextElementInClassClass = classAttribute ? classAttribute.toLowerCase() : "";
-            //sendMessage(JSON.stringify({type: 'debug', data: 'next element class CLASS in while: '+ nextElementInClassClass}));
             if (nextElementInClass === "section") {
               sectionsDisplayed.push(nextElementInClass.id);
-            }
-              
-            //sendMessage(JSON.stringify({type: 'debug', data: 'next element id in while: AFTER IF:  '+ nextElementInClassId}));
+            }              
             const previousElement = nextElementInClass;
-            
-            //sendMessage(JSON.stringify({type: 'debug', data: 'previous element id: '+ previousElement.id + ' next element id: '+ nextElementInClassId}));
             
             nextElementInClass = findNextElementOrParentSibling(nextElementInClass);
               
@@ -926,13 +911,7 @@ const paginateTables =
         nextElementInClassId = nextElementInClass ? nextElementInClass.id : "";
 
       }
-      if (nextElementInClass) {
-        //sendMessage(JSON.stringify({type: 'debug', data: 'END next element id: '+ nextElementInClassId}));
-      } else {
-        //sendMessage(JSON.stringify({type: 'debug', data: 'END NO next element'}));
-      }
       // Safely log the next element's ID
-      //sendMessage(JSON.stringify({type: 'debug', data: 'end of remainder for element id: '+ element.id}));
       pages.push({
         currentPage: currentPage[0],
         pagesPerRow: pagesPerRow[pagesPerRow.length - 1],
@@ -940,6 +919,7 @@ const paginateTables =
         test: 'remainder for element',
         firstVisibleElementId: nextElementInClassId,
       });
+      pagesPerRow.push(1);
       currentPage = [];
       currentPageHeight = 0;
     }
@@ -1138,8 +1118,15 @@ const adjustOverlay =
     parentElement = document.getElementById('table_' + tableId);
 
     parentElement.style.visibility = 'hidden';
-
-  } else {
+    } else if (element && element.classList.contains('section')) {
+     element.style.visibility = 'hidden';
+     // get next section
+      var nextElement = element.nextElementSibling;
+      if (nextElement) {
+        nextElement.style.visibility = 'hidden';
+      }
+  
+    } else {
   // set element to invisible
   element.style.visibility = 'hidden';
   }
@@ -1394,14 +1381,23 @@ const tableToggle =
           const isHidden = tbody.style.display === 'none';
           tbody.style.display = isHidden ? 'table-row-group' : 'none';
           captionElement.classList.toggle('table-invisible', !isHidden); // Use the passed captionElement
+          table.classList.toggle('table-invisible', !isHidden);
           currentFileStates[tableId] = isHidden;
           savedStates[fileKey] = currentFileStates;
           sendMessage(JSON.stringify({ type: 'setStoredItem', data: { key: 'tableStates', value: savedStates } }));
 
-          if (table.classList.contains('continued')) {
-            const nextTableId = tableId + '.5';
-            const nextTable = document.getElementById(nextTableId);
+          if (table.classList.contains('continued') || table.classList.contains('continuedUpOne')) {
+            let nextTableId;  
+            if (table.classList.contains('continued')) {
+              nextTableId = tableId + '.5';
+            } else if (table.classList.contains('continuedUpOne')) {
+              let parts = tableId.split("_"); // Split at "_"
+              let number = parseInt(parts[1], 10) + 1; 
+              nextTableId = "table_"+ number;
+            }
 
+            const nextTable = document.getElementById(nextTableId);
+            nextTable.classList.toggle('table-invisible', !isHidden);
             if (nextTable) {
               const nextTableBodies = nextTable.getElementsByTagName('tbody');
               Array.from(nextTableBodies).forEach(nextTbody => {
@@ -1431,20 +1427,22 @@ async function loadStoredSettings(currentFileStates) {
     return new Promise((resolve, reject) => {
         try {
             const tableCaptions = document.querySelectorAll('.caption');
+            const tables = document.querySelectorAll('table');
 
             // Apply the saved state to captions
             Object.entries(currentFileStates).forEach(([tableId, isVisible]) => {
                 const caption = document.getElementById('caption_' + tableId);
+                const table = document.getElementById(tableId);
+                if (table) {
+                    table.classList.toggle('table-invisible', !isVisible);
+                }
                 if (caption) {
                     caption.classList.toggle('table-invisible', !isVisible);
                 }
             });
-
-            // Check all captions for the 'table-invisible' class and hide their tbodies
-            tableCaptions.forEach(caption => {
-                const tableId = caption.id.replace('caption_', '');
-                const table = document.getElementById(tableId);
-                if (caption.classList.contains('table-invisible') && table) {
+            //
+            tables.forEach(table => {
+                if (table && table.classList.contains('table-invisible')) {
                     const tableBodies = table.getElementsByTagName('tbody');
                     Array.from(tableBodies).forEach(tbody => {
                         tbody.style.display = 'none';
@@ -1457,6 +1455,7 @@ async function loadStoredSettings(currentFileStates) {
                 }
             });
 
+            
             // Resolve the promise after the operation is complete
             resolve();
         } catch (error) {
@@ -1481,6 +1480,16 @@ function listenToPopupButtonClicks(buttonElement) {
 
   try {
     sendMessage(JSON.stringify({ type: 'POPUP', data: buttonId }));
+  } catch (error) {
+    console.error("Invalid JSON format in data-message:", error);
+  }
+}
+
+function listenToImagePopupButtonClicks(buttonElement) { 
+  const buttonId = buttonElement.dataset.message; // Get the 'message' attribute
+
+  try {
+    sendMessage(JSON.stringify({ type: 'IMAGEPOPUP', data: buttonId }));
   } catch (error) {
     console.error("Invalid JSON format in data-message:", error);
   }

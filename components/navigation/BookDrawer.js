@@ -187,9 +187,13 @@ const RightDrawerContent = React.forwardRef(
                           return (
                             <Text
                               key="english"
-                              style={[presentationStyles.englishTitle, textStyle]}
+                              style={[
+                                presentationStyles.englishTitle,
+                                textStyle,
+                                item.nonTraditionalPascha && { fontFamily: 'Georgia Italic'}
+                              ]}                              
                             >
-                              {item.title.english}
+                              {item.nonTraditionalPascha ? `• ${item.title.english}` : item.title.english}
                             </Text>
                           );
                         } else if (lang === "coptic" && item.title.coptic) {
@@ -205,7 +209,12 @@ const RightDrawerContent = React.forwardRef(
                           return (
                             <Text
                               key="arabic"
-                              style={[presentationStyles.englishTitle, textStyle]}
+                              style={[
+                                presentationStyles.englishTitle,
+                                textStyle,
+                                item.nonTraditionalPascha && { fontFamily: 'Georgia Italic' }
+                              ]}
+                              
                             >
                               {item.title.arabic.replace(/<br>/g, "")}
                             </Text>

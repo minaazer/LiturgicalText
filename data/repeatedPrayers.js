@@ -1100,6 +1100,16 @@ const book =
     filter: invert(100%) brightness(1000%) contrast(200%);
   "
 >`;
+const musicalNote = 
+`<img 
+  src="https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/musical_note.png" 
+  alt="+" 
+  style="
+    width: ${iconWidth}; 
+    height: auto; 
+    filter: invert(100%) brightness(1000%) contrast(200%);
+  "
+>`;
 
 export {
   hourIntro,
@@ -1122,6 +1132,7 @@ export {
   arrowUp,
   skip,
   book,
+  musicalNote
 };
 
 // Path: data/holyWeek/repeatedPrayers.js

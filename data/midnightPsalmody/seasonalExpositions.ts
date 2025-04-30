@@ -84,6 +84,31 @@ const firstCanticleExposition = {
             </tbody>
         </table>`;
         return html;
+    },
+    Theophany(tableNumber) {
+        const html = `
+        <table id="table_${tableNumber}" style="display: table;" title="Feast of Theophany Adam Exposition After First Canticle">
+            <caption id="caption_table_${tableNumber}" class="caption">Feast of Theophany Adam Exposition After First Canticle
+                <span class="arabic-caption">طرح آدام بعد الهوس الأول في عيد الغطاس</span>
+            </caption>
+            <tbody>
+                <tr id="table_${tableNumber}_row_0" class="north">
+                    <td class="english">The word of God, came to John, the son of Zacharias, in the wilderness saying:</td>
+                    <td class="coptic">Ⲟⲩⲥⲁϫⲓ ⲛ̀ⲧⲉ Ⲡⲟ̅ⲥ̅: ⲁϥϣⲱⲡⲓ ϣⲁ Ⲓⲱⲁⲛⲛⲏⲥ: ⲡ̀ϣⲏⲣⲓ ⲛ̀Ⲍⲁⲭⲁⲣⲓⲁⲥ: ⲉ̀ⲃⲟⲗϩⲓ ⲡ̀ϣⲁϥⲉ.</td>
+                    <td class="arabic">وأن كلمة الرب صارت إلى يوحنا ابن زكريا في البرية قائلاً:</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_1" class="north">
+                    <td class="english">“Arise and go to, the Jordan, to baptize, with water of repentance;</td>
+                    <td class="coptic">Ϫⲉ ⲧⲱⲛⲕ ⲙⲁϣⲉⲛⲁⲕ: ⲉ̀ϫⲉⲛ ⲡⲓⲒⲟⲣⲇⲁⲛⲏⲥ: ⲛ̀ⲧⲉⲕϯⲱⲙⲥ ⲙ̀ⲙⲁⲩ: ϧⲉⲛ ⲟ̀ⲩⲙⲱⲟ̀ⲩ ⲙ̀ⲙⲉⲧⲁⲛⲟⲓⲁ.</td>
+                    <td class="arabic">قم أمض إلى الأردن لتعمد هناك بماء للتوبة،</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_2" class="north">
+                    <td class="english">And when you baptize there, confirm to the people that, ‘There comes One after me who is mightier than I,’ for the Lord is coming to be baptized in the Jordan and the uplifting of the sins of the world according to His great mercy.” In those days, the great John the Baptist came preaching of Christ in the wilderness of Judah saying, “Repent, for the kingdom of God has come upon you.” Tell me! Who are you, who dwells in the wilderness? You are the pure prophet of the High One. For you have appeared in this manner to preach to everyone, “There comes One after me who is mightier than I (Mark 1:7). I am the one who comes before Immanuel according to the saying of Isaiah the prophet, ‘Behold, I send My messenger before Your face, who will prepare Your way before You’ (Malachi 3:1). For this reason I teach the word of the Lord that you may grow fruitful in repentance.” Are you Elijah or the Prophet? Perhaps you are the Christ who is coming to the world for you have appeared in this manner to baptize the people for repentance in the Jordan River?! “I am not the Christ or Elijah or the Prophet as you think. I came to baptize with water and to call everyone for repentance. I am the voice of one crying in the wilderness: ‘Prepare the way of the Lord; Make His paths straight.’ No one accepted Him to test Him. “His winnowing fan is in His hand, and He will thoroughly clean out His threshing floor, and gather the wheat into His barn’ (Luke 3:17).” He proclaims in a great voice; I mean forerunner, the faithful announcer. He said: “Prepare the way of the Lord; Make His paths straight for He have come to save the lost sheep for behold, the Lamb of God who takes away the sins of the world. He revives us all with His Holy Spirit. Come to the Jordan to see me baptize; I am not worthy to baptize You O Immanuel for You are my Lord and I was not given the authority to baptize You. I am not worthy for I am Your servant. The sea trembled and fled and the Jordan feared and turned away backwards. How can I not fear and the Lord of everyone is approaching to me?! I am in need of the baptism of Your divine hands; let us ask God the Lover of Mankind that we may become worthy of His holy baptism through the intercession of Saint John the Baptist, O Lord forgive us our sins. Amen.</td>
+                    <td class="arabic">وإذا عمدت الجموع فأشهد لهم أن الذي يأتي بعدي هو أقوى منى، لأن الرب آتي يعتمد من الأردن ورفع خطايا العالم كعظيم رحمته. وفي تلك الأيام جاء يوحنا العظيم المعمدان يبشر بالمسيح في برية يهوذا ويصرخ قائلاً، توبوا فقد قربت منكم ملكوت السموات. من أنت عرفني يا من في البرية. النبي الطاهر الذي للعلي. لأنك ظهرت هكذا تبشر كل أحد. أن الذي ياتي بعدي هو أقوى منى. انا هو الآتي قبل عمانوئيل كقول أشعياء عظيم الأنبياء ها أنا ذا مرسل ملاكي قدامك ليهيئ طريقك. من أجل هذا أنا أعلم بكلمة الرب أن تصنعوا ثمرة تنمو للتوبة. أنت هو إيليا أو النبي. لعلك أنت هو المسيح الاتي إلى العالم لأنك ظهرت هكذا على النهر تعمد الجموع للتوبة، لست أنا المسيح ولا إيليا ولا النبي كما تفكرون. لكنني أنا أتيت لأعمد بالماء. أدعوا كل واحد للتوبة. أنا هو الصوت الصارخ في البرية. أعدوا طريق الرب وسهلوا سبله. ولا يقبل غليه أحد لكي يجربه. لأن رفشه بيده ينقي جرته ويجمع قمحه في مخزنه. يصرخ جيداً بصوت عظيم. أعني السابق المنادي الصادق. قال أعدوا طريق الرب وسهلوا سبله لأنه أقبل يخلص الخراف الضالة. ها هوذا حمل الله الذي يحمل خطايا العالم. هو يحيينا كلنا بروحه القدوس. اخرجوا إلى الأردن لكي تنظروني أعمد. لست أنا مستحقاً أن أعمدك يا عمانوئيل لأنك أنت ربي من أين لي أنا أن أعمدك ولست مستحقاً لأني أنا عبدك البحر رأي فهرب. وخاف الأردن فرجع إلى الخلف. كيف لا أخاف أنا ورب الكل مقبل إلى. أنا هو المحتاج أن تعمدني بيدك الإلهية فلنسأل الله محب البشر. فلنستحق عماده المقدس بشفاعة يوحنا المعمدان يا رب أغفر لنا خطايانا آمين.</td>
+                </tr>
+            </tbody>
+        </table>`;
+        return html;
     }
 };
 const secondCanticleExposition = {
@@ -157,6 +182,31 @@ const secondCanticleExposition = {
             </tbody>
         </table>`;
         return html;
+    },
+    Theophany(tableNumber) {
+        const html = `
+        <table id="table_${tableNumber}" style="display: table;" title="Feast of Theophany Adam Exposition After Second Canticle">
+            <caption id="caption_table_${tableNumber}" class="caption">Feast of Theophany Adam Exposition After Second Canticle
+                <span class="arabic-caption">طرح آدام بعد الهوس الثاني في عيد الغطاس</span>
+            </caption>
+            <tbody>
+                <tr id="table_${tableNumber}_row_0" class="north">
+                    <td class="english">Come all from the corners of the earth, to walk in Spirit, to the land of Israel,</td>
+                    <td class="coptic">Ⲁⲙⲱⲓⲛⲓ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲁⲩⲣⲏϫϥ: ⲛ̀ⲧⲉ ⲡ̀ⲕⲁϩⲓ ⲧⲏⲣϥ: ⲛ̀ⲧⲉⲛϣⲉⲛⲁⲛ ϧⲉⲛ ⲡⲓⲠ̀ⲛⲉⲩⲙⲁ: ⲉ̀ⲡ̀ⲕⲁϩⲓ ⲙ̀ⲡⲒⲥⲣⲁⲏ̀ⲗ.</td>
+                    <td class="arabic">تعالوا يا جميع أقطار الأرض. لنمضي بالروح إلى أرض إسرائيل،</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_1" class="north">
+                    <td class="english">To walk with Jesus, when He is departing to the Jordan, to be baptized, by John.</td>
+                    <td class="coptic">Ⲛ̀ⲧⲉⲛⲙⲟϣⲓ ⲛⲉⲙ Ⲓⲏ̅ⲥ̅: ⲉϥⲛⲏⲟⲩ ⲉ̀ⲡⲓⲒⲟⲣⲇⲁⲛⲏⲥ: ⲉⲑⲣⲉϥϭⲓ ⲙ̀ⲡⲓⲱⲙⲥ: ⲉ̀ⲃⲟⲗϩⲓⲧⲉⲛ Ⲓⲱⲁⲛⲛⲏⲛ.</td>
+                    <td class="arabic">لنمشي مع يسوع وهو مقبل إلى الأردن. ليعتمد من يوحنا.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_2" class="north">
+                    <td class="english">And hear the voice of the Father saying, “This is My beloved Son, in whom I am well pleased.” Take of the old man and put on the new man. Come to the Jordan to be granted purity through the holy baptism. For the Scripture informs us that without purity no one can see God. Let us be immersed in the holy water of the Jordan and He will purify us. David proclaims and prophesies about the Coming of Christ to the Jordan saying, “The voice of the Lord is over the waters; The God of glory thunders” (Psalm 29:3). When the Lord went to the Jordan from Nazareth to be baptized from him, the saying of the prophet was fulfilled, “Behold! My Servant and My Beloved in whom I am well pleased!” (Matthew 12:18). Zebulun, Naphtali, Galilee, and those who are in darkness and the shadow of death; a Light shone upon them who is Jesus Christ in the Jordan to be baptized by him, to whom the glory forever. Amen.</td>
+                    <td class="arabic">ونسمع صوت الأب قائلاً هذا هو ابني الحبيب الذي به سررت. اخلعوا الإنسان العتيق والبسوا الإنسان الجديد. اخرجوا إلى الأردن لتناولا التطهير بالعماد المقدس. لأن الكتب تشهد لنا انه بغير الطهارة لا يعاين أحد الله. لنغطس في الماء المقدس الذي للأردن وهو يطهرنا. داود يصرخ ويتنبأ من أجل مجيء المسيح إلى الأردن قائلاً. صوت الرب على المياه. إله المجد أرعد. ولما جاء الرب من الناصرة إلى الأردن ليعتمد منه . حينئذ كمل قول النبي. ها هوذا فتاى وحبيبي الذي هويته. زبولون ونفتاليم والجليل والجلوس في الظلمة وظلال الموت . أشرق لهم النور الذي هو المسيح يسوع على الأردن ليعتمد منه له المجد دائماً أبدياً أمين.</td>
+                </tr>
+            </tbody>
+        </table>`;
+        return html;
     }
 };
 const thirdCanticleExposition = {
@@ -218,6 +268,31 @@ const thirdCanticleExposition = {
             </tbody>
         </table>`;
         return html;
+    },
+    Theophany(tableNumber) {
+        const html = `
+        <table id="table_${tableNumber}" style="display: table;" title="Feast of Theophany Adam Exposition After Third Canticle">
+            <caption id="caption_table_${tableNumber}" class="caption">Feast of Theophany Adam Exposition After Third Canticle
+                <span class="arabic-caption">طرح آدام بعد الهوس الثالث في عيد الغطاس</span>
+            </caption>
+            <tbody>
+                <tr id="table_${tableNumber}_row_0" class="north">
+                    <td class="english">A great mystery, appeared to You, O John the forerunner, and also Baptist.</td>
+                    <td class="coptic">Ⲟⲩⲛⲓϣϯ ⲙ̀ⲙⲩⲥⲧⲏⲣⲓⲟⲛ: ⲉ̀ⲧⲁϥⲟⲩⲱⲛϩ ⲛⲁⲕ ⲉ̀ⲃⲟⲗ: Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲡ̀ⲣⲟⲇⲣⲟⲙⲟⲥ ⲟⲩⲟϩ ⲡⲓⲣⲉϥϯⲱⲙⲥ ⲉⲩⲥⲟⲡ.</td>
+                    <td class="arabic">ظهر لك سر عظيم يا يوحنا السابق والمعمد معاً.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_1" class="north">
+                    <td class="english">For you held with your hands your Creator and baptized Him like a human.</td>
+                    <td class="coptic">Ϫⲉ ⲁⲕⲁ̀ⲙⲟⲛⲓ ⲛ̀ⲧ̀ϫⲓϫ: ⲙ̀ⲫⲏⲉ̀ⲧⲁϥⲉ̀ⲣⲡ̀ⲗⲁⲍⲓⲛ ⲙ̀ⲙⲟⲕ: ⲁⲕⲱⲙⲥ ⲙ̀ⲙⲟϥ ϧⲉⲛ ⲟⲩⲙⲱⲟⲩ: ⲕⲁⲧⲁ ⲣⲱⲙⲓ ⲛⲓⲃⲉⲛ.</td>
+                    <td class="arabic">لأنك أمسكت بيد الذي جبلك، وعمدته في الماء مثل أحد أفراد الناس.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_2" class="north">
+                    <td class="english">You were also made worthy to behold the Spirit dwelling upon Him as a dove and heard the voice of the Father proclaiming saying, “This is My beloved Son.” Therefore we praise and proclaim with the prophet, “Every flesh sees the salvation of God.” The stiffed-necked people, the children of Israel, did not believe the voice of the good Father who witnessed in a great manner saying, “This is My beloved Son, in whom I am well pleased” (Matthew 3:17). We the nations were made worthy of the true and holy baptism in the name of the holy Trinity. The voice of God witness to John the forerunner; “Among those born of women there is not a greater” (Luke 7:28). He is the perfection of the prophets and he came before our Lord and Savior to prepare the way according to the saying of Isaiah. The tribes and the peoples who were baptized by the forerunner are greatly in joy. For he spoke to them saying, “I baptize you with water for the repentance of the forgiveness of your sins. He who has two tunics, let him give to him who has none; and he who has food, let him do likewise." Therefore let us praise the God who was baptized in the Jordan that He may forgive us our sins and glory be to God forever. Amen.</td>
+                    <td class="arabic">وأيضاً استحققت أن تعاين الروح نازلاً عليه على شكل حمامة. وسمعت صوت الأب يصرخ قائلاً، هذا هو ابني الحبيب. فمن أجل هذا نسبح ونصرخ مع النبي ونقول أن كل ذى جسد ينظر خلاص الله . الشعب الغليظ العنق بنو إسرائيل لم يؤمنوا بصوت الأب الصالح صارخاً. هذا الذي يشهد به بإعلان عظيم قائلاً هذا هو ابني الحبيب الذي به سررت. ونحن الشعوب استحققنا رسم المعمودية المقدسة الحقيقية باسم الثالوث المقدس. فم الله يشهد عن يوحنا السابق. أنه ليس من يشبهه في مواليد النساء. وهو كمال الأنبياء وقد أتي قدام مخلصنا الرب لكي يعد طريقة كقول أشعياء. كثيرة بزيادة تهليل القبائل والشعوب الذين اعتمدوا من السابق. لكنه كان يكلمهم قائلاً . أما أنا فأعمدكم بماء للتوبة لمغفرة خطاياكم . من له ثوبان فليعط من ليس له. ومن له خبز فليصنع أيضاً كذلك. من أجل هذا فلنسبح الإله الذي اعتمد في الأردن ليغفر لنا خطايانا والمجد لله دائماً أبدياً أمين.</td>
+                </tr>
+            </tbody>
+        </table>`;
+        return html;
     }
 };
 const fourthCanticleExposition = {
@@ -257,8 +332,7 @@ const fourthCanticleExposition = {
             </tbody>
         </table>`;
         return html;
-    }
-    ,
+    },
     Nativity(tableNumber) {
         const html = `
         <table id="table_${tableNumber}" style="display: table;" title="Nativity Feast Adam Exposition After Fourth Canticle">
@@ -279,6 +353,58 @@ const fourthCanticleExposition = {
                 <tr id="table_${tableNumber}_row_2" class="north">
                     <td class="english">He has put on our body, which was released from the sin being renewed again, by the unity with Him according to His mercy; That we may praise Him crying out and saying, “Glory be to You O Lover of Mankind for You have come and saved us.” Today, we see in Bethlehem an unutterable mystery; when we see God swaddled in rags, lying down in the animals' manger. We see the shepherds willingly sing, blessing You with spiritual praise. How marvelous is it to see angels mingling with sinners, praising in on voice their Creator saying, “Glory to God in the highest, peace on earth, and goodwill toward men, for He came and saved us according to His mercy.” Today, an unutterable mystery, since eternity, has been revealed. He, who made the heavens by His command, dwelt in the womb of a child virgin and was born of her. We believe in Him without any doubt. Let us worship Him; To whom is the glory now and forever and unto the ages of all ages, Amen.</td>
                     <td class="arabic">الذي عتق من الخطية ليتجدد دفعة أخري. باتحاده به كعظيم رحمته. لكي نسبحه صارخين قائلين. المجد لك يا محب البشر. لأنك أتيت وخلصتنا. أننا نري اليوم في بيت لحم سراً لا ينطق به. عندما ننظر إلى الله ملفوفاً بالخرق. راقداً في مذود البهائم. إنا ننظر إلى الرعاة غير مقصورين على الغناء. بك يباركون ويسبحون روحانياً. من ذا الذي لا يتعجب إذا نظر إلى الملائكة مختلطين مع خطاة الناس يسبحون خالقهم بصوت واحد قائلين المجد لله في الأعالي وعلى الأرض السلام. وفي الناس المسرة. لأنه أتي وخلصنا كعظيم رحمته: ظهر لنا اليوم سر لم ينطق به في الأزمان الخالية منذ الأبد. الذي أقام السمار بأمره. صار في بطن صبية عذراء وولد منها نؤمن به بغير شك. فلنسجد له. له المجد دائماً الآن وكل أوان وإلى دهر الداهرين آمين.</td>
+                </tr>
+            </tbody>
+        </table>`;
+        return html;
+    },
+    Theophany(tableNumber) {
+        const html = `
+        <table id="table_${tableNumber}" style="display: table;" title="Feast of Theophany Adam Exposition After Fourth Canticle">
+            <caption id="caption_table_${tableNumber}" class="caption">Feast of Theophany Adam Exposition After Fourth Canticle
+                <span class="arabic-caption">طرح آدام بعد الهوس الرابع في عيد الغطاس</span>
+            </caption>
+            <tbody>
+                <tr id="table_${tableNumber}_row_0" class="north">
+                    <td class="english">We worship the co-essential Trinity, who appeared to us, upon the Jordan.</td>
+                    <td class="coptic">Ⲧⲉⲛⲟⲩⲱϣⲧ ⲛϯⲦⲣⲓⲁⲥ: ̀ⲛ̀ⲟⲙⲟⲟⲩⲥⲓⲟⲥ: ⲫⲏⲉ̀ⲧⲁⲥⲟⲩⲱⲛϩ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ: ϩⲓϫⲉⲛ Ⲡⲓⲓⲟⲣⲇⲁⲛⲏⲥ.</td>
+                    <td class="arabic">نسجد للثالوث المساوى هذا الذي ظهر لنا على الأردن.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_1" class="north">
+                    <td class="english">We worship the Father, and the Son, and the Holy Spirit, the one divinity.</td>
+                    <td class="coptic">Ⲧⲉⲛϯⲱ̀ⲟⲩ ⲙ̀ⲫ̀Ⲓⲱⲧ: ⲛⲉⲙ Ⲡϣⲏⲣⲓ : ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲥⲩⲙⲁ ⲥ̅ⲱ̅ⲧ̅: ϯⲙⲉⲑⲛⲟⲩϯ ⲛ̀ⲟⲩⲱⲧ</td>
+                    <td class="arabic">نمجد الأب والابن والروح القدس اللاهوت الواحد.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_2" class="north">
+                    <td class="english">All the patience that the prophets had were for you O John. For you have informed us the perfection of all things, saying, “Behold! The Lamb of God the Father.” God, who sits upon the cherubim, came to the Jordan and was baptized in it. He, who decorated the haven with its many stars, became naked and was baptized in water. Hail to the Jordan and let it rejoice; for you were lit by the light of the Trinity who appeared during the dwelling of the Holy Spirit on the Son. From now, all the souls who are baptized in the name of the Holy Trinity were enlightened through the light that was given by our Savior, who also gave the authority to trample upon the power of the enemy. Great Truth is the mystery Your Incarnation and Birth O Jesus my Lord. We ask of You O Lord, purify us from our sins through the baptism of water, and forgive us our sins.</td>
+                    <td class="arabic">كل الصبر الذي صبره الأنبياء هو من أجلك يا يوحنا. لأنك عرفتنا كمال كل الأشياء قلت ها هوذا حمل الله الأب. الله الجالس على الشاروبيم أتي إلى الأردن وتعمد فيه. الذي زين السماء بكثرة النجوم. تعري من ثيابه وتعمد بالماء السلام للأردن وليتهلل لأنك قد أضأت بنور الثالوث الذي ظهر وقت حلول الروح القدس على الابن. ومن الآن كل الأنفس التي تعمدت باسم الثالوث المقدس استنارت بنوره الذي أعطاها أياه مخلصنا مع السلطان لكي تدوس قوة العدو. حق عظيم هو سر تجسدك وتأنسك يا يسوع ربي. ونحن يا رب نطلب إليك طهرنا من خطايانا بحميم الماء. وأغفر لنا خطايانا.</td>
+                </tr>
+            </tbody>
+        </table>`;
+        return html;
+    }
+};
+const postCommemorationExposition = {
+    Theophany(tableNumber) {
+        const html = `
+        <table id="table_${tableNumber}" style="display: table;" title="Feast of Theophany Watos Exposition After The Commemoration">
+            <caption id="caption_table_${tableNumber}" class="caption">Feast of Theophany Watos Exposition After The Commemoration
+                <span class="arabic-caption">طرح واطس بعد المجمع في عيد الغطاس</span>
+            </caption>
+            <tbody>
+                <tr id="table_${tableNumber}_row_0" class="north">
+                    <td class="english">God who sits, upon the cherubim, came to the Jordan, to be baptized in it.</td>
+                    <td class="coptic">Ⲫϯ ⲫⲏⲥⲧϩⲉⲙⲥⲓ: ϩⲓϫⲉⲛ ⲛⲓⲬⲥⲣⲟⲩⲃⲓⲙ: ⲁϥ̀ⲓ ⲉ̀Ⲡⲓⲓⲟⲣⲇⲁⲓⲓⲏ̅ⲥ̅: ⲁϥϭⲓⲱⲙⲥ ⲛ̀ϧⲏⲧϥ</td>
+                    <td class="arabic">الله الجالس على الشاروبيم أتي إلى الأردن وتعمد فيه.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_1" class="north">
+                    <td class="english">God the Father the Pantocrator, THE BEING who were, had compassion upon His likeness, and His creation that He created.</td>
+                    <td class="coptic">Ⲫϯ ⲫ̀Ⲓⲱⲧ ⲡⲓⲡⲁⲛⲧⲟⲕⲣⲁⲧⲱⲣ: ⲫⲏⲉⲧϣⲟⲡ ⲫⲏⲉ̀ⲛⲁϥ̀ϣⲟⲡ: ⲁϥϣⲉⲛϩⲏⲧ ϧⲁⲧⲉϥϩⲩⲕⲱⲛ: ⲛⲉⲙ ⲡⲉϥ̀ⲓ̀ⲓⲗⲁⲥⲙⲁ ⲉ̀ⲧⲁϥⲑⲁⲙⲓⲟϥ</td>
+                    <td class="arabic">الله الآب الضابط الكل الأزلي الذي لم يزل تحنن على صورته وجبلته التي خلقها.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_2" class="north">
+                    <td class="english">And sent His only-begotten who came, was incarnate, became man, came to the Jordan to be baptized by John and saved us from the bondage of the imperious one through the holy baptism. Hail to the joy of the holy wilderness the dwelling place of the Holy Spirit. Hail to the bright lamp, John the forerunner. Hail to the announcer, the caller who is better then all the trumpets and who proclaims with the Spirit and the strength of Elijah. Hail to the perfection and the last of the prophets who comes before the Lord to prepare righteous people to God in Spirit. Let us chant in reverence and glorify God with spiritual praises for He restored us to our first rank. We were sitting in darkness and the shadow of death and He shone upon us through His holy baptism as He is also saying, “Come to Me, all you who labor and are heavy laden, and I will give you rest” (Matthew 11:28). Blessed are they who are baptized in the name of the holy Trinity for their transgressions will be forgiven. For through the washing of the holy baptism we became heirs of the heavenly kingdom. Let us worship the co-essential Trinity, the one God who is forever, who we were made worthy to be granted forgiveness of sins of Him, taking His holy example upon our heads in the holy baptism; to whom the glory forever and ever. Amen, Lord have mercy.</td>
+                    <td class="arabic">وارسل وحيده الذي اتي وتجسد وتأنس وأقبل إلى الأردن واعتمد من يوحنا، وعتقنا من عبودية المتجبر. من قبل رسم المعمودية المقدسة. والسلام لفرح البرية المقدسة محل الروح القدس. السلام للسراج المنير يوحنا السابق. السلام للمنادي المبشر الأفضل من كل الأبواق الصارخ بالروح وبقوة إيليا . السلام لكمال الأنبياء الآتي أمام الرب ليعد شعوباً لله مبررين بالروح. فلنرتل بخشوع ونمجد الله بتسابيح روحانية. لأنه ردنا إلى رئاستنا الأولي. ولأننا كنا جلوساً في الظلمة وظلال الموت. فأضاء علينا من قبل معموديته المقدسة إذ يصرخ قائلاً، اسرعوا تعالوا إلى يا جميع المتعبين والثقيلي الأحمال وأنا أريحكم. طوبي للذين تعمدوا باسم الثالوث المقدس لأنه سوف يغفر زلاتهم. لنه من قبل حميم المعمودية المقدسة صرنا وارثين الملكوت السمائية. فلنسجد للثالوث المساوى الإله الواحد الباقي إلى الأبد هذا الذي قد استحققنا أن ننال منه مغفرة خطايانا بمثاله المقدس هذا الذي نرسم مثاله على جباهنا في المعمودية المقدسة له المجد دائماً إلى الأبد آمين يا رب أرحم.</td>
                 </tr>
             </tbody>
         </table>`;
@@ -482,8 +608,32 @@ const adamPostSaturdayTheotokiaExposition = {
             </tbody>
         </table>`;
         return html;
+    },
+    Theophany(tableNumber) {
+        const html = `
+        <table id="table_${tableNumber}" style="display: table;" title="Feast of Theophany Watos Exposition After The Saturday Theotokia">
+            <caption id="caption_table_${tableNumber}" class="caption">Feast of Theophany Watos Exposition After The Saturday Theotokia
+                <span class="arabic-caption">طرح واطس بعد ثيوطوكية السبت في عيد الغطاس</span>
+            </caption>
+            <tbody>
+                <tr id="table_${tableNumber}_row_0" class="north">
+                    <td class="english">The mountains and the hills, became filled with your voice, O the great caller, John the Baptist.</td>
+                    <td class="coptic">Ⲁ̀ⲛⲓⲧⲱⲟ̀ⲩ ⲛⲉⲙ ⲛⲓϣⲁϥⲉⲩ: ⲙⲟϩ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲧⲉⲕⲥ̀ⲙⲏ: ⲱ̀ ⲡⲓⲛⲓϣϯ ⲛ̀ⲕⲩⲣⲓⲝ: Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲣⲉϥϯⲱⲙⲥ.</td>
+                    <td class="arabic">امتلأت الجبال والآكام من صوتك أيها المنادي يوحنا المعمد.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_1" class="north">
+                    <td class="english">You are exalted more than the patriarchs, You are honored more than the prophets, among those born of women, there is none like you;</td>
+                    <td class="coptic">Ⲕ̀ϭⲟⲥⲓ ⲉ̀ⲛⲓⲡⲁⲧⲣⲓⲁⲣⲭⲏⲥ: ⲕ̀ⲧⲁⲓⲏ̀ⲟⲩⲧ ⲉ̀ⲛⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ϧⲉⲛ ⲛⲓϫⲓⲛⲙⲓⲥⲓ ⲛ̀ⲧⲉ ⲛⲓϩⲓⲟⲙⲓ: ⲙ̀ⲙⲟⲛ ⲫⲏⲉ̀ⲧⲉⲛⲑⲱⲛⲧ ⲉ̀ⲣⲟⲕ.</td>
+                    <td class="arabic">تمجدت على الأباء وتكرمت على الأنبياء . ليس في مواليد النساء من يشبهك،</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_2" class="north">
+                    <td class="english">O master who is a witness and is truthful in his words. Who beheld the glory of God upon the Jordan River, John the Son of Zacharias and the barren woman. The caller in the mountains, the announcer in the deserts, the master and beholder of the mystery of the Logos of the Father when He was in the Jordan River. Come, behold and be amazed by this wondrous act: The only-begotten Logos, the Son of the Father; He is a Lord, He is a God and He is the Son of the High One. Who have the ability to make what His hands have made?! He humbled Himself, completed the virtues and prepared ways for us to live by. He is the pure Master and Lord of purity. He is holy and dwells among the saints. He is the Master of all. He became a Man for the sake of our salvation. Therefore humanity was filled with His grace. He accepted baptism and was baptized. He taught us to learn from the blessed priest. This priest and archpriest witnessed to everyone about the Logos of God, our King Jesus Christ. “He who sent me to baptize me told me: ‘He who you see the Spirit dwell upon is the Lamb of God.’ I have seen and confessed that this is the Son of God through the voice that I heard from the glory of the High One.” This was said by the Baptist, the honored one in humanity, John the Baptist who witnessed to our Savior. He who believes the Son, to him is eternal life. And he who does not believe, the wrath of God will dwell upon him. Come, let us believe in Him that we may be granted goodness and become heirs of eternal life. Intercede for us O John the Baptist, that He may forgive us our sins. Amen.</td>
+                    <td class="arabic">أيها السيد الشاهد الصادق في كلامه. الذي نظر مجد الله على نهر الأردن. يوحنا ابن زكريا ابن العاقر المنادي على الجبال المبشر في البراري أيها السيد الناظر إلى سر كلمة الآب وهو في نهر الأردن . تعالوا أنظروا وتعجبوا من هذا العمل العجيب الذي للوحيد الكلمة ابن الأب هو رب وهو غله وهو ابن العلي. من يقدر على أعمال يديه. اتضع بذاته واكمل الفضائل وأعد سبلاً لكي نسعي فيها. هو السيد الطاهر ورب الطهارة. هو قدوس وكائن في القديسين هو سيد الكافة قد صار إنساناً من اجل خلاصنا من أجل هذا أمتلأت البشرية كلها من نعمته قبل المعمودية واعتمد. وعلمنا ان نتعلم من اجل الكاهن الطوباوى . هذا الكاهن ورئيس الكهنة شهد لكل أحد من أجل كلمة الإله ملكنا يسوع المسيح. أن الذي أرسلني لأعمد هو الذي قال لي. الذي ترى الروح ياتي عليه هو حمل الله. وقد رأيت وشهدت ان هذا هو ابن الله. من أجل الصوت الذي سمعته من مجد العلي. قال المعمداني المكرم في البشرية. الشاهد لمخلصنا يوحنا الصابغ. أن الذي يؤمن بالابن له الحياة الأبدية. ومن لا يؤمن به يحل عليه غضب الله. تعالوا نؤمن به لكي ننال الخيرات ونرث الحياة الدائمة. اشفع فينا أيها الصابغ يوحنا. ليغفر لنا خطايانا آمين.</td>
+                </tr>
+            </tbody>
+        </table>`;
+        return html;
     }
-    ,
 };
 
 const adamPostSundayTheotokiaExposition = {
@@ -523,8 +673,62 @@ const adamPostSundayTheotokiaExposition = {
             </tbody>
         </table>`;
         return html;
+    },
+    Theophany(tableNumber) {
+        const html = `
+        <table id="table_${tableNumber}" style="display: table;" title="Feast of Theophany Adam Exposition After The Sunday Theotokia">
+            <caption id="caption_table_${tableNumber}" class="caption">Feast of Theophany Adam Exposition After The Sunday Theotokia
+                <span class="arabic-caption">طرح ادام بعد ثيوطوكية الأحد في عيد الغطاس</span>
+            </caption>
+            <tbody>
+                <tr id="table_${tableNumber}_row_0" class="north">
+                    <td class="english">It was given to you, O son of the wilderness, to place your hand, on your Lord’s head.</td>
+                    <td class="coptic">Ⲓⲥϫⲉⲛ ⲑⲱⲛ ϣⲁⲑⲱⲛ: ⲱ̀ ⲡⲓⲣⲉⲙⲛ̀ϣⲁϥⲉ: ⲭ̀ⲛⲁⲧⲁⲗⲟ ⲛ̀ⲧⲉⲕϫⲓϫ: ⲉ̀ϫⲉⲛ ⲧ̀ⲁ̀ⲫⲉ ⲙ̀ⲡⲉⲕⲟ̅ⲥ̅.</td>
+                    <td class="arabic">أني لك يا ابن البرية ان تضع يدك على رأس سيدك.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_1" class="north">
+                    <td class="english">You are the voice, calling in the wilderness, prepare the way of the Lord, make straight His ways paths.</td>
+                    <td class="coptic">Ⲛ̀ⲑⲟⲕ ⲡⲉ ϯⲥ̀ⲙⲏ: ⲉⲧⲱϣ ⲉ̀ⲃⲟⲗ ϩⲓⲡ̀ϣⲁϥⲉ: ϫⲉ ⲥⲉⲃⲧⲉ ⲫ̀ⲙⲱⲓⲧ ⲙ̀Ⲡⲟ̅ⲥ̅: ⲥⲟⲩⲧⲱⲛ ⲛⲉϥⲙⲁⲙ̀ⲙⲟϣⲓ.</td>
+                    <td class="arabic">أنت هو الصوت الصارخ في البرية. أعدوا طريق الرب وقوموا سبله.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_2" class="north">
+                    <td class="english">You are the Logos of God the Father who was incarnate for our sake for our salvation. You are John the son of Zacharias the priest, the faithful one of Israel, and He is the Son of God the Pantocrator who created the heavens and all the earth. You baptize everyone with water for the repentance of the forgiveness of sins and He baptizes with the Holy Spirit and fire, which with the winnowing fan in His hand, He purifies His threshing floor. You were born of the elder and barren woman in her old age, promised by the Lord, and He is the one born of the Virgin girl and her virginity is sealed. You are the morning star and you are Elijah who comes as the prophets of the Scripture. You are the rebuker of Herod the king and He is Rebuker of the world for the sake of sin. You were beheaded by Herod and He was crucified for us for the sake of our salvation. You beheld the Spirit dwelling upon Him as a dove; the Father proclaimed in a great voice saying, “This is My beloved Son, in whom I am well pleased” (Matthew 3:17). Intercede for us O John the Baptist, that He may forgive us our sins. Amen.</td>
+                    <td class="arabic">أنت هو كلمة الله الآب الذي تجسد من أجلنا حتى خلصنا . أنت هو يوحنا ابن زكريا الكاهن أمين إسرائيل. وهو المسيح ابن الله ضابط الكل. الذي خلق السموات والأرض كلها. أنت تعمد الجميع بالماء بمعمودية التوبة لغفران الخطايا. وهو يعمد بالروح القدس والنار الذي بيده الرفش يطهر أهراءه انت الذي ولدتك العجوز العاقر في كبرها وعداً من الرب وهو الذي ولدته الفتاة العذراء وبتوليتها لم تنحل. انت هو كوكب الصبح . أنت هو إيليا الآتي كأنباء الكتب أنت هو مبكت هيرودس الملك وهو مبكت العالم من أجل الخطية. أنت الذي أخذ هيرودس رأسك وهو المصلوب عنا لخلاصنا بالحقيقة استحققت نعمة عظيمة أيها المعمد يوحنا السابق لأنك عمدت سيدك في الأردن ووضعت يدك على رأسه. ونظرت الروح نازلاً عليه مثل جسم حمامة. والأب صرخ بصوت عظيم قائلاً هذا هو ابني الحبيب الذي به سررت. اشفع فينا أيها السابق يوحنا المعمداني ليغفر لنا خطايانا آمين.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_3" class="north">
+                    <td class="english">Hail to John, son of Zechariah. Hail to the announcer of Immanuel.</td>
+                    <td class="coptic">Ⲭⲉⲣⲉ Ⲓⲱⲁⲛⲛⲏⲥ: ⲡ̀ϣⲏⲣⲓ ⲛ̀Ⲍⲁⲭⲁⲣⲓⲁⲥ: ⲭⲉⲣⲉ ⲡⲓⲣⲉϥϩⲓⲱⲓϣ: ⲛ̀ⲧⲉ Ⲉⲙⲙⲁⲛⲟⲩⲏⲗ.</td>
+                    <td class="arabic">السلام ليوحنا بن زكريا. السلام للمبشر بعمانوئيل.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_4" class="north">
+                    <td class="english">Hail to the prophet, the son of the barren one. The joy of Jordan, and the praise of the wilderness.</td>
+                    <td class="coptic">Ⲭⲉⲣⲉ ⲛⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲡ̀ϣⲏⲣⲓ ⲛ̀ϯϭⲣⲏⲛ: ⲫ̀ⲣⲁϣⲓ ⲙ̀ⲡⲓⲒⲟⲣⲇⲁⲛⲏⲥ: ⲡ̀ⲑⲉⲗⲏⲗ ⲙ̀ⲡ̀ϣⲁϥⲉ.</td>
+                    <td class="arabic">السلام للنبي ابن العاقر فرح الأردن وتهليل البرية.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_5" class="north">
+                    <td class="english">Hail to the earthly who became heavenly, and came from the cousin of the Virgin Mary. Hail to the baptizer who came to us with the harbor of salvation; the One who is Immanuel. Hail to the virgin dwelling in the wilderness, revealing to people the glory of God.</td>
+                    <td class="arabic">السلام للأرضي الذي صار سمائياً ووجد من نسيبة السيدة العذراء السلام للصابغ الذي أتي لنا بميناء الخلاص الذي أعلم الناس بمجد الله.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_6" class="north">
+                    <td class="english">Hail to the dove that was called upon the mountain. Indeed, the deer leap, and the beasts rejoice. Hail to the one who was worthy to place His hand boldly on the Head of our Savior.</td>
+                    <td class="arabic">السلام للحمامة التي دعاها على الجبل. أن الأيائل تقفز والوحوش تفرح. السلام الذي استحق وتجاسر أن يضع يده على رأس مخلصنا.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_7" class="north">
+                    <td class="english">Hail to the one who witnessed the coming of the Lord manifested in the flesh at the Jordan. Hail to the one who heard the voice of the Father descending from Heaven, bearing witness to the Son.</td>
+                    <td class="arabic">السلام للذي رأي مجيء الرب ظاهراً بالجسد على الأردن السلام الذي سمع صوت الاب نازلاً من السماء شاهداً على الابن .</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_8" class="north">
+                    <td class="english">Hail to the one who saw the Holy Spirit descending upon the Word like a dove, and the voice of the Father crying out from Heaven: ‘This is my beloved Son, in whom I am well pleased.</td>
+                    <td class="arabic">السلام للذي رأي روح القدس نازلاً على الكلمة مثل حمامة وصوت الأب صارخاً من السماء هذا هو ابني الحبيب الذي به سررت.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_9" class="north">
+                    <td class="english">Intercede on our behalf, O forerunner and baptizer, John the Baptist, that the Lord may forgive us our sins. Amen.</td>
+                    <td class="arabic">أشفع فينا أيها السابق الصابغ يوحنا المعمدان ليغفر لنا الرب خطايانا آمين.</td>
+                </tr>
+            </tbody>
+        </table>`;
+        return html;
     }
-    ,
 };
 
 const adamPostMidnightPraiseExposition = {
@@ -635,6 +839,7 @@ function getSeasonalExposition(expositionType, season, tableNumber) {
         SecondCanticle: secondCanticleExposition,
         ThirdCanticle: thirdCanticleExposition,
         FourthCanticle: fourthCanticleExposition,
+        Commemoration: postCommemorationExposition,
         postWatosTheotokia: postWatosTheotokiaExposition,
         postAdamTheotokia: postAdamTheotokiaExposition,
         adamPostSaturdayTheotokia: adamPostSaturdayTheotokiaExposition,

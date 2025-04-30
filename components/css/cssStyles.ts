@@ -342,14 +342,19 @@ td.column-1-1 {
     transform: translateY(-50%); /* Adjust to vertically center the icon */
 }
 
+.explanation-button,
+.image-button {
+  position: absolute;
+  top: 10px;
+  cursor: pointer;
+  pointer-events: auto;
+  z-index: 9999;
+}
 .explanation-button {
-    position: absolute; /* Ensure icon is positioned absolutely */
-    right: 10; /* Align icon to the leftmost side of the screen */
-    top: 50%; /* Vertically center the icon */
-    transform: translateY(-50%); /* Adjust to vertically center the icon */
-    cursor: pointer;
-    pointer-events: auto;
-    z-index: 9999;
+  right: 10px;
+}
+.image-button {
+  right: 60px; /* or however much space you want between them */
 }
 
 .caption.table-invisible::before {

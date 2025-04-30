@@ -11,6 +11,9 @@ async function loadFonts() {
     'Garamond Bold': require('../../assets/fonts/GARABD.ttf'),
     'ArialCoptic': require('../../assets/fonts/ArialCoptic.ttf'),
     'EB Garamond': require('../../assets/fonts/EBGaramond.ttf'),
+    'Gerogia': require('../../assets/fonts/gerogia.ttf'),
+    'Georgia Bold': require('../../assets/fonts/gerogiab.ttf'),
+    'Georgia Italic': require('../../assets/fonts/gerogiai.ttf'),
   });
 }
 

@@ -130,14 +130,13 @@ const sundayPsalis = {
             </tbody>
         </table>`;
         return html;
-    }
-    ,
+    },
     Nativity(tableNumber) {
         const html = `
         <table id="table_${tableNumber}" style="display: table;" title="Nativity Psali Adam For Sunday">
             <caption id="caption_table_${tableNumber}" class="caption">Nativity Psali Adam For Sunday
                 <span class="coptic-caption">Ⲁ̀ Ⲫϯ ⲡⲓⲛⲁⲏⲧ</span>
-                <span class="arabic-caption">إبصاليه ادآم ليوم الأحد في برامون الميلاد</span>
+                <span class="arabic-caption">إبصاليه ادآم ليوم الأحد في عيد الميلاد</span>
             </caption>
             <tbody>
                 <tr id="table_${tableNumber}_row_0" class="north">
@@ -259,6 +258,138 @@ const sundayPsalis = {
                     <td class="english">O Shepherd / and good Savior / with incessant hymns / we praise You.</td>
                     <td class="coptic">Ⲱ̀ ⲡⲓⲙⲁⲛⲉ̀ⲥⲱⲟⲩ: ⲛ̀ⲣⲉϥⲛⲟϩⲉⲙ ⲛ̀ⲕⲁⲗⲱⲥ: ϧⲉⲛ ϩⲁⲛϩⲱⲇⲏ ⲛ̀ⲉ̀ⲥⲱⲟⲩ: ⲉⲛϩⲱⲥ ⲛⲁⲕ ⲁⲥ ⲫⲁⲗⲱⲥ.</td>
                     <td class="arabic">أيها الراعي المخلص حسناً نرتل لك ونسبحك بغير فتور.</td>
+                </tr>
+            </tbody>
+        </table>`;
+        return html;
+    },
+    Theophany(tableNumber) {
+        const html = `
+        <table id="table_${tableNumber}" style="display: table;" title="Feast of Theophany Psali Adam For Sunday">
+            <caption id="caption_table_${tableNumber}" class="caption">Feast of Theophany Psali Adam For Sunday
+                <span class="coptic-caption">Ⲁ̀Ⲡⲟ̅ⲥ̅ ⲉⲣⲟ̀ⲩⲣⲟ</span>
+                <span class="arabic-caption">إبصاليه ادآم ليوم الأحد في عيد الغطاس</span>
+            </caption>
+            <tbody>
+                <tr id="table_${tableNumber}_row_0" class="north">
+                    <td class="english">The Lord reigns / let the earth rejoice / for He is the King / of majesty.</td>
+                    <td class="coptic">Ⲁ̀Ⲡⲟ̅ⲥ̅ ⲉⲣⲟ̀ⲩⲣⲟ: ⲁϥⲑⲉⲗⲏⲗ ⲛ̀ϫⲉ ⲡ̀ⲕⲁϩⲓ: ϫⲉ ⲛ̀ⲑⲟϥ ⲡⲉ ⲡ̀Ⲟⲩⲣⲟ: ⲟⲩⲟϩ ⲫⲁ ⲡⲓⲁ̀ⲙⲁϩⲓ.</td>
+                    <td class="arabic">ملك الرب فتهللت الأرض لأنه هو الملك ذو العزة.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_1" class="north">
+                    <td class="english">Baptize Me / O Baptist / and draw nigh to Me / for I am Jesus.</td>
+                    <td class="coptic">Ⲃⲁⲡⲧⲓⲥⲧⲓⲛ ⲙ̀ⲙⲟⲓ: ⲱ̀ ⲡⲓⲡ̀ⲣⲟⲇⲣⲟⲙⲟⲥ: ⲟⲩⲟϩ ϧⲱⲛⲧ ⲉ̀ⲣⲟⲓ: ϫⲉ ⲁ̀ⲛⲟⲕ ⲡⲉ Ⲓⲏ̅ⲥ̅.</td>
+                    <td class="arabic">عمدنى أيها الصابغ وأقترب منى لأني أنا هو يسوع.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_2" class="south">
+                    <td class="english">For this work / I came to the world / to do / My will commendably.</td>
+                    <td class="coptic">Ⲅⲉ ⲅⲁⲣ ⲉⲑⲃⲉ ⲡⲁⲓϩⲱⲃ: ⲁⲓⲓ̀ ⲉ̀ⲡⲓⲕⲟⲥⲙⲟⲥ: ϩⲓⲛⲁ ⲛ̀ⲧⲁⲉ̀ⲣϩⲱⲃ: ⲙ̀ⲡⲉⲧⲉϩⲛⲏⲓ ⲕⲁⲗⲱⲥ.</td>
+                    <td class="arabic">لأني من أجل هذا العمل أتيت إلي العالم لكى أعمل مشيئتى حسناً.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_3" class="south">
+                    <td class="english">David said / with a great voice / “The voice of the Lord / upon the waters”.</td>
+                    <td class="coptic">Ⲇⲁⲩⲓⲇ ⲅⲁⲣ ⲁϥϫⲟⲥ: ϧⲉⲛ ⲟⲩⲛⲓϣϯ ⲛ̀ϧ̀ⲣⲱⲟ̀ⲩ: ϫⲉ ⲡ̀ϧ̀ⲣⲱⲟ̀ⲩ ⲙ̀Ⲡⲟ̅ⲥ̅: ⲉ̀ϩ̀ⲣⲏⲓ ϩⲓϫⲉⲛ ⲛⲓⲙⲱⲟ̀ⲩ.</td>
+                    <td class="arabic">لأن داود قال بصوت عظيم صوت الرب على المياه.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_4" class="north">
+                    <td class="english">Therefore you told us / openly / about this mystery / of the church.</td>
+                    <td class="coptic">Ⲉⲑⲃⲉ ⲫⲁⲓ ⲁϥⲧⲁⲙⲟⲛ: ϧⲉⲛ ⲟⲩⲡⲁⲣⲣⲏⲥⲓⲁ: ⲉⲑⲃⲉ ⲡⲁⲓⲙⲩⲥⲧⲏⲣⲓⲟⲛ: ⲛ̀ⲧⲉ ϯⲉⲕⲕⲗⲏⲥⲓⲁ.</td>
+                    <td class="arabic">فلهذا أعلمنا علانية من أجل هذا السر الذي للكنيسة.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_5" class="north">
+                    <td class="english">Zacharias gave birth / to this faithful preacher / to exalt / the honor of the valleys.</td>
+                    <td class="coptic">Ⲍⲁⲭⲁⲣⲓⲁⲥ ⲁϥⲙⲓⲥⲓ: ⲙ̀ⲡⲁⲓⲕⲩⲣⲓⲝ ⲉ̀ⲧⲉⲛϩⲟⲧ: ϩⲓⲛⲁ ⲛ̀ⲧⲉϥϭⲓⲥⲓ: ⲛ̀ϫⲉ ⲡ̀ⲧⲁⲓⲟ ⲛ̀ⲛⲓϧⲉⲗⲗⲟⲧ.</td>
+                    <td class="arabic">ولد زكريا هذا المنادي الصادق لكي ترتفع كرامة الأودية.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_6" class="south">
+                    <td class="english">Isaiah cries / with his wisdom / You are the voice of One / crying in the wilderness.</td>
+                    <td class="coptic">Ⲏ̀ⲥⲁⲏ̀ⲁⲥ ⲁϥⲱϣ: ϧⲉⲛ ⲧⲉϥⲙⲉⲧⲥⲁⲃⲉ: ϫⲉ ⲛ̀ⲑⲟⲕ ⲡⲉ ⲡ̀ϧ̀ⲣⲱⲟ̀ⲩ ⲉⲧⲱϣ: ⲛ̀ϩ̀ⲣⲏⲓ ϩⲓ ⲡ̀ϣⲁϥⲉ.</td>
+                    <td class="arabic">أشعياء يصرخ بحكمتة أنك أنت هو الصوت الصارخ فى البرية.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_7" class="south">
+                    <td class="english">Rejoice O Jordan / and exalt O sea / for unto you came / John, the performer of powers.</td>
+                    <td class="coptic">Ⲑⲉⲗⲏⲗ ⲱ̀ ⲡⲓⲒⲟⲣⲇⲁⲛⲏⲥ: ⲟ̀ⲩⲛⲟϥ ⲙ̀ⲙⲟⲕ ⲫ̀ⲓⲟⲙ: ⲁϥⲓ̀ ϣⲁⲣⲟⲕ ⲛ̀ϫⲉ Ⲓⲱⲁⲛⲛⲏⲥ: ⲫ̀ⲣⲉϥⲓ̀ⲣⲓ ⲛ̀ⲛⲓϫⲟⲙ.</td>
+                    <td class="arabic">تهلل أيها الأردن وافرح أيها البحر لأنه أتى إليك يوحنا صانع القوات.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_8" class="north">
+                    <td class="english">Jesus the glorious / walked with him / to be baptized in the water / according to His will.</td>
+                    <td class="coptic">Ⲓⲏ̅ⲥ̅ ⲫⲁ ⲡⲓⲱ̀ⲟⲩ: ⲁϥⲙⲟϣⲓ ⲛⲉⲙⲁϥ: ⲉⲑⲣⲉϥϭⲓⲱⲙⲥ ϧⲉⲛ ⲛⲓⲙⲱⲟ̀ⲩ: ⲕⲁⲧⲁ ⲡⲉⲧⲉϩⲛⲁϥ.</td>
+                    <td class="arabic">ومشي معه يسوع ذو المجد ليعتمد في الماء كإرادته.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_9" class="north">
+                    <td class="english">His coming to us is good / said the waters / Jesus the glorious / to confirm us.</td>
+                    <td class="coptic">Ⲕⲁⲗⲱⲥ ⲁϥⲓ̀ ϣⲁⲣⲟⲛ: ⲡⲉϫⲱⲟ̀ⲩ ⲛ̀ϫⲉ ⲛⲓⲙⲱⲟ̀ⲩ: ϩⲓⲛⲁ ⲛ̀ⲧⲉϥⲧⲁϫⲣⲟⲛ: ⲛ̀ϫⲉ Ⲓⲏ̅ⲥ̅ ⲫⲁ ⲡⲓⲱ̀ⲟ̀ⲩ.</td>
+                    <td class="arabic">قالت المياه حسناً أتي إلينا يسوع ذو المجد لكى يثبتنا.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_10" class="south">
+                    <td class="english">Chants of hymns / I offer to Your greatness / myself along with them / for You are our protector.</td>
+                    <td class="coptic">Ⲗⲉⲗⲓ ⲙ̀ⲡⲓϩⲱⲥ: ϯⲛⲁⲧⲏⲓⲧⲟⲩ ⲉ̀ⲧⲉⲕⲙⲉⲧⲛⲓϣϯ: ⲁ̀ⲛⲟⲕ ⲛⲉⲙⲱⲟ̀ⲩ ⲕⲁⲗⲱⲥ: ϫⲉ ⲛ̀ⲑⲟⲕ ⲡⲉ ⲡⲉⲛⲛⲁϣϯ.</td>
+                    <td class="arabic">ألحان التسبيح أقدمها لعظمتك حسناً أنا معها لأنك أنت ناصرنا.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_11" class="south">
+                    <td class="english">May they rejoice today / the islands / surrounded by clouds / and fog.</td>
+                    <td class="coptic">Ⲙⲁⲣⲟⲩⲟ̀ⲩⲛⲟϥ ⲙ̀ⲫⲟⲟ̀ⲩ: ⲛ̀ϫⲉ ⲛⲓⲛⲏⲥⲟⲥ: ⲉⲧⲕⲱϯ ⲉ̀ⲣⲱⲟⲩ ⲛ̀ϫⲉ ⲟⲩϭ̀ⲏⲡⲓ ⲛⲉⲙ ⲟⲩⲅ̀ⲛⲟⲫⲟⲥ.</td>
+                    <td class="arabic">فلتفرح اليوم الجزائر المحيط بها السحاب و الضباب.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_12" class="north">
+                    <td class="english">The prophets said / one by one / “The God of glory / has thundered”.</td>
+                    <td class="coptic">Ⲛⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ ⲛ̀ⲑⲱⲟ̀ⲩ: ⲕⲁⲧⲁ ⲫ̀ⲟ̀ⲩⲁⲓ ⲫ̀ⲟ̀ⲩⲁⲓ: ⲁⲩϫⲉ Ⲫϯ ⲛ̀ⲧⲉ ⲡ̀ⲱ̀ⲟ̀ⲩ: ⲁϥⲉ̀ⲣϧⲁⲣⲁⲃⲁⲓ.</td>
+                    <td class="arabic">وقالت الأنبياء واحدأ فواحداً إله المجد أرعد.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_13" class="north">
+                    <td class="english">Truly He walked / in great humility / that is the Highest / the Creator.</td>
+                    <td class="coptic">Ⲝⲁⲡⲓⲛⲁ ⲁϥⲙⲟϣⲓ: ϧⲉⲛ ⲟⲩⲛⲓϣϯ ⲛ̀ⲑⲉⲃⲓⲟ: ⲛ̀ϫⲉ ⲫⲏⲈ̀ⲧϭⲟⲥⲓ: ⲟⲩⲟϩ ⲡⲓⲢⲉϥⲑⲁⲙⲓⲟ.</td>
+                    <td class="arabic">حقاً مشى بتواضع عظيم أعني العلي الخالق.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_14" class="south">
+                    <td class="english">He was washed / with a humble spirit / to fulfill / that which is written.</td>
+                    <td class="coptic">Ⲟⲩⲟϩ ⲁϥϫⲱⲕ ⲉ̀ⲃⲟⲗ: ϧⲉⲛ ⲟⲩⲡ̅ⲛ̅ⲁ̅ ⲉϥⲧⲉⲛⲛⲏⲟⲩⲧ: ϩⲓⲛⲁ ⲛ̀ⲧⲉϥϫⲱⲕ ⲉ̀ⲃⲟⲗ: ⲛ̀ϫⲉ ⲫⲏⲉⲧⲥ̀ϧⲏⲟⲩⲧ.</td>
+                    <td class="arabic">وأغتسل بروح منسحق لكى يكمل المكتوب.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_15" class="south">
+                    <td class="english">The Spirit of Truth / came down like a dove / in truth upon / the Creator of ages.</td>
+                    <td class="coptic">ⲠⲓⲠ̀ⲛⲉⲩⲙⲁ ⲛ̀ⲧⲉ ϯⲙⲉⲑⲙⲏⲓ: ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲟ̀ⲩϭⲣⲟⲙⲡⲓ: ⲁϥⲓ̀ ϧⲉⲛ ⲟ̀ⲩⲙⲉⲑⲙⲏⲓ: ⲉ̀ϫⲉⲛ ⲫ̀ⲣⲉϥⲑⲁⲙⲓⲟ ⲛ̀ⲛⲓⲣⲟⲙⲡⲓ.</td>
+                    <td class="arabic">نزل روح الحق مثل حمامة بالحقيقة على خالق السنين.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_16" class="north">
+                    <td class="english">All the high names / of the incorporeal / praise the Highest / our Lord Jesus Christ.</td>
+                    <td class="coptic">Ⲣⲁⲛ ⲛⲓⲃⲉⲛ ⲉⲧϭⲟⲥⲓ: ⲛ̀ⲧⲉ ⲛⲓⲁ̀ⲥⲱⲙⲁⲧⲟⲥ: ⲉⲩϩⲱⲥ ⲉ̀ⲫⲏⲉ̀ⲧϭⲟⲥⲓ: ⲡⲉⲛⲟ̅ⲥ̅ Ⲓⲏ̅ⲥ Ⲡⲭ̅ⲥ̅.</td>
+                    <td class="arabic">كل الأسماء العالية التي لغير المتجسدين تسبح العلي ربنا يسوع المسيح.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_17" class="north">
+                    <td class="english">Listen to the voice announcing / and witnessing about Him / “This is my Son / in whom I am pleased”.</td>
+                    <td class="coptic">Ⲥⲱⲧⲉⲙ ⲉ̀ⲧ̀ⲥ̀ⲙⲏ ⲁϥⲫⲓⲣⲓ: ⲁϥⲉⲣⲙⲉⲑⲣⲉ ⲉⲑⲃⲏⲧϥ: ϫⲉ ⲫⲁⲓ ⲡⲉ ⲠⲁϢⲏⲣⲓ: ⲉ̀ⲧⲁⲓϯⲙⲁϯ ⲛ̀ϧⲏⲧϥ.</td>
+                    <td class="arabic">سمعوا صوتاً أزهر وشهد من أجله قائلاً هذا هو ابني الذى به سررت.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_18" class="south">
+                    <td class="english">Then it was fulfilled / the saying of the prophet / that the Lord moved / in the wilderness of Kadish.</td>
+                    <td class="coptic">Ⲧⲟⲧⲉ ⲁϥϫⲱⲕ ⲉ̀ⲃⲟⲗ: ⲛ̀ϫⲉ ⲡ̀ⲥⲁϫⲓ ⲙ̀ⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ϫⲉ Ⲡⲟ̅ⲥ̅ ⲛⲁⲕⲓⲙ ⲉ̀ⲃⲟⲗ: ⲙ̀ⲡ̀ϣⲁϥⲉ ⲉ̀Ⲕⲁⲇⲏⲥ.</td>
+                    <td class="arabic">حينئذ كمل قول النبي أن الرب تحرك إلي برية قادش.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_19" class="south">
+                    <td class="english">The Son of God appeared / with a great deed / the rivers clap / with their hands together.</td>
+                    <td class="coptic">Ⲩⲓⲟⲥ Ⲑⲉⲟⲥ ⲁϥⲟⲩⲱ̀ⲛϩ: ϧⲉⲛ ⲡⲉϥⲛⲓϣϯ ⲛ̀ϩⲱⲃ: ϩⲁⲛⲓⲁⲣⲱⲟ̀ⲩ ⲉⲩⲕⲱⲗϩ: ϧⲉⲛ ⲛ̀ⲟⲩϫⲓϫ ⲉⲩⲥⲟⲡ.</td>
+                    <td class="arabic">ظهر ابن الله بأمر عظيم والأنهار تصفق بأيديها معا.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_20" class="north">
+                    <td class="english">The sea saw and retreated / the Jordan moved back / when they saw the Creator / they were filled with trembling.</td>
+                    <td class="coptic">Ⲫ̀ⲓⲟⲙ ⲁϥⲛⲁⲩ ⲁϥⲫⲱⲧ: ⲁ̀ⲡⲓⲒⲟⲣⲇⲁⲛⲏⲥ ⲕⲟⲧϥ ⲉ̀ⲫⲁϩⲟ: ⲉ̀ⲧⲁⲩⲛⲁⲩ ⲉ̀ⲡⲓⲢⲉϥⲥⲱⲛⲧ: ϧⲉⲛ ⲟⲩⲥ̀ⲑⲉⲣⲧⲉⲣ ⲁⲩⲙⲁϩⲟⲩ.</td>
+                    <td class="arabic">رأى البحر وهرب ورجع الأردن إلي خلف وأمتلأ رعدة لما نطرا الخالق.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_21" class="north">
+                    <td class="english">You are worthy of the Trisagion / O God, Lover of Mankind / for You are baptized / and washed our sins.</td>
+                    <td class="coptic">Ⲭ̀ⲟⲩⲁⲃ ϣⲟⲙⲧ (ⲅ̅) ⲁⲝⲓⲱⲥ: Ⲫϯ ⲡⲓⲙⲁⲓⲣⲱⲙⲓ: ϫⲉ ⲛ̀ⲑⲟⲕ ⲁⲕϭⲓⲱⲙⲥ: ⲁⲕⲓⲱⲓ ⲛ̀ⲛⲉⲛⲛⲟⲃⲓ.</td>
+                    <td class="arabic">أيها الإله محب البشر تستحق التقديس المثلث لأنك اعتمدت وغسلت خطايانا.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_22" class="south">
+                    <td class="english">All the souls together / of the Christians / give them coolness / in the Paradise.</td>
+                    <td class="coptic">Ⲯⲩⲭⲏ ⲛⲓⲃⲉⲛ ⲉⲩⲥⲟⲡ: ⲛ̀ⲧⲉ ⲛⲓⲭ̀ⲣⲓⲥⲧⲓⲁⲛⲟⲥ: ⲙⲟⲓ ⲛⲱⲟⲩ ⲛ̀ⲟⲩⲭ̀ⲃⲟⲃ: ϧⲉⲛ ⲡⲓⲡⲁⲣⲁⲇⲓⲥⲟⲥ.</td>
+                    <td class="arabic">كل أنفس المسيحيين معاً أعطيها برداً في الفردوس.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_23" class="south">
+                    <td class="english">Be patient with me / I the wretched / and save me / from the tyrant.</td>
+                    <td class="coptic">Ⲱ̀ⲟⲩⲛ̀ϩⲏⲧ ⲉ̀ϫⲱⲓ: ⲁ̀ⲛⲟⲕ ⲡⲓⲉ̀ⲗⲁⲭⲓⲥⲧⲟⲥ: ⲟⲩⲟϩ ⲛⲟϩⲉⲙ ⲙ̀ⲙⲟⲓ: ⲉ̀ⲃⲟⲗϧⲉⲛ ⲡⲓⲧⲩⲣⲁⲛⲛⲟⲥ.</td>
+                    <td class="arabic">تأن على أنا الحقير وخلصني من المعاند.</td>
                 </tr>
             </tbody>
         </table>`;
@@ -397,14 +528,13 @@ const mondayPsalis = {
             </tbody>
         </table>`;
         return html;
-    }
-    ,
+    },
     Nativity(tableNumber) {
         const html = `
         <table id="table_${tableNumber}" style="display: table;" title="Nativity Psali Adam For Monday">
             <caption id="caption_table_${tableNumber}" class="caption">Nativity Psali Adam For Monday
                 <span class="coptic-caption">Ⲁⲣⲓⲉ̀ⲧⲓⲛ ⲛ̀ⲧⲟⲧ</span>
-                <span class="arabic-caption">إبصاليه ادآم ليوم الأثنين في برامون الميلاد</span>
+                <span class="arabic-caption">إبصاليه ادآم ليوم الأثنين في عيد الميلاد</span>
             </caption>
             <tbody>
                 <tr id="table_${tableNumber}_row_0" class="north">
@@ -565,6 +695,138 @@ const mondayPsalis = {
             </tbody>
         </table>`;
         return html;
+    },
+    Theophany(tableNumber) {
+        const html = `
+        <table id="table_${tableNumber}" style="display: table;" title="Feast of Theophany Psali Adam For Monday">
+            <caption id="caption_table_${tableNumber}" class="caption">Feast of Theophany Psali Adam For Monday
+                <span class="coptic-caption">Ⲁⲓϥⲁⲓ ⲛ̀ⲛⲁⲃⲁⲗ</span>
+                <span class="arabic-caption">إبصاليه ادآم ليوم الاثنين في عيد الغطاس</span>
+            </caption>
+            <tbody>
+                <tr id="table_${tableNumber}_row_0" class="north">
+                    <td class="english">I raised my eyes, to You O Lord, like the eyes of, the servant to his Master.</td>
+                    <td class="coptic">Ⲁⲓϥⲁⲓ ⲛ̀ⲛⲁⲃⲁⲗ: ⲉ̀ⲡ̀ϣⲱⲓ ϩⲁⲣⲟⲕ Ⲡ̀ⲟ̅ⲥ̅: ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ϩⲁⲛⲃⲁⲗ: ⲛ̀ⲧⲉ ⲡⲓⲃⲱⲕ ϣⲁ ⲡⲉϥⲟ̅ⲥ̅.</td>
+                    <td class="arabic">رفعت عيناي، إليك أيها الرب، كعيني، العبد إلى سيده.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_1" class="north">
+                    <td class="english">Loosen from me, the bonds of sin, help me through, Your love for mankind.</td>
+                    <td class="coptic">Ⲃⲱⲗ ⲉ̀ⲃⲟⲗ ϩⲁⲣⲟⲓ: ⲛ̀ⲛⲓⲥ̀ⲛⲁⲩϩ ⲛ̀ⲧⲉ ⲫ̀ⲛⲟⲃⲓ: ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲓ: ϩⲓⲧⲉⲛ ⲧⲉⲕⲙⲉⲧⲙⲁⲓⲣⲱⲙⲓ.</td>
+                    <td class="arabic">حل عني، وثاق الخطيئة، وأعني، بمحبتك للبشر.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_2" class="south">
+                    <td class="english">+ That I may begin, with great desire, of all my power, to offer You glory.</td>
+                    <td class="coptic">+ Ⲅⲉ ⲅⲁⲣ ϯⲛⲁⲉⲣϩⲏⲧⲥ: ϧⲉⲛ ⲟⲩⲛⲓϣϯ ⲛ̀ϭⲓϣϣⲱⲟⲩ: ⲉ̀ⲃⲟⲗϧⲉⲛ ⲧⲁϫⲟⲙ ⲧⲏⲣⲥ: ⲉ̀ϯⲛⲁⲕ ⲙ̀ⲡⲓⲱ̀ⲟⲩ.</td>
+                    <td class="arabic">+ لكي أبتدئ، بعِظَم إشتياق، من كل قوتي، وأقدم مجداً لك.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_3" class="south">
+                    <td class="english">+ All the righteous, who have pleased God, and walked at all times, in His divine Law.</td>
+                    <td class="coptic">+ Ⲇⲓⲕⲉⲟⲥ ⲅⲁⲣ ⲛⲓⲃⲉⲛ: ⲉ̀ⲧⲁⲩⲣⲁⲛⲁϥ ⲙ̀Ⲫ̀ϯ: ⲁⲩⲙⲟϣⲓ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ: ϧⲉⲛ Ⲡⲉϥⲛⲟⲙⲟⲥ ⲛ̀ⲛⲟⲩϯ.</td>
+                    <td class="arabic">+ كل الصديقين، الذين أرضوا اللـه، وسلكوا كل حين، في شريعته الإلهية.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_4" class="north">
+                    <td class="english">Who were spoken about, by the psalmist, David the divine-mantled, in his psalm.</td>
+                    <td class="coptic">Ⲉ̀ⲧⲁϥⲥⲁϫⲓ ⲉⲑⲃⲏⲧⲟⲩ: ⲛ̀ϫⲉ ⲡⲓϩⲩⲙⲛⲟⲇⲟⲥ: Ⲇⲁⲩⲓⲇ ⲡⲓⲑⲉⲟ̀ⲫⲟⲣⲟⲥ: ϧⲉⲛ ⲡⲉϥⲯⲁⲗⲙⲟⲥ.</td>
+                    <td class="arabic">الذين قال من أجلهم، المرتل داود، اللابس الإله، في مزموره.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_5" class="north">
+                    <td class="english">Truly they are planted, by the rivers of water, because of their pure hearts, until they completed their days.</td>
+                    <td class="coptic">Ⲍⲉ ⲟⲛⲧⲱⲥ ⲉⲩⲣⲏⲧ: ϧⲁⲧⲉⲛ ⲛⲓϥⲟⲓ ⲙ̀ⲙⲱⲟⲩ: ⲉⲑⲃⲉ ⲡ̀ⲧⲟⲩⲃⲟ ⲛ̀ⲛⲟⲩϩⲏⲧ: ϣⲁ ⲡ̀ϫⲱⲕ ⲛ̀ⲛⲟⲩⲉ̀ϩⲟⲟⲩ.</td>
+                    <td class="arabic">حقاً أنهم مغروسون، عند مجاري المياه، من أجل طهارة قلوبهم، حتى كمال أيامهم.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_6" class="south">
+                    <td class="english">+ Behold you are honored, more than all of them, O blessed righteous, John the Baptist.</td>
+                    <td class="coptic">+ Ⲏ̀ⲡⲡⲉ ⲕ̀ⲧⲁⲓⲏⲟⲩⲧ: ⲉ̀ϩⲟⲧⲉ ⲣⲱⲟⲩ ⲧⲏⲣⲟⲩ: ⲱ̀ ⲡⲓⲑ̀ⲙⲏⲓ ⲉⲧⲥ̀ⲙⲁⲣⲱⲟⲩⲧ: Ⲓⲱⲁⲛⲛⲟⲩ ⲧⲟⲩ ⲡ̀ⲣⲟⲇⲣⲟⲙⲟⲩ.</td>
+                    <td class="arabic">+ ها هوذا مُكرم، أكثر من جميعهم، أيها البار المبارك، يوحنا المعمدان.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_7" class="south">
+                    <td class="english">+ The explanation of your name, is in the mouth of the faithful, it also became, a support for us.</td>
+                    <td class="coptic">+ Ⲑ̀ⲉⲣⲙⲉⲛⲓⲁ ⲙ̀ⲡⲉⲕⲣⲁⲛ: ϧⲉⲛ ⲣⲱⲟⲩ ⲛ̀ⲛⲓⲡⲓⲥⲧⲟⲥ: ⲉϥⲉ̀ϣⲱⲡⲓ ⲛⲁⲛ: ⲉⲩⲥⲟⲡ ⲛ̀ⲟⲩⲃⲟⲏ̀ⲑⲟⲥ.</td>
+                    <td class="arabic">+ صار تفسير إسمك، في أفواه المؤمنين، عوناً لنا، أيضاً.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_8" class="north">
+                    <td class="english">Jesus the only-begotten, you placed your hands upon, and in the Jordan, you baptized Him.</td>
+                    <td class="coptic">Ⲓⲏ̅ⲥ̅ ⲡⲓⲙⲟⲛⲟⲅⲉⲛⲏⲥ: ⲁⲕⲭⲱ ⲛ̀ⲧⲉⲕϫⲓϫ ⲉ̀ϫⲱϥ: ⲟⲩⲟϩ ϧⲉⲛ ⲡⲓⲒⲟⲣⲇⲁⲛⲏⲥ: ⲁⲕϯⲱⲙⲥ ⲙ̀ⲙⲟϥ.</td>
+                    <td class="arabic">يسوع الوحيد، وضعت يدك عليه، وفي الأردن، عمَّدته.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_9" class="north">
+                    <td class="english">You are exalted more, than the patriarchs, and honored more, than the prophets.</td>
+                    <td class="coptic">Ⲕ̀ϭⲟⲥⲓ ⲉ̀ⲙⲁϣⲱ: ⲉ̀ϩⲟⲧⲉ ⲛⲓⲡⲁⲧⲣⲓⲁⲣⲭⲏⲥ: ⲕ̀ⲧⲁⲓⲏ̀ⲟⲩⲧ ⲛ̀ϩⲟⲩⲟ̀: ⲉ̀ϩⲟⲧⲉ ⲛⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ.</td>
+                    <td class="arabic">مرتفعاً جداً، أكثر من البطاركة، ومكرماً، أكثر من الأنبياء.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_10" class="south">
+                    <td class="english">+ You were also naked, with the beasts, you lead the multitude, to the upright way.</td>
+                    <td class="coptic">+ Ⲗⲟⲓⲡⲟⲛ ⲅⲁⲣ ⲛⲁⲕⲃⲏϣ: ⲛⲉⲙ ⲛⲓⲑⲏⲣⲓⲟⲛ: ⲁⲕϭⲓⲙⲱⲓⲧ ⲛ̀ⲛⲓⲙⲏϣ: ⲉ̀ⲡⲓⲙⲱⲓⲧ ⲉⲧⲥⲟⲩⲧⲱⲛ.</td>
+                    <td class="arabic">+ كنت عرياناً، مع الوحوش، وهديت الجموع، إلى الطريق المستقيم.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_11" class="south">
+                    <td class="english">+ There were none, like you, you loved asceticism, and put on sackcloths.</td>
+                    <td class="coptic">+ Ⲙ̀ⲡⲉ ⲟⲩⲟⲛ ⲧⲱⲛϥ: ⲉϥⲟ̀ⲛⲓ ⲙ̀ⲙⲟⲕ: ϫⲉ ⲁⲕⲙⲉⲛⲣⲉ ⲡⲓⲱⲣϥ: ⲁⲕⲉⲣⲫⲟⲣⲓⲛ ⲛ̀ⲟⲩⲥⲟⲕ.</td>
+                    <td class="arabic">+ لم يقم، من يشبهك، لأنك أحببت النُسك، ولبست المسح.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_12" class="north">
+                    <td class="english">You are a prophet, you are an apostle, you are an anchorite, you are a martyr.</td>
+                    <td class="coptic">Ⲛ̀ⲑⲟⲕ ⲟⲩⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲛ̀ⲑⲟⲕ ⲟⲩⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ: ⲛ̀ⲑⲟⲕ ⲟⲩⲁ̀ⲛⲁⲭⲱⲣⲓⲧⲏⲥ: ⲛ̀ⲑⲟⲕ ⲟⲩⲙⲁⲣⲧⲩⲣⲟⲥ.</td>
+                    <td class="arabic">أنت هو نبي، أنت هو رسول، أنت هو ناسك، أنت هو شهيد.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_13" class="north">
+                    <td class="english">You were adorned by your deeds, for you are righteous, you became like, the angels.</td>
+                    <td class="coptic">Ⲝ̀ⲥⲟⲗⲥⲉⲗ ϧⲉⲛ ⲛⲉⲕϩ̀ⲃⲏⲟⲩⲓ̀: ϫⲉ ⲛ̀ⲑⲟⲕ ⲟⲩⲇⲓⲕⲉⲟⲥ: ⲁⲕϣⲱⲡⲓ ⲕ̀ⲟ̀ⲛⲓ: ⲛ̀ⲛⲓⲁⲅⲅⲉⲗⲟⲥ.</td>
+                    <td class="arabic">تزينت بأعمالك، لأنك أنت صديق، وصرت تشبهه، الملائكة.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_14" class="south">
+                    <td class="english">+ And Malachi, calls you, you are Elijah, coming in perfection.</td>
+                    <td class="coptic">+ Ⲟⲩⲟϩ Ⲙⲁⲗⲁⲭⲓⲁⲥ: ⲁϥⲙⲟⲩϯ ⲉ̀ⲣⲟⲕ: ϫⲉ ⲛ̀ⲑⲟⲕ ⲡⲉ Ⲏ̀ⲗⲓⲁⲥ: ⲉⲑⲛⲏⲟⲩ ϧⲉⲛ ⲟⲩϫⲱⲕ.</td>
+                    <td class="arabic">+ وملاخيا، يدعوك، أنك أنت إيليا، الآتي في الكمال.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_15" class="south">
+                    <td class="english">+ Christ your King, said to the multitude, "You are greater, than a prophet."</td>
+                    <td class="coptic">+ Ⲡⲭ̅ⲥ̅ ⲡⲉⲕⲞⲩⲣⲟ: ⲁϥϫⲟⲥ ⲛ̀ⲛⲓⲙⲏϣ: ϫⲉ ⲛ̀ⲑⲟⲕ ⲟⲩϩⲟⲩⲟ̀: ⲙ̀ⲡ̀ⲣⲟⲫⲏⲧⲏⲥ.</td>
+                    <td class="arabic">+ المسيح ملكك، قال للجموع، أنك أنت أفضل، من نبي.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_16" class="north">
+                    <td class="english">The mouth of Zacharias, witnessed to us, when his tongue spoke, after he wrote your name.</td>
+                    <td class="coptic">Ⲣⲱϥ ⲛ̀Ⲍⲁⲭⲁⲣⲓⲁⲥ: ⲁϥⲉⲣⲙⲉⲑⲣⲉ ⲛⲁⲛ: ⲉⲧⲁϥⲥⲁϫⲓ ⲛ̀ϫⲉ ⲡⲉϥⲗⲁⲥ: ⲉ̀ⲧⲁϥⲥ̀ϧⲁⲓ ⲙ̀ⲡⲉⲕⲣⲁⲛ.</td>
+                    <td class="arabic">فم زكريا، يشهد لنا، لما تكلم لسانه، بعد ما كتب إسمك.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_17" class="north">
+                    <td class="english">Yes we ask you, to pray for us, before your Creator, to have mercy upon us.</td>
+                    <td class="coptic">Ⲥⲉ ⲧⲉⲛϯϩⲟ ⲉ̀ⲣⲟⲕ: ⲉⲑⲣⲉⲕⲧⲱⲃϩ ⲉ̀ϫⲱⲛ: ⲛⲁϩⲣⲉⲛ ⲫⲏⲉ̀ⲧⲁϥⲑⲁⲙⲓⲟⲕ: ⲉⲑⲣⲉϥϣⲉⲛϩⲏⲧ ϧⲁⲣⲟⲛ.</td>
+                    <td class="arabic">نعم نسألك، لكي تطلب عنا، عند الذي خلقك، ليتحنن علينا.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_18" class="south">
+                    <td class="english">+ To lift up the pains, from His people, and look down from above, with the eye of His goodness.</td>
+                    <td class="coptic">+ Ⲧⲉϥⲱ̀ⲗⲓ ⲛ̀ⲛⲓϧⲓⲥⲓ: ⲉ̀ⲃⲟⲗϩⲁ ⲡⲉϥⲗⲁⲟⲥ: ⲛ̀ⲧⲉϥϫⲟⲩϣⲧ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲡ̀ϭⲓⲥⲓ: ϧⲉⲛ ⲫ̀ⲃⲁⲗ ⲛ̀ⲧⲉ ⲧⲉϥⲙⲉⲧⲭ̀ⲣⲏⲥⲧⲟⲥ.</td>
+                    <td class="arabic">+ ويرفع الأتعاب، عن شعبه، وينظر من العلاء، بعين صلاحه.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_19" class="south">
+                    <td class="english">+ Because of Your mercy, do not forsake us, O God of our salvation, but accept us to You.</td>
+                    <td class="coptic">+ Ⲩ̀ⲡⲉⲣ ⲙ̀ⲡⲉⲕⲛⲁⲓ: ⲙ̀ⲡⲉⲣⲭⲁⲛ Ⲛ̀ⲥⲱⲕ: Ⲫ̀ϯ ⲛ̀ⲧⲉ ⲡⲉⲛⲟⲩϫⲁⲓ: ⲁⲗⲗⲁ ϣⲟⲡⲧⲉⲛ ⲉ̀ⲣⲟⲕ.</td>
+                    <td class="arabic">+ من أجل رحمتك، المباركة لا تتركنا عنك، يا إله خلاصنا، لكن إقبلنا إليك.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_20" class="north">
+                    <td class="english">Disperse from us the evil, of the heretics, through the intercessions, of the Baptist.</td>
+                    <td class="coptic">Ⲫⲱⲣϫ ⲛ̀ⲛⲓⲕⲁⲕⲟⲩⲣⲅⲓⲁ: ⲛ̀ⲧⲉ ⲛⲓϩⲉⲣⲉⲥⲓⲥ: ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲃⲓⲁ: ⲛ̀ⲧⲉ ⲡⲓⲃⲁⲡⲧⲓⲥⲧⲏⲥ.</td>
+                    <td class="arabic">فرِّق عنا أيضاً شرور، أصحاب البدع، بشفاعات، المعمدان.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_21" class="north">
+                    <td class="english">Hail to John, son of Zacharias, hail to the kinsman, of the Messiah.</td>
+                    <td class="coptic">Ⲭⲉⲣⲉ Ⲓⲱⲁⲛⲛⲏⲥ: ⲡ̀ϣⲏⲣⲓ ⲛ̀Ⲍⲁⲭⲁⲣⲓⲁⲥ: ⲭⲉⲣⲉ ⲡⲓⲥⲩⲛⲅⲉⲛⲏⲥ: ⲛ̀ⲧⲉ Ⲙⲁⲥⲓⲁⲥ.</td>
+                    <td class="arabic">السلام ليوحنا، بن زكريا، السلام لنسيب، الماسيا.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_22" class="south">
+                    <td class="english">+ All the souls together, who departed this age, grant them coolness, in the Paradise.</td>
+                    <td class="coptic">+ Ⲯⲩⲭⲏ ⲛⲓⲃⲉⲛ ⲉⲩⲥⲟⲡ: ⲉ̀ⲧⲁⲩⲭⲱ ⲙ̀ⲡⲁⲓⲃⲓⲟⲥ: ⲙⲟⲓ ⲛⲱⲟⲩ ⲛ̀ⲟⲩⲭ̀ⲃⲟⲃ: ϧⲉⲛ ⲡⲓⲠⲁⲣⲁⲇⲓⲥⲟⲥ.</td>
+                    <td class="arabic">+ كل الأنفس معاً، اللاتي تركت هذا العمر، أعطيها برداً، في الفردوس.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_23" class="south">
+                    <td class="english">+ O Creator, have mercy on my weakness, through the supplications, of Your forerunner.</td>
+                    <td class="coptic">+ Ⲱ̀ ⲡⲓⲢⲉϥⲑⲁⲙⲓⲟ: ⲛⲁⲓ ϧⲁ ⲧⲁⲙⲉⲧⲉ̀ⲗⲁⲭⲓⲥⲧⲟⲥ: ϩⲓⲧⲉⲛ ⲛⲓϯϩⲟ: ⲛ̀ⲧⲉ ⲡⲉⲕⲡ̀ⲣⲟⲇⲣⲟⲙⲟⲥ.</td>
+                    <td class="arabic">+ أيها الخالق، إرحم مسكنتي، بطلبات، سابقك.</td>
+                </tr>
+            </tbody>
+        </table>`;
+        return html;
     }
 };
 
@@ -700,14 +962,13 @@ const tuesdayPsalis = {
             </tbody>
         </table>`;
         return html;
-    }
-    ,
+    },
     Nativity(tableNumber) {
         const html = `
         <table id="table_${tableNumber}" style="display: table;" title="Nativity Psali Adam For Tuesday">
             <caption id="caption_table_${tableNumber}" class="caption">Nativity Psali Adam For Tuesday
                 <span class="coptic-caption">Ⲁⲩⲙⲓⲥⲓ ⲛⲁⲛ ⲙ̀ⲫⲟⲟⲩ</span>
-                <span class="arabic-caption">إبصاليه ادآم ليوم الثلاثاء في برامون الميلاد</span>
+                <span class="arabic-caption">إبصاليه ادآم ليوم الثلاثاء في عيد الميلاد</span>
             </caption>
             <tbody>
                 <tr id="table_${tableNumber}_row_0" class="north">
@@ -868,6 +1129,138 @@ const tuesdayPsalis = {
             </tbody>
         </table>`;
         return html;
+    },
+    Theophany(tableNumber) {
+        const html = `
+        <table id="table_${tableNumber}" style="display: table;" title="Feast of Theophany Psali Adam For Tuesday">
+            <caption id="caption_table_${tableNumber}" class="caption">Feast of Theophany Psali Adam For Tuesday
+                <span class="coptic-caption">Ⲁⲕϭⲓⲥⲓ ⲁ̀ⲗⲏⲑⲟⲥ</span>
+                <span class="arabic-caption">إبصاليه ادآم ليوم الثلاثاء في عيد الغطاس</span>
+            </caption>
+            <tbody>
+                <tr id="table_${tableNumber}_row_0" class="north">
+                    <td class="english">You are truly exalted / O forerunner / John the Baptist / more than the righteous.</td>
+                    <td class="coptic">Ⲁⲕϭⲓⲥⲓ ⲁ̀ⲗⲏⲑⲟⲥ: ⲱ̀ ⲡⲓⲡ̀ⲣⲟⲇⲣⲟⲙⲟⲥ: Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲣⲉϥϯⲱⲙⲥ: ⲉ̀ϩⲟⲧⲉ ⲛⲓⲇⲓⲕⲉⲟⲥ.</td>
+                    <td class="arabic">ارتفعت بالحقيقة، أيها السابق يوحنا المعمدان أفضل من الصديقين.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_1" class="north">
+                    <td class="english">Help us O our Lord / and confirm us / for the sake of the Theotokos / and John the prophet.</td>
+                    <td class="coptic">Ⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲛ ⲡⲉⲛⲟ̅ⲥ̅: ⲟⲩⲟϩ ⲙⲁⲧⲁϫⲣⲟⲛ: ⲉⲑⲃⲉ ϯⲑⲉⲟⲧⲟⲕⲟⲥ: ⲛⲉⲙ Ⲓⲱⲁⲛⲛⲏⲥ ⲧⲟⲏⲡ̀ⲣⲟⲫⲏⲧⲟⲛ.</td>
+                    <td class="arabic">أعنا يا رب، وثبتنا، لأجل والدة الإله، ويوحنا النبي.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_2" class="south">
+                    <td class="english">The faithful people / make a feast for you today / O priest of the Lord / John the overcomer.</td>
+                    <td class="coptic">Ⲅⲉⲛⲟⲥ ⲛ̀ⲛⲓⲡⲓⲥⲧⲟⲥ: ⲥⲉⲉ̀ⲣϣⲁⲓ ⲛⲁⲕ ⲙ̀ⲫⲟⲟ̀ⲩ: ⲱ̀ ⲡⲓⲟⲩⲏⲃ ⲛ̀ⲧⲉ Ⲡⲟ̅ⲥ̅: Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲣⲉϥϭⲣⲟ.</td>
+                    <td class="arabic">يعيد لك جنس، المؤمنين اليوم، يا كاهن الرب، يوحنا الغالب.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_3" class="south">
+                    <td class="english">Come among us, David / O psalmist / for the great honor / of John the Baptist.</td>
+                    <td class="coptic">Ⲇⲁⲩⲓⲇ ⲁ̀ⲙⲟⲩ ⲛ̀ⲧⲉⲛⲙⲏϯ: ⲱ̀ ⲡⲓⲓⲉⲣⲟⲯⲁⲗⲧⲏⲥ: ⲉⲑⲃⲉ ⲡ̀ⲧⲁⲓⲟ ⲙ̀ⲡⲓⲛⲓϣϯ: Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲣⲉϥϯⲱⲙⲥ.</td>
+                    <td class="arabic">تعال وسطنا، أيها المرتل داود، من أجل كرامة العظيم يوحنا المُعمِّد.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_4" class="north">
+                    <td class="english">Have mercy upon us / O Jesus Christ / because of Your mother Mary / and John your kinsman.</td>
+                    <td class="coptic">Ⲉⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ: ⲱ̀ Ⲓⲏ̅ⲥ Ⲡⲭ̅ⲥ̅: ⲉⲑⲃⲉ ⲧⲉⲕⲙⲁⲩ Ⲙⲁⲣⲓⲁ: ⲛⲉⲙ Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲉⲕⲥⲩⲅⲅⲉⲛⲏⲥ.</td>
+                    <td class="arabic">ارحمنا، يا يسوع المسيح، من أجل أمك مريم، ويوحنا نسيبك.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_5" class="north">
+                    <td class="english">All seven ranks / of the church / honor at all times / John the wise.</td>
+                    <td class="coptic">Ϣⲁϣϥ (ⲍ̅) ⲛ̀ⲧⲁⲅⲙⲁ ⲛⲓⲃⲉⲛ: ⲛ̀ⲧⲉ ϯⲉ̀ⲕⲕⲗⲏⲥⲓⲁ: ⲉⲩⲧⲁⲓⲟ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ: Ⲓⲱⲁⲛⲛⲏⲥ ⲫⲁ ϯⲥⲟⲫⲓⲁ.</td>
+                    <td class="arabic">كل السبع الطغمات، التى للكنيسة تكرم كل حين، يوحنا ذو الحكمة.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_6" class="south">
+                    <td class="english">Behold John the Baptist / informed us commendably / that he baptized the Lord / in the waters of the Jordan.</td>
+                    <td class="coptic">Ⲏⲡⲡⲉ ⲁϥⲧⲁⲙⲟⲛ ⲕⲁⲗⲱⲥ: Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲃⲁⲡⲧⲓⲥⲧⲏⲥ: ϫⲉ ⲁⲓϯⲱⲙⲥ ⲙ̀Ⲡⲟ̅ⲥ̅: ϧⲉⲛ ⲛⲓⲙⲱⲟ̀ⲩ ⲛ̀ⲧⲉ ⲡⲓⲓⲟⲣⲇⲁⲛⲏⲥ.</td>
+                    <td class="arabic">ها قد أخبرنا جيداً، يوحنا الصابغ، أنه عمد الرب، فى مياه الأردن.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_7" class="south">
+                    <td class="english">Rejoice O John / son of Zacharias / the forerunner / of the Messiah.</td>
+                    <td class="coptic">Ⲑⲉⲗⲏⲗ ⲱ̀ Ⲓⲱⲁⲛⲛⲏⲥ: ⲡ̀ϣⲏⲣⲓ ⲛ̀Ⲍⲁⲭⲁⲣⲓⲁⲥ: ⲟⲩⲟϩ ⲡⲓⲡ̀ⲣⲟⲇⲣⲟⲙⲟⲥ: ⲛ̀ⲧⲉ Ⲙⲁⲥⲓⲁⲥ.</td>
+                    <td class="arabic">تهلل يا يوحنا، ابن زكريا، والسابق، لماسياس.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_8" class="north">
+                    <td class="english">John witnessed saying / I saw the Holy Spirit / descend from heaven / He is blessed greatly.</td>
+                    <td class="coptic">Ⲓⲱⲁⲛⲛⲏⲥ ⲁϥⲉⲣⲙⲉⲑⲣⲉ: ϫⲉ ⲁⲓⲛⲁⲩ ⲉ̀ⲡⲓⲠ̀ⲉⲛⲁⲩⲙⲁ ⲉ̅ⲑ̅ⲩ̅: ⲉ̀ⲧⲁϥⲓ̀ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲧ̀ⲫⲉ: ⲱ̀ⲟ̀ⲩⲛⲓⲁⲧϥ ⲛ̀ⲑ̀ⲃⲁ ⲛ̀ⲕⲱⲃ.</td>
+                    <td class="arabic">شهد يوحنا قائلاً، رأيت الروح القدس، نزل من السماء طوباه ربوات أضعاف.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_9" class="north">
+                    <td class="english">Also the voice of / God the Father saying / This is my Son / My beloved, hear Him.</td>
+                    <td class="coptic">Ⲕⲉ ⲡⲁⲗⲓⲛ ⲛⲉⲙ ⲧ̀ⲥ̀ⲙⲏ: ⲛ̀ⲧⲉ Ⲫϯ Ⲫ̀ⲓⲱⲧ: ϫⲉ ⲫⲁⲓ ⲡⲉ ⲠⲁϢⲏⲣⲓ: Ⲡⲁⲙⲉⲛⲣⲓⲧ ⲥⲱⲧⲉⲙ ⲛ̀ⲥⲱϥ.</td>
+                    <td class="arabic">وأيضاً صوت، الله الآب، قائلاً هذا هو ابنى، حبيبى فاسمعو له.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_10" class="south">
+                    <td class="english">Rejoice O people / of the Christians / on the feast of the martyr / John the Baptist.</td>
+                    <td class="coptic">Ⲗⲉⲗⲓ ⲱ̀ ⲛⲓⲗⲁⲟⲥ: ⲛ̀ⲛⲓⲭ̀ⲣⲓⲥⲧⲓⲁⲛⲟⲥ: ϧⲉⲛ ⲡ̀ϣⲁⲓ ⲙ̀ⲡⲓⲙⲁⲣⲧⲩⲣⲟⲥ: Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲡ̀ⲣⲟⲇⲣⲟⲙⲟⲥ.</td>
+                    <td class="arabic">هللوا أيها الشعوب، المسيحيين، فى عيد الشهيد، يوحنا السابق.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_11" class="south">
+                    <td class="english">Grant us Your peace / O only-begotten / heal our sicknesses / for the sake of Saint John.</td>
+                    <td class="coptic">Ⲙⲟⲓ ⲛⲁⲛ ⲛ̀ⲧⲉⲕϩⲓⲣⲏⲛⲏ: ⲱ̀ⲡⲓⲙⲟⲛⲟⲅⲉⲛⲏⲥ: ⲙⲁⲧⲁⲗϭⲟ ⲛ̀ⲛⲉⲛϣⲱⲛⲓ: ⲉⲑⲃⲉ ⲫⲏⲉ̅ⲑ̅ⲩ̅ Ⲓⲱⲁⲛⲛⲏⲥ.</td>
+                    <td class="arabic">أعطنا سلامك يا وحيد الجنس، واشف أمراضنا، من أجل القديس يوحنا.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_12" class="north">
+                    <td class="english">Hear us and have mercy / remove Your wrath from us / O Christ because of / John the blessed.</td>
+                    <td class="coptic">Ⲛⲁⲓ ⲛⲁⲛ ⲥⲱⲧⲉⲙ ⲉ̀ⲣⲟⲛ: ⲟⲩⲟϩ ⲱ̀ⲗⲓ ⲙ̀ⲡⲉⲕϫⲱⲛⲧ: ⲱ̀Ⲡⲭ̅ⲥ̅ ⲉ̀ⲃⲟⲗϩⲁⲣⲟⲛ: ⲉⲑⲃⲉ Ⲓⲱⲁⲛⲛⲏⲥ ⲫⲏⲉ̀ⲧⲥ̀ⲙⲁⲣⲱⲟⲩⲧ.</td>
+                    <td class="arabic">اسمعنا وارحمنا، وارفع غضبك عنا، أيها المسيح، من أجل يوحنا المبارك.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_13" class="north">
+                    <td class="english">You are blessed, O Christ / with Your good Father / and the Holy Spirit / the one in essence.</td>
+                    <td class="coptic">Ⲝⲙⲁⲣⲱⲟ̀ⲩⲧ ⲱ̀Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁⲅⲁⲑⲟⲥ: ⲛⲉⲙ ⲡⲓⲠ̀ⲛⲉⲩⲙⲁ ⲙ̀Ⲡⲁⲣⲁⲕⲗⲓⲧⲟⲥ: ⲛ̀ⲟⲙⲟⲟⲩⲥⲓⲟⲥ.</td>
+                    <td class="arabic">تباركت أيها المسيح، مع أبيك الصالح، والروح المعزي، المساوي.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_14" class="south">
+                    <td class="english">Your name is great / among the angels / ask Christ to have mercy / O Saint John.</td>
+                    <td class="coptic">Ⲟⲩⲛⲓϣϯ ⲡⲉ ⲡⲉⲕⲣⲁⲛ: ϧⲉⲛ ⲑ̀ⲙⲏϯ ⲛ̀ⲛⲓⲁ̀ⲅⲅⲉⲗⲟⲥ: ⲙⲁϯϩⲟ ⲉ̀Ⲡⲭ̅ⲥ̅ ⲉ̀ⲛⲁⲓ ⲛⲁⲛ: ⲱ̀ ⲫⲏⲉ̅ⲑ̅ⲩ̅ Ⲓⲱⲁⲛⲛⲏⲥ.</td>
+                    <td class="arabic">عظيم هو أسمك، في وسط الملائكة، اسأل المسيح أن يرحمنا، أيها القديس يوحنا.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_15" class="south">
+                    <td class="english">Disperse, O our God / the enemies of the church / trample them / to the end.</td>
+                    <td class="coptic">ⲠⲉⲛⲚⲟⲩϯ ϫⲱⲣ ⲉ̀ⲃⲟⲗ: ⲛ̀ⲛⲓϫⲁϫⲓ ⲛ̀ⲧⲉ ϯⲉ̀ⲕⲕⲗⲏⲥⲓⲁ: ⲟⲩⲟϩ ϧⲉⲙϧⲟⲙⲟⲩ ⲉ̀ⲃⲟⲗ: ϣⲁ ϯⲥⲩⲛⲧⲉⲗⲓⲁ.</td>
+                    <td class="arabic">يا إلهنا بدد، أعداء الكنيسة، وأسحقهم، إلي الانقضاء.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_16" class="north">
+                    <td class="english">Guard us O Christ / from evil people / the deceivers and from pains / for the sake of Mary the queen.</td>
+                    <td class="coptic">Ⲣⲱⲓⲥ ⲉ̀ⲣⲟⲛ ⲱ̀Ⲡⲭ̅ⲥ̅: ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲓⲣⲱⲙⲓ ⲉⲩϩⲱⲟ̀ⲩ: ⲛⲓⲭ̀ⲣⲟϥ ⲛⲉⲙ ⲛⲓⲡⲁⲑⲟⲥ: ⲉⲑⲃⲉ Ⲙⲁⲣⲓⲁ ϯⲟⲩⲣⲱ.</td>
+                    <td class="arabic">احرسنا أيها المسيح، من الناس الآشرار، الغاشين ومن الآلام، من أجل مريم الملكة.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_17" class="north">
+                    <td class="english">Bless the rivers / the plants and fruits / through the prayers / of John the Baptist.</td>
+                    <td class="coptic">Ⲥ̀ⲙⲟⲩ ⲉ̀ⲛⲓⲓⲁⲣⲱⲟ̀ⲩ: ⲛⲉⲙ ⲛⲓⲥⲓϯ ⲛⲉⲙ ⲛⲓⲕⲁⲣⲡⲟⲥ: ⲉⲑⲃⲉ ⲛⲓϯϩⲟ: ⲛ̀ⲧⲉ Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲣⲉϥϯⲱⲙⲥ.</td>
+                    <td class="arabic">بارك الأنهار، والزروع والثمار، من أجل طلبات، يوحنا المعَّمِد.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_18" class="south">
+                    <td class="english">We ask for the priests / and the deacons / keep them O our Master / with the rest of the believers.</td>
+                    <td class="coptic">Ⲧⲉⲛϯϩⲟ ⲉⲑⲃⲉ ⲛⲓⲟ̀ⲩⲏⲃ: ⲛⲉⲙ ⲛⲓⲇⲓⲁⲕⲟⲛⲟⲥ: ⲁ̀ⲣⲉϩ ⲉ̀ⲣⲱⲟ̀ⲩ ⲡⲉⲛⲚⲏⲃ: ⲛⲉⲙ ⲡ̀ⲥⲉⲡⲓ ̀̀ⲛ̀ⲛⲓⲡⲓⲥⲧⲟⲥ.</td>
+                    <td class="arabic">نسأل من أجل الكهنة، والشمامسة، احفظهم يا سيدنا، مع بقية المؤمنين.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_19" class="south">
+                    <td class="english">O Son of God save us / from tribulations / confirm us in Your name / for the sake of Saint John.</td>
+                    <td class="coptic">Ⲩⲓⲟⲥ Ⲑⲉⲟⲥ ⲛⲁϩⲙⲉⲛ: ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲓⲑ̀ⲗⲩⲯⲓⲥ: ⲟⲩⲟϩ ϧⲉⲛ ⲡⲉⲕⲣⲁⲛ ⲙⲁⲧⲁϫⲣⲟⲛ: ⲉⲑⲃⲉ ⲫⲏⲉ̅ⲑ̅ⲩ̅ Ⲓⲱⲁⲛⲛⲏⲥ.</td>
+                    <td class="arabic">يا ابن الله نجنا، من الشدائد، وباسمك ثبتنا، من أجل القديس يوحنا.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_20" class="north">
+                    <td class="english">Raise, O Lord, the horn / of the Christians / for the sake of our Lady / Saint Mary.</td>
+                    <td class="coptic">Ⲫϯ ϭⲓⲥⲓ ⲙ̀ⲡ̀ⲧⲁⲡ: ⲛ̀ⲛⲓⲭⲣⲓⲥⲧⲓⲁⲛⲟⲥ: ⲉⲑⲃⲉ ⲧⲉⲛⲟ̅ⲥ̅ ⲛ̀ⲛⲏⲃ: Ⲙⲁⲣⲓⲁ ϯⲠⲁⲣⲑⲉⲛⲟⲥ.</td>
+                    <td class="arabic">ارفع يا رب قرن، المسيحيين، من أجل سيدتنا وملكتنا، مريم العذراء.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_21" class="north">
+                    <td class="english">Hail to the Theotokos / the mother of Jesus Christ / hail to the forerunner / John the Baptist.</td>
+                    <td class="coptic">Ⲭⲉⲣⲉ ϯⲑⲉⲟⲧⲟⲕⲟⲥ: ⲑ̀ⲙⲁⲩ ⲛ̀Ⲓⲏ̅ⲥ Ⲡⲭ̅ⲥ̅: ⲭⲉⲣⲉ ⲡⲓⲡ̀ⲣⲟⲇⲣⲟⲙⲟⲥ: Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲣⲉϥϯⲱⲙⲥ.</td>
+                    <td class="arabic">السلام لوالدة الإله، أم يسوع المسيح، السلام للسابق، يوحنا المعَّمِد.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_22" class="south">
+                    <td class="english">The souls of our fathers / grant them coolness / in the bosom of our fathers / Abraham, Isaac and Jacob.</td>
+                    <td class="coptic">Ⲯⲩⲭⲏ ⲛ̀ⲛⲉⲛⲓⲟϯ: ⲙⲟⲓ ⲛⲱⲟ̀ⲩ ⲛ̀ⲟⲩⲭ̀ⲃⲟⲃ: ϧⲉⲛ ⲕⲉⲛϥ ⲛ̀ⲛⲉⲛⲓⲟϯ: Ⲁⲃⲣⲁⲁⲙ Ⲓⲥⲁⲁⲕ Ⲓⲁⲕⲱⲃ.</td>
+                    <td class="arabic">أنفس آبائنا، أعطها برداً، فى أحضان آبائنا، إبراهيم واسحق ويعقوب.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_23" class="south">
+                    <td class="english">O our Savior, rememeber / Your servant Nicodemous / forgive him his sins / with the rest of the Christians.</td>
+                    <td class="coptic">Ⲱ̀ ⲡⲉⲛⲤⲱⲧⲏⲣ ⲁ̀ⲣⲓⲫ̀ⲙⲉⲩⲓ: ⲙ̀ⲡⲉⲕⲃⲱⲕ Ⲛⲓⲕⲟⲩⲇⲓⲙⲟⲥ: ⲭⲱ ⲛⲁϥ ⲛ̀ⲛⲉϥⲛⲟⲃⲓ: ⲛⲉⲙ ⲡ̀ⲥⲉⲡⲓ ⲛ̀ⲛⲓⲭⲣⲓⲥⲧⲓⲁⲛⲟⲥ.</td>
+                    <td class="arabic">يا مخلصنا اذكر، عبدك نيقوديموس، واغفر له خطاياه، مع سائر المسيحيين.</td>
+                </tr>
+            </tbody>
+        </table>`;
+        return html;
     }
 };
 
@@ -1003,14 +1396,13 @@ const wednesdayPsalis = {
             </tbody>
         </table>`;
         return html;
-    }
-    ,
+    },
     Nativity(tableNumber) {
         const html = `
         <table id="table_${tableNumber}" style="display: table;" title="Nativity Psali Watos For Wednesday">
             <caption id="caption_table_${tableNumber}" class="caption">Nativity Psali Watos For Wednesday
                 <span class="coptic-caption">Ⲁ̀ⲙⲱⲓⲛⲓ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉⲛϩⲱⲥ</span>
-                <span class="arabic-caption">إبصاليه واطس ليوم الاربعاء في برامون الميلاد</span>
+                <span class="arabic-caption">إبصاليه واطس ليوم الاربعاء في عيد الميلاد</span>
             </caption>
             <tbody>
                 <tr id="table_${tableNumber}_row_0" class="north">
@@ -1132,6 +1524,138 @@ const wednesdayPsalis = {
                     <td class="english">All glory and praise / befits Your Goodness / O our Lord Jesus Christ / who was born in Bethlehem.</td>
                     <td class="coptic">Ⲱ̀ⲟⲩ ⲛⲓⲃⲉⲛ ⲛⲉⲙ ⲟⲩϫⲓⲛϩⲱⲥ: ⲉⲣⲡ̀ⲣⲉⲡⲓ ⲛ̀ⲧⲉⲕⲙⲉⲧⲁ̀ⲅⲁⲑⲟⲥ: ⲱ̀ ⲡⲉⲛⲟ̅ⲥ̅ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅: ⲫⲏⲉ̀ⲧⲁⲩⲙⲁⲥϥ ϧⲉⲛ Ⲃⲏⲑⲗⲉⲉⲙ.</td>
                     <td class="arabic">كل مجد وتسبيح، يليق بصلاحك، يا ربنا يسوع المسيح، الذي وُلد في بيت لحم.</td>
+                </tr>
+            </tbody>
+        </table>`;
+        return html;
+    },
+    Theophany(tableNumber) {
+        const html = `
+        <table id="table_${tableNumber}" style="display: table;" title="Feast of Theophany Psali Watos For Wednesday">
+            <caption id="caption_table_${tableNumber}" class="caption">Feast of Theophany Psali Watos For Wednesday
+                <span class="coptic-caption">Ⲁⲓⲛⲁⲉ̀ⲣϩⲏⲧⲥ ϧⲉⲛ ⲟⲩϭⲓϣϣⲱⲟ̀ⲩ</span>
+                <span class="arabic-caption">إبصاليه واطس ليوم الاربعاء في عيد الغطاس</span>
+            </caption>
+            <tbody>
+                <tr id="table_${tableNumber}_row_0" class="north">
+                    <td class="english">I begin with longing / to speak of the honor of the forerunner / before Christ, the King of glory / John the Baptist.</td>
+                    <td class="coptic">Ⲁⲓⲛⲁⲉ̀ⲣϩⲏⲧⲥ ϧⲉⲛ ⲟⲩϭⲓϣϣⲱⲟ̀ⲩ: ⲛ̀ⲧⲁϫⲱ ⲙ̀ⲡ̀ⲧⲁⲓⲟ ⲙ̀ⲡⲓⲡ̀ⲟⲇⲣⲟⲙⲟⲥ: ⲙ̀ⲡⲉⲙ̀ⲑⲟ ⲙ̀Ⲡⲭ̅ⲥ̅ ⲡ̀Ⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲡ̀ⲱ̀ⲟⲩ: Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲣⲉϥϯⲱⲙⲥ.</td>
+                    <td class="arabic">أبتدئ باشتياق، وأنطق بكرامة السابق، أمام المسيح ملك المجد، يوحنا المعمدان.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_1" class="north">
+                    <td class="english">All those on earth / the tribes and people / and tongues feast today / for John the Baptist.</td>
+                    <td class="coptic">Ⲃⲟⲛ ⲛⲓⲃⲉⲛ ⲉⲧϩⲓϫⲉⲛ ⲡⲓⲕⲁϩⲓ: ⲛⲓⲫⲩⲗⲏ ⲛⲉⲙ ⲛⲓⲗⲁⲟⲥ: ⲉⲩⲉ̀ⲣϣⲁⲓ ⲙ̀ⲫⲟⲟ̀ⲩ ⲛⲉⲙ ⲛⲓⲁ̀ⲥⲡⲓ: ⲉⲑⲃⲉ Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲣⲉϥϯⲱⲙⲥ.</td>
+                    <td class="arabic">كل الذين على الأرض، القبائل والشعوب، واللغات يعيدون اليوم، من أجل يوحنا المعَّمِد.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_2" class="south">
+                    <td class="english">Gabriel the angel / preached to Zacharias / with the birth of the Baptist / John the baptizer.</td>
+                    <td class="coptic">Ⲅⲁⲃⲣⲓⲏⲗ ⲡⲓⲁ̀ⲅⲅⲉⲗⲟⲥ: ⲁϥϩⲓϣⲉⲛⲛⲟⲩϥⲓ ⲛ̀Ⲍⲁⲭⲁⲣⲓⲁⲥ: ⲉⲑⲃⲉ ⲡⲓϫ̀ⲫⲟ ⲙ̀ⲡⲓⲡ̀ⲣⲟⲇⲣⲟⲙⲟⲥ: Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲣⲉϥϯⲱⲙⲥ.</td>
+                    <td class="arabic">غبريال الملاك، بشر زكريا، من أجل ميلاد الصابغ، يوحنا المعَّمِد.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_3" class="south">
+                    <td class="english">David the psalmist / spoke in his book of psalms / about the morning star / John the Baptist.</td>
+                    <td class="coptic">Ⲇⲁⲩⲓⲇ ⲡⲓϩⲩⲙⲛⲟⲇⲟⲥ: ⲁϥⲥⲁϫⲓ ϧⲉⲛ ⲡ̀ϫⲱⲙ ⲙ̀ⲡⲉϥⲯⲁⲗⲙⲟⲥ: ⲉⲑⲃⲉ ⲡⲓⲥⲓⲟⲩ ⲛ̀ⲧⲉ ϩⲁⲛⲁ̀ⲧⲟⲟⲩⲓ̀: Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲣⲉϥϯⲱⲙⲥ.</td>
+                    <td class="arabic">وقال داود المرتل، فى كتاب مزاميره، من أجل كوكب الصبح، يوحنا المعَّمِد.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_4" class="north">
+                    <td class="english">Through John the Baptist / we learned about our Lord Jesus Christ / and His good Father / and the Holy Spirit, One in essence.</td>
+                    <td class="coptic">Ⲉⲑⲃⲉ Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲣⲉϥϯⲱⲙⲥ: ⲁⲛⲥⲟⲩⲉ̀ⲛ ⲡⲉⲛⲟ̅ⲥ̅ Ⲓⲏ̅ⲥ Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ Ⲡⲉϥⲓⲱⲧ ⲛ̀ⲁⲅⲁⲑⲟⲥ: ⲛⲉⲙ ⲡⲓⲠ̀ⲛⲉⲩⲙⲁ ⲉ̅ⲑ̅ⲩ̅ ⲛ̀ⲟⲙⲟⲟⲩⲥⲓⲟⲥ.</td>
+                    <td class="arabic">بيوحنا المعَّمِد، عرفنا ربنا يسوع المسيح، وأباه الصالح، والروح القدس المساوى</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_5" class="north">
+                    <td class="english">The seven ranks of the Church / honor you O forerunner / before Christ, of the majesty / O John, priest of the Lord.</td>
+                    <td class="coptic">Ϣⲁϣϥ (ⲍ̅) ⲛ̀ⲧⲁⲅⲙⲁ ⲛ̀ⲉⲕⲕⲗⲏⲥⲓⲁ: ⲉⲩϯⲧⲁⲓⲟ ⲛⲁⲕ ⲱ̀ ⲡⲓⲡ̀ⲣⲟⲇⲣⲟⲙⲟⲥ: ⲙ̀ⲡⲉⲙ̀ⲑⲟ ⲙ̀Ⲡⲭ̅ⲥ̅ ⲫⲁ ϯⲉⲝⲟⲩⲥⲓⲁ: Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲟ̀ⲩⲏⲃ ⲛ̀ⲧⲉ Ⲡⲟ̅ⲥ̅.</td>
+                    <td class="arabic">مراتب الكنيسة، السبع تكرمك أيها السابق، أمام المسيح ذى السلطان، يا يوحنا كاهن الرب.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_6" class="south">
+                    <td class="english">Isaiah cries out / in this true prophecy / you are the voice calling / in the wilderness in truth.</td>
+                    <td class="coptic">Ⲏ̀ⲥⲁⲏ̀ⲁⲥ ⲁϥⲱϣ ⲉ̀ⲃⲟⲗ: ϧⲉⲛ ⲧⲉϥⲡⲣⲟⲫⲏⲧⲓⲁ ⲙ̀ⲙⲏⲓ: ϫⲉ ⲛ̀ⲑⲟⲕ ⲡⲉ ⲡ̀ϧ̀ⲣⲱⲟ̀ⲩ ⲉⲧⲱϣ ⲉ̀ⲃⲟⲗ: ϩⲓⲡ̀ϣⲁϥⲉ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓ.</td>
+                    <td class="arabic">أشعياء يصرخ، فى نبوته الحقيقة، أنك أنت الصوت الصارخ، فى البرية بالحقيقة.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_7" class="south">
+                    <td class="english">Rejoice and be glad, O faithful / with praises and songs saying / hail to you, O John / son of the promise.</td>
+                    <td class="coptic">Ⲑⲉⲗⲏⲗ ⲣⲁϣⲓ ⲱ̀ ⲛⲓⲡⲓⲥⲧⲟⲥ: ϧⲉⲛ ϩⲁⲛϩⲱⲇⲏ ⲛⲉⲙ ϩⲁⲛⲯⲁⲗⲓⲁ: ϫⲉ ⲭⲉⲣⲉ ⲛⲁⲕ ⲱ̀ Ⲓⲱⲁⲛⲛⲏⲥ: ⲡ̀ϣⲏⲣⲓ ⲛ̀ϯⲉⲡⲁ̀ⲅⲅⲉⲗⲓⲁ.</td>
+                    <td class="arabic">افرحوا وتهللوا أيها المؤمنين، بتسابيح وتراتيل، قائلين السلام لك يا يوحنا، ابن الموعد.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_8" class="north">
+                    <td class="english">John was worthy / to baptize our Savior / and heard openly / the voice of His good Father.</td>
+                    <td class="coptic">Ⲓⲱⲁⲛⲛⲏⲥ ⲁϥⲉⲣⲡ̀ⲉ̀ⲙⲡ̀ϣⲁ: ⲉⲑⲣⲉϥϯⲱⲙⲥ ⲙ̀ⲡⲉⲛⲤⲱⲧⲏⲣ: ⲟⲩⲟϩ ⲁϥⲥⲱⲧⲉⲙ ϧⲉⲛ ⲟⲩⲡⲁⲣⲣⲏⲥⲓⲁ: ⲉ̀ⲧ̀ⲥ̀ⲙⲏ ⲙ̀Ⲡⲉϥⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ.</td>
+                    <td class="arabic">استحق يوحنا، ان يعمد مخلصنا، وسمع علانية، صوت أبيه الصالح.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_9" class="north">
+                    <td class="english">Commendably, He rose up from the water / after His baptism / and heard a great voice / of the Father crying.</td>
+                    <td class="coptic">Ⲕⲁⲗⲱⲥ ⲁϥϣⲉ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲡⲓⲙⲱⲟ̀ⲩ: ⲙⲉⲛⲉⲛⲥⲁ ⲡⲉϥϫⲓⲛⲱⲙⲥ ⲉ̀ⲃⲟⲗ: ⲁϥⲥⲱⲧⲉⲙ ⲉ̀ⲟ̀ⲩⲛⲓϣϯ ⲛ̀ϧ̀ⲣⲱⲟ̀ⲩ: ⲛ̀ⲧⲉ Ⲫ̀ⲓⲱⲧ ⲉϥⲱϣ ⲉ̀ⲃⲟⲗ.</td>
+                    <td class="arabic">حسناً خرج من الماء، من بعد عماده، وسمع صوتاً عظيماً، من الآب صارخاً.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_10" class="south">
+                    <td class="english">“This is My Son / in whom I am pleased” / and He saw the Holy Spirit / descend from heaven.</td>
+                    <td class="coptic">Ⲗⲟⲓⲡⲟⲛ ϫⲉ ⲫⲁⲓ ⲡⲉ ⲠⲁϢⲏⲣⲓ: ⲉ̀ⲧⲁⲓϯⲙⲁϯ ⲛ̀ϧⲏⲧϥ: ⲛⲉⲙ ⲡⲓⲠ̀ⲉⲛⲁⲩⲙⲁ ⲉ̅ⲑ̅ⲩ̅: ⲉ̀ⲧⲁϥⲓ̀ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲧ̀ⲫⲉ ⲁϥⲛⲁⲩ ⲉ̀ⲣⲟϥ.</td>
+                    <td class="arabic">أيضاً قائلا هذا هو ابني، الذى به سررت ورأى الروح القدس، نزل من السماء.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_11" class="south">
+                    <td class="english">O Lord, grant us Your peace / O our good Savior / bless the crown of the year / with Your goodness, O Lord.</td>
+                    <td class="coptic">Ⲙⲟⲓ ⲛⲁⲛ Ⲡⲟ̅ⲥ̅ ⲛ̀ⲧⲉⲕϩⲓⲣⲏⲛⲏ: ⲱ̀ ⲡⲉⲛⲤⲱⲧⲏⲣ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲥ̀ⲙⲟⲩ ⲉ̀ⲡⲓⲭ̀ⲗⲟⲙ ⲛ̀ⲧⲉ ϯⲣⲟⲙⲡⲓ: ϩⲓⲧⲉⲛ ⲧⲉⲕⲙⲉⲧⲭ̀ⲣⲏⲥⲧⲟⲥ Ⲡⲟ̅ⲥ̅.</td>
+                    <td class="arabic">اعطنا يا رب سلامك، يا مخلصنا الصالح، بارك إكليل السنة، بصلاحك أيها الرب.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_12" class="north">
+                    <td class="english">The waters of the rivers / raise them through Your grace / through the intercessions of prayers / of John son of the blessed.</td>
+                    <td class="coptic">Ⲛⲓⲙⲱⲟ̀ⲩ ⲛ̀ⲧⲉ ⲫ̀ⲓⲁⲣⲟ: ⲁ̀ⲛⲓⲧⲟⲩ ⲉ̀ⲡ̀ϣⲱⲓ ⲕⲁⲧⲁ ⲡⲉⲕϩ̀ⲙⲟⲧ: ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲃⲓⲁ ⲛⲉⲙ ⲛⲓϯϩⲟ: ⲛ̀ⲧⲉ Ⲓⲱⲁⲛⲛⲏⲥ ⲡ̀ϣⲏⲣⲓ ⲉⲧⲥ̀ⲙⲁⲣⲱⲟ̀ⲩⲧ.</td>
+                    <td class="arabic">مياه النهر، اصعدها كنعمتك، بشفاعات وطلبات، يوحنا ابن المبارك.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_13" class="north">
+                    <td class="english">You are blessed, O our Master Christ / behold, save Your people / from their enemies and temptations / and from evil people.</td>
+                    <td class="coptic">Ⲝ̀ⲙⲁⲣⲱⲟⲩⲧ ⲱ̀ ⲡⲉⲛⲚⲏⲃ Ⲡⲭ̅ⲥ̅: ⲁ̀ⲛⲁⲩ ⲉ̀ⲡⲉⲕⲗⲁⲟⲥ ⲛⲁϩⲙⲟⲩ: ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲟⲩϫⲁϫⲓ ⲛⲉⲙ ⲛⲓⲡⲓⲣⲁⲥⲙⲟⲥ: ⲛⲉⲙ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲓⲣⲱⲙⲓ ⲉⲧϩⲱⲟ̀ⲩ.</td>
+                    <td class="arabic">تباركت يا سيدنا المسيح، انظر إلى شعبك خلصهم، من أعدائهم ومن التجارب، ومن الناس الأشرار.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_14" class="south">
+                    <td class="english">Disperse the enemies / of the Church, O Christ / humiliate their council / for the sake of John the forerunner.</td>
+                    <td class="coptic">Ⲟⲩⲟϩ ϫⲱⲣ ⲉ̀ⲃⲟⲗ ⲛ̀ⲛⲓϫⲁϫⲓ: ⲛ̀ⲧⲉ ϯⲉ̀ⲕⲕⲗⲏⲥⲓⲁ ⲱ̀ Ⲡⲭ̅ⲥ̅: ⲙⲁⲑⲉⲃⲓⲟ ⲙ̀ⲡⲟⲩⲥⲟϭⲛⲓ: ⲉⲑⲃⲉ Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲡ̀ⲣⲟⲇⲣⲟⲙⲟⲥ.</td>
+                    <td class="arabic">فرق أعداء، الكنيسة أيها المسيح، وأزل مشورتهم، من أجل يوحنا السابق.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_15" class="south">
+                    <td class="english">The Jordan rejoices today / on the feast of John the priest / of Christ the King of glory / son of Zacharias the priest.</td>
+                    <td class="coptic">Ⲡⲓⲓⲟⲣⲇⲁⲛⲏⲥ ⲣⲁϣⲓ ⲙ̀ⲫⲟⲟⲩ: ϧⲉⲛ ⲡ̀ϣⲁⲓ ⲛ̀Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲟ̀ⲩⲏⲃ: ⲛ̀ⲧⲉ Ⲡⲭ̅ⲥ̅ ⲡ̀Ⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲡ̀ⲱ̀ⲟ̀ⲩ: ⲡ̀ϣⲏⲣⲓ ⲛ̀Ⲍⲁⲭⲁⲣⲓⲁⲥ ⲡⲓⲟ̀ⲩⲏⲃ.</td>
+                    <td class="arabic">الأردن يفرح اليوم، فى عيد يوحنا الكاهن، الذي للمسيح ملك المجد، ابن زكريا الكاهن.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_16" class="north">
+                    <td class="english">Guard us, O Christ our Master / from deceivers and the envious / through the intercessions of the Virgin / and John the Baptist.</td>
+                    <td class="coptic">Ⲣⲱⲓⲥ ⲉ̀ⲣⲟⲛ ⲱ̀ ⲡⲉⲛⲚⲏⲃ Ⲡⲭ̅ⲥ̅: ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲓⲭ̀ⲣⲟϥ ⲛⲉⲙ ⲛⲓⲫ̀ⲑⲟⲛⲟⲥ: ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲃⲓⲁ̀ ⲛ̀ⲧⲉ ϯⲠⲁⲣⲑⲉⲛⲟⲥ: ⲛⲉⲙ Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲣⲉϥϯⲱⲙⲥ.</td>
+                    <td class="arabic">احرسنا أيها المسيح، ملكنا من الغاشين والحساد، بشفاعات العذراء، ويوحنا المعَّمِد.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_17" class="north">
+                    <td class="english">Bless us with Your blessing / in our deeds, O Good One / Jesus Christ the King of glory / save us from the hand of the tyrant.</td>
+                    <td class="coptic">Ⲥⲟⲙⲥ ⲉ̀ⲣⲟⲛ ϧⲉⲛ ⲡⲉⲕⲥ̀ⲙⲟⲩ: ϧⲉⲛ ⲛⲉⲛϩ̀ⲃⲏⲟⲩⲓ̀ ̀ⲱ̀ ⲡⲓⲁ̀ⲅⲁⲑⲟⲥ: ⲱ̀ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ ⲡ̀Ⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲡ̀ⲱ̀ⲟⲩ: ⲛⲁϩⲙⲉⲛ ϧⲉⲛ ⲧ̀ϫⲓϫ ⲙ̀ⲡⲓⲧⲩⲣⲁⲛⲛⲟⲥ.</td>
+                    <td class="arabic">باركنا ببركتك، فى اعمالنا أيها الصالح، يسوع المسيح ملك المجد، نجنا من يد الجبار.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_18" class="south">
+                    <td class="english">We ask You for the priests / and the deacons and laymen / save them, O Christ our Master / for the sake of the Virgin and the forerunner.</td>
+                    <td class="coptic">Ⲧⲉⲛϯϩⲟ ⲉ̀ⲣⲟⲕ ⲉⲑⲃⲉ ⲛⲓⲟ̀ⲩⲏⲃ: ⲛⲉⲙ ⲛⲓⲇⲓⲁⲕⲱⲛ ⲛⲉⲙ ⲛⲓⲗⲁⲓⲕⲟⲥ: ⲛⲁϩⲙⲟⲩ ⲱ̀ Ⲡⲭ̅ⲥ̅ ⲡⲉⲛⲚⲏⲃ: ⲉⲑⲃⲉ ϯⲠⲁⲣⲑⲉⲛⲟⲥ ⲛⲉⲙ ⲡⲓⲡ̀ⲣⲟⲇⲣⲟⲙⲟⲥ.</td>
+                    <td class="arabic">نطلب إليك من أجل الكهنة، والشمامسة والعلمانيين، خلصهم أيها المسيح ملكنا، من أجل العذراء والسابق.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_19" class="south">
+                    <td class="english">O Son of God, the Creator / grant us to complete our Christianity / for the sake of the Virgin and the forerunner / John the Baptist.</td>
+                    <td class="coptic">Ⲩⲓⲟⲥ Ⲑⲉⲟⲥ ⲡⲓⲆⲩⲙⲓⲟⲩⲣⲅⲟⲥ: ⲙⲟⲓ ⲛⲁⲛ ⲙ̀ⲡⲉⲛϫⲱⲕ ⲛ̀ⲭ̀ⲣⲓⲥⲧⲓⲁⲛⲟⲥ: ⲉⲑⲃⲉ ϯⲠⲁⲣⲑⲉⲛⲟⲥ ⲛⲉⲙ ⲡⲓⲡ̀ⲣⲟⲇⲣⲟⲙⲟⲥ: Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲣⲉϥϯⲱⲙⲥ.</td>
+                    <td class="arabic">يا ابن الله الخالق، اعطنا أن نكمل مسيحيتنا، من أجل العذراء والسابق، يوحنا المعَّمِد.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_20" class="north">
+                    <td class="english">O Master God, our help / raise the head of the Christians / through the intercessions of the Virgin / and John the Baptist.</td>
+                    <td class="coptic">Ⲫ̀ⲛⲏⲃ Ⲫϯ ⲡⲉⲛⲂⲟⲏ̀ⲑⲟⲥ: ϭⲓⲥⲓ ⲙ̀ⲡ̀ⲧⲁⲡ ⲛ̀ⲛⲓⲭ̀ⲣⲓⲥⲧⲓⲁⲛⲟⲥ: ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲃⲓⲁ ⲛ̀ⲧⲉ ϯⲠⲁⲣⲑⲉⲛⲟⲥ: ⲛⲉⲙ Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲣⲉϥϯⲱⲙⲥ.</td>
+                    <td class="arabic">ايها السيد الله عوننا، ارفع رأس المسيحيين، بشفاعات العذراء، ويوحنا المعَّمِد.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_21" class="north">
+                    <td class="english">Hail to you, O Virgin / Mary the fair dove / hail to the kinsman of Christ / John the Baptist.</td>
+                    <td class="coptic">Ⲭⲉⲣⲉ ⲛⲉ ⲱ̀ ϯⲠⲁⲣⲑⲉⲛⲟⲥ: Ⲙⲁⲣⲓⲁ ϯϭⲣⲟⲙⲡⲓ ⲉⲑⲛⲉⲑⲱⲥ: ⲭⲉⲣⲉ ⲡⲓⲥⲩⲅⲅⲉⲛⲏⲥ ⲛ̀ⲧⲉ Ⲡⲭ̅ⲥ̅: Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲣⲉϥϯⲱⲙⲥ.</td>
+                    <td class="arabic">السلام لك أيتها العذراء، مريم الحمامة الحسنة، السلام لنسيب المسيح، يوحنا المعَّمِد.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_22" class="south">
+                    <td class="english">All the souls, grant them coolness / in the bosom of our righteous fathers / Abraham, Isaac, and Jacob / for the sake of Mary and the forerunner.</td>
+                    <td class="coptic">Ⲯ̀ⲩⲭⲏ ⲛⲓⲃⲉⲛ ⲙⲟⲓ ⲛⲱⲟⲩ ⲛ̀ⲟⲩⲭ̀ⲃⲟⲃ: ϧⲉⲛ ⲕⲉⲛϥ ⲛ̀ⲛⲉⲛⲓⲟϯ ⲛ̀ⲇⲓⲕⲉⲟⲥ: Ⲁⲃⲣⲁⲁⲙ Ⲓⲥⲁⲁⲕ Ⲓⲁⲕⲱⲃ: ⲉⲑⲃⲉ Ⲙⲁⲣⲓⲁ ⲛⲉⲙ ⲡⲓⲡ̀ⲣⲟⲇⲣⲟⲙⲟⲥ.</td>
+                    <td class="arabic">كل الأنفس أعطها برداً، فى أحضان آبائنا الصدقيين، إبراهيم واسحق ويعقوب، من أجل مريم والسابق.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_23" class="south">
+                    <td class="english">O our Savior, remember me / I, Nicodemous, the dust / and forgive me my sins / with the rest of the Christians.</td>
+                    <td class="coptic">Ⲱ̀ ⲡⲉⲛⲤⲱⲧⲏⲣ ⲁ̀ⲣⲓⲡⲁⲙⲉⲩⲓ̀: ⲁⲛⲟⲕ ⲡⲓⲕⲉⲣⲙⲓ Ⲛⲓⲕⲟⲩⲇⲓⲙⲟⲥ: ⲟⲩⲟϩ ⲭⲱ ⲛⲏⲓ ⲉ̀ⲃⲟⲗ ⲛ̀ⲛⲁⲛⲟⲃⲓ: ⲛⲉⲙ ⲡ̀ⲥⲉⲡⲓ ⲛ̀ⲛⲓⲭ̀ⲣⲓⲥⲧⲓⲁⲛⲟⲥ.</td>
+                    <td class="arabic">يا مخلصنا اذكرني، أنا الرماد نيقوديموس، وأغفر لى خطاياى، مع سائر المسيحيين.</td>
                 </tr>
             </tbody>
         </table>`;
@@ -1271,14 +1795,13 @@ const thursdayPsalis = {
             </tbody>
         </table>`;
         return html;
-    }
-    ,
+    },
     Nativity(tableNumber) {
         const html = `
         <table id="table_${tableNumber}" style="display: table;" title="Nativity Psali Watos For Thursday">
             <caption id="caption_table_${tableNumber}" class="caption">Nativity Psali Watos For Thursday
                 <span class="coptic-caption">Ⲁ̀Ⲫϯ ⲥⲁϫⲓ ⲛⲉⲙ Ⲙⲱⲩⲥⲏⲥ</span>
-                <span class="arabic-caption">إبصاليه واطس ليوم الخميس في برامون الميلاد</span>
+                <span class="arabic-caption">إبصاليه واطس ليوم الخميس في عيد الميلاد</span>
             </caption>
             <tbody>
                 <tr id="table_${tableNumber}_row_0" class="north">
@@ -1400,6 +1923,138 @@ const thursdayPsalis = {
                     <td class="english">Our Lord Jesus Christ, the merciful / grant us light which overcomes darkness through the prayers of the bride / Yours is the glory with her. Amen.</td>
                     <td class="coptic">Ⲱ̀ ⲡⲉⲛⲟ̅ⲥ̅ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ ⲡⲓⲚⲁⲏⲧ: ϯⲛⲁⲛ ⲙ̀ⲡⲓⲟ̀ⲩⲱ̀ⲓⲛⲓ ⲛ̀ⲁ̀ⲧⲕⲁⲕⲓⲛ: ϩⲓⲧⲉⲛ ⲛⲓϯϩⲟ ⲛ̀ϯϣⲉⲗⲏⲧ: ⲡⲓⲱ̀ⲟ̀ⲩ ⲛⲁⲕ ⲛⲉⲙⲁⲥ ⲁ̀ⲙⲏⲛ.</td>
                     <td class="arabic">يا ربنا يسوع المسيح الرحوم.أعطنا النور الذي لا تغشاه الظملة بطلبات العروسة لك</td>
+                </tr>
+            </tbody>
+        </table>`;
+        return html;
+    },
+    Theophany(tableNumber) {
+        const html = `
+        <table id="table_${tableNumber}" style="display: table;" title="Feast of Theophany Psali Watos For Thursday">
+            <caption id="caption_table_${tableNumber}" class="caption">Feast of Theophany Psali Watos For Thursday
+                <span class="coptic-caption">Ⲁ̀ⲣⲉϩ ⲉ̀ⲣⲟⲓ Ⲡ̀ⲟ̅ⲥ̅ ⲡⲁⲚⲟⲩϯ</span>
+                <span class="arabic-caption">إبصاليه واطس ليوم الخميس في عيد الغطاس</span>
+            </caption>
+            <tbody>
+                <tr id="table_${tableNumber}_row_0" class="north">
+                    <td class="english">Keep me O Lord my God, for I hoped in You, grant me grace and salvation, that I may praise You.</td>
+                    <td class="coptic">Ⲁ̀ⲣⲉϩ ⲉ̀ⲣⲟⲓ Ⲡ̀ⲟ̅ⲥ̅ ⲡⲁⲚⲟⲩϯ: ϫⲉ ⲁⲓⲉⲣϩⲉⲗⲡⲓⲥ ⲉ̀ⲣⲟⲕ: ⲙⲟⲓ ⲛⲏⲓ ⲛ̀ⲟⲩϩ̀ⲙⲟⲧ ⲛⲉⲙ ⲟⲩⲥⲱϯ: ϩⲓⲛⲁ ⲛ̀ⲧⲁⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟⲕ.</td>
+                    <td class="arabic">إحفظني أيها الرب إلهي، لأني عليك توكلت، أعطيني نعمة وخلاصاً، لكي أسبحك.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_1" class="north">
+                    <td class="english">Loosen me from my evils, keep me with your power, that I may begin with desire, and open my mouth.</td>
+                    <td class="coptic">Ⲃⲱⲗ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲁⲡⲉⲧϩⲱⲟⲩ: ϧⲉⲛ ⲧⲉⲕϫⲟⲙ ⲁ̀ⲣⲉϩ ⲉ̀ⲣⲟⲓ: ⲉⲑⲣⲓⲉⲣϩⲏⲧⲥ ⲛ̀ⲟⲩϭⲓϣϣⲱⲟⲩ: ⲟⲩⲟϩ ⲛ̀ⲧⲁⲟⲩⲱⲛ ⲛ̀ⲣⲱⲓ.</td>
+                    <td class="arabic">حلني من شروري، وبقوتك إحفظني، لكي أبتدئ بإشتياق، وأفتح فمي.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_2" class="south">
+                    <td class="english">+ I speak of your virtues, O great forerunner, John the one of favor, kinsman of Christ.</td>
+                    <td class="coptic">+ Ⲅⲉ ⲅⲁⲣ ϯϫⲱ ⲛ̀ⲛⲓⲕⲁⲑⲁⲣⲧⲱⲙⲁ: ⲱ̀ ⲡⲓⲛⲓϣϯ ⲙ̀ⲡ̀ⲣⲟⲇⲣⲟⲙⲟⲥ: Ⲓⲱⲁⲛⲛⲏⲥ ⲫⲁ ⲡⲓⲁⲝⲓⲱⲙⲁ: ⲡⲓⲥⲩⲅⲅⲉⲛⲏⲥ ⲛ̀ⲧⲉ Ⲡⲭ̅ⲥ̅.</td>
+                    <td class="arabic">+ أنا أقول فضائلك، أيها العظيم السابق، يوحنا ذا الدالة، نسيب المسيح.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_3" class="south">
+                    <td class="english">+ David revealed to us, that truth sprang from earth, and justice shone, from heaven with majesty.</td>
+                    <td class="coptic">+ Ⲇⲁⲩⲓⲇ ⲁϥⲟⲩⲱⲛϩ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ: ϫⲉ ϯⲙⲉⲑⲙⲏⲓ ⲁⲥϣⲁⲓ ⲉ̀ⲃⲟⲗ: ϧⲉⲛ ⲡ̀ⲕⲁϩⲓ ϯⲇⲓⲕⲉⲟ̀ⲥⲩⲛⲏⲁⲥ ϫⲟⲩϣⲧ: ⲉ̀ⲃⲟⲗϧⲉⲛ ⲧ̀ⲫⲉ ϧⲉⲛ ⲟⲩⲁ̀ⲙⲁϩⲓ.</td>
+                    <td class="arabic">+ أظهر لنا داود، أن الحق أشرق من الأرض، والعدل تطلع، من السماء بعزة.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_4" class="north">
+                    <td class="english">This is the Bridegroom, Jesus the Sun of righteousness, and John the forerunner, the truly shining moon.</td>
+                    <td class="coptic">Ⲉ̀ⲧⲉ ⲫⲁⲓ ⲡⲉ ⲡⲓⲚⲩⲙⲫⲓⲟⲥ: Ⲓⲏ̅ⲥ̅ Ⲡⲓⲣⲏ ⲛ̀ⲧⲉ ϯⲙⲉⲑⲙⲏ: ⲛⲉⲙ Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲡ̀ⲣⲟⲇⲣⲟⲙⲟⲥ: ⲡⲓⲓⲟϩ ⲙ̀ⲫ̀ⲟⲩⲱⲓⲛⲓ ⲙ̀ⲙⲏⲓ.</td>
+                    <td class="arabic">هذا هو الختن، يسوع شمس البر، ويوحنا السابق، القمر المضئ الحقيقي.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_5" class="north">
+                    <td class="english">Your father Zacharias, called you the prophet, and the witness, of Christ the Maker.</td>
+                    <td class="coptic">Ⲍⲁⲭⲁⲣⲓⲁⲥ ⲅⲁⲣ ⲡⲉⲕⲓⲱⲧ: ⲁϥⲙⲟⲩϯ ⲉ̀ⲣⲟⲕ ϫⲉ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲟⲩⲟϩ ⲡⲓⲙⲉⲑⲣⲉ ⲉ̀ⲧⲉⲛϩⲟⲧ: ⲛ̀ⲧⲉ Ⲡⲭ̅ⲥ̅ ⲡⲓⲦⲉⲭⲛⲓⲧⲏⲥ.</td>
+                    <td class="arabic">زكريا أبوك، دعاك النبي، والشاهد، الذي للمسيح الصانع.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_6" class="south">
+                    <td class="english">+ Isaiah of the sound, that is eloquent, calls you the voice, crying in the wilderness.</td>
+                    <td class="coptic">+ Ⲏ̀ⲥⲁⲏ̀ⲁⲥ ϧⲉⲛ ⲡⲉϥϧ̀ⲣⲱⲟⲩ: ⲛⲉⲙ ⲡⲉϥⲏ̀ⲙⲁ ⲉ̀ⲧⲉⲣϣⲁⲩ: ⲁϥⲙⲟⲩϯ ⲉ̀ⲣⲟⲕ ϫⲉ ⲡ̀ϧ̀ⲣⲱⲟⲩ: ⲉⲧⲱϣ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲓϣⲁϥⲉⲩ.</td>
+                    <td class="arabic">+ أشعياء ذو الصوت، الفصيح يدعوك، الصوت الصارخ، في البراري.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_7" class="south">
+                    <td class="english">+ The lake of Zebelun, and the land of Naphatali, you became their servant, O unwavering struggler.</td>
+                    <td class="coptic">+ Ⲑⲁⲗⲁⲥⲥⲁ ⲧⲟⲩ Ⲍⲁⲃⲟⲗⲟⲛ: ⲛⲉⲙ ⲡ̀ⲕⲁϩⲓ ⲛ̀Ⲛⲉⲫⲑⲁⲗⲓⲙ: ⲁⲕϣⲱⲡⲓ ⲛⲱⲟⲩ ⲛ̀ⲟⲩⲇⲓⲁⲕⲱⲛ: ⲱ̀ ⲡⲓⲁⲑⲗⲓⲧⲏⲥ ⲛ̀ⲁⲧⲕⲓⲙ.</td>
+                    <td class="arabic">+ بحيرة زبولون، وأرض نفتاليم، صرت لهم خادماً، أيها المجاهد غير المتزعزع.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_8" class="north">
+                    <td class="english">Jesus Christ chose you, from the tribe of Levi, He sanctified you, and baptized you in the womb.</td>
+                    <td class="coptic">Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ ⲁϥⲥⲱⲧⲡ ⲙ̀ⲙⲟⲕ: ⲉ̀ⲃⲟⲗϧⲉⲛ ⲧ̀ⲫⲩⲗⲏ ⲛ̀Ⲗⲉⲩⲓ: ⲁϥⲉⲣⲁ̀ⲅⲓⲁⲍⲓⲛ ⲙ̀ⲙⲟⲕ: ⲟⲩⲟϩ ⲁϥϯⲱⲙⲥ ⲙ̀ⲙⲟⲕ ϧⲉⲛ ⲑ̀ⲛⲉϫⲓ.</td>
+                    <td class="arabic">إختارك يسوع المسيح، من سبط لاوي، وقدسك، وعمدك في البطن.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_9" class="north">
+                    <td class="english">You were exalted more than the patriarchs, honored more then the prophets, for you became the baptizer, of Jesus the Messiah.</td>
+                    <td class="coptic">Ⲕ̀ϭⲟⲥⲓ ⲉ̀ⲛⲓⲡⲁⲧⲣⲓⲁⲣⲭⲏⲥ: ⲕ̀ⲧⲁⲓⲏ̀ⲟⲩⲧ ⲉ̀ⲛⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ϫⲉ ⲁⲕϣⲱⲡⲓ ⲙ̀ⲡⲓⲃⲁⲡⲧⲓⲥⲧⲏⲥ: ⲛ̀ⲧⲉ Ⲓⲏ̅ⲥ̅ ⲡⲓⲘⲁⲥⲓⲁⲥ.</td>
+                    <td class="arabic">تعاليت أكثر من البطاركة، ومكرم عن الأنبياء، صرت صابغاً، ليسوع الماسيا.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_10" class="south">
+                    <td class="english">+ Also He witness of you, before you and the multitude, therefore they came to you, and were baptized by you.</td>
+                    <td class="coptic">+ Ⲗⲟⲓⲡⲟⲛ ⲁϥⲉⲣⲙⲉⲑⲣⲉ ϧⲁⲣⲟⲕ: ⲙ̀ⲡⲉⲙ̀ⲑⲟ ⲛ̀ⲛⲓⲙⲏϣ ⲟⲩⲟϩ ⲁϥϣⲟⲡⲕ: ⲉⲑⲃⲉ ⲫⲁⲓ ⲁⲩⲓ̀ ϣⲁⲣⲟⲕ: ⲉ̀ϭⲓⲱⲙⲥ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲟⲧⲕ.</td>
+                    <td class="arabic">+ لأنه شهد عنك، أمام الجموع وقبلك، من أجل هذا أتوا إليك، وأعتمدوا منك.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_11" class="south">
+                    <td class="english">+ None among those born, of women is like you, You were fought and were exalted, and spoke truth from you mouth.</td>
+                    <td class="coptic">+ Ⲙ̀ⲡⲉ ⲟⲩⲟⲛ ⲧⲱⲛϥ ϧⲉⲛ ⲛⲓϫⲓⲛⲙⲓⲥⲓ: ⲛ̀ⲧⲉ ⲛⲓϩⲓⲟⲙⲓ ⲉϥⲟ̀ⲛⲓ ⲙ̀ⲙⲟⲕ: ϫⲉ ⲁⲕⲙⲓϣⲓ ⲟⲩⲟϩ ⲁⲕϭⲓⲥⲓ: ⲁⲕϫⲉ ϯⲙⲉⲑⲙⲏⲓ ϧⲉⲛ ⲣⲱⲕ.</td>
+                    <td class="arabic">+ لم يقم في مواليد، النساء من يشبهك، لأنك تأنيت وارتفعت، وقلت الحق من فيك.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_12" class="north">
+                    <td class="english">You are greater than a prophet, you were truly exalted, you are the friend of the Master, the true Lamb of God.</td>
+                    <td class="coptic">Ⲛ̀ⲑⲟⲕ ⲟⲩϩⲟⲩⲟ̀ ⲙ̀ⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲁⲕϭⲓⲥⲓ ϧⲉⲛ ϯⲙⲉⲑⲙⲏⲓ: ⲛ̀ⲑⲟⲕ ⲡⲉ ⲡ̀ϣ̀ⲫⲏⲣ ⲙ̀ⲡⲓⲆⲉⲥⲡⲟⲧⲏⲥ: ⲡⲓϨⲓⲏⲃ ⲛ̀ⲧⲉ Ⲫ̀ϯ ⲙ̀ⲙⲏⲓ.</td>
+                    <td class="arabic">أنت أفضل من نبي، تعاليت بالحقيقة، أنت صديق السيد، حمل الله الحقيقي.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_13" class="north">
+                    <td class="english">You were adorned in your deeds, and witnessed to the Light, which came down from heaven, Light out of Light.</td>
+                    <td class="coptic">Ⲝ̀ⲥⲟⲗⲥⲉⲗ ϧⲉⲛ ⲛⲉⲕϩ̀ⲃⲏⲟⲩⲓ̀: ⲁⲕⲉⲣⲙⲉⲑⲣⲉ ϧⲁ ⲡⲓⲞⲩⲱⲓⲛⲓ: ⲉ̀ⲧⲁϥⲓ̀ ⲉ̀ⲡⲉⲥⲏⲧ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲓⲫⲏⲟⲩⲓ̀: Ⲟⲩⲱⲓⲛⲓ ⲡⲉ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲟⲩⲞⲩⲱⲓⲛⲓ.</td>
+                    <td class="arabic">تزينت في أعمالك، وشهدت للنور، الذي نزل من السماء، أنت هو نور من نور.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_14" class="south">
+                    <td class="english">+ A proud name is your name, O kinsman of Emmanuel, for you became our discipliner, and the chariot of Israel.</td>
+                    <td class="coptic">+ Ⲟⲩⲣⲁⲛ ⲛ̀ϣⲟⲩϣⲟⲩ ⲡⲉ ⲡⲉⲕⲣⲁⲛ: ⲱ̀ ⲡⲓⲥⲩⲅⲅⲉⲛⲏⲥ ⲛ̀Ⲉⲙⲙⲁⲛⲟⲩⲏⲗ: ⲁⲕϣⲱⲡⲓ ⲛ̀ⲟⲩϩⲩⲡⲉⲩⲥ ⲛⲁⲛ: ⲛⲉⲙ ⲟⲩϩⲁⲣⲙⲁ ⲙ̀ⲡⲒⲥⲣⲁⲏⲗ.</td>
+                    <td class="arabic">+ مفتخر هو إسمك، يا نسيب عمانوئيل، لأنك صرت مُهذباً لنا، ومركبة إسرائيل.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_15" class="south">
+                    <td class="english">+ Also he was worthy, to behold the mystery, the life-giving Trinity, who abides forever.</td>
+                    <td class="coptic">+ Ⲡⲁⲗⲓⲛ ⲟⲛ ⲁϥⲉⲣⲡ̀ⲉⲙⲡ̀ϣⲁ: ⲉ̀ⲛⲁⲩ ⲉ̀ⲡⲓⲙⲩⲥⲧⲏⲣⲓⲟⲛ: ⲛ̀ϯⲦ̀ⲣⲓⲁⲥ ⲛ̀ⲣⲉϥⲧⲁⲛϧⲟ: ⲉⲑⲙⲏⲛ ⲉ̀ⲃⲟⲗ ϣⲁ ⲉ̀ⲛⲉϩ.</td>
+                    <td class="arabic">+ وأيضا استحق، أن ينظر سر، الثالوث المحيي ، الدائم إلى الأبد.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_16" class="north">
+                    <td class="english">Truly you spoke with your tongue, and reprimanded the impious ones, Herod and Herodias, before the people.</td>
+                    <td class="coptic">Ⲣⲏⲧⲟⲥ ⲁⲕⲥⲁϫⲓ ϧⲉⲛ ⲡⲉⲕⲗⲁⲥ: ⲁⲕⲥⲟϩⲓ ⲛ̀ⲛⲓⲁ̀ⲛⲟⲙⲟⲥ: Ⲏ̀ⲣⲱⲇⲏⲥ ⲛⲉⲙ Ⲏ̀ⲣⲱⲇⲓⲁⲥ: ⲙ̀ⲡⲉⲙ̀ⲑⲟ ⲙ̀ⲡⲓⲗⲁⲟⲥ.</td>
+                    <td class="arabic">حقاً تكلمت بلسانك، وبكت المنافقين، هيرودس وهيروديا، أمام الشعب.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_17" class="north">
+                    <td class="english">Yes truly you were beheaded, and died for the truth, you were taken to heaven, O unfalling humble one.</td>
+                    <td class="coptic">Ⲥⲉ ⲟⲛⲧⲱⲥ ⲁⲩⲱ̀ⲗⲓ ⲛ̀ⲧⲉⲕⲁ̀ⲫⲉ: ⲟⲩⲟϩ ⲁⲕⲙⲟⲩ ⲉ̀ϫⲉⲛ ϯⲙⲉⲑⲙⲏⲓ: ⲁⲩⲱ̀ⲗⲓ ⲙ̀ⲙⲟⲕ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ⲧ̀ⲫⲉ: ⲱ̀ ⲡⲓⲑⲉⲃⲓⲏ̀ⲟⲩⲧ ⲉⲧⲛ̀ⲁⲧϩⲉⲓ.</td>
+                    <td class="arabic">نعم حقاً أُخذت رأسك، ومُت على الحق، ورُفعت إلى السماء، أيها المتواضع الغير الواقع.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_18" class="south">
+                    <td class="english">+ We do not get weary, of blessing you, forever and ever, and praising you.</td>
+                    <td class="coptic">+ Ⲧⲉⲛⲛⲁϧⲓⲥⲓ ⲁⲛ ⲉ̀ⲛⲉϩ: ⲧⲉⲛⲉⲣⲙⲁⲕⲁⲣⲓⲍⲓⲛ ⲙ̀ⲙⲟⲕ: ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲡⲓⲉ̀ⲛⲉϩ: ⲧⲉⲛⲉⲣⲉⲩⲫⲟⲙⲓⲛ ⲙ̀ⲙⲟⲕ.</td>
+                    <td class="arabic">+ لا نتعب أبداً، أن نغبطك، إلى أبد الأبد، ونمدحك.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_19" class="south">
+                    <td class="english">+ Behold your intercession, is acceptable before your King, you also have favor, before the Creator.</td>
+                    <td class="coptic">+ Ⲩ̀ⲡⲡⲉ ⲓⲥ ⲛⲉⲕⲡ̀ⲣⲉⲥⲃⲓⲁ: ⲉⲥϣⲏⲡ ⲛⲁϩⲣⲉⲛ ⲡⲉⲕⲞⲩⲣⲟ: ⲟⲩⲟⲛ ⲛ̀ⲧⲁⲕ ⲙ̀ⲙⲁⲩ ⲛ̀ⲟⲩⲡⲁⲣⲣⲏⲥⲓⲁ: ⲙ̀ⲡⲉⲙ̀ⲑⲟ ⲙ̀ⲡⲓⲢⲉϥⲑⲁⲙⲓⲟ.</td>
+                    <td class="arabic">+ ها هي شفاعتك، مقبولة أمام ملكك، ولك أيضاً الدالة، أمام الخالق.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_20" class="north">
+                    <td class="english">O wonderful God, in His highest, who came and became man, and made us His people.</td>
+                    <td class="coptic">Ⲫ̀ϯ ⲫⲏⲉⲧⲟⲓ ⲛ̀ϣ̀ⲫⲏⲣⲓ: ϧⲉⲛ ⲛⲏⲉⲧϭⲟⲥⲓ ⲛ̀ⲧⲁϥ: ⲫⲏⲉ̀ⲧⲁϥⲓ̀ ⲟⲩⲟϩ ⲁϥⲉⲣⲣⲱⲙⲓ: ⲁϥⲁⲓⲧⲉⲛ ⲛ̀ⲟⲩⲗⲁⲟⲥ ⲛⲁϥ.</td>
+                    <td class="arabic">يا الله العجيب، في أعاليه، الذي جاء وتأنس، وجعلنا له شعباً.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_21" class="north">
+                    <td class="english">Forgive our trespasses, O good Lover of mankind, through the mediations, of Your forerunner.</td>
+                    <td class="coptic">Ⲭⲱ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ ⲛ̀ⲛⲉⲛⲁ̀ⲛⲟⲙⲓⲁ: ⲱ̀ ⲡⲓⲘⲁⲓⲣⲱⲙⲓ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ϩⲓⲧⲉⲛ ϯⲙⲉⲧⲙⲉⲥⲓⲧⲓⲁ: ⲛ̀ⲧⲉ ⲡⲉⲕⲡ̀ⲣⲟⲇⲣⲟⲙⲟⲥ.</td>
+                    <td class="arabic">أغفر لنا آثامنا، يا محب البشر الصالح، بواسطة، سابقك.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_22" class="south">
+                    <td class="english">+ All souls who departed, from this life, repose in the bosom of Abraham, in newness and mercy.</td>
+                    <td class="coptic">+ Ⲯⲩⲭⲏ ⲛⲓⲃⲉⲛ ⲉ̀ⲧⲁⲩⲫⲟⲣϫⲟⲩ: ⲉ̀ⲃⲟⲗϧⲉⲛ ⲡⲁⲓⲃⲓⲟⲥ ⲫⲁⲓ: ϧⲉⲛ ⲕⲉⲛϧ ⲛ̀Ⲁⲃⲣⲁⲁⲙ ⲣⲟⲑⲃⲟⲩ: ϧⲉⲛ ⲟⲩⲙⲉⲧⲃⲉⲣⲓ ⲛⲉⲙ ⲟⲩⲛⲁⲓ.</td>
+                    <td class="arabic">+ كل الأنفس التي فارقت، هذه الحياة، أتكئها في حضن إبراهيم، بتجديد رحمة.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_23" class="south">
+                    <td class="english">+ O Holy One and Long-suffering, forgive my sins, for the sake of Your servant, Saint John the celibate.</td>
+                    <td class="coptic">+ Ⲱ̀ⲟⲩⲛ̀ϩⲏⲧ ⲱ̀ ⲫⲏⲉ̅ⲑ̅ⲩ̅: ⲭⲱ ⲛⲏⲓ ⲉ̀ⲃⲟⲗ ⲛ̀ⲛⲁⲁ̀ⲛⲟⲙⲓⲁ: ⲉⲑⲃⲉ ⲡⲉⲕⲃⲱⲕ ⲉ̅ⲑ̅ⲩ̅: Ⲓⲱⲁⲛⲛⲏⲥ ⲫⲁ ϯⲡⲁⲣⲑⲉⲛⲓⲁ.</td>
+                    <td class="arabic">+ أيها القدوس الطويل الأناة، إغفر لي آثامي، من أجل عبدك القديس، ويوحنا ذي البتولية.</td>
                 </tr>
             </tbody>
         </table>`;
@@ -1539,14 +2194,13 @@ const fridayPsalis = {
             </tbody>
         </table>`;
         return html;
-    }
-    ,
+    },
     Nativity(tableNumber) {
         const html = `
         <table id="table_${tableNumber}" style="display: table;" title="Nativity Psali Watos For Friday">
             <caption id="caption_table_${tableNumber}" class="caption">Nativity Psali Watos For Friday
                 <span class="coptic-caption">Ⲁⲙⲱⲓⲛⲓ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉⲛϩⲱⲥ</span>
-                <span class="arabic-caption">إبصاليه واطس ليوم الجمعة في برامون الميلاد</span>
+                <span class="arabic-caption">إبصاليه واطس ليوم الجمعة في عيد الميلاد</span>
             </caption>
             <tbody>
                 <tr id="table_${tableNumber}_row_0" class="north">
@@ -1712,6 +2366,138 @@ const fridayPsalis = {
             </tbody>
         </table>`;
         return html;
+    },
+    Theophany(tableNumber) {
+        const html = `
+        <table id="table_${tableNumber}" style="display: table;" title="Feast of Theophany Psali Watos For Friday">
+            <caption id="caption_table_${tableNumber}" class="caption">Feast of Theophany Psali Watos For Friday
+                <span class="coptic-caption">Ⲁϥⲓ̀ ⲛ̀ϫⲉ ⲡⲓⲡ̀ⲣⲟⲇⲣⲟⲙⲟⲥ</span>
+                <span class="arabic-caption">إبصاليه واطس ليوم الجمعة في عيد الغطاس</span>
+            </caption>
+            <tbody>
+                <tr id="table_${tableNumber}_row_0" class="north">
+                    <td class="english">The forerunner came / the kinsman of Immanuel / John the Baptist / to the land of Israel.</td>
+                    <td class="coptic">Ⲁϥⲓ̀ ⲛ̀ϫⲉ ⲡⲓⲡ̀ⲣⲟⲇⲣⲟⲙⲟⲥ: ⲡⲓⲥⲩⲅⲅⲉⲛⲏⲥ ⲛ̀Ⲉⲙⲙⲁⲛⲟⲩⲏⲗ: Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲣⲉϥϯⲱⲙⲥ: ⲉ̀ⲡ̀ⲕⲁϩⲓ ⲛ̀ⲧⲉ ⲡⲒⲥⲣⲁⲏ̀ⲗ.</td>
+                    <td class="arabic">أتى السابق، نسيب عمانوئيل، يوحنا المعَّمِد، إلى أرض إسرائيل.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_1" class="north">
+                    <td class="english">Baptizing in the waters / of the Jordan River / saying “The kingdom of heaven / is quickly at hand.”</td>
+                    <td class="coptic">Ⲃⲁⲡⲧⲓⲥⲓⲛ ϧⲉⲛ ⲫ̀ⲓⲁⲣⲟ: ⲙ̀ⲡⲓⲙⲱⲟ̀ⲩ ⲛ̀ⲧⲉ ⲡⲓⲒⲟⲣⲇⲁⲛⲏⲥ: ϫⲉ ⲁⲥϧⲱⲛⲧ ⲛ̀ϫⲉ ϯⲙⲉⲧⲟⲩⲣⲟ: ⲛ̀ⲧⲉ ⲛⲓⲫⲏⲟⲩⲓ̀ ϧⲉⲛ ⲟⲩⲓⲏⲥ.</td>
+                    <td class="arabic">يعتمد فى ماء، نهرالأردن، قائلاً قد اقترب ملكوت السموات قرباً سريعاً.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_2" class="south">
+                    <td class="english">O race of house of Israel / bring forth fruit / befitting of repentance / with joy without sadness.</td>
+                    <td class="coptic">Ⲅⲉⲛⲟⲥ ⲛⲓⲃⲉⲛ ⲡ̀ⲏⲓ ⲛ̀Ⲓⲟⲩⲇⲁ: ⲁ̀ⲣⲓⲟ̀ⲩⲓ̀ ⲛ̀ⲟⲩⲟ̀ⲩⲧⲁϩ: ϥ̀ⲉ̀ⲙⲡ̀ϣⲁ ⲛ̀ϯⲙⲉⲧⲁⲛⲟⲓⲁ: ϧⲉⲛ ⲟⲩⲟ̀ⲩⲛⲟϥ ⲛ̀ⲁ̀ⲧⲙ̀ⲕⲁϩ.</td>
+                    <td class="arabic">يأكل جنس بيت يهوذا، اثمروا ثمرة تليق بالتوبة، بفرح وبغير حزن.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_3" class="south">
+                    <td class="english">Truly I baptize you / with water of repentance / He who is coming shall baptize / with Spirit of purity.</td>
+                    <td class="coptic">Ⲇⲓⲕⲉⲱ̀ⲥ ⲁ̀ⲛⲟⲕ ϯⲱⲙⲥ ⲙ̀ⲙⲱⲧⲉⲛ: ϧⲉⲛ ⲟ̀ⲩⲙⲱⲟ̀ⲩ ⲛ̀ϯⲙⲉⲧⲁⲛⲟⲓⲁ: ⲫⲏⲉ̀ⲑⲛⲏⲟⲩ ϥ̀ⲛⲁϯⲱⲙⲥ ⲙ̀ⲙⲱⲧⲉⲛ: ϧⲉⲛ ⲟⲩⲡ̅ⲛ̅ⲁ̅ ⲛ̀ⲧⲉ ϯⲁ̀ⲅⲛⲓⲁ.</td>
+                    <td class="arabic">حقاً أنا أعمدكم، بالماء للتوبة، الآتى سيعمدكم، بروح العفة.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_4" class="north">
+                    <td class="english">Therefore Isaiah / the blessed cried out saying / the voice of One crying in / the wilderness: prepare the way.</td>
+                    <td class="coptic">Ⲉⲑⲃⲉ ⲫⲁⲓ ⲁϥⲱϣ ⲉ̀ⲃⲟⲗ: ⲛ̀ϫⲉ Ⲏ̀ⲥⲁⲏ̀ⲁⲥ ⲫⲏⲉ̀ⲧⲥ̀ⲙⲁⲣⲱⲟⲩⲧ: ϫⲉ ⲧ̀ⲥ̀ⲙⲏ ⲡⲉⲧⲱϣ ⲉ̀ⲃⲟⲗ: ϩⲓⲡ̀ϣⲁϥⲉ ϫⲉ ⲥⲉⲃⲧⲉ ⲫ̀ⲙⲱⲓⲧ.</td>
+                    <td class="arabic">فلهذا صرخ، أشعياء المبارك، قائلاً صوت صارخ، في البرية اعدوا طريق.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_5" class="north">
+                    <td class="english">The life-giver, the Lord our God / make His paths straight / all valleys and fields / rejoice with joy.</td>
+                    <td class="coptic">Ⲍⲱⲏ ⲫⲟⲣⲟⲥ Ⲡⲟ̅ⲥ̅ ⲡⲉⲛⲚⲟⲩϯ: ⲟⲩⲟϩ ⲥⲟⲩⲧⲉⲛ ⲛⲉϥⲙⲁⲙ̀ⲙⲟϣⲓ: ϧⲉⲗⲗⲟⲧ ⲛⲓⲃⲉⲛ ⲛⲉⲙ ⲙⲉϣϣⲟϯ: ⲉⲩⲉ̀ⲑⲉⲗⲏⲗ ϧⲉⲛ ⲟⲩⲣⲁϣⲓ.</td>
+                    <td class="arabic">المحيى الرب إلهنا، وسهلوا سبله، كل الأودية والبقاع، تتهلل بفرح.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_6" class="south">
+                    <td class="english">Behold, Jesus the merciful / came to the Jordan / on this night / and was baptized from John.</td>
+                    <td class="coptic">Ⲏⲡⲡⲉ ⲅⲁⲣ Ⲓⲏ̅ⲥ̅ ⲡⲓⲢⲉϥⲛⲁⲓ: ⲁϥⲓ̀ ⲉ̀ϫⲉⲛ ⲡⲓⲒⲟⲣⲇⲁⲛⲏⲥ: ⲙ̀ⲫ̀ⲣⲏϯ ⲙ̀ⲡⲁⲓⲉ̀ϫⲱⲣϩ ⲫⲁⲓ: ⲁϥϭⲓⲱ̀ⲙⲥ ⲉ̀ⲃⲟⲗϧⲉⲛ Ⲓⲱⲁⲛⲛⲏⲥ.</td>
+                    <td class="arabic">ها هوذا يسوع الرحوم، جاء إلى الأردن، فى مثل هذه الليلة، وتعمد من يوحنا.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_7" class="south">
+                    <td class="english">The holy worshipper / witnessed and said / I saw the Holy Spirit / coming upon Him.</td>
+                    <td class="coptic">Ⲑⲉⲟⲥⲉⲃⲏⲥ ⲫⲏⲉ̅ⲑ̅ⲩ̅: ⲁϥⲉⲣⲙⲉⲑⲣⲉ ⲟⲩⲟϩ ⲡⲉϫⲁϥ: ϫⲉ ⲁⲓⲛⲁⲩ ⲉ̀ⲡⲓⲠ̀ⲛⲉⲩⲙⲁ ⲉ̅ⲑ̅ⲩ̅: ⲉϥⲛⲏⲟⲩ ⲉ̀ⲡⲉⲥⲏⲧ ⲉ̀ϫⲱϥ.</td>
+                    <td class="arabic">القديس العابد، شهد وقال، أنى رأيت الروح القدس، آتياً حالاً عليه.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_8" class="north">
+                    <td class="english">Behold a voice from the Father / saying openly about Him / This is My beloved Son / in whom I am well pleased.</td>
+                    <td class="coptic">Ⲓⲥ ⲟⲩⲥ̀ⲙⲏ ⲉ̀ⲃⲟⲗϧⲉⲛ Ⲫ̀ⲓⲱⲧ: ⲉⲥϫⲱ ⲙ̀ⲙⲟⲥ ⲣⲏⲧⲱⲥ ⲉⲑⲃⲏⲧⲉⲛ: ϫⲉ ⲫⲁⲓ ⲡⲉ ⲠⲁϢⲏⲣⲓ Ⲡⲁⲙⲉⲛⲣⲓⲧ: ⲉ̀ⲧⲁⲓϯⲙⲁϯ ⲛ̀ϧⲏⲧϥ.</td>
+                    <td class="arabic">ها هوذا صوت من الآب، قائلاً علانية من أجله، هذا هو ابني حبيبى، الذى به سررت.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_9" class="north">
+                    <td class="english">Also, the sea saw and retreated / the Jordan moved back / according to the saying of / David the Spirit-mantled.</td>
+                    <td class="coptic">Ⲕⲉ ⲫ̀ⲓⲟⲙ ⲁϥⲛⲁⲩ ⲁϥⲫⲱⲧ: ⲡⲓⲒⲟⲣⲇⲁⲛⲏⲥ ⲁϥⲕⲟⲧϥ ⲉ̀ⲫⲁϩⲟⲩ: ⲕⲁⲧⲁ ⲡ̀ⲥⲁϫⲓ ⲉ̀ⲧⲉⲛϩⲟⲧ: ⲛ̀Ⲇⲁⲩⲓⲇ ⲡⲓⲡ̅ⲛ̅ⲁ̅ⲧⲟⲩⲫⲟⲣⲟⲥ.</td>
+                    <td class="arabic">وأيضاً البحر رأى وهرب، ورجع الأردن إلي ورائه، كقول الصادق، داود اللابس الروح.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_10" class="south">
+                    <td class="english">Also, he said in the psalm / the waters saw You, / the depths were afraid / the mountains trembled.</td>
+                    <td class="coptic">Ⲗⲟⲓⲡⲟⲛ ⲡⲉϫⲁϥ ϧⲉⲛ ⲡⲓⲯ̀ⲁⲗⲙⲟⲥ: ⲁⲩⲛⲁⲩ ⲉ̀ⲣⲟⲕ ⲛ̀ϫⲉ ϩⲁⲛⲙⲱⲟ̀ⲩ: ⲁⲩⲉ̀ⲣϩⲟϯ ⲛⲉⲙ ⲛⲓⲡⲉⲗⲁⲅⲟⲥ: ⲁⲩϣ̀ⲑⲟⲣⲧⲉⲣ ⲛ̀ϫⲉ ⲛⲓⲧⲱⲟ̀ⲩ.</td>
+                    <td class="arabic">وايضاً قال فى المزمور، رأتك المياه، وخافت اللجج، واضطربت الجبال.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_11" class="south">
+                    <td class="english">Heaven rejoices / and earth exults / for the baptism of the sinless One / Jesus Christ the majestic.</td>
+                    <td class="coptic">Ⲙⲁⲣⲟⲩⲟ̀ⲩⲛⲟϥ ⲛ̀ϫⲉ ⲛⲓⲫⲏⲟⲩⲓ̀: ⲟⲩⲟϩ ⲙⲁⲣⲉϥⲑⲉⲗⲏⲗ ⲛ̀ϫⲉ ⲡ̀ⲕⲁϩⲓ: ⲉⲑⲃⲉ ⲡⲓⲱⲙⲥ ⲙ̀ⲡⲓⲁ̀ⲑⲛⲟⲃⲓ: Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ ⲫⲁ ⲡⲓⲁ̀ⲙⲁϩⲓ.</td>
+                    <td class="arabic">فلتفرح السموات، وتتهلل الأرض، من أجل عماد الذي بلا خطية، يسوع المسيح ذي العزة.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_12" class="north">
+                    <td class="english">O believers, the new Israel / come to the Holy baptism / in the name of the Father and the Son / and the Holy Spirit.</td>
+                    <td class="coptic">Ⲛⲓⲡⲓⲥⲧⲟⲥ ⲙ̀ⲡ̀Ⲓⲥⲣⲁⲏ̀ⲗ ⲙ̀ⲃⲉⲣⲓ: ⲁ̀ⲙⲱⲓⲛⲓ ⲉ̀ⲡⲓⲱⲙⲥ ⲉ̅ⲑ̅ⲩ̅: ϧⲉⲛ ⲫ̀ⲣⲁⲛ ⲙ̀Ⲫ̀ⲓⲱⲧ ⲛⲉⲙ ⲡ̀Ϣⲏⲣⲓ: ⲛⲉⲙ ⲡⲓⲠ̀ⲛⲉⲩⲙⲁ ⲉ̅ⲑ̅ⲩ̅.</td>
+                    <td class="arabic">أيها المؤمنون إسرائيل الجديد، تعالوا إلي العماد المقدس باسم الآب والأبن والروح القدس.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_13" class="north">
+                    <td class="english">Truly Ezekiel said / I will wash you with / chosen water with joy / and purify you.</td>
+                    <td class="coptic">Ⲝⲁⲡⲓⲛⲁ ⲁϥϫⲟⲥ Ⲓⲉⲍⲉⲕⲓⲏⲗ: ϫⲉ ϯⲛⲁⲛⲟⲩϫϧ ⲉ̀ϫⲉⲛ ⲑⲏⲛⲟⲩ: ⲛ̀ⲟⲩⲙⲱⲟ̀ⲩ ⲉϥⲥⲱⲧⲡ ϧⲉⲛ ⲟⲩⲑⲉⲗⲏⲗ: ⲟⲩⲟϩ ⲛ̀ⲧⲁⲧⲟⲩⲃⲉⲑⲏⲛⲟⲩ.</td>
+                    <td class="arabic">حقاً قال حزقيال أني أنضح عليكم ماء مختاراً بتهليل، أطهركم.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_14" class="south">
+                    <td class="english">A new heart and spirit / I will make in you / and remove the stony heart / from your bodies at all times.</td>
+                    <td class="coptic">Ⲟⲩϩⲏⲧ ⲛⲉⲙ ⲟⲩⲡ̅ⲛ̅ⲁ̅ ⲙ̀ⲃⲉⲣⲓ: ϯⲛⲁⲁⲓϥ ⲥⲁϧⲟⲩⲛ ⲙ̀ⲙⲱⲧⲉⲛ: ϯⲛⲁⲱ̀ⲗⲓ ⲙ̀ⲡⲓϩⲏⲧ ⲛ̀ⲱ̀ⲛⲓ: ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲉⲧⲉⲛⲥⲁⲣⲝ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ.</td>
+                    <td class="arabic">قلباً وروحاً جديداً، أصيره داخلكم وأنزع القلب الحجري، من أجسادكم كل حين.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_15" class="south">
+                    <td class="english">This pure one also said / that every living soul / on which the water of this river / is cast, shall live.</td>
+                    <td class="coptic">Ⲡⲉϫⲁϥ ⲟⲛ ⲛ̀ϫⲉ ⲡⲓⲑ̀ⲙⲏⲓ ⲫⲁⲓ: ϫⲉ ⲯ̀ⲩⲭⲏ ⲛⲓⲃⲉⲛ ⲉⲧⲟⲛϧ: ⲉⲧⲃⲉⲣⲃⲉⲣ ⲉ̀ϫⲱⲟ̀ⲩ ⲛ̀ϫⲉ ⲡⲁⲓⲙⲱⲟ̀ⲩ ⲫⲁⲓ: ⲛ̀ⲧⲉ ⲡⲁⲓⲓⲁⲣⲟ ⲥⲉⲛⲁⲱ̀ⲛϧ.</td>
+                    <td class="arabic">وقال أيضاً هذا البار، أن كل نفس حية، يتبدد عليها ماء، هذا النهر تحيا.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_16" class="north">
+                    <td class="english">Rejoice O Christians / for Christ has chosen you / and has given to you / salvation at all times.</td>
+                    <td class="coptic">Ⲣⲁϣⲓ ⲱ̀ ⲛⲓⲭ̀ⲣⲓⲥⲧⲓⲁⲛⲟⲥ: ϫⲉ Ⲡⲭ̅ⲥ̅ ⲁϥⲥⲱⲧⲡ ⲙ̀ⲙⲱⲧⲉⲛ: ⲟⲩⲟϩ ⲙⲏⲓⲥ ⲛⲱⲧⲉⲛ ϯⲛⲟⲩ: ⲙ̀ⲡⲓⲟ̀ⲩϫⲁⲓ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ.</td>
+                    <td class="arabic">أسمعوا يا جميع الشعوبء: والقبائل ولغات الألسن: اسرعوا إلى العماد الفاخر: لتنالوا الحياة الأبدية.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_17" class="north">
+                    <td class="english">Listen, all people / the tribes and languages / hasten to the glorious baptism / to receive eternal life.</td>
+                    <td class="coptic">Ⲥⲱⲧⲉⲙ ⲱ̀ ⲛⲓⲗⲁⲟⲥ ⲧⲏⲣⲟⲩ: ⲛⲓⲫⲩⲗⲏ ⲛⲉⲙ ⲛⲓⲁⲥⲡⲓ ⲛ̀ⲗⲁⲥ: ⲭⲱⲗⲉⲙ ⲉ̀ⲡⲓⲱⲙⲥ ⲉⲧϣⲟⲩϣⲟⲩ: ⲉⲑⲣⲉⲛϭⲓ ⲙ̀ⲡⲓⲱ̀ⲛϧ ⲉ̀ⲱ̀ⲛⲁⲥ.</td>
+                    <td class="arabic">أسمعوا يا جميع الشعوب، والقبائل ولغات الألسن، اسرعوا إلي العماد الفاخر، لتنالوا الحياة الأبدية.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_18" class="south">
+                    <td class="english">Ask the Lord without malice / with a humble heart / come to be illuminated / and your faces not ashamed.</td>
+                    <td class="coptic">Ⲧⲱⲃϩ ⲙ̀Ⲡⲟ̅ⲥ̅ ϧⲉⲛ ⲟⲩⲙⲉⲧⲁⲧϣⲟⲃⲓ: ϧⲉⲛ ⲟⲩϩⲏⲧ ⲉϥⲑⲉⲃⲓⲟ: ⲁ̀ⲙⲱⲓⲛⲓ ⲉⲑⲣⲉⲧⲉⲛ ⲉⲣⲟⲩⲱ̀ⲓⲛⲓ: ⲛ̀ⲛⲟⲩϭⲓϣⲓⲡⲓ ⲛ̀ϫⲉ ⲛⲉⲧⲉⲛϩⲟ.</td>
+                    <td class="arabic">إطلبوا إلي الرب بغير رياء، بقلب متواضع، تعالوا لتستنيروا ولا تخزى وجوهكم.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_19" class="south">
+                    <td class="english">The Son of God, Lover of Mankind / said with His authority / if man is not born / from water and spirit.</td>
+                    <td class="coptic">Ⲩⲓⲟⲥ Ⲑⲉⲟⲥ ⲡⲓⲙⲁⲓⲣⲱⲙⲓ: ⲡⲉϫⲁϥ ϧⲉⲛ ⲧⲉϥⲉ̀ⲝⲟⲩⲥⲓⲁ: ϫⲉ ⲁⲩϣ̀ⲧⲉⲙⲙⲉⲥ ⲟⲩⲣⲱⲙⲓ: ⲉ̀ⲃⲟⲗϧⲉⲛ ⲟⲩⲙⲱⲟⲩ ⲛⲉⲙ ⲟⲩⲡ̅ⲛ̅ⲁ̅.</td>
+                    <td class="arabic">قال ابن الله محب البشر، بسلطانه، إن لم يولد الإنسان، من الماء والروح.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_20" class="north">
+                    <td class="english">He cannot / enter the kingdom / of God and the joy / eternal and incorruptible.</td>
+                    <td class="coptic">Ⲫⲁⲓ ⲙ̀ⲙⲟⲛ ϣ̀ϫⲟⲙ ⲙ̀ⲙⲟϥ: ⲉ̀ⲓ̀ ⲉ̀ϧⲟⲩⲛ ⲉ̀ϯⲙⲉⲧⲟⲩⲣⲟ: ⲛ̀ⲧⲉ Ⲫϯ ⲛⲉⲙ ⲡⲓⲟ̀ⲩⲛⲟϥ: ⲉⲑⲙⲏⲛ ⲉ̀ⲃⲟⲗ ⲛ̀ⲁ̀ⲧⲧⲁⲕⲟ.</td>
+                    <td class="arabic">فلا يقدر، أن يدخل ملكوت، الله والفرح، الدائم بغير فساد.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_21" class="north">
+                    <td class="english">Forgive us our trespasses / through the prayers of the advocate / the Lady of us all, Mary / and John the Baptist.</td>
+                    <td class="coptic">Ⲭⲱ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ ⲛ̀ⲛⲉⲛⲁ̀ⲛⲟⲙⲓⲁ: ϩⲓⲧⲉⲛ ⲛⲓⲧⲱⲃϩ ⲛ̀ⲧⲉ ϯⲡ̀ⲣⲟⲥⲧⲁⲧⲏⲥ: ⲧⲉⲛⲟ̅ⲥ̅ ⲛ̀ⲛⲏⲃ ⲧⲏⲣⲉⲛ Ⲙⲁⲣⲓⲁ: ⲛⲉⲙ Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲂⲁⲡⲧⲓⲥⲧⲏⲥ.</td>
+                    <td class="arabic">أغفر لنا آثامنا، وبطلبات الشفيعة، سيدتنا وملكتنا كلنا مريم، ويوحنا الصابغ.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_22" class="south">
+                    <td class="english">All the souls of the faithful / who departed, repose them / fulfill us the Christians / from now and until the end.</td>
+                    <td class="coptic">Ⲯⲩⲭⲏ ⲛⲓⲃⲉⲛ ⲛ̀ⲛⲓⲡⲓⲥⲧⲟⲥ: ⲛⲏⲉ̀ⲧⲁⲩⲉ̀ⲛⲕⲟⲧ ⲙⲁⲙ̀ⲧⲟⲛ ⲛⲱⲟ̀ⲩ: ϫⲱⲕⲧⲉⲛ ⲉ̀ⲃⲟⲗ ⲛ̀ⲭ̀ⲣⲓⲥⲧⲓⲁⲛⲟⲥ: ⲓⲥϫⲉⲛ ϯⲛⲟⲩ ϣⲁ ⲡ̀ϫⲱⲕ ⲉ̀ⲃⲟⲗ.</td>
+                    <td class="arabic">كل أنفس الؤمنين، الذين رقدوا نيحها، وأكملنا مسيحيين، من الآن وإلي النهاية.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_23" class="south">
+                    <td class="english">wait O my Master / save me from my enemies / the hidden and manifest / disperse their council and cast them out.</td>
+                    <td class="coptic">Ⲱ̀ⲟⲩⲛ̀ϩⲏⲧ ⲉ̀ϫⲱⲓ ⲡⲁⲚⲏⲃ: ⲛⲁϩⲙⲉⲧ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲁϫⲁϫⲓ: ⲛⲏⲉ̀ⲑⲟ̀ⲩⲱ̀ⲛϩ ⲉ̀ⲃⲟⲗ ⲛⲉⲙ ⲛⲏⲉ̀ⲧϩⲏⲡ: ϫⲱⲣ ⲙ̀ⲡⲟⲩⲥⲟϭⲛⲓ ϧⲉⲛ ⲟⲩϭⲟϫⲓ.</td>
+                    <td class="arabic">تأن يا سيدي، وخلصنى من أعدائي، الخفيين والظاهرين، بدد مشورتهم وأطردهم.</td>
+                </tr>
+            </tbody>
+        </table>`;
+        return html;
     }
 };
 
@@ -1847,14 +2633,13 @@ const saturdayPsalis = {
             </tbody>
         </table>`;
         return html;
-    }
-    ,
+    },
     Nativity(tableNumber) {
         const html = `
         <table id="table_${tableNumber}" style="display: table;" title="Nativity Psali Watos For Saturday">
             <caption id="caption_table_${tableNumber}" class="caption">Nativity Psali Watos For Saturday
                 <span class="coptic-caption">Ⲁⲙⲱⲓⲛⲓ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉⲛⲟⲩⲱϣⲧ</span>
-                <span class="arabic-caption">إبصاليه واطس ليوم السبت في برامون الميلاد</span>
+                <span class="arabic-caption">إبصاليه واطس ليوم السبت في عيد الميلاد</span>
             </caption>
             <tbody>
                 <tr id="table_${tableNumber}_row_0" class="north">
@@ -2011,6 +2796,138 @@ const saturdayPsalis = {
                     <td class="english">I ask, through the prayers of / my fathers brethren and loved ones / forgive me, I the sinner / for I cannot speak.</td>
                     <td class="coptic">Ϯϯϩⲟ ϯⲧⲱⲃϩ ⲙ̀ⲙⲱⲧⲉⲛ: ⲛⲁⲓⲟϯ ⲛⲉⲙ ⲛⲁⲥ̀ⲛⲏⲟⲩ ⲱ̀ ⲛⲁⲙⲉⲛⲣⲁϯ: ⲭⲱ ⲛⲏⲓ ⲉ̀ⲃⲟⲗ ϧⲁ ⲡⲓⲣⲉϥⲉⲣⲛⲟⲃⲓ: ϫⲉ ⲁⲓⲧⲱⲙⲧ ϧⲉⲛ ⲡⲓⲡⲉⲗⲁⲅⲟⲥ.</td>
                     <td class="arabic">بحق سؤال وطلبات، آبائي وإخوتي وأحبائي، أغفر لي أنا الخاطئ، لأني بهت ولم أتكلم.</td>
+                </tr>
+            </tbody>
+        </table>`;
+        return html;
+    },
+    Theophany(tableNumber) {
+        const html = `
+        <table id="table_${tableNumber}" style="display: table;" title="Feast of Theophany Psali Watos For Saturday">
+            <caption id="caption_table_${tableNumber}" class="caption">Feast of Theophany Psali Watos For Saturday
+                <span class="coptic-caption">ⲀⲡⲓⲞⲩⲣⲟ ⲛ̀ϯⲕ̀ⲧⲏⲥⲓⲥ ⲧⲏⲣⲥ</span>
+                <span class="arabic-caption">إبصاليه واطس ليوم السبت في عيد الغطاس</span>
+            </caption>
+            <tbody>
+                <tr id="table_${tableNumber}_row_0" class="north">
+                    <td class="english">O King of all creation / and creator of the springs / God by His nature / Lord God, Lover of Mankind.</td>
+                    <td class="coptic">ⲀⲡⲓⲞⲩⲣⲟ ⲛ̀ϯⲕ̀ⲧⲏⲥⲓⲥ ⲧⲏⲣⲥ: ⲟⲩⲟϩ ⲫ̀ⲣⲉϥⲑⲁⲙⲓⲟ ⲛ̀ⲛⲓⲙⲟⲩⲙⲓ: ⲫⲏⲉ̀ⲧⲟⲓ ⲛ̀Ⲛⲟⲩϯ: Ⲡⲟ̅ⲥ̅ Ⲫϯ ⲡⲓⲙⲁⲓⲣⲱⲙⲓ.</td>
+                    <td class="arabic">يا ملك الخليقة كلها، خالق الينابيع، الإله بطبيعته، الرب الإله محب البشر.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_1" class="north">
+                    <td class="english">Help us, O helper / of those who have no help / and wash our transgressions / O establisher of Christians.</td>
+                    <td class="coptic">Ⲃⲟⲏ̀ⲑⲓⲛⲓ ⲉ̀ⲣⲟⲛ ⲱ̀ϯⲃⲟⲏ̀ⲑⲓⲁ: ⲛ̀ⲛⲏⲉ̀ⲧⲉ ⲙ̀ⲙⲟⲛ ⲧⲟⲩⲃⲟⲏ̀ⲑⲟⲥ: ⲟⲩⲟϩ ⲓⲱⲓ ⲛ̀ⲛⲉⲛⲁ̀ⲛⲟⲙⲓⲁ: ⲱ̀ ⲡⲓⲢⲉϥⲉ̀ⲣϩⲓⲥⲉⲛϯ ⲛ̀ⲛⲓⲭ̀ⲣⲓⲥⲧⲓⲁⲛⲟⲥ.</td>
+                    <td class="arabic">أعنا يا عون، من ليس له معين، وأغسل آثامنا، يا مؤسس الآزمان.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_2" class="south">
+                    <td class="english">For the son of Levi / placed his hand on Your head / that is John the Baptist / who was in the wilderness.</td>
+                    <td class="coptic">Ⲅⲉ ⲅⲁⲣ ⲡ̀ϣⲏⲣⲓ ⲛ̀ⲡⲓⲖⲉⲩⲧⲏⲥ: ⲁϥⲭⲁ ⲧⲉϥϫⲓϫ ⲉ̀ϫⲉⲛ ⲧⲉⲕⲁ̀ⲫⲉ: ⲉ̀ⲧⲉ Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲂⲁⲡⲧⲓⲥⲧⲏⲥ: ⲫⲏⲉ̀ⲧⲁϥϣⲱⲡⲓ ϩⲓⲡ̀ϣⲁϥⲉ.</td>
+                    <td class="arabic">لأن ابن لاوى، وضع يده على رأسك، أعنى يوحنا الصابغ، الذي كان فى البرية.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_3" class="south">
+                    <td class="english">Of the Jordan and baptized You / like the rest, O chosen / whom Elizabeth gave birth to / who was at first barren.</td>
+                    <td class="coptic">Ⲇⲓ Ⲓⲟⲣⲇⲁⲛⲏⲥ ⲁϥϯⲱⲙⲥ ⲙ̀ⲙⲟⲕ: ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲟⲩⲭ̀ⲣⲟⲛⲓⲟⲛ ⲡⲓⲥⲱⲧⲡ: ⲉ̀ⲧⲉ Ⲉⲗⲓⲥⲁⲃⲉⲧ ⲁⲥⲙⲓⲥⲓ ⲙ̀ⲙⲟⲕ: ⲑⲏⲉ̀ⲛⲁⲥⲟⲓ ⲛ̀ⲁ̀ϭⲣⲏⲛ ⲛ̀ϣⲟⲣⲡ.</td>
+                    <td class="arabic">الأردن وعمدك، مثل سائر الناس أيها المختار، الذي ولدتك اليصابات، التى كانت عاقراً أولاً.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_4" class="north">
+                    <td class="english">He comes in His great glory / that is the Son of the Father / He is baptized in the Jordan today / and became a refuge to us.</td>
+                    <td class="coptic">Ⲉϥⲉ̀ⲓ̀ ϧⲉⲛ ⲡⲉϥⲛⲓϣϯ ⲛ̀ⲱ̀ⲟ̀ⲩ: ⲛ̀ϫⲉ ⲡ̀Ϣⲏⲣⲓ ⲛ̀ⲧⲉ Ⲫ̀ⲓⲱⲧ: ⲉ̀ⲧⲁϥϭⲓⲱⲙⲥ ϧⲉⲛ ⲛⲓⲙⲱⲟ̀ⲩ ⲙ̀ⲫⲟⲟ̀ⲩ: ⲁϥϣⲱⲡⲓ ⲛⲁⲛ ⲛ̀ⲟⲩⲙⲁⲙ̀ⲫⲱⲧ.</td>
+                    <td class="arabic">سيأتي بعظم مجده، الذي هو ابن الآب، واعتمد فى الماء اليوم، وصار لنا ملجأ.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_5" class="north">
+                    <td class="english">Zebulun and its vicinities / and the bank of the Jordan / were filled of your voice / O preacher of righteousness.</td>
+                    <td class="coptic">Ⲍⲁⲃⲟⲗⲟⲛ ⲛⲉⲙ ⲛⲉⲥϭⲓⲏ̀: ⲛⲉⲙ ϩⲓⲙⲏⲣ ⲛ̀ⲧⲉ ⲡⲓⲒⲟⲣⲇⲁⲛⲏⲥ: ⲁⲩⲙⲟϩ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲧⲉⲕⲥ̀ⲙⲏ: ⲱ̀ ⲡⲓⲕⲩⲣⲝ ⲛ̀ⲧⲉ ϯⲙⲉⲧⲉⲩⲥⲉⲃⲏⲥ.</td>
+                    <td class="arabic">زبولون وتخومها، وعبر الأردن، امتلأ من صوتك، يا منادي التقوى.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_6" class="south">
+                    <td class="english">Isaiah cries saying / in his true prophecy / you are the voice of One calling / in the wilderness truly.</td>
+                    <td class="coptic">Ⲏ̀ⲥⲁⲏ̀ⲁⲥ ⲁϥⲱϣ ⲉ̀ⲃⲟⲗ: ϧⲉⲛ ⲧⲉϥⲡ̀ⲣⲟⲫⲏⲧⲓⲁ ⲙ̀ⲙⲏⲓ: ϫⲉ ⲛ̀ⲑⲟⲕ ⲡⲉ ⲡ̀ϧ̀ⲣⲱⲟ̀ⲩ ⲉ̀ⲧⲱϣ ⲉ̀ⲃⲟⲗ: ϩⲓ ⲛⲓϣⲁϥⲉⲩ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓ.</td>
+                    <td class="arabic">أشعياء يصرخ، فى نبوته الحقيقية، أنك أنت هو الصوت الصارخ، فى البراري بالحقيقة.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_7" class="south">
+                    <td class="english">Rejoice like lambs / O Jordan and your wilderness / for unto you came the lamb / who lifts the sin of the world.</td>
+                    <td class="coptic">Ⲑⲉⲗⲏⲗ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ϩⲁⲛϩⲓⲏⲃ: ⲱ̀ ⲡⲓⲒⲟⲣⲇⲁⲛⲏⲥ ⲛⲉⲙ ⲡⲉϥⲇ̀ⲣⲓⲙⲟⲥ: ϫⲉ ⲁϥⲓ̀ ϣⲁⲣⲟⲕ ⲛ̀ϫⲉ ⲡⲓϨⲓⲏⲃ: ⲫⲏⲉ̀ⲧⲱ̀ⲗⲓ ⲙ̀ⲫ̀ⲛⲟⲃⲓ ⲙ̀ⲡⲓⲕⲟⲥⲙⲟⲥ.</td>
+                    <td class="arabic">تهلل مثل الحملان، أيها الأردن وبريته، لأنه أتي الحمل، الذي يحمل خطايا العالم.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_8" class="north">
+                    <td class="english">John said with confirmation / in the four gospels / I baptized my King / with a great mystery.</td>
+                    <td class="coptic">Ⲓⲱⲁⲛⲛⲏⲥ ⲁϥϫⲟⲥ ϧⲉⲛ ⲟⲩⲧⲁϫⲣⲟ: ϧⲉⲛ ⲡⲓϥ̀ⲧⲟⲟⲩ (ⲇ̅) ⲛ̀ⲉ̀ⲩⲁ̀ⲅⲅⲉⲗⲓⲟⲛ: ϫⲉ ⲁⲓϯⲱⲙⲥ ⲙ̀ⲡⲁⲞ̀ⲩⲣⲟ: ϧⲉⲛ ⲟⲩⲛⲓϣϯ ⲙ̀ⲙⲩⲥⲧⲏⲣⲓⲟⲛ.</td>
+                    <td class="arabic">قال يوحنا بثبات، فى الأربعة الأناجيل، إني عمدت ملكى، بسر عظيم.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_9" class="north">
+                    <td class="english">When He ascended from the water / after His baptism / I heard a great voice / of the Father saying.</td>
+                    <td class="coptic">Ⲕⲉ ⲅⲁⲣ ⲉⲧⲁϥϣⲉ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲡⲓⲙⲱⲟ̀ⲩ: ⲙⲉⲛⲉⲛⲥⲁ ⲡⲉϥϫⲓⲛⲱⲙⲥ ⲉ̀ⲃⲟⲗ: ⲁⲕⲥⲱⲧⲉⲙ ⲉ̀ⲟ̀ⲩⲛⲓϣϯ ⲛ̀ϧ̀ⲣⲱⲟ̀ⲩ: ⲛ̀ⲧⲉ Ⲫ̀ⲓⲱⲧ ⲉϥⲱϣ ⲉ̀ⲃⲟⲗ.</td>
+                    <td class="arabic">ولما خرج من الماء، من بعد عماده، سمعت صوتاً عظيماً، من الآب صارخاً.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_10" class="south">
+                    <td class="english">This is My beloved Son / in whom I am pleased / and my first Son / whom I spoke about.</td>
+                    <td class="coptic">Ⲗⲟⲓⲡⲟⲛ ϫⲉ ⲫⲁⲓ ⲡⲉ ⲠⲁϢⲏⲣⲓ Ⲡⲁⲙⲉⲛⲣⲓⲧ: ⲫⲏⲉ̀ⲧⲁⲓϯⲙⲁϯ ⲛ̀ϧⲏⲧϥ: ⲟⲩⲟϩ ⲠⲁϢⲏⲣⲓ ⲛ̀ϩⲟⲩⲓⲧ: ⲉ̀ⲧⲁ ⲛⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ ⲥⲁϫⲓ ⲉⲑⲃⲏⲧϥ.</td>
+                    <td class="arabic">قائلاً أيضاً هذا هو ابني حبيبى، الذي به سررت، ابني الأول، الذي تكلمت من أجله.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_11" class="south">
+                    <td class="english">May the sea move / and the fields rejoice / for the Lord God of powers / frighten them with great fear.</td>
+                    <td class="coptic">Ⲙⲁⲣⲉϥⲕⲓⲙ ⲛ̀ϫⲉ ⲫ̀ⲓⲟⲙ: ⲛ̀ⲧⲟⲩⲣⲁϣⲓ ⲛ̀ϫⲉ ⲛⲓⲙⲉϣϣⲟϯ: ϫⲉ Ⲡⲟ̅ⲥ̅ Ⲫϯ ⲛ̀ⲧⲉ ⲛⲓϫⲟⲙ: ⲁϥϣ̀ⲑⲉⲣⲧⲱⲣⲟⲩ ϧⲉⲛ ⲟⲩⲛⲓϣϯ ⲛ̀ϩⲟϯ.</td>
+                    <td class="arabic">فليتحرك البحر، ولتفرح البقاع، لأن الرب إله القوات، روعها بخوف عظيم.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_12" class="north">
+                    <td class="english">All trees and fields / rejoice and exult / before the face / of Jesus, King of Israel.</td>
+                    <td class="coptic">Ⲛⲓϣ̀ϣⲏⲛ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲡⲓⲓⲁϩϣ̀ϣⲏⲛ: ⲉⲩⲉ̀ⲣⲁϣⲓ ⲉⲩⲉ̀ⲑⲉⲗⲏⲗ: ⲉ̀ⲃⲟⲗ ϧⲁ ⲧ̀ϩⲏ ⲙ̀ⲡ̀ϩⲟ ⲙ̀ⲫⲏⲉ̀ⲑⲛⲏⲟⲩ: Ⲓⲏ̅ⲥ̅ ⲡ̀Ⲟⲩⲣⲟ ⲙ̀ⲡⲒⲥⲣⲁⲏ̀ⲗ.</td>
+                    <td class="arabic">يفرح ويتهلل، جميع شجر الغياض، من قدام وجه، يسوع ملك إسرائيل.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_13" class="north">
+                    <td class="english">You are blessed, O Christ our Master / the only-begotten Son / who was incarnate of the Virgin / and was baptized in the Jordan.</td>
+                    <td class="coptic">Ⲝ̀ⲙⲁⲣⲱⲟⲩⲧ ⲱ̀ ⲡⲉⲛⲚⲏⲃ Ⲡⲭ̅ⲥ̅: ⲡ̀Ϣⲏⲣⲓ ⲙ̀ⲙⲟⲛⲟⲅⲉⲛⲏⲥ: ⲫⲏⲉ̀ⲧⲁϥϭⲓⲥⲁⲣⲝ ϧⲉⲛ ϯⲠⲁⲣⲑⲉⲛⲟⲥ: ⲟⲩⲟϩ ⲁϥϭⲓⲱⲙⲥ ϧⲉⲛ ⲡⲓⲒⲟⲣⲇⲁⲛⲏⲥ.</td>
+                    <td class="arabic">تباركت يا ملكنا المسيح، الابن الوحيد الجنس، الذي تجسد من العذراء، واعتمد فى الأردن.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_14" class="south">
+                    <td class="english">We glorify You with thanksgiving / O our good God / for You granted us Your grace / of liberty.</td>
+                    <td class="coptic">Ⲟⲩⲱ̀ⲟ̀ⲩ ⲛⲁⲕ ϧⲉⲛ ⲟⲩϣⲉⲡϩ̀ⲙⲟⲧ: ⲱ̀ ⲡⲉⲛⲚⲟⲩϯ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ϫⲉ ⲁⲕϯ ⲛⲁⲛ ⲙ̀ⲡⲉⲕϩ̀ⲙⲟⲧ: ⲛ̀ⲧⲉ ϯⲙⲉⲧⲉ̀ⲗⲉⲩⲑⲉⲣⲟⲥ.</td>
+                    <td class="arabic">نمجدك بشكر، يا إلهنا الصالح، لأنك أعطيتنا نعمتك، التي للحرية.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_15" class="south">
+                    <td class="english">The Spirit of Truth / came like a dove / and truly stood upon / He who took our form.</td>
+                    <td class="coptic">ⲠⲓⲠ̀ⲛⲉⲩⲙⲁ ⲛ̀ⲧⲉ ϯⲙⲉⲑⲙⲏⲓ: ⲁϥⲓ̀ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲟⲩϭ̀ⲣⲟⲙⲡⲓ: ⲟⲩⲟϩ ⲁϥⲟ̀ϩⲓ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓ: ⲉ̀ϫⲉⲛ ⲫⲏⲉ̀ⲧⲁϥϭⲓ ⲛ̀ⲧⲉⲛⲙⲟⲣⲫⲏ.</td>
+                    <td class="arabic">روح الحق، جاء مثل حمامة، وثبت بالحقيقة، على الذى أخذ شكلنا.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_16" class="north">
+                    <td class="english">The mouths of the righteous prophets / spoke openly / that the Lord will be baptized / in truth and wash our sins.</td>
+                    <td class="coptic">Ⲣⲱⲟ̀ⲩ ⲛ̀ⲛⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ ⲛ̀ⲑ̀ⲙⲏⲓ: ⲁⲩⲥⲁϫⲓ ϧⲉⲛ ⲟⲩⲡⲁⲣⲣⲏⲫⲓⲁ: ϫⲉ Ⲡⲟ̅ⲥ̅ ⲛⲁϭⲓⲱ̀ⲙⲥ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓ: ⲟⲩⲟϩ ⲛ̀ⲧⲉϥⲓⲱⲓ ⲛ̀ⲛⲉⲛⲁ̀ⲛⲟⲙⲓⲁ.</td>
+                    <td class="arabic">نطقت أفواه، الأنبياء علانية، أن الرب حقاً، سيعتمد ويغسل آثامنا.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_17" class="north">
+                    <td class="english">Look and contemplate / on these hidden mysteries / to see the forerunner / witness about the Lamb.</td>
+                    <td class="coptic">Ⲥⲟⲙⲥ ⲟⲩⲟϩ ⲙⲁⲓⲁ̀ⲧⲉⲛⲑⲏⲛⲟⲩ: ϧⲉⲛ ⲛⲁⲓⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧϩⲏⲡ: ⲛ̀ⲧⲉⲧⲉⲛⲛⲁⲩ ⲉ̀ⲡⲁⲓⲡ̀ⲣⲟⲇⲣⲟⲙⲟⲥ: ⲉϥⲉⲣⲙⲉⲑⲣⲉ ϧⲁ ⲡⲓϨⲓⲏⲃ.</td>
+                    <td class="arabic">انظروا وتأملوا، إلى هذه الأسرار الخفية، لتنظروا هذا السابق، يشهد على الحمل.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_18" class="south">
+                    <td class="english">This is the Lamb of God / who takes away the sin of the world / who brought a horn of salvation / in order to save His people.</td>
+                    <td class="coptic">Ⲧⲟⲧⲉ ⲓⲥ ⲡⲓϨⲓⲏⲃ ⲛ̀ⲧⲉ Ⲫϯ: ⲫⲏⲉ̀ⲧⲱ̀ⲗⲓ ⲙ̀ⲫ̀ⲛⲟⲃⲓ ⲙ̀ⲡⲓⲕⲟⲥⲙⲟⲥ: ⲫⲏⲉ̀ⲧⲁϥⲓ̀ⲛⲓ ⲛ̀ⲟ̀ⲩⲧⲁⲡ ⲛ̀ⲥⲱϯ: ⲉⲑⲣⲉϥⲛⲟϩⲉⲙ ⲙ̀ⲡⲉϥⲗⲁⲟⲥ.</td>
+                    <td class="arabic">ها هوذا حمل الله، حامل خطايا العالم، الذي أقيم قرن، خلاص لشعبه.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_19" class="south">
+                    <td class="english">The Son of God appeared / in the land of the Jordan / and loosened the paralyzed / and confirmed them after their weakness.</td>
+                    <td class="coptic">Ⲩⲓⲟⲥ Ⲑⲉⲟⲥ ⲁϥⲟⲩⲱ̀ⲛϩ ⲉ̀ⲃⲟⲗ: ϧⲉⲛ ⲡ̀ⲕⲁϩⲓ ⲙ̀ⲡⲓⲒⲟⲣⲇⲁⲛⲏⲥ: ⲛⲓϭⲁⲗⲉⲩ ⲁϥⲃⲱⲗⲟⲩ ⲉ̀ⲃⲟⲗ: ⲁϥⲧⲁϫⲣⲱⲟ̀ⲩ ⲙⲉⲛⲉⲛⲥⲁ ⲧⲟⲩⲁ̀ⲥⲑⲉⲛⲏⲥ.</td>
+                    <td class="arabic">ظهر ابن الله، فى أرض الأردن، وحل المقعدين، وثبتهم من بعد ضعفهم.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_20" class="north">
+                    <td class="english">The sea saw and retreated / the Jordan moved back quickly / why did you retreat O sea / from the left to the right?</td>
+                    <td class="coptic">Ⲫ̀ⲓⲟⲙ ⲁϥⲛⲁⲩ ⲟⲩⲟϩ ⲁϥⲫⲱⲧ: ⲁ̀ⲡⲓⲒⲟⲣⲇⲁⲛⲏⲥ ⲕⲟⲧϥ ⲉ̀ⲫⲁϩⲟ ϧⲉⲛ ⲟⲩⲓⲏⲥ: ⲟⲩⲡⲉⲧϣⲟⲡ ⲫ̀ⲓⲟⲙ ϫⲉ ⲁⲕⲫⲱⲧ: ⲓⲥϫⲉⲛ ⲛⲓⲥⲁ ⲡⲉⲙϩⲓⲧ ϣⲁ ⲫ̀ⲣⲏⲥ.</td>
+                    <td class="arabic">البحر رأى وهرب، والأردن رجع إلى ورائه بسرعة، مالك أيها البحر هربت، من الشمال إلى اليمين.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_21" class="north">
+                    <td class="english">Arise out of the water / do with us according to Your word / ascend to the mountain / to destroy the enemy’s power.</td>
+                    <td class="coptic">Ⲭⲱⲗⲉⲙ ⲁ̀ⲙⲟⲩ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲓⲙⲱⲟ̀ⲩ: ⲁ̀ⲣⲓⲟⲩⲓ̀ ⲛⲉⲙⲁⲛ ⲕⲁⲧⲁ ⲡⲉⲕⲥⲁϫⲓ: ⲙⲁϣⲉⲛⲁⲕ ⲉ̀ⲡ̀ϣⲱⲓ ϩⲓϫⲉⲛ ⲡⲓⲧⲱⲟ̀ⲩ: ⲛ̀ⲧⲉⲕⲕⲱⲣϥ ⲛ̀ⲧ̀ϫⲟⲙ ⲙ̀ⲡⲓϫⲁϫⲓ.</td>
+                    <td class="arabic">أسرع وأخرج من الماء، وأصنع معنا كقولك، واصعد على الحبل، لكى تبطل قوة العدو.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_22" class="south">
+                    <td class="english">O Savior of our souls / purify us from our sins / accept to You our prayers / remember us with Your mercy.</td>
+                    <td class="coptic">Ⲯⲱⲧⲏⲣ ⲛ̀ⲧⲉ ⲛⲉⲛⲯ̀ⲩⲭⲏ: ⲙⲁⲧⲟⲩⲃⲟⲛ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲉⲛⲛⲟⲃⲓ: ϣⲟⲡ ⲉ̀ⲣⲟⲕ ⲛ̀ⲛⲉⲛⲉ̀ⲩⲭⲏ: ϧⲉⲛ ⲡⲉⲕⲛⲁⲓ ⲁ̀ⲣⲓⲡⲉⲛⲙⲉⲩⲓ̀.</td>
+                    <td class="arabic">يا مخلص نفوسنا، طهرنا من خطايانا، وأقبل إليك صلواتنا، وبرحمتك اذكرنا.</td>
+                </tr>
+                <tr id="table_${tableNumber}_row_23" class="south">
+                    <td class="english">O You who were baptized in the water / with great economy / keep Your servant from evil thoughts / and confirm him until the end.</td>
+                    <td class="coptic">Ⲱ̀ ⲫⲏⲉ̀ⲧⲁϥϭⲓⲱⲙⲥ ϧⲉⲛ ⲛⲓⲙⲱⲟ̀ⲩ: ϧⲉⲛ ⲧⲉϥⲛⲓϣϯ ⲛ̀ⲟⲓⲕⲟⲛⲟⲙⲓⲁ: ⲁ̀ⲣⲉϩ ⲉ̀ⲡⲉⲕⲃⲱⲕ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲓⲙⲉⲩⲓ ⲉⲧϩⲱⲟ̀ⲩ: ⲟⲩⲟϩ ⲙⲁⲧⲁϫⲣⲟϥ ϣⲁ ϯⲥⲩⲛⲧⲉⲗⲓⲁ.</td>
+                    <td class="arabic">يا من أعتمد في الماء، بعظم تدبيره، احفظ عبدك من الأفكار الشريرة، وثبته إلي الانقضاء.</td>
                 </tr>
             </tbody>
         </table>`;

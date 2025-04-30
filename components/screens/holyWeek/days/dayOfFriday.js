@@ -10,7 +10,10 @@ import { useNavigation } from "@react-navigation/native";
 import backgroundImage from "../../../../assets/background.png";
 import { presentationStyles } from "../../../css/presentationStyles";
 
+
 const DayOfFriday = () => {
+ 
+
   const navigation = useNavigation();
 
   return (
@@ -28,7 +31,8 @@ const DayOfFriday = () => {
           </View>
 
           <View style={presentationStyles.hoursContainer}>
-          <TouchableOpacity
+          
+            <TouchableOpacity
               style={[presentationStyles.itemContainer]}
               onPress={() => navigation.navigate("DOF1sc")}
             >

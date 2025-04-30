@@ -16,7 +16,6 @@ const SettingsScreen = () => {
     const [settings,setSettings , , , , , setOrientation] = useContext(SettingsContext);
     const navigation = useNavigation();  // Use the useNavigation hook to access navigation functions
     const [copticDate, setCopticDate] = useState(null);
-
     useEffect(() => {
         const today = new Date();  // Get the current date
         const coptic = gregorianToCoptic(today);  // Convert to Coptic date
@@ -61,6 +60,13 @@ const SettingsScreen = () => {
         setSettings(updatedSettings);
     }
 
+    const setPaschalReadingsFullHandler = (checked) => {
+        setSettings(prev => ({
+          ...prev,
+          paschalReadingsFull: checked
+        }));
+      };
+      
 
     const handleBackPress = () => {
         navigation.goBack();
@@ -154,6 +160,34 @@ const SettingsScreen = () => {
 
                                 </View>
                             ))}
+
+                        </View>
+                    
+                    </View>
+                    <View style={presentationStyles.setting}>
+
+                        <Text style={presentationStyles.settingTitle}>Paschal Rites</Text>
+
+                        <View style={presentationStyles.languagesContainer}>
+
+                            
+                                <View style={presentationStyles.language}>
+                                    <BouncyCheckbox
+                                        isChecked={settings.paschalReadingsFull} // Control the checked state
+                                        onPress={(isChecked) => setPaschalReadingsFullHandler(isChecked)} // Update state on press
+                                        fillColor="#e19d09" // Checked state color
+                                        unfillColor="#FFFFFF" // Unchecked state background color
+                                        iconStyle={{ borderColor: 'black' }} // Border color when unchecked
+                                        text={"Complete Paschal Readings - Benisweif Coptic Pascha Katameros (Contains additional readings not found in Hanging Church Edition)"} // Display the label text
+                                        textStyle={{
+                                            textDecorationLine: 'none', // Remove strikethrough
+                                            color: 'black', // Optional: Set text color
+                                            fontSize: 16, // Optional: Adjust text size
+                                        }}
+                                    />
+
+                                </View>
+                            
 
                         </View>
                     
