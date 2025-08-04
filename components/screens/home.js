@@ -141,7 +141,7 @@ const Home = () => {
 
               <TouchableOpacity
                 style={[styles.iconContainer]}
-                onPress={() => navigation.navigate('HolyWeekNew')}
+                onPress={() => navigation.navigate('HolyWeek')}
               >
                 <Image source={holyWeekImage} style={styles.iconImage} />
               </TouchableOpacity>

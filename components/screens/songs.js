@@ -14,9 +14,17 @@ import { useNavigation } from "@react-navigation/native";
 import backgroundImage from "../../assets/background.png";
 import { ScrollView } from "react-native-gesture-handler";
 import { presentationStyles } from "../css/presentationStyles";
+import songsData from "../../data/songs/songs.json";
 
 const Songs = () => {
   const navigation = useNavigation();
+const themes = Array.from(
+  new Set(
+    songsData.flatMap(song => song.themes || [])
+  )
+).sort();
+
+
 
   return (
     <View>
@@ -25,48 +33,33 @@ const Songs = () => {
         style={presentationStyles.backgroundImage}
         resizeMode="repeat"
       >
-        <View style={presentationStyles.pageContainer}>
+        <View style={presentationStyles.daysContainer}>
           <View style={presentationStyles.headerContainer}>
             <Text style={presentationStyles.pageHeader}>Spiritual</Text>
             <Text style={presentationStyles.pageHeader}>Songs</Text>
           </View>
 
-          <View style={presentationStyles.hoursContainer}>
-            <ScrollView>
+          <View style={presentationStyles.daysContainer}>
+            <ScrollView contentContainerStyle={presentationStyles.iconRow}>
               <TouchableOpacity
                 style={[presentationStyles.songsContainer]}
-                onPress={() => navigation.navigate("AllSongs")}
+                //onPress={() => navigation.navigate("AllSongs")}
+                onPress={() => navigation.navigate("SongsScreen", { theme: "Comfort and Repentance" })}
               >
                 <Text style={presentationStyles.pageMenu}>All Spiritual Songs</Text>
               </TouchableOpacity>
-
-              <TouchableOpacity
-                style={[presentationStyles.songsContainer]}
-                onPress={() => navigation.navigate("ComfortSongs")}
-              >
-                <Text style={presentationStyles.pageMenu}>Comfort and Repentance</Text>
-              </TouchableOpacity>
-
-              <TouchableOpacity
-                style={[presentationStyles.songsContainer]}
-                onPress={() => navigation.navigate("NayroozSongs")}
-              >
-                <Text style={presentationStyles.pageMenu}>Coptic New Year</Text>
-              </TouchableOpacity>
-
-              <TouchableOpacity
-                style={[presentationStyles.songsContainer]}
-                onPress={() => navigation.navigate("ResurrectionSongs")}
-              >
-                <Text style={presentationStyles.pageMenu}>Resurrection</Text>
-              </TouchableOpacity>
-
-              <TouchableOpacity
-                style={[presentationStyles.songsContainer]}
-                onPress={() => navigation.navigate("StMarySongs")}
-              >
-                <Text style={presentationStyles.pageMenu}>St. Mary</Text>
-              </TouchableOpacity>
+              {themes.map((theme, index) => (
+                <TouchableOpacity
+                  key={index}
+                  style={[presentationStyles.songsContainer]}
+                  onPress={() => navigation.navigate("SongsScreen", { theme })}
+                >
+                  <Text style={presentationStyles.pageMenu}>{theme}</Text>
+                </TouchableOpacity>
+              ))}
+              
+              
+              
 
           </ScrollView>
           </View>

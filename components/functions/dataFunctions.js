@@ -234,3 +234,75 @@ export function renderTable(
                 </table>
             `;
 }
+
+export function renderSongTables(table, tableIdx, tableClass = "", variables = {}) {
+  const songTitle = table.english_title || `Song ${tableIdx + 1}`;
+  const captionClass = table.caption_class || "";
+
+  let globalRowIdx = 0; // Keep a single counter across all tbodies
+
+  return `
+    <table id="table_${tableIdx}" title="${processTemplate(songTitle, variables)}">
+      ${
+        table.english_title
+          ? `
+        <caption class="caption ${captionClass}" id="caption_table_${tableIdx}">
+            ${processTemplate(table.english_title, variables)}
+            
+            ${
+              table.arabic_title
+                ? `<span class="arabic-caption">${processTemplate(
+                    table.arabic_title,
+                    variables
+                  )}</span>`
+                : ""
+            }
+            ${
+              table.explanation_button
+                ? `<span class="explanation-button" data-message='${processTemplate(
+                    table.explanation_button,
+                    variables
+                  )}'>${book}</span>`
+                : ""
+            }
+            ${
+              table.image_button
+                ? `<span class="image-button" data-message='${processTemplate(
+                    table.image_button,
+                    variables
+                  )}'>${musicalNote}</span>`
+                : ""
+            }
+        </caption>`
+          : ""
+      }
+
+      ${table.tbodies
+        .map((tbody, tbodyIdx) => {
+          const rowsHtml = tbody.rows
+            .map((row) => {
+              const rowHtml = `
+                <tr id="song_${tableIdx}_row_${globalRowIdx}" class="${row["row-class"] || ""}">
+                  ${row.cells
+                    .map(cell =>
+                      Object.entries(cell)
+                        .map(
+                          ([lang, value]) =>
+                            `<td class="${lang}">${processTemplate(value, variables)}</td>`
+                        )
+                        .join("")
+                    )
+                    .join("")}
+                </tr>
+              `;
+              globalRowIdx++;
+              return rowHtml;
+            })
+            .join("");
+
+          return `<tbody id="table_${tableIdx}_tbody_${tbodyIdx}" class="${tableClass}">${rowsHtml}</tbody>`;
+        })
+        .join("")}
+    </table>
+  `;
+}

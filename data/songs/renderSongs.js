@@ -1,6 +1,6 @@
-import { renderTable } from "../../components/functions/dataFunctions.js";
+import { renderSongTables } from "../../components/functions/dataFunctions.js";
 
-export const renderSongs = (theme, onePageSettings) => {
+export const renderSongs = (filteredSongs, theme, onePageSettings) => {
     
 
     let tableCounter = 0; // Initialize a global table counter
@@ -9,23 +9,18 @@ export const renderSongs = (theme, onePageSettings) => {
         (item) => item.label === "Songs"
         )?.checked;
     const tableClass = onePageSongs ? 'onePage' : "";
-    console.log("onePageSongs:", tableClass);
 
     // Main rendering logic
     return `
         
                     <div class="section" id="section_0" title="${theme}">
-                        ${songs
+                        ${filteredSongs
                             .map((table) => {
                                 const tableIdx = tableCounter++;                                
 
-                                
-                                return renderSong(table, tableIdx, tableClass, paschalReadingsFull, variables);
+                                return renderSongTables(table, tableIdx, tableClass, filteredSongs);
                             })
                             .join("")}
                     </div>
                 `;
-            })
-            .join("")}
-    `;
-};
+}
