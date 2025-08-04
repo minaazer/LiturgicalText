@@ -57,7 +57,6 @@ const transformHolyWeekData = (holyWeekData) => {
       linkStack: hour.linkStack ? hour.linkStack : false, // Link to the stack if specified 
     })),
   }));
-  console.log(children[5].children);
   // Return the parent screen with all the transformed children
   return [
     {

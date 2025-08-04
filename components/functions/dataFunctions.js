@@ -69,6 +69,7 @@ export function getExpositionOnePageSettings(onePageSettings) {
   return updatedOnePageSettings;
 }
 
+
 export function processTemplate(template, variables) {
   if (typeof template !== "string") return template;
   return template.replace(/\$\{(.*?)\}/g, (_, key) => variables[key] || "");
