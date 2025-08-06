@@ -80,7 +80,6 @@ export const handleMessage = (
       },
       POPUP: () => {
         try {
-            console.log("POPUP message received:", message.data);
             if (!message.data) {
                 console.error("No message content found in POPUP data.");
                 return;
@@ -105,7 +104,7 @@ export const handleMessage = (
       },
       IMAGEPOPUP: () => {
         try {
-            console.log("POPUP message received:", message.data);
+            
             if (!message.data) {
                 console.error("No message content found in POPUP data.");
                 return;
@@ -117,8 +116,9 @@ export const handleMessage = (
 
             if (image) {
               setImageUri(image.uri);
-              setImagePopupVisible(true);
+              setPopupData(null);
               setPopupVisible(false);
+              setImagePopupVisible(true);
             } else {
               console.error("Explanation not found for title:", hymnTitle)
             }

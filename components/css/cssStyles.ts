@@ -1,5 +1,4 @@
 import { useContext, useState, useEffect } from 'react';
-import { Platform } from 'react-native';
 import { Dimensions } from 'react-native';
 import SettingsContext from '../../settings/settingsContext';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -11,9 +10,7 @@ export const useDynamicStyles = (webviewRef) => {
     const { width, height } = Dimensions.get("window");
     const safeAreaWidth = width - (insets.left + insets.right); // Account for safe area insets
     const isPortrait = height >= width; // Determine orientation
-    const isIpad = Platform.OS === 'ios' && width > 1000; // Determine if iPad
-    const isIphone = Platform.OS === 'ios' && !isIpad && !isPortrait; // Determine if iPhone
-    const calculatedWidth = isIphone ? `${safeAreaWidth-15}px` : `${width - 15}px`; // Adjust for padding
+    const calculatedWidth = `${safeAreaWidth-15}px`;
     const columnPadding = width > 900 ? 35 : 20; // Adjust for padding
     const fontSizeUnit = isPortrait ? 'vh' : 'vw';
     const [settings] = useContext(SettingsContext);

@@ -27,7 +27,7 @@ function glorification() {
         tbodyClass = 'class= "scaling-container"';
     }
 
-let html = `
+const html = `
 <body>
 <div class="section">
     <table id="table_0" title="Ekesmarout" style="display: table;">
@@ -997,7 +997,7 @@ let html = `
             <tr class="north" id="table_4_row_10">
                 <td class="english" >O Mother of the Bridegroom, the God glorified
                     you, the Word, took flesh and was born from you, for the heavenly, angels always give,</td>
-                <td class="coptic" >ⲑⲉⲟ̀ⲇⲟⲍⲁⲥⲑⲉ ⲕⲉ ⲟ̀ Ⲗⲟⲅⲟⲥ ⲥⲁⲣⲕⲟⲕⲓ ⲇⲓⲛⲁⲙⲓⲥ: ⲑⲓⲛ
+                <td class="coptic" >ⲑⲉⲟ̀ⲇⲟⲝⲁⲥⲑⲉ ⲕⲉ ⲟ̀ Ⲗⲟⲅⲟⲥ ⲥⲁⲣⲕⲟⲕⲓ ⲇⲓⲛⲁⲙⲓⲥ: ⲑⲓⲛ
                     ⲟⲩⲣⲁⲛⲟⲛ: ⲁⲅⲅⲉⲗⲟⲛ ⲉⲧⲉ̀ⲕⲓ̀: ⲧⲉⲥⲓⲛ ⲧⲉⲥⲓⲛⲁ̀: ⲡⲉⲛ ⲧ̀ⲣⲟⲡⲏⲥ ⲫ̀ⲣⲉⲛⲉⲑⲉ: ⲁ̀ⲡⲟⲩⲧⲏⲥ ⲓ̀ⲗⲁⲏ̀:</td>
                 <td class="arabic">يا أم الختن (العريس) الله مجدك والكلمة تجسد منك لأن ملائكة السماء تكرمك دائما</td>
             </tr>
@@ -1164,7 +1164,7 @@ let html = `
             <tr id="table_5_row_0" class="north">
                 <td class="english" >Intercede on our behalf, O Lady of us all the
                     Mother of God, Saint Mary the Mother of Jesus Christ, that He may forgive us our sins.</td>
-                <td class="coptic" >Ⲁⲣⲓⲡ̀ⲣⲉⲥⲃⲉⲩⲓⲛ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ: ⲱ̀ ⲧⲉⲛ\ϭⲟⲓⲥ ⲛ̀ⲛⲏⲃ
+                <td class="coptic" >Ⲁⲣⲓⲡ̀ⲣⲉⲥⲃⲉⲩⲓⲛ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ: ⲱ̀ ⲧⲉⲛϭⲟⲓⲥ ⲛ̀ⲛⲏⲃ
                     ⲧⲏⲣⲉⲛ ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ: Ⲙⲁⲣⲓⲁ̀ ⲑ̀ⲙⲁⲩ ⲛ̀Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.</td>
                 <td class="arabic">إشفعى فينا كلنا يا سيدتنا والدة الإله مريم أم يسوع المسيح ليغفر لنا خطايانا.</td>
             </tr>
@@ -1378,7 +1378,7 @@ let html = `
             <tr class="north" id="table_6_row_22">
                 <td class="english" >My heart rejoices, for this my tongue also
                     praises.</td>
-                <td class="coptic" >Ⲁⲡⲁϩⲏⲧ ⲉ̀ⲟⲩⲫⲣⲁⲛⲉ : ⲉⲑⲃⲉ ⲡⲁⲗⲁⲥ ϧⲉⲛ ⲟⲩⲑⲉⲗⲏⲗ.
+                <td class="coptic" >Ⲁⲡⲁϩⲏⲧ ⲉ̀ⲟⲩⲫ̀ⲣⲁⲛⲉ : ⲉⲑⲃⲉ ⲡⲁⲗⲁⲥ ϧⲉⲛ ⲟⲩⲑⲉⲗⲏⲗ.
                 </td>
                 <td class="arabic">قلبى يفرح من اجل لسانى بتهليل.</td>
             </tr>
@@ -2173,7 +2173,7 @@ let html = `
             </tr>
             <tr id="table_11_row_3" class="south">
                 <td class="enPhonics" >Khen efran emif-iot nem ep-she-ree nem
-                    pi-epnevma eth-owab tit-reias eth-owab en-omo-sios. Axeia, axeia, axeia, ti-ageia Mareia
+                    pi-epnevma eth-owab tit-reias eth-owab en-omo-sios. Axeia, axeia, axeia, ti-ageia Mareia
                     ti-pa-arthenos.
                     Axeios(a) [3]...</td>
                 <td class="arPhonics" >خين افران أم أفيوت نيم ابشيري نيم بي ابنفما
@@ -2401,7 +2401,7 @@ let html = `
                     and the righteous will come, bearing their virtues.</td>
                 <td class="coptic" >Ⲥⲉⲛⲁⲓ̀ ⲛ̀ϫⲉ ⲛⲓⲙⲁⲣⲧⲩⲣⲟⲥ: ⲉⲩϥⲁⲓ ϧⲁ ⲛⲟⲩⲃⲁⲥⲁⲛⲟⲥ:
                     ⲥⲉⲛⲁⲓ̀ ⲛ̀ϫⲉ ⲛⲓⲇⲓⲕⲉⲟⲥ: ⲉⲩϥⲁⲓ ϧⲁ ⲛⲟⲩⲡⲟⲗⲏⲧⲓⲁ̀.</td>
-                <td class="arabic">يأتي الشهداء   حاملين عذاباتهم   ويأتي الصديقين   حاملين فضائلهم</td>
+                <td class="arabic">يأتي الشهداء   حاملين عذاباتهم   ويأتي الصديقين   حاملين فضائلهم</td>
             </tr>
         </tbody>
         <tbody ${tbodyClass}  id="table_13_tbody_5">
@@ -2422,7 +2422,7 @@ let html = `
                 <td class="coptic" >Ⲡⲭⲥ̅ ⲡⲓⲗⲟⲅⲟⲥ ⲛ̀ⲧⲉ Ⲫ̀ⲓⲱⲧ: ⲡⲓⲙⲟⲛⲟⲅⲉⲛⲏⲥ ⲛ̀ⲛⲟⲩϯ:
                     ⲉⲕⲉ̀ϯ
                     ⲛⲁⲛ ⲛ̀ⲧⲉⲕϩⲓⲣⲏⲛⲏ: ⲑⲁⲓ ⲉⲑⲙⲉϩ ⲛ̀ⲣⲁϣⲓ ⲛⲓⲃⲉⲛ.</td>
-                <td class="arabic">أيها المسيح كلمة الآب   الإله الوحيد   أعطنا سلامك    هذا المملوء من كل فرح</td>
+                <td class="arabic">أيها المسيح كلمة الآب   الإله الوحيد   أعطنا سلامك    هذا المملوء من كل فرح</td>
             </tr>
         </tbody>
         <tbody ${tbodyClass}  id="table_13_tbody_7">
@@ -2480,7 +2480,7 @@ let html = `
                 <td class="coptic" >Ⲛⲏⲉⲧϣⲱⲛⲓ ⲙⲁⲧⲁⲗ ϭⲱⲟⲩ: ⲛⲏⲉ̀ⲧⲁⲩⲉⲛⲕⲟⲧ Ⲡ⳪ ⲙⲁⲙ̀ⲧⲟⲛ
                     ⲛⲱⲟⲩ:
                     ⲛⲉⲛⲥ̀ⲛⲏⲟⲩ ⲉⲧⲭⲏ ϧⲉⲛ ϩⲟϫϩⲉϫ ⲛⲓⲃⲉⲛ: Ⲡⲁ⳪ ⲁ̀ⲣⲓⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲛ ⲛⲉⲙⲱⲟⲩ.</td>
-                <td class="arabic">المرضي اشفهم   الذين رقدوا يارب نيحهم    واخوتنا الذين في كل شدة   ياربي أعنا واياهم
+                <td class="arabic">المرضي اشفهم   الذين رقدوا يارب نيحهم    واخوتنا الذين في كل شدة   ياربي أعنا واياهم
                 </td>
             </tr>
             <tr class="south" id="table_14_row_3">
@@ -2560,9 +2560,9 @@ let html = `
 
         <tbody ${tbodyClass}  id="table_15_tbody_0">
             <tr class="north" id="table_15_row_0">
-                <td class="english" >This Virgin received honor this day:  this
+                <td class="english" >This Virgin received honor this day:  this
                     bride
-                    received glory this day:  this one is clothed in gold fringed garments:  adorned in various colors.
+                    received glory this day:  this one is clothed in gold fringed garments:  adorned in various colors.
                 </td>
                 <td class="coptic" >Ⲁⲧⲁⲓ ⲡⲁⲣⲑⲉⲛⲟⲥ ϭⲓ ⲛ̀ⲟⲩⲧⲁⲓⲟ̀ ̀ ⲙⲫⲟⲟⲩ ⲁ̀ⲧⲁⲓ ϣⲉⲗⲉⲧ
                     ϭⲓ
@@ -2580,9 +2580,9 @@ let html = `
         </tbody>
         <tbody ${tbodyClass}  id="table_15_tbody_1">
             <tr class="north" id="table_15_row_2">
-                <td class="english" >David moved the first string of his harp: 
+                <td class="english" >David moved the first string of his harp: 
                     crying
-                    out saying:  the Queen stood at Your right hand O King.</td>
+                    out saying:  the Queen stood at Your right hand O King.</td>
                 <td class="coptic" >Ⲁ Ⲇⲁⲩⲓⲇ ⲕⲓⲙ ⲙ̀ⲡⲓϣⲟⲣⲡ ⲛ̀ⲕⲁⲡ ⲛ̀ⲧⲉ ⲧⲉϥⲕⲩⲑⲁⲣⲁ ⲉϥⲱϣ
                     ⲉ̀ⲃⲟⲗ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ ϫⲉ ⲁⲥⲟ̀ϩⲓ ⲉ̀ⲣⲁⲧⲥ ⲛ̀ϫⲉ ϯⲟⲩⲣⲱ ⲥⲁⲟⲩⲓ̀ ⲛⲁⲙ ⲙ̀ⲙⲟⲕ ⲡ̀ⲟⲩⲣⲟ.</td>
                 <td class="arabic">داود حرك الوتر الاول من قيثارته صارخا قائلا: قامت الملكة عن يمينك أيها الملك. )مز٤٥:
@@ -2935,7 +2935,7 @@ let html = `
                 <td class="english" >For they spoke of you, With great honor, O
                     Holy
                     City, Of the Great King.</td>
-                <td class="coptic" >Ϫⲉ ⲁⲩⲥⲁϫⲓ ⲉⲑⲃⲏϯ :  ⲛ̀ϩⲁⲛϩ̀ⲃⲏⲟⲩⲓ̀ ⲉⲩⲧⲁⲓⲏ̀ⲟⲩⲧ :
+                <td class="coptic" >Ϫⲉ ⲁⲩⲥⲁϫⲓ ⲉⲑⲃⲏϯ :  ⲛ̀ϩⲁⲛϩ̀ⲃⲏⲟⲩⲓ̀ ⲉⲩⲧⲁⲓⲏ̀ⲟⲩⲧ :
                     ϯⲃⲁⲕⲓ ⲉⲑⲟⲩⲁⲃ : ⲛ̀ⲧⲉ ⲡⲓⲛⲓϣϯ ⲛ̀ⲟⲩⲣⲟ.</td>
                 <td class="arabic">لانهم تكلموا من أجلك بأعمال كريمة أيتها المدينة المقدسة التى للملك العظيم.</td>
             </tr>
@@ -3017,7 +3017,7 @@ let html = `
                     the
                     Seraphim, proclaiming and saying:</td>
                 <td class="coptic" >Ϩⲓⲛⲁ ⲛ̀ⲧⲉⲛϩⲱⲥ ⲉ̀ⲣⲟⲕ ⲛⲉⲙ ⲛⲓⲬⲉⲣⲟⲩⲃⲓⲙ ⲛⲉⲙ
-                    ⲛⲓⲤⲉⲣⲁⲫⲓⲙ: ⲉⲛⲱϣ ⲉ̀ⲃⲟⲗ ⲉⲛϫⲱ  ⲙ̀ⲙⲟⲥ.</td>
+                    ⲛⲓⲤⲉⲣⲁⲫⲓⲙ: ⲉⲛⲱϣ ⲉ̀ⲃⲟⲗ ⲉⲛϫⲱ  ⲙ̀ⲙⲟⲥ.</td>
                 <td class="arabic">لكي نسبحك مع الشـاروبـيـم والسيرافـيـم صارخين قائلين:</td>
             </tr>
             <tr class="north" id="table_18_row_3.5">
@@ -3033,7 +3033,7 @@ let html = `
                 <td class="coptic" >Ϫⲉ Ⲭ̀ⲟⲩⲁⲃ Ⲭ̀ⲟⲩⲁⲃ Ⲭ̀ⲟⲩⲁⲃ: Ⲡ⳪ ⲡⲓⲡⲁⲛⲧⲟⲕⲣⲁⲧⲱⲣ:
                     ⲧ̀ⲫⲉ
                     ⲛⲉⲙ ⲡ̀ⲕⲁϩⲓ ⲙⲉϩ ⲉ̀ⲃⲟⲗ: ϧⲉⲛ ⲡⲉⲕⲱ̀ⲟⲩ ⲛⲉⲙ ⲡⲉⲕⲧⲁⲓⲟ.</td>
-                <td class="arabic">قدوس قدوس قدوس أيها الرب الضابط الكل ، السماء والأرض  مملوءتـان من مجدك وكرامتك.</td>
+                <td class="arabic">قدوس قدوس قدوس أيها الرب الضابط الكل ، السماء والأرض  مملوءتـان من مجدك وكرامتك.</td>
             </tr>
             <tr class="south" id="table_18_row_4.5">
                 <td class="enPhonics" >Je ekouab ekouab ekouab: Epshois pi-pantokrator: Et-ve nem epkahi meh ebol: Khen pek oou nem pek taio.</td>
@@ -4511,7 +4511,7 @@ let html = `
 </body>
 `;
 
-return html;
+return html
 }
 
 export {glorification};

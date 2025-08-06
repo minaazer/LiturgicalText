@@ -112,7 +112,7 @@ const SettingsProvider = ({ children }) => {
         // No stored settings: initialize with default settings
         initializeDefaultSettings();
       }
-    });
+    }).catch(err => console.error("Error reading settings from AsyncStorage", err));
   }, []);
 
   const mergeDoxologyFunctionNames = (existingDoxologies, newDoxologies) => {

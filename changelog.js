@@ -55,6 +55,11 @@ const changelog = {
   "1.0.84": [
     "Added musical notes to some hymns in Pascha Week",
   ],
+  "1.0.85": [
+    "Added new song categories",
+    "Added new songs to the app",
+    "UI and App Optimizations",
+  ]
   
 };
 

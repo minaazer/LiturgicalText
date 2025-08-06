@@ -1,105 +1,93 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import {
-  Modal,
-  View,
   Text,
   TouchableOpacity,
+  ScrollView,
   StyleSheet,
   Dimensions,
-  ScrollView,
   Image,
 } from "react-native";
-import {
-  GestureHandlerRootView,
-  PinchGestureHandler,
-} from "react-native-gesture-handler";
 import Animated, {
   useSharedValue,
-  useAnimatedGestureHandler,
   useAnimatedStyle,
 } from "react-native-reanimated";
+import {
+  Gesture,
+  GestureDetector,
+  GestureHandlerRootView,
+} from "react-native-gesture-handler";
 
 const { width: screenWidth } = Dimensions.get("window");
 
 export const ImagePopup = ({ visible, imageUri, onClose }) => {
+  const [aspectRatio, setAspectRatio] = useState(3 / 4); // fallback ratio
+
   const scale = useSharedValue(1);
-  const [aspectRatio, setAspectRatio] = useState(4 / 3); // default
-  const [imageSize, setImageSize] = useState({
-    width: screenWidth,
-    height: screenWidth * (4 / 3),
-  });
 
   useEffect(() => {
     if (imageUri) {
       Image.getSize(
         imageUri,
         (width, height) => {
-          if (width && height) {
-            const ratio = height / width;
-            setAspectRatio(ratio);
-            setImageSize({
-              width: screenWidth,
-              height: screenWidth * ratio,
-            });
+          if (width > 0 && height > 0) {
+            setAspectRatio(width / height);
           }
         },
-        (err) => console.error("Image size error", err)
+        (err) => {
+          console.warn("Failed to get image size:", err);
+          setAspectRatio(3 / 4);
+        }
       );
     }
   }, [imageUri]);
 
-  const pinchHandler = useAnimatedGestureHandler({
-    onActive: (event) => {
-      scale.value = event.scale;
-    },
-    onEnd: () => {
-      // keep scale
-    },
+  const pinchGesture = Gesture.Pinch().onUpdate((event) => {
+    scale.value = event.scale;
   });
 
   const animatedStyle = useAnimatedStyle(() => ({
     transform: [{ scale: scale.value }],
   }));
 
-  return (
-    <Modal visible={visible} animationType="fade" transparent={false}>
-      <GestureHandlerRootView style={styles.container}>
-        <TouchableOpacity style={styles.closeButton} onPress={onClose}>
-          <Text style={styles.closeText}>X</Text>
-        </TouchableOpacity>
+  if (!visible || !imageUri) return null;
 
-        <ScrollView
-          style={{ flex: 1 }}
-          contentContainerStyle={styles.scrollContainer}
-          bounces={false}
-        >
-          <PinchGestureHandler onGestureEvent={pinchHandler}>
-            <Animated.View
-              style={[
-                {
-                  width: imageSize.width,
-                  height: imageSize.height,
-                },
-                animatedStyle,
-              ]}
-            >
-              <Animated.Image
-                source={{ uri: imageUri }}
-                style={styles.image}
-                resizeMode="contain"
-              />
-            </Animated.View>
-          </PinchGestureHandler>
-        </ScrollView>
-      </GestureHandlerRootView>
-    </Modal>
+  return (
+    <GestureHandlerRootView style={styles.overlay}>
+      <TouchableOpacity style={styles.closeButton} onPress={onClose}>
+        <Text style={styles.closeText}>X</Text>
+      </TouchableOpacity>
+
+      <ScrollView
+        style={styles.scrollView}
+        contentContainerStyle={styles.scrollContent}
+        bounces={false}
+      >
+        <GestureDetector gesture={pinchGesture}>
+          <Animated.View style={[{ width: screenWidth }, animatedStyle]}>
+            <Animated.Image
+              source={{ uri: imageUri }}
+              style={{
+                width: screenWidth,
+                height: screenWidth / aspectRatio,
+              }}
+              resizeMode="contain"
+            />
+          </Animated.View>
+        </GestureDetector>
+      </ScrollView>
+    </GestureHandlerRootView>
   );
 };
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
+  overlay: {
+    position: "absolute",
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
     backgroundColor: "#000",
+    zIndex: 999999999
   },
   closeButton: {
     position: "absolute",
@@ -114,15 +102,10 @@ const styles = StyleSheet.create({
     color: "#fff",
     fontSize: 18,
   },
-  scrollContainer: {
-    flexGrow: 1,
-    alignItems: "center",
-    justifyContent: "flex-start",
-    paddingTop: 80,
-    paddingBottom: 80,
+  scrollView: {
+    flex: 1,
   },
-  image: {
-    width: "100%",
-    height: "100%",
+  scrollContent: {
+    paddingTop: 10
   },
 });

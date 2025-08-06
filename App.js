@@ -1,4 +1,5 @@
 /* global require */
+
 import 'react-native-gesture-handler';
 import React, { useCallback, useEffect, useContext , useState } from 'react';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
@@ -22,9 +23,12 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import semver from 'semver';
 import { presentationStyles } from './components/css/presentationStyles';
 
+
 SplashScreen.preventAutoHideAsync();
 
 const AppContent = () => {
+
+
   useKeepAwake();
   const [popupVisible, setPopupVisible] = useState(false);
   const [updates, setUpdates] = useState([]);
@@ -63,7 +67,6 @@ const AppContent = () => {
           if (isChromeOS) {
             await NavigationBar.setVisibilityAsync("hidden");
           } else {
-            await NavigationBar.setBackgroundColorAsync('#000000');
             await NavigationBar.setButtonStyleAsync('light');
           }
         }
@@ -103,6 +106,7 @@ const AppContent = () => {
         const handleOrientationChange = async ({ orientationInfo }) => {
           const { orientation } = orientationInfo;
           const isRunningInExpoGo = Constants.executionEnvironment === "storeClient";
+          
 
           if (orientation !== desiredOrientationLock && !isRunningInExpoGo) {
             if (Platform.OS === 'android') {
@@ -129,6 +133,7 @@ const AppContent = () => {
     enforceAndHandleOrientationChange();
   }, [settings.orientation]);
 
+
   useEffect(() => {
     const isRunningInExpoGo = Constants.executionEnvironment === 'storeClient';
     if (!isRunningInExpoGo) {
@@ -137,6 +142,7 @@ const AppContent = () => {
     checkForVersionUpdates();
   }, []);
 
+  
   const checkForStoreUpdates = async () => {
     try {
       const currentVersion = app.expo.version || '1.0.0';
@@ -168,6 +174,8 @@ const AppContent = () => {
   const checkForVersionUpdates = async () => {
     try {
       let lastSeenVersion = await AsyncStorage.getItem('lastSeenVersion');
+        console.log("Raw stored settings:", lastSeenVersion);
+
       if (!lastSeenVersion) lastSeenVersion = '1.0.0';
 
       const allVersions = Object.keys(changelog).sort(semver.compare);
