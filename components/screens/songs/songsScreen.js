@@ -24,11 +24,18 @@ const SongsScreen = ({ route }) => {
   const dynamicStyles = useDynamicStyles(webviewRef);
 
   // Assuming `jsonData` is the parsed JSON object.
-    const filteredSongs = !theme
-    ? songsData
-    : songsData.filter(
-        (song) => song.themes && song.themes.includes(theme)
-        );
+  const filteredSongs = (
+    !theme
+      ? songsData
+      : songsData.filter(
+          (song) => song.themes && song.themes.includes(theme)
+        )
+  ).sort((a, b) => {
+    const titleA = a.english_title || "";
+    const titleB = b.english_title || "";
+    return titleA.localeCompare(titleB);
+  });
+
 
         
 

@@ -5216,6 +5216,527 @@
     ]
   },
   {
+    "english_title": "In the Midst of the Raging Sea",
+    "arabic_title": "وسط البحر الهايج",
+    "themes": [
+      "Comfort and Repentance"
+    ],
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "In the midst of the raging sea,",
+                "enPhonicsSongs": "west ilbahr il hayeg",
+                "arabic": "وسط البحر الهايج"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "There I was sailing.",
+                "enPhonicsSongs": "we ana sayer",
+                "arabic": "وأنا ساير"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "The waves were pounding me,",
+                "enPhonicsSongs": "tedrabnee amwagoh",
+                "arabic": "تلطمني أمواجه"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "Making me afraid.",
+                "enPhonicsSongs": "teg3alnee hayer",
+                "arabic": "تجعلني حاير"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "And it seems That Christ has left me, (2)",
+                "enPhonicsSongs": "we yasoo3 bayin taraknee (2)",
+                "arabic": "ويسوع باين تركني (2)"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "But I no longer see him because of my weak faith (2)",
+                "enPhonicsSongs": "wa la 3odt ashoofoo min da3f emanee (2)",
+                "arabic": "ولا عدت أشوفه من ضعف إيماني (2)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "Jesus when he saw me,",
+                "enPhonicsSongs": "yasoo3 lama ra2anee",
+                "arabic": "يسوع لما رآني"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "Came to me quickly.",
+                "enPhonicsSongs": "asra3 ilaya",
+                "arabic": "أسرعَّ إلي"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "In my despair and darkness,",
+                "enPhonicsSongs": "fee ya2see we zalamee",
+                "arabic": "في يأسي و ظلامي"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "He opened my eyes.",
+                "enPhonicsSongs": "nawar 3eneya",
+                "arabic": "نور عينيَّ"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "When I saw him, I cried have mercy (2)",
+                "enPhonicsSongs": "lama shoftoo sarakht irhamnee (2)",
+                "arabic": "لما شفته صرخت ارحمني (2)"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "He came to me quickly and had mercy on me (2)",
+                "enPhonicsSongs": "geh ankazanee we et hanin 3alaya (2)",
+                "arabic": "جه أنقذني و أتحنن عليَّ (2)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "The sounds of the angry waves,",
+                "enPhonicsSongs": "sowt il reyah mokheef",
+                "arabic": "صوت الرياح مخيفة"
+              }
+            ]
+          },
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "Agonized my ears.",
+                "enPhonicsSongs": "yez3eg azanee",
+                "arabic": "يزعج آذاني"
+              }
+            ]
+          },
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "Darkness of the creeping night,",
+                "enPhonicsSongs": "howl illeyl we zalamoh",
+                "arabic": "هول الليل وظلامه"
+              }
+            ]
+          },
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "Has threatened my peace.",
+                "enPhonicsSongs": "haded salamee",
+                "arabic": "هدد سلامي"
+              }
+            ]
+          },
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "And the tears, have not left my eyes (2)",
+                "enPhonicsSongs": "we il demoo3 la tatrok 3eneya (2)",
+                "arabic": "والدموع لا تترك عينيَّ (2)"
+              }
+            ]
+          },
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "And the sleepless nights, have overwhelmed me (2)",
+                "enPhonicsSongs": "we ilne3as ilhadey kad farek agfanee (2)",
+                "arabic": "والنعاس الهادي قد فارق أجفاني (2)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "Jesus when he saw me,",
+                "enPhonicsSongs": "yasoo3 lama ra2anee",
+                "arabic": "يسوع لما رآني"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "Came to me quickly.",
+                "enPhonicsSongs": "asra3 ilaya",
+                "arabic": "أسرعَّ إلي"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "In my despair and darkness,",
+                "enPhonicsSongs": "fee ya2see we zalamee",
+                "arabic": "في يأسي و ظلامي"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "He opened my eyes.",
+                "enPhonicsSongs": "nawar 3eneya",
+                "arabic": "نور عينيَّ"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "When I saw him, I cried have mercy (2)",
+                "enPhonicsSongs": "lama shoftoo sarakht irhamnee (2)",
+                "arabic": "لما شفته صرخت ارحمني (2)"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "He came to me quickly and had mercy on me (2)",
+                "enPhonicsSongs": "geh ankazanee we et hanin 3alaya (2)",
+                "arabic": "جه أنقذني و أتحنن عليَّ (2)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "I took the oar and started rowing,",
+                "enPhonicsSongs": "akhedt ilmegdaf agadef",
+                "arabic": "أخذت المجداف أجدف"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "But my hopes have failed",
+                "enPhonicsSongs": "khabet amalee",
+                "arabic": "خابت آمالي"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "My weakness and my ignorance,",
+                "enPhonicsSongs": "da3fee we 3agzee we gahlee",
+                "arabic": "ضعفى وعجزي وجهلي"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "Brought more grief to me.",
+                "enPhonicsSongs": "zawad ahzanee",
+                "arabic": "زود أحزاني"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "And my Lord, at the shore sees me (2)",
+                "enPhonicsSongs": "we yasoo3 3al shat shayefnee (2)",
+                "arabic": "ويسوع ع الشط شايفنى (2)"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "When will you come to me, and restore my hope? (2)",
+                "enPhonicsSongs": "imta tygee ya rabee we terodelee amalee (2)",
+                "arabic": "أمتى تيجى يا ربى وترد أماني (2)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "Jesus when he saw me,",
+                "enPhonicsSongs": "yasoo3 lama ra2anee",
+                "arabic": "يسوع لما رآني"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "Came to me quickly.",
+                "enPhonicsSongs": "asra3 ilaya",
+                "arabic": "أسرعَّ إلي"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "In my despair and darkness,",
+                "enPhonicsSongs": "fee ya2see we zalamee",
+                "arabic": "في يأسي و ظلامي"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "He opened my eyes.",
+                "enPhonicsSongs": "nawar 3eneya",
+                "arabic": "نور عينيَّ"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "When I saw him, I cried have mercy (2)",
+                "enPhonicsSongs": "lama shoftoo sarakht irhamnee (2)",
+                "arabic": "لما شفته صرخت ارحمني (2)"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "He came to me quickly and had mercy on me (2)",
+                "enPhonicsSongs": "geh ankazanee we et hanin 3alaya (2)",
+                "arabic": "جه أنقذني و أتحنن عليَّ (2)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "I was in despair and drowning,",
+                "enPhonicsSongs": "kont ghar2an we ba2is",
+                "arabic": "كنت غرقان ويائس"
+              }
+            ]
+          },
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "And my hope is torn.",
+                "enPhonicsSongs": "we amalee ma2too3",
+                "arabic": "وأملى مقطوع"
+              }
+            ]
+          },
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "I came to my beloved Jesus,",
+                "enPhonicsSongs": "geyt le yasoo3 habybee",
+                "arabic": "جيت ليسوع حبيبي"
+              }
+            ]
+          },
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "Offering him my tears.",
+                "enPhonicsSongs": "azref loh il demoo3",
+                "arabic": "أذرف له الدموع"
+              }
+            ]
+          },
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "When he saw me, He had compassion on me (2)",
+                "enPhonicsSongs": "lama ra2anee 3ataf 3alaya (2)",
+                "arabic": "لما رآني عطف عليَّ (2)"
+              }
+            ]
+          },
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "He stretched out his sweet hand, and dried my tears (2)",
+                "enPhonicsSongs": "mad eydoo ilhelwa we masah lee 3eneya (2)",
+                "arabic": "مد ايده الحلوة ومسح لى عيني (2)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "Jesus when he saw me,",
+                "enPhonicsSongs": "yasoo3 lama ra2anee",
+                "arabic": "يسوع لما رآني"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "Came to me quickly.",
+                "enPhonicsSongs": "asra3 ilaya",
+                "arabic": "أسرعَّ إلي"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "In my despair and darkness,",
+                "enPhonicsSongs": "fee ya2see we zalamee",
+                "arabic": "في يأسي و ظلامي"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "He opened my eyes.",
+                "enPhonicsSongs": "nawar 3eneya",
+                "arabic": "نور عينيَّ"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "When I saw him, I cried have mercy (2)",
+                "enPhonicsSongs": "lama shoftoo sarakht irhamnee (2)",
+                "arabic": "لما شفته صرخت ارحمني (2)"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "He came to me quickly and had mercy on me (2)",
+                "enPhonicsSongs": "geh ankazanee we et hanin 3alaya (2)",
+                "arabic": "جه أنقذني و أتحنن عليَّ (2)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "english_title": "In the Shade of Your Protection",
     "arabic_title": "في ظل حمايتك",
     "themes": [
@@ -6252,6 +6773,404 @@
     ]
   },
   {
+    "english_title": "My Church, My Church, My Church",
+    "arabic_title": "كنيستى كنيستى كنيستى",
+    "themes": [
+      "The Church",
+      "Children Songs"
+    ],
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "My church, my church, my church",
+                "enPhonicsSongs": "Kenesti kenesti kenesti",
+                "arabic": "كنيستى كنيستى كنيستى"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "She's my home, she's my mother",
+                "enPhonicsSongs": "heya beytee, heya omee",
+                "arabic": "هى بيتى هى امى"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "She's the source of all my joy",
+                "enPhonicsSongs": "heya ser farah hayatee",
+                "arabic": "هى سر فرح حياتى"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "When I was a little child",
+                "enPhonicsSongs": "Lama kont soghayar",
+                "arabic": "لما كنت صغير"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "Forty days to be exact",
+                "enPhonicsSongs": "leya arba3een yom bel tahdeed",
+                "arabic": "لى أربعين يوم بالتحديد"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "My parents took me with great joy",
+                "enPhonicsSongs": "khadnee ahlee be farha baheya",
+                "arabic": "خدنى أهلي بفرحه بهيه"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "to the church to be baptized",
+                "enPhonicsSongs": "3al kenisa lel ta3meed",
+                "arabic": "ع ا لكنيسة للتعميد"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "abouna took me by the hands",
+                "enPhonicsSongs": "Shalnee abouna min regleya",
+                "arabic": "شالنى أبونا من رجلى"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "and dipped me in a deeper water",
+                "enPhonicsSongs": "we ghatesnee fee gorn ghaweet",
+                "arabic": "وغطسنى فى جرن غويط"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "that was my baptism",
+                "enPhonicsSongs": "kanet heya el-ma3modeya",
+                "arabic": "كانت هى المعمودية"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "it was a second birth for me",
+                "enPhonicsSongs": "we heya leya meelad gedeed",
+                "arabic": "وهى لى ميلاد جديد"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "My church, my church, my church",
+                "enPhonicsSongs": "Kenesti kenesti kenesti",
+                "arabic": "كنيستى كنيستى كنيستى"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "She's my home, she's my mother",
+                "enPhonicsSongs": "heya beytee, heya omee",
+                "arabic": "هى بيتى هى امى"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "She's the source of all my joy",
+                "enPhonicsSongs": "heya ser farah hayatee",
+                "arabic": "هى سر فرح حياتى"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "She raised me since my childhood",
+                "enPhonicsSongs": "Etrabeet min soghree feeha",
+                "arabic": "اتربيت من صغرى فيها"
+              }
+            ]
+          },
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "in the sunday school",
+                "enPhonicsSongs": "gowa madares il ahad",
+                "arabic": "جوه مدارس الأحد"
+              }
+            ]
+          },
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "joyful with me and i with her",
+                "enPhonicsSongs": "tefrah beya we afrah beeha",
+                "arabic": "تفرح بىّ وافرح بيها"
+              }
+            ]
+          },
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "because my faith grew in her",
+                "enPhonicsSongs": "asl emanee feeha zad",
+                "arabic": "صل إيمانى فيه زاد"
+              }
+            ]
+          },
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "i build my values on her teachings",
+                "enPhonicsSongs": "Abnee mabadee min ta3alemha",
+                "arabic": "ابنى مبادئى على تعليمها"
+              }
+            ]
+          },
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "and obey all her guidance",
+                "enPhonicsSongs": "we atawe3 kol irshad",
+                "arabic": "وأطاوع كل إرشاد"
+              }
+            ]
+          },
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "my Lord please take care of her",
+                "enPhonicsSongs": "Ya ilahee hafez 3aleeha",
+                "arabic": "يا ألهى حافظ عليها"
+              }
+            ]
+          },
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "and bless her forever",
+                "enPhonicsSongs": "we tedoom 3ala mar il awaat",
+                "arabic": "وتدوم على مر الدهور"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "My church, my church, my church",
+                "enPhonicsSongs": "Kenesti kenesti kenesti",
+                "arabic": "كنيستى كنيستى كنيستى"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "She's my home, she's my mother",
+                "enPhonicsSongs": "heya beytee, heya omee",
+                "arabic": "هى بيتى هى امى"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "She's the source of all my joy",
+                "enPhonicsSongs": "heya ser farah hayatee",
+                "arabic": "هى سر فرح حياتى"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "whats best in her is on the altar",
+                "enPhonicsSongs": "A3zam ma feeha 3ala ilmazbah",
+                "arabic": "أعظم ما فيها على المذبح"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "the heavenly are there in great glory",
+                "enPhonicsSongs": "we ilsama hadra ahla hedoor",
+                "arabic": "والسما حاضرة أحلى حضور"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "the hosts of the angels are singing",
+                "enPhonicsSongs": "taghamat ilmalayka tesabeh",
+                "arabic": "طغمات الملائكة تسبح"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "praising our dear savior",
+                "enPhonicsSongs": "bahga we farha we rahba we noor",
+                "arabic": "بهجة وفرحة ورهبة ونور"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "we eat His body with great joy",
+                "enPhonicsSongs": "We ehna nakol gasadoo we nefrah",
+                "arabic": "واحنا ناكل جسده ونفرح"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "And His blood keeps harm away",
+                "enPhonicsSongs": "we damoo yemhee ilsheroor",
+                "arabic": "ودمه يمحى الشرور"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "in communion we win the kingdom",
+                "enPhonicsSongs": "Da lee beyet nawel ha yerbah",
+                "arabic": "دة اللى هايتناول هايربح"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "and life eternal",
+                "enPhonicsSongs": "el malakowt tool el dehoor",
+                "arabic": "الملكوت طول الدهور"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "My church, my church, my church",
+                "enPhonicsSongs": "Kenesti kenesti kenesti",
+                "arabic": "كنيستى كنيستى كنيستى"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "She's my home, she's my mother",
+                "enPhonicsSongs": "heya beytee, heya omee",
+                "arabic": "هى بيتى هى امى"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "She's the source of all my joy",
+                "enPhonicsSongs": "heya ser farah hayatee",
+                "arabic": "هى سر فرح حياتى"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "english_title": "My Coptic Church",
     "arabic_title": "كنيستي القبطية",
     "themes": [
@@ -7004,11 +7923,2196 @@
     ]
   },
   {
+    "english_title": "My Cross, Oh My Cross",
+    "arabic_title": "صليبي يا صليبي",
+    "themes": [
+      "The Cross",
+      "Children Songs"
+    ],
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "My Cross, Oh my Cross",
+                "enPhonicsSongs": "saliibi yaa saliibi",
+                "arabic": "صليبي يا صليبي"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "You're made out of wood",
+                "enPhonicsSongs": "masnoo3 min il-khashab",
+                "arabic": "مصنوع من الخشب"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "But valued in my eyes",
+                "enPhonicsSongs": "lakin dii qiimtak 3indi",
+                "arabic": "لكن دي قيمتك عندي"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "Precious more than Gold (2)",
+                "enPhonicsSongs": "'aghla min id-dahab (2)",
+                "arabic": "أغلي من الدهب (2)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "My Cross, Oh my Cross",
+                "enPhonicsSongs": "saliibi yaa saliibi",
+                "arabic": "صليبي يا صليبي"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "I'm always proud of you",
+                "enPhonicsSongs": "dooman 'aftakhir biik",
+                "arabic": "دوما أفتخر بيك"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "In front of all the nations",
+                "enPhonicsSongs": "qidaam in-naas kullahaa",
+                "arabic": "قدام الناس كلها"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "I exalt and praise you.",
+                "enPhonicsSongs": "'arfa3ak wa 'a3liik",
+                "arabic": "أرفعك وأعليك"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "My Cross, Oh my Cross",
+                "enPhonicsSongs": "saliibi yaa saliibi",
+                "arabic": "صليبي يا صليبي"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "You're made out of wood",
+                "enPhonicsSongs": "masnoo3 min il-khashab",
+                "arabic": "مصنوع من الخشب"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "But valued in my eyes",
+                "enPhonicsSongs": "lakin dii qiimtak 3indi",
+                "arabic": "لكن دي قيمتك عندي"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "Precious more than Gold (2)",
+                "enPhonicsSongs": "'aghla min id-dahab (2)",
+                "arabic": "أغلي من الدهب (2)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "My Cross, Oh my Cross",
+                "enPhonicsSongs": "saliibi yaa saliibi",
+                "arabic": "صليبي يا صليبي"
+              }
+            ]
+          },
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "With me in every place",
+                "enPhonicsSongs": "ma3aaya fi kull makaan",
+                "arabic": "معايا في كل مكان"
+              }
+            ]
+          },
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "In all my Tribulations",
+                "enPhonicsSongs": "fi is-sub7 'arshim saliibi",
+                "arabic": "في الصبح أرشم صليبي"
+              }
+            ]
+          },
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "In light and in darkness",
+                "enPhonicsSongs": "wa fi iz-zulmah kamaan",
+                "arabic": "وفي الضلمة كمان"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "My Cross, Oh my Cross",
+                "enPhonicsSongs": "saliibi yaa saliibi",
+                "arabic": "صليبي يا صليبي"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "You're made out of wood",
+                "enPhonicsSongs": "masnoo3 min il-khashab",
+                "arabic": "مصنوع من الخشب"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "But valued in my eyes",
+                "enPhonicsSongs": "lakin dii qiimtak 3indi",
+                "arabic": "لكن دي قيمتك عندي"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "Precious more than Gold (2)",
+                "enPhonicsSongs": "'aghla min id-dahab (2)",
+                "arabic": "أغلي من الدهب (2)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "My Cross, Oh my Cross",
+                "enPhonicsSongs": "saliibi yaa saliibi",
+                "arabic": "صليبي يا صليبي"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "You give me victory",
+                "enPhonicsSongs": "dooman fiik intisaar",
+                "arabic": "دوماً فيك انتصار"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "You are the throne of God",
+                "enPhonicsSongs": "'anta 3arsh 7abiibi",
+                "arabic": "أنت عرش حبيبي"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "The Son of the Almighty",
+                "enPhonicsSongs": "ibn illaah il-jabbaar",
+                "arabic": "ابن الله الجبار"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "My Cross, Oh my Cross",
+                "enPhonicsSongs": "saliibi yaa saliibi",
+                "arabic": "صليبي يا صليبي"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "You're made out of wood",
+                "enPhonicsSongs": "masnoo3 min il-khashab",
+                "arabic": "مصنوع من الخشب"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "But valued in my eyes",
+                "enPhonicsSongs": "lakin dii qiimtak 3indi",
+                "arabic": "لكن دي قيمتك عندي"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "Precious more than Gold (2)",
+                "enPhonicsSongs": "'aghla min id-dahab (2)",
+                "arabic": "أغلي من الدهب (2)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "My Fathers the Monks",
+    "arabic_title": "ياأبائي رهبان البرية",
+    "themes": [
+      "Children Songs",
+      "Faith"
+    ],
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "My fathers the monks of the desert",
+                "enPhonicsSongs": "yaa 'abaa'i rahbaan il-bariyya",
+                "arabic": "ياأبائي رهبان البرية"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "I wish to live a life like yours (2)",
+                "enPhonicsSongs": "nafsi 'a3iish 3ayshitkum diyyah (2)",
+                "arabic": "نفسي أعيش عيشتكم ديه (2)"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "Life of prayer, vigils and tears (2)",
+                "enPhonicsSongs": "3ayshat salawaat wa sahar wa damoo3 (2)",
+                "arabic": "عيشة صلوات وسهر ودموع (2)"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "You offer to our Savior",
+                "enPhonicsSongs": "bitqaddimoo-haa lil-rabb yasoo3",
+                "arabic": "بتقدموها للرب يسوع"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "My fathers, my fathers",
+                "enPhonicsSongs": "yaa 'abaa'i yaa 'abaa'i",
+                "arabic": "ياأبائي ياأبائي"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "Father of the monks Abba Antonius",
+                "enPhonicsSongs": "'aboo ir-rahbaan 'anba 'antoonyoos",
+                "arabic": "أبو الرهبان أنبا أنطونيوس"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "His disciple Abba Macarius (2)",
+                "enPhonicsSongs": "wa talmiizhuh il-'anba makaaryoos (2)",
+                "arabic": "وتلميذه الأنبا مكاريوس (2)"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "Left everything of worth and value",
+                "enPhonicsSongs": "tarakoo kull ghaali ghaali wa thamiin",
+                "arabic": "تركوا كل غالي غالي وثمين"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "To serve their faithful Savior (2)",
+                "enPhonicsSongs": "liyakhduumu ir-rabb il-'amiin (2)",
+                "arabic": "ليخدموا الرب الأمين (2)"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "My fathers, my fathers",
+                "enPhonicsSongs": "yaa 'abaa'i yaa 'abaa'i",
+                "arabic": "ياأبائي ياأبائي"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "My fathers the monks of the desert",
+                "enPhonicsSongs": "yaa 'abaa'i rahbaan il-bariyya",
+                "arabic": "ياأبائي رهبان البرية"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "I wish to live a life like yours (2)",
+                "enPhonicsSongs": "nafsi 'a3iish 3ayshitkum diyyah (2)",
+                "arabic": "نفسي أعيش عيشتكم ديه (2)"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "Life of prayer, vigils and tears (2)",
+                "enPhonicsSongs": "3ayshat salawaat wa sahar wa damoo3 (2)",
+                "arabic": "عيشة صلوات وسهر ودموع (2)"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "You offer to our Savior",
+                "enPhonicsSongs": "bitqaddimoo-haa lil-rabb yasoo3",
+                "arabic": "بتقدموها للرب يسوع"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "My fathers, my fathers",
+                "enPhonicsSongs": "yaa 'abaa'i yaa 'abaa'i",
+                "arabic": "ياأبائي ياأبائي"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "When they were attacked by the Barbarians",
+                "enPhonicsSongs": "lamma hagamoo 3alaykum il-barbar",
+                "arabic": "لما هجموا عليكم البربر"
+              }
+            ]
+          },
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "No one was afraid or denied his faith (2)",
+                "enPhonicsSongs": "ma7adish khaaf wala 'ankar (2)",
+                "arabic": "ماحدش خاف ولا أنكر (2)"
+              }
+            ]
+          },
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "They said our Lord is Jesus Christ",
+                "enPhonicsSongs": "qultoo 'ilaahnaa huwwa il-masii7",
+                "arabic": "قلتوا الهنا هو المسيح"
+              }
+            ]
+          },
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "For whom our lives we´d sacrifice (2)",
+                "enPhonicsSongs": "illi yagib lahu it-tasbii7 (2)",
+                "arabic": "اللي يجب له التسبيح (2)"
+              }
+            ]
+          },
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "My fathers, my fathers",
+                "enPhonicsSongs": "yaa 'abaa'i yaa 'abaa'i",
+                "arabic": "ياأبائي ياأبائي"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "My fathers the monks of the desert",
+                "enPhonicsSongs": "yaa 'abaa'i rahbaan il-bariyya",
+                "arabic": "ياأبائي رهبان البرية"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "I wish to live a life like yours (2)",
+                "enPhonicsSongs": "nafsi 'a3iish 3ayshitkum diyyah (2)",
+                "arabic": "نفسي أعيش عيشتكم ديه (2)"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "Life of prayer, vigils and tears (2)",
+                "enPhonicsSongs": "3ayshat salawaat wa sahar wa damoo3 (2)",
+                "arabic": "عيشة صلوات وسهر ودموع (2)"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "You offer to our Savior",
+                "enPhonicsSongs": "bitqaddimoo-haa lil-rabb yasoo3",
+                "arabic": "بتقدموها للرب يسوع"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "My fathers, my fathers",
+                "enPhonicsSongs": "yaa 'abaa'i yaa 'abaa'i",
+                "arabic": "ياأبائي ياأبائي"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "I am a youth struggling in the way",
+                "enPhonicsSongs": "bariyyat shiihiit miizaan il-quloob",
+                "arabic": "برية شيهيت ميزان القلوب"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "God's word I must learn to obey (2)",
+                "enPhonicsSongs": "fiihaa kull shay' ma7boob (2)",
+                "arabic": "فيها كل شئ محبوب (2)"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "Please pray for me, St. Anthony (2)",
+                "enPhonicsSongs": "fiihaa it-tariiq lil-'abadiyya (2)",
+                "arabic": "فيها الطريق للأبدية (2)"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "That Christ my abide in me fully",
+                "enPhonicsSongs": "wa 7ayaat 'ilaahnaa il-bahiyya",
+                "arabic": "وحياة إلهنا البهية"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "My fathers, my fathers",
+                "enPhonicsSongs": "yaa 'abaa'i yaa 'abaa'i",
+                "arabic": "ياأبائي ياأبائي"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "My fathers the monks of the desert",
+                "enPhonicsSongs": "yaa 'abaa'i rahbaan il-bariyya",
+                "arabic": "ياأبائي رهبان البرية"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "I wish to live a life like yours (2)",
+                "enPhonicsSongs": "nafsi 'a3iish 3ayshitkum diyyah (2)",
+                "arabic": "نفسي أعيش عيشتكم ديه (2)"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "Life of prayer, vigils and tears (2)",
+                "enPhonicsSongs": "3ayshat salawaat wa sahar wa damoo3 (2)",
+                "arabic": "عيشة صلوات وسهر ودموع (2)"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "You offer to our Savior",
+                "enPhonicsSongs": "bitqaddimoo-haa lil-rabb yasoo3",
+                "arabic": "بتقدموها للرب يسوع"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "My fathers, my fathers",
+                "enPhonicsSongs": "yaa 'abaa'i yaa 'abaa'i",
+                "arabic": "ياأبائي ياأبائي"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "My Guardian Angel",
+    "arabic_title": "ملاكى الحارس",
+    "themes": [
+      "Faith",
+      "Children Songs"
+    ],
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "My guardian angel is by me",
+                "enPhonicsSongs": "malaaki il-7aaris huwwa 7aarisni",
+                "arabic": "ملاكى الحارس هو حارسنى"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "Shadowing me like a tree.",
+                "enPhonicsSongs": "maashi ma3aaya wa biyoonisni",
+                "arabic": "ماشى معايا وبيونسنى"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "We sing our psalms together,",
+                "enPhonicsSongs": "in ratalt ma3aaya yirtal",
+                "arabic": "إن رتلت معايا يرتل"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "We share praises and prayer.",
+                "enPhonicsSongs": "wa in saba7t ma3aaya yisba7",
+                "arabic": "وإن سبحت معايا يسبح"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "\"Your voice is sweet.\"",
+                "enPhonicsSongs": "sootak gamiil la' sootuh 'agmal",
+                "arabic": "صوتك جميل لأ صوته أجمل"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "\"No, yours is better.\"",
+                "enPhonicsSongs": "wa li-'afraa7i huwwa biyafra7",
+                "arabic": "ولأفراحى هو بيفرح"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "He is there to share with me.",
+                "enPhonicsSongs": "",
+                "arabic": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "When I feel afraid of a thing",
+                "enPhonicsSongs": "dayman ta7t ginaa7uh waakhidni",
+                "arabic": "دايماً تحت جناحه واخدنى"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "He takes me under his wing.",
+                "enPhonicsSongs": "3an tariiq ish-shar biyab3idni",
+                "arabic": "عن طريق الشر بيبعدنى"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "Alerts me when I go wrong,",
+                "enPhonicsSongs": "waqt il-muzaakara biyisaa3idni",
+                "arabic": "وقت المذاكرة بيساعدنى"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "And helps me to stay as strong.",
+                "enPhonicsSongs": "wa fi imti7aanaati yirshidni",
+                "arabic": "وفى إمتحاناتى يرشدنى"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "This is my angel, my angel,",
+                "enPhonicsSongs": "maahu 'asl malaaki malaaki",
+                "arabic": "ماهو أصل ملاكى ملاكى"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "This is my guardian angel.",
+                "enPhonicsSongs": "maahu 'asl malaaki 7aarisni",
+                "arabic": "ماهو أصل ملاكى حارسنى"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "My guardian angel is by me",
+                "enPhonicsSongs": "malaaki il-7aaris huwwa 7aarisni",
+                "arabic": "ملاكى الحارس هو حارسنى"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "Shadowing me like a tree.",
+                "enPhonicsSongs": "maashi ma3aaya wa biyoonisni",
+                "arabic": "ماشى معايا وبيونسنى"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "We sing our psalms together,",
+                "enPhonicsSongs": "in ratalt ma3aaya yirtal",
+                "arabic": "إن رتلت معايا يرتل"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "We share praises and prayer.",
+                "enPhonicsSongs": "wa in saba7t ma3aaya yisba7",
+                "arabic": "وإن سبحت معايا يسبح"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "\"Your voice is sweet.\"",
+                "enPhonicsSongs": "sootak gamiil la' sootuh 'agmal",
+                "arabic": "صوتك جميل لأ صوته أجمل"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "\"No, yours is better.\"",
+                "enPhonicsSongs": "wa li-'afraa7i huwwa biyafra7",
+                "arabic": "ولأفراحى هو بيفرح"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "He is there to share with me.",
+                "enPhonicsSongs": "",
+                "arabic": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "When at home, he's there",
+                "enPhonicsSongs": "wa kamaan juwwa il-bayt wayyaaya",
+                "arabic": "وكمان جوة البيت وياى"
+              }
+            ]
+          },
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "Blessing every little corner;",
+                "enPhonicsSongs": "3amaal biyubaarik fi ghadaaya",
+                "arabic": "عمال بيبارك فى غدايا"
+              }
+            ]
+          },
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "He is happy when we care,",
+                "enPhonicsSongs": "yimli 3alayya il-bayt bihadaaya",
+                "arabic": "يملأ علىّ البيت بهدايا"
+              }
+            ]
+          },
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "Love each other and spare.",
+                "enPhonicsSongs": "wa qabl maa 'atlab 'alqaa 3ataaya",
+                "arabic": "وقبل ما أطلب ألقى عطايا"
+              }
+            ]
+          },
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "This is my angel, my angel,",
+                "enPhonicsSongs": "maahu 'asl malaaki malaaki",
+                "arabic": "ماهو أصل ملاكى ملاكى"
+              }
+            ]
+          },
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "This is my guardian angel.",
+                "enPhonicsSongs": "maahu 'asl malaaki 7aarisni",
+                "arabic": "ماهو أصل ملاكى حارسنى"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "My guardian angel is by me",
+                "enPhonicsSongs": "malaaki il-7aaris huwwa 7aarisni",
+                "arabic": "ملاكى الحارس هو حارسنى"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "Shadowing me like a tree.",
+                "enPhonicsSongs": "maashi ma3aaya wa biyoonisni",
+                "arabic": "ماشى معايا وبيونسنى"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "We sing our psalms together,",
+                "enPhonicsSongs": "in ratalt ma3aaya yirtal",
+                "arabic": "إن رتلت معايا يرتل"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "We share praises and prayer.",
+                "enPhonicsSongs": "wa in saba7t ma3aaya yisba7",
+                "arabic": "وإن سبحت معايا يسبح"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "\"Your voice is sweet.\"",
+                "enPhonicsSongs": "sootak gamiil la' sootuh 'agmal",
+                "arabic": "صوتك جميل لأ صوته أجمل"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "\"No, yours is better.\"",
+                "enPhonicsSongs": "wa li-'afraa7i huwwa biyafra7",
+                "arabic": "ولأفراحى هو بيفرح"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "He is there to share with me.",
+                "enPhonicsSongs": "",
+                "arabic": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "He tells me to be always joyful,",
+                "enPhonicsSongs": "biyu3allimni 'akoon far7aan",
+                "arabic": "بيعلمنى أكون فرحان"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "Teaches me to be thankful,",
+                "enPhonicsSongs": "wa 'artal wa 'a7faz 'al7aan",
+                "arabic": "وأرتل وأحفظ ألحان"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "Helps me to remain faithful,",
+                "enPhonicsSongs": "wa biyathabbitni 3ala il-'iimaan",
+                "arabic": "وبيثبتنى على الإيمان"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "Oh, he is so wonderful.",
+                "enPhonicsSongs": "wa yikhalliini 'a3iish fi 'amaan",
+                "arabic": "ويخلينى أعيش فى أمان"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "This is my angel, my angel,",
+                "enPhonicsSongs": "maahu 'asl malaaki malaaki",
+                "arabic": "ماهو أصل ملاكى ملاكى"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "This is my guardian angel.",
+                "enPhonicsSongs": "maahu 'asl malaaki 7aarisni",
+                "arabic": "ماهو أصل ملاكى حارسنى"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "My guardian angel is by me",
+                "enPhonicsSongs": "malaaki il-7aaris huwwa 7aarisni",
+                "arabic": "ملاكى الحارس هو حارسنى"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "Shadowing me like a tree.",
+                "enPhonicsSongs": "maashi ma3aaya wa biyoonisni",
+                "arabic": "ماشى معايا وبيونسنى"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "We sing our psalms together,",
+                "enPhonicsSongs": "in ratalt ma3aaya yirtal",
+                "arabic": "إن رتلت معايا يرتل"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "We share praises and prayer.",
+                "enPhonicsSongs": "wa in saba7t ma3aaya yisba7",
+                "arabic": "وإن سبحت معايا يسبح"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "\"Your voice is sweet.\"",
+                "enPhonicsSongs": "sootak gamiil la' sootuh 'agmal",
+                "arabic": "صوتك جميل لأ صوته أجمل"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "\"No, yours is better.\"",
+                "enPhonicsSongs": "wa li-'afraa7i huwwa biyafra7",
+                "arabic": "ولأفراحى هو بيفرح"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "He is there to share with me.",
+                "enPhonicsSongs": "",
+                "arabic": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "My Lord, Precious Jesus",
+    "arabic_title": "ربي يسوع الغالي",
+    "themes": [
+      "Comfort and Repentance",
+      "Children Songs"
+    ],
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "My Lord, precious Jesus,",
+                "enPhonicsSongs": "rabbi yasoo3 il-ghaali",
+                "arabic": "ربي يسوع الغالي"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "No one is more beloved,",
+                "enPhonicsSongs": "maa fiish zayyuh 7abiib",
+                "arabic": "ما فيش زيه حبيب"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "With Him I am no stranger,",
+                "enPhonicsSongs": "ma3aah tuhoon il-ghurba",
+                "arabic": "معاه تهون الغربة"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "And the cross is no burden.",
+                "enPhonicsSongs": "wa yuhoon 7iml is-saliib",
+                "arabic": "ويهون حمل الصليب"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "How beautiful is life with Him,",
+                "enPhonicsSongs": "ma7la il-3ishra wayyaah",
+                "arabic": "محلا العشرة وياه"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "Jesus, Lord of heaven!",
+                "enPhonicsSongs": "yasoo3 rabb is-samaa",
+                "arabic": "يسوع رب السما"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "He blesses life,",
+                "enPhonicsSongs": "yubaarik il-7ayaah",
+                "arabic": "يبارك الحياه"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "Living with Him is pleasant!",
+                "enPhonicsSongs": "il-3aysha 7ilwa ma3aah",
+                "arabic": "العيشة حلوة معاه"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "In His protection I live. (2)",
+                "enPhonicsSongs": "'anaa 3aayish fi 7imaah (2)",
+                "arabic": "أنا عايش في حماه (2)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "With vigor my soul tread,",
+                "enPhonicsSongs": "wa bi3izz yaa nafs doosi",
+                "arabic": "وبعز يا نفس دوسي"
+              }
+            ]
+          },
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "Upon all the lusts,",
+                "enPhonicsSongs": "3ala kull il-maghriyaat",
+                "arabic": "على كل المغريات"
+              }
+            ]
+          },
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "My beloved is lovely,",
+                "enPhonicsSongs": "dah 7abiibi 7alquh 7alaawa",
+                "arabic": "ده حبيبي حلقه حلاوة"
+              }
+            ]
+          },
+          {
+            "row-class": "south",
+            "cells": [
+              {
+                "english": "Filled with splendor.",
+                "enPhonicsSongs": "wa kulluh mushtahiyaat",
+                "arabic": "وكله مشتهيات"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "How beautiful is life with Him,",
+                "enPhonicsSongs": "ma7la il-3ishra wayyaah",
+                "arabic": "محلا العشرة وياه"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "Jesus, Lord of heaven!",
+                "enPhonicsSongs": "yasoo3 rabb is-samaa",
+                "arabic": "يسوع رب السما"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "He blesses life,",
+                "enPhonicsSongs": "yubaarik il-7ayaah",
+                "arabic": "يبارك الحياه"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "Living with Him is pleasant!",
+                "enPhonicsSongs": "il-3aysha 7ilwa ma3aah",
+                "arabic": "العيشة حلوة معاه"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "In His protection I live. (2)",
+                "enPhonicsSongs": "'anaa 3aayish fi 7imaah (2)",
+                "arabic": "أنا عايش في حماه (2)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "My pains in the wilderness,",
+                "enPhonicsSongs": "'aalaami fi il-bariyya",
+                "arabic": "آلامي في البرية"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "Their number matters not,",
+                "enPhonicsSongs": "mahmaa kaanat kitiir",
+                "arabic": "مهما كانت كتير"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "In eternal meadows,",
+                "enPhonicsSongs": "3ala il-'azru3 il-'abadiyya",
+                "arabic": "على الأذرع الأبدية"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "The Omnipotent carries me.",
+                "enPhonicsSongs": "ya7milni il-qadiir",
+                "arabic": "يحملني القدير"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "How beautiful is life with Him,",
+                "enPhonicsSongs": "ma7la il-3ishra wayyaah",
+                "arabic": "محلا العشرة وياه"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "Jesus, Lord of heaven!",
+                "enPhonicsSongs": "yasoo3 rabb is-samaa",
+                "arabic": "يسوع رب السما"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "He blesses life,",
+                "enPhonicsSongs": "yubaarik il-7ayaah",
+                "arabic": "يبارك الحياه"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "Living with Him is pleasant!",
+                "enPhonicsSongs": "il-3aysha 7ilwa ma3aah",
+                "arabic": "العيشة حلوة معاه"
+              }
+            ]
+          },
+          {
+            "row-class": "Refrain",
+            "cells": [
+              {
+                "english": "In His protection I live. (2)",
+                "enPhonicsSongs": "'anaa 3aayish fi 7imaah (2)",
+                "arabic": "أنا عايش في حماه (2)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },  
+  {
+  "english_title": "Night of the Last Supper",
+  "arabic_title": "ليل العشاء السرى",
+  "themes": [
+    "Holy Communion",
+    "Salvation"
+  ],
+  "tbodies": [
+    {
+      "rows": [
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "Night of the last supper (2)",
+              "enPhonicsSongs": "layl il-3ashaa' is-sirri (2)",
+              "arabic": "ليل العشاء السرى (2)"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "Jesus took bread and broke,",
+              "enPhonicsSongs": "'akhaz khubzan wa kasar",
+              "arabic": "اخذ خبزا وكسر"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "and said \"This is My Body.\" (2)",
+              "enPhonicsSongs": "wa qaal haaza jasadi (2)",
+              "arabic": "وقال هذا جسدى (2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "Our Master, our Savior, gave us the vine of love.",
+              "enPhonicsSongs": "mawlaanaa 'asqaana min khamrat il-7ubb",
+              "arabic": "مولانا اسقان من خمرة الحب"
+            }
+          ]
+        },
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "He is the Bread of life,",
+              "enPhonicsSongs": "fadaanaa 'a7yaanaa",
+              "arabic": "فدانا احيانا"
+            }
+          ]
+        },
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "coming from heaven above. (3)",
+              "enPhonicsSongs": "ir-rabb 7abiib qalbi (3)",
+              "arabic": "الرب حبيب قلبى (3)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "Night when my Lord suffered (2)",
+              "enPhonicsSongs": "layl li-'alaam rabbi (2)",
+              "arabic": "ليل للام ربى (2)"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "He took wine and gave thanks,",
+              "enPhonicsSongs": "'akhaz ka'san wa shakar",
+              "arabic": "اخذ كأسا وشكر"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "and said \"This is My Blood\". (2)",
+              "enPhonicsSongs": "wa qaal haaza dami (2)",
+              "arabic": "وقال هذا دمى (2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "This is the Groom's supper, is given to His bride.",
+              "enPhonicsSongs": "haaza 3ashaa' il-3ariis qad lil-3ariis",
+              "arabic": "هذا عشاء العريس قد للعريس"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "Promising eternal life,",
+              "enPhonicsSongs": "wal-wa3d bil-firdoos",
+              "arabic": "والوعد بالفردوس"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "up in the Lord's kingdom. (2)",
+              "enPhonicsSongs": "li7aafiz il-3ahd (2)",
+              "arabic": "لحافظ العهد (2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "This is the food of souls, is offered to us all.",
+              "enPhonicsSongs": "haaza ghizaa' ir-roo7 wadaamid il-juroo7",
+              "arabic": "هذا غذاء الروح وضامد الجروح"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "And the blood is given,",
+              "enPhonicsSongs": "3abiirah yafuu7",
+              "arabic": "عبيرة يفوح"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "to help me lest I fall. (2)",
+              "enPhonicsSongs": "fi haykal ir-rabb (2)",
+              "arabic": "فى هيكل الرب (2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "Jesus You are my hope, forgive my sins O Lord.",
+              "enPhonicsSongs": "yaa sayyidi il-ma7boob yaa saatir il-3uyoob",
+              "arabic": "يا سيدي المحبوب يا ساتر العيوب"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "Wash me and clean my soul,",
+              "enPhonicsSongs": "yaa maa7i iz-zunoob",
+              "arabic": "يا ماحى الذنوب"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "put on me a new robe. (2)",
+              "enPhonicsSongs": "daawi saqaam nafsi (2)",
+              "arabic": "داو سقام نفسى (2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "My heart I give to You, Your will I want to do.",
+              "enPhonicsSongs": "qalbi 'anaa 'a3tiik wamaali 'ahdiik",
+              "arabic": "قلبى انا اعطيك ومالى اهديك"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "Your love to me I knew,",
+              "enPhonicsSongs": "qawwi rajaay fiik",
+              "arabic": "قوى رجائى فيك"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "when You paid all my dues. (2)",
+              "enPhonicsSongs": "yaa masdar il-7ubb (2)",
+              "arabic": "يا مصدر الحب (2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "Jesus fill all my heart, the devil has no part.",
+              "enPhonicsSongs": "yaa waadi3 iz-zamiir wal-7asan wat-tafkiir",
+              "arabic": "يا واضع الضمير والحسن والتفكير"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "And through this sacrament,",
+              "enPhonicsSongs": "tahhirni yaa qadiir",
+              "arabic": "طهرني يا قدير"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "He gave me a new start. (2)",
+              "enPhonicsSongs": "min wasmat il-'ithm (2)",
+              "arabic": "من وصمة الاثم (2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "Jesus to you I pray, to lead me in Your way.",
+              "enPhonicsSongs": "yaa ghaafir iz-zunoob yaa maasi7 il-3uyoob",
+              "arabic": "يا غافر الذنوب يا ماسح العيوب"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "Bless me and help me obey,",
+              "enPhonicsSongs": "yaa 7aafiz il-quloob",
+              "arabic": "يا حافظ القلوب"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "all what the Bible says. (2)",
+              "enPhonicsSongs": "ir-rabb 7abiib qalbi (2)",
+              "arabic": "الرب حبيب قلبى (2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "Christ suffered for my sake, His mercy is so great.",
+              "enPhonicsSongs": "bish-shawk kallilook wal-marqad saqook",
+              "arabic": "بالشوك كللوك والمرقد سقوك"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "My sins Jesus forgave,",
+              "enPhonicsSongs": "bil-7irbah suqooq",
+              "arabic": "بالحربة سقوق"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "and a new life He gave. (2)",
+              "enPhonicsSongs": "ir-rabb 7abiib qalbi (2)",
+              "arabic": "الرب حبيب قلبى (2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "My heart is filled with joy, and my spirit rejoices.",
+              "enPhonicsSongs": "yaa sayyidi il-majroo7 lamaa sallamt ir-roo7",
+              "arabic": "يا سيدى المجروح لما سلمت الروح"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "With God I have union,",
+              "enPhonicsSongs": "wal-maryamaat tanuu7",
+              "arabic": "والمريمات تنوح"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "when I take Communion. (2)",
+              "enPhonicsSongs": "ir-rabb 7abiib qalbi (2)",
+              "arabic": "الرب حبيب قلبى (2)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  },
+  {
+  "english_title": "No Eye Has Seen",
+  "arabic_title": "لم تر عين إله غيرك",
+  "themes": [
+    "Comfort and Repentance",
+    "Salvation"
+  ],
+  "tbodies": [
+    {
+      "rows": [
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "No eye has seen another God like you",
+              "enPhonicsSongs": "lam tara 3ayn 'ilaahan ghayrak",
+              "arabic": "لم تر عين إله غيرك"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "Who opens the jails and shatters the chains (2)",
+              "enPhonicsSongs": "yafta7 is-sijn wa yanzi3 il-quyood (2)",
+              "arabic": "يفتح السجن و ينزع القيود (2)"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "who parts the sea and behold there's a path",
+              "enPhonicsSongs": "wa yashuqq il-ghamr fa-'izaa tariiq",
+              "arabic": "و يشق الغمر فإذا طريق"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "No mountian or barriers get in his way",
+              "enPhonicsSongs": "laa ta3ooquh jibaal 'aw sudood",
+              "arabic": "لا تعوقه جبال أو سدود"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "No eye has seen another God like you (2)",
+              "enPhonicsSongs": "lam tara 3ayn 'ilaahan ghayrak (2)",
+              "arabic": "لم تر عين إلهًا غيرك (2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "Who else but you could appear in the flames",
+              "enPhonicsSongs": "min siwaak yataraa'a fi il-'aatoon",
+              "arabic": "من سواك يتراءى فى الآتون"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "Or rescue a soul from the lion's den (2)",
+              "enPhonicsSongs": "'aw yunji in-nafs min jubb il-'usood (2)",
+              "arabic": "أو ينجى النفس من جب الأسود (2)"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "Who lights the way when the darkness comes",
+              "enPhonicsSongs": "man yuniir il-qafr 'in 7all iz-zalaam",
+              "arabic": "من ينير القفر إن حل الظلام"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "with a blaze of love in a pillar of fire.",
+              "enPhonicsSongs": "bilahiib 7ubb fi soorat 3amood",
+              "arabic": "بلهيب حب فى صورة عامود"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "No eye has seen another God like you (2)",
+              "enPhonicsSongs": "lam tara 3ayn 'ilaahan ghayrak (2)",
+              "arabic": "لم تر عين إلهًا غيرك (2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "Who else but you went to calvary",
+              "enPhonicsSongs": "kam ta'allamt 3ala 3ood is-saliib",
+              "arabic": "كم تألمت على عود الصليب"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "who else paid my depts, carried my iniquity (2)",
+              "enPhonicsSongs": "ki ta3idd li makaanan fi il-khulood (2)",
+              "arabic": "كى تعد لى مكانًا فى الخلود (2)"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "And you promised me you're coming very soon",
+              "enPhonicsSongs": "wa wa3adtani satati 3an qariib",
+              "arabic": "و وعدتنى ستأتى عن قريب"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "To take me to heaven for eternity.",
+              "enPhonicsSongs": "wa tahabni thiql magdan bis-su3ood",
+              "arabic": "و تهبنى ثقل مجدًا بالصعود"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "No eye has seen another God like you (2)",
+              "enPhonicsSongs": "lam tara 3ayn 'ilaahan ghayrak (2)",
+              "arabic": "لم تر عين إلهًا غيرك (2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "enPhonicsSongs": "lam tara 3ayn 'ilaahan ghayrak",
+              "arabic": "لم تر عين إلهًا غيرك"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "enPhonicsSongs": "yakshef lahaa 3an sirr ghinaak",
+              "arabic": "يكشف لها عن سر غناك"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "enPhonicsSongs": "wa yuziil kull zulmat il-3uyoon",
+              "arabic": "و يزيل كل ظلمة العيون"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "enPhonicsSongs": "7iinama na7faz wa nusalli wa naqool",
+              "arabic": "حينما نحفظ و نصل و نقول"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "No eye has seen another God like you (2)",
+              "enPhonicsSongs": "lam tara 3ayn 'ilaahan ghayrak (2)",
+              "arabic": "لم تر عين إلهًا غيرك (2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "enPhonicsSongs": "lam takun 3aynay yaa rabbi taraa",
+              "arabic": "لم تكن عيناى يا ربى ترى"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "enPhonicsSongs": "fakhataayaaha tu7gib ir-ru'ya",
+              "arabic": "فخطاياها تحجب الرؤية"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "enPhonicsSongs": "fa-'anaa mawlood 'a3maa min zamaan",
+              "arabic": "فأنا مولود أعمى من زمان"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "enPhonicsSongs": "fa-'atla bil-tiin 3aynay bidaak",
+              "arabic": "فأطلى بالطين عيناى بيداك"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "No eye has seen another God like you (2)",
+              "enPhonicsSongs": "lam tara 3ayn 'ilaahan ghayrak (2)",
+              "arabic": "لم تر عين إلهًا غيرك (2)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  },
+  {
     "english_title": "O Beloved",
     "arabic_title": "و حبيبي",
     "themes": [
       "Comfort and Repentance",
-      "The Cross"
+      "The Cross",
+      "Salvation"
     ],
     "tbodies": [
       {
@@ -7018,6 +10122,7 @@
             "cells": [
               {
                 "english": "O Beloved, O Beloved, nailed unto the cross for me",
+                "enPhonicsSongs": "waa 7abibi waa 7abibi, 'ayy 7aal 'anta fiih",
                 "arabic": "وا حبيبي وآ حبيبي، أي حال أنت فيه"
               }
             ]
@@ -7027,6 +10132,7 @@
             "cells": [
               {
                 "english": "O what sin hast Thou committed, Thou who callest all to be.",
+                "enPhonicsSongs": "min shajaak min saqaak, ka's khall tirtadiih",
                 "arabic": "من شجاك من سقاك، كأس خل ترتضيه"
               }
             ]
@@ -7036,6 +10142,7 @@
             "cells": [
               {
                 "english": "O Beloved, wish that I could spend the rest of life with Thee",
+                "enPhonicsSongs": "yaa 7abibi 'ayy zanb, qad sana3t 'aw kariih",
                 "arabic": "يا حبيبي أي ذنب، قد صنعت أو كريه"
               }
             ]
@@ -7045,6 +10152,7 @@
             "cells": [
               {
                 "english": "Worshipping Thine Holy Passion, crucifying the flesh for Thee.",
+                "enPhonicsSongs": "'anta majhood jarii7, laysa fiik min shifaa'",
                 "arabic": "أنت مجهود جريح، ليس فيك من شفاء"
               }
             ]
@@ -7058,6 +10166,7 @@
             "cells": [
               {
                 "english": "Daughter of Zion behold Me, stricken and smitten for Thee",
+                "enPhonicsSongs": "bint sahyoon unzurini, ghaariqan fi zii illujag",
                 "arabic": "بنت صهيون انظريني، غارقا في ذي اللجج"
               }
             ]
@@ -7067,6 +10176,7 @@
             "cells": [
               {
                 "english": "Friend and kin, me have forsaken, there is none to comfort Me.",
+                "enPhonicsSongs": "qad tarakt wa khuzilt, wal-balaa kabdi walaj",
                 "arabic": "قد تركت و خذلت، و البلا كبدي ولج"
               }
             ]
@@ -7076,6 +10186,7 @@
             "cells": [
               {
                 "english": "All alone I’ll tread the winepress, all alone I’ll drink the cup",
+                "enPhonicsSongs": "laa sadiiq laa wala min, insibaa'i man kharaj",
                 "arabic": "لا صديق لا و لا مِن، انسبائي مَن خرج"
               }
             ]
@@ -7085,6 +10196,7 @@
             "cells": [
               {
                 "english": "Shedding My blood for thee to ransom, and My flesh for thee to sup.",
+                "enPhonicsSongs": "kay yazood il-3aar 3anni, wa yusalli il-mubtala",
                 "arabic": "كي يذود العار عنى، ويُسَلي المُبتلى"
               }
             ]
@@ -7098,6 +10210,7 @@
             "cells": [
               {
                 "english": "I was bound and I was smitten, and they did spit in my face",
+                "enPhonicsSongs": "qad rubitt wa duribt, mithl 'adnaa il-marzuuliin",
                 "arabic": "قد ربطت و ضربت، مثل أدنى المرذولين"
               }
             ]
@@ -7107,6 +10220,7 @@
             "cells": [
               {
                 "english": "I was stripped and I was scourged, I was condemned in your place.",
+                "enPhonicsSongs": "bisiyaat qad julidt, mithl sharr il-mujrimiin",
                 "arabic": "بسياط قد جلدت، مثل شر المجرمين"
               }
             ]
@@ -7116,6 +10230,7 @@
             "cells": [
               {
                 "english": "Your sins became My crown of thorns, O that you would understand",
+                "enPhonicsSongs": "kull haazaa min jaraakum, kay takoonoo fara7iin",
                 "arabic": "كل هذا من جراكم، كي تكونوا فرحين"
               }
             ]
@@ -7125,6 +10240,7 @@
             "cells": [
               {
                 "english": "Every time you sin anew, it’s one more nail in My hand.",
+                "enPhonicsSongs": "fa-unzurooni hal ra'aytum, mithl saqmi fi il-waraa",
                 "arabic": "فانظروني هل رأيتم، مثل سقمي في الورى"
               }
             ]
@@ -7138,6 +10254,7 @@
             "cells": [
               {
                 "english": "Like a lamb brought to the slaughter, like a dumb sheep to be sheered",
+                "enPhonicsSongs": "ru7t fi il-bustaan laylan, wal-7ashaa minni idtarab",
                 "arabic": "رحت في البستان ليلا، والحشى مني أضطرب"
               }
             ]
@@ -7147,6 +10264,7 @@
             "cells": [
               {
                 "english": "King, Creator, Lord, and Master, by His creatures mocked and jeered.",
+                "enPhonicsSongs": "khift sallayt dajirt, wat-tala minni insakab",
                 "arabic": "خفت صليت ضجرت، و الطلا منى انسكب"
               }
             ]
@@ -7156,6 +10274,7 @@
             "cells": [
               {
                 "english": "Despised, rejected with grief acquainted, and of men was not esteemed",
+                "enPhonicsSongs": "qult rabbi in ra'ayt, fadfi3an 3anni il-3atab",
                 "arabic": "قلت ربى إن رأيت، فادفعن عنى العطب"
               }
             ]
@@ -7165,6 +10284,7 @@
             "cells": [
               {
                 "english": "Bruised and wounded, sore afflicted, yet with His stripes we were healed.",
+                "enPhonicsSongs": "7uzn nafsi laa yumaathil, bighariiq fi it-tamaa",
                 "arabic": "حزن نفسي لا يماثل، بغريق في الطمى"
               }
             ]
@@ -7178,6 +10298,7 @@
             "cells": [
               {
                 "english": "Lord, create in us a fountain that with tears will ever flow",
+                "enPhonicsSongs": "madadooni kakhuroof, samarooni fi is-saliib",
                 "arabic": "مددوني كخروف، سمروني في الصليب"
               }
             ]
@@ -7187,6 +10308,7 @@
             "cells": [
               {
                 "english": "And a heart contrite and broken, and a Spirit within renew.",
+                "enPhonicsSongs": "kull 3awni farr 3anni, mithl insaan ghariib",
                 "arabic": "كل عوني فر عنى، مثل إنسان غريب"
               }
             ]
@@ -7196,6 +10318,7 @@
             "cells": [
               {
                 "english": "O that we could shed the tears over Thy feet pierced and bruised",
+                "enPhonicsSongs": "fanaadayt wa talabt, mubdi3 il-kawn ir-raqiib",
                 "arabic": "فناديت و طلبت، مبدع الكون الرقيب"
               }
             ]
@@ -7205,6 +10328,7 @@
             "cells": [
               {
                 "english": "O that we always remember, for our sins Thou were abused.",
+                "enPhonicsSongs": "'aqqaba iz-zulm inkhizaali, wa idtiraab wa bukaa'",
                 "arabic": "أعقب الظلم إنخذالى، و اضطراب و بكاء"
               }
             ]
@@ -7217,6 +10341,8 @@
             "row-class": "south",
             "cells": [
               {
+                "english": "",
+                "enPhonicsSongs": "yaa yasoo3 ujri fiinaa, sayl dam3 munhamir",
                 "arabic": "يا يسوع اجر فينا، سيل دمع منهمر"
               }
             ]
@@ -7225,6 +10351,8 @@
             "row-class": "south",
             "cells": [
               {
+                "english": "",
+                "enPhonicsSongs": "yaltazz il-qalb binaar, 7uzn qalb munkasir",
                 "arabic": "يلتظ القلب بنار، حزن قلب منكسر"
               }
             ]
@@ -7233,6 +10361,8 @@
             "row-class": "south",
             "cells": [
               {
+                "english": "",
+                "enPhonicsSongs": "likhataayaa jurri7tik, bi3uquuq mustamirr",
                 "arabic": "لخطايا جرحتك، بعقوق مستمر"
               }
             ]
@@ -7241,6 +10371,8 @@
             "row-class": "south",
             "cells": [
               {
+                "english": "",
+                "enPhonicsSongs": "laytinaa tool illayaali, nadaman nahmi id-dimaa'",
                 "arabic": "ليتنا طول الليالي، ندما نهمى الدماء"
               }
             ]
@@ -7248,6 +10380,633 @@
         ]
       }
     ]
+  },
+  {
+  "english_title": "O Coptic Bride of My Savior",
+  "arabic_title": "اعروس الفادى القبطية",
+  "themes": [
+    "Faith",
+    "The Church",
+    "The Coptic New Year"
+  ],
+  "tbodies": [
+    {
+      "rows": [
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "O coptic bride of my savior,",
+              "enPhonicsSongs": "A3aroos elfady elkebteya",
+              "arabic": "اعروس الفادى القبطية"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "And the light of my homeland Egypt",
+              "enPhonicsSongs": "we deya2 belady elmesreya",
+              "arabic": "وضياء بلادى المصرية"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "With a flaming love in my heart,",
+              "enPhonicsSongs": "be mahabit kalby el nareya",
+              "arabic": "بمحبة قلبى النارية"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "I adore you Orthodox faith.",
+              "enPhonicsSongs": "ahwaky ya orthozoxeya",
+              "arabic": "اهواك يا ارثوذكسية"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "Mother of the martyrs is beautiful,",
+              "enPhonicsSongs": "om el shohoda2 gameela",
+              "arabic": "ام الشهداء جميلة"
+            }
+          ]
+        },
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "Mother of the honorable is noble",
+              "enPhonicsSongs": "om el shorafa2 nabeela",
+              "arabic": "ام الشرفاء نبيلة"
+            }
+          ]
+        },
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "She crossed the sea of all sufferings,",
+              "enPhonicsSongs": "3abarat bahr el alamat",
+              "arabic": "عبرت بحر الالامات"
+            }
+          ]
+        },
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "She preserved with her blood the faith.",
+              "enPhonicsSongs": "hafezat be demaha el hak kaweem",
+              "arabic": "حفظت بدماها الحق قويم"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "O Mother your love made me alive,",
+              "enPhonicsSongs": "Ya omy hobek ahyany",
+              "arabic": "يا امى حبك احيانى"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "Your pain is the seed of my faith",
+              "enPhonicsSongs": "alamek bezrit emany",
+              "arabic": "الامك بذرة ايمانى"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "You went through the worst of times,",
+              "enPhonicsSongs": "kad gozt amr el azman",
+              "arabic": "قد جزت امر الازمان"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "And you got out of them victorious.",
+              "enPhonicsSongs": "we kharagt kheroog el shog3an",
+              "arabic": "وخرجت خروج الشجعان"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "Mother of the martyrs is beautiful,",
+              "enPhonicsSongs": "om el shohoda2 gameela",
+              "arabic": "ام الشهداء جميلة"
+            }
+          ]
+        },
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "Mother of the honorable is noble",
+              "enPhonicsSongs": "om el shorafa2 nabeela",
+              "arabic": "ام الشرفاء نبيلة"
+            }
+          ]
+        },
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "She crossed the sea of all sufferings,",
+              "enPhonicsSongs": "3abarat bahr el alamat",
+              "arabic": "عبرت بحر الالامات"
+            }
+          ]
+        },
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "She preserved with her blood the faith.",
+              "enPhonicsSongs": "hafezat be demaha el hak kaweem",
+              "arabic": "حفظت بدماها الحق قويم"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "Your enemies struck you and hurt you,",
+              "enPhonicsSongs": "daraboky ela3da2 taradoky",
+              "arabic": "ضربوك الاعداء طردوك"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "They've put you in jails and have killed you",
+              "enPhonicsSongs": "saganoky we aydan kataloky",
+              "arabic": "سجنوك وايضا قتلوك"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "As food for beasts they made you,",
+              "enPhonicsSongs": "wa ta3am wehoosh ga3aloky",
+              "arabic": "وطعام وخوش جعلوك"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "And to every pain exposed you.",
+              "enPhonicsSongs": "wa le kol 3azab dafa3oky",
+              "arabic": "ولكل عذاب دفعوك"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "Mother of the martyrs is beautiful,",
+              "enPhonicsSongs": "om el shohoda2 gameela",
+              "arabic": "ام الشهداء جميلة"
+            }
+          ]
+        },
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "Mother of the honorable is noble",
+              "enPhonicsSongs": "om el shorafa2 nabeela",
+              "arabic": "ام الشرفاء نبيلة"
+            }
+          ]
+        },
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "She crossed the sea of all sufferings,",
+              "enPhonicsSongs": "3abarat bahr el alamat",
+              "arabic": "عبرت بحر الالامات"
+            }
+          ]
+        },
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "She preserved with her blood the faith.",
+              "enPhonicsSongs": "hafezat be demaha el hak kaweem",
+              "arabic": "حفظت بدماها الحق قويم"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "O Mother how faithful you were,",
+              "enPhonicsSongs": "ya omy kam konty ameena",
+              "arabic": "يا امى كم كنت امينة"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "And love of your bridegroom filled you",
+              "enPhonicsSongs": "wa behob 3areesak maftoona",
+              "arabic": "وبحب عريسك مفتونة"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "His sacraments He gave you,",
+              "enPhonicsSongs": "asraroh 3andek maknoona",
+              "arabic": "اسراره عندك مكنونة"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "And by his power you are guarded.",
+              "enPhonicsSongs": "we be kowateh enty masnoona",
+              "arabic": "وبقوته انت مصونة"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "Mother of the martyrs is beautiful,",
+              "enPhonicsSongs": "om el shohoda2 gameela",
+              "arabic": "ام الشهداء جميلة"
+            }
+          ]
+        },
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "Mother of the honorable is noble",
+              "enPhonicsSongs": "om el shorafa2 nabeela",
+              "arabic": "ام الشرفاء نبيلة"
+            }
+          ]
+        },
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "She crossed the sea of all sufferings,",
+              "enPhonicsSongs": "3abarat bahr el alamat",
+              "arabic": "عبرت بحر الالامات"
+            }
+          ]
+        },
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "She preserved with her blood the faith.",
+              "enPhonicsSongs": "hafezat be demaha el hak kaweem",
+              "arabic": "حفظت بدماها الحق قويم"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "How beautiful is my wounded Mother,",
+              "enPhonicsSongs": "ma ahla omy el matrooda",
+              "arabic": "ما احلى امى المطرودة"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "For the sake of the savior and His servants",
+              "enPhonicsSongs": "min agl el fady we 3abeedo",
+              "arabic": "من اجل الفادى وعبيده"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "Blessed is he who will love you,",
+              "enPhonicsSongs": "ya sa3doh mo3teek wedado",
+              "arabic": "يا سعده معطيك وداده"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "Who will preserve your faith.",
+              "enPhonicsSongs": "man yanhid bey3et agdadoh",
+              "arabic": "من ينهض بيعة اجداده"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "Mother of the martyrs is beautiful,",
+              "enPhonicsSongs": "om el shohoda2 gameela",
+              "arabic": "ام الشهداء جميلة"
+            }
+          ]
+        },
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "Mother of the honorable is noble",
+              "enPhonicsSongs": "om el shorafa2 nabeela",
+              "arabic": "ام الشرفاء نبيلة"
+            }
+          ]
+        },
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "She crossed the sea of all sufferings,",
+              "enPhonicsSongs": "3abarat bahr el alamat",
+              "arabic": "عبرت بحر الالامات"
+            }
+          ]
+        },
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "She preserved with her blood the faith.",
+              "enPhonicsSongs": "hafezat be demaha el hak kaweem",
+              "arabic": "حفظت بدماها الحق قويم"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "I hope my heart starts to love you,",
+              "enPhonicsSongs": "ya layt fo2ady yahwaky",
+              "arabic": "يا ليت فؤادى يهواك"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "So that i would live your faith",
+              "enPhonicsSongs": "kay ahya fee zel hemaky",
+              "arabic": "كى احيا فى ظل حماك"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "And chase away your enemies,",
+              "enPhonicsSongs": "wa otared doman a3daky",
+              "arabic": "واطارد دوما اعداك"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "Renewing your old days.",
+              "enPhonicsSongs": "wa ogaded ayam sibaky",
+              "arabic": "واجدد ايام صباك"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "Mother of the martyrs is beautiful,",
+              "enPhonicsSongs": "om el shohoda2 gameela",
+              "arabic": "ام الشهداء جميلة"
+            }
+          ]
+        },
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "Mother of the honorable is noble",
+              "enPhonicsSongs": "om el shorafa2 nabeela",
+              "arabic": "ام الشرفاء نبيلة"
+            }
+          ]
+        },
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "She crossed the sea of all sufferings,",
+              "enPhonicsSongs": "3abarat bahr el alamat",
+              "arabic": "عبرت بحر الالامات"
+            }
+          ]
+        },
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "She preserved with her blood the faith.",
+              "enPhonicsSongs": "hafezat be demaha el hak kaweem",
+              "arabic": "حفظت بدماها الحق قويم"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "O Mother here i come,",
+              "enPhonicsSongs": "ya omy atharek fe el wady",
+              "arabic": "يا امى اثارك فى الوادى"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "Your love boiling in my veins",
+              "enPhonicsSongs": "we hananek yeghly fee fo2ady",
+              "arabic": "وحنانك يغلى فى فؤادى"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "I promise with all my heart,",
+              "enPhonicsSongs": "ha 3ahd wefa2y wa wedady",
+              "arabic": "ها عهد وفائى وودادى"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "I shall serve my Father's church.",
+              "enPhonicsSongs": "an akhdam bey3it agdady",
+              "arabic": "ان اخدم بيعة اجدادى"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "Mother of the martyrs is beautiful,",
+              "enPhonicsSongs": "om el shohoda2 gameela",
+              "arabic": "ام الشهداء جميلة"
+            }
+          ]
+        },
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "Mother of the honorable is noble",
+              "enPhonicsSongs": "om el shorafa2 nabeela",
+              "arabic": "ام الشرفاء نبيلة"
+            }
+          ]
+        },
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "She crossed the sea of all sufferings,",
+              "enPhonicsSongs": "3abarat bahr el alamat",
+              "arabic": "عبرت بحر الالامات"
+            }
+          ]
+        },
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "She preserved with her blood the faith.",
+              "enPhonicsSongs": "hafezat be demaha el hak kaweem",
+              "arabic": "حفظت بدماها الحق قويم"
+            }
+          ]
+        }
+      ]
+    }
+  ]
   },
   {
     "english_title": "O Mary our Mother, the Beloved of Us All",
@@ -8177,7 +11936,7 @@
     ]
   },
   {
-    "english_title": "Ya om el noor ya gameela",
+    "english_title": "O Mother of Light, O Beautiful One (Auto Translation)",
     "arabic_title": "يا أم النور ياجميلة",
     "themes": [
       "St. Mary"
@@ -8189,6 +11948,7 @@
             "row-class": "North",
             "cells": [
               {
+                "english": "O Mother of Light, so beautiful",
                 "enPhonicsSongs": "Ya om el noor ya gameela",
                 "arabic": "يا أم النور ياجميلة"
               }
@@ -8198,6 +11958,7 @@
             "row-class": "North",
             "cells": [
               {
+                "english": "O Virgin pure and noble",
                 "enPhonicsSongs": "Ya 3azra’ tahera we nabila",
                 "arabic": "يا عذراء طاهرة ونبيله"
               }
@@ -8207,6 +11968,7 @@
             "row-class": "North",
             "cells": [
               {
+                "english": "O daughter of David, so true",
                 "enPhonicsSongs": "Ya bent dawood ya aseela",
                 "arabic": "يا بنت داود يا أصيله"
               }
@@ -8216,6 +11978,7 @@
             "row-class": "North",
             "cells": [
               {
+                "english": "O Mother of our God, our guide (2)",
                 "enPhonicsSongs": "Ya om elahna we ra3eena (2)",
                 "arabic": "يا أم ألهنا وراعينا (2)"
               }
@@ -8229,6 +11992,7 @@
             "row-class": "south",
             "cells": [
               {
+                "english": "Your light glows like a lamp",
                 "enPhonicsSongs": "Norek yoshbeh almesba7",
                 "arabic": "نورك يشبه المصباح"
               }
@@ -8238,6 +12002,7 @@
             "row-class": "south",
             "cells": [
               {
+                "english": "After night, your dawn rises",
                 "enPhonicsSongs": "Ba3d ellel yahel saba7",
                 "arabic": "بعد الليل يهل صباح"
               }
@@ -8247,6 +12012,7 @@
             "row-class": "south",
             "cells": [
               {
+                "english": "Filling the world with joy",
                 "enPhonicsSongs": "Yamla’ eldonya afra7",
                 "arabic": "يملأ الدنيا أفراح"
               }
@@ -8256,6 +12022,7 @@
             "row-class": "south",
             "cells": [
               {
+                "english": "Scattering roses around us (2)",
                 "enPhonicsSongs": "Wa yerosh elward 7awalena (2)",
                 "arabic": "ويرش الورد حوالينا (2)"
               }
@@ -8269,6 +12036,7 @@
             "row-class": "north",
             "cells": [
               {
+                "english": "The angel came with greetings",
                 "enPhonicsSongs": "Almalak galek we 7ayaki",
                 "arabic": "الملاك جالك وحياكى"
               }
@@ -8278,6 +12046,7 @@
             "row-class": "north",
             "cells": [
               {
+                "english": "He saluted and blessed you",
                 "enPhonicsSongs": "We sallem 3alekee we hannaki",
                 "arabic": "وسلم عليكى وهناكى"
               }
@@ -8287,6 +12056,7 @@
             "row-class": "north",
             "cells": [
               {
+                "english": "Saying, 'God is with you'",
                 "enPhonicsSongs": "We qal laki rabena ma3aki",
                 "arabic": "وقال لك ربنا معاكى"
               }
@@ -8296,6 +12066,7 @@
             "row-class": "north",
             "cells": [
               {
+                "english": "You’ll bear our Redeemer (2)",
                 "enPhonicsSongs": "Hatkoni om fadeena (2)",
                 "arabic": "ها تكونى أم فادينا (2)"
               }
@@ -8309,6 +12080,7 @@
             "row-class": "south",
             "cells": [
               {
+                "english": "The angel brought glad tidings",
                 "enPhonicsSongs": "Galek elmalak bebeshara",
                 "arabic": "جالك الملاك ببشارة"
               }
@@ -8318,6 +12090,7 @@
             "row-class": "south",
             "cells": [
               {
+                "english": "You’re chosen, he declared",
                 "enPhonicsSongs": "Qe ‘al lak anti elmokhtara",
                 "arabic": "وقال لك أنت المختارة"
               }
@@ -8327,6 +12100,7 @@
             "row-class": "south",
             "cells": [
               {
+                "english": "A beacon for the world",
                 "enPhonicsSongs": "Tekoni leldonya manara",
                 "arabic": "تكونى للدنيا مناره"
               }
@@ -8336,6 +12110,7 @@
             "row-class": "south",
             "cells": [
               {
+                "english": "Your Son’s light shines on us (2)",
                 "enPhonicsSongs": "We nor ebnek ya7el 3alena (2)",
                 "arabic": "ونور أبنك يحل علينا (2)"
               }
@@ -8349,6 +12124,7 @@
             "row-class": "north",
             "cells": [
               {
+                "english": "We praise you, lighting candles",
                 "enPhonicsSongs": "Nomagedek wa noqeed elshemoo3",
                 "arabic": "نمجدك ونقيد الشموع"
               }
@@ -8358,6 +12134,7 @@
             "row-class": "north",
             "cells": [
               {
+                "english": "We honor you, O Mother of Light",
                 "enPhonicsSongs": "No3azemek ya om elnoor",
                 "arabic": "نعظمك يا أم النور"
               }
@@ -8367,6 +12144,7 @@
             "row-class": "north",
             "cells": [
               {
+                "english": "You’re the fountain of grace",
                 "enPhonicsSongs": "Lelne3ma anti el yanboo3",
                 "arabic": "للنعمه أنت الينبوع"
               }
@@ -8376,6 +12154,7 @@
             "row-class": "north",
             "cells": [
               {
+                "english": "Pouring blessings upon us (2)",
                 "enPhonicsSongs": "Yafeed 3alena wa yes’eena (2)",
                 "arabic": "يفيض علينا ويسقينا (2)"
               }
@@ -8399,6 +12178,7 @@
             "cells": [
               {
                 "english": "O seeker to meet Jesus",
+                "enPhonicsSongs": "yaa saa'i7 lil-liqaa' yasoo3",
                 "arabic": "يا سائح للقاء يسوع"
               }
             ]
@@ -8408,6 +12188,7 @@
             "cells": [
               {
                 "english": "Forget your hanger and thirst",
+                "enPhonicsSongs": "laa yuhimmuk 3atash wala goo3",
                 "arabic": "لا يهمك عطش ولا جوع"
               }
             ]
@@ -8417,6 +12198,7 @@
             "cells": [
               {
                 "english": "Your food is the bread of life",
+                "enPhonicsSongs": "ta3aamak khubz il-7ayaah",
                 "arabic": "طعامك خبز الحياة"
               }
             ]
@@ -8426,6 +12208,7 @@
             "cells": [
               {
                 "english": "And you´ll drink from his wounded side",
+                "enPhonicsSongs": "wa yaruweek maa' il-yanboo3",
                 "arabic": "ويرويك ماء الينبوع"
               }
             ]
@@ -8439,6 +12222,7 @@
             "cells": [
               {
                 "english": "You traveller forget the past",
+                "enPhonicsSongs": "yaa saa'i7 itruk maa faat",
                 "arabic": "يا سائح اترك ما فات"
               }
             ]
@@ -8448,6 +12232,7 @@
             "cells": [
               {
                 "english": "And go steadfast in the path",
+                "enPhonicsSongs": "wa isluk fi it-tariiq bithabaat",
                 "arabic": "واسلك في الطريق بثبات"
               }
             ]
@@ -8457,6 +12242,7 @@
             "cells": [
               {
                 "english": "If you suffer on the road",
+                "enPhonicsSongs": "wa in kaan fi it-tariiq 'aalaamaat",
                 "arabic": "وان كان في الطريق آلامات"
               }
             ]
@@ -8466,6 +12252,7 @@
             "cells": [
               {
                 "english": "Remember for you he died",
+                "enPhonicsSongs": "'azkur min fi 7ubbuk maat",
                 "arabic": "أذكر من في حبك مات"
               }
             ]
@@ -8479,6 +12266,7 @@
             "cells": [
               {
                 "english": "The trumpet will be heard soon",
+                "enPhonicsSongs": "il-booq yudrab ba3d qaliil",
                 "arabic": "البوق يضرب بعد قليل"
               }
             ]
@@ -8488,6 +12276,7 @@
             "cells": [
               {
                 "english": "With happiness and sound of joy",
+                "enPhonicsSongs": "bil-fara7 bisoot it-tahliil",
                 "arabic": "بالفرح بصوت التهليل"
               }
             ]
@@ -8497,6 +12286,7 @@
             "cells": [
               {
                 "english": "A great feast above the clouds",
+                "enPhonicsSongs": "7aflah 3aziimah 3ala is-sa7aab",
                 "arabic": "حفلة عظيمة على السحاب"
               }
             ]
@@ -8506,6 +12296,7 @@
             "cells": [
               {
                 "english": "And a crown for the watchful",
+                "enPhonicsSongs": "was-sahraan yalbis ikliil",
                 "arabic": "والسهران يلبس اكليل"
               }
             ]
@@ -8519,6 +12310,7 @@
             "cells": [
               {
                 "english": "He´ll prepare a place for you",
+                "enPhonicsSongs": "raa7 ya3idd lak makaan",
                 "arabic": "راح يعد لك مكان"
               }
             ]
@@ -8528,6 +12320,7 @@
             "cells": [
               {
                 "english": "He is always waiting for you",
+                "enPhonicsSongs": "mashghool biik baqaalah zamaan",
                 "arabic": "مشغول بيك بقاله زمان"
               }
             ]
@@ -8537,6 +12330,7 @@
             "cells": [
               {
                 "english": "His heart is longing for you",
+                "enPhonicsSongs": "qalbu mutashawwiq 'ilayk",
                 "arabic": "قلبه متشوق إليك"
               }
             ]
@@ -8546,6 +12340,7 @@
             "cells": [
               {
                 "english": "Blessed are you if you are prepared",
+                "enPhonicsSongs": "sa3dak law laqaak sahraan",
                 "arabic": "سعدك لو لقاك سهران"
               }
             ]
@@ -8559,6 +12354,7 @@
             "cells": [
               {
                 "english": "You are a part in Jesus Christ",
+                "enPhonicsSongs": "yaa wadii3at il-masii7",
                 "arabic": "يا وديعة المسيح"
               }
             ]
@@ -8568,6 +12364,7 @@
             "cells": [
               {
                 "english": "You who lives among the rocks",
+                "enPhonicsSongs": "yaa sakanat wast is-sukhoor",
                 "arabic": "يا سكنة وسط الصخور"
               }
             ]
@@ -8577,6 +12374,7 @@
             "cells": [
               {
                 "english": "Have no fear from all dangers",
+                "enPhonicsSongs": "laa takhaafi min khatar",
                 "arabic": "لا تخافي من خطر"
               }
             ]
@@ -8586,6 +12384,7 @@
             "cells": [
               {
                 "english": "You´re protected by the Lord",
+                "enPhonicsSongs": "7aamiiki sakhr id-duhoor",
                 "arabic": "حاميكي صخر الدهور"
               }
             ]
@@ -8599,6 +12398,7 @@
             "cells": [
               {
                 "english": "O seeker to meet Jesus",
+                "enPhonicsSongs": "yaa saa'i7 lil-liqaa' yasoo3",
                 "arabic": "يا سائح للقاء يسوع"
               }
             ]
@@ -8608,6 +12408,7 @@
             "cells": [
               {
                 "english": "Forget your hanger and thirst",
+                "enPhonicsSongs": "laa yuhimmuk 3atash wala goo3",
                 "arabic": "لا يهمك عطش ولا جوع"
               }
             ]
@@ -8617,6 +12418,7 @@
             "cells": [
               {
                 "english": "Your food is the bread of life",
+                "enPhonicsSongs": "ta3aamak khubz il-7ayaah",
                 "arabic": "طعامك خبز الحياة"
               }
             ]
@@ -8626,6 +12428,7 @@
             "cells": [
               {
                 "english": "And you´ll drink from his wounded side",
+                "enPhonicsSongs": "wa yaruweek maa' il-yanboo3",
                 "arabic": "ويرويك ماء الينبوع"
               }
             ]
@@ -8634,6 +12437,387 @@
       }
     ]
   },
+  {
+  "english_title": "O Tell Me John",
+  "arabic_title": "خبرني يا يوحنا",
+  "themes": [
+    "Faith"
+  ],
+  "tbodies": [
+    {
+      "rows": [
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "O tell me John, O tell me, about His shining face,",
+              "enPhonicsSongs": "Khaberny ya Yohanna 3an sadrehi el hanan",
+              "arabic": "خبرني يا يوحنا عن صدره الحنان"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "And how you were so lucky, on His chest your head laid?",
+              "enPhonicsSongs": "we izay kont bitesned rasak we fe ay makan",
+              "arabic": "و ازاي كنت تسند راسك و في أي مكان"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "Please answer me and tell me, John answered me and said: (2)",
+              "enPhonicsSongs": "gawebny yalla we olly, rad yohanna we al (2)",
+              "arabic": "جاوبني يلا و قوللي رد يوحنا و قال (2)"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "He called me the beloved, In His eyes I found grace,",
+              "enPhonicsSongs": "dah sadroh wasa3 wasa3 yesa3y kol el nas",
+              "arabic": "ده صدره واسع واسع يساع كل الناس"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "He said Mary is your mother; I took her to my place.",
+              "enPhonicsSongs": "we alboh nabed nabed koloh mahaba we ihsas",
+              "arabic": "و قلبه نابض نابض كله نحبه و إحساس"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "His heart is ever beating, with love for the human race. (2)",
+              "enPhonicsSongs": "mish la'iy zay sadroh ateke' 3aleh fe aman (2)",
+              "arabic": "مش لاقي زي صدره اتكئ عليه في أمان (2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "And dear Peter please tell me, about the rock of faith,",
+              "enPhonicsSongs": "We inta ya Botros khaberny 3an sakhret el eeman",
+              "arabic": "وأنت يا بطرس كلمني عن صخرة الإيمان"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "And how you were appointed, a pillar in His Church?",
+              "enPhonicsSongs": "we izay el rab akamak min a3madet el bonyan",
+              "arabic": "وكيف الرب اقامك من أعمدة البنيان"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "Please answer me and tell me, Peter answered and said: (2)",
+              "enPhonicsSongs": "gawebny yalla we olly, rad botros we al (2)",
+              "arabic": "جاوبني يلا و قوللي رد بطرس و قال (2)"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "Despite all my denials, His Love for me was great,",
+              "enPhonicsSongs": "dah akamny fe kinestoh, raghm kol el inkar",
+              "arabic": "ده أقامني في كنيسته رغم كل الإنكار"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "And while I was so bitter, my sins He did erase.",
+              "enPhonicsSongs": "we dameny le 3arostoh fy mahfal el abrar",
+              "arabic": "و ضمني لعروسته في محفل الأبرار"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "His heart is so forgiving, for sinners everywhere. (2)",
+              "enPhonicsSongs": "mish la'iy zayoh sakhra tisnedny fe kol zaman (2)",
+              "arabic": "مش لاقي زيه صخرة تسندني في كل زمان (2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "Can you Andrew please tell me, how five small loaves of bread,"
+
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "And two fish be sufficient, over five thousand fed?"
+
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "Please answer me and tell me, Andrew answered and said: (2)"
+
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "It's not really any figure, that means anything to THE LORD,"
+
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "His prayer to THE FATHER, on a lunch willingly brought,"
+
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "A boy with cheer donated this I never have thought. (2)"
+
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "And you Thomas how did you; doubt that He is raised,",
+              "enPhonicsSongs": "Ya Toma ta3ala we olly el shak-e kayfa kan",
+              "arabic": "ويا توما تعالي و قوللي الشك كيف كان"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "When you were not believing, He appeared just for your sake.",
+              "enPhonicsSongs": "we izay khalak to'min lama ra'eyt bel 3yan",
+              "arabic": "وازاي خلاك تؤمن لما رأيت بالعيان"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "Please answer me and tell me, Thomas answered and said: (2)",
+              "enPhonicsSongs": "gawebny yalla we olly, rad Toma we al (2)",
+              "arabic": "جاوبني يالا وقوللي رد توما و قال (2)"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "I saw with my own eyes, the piercing of the nails,",
+              "enPhonicsSongs": "da garho wadeh wadeh shoft-e makan el mosmar",
+              "arabic": "ده جرحه واضح واضح شفت مكان المسار"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "and in his side a hole, where blood and water flowed.",
+              "enPhonicsSongs": "we fe ganboh asar el ta3na min harbet el ghad-dar",
+              "arabic": "و في جنبه اثر الطعنة من حربة الغدار"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "By all His wounds and sufferings, He opened the Heaven's gates. (2)",
+              "enPhonicsSongs": "mish la'iy zay geroohoh todkhelny lel a3mak (2)",
+              "arabic": "مش لاقي زي جروحه توصلني للأعماك (2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "And you Saul please tell me, how you accepted faith?"
+
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "You became the good example, of service everywhere"
+
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "Please answer me and tell me, St. Paul answered and said: (2)"
+
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "I persecuted Church, and was against my Lord,"
+
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "His Holy Spirit sought me, and I could hear His word."
+
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "His love is so enduring; He died for the whole world. (2)"
+
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "All you my Lord's disciples, tell me more and more,",
+              "enPhonicsSongs": "We intom ya kol el aheba olooly kaman we kaman",
+              "arabic": "و انتوا يا كل الاحبه قولولي كمان و كمان"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "How when you were in trouble, of you he took good care?",
+              "enPhonicsSongs": "3an yanboo3 el mahaba, we 3an feyd el han-nan",
+              "arabic": "عن ينبوع المحبة و عن فيض الحنان"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "All the disciples answered, we can never explain; (2)",
+              "enPhonicsSongs": "rad el talameez we aloo ma lam yakhtor 3ala bal (2)",
+              "arabic": "رد التلاميذ و قالوا ما لم يخطر علي بال (2)"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "The life that is awaiting, those who trust in His Name,",
+              "enPhonicsSongs": "dee mahaba aweya aweya a'awa hata min el mowt",
+              "arabic": "دي محبة قوية قوية اقوي حتى من الموت"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "So joyful and so peaceful, there is no worry or pain.",
+              "enPhonicsSongs": "we dee 3eysha haneya haneya 3orboon hayat el malakowt",
+              "arabic": "ودي عيشة هنية هنية عربون حياة الملكوت"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "Our life is all for JESUS, and death is a real gain. (2)",
+              "enPhonicsSongs": "mish momken ninsa abaden sortoh gowa el bostan (2)",
+              "arabic": "مش ممكن ننسي أبدا صورته جوه البستان (2)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},
   {
     "english_title": "Omena ya 3adra",
     "arabic_title": "أمنا يا عذراء",
@@ -8861,6 +13045,367 @@
       }
     ]
   },
+  {
+  "english_title": "Our Lord, Our Lord",
+  "arabic_title": "ربنا ربنا",
+  "themes": [
+    "The Nativity"
+  ],
+  "tbodies": [
+    {
+      "rows": [
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "Our Lord, our Lord",
+              "enPhonicsSongs": "rabbinaa rabbinaa",
+              "arabic": "ربنا ربنا"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "Came for us our Lord",
+              "enPhonicsSongs": "gaa 3alashanaa rabbinaa",
+              "arabic": "جه علشانا ربنا"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "Born in the manger like us",
+              "enPhonicsSongs": "wulid faqiir zayyinaa",
+              "arabic": "ولد فقير زينا"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "Because He truly loves us",
+              "enPhonicsSongs": "3alashaan huwwa 'a7abbinaa",
+              "arabic": "علشان هو أحبنا"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "He loves all of us,",
+              "enPhonicsSongs": "bi7ibbinaa bi3izzinaa",
+              "arabic": "بيحبنا بيعزنا"
+            }
+          ]
+        },
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "He redeemed all of our souls. (2)",
+              "enPhonicsSongs": "bi7ibbinaa bi3izzinaa (2)",
+              "arabic": "بيحبنا بيعزنا (2)"
+            }
+          ]
+        },
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "Our Lord, our Lord,",
+              "enPhonicsSongs": "rabbinaa rabbinaa",
+              "arabic": "ربنا ربنا"
+            }
+          ]
+        },
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "came for us our Lord (2)",
+              "enPhonicsSongs": "gaa 3alashanaa rabbinaa (2)",
+              "arabic": "جه علشانا ربنا (2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "I am glad, I am glad",
+              "enPhonicsSongs": "'anaa sa3iid 'anaa sa3iid",
+              "arabic": "أنا سعيد أنا سعيد"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "By your birth O my Lord",
+              "enPhonicsSongs": "bimiilaadak yaa rabbi",
+              "arabic": "بميلادك يا ربى"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "Your birth in Bethlehem",
+              "enPhonicsSongs": "miilaadak il-magiid",
+              "arabic": "ميلادك المجيد"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "A great joy to my soul",
+              "enPhonicsSongs": "'anshoodat tufarri7 qalbi",
+              "arabic": "أنشودة تفرح قلبى"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "He loves all of us,",
+              "enPhonicsSongs": "bi7ibbinaa bi3izzinaa",
+              "arabic": "بيحبنا بيعزنا"
+            }
+          ]
+        },
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "He redeemed all of our souls. (2)",
+              "enPhonicsSongs": "bi7ibbinaa bi3izzinaa (2)",
+              "arabic": "بيحبنا بيعزنا (2)"
+            }
+          ]
+        },
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "Our Lord, our Lord,",
+              "enPhonicsSongs": "rabbinaa rabbinaa",
+              "arabic": "ربنا ربنا"
+            }
+          ]
+        },
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "came for us our Lord (2)",
+              "enPhonicsSongs": "gaa 3alashanaa rabbinaa (2)",
+              "arabic": "جه علشانا ربنا (2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "The virgin rejoiced",
+              "enPhonicsSongs": "il-3adra fari7at",
+              "arabic": "العدرا فرحت"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "In the word of Gabriel",
+              "enPhonicsSongs": "bibashaarat jibraa'iil",
+              "arabic": "ببشارة جبرائيل"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "Our hearts are happy",
+              "enPhonicsSongs": "wa quloobinaa hallilat",
+              "arabic": "وقلوبنا هللت"
+            }
+          ]
+        },
+        {
+          "row-class": "north",
+          "cells": [
+            {
+              "english": "In the birth of Emmanuel",
+              "enPhonicsSongs": "bimiilaadak 3immaanu'iil",
+              "arabic": "بميلادك عمانوئيل"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "He loves all of us,",
+              "enPhonicsSongs": "bi7ibbinaa bi3izzinaa",
+              "arabic": "بيحبنا بيعزنا"
+            }
+          ]
+        },
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "He redeemed all of our souls. (2)",
+              "enPhonicsSongs": "bi7ibbinaa bi3izzinaa (2)",
+              "arabic": "بيحبنا بيعزنا (2)"
+            }
+          ]
+        },
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "Our Lord, our Lord,",
+              "enPhonicsSongs": "rabbinaa rabbinaa",
+              "arabic": "ربنا ربنا"
+            }
+          ]
+        },
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "came for us our Lord (2)",
+              "enPhonicsSongs": "gaa 3alashanaa rabbinaa (2)",
+              "arabic": "جه علشانا ربنا (2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "In the east was a star",
+              "enPhonicsSongs": "najm fi il-mashriq",
+              "arabic": "نجم فى المشرق"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "Shone to the wise men",
+              "enPhonicsSongs": "qad 'adaa lil-majoos",
+              "arabic": "قد أضاء للمجوس"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "Our hearts are candles",
+              "enPhonicsSongs": "wa quloobinaa shamoo3",
+              "arabic": "وقلوبنا شموع"
+            }
+          ]
+        },
+        {
+          "row-class": "south",
+          "cells": [
+            {
+              "english": "Lit to the Holy Lord",
+              "enPhonicsSongs": "nawwarhaa ir-rabb il-qudoos",
+              "arabic": "نوّرها الرب القدوس"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "He loves all of us,",
+              "enPhonicsSongs": "bi7ibbinaa bi3izzinaa",
+              "arabic": "بيحبنا بيعزنا"
+            }
+          ]
+        },
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "He redeemed all of our souls. (2)",
+              "enPhonicsSongs": "bi7ibbinaa bi3izzinaa (2)",
+              "arabic": "بيحبنا بيعزنا (2)"
+            }
+          ]
+        },
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "Our Lord, our Lord,",
+              "enPhonicsSongs": "rabbinaa rabbinaa",
+              "arabic": "ربنا ربنا"
+            }
+          ]
+        },
+        {
+          "row-class": "Refrain",
+          "cells": [
+            {
+              "english": "came for us our Lord (2)",
+              "enPhonicsSongs": "gaa 3alashanaa rabbinaa (2)",
+              "arabic": "جه علشانا ربنا (2)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},
   {
     "english_title": "Over the Domes",
     "arabic_title": "فوق القباب بصوا و شوفوا",
@@ -12108,6 +16653,7 @@
             "cells": [
               {
                 "english": "Truly risen is the King of Peace,",
+                "enPhonicsSongs": "qaam 7aqqan qaam ra'iis is-salaam",
                 "arabic": "قام حقا قام رئيس السلام"
               }
             ]
@@ -12117,6 +16663,7 @@
             "cells": [
               {
                 "english": "Alleluia, Alleluia to the Risen Lord.",
+                "enPhonicsSongs": "hallelooya hallelooya ir-rabb qaam",
                 "arabic": "هلليلويا هلليلويا الرب قام."
               }
             ]
@@ -12130,6 +16677,7 @@
             "cells": [
               {
                 "english": "Mary went on Sunday at the time of dawn,",
+                "enPhonicsSongs": "maryam qad zahabit fagr il-'a7ad",
                 "arabic": "مريم قد ذهبت فجر الأحد،"
               }
             ]
@@ -12139,6 +16687,7 @@
             "cells": [
               {
                 "english": "carrying for the body spice and incense.",
+                "enPhonicsSongs": "bi-'atyaab wa 7anoot lil-gasad",
                 "arabic": "بأطياب وحنوط للجسد."
               }
             ]
@@ -12152,6 +16701,7 @@
             "cells": [
               {
                 "english": "She found the stone already rolled away,",
+                "enPhonicsSongs": "wa yasoo3 qaam 7aqqan wa intasar",
                 "arabic": "ويسوع قام حقا وانتصر،"
               }
             ]
@@ -12161,6 +16711,7 @@
             "cells": [
               {
                 "english": "And Christ is risen and He conquered.",
+                "enPhonicsSongs": "wa liza il-malaak da7rag il-7agar",
                 "arabic": "ولذا الملاك دحرج الحجر."
               }
             ]
@@ -12174,6 +16725,7 @@
             "cells": [
               {
                 "english": "But Mary was outside weeping,",
+                "enPhonicsSongs": "'amaa maryam fakaanat khaarijan",
                 "arabic": "أما مريم فكانت خارجاً،"
               }
             ]
@@ -12183,6 +16735,7 @@
             "cells": [
               {
                 "english": "Crying, looking at the empty grave.",
+                "enPhonicsSongs": "bibukaa' taraa qabran faarighan",
                 "arabic": "ببكاء ترى قبرا فارغاً."
               }
             ]
@@ -12196,6 +16749,7 @@
             "cells": [
               {
                 "english": "She saw Jesus as a strange man,",
+                "enPhonicsSongs": "nazharat yasoo3 kashakhs ghariib",
                 "arabic": "نظرت يسوع كشخص غريب،"
               }
             ]
@@ -12205,6 +16759,7 @@
             "cells": [
               {
                 "english": "Knowing not that He is the Beloved One.",
+                "enPhonicsSongs": "wa laa tadri 'annahu shakhs 7abiib",
                 "arabic": "ولا تدرى أنه شخص حبيب."
               }
             ]
@@ -12218,6 +16773,7 @@
             "cells": [
               {
                 "english": "While crying she asked O Master,",
+                "enPhonicsSongs": "faqalat wa hiya tabki yaa sayyidi",
                 "arabic": "فقالت وهي تبكي يا سيدي،"
               }
             ]
@@ -12227,6 +16783,7 @@
             "cells": [
               {
                 "english": "Where can I find my Lord and Beloved.",
+                "enPhonicsSongs": "'ayn rabbi wa 7abibi 'agid",
                 "arabic": "أين ربى وحبيبي أجد."
               }
             ]
@@ -12240,6 +16797,7 @@
             "cells": [
               {
                 "english": "He said to her O Mary rejoice,",
+                "enPhonicsSongs": "faqaal lahaa yaa maryam 'abshiri",
                 "arabic": "فقال لها يا مريم أبشرى،"
               }
             ]
@@ -12249,6 +16807,7 @@
             "cells": [
               {
                 "english": "Go and tell My brothers and My sisters.",
+                "enPhonicsSongs": "wa izhabi li-'ikhwati wa 'akhbiri",
                 "arabic": "وإذهبي لإخوتى وأخبري."
               }
             ]
@@ -12262,6 +16821,7 @@
             "cells": [
               {
                 "english": "Mary went to His beloved disciples",
+                "enPhonicsSongs": "maryam madat li-rusulihi il-kiraam",
                 "arabic": "مريم مضت لرسله الكرام،"
               }
             ]
@@ -12271,6 +16831,7 @@
             "cells": [
               {
                 "english": "Proclaiming that Jesus is risen.",
+                "enPhonicsSongs": "bindahaa bashsharat ir-rabb qaam",
                 "arabic": "بنداها بشرت الرب قام."
               }
             ]
@@ -12284,6 +16845,7 @@
             "cells": [
               {
                 "english": "Jesus Himself truly came among them,",
+                "enPhonicsSongs": "wa yasoo3 nafsuhu gaa' wastahum",
                 "arabic": "ويسوع نفسه جاء وسطهم،"
               }
             ]
@@ -12293,6 +16855,7 @@
             "cells": [
               {
                 "english": "And He said to them, \"Peace be unto you.\"",
+                "enPhonicsSongs": "wa lahum qad qaal salaam lakum",
                 "arabic": "ولهم قد قال سلام لكم."
               }
             ]
@@ -12306,6 +16869,7 @@
             "cells": [
               {
                 "english": "He showed them His hands and also His side,",
+                "enPhonicsSongs": "'araahum yadayhi 'aydan ganbahu",
                 "arabic": "أراهم يديه أيضاً جنبه،"
               }
             ]
@@ -12315,6 +16879,7 @@
             "cells": [
               {
                 "english": "They rejoiced in seeing the Beloved Lord.",
+                "enPhonicsSongs": "fafari7oo 7iin ra'aw shakhsahu",
                 "arabic": "ففرحوا حين رأوا شخصه."
               }
             ]
@@ -12328,6 +16893,7 @@
             "cells": [
               {
                 "english": "Alleluia, this news is very true,",
+                "enPhonicsSongs": "hallelooya qad ta7aqqaq il-khabar",
                 "arabic": "هلليلويا قد تحقق الخبر،"
               }
             ]
@@ -12337,6 +16903,7 @@
             "cells": [
               {
                 "english": "Alleluia, He is risen and He conquered.",
+                "enPhonicsSongs": "hallelooya qaam 7aqqan wa intasar",
                 "arabic": "هلليلويا قام حقا وانتصر."
               }
             ]
@@ -12350,6 +16917,7 @@
             "cells": [
               {
                 "english": "Alleluia, for the Savior of mankind,",
+                "enPhonicsSongs": "hallelooya limukhallis il-bashar",
                 "arabic": "هلليلويا لمخلص البشر،"
               }
             ]
@@ -12359,6 +16927,7 @@
             "cells": [
               {
                 "english": "Alleluia He has crushed the might of death.",
+                "enPhonicsSongs": "hallelooya shawkat il-moot kasar",
                 "arabic": "هلليلويا شوكة الموت كسر."
               }
             ]
@@ -12372,6 +16941,7 @@
             "cells": [
               {
                 "english": "Alleluia risen is the King of Peace,",
+                "enPhonicsSongs": "hallelooya qaam ra'iis is-salaam",
                 "arabic": "هلليلويا قام رئيس السلام،"
               }
             ]
@@ -12381,6 +16951,7 @@
             "cells": [
               {
                 "english": "Alleluia, Alleluia to the risen Lord.",
+                "enPhonicsSongs": "hallelooya hallelooya ir-rabb qaam",
                 "arabic": "هلليلويا هلليلويا الرب قام."
               }
             ]
@@ -12394,7 +16965,7 @@
     "arabic_title": "عند شق الفجر باكر",
     "themes": [
       "The Resurrection"
-    ],
+    ],   
     "tbodies": [
       {
         "rows": [
@@ -12403,6 +16974,7 @@
             "cells": [
               {
                 "english": "Very early Sunday morning,",
+                "enPhonicsSongs": "3ind shaqq il-fagr baakir",
                 "arabic": "عند شق الفجر باكر"
               }
             ]
@@ -12412,6 +16984,7 @@
             "cells": [
               {
                 "english": "While the guards were still asleep,",
+                "enPhonicsSongs": "fi sabaa7 il-'a7ad",
                 "arabic": "في صباح الأحد"
               }
             ]
@@ -12421,6 +16994,7 @@
             "cells": [
               {
                 "english": "[ Jesus is risen declaring,",
+                "enPhonicsSongs": "qaam rabb il-magd naasir",
                 "arabic": "قام رب المجد ناصر"
               }
             ]
@@ -12430,6 +17004,7 @@
             "cells": [
               {
                 "english": "Victory no more defeat] x2",
+                "enPhonicsSongs": "sha3bu lil-'abad",
                 "arabic": "شعبه للأبد"
               }
             ]
@@ -12443,6 +17018,7 @@
             "cells": [
               {
                 "english": "Resurrection is my song,",
+                "enPhonicsSongs": "'anta dast il-moot wa7dak",
                 "arabic": "أنت دست الموت وحدك"
               }
             ]
@@ -12452,6 +17028,7 @@
             "cells": [
               {
                 "english": "Resurrection gave me life,",
+                "enPhonicsSongs": "yaa yasoo3 in-naasiri",
                 "arabic": "يا يسوع الناصري"
               }
             ]
@@ -12461,6 +17038,7 @@
             "cells": [
               {
                 "english": "[ Resurrection made me strong,",
+                "enPhonicsSongs": "muzhhiran lil-khalq magdak",
                 "arabic": "مظهرا للخلق مجدك"
               }
             ]
@@ -12470,6 +17048,7 @@
             "cells": [
               {
                 "english": "Jesus my Lord is alive.] (x2)",
+                "enPhonicsSongs": "bil-gamaal il-baahir",
                 "arabic": "بالجمال الباهر"
               }
             ]
@@ -12483,6 +17062,7 @@
             "cells": [
               {
                 "english": "Jesus is risen in glory,",
+                "enPhonicsSongs": "kasar il-moot galaalu",
                 "arabic": "كسر الموت جلاله"
               }
             ]
@@ -12492,6 +17072,7 @@
             "cells": [
               {
                 "english": "Heaven and earth sang and praised,",
+                "enPhonicsSongs": "da7rag is-sakhr il-kabiir",
                 "arabic": "دحرج الصخر الكبير"
               }
             ]
@@ -12501,6 +17082,7 @@
             "cells": [
               {
                 "english": "[ And the angel told the story,",
+                "enPhonicsSongs": "min 3ala il-qabr gamaalu",
                 "arabic": "من على القبر جماله"
               }
             ]
@@ -12510,6 +17092,7 @@
             "cells": [
               {
                 "english": "He is risen as He said.] (x2)",
+                "enPhonicsSongs": "baan bin-noor il-khatiir",
                 "arabic": "بان بالنور الخطير"
               }
             ]
@@ -12523,6 +17106,7 @@
             "cells": [
               {
                 "english": "Mary Magdalene was looking,",
+                "enPhonicsSongs": "qaam bikr ir-raaqidiin",
                 "arabic": "قام بكر الراقدين"
               }
             ]
@@ -12532,6 +17116,7 @@
             "cells": [
               {
                 "english": "In the garden for her Lord,",
+                "enPhonicsSongs": "zaafiran mu3ta il-7ayaah",
                 "arabic": "ظافرًا معطى الحياة"
               }
             ]
@@ -12541,6 +17126,7 @@
             "cells": [
               {
                 "english": "[ While Jesus Himself was telling,",
+                "enPhonicsSongs": "qaam 7aqqan wa yaqiinan",
                 "arabic": "قام حقا و يقينًا"
               }
             ]
@@ -12550,6 +17136,7 @@
             "cells": [
               {
                 "english": "Her to go and spread the word.] (x2)",
+                "enPhonicsSongs": "qaam min ba3d il-wafaah",
                 "arabic": "قام من بعد الوفاة"
               }
             ]
@@ -12563,6 +17150,7 @@
             "cells": [
               {
                 "english": "Resurrection is my song,",
+                "enPhonicsSongs": "'anta dast il-moot wa7dak",
                 "arabic": "أنت دست الموت وحدك"
               }
             ]
@@ -12572,6 +17160,7 @@
             "cells": [
               {
                 "english": "Resurrection gave me life,",
+                "enPhonicsSongs": "yaa yasoo3 in-naasiri",
                 "arabic": "يا يسوع الناصري"
               }
             ]
@@ -12581,6 +17170,7 @@
             "cells": [
               {
                 "english": "[ Resurrection made me strong,",
+                "enPhonicsSongs": "muzhhiran lil-khalq magdak",
                 "arabic": "مظهرا للخلق مجدك"
               }
             ]
@@ -12590,6 +17180,7 @@
             "cells": [
               {
                 "english": "Jesus my Lord is alive.] (x2)",
+                "enPhonicsSongs": "bil-gamaal il-baahir",
                 "arabic": "بالجمال الباهر"
               }
             ]
@@ -12603,6 +17194,7 @@
             "cells": [
               {
                 "english": "All the disciples were praying,",
+                "enPhonicsSongs": "haa suyoof in-nasr sallat",
                 "arabic": "ها سيوف النصر سلت"
               }
             ]
@@ -12612,6 +17204,7 @@
             "cells": [
               {
                 "english": "They were really in great fear,",
+                "enPhonicsSongs": "fawq haamaat il-3ada",
                 "arabic": "فوق هامات العدى"
               }
             ]
@@ -12621,6 +17214,7 @@
             "cells": [
               {
                 "english": "[ When Mary came to them saying,",
+                "enPhonicsSongs": "wa gunood ish-shar wallat",
                 "arabic": "و جنود الشر ولت"
               }
             ]
@@ -12630,6 +17224,7 @@
             "cells": [
               {
                 "english": "He is risen He is not here.] (x2)",
+                "enPhonicsSongs": "haaribiin sarmadan",
                 "arabic": "هاربين سرمدا"
               }
             ]
@@ -12643,6 +17238,7 @@
             "cells": [
               {
                 "english": "While they were in the room,",
+                "enPhonicsSongs": "qumt min bayn il-lu7ood",
                 "arabic": "قمت من بين اللحود"
               }
             ]
@@ -12652,6 +17248,7 @@
             "cells": [
               {
                 "english": "Jesus Christ Himself appeared,",
+                "enPhonicsSongs": "'anta yaa sakhr id-duhoor",
                 "arabic": "أنت يا صخر الدهور"
               }
             ]
@@ -12661,6 +17258,7 @@
             "cells": [
               {
                 "english": "[ My peace I give to you,",
+                "enPhonicsSongs": "waahiban daar il-khulood",
                 "arabic": "واهبا دار الخلود"
               }
             ]
@@ -12670,6 +17268,7 @@
             "cells": [
               {
                 "english": "And My peace with you I leave.] (x2)",
+                "enPhonicsSongs": "lir-ruqood fi il-quboor",
                 "arabic": "لرقود في القبور"
               }
             ]
@@ -12683,6 +17282,7 @@
             "cells": [
               {
                 "english": "Resurrection is my song,",
+                "enPhonicsSongs": "'anta dast il-moot wa7dak",
                 "arabic": "أنت دست الموت وحدك"
               }
             ]
@@ -12692,6 +17292,7 @@
             "cells": [
               {
                 "english": "Resurrection gave me life,",
+                "enPhonicsSongs": "yaa yasoo3 in-naasiri",
                 "arabic": "يا يسوع الناصري"
               }
             ]
@@ -12701,6 +17302,7 @@
             "cells": [
               {
                 "english": "[ Resurrection made me strong,",
+                "enPhonicsSongs": "muzhhiran lil-khalq magdak",
                 "arabic": "مظهرا للخلق مجدك"
               }
             ]
@@ -12710,6 +17312,7 @@
             "cells": [
               {
                 "english": "Jesus my Lord is alive.] (x2)",
+                "enPhonicsSongs": "bil-gamaal il-baahir",
                 "arabic": "بالجمال الباهر"
               }
             ]
@@ -12723,6 +17326,7 @@
             "cells": [
               {
                 "english": "But Thomas did not believe,",
+                "enPhonicsSongs": "wa gumoo3 in-naas 3aadat",
                 "arabic": "و جموع الناس عادت"
               }
             ]
@@ -12732,6 +17336,7 @@
             "cells": [
               {
                 "english": "What the disciples had seen,",
+                "enPhonicsSongs": "shaahidaat bil-qiyaam",
                 "arabic": "شاهدات بالقيام"
               }
             ]
@@ -12741,6 +17346,7 @@
             "cells": [
               {
                 "english": "[ So Jesus again appeared,",
+                "enPhonicsSongs": "was-samaa' wal-'ard naadat",
                 "arabic": "و السما و الأرض نادت"
               }
             ]
@@ -12750,6 +17356,7 @@
             "cells": [
               {
                 "english": "Showed him the place of the spear. (x2)",
+                "enPhonicsSongs": "qaam 7aqqan qaam qaam",
                 "arabic": "قام حقا قام قام"
               }
             ]
@@ -12763,6 +17370,7 @@
             "cells": [
               {
                 "english": "The heavenly hosts were singing,",
+                "enPhonicsSongs": "wal-gunood il-3ulwiyya",
                 "arabic": "و الجنود العلوية"
               }
             ]
@@ -12772,6 +17380,7 @@
             "cells": [
               {
                 "english": "Welcoming our Glorious Lord,",
+                "enPhonicsSongs": "laaqat ir-rabb is-samad",
                 "arabic": "لاقت الرب الصمد"
               }
             ]
@@ -12781,6 +17390,7 @@
             "cells": [
               {
                 "english": "[ And the joy is overwhelming,",
+                "enPhonicsSongs": "bil-'aghaani is-sarmadiyya",
                 "arabic": "بالأغاني السرمدية"
               }
             ]
@@ -12790,6 +17400,7 @@
             "cells": [
               {
                 "english": "He opened the doors of hope.] (x2)",
+                "enPhonicsSongs": "fawq fi daar il-'abad",
                 "arabic": "فوق في دار الأبد"
               }
             ]
@@ -12803,6 +17414,7 @@
             "cells": [
               {
                 "english": "Resurrection is my song,",
+                "enPhonicsSongs": "'anta dast il-moot wa7dak",
                 "arabic": "أنت دست الموت وحدك"
               }
             ]
@@ -12812,6 +17424,7 @@
             "cells": [
               {
                 "english": "Resurrection gave me life,",
+                "enPhonicsSongs": "yaa yasoo3 in-naasiri",
                 "arabic": "يا يسوع الناصري"
               }
             ]
@@ -12821,6 +17434,7 @@
             "cells": [
               {
                 "english": "[ Resurrection made me strong,",
+                "enPhonicsSongs": "muzhhiran lil-khalq magdak",
                 "arabic": "مظهرا للخلق مجدك"
               }
             ]
@@ -12830,6 +17444,7 @@
             "cells": [
               {
                 "english": "Jesus my Lord is alive.] (x2)",
+                "enPhonicsSongs": "bil-gamaal il-baahir",
                 "arabic": "بالجمال الباهر"
               }
             ]
@@ -12843,6 +17458,7 @@
             "cells": [
               {
                 "english": "Alleluia Alleluia,",
+                "enPhonicsSongs": "dakhalu il-magd il-3ulya",
                 "arabic": "دخلوا المجد العليا"
               }
             ]
@@ -12852,6 +17468,7 @@
             "cells": [
               {
                 "english": "Risen is the Lord of peace.",
+                "enPhonicsSongs": "bit-tasabee7 in-na3iim",
                 "arabic": "بتسابيح النعيم"
               }
             ]
@@ -12861,6 +17478,7 @@
             "cells": [
               {
                 "english": "[ Alleluia Alleluia,",
+                "enPhonicsSongs": "wa ghanaahum yaa masiyya",
                 "arabic": "و غناهم يا مسيا"
               }
             ]
@@ -12870,6 +17488,7 @@
             "cells": [
               {
                 "english": "Truly He is risen indeed.] (x2)",
+                "enPhonicsSongs": "qumt wa indak il-ga7iim",
                 "arabic": "قمت واندك الجحيم"
               }
             ]

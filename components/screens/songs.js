@@ -24,7 +24,27 @@ const themes = Array.from(
   )
 ).sort();
 
+const seenTitles = new Set();
 
+const SongsList = songsData
+  .filter(song => {
+    const title = song.english_title || "";
+    if (seenTitles.has(title)) return false;
+    seenTitles.add(title);
+    return true;
+  })
+  .map(song => ({
+    title: song.english_title || "",
+    themes: song.themes || []
+  }))
+  .sort((a, b) => a.title.localeCompare(b.title));
+
+
+const logString = SongsList
+  .map(song => `${song.title} (${song.themes.join(', ')})`)
+  .join('\n');
+
+console.log(logString);
 
   return (
     <View>
@@ -44,7 +64,7 @@ const themes = Array.from(
               <TouchableOpacity
                 style={[presentationStyles.songsContainer]}
                 //onPress={() => navigation.navigate("AllSongs")}
-                onPress={() => navigation.navigate("SongsScreen", { theme: "Comfort and Repentance" })}
+                onPress={() => navigation.navigate("All-Spiritual-Songs", { theme: "" })}
               >
                 <Text style={presentationStyles.pageMenu}>All Spiritual Songs</Text>
               </TouchableOpacity>
@@ -52,7 +72,7 @@ const themes = Array.from(
                 <TouchableOpacity
                   key={index}
                   style={[presentationStyles.songsContainer]}
-                  onPress={() => navigation.navigate("SongsScreen", { theme })}
+                  onPress={() => navigation.navigate(theme.replace(/\s+/g, "-"), { theme })}
                 >
                   <Text style={presentationStyles.pageMenu}>{theme}</Text>
                 </TouchableOpacity>

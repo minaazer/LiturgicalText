@@ -3,8 +3,6 @@
 import React, { useEffect, useRef } from "react";
 import {
   createDrawerNavigator,
-  DrawerContentScrollView,
-  DrawerItem,
 } from "@react-navigation/drawer";
 import { useNavigation } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
@@ -14,7 +12,6 @@ import {
   Dimensions,
   View,
   Text,
-  TouchableOpacity,
   ScrollView,
   TouchableWithoutFeedback,
   Keyboard,
@@ -26,7 +23,6 @@ import SettingsScreen from "../screens/settings";
 import CalendarScreen from "../screens/calendar";
 import SaintSettingsScreen from "../screens/saintSettings";
 import GoLive from "../reusableComponents/goLive";
-import CurrentSeason from "../reusableComponents/currentSeason";
 import AboutScreen from "../screens/about";
 import Home from "../screens/home";
 import BibleScreen from "../screens/bible/bibleScreen";
@@ -42,13 +38,8 @@ import SeasonalDoxologies from "../screens/seasonalDoxologies";
 import Glorification from "../screens/glorification";
 import Songs from "../screens/songs";
 import SongsScreen from "../screens/songs/songsScreen";
-import ComfortSongs from "../screens/songs/comfortSongs";
-import NayroozSongs from "../screens/songs/nayroozSongs";
-import ResurrectionSongs from "../screens/songs/resurrectionSongs";
-import StMarySongs from "../screens/songs/stMarySongs";
-import AllSongs from "../screens/songs/allSongs";
-
 import HolyWeekData from "../../data/holyWeek/holyWeek.json";
+import SongsData from "../../data/songs/songs.json";
 
 const transformHolyWeekData = (holyWeekData) => {
   // Transform holy week data into a nested structure
@@ -83,6 +74,45 @@ const transformHolyWeekData = (holyWeekData) => {
     },
   ];
 };
+
+const transformSongsData = (SongsData) => {
+  // Group songs by theme
+  const themeMap = {};
+  SongsData.forEach((song) => {
+    song.themes.forEach((theme) => {
+      if (!themeMap[theme]) {
+        themeMap[theme] = [];
+      }
+      themeMap[theme].push(song);
+    });
+  });
+
+  // Create one screen per theme
+  const children = Object.entries(themeMap).map(([theme]) => ({
+    screenName: theme.replace(/\s+/g, "-"),
+    label: theme,
+    component: SongsScreen, // Must handle displaying list of `songs`
+    params: { theme },
+  }));
+
+  const allSongsScreen = {
+    screenName: "All-Spiritual-Songs",
+    label: "All Spiritual Songs",
+    component: SongsScreen,
+    params: { theme: "" },
+  };
+  return [
+    {
+      screenName: "Songs",
+      label: "Spiritual Songs",
+      component: Songs,
+      children: [allSongsScreen, ...children],
+    },
+  ];
+};
+
+
+
 
 const StaticScreens = [
   {
@@ -128,46 +158,10 @@ const StaticScreens = [
     ],
   },
 
-  {
-    screenName: "Songs",
-    label: "Spiritual Songs",
-    component: Songs,
-    children: [
-      {
-        screenName: "SongsScreen",
-        label: "Songs",
-        component: SongsScreen,
-      },
-      {
-        screenName: "AllSongs",
-        label: "All Spiritual Songs",
-        component: AllSongs,
-      },
-      {
-        screenName: "ComfortSongs",
-        label: "Comfort Songs",
-        component: ComfortSongs,
-      },
-      {
-        screenName: "NayroozSongs",
-        label: "Coptic New Year Songs",
-        component: NayroozSongs,
-      },
-      {
-        screenName: "ResurrectionSongs",
-        label: "Resurrection Songs",
-        component: ResurrectionSongs,
-      },
-      {
-        screenName: "StMarySongs",
-        label: "St Mary Songs",
-        component: StMarySongs,
-      },
-    ],
-  },
+
 ];
 
-const RouteConfig = [...StaticScreens, ...transformHolyWeekData(HolyWeekData)];
+const RouteConfig = [...StaticScreens, ...transformHolyWeekData(HolyWeekData), ...transformSongsData(SongsData)];
 
 const Drawer = createDrawerNavigator();
 const screenWidth = Dimensions.get("window").width;
