@@ -44,7 +44,7 @@ const logString = SongsList
   .map(song => `${song.title} (${song.themes.join(', ')})`)
   .join('\n');
 
-console.log(logString);
+//console.log(logString);
 
   return (
     <View>

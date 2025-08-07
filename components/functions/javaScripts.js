@@ -82,6 +82,12 @@ function handleTouchNavigation(event) {
           buttonClicked = true;
           return; // Stop further processing
         }
+        
+        if (currentElement.classList.contains("audio-button")) {
+          listenToAudioPopupButtonClicks(currentElement);
+          buttonClicked = true;
+          return; // Stop further processing
+        }
 
        if (
           currentElement.classList.contains("caption") &&
@@ -1490,6 +1496,16 @@ function listenToImagePopupButtonClicks(buttonElement) {
 
   try {
     sendMessage(JSON.stringify({ type: 'IMAGEPOPUP', data: buttonId }));
+  } catch (error) {
+    console.error("Invalid JSON format in data-message:", error);
+  }
+}
+
+function listenToAudioPopupButtonClicks(buttonElement) {
+  const buttonId = buttonElement.dataset.message; // Get the 'message' attribute
+
+  try {
+    sendMessage(JSON.stringify({ type: 'AUDIOPOPUP', data: buttonId }));
   } catch (error) {
     console.error("Invalid JSON format in data-message:", error);
   }

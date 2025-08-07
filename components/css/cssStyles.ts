@@ -339,6 +339,7 @@ td.column-1-1 {
     transform: translateY(-50%); /* Adjust to vertically center the icon */
 }
 
+.audio-button,
 .explanation-button,
 .image-button {
   position: absolute;
@@ -352,6 +353,9 @@ td.column-1-1 {
 }
 .image-button {
   right: 60px; /* or however much space you want between them */
+}
+.audio-button {
+    right: 10px; /* Adjust as needed */
 }
 
 .caption.table-invisible::before {

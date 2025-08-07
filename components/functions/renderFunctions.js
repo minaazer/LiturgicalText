@@ -16,8 +16,11 @@ export const handleMessage = (
   explanationsData,
   setImagePopupVisible,
   setImageUri,
-  imagesData
-  
+  imagesData,
+  togglePopupAudio,
+  setIsAudioPaused,
+  setCurrentAudioTitle,
+  setAudioPopupVisible
 ) => {
   try {
     const message = JSON.parse(event.nativeEvent.data);
@@ -124,6 +127,29 @@ export const handleMessage = (
             }
 
             setPopupVisible(true);
+        } catch (error) {
+            console.error("Failed to handle POPUP message:", error, message.data);
+        }
+      },
+      AUDIOPOPUP: () => {
+        try {
+            
+            if (!message.data) {
+                console.error("No message content found in POPUP data.");
+                return;
+            }
+    
+            const fileName = message.data; // The title of the hymn is sent.
+            
+
+            if (fileName) {
+                //togglePopupAudio(fileName, setIsAudioPaused);
+                setCurrentAudioTitle(fileName);
+                setAudioPopupVisible(true);
+            } else {
+              console.error("Explanation not found for title:", fileName)
+            }
+
         } catch (error) {
             console.error("Failed to handle POPUP message:", error, message.data);
         }

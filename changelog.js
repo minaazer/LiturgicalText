@@ -59,8 +59,19 @@ const changelog = {
     "Added new song categories",
     "Added new songs to the app",
     "UI and App Optimizations",
-  ]
-  
+  ],
+  "1.0.86": [
+    "Added new songs to the app",
+    "Added audio files for some songs",
+  ],
+  "1.0.87": [
+    "Minor bug fixes and optimizations",
+  ],
+  "1.0.88": [
+    "Added new songs to the app",
+    "Added audio files for some songs",
+
+  ],
 };
 
 export default changelog;

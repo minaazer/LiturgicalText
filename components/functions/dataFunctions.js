@@ -2,7 +2,7 @@
 
 import hwRepeatedPrayersData from "../../data/repeatedPrayers/hwRepeatedPrayers.json";
 import annualRepeatedPrayersData from "../../data/repeatedPrayers/annualRepeatedPrayers.json";
-import { book , musicalNote } from "../../data/repeatedPrayers";
+import { book , musicalNote, playPause } from "../../data/repeatedPrayers";
 
 
 export function getRepeatedPrayers(source, category) {
@@ -194,6 +194,14 @@ export function renderTable(
                                   )}'>${musicalNote}</span>`
                                 : ""
                             }
+                            ${
+                              table.audio_file
+                                ? `<span class="audio-button" data-message='${processTemplate(
+                                    table.audio_file,
+                                    variables
+                                  )}'>${playPause}</span>`
+                                : ""
+                            }
                             
                         </caption>`
                         : ""
@@ -273,6 +281,15 @@ export function renderSongTables(table, tableIdx, tableClass = "", variables = {
                   )}'>${musicalNote}</span>`
                 : ""
             }
+            ${
+              table.audio_file
+                ? `<span class="audio-button" data-message='${processTemplate(
+                    table.audio_file,
+                    variables
+                  )}'>${playPause}</span>`
+                : ""
+            }
+
         </caption>`
           : ""
       }

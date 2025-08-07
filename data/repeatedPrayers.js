@@ -1111,6 +1111,17 @@ const musicalNote =
   "
 >`;
 
+const playPause = 
+`<img 
+  src="https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/play_pause.png" 
+  alt="+" 
+  style="
+    width: ${iconWidth}; 
+    height: auto; 
+    filter: invert(100%) brightness(1000%) contrast(200%);
+  "
+>`;
+
 export {
   hourIntro,
   paschalPraise1,
@@ -1132,7 +1143,8 @@ export {
   arrowUp,
   skip,
   book,
-  musicalNote
+  musicalNote,
+  playPause
 };
 
 // Path: data/holyWeek/repeatedPrayers.js

@@ -9,6 +9,8 @@ import {ExplanationPopup} from '../reusableComponents/explanationPopup';
 import explanationsData from '../../data/explanations.json'; // Import the data
 import imagesData from '../../data/images.json'; // Import the images data
 import { ImagePopup } from '../reusableComponents/imagePopup'; // Import the ImagePopup component
+import { togglePopupAudio , stopPopupAudio } from '../reusableComponents/audioPopup'; // Import audio functions
+import AudioControlsPopup from '../reusableComponents/audioPopup';
 
 
 
@@ -28,7 +30,12 @@ export const MainContent = ({ html, webviewRef, setDrawerItems, setCurrentTable,
     const [popupData, setPopupData] = useState({ title: '', text: '' });
     const [imagePopupVisible, setImagePopupVisible] = useState(false);
     const [imageUri, setImageUri] = useState('');
-  
+    const [audioPopupVisible, setAudioPopupVisible] = useState(false);
+    const [currentAudioTitle, setCurrentAudioTitle] = useState('');
+    const [isAudioPaused, setIsAudioPaused] = useState(true);
+    const [isAudioPopupMinimized, setAudioPopupMinimized] = useState(false);
+
+
 
     const screenWidth = Dimensions.get('window').width;
 
@@ -175,6 +182,10 @@ useEffect(() => {
                         setImagePopupVisible, // Pass image popup
                         setImageUri, // Pass image URI setter
                         imagesData, // Pass the images data
+                        togglePopupAudio, // Pass audio toggle function
+                        setIsAudioPaused,
+                        setCurrentAudioTitle,
+                        setAudioPopupVisible
                     );
                 }
             }}
@@ -200,8 +211,25 @@ useEffect(() => {
               }}
         />
 
+        <AudioControlsPopup
+        visible={audioPopupVisible}
+        minimized={isAudioPopupMinimized}
+        isPaused={isAudioPaused}
+        title={currentAudioTitle}
+        onPlayPause={() => togglePopupAudio(currentAudioTitle, setIsAudioPaused)}
+        onStop={() => {
+            stopPopupAudio();
+            setAudioPopupVisible(false);
+            setAudioPopupMinimized(false);
+            setCurrentAudioTitle('');
+        }}
+        onMinimize={() => setAudioPopupMinimized(true)}
+        onExpand={() => setAudioPopupMinimized(false)}
+        />
         </View>
         
 
     );
 };
+
+
