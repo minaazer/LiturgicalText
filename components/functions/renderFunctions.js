@@ -18,6 +18,7 @@ export const handleMessage = (
   setImageUri,
   imagesData,
   togglePopupAudio,
+  stopPopupAudio,
   setIsAudioPaused,
   setCurrentAudioTitle,
   setAudioPopupVisible
@@ -143,7 +144,8 @@ export const handleMessage = (
             
 
             if (fileName) {
-                //togglePopupAudio(fileName, setIsAudioPaused);
+                stopPopupAudio();
+                togglePopupAudio(fileName, setIsAudioPaused);
                 setCurrentAudioTitle(fileName);
                 setAudioPopupVisible(true);
             } else {

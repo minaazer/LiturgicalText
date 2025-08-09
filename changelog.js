@@ -72,6 +72,10 @@ const changelog = {
     "Added audio files for some songs",
 
   ],
+  "1.0.89": [
+    "Song corrections",
+    "Minor bug fixes and optimizations",
+  ],
 };
 
 export default changelog;

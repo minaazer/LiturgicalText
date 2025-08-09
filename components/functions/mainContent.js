@@ -183,6 +183,7 @@ useEffect(() => {
                         setImageUri, // Pass image URI setter
                         imagesData, // Pass the images data
                         togglePopupAudio, // Pass audio toggle function
+                        stopPopupAudio, // Pass audio stop function
                         setIsAudioPaused,
                         setCurrentAudioTitle,
                         setAudioPopupVisible

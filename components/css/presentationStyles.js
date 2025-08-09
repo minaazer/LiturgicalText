@@ -287,7 +287,7 @@ export const presentationStyles = StyleSheet.create({
   },
   daysContainer: {
     flex: 3,
-    flexDirection: "row",
+    flexDirection: !isPortrait ? "column" : "row",
     justifyContent: "center",
     alignItems: "center",
     alignContent: "flex-start",
