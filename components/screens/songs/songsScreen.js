@@ -9,7 +9,7 @@ import {
   handleDrawerItemPress,
 } from "../../functions/renderFunctions";
 import { renderSongs } from "../../../data/songs/renderSongs";
-import songsData from "../../../data/songs/songs.json";
+import songsData from "../../../data/jsons/songs.json";
 import { iconVariables } from "../../../data/repeatedPrayers/iconVariables";
 import SettingsContext from "../../../settings/settingsContext";
 

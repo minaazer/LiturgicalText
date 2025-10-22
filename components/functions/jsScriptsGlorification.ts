@@ -1,4 +1,4 @@
-    import { arabicNumbers , extractTableTitlesAndIds , paginateTables , sendMessage , adjustOverlay , setOverlays , clearOverlays , showBlackScreen , removeBlackScreen , tableToggle , listenToButtonClicks , handleSpinner , loadStoredSettings , bookNavigationButtons} from "./javaScripts";
+    import { arabicNumbers , extractTableTitlesAndIds , paginateTablesGlorification , sendMessage , adjustOverlay , setOverlays , clearOverlays , showBlackScreen , removeBlackScreen , tableToggle , listenToButtonClicks , handleSpinner , loadStoredSettings , bookNavigationButtons} from "./javaScripts";
 
 export const htmlRenderScript = `
 
@@ -31,7 +31,7 @@ window.onload = function() {
 ${arabicNumbers}
 
 // Handle pagination
-${paginateTables}
+${paginateTablesGlorification}
 
 // Handle table of contents
 ${extractTableTitlesAndIds}

@@ -36,10 +36,11 @@ import KiahkDoxologies from "../screens/kiahkDoxologies";
 import Doxologies from "../screens/doxologies";
 import SeasonalDoxologies from "../screens/seasonalDoxologies";
 import Glorification from "../screens/glorification";
+import GlorificationScreen from "../screens/glorificationScreen";
 import Songs from "../screens/songs";
 import SongsScreen from "../screens/songs/songsScreen";
 import HolyWeekData from "../../data/holyWeek/holyWeek.json";
-import SongsData from "../../data/songs/songs.json";
+import SongsData from "../../data/jsons/songs.json";
 
 const transformHolyWeekData = (holyWeekData) => {
   // Transform holy week data into a nested structure
@@ -130,7 +131,7 @@ const StaticScreens = [
   {
     screenName: "Glorification",
     label: "Glorification",
-    component: Glorification,
+    component: GlorificationScreen,
   },
   {
     screenName: "Kiahk",

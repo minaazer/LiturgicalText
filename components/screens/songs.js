@@ -14,7 +14,7 @@ import { useNavigation } from "@react-navigation/native";
 import backgroundImage from "../../assets/background.png";
 import { ScrollView } from "react-native-gesture-handler";
 import { presentationStyles } from "../css/presentationStyles";
-import songsData from "../../data/songs/songs.json";
+import songsData from "../../data/jsons/songs.json";
 
 const Songs = () => {
   const navigation = useNavigation();

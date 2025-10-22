@@ -76,6 +76,26 @@ const changelog = {
     "Song corrections",
     "Minor bug fixes and optimizations",
   ],
+  "1.0.90": [
+    "Added new songs to the app",
+    "Added audio files for some songs",
+  ],
+  "1.0.91": [
+    "Minor bug fixes and optimizations",
+    "Updated Glorification data structure",
+    "Added songs and praises to Glorification"
+  ],
+  "1.0.92": [
+    "Minor bug fixes and optimizations",
+    "Updated UI colors",
+    "Text corrections in Glorification",
+    "Added more phonics and rearranged hymns"
+  ],
+  "1.0.93": [
+    "Minor bug fixes and optimizations",
+    "Text corrections in Glorification",
+    "Added more phonics"
+  ]
 };
 
 export default changelog;

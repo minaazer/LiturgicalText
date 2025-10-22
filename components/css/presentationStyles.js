@@ -2,7 +2,6 @@
 
 import { StyleSheet } from "react-native";
 import { Dimensions, Platform } from "react-native";
-import { songs } from "../../data/songs/songs";
 
 const screenWidth = Dimensions.get("window").width;
 const screenHeight = Dimensions.get("window").height;

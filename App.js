@@ -174,7 +174,6 @@ const AppContent = () => {
   const checkForVersionUpdates = async () => {
     try {
       let lastSeenVersion = await AsyncStorage.getItem('lastSeenVersion');
-        console.log("Raw stored settings:", lastSeenVersion);
 
       if (!lastSeenVersion) lastSeenVersion = '1.0.0';
 

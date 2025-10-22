@@ -265,36 +265,32 @@ td.column-1-1 {
     display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'inline'};
 }
 
-.enPhonics {
+.enPhonics, .enPhonicsDual {
     vertical-align: top ;
     font-family: 'Georgia' !important;
     text-align: justify;
     display: ${settings.languages && !visibleLangues[3].checked ? 'none' : 'flex'};
-    color: #FDFD96 !important;
+    color: #ffb99b !important;
 }
-.enPhonicsSongs {
-    vertical-align: top ;
-    font-family: 'Georgia' !important;
-    text-align: justify;
-    display: ${settings.languages && !visibleLangues[3].checked ? 'none' : 'flex'};
-}
-.enPhonics1 {
-    
-    vertical-align: top ;
-    font-family: 'Georgia' !important;
-    text-align: left;
-    display: ${settings.languages && !visibleLangues[3].checked ? 'none' : 'flex'};
-    color: #FDFD96 !important;
+.enPhonicsDual {
+    flex: 0 1 60% !important;
 }
 
+.enPhonicsSongs, .enPhonics1 {
+    vertical-align: top ;
+    font-family: 'Georgia' !important;
+    text-align: justify;
+    display: ${settings.languages && !visibleLangues[3].checked ? 'none' : 'flex'};
+}
+
+
 .arPhonics {
-        text-align: right;
-        direction: rtl !important;        
-        vertical-align: top ;
-        text-align: justify;
-        display: ${settings.languages && !visibleLangues[4].checked ? 'none' : 'flex'};
-        color: #FDFD96 !important;
-    
+    text-align: right;
+    direction: rtl !important;        
+    vertical-align: top ;
+    text-align: justify;
+    display: ${settings.languages && !visibleLangues[4].checked ? 'none' : 'flex'};
+    color: #ffb99b !important;
 }
 
 
