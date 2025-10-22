@@ -1,16 +1,21 @@
+/** @format */
+
 module.exports = function (api) {
   api.cache(true);
   return {
     presets: ["babel-preset-expo"],
     plugins: [
-      ["module-resolver", {
-        "root": ["./src"],
-        "alias": {
-          "test": "./test",
-          "underscore": "lodash"
-        }
-      }],
-      "react-native-reanimated/plugin",
+      [
+        "module-resolver",
+        {
+          root: ["./src"],
+          alias: {
+            test: "./test",
+            underscore: "lodash",
+          },
+        },
+      ],
+      "react-native-reanimated/plugin", // This must be the last plugin
     ],
   };
 };
