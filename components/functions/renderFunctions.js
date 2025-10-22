@@ -181,12 +181,25 @@ export const handleMessage = (
       },
     
       // OPEN RIGHT DRAWER
-      RIGHT_SWIPE: () => { 
-        navigation.openDrawer() 
+      // In renderFunctions.js, update RIGHT_SWIPE handler for debugging
+      RIGHT_SWIPE: () => {
+        console.log('Attempting to open right drawer');
+        try {
+          navigation.openDrawer();
+          console.log('Right drawer opened successfully');
+        } catch (error) {
+          console.error('Error opening right drawer:', error);
+        }
       },
       // OPEN LEFT DRAWER
       LEFT_SWIPE: () => {
-        navigation.getParent().openDrawer()
+        console.log('Attempting to open left drawer');
+        try {
+          navigation.getParent().openDrawer();
+          console.log('Left drawer opened successfully');
+        } catch (error) {
+          console.error('Error opening left drawer:', error);
+        }
       },
       // HANDLE NEXT
       TABLE_NAVIGATION: () => {

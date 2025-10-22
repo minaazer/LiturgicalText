@@ -1,15 +1,11 @@
 /** @format */
 
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import {
   createDrawerNavigator,
 } from "@react-navigation/drawer";
-import { useNavigation } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
-import { TapGestureHandler, State } from "react-native-gesture-handler";
-
 import {
-  Dimensions,
   View,
   Text,
   ScrollView,
@@ -17,7 +13,6 @@ import {
   Keyboard,
 } from "react-native";
 import { presentationStyles } from "../css/presentationStyles";
-import { useNavigationState } from "@react-navigation/native";
 import SettingsContext from "../../settings/settingsContext";
 import SettingsScreen from "../screens/settings";
 import CalendarScreen from "../screens/calendar";
@@ -41,14 +36,14 @@ import Songs from "../screens/songs";
 import SongsScreen from "../screens/songs/songsScreen";
 import HolyWeekData from "../../data/holyWeek/holyWeek.json";
 import SongsData from "../../data/jsons/songs.json";
+import { useNavigationState } from "@react-navigation/native";
 
 const transformHolyWeekData = (holyWeekData) => {
-  // Transform holy week data into a nested structure
   const children = holyWeekData.map((item) => ({
-    screenName: item.service[0].replace(/\s+/g, "-"), // Unique name for the service
-    label: item.service[0], // Label for the service
-    component: HolyWeekDayScreen, // Main component for the service
-    params: { serviceName: item.service[0] }, // Pass additional params
+    screenName: item.service[0].replace(/\s+/g, "-"),
+    label: item.service[0],
+    component: HolyWeekDayScreen,
+    params: { serviceName: item.service[0] },
     children: item.hours.map((hour) => ({
       screenName: hour.linkStack
         ? `${item.service[0].replace(/\s+/g, "-")}-${hour.hour[0].replace(
@@ -59,25 +54,23 @@ const transformHolyWeekData = (holyWeekData) => {
             /\s+/g,
             "-"
           )}`,
-      label: hour.hour[0], // Label for the hour
+      label: hour.hour[0],
       component: HolyWeekHourScreen,
-      params: { serviceName: item.service[0], hourName: hour.hour[0] }, // Pass additional params
-      linkStack: hour.linkStack ? hour.linkStack : false, // Link to the stack if specified
+      params: { serviceName: item.service[0], hourName: hour.hour[0] },
+      linkStack: hour.linkStack ? hour.linkStack : false,
     })),
   }));
-  // Return the parent screen with all the transformed children
   return [
     {
       screenName: "HolyWeek",
       label: "Holy Pascha Week",
       component: HolyWeek,
-      children: children, // Attach the transformed children here
+      children: children,
     },
   ];
 };
 
 const transformSongsData = (SongsData) => {
-  // Group songs by theme
   const themeMap = {};
   SongsData.forEach((song) => {
     song.themes.forEach((theme) => {
@@ -88,11 +81,10 @@ const transformSongsData = (SongsData) => {
     });
   });
 
-  // Create one screen per theme
   const children = Object.entries(themeMap).map(([theme]) => ({
     screenName: theme.replace(/\s+/g, "-"),
     label: theme,
-    component: SongsScreen, // Must handle displaying list of `songs`
+    component: SongsScreen,
     params: { theme },
   }));
 
@@ -111,9 +103,6 @@ const transformSongsData = (SongsData) => {
     },
   ];
 };
-
-
-
 
 const StaticScreens = [
   {
@@ -158,41 +147,31 @@ const StaticScreens = [
       },
     ],
   },
-
-
 ];
 
 const RouteConfig = [...StaticScreens, ...transformHolyWeekData(HolyWeekData), ...transformSongsData(SongsData)];
 
 const Drawer = createDrawerNavigator();
-const screenWidth = Dimensions.get("window").width;
-const isPortrait = screenWidth < 500;
 
-const LeftDrawerContent = ({ navigation, currentRoute, ...props }) => {
-  const drawerItemsByRoute = RouteConfig; // Access all route configurations
+const LeftDrawerContent = ({ navigation, ...props }) => {
+  const drawerItemsByRoute = RouteConfig;
+  const state = useNavigationState((state) => state);
+  const currentState = state?.routes[state.index].state;
+  const currentRoute = currentState?.routes[currentState.index]?.name || "Home";
 
   const DrawerButton = ({ label, routeName, navigation }) => {
-    const lastTap = useRef(0);
-
-    const handleTap = (event) => {
-      if (event.nativeEvent.state === State.END) {
-        const now = Date.now();
-        if (now - lastTap.current < 300) return;
-        lastTap.current = now;
-
-        navigation.closeDrawer();
-        requestAnimationFrame(() => {
-          navigation.navigate(routeName);
-        });
-      }
-    };
-
     return (
-      <TapGestureHandler onHandlerStateChange={handleTap} numberOfTaps={1}>
+      <TouchableWithoutFeedback
+        onPress={() => {
+          console.log(`Navigating to: ${routeName}`);
+          navigation.closeDrawer();
+          navigation.navigate("MainStack", { screen: routeName });
+        }}
+      >
         <View style={presentationStyles.drawerTouchableOpacity}>
           <Text style={presentationStyles.drawerLabel}>{label}</Text>
         </View>
-      </TapGestureHandler>
+      </TouchableWithoutFeedback>
     );
   };
 
@@ -216,7 +195,7 @@ const LeftDrawerContent = ({ navigation, currentRoute, ...props }) => {
               sibling !== grandParent
           )
           .map((sibling) => ({ ...sibling, type: "child" }));
-        return [grandParentItem, parentItem, ...siblings].filter(Boolean); // Remove any null values
+        return [grandParentItem, parentItem, ...siblings].filter(Boolean);
       } else if (Array.isArray(item.children)) {
         const found = findParentAndSiblings(
           item.children,
@@ -240,14 +219,12 @@ const LeftDrawerContent = ({ navigation, currentRoute, ...props }) => {
           label={item.label}
           routeName={item.screenName}
         />
-
         {item.type === "parent" && (
           <View style={presentationStyles.drawerLineBreak}></View>
         )}
       </React.Fragment>
     ));
 
-    // Add line break after rendering all the siblings
     renderedItems.push(
       <View
         key="lineBreakAfterSiblings"
@@ -258,7 +235,6 @@ const LeftDrawerContent = ({ navigation, currentRoute, ...props }) => {
     return renderedItems;
   };
 
-  // Check if drawerItemsByRoute is defined before using it
   const dynamicDrawerItems =
     drawerItemsByRoute &&
     findParentAndSiblings(drawerItemsByRoute, currentRoute);
@@ -330,12 +306,10 @@ const LeftDrawerContent = ({ navigation, currentRoute, ...props }) => {
   );
 };
 
-// Define the MainStackNavigator which nests all the main screens.
-
 const createStackScreens = (route) => {
   if (!route || !route.screenName) {
     console.error("Invalid route:", route);
-    return null; // Return null if route is invalid
+    return null;
   }
 
   const { screenName, component, children, linkStack, params } = route;
@@ -345,7 +319,6 @@ const createStackScreens = (route) => {
     return null;
   }
 
-  // Create a stack screen for the parent route
   const parentScreen = (
     <Stack.Screen
       key={screenName}
@@ -357,18 +330,15 @@ const createStackScreens = (route) => {
   );
 
   if (children) {
-    // Map through the children and create stack screens for each child
-    const childScreens = children.map(createStackScreens).filter(Boolean); // Filter out any null values
-    // Return the parent stack screen along with child stack screens
+    const childScreens = children.map(createStackScreens).filter(Boolean);
     return [parentScreen, ...childScreens];
   } else {
-    // Return only the parent stack screen for routes without children
     return [parentScreen];
   }
 };
 
 const MainStackNavigator = () => {
-  const Stack = createStackNavigator(); // Define Stack navigator outside the function
+  const Stack = createStackNavigator();
   return (
     <Stack.Navigator
       initialRouteName="Home"
@@ -394,7 +364,6 @@ const MainStackNavigator = () => {
         component={SaintSettingsScreen}
         options={{ headerShown: false }}
       />
-
       <Stack.Screen
         name="About"
         component={AboutScreen}
@@ -406,41 +375,17 @@ const MainStackNavigator = () => {
 };
 
 const RootNavigation = () => {
-  const navigation = useNavigation();
-
-  // Ensure the left drawer fully opens or closes
-  useEffect(() => {
-    const unsubscribeOpen = navigation.addListener("drawerOpen", () => {
-      // Left drawer fully opened
-    });
-
-    const unsubscribeClose = navigation.addListener("drawerClose", () => {
-      // Left drawer fully closed
-    });
-
-    return () => {
-      unsubscribeOpen();
-      unsubscribeClose();
-    };
-  }, [navigation]);
-
-  const state = useNavigationState((state) => state);
-  const currentState = state?.routes[state.index].state;
-  const currentRoute = currentState?.routes[currentState.index].name;
-
   return (
     <Drawer.Navigator
-      initialRouteName="MainStack" // Set the initial route to MainStack
+      initialRouteName="MainStack"
       screenOptions={{
-        gestureEnabled: true,
-        swipeEdgeWidth: isPortrait ? screenWidth / 2 : screenWidth / 3,
-        swipeMinDistance: 10,
+        gestureEnabled: false, // Disable to prevent gesture handler warnings with Reanimated v4
         drawerType: "front",
-
-        overlayColor: "rgba(0,0,0,0.5)", // Semi-transparent overlay
+        drawerPosition: "left", // Explicitly set to left
+        overlayColor: "rgba(0,0,0,0.5)",
       }}
       drawerContent={(props) => (
-        <LeftDrawerContent {...props} currentRoute={currentRoute} />
+        <LeftDrawerContent {...props} />
       )}
     >
       <Drawer.Screen

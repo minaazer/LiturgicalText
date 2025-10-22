@@ -25,16 +25,13 @@ const getChapterVerses = (bookTitle, chapterNumber) => {
 };
 
 const extractBookAndChapter = (title) => {
-  // Trim the title to remove any leading or trailing whitespace
   const trimmedTitle = title.trim();
-  // Match the pattern using regex
   const match = trimmedTitle.match(/^Bible \/ (.+?) Chapter (\d+)$/);
   if (match) {
     return { book: match[1].trim(), chapter: parseInt(match[2], 10) };
   }
   return null;
 };
-
 
 const RightDrawerContent = React.forwardRef(
   ({ currentTable, drawerItems, handleDrawerItemPress, navigation, ...props }, scrollViewRef) => {
@@ -142,7 +139,7 @@ const RightDrawerContent = React.forwardRef(
           {sortedItems.map((item, index) => {
             const isActive = item.id === currentTable;
             const bookChapterInfo = extractBookAndChapter(item.title.english);
-            
+
             if (bookChapterInfo) {
               const verses = getChapterVerses(bookChapterInfo.book, bookChapterInfo.chapter);
               return (
@@ -161,7 +158,6 @@ const RightDrawerContent = React.forwardRef(
                           </Text>
                         )}
                         onPress={() => {
-                          // Handle verse selection
                           handleDrawerItemPress(verse.verse, true);
                           navigation.closeDrawer();
                         }}
@@ -183,15 +179,14 @@ const RightDrawerContent = React.forwardRef(
                       {item.title.order.map((lang) => {
                         let textStyle = isActive ? presentationStyles.activeTitle : {};
                         if (lang === "english" && item.title.english) {
-                          
                           return (
                             <Text
                               key="english"
                               style={[
                                 presentationStyles.englishTitle,
                                 textStyle,
-                                item.nonTraditionalPascha && { fontFamily: 'Georgia Italic'}
-                              ]}                              
+                                item.nonTraditionalPascha && { fontFamily: 'Georgia Italic' }
+                              ]}
                             >
                               {item.nonTraditionalPascha ? `• ${item.title.english}` : item.title.english}
                             </Text>
@@ -214,7 +209,6 @@ const RightDrawerContent = React.forwardRef(
                                 textStyle,
                                 item.nonTraditionalPascha && { fontFamily: 'Georgia Italic' }
                               ]}
-                              
                             >
                               {item.title.arabic.replace(/<br>/g, "")}
                             </Text>
@@ -230,7 +224,7 @@ const RightDrawerContent = React.forwardRef(
                   }}
                   style={presentationStyles.itemContainerStyle}
                 />
-                {index !== drawerItems.length - 1 && (
+                {index !== sortedItems.length - 1 && (
                   <View style={presentationStyles.embossedLine}></View>
                 )}
               </View>
@@ -262,11 +256,9 @@ const RightMenuDrawer = ({
         initialRouteName="MainContent"
         screenOptions={{
           headerShown: false,
-          gestureDirection: "horizontal-inverted",
+          gestureEnabled: false, // Disable to prevent gesture handler warnings with Reanimated v4
           drawerPosition: "right",
           drawerType: "front",
-          swipeEdgeWidth: isPortrait ? screenWidth / 2 : screenWidth / 3,
-          swipeMinDistance: 10,
           overlayColor: "rgba(0,0,0,0.5)",
           drawerStyle: { width: isPortrait ? screenWidth * 0.7 : screenWidth * 0.4 },
         }}
@@ -276,7 +268,7 @@ const RightMenuDrawer = ({
             ref={scrollViewRef}
             currentTable={currentTable}
             drawerItems={drawerItems}
-            handleDrawerItemPress={(tableId,row) => {
+            handleDrawerItemPress={(tableId, row) => {
               handleDrawerItemPress(tableId, webviewRef, row);
               navigation.closeDrawer();
             }}

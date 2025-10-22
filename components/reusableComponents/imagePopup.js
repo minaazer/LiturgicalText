@@ -42,12 +42,16 @@ export const ImagePopup = ({ visible, imageUri, onClose }) => {
   }, [imageUri]);
 
   const pinchGesture = Gesture.Pinch().onUpdate((event) => {
+    'worklet';
     scale.value = event.scale;
   });
 
-  const animatedStyle = useAnimatedStyle(() => ({
-    transform: [{ scale: scale.value }],
-  }));
+  const animatedStyle = useAnimatedStyle(() => {
+    'worklet';
+    return {
+      transform: [{ scale: scale.value }],
+    };
+  });
 
   if (!visible || !imageUri) return null;
 
