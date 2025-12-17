@@ -11,7 +11,7 @@ import holyWeekImage from '../../assets/holyWeek.png';
 import songsImage from '../../assets/songs.png';
 import baptismImage from '../../assets/baptism.png';
 import weddingImage from '../../assets/wedding.png';
-import { ScrollView } from 'react-native-gesture-handler';
+import { ScrollView } from 'react-native';
 import SettingsContext from '../../settings/settingsContext'; // Import SettingsContext
 import * as ScreenOrientation from 'expo-screen-orientation';
 

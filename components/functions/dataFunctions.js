@@ -72,7 +72,29 @@ export function getExpositionOnePageSettings(onePageSettings) {
 
 export function processTemplate(template, variables) {
   if (typeof template !== "string") return template;
-  return template.replace(/\$\{(.*?)\}/g, (_, key) => variables[key] || "");
+
+  const missingTemplateKeys = processTemplate._missingTemplateKeys || new Set();
+  processTemplate._missingTemplateKeys = missingTemplateKeys;
+
+  const getByPath = (obj, path) =>
+    path.split(".").reduce(
+      (curr, segment) => (curr && typeof curr === "object" ? curr[segment] : undefined),
+      obj
+    );
+
+  return template.replace(/\$\{(.*?)\}/g, (_, key) => {
+    const direct = variables[key];
+    if (direct !== undefined && direct !== null) return direct;
+    const nested = getByPath(variables, key);
+    if (nested !== undefined && nested !== null) return nested;
+
+    if (!missingTemplateKeys.has(key)) {
+      missingTemplateKeys.add(key);
+      console.warn(`processTemplate: missing variable for placeholder "${key}" in template "${template}"`);
+    }
+
+    return "";
+  });
 }
 
 export function renderRepeatedPrayer(table, tableIdx, variables, tableClass, paschalReadingsFull) {
@@ -327,15 +349,34 @@ export function renderSongTables(table, tableIdx, tableClass = "", variables = {
 export function renderHtmlTable(table, tableIdx, tableClass, tbodyClass, variables = {}) {
   const enTitle = table.english_title || `Song ${tableIdx + 1}`;
   const captionClass = table.caption_class || "";
-
+  // If tableClass is passed, merge it with any class provided on the table object (supports both camel/snake).
+  const tableClassFromData = table.table_class || table.tableClass || "";
+  if (tableClassFromData) {
+    tableClass = tableClass ? `${tableClass} ${tableClassFromData}` : tableClassFromData;
+  }
+  const captionDisplay = table.caption_display || "";
+  const captionDisplayStyle = captionDisplay ? `style="display: ${captionDisplay}"` : "";
   let globalRowIdx = 0; // Keep a single counter across all tbodies
+
+  // Some data sources provide rows directly instead of wrapping them in tbodies.
+  const tbodiesToRender =
+    Array.isArray(table.tbodies) && table.tbodies.length
+      ? table.tbodies
+      : Array.isArray(table.rows)
+        ? [{ rows: table.rows }]
+        : [];
+
+  if (!tbodiesToRender.length) {
+    console.log(`renderHtmlTable: No rows found for table "${enTitle}"`, table);
+    return `<div>Error: No rows found in table "${enTitle}"</div>`;
+  }
 
   return `
     <table id="table_${tableIdx}" title="${processTemplate(enTitle, variables)}" class="${tableClass}">
       ${
         table.english_title
           ? `
-        <caption class="caption ${captionClass}" id="caption_table_${tableIdx}">
+        <caption class="caption ${captionClass}" id="caption_table_${tableIdx}" ${captionDisplayStyle}>
             ${processTemplate(table.english_title, variables)}
             
             ${
@@ -383,21 +424,54 @@ export function renderHtmlTable(table, tableIdx, tableClass, tbodyClass, variabl
           : ""
       }
 
-      ${table.tbodies
+      ${tbodiesToRender
         .map((tbody, tbodyIdx) => {
-          const rowsHtml = tbody.rows
+          const rows = Array.isArray(tbody.rows) ? tbody.rows : [];
+          const rowsHtml = rows
             .map((row) => {
+              const navAttr =
+                row["data-navigation"] &&
+                row["data-navigation"].destination &&
+                row["data-navigation"].source
+                  ? ` data-navigation='${JSON.stringify({
+                      destination: row["data-navigation"].destination,
+                      source: row["data-navigation"].source,
+                    }).replace(/"/g, "&quot;")}'`
+                  : "";
               const rowHtml = `
-                <tr id="song_${tableIdx}_row_${globalRowIdx}" class="${row["row-class"] || ""}">
+                <tr id="table_${tableIdx}_row_${globalRowIdx}" class="${row["row-class"] || ""}"${navAttr}>
                   ${row.cells
-                    .map(cell =>
-                      Object.entries(cell)
-                        .map(
-                          ([lang, value]) =>
-                            `<td class="${lang}">${processTemplate(value, variables)}</td>`
-                        )
-                        .join("")
-                    )
+                    .map((cell) => {
+                      const dataNavigationValue = "skipButton" in cell
+                        ? `table_${tableIdx}`
+                        : cell["data-navigation"]
+                          ? processTemplate(cell["data-navigation"], variables)
+                          : "";
+                      const dataNavigationAttr = dataNavigationValue
+                        ? ` data-navigation="${dataNavigationValue.replace(/"/g, "&quot;")}"`
+                        : "";
+
+                      if ("skipButton" in cell) {
+                        return `<td class="skipButton"${dataNavigationAttr}>${processTemplate(
+                          cell.skipButton,
+                          variables
+                        )}</td>`;
+                      }
+
+                      const entries = Object.entries(cell).filter(
+                        ([key]) => key !== "data-navigation"
+                      );
+
+                      return entries
+                        .map(([lang, value], idx) => {
+                          const navAttrForCell = idx === 0 ? dataNavigationAttr : "";
+                          return `<td class="${lang}"${navAttrForCell}>${processTemplate(
+                            value,
+                            variables
+                          )}</td>`;
+                        })
+                        .join("");
+                    })
                     .join("")}
                 </tr>
               `;

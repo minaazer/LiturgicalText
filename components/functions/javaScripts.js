@@ -320,7 +320,10 @@ const extractTableTitlesAndIds =
             tables.forEach((table, index) => {
                 const caption = table.querySelector('caption');
                 const nonTraditionalPascha = table.getAttribute('nonTraditionalPascha') || false;
-                
+                const tableClass = table.getAttribute('class') || '';
+                if (tableClass.includes('notIndexed')) {
+                    return; // Skip this table
+                }
 
                 const title = { english: '', coptic: '', arabic: '', order: [] }; // Initialize English, Coptic, and Arabic as empty strings
                 if (caption) {

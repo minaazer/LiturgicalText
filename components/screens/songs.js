@@ -12,7 +12,7 @@ import {
 } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import backgroundImage from "../../assets/background.png";
-import { ScrollView } from "react-native-gesture-handler";
+import { ScrollView } from "react-native";
 import { presentationStyles } from "../css/presentationStyles";
 import songsData from "../../data/jsons/songs.json";
 

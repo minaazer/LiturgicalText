@@ -95,7 +95,10 @@ const changelog = {
     "Minor bug fixes and optimizations",
     "Text corrections in Glorification",
     "Added more phonics"
-  ]
+  ],
+  "1.0.94": [
+    "Expanded font size range till size 12",
+  ],
 };
 
 export default changelog;

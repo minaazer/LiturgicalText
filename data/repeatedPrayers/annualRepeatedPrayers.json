@@ -1,7 +1,7 @@
 [
     {
         "category": "hymns",
-        "tables":[
+        "tables": [
             {
                 "title": "Ekesmarouot",
                 "english_caption": "Blessed are You indeed",
@@ -169,7 +169,7 @@
     },
     {
         "category": "liturgical",
-        "tables":[
+        "tables": [
             {
                 "title": "Thanksgiving Prayer",
                 "english_caption": "Thanksgiving Prayer",
@@ -951,11 +951,10 @@
                 ]
             }
         ]
-
     },
     {
         "category": "prayers",
-        "tables":[
+        "tables": [
             {
                 "title": "Psalm 50",
                 "english_caption": "Psalm 50",
@@ -1321,7 +1320,6 @@
                 "arabic_caption": "قانون الإيمان",
                 "coptic_caption": null,
                 "rows": [
-                    
                     {
                         "row-class": "commentary",
                         "season": "covenantThursday",
@@ -1419,6 +1417,501 @@
                                 "english": "We look for the resurrection of the dead, and the life of the age to come.  Amen.",
                                 "coptic": "Ⲧⲉⲛϫⲟⲩϣⲧ ⲉ̀ⲃⲟⲗ ϧⲁ ⲧ̀ϩⲏ ⲛ̀ϯⲁ̀ⲛⲁⲥⲧⲁⲥⲓⲥ ⲛ̀ⲧⲉ ⲛⲓⲣⲉϥⲙⲱⲟⲩⲧ: ⲛⲉⲙ ⲡⲓⲱⲛϧ ⲛ̀ⲧⲉ ⲡⲓⲉ̀ⲱⲛ ⲉⲑⲛⲏⲟⲩ:  ⲁ̀ⲙⲏⲛ.",
                                 "arabic": "وننتظر قيامة الأموات ، وحياة الدهر الآتي آمين."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "praises",
+        "tables": [
+            {
+                "title": "O God Have Mercy On Us",
+                "english_title": "O God Have Mercy On Us",
+                "coptic_title": "Ⲫϯ ⲛⲁⲓ ⲛⲁⲛ",
+                "arabic_title": "يا الله ارحمنا",
+                "caption_class": "caption",
+                "themes": [],
+                "tbodies": [
+                    {
+                        "rows": [
+                            {
+                                "row-class": "north",
+                                "cells": [
+                                    {
+                                        "english": "Lord Have Mercy (3)"
+                                    },
+                                    {
+                                        "coptic": "Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ (3)"
+                                    },
+                                    {
+                                        "arabic": "يارب إرحم(3)"
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "north",
+                                "cells": [
+                                    {
+                                        "english": "O God have mercy on us:"
+                                    },
+                                    {
+                                        "coptic": "Ⲫϯ ⲛⲁⲓ ⲛⲁⲛ."
+                                    },
+                                    {
+                                        "arabic": "ياالله ارحمنا."
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "south",
+                                "cells": [
+                                    {
+                                        "english": "O God hear us:"
+                                    },
+                                    {
+                                        "coptic": "Ⲫϯ ⲥⲱⲧⲉⲙ ⲉ̀ⲣⲟⲛ."
+                                    },
+                                    {
+                                        "arabic": "ياالله اسمعنا."
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "north",
+                                "cells": [
+                                    {
+                                        "english": "O God behold us:"
+                                    },
+                                    {
+                                        "coptic": "Ⲫϯ ⲥⲟⲙⲥ ⲉ̀ⲣⲟⲛ."
+                                    },
+                                    {
+                                        "arabic": "ياالله انظر الينا."
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "south",
+                                "cells": [
+                                    {
+                                        "english": "O God look to us:"
+                                    },
+                                    {
+                                        "coptic": "Ⲫϯ ϫⲟⲩϣⲧ ⲉ̀ⲣⲟⲛ."
+                                    },
+                                    {
+                                        "arabic": "ياالله اطّلع علينا"
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "north",
+                                "cells": [
+                                    {
+                                        "english": "O God have compassion on us:"
+                                    },
+                                    {
+                                        "coptic": "Ⲫϯ ϣⲉⲛϩⲏⲧ ϧⲁⲣⲟⲛ."
+                                    },
+                                    {
+                                        "arabic": "يا الله تراءف علينا."
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "south",
+                                "cells": [
+                                    {
+                                        "english": "We are Your people:"
+                                    },
+                                    {
+                                        "coptic": "Ⲁⲛⲟⲛ ϧⲁ ⲡⲉⲕⲗⲁⲟⲥ."
+                                    },
+                                    {
+                                        "arabic": "نحن شعبك."
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "north",
+                                "cells": [
+                                    {
+                                        "english": "We are Your creation:"
+                                    },
+                                    {
+                                        "coptic": "Ⲁⲛⲟⲛ ϧⲁ ⲡⲉⲕⲡ̀ⲗⲁⲥⲙⲁ."
+                                    },
+                                    {
+                                        "arabic": "نحن جبلتك"
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "south",
+                                "cells": [
+                                    {
+                                        "english": "Deliver us from our enemies:"
+                                    },
+                                    {
+                                        "coptic": "Ⲛⲁϩⲙⲉⲛ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲉⲛϫⲁϫⲓ."
+                                    },
+                                    {
+                                        "arabic": "نجنا من أعدائنا"
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "north",
+                                "cells": [
+                                    {
+                                        "english": "Deliver us from inflation:"
+                                    },
+                                    {
+                                        "coptic": "Ⲛⲁϩⲙⲉⲛ ⲉ̀ⲃⲟⲗϩⲁ ⲟⲩϩ̀ⲃⲱⲛ."
+                                    },
+                                    {
+                                        "arabic": "نجنا من الغلاء."
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "south",
+                                "cells": [
+                                    {
+                                        "english": "We are Your servants:"
+                                    },
+                                    {
+                                        "coptic": "Ⲁⲛⲟⲛ ϧⲁ ⲛⲉⲕⲉ̀ⲃⲓⲁⲓⲕ"
+                                    },
+                                    {
+                                        "arabic": "نحن عبيدك."
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "north",
+                                "cells": [
+                                    {
+                                        "english": "You are the Son of God:"
+                                    },
+                                    {
+                                        "coptic": "̀ Ⲩⲓⲟⲥ Ⲑⲉⲟⲥ ⲛ̀ⲑⲟⲕ."
+                                    },
+                                    {
+                                        "arabic": "أنت ابن الله."
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "south",
+                                "cells": [
+                                    {
+                                        "english": "We believe in You:"
+                                    },
+                                    {
+                                        "coptic": "Ⲁⲛⲛⲁϩϯ ⲉ̀ⲣⲟⲕ."
+                                    },
+                                    {
+                                        "arabic": "آمنا بك."
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "north",
+                                "cells": [
+                                    {
+                                        "english": "For You Have come and saved us:"
+                                    },
+                                    {
+                                        "coptic": "Ϫⲉ ⲁⲕⲓ̀ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ"
+                                    },
+                                    {
+                                        "arabic": "لانك أتيت وخلصتنا"
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "south",
+                                "cells": [
+                                    {
+                                        "english": "Visit us with Your salvation:"
+                                    },
+                                    {
+                                        "coptic": "Ϫⲉⲙⲡⲉⲛϣⲓⲛⲓ ϧⲉⲛ ⲡⲉⲕⲟⲩϫⲁⲓ."
+                                    },
+                                    {
+                                        "arabic": "تعهدنا بخلاصك."
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "north",
+                                "cells": [
+                                    {
+                                        "english": "And forgive us our sins ${cross}"
+                                    },
+                                    {
+                                        "coptic": "Ⲟⲩⲟϩ ⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ. ${cross}"
+                                    },
+                                    {
+                                        "arabic": "واغفر لنا خطيانا. ${cross}"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Your mercies O my God",
+                "english_title": "Your mercies O my God",
+                "coptic_title": "Ⲛⲉⲕⲛⲁⲓ ⲱ̀ Ⲡⲁⲛⲟⲩϯ",
+                "arabic_title": "مراحمك يا إلهي",
+                "caption_class": "caption",
+                "themes": [],
+                "tbodies": [
+                    {
+                        "rows": [
+                            {
+                                "row-class": "north",
+                                "cells": [
+                                    {
+                                        "english": "Your mercies O my God, are countless, and exceedingly plenteous, are Your compassion."
+                                    },
+                                    {
+                                        "coptic": "Ⲛⲉⲕⲛⲁⲓ ⲱ̀ Ⲡⲁⲛⲟⲩϯ: ϩⲁⲛⲁⲧϭⲓⲏ̀ⲡⲓ ⲙ̀ⲙⲱⲟⲩ: ⲥⲉⲟϣ ⲉ̀ⲙⲁϣⲱ: ⲛ̀ϫⲉ ⲛⲉⲕⲙⲉⲧϣⲉⲛϩⲏⲧ."
+                                    },
+                                    {
+                                        "arabic": "مراحمك يا إلهي، غير محصاة، وكثيرة جداً، هي رأفاتك."
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "south",
+                                "cells": [
+                                    {
+                                        "english": "All the raindrops, are counted by You, and the sand of the sea, is before Your eyes."
+                                    },
+                                    {
+                                        "coptic": "Ⲛⲓⲧⲉⲗⲧⲓⲗⲓ ⲙ̀ⲙⲟⲩⲛϩⲱⲟⲩ: ⲥⲉⲏⲡ ⲛ̀ⲧⲟⲧⲕ ⲧⲏⲣⲟⲩ: ⲡⲓⲕⲉϣⲱ ⲛ̀ⲧⲉ ⲫ̀ⲓⲟⲙ: ⲥⲉⲭⲏ ⲛⲁϩⲣⲉⲛ ⲛⲉⲕⲃⲁⲗ."
+                                    },
+                                    {
+                                        "arabic": "قطرات المطر، محصاة عندك جميعها، ورمل البحر، كائن أمام عينيك."
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "north",
+                                "cells": [
+                                    {
+                                        "english": "How much more are, the sins of my soul, manifest before You, O my Lord."
+                                    },
+                                    {
+                                        "coptic": "Ⲓⲉ ⲁⲩⲏⲣ ⲙⲁⲗⲗⲟⲛ: ⲛⲓⲛⲟⲃⲓ ⲛ̀ⲧⲉ ⲧⲁⲯⲩⲭⲏ: ⲛⲁⲓ ⲉⲑⲟⲩⲱⲛϩ ⲉ̀ⲃⲟⲗ: ⲙ̀ⲡⲉⲕⲙ̀ⲑⲟ Ⲡⲁϭⲟⲓⲥ."
+                                    },
+                                    {
+                                        "arabic": "فكم بالحري، خطايا نفسي، هذه الظاهرة، أمامك يا ربي."
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "south",
+                                "cells": [
+                                    {
+                                        "english": "The sins that I have committed, do not remember my Lord, and do not count, my iniquities."
+                                    },
+                                    {
+                                        "coptic": "Ⲛⲓⲛⲟⲃⲓ ⲉ̀ⲧⲁⲓⲁⲧⲟⲩ: Ⲡⲁϭⲟⲓⲥ ⲛ̀ⲛⲉⲕⲉⲣⲡⲟⲩⲙⲉⲩⲓ̀: ⲟⲩⲇⲉ ⲙ̀ⲡⲉⲣϯϩ̀ⲑⲏⲕ: ⲉ̀ⲛⲁⲁ̀ⲛⲟⲙⲓⲁ."
+                                    },
+                                    {
+                                        "arabic": "الخطايا التي صنعتها، يا ربي لا تذكرها، ولا تحسب، آثامي."
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "north",
+                                "cells": [
+                                    {
+                                        "english": "For You have chosen the publican, and the adulteress You have saved, and the right-hand thief, my Lord You have remembered."
+                                    },
+                                    {
+                                        "coptic": "Ϫⲉ ⲡⲓⲧⲉⲗⲱⲛⲏⲥ ⲁⲕⲥⲟⲧⲡϥ: ϯⲡⲟⲣⲛⲏ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲥ: ⲡⲓⲥⲟⲛⲓ ⲉⲧⲥⲁⲟⲩⲓ̀ⲛⲁⲙ: Ⲡⲁϭⲟⲓⲥ ⲁⲕⲉⲣⲡⲉϥⲙⲉⲩⲓ̀."
+                                    },
+                                    {
+                                        "arabic": "فإن العشار إخترته، والزانية خلصتها، واللص اليمين، يا سيدي ذكرته."
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "south",
+                                "cells": [
+                                    {
+                                        "english": "And I too, the sinner, teach me O my Master, to offer repentance."
+                                    },
+                                    {
+                                        "coptic": "Ⲁ̀ⲛⲟⲕ ϩⲱ Ⲡⲁϭⲟⲓⲥ: ϧⲁ ⲡⲓⲣⲉϥⲉⲣⲛⲟⲃⲓ: ⲙⲁⲧ̀ⲥⲁⲃⲟⲓ ⲛ̀ⲧⲁⲓ̀ⲣⲓ: ⲛ̀ⲟⲩⲙⲉⲧⲁⲛⲟⲓⲁ."
+                                    },
+                                    {
+                                        "arabic": "وأنا أيضاً الخاطئ، يا سيدي، علمني، أن أصنع توبة."
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "north",
+                                "cells": [
+                                    {
+                                        "english": "For You do not desire, the death of a sinner, but rather that he returns, and that his soul may live."
+                                    },
+                                    {
+                                        "coptic": "Ϫⲉ ⲭ̀ⲟⲩⲱϣ ⲙ̀ⲫ̀ⲙⲟⲩ ⲁⲛ: ⲙ̀ⲡⲓⲣⲉϥⲉⲣⲛⲟⲃⲓ: ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲧⲉϥⲧⲁⲥⲑⲟϥ: ⲛ̀ⲧⲉⲥⲱⲛϧ ⲛ̀ϫⲉ ⲧⲉϥⲯⲩⲭⲏ."
+                                    },
+                                    {
+                                        "arabic": "لأنك لا تشاء، موت الخاطئ، مثل أن يرجع، وتحيا نفسه."
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "south",
+                                "cells": [
+                                    {
+                                        "english": "Restore us O God, to Your salvation, and deal with us, according to Your goodness."
+                                    },
+                                    {
+                                        "coptic": "Ⲙⲁⲧⲁⲥⲑⲟⲛ Ⲫ̀ⲛⲟⲩϯ: ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲡⲉⲕⲟⲩϫⲁⲓ: ⲁ̀ⲣⲓⲟⲩⲓ̀ ⲛⲉⲙⲁⲛ: ⲕⲁⲧⲁ ⲧⲉⲕⲙⲉⲧⲁ̀ⲅⲁⲑⲟⲥ."
+                                    },
+                                    {
+                                        "arabic": "ردنا يا الله، إلى خلاصك، وعاملنا، كصلاحك."
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "north",
+                                "cells": [
+                                    {
+                                        "english": "For You are good, and merciful, let Your compassion, speedily come to us."
+                                    },
+                                    {
+                                        "coptic": "Ϫⲉ ⲛ̀ⲑⲟⲕ ⲟⲩⲁ̀ⲅⲁⲑⲟⲥ: ⲟⲩⲟϩ ⲛ̀ⲛⲁⲏⲧ: ⲙⲁⲣⲟⲩⲧⲁϩⲟⲛ ⲛ̀ⲭⲱⲗⲉⲙ: ⲛ̀ϫⲉ ⲛⲉⲕⲙⲉⲧϣⲉⲛϩⲏⲧ."
+                                    },
+                                    {
+                                        "arabic": "لأنك أنت صالح، ورحوم، فلتدركنا، رأفاتك سريعاً."
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "south",
+                                "cells": [
+                                    {
+                                        "english": "Have compassion upon us all, O Lord God our Savior, and have mercy upon us, according to Your great mercy."
+                                    },
+                                    {
+                                        "coptic": "Ϣⲉⲛϩⲏⲧ ϧⲁⲣⲟⲛ ⲧⲏⲣⲉⲛ: Ⲡ̀ϭⲟⲓⲥ Ⲫ̀ⲛⲟⲩϯ Ⲡⲉⲛⲥⲱⲧⲏⲣ: ⲟⲩⲟϩ ⲛⲁⲓ ⲛⲁⲛ: ⲕⲁⲧⲁ ⲡⲉⲕⲛⲓϣϯ ⲛ̀ⲛⲁⲓ."
+                                    },
+                                    {
+                                        "arabic": "ترأف علينا كلنا، أيها الرب الإله، مخلصنا وإرحمنا، كعظيم رحمتك."
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "north",
+                                "cells": [
+                                    {
+                                        "english": "Remember those, O Christ our Master, be among us, and proclaim and say."
+                                    },
+                                    {
+                                        "coptic": "Ⲛⲁⲓ ⲕ̀ⲓ̀ⲣⲓ ⲙ̀ⲡⲟⲩⲙⲉⲩⲓ̀: ⲱ̀ Ⲡⲉⲛⲛⲏⲃ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲉⲕⲉ̀ϣⲱⲡⲓ ϧⲉⲛ ⲧⲉⲛⲙⲏϯ: ⲉⲕⲱϣ ⲉ̀ⲃⲟⲗ ⲉⲕϫⲱ ⲙ̀ⲙⲟⲥ."
+                                    },
+                                    {
+                                        "arabic": "هؤلاء أذكرهم، يا سيدنا المسيح، كن في وسطنا، صارخاً قائلاً:"
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "south",
+                                "cells": [
+                                    {
+                                        "english": "\"My peace I, give to you, the peace of My Father, I leave with you.\""
+                                    },
+                                    {
+                                        "coptic": "Ϫⲉ ⲧⲁϩⲓⲣⲏⲛⲏ ⲁ̀ⲛⲟⲕ: ϯϯ ⲙ̀ⲙⲟⲥ ⲛⲱⲧⲉⲛ: ⲧ̀ϩⲓⲣⲏⲛⲏ ⲙ̀Ⲡⲁⲓⲱⲧ: ϯⲭⲱ ⲙ̀ⲙⲟⲥ ⲛⲉⲙⲱⲧⲉⲛ."
+                                    },
+                                    {
+                                        "arabic": "\"سلامي أنا، أعطيكم، سلام أبي، أتركه معكم.\""
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "north",
+                                "cells": [
+                                    {
+                                        "english": "O King of peace, grant us Your peace, render unto us Your peace, and forgive us our sins."
+                                    },
+                                    {
+                                        "coptic": "Ⲡ̀ⲟⲩⲣⲟ ⲛ̀ⲧⲉ ϯϩⲓⲣⲏⲛⲏ: ⲙⲟⲓ ⲛⲁⲛ ⲛ̀ⲧⲉⲕϩⲓⲣⲏⲛⲏ: ⲥⲉⲙⲛⲓ ⲛⲁⲛ ⲛ̀ⲧⲉⲕϩⲓⲣⲏⲛⲏ: ⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ."
+                                    },
+                                    {
+                                        "arabic": "يا ملك السلام، أعطنا سلامك، قرر لنا سلامك، وإغفر لنا خطايانا."
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "south",
+                                "cells": [
+                                    {
+                                        "english": "Disperse the enemies, of the Church, and fortify her that she, may not be shaken forever."
+                                    },
+                                    {
+                                        "coptic": "Ϫⲱⲣ ⲉ̀ⲃⲟⲗ ⲛ̀ⲛⲓϫⲁϫⲓ: ⲛ̀ⲧⲉ Ϯⲉⲕⲕⲗⲏⲥⲓⲁ: ⲁ̀ⲣⲓⲥⲟⲃⲧ ⲉ̀ⲣⲟⲥ: ⲛ̀ⲛⲉⲥⲕⲓⲙ ϣⲁ ⲉ̀ⲛⲉϩ."
+                                    },
+                                    {
+                                        "arabic": "فرِّق أعداء الكنيسة، وحصنها، فلا تتزعزع، إلى الأبد."
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "north",
+                                "cells": [
+                                    {
+                                        "english": "Emmanuel our God, is now in our midst, with the glory of His Father, and the Holy Spirit."
+                                    },
+                                    {
+                                        "coptic": "Ⲉⲙⲙⲁⲛⲟⲩⲏⲗ Ⲡⲉⲛⲛⲟⲩϯ: ϧⲉⲛ ⲧⲉⲛⲙⲏϯ ϯⲛⲟⲩ: ϧⲉⲛ ⲡ̀ⲱ̀ⲟⲩ ⲛ̀ⲧⲉ Ⲡⲉϥⲓⲱⲧ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ."
+                                    },
+                                    {
+                                        "arabic": "عمانوئيل إلهنا، في وسطنا الآن، بمجد أبيه، والروح القدس."
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "south",
+                                "cells": [
+                                    {
+                                        "english": "May He bless us all, and purify our hearts, and heal the sicknesses, of our souls and bodies."
+                                    },
+                                    {
+                                        "coptic": "Ⲛ̀ⲧⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟⲛ ⲧⲏⲣⲉⲛ: ⲛ̀ⲧⲉϥⲧⲟⲩⲃⲟ ⲛ̀ⲛⲉⲛϩⲏⲧ: ⲛ̀ⲧⲉϥⲧⲁⲗϭⲟ ⲛ̀ⲛⲓϣⲱⲛⲓ: ⲛ̀ⲧⲉ ⲛⲉⲛⲯⲩⲭⲏ ⲛⲉⲙ ⲛⲉⲛⲥⲱⲙⲁ."
+                                    },
+                                    {
+                                        "arabic": "ليباركنا كلنا، ويطهر قلوبنا، ويشفي أمراض، نفوسنا وأجسادنا."
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "north",
+                                "cells": [
+                                    {
+                                        "english": "We worship You O Christ, with Your good Father, and the Holy Spirit, for You have ${aktonkAki.english} and saved us. ${cross}"
+                                    },
+                                    {
+                                        "coptic": "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: ϫⲉ ${aktonkAki.coptic} ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ. ${cross}"
+                                    },
+                                    {
+                                        "arabic": "نسجد لك أيها المسيح، مع إبيك الصالح، والروح القدس، لأنك ${aktonkAki.arabic} وخلصتنا. ${cross}"
+                                    }
+                                ]
                             }
                         ]
                     }
