@@ -7,10 +7,11 @@ import backgroundImage from '../../assets/background.png';
 import glorificationImage from '../../assets/glorification.png';
 import bibleImage from '../../assets/bible.png';
 import psalmody from '../../assets/psalmody.png';
+import unctionImage from '../../assets/unction.png';
 import holyWeekImage from '../../assets/holyWeek.png';
 import songsImage from '../../assets/songs.png';
 import baptismImage from '../../assets/baptism.png';
-import weddingImage from '../../assets/wedding.png';
+import crowningImage from '../../assets/crowning.png';
 import { ScrollView } from 'react-native';
 import SettingsContext from '../../settings/settingsContext'; // Import SettingsContext
 import * as ScreenOrientation from 'expo-screen-orientation';
@@ -124,7 +125,15 @@ const Home = () => {
           <View style={styles.iconRow}>
 
             
-
+              {developerMode ? (
+                <TouchableOpacity
+                  style={[styles.iconContainer, { opacity: 0.5}]}
+                  onPress={() => navigation.navigate('Matrimony')}
+                              
+                >
+                  <Image source={crowningImage} style={styles.iconImage} />
+                </TouchableOpacity>
+                ) : null }
               <TouchableOpacity
                 style={[styles.iconContainer]}
                 onPress={() => navigation.navigate('Glorification')}
@@ -138,6 +147,8 @@ const Home = () => {
               >
                 <Image source={bibleImage} style={styles.iconImage} />
               </TouchableOpacity>
+
+              
 
               <TouchableOpacity
                 style={[styles.iconContainer]}
@@ -153,13 +164,7 @@ const Home = () => {
                 <Image source={baptismImage} style={styles.iconImage} />
               </TouchableOpacity>
               ) : null }
-              {developerMode ? (
-              <TouchableOpacity
-                style={[styles.iconContainer, { opacity: 0.5}]}
-              >
-                <Image source={weddingImage} style={styles.iconImage} />
-              </TouchableOpacity>
-              ) : null }
+              
 
               <TouchableOpacity
                 style={[styles.iconContainer]}
@@ -174,6 +179,15 @@ const Home = () => {
               >
                 <Image source={songsImage} style={styles.iconImage} />
               </TouchableOpacity>
+
+              {developerMode ? (
+              <TouchableOpacity
+                style={[styles.iconContainer, { opacity: 0.5}]}
+                onPress={() => navigation.navigate('Unction')}
+              >
+                <Image source={unctionImage} style={styles.iconImage} />
+              </TouchableOpacity>
+              ) : null }
             </View>
         </View>
       </View>

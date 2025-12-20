@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useMemo } from "react";
 import { View, Text, TextInput, TouchableOpacity, ImageBackground } from "react-native";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import {
@@ -35,27 +35,30 @@ const extractBookAndChapter = (title) => {
 
 const RightDrawerContent = React.forwardRef(
   ({ currentTable, drawerItems, handleDrawerItemPress, navigation, ...props }, scrollViewRef) => {
-    const itemRefs = drawerItems.map(() => React.createRef());
+    const itemRefs = useMemo(() => drawerItems.map(() => React.createRef()), [drawerItems]);
     const [searchQuery, setSearchQuery] = useState("");
     const [sortOption, setSortOption] = useState("original");
 
-    const filteredItems = drawerItems.filter((item) => {
+    const filteredItems = useMemo(() => {
       const searchText = searchQuery.toLowerCase();
-      return (
-        item.title.english?.toLowerCase().includes(searchText) ||
-        item.title.coptic?.toLowerCase().includes(searchText) ||
-        item.title.arabic?.toLowerCase().includes(searchText)
-      );
-    });
+      return drawerItems.filter((item) => {
+        return (
+          item.title.english?.toLowerCase().includes(searchText) ||
+          item.title.coptic?.toLowerCase().includes(searchText) ||
+          item.title.arabic?.toLowerCase().includes(searchText)
+        );
+      });
+    }, [drawerItems, searchQuery]);
 
-    const sortedItems = [...filteredItems].sort((a, b) => {
+    const sortedItems = useMemo(() => {
+      const itemsCopy = [...filteredItems];
       if (sortOption === "english") {
-        return a.title.english?.localeCompare(b.title.english);
+        return itemsCopy.sort((a, b) => a.title.english?.localeCompare(b.title.english));
       } else if (sortOption === "arabic") {
-        return a.title.arabic?.localeCompare(b.title.arabic);
+        return itemsCopy.sort((a, b) => a.title.arabic?.localeCompare(b.title.arabic));
       }
-      return 0;
-    });
+      return itemsCopy;
+    }, [filteredItems, sortOption]);
 
     useEffect(() => {
       const activeItemIndex = drawerItems.findIndex((item) => item.id === currentTable);
@@ -218,12 +221,12 @@ const RightDrawerContent = React.forwardRef(
                       })}
                     </View>
                   )}
-                  onPress={() => {
-                    handleDrawerItemPress(item.id);
-                    navigation.closeDrawer();
-                  }}
-                  style={presentationStyles.itemContainerStyle}
-                />
+          onPress={() => {
+            handleDrawerItemPress(item.id);
+            navigation.closeDrawer();
+          }}
+          style={presentationStyles.itemContainerStyle}
+        />
                 {index !== sortedItems.length - 1 && (
                   <View style={presentationStyles.embossedLine}></View>
                 )}

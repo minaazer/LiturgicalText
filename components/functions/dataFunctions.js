@@ -1,10 +1,75 @@
 /** @format */
 
+// @ts-check
+
 import hwRepeatedPrayersData from "../../data/repeatedPrayers/hwRepeatedPrayers.json";
 import annualRepeatedPrayersData from "../../data/repeatedPrayers/annualRepeatedPrayers.json";
 import { book , musicalNote, playPause } from "../../data/repeatedPrayers";
 
+/**
+ * @typedef {Record<string, string | number | boolean | null | undefined>} TemplateVars
+ */
 
+/**
+ * @typedef {Object} NavigationData
+ * @property {string=} destination
+ * @property {string=} source
+ */
+
+/**
+ * A single cell in a rendered row.
+ * @typedef {Object} TableCell
+ * @property {string=} english
+ * @property {string=} arabic
+ * @property {string=} coptic
+ * @property {string=} skipButton
+ * @property {string | NavigationData=} ["data-navigation"]
+ * @property {string | number | boolean | null | undefined} [anyOtherKey]
+ */
+
+/**
+ * @typedef {Object} TableRow
+ * @property {string=} ["row-class"]
+ * @property {TableCell[]} cells
+ * @property {boolean=} nonTraditionalPascha
+ * @property {NavigationData=} ["data-navigation"]
+ */
+
+/**
+ * @typedef {Object} HtmlTable
+ * @property {string=} english_title
+ * @property {string=} english_caption
+ * @property {string=} arabic_title
+ * @property {string=} arabic_caption
+ * @property {string=} coptic_title
+ * @property {string=} coptic_caption
+ * @property {string=} caption_class
+ * @property {string=} table_class
+ * @property {string=} tableClass
+ * @property {string=} caption_display
+ * @property {TableRow[]=} rows
+ * @property {{ rows: TableRow[] }[]=} tbodies
+ * @property {string=} explanation_button
+ * @property {string=} image_button
+ * @property {string=} audio_file
+ */
+
+/**
+ * @typedef {Object} RepeatedPrayerTable
+ * @property {string} title
+ * @property {string=} english_caption
+ * @property {string=} coptic_caption
+ * @property {string=} arabic_caption
+ * @property {string=} caption_class
+ * @property {boolean=} nonTraditionalPascha
+ * @property {string=} class
+ * @property {TableRow[]} rows
+ */
+
+/**
+ * @param {string} source
+ * @param {string} category
+ */
 export function getRepeatedPrayers(source, category) {
   // Mapping the sources to their corresponding data
   const repeatedPrayersSources = {
@@ -33,6 +98,9 @@ export function getRepeatedPrayers(source, category) {
   return categoryData.tables;
 }
 
+/**
+ * @param {{ label: string; checked?: boolean; value?: string }[]} onePageSettings
+ */
 export function getExpositionOnePageSettings(onePageSettings) {
   // Find the checked value of "Exposition Responses"
   const expositionCheckedValue = onePageSettings.find(
@@ -70,6 +138,10 @@ export function getExpositionOnePageSettings(onePageSettings) {
 }
 
 
+/**
+ * @param {string} template
+ * @param {TemplateVars} variables
+ */
 export function processTemplate(template, variables) {
   if (typeof template !== "string") return template;
 
@@ -97,6 +169,13 @@ export function processTemplate(template, variables) {
   });
 }
 
+/**
+ * @param {any} table
+ * @param {number} tableIdx
+ * @param {TemplateVars} variables
+ * @param {string} tableClass
+ * @param {boolean} paschalReadingsFull
+ */
 export function renderRepeatedPrayer(table, tableIdx, variables, tableClass, paschalReadingsFull) {
   if (table.nonTraditionalPascha && !paschalReadingsFull) {
     return ``;
@@ -149,6 +228,14 @@ export function renderRepeatedPrayer(table, tableIdx, variables, tableClass, pas
 }
 
 // Helper: Render a single table
+/**
+ * @param {RepeatedPrayerTable} table
+ * @param {number} tableIdx
+ * @param {string} tableClass
+ * @param {boolean} paschalReadingsFull
+ * @param {TemplateVars} variables
+ * @param {(row: TableRow) => boolean} [filterRows]
+ */
 export function renderTable(
   table,
   tableIdx,
@@ -265,6 +352,12 @@ export function renderTable(
             `;
 }
 
+/**
+ * @param {HtmlTable} table
+ * @param {number} tableIdx
+ * @param {string} [tableClass]
+ * @param {TemplateVars} [variables]
+ */
 export function renderSongTables(table, tableIdx, tableClass = "", variables = {}) {
   const songTitle = table.english_title || `Song ${tableIdx + 1}`;
   const captionClass = table.caption_class || "";
@@ -346,6 +439,13 @@ export function renderSongTables(table, tableIdx, tableClass = "", variables = {
   `;
 }
 
+/**
+ * @param {HtmlTable} table
+ * @param {number} tableIdx
+ * @param {string} tableClass
+ * @param {string} tbodyClass
+ * @param {TemplateVars} [variables]
+ */
 export function renderHtmlTable(table, tableIdx, tableClass, tbodyClass, variables = {}) {
   const enTitle = table.english_title || `Song ${tableIdx + 1}`;
   const captionClass = table.caption_class || "";
@@ -374,23 +474,23 @@ export function renderHtmlTable(table, tableIdx, tableClass, tbodyClass, variabl
   return `
     <table id="table_${tableIdx}" title="${processTemplate(enTitle, variables)}" class="${tableClass}">
       ${
-        table.english_title
+        table.english_title || table.english_caption
           ? `
         <caption class="caption ${captionClass}" id="caption_table_${tableIdx}" ${captionDisplayStyle}>
-            ${processTemplate(table.english_title, variables)}
+            ${processTemplate(table.english_title || table.english_caption, variables)}
             
             ${
-              table.arabic_title
+              table.arabic_title || table.arabic_caption
                 ? `<span class="arabic-caption">${processTemplate(
-                    table.arabic_title,
+                    table.arabic_title || table.arabic_caption,
                     variables
                   )}</span>`
                 : ""
             }
             ${
-              table.coptic_title
+              table.coptic_title || table.coptic_caption
                 ? `<span class="coptic-caption">${processTemplate(
-                    table.coptic_title,
+                    table.coptic_title || table.coptic_caption,
                     variables
                   )}</span>`
                 : ""
@@ -486,3 +586,118 @@ export function renderHtmlTable(table, tableIdx, tableClass, tbodyClass, variabl
     </table>
   `;
 }
+
+
+export function resolveRepeatedPrauersData(data, repeatedPrayersData) {
+    if (!Array.isArray(data)) return [];
+    if (!Array.isArray(repeatedPrayersData)) return [];
+
+    return data.flatMap((item) => {
+        if (item && item.category && item.repeated_prayer_title && item.source && item.source === "Annual") {
+            const category = item.category;
+            const repeated_prayer_title = item.repeated_prayer_title;
+
+            const categoryEntry = repeatedPrayersData.find((entry) => entry.category === category);
+            if (!categoryEntry || !Array.isArray(categoryEntry.tables)) {
+                console.warn(`Repeated prayer category not found or invalid: ${category}`);
+                return item;
+            }
+
+            const replacements = categoryEntry.tables.filter(
+                (table) => table.title === repeated_prayer_title
+            );
+            if (!replacements.length) {
+                console.warn(`Repeated prayer table not found for category "${category}" and title "${repeated_prayer_title}"`);
+                return item;
+            }
+            return replacements;
+        }
+        return item;
+    });
+}
+
+export function resolveSeasonalPraisesData(data, seasons, dayOfTheWeek, adamWatos, seasonalPraisesData) {
+    if (!Array.isArray(data)) return [];
+
+    const hasValue = (value) => value !== undefined && value !== null && value !== '';
+    const normalizeToArray = (value) => Array.isArray(value) ? value : [value];
+    const seasonsMatch = (requestedSeasons, entrySeasons) => {
+        if (!hasValue(entrySeasons)) return true; // entry applies to all seasons
+        if (!hasValue(requestedSeasons)) return true; // no filter provided
+        const requested = normalizeToArray(requestedSeasons);
+        const entry = normalizeToArray(entrySeasons);
+        return entry.some((s) => requested.includes(s));
+    };
+
+    const dayOfTheWeekMatch = (currentDayOfTheWeek, expectedDayOfTheWeek) => {
+        if (!hasValue(expectedDayOfTheWeek)) return true;
+        return currentDayOfTheWeek === expectedDayOfTheWeek;
+    };
+
+    const adamWatosMatch = (currentAdamWatos, expectedAdamWatos) => {
+        if (!hasValue(expectedAdamWatos)) return true;
+        return currentAdamWatos === expectedAdamWatos;
+    }
+
+    return data.flatMap((item) => {
+        if (item && item.seasonalPraises && item.section_title) {
+            // First make sure this placeholder itself applies to the current day.
+            if (!item.postFirstCanticleNonSunday || dayOfTheWeek === 'Sunday') {
+                
+                if (item.dayOfTheWeek && !dayOfTheWeekMatch(dayOfTheWeek, item.dayOfTheWeek)) {
+                    return [];
+                }
+             }
+
+            const placement = item.section_title;
+            const replacements = seasonalPraisesData.filter((entry) => {
+                const placementMatch = Array.isArray(entry.placement) && entry.placement.includes(placement);
+                const seasonMatch = seasonsMatch(seasons, entry.season);
+                // Entries may optionally specify a day-of-week as well.
+                const dayMatch = dayOfTheWeekMatch(dayOfTheWeek, entry.dayOfTheWeek);
+                const adamWatosMatchResult = adamWatosMatch(adamWatos, entry.adamWatos);
+                return placementMatch && seasonMatch && dayMatch && adamWatosMatchResult;
+            });
+            return replacements;
+        }
+        return item;
+    });
+}
+
+export function resolveConditionalTables(data, { aktonkAki, seasons }) {
+    if (!Array.isArray(data)) return [];
+
+    const hasValue = (value) => value !== undefined && value !== null && value !== '';
+    const normalizeToArray = (value) => Array.isArray(value) ? value : [value];
+
+    const aktonkAkiEnglish = aktonkAki?.english;
+    const selectedSeasons = hasValue(seasons) ? normalizeToArray(seasons) : [];
+
+    return data.filter((item) => {
+        if (!item || typeof item !== 'object') return true;
+
+        // Include only if aktonkAki matches when specified on the item.
+        if (hasValue(item.aktonkAki)) {
+            if (!hasValue(aktonkAkiEnglish) || item.aktonkAki !== aktonkAkiEnglish) {
+                return false;
+            }
+        }
+
+        // Exclude kiahk=false items when the current seasons include Kiahk.
+        if (item.kiahk === false) {
+            if (selectedSeasons.includes('Kiahk')) return false;
+        }
+
+        // Respect explicit season targeting on the item.
+        if (hasValue(item.season)) {
+            const itemSeasons = normalizeToArray(item.season);
+            const matchesSeason = itemSeasons.some((s) => selectedSeasons.includes(s));
+            if (!matchesSeason) return false;
+        }
+
+        return true;
+    });
+}
+
+
+

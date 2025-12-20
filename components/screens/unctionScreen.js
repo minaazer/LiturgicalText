@@ -1,6 +1,6 @@
 /** @format */
 
-import React, { useRef, useState, useContext, useMemo } from "react";
+import React, { useRef, useState, useContext } from "react";
 import RightMenuDrawer from "../navigation/BookDrawer";
 import { useDynamicStyles } from "../css/cssStyles";
 import { htmlRenderScript } from "../functions/jsScripts";
@@ -9,40 +9,35 @@ import {
   handleDrawerItemPress,
 } from "../functions/renderFunctions";
 import { renderHtml } from "../../data/renderHtml.js";
-import glorificationData from "../../data/jsons/glorification.json";
 import { iconVariables } from "../../data/repeatedPrayers/iconVariables";
 import SettingsContext from "../../settings/settingsContext";
+import unctionData from "../../data/jsons/unctionOfTheSick.json";
 
-const GlorificationScreen = () => {
+
+const UnctionScreen = () => {
   const [drawerItems, setDrawerItems] = useState([]);
   const [currentTable, setCurrentTable] = useState("");
   const [settings] = useContext(SettingsContext);
   const webviewRef = useRef(null);
+  const aktonkAki = settings.selectedDateProperties.aktonkAki;
 
   const dynamicStyles = useDynamicStyles(webviewRef);
-  const pageTitle = "Glorification";
-  const jsonData = glorificationData;
-  const variables = {
-        iconVariables
-    };
+  const pageTitle = "Unction of the Sick";
+  const jsonData = unctionData;
+  const variables = { ...iconVariables, aktonkAki };
   
-    // Check if the glorification section should be rendered in one page
-    const onePageSettings = settings.onePage.find(
-        (item) => item.value === "Glorification"
-    )?.checked;
-    const tableClass =  "";
-    const tbodyClass = onePageSettings ? 'scaling-container' : "";
-  const body = useMemo(() => renderHtml(
+
+  const body = renderHtml(
     jsonData,
     pageTitle,
-    tableClass,
-    tbodyClass,
+    "",
+    "",
     variables
-  ), [jsonData, pageTitle, tableClass, tbodyClass, variables]);
+  );
 
-  // Generate HTML dynamically (memoized so drawer open/close doesn't remount WebView)
+  // Generate HTML dynamically
   const script = htmlRenderScript;
-  const html = useMemo(() => getHtml(dynamicStyles, body, script), [dynamicStyles, body, script]);
+  const html = getHtml(dynamicStyles, body, script);
 
   return (
     <RightMenuDrawer
@@ -57,4 +52,4 @@ const GlorificationScreen = () => {
   );
 };
 
-export default GlorificationScreen;
+export default UnctionScreen;

@@ -1,4 +1,4 @@
-import { useContext, useState, useEffect } from 'react';
+import { useContext, useState, useEffect, useMemo } from 'react';
 import { Dimensions } from 'react-native';
 import SettingsContext from '../../settings/settingsContext';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -44,7 +44,7 @@ export const useDynamicStyles = (webviewRef) => {
         }
     }, [settings.fontSize, settings.languages]);
 
-    const cssStyles = `
+    const cssStyles = useMemo(() => `
 * {
     -webkit-touch-callout: none; /* iOS Safari */
       -webkit-user-select: none; /* Safari */
@@ -582,7 +582,20 @@ td.column-1-1 {
     100% { transform: rotate(360deg); }
 }
 
-`;
+`, [
+        insets.left,
+        insets.right,
+        width,
+        height,
+        calculatedWidth,
+        columnPadding,
+        fontSize,
+        titleFontSize,
+        toggleFontSize,
+        linkFontSize,
+        visibleLangues,
+        settings.languages,
+    ]);
 
     return cssStyles;
 };

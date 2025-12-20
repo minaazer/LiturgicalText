@@ -99,6 +99,10 @@ const changelog = {
   "1.0.94": [
     "Expanded font size range till size 12",
   ],
+  "1.0.95": [
+    "Fixed 'I praise the virgin' refrain order in Kiahk praises",
+    "Improved performance and stability"
+  ]
 };
 
 export default changelog;

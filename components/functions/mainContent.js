@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { View, ActivityIndicator, Dimensions, Platform } from 'react-native';
 import { presentationStyles } from '../css/presentationStyles';
 import { WebView } from 'react-native-webview';
 import { handleMessage, handleNext, handlePrevious, handleDrawerItemPress } from './renderFunctions'; // Assuming this is imported
 import { useNavigation, useIsFocused } from '@react-navigation/native';
+import { useDrawerStatus } from '@react-navigation/drawer';
 import localStorage from './localStorage';
 import {ExplanationPopup} from '../reusableComponents/explanationPopup';
 import explanationsData from '../../data/explanations.json'; // Import the data
@@ -40,6 +41,11 @@ export const MainContent = ({ html, webviewRef, setDrawerItems, setCurrentTable,
     const screenWidth = Dimensions.get('window').width;
 
     const isFocused = useIsFocused();
+    const drawerStatus = useDrawerStatus();
+    const drawerIsOpen = drawerStatus === 'open';
+    const wasDrawerOpen = useRef(false);
+    const lastDrawerState = useRef(drawerIsOpen);
+    const isInitialMount = useRef(true);
 
     const handleTouchEnd = (touchX) => {
             if (touchX < screenWidth / 2) {
@@ -52,36 +58,59 @@ export const MainContent = ({ html, webviewRef, setDrawerItems, setCurrentTable,
 
 useEffect(() => {
     let timeout; // Declare a timeout variable for clean-up
+    const isActive = isFocused || drawerIsOpen;
 
-    if (isFocused) {
+    // If the drawer is open, don't run refresh logic or show spinners
+    if (drawerIsOpen) {
+        wasDrawerOpen.current = true;
+        return () => {
+            if (timeout) clearTimeout(timeout);
+        };
+    }
+
+    // If we just closed the drawer while still focused on this screen, skip refresh
+    if (wasDrawerOpen.current && isFocused) {
+        wasDrawerOpen.current = false;
+        return () => {
+            if (timeout) clearTimeout(timeout);
+        };
+    }
+
+    if (isActive) {
+        const lifecycleState = isInitialMount.current ? 'mounting-from-scratch' : 'premounted';
+        const screenName = fileKey || 'unknown';
+        console.log(`[MainContent] focus active | screen: ${screenName} | lifecycle: ${lifecycleState} | currentTable: ${currentTable || 'none'}`);
+
+        // Only show spinner on true initial mount or when no table is selected
+        const shouldShowSpinner = isInitialMount.current || !currentTable;
+
         if (hasLeftScreen && currentTable) {
-            setRefreshing(true); // Set refreshing state
+            if (shouldShowSpinner) setRefreshing(true);
             timeout = setTimeout(() => {
                 webviewRef.current.injectJavaScript(`paginateTables();`);
                 handleDrawerItemPress(currentTable, webviewRef);
                 setHasLeftScreen(false); // Reset the flag
-                setRefreshing(false); // Reset refreshing state
+                if (shouldShowSpinner) setRefreshing(false); // Reset refreshing state
             }, 1000);
 
+        } else if (currentTable) {
+            if (shouldShowSpinner) setRefreshing(true);
+            timeout = setTimeout(() => {
+                handleDrawerItemPress(currentTable, webviewRef);
+                if (shouldShowSpinner) setRefreshing(false); // Reset refreshing state
+            }, 1000);
         } else {
-            if (currentTable) {
-                setRefreshing(true); // Set refreshing state
+            if (shouldShowSpinner) setRefreshing(true);
+            if (!loading) {
                 timeout = setTimeout(() => {
-                    handleDrawerItemPress(currentTable, webviewRef);
-                    setRefreshing(false); // Reset refreshing state
+                    webviewRef.current.injectJavaScript(`paginateTables();`);
+                    handleDrawerItemPress(firstTable, webviewRef);
+                    if (shouldShowSpinner) setRefreshing(false); // Reset refreshing state
                 }, 1000);
-            } else {
-                setRefreshing(true); // Set refreshing state
-                if (!loading) {
-                    timeout = setTimeout(() => {
-                        webviewRef.current.injectJavaScript(`paginateTables();`);
-                        handleDrawerItemPress(firstTable, webviewRef);
-                        setRefreshing(false); // Reset refreshing state
-                    }, 1000);
-                }
             }
         }
-    } else {
+        isInitialMount.current = false;
+    } else if (!drawerIsOpen) {
         setCurrentTable(currentTable);
         setHasLeftScreen(true);
     }
@@ -91,7 +120,30 @@ useEffect(() => {
         if (timeout) clearTimeout(timeout);
     };
 
-}, [isFocused, loading]);
+}, [isFocused, drawerIsOpen, loading]);
+
+// Signal the WebView to suspend pagination during drawer gestures to avoid flicker
+useEffect(() => {
+    if (!webviewRef.current) return;
+
+    if (drawerIsOpen) {
+        webviewRef.current.injectJavaScript(`window._suspendPaginate = true;`);
+    } else if (lastDrawerState.current && !drawerIsOpen) {
+        // Drawer just closed: re-enable and repaginate only if height changed
+        webviewRef.current.injectJavaScript(`
+            window._suspendPaginate = false;
+            if (typeof window._lastPaginateHeight === 'undefined') {
+                window._lastPaginateHeight = window.innerHeight;
+            }
+            if (Math.abs(window.innerHeight - window._lastPaginateHeight) > 1) {
+                paginateTables();
+                window._lastPaginateHeight = window.innerHeight;
+            }
+        `);
+    }
+
+    lastDrawerState.current = drawerIsOpen;
+}, [drawerIsOpen, webviewRef]);
 
     // Load saved table states (visible or collapsed) from local storage
     useEffect(() => {

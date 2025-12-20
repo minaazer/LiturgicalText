@@ -26,13 +26,13 @@ import HolyWeek from "../screens/holyWeek";
 import HolyWeekDayScreen from "../screens/holyWeek/hwDayScreen";
 import HolyWeekHourScreen from "../screens/holyWeek/hwHourScreen";
 import Kiahk from "../screens/kiahk";
-import Psalmody from "../screens/psalmody";
 import KiahkDoxologies from "../screens/kiahkDoxologies";
 import Doxologies from "../screens/doxologies";
 import SeasonalDoxologies from "../screens/seasonalDoxologies";
-import Glorification from "../screens/glorification";
 import GlorificationScreen from "../screens/glorificationScreen";
 import PsalmodyScreen from "../screens/psalmodyScreen";
+import MatrimonyScreen from "../screens/matrimonyScreen";
+import UnctionScreen from "../screens/unctionScreen";
 import Songs from "../screens/songs";
 import SongsScreen from "../screens/songs/songsScreen";
 import HolyWeekData from "../../data/holyWeek/holyWeek.json";
@@ -151,69 +151,71 @@ const StaticScreens = [
       },
     ],
   },
-];
+  {
+    screenName: "Matrimony",
+    label: "Holy Matrimony",
+    component: MatrimonyScreen,
+  },
+  {
+    screenName: "Unction",
+    label: "Unction of the Sick",
+    component: UnctionScreen,
+  },
 
-const RouteConfig = [...StaticScreens, ...transformHolyWeekData(HolyWeekData), ...transformSongsData(SongsData)];
+];
 
 const Drawer = createDrawerNavigator();
 
-const LeftDrawerContent = ({ navigation, ...props }) => {
-  const drawerItemsByRoute = RouteConfig;
+const DrawerButton = React.memo(({ label, routeName, navigation }) => {
+  const handlePress = React.useCallback(() => {
+    console.log(`Navigating to: ${routeName}`);
+    navigation.closeDrawer();
+    navigation.navigate("MainStack", { screen: routeName });
+  }, [navigation, routeName]);
+
+  return (
+    <TouchableWithoutFeedback onPress={handlePress}>
+      <View style={presentationStyles.drawerTouchableOpacity}>
+        <Text style={presentationStyles.drawerLabel}>{label}</Text>
+      </View>
+    </TouchableWithoutFeedback>
+  );
+});
+
+const findParentAndSiblings = (items, targetRoute, parent = null, grandParent = null) => {
+  for (const item of items) {
+    if (item.screenName === targetRoute) {
+      const parentItem = parent ? { ...parent, type: "parent" } : null;
+      const grandParentItem = grandParent ? { ...grandParent, type: "parent" } : null;
+      const siblings = items
+        .filter(
+          (sibling) =>
+            sibling.screenName !== targetRoute &&
+            sibling !== parent &&
+            sibling !== grandParent
+        )
+        .map((sibling) => ({ ...sibling, type: "child" }));
+      return [grandParentItem, parentItem, ...siblings].filter(Boolean);
+    } else if (Array.isArray(item.children)) {
+      const found = findParentAndSiblings(item.children, targetRoute, item, parent);
+      if (found) {
+        return found;
+      }
+    }
+  }
+  return null;
+};
+
+const LeftDrawerContent = React.memo(({ navigation, routeConfig, ...props }) => {
+  const drawerItemsByRoute = routeConfig;
   const state = useNavigationState((state) => state);
   const currentState = state?.routes[state.index].state;
   const currentRoute = currentState?.routes[currentState.index]?.name || "Home";
 
-  const DrawerButton = ({ label, routeName, navigation }) => {
-    return (
-      <TouchableWithoutFeedback
-        onPress={() => {
-          console.log(`Navigating to: ${routeName}`);
-          navigation.closeDrawer();
-          navigation.navigate("MainStack", { screen: routeName });
-        }}
-      >
-        <View style={presentationStyles.drawerTouchableOpacity}>
-          <Text style={presentationStyles.drawerLabel}>{label}</Text>
-        </View>
-      </TouchableWithoutFeedback>
-    );
-  };
-
-  const findParentAndSiblings = (
-    items,
-    targetRoute,
-    parent = null,
-    grandParent = null
-  ) => {
-    for (const item of items) {
-      if (item.screenName === targetRoute) {
-        const parentItem = parent ? { ...parent, type: "parent" } : null;
-        const grandParentItem = grandParent
-          ? { ...grandParent, type: "parent" }
-          : null;
-        const siblings = items
-          .filter(
-            (sibling) =>
-              sibling.screenName !== targetRoute &&
-              sibling !== parent &&
-              sibling !== grandParent
-          )
-          .map((sibling) => ({ ...sibling, type: "child" }));
-        return [grandParentItem, parentItem, ...siblings].filter(Boolean);
-      } else if (Array.isArray(item.children)) {
-        const found = findParentAndSiblings(
-          item.children,
-          targetRoute,
-          item,
-          parent
-        );
-        if (found) {
-          return found;
-        }
-      }
-    }
-    return null;
-  };
+  const dynamicDrawerItems = React.useMemo(
+    () => drawerItemsByRoute && findParentAndSiblings(drawerItemsByRoute, currentRoute),
+    [drawerItemsByRoute, currentRoute]
+  );
 
   const renderDrawerItems = (items) => {
     const renderedItems = items.map((item, index) => (
@@ -238,10 +240,6 @@ const LeftDrawerContent = ({ navigation, ...props }) => {
 
     return renderedItems;
   };
-
-  const dynamicDrawerItems =
-    drawerItemsByRoute &&
-    findParentAndSiblings(drawerItemsByRoute, currentRoute);
 
   const [settings] = React.useContext(SettingsContext);
   const developerMode = settings.developerMode;
@@ -308,7 +306,7 @@ const LeftDrawerContent = ({ navigation, ...props }) => {
       </ScrollView>
     </TouchableWithoutFeedback>
   );
-};
+});
 
 const createStackScreens = (route) => {
   if (!route || !route.screenName) {
@@ -341,7 +339,7 @@ const createStackScreens = (route) => {
   }
 };
 
-const MainStackNavigator = () => {
+const MainStackNavigator = ({ routeConfig }) => {
   const Stack = createStackNavigator();
   return (
     <Stack.Navigator
@@ -373,12 +371,17 @@ const MainStackNavigator = () => {
         component={AboutScreen}
         options={{ headerShown: false }}
       />
-      {RouteConfig.map((route) => createStackScreens(route))}
+      {routeConfig.map((route) => createStackScreens(route))}
     </Stack.Navigator>
   );
 };
 
 const RootNavigation = () => {
+  const routeConfig = React.useMemo(
+    () => [...StaticScreens, ...transformHolyWeekData(HolyWeekData), ...transformSongsData(SongsData)],
+    []
+  );
+
   return (
     <Drawer.Navigator
       initialRouteName="MainStack"
@@ -388,16 +391,20 @@ const RootNavigation = () => {
         drawerType: "front",
         drawerPosition: "left", // Explicitly set to left
         overlayColor: "rgba(0,0,0,0.5)",
+        unmountOnBlur: false,
+        freezeOnBlur: true,
       }}
+      detachInactiveScreens={false}
       drawerContent={(props) => (
-        <LeftDrawerContent {...props} />
+        <LeftDrawerContent {...props} routeConfig={routeConfig} />
       )}
     >
       <Drawer.Screen
         name="MainStack"
-        component={MainStackNavigator}
         options={{ headerShown: false, title: "Home" }}
-      />
+      >
+        {() => <MainStackNavigator routeConfig={routeConfig} />}
+      </Drawer.Screen>
     </Drawer.Navigator>
   );
 };

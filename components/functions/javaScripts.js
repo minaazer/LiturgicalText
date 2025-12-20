@@ -30,6 +30,30 @@ async function initialize() {
 
             listenToButtonClicks();
             listenToBookNavigationButtons();
+            window._lastPaginateHeight = window.innerHeight;
+
+            // Debounced re-pagination on meaningful height changes only (helps avoid flicker on drawer slide)
+            if (!window._debouncedPaginateResize) {
+                let resizeTimeout = null;
+                let lastHeight = window.innerHeight;
+                window._debouncedPaginateResize = () => {
+                    if (resizeTimeout) {
+                        clearTimeout(resizeTimeout);
+                    }
+                    resizeTimeout = setTimeout(() => {
+                        if (window._suspendPaginate) {
+                            return;
+                        }
+                        const newHeight = window.innerHeight;
+                        if (Math.abs(newHeight - lastHeight) > 1) { // ignore width-only changes and sub-pixel jitter
+                            lastHeight = newHeight;
+                            window._lastPaginateHeight = newHeight;
+                            paginateTables();
+                        }
+                    }, 150); // wait for drawer animation/resize to settle
+                };
+                window.addEventListener("resize", window._debouncedPaginateResize);
+            }
 
 
         }
@@ -321,6 +345,25 @@ const extractTableTitlesAndIds =
                 const caption = table.querySelector('caption');
                 const nonTraditionalPascha = table.getAttribute('nonTraditionalPascha') || false;
                 const tableClass = table.getAttribute('class') || '';
+                const tableId = table.getAttribute('id') || 'generated-id-' + index;
+                table.id = tableId; // Ensure every table has an ID
+
+                // Collect metadata for caching
+                const tbodiesMeta = Array.from(table.querySelectorAll('tbody')).map((tb) => ({
+                    id: tb.id,
+                    desiredFontSize: window.getComputedStyle(tb, null).getPropertyValue('font-size'),
+                }));
+                if (!window.tableMetadata) {
+                    window.tableMetadata = {};
+                }
+                window.tableMetadata[tableId] = {
+                    captionId: caption ? caption.id : null,
+                    hasCaption: !!caption,
+                    tbodies: tbodiesMeta,
+                    tableClass,
+                    nonTraditionalPascha,
+                };
+
                 if (tableClass.includes('notIndexed')) {
                     return; // Skip this table
                 }
@@ -344,16 +387,13 @@ const extractTableTitlesAndIds =
                     });
                 }
 
-                const id = table.getAttribute('id') || 'generated-id-' + index;
-                table.id = id; // Ensure every table has an ID
-
                 // Only push if there is a title
                 if (
                     title.english.trim() !== '' ||
                     title.coptic.trim() !== '' ||
                     title.arabic.trim() !== ''
                 ) {
-                    titlesAndIds.push({ title, id, nonTraditionalPascha });
+                    titlesAndIds.push({ title, id: tableId, nonTraditionalPascha });
                 }
             });
 
@@ -437,9 +477,11 @@ function sendMessage(message, retryCount = 5) {
 // Pagination
 const paginateTables =
 `function paginateTables() {
+    if (paginateTables._pending) {
+      return paginateTables._pending;
+    }
 
-
-    return new Promise((resolve, reject) => {
+    paginateTables._pending = new Promise((resolve, reject) => {
         try {
 
   const viewportHeight = window.innerHeight - 2;
@@ -452,6 +494,42 @@ const paginateTables =
   let pagesPerRow = [];
   pagesPerRow.push(1);
   let tableId = "table_0";
+  paginateTables._fontSizeCache = paginateTables._fontSizeCache || {};
+  paginateTables._paginationCache = paginateTables._paginationCache || {};
+  paginateTables.clearFontCache = function() {
+    paginateTables._fontSizeCache = {};
+  };
+  paginateTables.clearPaginationCache = function() {
+    paginateTables._paginationCache = {};
+  };
+
+  // Build a layout signature to reuse pagination when layout is unchanged
+  const tables = Array.from(document.querySelectorAll('table'));
+  const layoutSignature = tables.map((table, index) => {
+    const tid = table.getAttribute('id') || 'generated-id-' + index;
+    const meta = (window.tableMetadata && window.tableMetadata[tid]) || null;
+    const tbodiesMeta = meta
+      ? meta.tbodies
+      : Array.from(table.querySelectorAll('tbody')).map((tb) => ({
+          id: tb.id,
+          desiredFontSize: window.getComputedStyle(tb, null).getPropertyValue('font-size'),
+        }));
+    const tbodySig = tbodiesMeta.map((tb) => tb.id + ":" + tb.desiredFontSize).join(',');
+    const captionSig = meta ? (meta.hasCaption ? '1' : '0') : (table.querySelector('caption') ? '1' : '0');
+    const classSig = table.getAttribute('class') || '';
+    return tid + "#" + classSig + "#" + captionSig + "#" + tbodySig;
+  }).join('||');
+
+  const paginationCacheKey = viewportHeight + "|" + layoutSignature;
+  const cachedPagination = paginateTables._paginationCache[paginationCacheKey];
+  if (cachedPagination) {
+    sendMessage(JSON.stringify({ type: 'PAGINATION_DATA', data: cachedPagination }));
+    if (cachedPagination.length > 0 && cachedPagination[0].firstVisibleElementId) {
+      adjustOverlay(cachedPagination[0].firstVisibleElementId);
+    }
+    resolve(cachedPagination);
+    return;
+  }
 
   // Query all sections in the document
   document.querySelectorAll(".section").forEach((section) => {
@@ -577,11 +655,11 @@ const paginateTables =
 
           ////// check if table is class = onePage
           const tableClass = table.getAttribute("class");
+          const isOnePage = table.classList.contains("onePage");
           if (table.classList.contains('table-invisible')) {
             debugMessage('table-invisible class found');
           }
-
-          if (tableClass && tableClass === "onePage" && (table.clientHeight + currentPageHeight) >= viewportHeight) {
+          if (isOnePage && (table.clientHeight + currentPageHeight) >= viewportHeight) {
             // check if current page height play table height > viewport height
             if (currentPage.length) {
               currentPageType = document.getElementById(currentPage[0]).tagName.toLowerCase();
@@ -654,7 +732,7 @@ const paginateTables =
                   firstVisibleElementId: tableId,
                 });
               }
-            }
+          }
             currentPage = [caption.id];
             currentPageHeight = captionHeight; // Start the new page with the caption's height
             pagesPerRow.push(1);
@@ -663,63 +741,129 @@ const paginateTables =
 /////// Check if the table has a tbody with scaling-container class
           if (table.querySelector("tbody.scaling-container")) {
           //sendMessage(JSON.stringify({type: 'debug', data: 'scaling container'}));
-            table.querySelectorAll("tbody").forEach((tbody) => {
-              //sendMessage(JSON.stringify({type: 'debug', data: 'scaling container tbody: ' + tbody.id}));
-              let  tbodyHeight = tbody.clientHeight;
-              let tbodyIdComponents = tbody.id.split("_");
-              let tbodyId = tbodyIdComponents[3];
+            const captionHeightCache = new Map();
+            const tbodyHeightCache = new Map();
+            const meta = (window.tableMetadata && window.tableMetadata[tableId]) || null;
+            const tbodies = meta
+              ? meta.tbodies.map((tb) => document.getElementById(tb.id)).filter(Boolean)
+              : Array.from(table.querySelectorAll("tbody"));
+            const tbodySignature = meta
+              ? meta.tbodies.map((tb) => tb.id).join("|")
+              : tbodies.map((tb) => tb.id).join("|");
+            const desiredSignature = meta
+              ? meta.tbodies.map((tb) => tb.desiredFontSize).join("|")
+              : tbodies
+                .map((tb) => window.getComputedStyle(tb, null).getPropertyValue("font-size"))
+                .join("|");
+            const cacheKey = tableId + "|" + viewportHeight + "|" + tbodySignature + "|" + desiredSignature;
+            const cachedSizes = paginateTables._fontSizeCache[cacheKey];
+            const fontSizesForCache = {};
+            const shouldUseCache = !!cachedSizes;
 
+            // Apply cached font sizes upfront if available to avoid recalculating
+            if (shouldUseCache) {
+              tbodies.forEach((tbody, index) => {
+                const cachedSize = cachedSizes.fontSizes ? cachedSizes.fontSizes[tbody.id] : null;
+                if (cachedSize) {
+                  tbody.style.fontSize = cachedSize;
+                  if (index === 0 && caption && cachedSizes.captionSize) {
+                    caption.style.fontSize = cachedSizes.captionSize;
+                  }
+                }
+              });
+            }
 
-            /// Adjust tbody height
-              function adjustRowFontSize(minFontSize, maxFontSize, threshold) {
-                //sendMessage(JSON.stringify({type: 'debug', data: 'in adjustRowFontSize' + tbody.id}));
-                if (maxFontSize - minFontSize <= threshold) {
-                  return;
+            tbodies.forEach((tbody, index) => {
+              let captionHeightLocal = captionHeightCache.has(tableId)
+                ? captionHeightCache.get(tableId)
+                : (caption ? (caption.clientHeight || 0) : 0);
+              let tbodyHeight = tbodyHeightCache.has(tbody.id)
+                ? tbodyHeightCache.get(tbody.id)
+                : tbody.clientHeight;
+              const tbodyIdComponents = tbody.id.split("_");
+              const tbodyId = tbodyIdComponents[3];
+              const isFirstBody = tbodyId == 0 && caption;
+
+              // Early exit if the desired CSS size already fits
+              const initialHeight = isFirstBody ? tbodyHeight + captionHeightLocal : tbodyHeight;
+
+              // Adjust tbody height using an iterative binary search
+              function adjustRowFontSize(maxFontSize) {
+                const minFontSize = 1; // Smallest readable font size
+                let low = minFontSize;
+                let high = maxFontSize;
+                let lastGoodSize = minFontSize;
+                const maxIterations = 8; // Bounded iterations to limit reflows
+
+                for (let i = 0; i < maxIterations; i++) {
+                  if (high - low <= 0.5) {
+                    break;
+                  }
+                  const mid = (low + high) / 2;
+                  const newFontSize = mid + "px";
+
+                  if (isFirstBody) {
+                    caption.style.fontSize = newFontSize;
+                  }
+                  tbody.style.fontSize = newFontSize;
+
+                  tbodyHeight = tbody.clientHeight;
+                  if (caption) {
+                    captionHeightLocal = caption.clientHeight ? caption.clientHeight : 0;
+                    captionHeightCache.set(tableId, captionHeightLocal);
+                  }
+                  const tbodyCurrentHeight = isFirstBody ? tbodyHeight + (captionHeightLocal || 0) : tbodyHeight;
+
+                  if (tbodyCurrentHeight > viewportHeight) {
+                    high = mid;
+                  } else {
+                    lastGoodSize = mid;
+                    low = mid;
+                  }
                 }
-              
-                let midFontSize = (minFontSize + maxFontSize) / 2;
-                let newFontSize = midFontSize + 'px';
-              
-                // Change the font size of tbody and possibly caption
-                if (tbodyId == 0 && caption) {
-                  caption.style.fontSize = newFontSize;
+
+                // Apply the largest size that fit
+                const finalSize = lastGoodSize + "px";
+                if (isFirstBody) {
+                  caption.style.fontSize = finalSize;
                 }
-                tbody.style.fontSize = newFontSize;
-              
-                // Update heights
+                tbody.style.fontSize = finalSize;
+
+                // Final height measurements
                 tbodyHeight = tbody.clientHeight;
-                //sendMessage(JSON.stringify({type: 'debug', data: 'tbody height: ' + tbodyHeight}));
                 if (caption) {
-                  //sendMessage(JSON.stringify({type: 'debug', data: 'caption height: '}));
-                  captionHeight = caption.clientHeight ? caption.clientHeight : 0;
-                  //sendMessage(JSON.stringify({type: 'debug', data: 'caption height: ' + captionHeight}));
+                  captionHeightLocal = caption.clientHeight ? caption.clientHeight : 0;
+                  captionHeightCache.set(tableId, captionHeightLocal);
                 }
-                //sendMessage(JSON.stringify({type: 'debug', data: 'caption height: ' + captionHeight}));
-                let tbodyCurrentHeight = tbodyId == 0 ? tbodyHeight + captionHeight : tbodyHeight;
-                
-                //sendMessage(JSON.stringify({type: 'debug', data: 'tbodyCurrentHeight: ' + tbodyCurrentHeight}));
-                if (tbodyCurrentHeight >= viewportHeight) {
-                  //sendMessage(JSON.stringify({type: 'debug', data: 'in adjustRowFontSize >= viewportHeight' + tbody.id}));
-                  adjustRowFontSize(minFontSize, midFontSize, threshold);
-                } else {
-                 //sendMessage(JSON.stringify({type: 'debug', data: 'in adjustRowFontSize < viewportHeight' + tbody.id}));
-                  adjustRowFontSize(midFontSize, maxFontSize, threshold);
-                }
+                tbodyHeightCache.set(tbody.id, tbodyHeight);
+
+                return finalSize;
               }
-          
-              let minFontSize = 1; // Smallest readable font size
-              let maxFontSize = parseFloat(window.getComputedStyle(tbody, null).getPropertyValue('font-size')); // Get the font size of the first row
-              let threshold = 1;
 
+              const maxFontSize = parseFloat(window.getComputedStyle(tbody, null).getPropertyValue('font-size')); // Desired CSS size
+              const needsResize = initialHeight > viewportHeight && !(shouldUseCache && cachedSizes.fontSizes && cachedSizes.fontSizes[tbody.id]);
 
+              let appliedSize = shouldUseCache && cachedSizes.fontSizes ? cachedSizes.fontSizes[tbody.id] : null;
+              if (needsResize) {
+                appliedSize = adjustRowFontSize(maxFontSize);
+              }
 
-              adjustRowFontSize(minFontSize, maxFontSize, threshold);
-
-
+              // Refresh height values after potential resizing
               tbodyHeight = tbody.clientHeight;
-              if (tbodyId == 0 && caption) {
-                captionHeight = caption.clientHeight;
-                currentPageHeight = captionHeight;
+              tbodyHeightCache.set(tbody.id, tbodyHeight);
+              if (isFirstBody) {
+                captionHeightLocal = caption ? caption.clientHeight : 0;
+                captionHeightCache.set(tableId, captionHeightLocal);
+                currentPageHeight = captionHeightLocal;
+              }
+
+              // Track sizes for cache
+              if (!appliedSize) {
+                appliedSize = tbody.style.fontSize || (maxFontSize + "px");
+              }
+              fontSizesForCache[tbody.id] = appliedSize;
+              if (index === 0 && caption) {
+                fontSizesForCache._captionSize = caption.style.fontSize || appliedSize;
               }
 
               // Check if the tbody fits in the remaining space of the current page
@@ -744,6 +888,13 @@ const paginateTables =
 
 
 
+            // Populate cache after sizing
+            if (!shouldUseCache) {
+              paginateTables._fontSizeCache[cacheKey] = {
+                fontSizes: fontSizesForCache,
+                captionSize: fontSizesForCache._captionSize,
+              };
+            }
           } else {
            
 ///// Query all rows in the table
@@ -960,6 +1111,8 @@ const paginateTables =
       }
     }
   });
+  // Cache pagination result for reuse when layout is unchanged
+  paginateTables._paginationCache[paginationCacheKey] = yOffsetPages;
   sendMessage(JSON.stringify({ type: 'PAGINATION_DATA', data: yOffsetPages }));
 
   // Adjust overlay with the first visible element
@@ -975,6 +1128,11 @@ const paginateTables =
         }
     });
 
+    paginateTables._pending.finally(() => {
+      paginateTables._pending = null;
+    });
+
+    return paginateTables._pending;
 } `
 
 
@@ -1117,8 +1275,22 @@ const paginateTablesGlorification =
 // Overlay functions
 const adjustOverlay =
 `function adjustOverlay(elementId) {
+  // Early exit if nothing to do
+  if (!elementId && !window._lastOverlayElementId) {
+    return;
+  }
+
+  // Use last element if none provided
+  var targetId = elementId || window._lastOverlayElementId;
+  var element = document.getElementById(targetId);
+
+  // If target is the same and already hidden, bail out
+  if (window._lastOverlayElementId === targetId && element && element.style.visibility === 'hidden') {
+    return;
+  }
+
+  window._lastOverlayElementId = targetId;
   
-  var element = document.getElementById(elementId);
   // check if element is a caption
   if (element && element.classList.contains('caption')) {
     //find the table id
@@ -1144,6 +1316,10 @@ const adjustOverlay =
 
 const adjustOverlayGlorification =
 `function adjustOverlay() {
+  // If overlay already cleared for current scroll, skip
+  if (window._lastGlorificationOverlay && window._lastGlorificationOverlay.scrollY === window.scrollY) {
+    return;
+  }
   clearOverlays();
   var tbodys = Array.from(document.querySelectorAll('tbody[id^="table_"]'));
   var overlayVisible = false;
@@ -1274,7 +1450,10 @@ const adjustOverlayGlorification =
   if (!overlayVisible) {
       // If no partially visible tbody is found or the first visible tbody is longer than the viewport, hide the overlay
       clearOverlays();
+      window._lastGlorificationOverlay = { scrollY: window.scrollY };
+      return;
   }
+  window._lastGlorificationOverlay = { scrollY: window.scrollY };
 }`
 
 const setOverlays = 
@@ -1420,6 +1599,12 @@ const tableToggle =
         });
 
         setTimeout(() => {
+          if (paginateTables && typeof paginateTables.clearFontCache === 'function') {
+            paginateTables.clearFontCache();
+          }
+          if (paginateTables && typeof paginateTables.clearPaginationCache === 'function') {
+            paginateTables.clearPaginationCache();
+          }
           paginateTables();
           sendMessage(JSON.stringify({ type: 'TABLE_TOGGLE', data: tableId }));
           hideSpinner();
