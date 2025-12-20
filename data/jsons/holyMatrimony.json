@@ -68,660 +68,12 @@
     ]
   },
   {
-    "english_title": "The Procession",
-    "coptic_title": "",
-    "arabic_title": "الدورة",
-    "themes": [],
-    "tbodies": [
-      {
-        "rows": [
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p><i>The deacons lead the procession of the bridegroom &amp; the bride into the church while chanting the following hymn:</i></p>"
-              },
-              {
-                "coptic": "<p>- </p>"
-              },
-              {
-                "arabic": "<p>يقود الشمامسة الدورة العروسين داخل الكنيسة وهم يرتلون اللحن الآتي:</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>O King of peace, grant us Your peace, establish for us Your peace, and forgive us our sins.</p>"
-              },
-              {
-                "coptic": "<p>Ⲡ̀ⲟⲩⲣⲟ ⲛ̀ⲧⲉ ϯϩⲓⲣⲏⲛⲏ: ⲙⲟⲓ ⲛⲁⲛ ⲛ̀ⲧⲉⲕϩⲓⲣⲏⲛⲏ: ⲥⲉⲙⲛⲓ ⲛⲁⲛ ⲛ̀ⲧⲉⲕϩⲓⲣⲏⲛⲏ: ⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.</p>"
-              },
-              {
-                "arabic": "<p>يا ملك السلام، أعطنا سلامك، قرر لنا سلامك، وإغفر لنا خطايانا.</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>Disperse the enemies, of the Church, and fortify her that she, may not be shaken forever.</p>"
-              },
-              {
-                "coptic": "<p>Ϫⲱⲣ ⲉ̀ⲃⲟⲗ ⲛ̀ⲛⲓϫⲁϫⲓ: ⲛ̀ⲧⲉ Ϯⲉⲕⲕⲗⲏⲥⲓⲁ: ⲁ̀ⲣⲓⲥⲟⲃⲧ ⲉ̀ⲣⲟⲥ: ⲛ̀ⲛⲉⲥⲕⲓⲙ ϣⲁ ⲉ̀ⲛⲉϩ.</p>"
-              },
-              {
-                "arabic": "<p>فرِّق أعداء الكنيسة، وحصنها، فلا تتزعزع، إلى الأبد.</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>Emmanuel our God, is now in our midst, with the glory of His Father, and the Holy Spirit.</p>"
-              },
-              {
-                "coptic": "<p>Ⲉⲙⲙⲁⲛⲟⲩⲏⲗ Ⲡⲉⲛⲛⲟⲩϯ: ϧⲉⲛ ⲧⲉⲛⲙⲏϯ ϯⲛⲟⲩ: ϧⲉⲛ ⲡ̀ⲱ̀ⲟⲩ ⲛ̀ⲧⲉ Ⲡⲉϥⲓⲱⲧ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ Ⲉⲑⲟⲩⲁⲃ.</p>"
-              },
-              {
-                "arabic": "<p>عمانوئيل إلهنا، في وسطنا الآن، بمجد أبيه، والروح القدس.</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>May He bless us all, and purify our hearts, and heal the sicknesses, of our souls and bodies.</p>"
-              },
-              {
-                "coptic": "<p>Ⲛ̀ⲧⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟⲛ ⲧⲏⲣⲉⲛ: ⲛ̀ⲧⲉϥⲧⲟⲩⲃⲟ ⲛ̀ⲛⲉⲛϩⲏⲧ: ⲛ̀ⲧⲉϥⲧⲁⲗϭⲟ ⲛ̀ⲛⲓϣⲱⲛⲓ: ⲛ̀ⲧⲉ ⲛⲉⲛⲯⲩⲭⲏ ⲛⲉⲙ ⲛⲉⲛⲥⲱⲙⲁ.</p>"
-              },
-              {
-                "arabic": "<p>ليباركنا كلنا، ويطهر قلوبنا، ويشفي أمراض، نفوسنا وأجسادنا.</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>We worship You O Christ, with Your good Father, and the Holy Spirit, for You have (risen) and saved us. </p>"
-              },
-              {
-                "coptic": "<p>Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: ϫⲉ (ⲁⲕⲧⲱⲛⲕ) ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ. </p>"
-              },
-              {
-                "arabic": "<p>نسجد لك أيها المسيح، مع إبيك الصالح، والروح القدس، لأنك (قُمتَ) وخلصتنا. </p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p><i>The following hymns may also be chanted:</i></p>"
-              },
-              {
-                "coptic": "<p>-</p>"
-              },
-              {
-                "arabic": "<p>ويمكن أيضاً ان ترتل الألحان الآتية:</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p><b>(The Seventh Part of the Sunday Theotokia)</b></p>"
-              },
-              {
-                "coptic": "<p>-</p>"
-              },
-              {
-                "arabic": "<p>(القطعة السابعة من ثيؤطوكية الأحد)</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>Hail to you Mary, the beautiful dove, who gave birth to, God the Word.</p>"
-              },
-              {
-                "coptic": "<p>Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ: ϯϭⲣⲟⲙⲡⲓ ⲉⲑⲛⲉⲥⲱⲥ: ⲑⲏⲉ̀ⲧⲁⲥⲙⲓⲥⲓ ⲛⲁⲛ: ⲙ̀Ⲫ̀ⲛⲟⲩϯ Ⲡⲓⲗⲟⲅⲟⲥ.</p>"
-              },
-              {
-                "arabic": "<p>السلام لكِ يا مريم، الحمامة الحسنة، التي ولدِت لنا، الله الكلمة.</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>+ You are the flower, of incense, that has blossomed, from the root of Jesse.</p>"
-              },
-              {
-                "coptic": "<p>+ Ⲛ̀ⲑⲟ ⲧⲉ ϯϩ̀ⲣⲏⲣⲓ: ⲛ̀ⲧⲉ ⲡⲓⲥ̀ⲑⲟⲓⲛⲟⲩϥⲓ: ⲑⲏⲉ̀ⲧⲁⲥⲫⲓⲣⲓ ⲉ̀ⲃⲟⲗ: ϧⲉⲛ ⲑ̀ⲛⲟⲩⲛⲓ ⲛ̀Ⲓⲉⲥⲥⲉ.</p>"
-              },
-              {
-                "arabic": "<p>+ أنتِ زهرة، البخور التي، أينعت من، أصل يسَّى.</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>The rod of Aaron, which blossomed, without planting or watering, resembles you.</p>"
-              },
-              {
-                "coptic": "<p>Ⲡⲓϣ̀ⲃⲱⲧ ⲛ̀ⲧⲉ Ⲁ̀ⲁ̀ⲣⲱⲛ: ⲉ̀ⲧⲁϥⲫⲓⲣⲓ ⲉ̀ⲃⲟⲗ: ⲭⲱⲣⲓⲥ ϭⲟ ⲛⲉⲙ ⲧ̀ⲥⲟ: ϥ̀ⲟⲓ ⲛ̀ⲧⲩⲡⲟⲥ ⲛⲉ.</p>"
-              },
-              {
-                "arabic": "<p>عصا هرون، التي أزهرت، بغير غرس ولا سقي، هي مثال لكِ.</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>+ O who gave birth to Christ, our true God, without the seed of man, and remained a virgin.</p>"
-              },
-              {
-                "coptic": "<p>+ Ⲱ̀ ⲑⲏⲉ̀ⲧⲁⲥⲙⲉⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: Ⲡⲉⲛⲛⲟⲩϯ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲓ: ⲁϭⲛⲉ ⲥ̀ⲡⲉⲣⲙⲁ ⲛ̀ⲣⲱⲙⲓ: ⲉⲥⲟⲓ ⲙ̀ⲡⲁⲣⲑⲉⲛⲟⲥ.</p>"
-              },
-              {
-                "arabic": "<p>+ يا مَنْ ولدِت المسيح، إلهنا بالحقيقة، وبغير زرع بشر، وأنتِ عذراء.</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>Wherefore everyone, magnifies you, O my Lady the Mother of God, the ever-holy.</p>"
-              },
-              {
-                "coptic": "<p>Ⲉⲑⲃⲉ ⲫⲁⲓ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ: ⲥⲉϭⲓⲥⲓ ⲙ̀ⲙⲟ: ⲧⲁϭⲟⲓⲥ Ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ: ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ.</p>"
-              },
-              {
-                "arabic": "<p>من أجل هذا، كل واحد يعظمِك، يا سيدتي والدة الإله، القديسة كل حين.</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>+ And we too, hope to win mercy, through your intercessions, with the Lover of Mankind.</p>"
-              },
-              {
-                "coptic": "<p>+ Ⲁ̀ⲛⲟⲛ ϩⲱⲛ ⲧⲉⲛⲧⲱⲃϩ: ⲉⲑⲣⲉⲛϣⲁϣⲛⲓ ⲉⲩⲛⲁⲓ: ϩⲓⲧⲉⲛ ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ: ⲛ̀ⲧⲟⲧϥ ⲙ̀Ⲡⲓⲙⲁⲓⲣⲱⲙⲓ.</p>"
-              },
-              {
-                "arabic": "<p>+ ونحن أيضاً نطلب، أن نفوز برحمةٍ، بشفاعاتِك، عند محب البشر.</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>You are called righteous, O Saint Mary, the second tabernacle, belonging to the holies.</p>"
-              },
-              {
-                "coptic": "<p>Ⲥⲉⲙⲟⲩϯ ⲉ̀ⲣⲟ ⲇⲓⲕⲉⲟⲥ: ⲱ̀ ⲑⲏⲉⲑⲟⲩⲁⲃ Ⲙⲁⲣⲓⲁ: ϫⲉ ϯⲙⲁϩⲥ̀ⲛⲟⲩϯ ⲛ̀ⲥ̀ⲕⲏⲛⲏ: ⲛ̀ⲧⲉ ⲛⲏⲉⲑⲟⲩⲁⲃ.</p>"
-              },
-              {
-                "arabic": "<p>مدعوة أنت، بالحقيقة، أيتها القديسة مريم، القبة التي للأقداس.</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>+ Wherein is placed, the rod of Aaron, and the holy flower, of incense. </p>"
-              },
-              {
-                "coptic": "<p>+ Ⲑⲏⲉ̀ⲧⲟⲩⲭⲏ ⲛ̀ϧⲏⲧⲥ: ⲛ̀ϫⲉ ⲡⲓϣ̀ⲃⲱⲧ ⲛ̀ⲧⲉ Ⲁ̀ⲁ̀ⲣⲱⲛ: ⲛⲉⲙ ϯϩ̀ⲣⲏⲣⲓ ⲉⲑⲟⲩⲁⲃ: ⲛ̀ⲧⲉ ⲡⲓⲥ̀ⲑⲟⲓⲛⲟⲩϥⲓ.</p>"
-              },
-              {
-                "arabic": "<p>+ تلك الموضوع فيها، عصا هرون، والزهرة المقدسة، التي للبخور.</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>You are clothed with purity, within and without, O pure tabernacle, the dwelling of the righteous.</p>"
-              },
-              {
-                "coptic": "<p>Ⲧⲉϫⲟⲗϩ ⲙ̀ⲡⲓⲧⲟⲩⲃⲟ: ⲥⲁϧⲟⲩⲛ ⲛⲉⲙ ⲥⲁⲃⲟⲗ: ⲱ̀ ϯⲥ̀ⲕⲏⲛⲏ ⲛ̀ⲕⲁⲑⲁⲣⲟⲥ: ⲫ̀ⲙⲁ ⲛ̀ϣⲱⲡⲓ ⲛ̀ⲛⲓⲇⲓⲕⲉⲟⲥ.</p>"
-              },
-              {
-                "arabic": "<p>أنت مشتملة بالطهارة، من داخل ومن خارج، أيتها القبة النقية، مسكن الصديقين.</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>+ The hosts of the high standings, and the chorus of the just, glorify you, and your blessedness.</p>"
-              },
-              {
-                "coptic": "<p>+ Ⲛⲓⲧⲁⲅⲙⲁ ⲛ̀ⲧⲉ ⲡ̀ϭⲓⲥⲓ: ⲛⲉⲙ ⲡ̀ⲭⲟⲣⲟⲥ ⲛ̀ⲧⲉ ⲛⲓⲑ̀ⲙⲏⲓ: ⲥⲉⲉⲣⲉⲩⲇⲟⲝⲁⲍⲓⲛ: ⲛ̀ⲛⲉⲙⲁⲕⲁⲣⲓⲥⲙⲟⲥ.</p>"
-              },
-              {
-                "arabic": "<p>+ طغمات العلاء، وصفوف الأبرار، يمجدون، طوباويتك.</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>Wherefore we, magnify you befittingly, with prophetic, hymnology.</p>"
-              },
-              {
-                "coptic": "<p>Ⲉⲑⲃⲉ ⲫⲁⲓ ⲧⲉⲛϭⲓⲥⲓ: ⲙ̀ⲙⲟ ⲁⲝⲓⲱⲥ: ϧⲉⲛ ϩⲁⲛⲩⲙⲛⲟⲗⲟⲅⲓⲁ: ⲙ̀ⲡ̀ⲣⲟⲫⲏⲧⲓⲕⲟⲛ.</p>"
-              },
-              {
-                "arabic": "<p>من أجل هذا، نعظمِك، بإستحقاقٍ، بتماجيد نبوية.</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>+ For they spoke of you, with great honor, O holy city, of the great King.</p>"
-              },
-              {
-                "coptic": "<p>+ Ϫⲉ ⲁⲩⲥⲁϫⲓ ⲉⲑⲃⲏϯ: ⲛ̀ϩⲁⲛϩ̀ⲃⲏⲟⲩⲓ̀ ⲉⲩⲧⲁⲓⲏⲟⲩⲧ: ϯⲃⲁⲕⲓ ⲉⲑⲟⲩⲁⲃ: ⲛ̀ⲧⲉ ⲡⲓⲛⲓϣϯ ⲛ̀Ⲟⲩⲣⲟ.</p>"
-              },
-              {
-                "arabic": "<p>+ لأنهم تكلموا، من أجلِك بأعمال كريمة، أيتها المدينة المقدسة، التي للملك العظيم.</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>We entreat and pray, that we may win mercy, through your intercessions, with the Lover of Mankind.</p>"
-              },
-              {
-                "coptic": "<p>Ⲧⲉⲛϯϩⲟ ⲧⲉⲛⲧⲱⲃϩ: ⲉⲑⲣⲉⲛϣⲁϣⲛⲓ ⲉⲩⲛⲁⲓ: ϩⲓⲧⲉⲛ ⲛⲉⲡ̀ⲣⲉⲥⲃⲓⲁ: ⲛ̀ⲧⲟⲧϥ ⲙ̀Ⲡⲓⲙⲁⲓⲣⲱⲙⲓ.</p>"
-              },
-              {
-                "arabic": "<p>نسأل ونطلب، أن نفوز برحمةٍ، بشفاعاتِك، عند محب البشر.</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p><b>During the days of the Nativity feast (From the 30th of Kiahk to the 5th of Toba):</b></p>"
-              },
-              {
-                "coptic": "<p>-</p>"
-              },
-              {
-                "arabic": "<p>في أيام عيد الميلاد (من 30 كيهك إلى 5 طوبى):</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>Today, the Virgin bears Him who is transcendent, and the earth presents the cave to Him who is beyond reach. Angels, along with shepherds glorify Him. The Magi make their way to Him by a star. For a new Child has been born for us, the God before all ages.</p>"
-              },
-              {
-                "coptic": "<p>Ⲏ̀ⲡⲁⲣⲑⲉⲛⲟⲥ ⲥⲏⲙⲉⲣⲟⲛ ⲧⲟⲛ ⲩ̀ⲡⲉⲣⲟⲩⲥⲓⲟⲛ ⲧⲓⲕⲧⲓ: ⲕⲉ ⲏ̀ⲅⲏⲧⲟ ⲥ̀ⲡⲏⲗⲉⲟⲛ ⲧⲱ ⲁⲡⲣⲟⲥⲓⲧⲱ ⲡ̀ⲣⲟⲥⲁⲅⲓ: ⲁⲅⲅⲉⲗⲓ ⲙⲉⲧⲁ ⲡⲓⲙⲉⲛⲱⲛ ⲇⲟⲝⲟⲗⲟⲅⲟⲩⲥⲓ: ⲙⲁⲅⲓ ⲇⲉ ⲙⲉⲧⲁ ⲁⲥⲧⲉⲣⲟⲥ ⲟ̀ⲇⲓⲡⲟⲣⲟⲩⲥⲓ: ⲇⲓ ⲏ̀ⲙⲁⲥ ⲅⲁⲣ ⲉ̀ⲅⲉⲛⲛⲏⲑⲏ: ⲡⲉⲇⲓⲟⲛ ⲛⲉⲟⲛ: ⲟ̀ⲡ̀ⲣⲟⲉ̀ⲱ̀ⲛⲱⲛ Ⲑⲉⲟⲥ.</p>"
-              },
-              {
-                "arabic": "<p>اليوم البتول تلد الفائق الجوهر والأرض تقرب المغارة لغير المقترب إليه. الملائكة مع الرعاة يمجدون. والمجوس مع الكوكب في الطريق سائرون. لأن من أجلنا وُلد صبياً جديداً. الإله الذي قبل الدهور.</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>The virginal birth and spiritual contractions, are marvelous wonders according to the prophetic sayings.</p>"
-              },
-              {
-                "coptic": "<p>Ⲡⲓϫⲓⲛⲙⲓⲥⲓ ⲙ̀ⲡⲁⲣⲑⲉⲛⲓⲕⲟⲛ ⲟⲩⲟϩ ⲛⲓⲛⲁⲕϩⲓ ⲙ̀ⲡ̀ⲛⲉⲩⲙⲁⲧⲓⲕⲟⲛ ⲟⲩϣ̀ⲫⲏⲣⲓ ⲙ̀ⲡⲁⲣⲁⲇⲟⲝⲟⲛ ⲕⲁⲧⲁ ⲛⲓⲥ̀ⲙⲏⲓ ⲙ̀ⲡ̀ⲣⲟⲫⲏⲧⲓⲕⲟⲛ.</p>"
-              },
-              {
-                "arabic": "<p>الميلاد البتولي، والطلقات الروحانية، عجب عجيب، كالأخبار النبوية.</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p><b>During the days of the Cross feasts (From 17th to 19th of Tout and 10th of Baramhat):</b></p>"
-              },
-              {
-                "coptic": "<p>-</p>"
-              },
-              {
-                "arabic": "<p>في أيام عيد الصليب (من 17 توت إلى 19 منه و 10 برمهات):</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>When the peaceful writings, of Constantine reached Alexandria saying, “Shut the gates of the heathen, and open the gates of the churches.”</p>"
-              },
-              {
-                "coptic": "<p>Ⲉ̀ⲧⲁⲩⲉⲛ ⲛⲓⲥ̀ϧⲁⲓ ⲛ̀ϩⲓⲣⲏⲛⲓⲕⲟⲛ: ⲛ̀ⲧⲉ Ⲕⲱⲥⲧⲁⲛⲧⲓⲛⲟⲥ ⲉ̀ϧⲟⲩⲛ ⲉ̀Ⲣⲁⲕⲟϯ: ϫⲉ ⲙⲁϣ̀ⲑⲁⲙ ⲙ̀ⲫ̀ⲣⲟ ⲛ̀ⲛⲓⲉⲣⲫⲏⲟⲩⲓ̀: ⲁ̀ⲱ̀ⲟⲩⲛ ⲙ̀ⲫ̀ⲣⲟ ⲛ̀ⲛⲓⲉⲕⲕⲗⲏⲥⲓⲁ.</p>"
-              },
-              {
-                "arabic": "<p>لما وردت مكاتبات السلام، التي لقسطنطين إلى الإسكندرية قائلة، \"أغلقوا أبواب البرابي، وإفتحوا أبواب الكنائس.\"</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>Paralex:<br/> The bishops heard and became happy, the priests rejoiced, and the seven ranks of the Church, glorified the God of heaven.</p>"
-              },
-              {
-                "coptic": "<p>Ⲡⲁⲣⲁⲗⲉⲝ:<br/> Ⲁ̀ ⲛⲓⲉ̀ⲡⲓⲥⲕⲟⲡⲟⲥ ⲥⲱⲧⲉⲙ ⲁⲩⲣⲁϣⲓ: ⲁ̀ ⲛⲓⲡ̀ⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ ⲟⲩⲛⲟϥ ⲙ̀ⲙⲱⲟⲩ: ⲁ̀ ⲡⲓϣⲁϣϥ ⲛ̀ⲧⲁⲅⲙⲁ ⲛ̀ⲧⲉ Ϯⲉⲕⲕⲗⲏⲥⲓⲁ: ϯⲱ̀ⲟⲩ ⲙ̀Ⲫ̀ⲛⲟⲩϯ ⲛ̀ⲧⲉ ⲧ̀ⲫⲉ.</p>"
-              },
-              {
-                "arabic": "<p>برلكس:<br/> الأساقفة سمعوا ففرحوا، والقساوسة إبتهجوا، وسبع رتب الكنيسة، مجدوا إله السماء.</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>What bodily tongue, can speak of your great happiness, O faithful people, in all the churches.</p>"
-              },
-              {
-                "coptic": "<p>Ⲁϣ ⲛ̀ⲗⲁⲥ ⲛ̀ⲥⲱⲙⲁⲧⲓⲕⲟⲥ: ⲛⲁ ϣ̀ⲥⲁϫⲓ ⲉ̀ⲡⲉⲕⲛⲓϣϯ ⲛ̀ⲑⲉⲗⲏⲗ: ⲱ̀ ⲡⲓⲗⲁⲟⲥ ⲙ̀ⲡⲓⲥ̀ⲧⲟⲥ: ϧⲉⲛ ⲛⲓⲉⲕⲕⲗⲏⲥⲓⲁ ⲧⲏⲣⲟⲩ.</p>"
-              },
-              {
-                "arabic": "<p>أي لسان جسدي، يقدر أن ينطق بعِظَم سرورك، أيها الشعب المؤمن، في جميع الكنائس.</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>When they heard of the teachings, of king Constantine saying, “Shut the gates of the heathen, and open the gates of the churches.</p>"
-              },
-              {
-                "coptic": "<p>Ⲙ̀ⲫ̀ⲛⲁⲩ ⲉ̀ⲧⲁⲩⲥⲱⲧⲉⲙ ⲉ̀ⲛⲓⲥ̀ϧⲁⲓ: ⲛ̀ⲧⲉ ⲡ̀ⲟⲩⲣⲟ Ⲕⲱⲥⲧⲁⲛⲧⲓⲛⲟⲥ: ϫⲉ ⲙⲁϣ̀ⲑⲁⲙ ⲙ̀ⲫ̀ⲣⲟ ⲛ̀ⲛⲓⲉⲣⲫⲏⲟⲩⲓ̀: ⲁ̀ ⲟⲩⲱⲛ ⲙ̀ⲫ̀ⲣⲟ ⲛ̀ⲛⲓⲉⲕⲕⲗⲏⲥⲓⲁ.</p>"
-              },
-              {
-                "arabic": "<p>عندما سمعوا كتب، قسطنطين الملك قائلاً، \"إغلقوا أبواب البرابي، إفتحوا أبواب الكنائس.</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>Shut the houses of demons, and open the houses of God,” blessed are these people, that heard this matter.</p>"
-              },
-              {
-                "coptic": "<p>Ⲙⲁϣ̀ⲑⲁⲙ ⲛ̀ⲛⲓⲏ̀ⲟⲩ ⲛ̀ⲛⲓⲇⲉⲙⲱⲛ: ⲟⲩⲟϩ ⲁ̀ ⲟⲩⲱⲛ ⲛ̀ⲛⲓⲏ̀ⲟⲩ ⲛ̀ⲧⲉ Ⲫ̀ⲛⲟⲩϯ: ⲱ̀ⲟⲩⲛⲓⲁⲧϥ ⲙ̀ⲡⲁⲓⲗⲁⲟⲥ ⲫⲁⲓ: ⲉ̀ⲧⲁϥϫⲟⲥ ⲙ̀ⲡⲁⲓⲟⲩⲁϩⲥⲁϩⲛⲓ ⲛⲁϥ.</p>"
-              },
-              {
-                "arabic": "<p>أغلقوا بيوت الشياطين، وإفتحوا بيوت الله،\" مغبوط هذا الشعب الذي، قيل له هذا الأمر.</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>Blessed are you O Constantine, for you revived the faith, therefore God gave you life, in the kingdom of heavens.</p>"
-              },
-              {
-                "coptic": "<p>Ⲱ̀ⲟⲩⲛⲓⲁⲧⲕ ⲱ̀ Ⲕⲱⲥⲧⲁⲛⲧⲓⲛⲟⲥ: ϫⲉ ⲁⲕⲧⲁⲛϧⲟ ⲙ̀ⲡⲓⲛⲁϩϯ: ⲉⲑⲃⲉ ⲫⲁⲓ ⲁ̀ Ⲫ̀ⲛⲟⲩϯ ⲧⲁⲛϧⲟⲕ: ϧⲉⲛ ⲑ̀ⲙⲉⲧⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲛⲓⲫⲏⲟⲩⲓ̀.</p>"
-              },
-              {
-                "arabic": "<p>طوباك يا قسطنطين، لأنك أحييت الإيمان، فلذلك أحياك الله، في ملكوت السموات.</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>Pray to the Lord on our behalf, my lord king Constantine, and queen Helen, that He may forgive us our sins.</p>"
-              },
-              {
-                "coptic": "<p>Ⲧⲱⲃϩ ⲙ̀Ⲡ̀ϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ: ⲡⲁϭⲟⲓⲥ ⲡ̀ⲟⲩⲣⲟ Ⲕⲱⲥⲧⲁⲛⲧⲓⲛⲟⲥ: ⲛⲉⲙ Ⲏ̀ⲗⲁⲛⲏ ϯⲟⲩⲣⲱ: ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.</p>"
-              },
-              {
-                "arabic": "<p>أُطلبا من الرب عنا، يا سيدي الملك قسطنطين، والملكة هيلانة، ليغفر لنا خطايانا.</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p><b>From the 1st to the 39th day of the Holy Fifty days:</b></p>"
-              },
-              {
-                "coptic": "<p>-</p>"
-              },
-              {
-                "arabic": "<p>من اليوم الـ1 إلى اليوم الـ39 من الخمسين المقدسة:</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>Christ is risen from the dead, trampling down death by death, and upon those in the tombs bestowing life.</p>"
-              },
-              {
-                "coptic": "<p>Ⲭ̀ⲣⲓⲥⲧⲟⲥ ⲁ̀ⲛⲉⲥⲧⲏ ⲉⲕ ⲛⲉⲕⲣⲱⲛ: ⲑⲁⲛⲁⲧⲱ ⲑⲁⲛⲁⲧⲟⲛ: ⲡⲁⲧⲏⲥⲁⲥ ⲕⲉ ⲧⲓⲥ ⲉⲛ ⲧⲓⲥ ⲙ̀ⲛⲏⲙⲁⲥⲓ ⲍⲱⲏⲛ ⲭⲁⲣⲓⲥⲁⲙⲉⲛⲟⲥ.</p>"
-              },
-              {
-                "arabic": "<p>المسيح قام من بين الأموات، بالموت داس الموت، والذين في القبور، أنعم لهم بالحياة الأبدية.</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>Glory to the Father and the Son and the Holy Spirit, now and forever and unto the age of all ages. Amen.</p>"
-              },
-              {
-                "coptic": "<p>Ⲇⲟⲝⲁ Ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩⲓⲱ ⲕⲉ Ⲁ̀ⲅⲓⲱ Ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ: ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ⲓ̀ ⲕⲉ ⲓⲥ ⲧⲟⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ. Ⲁ̀ⲙⲏⲛ.</p>"
-              },
-              {
-                "arabic": "<p>المجد للآب والإبن والروح القدس، الآن وكل أوان وإلى دهر الدهور. آمين.</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>Or:<br/> We the believers hymn and worship the Logos, without beginning with the Father and the Spirit, having been born of a virgin for our salvation, for He appeared in the flesh to ascend on the Cross. He persevered unto death and raised the dead through His glorious Resurrection.</p>"
-              },
-              {
-                "coptic": "<p>Ⲧⲟⲛ ⲥⲩⲛⲁⲛⲁⲣⲭⲟⲛ Ⲗⲟⲅⲟⲛ Ⲡⲁⲧⲣⲓ ⲕⲉ Ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ: ⲧⲟⲛ ⲉⲕ ⲡⲁⲣⲑⲉⲛⲟⲩ ⲧⲉⲭⲑⲉⲛⲧⲁ ⲓⲥ ⲥⲱⲧⲏⲣⲓⲁⲛ ⲏ̀ⲙⲟⲛ: ⲁ̀ⲛⲩⲙⲛⲏⲥⲱⲙⲉⲛ ⲡⲓⲥⲧⲓ ⲕⲉ ⲡ̀ⲣⲟⲥⲕⲩⲛⲏⲥⲱⲙⲉⲛ: ⲟ̀ⲧⲓ ⲏⲩⲇⲟⲕⲏⲥⲉ ⲥⲁⲣⲕⲓ: ⲁ̀ⲛⲉⲗⲑⲓⲛ ⲉⲛ ⲧⲱ ⲥ̀ⲧⲁⲩⲣⲟ: ⲕⲉ ⲑⲁⲛⲁⲧⲟⲛ ⲩ̀ⲡⲟⲙⲓⲛⲉ: ⲕⲉ ⲉ̀ⲅⲓⲣⲉ ⲧⲟⲩⲥ ⲧⲉⲑⲛⲉⲱ̀ⲟ̀: ⲧⲁⲥ ⲉⲛ ⲧⲏ ⲉⲛⲇⲟⲝⲱ Ⲁ̀ⲛⲁⲥⲧⲁⲥⲓ ⲁⲩⲧⲟⲩ.</p>"
-              },
-              {
-                "arabic": "<p>أو:<br/> نسبح نحن المؤمنين ونمجد الكلمة المساوي للآب والروح في الأزلية وعدم الإبتداء، المولود من العذراء لخلاصنا، لأنه سُرَ وأرتضى بالجسد أن يعلوا على الصليب، ويحتمل الموت وينهض الموتى بقيامته المجيدة.</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>Or:<br/> When the stone was sealed by the Jews, and the soldiers were guarding Your undefiled Body, You arose on the third day, O Savior, granting life to the world. For this reason, the heavenly powers cried out to You, O Giver of Life, “Glory to Your Resurrection O Christ. Glory to Your kingdom. Glory be to Your Economy, O You who alone are Lover of Mankind.”</p>"
-              },
-              {
-                "coptic": "<p>Ⲧⲟⲩ ⲗⲓⲑⲟⲩⲥ ⲫ̀ⲣⲁⲅⲓⲥⲑⲉⲛ ⲧⲟⲥ ⲩ̀ⲡⲟ ⲧⲱⲛ Ⲓⲟⲩⲇⲉⲱⲛ: ⲕⲉ ⲥ̀ⲧ̀ⲣⲁⲧⲓⲱ ⲧⲱⲛ ⲫⲩⲗⲁⲥⲥⲟⲛ ⲧⲱⲛ ⲧⲟ ⲁⲭⲣⲁⲛⲧⲟⲛ ⲥⲟⲩ Ⲥⲱⲙⲁ: ⲁ̀ⲛⲉⲥⲧⲏⲥ ⲧ̀ⲣⲓⲏ̀ⲙⲉⲣⲟⲥ Ⲥⲱⲧⲏⲣ: ⲇⲱⲣⲟⲩⲙⲉⲛⲟⲥ ⲧⲱ ⲕⲟⲥⲙⲱ ⲧⲏⲛ ⲍⲱⲏⲛ: ⲇⲓⲁ ⲧⲟⲩⲧⲟ ⲉ̀ⲇⲩⲛⲁⲙⲓⲥ ⲧⲱⲛ ⲟⲩⲣⲁⲛⲱⲛ ⲉ̀ⲃⲟⲱⲛ ⲥⲓ ⲍⲱⲟ̀ⲇⲟⲧⲁ: ⲇⲟⲝⲁ ⲧⲏ Ⲁ̀ⲛⲁⲥⲧⲁⲥⲓ ⲥⲟⲩ Ⲭ̀ⲣⲓⲥⲧⲉ: ⲇⲟⲝⲁ ⲧⲏ ⲃⲁⲥⲓⲗⲓⲁ ⲥⲟⲩ: ⲇⲟⲝⲁ ⲧⲏ ⲟⲓⲕⲟⲛⲟⲙⲓⲁ ⲥⲟⲩ: ⲙⲟⲛⲉ Ⲫⲓⲗⲁⲛⲑ̀ⲣⲱⲡⲉ.</p>"
-              },
-              {
-                "arabic": "<p>أو:<br/> أن الحجر لما خُتِم من اليهود وجسدك الطاهر حُفِظ من الجند، قُمت في اليوم الثالث أيها المخلص، مانحاً العالم الحياة. لأجل هذا قوات السموات هتفوا إليك يا واهب الحياة \"المجد لقيامتك أيها المسيح، المجد لتدبيرك، المجد لملكك يا محب البشر وحدك.\"</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>Or:<br/> Your Resurrection, Christ Savior, is praised by the angels in heaven; and make us on earth worthy with pure hearts to glorify You.</p>"
-              },
-              {
-                "coptic": "<p>Ⲧⲏⲛ Ⲁ̀ⲛⲁⲥⲧⲁⲥⲓⲛ ⲥⲟⲩ Ⲭ̀ⲣⲓⲥⲧⲉ Ⲥⲱⲧⲏⲣ: ⲁⲅⲅⲉⲗⲓ ⲩⲙⲛⲟⲩⲥⲓⲛ ⲉⲛ ⲟⲩⲣⲁⲛⲓⲥ: ⲕⲉ ⲏ̀ⲙⲁⲥ ⲧⲟⲩⲥ ⲉ̀ⲡⲓ ⲅⲩⲥ ⲕⲁⲧⲁⲝⲓⲱⲥⲟⲛ: ⲉⲛ ⲕⲁⲑⲁⲣⲁ ⲕⲁⲣⲇⲓⲁ ⲥⲉ ⲇⲟⲝⲁⲍⲓⲛ.</p>"
-              },
-              {
-                "arabic": "<p>أو:<br/> أيها المسيح مخلصنا، أن الملائكة لا يزالون في السماء يسبحون قيامتك، ولذلك نضرع إليك فأهلنا، نحن الذين على الأرض، أن نكون ممجدين إياك بقلوب نقية أبداً.</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>Or:<br/> Christ is risen from the dead; He who died trampled down death and upon those in the tombs bestowed eternal life.</p>"
-              },
-              {
-                "coptic": "<p>Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ ⲁϥⲧⲱⲛϥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ: ⲫⲏⲉ̀ⲧⲁϥⲙⲟⲩ ⲁϥϩⲱⲙⲓ ⲉ̀ϫⲉⲛ ⲫ̀ⲙⲟⲩ ⲟⲩⲟϩ ⲛⲏⲉⲧⲭⲏ ϧⲉⲛ ⲛⲓⲙ̀ϩⲁⲩ ⲁϥⲉⲣϩ̀ⲙⲟⲧ ⲛⲱⲟⲩ ⲙ̀ⲡⲓⲱⲛϧ ⲛ̀ⲉ̀ⲛⲉϩ.</p>"
-              },
-              {
-                "arabic": "<p>أو:<br/> المسيح قام من بين الأموات، الذي مات داس الموت والذين في القبور أنعم لهم بالحياة الأبدية.</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p><b>From the 40th to the 49th day of the Holy Fifty days:</b></p>"
-              },
-              {
-                "coptic": "<p>-</p>"
-              },
-              {
-                "arabic": "<p>من اليوم الـ40 إلى اليوم الـ49 من الخمسين المقدسة:</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>Christ has ascended into the heaven, and sent us the Paraclete, the Holy Spirit, bestowing life to our souls.</p>"
-              },
-              {
-                "coptic": "<p>Ⲭ̀ⲣⲓⲥⲧⲟⲥ ⲁ̀ⲛⲉⲗⲩⲯⲩⲥ ⲧⲟⲛ ⲟⲩⲣⲁⲛⲟⲛ: ⲉⲝⲁⲡⲉⲥⲧⲓⲗⲉ Ⲡⲁⲣⲁⲕⲗⲏⲧⲟⲛ ⲧⲟ Ⲡ̀ⲛⲉⲩⲙⲁ ⲧⲟ ⲁ̀ⲅⲓⲟⲛ: ⲍⲱⲏⲛ ⲭⲁⲣⲓⲥⲁⲙⲉⲛⲟⲥ ⲉ̀ⲡⲓⲧⲱⲛ ⲯⲩⲭⲱⲛ ⲏ̀ⲙⲱⲛ.</p>"
-              },
-              {
-                "arabic": "<p>المسيح صعد إلى السماء، وأرسل البارقليط الروح القدس، وأنعم لنفوسنا بالحياة.</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>Glory to the Father….</p>"
-              },
-              {
-                "coptic": "<p>Ⲇⲟⲝⲁ Ⲡⲁⲧⲣⲓ...</p>"
-              },
-              {
-                "arabic": "<p>المجد للآب ...</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>Or:<br/> Christ is risen from the dead, and ascended into the heavens, and is seated at the right hand of His Father in the highest, bestowing upon us (our souls) everlasting life.</p>"
-              },
-              {
-                "coptic": "<p>Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ ⲁϥⲧⲱⲛϥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ: ⲟⲩⲟϩ ⲁϥϣⲉⲛⲁϥ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ⲛⲓⲫⲏⲟⲩⲓ̀: ⲁϥϩⲉⲙⲥⲓ ⲥⲁⲟⲩⲓ̀ⲛⲁⲙ ⲙ̀Ⲡⲉϥⲓⲱⲧ ϧⲉⲛ ⲛⲏⲉⲧϭⲟⲥⲓ: ⲁϥⲉⲣϩ̀ⲙⲟⲧ ⲛⲁⲛ (ⲛ̀ⲛⲉⲛⲯⲩⲭⲏ) ⲙ̀ⲡⲓⲱⲛϧ ⲛ̀ⲉ̀ⲛⲉϩ.</p>"
-              },
-              {
-                "arabic": "<p>أو:<br/> المسيح قام من بين الأموات، وصعد إلى السموات، وجلس عن يمين أبيه في الأعالي، وأنعم لنا (لنفوسنا) بالحياة الأبدية. </p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p><b>If a Bishop is entering or present, this hymn is chanted:</b></p>"
-              },
-              {
-                "coptic": "<p>-</p>"
-              },
-              {
-                "arabic": "<p>في وقت دخول الأب الأسقف أو حضوره، يقال هذا اللحن:</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>Blessed are You indeed, with Your good Father, and the Holy Spirit, for You have (risen) and saved us. </p>"
-              },
-              {
-                "coptic": "<p>Ⲕ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲁ̀ⲗⲏⲑⲱⲥ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ Ⲉⲑⲟⲩⲁⲃ: ϫⲉ (ⲁⲕⲧⲱⲛⲕ) ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ.</p>"
-              },
-              {
-                "arabic": "<p>مبارك أنت بالحقيقة، مع أبيك الصالح، والروح القدس، لأنك (قُمتَ) وخلصتنا.</p>"
-              }
-            ]
-          },
-          {
-            "row-class": "text",
-            "cells": [
-              {
-                "english": "<p>Through the prayers, of our honored father the high priest Pope Abba (Tawadros), and our father the Bishop (Metropolitan) Abba (…), O Lord grant us the forgiveness of our sins.</p>"
-              },
-              {
-                "coptic": "<p>Ϩⲓⲧⲉⲛ ⲛⲓⲉⲩⲭⲏ: ⲛ̀ⲧⲉ ⲡⲉⲛⲱⲓⲧ ⲉⲧⲧⲁⲓⲏⲟⲩⲧ ⲛ̀ⲁⲣⲭⲏⲉ̀ⲣⲉⲩⲥ ⲡⲁⲡⲁ ⲁⲃⲃⲁ (Ⲑⲉⲟ̀ⲇⲟⲣⲟⲥ): ⲛⲉⲙ ⲡⲉⲛⲓⲱⲧ ⲛ̀ⲉ̀ⲡⲓⲥⲕⲟⲡⲟⲥ (ⲙ̀ⲙⲏⲧⲣⲟⲡⲟⲗⲓⲧⲏⲥ) ⲁⲃⲃⲁ (...): Ⲡ̀ⲟ̅ⲥ̅ ⲁ̀ⲣⲓϩ̀ⲙⲟⲧ ⲛⲁⲛ ⲙ̀ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ.</p>"
-              },
-              {
-                "arabic": "<p>بصلوات، أبينا المكرم رئيس الكهنة البابا الأنبا (تواضروس)، وأبينا الأسقف (المطران) الأنبا (...)، يا رب أنعم لنا بمغفرة خطايانا.<br/> </p>"
-              }
-            ]
-          }
-        ]
-      }
-    ]
+    "seasonalHymns":true,
+    "placement": "processionHymns"
+  },
+  {
+    "annualHymns":true,
+    "placement": "processionHymns"
   },
   {
     "english_title": "The Beginning Blessing",
@@ -738,9 +90,6 @@
                 "english": "<p><i>The priest ties the wedding rings in a ribbon and crosses the bridegroom &amp; the bride and the rings three times. All the responses are chanted into the festive tune.</i></p>"
               },
               {
-                "coptic": "<p>-</p>"
-              },
-              {
                 "arabic": "<p>يأخذ الكاهن الدبلتين ويعقدهما بزنار ويرشم بالصليب ثلاث رشومات على العريسين والدبل أيضاً. كل المردات ترتَّل باللحن الفريحي.</p>"
               }
             ]
@@ -749,13 +98,10 @@
             "row-class": "text",
             "cells": [
               {
-                "english": "<p><b>Priest:</b><br/> In the name of our Lord, our God, and our Savior Jesus Christ, the Founder of the laws of perfection and the Giver of Law, we declare the marriage of the blessed orthodox son (…) to the blessed orthodox daughter (…).</p>"
+                "english": "<span class='role'>Priest:</span><br> In the name of our Lord, our God, and our Savior Jesus Christ, the Founder of the laws of perfection and the Giver of Law, we declare the marriage of the blessed orthodox son (…) to the blessed orthodox daughter (…).</p>"
               },
               {
-                "coptic": "<p>-</p>"
-              },
-              {
-                "arabic": "<p><b>الكاهن:</b><br/> بإسم ربنا وإلهنا ومخلصنا يسوع المسيح، مُشرِّع شريعة الكمال، وواضع ناموس الأفضال، نعقد إملاك وزواج الإبن المبارك الأرثوذكسي البكر (...) إلى الإبنة المباركة الأرثوذكسية البكر (...).</p>"
+                "arabic": "<span class='role'>الكاهن:</span><br> بإسم ربنا وإلهنا ومخلصنا يسوع المسيح، مُشرِّع شريعة الكمال، وواضع ناموس الأفضال، نعقد إملاك وزواج الإبن المبارك الأرثوذكسي البكر (...) إلى الإبنة المباركة الأرثوذكسية البكر (...).</p>"
               }
             ]
           },
@@ -777,13 +123,13 @@
             "row-class": "text",
             "cells": [
               {
-                "english": "<p><b>People:</b><br/> Amen.<br/> “Our Father who art in heaven…”</p>"
+                "english": "<span class='role'>People:</span><br> Amen.<br/> “Our Father who art in heaven…”</p>"
               },
               {
-                "coptic": "<p>Ⲁ̀ⲙⲏⲛ.<br/> Ϫⲉ Ⲡⲉⲛⲓⲱⲧ ⲉⲧ ϧⲉⲛ ⲛⲓⲫⲏⲟⲩⲓ̀...</p>"
+                "coptic": "<span class='role'>Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲁ̀ⲙⲏⲛ.<br/> Ϫⲉ Ⲡⲉⲛⲓⲱⲧ ⲉⲧ ϧⲉⲛ ⲛⲓⲫⲏⲟⲩⲓ̀...</p>"
               },
               {
-                "arabic": "<p><b>الشعب:</b><br/> أمين. <br/> \"أبانا الذي في السموات...\"</p>"
+                "arabic": "<span class='role'>الشعب:</span><br> أمين. <br/> \"أبانا الذي في السموات...\"</p>"
               }
             ]
           },
@@ -791,13 +137,10 @@
             "row-class": "text",
             "cells": [
               {
-                "english": "<p><b>Priest:</b><br/> In the name of our Lord, our God, and our Savior Jesus Christ, the Founder of the laws of perfection and the Giver of Law, we declare the marriage of the blessed orthodox daughter (…) to the blessed orthodox son (…).</p>"
+                "english": "<span class='role'>Priest:</span><br> In the name of our Lord, our God, and our Savior Jesus Christ, the Founder of the laws of perfection and the Giver of Law, we declare the marriage of the blessed orthodox daughter (…) to the blessed orthodox son (…).</p>"
               },
               {
-                "coptic": "<p>-</p>"
-              },
-              {
-                "arabic": "<p><b>الكاهن:</b><br/> بإسم ربنا وإلهنا ومخلصنا يسوع المسيح مُشرِّع شريعة الكمال، وواضع ناموس الأفضال، نعقد إملاك وزواج الإبنة المباركة الأرثوذكسية البكر (...) إلى الإبن المبارك الأرثوذكسي البكر (...).</p>"
+                "arabic": "<span class='role'>الكاهن:</span><br> بإسم ربنا وإلهنا ومخلصنا يسوع المسيح مُشرِّع شريعة الكمال، وواضع ناموس الأفضال، نعقد إملاك وزواج الإبنة المباركة الأرثوذكسية البكر (...) إلى الإبن المبارك الأرثوذكسي البكر (...).</p>"
               }
             ]
           },
@@ -819,13 +162,13 @@
             "row-class": "text",
             "cells": [
               {
-                "english": "<p><b>People:</b><br/> Amen.<br/> “Our Father who art in heaven…”</p>"
+                "english": "<span class='role'>People:</span><br> Amen.<br/> “Our Father who art in heaven…”</p>"
               },
               {
-                "coptic": "<p>Ⲁ̀ⲙⲏⲛ.<br/> Ϫⲉ Ⲡⲉⲛⲓⲱⲧ ⲉⲧ ϧⲉⲛ ⲛⲓⲫⲏⲟⲩⲓ̀...</p>"
+                "coptic": "<span class='role'>Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲁ̀ⲙⲏⲛ.<br/> Ϫⲉ Ⲡⲉⲛⲓⲱⲧ ⲉⲧ ϧⲉⲛ ⲛⲓⲫⲏⲟⲩⲓ̀...</p>"
               },
               {
-                "arabic": "<p><b>الشعب:</b><br/> أمين. <br/> \"أبانا الذي في السموات...\"</p>"
+                "arabic": "<span class='role'>الشعب:</span><br> أمين. <br/> \"أبانا الذي في السموات...\"</p>"
               }
             ]
           },
@@ -833,13 +176,10 @@
             "row-class": "text",
             "cells": [
               {
-                "english": "<p><b>Priest:</b><br/> In the name of our Lord, our God, and our Savior Jesus Christ, the Founder of the laws of perfection and the Giver of Law, we declare the marriage of the blessed orthodox son (…) to the blessed orthodox daughter (…).</p>"
+                "english": "<span class='role'>Priest:</span><br> In the name of our Lord, our God, and our Savior Jesus Christ, the Founder of the laws of perfection and the Giver of Law, we declare the marriage of the blessed orthodox son (…) to the blessed orthodox daughter (…).</p>"
               },
               {
-                "coptic": "<p>-</p>"
-              },
-              {
-                "arabic": "<p><b>الكاهن:</b><br/> بإسم ربنا وإلهنا ومخلصنا يسوع المسيح مُشرِّع شريعة الكمال، وواضع ناموس الأفضال، نعقد إملاك وزواج الإبن المبارك الأرثوذكسي البكر (...) إلى الإبنة المباركة الأرثوذكسية البكر (...).</p>"
+                "arabic": "<span class='role'>الكاهن:</span><br> بإسم ربنا وإلهنا ومخلصنا يسوع المسيح مُشرِّع شريعة الكمال، وواضع ناموس الأفضال، نعقد إملاك وزواج الإبن المبارك الأرثوذكسي البكر (...) إلى الإبنة المباركة الأرثوذكسية البكر (...).</p>"
               }
             ]
           },
@@ -861,13 +201,13 @@
             "row-class": "text",
             "cells": [
               {
-                "english": "<p><b>People:</b><br/> Amen.<br/> “Our Father who art in heaven…”</p>"
+                "english": "<span class='role'>People:</span><br> Amen.<br/> “Our Father who art in heaven…”</p>"
               },
               {
-                "coptic": "<p>Ⲁ̀ⲙⲏⲛ.<br/> Ϫⲉ Ⲡⲉⲛⲓⲱⲧ ⲉⲧ ϧⲉⲛ ⲛⲓⲫⲏⲟⲩⲓ̀...</p>"
+                "coptic": "<span class='role'>Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲁ̀ⲙⲏⲛ.<br/> Ϫⲉ Ⲡⲉⲛⲓⲱⲧ ⲉⲧ ϧⲉⲛ ⲛⲓⲫⲏⲟⲩⲓ̀...</p>"
               },
               {
-                "arabic": "<p><b>الشعب:</b><br/> أمين. <br/> \"أبانا الذي في السموات...\"</p>"
+                "arabic": "<span class='role'>الشعب:</span><br> أمين. <br/> \"أبانا الذي في السموات...\"</p>"
               }
             ]
           },
@@ -892,7 +232,8 @@
   {
     "repeated_prayer_title": "Thanksgiving Prayer",
     "source": "Annual",
-    "category": "liturgical"
+    "category": "liturgical",
+    "openingCurtain": false
   },
   {
     "english_title": "The Verses of the Cymbals",
@@ -907,9 +248,6 @@
             "cells": [
               {
                 "english": "<p><i>The Priest raises the incense while the Verses of Cymbals are chanted in the festive tune.</i></p>"
-              },
-              {
-                "coptic": "<p>-</p>"
               },
               {
                 "arabic": "<p>يرفع الكاهن بخور وتُرتَّل أرباع الناقوس باللحن الفريحي.</p>"
@@ -1109,9 +447,6 @@
                 "english": "<p><i>(The priest blesses the couple and the vestments with the cross.)</i></p>"
               },
               {
-                "coptic": "<p>-</p>"
-              },
-              {
                 "arabic": "<p>(يبارك العروسين والحُلَل بالصليب)</p>"
               }
             ]
@@ -1121,9 +456,6 @@
             "cells": [
               {
                 "english": "<p>+ That they may become for Your two servants who are wearing them, through Your goodness. Amen.</p>"
-              },
-              {
-                "coptic": "<p>-</p>"
               },
               {
                 "arabic": "<p>+ لكي تصير لعبديك الذين يلبسانها بمسرة صلاحك. آمين.</p>"
@@ -1137,9 +469,6 @@
                 "english": "<p>+ Vestments of glory and salvation. Amen.</p>"
               },
               {
-                "coptic": "<p>-</p>"
-              },
-              {
                 "arabic": "<p>+ حُلل المجد والخلاص. آمين.</p>"
               }
             ]
@@ -1149,9 +478,6 @@
             "cells": [
               {
                 "english": "<p>+ Vestments of joy and happiness. Amen.</p>"
-              },
-              {
-                "coptic": "<p>-</p>"
               },
               {
                 "arabic": "<p>+ حُلل الفرح والتهليل. آمين.</p>"
@@ -1165,9 +491,6 @@
                 "english": "<p>Keep them pure in soul, body and spirit. May their life be healthy, peaceful, and chaste through acts of righteousness. Grant them heavenly and earthly comfort that they become rich with charitable deeds. Fill their house and storage places with every good thing and may they become worthy of doing Your will at all times, for You are full of mercy and righteous; </p>"
               },
               {
-                "coptic": "<p>-</p>"
-              },
-              {
                 "arabic": "<p>وإحفظهما نقيين في النفس والجسد والروح. لتكون حياتهما في صحة وسلام وعفاف بواسطة فعل البر. هِب لهما الراحة السمائية والأرضية ليستغنيا بأفعال البر. وإملأ منزلهما ومخازنهما من كل الخيرات، ليستحقا أن يعملا رضاك كل حين، لأنك رحيم كثير الرحمة وبار،</p>"
               }
             ]
@@ -1179,9 +502,6 @@
                 "english": "<p>and are worthy of glory with Your good Father and the Holy Spirit who is of one essence with You, now and at all times and unto the age of all ages. Amen.</p>"
               },
               {
-                "coptic": "<p>-</p>"
-              },
-              {
                 "arabic": "<p>ويليق بك المجد مع أبيك الصالح والروح القدس المحيي المساوي لك، الآن وكل أوان وإلى دهر الدهور. آمين.</p>"
               }
             ]
@@ -1191,9 +511,6 @@
             "cells": [
               {
                 "english": "<p><i>(The priest places the vestments and the rings on the couple while the following is chanted in the Hosanna Sunday tune)</i></p>"
-              },
-              {
-                "coptic": "<p>-</p>"
               },
               {
                 "arabic": "<p>(يلبِّس الكاهن العروسين الثياب والدبلتين ويُرتَّل الآتي باللحن الشعانيني)</p>"
@@ -1388,13 +705,13 @@
             "row-class": "text",
             "cells": [
               {
-                "english": "<p><b>People:</b><br/> We worship You O Christ, with Your good Father, and the Holy Spirit, for You have (risen) and saved us. Have mercy upon us.</p>"
+                "english": "<span class='role'>People:</span><br> We worship You O Christ, with Your good Father, and the Holy Spirit, for You have (risen) and saved us. Have mercy upon us.</p>"
               },
               {
                 "coptic": "<p>Ⲡⲓⲗⲁⲟⲥ: <br/> Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ Ⲉⲑⲟⲩⲁⲃ: ϫⲉ (ⲁⲕⲧⲱⲛⲕ) ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ. Ⲛⲁⲓ ⲛⲁⲛ</p>"
               },
               {
-                "arabic": "<p><b>الشعب:</b><br/> نسجد لك أيها المسيح، مع أبيك الصالح، والروح القدس، لأنك (قُمتَ) وخلصتنا. إرحمنا.</p>"
+                "arabic": "<span class='role'>الشعب:</span><br> نسجد لك أيها المسيح، مع أبيك الصالح، والروح القدس، لأنك (قُمتَ) وخلصتنا. إرحمنا.</p>"
               }
             ]
           },
@@ -1417,9 +734,6 @@
             "cells": [
               {
                 "english": "<p>A reading from the epistle of our teacher Saint Paul to the Ephesians, may his blessings be with us all. Amen.<br/> <i>Ephesians 5:22-6:3</i></p>"
-              },
-              {
-                "coptic": "<p>-</p>"
               },
               {
                 "arabic": "<p>فصل من رسالة معلمنا بولس الرسول إلى أهلِ أفسس، بركاته علينا. آمين.<br/> (افسس 5 : 22 - 6 : 3) </p>"
@@ -1735,9 +1049,6 @@
                 "english": "<p><i>The psalm may be chanted in Coptic with the festive tune.</i></p>"
               },
               {
-                "coptic": "<p>-</p>"
-              },
-              {
                 "arabic": "<p>يمكن أن يُّرتل المزمور باللحن السنجاري قبطياً:</p>"
               }
             ]
@@ -1847,9 +1158,6 @@
                 "english": "<p>Stand up in the fear of God and listen to the Holy Gospel. A reading from the Gospel according to Saint Matthew, may his blessings, be with us all. (Amen.)</p>"
               },
               {
-                "coptic": "<p>-</p>"
-              },
-              {
                 "arabic": "<p>قفوا بخوف الله لسماع الإنجيل المقدس، فصل من الإنجيل لمعلمنا مار متَّى البشير، بركته على جميعنا.</p>"
               }
             ]
@@ -1887,9 +1195,6 @@
             "cells": [
               {
                 "english": "<p><b>Reader:</b><br/> Blessed is He who comes in the name of the Lord. Our Lord, God, Savior, and King of us all, Jesus Christ, the Son of the living God, to whom is the glory forever and ever. Amen.</p>"
-              },
-              {
-                "coptic": "<p>-</p>"
               },
               {
                 "arabic": "<p><b>القارئ:</b><br/> مبارك الآتي بإسم الرب. ربنا وإلهنا ومخلصنا وملكنا كلنا يسوع المسيح، إبن الله الحي، الذي له المجد الدائم إلى الأبد. آمين.</p>"
@@ -2293,9 +1598,6 @@
                 "english": "<p>Now, we ask You, O our King, to join Your two servants (…) and (…), to be united in one flesh. Let them enter into the law of happiness and abide in faithful teachings. Grant them a living fruit of the womb that they may rejoice in the birth of their children and live a peaceful life.</p>"
               },
               {
-                "coptic": "<p>-</p>"
-              },
-              {
                 "arabic": "<p>أنت الآن أيضاً يا ملكنا، نسألك أن تصل عبديك (...) و (...)، لكي يتصلا ببعضهما بعضاً بجسد واحد، وليدخلا إلى ناموس الفرح، وليكونا في تعاليم صادقة. هب لهما ثمرة محيية من البطن ليبتهجا بولادة البنين الحسنة والأزمنة الهادئة السالمة.</p>"
               }
             ]
@@ -2305,9 +1607,6 @@
             "cells": [
               {
                 "english": "<p>Prepare them in all good works through Christ Jesus our Lord; through whom the glory, the honor, the dominion, and the worship are due unto You, with Him and the Holy Spirit, now and at all times and unto the age of all ages. Amen.</p>"
-              },
-              {
-                "coptic": "<p>-</p>"
               },
               {
                 "arabic": "<p>هيئهما في كل عمل صالح بالمسيح يسوع ربنا. هذا الذي ينبغي لك معه، مع الروح القدس، المجد والكرامة والعز والسجود، الآن وكل أوان وإلى دهر الدهور. آمين.</p>"
@@ -2441,9 +1740,6 @@
                 "english": "<p>We ask You, O Good One and Lover of Mankind, to bless the union of Your servants (…) and (…) that were united together by Your will. Bless them as You blessed our forefathers Abraham, Isaac and Jacob. Bless them as You have blessed Abraham and Sarah. Elevate them as You did with Isaac and Rebecca. Multiply [their seed] as You multiplied Jacob and his offspring. Glorify them as You have glorified Joseph in Egypt.</p>"
               },
               {
-                "coptic": "<p>-</p>"
-              },
-              {
                 "arabic": "<p>أنت أيها الصالح محب البشر، بارك إتحاد عبيدك (...) و (...) اللذين إتصلا ببعضهما بعضاً حسب إرادتك. باركهما وليكثرا كما باركت آبائنا الأولين إبراهيم وإسحق ويعقوب. باركهما كما باركت إبراهيم وسارة. إرفعهما مثل إسحق ورفقة. أكثرهما كما أكثرت يعقوب وزرعه. ومجدهما كما مجدت يوسف بمصر.</p>"
               }
             ]
@@ -2453,9 +1749,6 @@
             "cells": [
               {
                 "english": "<p>Grant them purity. Multiply them as Elkana and Anna, whom You blessed and gave them Samuel, the faithful prophet. Make them worthy of the good tidings of the pure Archangel like Zacharias and Elizabeth, to whom You gave John the Baptist, the greatest among the offspring of women, who became the forerunner before Your only begotten Son.</p>"
-              },
-              {
-                "coptic": "<p>-</p>"
               },
               {
                 "arabic": "<p>هِب لهما طهارة. أكثرهما مثل ألقانة وحنة الذين باركتهما وأنعمت عليهما بصموئيل النبي الأمين. إجعلهما أهلاً لبشارة رئيس الملائكة الطاهرة، مثل زكريا وأليصابات الذين أنعمت عليهما بولادة يوحنا المعمدان أعظم مواليد النساء، الذي صار سابقاً قدام إبنك الوحيد الجنس.</p>"
@@ -2469,9 +1762,6 @@
                 "english": "<p>You also, O Master, Lord, have blessed Joachim and Anna and made from them the rational ark, the Mother of God, Saint Mary, of whom Your only begotten Son was incarnate and came into the world, and blessed the wedding of Cana of Galilee. </p>"
               },
               {
-                "coptic": "<p>-</p>"
-              },
-              {
                 "arabic": "<p>وأنت أيضاً أيها السيد الرب باركت يواقيم وحنة، وصنعت منهما التابوت العقلي، والدة الإله مريم، التي تجسد منها إبنك الوحيد وجاء إلى العالم، وبارك عرس قانا الجليل. </p>"
               }
             ]
@@ -2481,9 +1771,6 @@
             "cells": [
               {
                 "english": "<p>Bless Your servants (…) and (…) that were united at this hour. Grant them prosperity, wisdom and the blessing of salvation, that they may be united in their bodies and souls with all godliness and chastity; and be worthy of Your blessing and glorify Your holy name together with Your only begotten Son and the Holy Spirit, now and at all times and unto the age of all ages. Amen.</p>"
-              },
-              {
-                "coptic": "<p>-</p>"
               },
               {
                 "arabic": "<p>بارك عبديك (...) و (...) اللذين اقترنا في هذه الساعة. إنعم عليهما بالرخاء والحكمة وبركات الخلاص لكي يكونا بكل تقوى وكل عفاف متصلين بجسدهما وروحهما ويستحقا البركة التي من قِبَلِك ويمجدا إسمك القدوس مع إبنك الوحيد والروح القدس، الآن وكل أوان وإلى دهر الدهور. آمين.</p>"
@@ -2673,9 +1960,6 @@
                 "english": "<p>Therefore, a man leaves his father and mother and be joined to his wife, and they become one body, and what God has joined together let not man separate. O You who blessed Abraham with Sarah, Isaac with Rebecca and Jacob in his marriage, and purified all who were joined in blessing.</p>"
               },
               {
-                "coptic": "<p>-</p>"
-              },
-              {
                 "arabic": "<p>لهذا يترك الرجل أباه وأمه ويلتصق بإمرأته، ويكونان كلاهما جسداً واحداً، وما جمعه الله لا يفرقه إنسان. فيا مَنْ بارك إبراهيم مع سارة، وإسحق مع رفقة، ويعقوب في زواجه، وطهرت كل الذين إجتمعوا بالبركة.</p>"
               }
             ]
@@ -2687,9 +1971,6 @@
                 "english": "<p>Now, also, O Master Lord, behold Your servants (…) and (…) his helpmate. Confirm their union, guard their bed in purity and shield them and their home with Your unconquerable right hand. Save them from all envy and schemes. Keep them in harmony and peace. Grant them joy and happiness that the life’s fruit from the womb may be revealed to You, O living God.</p>"
               },
               {
-                "coptic": "<p>-</p>"
-              },
-              {
                 "arabic": "<p>الآن أيضاً أيها السيد الرب، إطلع على عبديك (...) و (...) معينته. ثبت إتصالهما، إحرس مضجعهما نقياً، استرهما مع بيتهما بيمينك غير المغلوبة. نجهما من كل حسد وكل مكيدة. إحفظهما بإمتزاج واحد وسلام. هب لهما فرحاً وسروراً ليظهرا لك يا الله الحيْ ثمرة الحياة من البطن.</p>"
               }
             ]
@@ -2699,9 +1980,6 @@
             "cells": [
               {
                 "english": "<p>Bless them, O God, as You blessed Abraham with Sarah, and Isaac with Rebecca, and Jacob in his marriage. As for the men and women who are present with us, bless them in the name of our Lord, our God, and our Savior Jesus Christ, through whom the glory is due unto You, with Him, and the Holy Spirit, now and at all times, and unto the age of all ages. Amen.</p>"
-              },
-              {
-                "coptic": "<p>-</p>"
               },
               {
                 "arabic": "<p>باركهما يا الله كما باركت إبراهيم مع سارة، وإسحق مع رفقة، ويعقوب في زواجه. أما الرجال والنساء الذين ها هنا معنا، فباركهم بإسم ربنا وإلهنا ومخلصنا يسوع المسيح، هذا الذي من قبله يليق بك معه المجد مع الروح القدس، الآن وكل أوان وإلى دهر الدهور. آمين.</p>"
@@ -2863,9 +2141,6 @@
                 "english": "<p>For You are full of mercy to all those who cry out to You, and unto You we send up the glory, the honor, and the worship with Your good Father and the Holy Spirit, now and at all times and unto the age of all ages. Amen.</p>"
               },
               {
-                "coptic": "<p>-</p>"
-              },
-              {
                 "arabic": "<p>لأنك رحيم كثير الرحمة لكل الصارخين إليك، ونرسل لك المجد والكرامة والسجود مع أبيك الصالح والروح القدس، الآن وكل أوان وإلى دهر الدهور. آمين.</p>"
               }
             ]
@@ -2957,9 +2232,6 @@
                 "english": "<p><b><i>The priest recites this prayer over the oil before anointing the couple. The People respond each time saying: Amen.</i></b></p>"
               },
               {
-                "coptic": "<p>-</p>"
-              },
-              {
                 "arabic": "<p>يقول الكاهن هذه الصلاة على الزيت قبل دهن العروسين. ويرد الشعب في كل مرة: آمين.</p>"
               }
             ]
@@ -2983,9 +2255,6 @@
                 "english": "<p>+ A weapon of righteousness and justice. Amen.</p>"
               },
               {
-                "coptic": "<p>-</p>"
-              },
-              {
                 "arabic": "<p>+ سلاح البر والعدل. آمين.</p>"
               }
             ]
@@ -2995,9 +2264,6 @@
             "cells": [
               {
                 "english": "<p>+ An anointment of purity and incorruption. Amen.</p>"
-              },
-              {
-                "coptic": "<p>-</p>"
               },
               {
                 "arabic": "<p>+ مسحة الطهارة وعدم الفساد. آمين.</p>"
@@ -3011,9 +2277,6 @@
                 "english": "<p>+ A light and unfading beauty. Amen.</p>"
               },
               {
-                "coptic": "<p>-</p>"
-              },
-              {
                 "arabic": "<p>+ نوراً وجمالاً لا يذبل. آمين.</p>"
               }
             ]
@@ -3023,9 +2286,6 @@
             "cells": [
               {
                 "english": "<p>+ A joy, adornment and true comfort. Amen.</p>"
-              },
-              {
-                "coptic": "<p>-</p>"
               },
               {
                 "arabic": "<p>+ فرحاً وزينةً وعزاءً حقيقياً. آمين.</p>"
@@ -3039,9 +2299,6 @@
                 "english": "<p>+ For power, salvation and victory over all the deeds of the adversary. Amen.</p>"
               },
               {
-                "coptic": "<p>-</p>"
-              },
-              {
                 "arabic": "<p>+ قوة وخلاصاً وغلبة على كل أفعال المضاد. آمين.</p>"
               }
             ]
@@ -3051,9 +2308,6 @@
             "cells": [
               {
                 "english": "<p>+ For renewal and salvation to their souls, bodies and spirits. Amen.</p>"
-              },
-              {
-                "coptic": "<p>-</p>"
               },
               {
                 "arabic": "<p>+ تجديداً وخلاصاً لنفسيهما وجسديهما وروحيهما. آمين.</p>"
@@ -3067,9 +2321,6 @@
                 "english": "<p>+ For richness and the fruit of good deeds. Amen.</p>"
               },
               {
-                "coptic": "<p>-</p>"
-              },
-              {
                 "arabic": "<p>+ غنى مع ثمرة الأفعال الحسنة. آمين.</p>"
               }
             ]
@@ -3079,9 +2330,6 @@
             "cells": [
               {
                 "english": "<p><i>While the priest anoints the bridegroom, the People chant:</i></p>"
-              },
-              {
-                "coptic": "<p>-</p>"
               },
               {
                 "arabic": "<p>عندما يدهن الكاهن العريس، يقول الشعب:</p>"
@@ -3107,9 +2355,6 @@
             "cells": [
               {
                 "english": "<p><i>While the priest anoints the bride, the People chant:</i></p>"
-              },
-              {
-                "coptic": "<p>-</p>"
               },
               {
                 "arabic": "<p>عندما يدهن الكاهن العروس، يقول الشعب:</p>"
@@ -4075,9 +3320,6 @@
             "cells": [
               {
                 "english": "<p><i>The priest prays the three absolutions inaudibly</i></p>"
-              },
-              {
-                "coptic": "<p>-</p>"
               },
               {
                 "arabic": "<p>(يصلي الكاهن الثلاثة تحاليل سراً)</p>"

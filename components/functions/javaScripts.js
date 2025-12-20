@@ -12,6 +12,7 @@ async function initialize() {
             await loadStoredSettings(currentFileStates);
             await extractTableTitlesAndIds();
 
+            await waitForInitialLayout();
             await paginateTables();
 
 
@@ -57,6 +58,18 @@ async function initialize() {
 
 
         }
+}
+
+function waitForInitialLayout() {
+    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+    const fontsReady = document.fonts && document.fonts.ready ? document.fonts.ready.catch(() => {}) : Promise.resolve();
+
+    return Promise.all([fontsReady]).then(() => {
+        return new Promise((resolve) => {
+            const settleDelay = isIOS ? 120 : 60;
+            requestAnimationFrame(() => requestAnimationFrame(() => setTimeout(resolve, settleDelay)));
+        });
+    });
 }`;
 
 //

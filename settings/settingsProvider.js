@@ -218,6 +218,7 @@ const SettingsProvider = ({ children }) => {
       orientation: newOrientation,
     }));
   };
+  
   return (
     <SettingsContext.Provider
       value={[

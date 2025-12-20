@@ -1,28 +1,38 @@
 import seasonalPraisesData from '../../data/midnightPsalmody/seasonalPraises.json';
 import repeatedPrayersData from '../../data/repeatedPrayers/annualRepeatedPrayers.json';
-import { resolveConditionalTables, resolveRepeatedPrauersData, resolveSeasonalPraisesData } from './dataFunctions';
+import { resolveConditionalTables, resolveRepeatedPrauersData, resolveSeasonalPraisesData, resolveSeasonalAndAnnualHymns } from './dataFunctions';
 
 
 const resolveJsonData = (settings, jsonData) => {
     try {
-
-        const dayOfWeek = settings.selectedDateProperties.dayOfWeekIndex;
+        const selectedDateProperties = settings?.selectedDateProperties || {};
+        const dayOfWeek = selectedDateProperties.dayOfWeekIndex ?? 0;
         const daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
         const dayOfTheWeek = daysOfTheWeek[dayOfWeek];
-        const seasons = settings.selectedDateProperties.copticSeason;
-        const adamWatos = settings.selectedDateProperties.adamOrWatos;
-        const aktonkAki = settings.selectedDateProperties.aktonkAki;
+        const seasons = selectedDateProperties.copticSeason;
+        const adamWatos = selectedDateProperties.adamOrWatos;
+        const aktonkAki = selectedDateProperties.aktonkAki;
         const weekdayWeekend = (dayOfWeek === 0 || dayOfWeek === 6) ? "weekend" : "weekday";
         const service = "Midnight Praises";
 
 
-        const resolvedData = resolveConditionalTables(resolveRepeatedPrauersData(
-            resolveSeasonalPraisesData(
-                jsonData,
-                seasons,
-                dayOfTheWeek,adamWatos, seasonalPraisesData ),
-                    repeatedPrayersData), 
-                        { aktonkAki, seasons });
+        const resolvedData = resolveConditionalTables(
+            resolveRepeatedPrauersData(
+                resolveSeasonalAndAnnualHymns(
+                    resolveSeasonalPraisesData(
+                        jsonData,
+                        seasons,
+                        dayOfTheWeek,
+                        adamWatos,
+                        seasonalPraisesData
+                    ),
+                    seasons,
+                    adamWatos
+                ),
+                repeatedPrayersData
+            ),
+            { aktonkAki, seasons }
+        );
 
         
 

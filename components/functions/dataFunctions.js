@@ -4,6 +4,7 @@
 
 import hwRepeatedPrayersData from "../../data/repeatedPrayers/hwRepeatedPrayers.json";
 import annualRepeatedPrayersData from "../../data/repeatedPrayers/annualRepeatedPrayers.json";
+import seasonalRepeatedPrayersData from "../../data/repeatedPrayers/seasonalRepeatedPrayers.json";
 import { book , musicalNote, playPause } from "../../data/repeatedPrayers";
 
 /**
@@ -23,16 +24,18 @@ import { book , musicalNote, playPause } from "../../data/repeatedPrayers";
  * @property {string=} arabic
  * @property {string=} coptic
  * @property {string=} skipButton
- * @property {string | NavigationData=} ["data-navigation"]
+ * @property {string | NavigationData=} [dataNavigation]
  * @property {string | number | boolean | null | undefined} [anyOtherKey]
  */
 
 /**
  * @typedef {Object} TableRow
- * @property {string=} ["row-class"]
+ * @property {string=} rowClass
  * @property {TableCell[]} cells
  * @property {boolean=} nonTraditionalPascha
- * @property {NavigationData=} ["data-navigation"]
+ * @property {boolean=} eshlil
+ * @property {boolean=} openingCurtain
+ * @property {NavigationData=} dataNavigation
  */
 
 /**
@@ -47,6 +50,8 @@ import { book , musicalNote, playPause } from "../../data/repeatedPrayers";
  * @property {string=} table_class
  * @property {string=} tableClass
  * @property {string=} caption_display
+ * @property {boolean=} eshlil
+ * @property {boolean=} openingCurtain
  * @property {TableRow[]=} rows
  * @property {{ rows: TableRow[] }[]=} tbodies
  * @property {string=} explanation_button
@@ -63,6 +68,11 @@ import { book , musicalNote, playPause } from "../../data/repeatedPrayers";
  * @property {string=} caption_class
  * @property {boolean=} nonTraditionalPascha
  * @property {string=} class
+ * @property {boolean=} eshlil
+ * @property {boolean=} openingCurtain
+ * @property {string=} explanation_button
+ * @property {string=} image_button
+ * @property {string=} audio_file
  * @property {TableRow[]} rows
  */
 
@@ -139,12 +149,14 @@ export function getExpositionOnePageSettings(onePageSettings) {
 
 
 /**
- * @param {string} template
+ * @param {string | number | boolean | null | undefined} template
  * @param {TemplateVars} variables
+ * @returns {string}
  */
 export function processTemplate(template, variables) {
-  if (typeof template !== "string") return template;
+  if (typeof template !== "string") return template === undefined || template === null ? "" : String(template);
 
+  /** @type {Set<string>} */
   const missingTemplateKeys = processTemplate._missingTemplateKeys || new Set();
   processTemplate._missingTemplateKeys = missingTemplateKeys;
 
@@ -168,6 +180,8 @@ export function processTemplate(template, variables) {
     return "";
   });
 }
+/** @type {Set<string>} */
+processTemplate._missingTemplateKeys;
 
 /**
  * @param {any} table
@@ -192,7 +206,11 @@ export function renderRepeatedPrayer(table, tableIdx, variables, tableClass, pas
   if (table.nonTraditionalPascha && repeatedPrayer) {
     repeatedPrayer.nonTraditionalPascha = true;
   }
- 
+  const hasEshlilSetting = Object.prototype.hasOwnProperty.call(table, "eshlil");
+  const eshlilSetting = hasEshlilSetting ? table.eshlil : undefined;
+  const hasOpeningCurtainSetting = Object.prototype.hasOwnProperty.call(table, "openingCurtain");
+  const openingCurtainSetting = hasOpeningCurtainSetting ? table.openingCurtain : undefined;
+    
   if (!repeatedPrayer || !Array.isArray(repeatedPrayer.rows)) {
     console.log(
       "Repeated prayer title not found or invalid:",
@@ -219,12 +237,21 @@ export function renderRepeatedPrayer(table, tableIdx, variables, tableClass, pas
   }
 
   const conditions = table.repeated_prayer_variables || {};
-  return renderTable(repeatedPrayer, tableIdx, tableClass,paschalReadingsFull, variables, (row) => {
-    // Exclude rows that meet the conditions
-    return !Object.entries(conditions).some(([key, value]) => {
-      return row[key] !== undefined && row[key] !== value;
-    });
-  });
+  return renderTable(
+    repeatedPrayer,
+    tableIdx,
+    tableClass,
+    paschalReadingsFull,
+    variables,
+    (row) => {
+      // Exclude rows that meet the conditions
+      return !Object.entries(conditions).some(([key, value]) => {
+        return row[key] !== undefined && row[key] !== value;
+      });
+    },
+    eshlilSetting,
+    openingCurtainSetting
+  );
 }
 
 // Helper: Render a single table
@@ -235,6 +262,8 @@ export function renderRepeatedPrayer(table, tableIdx, variables, tableClass, pas
  * @param {boolean} paschalReadingsFull
  * @param {TemplateVars} variables
  * @param {(row: TableRow) => boolean} [filterRows]
+ * @param {boolean} [eshlilFlag]
+ * @param {boolean} [openingCurtainFlag]
  */
 export function renderTable(
   table,
@@ -242,7 +271,9 @@ export function renderTable(
   tableClass,
   paschalReadingsFull,
   variables,
-  filterRows = () => true
+  filterRows = () => true,
+  eshlilFlag,
+  openingCurtainFlag
 ) {
   if (!Array.isArray(table.rows)) {
     console.log(`Invalid rows in table: ${table.title}`, table);
@@ -256,6 +287,14 @@ export function renderTable(
   if (table.nonTraditionalPascha && !paschalReadingsFull) {
     return ``;
   }
+
+  const filteredRows = table.rows
+    .filter(filterRows)
+    .filter((row) => {
+      if (eshlilFlag === false && row.eshlil === true) return false;
+      if (openingCurtainFlag === false && row.openingCurtain === true) return false;
+      return true;
+    });
 
   let captionClass = table.caption_class ? `${table.caption_class}` : "";
 
@@ -316,8 +355,7 @@ export function renderTable(
                         : ""
                     }
                     <tbody>
-                        ${table.rows
-                          .filter(filterRows)
+                        ${filteredRows
                           .map((row, rowIdx) => {
                             
                             if (row.nonTraditionalPascha && !paschalReadingsFull) {
@@ -332,7 +370,7 @@ export function renderTable(
 
                                     ${row.cells
                                       .map((cell) =>
-                                        Object.entries(cell)
+                                        Object.entries(cell).filter(([key]) => key !== "data-navigation")
                                           .map(
                                             ([key, value]) =>
                                               `<td class="${key}">${processTemplate(
@@ -466,6 +504,11 @@ export function renderHtmlTable(table, tableIdx, tableClass, tbodyClass, variabl
         ? [{ rows: table.rows }]
         : [];
 
+  // Row-level flags that can disable rows when the table sets the flag to false.
+  const rowFlagKeys = ["eshlil", "openingCurtain"];
+  const shouldRenderRow = (row) =>
+    rowFlagKeys.every((flag) => !(table[flag] === false && row[flag] === true));
+
   if (!tbodiesToRender.length) {
     console.log(`renderHtmlTable: No rows found for table "${enTitle}"`, table);
     return `<div>Error: No rows found in table "${enTitle}"</div>`;
@@ -527,7 +570,8 @@ export function renderHtmlTable(table, tableIdx, tableClass, tbodyClass, variabl
       ${tbodiesToRender
         .map((tbody, tbodyIdx) => {
           const rows = Array.isArray(tbody.rows) ? tbody.rows : [];
-          const rowsHtml = rows
+          const filteredRows = rows.filter(shouldRenderRow);
+          const filteredRowsHtml = filteredRows
             .map((row) => {
               const navAttr =
                 row["data-navigation"] &&
@@ -545,7 +589,9 @@ export function renderHtmlTable(table, tableIdx, tableClass, tbodyClass, variabl
                       const dataNavigationValue = "skipButton" in cell
                         ? `table_${tableIdx}`
                         : cell["data-navigation"]
-                          ? processTemplate(cell["data-navigation"], variables)
+                          ? (typeof cell["data-navigation"] === "string"
+                              ? processTemplate(cell["data-navigation"], variables)
+                              : JSON.stringify(cell["data-navigation"]))
                           : "";
                       const dataNavigationAttr = dataNavigationValue
                         ? ` data-navigation="${dataNavigationValue.replace(/"/g, "&quot;")}"`
@@ -580,7 +626,7 @@ export function renderHtmlTable(table, tableIdx, tableClass, tbodyClass, variabl
             })
             .join("");
 
-          return `<tbody id="table_${tableIdx}_tbody_${tbodyIdx}" class="${tbodyClass}">${rowsHtml}</tbody>`;
+          return `<tbody id="table_${tableIdx}_tbody_${tbodyIdx}" class="${tbodyClass}">${filteredRowsHtml}</tbody>`;
         })
         .join("")}
     </table>
@@ -591,6 +637,10 @@ export function renderHtmlTable(table, tableIdx, tableClass, tbodyClass, variabl
 export function resolveRepeatedPrauersData(data, repeatedPrayersData) {
     if (!Array.isArray(data)) return [];
     if (!Array.isArray(repeatedPrayersData)) return [];
+
+    // Flags on placeholders that should be forwarded to injected repeated-prayer tables.
+    // Extend this list to support additional opt-in flags.
+    const passThroughFlags = ["eshlil", "openingCurtain"];
 
     return data.flatMap((item) => {
         if (item && item.category && item.repeated_prayer_title && item.source && item.source === "Annual") {
@@ -610,7 +660,18 @@ export function resolveRepeatedPrauersData(data, repeatedPrayersData) {
                 console.warn(`Repeated prayer table not found for category "${category}" and title "${repeated_prayer_title}"`);
                 return item;
             }
-            return replacements;
+
+            const replacementsWithFlags = replacements.map((table) => {
+                const updated = { ...table };
+                passThroughFlags.forEach((flag) => {
+                    if (Object.prototype.hasOwnProperty.call(item, flag)) {
+                        updated[flag] = item[flag];
+                    }
+                });
+                return updated;
+            });
+
+            return replacementsWithFlags;
         }
         return item;
     });
@@ -699,5 +760,50 @@ export function resolveConditionalTables(data, { aktonkAki, seasons }) {
     });
 }
 
+/** @returns {any[]} */
+export function resolveSeasonalAndAnnualHymns(data, seasons, adamWatos) {
+    if (!Array.isArray(data)) return [];
 
+    const hasValue = (value) => value !== undefined && value !== null && value !== '';
+    const normalizeToArray = (value) => Array.isArray(value) ? value : [value];
+    const seasonsMatch = (requestedSeasons, entrySeasons) => {
+        if (!hasValue(entrySeasons)) return true; // entry applies to all seasons
+        if (!hasValue(requestedSeasons)) return true; // no filter provided
+        const requested = normalizeToArray(requestedSeasons);
+        const entry = normalizeToArray(entrySeasons);
+        return entry.some((s) => requested.includes(s));
+    };
+
+    const adamWatosMatch = (currentAdamWatos, expectedAdamWatos) => {
+        if (!hasValue(expectedAdamWatos)) return true;
+        return currentAdamWatos === expectedAdamWatos;
+    };
+
+    return /** @type {any[]} */ (data.flatMap((item) => {
+        const wantsSeasonal = item && item.seasonalHymns;
+        const wantsAnnual = item && item.annualHymns;
+        if (item && item.placement && (wantsSeasonal || wantsAnnual)) {
+            const placement = item.placement;
+
+            // Select the appropriate data sources based on the flags.
+            /** @type {any[]} */
+            const placementTables = [
+                ...(wantsSeasonal ? seasonalRepeatedPrayersData : []),
+                ...(wantsAnnual ? annualRepeatedPrayersData : []),
+            ]
+                .flatMap((entry) => Array.isArray(entry.tables) ? entry.tables : [])
+                .filter((table) => Array.isArray(table.placement) && table.placement.length);
+
+            /** @type {any[]} */
+            const replacements = placementTables.filter((entry) => {
+                const placementMatch = Array.isArray(entry.placement) && entry.placement.includes(placement);
+                const seasonMatch = seasonsMatch(seasons, entry.season);
+                const adamWatosMatchResult = adamWatosMatch(adamWatos, entry.adamWatos);
+                return placementMatch && seasonMatch && adamWatosMatchResult;
+            });
+            return /** @type {any} */ (replacements);
+        }
+        return item;
+    }));
+}
 

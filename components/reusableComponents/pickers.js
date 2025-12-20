@@ -1,6 +1,6 @@
   import React, {useState} from "react";
   import { StyleSheet, Text, View , ScrollView , TouchableOpacity } from "react-native";
-  import Icon from "react-native-vector-icons/AntDesign";
+  import { AntDesign as Icon } from "@expo/vector-icons";
   import SelectDropdown from "react-native-select-dropdown";
   import bible from "../../data/bible/bible.json";
   import { presentationStyles } from "../css/presentationStyles";

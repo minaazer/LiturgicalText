@@ -1,0 +1,382 @@
+[
+    {
+        "category": "hymns",
+        "tables": [
+            {
+                "title": "Etaven Nieskhai",
+                "english_caption": "Hymn of the feast of the Cross",
+                "arabic_caption": "لحن في عيد الصليب",
+                "coptic_caption": "Ⲉ̀ⲧⲁⲩⲉⲛ ⲛⲓⲥ̀ϧⲁⲓ",
+                "placement": [
+                    "processionHymns"
+                ],
+                "season": [
+                    "Feast of the Cross"
+                ],
+                "tbodies": [
+                    {
+                        "rows": [
+                            {
+                                "row-class": "text",
+                                "cells": [
+                                    {
+                                        "english": "When the peaceful writings, of Constantine reached Alexandria saying, “Shut the gates of the heathen, and open the gates of the churches.”"
+                                    },
+                                    {
+                                        "coptic": "Ⲉ̀ⲧⲁⲩⲉⲛ ⲛⲓⲥ̀ϧⲁⲓ ⲛ̀ϩⲓⲣⲏⲛⲓⲕⲟⲛ: ⲛ̀ⲧⲉ Ⲕⲱⲥⲧⲁⲛⲧⲓⲛⲟⲥ ⲉ̀ϧⲟⲩⲛ ⲉ̀Ⲣⲁⲕⲟϯ: ϫⲉ ⲙⲁϣ̀ⲑⲁⲙ ⲙ̀ⲫ̀ⲣⲟ ⲛ̀ⲛⲓⲉⲣⲫⲏⲟⲩⲓ̀: ⲁ̀ⲱ̀ⲟⲩⲛ ⲙ̀ⲫ̀ⲣⲟ ⲛ̀ⲛⲓⲉⲕⲕⲗⲏⲥⲓⲁ."
+                                    },
+                                    {
+                                        "arabic": "لما وردت مكاتبات السلام، التي لقسطنطين إلى الإسكندرية قائلة، \"أغلقوا أبواب البرابي، وإفتحوا أبواب الكنائس.\""
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "text",
+                                "cells": [
+                                    {
+                                        "english": "Paralex:<br/> The bishops heard and became happy, the priests rejoiced, and the seven ranks of the Church, glorified the God of heaven."
+                                    },
+                                    {
+                                        "coptic": "Ⲡⲁⲣⲁⲗⲉⲝ:<br/> Ⲁ̀ ⲛⲓⲉ̀ⲡⲓⲥⲕⲟⲡⲟⲥ ⲥⲱⲧⲉⲙ ⲁⲩⲣⲁϣⲓ: ⲁ̀ ⲛⲓⲡ̀ⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ ⲟⲩⲛⲟϥ ⲙ̀ⲙⲱⲟⲩ: ⲁ̀ ⲡⲓϣⲁϣϥ ⲛ̀ⲧⲁⲅⲙⲁ ⲛ̀ⲧⲉ Ϯⲉⲕⲕⲗⲏⲥⲓⲁ: ϯⲱ̀ⲟⲩ ⲙ̀Ⲫ̀ⲛⲟⲩϯ ⲛ̀ⲧⲉ ⲧ̀ⲫⲉ."
+                                    },
+                                    {
+                                        "arabic": "برلكس:<br/> الأساقفة سمعوا ففرحوا، والقساوسة إبتهجوا، وسبع رتب الكنيسة، مجدوا إله السماء."
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "text",
+                                "cells": [
+                                    {
+                                        "english": "What bodily tongue, can speak of your great happiness, O faithful people, in all the churches."
+                                    },
+                                    {
+                                        "coptic": "Ⲁϣ ⲛ̀ⲗⲁⲥ ⲛ̀ⲥⲱⲙⲁⲧⲓⲕⲟⲥ: ⲛⲁ ϣ̀ⲥⲁϫⲓ ⲉ̀ⲡⲉⲕⲛⲓϣϯ ⲛ̀ⲑⲉⲗⲏⲗ: ⲱ̀ ⲡⲓⲗⲁⲟⲥ ⲙ̀ⲡⲓⲥ̀ⲧⲟⲥ: ϧⲉⲛ ⲛⲓⲉⲕⲕⲗⲏⲥⲓⲁ ⲧⲏⲣⲟⲩ."
+                                    },
+                                    {
+                                        "arabic": "أي لسان جسدي، يقدر أن ينطق بعِظَم سرورك، أيها الشعب المؤمن، في جميع الكنائس."
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "text",
+                                "cells": [
+                                    {
+                                        "english": "When they heard of the teachings, of king Constantine saying, “Shut the gates of the heathen, and open the gates of the churches."
+                                    },
+                                    {
+                                        "coptic": "Ⲙ̀ⲫ̀ⲛⲁⲩ ⲉ̀ⲧⲁⲩⲥⲱⲧⲉⲙ ⲉ̀ⲛⲓⲥ̀ϧⲁⲓ: ⲛ̀ⲧⲉ ⲡ̀ⲟⲩⲣⲟ Ⲕⲱⲥⲧⲁⲛⲧⲓⲛⲟⲥ: ϫⲉ ⲙⲁϣ̀ⲑⲁⲙ ⲙ̀ⲫ̀ⲣⲟ ⲛ̀ⲛⲓⲉⲣⲫⲏⲟⲩⲓ̀: ⲁ̀ ⲟⲩⲱⲛ ⲙ̀ⲫ̀ⲣⲟ ⲛ̀ⲛⲓⲉⲕⲕⲗⲏⲥⲓⲁ."
+                                    },
+                                    {
+                                        "arabic": "عندما سمعوا كتب، قسطنطين الملك قائلاً، \"إغلقوا أبواب البرابي، إفتحوا أبواب الكنائس."
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "text",
+                                "cells": [
+                                    {
+                                        "english": "Shut the houses of demons, and open the houses of God,” blessed are these people, that heard this matter."
+                                    },
+                                    {
+                                        "coptic": "Ⲙⲁϣ̀ⲑⲁⲙ ⲛ̀ⲛⲓⲏ̀ⲟⲩ ⲛ̀ⲛⲓⲇⲉⲙⲱⲛ: ⲟⲩⲟϩ ⲁ̀ ⲟⲩⲱⲛ ⲛ̀ⲛⲓⲏ̀ⲟⲩ ⲛ̀ⲧⲉ Ⲫ̀ⲛⲟⲩϯ: ⲱ̀ⲟⲩⲛⲓⲁⲧϥ ⲙ̀ⲡⲁⲓⲗⲁⲟⲥ ⲫⲁⲓ: ⲉ̀ⲧⲁϥϫⲟⲥ ⲙ̀ⲡⲁⲓⲟⲩⲁϩⲥⲁϩⲛⲓ ⲛⲁϥ."
+                                    },
+                                    {
+                                        "arabic": "أغلقوا بيوت الشياطين، وإفتحوا بيوت الله،\" مغبوط هذا الشعب الذي، قيل له هذا الأمر."
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "text",
+                                "cells": [
+                                    {
+                                        "english": "Blessed are you O Constantine, for you revived the faith, therefore God gave you life, in the kingdom of heavens."
+                                    },
+                                    {
+                                        "coptic": "Ⲱ̀ⲟⲩⲛⲓⲁⲧⲕ ⲱ̀ Ⲕⲱⲥⲧⲁⲛⲧⲓⲛⲟⲥ: ϫⲉ ⲁⲕⲧⲁⲛϧⲟ ⲙ̀ⲡⲓⲛⲁϩϯ: ⲉⲑⲃⲉ ⲫⲁⲓ ⲁ̀ Ⲫ̀ⲛⲟⲩϯ ⲧⲁⲛϧⲟⲕ: ϧⲉⲛ ⲑ̀ⲙⲉⲧⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲛⲓⲫⲏⲟⲩⲓ̀."
+                                    },
+                                    {
+                                        "arabic": "طوباك يا قسطنطين، لأنك أحييت الإيمان، فلذلك أحياك الله، في ملكوت السموات."
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "text",
+                                "cells": [
+                                    {
+                                        "english": "Pray to the Lord on our behalf, my lord king Constantine, and queen Helen, that He may forgive us our sins."
+                                    },
+                                    {
+                                        "coptic": "Ⲧⲱⲃϩ ⲙ̀Ⲡ̀ϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ: ⲡⲁϭⲟⲓⲥ ⲡ̀ⲟⲩⲣⲟ Ⲕⲱⲥⲧⲁⲛⲧⲓⲛⲟⲥ: ⲛⲉⲙ Ⲏ̀ⲗⲁⲛⲏ ϯⲟⲩⲣⲱ: ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ."
+                                    },
+                                    {
+                                        "arabic": "أُطلبا من الرب عنا، يا سيدي الملك قسطنطين، والملكة هيلانة، ليغفر لنا خطايانا."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Khristos Anesti",
+                "english_caption": "Christ is Risen",
+                "arabic_caption": "المسيح قام",
+                "coptic_caption": "Ⲭ̀ⲣⲓⲥⲧⲟⲥ ⲁ̀ⲛⲉⲥⲧⲏ",
+                "placement": [
+                    "processionHymns"
+                ],
+                "season": [
+                    "Holy 50 Days - Before Ascension",
+                    "Holy 50 Days - After Ascension"
+                ],
+                "tbodies": [
+                    {
+                        "rows": [
+                            {
+                                "row-class": "text",
+                                "cells": [
+                                    {
+                                        "english": "Christ is risen from the dead, trampling down death by death, and upon those in the tombs bestowing life."
+                                    },
+                                    {
+                                        "coptic": "Ⲭ̀ⲣⲓⲥⲧⲟⲥ ⲁ̀ⲛⲉⲥⲧⲏ ⲉⲕ ⲛⲉⲕⲣⲱⲛ: ⲑⲁⲛⲁⲧⲱ ⲑⲁⲛⲁⲧⲟⲛ: ⲡⲁⲧⲏⲥⲁⲥ ⲕⲉ ⲧⲓⲥ ⲉⲛ ⲧⲓⲥ ⲙ̀ⲛⲏⲙⲁⲥⲓ ⲍⲱⲏⲛ ⲭⲁⲣⲓⲥⲁⲙⲉⲛⲟⲥ."
+                                    },
+                                    {
+                                        "arabic": "المسيح قام من بين الأموات، بالموت داس الموت، والذين في القبور، أنعم لهم بالحياة الأبدية."
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "text",
+                                "cells": [
+                                    {
+                                        "english": "Glory to the Father and the Son and the Holy Spirit, now and forever and unto the age of all ages. Amen."
+                                    },
+                                    {
+                                        "coptic": "Ⲇⲟⲝⲁ Ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩⲓⲱ ⲕⲉ Ⲁ̀ⲅⲓⲱ Ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ: ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ⲓ̀ ⲕⲉ ⲓⲥ ⲧⲟⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ. Ⲁ̀ⲙⲏⲛ."
+                                    },
+                                    {
+                                        "arabic": "المجد للآب والإبن والروح القدس، الآن وكل أوان وإلى دهر الدهور. آمين."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Tonsina",
+                "english_caption": "We the believers",
+                "arabic_caption": "نحن المؤمنين",
+                "coptic_caption": "Ⲧⲟⲛ ⲥⲩⲛⲁⲛⲁⲣⲭⲟⲛ Ⲗⲟⲅⲟⲛ",
+                "placement": [
+                    "processionHymns"
+                ],
+                "season": [
+                    "Holy 50 Days - Before Ascension",
+                    "Holy 50 Days - After Ascension"
+                ],
+                "tbodies": [
+                    {
+                        "rows": [
+                            {
+                                "row-class": "text",
+                                "cells": [
+                                    {
+                                        "english": "We the believers hymn and worship the Logos, without beginning with the Father and the Spirit, having been born of a virgin for our salvation, for He appeared in the flesh to ascend on the Cross. He persevered unto death and raised the dead through His glorious Resurrection."
+                                    },
+                                    {
+                                        "coptic": "Ⲧⲟⲛ ⲥⲩⲛⲁⲛⲁⲣⲭⲟⲛ Ⲗⲟⲅⲟⲛ Ⲡⲁⲧⲣⲓ ⲕⲉ Ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ: ⲧⲟⲛ ⲉⲕ ⲡⲁⲣⲑⲉⲛⲟⲩ ⲧⲉⲭⲑⲉⲛⲧⲁ ⲓⲥ ⲥⲱⲧⲏⲣⲓⲁⲛ ⲏ̀ⲙⲟⲛ: ⲁ̀ⲛⲩⲙⲛⲏⲥⲱⲙⲉⲛ ⲡⲓⲥⲧⲓ ⲕⲉ ⲡ̀ⲣⲟⲥⲕⲩⲛⲏⲥⲱⲙⲉⲛ: ⲟ̀ⲧⲓ ⲏⲩⲇⲟⲕⲏⲥⲉ ⲥⲁⲣⲕⲓ: ⲁ̀ⲛⲉⲗⲑⲓⲛ ⲉⲛ ⲧⲱ ⲥ̀ⲧⲁⲩⲣⲟ: ⲕⲉ ⲑⲁⲛⲁⲧⲟⲛ ⲩ̀ⲡⲟⲙⲓⲛⲉ: ⲕⲉ ⲉ̀ⲅⲓⲣⲉ ⲧⲟⲩⲥ ⲧⲉⲑⲛⲉⲱ̀ⲟ̀: ⲧⲁⲥ ⲉⲛ ⲧⲏ ⲉⲛⲇⲟⲝⲱ Ⲁ̀ⲛⲁⲥⲧⲁⲥⲓ ⲁⲩⲧⲟⲩ."
+                                    },
+                                    {
+                                        "arabic": "نسبح نحن المؤمنين ونمجد الكلمة المساوي للآب والروح في الأزلية وعدم الإبتداء، المولود من العذراء لخلاصنا، لأنه سُرَ وأرتضى بالجسد أن يعلوا على الصليب، ويحتمل الموت وينهض الموتى بقيامته المجيدة."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Toou Lithous",
+                "english_caption": "When the stone was sealed",
+                "arabic_caption": "عندما خُتِم الحجر",
+                "coptic_caption": "Ⲧⲟⲩ ⲗⲓⲑⲟⲩⲥ",
+                "placement": [
+                    "processionHymns"
+                ],
+                "season": [
+                    "Holy 50 Days - Before Ascension",
+                    "Holy 50 Days - After Ascension"
+                ],
+                "tbodies": [
+                    {
+                        "rows": [
+                            {
+                                "row-class": "text",
+                                "cells": [
+                                    {
+                                        "english": "When the stone was sealed by the Jews, and the soldiers were guarding Your undefiled Body, You arose on the third day, O Savior, granting life to the world. For this reason, the heavenly powers cried out to You, O Giver of Life, “Glory to Your Resurrection O Christ. Glory to Your kingdom. Glory be to Your Economy, O You who alone are Lover of Mankind.”"
+                                    },
+                                    {
+                                        "coptic": "Ⲧⲟⲩ ⲗⲓⲑⲟⲩⲥ ⲫ̀ⲣⲁⲅⲓⲥⲑⲉⲛ ⲧⲟⲥ ⲩ̀ⲡⲟ ⲧⲱⲛ Ⲓⲟⲩⲇⲉⲱⲛ: ⲕⲉ ⲥ̀ⲧ̀ⲣⲁⲧⲓⲱ ⲧⲱⲛ ⲫⲩⲗⲁⲥⲥⲟⲛ ⲧⲱⲛ ⲧⲟ ⲁⲭⲣⲁⲛⲧⲟⲛ ⲥⲟⲩ Ⲥⲱⲙⲁ: ⲁ̀ⲛⲉⲥⲧⲏⲥ ⲧ̀ⲣⲓⲏ̀ⲙⲉⲣⲟⲥ Ⲥⲱⲧⲏⲣ: ⲇⲱⲣⲟⲩⲙⲉⲛⲟⲥ ⲧⲱ ⲕⲟⲥⲙⲱ ⲧⲏⲛ ⲍⲱⲏⲛ: ⲇⲓⲁ ⲧⲟⲩⲧⲟ ⲉ̀ⲇⲩⲛⲁⲙⲓⲥ ⲧⲱⲛ ⲟⲩⲣⲁⲛⲱⲛ ⲉ̀ⲃⲟⲱⲛ ⲥⲓ ⲍⲱⲟ̀ⲇⲟⲧⲁ: ⲇⲟⲝⲁ ⲧⲏ Ⲁ̀ⲛⲁⲥⲧⲁⲥⲓ ⲥⲟⲩ Ⲭ̀ⲣⲓⲥⲧⲉ: ⲇⲟⲝⲁ ⲧⲏ ⲃⲁⲥⲓⲗⲓⲁ ⲥⲟⲩ: ⲇⲟⲝⲁ ⲧⲏ ⲟⲓⲕⲟⲛⲟⲙⲓⲁ ⲥⲟⲩ: ⲙⲟⲛⲉ Ⲫⲓⲗⲁⲛⲑ̀ⲣⲱⲡⲉ."
+                                    },
+                                    {
+                                        "arabic": "أن الحجر لما خُتِم من اليهود وجسدك الطاهر حُفِظ من الجند، قُمت في اليوم الثالث أيها المخلص، مانحاً العالم الحياة. لأجل هذا قوات السموات هتفوا إليك يا واهب الحياة \"المجد لقيامتك أيها المسيح، المجد لتدبيرك، المجد لملكك يا محب البشر وحدك.\""
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Tin Anastasin",
+                "english_caption": "Your Resurrection",
+                "arabic_caption": "قيامتك",
+                "coptic_caption": "Ⲧⲏⲛ Ⲁ̀ⲛⲁⲥⲧⲁⲥⲓⲛ",
+                "placement": [
+                    "processionHymns"
+                ],
+                "season": [
+                    "Holy 50 Days - Before Ascension",
+                    "Holy 50 Days - After Ascension"
+                ],
+                "tbodies": [
+                    {
+                        "rows": [
+                            {
+                                "row-class": "text",
+                                "cells": [
+                                    {
+                                        "english": "Your Resurrection, Christ Savior, is praised by the angels in heaven; and make us on earth worthy with pure hearts to glorify You."
+                                    },
+                                    {
+                                        "coptic": "Ⲧⲏⲛ Ⲁ̀ⲛⲁⲥⲧⲁⲥⲓⲛ ⲥⲟⲩ Ⲭ̀ⲣⲓⲥⲧⲉ Ⲥⲱⲧⲏⲣ: ⲁⲅⲅⲉⲗⲓ ⲩⲙⲛⲟⲩⲥⲓⲛ ⲉⲛ ⲟⲩⲣⲁⲛⲓⲥ: ⲕⲉ ⲏ̀ⲙⲁⲥ ⲧⲟⲩⲥ ⲉ̀ⲡⲓ ⲅⲩⲥ ⲕⲁⲧⲁⲝⲓⲱⲥⲟⲛ: ⲉⲛ ⲕⲁⲑⲁⲣⲁ ⲕⲁⲣⲇⲓⲁ ⲥⲉ ⲇⲟⲝⲁⲍⲓⲛ."
+                                    },
+                                    {
+                                        "arabic": "أيها المسيح مخلصنا، أن الملائكة لا يزالون في السماء يسبحون قيامتك، ولذلك نضرع إليك فأهلنا، نحن الذين على الأرض، أن نكون ممجدين إياك بقلوب نقية أبداً."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Pekhristos Aftonf",
+                "english_caption": "Christ is Risen",
+                "arabic_caption": "المسيح قام",
+                "coptic_caption": "Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ ⲁϥⲧⲱⲛϥ",
+                "placement": [
+                    "processionHymns"
+                ],
+                "season": [
+                    "Holy 50 Days - Before Ascension",
+                    "Holy 50 Days - After Ascension"
+                ],
+                "tbodies": [
+                    {
+                        "rows": [
+                            {
+                                "row-class": "text",
+                                "cells": [
+                                    {
+                                        "english": "Christ is risen from the dead; He who died trampled down death and upon those in the tombs bestowed eternal life."
+                                    },
+                                    {
+                                        "coptic": "Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ ⲁϥⲧⲱⲛϥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ: ⲫⲏⲉ̀ⲧⲁϥⲙⲟⲩ ⲁϥϩⲱⲙⲓ ⲉ̀ϫⲉⲛ ⲫ̀ⲙⲟⲩ ⲟⲩⲟϩ ⲛⲏⲉⲧⲭⲏ ϧⲉⲛ ⲛⲓⲙ̀ϩⲁⲩ ⲁϥⲉⲣϩ̀ⲙⲟⲧ ⲛⲱⲟⲩ ⲙ̀ⲡⲓⲱⲛϧ ⲛ̀ⲉ̀ⲛⲉϩ."
+                                    },
+                                    {
+                                        "arabic": "المسيح قام من بين الأموات، الذي مات داس الموت والذين في القبور أنعم لهم بالحياة الأبدية."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Khristos Analypsis",
+                "english_caption": "Christ has Ascended",
+                "arabic_caption": "المسيح صعد",
+                "placement": [
+                    "processionHymns"
+                ],
+                "season": [
+                    "Holy 50 Days - After Ascension",
+                    "Feast of the Ascension"
+                ],
+                "coptic_caption": "Ⲭ̀ⲣⲓⲥⲧⲟⲥ ⲁ̀ⲛⲉⲗⲩⲯⲩⲥ",
+                "tbodies": [
+                    {
+                        "rows": [
+                            {
+                                "row-class": "text",
+                                "cells": [
+                                    {
+                                        "english": "Christ has ascended into the heaven, and sent us the Paraclete, the Holy Spirit, bestowing life to our souls."
+                                    },
+                                    {
+                                        "coptic": "Ⲭ̀ⲣⲓⲥⲧⲟⲥ ⲁ̀ⲛⲉⲗⲩⲯⲩⲥ ⲧⲟⲛ ⲟⲩⲣⲁⲛⲟⲛ: ⲉⲝⲁⲡⲉⲥⲧⲓⲗⲉ Ⲡⲁⲣⲁⲕⲗⲏⲧⲟⲛ ⲧⲟ Ⲡ̀ⲛⲉⲩⲙⲁ ⲧⲟ ⲁ̀ⲅⲓⲟⲛ: ⲍⲱⲏⲛ ⲭⲁⲣⲓⲥⲁⲙⲉⲛⲟⲥ ⲉ̀ⲡⲓⲧⲱⲛ ⲯⲩⲭⲱⲛ ⲏ̀ⲙⲱⲛ."
+                                    },
+                                    {
+                                        "arabic": "المسيح صعد إلى السماء، وأرسل البارقليط الروح القدس، وأنعم لنفوسنا بالحياة."
+                                    }
+                                ]
+                            },
+                            {
+                                "row-class": "text",
+                                "cells": [
+                                    {
+                                        "english": "Glory to the Father…."
+                                    },
+                                    {
+                                        "coptic": "Ⲇⲟⲝⲁ Ⲡⲁⲧⲣⲓ..."
+                                    },
+                                    {
+                                        "arabic": "المجد للآب ..."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Pekhristos Aftonf for Ascension",
+                "english_caption": "Christ is Risen",
+                "arabic_caption": "المسيح قام",
+                "coptic_caption": "Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ ⲁϥⲧⲱⲛϥ",
+                "placement": [
+                    "processionHymns"
+                ],
+                "season": [
+                    "Holy 50 Days - After Ascension",
+                    "Feast of the Ascension"
+                ],
+                "tbodies": [
+                    {
+                        "rows": [
+                            {
+                                "row-class": "text",
+                                "cells": [
+                                    {
+                                        "english": "Christ is risen from the dead, and ascended into the heavens, and is seated at the right hand of His Father in the highest, bestowing upon us (our souls) everlasting life."
+                                    },
+                                    {
+                                        "coptic": "Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ ⲁϥⲧⲱⲛϥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ: ⲟⲩⲟϩ ⲁϥϣⲉⲛⲁϥ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ⲛⲓⲫⲏⲟⲩⲓ̀: ⲁϥϩⲉⲙⲥⲓ ⲥⲁⲟⲩⲓ̀ⲛⲁⲙ ⲙ̀Ⲡⲉϥⲓⲱⲧ ϧⲉⲛ ⲛⲏⲉⲧϭⲟⲥⲓ: ⲁϥⲉⲣϩ̀ⲙⲟⲧ ⲛⲁⲛ (ⲛ̀ⲛⲉⲛⲯⲩⲭⲏ) ⲙ̀ⲡⲓⲱⲛϧ ⲛ̀ⲉ̀ⲛⲉϩ."
+                                    },
+                                    {
+                                        "arabic": "المسيح قام من بين الأموات، وصعد إلى السموات، وجلس عن يمين أبيه في الأعالي، وأنعم لنا (لنفوسنا) بالحياة الأبدية. "
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

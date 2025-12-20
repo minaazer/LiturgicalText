@@ -102,7 +102,10 @@ const changelog = {
   "1.0.95": [
     "Fixed 'I praise the virgin' refrain order in Kiahk praises",
     "Improved performance and stability"
-  ]
+  ],
+  "1.0.96": [
+    "iOS bug fixes and performance improvements",
+  ],
 };
 
 export default changelog;

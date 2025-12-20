@@ -1,5 +1,5 @@
 import { useContext, useState, useEffect, useMemo } from 'react';
-import { Dimensions } from 'react-native';
+import { Dimensions, Platform } from 'react-native';
 import SettingsContext from '../../settings/settingsContext';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
@@ -33,10 +33,20 @@ export const useDynamicStyles = (webviewRef) => {
             setTitleFontSize((parseFloat(settings.fontSize) + 0.5) + fontSizeUnit);
             setLinkFontSize((parseFloat(settings.fontSize) + 2) + fontSizeUnit);
             setToggleFontSize((parseFloat(settings.fontSize) - 1) + fontSizeUnit);
-            webviewRef.current.injectJavaScript(`paginateTables();`);
-            webviewRef.current.injectJavaScript(`clearOverlays()`);
-            webviewRef.current.injectJavaScript(`adjustOverlay();`);
-            webviewRef.current.reload();
+            const webview = webviewRef?.current;
+            if (webview?.injectJavaScript) {
+                // Clear caches and repaginate after font change; small delay on iOS for layout to settle
+                const repaginate = `
+                    if (paginateTables && typeof paginateTables.clearFontCache === 'function') { paginateTables.clearFontCache(); }
+                    if (paginateTables && typeof paginateTables.clearPaginationCache === 'function') { paginateTables.clearPaginationCache(); }
+                    window._suspendPaginate = false;
+                    paginateTables();
+                    clearOverlays();
+                    adjustOverlay();
+                `;
+                const delay = Platform.OS === 'ios' ? 150 : 50;
+                setTimeout(() => webview.injectJavaScript(repaginate), delay);
+            }
         }
         if (settings.languages) {
             

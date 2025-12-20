@@ -21,6 +21,47 @@
                 ]
             },
             {
+                "title": "Ekesmarouot with Hiten",
+                "english_caption": "Blessed are You indeed",
+                "arabic_caption": "مبارك أنت بالحقيقة",
+                "coptic_caption": "Ⲉⲕⲥⲙⲁⲣⲱⲟⲩⲧ",
+                "placement": ["processionHymns"],
+                    "tbodies": [
+                        {
+                        "rows": [
+                            {
+                                "row-class": "text",
+                                "cells": [
+                                {
+                                    "english": "Blessed are You indeed, with Your good Father, and the Holy Spirit, for You have ${aktonkAki.english} and saved us. "
+                                },
+                                {
+                                    "coptic": "Ⲕ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲁ̀ⲗⲏⲑⲱⲥ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ Ⲉⲑⲟⲩⲁⲃ: ϫⲉ ${aktonkAki.coptic} ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ."
+                                },
+                                {
+                                    "arabic": "مبارك أنت بالحقيقة، مع أبيك الصالح، والروح القدس، لأنك ${aktonkAki.arabic} وخلصتنا."
+                                }
+                                ]
+                            },
+                            {
+                                "row-class": "text",
+                                "cells": [
+                                {
+                                    "english": "Through the prayers, of our honored father the high priest Pope Abba (Tawadros), and our father the Bishop (Metropolitan) Abba (…), O Lord grant us the forgiveness of our sins."
+                                },
+                                {
+                                    "coptic": "Ϩⲓⲧⲉⲛ ⲛⲓⲉⲩⲭⲏ: ⲛ̀ⲧⲉ ⲡⲉⲛⲱⲓⲧ ⲉⲧⲧⲁⲓⲏⲟⲩⲧ ⲛ̀ⲁⲣⲭⲏⲉ̀ⲣⲉⲩⲥ ⲡⲁⲡⲁ ⲁⲃⲃⲁ (Ⲑⲉⲟ̀ⲇⲟⲣⲟⲥ): ⲛⲉⲙ ⲡⲉⲛⲓⲱⲧ ⲛ̀ⲉ̀ⲡⲓⲥⲕⲟⲡⲟⲥ (ⲙ̀ⲙⲏⲧⲣⲟⲡⲟⲗⲓⲧⲏⲥ) ⲁⲃⲃⲁ (...): Ⲡ̀ⲟ̅ⲥ̅ ⲁ̀ⲣⲓϩ̀ⲙⲟⲧ ⲛⲁⲛ ⲙ̀ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ."
+                                },
+                                {
+                                    "arabic": "بصلوات، أبينا المكرم رئيس الكهنة البابا الأنبا (تواضروس)، وأبينا الأسقف (المطران) الأنبا (...)، يا رب أنعم لنا بمغفرة خطايانا.<br/> "
+                                }
+                                ]
+                            }
+                            ]
+                        }
+                        ]
+            },
+            {
                 "title": "Taishori",
                 "english_caption": "This censer",
                 "arabic_caption": "هذه المجمرة",
@@ -164,7 +205,89 @@
                         ]
                     }
                 ]
-            }
+            },
+            {
+  "title": "Epouro",
+  "english_caption": "O King of Peace",
+  "arabic_caption": "يا ملك السلام",
+  "coptic_caption": "Ⲡ̀ⲟⲩⲣⲟ ⲛ̀ⲧⲉ ϯϩⲓⲣⲏⲛⲏ",
+  "tbodies": [
+    {
+      "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "O King of peace, grant us Your peace, establish for us Your peace, and forgive us our sins."
+              },
+              {
+                "coptic": "Ⲡ̀ⲟⲩⲣⲟ ⲛ̀ⲧⲉ ϯϩⲓⲣⲏⲛⲏ: ⲙⲟⲓ ⲛⲁⲛ ⲛ̀ⲧⲉⲕϩⲓⲣⲏⲛⲏ: ⲥⲉⲙⲛⲓ ⲛⲁⲛ ⲛ̀ⲧⲉⲕϩⲓⲣⲏⲛⲏ: ⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ."
+              },
+              {
+                "arabic": "يا ملك السلام، أعطنا سلامك، قرر لنا سلامك، وإغفر لنا خطايانا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Disperse the enemies, of the Church, and fortify her that she, may not be shaken forever."
+              },
+              {
+                "coptic": "Ϫⲱⲣ ⲉ̀ⲃⲟⲗ ⲛ̀ⲛⲓϫⲁϫⲓ: ⲛ̀ⲧⲉ Ϯⲉⲕⲕⲗⲏⲥⲓⲁ: ⲁ̀ⲣⲓⲥⲟⲃⲧ ⲉ̀ⲣⲟⲥ: ⲛ̀ⲛⲉⲥⲕⲓⲙ ϣⲁ ⲉ̀ⲛⲉϩ."
+              },
+              {
+                "arabic": "فرِّق أعداء الكنيسة، وحصنها، فلا تتزعزع، إلى الأبد."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Emmanuel our God, is now in our midst, with the glory of His Father, and the Holy Spirit."
+              },
+              {
+                "coptic": "Ⲉⲙⲙⲁⲛⲟⲩⲏⲗ Ⲡⲉⲛⲛⲟⲩϯ: ϧⲉⲛ ⲧⲉⲛⲙⲏϯ ϯⲛⲟⲩ: ϧⲉⲛ ⲡ̀ⲱ̀ⲟⲩ ⲛ̀ⲧⲉ Ⲡⲉϥⲓⲱⲧ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ Ⲉⲑⲟⲩⲁⲃ."
+              },
+              {
+                "arabic": "عمانوئيل إلهنا، في وسطنا الآن، بمجد أبيه، والروح القدس."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "May He bless us all, and purify our hearts, and heal the sicknesses, of our souls and bodies."
+              },
+              {
+                "coptic": "Ⲛ̀ⲧⲉϥⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟⲛ ⲧⲏⲣⲉⲛ: ⲛ̀ⲧⲉϥⲧⲟⲩⲃⲟ ⲛ̀ⲛⲉⲛϩⲏⲧ: ⲛ̀ⲧⲉϥⲧⲁⲗϭⲟ ⲛ̀ⲛⲓϣⲱⲛⲓ: ⲛ̀ⲧⲉ ⲛⲉⲛⲯⲩⲭⲏ ⲛⲉⲙ ⲛⲉⲛⲥⲱⲙⲁ."
+              },
+              {
+                "arabic": "ليباركنا كلنا، ويطهر قلوبنا، ويشفي أمراض، نفوسنا وأجسادنا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "We worship You O Christ, with Your good Father, and the Holy Spirit, for You have ${aktonkAki.english} and saved us. "
+              },
+              {
+                "coptic": "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: ϫⲉ ${aktonkAki.coptic} ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ. "
+              },
+              {
+                "arabic": "نسجد لك أيها المسيح، مع إبيك الصالح، والروح القدس، لأنك ${aktonkAki.arabic} وخلصتنا. "
+              }
+            ]
+          }
+        ]
+      }
+  ]
+}
         ]
     },
     {
@@ -178,6 +301,7 @@
                 "rows": [
                     {
                         "row-class": "text",
+                        "openingCurtain": true,
                         "cells": [
                             {
                                 "english": "<span class='role'>Priest:</span><br>Have mercy on us, O God, the Father, the Pantocrator. O Holy Trinity, have mercy on us.",
@@ -188,6 +312,7 @@
                     },
                     {
                         "row-class": "text",
+                        "openingCurtain": true,
                         "cells": [
                             {
                                 "english": "O Lord God of hosts be with us, for we have no helper in our tribulations and afflictions but You.",
@@ -198,6 +323,7 @@
                     },
                     {
                         "row-class": "text",
+                        "openingCurtain": true,
                         "cells": [
                             {
                                 "english": "Make us worthy to pray thankfully: Our Father who art in heaven...",
@@ -208,6 +334,7 @@
                     },
                     {
                         "row-class": "text",
+                        "openingCurtain": true,
                         "cells": [
                             {
                                 "english": "<span class='role'>Congregation:</span><br>In Christ Jesus our Lord.",
@@ -218,6 +345,7 @@
                     },
                     {
                         "row-class": "text",
+                        "eshlil": true,
                         "cells": [
                             {
                                 "english": "<span class='role'>Priest:</span><br>Let us pray.",
@@ -228,6 +356,7 @@
                     },
                     {
                         "row-class": "text",
+                        "eshlil": true,
                         "cells": [
                             {
                                 "english": "<span class='role'>Deacon:</span><br>Stand up for prayer.",
@@ -238,6 +367,7 @@
                     },
                     {
                         "row-class": "text",
+                        "eshlil": true,
                         "cells": [
                             {
                                 "english": "<span class='role'>Priest:</span><br>Peace be with all.",
@@ -248,6 +378,7 @@
                     },
                     {
                         "row-class": "text",
+                        "eshlil": true,
                         "cells": [
                             {
                                 "english": "<span class='role'>Congregation:</span><br>And with your spirit.",
@@ -406,6 +537,7 @@
                 "rows": [
                     {
                         "row-class": "text",
+                        "eshlil": true,
                         "cells": [
                             {
                                 "english": "<span class='role'>Priest:</span><br>Let us pray.",
@@ -416,6 +548,7 @@
                     },
                     {
                         "row-class": "text",
+                        "eshlil": true,
                         "cells": [
                             {
                                 "english": "<span class='role'>Deacon:</span><br>Stand up for prayer.",
@@ -426,6 +559,7 @@
                     },
                     {
                         "row-class": "text",
+                        "eshlil": true,
                         "cells": [
                             {
                                 "english": "<span class='role'>Priest:</span><br>Peace be with all.",
@@ -436,6 +570,7 @@
                     },
                     {
                         "row-class": "text",
+                        "eshlil": true,
                         "cells": [
                             {
                                 "english": "<span class='role'>Congregation:</span><br>And with your spirit.",
@@ -612,8 +747,52 @@
                 "arabic_caption": "أوشية القرابين",
                 "coptic_caption": null,
                 "rows": [
+ {
+                        "row-class": "text",
+                        "eshlil": true,
+                        "cells": [
+                            {
+                                "english": "<span class='role'>Priest:</span><br>Let us pray.",
+                                "coptic": "<span class='role'>Ⲡⲓⲟⲩⲏⲃ:</span><br>Ϣⲗⲏⲗ",
+                                "arabic": "<span class='role'>الكاهن:</span><br>صلوا"
+                            }
+                        ]
+                    },
                     {
                         "row-class": "text",
+                        "eshlil": true,
+                        "cells": [
+                            {
+                                "english": "<span class='role'>Deacon:</span><br>Stand up for prayer.",
+                                "coptic": "<span class='role'>Ⲡⲓⲇⲓⲁⲕⲱⲛ:</span><br>Ⲉⲡⲓ ⲡ̀ⲣⲟⲥⲉⲩⲭⲏ ⲥ̀ⲧⲁⲑⲏⲧⲉ.",
+                                "arabic": "<span class='role'>الشماس:</span><br>للصلاة قفوا"
+                            }
+                        ]
+                    },
+                    {
+                        "row-class": "text",
+                        "eshlil": true,
+                        "cells": [
+                            {
+                                "english": "<span class='role'>Priest:</span><br>Peace be with all.",
+                                "coptic": "<span class='role'>Ⲡⲓⲟⲩⲏⲃ:</span><br>Ⲓⲣⲏⲛⲏ ⲡⲁⲥⲓ.",
+                                "arabic": "<span class='role'>الكاهن:</span><br>السلام للكل."
+                            }
+                        ]
+                    },
+                    {
+                        "row-class": "text",
+                        "eshlil": true,
+                        "cells": [
+                            {
+                                "english": "<span class='role'>Congregation:</span><br>And with your spirit.",
+                                "coptic": "<span class='role'>Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲕⲉ ⲧⲱ ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ ⲥⲟⲩ.",
+                                "arabic": "<span class='role'>الشعب:</span><br>ولروحك أيضاً.."
+                            }
+                        ]
+                    },
+                    {
+                    "row-class": "text",
                         "cells": [
                             {
                                 "english": "<span class='role'>Priest:</span><br>We ask and entreat Your goodness, O Lover of Mankind, remember, O Lord, the sacrifices, the offerings and the thanksgivings of those who have offered to the honor and glory of Your holy name.",
@@ -820,6 +999,7 @@
                 "rows": [
                     {
                         "row-class": "text",
+                        "eshlil": true,
                         "cells": [
                             {
                                 "english": "<span class='role'>Priest:</span><br>Let us pray",
@@ -830,6 +1010,7 @@
                     },
                     {
                         "row-class": "text",
+                        "eshlil": true,
                         "cells": [
                             {
                                 "english": "<span class='role'>Deacon:</span><br>Stand up for prayer.",
@@ -840,6 +1021,7 @@
                     },
                     {
                         "row-class": "text",
+                        "eshlil": true,
                         "cells": [
                             {
                                 "english": "<span class='role'>Priest:</span><br>Peace be with all.",
@@ -850,6 +1032,7 @@
                     },
                     {
                         "row-class": "text",
+                        "eshlil": true,
                         "cells": [
                             {
                                 "english": "<span class='role'>Congregation:</span><br>And with your spirit.",
