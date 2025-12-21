@@ -249,7 +249,7 @@ td.column-1-1 {
     font-family: 'FreeSerif Avva Shenouda' !important;
     text-align: justify;
     display: ${settings.languages && !visibleLangues[2].checked ? 'none' : 'inline'};
-    line-height: 1.5;
+    line-height: 1.3;
 }
 
 .copticReadings {
@@ -406,6 +406,7 @@ td.column-1-1 {
     text-align: center !important;
     color: #FDFD96 !important;
     display: flex !important;
+    line-height: 1 !important;
     align-items: center !important; // vertical align
     font-size: ${fontSize} !important;
 

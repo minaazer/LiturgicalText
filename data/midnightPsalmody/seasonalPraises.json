@@ -6,7 +6,9 @@
     "table_class": "continued",
     "caption_class": "caption",
     "season": "Kiahk",
-    "placement": ["postTenthino"],
+    "placement": [
+      "postTenthino"
+    ],
     "themes": [],
     "tbodies": [
       {
@@ -143,14 +145,6 @@
               },
               {
                 "arabic": "أساساته في الجبال المقدسة: الرب أحب أبواب صهيون أفضل من جميع مساكن يعقوب أعمال كريمة قيلت من أجلك يا مدينة الله. الليلويا."
-              }
-            ]
-          },
-          {
-            "row-class": "north",
-            "cells": [
-              {
-                "skipButton": "${skip}"
               }
             ]
           },
@@ -428,27 +422,7 @@
                 "arabic": "أقسم الرب ولن يندم أنك أنت الكاهن إلى الأبد على طقس ملشيصادق. الليلويا."
               }
             ]
-          }
-        ]
-      },
-      {
-        "rows": []
-      }
-    ]
-  },
-  {
-    "english_title": "...Continuation of Kiahk Ode",
-    "coptic_title": "",
-    "arabic_title": "",
-    "caption_display": "none",
-    "caption_class": "caption",
-    "table_class": "notIndexed",
-    "season": "Kiahk",
-    "placement": ["postTenthino"],
-    "themes": [],
-    "tbodies": [
-      {
-        "rows": [
+          },
           {
             "row-class": "south",
             "cells": [
@@ -528,6 +502,9 @@
             ]
           }
         ]
+      },
+      {
+        "rows": []
       }
     ]
   },
@@ -537,7 +514,9 @@
     "arabic_title": "الهوس الكبير لعيد الميلاد",
     "caption_class": "caption",
     "season": "Feast of the Nativity",
-    "placement": ["postTenthino"],
+    "placement": [
+      "postTenthino"
+    ],
     "themes": [],
     "tbodies": [
       {
@@ -854,13 +833,13 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "Amen. Alleluia. Lord have mercy (3)."
+                "english": "Amen. Alleluia. Lord have mercy (3). ${cross}"
               },
               {
-                "coptic": "Ⲁ̀ⲙⲏⲛ ⲁⲗ̅. Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ. Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ. Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+                "coptic": "Ⲁ̀ⲙⲏⲛ ⲁⲗ̅. Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ. Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ. Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ. ${cross}"
               },
               {
-                "arabic": "آمين. هلليلويا. يارب ارحم يارب ارحم يارب ارحم."
+                "arabic": "آمين. هلليلويا. يارب ارحم يارب ارحم يارب ارحم. ${cross}"
               }
             ]
           }
@@ -874,7 +853,9 @@
     "arabic_title": "الهوس الكبير لعيد الغطاس",
     "caption_class": "caption",
     "season": "Feast of the Theophany",
-    "placement": ["postTenthino"],
+    "placement": [
+      "postTenthino"
+    ],
     "themes": [],
     "tbodies": [
       {
@@ -1345,13 +1326,13 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "Amen. Alleluia. Lord have mercy (3)."
+                "english": "Amen. Alleluia. Lord have mercy (3). ${cross}"
               },
               {
-                "coptic": "Ⲁ̀ⲙⲏⲛ ⲁⲗ̅. Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ. Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ. Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+                "coptic": "Ⲁ̀ⲙⲏⲛ ⲁⲗ̅. Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ. Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ. Ⲕⲩⲣⲓⲉ̀ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ. ${cross}"
               },
               {
-                "arabic": "آمين. هلليلويا. يارب ارحم يارب ارحم يارب ارحم."
+                "arabic": "آمين. هلليلويا. يارب ارحم يارب ارحم يارب ارحم. ${cross}"
               }
             ]
           }
@@ -1366,7 +1347,9 @@
     "table_class": "continued",
     "caption_class": "caption",
     "season": "Kiahk",
-    "placement": ["postTenthino"],
+    "placement": [
+      "postTenthino"
+    ],
     "themes": [],
     "tbodies": [
       {
@@ -1595,14 +1578,6 @@
             "row-class": "north",
             "cells": [
               {
-                "skipButton": "${skip}"
-              }
-            ]
-          },
-          {
-            "row-class": "north",
-            "cells": [
-              {
                 "english": "Alleluia is glorification: For a mighty Lord: It is unique and great memorial: Amen Alleluia"
               },
               {
@@ -1614,7 +1589,7 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "Alleluia is pleasure: And it gives satisfaction: To utter two thousands: Amen Alleluia"
+                "english": "Alleluia—pure exaltation: Who sings it is fulfilled: He pours it forth with all his breath: Amen Alleluia"
               },
               {
                 "arabic": "الليلويا تنزيه: وقائلها يكفيه: يقول ألفين بفية: آمين الليلويا"
@@ -1840,27 +1815,7 @@
                 "arabic": "وقال جميع الأمم: تصفق بتراتيل وهمم: يتلون تسابيح بنغم: آمين الليلويا"
               }
             ]
-          }
-        ]
-      },
-      {
-        "rows": []
-      }
-    ]
-  },
-  {
-    "english_title": "...Continuation of Amen, Alleluia",
-    "coptic_title": "",
-    "arabic_title": "",
-    "caption_display": "none",
-    "caption_class": "caption",
-    "table_class": "notIndexed",
-    "season": "Kiahk",
-    "placement": ["postTenthino"],
-    "themes": [],
-    "tbodies": [
-      {
-        "rows": [
+          },
           {
             "row-class": "south",
             "cells": [
@@ -1937,7 +1892,9 @@
     "arabic_title": "مديع على الهوس الاول (قال الرب لموسى)",
     "caption_class": "caption",
     "season": "Kiahk",
-    "placement": ["postFirstCanticle"],
+    "placement": [
+      "postFirstCanticle"
+    ],
     "themes": [],
     "tbodies": [
       {
@@ -2137,14 +2094,6 @@
               },
               {
                 "arabic": "هذا هو إلهى: أمجد اسمه دائم: هذا هو إله آبائى: صانع كل عظائم."
-              }
-            ]
-          },
-          {
-            "row-class": "north",
-            "cells": [
-              {
-                "skipButton": "${skip}"
               }
             ]
           },
@@ -2555,14 +2504,6 @@
             "row-class": "north",
             "cells": [
               {
-                "skipButton": "${skip}"
-              }
-            ]
-          },
-          {
-            "row-class": "north",
-            "cells": [
-              {
                 "english": "Without you who could have: Witnessed the glory of Christ: When He appeared In the world: Maria- Ti Parthenos"
               },
               {
@@ -2893,7 +2834,7 @@
       {
         "rows": [
           {
-            "row-class": "refrain",
+            "row-class": "north",
             "cells": [
               {
                 "english": "My heart and my tongue, praise the Trinity. O Holy Trinity, have mercy on us."
@@ -2921,7 +2862,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "For You are our God, And our Great Savior, O Holy..."
@@ -2949,20 +2890,6 @@
             ]
           },
           {
-            "row-class": "south",
-            "cells": [
-              {
-                "english": "For the sake of Your true judgments, Teach me Your justice, O Holy …"
-              },
-              {
-                "coptic": "Ⲉⲑⲃⲉ ⲛⲉⲕϩⲁⲡ ⲙ̀ⲙⲏⲓ: ⲙⲁⲧ̀ⲥⲁⲃⲟⲓ ⲉ̀ⲛⲉⲕⲙⲉⲑⲙⲏⲓ: ⲁ̀ⲅⲓⲁ̀ ..."
-              },
-              {
-                "arabic": "من أجل أحكامك الحقيقية: علمنى عدلك أيها..."
-              }
-            ]
-          },
-          {
             "row-class": "refrain",
             "cells": [
               {
@@ -2973,6 +2900,20 @@
               },
               {
                 "arabic": "قلبى ولسانى: يسبحان الثالوث: أيها الثالوث القدوس أرحمنا"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "For the sake of Your true judgments, Teach me Your justice, O Holy …"
+              },
+              {
+                "coptic": "Ⲉⲑⲃⲉ ⲛⲉⲕϩⲁⲡ ⲙ̀ⲙⲏⲓ: ⲙⲁⲧ̀ⲥⲁⲃⲟⲓ ⲉ̀ⲛⲉⲕⲙⲉⲑⲙⲏⲓ: ⲁ̀ⲅⲓⲁ̀ ..."
+              },
+              {
+                "arabic": "من أجل أحكامك الحقيقية: علمنى عدلك أيها..."
               }
             ]
           },
@@ -2991,7 +2932,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "I am here before You, I took refuge in You, O Holy …"
@@ -3019,20 +2960,6 @@
             ]
           },
           {
-            "row-class": "south",
-            "cells": [
-              {
-                "english": "Jesus is our hope, In our tribulations, O Holy ..."
-              },
-              {
-                "coptic": "Ⲓⲏⲥⲟⲩⲥ ⲡⲉ ⲧⲉⲛϩⲉⲗⲡⲓⲥ: ϧⲉⲛ ⲛⲉⲛⲑ̀ⲗⲩⲯⲓⲥ : ⲁ̀ⲅⲓⲁ̀..."
-              },
-              {
-                "arabic": "يسوع هو رجاؤنا: في شدائدنا أيها..."
-              }
-            ]
-          },
-          {
             "row-class": "refrain",
             "cells": [
               {
@@ -3043,6 +2970,20 @@
               },
               {
                 "arabic": "قلبى ولسانى: يسبحان الثالوث: أيها الثالوث القدوس أرحمنا"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "Jesus is our hope, In our tribulations, O Holy ..."
+              },
+              {
+                "coptic": "Ⲓⲏⲥⲟⲩⲥ ⲡⲉ ⲧⲉⲛϩⲉⲗⲡⲓⲥ: ϧⲉⲛ ⲛⲉⲛⲑ̀ⲗⲩⲯⲓⲥ : ⲁ̀ⲅⲓⲁ̀..."
+              },
+              {
+                "arabic": "يسوع هو رجاؤنا: في شدائدنا أيها..."
               }
             ]
           },
@@ -3061,7 +3002,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "All nations praise You, O Christ the King, O Holy …"
@@ -3089,20 +3030,6 @@
             ]
           },
           {
-            "row-class": "south",
-            "cells": [
-              {
-                "english": "You are the compassionate, And You are the Merciful, O Holy..."
-              },
-              {
-                "coptic": "Ⲛⲑⲟⲕ ⲟⲩⲣⲉϥϣⲉⲛϩⲏⲧ: ⲟⲩⲟϩ ⲛ̀ⲛⲁⲏⲧ : ⲁ̀ⲅⲓⲁ̀..."
-              },
-              {
-                "arabic": "انت المتحنن: وانت الرحوم أيها..."
-              }
-            ]
-          },
-          {
             "row-class": "refrain",
             "cells": [
               {
@@ -3113,6 +3040,20 @@
               },
               {
                 "arabic": "قلبى ولسانى: يسبحان الثالوث: أيها الثالوث القدوس أرحمنا"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "You are the compassionate, And You are the Merciful, O Holy..."
+              },
+              {
+                "coptic": "Ⲛⲑⲟⲕ ⲟⲩⲣⲉϥϣⲉⲛϩⲏⲧ: ⲟⲩⲟϩ ⲛ̀ⲛⲁⲏⲧ : ⲁ̀ⲅⲓⲁ̀..."
+              },
+              {
+                "arabic": "انت المتحنن: وانت الرحوم أيها..."
               }
             ]
           },
@@ -3131,7 +3072,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "Truly great, Is the Just Judge, O Holy..."
@@ -3159,20 +3100,6 @@
             ]
           },
           {
-            "row-class": "south",
-            "cells": [
-              {
-                "english": "Guard us O Christ, With Your Goodness, O Holy ..."
-              },
-              {
-                "coptic": "Ⲣⲱⲓⲥ ⲉ̀ⲣⲟⲛ ⲱ̀ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ϧⲉⲛ ⲧⲉⲕⲙⲉⲧⲁ̀ⲅⲁⲑⲟⲥ : ⲁ̀ⲅⲓⲁ̀..."
-              },
-              {
-                "arabic": "أحرسنا أيها المسيح: بصلاحك أيها..."
-              }
-            ]
-          },
-          {
             "row-class": "refrain",
             "cells": [
               {
@@ -3183,6 +3110,20 @@
               },
               {
                 "arabic": "قلبى ولسانى: يسبحان الثالوث: أيها الثالوث القدوس أرحمنا"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "Guard us O Christ, With Your Goodness, O Holy ..."
+              },
+              {
+                "coptic": "Ⲣⲱⲓⲥ ⲉ̀ⲣⲟⲛ ⲱ̀ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ϧⲉⲛ ⲧⲉⲕⲙⲉⲧⲁ̀ⲅⲁⲑⲟⲥ : ⲁ̀ⲅⲓⲁ̀..."
+              },
+              {
+                "arabic": "أحرسنا أيها المسيح: بصلاحك أيها..."
               }
             ]
           },
@@ -3201,7 +3142,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "My soul and my mind, Lift them up to heaven, O Holy..."
@@ -3229,20 +3170,6 @@
             ]
           },
           {
-            "row-class": "south",
-            "cells": [
-              {
-                "english": "God the Merciful, The Long-suffering, O Holy..."
-              },
-              {
-                "coptic": "Ⲫϯ ⲡⲓⲛⲁⲏⲧ: ⲡⲓⲣⲉϥⲱⲟⲩⲛ̀ϩⲏⲧ : ⲁ̀ⲅⲓⲁ̀..."
-              },
-              {
-                "arabic": "الله الرحوم: طويل الآناة أيها..."
-              }
-            ]
-          },
-          {
             "row-class": "refrain",
             "cells": [
               {
@@ -3253,6 +3180,20 @@
               },
               {
                 "arabic": "قلبى ولسانى: يسبحان الثالوث: أيها الثالوث القدوس أرحمنا"
+              }
+            ]
+          },
+          {
+            "row-class": "north",
+            "cells": [
+              {
+                "english": "God the Merciful, The Long-suffering, O Holy..."
+              },
+              {
+                "coptic": "Ⲫϯ ⲡⲓⲛⲁⲏⲧ: ⲡⲓⲣⲉϥⲱⲟⲩⲛ̀ϩⲏⲧ : ⲁ̀ⲅⲓⲁ̀..."
+              },
+              {
+                "arabic": "الله الرحوم: طويل الآناة أيها..."
               }
             ]
           },
@@ -3271,7 +3212,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "The souls of our fathers, Give rest to them, O Savior, O Holy..."
@@ -3458,14 +3399,6 @@
               },
               {
                 "arabic": "المصريون وأبكارهم: ضربهم بذراع ما أعلاه: وخلص شعبه من وسطهم: جي بيف ناي شوب شا إينيه"
-              }
-            ]
-          },
-          {
-            "row-class": "north",
-            "cells": [
-              {
-                "skipButton": "${skip}"
               }
             ]
           },
@@ -3967,13 +3900,13 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "O Virgin who gave birth to Him, as God true and good, save Your servant Nicodemus, with the rest of the Christians."
+                "english": "O Virgin who gave birth to Him, as God true and good, save Your servant Nicodemus, with the rest of the Christians. ${cross}"
               },
               {
-                "coptic": "Ⲱ̀ ⲫⲏⲉ̀ⲧⲁⲥⲙⲁⲥϥ ⲛ̀ϫⲉ Ϯⲡⲁⲣⲑⲉⲛⲟⲥ: ϩⲱⲥ Ⲛⲟⲩϯ ⲙ̀ⲙⲏⲓ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲟϩⲉⲙ ⲙ̀ⲡⲉⲕⲃⲱⲕ Ⲛⲓⲕⲟⲩⲇⲏⲙⲟⲥ: ⲛⲉⲙ ⲡ̀ⲥⲉⲡⲓ ⲛ̀ⲛⲓⲭ̀ⲣⲓⲥⲧⲓⲁ̀ⲛⲟⲥ."
+                "coptic": "Ⲱ̀ ⲫⲏⲉ̀ⲧⲁⲥⲙⲁⲥϥ ⲛ̀ϫⲉ Ϯⲡⲁⲣⲑⲉⲛⲟⲥ: ϩⲱⲥ Ⲛⲟⲩϯ ⲙ̀ⲙⲏⲓ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲟϩⲉⲙ ⲙ̀ⲡⲉⲕⲃⲱⲕ Ⲛⲓⲕⲟⲩⲇⲏⲙⲟⲥ: ⲛⲉⲙ ⲡ̀ⲥⲉⲡⲓ ⲛ̀ⲛⲓⲭ̀ⲣⲓⲥⲧⲓⲁ̀ⲛⲟⲥ. ${cross}"
               },
               {
-                "arabic": "يا أيها الذي ولدته العذراء · إذ هو إله حقيقي صالح · خلص عبدك نيقوديموس · مع باقي المسيحيين."
+                "arabic": "يا أيها الذي ولدته العذراء · إذ هو إله حقيقي صالح · خلص عبدك نيقوديموس · مع باقي المسيحيين. ${cross}"
               }
             ]
           }
@@ -4124,14 +4057,6 @@
               },
               {
                 "arabic": "صوفونيوس عنك خبر: بشهادة عن ميلاد إيسوس: قال ينزل كندي ومطر: طوباك يا بكر وعروس"
-              }
-            ]
-          },
-          {
-            "row-class": "north",
-            "cells": [
-              {
-                "skipButton": "${skip}"
               }
             ]
           },
@@ -6172,10 +6097,10 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "And we who are gathered: hear us, O Helper: as we cry out, saying: Amen, Kyrie Eleison."
+                "english": "And we who are gathered: hear us, O Helper: as we cry out, saying: Amen, Kyrie Eleison. ${cross}"
               },
               {
-                "arabic": "ونحن المجمتمعين: اسمعنا يا معين: حين نصرخ قائلين: أمين كيرياليسون."
+                "arabic": "ونحن المجمتمعين: اسمعنا يا معين: حين نصرخ قائلين: أمين كيرياليسون. ${cross}"
               }
             ]
           }
@@ -6409,10 +6334,10 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "Alleluia Alleluia: To You, is greatness and majesty: To You, is glory and power: To You, is honor and kingdom."
+                "english": "Alleluia Alleluia: To You, is greatness and majesty: To You, is glory and power: To You, is honor and kingdom. ${cross}"
               },
               {
-                "arabic": "هلليلويا هلليلويا: لك العظمة والجبروت: لك المجد لك القوة: ولك الهيبة ولك الملكوت."
+                "arabic": "هلليلويا هلليلويا: لك العظمة والجبروت: لك المجد لك القوة: ولك الهيبة ولك الملكوت. ${cross}"
               }
             ]
           }
@@ -6606,14 +6531,6 @@
               },
               {
                 "arabic": "سبحوه ومجدوه: فى كنائس شعبه ارفعوه: على منابر الشيوخ باركوه: هوس إيروف آرى هوؤتشاسف"
-              }
-            ]
-          },
-          {
-            "row-class": "north",
-            "cells": [
-              {
-                "skipButton": "${skip}"
               }
             ]
           },
@@ -7805,10 +7722,10 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "The mention of your name: is in all the believers’ mouths: they all say “O God of Abba Moses: help all of us!”"
+                "english": "The mention of your name: is in all the believers’ mouths: they all say “O God of Abba Moses: help all of us!” ${cross}"
               },
               {
-                "arabic": "تفسير إسمك في أفواه: كل المؤمنين: الكل يقولون يا إله: أنبا موسى أعنا أجمعين."
+                "arabic": "تفسير إسمك في أفواه: كل المؤمنين: الكل يقولون يا إله: أنبا موسى أعنا أجمعين. ${cross}"
               }
             ]
           }
@@ -7858,7 +7775,7 @@
                 "english": "An angel full of purity: Has led you with bravery: To the Eskiet of Abba Makarious: Peniout Ava Samuel"
               },
               {
-                "arabic": "ملاك كله طهارة: إقتادك بمهارة: لإسقات انبا مقار: بنيوت افا صموئيل"
+                "arabic": "ملاك كله طهارة: إقتادك بمهارة: لإسقات انبا مقاره: بنيوت افا صموئيل"
               }
             ]
           },
@@ -7869,7 +7786,7 @@
                 "english": "To an elder among the monks: An ascetic all his life: Who defeated Satan the enemy: Our father Avva Aghason"
               },
               {
-                "arabic": "لشيخ بين الرهبان: ناسكاً كل الزمان: قهر العدو: الشيطان بنيوت افا صموئيل"
+                "arabic": "لشيخ بين الرهبان: ناسكاً كل الزمان: قهر العدو الشيطان: بنيوت افا اغاثون"
               }
             ]
           },
@@ -7902,7 +7819,7 @@
                 "english": "With pain, you increased your load: Enslaving your ego: Gaining more love for your God: Peniout Ava Samuel"
               },
               {
-                "arabic": "زدت من اتعابك: وقهرت لذاتك: وحبك لالهك: بنيوت افا صموئيل"
+                "arabic": "زدت من اتعابك: وقهرك لذاتك: وحبك لالهك: بنيوت افا صموئيل"
               }
             ]
           },
@@ -7913,7 +7830,7 @@
                 "english": "You attained fatherhood of Antonious: And the love of Makarious: Also the faith of Dioskoros: Peniout Ava Samuel"
               },
               {
-                "arabic": "نلت ابوة انطونيوس: محبة مقاريوس: وايمان ديسقوروس: بنيوت افا صموئيل"
+                "arabic": "نلت ابوة انطونيوس: و محبة مقاريوس: وايمان ديسقوروس: بنيوت افا صموئيل"
               }
             ]
           },
@@ -7935,7 +7852,7 @@
                 "english": "You've taught them monasticism: And life of asceticism: And the teaching of Orthodoxy: Peniout Ava Samuel"
               },
               {
-                "arabic": "علمتهم الرهبانية: والحياة النسكية: وتعاليم الارثوذكسية: بنيوت افا صموئيل"
+                "arabic": "علمتهم الرهبانية: والحياة النسكية: وتعاليم ارثوذكسية: بنيوت افا صموئيل"
               }
             ]
           },
@@ -7957,7 +7874,7 @@
                 "english": "Calling for the \"Two Natures\": Without being unified: Pertaining to our Savior: Our God Emmanuel"
               },
               {
-                "arabic": "يقول بطبيعتين: وغير متحدين: للرب الفادي: الامين لإلهنا عمانوئيل"
+                "arabic": "يقول بطبيعتين: وغير متحدين: للرب الفادي الامين: لإلهنا عمانوئيل"
               }
             ]
           },
@@ -7968,7 +7885,7 @@
                 "english": "He threatened to kill all those: Who confess the \"Only Begotten Son\": And who follow the loving father: That is Avva Benjamin"
               },
               {
-                "arabic": "هدد بقتل ووعيد: من يعترف بالابن الوحيد: ويتبع باباه: الحبيب الانبا بينيامين"
+                "arabic": "هدد بقتل ووعيد: من يعترف بالابن الوحيد: ويتبع باباه الحبيب: الانبا بينيامين"
               }
             ]
           },
@@ -7979,7 +7896,7 @@
                 "english": "They ambushed the desert: The strong and evil ones: You refused them with all your strength: Peniout Ava Samuel"
               },
               {
-                "arabic": "هجم علي الصحراء: الاشرار الاقوياء: ورفضت بشمم وابادة: بنيوت افا صموئيل"
+                "arabic": "هجم علي الصحراء: الاشرار الاقوياء: ورفضت بقوة وإبادة: بنيوت افا صموئيل"
               }
             ]
           },
@@ -8001,7 +7918,7 @@
                 "english": "One nature that is pure: Divinity and Humanity: Completely unified: Peniout Ava Samuel"
               },
               {
-                "arabic": "طبيعة نقية واحدة: لاهوتية وناسوتية: متحدة بالكلية: بنيوت افا صموئيل"
+                "arabic": "طبيعة واحدة نقية: لاهوتية وناسوتية: متحدة بالكلية: بنيوت افا صموئيل"
               }
             ]
           },
@@ -8023,7 +7940,7 @@
                 "english": "They struck you with their strong hands: And whipped you without mercy: The faith is a \"Precious Gift\": Peniout Ava Samuel"
               },
               {
-                "arabic": "ضربوك بايدي قوية: جلدوك في وحشية: الايمان وديعة غالية: بنيوت افا صموئيل"
+                "arabic": "ضربوك بايدي قوية: جلدوك بوحشية: الايمان وديعة غالية: بنيوت افا صموئيل"
               }
             ]
           },
@@ -8042,10 +7959,10 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "Four monks you've instructed: To hold strong, unto the faith: They dwelt in the \"Kolomoun\": Peniout Ava Samuel"
+                "english": "Four monks you've instructed: To hold strong, unto the faith: You dwelt in the \"Kolomoun\": Peniout Ava Samuel"
               },
               {
-                "arabic": "اوصيت اربعة رهبان: ليحفظوا الايمان: اتخذوا القلمون مكان: بنيوت افا صموئيل"
+                "arabic": "اوصيت اربعة رهبان: ليحفظوا الايمان: اتخذت القلمون مكان: بنيوت افا صموئيل"
               }
             ]
           },
@@ -8067,7 +7984,7 @@
                 "english": "The vicious Barbarians tried: To ruin your vow of celebacy: You cried to Christ your helper: Peniout Ava Samuel"
               },
               {
-                "arabic": "حاول البربر المتجبرين: كسر نزر البتولية: صرخت ليسوع المسيح: بنيوت افا صموئيل"
+                "arabic": "حاول البربر المتجبرين: كسر نذر البتولية: صرخت ليسوع المسيح: بنيوت افا صموئيل"
               }
             ]
           },
@@ -8089,7 +8006,7 @@
                 "english": "A spring of healing you became: To all the sick and lame: Even the barbarian enemy: Peniout Ava Samuel"
               },
               {
-                "arabic": "صرت ينبوع شفاء: لكل مرض وداء: حتى البربر والاعداء: بنيوت افا صموئيل"
+                "arabic": "صرت ينبوع شفاء: لكل مرض وداء: حتى البربر الاعداء: بنيوت افا صموئيل"
               }
             ]
           },
@@ -8152,10 +8069,10 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "O Lord please preserve: Our Pope and the bishops with him: Also our monks and clergy: T hrough the prayers of Abba Samuel ${cross}"
+                "english": "O Lord please preserve Our Pope: and the bishops with him (and anba ___ our bishop 'metropolitan'): Also our monks and clergy: Through the prayers of Abba Samuel ${cross}"
               },
               {
-                "arabic": "احفظ يا رب بطركنا: وشركاؤه اساقفنا: ورهبانا وكهنتنا: بصلاة الانبا صموئيل ${cross}"
+                "arabic": "احفظ يا رب بطركنا: وشركاؤه اساقفنا (وانبا ___ اسقفنا 'مطرنا'): ورهبانا وكهنتنا: بصلاة الانبا صموئيل ${cross}"
               }
             ]
           }
@@ -8554,10 +8471,10 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "The mention of Your name / Is in all the believers’ mouths / They all say, “O God of Pope Kyrillos / Help all of us!”"
+                "english": "The mention of Your name / Is in all the believers’ mouths / They all say, “O God of Pope Kyrillos / Help all of us!” ${cross}"
               },
               {
-                "arabic": "تفسير إسمك في أفواه / كل المؤمنين / الكل يقولون يا إله / البابا كيرلس أعنا أجمعين"
+                "arabic": "تفسير إسمك في أفواه / كل المؤمنين / الكل يقولون يا إله / البابا كيرلس أعنا أجمعين ${cross}"
               }
             ]
           }
@@ -8572,7 +8489,8 @@
     "caption_class": "caption table-invisible",
     "season": "Kiahk",
     "placement": [
-      "preFourthCanticleSunday", "preFridayTheotokia"
+      "preFourthCanticleSunday",
+      "preFridayTheotokia"
     ],
     "themes": [],
     "tbodies": [
@@ -8853,7 +8771,8 @@
     "caption_class": "caption table-invisible",
     "season": "Kiahk",
     "placement": [
-      "preFourthCanticleSunday", "preSaturdayTheotokia"
+      "preFourthCanticleSunday",
+      "preSaturdayTheotokia"
     ],
     "themes": [],
     "tbodies": [
@@ -9229,11 +9148,12 @@
   {
     "english_title": "Watos Praise after the Saturday Theotokia",
     "coptic_title": "",
-    "arabic_title": "مديح واطس بعد ثيؤوطوكية السبت",
+    "arabic_title": "مديح واطس بعد ثيؤوطوكية السبت (أمدح فيكى يا مختارة)",
     "caption_class": "caption table-invisible",
     "season": "Kiahk",
     "placement": [
-      "preFourthCanticleSunday", "postSaturdayTheotokia"
+      "preFourthCanticleSunday",
+      "postSaturdayTheotokia"
     ],
     "themes": [],
     "tbodies": [
@@ -9246,7 +9166,7 @@
                 "english": "I praise you O chosen one / O honored offspring / with his psaltery and harp / righteous David is praising."
               },
               {
-                "arabic": "أرتل فيك يا مختارة: يا نسل مكرم مختار: بالمزمار والقيثارة: يمدح فيك داود البار."
+                "arabic": " أمدح فيكى يا مختارة: يا نسل مكرم مختار: بالمزمار والقيثارة: يمدح فيك داود البار."
               }
             ]
           },
@@ -9268,7 +9188,7 @@
                 "english": "We received all joy / grace and acceptance, through you / God has pardoned us when / He was pleased to dwell in you."
               },
               {
-                "arabic": "بك نلنا كل الأفراح: والنعمة والرضا والقبول: وأعطانا الرب السماح: حين مُرّ أن يكون فيك بحلول."
+                "arabic": "بك نلنا كل الأفراح: والنعمة والرضا والقبول: وأعطانا الرب السماح: حين سُرَّ أن يكون فيك بحلول."
               }
             ]
           },
@@ -9279,7 +9199,7 @@
                 "english": "I offer you every day / greeting, O pure Virgin / ask the Lord, our Savior / that we peacefully reach our harbor."
               },
               {
-                "arabic": "لكِ مني في كل صباح: ألف سلام يا بكر بتول: لتسألي الرب مخلصنا: يوصلنا إلى الميناء بسلام."
+                "arabic": "لكِ مني في كل صباح: ألف سلام يا بكر بتول: تسألي الرب مخلصنا: يوصلنا إلى الميناء بسلامه."
               }
             ]
           },
@@ -9312,7 +9232,7 @@
                 "english": "The glorified King was incarnate / all the hosts praise Him / proclaiming His might forever / we worship and glorify Him."
               },
               {
-                "arabic": "حل الملك المُتمجد: تسبح له كل الطغمات: له نسجد وإياه نعبّد: معترفين به كل الأوقات."
+                "arabic": "حَل الملك المُتمجد: تسبح له كل الطغمات: له نسجد وإياه نعبّد: معترفين به كل الأوقات."
               }
             ]
           },
@@ -9334,7 +9254,7 @@
                 "english": "Eve had deceived Adam / and fed him the serpent's venom / he disobeyed and regretted / he lost his glory of freedom."
               },
               {
-                "arabic": "حواء قد أطغت آدم: وسقته من سم الحية: طاوعها وصبح نادم: عريان من مجد الحرية."
+                "arabic": "حواء قد أطغت آدم: وسقته من سم الحية: طاوعها واصبح نادم: عريان من مجد الحرية."
               }
             ]
           },
@@ -9356,7 +9276,7 @@
                 "english": "He preferred the daughter of Joachim / to dwell in you in great mystery / and chose you from David's house / the mighty living Lord of glory."
               },
               {
-                "arabic": "خَصَكَ يا إبنة يواقيم: واختارك من بيت داود: ليسكن فيك سر عظيم: رب المجد الحي المعبود."
+                "arabic": "خَصَكَ يا إبنة يواقيم: واختارك من بيت داود: ليسكن فيك بسر عظيم: رب المجد الحي المعبود."
               }
             ]
           },
@@ -9367,7 +9287,7 @@
                 "english": "You were likened to the Cherubim / above angelic hosts, elevated / and all the luminous ranks / above them all, you were honored."
               },
               {
-                "arabic": "وتشبّهت بالكاروبيم: وقد زدتِ عن كل جنود: وكل طقوس نورانية: تفضئلتي عنهم بالتمام."
+                "arabic": "وتشبّهت بالكاروبيم: وقد زدتِ عن كل جنود: وكل طقوس نورانية: تفضَّلتي عنهم بالتمام."
               }
             ]
           },
@@ -9411,7 +9331,7 @@
                 "english": "He came and dwelt in your womb / while with His Father, He dwells / He was incarnate and became man / a Babe, with your milk was fed."
               },
               {
-                "arabic": "أتى وسكن في بطنك: وهو كائن في حضن أبيه: تجسد منك وصار مولوداً: رضيع وبعد الرضاع فطامه."
+                "arabic": "أتى وسكن في بطنك: وهو كائن في حضن أبيه: تجسد منك وصار مولوداً: رضيع وبعد الرضاع فِطامه."
               }
             ]
           },
@@ -9433,7 +9353,7 @@
                 "english": "He drank your milk / the Lord of mankind / with your milk, you fed / He who feeds all humankind."
               },
               {
-                "arabic": "ورضع من لبن ثدييك: رَبَ جميع البشرية: المُعطي شعبه كل طعام: ورضّعتيه وأكلَ بعد فطامه."
+                "arabic": "ورضع من لبن ثدييك: رَبَ جميع البشرية: المُعطي شعبه كل طعام: رضّعتيه وأكلَ بعد فطامه."
               }
             ]
           },
@@ -9455,7 +9375,7 @@
                 "english": "He wondered and was amazed / prophesied with illumination / the Divine Economy / a mystery beyond perception."
               },
               {
-                "arabic": "فتحيّر في الأمر وتاه: وتنب وشرح تأويل: عن تدبير اللاهوتية: بسر يفوق كل فهّامه."
+                "arabic": "فتحيّر في الأمر وتاه: وتنبأ وشرح تأويل: عن تدبير اللاهوتية: بسر يفوق كل فهّامه."
               }
             ]
           },
@@ -9477,7 +9397,7 @@
                 "english": "By the Divine power / the Holy Spirit will come upon you / and grant you praise and honor / the Father will overshadow you."
               },
               {
-                "arabic": "قال الروح القُدُس يَحلُ عليك: ويظلَلكِ الملك المرهوب: بالقوة الإلهية: واعطاك رفعة وكرامة."
+                "arabic": "قال الروح القُدُس يَحلُ عليك: ويظلَلكِ الملك المرهوب: بالقوة الإلهية: واعطاك رِِفعة وكرامة."
               }
             ]
           },
@@ -9499,7 +9419,7 @@
                 "english": "He prophesied and explained / the plan of the Lord of hosts / the pure Virgin will bear / the Son of Man, the Logos."
               },
               {
-                "arabic": "وتنبأ وشرح معناه: عن تدبير رب الأرباب: تحبل به بكر نقية: ويولد منها غلام."
+                "arabic": "وتنبأ وشرح معناه: عن تدبير رب الأرباب: تحبل به بكر نقية: ويولد منها الغُلمان."
               }
             ]
           },
@@ -9510,7 +9430,7 @@
                 "english": "Daniel likewise explained / when he saw the Throne / the honored God seated upon it / surrounded by angels with joyous tones."
               },
               {
-                "arabic": "دانيال شرح بتأويل: لما عاين بي إثرونوس: وعليه جالس رب جليل: وحواليه تسجد ني أنجيلوس."
+                "arabic": "دانيال شرح بتأويل: لما عاين بي إثرونوس: وعليه جالس رب جليل: حواليه تسجد ني أنجيلوس."
               }
             ]
           },
@@ -9521,7 +9441,7 @@
                 "english": "The wise one proclaimed / about the birth of Christ / that He will descend / as dew and rain without clouds."
               },
               {
-                "arabic": "صح القول وصدق التأويل: وما تنب صفونيوص: بنزوله شبه ندى ومطر: قطر بغير سحاب وغمامة."
+                "arabic": "صح القول وصدق التأويل: وتنبأ صفونيوص: بنزوله شبه ندى ومطر: قطر بغير سحاب وغمامة."
               }
             ]
           },
@@ -9576,7 +9496,7 @@
                 "english": "Aaron's rod had budded / and brought forth flowers / without planting or watering / it sprouted green leaves."
               },
               {
-                "arabic": "عصاة هرون قد أزهرت: وأينعت أوراقاً وأزهار: بغير سقية أخضرت: بعد اليبس أخرجت الأثمار."
+                "arabic": "عصاة هرون قد أزهرت: وأينعت أوراق وأزهار: بغير سقية أخضرت: بعد اليبس أخرجت الأثمار."
               }
             ]
           },
@@ -9598,7 +9518,7 @@
                 "english": "Amos spoke many oracles / about the birth of the Only-begotten / born before all ages / and His birth was long awaited."
               },
               {
-                "arabic": "عاموس شرح بمعاني: عن ميلاد وحيد الآب: المولود بدءٌ الأزماني: وميلاده في عقب الأحقاب."
+                "arabic": "عاموس شرح بمعاني: عن ميلاد وحيد الآب: المولود من بدءٌ الأزمان: وميلاده في عقب الأحقاب."
               }
             ]
           },
@@ -9642,7 +9562,7 @@
                 "english": "It is true and right / the sun is Jesus Christ / the moon, the smaller light / is John the Baptist."
               },
               {
-                "arabic": "قد صح القول وشمّر: الشمس إيسوس بي إخرستوس: والقمر الكوكب الأصغر: هو يوأنس بيبروذروموس."
+                "arabic": "قد صح القول وفُسِر: الشمس إيسوس بي إخرستوس: والقمر الكوكب الأصغر: هو يوأنس بي بروذروموس."
               }
             ]
           },
@@ -9653,7 +9573,7 @@
                 "english": "The luminous twelve stars / the twelve Apostles, the holy / as for you O pure Virgin / you fulfilled the vision completely."
               },
               {
-                "arabic": "ومصابيح جملة اثنى عشر: بيميت إسناف انآبوستولوس: وأنتٍ يا بكر نقية: اكملتي الرؤيا تماماً."
+                "arabic": "ومصابيح جملة اثنى عشر: بيميت إسناف ان آبوستولوس: وأنتٍ يا بكر نقية: اكملتي الرؤيا تماماً."
               }
             ]
           },
@@ -9708,7 +9628,7 @@
                 "english": "Who else, O first-born Virgin / do we ask in distress / our request on any day / on our behalf, you intercede, and bless."
               },
               {
-                "arabic": "من غيرك يا بكر بتول: نسأله في عَظم الشدة: ونترجّاه في يوم مجهول: ينجد بشفاعة جداً."
+                "arabic": "من غيرك يا بكر بتول: نسأله في عَظم الشدة: نترجّاه في يوم مجهول: ينجد بشفاعة جداً."
               }
             ]
           },
@@ -9719,7 +9639,7 @@
                 "english": "We all implore you / that our prayers be heard / You embrace who seek you / O adornment of the world."
               },
               {
-                "arabic": "نحن الكل إليك نقول: أنتٍ أبدا بالنجدة: قاصّدذك كيف ينظر ضيم: يا زين العالم بتمامه."
+                "arabic": "نحن الكل إليك نقول: أنتِ أبدا بالنجدة: قاصدك كيف ينظر ضيم: يا زين العالم بتمامه."
               }
             ]
           },
@@ -9730,7 +9650,7 @@
                 "english": "Your servant beseeches you / do not forget me in your prayers / all people call upon you / and you grant deliverance."
               },
               {
-                "arabic": "ها هوذا عبدك يترجاك: لا تنسيني بصلاتك: يا من كل إنسان يدعوك : يترجوا عَظَّم شفاعاتك."
+                "arabic": "ها هو عبدك يترجاك: لا تنسيني في صلاتك: يا من كل إنسان يدعوك : يترجوا عَظَّم شفاعاتك."
               }
             ]
           },
@@ -9785,7 +9705,7 @@
                 "english": "Your servant cries unto you / seeking your blessing / an intercession before your Son / to receive peace and healing"
               },
               {
-                "arabic": "عبدك أتاكِ بدموع: طالب ترياق من قَمُكِ: شفاعة عند يسوع ابنك: تبريني وأعود بسلامة."
+                "arabic": "عبدك أتاكِ بدموع: طالب ترياق من فمُكِ: شفاعة عند يسوع ابنك: تبريني وأعود بسلامة."
               }
             ]
           },
@@ -9818,7 +9738,7 @@
                 "english": "Graciously Lord, have mercy / O Life of every soul / keep our patriarch / the good father who fulfills the law."
               },
               {
-                "arabic": "تفضل يا رب وارحمنا: يا محيي كل الأرواح والنفوس: وأدِم رئاسة بطركنا: الأب العامل بالناموس."
+                "arabic": "تفضل يا رب وارحمنا: يا محيي الأرواح والنفوس: وأدِم رئاسة بطركنا: الأب العامل بالناموس."
               }
             ]
           },
@@ -9829,7 +9749,7 @@
                 "english": "He prays for us incessantly / Pope Abba (...) the holy / grant him a long life / give him peace and tranquility."
               },
               {
-                "arabic": "الساهر في الصلوات عنا: بينيوت إثؤواب آفا (...): أعطيه يا رب زمان فسيح: وهئيه بطول عمره بتمامه."
+                "arabic": "الساهر في الصلوات عنا: بينيوت إثؤواب آفا (...): أعطيه يا رب زمان فسيح: وهنيه بطول عمره بتمامه."
               }
             ]
           },
@@ -9837,10 +9757,10 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "Our father(s) Abba (...) the bishop(s) / partner(s) in the Apostolic ministry / accept his (their) prayer(s) on our behalf / to protect us from all misery."
+                "english": "Our fathers the honored bishops (Our father Abba ___ the bishop 'metropolitan') / partner(s) in the Apostolic ministry / accept his (their) prayer(s) on our behalf / to protect us from all misery."
               },
               {
-                "arabic": "والأنبا (...) أسقفنا: شريكه في الخدمة الرسولية: بقبول صلاته يحرسنا: من كل الآفات الزمنية."
+                "arabic": "واالاباء الافاضل اساقفتنا (وابونا الأنبا ___ أسقفنا 'مطرنا'): شركاؤه (شريكه) في الخدمة الرسولية: بقبول صلاتهم (صلاته) يحرسنا: من كل الآفات الزمنية."
               }
             ]
           },
@@ -9851,7 +9771,7 @@
                 "english": "Keep also the priests / all the dwellers of the wilderness / monks, hermits, and anchorites / keep them in chastity and pureness."
               },
               {
-                "arabic": "ويثبت سائر كهنتنا: وجميع سكان البرية: الرهبان لَبّاس الشكل: النوراني أحرصهم بتمامٌُه."
+                "arabic": "ويثبت سائر كهنتنا: وجميع سكان البرية: الرهبان لَبّاس الشكل: النوراني أحرسهم بتمامٌُه."
               }
             ]
           },
@@ -9862,7 +9782,7 @@
                 "english": "All the people who were baptized / the believers in Your holy Name / save them from all evil / and from the traps of Satan."
               },
               {
-                "arabic": "وجميع شعب المعمودية: المؤمنين بإسمك يا ديان: نجهم من كل بلية: إكسر هنهم فخاخ الشيطان."
+                "arabic": "وجميع شعب المعمودية: المؤمنين بإسمك يا ديان: نجهم من كل بلية: إكسر عنهم فخاخ الشيطان."
               }
             ]
           },
@@ -9895,7 +9815,7 @@
                 "english": "I ask of Your goodness / that Your mother be my protection / on the day of Judgement / to rejoice in the second Resurrection."
               },
               {
-                "arabic": "أسأل من جودك يا متعال: يا أم النور عوني و رجائي: مريم ذُخري يوم الحكم: تكون تصري وأفرح بقيامة."
+                "arabic": "أسأل من جودك يا متعال: ا أم النور عوني و رجائي: مريم ذُخري يوم الحكم: تكون تصري وأفرح بقيامة."
               }
             ]
           },
@@ -10919,7 +10839,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "Saying O Moses / Arise joyfully / I will show you a place / Prophesied about"
@@ -10930,7 +10850,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "Arise O Moses / And ascend to the highest mount / Upon it build a dome / To resemble a tabernacle"
@@ -10963,7 +10883,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "Elevate its height / Give it four corners / Gather what is needed / For the builders"
@@ -10974,7 +10894,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "Make the outside of the dome / And widen its hallway / Overlay it, O Moses / With pure gold"
@@ -11007,7 +10927,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "Make there upon it / Cherubs made out of gold / With their wings spread / Upon the cover"
@@ -11018,7 +10938,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "And in it place / The overlaid ark of covenant / And in it the golden vessel / With the hidden manna"
@@ -11051,7 +10971,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "Decorate it, O Moses / With various lights / Make also in it / Seven burning candles ${cross}"
@@ -11134,7 +11054,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "So therein may dwell My secrets: And also my covenant: From shittim wood: And overlaid with gold"
@@ -11145,7 +11065,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "You were likened, O Mary: To the overlaid ark: And in it the golden vessel: With the rational manna"
@@ -11178,7 +11098,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "He saved Adam: After the bondage: And returned him and his sons: Joyfully to Paradise"
@@ -11189,7 +11109,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "You enlightened the world: After it was in darkness: And you carried in your womb: The Son; The Logos of God"
@@ -11222,7 +11142,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "You held in your womb: The Lord your God: You nourished Him with your milk: Like the rest of the humans"
@@ -11233,7 +11153,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "Ezekiel prophesied: In a vision and said: I saw an eastern door: Closed at all sides"
@@ -11266,7 +11186,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "He shall save His people: At the end of days: Your Son granted us salvation: O censer of Aaron ${cross}"
@@ -11277,7 +11197,7 @@
             ]
           },
           {
-            "row-class": "refrain",
+            "row-class": "south",
             "cells": [
               {
                 "english": "Hail to you O Mary: O you full of grace: Who are engulfed in light: O mother of the Merciful"
@@ -11288,7 +11208,7 @@
             ]
           },
           {
-            "row-class": "refrain",
+            "row-class": "south",
             "cells": [
               {
                 "english": "Intercede for us: On judgment day: Your Son granted us salvation: O daughter of Zion"
@@ -11310,7 +11230,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "He has shown strength with His arm; He has scattered the proud in the imagination of their hearts. He has put down the mighty from their thrones and exalted the lowly. He has filled the hungry with good things and the rich He has sent away empty. He has helped His servant Israel, In remembrance of His mercy, As He spoke to our fathers, To Abraham and to his seed forever.\" And Glory be to God forever. Amen ${cross}"
@@ -11349,7 +11269,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "It was the Son of the Living God: Who gives forgiveness: To every pure person: Who lives in the paradise of Joy"
@@ -11360,7 +11280,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "You are the high altar: Who is engulfed in Light: And Its Light shines brightly: And fills all the earth"
@@ -11393,7 +11313,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "You held the Son of God: The Creator of all things: The Life Giver: To every body and soul"
@@ -11404,7 +11324,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "O flower of incense: The aroma of your incense spread: O star that shines: That shines as a lamp"
@@ -11437,7 +11357,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "And around Him thousands and thousands: Myriads and myriads: While praising God: The Holy King."
@@ -11448,7 +11368,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "You were likened, O Mary; With the Throne of God the Creator: You held the Son of God: The living and unseen."
@@ -11481,7 +11401,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "You held Him in your womb: O Virgin and bride: You gave birth to Him and He drank your milk: Like all the humans. ${cross}"
@@ -11564,7 +11484,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "O the precious gemstone: O ship of salvation: Blessed are you O Mary: The daughter of Zion"
@@ -11575,7 +11495,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "O ladder of Jacob: You held the Judge: And He dwelt in your womb: You gave birth to the Son of Man"
@@ -11608,7 +11528,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "You are a planted vineyard: That bears the Fruit: Your Son granted us forgiveness: O hidden gem"
@@ -11619,7 +11539,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "David said in the psalm: While playing on his harp: The Lord chose Zion: And came and dwelt in her."
@@ -11652,7 +11572,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "You are greatly exalted: You became the highest heaven: You are above all ranks: The righteous and the saints"
@@ -11663,7 +11583,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "You're above the Cherubim: O the pride of virgins: And higher than the Seraphim: Which are full of light"
@@ -11696,7 +11616,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "Your Son illuminated the darkness: And made us free: We inherited the kingdom: Through baptism and Holy Myron. ${cross}"
@@ -11779,7 +11699,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "And upon it seven candles: To shine by day and night: From the inside of the dome: And from the ark"
@@ -11790,7 +11710,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "He made it according to the plan: And built the lampstand: Out of precious gold: Blessed are you O chosen"
@@ -11823,7 +11743,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "O Mary, you are higher: Than all the upright fathers: His Holy Spirit came upon you: The Holy Lord"
@@ -11834,7 +11754,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "Moses did see you: Upon Mount Tabor: A planted tree: Engulfed in light"
@@ -11867,7 +11787,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "Many spoke of you: In prophesies and proverbs: The fathers called you: The fair dove."
@@ -11878,7 +11798,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "David your father: In the psalms did say: “The Lord choose your beauty: And increased you in splendor."
@@ -11911,7 +11831,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "He Who overshadowed her: And sent her His Holy Spirit: You gave birth to the True God: The Creator of souls. ${cross}"
@@ -11994,7 +11914,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "Your presence O Mary: Has saved us from hell's fire: The promise was fulfilled through you: As was prophesied."
@@ -12005,7 +11925,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "You are the censer: In it are the ointment and incense: You held the Son of God: Light of Light."
@@ -12038,7 +11958,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "You held the worshipped: And He appeared from you: He freed those in bondage: And trampled down Satan."
@@ -12049,7 +11969,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "You are the censer: The aroma of your incense spread: And filled all the earth: And through you we received joy,"
@@ -12082,7 +12002,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "Your sweet aroma spread: From the Ember and increased: He gave symbols of you: In many prophecies."
@@ -12093,7 +12013,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "Blessed are you, O Mary: O the mother of Jesus Christ: O pure sanctuary: And the shelter of the Holy."
@@ -12126,7 +12046,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "You held the Creator: The Son of God, the Judge: You gave birth to His Humanity: With the united Divinity. ${cross}"
@@ -12151,10 +12071,10 @@
             "row-class": "refrain",
             "cells": [
               {
-                "english": "Intercede for us: On judgment day: Your Son granted us salvation: O daughter of Zion"
+                "english": "Intercede for us: On judgment day: Your Son granted us salvation: O daughter of Zion ${cross}"
               },
               {
-                "arabic": "إشفعى فينا: فى يوم الزحمة: بابنك نلنا الخلاص: ياإبنة صهيون"
+                "arabic": "إشفعى فينا: فى يوم الزحمة: بابنك نلنا الخلاص: ياإبنة صهيون ${cross}"
               }
             ]
           }
@@ -12187,7 +12107,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "The Fountain of Life came forth from You: He healed all the sick: He returned the lost sheep: To the Paradise of Joy."
@@ -12198,7 +12118,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "You are the dome of Moses: That is filled with Light: You are the ark of covenant: Containing the secrets."
@@ -12231,7 +12151,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "He who believes in Him: Shall live after death: O you pure altar: Carrying the hidden secrets."
@@ -12242,7 +12162,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "Hail to you O Mary: O favored above all virgins: The fathers called you: “The golden lampstand.”"
@@ -12275,7 +12195,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "Through you O Mary, we were awarded: The kingdom of Joy: Blessed are you O Mary: The sister of Solomon."
@@ -12286,7 +12206,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "Do not forget your servant: For I am a poor sinner: I plead for your intercessions: On judgment day."
@@ -13150,9 +13070,9 @@
     ]
   },
   {
-    "english_title": "O Daughter of David - Praise on Teoi-enhikanos",
+    "english_title": "O Daughter of David - Praise on Avmoti",
     "coptic_title": "",
-    "arabic_title": "يا ابنة داود - مدح على تيؤي انهيكانوس",
+    "arabic_title": "يا ابنة داود - مدح على افموتي",
     "caption_class": "caption",
     "season": "Kiahk",
     "placement": [
@@ -13174,7 +13094,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "He was ever-present: From the beginning of ages: Appeared born of you: With described humanity"
@@ -13185,7 +13105,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "O door of grace: And key of paradise: O mother of the Mercy: And mother of the Holy"
@@ -13218,7 +13138,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "To Him the ranks worship: And cry out in all tongues: Appeared of you in flesh: Perfect and described"
@@ -13229,7 +13149,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "O hidden jewel: O light of all lights: With the kept secret: In the knowledge of the Mighty"
@@ -13262,7 +13182,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "The Lord appeared of you: And you’re a maiden virgin: You bore Him as a boy: In perfect description"
@@ -13273,7 +13193,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "O Holy chamber: Of the Spirit of God the Judge: O throne, on it sat: The creator of all the world"
@@ -13287,10 +13207,10 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "To Him, (they) worship and sanctify: And cry out in all tongues: Ⲛⲓⲧⲁⲅⲙⲁ ⲛ̀ⲛⲓⲁⲅⲅⲉⲗⲟⲥ: Thousands and myriads"
+                "english": "To Him, (they) worship and sanctify: And cry out in all tongues: <span class='coptic'>Ⲛⲓⲧⲁⲅⲙⲁ ⲛ̀ⲛⲓⲁⲅⲅⲉⲗⲟⲥ</span>: Thousands and myriads"
               },
               {
-                "arabic": "له تسجد وتقدس: وتصيح بكل لسان: Ⲛⲓⲧⲁⲅⲙⲁ ⲛ̀ⲛⲓⲁⲅⲅⲉⲗⲟⲥ: ربوات والوفي"
+                "arabic": "له تسجد وتقدس: وتصيح بكل لسان: <span class='coptic'>Ⲛⲓⲧⲁⲅⲙⲁ ⲛ̀ⲛⲓⲁⲅⲅⲉⲗⲟⲥ</span>: ربوات والوفي"
               }
             ]
           },
@@ -13306,7 +13226,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "And Jesus raised your honor: With the dwelling of His Holy Spirit: In your womb, he came in triumph: To His own people"
@@ -13317,13 +13237,13 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
-                "english": "O vision and prophecy: Saw it Ⲙⲱⲏ̀ⲥⲓⲥ: A bush enflamed with fire: No harm came upon it"
+                "english": "O vision and prophecy: Saw it <span class='coptic'>Ⲙⲱⲏ̀ⲥⲓⲥ</span>: A bush enflamed with fire: No harm came upon it"
               },
               {
-                "arabic": "يا رؤيا وأنذار: عاينها Ⲙⲱⲏ̀ⲥⲓⲥ: عوسج في قلبه نار: ولم يمسه بأس"
+                "arabic": "يا رؤيا وأنذار: عاينها <span class='coptic'>Ⲙⲱⲏ̀ⲥⲓⲥ</span>: عوسج في قلبه نار: ولم يمسه بأس"
               }
             ]
           },
@@ -13350,7 +13270,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "In your womb appeared: Our Lord, the Almighty One: Able God: Merciful and Compassionate"
@@ -13361,7 +13281,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "O hidden secret: In the light of lights: O mount of Zion: The Lord chose you"
@@ -13394,7 +13314,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "You carried the Lord Jesus: His light shone openly: And released those who were: Placed in darkness"
@@ -13405,7 +13325,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "O truth of faith: And knowledge of the Trinity: Their light would not be seen: Without your Son"
@@ -13438,7 +13358,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "Your honor pleases God: He fulfilled the promise: To Adam and treasured it: And removed fear from us"
@@ -13449,7 +13369,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "O blessed one: The righteous bless you: With harmonious voices: David praised you"
@@ -13482,7 +13402,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "Through the dwelling of the Word: The Son of God the Judge: We attained grace in your womb: And fear departed from us"
@@ -13493,7 +13413,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "O pillar of faith: And foundation of the creed: Without your Son there would not be: Laws nor Canons"
@@ -13526,7 +13446,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "And I hail the virgin: In secret and openly: She intercedes for He: Who offers her praise"
@@ -13537,7 +13457,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "And peace to all present: Everyone in total: Men, women and children: The Lord forgive them"
@@ -13570,7 +13490,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "My goal before my death: Repentance full of tears: Erasing all my sins: Relieving me from fear"
@@ -13581,7 +13501,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "For I am a poor sinner: Drowning in my sins: Throughout the day despised: And lost in the thoughts"
@@ -13614,7 +13534,7 @@
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
                 "english": "Before the end of my life: Grant me faith: And repentance pleasing to my soul: And fear departs from me"
@@ -13625,7 +13545,7 @@
             ]
           },
           {
-            "row-class": "north",
+            "row-class": "south",
             "cells": [
               {
                 "english": "Repentance pleasing to my soul: With tears upon my cheeks: I do not fall to my tomb: Till I am saved and redeemed"
@@ -13650,21 +13570,21 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "Ⲡⲉⲕⲃⲱⲕ Ⲅⲁⲃⲣⲓⲏⲗ: Ⲁ̀ⲛⲟⲕ ⲡⲓϩⲏⲕⲓ: All my life I beg you: Consumed in your love:"
+                "english": "<span class='coptic'>Ⲡⲉⲕⲃⲱⲕ Ⲅⲁⲃⲣⲓⲏⲗ: Ⲁ̀ⲛⲟⲕ ⲡⲓϩⲏⲕⲓ:</span> All my life I beg you: Consumed in your love:"
               },
               {
-                "arabic": "Ⲡⲉⲕⲃⲱⲕ Ⲅⲁⲃⲣⲓⲏⲗ: Ⲁ̀ⲛⲟⲕ ⲡⲓϩⲏⲕⲓ طول عمري اترجاك: وبحبك ملهوفي"
+                "arabic": "<span class='coptic'>Ⲡⲉⲕⲃⲱⲕ Ⲅⲁⲃⲣⲓⲏⲗ: Ⲁ̀ⲛⲟⲕ ⲡⲓϩⲏⲕⲓ:</span> طول عمري اترجاك: وبحبك ملهوفي"
               }
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
-                "english": "I conclude my words O brothers: Praising Ϯⲡⲁⲣⲑⲉⲛⲟⲥ: The prayers of the pride of warriors: My Lord Ⲅⲉⲟⲣⲅⲓⲟⲥ ${cross}"
+                "english": "I conclude my words O brothers: Praising <span class='coptic'>Ϯⲡⲁⲣⲑⲉⲛⲟⲥ</span>: The prayers of the pride of warriors: My Lord <span class='coptic'>Ⲅⲉⲟⲣⲅⲓⲟⲥ</span> ${cross}"
               },
               {
-                "arabic": "وأختم قولي يا أخوان: بمديح Ϯⲡⲁⲣⲑⲉⲛⲟⲥ: :وصلاة فخر الشجعان سيدي Ⲅⲉⲟⲣⲅⲓⲟⲥ ${cross}"
+                "arabic": "وأختم قولي يا أخوان: بمديح <span class='coptic'>Ϯⲡⲁⲣⲑⲉⲛⲟⲥ</span>: :وصلاة فخر الشجعان سيدي <span class='coptic'>Ⲅⲉⲟⲣⲅⲓⲟⲥ</span> ${cross}"
               }
             ]
           }
@@ -13784,7 +13704,7 @@
               }
             ]
           },
-                    {
+          {
             "row-class": "refrain",
             "cells": [
               {
@@ -13824,7 +13744,7 @@
                 "english": "Sorrow was taken away: And we are comforted: Through you, O Mary: The pride of the human race"
               },
               {
-                "arabic": "زالت عنا الأحزان وصرنا فى أطمئنان بك يامريم يا فخر البشريون"
+                "arabic": "زالت عنا الأحزان وصرنا فى اطمئنان بك يامريم يا فخر البشريون"
               }
             ]
           },
@@ -13904,7 +13824,7 @@
                 "arabic": "سباني حُبك: يافخرَ الرتب: موسى رآكِ: عجب من عجب: والقناديل فضة بتضوي: والصلبان ذهب : ياقبة موسى يامريم: ياشورية هرون"
               }
             ]
-          },          
+          },
           {
             "row-class": "north",
             "cells": [
@@ -13945,7 +13865,7 @@
                 "english": "Existent before the ages: Suffered and was crucified: He rose from His sleep: And the Disciples preached"
               },
               {
-                "arabic": "قديم أذلي دائم: صلب عنا وتألم: استيقظ كالنائم: والتلاميذ يكرزون"
+                "arabic": "قديم أزلي دائم: صلب عنا وتألم: استيقظ كالنائم: والتلاميذ يكرزون"
               }
             ]
           },
@@ -14268,13 +14188,15 @@
       }
     ]
   },
-    {
+  {
     "english_title": "Nativity Paramone Adam Exposition After First Canticle",
     "coptic_title": "",
     "arabic_title": "طرح آدام بعد الهوس الأول في برامون الميلاد",
     "caption_class": "caption",
     "season": "Feast of the Nativity Paramoun",
-    "placement": ["postFirstCanticle"],
+    "placement": [
+      "postFirstCanticle"
+    ],
     "themes": [],
     "tbodies": [
       {
@@ -14409,10 +14331,10 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "(Through the intercessions of the Virgin Theotokos, O Lord, forgive us our sins, amen. Lord have mercy.)"
+                "english": "(Through the intercessions of the Virgin Theotokos, O Lord, forgive us our sins, amen. Lord have mercy.) ${cross}"
               },
               {
-                "arabic": "(بشفاعة العذراء والدة الإله يا رب أغفر لنا خطايانا. آمين يا رب أرحم.)"
+                "arabic": "(بشفاعة العذراء والدة الإله يا رب أغفر لنا خطايانا. آمين يا رب أرحم.) ${cross}"
               }
             ]
           }
@@ -14426,7 +14348,9 @@
     "arabic_title": "طرح آدام بعد الهوس الأول في عيد الميلاد",
     "caption_class": "caption",
     "season": "Feast of the Nativity",
-    "placement": ["postFirstCanticle"],
+    "placement": [
+      "postFirstCanticle"
+    ],
     "themes": [],
     "tbodies": [
       {
@@ -14463,10 +14387,10 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "The shepherds were awake at night watching their flock, when light from the heavens shone on them. They were enlightened with the light of God and marveled at its brightness and how it came upon them and they spoke to each other saying: This light that is shining upon us is a mystery and immediately appeared to them a great miracle; the angel of the Lord talked to them and told them that the Messiah is born for you today in Bethlehem; and this is a sign for you, you will find a babe wrapped in worn rags and laid in a manger. Rejoice and be exceedingly glad O shepherds for this great mystery that was revealed to you. So they arose and went to Bethlehem and found our Savior and worshiped Him. Let us praise with the angels saying \"Glory to God in the highest, peace on earth and goodwill toward men\" to Him be the glory forever, Amen, Alleluia."
+                "english": "The shepherds were awake at night watching their flock, when light from the heavens shone on them. They were enlightened with the light of God and marveled at its brightness and how it came upon them and they spoke to each other saying: This light that is shining upon us is a mystery and immediately appeared to them a great miracle; the angel of the Lord talked to them and told them that the Messiah is born for you today in Bethlehem; and this is a sign for you, you will find a babe wrapped in worn rags and laid in a manger. Rejoice and be exceedingly glad O shepherds for this great mystery that was revealed to you. So they arose and went to Bethlehem and found our Savior and worshiped Him. Let us praise with the angels saying \"Glory to God in the highest, peace on earth and goodwill toward men\" to Him be the glory forever, Amen, Alleluia. ${cross}"
               },
               {
-                "arabic": "وكان رعاة ساهرين في الليل على قطيع الخراف: أشرق عليهم نور من السموات. وأضاء عليهم مجد الله فتعجب الرعاة من أجل النور العظيم الذي أشرف عليهم وتكلم بعضهم مع بعض وقالوا: ان في هذا النور الذي أشرف عليها لسراً. وظهرت أعجوبة عظيمة للرعاة في تلك الليلة. وتكلم معهم ملاك الرب أن قد ولد المسيح لكم اليوم في بيت لحم: وهذه علامة لكم أنكم تجدون طفلاً ملفوفاً في خرق بالية وموضوعاً في مذود. أفرحوا وأجزلوا يا أيها الرعاة على هذا السر الذي ظهر لكم: فقاموا ومضوا إلى بيت لحم فوجدوا مخلصنا وسجدوا له فلنسبحه مع الملائكة قائلين. المجد لله في الأعالي وعلى الأرض السلام وفي الناس المسرة له المجد إلى الأبد آمين، الليلويا."
+                "arabic": "وكان رعاة ساهرين في الليل على قطيع الخراف: أشرق عليهم نور من السموات. وأضاء عليهم مجد الله فتعجب الرعاة من أجل النور العظيم الذي أشرف عليهم وتكلم بعضهم مع بعض وقالوا: ان في هذا النور الذي أشرف عليها لسراً. وظهرت أعجوبة عظيمة للرعاة في تلك الليلة. وتكلم معهم ملاك الرب أن قد ولد المسيح لكم اليوم في بيت لحم: وهذه علامة لكم أنكم تجدون طفلاً ملفوفاً في خرق بالية وموضوعاً في مذود. أفرحوا وأجزلوا يا أيها الرعاة على هذا السر الذي ظهر لكم: فقاموا ومضوا إلى بيت لحم فوجدوا مخلصنا وسجدوا له فلنسبحه مع الملائكة قائلين. المجد لله في الأعالي وعلى الأرض السلام وفي الناس المسرة له المجد إلى الأبد آمين، الليلويا. ${cross}"
               }
             ]
           }
@@ -14480,7 +14404,9 @@
     "arabic_title": "طرح آدام بعد الهوس الأول في عيد الغطاس",
     "caption_class": "caption",
     "season": "Feast of the Theophany",
-    "placement": ["postFirstCanticle"],
+    "placement": [
+      "postFirstCanticle"
+    ],
     "themes": [],
     "tbodies": [
       {
@@ -14517,10 +14443,10 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "And when you baptize there, confirm to the people that, ‘There comes One after me who is mightier than I,’ for the Lord is coming to be baptized in the Jordan and the uplifting of the sins of the world according to His great mercy.” In those days, the great John the Baptist came preaching of Christ in the wilderness of Judah saying, “Repent, for the kingdom of God has come upon you.” Tell me! Who are you, who dwells in the wilderness? You are the pure prophet of the High One. For you have appeared in this manner to preach to everyone, “There comes One after me who is mightier than I (Mark 1:7). I am the one who comes before Immanuel according to the saying of Isaiah the prophet, ‘Behold, I send My messenger before Your face, who will prepare Your way before You’ (Malachi 3:1). For this reason I teach the word of the Lord that you may grow fruitful in repentance.” Are you Elijah or the Prophet? Perhaps you are the Christ who is coming to the world for you have appeared in this manner to baptize the people for repentance in the Jordan River?! “I am not the Christ or Elijah or the Prophet as you think. I came to baptize with water and to call everyone for repentance. I am the voice of one crying in the wilderness: ‘Prepare the way of the Lord; Make His paths straight.’ No one accepted Him to test Him. “His winnowing fan is in His hand, and He will thoroughly clean out His threshing floor, and gather the wheat into His barn’ (Luke 3:17).” He proclaims in a great voice; I mean forerunner, the faithful announcer. He said: “Prepare the way of the Lord; Make His paths straight for He have come to save the lost sheep for behold, the Lamb of God who takes away the sins of the world. He revives us all with His Holy Spirit. Come to the Jordan to see me baptize; I am not worthy to baptize You O Immanuel for You are my Lord and I was not given the authority to baptize You. I am not worthy for I am Your servant. The sea trembled and fled and the Jordan feared and turned away backwards. How can I not fear and the Lord of everyone is approaching to me?! I am in need of the baptism of Your divine hands; let us ask God the Lover of Mankind that we may become worthy of His holy baptism through the intercession of Saint John the Baptist, O Lord forgive us our sins. Amen."
+                "english": "And when you baptize there, confirm to the people that, ‘There comes One after me who is mightier than I,’ for the Lord is coming to be baptized in the Jordan and the uplifting of the sins of the world according to His great mercy.” In those days, the great John the Baptist came preaching of Christ in the wilderness of Judah saying, “Repent, for the kingdom of God has come upon you.” Tell me! Who are you, who dwells in the wilderness? You are the pure prophet of the High One. For you have appeared in this manner to preach to everyone, “There comes One after me who is mightier than I (Mark 1:7). I am the one who comes before Immanuel according to the saying of Isaiah the prophet, ‘Behold, I send My messenger before Your face, who will prepare Your way before You’ (Malachi 3:1). For this reason I teach the word of the Lord that you may grow fruitful in repentance.” Are you Elijah or the Prophet? Perhaps you are the Christ who is coming to the world for you have appeared in this manner to baptize the people for repentance in the Jordan River?! “I am not the Christ or Elijah or the Prophet as you think. I came to baptize with water and to call everyone for repentance. I am the voice of one crying in the wilderness: ‘Prepare the way of the Lord; Make His paths straight.’ No one accepted Him to test Him. “His winnowing fan is in His hand, and He will thoroughly clean out His threshing floor, and gather the wheat into His barn’ (Luke 3:17).” He proclaims in a great voice; I mean forerunner, the faithful announcer. He said: “Prepare the way of the Lord; Make His paths straight for He have come to save the lost sheep for behold, the Lamb of God who takes away the sins of the world. He revives us all with His Holy Spirit. Come to the Jordan to see me baptize; I am not worthy to baptize You O Immanuel for You are my Lord and I was not given the authority to baptize You. I am not worthy for I am Your servant. The sea trembled and fled and the Jordan feared and turned away backwards. How can I not fear and the Lord of everyone is approaching to me?! I am in need of the baptism of Your divine hands; let us ask God the Lover of Mankind that we may become worthy of His holy baptism through the intercession of Saint John the Baptist, O Lord forgive us our sins. Amen. ${cross}"
               },
               {
-                "arabic": "وإذا عمدت الجموع فأشهد لهم أن الذي يأتي بعدي هو أقوى منى، لأن الرب آتي يعتمد من الأردن ورفع خطايا العالم كعظيم رحمته. وفي تلك الأيام جاء يوحنا العظيم المعمدان يبشر بالمسيح في برية يهوذا ويصرخ قائلاً، توبوا فقد قربت منكم ملكوت السموات. من أنت عرفني يا من في البرية. النبي الطاهر الذي للعلي. لأنك ظهرت هكذا تبشر كل أحد. أن الذي ياتي بعدي هو أقوى منى. انا هو الآتي قبل عمانوئيل كقول أشعياء عظيم الأنبياء ها أنا ذا مرسل ملاكي قدامك ليهيئ طريقك. من أجل هذا أنا أعلم بكلمة الرب أن تصنعوا ثمرة تنمو للتوبة. أنت هو إيليا أو النبي. لعلك أنت هو المسيح الاتي إلى العالم لأنك ظهرت هكذا على النهر تعمد الجموع للتوبة، لست أنا المسيح ولا إيليا ولا النبي كما تفكرون. لكنني أنا أتيت لأعمد بالماء. أدعوا كل واحد للتوبة. أنا هو الصوت الصارخ في البرية. أعدوا طريق الرب وسهلوا سبله. ولا يقبل غليه أحد لكي يجربه. لأن رفشه بيده ينقي جرته ويجمع قمحه في مخزنه. يصرخ جيداً بصوت عظيم. أعني السابق المنادي الصادق. قال أعدوا طريق الرب وسهلوا سبله لأنه أقبل يخلص الخراف الضالة. ها هوذا حمل الله الذي يحمل خطايا العالم. هو يحيينا كلنا بروحه القدوس. اخرجوا إلى الأردن لكي تنظروني أعمد. لست أنا مستحقاً أن أعمدك يا عمانوئيل لأنك أنت ربي من أين لي أنا أن أعمدك ولست مستحقاً لأني أنا عبدك البحر رأي فهرب. وخاف الأردن فرجع إلى الخلف. كيف لا أخاف أنا ورب الكل مقبل إلى. أنا هو المحتاج أن تعمدني بيدك الإلهية فلنسأل الله محب البشر. فلنستحق عماده المقدس بشفاعة يوحنا المعمدان يا رب أغفر لنا خطايانا آمين."
+                "arabic": "وإذا عمدت الجموع فأشهد لهم أن الذي يأتي بعدي هو أقوى منى، لأن الرب آتي يعتمد من الأردن ورفع خطايا العالم كعظيم رحمته. وفي تلك الأيام جاء يوحنا العظيم المعمدان يبشر بالمسيح في برية يهوذا ويصرخ قائلاً، توبوا فقد قربت منكم ملكوت السموات. من أنت عرفني يا من في البرية. النبي الطاهر الذي للعلي. لأنك ظهرت هكذا تبشر كل أحد. أن الذي ياتي بعدي هو أقوى منى. انا هو الآتي قبل عمانوئيل كقول أشعياء عظيم الأنبياء ها أنا ذا مرسل ملاكي قدامك ليهيئ طريقك. من أجل هذا أنا أعلم بكلمة الرب أن تصنعوا ثمرة تنمو للتوبة. أنت هو إيليا أو النبي. لعلك أنت هو المسيح الاتي إلى العالم لأنك ظهرت هكذا على النهر تعمد الجموع للتوبة، لست أنا المسيح ولا إيليا ولا النبي كما تفكرون. لكنني أنا أتيت لأعمد بالماء. أدعوا كل واحد للتوبة. أنا هو الصوت الصارخ في البرية. أعدوا طريق الرب وسهلوا سبله. ولا يقبل غليه أحد لكي يجربه. لأن رفشه بيده ينقي جرته ويجمع قمحه في مخزنه. يصرخ جيداً بصوت عظيم. أعني السابق المنادي الصادق. قال أعدوا طريق الرب وسهلوا سبله لأنه أقبل يخلص الخراف الضالة. ها هوذا حمل الله الذي يحمل خطايا العالم. هو يحيينا كلنا بروحه القدوس. اخرجوا إلى الأردن لكي تنظروني أعمد. لست أنا مستحقاً أن أعمدك يا عمانوئيل لأنك أنت ربي من أين لي أنا أن أعمدك ولست مستحقاً لأني أنا عبدك البحر رأي فهرب. وخاف الأردن فرجع إلى الخلف. كيف لا أخاف أنا ورب الكل مقبل إلى. أنا هو المحتاج أن تعمدني بيدك الإلهية فلنسأل الله محب البشر. فلنستحق عماده المقدس بشفاعة يوحنا المعمدان يا رب أغفر لنا خطايانا آمين. ${cross}"
               }
             ]
           }
@@ -14534,7 +14460,9 @@
     "arabic_title": "طرح آدام بعد الهوس الثاني في برامون الميلاد",
     "caption_class": "caption",
     "season": "Feast of the Nativity Paramoun",
-    "placement": ["postSecondCanticle"],
+    "placement": [
+      "postSecondCanticle"
+    ],
     "themes": [],
     "tbodies": [
       {
@@ -14626,10 +14554,10 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "Therefore, we testify that He is the true Son of God who came to the world to save us.” Glory to Him forever and ever."
+                "english": "Therefore, we testify that He is the true Son of God who came to the world to save us.” Glory to Him forever and ever. ${cross}"
               },
               {
-                "arabic": "من أحل هذا نشهد أن هذا هو ابن الله الحقيقي الذي آتي إلى العالم لكي يخلصنا له المجد دائماً إلى الأبد."
+                "arabic": "من أحل هذا نشهد أن هذا هو ابن الله الحقيقي الذي آتي إلى العالم لكي يخلصنا له المجد دائماً إلى الأبد. ${cross}"
               }
             ]
           }
@@ -14643,7 +14571,9 @@
     "arabic_title": "طرح آدام بعد الهوس الثاني في عيد الميلاد",
     "caption_class": "caption",
     "season": "Feast of the Nativity",
-    "placement": ["postSecondCanticle"],
+    "placement": [
+      "postSecondCanticle"
+    ],
     "themes": [],
     "tbodies": [
       {
@@ -14680,10 +14610,10 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "A star shone upon the shepherds. God who was born of a virgin to save mankind from their sins. We saw the star, let us worship Him and praise Him with the angels saying \"Glory to God in the highest, peace on earth and good will toward men\" for He came and saved us, we His people. The magi traveled the world and all nations saying \"we have seen the born Messiah in Bethlehem the city of king David with all joy, happiness and jubilation.\" The place of which the prophets prophesied, that Christ the creator of all would be born in it. Therefore we the believers believe that He is truly our God, who came down from the highest heaven and appeared in the virgin's womb. He was incarnate of the Holy Spirit and of the pure virgin maiden Mary, in a purely virginal birth. The One who provides for all with His might and His lordship. Let us worship Him with the heavenly hosts saying\" Glory to God in the highest, peace on earth and goodwill toward men.\" We are His people for He has come and saved us. Glory be to Him forever and for all ages, amen."
+                "english": "A star shone upon the shepherds. God who was born of a virgin to save mankind from their sins. We saw the star, let us worship Him and praise Him with the angels saying \"Glory to God in the highest, peace on earth and good will toward men\" for He came and saved us, we His people. The magi traveled the world and all nations saying \"we have seen the born Messiah in Bethlehem the city of king David with all joy, happiness and jubilation.\" The place of which the prophets prophesied, that Christ the creator of all would be born in it. Therefore we the believers believe that He is truly our God, who came down from the highest heaven and appeared in the virgin's womb. He was incarnate of the Holy Spirit and of the pure virgin maiden Mary, in a purely virginal birth. The One who provides for all with His might and His lordship. Let us worship Him with the heavenly hosts saying\" Glory to God in the highest, peace on earth and goodwill toward men.\" We are His people for He has come and saved us. Glory be to Him forever and for all ages, amen. ${cross}"
               },
               {
-                "arabic": "أشرق كوكب على المجوس. الله هو المولود من العذراء لينجي العالمين من خطاياهم رأينا نجمة تعالوا فلنسجد له ونسبحه مع الملائكة قائلين: المجد لله في الأعالي وعلى الأرض السلام وفي الناس المسرة: لأنه أتي وخلصنا نحن شعبه وصار المجوس منذرين في العالم. وفي سائر الكور قائلين: بعظم وبهجة وفرح وسرور قد رأينا المسيح المولود في بيت لحم مدينة الملك داود. الموضع الذي تنبأت من أجله الأنبياء والحكماء انه يولد فيه المسيح خالق البرايا من أجل هذا نؤمن نحن المؤمنين إنه إلهنا بالحقيقة نزل من علو السماء وأشرق في أحشاء العذراء. وتجسد من الروح القدس. ومن الفتاة البتول الطاهرة مريم. ولد منها ميلاداً بتولياً. وهو الذي يعول الكل بقدرته وربوبيته. فلنسبحه مع الطغمات السمائية قائلين المجد لله في الأعالي وعلى الأرض السلام وفي الناس المسرة . ونحن شعبه لأنه أتي وخلصنا له المجد دائماً أبدياً آمين."
+                "arabic": "أشرق كوكب على المجوس. الله هو المولود من العذراء لينجي العالمين من خطاياهم رأينا نجمة تعالوا فلنسجد له ونسبحه مع الملائكة قائلين: المجد لله في الأعالي وعلى الأرض السلام وفي الناس المسرة: لأنه أتي وخلصنا نحن شعبه وصار المجوس منذرين في العالم. وفي سائر الكور قائلين: بعظم وبهجة وفرح وسرور قد رأينا المسيح المولود في بيت لحم مدينة الملك داود. الموضع الذي تنبأت من أجله الأنبياء والحكماء انه يولد فيه المسيح خالق البرايا من أجل هذا نؤمن نحن المؤمنين إنه إلهنا بالحقيقة نزل من علو السماء وأشرق في أحشاء العذراء. وتجسد من الروح القدس. ومن الفتاة البتول الطاهرة مريم. ولد منها ميلاداً بتولياً. وهو الذي يعول الكل بقدرته وربوبيته. فلنسبحه مع الطغمات السمائية قائلين المجد لله في الأعالي وعلى الأرض السلام وفي الناس المسرة . ونحن شعبه لأنه أتي وخلصنا له المجد دائماً أبدياً آمين. ${cross}"
               }
             ]
           }
@@ -14697,7 +14627,9 @@
     "arabic_title": "طرح آدام بعد الهوس الثاني في عيد الغطاس",
     "caption_class": "caption",
     "season": "Feast of the Theophany",
-    "placement": ["postSecondCanticle"],
+    "placement": [
+      "postSecondCanticle"
+    ],
     "themes": [],
     "tbodies": [
       {
@@ -14734,10 +14666,10 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "And hear the voice of the Father saying, “This is My beloved Son, in whom I am well pleased.” Take of the old man and put on the new man. Come to the Jordan to be granted purity through the holy baptism. For the Scripture informs us that without purity no one can see God. Let us be immersed in the holy water of the Jordan and He will purify us. David proclaims and prophesies about the Coming of Christ to the Jordan saying, “The voice of the Lord is over the waters; The God of glory thunders” (Psalm 29:3). When the Lord went to the Jordan from Nazareth to be baptized from him, the saying of the prophet was fulfilled, “Behold! My Servant and My Beloved in whom I am well pleased!” (Matthew 12:18). Zebulun, Naphtali, Galilee, and those who are in darkness and the shadow of death; a Light shone upon them who is Jesus Christ in the Jordan to be baptized by him, to whom the glory forever. Amen."
+                "english": "And hear the voice of the Father saying, “This is My beloved Son, in whom I am well pleased.” Take of the old man and put on the new man. Come to the Jordan to be granted purity through the holy baptism. For the Scripture informs us that without purity no one can see God. Let us be immersed in the holy water of the Jordan and He will purify us. David proclaims and prophesies about the Coming of Christ to the Jordan saying, “The voice of the Lord is over the waters; The God of glory thunders” (Psalm 29:3). When the Lord went to the Jordan from Nazareth to be baptized from him, the saying of the prophet was fulfilled, “Behold! My Servant and My Beloved in whom I am well pleased!” (Matthew 12:18). Zebulun, Naphtali, Galilee, and those who are in darkness and the shadow of death; a Light shone upon them who is Jesus Christ in the Jordan to be baptized by him, to whom the glory forever. Amen. ${cross}"
               },
               {
-                "arabic": "ونسمع صوت الأب قائلاً هذا هو ابني الحبيب الذي به سررت. اخلعوا الإنسان العتيق والبسوا الإنسان الجديد. اخرجوا إلى الأردن لتناولا التطهير بالعماد المقدس. لأن الكتب تشهد لنا انه بغير الطهارة لا يعاين أحد الله. لنغطس في الماء المقدس الذي للأردن وهو يطهرنا. داود يصرخ ويتنبأ من أجل مجيء المسيح إلى الأردن قائلاً. صوت الرب على المياه. إله المجد أرعد. ولما جاء الرب من الناصرة إلى الأردن ليعتمد منه . حينئذ كمل قول النبي. ها هوذا فتاى وحبيبي الذي هويته. زبولون ونفتاليم والجليل والجلوس في الظلمة وظلال الموت . أشرق لهم النور الذي هو المسيح يسوع على الأردن ليعتمد منه له المجد دائماً أبدياً أمين."
+                "arabic": "ونسمع صوت الأب قائلاً هذا هو ابني الحبيب الذي به سررت. اخلعوا الإنسان العتيق والبسوا الإنسان الجديد. اخرجوا إلى الأردن لتناولا التطهير بالعماد المقدس. لأن الكتب تشهد لنا انه بغير الطهارة لا يعاين أحد الله. لنغطس في الماء المقدس الذي للأردن وهو يطهرنا. داود يصرخ ويتنبأ من أجل مجيء المسيح إلى الأردن قائلاً. صوت الرب على المياه. إله المجد أرعد. ولما جاء الرب من الناصرة إلى الأردن ليعتمد منه . حينئذ كمل قول النبي. ها هوذا فتاى وحبيبي الذي هويته. زبولون ونفتاليم والجليل والجلوس في الظلمة وظلال الموت . أشرق لهم النور الذي هو المسيح يسوع على الأردن ليعتمد منه له المجد دائماً أبدياً أمين. ${cross}"
               }
             ]
           }
@@ -14751,7 +14683,9 @@
     "arabic_title": "طرح آدام بعد الهوس الثالث في برامون الميلاد",
     "caption_class": "caption",
     "season": "Feast of the Nativity Paramoun",
-    "placement": ["postThirdCanticle"],
+    "placement": [
+      "postThirdCanticle"
+    ],
     "themes": [],
     "tbodies": [
       {
@@ -14810,10 +14744,10 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "They testified to the people saying, “Christ was born in Bethlehem and we have seen Him, worshiped Him, and believed that He is our Savior.” Glory to Him forever and ever."
+                "english": "They testified to the people saying, “Christ was born in Bethlehem and we have seen Him, worshiped Him, and believed that He is our Savior.” Glory to Him forever and ever. ${cross}"
               },
               {
-                "arabic": "وكانوا يشهدون للجموع قائلين ، أنه قد ولد المسيح في بيت لحم وقد أبصرنا وسجدنا له وآمنا به أنه هو المخلص، له المجد دائماً إلى الأبد."
+                "arabic": "وكانوا يشهدون للجموع قائلين ، أنه قد ولد المسيح في بيت لحم وقد أبصرنا وسجدنا له وآمنا به أنه هو المخلص، له المجد دائماً إلى الأبد. ${cross}"
               }
             ]
           }
@@ -14827,7 +14761,9 @@
     "arabic_title": "طرح آدام بعد الهوس الثالث في عيد الميلاد",
     "caption_class": "caption",
     "season": "Feast of the Nativity",
-    "placement": ["postThirdCanticle"],
+    "placement": [
+      "postThirdCanticle"
+    ],
     "themes": [],
     "tbodies": [
       {
@@ -14864,10 +14800,10 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "The heads of the sinners are raised with joy by the carrier of the sins of the world. The rejoicing heavenly hosts worship proclaiming and saying ‘glory to God in the highest, peace on earth and goodwill toward men\" for He came and saved us. As for the evil Herod, when he heard that Christ was born in Bethlehem, he and all the Jews who were in Jerusalem with him were all vexed. So he secretly called the magi and sent them to Bethlehem to diligently search for the new born child. As for them, they hastily left following the Star of the East to the place where the babe was. And when they saw Him they exceedingly rejoiced and fell and worshiped Him and opened their bags and offered Him korban. Thus the prophecies were fulfilled, when Gold was offered to Him. The Lord who is glorified in His saints, the wondrous, Fearful God, appeared to us today, the One who sits upon the cherubim is held in the arms of the virgin. The Unseen by the heavenly ranks was sighted among the human race By the glory of Hs divinity the heavenly prostrate themselves and for His love of mankind He deserved prostration on earth as well. The cherubim worship and the seraphim glorify and chant and we too praise with heavenly voices saying \"glory to God in the highest, peace on earth and goodwill toward men.\" Now and forever and unto the ages of all ages, Amen."
+                "english": "The heads of the sinners are raised with joy by the carrier of the sins of the world. The rejoicing heavenly hosts worship proclaiming and saying ‘glory to God in the highest, peace on earth and goodwill toward men\" for He came and saved us. As for the evil Herod, when he heard that Christ was born in Bethlehem, he and all the Jews who were in Jerusalem with him were all vexed. So he secretly called the magi and sent them to Bethlehem to diligently search for the new born child. As for them, they hastily left following the Star of the East to the place where the babe was. And when they saw Him they exceedingly rejoiced and fell and worshiped Him and opened their bags and offered Him korban. Thus the prophecies were fulfilled, when Gold was offered to Him. The Lord who is glorified in His saints, the wondrous, Fearful God, appeared to us today, the One who sits upon the cherubim is held in the arms of the virgin. The Unseen by the heavenly ranks was sighted among the human race By the glory of Hs divinity the heavenly prostrate themselves and for His love of mankind He deserved prostration on earth as well. The cherubim worship and the seraphim glorify and chant and we too praise with heavenly voices saying \"glory to God in the highest, peace on earth and goodwill toward men.\" Now and forever and unto the ages of all ages, Amen. ${cross}"
               },
               {
-                "arabic": "والخطاة تشرئب أعناقهم فرحاً بحامل خطايا العالم. وجنود الملائكة يسجدون بفرح ويقولون . المجد لله في الأعالي. وعلى الأرض السلام وفي الناس المسرة. لأنه أتي وخلصنا. أما هيرودس الخبيث. فعندما سمع أن المسيح ولد في بيت لحم قلق وكل اليهود معه الساكنون بأورشليم. فدعا المجوس خفية وأرسلهم إلى بيت لحم ليجدوا في البحث عن الصبي المولود. أما هم فمضوا مسرعين وإذا النجم الذي اشرق يسير قدامهم إلى موضع الصبي. فلما رأوه فرحوا وخروا له ساجدين. وفتحوا أوعيتهم وقدموا له القرابين. حينئذ كمل الكلام النبوي . أنا يحيا ويعطي من ذهب العرب. الله الممجد في مشورة القديسين العظيم المخوف ظهر لنا اليوم الجالس على مركبة الشاروبيم. هو المحمول على أيدي العذراء. الغير المرئي من المراتب الملائكية. قد شوهد مع الجنس البشري. ومن قبل مجد لاهوته يخشع السمائيون. ولكثرة محبته للبشر حق السجود له على الأرض. الشاروبيم يسبحون والسارافيم يرتلون. ونحن نمجده بأصوات ملائكية ونقول. المجد لله في الأعالي وعلى الأرض السلام وفي الناس المسرة. الآن وكل أوان وإلى دهر الداهرين آمين."
+                "arabic": "والخطاة تشرئب أعناقهم فرحاً بحامل خطايا العالم. وجنود الملائكة يسجدون بفرح ويقولون . المجد لله في الأعالي. وعلى الأرض السلام وفي الناس المسرة. لأنه أتي وخلصنا. أما هيرودس الخبيث. فعندما سمع أن المسيح ولد في بيت لحم قلق وكل اليهود معه الساكنون بأورشليم. فدعا المجوس خفية وأرسلهم إلى بيت لحم ليجدوا في البحث عن الصبي المولود. أما هم فمضوا مسرعين وإذا النجم الذي اشرق يسير قدامهم إلى موضع الصبي. فلما رأوه فرحوا وخروا له ساجدين. وفتحوا أوعيتهم وقدموا له القرابين. حينئذ كمل الكلام النبوي . أنا يحيا ويعطي من ذهب العرب. الله الممجد في مشورة القديسين العظيم المخوف ظهر لنا اليوم الجالس على مركبة الشاروبيم. هو المحمول على أيدي العذراء. الغير المرئي من المراتب الملائكية. قد شوهد مع الجنس البشري. ومن قبل مجد لاهوته يخشع السمائيون. ولكثرة محبته للبشر حق السجود له على الأرض. الشاروبيم يسبحون والسارافيم يرتلون. ونحن نمجده بأصوات ملائكية ونقول. المجد لله في الأعالي وعلى الأرض السلام وفي الناس المسرة. الآن وكل أوان وإلى دهر الداهرين آمين. ${cross}"
               }
             ]
           }
@@ -14881,7 +14817,9 @@
     "arabic_title": "طرح آدام بعد الهوس الثالث في عيد الغطاس",
     "caption_class": "caption",
     "season": "Feast of the Theophany",
-    "placement": ["postThirdCanticle"],
+    "placement": [
+      "postThirdCanticle"
+    ],
     "themes": [],
     "tbodies": [
       {
@@ -14918,10 +14856,10 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "You were also made worthy to behold the Spirit dwelling upon Him as a dove and heard the voice of the Father proclaiming saying, “This is My beloved Son.” Therefore we praise and proclaim with the prophet, “Every flesh sees the salvation of God.” The stiffed-necked people, the children of Israel, did not believe the voice of the good Father who witnessed in a great manner saying, “This is My beloved Son, in whom I am well pleased” (Matthew 3:17). We the nations were made worthy of the true and holy baptism in the name of the holy Trinity. The voice of God witness to John the forerunner; “Among those born of women there is not a greater” (Luke 7:28). He is the perfection of the prophets and he came before our Lord and Savior to prepare the way according to the saying of Isaiah. The tribes and the peoples who were baptized by the forerunner are greatly in joy. For he spoke to them saying, “I baptize you with water for the repentance of the forgiveness of your sins. He who has two tunics, let him give to him who has none; and he who has food, let him do likewise.\" Therefore let us praise the God who was baptized in the Jordan that He may forgive us our sins and glory be to God forever. Amen."
+                "english": "You were also made worthy to behold the Spirit dwelling upon Him as a dove and heard the voice of the Father proclaiming saying, “This is My beloved Son.” Therefore we praise and proclaim with the prophet, “Every flesh sees the salvation of God.” The stiffed-necked people, the children of Israel, did not believe the voice of the good Father who witnessed in a great manner saying, “This is My beloved Son, in whom I am well pleased” (Matthew 3:17). We the nations were made worthy of the true and holy baptism in the name of the holy Trinity. The voice of God witness to John the forerunner; “Among those born of women there is not a greater” (Luke 7:28). He is the perfection of the prophets and he came before our Lord and Savior to prepare the way according to the saying of Isaiah. The tribes and the peoples who were baptized by the forerunner are greatly in joy. For he spoke to them saying, “I baptize you with water for the repentance of the forgiveness of your sins. He who has two tunics, let him give to him who has none; and he who has food, let him do likewise.\" Therefore let us praise the God who was baptized in the Jordan that He may forgive us our sins and glory be to God forever. Amen. ${cross}"
               },
               {
-                "arabic": "وأيضاً استحققت أن تعاين الروح نازلاً عليه على شكل حمامة. وسمعت صوت الأب يصرخ قائلاً، هذا هو ابني الحبيب. فمن أجل هذا نسبح ونصرخ مع النبي ونقول أن كل ذى جسد ينظر خلاص الله . الشعب الغليظ العنق بنو إسرائيل لم يؤمنوا بصوت الأب الصالح صارخاً. هذا الذي يشهد به بإعلان عظيم قائلاً هذا هو ابني الحبيب الذي به سررت. ونحن الشعوب استحققنا رسم المعمودية المقدسة الحقيقية باسم الثالوث المقدس. فم الله يشهد عن يوحنا السابق. أنه ليس من يشبهه في مواليد النساء. وهو كمال الأنبياء وقد أتي قدام مخلصنا الرب لكي يعد طريقة كقول أشعياء. كثيرة بزيادة تهليل القبائل والشعوب الذين اعتمدوا من السابق. لكنه كان يكلمهم قائلاً . أما أنا فأعمدكم بماء للتوبة لمغفرة خطاياكم . من له ثوبان فليعط من ليس له. ومن له خبز فليصنع أيضاً كذلك. من أجل هذا فلنسبح الإله الذي اعتمد في الأردن ليغفر لنا خطايانا والمجد لله دائماً أبدياً أمين."
+                "arabic": "وأيضاً استحققت أن تعاين الروح نازلاً عليه على شكل حمامة. وسمعت صوت الأب يصرخ قائلاً، هذا هو ابني الحبيب. فمن أجل هذا نسبح ونصرخ مع النبي ونقول أن كل ذى جسد ينظر خلاص الله . الشعب الغليظ العنق بنو إسرائيل لم يؤمنوا بصوت الأب الصالح صارخاً. هذا الذي يشهد به بإعلان عظيم قائلاً هذا هو ابني الحبيب الذي به سررت. ونحن الشعوب استحققنا رسم المعمودية المقدسة الحقيقية باسم الثالوث المقدس. فم الله يشهد عن يوحنا السابق. أنه ليس من يشبهه في مواليد النساء. وهو كمال الأنبياء وقد أتي قدام مخلصنا الرب لكي يعد طريقة كقول أشعياء. كثيرة بزيادة تهليل القبائل والشعوب الذين اعتمدوا من السابق. لكنه كان يكلمهم قائلاً . أما أنا فأعمدكم بماء للتوبة لمغفرة خطاياكم . من له ثوبان فليعط من ليس له. ومن له خبز فليصنع أيضاً كذلك. من أجل هذا فلنسبح الإله الذي اعتمد في الأردن ليغفر لنا خطايانا والمجد لله دائماً أبدياً أمين. ${cross}"
               }
             ]
           }
@@ -14935,7 +14873,9 @@
     "arabic_title": "طرح آدام بعد الهوس الرابع في برامون الميلاد",
     "caption_class": "caption",
     "season": "Feast of the Nativity Paramoun",
-    "placement": ["postFourthCanticle"],
+    "placement": [
+      "postFourthCanticle"
+    ],
     "themes": [],
     "tbodies": [
       {
@@ -15005,10 +14945,10 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "As for us, let us hurry with the star and be amazed with the shepherds. Let us worship with the Magi and praise with the angels, the heavenly praise, saying, “Glory to God in the highest, peace on earth and goodwill towards men.” He has come and saved us. Glory to Him forever and ever, amen."
+                "english": "As for us, let us hurry with the star and be amazed with the shepherds. Let us worship with the Magi and praise with the angels, the heavenly praise, saying, “Glory to God in the highest, peace on earth and goodwill towards men.” He has come and saved us. Glory to Him forever and ever, amen. ${cross}"
               },
               {
-                "arabic": "أما نحن فلنسرع مع النجم. ونتعجب مع الرعاة ونسجد مع المجوس ونسبح مع الملائكة تسبحه السماء ونقول، المجد لله في الأعالي وعلى الأرض السلام. وفي الناس المسرة لأنه أتى وخلصنا له المجد دائماً إلى الأبد آمين."
+                "arabic": "أما نحن فلنسرع مع النجم. ونتعجب مع الرعاة ونسجد مع المجوس ونسبح مع الملائكة تسبحه السماء ونقول، المجد لله في الأعالي وعلى الأرض السلام. وفي الناس المسرة لأنه أتى وخلصنا له المجد دائماً إلى الأبد آمين. ${cross}"
               }
             ]
           }
@@ -15022,7 +14962,9 @@
     "arabic_title": "طرح آدام بعد الهوس الرابع في عيد الميلاد",
     "caption_class": "caption",
     "season": "Feast of the Nativity",
-    "placement": ["postFourthCanticle"],
+    "placement": [
+      "postFourthCanticle"
+    ],
     "themes": [],
     "tbodies": [
       {
@@ -15059,10 +15001,10 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "He has put on our body, which was released from the sin being renewed again, by the unity with Him according to His mercy; That we may praise Him crying out and saying, “Glory be to You O Lover of Mankind for You have come and saved us.” Today, we see in Bethlehem an unutterable mystery; when we see God swaddled in rags, lying down in the animals' manger. We see the shepherds willingly sing, blessing You with spiritual praise. How marvelous is it to see angels mingling with sinners, praising in on voice their Creator saying, “Glory to God in the highest, peace on earth, and goodwill toward men, for He came and saved us according to His mercy.” Today, an unutterable mystery, since eternity, has been revealed. He, who made the heavens by His command, dwelt in the womb of a child virgin and was born of her. We believe in Him without any doubt. Let us worship Him; To whom is the glory now and forever and unto the ages of all ages, Amen."
+                "english": "He has put on our body, which was released from the sin being renewed again, by the unity with Him according to His mercy; That we may praise Him crying out and saying, “Glory be to You O Lover of Mankind for You have come and saved us.” Today, we see in Bethlehem an unutterable mystery; when we see God swaddled in rags, lying down in the animals' manger. We see the shepherds willingly sing, blessing You with spiritual praise. How marvelous is it to see angels mingling with sinners, praising in on voice their Creator saying, “Glory to God in the highest, peace on earth, and goodwill toward men, for He came and saved us according to His mercy.” Today, an unutterable mystery, since eternity, has been revealed. He, who made the heavens by His command, dwelt in the womb of a child virgin and was born of her. We believe in Him without any doubt. Let us worship Him; To whom is the glory now and forever and unto the ages of all ages, Amen. ${cross}"
               },
               {
-                "arabic": "الذي عتق من الخطية ليتجدد دفعة أخري. باتحاده به كعظيم رحمته. لكي نسبحه صارخين قائلين. المجد لك يا محب البشر. لأنك أتيت وخلصتنا. أننا نري اليوم في بيت لحم سراً لا ينطق به. عندما ننظر إلى الله ملفوفاً بالخرق. راقداً في مذود البهائم. إنا ننظر إلى الرعاة غير مقصورين على الغناء. بك يباركون ويسبحون روحانياً. من ذا الذي لا يتعجب إذا نظر إلى الملائكة مختلطين مع خطاة الناس يسبحون خالقهم بصوت واحد قائلين المجد لله في الأعالي وعلى الأرض السلام. وفي الناس المسرة. لأنه أتي وخلصنا كعظيم رحمته: ظهر لنا اليوم سر لم ينطق به في الأزمان الخالية منذ الأبد. الذي أقام السمار بأمره. صار في بطن صبية عذراء وولد منها نؤمن به بغير شك. فلنسجد له. له المجد دائماً الآن وكل أوان وإلى دهر الداهرين آمين."
+                "arabic": "الذي عتق من الخطية ليتجدد دفعة أخري. باتحاده به كعظيم رحمته. لكي نسبحه صارخين قائلين. المجد لك يا محب البشر. لأنك أتيت وخلصتنا. أننا نري اليوم في بيت لحم سراً لا ينطق به. عندما ننظر إلى الله ملفوفاً بالخرق. راقداً في مذود البهائم. إنا ننظر إلى الرعاة غير مقصورين على الغناء. بك يباركون ويسبحون روحانياً. من ذا الذي لا يتعجب إذا نظر إلى الملائكة مختلطين مع خطاة الناس يسبحون خالقهم بصوت واحد قائلين المجد لله في الأعالي وعلى الأرض السلام. وفي الناس المسرة. لأنه أتي وخلصنا كعظيم رحمته: ظهر لنا اليوم سر لم ينطق به في الأزمان الخالية منذ الأبد. الذي أقام السمار بأمره. صار في بطن صبية عذراء وولد منها نؤمن به بغير شك. فلنسجد له. له المجد دائماً الآن وكل أوان وإلى دهر الداهرين آمين. ${cross}"
               }
             ]
           }
@@ -15076,7 +15018,9 @@
     "arabic_title": "طرح آدام بعد الهوس الرابع في عيد الغطاس",
     "caption_class": "caption",
     "season": "Feast of the Theophany",
-    "placement": ["postFourthCanticle"],
+    "placement": [
+      "postFourthCanticle"
+    ],
     "themes": [],
     "tbodies": [
       {
@@ -15113,10 +15057,10 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "All the patience that the prophets had were for you O John. For you have informed us the perfection of all things, saying, “Behold! The Lamb of God the Father.” God, who sits upon the cherubim, came to the Jordan and was baptized in it. He, who decorated the haven with its many stars, became naked and was baptized in water. Hail to the Jordan and let it rejoice; for you were lit by the light of the Trinity who appeared during the dwelling of the Holy Spirit on the Son. From now, all the souls who are baptized in the name of the Holy Trinity were enlightened through the light that was given by our Savior, who also gave the authority to trample upon the power of the enemy. Great Truth is the mystery Your Incarnation and Birth O Jesus my Lord. We ask of You O Lord, purify us from our sins through the baptism of water, and forgive us our sins."
+                "english": "All the patience that the prophets had were for you O John. For you have informed us the perfection of all things, saying, “Behold! The Lamb of God the Father.” God, who sits upon the cherubim, came to the Jordan and was baptized in it. He, who decorated the haven with its many stars, became naked and was baptized in water. Hail to the Jordan and let it rejoice; for you were lit by the light of the Trinity who appeared during the dwelling of the Holy Spirit on the Son. From now, all the souls who are baptized in the name of the Holy Trinity were enlightened through the light that was given by our Savior, who also gave the authority to trample upon the power of the enemy. Great Truth is the mystery Your Incarnation and Birth O Jesus my Lord. We ask of You O Lord, purify us from our sins through the baptism of water, and forgive us our sins. ${cross}"
               },
               {
-                "arabic": "كل الصبر الذي صبره الأنبياء هو من أجلك يا يوحنا. لأنك عرفتنا كمال كل الأشياء قلت ها هوذا حمل الله الأب. الله الجالس على الشاروبيم أتي إلى الأردن وتعمد فيه. الذي زين السماء بكثرة النجوم. تعري من ثيابه وتعمد بالماء السلام للأردن وليتهلل لأنك قد أضأت بنور الثالوث الذي ظهر وقت حلول الروح القدس على الابن. ومن الآن كل الأنفس التي تعمدت باسم الثالوث المقدس استنارت بنوره الذي أعطاها أياه مخلصنا مع السلطان لكي تدوس قوة العدو. حق عظيم هو سر تجسدك وتأنسك يا يسوع ربي. ونحن يا رب نطلب إليك طهرنا من خطايانا بحميم الماء. وأغفر لنا خطايانا."
+                "arabic": "كل الصبر الذي صبره الأنبياء هو من أجلك يا يوحنا. لأنك عرفتنا كمال كل الأشياء قلت ها هوذا حمل الله الأب. الله الجالس على الشاروبيم أتي إلى الأردن وتعمد فيه. الذي زين السماء بكثرة النجوم. تعري من ثيابه وتعمد بالماء السلام للأردن وليتهلل لأنك قد أضأت بنور الثالوث الذي ظهر وقت حلول الروح القدس على الابن. ومن الآن كل الأنفس التي تعمدت باسم الثالوث المقدس استنارت بنوره الذي أعطاها أياه مخلصنا مع السلطان لكي تدوس قوة العدو. حق عظيم هو سر تجسدك وتأنسك يا يسوع ربي. ونحن يا رب نطلب إليك طهرنا من خطايانا بحميم الماء. وأغفر لنا خطايانا. ${cross}"
               }
             ]
           }
@@ -15130,7 +15074,9 @@
     "arabic_title": "طرح واطس بعد المجمع في عيد الغطاس",
     "caption_class": "caption",
     "season": "Feast of the Theophany",
-    "placement": ["postCommemoration"],
+    "placement": [
+      "postCommemoration"
+    ],
     "themes": [],
     "tbodies": [
       {
@@ -15167,10 +15113,10 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "And sent His only-begotten who came, was incarnate, became man, came to the Jordan to be baptized by John and saved us from the bondage of the imperious one through the holy baptism. Hail to the joy of the holy wilderness the dwelling place of the Holy Spirit. Hail to the bright lamp, John the forerunner. Hail to the announcer, the caller who is better then all the trumpets and who proclaims with the Spirit and the strength of Elijah. Hail to the perfection and the last of the prophets who comes before the Lord to prepare righteous people to God in Spirit. Let us chant in reverence and glorify God with spiritual praises for He restored us to our first rank. We were sitting in darkness and the shadow of death and He shone upon us through His holy baptism as He is also saying, “Come to Me, all you who labor and are heavy laden, and I will give you rest” (Matthew 11:28). Blessed are they who are baptized in the name of the holy Trinity for their transgressions will be forgiven. For through the washing of the holy baptism we became heirs of the heavenly kingdom. Let us worship the co-essential Trinity, the one God who is forever, who we were made worthy to be granted forgiveness of sins of Him, taking His holy example upon our heads in the holy baptism; to whom the glory forever and ever. Amen, Lord have mercy."
+                "english": "And sent His only-begotten who came, was incarnate, became man, came to the Jordan to be baptized by John and saved us from the bondage of the imperious one through the holy baptism. Hail to the joy of the holy wilderness the dwelling place of the Holy Spirit. Hail to the bright lamp, John the forerunner. Hail to the announcer, the caller who is better then all the trumpets and who proclaims with the Spirit and the strength of Elijah. Hail to the perfection and the last of the prophets who comes before the Lord to prepare righteous people to God in Spirit. Let us chant in reverence and glorify God with spiritual praises for He restored us to our first rank. We were sitting in darkness and the shadow of death and He shone upon us through His holy baptism as He is also saying, “Come to Me, all you who labor and are heavy laden, and I will give you rest” (Matthew 11:28). Blessed are they who are baptized in the name of the holy Trinity for their transgressions will be forgiven. For through the washing of the holy baptism we became heirs of the heavenly kingdom. Let us worship the co-essential Trinity, the one God who is forever, who we were made worthy to be granted forgiveness of sins of Him, taking His holy example upon our heads in the holy baptism; to whom the glory forever and ever. Amen, Lord have mercy. ${cross}"
               },
               {
-                "arabic": "وارسل وحيده الذي اتي وتجسد وتأنس وأقبل إلى الأردن واعتمد من يوحنا، وعتقنا من عبودية المتجبر. من قبل رسم المعمودية المقدسة. والسلام لفرح البرية المقدسة محل الروح القدس. السلام للسراج المنير يوحنا السابق. السلام للمنادي المبشر الأفضل من كل الأبواق الصارخ بالروح وبقوة إيليا . السلام لكمال الأنبياء الآتي أمام الرب ليعد شعوباً لله مبررين بالروح. فلنرتل بخشوع ونمجد الله بتسابيح روحانية. لأنه ردنا إلى رئاستنا الأولي. ولأننا كنا جلوساً في الظلمة وظلال الموت. فأضاء علينا من قبل معموديته المقدسة إذ يصرخ قائلاً، اسرعوا تعالوا إلى يا جميع المتعبين والثقيلي الأحمال وأنا أريحكم. طوبي للذين تعمدوا باسم الثالوث المقدس لأنه سوف يغفر زلاتهم. لنه من قبل حميم المعمودية المقدسة صرنا وارثين الملكوت السمائية. فلنسجد للثالوث المساوى الإله الواحد الباقي إلى الأبد هذا الذي قد استحققنا أن ننال منه مغفرة خطايانا بمثاله المقدس هذا الذي نرسم مثاله على جباهنا في المعمودية المقدسة له المجد دائماً إلى الأبد آمين يا رب أرحم."
+                "arabic": "وارسل وحيده الذي اتي وتجسد وتأنس وأقبل إلى الأردن واعتمد من يوحنا، وعتقنا من عبودية المتجبر. من قبل رسم المعمودية المقدسة. والسلام لفرح البرية المقدسة محل الروح القدس. السلام للسراج المنير يوحنا السابق. السلام للمنادي المبشر الأفضل من كل الأبواق الصارخ بالروح وبقوة إيليا . السلام لكمال الأنبياء الآتي أمام الرب ليعد شعوباً لله مبررين بالروح. فلنرتل بخشوع ونمجد الله بتسابيح روحانية. لأنه ردنا إلى رئاستنا الأولي. ولأننا كنا جلوساً في الظلمة وظلال الموت. فأضاء علينا من قبل معموديته المقدسة إذ يصرخ قائلاً، اسرعوا تعالوا إلى يا جميع المتعبين والثقيلي الأحمال وأنا أريحكم. طوبي للذين تعمدوا باسم الثالوث المقدس لأنه سوف يغفر زلاتهم. لنه من قبل حميم المعمودية المقدسة صرنا وارثين الملكوت السمائية. فلنسجد للثالوث المساوى الإله الواحد الباقي إلى الأبد هذا الذي قد استحققنا أن ننال منه مغفرة خطايانا بمثاله المقدس هذا الذي نرسم مثاله على جباهنا في المعمودية المقدسة له المجد دائماً إلى الأبد آمين يا رب أرحم. ${cross}"
               }
             ]
           }
@@ -15184,7 +15130,9 @@
     "arabic_title": "طرح واطس بعد الثيؤطوكية في برامون الميلاد",
     "caption_class": "caption",
     "season": "Feast of the Nativity Paramoun",
-    "placement": ["postTheotokia"],
+    "placement": [
+      "postTheotokia"
+    ],
     "adamWatos": "Watos",
     "themes": [],
     "tbodies": [
@@ -15332,10 +15280,10 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "So we knelt before Him, worshipping Him, and believed that He is the Savior.” Glory to Him, with His good Father and the Holy Spirit forever. Amen."
+                "english": "So we knelt before Him, worshipping Him, and believed that He is the Savior.” Glory to Him, with His good Father and the Holy Spirit forever. Amen. ${cross}"
               },
               {
-                "arabic": "فخررنا له ساجدين وآمنا أنه هو المخلص.' له المجد مع أبيه الصالح والروح القدس إلى الأبد. آمين."
+                "arabic": "فخررنا له ساجدين وآمنا أنه هو المخلص.' له المجد مع أبيه الصالح والروح القدس إلى الأبد. آمين. ${cross}"
               }
             ]
           }
@@ -15349,7 +15297,9 @@
     "arabic_title": "طرح ادام بعد الثيؤطوكية في برامون الميلاد",
     "caption_class": "caption",
     "season": "Feast of the Nativity Paramoun",
-    "placement": ["postTheotokia"],
+    "placement": [
+      "postTheotokia"
+    ],
     "adamWatos": "Adam",
     "themes": [],
     "tbodies": [
@@ -15596,10 +15546,10 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "When the days of her pregnancy of the Savior were completed, her Son was born, the first-born of the Father, begotten before all ages and laid Him in a barn of animals. Let us praise Him with the angels, saying, “Glory to God...”"
+                "english": "When the days of her pregnancy of the Savior were completed, her Son was born, the first-born of the Father, begotten before all ages and laid Him in a barn of animals. Let us praise Him with the angels, saying, “Glory to God...” ${cross}"
               },
               {
-                "arabic": "فلما كملت الأيام أن تلد العذراء المخلصء ولدت إبنها بكر الآب المولود قبل كل الدهور وأرقدته في معلف البهائم. فلنسبحه مع الملائكة قائلين: \"المجد لله...\""
+                "arabic": "فلما كملت الأيام أن تلد العذراء المخلصء ولدت إبنها بكر الآب المولود قبل كل الدهور وأرقدته في معلف البهائم. فلنسبحه مع الملائكة قائلين: \"المجد لله...\" ${cross}"
               }
             ]
           }
@@ -15613,7 +15563,9 @@
     "arabic_title": "طرح آدام بعد ثيؤطوكية السبت في عيد الميلاد",
     "caption_class": "caption",
     "season": "Feast of the Nativity",
-    "placement": ["postTheotokia"],
+    "placement": [
+      "postTheotokia"
+    ],
     "dayOfTheWeek": "Saturday",
     "themes": [],
     "tbodies": [
@@ -15651,10 +15603,10 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "Peace on earth and goodwill toward men. Come among us today O chosen evangelist Matthew in order to directly proclaim to us the birth of the Lord in Bethlehem, the city of the prophets, which became like heaven. The pure disciple said \"When the Lord Christ was born in the Bethlehem of Judea, during the days of Herod; Magi came from the East inquiring \"where is the Newborn? For we saw His star in the East and we came to worship Him saying \"glory to God in the highest, peace on earth and goodwill toward men.” And immediately Herod was disturbed for thinking that the Lord of heaven and earth was simply an earthly king. And so he said to them \"Go and find the babe and inform me if His whereabouts so that I also would go and worship Him: Let us praise Him saying \"glory to God in the highest, peace on earth and goodwill toward men.\" When they left, they found something that befuddles the mind, so they offered Him three korban: Frankincense as He is God; Gold as He is the king of kings and myrrh as He accepted to die in the flesh to save Adam and His descendents by this life-giving death. Let is praise Him saying \"glory to God in the highest, peace on earth and goodwill toward men.” And they were instructed in their dream not to return to Herod, and to return to their countries through a different route instead. So they left and went evangelizing saying \"we saw a marvel today because the One who provides for all creation nursed form the breast of a virgin maiden. And the One whose glorious presence shakes the heavenly ranks, appeared today as a newborn babe in Bethlehem of Judea the city of the prophets. Let us praise Him saying \"glory to God in the highest, peace on earth and goodwill toward men.\" For He has come and saved us. To Him be the eternal glory forever and ever, Amen."
+                "english": "Peace on earth and goodwill toward men. Come among us today O chosen evangelist Matthew in order to directly proclaim to us the birth of the Lord in Bethlehem, the city of the prophets, which became like heaven. The pure disciple said \"When the Lord Christ was born in the Bethlehem of Judea, during the days of Herod; Magi came from the East inquiring \"where is the Newborn? For we saw His star in the East and we came to worship Him saying \"glory to God in the highest, peace on earth and goodwill toward men.” And immediately Herod was disturbed for thinking that the Lord of heaven and earth was simply an earthly king. And so he said to them \"Go and find the babe and inform me if His whereabouts so that I also would go and worship Him: Let us praise Him saying \"glory to God in the highest, peace on earth and goodwill toward men.\" When they left, they found something that befuddles the mind, so they offered Him three korban: Frankincense as He is God; Gold as He is the king of kings and myrrh as He accepted to die in the flesh to save Adam and His descendents by this life-giving death. Let is praise Him saying \"glory to God in the highest, peace on earth and goodwill toward men.” And they were instructed in their dream not to return to Herod, and to return to their countries through a different route instead. So they left and went evangelizing saying \"we saw a marvel today because the One who provides for all creation nursed form the breast of a virgin maiden. And the One whose glorious presence shakes the heavenly ranks, appeared today as a newborn babe in Bethlehem of Judea the city of the prophets. Let us praise Him saying \"glory to God in the highest, peace on earth and goodwill toward men.\" For He has come and saved us. To Him be the eternal glory forever and ever, Amen. ${cross}"
               },
               {
-                "arabic": "وعلى الأرض السلام. وفي الناس المسرة. تعال إلينا اليوم في وسطنا أيها المبشر الإنجيلي متى المختار. لكي تخبرنا علانية عن ميلاد الرب في بيت لحم مدينة الأنبياء التي صارت مثالاً للسماء. قال البشير الطاهر. فلما ولد المسيح الرب في بيت لحم يهوذا في أيام هيرودس الملك. وإذا مجوس وافوا من المشرق قائلين أين هو المولود لأننا رأينا نجمه في المشرق فوافينا لنسجد له فلنسبحه قائلين: المجد لله في الاعالي. وعلى الأرض السلام. وفي الناس المسرة. فاضطرب هيرودس للوقت لظنه الفاسد أن المولود ملك ارضي. وهو رب السمائيين والأرضيين وقال لهم. امضوا وابحثوا عن المولود وتعالوا أعلموني لأمضي أنا أيضاً وأسجد له: فلنسبحه قائلين: المجد لله في الاعالي. وعلى الأرض السلام. وفي الناس المسرة. فلما مضوا وجدوا أمراً مذهلاً للعقول. فقدموا له ثلاثة قرابين. لباناً لأنه إله الآلهة. وذهباً لأنه ملك الملوك. ومراً دلالة على قبوله الموت بالجسد ليخلص آدم وذريته بذلك الموت المحيي. فلنسبحه قائلين: المجد لله في الاعالي. وعلى الأرض السلام. وفي الناس المسرة. وأمروا في الحلم أن لا يعود إلى هيرودس بل ينطلقوا من جهة أخري إلى بلادهم. فمضوا وصاروا يبشرون قائلين: اليوم رأينا عجباً. لأن الذي يعول كل البشرية قد رضع اللبن من ثدي فتاة عذراء. والذي ترتعد من عز هيبته ومجد لاهوته الصفوف السمائية. ظهر اليوم مولوداً في بيت لحم يهوذا مدينة الأنبياء فلنسبحه قائلين: المجد لله في الأعالي وعلى الأرض السلام وفي الناس المسرة لأنه أتي وخلصنا: له المجد دائماً إلى الأبد آمين."
+                "arabic": "وعلى الأرض السلام. وفي الناس المسرة. تعال إلينا اليوم في وسطنا أيها المبشر الإنجيلي متى المختار. لكي تخبرنا علانية عن ميلاد الرب في بيت لحم مدينة الأنبياء التي صارت مثالاً للسماء. قال البشير الطاهر. فلما ولد المسيح الرب في بيت لحم يهوذا في أيام هيرودس الملك. وإذا مجوس وافوا من المشرق قائلين أين هو المولود لأننا رأينا نجمه في المشرق فوافينا لنسجد له فلنسبحه قائلين: المجد لله في الاعالي. وعلى الأرض السلام. وفي الناس المسرة. فاضطرب هيرودس للوقت لظنه الفاسد أن المولود ملك ارضي. وهو رب السمائيين والأرضيين وقال لهم. امضوا وابحثوا عن المولود وتعالوا أعلموني لأمضي أنا أيضاً وأسجد له: فلنسبحه قائلين: المجد لله في الاعالي. وعلى الأرض السلام. وفي الناس المسرة. فلما مضوا وجدوا أمراً مذهلاً للعقول. فقدموا له ثلاثة قرابين. لباناً لأنه إله الآلهة. وذهباً لأنه ملك الملوك. ومراً دلالة على قبوله الموت بالجسد ليخلص آدم وذريته بذلك الموت المحيي. فلنسبحه قائلين: المجد لله في الاعالي. وعلى الأرض السلام. وفي الناس المسرة. وأمروا في الحلم أن لا يعود إلى هيرودس بل ينطلقوا من جهة أخري إلى بلادهم. فمضوا وصاروا يبشرون قائلين: اليوم رأينا عجباً. لأن الذي يعول كل البشرية قد رضع اللبن من ثدي فتاة عذراء. والذي ترتعد من عز هيبته ومجد لاهوته الصفوف السمائية. ظهر اليوم مولوداً في بيت لحم يهوذا مدينة الأنبياء فلنسبحه قائلين: المجد لله في الأعالي وعلى الأرض السلام وفي الناس المسرة لأنه أتي وخلصنا: له المجد دائماً إلى الأبد آمين. ${cross}"
               }
             ]
           }
@@ -15668,7 +15620,9 @@
     "arabic_title": "طرح واطس بعد ثيوطوكية السبت في عيد الغطاس",
     "caption_class": "caption",
     "season": "Feast of Theophany",
-    "placement": ["postTheotokia"],
+    "placement": [
+      "postTheotokia"
+    ],
     "dayOfTheWeek": "Saturday",
     "themes": [],
     "tbodies": [
@@ -15706,10 +15660,10 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "O master who is a witness and is truthful in his words. Who beheld the glory of God upon the Jordan River, John the Son of Zacharias and the barren woman. The caller in the mountains, the announcer in the deserts, the master and beholder of the mystery of the Logos of the Father when He was in the Jordan River. Come, behold and be amazed by this wondrous act: The only-begotten Logos, the Son of the Father; He is a Lord, He is a God and He is the Son of the High One. Who have the ability to make what His hands have made?! He humbled Himself, completed the virtues and prepared ways for us to live by. He is the pure Master and Lord of purity. He is holy and dwells among the saints. He is the Master of all. He became a Man for the sake of our salvation. Therefore humanity was filled with His grace. He accepted baptism and was baptized. He taught us to learn from the blessed priest. This priest and archpriest witnessed to everyone about the Logos of God, our King Jesus Christ. “He who sent me to baptize me told me: ‘He who you see the Spirit dwell upon is the Lamb of God.’ I have seen and confessed that this is the Son of God through the voice that I heard from the glory of the High One.” This was said by the Baptist, the honored one in humanity, John the Baptist who witnessed to our Savior. He who believes the Son, to him is eternal life. And he who does not believe, the wrath of God will dwell upon him. Come, let us believe in Him that we may be granted goodness and become heirs of eternal life. Intercede for us O John the Baptist, that He may forgive us our sins. Amen."
+                "english": "O master who is a witness and is truthful in his words. Who beheld the glory of God upon the Jordan River, John the Son of Zacharias and the barren woman. The caller in the mountains, the announcer in the deserts, the master and beholder of the mystery of the Logos of the Father when He was in the Jordan River. Come, behold and be amazed by this wondrous act: The only-begotten Logos, the Son of the Father; He is a Lord, He is a God and He is the Son of the High One. Who have the ability to make what His hands have made?! He humbled Himself, completed the virtues and prepared ways for us to live by. He is the pure Master and Lord of purity. He is holy and dwells among the saints. He is the Master of all. He became a Man for the sake of our salvation. Therefore humanity was filled with His grace. He accepted baptism and was baptized. He taught us to learn from the blessed priest. This priest and archpriest witnessed to everyone about the Logos of God, our King Jesus Christ. “He who sent me to baptize me told me: ‘He who you see the Spirit dwell upon is the Lamb of God.’ I have seen and confessed that this is the Son of God through the voice that I heard from the glory of the High One.” This was said by the Baptist, the honored one in humanity, John the Baptist who witnessed to our Savior. He who believes the Son, to him is eternal life. And he who does not believe, the wrath of God will dwell upon him. Come, let us believe in Him that we may be granted goodness and become heirs of eternal life. Intercede for us O John the Baptist, that He may forgive us our sins. Amen. ${cross}"
               },
               {
-                "arabic": "أيها السيد الشاهد الصادق في كلامه. الذي نظر مجد الله على نهر الأردن. يوحنا ابن زكريا ابن العاقر المنادي على الجبال المبشر في البراري أيها السيد الناظر إلى سر كلمة الآب وهو في نهر الأردن . تعالوا أنظروا وتعجبوا من هذا العمل العجيب الذي للوحيد الكلمة ابن الأب هو رب وهو غله وهو ابن العلي. من يقدر على أعمال يديه. اتضع بذاته واكمل الفضائل وأعد سبلاً لكي نسعي فيها. هو السيد الطاهر ورب الطهارة. هو قدوس وكائن في القديسين هو سيد الكافة قد صار إنساناً من اجل خلاصنا من أجل هذا أمتلأت البشرية كلها من نعمته قبل المعمودية واعتمد. وعلمنا ان نتعلم من اجل الكاهن الطوباوى . هذا الكاهن ورئيس الكهنة شهد لكل أحد من أجل كلمة الإله ملكنا يسوع المسيح. أن الذي أرسلني لأعمد هو الذي قال لي. الذي ترى الروح ياتي عليه هو حمل الله. وقد رأيت وشهدت ان هذا هو ابن الله. من أجل الصوت الذي سمعته من مجد العلي. قال المعمداني المكرم في البشرية. الشاهد لمخلصنا يوحنا الصابغ. أن الذي يؤمن بالابن له الحياة الأبدية. ومن لا يؤمن به يحل عليه غضب الله. تعالوا نؤمن به لكي ننال الخيرات ونرث الحياة الدائمة. اشفع فينا أيها الصابغ يوحنا. ليغفر لنا خطايانا آمين."
+                "arabic": "أيها السيد الشاهد الصادق في كلامه. الذي نظر مجد الله على نهر الأردن. يوحنا ابن زكريا ابن العاقر المنادي على الجبال المبشر في البراري أيها السيد الناظر إلى سر كلمة الآب وهو في نهر الأردن . تعالوا أنظروا وتعجبوا من هذا العمل العجيب الذي للوحيد الكلمة ابن الأب هو رب وهو غله وهو ابن العلي. من يقدر على أعمال يديه. اتضع بذاته واكمل الفضائل وأعد سبلاً لكي نسعي فيها. هو السيد الطاهر ورب الطهارة. هو قدوس وكائن في القديسين هو سيد الكافة قد صار إنساناً من اجل خلاصنا من أجل هذا أمتلأت البشرية كلها من نعمته قبل المعمودية واعتمد. وعلمنا ان نتعلم من اجل الكاهن الطوباوى . هذا الكاهن ورئيس الكهنة شهد لكل أحد من أجل كلمة الإله ملكنا يسوع المسيح. أن الذي أرسلني لأعمد هو الذي قال لي. الذي ترى الروح ياتي عليه هو حمل الله. وقد رأيت وشهدت ان هذا هو ابن الله. من أجل الصوت الذي سمعته من مجد العلي. قال المعمداني المكرم في البشرية. الشاهد لمخلصنا يوحنا الصابغ. أن الذي يؤمن بالابن له الحياة الأبدية. ومن لا يؤمن به يحل عليه غضب الله. تعالوا نؤمن به لكي ننال الخيرات ونرث الحياة الدائمة. اشفع فينا أيها الصابغ يوحنا. ليغفر لنا خطايانا آمين. ${cross}"
               }
             ]
           }
@@ -15723,7 +15677,9 @@
     "arabic_title": "طرح آدام بعد ثيؤطوكية الأحد في عيد الميلاد",
     "caption_class": "caption",
     "season": "Feast of the Nativity",
-    "placement": ["postTheotokia"],
+    "placement": [
+      "postTheotokia"
+    ],
     "dayOfTheWeek": "Sunday",
     "themes": [],
     "tbodies": [
@@ -15794,10 +15750,10 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "What can I say? What shall I utter? And in what manner can I speak In order to explain the honor of This lady who is higher than the heavenly ranks? She became the throne for the One who sits upon the cherubim, and the veil who veiled the One who is glorified by the seraphim and she gave birth to Him. Let us all exalt her saying \"Rejoice O precious land, in which Joseph the righteous who bought it found in it the divine treasure hidden in it. Rejoice or blessed vineyard, that was not planted and yet produced the Fruit. Rejoice O burning bush that was seen by Moses, while it was engulfed in flames and yet her branches were not burned or consumed by them. The Lord is with you. Blessed are you among women and blessed is the fruit of your womb, for the One who was born of you is Holy and shall be called the Son of God. Ask the Lord on our behalf that He may grant us the forgiveness of our sins. Amen, Alleluia, Kyrie-eleison."
+                "english": "What can I say? What shall I utter? And in what manner can I speak In order to explain the honor of This lady who is higher than the heavenly ranks? She became the throne for the One who sits upon the cherubim, and the veil who veiled the One who is glorified by the seraphim and she gave birth to Him. Let us all exalt her saying \"Rejoice O precious land, in which Joseph the righteous who bought it found in it the divine treasure hidden in it. Rejoice or blessed vineyard, that was not planted and yet produced the Fruit. Rejoice O burning bush that was seen by Moses, while it was engulfed in flames and yet her branches were not burned or consumed by them. The Lord is with you. Blessed are you among women and blessed is the fruit of your womb, for the One who was born of you is Holy and shall be called the Son of God. Ask the Lord on our behalf that He may grant us the forgiveness of our sins. Amen, Alleluia, Kyrie-eleison. ${cross}"
               },
               {
-                "arabic": "ماذا أقول وبماذا انطق وبأي لسان استطيع ان أقول مديحاً يسيراً لهذه المكرمة من الصفوف السمائية مريم العذراء. لأنها صارت كرسياً لجالس على الشاروبيم وحجاباً احتجب داخلها الذي تمجده السارافيم. وولدته وهو من بأمره صارت أجناس السمائيين والأرضيين تمجده. فلنمجدها هكذا قائلين: أفرحي أيتها الكنز الشريف الذي ابتاعه البار يوسف. فوجد الجوهر مخفي فيه. افرحي ايتها الحقل المبارك الذي لم يزرع وأينع ثمره. أفرحي أيتها العليقة التي رآها موسى وهي مضطرمة وأغصانها لم تحترق افرحي يا ممتلئة نعمة الرب معك. مباركة أنت في النساء ومباركة هي ثمرة بطنك لأن المولود منك قدوس وابن الله يدعي. اسألي الرب فينا لكي ينعم لنا بغفران خطايانا. آمين الليلويا كيري لييسون."
+                "arabic": "ماذا أقول وبماذا انطق وبأي لسان استطيع ان أقول مديحاً يسيراً لهذه المكرمة من الصفوف السمائية مريم العذراء. لأنها صارت كرسياً لجالس على الشاروبيم وحجاباً احتجب داخلها الذي تمجده السارافيم. وولدته وهو من بأمره صارت أجناس السمائيين والأرضيين تمجده. فلنمجدها هكذا قائلين: أفرحي أيتها الكنز الشريف الذي ابتاعه البار يوسف. فوجد الجوهر مخفي فيه. افرحي ايتها الحقل المبارك الذي لم يزرع وأينع ثمره. أفرحي أيتها العليقة التي رآها موسى وهي مضطرمة وأغصانها لم تحترق افرحي يا ممتلئة نعمة الرب معك. مباركة أنت في النساء ومباركة هي ثمرة بطنك لأن المولود منك قدوس وابن الله يدعي. اسألي الرب فينا لكي ينعم لنا بغفران خطايانا. آمين الليلويا كيري لييسون. ${cross}"
               }
             ]
           }
@@ -15811,7 +15767,9 @@
     "arabic_title": "طرح ادام بعد ثيوطوكية الأحد في عيد الغطاس",
     "caption_class": "caption",
     "season": "Feast of Theophany",
-    "placement": ["postTheotokia"],
+    "placement": [
+      "postTheotokia"
+    ],
     "dayOfTheWeek": "Sunday",
     "themes": [],
     "tbodies": [
@@ -15932,10 +15890,10 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "Intercede on our behalf, O forerunner and baptizer, John the Baptist, that the Lord may forgive us our sins. Amen."
+                "english": "Intercede on our behalf, O forerunner and baptizer, John the Baptist, that the Lord may forgive us our sins. Amen. ${cross}"
               },
               {
-                "arabic": "أشفع فينا أيها السابق الصابغ يوحنا المعمدان ليغفر لنا الرب خطايانا آمين."
+                "arabic": "أشفع فينا أيها السابق الصابغ يوحنا المعمدان ليغفر لنا الرب خطايانا آمين. ${cross}"
               }
             ]
           }
@@ -15949,7 +15907,9 @@
     "arabic_title": "طرح ادام في ختام صلاة نصف الليل في عيد الميلاد",
     "caption_class": "caption",
     "season": "Feast of the Nativity",
-    "placement": ["postMidnightPraises"],
+    "placement": [
+      "postMidnightPraises"
+    ],
     "adamWatos": "Adam",
     "themes": [],
     "tbodies": [
@@ -16020,10 +15980,10 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "Let us join the angels in praising Him, saying: \"Glory to God in the highest, peace on earth, and goodwill toward men.\" For He has come and saved us, His people. To Him be glory forever. Amen."
+                "english": "Let us join the angels in praising Him, saying: \"Glory to God in the highest, peace on earth, and goodwill toward men.\" For He has come and saved us, His people. To Him be glory forever. Amen. ${cross}"
               },
               {
-                "arabic": "فلنسبحه مع الملائكة قائلين: المجد لله في الأعالي وعلي الارض السلام وبالناس المسرة، لأنه أتي وخلصنا نحن شعبه. له المجد دائماً."
+                "arabic": "فلنسبحه مع الملائكة قائلين: المجد لله في الأعالي وعلي الارض السلام وبالناس المسرة، لأنه أتي وخلصنا نحن شعبه. له المجد دائماً. ${cross}"
               }
             ]
           }
@@ -16037,7 +15997,9 @@
     "arabic_title": "طرح واطس في ختام صلاة نصف الليل في عيد الميلاد",
     "caption_class": "caption",
     "season": "Feast of the Nativity",
-    "placement": ["postMidnightPraises"],
+    "placement": [
+      "postMidnightPraises"
+    ],
     "adamWatos": "Watos",
     "themes": [],
     "tbodies": [
@@ -16141,10 +16103,10 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "Mary the Virgin and Joseph the carpenter were in that place, taking refuge like strangers. She gave birth to her firstborn Son and laid Him in a manger for the animals. The angels descended from heaven and mingled with humanity, crying out, saying: \"Glory to God in the highest, peace on earth, and goodwill toward men,\" for He has come and saved us, His people. To Him be glory forever. Amen."
+                "english": "Mary the Virgin and Joseph the carpenter were in that place, taking refuge like strangers. She gave birth to her firstborn Son and laid Him in a manger for the animals. The angels descended from heaven and mingled with humanity, crying out, saying: \"Glory to God in the highest, peace on earth, and goodwill toward men,\" for He has come and saved us, His people. To Him be glory forever. Amen. ${cross}"
               },
               {
-                "arabic": "مريم العذراء ويوسف النجار كانا في الموضع ملتجئين مثل أناس غرباء. فولدت أبنها البكر وأرقدته في مذود البهائم. ونزل الملائكة من السماء واختلطوا بالبشر صارخين قائلين: المجد لله في الأعالي وعلي الارض السلام وبالناس المسرة، لأنه أتي وخلصنا نحن شعبه . له المجد دائماً."
+                "arabic": "مريم العذراء ويوسف النجار كانا في الموضع ملتجئين مثل أناس غرباء. فولدت أبنها البكر وأرقدته في مذود البهائم. ونزل الملائكة من السماء واختلطوا بالبشر صارخين قائلين: المجد لله في الأعالي وعلي الارض السلام وبالناس المسرة، لأنه أتي وخلصنا نحن شعبه . له المجد دائماً. ${cross}"
               }
             ]
           }
