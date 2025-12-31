@@ -8,9 +8,8 @@ import {
   getHtml,
   handleDrawerItemPress,
 } from "../../functions/renderFunctions";
-import { renderSongs } from "../../../data/songs/renderSongs";
+import { renderSongs } from "../../../data/renderSongs";
 import songsData from "../../../data/jsons/songs.json";
-import { iconVariables } from "../../../data/repeatedPrayers/iconVariables";
 import SettingsContext from "../../../settings/settingsContext";
 
 const SongsScreen = ({ route }) => {
@@ -27,23 +26,14 @@ const SongsScreen = ({ route }) => {
   const filteredSongs = (
     !theme
       ? songsData
-      : songsData.filter(
-          (song) => song.themes && song.themes.includes(theme)
-        )
+      : songsData.filter((song) => song.themes && song.themes.includes(theme))
   ).sort((a, b) => {
     const titleA = a.english_title || "";
     const titleB = b.english_title || "";
     return titleA.localeCompare(titleB);
   });
 
-
-        
-
-  const body = renderSongs(
-    filteredSongs,
-    theme,
-    onePageSettings
-  );
+  const body = renderSongs(filteredSongs, theme, onePageSettings);
 
   // Generate HTML dynamically
   const script = htmlRenderScript;

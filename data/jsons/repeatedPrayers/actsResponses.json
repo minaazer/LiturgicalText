@@ -1,0 +1,318 @@
+[
+  {
+    "english_title": "Praxis Response",
+    "coptic_title": "",
+    "arabic_title": "مرد الإبركسيس",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Annunciation",
+              "Joyful 29th of the Month"
+            ],
+            "cells": [
+              {
+                "english": "Hail to you who has found grace, the Lord is with you, hail to you who accepted from the angel, the joy of the world",
+                "coptic": "Ⲭⲉⲣⲉ ⲑⲏⲉ̀ⲧⲁⲥϫⲉⲙ ϩ̀ⲙⲟⲧ: Ⲡ̀ϭⲟⲓⲥ ϣⲟⲡ ⲛⲉⲙⲉ: ⲭⲉⲣⲉ ⲑⲏⲉ̀ⲧⲁⲥϭⲓ ⲛ̀ⲧⲉⲛ ⲡⲓⲁⲅⲅⲉⲗⲟⲥ: ⲙ̀ⲫ̀ⲣⲁϣⲓ ⲙ̀ⲡⲓⲕⲟⲥⲙⲟⲥ.",
+                "arabic": "السلام للتي وجدت نعمة، الرب معكِ، السلام للتي قبلت من الملاك، فرح العالم."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Nativity",
+              "Joyful 29th of the Month"
+            ],
+            "cells": [
+              {
+                "english": "Hail to Bethlehem, the city of the prophets, where Christ was born, the second Adam.",
+                "coptic": "Ⲭⲉⲣⲉ Ⲃⲏⲑⲗⲉⲉⲙ: ⲧ̀ⲡⲟⲗⲓⲥ ⲛ̀ⲛⲓⲡⲣⲟⲫⲏⲧⲏⲥ: ⲑⲏⲉ̀ⲧⲁⲩⲙⲉⲥ Ⲡⲭ̅ⲥ̅ ⲛ̀ϧⲏⲧⲥ: ⲡⲓⲙⲁϩ ⲥ̀ⲛⲁⲩ ⲛ̀Ⲁⲇⲁⲙ.",
+                "arabic": "السلام لبيت لحم مدينة الأنبياء التي ولد فيها المسيح أدم الثاني."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Theophany"
+            ],
+            "cells": [
+              {
+                "english": "\"This is My beloved Son, with whom My soul is well pleased, He does My will; hear Him, for He is the life-Giver.\"",
+                "coptic": "Ϫⲉ ⲫⲁⲓ ⲡⲉ Ⲡⲁϣⲏⲣⲓ Ⲡⲁⲙⲉⲛⲣⲓⲧ: ⲉ̀ⲧⲁ ⲧⲁⲯⲩⲭⲏ ϯⲙⲁϯ ⲛ̀ϧⲏⲧϥ: ϫⲉ ⲁϥⲉⲣⲡⲁⲟⲩⲱϣ ⲥⲱⲧⲉⲙ ⲛ̀ⲥⲱϥ: ϫⲉ ⲛ̀ⲑⲟϥ ⲡⲉ Ⲡⲓⲣⲉϥⲧⲁⲛϧⲟ.",
+                "arabic": "\"هذا هو إبني حبيبي، الذي سُرَّت به نفسي، وصنع مشيئتي له إسمعوا، لأنه هو المحيي.\""
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "saints": [
+              "St. John the Baptist"
+            ],
+            "seasons": [
+              "Feast of the Theophany"
+            ],
+            "cells": [
+              {
+                "english": "Hail to John, the great forerunner, hail to the priest, the relative of Emmanuel.",
+                "coptic": "Ⲭⲉⲣⲉ Ⲓⲱⲁⲛⲛⲏⲥ: ⲡⲓⲛⲓϣϯ ⲙ̀ⲡ̀ⲣⲟⲇⲣⲟⲙⲟⲥ: ⲭⲉⲣⲉ ⲡⲓⲟ̀ⲩⲏⲃ ⲡ̀ⲥⲩⲛⲅⲉⲛⲏⲥ ⲛ̀Ⲉⲙⲙⲁⲛⲟⲩⲏ̀ⲗ.",
+                "arabic": "السلام ليوحنا العظيم السابق، السلام للكاهن، نسيب عمانوئيل."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Hosanna Sunday"
+            ],
+            "cells": [
+              {
+                "english": "Hosanna in the highest, this is the King of Israel, blessed is He who comes in the name, of the Lord of hosts.",
+                "coptic": "Ⲱ̀ⲥⲁⲛⲛⲁ ϧⲉⲛ ⲛⲏⲉⲧϭⲟⲥⲓ: ⲫⲁⲓ ⲡⲉ Ⲡ̀ⲟⲩⲣⲟ ⲙ̀Ⲡⲓⲥⲣⲁⲏⲗ: ϥ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲛ̀ϫⲉ ⲫⲏⲉⲑⲛⲏⲟⲩ: ϧⲉⲛ ⲫ̀ⲣⲁⲛ ⲙ̀Ⲡ̀ϭⲟⲓⲥ ⲛ̀ⲧⲉ ⲛⲓϫⲟⲙ.",
+                "arabic": "أوصنا في الأعالي، هذا هو ملك إسرائيل، مبارك الآتي، بإسم رب القوات."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Resurrection",
+              "Holy 50 Days - Before Ascension",
+              "Feast of the Ascension",
+              "Holy 50 Days - After Ascension",
+              "Joyful 29th of the Month"
+            ],
+            "cells": [
+              {
+                "english": "Hail to His Resurrection, when He rose from the dead, that He may save us, from our sins.",
+                "coptic": "Ⲭⲉⲣⲉ Ⲧⲉϥⲁ̀ⲛⲁⲥⲧⲁⲥⲓⲥ: ⲉ̀ⲧⲁϥⲧⲱⲛϥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ: ϣⲁ ⲛ̀ⲧⲉϥⲥⲱϯ ⲙ̀ⲙⲟⲛ: ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲉⲛⲛⲟⲃⲓ.",
+                "arabic": "السلام لقيامته، لما قام من بين الأموات، لكي يخلصنا، من خطايانا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Ascension",
+              "Holy 50 Days - After Ascension"
+            ],
+            "cells": [
+              {
+                "english": "Hail to His Ascension, in which He ascended into the heavens, in glory and honor, He is seated at the right hand of His Father.",
+                "coptic": "Ⲭⲉⲣⲉ Ⲧⲉϥⲁ̀ⲛⲁⲗⲩⲙⲯⲓⲥ: ⲉ̀ⲧⲁϥϣⲉⲛⲁϥ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ⲛⲓⲫⲏⲟⲩⲓ̀: ϧⲉⲛ ⲟⲩⲱ̀ⲟⲩ ⲛⲉⲙ ⲟⲩⲧⲁⲓⲟ: ⲁϥϩⲉⲙⲥⲓ ⲥⲁⲟⲩⲓ̀ⲛⲁⲙ ⲙ̀Ⲡⲉϥⲓⲱⲧ.<br/>",
+                "arabic": "السلام لصعوده، لما صعد إلى السموات، بمجد وإكرام، جلس عن يمين أبيه.<br/>"
+              }
+            ]
+          },
+          {
+            "english_title": "Another Praxis Response",
+            "coptic_title": "Ⲭⲉⲣⲉ Ⲧⲉϥⲁ̀ⲛⲁⲥⲧⲁⲥⲓⲥ",
+            "arabic_title": "مرد إبركسيس آخر",
+            "seasons": [
+              "Feast of the Ascension",
+              "Holy 50 Days - After Ascension"
+            ],
+            "tbodies": [
+              {
+                "rows": [
+                  {
+                    "row-class": "text",
+                    "cells": [
+                      {
+                        "english": "Hail to His Resurrection, when He rose from the dead, and ascended into the heavens, He is seated at the right hand of His Father.",
+                        "coptic": "Ⲭⲉⲣⲉ Ⲧⲉϥⲁ̀ⲛⲁⲥⲧⲁⲥⲓⲥ: ⲉ̀ⲧⲁϥⲧⲱⲛϥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ: ⲟⲩⲟϩ ⲁϥϣⲉⲛⲁϥ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ⲛⲓⲫⲏⲟⲩⲓ̀: ⲁϥϩⲉⲙⲥⲓ ⲥⲁⲟⲩⲓ̀ⲛⲁⲙ ⲙ̀Ⲡⲉϥⲓⲱⲧ.",
+                        "arabic": "السلام لقيامته، لما قام من بين الأموات، وصعد إلى السموات، وجلس عن يمين أبيه."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of Pentecost"
+            ],
+            "cells": [
+              {
+                "english": "Hail to His Ascension, in which He ascended into the heavens, and sent the Paraclete, the Spirit of Truth.",
+                "coptic": "Ⲭⲉⲣⲉ Ⲧⲉϥⲁ̀ⲛⲁⲗⲩⲙⲯⲓⲥ: ⲉ̀ⲧⲁϥϣⲉⲛⲁϥ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ⲛⲓⲫⲏⲟⲩⲓ̀: ⲁϥⲟⲩⲱⲣⲡ ⲛⲁⲛ ⲙ̀Ⲡⲓⲡⲁⲣⲁⲕⲗⲏⲧⲟⲛ: Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲛ̀ⲧⲉ ϯⲙⲉⲑⲙⲏⲓ.",
+                "arabic": "السلام لصعوده، لما صعد إلى السموات، وأرسل لنا البارقليط، روح الحق."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Circumcision"
+            ],
+            "cells": [
+              {
+                "english": "Hail to Bethlehem, the city of the prophets, those which prophesied, about the Birth of Emmanuel.",
+                "coptic": "Ⲭⲉⲣⲉ Ⲃⲏⲑⲗⲉⲉⲙ: ⲧ̀ⲡⲟⲗⲓⲥ ⲛ̀ⲛⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲑⲏⲉ̀ⲧⲁⲩⲉⲣ ⲡ̀ⲣⲟⲫⲏⲧⲏⲃⲏⲛ: ⲉⲑⲃⲉ Ⲡ̀ϫⲓⲛⲙⲓⲥⲓ ⲛ̀Ⲉⲙⲙⲁⲛⲟⲩⲏⲗ.",
+                "arabic": "السلام لبيت لحم، مدينة الأنبياء، الذين تنبأوا، عن ميلاد عمانوئيل."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Entrance of the Lord Christ into the Land of Egypt"
+            ],
+            "cells": [
+              {
+                "english": "Let Egypt rejoice and be glad, with its sons and border cities, for the Lover of Man has come, who existed before all ages.<br/>",
+                "coptic": "Ⲣⲁϣⲓ ⲑⲉⲗⲏⲗ ⲱ̀ ⲛⲓⲣⲉⲙⲛ̀Ⲭⲏⲙⲓ: ⲛⲉⲙ ⲛⲉⲥϣⲏⲣⲓ ⲛⲉⲙ ⲛⲉⲥⲑⲱϣ ⲧⲏⲣⲟⲩ: ϫⲉ ⲁϥⲓ̀ ϣⲁⲣⲟ ⲛ̀ϫⲉ Ⲡⲓⲙⲁⲓⲣⲱⲙⲓ: ⲫⲏⲉⲧϣⲟⲡ ϧⲁϫⲱⲟⲩ ⲛ̀ⲛⲓⲉ̀ⲱⲛ ⲧⲏⲣⲟⲩ.<br/>",
+                "arabic": "إفرحوا وتهللوا يا آل مصر، وكل بنيها وتخومها، لأنه أتى إليك محب البشر، الكائن قبل كل الدهور."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Wedding at Cana of Galilee"
+            ],
+            "cells": [
+              {
+                "english": "Six jars of water, You changed into genuine wine, with Your great glory, we praise You three times.",
+                "coptic": "Ⲥⲟⲟⲩ (ⲋ) ⲛ̀ϩⲩⲇⲣⲓⲁ ⲙ̀ⲙⲱⲟⲩ: ⲁⲕⲁⲓⲧⲟⲩ ⲛ̀ⲏⲣⲡ ⲉϥⲥⲱⲧⲡ: ϩⲓⲧⲉⲛ ⲡⲉⲕⲛⲓϣϯ ⲛ̀ⲱ̀ⲟⲩ: ⲧⲉⲛϩⲱⲥ ⲛⲁⲕ ϣⲟⲙⲧ ⲛ̀ⲥⲟⲡ.",
+                "arabic": "سته أجران ماء حولها الى خمر مختار بمجده العظيم فى عرس قانا الجليل."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Transfiguration"
+            ],
+            "cells": [
+              {
+                "english": "Elijah and Moses the strong ones, saw His clothes upon Mount Tabor, a cloud of light passed, over the disciples.",
+                "coptic": "Ⲏⲗⲓⲁⲥ ⲛⲉⲙ Ⲙⲱⲩ̀ⲥⲏⲥ ⲡⲉⲧϫⲱⲣ: ⲁⲩⲛⲁⲩ ⲉ̀ⲛⲉϥϩ̀ⲃⲱⲥ ϩⲓ Ⲑⲁⲃⲱⲣ: ⲛⲓⲙⲁⲑⲏⲧⲏⲥ ⲉⲩⲉⲣϫⲓⲛⲓⲟⲣ: ⲛ̀ϯϭⲏⲡⲓ ⲉⲥⲉⲣⲟⲩⲱⲓⲛⲓ.",
+                "arabic": "نظر إيليا وموسى القوي، ثيابه فوق تابور، وعبر التلاميذ، سحابة نيرة."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Transfiguration"
+            ],
+            "cells": [
+              {
+                "english": "Hail to the Transfiguration of Christ, on Mount Tabor, in front of His saintly disciples, Peter and John and James.",
+                "coptic": "Ⲭⲉⲣⲉ ⲡⲓϢⲟⲃⲧ ⲛ̀ⲧⲉ Ⲡⲭ̅ⲥ̅: ϩⲓϫⲉⲛ ⲡⲓⲧⲱⲟⲩ ⲛ̀Ⲑⲁⲃⲱⲣ: ⲛⲁϩⲣⲉⲛ ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ ⲉ̅ⲑ̅ⲩ̅: Ⲡⲉⲧⲣⲟⲥ ⲛⲉⲙ Ⲓⲱⲁⲛⲛⲏⲥ ⲛⲉⲙ Ⲓⲁⲕⲱⲃⲟⲥ.",
+                "arabic": "السلام لتجلي المسيح، على جبل تابور، أمام تلاميذه القديسين، بطرس ويوحنا ويعقوب."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Cross"
+            ],
+            "cells": [
+              {
+                "english": "Hail to the Cross, which my Lord was crucified upon, in order to save us, from our sins.",
+                "coptic": "Ⲭⲉⲣⲉ Ⲡⲓⲥ̀ⲧⲁⲩⲣⲟⲥ: ⲫⲏⲉ̀ⲧⲁⲩⲉϣ Ⲡⲁϭⲟⲓⲥ ̀ⲉ̀ⲣⲟϥ: ϣⲁ ⲛ̀ⲧⲉϥⲥⲱϯ ⲙ̀ⲙⲟⲛ: ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲉⲛⲛⲟⲃⲓ.",
+                "arabic": "السلام للصليب، الذي صُلِبَ ربي عليه، حتى خلصنا، من خطايانا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Nayrouz (Coptic New Year)"
+            ],
+            "cells": [
+              {
+                "english": "Bless the crown of the year, with Your goodness O Lord, the rivers and the fountains, the plants and the fruits.",
+                "coptic": "Ⲥ̀ⲙⲟⲩ ⲉ̀ⲡⲓⲭ̀ⲗⲟⲙ ⲛ̀ⲧⲉ ϯⲣⲟⲙⲡⲓ: ϩⲓⲧⲉⲛ ⲧⲉⲕⲙⲉⲧⲭ̀ⲣⲏⲥⲧⲟⲥ Ⲡ̀ⲟ̅ⲥ̅: ⲛⲓⲓⲁⲣⲱⲟⲩ ⲛⲉⲙ ⲛⲓⲙⲟⲩⲙⲓ: ⲛⲉⲙ ⲛⲓⲥⲓϯ ⲛⲉⲙ ⲛⲓⲕⲁⲣⲡⲟⲥ.",
+                "arabic": "بارك إكليل [هذه] السنة، بصلاحك يا رب، الأنهار والينابيع، والزروع والأثمار."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "saints": [
+              "St. Mary"
+            ],
+            "cells": [
+              {
+                "english": "Hail to you O Mary, the beautiful dove, who gave birth to, God the Word.",
+                "coptic": "Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ: ϯϭⲣⲟⲙⲡⲓ ⲉⲑⲛⲉⲥⲱⲥ: ⲑⲏⲉ̀ⲧⲁⲥⲙⲓⲥⲓ ⲛⲁⲛ: ⲙ̀Ⲫϯ ⲡⲓⲖⲟⲅⲟⲥ.",
+                "arabic": "السلام لك يا مريم الحمامة الحسنة التي ولدت لنا الله الكلمة."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "saints": [
+              "St. Mary"
+            ],
+            "cells": [
+              {
+                "english": "Where for truly, I do not err, whenever I call you, the golden censer.",
+                "coptic": "Ⲧⲟⲧⲉ ⲁ̀ⲗⲏⲑⲱⲥ: ⲛ̀ϯϣⲱϥⲧ ⲁⲛ ⲛ̀ϩ̀ⲗⲓ: ⲁⲓϣⲁⲛⲙⲟⲩϯ ⲉ̀ⲣⲟ: ϫⲉ ϯϣⲟⲩⲣⲏ ⲛ̀ⲛⲟⲩⲃ.",
+                "arabic": "حينئذ بالحقيقة لا أخطئ في شئ أذ ما دعوتك المجمرة الذهب."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Apostles (Peter & Paul)"
+            ],
+            "cells": [
+              {
+                "english": "Hail to my masters the fathers, the Apostles, hail to our father Peter, and our teacher Paul.",
+                "coptic": "Ⲭⲉⲣⲉ ⲛⲁϭⲟⲓⲥ ⲛ̀ⲓⲟϯ: ⲛ̀ⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ: ⲭⲉⲣⲉ ⲡⲉⲛⲓⲱⲧ Ⲡⲉⲧⲣⲟⲥ: ⲛⲉⲙ ⲡⲉⲛⲥⲁϧ Ⲡⲁⲩⲗⲟⲥ.<br/>",
+                "arabic": "السلام لسادتي الآباء، الرسل، السلام لأبينا بطرس، ومعلمنا بولس."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Apostles (Peter & Paul)"
+            ],
+            "cells": [
+              {
+                "english": "Hail to our father Peter, and our teacher Paul, the great pillars, for the confirmation of the believers.",
+                "coptic": "Ⲭⲉⲣⲉ ⲡⲉⲛⲓⲱⲧ Ⲡⲉⲧⲣⲟⲥ: ⲛⲉⲙ ⲡⲉⲛⲥⲁϧ Ⲡⲁⲩⲗⲟⲥ: ⲡⲓⲛⲓϣϯ ⲛ̀ⲥ̀ⲧⲩⲗⲟⲥ: ⲉⲧⲧⲁϫⲣⲟ ⲛ̀ⲛⲓⲡⲓⲥⲧⲟⲥ.<br/>",
+                "arabic": "السلام لأبينا بطرس، ومعلمنا بولس، العمودين العظيمين، مثبتي المؤمنين."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "saints": [
+              "Any Apostle"
+            ],
+            "cells": [
+              {
+                "english": "Pray to the Lord on our behalf, O my masters the fathers the Apostles, and our father (...) the Apostle, that He may forgive us our sins.",
+                "coptic": "Ⲧⲱⲃϩ ⲙ̀Ⲡ̀ϭⲟⲓⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ: ⲱ̀ ⲛⲁϭⲟⲓⲥ ⲛ̀ⲓⲟϯ ⲛ̀ⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ: ⲛⲉⲙ ⲡⲉⲛⲓⲱⲧ (...) ⲛ̀ⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ: ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.",
+                "arabic": "أطلبوا من الرب عنا، يا سادتي الآباء الرسل، وأبانا (...) الرسول، ليغفر لنا خطايانا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Blessed are You indeed, with Your good Father, and the Holy Spirit, for You have come and saved us. Have mercy upon us.",
+                "coptic": "Ⲕ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲁ̀ⲗⲏⲑⲱⲥ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ Ⲉⲑⲟⲩⲁⲃ: ϫⲉ ⲁⲕⲓ̀ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ. Ⲛⲁⲓ ⲛⲁⲛ.",
+                "arabic": "مبارك أنت بالحقيقة، مع أبيك الصالح، والروح القدس، لأنك أتيت وخلصتنا. إرحمنا."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,6 +1,17 @@
-/* eslint-disable react/prop-types */
+/**
+ * eslint-disable react/prop-types
+ *
+ * @format
+ */
+
 import React, { useEffect, useState, useMemo } from "react";
-import { View, Text, TextInput, TouchableOpacity, ImageBackground } from "react-native";
+import {
+  View,
+  Text,
+  TextInput,
+  TouchableOpacity,
+  ImageBackground,
+} from "react-native";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import {
   DrawerContentScrollView,
@@ -13,20 +24,17 @@ import { Dimensions } from "react-native";
 import { MainContent } from "../functions/mainContent";
 import backgroundImage from "../../assets/background.png";
 import { BibleChapterPicker } from "../reusableComponents/pickers";
-import BibleData from "../../data/bible/bible.json";
+import { getVersionById } from "../../data/bibleVersions";
 
 const screenWidth = Dimensions.get("window").width;
 const isPortrait = screenWidth < 500;
 
-const getChapterVerses = (bookTitle, chapterNumber) => {
-  const book = BibleData.find((b) => b.title === bookTitle);
-  const chapter = book.chapters.find((c) => c.chapter === chapterNumber);
-  return chapter.verses;
-};
-
 const extractBookAndChapter = (title) => {
   const trimmedTitle = title.trim();
-  const match = trimmedTitle.match(/^Bible \/ (.+?) Chapter (\d+)$/);
+  // Match either "Bible / Book Chapter N" or "Book Chapter|إصحاح N"
+  const match = trimmedTitle.match(
+    /^(?:Bible \/ )?(.+?) (?:Chapter|إصحاح) (\d+)$/
+  );
   if (match) {
     return { book: match[1].trim(), chapter: parseInt(match[2], 10) };
   }
@@ -34,10 +42,30 @@ const extractBookAndChapter = (title) => {
 };
 
 const RightDrawerContent = React.forwardRef(
-  ({ currentTable, drawerItems, handleDrawerItemPress, navigation, ...props }, scrollViewRef) => {
-    const itemRefs = useMemo(() => drawerItems.map(() => React.createRef()), [drawerItems]);
+  (
+    {
+      currentTable,
+      drawerItems,
+      handleDrawerItemPress,
+      navigation,
+      versionId = "lxx2012",
+      ...props
+    },
+    scrollViewRef
+  ) => {
+    const itemRefs = useMemo(
+      () => drawerItems.map(() => React.createRef()),
+      [drawerItems]
+    );
     const [searchQuery, setSearchQuery] = useState("");
     const [sortOption, setSortOption] = useState("original");
+    const version = getVersionById(versionId);
+    const books = version?.data?.books || [];
+    const getChapterVerses = (bookTitle, chapterNumber) => {
+      const book = books.find((b) => b.title === bookTitle);
+      const chapter = book?.chapters.find((c) => c.chapter === chapterNumber);
+      return chapter?.verses || [];
+    };
 
     const filteredItems = useMemo(() => {
       const searchText = searchQuery.toLowerCase();
@@ -53,15 +81,21 @@ const RightDrawerContent = React.forwardRef(
     const sortedItems = useMemo(() => {
       const itemsCopy = [...filteredItems];
       if (sortOption === "english") {
-        return itemsCopy.sort((a, b) => a.title.english?.localeCompare(b.title.english));
+        return itemsCopy.sort((a, b) =>
+          a.title.english?.localeCompare(b.title.english)
+        );
       } else if (sortOption === "arabic") {
-        return itemsCopy.sort((a, b) => a.title.arabic?.localeCompare(b.title.arabic));
+        return itemsCopy.sort((a, b) =>
+          a.title.arabic?.localeCompare(b.title.arabic)
+        );
       }
       return itemsCopy;
     }, [filteredItems, sortOption]);
 
     useEffect(() => {
-      const activeItemIndex = drawerItems.findIndex((item) => item.id === currentTable);
+      const activeItemIndex = drawerItems.findIndex(
+        (item) => item.id === currentTable
+      );
       const activeItemRef = itemRefs[activeItemIndex];
 
       if (activeItemRef && activeItemRef.current && scrollViewRef?.current) {
@@ -144,7 +178,10 @@ const RightDrawerContent = React.forwardRef(
             const bookChapterInfo = extractBookAndChapter(item.title.english);
 
             if (bookChapterInfo) {
-              const verses = getChapterVerses(bookChapterInfo.book, bookChapterInfo.chapter);
+              const verses = getChapterVerses(
+                bookChapterInfo.book,
+                bookChapterInfo.chapter
+              );
               return (
                 <View key={item.id} style={presentationStyles.itemWrapper}>
                   <BibleChapterPicker
@@ -153,7 +190,10 @@ const RightDrawerContent = React.forwardRef(
                     defaultChapter={bookChapterInfo.chapter}
                   />
                   {verses.map((verse, verseIndex) => (
-                    <View key={verse.verse} style={presentationStyles.itemWrapper}>
+                    <View
+                      key={verse.verse}
+                      style={presentationStyles.itemWrapper}
+                    >
                       <DrawerItem
                         label={() => (
                           <Text style={presentationStyles.englishTitle}>
@@ -175,12 +215,18 @@ const RightDrawerContent = React.forwardRef(
               );
             }
             return (
-              <View ref={itemRefs[index]} key={item.id} style={presentationStyles.itemWrapper}>
+              <View
+                ref={itemRefs[index]}
+                key={item.id}
+                style={presentationStyles.itemWrapper}
+              >
                 <DrawerItem
                   label={() => (
                     <View style={presentationStyles.labelViewContainer}>
                       {item.title.order.map((lang) => {
-                        let textStyle = isActive ? presentationStyles.activeTitle : {};
+                        let textStyle = isActive
+                          ? presentationStyles.activeTitle
+                          : {};
                         if (lang === "english" && item.title.english) {
                           return (
                             <Text
@@ -188,17 +234,24 @@ const RightDrawerContent = React.forwardRef(
                               style={[
                                 presentationStyles.englishTitle,
                                 textStyle,
-                                item.nonTraditionalPascha && { fontFamily: 'Georgia Italic' }
+                                item.nonTraditionalPascha && {
+                                  fontFamily: "Georgia Italic",
+                                },
                               ]}
                             >
-                              {item.nonTraditionalPascha ? `• ${item.title.english}` : item.title.english}
+                              {item.nonTraditionalPascha
+                                ? `• ${item.title.english}`
+                                : item.title.english}
                             </Text>
                           );
                         } else if (lang === "coptic" && item.title.coptic) {
                           return (
                             <Text
                               key="coptic"
-                              style={[presentationStyles.copticTitle, textStyle]}
+                              style={[
+                                presentationStyles.copticTitle,
+                                textStyle,
+                              ]}
                             >
                               {item.title.coptic}
                             </Text>
@@ -210,7 +263,9 @@ const RightDrawerContent = React.forwardRef(
                               style={[
                                 presentationStyles.englishTitle,
                                 textStyle,
-                                item.nonTraditionalPascha && { fontFamily: 'Georgia Italic' }
+                                item.nonTraditionalPascha && {
+                                  fontFamily: "Georgia Italic",
+                                },
                               ]}
                             >
                               {item.title.arabic.replace(/<br>/g, "")}
@@ -221,12 +276,12 @@ const RightDrawerContent = React.forwardRef(
                       })}
                     </View>
                   )}
-          onPress={() => {
-            handleDrawerItemPress(item.id);
-            navigation.closeDrawer();
-          }}
-          style={presentationStyles.itemContainerStyle}
-        />
+                  onPress={() => {
+                    handleDrawerItemPress(item.id);
+                    navigation.closeDrawer();
+                  }}
+                  style={presentationStyles.itemContainerStyle}
+                />
                 {index !== sortedItems.length - 1 && (
                   <View style={presentationStyles.embossedLine}></View>
                 )}
@@ -249,6 +304,7 @@ const RightMenuDrawer = ({
   setDrawerItems,
   handleDrawerItemPress,
   webviewRef,
+  versionId = "lxx2012",
 }) => {
   const navigation = useNavigation();
   const scrollViewRef = React.useRef(null);
@@ -263,7 +319,9 @@ const RightMenuDrawer = ({
           drawerPosition: "right",
           drawerType: "front",
           overlayColor: "rgba(0,0,0,0.5)",
-          drawerStyle: { width: isPortrait ? screenWidth * 0.7 : screenWidth * 0.4 },
+          drawerStyle: {
+            width: isPortrait ? screenWidth * 0.7 : screenWidth * 0.4,
+          },
         }}
         drawerContent={(props) => (
           <RightDrawerContent
@@ -275,6 +333,7 @@ const RightMenuDrawer = ({
               handleDrawerItemPress(tableId, webviewRef, row);
               navigation.closeDrawer();
             }}
+            versionId={versionId}
           />
         )}
       >

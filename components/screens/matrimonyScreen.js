@@ -4,16 +4,12 @@ import React, { useRef, useState, useContext } from "react";
 import RightMenuDrawer from "../navigation/BookDrawer";
 import { useDynamicStyles } from "../css/cssStyles";
 import { htmlRenderScript } from "../functions/jsScripts";
-import {
-  getHtml,
-  handleDrawerItemPress,
-} from "../functions/renderFunctions";
+import { getHtml, handleDrawerItemPress } from "../functions/renderFunctions";
 import { renderHtml } from "../../data/renderHtml.js";
-import { iconVariables } from "../../data/repeatedPrayers/iconVariables";
+import { iconVariables } from "../../data/iconVariables";
 import SettingsContext from "../../settings/settingsContext";
 import matrimonyData from "../../data/jsons/holyMatrimony.json";
 import resolveJsonData from "../functions/resolveJsonData";
-
 
 const MatrimonyScreen = () => {
   const [drawerItems, setDrawerItems] = useState([]);
@@ -26,15 +22,8 @@ const MatrimonyScreen = () => {
   const pageTitle = "Holy Matrimony";
   const jsonData = resolveJsonData(settings, matrimonyData);
   const variables = { ...iconVariables, aktonkAki };
-  
 
-  const body = renderHtml(
-    jsonData,
-    pageTitle,
-    "",
-    "",
-    variables
-  );
+  const body = renderHtml(jsonData, pageTitle, "", "", variables);
 
   // Generate HTML dynamically
   const script = htmlRenderScript;

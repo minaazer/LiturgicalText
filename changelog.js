@@ -106,6 +106,16 @@ const changelog = {
   "1.0.96": [
     "iOS bug fixes and performance improvements",
   ],
+  "1.0.97": [
+    "Fixed placement of 'Your mercies, O my God' in Kiahk praises",
+    "Added Daily Theotokias Index in Midnight Psalmody",
+    "Fixed weekday seasonal praises not showing in Kiahk",
+  ],
+  "1.0.98": [
+    "Added the exposition of the laborers for Midnight Psalmody during Kiahk",
+    "Fixed praise of 'I thank you, O God of Jacob' translation",
+    "Improved performance and stability"
+  ],
 };
 
 export default changelog;

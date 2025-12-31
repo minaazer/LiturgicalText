@@ -7,8 +7,8 @@ import { useNavigation, useIsFocused } from '@react-navigation/native';
 import { useDrawerStatus } from '@react-navigation/drawer';
 import localStorage from './localStorage';
 import {ExplanationPopup} from '../reusableComponents/explanationPopup';
-import explanationsData from '../../data/explanations.json'; // Import the data
-import imagesData from '../../data/images.json'; // Import the images data
+import explanationsData from '../../data/jsons/explanations.json'; // Import the data
+import imagesData from '../../data/jsons/images.json'; // Import the images data
 import { ImagePopup } from '../reusableComponents/imagePopup'; // Import the ImagePopup component
 import { togglePopupAudio , stopPopupAudio } from '../reusableComponents/audioPopup'; // Import audio functions
 import AudioControlsPopup from '../reusableComponents/audioPopup';
@@ -79,7 +79,7 @@ useEffect(() => {
     if (isActive) {
         const lifecycleState = isInitialMount.current ? 'mounting-from-scratch' : 'premounted';
         const screenName = fileKey || 'unknown';
-        console.log(`[MainContent] focus active | screen: ${screenName} | lifecycle: ${lifecycleState} | currentTable: ${currentTable || 'none'}`);
+        
 
         // Only show spinner on true initial mount or when no table is selected
         const shouldShowSpinner = isInitialMount.current || !currentTable;
@@ -204,6 +204,8 @@ useEffect(() => {
             javaScriptEnabled={true}
             domStorageEnabled={true}
             startInLoadingState={false}
+            pointerEvents={drawerIsOpen ? "none" : "auto"}
+            androidLayerType="software"
             injectedJavaScript={injectedJavaScript}
             onMessage={(event) => {
                 const message = JSON.parse(event.nativeEvent.data);

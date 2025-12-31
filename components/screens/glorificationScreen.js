@@ -4,13 +4,10 @@ import React, { useRef, useState, useContext, useMemo } from "react";
 import RightMenuDrawer from "../navigation/BookDrawer";
 import { useDynamicStyles } from "../css/cssStyles";
 import { htmlRenderScript } from "../functions/jsScripts";
-import {
-  getHtml,
-  handleDrawerItemPress,
-} from "../functions/renderFunctions";
+import { getHtml, handleDrawerItemPress } from "../functions/renderFunctions";
 import { renderHtml } from "../../data/renderHtml.js";
 import glorificationData from "../../data/jsons/glorification.json";
-import { iconVariables } from "../../data/repeatedPrayers/iconVariables";
+import { iconVariables } from "../../data/iconVariables";
 import SettingsContext from "../../settings/settingsContext";
 
 const GlorificationScreen = () => {
@@ -23,26 +20,26 @@ const GlorificationScreen = () => {
   const pageTitle = "Glorification";
   const jsonData = glorificationData;
   const variables = {
-        iconVariables
-    };
-  
-    // Check if the glorification section should be rendered in one page
-    const onePageSettings = settings.onePage.find(
-        (item) => item.value === "Glorification"
-    )?.checked;
-    const tableClass =  "";
-    const tbodyClass = onePageSettings ? 'scaling-container' : "";
-  const body = useMemo(() => renderHtml(
-    jsonData,
-    pageTitle,
-    tableClass,
-    tbodyClass,
-    variables
-  ), [jsonData, pageTitle, tableClass, tbodyClass, variables]);
+    iconVariables,
+  };
+
+  // Check if the glorification section should be rendered in one page
+  const onePageSettings = settings.onePage.find(
+    (item) => item.value === "Glorification"
+  )?.checked;
+  const tableClass = "";
+  const tbodyClass = onePageSettings ? "scaling-container" : "";
+  const body = useMemo(
+    () => renderHtml(jsonData, pageTitle, tableClass, tbodyClass, variables),
+    [jsonData, pageTitle, tableClass, tbodyClass, variables]
+  );
 
   // Generate HTML dynamically (memoized so drawer open/close doesn't remount WebView)
   const script = htmlRenderScript;
-  const html = useMemo(() => getHtml(dynamicStyles, body, script), [dynamicStyles, body, script]);
+  const html = useMemo(
+    () => getHtml(dynamicStyles, body, script),
+    [dynamicStyles, body, script]
+  );
 
   return (
     <RightMenuDrawer

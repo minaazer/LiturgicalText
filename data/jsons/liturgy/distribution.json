@@ -1,0 +1,1385 @@
+[
+  {
+    "english_title": "Psalm 150",
+    "coptic_title": "Ⲥ̀ⲙⲟⲩ Ⲫ̀ⲛⲟⲩϯ",
+    "arabic_title": "",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Glory to You O Lord, glory to You.",
+                "coptic": "Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ ⲇⲟⲝⲁ ⲥⲓ.",
+                "arabic": "المجد لك يا رب، المجد لك."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Alleluia.",
+                "coptic": "Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.",
+                "arabic": "هلليلويا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Praise God in all His saints.",
+                "coptic": "Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲫϯ ϧⲉⲛ ⲛⲏⲉ̅ⲑ̅ⲩ̅ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲁϥ.",
+                "arabic": "سبحوا الله في جميع قديسيه."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "+ Praise Him in the firmament of His power.",
+                "coptic": "+ Ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ⲡⲓⲧⲁϫⲣⲟ ⲛ̀ⲧⲉ ⲧⲉϥϫⲟⲙ.",
+                "arabic": "سبحوه في جلد قوته."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Praise Him for His mighty acts.",
+                "coptic": "Ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲉ̀ϩ̀ⲣⲏⲓ ϩⲓϫⲉⲛ ⲧⲉϥⲙⲉⲧϫⲱⲣⲓ.",
+                "arabic": "سبحوه على مقدرته."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "+ Praise Him according to the multitudes of His greatness.",
+                "coptic": "+ Ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲕⲁⲧⲁ ⲡ̀ⲁ̀ϣⲁⲓ ⲛ̀ⲧⲉ ⲧⲉϥⲙⲉⲧⲛⲓϣϯ.",
+                "arabic": "سبحوه ككثرة عظمته."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Praise Him with the sound of the trumpet.",
+                "coptic": "Ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ⲟⲩⲥ̀ⲙⲏ ⲛ̀ⲥⲁⲗⲡⲓⲅⲅⲟⲥ.",
+                "arabic": "سبحوه بصوت البوق."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "+ Praise Him with psaltery and harp.",
+                "coptic": "+ Ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ⲟⲩⲯⲁⲗⲧⲏⲣⲓⲟⲛ ⲛⲉⲙ ⲟⲩⲕⲩⲑⲁⲣⲁ.",
+                "arabic": "سبحوه بالمزمار والقيثار."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Praise Him with timbrel and chorus.",
+                "coptic": "Ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ϩⲁⲛⲕⲉⲙⲕⲉⲙ ⲛⲉⲙ ϩⲁⲛⲭⲟⲣⲟⲥ.",
+                "arabic": "سبحوه بدفوف وصفوف."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "+ Praise Him with strings and organs.",
+                "coptic": "+ Ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ϩⲁⲛⲕⲁⲡ ⲛⲉⲙ ⲟⲩⲟⲣⲅⲁⲛⲟⲛ.",
+                "arabic": "سبحوه بأوتار وأرغن."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Praise Him with pleasant sounding cymbals.",
+                "coptic": "Ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ϩⲁⲛⲕⲩⲙⲃⲁⲗⲟⲛ ⲉ̀ⲛⲉⲥⲉ ⲧⲟⲩⲥ̀ⲙⲏ.",
+                "arabic": "سبحوه بصنوج حسنة الصوت."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "+ Praise Him upon the cymbals of joy.",
+                "coptic": "+ Ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ϩⲁⲛⲕⲩⲙⲃⲁⲗⲟⲛ ⲛ̀ⲧⲉ ⲟⲩⲉ̀ϣ̀ⲗⲏⲗⲟⲩⲓ̀.",
+                "arabic": "سبحوه بصنوج التهليل."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Let every thing that has breath praise the name of the Lord our God.",
+                "coptic": "Ⲛⲓϥⲓ ⲛⲓⲃⲉⲛ ⲙⲁⲣⲟⲩⲥ̀ⲙⲟⲩ ⲧⲏⲣⲟⲩ ⲉ̀ⲫ̀ⲣⲁⲛ ⲙ̀Ⲡⲟ̅ⲥ̅ ⲡⲉⲛⲛⲟⲩϯ.",
+                "arabic": "كل نسمة فلتسبح اسم الرب الهنا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "+ Glory be to the Father, and the Son and the Holy Spirit.",
+                "coptic": "+ Ⲇⲟⲝⲁ Ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩ̀ⲓⲱ̀ ⲕⲉ ⲁ̀ⲅⲓⲱ̀ Ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ.",
+                "arabic": "المجد للآب والأبن والروح القدس."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Now and forever and unto the age of all ages Amen.",
+                "coptic": "Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ⲓ̀ ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲏⲛ.",
+                "arabic": "الآن وكل أوان وإلى دهر الداهرين آمين."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "+ Alleluia, Alleluia, glory be to our God.",
+                "coptic": "+ Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ ⲁ̅ⲗ̅: ⲇⲟⲝⲁ ⲥⲓ ⲟ Ⲑⲉⲟⲥ ⲏ̀ⲙⲱⲛ.",
+                "arabic": "المجد لإلهنا هلليلويا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Alleluia, Alleluia, glory be to our God.",
+                "coptic": "Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ ⲁ̅ⲗ̅: ⲡⲓⲱ̀ⲟⲩ ⲫⲁ ⲡⲉⲛⲚⲟⲩϯ ⲡⲉ.",
+                "arabic": "المجد لإلهنا هلليلويا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "+ O Jesus Christ, the Son of God, hear us and have mercy upon us.",
+                "coptic": "+ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ ⲡ̀Ϣⲏⲣⲓ ⲙ̀Ⲫϯ ⲥⲱⲧⲉⲙ ⲉ̀ⲣⲟⲛ ⲟⲩⲟϩ ⲛⲁⲓ ⲛⲁⲛ.",
+                "arabic": "يا يسوع المسيح ابن الله، إسمعنا وإرحمنا."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "Blessed be",
+    "coptic_title": "Ⲕ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ",
+    "arabic_title": "",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Blessed are You indeed, with Your good Father, and the Holy Spirit, for You have (risen) and saved us. <br/>",
+                "coptic": "Ⲕ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲁ̀ⲗⲏⲑⲱⲥ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ ⲡⲓⲠ̀ⲛⲉⲩⲙⲁ ⲉ̅ⲑ̅ⲩ̅: ϫⲉ (ⲁⲕⲓ̀) ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ ⲛⲁⲓ ⲛⲁⲛ.",
+                "arabic": "مبارك انت بالحقيقة مع ابيك الصالح والروح القدس لأنك )اتيت( وخلصتنا. <br/>"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "The Bread of Life - Pi-oik",
+    "coptic_title": "Ⲡⲓⲱⲓⲕ ⲛ̀ⲧⲉ ⲡ̀ⲱⲛϧ",
+    "arabic_title": "",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "The Bread of life, which came down for us from heaven, has given life to the world.",
+                "coptic": "Ⲡⲓⲱⲓⲕ ⲛ̀ⲧⲉ ⲡ̀ⲱⲛϧ: ⲉ̀ⲧⲁϥⲓ̀ ⲉⲡⲉⲥⲏⲧ: ⲛⲁⲛ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲧ̀ⲫⲉ: ⲁⲫϯ ⲙ̀ⲡ̀ⲱⲛϧ ⲙ̀ⲡⲓⲕⲟⲥⲙⲟⲥ.",
+                "arabic": "خبز الحياة الذى نزل من السماء، وهب الحياة للعالم."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "And you too, O Mary, have born in your womb the rational Manna, which came from the Father.",
+                "coptic": "Ⲛ̀ⲑⲟ ϩⲱⲓ Ⲙⲁⲣⲓⲁ̀: ⲁ̀ⲣⲉϥⲁⲓ ϧⲉⲛ ⲧⲉⲛⲉϫⲓ: ⲙ̀ⲡⲓⲘⲁⲛⲛⲁ ⲛ̀ⲛⲟ ⲏ̀ⲧⲟⲛ: ⲉ̀ⲧⲁϥⲓ̀ ⲉ̀ⲃⲟⲗϧⲉⲛ Ⲫ̀ⲓⲱⲧ.",
+                "arabic": "وأنتِ أيضاُ يا مريم حملتِ فى بطنك المن العقلى الذى أتى من الآب."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "You have brought Him forth without blemish; He gave us His body and His precious blood, and we live forever.",
+                "coptic": "Ⲁ̀ⲣⲉⲙⲁⲥϥ ⲁϭⲛⲉ ⲑⲱⲗⲉⲃ: ⲁϥϯ ⲛⲁⲛ ⲙ̀ⲡⲉϥⲥⲱⲙⲁ: ⲛⲉⲙ ⲡⲉϥⲥ̀ⲛⲟϥ ⲉⲧⲧⲁⲓⲏ̀ⲟⲩⲧ: ⲁⲛⲱⲛϧ ϣⲁ ⲉ̀ⲛⲉϩ.",
+                "arabic": "ولدته بغير دنس، وأعطانا جسده ودمه الكريم فحيينا الى الأبـد."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Around You stand the Cherubim, and the Seraphim, and they cannot look at You.",
+                "coptic": "Ⲥⲉⲧⲱⲟⲩⲛⲟⲩ ϩⲁⲣⲟⲕ: ⲛ̀ϫⲉ ⲛⲓⲬⲉⲣⲟⲩⲃⲓⲙ: ⲛⲉⲙ ⲛⲓⲤⲉⲣⲁⲫⲓⲙ: ⲥⲉϣ̀ⲛⲁⲩ ⲉ̀ⲣⲟⲕ ⲁⲛ.",
+                "arabic": "يقوم حولك الشاروبيم والسارافيم ولا يستطيعون أن ينظروك."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "We behold You upon the Altar and we partake of Your body and Your precious blood.",
+                "coptic": "Ⲧⲉⲛⲛⲁⲩ ⲉ̀ⲣⲟⲕ ⲙ̀ⲙⲏⲓ: ϩⲓϫⲉⲛ ⲡⲓⲙⲁⲛ̀ⲉⲣϣⲱⲟⲩϣⲓ: ⲧⲉⲛϭⲓ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲡⲉⲕⲥⲱⲙⲁ ⲛⲉⲙ ⲡⲉⲕ ⲥ̀ⲛⲟϥ ⲉⲧⲧⲁⲓⲏ̀ⲟⲩⲧ.",
+                "arabic": "ونحن ننظرك كل يوم على المذبح، ونتناول من جسدك ودمك الكريم."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Therefore we exalt you befittingly, with prophetic hymnology.",
+                "coptic": "Ⲉ̀ⲑⲃⲉ ⲫⲁⲓ ⲧⲉⲛϭⲓⲥⲓ: ⲙ̀ⲙⲟ ⲁ̀ⲝⲓⲱⲥ ϧⲉⲛ ϩⲁⲛⲩ̀ⲙⲛⲟⲗⲟⲅⲓⲁ̀: ⲙ̀ⲡ̀ⲣⲟⲫⲏⲧⲓⲕⲟⲛ.",
+                "arabic": "من أجل هذا نعظمك بإستحقاق بتماجيد نبوية."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "For they spoke of you with great honor, O holy city of the great King.",
+                "coptic": "Ϫⲉ ⲁⲩⲥⲁϫⲓ ⲉⲑⲃⲏϯ: ⲛ̀ϩⲁⲛ ϩ̀ⲃⲏⲟⲩⲓ̀ ⲉⲩⲧⲁⲓⲏ̀ⲟⲩⲧ ϯⲃⲁⲕⲓ ⲉ̀ⲑⲟⲩⲁⲃ ⲛ̀ⲧⲉ ⲡⲓⲛⲓϣϯ ⲛ̀Ⲟⲩⲣⲟ.",
+                "arabic": "لانهم تكلموا من أجلك بأعمال كريمة، أيتها المدينة المقدسة التى للملك العظيم."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "We entreat and pray that we may win mercy through your intercessions with the Lover of mankind.",
+                "coptic": "Ⲧⲉⲛϯϩⲟ ⲧⲉⲛⲧⲱⲃϩ: ⲉ̀ⲑⲣⲉⲛϣⲁϣⲛⲓ ⲉⲩⲛⲁⲓ: ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲩⲓⲁ̀: ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ.",
+                "arabic": "نسأل ونطلب أن نفوز برحمة، بشفاعاتك عند محب البشر."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Through the intercessions of the Theotokos Saint Mary, O Lord, grant us the forgiveness of our sins.",
+                "coptic": "Ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲩⲓⲁ̀ ⲛ̀ⲧⲉ ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ ⲉ̀ⲑⲟⲩⲁⲃ Ⲙⲁⲣⲓⲁ̀: Ⲡ̀ⲟ̅ⲥ̅ ⲁ̀ⲣⲓϩ̀ⲙⲟⲧ ⲛⲁⲛ ⲙ̀ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ.",
+                "arabic": "بشفاعات والدة الاله القديسة مريم، يا رب أنعم لنا بغفران خطايانا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Through the intercessions of the holy archangels Michael and Gabriel, O Lord, grant us the forgiveness of our sins.",
+                "coptic": "Ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲩⲓⲁ̀ ⲛ̀ⲧⲉ ⲛⲓⲁ̀ⲣⲭⲏⲁ̀ⲅⲅⲉⲗⲟⲥ ⲉ̅ⲑ̅ⲩ̅ Ⲙⲓⲭⲁⲏⲗ ⲛⲉⲛ Ⲅⲁⲃⲣⲓⲏⲗ: Ⲡ̀ⲟ̅ⲥ̅ ⲁ̀ⲣⲓϩ̀ⲙⲟⲧ ⲛⲁⲛ ⲙ̀ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ.",
+                "arabic": "بشفاعات رئيسى الملائكة المقدسين ميخائيل وغبريال يا رب أنعم لنا بغفران خطايانا."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "Je Efis-maroot",
+    "coptic_title": "Ϫⲉ ϥ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ",
+    "arabic_title": "",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Blessed be the Father and the Son and the Holy Spirit, the perfect Trinity. We worship Him and glorify Him.",
+                "coptic": "Ϫⲉ ϥ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲛ̀ϫⲉ Ⲫⲓⲱⲧ ⲛⲉⲙ ⲡ̀Ϣⲏⲣⲓ: ⲛⲉⲙ ⲡⲓⲠ̀ⲛⲉⲩⲙⲁ ⲉ̅ⲑ̅ⲩ̅: ϯⲦ̀ⲣⲓⲁⲥ ⲉⲧϫⲏⲕ ⲉ̀ⲃⲟⲗ: ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲥ ⲧⲉⲛϯⲱ̀ⲟⲩ ⲛⲁⲥ.",
+                "arabic": "مبارك الآب والابن والروح القدس، الثالوث الكامل، نسجد له ونمجده."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "Our Father who art in heaven",
+    "coptic_title": "",
+    "arabic_title": "أبانا الذي في السموات",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Our Father who art in heaven <br/> Before His glory bows every knee<br/> We plead that our sins be forgiven<br/> We humbly stand praying to Thee.",
+                "arabic": "أبانا الذي في السموات،<br/> تمجدك كل الطغمات،<br/> نصرخ إليك في الضيقات،<br/> يا أبانا الذي في السموات."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Hallowed be Your glorious name<br/> Whom the Cherubim and the Seraphim fear<br/> Though our sins put us to shame<br/> We ask, as Your children, our plea hear.",
+                "arabic": "ليتقدس إسمك يا معين،<br/> وليتبارك في كل حين،<br/> إرحم عبيدك الخاطئين،<br/> يا أبانا الذي في السموات."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Your kingdom come in the world today<br/> That we may live in Your kingdom now <br/> Your Holy Spirit will lead our way<br/> Your guiding hand will show us how.",
+                "arabic": "ليأتي ملكوتك يا ربي، <br/> وروحك القدوس يملك قلبي،<br/> هذا رجائي وطلبي،<br/> يا أبانا الذي في السموات."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Your will be done for You are the King<br/> As all creation praise Your name<br/> Our will, under Your feet, we bring<br/> Please set our hearts with Your love aflame.",
+                "arabic": "لتكن مشيئتك في كل حين،<br/> نافذة ونحن لها خاضعين،<br/> إجعلنا لأوامرك طائعين،<br/> يا أبانا الذي في السموات."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "On earth as it is in heaven<br/> For all by Your mighty power are made<br/> The honor and majesty be given<br/> To You, may we be, with Your hand guided.",
+                "arabic": "كما في السماء كذلك،<br/> على الأرض أنت السيد المالك،<br/> نج عبيدك من المهالك،<br/> يا أبانا الذي في السموات."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Give us this day our daily bread<br/> For You alone, our needs supply<br/> Our souls forever with Your love be fed<br/> For Your love is all we need to live by.",
+                "arabic": "خبزنا الذي للغد،<br/> أعطنا اليوم ياذا المجد،<br/> مراحمك كثيرة لا تعد،<br/> يا أبانا الذي في السموات."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Forgive our trespasses as we forgive<br/> Those who do against us trespass<br/> Purity of heart, O Lord please give<br/> And let our wicked sins to pass.",
+                "arabic": "وأغفر لنا ذنوبنا يا مولانا،<br/> يا ربي بمراحمك لا تنسانا،<br/> كرحمتك وليس كخطايانا،<br/> يا أبانا الذي في السموات."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "And lead us not into temptation<br/> For we are weak when we are alone<br/> But through Your glorious salvation<br/> Your mighty hand will guide our own.",
+                "arabic": "كما نغفر نحن للمذنبين،<br/> إلينا والأعداء المسيئين،<br/> علمنا أن نكون متسامحين،<br/> يا أبانا الذي في السموات."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Deliver us O God, from the evil of man<br/> And help us walk in the path of light<br/> You cast away from us Satan<br/> And keep us guarded in Your holy sight.",
+                "arabic": "ولا تدخلنا في تجربة يا إلهنا،<br/> وأن سمحت فلا تتخلى عنا،<br/> على إحتمال التجارب أعنا،<br/> يا أبانا الذي في السموات."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Through the mediation of Christ Jesus <br/> The Savior of the world in whom we believe<br/> The fruits of salvation will be with us<br/> And what we ask in His name, we receive.",
+                "arabic": "لكن نجنا من الشرير،<br/> يا صاحب الأمر والتدبير،<br/> أنت يا إلهي على الكل بصير،<br/> يا أبانا الذي في السموات."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "For Yours is the glory and kingdom<br/> Power and light for us will shine<br/> You fill us with heavenly wisdom <br/> And grace from Your power divine",
+                "arabic": "بالمسيح يسوع ربنا إقبلنا،<br/> يا رب بمعونتك إشملنا،<br/> وبصوتك المفرح إسمعنا،<br/> يا أبانا الذي في السموات."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "From now and forever, Amen<br/> To You our hearts and our souls will bring<br/> Offerings from the gifts we are given<br/> To give our God, Savior and King.<br/>",
+                "arabic": "لأن لك الملك والقوة،<br/> والمجد والعظمة والقدرة،<br/> بك نسير من قوة إلى قوة،<br/> يا أبانا الذي في السموات."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "arabic": "إلى أبد الآبدين،<br/> إجعلنا في إيمانك ثابتين،<br/> وإسمعنا عندما نصرخ قائلين،<br/> يا أبانا الذي في السموات."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "Listen O Christ´s congregation",
+    "coptic_title": "",
+    "arabic_title": "",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Listen O Christ´s congregation<br/> With understanding and concentrations<br/> And sing with all jubilation<br/> Christ has granted us salvation."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Give thanks unto Him for His grace<br/> And praise Him for His great kindness<br/> Exalt His name in every place<br/> Christ has granted us salvation."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "The bread of which we partake<br/> Is the body broken for our sake<br/> It forgives every fault and mistake<br/> Christ has granted us salvation."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "The wine in the cup that has been blessed<br/> Becomes the blood of Jesus Christ<br/> And remits all sins we have transgressed<br/> Christ has granted us salvation."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Through His compassion and love divine<br/> He granted unto us, sons of men<br/> This mystery of the bread and wine<br/> Christ has granted us salvation."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "The holy angels of heavens<br/> Desire to behold and look given<br/> This mystery we have been given<br/> Christ has granted us salvation."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Death came to the world by one man´s mistake<br/> But the Lord shed His blood for our sake<br/> This is the blood of which we partake<br/> Christ has granted us salvation."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "The manna given in the wilderness<br/> Was a figure of this mystery of goodness<br/> We deserve it only if we confess<br/> Christ has granted us salvation."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "This is the true heavenly bread<br/> This is the blood that for us He shed<br/> Through them we are to Him united<br/> Christ has granted us salvation."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Every time we partake with affection<br/> We remember His death and resurrection<br/> And His mysteries will lead us to perfection<br/> Christ has granted us salvation."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "Listen O Christ´s congregation - Arabic",
+    "coptic_title": "",
+    "arabic_title": "إسمعوا يا شعب المسيح",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "arabic": "إسمعوا يا شعب المسيح،<br/> وتفهموا بعقل رجيح،<br/> وصيحوا بلسان فصيح،<br/> المسيح أنعم لنا بالخلاص."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "arabic": "اُشكروا فضله وإحسانه،<br/> لأنه أعطانا جزيل أنعامه،<br/> وأنعم علينا بأسراره،<br/> المسيح أنعم لنا بالخلاص."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "arabic": "بإرادته الآلهية،<br/> وحكمته العلوية،<br/> أوهب لنا أسراراً خفية،<br/> المسيح أنعم لنا بالخلاص."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "arabic": "تشتهي الملائكة النورانية، <br/> أن تنظر هذه العطية،<br/> التي أنعم بها للبشرية،<br/> المسيح أنعم لنا بالخلاص."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "arabic": "جاد علينا بالغفران،<br/> وكسر عنا فخ الشيطان،<br/> وأعطانا جسده قربان، <br/> المسيح أنعم لنا بالخلاص."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "arabic": "حكمة عميقة وسر خفي،<br/> لا يدركهما عقل بشري،<br/> إلا الإله الحي الأزلي،<br/> المسيح أنعم لنا بالخلاص."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "arabic": "خبزاً موضوعاً في الصينية،<br/> لمحو الذنوب والخطية،<br/> من أكله ينال حياة أبدية،<br/> المسيح أنعم لنا بالخلاص."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "arabic": "خمراً طاهراً ممزوج بالكأس،<br/> لأجل التوبة والخلاص،<br/> من يشربه ينجي من القصاص،<br/> المسيح أنعم لنا بالخلاص."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "arabic": "خلاصاً لأرواح ونفوس،<br/> ومن يؤمن بإسم القدوس،<br/> ينال ميراث الفردوس،<br/> المسيح أنعم لنا بالخلاص."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "arabic": "دواء يبري كل جراحات،<br/> ويمحي الخطايا والسيئات،<br/> ونرث ملكوت السموات،<br/> المسيح أنعم لنا بالخلاص."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "arabic": "راحة لنفوس المؤمنين،<br/> الذين هم على الأيمان ثابتين،<br/> يرحمهم الرب في يوم الدين،<br/> المسيح أنعم لنا بالخلاص."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "arabic": "زمان الضلالة زال عنا،<br/> وأضاء علينا نور مخلصنا،<br/> وإبتهجت نفوسنا وفرحنا،<br/> المسيح أنعم لنا بالخلاص."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "arabic": "سراج الحق أضاء فينا،<br/> ونوره أشرق علينا،<br/> يسوع الحي فادينا،<br/> المسيح أنعم لنا بالخلاص."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "arabic": "شرف زائد ومجد جليل، <br/> موهبة تامة ليست تمثيل،<br/> جسد ودم عمانوئيل،<br/> المسيح أنعم لنا بالخلاص."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "arabic": "صفوف الملائكة العلويين،<br/> وقوف قدامه مرتعدين،<br/> لجلال عظمته حاضعين،<br/> المسيح أنعم لنا بالخلاص."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "arabic": "ضياء نوره في كل مكان،<br/> له العظمة والسلطان،<br/> والسجود الآن وكل آوان،<br/> المسيح أنعم لنا بالخلاص."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "arabic": "ظهر بالخلاص للشعوب،<br/> وخزق كتاب العهد المكتوب،<br/> طوبي لمن يؤمن به ويتوب،<br/> المسيح أنعم لنا بالخلاص."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "arabic": "أعطانا وصاياه الألهية،<br/> الاعتراف وترك الخطية،<br/> والتناول من أسراره المحيية،<br/> المسيح أنعم لنا بالخلاص."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "arabic": "غسل خطايانا بدمه الكريم،<br/> وخلصنا من نار الخطبة،<br/> وفتح لنا باب النعيم،<br/> المسيح أنعم لنا بالخلاص."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "arabic": "فلنسبح رب الآنام،<br/> ونقول مع الملائكة الكرام،<br/> المجد لله في العلا،<br/> وعلى الأرض السلام."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "arabic": "ونصيح بأعلى صوت،<br/> نحو الحي الذي لا يموت،<br/> لينعم علينا بالملكوت،<br/> المسيح أنعم لنا بالخلاص."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "arabic": "قدوس قدوس رب القوات،<br/> قدوس الممجد في السموات،<br/> الذي أنعم علينا بالخيرات،<br/> المسيح أنعم لنا بالخلاص."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "arabic": "كرامة ومجداً وأكرام،<br/> بإسم الله الحي الأعظم،<br/> الذي اعطانا مواهب عظام،<br/> المسيح أنعم لنا بالخلاص."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "arabic": "ليس لنا معين سواك،<br/> وأعين الكل تترجاك،<br/> جود عينا برضاك،<br/> المسيح أنعم لنا بالخلاص."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "arabic": "منك نطلب غفران الذنوب،<br/> أنت الغاية والمطلوب،<br/> تفرح بخاطئ واحد يتوب،<br/> المسيح أنعم لنا بالخلاص."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "arabic": "نسألك يا رب الصابؤوت،<br/> الحي الأزلي الذي لا يموت،<br/> أن تنعم علينا بالملكوت،<br/> المسيح أنعم لنا بالخلاص."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "arabic": "أعطينا يا رب توبة نقية،<br/> وأعمالاً بارة مرضية،<br/> لكي نرث حياة أبدية، <br/> المسيح أنعم لنا بالخلاص."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "O Lord have mercy on Your creation",
+    "coptic_title": "",
+    "arabic_title": "يا رب إرحم صنعة يديك",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Glory to You who raised the heavens,<br/> And the universe without help, <br/> You adorned the earth with all the plants, <br/> O Lord have mercy on Your creation.",
+                "arabic": "المجد لمَن رفع السموات،<br/> ونظم الكون بغير شريك،<br/> وزين الأرض بالنباتات،<br/> يا رب إرحم صنعة يديك."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Bless us with the heavenly blessing, <br/> Guide us to what gives You jubilation, <br/> Save us from every evil thing, <br/> O Lord have mercy on Your creation.",
+                "arabic": "باركنا ببركة سماوية،<br/> وأهدنا إلى ما يرضيك،<br/> خلصنا من الفخاخ الشيطانية،<br/> يا رب إرحم صنعة يديك."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "You have fulfilled all Your promises, <br/> And walked on earth with Your feet,<br/> Therefore we thank You in all cases, <br/> O Lord have mercy on Your creation.",
+                "arabic": "تممت لنا كل الأقوال،<br/> ومشيت على الأرض بقدميك،<br/> نشكرك على كل حال،<br/> يا رب إرحم صنعة يديك."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Confirm us O Lord in the faith,<br/> Grant us Your heavenly blessing,<br/> Have mercy upon Your people O Savior,<br/> O Lord have mercy on Your creation.",
+                "arabic": "ثبتنا يا رب على الإيمان،<br/> وأعطنا بركة من فيك،<br/> وإرحم شعبك يا ديان،<br/> يا رب إرحم صنعة يديك."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "All of Your works are wondrous,<br/> Mercy and compassion are for who call You,<br/> Do not behold our earthly sins,<br/> O Lord have mercy on Your creation.",
+                "arabic": "جميع أعمالك عظيمة،<br/> الرحمة والرأفة لمن يناديك،<br/> أترك خطايانا الجسيمة،<br/> يا رب إرحم صنعة يديك."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "You turned the water into wine, <br/> And for the blind, eyes You did fashion,<br/> For nothing is impossible for You, <br/> O Lord have mercy on Your creation.",
+                "arabic": "حولت الماء إلى خمر،<br/> وصنعت للأعمى أعين بيديك،<br/> ولم يعسر عليك أمر،<br/> يا رب إرحم صنعة يديك."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Save us, we are the sinners,<br/> And accept those who, to You, return,<br/> And do not count us with disobedient,<br/> O Lord have mercy on Your creation.",
+                "arabic": "خلصنا نحن الخطاه،<br/> وأقبل من يرجع إليك،<br/> ولا تحسبنا من العصاه،<br/> يا رب إرحم صنعة يديك."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Heal us from all our infirmities, <br/> And every despicable action,<br/> Forgive our sins and iniquities,<br/> O Lord have mercy on Your creation.",
+                "arabic": "داوينا من كل الأسقام،<br/> وجميع ما أخطأنا به إليك،<br/> وأغفر ذنوبنا والآثام،<br/> يا رب إرحم صنعة يديك."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Adam was humiliated outside Paradise,<br/> He lost the way and returning to You,<br/> And salvation came through ti-parthenos, <br/> O Lord have mercy on Your creation.",
+                "arabic": "ذل آدم خارج الفردوس،<br/> ضل الطريق والرجوع إليك،<br/> والخلاص صار من تي بارثينوس،<br/> يا رب إرحم صنعة يديك."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "You redeemed the lost and the sinners,<br/> And offered them a warm reception, <br/> Because You are gentle and patient,<br/> O Lord have mercy on Your creation.",
+                "arabic": "رديت الخاطئ مع الضال،<br/> وفتحت لهم ذراعيك،<br/> لأنك رؤوف وطويل البال، <br/> يا رب إرحم صنعة يديك."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "You adorned the heaven with stars, <br/> The sun and moon under Your feet, <br/> Take away from us all tribulations, <br/> O Lord have mercy on Your creation.",
+                "arabic": "زينت السماء بالنجوم،<br/> والشمس والقمر تحت قدميك،<br/> إرفع عنا كل الهموم،<br/> يا رب إرحم صنعة يديك."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Please forgive all our sins, <br/> You said, \"Come to Me I am your salvation,\"<br/> So in our hardships be our Refuge, <br/> O Lord have mercy on Your creation.",
+                "arabic": "سامحنا بجميع خطايانا،<br/> أنت قلت أطلبني وأنا فاديك،<br/> وفي الشدة كن ملجأنا،<br/> يا رب إرحم صنعة يديك."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "We are Your people and Your sheep, <br/> Who call upon You night and day, <br/> To judge us according to Your mercy, <br/> O Lord have mercy on Your creation.",
+                "arabic": "شعبك وغنم رعيتك،<br/> ليلاً ونهاراً يطلبون إليك،<br/> أن تعاملنا حسب رحمتك،<br/> يا رب إرحم صنعة يديك."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "We ask You all nights and days,<br/> To lead us to do Your will, <br/> Bless our crops and our lands, <br/> O Lord have mercy on Your creation.",
+                "arabic": "نصرخ إليك بطول النهار،<br/> أن تهدينا لعمل يرضيك،<br/> بارك في غلاتنا والأثمار،<br/> يا رب إرحم صنعة يديك."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "The weak of Your people, strengthen them,<br/> Confirm their faith in You,<br/> And comfort those who mourn,<br/> O Lord have mercy on Your creation.",
+                "arabic": "ضعفاء شعبك قويهم،<br/> وإجعل إيمانهم يثبت فيك،<br/> والحزانى يا رب عزيهم،<br/> يا رب إرحم صنعة يديك."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Purify us from every evil thought, <br/> For we have always hoped in You,<br/> And help us throughout all the days, <br/> O Lord have mercy on Your creation.",
+                "arabic": "طهرنا من كل الآثام،<br/> لأننا توكلنا عليك،<br/> وأعنا على مر الأيام،<br/> يا رب إرحم صنعة يديك."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Your crucifixion upon the cross,<br/> Renewed the faith of Your living ones,<br/> And trampled down the sting of death,<br/> O Lord have mercy on Your creation.",
+                "arabic": "ظهورك على الصليب مرتفعاً،<br/> جددت الإيمان لمحييك،<br/> وكسرت شوكة الموت منتصراً،<br/> يا رب إرحم صنعة يديك."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Sustain Your servants who are captive, <br/> Who call unto You at all times,<br/> Night and day, proclaiming and saying,<br/> O Lord have mercy on Your creation.",
+                "arabic": "عول عبيدك المسببين،<br/> الذين يصرخون إليك،<br/> ليلاً ونهاراً قائلين،<br/> يا رب إرحم صنعة يديك."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "We are sojourners in this world,<br/> Grant us to do Your will,<br/> That we maybe praise You night and day,<br/> O Lord have mercy on Your creation.",
+                "arabic": "غرباء نحن في هذه الديار،<br/> فإمنحنا أن نعمل ما يرضيك،<br/> لنسبحك ليلاً ونهار،<br/> يا رب إرحم صنعة يديك."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Your light shines on all mankind, <br/> And shone with it upon Your followers, <br/> Our hard hearts begin to tremble, <br/> O Lord have mercy on Your creation.",
+                "arabic": "فاق نورك على البشرية،<br/> وأشرقت به على تابعيك،<br/> فإرتعدت القلوب الحجرية،<br/> يا رب إرحم صنعة يديك."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "You told Your servant Simeon,<br/> His life will not reach termination, <br/> Before he sees the Savior of Israel,<br/> O Lord have mercy on Your creation.",
+                "arabic": "قلت لسمعان الشيخ في القديم،<br/> لن تموت حتى تنظر بعينيك،<br/> المخلص الآتي لأسرائيل،<br/> يا رب إرحم صنعة يديك."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "The teachings of the Apostles and Prophets,<br/> Gave us inspiration to follow You,<br/> Make all follow You with pure hearts,<br/> O Lord have mercy on Your creation.",
+                "arabic": "كلام الرسل والأنبياء،<br/> جذب المتعبين وقربهم إليك،<br/> إجعل الجميع لك أصفياء،<br/> يا رب إرحم صنعة يديك."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "You have power to raise the dead, <br/> And to heal all kinds of afflictions,<br/> Erase of us all of our iniquities, <br/> O Lord have mercy on Your creation.",
+                "arabic": "لك القدرة أقمت الأموات،<br/> وشفيت المرضى ومن يناديك،<br/> أمح لنا كل الزلات،<br/> يا رب إرحم صنعة يديك."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "You can erase all our sins, <br/> And give us wisdom and compassion, <br/> Repose the souls of our dead, <br/> O Lord have mercy on Your creation.",
+                "arabic": "محوت لنا كل خطايانا،<br/> وأعطيت الحكمة لطالبيك،<br/> نسألك تنيح موتانا،<br/> يا رب إرحم صنعة يديك."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "We ask You O Lord of lords, <br/> To answer any one who supplicates, <br/> Open to us all of Your doors, <br/> O Lord have mercy on Your creation.",
+                "arabic": "نطلب منك يا رب الأرباب،<br/> أن تستجيب لمن يترجاك،<br/> وتفتح لنا كل الأبواب،<br/> يا رب إرحم صنعة يديك."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "You do see all of our deeds, <br/> Deal with us according to Your will,<br/> Do not cast us away from Yourself,<br/> O Lord have mercy on Your creation.",
+                "arabic": "ها هي أعمالنا قدامك،<br/> فإصنع معنا ما يرضيك،<br/> ولا ترفضنا من أمامك،<br/> يا رب إرحم صنعة يديك."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "We ask You O Lord for support,<br/> And mercy to those who call upon You,<br/> Through the intercession of the kind Virgin,<br/> O Lord have mercy on Your creation.",
+                "arabic": "ونسألك يا إلهنا المعونة،<br/> والرحمة لكل ملتجئ إليك،<br/> بشفاعة العذراء الحنونة،<br/> يا رب إرحم صنعة يديك."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Lord do not remember my ignorance, <br/> And keep me into Your sight, <br/> I have sinned against You always,<br/> O Lord have mercy on Your creation.",
+                "arabic": "لا تذكر يا رب أيام جهلي،<br/> ولا تحجب عني عينيك،<br/> والخطية كانت هي فعلي،<br/> يا رب إرحم صنعة يديك."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "O Lord the merciful and the honored, <br/> Who is present in every place,<br/> grant us delight and goodness,<br/> O Lord have mercy on Your creation.",
+                "arabic": "يا رب يا كريم يا منان،<br/> يا حاضر في كل مكان،<br/> تعطف علينا بالإحسان،<br/> يا رب إرحم صنعة يديك."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Also our patriarch at this time,<br/> Keep him for us O Most High One,<br/> And sustain him through Your holy name, <br/> O Lord have mercy on Your creation.",
+                "arabic": "وبطريرك هذا الزمان،<br/> إحفظه لنا يا متعال،<br/> بأسمك القدوس يكون منصان،<br/> يا رب إرحم صنعة يديك."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "O Mother of Light",
+    "coptic_title": "",
+    "arabic_title": "يا أُمَ النور",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "O Mother of light, the pride of nations,<br/> The beginning of joy, the treasure of grace,<br/> The source of happiness, origin of mercy,<br/> O Mary, the daughter of Joachim.",
+                "arabic": "يا أُمَ النور .. يا فَخرَ الأُمَّة،<br/> يا بَدَءَ السرور .. يا كَنزَ النعمة،<br/> يا أصلَ الحُبُور .. مَعْدَنَ الرحمة،<br/> يا مريم يا إبنة يواقيم."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "The exalted, living, worshipped Lord, <br/> Honored you with perfection, O daughter of David,<br/> And Gabriel visited you, with the promised mystery,<br/> O Mary, the daughter of Joachim.",
+                "arabic": "الربَّ المُتَعَالُ .. الحيَّ الموجود،<br/> شَرَّفَكِ بكمال .. يا إبنة داود،<br/> وأتاكِ غبريـال .. بالسِرِّ المعهود،<br/> يا مريم يا إبنة يواقيم."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "He granted you blessedness, by the descent of the Grace,<br/> By a wondrous mystery, you bore the Word, <br/> And He saved every grievous soul, from the bond of darkness<br/> O Mary, the daughter of Joachim.",
+                "arabic": "أعطاكِ التطويب .. بحُلُولِ النعمة،<br/> بسِرٍّ عجيب .. حَمَلْتِ الكلمة،<br/> وأنقذ كلَّ كئيب .. من وِثاقِ الظلمة،<br/> يا مريم يا إبنة يواقيم."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Hail to you, O rod of Aaron, <br/> Blessed are you, O daughter of Zion, <br/> The righteous rejoice at your name, <br/> O Mary, the daughter of Joachim.",
+                "arabic": "السلامُ لكِ .. يا عصا هرون،<br/> الطوبى إليكِ .. يا إبنة صهيون،<br/> يفرحُ داعِيكِ .. والصديقون،<br/> يا مريم يا إبنة يواقيم."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Rejoice O Mary, O chosen bride, <br/> O honored seed, and dome and tower, <br/> O exalted root, of all purity,<br/> O Mary, the daughter of Joachim.",
+                "arabic": "إفرحي يا مريم .. يا عروسٌ مختارة،<br/> يا نسلاً مُكرماً .. قبة ومنارة،<br/> يا أصلً مُعظمً .. ذو الطهارة،<br/> يا مريم يا إبنة يواقيم."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "You became a heaven, carrying the Holy One,<br/> More honored than the power, higher than the ranks,<br/> We beseech you intercession, before the Lord Jesus,<br/> O Mary, the daughter of Joachim.",
+                "arabic": "صرتِ كالسموات .. حاملة القدوس،<br/> أشرف من القوات .. عالية عن الطقوس،<br/> نرجوكِ الشفاعة .. أمام الربِّ إيسوس،<br/> يا مريم يا إبنة يواقيم."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "We ask you O Virgin, O crown of Israel,<br/> O joy of the martyrs, O origin of rejoicing, <br/> Intercession and victory, before Emmanuel.<br/> O Mary, the daughter of Joachim.",
+                "arabic": "نسألُكِ يا عذراء .. يا تاجَ إسرائيل،<br/> يا فرحَ الشهداء .. يا أصلَ التهليل،<br/> شفاعة ونصراً .. أمام عمانوئيل،<br/> يا مريم يا إبنة يواقيم."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "Osana Ya Ebn Dawod (Hossana O Son of David)",
+    "coptic_title": "",
+    "arabic_title": "أوصنا يا إبن داود",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Hosanna O Son of David,<br/> O You who astonished us with the presence,<br/> And gave us the eternal bread,<br/> Hosanna in the highest.",
+                "arabic": "أوصنا يا إبن داود،<br/> يا من أتحفنا بالجود،<br/> وأعطانا خبز الخلود،<br/> أوصنا في الأعالي."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "This is the mystery of mysteries,<br/> This is the pride of the righteous,<br/> This is the joy of the pure ones,<br/> This is the high mystery.",
+                "arabic": "هذا هو سر الأسرار،<br/> هذا هو فخر الأبرار،<br/> هذا هو فرح الأطهار،<br/> هذا هو السر العالي."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "This is the bread of heaven,<br/> This is the food of the judges, <br/> This is the life of the scholars.<br/> Who gets it doesn't worry.",
+                "arabic": "هذا هو خبز السماء،<br/> هذا هو قوت الحكماء،<br/> هذا هو حياة الفهماء،<br/> من يناله لا يبالي."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "This is the crown of priesthood,<br/> This is a sacrifice of divinity, <br/> This is a token of the kingdom, <br/> This is the door of Excellency.",
+                "arabic": "هذا هو تاج الكهنوت،<br/> هذا هو قربان اللاهوت،<br/> هذا هو عربون الملكوت،<br/> هذا هو باب المعالي."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "This is the unique bread,<br/> The body of the only Son,<br/> His glorified and precious blood, <br/> Became might to the heirs.",
+                "arabic": "هذا هو الخبز الفريد،<br/> جسد الإبن الوحيد،<br/> دمه الأزكى المجيد،<br/> صار قوتاً للموالي."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "O righteous people,<br/> Sing in songs of joy,<br/> Raise the voice of pleasure,<br/> Hosanna in the highest.",
+                "arabic": "أيها الشعب المبرور،<br/> رنموا بنغمات الحبور،<br/> إرفعوا صوت السرور،<br/> أوصنا في الأعالي."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Know the ability of wisdom,<br/> Give thanks to this blessing,<br/> Glorify the Son the Word, <br/> The Supreme Lord of glory.",
+                "arabic": "إعلموا قدر الحكمة،<br/> أشكروا هذه النعمة،<br/> عظِّموا الإبن الكلمة،<br/> رب المجد المتعالي."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "O you chosen people,<br/> Come with all reverence,<br/> To be granted the mystery,<br/> The hidden and high mystery.",
+                "arabic": "أيها الشعب المختار،<br/> هلموا بكل وقار،<br/> كي نحظي بأبهي الأسرار،<br/> سِر خفي وعالي."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "We thank Christ's grace,<br/> And glorify Him with praise,<br/> Proclaiming with the voice of joy, <br/> Hosanna in the highest.",
+                "arabic": "ونشكر نِعَم المسيح،<br/> ونمجده بالتسبيح،<br/> وبصوت التهليل نصيح، <br/> أوصنا في الأعالي."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "Our Redeemer, invited us.",
+    "coptic_title": "",
+    "arabic_title": "",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<b>This is said on \"Hail to Mary\" Way.</b>"
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<i><b>Refrain:</b></i>"
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Our Redeemer, invited us.<br/> To live by Him, who is above.<br/> Offering us, a new covenant.<br/> Part of His, amazing love."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "1) He took bread, and blessed it,<br/> He thanked the Father, and said,<br/> This is my Body, eat of It,<br/> Our Lord Jesus, broke the bread."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "2) He gave the cup, and also said, <br/> \"My covenant for life, now begins, <br/> This is my Blood, shed for you, <br/> For the remission, of sins.\""
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "3) This is the, heavenly Manna, <br/> Eating of it, shall give you life, <br/> It shall fill your, soul with peace, <br/> Perfection and, eternal."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "4) This is the, Bread of Life, <br/> The Blood of, the Holy Son, <br/> And the pure Blood, is given<br/> To conquer, the evil one."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "5) The endless mercy, of God,<br/> In this holy sacrament is shown, <br/> And our soul, is united, <br/> With our loving, Savior alone."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "6) What a great, mystery,<br/> Such glory and, splendor given, <br/> It surpasses all, understanding, <br/> Of all on earth, and in heaven."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "7) Every human, every angel, <br/> Everyone in the, heaven sphere, <br/> All worship Him, bowing their heads,<br/> Adoring Him, with great fear."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "8) Our God is, of great glory,<br/> Many gifts to us, He imparts, <br/> He always stands, by my side, <br/> And He lives, inside my heart."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "9) My soul rejoices, in Him,<br/> In perfect, harmony, <br/> The closer I, get to Him, <br/> The closer I, want Him with me."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "10) It is most healthful, the partaking,<br/> From this holy, blessed cup,<br/> Mending my soul, making my pain,<br/> In an instant, it will stop."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "11) It gives courage, to our weak heart, <br/> And makes hope, high and strong, <br/> In it my faith, and my love, <br/> Are growing, all day long."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "12) It protects me, from all sin,<br/> Chasing away, the evil thoughts,<br/> Putting an end, to all sorrow, <br/> Triumphing over pain and sufferings."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "13) We do not fear, tribulations, <br/> Wars troubles, or afflictions,<br/> Evil fears Him, and in Him forgiven, <br/> All our sins, and convictions."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "14) He is our, treasured peace, <br/> He redeemed us from slavery,<br/> He is our safety, our purity,<br/> And our final victory."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

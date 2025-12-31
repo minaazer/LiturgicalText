@@ -1,6 +1,6 @@
 
 import React, { useContext , useEffect , useState } from 'react';
-import { Text, View, ScrollView, TouchableOpacity } from 'react-native';
+import { Text, View, ScrollView, TouchableOpacity, useWindowDimensions } from 'react-native';
 import SettingsContext from '../../settings/settingsContext';
 import { useNavigation } from '@react-navigation/native';
 import { gregorianToCoptic } from '../functions/copticDate';
@@ -16,6 +16,9 @@ const SettingsScreen = () => {
     const [settings,setSettings , , , , , setOrientation] = useContext(SettingsContext);
     const navigation = useNavigation();  // Use the useNavigation hook to access navigation functions
     const [copticDate, setCopticDate] = useState(null);
+    const { width, height } = useWindowDimensions();
+    const isPortrait = height >= width;
+    const isCompactPortrait = isPortrait && width < 450;
     useEffect(() => {
         const today = new Date();  // Get the current date
         const coptic = gregorianToCoptic(today);  // Convert to Coptic date
@@ -91,14 +94,43 @@ const SettingsScreen = () => {
                 )}
 
                 <View style={presentationStyles.settingsContainer}>
-                    <View style={presentationStyles.twoColumnSettingsContainer}>
-                    <View style={presentationStyles.fontSetting}>
+                    <View
+                        style={[
+                            presentationStyles.twoColumnSettingsContainer,
+                            {
+                                flexDirection: isCompactPortrait ? "column" : "row",
+                                justifyContent: "center",
+                                alignItems: "center",
+                                alignSelf: "center",
+                                width: isCompactPortrait ? "85%" : "100%",
+                            },
+                        ]}
+                    >
+                    <View
+                        style={[
+                            presentationStyles.fontSetting,
+                            {
+                                width: isCompactPortrait ? "100%" : "45%",
+                                alignSelf: "center",
+                                marginHorizontal: isCompactPortrait ? 0 : 10,
+                            },
+                        ]}
+                    >
                         <Text style={presentationStyles.settingTitle}>Font Size</Text>
                         <View style={presentationStyles.pickerWrapper}>
                             <FontSizePicker setSettings={setSettings} settings={settings} />
                         </View>
                     </View>
-                    <View style={presentationStyles.fontSetting}>
+                    <View
+                        style={[
+                            presentationStyles.fontSetting,
+                            {
+                                width: isCompactPortrait ? "100%" : "45%",
+                                alignSelf: "center",
+                                marginHorizontal: isCompactPortrait ? 0 : 10,
+                            },
+                        ]}
+                    >
                         <Text style={presentationStyles.settingTitle}>Screen Orientation</Text>
                         <View style={presentationStyles.pickerWrapper}>
                             <ScreenOrientationPicker setOrientation={setOrientation} orientation={settings.orientation} />

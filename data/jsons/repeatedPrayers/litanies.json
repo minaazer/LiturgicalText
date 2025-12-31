@@ -1,0 +1,541 @@
+[
+  {
+    "english_title": "The Seven Short Litanies",
+    "coptic_title": "",
+    "arabic_title": "السبع أواشي الصغار",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Priest:</span><br>Make us all worthy, O our Master, to partake of Your Holies, unto the purification of our souls, our bodies, and our spirits,",
+                "coptic": "<span class='role'>Ⲡⲓⲟⲩⲏⲃ:</span><br>Ⲁ̀ⲣⲓⲧⲉⲛⲛ̀ⲉⲙⲡ̀ϣⲁ ⲧⲏⲣⲉⲛ Ⲡⲉⲛⲛⲏⲃ: ⲉ̀ϭⲓ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲏⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲁⲕ: ⲉ̀ⲟⲩⲧⲟⲩⲃⲟ ⲛ̀ⲧⲉ ⲛⲉⲛⲯⲩⲭⲏ ⲛⲉⲙ ⲛⲉⲛⲥⲱⲙⲁ ⲛⲉⲙ ⲛⲉⲛⲡ̀ⲛⲉⲩⲙⲁ.",
+                "arabic": "<span class='role'>الكاهن:</span><br>اجعلنا مستحقين كلنا، يا سيدنا، أن نتناول من قُدساتك طهارةً لأنفسنا وأجسادنا وأرواحنا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "that we may become one body and one spirit, and may have a share and an inheritance with all the saints who have pleased You since the beginning.",
+                "coptic": "Ϩⲓⲛⲁ ⲛ̀ⲧⲉⲛϣⲱⲡⲓ ⲛ̀ⲟⲩⲥⲱⲙⲁ ⲛ̀ⲟⲩⲱⲧ: ⲛⲉⲙ ⲟⲩⲡ̀ⲛⲉⲩⲙⲁ ⲛ̀ⲟⲩⲱⲧ: ⲛ̀ⲧⲉⲛϫⲓⲙⲓ ⲛ̀ⲟⲩⲙⲉⲣⲟⲥ ⲛⲉⲙ ⲟⲩⲕ̀ⲗⲏⲣⲟⲥ: ⲛⲉⲙ ⲛⲏⲉⲑⲟⲩⲁⲃ ⲧⲏⲣⲟⲩ ⲉ̀ⲧⲁⲩⲣⲁⲛⲁⲕ ⲓⲥϫⲉⲛ ⲡ̀ⲉ̀ⲛⲉϩ.",
+                "arabic": "لكي نكون جسداً واحداً، وروحاً واحداً، ونجد نصيباً وميراثاً مع جميع القديسين الذين أرضوك منذ البدء."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Remember, O Lord, the peace of Your one, only, holy, catholic, and apostolic Church—",
+                "coptic": "Ⲁ̀ⲣⲓⲫ̀ⲙⲉⲩⲓ Ⲡ̀ϭⲟⲓⲥ ⲛ̀ϯϩⲓⲣⲏⲛⲏ ⲛ̀ⲧⲉ ⲧⲉⲕⲟⲩⲓ̀ ⲙ̀ⲙⲁⲩⲁⲧⲥ ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲕⲁⲑⲟⲗⲓⲕⲏ ⲛ̀ⲁ̀ⲡⲟⲥⲧⲟⲗⲓⲕⲏ ⲛ̀Ⲉⲕⲕⲗⲏⲥⲓⲁ.",
+                "arabic": "أذكر يا رب سلام كنيستك الواحدة، الوحيدة المقدسة، الجامعة الرسولية."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Deacon:</span><br>Pray for the peace of the one holy catholic and apostolic orthodox Church of God.",
+                "coptic": "<span class='role'>Ⲡⲓⲇⲓⲁⲕⲱⲛ:</span><br>Ⲡ̀ⲣⲟⲥⲉⲩⲝⲁⲥⲑⲉ ⲩ̀ⲡⲉⲣ ⲧⲏⲥ ⲓ̀ⲣⲏⲛⲏⲥ ⲧⲏⲥ ⲁ̀ⲅⲓⲁⲥ ⲙⲟⲛⲏⲥ ⲕⲁⲑⲟⲗⲓⲕⲏⲥ ⲕⲉ ⲁ̀ⲡⲟⲥⲧⲟⲗⲓⲕⲏⲥ ⲟⲣⲑⲟⲇⲟⲝⲟⲩ ⲧⲟⲩ Ⲑⲉⲟⲩ Ⲉⲕⲕⲗⲏⲥⲓⲁⲥ.",
+                "arabic": "<span class='role'>الشماس:</span><br>صلوا من أجل سلام الواحدة المقدسة الجامعة الرسولية كنيسة الله الأرثوذكسية."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>People:</span><br>Lord have mercy.",
+                "coptic": "<span class='role'>Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
+                "arabic": "<span class='role'>الشعب:</span><br>يا ربُّ إرحَم."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Priest:</span><br>this, which You have acquired to Yourself with the precious Blood of Your Christ,",
+                "coptic": "<span class='role'>Ⲡⲓⲟⲩⲏⲃ:</span><br>Ⲑⲁⲓ ⲉ̀ⲧⲁⲕϫ̀ⲫⲟⲥ ⲛⲁⲕ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲉⲛ Ⲡⲓⲥ̀ⲛⲟϥ ⲉⲧⲧⲁⲓⲏ̀ⲟⲩⲧ ⲛ̀ⲧⲉ Ⲡⲉⲕⲭ̀ⲣⲓⲥⲧⲟⲥ.",
+                "arabic": "<span class='role'>الكاهن:</span><br>هذه التي اقتنيتها لك بالدم الكريم الذي لمسيحك."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "keep her in peace, with all the orthodox bishops who are in her.",
+                "coptic": "Ⲁ̀ⲣⲉϩ ⲉ̀ⲣⲟⲥ ϧⲉⲛ ⲟⲩϩⲓⲣⲏⲛⲏ: ⲛⲉⲙ ⲛⲓⲉ̀ⲡⲓⲥⲕⲟⲡⲟⲥ ⲧⲏⲣⲟⲩ ⲛ̀ⲟⲣⲑⲟⲇⲟⲝⲟⲥ ⲉ̀ⲧⲉ ⲛ̀ϧⲏⲧⲥ.",
+                "arabic": "إحفظها بسلام، وكل الأساقفة الأرثوذكسيين الذين فيها."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Foremost remember, O Lord, our blessed and honored father, the archbishop, our patriarch, Abba (…),",
+                "coptic": "Ⲛ̀ϣⲟⲣⲡ ⲙⲉⲛ ⲁ̀ⲣⲓⲫ̀ⲙⲉⲩⲓ Ⲡ̀ϭⲟⲓⲥ ⲙ̀ⲡⲉⲛⲙⲁⲕⲁⲣⲓⲟⲥ ⲛ̀ⲓⲱⲧ ⲉⲧⲧⲁⲓⲏⲟⲩⲧ ⲛ̀ⲁⲣⲭⲏⲉ̀ⲡⲓⲥⲕⲟⲡⲟⲥ ⲁⲃⲃⲁ (...)",
+                "arabic": "وأولاً اذكر يا رب بطريركنا الأب المكرم رئيس الكهنة البابا المعظم أنبا (...)،"
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "and his spiritual brothers, the Patriarch of Antioch Mar Ignatius (…), and the Patriarch of Eritrea Abouna (…).",
+                "coptic": "ⲛⲉⲙ ⲛⲉϥⲥ̀ⲛⲏⲟⲩ ⲙ̀ⲡ̀ⲛⲉⲩⲙⲁⲧⲓⲕⲟⲛ ⲡⲓⲡⲁⲧⲣⲓⲁⲣⲭⲏⲥ ⲛ̀Ⲧ̀ⲁⲛⲧⲓⲟⲭⲓⲁ Ⲙⲁⲣ Ⲓⲅⲛⲁⲧⲓⲟⲩ (...) ⲛⲉⲙ ⲡⲓⲡⲁⲧⲣⲓⲁⲣⲭⲏⲥ ⲛ̀Ⲉ̀ⲣⲓⲧⲣⲉⲁ̀: Ⲁ̀ⲡⲟⲩⲛⲁ (...).",
+                "arabic": "وأخوية الروحيين مار إغناطيوس (...) بطريرك أنطاكية وأبونا (...) بطريرك إريتريا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<i>In the presence of a bishop:</i>",
+                "coptic": "-",
+                "arabic": "في حضور الأب الأسقف:"
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "and his partner in the liturgy, our father the bishop (metropolitan), Abba (...).",
+                "coptic": "Ⲛⲉⲙ ⲡⲉϥⲕⲉϣ̀ⲫⲏⲣ ⲛ̀ⲗⲓⲧⲟⲩⲣⲅⲟⲥ ⲡⲉⲛⲓⲱⲧ ⲛ̀ⲉ̀ⲡⲓⲥⲕⲟⲡⲟⲥ (ⲙ̀ⲙⲏⲧⲣⲟⲡⲟⲗⲓⲧⲏⲥ) ⲁⲃⲃⲁ (...).",
+                "arabic": "وشريكة في الخدمة الرسولية أبينا الأسقف (المطران) الأنبا (...)."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Deacon:</span><br>Pray for our high priest, Pope Abba (…), pope and patriarch and archbishop of the great city of Alexandria,",
+                "coptic": "<span class='role'>Ⲡⲓⲇⲓⲁⲕⲱⲛ:</span><br>Ⲡ̀ⲣⲟⲥⲉⲩⲝⲁⲥⲑⲉ ⲩ̀ⲡⲉⲣ ⲧⲟⲩⲁⲣⲭⲏⲉ̀ⲣⲉⲱⲥ ⲏ̀ⲙⲱⲛ ⲡⲁⲡⲁ ⲁⲃⲃⲁ (...): ⲡⲁⲡⲁ ⲕⲉ ⲡⲁⲧⲣⲓⲁⲣⲭⲟⲩ ⲕⲉ ⲁⲣⲭⲏⲉ̀ⲡⲓⲥⲕⲟⲡⲟⲩ ⲧⲏⲥ ⲙⲉⲅⲁⲗⲟ ⲡⲟⲗⲉⲱⲥ Ⲁ̀ⲗⲉⲝⲁⲛⲇ̀ⲣⲓⲁⲥ:",
+                "arabic": "<span class='role'>الشماس:</span><br>صلوا من أجل رئيس كهنتنا البابا أنبا (...)، بابا وبطريرك ورئيس أساقفة المدينة العظمى الاسكندرية،"
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "and his spiritual brothers, the Patriarch of Antioch Mar Ignatius (…), and the Patriarch of Eritrea Abouna (…).",
+                "coptic": "ⲕⲉ ⲧⲱⲛ ⲁ̀ⲇⲉⲗⲫⲱⲛ ⲁⲩⲧⲟⲩ ⲉⲛ ⲧⲏ ⲁ̀ⲡⲟⲥⲧⲟⲗⲓⲕⲏ ⲗⲓⲧⲟⲩⲣⲅⲓⲁ: Ⲙⲁⲣ Ⲓⲅⲛⲁⲧⲓⲟⲩ (...) ⲧⲟⲩ ⲡⲁⲧⲣⲓⲁⲣⲭⲟⲩ ⲧⲏⲥ Ⲁⲛⲧⲓⲟⲭⲓⲁⲥ: ⲕⲉ Ⲁ̀ⲡⲟⲩⲛⲁ (...) ⲧⲟⲩ ⲡⲁⲧⲣⲓⲁⲣⲭⲟⲩ ⲧⲏⲥ Ⲉ̀ⲣⲓⲧⲣⲉⲁⲥ.",
+                "arabic": "وأخوية الروحيين مار إغناطيوس (...) بطريرك أنطاكية وأبونا (...) بطريرك إريتريا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<i>In the presence of a bishop:</i>",
+                "coptic": "-",
+                "arabic": "في حضور الأب الأسقف:"
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "and his partner in the liturgy, our father the bishop (metropolitan), Abba (...).",
+                "coptic": "Ⲕⲉ ⲧⲟⲩ ⲥⲩⲛⲕⲟⲓⲛⲱⲛⲟⲩ ⲉⲛ ⲧⲏ ⲗⲓⲧⲟⲩⲣⲅⲓⲁ ⲧⲟⲩ ⲡⲁⲧⲣⲟⲥ ⲏ̀ⲙⲱⲛ ⲧⲟⲩ ⲉ̀ⲡⲓⲥⲕⲟⲡⲟⲩ (ⲙⲏⲧⲣⲟⲡⲟⲗⲓⲧⲟⲩ) ⲁⲃⲃⲁ (",
+                "arabic": "وشريكة في الخدمة الرسولية أبينا الأسقف (المطران) الأنبا (...)."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<i>And concludes with:</i>",
+                "arabic": "وينهي:"
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "and for our orthodox bishops.",
+                "arabic": "وسائر أساقفتنا الارثوذكسيين."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>People:</span><br>Lord have mercy.",
+                "arabic": "<span class='role'>الشعب:</span><br>يا ربُّ إرحَم."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Priest:</span><br>And those who rightly divide the word of truth with him,",
+                "arabic": "<span class='role'>الكاهن:</span><br>والذين يفصلون معه كلمة الحق بإستقامة."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "grant them unto Your holy Church to shepherd Your flock in peace.",
+                "arabic": "أنعم بهم على كنيستك المقدسة يرعون قطيعك بسلام."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Remember, O Lord, the orthodox hegumens, priests, and deacons.",
+                "arabic": "أذكر يارب القمامصة، والقسوس الأرثوذكسيين والشمامسة."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Deacon:</span><br>Pray for the hegumens, priests, deacons, subdeacons, and the seven orders of the Church of God.",
+                "arabic": "<span class='role'>الشماس:</span><br>صلوا من أجل القمامصة القسوس والشمامسة والإبوذياقونين وسبع طغمات كنيسة الله."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>People:</span><br>Lord have mercy.",
+                "arabic": "<span class='role'>الشعب:</span><br>يا ربُّ إرحَم."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Priest:</span><br>And all the servants, and all who are in virginity, and the purity of all Your faithful people.",
+                "arabic": "<span class='role'>الكاهن:</span><br>وكل الخدام، وكل الذين في البتولية وطهارة كل شعبك المؤمن."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "(Remember, O Lord, to have mercy upon us all.)",
+                "arabic": "(أذكر يا رب أن ترحمنا كلنا معاً)."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>People:</span><br>Have mercy upon us, O God, the Father, the Pantocrator.",
+                "arabic": "<span class='role'>الشعب:</span><br>إرحمنا يا الله الآب، ضابط الكل."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Priest:</span><br>Remember, O Lord, the salvation of this, Your holy place, and every place, and every monastery of our orthodox fathers.",
+                "arabic": "<span class='role'>الكاهن:</span><br>اذكر يا رب خلاص هذا الموضع المقدس الذي لك، وكل المواضع، وكل أديرة آبائنا الأرثوذكسيين."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Deacon:</span><br>Pray for the salvation of the world and of this city of ours and of all cities, districts, islands, and monasteries.",
+                "arabic": "<span class='role'>الشماس:</span><br>صلوا من أجل خلاص العالم، ومدينتنا هذه، وسائر المدن والأقاليم والجزائر والأديرة."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>People:</span><br>Lord have mercy.",
+                "arabic": "<span class='role'>الشعب:</span><br>يا ربُّ إرحَم."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Priest:</span><br>And those who dwell therein in God’s faith.",
+                "arabic": "<span class='role'>الكاهن:</span><br>والساكنين فيها بإيمان الله."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<i>The priest says the appropriate litany according to the season, either the Litany of the Waters, the Litany of the Plants, or the Litany of the Fruits, or the combined litany for all three seasons.</i>",
+                "arabic": "يقول الكاهن ما يوافق الموسم من أوشية المياه أو أوشية الزروع أو أوشية الثمار أو الاوشية للثلاث معاً."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<i>From Paoni 12 to Paapi 9 (June 19 to October 19/20), the Litany of the Waters is said:</i>",
+                "arabic": "من 12 بؤونة إلى 9 بابة (19 يونيو - 19/20 أكتوبر)، تقال أوشية المياه:"
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Priest:</span><br><b>Priest:</b> <br/> Graciously accord, O Lord, to bless the waters of the river this year.",
+                "arabic": "<span class='role'>الكاهن:</span><br>تفضل يا رب مياه النهر في هذه السنة، باركها."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Deacon:</span><br>Pray for the rising of the waters of the rivers this year, that Christ our God may bless them and raise them according to their measure, that He may give joy to the face of the earth, sustain us, the sons of men, save the cattle, and forgive us our sins.",
+                "arabic": "<span class='role'>الشماس:</span><br>أُطلبوا عن صعود مياه الأنهار في هذا السنة، لكيْ يباركها المسيح إلهنا، ويصعدها كمقدارها، ويفرِّح وجه الأرض، ويعولنا نحن بني البشر، ويعطي النجاة للبهائم، ويغفر لنا خطايانا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>People:</span><br>Lord have mercy (3).",
+                "arabic": "<span class='role'>الشعب:</span><br>يا ربُّ إرحَم (3)."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<i>From Paapi 10 to Tobi 10 (October 20/21 to January 18/19), the Litany of the Plants is said.</i>",
+                "arabic": "من 10 بابه إلى 10 طوبة (20/21 أكتوبر - 18/19 يناير)، تقال أوشية الزروع."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Priest:</span><br>Graciously accord, O Lord, to bless the seeds, the herbs, and the plants of the field this year.",
+                "arabic": "<span class='role'>الكاهن:</span><br>تفضل يا رب، الزروع والعشب ونبات الحقل في هذه السنة، باركها."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Deacon:</span><br>Pray for the seeds, the herbs, and the plants of the field this year, that Christ our God may bless them to grow and multiply unto perfection with great fruit, have compassion on His creation which His hands have made, and forgive us our sins.",
+                "arabic": "<span class='role'>الشماس:</span><br>أُطلبوا عن الزروع والعشب ونبات الحقل، في هذه السنة، لكيْ يباركها المسيح إلهنا، لتنمو وتكثر إلى أن تكمل بثمرة عظيمة، ويتحنن على جبلته التي صنعتها يداه، ويغفر لنا خطايانا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>People:</span><br>Lord have mercy (3).",
+                "arabic": "<span class='role'>الشعب:</span><br>يا ربُّ إرحَم (3)."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<i>From Tobi 11 to Paoni 11 (January 19/20 to June 18), the Litany of the Fruits is said.</i>",
+                "arabic": "من 11 طوبة إلى 11 بوؤنه (19/20 يناير - 18 يونيو)، تقال أوشية الثمار."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Priest:</span><br>Graciously accord, O Lord, to bless the air of heaven and the fruits of the earth this year.",
+                "arabic": "<span class='role'>الكاهن:</span><br>تفضل يا رب أهوية السماء وثمرات الأرض، في هذه السنة، باركها."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Deacon:</span><br>Pray for the air of heaven, the fruits of the earth, the trees, the vines, and for every fruit-bearing tree in all the world, that Christ our God may bless them, bring them to perfection in peace without harm, and forgive us our sins.",
+                "arabic": "<span class='role'>الشماس:</span><br>أُطلبوا عن أهوية السماء، وثمرات الأرض والشجر والكروم، وكل شجرة مثمرة في كل المسكونة، لكي يباركها المسيح إلهنا، ويكملها سالمة بغير ألم، ويغفر لنا خطايانا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>People:</span><br>Lord have mercy (3).",
+                "arabic": "<span class='role'>الشعب:</span><br>يا ربُّ إرحَم (3)."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<i>The three litanies may be combined as follows:</i>",
+                "arabic": "أو تقال الثلاث أواشي معاً:"
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Priest:</span><br>Graciously accord, O Lord, to bless the air of heaven, the fruits of the earth, the waters of the river, the seeds, the herbs, and the plants of the field this year.",
+                "arabic": "<span class='role'>الكاهن:</span><br>تفضل يا رب أهوية السماء وثمرات الأرض صعود مياه الأنهار والزروع والعشب ونبات الحقل في هذه السنة، باركها."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Deacon:</span><br>Pray for the air of heaven, the fruits of the earth, the rising of the waters of the rivers, the seeds, the herbs, and the plants of the field, that Christ our God may bless them, have compassion on His creation which His hands have made, and forgive us our sins.",
+                "arabic": "<span class='role'>الشماس:</span><br>أُطلبوا عن أهوية السماء، وثمرات الأرض، وصعود مياه الأنهار، والزروع والعشب ونبات الحقل، في هذه السنة لكي يباركها المسيح إلهنا، ويتحنن على جبلته التي صنعتها يداه، ويغفر لنا خطايانا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>People:</span><br>Lord have mercy (3).",
+                "arabic": "<span class='role'>الشعب:</span><br>يا ربُّ إرحَم (3)."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<i>After any one of the litanies, the priest continues with the following:</i>",
+                "arabic": "وبعد كل أوشية يكمل الكاهن قائلاً:"
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Priest:</span><br>Raise them to their measure according to Your grace. Give joy to the face of the earth. May its furrows be abundantly watered and its fruits be plentiful.",
+                "arabic": "<span class='role'>الكاهن:</span><br>اصعِدْها كمقدارِها كنعمَتِكَ، فَرِّحْ وجهَ الأرضِ، ليُرْوَ حرثُها ولتكثرَ أثمارُها."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Prepare it for sowing and harvesting. Manage our lives as deemed fit.",
+                "arabic": "أعِدَّها للزرعِ والحصادِ، ودَبِّر حياتَنا كما يليق."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Bless the crown of the year with Your goodness for the sake of the poor of Your people, the widow, the orphan, the traveler, the stranger, and for the sake of all of us who entreat You and seek Your holy name.",
+                "arabic": "بَارِكْ إكليلَ السنةِ بصلاحِكَ، من أجلِ فقراءِ شعبِكَ، من أجلِ الأرملةِ واليتيمِ والغريبِ والضيفِ، ومن أجلِنا كُلِّنا نحنُ الذين نرجوكَ ونطلبُ إسمَكَ القدوس."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "For the eyes of everyone wait upon You, for You give them their food in due season.",
+                "arabic": "لأن أعينَ الكلِّ تترجاكَ، لأنَّكَ أنتَ الذي تُعطِيهم طعامَهم في حينٍ حسنٍ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Deal with us according to Your goodness, O You who give food to all flesh. Fill our hearts with joy and gladness, that we too, having sufficiency in everything always, may abound in every good deed.",
+                "arabic": "إصنع معنا حَسَبَ صلاحِكَ، يا مُعطِياً طعاماً لكلِّ جسدٍ. املأ قلوبَنا فرحاً ونعيماً، لكي نحنُ أيضاً إذ تكونَ لنا الكفايةُ في كلِّ شيءٍ، كلَّ حينٍ، نزدادَ في كلِّ عملٍ صالحٍ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>People:</span><br>Lord have mercy.",
+                "arabic": "<span class='role'>الشعب:</span><br>يا ربُّ إرحَم."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Priest:</span><br>Remember, O Lord, those who have brought unto You these gifts, those on whose behalf they have been brought, and those by whom they have been brought. Give them all the heavenly reward.",
+                "arabic": "<span class='role'>الكاهن:</span><br>أذكر يا رب الذين قدموا لك هذه القرابين، والذين قدمت عنهم، والذين قدمت بواسطتهم، اعطهم كلهم الأجر السمائي."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Deacon:</span><br>Pray for these holy and precious gifts, our sacrifices, and those who have brought them.",
+                "arabic": "<span class='role'>الشماس:</span><br>صلوا من أجل هذه القرابين المقدسة الكريمة، وتقدماتنا، والذين قدموها."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>People:</span><br>Lord have mercy.",
+                "arabic": "<span class='role'>الشعب:</span><br>يا ربُّ إرحَم."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,1950 @@
+[
+  {
+    "english_title": "The Orthodox Creed",
+    "coptic_title": "",
+    "arabic_title": "قانون الإيمان الأرثوذكسي",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Deacon:</span><br>In the wisdom of God, let us attend. Lord have mercy. Lord have mercy. Truly—",
+                "coptic": "<span class='role'>Ⲡⲓⲇⲓⲁⲕⲱⲛ:</span><br>Ⲉⲛⲥⲟⲫⲓⲁ Ⲑⲉⲟⲩ ⲡ̀ⲣⲟⲥⲭⲱⲙⲉⲛ. Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ: Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ. Ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓ—",
+                "arabic": "<span class='role'>الشماس:</span><br>إنصتوا بحكمة الله. يا رب إرحم، يا ربُّ إرحَم. بالحقيقة —"
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>People:</span><br>We believe in one God, God the Father, the Pantocrator, who created heaven and earth, and all things, seen and unseen.",
+                "coptic": "<span class='role'>Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲡⲓⲗⲟⲁⲥ:<br/> Ⲧⲉⲛⲛⲁϩϯ ⲉ̀Ⲟⲩⲛⲟⲩϯ ⲛ̀ⲟⲩⲱⲧ: Ⲫ̀ⲛⲟⲩϯ Ⲫ̀ⲓⲱⲧ Ⲡⲓⲡⲁⲛⲧⲟⲕⲣⲁⲧⲱⲣ: ⲫⲏⲉ̀ⲧⲁϥ-ⲑⲁⲙⲓⲟ ⲛ̀ⲧ̀ⲫⲉ ⲛⲉⲙ ⲡ̀ⲕⲁϩⲓ: ⲛⲏⲉ̀ⲧⲟⲩⲛⲁⲩ ⲉ̀ⲣⲱⲟⲩ ⲛⲉⲙ ⲛⲏⲉ̀ⲧⲉ ⲛ̀ⲥⲉⲛⲁⲩ ⲉ̀ⲣⲱⲟⲩ ⲁⲛ.",
+                "arabic": "<span class='role'>الشعب:</span><br>بالحقيقة نؤمن بإله واحد، الله الآب، ضابط الكل، خالق السماء والأرض، ما يُرى وما لا يُرى."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "We believe in one Lord Jesus Christ, the only-begotten Son of God, begotten of the Father before all ages.",
+                "coptic": "Ⲧⲉⲛⲛⲁϩϯ ⲉ̀Ⲟⲩϭⲟⲓⲥ ⲛ̀ⲟⲩⲱⲧ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫ̀ⲛⲟⲩϯ: ⲡⲓⲙⲟⲛⲟⲅⲉⲛⲏⲥ: ⲡⲓⲙⲓⲥⲓ ⲉ̀ⲃⲟⲗ ϧⲉⲛ Ⲫ̀ⲓⲱⲧ ϧⲁϫⲱⲟⲩ ⲛ̀ⲛⲓⲉ̀ⲱⲛ ⲧⲏⲣⲟⲩ.",
+                "arabic": "نؤمن برب واحد يسوع المسيح، إبن الله الوحيد، المولود من الآب قبل كل الدهور."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Light out of Light, true God of true God; begotten not created, of one essence with the Father, by whom all things were made; who for us men and for our salvation, came down from heaven, and was incarnate of the Holy Spirit and of the Virgin Mary, and became man.",
+                "coptic": "Ⲟⲩⲟⲩⲱⲓⲛⲓ ⲉ̀ⲃⲟⲗ ϧⲉⲛ Ⲟⲩⲟⲩⲱⲓⲛⲓ: Ⲟⲩⲛⲟⲩϯ ⲛ̀ⲧⲁⲫ̀ⲙⲏⲓ ⲉ̀ⲃⲟⲗ ϧⲉⲛ Ⲟⲩⲛⲟⲩϯ ⲛ̀ⲧⲁⲫ̀ⲙⲏⲓ. Ⲟⲩⲙⲓⲥⲓ ⲡⲉ ⲟⲩⲑⲁⲙⲓⲟ ⲁⲛ ⲡⲉ: ⲟⲩⲟ̀ⲙⲟⲟⲩⲥⲓⲟⲥ ⲡⲉ ⲛⲉⲙ Ⲫ̀ⲓⲱⲧ: ⲫⲏⲉ̀ⲧⲁ ϩⲱⲃ ⲛⲓⲃⲉⲛ ϣⲱⲡⲓ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲟⲧϥ. Ⲫⲁⲓ ⲉ̀ⲧⲉ ⲉⲑⲃⲏⲧⲉⲛ ⲁ̀ⲛⲟⲛ ϧⲁ ⲛⲓⲣⲱⲙⲓ ⲛⲉⲙ ⲉⲑⲃⲉ ⲡⲉⲛⲟⲩϫⲁⲓ: ⲁϥⲓ̀ ⲉ̀ⲡⲉⲥⲏⲧ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲧ̀ⲫⲉ: ⲁϥϭⲓⲥⲁⲣⲝ ⲉ̀ⲃⲟⲗ ϧⲉⲛ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ Ⲉⲑⲟⲩⲁⲃ ⲛⲉⲙ ⲉ̀ⲃⲟⲗ ϧⲉⲛ Ⲙⲁⲣⲓⲁ Ϯⲡⲁⲣⲑⲉⲛⲟⲥ ⲟⲩⲟϩ ⲁϥⲉⲣⲣⲱⲙⲓ.",
+                "arabic": "نور من نور، إله حق من إله حق. مولود غير مخلوق، مساوي للآب في الجوهر، الذي به كان كل شيء. هذا الذي من أجلنا نحن البشر، ومن أجل خلاصنا، نزل من السماء، وتجسد من الروح القدس ومن مريم العذراء، وتأنس."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "And He was crucified for us under Pontius Pilate, suffered and was buried. And on the third day He rose from the dead, according to the Scriptures.",
+                "coptic": "Ⲟⲩⲟϩ ⲁⲩⲉⲣⲥ̀ⲧⲁⲩⲣⲱⲛⲓⲛ ⲙ̀ⲙⲟϥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ ⲛⲁϩⲣⲉⲛ Ⲡⲟⲛⲧⲓⲟⲥ Ⲡⲓⲗⲁⲧⲟⲥ: ⲁϥϣⲉⲡⲉⲙⲕⲁϩ ⲟⲩⲟϩ ⲁⲩⲕⲟⲥϥ. Ⲟⲩⲟϩ ⲁϥⲧⲱⲛϥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ ϧⲉⲛ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲙ̀ⲙⲁϩϣⲟⲙⲧ ⲕⲁⲧⲁ ⲛⲓⲅ̀ⲣⲁⲫⲏ.",
+                "arabic": "وصلب عنا على عهد بيلاطس البنطي، وتألم وقبر. وقام من بين الأموات في اليوم الثالث كما في الكتب."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "He ascended into the heavens and sits at the right hand of His Father, and He is coming again in His glory to judge the living and the dead, whose kingdom shall have no end.",
+                "coptic": "Ⲁϥϣⲉⲛⲁϥ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ⲛⲓⲫⲏⲟⲩⲓ̀: ⲁϥϩⲉⲙⲥⲓ ⲥⲁⲟⲩⲓ̀ⲛⲁⲙ ⲙ̀Ⲡⲉϥⲓⲱⲧ: ⲕⲉ ⲡⲁⲗⲓⲛ ϥ̀ⲛⲏⲟⲩ ϧⲉⲛ ⲡⲉϥⲱ̀ⲟⲩ ⲉ̀ϯϩⲁⲡ ⲉ̀ⲛⲏⲉⲧⲟⲛϧ ⲛⲉⲙ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ: ⲫⲏⲉ̀ⲧⲉ ⲧⲉϥⲙⲉⲧⲟⲩⲣⲟ ⲟⲩⲁⲑⲙⲟⲩⲛⲕ ⲧⲉ.",
+                "arabic": "وصعد إلى السموات، وجلس عن يمين أبيه، وأيضاً يأتي في مجده ليدين الأحياء والأموات، الذي ليس لملكه إنقضاء."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Yes, we believe in the Holy Spirit, the Lord, the Life-Giver, who proceeds from the Father, who, with the Father and the Son, is worshipped and glorified, who spoke by the prophets.",
+                "coptic": "Ⲥⲉ ⲧⲉⲛⲛⲁϩϯ ⲉ̀Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ Ⲉⲑⲟⲩⲁⲃ Ⲡ̀ϭⲟⲓⲥ ⲛ̀Ⲣⲉϥϯ ⲙ̀ⲡ̀ⲱⲛϧ: ⲫⲏⲉⲑⲛⲏⲟⲩ ⲉ̀ⲃⲟⲗ ϧⲉⲛ Ⲫ̀ⲓⲱⲧ: ⲥⲉⲟⲩⲱϣⲧ ⲙ̀ⲙⲟϥ ⲥⲉϯⲱ̀ⲟⲩ ⲛⲁϥ ⲛⲉⲙ Ⲫ̀ⲓⲱⲧ ⲛⲉⲙ Ⲡ̀ϣⲏⲣⲓ: ⲫⲏⲉ̀ⲧⲁϥⲥⲁϫⲓ ϧⲉⲛ ⲛⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ.",
+                "arabic": "نعم نؤمن بالروح القدس، الرب المحيي المنبثق من الآب. نسجد له ونمجده مع الآب والإبن، الناطق في الأنبياء."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "And in one holy, catholic and apostolic Church. We confess one baptism for the remission of sins.",
+                "coptic": "Ⲉ̀ⲟⲩⲓ̀ ⲛ̀ⲁ̀ⲅⲓⲁ ⲛ̀ⲕⲁⲑⲟⲗⲓⲕⲏ ⲛ̀ⲁ̀ⲡⲟⲥⲧⲟⲗⲓⲕⲏ ⲛ̀Ⲉⲕⲕⲗⲏⲥⲓⲁ. Ⲧⲉⲛⲉⲣⲟ̀ⲙⲟⲗⲟⲅⲓⲛ ⲛ̀ⲟⲩⲱⲙⲥ ⲛ̀ⲟⲩⲱⲧ ⲉ̀ⲡ̀ⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲓⲛⲟⲃⲓ.",
+                "arabic": "وبكنيسة واحدة مقدسة جامعة رسولية. ونعترف بمعمودية واحدة لمغفرة الخطايا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "We look for the resurrection of the dead, and the life of the age to come. Amen.",
+                "coptic": "Ⲧⲉⲛϫⲟⲩϣⲧ ⲉ̀ⲃⲟⲗ ϧⲁ ⲧ̀ϩⲏ ⲛ̀ϯⲁ̀ⲛⲁⲥⲧⲁⲥⲓⲥ ⲛ̀ⲧⲉ ⲛⲓⲣⲉϥⲙⲱⲟⲩⲧ: ⲛⲉⲙ ⲡⲓⲱⲛϧ ⲛ̀ⲧⲉ ⲡⲓⲉ̀ⲱⲛ ⲉⲑⲛⲏⲟⲩ. Ⲁ̀ⲙⲏⲛ.",
+                "arabic": "وننتظر قيامة الأموات وحياة الدهر الآتي. آمين."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "The Prayer of Reconciliation (Saint Basil’s Liturgy)",
+    "coptic_title": "",
+    "arabic_title": "صلاة الصلح (القداس الباسيلي)",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Priest:</span><br>Pray.",
+                "coptic": "<span class='role'>Ⲡⲓⲟⲩⲏⲃ:</span><br>Ϣ̀ⲗⲏⲗ.",
+                "arabic": "<span class='role'>الكاهن:</span><br>صلوا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Deacon:</span><br>Stand up for prayer.",
+                "coptic": "<span class='role'>Ⲡⲓⲇⲓⲁⲕⲱⲛ:</span><br>Ⲉ̀ⲡⲓ ⲡ̀ⲣⲟⲥⲉⲩⲭⲏ ⲥ̀ⲧⲁⲑⲏⲧⲉ.",
+                "arabic": "<span class='role'>الشماس:</span><br>للصلاة قفوا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Priest:</span><br>Peace be with all.",
+                "coptic": "<span class='role'>Ⲡⲓⲟⲩⲏⲃ:</span><br>Ⲓ̀ⲣⲏⲛⲏ ⲡⲁⲥⲓ.",
+                "arabic": "<span class='role'>الكاهن:</span><br>السلام لجميعكم."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>People:</span><br>And with your spirit.",
+                "coptic": "<span class='role'>Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲕⲉ ⲧⲱ ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ ⲥⲟⲩ.",
+                "arabic": "<span class='role'>الشعب:</span><br>ولروحك أيضاً."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Priest:</span><br>O God, the Great, the Eternal, who formed man in incorruption;",
+                "coptic": "<span class='role'>Ⲡⲓⲟⲩⲏⲃ:</span><br>Ⲫ̀ⲛⲟⲩϯ ⲡⲓⲛⲓϣϯ ⲡⲓϣⲁⲉ̀ⲛⲉϩ: ⲫⲏⲉ̀ⲧⲁϥⲕⲱⲧ ⲙ̀ⲡⲓⲣⲱⲙⲓ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲉⲛ ϯⲙⲉⲧⲁⲧⲧⲁⲕⲟ.",
+                "arabic": "<span class='role'>الكاهن:</span><br>يا اللهُ العظيمُ الأبدي، الذي جَبَلَ الإنسانَ على غيرِ فسادٍ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "and death, which entered into the world through the envy of the Devil, You have destroyed by the life-giving manifestation of Your only-begotten Son, our Lord, God, and Savior Jesus Christ.",
+                "coptic": "Ⲟⲩⲟϩ ⲫ̀ⲙⲟⲩ ⲉ̀ⲧⲁϥⲓ̀ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲡⲓⲕⲟⲥⲙⲟⲥ: ϩⲓⲧⲉⲛ ⲡⲓⲫ̀ⲑⲟⲛⲟⲥ ⲛ̀ⲧⲉ Ⲡⲓⲇⲓⲁⲃⲟⲗⲟⲥ: ⲁⲕϣⲉⲣϣⲱⲣϥ ϩⲓⲧⲉⲛ ⲡⲓⲟⲩⲱⲛϩ ⲉ̀ⲃⲟⲗ ⲛ̀ⲣⲉϥⲧⲁⲛϧⲟ: ⲛ̀ⲧⲉ ⲡⲉⲕⲙⲟⲛⲟⲅⲉⲛⲏⲥ ⲛ̀Ϣⲏⲣⲓ: Ⲡⲉⲛϭⲟⲓⲥ ⲟⲩⲟϩ Ⲡⲉⲛⲛⲟⲩϯ ⲟⲩⲟϩ Ⲡⲉⲛⲥⲱⲧⲏⲣ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ.",
+                "arabic": "والموتُ الذي دخلَ إلى العالمِ بحسَدِ إبليسَ هَدَمْتَهُ، بالظهورِ المحيِي الذي لإبنِكَ الوحيدِ ربِّنا وإلهِنا ومخلِّصنا يسوعَ المسيحِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "You have filled the earth with the heavenly peace",
+                "coptic": "Ⲟⲩⲟϩ ⲁⲕⲙⲟϩ ⲙ̀ⲡⲓⲕⲁϩⲓ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ϯϩⲓⲣⲏⲛⲏ ϯⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲓⲫⲏⲟⲩⲓ̀.",
+                "arabic": "وملأتَ الأرضَ من السلامِ الذي من السمواتِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "by which the hosts of angels glorify You, saying,",
+                "coptic": "Ⲑⲁⲓ ⲉ̀ⲧⲉⲣⲉ ϯⲥ̀ⲧ̀ⲣⲁⲧⲓⲁ ⲛ̀ⲧⲉ ⲛⲓⲁⲅⲅⲉⲗⲟⲥ ϯⲱ̀ⲟⲩ ⲛⲁⲕ ⲛ̀ϧⲏⲧⲥ ⲉⲩϫⲱ ⲙ̀ⲙⲟⲥ.",
+                "arabic": "هذا الذي أجنادُ الملائكةِ يمجدونَكَ به قائلين:"
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "“Glory to God in the highest, peace on earth, and good will towards men.”",
+                "coptic": "Ϫⲉ ⲟⲩⲱ̀ⲟⲩ ⲙ̀Ⲫ̀ⲛⲟⲩϯ ϧⲉⲛ ⲛⲏⲉⲧϭⲟⲥⲓ: ⲛⲉⲙ ⲟⲩϩⲓⲣⲏⲛⲏ ϩⲓϫⲉⲛ ⲡⲓⲕⲁϩⲓ: ⲛⲉⲙ ⲟⲩϯⲙⲁϯ ϧⲉⲛ ⲛⲓⲣⲱⲙⲓ.",
+                "arabic": "\"المجدُ للهِ في الأعالي، وعلى الأرض السلامُ، وفي الناسِ المسرةُ.\""
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Deacon:</span><br>Pray for perfect peace, love, and the holy apostolic kisses.",
+                "coptic": "<span class='role'>Ⲡⲓⲇⲓⲁⲕⲱⲛ:</span><br>Ⲡ̀ⲣⲟⲥⲉⲩⲝⲁⲥⲑⲉ ⲩ̀ⲡⲉⲣ ⲧⲏⲥ ⲧⲉⲗⲓⲁⲥ ⲓ̀ⲣⲏⲛⲏⲥ ⲕⲉ ⲁ̀ⲅⲁⲡⲏⲥ ⲕⲉ ⲧⲱⲛ ⲁ̀ⲅⲓⲱⲛ ⲁⲥⲡⲁⲥⲙⲱⲛ ⲧⲱⲛ ⲁ̀ⲡⲟⲥⲧⲟⲗⲱⲛ.",
+                "arabic": "<span class='role'>الشماس:</span><br>صلُّوا من أجلِ السلامِ الكاملِ، والمحبةِ، والقُبْلاتِ الطاهرةِ الرسوليةِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>People:</span><br>Lord have mercy.",
+                "coptic": "<span class='role'>Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
+                "arabic": "<span class='role'>الشعب:</span><br>يا ربُّ إرحَم."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Priest:</span><br>According to Your good will, O God, fill our hearts with Your peace.",
+                "coptic": "<span class='role'>Ⲡⲓⲟⲩⲏⲃ:</span><br>Ϧⲉⲛ ⲡⲉⲕϯⲙⲁϯ Ⲫ̀ⲛⲟⲩϯ ⲙⲟϩ ⲛ̀ⲛⲉⲛϩⲏⲧ ϧⲉⲛ ⲧⲉⲕϩⲓⲣⲏⲛⲏ.",
+                "arabic": "<span class='role'>الكاهن:</span><br>بمسرَّتِكَ يا الله، إملأ قلوبَنا من سلامِكَ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Cleanse us from all blemish, all guile, all hypocrisy, all malice, and the remembrance of evil entailing death.",
+                "coptic": "Ⲟⲩⲟϩ ⲙⲁⲧⲟⲩⲃⲟⲛ ⲉ̀ⲃⲟⲗ ϩⲁ ⲑⲱⲗⲉⲃ ⲛⲓⲃⲉⲛ: ⲛⲉⲙ ⲭ̀ⲣⲟϥ ⲛⲓⲃⲉⲛ: ⲛⲉⲙ ⲙⲉⲧϣⲟⲃⲓ ⲛⲓⲃⲉⲛ: ⲛⲉⲙ ⲡⲁⲛⲟⲩⲣⲅⲓⲁ ⲛⲓⲃⲉⲛ: ⲛⲉⲙ ϯⲙⲉⲧⲣⲉϥⲉⲣⲫ̀ⲙⲉⲩⲓ ⲛ̀ⲧⲉ ϯⲕⲁⲕⲓⲁ ⲉⲧⲉⲣⲫⲟⲣⲓⲛ ⲙ̀ⲫ̀ⲙⲟⲩ.",
+                "arabic": "وطهِّرْنا من كلِّ دنسٍ، ومن كلِّ غشٍّ، ومن كلِّ رياءٍ، ومن كلِّ فعلٍ خبيثٍ، ومن تذكارِ الشرِّ الملبس الموت."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "And make us all worthy, O our Master, to greet one another with a holy kiss,",
+                "coptic": "Ⲟⲩⲟϩ ⲁ̀ⲣⲓⲧⲉⲛⲛ̀ⲉⲙⲡ̀ϣⲁ ⲧⲏⲣⲉⲛ Ⲡⲉⲛⲛⲏⲃ: ⲉⲑⲣⲉⲛ ⲉⲣⲁⲥⲡⲁⲍⲉⲥⲑⲉ ⲛ̀ⲛⲉⲛⲉ̀ⲣⲏⲟⲩ ϧⲉⲛ ⲟⲩⲫⲓ ⲉⲥⲟⲩⲁⲃ.",
+                "arabic": "واجعلنا مستحقين كُلَّنا يا سيدّنا، أن نُقَبِّلَ بعضُنا بعضاً بقبلةٍ مقدسةٍ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "that without falling into condemnation we may partake of Your immortal and heavenly gift in Christ Jesus our Lord.",
+                "coptic": "Ⲉ̀ⲡ̀ϫⲓⲛⲧⲉⲛϭⲓ ϧⲉⲛ ⲟⲩⲙⲉⲧⲁⲧϩⲓⲧⲧⲉⲛ ⲉ̀ⲡ̀ϩⲁⲡ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲧⲉⲕⲇⲱⲣⲉⲁ̀ ⲛ̀ⲁⲑⲙⲟⲩ ⲟⲩⲟϩ ⲛ̀ⲉ̀ⲡⲟⲩⲣⲁⲛⲓⲟⲛ: ϧⲉⲛ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲓⲏⲥⲟⲩⲥ Ⲡⲉⲛϭⲟⲓⲥ.",
+                "arabic": "لكي ننالَ بغير إنطراح في دينونةٍ، من موهِبَتِكَ غيرِ المائتةِ السمائيةِ، بالمسيحِ يسوعَ ربِّنا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<i>Through whom the glory, the honor, the dominion, and the worship are due unto You, with Him and the Holy Spirit, the Giver of Life, who is of one essence with You, </i>",
+                "coptic": "Ⲫⲁⲓ ⲉ̀ⲧⲉ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲟⲧϥ ⲉ̀ⲣⲉ ⲡⲓⲱ̀ⲟⲩ ⲛⲉⲙ ⲡⲓⲧⲁⲓⲟ ⲛⲉⲙ ⲡⲓⲁ̀ⲙⲁϩⲓ ⲛⲉⲙ ϯⲡ̀ⲣⲟⲥⲕⲩⲛⲏⲥⲓⲥ: ⲉⲣⲡ̀ⲣⲉⲡⲓ ⲛⲁⲕ ⲛⲉⲙⲁϥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ Ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲣⲉϥⲧⲁⲛϧⲟ ⲟⲩⲟϩ ⲛ̀ⲟ̀ⲙⲟⲟⲩⲥⲓⲟⲥ ⲛⲉⲙⲁⲕ.",
+                "arabic": "هذا الذي من قِبَلِهِ المجدُ والإكرامُ والعزُّ والسجودُ تليقُ بكَ معه، ومع الروحِ القدسِ المحيِي المساوِي لكَ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<i>now and at all times and unto the age of all ages. Amen.</i>",
+                "coptic": "Ϯⲛⲟⲩ ⲛⲉⲙ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ. Ⲁ̀ⲙⲏⲛ.",
+                "arabic": "الآنَ وكلِّ أوانٍ وإلى دهرِ الدهورِ كلِّها. آمين."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<i>(The people may chant the Adam Aspasmos)</i>",
+                "coptic": "-",
+                "arabic": "(يمكن أن يقال الأسبسمس الأدام)"
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Deacon:</span><br>Greet one another with a holy kiss.",
+                "coptic": "<span class='role'>Ⲡⲓⲇⲓⲁⲕⲱⲛ:</span><br>Ⲁⲥⲡⲁⲍⲉⲥⲑⲉ ⲁⲗⲗⲏⲗⲟⲩⲥ ⲉⲛ ⲫⲓⲗⲏⲙⲁⲧⲓ ⲁ̀ⲅⲓⲱ.",
+                "arabic": "<span class='role'>الشماس:</span><br>قبِّلوا بعضَكُمْ بعضاً بقُبلةٍ مقدسةٍ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Lord have mercy. Lord have mercy. Lord have mercy.",
+                "coptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ: Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ: Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
+                "arabic": "يا ربُّ إرحَم، يا ربُّ إرحَم ، يا ربُّ إرحَم."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Yea, Lord, who are Jesus Christ, the Son of God, hear us and have mercy upon us.",
+                "coptic": "Ⲥⲉ Ⲕⲩⲣⲓⲉ: ⲉ̀ⲧⲉ ⲫⲁⲓ ⲡⲉ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫ̀ⲛⲟⲩϯ ⲥⲱⲧⲉⲙ ⲉ̀ⲣⲟⲛ ⲟⲩⲟϩ ⲛⲁⲓ ⲛⲁⲛ.",
+                "arabic": "نعم يا ربُّ، الذي هو يسوعُ المسيحُ إبنُ اللهِ، إسمعْنا وإرحّمْنا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Offer in order. Stand with trembling. Look towards the East. Let us attend.",
+                "coptic": "Ⲡ̀ⲣⲟⲥⲫⲉⲣⲓⲛ ⲕⲁⲧⲁ ⲧ̀ⲣⲟⲡⲟⲛ: ⲥ̀ⲧⲁⲑⲏⲧⲉ ⲕⲁⲧⲁ ⲧ̀ⲣⲟⲙⲟⲩ: ⲓⲥ ⲁ̀ⲛⲁⲧⲟⲗⲁⲥ ⲃ̀ⲗⲉⲯⲁⲧⲉ. Ⲡ̀ⲣⲟⲥⲭⲱⲙⲉⲛ.",
+                "arabic": "تقدموا على الرسمِ، قفوا برعدةٍ، وإلى الشرق أنظروا. ننصِتْ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>People:</span><br>Through the intercessions of the Theotokos, Saint Mary, O Lord, grant us the forgiveness of our sins.",
+                "coptic": "<span class='role'>Ⲡⲓⲗⲁⲟⲥ:</span><br>Ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲃⲓⲁ ⲛ̀ⲧⲉ Ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ ⲉⲑⲟⲩⲁⲃ Ⲙⲁⲣⲓⲁ: Ⲡ̀ϭⲟⲓⲥ ⲁ̀ⲣⲓϩ̀ⲙⲟⲧ ⲛⲁⲛ ⲙ̀ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ.",
+                "arabic": "<span class='role'>الشعب:</span><br>بشفاعاتِ والدةِ الإلهِ القديسةِ مريم، يا ربُّ أَنعِمْ لنا بمغفرةِ خطايانا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "We worship You, O Christ, with Your good Father and the Holy Spirit, for You (have come) and saved us.",
+                "coptic": "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ Ⲉⲑⲟⲩⲁⲃ: ϫⲉ (ⲁⲕⲓ̀) ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ.",
+                "arabic": "نسجدُ لكَ أيها المسيحُ، مع أبيكَ الصالح، والروحِ القدسِ، لأنكَ (أتيتَ) وخلَّصتنا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "A mercy of peace, a sacrifice of praise.<br/>",
+                "coptic": "Ⲉ̀ⲗⲉⲟⲥ ⲓ̀ⲣⲏⲛⲏⲥ: ⲑⲩⲥⲓⲁ ⲉ̀ⲛⲉⲥⲉⲱⲥ.",
+                "arabic": "رحمةُ السلامِ، ذبيحةُ التسبيحِ.<br/>"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "Another Prayer of Reconciliation To The Father (Saint Basil’s Liturgy)",
+    "coptic_title": "",
+    "arabic_title": "صلاة صلح أخرى (القداس الباسيلي)",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<i>By Saint Severus, patriarch of Antioch.</i>",
+                "coptic": "-",
+                "arabic": "للقديس ساويرس بطريرك أنطاكية."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Priest:</span><br>Pray.",
+                "coptic": "<span class='role'>Ⲡⲓⲟⲩⲏⲃ:</span><br>Ϣ̀ⲗⲏⲗ.",
+                "arabic": "<span class='role'>الكاهن:</span><br>صلوا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Deacon:</span><br>Stand up for prayer.",
+                "coptic": "<span class='role'>Ⲡⲓⲇⲓⲁⲕⲱⲛ:</span><br>Ⲉ̀ⲡⲓ ⲡ̀ⲣⲟⲥⲉⲩⲭⲏ ⲥ̀ⲧⲁⲑⲏⲧⲉ.",
+                "arabic": "<span class='role'>الشماس:</span><br>للصلاة قفوا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Priest:</span><br>Peace be with all.",
+                "coptic": "<span class='role'>Ⲡⲓⲟⲩⲏⲃ:</span><br>Ⲓ̀ⲣⲏⲛⲏ ⲡⲁⲥⲓ.",
+                "arabic": "<span class='role'>الكاهن:</span><br>السلام لجميعكم."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>People:</span><br>And with your spirit.",
+                "coptic": "<span class='role'>Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲕⲉ ⲧⲱ ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ ⲥⲟⲩ.",
+                "arabic": "<span class='role'>الشعب:</span><br>ولروحك أيضاً."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Priest:</span><br>Exalted above all the power of speech and all the thoughts of the mind is the richness of Your gifts, O our Master.",
+                "coptic": "<span class='role'>Ⲡⲓⲟⲩⲏⲃ:</span><br>Ⲥ̀ϭⲟⲥⲓ ⲥⲁⲡ̀ϣⲱⲓ ⲛ̀ϫⲟⲙ ⲛⲓⲃⲉⲛ ⲛ̀ⲧⲉ ⲟⲩⲥⲁϫⲓ ⲛⲉⲙ ϫⲓⲛⲙⲟⲕⲙⲉⲕ ⲛⲓⲃⲉⲛ ⲛ̀ⲧⲉ ⲟⲩⲛⲟⲩⲥ: ⲛ̀ϫⲉ ⲑ̀ⲙⲉⲧⲣⲁⲙⲁⲟ̀ ⲛ̀ⲧⲉ ⲛⲉⲕⲇⲱⲣⲉⲁ̀ ⲱ̀ Ⲡⲉⲛⲛⲏⲃ.",
+                "arabic": "<span class='role'>الكاهن:</span><br>عالٍ فوقَ كلِّ قوةِ النطقِ، وكلِّ فكرِ العقلِ، غِنَى مواهِبِكَ يا سيدَنا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "For that which You have hidden from the wise and understanding, You have revealed to us little children.",
+                "coptic": "Ⲛⲏ ⲅⲁⲣ ⲉ̀ⲧⲁⲕϩⲟⲡⲟⲩ ⲉ̀ⲃⲟⲗ ϩⲁ ϩⲁⲛⲥⲁⲃⲉⲩ ⲛⲉⲙ ϩⲁⲛⲕⲁⲧϩⲏⲧ: ⲛⲁⲓ ⲁⲕϭⲟⲣⲡⲟⲩ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ ⲁ̀ⲛⲟⲛ ϧⲁ ⲛⲓⲕⲟⲩϫⲓ ⲛ̀ⲁ̀ⲗⲱⲟⲩⲓ̀.",
+                "arabic": "لأن ما أخفيتَه عن الحكماءِ والفُهماءِ، هذا أعلنتَهُ لنا، نحنُ الأطفالَ الصغارَ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "And those things which prophets and kings have desired to see and have not,",
+                "coptic": "Ⲟⲩⲟϩ ⲛⲏⲉⲧ ⲁ̀ ϩⲁⲛⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲛⲉⲙ ϩⲁⲛⲟⲩⲣⲱⲟⲩ ⲉⲣⲉ̀ⲡⲓⲑⲩⲙⲓⲛ ⲉ̀ⲛⲁⲩ ⲉ̀ⲣⲱⲟⲩ ⲟⲩⲟϩ ⲙ̀ⲡⲟⲩⲛⲁⲩ.",
+                "arabic": "وما إشتهى الأنبياءُ والملوكُ أن يَرَوْهُ ولم يَرَوْا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "the same You granted to us, who are sinners, that we may serve It and be purified thereby,",
+                "coptic": "Ⲛⲁⲓ ⲁⲕⲉⲣⲭⲁⲣⲓⲍⲉⲥⲑⲉ ⲙ̀ⲙⲱⲟⲩ ⲛⲁⲛ ⲁ̀ⲛⲟⲛ ϧⲁ ⲛⲓⲣⲉϥⲉⲣⲛⲟⲃⲓ: ϩⲓⲛⲁ ⲛ̀ⲧⲉⲛϣⲉⲙϣⲓ ⲙ̀ⲙⲱⲟⲩ ⲟⲩⲟϩ ⲛ̀ⲧⲉⲛⲧⲟⲩⲃⲟ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲟⲧⲟⲩ.",
+                "arabic": "هذا أنعمتَ به لنا نحنُ الخطاةَ، لكي نخدِمَه ونتطهرَ من قِبَلِه."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "when You established for us the economy of Your only-begotten Son and the hidden mystery of this sacrifice,",
+                "coptic": "Ϧⲉⲛ ⲡ̀ϫⲉⲛⲑ̀ⲣⲉⲕⲧⲁϩⲟ ⲛⲁⲛ ⲉ̀ⲣⲁⲧⲥ ⲛ̀ϯⲟⲓⲕⲟⲛⲟⲙⲓⲁ ⲛ̀ⲧⲉ ⲡⲉⲕⲙⲟⲛⲟⲅⲉⲛⲏⲥ ⲛ̀Ϣⲏⲣⲓ: ⲛⲉⲙ ϯⲙⲩⲥⲧⲁⲅⲱⲅⲓⲁ ⲛ̀ⲧⲉ ⲧⲁⲓⲑⲩⲥⲓⲁ.",
+                "arabic": "عندما أقمتَ لنا تدبيرَ إبنِكَ الوحيد الجنس، والسرَّ الخفيَّ الذي لهذه الذبيحةِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "which has neither the blood of the Law nor the righteousness of the flesh round about It.",
+                "coptic": "Ⲑⲁⲓ ⲉ̀ⲧⲉ ⲙ̀ⲙⲟⲛ ⲥ̀ⲛⲟϥ ⲙ̀ⲡⲓⲛⲟⲙⲟⲥ ⲙ̀ⲡⲉⲥⲕⲟϯ: ⲟⲩⲇⲉ ⲟⲩⲙⲉⲑⲙⲏⲓ ⲛ̀ⲧⲉ ϯⲥⲁⲣⲝ.",
+                "arabic": "هذه التي ليس دمُ الناموسِ حولَها، ولا برُّ الجسدِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Rather, the lamb is spiritual and the knife is verbal and intangible—this sacrifice which we offer unto You.",
+                "coptic": "Ⲁⲗⲗⲁ ⲡⲓⲉ̀ⲥⲱⲟⲩ ⲙⲉⲛ ⲟⲩⲡ̀ⲛⲉⲩⲙⲁⲧⲓⲕⲟⲛ ⲡⲉ: ϯⲥⲏⲓϥⲓ ⲇⲉ ⲟⲩⲗⲟⲅⲓⲕⲏ ⲧⲉ ⲟⲩⲟϩ ⲛ̀ⲁⲧⲥⲱⲙⲁ: ⲧⲁⲓⲑⲩⲥⲓⲁ ⲟⲩⲛ ⲑⲁⲓ ⲉ̀ⲧⲉⲛⲓ̀ⲣⲓ ⲙ̀ⲙⲟⲥ ⲛⲁⲕ ⲉ̀ϧⲟⲩⲛ.",
+                "arabic": "لكن الخروفُ فروحيٌ، والسكينُ فنُطقيةٌ غيرُ جسميةٍ، هذه الذبيحة التي نقدمُها لكَ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "We ask and entreat Your goodness, O Lover of Mankind,",
+                "coptic": "Ⲧⲉⲛϯϩⲟ ⲟⲩⲟϩ ⲧⲉⲛⲧⲱⲃϩ ⲛ̀ⲧⲉⲕⲙⲉⲧⲁ̀ⲅⲁⲑⲟⲥ Ⲡⲓⲙⲁⲓⲣⲱⲙⲓ.",
+                "arabic": "نسألُ ونطلبُ من صَلاحِكَ يا محبَّ البشرِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "purify our lips and free our minds from all carnal pollution,",
+                "coptic": "Ⲙⲁⲧⲟⲩⲃⲟ ⲛ̀ⲛⲉⲛⲥ̀ⲫⲟⲧⲟⲩ ⲟⲩⲟϩ ⲉ̀ⲁⲕⲉⲣ ⲡⲉⲛⲛⲟⲩⲥ ⲛ̀ⲣⲉⲙϩⲉ: ⲉ̀ⲃⲟⲗ ϩⲁ ϫⲓⲛⲙⲟⲩϫⲧ ⲛⲓⲃⲉⲛ ⲛ̀ⲧⲉ ϯϩⲩⲗⲏ.",
+                "arabic": "طهِّرْ شفاهَنا وأَعتِقْ عقولَنا من كلِّ إخلاطِ الهيولي."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "and send to us the grace of Your Holy Spirit, and make us worthy to greet one another with a holy kiss,",
+                "coptic": "Ⲟⲩⲟϩ ⲟⲩⲱⲣⲡ ⲛⲁⲛ ⲉ̀ϧ̀ⲣⲏⲓ ⲙ̀ⲡⲓϩ̀ⲙⲟⲧ ⲛ̀ⲧⲉ Ⲡⲉⲕⲡ̀ⲛⲉⲩⲙⲁ Ⲉⲑⲟⲩⲁⲃ: ⲟⲩⲟϩ ⲁ̀ⲣⲓⲧⲉⲛⲛ̀ⲉⲙⲡ̀ϣⲁ ⲉⲑⲣⲉⲛⲉⲣⲁⲥⲡⲁⲍⲉⲥⲑⲉ ⲛ̀ⲛⲉⲛⲉ̀ⲣⲏⲟⲩ ϧⲉⲛ ⲟⲩⲫⲓ ⲉⲑⲟⲩⲁⲃ.",
+                "arabic": "وأرسِلْ لنا نعمةَ روحِكَ القدوس. واجعلنا أهلاً أن نُقَبِّلَ بعضُنا بعضاً بقُبلَةٍ مقدسةٍ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Deacon:</span><br>Pray for perfect peace, love, and the holy apostolic kisses.",
+                "coptic": "<span class='role'>Ⲡⲓⲇⲓⲁⲕⲱⲛ:</span><br>Ⲡ̀ⲣⲟⲥⲉⲩⲝⲁⲥⲑⲉ ⲩ̀ⲡⲉⲣ ⲧⲏⲥ ⲧⲉⲗⲓⲁⲥ ⲓ̀ⲣⲏⲛⲏⲥ ⲕⲉ ⲁ̀ⲅⲁⲡⲏⲥ ⲕⲉ ⲧⲱⲛ ⲁ̀ⲅⲓⲱⲛ ⲁⲥⲡⲁⲥⲙⲱⲛ ⲧⲱⲛ ⲁ̀ⲡⲟⲥⲧⲟⲗⲱⲛ.",
+                "arabic": "<span class='role'>الشماس:</span><br>صلُّوا من أجلِ السلامِ الكاملِ، والمحبةِ، والقُبلة الطاهرةِ الرسوليةِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>People:</span><br>Lord have mercy.",
+                "coptic": "<span class='role'>Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
+                "arabic": "<span class='role'>الشعب:</span><br>يا ربُّ إرحَم."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Priest:</span><br>that without falling into condemnation, we may partake of Your immortal and heavenly gift in Christ Jesus our Lord.",
+                "coptic": "<span class='role'>Ⲡⲓⲟⲩⲏⲃ:</span><br>Ⲉ̀ⲡ̀ϫⲉⲛⲧⲉⲛϭⲓ ϧⲉⲛ ⲟⲩⲙⲉⲧⲁⲧϩⲓⲧⲧⲉⲛ ⲉ̀ⲡ̀ϩⲁⲡ: ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲧⲉⲕⲇⲱⲣⲉⲁ̀ ⲛ̀ⲁⲑⲙⲟⲩ ⲟⲩⲟϩ ⲛ̀ⲉ̀ⲡⲟⲩⲣⲁⲛⲓⲟⲛ: ϧⲉⲛ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲓⲏⲥⲟⲩⲥ Ⲡⲉⲛϭⲟⲓⲥ.",
+                "arabic": "<span class='role'>الكاهن:</span><br>لكي ننالَ بغيرِ وقوعنا في دينونةٍ، من موهِبَتِكَ غيرِ المائتةِ السمائية، المسيحِ يسوع ربِّنا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<i>Through whom the glory, the honor, the dominion, and the worship are due unto You, with Him and the Holy Spirit, the Giver of Life, who is of one essence with You, </i>",
+                "coptic": "Ⲫⲁⲓ ⲉ̀ⲧⲉ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲟⲧϥ ⲉ̀ⲣⲉ ⲡⲓⲱ̀ⲟⲩ ⲛⲉⲙ ⲡⲓⲧⲁⲓⲟ ⲛⲉⲙ ⲡⲓⲁ̀ⲙⲁϩⲓ ⲛⲉⲙ ϯⲡ̀ⲣⲟⲥⲕⲩⲛⲏⲥⲓⲥ: ⲉⲣⲡ̀ⲣⲉⲡⲓ ⲛⲁⲕ ⲛⲉⲙⲁϥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ Ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲣⲉϥⲧⲁⲛϧⲟ ⲟⲩⲟϩ ⲛ̀ⲟ̀ⲙⲟⲟⲩⲥⲓⲟⲥ ⲛⲉⲙⲁⲕ.",
+                "arabic": "هذا الذي من قِبَلِهِ المجدُ والكرامةُ والعزُّ والسجودُ يليقُ بكَ معه، ومع الروحِ القدسِ المحيِي المساوِي لكَ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<i>now and at all times, and unto the age of all ages. Amen.</i>",
+                "coptic": "Ϯⲛⲟⲩ ⲛⲉⲙ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ. Ⲁ̀ⲙⲏⲛ.",
+                "arabic": "الآنَ وكلَّ أوانٍ وإلى دهرِ الدهورِ كلِّها. آمين."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<i>(The people may chant the Adam Aspasmos)</i>",
+                "coptic": "-",
+                "arabic": "(يمكن أن يقال الأسبسمس الأدام)"
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Deacon:</span><br>Greet one another with a holy kiss.",
+                "coptic": "<span class='role'>Ⲡⲓⲇⲓⲁⲕⲱⲛ:</span><br>Ⲁⲥⲡⲁⲍⲉⲥⲑⲉ ⲁⲗⲗⲏⲗⲟⲩⲥ ⲉⲛ ⲫⲓⲗⲏⲙⲁⲧⲓ ⲁ̀ⲅⲓⲱ.",
+                "arabic": "<span class='role'>الشماس:</span><br>قبِّلوا بعضَكُمْ بعضاً بقُبلةٍ مقدسةٍ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Lord have mercy. Lord have mercy. Lord have mercy.",
+                "coptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ: Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ: Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
+                "arabic": "يا ربُّ إرحَم، يا ربُّ إرحَم ، يا ربُّ إرحَم."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Yea, Lord, who are Jesus Christ, the Son of God, hear us and have mercy upon us.",
+                "coptic": "Ⲥⲉ Ⲕⲩⲣⲓⲉ: ⲉ̀ⲧⲉ ⲫⲁⲓ ⲡⲉ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫ̀ⲛⲟⲩϯ ⲥⲱⲧⲉⲙ ⲉ̀ⲣⲟⲛ ⲟⲩⲟϩ ⲛⲁⲓ ⲛⲁⲛ.",
+                "arabic": "نعم يا ربُّ، الذي هو يسوعُ المسيحُ إبنُ اللهِ، إسمعْنا وإرحّمْنا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Offer in order. Stand with trembling. Look towards the East. Let us attend.",
+                "coptic": "Ⲡ̀ⲣⲟⲥⲫⲉⲣⲓⲛ ⲕⲁⲧⲁ ⲧ̀ⲣⲟⲡⲟⲛ: ⲥ̀ⲧⲁⲑⲏⲧⲉ ⲕⲁⲧⲁ ⲧ̀ⲣⲟⲙⲟⲩ: ⲓⲥ ⲁ̀ⲛⲁⲧⲟⲗⲁⲥ ⲃ̀ⲗⲉⲯⲁⲧⲉ. Ⲡ̀ⲣⲟⲥⲭⲱⲙⲉⲛ.",
+                "arabic": "تقدموا على الرسمِ، قفوا برعدةٍ، وإلى الشرق أنظروا. ننصِتْ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>People:</span><br>Through the intercessions of the Theotokos, Saint Mary, O Lord, grant us the forgiveness of our sins.",
+                "coptic": "<span class='role'>Ⲡⲓⲗⲁⲟⲥ:</span><br>Ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲃⲓⲁ ⲛ̀ⲧⲉ Ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ ⲉⲑⲟⲩⲁⲃ Ⲙⲁⲣⲓⲁ: Ⲡ̀ϭⲟⲓⲥ ⲁ̀ⲣⲓϩ̀ⲙⲟⲧ ⲛⲁⲛ ⲙ̀ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ.",
+                "arabic": "<span class='role'>الشعب:</span><br>بشفاعاتِ والدةِ الإلهِ القديسةِ مريم، يا ربُّ أَنعِمْ لنا بمغفرةِ خطايانا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "We worship You, O Christ, with Your good Father and the Holy Spirit, for You (have come) and saved us.",
+                "coptic": "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ Ⲉⲑⲟⲩⲁⲃ: ϫⲉ (ⲁⲕⲓ̀) ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ.",
+                "arabic": "نسجدُ لكَ أيها المسيحُ، مع أبيكَ الصالح، والروحِ القدسِ، لأنكَ (أتيتَ) وخلَّصتنا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "A mercy of peace, a sacrifice of praise.",
+                "coptic": "Ⲉ̀ⲗⲉⲟⲥ ⲓ̀ⲣⲏⲛⲏⲥ: ⲑⲩⲥⲓⲁ ⲉ̀ⲛⲉⲥⲉⲱⲥ.",
+                "arabic": "رحمةُ السلامِ، ذبيحةُ التسبيحِ."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "Prayer of Reconciliation to the Son (Saint Gregory’s Liturgy)",
+    "coptic_title": "",
+    "arabic_title": "صلاة صلح (القداس الإغريغوري)",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Priest:</span><br>Pray.",
+                "coptic": "<span class='role'>Ⲡⲓⲟⲩⲏⲃ:</span><br>Ϣ̀ⲗⲏⲗ.",
+                "arabic": "<span class='role'>الكاهن:</span><br>صلوا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Deacon:</span><br>Stand up for prayer.",
+                "coptic": "<span class='role'>Ⲡⲓⲇⲓⲁⲕⲱⲛ:</span><br>Ⲉ̀ⲡⲓ ⲡ̀ⲣⲟⲥⲉⲩⲭⲏ ⲥ̀ⲧⲁⲑⲏⲧⲉ.",
+                "arabic": "<span class='role'>الشماس:</span><br>للصلاة قفوا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Priest:</span><br>Peace be with all.",
+                "coptic": "<span class='role'>Ⲡⲓⲟⲩⲏⲃ:</span><br>Ⲓ̀ⲣⲏⲛⲏ ⲡⲁⲥⲓ.",
+                "arabic": "<span class='role'>الكاهن:</span><br>السلام لجميعكم."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>People:</span><br>And with your spirit.",
+                "coptic": "<span class='role'>Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲕⲉ ⲧⲱ ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ ⲥⲟⲩ.",
+                "arabic": "<span class='role'>الشعب:</span><br>ولروحك أيضاً."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Priest:</span><br>O You, THE BEING, who were and who abide forever, the eternal, co-essential, co-enthroned, and co-creator with the Father,",
+                "coptic": "<span class='role'>Ⲡⲓⲟⲩⲏⲃ:</span><br>Ⲫⲏⲉⲧϣⲟⲡ ⲫⲏⲉ̀ⲛⲁϥϣⲟⲡ ⲫⲏⲉⲑⲙⲏⲛ ⲉ̀ⲃⲟⲗ ϣⲁ ⲉ̀ⲛⲉϩ ⲡⲓⲁⲓⲇⲓⲟⲥ: ⲟⲩⲟϩ ⲛ̀ⲟ̀ⲙⲟⲟⲩⲥⲓⲟⲥ ⲟⲩⲟϩ ⲛ̀ⲥⲩⲛⲑ̀ⲣⲟⲛⲟⲥ ⲟⲩⲟϩ ⲛ̀ϣ̀ⲫⲏⲣ ⲛ̀ⲇⲏⲙⲓⲟⲩⲣⲅⲟⲥ ⲛⲉⲙ Ⲫ̀ⲓⲱⲧ.",
+                "arabic": "<span class='role'>الكاهن:</span><br>أيها الكائنُ الذي كانَ، الدائمُ إلى الأبدِ، الذاتيُّ، والمساوي، والجليسُ، والخالقُ الشريكُ مع الآبِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "who for the sake of goodness only brought man into existence out of nonexistence, and put him in the Paradise of joy.",
+                "coptic": "Ⲫⲏⲉ̀ⲧⲉ ⲉⲑⲃⲉ ⲟⲩⲙⲉⲧⲁ̀ⲅⲁⲑⲟⲥ ⲙ̀ⲙⲁⲩⲁⲧⲥ: ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲫⲏⲉ̀ⲧⲉ ⲛⲁϥϣⲟⲡ ⲁⲛ ⲁⲕⲑ̀ⲣⲉϥϣⲱⲡⲓ ⲛ̀ϫⲉ ⲫ̀ⲣⲱⲙⲓ: ⲟⲩⲟϩ ⲁⲕⲭⲁϥ ϧⲉⲛ Ⲡⲓⲡⲁⲣⲁⲇⲓⲥⲟⲥ ⲛ̀ⲧⲉ ⲡ̀ⲟⲩⲛⲟϥ.",
+                "arabic": "الذي من أجلِ الصلاحِ وحدَهُ، مما لم يَكُنْ كوَّنْتَ الإنسانَ، وجَعَلتَهُ في فِردَوسِ النعيمِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "And when he fell through the deception of the enemy and the disobedience of Your holy commandment, You desired to renew him and to restore him to his first estate.",
+                "coptic": "Ϧⲉⲛ ⲡ̀ϫⲓⲛⲑ̀ⲣⲉϥϩⲉⲓ ⲇⲉ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲉⲛ ϯⲁ̀ⲡⲁⲧⲏ ⲛ̀ⲧⲉ ⲡⲓϫⲁϫⲓ: ⲛⲉⲙ ϯⲙⲉⲧⲁⲧⲥⲱⲧⲉⲙ ⲛ̀ⲥⲁ ⲧⲉⲕⲉⲛⲧⲟⲗⲏ ⲉⲑⲟⲩⲁⲃ ⲟⲩⲟϩ ⲉ̀ⲁⲕⲟⲩⲱϣ ⲉ̀ⲁⲓϥ ⲙ̀ⲃⲉⲣⲓ ⲟⲩⲟϩ ⲉ̀ⲉⲛϥ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲡⲓⲁⲝⲓⲱⲙⲁ ⲛ̀ⲧⲉ ϣⲟⲣⲡ.",
+                "arabic": "وعندما سَقَطَ بغوايةِ العدوِّ ومُخالفةِ وصيَّتِكَ المقدسةِ، وأَردتَ أن تُجدِّدَهُ، وتردَّهُ إلى رتبتِهِ الأُولى."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Neither an angel nor an archangel, neither a patriarch nor a prophet, have You entrusted with our salvation,",
+                "coptic": "Ⲁⲅⲅⲉⲗⲟⲥ ⲁⲛ: ⲟⲩⲇⲉ ⲁⲣⲭⲏⲁⲅⲅⲉⲗⲟⲥ: ⲟⲩⲇⲉ ⲡⲁⲧⲣⲓⲁⲣⲭⲏⲥ: ⲟⲩⲇⲉ ⲡ̀ⲣⲟⲫⲏⲧⲏⲥ ⲙ̀ⲡⲉⲕⲧⲉⲛϩⲟⲩⲧⲟⲩ ⲉ̀ⲡⲉⲛⲟⲩϫⲁⲓ.",
+                "arabic": "لا ملاكَ ولا رئيسَ ملائكةٍ ولا رئيسَ آباءٍ ولا نبياً إئْتَمَنْتَهُ على خلاصِنا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "but You, without change, were incarnate and became man and resembled us in everything, except for sin alone,",
+                "coptic": "Ⲁⲗⲗⲁ ⲛ̀ⲑⲟⲕ ϧⲉⲛ ⲟⲩⲙⲉⲧⲁⲧⲫⲱⲛϩ ⲁⲕϭⲓⲥⲁⲣⲝ: ⲟⲩⲟϩ ⲁⲕϣⲱⲡⲓ ⲛ̀ⲣⲱⲙⲓ: ⲟⲩⲟϩ ⲁⲕⲓ̀ⲛⲓ ⲙ̀ⲙⲟⲛ ϧⲉⲛ ϩⲱⲃ ⲛⲓⲃⲉⲛ ϣⲁⲧⲉⲛ ⲫ̀ⲛⲟⲃⲓ ⲙ̀ⲙⲁⲩⲁⲧϥ.",
+                "arabic": "بل أنتَ بغيرِ إستحالةٍ، تجسدْتَ وتأنسْتَ، وشابَهتَنا في كلِّ شيء، ما خلا الخطيةَ وحدَها."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "and became for us a mediator with the Father, and the middle wall You have broken down and the old enmity You have abolished.",
+                "coptic": "Ⲁⲕϣⲱⲡⲓ ⲛⲁⲛ ⲙ̀ⲙⲉⲥⲓⲧⲏⲥ ⲛⲉⲙ Ⲫ̀ⲓⲱⲧ ⲟⲩⲟϩ ϯϫⲓⲛⲑ̀ⲙⲏϯ ⲛ̀ⲧⲉ ⲡⲓⲑⲱⲙ ⲁⲕⲃⲟⲗⲥ ⲉ̀ⲃⲟⲗ: ⲟⲩⲟϩ ϯⲙⲉⲧϫⲁϫⲓ ⲛ̀ⲁ̀ⲡⲁⲥ ⲁⲕϣⲉⲣϣⲱⲣⲥ.",
+                "arabic": "وصرتَ لنا وسيطاً لدى الآبِ، والحاجزَ المتوسطَ نقضتَهُ، والعداوةَ القديمة هدمْتَها."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "You have reconciled the earthly with the heavenly and made the two into one, and fulfilled the economy in the flesh.",
+                "coptic": "Ⲁⲕϩⲱⲧⲡ ⲛ̀ⲛⲁⲡ̀ⲕⲁϩⲓ ⲉ̀ⲛⲁ ⲛⲓⲫⲏⲟⲩⲓ̀ ⲟⲩⲟϩ ⲁⲕⲉⲣ ⲡⲓⲥ̀ⲛⲁⲩ ⲛ̀ⲟⲩⲁⲓ: ⲉ̀ⲁⲕϫⲱⲕ ⲉ̀ⲃⲟⲗ ⲛ̀ϯⲟⲓⲕⲟⲛⲟⲙⲓⲁ ϧⲉⲛ ⲧ̀ⲥⲁⲣⲝ.",
+                "arabic": "وصالحتَ الأرضيينَ مع السمائيين، وجعلتَ الإثنينِ واحداً، وأكملتَ التدبيرَ بالجسدِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "And at Your Ascension into the heavens in the body, having filled all with Your divinity,",
+                "coptic": "Ⲟⲩⲟϩ ⲉⲕⲛⲁϣⲉⲛⲁⲕ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ⲛⲓⲫⲏⲟⲩⲓ̀ ⲥⲱⲙⲁⲧⲓⲕⲱⲥ: ⲉ̀ⲁⲕⲙⲟϩ ⲙ̀ⲡ̀ⲧⲏⲣϥ ϧⲉⲛ ⲧⲉⲕⲙⲉⲑⲛⲟⲩϯ.",
+                "arabic": "وعند صُعودِكَ إلى السمواتِ جَسَدياً، إذ ملأتَ الكلّ بلاهوتِكَ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "You said to Your holy disciples and apostles,",
+                "coptic": "Ⲛⲁⲕϫⲱ ⲙ̀ⲙⲟⲥ ⲛ̀ⲛⲉⲕⲙⲁⲑⲏⲧⲏⲥ ⲉⲑⲟⲩⲁⲃ ⲟⲩⲟϩ ⲛ̀ⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ.",
+                "arabic": "قلتَ لتلاميذِكَ ورُسُلِكَ القديسين:"
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "“My peace I give to you; My peace I leave with you.”",
+                "coptic": "Ϫⲉ ⲧⲁϩⲓⲣⲏⲛⲏ ϯϯ ⲙ̀ⲙⲟⲥ ⲛⲱⲧⲉⲛ: ⲧⲁϩⲓⲣⲏⲛⲏ ⲁ̀ⲛⲟⲕ ϯⲭⲱ ⲙ̀ⲙⲟⲥ ⲛⲉⲙⲱⲧⲉⲛ.",
+                "arabic": "\"سلامي أعطيكُم، سلامي أنا أتركُهُ لكم.\""
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "The same also, now grant to us, O our Master,",
+                "coptic": "Ⲑⲁⲓ ⲟⲛ ϯⲛⲟⲩ ⲁ̀ⲣⲓϩ̀ⲙⲟⲧ ⲙ̀ⲙⲟⲥ ⲛⲁⲛ Ⲡⲉⲛⲛⲏⲃ.",
+                "arabic": "هذا أيضاً الآنَ، أَنعِم به لنا يا سيِّدَنا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "and cleanse us from all blemish, all guile, all hypocrisy, all evil, all malice, and the remembrance of evil entailing death.",
+                "coptic": "Ⲉ̀ⲁⲕⲧⲟⲩⲃⲟⲛ ⲉ̀ⲃⲟⲗ ϩⲁ ⲑⲱⲗⲉⲃ ⲛⲓⲃⲉⲛ: ⲛⲉⲙ ⲭ̀ⲣⲟϥ ⲛⲓⲃⲉⲛ: ⲛⲉⲙ ⲙⲉⲧϣⲟⲃⲓ ⲛⲓⲃⲉⲛ: ⲛⲉⲙ ⲕⲁⲕⲓⲁ ⲛⲓⲃⲉⲛ: ⲛⲉⲙ ⲡⲁⲛⲟⲩⲣⲅⲓⲁ ⲛⲓⲃⲉⲛ: ⲛⲉⲙ ϯⲙⲉⲧⲣⲉϥⲉⲣⲫ̀ⲙⲉⲩⲓ ⲛ̀ⲧⲉ ϯⲕⲁⲕⲓⲁ ⲉⲧⲉⲣⲫⲟⲣⲓⲛ ⲙ̀ⲫ̀ⲙⲟⲩ.",
+                "arabic": "وطهِّرْنا من كلِّ دنسٍ، ومن كلِّ غشٍ، ومن كلِّ رياءٍ، ومن كلِّ شرٍ، ومن كلِّ مكيدَةٍ، ومن تذكارِ الشرِّ اللابسِ الموتِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Deacon:</span><br>Pray for perfect peace, love, and the holy apostolic kisses.",
+                "coptic": "<span class='role'>Ⲡⲓⲇⲓⲁⲕⲱⲛ:</span><br>Ⲡ̀ⲣⲟⲥⲉⲩⲝⲁⲥⲑⲉ ⲩ̀ⲡⲉⲣ ⲧⲏⲥ ⲧⲉⲗⲓⲁⲥ ⲓ̀ⲣⲏⲛⲏⲥ ⲕⲉ ⲁ̀ⲅⲁⲡⲏⲥ ⲕⲉ ⲧⲱⲛ ⲁ̀ⲅⲓⲱⲛ ⲁⲥⲡⲁⲥⲙⲱⲛ ⲧⲱⲛ ⲁ̀ⲡⲟⲥⲧⲟⲗⲱⲛ.",
+                "arabic": "<span class='role'>الشماس:</span><br>صلُّوا من أجلِ السلامِ الكاملِ، والمحبةِ، والقُبلاتِ الطاهرةِ الرسوليةِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>People:</span><br>Lord have mercy.",
+                "coptic": "<span class='role'>Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
+                "arabic": "<span class='role'>الشعب:</span><br>يا ربُّ إرحَم."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Priest:</span><br>And make us all worthy, O our Master, to greet one another with a holy kiss,",
+                "coptic": "<span class='role'>Ⲡⲓⲟⲩⲏⲃ:</span><br>Ⲟⲩⲟϩ ⲁ̀ⲣⲓⲧⲧⲉⲛ ⲛ̀ⲉⲙⲡ̀ϣⲁ ⲧⲏⲣⲉⲛ Ⲡⲉⲛⲛⲏⲃ: ⲉⲑⲣⲉⲛⲉⲣⲁⲥⲡⲁⲍⲉⲥⲑⲉ ⲛ̀ⲛⲉⲛⲉ̀ⲣⲏⲟⲩ ϧⲉⲛ ⲟⲩⲫⲓ ⲉⲑⲟⲩⲁⲃ.",
+                "arabic": "<span class='role'>الكاهن:</span><br>واجعلنا مستحقينَ كلَّنا يا سيدنا، أن يُقَبِّلَ بعضُنا بعضاً بقبلةٍ طاهرةٍ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "that without falling into condemnation we may partake of Your immortal and heavenly gift",
+                "coptic": "Ⲉ̀ⲡ̀ϫⲓⲛⲧⲉⲛϭⲓ ϧⲉⲛ ⲟⲩⲙⲉⲧⲁⲧϩⲓⲧⲧⲉⲛ ⲉ̀ⲡ̀ϩⲁⲡ: ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲧⲉⲕⲇⲱⲣⲉⲁ̀ ⲛ̀ⲁⲑⲙⲟⲩ ⲟⲩⲟϩ ⲛ̀ⲉ̀ⲡⲟⲩⲣⲁⲛⲓⲟⲛ.",
+                "arabic": "لتناولَ بغير طَرْحِنا في الحكمِ، من موهِبَتِكَ غيرِ المائتةِ السمائيةِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "through Your grace and the goodwill of Your good Father and the work of Your Holy Spirit.",
+                "coptic": "Ϧⲉⲛ ⲫⲏⲉ̀ⲧⲉ ⲫⲱⲕ ⲛ̀ϩ̀ⲙⲟⲧ ⲛⲉⲙ ⲡ̀ϯⲙⲁϯ ⲙ̀Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ ⲛⲉⲙ ϯϫⲓⲛⲉⲣϩⲱⲃ ⲛ̀ⲧⲉ Ⲡⲉⲕⲡ̀ⲛⲉⲩⲙⲁ Ⲉⲑⲟⲩⲁⲃ.",
+                "arabic": "بنعمتِكَ ومسرةِ أبيكَ الصالحِ وفِعلِ روحِكَ القدوس."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "For You are the Provider and Giver of all goodness,",
+                "coptic": "Ⲛ̀ⲑⲟⲕ ⲅⲁⲣ ⲡⲉ Ⲡⲓⲣⲉϥⲥⲁϩⲛⲓ: ⲟⲩⲟϩ Ⲫ̀ⲣⲉϥϯ ⲛ̀ⲛⲓⲁ̀ⲅⲁⲑⲟⲛ ⲧⲏⲣⲟⲩ.",
+                "arabic": "لأنكَ أنتَ الرازقُ، ومُعطِي جميعَ الخيراتِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<i>and to You we send up the glory, the honor, and the worship, with Your good Father and the Holy Spirit, the Giver of Life, who is of one essence with You,</i>",
+                "coptic": "Ⲟⲩⲟϩ ⲛ̀ⲑⲟⲕ ⲡⲉⲧⲉⲛⲟⲩⲱⲣⲡ ⲛⲁⲕ ⲉ̀ⲡ̀ϣⲱⲓ ⲙ̀ⲡⲓⲱ̀ⲟⲩ ⲛⲉⲙ ⲡⲓⲧⲁⲓⲟ ⲛⲉⲙ ϯⲡ̀ⲣⲟⲥⲕⲩⲛⲏⲥⲓⲥ ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ Ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲣⲉϥⲧⲁⲛϧⲟ ⲟⲩⲟϩ ⲛ̀ⲟ̀ⲙⲟⲟⲩⲥⲓⲟⲥ ⲛⲉⲙⲁⲕ.",
+                "arabic": "وأنتَ الذي نرسلُ لكَ إلى فوقُ المجدَ والإكرامَ والسجودَ مع أبيكَ الصالحِ والروحِ القدسِ المحيي المساوي لكَ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<i>now and at all times and unto the age of all ages. Amen.</i>",
+                "coptic": "Ϯⲛⲟⲩ ⲛⲉⲙ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ: ⲁ̀ⲙⲏⲛ.",
+                "arabic": "الآنَ وكلِّ أوانٍ وإلى دهرِ الدهورِ كلِّها. آمين."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<i>(The people may chant the Adam Aspasmos)</i>",
+                "coptic": "-",
+                "arabic": "(يمكن أن يقال الأسبسمس الأدام)"
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Deacon:</span><br>Greet one another with a holy kiss.",
+                "coptic": "<span class='role'>Ⲡⲓⲇⲓⲁⲕⲱⲛ:</span><br>Ⲁⲥⲡⲁⲍⲉⲥⲑⲉ ⲁⲗⲗⲏⲗⲟⲩⲥ ⲉⲛ ⲫⲓⲗⲏⲙⲁⲧⲓ ⲁ̀ⲅⲓⲱ.",
+                "arabic": "<span class='role'>الشماس:</span><br>قبِّلوا بعضَكُمْ بعضاً بقُبلةٍ مقدسةٍ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Lord have mercy. Lord have mercy. Lord have mercy.",
+                "coptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ: Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ: Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
+                "arabic": "يا ربُّ إرحَم، يا ربُّ إرحَم ، يا ربُّ إرحَم."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Yea, Lord, who are Jesus Christ, the Son of God, hear us and have mercy upon us.",
+                "coptic": "Ⲥⲉ Ⲕⲩⲣⲓⲉ: ⲉ̀ⲧⲉ ⲫⲁⲓ ⲡⲉ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫ̀ⲛⲟⲩϯ ⲥⲱⲧⲉⲙ ⲉ̀ⲣⲟⲛ ⲟⲩⲟϩ ⲛⲁⲓ ⲛⲁⲛ.",
+                "arabic": "نعم يا ربُّ، الذي هو يسوعُ المسيحُ إبنُ اللهِ، إسمعْنا وإرحّمْنا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Offer in order. Stand with trembling. Look towards the East. Let us attend.",
+                "coptic": "Ⲡ̀ⲣⲟⲥⲫⲉⲣⲓⲛ ⲕⲁⲧⲁ ⲧ̀ⲣⲟⲡⲟⲛ: ⲥ̀ⲧⲁⲑⲏⲧⲉ ⲕⲁⲧⲁ ⲧ̀ⲣⲟⲙⲟⲩ: ⲓⲥ ⲁ̀ⲛⲁⲧⲟⲗⲁⲥ ⲃ̀ⲗⲉⲯⲁⲧⲉ. Ⲡ̀ⲣⲟⲥⲭⲱⲙⲉⲛ.",
+                "arabic": "تقدموا على الرسمِ، قفوا برعدةٍ، وإلى الشرق أنظروا. ننصِتْ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>People:</span><br>Through the intercessions of the Theotokos, Saint Mary, O Lord, grant us the forgiveness of our sins.",
+                "coptic": "<span class='role'>Ⲡⲓⲗⲁⲟⲥ:</span><br>Ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲃⲓⲁ ⲛ̀ⲧⲉ Ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ ⲉⲑⲟⲩⲁⲃ Ⲙⲁⲣⲓⲁ: Ⲡ̀ϭⲟⲓⲥ ⲁ̀ⲣⲓϩ̀ⲙⲟⲧ ⲛⲁⲛ ⲙ̀ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ.",
+                "arabic": "<span class='role'>الشعب:</span><br>بشفاعاتِ والدةِ الإلهِ القديسةِ مريم، يا ربُّ أَنعِمْ لنا بمغفرةِ خطايانا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "We worship You, O Christ, with Your good Father and the Holy Spirit, for You (have come) and saved us.",
+                "coptic": "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ Ⲉⲑⲟⲩⲁⲃ: ϫⲉ (ⲁⲕⲓ̀) ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ.",
+                "arabic": "نسجدُ لكَ أيها المسيحُ، مع أبيكَ الصالح، والروحِ القدسِ، لأنكَ (أتيتَ) وخلَّصتنا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "A mercy of peace, a sacrifice of praise.",
+                "coptic": "Ⲉ̀ⲗⲉⲟⲥ ⲓ̀ⲣⲏⲛⲏⲥ: ⲑⲩⲥⲓⲁ ⲉ̀ⲛⲉⲥⲉⲱⲥ.",
+                "arabic": "رحمةُ السلامِ، ذبيحةُ التسبيحِ."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "Another Prayer of Reconciliation (Saint Gregory’s Liturgy)",
+    "coptic_title": "",
+    "arabic_title": "صلاة صلح أخرى (القداس الإغريغوري)",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<i>By Saint Severus, patriarch of Antioch</i>",
+                "coptic": "-",
+                "arabic": "للقديس ساويرس بطريرك أنطاكية"
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Priest:</span><br>Pray.",
+                "coptic": "<span class='role'>Ⲡⲓⲟⲩⲏⲃ:</span><br>Ϣ̀ⲗⲏⲗ.",
+                "arabic": "<span class='role'>الكاهن:</span><br>صلوا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Deacon:</span><br>Stand up for prayer.",
+                "coptic": "<span class='role'>Ⲡⲓⲇⲓⲁⲕⲱⲛ:</span><br>Ⲉ̀ⲡⲓ ⲡ̀ⲣⲟⲥⲉⲩⲭⲏ ⲥ̀ⲧⲁⲑⲏⲧⲉ.",
+                "arabic": "<span class='role'>الشماس:</span><br>للصلاة قفوا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Priest:</span><br>Peace be with all.",
+                "coptic": "<span class='role'>Ⲡⲓⲟⲩⲏⲃ:</span><br>Ⲓ̀ⲣⲏⲛⲏ ⲡⲁⲥⲓ.",
+                "arabic": "<span class='role'>الكاهن:</span><br>السلام لجميعكم."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>People:</span><br>And with your spirit.",
+                "coptic": "<span class='role'>Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲕⲉ ⲧⲱ ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ ⲥⲟⲩ.",
+                "arabic": "<span class='role'>الشعب:</span><br>ولروحك أيضاً."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Priest:</span><br>O Christ, our God, the fearful and incomprehensible power of God the Father,",
+                "coptic": "<span class='role'>Ⲡⲓⲟⲩⲏⲃ:</span><br>Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲡⲉⲛⲛⲟⲩϯ ϯϫⲟⲙ ⲉⲧⲟⲓ ⲛ̀ϩⲟϯ ⲟⲩⲟϩ ⲛ̀ⲁⲧϣ̀ⲕⲁϯ ⲉ̀ⲣⲟⲥ ⲛ̀ⲧⲉ Ⲫ̀ⲛⲟⲩϯ Ⲫ̀ⲓⲱⲧ.",
+                "arabic": "<span class='role'>الكاهن:</span><br>أيها المسيحُ إلهُنا القوةُ المخوفةُ، غيرُ المفهومةِ التي للهِ الآبِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "who sit upon the flaming throne of the Cherubim, who are served by the fiery powers; and You, as God, are a consuming fire.",
+                "coptic": "Ⲫⲏⲉⲧϩⲉⲙⲥⲓ ⲥⲁⲡ̀ϣⲱⲓ ⲙ̀ⲡⲓⲑ̀ⲣⲟⲛⲟⲥ ⲉⲧⲟⲓ ⲛ̀ϣⲁϩ ⲛ̀ⲧⲉ Ⲛⲓⲭⲉⲣⲟⲩⲃⲓⲙ: ⲟⲩⲟϩ ⲉ̀ⲧⲟⲩϣⲉⲙϣⲓ ⲙ̀ⲙⲟϥ ϩⲓⲧⲉⲛ ⲛⲓϫⲟⲙ ⲉⲧⲟⲓ ⲛ̀ⲭ̀ⲣⲱⲙ: ⲟⲩⲟϩ ⲉⲕⲟⲓ ⲛ̀ⲭ̀ⲣⲱⲙ ⲉϥⲟⲩⲱⲙ ϩⲱⲥ ⲛⲟⲩϯ.",
+                "arabic": "الجالسُ فوقَ العرشِ الملتهبِ الشاروبيمي، والمخدومُ من القواتِ الناريةِ. وأنت نارٌ آكلةٌ كإلهٍ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Because of Your ineffable condescension and love towards mankind, You did not burn the guileful traitor when he drew near to You,",
+                "coptic": "Ⲉⲑⲃⲉ ⲧⲉⲕϫⲓⲛⲓ̀ ⲉ̀ϧ̀ⲣⲏⲓ ⲛ̀ⲁⲧϣ̀ⲥⲁϫⲓ ⲙ̀ⲙⲟⲥ ⲛⲉⲙ ⲧⲉⲕⲙⲉⲧⲙⲁⲓⲣⲱⲙⲓ: ⲙ̀ⲡⲉⲕⲣⲱⲕϩ ⲙ̀ⲡⲓⲡ̀ⲣⲟⲇⲟⲧⲏⲥ ⲛ̀ⲣⲉϥⲉⲣⲭ̀ⲣⲟϥ: ϧⲉⲛ ⲡ̀ϫⲓⲛⲑ̀ⲣⲉϥϧⲱⲛⲧ ⲉ̀ⲣⲟⲕ.",
+                "arabic": "من أجل تنازُلِكَ غيرِ الموصوفِ، ومحبَّتِكَ للبشرِ، لم تَحرِقْ الدافعَ الغاش عندما دنا منكَ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "but You kissed him with a kiss of friendship, drawing him unto repentance and the recognition of his presumptuousness.",
+                "coptic": "Ⲁⲗⲗⲁ ⲁⲕⲉⲣⲁⲥⲡⲁⲍⲉⲥⲑⲉ ⲙ̀ⲙⲟϥ ϧⲉⲛ ⲟⲩⲁⲥⲡⲁⲥⲙⲟⲥ ⲙ̀ⲙⲉⲧϣ̀ⲫⲏⲣ: ⲉⲕⲥⲱⲕ ⲙ̀ⲙⲟϥ ⲉ̀ⲟⲩⲙⲉⲧⲁⲛⲟⲓⲁ: ⲛⲉⲙ ⲡ̀ⲥⲟⲩⲉⲛ ⲑⲏⲉ̀ⲧⲉ ⲑⲱϥ ⲛ̀ⲧⲟⲗⲙⲏⲥⲓⲥ.",
+                "arabic": "بل قبَّلتَهُ قُبلةَ المصاحبةِ، جاذباً إياه إلى التوبةِ ومعرفةِ جسارتِه."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Make us all worthy, O our Master—we also at this fearsome hour, that with one mind and without double- heartedness and the rest of the evil",
+                "coptic": "Ⲁ̀ⲣⲓⲧⲉⲛ ⲛ̀ⲉⲙⲡ̀ϣⲁ ϩⲱⲛ Ⲡⲉⲛⲛⲏⲃ: ϧⲉⲛ ⲧⲁⲓⲟⲩⲛⲟⲩ ⲑⲁⲓ ⲉⲧⲟⲓ ⲛ̀ϩⲟϯ: ϧⲉⲛ ⲟⲩⲙⲉⲩⲓ ⲛ̀ⲟⲩⲱⲧ: ⲁⲧϭⲛⲉ ϩ̀ⲗⲓ ⲙ̀ⲙⲉⲧϩⲏⲧⲥ̀ⲛⲁⲩ: ⲛⲉⲙ ⲡ̀ⲥⲱϫⲡ ⲛ̀ⲧⲉ ⲟⲩⲕⲁⲕⲓⲁ.",
+                "arabic": "إجعلنا مستحقينَ نحنُ أيضاً يا سيدَنا في هذه الساعةِ المخوفةِ، بفكرٍ واحدٍ بغيرِ شيء من التشككِ وبقيةِ الشرِّ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "to greet one another with a holy kiss.",
+                "coptic": "Ⲉⲑⲣⲉⲛϣⲱⲡ ⲉ̀ⲣⲟⲛ ⲛ̀ⲛⲉⲛⲉ̀ⲣⲏⲟⲩ ϧⲉⲛ ⲟⲩⲫⲓ ⲉⲑⲟⲩⲁⲃ.",
+                "arabic": "أن يُقَبِّلَ بعضُنا بعضاً بقبلةٍ مقدسةٍ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "And cast us not into condemnation, according to the pleasure of Your goodness, even if we are not perfectly pure from the mire of sin, malice, and the deadly remembrance of evil.",
+                "coptic": "Ⲟⲩⲟϩ ⲙ̀ⲡⲉⲣϩⲓⲧⲧⲉⲛ ⲉ̀ⲡ̀ϩⲁⲡ: ⲓⲥϫⲉ ⲧⲉⲛⲧⲟⲩⲃⲏⲟⲩⲧ ⲁⲛ ϧⲉⲛ ⲟⲩϫⲱⲕ: ⲛⲉⲙ ⲕⲁⲧⲁ ⲫ̀ⲣⲏϯ ⲉ̀ⲧⲉⲥⲣⲁⲛⲁ ⲛ̀ⲧⲉⲕⲙⲉⲧⲁ̀ⲅⲁⲑⲟⲥ: ⲉ̀ⲃⲟⲗ ϩⲁ ⲫ̀ⲗⲱⲓϩⲓ ⲙ̀ⲫ̀ⲛⲟⲃⲓ ⲛⲉⲙ ϯⲡⲟⲛⲏⲣⲓⲁ: ⲛⲉⲙ ⲡ̀ⲉⲣⲫ̀ⲙⲉⲩⲓ ⲛ̀ϯⲕⲁⲕⲓⲁ ⲛ̀ⲣⲉϥϧⲱⲧⲉⲃ.",
+                "arabic": "ولا تطرحْنا في الحكمِ إنْ لم نكن حسبما يرضي صلاحَكَ أنقياءِ بالكمالِ من حمأةِ الخطيةِ، والخبثِ وتذكارِ الشرِ القاتلِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "But rather through Your ineffable and indestructible compassion, knowing the frailty and the downfall of our form,",
+                "coptic": "Ⲁⲗⲗⲁ ⲛ̀ⲑⲟⲕ ϧⲉⲛ ⲧⲉⲕⲙⲉⲧϣⲁⲛⲑ̀ⲙⲁϧⲧ ⲛ̀ⲁⲧϣ̀ⲥⲁϫⲓ ⲙ̀ⲙⲟⲥ: ⲟⲩⲟϩ ⲛ̀ⲁⲧϣ̀ⲫⲓⲣⲓ ⲉ̀ⲣⲟⲥ: ⲉⲕⲥⲱⲟⲩⲛ ⲛ̀ⲑ̀ⲙⲉⲧⲁⲥⲑⲉⲛⲏⲥ ⲟⲩⲟϩ ⲉⲧϫⲟⲗⲕ ⲉ̀ⲡⲉⲥⲏⲧ ⲛ̀ⲧⲉ ⲡⲉⲛⲡ̀ⲗⲁⲥⲙⲁ.",
+                "arabic": "ولكن أنتَ بتعطفِكَ غيرِ الموصوفِ، ولا مُخَبَّرٍ به إذ تعرفُ ضعفَ وانغماسَ جبلتِنا إلى أسفلِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "wipe away all the stain of our iniquities,",
+                "coptic": "Ϥⲱϯ ⲉ̀ⲃⲟⲗ ⲛ̀ϭⲱϧⲉⲙ ⲛⲓⲃⲉⲛ ⲛ̀ⲧⲉ ⲛⲉⲛⲡⲁⲣⲁⲡⲧⲱⲙⲁ.",
+                "arabic": "امحُ كلَّ أدناسِ سيئاتِنا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "that we may not be under condemnation nor fall into judgment concerning this Mystery of Your divinity.",
+                "coptic": "Ϩⲓⲛⲁ ⲛ̀ⲧⲉϥϣ̀ⲧⲉⲙϣⲱⲡⲓ ⲛⲁⲛ ⲉⲩϩⲁⲡ: ⲟⲩⲇⲉ ⲟⲩϩⲓⲟⲩⲓ ⲉ̀ⲡ̀ϩⲁⲡ: ⲛ̀ϫⲉ ⲡⲁⲓⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲫⲁⲓ ⲛ̀ⲧⲉ ⲧⲉⲕⲙⲉⲑⲛⲟⲩϯ.",
+                "arabic": "لكي لا يكونَ لنا دينونةً ولا وقاعاً في دينونةٍ هذا السرُّ الذي للاهوتِكَ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Deacon:</span><br>Pray for perfect peace, love, and the holy apostolic kisses.",
+                "coptic": "<span class='role'>Ⲡⲓⲇⲓⲁⲕⲱⲛ:</span><br>Ⲡ̀ⲣⲟⲥⲉⲩⲝⲁⲥⲑⲉ ⲩ̀ⲡⲉⲣ ⲧⲏⲥ ⲧⲉⲗⲓⲁⲥ ⲓ̀ⲣⲏⲛⲏⲥ ⲕⲉ ⲁ̀ⲅⲁⲡⲏⲥ ⲕⲉ ⲧⲱⲛ ⲁ̀ⲅⲓⲱⲛ ⲁⲥⲡⲁⲥⲙⲱⲛ ⲧⲱⲛ ⲁ̀ⲡⲟⲥⲧⲟⲗⲱⲛ.",
+                "arabic": "<span class='role'>الشماس:</span><br>صلُّوا من أجلِ السلامِ الكاملِ، والمحبةِ، والقُبلاتِ الطاهرةِ الرسوليةِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>People:</span><br>Lord have mercy.",
+                "coptic": "<span class='role'>Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
+                "arabic": "<span class='role'>الشعب:</span><br>يا ربُّ إرحَم."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Priest:</span><br>For You are He who is able to take away all sins and remove all the unrighteousness and iniquity of wretched people. Behold, You are the purity of the whole world.",
+                "coptic": "<span class='role'>Ⲡⲓⲟⲩⲏⲃ:</span><br>Ⲛ̀ⲑⲟⲕ ⲅⲁⲣ ⲉ̀ⲧⲉ ⲟⲩⲟⲛ ϣ̀ϫⲟⲙ ⲙ̀ⲙⲟⲕ ⲉ̀ⲱ̀ⲗⲓ ⲛ̀ⲛⲟⲃⲓ ⲛⲓⲃⲉⲛ: ⲟⲩⲟϩ ⲉ̀ⲟⲩⲱ̀ⲧⲉⲃ ⲛ̀ⲛⲓⲁ̀ⲇⲓⲕⲓⲁ ⲛⲉⲙ ⲛⲓⲁ̀ⲛⲟⲙⲓⲁ: ⲛ̀ⲧⲉ ⲛⲓⲣⲱⲙⲓ ⲛ̀ⲧⲁⲗⲉⲡⲱⲣⲟⲥ: ⲉⲕϣⲟⲡ ⲙ̀ⲙⲁⲛⲧⲟⲩⲃⲟ ⲙ̀ⲡⲓⲕⲟⲥⲙⲟⲥ ⲧⲏⲣϥ.",
+                "arabic": "<span class='role'>الكاهن:</span><br>لأنكَ أنتَ القادرُ أن ترفعَ كلَّ الخطايا، وتنقُلَ الظلمَ والآثامَ التي للناس الأشقياءِ، إذ أنتَ طُهرُ العالِمِ كلِّهِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<i>And unto You is due the glorification with one voice from everyone: </i>",
+                "coptic": "Ⲟⲩⲟϩ ⲛ̀ⲑⲟⲕ ⲡⲉ ⲉ̀ⲧⲉⲥⲉⲣⲡ̀ⲣⲉⲡⲓ ⲛⲁⲕ ⲛ̀ϫⲉ ϯⲇⲟⲝⲟⲗⲟⲅⲓⲁ ϧⲉⲛ ⲟⲩⲥ̀ⲙⲏ ⲛ̀ⲟⲩⲱⲧ ⲛ̀ⲧⲉ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ.",
+                "arabic": "وأنتَ الذي ينبغي لكَ التمجيدُ، بصوتٍ واحدٍ من كلِّ أحدٍ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<i>glory, honor, might, and worship with Your good Father and the Holy Spirit, the Giver of Life, who is of one essence with You, </i>",
+                "coptic": "Ⲡⲓⲱ̀ⲟⲩ ⲡⲓⲧⲁⲓⲟ ϯⲙⲉⲧⲛⲓϣϯ ϯⲡ̀ⲣⲟⲥⲕⲩⲛⲏⲥⲓⲥ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ Ⲉⲑⲟⲩⲁⲃ: ⲛ̀ⲣⲉϥⲧⲁⲛϧⲟ ⲟⲩⲟϩ ⲛ̀ⲟ̀ⲙⲟⲟⲩⲥⲓⲟⲥ ⲛⲉⲙⲁⲕ.",
+                "arabic": "اﻟﻤﺠدُ والكرامةُ والعظمةُ والسجودُ، مع أبيكَ الصالحِ والروحِ القدس المحيي المساوي لكَ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<i>now and at all times, and unto the age of all ages. Amen. </i>",
+                "coptic": "Ϯⲛⲟⲩ ⲛⲉⲙ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ. Ⲁ̀ⲙⲏⲛ.",
+                "arabic": "الآنَ وكلِّ أوانٍ وإلى دهرِ الدهورِ كلِّها. آمين."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<i>(The people may chant the Adam Aspasmos)</i>",
+                "coptic": "-",
+                "arabic": "(يمكن أن يقال الأسبسمس الأدام)"
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Deacon:</span><br>Greet one another with a holy kiss.",
+                "coptic": "<span class='role'>Ⲡⲓⲇⲓⲁⲕⲱⲛ:</span><br>Ⲁⲥⲡⲁⲍⲉⲥⲑⲉ ⲁⲗⲗⲏⲗⲟⲩⲥ ⲉⲛ ⲫⲓⲗⲏⲙⲁⲧⲓ ⲁ̀ⲅⲓⲱ.",
+                "arabic": "<span class='role'>الشماس:</span><br>قبِّلوا بعضَكُمْ بعضاً بقُبلةٍ مقدسةٍ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Lord have mercy. Lord have mercy. Lord have mercy.",
+                "coptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ: Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ: Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
+                "arabic": "يا ربُّ إرحَم، يا ربُّ إرحَم ، يا ربُّ إرحَم."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Yea, Lord, who are Jesus Christ, the Son of God, hear us and have mercy upon us.",
+                "coptic": "Ⲥⲉ Ⲕⲩⲣⲓⲉ: ⲉ̀ⲧⲉ ⲫⲁⲓ ⲡⲉ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫ̀ⲛⲟⲩϯ ⲥⲱⲧⲉⲙ ⲉ̀ⲣⲟⲛ ⲟⲩⲟϩ ⲛⲁⲓ ⲛⲁⲛ.",
+                "arabic": "نعم يا ربُّ، الذي هو يسوعُ المسيحُ إبنُ اللهِ، إسمعْنا وإرحّمْنا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Offer in order. Stand with trembling. Look towards the East. Let us attend.",
+                "coptic": "Ⲡ̀ⲣⲟⲥⲫⲉⲣⲓⲛ ⲕⲁⲧⲁ ⲧ̀ⲣⲟⲡⲟⲛ: ⲥ̀ⲧⲁⲑⲏⲧⲉ ⲕⲁⲧⲁ ⲧ̀ⲣⲟⲙⲟⲩ: ⲓⲥ ⲁ̀ⲛⲁⲧⲟⲗⲁⲥ ⲃ̀ⲗⲉⲯⲁⲧⲉ. Ⲡ̀ⲣⲟⲥⲭⲱⲙⲉⲛ.",
+                "arabic": "تقدموا على الرسمِ، قفوا برعدةٍ، وإلى الشرق أنظروا. ننصِتْ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>People:</span><br>Through the intercessions of the Theotokos, Saint Mary, O Lord, grant us the forgiveness of our sins.",
+                "coptic": "<span class='role'>Ⲡⲓⲗⲁⲟⲥ:</span><br>Ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲃⲓⲁ ⲛ̀ⲧⲉ Ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ ⲉⲑⲟⲩⲁⲃ Ⲙⲁⲣⲓⲁ: Ⲡ̀ϭⲟⲓⲥ ⲁ̀ⲣⲓϩ̀ⲙⲟⲧ ⲛⲁⲛ ⲙ̀ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ.",
+                "arabic": "<span class='role'>الشعب:</span><br>بشفاعاتِ والدةِ الإلهِ القديسةِ مريم، يا ربُّ أَنعِمْ لنا بمغفرةِ خطايانا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "We worship You, O Christ, with Your good Father and the Holy Spirit, for You (have come) and saved us.",
+                "coptic": "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ Ⲉⲑⲟⲩⲁⲃ: ϫⲉ (ⲁⲕⲓ̀) ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ.",
+                "arabic": "نسجدُ لكَ أيها المسيحُ، مع أبيكَ الصالح، والروحِ القدسِ، لأنكَ (أتيتَ) وخلَّصتنا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "A mercy of peace, a sacrifice of praise.",
+                "coptic": "Ⲉ̀ⲗⲉⲟⲥ ⲓ̀ⲣⲏⲛⲏⲥ: ⲑⲩⲥⲓⲁ ⲉ̀ⲛⲉⲥⲉⲱⲥ.",
+                "arabic": "رحمةُ السلامِ، ذبيحةُ التسبيحِ."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "Prayer of Reconciliation (Saint Cyril’s Liturgy)",
+    "coptic_title": "",
+    "arabic_title": "صلاة صلح (القداس الكيرلسي)",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<i>By Saint Severus, patriarch of Antioch</i>",
+                "coptic": "-",
+                "arabic": "للقديس ساويرس بطريرك أنطاكية"
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Priest:</span><br>Pray.",
+                "coptic": "<span class='role'>Ⲡⲓⲟⲩⲏⲃ:</span><br>Ϣ̀ⲗⲏⲗ.",
+                "arabic": "<span class='role'>الكاهن:</span><br>صلوا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Deacon:</span><br>Stand up for prayer.",
+                "coptic": "<span class='role'>Ⲡⲓⲇⲓⲁⲕⲱⲛ:</span><br>Ⲉ̀ⲡⲓ ⲡ̀ⲣⲟⲥⲉⲩⲭⲏ ⲥ̀ⲧⲁⲑⲏⲧⲉ.",
+                "arabic": "<span class='role'>الشماس:</span><br>للصلاة قفوا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Priest:</span><br>Peace be with all.",
+                "coptic": "<span class='role'>Ⲡⲓⲟⲩⲏⲃ:</span><br>Ⲓ̀ⲣⲏⲛⲏ ⲡⲁⲥⲓ.",
+                "arabic": "<span class='role'>الكاهن:</span><br>السلام لجميعكم."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>People:</span><br>And with your spirit.",
+                "coptic": "<span class='role'>Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲕⲉ ⲧⲱ ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ ⲥⲟⲩ.",
+                "arabic": "<span class='role'>الشعب:</span><br>ولروحك أيضاً."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Priest:</span><br>O Author of life and King of the ages,",
+                "coptic": "<span class='role'>Ⲡⲓⲟⲩⲏⲃ:</span><br>Ⲡ̀ⲁⲣⲭⲏⲅⲟⲥ ⲛ̀ⲧⲉ ⲡ̀ⲱⲛϧ ⲟⲩⲟϩ Ⲡ̀ⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ.",
+                "arabic": "<span class='role'>الكاهن:</span><br>يا رئيسَ الحياةِ وملكَ الدهورِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "O God, unto whom every knee bows, those in the heavens, those on earth, and those under the earth;",
+                "coptic": "Ⲫ̀ⲛⲟⲩϯ ⲫⲏⲉⲧⲉ̀ⲣⲉ ⲕⲉⲗⲓ ⲛⲓⲃⲉⲛ ⲕⲱⲗϫ ⲛⲁϥ: ⲛⲏⲉⲧ ϧⲉⲛ ⲛⲓⲫⲏⲟⲩⲓ̀: ⲛⲉⲙ ⲛⲏⲉⲧ ϩⲓϫⲉⲛ ⲡⲓⲕⲁϩⲓ: ⲛⲉⲙ ⲛⲏⲉⲧ ⲥⲁⲡⲉⲥⲏⲧ ⲙ̀ⲡ̀ⲕⲁϩⲓ.",
+                "arabic": "اللهُمَّ يا مَنْ تجثو له كلُّ ركبةٍ، ما في السمواتِ وما على الأرضِ وما تحتَ الأرضِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "to whom all are humbled and under the yoke of servitude, bowing the head to the scepter of His kingship;",
+                "coptic": "Ⲫⲏⲉ̀ⲧⲉⲣⲉ ⲡ̀ⲧⲏⲣϥ ⲑⲉⲃⲓⲏⲟⲩⲧ: ⲟⲩⲟϩ ϥ̀ϣⲟⲡ ϧⲉⲛ ⲟⲩⲙⲟϯ ⲙ̀ⲙⲉⲧⲃⲱⲕ: ϧⲁ ⲡ̀ϭⲛⲉϫⲱϥ ⲙ̀ⲡ̀ϣ̀ⲃⲱⲧ ⲛ̀ⲧⲉ ⲧⲉϥⲙⲉⲧⲟⲩⲣⲟ.",
+                "arabic": "الذي الكلُّ مذلولٌ وخاضعٌ بِعُنُقِ العُبوديةِ تحتَ خضوعِ قضيبِ مُلْكِهِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "who are glorified by the angelic hosts and the heavenly orders and the rational natures with unceasing voices declaring His Godhead.",
+                "coptic": "Ⲫⲏⲉ̀ⲧⲟⲩϯⲱ̀ⲟⲩ ⲛⲁϥ ⲛ̀ϫⲉ ⲛⲓⲥ̀ⲧ̀ⲣⲁⲧⲓⲁ ⲛ̀ⲁⲅⲅⲉⲗⲓⲕⲟⲛ: ⲛⲉⲙ ⲛⲓⲧⲁⲅⲙⲁ ⲛ̀ⲉ̀ⲡⲟⲩⲣⲁⲛⲓⲟⲛ: ⲛⲉⲙ ⲛⲓⲫⲩⲥⲓⲥ ⲛ̀ⲛⲟⲏ̀ⲣⲟⲛ: ϧⲉⲛ ⲟⲩⲥ̀ⲙⲏ ⲛ̀ⲁⲧⲭⲁⲣⲱⲥ ⲛ̀ⲑⲉⲟ̀ⲗⲟⲅⲓⲕⲟⲛ.",
+                "arabic": "الذي تمجدُه الأجنادُ الملائكيةُ، والطغماتُ السمائيةُ، والطبائعُ العقليةُ، بصوتٍ لا يسكتُ ناطقٍ بألوهيتِهِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "And You were pleased that we frail earthly men should also serve You, not on account of the purity of our hands, since we have wrought no goodness on earth,",
+                "coptic": "Ⲟⲩⲟϩ ⲉ̀ⲁⲕϯⲙⲁϯ ⲉ̀ϫⲱⲛ ϩⲱⲛ ϧⲁ ⲛⲓϫⲱⲃ ⲛ̀ⲣⲉⲙⲛ̀ⲕⲁϩⲓ ⲉⲑⲣⲉⲛϣⲉⲙϣⲓ ⲛⲁⲕ: ⲉⲑⲃⲉ ⲡ̀ⲧⲟⲩⲃⲟ ⲁⲛ ⲛ̀ⲧⲉ ⲛⲉⲛϫⲓϫ: ⲟⲩ ⲅⲁⲣ ⲙ̀ⲡⲉⲛⲓ̀ⲣⲓ ⲙ̀ⲡⲓⲁ̀ⲅⲁⲑⲟⲛ ϩⲓϫⲉⲛ ⲡⲓⲕⲁϩⲓ.",
+                "arabic": "وإذ سُرِرتَ بنا نحنُ أيضاً الضعفاءَ الأرضيينَ أن نخدُمَكَ، لا من أجلِ نقاوَةِ أيدينا، لأننا لم نفعلْ الصلاحَ على الأرضِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "but rather desiring to give to us, we undeserving wretches, of Your purity.",
+                "coptic": "Ⲁⲗⲗⲁ ⲁⲕⲟⲩⲱϣ ⲉ̀ϯ ⲛⲁⲛ ⲁ̀ⲛⲟⲛ ϧⲁ ⲛⲓⲉ̀ⲃⲓⲏⲛ ⲟⲩⲟϩ ⲉⲧⲟⲓ ⲛ̀ⲁⲧⲙ̀ⲡ̀ϣⲁ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲉⲕⲧⲟⲩⲃⲟ.",
+                "arabic": "بل مريداً أن تعطينا نحنُ البائسينَ غيرَ المستحقينَ من طُهرِكَ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Receive us unto Yourself, O Good One and Lover of Mankind, as we draw near to Your holy altar, according to the multitude of Your mercies.",
+                "coptic": "Ϣⲟⲡⲧⲉⲛ ⲉ̀ⲣⲟⲕ Ⲡⲓⲁ̀ⲅⲁⲑⲟⲥ ⲟⲩⲟϩ ⲙ̀ⲙⲁⲓⲣⲱⲙⲓ: ⲉⲛϧⲱⲛⲧ ⲙ̀ⲙⲟⲛ ⲉ̀ⲡⲉⲕⲑⲩⲥⲓⲁⲥⲧⲏⲣⲓⲟⲛ ⲉⲑⲟⲩⲁⲃ: ⲕⲁⲧⲁ ⲡ̀ⲁ̀ϣⲁⲓ ⲛ̀ⲧⲉ ⲡⲉⲕⲛⲁⲓ.",
+                "arabic": "إقبلْنا إليكَ أيها الصالحُ محبُّ البشرِ، إذ ندنو من مذبحِكَ المقدسِ، ككثرَةِ رحمتِكَ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "And make us worthy of the heavenly peace which befits Your divinity and is full of salvation, that we may give the same to one another in perfect love,",
+                "coptic": "Ⲟⲩⲟϩ ⲁ̀ⲣⲓⲧⲉⲛ ⲛ̀ⲉⲙⲡ̀ϣⲁ ⲛ̀ϯϩⲓⲣⲏⲛⲏ ⲛ̀ⲧⲉ ⲧ̀ⲫⲉ: ⲉⲧⲉⲣⲡ̀ⲣⲉⲡⲓ ⲛ̀ⲧⲉⲕⲙⲉⲑⲛⲟⲩϯ ⲟⲩⲟϩ ⲉⲑⲙⲉϩ ⲛ̀ⲟⲩϫⲁⲓ: ⲉⲑⲣⲉⲛⲧⲏⲓⲥ ⲛ̀ⲛⲉⲛⲉ̀ⲣⲏⲟⲩ ϧⲉⲛ ⲟⲩⲁ̀ⲅⲁⲡⲏ ⲉⲥϫⲏⲕ ⲉ̀ⲃⲟⲗ.",
+                "arabic": "وإجعلْنا أهلاً للسلامِ السمائي اللائقِ بلاهوتِكَ والمملوءِ خلاصاً، لنعطِيَهُ بعضُناً لبعضٍ بمحبةٍ كاملةٍ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "and greet one another with a holy kiss.",
+                "coptic": "Ⲟⲩⲟϩ ⲛ̀ⲧⲉⲛⲉⲣⲁⲥⲡⲁⲍⲉⲑⲥⲉ ⲛ̀ⲛⲉⲛⲉ̀ⲣⲏⲟⲩ ϧⲉⲛ ⲟⲩⲫⲓ ⲉⲥⲟⲩⲁⲃ.",
+                "arabic": "ونُقَبِّلَ بعضُنا بعضاً بقبلةٍ مقدسةٍ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Deacon:</span><br>Pray for perfect peace, love, and the holy apostolic kisses.",
+                "coptic": "<span class='role'>Ⲡⲓⲇⲓⲁⲕⲱⲛ:</span><br>Ⲡ̀ⲣⲟⲥⲉⲩⲝⲁⲥⲑⲉ ⲩ̀ⲡⲉⲣ ⲧⲏⲥ ⲧⲉⲗⲓⲁⲥ ⲓ̀ⲣⲏⲛⲏⲥ ⲕⲉ ⲁ̀ⲅⲁⲡⲏⲥ ⲕⲉ ⲧⲱⲛ ⲁ̀ⲅⲓⲱⲛ ⲁⲥⲡⲁⲥⲙⲱⲛ ⲧⲱⲛ ⲁ̀ⲡⲟⲥⲧⲟⲗⲱⲛ.",
+                "arabic": "<span class='role'>الشماس:</span><br>صلُّوا من أجلِ السلامِ الكاملِ، والمحبةِ، والقُبلاتِ الطاهرةِ الرسوليةِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>People:</span><br>Lord have mercy.",
+                "coptic": "<span class='role'>Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
+                "arabic": "<span class='role'>الشعب:</span><br>يا ربُّ إرحَم."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Priest:</span><br>Not with a vile sense that defies Your fear, nor with thoughts of guile filled with the wickedness of the traitor,",
+                "coptic": "<span class='role'>Ⲡⲓⲟⲩⲏⲃ:</span><br>Ϧⲉⲛ ⲟⲩⲗⲟⲅⲓⲥⲙⲟⲥ ⲁⲛ ⲉϥϣⲟϣϥ ⲟⲩⲟϩ ⲉϥⲉⲣⲕⲁⲧⲁⲫ̀ⲣⲟⲛⲓⲛ ⲛ̀ⲧⲉⲕϩⲟϯ: ϧⲉⲛ ⲟⲩⲙⲉⲩⲓ ⲁⲛ ⲛ̀ⲭ̀ⲣⲟϥ ⲟⲩⲟϩ ⲉϥⲙⲉϩ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ϯⲙⲉⲧⲡⲉⲧϩⲱⲟⲩ ⲛ̀ⲧⲉ ⲡⲓⲡ̀ⲣⲟⲇⲟⲧⲏⲥ.",
+                "arabic": "<span class='role'>الكاهن:</span><br>لا بحاسَّةٍ مرذولةٍ رافضةٍ لمخافَتِكَ، ولا بفكرٍ غاشٍ مملوءٍ من شرِ الخائنِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "nor with consciences bent on malice,",
+                "coptic": "Ⲉⲥϩⲱⲧⲡ ⲁⲛ ⲛ̀ϫⲉ ⲧⲉⲛⲥⲩⲛⲓⲇⲏⲥⲓⲥ ϧⲉⲛ ϯⲡⲟⲛⲏⲣⲓⲁ.",
+                "arabic": "غيرُ مٌتفقةٍ نياتُنا في الخبثِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "but rather by the gladness of our souls and the rejoicing of our hearts,",
+                "coptic": "Ⲁⲗⲗⲁ ϧⲉⲛ ⲟⲩⲣⲱⲟⲩⲧϥ ⲛ̀ⲧⲉ ⲛⲉⲛⲯⲩⲭⲏ: ⲛⲉⲙ ⲟⲩⲑⲉⲗⲏⲗ ⲛ̀ⲧⲉ ⲛⲉⲛϩⲏⲧ.",
+                "arabic": "بل برغبةِ نفوسِنا وتَهليلِ قلوبِنا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "having the great and perfect sign of the love of Your only-begotten Son.",
+                "coptic": "Ⲉϥⲉⲛⲧⲟⲧⲉⲛ ⲛ̀ϫⲉ ⲡⲓⲙⲏⲓⲛⲓ ⲉⲧⲟⲓ ⲛ̀ⲛⲓϣϯ ⲟⲩⲟϩ ⲉⲧϫⲏⲕ ⲉ̀ⲃⲟⲗ: ⲛ̀ⲧⲉ ⲧ̀ⲁ̀ⲅⲁⲡⲏ ⲙ̀ⲡⲉⲕⲙⲟⲛⲟⲅⲉⲛⲏⲥ ⲛ̀Ϣⲏⲣⲓ.",
+                "arabic": "إذ لنا العلامةُ العظيمةُ الكاملةُ التي لمحبةِ إبنِكَ الوحيد."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "And cast us not behind, we Your servants, on account of the defilement of our sins,",
+                "coptic": "Ⲟⲩⲟϩ ⲙ̀ⲡⲉⲣϩⲓⲧⲧⲉⲛ ⲉ̀ⲃⲟⲗ ϧⲁ ⲛⲉⲕⲉ̀ⲃⲓⲁⲓⲕ: ⲉⲑⲃⲉ ⲡ̀ⲑⲱⲗⲉⲃ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ.",
+                "arabic": "ولا تطرحنا نحنُ عبيدَكَ من أجلِ دَنَسِ خطايانا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "for You, as a creator, know our form, that no one born of a woman can be justified before You.",
+                "coptic": "Ⲛ̀ⲑⲟⲕ ⲅⲁⲣ ⲉⲧⲥⲱⲟⲩⲛ ϩⲱⲥ ⲣⲉϥⲥⲱⲛⲧ: ⲙ̀ⲡⲉⲛⲡ̀ⲗⲁⲥⲙⲁ: ϫⲉ ⲙ̀ⲙⲟⲛ ϫ̀ⲫⲟ ⲛ̀ⲥ̀ϩⲓⲙⲓ ⲛⲁⲙⲁⲓ ⲙ̀ⲡⲉⲕⲙ̀ⲑⲟ.",
+                "arabic": "لأنكَ أنتَ العارفُ كخالقٍ جُبلتَنا، أنه ليسَ مولودُ إمرأةٍ يتزكَّى أمامَكَ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "So make us worthy, O our Master, with a holy heart and a soul filled with Your grace, to stand before You",
+                "coptic": "Ⲁ̀ⲣⲓⲧⲉⲛ ⲟⲩⲛ ⲛ̀ⲉⲙⲡ̀ϣⲁ Ⲡⲉⲛⲛⲏⲃ: ϧⲉⲛ ⲟⲩϩⲏⲧ ⲉϥⲟⲩⲁⲃ: ⲛⲉⲙ ⲟⲩⲯⲩⲭⲏ ⲉⲥⲙⲉϩ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲉⲕϩ̀ⲙⲟⲧ: ⲉⲑⲣⲉⲛⲟ̀ϩⲓ ⲉ̀ⲣⲁⲧⲉⲛ ⲙ̀ⲡⲉⲕⲙ̀ⲑⲟ.",
+                "arabic": "فإجعلنا إذاً أهلاً يا سيِّدَنا بقلبٍ طاهرٍ ونفسٍ مملوءةٍ من نعمتِكَ، أن نقفَ أمامَكَ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "and bring in unto You this holy sacrifice—which is rational, spiritual, and bloodless—",
+                "coptic": "Ⲟⲩⲟϩ ⲛ̀ⲧⲉⲛⲓ̀ⲛⲓ ⲛⲁⲕ ⲉ̀ϧⲟⲩⲛ ⲛ̀ⲧⲁⲓⲑⲩⲥⲓⲁ ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲗⲟⲅⲓⲕⲏ ⲟⲩⲟϩ ⲙ̀ⲡ̀ⲛⲉⲩⲙⲁⲧⲓⲕⲏ ⲟⲩⲟϩ ⲛ̀ⲁⲧⲥ̀ⲛⲟϥ.",
+                "arabic": "ونقدمَ لكَ هذه الصعيدةَ المقدسةَ الناطقةَ الروحانيةَ غيرَ الدمويةِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "unto the remission of our transgressions and the forgiveness of the ignorances of Your people.",
+                "coptic": "Ⲉ̀ⲟⲩⲥⲩⲛⲭⲱⲣⲏⲥⲓⲥ ⲛ̀ⲧⲉ ⲛⲉⲛⲡⲁⲣⲁⲡⲧⲱⲙⲁ: ⲛⲉⲙ ⲟⲩⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲛⲓⲙⲉⲧⲁⲧⲉ̀ⲙⲓ ⲛ̀ⲧⲉ ⲡⲉⲕⲗⲁⲟⲥ.",
+                "arabic": "صفحاً لزلاتِنا، وغفراناً لجهالاتِ شعبِكَ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "For You are a merciful and a compassionate God.",
+                "coptic": "Ϫⲉ ⲛ̀ⲑⲟⲕ Ⲟⲩⲛⲟⲩϯ ⲛ̀ⲣⲉϥϣⲉⲛϩⲏⲧ ⲟⲩⲟϩ ⲛ̀ⲛⲁⲏⲧ.",
+                "arabic": "لأنكَ أنتَ إلهٌ رؤوفٌ مُتحننٌ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<i>and unto You we send up the glory, the honor, the dominion, and the worship, O Father, Son and Holy Spirit, </i>",
+                "coptic": "Ⲟⲩⲟϩ ⲛ̀ⲑⲟⲕ ⲡⲉⲧⲉⲛⲟⲩⲱⲣⲡ ⲛⲁⲕ ⲉ̀ⲡ̀ϣⲱⲓ ⲙ̀ⲡⲓⲱ̀ⲟⲩ: ⲛⲉⲙ ⲡⲓⲧⲁⲓⲟ: ⲛⲉⲙ ⲡⲓⲁ̀ⲙⲁϩⲓ: ⲛⲉⲙ ϯⲡ̀ⲣⲟⲥⲕⲩⲛⲏⲥⲓⲥ: Ⲫ̀ⲓⲱⲧ ⲛⲉⲙ Ⲡ̀ϣⲏⲣⲓ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ Ⲉⲑⲟⲩⲁⲃ.",
+                "arabic": "وأنتَ الذي نرسلُ لكَ إلى فوقُ المجدَ والإكرامةَ والعزَّ والسجودَ، أيها الآبُ والإبنُ والروحَ القدسَ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<i>now and at all times and unto the age of all ages. Amen.</i>",
+                "coptic": "Ϯⲛⲟⲩ ⲛⲉⲙ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ: ⲁ̀ⲙⲏⲛ.",
+                "arabic": "الآنَ وكلَّ أوانٍ وإلى دهرِ الدهورِ كلِّها. آمين."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<i>(The people may chant the Adam Aspasmos)</i>",
+                "coptic": "-",
+                "arabic": "(يمكن أن يقال الأسبسمس الأدام)"
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Deacon:</span><br>Greet one another with a holy kiss.",
+                "coptic": "<span class='role'>Ⲡⲓⲇⲓⲁⲕⲱⲛ:</span><br>Ⲁⲥⲡⲁⲍⲉⲥⲑⲉ ⲁⲗⲗⲏⲗⲟⲩⲥ ⲉⲛ ⲫⲓⲗⲏⲙⲁⲧⲓ ⲁ̀ⲅⲓⲱ.",
+                "arabic": "<span class='role'>الشماس:</span><br>قبِّلوا بعضَكُمْ بعضاً بقُبلةٍ مقدسةٍ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Lord have mercy. Lord have mercy. Lord have mercy.",
+                "coptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ: Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ: Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
+                "arabic": "يا ربُّ إرحَم، يا ربُّ إرحَم ، يا ربُّ إرحَم."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Yea, Lord, who are Jesus Christ, the Son of God, hear us and have mercy upon us.",
+                "coptic": "Ⲥⲉ Ⲕⲩⲣⲓⲉ: ⲉ̀ⲧⲉ ⲫⲁⲓ ⲡⲉ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫ̀ⲛⲟⲩϯ ⲥⲱⲧⲉⲙ ⲉ̀ⲣⲟⲛ ⲟⲩⲟϩ ⲛⲁⲓ ⲛⲁⲛ.",
+                "arabic": "نعم يا ربُّ، الذي هو يسوعُ المسيحُ إبنُ اللهِ، إسمعْنا وإرحّمْنا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Offer in order. Stand with trembling. Look towards the East. Let us attend.",
+                "coptic": "Ⲡ̀ⲣⲟⲥⲫⲉⲣⲓⲛ ⲕⲁⲧⲁ ⲧ̀ⲣⲟⲡⲟⲛ: ⲥ̀ⲧⲁⲑⲏⲧⲉ ⲕⲁⲧⲁ ⲧ̀ⲣⲟⲙⲟⲩ: ⲓⲥ ⲁ̀ⲛⲁⲧⲟⲗⲁⲥ ⲃ̀ⲗⲉⲯⲁⲧⲉ. Ⲡ̀ⲣⲟⲥⲭⲱⲙⲉⲛ.",
+                "arabic": "تقدموا على الرسمِ، قفوا برعدةٍ، وإلى الشرق أنظروا. ننصِتْ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>People:</span><br>Through the intercessions of the Theotokos, Saint Mary, O Lord, grant us the forgiveness of our sins.",
+                "coptic": "<span class='role'>Ⲡⲓⲗⲁⲟⲥ:</span><br>Ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲃⲓⲁ ⲛ̀ⲧⲉ Ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ ⲉⲑⲟⲩⲁⲃ Ⲙⲁⲣⲓⲁ: Ⲡ̀ϭⲟⲓⲥ ⲁ̀ⲣⲓϩ̀ⲙⲟⲧ ⲛⲁⲛ ⲙ̀ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ.",
+                "arabic": "<span class='role'>الشعب:</span><br>بشفاعاتِ والدةِ الإلهِ القديسةِ مريم، يا ربُّ أَنعِمْ لنا بمغفرةِ خطايانا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "We worship You, O Christ, with Your good Father and the Holy Spirit, for You (have come) and saved us.",
+                "coptic": "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ Ⲉⲑⲟⲩⲁⲃ: ϫⲉ (ⲁⲕⲓ̀) ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ.",
+                "arabic": "نسجدُ لكَ أيها المسيحُ، مع أبيكَ الصالح، والروحِ القدسِ، لأنكَ (أتيتَ) وخلَّصتنا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "A mercy of peace, a sacrifice of praise.",
+                "coptic": "Ⲉ̀ⲗⲉⲟⲥ ⲓ̀ⲣⲏⲛⲏⲥ: ⲑⲩⲥⲓⲁ ⲉ̀ⲛⲉⲥⲉⲱⲥ.",
+                "arabic": "رحمةُ السلامِ، ذبيحةُ التسبيحِ."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "Another Prayer of Reconciliation (Saint Cyril’s Liturgy)",
+    "coptic_title": "",
+    "arabic_title": "صلاة صلح أخرى (القداس الكيرلسي)",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<i> By the Thrice-Blessed John</i>",
+                "coptic": "-",
+                "arabic": "ليوحنا المثلث الطوبى"
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Priest:</span><br>Pray.",
+                "coptic": "<span class='role'>Ⲡⲓⲟⲩⲏⲃ:</span><br>Ϣ̀ⲗⲏⲗ.",
+                "arabic": "<span class='role'>الكاهن:</span><br>صلوا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Deacon:</span><br>Stand up for prayer.",
+                "coptic": "<span class='role'>Ⲡⲓⲇⲓⲁⲕⲱⲛ:</span><br>Ⲉ̀ⲡⲓ ⲡ̀ⲣⲟⲥⲉⲩⲭⲏ ⲥ̀ⲧⲁⲑⲏⲧⲉ.",
+                "arabic": "<span class='role'>الشماس:</span><br>للصلاة قفوا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Priest:</span><br>Peace be with all.",
+                "coptic": "<span class='role'>Ⲡⲓⲟⲩⲏⲃ:</span><br>Ⲓ̀ⲣⲏⲛⲏ ⲡⲁⲥⲓ.",
+                "arabic": "<span class='role'>الكاهن:</span><br>السلام لجميعكم."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>People:</span><br>And with your spirit.",
+                "coptic": "<span class='role'>Ⲡⲓⲗⲁⲟⲥ:</span><br>Ⲕⲉ ⲧⲱ ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ ⲥⲟⲩ.",
+                "arabic": "<span class='role'>الشعب:</span><br>ولروحك أيضاً."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Priest:</span><br>O God of love and Giver of the oneness of heart, Provider of the oneness of mind that is of virtue,",
+                "coptic": "<span class='role'>Ⲡⲓⲟⲩⲏⲃ:</span><br>Ⲫ̀ⲛⲟⲩϯ ⲛ̀ⲧⲉ ϯⲁ̀ⲅⲁⲡⲏ ⲟⲩⲟϩ Ⲫ̀ⲣⲏϥϯ ⲛ̀ⲧⲉ ϯⲙⲉⲧϩⲏⲧ ⲛ̀ⲟⲩⲱⲧ: ⲟⲩⲟϩ Ⲫ̀ⲣⲉϥⲥⲁϩⲛⲓ ⲛ̀ⲧⲉ ϯⲅ̀ⲛⲱⲙⲏ ⲛ̀ⲟⲩⲱⲧ ⲛ̀ⲧⲉ ϯⲁ̀ⲣⲉⲧⲏ.",
+                "arabic": "<span class='role'>الكاهن:</span><br>يا إلهَ المحبةِ ومُعْطِي وحدانيةِ القلبِ، ورازقَ الرأيِ الواحدِ الذي للفضيلةِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "who have granted to us the new commandment through Your only-begotten Son,",
+                "coptic": "Ⲫⲏⲉ̀ⲧⲁϥⲉⲣϩ̀ⲙⲟⲧ ⲛⲁⲛ ⲛ̀ϯⲉⲛⲧⲟⲗⲏ ⲙ̀ⲃⲉⲣⲓ: ϩⲓⲧⲉⲛ ⲡⲉⲕⲙⲟⲛⲟⲅⲉⲛⲏⲥ ⲛ̀Ϣⲏⲣⲓ.",
+                "arabic": "الذي أنعمَ لنا بالوصيةِ الجديدةِ بإبنِكَ الوحيدِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "that we should love one another even as You have loved us, we the undeserving and the lost,",
+                "coptic": "Ϩⲓⲛⲁ ⲛ̀ⲧⲉⲛⲙⲉⲛⲣⲉ ⲛⲉⲛⲉ̀ⲣⲏⲟⲩ: ⲕⲁⲧⲁ ⲫ̀ⲣⲏϯ ⲛ̀ⲑⲟⲕ ⲉ̀ⲧⲁⲕⲙⲉⲛⲣⲓⲧⲉⲛ: ⲁ̀ⲛⲟⲛ ϧⲁ ⲛⲓⲁⲧⲙ̀ⲡ̀ϣⲁ ⲟⲩⲟϩ ⲉⲧⲥⲱⲣⲉⲙ.",
+                "arabic": "لكيْ نحبَّ بعضَنا بعضاً كما أحببتنا أنتَ، نحنُ غيرَ المستحقينَ والضالينَ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "and gave Your beloved Son for our life and salvation.",
+                "coptic": "Ⲟⲩⲟϩ ⲁⲕϯ ⲙ̀ⲡⲉⲕⲙⲉⲛⲣⲓⲧ ⲛ̀Ϣⲏⲣⲓ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲉⲛ ⲡⲉⲛⲱⲛϧ ⲛⲉⲙ ⲡⲉⲛⲟⲩϫⲁⲓ.",
+                "arabic": "وبَذَلتَ إبنَكَ الحبيبَ عن حياتِنا وخلاصِنا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "We ask You, O our Master, to grant us Your servants, all the days of our life on earth and most particularly now,",
+                "coptic": "Ⲧⲉⲛϯϩⲟ ⲉ̀ⲣⲟⲕ Ⲡⲉⲛⲛⲏⲃ: ⲁ̀ⲣⲓϩ̀ⲙⲟⲧ ⲛⲁⲛ ϧⲁ ⲛⲉⲕⲉ̀ⲃⲓⲁⲓⲕ: ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ ⲛ̀ⲧⲉ ⲡⲉⲛⲱⲛϧ ⲉⲧ ϩⲓϫⲉⲛ ⲡⲓⲕⲁϩⲓ: ⲛ̀ϩⲟⲩⲟ̀ ⲇⲉ ⲙⲁⲗⲗⲟⲛ ϯⲛⲟⲩ.",
+                "arabic": "نسألُكَ يا سيدَنا، أَنعِم لنا نحنُ عبيدَكَ في كلِّ زمانِ حياتِنا التي على الأرضِ، ولاسيما بالأكثرِ الآنَ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "a sense that remembers not the earlier evils, and a conscience without hypocrisy, and truthful thoughts, and a heart that loves the brethren",
+                "coptic": "Ⲛ̀ⲟⲩⲗⲟⲅⲓⲥⲙⲟⲥ ⲉϥⲓ̀ⲣⲓ ⲁⲛ ⲙ̀ⲫ̀ⲙⲉⲩⲓ ⲛ̀ⲛⲓⲙⲉⲧⲡⲉⲧϩⲱⲟⲩ ⲛ̀ⲧⲉ ϣⲟⲣⲡ: ⲛⲉⲙ ⲟⲩⲥⲩⲛⲓⲇⲏⲥⲓⲥ ⲛ̀ⲁⲧⲙⲉⲧϣⲟⲃⲓ ϩⲁⲛⲙⲉⲩⲓ ⲉⲩⲉⲛϩⲟⲧ: ⲛⲉⲙ ⲟⲩϩⲏⲧ ⲙ̀ⲙⲁⲓⲥⲟⲛ.",
+                "arabic": "بتفكير غيرَ ذاكرٍ للشرورِ الأُولى، ونيةٍ بغيرِ رياءٍ، وأفكارٍ صادقةٍ، وقلبٍ محبٍ للإِخوةِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "that as we give a spiritual kiss, we may flee from the likeness of Judas the traitor.",
+                "coptic": "Ϩⲓⲛⲁ ⲉ̀ⲁⲛϯ ⲛ̀ⲟⲩⲁⲥⲡⲁⲥⲙⲟⲥ ⲙ̀ⲡ̀ⲛⲉⲩⲙⲁⲧⲓⲕⲟⲛ: ⲛ̀ⲧⲉⲛⲫⲱⲧ ⲉ̀ⲃⲟⲗ ϩⲁ ⲡ̀ⲓ̀ⲛⲓ ⲛ̀Ⲓⲟⲩⲇⲁⲥ ⲡⲓⲡ̀ⲣⲟⲇⲟⲧⲏⲥ.",
+                "arabic": "لكيْ، ونحنُ نُعطِي قبلةً روحيةً، نَهْرُبَ من شِبْهِ يهوذا الخائنِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "But having been reconciled to one another in the likeness of Your holy Disciples and Apostles, in purity we are purified, and become purified through the mediation of Your Holy Spirit.",
+                "coptic": "Ⲕⲁⲧⲁ ⲇⲉ ⲛⲉⲕⲙⲁⲑⲏⲧⲏⲥ ⲉⲑⲟⲩⲁⲃ ⲟⲩⲟϩ ⲛ̀ⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ: ⲉ̀ⲁⲛϩⲱⲧⲡ ⲛ̀ⲛⲉⲛⲉ̀ⲣⲏⲟⲩ ϧⲉⲛ ⲡⲓⲧⲟⲩⲃⲟ ⲉⲛⲧⲟⲩⲃⲟ ⲟⲩⲟϩ ⲉⲩⲧⲟⲩⲃⲟ ⲙ̀ⲙⲟⲛ: ⲉ̀ⲃⲟⲗ ϩⲓⲧⲉⲛ ϯⲙⲉⲧⲙⲉⲥⲓⲧⲏⲥ ⲛ̀ⲧⲉ Ⲡⲉⲕⲡ̀ⲛⲉⲩⲙⲁ Ⲉⲑⲟⲩⲁⲃ.",
+                "arabic": "وكمثلِ تلاميذِكَ القديسينَ الرسلِ، فيما قد صالحنا بعضَنا بعضاً، نكونُ بالنقاوةِ أطهاراً، ونتقدسُ بِوَسَاطَةِ روحِكَ القدوسِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<i>Through the grace, compassion and love-of-mankind, of Your only-begotten Son, our Lord, God, and Savior, Jesus Christ, </i>",
+                "coptic": "Ϧⲉⲛ ⲡⲓϩ̀ⲙⲟⲧ ⲛⲉⲙ ⲛⲓⲙⲉⲧϣⲉⲛϩⲏⲧ ⲛⲉⲙ ϯⲙⲉⲧⲙⲁⲓⲣⲱⲙⲓ ⲛ̀ⲧⲉ ⲡⲉⲕⲙⲟⲛⲟⲅⲉⲛⲏⲥ ⲛ̀Ϣⲏⲣⲓ: Ⲡⲉⲛϭⲟⲓⲥ ⲟⲩⲟϩ Ⲡⲉⲛⲛⲟⲩϯ ⲟⲩⲟϩ Ⲡⲉⲛⲥⲱⲧⲏⲣ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ.",
+                "arabic": "بالنعمةِ والرأفاتِ ومحبةِ البشرِ، اللواتي لإبنِكِ الوحيدِ ربِّنا وإلهِنا ومخلِّصِنا يسوعَ المسيحِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<i>through whom the glory, the honor, the dominion, and the worship are due unto You, with Him and the Holy Spirit, the Giver of Life, who is of one essence with You, </i>",
+                "coptic": "Ⲫⲁⲓ ⲉ̀ⲧⲉ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲟⲧϥ: ⲉ̀ⲣⲉ ⲡⲓⲱ̀ⲟⲩ ⲛⲉⲙ ⲡⲓⲧⲁⲓⲟ ⲛⲉⲙ ⲡⲓⲁ̀ⲙⲁϩⲓ ⲛⲉⲙ ϯⲡ̀ⲣⲟⲥⲕⲩⲛⲏⲥⲓⲥ ⲉⲣⲡ̀ⲣⲉⲡⲓ ⲛⲁⲕ ⲛⲉⲙⲁϥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ Ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲣⲉϥⲧⲁⲛϧⲟ ⲟⲩⲟϩ ⲛ̀ⲟ̀ⲙⲟⲟⲩⲥⲓⲟⲥ ⲛⲉⲙⲁⲕ.",
+                "arabic": "هذا الذي من قِبَلِهِ المجدُ، والكرامةُ، والعزُّ، والسجودُ يليقُ بكَ معه، ومع الروحِ القدسِ المحيي المساوِي لكَ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<i>now and at all times and unto the age of all ages. Amen.</i>",
+                "coptic": "Ϯⲛⲟⲩ ⲛⲉⲙ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ: ⲁ̀ⲙⲏⲛ.",
+                "arabic": "الآنَ وكلَّ أوانٍ وإلى دهرِ الدهورِ كلِّها. آمين."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<i>(The people may chant the Adam Aspasmos)</i>",
+                "coptic": "-",
+                "arabic": "(يمكن أن يقال الأسبسمس الأدام)"
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>Deacon:</span><br>Greet one another with a holy kiss.",
+                "coptic": "<span class='role'>Ⲡⲓⲇⲓⲁⲕⲱⲛ:</span><br>Ⲁⲥⲡⲁⲍⲉⲥⲑⲉ ⲁⲗⲗⲏⲗⲟⲩⲥ ⲉⲛ ⲫⲓⲗⲏⲙⲁⲧⲓ ⲁ̀ⲅⲓⲱ.",
+                "arabic": "<span class='role'>الشماس:</span><br>قبِّلوا بعضَكُمْ بعضاً بقُبلةٍ مقدسةٍ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Lord have mercy. Lord have mercy. Lord have mercy.",
+                "coptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ: Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ: Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.",
+                "arabic": "يا ربُّ إرحَم، يا ربُّ إرحَم ، يا ربُّ إرحَم."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Yea, Lord, who are Jesus Christ, the Son of God, hear us and have mercy upon us.",
+                "coptic": "Ⲥⲉ Ⲕⲩⲣⲓⲉ: ⲉ̀ⲧⲉ ⲫⲁⲓ ⲡⲉ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫ̀ⲛⲟⲩϯ ⲥⲱⲧⲉⲙ ⲉ̀ⲣⲟⲛ ⲟⲩⲟϩ ⲛⲁⲓ ⲛⲁⲛ.",
+                "arabic": "نعم يا ربُّ، الذي هو يسوعُ المسيحُ إبنُ اللهِ، إسمعْنا وإرحّمْنا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Offer in order. Stand with trembling. Look towards the East. Let us attend.",
+                "coptic": "Ⲡ̀ⲣⲟⲥⲫⲉⲣⲓⲛ ⲕⲁⲧⲁ ⲧ̀ⲣⲟⲡⲟⲛ: ⲥ̀ⲧⲁⲑⲏⲧⲉ ⲕⲁⲧⲁ ⲧ̀ⲣⲟⲙⲟⲩ: ⲓⲥ ⲁ̀ⲛⲁⲧⲟⲗⲁⲥ ⲃ̀ⲗⲉⲯⲁⲧⲉ. Ⲡ̀ⲣⲟⲥⲭⲱⲙⲉⲛ.",
+                "arabic": "تقدموا على الرسمِ، قفوا برعدةٍ، وإلى الشرق أنظروا. ننصِتْ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>People:</span><br>Through the intercessions of the Theotokos, Saint Mary, O Lord, grant us the forgiveness of our sins.",
+                "coptic": "<span class='role'>Ⲡⲓⲗⲁⲟⲥ:</span><br>Ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲃⲓⲁ ⲛ̀ⲧⲉ Ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ ⲉⲑⲟⲩⲁⲃ Ⲙⲁⲣⲓⲁ: Ⲡ̀ϭⲟⲓⲥ ⲁ̀ⲣⲓϩ̀ⲙⲟⲧ ⲛⲁⲛ ⲙ̀ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ.",
+                "arabic": "<span class='role'>الشعب:</span><br>بشفاعاتِ والدةِ الإلهِ القديسةِ مريم، يا ربُّ أَنعِمْ لنا بمغفرةِ خطايانا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "We worship You, O Christ, with Your good Father and the Holy Spirit, for You (have come) and saved us.",
+                "coptic": "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ Ⲉⲑⲟⲩⲁⲃ: ϫⲉ (ⲁⲕⲓ̀) ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ.",
+                "arabic": "نسجدُ لكَ أيها المسيحُ، مع أبيكَ الصالح، والروحِ القدسِ، لأنكَ (أتيتَ) وخلَّصتنا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "A mercy of peace, a sacrifice of praise.",
+                "coptic": "Ⲉ̀ⲗⲉⲟⲥ ⲓ̀ⲣⲏⲛⲏⲥ: ⲑⲩⲥⲓⲁ ⲉ̀ⲛⲉⲥⲉⲱⲥ.",
+                "arabic": "رحمةُ السلامِ، ذبيحةُ التسبيحِ."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "Through the intercessions",
+    "coptic_title": "Ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲃⲓⲁ",
+    "arabic_title": "بشفاعاتِ",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<span class='role'>People:</span><br>Through the intercessions of the Theotokos, Saint Mary, O Lord, grant us the forgiveness of our sins.",
+                "coptic": "<span class='role'>Ⲡⲓⲗⲁⲟⲥ:</span><br>Ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲃⲓⲁ ⲛ̀ⲧⲉ Ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ ⲉⲑⲟⲩⲁⲃ Ⲙⲁⲣⲓⲁ: Ⲡ̀ϭⲟⲓⲥ ⲁ̀ⲣⲓϩ̀ⲙⲟⲧ ⲛⲁⲛ ⲙ̀ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ.",
+                "arabic": "<span class='role'>الشعب:</span><br>بشفاعاتِ والدةِ الإلهِ القديسةِ مريم، يا ربُّ أَنعِمْ لنا بمغفرةِ خطايانا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "We worship You, O Christ, with Your good Father and the Holy Spirit, for You (have come) and saved us.",
+                "coptic": "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ Ⲉⲑⲟⲩⲁⲃ: ϫⲉ (ⲁⲕⲓ̀) ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ.",
+                "arabic": "نسجدُ لكَ أيها المسيحُ، مع أبيكَ الصالح، والروحِ القدسِ، لأنكَ (أتيتَ) وخلَّصتنا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "A mercy of peace, a sacrifice of praise.",
+                "coptic": "Ⲉ̀ⲗⲉⲟⲥ ⲓ̀ⲣⲏⲛⲏⲥ: ⲑⲩⲥⲓⲁ ⲉ̀ⲛⲉⲥⲉⲱⲥ.ⲓⲁ ⲉ̀ⲛⲉⲥⲉⲱⲥ.",
+                "arabic": "رحمةُ السلامِ، ذبيحةُ التسبيحِ."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

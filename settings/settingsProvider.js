@@ -4,7 +4,9 @@ import React, { useState, useEffect } from "react";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import SettingsContext from "./settingsContext";
 import { getSelectedDateProperties } from "../components/functions/copticDate";
-import { doxologyFunctionNames as defaultDoxologyFunctionNames } from "../data/doxologyTexts";
+import { saintSettingsList as defaultSaintSettings } from "./saintSettings";
+
+
 
 const defaultSettings = {
   fontSize: "3.5",
@@ -36,110 +38,148 @@ const defaultSettings = {
   dayTransitionTime: "18:00", // Default day transition time
   selectedDateProperties: null, // To be calculated
   developerMode: false, // Add developer mode to the settings
-  doxologyFunctionNames: defaultDoxologyFunctionNames,
+  saintSettings: defaultSaintSettings,
   orientation: "landscape", // Default orientation
 };
 
 const SettingsProvider = ({ children }) => {
   const [settings, setSettings] = useState(defaultSettings);
-  const currentVersion = 19; // Update this number when you want to change the settings
+  const currentVersion = 21; // Update this number when you want to change the settings
 
   // Load settings from AsyncStorage on initialization
   useEffect(() => {
-    AsyncStorage.getItem("settings").then((storedData) => {
-      if (storedData) {
-        const { version, settings } = JSON.parse(storedData);
+    AsyncStorage.getItem("settings")
+      .then((storedData) => {
+        if (storedData) {
+          const { version, settings } = JSON.parse(storedData);
+          const normalizeDate = (value) => {
+            const date = new Date(value);
+            return Number.isNaN(date.getTime()) ? new Date() : date;
+          };
 
-        if (version === currentVersion) {
-          // Convert the date string back to a Date object
-          if (settings.currentDate.type === "live") {
-            settings.currentDate.date = new Date(); // Update to today's date
-          } else if (typeof settings.currentDate.date === "string") {
-            settings.currentDate.date = new Date(settings.currentDate.date);
-          }
+          if (version === currentVersion) {
+            // Convert the date string back to a Date object
+            if (settings.currentDate.type === "live") {
+              settings.currentDate.date = new Date(); // Update to today's date
+            } else if (typeof settings.currentDate.date === "string") {
+              settings.currentDate.date = normalizeDate(settings.currentDate.date);
+            }
 
-          if (!settings.selectedDateProperties) {
-            const selectedDateProperties = getSelectedDateProperties(
-              settings.currentDate.date,
+            settings.selectedDateProperties = getSelectedDateProperties(
+              normalizeDate(settings.currentDate.date),
               settings.dayTransitionTime
             );
-            settings.selectedDateProperties = selectedDateProperties;
+
+            try {
+              settings.saintSettings = mergeSaintSettings(
+                settings.saintSettings,
+                defaultSaintSettings
+              );
+            } catch (err) {
+              console.warn("Failed to merge saint settings, using defaults", err);
+              settings.saintSettings = defaultSaintSettings;
+            }
+
+            setSettings(settings); // Use stored settings
+          } else {
+            // Preserve user settings if they exist, otherwise fall back to defaults
+            const storedDeveloperMode =
+              settings?.developerMode !== undefined
+                ? settings.developerMode
+                : false;
+            const storedDayTransitionTime =
+              settings?.dayTransitionTime !== undefined
+                ? settings.dayTransitionTime
+                : defaultSettings.dayTransitionTime;
+            const storedSaintSettings = settings?.saintSettings || [];
+
+            initializeDefaultSettings();
+
+            // Update the settings with the merged values and preserved user settings
+            setSettings((prevSettings) => ({
+              ...prevSettings,
+              saintSettings: (() => {
+                try {
+                  return mergeSaintSettings(
+                    storedSaintSettings,
+                    defaultSaintSettings
+                  );
+                } catch (err) {
+                  console.warn(
+                    "Failed to merge saint settings, using defaults",
+                    err
+                  );
+                  return defaultSaintSettings;
+                }
+              })(),
+              developerMode: storedDeveloperMode,
+              dayTransitionTime: storedDayTransitionTime,
+              selectedDateProperties: getSelectedDateProperties(
+                normalizeDate(settings?.currentDate?.date || new Date()),
+                storedDayTransitionTime
+              ),
+            }));
           }
-
-          // Merge new doxology entries while keeping user preferences
-          const mergedDoxologies = mergeDoxologyFunctionNames(
-            settings.doxologyFunctionNames, 
-            defaultDoxologyFunctionNames
-          );
-          
-
-          settings.doxologyFunctionNames = sortArrayByTemplate(mergedDoxologies , defaultDoxologyFunctionNames);
-
-          setSettings(settings); // Use stored settings
         } else {
-          // Preserve user settings if they exist, otherwise fall back to defaults
-          const storedDoxologySettings = 
-          version < 17 || settings?.doxologyFunctionNames === undefined
-            ? defaultDoxologyFunctionNames
-            : sortArrayByTemplate(settings.doxologyFunctionNames , defaultDoxologyFunctionNames);
-
-          const storedDeveloperMode =
-            settings?.developerMode !== undefined
-              ? settings.developerMode
-              : false;
-          const storedDayTransitionTime =
-            settings?.dayTransitionTime !== undefined
-              ? settings.dayTransitionTime
-              : defaultSettings.dayTransitionTime;
-
+          // No stored settings: initialize with default settings
           initializeDefaultSettings();
-
-          // Merge new doxology entries while keeping user preferences
-          const mergedDoxologies = mergeDoxologyFunctionNames(
-            storedDoxologySettings,
-            defaultDoxologyFunctionNames
-          );
-
-          // Update the settings with the merged values and preserved user settings
-          setSettings((prevSettings) => ({
-            ...prevSettings,
-            doxologyFunctionNames: mergedDoxologies,
-            developerMode: storedDeveloperMode,
-            dayTransitionTime: storedDayTransitionTime,
-          }));
         }
-      } else {
-        // No stored settings: initialize with default settings
-        initializeDefaultSettings();
-      }
-    }).catch(err => console.error("Error reading settings from AsyncStorage", err));
+      })
+      .catch((err) =>
+        console.error("Error reading settings from AsyncStorage", err)
+      );
   }, []);
 
-  const mergeDoxologyFunctionNames = (existingDoxologies, newDoxologies) => {
-    const merged = newDoxologies.map((newDoxology) => {
-      const existingDoxology = existingDoxologies.find(
-        (item) => item.name === newDoxology.name
-      );
-      return existingDoxology
-        ? { ...newDoxology, visible: existingDoxology.visible }
-        : newDoxology;
+  const mergeSaintSettings = (existingSaintSettings, newSaintSettings) => {
+    if (!Array.isArray(existingSaintSettings)) {
+      return newSaintSettings;
+    }
+
+    const existingSaintsMap = new Map(
+      existingSaintSettings.map((saint) => [saint.saintName, saint])
+    );
+
+    return newSaintSettings.map((defaultSaint) => {
+      const existingSaint = existingSaintsMap.get(defaultSaint.saintName);
+      if (!existingSaint) {
+        return defaultSaint;
+      }
+
+      return mergeSaintSettingEntry(defaultSaint, existingSaint);
     });
-    return merged;
   };
 
-  function sortArrayByTemplate(activeArray, templateArray) {
-    // Create a map of template elements to their indices
-    const templateIndexMap = new Map(templateArray.map((element, index) => [element, index]));
-  
-    // Sort the active array based on the indices from the template map
-    activeArray.sort((a, b) => {
-      const aIndex = templateIndexMap.get(a) ?? Infinity;
-      const bIndex = templateIndexMap.get(b) ?? Infinity;
-      return aIndex - bIndex;
+  const mergeSaintSettingEntry = (defaultSaint, existingSaint) => {
+    const mergedSaint = { ...defaultSaint };
+    const settingKeys = [
+      "verseOfCymbals",
+      "intercession",
+      "actsResponse",
+      "gospelResponse",
+      "distributionPraise",
+      "doxology",
+    ];
+
+    settingKeys.forEach((key) => {
+      if (typeof defaultSaint[key] !== "boolean") {
+        return;
+      }
+
+      const existingSetting = existingSaint?.[key];
+      const existingVisible =
+        typeof existingSetting === "boolean"
+          ? existingSetting
+          : existingSetting?.visible;
+
+      mergedSaint[key] =
+        typeof existingVisible === "boolean"
+          ? existingVisible
+          : defaultSaint[key];
     });
-  
-    return activeArray;
-  }
+
+    return mergedSaint;
+  };
+
   const initializeDefaultSettings = () => {
     const selectedDateProperties = getSelectedDateProperties(
       defaultSettings.currentDate.date,
@@ -167,7 +207,7 @@ const SettingsProvider = ({ children }) => {
   // Function to update the current date (either live or custom)
   const setCurrentDate = (date, type = "live") => {
     // new date in local time
-    const newDate = new Date(date); 
+    const newDate = new Date(date);
     const selectedDateProperties = getSelectedDateProperties(
       newDate,
       settings.dayTransitionTime
@@ -218,7 +258,27 @@ const SettingsProvider = ({ children }) => {
       orientation: newOrientation,
     }));
   };
-  
+
+  const setSaintSettingVisibility = (saintName, settingKey, visibility) => {
+    setSettings((prevSettings) => ({
+      ...prevSettings,
+      saintSettings: prevSettings.saintSettings.map((saint) => {
+        if (saint.saintName !== saintName) {
+          return saint;
+        }
+
+        if (typeof saint[settingKey] !== "boolean") {
+          return saint;
+        }
+
+        return {
+          ...saint,
+          [settingKey]: visibility,
+        };
+      }),
+    }));
+  };
+
   return (
     <SettingsContext.Provider
       value={[
@@ -229,6 +289,7 @@ const SettingsProvider = ({ children }) => {
         toggleDeveloperMode,
         setTextVisibility,
         setOrientation,
+        setSaintSettingVisibility,
       ]}
     >
       {children}

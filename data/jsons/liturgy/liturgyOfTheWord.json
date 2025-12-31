@@ -1,0 +1,499 @@
+[
+  {
+    "english_title": "Saved Amen",
+    "coptic_title": "Ⲥⲱⲑⲓⲥ ⲁ̀ⲙⲏⲛ",
+    "arabic_title": "خلصت حقا",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Saved. Amen. And with your spirit.",
+                "coptic": "Ⲥⲱⲑⲓⲥ ⲁ̀ⲙⲏⲛ: ⲕⲉ ⲧⲱ ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ ⲥⲟⲩ",
+                "arabic": "خلصت حقا ولروحك."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "Tay-shory",
+    "coptic_title": "Ⲧⲁⲓϣⲟⲩⲣⲏ",
+    "arabic_title": "تاي شوري",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "This is the censer of pure gold bearing the aroma, in the hands of Aaron the priest, offering up incense on the altar.",
+                "coptic": "Ⲧⲁⲓϣⲟⲩⲣⲏ ⲛ̀ⲛⲟⲩⲃ ⲛ̀ⲕⲁⲑⲁⲣⲟⲥ ⲉⲧϥⲁⲓ ϧⲁ ⲡⲓⲁ̀ⲣⲱⲙⲁⲧⲁ: ⲉⲧϧⲉⲛ ⲛⲉⲛϫⲓϫ ⲛ̀Ⲁ̀ⲁⲣⲱⲛ ⲡⲓⲟ̀ⲩⲏⲃ ⲉϥⲧⲁⲗⲉ ⲟⲩⲥ̀ⲑⲟⲓⲛⲟⲩϥⲓ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ϫⲉⲛ ⲡⲓⲙⲁ ⲛ̀ⲉ̀ⲣϣⲱⲟ̀ⲩϣⲓ. ",
+                "arabic": "هذه المجمرة الذهب النقي الحاملة العنبر التي في يدي هرون الكاهن يرفع بخوراً فوق المذبح."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<b>Coptic-English:</b><br/> Tay-shory ennob enka-tharos etfai kha pi-aro-mata, etkhen nen-jeeg en-A-aron pi-oweeb eftale oo-estoi-nofi e-epshoi ejen pima en-ersho-oshi."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "The golden censer (Tee-shory)",
+    "coptic_title": "Ϯϣⲟⲩⲣⲏ",
+    "arabic_title": "المجمرة الذهب (تي شوري)",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "The golden censer is the Virgin, her aroma is our Savior. She gave birth to Him; He saved us, and forgave us our sins.",
+                "coptic": "Ϯϣⲟⲩⲣⲏ ⲛ̀ⲛⲟⲩⲃ ⲧⲉ Ϯⲡⲁⲣⲑⲉⲛⲟⲥ: ⲡⲉⲥⲁ̀ⲣⲱⲙⲁⲧⲁ ⲡⲉ Ⲡⲉⲛⲥⲱⲧⲏⲣ. Ⲁⲥⲙⲓⲥⲓ ⲙ̀ⲙⲟϥ: ⲁϥⲥⲱϯ ⲙ̀ⲙⲟⲛ: ⲟⲩⲟϩ ⲁϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.",
+                "arabic": "المجمرة الذهب هي العذراء، وعنبرها هو مخلصنا. قد ولدته وخلصنا وغفر لنا خطايانا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<b>Coptic-English:</b><br/> Tee-shory ennob te ti-Parthenos, pes-aro-mata pe pen-Soteer, asmisi emmof, afsoti emmon, owoh ka nen-novi nan e-vol.<br/> <hr/><br/> Said on all fasting days including the weekends of the Lent, and weddings. Not said on the weekdays on Lent but instead, Entho te ti-shori is said."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "link": "intercessions"
+  },
+  {
+    "english_title": "We worship You O Christ",
+    "coptic_title": "Ⲧⲉⲛⲟⲩⲱϣⲧ",
+    "arabic_title": "نسجد لك ايها المسيح",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "row-class": "text",
+                "cells": [
+                  {
+                    "english": "We worship You O Christ, with Your good Father, and the Holy Spirit, for you have (risen / come) and saved us. Have mercy on us.",
+                    "coptic": "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲭ̅ⲥ̅: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ ⲡⲓⲠ̀ⲡⲛⲉⲩⲙⲁ ⲉ̅ⲑ̅ⲩ̅: ϫⲉ (ⲁⲕⲧⲱⲛⲕ / ⲁⲕⲓ̀) ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ ⲛⲁⲓ ⲛⲁⲛ.",
+                    "arabic": "نسجد لك ايها المسيح، مع أبيك الصالح والروح القدس، لأنك (قمت/اتيت) وخلصتنا. إرحمنا."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "Pi-ehmot Ghar",
+    "coptic_title": "Ⲡⲓϩ̀ⲙⲟⲧ ⲅⲁⲣ",
+    "arabic_title": "بي إهموت غار",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "The grace of our Lord Jesus Christ, be with your saintly spirit, my lord the honored father the high priest Papa Abba (Tawadros).",
+                "coptic": "Ⲡⲓϩ̀ⲙⲟⲧ ⲅⲁⲣ ⲙ̀ⲡⲉⲛⲟ̅ⲥ̅ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅: ⲉϥⲉ̀ϣⲱⲡⲓ ⲛⲉⲙ ⲡⲉⲕⲁ̀ⲅⲓⲟⲛ ⲡ̀ⲛⲉⲩⲙⲁ: ⲡⲁⲟ̅ⲥ̅ ⲛ̀ⲓⲱⲧ ⲉⲧⲧⲁⲓⲏⲟⲩⲧ ⲛ̀ⲁ̀ⲣⲭⲏⲉ̀ⲣⲉⲩⲥ ⲡⲁⲡⲁ ⲁⲃⲃⲁ Ⲑⲉⲟ̀ⲇⲟⲣⲟⲥ.",
+                "arabic": "نعمة ربنا يسوع المسيح تكون مع روحك الطاهرة، يا سيدي الأب المكرم رئيس الكهنة البابا أنبا تواضروس."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<b>If a Metropolitan is present:</b><br/> And our father the Metropolitan Abba (...).",
+                "coptic": "Ⲛⲉⲙ ⲡⲉⲛⲓⲱⲧ ⲙ̀ⲙⲏⲧⲣⲟⲡⲟⲗⲓⲧⲏⲥ ⲁⲃⲃⲁ (...).",
+                "arabic": "<b>في حضور مطران:</b><br/> وأبينا المطران الأنبا (...)."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<b>If a Bishop is present:</b><br/> And our father the Bishop Abba (...)",
+                "coptic": "Ⲛⲉⲙ ⲡⲉⲛⲓⲱⲧ ⲛ̀ⲉ̀ⲡⲓⲥⲕⲟⲡⲟⲥ ⲁⲃⲃⲁ (...).",
+                "arabic": "<b>في حضور أسقف:</b><br/> وأبينا الأسقف الأنبا (...)."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "May the clergy and all the people be safe in the Lord. Amen. So it shall be.",
+                "coptic": "Ⲙⲁⲣⲉ ⲡⲓⲕ̀ⲗⲏⲣⲟⲥ: ⲛⲉⲙ ⲡⲓⲗⲁⲟⲥ ⲧⲏⲣϥ: ⲟ̀ⲩϫⲁⲓ ϧⲉⲛ Ⲡⲟ̅ⲥ̅: ϫⲉ ⲁ̀ⲙⲏⲛ ⲉⲥⲉ̀ϣⲱⲡⲓ.",
+                "arabic": "فليكن الإكليروس وكل الشعب معافين في الرب. آمين يكون."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "Pi-ehmot Ghar - Great",
+    "coptic_title": "Ⲡⲓϩ̀ⲙⲟⲧ ⲅⲁⲣ ⲙ̀Ⲫ̀ⲛⲟⲩϯ",
+    "arabic_title": "بي إهموت غار الكبيرة",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "The grace of God, the Father, the Pantocrator,",
+                "coptic": "Ⲡⲓϩ̀ⲙⲟⲧ ⲅⲁⲣ ⲙ̀Ⲫ̀ⲛⲟⲩϯ Ⲫ̀ⲓⲱⲧ Ⲡⲓⲡⲁⲛⲧⲟⲕⲣⲁⲧⲱⲣ.",
+                "arabic": "نعمة الله الآب ضابط الكل."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "and the grace of His only-begotten Son, Jesus Christ our Lord,",
+                "coptic": "Ⲛⲉⲙ ϯⲭⲁⲣⲓⲥ ⲛ̀ⲧⲉ ⲡⲉϥⲙⲟⲛⲟⲅⲉⲛⲏⲥ ⲛ̀Ϣⲏⲣⲓ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲡⲉⲛϭⲟⲓⲥ.",
+                "arabic": "ونعمة إبنه الوحيد يسوع المسيح ربنا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "and the communion and gift of the Holy Spirit, the Paraclete,",
+                "coptic": "Ⲛⲉⲙ ϯⲕⲟⲓⲛⲱⲛⲓⲁ ⲛⲉⲙ ϯⲇⲱⲣⲉⲁ̀ ⲛ̀ⲧⲉ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ Ⲉⲑⲟⲩⲁⲃ ⲙ̀ⲡⲁⲣⲁⲕⲗⲏⲧⲟⲛ.",
+                "arabic": "وشركه وعطية الروح القدس المعزي."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "be upon the head of the blessed and honored father, the high priest, Pope Abba (Tawadros).",
+                "coptic": "Ⲉⲩⲉ̀ⲓ̀ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲉⲛ ⲧ̀ⲁ̀ⲫⲉ ⲙ̀ⲡⲓⲙⲁⲕⲁⲣⲓⲟⲥ ⲛ̀ⲓⲱⲧ ⲉⲧⲧⲁⲓⲏⲟⲩⲧ ⲛ̀ⲁⲣⲭⲏⲉ̀ⲣⲉⲩⲥ ⲡⲁⲡⲁ ⲁⲃⲃⲁ (Ⲑⲉⲟ̀ⲇⲟⲣⲟⲥ).",
+                "arabic": "تحل على رأس أبينا الطوباوي المكرم رئيس الكهنة البابا أنبا (تواضروس)."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "(and upon the head of our holy father the bishop (metropolitan) Abba (...)).",
+                "coptic": "(Ⲛⲉⲙ ⲉ̀ϫⲉⲛ ⲧ̀ⲁ̀ⲫⲉ ⲙ̀ⲡⲉⲛⲓⲱⲧ ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲉ̀ⲡⲓⲥⲕⲟⲡⲟⲥ (ⲙ̀ⲙⲏⲧⲣⲟⲡⲟⲗⲓⲧⲏⲥ) ⲁⲃⲃⲁ (...)).",
+                "arabic": "(وعلى رأس أبينا القديس الأسقف (المطران) أنبا (...).)"
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "May the God of heaven confirm him (them) on his (their) throne(s) for many years and peaceful times.",
+                "coptic": "Ⲫ̀ⲛⲟⲩϯ ⲛ̀ⲧⲉ ⲧ̀ⲫⲉ ⲉϥⲉ̀ⲧⲁϫⲣⲟϥ (ⲉϥⲉ̀ⲧⲁϫⲣⲟⲩ) ϩⲓϫⲉⲛ ⲡⲉϥⲑ̀ⲣⲟⲛⲟⲥ (ⲛⲟⲩⲑ̀ⲣⲟⲛⲟⲥ) ⲛ̀ϩⲁⲛⲙⲏϣ ⲛ̀ϭⲣⲟⲙⲡⲓ ⲛⲉⲙ ϩⲁⲛⲥⲏⲟⲩ ⲛ̀ϩⲓⲣⲏⲛⲓⲕⲟⲛ.",
+                "arabic": "إله السماء يثبته (يثبتهم) على كرسيه (كرسيَيْهما)، سنين كثيرة وأزمنة سلامية."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "May He subdue all his (their) enemies under his (their) feet speedily.",
+                "coptic": "Ⲛ̀ⲧⲉϥⲑⲉⲃⲓⲟ ⲛ̀ⲛⲉϥϫⲁϫⲓ (ⲛ̀ⲛⲟⲩϫⲁϫⲓ) ⲧⲏⲣⲟⲩ ⲥⲁⲡⲉⲥⲏⲧ ⲛ̀ⲛⲉϥϭⲁⲗⲁⲩϫ (ⲛ̀ⲛⲛⲟⲩϭⲁⲗⲁⲩϫ) ⲛ̀ⲭⲱⲗⲉⲙ.",
+                "arabic": "ويخضع جميع أعدائه (أعدائهم) تحت أقدامه (أقدامهم) سريعاً."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Pray to Christ on our behalf that He may forgive us our sins, in peace, according to His great mercy.",
+                "coptic": "Ⲧⲱⲃϩ ⲉ̀Ⲡⲭ̅ⲥ̅ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ: ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲟⲩϩⲓⲣⲏⲛⲏ ⲕⲁⲧⲁ ⲡⲉϥⲛⲓϣϯ ⲛ̀ⲛⲁⲓ.",
+                "arabic": "أطلب (أطلبا) من المسيح عنا ليغفر لنا خطايانا بسلام كعظيم رحمته."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "May the clergy and all the people be safe in the Lord. Amen, so it shall be.",
+                "coptic": "Ⲙⲁⲣⲉ ⲡⲓⲕ̀ⲗⲏⲣⲟⲥ: ⲛⲉⲙ ⲡⲓⲗⲁⲟⲥ ⲧⲏⲣϥ: ⲟⲩϫⲁⲓ ϧⲉⲛ Ⲡ̀ⲟ̅ⲥ̅. Ϫⲉ ⲁ̀ⲙⲏⲛ ⲉⲥⲉ̀ϣⲱⲡⲓ.",
+                "arabic": "فليكن الإكليروس وكل الشعب معافين في الرب. آمين يكون."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "<b>Coptic-English:</b><br/> Pi-ehmot ghar emifnoti Efiot Pi-pantocra-tor."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Nem ti-kharis ente pef-monogenees ensheri Esos Pikhrestos Pen-shois."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Nem ti-keno-neia nem ti-thore-a, ente Pipnevma Ethowab emparak-leton."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Eveio e-ehrei ejen et-ave emparak-leton, eniot etta-iot en-arshee erevs papa abba (Tawadros)."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "(Nem ejen et-afeh empeniout ethowab en-episkopos (emmet-ropolitees) avva (...))"
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Efnouti ente etfe ef-e-tagrof (ef-e-tagroo) hejen pef-ethronos (noo-ethronos), en-han-mesh en-roumpi nem han-seio enhe-re-nikon."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Entef-theveio ennef-gajee (enno-gajee) teero, saba-seat ennef-et-chalavg (enno-et-chalavg) en-eklom."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Tobh ep-shois e-ehrei egon entef-ka nen-novi nan evol, khen oo-herini kata pef-nishti ennai."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Mare pi-ekleros, nem pi-laos terf, ogai khen ep-shois je amen ese-shopi."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "link": "paulineReading"
+  },
+  {
+    "english_title": "The Catholic Response - Apitjeek Evol",
+    "coptic_title": "Ⲁ̀ ⲡⲉⲧϫⲏⲕ ⲉ̀ⲃⲟⲗ",
+    "arabic_title": "مرد الكاثوليكون - آ بيت جيك إيفول",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "O the full of blessing, the logos of His Father, Was incarnate as a perfect man.",
+                "coptic": "Ⲁ̀ ⲡⲉⲧϫⲏⲕ ⲉ̀ⲃⲟⲗ ⲛ̀ϫⲉ ⲡⲓⲥ̀ⲙⲟⲩ ⲧⲟⲩ Ⲗⲟⲅⲟⲩ Ⲡⲉϥⲓⲱⲧ: ⲓ̀ ⲁϥϭⲓⲥⲁⲣⲝ ϩⲱⲥ ⲣⲱⲙⲓ ⲛ̀ⲧⲉⲗⲓⲟⲥ.",
+                "arabic": "الكامل بركة أبيه الكلمة، أتى وتجسد كإنسان كامل."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Glory be to the Father and the Son and the Holy Spirit.",
+                "coptic": "Ⲇⲟⲝⲁ Ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩ̀ⲓⲱ ⲕⲉ Ⲁ̀ⲅⲓⲱ Ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ.",
+                "arabic": "المجد للآب والإبن والروح القدس."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "O You who was slain and was seen, O You who was slain be with us, O You who was slain and raised on the Cross.",
+                "coptic": "Ⲁ̀ ⲡⲉⲧϧⲉⲗϧⲱⲗϥ ⲛⲁⲩ ⲉ̀ⲣⲟϥ: ⲁ̀ ⲡⲉⲧϧⲉⲗϧⲱⲗϥ ϣⲟⲡ ⲛⲉⲙⲱⲧⲉⲛ: ⲁ̀ ⲡⲉⲧϧⲉⲗϧⲱⲗϥ ⲁϣϥ ϩⲓϫⲉⲛ ⲡⲓⲥ̀ⲧⲁⲩⲣⲟⲥ.",
+                "arabic": "المذبوح نظروه، المذبوح الكائن معكم، المذبوح مُعَلق على الصليب."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Now and ever and unto the age of all ages. Amen.",
+                "coptic": "Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ⲓ̀ ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ. Ⲁ̀ⲙⲏⲛ.",
+                "arabic": "الآن وكل أوان وإلى دهر الدهور. آمين."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "This is the rational, this is the upright, worship is to the one Christ.",
+                "coptic": "Ⲑⲁⲓ ⲧⲉ ϯⲛⲟⲩ ⲉ̀ⲧⲉ: ⲑⲁⲓ ⲧⲉ ϯⲥⲉⲃⲏⲣⲟⲥ: ϯⲡ̀ⲣⲟⲥⲕⲩⲛⲓⲥⲏⲥ ⲧⲱ ⲙⲟⲛⲱ Ⲭ̀ⲣⲓⲥⲧⲟⲥ.",
+                "arabic": "هذه العقلية، هذه الأعجوبة، السجود للمسيح الواحد."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "(The blessing of the holy Trinity)<sup>2</sup>, the Father and the Son and the Holy Spirit.",
+                "coptic": "(Ⲉ̀ⲣⲉ ⲡⲓⲥ̀ⲙⲟⲩ ⲛ̀Ϯⲧ̀ⲣⲓⲁⲥ ⲉ̅ⲑ̅ⲩ̅)ⲃ̅: Ⲫ̀ⲓⲱⲧ ⲛⲉⲙ Ⲡ̀ϣⲏⲣⲓ ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉ̅ⲑ̅ⲩ̅.",
+                "arabic": "(بركة الثالوث الاقدس)2، الآب والإبن والروح القدس."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "(The blessing of Theotokos)<sup>2</sup>, Mary the Mother of Jesus Christ.",
+                "coptic": "(Ⲉ̀ⲣⲉ ⲡⲓⲥ̀ⲙⲟⲩ ⲛ̀Ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ)ⲃ̅: Ⲙⲁⲣⲓⲁ Ⲑ̀ⲙⲁⲩ ⲛ̀Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅.",
+                "arabic": "(بركة والدة الإله)2، مريم أم يسوع المسيح."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "(The blessing of our patriarch)<sup>2</sup>, the honored father, the high priest, Pope Abba (...).*",
+                "coptic": "(Ⲉ̀ⲣⲉ ⲡⲓⲥ̀ⲙⲟⲩ ⲙ̀ⲡⲉⲛⲡⲁⲧⲣⲓⲁⲣⲭⲏⲥ)ⲃ̅: ⲛ̀ⲓⲱⲧ ⲉⲧⲧⲁⲓⲏⲟⲧ ⲛ̀ⲁⲣⲭⲏⲉ̀ⲣⲉⲩⲥ ⲡⲁⲡⲁ ⲁⲃⲃⲁ (...).*",
+                "arabic": "(بركة بطريركنا)2، الآب المكرم رئيس الكهنة البابا أنبا (...)."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Be upon all the people. Amen. So be it.",
+                "coptic": "Ⲉⲩⲓ̀ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲉⲛ ⲡⲁⲓⲗⲁⲟⲥ ⲧⲏⲣϥ: ϫⲉ ⲁ̀ⲙⲏⲛ ⲉⲥⲉ̀ϣⲱⲡⲓ.",
+                "arabic": "تحل علي هذا الشعب كله أمين يكون."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "The catholic epistle, the catholic epistle.<br/> <hr/>",
+                "coptic": "Ⲕⲁⲑⲟⲗⲓⲕⲟⲛ: ⲕⲁⲑⲟⲗⲓⲕⲟⲛ.",
+                "arabic": "الكاثوليكون الكاثوليكون."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "* The blessing of our metropolitan, the honored father Abba (...).",
+                "coptic": "* Ⲉ̀ⲣⲉ ⲡⲓⲥ̀ⲙⲟⲩ ⲙ̀ⲡⲉⲛⲙⲏⲧⲣⲟⲡⲟⲗⲓⲧⲏⲥ: ⲛ̀ⲓⲱⲧ ⲉⲧⲧⲁⲓⲏⲟⲧ ⲁⲃⲃⲁ (...)."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "* The blessing of our bishop, the honored father Abba (...).",
+                "coptic": "* Ⲉ̀ⲣⲉ ⲡⲓⲥ̀ⲙⲟⲩ ⲙ̀ⲡⲉⲛⲉ̀ⲡⲓⲥⲕⲟⲡⲟⲥ: ⲛ̀ⲓⲱⲧ ⲉⲧⲧⲁⲓⲏⲟⲧ ⲁⲃⲃⲁ (...)."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "link": "catholicReading"
+  },
+  {
+    "link": "actsResponse"
+  },
+  {
+    "link": "processionHymns"
+  },
+  {
+    "link": "preAgiosParalaxes"
+  },
+  {
+    "link": "paralaxes"
+  },
+  {
+    "link": "agios"
+  },
+  {
+    "litany": "gospelLitany"
+  },
+  {
+    "link": "psalmResponse"
+  },
+  {
+    "link": "psalmAndGospelReadings"
+  },
+  {
+    "link": "gospelResponse"
+  },
+  {
+    "litany": "The 3 Long Litanies"
+  }
+]

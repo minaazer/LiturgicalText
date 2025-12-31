@@ -1,0 +1,652 @@
+[
+  {
+    "english_title": "Gospel Response",
+    "coptic_title": "",
+    "arabic_title": "مرد الإنجيل",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "services": [
+              "liturgy"
+            ],
+            "seasons": [
+              "Feast of the Theophany"
+            ],
+            "cells": [
+              {
+                "english": "This is the Lamb of God, who carries the sin of the world, who brought a horn of salvation, in order to save His people.",
+                "coptic": "Ⲫⲁⲓ ⲡⲉ Ⲡⲓϩⲓⲏⲃ ⲛ̀ⲧⲉ Ⲫ̀ⲛⲟⲩϯ: ⲫⲏⲉⲧⲱ̀ⲗⲓ ⲙ̀ⲫ̀ⲛⲟⲃⲓ ⲙ̀ⲡⲓⲕⲟⲥⲙⲟⲥ: ⲫⲏⲉ̀ⲧⲁϥⲓⲛⲓ ⲛ̀ⲟⲩⲧⲁⲡ ⲛ̀ⲥⲱϯ: ⲉⲑⲣⲉϥⲛⲟϩⲉⲙ ⲙ̀ⲡⲉϥⲗⲁⲟⲥ.",
+                "arabic": "هذا هو حمل الله، حامل خطية العالم، الذي جاء بقرن خلاص، ليخلص شعبه."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "services": [
+              "Matins",
+              "Vespers"
+            ],
+            "seasons": [
+              "Feast of the Theophany",
+              "2nd Day of Theophany"
+            ],
+            "cells": [
+              {
+                "english": "Rejoice like the lambs, O Jordon and its shores, for unto you came the Lamb, who carries the sin of the world.",
+                "coptic": "Ⲑⲉⲗⲏⲗ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ϩⲁⲛϩⲓⲏⲃ: ⲱ̀ Ⲡⲓⲓⲟⲣⲇⲁⲛⲏⲥ ⲛⲉⲙ ⲡⲉϥⲇ̀ⲣⲓⲙⲟⲥ: ϫⲉ ⲁϥⲓ̀ ϣⲁⲣⲟⲕ ⲛ̀ϫⲉ Ⲡⲓϩⲓⲏⲃ: ⲫⲏⲉⲧⲱ̀ⲗⲓ ⲙ̀ⲫ̀ⲛⲟⲃⲓ ⲙ̀ⲡⲓⲕⲟⲥⲙⲟⲥ.",
+                "arabic": "تهلل مثل الحملان، أيها الأردن وبريته، فقد أتى إليك الحمل، حامل خطية العالم."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Theophany",
+              "2nd Day of Theophany"
+            ],
+            "cells": [
+              {
+                "english": "Alleluia (4), Jesus Christ the Son of God, was baptized in the Jordan.",
+                "coptic": "Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ ⲁ̅ⲗ̅ ⲁ̅ⲗ̅ ⲁ̅ⲗ̅: Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫ̀ⲛⲟⲩϯ: ⲁϥϭⲓⲱⲙⲥ ϧⲉⲛ Ⲡⲓⲓⲟⲣⲇⲁⲛⲏⲥ.",
+                "arabic": "هلليلويا (4)، يسوع المسيح إبن الله، إعتمد في الأردن."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Joyful 29th of the Month"
+            ],
+            "cells": [
+              {
+                "english": "Alleluia (4), Jesus Christ the Son of God is incarnate of the Virgin, is born of the Virgin in Bethlehem of Judea, is risen from the dead on the third day.",
+                "coptic": "Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ (ⲇ̅): Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫϯ : ⲁϥϭⲓⲥⲁⲣⲝ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ϯⲡⲁⲣⲑⲉⲛⲟⲥ ⲟⲩⲟϩ ⲁⲩⲙⲁⲥϥ ϧⲉⲛ Ⲃⲏⲉⲑⲗⲉⲉⲙ ⲕⲁⲧⲁ ⲛⲓⲥ̀ⲙⲏ ⲙ̀ⲡ̀ⲣⲟⲫⲏⲧⲓⲕⲟⲛ : ⲁϥⲧⲱⲛϥ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ ϧⲉⲛ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲙ̀ⲙⲁϩ ϣⲟⲙⲧ.",
+                "arabic": "هلليلويا (4)، يسوع المسيح إبن الله تجسد من العذراء، وُلد من العذراء في بيت لحم اليهودية، وقام من بين الأموات في اليوم الثالث."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Annunciation"
+            ],
+            "service": [
+              "liturgy"
+            ],
+            "cells": [
+              {
+                "english": "Gabriel came to you: O virgin Mary: With birth of the eternal Logos, he preached you: And the Son dwelt in you fully.",
+                "arabic": "غبريال جاء إليك: ايتها العذراء مريم: وبميلاد الكلمة الأزلي، بشرَك: حيث حل فيك الإبن بتمام."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Annunciation"
+            ],
+            "cells": [
+              {
+                "english": "Alleluia (4), Jesus Christ the Son of God, is incarnate from the Virgin.",
+                "coptic": "Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ (ⲇ̅): Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫ̀ⲛⲟⲩϯ: ⲁϥϭⲓⲥⲁⲣⲝ ⲉ̀ⲃⲟⲗ ϧⲉⲛ Ϯⲡⲁⲣⲑⲉⲛⲟⲥ.",
+                "arabic": "هلليلويا (4)، يسوع المسيح إبن الله، تجسد من العذراء."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Nativity"
+            ],
+            "service": [
+              "vespers",
+              "matins"
+            ],
+            "cells": [
+              {
+                "english": "For the Incorporeal was incarnate, and the Word became flesh, the One without beginning began, the Eternal came under time.",
+                "coptic": "Ϫⲉ Ⲡⲓⲁⲧⲥⲁⲣⲝ ⲁϥϭⲓⲥⲁⲣⲝ: ⲟⲩⲟϩ Ⲡⲓⲗⲟⲅⲟⲥ ⲁϥϧ̀ⲑⲁⲓ: Ⲡⲓⲁⲧⲁⲣⲭⲏ ⲁϥⲉⲣϩⲏⲧⲥ: Ⲡⲓⲁⲧⲥⲏⲟⲩ ⲁϥϣⲱⲡⲓ ϧⲁ ⲟⲩⲭ̀ⲣⲟⲛⲟⲥ.",
+                "arabic": "لأن غير المُتجسد تجسَّد، والكلمة تجسَّم، غير المبتدئ إبتدأ، وغير الزمني صار تحت الزمن."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Nativity"
+            ],
+            "services": [
+              "liturgy"
+            ],
+            "cells": [
+              {
+                "english": "A star appeared in the East, and the wise men followed it, until it let them to Bethlehem, and they worshiped the King of ages.",
+                "coptic": "Ⲟⲩⲥⲓⲟⲩ ⲁϥϣⲁⲓ ϧⲉⲛ ⲛⲓⲙⲁⲛϣⲁⲓ: ⲁ̀ⲛⲓⲙⲁⲅⲟⲥ ⲙⲟϣⲓ ⲛ̀ⲥⲱϥ: ϣⲁⲛ̀ⲧⲉϥⲉ̀ⲛⲟⲩ ⲉ̀Ⲃⲏⲑⲗⲉⲉⲙ: ⲁⲩⲟ̀ⲩⲱ̀ϣⲧ ⲙ̀ⲡ̀Ⲟⲩⲣⲟ ⲛ̀ⲛⲓⲉ̀ⲱ̀ⲛ.",
+                "arabic": "نجم اشرق في المشارق، المجوس تبعوه، حتي ادخلهم بيت لحم، وسجدوا لملك الدهور."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Nativity"
+            ],
+            "services": [
+              "liturgy"
+            ],
+            "cells": [
+              {
+                "english": "The Lord of glory was called a Son, according to the words of John before he saw Him, the Eternal Word became flesh, and dwelt in us and we saw Him.",
+                "coptic": "Ⲡⲟ̅ⲥ̅ ⲙ̀ⲡ̀ⲱⲟ̀ⲩ ⲁ̀ⲩⲙⲟϯ ⲉ̀ⲣⲟϥ ⲛ̀ⲟ̀Ϣ̀ⲏⲣⲓ : ⲕⲁⲧⲁ ⲡ̀ⲥⲁϫⲓ ⲙ̀ⲡⲉⲧⲉ Ⲓⲱⲁⲛⲛⲏⲥ ⲛⲁⲩ ⲉ̀ⲣⲟϥ: ⲡⲓⲖⲟⲅⲟⲥ ⲉ̀ⲡⲓⲉ̀ⲱ̀ⲛⲓⲟⲛ ⲁϥϭⲓⲥⲁⲣⲝ: ⲁ̀ϥⲓ ⲛ̀ϧ̀ⲣⲏⲓ ⲛ̀ϧⲏⲧⲉⲛ ⲉ̀ⲛⲛⲁⲩ ⲉ̀ⲣⲟϥ.",
+                "arabic": "رب المجد دعى ولداً، كقول يوحنا قبل أن يراه، الكلمة الأزلى صار جسداً، وحل فينا ورأيناه."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Nativity"
+            ],
+            "cells": [
+              {
+                "english": "Alleluia (4), Jesus Christ the Son of God, was born in Bethlehem.",
+                "coptic": "Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ (ⲇ̅): Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ ⲡ̀Ϣⲏⲣⲓ ⲙ̀Ⲫϯ: ⲫⲏⲉ̀ⲧⲁⲩⲙⲁⲥϥ ϧⲉⲛ Ⲃⲏⲑⲗⲉⲉⲙ.",
+                "arabic": "هلليلويا (4)، يسوع المسيح ابن الله، ولد في بيت لحم."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Hosanna Sunday"
+            ],
+            "services": [
+              "vespers"
+            ],
+            "cells": [
+              {
+                "english": "Hail to Lazarus whom He raised, after four days, raise my heart O my Lord Jesus, that was killed by the evil one.",
+                "coptic": "Ⲭⲉⲣⲉ Ⲗⲁⲍⲁⲣⲟⲥ ⲫⲏⲉ̀ⲧⲁϥⲧⲟⲩⲛⲟⲥϥ: ⲙⲉⲛⲉⲛⲥⲁ ϥ̀ⲧⲟⲟⲩ ⲛ̀ⲉ̀ϩⲟⲟⲩ: ⲙⲁⲧⲟⲩⲛⲟⲥ ⲡⲁϩⲏⲧ Ⲡⲁϭⲟⲓⲥ Ⲓⲏⲥⲟⲩⲥ: ⲫⲏⲉ̀ⲧⲁϥϧⲟⲑⲃⲉϥ ⲛ̀ϫⲉ ⲡⲓⲡⲉⲧϩⲱⲟⲩ.",
+                "arabic": "السلام للعازر الذي أقامه، بعد أربعة أيام، أقم قلبي يا ربي يسوع، الذي قتله الشرير."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Hosanna Sunday"
+            ],
+            "services": [
+              "matins"
+            ],
+            "cells": [
+              {
+                "english": "Zacchaeus said to his Lord, “The half of my goods, I will give O Master, to the poor with care.”",
+                "coptic": "Ⲧ̀ⲫⲁϣⲓ ⲛ̀ⲛⲓϩⲩⲡⲁⲣⲭⲱⲛⲧⲁ: ⲡⲉϫⲉ Ⲍⲁⲕⲕⲉⲟⲥ ⲙ̀Ⲡⲉϥϭⲟⲓⲥ: ϯⲛⲁⲧⲏⲓϥ ⲱ̀ Ⲇⲉⲥⲡⲟⲧⲁ: ⲛ̀ⲛⲓϩⲏⲕⲓ ϧⲉⲛ ϣ̀ⲣⲱⲓⲥ.",
+                "arabic": "فقال زكا لربه، \"نصف أموالي، أعطيها يا سيدي، للمساكين بحرص.\""
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Hosanna Sunday"
+            ],
+            "services": [
+              "matins"
+            ],
+            "cells": [
+              {
+                "english": "The Lord God of powers said, “Behold salvation has come unto you today, for you are also, a son of Abraham.”",
+                "coptic": "Ⲓⲥ ⲡⲓⲟⲩϫⲁⲓ ⲁϥϣⲱⲡⲓ ⲛⲁⲕ: ⲡⲉ ϫⲉ Ⲡ̀ϭⲟⲓⲥ Ⲫ̀ⲛⲟⲩϯ ⲛ̀ⲧⲉ ⲛⲓϫⲟⲙ: ⲙ̀ⲫⲟⲟⲩ ⲅⲁⲣ ϫⲉ ⲛ̀ⲑⲟⲕ ϩⲱⲕ: ⲟⲩϣⲏⲣⲓ ⲛ̀ⲧⲉ Ⲁⲃⲣⲁⲁⲙ.",
+                "arabic": "أجاب الرب إله القوات، \"هوذا الخلاص قد وجب لك اليوم، لأنك أنت أيضاً، إبن إبراهيم.\""
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Resurrection",
+              "Holy 50 Days - Before Ascension"
+            ],
+            "service": [
+              "vespers",
+              "matins"
+            ],
+            "cells": [
+              {
+                "english": "Holy O Lord and blessed, You suffered and were not provoked, You rose from the dead, on the third day.",
+                "coptic": "Ⲭ̀ⲟⲩⲁⲃ Ⲡ̀ϭⲟⲓⲥ ⲟⲩⲟϩ ⲕ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ: ⲁⲕϭⲓⲙ̀ⲕⲁϩ ⲟⲩⲟϩ ⲙ̀ⲡⲉⲕϫⲱⲛⲧ: ⲁⲕⲧⲱⲛⲕ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ: ϧⲉⲛ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲙ̀ⲙⲁϩϣⲟⲙⲧ.",
+                "arabic": "قدوسٌ أنت يا رب ومباركٌ، لأنك تألَّمتَ ولم تغضب، وقُمتَ من بين الأموات، في اليوم الثالث."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Resurrection",
+              "Holy 50 Days - Before Ascension"
+            ],
+            "service": [
+              "liturgy"
+            ],
+            "cells": [
+              {
+                "english": "Moreover He was placed in the tomb, according to the prophetic voices, on the third day, Christ rose from the dead.",
+                "coptic": "Ⲗⲟⲓⲡⲟⲛ ⲁⲩⲭⲁϥ ϧⲉⲛ ⲡⲓⲙ̀ϩⲁⲩ: ⲕⲁⲧⲁ ⲛⲓⲥ̀ⲙⲏ ⲙ̀ⲡ̀ⲣⲟⲫⲏⲧⲓⲕⲟⲛ: ϧⲉⲛ ⲡⲓⲙⲁϩϣⲟⲙⲧ ⲛ̀ⲉ̀ϩⲟⲟⲩ: Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ ⲁ̀ⲛⲉⲥⲧⲏ ⲉⲕ ⲛⲉⲕⲣⲱⲛ.",
+                "arabic": "وأيضاً وُضع في القبر، حسب الأصوات النبوية، وفي اليوم الثالث، المسيح قام من بين الأموات."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Resurrection",
+              "Holy 50 Days - Before Ascension"
+            ],
+            "cells": [
+              {
+                "english": "Alleluia (4), Jesus Christ the King of glory, is risen from the dead.",
+                "coptic": "Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ (ⲇ̅): Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ Ⲡ̀ⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲡ̀ⲱ̀ⲟⲩ: ⲁϥⲧⲱⲛϥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ.",
+                "arabic": "هلليلويا (4)، يسوع المسيح ملك المجد، قام من بين الأموات."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Ascension",
+              "Holy 50 Days - After Ascension"
+            ],
+            "cells": [
+              {
+                "english": "Sing to the Lord a new song, speak of His glory and wonders, Christ is risen from the dead, and ascended into the heavens.",
+                "coptic": "Ϩⲱⲥ Ⲡ̀ϭⲟⲓⲥ ϧⲉⲛ ⲟⲩϩⲱⲥ ⲙ̀ⲃⲉⲣⲓ: ⲥⲁϫⲓ ⲙ̀ⲡⲉϥⲱ̀ⲟⲩ ⲛⲉⲙ ⲛⲉϥϣ̀ⲫⲏⲣⲓ: Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ ⲁϥⲧⲱⲛϥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ: ⲟⲩⲟϩ ⲁϥϣⲉⲛⲁϥ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ⲛⲓⲫⲏⲟⲩⲓ̀.",
+                "arabic": "سبحوا الرب تسبيحاً جديداً، تحدثوا بمجده وعجائبه، المسيح قام من بين الأموات، وصعد إلى السموات."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Ascension",
+              "Holy 50 Days - After Ascension"
+            ],
+            "cells": [
+              {
+                "english": "The Lord came to Bethany, with His holy Disciples, He raised His hands and blessed them, and ascended into the heavens.",
+                "coptic": "Ⲁϥⲓ̀ ⲛ̀ϫⲉ Ⲡ̀ϭⲟⲓⲥ ϣⲁ Ⲃⲏⲑⲁ̀ⲛⲓⲁ: ⲛⲉⲙ ⲛⲓⲙⲁⲑⲏⲧⲏⲥ ⲉⲑⲟⲩⲁⲃ: ⲁϥϥⲁⲓ ⲛ̀ⲛⲉϥϫⲓϫ ⲁϥⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲱⲟⲩ: ⲟⲩⲟϩ ⲁϥϣⲉⲛⲁϥ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ⲛⲓⲫⲏⲟⲩⲓ̀.",
+                "arabic": "أتى الرب إلى بيت عنيا، مع تلاميذه القديسين، ورفع يده وباركهم، وصعد إلى السموات."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Ascension",
+              "Holy 50 Days - After Ascension"
+            ],
+            "cells": [
+              {
+                "english": "Alleluia (4), Christ has risen from the dead, and ascended into the heavens.",
+                "coptic": "Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ (ⲇ̅): Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ ⲁϥⲧⲱⲛϥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ: ⲟⲩⲟϩ ⲁϥϣⲉⲛⲁϥ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ⲛⲓⲫⲏⲟⲩⲓ̀",
+                "arabic": "هلليلويا (4)، المسيح قام من بين الأموات، وصعد إلى السموات."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "season": "Feast of Pentecost",
+            "service": [
+              "liturgy"
+            ],
+            "cells": [
+              {
+                "english": "The Spirit of Comfort, came down upon the Apostles, on the feast of Pentecost, and they spoke in many tongues.",
+                "coptic": "Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲙ̀ⲡⲁⲣⲁⲕⲗⲏⲧⲟⲛ: ⲉ̀ⲧⲁϥⲓ̀ ⲉ̀ϫⲉⲛ ⲛⲓⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ: ϧⲉⲛ ⲡ̀ϣⲁⲓ ⲛ̀Ϯⲡⲉⲛⲧⲏⲕⲟⲥⲧⲏ: ⲁⲩⲥⲁϫⲓ ϧⲉⲛ ϩⲁⲛⲙⲏϣ ⲛ̀ⲗⲁⲥ.",
+                "arabic": "الروح المعزي، حلَّ على الرسل، في عيد البنطيقسطي، فتكلَّموا بألسنة كثيرة."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of Pentecost"
+            ],
+            "cells": [
+              {
+                "english": "Alleluia (4), Christ is risen and ascended, and sent us the Paraclete.",
+                "coptic": "Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ (ⲇ̅): Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ ⲁϥⲧⲱⲛϥ ⲟⲩⲟϩ ⲁϥϣⲉⲛⲁϥ: ⲁϥⲟⲩⲱⲣⲡ ⲛⲁⲛ ⲙ̀Ⲡⲓⲡⲁⲣⲁⲕⲗⲏⲧⲟⲛ.",
+                "arabic": "هلليلويا (4)، المسيح قام ثم صعد، وأرسل لنا البارقليط."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Circumcision"
+            ],
+            "cells": [
+              {
+                "english": "Alleluia (4), Jesus Christ, the Son of God, accepted unto Himself circumcision.",
+                "coptic": "Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ (ⲇ̅): Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ ⲡ̀Ϣⲏⲣⲓ ⲙ̀Ⲫϯ: ⲁϥϣⲱⲟⲡ ⲉ̀ⲣⲟϥ ⲙ̀ⲡⲓⲥⲉⲃⲓ.",
+                "arabic": "هلليلويا (4)، يسو ع المسيح ابن الله قبل إليه الختان كما ينبغي بالناموس."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "season": "Presentation of the Lord Christ in the Temple",
+            "service": [
+              "liturgy"
+            ],
+            "cells": [
+              {
+                "english": "You were carried in the arms of Your servant Simeon: In Your grasp, are death and life: Simeon called 'Let me depart according to Your Word: In peace', he was released from the bonds of life.",
+                "arabic": "حُملت على ذراعي سمعان عبدك: والحياة والموت في قبضة يديدك: ناداك سمعان 'اطلقني كوعدك: بسلام'، فإنحل من رباط الحياة."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Presentation of the Lord Christ in the Temple"
+            ],
+            "cells": [
+              {
+                "english": "Alleluia (4), Jesus Christ, the Son of God, entered into the temple.",
+                "coptic": "Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ (ⲇ̅): Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ ⲡ̀Ϣⲏⲣⲓ ⲙ̀Ⲫ̀ϯ: ⲁϥϣⲉ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲡⲓⲉⲣⲫⲉⲓ.",
+                "arabic": "هلليلويا (4)، يسوع المسيح ابن الله دخل الى الهيكل."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Entrance of the Lord Christ into the Land of Egypt"
+            ],
+            "service": [
+              "vespers"
+            ],
+            "cells": [
+              {
+                "english": "Joseph took the Virgin, with the Child and Salome, and entered Egypt, because of Herod's commands.",
+                "coptic": "Ⲓⲱⲥⲏⲫ ⲁϥϭⲓ ⲛ̀Ϯⲡⲁⲣⲑⲉⲛⲟⲥ: ⲛⲉⲙ Ⲡⲓⲁ̀ⲗⲟⲩ ⲛⲉⲙ Ⲥⲁⲗⲱⲙⲓ: ⲁϥϣⲉ ⲛⲱⲟⲩ ⲉ̀ⲧ̀ⲭⲱⲣⲁ ⲛ̀Ⲭⲏⲙⲓ: ⲉⲑⲃⲉ ⲛⲓϯϩⲟ ⲛ̀Ⲏ̀ⲣⲱⲇⲏⲥ.",
+                "arabic": "يوسف أخذ العذراء، والصبي وسالومى، ودخل كورة مصر، من أجل أوامر هيرودس."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Entrance of the Lord Christ into the Land of Egypt"
+            ],
+            "service": [
+              "liturgy"
+            ],
+            "cells": [
+              {
+                "english": "When He was born in Bethlehem / according to the voices of the prophets, / He rescued and saved us / for we are Your people.",
+                "coptic": "Ⲉ̀ⲧⲁⲩⲙⲁⲥϥ ϧⲉⲛ Ⲃⲏⲑⲗⲉⲉⲙ: ⲕⲁⲧⲁ ⲛⲓⲥ̀ⲙⲏ ⲛ̀ⲧⲉ ⲛⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲁϥⲧⲟⲩϫⲟⲛ ⲁϥⲥⲱϯ ⲙ̀ⲙⲟⲛ: ϫⲉ ⲁ̀ⲛⲟⲛ ⲡⲉ ⲡⲉϥⲗⲁⲟⲥ.",
+                "arabic": "يا الذي وُلد في بيت لحم، حسب أقوال الأنبياء، أنقذنا وخلِّصنا، لأننا نحن شعبك."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Entrance of the Lord Christ into the Land of Egypt"
+            ],
+            "service": [
+              "liturgy"
+            ],
+            "cells": [
+              {
+                "english": "Behold an angel / said to Joseph: / “Listen and take Jesus Christ, / and depart to Egypt.”",
+                "coptic": "Ⲏⲡⲡⲉ ⲓⲥ ⲟⲩⲁⲅⲅⲉⲗⲟⲥ: ⲁϥϫⲟⲥ ⲛ̀Ⲓⲱⲥⲏⲫ: ϫⲉ ⲥⲱⲧⲉⲙ ϭⲓ ⲛ̀Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲙⲁϣⲉⲛⲁⲕ ϣⲁ Ⲭⲏⲙⲓ.",
+                "arabic": "ها ملاك يقول، ليوسف أن يسمع، ويمضي بيسوع المسيح، إلى مصر."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Entrance of the Lord Christ into the Land of Egypt"
+            ],
+            "service": [
+              "liturgy"
+            ],
+            "cells": [
+              {
+                "english": "O You who saved His people / in the beginning in the land of Egypt, / save us O my Lord Jesus / from our ignorance.",
+                "coptic": "Ⲱ̀ ⲫⲏⲉ̀ⲧⲁϥⲛⲟϩⲉⲙ ⲙ̀ⲡⲉϥⲗⲁⲟⲥ: ⲛ̀ϣⲱⲣⲡ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡ̀ⲕⲁϩⲓ ⲛ̀Ⲭⲏⲙⲓ: ⲛⲟϩⲉⲙ ⲙ̀ⲙⲟⲛ Ⲡⲁϭⲟⲓⲥ Ⲓⲏⲥⲟⲩⲥ: ⲉ̀ⲃⲟⲗ ϩⲁ ⲧⲉⲛⲙⲉⲧⲁⲧⲉ̀ⲙⲓ.",
+                "arabic": "يا الذي خلَّص شعبه، مبتدئاً من أرض مصر، خلِّصنا يا ربي يسوع، من عدم معرفتنا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Entrance of the Lord Christ into the Land of Egypt"
+            ],
+            "service": [
+              "liturgy"
+            ],
+            "cells": [
+              {
+                "english": "Behold an angel of the Lord / appeared to Joseph and said, / \"Take the Child and His Mother / and flee to Egypt.\"",
+                "coptic": "Ⲓⲥ ⲟⲩⲁⲅⲅⲉⲗⲟⲥ ⲛ̀ⲧⲉ Ⲡ̀ϭⲟⲓⲥ: ⲁϥⲟⲩⲱⲛϩϥ ⲉ̀Ⲓⲱⲥⲏⲫ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ: ϫⲉ ⲧⲱⲛⲕ ϭⲓ ⲙ̀Ⲡⲓⲁ̀ⲗⲟⲩ ⲛⲉⲙ Ⲧⲉϥⲙⲁⲩ: ⲟⲩⲟϩ ⲫⲱⲧ ⲉ̀ϧ̀ⲣⲏⲓ ⲛ̀Ⲭⲏⲙⲓ.<br/>",
+                "arabic": "ها ملاك الرب، ظهر ليوسف قائلاً، \"خذ الصبي وأمه، وأهرب إلى مصر.\""
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Entrance of the Lord Christ into the Land of Egypt"
+            ],
+            "cells": [
+              {
+                "english": "Alleluia (4), Jesus Christ the Son of God, came to the land of Egypt.",
+                "coptic": "Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ (ⲇ̅): Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫ̀ⲛⲟⲩϯ: ⲁϥⲓ̀ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲡ̀ⲕⲁϩⲓ ⲛ̀Ⲭⲏⲙⲓ.",
+                "arabic": "هلليلويا (4)، يسوع المسيح إبن الله، دخل إلي أرض مصر."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Wedding at Cana of Galilee"
+            ],
+            "service": [
+              "liturgy"
+            ],
+            "cells": [
+              {
+                "english": "O You who at the Wedding at Cana of Galilee: Turned water into select wine: Turn our hearts, O Immanuel: From evil to what pleases You, O Holy One.",
+                "arabic": "يا من في عرس قانا الجليل: حولت الماء إلى خمراً جميل: حول قلوبنا يا عمانوئيل: من الشر إلى ما يرضيك، يا قدوس."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Wedding at Cana of Galilee"
+            ],
+            "cells": [
+              {
+                "english": "Alleluia (4), Jesus Christ, the Son of God, blessed the water and changed it into wine.",
+                "coptic": "Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ (ⲇ̅): Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ Ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫϯ: ⲁϥⲥ̀ⲙⲟⲩ ⲉ̀ⲛⲓⲙⲱⲟⲩ ⲁϥⲁⲓⲧⲟⲩ ⲛ̀ⲏⲣⲡ.",
+                "arabic": "هلليلويا (4)، يسوع المسيح ابن الله بارك المياه فصيرها خمراً."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Transfiguration"
+            ],
+            "service": [
+              "liturgy"
+            ],
+            "cells": [
+              {
+                "english": "O You, who transfigured on Mount Tabor: Calling Moses out of the tomb: And Elijah from the heavens: Revealing Your majesty to Your holy apostles.",
+                "arabic": "يا من تجلّيت على طور تابور: داعياً موسى من وسط القبور: ومن السماء إيليا الغيور: مظهرا جلالك أمام رسلك القديسين."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Transfiguration"
+            ],
+            "cells": [
+              {
+                "english": "Alleluia (4), Jesus Christ the Son of God, was transfigured upon Mount Tabor.",
+                "coptic": "Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ (ⲇ̅): Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ ⲡ̀Ϣⲏⲣⲓ ⲙ̀Ⲫ̀ϯ: ⲁϥϣⲱⲃⲧ ⲉ̀ϫⲉⲛ ⲡⲓⲧⲱⲟⲩ ⲛ̀Ⲑⲁⲃⲱⲣ.",
+                "arabic": "هلليلويا (4)، يسوع المسيح إبن الله، تجلى على جبل تابور."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Nayrouz (Coptic New Year)"
+            ],
+            "service": [
+              "liturgy"
+            ],
+            "cells": [
+              {
+                "english": "Behold the Spirit of the Lord anointed Me: To the poor, He sent Me: And to the broken-hearted and wretched, To preach an acceptable year for salvation.",
+                "arabic": "ها روح الرب قد مسحني:وإلى المساكين قد أرسلني: والمنسحقن بلأسر والحزاني، ولأنادي بعام مقبول لخلاص النفوس."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Nayrouz (Coptic New Year)"
+            ],
+            "cells": [
+              {
+                "english": "Alleluia (4), bless the crown of the year, with Your goodness O Lord.",
+                "coptic": "Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ (ⲇ̅): ⲥ̀ⲙⲟⲩ ⲉ̀ⲡⲓⲭ̀ⲗⲟⲙ ⲛ̀ⲧⲉ ϯⲣⲟⲙⲡⲓ: ϩⲓⲧⲉⲛ ⲧⲉⲕⲙⲉⲧⲭ̀ⲣⲏⲥⲧⲟⲥ Ⲡ̀ϭⲟⲓⲥ.",
+                "arabic": "هلليلويا (4)، بارك إكليل [هذه] السنة، بصلاحك يا رب."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "feastsOfTheLordSeasons": true,
+            "cells": [
+              {
+                "english": "This is He who is worthy of glory, with His good Father, and the Holy Spirit, both now and forever.",
+                "coptic": "Ⲫⲁⲓ ⲉ̀ⲣⲉ ⲡⲓⲱ̀ⲟⲩ ⲉⲣⲡ̀ⲣⲉⲡⲓ ⲛⲁϥ: ⲛⲉⲙ Ⲡⲉϥⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ Ⲉⲑⲟⲩⲁⲃ: ⲓⲥϫⲉⲛ ϯⲛⲟⲩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ.",
+                "arabic": "هذا الذي ينبغي له المجد، مع أبيه الصالح، والروح القدس، من الآن وإلى الأبد."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Apostles' Fast",
+              "Feast of the Apostles (Peter & Paul)"
+            ],
+            "service": [
+              "liturgy"
+            ],
+            "cells": [
+              {
+                "coptic": "Ⲛⲉⲛⲓⲟϯ ⲉ̅ⲑ̅ⲩ̅ ⲛ̀ⲁⲡⲟⲥⲧⲟⲗⲟⲥ: ⲁⲩϩⲓⲱⲓϣ ϧⲉⲛ ⲡⲓⲕⲟⲥⲙⲟⲥ ⲧⲏⲣϥ: ϧⲉⲛ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲉ̅ⲑ̅ⲩ̅: ⲛ̀ⲧⲉ ⲡⲉⲛϭⲟ̅ⲥ̅ Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅.",
+                "arabic": "أباؤنا الرسل القديسين: بشروا في العالم كله: بالانجيل المقدس: الذي لربنا يسوع المسيح."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Apostles' Fast",
+              "Feast of the Apostles (Peter & Paul)"
+            ],
+            "cells": [
+              {
+                "coptic": "Ⲧⲱⲃϩ ⲙ̀ⲡ̀ϭⲟ̅ⲥ̅ ⲉϩ̀ⲣⲏⲓ ⲉϫⲱⲛ: ⲱ ⲛⲁϭⲟ̅ⲥ̅ ⲛ̀ⲓⲟϯ ⲛ̀ⲁⲡⲟⲥⲧⲟⲗⲟⲥ: ⲡⲉⲛⲓⲱⲧ Ⲡⲉⲧⲣⲟⲥ ⲛⲉⲙ ⲡⲉⲛⲥⲁϧ Ⲡⲁⲩⲗⲟⲥ: ⲛ̀ⲧⲉϥ ⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ.",
+                "arabic": "اطلبا من الرب عنا: يا ساداتي الآباء الرسل: أبينا بطرس ومعلمنا بولس: ليغفر لنا خطايانا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Cross"
+            ],
+            "cells": [
+              {
+                "english": "For greatly honored, is the sign of the Cross, of Jesus Christ the King, our true God.",
+                "coptic": "Ϥ̀ⲧⲁⲓⲏ̀ⲟⲩⲧ ⲅⲁⲣ ⲉ̀ⲙⲁϣⲱ: ⲛ̀ϫⲉ ⲡⲓⲙⲏⲓⲛⲓ ⲛ̀ⲧⲉ Ⲡⲓⲥ̀ⲧⲁⲩⲣⲟⲥ: ⲛ̀ⲧⲉ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲡ̀ⲟⲩⲣⲟ: Ⲡⲉⲛⲛⲟⲩϯ ⲛ̀ⲁ̀ⲗⲏⲑⲓⲛⲟⲥ.<br/>",
+                "arabic": "لأنها مكرمة جداً، علامة صليب، يسوع المسيح الملك، إلهنا الحقيقي."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Cross"
+            ],
+            "cells": [
+              {
+                "english": "Through His cross: and His holy Resurrection: He restored man once again: to the Paradise.",
+                "coptic": "Ⲉⲃⲟⲗ ϩⲓⲧⲉⲛ ⲡⲉϥⲥ̀ⲧⲁⲩⲣⲟⲥ: ⲛⲉⲙ ⲧⲉϥⲁ̀ⲛⲁⲥⲧⲁⲥⲓⲥ ⲉ̀ⲑⲟⲩⲁⲃ: ⲁϥⲧⲧⲁⲥⲑⲟ ⲙ̀ⲡⲓⲣⲱⲙⲓ ⲛ̀ⲕⲉⲥⲟⲡ: ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲡⲓⲡⲁⲣⲁⲇⲓⲥⲟⲥ.",
+                "arabic": "من قبل صليبه، وقيامته المقدسة، رد الإنسان مرة أخرى، إلى الفردوس."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Blessed are they in truth, the saints of this day, each one according to his name, the beloved of Christ.",
+                "coptic": "Ⲱⲟⲩⲛⲓⲁⲧⲟⲩ ϧⲉⲛ ⲟⲩⲙⲉⲑⲏⲓ: ⲛⲏⲉ̅ⲑ̅ⲩ̅ ⲛ̀ⲧⲉ ⲡⲁⲓⲉ̀ϩⲟⲟⲩ: ⲡⲓⲟⲩⲁⲓ ⲡⲓⲟⲩⲁⲓ ⲕⲁⲧⲁ ⲡⲉϥⲣⲁⲛ: ⲛⲓⲙⲉⲛⲣⲁϯ ⲛ̀ⲧⲉ Ⲡⲭ̅ⲥ̅.",
+                "arabic": "طوباهم بالحقيقة قديسو هذا اليوم، كل واحد بإسمه احباء المسيح."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Intercede on our behalf, O lady of us all, the Mother of God, Mary, the Mother of our Savior, that He may forgive us our sins.",
+                "coptic": "Ⲁⲣⲓⲡⲣⲉⲥⲃⲉⲩⲓⲛ ⲉϩ̀ⲣⲏⲓ ⲉϫⲱⲛ: ⲱ̀ ⲧⲉⲛⲟ̅ⲥ̅ ⲛ̀ⲛⲏⲃ ⲧⲏⲣⲉⲛ ϯⲑⲉⲟⲧⲟⲕⲟⲥ: Ⲙⲁⲣⲓⲁ ⲑ̀ⲙⲁⲩ ⲙ̀ⲡⲉⲛⲤⲱⲧⲏⲣ: ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉⲃⲟⲗ.",
+                "arabic": "إشفعى فينا يا سيدتنا كلنا السيدة والدة الإله مريم ام مخلصنا ليغفر لنا خطايانا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Pray to the Lord on our behalf, O beholder of God the Evangelist, Abba Mark the Apostle, that He may forgive us our sins.",
+                "coptic": "Ⲧⲱⲃϩ ⲙ̀Ⲡⲟ̅ⲥ̅ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ: ⲱ̀ ⲡⲓⲑⲉⲱ̀ⲣⲓⲙⲟⲥ ⲛ̀ⲉ̀ⲩⲁ̀ⲅⲅⲉⲗⲓⲥⲧⲏⲥ: ⲁⲃⲃⲁ Ⲙⲁⲣⲕⲟⲥ ⲡⲓⲁ̀ⲡⲟⲥⲧⲗⲟⲥ: ⲛ̀ⲧⲉϥ ⲭⲁ ⲛⲉⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.",
+                "arabic": "أطلب من الرب عنا يا ناظر الإله الانجيلي مرقس الرسول، ليغفر لنا خطايانا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Blessed be the Father and the Son and the Holy Spirit, the perfect Trinity. We worship Him and glorify Him.",
+                "coptic": "Ϫⲉ ϥ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲛ̀ϫⲉ Ⲫⲓⲱⲧ ⲛⲉⲙ ⲡ̀Ϣⲏⲣⲓ: ⲛⲉⲙ ⲡⲓⲠ̀ⲛⲉⲩⲙⲁ ⲉ̅ⲑ̅ⲩ̅: Ϯⲧ̀ⲣⲓⲁⲥ ⲉⲧϫⲏⲕ ⲉ̀ⲃⲟⲗ: ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲥ ⲧⲉⲛϯⲱ̀ⲟⲩ ⲛⲁⲥ.",
+                "arabic": "مبارك الآب والابن والروح القدس، الثالوث الكامل، نسجد له ونمجده."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

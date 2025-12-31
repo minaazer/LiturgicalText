@@ -8,7 +8,7 @@ import {
   View,
   Text,
   TouchableOpacity,
-  
+  useWindowDimensions,
 } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import backgroundImage from "../../assets/background.png";
@@ -18,6 +18,9 @@ import songsData from "../../data/jsons/songs.json";
 
 const Songs = () => {
   const navigation = useNavigation();
+  const { width, height } = useWindowDimensions();
+  const isPortrait = height >= width;
+  const isCompactPortrait = isPortrait && width < 450;
 const themes = Array.from(
   new Set(
     songsData.flatMap(song => song.themes || [])
@@ -53,17 +56,49 @@ console.log(logString);
         style={presentationStyles.backgroundImage}
         resizeMode="repeat"
       >
-        <View style={presentationStyles.daysContainer}>
-          <View style={presentationStyles.headerContainer}>
-            <Text style={presentationStyles.pageHeader}>Spiritual</Text>
-            <Text style={presentationStyles.pageHeader}>Songs</Text>
+        <View
+          style={
+            isCompactPortrait
+              ? presentationStyles.headerLinksStacked
+              : presentationStyles.headerLinksRow
+          }
+        >
+          <View
+            style={[
+              presentationStyles.sideHeaderContainer,
+              {
+                flex: isCompactPortrait ? 0 : 1,
+                width: isCompactPortrait ? "100%" : undefined,
+              },
+            ]}
+          >
+            {isCompactPortrait ? (
+              <Text style={presentationStyles.pageHeader}>Spiritual Songs</Text>
+            ) : (
+              <>
+                <Text style={presentationStyles.pageHeader}>Spiritual</Text>
+                <Text style={presentationStyles.pageHeader}>Songs</Text>
+              </>
+            )}
           </View>
 
-          <View style={presentationStyles.daysContainer}>
-            <ScrollView contentContainerStyle={presentationStyles.iconRow}>
+          <View
+            style={[
+              presentationStyles.sideContentContainer,
+              {
+                flex: isCompactPortrait ? 1 : 3,
+                justifyContent: isCompactPortrait ? "flex-start" : "center",
+              },
+            ]}
+          >
+            <ScrollView
+              contentContainerStyle={[
+                presentationStyles.iconRow,
+                { flexGrow: 1, justifyContent: "center" },
+              ]}
+            >
               <TouchableOpacity
                 style={[presentationStyles.songsContainer]}
-                //onPress={() => navigation.navigate("AllSongs")}
                 onPress={() => navigation.navigate("All-Spiritual-Songs", { theme: "" })}
               >
                 <Text style={presentationStyles.pageMenu}>All Spiritual Songs</Text>
@@ -77,11 +112,7 @@ console.log(logString);
                   <Text style={presentationStyles.pageMenu}>{theme}</Text>
                 </TouchableOpacity>
               ))}
-              
-              
-              
-
-          </ScrollView>
+            </ScrollView>
           </View>
         </View>
       </ImageBackground>

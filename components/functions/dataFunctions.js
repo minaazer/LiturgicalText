@@ -2,10 +2,16 @@
 
 // @ts-check
 
-import hwRepeatedPrayersData from "../../data/repeatedPrayers/hwRepeatedPrayers.json";
-import annualRepeatedPrayersData from "../../data/repeatedPrayers/annualRepeatedPrayers.json";
-import seasonalRepeatedPrayersData from "../../data/repeatedPrayers/seasonalRepeatedPrayers.json";
-import { book , musicalNote, playPause } from "../../data/repeatedPrayers";
+import hwRepeatedPrayersData from "../../data/jsons/repeatedPrayers/hwRepeatedPrayers.json";
+import annualRepeatedPrayersData from "../../data/jsons/repeatedPrayers/annualRepeatedPrayers.json";
+import seasonalRepeatedPrayersData from "../../data/jsons/repeatedPrayers/seasonalRepeatedPrayers.json";
+import seasonalPraisesData from "../../data/jsons/psalmody/seasonalPraises.json";
+import repeatedAgpeyaPrayersData from "../../data/jsons/repeatedPrayers/repeatedAgpeyaPrayers.json";
+import {
+  book,
+  musicalNote,
+  playPause,
+} from "../../data/iconVariables";
 
 /**
  * @typedef {Record<string, string | number | boolean | null | undefined>} TemplateVars
@@ -50,6 +56,7 @@ import { book , musicalNote, playPause } from "../../data/repeatedPrayers";
  * @property {string=} table_class
  * @property {string=} tableClass
  * @property {string=} caption_display
+ * @property {boolean=} nonTraditionalPascha
  * @property {boolean=} eshlil
  * @property {boolean=} openingCurtain
  * @property {TableRow[]=} rows
@@ -76,40 +83,41 @@ import { book , musicalNote, playPause } from "../../data/repeatedPrayers";
  * @property {TableRow[]} rows
  */
 
-/**
- * @param {string} source
- * @param {string} category
- */
-export function getRepeatedPrayers(source, category) {
-  // Mapping the sources to their corresponding data
-  const repeatedPrayersSources = {
-    "Holy Week": hwRepeatedPrayersData,
-    Annual: annualRepeatedPrayersData,
-  };
+const repeatedPrayersSources = {
+  "Holy Week": hwRepeatedPrayersData,
+  Annual: annualRepeatedPrayersData,
+  Seasonal: seasonalRepeatedPrayersData,
+  "Seasonal Praises": seasonalPraisesData,
+  "Agpeya Prayers": repeatedAgpeyaPrayersData,
+};
 
-  // Validate the source and retrieve its data
-  const repeatedPrayersData = repeatedPrayersSources[source];
-  if (!repeatedPrayersData) {
-    console.log(`Invalid source: "${source}"`);
-    return `<div>Error: Invalid source "${source}"</div>`;
-  }
-
-  // Find the requested category within the source data
-  const categoryData = repeatedPrayersData.find(
-    (item) => item.category === category
-  );
-
-  if (!categoryData || !Array.isArray(categoryData.tables)) {
-    console.log(`Invalid or missing tables for category: "${category}"`);
-    return `<div>Error: Invalid or missing tables for category "${category}"</div>`;
-  }
-
-  // Return the relevant prayers
-  return categoryData.tables;
-}
+const hasValue = (value) =>
+  value !== undefined && value !== null && value !== "";
+const normalizeToArray = (value) => (Array.isArray(value) ? value : [value]);
+const normalizeSeasons = (value) =>
+  hasValue(value) ? normalizeToArray(value) : [];
+const seasonsMatch = (requestedSeasons, entrySeasons) => {
+  if (!hasValue(entrySeasons)) return true; // entry applies to all seasons
+  if (!hasValue(requestedSeasons)) return true; // no filter provided
+  const requested = normalizeToArray(requestedSeasons);
+  if (requested.length === 0) return true; // empty filter array means no filter
+  const entry = normalizeToArray(entrySeasons);
+  return entry.some((s) => requested.includes(s));
+};
+const maxTemplateKeyCacheEntries = 200;
+const globalScope =
+  typeof globalThis !== "undefined" ? /** @type {any} */ (globalThis) : {};
+const isDebug = globalScope.__DEV__ === true;
+const debugLog = (...args) => {
+  if (isDebug) console.log(...args);
+};
+const debugWarn = (...args) => {
+  if (isDebug) console.warn(...args);
+};
 
 /**
  * @param {{ label: string; checked?: boolean; value?: string }[]} onePageSettings
+ * @returns {{ label: string; checked?: boolean; value?: string }[]}
  */
 export function getExpositionOnePageSettings(onePageSettings) {
   // Find the checked value of "Exposition Responses"
@@ -147,24 +155,38 @@ export function getExpositionOnePageSettings(onePageSettings) {
   return updatedOnePageSettings;
 }
 
-
 /**
  * @param {string | number | boolean | null | undefined} template
  * @param {TemplateVars} variables
  * @returns {string}
  */
 export function processTemplate(template, variables) {
-  if (typeof template !== "string") return template === undefined || template === null ? "" : String(template);
+  if (typeof template !== "string")
+    return template === undefined || template === null ? "" : String(template);
 
-  /** @type {Set<string>} */
-  const missingTemplateKeys = processTemplate._missingTemplateKeys || new Set();
-  processTemplate._missingTemplateKeys = missingTemplateKeys;
+  /** @type {Map<string, Set<string>>} */
+  const missingTemplateKeysByTemplate =
+    processTemplate._missingTemplateKeysByTemplate || new Map();
+  processTemplate._missingTemplateKeysByTemplate =
+    missingTemplateKeysByTemplate;
+  const missingTemplateKeys =
+    missingTemplateKeysByTemplate.get(template) || new Set();
+  missingTemplateKeysByTemplate.set(template, missingTemplateKeys);
+  if (missingTemplateKeysByTemplate.size > maxTemplateKeyCacheEntries) {
+    const oldestTemplate = missingTemplateKeysByTemplate.keys().next().value;
+    if (oldestTemplate) {
+      missingTemplateKeysByTemplate.delete(oldestTemplate);
+    }
+  }
 
   const getByPath = (obj, path) =>
-    path.split(".").reduce(
-      (curr, segment) => (curr && typeof curr === "object" ? curr[segment] : undefined),
-      obj
-    );
+    path
+      .split(".")
+      .reduce(
+        (curr, segment) =>
+          curr && typeof curr === "object" ? curr[segment] : undefined,
+        obj
+      );
 
   return template.replace(/\$\{(.*?)\}/g, (_, key) => {
     const direct = variables[key];
@@ -174,307 +196,65 @@ export function processTemplate(template, variables) {
 
     if (!missingTemplateKeys.has(key)) {
       missingTemplateKeys.add(key);
-      console.warn(`processTemplate: missing variable for placeholder "${key}" in template "${template}"`);
+      debugWarn(
+        `processTemplate: missing variable for placeholder "${key}" in template "${template}"`
+      );
     }
 
     return "";
   });
 }
-/** @type {Set<string>} */
-processTemplate._missingTemplateKeys;
+
+/** @type {Map<string, Set<string>>} */
+processTemplate._missingTemplateKeysByTemplate;
 
 /**
- * @param {any} table
- * @param {number} tableIdx
- * @param {TemplateVars} variables
- * @param {string} tableClass
- * @param {boolean} paschalReadingsFull
+ * @param {TableRow[]} rows
+ * @param {{
+ *   filterRows?: (row: TableRow) => boolean,
+ *   rowFilters?: Record<string, any> | Array<Record<string, any>>,
+ *   eshlilFlag?: boolean,
+ *   openingCurtainFlag?: boolean,
+ *   paschalReadingsFull?: boolean,
+ *   tableFlags?: { eshlil?: boolean, openingCurtain?: boolean }
+ * }} [options]
+ * @returns {TableRow[]}
  */
-export function renderRepeatedPrayer(table, tableIdx, variables, tableClass, paschalReadingsFull) {
-  if (table.nonTraditionalPascha && !paschalReadingsFull) {
-    return ``;
-  }
-  const prayers = getRepeatedPrayers(table.source, table.category);
-  if (typeof prayers === "string") {
-    return prayers; // Error message
-  }
+function filterTableRows(rows, options = {}) {
+  const filterRows = options.filterRows || (() => true);
+  const tableFlags = options.tableFlags;
+  const rowFilters = options.rowFilters;
+  const rowFilterEntries = Array.isArray(rowFilters)
+    ? rowFilters.flatMap((entry) =>
+        entry && typeof entry === "object" ? Object.entries(entry) : []
+      )
+    : rowFilters && typeof rowFilters === "object"
+    ? Object.entries(rowFilters)
+    : [];
 
-  const repeatedPrayer = prayers.find(
-    (prayer) => prayer.title === table.repeated_prayer_title
-  );
-  // Add the flag before any conditional returns
-  if (table.nonTraditionalPascha && repeatedPrayer) {
-    repeatedPrayer.nonTraditionalPascha = true;
-  }
-  const hasEshlilSetting = Object.prototype.hasOwnProperty.call(table, "eshlil");
-  const eshlilSetting = hasEshlilSetting ? table.eshlil : undefined;
-  const hasOpeningCurtainSetting = Object.prototype.hasOwnProperty.call(table, "openingCurtain");
-  const openingCurtainSetting = hasOpeningCurtainSetting ? table.openingCurtain : undefined;
-    
-  if (!repeatedPrayer || !Array.isArray(repeatedPrayer.rows)) {
-    console.log(
-      "Repeated prayer title not found or invalid:",
-      table.repeated_prayer_title
-    );
-    return `
-                <table id="table_${tableIdx}" title="${processTemplate(
-      table.repeated_prayer_title,
-      variables
-    )}">
-                    <caption class="caption" id="caption_table_${tableIdx}">
-                        ${processTemplate(
-                          table.repeated_prayer_title,
-                          variables
-                        )}
-                    </caption>
-                    <tbody>
-                        <tr><td class="error">Error: Repeated prayer not found or invalid for "${
-                          table.repeated_prayer_title
-                        }"</td></tr>
-                    </tbody>
-                </table>
-            `;
-  }
-
-  const conditions = table.repeated_prayer_variables || {};
-  return renderTable(
-    repeatedPrayer,
-    tableIdx,
-    tableClass,
-    paschalReadingsFull,
-    variables,
-    (row) => {
-      // Exclude rows that meet the conditions
-      return !Object.entries(conditions).some(([key, value]) => {
-        return row[key] !== undefined && row[key] !== value;
-      });
-    },
-    eshlilSetting,
-    openingCurtainSetting
-  );
-}
-
-// Helper: Render a single table
-/**
- * @param {RepeatedPrayerTable} table
- * @param {number} tableIdx
- * @param {string} tableClass
- * @param {boolean} paschalReadingsFull
- * @param {TemplateVars} variables
- * @param {(row: TableRow) => boolean} [filterRows]
- * @param {boolean} [eshlilFlag]
- * @param {boolean} [openingCurtainFlag]
- */
-export function renderTable(
-  table,
-  tableIdx,
-  tableClass,
-  paschalReadingsFull,
-  variables,
-  filterRows = () => true,
-  eshlilFlag,
-  openingCurtainFlag
-) {
-  if (!Array.isArray(table.rows)) {
-    console.log(`Invalid rows in table: ${table.title}`, table);
-    return `<div>Error: Invalid rows in table "${table.title}"</div>`;
-  }
-  let additionalTableClass = "";
-  if (table.class) {
-    additionalTableClass = table.class;
-  }
-  tableClass = tableClass ? `${tableClass} ${additionalTableClass}` : additionalTableClass;
-  if (table.nonTraditionalPascha && !paschalReadingsFull) {
-    return ``;
-  }
-
-  const filteredRows = table.rows
-    .filter(filterRows)
-    .filter((row) => {
-      if (eshlilFlag === false && row.eshlil === true) return false;
-      if (openingCurtainFlag === false && row.openingCurtain === true) return false;
-      return true;
-    });
-
-  let captionClass = table.caption_class ? `${table.caption_class}` : "";
-
-  let nonTraditionalPascha = table.nonTraditionalPascha ? "nonTraditionalPascha = true" : "";
- 
-  return `
-                <table id="table_${tableIdx}" ${nonTraditionalPascha} title="${processTemplate(
-    table.title,
-    variables
-  )}" class="${tableClass.trim()}">
-                    ${
-                      table.english_caption
-                        ? `
-                        <caption class="caption ${captionClass}" id="caption_table_${tableIdx}">
-                            ${processTemplate(table.english_caption, variables)}
-                            ${
-                              table.coptic_caption
-                                ? `<span class="coptic-caption">${processTemplate(
-                                    table.coptic_caption,
-                                    variables
-                                  )}</span>`
-                                : ""
-                            }
-                            ${
-                              table.arabic_caption
-                                ? `<span class="arabic-caption">${processTemplate(
-                                    table.arabic_caption,
-                                    variables
-                                  )}</span>`
-                                : ""
-                            }
-                            ${
-                              table.explanation_button
-                                ? `<span class="explanation-button" data-message='${processTemplate(
-                                    table.explanation_button,
-                                    variables
-                                  )}'>${book}</span>`
-                                : ""
-                            }
-                            ${
-                              table.image_button
-                                ? `<span class="image-button" data-message='${processTemplate(
-                                    table.image_button,
-                                    variables
-                                  )}'>${musicalNote}</span>`
-                                : ""
-                            }
-                            ${
-                              table.audio_file
-                                ? `<span class="audio-button" data-message='${processTemplate(
-                                    table.audio_file,
-                                    variables
-                                  )}'>${playPause}</span>`
-                                : ""
-                            }
-                            
-                        </caption>`
-                        : ""
-                    }
-                    <tbody>
-                        ${filteredRows
-                          .map((row, rowIdx) => {
-                            
-                            if (row.nonTraditionalPascha && !paschalReadingsFull) {
-                              return ``;
-                            }
-                            return `
-                              <tr id="table_${tableIdx}_row_${rowIdx}" class="${row["row-class"] || ""}"
-                                  ${(row["row-class"] === "navigationButton" || row["row-class"] === "navigationLink")  && row["data-navigation"]
-                                    ? `data-navigation="${JSON.stringify(row["data-navigation"]).replace(/"/g, '&quot;')}"`
-                                    : ""}
-                              >
-
-                                    ${row.cells
-                                      .map((cell) =>
-                                        Object.entries(cell).filter(([key]) => key !== "data-navigation")
-                                          .map(
-                                            ([key, value]) =>
-                                              `<td class="${key}">${processTemplate(
-                                                value,
-                                                variables
-                                              )}</td>`
-                                          )
-                                          .join("")
-                                      )
-                                      .join("")}
-                                </tr>
-                            `
-                        })
-                          .join("")}
-                    </tbody>
-                </table>
-            `;
-}
-
-/**
- * @param {HtmlTable} table
- * @param {number} tableIdx
- * @param {string} [tableClass]
- * @param {TemplateVars} [variables]
- */
-export function renderSongTables(table, tableIdx, tableClass = "", variables = {}) {
-  const songTitle = table.english_title || `Song ${tableIdx + 1}`;
-  const captionClass = table.caption_class || "";
-
-  let globalRowIdx = 0; // Keep a single counter across all tbodies
-
-  return `
-    <table id="table_${tableIdx}" title="${processTemplate(songTitle, variables)}">
-      ${
-        table.english_title
-          ? `
-        <caption class="caption ${captionClass}" id="caption_table_${tableIdx}">
-            ${processTemplate(table.english_title, variables)}
-            
-            ${
-              table.arabic_title
-                ? `<span class="arabic-caption">${processTemplate(
-                    table.arabic_title,
-                    variables
-                  )}</span>`
-                : ""
-            }
-            ${
-              table.explanation_button
-                ? `<span class="explanation-button" data-message='${processTemplate(
-                    table.explanation_button,
-                    variables
-                  )}'>${book}</span>`
-                : ""
-            }
-            ${
-              table.image_button
-                ? `<span class="image-button" data-message='${processTemplate(
-                    table.image_button,
-                    variables
-                  )}'>${musicalNote}</span>`
-                : ""
-            }
-            ${
-              table.audio_file
-                ? `<span class="audio-button" data-message='${processTemplate(
-                    table.audio_file,
-                    variables
-                  )}'>${playPause}</span>`
-                : ""
-            }
-
-        </caption>`
-          : ""
-      }
-
-      ${table.tbodies
-        .map((tbody, tbodyIdx) => {
-          const rowsHtml = tbody.rows
-            .map((row) => {
-              const rowHtml = `
-                <tr id="song_${tableIdx}_row_${globalRowIdx}" class="${row["row-class"] || ""}">
-                  ${row.cells
-                    .map(cell =>
-                      Object.entries(cell)
-                        .map(
-                          ([lang, value]) =>
-                            `<td class="${lang}">${processTemplate(value, variables)}</td>`
-                        )
-                        .join("")
-                    )
-                    .join("")}
-                </tr>
-              `;
-              globalRowIdx++;
-              return rowHtml;
-            })
-            .join("");
-
-          return `<tbody id="table_${tableIdx}_tbody_${tbodyIdx}" class="${tableClass}">${rowsHtml}</tbody>`;
-        })
-        .join("")}
-    </table>
-  `;
+  return rows.filter((row) => {
+    if (!filterRows(row)) return false;
+    if (
+      rowFilterEntries.length &&
+      rowFilterEntries.some(
+        ([key, value]) => row[key] !== undefined && row[key] !== value
+      )
+    ) {
+      return false;
+    }
+    if (options.eshlilFlag === false && row.eshlil === true) return false;
+    if (options.openingCurtainFlag === false && row.openingCurtain === true)
+      return false;
+    if (tableFlags?.eshlil === false && row.eshlil === true) return false;
+    if (tableFlags?.openingCurtain === false && row.openingCurtain === true)
+      return false;
+    if (
+      options.paschalReadingsFull === false &&
+      row.nonTraditionalPascha === true
+    )
+      return false;
+    return true;
+  });
 }
 
 /**
@@ -483,44 +263,78 @@ export function renderSongTables(table, tableIdx, tableClass = "", variables = {
  * @param {string} tableClass
  * @param {string} tbodyClass
  * @param {TemplateVars} [variables]
+ * @param {Record<string, any> | Array<Record<string, any>>} [rowFilters]
+ * @param {{ paschalReadingsFull?: boolean, filterRows?: (row: TableRow) => boolean, eshlilFlag?: boolean, openingCurtainFlag?: boolean }} [rowFilterOptions]
+ * @returns {string}
  */
-export function renderHtmlTable(table, tableIdx, tableClass, tbodyClass, variables = {}) {
-  const enTitle = table.english_title || `Song ${tableIdx + 1}`;
+export function renderHtmlTable(
+  table,
+  tableIdx,
+  tableClass,
+  tbodyClass,
+  variables = {},
+  rowFilters,
+  rowFilterOptions = {}
+) {
+  const enTitle = table.english_title || "";
   const captionClass = table.caption_class || "";
+
   // If tableClass is passed, merge it with any class provided on the table object (supports both camel/snake).
-  const tableClassFromData = table.table_class || table.tableClass || "";
-  if (tableClassFromData) {
-    tableClass = tableClass ? `${tableClass} ${tableClassFromData}` : tableClassFromData;
+  if (table.table_class) {
+    tableClass = tableClass
+      ? `${tableClass} ${table.table_class}`
+      : table.table_class;
   }
+
+  // If caption_display is provided, use it to set inline style on the caption.
   const captionDisplay = table.caption_display || "";
-  const captionDisplayStyle = captionDisplay ? `style="display: ${captionDisplay}"` : "";
+  const captionDisplayStyle = captionDisplay
+    ? `style="display: ${captionDisplay}"`
+    : "";
+
   let globalRowIdx = 0; // Keep a single counter across all tbodies
 
-  // Some data sources provide rows directly instead of wrapping them in tbodies.
-  const tbodiesToRender =
-    Array.isArray(table.tbodies) && table.tbodies.length
-      ? table.tbodies
-      : Array.isArray(table.rows)
-        ? [{ rows: table.rows }]
-        : [];
-
-  // Row-level flags that can disable rows when the table sets the flag to false.
-  const rowFlagKeys = ["eshlil", "openingCurtain"];
-  const shouldRenderRow = (row) =>
-    rowFlagKeys.every((flag) => !(table[flag] === false && row[flag] === true));
-
-  if (!tbodiesToRender.length) {
-    console.log(`renderHtmlTable: No rows found for table "${enTitle}"`, table);
+  if (!Array.isArray(table.tbodies) || table.tbodies.length === 0) {
+    debugLog(`renderHtmlTable: No rows found for table "${enTitle}"`, table);
     return `<div>Error: No rows found in table "${enTitle}"</div>`;
   }
 
+  if (
+    table.nonTraditionalPascha &&
+    rowFilterOptions.paschalReadingsFull === false
+  ) {
+    return ``;
+  }
+
+  const filteredTbodies = table.tbodies.map((tbody) => {
+    const rows = Array.isArray(tbody.rows) ? tbody.rows : [];
+    const filteredRows = filterTableRows(rows, {
+      tableFlags: {
+        eshlil: table.eshlil,
+        openingCurtain: table.openingCurtain,
+      },
+      rowFilters,
+      filterRows: rowFilterOptions.filterRows,
+      paschalReadingsFull: rowFilterOptions.paschalReadingsFull,
+      eshlilFlag: rowFilterOptions.eshlilFlag,
+      openingCurtainFlag: rowFilterOptions.openingCurtainFlag,
+    });
+    return { ...tbody, rows: filteredRows };
+  });
+
   return `
-    <table id="table_${tableIdx}" title="${processTemplate(enTitle, variables)}" class="${tableClass}">
+    <table id="table_${tableIdx}" title="${processTemplate(
+    enTitle,
+    variables
+  )}" class="${tableClass}">
       ${
         table.english_title || table.english_caption
           ? `
         <caption class="caption ${captionClass}" id="caption_table_${tableIdx}" ${captionDisplayStyle}>
-            ${processTemplate(table.english_title || table.english_caption, variables)}
+            ${processTemplate(
+              table.english_title || table.english_caption,
+              variables
+            )}
             
             ${
               table.arabic_title || table.arabic_caption
@@ -567,34 +381,37 @@ export function renderHtmlTable(table, tableIdx, tableClass, tbodyClass, variabl
           : ""
       }
 
-      ${tbodiesToRender
+      ${filteredTbodies
         .map((tbody, tbodyIdx) => {
-          const rows = Array.isArray(tbody.rows) ? tbody.rows : [];
-          const filteredRows = rows.filter(shouldRenderRow);
-          const filteredRowsHtml = filteredRows
+          const filteredRowsHtml = tbody.rows
             .map((row) => {
-              const navAttr =
-                row["data-navigation"] &&
-                row["data-navigation"].destination &&
-                row["data-navigation"].source
-                  ? ` data-navigation='${JSON.stringify({
-                      destination: row["data-navigation"].destination,
-                      source: row["data-navigation"].source,
-                    }).replace(/"/g, "&quot;")}'`
-                  : "";
+              const navAttr = row["data-navigation"]
+                ? ` data-navigation='${JSON.stringify(
+                    row["data-navigation"]
+                  ).replace(/"/g, "&quot;")}'`
+                : "";
               const rowHtml = `
-                <tr id="table_${tableIdx}_row_${globalRowIdx}" class="${row["row-class"] || ""}"${navAttr}>
+                <tr id="table_${tableIdx}_row_${globalRowIdx}" class="${
+                row["row-class"] || ""
+              }"${navAttr}>
                   ${row.cells
                     .map((cell) => {
-                      const dataNavigationValue = "skipButton" in cell
-                        ? `table_${tableIdx}`
-                        : cell["data-navigation"]
-                          ? (typeof cell["data-navigation"] === "string"
-                              ? processTemplate(cell["data-navigation"], variables)
-                              : JSON.stringify(cell["data-navigation"]))
+                      const dataNavigationValue =
+                        "skipButton" in cell
+                          ? `table_${tableIdx}`
+                          : cell["data-navigation"]
+                          ? typeof cell["data-navigation"] === "string"
+                            ? processTemplate(
+                                cell["data-navigation"],
+                                variables
+                              )
+                            : JSON.stringify(cell["data-navigation"])
                           : "";
                       const dataNavigationAttr = dataNavigationValue
-                        ? ` data-navigation="${dataNavigationValue.replace(/"/g, "&quot;")}"`
+                        ? ` data-navigation="${dataNavigationValue.replace(
+                            /"/g,
+                            "&quot;"
+                          )}"`
                         : "";
 
                       if ("skipButton" in cell) {
@@ -605,14 +422,22 @@ export function renderHtmlTable(table, tableIdx, tableClass, tbodyClass, variabl
                       }
 
                       const entries = Object.entries(cell).filter(
-                        ([key]) => key !== "data-navigation"
+                        ([key]) =>
+                          key !== "data-navigation" && key !== "dataNavigation"
                       );
 
                       return entries
                         .map(([lang, value], idx) => {
-                          const navAttrForCell = idx === 0 ? dataNavigationAttr : "";
+                          const navAttrForCell =
+                            idx === 0 ? dataNavigationAttr : "";
+                          const templateValue =
+                            typeof value === "string" ||
+                            typeof value === "number" ||
+                            typeof value === "boolean"
+                              ? value
+                              : "";
                           return `<td class="${lang}"${navAttrForCell}>${processTemplate(
-                            value,
+                            templateValue,
                             variables
                           )}</td>`;
                         })
@@ -633,177 +458,249 @@ export function renderHtmlTable(table, tableIdx, tableClass, tbodyClass, variabl
   `;
 }
 
+/**
+ * Filters entries by seasons/excludedSeasons and saints.
+ * @param {any[]} data
+ * @param {string | string[] | undefined | null} currentSeasons
+ * @param {string | string[] | undefined | null} todaysSaints
+ * @returns {any[]}
+ */
+export function filterBySeasons(data, currentSeasons, todaysSaints) {
+  if (!Array.isArray(data)) return [];
 
-export function resolveRepeatedPrauersData(data, repeatedPrayersData) {
-    if (!Array.isArray(data)) return [];
-    if (!Array.isArray(repeatedPrayersData)) return [];
+  const selectedSeasons = normalizeSeasons(currentSeasons);
+  const selectedSaints = hasValue(todaysSaints)
+    ? normalizeToArray(todaysSaints)
+    : [];
 
-    // Flags on placeholders that should be forwarded to injected repeated-prayer tables.
-    // Extend this list to support additional opt-in flags.
-    const passThroughFlags = ["eshlil", "openingCurtain"];
+  return data.filter((item) => {
+    if (!item || typeof item !== "object") return true;
 
-    return data.flatMap((item) => {
-        if (item && item.category && item.repeated_prayer_title && item.source && item.source === "Annual") {
-            const category = item.category;
-            const repeated_prayer_title = item.repeated_prayer_title;
+    const itemSeasons = hasValue(item.seasons)
+      ? normalizeToArray(item.seasons)
+      : null;
+    const itemExcludedSeasons = hasValue(item.excludedSeasons)
+      ? normalizeToArray(item.excludedSeasons)
+      : null;
+    const itemSaints = hasValue(item.saints)
+      ? normalizeToArray(item.saints)
+      : null;
 
-            const categoryEntry = repeatedPrayersData.find((entry) => entry.category === category);
-            if (!categoryEntry || !Array.isArray(categoryEntry.tables)) {
-                console.warn(`Repeated prayer category not found or invalid: ${category}`);
-                return item;
-            }
-
-            const replacements = categoryEntry.tables.filter(
-                (table) => table.title === repeated_prayer_title
-            );
-            if (!replacements.length) {
-                console.warn(`Repeated prayer table not found for category "${category}" and title "${repeated_prayer_title}"`);
-                return item;
-            }
-
-            const replacementsWithFlags = replacements.map((table) => {
-                const updated = { ...table };
-                passThroughFlags.forEach((flag) => {
-                    if (Object.prototype.hasOwnProperty.call(item, flag)) {
-                        updated[flag] = item[flag];
-                    }
-                });
-                return updated;
-            });
-
-            return replacementsWithFlags;
-        }
-        return item;
-    });
-}
-
-export function resolveSeasonalPraisesData(data, seasons, dayOfTheWeek, adamWatos, seasonalPraisesData) {
-    if (!Array.isArray(data)) return [];
-
-    const hasValue = (value) => value !== undefined && value !== null && value !== '';
-    const normalizeToArray = (value) => Array.isArray(value) ? value : [value];
-    const seasonsMatch = (requestedSeasons, entrySeasons) => {
-        if (!hasValue(entrySeasons)) return true; // entry applies to all seasons
-        if (!hasValue(requestedSeasons)) return true; // no filter provided
-        const requested = normalizeToArray(requestedSeasons);
-        const entry = normalizeToArray(entrySeasons);
-        return entry.some((s) => requested.includes(s));
-    };
-
-    const dayOfTheWeekMatch = (currentDayOfTheWeek, expectedDayOfTheWeek) => {
-        if (!hasValue(expectedDayOfTheWeek)) return true;
-        return currentDayOfTheWeek === expectedDayOfTheWeek;
-    };
-
-    const adamWatosMatch = (currentAdamWatos, expectedAdamWatos) => {
-        if (!hasValue(expectedAdamWatos)) return true;
-        return currentAdamWatos === expectedAdamWatos;
+    if (itemSeasons && selectedSeasons.length) {
+      if (!seasonsMatch(selectedSeasons, itemSeasons)) return false;
     }
 
-    return data.flatMap((item) => {
-        if (item && item.seasonalPraises && item.section_title) {
-            // First make sure this placeholder itself applies to the current day.
-            if (!item.postFirstCanticleNonSunday || dayOfTheWeek === 'Sunday') {
-                
-                if (item.dayOfTheWeek && !dayOfTheWeekMatch(dayOfTheWeek, item.dayOfTheWeek)) {
-                    return [];
-                }
-             }
+    if (itemExcludedSeasons && selectedSeasons.length) {
+      const hasExcluded = itemExcludedSeasons.some((s) =>
+        selectedSeasons.includes(s)
+      );
+      if (hasExcluded) return false;
+    }
 
-            const placement = item.section_title;
-            const replacements = seasonalPraisesData.filter((entry) => {
-                const placementMatch = Array.isArray(entry.placement) && entry.placement.includes(placement);
-                const seasonMatch = seasonsMatch(seasons, entry.season);
-                // Entries may optionally specify a day-of-week as well.
-                const dayMatch = dayOfTheWeekMatch(dayOfTheWeek, entry.dayOfTheWeek);
-                const adamWatosMatchResult = adamWatosMatch(adamWatos, entry.adamWatos);
-                return placementMatch && seasonMatch && dayMatch && adamWatosMatchResult;
-            });
-            return replacements;
+    if (itemSaints && selectedSaints.length) {
+      const matchesSaint = itemSaints.some((s) => selectedSaints.includes(s));
+      if (!matchesSaint) return false;
+    }
+
+    return true;
+  });
+}
+
+/**
+ * Filters entries by daily properties (aktonkAki, adamWatos, dayOfTheWeek, weekdayWeekend).
+ * @param {any[]} data
+ * @param {{ aktonkAki?: { english?: string } | string | null, adamWatos?: string | null, dayOfTheWeek?: string | null, weekdayWeekend?: string | null, service?: string | null }} props
+ * @returns {any[]}
+ */
+export function filterByDayProps(
+  data,
+  { aktonkAki, adamWatos, dayOfTheWeek, weekdayWeekend, service }
+) {
+  if (!Array.isArray(data)) return [];
+
+  const aktonkAkiEnglish =
+    typeof aktonkAki === "string" ? aktonkAki : aktonkAki?.english;
+
+  return data.filter((item) => {
+    if (!item || typeof item !== "object") return true;
+
+    if (hasValue(item.aktonkAki)) {
+      if (!hasValue(aktonkAkiEnglish) || item.aktonkAki !== aktonkAkiEnglish) {
+        return false;
+      }
+    }
+
+    if (hasValue(item.adamWatos)) {
+      if (!hasValue(adamWatos) || item.adamWatos !== adamWatos) {
+        return false;
+      }
+    }
+
+    if (hasValue(item.dayOfTheWeek)) {
+      if (!hasValue(dayOfTheWeek) || item.dayOfTheWeek !== dayOfTheWeek) {
+        return false;
+      }
+    }
+
+    if (hasValue(item.weekdayWeekend)) {
+      if (!hasValue(weekdayWeekend) || item.weekdayWeekend !== weekdayWeekend) {
+        return false;
+      }
+    }
+
+    if (hasValue(item.service)) {
+      if (!hasValue(service) || item.service !== service) {
+        return false;
+      }
+    }
+
+    return true;
+  });
+}
+
+export function resolveRepeatedPrayers(data, paschalReadingsFull) {
+  if (!Array.isArray(data)) return data;
+
+  const isRepeatedPrayerPlaceholder = (obj) =>
+    obj &&
+    typeof obj === "object" &&
+    (Object.prototype.hasOwnProperty.call(obj, "repeated_prayer_title") ||
+      Object.prototype.hasOwnProperty.call(obj, "repeated_prayer_placement"));
+
+  const replacePlaceholder = (placeholder) => {
+    const resolved = fetchRepeatedPrayerData(placeholder, paschalReadingsFull);
+
+    return Array.isArray(resolved) ? resolved : [resolved];
+  };
+
+  const resolvedTopLevel = data.flatMap((item) => {
+    if (isRepeatedPrayerPlaceholder(item)) {
+      return replacePlaceholder(item);
+    }
+
+    if (item && Array.isArray(item.tables)) {
+      const updatedTables = item.tables.flatMap((table) => {
+        if (isRepeatedPrayerPlaceholder(table)) {
+          return replacePlaceholder(table);
         }
-        return item;
+        return table;
+      });
+      
+      return { ...item, tables: updatedTables };
+    }
+
+    return item;
+  });
+
+  return resolvedTopLevel;
+}
+
+function fetchRepeatedPrayerData(repeatedPrayerObject, paschalReadingsFull) {
+  const {
+    repeated_prayer_title,
+    repeated_prayer_placement,
+    source,
+    category,
+    repeated_prayer_variables,
+  } = repeatedPrayerObject || {};
+
+  const repeatedPrayersData = repeatedPrayersSources[source];
+  if (!repeatedPrayersData) {
+    debugWarn(`Invalid repeated prayer source: "${source}"`, {
+      repeated_prayer_title,
+      repeated_prayer_placement,
+      category,
     });
-}
+    return repeatedPrayerObject;
+  }
 
-export function resolveConditionalTables(data, { aktonkAki, seasons }) {
-    if (!Array.isArray(data)) return [];
-
-    const hasValue = (value) => value !== undefined && value !== null && value !== '';
-    const normalizeToArray = (value) => Array.isArray(value) ? value : [value];
-
-    const aktonkAkiEnglish = aktonkAki?.english;
-    const selectedSeasons = hasValue(seasons) ? normalizeToArray(seasons) : [];
-
-    return data.filter((item) => {
-        if (!item || typeof item !== 'object') return true;
-
-        // Include only if aktonkAki matches when specified on the item.
-        if (hasValue(item.aktonkAki)) {
-            if (!hasValue(aktonkAkiEnglish) || item.aktonkAki !== aktonkAkiEnglish) {
-                return false;
-            }
-        }
-
-        // Exclude kiahk=false items when the current seasons include Kiahk.
-        if (item.kiahk === false) {
-            if (selectedSeasons.includes('Kiahk')) return false;
-        }
-
-        // Respect explicit season targeting on the item.
-        if (hasValue(item.season)) {
-            const itemSeasons = normalizeToArray(item.season);
-            const matchesSeason = itemSeasons.some((s) => selectedSeasons.includes(s));
-            if (!matchesSeason) return false;
-        }
-
-        return true;
+  const categoryData = repeatedPrayersData.find(
+    (entry) => entry.category === category
+  );
+  if (!categoryData || !Array.isArray(categoryData.tables)) {
+    debugWarn(`Invalid repeated prayer category: "${category}"`, {
+      repeated_prayer_title,
+      repeated_prayer_placement,
+      source,
     });
+    return repeatedPrayerObject;
+  }
+
+  const matches = categoryData.tables.filter((table) => {
+    if (repeated_prayer_title) {
+      return table.title === repeated_prayer_title;
+    }
+    if (repeated_prayer_placement) {
+      if (!table.placement) {
+        return false;
+      }
+
+      if (Array.isArray(table.placement)) {
+        return table.placement.includes(repeated_prayer_placement);
+      }
+      return table.placement === repeated_prayer_placement;
+    }
+    return false;
+  });
+
+  if (!matches.length) {
+    debugWarn(
+      `Repeated prayer table not found for category "${category}" and ` +
+        (repeated_prayer_title
+          ? `title "${repeated_prayer_title}"`
+          : `placement "${repeated_prayer_placement}"`)
+    );
+    return repeatedPrayerObject;
+  }
+
+  const resolved = applyRepeatedPrayerVariables(
+    matches,
+    repeated_prayer_variables,
+    paschalReadingsFull
+  );
+
+  return resolved.length === 1 ? resolved[0] : resolved;
 }
 
-/** @returns {any[]} */
-export function resolveSeasonalAndAnnualHymns(data, seasons, adamWatos) {
-    if (!Array.isArray(data)) return [];
+/**
+ * @param {any[]} tables
+ * @param {Record<string, any>=} variables
+ * @param {boolean=} paschalReadingsFull
+ * @returns {any[]}
+ */
+function applyRepeatedPrayerVariables(tables, variables, paschalReadingsFull) {
+  if (!variables || typeof variables !== "object") return tables;
+  const { passToTable, ...filterVars } = variables;
 
-    const hasValue = (value) => value !== undefined && value !== null && value !== '';
-    const normalizeToArray = (value) => Array.isArray(value) ? value : [value];
-    const seasonsMatch = (requestedSeasons, entrySeasons) => {
-        if (!hasValue(entrySeasons)) return true; // entry applies to all seasons
-        if (!hasValue(requestedSeasons)) return true; // no filter provided
-        const requested = normalizeToArray(requestedSeasons);
-        const entry = normalizeToArray(entrySeasons);
-        return entry.some((s) => requested.includes(s));
-    };
+  const hasNonTraditionalFlag = Object.prototype.hasOwnProperty.call(
+    filterVars,
+    "nonTraditionalPascha"
+  );
+  if (hasNonTraditionalFlag) {
+    const shouldInclude =
+      !!filterVars.nonTraditionalPascha === !!paschalReadingsFull;
+    if (!shouldInclude) return [];
+  }
 
-    const adamWatosMatch = (currentAdamWatos, expectedAdamWatos) => {
-        if (!hasValue(expectedAdamWatos)) return true;
-        return currentAdamWatos === expectedAdamWatos;
-    };
+  const tableMatches = (table) =>
+    Object.entries(filterVars).every(([key, value]) => {
+      if (!Object.prototype.hasOwnProperty.call(table, key)) return true;
+      return table[key] === value;
+    });
 
-    return /** @type {any[]} */ (data.flatMap((item) => {
-        const wantsSeasonal = item && item.seasonalHymns;
-        const wantsAnnual = item && item.annualHymns;
-        if (item && item.placement && (wantsSeasonal || wantsAnnual)) {
-            const placement = item.placement;
+  const filteredTables = tables.filter((table) => table && tableMatches(table));
 
-            // Select the appropriate data sources based on the flags.
-            /** @type {any[]} */
-            const placementTables = [
-                ...(wantsSeasonal ? seasonalRepeatedPrayersData : []),
-                ...(wantsAnnual ? annualRepeatedPrayersData : []),
-            ]
-                .flatMap((entry) => Array.isArray(entry.tables) ? entry.tables : [])
-                .filter((table) => Array.isArray(table.placement) && table.placement.length);
-
-            /** @type {any[]} */
-            const replacements = placementTables.filter((entry) => {
-                const placementMatch = Array.isArray(entry.placement) && entry.placement.includes(placement);
-                const seasonMatch = seasonsMatch(seasons, entry.season);
-                const adamWatosMatchResult = adamWatosMatch(adamWatos, entry.adamWatos);
-                return placementMatch && seasonMatch && adamWatosMatchResult;
-            });
-            return /** @type {any} */ (replacements);
-        }
-        return item;
-    }));
+  return filteredTables.map((table) => {
+    if (!Array.isArray(table.tbodies)) return table;
+    const updatedTbodies = table.tbodies.map((tbody) => {
+      const rows = Array.isArray(tbody.rows) ? tbody.rows : [];
+      const filteredRows = filterTableRows(rows, {
+        rowFilters: filterVars,
+      });
+      return { ...tbody, rows: filteredRows };
+    });
+    const tableOverrides =
+      passToTable && typeof passToTable === "object" ? passToTable : {};
+    return { ...table, ...tableOverrides, tbodies: updatedTbodies };
+  });
 }
-

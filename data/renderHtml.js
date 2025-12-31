@@ -1,10 +1,18 @@
+/** @format */
+
 import { renderHtmlTable } from "../components/functions/dataFunctions.js";
-import { iconVariables } from "./repeatedPrayers/iconVariables";
+import { iconVariables } from "./iconVariables.js";
 
 // Simple in-memory cache to avoid regenerating identical HTML
 const renderHtmlCache = new Map();
 
-export const renderHtml = (jsonData, pageTitle, tableClass, tbodyClass, variables) => {
+export const renderHtml = (
+  jsonData,
+  pageTitle,
+  tableClass,
+  tbodyClass,
+  variables
+) => {
   let tableCounter = 0; // Initialize a global table counter
   const mergedVariables = { ...iconVariables, ...variables };
 

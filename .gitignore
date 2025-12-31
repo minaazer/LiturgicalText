@@ -37,3 +37,9 @@ yarn-error.*
 
 # Google service account
 service-account.json
+
+# local artifacts
+%ProgramData%/
+logs.txt
+log.json
+tmp.html

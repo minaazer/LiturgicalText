@@ -378,7 +378,7 @@ export const handleDrawerItemPress = (tableId, webviewRef, row) => {
 };
 
 // getHtml
-export const getHtml = (dynamicStyles, body, script) => {
+export const getHtml = (dynamicStyles, body, script, rtl = false) => {
   const html = `
     
     <html>
@@ -386,6 +386,7 @@ export const getHtml = (dynamicStyles, body, script) => {
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
     <style>
     ${dynamicStyles}
+    ${rtl ? "body { direction: rtl; text-align: right; }" : ""}
     </style>
     <script type="text/javascript">
 

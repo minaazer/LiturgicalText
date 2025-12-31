@@ -25,17 +25,15 @@ import ChapterScreen from "../screens/bible/chapterScreen";
 import HolyWeek from "../screens/holyWeek";
 import HolyWeekDayScreen from "../screens/holyWeek/hwDayScreen";
 import HolyWeekHourScreen from "../screens/holyWeek/hwHourScreen";
-import Kiahk from "../screens/kiahk";
-import KiahkDoxologies from "../screens/kiahkDoxologies";
 import Doxologies from "../screens/doxologies";
-import SeasonalDoxologies from "../screens/seasonalDoxologies";
 import GlorificationScreen from "../screens/glorificationScreen";
 import PsalmodyScreen from "../screens/psalmodyScreen";
+import TheotokiasIndexScreen from "../screens/theotokias";
 import MatrimonyScreen from "../screens/matrimonyScreen";
 import UnctionScreen from "../screens/unctionScreen";
 import Songs from "../screens/songs";
 import SongsScreen from "../screens/songs/songsScreen";
-import HolyWeekData from "../../data/holyWeek/holyWeek.json";
+import HolyWeekData from "../../data/jsons/holyWeek.json";
 import SongsData from "../../data/jsons/songs.json";
 import { useNavigationState } from "@react-navigation/native";
 
@@ -127,28 +125,12 @@ const StaticScreens = [
     component: GlorificationScreen,
   },
   {
-    screenName: "Kiahk",
-    label: "Kiahk Praises",
-    component: Kiahk,
-    children: [
-      {
-        screenName: "KiahkDoxologies",
-        label: "Kiahk Doxologies",
-        component: KiahkDoxologies,
-      },
-    ],
-  },
-  {
     screenName: "Psalmody",
     label: "Psalmody",
     component: PsalmodyScreen,
     children: [
       { screenName: "Doxologies", label: "Doxologies", component: Doxologies },
-      {
-        screenName: "SeasonalDoxologies",
-        label: "Seasonal Doxologies",
-        component: SeasonalDoxologies,
-      },
+      { screenName: "Theotokias", label: "Theotokias Index", component: TheotokiasIndexScreen },
     ],
   },
   {
@@ -168,7 +150,7 @@ const Drawer = createDrawerNavigator();
 
 const DrawerButton = React.memo(({ label, routeName, navigation }) => {
   const handlePress = React.useCallback(() => {
-    console.log(`Navigating to: ${routeName}`);
+    
     navigation.closeDrawer();
     navigation.navigate("MainStack", { screen: routeName });
   }, [navigation, routeName]);
@@ -263,7 +245,31 @@ const LeftDrawerContent = React.memo(({ navigation, routeConfig, ...props }) => 
 
         <DrawerButton navigation={navigation} label="Home" routeName="Home" />
 
+        {/*dynamic drawer items*/}
         {dynamicDrawerItems && renderDrawerItems(dynamicDrawerItems)}
+        
+        {/*developer drawer items*/}
+        {developerMode && (
+          <View style={presentationStyles.drawerLineBreak}></View>
+        )}
+        {developerMode && (
+          <DrawerButton
+            navigation={navigation}
+            label="Doxologies"
+            routeName="Doxologies"
+          />
+        )}
+        
+        {
+          developerMode && (
+          <DrawerButton
+            navigation={navigation}
+            label="Theotokias Index"
+            routeName="Theotokias"
+          />
+        )
+        }
+        <View style={presentationStyles.drawerLineBreak}></View>
         <DrawerButton
           navigation={navigation}
           label="Settings"
@@ -275,21 +281,6 @@ const LeftDrawerContent = React.memo(({ navigation, routeConfig, ...props }) => 
           label="Saints Settings"
           routeName="SaintSettings"
         />
-
-        {developerMode && (
-          <DrawerButton
-            navigation={navigation}
-            label="Doxologies"
-            routeName="Doxologies"
-          />
-        )}
-        {developerMode && (
-          <DrawerButton
-            navigation={navigation}
-            label="Seasonal Doxologies"
-            routeName="SeasonalDoxologies"
-          />
-        )}
 
         <DrawerButton navigation={navigation} label="About" routeName="About" />
 

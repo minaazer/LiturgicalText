@@ -1,0 +1,245 @@
+[
+  {
+    "english_title": "The Hymn of Intercessions",
+    "coptic_title": "Ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲃⲓⲁ̀",
+    "arabic_title": "الهيتينيات",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Through the intercessions, of the Mother of God Saint Mary, O Lord grant us the forgiveness of our sins.",
+                "coptic": "Ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲃⲓⲁ: ⲛ̀ⲧⲉ ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ ⲉ̅ⲑ̅ⲩ̅ Ⲙⲁⲣⲓⲁ: Ⲡⲟ̅ⲥ̅ ⲁⲣⲓϩ̀ⲙⲟⲧ ⲛⲁⲛ ⲙ̀ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ.",
+                "arabic": "بشفاعات والدة الإله القديسة مريم، يا رب أنعم علينا بمغفرة خطايانا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Through the intercessions, of the holy archangel,<br/> Michael the head of the heavenly, O Lord...",
+                "coptic": "Ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲃⲓⲁ: ⲛ̀ⲧⲉ ⲡ̀ⲓⲁ̀ⲣⲭⲏⲁ̀ⲅⲅⲉⲗⲟⲥ ⲉ̅ⲑ̅ⲩ̅: Ⲙⲓⲭⲁⲏⲗ ⲡ̀ⲁ̀ⲣⲭⲱⲛ ⲛ̀ⲛⲁ ⲛⲓⲫⲏⲟⲩⲓ̀ :Ⲡⲟ̅ⲥ̅...",
+                "arabic": "بشفاعات رئيس الملائكة الطاهر ميخائيل رئيس السمائين.يا رب أنعم ..."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Resurrection",
+              "Holy 50 Days - Before Ascension",
+              "Feast of the Ascension",
+              "Holy 50 Days - After Ascension",
+              "Joyful 29th of the Month"
+            ],
+            "cells": [
+              {
+                "english": "Through the intercessions, of the trumpeter of the Resurrection, Michael the head of the heavenly, O Lord....",
+                "coptic": "Ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲃⲓⲁ: ⲛ̀ⲧⲉ ⲡⲓⲯⲁⲗⲡⲓⲥⲧⲏⲥ ⲛ̀Ϯⲁ̀ⲛⲁⲥⲧⲁⲥⲓⲥ: Ⲙⲓⲭⲁⲏⲗ ⲡ̀ⲁⲣⲭⲱⲛ ⲛ̀ⲛⲁ ⲛⲓⲫⲏⲟⲩⲓ̀: Ⲡ̀ⲟ̅ⲥ̅...",
+                "arabic": "بشفاعات، مُبَوِّق القيامة، ميخائيل رئيس السمائيين، يا رب..."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "saints": [
+              "Archangel Gabriel"
+            ],
+            "seasons": [
+              "Feast of the Annunciation",
+              "Joyful 29th of the Month"
+            ],
+            "cells": [
+              {
+                "english": "Through the intercessions, of the holy archangel, Gabriel the announcer, O Lord...",
+                "coptic": "Ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲃⲓⲁ ⲛ̀ⲧⲉ ⲡⲓⲁⲣⲭⲏⲁⲅⲅⲉⲗⲟⲥ ⲉⲑⲟⲩⲁⲃ: Ⲅⲁⲃⲣⲓⲏⲗ ⲡⲓϥⲁⲓϣⲉⲛⲛⲟⲩϥⲓ: Ⲡ̀ⲟ̅ⲥ̅...",
+                "arabic": "بشفاعات، رئيس الملائكة الطاهر، غبريال المبشر، يا رب أنعم.."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Through the intercessions, of the seven archangels, and the heavenly orders, O Lord...",
+                "coptic": "Ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲃⲓⲁ: ⲛ̀ⲧⲉ ⲡⲓϣⲁϣϥ ⲛ̀ⲁ̀ⲣⲭⲏⲁ̀ⲅⲅⲉⲗⲟⲥ: ⲛⲉⲙ ⲛⲓⲧⲁⲅⲙⲁ ⲛ̀ⲉ̀ⲡⲟⲩⲣⲁⲛⲓⲟⲛ: Ⲡⲟ̅ⲥ̅...",
+                "arabic": "بشفاعات رؤسات الملائكة السبعة و الطغمات السمائية.يا رب أنعم ..."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "saints": [
+              "St. John the Baptist"
+            ],
+            "seasons": [
+              "Feast of the Theophany",
+              "2nd Day of Theophany"
+            ],
+            "cells": [
+              {
+                "english": "Through the intercessions of Emmanuel's kin, John the son of Zechariah, O Lord...",
+                "coptic": "Ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲃⲓⲁ ⲛ̀ⲧⲉ ⲡⲓⲥⲩⲅⲅⲉⲛⲏⲥ ⲛ̀Ⲉⲙⲙⲁⲛⲟⲩⲏⲗ<br/> Ⲓⲱⲁⲛⲛⲏⲥ ⲡ̀ϣⲏⲣⲓ ⲛ̀Ⲍⲁⲭⲁⲣⲓⲁⲥ: Ⲡ̀ⲟ̅ⲥ̅...",
+                "arabic": "بشفاعات نسيب عمانوئيل يوحنا ابن زكريا يا رب..."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Through the prayers, of my masters and fathers the apostles, and the rest of the disciples, O Lord...",
+                "coptic": "Ϩⲓⲧⲉⲛ ⲛⲓⲉ̀ⲩⲭⲏ: ⲛ̀ⲧⲉ ⲛⲁⲟ̅ⲥ̅ ⲛ̀ⲓⲟϯ ⲛ̀ⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ: ⲛⲉⲙ ⲡ̀ⲥⲉⲡⲓ ⲛ̀ⲧⲉ ⲛⲓⲙⲁⲑⲏⲧⲏⲥ: Ⲡⲟ̅ⲥ̅...",
+                "arabic": "بصلوات سادتي الآباء الرسل و بقية التلاميذ. يا رب أنعم ..."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Through the prayers, of the beholder of God the evangelist, Mark the apostle, O Lord...",
+                "coptic": "Ϩⲓⲧⲉⲛ ⲛⲓⲉ̀ⲩⲭⲏ: ⲛ̀ⲧⲉ ⲡⲓⲑⲉⲱ̀ⲣⲓⲙⲟⲥ ⲛ̀ⲉ̀ⲩⲁ̀ⲅⲅⲉⲗⲓⲥⲧⲏⲥ: Ⲙⲁⲣⲕⲟⲥ ⲡⲓⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ: Ⲡⲟ̅ⲥ̅...",
+                "arabic": "بصلوات ناظر الإله الإنجيلي مرقص الرسول. يا رب أنعم ..."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Nativity",
+              "Joyful 29th of the Month"
+            ],
+            "cells": [
+              {
+                "english": "Through the prayers of the blessed elders, Joseph the carpenter and Saint Salome, O Lord...",
+                "coptic": "Ϩⲓⲧⲉⲛ ⲛⲓⲉ̀ⲩⲭⲏ ⲛ̀ⲧⲉ ⲛⲓϧⲉⲗⲗⲟⲓ: ⲧ̀ⲥⲙⲁⲣⲱⲟⲩⲧ Ⲓⲱⲥⲏⲫ ⲡⲓϩⲁⲙϣⲉ ⲛⲉⲙ ⲑⲏⲉ̅ⲑ̅ⲩ̅ Ⲥⲁⲗⲱⲙⲓ: Ⲡⲟ̅ⲥ̅...",
+                "arabic": "بصلوات الشيخين المباركين، يوسف النجار والقديسة سالومى، يا رب..."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Resurrection",
+              "Holy 50 Days - Before Ascension",
+              "Feast of the Ascension",
+              "Holy 50 Days - After Ascension",
+              "Joyful 29th of the Month"
+            ],
+            "cells": [
+              {
+                "english": "Through the prayers, of the righteous and perfect men, Joseph and Nicodemus, and Saint Mary Magdalene, O Lord....",
+                "coptic": "Ϩⲓⲧⲉⲛ ⲛⲓⲉⲩⲭⲏ: ⲛ̀ⲧⲉ ⲛⲓⲑ̀ⲙⲏⲓ ⲛⲓⲣⲱⲙⲓ ⲛ̀ⲧⲉⲗⲓⲟⲥ: Ⲓⲱⲥⲏⲫ ⲛⲉⲙ Ⲛⲓⲕⲟⲇⲏⲙⲟⲥ: ⲛⲉⲙ ϯⲁ̀ⲅⲓⲁ Ⲙⲁⲣⲓⲁ Ϯⲙⲁⲅⲇⲁⲗⲓⲛⲏ: Ⲡ̀ⲟ̅ⲥ̅...",
+                "arabic": "بصلوات، البارين الرجلين الكاملين، يوسف ونيقوديموس، والقديسة مريم المجدلية، يا رب ..."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "seasons": [
+              "Feast of the Apostles (Peter & Paul)"
+            ],
+            "cells": [
+              {
+                "english": "Through the prayers, of my masters the fathers the apostles, our father Peter and our teacher Paul, O Lord grant us the forgiveness of our sins.<br/>",
+                "coptic": "Ϩⲓⲧⲉⲛ ⲛⲓⲉⲩⲭⲏ: ⲛ̀ⲧⲉ ⲛⲁϭⲟⲓⲥ ⲛ̀ⲓⲟϯ ⲛ̀ⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ: ⲡⲉⲛⲓⲱⲧ Ⲡⲉⲧⲣⲟⲥ ⲛⲉⲙ ⲡⲉⲛⲥⲁϧ Ⲡⲁⲩⲗⲟⲥ: Ⲡ̀ϭⲟⲓⲥ ⲁ̀ⲣⲓϩ̀ⲙⲟⲧ ⲛⲁⲛ ⲙ̀ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ.",
+                "arabic": "بصلوات، سيدي الأبوين الرسولين، أبينا بطرس ومعلمنا بولس، يا رب أنعم علينا بمغفرة خطايانا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Through the prayers, of the blessed archdeacon, Stephen the first martyr, O Lord...",
+                "coptic": "Ϩⲓⲧⲉⲛ ⲛⲓⲉ̀ⲩⲭⲏ: ⲛ̀ⲧⲉ ⲡⲓⲁ̀ⲣⲭⲏⲇⲓⲁⲕⲱⲛ ⲉ̀ⲧⲥ̀ⲙⲁⲣⲱⲟⲩⲧ: Ⲥ̀ⲧⲉⲫⲁⲛⲟⲥ ⲡⲓϣⲟⲣⲡ ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ: Ⲡⲟ̅ⲥ̅...",
+                "arabic": "بصلوات رئيس الشمامسة المبارك اسطفانوس أول الشهداء. يا رب أنعم ..."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Through the prayers, of the struggle mantled martyr, my master prince George,O Lord,...",
+                "coptic": "Ϩⲓⲧⲉⲛ ⲛⲓⲉ̀ⲩⲭⲏ: ⲛ̀ⲧⲉ ⲡⲓⲁ̀ⲑⲗⲟⲫⲟⲣⲟⲥ ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ: ⲡⲁⲟ̅ⲥ̅ ⲡ̀ⲟⲩⲣⲟ Ⲅⲉⲱ̀ⲣⲅⲓⲟⲥ: Ⲡⲟ̅ⲥ̅...",
+                "arabic": "بصلوات المجاهد الشهيد سيدي الملك جيؤرجيوس.يا رب أنعم ..."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Through the prayers, of the struggle mantled martyr, Theodorus the general,O Lord,...",
+                "coptic": "Ϩⲓⲧⲉⲛ ⲛⲓⲉ̀ⲩⲭⲏ: ⲛ̀ⲧⲉ ⲡⲓⲁ̀ⲑⲗⲟⲫⲟⲣⲟⲥ ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ: Ⲑⲉⲟ̀ⲇⲱⲣⲟⲥ ⲡⲓⲥ̀ⲧ̀ⲣⲁⲧⲓⲗⲁⲧⲏⲥ: Ⲡⲟ̅ⲥ̅...",
+                "arabic": "بصلوات المجاهد الشهيد تيؤدوروس اللسفهسلار. يا رب أنعم ..."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Through the prayers, of the struggle mantled martyr, Philopater Mercurius, O Lord...",
+                "coptic": "Ϩⲓⲧⲉⲛ ⲛⲓⲉ̀ⲩⲭⲏ: ⲛ̀ⲧⲉ ⲡⲓⲁ̀ⲑⲗⲟⲫⲟⲣⲟⲥ ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ: Ⲫⲓⲗⲟⲡⲁⲧⲏⲣ Ⲙⲉⲣⲕⲟⲩⲣⲓⲟⲥ: Ⲡⲟ̅ⲥ̅...",
+                "arabic": "بصلوات المجاهد الشهيد مرقوريوس محب الآب. يا رب أنعم ..."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Through the prayers, of the struggle mantled martyr, Abba Mena of Fayat, O Lord...",
+                "coptic": "Ϩⲓⲧⲉⲛ ⲛⲓⲉ̀ⲩⲭⲏ: ⲛ̀ⲧⲉ ⲡⲓⲁ̀ⲑⲗⲟⲫⲟⲣⲟⲥ ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ: ⲁⲃⲃⲁ Ⲙⲏⲛⲁ ⲛ̀ⲧⲉ ⲛⲓⲪⲁⲓⲁⲧ: Ⲡⲟ̅ⲥ̅...",
+                "arabic": "بصلوات المجاهد الشهيد ابا مينا البياضي. يا رب أنعم ..."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "saints": [
+              "King Constantine",
+              "Queen Helen"
+            ],
+            "seasons": [
+              "Feast of the Cross"
+            ],
+            "cells": [
+              {
+                "english": "Through the prayers, of my lord king Constantine, and his mother queen Helen, O Lord….",
+                "coptic": "Ϩⲓⲧⲉⲛ ⲛⲓⲉⲩⲭⲏ: ⲛ̀ⲧⲉ ⲡⲁϭⲟⲓⲥ ⲡ̀ⲟⲩⲣⲟ Ⲕⲱⲥⲧⲁⲛⲧⲓⲛⲟⲥ: ⲛⲉⲙ Ⲏ̀ⲗⲁⲛⲏ ⲧⲉϥⲙⲁⲩ ϯⲟⲩⲣⲱ: Ⲡ̀ⲟ̅ⲥ̅...",
+                "arabic": "بصلوات سيدي الملك قسطنطين وأمه الملكة هيلانة، يا رب..."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Through the prayers, of the saints of this day, each one by his name, O Lord...",
+                "coptic": "Ϩⲓⲧⲉⲛ ⲛⲓⲉ̀ⲩⲭⲏ: ⲛ̀ⲧⲉ ⲛⲏⲉ̅ⲑ̅ⲩ̅ ⲛ̀ⲧⲉ ⲡⲁⲓⲉ̀ϩⲟⲟⲩ: ⲡⲓⲟⲩⲁⲓ ⲡⲓⲟⲩⲁⲓ ⲕⲁⲧⲁ ⲡⲉϥⲣⲁⲛ: Ⲡⲟ̅ⲥ̅...",
+                "arabic": "بصلوات قديسي هذا اليوم كل واحد باسمه. يا رب أنعم ..."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Through their prayers, keep the life of our honored father the high priest, Papa Abba(...), O Lord...",
+                "coptic": "Ϩⲓⲧⲉⲛ ⲛⲟⲩⲉ̀ⲩⲭⲏ: ⲁ̀ⲣⲉϩ ⲉ̀ⲡ̀ⲱⲛϧ ⲙ̀ⲡⲉⲛⲱⲓⲧ ⲉⲧⲧⲁⲓⲏⲟⲩⲧ ⲛ̀ⲁ̀ⲣⲭⲏⲉ̀ⲣⲉⲩⲥ: ⲡⲁⲡⲁ ⲁⲃⲃⲁ (...) :Ⲡⲟ̅ⲥ̅ ⲁⲣⲓϩ̀ⲙⲟⲧ ⲛⲁⲛ ⲙ̀ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ.",
+                "arabic": "بصلوات إحفظ حياة أبينا المكرم رئيس الكهنة البابا الانبا(...). يا رب أنعم ..."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

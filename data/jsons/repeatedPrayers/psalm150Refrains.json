@@ -1,0 +1,175 @@
+[
+  {
+    "psalm150Refrains": [
+      {
+        "row-class": "text",
+        "seasons": [
+          "Feast of the Theophany"
+        ],
+        "cells": [
+          {
+            "english": "Jesus Christ the Son of God, was baptized in the Jordan.",
+            "coptic": "Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫ̀ⲛⲟⲩϯ: ⲁϥϭⲓⲱⲙⲥ ϧⲉⲛ Ⲡⲓⲓⲟⲣⲇⲁⲛⲏⲥ.",
+            "arabic": "يسوع المسيح إبن الله، إعتمد في الأردن."
+          }
+        ]
+      },
+      {
+        "row-class": "text",
+        "seasons": [
+          "Feast of the Annunciation"
+        ],
+        "cells": [
+          {
+            "english": "Jesus Christ the Son of God, was incarnate from the Virgin.",
+            "coptic": "Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫ̀ⲛⲟⲩϯ: ⲁϥϭⲓⲥⲁⲣⲝ ⲉ̀ⲃⲟⲗ ϧⲉⲛ Ϯⲡⲁⲣⲑⲉⲛⲟⲥ.",
+            "arabic": "يسوع المسيح، إبن الله، تجسد من العذراء."
+          }
+        ]
+      },
+      {
+        "row-class": "text",
+        "seasons": [
+          "Hosanna Sunday"
+        ],
+        "cells": [
+          {
+            "english": "Jesus Christ the Son of God, has entered Jerusalem.",
+            "coptic": "Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫ̀ⲛⲟⲩϯ: ⲁϥϣⲉ ⲉ̀ϧⲟⲩⲛ ⲉ̀Ⲓⲉⲣⲟⲩⲥⲁⲗⲏⲙ.",
+            "arabic": "يسوع المسيح إبن الله، دخل أورُشَليم."
+          }
+        ]
+      },
+      {
+        "row-class": "text",
+        "seasons": [
+          "Feast of the Resurrection",
+          "Holy 50 Days - Before Ascension"
+        ],
+        "cells": [
+          {
+            "english": "Jesus Christ the King of glory, has risen from the dead.",
+            "coptic": "Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ Ⲡ̀ⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲡ̀ⲱ̀ⲟⲩ: ⲁϥⲧⲱⲛϥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ.",
+            "arabic": "يسوع المسيح ملك المجد، قام من بين الأموات."
+          }
+        ]
+      },
+      {
+        "row-class": "text",
+        "seasons": [
+          "Feast of the Ascension",
+          "Holy 50 Days - After Ascension"
+        ],
+        "cells": [
+          {
+            "english": "Christ has risen from the dead, and ascended into the heavens.",
+            "coptic": "Ⲡⲭ̅ⲥ̅ ⲁϥⲧⲱⲛϥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ: ⲟⲩⲟϩ ⲁϥϣⲉⲛⲁϥ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ⲛⲓⲫⲏⲟⲩⲓ̀.<br/>",
+            "arabic": "المسيح قام من الأموات، وصعد إلى السموات.<br/>"
+          }
+        ]
+      },
+      {
+        "row-class": "text",
+        "season": "Feast of Pentecost",
+        "cells": [
+          {
+            "english": "Christ has risen and ascended, and sent us the Paraclete.<br/>",
+            "coptic": "Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ ⲁϥⲧⲱⲛϥ ⲟⲩⲟϩ ⲁϥϣⲉⲛⲁϥ: ⲁϥⲟⲩⲱⲣⲡ ⲛⲁⲛ ⲙ̀Ⲡⲓⲡⲁⲣⲁⲕⲗⲏⲧⲟⲛ.",
+            "arabic": "المسيح قام ثم صعد، وأرسل لنا البارقليط."
+          }
+        ]
+      },
+      {
+        "row-class": "text",
+        "seasons": [
+          "Feast of the Circumcision"
+        ],
+        "cells": [
+          {
+            "english": "Jesus Christ the Son of God, accepted to Himself circumcision.<br/>",
+            "coptic": "Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ Ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫ̀ⲛⲟⲩϯ: ⲁϥϣⲱⲡ ⲉ̀ⲣⲟϥ ⲙ̀ⲡⲓⲥⲉⲃⲓ. <br/>",
+            "arabic": "يسوع المسيح إبن الله، قَبِلَ إليه الختان.<br/>"
+          }
+        ]
+      },
+      {
+        "row-class": "text",
+        "seasons": [
+          "Presentation of the Lord Christ in the Temple"
+        ],
+        "cells": [
+          {
+            "english": "Jesus Christ, the Son of God, entered into the temple.",
+            "coptic": "Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ ⲡ̀Ϣⲏⲣⲓ ⲙ̀Ⲫ̀ϯ: ⲁϥϣⲉ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲡⲓⲉⲣⲫⲉⲓ.",
+            "arabic": "يسوع المسيح ابن الله دخل الى الهيكل."
+          }
+        ]
+      },
+      {
+        "row-class": "text",
+        "seasons": [
+          "Entrance of the Lord Christ into the Land of Egypt"
+        ],
+        "cells": [
+          {
+            "english": "Jesus Christ the Son of God, came to the land of Egypt.",
+            "coptic": "Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫ̀ⲛⲟⲩϯ: ⲁϥⲓ̀ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲡ̀ⲕⲁϩⲓ ⲛ̀Ⲭⲏⲙⲓ.",
+            "arabic": "يسوع المسيح إبن الله، دخل إلي أرض مصر."
+          }
+        ]
+      },
+      {
+        "row-class": "text",
+        "seasons": [
+          "Feast of the Wedding at Cana of Galilee"
+        ],
+        "cells": [
+          {
+            "english": "Jesus Christ the Son of God, blessed the water and changed it into wine.",
+            "coptic": "Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ Ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫϯ: ⲁϥⲥ̀ⲙⲟⲩ ⲉ̀ⲛⲓⲙⲱⲟⲩ ⲁϥⲁⲓⲧⲟⲩ ⲛ̀ⲏⲣⲡ.",
+            "arabic": "يسوع المسيح إبن الله، بارك الماء فصيرها خمراً."
+          }
+        ]
+      },
+      {
+        "row-class": "text",
+        "seasons": [
+          "Feast of the Transfiguration"
+        ],
+        "cells": [
+          {
+            "english": "Jesus Christ the Son of God, was transfigured on Mount Tabor.",
+            "coptic": "Ⲓⲏ̅ⲥ̅ Ⲡⲭ̅ⲥ̅ Ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫϯ: ⲁϥϣⲟⲃⲧϥ ⲉ̀ϫⲉⲛ ⲡⲓⲧⲱⲟⲩ ⲛ̀ⲑⲁⲃⲱⲣ.",
+            "arabic": "يسوع المسيح إبن الله، تجلى على طور تابور."
+          }
+        ]
+      },
+      {
+        "row-class": "text",
+        "seasons": [
+          "(Nayrouz) Coptic New Year"
+        ],
+        "cells": [
+          {
+            "english": "Bless the crown of the year, with Your goodness O Lord.",
+            "coptic": "Ⲥ̀ⲙⲟⲩ ⲉ̀ⲡⲓⲭ̀ⲗⲟⲙ ⲛ̀ⲧⲉ ϯⲣⲟⲙⲡⲓ: ϩⲓⲧⲉⲛ ⲧⲉⲕⲙⲉⲧⲭ̀ⲣⲏⲥⲧⲟⲥ Ⲡ̀ⲟ̅ⲥ̅.",
+            "arabic": "بارك إكليل [هذه] السنة، بصلاحك يا رب."
+          }
+        ]
+      },
+      {
+        "row-class": "text",
+        "seasons": [
+          "Feast of the Cross"
+        ],
+        "cells": [
+          {
+            "english": "Jesus Christ the Son of God, was crucified upon the Cross.<br/>",
+            "coptic": "Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫ̀ⲛⲟⲩϯ: ⲫⲏⲉ̀ⲧⲁⲩⲁϣϥ ⲉ̀Ⲡⲓⲥ̀ⲧⲁⲩⲣⲟⲥ.",
+            "arabic": "يسوع المسيح إبن الله، صُلِب على الصليب."
+          }
+        ]
+      }
+    ]
+  }
+]

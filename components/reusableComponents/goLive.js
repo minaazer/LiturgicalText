@@ -15,10 +15,22 @@ const GoLive = () => {
     const handleSetLiveDate = () => {
         setCurrentDate(new Date(), 'live'); // Reset to live (current) date
     };
-    const currentDate = settings.selectedDateProperties && settings.selectedDateProperties.adjustedDate ? settings.selectedDateProperties.adjustedDate : new Date(); // Get the current date
-    const copticDate = settings.selectedDateProperties && settings.selectedDateProperties.copticDate ? settings.selectedDateProperties.copticDate : null; // Get the current Coptic date
-    const currentSeason = settings.selectedDateProperties && settings.selectedDateProperties.copticSeason ? settings.selectedDateProperties.copticSeason : null; // Get the current season
-    const saintFeasts = settings.selectedDateProperties && settings.selectedDateProperties.saintFeast ? settings.selectedDateProperties.saintFeast : null; // Get the current saint or feast
+    const currentDateValue =
+        settings.selectedDateProperties &&
+        settings.selectedDateProperties.adjustedDate
+            ? settings.selectedDateProperties.adjustedDate
+            : new Date();
+    const currentDate = new Date(currentDateValue);
+    const safeDate = Number.isNaN(currentDate.getTime())
+        ? new Date()
+        : currentDate;
+    const copticDate = settings.selectedDateProperties?.copticDate || null; // Get the current Coptic date
+    const currentSeason = Array.isArray(settings.selectedDateProperties?.copticSeason)
+        ? settings.selectedDateProperties.copticSeason
+        : []; // Get the current season(s)
+    const saintFeasts = Array.isArray(settings.selectedDateProperties?.saintFeast)
+        ? settings.selectedDateProperties.saintFeast
+        : []; // Get the current saint or feast(s)
 
 
     return (
@@ -29,15 +41,21 @@ const GoLive = () => {
                     year: 'numeric', // Full year
                     month: 'numeric', // Full month name
                     day: 'numeric', // Numeric day
-                }).format(new Date(currentDate))}
+                }).format(safeDate)}
             </Text>
-            <Text style={presentationStyles.drawerText}>
-            {copticDate.copticMonthName} {copticDate.copticDay}, {copticDate.copticYear}
-            </Text>
-            {currentSeason.map (season => (
+            {copticDate ? (
+                <Text style={presentationStyles.drawerText}>
+                    {copticDate.copticMonthName} {copticDate.copticDay}, {copticDate.copticYear}
+                </Text>
+            ) : (
+                <Text style={presentationStyles.drawerText}>
+                    Loading Coptic date...
+                </Text>
+            )}
+            {currentSeason.map((season) => (
                 <Text style={presentationStyles.drawerText} key={season}>{season}</Text>
             ))}
-            {saintFeasts.map(feast => (
+            {saintFeasts.map((feast) => (
                 <Text style={presentationStyles.drawerText} key={feast.feast}>{feast.feast}</Text>
             ))}
 

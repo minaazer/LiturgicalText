@@ -213,6 +213,32 @@ export const presentationStyles = StyleSheet.create({
     padding: 10,
     backgroundColor: "#003060",
   },
+  headerLinksRow: {
+    flexDirection: "row",
+    alignItems: "stretch",
+    justifyContent: "center",
+    width: "100%",
+    flex: 1,
+  },
+  headerLinksStacked: {
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "flex-start",
+    width: "100%",
+    flex: 1,
+  },
+  sideHeaderContainer: {
+    alignItems: "center",
+    justifyContent: "center",
+    paddingVertical: 10,
+    paddingHorizontal: 10,
+    backgroundColor: "#003060",
+  },
+  sideContentContainer: {
+    width: "100%",
+    alignItems: "center",
+    flex: 1,
+  },
   booksContainer: {
     flex: 3.5,
     marginLeft: -20,
@@ -403,10 +429,10 @@ export const presentationStyles = StyleSheet.create({
   },
   fontSetting: {
     display: "flex",
-    flexDirection: isPortrait ? "row" : "column",
+    flexDirection: "column",
     alignItems: "center",
     justifyContent: "space-between",
-    width: isPortrait ? "100%" : "50%",
+    width: isPortrait ? "100%" : "45%",
     marginBottom: 10,
   },
   pickerWrapper: {

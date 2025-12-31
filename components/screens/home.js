@@ -65,26 +65,30 @@ const Home = () => {
       textShadowOffset: { width: 1, height: 1 },
     },
     pageContainer: {
-      flex: 1,
-      justifyContent: 'center',
+      flexGrow: 1,
+      justifyContent: 'flex-start',
       alignItems: 'center',
       width: '100%',
-      minHeight: screenHeight,
     },
     pageContentContainer: {
       flex: 1,
       width: '100%',
-      justifyContent: 'center',
+      justifyContent: 'flex-start',
       alignItems: 'center',
     },
     headerContainer: {
       marginTop: 10,
-      marginBottom: 10,
+      marginBottom: 0,
+      justifyContent: 'center',
+      alignItems: 'center',
+    },
+    booksSectionWrapper: {
+      flex: 1,
+      width: '100%',
       justifyContent: 'center',
       alignItems: 'center',
     },
     booksContainer: {
-      flex: 1,
       justifyContent: 'center',
       alignItems: 'center',
       flexWrap: 'wrap',
@@ -102,7 +106,7 @@ const Home = () => {
       flexDirection: 'row', // Row layout
       justifyContent: 'space-evenly', // Evenly spaced items
       flexWrap: 'wrap', // Allow wrapping
-      paddingVertical: 10,
+      paddingVertical: 2,
       width: '100%',
     },
     iconImage: {
@@ -121,8 +125,9 @@ const Home = () => {
             <Text style={styles.pageHeader}>Liturgical Books</Text>
         </View>
 
-        <View style={styles.booksContainer}>
-          <View style={styles.iconRow}>
+        <View style={styles.booksSectionWrapper}>
+          <View style={styles.booksContainer}>
+            <View style={styles.iconRow}>
 
             
               {developerMode ? (
@@ -189,6 +194,7 @@ const Home = () => {
               </TouchableOpacity>
               ) : null }
             </View>
+          </View>
         </View>
       </View>
     </ImageBackground>

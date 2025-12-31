@@ -1,0 +1,42 @@
+Feasible, and pretty common for content‑heavy apps. The complexity is moderate if you keep it to “static JSON + manifest + cache,” and higher if you add a multi‑user editing portal with validation, workflows, and permissions.
+
+Here’s a practical approach:
+
+1) Hosting + versioning
+
+Store JSON files on an object store / static server. On Lightsail, you can run an Nginx static server, or simpler: use S3 + CloudFront (less ops).
+Add a manifest.json that lists each file, its version/hash, and last updated time.
+App startup flow: download manifest → compare to cached manifest → fetch only changed files → update cache → use cache when offline.
+2) Caching on device
+
+Cache JSONs in the filesystem (e.g., expo-file-system or React Native FS) rather than AsyncStorage for large files.
+Keep a small “index” in AsyncStorage for the manifest + versions.
+3) Offline behavior
+
+If network fails, load from cache.
+If cache missing on first run, show a “download required” screen.
+4) Editing portal
+
+Easiest: headless CMS (Strapi, Directus, Sanity).
+Pros: auth, versioning, UI, validation.
+Cons: you’ll need to map content to your JSON format or build a transform layer.
+Alternative: Git‑based workflow (Netlify CMS / Decap) + CI that builds JSON and deploys to the server.
+If you need a custom editor for your table schema, that’s a larger effort (schema‑driven UI + validation + preview + approvals).
+5) Validation
+
+Add JSON schema validation server‑side before publishing.
+App should reject invalid payloads and fall back to cached version.
+Complexity estimate
+
+Static host + manifest + caching: low to medium (a few days).
+CMS + user editing + approvals + validation: medium to high (weeks, depending on UI and workflows).
+If you want, I can draft:
+
+A manifest format and app‑side loader skeleton.
+A minimal backend plan on Lightsail.
+A recommendation between CMS vs Git workflow based on your needs.
+To scope this correctly, can you tell me:
+
+Rough number/size of JSON files?
+Do you need user roles/approvals?
+Is the JSON schema stable, or do you expect frequent structure changes?

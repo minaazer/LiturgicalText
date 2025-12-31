@@ -1,4 +1,4 @@
-[
+export const feasts = [
     { start: jonahFastStart, end: jonahFastEnd, season: "Jonah's Fast", priority: 3
     },
     { date: jonahFeast, season: "Jonah's Passover", priority: 3
@@ -105,4 +105,23 @@
     },
     { date: "Mesore 16", season: "Assumption of the Body of St. Mary", priority: 2
     },
-]
+];
+
+export const feastsOfTheLordSeasons = [
+            "Feast of the Nativity",
+            "2nd Day of Nativity",
+            "Feast of the Circumcision",
+            "Feast of the Theophany",
+            "2nd Day of Theophany",
+            "Feast of the Wedding at Cana of Galilee",
+            "Presentation of the Lord Christ in the Temple",
+            "Feast of the Annunciation",
+            "Entrance of the Lord Christ into the Land of Egypt",
+            "Feast of the Transfiguration",
+            "Hosanna Sunday",
+            "Feast of the Resurrection",
+            "Holy 50 Days - Before Ascension",
+            "Feast of the Ascension",
+            "Holy 50 Days - After Ascension",
+            "Feast of Pentecost"
+        ];
