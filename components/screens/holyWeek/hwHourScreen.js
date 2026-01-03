@@ -1,6 +1,6 @@
 /** @format */
 
-import React, { useRef, useState, useContext } from "react";
+import React, { useRef, useState, useContext, useEffect } from "react";
 import RightMenuDrawer from "../../navigation/BookDrawer";
 import { useDynamicStyles } from "../../css/cssStyles";
 import { htmlRenderScript } from "../../functions/jsScripts";
@@ -12,11 +12,13 @@ import { renderHour } from "../../../data/renderHWHour";
 import holyWeekData from "../../../data/jsons/holyWeek.json";
 import { iconVariables } from "../../../data/iconVariables";
 import SettingsContext from "../../../settings/settingsContext";
+import { getJson } from "../../functions/jsonCache";
 
 const HolyWeekHourScreen = ({ route }) => {
   const { serviceName, hourName } = route.params; // Assume these are passed via navigation
   const [drawerItems, setDrawerItems] = useState([]);
   const [currentTable, setCurrentTable] = useState("");
+  const [holyWeekJson, setHolyWeekJson] = useState(holyWeekData);
   const [settings] = useContext(SettingsContext);
   const paschalReadingsFull = settings.paschalReadingsFull;
   const onePageSettings = settings.onePage;
@@ -24,11 +26,37 @@ const HolyWeekHourScreen = ({ route }) => {
 
   const dynamicStyles = useDynamicStyles(webviewRef);
 
+  useEffect(() => {
+    let isMounted = true;
+    getJson("holyWeek.json", holyWeekData).then((data) => {
+      if (isMounted && data) {
+        setHolyWeekJson(data);
+      }
+    });
+    return () => {
+      isMounted = false;
+    };
+  }, []);
+
   // Assuming `jsonData` is the parsed JSON object.
-  const serviceData = holyWeekData.find(
+  const serviceData = holyWeekJson.find(
     (service) => service.service[0] === serviceName
   );
-  const hourData = serviceData.hours.find((hour) => hour.hour[0] === hourName);
+  const hourData = serviceData?.hours?.find((hour) => hour.hour[0] === hourName);
+
+  if (!serviceData || !hourData) {
+    return (
+      <RightMenuDrawer
+        currentTable={currentTable}
+        drawerItems={drawerItems}
+        handleDrawerItemPress={handleDrawerItemPress}
+        webviewRef={webviewRef}
+        setDrawerItems={setDrawerItems}
+        setCurrentTable={setCurrentTable}
+        html="<div>Loading...</div>"
+      />
+    );
+  }
 
   const serviceNameArabic = serviceData.service[1];
   const hourNameArabic = hourData.hour[1];

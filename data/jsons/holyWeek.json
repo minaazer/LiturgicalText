@@ -20411,92 +20411,78 @@
                 "tbodies": [
                   {
                     "rows": [
-                      {
-                        "row-class": "intro",
-                        "cells": [
-                          {
-                            "english": "A reading from Ezekiel the prophet. May his blessings be with us. Amen.",
-                            "arabic": "من حزقيال النبى بركته تكون معنا، آمين."
-                          }
-                        ]
-                      },
-                      {
-                        "row-class": "text",
-                        "rows": [
-                          {
-                            "row-class": "intro",
-                            "cells": [
-                              {
-                                "english": "A reading from Ezekiel the prophet. May his blessings be with us. Amen.",
-                                "arabic": "من حزقيال النبى بركته تكون معنا، آمين."
-                              }
-                            ]
-                          },
-                          {
-                            "row-class": "text",
-                            "cells": [
-                              {
-                                "english": "And the word of the Lord came to me, saying,",
-                                "arabic": "وَكَانَ إِلَيَّ كَلاَمُ الرَّبِّ:"
-                              }
-                            ]
-                          },
-                          {
-                            "row-class": "text",
-                            "cells": [
-                              {
-                                "english": "\"Son of man, say to her: 'You are a land that is not cleansed or rained on in the day of indignation.'",
-                                "arabic": "[يَا ابْنَ آدَمَ, قُلْ لَهَا: أَنْتِ الأَرْضُ الَّتِي لَمْ تَطْهُرْ. لَمْ يُمْطَرْ عَلَيْهَا فِي يَوْمِ الْغَضَبِ."
-                              }
-                            ]
-                          },
-                          {
-                            "row-class": "text",
-                            "cells": [
-                              {
-                                "english": "The conspiracy of her prophets in her midst is like a roaring lion tearing the prey; they have devoured people; they have taken treasure and precious things; they have made many widows in her midst.",
-                                "arabic": "فِتْنَةُ أَنْبِيَائِهَا فِي وَسَطِهَا كَأَسَدٍ مُزَمْجِرٍ يَخْطُفُ الْفَرِيسَةَ. أَكَلُوا نُفُوساً. أَخَذُوا الْكَنْزَ وَالنَّفِيسَ. أَكْثَرُوا أَرَامِلَهَا فِي وَسَطِهَا."
-                              }
-                            ]
-                          },
-                          {
-                            "row-class": "text",
-                            "cells": [
-                              {
-                                "english": "Her priests have violated My law and profaned My holy things; they have not distinguished between the holy and unholy, nor have they made known the difference between the unclean and the clean; and they have hidden their eyes from My Sabbaths, so that I am profaned among them.",
-                                "arabic": "كَهَنَتُهَا خَالَفُوا شَرِيعَتِي وَنَجَّسُوا أَقْدَاسِي. لَمْ يُمَيِّزُوا بَيْنَ الْمُقَدَّسِ وَالْمُحَلَّلِ, وَلَمْ يَعْلَمُوا الْفَرْقَ بَيْنَ النَّجِسِ وَالطَّاهِرِ, وَحَجَبُوا عُيُونَهُمْ عَنْ سُبُوتِي فَتَدَنَّسْتُ فِي وَسَطِهِمْ."
-                              }
-                            ]
-                          },
-                          {
-                            "row-class": "text",
-                            "cells": [
-                              {
-                                "english": "Her princes in her midst are like wolves tearing the prey, to shed blood, to destroy people, and to get dishonest gain.",
-                                "arabic": "رُؤَسَاؤُهَا فِي وَسَطِهَا كَذِئَابٍ خَاطِفَةٍ خَطْفاً لِسَفْكِ الدَّمِ, لإِهْلاَكِ النُّفُوسِ لاِكْتِسَابِ كَسْبٍ."
-                              }
-                            ]
-                          },
-                          {
-                            "row-class": "text",
-                            "cells": [
-                              {
-                                "english": "Her prophets plastered them with untempered mortar, seeing false visions, and divining lies for them, saying, 'Thus says the Lord God,' when the Lord had not spoken.",
-                                "arabic": "وَأَنْبِيَاؤُهَا قَدْ طَيَّنُوا لَهُمْ بِالطُّفَالِ, رَائِينَ بَاطِلاً وَعَارِفِينَ لَهُمْ كَذِباً, قَائِلِينَ: هَكَذَا قَالَ السَّيِّدُ الرَّبُّ وَالرَّبُّ لَمْ يَتَكَلَّمْ!"
-                              }
-                            ]
-                          },
-                          {
-                            "row-class": "intro",
-                            "cells": [
-                              {
-                                "english": "Glory be to the Holy Trinity, our God, forever and unto the age of all ages. Amen.",
-                                "arabic": "مجداً للثالوث القدوس الهنا إلى الأبد وإلى أبد الآبدين كلها، آمين."
-                              }
-                            ]
-                          }
-                        ]
-                      }
+                        {
+                          "row-class": "intro",
+                          "cells": [
+                            {
+                              "english": "A reading from Ezekiel the prophet. May his blessings be with us. Amen.",
+                              "arabic": "من حزقيال النبى بركته تكون معنا، آمين."
+                            }
+                          ]
+                        },
+                        {
+                          "row-class": "text",
+                          "cells": [
+                            {
+                              "english": "And the word of the Lord came to me, saying,",
+                              "arabic": "وَكَانَ إِلَيَّ كَلاَمُ الرَّبِّ:"
+                            }
+                          ]
+                        },
+                        {
+                          "row-class": "text",
+                          "cells": [
+                            {
+                              "english": "\"Son of man, say to her: 'You are a land that is not cleansed or rained on in the day of indignation.'",
+                              "arabic": "[يَا ابْنَ آدَمَ, قُلْ لَهَا: أَنْتِ الأَرْضُ الَّتِي لَمْ تَطْهُرْ. لَمْ يُمْطَرْ عَلَيْهَا فِي يَوْمِ الْغَضَبِ."
+                            }
+                          ]
+                        },
+                        {
+                          "row-class": "text",
+                          "cells": [
+                            {
+                              "english": "The conspiracy of her prophets in her midst is like a roaring lion tearing the prey; they have devoured people; they have taken treasure and precious things; they have made many widows in her midst.",
+                              "arabic": "فِتْنَةُ أَنْبِيَائِهَا فِي وَسَطِهَا كَأَسَدٍ مُزَمْجِرٍ يَخْطُفُ الْفَرِيسَةَ. أَكَلُوا نُفُوساً. أَخَذُوا الْكَنْزَ وَالنَّفِيسَ. أَكْثَرُوا أَرَامِلَهَا فِي وَسَطِهَا."
+                            }
+                          ]
+                        },
+                        {
+                          "row-class": "text",
+                          "cells": [
+                            {
+                              "english": "Her priests have violated My law and profaned My holy things; they have not distinguished between the holy and unholy, nor have they made known the difference between the unclean and the clean; and they have hidden their eyes from My Sabbaths, so that I am profaned among them.",
+                              "arabic": "كَهَنَتُهَا خَالَفُوا شَرِيعَتِي وَنَجَّسُوا أَقْدَاسِي. لَمْ يُمَيِّزُوا بَيْنَ الْمُقَدَّسِ وَالْمُحَلَّلِ, وَلَمْ يَعْلَمُوا الْفَرْقَ بَيْنَ النَّجِسِ وَالطَّاهِرِ, وَحَجَبُوا عُيُونَهُمْ عَنْ سُبُوتِي فَتَدَنَّسْتُ فِي وَسَطِهِمْ."
+                            }
+                          ]
+                        },
+                        {
+                          "row-class": "text",
+                          "cells": [
+                            {
+                              "english": "Her princes in her midst are like wolves tearing the prey, to shed blood, to destroy people, and to get dishonest gain.",
+                              "arabic": "رُؤَسَاؤُهَا فِي وَسَطِهَا كَذِئَابٍ خَاطِفَةٍ خَطْفاً لِسَفْكِ الدَّمِ, لإِهْلاَكِ النُّفُوسِ لاِكْتِسَابِ كَسْبٍ."
+                            }
+                          ]
+                        },
+                        {
+                          "row-class": "text",
+                          "cells": [
+                            {
+                              "english": "Her prophets plastered them with untempered mortar, seeing false visions, and divining lies for them, saying, 'Thus says the Lord God,' when the Lord had not spoken.",
+                              "arabic": "وَأَنْبِيَاؤُهَا قَدْ طَيَّنُوا لَهُمْ بِالطُّفَالِ, رَائِينَ بَاطِلاً وَعَارِفِينَ لَهُمْ كَذِباً, قَائِلِينَ: هَكَذَا قَالَ السَّيِّدُ الرَّبُّ وَالرَّبُّ لَمْ يَتَكَلَّمْ!"
+                            }
+                          ]
+                        },
+                        {
+                          "row-class": "intro",
+                          "cells": [
+                            {
+                              "english": "Glory be to the Holy Trinity, our God, forever and unto the age of all ages. Amen.",
+                              "arabic": "مجداً للثالوث القدوس الهنا إلى الأبد وإلى أبد الآبدين كلها، آمين."
+                            }
+                          ]
+                        }
                     ]
                   }
                 ]
@@ -33258,14 +33244,14 @@
             ]
           },
           {
-            "title": "Homily",
-            "nonTraditionalPascha": true,
+            "title": "Homily",        
             "tables": [
               {
                 "english_title": "Homily(St. John Chrysostom)",
                 "coptic_title": null,
                 "arabic_title": "عظة (الأنبا يوحنا ذهبي الفم)",
                 "title": "Homily",
+                "nonTraditionalPascha": true,
                 "tbodies": [
                   {
                     "rows": [

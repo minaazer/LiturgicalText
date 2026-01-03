@@ -3,13 +3,14 @@ import psalisData from './jsons/psalmody/psalis.json';
 import theotokiaData from './jsons/psalmody/theotokias.json';
 import psalmodyData from './jsons/psalmody/psalmody.json';
 import resolveJsonData  from '../components/functions/resolveJsonData';
+import { getJsonSync } from '../components/functions/jsonCache';
 
 const daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 const hasValue = (value) => value !== undefined && value !== null && value !== '';
 const normalizeToArray = (value) => Array.isArray(value) ? value : [value];
 
-function getPsalis(adamWatos, dayOfTheWeek, weekdayWeekend, seasons, service) {
-    return psalisData.filter((psali) => {
+function getPsalis(adamWatos, dayOfTheWeek, weekdayWeekend, seasons, service, data = psalisData) {
+    return data.filter((psali) => {
         if (hasValue(adamWatos) && hasValue(psali.adamWatos) && psali.adamWatos !== adamWatos) return false;
         if (hasValue(dayOfTheWeek) && hasValue(psali.dayOfTheWeek) && psali.dayOfTheWeek !== dayOfTheWeek) return false;
         if (hasValue(weekdayWeekend) && hasValue(psali.weekdayWeekend) && psali.weekdayWeekend !== weekdayWeekend) return false;
@@ -24,8 +25,8 @@ function getPsalis(adamWatos, dayOfTheWeek, weekdayWeekend, seasons, service) {
     });
 }
 
-function getTheotokia(adamWatos,dayOfTheWeek,aktonkAki) {
-    return theotokiaData.filter((theotokia) => {
+function getTheotokia(adamWatos,dayOfTheWeek,aktonkAki, data = theotokiaData) {
+    return data.filter((theotokia) => {
         if (hasValue(adamWatos) && hasValue(theotokia.adamWatos) && theotokia.adamWatos !== adamWatos) return false;
         if (hasValue(dayOfTheWeek) && hasValue(theotokia.dayOfTheWeek) && theotokia.dayOfTheWeek !== dayOfTheWeek) return false;
         if (hasValue(aktonkAki?.english) && hasValue(theotokia.aktonkAki) && theotokia.aktonkAki !== aktonkAki.english) return false;
@@ -33,8 +34,8 @@ function getTheotokia(adamWatos,dayOfTheWeek,aktonkAki) {
     });
 }
 
-function getpostFirstCanticleNonSunday(postFirstCanticleNonSunday) {
-    return theotokiaData.filter(
+function getpostFirstCanticleNonSunday(postFirstCanticleNonSunday, data = theotokiaData) {
+    return data.filter(
         (theotokia) =>
             hasValue(postFirstCanticleNonSunday) &&
             hasValue(theotokia.postFirstCanticleNonSunday) &&
@@ -73,12 +74,15 @@ const psalmody = (settings) => {
         const weekdayWeekend = (dayOfWeek === 0 || dayOfWeek === 6) ? "weekend" : "weekday";
         const service = "Midnight Praises";
 
-        const psalis = getPsalis(adamWatos, dayOfTheWeek, weekdayWeekend, seasons, service);
-        const theotokia = getTheotokia(adamWatos,dayOfTheWeek,aktonkAki);
-        const postFirstCanticleNonSunday = dayOfWeek !== 0 ? getpostFirstCanticleNonSunday(true) : '';
+        const psalisJson = getJsonSync("psalmody/psalis.json", psalisData);
+        const theotokiaJson = getJsonSync("psalmody/theotokias.json", theotokiaData);
+        const psalmodyJson = getJsonSync("psalmody/psalmody.json", psalmodyData);
+        const psalis = getPsalis(adamWatos, dayOfTheWeek, weekdayWeekend, seasons, service, psalisJson);
+        const theotokia = getTheotokia(adamWatos,dayOfTheWeek,aktonkAki, theotokiaJson);
+        const postFirstCanticleNonSunday = dayOfWeek !== 0 ? getpostFirstCanticleNonSunday(true, theotokiaJson) : '';
         const linkTargets = { psalis, theotokia, postFirstCanticleNonSunday };
 
-        const psalmodyWithLinks = resolveLinks(psalmodyData, linkTargets);
+        const psalmodyWithLinks = resolveLinks(psalmodyJson, linkTargets);
         const psalmodyFinalJson = resolveJsonData(settings, psalmodyWithLinks);
         
 

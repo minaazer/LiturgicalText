@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "bible/arabic_full.json",
+  "type": "object",
+  "properties": {
+    "translation": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "rtl": {
+      "type": "boolean"
+    },
+    "books": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "slug": {
+            "type": "string"
+          },
+          "chapters": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "chapter": {
+                  "type": "integer"
+                },
+                "verses": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "verse": {
+                        "type": "integer"
+                      },
+                      "text": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "verse"
+                    ],
+                    "additionalProperties": true
+                  }
+                }
+              },
+              "required": [
+                "chapter",
+                "verses"
+              ],
+              "additionalProperties": true
+            }
+          }
+        },
+        "required": [
+          "chapters",
+          "slug",
+          "title"
+        ],
+        "additionalProperties": true
+      }
+    }
+  },
+  "required": [
+    "books",
+    "rtl",
+    "source",
+    "translation"
+  ],
+  "additionalProperties": true
+}

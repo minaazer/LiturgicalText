@@ -2020,7 +2020,7 @@
     "coptic_title": "",
     "arabic_title": "المجمع السنوي",
     "caption_class": "caption",
-    "kiahk": false,
+    "excludedSeasons": ["kiahk"],
     "themes": [],
     "tbodies": [
       {
@@ -3675,7 +3675,7 @@
     "coptic_title": "",
     "arabic_title": "الهوس الرابع",
     "caption_class": "caption",
-    "kiahk": false,
+    "excludedSeasons": ["kiahk"],
     "themes": [],
     "tbodies": [
       {

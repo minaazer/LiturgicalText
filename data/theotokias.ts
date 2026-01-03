@@ -1,11 +1,12 @@
 
 import theotokiaData from './jsons/psalmody/theotokias.json';
 import seasonalPraisesData from './jsons/psalmody/seasonalPraises.json';
+import { getJsonSync } from '../components/functions/jsonCache';
 
 const hasValue = (value) => value !== undefined && value !== null && value !== '';
 
-function getTheotokia(adamWatos,dayOfTheWeek,aktonkAki) {
-    return theotokiaData.filter((theotokia) => {
+function getTheotokia(adamWatos,dayOfTheWeek,aktonkAki, data = theotokiaData) {
+    return data.filter((theotokia) => {
         if (hasValue(adamWatos) && hasValue(theotokia.adamWatos) && theotokia.adamWatos !== adamWatos) return false;
         if (hasValue(dayOfTheWeek) && hasValue(theotokia.dayOfTheWeek) && theotokia.dayOfTheWeek !== dayOfTheWeek) return false;
         if (hasValue(aktonkAki?.english) && hasValue(theotokia.aktonkAki) && theotokia.aktonkAki !== aktonkAki.english) return false;
@@ -14,17 +15,17 @@ function getTheotokia(adamWatos,dayOfTheWeek,aktonkAki) {
     });
 }
 
-function getItemsByTitleIncludes(fragment) {
-    return theotokiaData.filter(
+function getItemsByTitleIncludes(fragment, data = theotokiaData) {
+    return data.filter(
         (theotokia) => theotokia.english_title && theotokia.english_title.includes(fragment)
     );
 }
 
-const getIntroduction = () => getItemsByTitleIncludes('Introduction to the ');
-const getConclusion = () => getItemsByTitleIncludes('Conclusion');
-const getDifnar = () => getItemsByTitleIncludes('Difnar');
+const getIntroduction = (data) => getItemsByTitleIncludes('Introduction to the ', data);
+const getConclusion = (data) => getItemsByTitleIncludes('Conclusion', data);
+const getDifnar = (data) => getItemsByTitleIncludes('Difnar', data);
 
-function resolveSeasonalData(data, seasons, adamWatos) {
+function resolveSeasonalData(data, seasons, adamWatos, seasonalData = seasonalPraisesData) {
     if (!Array.isArray(data)) return [];
 
     const normalizeToArray = (value) => Array.isArray(value) ? value : [value];
@@ -47,7 +48,7 @@ function resolveSeasonalData(data, seasons, adamWatos) {
             
 
             const placement = item.section_title;
-            const replacements = seasonalPraisesData.filter((entry) => {
+            const replacements = seasonalData.filter((entry) => {
                 const placementMatch = Array.isArray(entry.placement) && entry.placement.includes(placement);
                 const seasonMatch = seasonsMatch(seasons, entry.seasons);
                 // Entries may optionally specify a day-of-week as well.
@@ -70,14 +71,33 @@ const theotokiasIndex = (settings) => {
         const adamWatos = settings.selectedDateProperties.adamOrWatos;
         const aktonkAki = settings.selectedDateProperties.aktonkAki;
 
+        const theotokiaJson = getJsonSync(
+            "psalmody/theotokias.json",
+            theotokiaData
+        );
+        const seasonalJson = getJsonSync(
+            "psalmody/seasonalPraises.json",
+            seasonalPraisesData
+        );
+
         let theotokiasJson = [];
         for (const day of daysOfTheWeek) {
 
-         theotokiasJson = [...theotokiasJson, ...getTheotokia(adamWatos,day,aktonkAki)];
+         theotokiasJson = [...theotokiasJson, ...getTheotokia(adamWatos,day,aktonkAki, theotokiaJson)];
         }
 
-        theotokiasJson = [...getIntroduction(), ...theotokiasJson, ...getDifnar(), ...getConclusion()];
-        theotokiasJson = resolveSeasonalData(theotokiasJson, seasons, adamWatos);
+        theotokiasJson = [
+            ...getIntroduction(theotokiaJson),
+            ...theotokiasJson,
+            ...getDifnar(theotokiaJson),
+            ...getConclusion(theotokiaJson),
+        ];
+        theotokiasJson = resolveSeasonalData(
+            theotokiasJson,
+            seasons,
+            adamWatos,
+            seasonalJson
+        );
 
 
 

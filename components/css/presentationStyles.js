@@ -653,6 +653,36 @@ seasonsButtonContainer: {
 
   // POPUP STYLES *********************************************************
 
+  jsonCacheBanner: {
+    position: "absolute",
+    top: 12,
+    right: 12,
+    maxWidth: "70%",
+    paddingVertical: 6,
+    paddingHorizontal: 10,
+    borderRadius: 8,
+    borderWidth: 1,
+    zIndex: 20,
+  },
+  jsonCacheBannerInfo: {
+    backgroundColor: "#003060",
+    borderColor: "#003060",
+  },
+  jsonCacheBannerSuccess: {
+    backgroundColor: "#003060",
+    borderColor: "#003060",
+  },
+  jsonCacheBannerError: {
+    backgroundColor: "#003060",
+    borderColor: "#003060",
+  },
+  jsonCacheBannerText: {
+    color: "#ffffff",
+    fontSize: 12,
+    fontFamily: "Georgia",
+    textAlign: "left",
+  },
+
   modalOverlay: {
     position: 'absolute',
     top: 0,

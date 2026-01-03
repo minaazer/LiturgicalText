@@ -1,0 +1,148 @@
+Codex Handoff Notes
+
+Current goal
+- Migrate JSONs to S3 + CloudFront with cache + manifest updates.
+
+CloudFront
+- Base URL: https://d18kyprs8j73gp.cloudfront.net
+- S3 bucket contains data/jsons/* plus manifest.json.
+
+Manifest + cache
+- scripts/build_json_manifest.js generates data/jsons/manifest.json (sha256 + size).
+- components/functions/jsonCache.js implements cache init/update and getJson/getJsonSync.
+- App.js calls initJsonCache with warmupPaths list.
+
+Wired to cache (examples)
+- Holy Matrimony, Songs, Glorification, Unction, Holy Week screens.
+- RootNavigation uses cached holyWeek + songs to build routes.
+- data/getPsalmodyHtml.ts uses getJsonSync for psalmody JSONs.
+- data/doxologies.ts and data/theotokias.ts use getJsonSync.
+- components/functions/dataFunctions.js uses getJsonSync for repeatedPrayers and seasonalPraises.
+- settings/saintSettings.js uses getJsonSync for repeatedPrayers + doxologies.
+- mainContent uses cached explanations/images.
+
+Warmup log
+- jsonCache: warmed 14 files (psalmody + repeatedPrayers + doxologies).
+
+Next steps
+- Bible JSONs stay local (no cache changes needed).
+- Other JSONs (liturgy/readings/agpeya/repeatedPrayers extras) are prepared but screens not built yet.
+- Add cache usage for any remaining JSON consumers once screens exist.
+- Decide which large JSONs should stay local (e.g., Bible).
+- Added update status/error banner for JSON cache refresh in App.
+- Added `scripts/deploy_jsons.sh`, `scripts/deploy_jsons.ps1`, `npm run deploy:jsons`, and `npm run deploy:jsons:win` for S3 sync + optional CloudFront invalidation (needs `S3_BUCKET`, optional `CLOUDFRONT_DISTRIBUTION_ID`). Supports `CACHE_CONTROL` (default `public,max-age=86400`) and `--dry-run`.
+
+JSON editor (AWS hosted)
+- Generated initial JSON Schemas from `data/jsons` into `json-editor/schemas` with `scripts/infer_json_schemas.py`.
+- Frontend scaffold in `json-editor/frontend` (React + JSON schema forms + diff view + approval flow).
+- Backend scaffold in `json-editor/backend` (SAM template, Lambda API, Cognito groups, DynamoDB audit).
+- Deployment notes in `json-editor/README.md`.
+- PowerShell helpers: `json-editor/scripts/create_user.ps1` and `json-editor/scripts/deploy_frontend.ps1`.
+- Deployed backend (us-east-1) outputs:
+  - ApiUrl: https://hidzdpp67k.execute-api.us-east-1.amazonaws.com
+  - UserPoolId: us-east-1_xVLzQSkqL
+  - UserPoolClientId: 7t0lknpe6trfrgc1ufajo7bm4s
+  - SnapshotBucket: liturgicalbooks-json-editor-snapshots
+- Frontend hosted in S3 bucket: `liturgicalbooks-editor-ui` (static website).
+- Frontend .env added with API/Cognito config at `json-editor/frontend/.env`.
+- UI tweaks: explicit array/button labels + higher-contrast nested section colors; inputs stay white.
+- Backend change: hide `bible/*` JSONs and `images.json` from file list (redeploy required).
+- Glorification schema refined: each `tbody` has exactly 2 rows (row 1: english/coptic/arabic, row 2: phonics).
+
+Deploy commands (Windows)
+- Dry run (PowerShell parameters): `npm run deploy:jsons:win -- -Bucket liturgicalbooks-json -DistributionId E3U8PRC9BR5M03 -Profile liturgicalbooks -DryRun`
+- Dry run (env vars): `$env:S3_BUCKET="liturgicalbooks-json"; $env:CLOUDFRONT_DISTRIBUTION_ID="E3U8PRC9BR5M03"; $env:AWS_PROFILE="liturgicalbooks"; npm run deploy:jsons:win -- -DryRun`
+- Live deploy (PowerShell parameters): `npm run deploy:jsons:win -- -Bucket liturgicalbooks-json -DistributionId E3U8PRC9BR5M03 -Profile liturgicalbooks`
+- Live deploy (env vars): `$env:S3_BUCKET="liturgicalbooks-json"; $env:CLOUDFRONT_DISTRIBUTION_ID="E3U8PRC9BR5M03"; $env:AWS_PROFILE="liturgicalbooks"; npm run deploy:jsons:win`
+
+Fetch from S3 to local (Windows)
+- Dry run: `npm run fetch:jsons:win -- -Bucket liturgicalbooks-json -Profile liturgicalbooks -DryRun`
+- Live: `npm run fetch:jsons:win -- -Bucket liturgicalbooks-json -Profile liturgicalbooks`
+- Raw CLI dry run: `aws s3 sync s3://liturgicalbooks-json/ data/jsons --dryrun`
+- Raw CLI live: `aws s3 sync s3://liturgicalbooks-json/ data/jsons`
+
+Frontend Deploy
+powershell -ExecutionPolicy Bypass -File json-editor/scripts/deploy_frontend.ps1 `
+  -Bucket liturgicalbooks-editor-ui `
+  -Profile liturgicalbooks
+
+Backend Deploy
+
+powershell -ExecutionPolicy Bypass -File json-editor/scripts/deploy_backend.ps1 `
+  -JsonBucketName liturgicalbooks-json `
+  -Profile liturgicalbooks `
+  -Region us-east-1
+
+
+Create user
+  aws cognito-idp admin-create-user `
+  --region us-east-1 `
+  --profile liturgicalbooks `
+  --user-pool-id us-east-1_xVLzQSkqL `
+  --username minaazer `
+  --user-attributes Name=email,Value=mina.e.azer@gmail.com Name=name,Value="Mina Azer"
+
+create user with temp password
+aws cognito-idp admin-create-user `
+  --region us-east-1 `
+  --profile liturgicalbooks `
+  --user-pool-id us-east-1_xVLzQSkqL `
+  --username <username> `
+  --temporary-password "<TempPass123!>" `
+  --user-attributes Name=email,Value=user@example.com
+
+Assign user with permanant password
+aws cognito-idp admin-set-user-password `
+  --region us-east-1 `
+  --profile liturgicalbooks `
+  --user-pool-id us-east-1_xVLzQSkqL `
+  --username <username> `
+  --password "<Password123!>" `
+  --permanent
+aws cognito-idp admin-set-user-password `
+  --region us-east-1 `
+  --profile liturgicalbooks `
+  --user-pool-id us-east-1_xVLzQSkqL `
+  --username georgetadros `
+  --password "<Password123!>" `
+  --permanent
+
+Assign a name to a user
+  aws cognito-idp admin-update-user-attributes `
+  --region us-east-1 `
+  --profile liturgicalbooks `
+  --user-pool-id us-east-1_xVLzQSkqL `
+  --username markyanney `
+  --user-attributes Name=name,Value="Mark Yanney"
+
+  retrieve user info
+
+  aws cognito-idp admin-get-user `
+  --region us-east-1 `
+  --profile liturgicalbooks `
+  --user-pool-id us-east-1_xVLzQSkqL `
+  --username minaazer `
+  --query "UserAttributes[].{Name:Name,Value:Value}" `
+  --output table
+
+  retrieve user list
+
+aws cognito-idp list-users-in-group `
+  --region us-east-1 `
+  --profile liturgicalbooks `
+  --user-pool-id us-east-1_xVLzQSkqL `
+  --group-name editor `
+  --query "Users[].{username:Username,email:Attributes[?Name=='email'].Value|[0],role:'editor',name:Attributes[?Name=='name'].Value|[0]}" `
+  --output table
+
+  ----------------------------------------------------------------------------
+|                             ListUsersInGroup                             |
++------------------------------+----------------+---------+----------------+
+|             email            |     name       |  role   |   username     |
++------------------------------+----------------+---------+----------------+
+|  thomasazer14@gmail.com      |  Thomas Azer   |  editor |  thomasazer    |
+|  copticbrother2003@gmail.com |  Mark Yanney   |  editor |  markyanney    |
+|  georgetadros98@gmail.com    |  George Tadros |  editor |  georgetadros  |
+|  georgef1515@gmail.com       |  George Farag  |  editor |  georgefarag   |
++------------------------------+----------------+---------+----------------+
+

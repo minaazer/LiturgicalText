@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "readings/annualDays.json",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "month": {
+        "type": "string"
+      },
+      "days": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "day": {
+              "type": "integer"
+            },
+            "readings": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "reading": {
+                    "type": "string"
+                  },
+                  "rows": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "row_class": {
+                          "type": "string"
+                        },
+                        "cells": {
+                          "type": "object",
+                          "properties": {
+                            "english": {
+                              "type": "string"
+                            },
+                            "arabic": {
+                              "type": "string"
+                            },
+                            "coptic": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "arabic",
+                            "english"
+                          ],
+                          "additionalProperties": true
+                        }
+                      },
+                      "required": [
+                        "cells",
+                        "row_class"
+                      ],
+                      "additionalProperties": true
+                    }
+                  }
+                },
+                "required": [
+                  "reading",
+                  "rows"
+                ],
+                "additionalProperties": true
+              }
+            }
+          },
+          "required": [
+            "day",
+            "readings"
+          ],
+          "additionalProperties": true
+        }
+      }
+    },
+    "required": [
+      "days",
+      "month"
+    ],
+    "additionalProperties": true
+  }
+}

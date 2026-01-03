@@ -5,6 +5,7 @@ import versesOfCymbalsData from "../data/jsons/repeatedPrayers/versesOfCymbals.j
 import distributionPraisesData from "../data/jsons/repeatedPrayers/distributionPraises.json";
 import doxologiesData from "../data/jsons/psalmody/doxologies.json";
 import { copticSaintFeasts } from "../components/functions/synexarium.js";
+import { getJsonSync } from "../components/functions/jsonCache";
 
 const normalizeSaintName = (name) => {
   if (!name) {
@@ -152,12 +153,48 @@ const buildSaintSettingFlag = (categoryIndex, saintName, categoryKey) => {
 };
 
 const sources = [
-  { key: "verseOfCymbals", data: versesOfCymbalsData },
-  { key: "intercession", data: intercessionsData },
-  { key: "actsResponse", data: actsResponseData },
-  { key: "gospelResponse", data: gospelResponseData },
-  { key: "distributionPraise", data: distributionPraisesData },
-  { key: "doxology", data: doxologiesData },
+  {
+    key: "verseOfCymbals",
+    data: getJsonSync(
+      "repeatedPrayers/versesOfCymbals.json",
+      versesOfCymbalsData
+    ),
+  },
+  {
+    key: "intercession",
+    data: getJsonSync(
+      "repeatedPrayers/intercessions.json",
+      intercessionsData
+    ),
+  },
+  {
+    key: "actsResponse",
+    data: getJsonSync(
+      "repeatedPrayers/actsResponses.json",
+      actsResponseData
+    ),
+  },
+  {
+    key: "gospelResponse",
+    data: getJsonSync(
+      "repeatedPrayers/gospelResponses.json",
+      gospelResponseData
+    ),
+  },
+  {
+    key: "distributionPraise",
+    data: getJsonSync(
+      "repeatedPrayers/distributionPraises.json",
+      distributionPraisesData
+    ),
+  },
+  {
+    key: "doxology",
+    data: getJsonSync(
+      "psalmody/doxologies.json",
+      doxologiesData
+    ),
+  },
 ];
 
 const categoryIndex = buildSaintCategoryIndex(sources);

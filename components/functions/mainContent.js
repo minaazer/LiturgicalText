@@ -9,6 +9,7 @@ import localStorage from './localStorage';
 import {ExplanationPopup} from '../reusableComponents/explanationPopup';
 import explanationsData from '../../data/jsons/explanations.json'; // Import the data
 import imagesData from '../../data/jsons/images.json'; // Import the images data
+import { getJson } from './jsonCache';
 import { ImagePopup } from '../reusableComponents/imagePopup'; // Import the ImagePopup component
 import { togglePopupAudio , stopPopupAudio } from '../reusableComponents/audioPopup'; // Import audio functions
 import AudioControlsPopup from '../reusableComponents/audioPopup';
@@ -35,6 +36,8 @@ export const MainContent = ({ html, webviewRef, setDrawerItems, setCurrentTable,
     const [currentAudioTitle, setCurrentAudioTitle] = useState('');
     const [isAudioPaused, setIsAudioPaused] = useState(true);
     const [isAudioPopupMinimized, setAudioPopupMinimized] = useState(false);
+    const [explanationsJson, setExplanationsJson] = useState(explanationsData);
+    const [imagesJson, setImagesJson] = useState(imagesData);
 
 
 
@@ -145,6 +148,23 @@ useEffect(() => {
     lastDrawerState.current = drawerIsOpen;
 }, [drawerIsOpen, webviewRef]);
 
+    useEffect(() => {
+        let isMounted = true;
+        getJson("explanations.json", explanationsData).then((data) => {
+            if (isMounted && data) {
+                setExplanationsJson(data);
+            }
+        });
+        getJson("images.json", imagesData).then((data) => {
+            if (isMounted && data) {
+                setImagesJson(data);
+            }
+        });
+        return () => {
+            isMounted = false;
+        };
+    }, []);
+
     // Load saved table states (visible or collapsed) from local storage
     useEffect(() => {
         const fetchStates = async () => {
@@ -232,10 +252,10 @@ useEffect(() => {
                         setFirstTable,
                         setPopupVisible, // Pass visibility setter
                         setPopupData, // Pass data setter                  
-                        explanationsData, // Pass the data
+                        explanationsJson, // Pass the data
                         setImagePopupVisible, // Pass image popup
                         setImageUri, // Pass image URI setter
-                        imagesData, // Pass the images data
+                        imagesJson, // Pass the images data
                         togglePopupAudio, // Pass audio toggle function
                         stopPopupAudio, // Pass audio stop function
                         setIsAudioPaused,

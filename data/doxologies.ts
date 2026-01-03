@@ -1,5 +1,6 @@
 import doxologiesData from "./jsons/psalmody/doxologies.json";
 import { renderHtml } from "./renderHtml";
+import { getJsonSync } from "../components/functions/jsonCache";
 
 const intersects = (left = [], right = []) =>
   left.some((value) => right.includes(value));
@@ -82,7 +83,11 @@ export const doxologiesHtml = (settings, source) => {
   const resolvedSource = source || "midnightPraises";
   const saintVisibilityMap = buildSaintVisibilityMap(settings);
 
-  const visibleDoxologies = doxologiesData.filter((table) =>
+  const doxologiesJson = getJsonSync(
+    "psalmody/doxologies.json",
+    doxologiesData
+  );
+  const visibleDoxologies = doxologiesJson.filter((table) =>
     shouldIncludeDoxology({
       table,
       seasons,

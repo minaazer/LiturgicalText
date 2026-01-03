@@ -1,0 +1,213 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Transform: AWS::Serverless-2016-10-31
+Description: LiturgicalBooks JSON editor backend.
+
+Parameters:
+  JsonBucketName:
+    Type: String
+    Description: S3 bucket containing live JSONs (e.g. liturgicalbooks-json).
+  SchemaPrefix:
+    Type: String
+    Default: _schemas/
+    Description: Prefix in JsonBucketName where schemas are stored.
+
+Globals:
+  Function:
+    Runtime: python3.12
+    Timeout: 30
+    MemorySize: 512
+
+Resources:
+  JsonSnapshotsBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub "${AWS::StackName}-snapshots"
+
+  ChangeRequestsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: id
+          AttributeType: S
+        - AttributeName: status
+          AttributeType: S
+        - AttributeName: createdAt
+          AttributeType: S
+      KeySchema:
+        - AttributeName: id
+          KeyType: HASH
+      GlobalSecondaryIndexes:
+        - IndexName: StatusIndex
+          KeySchema:
+            - AttributeName: status
+              KeyType: HASH
+            - AttributeName: createdAt
+              KeyType: RANGE
+          Projection:
+            ProjectionType: ALL
+
+  AuditLogTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: path
+          AttributeType: S
+        - AttributeName: timestamp
+          AttributeType: S
+      KeySchema:
+        - AttributeName: path
+          KeyType: HASH
+        - AttributeName: timestamp
+          KeyType: RANGE
+
+  UserPool:
+    Type: AWS::Cognito::UserPool
+    Properties:
+      UserPoolName: !Sub "${AWS::StackName}-users"
+      AutoVerifiedAttributes:
+        - email
+
+  UserPoolClient:
+    Type: AWS::Cognito::UserPoolClient
+    Properties:
+      UserPoolId: !Ref UserPool
+      ClientName: !Sub "${AWS::StackName}-client"
+      GenerateSecret: false
+      ExplicitAuthFlows:
+        - ALLOW_USER_PASSWORD_AUTH
+        - ALLOW_REFRESH_TOKEN_AUTH
+        - ALLOW_USER_SRP_AUTH
+
+  AdminGroup:
+    Type: AWS::Cognito::UserPoolGroup
+    Properties:
+      GroupName: admin
+      UserPoolId: !Ref UserPool
+
+  EditorGroup:
+    Type: AWS::Cognito::UserPoolGroup
+    Properties:
+      GroupName: editor
+      UserPoolId: !Ref UserPool
+
+  ViewerGroup:
+    Type: AWS::Cognito::UserPoolGroup
+    Properties:
+      GroupName: viewer
+      UserPoolId: !Ref UserPool
+
+  HttpApi:
+    Type: AWS::Serverless::HttpApi
+    Properties:
+      CorsConfiguration:
+        AllowMethods:
+          - GET
+          - POST
+          - OPTIONS
+        AllowHeaders:
+          - Authorization
+          - Content-Type
+        AllowOrigins:
+          - "*"
+      Auth:
+        Authorizers:
+          CognitoAuthorizer:
+            IdentitySource: "$request.header.Authorization"
+            JwtConfiguration:
+              issuer: !Sub "https://cognito-idp.${AWS::Region}.amazonaws.com/${UserPool}"
+              audience:
+                - !Ref UserPoolClient
+        DefaultAuthorizer: CognitoAuthorizer
+
+  JsonEditorApi:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: app.handler
+      CodeUri: ./
+      Environment:
+        Variables:
+          JSON_BUCKET: !Ref JsonBucketName
+          SNAPSHOT_BUCKET: !Ref JsonSnapshotsBucket
+          SCHEMA_PREFIX: !Ref SchemaPrefix
+          CHANGE_TABLE: !Ref ChangeRequestsTable
+          AUDIT_TABLE: !Ref AuditLogTable
+          NOTIFY_FROM: "noreply-liturgicalbooks@theotokoseb.com"
+          NOTIFY_REPLY_TO: "liturgicalbooks@saint-mary.net"
+          NOTIFY_REGION: "us-east-2"
+          NOTIFY_ADMINS: "mina.e.azer@gmail.com"
+      Policies:
+        - S3ReadPolicy:
+            BucketName: !Ref JsonBucketName
+        - S3CrudPolicy:
+            BucketName: !Ref JsonSnapshotsBucket
+        - S3CrudPolicy:
+            BucketName: !Ref JsonBucketName
+        - DynamoDBCrudPolicy:
+            TableName: !Ref ChangeRequestsTable
+        - DynamoDBCrudPolicy:
+            TableName: !Ref AuditLogTable
+      Events:
+        ListFiles:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref HttpApi
+            Path: /files
+            Method: GET
+        GetFile:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref HttpApi
+            Path: /files/{proxy+}
+            Method: GET
+        GetSchema:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref HttpApi
+            Path: /schemas/{proxy+}
+            Method: GET
+        SubmitChange:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref HttpApi
+            Path: /changes
+            Method: POST
+        GetChange:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref HttpApi
+            Path: /changes/{id}
+            Method: GET
+        ListChanges:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref HttpApi
+            Path: /changes
+            Method: GET
+        ApproveChange:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref HttpApi
+            Path: /changes/{id}/approve
+            Method: POST
+        RejectChange:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref HttpApi
+            Path: /changes/{id}/reject
+            Method: POST
+
+Outputs:
+  ApiUrl:
+    Description: HTTP API base URL
+    Value: !Sub "https://${HttpApi}.execute-api.${AWS::Region}.amazonaws.com"
+  UserPoolId:
+    Description: Cognito User Pool ID
+    Value: !Ref UserPool
+  UserPoolClientId:
+    Description: Cognito User Pool Client ID
+    Value: !Ref UserPoolClient
+  SnapshotBucket:
+    Description: Snapshot bucket name
+    Value: !Ref JsonSnapshotsBucket

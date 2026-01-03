@@ -1,7 +1,7 @@
 /* global require */
 
 import 'react-native-gesture-handler';
-import React, { useCallback, useEffect, useContext , useState } from 'react';
+import React, { useCallback, useEffect, useContext, useRef, useState } from 'react';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { StatusBar, Alert , Linking , Platform, View, ScrollView, Text, TouchableOpacity, AppState } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
@@ -22,6 +22,7 @@ import changelog from './changelog';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import semver from 'semver';
 import { presentationStyles } from './components/css/presentationStyles';
+import { initJsonCache } from './components/functions/jsonCache';
 
 
 SplashScreen.preventAutoHideAsync();
@@ -34,6 +35,8 @@ const AppContent = () => {
   const [updates, setUpdates] = useState([]);
   const currentVersion = app.expo.version || '1.0.0';
   const [settings, , setCurrentDate] = useContext(SettingsContext);
+  const [jsonCacheBanner, setJsonCacheBanner] = useState(null);
+  const jsonCacheTimeoutRef = useRef(null);
 
   const handleStateChange = () => {
     if (settings.currentDate.type === 'live') {
@@ -142,6 +145,77 @@ const AppContent = () => {
     checkForVersionUpdates();
   }, []);
 
+  const showJsonCacheBanner = useCallback((banner, autoHideMs = 5000) => {
+    if (jsonCacheTimeoutRef.current) {
+      clearTimeout(jsonCacheTimeoutRef.current);
+      jsonCacheTimeoutRef.current = null;
+    }
+    setJsonCacheBanner(banner);
+    if (autoHideMs === null) return;
+    jsonCacheTimeoutRef.current = setTimeout(() => {
+      setJsonCacheBanner(null);
+    }, autoHideMs);
+  }, []);
+
+  useEffect(() => {
+    return () => {
+      if (jsonCacheTimeoutRef.current) {
+        clearTimeout(jsonCacheTimeoutRef.current);
+      }
+    };
+  }, []);
+
+  const handleJsonCacheStatus = useCallback(
+    (event) => {
+      if (!event?.phase) return;
+      if (event.phase === "update-start") {
+        showJsonCacheBanner(
+          { type: "info", message: "Checking for content updates..." },
+          null
+        );
+        return;
+      }
+      if (event.phase === "update-success") {
+        const updatedCount = event.updated?.length || 0;
+        const message = updatedCount
+          ? `Content updated (${updatedCount} files).`
+          : "Content is up to date.";
+        showJsonCacheBanner({ type: "success", message }, 5000);
+        return;
+      }
+      if (event.phase === "update-error") {
+        showJsonCacheBanner(
+          { type: "error", message: "Content update failed. Using bundled data." },
+          6000
+        );
+      }
+    },
+    [showJsonCacheBanner]
+  );
+
+  useEffect(() => {
+    initJsonCache({
+      remoteBaseUrl: 'https://d18kyprs8j73gp.cloudfront.net',
+      warmupPaths: [
+        "psalmody/psalis.json",
+        "psalmody/psalmody.json",
+        "psalmody/theotokias.json",
+        "psalmody/seasonalPraises.json",
+        "psalmody/doxologies.json",
+        "repeatedPrayers/hwRepeatedPrayers.json",
+        "repeatedPrayers/annualRepeatedPrayers.json",
+        "repeatedPrayers/seasonalRepeatedPrayers.json",
+        "repeatedPrayers/repeatedAgpeyaPrayers.json",
+        "repeatedPrayers/actsResponses.json",
+        "repeatedPrayers/gospelResponses.json",
+        "repeatedPrayers/intercessions.json",
+        "repeatedPrayers/versesOfCymbals.json",
+        "repeatedPrayers/distributionPraises.json",
+      ],
+      onStatus: handleJsonCacheStatus,
+    });
+  }, [handleJsonCacheStatus]);
+
   
   const checkForStoreUpdates = async () => {
     try {
@@ -240,6 +314,22 @@ const AppContent = () => {
                 ))}
               </ScrollView>
             </View>
+          </View>
+        )}
+        {jsonCacheBanner && (
+          <View
+            style={[
+              presentationStyles.jsonCacheBanner,
+              jsonCacheBanner.type === "error"
+                ? presentationStyles.jsonCacheBannerError
+                : jsonCacheBanner.type === "success"
+                ? presentationStyles.jsonCacheBannerSuccess
+                : presentationStyles.jsonCacheBannerInfo,
+            ]}
+          >
+            <Text style={presentationStyles.jsonCacheBannerText}>
+              {jsonCacheBanner.message}
+            </Text>
           </View>
         )}
       </SafeAreaView>

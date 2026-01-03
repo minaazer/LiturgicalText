@@ -1,6 +1,6 @@
 /** @format */
 
-import React, { useRef, useState, useContext } from "react";
+import React, { useRef, useState, useContext, useEffect } from "react";
 import RightMenuDrawer from "../navigation/BookDrawer";
 import { useDynamicStyles } from "../css/cssStyles";
 import { htmlRenderScript } from "../functions/jsScripts";
@@ -10,17 +10,31 @@ import { iconVariables } from "../../data/iconVariables";
 import SettingsContext from "../../settings/settingsContext";
 import matrimonyData from "../../data/jsons/holyMatrimony.json";
 import resolveJsonData from "../functions/resolveJsonData";
+import { getJson } from "../functions/jsonCache";
 
 const MatrimonyScreen = () => {
   const [drawerItems, setDrawerItems] = useState([]);
   const [currentTable, setCurrentTable] = useState("");
+  const [matrimonyJson, setMatrimonyJson] = useState(matrimonyData);
   const [settings] = useContext(SettingsContext);
   const webviewRef = useRef(null);
   const aktonkAki = settings.selectedDateProperties.aktonkAki;
 
+  useEffect(() => {
+    let isMounted = true;
+    getJson("holyMatrimony.json", matrimonyData).then((data) => {
+      if (isMounted && data) {
+        setMatrimonyJson(data);
+      }
+    });
+    return () => {
+      isMounted = false;
+    };
+  }, []);
+
   const dynamicStyles = useDynamicStyles(webviewRef);
   const pageTitle = "Holy Matrimony";
-  const jsonData = resolveJsonData(settings, matrimonyData);
+  const jsonData = resolveJsonData(settings, matrimonyJson);
   const variables = { ...iconVariables, aktonkAki };
 
   const body = renderHtml(jsonData, pageTitle, "", "", variables);

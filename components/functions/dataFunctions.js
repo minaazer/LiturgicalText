@@ -7,11 +7,12 @@ import annualRepeatedPrayersData from "../../data/jsons/repeatedPrayers/annualRe
 import seasonalRepeatedPrayersData from "../../data/jsons/repeatedPrayers/seasonalRepeatedPrayers.json";
 import seasonalPraisesData from "../../data/jsons/psalmody/seasonalPraises.json";
 import repeatedAgpeyaPrayersData from "../../data/jsons/repeatedPrayers/repeatedAgpeyaPrayers.json";
+import { getJsonSync } from "./jsonCache";
 import {
   book,
   musicalNote,
   playPause,
-} from "../../data/iconVariables";
+} from "../../data/iconVariables.js";
 
 /**
  * @typedef {Record<string, string | number | boolean | null | undefined>} TemplateVars
@@ -83,13 +84,28 @@ import {
  * @property {TableRow[]} rows
  */
 
-const repeatedPrayersSources = {
-  "Holy Week": hwRepeatedPrayersData,
-  Annual: annualRepeatedPrayersData,
-  Seasonal: seasonalRepeatedPrayersData,
-  "Seasonal Praises": seasonalPraisesData,
-  "Agpeya Prayers": repeatedAgpeyaPrayersData,
-};
+const getRepeatedPrayersSources = () => ({
+  "Holy Week": getJsonSync(
+    "repeatedPrayers/hwRepeatedPrayers.json",
+    hwRepeatedPrayersData
+  ),
+  Annual: getJsonSync(
+    "repeatedPrayers/annualRepeatedPrayers.json",
+    annualRepeatedPrayersData
+  ),
+  Seasonal: getJsonSync(
+    "repeatedPrayers/seasonalRepeatedPrayers.json",
+    seasonalRepeatedPrayersData
+  ),
+  "Seasonal Praises": getJsonSync(
+    "psalmody/seasonalPraises.json",
+    seasonalPraisesData
+  ),
+  "Agpeya Prayers": getJsonSync(
+    "repeatedPrayers/repeatedAgpeyaPrayers.json",
+    repeatedAgpeyaPrayersData
+  ),
+});
 
 const hasValue = (value) =>
   value !== undefined && value !== null && value !== "";
@@ -604,7 +620,7 @@ function fetchRepeatedPrayerData(repeatedPrayerObject, paschalReadingsFull) {
     repeated_prayer_variables,
   } = repeatedPrayerObject || {};
 
-  const repeatedPrayersData = repeatedPrayersSources[source];
+  const repeatedPrayersData = getRepeatedPrayersSources()[source];
   if (!repeatedPrayersData) {
     debugWarn(`Invalid repeated prayer source: "${source}"`, {
       repeated_prayer_title,

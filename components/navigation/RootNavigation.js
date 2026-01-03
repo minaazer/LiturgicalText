@@ -36,6 +36,7 @@ import SongsScreen from "../screens/songs/songsScreen";
 import HolyWeekData from "../../data/jsons/holyWeek.json";
 import SongsData from "../../data/jsons/songs.json";
 import { useNavigationState } from "@react-navigation/native";
+import { getJson } from "../functions/jsonCache";
 
 
 const screenWidth = Dimensions.get('window').width;
@@ -368,9 +369,33 @@ const MainStackNavigator = ({ routeConfig }) => {
 };
 
 const RootNavigation = () => {
+  const [holyWeekJson, setHolyWeekJson] = React.useState(HolyWeekData);
+  const [songsJson, setSongsJson] = React.useState(SongsData);
+
+  React.useEffect(() => {
+    let isMounted = true;
+    getJson("holyWeek.json", HolyWeekData).then((data) => {
+      if (isMounted && data) {
+        setHolyWeekJson(data);
+      }
+    });
+    getJson("songs.json", SongsData).then((data) => {
+      if (isMounted && data) {
+        setSongsJson(data);
+      }
+    });
+    return () => {
+      isMounted = false;
+    };
+  }, []);
+
   const routeConfig = React.useMemo(
-    () => [...StaticScreens, ...transformHolyWeekData(HolyWeekData), ...transformSongsData(SongsData)],
-    []
+    () => [
+      ...StaticScreens,
+      ...transformHolyWeekData(holyWeekJson),
+      ...transformSongsData(songsJson),
+    ],
+    [holyWeekJson, songsJson]
   );
 
   return (

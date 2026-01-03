@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "repeatedPrayers/hwRepeatedPrayers.json",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "category": { "type": "string" },
+      "tables": {
+        "type": "array",
+        "items": {
+          "allOf": [
+            { "$ref": "../common/table_base.schema.json#/items/anyOf/0" }
+          ]
+        }
+      }
+    },
+    "required": ["category", "tables"],
+    "additionalProperties": true
+  }
+}
