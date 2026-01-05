@@ -1,0 +1,320 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "holyWeek.json",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "service": {
+        "type": "array",
+        "minItems": 2,
+        "maxItems": 2,
+        "items": {
+          "type": "string"
+        }
+      },
+      "hours": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "hour": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 2,
+              "items": {
+                "type": "string"
+              }
+            },
+            "sections": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "title": {
+                    "type": "string"
+                  },
+                  "tables": {
+                    "type": "array",
+                    "items": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "english_title": {
+                              "anyOf": [
+                                {
+                                  "type": "string"
+                                },
+                                {
+                                  "type": "null"
+                                }
+                              ]
+                            },
+                            "coptic_title": {
+                              "anyOf": [
+                                {
+                                  "type": "null"
+                                },
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "arabic_title": {
+                              "anyOf": [
+                                {
+                                  "type": "string"
+                                },
+                                {
+                                  "type": "null"
+                                }
+                              ]
+                            },
+                            "title": {
+                              "type": "string"
+                            },
+                            "tbodies": {
+                              "type": "array",
+                              "minItems": 1,
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "rows": {
+                                    "type": "array",
+                                    "minItems": 1,
+                                    "items": {
+                                    "type": "object",
+                                    "properties": {
+                                      "row-class": {
+                                        "type": "string",
+                                        "enum": [
+                                          "Intro",
+                                          "Refrain",
+                                          "commentary",
+                                          "congregation",
+                                          "intro",
+                                          "navigationButton",
+                                          "navigationLink",
+                                          "north",
+                                          "priest",
+                                          "refrain",
+                                          "silent-prayer",
+                                          "south",
+                                          "text"
+                                        ]
+                                      },
+                                        "cells": {
+                                          "type": "array",
+                                          "minItems": 1,
+                                          "items": {
+                                            "type": "object",
+                                            "properties": {
+                                              "coptic": {
+                                                "type": "string"
+                                              },
+                                              "english": {
+                                                "type": "string"
+                                              },
+                                              "arabic": {
+                                                "type": "string"
+                                              },
+                                              "englishLink": {
+                                                "type": "string"
+                                              },
+                                              "arabicLink": {
+                                                "type": "string"
+                                              }
+                                            },
+                                            "anyOf": [
+                                              {
+                                                "required": [
+                                                  "english"
+                                                ]
+                                              },
+                                              {
+                                                "required": [
+                                                  "arabic"
+                                                ]
+                                              },
+                                              {
+                                                "required": [
+                                                  "coptic"
+                                                ]
+                                              }
+                                            ],
+                                            "additionalProperties": true
+                                          }
+                                        },
+                                        "data-navigation": {
+                                          "type": "object",
+                                          "properties": {
+                                            "screen": {
+                                              "type": "string"
+                                            },
+                                            "serviceName": {
+                                              "type": "string"
+                                            },
+                                            "hourName": {
+                                              "type": "string"
+                                            },
+                                            "destination": {
+                                              "type": "string"
+                                            },
+                                            "source": {
+                                              "type": "string"
+                                            }
+                                          },
+                                          "required": [],
+                                          "additionalProperties": true
+                                        },
+                                        "nonTraditionalPascha": {
+                                          "type": "boolean"
+                                        },
+                                        "rows": {
+                                          "type": "array",
+                                          "items": {
+                                            "type": "object",
+                                            "properties": {
+                                              "row-class": {
+                                                "type": "string"
+                                              },
+                                              "cells": {
+                                                "type": "array",
+                                                "items": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "english": {
+                                                      "type": "string"
+                                                    },
+                                                    "arabic": {
+                                                      "type": "string"
+                                                    }
+                                                  },
+                                                  "required": [
+                                                    "arabic",
+                                                    "english"
+                                                  ],
+                                                  "additionalProperties": true
+                                                }
+                                              }
+                                            },
+                                            "required": [
+                                              "cells",
+                                              "row-class"
+                                            ],
+                                            "additionalProperties": true
+                                          }
+                                        }
+                                      },
+                                      "required": [
+                                        "cells",
+                                        "row-class"
+                                      ],
+                                      "additionalProperties": true
+                                    }
+                                  }
+                                },
+                                "required": [
+                                  "rows"
+                                ],
+                                "additionalProperties": true
+                              }
+                            },
+                            "nonTraditionalPascha": {
+                              "type": "boolean"
+                            },
+                            "explanation_button": {
+                              "type": "string"
+                            },
+                            "image_button": {
+                              "type": "string"
+                            },
+                            "caption_class": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "english_title",
+                            "tbodies"
+                          ],
+                          "additionalProperties": true
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "repeated_prayer_title": {
+                              "type": "string"
+                            },
+                            "repeated_prayer_variables": {
+                              "type": "object",
+                              "properties": {
+                                "hour": {
+                                  "type": "string"
+                                },
+                                "paschalPraise": {
+                                  "type": "integer"
+                                },
+                                "noProstrations": {
+                                  "type": "boolean"
+                                },
+                                "eshlil": {
+                                  "type": "boolean"
+                                },
+                                "season": {
+                                  "type": "string"
+                                },
+                                "nonTraditionalPascha": {
+                                  "type": "boolean"
+                                },
+                                "firstVerse": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [],
+                              "additionalProperties": true
+                            },
+                            "source": {
+                              "type": "string"
+                            },
+                            "category": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "category",
+                            "repeated_prayer_title",
+                            "source"
+                          ],
+                          "additionalProperties": true
+                        }
+                      ]
+                    }
+                  },
+                  "nonTraditionalPascha": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "tables",
+                  "title"
+                ],
+                "additionalProperties": true
+              }
+            }
+          },
+          "required": [
+            "hour",
+            "sections"
+          ],
+          "additionalProperties": true
+        }
+      }
+    },
+    "required": [
+      "hours",
+      "service"
+    ],
+    "additionalProperties": true
+  }
+}

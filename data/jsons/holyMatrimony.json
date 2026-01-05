@@ -1886,46 +1886,13 @@
             "row-class": "text",
             "cells": [
               {
-                "row-class": "text",
-                "cells": [
-                  {
-                    "english": "<span class='role'>For the Bridegroom:</span><br>May this oil destroy demons, may this oil be against evil spirits, this oil for holy spirits, this oil against the assaults of unclean spirits."
-                  },
-                  {
-                    "coptic": "<span class='role'>Ⲉⲑⲃⲉ Ⲡⲓⲡⲁⲧϣⲉⲗⲉⲧ:</span><br>Ⲡⲁⲓⲛⲉϩ ⲫⲁⲓ ⲛ̀ⲧⲉϥⲕⲱⲣϥ ⲛ̀ⲇⲉⲙⲱⲛ: ⲡⲁⲓⲛⲉϩ ⲫⲁⲓ ⲟⲩⲃⲉ ⲙ̀ⲡ̅ⲛ̅ⲁ̅ ⲙ̀ⲡⲟⲩⲛⲏⲣⲟⲛ: ⲡⲁⲓⲛⲉϩ ⲫⲁⲓ ⲛ̀ⲛⲓⲡ̅ⲛ̅ⲁ̅ ⲛ̀ⲁ̀ⲅⲓⲟⲛ: ⲡⲁⲓⲛⲉϩ ⲫⲁⲓ ⲟⲩⲃⲉ ⲛ̀ⲁⲛⲧⲓⲁ ⲛ̀ⲛⲓⲡ̅ⲛ̅ⲁ̅ ⲛ̀ⲁ̀ⲕⲁⲑⲁⲣⲧⲟⲛ."
-                  },
-                  {
-                    "arabic": "<span class='role'>للعريس:</span><br>هذا الدهن يبطل الشياطين، هذا الدهن ضد الأرواح الرديئة، هذا دهن الأرواح المقدسة، هذا الدهن ضد مقاومة الأرواح النجسة."
-                  }
-                ]
+                "english": "<span class='role'>For the Bridegroom:</span><br>May this oil destroy demons, may this oil be against evil spirits, this oil for holy spirits, this oil against the assaults of unclean spirits."
               },
               {
-                "row-class": "text",
-                "cells": [
-                  {
-                    "english": "<span class='role'>For the Bride:</span><br>You have anointed my head with oil, and Your cup has intoxicated me as pure wine, Your mercy shall come me, all the days of my life."
-                  },
-                  {
-                    "coptic": "<span class='role'>Ⲉⲑⲃⲉ Ϯϣⲉⲗⲉⲧ:</span><br>Ⲁⲕⲑⲱϩⲥ ⲛ̀ⲧⲁⲁ̀ⲫⲉ ⲛ̀ⲟⲩⲛⲉϩ: ⲟⲩⲟϩ ⲡⲉⲕⲁ̀ⲫⲟⲧ ⲉⲧⲑⲁϧⲓ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲟⲩⲙⲁϩⲓ: ⲡⲉⲕⲛⲁⲓ ⲉϥⲉ̀ϭⲟϫⲓ ⲛ̀ⲥⲱⲓ: ⲛ̀ⲛⲓⲉ̀ϩⲟⲟⲩ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲡⲁⲱⲛϧ."
-                  },
-                  {
-                    "arabic": "<span class='role'>للعروس:</span><br>دهنت بالزيت رأسي، وكأسك أسكرتني مثل الصرف، ورحمتك تدركني، جميع أيام حياتي."
-                  }
-                ]
+                "coptic": "<span class='role'>Ⲉⲑⲃⲉ Ⲡⲓⲡⲁⲧϣⲉⲗⲉⲧ:</span><br>Ⲡⲁⲓⲛⲉϩ ⲫⲁⲓ ⲛ̀ⲧⲉϥⲕⲱⲣϥ ⲛ̀ⲇⲉⲙⲱⲛ: ⲡⲁⲓⲛⲉϩ ⲫⲁⲓ ⲟⲩⲃⲉ ⲙ̀ⲡ̅ⲛ̅ⲁ̅ ⲙ̀ⲡⲟⲩⲛⲏⲣⲟⲛ: ⲡⲁⲓⲛⲉϩ ⲫⲁⲓ ⲛ̀ⲛⲓⲡ̅ⲛ̅ⲁ̅ ⲛ̀ⲁ̀ⲅⲓⲟⲛ: ⲡⲁⲓⲛⲉϩ ⲫⲁⲓ ⲟⲩⲃⲉ ⲛ̀ⲁⲛⲧⲓⲁ ⲛ̀ⲛⲓⲡ̅ⲛ̅ⲁ̅ ⲛ̀ⲁ̀ⲕⲁⲑⲁⲣⲧⲟⲛ."
               },
               {
-                "row-class": "text",
-                "cells": [
-                  {
-                    "english": "Lord have mercy (3).<br/> "
-                  },
-                  {
-                    "coptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ (ⲅ̅)."
-                  },
-                  {
-                    "arabic": "يا رب إرحم (3)."
-                  }
-                ]
+                "arabic": "<span class='role'>للعريس:</span><br>هذا الدهن يبطل الشياطين، هذا الدهن ضد الأرواح الرديئة، هذا دهن الأرواح المقدسة، هذا الدهن ضد مقاومة الأرواح النجسة."
               }
             ]
           }

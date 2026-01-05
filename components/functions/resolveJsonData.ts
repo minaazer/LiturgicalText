@@ -15,6 +15,7 @@ const resolveJsonData = (settings, jsonData) => {
         const service = "Midnight Praises";
 
         const resolvedPlaceHoldersData = resolveRepeatedPrayers(jsonData, null);
+        //console.log('Resolved Placeholders Data:', resolvedPlaceHoldersData);
         const resolvedSeasonalandSaintsData = filterBySeasons(resolvedPlaceHoldersData, currentSeasons, todaysSaints);
         const resolvedData = filterByDayProps (resolvedSeasonalandSaintsData, { aktonkAki, adamWatos, dayOfTheWeek, weekdayWeekend , service });
         

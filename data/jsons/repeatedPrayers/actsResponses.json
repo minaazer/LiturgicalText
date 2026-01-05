@@ -108,27 +108,16 @@
             ]
           },
           {
-            "english_title": "Another Praxis Response",
-            "coptic_title": "Ⲭⲉⲣⲉ Ⲧⲉϥⲁ̀ⲛⲁⲥⲧⲁⲥⲓⲥ",
-            "arabic_title": "مرد إبركسيس آخر",
+            "row-class": "text",
             "seasons": [
               "Feast of the Ascension",
               "Holy 50 Days - After Ascension"
             ],
-            "tbodies": [
+            "cells": [
               {
-                "rows": [
-                  {
-                    "row-class": "text",
-                    "cells": [
-                      {
-                        "english": "Hail to His Resurrection, when He rose from the dead, and ascended into the heavens, He is seated at the right hand of His Father.",
-                        "coptic": "Ⲭⲉⲣⲉ Ⲧⲉϥⲁ̀ⲛⲁⲥⲧⲁⲥⲓⲥ: ⲉ̀ⲧⲁϥⲧⲱⲛϥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ: ⲟⲩⲟϩ ⲁϥϣⲉⲛⲁϥ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ⲛⲓⲫⲏⲟⲩⲓ̀: ⲁϥϩⲉⲙⲥⲓ ⲥⲁⲟⲩⲓ̀ⲛⲁⲙ ⲙ̀Ⲡⲉϥⲓⲱⲧ.",
-                        "arabic": "السلام لقيامته، لما قام من بين الأموات، وصعد إلى السموات، وجلس عن يمين أبيه."
-                      }
-                    ]
-                  }
-                ]
+                "english": "Hail to His Resurrection, when He rose from the dead, and ascended into the heavens, He is seated at the right hand of His Father.",
+                "coptic": "Ⲭⲉⲣⲉ Ⲧⲉϥⲁ̀ⲛⲁⲥⲧⲁⲥⲓⲥ: ⲉ̀ⲧⲁϥⲧⲱⲛϥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ: ⲟⲩⲟϩ ⲁϥϣⲉⲛⲁϥ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ⲛⲓⲫⲏⲟⲩⲓ̀: ⲁϥϩⲉⲙⲥⲓ ⲥⲁⲟⲩⲓ̀ⲛⲁⲙ ⲙ̀Ⲡⲉϥⲓⲱⲧ.",
+                "arabic": "السلام لقيامته، لما قام من بين الأموات، وصعد إلى السموات، وجلس عن يمين أبيه."
               }
             ]
           },

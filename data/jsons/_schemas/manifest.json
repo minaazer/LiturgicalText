@@ -1,0 +1,200 @@
+{
+  "schemas": [
+    {
+      "path": "agpeya/prime_hour.json",
+      "schema": "agpeya/prime_hour.schema.json"
+    },
+    {
+      "path": "bible/arabic_full.json",
+      "schema": "bible/arabic_full.schema.json"
+    },
+    {
+      "path": "bible/coptic.json",
+      "schema": "bible/coptic.schema.json"
+    },
+    {
+      "path": "bible/coptic_nt.json",
+      "schema": "bible/coptic_nt.schema.json"
+    },
+    {
+      "path": "bible/coptic_ot.json",
+      "schema": "bible/coptic_ot.schema.json"
+    },
+    {
+      "path": "bible/english_full.json",
+      "schema": "bible/english_full.schema.json"
+    },
+    {
+      "path": "bible/lxx2012_ot.json",
+      "schema": "bible/lxx2012_ot.schema.json"
+    },
+    {
+      "path": "bible/nkjv_nt.json",
+      "schema": "bible/nkjv_nt.schema.json"
+    },
+    {
+      "path": "explanations.json",
+      "schema": "explanations.schema.json"
+    },
+    {
+      "path": "glorification.json",
+      "schema": "glorification.schema.json"
+    },
+    {
+      "path": "holyMatrimony.json",
+      "schema": "holyMatrimony.schema.json"
+    },
+    {
+      "path": "holyWeek.json",
+      "schema": "holyWeek.schema.json"
+    },
+    {
+      "path": "images.json",
+      "schema": "images.schema.json"
+    },
+    {
+      "path": "liturgy/aspasmoses.json",
+      "schema": "liturgy/aspasmoses.schema.json"
+    },
+    {
+      "path": "liturgy/congregationResponses.json",
+      "schema": "liturgy/congregationResponses.schema.json"
+    },
+    {
+      "path": "liturgy/deaconResponses.json",
+      "schema": "liturgy/deaconResponses.schema.json"
+    },
+    {
+      "path": "liturgy/distribution.json",
+      "schema": "liturgy/distribution.schema.json"
+    },
+    {
+      "path": "liturgy/fractions.json",
+      "schema": "liturgy/fractions.schema.json"
+    },
+    {
+      "path": "liturgy/liturgyOfTheFaithfull_Basil.json",
+      "schema": "liturgy/liturgyOfTheFaithfull_Basil.schema.json"
+    },
+    {
+      "path": "liturgy/liturgyOfTheFaithfull_Cyril.json",
+      "schema": "liturgy/liturgyOfTheFaithfull_Cyril.schema.json"
+    },
+    {
+      "path": "liturgy/liturgyOfTheFaithfull_Gregory.json",
+      "schema": "liturgy/liturgyOfTheFaithfull_Gregory.schema.json"
+    },
+    {
+      "path": "liturgy/liturgyOfTheWord.json",
+      "schema": "liturgy/liturgyOfTheWord.schema.json"
+    },
+    {
+      "path": "liturgy/offertory.json",
+      "schema": "liturgy/offertory.schema.json"
+    },
+    {
+      "path": "liturgy/reconciliations.json",
+      "schema": "liturgy/reconciliations.schema.json"
+    },
+    {
+      "path": "psalmody/doxologies.json",
+      "schema": "psalmody/doxologies.schema.json"
+    },
+    {
+      "path": "psalmody/psalis.json",
+      "schema": "psalmody/psalis.schema.json"
+    },
+    {
+      "path": "psalmody/psalmody.json",
+      "schema": "psalmody/psalmody.schema.json"
+    },
+    {
+      "path": "psalmody/seasonalPraises.json",
+      "schema": "psalmody/seasonalPraises.schema.json"
+    },
+    {
+      "path": "psalmody/theotokias.json",
+      "schema": "psalmody/theotokias.schema.json"
+    },
+    {
+      "path": "readings/annualDays.json",
+      "schema": "readings/annualDays.schema.json"
+    },
+    {
+      "path": "readings/annualDays_update.json",
+      "schema": "readings/annualDays_update.schema.json"
+    },
+    {
+      "path": "repeatedPrayers/actsResponses.json",
+      "schema": "repeatedPrayers/actsResponses.schema.json"
+    },
+    {
+      "path": "repeatedPrayers/annualRepeatedPrayers.json",
+      "schema": "repeatedPrayers/annualRepeatedPrayers.schema.json"
+    },
+    {
+      "path": "repeatedPrayers/aspasmosAdam.json",
+      "schema": "repeatedPrayers/aspasmosAdam.schema.json"
+    },
+    {
+      "path": "repeatedPrayers/aspasmosWatos.json",
+      "schema": "repeatedPrayers/aspasmosWatos.schema.json"
+    },
+    {
+      "path": "repeatedPrayers/distributionPraises.json",
+      "schema": "repeatedPrayers/distributionPraises.schema.json"
+    },
+    {
+      "path": "repeatedPrayers/endOfServiceParts.json",
+      "schema": "repeatedPrayers/endOfServiceParts.schema.json"
+    },
+    {
+      "path": "repeatedPrayers/expositions.json",
+      "schema": "repeatedPrayers/expositions.schema.json"
+    },
+    {
+      "path": "repeatedPrayers/gospelResponses.json",
+      "schema": "repeatedPrayers/gospelResponses.schema.json"
+    },
+    {
+      "path": "repeatedPrayers/hwRepeatedPrayers.json",
+      "schema": "repeatedPrayers/hwRepeatedPrayers.schema.json"
+    },
+    {
+      "path": "repeatedPrayers/intercessions.json",
+      "schema": "repeatedPrayers/intercessions.schema.json"
+    },
+    {
+      "path": "repeatedPrayers/litanies.json",
+      "schema": "repeatedPrayers/litanies.schema.json"
+    },
+    {
+      "path": "repeatedPrayers/psalm150Refrains.json",
+      "schema": "repeatedPrayers/psalm150Refrains.schema.json"
+    },
+    {
+      "path": "repeatedPrayers/psalmResponses.json",
+      "schema": "repeatedPrayers/psalmResponses.schema.json"
+    },
+    {
+      "path": "repeatedPrayers/repeatedAgpeyaPrayers.json",
+      "schema": "repeatedPrayers/repeatedAgpeyaPrayers.schema.json"
+    },
+    {
+      "path": "repeatedPrayers/seasonalRepeatedPrayers.json",
+      "schema": "repeatedPrayers/seasonalRepeatedPrayers.schema.json"
+    },
+    {
+      "path": "repeatedPrayers/versesOfCymbals.json",
+      "schema": "repeatedPrayers/versesOfCymbals.schema.json"
+    },
+    {
+      "path": "songs.json",
+      "schema": "songs.schema.json"
+    },
+    {
+      "path": "unctionOfTheSick.json",
+      "schema": "unctionOfTheSick.schema.json"
+    }
+  ]
+}

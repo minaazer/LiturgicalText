@@ -8,7 +8,7 @@ CloudFront
 - S3 bucket contains data/jsons/* plus manifest.json.
 
 Manifest + cache
-- scripts/build_json_manifest.js generates data/jsons/manifest.json (sha256 + size).
+- Manifest is rebuilt automatically by the deploy scripts (npm run deploy:jsons / deploy:jsons:win) — run those when changing JSONs so manifest + files stay in sync.
 - components/functions/jsonCache.js implements cache init/update and getJson/getJsonSync.
 - App.js calls initJsonCache with warmupPaths list.
 
@@ -31,6 +31,21 @@ Next steps
 - Decide which large JSONs should stay local (e.g., Bible).
 - Added update status/error banner for JSON cache refresh in App.
 - Added `scripts/deploy_jsons.sh`, `scripts/deploy_jsons.ps1`, `npm run deploy:jsons`, and `npm run deploy:jsons:win` for S3 sync + optional CloudFront invalidation (needs `S3_BUCKET`, optional `CLOUDFRONT_DISTRIBUTION_ID`). Supports `CACHE_CONTROL` (default `public,max-age=86400`) and `--dry-run`.
+
+JSON sync quick reference
+- Upload local JSONs -> 
+  S3/CloudFront: `npm run deploy:jsons` (Unix) or `npm run deploy:jsons:win` (Windows) which call `scripts/deploy_jsons.sh` / `scripts/deploy_jsons.ps1`. Requires bucket/profile: 
+    - Params: `npm run deploy:jsons:win -- -Bucket liturgicalbooks-json -DistributionId E3U8PRC9BR5M03 -Profile liturgicalbooks -DryRun`
+    - Env vars: `$env:S3_BUCKET="liturgicalbooks-json"; $env:CLOUDFRONT_DISTRIBUTION_ID="E3U8PRC9BR5M03"; $env:AWS_PROFILE="liturgicalbooks"; npm run deploy:jsons:win -- -DryRun`
+
+- Fetch S3 JSONs -> 
+  local `data/jsons`: `npm run fetch:jsons:win -- -Bucket liturgicalbooks-json -Profile liturgicalbooks` (add `-DryRun` to preview). 
+  Raw CLI (with profile): `aws s3 sync s3://liturgicalbooks-json/ data/jsons --profile liturgicalbooks` (`--dryrun` to preview). 
+  Env var option: `$env:AWS_PROFILE="liturgicalbooks"; aws s3 sync s3://liturgicalbooks-json/ data/jsons --dryrun`.
+
+Validate + deploy schema (Windows)
+- Full flow: `npm run validate:deploy:win -- -Bucket liturgicalbooks-json -DistributionId E3U8PRC9BR5M03 -Profile liturgicalbooks`
+- Validates JSONs against `json-editor/schemas` (draft2020), rebuilds `data/jsons/manifest.json`, then runs the existing deploy script (respects `-DryRun`/`-Delete`). Set AWS profile via `-Profile liturgicalbooks` or `$env:AWS_PROFILE="liturgicalbooks"` to avoid CLI profile errors.
 
 JSON editor (AWS hosted)
 - Generated initial JSON Schemas from `data/jsons` into `json-editor/schemas` with `scripts/infer_json_schemas.py`.
@@ -66,6 +81,8 @@ powershell -ExecutionPolicy Bypass -File json-editor/scripts/deploy_frontend.ps1
   -Bucket liturgicalbooks-editor-ui `
   -Profile liturgicalbooks
 
+aws cloudfront get-invalidation --distribution-id E3U8PRC9BR5M03 --id IB6BWSPCJEGHULXOTPVKMPHGCT --profile liturgicalbooks
+
 Backend Deploy
 
 powershell -ExecutionPolicy Bypass -File json-editor/scripts/deploy_backend.ps1 `
@@ -99,13 +116,7 @@ aws cognito-idp admin-set-user-password `
   --username <username> `
   --password "<Password123!>" `
   --permanent
-aws cognito-idp admin-set-user-password `
-  --region us-east-1 `
-  --profile liturgicalbooks `
-  --user-pool-id us-east-1_xVLzQSkqL `
-  --username georgetadros `
-  --password "<Password123!>" `
-  --permanent
+
 
 Assign a name to a user
   aws cognito-idp admin-update-user-attributes `
@@ -145,4 +156,3 @@ aws cognito-idp list-users-in-group `
 |  georgetadros98@gmail.com    |  George Tadros |  editor |  georgetadros  |
 |  georgef1515@gmail.com       |  George Farag  |  editor |  georgefarag   |
 +------------------------------+----------------+---------+----------------+
-

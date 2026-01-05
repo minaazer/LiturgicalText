@@ -22,11 +22,14 @@ Psalmody JSON structure (data/jsons/psalmody/psalmody.json)
 - Placeholder types:
   - repeated_prayer_title: required repeated_prayer_title, source, category; optional repeated_prayer_variables (season).
   - repeated_prayer_placement: required repeated_prayer_placement, source, category; optional passToTable (dayOfTheWeek).
-  - link-only: required link (string; may be empty).
+  - link-only: required link (string; may be empty). May also carry passToTable (e.g., dayOfTheWeek as string or array) to be merged into linked tables.
 - Seasonal praises variant: array of { category, tables }, where tables use the shared base table definition (same as above).
 - Repeated prayers schemas (hwRepeatedPrayers, annualRepeatedPrayers, repeatedAgpeyaPrayers, seasonalRepeateadPrayers) follow the seasonal-praises shape (category + tables using base table definition). Others (actsResponses, aspasmosAdam/Wtos, distributionPraises, expositions, gospelResponses, intercessions, litanies, psalmResponses, versesOfCymbals) reference the shared base directly; endOfServiceParts and psalm150Refrains are pending special schemas.
 - Shared row-class values (dropdown): Intro, Refrain, commentary, congregation, intro, navigationButton, navigationLink, north, priest, refrain, silent-prayer, south, text.
  - Repeated prayers base-ref: endOfServiceCanons also references the shared base.
+
+Cell rules (shared base)
+- Each cell requires at least one of: english | arabic | coptic | englishLink | arabicLink. englishLink/arabicLink alone is now valid for navigation cells.
 
 Liturgy + Root files
 - Liturgy folder schemas now reference the shared base (table_base) (aspasmoses, congregationResponses, deaconResponses, distribution, fractions, liturgyOfTheWord, liturgyOfTheFaithfull_Basil/Cyril/Gregory, offertory, reconciliations).

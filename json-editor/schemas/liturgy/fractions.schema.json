@@ -1,7 +1,8 @@
-{
+﻿{
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "liturgy/fractions.json",
   "allOf": [
-    { "$ref": "../common/table_base.schema.json" }
+    { "$ref": "https://liturgicalbooks/schemas/common/table_base.schema.json" }
   ]
 }
+

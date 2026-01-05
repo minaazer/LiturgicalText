@@ -1,21 +1,19 @@
-{
+﻿{
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "repeatedPrayers/repeatedAgpeyaPrayers.json",
-  "type": "array",
-  "items": {
-    "type": "object",
-    "properties": {
-      "category": { "type": "string" },
-      "tables": {
-        "type": "array",
-        "items": {
-          "allOf": [
-            { "$ref": "../common/table_base.schema.json#/items/anyOf/0" }
-          ]
-        }
+  "type": "object",
+  "properties": {
+    "category": { "type": "string" },
+    "tables": {
+      "type": "array",
+      "items": {
+        "allOf": [
+          { "$ref": "https://liturgicalbooks/schemas/common/table_base.schema.json#/items" }
+        ]
       }
-    },
-    "required": ["category", "tables"],
-    "additionalProperties": true
-  }
+    }
+  },
+  "required": ["category", "tables"],
+  "additionalProperties": true
 }
+

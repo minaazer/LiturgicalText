@@ -766,12 +766,24 @@
     "source": "Seasonal Praises",
     "category": "general",
     "repeated_prayer_placement": "postFirstCanticleSunday",
-    "passToTable":{
+    "repeated_prayer_variables": {
+      "passToTable": {
         "dayOfTheWeek": "Sunday"
+      }
     }
   },
   {
-    "link": "postFirstCanticleNonSunday"
+    "link": "postFirstCanticleNonSunday",
+    "passToTable": {
+      "dayOfTheWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
   },
   {
     "source": "Seasonal Praises",
@@ -1213,8 +1225,10 @@
     "source": "Seasonal Praises",
     "category": "general",
     "repeated_prayer_placement": "postSecondCanticleSunday",
-    "passToTable":{
+    "repeated_prayer_variables": {
+      "passToTable": {
         "dayOfTheWeek": "Sunday"
+      }
     }
   },
   {
@@ -2020,7 +2034,9 @@
     "coptic_title": "",
     "arabic_title": "المجمع السنوي",
     "caption_class": "caption",
-    "excludedSeasons": ["kiahk"],
+    "excludedSeasons": [
+      "kiahk"
+    ],
     "themes": [],
     "tbodies": [
       {
@@ -2784,7 +2800,9 @@
     "coptic_title": "",
     "arabic_title": "المجمع الكيهكي",
     "caption_class": "caption",
-    "seasons": "Kiahk",
+    "seasons": [
+      "Kiahk"
+    ],
     "placement": [
       "preCommemoration"
     ],
@@ -3077,7 +3095,7 @@
             "cells": [
               {
                 "english": "Pray: Abba James the Persian, Saint Sergius and Saint Bachus, That He may...",
-                "coptic": "Ⲧⲱ̅: ⲁⲃⲃⲁ Ⲓⲁⲕⲱⲃⲟⲥ ⲡⲓϥⲉⲣⲥⲓⲥ: ⲛⲉⲙ ⲛⲓⲁ̀ⲅⲓⲟⲥ Ⲥⲉⲣⲅⲓⲟⲥ ⲛⲉⲙ Ⲃⲁⲭⲟⲥ: ⲛ̀ⲧⲉϥ...",
+                "coptic": "Ⲧⲱ̅: ⲁⲃⲃⲁ Ⲓⲁⲕⲱⲃⲟⲥ ⲡⲓϥⲉⲣⲥⲓⲥ: ⲛⲉⲙ ⲡⲓⲁ̀ⲅⲓⲟⲥ Ⲥⲉⲣⲅⲓⲟⲥ ⲛⲉⲙ Ⲃⲁⲭⲟⲥ: ⲛ̀ⲧⲉϥ...",
                 "arabic": "اطلبوا من الرب عنا ياأنبا يعقوب الفارسى والقديس سرجيوس وواخس ليغفر..."
               }
             ]
@@ -3661,8 +3679,10 @@
     "source": "Seasonal Praises",
     "category": "general",
     "repeated_prayer_placement": "preFourthCanticleSunday",
-    "passToTable":{
+    "repeated_prayer_variables": {
+      "passToTable": {
         "dayOfTheWeek": "Sunday"
+      }
     }
   },
   {
@@ -3675,7 +3695,9 @@
     "coptic_title": "",
     "arabic_title": "الهوس الرابع",
     "caption_class": "caption",
-    "excludedSeasons": ["kiahk"],
+    "excludedSeasons": [
+      "kiahk"
+    ],
     "themes": [],
     "tbodies": [
       {
@@ -4099,7 +4121,9 @@
     "coptic_title": "",
     "arabic_title": "الهوس الرابع",
     "caption_class": "caption",
-    "seasons": "Kiahk",
+    "seasons": [
+      "Kiahk"
+    ],
     "themes": [],
     "tbodies": [
       {
@@ -4695,7 +4719,7 @@
     "repeated_prayer_placement": "postMidnightPraises"
   },
   {
-    "repeated_prayer_title": "The Trisagion - Prayer - Annual",
+    "repeated_prayer_title": "Holy Holy Holy",
     "source": "Annual",
     "category": "prayers"
   },

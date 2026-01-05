@@ -16,6 +16,9 @@ if (-not $CacheControl) {
   $CacheControl = "public,max-age=86400"
 }
 
+# Trim profile to avoid passing an empty token to aws CLI
+$Profile = $Profile.Trim()
+
 if (-not (Get-Command node -ErrorAction SilentlyContinue)) {
   Write-Error "node not found in PATH. Install Node.js first."
   exit 1
@@ -30,9 +33,9 @@ if (-not (Get-Command aws -ErrorAction SilentlyContinue)) {
 if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 
 $awsArgs = @()
-if ($Profile) { $awsArgs += @("--profile", $Profile) }
+if (-not [string]::IsNullOrWhiteSpace($Profile)) { $awsArgs += @("--profile", $Profile) }
 
-$syncArgs = @("s3", "sync", "data/jsons", "s3://$Bucket/", "--acl", "public-read", "--content-type", "application/json", "--cache-control", $CacheControl)
+$syncArgs = @("s3", "sync", "data/jsons", "s3://$Bucket/", "--content-type", "application/json", "--cache-control", $CacheControl)
 if ($DryRun) { $syncArgs += "--dryrun" }
 if ($Delete) { $syncArgs += "--delete" }
 

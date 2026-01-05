@@ -9,7 +9,8 @@
     "web": "expo start --web",
     "deploy:jsons": "scripts/deploy_jsons.sh",
     "deploy:jsons:win": "powershell -ExecutionPolicy Bypass -File scripts/deploy_jsons.ps1",
-    "fetch:jsons:win": "powershell -ExecutionPolicy Bypass -File scripts/fetch_jsons.ps1"
+    "fetch:jsons:win": "powershell -ExecutionPolicy Bypass -File scripts/fetch_jsons.ps1",
+    "validate:deploy:win": "powershell -ExecutionPolicy Bypass -File scripts/validate_build_deploy.ps1"
   },
   "dependencies": {
     "@expo/config-plugins": "~10.1.1",

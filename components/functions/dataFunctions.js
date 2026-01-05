@@ -111,13 +111,17 @@ const hasValue = (value) =>
   value !== undefined && value !== null && value !== "";
 const normalizeToArray = (value) => (Array.isArray(value) ? value : [value]);
 const normalizeSeasons = (value) =>
-  hasValue(value) ? normalizeToArray(value) : [];
+  hasValue(value)
+    ? normalizeToArray(value).map((s) =>
+        typeof s === "string" ? s.toLowerCase() : s
+      )
+    : [];
 const seasonsMatch = (requestedSeasons, entrySeasons) => {
   if (!hasValue(entrySeasons)) return true; // entry applies to all seasons
   if (!hasValue(requestedSeasons)) return true; // no filter provided
-  const requested = normalizeToArray(requestedSeasons);
+  const requested = normalizeSeasons(requestedSeasons);
   if (requested.length === 0) return true; // empty filter array means no filter
-  const entry = normalizeToArray(entrySeasons);
+  const entry = normalizeSeasons(entrySeasons);
   return entry.some((s) => requested.includes(s));
 };
 const maxTemplateKeyCacheEntries = 200;
@@ -482,6 +486,7 @@ export function renderHtmlTable(
  * @returns {any[]}
  */
 export function filterBySeasons(data, currentSeasons, todaysSaints) {
+  
   if (!Array.isArray(data)) return [];
 
   const selectedSeasons = normalizeSeasons(currentSeasons);
@@ -553,9 +558,12 @@ export function filterByDayProps(
     }
 
     if (hasValue(item.dayOfTheWeek)) {
-      if (!hasValue(dayOfTheWeek) || item.dayOfTheWeek !== dayOfTheWeek) {
-        return false;
-      }
+      if (!hasValue(dayOfTheWeek)) return false;
+
+      const itemDays = normalizeToArray(item.dayOfTheWeek);
+      const requestedDays = normalizeToArray(dayOfTheWeek);
+      const matchesDay = itemDays.some((d) => requestedDays.includes(d));
+      if (!matchesDay) return false;
     }
 
     if (hasValue(item.weekdayWeekend)) {
@@ -717,6 +725,7 @@ function applyRepeatedPrayerVariables(tables, variables, paschalReadingsFull) {
     });
     const tableOverrides =
       passToTable && typeof passToTable === "object" ? passToTable : {};
+      
     return { ...table, ...tableOverrides, tbodies: updatedTbodies };
   });
 }
