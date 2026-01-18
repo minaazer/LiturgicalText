@@ -62,15 +62,35 @@ function getTheotokia(adamWatos,dayOfTheWeek,aktonkAki, data = theotokiaData) {
 }
 
 function getpostFirstCanticleNonSunday(postFirstCanticleNonSunday, data = theotokiaData) {
-    return data
-        .filter(
-            (theotokia) =>
-                hasValue(postFirstCanticleNonSunday) &&
-                hasValue(theotokia.postFirstCanticleNonSunday) &&
-                theotokia.postFirstCanticleNonSunday === postFirstCanticleNonSunday
-        )
-        .map(({ dayOfTheWeek, ...rest }) => rest);
+  if (!hasValue(postFirstCanticleNonSunday)) return [];
+
+  return data
+    .filter((theotokia) => {
+      const directValue = theotokia.postFirstCanticleNonSunday;
+      const nestedValue =
+        theotokia.repeated_prayer_variables?.passToTable?.postFirstCanticleNonSunday;
+      const directMatch =
+        hasValue(directValue) && directValue === postFirstCanticleNonSunday;
+      const nestedMatch =
+        hasValue(nestedValue) && nestedValue === postFirstCanticleNonSunday;
+      return directMatch || nestedMatch;
+    })
+    .map(({ dayOfTheWeek, repeated_prayer_variables, ...rest }) => {
+      if (!repeated_prayer_variables?.passToTable) {
+        return rest;
+      }
+      const { dayOfTheWeek: nestedDayOfTheWeek, ...passToTableRest } =
+        repeated_prayer_variables.passToTable;
+      return {
+        ...rest,
+        repeated_prayer_variables: {
+          ...repeated_prayer_variables,
+          passToTable: passToTableRest,
+        },
+      };
+    });
 }
+
 
 function resolveLinks (value, linkTargets = {}) {
         if (Array.isArray(value)) return value.flatMap((item) => resolveLinks(item, linkTargets));
@@ -102,7 +122,7 @@ const psalmody = (settings) => {
         const seasons = settings.selectedDateProperties.copticSeason;
         const adamWatos = settings.selectedDateProperties.adamOrWatos;
         const aktonkAki = settings.selectedDateProperties.aktonkAki;
-        const weekdayWeekend = (dayOfWeek === 0 || dayOfWeek === 6) ? "weekend" : "weekday";
+        const weekdayWeekend = settings.selectedDateProperties.weekdayWeekend;
         const service = "Midnight Praises";
         const psalisJson = getJsonSync("psalmody/psalis.json", psalisData);
         const theotokiaJson = getJsonSync("psalmody/theotokias.json", theotokiaData);
@@ -131,7 +151,7 @@ const psalmody = (settings) => {
                 (item) => !(item && (Array.isArray(item.tbodies) || Array.isArray(item.rows)))
             );
             
-            console.warn('Dropped non-table entries from psalmody data', dropped);
+            //console.warn('Dropped non-table entries from psalmody data', dropped);
         }
 
         return tables;

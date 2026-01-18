@@ -10,17 +10,31 @@ if (-not $Bucket) {
   exit 1
 }
 
-if (-not (Get-Command aws -ErrorAction SilentlyContinue)) {
+$awsCmd = Get-Command aws.exe -CommandType Application -ErrorAction SilentlyContinue
+if (-not $awsCmd) {
+  $awsCmd = Get-Command aws -CommandType Application -ErrorAction SilentlyContinue
+}
+if (-not $awsCmd) {
   Write-Error "aws CLI not found in PATH. Install AWS CLI v2 first."
   exit 1
 }
+$awsExe = $awsCmd.Source
 
-$awsArgs = @()
-if ($Profile) { $awsArgs += @("--profile", $Profile) }
+# Normalize profile and keep env in sync to avoid empty --profile args
+if ([string]::IsNullOrWhiteSpace($Profile)) {
+  $Profile = $env:AWS_PROFILE
+}
+if ([string]::IsNullOrWhiteSpace($Profile)) {
+  $Profile = $null
+  Remove-Item Env:AWS_PROFILE -ErrorAction SilentlyContinue
+} else {
+  $Profile = $Profile.Trim()
+  $env:AWS_PROFILE = $Profile
+}
 
 $syncArgs = @("s3", "sync", "s3://$Bucket/", "data/jsons")
 if ($DryRun) { $syncArgs += "--dryrun" }
 if ($Delete) { $syncArgs += "--delete" }
 
-& aws @awsArgs @syncArgs
+& $awsExe @syncArgs
 exit $LASTEXITCODE

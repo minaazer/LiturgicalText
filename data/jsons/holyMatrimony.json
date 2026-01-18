@@ -54,7 +54,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_43b14b976f"
   },
   {
     "repeated_prayer_placement": "processionHymns",
@@ -182,15 +183,34 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_84c3106599"
   },
   {
-    "repeated_prayer_title": "Thanksgiving Prayer",
+    "repeated_prayer_title": "Prayer of Thanksgiving - 1",
     "source": "Annual",
-    "category": "liturgical",
+    "category": "liturgical"
+  },
+  {
+    "repeated_prayer_title": "Tovhina",
+    "source": "Annual",
+    "category": "deaconResponses"
+  },
+  {
+    "repeated_prayer_title": "Melismatic Tovhina",
+    "source": "Annual",
+    "category": "deaconResponses",
     "repeated_prayer_variables": {
-      "openingCurtain": false
+      "passToTable": {
+        "table_class": "table-invisible",
+        "caption_class": "caption table-invisible"
+      }
     }
+  },
+  {
+    "repeated_prayer_title": "Prayer of Thanksgiving - 2",
+    "source": "Annual",
+    "category": "liturgical"
   },
   {
     "english_title": "The Verses of the Cymbals",
@@ -261,7 +281,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_4e2a20eaaa"
   },
   {
     "english_title": "O God who created...",
@@ -302,7 +323,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_d213d56c8c"
   },
   {
     "english_title": "O Christ the Word of the Father",
@@ -334,7 +356,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_dceb4dd7f7"
   },
   {
     "english_title": "The Prayer on the Vestments",
@@ -468,7 +491,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_ea9ab94f60"
   },
   {
     "english_title": "The spiritual garment (Al-hola)",
@@ -530,7 +554,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_0e07ab115a"
   },
   {
     "english_title": "Tee-shori",
@@ -550,7 +575,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_483452f759"
   },
   {
     "english_title": "The Pauline Epistle",
@@ -661,7 +687,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_23a596366f"
   },
   {
     "english_title": "Pi-epnevma",
@@ -681,7 +708,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_25e8709ab7"
   },
   {
     "english_title": "The Trisagion",
@@ -701,7 +729,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_602bed85d0"
   },
   {
     "english_title": "Litany of the Gospel",
@@ -813,7 +842,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_18505c20be"
   },
   {
     "english_title": "The Psalm & Gospel",
@@ -972,7 +1002,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_630a913e28"
   },
   {
     "english_title": "The Gospel Response",
@@ -1024,7 +1055,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_71cfa9364e"
   },
   {
     "english_title": "Litanies (O Lord God)",
@@ -1180,7 +1212,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_f89b169100"
   },
   {
     "english_title": "The Orthodox Creed",
@@ -1222,7 +1255,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_f206561a2b"
   },
   {
     "english_title": "The First Matrimonial Prayer",
@@ -1291,7 +1325,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_46b30b8d25"
   },
   {
     "english_title": "The First Matrimonial Prayer Response",
@@ -1333,7 +1368,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_3e115de44d"
   },
   {
     "english_title": "The Second Matrimonial Prayer",
@@ -1430,7 +1466,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_c74d1a3922"
   },
   {
     "english_title": "The Second Matrimonial Prayer Response",
@@ -1482,7 +1519,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_155d1ac3a4"
   },
   {
     "english_title": "The Third Matrimonial Prayer",
@@ -1570,7 +1608,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_27aeb4fda2"
   },
   {
     "english_title": "The Third Matrimonial Prayer Response",
@@ -1622,7 +1661,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_f6842fb60d"
   },
   {
     "english_title": "Prayer of Submission",
@@ -1672,7 +1712,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_9f78e40692"
   },
   {
     "english_title": "Prayer of Submission Response",
@@ -1704,7 +1745,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_2639a19cbe"
   },
   {
     "english_title": "The Prayer Over the Oil",
@@ -1872,7 +1914,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_8a4c58e258"
   },
   {
     "english_title": "Responses to the Prayer Over the Oil",
@@ -1898,7 +1941,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_00a36db0c9"
   },
   {
     "english_title": "The Prayer Over the Crowns",
@@ -2063,7 +2107,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_55dcac4d10"
   },
   {
     "english_title": "Place the Crowns...",
@@ -2101,7 +2146,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_656f4c6bfa"
   },
   {
     "english_title": "The Fulfillment of the Sacrament",
@@ -2158,7 +2204,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_e86bf1de05"
   },
   {
     "english_title": "The Prayers Before the Altar",
@@ -2197,7 +2244,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_1350c2ed8f"
   },
   {
     "english_title": "The Commandment to the Bridegroom",
@@ -2263,7 +2311,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_2e5d1e9fb8"
   },
   {
     "english_title": "Take unto you - Estelem Ya 'erees",
@@ -2310,7 +2359,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_d5253c5c2f"
   },
   {
     "english_title": "The Commandment to the Bride",
@@ -2403,7 +2453,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_1206a68206"
   },
   {
     "english_title": "Listen O Bride - Esmaee Ya 'ros",
@@ -2441,7 +2492,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_170235e27e"
   },
   {
     "english_title": "A Pure Marriage - Zawag Taher",
@@ -2479,7 +2531,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_cda4d9787c"
   },
   {
     "english_title": "May God bless",
@@ -2545,7 +2598,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_05a0ead5fe"
   },
   {
     "english_title": "The Conclusion",
@@ -2766,7 +2820,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_4fb442ef2f"
   },
   {
     "english_title": "Shere Maria Ti-ooro",
@@ -2795,6 +2850,7 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "holymatrimony_5860cd3165"
   }
 ]

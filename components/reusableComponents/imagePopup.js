@@ -4,7 +4,7 @@ import {
   TouchableOpacity,
   ScrollView,
   StyleSheet,
-  Dimensions,
+  useWindowDimensions,
   Image,
 } from "react-native";
 import Animated, {
@@ -17,10 +17,9 @@ import {
   GestureHandlerRootView,
 } from "react-native-gesture-handler";
 
-const { width: screenWidth } = Dimensions.get("window");
-
 export const ImagePopup = ({ visible, imageUri, onClose }) => {
   const [aspectRatio, setAspectRatio] = useState(3 / 4); // fallback ratio
+  const { width: screenWidth } = useWindowDimensions();
 
   const scale = useSharedValue(1);
 

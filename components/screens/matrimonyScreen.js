@@ -6,7 +6,7 @@ import { useDynamicStyles } from "../css/cssStyles";
 import { htmlRenderScript } from "../functions/jsScripts";
 import { getHtml, handleDrawerItemPress } from "../functions/renderFunctions";
 import { renderHtml } from "../../data/renderHtml.js";
-import { iconVariables } from "../../data/iconVariables";
+import { loadIconVariables, iconVariablesFallback } from "../../data/iconVariables";
 import SettingsContext from "../../settings/settingsContext";
 import matrimonyData from "../../data/jsons/holyMatrimony.json";
 import resolveJsonData from "../functions/resolveJsonData";
@@ -17,6 +17,7 @@ const MatrimonyScreen = () => {
   const [currentTable, setCurrentTable] = useState("");
   const [matrimonyJson, setMatrimonyJson] = useState(matrimonyData);
   const [settings] = useContext(SettingsContext);
+  const [icons, setIcons] = useState(iconVariablesFallback);
   const webviewRef = useRef(null);
   const aktonkAki = settings.selectedDateProperties.aktonkAki;
 
@@ -32,10 +33,18 @@ const MatrimonyScreen = () => {
     };
   }, []);
 
+  useEffect(() => {
+    let mounted = true;
+    loadIconVariables().then((vars) => mounted && vars && setIcons(vars));
+    return () => {
+      mounted = false;
+    };
+  }, []);
+
   const dynamicStyles = useDynamicStyles(webviewRef);
   const pageTitle = "Holy Matrimony";
   const jsonData = resolveJsonData(settings, matrimonyJson);
-  const variables = { ...iconVariables, aktonkAki };
+  const variables = { ...icons, aktonkAki };
 
   const body = renderHtml(jsonData, pageTitle, "", "", variables);
 

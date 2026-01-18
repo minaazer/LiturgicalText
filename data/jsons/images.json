@@ -1,39 +1,40 @@
 [
     {
         "title": "Fai Etaf Enf",
-        "uri": "https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/fai_etaf_enf.jpg"
+        "uri": "https://liturgicalbooks-json.s3.us-east-2.amazonaws.com/assets/images/hazzat/fai_etaf_enf.jpg"
     },
     {
         "title": "Agios Sad Tune",
-        "uri": "https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/agios_sad.jpg"
+        "uri": "https://liturgicalbooks-json.s3.us-east-2.amazonaws.com/assets/images/hazzat/agios_sad.jpg"
     },
     {
         "title": "Ethveti",
-        "uri": "https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/ethveti.jpg"
+        "uri": "https://liturgicalbooks-json.s3.us-east-2.amazonaws.com/assets/images/hazzat/ethveti.jpg"
     },
     {
         "title": "Tishori",
-        "uri": "https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/ti_shori.jpg"
+        "uri": "https://liturgicalbooks-json.s3.us-east-2.amazonaws.com/assets/images/hazzat/ti_shori.jpg"
     },
     {
         "title": "Taishori",
-        "uri": "https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/tai_shori.jpg"
+        "uri": "https://liturgicalbooks-json.s3.us-east-2.amazonaws.com/assets/images/hazzat/tai_shori.jpg"
     },
     {
         "title": "Ke Eepertou",
-        "uri": "https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/ke_epertou.jpg"
+        "uri": "https://liturgicalbooks-json.s3.us-east-2.amazonaws.com/assets/images/hazzat/ke_epertou.jpg"
     },
     {
         "title": "Omonogenis",
-        "uri": "https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/omonogenis.jpg"
+        "uri": "https://liturgicalbooks-json.s3.us-east-2.amazonaws.com/assets/images/hazzat/omonogenis.jpg"
     },
     {
         "title": "Pekethronos",
-        "uri": "https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/pekethronos.jpg"
+        "uri": "https://liturgicalbooks-json.s3.us-east-2.amazonaws.com/assets/images/hazzat/pekethronos.jpg"
     },
     {
         "title": "Ti Epistoli",
-        "uri": "https://cdn.jsdelivr.net/gh/minaazer/LiturgicalBooks@main/ti_epistoli.jpg"
+        "uri": "https://liturgicalbooks-json.s3.us-east-2.amazonaws.com/assets/images/hazzat/ti_epistoli.jpg"
     }
        
 ]
+

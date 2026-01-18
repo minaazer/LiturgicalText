@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-05T03:12:09.339Z",
+  "generatedAt": "2026-01-18T20:19:03.183Z",
   "files": [
     {
       "path": "_schemas/agpeya/prime_hour.schema.json",
@@ -44,8 +44,8 @@
     },
     {
       "path": "_schemas/common/table_base.schema.json",
-      "hash": "2e6d2ea4dbe0f0e08c333997728f014bc21dbb2d74d15a37d5006e05429b404c",
-      "size": 5724
+      "hash": "0ccceb60433c297ffc2b69fa4fd5fe933a1c36e7ff354e47543e00dd416468ef",
+      "size": 7395
     },
     {
       "path": "_schemas/explanations.schema.json",
@@ -54,18 +54,18 @@
     },
     {
       "path": "_schemas/glorification.schema.json",
-      "hash": "82737e4a8f260b96bd4019a06d3af60a17a96ab896859dd0f3053a434b1a6580",
-      "size": 165
+      "hash": "b61b380bed762e8b034cec26529a4756f4b2f1d23ca8c7cba70444b7ed5a1ee4",
+      "size": 200
     },
     {
       "path": "_schemas/holyMatrimony.schema.json",
-      "hash": "ce75ee9b64faa6b1e723e0a8907025e80e5ef4b137064032bc4bc1a1bc98f4fd",
-      "size": 165
+      "hash": "1eeabdb776a9f1f974190b29a065ca672072051bd84bf84a35000c9d966580db",
+      "size": 200
     },
     {
       "path": "_schemas/holyWeek.schema.json",
-      "hash": "257c5fe6cdbdf9d4b9a5028ba4ef142491789c74e03af30a483883ef6e025c25",
-      "size": 13800
+      "hash": "d427eb8e9cd4c84c20798bb406254b366046b9cf187240252181d41e1fbfe023",
+      "size": 1366
     },
     {
       "path": "_schemas/images.schema.json",
@@ -74,83 +74,83 @@
     },
     {
       "path": "_schemas/liturgy/aspasmoses.schema.json",
-      "hash": "f44f1b734f6c7c525895cd55dce39c9e48e94752e4ce310a63683729dc5a2efa",
-      "size": 171
+      "hash": "d87cff1b5cf9bb59ca354190bfcc00d15892129c541f90829dd01f0cbbd55304",
+      "size": 205
     },
     {
       "path": "_schemas/liturgy/congregationResponses.schema.json",
-      "hash": "afc40fa695240c0fe27a1c1bfa85f27a37e4e4bf50b83737bf446883f258aefb",
-      "size": 182
+      "hash": "02a7656914b92aadba41831b4d985822d434a05253d6653792b28da56ba2f2c6",
+      "size": 216
     },
     {
       "path": "_schemas/liturgy/deaconResponses.schema.json",
-      "hash": "18a3d7ec5b8287a2fae47bd26d1e4fdcc8e77dfbc27fa05e5de14ac1a2ed990c",
-      "size": 176
+      "hash": "e8b3a03362ee29b641ac45123bf42b3821bb2280a45b534b29f21c8966f9e0ba",
+      "size": 210
     },
     {
       "path": "_schemas/liturgy/distribution.schema.json",
-      "hash": "8be309650a06953db0e4a7c5a3f796311e6c6d6d8734e90b7c79fab6f5fe689c",
-      "size": 173
+      "hash": "e185c00d5a1baff37a5920edaf3a0b8c2074692e4c4ddaed8787e3dcf782d401",
+      "size": 207
     },
     {
       "path": "_schemas/liturgy/fractions.schema.json",
-      "hash": "8560016c7059040ce25196de1738f7364b724be19408caf0d014c65213727ae6",
-      "size": 170
+      "hash": "ba3af36522e53307ef334ffae59c14100a5c676a230f57a8a36018cd42d3eae5",
+      "size": 204
     },
     {
       "path": "_schemas/liturgy/liturgyOfTheFaithfull_Basil.schema.json",
-      "hash": "566ef7968d2c749cbc01071ca2988bffe881ef2bc8b758f0b94776dfebb5554c",
-      "size": 188
+      "hash": "f6ff41f3382dbf083fde3c364b024d3d7027931aa85f273ac7db4f4231200fe6",
+      "size": 222
     },
     {
       "path": "_schemas/liturgy/liturgyOfTheFaithfull_Cyril.schema.json",
-      "hash": "8e46f35b4ca4c3452032dcba9faa4566965983b5faa1cd6a04205fe4f1260b4a",
-      "size": 188
+      "hash": "e97dbc5cc1d9883d12e8d9ecfd637e9dd12bc3e62319c70fe67600834e0727dc",
+      "size": 222
     },
     {
       "path": "_schemas/liturgy/liturgyOfTheFaithfull_Gregory.schema.json",
-      "hash": "71774ab22313dc751d6d9431690f009f0b0fc81032eb20d6dc92e1dbaf3b2f13",
-      "size": 190
+      "hash": "6940a14a18c23dcbba629cb99ad2ad411fe79e1c2e79a6c857844768d9fee76c",
+      "size": 224
     },
     {
       "path": "_schemas/liturgy/liturgyOfTheWord.schema.json",
-      "hash": "a8b6c2a101ecfbf0f1a8bfc8e2844439aba5eb0c51631fdfb114adc3bfae535d",
-      "size": 177
+      "hash": "0774b9ce89da0df55639e6866ef5438136013763d4be7c2cb4fade0bf0b8d5b0",
+      "size": 211
     },
     {
       "path": "_schemas/liturgy/offertory.schema.json",
-      "hash": "567f98f6733debee0b9d66fe078b050cab2942f733ffad3d18810daaa34cbe0e",
-      "size": 170
+      "hash": "a8742a42aec3a60cfbd166ef1a4f756bd0f7d6b47d1e5be439acc56314e99ffe",
+      "size": 204
     },
     {
       "path": "_schemas/liturgy/reconciliations.schema.json",
-      "hash": "969107a824499366896460e319081e639518f22072348571612afdd62fcb8109",
-      "size": 176
+      "hash": "aa723d6d96dcdc7de5aa3d64274d309414e80e990ea1990d83543941d3b4f3e1",
+      "size": 210
     },
     {
       "path": "_schemas/psalmody/doxologies.schema.json",
-      "hash": "04fc14556979a3138502f85d3c7fe868fbcc622197cfc80e60e88e0b3b8b5131",
-      "size": 172
+      "hash": "18207a168001c114a4a2ebc2ec4260a90ea81dc09625f1d380864f0867847126",
+      "size": 206
     },
     {
       "path": "_schemas/psalmody/psalis.schema.json",
-      "hash": "53acdadb85df4461fe0b3ba41bb72ab2c83e5d70824e15d0dc89272920d8be2e",
-      "size": 168
+      "hash": "fa908eb981c249044573788b2b78fd16e11fc34b2b32c20d044d27c644a2dc4d",
+      "size": 202
     },
     {
       "path": "_schemas/psalmody/psalmody.schema.json",
-      "hash": "c3a3ab81432e00b84d5bb36be4a9ccca65a995d834898522e90a9fad7f0102e8",
-      "size": 170
+      "hash": "689d17dd5ea87068a47c16fbf67531d0073f08757c5e83ac6208c53491f4f100",
+      "size": 204
     },
     {
       "path": "_schemas/psalmody/seasonalPraises.schema.json",
-      "hash": "f012bec2bf055567c35e9874e501e9840229e127ae7a99134bb483bb5f9c84d3",
-      "size": 494
+      "hash": "89701c17a10caa87792cb6b7af3bf2d9552c62e41fd156d3d5eec7ddad413ef3",
+      "size": 520
     },
     {
       "path": "_schemas/psalmody/theotokias.schema.json",
-      "hash": "6f26c5935ab928ae4fa4f1e0362f17559fd875efc728fd8a2880e24667ade3d4",
-      "size": 172
+      "hash": "64f3816cce5182374a15ac3b8ee06d06c5bdca276d28f448ea4568bc32cb3f86",
+      "size": 206
     },
     {
       "path": "_schemas/readings/annualDays_update.schema.json",
@@ -164,33 +164,33 @@
     },
     {
       "path": "_schemas/repeatedPrayers/actsResponses.schema.json",
-      "hash": "9e5651db6ff83be989b4b3b5fe698aaa1ff644babf4f66ed0ba9d394999fee40",
-      "size": 182
+      "hash": "f6082a5a8397e84f171b4ee2b881673c0fafa554a4425fb1383d28c7b0c2af35",
+      "size": 216
     },
     {
       "path": "_schemas/repeatedPrayers/annualRepeatedPrayers.schema.json",
-      "hash": "9081bf6bf4e31e6c1e9129efd0121e4ebd1e74fb95ee8a7335c3a19a2ae0d50c",
-      "size": 507
+      "hash": "edd2be5d312a2b37f344d8baa60b2323abe080ffda9fef23f0b0a58f89ee16ae",
+      "size": 533
     },
     {
       "path": "_schemas/repeatedPrayers/aspasmosAdam.schema.json",
-      "hash": "0523f89ae390b2bb733976a63fc7c2aca8d1fe1ae3bb8e96c4379003de1675e0",
-      "size": 181
+      "hash": "fba900e23ac88a80fbb5b31d7a4e3becb22fba9909c3bf551166944c2d591479",
+      "size": 215
     },
     {
       "path": "_schemas/repeatedPrayers/aspasmosWatos.schema.json",
-      "hash": "5f713bc30745b221397a284404b09a3c73d8a9f0ee0a0e4685b9ee6c338f05ab",
-      "size": 182
+      "hash": "96186a2ae196dd217080f65215bafc7d7779ccc0d60f7cb4177f8528801967e6",
+      "size": 216
     },
     {
       "path": "_schemas/repeatedPrayers/distributionPraises.schema.json",
-      "hash": "bbd9074054af856c3d85f2f2f67c84c33789dc636273d9b8e24bb2df3b7e6477",
-      "size": 188
+      "hash": "7631c7f6954ad7891529a17ce54be54e923976533de2adddd9574f0ffcb84ff7",
+      "size": 222
     },
     {
       "path": "_schemas/repeatedPrayers/endOfServiceCanons.schema.json",
-      "hash": "ee3d0cd9d32743e767e8d3a7aeb4ce3154da8b9cb6a998e9240bdcec8c1896e5",
-      "size": 187
+      "hash": "b348db77c8e900c33bc80498f54c63e4e89001bc9facd2adc595910942178d13",
+      "size": 221
     },
     {
       "path": "_schemas/repeatedPrayers/endOfServiceParts.schema.json",
@@ -199,28 +199,28 @@
     },
     {
       "path": "_schemas/repeatedPrayers/expositions.schema.json",
-      "hash": "77a929496ee8088e917fa4ebb7c9bfc9605218695f1d4e73e977b64c2e85815a",
-      "size": 180
+      "hash": "ac289e1749a85a2b711b45119b94f5942e23e0d6637614d00d24148deb079772",
+      "size": 214
     },
     {
       "path": "_schemas/repeatedPrayers/gospelResponses.schema.json",
-      "hash": "efda2d27eccaa33766e15191a7f010e30ee2e260bf89004bfd10d73fa504ba79",
-      "size": 184
+      "hash": "6c54a8967fc36bd5e8083c88fb0f3ed65f449b737d06f57e0efd71cf754b462b",
+      "size": 218
     },
     {
       "path": "_schemas/repeatedPrayers/hwRepeatedPrayers.schema.json",
-      "hash": "c21899e0ea3e3ff01c6d9d37ca79421dafee53bb439e604f90cbc777f0ee77e4",
-      "size": 503
+      "hash": "4c00e7a2c742656c3a1e15912faac5603abb58fafb4d30a89591704d7da2fa4f",
+      "size": 529
     },
     {
       "path": "_schemas/repeatedPrayers/intercessions.schema.json",
-      "hash": "d83343f9354bd35a1211c4cd642db0d085bf7957afd490eae23efbbe735e4884",
-      "size": 182
+      "hash": "b310a1c2cec41db8a9646ec28945d63305f78086b15a99eee774ff33f8c0507c",
+      "size": 216
     },
     {
       "path": "_schemas/repeatedPrayers/litanies.schema.json",
-      "hash": "a45eddc86f4ce67dda08cf4bdbb3eeecf4de8b1f2e9d35ffef66d0239f6dc901",
-      "size": 177
+      "hash": "ed41461513cf846490324339b4dc7703c5b25bd02d6693e57e7ccbc863f0c02a",
+      "size": 211
     },
     {
       "path": "_schemas/repeatedPrayers/psalm150Refrains.schema.json",
@@ -229,23 +229,23 @@
     },
     {
       "path": "_schemas/repeatedPrayers/psalmResponses.schema.json",
-      "hash": "431e41c83de5dead1f6332799616941c5ab791cab0983d05c9d2e4b49cda41b7",
-      "size": 183
+      "hash": "309e560bd0f65510c66f1267a24d6312ead874212e47966668279e227fb479ab",
+      "size": 217
     },
     {
       "path": "_schemas/repeatedPrayers/repeatedAgpeyaPrayers.schema.json",
-      "hash": "8409b1a1bf9c75c2db2ddb181dc2f8598a775212a4415deb37fddb8f07bd38fe",
-      "size": 507
+      "hash": "2892683db047a6abd2d8ec40a7b7154b31c60207770c1845f5d6baee94e4a3a2",
+      "size": 533
     },
     {
       "path": "_schemas/repeatedPrayers/seasonalRepeatedPrayers.schema.json",
-      "hash": "1e16af5be70fca8cf3dbbeee95dfac8a9b183900176f8260c18e083c383eb1e4",
-      "size": 509
+      "hash": "d1c54433e3eb206cfebbd3a080a49f2366d06dddd8aa58e7aca545cf4125571d",
+      "size": 535
     },
     {
       "path": "_schemas/repeatedPrayers/versesOfCymbals.schema.json",
-      "hash": "b23dc38a3ff2b516274e21b22492886eb91f964b646813fd9b3eeb8f6caa3834",
-      "size": 184
+      "hash": "baf2e5a545acbd6f2bb5d6b0d1b75efb427019b31ac4453287f529e06d8cea9e",
+      "size": 218
     },
     {
       "path": "_schemas/songs.schema.json",
@@ -254,13 +254,13 @@
     },
     {
       "path": "_schemas/unctionOfTheSick.schema.json",
-      "hash": "de982b2d17e5127b3c5906bb5aa278abc3ba13a6e371a1d8ba979b08d8b7454b",
-      "size": 168
+      "hash": "586ea99b8abc9867ee135bef2898b722767cf5551c18ffcea58bb4dd4236e5e8",
+      "size": 203
     },
     {
       "path": "agpeya/prime_hour.json",
-      "hash": "13c54f8cf5487da865ed41ba16dabf3a5dd940496317ece80aec56a16332dbbf",
-      "size": 108754
+      "hash": "3dadaa3e17cd0ebb698e988e81ffad3580098bbfba7eea71d00362f5ba9c0fe9",
+      "size": 108900
     },
     {
       "path": "bible/arabic_full.json",
@@ -304,103 +304,103 @@
     },
     {
       "path": "glorification.json",
-      "hash": "a28bfb6ed3f7712f62c0086a4bf88ae43530fbf68dc96a511b1be59057a2473b",
-      "size": 324814
+      "hash": "98b2b51d0169c0dd2e198316b067a71a32d13b1bcda06ddc9554f34953030725",
+      "size": 318500
     },
     {
       "path": "holyMatrimony.json",
-      "hash": "44a3e558c9ed48cd37fb605fa94c61a38484b061c05c999cdef9f7078eb99f5d",
-      "size": 171842
+      "hash": "6702d6ce2164cc6616f94603a986be8bee391c8b658d176199bf02a4916b4d70",
+      "size": 171163
     },
     {
       "path": "holyWeek.json",
-      "hash": "938e48778e76ee6341e55443c40a3664b96643324f18074d574a4e27fc7e8567",
-      "size": 3406647
+      "hash": "4ff1d46cd3d34fedfcc5bf9a11799dc4d29948d4c8c242378a5a0638d842f139",
+      "size": 3377935
     },
     {
       "path": "images.json",
-      "hash": "e6574f5ec98b1f647f261e70f1ee54624c37f97c657cd638143d8c9f6d21d764",
-      "size": 1252
+      "hash": "3b30ca5e5ad215f2a4de00a514204b2966ce5686f3d830d29525eacebed01413",
+      "size": 1387
     },
     {
       "path": "liturgy/aspasmoses.json",
-      "hash": "9dbc191accba35adadc7027c8e33589d12d34b5950b054b8bae966de0dca5ac4",
-      "size": 25420
+      "hash": "7206e35daffa0042764896a1feb9fc24606b69c8d191868fea37c5fc64f3caac",
+      "size": 25117
     },
     {
       "path": "liturgy/congregationResponses.json",
-      "hash": "fa55b71d0a0d7db4b40d36a92a0ce2a02b4db6a590629bb8d437ea8375da7d81",
-      "size": 24978
+      "hash": "bd734dac97ed4e296f746bc650265779036082c4e06ab36b6303cc640106cb6d",
+      "size": 25900
     },
     {
       "path": "liturgy/deaconResponses.json",
-      "hash": "2ea5a08fc25f380d7f7a808b546d9c9018272f3837416d36fd2c1aee9ae76709",
-      "size": 59437
+      "hash": "46422fa83c53fedc505d40686dfd4c2400ad757d7e6b54fa67bf7abfafdfcda5",
+      "size": 80512
     },
     {
       "path": "liturgy/distribution.json",
-      "hash": "d2c0681573ff27b02151d716eeff153c6230be5bc1cb2a3028b86ef47ce9a495",
-      "size": 66023
+      "hash": "1516729d97213343b2d2ed1ebc695b6d5eef184a967e5fc9dc905f684250d7e1",
+      "size": 65111
     },
     {
       "path": "liturgy/fractions.json",
-      "hash": "54d891e86e0a02f250d2953d5bdd354c03ce8a643e061c28bc1c58d378b02799",
-      "size": 168397
+      "hash": "cc35ced527da8f48ff728adde39eb6fb7e63f40c38f06bbcf5df9b17dfe49f69",
+      "size": 166910
     },
     {
       "path": "liturgy/liturgyOfTheFaithfull_Basil.json",
-      "hash": "b1b4238eb982e94493cac903d58bf5a82f268c9588815e1841079bdd2b53c4cb",
-      "size": 260042
+      "hash": "b3d7451ffe52add1cd330da66c51a74db2fc17a726c607da5d289d6a8d5ecf75",
+      "size": 257561
     },
     {
       "path": "liturgy/liturgyOfTheFaithfull_Cyril.json",
-      "hash": "93818a1957098216fbfd0b5ae6de13087a1336c26342e98001f0347ed7c95e9d",
-      "size": 285999
+      "hash": "adfc8992389484c54a661276a665d42773fd88a89996eeca6233db6f73d659e2",
+      "size": 284041
     },
     {
       "path": "liturgy/liturgyOfTheFaithfull_Gregory.json",
-      "hash": "0585afdd8a1cf40ff788d4317db2eae49874bb6241ffb05ed41b76610a4ea56f",
-      "size": 254281
+      "hash": "1b1208bf94b8689187bc99ecf8a3b19a6d41a7da72b2ed3661ae1dbec8244201",
+      "size": 251126
     },
     {
       "path": "liturgy/liturgyOfTheWord.json",
-      "hash": "fc08573f45766db322194ba2693a0615675c35bc33425528349d4e420262ffdc",
-      "size": 21836
+      "hash": "5ab597ea9710c88059699973e5f60a4047c83542f8425663ab0afef064cfdf19",
+      "size": 21666
     },
     {
       "path": "liturgy/offertory.json",
-      "hash": "1c743ecb97b67120cec68f6e777df9bb4e2c244fbc317e68c9de391c732f6af9",
-      "size": 46118
+      "hash": "f0b683eda8e04874584f74e55d7b47ff299fd72e3d16409ff9d5bf5bb489ae47",
+      "size": 72153
     },
     {
       "path": "liturgy/reconciliations.json",
-      "hash": "cc1e8f9a4a8f34939242bab9718e3e14a7868eb33ac48f285bf1f84e7b3bdef6",
-      "size": 121326
+      "hash": "826a97af6ee9ed1ad5f130ab77021e6eafcc5d851208cbd48b8cad31f8276d39",
+      "size": 119746
     },
     {
       "path": "psalmody/doxologies.json",
-      "hash": "b20fb024dcae4afe6fcdc5d637bfbdc4499a2c9d77e9819c672b3e4d2fcadb90",
-      "size": 630580
+      "hash": "858b7d8dd279f710e0dd5b55f4eec41b3f5c30169384434f3f511678ae2708be",
+      "size": 624957
     },
     {
       "path": "psalmody/psalis.json",
-      "hash": "f3764f05a9f28fc781eedffda8611a8515f567db53a7338a7ad498bb838ab148",
-      "size": 997243
+      "hash": "3975c3e485480b5608f5e760097889b4e9f9941aefb481fa91b3b1a977078105",
+      "size": 983960
     },
     {
       "path": "psalmody/psalmody.json",
-      "hash": "00e4156710bc6c2015876c615e53129f99d966eef7394c22ca7c9e320f580ce0",
-      "size": 328046
+      "hash": "48b34b5c78709aa6079ae4953180e54173e6701adbc0688237ede197c0e9ab75",
+      "size": 323216
     },
     {
       "path": "psalmody/seasonalPraises.json",
-      "hash": "957a6692b954e41c90d231060f1166a9108ce40dcd6f0480f3b0d78a8d97e484",
-      "size": 743817
+      "hash": "4212bac74d3077e72470b373ef9e70859b0a55873dbb4ba4b13cb97e4f918da7",
+      "size": 789055
     },
     {
       "path": "psalmody/theotokias.json",
-      "hash": "e1ef16986fc5bbfa51ada74a98ac6626082ebdfa0abbca9541a86faa28f42cbc",
-      "size": 406166
+      "hash": "d4f983116f22d76c8f11d26321913eda0b4bed254e683fc43565a89c751a3e49",
+      "size": 399853
     },
     {
       "path": "readings/annualDays_update.json",
@@ -414,33 +414,33 @@
     },
     {
       "path": "repeatedPrayers/actsResponses.json",
-      "hash": "6125000d349500025a790bf247017de61cbf22cf9fe092a67b18d9fa5c1f2bfe",
-      "size": 17549
+      "hash": "fca533697d2d765b00f8177439b927a476e51251e4332c404fdfddb7826a3338",
+      "size": 17286
     },
     {
       "path": "repeatedPrayers/annualRepeatedPrayers.json",
-      "hash": "2a38f6aca2517068d0fa63e63713eba08b79ead1299166f7d8b9b50ec5619d98",
-      "size": 130446
+      "hash": "bca6d80463e7d8c8d157538ab93c9e68fcfe3dd30bd95bf9394ee741731dce45",
+      "size": 192228
     },
     {
       "path": "repeatedPrayers/aspasmosAdam.json",
-      "hash": "2fc659455c9ca0d7939488195a46c25a840e7be176b9a8e5ea871f0e9ae14d8a",
-      "size": 31108
+      "hash": "de5e9723de3eaf77cb53e6f8c204e692ff20170c561e6ce024741f0f8bab0ecc",
+      "size": 31187
     },
     {
       "path": "repeatedPrayers/aspasmosWatos.json",
-      "hash": "c9e0e92433b559932ffe41504b5cfadc6dc92c43f2fa00db833246e6d332667e",
-      "size": 29606
+      "hash": "1e24f2b4f7a24cd59703326c89bb9415061ce9e9465adb3acbc6bdb94945104e",
+      "size": 29647
     },
     {
       "path": "repeatedPrayers/distributionPraises.json",
-      "hash": "2873c01cae7013b7057c9d976eedae8b8d2a80325d06c7fd877c686015ffb28b",
-      "size": 138687
+      "hash": "6b986e540d942ae25d77a6ee6eba7e9cd266b11ca0f6a3312596aed40dfae05f",
+      "size": 136629
     },
     {
       "path": "repeatedPrayers/endOfServiceCanons.json",
-      "hash": "4cce3cee4f78e9bea8d79b01ba39da625c9a2ff672f99d505d3dc695a23bdf05",
-      "size": 28825
+      "hash": "6a570248c38cfd76b78961c5077045973ecfb4671aa6163f7988f3d92f2ebc8f",
+      "size": 28577
     },
     {
       "path": "repeatedPrayers/endOfServiceParts.json",
@@ -449,28 +449,28 @@
     },
     {
       "path": "repeatedPrayers/expositions.json",
-      "hash": "bed83c95eeddfcc144364508f1aa3aae49458f14568ec4ca3fb025b092cff270",
-      "size": 33470
+      "hash": "a96d53fd2b23361d409787222d5660d9fa50e2eda8dd06df4e4f7614d4ddc084",
+      "size": 33253
     },
     {
       "path": "repeatedPrayers/gospelResponses.json",
-      "hash": "03cf127cdd93d37eaf3dc7ebf04cfed9a40e8891a05cd6b5b7a1a2d49a87f376",
-      "size": 36040
+      "hash": "ae3ec4d2445992e76be7b1441c387577b4d0e2e8f473f8d7a43552fdc0a2a3c4",
+      "size": 35434
     },
     {
       "path": "repeatedPrayers/hwRepeatedPrayers.json",
-      "hash": "8258ea6307f398fb6f75e3ce8e213b3f4a7dac86c827c38727086c5dcc151dc5",
-      "size": 99892
+      "hash": "dd2e31320cac798ead2d0dbc0e382a3be78272624c42edc098ec6917fe9fc1bc",
+      "size": 99018
     },
     {
       "path": "repeatedPrayers/intercessions.json",
-      "hash": "ec7910e832db624915f378dd926adcb538261cf4a93bab901d416e4d637d3b23",
-      "size": 13983
+      "hash": "1571ff5d4af57a4da5850d957433c555fddabf88b5e409442b452092ae41efbc",
+      "size": 13782
     },
     {
       "path": "repeatedPrayers/litanies.json",
-      "hash": "a199b332c3771488ffe9ec5c06391316a77f8601e7188b43dc1d12fdb70c9450",
-      "size": 29671
+      "hash": "90559612083ce804f3ab5a1c9dd4d0f4c217672cb45f8df48579e6d97945b210",
+      "size": 29171
     },
     {
       "path": "repeatedPrayers/psalm150Refrains.json",
@@ -479,33 +479,33 @@
     },
     {
       "path": "repeatedPrayers/psalmResponses.json",
-      "hash": "a5c7d77607200cce6d8483c6b29326ff7d12c05d7940e23e9bc491be5505d24e",
-      "size": 13247
+      "hash": "8f390da5fd1f7f0377fa080b74621ff951bc4622ad1190ecea6aa177b066af8b",
+      "size": 13084
     },
     {
       "path": "repeatedPrayers/repeatedAgpeyaPrayers.json",
-      "hash": "50a2f263cfb0dbe5709f67f5d345596e44641842eb14d5f1adbded0e91fcf01e",
-      "size": 38221
+      "hash": "a0ab56bb311eb6aff6bcc9ed1725a527222374e390c8327b182b638d9ce78e75",
+      "size": 48245
     },
     {
       "path": "repeatedPrayers/seasonalRepeatedPrayers.json",
-      "hash": "90a806690d93196a6a962205a0be0f219433c83030682bada6d0693b15f49d31",
-      "size": 176800
+      "hash": "2cf48db15d2ecb00b462105daf0d3328945f6218f6a3617df83cee43a13522c8",
+      "size": 176109
     },
     {
       "path": "repeatedPrayers/versesOfCymbals.json",
-      "hash": "812c1b3bef413c9f88fa49d9de0aac5f329f2a7b7d77dd6b838daf156790e03e",
-      "size": 53359
+      "hash": "595151c5b8a53d8d5575b56c9a127551bdfa9f7ae5872800fdb5fa3adb1c2e42",
+      "size": 52515
     },
     {
       "path": "songs.json",
-      "hash": "950bc219abbd0806732d504d970612feddbb8dfbdaf68244e1c450821a8a03a3",
-      "size": 772662
+      "hash": "2a13b86a02621b84988b6254e99015cb982faff5f8ba905b135923d7e94c1649",
+      "size": 749754
     },
     {
       "path": "unctionOfTheSick.json",
-      "hash": "e2627ea912144931bdea7af9f6392a28256ff68e15d1091d7067ea8288f0b6c2",
-      "size": 147326
+      "hash": "0e8a47fabdbebb4d2dc9dd7f9ba5c39a66efafdad70355c50ec5e143da8306ad",
+      "size": 147086
     }
   ]
 }

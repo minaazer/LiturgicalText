@@ -11,13 +11,14 @@ const resolveJsonData = (settings, jsonData) => {
         const todaysSaints = selectedDateProperties.saintFeast || [];
         const adamWatos = selectedDateProperties.adamOrWatos;
         const aktonkAki = selectedDateProperties.aktonkAki;
-        const weekdayWeekend = (dayOfWeek === 0 || dayOfWeek === 6) ? "weekend" : "weekday";
+        const weekdayWeekend = selectedDateProperties.weekdayWeekend;
+        const abstainingDay = selectedDateProperties.abstainingDay;
         const service = "Midnight Praises";
 
         const resolvedPlaceHoldersData = resolveRepeatedPrayers(jsonData, null);
         //console.log('Resolved Placeholders Data:', resolvedPlaceHoldersData);
         const resolvedSeasonalandSaintsData = filterBySeasons(resolvedPlaceHoldersData, currentSeasons, todaysSaints);
-        const resolvedData = filterByDayProps (resolvedSeasonalandSaintsData, { aktonkAki, adamWatos, dayOfTheWeek, weekdayWeekend , service });
+        const resolvedData = filterByDayProps (resolvedSeasonalandSaintsData, { aktonkAki, adamWatos, dayOfTheWeek, weekdayWeekend , abstainingDay, service });
         
         
 
@@ -29,15 +30,27 @@ const resolveJsonData = (settings, jsonData) => {
         }
         
         
+        const hasHeaderTableClass = (value?: string) =>
+            typeof value === "string" && value.split(/\s+/).includes("header-table");
+        const isHeaderTable = (item: any) =>
+            item &&
+            (hasHeaderTableClass(item.caption_class) ||
+                hasHeaderTableClass(item.table_class) ||
+                hasHeaderTableClass(item.tableClass));
+
         const tables = resolvedData.filter(
-            (item) => item && (Array.isArray(item.tbodies) || Array.isArray(item.rows))
+            (item) =>
+                item &&
+                (Array.isArray(item.tbodies) ||
+                    Array.isArray(item.rows) ||
+                    isHeaderTable(item))
         );
         if (tables.length !== resolvedData.length) {
             const dropped = resolvedData.filter(
                 (item) => !(item && (Array.isArray(item.tbodies) || Array.isArray(item.rows)))
             );
             
-            console.warn('Dropped non-table entries from psalmody data', dropped);
+            //console.warn('Dropped non-table entries from psalmody data', dropped);
         }
 
         return tables;

@@ -1,4 +1,4 @@
-{
+﻿{
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "psalmody/seasonalPraises.json",
   "type": "array",
@@ -10,7 +10,7 @@
         "type": "array",
         "items": {
           "allOf": [
-            { "$ref": "../common/table_base.schema.json#/items/anyOf/0" }
+            { "$ref": "https://liturgicalbooks/schemas/common/table_base.schema.json#/items" }
           ]
         }
       }
@@ -19,3 +19,4 @@
     "additionalProperties": true
   }
 }
+

@@ -79,12 +79,19 @@ export const findHeadingForPath = (data, path) => {
       if (typeof node.title === "string" && node.title.trim()) {
         return { heading: node.title, at: partial };
       }
+      if (typeof node.repeated_prayer_title === "string" && node.repeated_prayer_title.trim()) {
+        return { heading: node.repeated_prayer_title, at: partial };
+      }
+      if (typeof node.repeated_prayer_placement === "string" && node.repeated_prayer_placement.trim()) {
+        return { heading: node.repeated_prayer_placement, at: partial };
+      }
     }
   }
   return { heading: null, at: [] };
 };
 
 export const roleFromGroups = (groups = []) => {
+  if (groups.includes("superadmin")) return "superadmin";
   if (groups.includes("admin")) return "admin";
   if (groups.includes("editor")) return "editor";
   return "viewer";

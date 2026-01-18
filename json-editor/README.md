@@ -30,6 +30,21 @@ PowerShell helpers (Windows)
 Notes
 - Approvals: editors submit changes; admins approve/reject.
 - Audit log stored in DynamoDB (`AuditLogTable`).
+- Roles: `viewer`, `editor`, `admin`, and `superadmin` (superadmin has admin privileges; future UI can gate on it).
+ - Auth helpers (no login required):
+   - `POST /auth/verify-email/request` with `{ "identifier": "<username|email>" }` sends a verification code if the account exists.
+   - `POST /auth/verify-email/confirm` with `{ "identifier": "<username|email>", "code": "123456" }` verifies the email.
+   - `POST /auth/resolve-identifier` with `{ "identifier": "<username|email>" }` returns `{ "username": "..." }` for email-to-username lookup.
+ - Superadmin-only user management:
+   - `GET /admin/users` (optional `q`, `limit`, `nextToken`) to list users.
+   - `GET /admin/users/{username}` to fetch user detail including groups.
+   - `POST /admin/users` to create a user with groups and invite settings.
+   - `POST /admin/users/{username}` to update attributes, groups, and enable/disable.
+   - `DELETE /admin/users/{username}` to delete a user.
+ - User invites are sent via SES as two HTML emails (temporary password + login URL). Cognito default invite is suppressed.
+ - Password policy is available at `GET /auth/password-policy` for UI hints.
+ - User search with `q` matches username, email, and full name (case-insensitive substring).
+ - User management enforces exactly one role per user.
 
 
 

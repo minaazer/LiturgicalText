@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 
-const PendingChanges = ({ changes, onApprove, onReject, onSelect, selectedId, loadingId }) => {
-  const [rejectReasons, setRejectReasons] = useState({});
+const PendingChanges = ({ changes, onSelect, onSubmit, selectedId, loadingId }) => {
   return (
     <div className="pending">
       <div className="pending-header">
@@ -26,22 +25,14 @@ const PendingChanges = ({ changes, onApprove, onReject, onSelect, selectedId, lo
               </div>
               <div className="pending-summary muted">{change.summary || "No summary provided"}</div>
               <div className="pending-actions">
-                <button type="button" onClick={() => onApprove(change.id)}>Approve</button>
-                <div className="pending-reject">
-                  <input
-                    value={rejectReasons[change.id] || ""}
-                    onChange={(event) =>
-                      setRejectReasons((prev) => ({
-                        ...prev,
-                        [change.id]: event.target.value,
-                      }))
-                    }
-                    placeholder="Reason for rejection"
-                  />
-                  <button type="button" className="secondary" onClick={() => onReject(change.id, rejectReasons[change.id] || "")}>
-                    Reject
-                  </button>
-                </div>
+                <button
+                  type="button"
+                  onClick={() => onSubmit?.(change.id)}
+                  disabled={!isActive || isLoading}
+                  title={!isActive ? "Select this request to review before submitting." : ""}
+                >
+                  Submit
+                </button>
               </div>
             </div>
           );

@@ -7,7 +7,7 @@ import { htmlRenderScript } from "../functions/jsScripts";
 import { getHtml, handleDrawerItemPress } from "../functions/renderFunctions";
 import { renderHtml } from "../../data/renderHtml.js";
 import glorificationData from "../../data/jsons/glorification.json";
-import { iconVariables } from "../../data/iconVariables";
+import { loadIconVariables, iconVariablesFallback } from "../../data/iconVariables";
 import SettingsContext from "../../settings/settingsContext";
 import { getJson } from "../functions/jsonCache";
 
@@ -16,6 +16,7 @@ const GlorificationScreen = () => {
   const [currentTable, setCurrentTable] = useState("");
   const [glorificationJson, setGlorificationJson] = useState(glorificationData);
   const [settings] = useContext(SettingsContext);
+  const [icons, setIcons] = useState(iconVariablesFallback);
   const webviewRef = useRef(null);
 
   useEffect(() => {
@@ -30,11 +31,19 @@ const GlorificationScreen = () => {
     };
   }, []);
 
+  useEffect(() => {
+    let mounted = true;
+    loadIconVariables().then((vars) => mounted && vars && setIcons(vars));
+    return () => {
+      mounted = false;
+    };
+  }, []);
+
   const dynamicStyles = useDynamicStyles(webviewRef);
   const pageTitle = "Glorification";
   const jsonData = glorificationJson;
   const variables = {
-    iconVariables,
+    ...icons,
   };
 
   // Check if the glorification section should be rendered in one page

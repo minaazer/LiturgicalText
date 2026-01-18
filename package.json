@@ -9,6 +9,7 @@
     "web": "expo start --web",
     "deploy:jsons": "scripts/deploy_jsons.sh",
     "deploy:jsons:win": "powershell -ExecutionPolicy Bypass -File scripts/deploy_jsons.ps1",
+    "deploy:jsons:editor:win": "powershell -ExecutionPolicy Bypass -File scripts/deploy_jsonEditor_changes.ps1",
     "fetch:jsons:win": "powershell -ExecutionPolicy Bypass -File scripts/fetch_jsons.ps1",
     "validate:deploy:win": "powershell -ExecutionPolicy Bypass -File scripts/validate_build_deploy.ps1"
   },
@@ -30,7 +31,10 @@
     "expo-audio": "^0.4.8",
     "expo-av": "^15.1.7",
     "expo-device": "~7.1.4",
+    "expo-document-picker": "~13.1.6",
+    "expo-file-system": "~18.1.11",
     "expo-font": "~13.3.0",
+    "expo-image-picker": "~16.1.4",
     "expo-keep-awake": "~14.1.4",
     "expo-linking": "~7.1.7",
     "expo-navigation-bar": "~4.2.3",

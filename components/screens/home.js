@@ -12,6 +12,7 @@ import holyWeekImage from '../../assets/holyWeek.png';
 import songsImage from '../../assets/songs.png';
 import baptismImage from '../../assets/baptism.png';
 import crowningImage from '../../assets/crowning.png';
+import offertoryImage from '../../assets/offertory.png';
 import { ScrollView } from 'react-native';
 import SettingsContext from '../../settings/settingsContext'; // Import SettingsContext
 import * as ScreenOrientation from 'expo-screen-orientation';
@@ -191,6 +192,14 @@ const Home = () => {
                 onPress={() => navigation.navigate('Unction')}
               >
                 <Image source={unctionImage} style={styles.iconImage} />
+              </TouchableOpacity>
+              ) : null }
+              {developerMode ? (
+              <TouchableOpacity
+                style={[styles.iconContainer, { opacity: 0.5}]}
+                onPress={() => navigation.navigate('Offertory')}
+              >
+                <Image source={offertoryImage} style={styles.iconImage} />
               </TouchableOpacity>
               ) : null }
             </View>

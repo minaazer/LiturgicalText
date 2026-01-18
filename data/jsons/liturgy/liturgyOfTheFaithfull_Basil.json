@@ -181,7 +181,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_538ef0cb86"
   },
   {
     "english_title": "Another Prayer of Reconciliation To The Father",
@@ -390,10 +391,11 @@
                 "arabic": "الآنَ وكلَّ أوانٍ وإلى دهرِ الدهورِ كلِّها. آمين."
               }
             ]
-          }        
+          }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_83d45d622a"
   },
   {
     "link": "aspasmosAdam"
@@ -606,7 +608,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_5d6c3e26df"
   },
   {
     "congregationResponse": "The Cherubimic Hymn"
@@ -693,7 +696,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_645433f795"
   },
   {
     "english_title": "Was incarnate and became man",
@@ -754,9 +758,10 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_e5c516b291"
   },
-{
+  {
     "english_title": "He rose from the dead",
     "coptic_title": "Ⲁϥⲧⲱⲛϥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ",
     "arabic_title": "وقام من الأموات",
@@ -805,7 +810,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_93f13c8d7d"
   },
   {
     "english_title": "The Institution Narrative",
@@ -1116,7 +1122,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_903f0331cc"
   },
   {
     "congregationResponse": "Amen(3) Your Death, O Lord"
@@ -1180,7 +1187,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_e58e4c8f37"
   },
   {
     "english_title": "The Descent of the Holy Spirit",
@@ -1321,7 +1329,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_847cad9741"
   },
   {
     "english_title": "Litany of Peace",
@@ -1402,7 +1411,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_9d16188097"
   },
   {
     "english_title": "Litany of the Fathers",
@@ -1520,7 +1530,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_416e68608e"
   },
   {
     "english_title": "Litany of the Clergy",
@@ -1529,7 +1540,6 @@
     "tbodies": [
       {
         "rows": [
-
           {
             "row-class": "text",
             "cells": [
@@ -1577,7 +1587,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_a1358d0118"
   },
   {
     "english_title": "Litany of Mercy",
@@ -1586,7 +1597,6 @@
     "tbodies": [
       {
         "rows": [
-
           {
             "row-class": "text",
             "cells": [
@@ -1616,7 +1626,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_477b34eeed"
   },
   {
     "english_title": "Litany of the Place",
@@ -1625,7 +1636,6 @@
     "tbodies": [
       {
         "rows": [
-
           {
             "row-class": "text",
             "cells": [
@@ -1664,7 +1674,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_17ad5164bb"
   },
   {
     "english_title": "Have Mercy upon us",
@@ -1747,7 +1758,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_ae8215ea7f"
   },
   {
     "english_title": "Litany of the Waters of the Rivers",
@@ -1756,7 +1768,6 @@
     "tbodies": [
       {
         "rows": [
-  
           {
             "row-class": "commentary",
             "cells": [
@@ -1804,7 +1815,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_a4892a6d19"
   },
   {
     "english_title": "Litany of the Plants of the Field",
@@ -1847,7 +1859,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_5cf3c4d750"
   },
   {
     "english_title": "Litany of the Air of Heaven and the Fruits",
@@ -1890,7 +1903,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_7852c5e95a"
   },
   {
     "english_title": "Combined Litany of the Three Seasons",
@@ -1933,7 +1947,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_54f1af7e47"
   },
   {
     "english_title": "continuation of the three seasons litany",
@@ -2003,10 +2018,11 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_4d7997e25c"
   },
   {
-    "link" : "healingForTheSick"
+    "link": "healingForTheSick"
   },
   {
     "english_title": "Litany of the Oblations",
@@ -2040,7 +2056,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_8c9428eb9b"
   },
   {
     "english_title": "The Commemoration of the Saints",
@@ -2181,10 +2198,11 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_b0da50ce9c"
   },
   {
-    "congregationResponse":"May their holy blessing"
+    "congregationResponse": "May their holy blessing"
   },
   {
     "english_title": "Diptych",
@@ -2235,7 +2253,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_800b0de7cc"
   },
   {
     "english_title": "Diptych from St. Cyril’s Liturgy",
@@ -2356,7 +2375,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_9f83a65668"
   },
   {
     "english_title": "Names of the Departed Patriarchs",
@@ -3547,7 +3567,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_c8b6284a35"
   },
   {
     "english_title": "Those, O Lord",
@@ -3578,10 +3599,11 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_5781892f6a"
   },
   {
-    "congregationResponse":"As it was"
+    "congregationResponse": "As it was"
   },
   {
     "english_title": "Lead us into Your kingdom",
@@ -3632,7 +3654,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_37affd02ed"
   },
   {
     "english_title": "Introduction to the Fraction",
@@ -3773,7 +3796,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_9a17e1c600"
   },
   {
     "english_title": "The Fraction",
@@ -3904,7 +3928,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_1d9888daee"
   },
   {
     "english_title": "Our Father who art in heaven",
@@ -3935,7 +3960,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_388edfa78c"
   },
   {
     "english_title": "The Prayer after \"Our Father\" Addressed to the Father",
@@ -3997,7 +4023,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_cb00e4013d"
   },
   {
     "english_title": "Continuation",
@@ -4028,7 +4055,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_4783d90629"
   },
   {
     "english_title": "The Prayer of Submission Addressed to the Father",
@@ -4099,7 +4127,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_5806c0c22f"
   },
   {
     "english_title": "Continuation",
@@ -4140,7 +4169,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_e4883736f8"
   },
   {
     "english_title": "The Prayer of Absolution to the Father",
@@ -4302,7 +4332,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_c7da1b304a"
   },
   {
     "english_title": "Continuation",
@@ -4353,7 +4384,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_b1a1d0eaaa"
   },
   {
     "english_title": "The Confession",
@@ -4394,7 +4426,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_870faa4e39"
   },
   {
     "english_title": "One is the Holy Father",
@@ -4416,7 +4449,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_81e25580f6"
   },
   {
     "english_title": "Continuation",
@@ -4587,10 +4621,11 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_f5f4e3b01a"
   },
   {
-    "congregationResponse":"Confession - Amen. I believe"
+    "congregationResponse": "Confession - Amen. I believe"
   },
   {
     "english_title": "Prayers Before the Distribution of the Holy Mysteries",
@@ -4762,7 +4797,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_b978979457"
   },
   {
     "english_title": "A Prayer of Thanksgiving",
@@ -4833,7 +4869,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_32c1c33efb"
   },
   {
     "english_title": "The Prayer of Submission to the Father",
@@ -4904,6 +4941,7 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_basil_e4ed975e09"
   }
 ]

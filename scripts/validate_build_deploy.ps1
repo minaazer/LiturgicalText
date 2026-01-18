@@ -16,14 +16,28 @@ if (-not (Get-Command node -ErrorAction SilentlyContinue)) {
 if (-not (Get-Command npx -ErrorAction SilentlyContinue)) {
   Write-Error "npx not found in PATH. Install Node.js (includes npm/npx)."
 }
-if (-not (Get-Command aws -ErrorAction SilentlyContinue)) {
+$awsCmd = Get-Command aws.exe -CommandType Application -ErrorAction SilentlyContinue
+if (-not $awsCmd) {
+  $awsCmd = Get-Command aws -CommandType Application -ErrorAction SilentlyContinue
+}
+if (-not $awsCmd) {
   Write-Error "aws CLI not found in PATH. Install AWS CLI v2 first."
 }
 
-# Trim profile to avoid passing empty token to aws CLI
-$Profile = $Profile.Trim()
+# Normalize profile and keep env in sync to avoid empty --profile args
+if ([string]::IsNullOrWhiteSpace($Profile)) {
+  $Profile = $env:AWS_PROFILE
+}
+if ([string]::IsNullOrWhiteSpace($Profile)) {
+  $Profile = $null
+  Remove-Item Env:AWS_PROFILE -ErrorAction SilentlyContinue
+} else {
+  $Profile = $Profile.Trim()
+  $env:AWS_PROFILE = $Profile
+}
 
 # Rebuild manifest before validation so it matches the on-disk JSONs
+& "$PSScriptRoot/sync_editor_schemas.ps1" -Prune
 & node "$PSScriptRoot/build_json_manifest.js"
 
 $schemaPairs = @(
@@ -93,12 +107,12 @@ if ($SkipDeploy) {
   exit 0
 }
 
-$deployArgs = @()
-if ($Bucket) { $deployArgs += @("-Bucket", $Bucket) }
-if ($DistributionId) { $deployArgs += @("-DistributionId", $DistributionId) }
-if (-not [string]::IsNullOrWhiteSpace($Profile)) { $deployArgs += @("-Profile", $Profile) }
-if ($CacheControl) { $deployArgs += @("-CacheControl", $CacheControl) }
-if ($DryRun) { $deployArgs += "-DryRun" }
-if ($Delete) { $deployArgs += "-Delete" }
+$deployParams = @{}
+if ($Bucket) { $deployParams.Bucket = $Bucket }
+if ($DistributionId) { $deployParams.DistributionId = $DistributionId }
+if (-not [string]::IsNullOrWhiteSpace($Profile)) { $deployParams.Profile = $Profile }
+if ($CacheControl) { $deployParams.CacheControl = $CacheControl }
+if ($DryRun) { $deployParams.DryRun = $true }
+if ($Delete) { $deployParams.Delete = $true }
 
-& "$PSScriptRoot/deploy_jsons.ps1" @deployArgs
+& "$PSScriptRoot/deploy_jsons.ps1" @deployParams

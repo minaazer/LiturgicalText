@@ -44,13 +44,63 @@ export const fetchChanges = (token, status = "pending") =>
 export const fetchChange = (token, id) =>
   apiFetch(`/changes/${encodeURIComponent(id)}`, token);
 
-export const approveChange = (token, id) =>
+export const approveChange = (token, id, payload) =>
   apiFetch(`/changes/${encodeURIComponent(id)}/approve`, token, {
     method: "POST",
+    ...(payload ? { body: JSON.stringify(payload) } : {}),
   });
 
-export const rejectChange = (token, id, reason) =>
+export const rejectChange = (token, id, payload) =>
   apiFetch(`/changes/${encodeURIComponent(id)}/reject`, token, {
     method: "POST",
-    body: JSON.stringify({ reason }),
+    body: JSON.stringify(payload || {}),
+  });
+
+export const requestEmailVerification = (identifier) =>
+  apiFetch("/auth/verify-email/request", null, {
+    method: "POST",
+    body: JSON.stringify({ identifier }),
+  });
+
+export const confirmEmailVerification = (identifier, code) =>
+  apiFetch("/auth/verify-email/confirm", null, {
+    method: "POST",
+    body: JSON.stringify({ identifier, code }),
+  });
+
+export const resolveIdentifier = (identifier) =>
+  apiFetch("/auth/resolve-identifier", null, {
+    method: "POST",
+    body: JSON.stringify({ identifier }),
+  });
+
+export const fetchPasswordPolicy = () => apiFetch("/auth/password-policy", null);
+
+export const listUsers = (token, { q, limit, nextToken } = {}) => {
+  const params = new URLSearchParams();
+  if (q) params.set("q", q);
+  if (limit) params.set("limit", String(limit));
+  if (nextToken) params.set("nextToken", nextToken);
+  const suffix = params.toString() ? `?${params.toString()}` : "";
+  return apiFetch(`/admin/users${suffix}`, token);
+};
+
+export const getUserDetail = (token, username) =>
+  apiFetch(`/admin/users/${encodeURIComponent(username)}`, token);
+
+export const updateUser = (token, username, payload) =>
+  apiFetch(`/admin/users/${encodeURIComponent(username)}`, token, {
+    method: "POST",
+    body: JSON.stringify(payload || {}),
+  });
+
+export const createUser = (token, payload) =>
+  apiFetch("/admin/users", token, {
+    method: "POST",
+    body: JSON.stringify(payload || {}),
+  });
+
+export const deleteUser = (token, username) =>
+  apiFetch(`/admin/users/${encodeURIComponent(username)}`, token, {
+    method: "DELETE",
   });

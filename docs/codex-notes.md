@@ -63,8 +63,30 @@ JSON editor (AWS hosted)
 - UI tweaks: explicit array/button labels + higher-contrast nested section colors; inputs stay white.
 - Backend change: hide `bible/*` JSONs and `images.json` from file list (redeploy required).
 - Glorification schema refined: each `tbody` has exactly 2 rows (row 1: english/coptic/arabic, row 2: phonics).
+- Auth helpers:
+  - Email verification without a password via `POST /auth/verify-email/request` and `POST /auth/verify-email/confirm`.
+  - Email/username resolution via `POST /auth/resolve-identifier` for sign-in/password reset UX.
+- Roles: `viewer`, `editor`, `admin`, and `superadmin` (superadmin includes admin privileges; future screens can gate on it).
+- Superadmin user management:
+  - `GET /admin/users` (optional `q`, `limit`, `nextToken`).
+  - `GET /admin/users/{username}` for detail + groups.
+  - `POST /admin/users` to create users (invite optional).
+  - `POST /admin/users/{username}` to update attributes, groups, and enable/disable.
+  - `DELETE /admin/users/{username}` to delete a user.
+- New user invites are sent via SES as two HTML emails (temporary password + login URL). Cognito default invite is suppressed.
+- Password policy endpoint: `GET /auth/password-policy` (used for UI hints).
+- User search with `q` matches username, email, and full name (case-insensitive substring).
+- User management enforces exactly one role per user.
 
-Deploy commands (Windows)
+
+**********************
+Deploy editor json changes commands (Windows)
+npm run deploy:jsons:editor:win -- -Bucket liturgicalbooks-json -DistributionId E3U8PRC9BR5M03 -Profile liturgicalbooks
+
+Add -SkipFetch to deploy current locals without pulling, 
+or -SkipValidate to skip validation.
+**********************
+
 - Dry run (PowerShell parameters): `npm run deploy:jsons:win -- -Bucket liturgicalbooks-json -DistributionId E3U8PRC9BR5M03 -Profile liturgicalbooks -DryRun`
 - Dry run (env vars): `$env:S3_BUCKET="liturgicalbooks-json"; $env:CLOUDFRONT_DISTRIBUTION_ID="E3U8PRC9BR5M03"; $env:AWS_PROFILE="liturgicalbooks"; npm run deploy:jsons:win -- -DryRun`
 - Live deploy (PowerShell parameters): `npm run deploy:jsons:win -- -Bucket liturgicalbooks-json -DistributionId E3U8PRC9BR5M03 -Profile liturgicalbooks`
@@ -76,19 +98,22 @@ Fetch from S3 to local (Windows)
 - Raw CLI dry run: `aws s3 sync s3://liturgicalbooks-json/ data/jsons --dryrun`
 - Raw CLI live: `aws s3 sync s3://liturgicalbooks-json/ data/jsons`
 
-Frontend Deploy
+********** Backend Deploy
+
+powershell -ExecutionPolicy Bypass -File json-editor/scripts/deploy_backend.ps1 `
+  -JsonBucketName liturgicalbooks-json `
+  -Profile liturgicalbooks `
+  -Region us-east-1
+  
+  
+************ Frontend Deploy
 powershell -ExecutionPolicy Bypass -File json-editor/scripts/deploy_frontend.ps1 `
   -Bucket liturgicalbooks-editor-ui `
   -Profile liturgicalbooks
 
 aws cloudfront get-invalidation --distribution-id E3U8PRC9BR5M03 --id IB6BWSPCJEGHULXOTPVKMPHGCT --profile liturgicalbooks
 
-Backend Deploy
 
-powershell -ExecutionPolicy Bypass -File json-editor/scripts/deploy_backend.ps1 `
-  -JsonBucketName liturgicalbooks-json `
-  -Profile liturgicalbooks `
-  -Region us-east-1
 
 
 Create user
@@ -135,6 +160,24 @@ Assign a name to a user
   --username minaazer `
   --query "UserAttributes[].{Name:Name,Value:Value}" `
   --output table
+  
+
+  verify user email
+
+  aws cognito-idp admin-update-user-attributes `
+  --region us-east-1 `
+  --profile liturgicalbooks `
+  --user-pool-id us-east-1_xVLzQSkqL `
+  --username minaazer `
+  --user-attributes Name=email_verified,Value=true
+
+  Unverify email
+  aws cognito-idp admin-update-user-attributes `
+  --region us-east-1 `
+  --profile liturgicalbooks `
+  --user-pool-id us-east-1_xVLzQSkqL `
+  --username minaazer `
+  --user-attributes Name=email_verified,Value=false
 
   retrieve user list
 

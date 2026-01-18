@@ -5,7 +5,18 @@ import bundledManifest from "../../data/jsons/manifest.json";
 const CACHE_DIR = `${FileSystem.documentDirectory}json-cache/`;
 const MANIFEST_KEY = "json-cache-manifest";
 const MAX_RETRY = 2;
+const MANIFEST_FETCH_TIMEOUT_MS = 15000;
 const memoryCache = new Map();
+let updateInFlight = null;
+let preferBundledJson = false;
+
+export function setPreferBundledJson(value) {
+  preferBundledJson = !!value;
+}
+
+export function getPreferBundledJson() {
+  return preferBundledJson;
+}
 
 const ensureDir = async (dir) => {
   try {
@@ -14,6 +25,19 @@ const ensureDir = async (dir) => {
     if (err?.message?.includes("exists")) return;
     throw err;
   }
+};
+
+const withTimeout = (promise, timeoutMs, label) => {
+  if (!timeoutMs) return promise;
+  let timeoutId;
+  const timeoutPromise = new Promise((_, reject) => {
+    timeoutId = setTimeout(() => {
+      reject(new Error(`${label} timed out after ${timeoutMs}ms`));
+    }, timeoutMs);
+  });
+  return Promise.race([promise, timeoutPromise]).finally(() => {
+    if (timeoutId) clearTimeout(timeoutId);
+  });
 };
 
 const loadCachedManifest = async () => {
@@ -30,6 +54,10 @@ const saveCachedManifest = async (manifest) => {
   await AsyncStorage.setItem(MANIFEST_KEY, JSON.stringify(manifest));
 };
 
+export const clearCachedManifest = async () => {
+  await AsyncStorage.removeItem(MANIFEST_KEY);
+};
+
 const getCachePath = (relativePath) => `${CACHE_DIR}${relativePath}`;
 
 const ensureParentDir = async (filePath) => {
@@ -38,7 +66,25 @@ const ensureParentDir = async (filePath) => {
 };
 
 const fetchJson = async (url) => {
-  const res = await fetch(url);
+  const hasAbortController = typeof AbortController !== "undefined";
+  const controller = hasAbortController ? new AbortController() : null;
+  const fetchPromise = fetch(url, controller ? { signal: controller.signal } : undefined);
+  let res;
+  if (controller) {
+    const timeoutId = setTimeout(() => controller.abort(), MANIFEST_FETCH_TIMEOUT_MS);
+    try {
+      res = await fetchPromise;
+    } catch (err) {
+      if (err?.name === "AbortError") {
+        throw new Error(`Failed to fetch ${url}: request timed out`);
+      }
+      throw err;
+    } finally {
+      clearTimeout(timeoutId);
+    }
+  } else {
+    res = await withTimeout(fetchPromise, MANIFEST_FETCH_TIMEOUT_MS, `fetch ${url}`);
+  }
   if (!res.ok) {
     throw new Error(`Failed to fetch ${url}: ${res.status}`);
   }
@@ -70,6 +116,21 @@ const warmupCache = async (paths) => {
   }
 };
 
+const runUpdate = (remoteBaseUrl, { preUpdate } = {}) => {
+  if (updateInFlight) {
+    return { promise: updateInFlight, started: false };
+  }
+  updateInFlight = (async () => {
+    if (preUpdate) {
+      await preUpdate();
+    }
+    return updateJsonCache(remoteBaseUrl);
+  })().finally(() => {
+    updateInFlight = null;
+  });
+  return { promise: updateInFlight, started: true };
+};
+
 export async function initJsonCache({
   remoteBaseUrl,
   warmupPaths,
@@ -82,16 +143,58 @@ export async function initJsonCache({
   }
 
   if (remoteBaseUrl) {
+    let started = false;
     try {
-      onStatus?.({ phase: "update-start" });
-      const result = await updateJsonCache(remoteBaseUrl);
-      onStatus?.({ phase: "update-success", updated: result.updated });
+      const { promise, started: didStart } = runUpdate(remoteBaseUrl);
+      started = didStart;
+      if (started) onStatus?.({ phase: "update-start" });
+      const result = await promise;
+      if (started) {
+        onStatus?.({ phase: "update-success", updated: result.updated });
+      }
     } catch (err) {
-      onStatus?.({ phase: "update-error", error: err });
+      if (started) {
+        onStatus?.({ phase: "update-error", error: err });
+      }
       console.warn("jsonCache: update failed", err);
     }
   }
   await warmupCache(warmupPaths);
+}
+
+export function clearJsonMemoryCache() {
+  memoryCache.clear();
+}
+
+export async function refreshJsonCache({
+  remoteBaseUrl,
+  warmupPaths,
+  onStatus,
+  forceManifest,
+} = {}) {
+  if (!remoteBaseUrl) {
+    throw new Error("refreshJsonCache: remoteBaseUrl is required");
+  }
+  let started = false;
+  try {
+    const { promise, started: didStart } = runUpdate(remoteBaseUrl, {
+      preUpdate: forceManifest ? clearCachedManifest : null,
+    });
+    started = didStart;
+    if (started) onStatus?.({ phase: "update-start" });
+    const result = await promise;
+    clearJsonMemoryCache();
+    await warmupCache(warmupPaths);
+    if (started) {
+      onStatus?.({ phase: "update-success", updated: result.updated });
+    }
+    return result;
+  } catch (err) {
+    if (started) {
+      onStatus?.({ phase: "update-error", error: err });
+    }
+    throw err;
+  }
 }
 
 export async function updateJsonCache(remoteBaseUrl) {
@@ -138,6 +241,7 @@ export async function updateJsonCache(remoteBaseUrl) {
 }
 
 export async function readJsonFromCache(relPath) {
+  if (preferBundledJson) return null;
   const filePath = getCachePath(relPath);
   const info = await FileSystem.getInfoAsync(filePath);
   if (!info.exists) return null;
@@ -152,9 +256,12 @@ export async function readJsonFromCache(relPath) {
 }
 
 export async function getJson(relPath, fallback) {
+  if (preferBundledJson) {
+    return fallback ?? null;
+  }
   const cached = await readJsonFromCache(relPath);
   if (cached !== null) {
-    console.log(`jsonCache: loaded ${relPath} from cache`);
+    //console.log(`jsonCache: loaded ${relPath} from cache`);
     return cached;
   }
   console.log(`jsonCache: using bundled fallback for ${relPath}`);
@@ -165,6 +272,9 @@ export async function getJson(relPath, fallback) {
 }
 
 export function getJsonSync(relPath, fallback) {
+  if (preferBundledJson) {
+    return fallback ?? null;
+  }
   if (memoryCache.has(relPath)) {
     return memoryCache.get(relPath);
   }

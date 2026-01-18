@@ -107,6 +107,7 @@
               { "type": "array", "items": { "type": "string" } }
             ]
           },
+          "table_id": { "type": "string" },
           "table_class": { "type": "string" },
           "dayOfTheWeek": { "type": "string" },
           "weekdayWeekend": { "type": "string" },
@@ -142,6 +143,7 @@
                           "navigationButton",
                           "navigationLink",
                           "north",
+                          "papalAddition",
                           "priest",
                           "refrain",
                           "silent-prayer",
@@ -195,7 +197,11 @@
             }
           }
         },
-        "required": ["english_title", "tbodies"],
+        "anyOf": [
+          { "required": ["english_title"] },
+          { "required": ["title"] }
+        ],
+        "required": ["tbodies"],
         "additionalProperties": true
       }
     ]

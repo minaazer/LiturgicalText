@@ -22,7 +22,12 @@ import changelog from './changelog';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import semver from 'semver';
 import { presentationStyles } from './components/css/presentationStyles';
-import { initJsonCache } from './components/functions/jsonCache';
+import {
+  initJsonCache,
+  refreshJsonCache,
+  setPreferBundledJson,
+  clearJsonMemoryCache,
+} from './components/functions/jsonCache';
 
 
 SplashScreen.preventAutoHideAsync();
@@ -37,6 +42,26 @@ const AppContent = () => {
   const [settings, , setCurrentDate] = useContext(SettingsContext);
   const [jsonCacheBanner, setJsonCacheBanner] = useState(null);
   const jsonCacheTimeoutRef = useRef(null);
+  const warmupPaths = React.useMemo(
+    () => [
+      "psalmody/psalis.json",
+      "psalmody/psalmody.json",
+      "psalmody/theotokias.json",
+      "psalmody/seasonalPraises.json",
+      "psalmody/doxologies.json",
+      "repeatedPrayers/hwRepeatedPrayers.json",
+      "repeatedPrayers/annualRepeatedPrayers.json",
+      "repeatedPrayers/seasonalRepeatedPrayers.json",
+      "repeatedPrayers/repeatedAgpeyaPrayers.json",
+      "repeatedPrayers/actsResponses.json",
+      "repeatedPrayers/gospelResponses.json",
+      "repeatedPrayers/intercessions.json",
+      "repeatedPrayers/versesOfCymbals.json",
+      "repeatedPrayers/distributionPraises.json",
+    ],
+    []
+  );
+  const LAST_CACHE_REFRESH_KEY = "json-cache-last-refresh";
 
   const handleStateChange = () => {
     if (settings.currentDate.type === 'live') {
@@ -165,6 +190,11 @@ const AppContent = () => {
     };
   }, []);
 
+  useEffect(() => {
+    setPreferBundledJson(!!settings.forceLocalJson);
+    clearJsonMemoryCache();
+  }, [settings.forceLocalJson]);
+
   const handleJsonCacheStatus = useCallback(
     (event) => {
       if (!event?.phase) return;
@@ -194,27 +224,48 @@ const AppContent = () => {
   );
 
   useEffect(() => {
+    if (settings.forceLocalJson) {
+      return;
+    }
     initJsonCache({
       remoteBaseUrl: 'https://d18kyprs8j73gp.cloudfront.net',
-      warmupPaths: [
-        "psalmody/psalis.json",
-        "psalmody/psalmody.json",
-        "psalmody/theotokias.json",
-        "psalmody/seasonalPraises.json",
-        "psalmody/doxologies.json",
-        "repeatedPrayers/hwRepeatedPrayers.json",
-        "repeatedPrayers/annualRepeatedPrayers.json",
-        "repeatedPrayers/seasonalRepeatedPrayers.json",
-        "repeatedPrayers/repeatedAgpeyaPrayers.json",
-        "repeatedPrayers/actsResponses.json",
-        "repeatedPrayers/gospelResponses.json",
-        "repeatedPrayers/intercessions.json",
-        "repeatedPrayers/versesOfCymbals.json",
-        "repeatedPrayers/distributionPraises.json",
-      ],
+      warmupPaths,
       onStatus: handleJsonCacheStatus,
     });
-  }, [handleJsonCacheStatus]);
+  }, [handleJsonCacheStatus, warmupPaths, settings.forceLocalJson]);
+
+  // Weekly forced refresh of manifest/cache on app open
+  useEffect(() => {
+    let cancelled = false;
+    const refreshIfStale = async () => {
+      try {
+        if (settings.forceLocalJson) return;
+        const now = Date.now();
+        const weekMs = 7 * 24 * 60 * 60 * 1000;
+        const last = await AsyncStorage.getItem(LAST_CACHE_REFRESH_KEY);
+        if (cancelled) return;
+        if (!last || now - Number(last) > weekMs) {
+          await refreshJsonCache({
+            remoteBaseUrl: 'https://d18kyprs8j73gp.cloudfront.net',
+            warmupPaths,
+            onStatus: handleJsonCacheStatus,
+            forceManifest: true,
+          });
+          if (!cancelled) {
+            await AsyncStorage.setItem(LAST_CACHE_REFRESH_KEY, String(now));
+          }
+        }
+      } catch (e) {
+        if (__DEV__) {
+          console.warn("jsonCache: weekly refresh failed", e);
+        }
+      }
+    };
+    refreshIfStale();
+    return () => {
+      cancelled = true;
+    };
+  }, [handleJsonCacheStatus, warmupPaths, settings.forceLocalJson]);
 
   
   const checkForStoreUpdates = async () => {

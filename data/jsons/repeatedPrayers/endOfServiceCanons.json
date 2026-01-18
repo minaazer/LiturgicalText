@@ -1,5 +1,5 @@
 [
-    {
+  {
     "english_title": "Vespers & Matins Concluding Canon",
     "coptic_title": "",
     "arabic_title": "قانون ختام عشية وباكر",
@@ -205,7 +205,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "endofservicecanons_11932c494b"
   },
   {
     "english_title": "Concluding Canon",
@@ -262,7 +263,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "endofservicecanons_d3f10a0a24"
   },
   {
     "english_title": "Concluding Canon",
@@ -360,7 +362,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "endofservicecanons_8e06fe9bfb"
   },
   {
     "english_title": "Conclusion Canon",
@@ -437,7 +440,7 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "endofservicecanons_c1a1e163ba"
   }
-
 ]

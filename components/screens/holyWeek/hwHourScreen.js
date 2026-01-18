@@ -10,7 +10,7 @@ import {
 } from "../../functions/renderFunctions";
 import { renderHour } from "../../../data/renderHWHour";
 import holyWeekData from "../../../data/jsons/holyWeek.json";
-import { iconVariables } from "../../../data/iconVariables";
+import { loadIconVariables, iconVariablesFallback } from "../../../data/iconVariables";
 import SettingsContext from "../../../settings/settingsContext";
 import { getJson } from "../../functions/jsonCache";
 
@@ -20,6 +20,7 @@ const HolyWeekHourScreen = ({ route }) => {
   const [currentTable, setCurrentTable] = useState("");
   const [holyWeekJson, setHolyWeekJson] = useState(holyWeekData);
   const [settings] = useContext(SettingsContext);
+  const [icons, setIcons] = useState(iconVariablesFallback);
   const paschalReadingsFull = settings.paschalReadingsFull;
   const onePageSettings = settings.onePage;
   const webviewRef = useRef(null);
@@ -36,6 +37,12 @@ const HolyWeekHourScreen = ({ route }) => {
     return () => {
       isMounted = false;
     };
+  }, []);
+
+  useEffect(() => {
+    let mounted = true;
+    loadIconVariables().then((vars) => mounted && vars && setIcons(vars));
+    return () => { mounted = false; };
   }, []);
 
   // Assuming `jsonData` is the parsed JSON object.
@@ -66,7 +73,7 @@ const HolyWeekHourScreen = ({ route }) => {
     aService: serviceNameArabic,
     eHour: hourName,
     aHour: hourNameArabic,
-    ...iconVariables,
+    ...icons,
   };
 
   const body = renderHour(

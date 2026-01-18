@@ -3,7 +3,7 @@ import { Dimensions, Platform } from 'react-native';
 import SettingsContext from '../../settings/settingsContext';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
-import { fontTypeface } from './fontTypeface';
+import { buildFontTypefaceCss, defaultFontTypeface } from './fontTypeface';
 
 export const useDynamicStyles = (webviewRef) => {
     const insets = useSafeAreaInsets();
@@ -14,10 +14,14 @@ export const useDynamicStyles = (webviewRef) => {
     const columnPadding = width > 900 ? 35 : 20; // Adjust for padding
     const fontSizeUnit = isPortrait ? 'vh' : 'vw';
     const [settings] = useContext(SettingsContext);
-    const [fontSize, setFontSize] = useState('3.5 wv'); 
-    const [titleFontSize, setTitleFontSize] = useState('4 wv');
-    const [toggleFontSize, setToggleFontSize] = useState('3 wv');
-    const [linkFontSize, setLinkFontSize] = useState('3 wv');
+    const [fontSize, setFontSize] = useState('3.5 vw'); 
+    const [titleFontSize, setTitleFontSize] = useState('4 vw');
+    const [toggleFontSize, setToggleFontSize] = useState('3 vw');
+    const [linkFontSize, setLinkFontSize] = useState('3 vw');
+    const [fontFaceCss, setFontFaceCss] = useState(defaultFontTypeface);
+    const isScrollMode = settings?.displayMode === "scroll";
+    const touchAction = isScrollMode ? "pan-y" : "none";
+    const bodyOverflow = isScrollMode ? "auto" : "hidden";
     const [visibleLangues, setVisibleLangues] = useState([
         { label: 'English', value: 'English' , checked: true },
         { label: 'Arabic', value: 'Arabic' , checked: true },
@@ -30,19 +34,21 @@ export const useDynamicStyles = (webviewRef) => {
     useEffect(() => {
         if (settings.fontSize) {
             setFontSize(settings.fontSize + fontSizeUnit);
-            setTitleFontSize((parseFloat(settings.fontSize) + 0.5) + fontSizeUnit);
-            setLinkFontSize((parseFloat(settings.fontSize) + 2) + fontSizeUnit);
+            setTitleFontSize((parseFloat(settings.fontSize) + 1) + fontSizeUnit);
+            setLinkFontSize((parseFloat(settings.fontSize) + 1) + fontSizeUnit);
             setToggleFontSize((parseFloat(settings.fontSize) - 1) + fontSizeUnit);
             const webview = webviewRef?.current;
             if (webview?.injectJavaScript) {
                 // Clear caches and repaginate after font change; small delay on iOS for layout to settle
                 const repaginate = `
-                    if (paginateTables && typeof paginateTables.clearFontCache === 'function') { paginateTables.clearFontCache(); }
-                    if (paginateTables && typeof paginateTables.clearPaginationCache === 'function') { paginateTables.clearPaginationCache(); }
-                    window._suspendPaginate = false;
-                    paginateTables();
-                    clearOverlays();
-                    adjustOverlay();
+                    if (!window._scrollMode) {
+                        if (paginateTables && typeof paginateTables.clearFontCache === 'function') { paginateTables.clearFontCache(); }
+                        if (paginateTables && typeof paginateTables.clearPaginationCache === 'function') { paginateTables.clearPaginationCache(); }
+                        window._suspendPaginate = false;
+                        paginateTables();
+                        clearOverlays();
+                        adjustOverlay();
+                    }
                 `;
                 const delay = Platform.OS === 'ios' ? 150 : 50;
                 setTimeout(() => webview.injectJavaScript(repaginate), delay);
@@ -54,6 +60,24 @@ export const useDynamicStyles = (webviewRef) => {
         }
     }, [settings.fontSize, settings.languages]);
 
+    useEffect(() => {
+        let isMounted = true;
+        buildFontTypefaceCss()
+            .then((css) => {
+                if (isMounted) {
+                    const cssText = css || '';
+                    setFontFaceCss(cssText || defaultFontTypeface);
+                }
+            })
+            .catch((err) => {
+                console.warn('fontFaceCss error', err);
+                if (isMounted) setFontFaceCss(defaultFontTypeface);
+            });
+        return () => {
+            isMounted = false;
+        };
+    }, []);
+
     const cssStyles = useMemo(() => `
 * {
     -webkit-touch-callout: none; /* iOS Safari */
@@ -64,30 +88,33 @@ export const useDynamicStyles = (webviewRef) => {
               user-select: none; /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
 }
 
-:root {
+ :root {
  --fontSize: 26px;
  --copticFont: 'FreeSerif Avva Shenouda';
 }
 
-${fontTypeface}
+${fontFaceCss}
 
-html {
- background-color: black;
- margin: 0;
- padding: 0;
- width: 99%;
- touch-action: none;
- overflow-x: hidden;
- pointer-events: auto;
- }
+ html {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  width: 99%;
+  touch-action: ${touchAction};
+  overflow-x: hidden;
+  overscroll-behavior-x: none;
+  pointer-events: auto;
+  }
 
 
 
-body {
- overflow: hidden;
- touch-action: none;
- color: white;
- font-size: ${fontSize};
+ body {
+  overflow: ${bodyOverflow};
+  overflow-x: hidden;
+  touch-action: ${touchAction};
+  overscroll-behavior-x: none;
+  color: white;
+  font-size: ${fontSize};
  width: ${calculatedWidth} !important;
  margin-top: 0px;
  padding-top: 0px;
@@ -117,7 +144,7 @@ width: ${calculatedWidth} !important;
 border-collapse: collapse;
 font-size: ${fontSize};
 border-width: 0px;
-touch-action: none;
+touch-action: ${touchAction};
 
 }
 
@@ -137,12 +164,13 @@ tbody {
 tr {
     display: flex; /* Ensure rows behave like traditional table rows */
     flex-direction: row;
+    align-items: flex-start;
     width: ${calculatedWidth} !important;
     overflow-wrap: break-word; /* Prevent text overflow */
     overflow-x: hidden;
     padding: 0 0 10px 0; /* Add padding to the bottom of each row */
     border-width: 0px;
-    touch-action: none;
+    touch-action: ${touchAction};
 
 
 }
@@ -150,6 +178,8 @@ tr {
 td {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    min-width: 0;
     overflow-wrap: break-word; /* Prevent text overflow */
     word-wrap: break-word !important;
     white-space: normal !important; /* Allow text wrapping */
@@ -182,13 +212,13 @@ td.column-3-3 {
 
 /* First column of a 2-column row */
 td.column-1-2 {
-    flex: 0 1 60%; /* 30% width */
+    flex: 0 1 50%; /* 30% width */
     padding-right: ${columnPadding}px;
 }
 
 /* Second column of a 2-column row */
 td.column-2-2 {
-    flex: 0 1 40%; /* 30% width */
+    flex: 0 1 50%; /* 30% width */
     padding-right: 3px;
     pointer-events: none;
 
@@ -215,13 +245,14 @@ td.column-1-1 {
 
 .arabic {
     text-align: right;
+    font-family: 'Georgia' !important;
     direction: rtl !important; 
     unicode-bidi: embed; /* Ensure proper rendering of Arabic text */
     vertical-align: top ;
     text-align: justify;
     text-justify: newspaper;
     display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'inline'};
-    line-height: 1.4;
+    line-height: 1.2 !important;
 
 }
 
@@ -231,7 +262,7 @@ td.column-1-1 {
     font-family: 'Georgia' !important;
     text-align: justify;
     display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'inline'};
-    line-height: 1.4;
+    line-height: 1.2 !important;
 
 }
 
@@ -308,7 +339,7 @@ td.column-1-1 {
 .bold {
     font-weight: bold !important;
     font-family: 'EB Garamond' !important;
-    color: red !important;
+    color: #C50000 !important;
 }
 
 
@@ -316,52 +347,141 @@ td.column-1-1 {
     font-size: ${titleFontSize};
     font-family: 'EB Garamond' !important;
     color: white !important;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* Center the text after padding */
+    display: grid;
+    grid-template-columns: 30px 1fr auto; /* toggle | text | actions */
     align-items: center;
-    text-align: center;
-    padding-Left: 40px; /* Ensure enough space for the icon on the left */
-    padding-right: 40px;
-    padding-bottom: 10px;
+    gap: 6px;
+    text-align: left;
+    padding: 8px 12px 10px 0px;
     font-weight: bold;
-    position: relative; /* Necessary for absolute positioning of the icon */
     cursor: pointer;
     pointer-events: auto;
-    line-height: 1.2 !important;
+    line-height: 1.1 !important;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 44px;
 }
 
-.caption.table-invisible {
-    color: grey !important;
+.caption-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex: 1 1 auto;
+    min-width: 0;
+    text-align: center;
+    overflow-wrap: break-word;
+    word-break: normal;
+    align-items: center;
+    width: 100%;
+}
+
+.caption-texts span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    white-space: normal;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.caption-texts span:not(:last-child)::after {
+    content: "~";
+    padding: 0 4px;
+    display: inline-block;
+    margin: 0 4px;
+    
+}
+
+.caption:not(.header-table) {
+    text-align: left;
+}
+
+.caption:not(.header-table) .caption-texts {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    column-gap: 0;
+    row-gap: 4px;
+    align-items: flex-start;
+}
+
+.caption:not(.header-table) .caption-texts span {
+    display: inline-flex;
+    width: auto;
+    max-width: 100%;
+    text-align: left;
+}
+
+.caption:not(.header-table) .coptic-caption {
+    text-align: left !important;
+}
+
+.caption.header-table .caption-texts {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 0;
+    row-gap: 4px;
+    width: auto;
+    justify-self: center;
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 4px;
+}
+
+.caption.header-table .caption-texts span {
+    display: inline-flex;
+    width: auto;
+}
+
+.caption-actions {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+    flex: 0 0 auto;
+}
+.caption-actions:empty {
+    display: none;
+    gap: 0;
+}
+
+.caption.silent-prayer {
+    color: lightGrey !important;
+}
+
+table.silent-prayer {
+    color: lightGrey !important;
+}
+
+table.silent-prayer * {
+    color: lightGrey !important;
 }
 
 .caption::before {
     content: "\\f056"; /* Font Awesome Unicode for plus icon */
     font-family: "Font Awesome 5 Free"; /* Font Awesome font family */
     font-size: ${toggleFontSize};
-    position: absolute; /* Ensure icon is positioned absolutely */
-    left: 0; /* Align icon to the leftmost side of the screen */
-    top: 50%; /* Vertically center the icon */
-    transform: translateY(-50%); /* Adjust to vertically center the icon */
+    justify-self: center;
+    text-align: left;
+}
+
+.caption.header-table {
+    color: #C50000 !important;
+    grid-template-columns: 1fr auto;
+}
+
+.caption.header-table::before {
+    content: "";
+    display: none;
 }
 
 .audio-button,
 .explanation-button,
 .image-button {
-  position: absolute;
-  top: 10px;
+  position: static;
   cursor: pointer;
   pointer-events: auto;
-  z-index: 9999;
-}
-.explanation-button {
-  right: 10px;
-}
-.image-button {
-  right: 60px; /* or however much space you want between them */
-}
-.audio-button {
-    right: 10px; /* Adjust as needed */
+  z-index: 2;
 }
 
 .caption.table-invisible::before {
@@ -369,16 +489,13 @@ td.column-1-1 {
     font-family: "Font Awesome 5 Free"; /* Font Awesome font family */
     font-weight: 900;
     font-size: ${toggleFontSize};
-    position: absolute; /* Ensure icon is positioned absolutely */
-    left: 0; /* Align icon to the leftmost side of the screen */
-    top: 50%; /* Vertically center the icon */
-    transform: translateY(-50%); /* Adjust to vertically center the icon */
+    justify-self: center;
+    text-align: center;
 }
-
 .coptic-caption {
     font-family: 'FreeSerif Avva Shenouda';
     direction: ltr !important;
-    text-align: left !important;
+    text-align: center !important;
 }
 .coptic-caption:lang(en) {
     font-family: 'Georgia' !important;
@@ -392,6 +509,13 @@ td.column-1-1 {
     pointer-events: none !important;
     font-size: 0 !important;
     line-height: 0 !important;
+    display: grid !important;
+    visibility: hidden !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    min-height: 1px !important;
+    height: 1px !important;
+    overflow: hidden !important;
 }
 
 .arabic-text {
@@ -444,41 +568,37 @@ td.column-1-1 {
 }
 
 .navigationLink {
-    display: block;
-    justify-content: space-between;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
     font-size: ${linkFontSize};
-    color: darkRed !important;
-    background-color: 'black' !important;
-    font-weight: bold;
-    padding: 3px;
-    margin: 10px;
-    border-radius: 10px;
+    color: #C50000 !important;
+    background-color: black !important;
+    font-weight: bold !important;
     text-decoration: underline;
     cursor: pointer;
-    pointer-events: auto; 
+    pointer-events: auto;
+     
 }
 
 .arabicLink {
-    flex: 2; /* 40% width */
-    text-align: center;
-    direction: rtl;
-    padding-left: 10px;
     display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'flex'};
-
+    padding-right: 10px;
+    width: 100%;
+    align-items: center;
 }
 
 .englishLink {
-    flex: 3; /* 60% width */
     font-family: 'Georgia' !important;
-    padding-right: 10px;
-    text-align: center;
     display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'flex'};
+    width: 100%;
+    align-items: center;
 }
 
 
 
-
+.papalAddition {
+    color: #a1caf1;
+}
 .north {
     color: white;
 }
@@ -507,12 +627,18 @@ td.column-1-1 {
 
 
 }
+.instruction {
+    color: #9d79d6 !important;
+    display: ${settings.languages && !visibleLangues[5].checked ? 'none' : 'flex'};
+
+
+}
 .priest {
     color: #a1caf1 !important;
 }
 
 .role {
-    color: #f01e2c !important;
+    color: #5df01eff !important;
     padding-bottom: 0px !important;
     margin-bottom: 0px !important;
 }
@@ -604,6 +730,9 @@ td.column-1-1 {
         titleFontSize,
         toggleFontSize,
         linkFontSize,
+        fontFaceCss,
+        touchAction,
+        bodyOverflow,
         visibleLangues,
         settings.languages,
     ]);

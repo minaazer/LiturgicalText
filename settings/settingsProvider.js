@@ -38,8 +38,10 @@ const defaultSettings = {
   dayTransitionTime: "18:00", // Default day transition time
   selectedDateProperties: null, // To be calculated
   developerMode: false, // Add developer mode to the settings
+  forceLocalJson: false, // Ignore cached online JSON files
   saintSettings: defaultSaintSettings,
   orientation: "landscape", // Default orientation
+  displayMode: "slideshow",
 };
 
 const SettingsProvider = ({ children }) => {
@@ -69,6 +71,12 @@ const SettingsProvider = ({ children }) => {
               normalizeDate(settings.currentDate.date),
               settings.dayTransitionTime
             );
+            if (settings.forceLocalJson === undefined) {
+              settings.forceLocalJson = defaultSettings.forceLocalJson;
+            }
+            if (settings.displayMode === undefined) {
+              settings.displayMode = defaultSettings.displayMode;
+            }
 
             try {
               settings.saintSettings = mergeSaintSettings(
@@ -87,11 +95,19 @@ const SettingsProvider = ({ children }) => {
               settings?.developerMode !== undefined
                 ? settings.developerMode
                 : false;
+            const storedForceLocalJson =
+              settings?.forceLocalJson !== undefined
+                ? settings.forceLocalJson
+                : defaultSettings.forceLocalJson;
             const storedDayTransitionTime =
               settings?.dayTransitionTime !== undefined
                 ? settings.dayTransitionTime
                 : defaultSettings.dayTransitionTime;
             const storedSaintSettings = settings?.saintSettings || [];
+            const storedDisplayMode =
+              settings?.displayMode !== undefined
+                ? settings.displayMode
+                : defaultSettings.displayMode;
 
             initializeDefaultSettings();
 
@@ -113,7 +129,9 @@ const SettingsProvider = ({ children }) => {
                 }
               })(),
               developerMode: storedDeveloperMode,
+              forceLocalJson: storedForceLocalJson,
               dayTransitionTime: storedDayTransitionTime,
+              displayMode: storedDisplayMode,
               selectedDateProperties: getSelectedDateProperties(
                 normalizeDate(settings?.currentDate?.date || new Date()),
                 storedDayTransitionTime
@@ -242,6 +260,13 @@ const SettingsProvider = ({ children }) => {
     }));
   };
 
+  const setForceLocalJson = (value) => {
+    setSettings((prevSettings) => ({
+      ...prevSettings,
+      forceLocalJson: !!value,
+    }));
+  };
+
   // Function to toggle the visibility of a text (e.g. Doxologies/Responses)
   const setTextVisibility = (textType, textName, visibility) => {
     setSettings((prevSettings) => ({
@@ -290,6 +315,7 @@ const SettingsProvider = ({ children }) => {
         setTextVisibility,
         setOrientation,
         setSaintSettingVisibility,
+        setForceLocalJson,
       ]}
     >
       {children}

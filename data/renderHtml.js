@@ -1,7 +1,6 @@
 /** @format */
 
 import { renderHtmlTable } from "../components/functions/dataFunctions.js";
-import { iconVariables } from "./iconVariables.js";
 
 // Simple in-memory cache to avoid regenerating identical HTML
 const renderHtmlCache = new Map();
@@ -14,7 +13,7 @@ export const renderHtml = (
   variables
 ) => {
   let tableCounter = 0; // Initialize a global table counter
-  const mergedVariables = { ...iconVariables, ...variables };
+  const mergedVariables = { ...variables };
 
   // Build a cache key from inputs. JSON.stringify is acceptable here since HTML generation is heavier.
   const cacheKey =

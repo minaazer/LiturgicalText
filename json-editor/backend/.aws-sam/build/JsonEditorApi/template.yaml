@@ -22,6 +22,21 @@ Resources:
     Type: AWS::S3::Bucket
     Properties:
       BucketName: !Sub "${AWS::StackName}-snapshots"
+      CorsConfiguration:
+        CorsRules:
+          - AllowedHeaders:
+              - "*"
+            AllowedMethods:
+              - GET
+            AllowedOrigins:
+              - "*"
+            MaxAge: 3000
+      LifecycleConfiguration:
+        Rules:
+          - Id: ExpireReportAttachments
+            Status: Enabled
+            Prefix: "reports/"
+            ExpirationInDays: 60
 
   ChangeRequestsTable:
     Type: AWS::DynamoDB::Table
@@ -62,6 +77,20 @@ Resources:
         - AttributeName: timestamp
           KeyType: RANGE
 
+  EmailVerificationTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: username
+          AttributeType: S
+      KeySchema:
+        - AttributeName: username
+          KeyType: HASH
+      TimeToLiveSpecification:
+        AttributeName: expiresAt
+        Enabled: true
+
   UserPool:
     Type: AWS::Cognito::UserPool
     Properties:
@@ -86,6 +115,12 @@ Resources:
       GroupName: admin
       UserPoolId: !Ref UserPool
 
+  SuperAdminGroup:
+    Type: AWS::Cognito::UserPoolGroup
+    Properties:
+      GroupName: superadmin
+      UserPoolId: !Ref UserPool
+
   EditorGroup:
     Type: AWS::Cognito::UserPoolGroup
     Properties:
@@ -105,6 +140,7 @@ Resources:
         AllowMethods:
           - GET
           - POST
+          - DELETE
           - OPTIONS
         AllowHeaders:
           - Authorization
@@ -133,10 +169,19 @@ Resources:
           SCHEMA_PREFIX: !Ref SchemaPrefix
           CHANGE_TABLE: !Ref ChangeRequestsTable
           AUDIT_TABLE: !Ref AuditLogTable
+          EMAIL_VERIFY_TABLE: !Ref EmailVerificationTable
+          EMAIL_VERIFY_TTL_SECONDS: "900"
+          USER_POOL_ID: !Ref UserPool
+          USER_POOL_REGION: !Ref AWS::Region
+          EDITOR_LOGIN_URL: "http://liturgicalbooks-editor-ui.s3-website-us-east-1.amazonaws.com/"
           NOTIFY_FROM: "noreply-liturgicalbooks@theotokoseb.com"
           NOTIFY_REPLY_TO: "liturgicalbooks@saint-mary.net"
           NOTIFY_REGION: "us-east-2"
           NOTIFY_ADMINS: "mina.e.azer@gmail.com"
+          REPORTS_EMAIL_TO: "liturgicalbooks@saint-mary.net"
+          REPORTS_PREFIX: "reports/"
+          REPORTS_MAX_UPLOAD_BYTES: "41943040"
+          REPORTS_MAX_EMAIL_BYTES: "9437184"
       Policies:
         - S3ReadPolicy:
             BucketName: !Ref JsonBucketName
@@ -148,6 +193,23 @@ Resources:
             TableName: !Ref ChangeRequestsTable
         - DynamoDBCrudPolicy:
             TableName: !Ref AuditLogTable
+        - DynamoDBCrudPolicy:
+            TableName: !Ref EmailVerificationTable
+        - Statement:
+            - Effect: Allow
+              Action:
+                - cognito-idp:AdminGetUser
+                - cognito-idp:AdminListGroupsForUser
+                - cognito-idp:ListUsers
+                - cognito-idp:AdminCreateUser
+                - cognito-idp:AdminAddUserToGroup
+                - cognito-idp:AdminRemoveUserFromGroup
+                - cognito-idp:AdminUpdateUserAttributes
+                - cognito-idp:AdminEnableUser
+                - cognito-idp:AdminDisableUser
+                - cognito-idp:AdminDeleteUser
+                - cognito-idp:DescribeUserPool
+              Resource: !GetAtt UserPool.Arn
       Events:
         ListFiles:
           Type: HttpApi
@@ -197,6 +259,84 @@ Resources:
             ApiId: !Ref HttpApi
             Path: /changes/{id}/reject
             Method: POST
+        ReportUploads:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref HttpApi
+            Path: /reports/uploads
+            Method: POST
+            Auth:
+              Authorizer: NONE
+        SubmitReport:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref HttpApi
+            Path: /reports
+            Method: POST
+            Auth:
+              Authorizer: NONE
+        RequestEmailVerification:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref HttpApi
+            Path: /auth/verify-email/request
+            Method: POST
+            Auth:
+              Authorizer: NONE
+        ConfirmEmailVerification:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref HttpApi
+            Path: /auth/verify-email/confirm
+            Method: POST
+            Auth:
+              Authorizer: NONE
+        ResolveIdentifier:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref HttpApi
+            Path: /auth/resolve-identifier
+            Method: POST
+            Auth:
+              Authorizer: NONE
+        PasswordPolicy:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref HttpApi
+            Path: /auth/password-policy
+            Method: GET
+            Auth:
+              Authorizer: NONE
+        ListUsers:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref HttpApi
+            Path: /admin/users
+            Method: GET
+        CreateUser:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref HttpApi
+            Path: /admin/users
+            Method: POST
+        GetUser:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref HttpApi
+            Path: /admin/users/{username}
+            Method: GET
+        UpdateUser:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref HttpApi
+            Path: /admin/users/{username}
+            Method: POST
+        DeleteUser:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref HttpApi
+            Path: /admin/users/{username}
+            Method: DELETE
 
 Outputs:
   ApiUrl:

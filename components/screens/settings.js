@@ -1,12 +1,13 @@
 
 import React, { useContext , useEffect , useState } from 'react';
-import { Text, View, ScrollView, TouchableOpacity, useWindowDimensions } from 'react-native';
+import { Text, View, ScrollView, TouchableOpacity, useWindowDimensions, Alert } from 'react-native';
 import SettingsContext from '../../settings/settingsContext';
 import { useNavigation } from '@react-navigation/native';
 import { gregorianToCoptic } from '../functions/copticDate';
 import { presentationStyles } from '../css/presentationStyles';
 import { FontSizePicker , ScreenOrientationPicker } from '../reusableComponents/pickers';
 import BouncyCheckbox from 'react-native-bouncy-checkbox';
+import { refreshJsonCache } from '../functions/jsonCache';
 
 
 
@@ -19,6 +20,11 @@ const SettingsScreen = () => {
     const { width, height } = useWindowDimensions();
     const isPortrait = height >= width;
     const isCompactPortrait = isPortrait && width < 450;
+    const isTwoColumnSettings = width >= 600;
+    const optionItemStyle = isTwoColumnSettings
+        ? { width: "50%", marginHorizontal: 0, paddingHorizontal: 6 }
+        : null;
+    const [cacheRefreshing, setCacheRefreshing] = useState(false);
     useEffect(() => {
         const today = new Date();  // Get the current date
         const coptic = gregorianToCoptic(today);  // Convert to Coptic date
@@ -69,6 +75,43 @@ const SettingsScreen = () => {
           paschalReadingsFull: checked
         }));
       };
+
+    const setDisplayModeHandler = (checked) => {
+        setSettings(prev => ({
+            ...prev,
+            displayMode: checked ? "scroll" : "slideshow",
+        }));
+    };
+
+    const handleRefreshCache = async () => {
+        if (cacheRefreshing) return;
+        setCacheRefreshing(true);
+        const remoteBaseUrl = 'https://d18kyprs8j73gp.cloudfront.net';
+        const warmupPaths = [
+            "psalmody/psalis.json",
+            "psalmody/psalmody.json",
+            "psalmody/theotokias.json",
+            "psalmody/seasonalPraises.json",
+            "psalmody/doxologies.json",
+            "repeatedPrayers/hwRepeatedPrayers.json",
+            "repeatedPrayers/annualRepeatedPrayers.json",
+            "repeatedPrayers/seasonalRepeatedPrayers.json",
+            "repeatedPrayers/repeatedAgpeyaPrayers.json",
+            "repeatedPrayers/actsResponses.json",
+            "repeatedPrayers/gospelResponses.json",
+            "repeatedPrayers/intercessions.json",
+            "repeatedPrayers/versesOfCymbals.json",
+            "repeatedPrayers/distributionPraises.json",
+        ];
+        try {
+            await refreshJsonCache({ remoteBaseUrl, warmupPaths, forceManifest: true });
+            Alert.alert("Content refreshed", "Manifest and cached files have been updated.");
+        } catch (err) {
+            Alert.alert("Refresh failed", err?.message || "Unable to refresh content.");
+        } finally {
+            setCacheRefreshing(false);
+        }
+    };
       
 
     const handleBackPress = () => {
@@ -92,7 +135,6 @@ const SettingsScreen = () => {
                 ) : (
                     <Text>Loading Coptic Date...</Text>
                 )}
-
                 <View style={presentationStyles.settingsContainer}>
                     <View
                         style={[
@@ -143,12 +185,39 @@ const SettingsScreen = () => {
 
                     <View style={presentationStyles.setting}>
 
-                        <Text style={presentationStyles.settingTitle}>Display</Text>
+                        <Text style={presentationStyles.settingTitle}>Display mode</Text>
 
                         <View style={presentationStyles.languagesContainer}>
 
+                                <View style={presentationStyles.language}>
+                                    <BouncyCheckbox
+                                        isChecked={settings.displayMode === "scroll"} // Control the checked state
+                                        onPress={(isChecked) => setDisplayModeHandler(isChecked)} // Update state on press
+                                        fillColor="#e19d09" // Checked state color
+                                        unfillColor="#FFFFFF" // Unchecked state background color
+                                        iconStyle={{ borderColor: 'black' }} // Border color when unchecked
+                                        text={"Scroll mode (disable slideshow paging)"} // Display the label text
+                                        textStyle={{
+                                            textDecorationLine: 'none', // Remove strikethrough
+                                            color: 'black', // Optional: Set text color
+                                            fontSize: 16, // Optional: Adjust text size
+                                        }}
+                                    />
+
+                                </View>
+
+
+                        </View>
+                    
+                    </View>
+                    <View style={presentationStyles.setting}>
+
+                        <Text style={presentationStyles.settingTitle}>Display Languages</Text>
+
+                        <View style={[presentationStyles.languagesContainer, { flexDirection: "row", flexWrap: "wrap" }]}>
+
                             {settings.languages && settings.languages.map((language, index) => (
-                                <View key={index} style={presentationStyles.language}>
+                                <View key={index} style={[presentationStyles.language, optionItemStyle]}>
                                     <BouncyCheckbox
                                         isChecked={language.checked} // Control the checked state
                                         onPress={(isChecked) => setLanguagesHandler(index, isChecked)} // Update state on press
@@ -170,12 +239,12 @@ const SettingsScreen = () => {
                     </View>
                     <View style={presentationStyles.setting}>
 
-                        <Text style={presentationStyles.settingTitle}>Display on one page</Text>
+                        <Text style={presentationStyles.settingTitle}>One Page Settings</Text>
 
-                        <View style={presentationStyles.languagesContainer}>
+                        <View style={[presentationStyles.languagesContainer, { flexDirection: "row", flexWrap: "wrap" }]}>
 
                             {settings.onePage && settings.onePage.map((item, index) => (
-                                <View key={index} style={presentationStyles.language}>
+                                <View key={index} style={[presentationStyles.language, optionItemStyle]}>
                                     <BouncyCheckbox
                                         isChecked={item.checked} // Control the checked state
                                         onPress={(isChecked) => setOnePageHandler(index, isChecked)} // Update state on press
@@ -225,6 +294,26 @@ const SettingsScreen = () => {
                     
                     </View>
                 </View>
+                <TouchableOpacity
+                  style={[
+                    presentationStyles.reportSubmitButton,
+                    {
+                      alignSelf: "center",
+                      width: isCompactPortrait ? "80%" : "60%",
+                      marginTop: 20,
+                      marginBottom: 30,
+                      opacity: cacheRefreshing ? 0.6 : 1,
+                    },
+                  ]}
+                  onPress={handleRefreshCache}
+                  disabled={cacheRefreshing}
+                >
+                  <Text style={presentationStyles.reportSubmitButtonText}>
+                    {cacheRefreshing
+                      ? "Refreshing content..."
+                      : "Refresh content (manifest & cache)"}
+                  </Text>
+                </TouchableOpacity>
             </ScrollView>
         </View>
     );

@@ -42,7 +42,7 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "Cast away from our minds the slumber of sleep.",
+                "english": "Cast away from our minds, the slumber of sleep.",
                 "coptic": "Ⲁⲗⲓⲟⲩⲓ̀ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲉⲛ ⲡⲉⲛⲛⲟⲩⲥ ⲙ̀ⲡⲓϩⲩⲛⲓⲙ ⲛ̀ⲧⲉ ϯⲉⲃϣⲓ.",
                 "arabic": "إنزع عن عقولنا نوم الغفلة."
               }
@@ -270,7 +270,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "psalmody_a01267f7b9"
   },
   {
     "source": "Seasonal Praises",
@@ -399,7 +400,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "psalmody_3c6d768468"
   },
   {
     "english_title": "First Canticle",
@@ -652,7 +654,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "psalmody_7527a08b18"
   },
   {
     "english_title": "Lobsh on the 1st Canticle",
@@ -755,7 +758,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "psalmody_03100ee913"
   },
   {
     "source": "Seasonal Praises",
@@ -1081,7 +1085,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "psalmody_6733cc587c"
   },
   {
     "english_title": "Lobsh on the 2nd Canticle",
@@ -1214,7 +1219,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "psalmody_0247980d73"
   },
   {
     "source": "Seasonal Praises",
@@ -1647,7 +1653,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "psalmody_e3205b8935"
   },
   {
     "english_title": "Psali of the Three Young Men",
@@ -1900,7 +1907,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "psalmody_baac518619"
   },
   {
     "source": "Seasonal Praises",
@@ -1949,7 +1957,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "psalmody_f5eb0ea686"
   },
   {
     "english_title": "We Follow You",
@@ -2022,7 +2031,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "psalmody_175fc068f5"
   },
   {
     "source": "Seasonal Praises",
@@ -2045,7 +2055,7 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "Intercede on our behalf, O lady of us all, the Mother of God, Mary, the Mother of our Savior, That He may forgive us our sins.",
+                "english": "Intercede on our behalf, O lady of us all the Theotokos, Mary, the Mother of our Savior, that He may forgive us our sins.",
                 "coptic": "Ⲁⲣⲓⲡ̀ⲣⲉⲥⲃⲉⲩⲓⲛ ⲉ̀ϩ̀ⲣⲏⲓ : ⲱ̀ ⲧⲉⲛϭⲟⲓⲥ ⲛ̀ⲛⲏⲃ ⲧⲏⲣⲉⲛ ϯⲑⲉⲟ̀ⲧⲟⲕⲟⲥ : Ⲙⲁⲣⲓⲁ ⲑ̀ⲙⲁⲩ ⲙ̀Ⲡⲉⲛⲥⲱⲧⲏⲣ : ⲛ̀ⲧⲉϥ ⲭⲁ ⲛⲉⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.",
                 "arabic": "إشفعى فينا يا سيدتنا كلنا السيدة والدة الإله مريم ام مخلصنا ليغفرلنا خطايانا."
               }
@@ -2055,7 +2065,7 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "Intercede on our behalf, O holy archangels, Michael and Gabriel, That He may forgive us our sins.",
+                "english": "Intercede on our behalf, O holy archangels, Michael and Gabriel, that He may forgive us our sins.",
                 "coptic": "Ⲁⲣⲓⲡ̀ⲣⲉⲥⲃⲉⲩⲓⲛ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲱ̀ ⲛⲓⲁⲣⲭⲏⲁⲅⲅⲉⲗⲟⲥ ⲉⲑⲟⲩⲁⲃ : Ⲙⲓⲭⲁⲏⲗ ⲛⲁⲙ Ⲅⲁⲃⲣⲓⲏⲗ : ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.",
                 "arabic": "إشفعا فينا يارئيسى الملائكة الطاهرين ميخائيل وغبريال ليغفر لنا خطايانا."
               }
@@ -2065,7 +2075,7 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "Intercede on our behalf, O holy archangels, Raphael and Souriel That He may...",
+                "english": "Intercede on our behalf, O holy archangels, Raphael and Suriel, that He may...",
                 "coptic": "̀Ⲁⲣⲓⲡ̀ⲣⲉⲥⲃⲉⲩⲓⲛ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲱ̀ ⲛⲓⲁⲣⲭⲏⲁⲅⲅⲉⲗⲟⲥ ⲉⲑⲟⲩⲁⲃ : Ⲣⲁⲫⲁⲏⲗ ⲛⲉⲙ Ⲥⲟⲩⲣⲓⲏⲗ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "إشفعا فينا يارئيسى الملائكة الطاهرين رافائيل وسوريال ليغفر."
               }
@@ -2075,7 +2085,7 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "Intercede: O holy archangels, Sedakiel, Sarathiel and Ananiel, That He may...",
+                "english": "Intercede on our behalf, O holy archangels, Sedakiel, Sarathiel and Ananiel, that He may...",
                 "coptic": "̀Ⲁⲣⲓⲡ̅ : ⲱ̀ ⲛⲓⲁⲣⲭⲏⲁⲅⲅⲉⲗⲟⲥ ⲉⲑⲟⲩⲁⲃ: Ⲥⲉⲇⲁⲕⲓⲏⲗ Ⲥⲁⲣⲁⲑⲓⲏⲗ ⲛⲉⲙ Ⲁⲛⲁⲛⲓⲏⲗ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "اشفعوا فينا يارؤساء الملائكة الأطهار سداكيال وسراتيال وأنانيال ليغفر.."
               }
@@ -2085,7 +2095,7 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "Intercede: O Thrones, Dominions and Powers, The Cherubim and the Seraphim, That He may...",
+                "english": "Intercede on our behalf, O thrones, dominions and powers, the Cherubim and the Seraphim, that He may...",
                 "coptic": "̀Ⲁⲣⲓⲡ̅ : ⲛⲓⲑ̀ⲣⲟⲛⲟⲥ ⲛⲓⲙⲉⲧϭⲟⲓⲥ ⲛⲓϫⲟⲙ : Ⲛⲓⲭⲉⲣⲟⲃⲓⲙ ⲛⲉⲙ Ⲛⲓⲥⲉⲣⲁⲫⲓⲙ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "أشفعى فينا أيتها الكراسى والارباب والقوات والشيروبيم والسرافيم ليغفر.."
               }
@@ -2095,7 +2105,7 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "Intercede on our behalf, O Four Incorporeal creatures, The ministers fervent as fire, That He may...",
+                "english": "Intercede on our behalf, O four incorporeal creatures, the ministers fervent as fire, that He may...",
                 "coptic": "Ⲁ̀ⲣⲓⲡ̀ⲣⲉⲥⲃⲉⲩⲓⲛ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲡⲓϥ̀ⲧⲟⲩ ⲛ̀ⲍⲱⲟⲛ ⲛ̀ⲁ̀ⲥⲱⲙⲁⲧⲟⲥ : ⲛ̀ⲗⲓⲧⲟⲩⲣⲅⲟⲥ ⲛ̀ϣⲁϩ ⲛ̀ⲭ̀ⲣⲱⲙ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "أشفعوا فينا أيها الأربعة الحيوانات غير المتجسدين الخدام الملتهبين ناراً ليغفر..."
               }
@@ -2105,7 +2115,7 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "Intercede: O priests of the Truth, The Twenty Four Presbyters, That He may...",
+                "english": "Intercede on our behalf, O priests of the Truth, the twenty-four presbyters, that He may...",
                 "coptic": "̀Ⲁⲣⲓⲡ̅ : ⲛⲓⲟⲩⲏⲃ ⲛ̀ⲧⲉ ϯⲙⲉⲑⲙⲏⲓ : ⲡⲓϫⲟⲧϥ̀ⲧⲟⲩ ⲙ̀ⲡ̀ⲣⲉⲥⲃⲩⲧⲏⲣⲟⲥ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "إشفعوا فينا ياكهنة الحق الأربعة والعشرين قسيساً ليغفر..."
               }
@@ -2115,7 +2125,7 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "Intercede: O angelic hosts, And all the heavenly multitudes, That He may...",
+                "english": "Intercede on our behalf, O angelic hosts, and all the heavenly multitudes, that He may...",
                 "coptic": "̀Ⲁⲣⲓⲡ̅ : ⲛⲓⲥⲧⲣⲁⲧⲓ̀ⲁ ⲛ̀ⲁⲅⲅⲉⲗⲓⲕⲟⲛ : ⲛⲉⲙ ⲛⲓⲧⲁⲅⲙⲁ ⲛ̀ⲉ̀ⲡⲟⲩⲣⲁⲛⲓⲟⲛ :",
                 "arabic": "إشفعوا فينا أيها العساكر الملائكية والطغمات السمائية ليغفر..."
               }
@@ -2125,7 +2135,7 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "Pray to the Lord on our behalf, My lords and fathers, the patriarchs, Abraham, Isaac and Jacob, That He may...",
+                "english": "Pray to the Lord on our behalf, my lords and fathers, the patriarchs, Abraham, Isaac and Jacob, that He may...",
                 "coptic": "Ⲧⲱ̅: ⲛⲁϭⲟⲓⲥ ⲛ̀ⲓⲟϯ ⲙ̀ⲡⲁⲧⲣⲓⲁⲣⲭⲏⲥ : Ⲁⲃⲣⲁⲁⲙ Ⲓ̀ⲥⲁⲁⲕ Ⲓⲁⲕⲱⲃ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "إطلبوا من الرب عنا ياسادتى الآباء البطاركة إبراهيم وإسحق ويعقوب ليغفر..."
               }
@@ -2135,7 +2145,7 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "Pray to the Lord on our behalf, O perfect man, The righteous and just Enoch, That He may...",
+                "english": "Pray to the Lord on our behalf, O perfect man, the righteous and just Enoch, that He may...",
                 "coptic": "Ⲧⲱ̅: ⲱ̀ ⲡⲓⲣⲱⲙⲓ ⲛ̀ⲧⲉⲗⲓⲟⲥ : ⲡⲓⲑ̀ⲙⲏⲓ ̀ Ⲉⲛⲱⲭ ⲡⲓⲇⲓⲕⲉⲟⲥ : ̀ ⲛⲧⲉϥ...",
                 "arabic": "إطلب من الرب عنا أيها الرجل الكامل البار أخنوخ الصديق ليغفر.."
               }
@@ -2145,7 +2155,7 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "Pray to the Lord on our behalf, Elijah the Tishbite, And Elisha his disciple, That He may...",
+                "english": "Pray to the Lord on our behalf, Elijah the Tishbite, and Elisha his disciple, that He may...",
                 "coptic": "Ⲧⲱ̅: Ⲏⲗⲓⲁⲥ ⲡⲓⲑⲉⲥⲃⲓⲧⲏⲥ: ⲛⲉⲙ Ⲉ̀ⲗⲓⲥⲉⲟⲥ ⲡⲉϥⲙⲁⲑⲏⲧⲏⲥ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "إطلبوا من الرب عنا ياإيليا التسبيتى وآليشع تلميذه ليغفر..."
               }
@@ -2155,7 +2165,7 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "Pray to the Lord on our behalf, O Moses the archprophet and Isaiah, and Jeremiah, That He may...",
+                "english": "Pray to the Lord on our behalf, O Moses the archprophet, and Isaiah and Jeremiah, that He may...",
                 "coptic": "Ⲧⲱ̅: ⲱ̀ Ⲙⲱⲩ̀ⲥⲏⲥ ⲡⲓⲁⲣⲭⲏⲡ̀ⲣⲟⲫⲓⲧⲏⲥ ⲛⲉⲙ Ⲏⲥⲁⲏ̀ⲁⲥ : ⲛⲉⲙ Ⲓⲉⲣⲉⲙⲓⲁⲥ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "إطلبوا من الرب عنا ياموسى رئيس الأنبياء وأشعياء وأرمياء ليغفر..."
               }
@@ -2165,7 +2175,7 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "Pray: O David the psalmist, Ezekiel and Daniel, That He may...",
+                "english": "Pray: O David the psalmist, Ezekiel and Daniel, that He may...",
                 "coptic": "Ⲧⲱ̅: Ⲇⲁⲩⲓⲇ ⲡⲓⲓⲉⲣⲟⲯⲁⲗⲧⲏⲥ : ⲛⲉⲙ Ⲓⲉⲍⲉⲕⲓⲏⲗ ⲛⲉⲙ Ⲇⲁⲛⲓⲏⲗ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "اطلبوا من الرب عنا يا داود المرتل وحزقيال ودانيال ليغفر..."
               }
@@ -2175,7 +2185,7 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "Pray: Joachim, Anna and Joseph the Elder, and the righteous Job, Joseph and Nicodemus, That He may...",
+                "english": "Pray: Joachim, Anna and Joseph the Elder, and the righteous Job, Joseph and Nicodemus, that He may...",
                 "coptic": "Ⲧⲱ̅: Ⲓⲱⲁⲕⲓⲙ ⲛⲉⲙ Ⲁⲛⲛⲁ ⲛⲉⲙ Ⲓⲱⲥⲏⲫ ⲡⲓ ⲡ̀ⲣⲉⲥⲃⲏⲧⲉⲣⲟⲥ : ⲛⲉⲙ ⲡⲓ ⲑ̀ⲙⲏⲓ Ⲓⲱⲃ ⲛⲉⲙ Ⲓⲱⲥⲏⲫ ⲛⲉⲙ Ⲛⲓⲕⲟⲇⲏⲙⲟⲥ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "إطلبوا من الرب عنا يايواقيم وحنّة ويوسف الشيخ والصديق ايوب ويوسف ونيقوديموس ليغفر..."
               }
@@ -2195,7 +2205,7 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "Pray: O chorus of the prophets, And all the righteous and the just, That He may...",
+                "english": "Pray: O chorus of the prophets, and all the righteous and the just, That He may...",
                 "coptic": "Ⲧⲱ̅: ⲛⲓⲭⲟⲣⲟⲥ ⲛ̀ⲧⲉ ⲛⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ : ⲛⲉⲙ ⲛⲓⲑ̀ⲙⲏⲓ ⲛⲉⲙ ⲛⲓⲇⲓⲕⲉⲟⲥ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "أطلبوا من الرب عنا ياصفوف الأنبياء والأبرار والصديقين ليغفر.."
               }
@@ -2205,7 +2215,7 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "Intercede on our behalf, O fore-runner and baptizer, John the Baptist, That he may…",
+                "english": "Intercede on our behalf, O forerunner and baptizer, John the Baptist, that He may…",
                 "coptic": "̀Ⲁⲣⲓⲡ̀ⲣⲉⲥⲃⲉⲩⲓⲛ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ : ⲱ̀ ⲡⲓⲡ̀ⲣⲟⲇⲣⲟⲙⲟⲥ ⲙ̀ⲃⲁⲡⲧⲓⲥⲧⲏⲥ : Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲣⲉϥϯⲱⲙⲥ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "إشفع فينا أيها السابق الصابغ يوحنا المعمدان ليغفر.."
               }
@@ -2215,7 +2225,7 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "Intercede on our behalf, O the Hundred and Forty Four Thousand, and the celibate Evangelist, That He may…",
+                "english": "Intercede on our behalf, O the hundred and forty-four thousand, and the celibate Evangelist, That He may…",
                 "coptic": "Ⲁ̀ⲣⲓⲡ̅ : ⲱ̀ ⲡⲓϣⲉ ϩ̀ⲙⲉ ϥ̀ⲧⲟⲩ ⲛ̀ϣⲟ : ⲛⲉⲙ ⲡⲓⲡⲁⲣⲑⲉⲛⲟⲥ ⲛ̀ⲉⲩⲁⲅⲅⲉⲗⲓⲥⲧⲏⲥ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "إشفعوا فينا ايها المئة والأربعة والأربعين الفاً والبتول الانجيلى ليغفر."
               }
@@ -2225,7 +2235,7 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "Pray to the Lord on our behalf, Our lords and fathers, the Apostles, And the rest of the Disciples, That He may…",
+                "english": "Pray to the Lord on our behalf, our lords and fathers, the apostles, and the rest of the disciples, That He may…",
                 "coptic": "Ⲧⲱ̅: ⲛⲁϭⲟⲓⲥ ̀ⲛ̀ⲓⲟϯ ⲛ̀ⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ : ⲛⲉⲙ ⲡ̀ⲥⲉⲡⲓ ⲛ̀ⲧⲉ ⲛⲓⲙⲁⲑⲏⲧⲏⲥ: ⲛ̀ⲧⲉϥ...",
                 "arabic": "أطلبوا من الرب عنا ياسادتى الآباء الرسل وبقية التلاميذ ليغفر.."
               }
@@ -2235,7 +2245,7 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "Pray: O blessed archdeacon, Stephen the First Martyr, That He may...",
+                "english": "Pray: O blessed archdeacon, Stephen the first martyr, That He may...",
                 "coptic": "Ⲧⲱ̅: ⲡⲓⲁⲣⲭⲏⲇⲓⲁ̀ⲕⲱⲛ ⲉⲧⲥ̀ⲙⲁⲣⲱⲟⲩⲧ: Ⲥ̀ⲧⲉⲫⲁⲛⲟⲥ ⲡⲓϣⲟⲣⲡ ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "أطلب من الرب عنا يارئيس الشمامسة المبارك استفانوس الشهيد الاول ليغفر.."
               }
@@ -2255,7 +2265,7 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "Pray: O struggle mantled martyr, My lord prince George, That He may...",
+                "english": "Pray: O struggle mantled martyr, my lord prince George, That He may...",
                 "coptic": "Ⲧⲱ̅: ⲡⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ : ⲡⲁϭⲟⲓⲥ ⲡ̀ⲟⲩⲣⲟ Ⲅⲉⲱⲣⲅⲓⲟⲥ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "أطلب من الرب عنا أيها الشهيد المجاهد سيدى الملك جيؤرجيوس ليغفر..."
               }
@@ -2305,7 +2315,7 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "Pray to the Lord on our behalf, Abba Pisoora and Abba Epshoi, Abba Eesi and Thekla his sister, That He may...",
+                "english": "Pray to the Lord on our behalf, Abba Pisoura and Abba Epshoi, Abba Eesi and Thekla his sister, That He may...",
                 "coptic": "Ⲧⲱ̅: ⲁⲃⲃⲁ Ⲡⲓⲥⲟⲩⲣⲁ ⲛⲉⲙ ⲁ̀ⲡⲁ ̀ Ⲡϣⲱⲓ : ⲛⲉⲙ ⲁ̀ⲡⲁ ̀ Ⲏⲥⲓ ⲛⲉⲙ Ⲑⲉⲕⲗⲁ ⲧⲉϥⲥⲱⲛⲓ: ⲛ̀ⲧⲉϥ...",
                 "arabic": "اطلبوا من الرب عنا ياأنبا بسوره وأبابشاى وأباايسى وتكلا اخته ليغفر..."
               }
@@ -2345,7 +2355,7 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "Pray: Abba Cyrus and his brother John, And Barbara and Juliana and Demiana, That He may…",
+                "english": "Pray: Abba Cyrus and his brother John, and Barbara and Juliana and Demiana, That He may…",
                 "coptic": "Ⲧⲱ̅: ⲁ̀ⲡⲁ Ⲕⲓⲣ ⲛⲉⲙ Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲉϥⲥⲟⲛ : ⲛⲉⲙ Ⲃⲁⲣⲃⲁⲣⲁ ⲛⲉⲙ Ⲓⲟⲩⲗⲓⲁ̀ⲛⲏ ⲛⲉⲙ Ⲇⲩⲙⲓⲁ̀ⲛⲏ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "اطلبوا من الرب عنا يااباقير ويوحنا أخوه وبرباره ويوليانه ودميانه ليغفر..."
               }
@@ -2395,7 +2405,7 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "Pray to the Lord on our behalf, O victorious martyrs, The Forty Saints of Sebaste, That He may...",
+                "english": "Pray to the Lord on our behalf, O struggle mantled martyrs, the Forty Saints of Sebaste, That He may...",
                 "coptic": "Ⲧⲱ̅: ⲛⲓⲁⲑⲗⲟⲫⲟⲣⲟⲥ ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ : ⲡⲓϩ̀ⲙⲉ ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲉ Ⲥⲉⲃⲁⲥⲧⲉ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "اطلبوا من الرب عنا ايها الشهداء المجاهدون الأربعون قديساً بسبسطية ليغفر.."
               }
@@ -2455,7 +2465,7 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "Pray to the Lord on our behalf, Lord Abanoub and Epto-lomeos, Apa-ekragon and Sousennius, That He may…",
+                "english": "Pray to the Lord on our behalf, Lord Abanoub and Ptolomeos, Apakragon and Sousennius, That He may…",
                 "coptic": "Ⲧⲱ̅: ⲕⲩⲣⲓ Ⲁⲡⲁⲛⲟⲩⲃ ⲛⲉⲙ Ⲡⲑⲟⲗⲟⲙⲉⲟⲥ : ⲛⲉⲙ Ⲁⲡⲁⲕ̀ⲣⲁⲅⲟⲛ ⲛⲉⲙ Ⲥⲟⲩⲥⲉⲛⲛⲓⲟⲥ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "أطلبوا من الرب عنا ياسيدى ابانوب وابطلماوس وابكراجون وسوسنيوس ليغفر.."
               }
@@ -2465,7 +2475,7 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "Pray: O great high priest, Abba Peter seal of the martyrs, That He may…",
+                "english": "Pray: O great archpriest, Abba Peter seal of the martyrs, That He may…",
                 "coptic": "Ⲧⲱ̅: ⲱ̀ ⲡⲓⲛⲓϣϯ ⲛ̀ⲁⲣⲭⲏⲉ̀ⲣⲉⲩⲥ : ⲁⲃⲃⲁ Ⲡⲉⲧⲣⲟⲥ ⲓⲉⲣⲟⲙⲁⲣⲧⲩⲣⲟⲥ : ⲛ̀ⲧⲉϥ..",
                 "arabic": "أطلبوا من الرب عنا يارئيس الكهنة العظيم انبا بطرس خاتم الشهداء ليغفر.."
               }
@@ -2485,7 +2495,7 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "Pray to the Lord on our behalf, O Michael the hegomen, And Michael the monk, That He may...",
+                "english": "Pray to the Lord on our behalf, O Michael the hegumen, and Michael the monk, That He may...",
                 "coptic": "Ⲧⲱ̅: ⲱ̀ Ⲙⲓⲭⲁⲏⲗ ⲡⲓϩⲏⲅⲟⲩⲙⲉⲛⲟⲥ : ⲛⲉⲙ Ⲙⲓⲭⲁⲏⲗ ⲡⲓⲙⲟⲛⲁⲭⲟⲥ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "اطلبا من الرب عنا ياميخائيل القمص وميخائيل الراهب ليغفر..."
               }
@@ -2495,7 +2505,7 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "Pray: O chorus of the martyrs, Who suffered for the sake of Christ, That He may...",
+                "english": "Pray: O chorus of the martyrs, who suffered for the sake of Christ, That He may...",
                 "coptic": "Ⲧⲱ̅: ⲛⲓⲭⲟⲣⲟⲥ ⲛ̀ⲧⲉ ⲛⲓⲙⲁⲣⲧⲩⲣⲟⲥ : ⲉ̀ⲧⲁⲩϣⲉⲡ ⲙ̀ⲕⲁϩⲓ ⲉⲑⲃⲉ Ⲡⲭˉⲥˉ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "اطلبوا من الرب عنا ياصفوف الشهداء الذين تألموا من أجل المسيح ليغفر."
               }
@@ -2505,7 +2515,7 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "Pray: Our lords and fathers who love their children, Abba Anthony and Abba Paul, That He may...",
+                "english": "Pray: our lords and fathers who love their children, Abba Anthony and Abba Paul, That He may...",
                 "coptic": "Ⲧⲱ̅: ⲛⲁϭⲟⲓⲥ ⲛ̀ⲓⲟϯ ⲙ̀ⲙⲁⲓⲛⲟⲩϣⲏⲣⲓ : ⲁⲃⲃⲁ Ⲁⲛⲧⲱⲛⲓⲟⲥ ⲛⲉⲙ ⲁⲃⲃⲁ Ⲡⲁⲩⲗⲉ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "اطلبا من الرب عنا ياسيدى الابوين محبى أولادهما انطونيوس وأنبا بولا ليغفر.."
               }
@@ -2515,7 +2525,7 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "Pray to the Lord on our behalf, O three saints, Abba Macarii, And all their children, the cross-bearers, That He may...",
+                "english": "Pray to the Lord on our behalf, O three saints, Abba Macarii, and all their children, the cross-bearers, That He may...",
                 "coptic": "Ⲧⲱ̅: ⲡⲓϣⲟⲙⲧ ⲉⲑⲟⲩⲁⲃ ⲁⲃⲃⲁ Ⲙⲁⲕⲁⲣⲓ : ⲛⲉⲙ ⲛⲟⲩϣⲏⲣⲓ ⲛ̀ⲥ̀ⲧⲁⲩⲣⲟⲫⲟⲣⲟⲥ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "اطلبوا من الرب عنا أيها الثلاثة مقارات القديسون وأولادهم لباس الصليب ليغفر.."
               }
@@ -2525,7 +2535,7 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "Pray: Our lords and fathers the hegomens, Abba John and Abba Daniel, That He may...",
+                "english": "Pray: our lords and fathers the hegomens, Abba John and Abba Daniel, That He may...",
                 "coptic": "Ⲧⲱ̅: ⲛⲁϭⲟⲓⲥ ⲛ̀ⲓⲟϯ ⲛ̀ϩⲏⲅⲟⲩⲙⲉⲛⲟⲥ : ⲁⲃⲃⲁ Ⲓⲱⲁⲛⲛⲏⲥ ⲛⲉⲙ ⲁⲃⲃⲁ Ⲇⲁⲛⲓⲏⲗ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "اطلبا من الرب عنا يا سيدى الأبوين القمصين أنبا يوحنا وأنبا دانيال ليغفر.."
               }
@@ -2535,7 +2545,7 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "Pray: Our lords and fathers who love their children, Abba Pishoi and Abba Paul, That He may...",
+                "english": "Pray: our lords and fathers who love their children, Abba Pishoy and Abba Paul, That He may...",
                 "coptic": "Ⲧⲱ̅: ⲛⲁϭⲟⲓⲥ ⲛ̀ⲓⲟϯ ⲙ̀ⲙⲁⲓⲛⲟⲩϣⲏⲣⲓ : ⲁⲃⲃⲁ Ⲡⲓϣⲱⲓ ⲛⲉⲙ ⲁⲃⲃⲁ Ⲡⲁⲩⲗⲉ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "اطلبا من الرب عنا يا سيدىّ الأبوين محبى أولادهما أنبا بيشوى وأنبا بولا ليغفر.."
               }
@@ -2545,7 +2555,7 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "Pray to the Lord on our behalf, Our Saintly Roman fathers, Maximus and Dometius, That He may...",
+                "english": "Pray to the Lord on our behalf, our saintly Roman fathers, Maximus and Dometius, That He may...",
                 "coptic": "Ⲧⲱ̅: ⲛⲉⲛⲓⲟϯ ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲣⲱⲙⲉⲟⲥ : Ⲙⲁⲝⲓⲙⲟⲥ ⲛⲉⲙ Ⲇⲟⲙⲉⲧⲓⲟⲥ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "أطلبا من الرب عنا ياأبوينا القديسين الروميين مكسيموس ودوماديوس ليغفر..."
               }
@@ -2555,7 +2565,7 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "Pray: O Forty Nine Martyrs, The elders of Shiheet, That He may...",
+                "english": "Pray: O forty nine-martyrs, the elders of Shiheet, That He may...",
                 "coptic": "Ⲧⲱ̅: ⲡⲓϩ̀ⲙⲉ ⲯⲓⲧ ⲙ̀ⲙⲁⲣⲧⲩⲣⲟⲥ : ⲛⲓϧⲉⲗⲗⲟⲓ ⲛ̀ⲧⲉ Ϣⲓϩⲏⲧ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "اطلبوا من الرب عنا أيها التسعة والاربعون شهيداً شيوخ شيهات ليغفر.."
               }
@@ -2565,7 +2575,7 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "Pray: O strong saint, Abba Moses, And John Kame, That He may...",
+                "english": "Pray: O strong saint, Abba Moses, and John Kame, That He may...",
                 "coptic": "Ⲧⲱ̅: ⲡⲓϫⲱⲣⲓ ⲉⲑⲟⲩⲁⲃ ⲁⲃⲃⲁ Ⲙⲱⲥⲏ : ⲛⲉⲙ Ⲓⲱⲁⲛⲛⲏⲥ ⲡⲓⲭⲁⲙⲏ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "أطلبا من الرب عنا ايها القوى القديس انبا موسي ويحنس كاما ليغفر.."
               }
@@ -2575,7 +2585,7 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "Pray to the Lord on our behalf, Abba Pachomious of the Koinonia, And Theodore his disciple, That He may...",
+                "english": "Pray to the Lord on our behalf, Abba Pachomious of the Koinonia, and Theodore his disciple, That He may...",
                 "coptic": "Ⲧⲱ̅: ⲁⲃⲃⲁ Ⲡⲁϧⲱⲙ ⲫⲁ ϯⲕⲟⲓⲛⲱⲛⲓⲁ̀ : ⲛⲉⲙ Ⲑⲉⲟ̀ⲇⲱⲣⲟⲥ ⲡⲉϥⲙⲁⲑⲏⲧⲏⲥ : ̀ⲛ̀ⲧⲉϥ...",
                 "arabic": "اطلبا من الرب عنا ياانبا باخوم ابا الشركة وثيؤدورس تلميذه ليغفر.."
               }
@@ -2585,7 +2595,7 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "Pray: Abba Shenouda the Archimandrite, And Abba Wisa his disciple, That He may...",
+                "english": "Pray: Abba Shenouda the Archimandrite, and Abba Besa his disciple, That He may...",
                 "coptic": "Ⲧⲱ̅: ⲁⲃⲃⲁ Ϣⲉⲛⲟϯ ⲡⲓⲁⲣⲭⲏⲙⲁⲛⲇ̀ⲣⲓⲧⲏⲥ : ⲛⲉⲙ ⲁⲃⲃⲁ Ⲃⲏⲥⲁ ⲡⲉϥⲙⲁⲑⲏⲧⲏⲥ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "اطلبا من الرب عنا ياانبا شنوده رئيس المتوحدين وانبا ويصا تلميذه ليغفر.."
               }
@@ -2595,7 +2605,7 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "Pray: Abba Nopher and Abba Karus, And our father Paphnutius, That He may...",
+                "english": "Pray: Abba Nopher and Abba Karus, and our father Paphnutius, That He may...",
                 "coptic": "Ⲧⲱ̅: ⲁⲃⲃⲁ Ⲛⲟⲩϥⲉⲣ ⲛⲉⲙ ⲁⲃⲃⲁ Ⲕⲁⲣⲟⲥ : ⲛⲉⲙ ⲡⲉⲛⲓⲱⲧ Ⲡⲁⲫ̀ⲛⲟⲩⲧⲓⲟⲥ :ⲛ̀ⲧⲉϥ...",
                 "arabic": "اطلبوا من الرب عنا ياانبا نفر وانبا كاروس وابانا بفنوتيوس ليغفر.."
               }
@@ -2605,7 +2615,7 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "Pray to the Lord on our behalf, Abba Samuel the confessor, and Justus and Apollo And his disciples, That He may...",
+                "english": "Pray to the Lord on our behalf, Abba Samuel the confessor, and Justus and Apollo his disciples, That He may...",
                 "coptic": "Ⲧⲱ̅: ⲁⲃⲃⲁ Ⲥⲁⲙⲟⲩⲏⲗ ⲡⲓⲟ̀ⲙⲟⲗⲟⲅⲓⲧⲏⲥ : ⲛⲉⲙ Ⲓⲟⲩⲥⲧⲟⲥ ⲛⲉⲙ ̀ Ⲁⲡⲟⲗⲗⲟ ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "اطلبوا من الرب عنا ياانبا صموئيل المعترف ويسطس وأبوللو تلميذيه ليغفر..."
               }
@@ -2615,7 +2625,7 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "Pray: Abba Apollo and Abba Apip, And our father Abba Pigimi, That He may...",
+                "english": "Pray: Abba Apollo and Abba Apip, and our father Abba Pigimi, That He may...",
                 "coptic": "Ⲧⲱ̅: ⲁⲃⲃⲁ ̀ Ⲁⲡⲟⲗⲗⲟ ⲛⲉⲙ ⲁⲃⲃⲁ̀ Ⲁⲡⲓⲡ : ⲛⲉⲙ ⲡⲉⲛⲓⲱⲧ ⲁⲃⲃⲁ Ⲡⲓϫⲓⲙⲓ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "اطلبوا من الرب عنا ياانبا ابوللو وانبا ابيب وابانا انبا بيجيمى ليغفر..."
               }
@@ -2625,7 +2635,7 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "Pray: Abba Evkin and Abba Ehron, Abba Hor and Abba Phis, That He may...",
+                "english": "Pray: Abba Evkin and Abba Ehron, and Abba Hor and Abba Phis, That He may...",
                 "coptic": "Ⲧⲱ̅: ⲁⲃⲃⲁ Ⲉⲩⲕⲓⲛ ⲛⲉⲙ ⲁⲃⲃⲁ ̀ Ϩⲣⲟⲛ : ⲛⲉⲙ ⲁ̀ⲡⲁ Ϩⲱⲣ ⲛⲉⲙ ⲁ̀ⲡⲁ Ⲫⲓⲥ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "اطلبوا من الرب عنا ياانبا افكين وانبا إهرون واباهور وابافيس ليغفر..."
               }
@@ -2635,7 +2645,7 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "Pray to the Lord on our behalf, Abba Parsoma and Ephrem, And John and Simeon, That He may...",
+                "english": "Pray to the Lord on our behalf, Abba Parsoma and Ephrem, and John and Simeon, That He may...",
                 "coptic": "Ⲧⲱ̅: ⲁⲃⲃⲁ Ⲡⲁⲣⲥⲱⲙⲁ ⲛⲉⲙ Ⲉⲫⲣⲉⲙ : ⲛⲉⲙ Ⲓⲱⲁⲛⲛⲏⲥ ⲛⲉⲙ Ⲥⲩⲙⲉⲱⲛ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "اطلبوا من الرب عنا ياانبا برسوما وافريم ويوحنا وسمعان ليغفر..."
               }
@@ -2655,7 +2665,7 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "Pray: Our lords, the ascetic fathers, Abba Abraam and George, That He may...",
+                "english": "Pray: our lords, the ascetic fathers, Abba Abraam and George, That He may...",
                 "coptic": "Ⲧⲱ̅: ⲛⲁϭⲟⲓⲥ ⲛ̀ⲓⲟϯ ⲛ̀ⲁⲥⲕⲏⲧⲏⲥ : ⲁⲃⲃⲁ Ⲁⲃⲣⲁⲁⲙ ⲛⲉⲙ Ⲅⲉⲱⲣⲅⲏ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "اطلبا من الرب عنا ياسيدى الابوين الناسكين انبا أبرام وجيؤرجى ليغفر.."
               }
@@ -2675,7 +2685,7 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "Pray: Basil and Gregory, And our father Abba Cyril,That He may...",
+                "english": "Pray: Basil and Gregory, and our father Abba Cyril, That He may...",
                 "coptic": "Ⲧⲱ̅: Ⲃⲁⲥⲓⲗⲓⲟⲥ ⲛⲉⲙ Ⲅⲣⲓⲅⲟⲣⲓⲟⲥ : ⲛⲉⲙ ⲡⲉⲛⲓⲱⲧ Ⲁⲃⲃⲁ Ⲕⲩⲣⲓⲗⲗⲟⲥ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "اطلبوا من الرب عنا ياباسيليوس واغريغوريوس. وابانا أنبا كيرلس ليغفر.."
               }
@@ -2685,7 +2695,7 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "Pray: O three hundred and eighteen gathered at Nicea, For the faith, That He may...",
+                "english": "Pray: O the three hundred and eighteen gathered, at Nicea for the faith, That He may...",
                 "coptic": "Ⲧⲱ̅: ⲡⲓ ϣⲟⲙⲧ ϣⲉ ⲙⲏⲧ ϣ̀ⲙⲏⲛ ⲉ̀ⲧⲁⲩ ⲑⲱⲟⲩϯ ϧⲉⲛ Ⲛⲓⲕⲉⲁ̀ : ⲉⲑⲃⲉ ⲡⲓⲛⲁϩϯ : ⲛ̀ⲧⲉϥ…",
                 "arabic": "اطلبوا من الرب عنا أيها ال٣١٨الذين اجتمعوا فى نيقيه من اجل الايمان ليغفر.."
               }
@@ -2695,7 +2705,7 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "Pray to the Lord on our behalf, O the one hundred and fifty at Constantinople, And the two hundred at Ephesus,That He may...",
+                "english": "Pray to the Lord on our behalf, O the one hundred and fifty at Constantinople, and the two hundred at Ephesus, That He may...",
                 "coptic": "Ⲧⲱ̅: ⲱ̀ ⲡⲓ ϣⲉ ⲧⲉⲃⲓ ⲛ̀ⲧⲉ Ⲕⲱⲥⲧⲁⲛⲧⲓⲛⲟⲩ- ⲡⲟⲗⲓⲥ: ⲛⲉⲙ ⲡⲓ ⲥ̀ⲛⲁⲩ ϣⲉ ⲛ̀ⲧⲉ ̀ Ⲉⲫⲉⲥⲟⲥ : ⲛ̀ⲧⲉϥ …",
                 "arabic": "اطلبوا من الرب عنا ايها ال ١٥٠ بمدينة القسطنطينية والمائتين بأفسس ليغفر.."
               }
@@ -2705,7 +2715,7 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "Pray: Abba Hadid and Abba John, Our great father Parsoma and Abba Teji, That He may...",
+                "english": "Pray: Abba Hadid and Abba John, our great father Parsoma and Abba Teji, That He may...",
                 "coptic": "Ⲧⲱ̅: ⲁⲃⲃⲁ Ϩⲁⲇⲓⲇ ⲛⲉⲙ ⲁⲃⲃⲁ Ⲓⲱⲁⲛⲛⲏⲥ : ⲛⲉⲙ ⲡⲉⲛⲓⲱⲧ ⲡⲓⲛⲓϣϯ ⲁⲃⲃⲁ Ⲡⲁⲣⲥⲱⲙⲁ ⲛⲉⲙ Ⲁⲃⲃⲁ Ⲧⲉϫⲓ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "اطلبوا من الرب عنا ياانبا حديد وأنبا يوحنا وأبانا العظيم أنبا برسوما وأنبا رويس ليغفر.."
               }
@@ -2715,7 +2725,7 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "Pray: Abba Abraam the hegomen, And our father Abba Mark, That He may...",
+                "english": "Pray: Abba Abraam the hegomen, and our father Abba Mark, That He may...",
                 "coptic": "Ⲧⲱ̅: ⲁⲃⲃⲁ Ⲁⲃⲣⲁⲁⲙ ⲡⲓϩⲏⲅⲟⲩⲙⲉⲛⲟⲥ : ⲛⲉⲙ ⲡⲉⲛⲓⲱⲧ ⲁⲃⲃⲁ Ⲙⲁⲣⲕⲟⲥ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "اطلبا من الرب عنا ياأنبا ابرام القمص وابانا أنبا مرقس ليغفر.."
               }
@@ -2725,7 +2735,7 @@
             "row-class": "north",
             "cells": [
               {
-                "english": "Pray to the Lord on our behalf, O chorus of the cross bearers, Perfected in the wilderness, That He may...",
+                "english": "Pray to the Lord on our behalf, O chorus of the cross-bearers, perfected in the wilderness, That He may...",
                 "coptic": "Ⲧⲱ̅: ⲛⲓⲭⲟⲣⲟⲥ ⲛ̀ⲧⲉ ⲛⲓⲥ̀ⲧⲁⲩⲣⲟⲫⲟⲣⲟⲥ : ⲉ̀ⲧⲁⲩϫⲱⲕ ⲉ̀ⲃⲟⲗ ϩⲓⲛⲓϣⲁϥⲉⲩ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "اطلبوا من الرب عنا يامصاف لبّاس الصليب الذين كملوا فى البرارى ليغفر.."
               }
@@ -2735,7 +2745,7 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "Pray: My lord King Constantine, and his mother, Queen Helen, That He may...",
+                "english": "Pray: my lord King Constantine, and his mother, Queen Helen, That He may...",
                 "coptic": "Ⲧⲱ̅: ⲡⲁϭⲟⲓⲥ ⲡ̀ⲟⲩⲣⲟ Ⲕⲱⲥⲧⲁⲛⲧⲓⲛⲟⲥ : ⲛⲉⲙ Ⲏ̀ⲗⲁⲛⲏ ϯⲟⲩⲣⲱ : ⲛ̀ⲧⲉϥ...",
                 "arabic": "اطلبا من الرب عنا ياسيدى الملك قسطنطين وهيلانه الملكة ليغفر.."
               }
@@ -2775,17 +2785,17 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "Pray: Our Holy father, the patriarch Abba (…), the high priest, That He may forgive us our sins.",
+                "english": "Pray: our holy father the patriarch, Pope Abba (…), the archpriest, That He may forgive us our sins.",
                 "coptic": "Ⲧⲱ̅: ⲡⲉⲛⲓⲱⲧ ⲉⲑⲟⲩⲁⲃ ⲙ̀ⲡⲁⲧⲣⲓⲁⲣⲭⲏⲥ : ⲁⲃⲃⲁ (...) ⲡⲓⲁⲣⲭⲏⲉ̀ⲣⲉⲩⲥ : ⲛ̀ⲧⲉϥ ⲭⲁ ⲛⲉⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.",
                 "arabic": "اطلب من الرب عنا ياابانا القديس البطريرك انبا (...) رئيس الكهنة ليغفر."
               }
             ]
           },
           {
-            "row-class": "south",
+            "row-class": "north",
             "cells": [
               {
-                "english": "Pray: our holy father the patriarch, pope Abba (...) the high priest, That He may forgive us our sins. ${cross}",
+                "english": "Pray: our holy righteous father, Abba (...) the bishop (metropolitan), That He may forgive us our sins. ${cross}",
                 "coptic": "Ⲧⲱ̅: ⲡⲉⲛⲓⲱⲧ ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲇⲓⲕⲉⲟⲥ: ⲁⲃⲃⲁ (...) ⲡⲓⲉ̀ⲡⲓⲥⲕⲟⲡⲟⲥ (ⲙ̀ⲙⲏⲧⲣⲟⲡⲟⲗⲓⲧⲏⲥ): ⲛ̀ⲧⲉϥ ⲭⲁ ⲛⲉⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ. ${cross}",
                 "arabic": "اطلب من الرب عنا ياابانا القديس البار انبا (...) الأسقف (المطران) ليغفر. ${cross}"
               }
@@ -2793,7 +2803,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "psalmody_6de4ea5d63"
   },
   {
     "english_title": "Kiahk Commemoration of the Saints",
@@ -3624,7 +3635,7 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "Pray: Our Holy father, the patriarch Abba (…), the high priest, That He may forgive us our sins.",
+                "english": "Pray: our holy father the patriarch, Pope Abba (…), the archpriest, That He may forgive us our sins.",
                 "coptic": "Ⲧⲱ̅: ⲡⲉⲛⲓⲱⲧ ⲉⲑⲟⲩⲁⲃ ⲙ̀ⲡⲁⲧⲣⲓⲁⲣⲭⲏⲥ : ⲁⲃⲃⲁ (...) ⲡⲓⲁⲣⲭⲏⲉ̀ⲣⲉⲩⲥ : ⲛ̀ⲧⲉϥ ⲭⲁ ⲛⲉⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.",
                 "arabic": "اطلب من الرب عنا ياابانا القديس البطريرك انبا (...) رئيس الكهنة ليغفر."
               }
@@ -3634,7 +3645,7 @@
             "row-class": "south",
             "cells": [
               {
-                "english": "Pray: our holy father the patriarch, pope Abba (...) the high priest, That He may forgive us our sins. ${cross}",
+                "english": "Pray: our holy righteous father, Abba (...) the bishop (metropolitan), That He may forgive us our sins. ${cross}",
                 "coptic": "Ⲧⲱ̅: ⲡⲉⲛⲓⲱⲧ ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲇⲓⲕⲉⲟⲥ: ⲁⲃⲃⲁ (...) ⲡⲓⲉ̀ⲡⲓⲥⲕⲟⲡⲟⲥ (ⲙ̀ⲙⲏⲧⲣⲟⲡⲟⲗⲓⲧⲏⲥ): ⲛ̀ⲧⲉϥ ⲭⲁ ⲛⲉⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ. ${cross}",
                 "arabic": "اطلب من الرب عنا ياابانا القديس البار انبا (...) الأسقف (المطران) ليغفر. ${cross}"
               }
@@ -3642,7 +3653,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "psalmody_8e670f882d"
   },
   {
     "source": "Seasonal Praises",
@@ -3673,7 +3685,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "psalmody_5ef3cf4a31"
   },
   {
     "source": "Seasonal Praises",
@@ -3684,11 +3697,6 @@
         "dayOfTheWeek": "Sunday"
       }
     }
-  },
-  {
-    "source": "Seasonal Praises",
-    "category": "general",
-    "repeated_prayer_placement": "preFourthCanticle"
   },
   {
     "english_title": "4th Canticle",
@@ -4114,7 +4122,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "psalmody_d9edc6fd9d"
   },
   {
     "english_title": "4th Canticle",
@@ -4640,7 +4649,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "psalmody_336f491384"
   },
   {
     "source": "Seasonal Praises",
@@ -4684,7 +4694,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "psalmody_76b972fc27"
   },
   {
     "link": "theotokia"
@@ -4696,17 +4707,13 @@
   },
   {
     "repeated_prayer_title": "Introduction to the Creed",
-    "source": "Annual",
+    "source": "Agpeya Prayers",
     "category": "prayers"
   },
   {
     "repeated_prayer_title": "The Creed",
-    "repeated_prayer_variables": {
-      "season": "annual"
-    },
-    "source": "Annual",
-    "category": "prayers",
-    "season": "annual"
+    "source": "Agpeya Prayers",
+    "category": "prayers"
   },
   {
     "repeated_prayer_title": "O God Have Mercy On Us",
@@ -4719,13 +4726,13 @@
     "repeated_prayer_placement": "postMidnightPraises"
   },
   {
-    "repeated_prayer_title": "Holy Holy Holy",
-    "source": "Annual",
+    "repeated_prayer_title": "Holy, Holy, Holy",
+    "source": "Agpeya Prayers",
     "category": "prayers"
   },
   {
-    "repeated_prayer_title": "Our Father",
-    "source": "Annual",
+    "repeated_prayer_title": "The Lord's Prayer",
+    "source": "Agpeya Prayers",
     "category": "prayers"
   },
   {
@@ -5379,7 +5386,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "psalmody_8451d9f95d"
   },
   {
     "repeated_prayer_title": "Your mercies O my God",

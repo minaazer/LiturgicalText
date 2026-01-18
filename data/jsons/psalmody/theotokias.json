@@ -1,72 +1,11 @@
 [
   {
-    "source": "Seasonal Praises",
-    "category": "general",
-    "repeated_prayer_variables": {
-      "passToTable":{
-        "dayOfTheWeek": "Monday"
-      }
-    },
-    "repeated_prayer_placement": "preMondayTheotokia"
-  },
-  {
-    "source": "Seasonal Praises",
-    "category": "general",
-    "repeated_prayer_variables": {
-      "passToTable":{
-        "dayOfTheWeek": "Tuesday"
-      }
-    },
-    "repeated_prayer_placement": "preTuesdayTheotokia"
-  },
-  {
-    "source": "Seasonal Praises",
-    "category": "general",
-    "repeated_prayer_variables": {
-      "passToTable":{
-        "dayOfTheWeek": "Wednesday"
-      }
-    },
-    "repeated_prayer_placement": "preWednesdayTheotokia"
-  },
-  {
-    "source": "Seasonal Praises",
-    "category": "general",
-    "repeated_prayer_variables": {
-      "passToTable":{
-        "dayOfTheWeek": "Thursday"
-      }
-    },
-    "repeated_prayer_placement": "preThursdayTheotokia"
-  },
-  {
-    "source": "Seasonal Praises",
-    "category": "general",
-    "repeated_prayer_variables": {
-      "passToTable":{
-        "dayOfTheWeek": "Friday"
-      }
-    },
-    "repeated_prayer_placement": "preFridayTheotokia"
-  },
-  {
-    "source": "Seasonal Praises",
-    "category": "general",
-    "repeated_prayer_variables": {
-      "passToTable":{
-        "dayOfTheWeek": "Saturday"
-      }
-    },
-    "repeated_prayer_placement": "preSaturdayTheotokia"
-  },
-  {
     "english_title": "Introduction to the Adam Theotokia",
     "coptic_title": "Ⲗⲟⲓⲡⲟⲛ ⲁⲛϣⲁⲛⲑⲱⲟⲩϯ",
     "arabic_title": "مقدمة الثيؤطوكية الادام",
     "caption_class": "caption",
     "theotokiasIndex": false,
     "adamWatos": "Adam",
-    "themes": [],
     "tbodies": [
       {
         "rows": [
@@ -112,7 +51,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "theotokias_33760d87b2"
   },
   {
     "english_title": "Introduction to the Watos Theotokia",
@@ -121,7 +61,6 @@
     "theotokiasIndex": false,
     "caption_class": "caption",
     "adamWatos": "Watos",
-    "themes": [],
     "tbodies": [
       {
         "rows": [
@@ -147,7 +86,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "theotokias_aa95f404b6"
   },
   {
     "english_title": "Sunday Theotokia – Part 1",
@@ -155,7 +95,6 @@
     "arabic_title": "تيوطوكيا الأحد - الجزء الأول",
     "caption_class": "caption",
     "dayOfTheWeek": "Sunday",
-    "themes": [],
     "tbodies": [
       {
         "rows": [
@@ -311,27 +250,18 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "theotokias_6b7d4c402b"
   },
   {
     "source": "Seasonal Praises",
     "category": "general",
     "repeated_prayer_variables": {
-      "passToTable":{
+      "passToTable": {
         "dayOfTheWeek": "Sunday"
       }
     },
     "repeated_prayer_placement": "postSundayTheotokia1"
-  },
-  {
-    "source": "Seasonal Praises",
-    "category": "general",
-    "repeated_prayer_variables": {
-      "passToTable":{
-        "dayOfTheWeek": "Sunday"
-      }
-    },
-    "repeated_prayer_placement": "postPart1"
   },
   {
     "english_title": "Sunday Theotokia – Part 2",
@@ -339,7 +269,6 @@
     "arabic_title": "تيوطوكيا الأحد - الجزء الثانى",
     "caption_class": "caption",
     "dayOfTheWeek": "Sunday",
-    "themes": [],
     "tbodies": [
       {
         "rows": [
@@ -495,13 +424,14 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "theotokias_f112767f53"
   },
   {
     "source": "Seasonal Praises",
     "category": "general",
     "repeated_prayer_variables": {
-      "passToTable":{
+      "passToTable": {
         "dayOfTheWeek": "Sunday"
       }
     },
@@ -513,7 +443,6 @@
     "arabic_title": "تيوطوكيا الأحد - الجزء الثالث",
     "caption_class": "caption",
     "dayOfTheWeek": "Sunday",
-    "themes": [],
     "tbodies": [
       {
         "rows": [
@@ -639,13 +568,14 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "theotokias_f29fad6ae2"
   },
   {
     "source": "Seasonal Praises",
     "category": "general",
     "repeated_prayer_variables": {
-      "passToTable":{
+      "passToTable": {
         "dayOfTheWeek": "Sunday"
       }
     },
@@ -657,7 +587,6 @@
     "arabic_title": "تيوطوكيا الأحد - الجزء الرابع",
     "caption_class": "caption",
     "dayOfTheWeek": "Sunday",
-    "themes": [],
     "tbodies": [
       {
         "rows": [
@@ -783,13 +712,14 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "theotokias_50e767e940"
   },
   {
     "source": "Seasonal Praises",
     "category": "general",
     "repeated_prayer_variables": {
-      "passToTable":{
+      "passToTable": {
         "dayOfTheWeek": "Sunday"
       }
     },
@@ -801,7 +731,6 @@
     "arabic_title": "تيوطوكيا الأحد - الجزء الخامس",
     "caption_class": "caption",
     "dayOfTheWeek": "Sunday",
-    "themes": [],
     "tbodies": [
       {
         "rows": [
@@ -957,13 +886,14 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "theotokias_d864048372"
   },
   {
     "source": "Seasonal Praises",
     "category": "general",
     "repeated_prayer_variables": {
-      "passToTable":{
+      "passToTable": {
         "dayOfTheWeek": "Sunday"
       }
     },
@@ -975,7 +905,6 @@
     "arabic_title": "تيوطوكيا الأحد - الجزء السادس",
     "caption_class": "caption",
     "dayOfTheWeek": "Sunday",
-    "themes": [],
     "tbodies": [
       {
         "rows": [
@@ -1111,13 +1040,14 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "theotokias_d231dfc58f"
   },
   {
     "source": "Seasonal Praises",
     "category": "general",
     "repeated_prayer_variables": {
-      "passToTable":{
+      "passToTable": {
         "dayOfTheWeek": "Sunday"
       }
     },
@@ -1130,7 +1060,6 @@
     "caption_class": "caption",
     "postFirstCanticleNonSunday": true,
     "dayOfTheWeek": "Sunday",
-    "themes": [],
     "tbodies": [
       {
         "rows": [
@@ -1176,7 +1105,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "theotokias_f17f05b48a"
   },
   {
     "english_title": "Sunday Theotokia – Part 7",
@@ -1185,7 +1115,6 @@
     "caption_class": "caption",
     "postFirstCanticleNonSunday": true,
     "dayOfTheWeek": "Sunday",
-    "themes": [],
     "tbodies": [
       {
         "rows": [
@@ -1251,7 +1180,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "theotokias_c43d493763"
   },
   {
     "english_title": "You Are Called Righteous",
@@ -1260,7 +1190,6 @@
     "caption_class": "caption",
     "postFirstCanticleNonSunday": true,
     "dayOfTheWeek": "Sunday",
-    "themes": [],
     "tbodies": [
       {
         "rows": [
@@ -1336,13 +1265,14 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "theotokias_9c884a1950"
   },
   {
     "source": "Seasonal Praises",
     "category": "general",
     "repeated_prayer_variables": {
-      "passToTable":{
+      "passToTable": {
         "postFirstCanticleNonSunday": true,
         "dayOfTheWeek": "Sunday"
       }
@@ -1356,7 +1286,6 @@
     "caption_class": "caption",
     "postFirstCanticleNonSunday": true,
     "dayOfTheWeek": "Sunday",
-    "themes": [],
     "tbodies": [
       {
         "rows": [
@@ -1602,13 +1531,14 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "theotokias_49df03f34a"
   },
   {
     "source": "Seasonal Praises",
     "category": "general",
     "repeated_prayer_variables": {
-      "passToTable":{
+      "passToTable": {
         "dayOfTheWeek": "Sunday",
         "postFirstCanticleNonSunday": true
       }
@@ -1622,7 +1552,6 @@
     "caption_class": "caption",
     "postFirstCanticleNonSunday": true,
     "dayOfTheWeek": "Sunday",
-    "themes": [],
     "tbodies": [
       {
         "rows": [
@@ -1678,13 +1607,14 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "theotokias_268efe2cd0"
   },
   {
     "source": "Seasonal Praises",
     "category": "general",
     "repeated_prayer_variables": {
-      "passToTable":{
+      "passToTable": {
         "dayOfTheWeek": "Sunday",
         "postFirstCanticleNonSunday": true
       }
@@ -1697,7 +1627,6 @@
     "arabic_title": "ثيوطوكية الأحد - الجزء العاشر",
     "caption_class": "caption",
     "dayOfTheWeek": "Sunday",
-    "themes": [],
     "tbodies": [
       {
         "rows": [
@@ -2243,7 +2172,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "theotokias_6fb2a629e2"
   },
   {
     "english_title": "The Sixteenth Part",
@@ -2252,7 +2182,6 @@
     "caption_class": "caption",
     "dayOfTheWeek": "Sunday",
     "aktonkAki": "risen",
-    "themes": [],
     "tbodies": [
       {
         "rows": [
@@ -2398,7 +2327,18 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "theotokias_0b25bbe63a"
+  },
+  {
+    "source": "Seasonal Praises",
+    "category": "general",
+    "repeated_prayer_variables": {
+      "passToTable": {
+        "dayOfTheWeek": "Monday"
+      }
+    },
+    "repeated_prayer_placement": "preMondayTheotokia"
   },
   {
     "english_title": "The Monday Theotokia - Adam",
@@ -2406,7 +2346,6 @@
     "arabic_title": "ثيؤطوكية الإثنين - أدآم",
     "caption_class": "caption",
     "dayOfTheWeek": "Monday",
-    "themes": [],
     "tbodies": [
       {
         "rows": [
@@ -2952,7 +2891,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "theotokias_6391f41477"
   },
   {
     "english_title": "The Monday Theotokia - Lobsh",
@@ -2960,7 +2900,6 @@
     "arabic_title": "لُبش ثيؤطوكية الإثنين",
     "caption_class": "caption",
     "dayOfTheWeek": "Monday",
-    "themes": [],
     "tbodies": [
       {
         "rows": [
@@ -3086,7 +3025,18 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "theotokias_5bf6630d47"
+  },
+  {
+    "source": "Seasonal Praises",
+    "category": "general",
+    "repeated_prayer_variables": {
+      "passToTable": {
+        "dayOfTheWeek": "Tuesday"
+      }
+    },
+    "repeated_prayer_placement": "preTuesdayTheotokia"
   },
   {
     "english_title": "The Tuesday Theotokia - Adam",
@@ -3094,7 +3044,6 @@
     "arabic_title": "ثيؤطوكية الثلاثاء - أدآم",
     "caption_class": "caption",
     "dayOfTheWeek": "Tuesday",
-    "themes": [],
     "tbodies": [
       {
         "rows": [
@@ -3650,7 +3599,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "theotokias_c76aaf156f"
   },
   {
     "english_title": "The Tuesday Theotokia Lobsh",
@@ -3658,7 +3608,6 @@
     "arabic_title": "لُبش ثيؤطوكية الثلاثاء",
     "caption_class": "caption",
     "dayOfTheWeek": "Tuesday",
-    "themes": [],
     "tbodies": [
       {
         "rows": [
@@ -3744,7 +3693,18 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "theotokias_1ff2999fe1"
+  },
+  {
+    "source": "Seasonal Praises",
+    "category": "general",
+    "repeated_prayer_variables": {
+      "passToTable": {
+        "dayOfTheWeek": "Wednesday"
+      }
+    },
+    "repeated_prayer_placement": "preWednesdayTheotokia"
   },
   {
     "english_title": "The Wednesday Theotokia - Watos",
@@ -3752,7 +3712,6 @@
     "arabic_title": "ثيؤطوكية الأربعاء - واطس",
     "caption_class": "caption",
     "dayOfTheWeek": "Wednesday",
-    "themes": [],
     "tbodies": [
       {
         "rows": [
@@ -4158,7 +4117,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "theotokias_48476de8f0"
   },
   {
     "english_title": "Ti-galili-a (7th Part of the Wednesday Theotokia)",
@@ -4166,7 +4126,6 @@
     "arabic_title": "لحن تي جاليلي آه - القطعة السابعة من ثيؤطوكية الأربعاء",
     "caption_class": "caption",
     "dayOfTheWeek": "Wednesday",
-    "themes": [],
     "tbodies": [
       {
         "rows": [
@@ -4252,7 +4211,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "theotokias_f936a53c87"
   },
   {
     "english_title": "The Wednesday Theotokia Lobsh",
@@ -4260,7 +4220,6 @@
     "arabic_title": "لبش ثيؤطوكية الأربعاء",
     "caption_class": "caption",
     "dayOfTheWeek": "Wednesday",
-    "themes": [],
     "tbodies": [
       {
         "rows": [
@@ -4366,7 +4325,18 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "theotokias_f3a3806148"
+  },
+  {
+    "source": "Seasonal Praises",
+    "category": "general",
+    "repeated_prayer_variables": {
+      "passToTable": {
+        "dayOfTheWeek": "Thursday"
+      }
+    },
+    "repeated_prayer_placement": "preThursdayTheotokia"
   },
   {
     "english_title": "The Thursday Theotokia - Watos",
@@ -4374,7 +4344,6 @@
     "arabic_title": "ثيؤطوكية الخميس - واطس",
     "caption_class": "caption",
     "dayOfTheWeek": "Thursday",
-    "themes": [],
     "tbodies": [
       {
         "rows": [
@@ -5120,7 +5089,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "theotokias_8989e69666"
   },
   {
     "english_title": "The Thursday Theotokia Lobsh",
@@ -5128,7 +5098,6 @@
     "arabic_title": "لُبش ثيؤطوكية الخميس",
     "caption_class": "caption",
     "dayOfTheWeek": "Thursday",
-    "themes": [],
     "tbodies": [
       {
         "rows": [
@@ -5234,7 +5203,18 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "theotokias_e5569e31e0"
+  },
+  {
+    "source": "Seasonal Praises",
+    "category": "general",
+    "repeated_prayer_variables": {
+      "passToTable": {
+        "dayOfTheWeek": "Friday"
+      }
+    },
+    "repeated_prayer_placement": "preFridayTheotokia"
   },
   {
     "english_title": "The Friday Theotokia - Watos",
@@ -5242,7 +5222,6 @@
     "arabic_title": "ثيؤطوكية الجمعة - واطس",
     "caption_class": "caption",
     "dayOfTheWeek": "Friday",
-    "themes": [],
     "tbodies": [
       {
         "rows": [
@@ -5588,7 +5567,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "theotokias_437f70b050"
   },
   {
     "english_title": "The Friday Theotokia Lobsh",
@@ -5596,7 +5576,6 @@
     "arabic_title": "لُبش ثيؤطوكية الجمعة",
     "caption_class": "caption",
     "dayOfTheWeek": "Friday",
-    "themes": [],
     "tbodies": [
       {
         "rows": [
@@ -5722,7 +5701,18 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "theotokias_9f263bf200"
+  },
+  {
+    "source": "Seasonal Praises",
+    "category": "general",
+    "repeated_prayer_variables": {
+      "passToTable": {
+        "dayOfTheWeek": "Saturday"
+      }
+    },
+    "repeated_prayer_placement": "preSaturdayTheotokia"
   },
   {
     "english_title": "The Saturday Theotokia - Watos",
@@ -5730,7 +5720,6 @@
     "arabic_title": "ثيؤطوكية السبت - واطس",
     "caption_class": "caption",
     "dayOfTheWeek": "Saturday",
-    "themes": [],
     "tbodies": [
       {
         "rows": [
@@ -6136,7 +6125,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "theotokias_6fcf1e830c"
   },
   {
     "english_title": "The Saturday Theotokia Lobsh - The Sherat",
@@ -6144,7 +6134,6 @@
     "arabic_title": "لُبش ثيؤطوكية السبت - الشيرات",
     "caption_class": "caption",
     "dayOfTheWeek": "Saturday",
-    "themes": [],
     "tbodies": [
       {
         "rows": [
@@ -6410,7 +6399,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "theotokias_d32d14d741"
   },
   {
     "english_title": "Difnar Introduction - Adam",
@@ -6419,7 +6409,6 @@
     "caption_class": "caption",
     "theotokiasIndex": false,
     "adamWatos": "Adam",
-    "themes": [],
     "tbodies": [
       {
         "rows": [
@@ -6445,7 +6434,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "theotokias_0d3dbd4fa7"
   },
   {
     "english_title": "Difnar Introduction - Watos",
@@ -6454,7 +6444,6 @@
     "caption_class": "caption",
     "theotokiasIndex": false,
     "adamWatos": "Watos",
-    "themes": [],
     "tbodies": [
       {
         "rows": [
@@ -6500,13 +6489,14 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "theotokias_b0986f26ad"
   },
   {
     "source": "Seasonal Praises",
     "category": "general",
     "repeated_prayer_variables": {
-      "passToTable":{
+      "passToTable": {
         "theotokiasIndex": false
       }
     },
@@ -6519,7 +6509,6 @@
     "caption_class": "caption",
     "theotokiasIndex": false,
     "adamWatos": "Adam",
-    "themes": [],
     "tbodies": [
       {
         "rows": [
@@ -6695,7 +6684,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "theotokias_de42e37bc7"
   },
   {
     "english_title": "The Watos Theotokias Conclusion",
@@ -6704,7 +6694,6 @@
     "theotokiasIndex": false,
     "caption_class": "caption",
     "adamWatos": "Watos",
-    "themes": [],
     "tbodies": [
       {
         "rows": [
@@ -6840,6 +6829,7 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "theotokias_da415065fa"
   }
 ]

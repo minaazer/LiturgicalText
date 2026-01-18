@@ -104,7 +104,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "expositions_8fe128c945"
   },
   {
     "english_title": "The Exposition",
@@ -311,7 +312,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "expositions_61f046a00c"
   },
   {
     "english_title": "The Exposition Response",
@@ -338,6 +340,7 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "expositions_55dc286682"
   }
 ]

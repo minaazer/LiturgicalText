@@ -25,7 +25,7 @@ export const getCurrentUser = () => {
   return pool.getCurrentUser();
 };
 
-export const signIn = (username, password) =>
+export const signIn = (username, password, newPassword) =>
   new Promise((resolve, reject) => {
     const pool = getUserPool();
     if (!pool) {
@@ -37,8 +37,47 @@ export const signIn = (username, password) =>
     user.authenticateUser(authDetails, {
       onSuccess: (session) => resolve({ user, session }),
       onFailure: (err) => reject(err),
-      newPasswordRequired: () =>
-        reject(new Error("New password required. Please ask an admin to reset.")),
+      newPasswordRequired: () => {
+        if (!newPassword) {
+          const err = new Error("New password required. Enter a new password to continue.");
+          err.code = "NEW_PASSWORD_REQUIRED";
+          reject(err);
+          return;
+        }
+        user.completeNewPasswordChallenge(newPassword, {}, {
+          onSuccess: (session) => resolve({ user, session }),
+          onFailure: (err) => reject(err),
+        });
+      },
+    });
+  });
+
+export const requestPasswordReset = (username) =>
+  new Promise((resolve, reject) => {
+    const pool = getUserPool();
+    if (!pool) {
+      reject(new Error("Missing Cognito configuration."));
+      return;
+    }
+    const user = new CognitoUser({ Username: username, Pool: pool });
+    user.forgotPassword({
+      onSuccess: () => resolve(),
+      onFailure: (err) => reject(err),
+      inputVerificationCode: () => resolve(),
+    });
+  });
+
+export const confirmPasswordReset = (username, code, newPassword) =>
+  new Promise((resolve, reject) => {
+    const pool = getUserPool();
+    if (!pool) {
+      reject(new Error("Missing Cognito configuration."));
+      return;
+    }
+    const user = new CognitoUser({ Username: username, Pool: pool });
+    user.confirmPassword(code, newPassword, {
+      onSuccess: () => resolve(),
+      onFailure: (err) => reject(err),
     });
   });
 

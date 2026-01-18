@@ -251,7 +251,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_gregory_0b0b48e2ed"
   },
   {
     "english_title": "Another Prayer of Reconciliation (Saint Gregory’s Liturgy)",
@@ -472,7 +473,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_gregory_d59b0e20ec"
   },
   {
     "link": "aspasmosAdam"
@@ -675,7 +677,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_gregory_19066a5140"
   },
   {
     "english_title": "O You, THE BEING",
@@ -796,7 +799,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_gregory_7485f3a9c1"
   },
   {
     "english_title": "You are He around whom stand",
@@ -857,7 +861,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_gregory_38bd6237da"
   },
   {
     "congregationResponse": "The Cherubimic Hymn"
@@ -1124,7 +1129,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_gregory_dfcddb09ab"
   },
   {
     "english_title": "You, O my Master",
@@ -1225,7 +1231,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_gregory_a9341418c2"
   },
   {
     "english_title": "You, who are THE BEING at all times",
@@ -1436,7 +1443,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_gregory_95b1298741"
   },
   {
     "english_title": "You have come to the slaughter",
@@ -1517,7 +1525,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_gregory_9731e66874"
   },
   {
     "english_title": "The Institution Narrative",
@@ -1858,7 +1867,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_gregory_70e525d3a7"
   },
   {
     "congregationResponse": "Amen(3) Your Death, O Lord"
@@ -1932,46 +1942,9 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_gregory_ccf53f3795"
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   {
     "english_title": "The Descent of the Holy Spirit",
     "coptic_title": "",
@@ -2151,7 +2124,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_gregory_c9a7ebfcfd"
   },
   {
     "english_title": "Yea, we ask You",
@@ -2292,7 +2266,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_gregory_9721315032"
   },
   {
     "english_title": "The Short Litanies",
@@ -2955,7 +2930,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_gregory_5b19a6fb3f"
   },
   {
     "english_title": "Healing to the sick",
@@ -3116,7 +3092,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_gregory_a49adf7850"
   },
   {
     "english_title": "The Commemoration of the Saints",
@@ -3327,7 +3304,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_gregory_430d033ddf"
   },
   {
     "english_title": "Remember, O Lord",
@@ -3368,7 +3346,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_gregory_9e9cf38579"
   },
   {
     "english_title": "For You are God",
@@ -3429,7 +3408,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_gregory_0870260b56"
   },
   {
     "english_title": "That as in this",
@@ -3470,7 +3450,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_gregory_a79ca066a8"
   },
   {
     "english_title": "Introduction to the Fraction",
@@ -3651,7 +3632,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_gregory_d7c8e2f04e"
   },
   {
     "english_title": "The Fraction",
@@ -3802,7 +3784,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_gregory_106132c649"
   },
   {
     "english_title": "Prayers after the Fraction",
@@ -4223,7 +4206,8 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_gregory_d1befee81d"
   },
   {
     "english_title": "The Confession",
@@ -4494,6 +4478,7 @@
           }
         ]
       }
-    ]
+    ],
+    "table_id": "liturgyofthefaithfull_gregory_b356d4c804"
   }
 ]
