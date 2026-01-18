@@ -11,7 +11,6 @@ const CalendarScreen = () => {
     const [copticDate, setCopticDate] = useState(null);
     const [copticSeasons, setCopticSeasons] = useState(null);
     const [showDatePicker, setShowDatePicker] = useState(false); // Control date picker visibility
-    const [pickerDate, setPickerDate] = useState(currentDate || new Date()); // Track date in picker for preview
     const [showTimePicker, setShowTimePicker] = useState(false); // Time picker for dayTransitionTime
     const [selectedTime, setSelectedTime] = useState(new Date()); // Store the selected time
 
@@ -85,32 +84,13 @@ const CalendarScreen = () => {
     }, [currentDate , selectedDateProperties]); // Trigger when currentDate changes
 
 
-    // Track picker change; apply immediately when selected
+    // Function to update season based on the selected date
     const handleDateChange = (event, date) => {
-        if (event?.type === "dismissed") {
-            setShowDatePicker(false);
-            setPickerDate(currentDate || new Date());
-            return;
+        setShowDatePicker(false); // Hide the picker after selection
+        if (date) {
+            date.setUTCHours(9,0,0,0);
+            setCurrentDate(new Date(date), 'custom'); // Update the date in settings as a custom date
         }
-        if (!date) return;
-
-        const isSeasonSelection = !event;
-        if (isSeasonSelection) {
-            const commitDate = new Date(date);
-            setPickerDate(commitDate);
-            setCurrentDate(commitDate, "custom");
-            setShowDatePicker(false);
-            return;
-        }
-
-        const normalizedDate = new Date(
-            date.getTime() - date.getTimezoneOffset() * 60000
-        );
-        setPickerDate(normalizedDate);
-        const commitDate = new Date(normalizedDate);
-        commitDate.setUTCHours(9, 0, 0, 0);
-        setCurrentDate(commitDate, "custom");
-        setShowDatePicker(false);
     };
 
     // Function to go back to live date
@@ -153,16 +133,6 @@ const CalendarScreen = () => {
         navigation.goBack();
     };
 
-    const formatWithWeekday = (dateObj) => {
-        if (!dateObj) return '';
-        return dateObj.toLocaleDateString(undefined, {
-            weekday: 'short',
-            month: 'short',
-            day: 'numeric',
-            year: 'numeric',
-        });
-    };
-
     return (
         <View style={presentationStyles.settingsScreen}>
             <ScrollView contentContainerStyle={presentationStyles.settingsInnerContainer}>
@@ -202,9 +172,7 @@ const CalendarScreen = () => {
                             onPress={() => setShowDatePicker(true)}
                         >
                             <Text style={presentationStyles.buttonText}>
-                                {currentDate && currentDateType !== 'live'
-                                    ? formatWithWeekday(currentDate)
-                                    : 'Pick a Date'}
+                                {currentDate && currentDateType !== 'live' ? currentDate.toDateString() : 'Pick a Date'}
                             </Text>
                         </TouchableOpacity>
                         {/* Button to open modal to change day transition time */}
@@ -221,9 +189,9 @@ const CalendarScreen = () => {
                     {selectedDateProperties ? (
                         <View style={presentationStyles.currentSeasonCard}>
                             {copticDate ? (
-                            <Text style={presentationStyles.currentSeasonTitle}>
-                                Selected Coptic Date: {copticDate.copticMonthName} {copticDate.copticDay}, {copticDate.copticYear} ({formatWithWeekday(currentDate)})
-                            </Text>
+                                <Text style={presentationStyles.currentSeasonTitle}>
+                                    Selected Coptic Date: {copticDate.copticMonthName} {copticDate.copticDay}, {copticDate.copticYear}
+                                </Text>
                             ) : (
                                 <Text>Loading Coptic Date...</Text>
                             )}
@@ -275,10 +243,21 @@ const CalendarScreen = () => {
                 {/* Display DateTimePicker only when showDatePicker is true */}
                 {showDatePicker && (
                     <DateTimePicker
-                        value={pickerDate || currentDate || new Date()} // Default to current date from settings
+                        value={currentDate || new Date()} // Default to current date from settings
                         mode="date"
                         display={Platform.OS === 'ios' ? 'inline' : 'spinner'} // Use spinner for iOS
-                        onChange={handleDateChange}
+                        onChange={(event, selectedDate) => {
+                            if (selectedDate) {
+                                // Normalize the selected date to local time
+                                const normalizedDate = new Date(
+                                    selectedDate.getTime() - selectedDate.getTimezoneOffset() * 60000
+                                );
+                                handleDateChange(event, normalizedDate); // Pass the normalized date
+                            } else {
+                                handleDateChange(event, selectedDate); // Pass null if no date is selected
+                            }
+                        }}                
+                
                     />
                 )}
 

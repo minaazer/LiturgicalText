@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, useContext } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { View, ActivityIndicator, Dimensions, Platform } from 'react-native';
 import { presentationStyles } from '../css/presentationStyles';
 import { WebView } from 'react-native-webview';
@@ -6,11 +6,9 @@ import { handleMessage, handleNext, handlePrevious, handleDrawerItemPress } from
 import { useNavigation, useIsFocused } from '@react-navigation/native';
 import { useDrawerStatus } from '@react-navigation/drawer';
 import localStorage from './localStorage';
-import SettingsContext from '../../settings/settingsContext';
 import {ExplanationPopup} from '../reusableComponents/explanationPopup';
 import explanationsData from '../../data/jsons/explanations.json'; // Import the data
 import imagesData from '../../data/jsons/images.json'; // Import the images data
-import { getJson } from './jsonCache';
 import { ImagePopup } from '../reusableComponents/imagePopup'; // Import the ImagePopup component
 import { togglePopupAudio , stopPopupAudio } from '../reusableComponents/audioPopup'; // Import audio functions
 import AudioControlsPopup from '../reusableComponents/audioPopup';
@@ -18,7 +16,6 @@ import AudioControlsPopup from '../reusableComponents/audioPopup';
 
 
 export const MainContent = ({ html, webviewRef, setDrawerItems, setCurrentTable, currentTable }) => {
-    const [settings] = useContext(SettingsContext);
     const navigation = useNavigation();
     const parentRouteName = navigation.getParent()?.getState().routes || 'default_parent'; // Get parent route name
     const fileKey = parentRouteName[parentRouteName.length - 1].name; // Get the last route in the stack
@@ -38,11 +35,7 @@ export const MainContent = ({ html, webviewRef, setDrawerItems, setCurrentTable,
     const [currentAudioTitle, setCurrentAudioTitle] = useState('');
     const [isAudioPaused, setIsAudioPaused] = useState(true);
     const [isAudioPopupMinimized, setAudioPopupMinimized] = useState(false);
-    const [explanationsJson, setExplanationsJson] = useState(explanationsData);
-    const [imagesJson, setImagesJson] = useState(imagesData);
 
-    const isScrollMode = settings?.displayMode === "scroll";
-    const lastDisplayMode = useRef(isScrollMode);
 
 
     const screenWidth = Dimensions.get('window').width;
@@ -91,12 +84,10 @@ useEffect(() => {
         // Only show spinner on true initial mount or when no table is selected
         const shouldShowSpinner = isInitialMount.current || !currentTable;
 
-            if (hasLeftScreen && currentTable) {
+        if (hasLeftScreen && currentTable) {
             if (shouldShowSpinner) setRefreshing(true);
             timeout = setTimeout(() => {
-                if (!isScrollMode) {
-                    webviewRef.current.injectJavaScript(`paginateTables();`);
-                }
+                webviewRef.current.injectJavaScript(`paginateTables();`);
                 handleDrawerItemPress(currentTable, webviewRef);
                 setHasLeftScreen(false); // Reset the flag
                 if (shouldShowSpinner) setRefreshing(false); // Reset refreshing state
@@ -112,9 +103,7 @@ useEffect(() => {
             if (shouldShowSpinner) setRefreshing(true);
             if (!loading) {
                 timeout = setTimeout(() => {
-                    if (!isScrollMode) {
-                        webviewRef.current.injectJavaScript(`paginateTables();`);
-                    }
+                    webviewRef.current.injectJavaScript(`paginateTables();`);
                     handleDrawerItemPress(firstTable, webviewRef);
                     if (shouldShowSpinner) setRefreshing(false); // Reset refreshing state
                 }, 1000);
@@ -131,11 +120,11 @@ useEffect(() => {
         if (timeout) clearTimeout(timeout);
     };
 
-}, [isFocused, drawerIsOpen, loading, isScrollMode]);
+}, [isFocused, drawerIsOpen, loading]);
 
 // Signal the WebView to suspend pagination during drawer gestures to avoid flicker
 useEffect(() => {
-    if (!webviewRef.current || isScrollMode) return;
+    if (!webviewRef.current) return;
 
     if (drawerIsOpen) {
         webviewRef.current.injectJavaScript(`window._suspendPaginate = true;`);
@@ -154,24 +143,7 @@ useEffect(() => {
     }
 
     lastDrawerState.current = drawerIsOpen;
-}, [drawerIsOpen, webviewRef, isScrollMode]);
-
-    useEffect(() => {
-        let isMounted = true;
-        getJson("explanations.json", explanationsData).then((data) => {
-            if (isMounted && data) {
-                setExplanationsJson(data);
-            }
-        });
-        getJson("images.json", imagesData).then((data) => {
-            if (isMounted && data) {
-                setImagesJson(data);
-            }
-        });
-        return () => {
-            isMounted = false;
-        };
-    }, []);
+}, [drawerIsOpen, webviewRef]);
 
     // Load saved table states (visible or collapsed) from local storage
     useEffect(() => {
@@ -189,7 +161,6 @@ useEffect(() => {
         fileKey = '${fileKey}';
         currentFileStates = ${JSON.stringify(currentFileStates)};
         savedStates = ${JSON.stringify(savedStates)};
-        window._scrollMode = ${isScrollMode ? "true" : "false"};
 
         initialize();
         
@@ -201,17 +172,10 @@ useEffect(() => {
     useEffect(() => {
         if (reload < 3) {
             setReload(reload + 1);
+            
         }
-    }, [reload, currentFileStates]);
-
-    useEffect(() => {
-        if (lastDisplayMode.current !== isScrollMode) {
-            lastDisplayMode.current = isScrollMode;
-            setPageOffsets([]);
-            setCurrentPage(0);
-            setReload((prev) => prev + 1);
-        }
-    }, [isScrollMode]);
+    }
+    , [reload, currentFileStates]);
     
     return (
         <View style={{flex:1}}>
@@ -235,30 +199,24 @@ useEffect(() => {
         <WebView
             ref={webviewRef}
             key={reload}
-            source={{ html, baseUrl: Platform.OS === 'android' ? 'file:///android_asset/' : undefined }}
+            source={{ html }}
             originWhitelist={['*']}
             javaScriptEnabled={true}
             domStorageEnabled={true}
             startInLoadingState={false}
             pointerEvents={drawerIsOpen ? "none" : "auto"}
             androidLayerType="software"
-            allowFileAccess={true}
-            allowFileAccessFromFileURLs={true}
-            allowUniversalAccessFromFileURLs={true}
-            mixedContentMode="always"
             injectedJavaScript={injectedJavaScript}
             onMessage={(event) => {
                 const message = JSON.parse(event.nativeEvent.data);
                 if (message.type === 'TOUCH_END') {
-                    if (!isScrollMode) {
-                        handleTouchEnd(message.data);
-                    }
+                    handleTouchEnd(message.data);
                 } else if (message.type === 'HANDLE_NEXT') {
                     console.log('Handling next');
-                    handleNext(currentPage, setCurrentPage, pageOffsets, setCurrentTable, webviewRef, isScrollMode);
+                    handleNext(currentPage, setCurrentPage, pageOffsets, setCurrentTable, webviewRef);
                 } else if (message.type === 'HANDLE_PREVIOUS') {
                     console.log('Handling previous');
-                    handlePrevious(currentPage, setCurrentPage, pageOffsets, setCurrentTable, webviewRef, isScrollMode);
+                    handlePrevious(currentPage, setCurrentPage, pageOffsets, setCurrentTable, webviewRef);
                 } else {
                     handleMessage(
                         event,
@@ -274,16 +232,15 @@ useEffect(() => {
                         setFirstTable,
                         setPopupVisible, // Pass visibility setter
                         setPopupData, // Pass data setter                  
-                        explanationsJson, // Pass the data
+                        explanationsData, // Pass the data
                         setImagePopupVisible, // Pass image popup
                         setImageUri, // Pass image URI setter
-                        imagesJson, // Pass the images data
+                        imagesData, // Pass the images data
                         togglePopupAudio, // Pass audio toggle function
                         stopPopupAudio, // Pass audio stop function
                         setIsAudioPaused,
                         setCurrentAudioTitle,
-                        setAudioPopupVisible,
-                        isScrollMode ? "scroll" : "slideshow"
+                        setAudioPopupVisible
                     );
                 }
             }}

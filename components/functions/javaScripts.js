@@ -12,31 +12,8 @@ async function initialize() {
             await loadStoredSettings(currentFileStates);
             await extractTableTitlesAndIds();
 
-            if (!window._scrollMode) {
-                await waitForInitialLayout();
-                await paginateTables();
-                // Extra pass for small portrait screens (e.g., large psalmody JSON) to re-measure after everything settles
-                const isSmallPortrait =
-                  window.innerWidth > 0 &&
-                  window.innerHeight > window.innerWidth &&
-                  window.innerWidth < 520;
-                if (isSmallPortrait && !window._postFontRepaginated) {
-                  window._postFontRepaginated = true;
-                  setTimeout(() => {
-                    try {
-                      if (typeof paginateTables.clearFontCache === 'function') {
-                        paginateTables.clearFontCache();
-                      }
-                      if (typeof paginateTables.clearPaginationCache === 'function') {
-                        paginateTables.clearPaginationCache();
-                      }
-                      paginateTables();
-                    } catch (_e) {
-                      // ignore
-                    }
-                  }, 150);
-                }
-            }
+            await waitForInitialLayout();
+            await paginateTables();
 
 
         } catch (error) {
@@ -57,7 +34,7 @@ async function initialize() {
             window._lastPaginateHeight = window.innerHeight;
 
             // Debounced re-pagination on meaningful height changes only (helps avoid flicker on drawer slide)
-            if (!window._scrollMode && !window._debouncedPaginateResize) {
+            if (!window._debouncedPaginateResize) {
                 let resizeTimeout = null;
                 let lastHeight = window.innerHeight;
                 window._debouncedPaginateResize = () => {
@@ -78,8 +55,9 @@ async function initialize() {
                 };
                 window.addEventListener("resize", window._debouncedPaginateResize);
             }
-        }
 
+
+        }
 }
 
 function waitForInitialLayout() {
@@ -122,7 +100,6 @@ function handleTouchNavigation(event) {
   let touchStartX = 0;
   let touchStartY = 0;
   let buttonClicked = false;
-  const isScrollMode = () => window._scrollMode === true;
 
   // Shared logic for handling element interactions
   function handleInteraction(pageX, pageY) {
@@ -183,9 +160,7 @@ function handleTouchNavigation(event) {
 
   // Touchstart and Mousedown: Start interaction
   function startInteraction(event) {
-    if (!isScrollMode()) {
-      event.preventDefault();
-    }
+    event.preventDefault();
     isTouching = true;
     buttonClicked = false;
 
@@ -201,17 +176,13 @@ function handleTouchNavigation(event) {
     touchStartX = pageX;
     touchStartY = pageY;
 
-    if (!isScrollMode()) {
-      handleInteraction(pageX, pageY); // Handle element interaction
-    }
+    handleInteraction(pageX, pageY); // Handle element interaction
   }
 
   // Touchmove and Mousemove: Handle move interactions
   function moveInteraction(event) {
     if (!isTouching) return;
-    if (!isScrollMode()) {
-      event.preventDefault();
-    }
+    event.preventDefault();
 
     let pageX, pageY;
     if (event.type === "touchmove") {
@@ -225,9 +196,7 @@ function handleTouchNavigation(event) {
 
   // Touchend and Mouseup: End interaction
   function endInteraction(event) {
-    if (!isScrollMode()) {
-      event.preventDefault();
-    }
+    event.preventDefault();
     isTouching = false;
 
     let pageX, pageY;
@@ -253,12 +222,8 @@ function handleTouchNavigation(event) {
           postMessageToReactNative("RIGHT_SWIPE", deltaX);
         }
       } else if (!buttonClicked && Math.abs(deltaX) < 30 && Math.abs(deltaY) < 30) {
-        if (isScrollMode()) {
-          handleInteraction(pageX, pageY);
-        } else {
-          // No swipe, register a simple touch/click action
-          postMessageToReactNative("TOUCH_END", pageX);
-        }
+        // No swipe, register a simple touch/click action
+        postMessageToReactNative("TOUCH_END", pageX);
       }
     }
   }
@@ -270,7 +235,6 @@ function handleTouchNavigation(event) {
 
   // Keyboard interaction
   function handleKeyPress(event) {
-    if (isScrollMode()) return;
     switch (event.key) {
       case "ArrowRight":
       case "ArrowDown":
@@ -293,7 +257,6 @@ function handleTouchNavigation(event) {
   document.addEventListener(
     "wheel",
     function (event) {
-      if (isScrollMode()) return;
       event.preventDefault(); // Block default scrolling behavior
     },
     { passive: false }
@@ -420,37 +383,21 @@ const extractTableTitlesAndIds =
 
                 const title = { english: '', coptic: '', arabic: '', order: [] }; // Initialize English, Coptic, and Arabic as empty strings
                 if (caption) {
-                    const textContainer = caption.querySelector('.caption-texts');
-                    if (textContainer) {
-                        const en = textContainer.querySelector('.english-caption');
-                        const ar = textContainer.querySelector('.arabic-caption');
-                        const co = textContainer.querySelector('.coptic-caption');
-                        if (en && en.textContent.trim() !== '') {
-                            title.english = en.textContent.trim();
-                            title.order.push('english');
+                    Array.from(caption.childNodes).forEach((node) => {
+                        if (node.nodeType === 3 && node.nodeValue.trim() !== '') {
+                            // Text node for English
+                            title.english += node.nodeValue.trim() + ' '; // Concatenate English text nodes
+                            if (!title.order.includes('english')) title.order.push('english'); // Only push 'english' once
+                        } else if (node.nodeType === 1 && node.classList.contains('coptic-caption')) {
+                            // Element node for Coptic
+                            title.coptic += node.innerText.trim() + ' '; // Concatenate Coptic text nodes
+                            if (!title.order.includes('coptic')) title.order.push('coptic'); // Only push 'coptic' once
+                        } else if (node.nodeType === 1 && node.classList.contains('arabic-caption')) {
+                            // Element node for Arabic
+                            title.arabic += node.innerHTML.replace(/<br>/g, ' ').trim() + ' '; // Concatenate Arabic text nodes
+                            if (!title.order.includes('arabic')) title.order.push('arabic');
                         }
-                        if (ar && ar.textContent.trim() !== '') {
-                            title.arabic = ar.textContent.replace(/<br>/g, ' ').trim();
-                            title.order.push('arabic');
-                        }
-                        if (co && co.textContent.trim() !== '') {
-                            title.coptic = co.textContent.trim();
-                            title.order.push('coptic');
-                        }
-                    } else {
-                        Array.from(caption.childNodes).forEach((node) => {
-                            if (node.nodeType === 3 && node.nodeValue.trim() !== '') {
-                                title.english += node.nodeValue.trim() + ' ';
-                                if (!title.order.includes('english')) title.order.push('english');
-                            } else if (node.nodeType === 1 && node.classList.contains('coptic-caption')) {
-                                title.coptic += node.innerText.trim() + ' ';
-                                if (!title.order.includes('coptic')) title.order.push('coptic');
-                            } else if (node.nodeType === 1 && node.classList.contains('arabic-caption')) {
-                                title.arabic += node.innerHTML.replace(/<br>/g, ' ').trim() + ' ';
-                                if (!title.order.includes('arabic')) title.order.push('arabic');
-                            }
-                        });
-                    }
+                    });
                 }
 
                 // Only push if there is a title
@@ -543,10 +490,6 @@ function sendMessage(message, retryCount = 5) {
 // Pagination
 const paginateTables =
 `function paginateTables() {
-    if (window._scrollMode) {
-      sendMessage(JSON.stringify({ type: 'PAGINATION_DATA', data: [] }));
-      return Promise.resolve([]);
-    }
     if (paginateTables._pending) {
       return paginateTables._pending;
     }
@@ -678,6 +621,29 @@ const paginateTables =
           currentPage.push(tableId);
           currentPageHeight += table.clientHeight;
         } else {
+          // check if current page is not empty
+          if (currentPage.length) {
+          // get previous table
+          let previousTable;
+          if (tableNumbers.length > 2) {
+            previousTable = tableNumbers[tableNumbers.length - 2];
+          } else {
+            previousTable = tableId;
+          }
+              pages.push({
+                currentPage: currentPage[0],
+                pagesPerRow: pagesPerRow[pagesPerRow.length - 1],
+                tableId: previousTable,
+                test: 'tablet too big, starting new page',
+                firstVisibleElementId: tableId,
+              });
+              currentPage = [];
+              currentPageHeight = 0;
+          }
+
+
+
+
 ////// Check if the table has a caption and get its height
           const caption = table.querySelector("caption");
           let captionInnerHeight = caption
@@ -700,59 +666,12 @@ const paginateTables =
             captionMarginBottom
             : 0;
 
-          const firstRow = table.querySelector("tr");
-          let firstRowHeight = 0;
-          if (firstRow) {
-            let rowInnerHeight = firstRow.getBoundingClientRect().height;
-            let rowBorderHeight = firstRow.offsetHeight - firstRow.clientHeight;
-            let rowStyle = window.getComputedStyle(firstRow);
-            let rowMarginTop = rowStyle ? parseInt(rowStyle.marginTop) : 0;
-            let rowMarginBottom = rowStyle ? parseInt(rowStyle.marginBottom) : 0;
-            firstRowHeight =
-              rowInnerHeight + rowBorderHeight + rowMarginTop + rowMarginBottom;
-          }
-
-          const lastPageElementId = currentPage.length
-            ? currentPage[currentPage.length - 1]
-            : null;
-          const lastPageElement = lastPageElementId
-            ? document.getElementById(lastPageElementId)
-            : null;
-          const lastIsHeaderTable =
-            lastPageElement &&
-            ((lastPageElement.classList &&
-              lastPageElement.classList.contains("header-table")) ||
-              (lastPageElement.tagName &&
-                lastPageElement.tagName.toLowerCase() === "table" &&
-                lastPageElement.querySelector("caption.header-table")));
-          const treatHeaderAsCaption = lastIsHeaderTable && currentPage.length > 0;
-          const treatNoCaptionAsContinuation = !caption && currentPage.length > 0;
-          const allowCarryover = treatHeaderAsCaption || treatNoCaptionAsContinuation;
-
-          // check if current page is not empty
-          if (currentPage.length && !allowCarryover) {
-          // get previous table
-          let previousTable;
-          if (tableNumbers.length > 2) {
-            previousTable = tableNumbers[tableNumbers.length - 2];
-          } else {
-            previousTable = tableId;
-          }
-              pages.push({
-                currentPage: currentPage[0],
-                pagesPerRow: pagesPerRow[pagesPerRow.length - 1],
-                tableId: previousTable,
-                test: 'tablet too big, starting new page',
-                firstVisibleElementId: tableId,
-              });
-              currentPage = [];
-              currentPageHeight = 0;
-          }
-
           ////// check if table is class = onePage
           const tableClass = table.getAttribute("class");
           const isOnePage = table.classList.contains("onePage");
-          
+          if (table.classList.contains('table-invisible')) {
+            debugMessage('table-invisible class found');
+          }
           if (isOnePage && (table.clientHeight + currentPageHeight) >= viewportHeight) {
             // check if current page height play table height > viewport height
             if (currentPage.length) {
@@ -810,14 +729,14 @@ const paginateTables =
 
           }
 
-// Initial remainder for pages per row calculations
-let remainder = 0;
-
-// If adding the caption causes the page to exceed viewport height, start a new page
-if (caption && captionHeight) {
-            if (!treatHeaderAsCaption && currentPageHeight + captionHeight > viewportHeight) {
-              lastPageFirstVisibleElement = pages[pages.length - 1]?.firstVisibleElementId;
-              if (lastPageFirstVisibleElement !== tableId && currentPage[0]) {
+          // Initial remainder for pages per row calculations
+          let remainder = 0;
+          
+          // If adding the caption causes the page to exceed viewport height, start a new page
+          if (caption && captionHeight) {
+            if (currentPageHeight + captionHeight > viewportHeight) {
+              lastPageFirstVisibleElement = pages[pages.length - 1].firstVisibleElementId;
+              if (lastPageFirstVisibleElement !== tableId) {
                 pages.push({
                   currentPage: currentPage[0],
                   pagesPerRow: pagesPerRow[pagesPerRow.length - 1],
@@ -826,36 +745,17 @@ if (caption && captionHeight) {
                   firstVisibleElementId: tableId,
                 });
               }
-              currentPage = [];
-              currentPageHeight = 0;
           }
-            if (currentPage.length === 0) {
-              currentPage = [caption.id];
-              currentPageHeight = captionHeight; // Start the new page with the caption's height
-              pagesPerRow.push(1);
-            } else {
-              currentPage.push(caption.id);
-              currentPageHeight += captionHeight;
-            }
+            currentPage = [caption.id];
+            currentPageHeight = captionHeight; // Start the new page with the caption's height
+            pagesPerRow.push(1);
           }
 
 /////// Check if the table has a tbody with scaling-container class
           if (table.querySelector("tbody.scaling-container")) {
-            const isOnePage = table.classList.contains("onePage");
           //sendMessage(JSON.stringify({type: 'debug', data: 'scaling container'}));
             const captionHeightCache = new Map();
             const tbodyHeightCache = new Map();
-            // Reset pagination accumulators for this scaling table
-            remainder = 0;
-            pagesPerRow = [1];
-            if (caption && captionHeight) {
-              // Start the table on the caption; do not push a page unless there was prior content
-              currentPage = [caption.id];
-              currentPageHeight = captionHeight;
-            } else {
-              currentPage = [];
-              currentPageHeight = 0;
-            }
             const meta = (window.tableMetadata && window.tableMetadata[tableId]) || null;
             const tbodies = meta
               ? meta.tbodies.map((tb) => document.getElementById(tb.id)).filter(Boolean)
@@ -879,7 +779,7 @@ if (caption && captionHeight) {
                 const cachedSize = cachedSizes.fontSizes ? cachedSizes.fontSizes[tbody.id] : null;
                 if (cachedSize) {
                   tbody.style.fontSize = cachedSize;
-                  if (isOnePage && index === 0 && caption && cachedSizes.captionSize) {
+                  if (index === 0 && caption && cachedSizes.captionSize) {
                     caption.style.fontSize = cachedSizes.captionSize;
                   }
                 }
@@ -893,17 +793,9 @@ if (caption && captionHeight) {
               let tbodyHeight = tbodyHeightCache.has(tbody.id)
                 ? tbodyHeightCache.get(tbody.id)
                 : tbody.clientHeight;
-              const isFirstBody = index === 0 && caption;
-              const captionBaseSize = caption
-                ? parseFloat(window.getComputedStyle(caption, null).getPropertyValue("font-size"))
-                : null;
-              const tbodyBaseSize = parseFloat(
-                window.getComputedStyle(tbody, null).getPropertyValue("font-size")
-              );
-              const captionDelta =
-                captionBaseSize != null && tbodyBaseSize
-                  ? captionBaseSize - tbodyBaseSize
-                  : null;
+              const tbodyIdComponents = tbody.id.split("_");
+              const tbodyId = tbodyIdComponents[3];
+              const isFirstBody = tbodyId == 0 && caption;
 
               // Early exit if the desired CSS size already fits
               const initialHeight = isFirstBody ? tbodyHeight + captionHeightLocal : tbodyHeight;
@@ -914,7 +806,6 @@ if (caption && captionHeight) {
                 let low = minFontSize;
                 let high = maxFontSize;
                 let lastGoodSize = minFontSize;
-                let appliedCaptionSize = null;
                 const maxIterations = 8; // Bounded iterations to limit reflows
 
                 for (let i = 0; i < maxIterations; i++) {
@@ -924,19 +815,8 @@ if (caption && captionHeight) {
                   const mid = (low + high) / 2;
                   const newFontSize = mid + "px";
 
-                  if (isOnePage && isFirstBody) {
-                    if (captionDelta != null) {
-                      const capSize = Math.max(1, mid + captionDelta);
-                      appliedCaptionSize = capSize + "px";
-                      caption.style.fontSize = appliedCaptionSize;
-                    } else if (captionBaseSize && tbodyBaseSize) {
-                      const scale = mid / tbodyBaseSize;
-                      appliedCaptionSize = captionBaseSize * scale + "px";
-                      caption.style.fontSize = appliedCaptionSize;
-                    } else {
-                      appliedCaptionSize = newFontSize;
-                      caption.style.fontSize = appliedCaptionSize;
-                    }
+                  if (isFirstBody) {
+                    caption.style.fontSize = newFontSize;
                   }
                   tbody.style.fontSize = newFontSize;
 
@@ -957,19 +837,8 @@ if (caption && captionHeight) {
 
                 // Apply the largest size that fit
                 const finalSize = lastGoodSize + "px";
-                if (isOnePage && isFirstBody) {
-                  if (captionDelta != null) {
-                    const capSizeFinal = Math.max(1, lastGoodSize + captionDelta);
-                    appliedCaptionSize = capSizeFinal + "px";
-                    caption.style.fontSize = appliedCaptionSize;
-                  } else if (captionBaseSize && tbodyBaseSize) {
-                    const scaleFinal = lastGoodSize / tbodyBaseSize;
-                    appliedCaptionSize = captionBaseSize * scaleFinal + "px";
-                    caption.style.fontSize = appliedCaptionSize;
-                  } else {
-                    appliedCaptionSize = finalSize;
-                    caption.style.fontSize = appliedCaptionSize;
-                  }
+                if (isFirstBody) {
+                  caption.style.fontSize = finalSize;
                 }
                 tbody.style.fontSize = finalSize;
 
@@ -1001,41 +870,17 @@ if (caption && captionHeight) {
                 currentPageHeight = captionHeightLocal;
               }
 
-              // Ensure caption stays in sync with tbody size (even if no resize occurred)
-              if (isFirstBody && caption && (captionDelta != null || appliedSize || tbodyBaseSize)) {
-                const bodySizeNum = appliedSize
-                  ? parseFloat(appliedSize)
-                  : parseFloat(tbody.style.fontSize) || tbodyBaseSize;
-                if (bodySizeNum) {
-                  const capSizeNum =
-                    captionDelta != null ? Math.max(1, bodySizeNum + captionDelta) : bodySizeNum;
-                  const capSizeStr = capSizeNum + "px";
-                  caption.style.fontSize = capSizeStr;
-                }
-              }
-
               // Track sizes for cache
               if (!appliedSize) {
                 appliedSize = tbody.style.fontSize || (maxFontSize + "px");
               }
               fontSizesForCache[tbody.id] = appliedSize;
               if (index === 0 && caption) {
-                const appliedCaption =
-                  caption.style.fontSize ||
-                  (function () {
-                    const bodySizeNum = appliedSize ? parseFloat(appliedSize) : tbodyBaseSize;
-                    if (!bodySizeNum) return null;
-                    if (captionDelta != null) {
-                      return Math.max(1, bodySizeNum + captionDelta) + "px";
-                    }
-                    return bodySizeNum + "px";
-                  })() ||
-                  appliedSize;
-                fontSizesForCache._captionSize = appliedCaption;
+                fontSizesForCache._captionSize = caption.style.fontSize || appliedSize;
               }
 
               // Check if the tbody fits in the remaining space of the current page
-              if ((isFirstBody && caption && tbodyHeight <= viewportHeight) ||
+              if ((tbodyId == 0 && caption && tbodyHeight <= viewportHeight) ||
                   (currentPageHeight + tbodyHeight <= viewportHeight))
                 {
                     currentPage.push(tbody.id);
@@ -1067,7 +912,6 @@ if (caption && captionHeight) {
            
 ///// Query all rows in the table
 
-          const rowOverlapPx = 20; // small overlap to avoid cutting a line between pages
           table.querySelectorAll("tr").forEach((row) => {
             let rowInnerHeight = row ? row.getBoundingClientRect().height : 0;
             let rowBorderHeight = row ? row.offsetHeight - row.clientHeight : 0;
@@ -1076,7 +920,6 @@ if (caption && captionHeight) {
             let rowMarginBottom = rowStyle ? parseInt(rowStyle.marginBottom) : 0;
             let rowPaddingBottom = rowStyle ? parseInt(rowStyle.paddingBottom) : 0;
             const rowHeight = row ? rowInnerHeight + rowBorderHeight + rowMarginTop + rowMarginBottom : 0;
-            const effectiveViewport = Math.max(0, viewportHeight - rowOverlapPx);
 
             // Check if the previous row was a multi page row
             if (pagesPerRow[pagesPerRow.length - 1] > 1) {
@@ -1094,10 +937,9 @@ if (caption && captionHeight) {
 
                 // Check if the row height is greater than the viewport height
                 if (rowHeight >= viewportHeight) {
-                  const sliceHeight = Math.max(1, effectiveViewport);
-                  pagesPerRow.push(Math.ceil((rowHeight - rowPaddingBottom) / sliceHeight));
-                  fullPages = Math.floor(rowHeight / sliceHeight);
-                  remainder = rowHeight - fullPages * sliceHeight + rowOverlapPx; // small overlap to avoid cutting a line
+                  pagesPerRow.push(Math.ceil((rowHeight - rowPaddingBottom) / (viewportHeight + 1)));
+                  fullPages = Math.floor(rowHeight / viewportHeight);
+                  remainder = rowHeight - fullPages * viewportHeight; // Calculate the height remaining after all full pages.
                   currentPage = [row.id];
                   currentPageHeight = remainder;
                 } else {
@@ -1112,10 +954,9 @@ if (caption && captionHeight) {
                 currentPage.push(row.id);
                 currentPageHeight += rowHeight;
               } else if (caption && currentPage[0] && currentPage.length === 1 && currentPage[0] === caption.id && currentPageHeight + rowHeight >= viewportHeight) {
-                const sliceHeight = Math.max(1, effectiveViewport);
-                pagesPerRow.push(Math.ceil((currentPageHeight + rowHeight - rowPaddingBottom) / sliceHeight));
-                fullPages = Math.floor((rowHeight - rowPaddingBottom + captionHeight) / sliceHeight);
-                remainder = rowHeight + captionHeight - fullPages * sliceHeight + rowOverlapPx; // overlap to avoid cutting a line
+                pagesPerRow.push(Math.ceil((currentPageHeight + rowHeight - rowPaddingBottom) / (viewportHeight + 1)));
+                fullPages = Math.floor((rowHeight - rowPaddingBottom + captionHeight) /(viewportHeight + 1));
+                remainder = rowHeight + captionHeight - fullPages * viewportHeight; // Calculate the height remaining after all full pages.
                 currentPage.push(row.id);
                 currentPageHeight = remainder;
               } else if (rowHeight - rowPaddingBottom >= viewportHeight + 1) {
@@ -1127,11 +968,10 @@ if (caption && captionHeight) {
                   firstVisibleElementId: row.id,
                 });
 
-                const sliceHeight = Math.max(1, effectiveViewport);
-                pagesPerRow.push(Math.ceil((rowHeight - rowPaddingBottom) / sliceHeight));
+                pagesPerRow.push(Math.ceil((rowHeight - rowPaddingBottom) / (viewportHeight + 1)));
 
-                fullPages = Math.floor((rowHeight - rowPaddingBottom) / sliceHeight);
-                remainder = rowHeight - fullPages * sliceHeight + rowOverlapPx; // overlap to avoid cutting a line
+                fullPages = Math.floor((rowHeight - rowPaddingBottom) / (viewportHeight + 1));
+                remainder = rowHeight - fullPages * viewportHeight; // Calculate the height remaining after all full pages.
                 currentPage = [row.id];
                 currentPageHeight = remainder;
               } else {
@@ -1245,57 +1085,22 @@ if (caption && captionHeight) {
 
       }
       // Safely log the next element's ID
-        if (currentPage[0]) {
-          pages.push({
-            currentPage: currentPage[0],
-            pagesPerRow: pagesPerRow[pagesPerRow.length - 1],
-            tableId: tableId,
-            test: 'remainder for element',
-            firstVisibleElementId: nextElementInClassId,
-          });
-          pagesPerRow.push(1);
-        }
-        currentPage = [];
-        currentPageHeight = 0;
+      pages.push({
+        currentPage: currentPage[0],
+        pagesPerRow: pagesPerRow[pagesPerRow.length - 1],
+        tableId: tableId,
+        test: 'remainder for element',
+        firstVisibleElementId: nextElementInClassId,
+      });
+      pagesPerRow.push(1);
+      currentPage = [];
+      currentPageHeight = 0;
     }
   });
 
   // Convert pages data to an array of Y-offsets for React Native to consume.
-  const rowOverlapPx = 20;
-  const filteredPages = [];
-  pages.forEach((page) => {
-    if (!page || !page.currentPage) {
-      sendMessage(
-        JSON.stringify({
-          type: 'debug',
-          data:
-            'paginateTables: dropping page with no currentPage table=' +
-            (page && page.tableId ? page.tableId : ''),
-        })
-      );
-      return;
-    }
-    const fid = page.firstVisibleElementId || page.currentPage;
-    const exists =
-      document.getElementById(fid) || document.getElementById(page.currentPage);
-    if (!exists) {
-      sendMessage(
-        JSON.stringify({
-          type: 'debug',
-          data:
-            'paginateTables: dropping page with missing element table=' +
-            (page && page.tableId ? page.tableId : '') +
-            ' fid=' +
-            fid,
-        })
-      );
-      return;
-    }
-    filteredPages.push(page);
-  });
-
   let yOffsetPages = [];
-  filteredPages.forEach((page) => {
+  pages.forEach((page) => {
     const element = document.getElementById(page.currentPage);
     const pagesinRow = page.pagesPerRow;
     const tableId = page.tableId;
@@ -1308,7 +1113,7 @@ if (caption && captionHeight) {
 
         // If the row spans more than one viewport, add additional offsets
         for (let i = 0; i < pagesinRow; i++) {
-          increment = yOffset + i * (viewportHeight - rowOverlapPx); // Increase by the effective page height for each subsequent page
+          increment = yOffset + i * viewportHeight; // Increase by the height of the viewport for each subsequent page
 
           yOffsetPages.push({ yOffset: increment, tableId: tableId, firstVisibleElementId: firstVisibleElementId });
         }
@@ -1321,63 +1126,6 @@ if (caption && captionHeight) {
   });
   // Cache pagination result for reuse when layout is unchanged
   paginateTables._paginationCache[paginationCacheKey] = yOffsetPages;
-
-  // Debug pagination payload (kept for future troubleshooting)
-  // try {
-  //   const debugSummary = {
-  //     type: 'debug',
-  //     data: {
-  //       paginationSummary: {
-  //         filteredPagesCount: filteredPages.length,
-  //         yOffsetCount: yOffsetPages.length,
-  //         firstOffsets: yOffsetPages.slice(0, 10).map((entry, idx) =>
-  //           [
-  //             idx,
-  //             entry.tableId,
-  //             entry.firstVisibleElementId,
-  //             Math.round(entry.yOffset),
-  //           ].join('|')
-  //         ),
-  //         lastOffsets: yOffsetPages.slice(-10).map((entry, idx) =>
-  //           [
-  //             yOffsetPages.length - 10 + idx,
-  //             entry.tableId,
-  //             entry.firstVisibleElementId,
-  //             Math.round(entry.yOffset),
-  //           ].join('|')
-  //         ),
-  //         tableCounts: (() => {
-  //           const counts = {};
-  //           yOffsetPages.forEach((p) => {
-  //             const key = p.tableId || 'unknown';
-  //             counts[key] = (counts[key] || 0) + 1;
-  //           });
-  //           return Object.keys(counts)
-  //             .slice(0, 12)
-  //             .map((k) => {
-  //               const tableEl = document.getElementById(k);
-  //               const titleAttr = tableEl ? tableEl.getAttribute('title') : '';
-  //               const captionEl = tableEl ? tableEl.querySelector('.caption') : null;
-  //               const fallback = captionEl && captionEl.textContent ? captionEl.textContent.trim() : '';
-  //               const title = titleAttr || fallback;
-  //               return k + ':' + counts[k] + (title ? ':' + title : '');
-  //             });
-  //         })(),
-  //         allOffsets: yOffsetPages.map((entry, idx) =>
-  //           [
-  //             idx,
-  //             entry.tableId,
-  //             entry.firstVisibleElementId,
-  //             Math.round(entry.yOffset),
-  //           ].join('|')
-  //         ),
-  //       },
-  //     },
-  //   };
-  //   sendMessage(JSON.stringify(debugSummary));
-  // } catch (e) {
-  //   // ignore logging errors
-  // }
   sendMessage(JSON.stringify({ type: 'PAGINATION_DATA', data: yOffsetPages }));
 
   // Adjust overlay with the first visible element
@@ -1401,7 +1149,7 @@ if (caption && captionHeight) {
 } `
 
 
-/* Pagination glorification
+// Pagination glorification
 const paginateTablesGlorification =
 `function paginateTables() {
   const viewportHeight = window.innerHeight;
@@ -1411,20 +1159,6 @@ const paginateTablesGlorification =
   let tableId = "table_0";
 
   document.querySelectorAll('table').forEach(table => {
-    // Flush any pending page state from the previous table to avoid carryover (can revert if it causes regression)
-    const prevTableId = tableId;
-    if (currentPage.length) {
-      pages.push({
-        currentPage: currentPage[0],
-        pagesPerRow: pagesPerRow[pagesPerRow.length - 1],
-        tableId: prevTableId,
-        firstVisibleElementId: currentPage[0],
-        test: 'flush-prev-table',
-      });
-    }
-    currentPage = [];
-    currentPageHeight = 0;
-    pagesPerRow = [1];
     tableId = table.id;
 
   
@@ -1444,7 +1178,6 @@ const paginateTablesGlorification =
       }
 
       table.querySelectorAll('tbody').forEach(tbody => {
-          const isOnePage = table.classList.contains("onePage");
           let  tbodyHeight = tbody.clientHeight;
           let tbodyIdComponents = tbody.id.split("_");
           let tbodyId = tbodyIdComponents[3];
@@ -1460,7 +1193,7 @@ const paginateTablesGlorification =
             let newFontSize = midFontSize + 'px';
           
             // Change the font size of tbody and possibly caption
-            if (isOnePage && tbodyId == 0 && caption) {
+            if (tbodyId == 0 && caption) {
               caption.style.fontSize = newFontSize;
             }
             tbody.style.fontSize = newFontSize;
@@ -1550,14 +1283,11 @@ const paginateTablesGlorification =
   
       
   sendMessage(JSON.stringify({ type: 'PAGINATION_DATA', data: yOffsetPages }));
-}`*/
+}`
 
 // Overlay functions
 const adjustOverlay =
 `function adjustOverlay(elementId) {
-  if (window._scrollMode) {
-    return;
-  }
   // Early exit if nothing to do
   if (!elementId && !window._lastOverlayElementId) {
     return;
@@ -1842,16 +1572,10 @@ const tableToggle =
     const table = document.getElementById(tableId);
 
     if (table) {
-      const stableId = table.getAttribute('data-table-id') || tableId;
       showSpinner();
       document.getElementById('spinner-overlay').style.backgroundColor = 'rgba(20,20,20,0.8)';
 
       const tableBodies = table.getElementsByTagName('tbody');
-
-      if (tableBodies.length === 0) {
-        hideSpinner();
-        return;
-      }
 
       if (tableBodies.length > 0) {
         Array.from(tableBodies).forEach(tbody => {
@@ -1859,7 +1583,7 @@ const tableToggle =
           tbody.style.display = isHidden ? 'table-row-group' : 'none';
           captionElement.classList.toggle('table-invisible', !isHidden); // Use the passed captionElement
           table.classList.toggle('table-invisible', !isHidden);
-          currentFileStates[stableId] = isHidden;
+          currentFileStates[tableId] = isHidden;
           savedStates[fileKey] = currentFileStates;
           sendMessage(JSON.stringify({ type: 'setStoredItem', data: { key: 'tableStates', value: savedStates } }));
 
@@ -1874,14 +1598,13 @@ const tableToggle =
             }
 
             const nextTable = document.getElementById(nextTableId);
+            nextTable.classList.toggle('table-invisible', !isHidden);
             if (nextTable) {
-              const nextStableId = nextTable.getAttribute('data-table-id') || nextTableId;
-              nextTable.classList.toggle('table-invisible', !isHidden);
               const nextTableBodies = nextTable.getElementsByTagName('tbody');
               Array.from(nextTableBodies).forEach(nextTbody => {
                 nextTbody.style.display = isHidden ? 'table-row-group' : 'none';
               });
-              currentFileStates[nextStableId] = isHidden;
+              currentFileStates[nextTableId] = isHidden;
               savedStates[fileKey] = currentFileStates;
               sendMessage(JSON.stringify({ type: 'setStoredItem', data: { key: 'tableStates', value: savedStates } }));
             }
@@ -1889,15 +1612,13 @@ const tableToggle =
         });
 
         setTimeout(() => {
-          if (!window._scrollMode) {
-            if (paginateTables && typeof paginateTables.clearFontCache === 'function') {
-              paginateTables.clearFontCache();
-            }
-            if (paginateTables && typeof paginateTables.clearPaginationCache === 'function') {
-              paginateTables.clearPaginationCache();
-            }
-            paginateTables();
+          if (paginateTables && typeof paginateTables.clearFontCache === 'function') {
+            paginateTables.clearFontCache();
           }
+          if (paginateTables && typeof paginateTables.clearPaginationCache === 'function') {
+            paginateTables.clearPaginationCache();
+          }
+          paginateTables();
           sendMessage(JSON.stringify({ type: 'TABLE_TOGGLE', data: tableId }));
           hideSpinner();
         }, 100);
@@ -1912,56 +1633,34 @@ const loadStoredSettings = `
 async function loadStoredSettings(currentFileStates) {
     return new Promise((resolve, reject) => {
         try {
+            const tableCaptions = document.querySelectorAll('.caption');
             const tables = document.querySelectorAll('table');
-            const hasOwn = Object.prototype.hasOwnProperty;
-            let shouldPersist = false;
 
-            tables.forEach(table => {
-                if (!table) return;
-                const caption = table.querySelector('caption');
-                const hasHiddenCaption =
-                    caption && caption.classList.contains('hidden-caption');
-                const hasCaption = !!caption;
-                const hasNavLink = !!table.querySelector('tr.navigationLink');
-                const tableBodies = table.getElementsByTagName('tbody');
-                if (hasHiddenCaption || hasNavLink || !hasCaption) {
-                    table.classList.remove('table-invisible');
-                    if (caption) {
-                        caption.classList.remove('table-invisible');
-                    }
-                    Array.from(tableBodies).forEach(tbody => {
-                        tbody.style.display = 'table-row-group';
-                    });
-                    return;
-                }
-
-                const stableId = table.getAttribute('data-table-id') || table.id;
-                let isVisible;
-                if (hasOwn.call(currentFileStates, stableId)) {
-                    isVisible = currentFileStates[stableId];
-                }
-
-                if (typeof isVisible === 'boolean') {
+            // Apply the saved state to captions
+            Object.entries(currentFileStates).forEach(([tableId, isVisible]) => {
+                const caption = document.getElementById('caption_' + tableId);
+                const table = document.getElementById(tableId);
+                if (table) {
                     table.classList.toggle('table-invisible', !isVisible);
-                    if (caption) {
-                        caption.classList.toggle('table-invisible', !isVisible);
-                    }
                 }
-                if (table.classList.contains('table-invisible')) {
+                if (caption) {
+                    caption.classList.toggle('table-invisible', !isVisible);
+                }
+            });
+            //
+            tables.forEach(table => {
+                if (table && table.classList.contains('table-invisible')) {
+                    const tableBodies = table.getElementsByTagName('tbody');
                     Array.from(tableBodies).forEach(tbody => {
                         tbody.style.display = 'none';
                     });
-                } else {
+                } else if (table) {
+                    const tableBodies = table.getElementsByTagName('tbody');
                     Array.from(tableBodies).forEach(tbody => {
                         tbody.style.display = 'table-row-group';
                     });
                 }
             });
-
-            if (shouldPersist) {
-                savedStates[fileKey] = currentFileStates;
-                sendMessage(JSON.stringify({ type: 'setStoredItem', data: { key: 'tableStates', value: savedStates } }));
-            }
 
             
             // Resolve the promise after the operation is complete
@@ -2090,5 +1789,5 @@ function hideSpinner() {
 export { 
   initialize , dynamicTableClasses , handleTouchNavigation , arabicNumbers , disableScrolling , extractTableTitlesAndIds , 
   sendMessage , setOverlays , clearOverlays, adjustOverlay , adjustOverlayGlorification , paginateTables , 
- showBlackScreen , removeBlackScreen , tableToggle , listenToButtonClicks , listenToPopupButtonClicks ,
+  paginateTablesGlorification , showBlackScreen , removeBlackScreen , tableToggle , listenToButtonClicks , listenToPopupButtonClicks ,
   handleSpinner , bookNavigationButtons , loadStoredSettings};

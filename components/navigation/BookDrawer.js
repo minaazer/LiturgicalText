@@ -92,20 +92,6 @@ const RightDrawerContent = React.forwardRef(
       return itemsCopy;
     }, [filteredItems, sortOption]);
 
-    const currentItem = useMemo(
-      () => drawerItems.find((item) => item.id === currentTable),
-      [drawerItems, currentTable]
-    );
-    const currentTitle =
-      currentItem?.title?.english ||
-      currentItem?.title?.arabic ||
-      currentItem?.title?.coptic ||
-      currentItem?.id ||
-      "";
-    const parentState = navigation.getParent()?.getState?.();
-    const currentScreenName =
-      parentState?.routes?.[parentState.index || 0]?.name || "";
-
     useEffect(() => {
       const activeItemIndex = drawerItems.findIndex(
         (item) => item.id === currentTable
@@ -129,14 +115,12 @@ const RightDrawerContent = React.forwardRef(
         style={presentationStyles.backgroundImage}
         resizeMode="repeat"
       >
-        <View style={presentationStyles.bookDrawerContainer}>
-          <DrawerContentScrollView
-            ref={scrollViewRef}
-            style={presentationStyles.bookDrawerContentScrollView}
-            contentContainerStyle={presentationStyles.bookDrawerContentContainer}
-            {...props}
-          >
-            <View style={presentationStyles.searchContainer}>
+        <DrawerContentScrollView
+          ref={scrollViewRef}
+          style={presentationStyles.bookDrawerContentScrollView}
+          {...props}
+        >
+          <View style={presentationStyles.searchContainer}>
             <View style={presentationStyles.sortContainer}>
               <TouchableOpacity
                 onPress={() => setSortOption("english")}
@@ -189,7 +173,7 @@ const RightDrawerContent = React.forwardRef(
             />
           </View>
 
-            {sortedItems.map((item, index) => {
+          {sortedItems.map((item, index) => {
             const isActive = item.id === currentTable;
             const bookChapterInfo = extractBookAndChapter(item.title.english);
 
@@ -303,31 +287,8 @@ const RightDrawerContent = React.forwardRef(
                 )}
               </View>
             );
-            })}
-          </DrawerContentScrollView>
-          <View style={presentationStyles.reportDrawerFooter}>
-            <TouchableOpacity
-              style={presentationStyles.reportDrawerFooterButton}
-              onPress={() => {
-                const parentNav = navigation.getParent();
-                if (parentNav?.navigate) {
-                  parentNav.navigate("ReportIssue", {
-                    context: {
-                      screenName: currentScreenName,
-                      tableId: currentTable,
-                      tableTitle: currentTitle,
-                    },
-                  });
-                }
-                navigation.closeDrawer();
-              }}
-            >
-              <Text style={presentationStyles.reportDrawerFooterText}>
-                Report Section Fix/Update
-              </Text>
-            </TouchableOpacity>
-          </View>
-        </View>
+          })}
+        </DrawerContentScrollView>
       </ImageBackground>
     );
   }

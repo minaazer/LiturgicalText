@@ -1,6 +1,5 @@
 /** @format */
 
-import { get } from "react-native/Libraries/TurboModule/TurboModuleRegistry.js";
 import { copticSaintFeasts } from "./synexarium.js";
 
 // Helper function to determine if a year is a leap year (in the Julian/Gregorian sense)
@@ -675,7 +674,8 @@ function getDynamicFeastDates(gregorianYear) {
       visible: true,
     },
     {
-      date: lentStart,
+      start: lentStart,
+      end: lentEnd,
       season: "First Monday of the Great Fast",
       priority: 2,
       visible: false,
@@ -1090,112 +1090,6 @@ function isSunday(date) {
   return date.getDay() === 0; // Sunday is represented by 0 in JavaScript's Date object
 }
 
-// function to determine abstaining day
-function getAbstainingDay(copticSeason, weekdayWeekend, dayOfWeekIndex) {
-  const seasons = Array.isArray(copticSeason)
-    ? copticSeason
-    : copticSeason
-    ? [copticSeason]
-    : [];
-
-  if (seasons.some((season) => String(season).includes("Joyous Saturday"))) {
-    return true; // Abstaining on Joyous Saturday
-  }
-  else if (weekdayWeekend === 'weekend') { 
-    return false; // No abstaining on weekends
-  } 
-  else {
-    const excludedSeasons = [
-      "Holy 50 Days - Before Ascension",
-      "Holy 50 Days - After Ascension",
-    ];
-    const isExcludedSeason = seasons.some((season) =>
-      excludedSeasons.includes(season)
-    );
-    const isWedOrFri = dayOfWeekIndex === 3 || dayOfWeekIndex === 5;
-    if (isWedOrFri && !isExcludedSeason) {
-      return true;
-    }
-
-    const abstainingSeasons = [
-    "Great Fast",
-    "Feast of the Nativity Paramoun",
-    "Feast of the Theophany Paramoun",
-    "Nativity Fast - Advent",
-    "Apostles' Fast",
-  ];
-  return seasons.some((season) => abstainingSeasons.includes(season));
-}
-}
-
-function enrichCopticSeasons(copticSeason, weekdayWeekend) {
-  const seasons = Array.isArray(copticSeason)
-    ? copticSeason
-    : copticSeason
-    ? [copticSeason]
-    : [];
-  const seasonSet = new Set(seasons);
-
-  if (seasonSet.has("Great Fast")) {
-    seasonSet.add(
-      weekdayWeekend === "weekend"
-        ? "Great Fast Weekends"
-        : "Great Fast Weekdays"
-    );
-  }
-
-  const feastDays = [
-    "Feast of the Nativity",
-    "2nd Day of Nativity",
-    "Nativity Season",
-    "Feast of the Circumcision",
-    "Feast of the Theophany",
-    "2nd Day of Theophany",
-    "Feast of the Wedding at Cana of Galilee",
-    "Joyful 29th of the Month",
-    "Feast of the Cross",
-    "Hosanna Sunday",
-    "Feast of the Annunciation",
-    "Feast of the Resurrection",
-    "Holy 50 Days - Before Ascension",
-    "Holy 50 Days - After Ascension",
-    "Feast of the Ascension",
-    "Feast of Pentecost",
-    "Entrance of the Lord Christ into the Land of Egypt",
-    "Feast of the Transfiguration",
-    "Nayrouz (Coptic New Year)",
-    "Nayrouz Festive Season",
-  ];
-  if (seasons.some((season) => feastDays.includes(season))) {
-    seasonSet.add("Feast Day");
-  }
-
-  const feastsOfTheLord = [
-    "Feast of the Nativity",
-    "2nd Day of Nativity",
-    "Nativity Season",
-    "Feast of the Circumcision",
-    "Feast of the Theophany",
-    "2nd Day of Theophany",
-    "Feast of the Wedding at Cana of Galilee",
-    "Joyful 29th of the Month",
-    "Hosanna Sunday",
-    "Feast of the Annunciation",
-    "Feast of the Resurrection",
-    "Holy 50 Days - Before Ascension",
-    "Holy 50 Days - After Ascension",
-    "Feast of the Ascension",
-    "Feast of Pentecost",
-    "Entrance of the Lord Christ into the Land of Egypt",
-    "Feast of the Transfiguration",
-  ];
-  if (seasons.some((season) => feastsOfTheLord.includes(season))) {
-    seasonSet.add("Feast of the Lord");
-  }
-
-  return Array.from(seasonSet);
-}
-
 // function to get selectedDate properties
 function getSelectedDateProperties(selectedDate, dayTransitionTime) {
   // get the date in the current time zone
@@ -1206,22 +1100,13 @@ function getSelectedDateProperties(selectedDate, dayTransitionTime) {
   const adjustedDate = getAdjustedDate(gregorianDate, dayTransitionTime);
   const copticDate = gregorianToCoptic(adjustedDate);
   const copticSeasons = getCopticSeasons(adjustedDate.getFullYear());
-  let copticSeason = findCopticSeason(adjustedDate, copticSeasons);
+  const copticSeason = findCopticSeason(adjustedDate, copticSeasons);
   const saintFeast = findSaintFeast(copticDate);
   const dayOfWeek = adjustedDate.getDay();
   const isAdam = dayOfWeek >= 0 && dayOfWeek <= 2;
   const adamOrWatos = isAdam ? "Adam" : "Watos";
   const aktonkAki = getAktonkAki(adjustedDate, copticSeasons, copticDate);
   const dayOfWeekIndex = adjustedDate.getDay();
-  const weekdayWeekend = dayOfWeekIndex === 0 || dayOfWeekIndex === 6 ? 'weekend' : 'weekday';
-  copticSeason = enrichCopticSeasons(copticSeason, weekdayWeekend);
-  const abstainingDay = getAbstainingDay(
-    copticSeason,
-    weekdayWeekend,
-    dayOfWeekIndex
-  );
-  console.log("Abstaining Day:", abstainingDay);
-  console.log("Coptic Season:", copticSeason);
 
   return {
     gregorianDate,
@@ -1232,8 +1117,6 @@ function getSelectedDateProperties(selectedDate, dayTransitionTime) {
     dayOfWeekIndex,
     aktonkAki,
     adjustedDate,
-    weekdayWeekend,
-    abstainingDay,
   };
 }
 

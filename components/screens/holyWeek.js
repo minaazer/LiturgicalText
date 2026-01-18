@@ -2,7 +2,7 @@
 
 // screens/Home.js
 
-import React, { useEffect, useState } from "react";
+import React from "react";
 import {
   ImageBackground,
   View,
@@ -15,26 +15,12 @@ import { useNavigation } from "@react-navigation/native";
 import backgroundImage from "../../assets/background.png";
 import { presentationStyles } from "../css/presentationStyles";
 import HolyWeekData from "../../data/jsons/holyWeek.json";
-import { getJson } from "../functions/jsonCache";
 
 const HolyWeek = () => {
   const navigation = useNavigation();
   const { width, height } = useWindowDimensions();
   const isPortrait = height >= width;
   const isCompactPortrait = isPortrait && width < 450;
-  const [holyWeekJson, setHolyWeekJson] = useState(HolyWeekData);
-
-  useEffect(() => {
-    let isMounted = true;
-    getJson("holyWeek.json", HolyWeekData).then((data) => {
-      if (isMounted && data) {
-        setHolyWeekJson(data);
-      }
-    });
-    return () => {
-      isMounted = false;
-    };
-  }, []);
 
   return (
     <View style={{ flex: 1 }}>
@@ -87,7 +73,7 @@ const HolyWeek = () => {
                   { flexGrow: 1, justifyContent: "center" },
                 ]}
               >
-                {holyWeekJson.map((item, index) => (
+                {HolyWeekData.map((item, index) => (
                   <TouchableOpacity
                     key={index}
                     style={presentationStyles.itemContainer}

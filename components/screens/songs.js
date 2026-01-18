@@ -2,7 +2,7 @@
 
 // screens/Home.js
 
-import React, { useEffect, useState } from "react";
+import React from "react";
 import {
   ImageBackground,
   View,
@@ -15,36 +15,21 @@ import backgroundImage from "../../assets/background.png";
 import { ScrollView } from "react-native";
 import { presentationStyles } from "../css/presentationStyles";
 import songsData from "../../data/jsons/songs.json";
-import { getJson } from "../functions/jsonCache";
 
 const Songs = () => {
   const navigation = useNavigation();
   const { width, height } = useWindowDimensions();
   const isPortrait = height >= width;
   const isCompactPortrait = isPortrait && width < 450;
-  const [songsJson, setSongsJson] = useState(songsData);
-
-  useEffect(() => {
-    let isMounted = true;
-    getJson("songs.json", songsData).then((data) => {
-      if (isMounted && data) {
-        setSongsJson(data);
-      }
-    });
-    return () => {
-      isMounted = false;
-    };
-  }, []);
-
 const themes = Array.from(
   new Set(
-    songsJson.flatMap(song => song.themes || [])
+    songsData.flatMap(song => song.themes || [])
   )
 ).sort();
 
 const seenTitles = new Set();
 
-const SongsList = songsJson
+const SongsList = songsData
   .filter(song => {
     const title = song.english_title || "";
     if (seenTitles.has(title)) return false;

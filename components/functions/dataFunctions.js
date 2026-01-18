@@ -7,8 +7,12 @@ import annualRepeatedPrayersData from "../../data/jsons/repeatedPrayers/annualRe
 import seasonalRepeatedPrayersData from "../../data/jsons/repeatedPrayers/seasonalRepeatedPrayers.json";
 import seasonalPraisesData from "../../data/jsons/psalmody/seasonalPraises.json";
 import repeatedAgpeyaPrayersData from "../../data/jsons/repeatedPrayers/repeatedAgpeyaPrayers.json";
-import { getJsonSync } from "./jsonCache";
-import { loadIconVariables, iconVariablesFallback } from "../../data/iconVariables";
+import {
+  book,
+  musicalNote,
+  playPause,
+} from "../../data/iconVariables";
+
 /**
  * @typedef {Record<string, string | number | boolean | null | undefined>} TemplateVars
  */
@@ -42,8 +46,6 @@ import { loadIconVariables, iconVariablesFallback } from "../../data/iconVariabl
 
 /**
  * @typedef {Object} HtmlTable
- * @property {string=} table_id
- * @property {string=} tableId
  * @property {string=} english_title
  * @property {string=} english_caption
  * @property {string=} arabic_title
@@ -81,44 +83,25 @@ import { loadIconVariables, iconVariablesFallback } from "../../data/iconVariabl
  * @property {TableRow[]} rows
  */
 
-const getRepeatedPrayersSources = () => ({
-  "Holy Week": getJsonSync(
-    "repeatedPrayers/hwRepeatedPrayers.json",
-    hwRepeatedPrayersData
-  ),
-  Annual: getJsonSync(
-    "repeatedPrayers/annualRepeatedPrayers.json",
-    annualRepeatedPrayersData
-  ),
-  Seasonal: getJsonSync(
-    "repeatedPrayers/seasonalRepeatedPrayers.json",
-    seasonalRepeatedPrayersData
-  ),
-  "Seasonal Praises": getJsonSync(
-    "psalmody/seasonalPraises.json",
-    seasonalPraisesData
-  ),
-  "Agpeya Prayers": getJsonSync(
-    "repeatedPrayers/repeatedAgpeyaPrayers.json",
-    repeatedAgpeyaPrayersData
-  ),
-});
+const repeatedPrayersSources = {
+  "Holy Week": hwRepeatedPrayersData,
+  Annual: annualRepeatedPrayersData,
+  Seasonal: seasonalRepeatedPrayersData,
+  "Seasonal Praises": seasonalPraisesData,
+  "Agpeya Prayers": repeatedAgpeyaPrayersData,
+};
 
 const hasValue = (value) =>
   value !== undefined && value !== null && value !== "";
 const normalizeToArray = (value) => (Array.isArray(value) ? value : [value]);
 const normalizeSeasons = (value) =>
-  hasValue(value)
-    ? normalizeToArray(value).map((s) =>
-        typeof s === "string" ? s.toLowerCase() : s
-      )
-    : [];
+  hasValue(value) ? normalizeToArray(value) : [];
 const seasonsMatch = (requestedSeasons, entrySeasons) => {
   if (!hasValue(entrySeasons)) return true; // entry applies to all seasons
   if (!hasValue(requestedSeasons)) return true; // no filter provided
-  const requested = normalizeSeasons(requestedSeasons);
+  const requested = normalizeToArray(requestedSeasons);
   if (requested.length === 0) return true; // empty filter array means no filter
-  const entry = normalizeSeasons(entrySeasons);
+  const entry = normalizeToArray(entrySeasons);
   return entry.some((s) => requested.includes(s));
 };
 const maxTemplateKeyCacheEntries = 200;
@@ -131,23 +114,6 @@ const debugLog = (...args) => {
 const debugWarn = (...args) => {
   if (isDebug) console.warn(...args);
 };
-
-const escapeHtmlAttribute = (value) =>
-  String(value)
-    .replace(/&/g, "&amp;")
-    .replace(/"/g, "&quot;")
-    .replace(/'/g, "&#39;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;");
-
-let iconVars = iconVariablesFallback;
-loadIconVariables()
-  .then((vars) => {
-    iconVars = vars;
-  })
-  .catch(() => {
-    iconVars = iconVariablesFallback;
-  });
 
 /**
  * @param {{ label: string; checked?: boolean; value?: string }[]} onePageSettings
@@ -311,22 +277,7 @@ export function renderHtmlTable(
   rowFilterOptions = {}
 ) {
   const enTitle = table.english_title || "";
-  const captionClassRaw = table.caption_class || "";
-  const captionDisplay = table.caption_display || "";
-  const captionDisplayStyle = captionDisplay
-    ? `style="display: ${captionDisplay}"`
-    : "";
-  const explanationIcon = iconVars.book || "";
-  const imageIcon = iconVars.musicalNote || "";
-  const audioIcon = iconVars.playPause || "";
-  const stableTableIdRaw = table.table_id || table.tableId;
-  const stableTableId =
-    typeof stableTableIdRaw === "string" && stableTableIdRaw.trim()
-      ? stableTableIdRaw.trim()
-      : "";
-  const dataTableIdAttr = stableTableId
-    ? ` data-table-id="${escapeHtmlAttribute(stableTableId)}"`
-    : "";
+  const captionClass = table.caption_class || "";
 
   // If tableClass is passed, merge it with any class provided on the table object (supports both camel/snake).
   if (table.table_class) {
@@ -335,93 +286,15 @@ export function renderHtmlTable(
       : table.table_class;
   }
 
-  const captionClassTokens = captionClassRaw
-    .split(/\s+/)
-    .filter((token) => token.length > 0);
-  const tableClassTokens = (tableClass || "")
-    .split(/\s+/)
-    .filter((token) => token.length > 0);
-  const isHeaderTable =
-    captionClassTokens.includes("header-table") ||
-    tableClassTokens.includes("header-table");
-  const captionClass = isHeaderTable && !captionClassTokens.includes("header-table")
-    ? `${captionClassRaw} header-table`.trim()
-    : captionClassRaw;
-
-  const captionHtml =
-    table.english_title || table.english_caption
-      ? `
-        <caption class="caption ${captionClass}" id="caption_table_${tableIdx}" ${captionDisplayStyle}>
-            <div class="caption-texts">
-              <span class="english-caption">
-                ${processTemplate(
-                  table.english_title || table.english_caption,
-                  variables
-                )}
-              </span>
-              ${
-                table.coptic_title || table.coptic_caption
-                  ? ` <span class="coptic-caption">${processTemplate(
-                      table.coptic_title || table.coptic_caption,
-                      variables
-                    )}</span> `
-                  : ""
-              }
-              ${
-                table.arabic_title || table.arabic_caption
-                  ? ` <span class="arabic-caption">${processTemplate(
-                      table.arabic_title || table.arabic_caption,
-                      variables
-                    )}</span> `
-                  : ""
-              }
-              
-            </div>
-            <div class="caption-actions">
-              ${
-              table.explanation_button
-                ? `<span class="explanation-button" data-message='${processTemplate(
-                    table.explanation_button,
-                    variables
-                  )}'>${explanationIcon}</span>`
-                : ""
-            }
-            ${
-              table.image_button
-                ? `<span class="image-button" data-message='${processTemplate(
-                    table.image_button,
-                    variables
-                  )}'>${imageIcon}</span>`
-                : ""
-            }
-            ${
-              table.audio_file
-                ? `<span class="audio-button" data-message='${processTemplate(
-                    table.audio_file,
-                    variables
-                  )}'>${audioIcon}</span>`
-                : ""
-            }
-            
-            
-            </div>
-
-        </caption>`
-      : "";
+  // If caption_display is provided, use it to set inline style on the caption.
+  const captionDisplay = table.caption_display || "";
+  const captionDisplayStyle = captionDisplay
+    ? `style="display: ${captionDisplay}"`
+    : "";
 
   let globalRowIdx = 0; // Keep a single counter across all tbodies
 
   if (!Array.isArray(table.tbodies) || table.tbodies.length === 0) {
-    if (isHeaderTable && captionHtml) {
-      return `
-        <table id="table_${tableIdx}" title="${processTemplate(
-        enTitle,
-        variables
-      )}" class="${tableClass}"${dataTableIdAttr}>
-          ${captionHtml}
-        </table>
-      `;
-    }
     debugLog(`renderHtmlTable: No rows found for table "${enTitle}"`, table);
     return `<div>Error: No rows found in table "${enTitle}"</div>`;
   }
@@ -453,8 +326,60 @@ export function renderHtmlTable(
     <table id="table_${tableIdx}" title="${processTemplate(
     enTitle,
     variables
-  )}" class="${tableClass}"${dataTableIdAttr}>
-      ${captionHtml}
+  )}" class="${tableClass}">
+      ${
+        table.english_title || table.english_caption
+          ? `
+        <caption class="caption ${captionClass}" id="caption_table_${tableIdx}" ${captionDisplayStyle}>
+            ${processTemplate(
+              table.english_title || table.english_caption,
+              variables
+            )}
+            
+            ${
+              table.arabic_title || table.arabic_caption
+                ? `<span class="arabic-caption">${processTemplate(
+                    table.arabic_title || table.arabic_caption,
+                    variables
+                  )}</span>`
+                : ""
+            }
+            ${
+              table.coptic_title || table.coptic_caption
+                ? `<span class="coptic-caption">${processTemplate(
+                    table.coptic_title || table.coptic_caption,
+                    variables
+                  )}</span>`
+                : ""
+            }
+            ${
+              table.explanation_button
+                ? `<span class="explanation-button" data-message='${processTemplate(
+                    table.explanation_button,
+                    variables
+                  )}'>${book}</span>`
+                : ""
+            }
+            ${
+              table.image_button
+                ? `<span class="image-button" data-message='${processTemplate(
+                    table.image_button,
+                    variables
+                  )}'>${musicalNote}</span>`
+                : ""
+            }
+            ${
+              table.audio_file
+                ? `<span class="audio-button" data-message='${processTemplate(
+                    table.audio_file,
+                    variables
+                  )}'>${playPause}</span>`
+                : ""
+            }
+
+        </caption>`
+          : ""
+      }
 
       ${filteredTbodies
         .map((tbody, tbodyIdx) => {
@@ -548,14 +473,14 @@ export function filterBySeasons(data, currentSeasons, todaysSaints) {
     ? normalizeToArray(todaysSaints)
     : [];
 
-  const matchesEntry = (item) => {
+  return data.filter((item) => {
     if (!item || typeof item !== "object") return true;
 
     const itemSeasons = hasValue(item.seasons)
       ? normalizeToArray(item.seasons)
       : null;
     const itemExcludedSeasons = hasValue(item.excludedSeasons)
-      ? normalizeSeasons(item.excludedSeasons)
+      ? normalizeToArray(item.excludedSeasons)
       : null;
     const itemSaints = hasValue(item.saints)
       ? normalizeToArray(item.saints)
@@ -578,83 +503,25 @@ export function filterBySeasons(data, currentSeasons, todaysSaints) {
     }
 
     return true;
-  };
-
-  const skipEntry = Symbol("skip-entry");
-  const hasHeaderTableClass = (value) =>
-    typeof value === "string" && value.split(/\s+/).includes("header-table");
-  const isHeaderTable = (item) =>
-    item &&
-    (hasHeaderTableClass(item.caption_class) ||
-      hasHeaderTableClass(item.table_class) ||
-      hasHeaderTableClass(item.tableClass));
-
-  return data
-    .map((item) => {
-      if (!matchesEntry(item)) return skipEntry;
-      if (!item || typeof item !== "object") return item;
-
-      let updated = item;
-
-      if (Array.isArray(item.rows)) {
-        const filteredRows = item.rows.filter(matchesEntry);
-        if (filteredRows.length !== item.rows.length) {
-          updated = { ...updated, rows: filteredRows };
-        }
-      }
-
-      if (Array.isArray(item.tbodies)) {
-        const filteredTbodies = item.tbodies.map((tbody) => {
-          if (!tbody || typeof tbody !== "object") return tbody;
-          if (!Array.isArray(tbody.rows)) return tbody;
-          const filteredRows = tbody.rows.filter(matchesEntry);
-          if (filteredRows.length === tbody.rows.length) return tbody;
-          return { ...tbody, rows: filteredRows };
-        });
-
-        if (filteredTbodies !== item.tbodies) {
-          updated = { ...updated, tbodies: filteredTbodies };
-        }
-      }
-
-      const hasRows = Array.isArray(updated.rows);
-      const hasTbodies = Array.isArray(updated.tbodies);
-      const rowsEmpty = hasRows && updated.rows.length === 0;
-      const tbodiesEmpty =
-        hasTbodies &&
-        updated.tbodies.every(
-          (tbody) => !Array.isArray(tbody?.rows) || tbody.rows.length === 0
-        );
-      if (
-        (hasRows || hasTbodies) &&
-        rowsEmpty &&
-        (!hasTbodies || tbodiesEmpty) &&
-        !isHeaderTable(updated)
-      ) {
-        return skipEntry;
-      }
-
-      return updated;
-    })
-    .filter((item) => item !== skipEntry);
+  });
 }
 
 /**
- * Filters entries by daily properties (aktonkAki, adamWatos, dayOfTheWeek, weekdayWeekend, abstainingDay).
+ * Filters entries by daily properties (aktonkAki, adamWatos, dayOfTheWeek, weekdayWeekend).
  * @param {any[]} data
- * @param {{ aktonkAki?: { english?: string } | string | null, adamWatos?: string | null, dayOfTheWeek?: string | null, weekdayWeekend?: string | null, abstainingDay?: boolean | null, service?: string | null }} props
+ * @param {{ aktonkAki?: { english?: string } | string | null, adamWatos?: string | null, dayOfTheWeek?: string | null, weekdayWeekend?: string | null, service?: string | null }} props
  * @returns {any[]}
  */
 export function filterByDayProps(
   data,
-  { aktonkAki, adamWatos, dayOfTheWeek, weekdayWeekend, abstainingDay, service }
+  { aktonkAki, adamWatos, dayOfTheWeek, weekdayWeekend, service }
 ) {
   if (!Array.isArray(data)) return [];
 
   const aktonkAkiEnglish =
     typeof aktonkAki === "string" ? aktonkAki : aktonkAki?.english;
 
-  const matchesEntry = (item) => {
+  return data.filter((item) => {
     if (!item || typeof item !== "object") return true;
 
     if (hasValue(item.aktonkAki)) {
@@ -670,28 +537,15 @@ export function filterByDayProps(
     }
 
     if (hasValue(item.dayOfTheWeek)) {
-      if (!hasValue(dayOfTheWeek)) return false;
-
-      const itemDays = normalizeToArray(item.dayOfTheWeek);
-      const requestedDays = normalizeToArray(dayOfTheWeek);
-      const matchesDay = itemDays.some((d) => requestedDays.includes(d));
-      if (!matchesDay) return false;
+      if (!hasValue(dayOfTheWeek) || item.dayOfTheWeek !== dayOfTheWeek) {
+        return false;
+      }
     }
 
     if (hasValue(item.weekdayWeekend)) {
       if (!hasValue(weekdayWeekend) || item.weekdayWeekend !== weekdayWeekend) {
         return false;
       }
-    }
-
-    const itemAbstainingDay = hasValue(item.abstainingDay)
-      ? item.abstainingDay
-      : hasValue(item.abstainingDays)
-      ? item.abstainingDays
-      : undefined;
-    if (itemAbstainingDay !== undefined) {
-      if (abstainingDay === undefined || abstainingDay === null) return false;
-      if (itemAbstainingDay !== abstainingDay) return false;
     }
 
     if (hasValue(item.service)) {
@@ -701,66 +555,7 @@ export function filterByDayProps(
     }
 
     return true;
-  };
-
-  const skipEntry = Symbol("skip-entry");
-
-  const hasHeaderTableClass = (value) =>
-    typeof value === "string" && value.split(/\s+/).includes("header-table");
-  const isHeaderTable = (item) =>
-    item &&
-    (hasHeaderTableClass(item.caption_class) ||
-      hasHeaderTableClass(item.table_class) ||
-      hasHeaderTableClass(item.tableClass));
-
-  return data
-    .map((item) => {
-      if (!matchesEntry(item)) return skipEntry;
-      if (!item || typeof item !== "object") return item;
-
-      let updated = item;
-
-      if (Array.isArray(item.rows)) {
-        const filteredRows = item.rows.filter(matchesEntry);
-        if (filteredRows.length !== item.rows.length) {
-          updated = { ...updated, rows: filteredRows };
-        }
-      }
-
-      if (Array.isArray(item.tbodies)) {
-        const filteredTbodies = item.tbodies.map((tbody) => {
-          if (!tbody || typeof tbody !== "object") return tbody;
-          if (!Array.isArray(tbody.rows)) return tbody;
-          const filteredRows = tbody.rows.filter(matchesEntry);
-          if (filteredRows.length === tbody.rows.length) return tbody;
-          return { ...tbody, rows: filteredRows };
-        });
-
-        if (filteredTbodies !== item.tbodies) {
-          updated = { ...updated, tbodies: filteredTbodies };
-        }
-      }
-
-      const hasRows = Array.isArray(updated.rows);
-      const hasTbodies = Array.isArray(updated.tbodies);
-      const rowsEmpty = hasRows && updated.rows.length === 0;
-      const tbodiesEmpty =
-        hasTbodies &&
-        updated.tbodies.every(
-          (tbody) => !Array.isArray(tbody?.rows) || tbody.rows.length === 0
-        );
-      if (
-        (hasRows || hasTbodies) &&
-        rowsEmpty &&
-        (!hasTbodies || tbodiesEmpty) &&
-        !isHeaderTable(updated)
-      ) {
-        return skipEntry;
-      }
-
-      return updated;
-    })
-    .filter((item) => item !== skipEntry);
+  });
 }
 
 export function resolveRepeatedPrayers(data, paschalReadingsFull) {
@@ -809,7 +604,7 @@ function fetchRepeatedPrayerData(repeatedPrayerObject, paschalReadingsFull) {
     repeated_prayer_variables,
   } = repeatedPrayerObject || {};
 
-  const repeatedPrayersData = getRepeatedPrayersSources()[source];
+  const repeatedPrayersData = repeatedPrayersSources[source];
   if (!repeatedPrayersData) {
     debugWarn(`Invalid repeated prayer source: "${source}"`, {
       repeated_prayer_title,
@@ -906,7 +701,6 @@ function applyRepeatedPrayerVariables(tables, variables, paschalReadingsFull) {
     });
     const tableOverrides =
       passToTable && typeof passToTable === "object" ? passToTable : {};
-      
     return { ...table, ...tableOverrides, tbodies: updatedTbodies };
   });
 }

@@ -1,0 +1,5 @@
+WARN  Repeated prayer table not found for category "general" and placement "preFourthCanticle"
+ WARN  Dropped non-table entries from psalmody data [{"category": "general", "repeated_prayer_placement": "preFourthCanticle", "source": "Seasonal Praises"}, {"dayOfTheWeek": "Wednesday", "seasonalPraises": true, "section_title": "preWednesdayTheotokia"}, {"seasonalPraises": true, "section_title": "preTheotokiaConclusion", "theotokiasIndex": false}]   
+ WARN  Repeated prayer table not found for category "general" and placement "preFourthCanticle"
+ WARN  Dropped non-table entries from psalmody data [{"category": "general", "repeated_prayer_placement": "preFourthCanticle", "source": "Seasonal Praises"}, {"dayOfTheWeek": "Wednesday", "seasonalPraises": true, "section_title": "preWednesdayTheotokia"}, {"seasonalPraises": true, "section_title": "preTheotokiaConclusion", "theotokiasIndex": false}]   
+ LOG  Unhandled message: DEBUG table-invisible class found

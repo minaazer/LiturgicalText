@@ -19,12 +19,10 @@ import CalendarScreen from "../screens/calendar";
 import SaintSettingsScreen from "../screens/saintSettings";
 import GoLive from "../reusableComponents/goLive";
 import AboutScreen from "../screens/about";
-import ReportIssueScreen from "../screens/reportIssue";
 import Home from "../screens/home";
 import BibleScreen from "../screens/bible/bibleScreen";
 import ChapterScreen from "../screens/bible/chapterScreen";
 import HolyWeek from "../screens/holyWeek";
-import OffertoryScreen from "../screens/liturgy/offertoryScreen";
 import HolyWeekDayScreen from "../screens/holyWeek/hwDayScreen";
 import HolyWeekHourScreen from "../screens/holyWeek/hwHourScreen";
 import Doxologies from "../screens/doxologies";
@@ -38,7 +36,6 @@ import SongsScreen from "../screens/songs/songsScreen";
 import HolyWeekData from "../../data/jsons/holyWeek.json";
 import SongsData from "../../data/jsons/songs.json";
 import { useNavigationState } from "@react-navigation/native";
-import { getJson } from "../functions/jsonCache";
 
 
 const screenWidth = Dimensions.get('window').width;
@@ -121,11 +118,6 @@ const StaticScreens = [
         component: ChapterScreen,
       },
     ],
-  },
-  {
-    screenName: "Offertory",
-    label: "Offertory",
-    component: OffertoryScreen,
   },
   {
     screenName: "Glorification",
@@ -283,11 +275,6 @@ const LeftDrawerContent = React.memo(({ navigation, routeConfig, ...props }) => 
           label="Settings"
           routeName="Settings"
         />
-        <DrawerButton
-          navigation={navigation}
-          label="Report Issue"
-          routeName="ReportIssue"
-        />
 
         <DrawerButton
           navigation={navigation}
@@ -375,44 +362,15 @@ const MainStackNavigator = ({ routeConfig }) => {
         component={AboutScreen}
         options={{ headerShown: false }}
       />
-      <Stack.Screen
-        name="ReportIssue"
-        component={ReportIssueScreen}
-        options={{ headerShown: false }}
-      />
       {routeConfig.map((route) => createStackScreens(route))}
     </Stack.Navigator>
   );
 };
 
 const RootNavigation = () => {
-  const [holyWeekJson, setHolyWeekJson] = React.useState(HolyWeekData);
-  const [songsJson, setSongsJson] = React.useState(SongsData);
-
-  React.useEffect(() => {
-    let isMounted = true;
-    getJson("holyWeek.json", HolyWeekData).then((data) => {
-      if (isMounted && data) {
-        setHolyWeekJson(data);
-      }
-    });
-    getJson("songs.json", SongsData).then((data) => {
-      if (isMounted && data) {
-        setSongsJson(data);
-      }
-    });
-    return () => {
-      isMounted = false;
-    };
-  }, []);
-
   const routeConfig = React.useMemo(
-    () => [
-      ...StaticScreens,
-      ...transformHolyWeekData(holyWeekJson),
-      ...transformSongsData(songsJson),
-    ],
-    [holyWeekJson, songsJson]
+    () => [...StaticScreens, ...transformHolyWeekData(HolyWeekData), ...transformSongsData(SongsData)],
+    []
   );
 
   return (

@@ -1,17 +1,12 @@
-import { useContext, useState, useEffect, useMemo } from 'react';
-import { Dimensions, Platform } from 'react-native';
+import { useContext, useState, useEffect } from 'react';
+import { Dimensions } from 'react-native';
 import SettingsContext from '../../settings/settingsContext';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
-
 import { fontTypeface } from './fontTypeface';
 
+
 export const useDynamicStyles = (webviewRef) => {
-    const insets = useSafeAreaInsets();
     const { width, height } = Dimensions.get("window");
-    const safeAreaWidth = width - (insets.left + insets.right); // Account for safe area insets
     const isPortrait = height >= width; // Determine orientation
-    const calculatedWidth = `${safeAreaWidth-15}px`;
-    const columnPadding = width > 900 ? 35 : 20; // Adjust for padding
     const fontSizeUnit = isPortrait ? 'vh' : 'vw';
     const [settings] = useContext(SettingsContext);
     const [fontSize, setFontSize] = useState('3.5 wv'); 
@@ -29,24 +24,15 @@ export const useDynamicStyles = (webviewRef) => {
 
     useEffect(() => {
         if (settings.fontSize) {
+            
             setFontSize(settings.fontSize + fontSizeUnit);
             setTitleFontSize((parseFloat(settings.fontSize) + 0.5) + fontSizeUnit);
             setLinkFontSize((parseFloat(settings.fontSize) + 2) + fontSizeUnit);
             setToggleFontSize((parseFloat(settings.fontSize) - 1) + fontSizeUnit);
-            const webview = webviewRef?.current;
-            if (webview?.injectJavaScript) {
-                // Clear caches and repaginate after font change; small delay on iOS for layout to settle
-                const repaginate = `
-                    if (paginateTables && typeof paginateTables.clearFontCache === 'function') { paginateTables.clearFontCache(); }
-                    if (paginateTables && typeof paginateTables.clearPaginationCache === 'function') { paginateTables.clearPaginationCache(); }
-                    window._suspendPaginate = false;
-                    paginateTables();
-                    clearOverlays();
-                    adjustOverlay();
-                `;
-                const delay = Platform.OS === 'ios' ? 150 : 50;
-                setTimeout(() => webview.injectJavaScript(repaginate), delay);
-            }
+            webviewRef.current.injectJavaScript(`paginateTables();`);
+            webviewRef.current.injectJavaScript(`clearOverlays()`);
+            webviewRef.current.injectJavaScript(`adjustOverlay();`);
+            webviewRef.current.reload();
         }
         if (settings.languages) {
             
@@ -54,7 +40,7 @@ export const useDynamicStyles = (webviewRef) => {
         }
     }, [settings.fontSize, settings.languages]);
 
-    const cssStyles = useMemo(() => `
+    const cssStyles = `
 * {
     -webkit-touch-callout: none; /* iOS Safari */
       -webkit-user-select: none; /* Safari */
@@ -65,152 +51,97 @@ export const useDynamicStyles = (webviewRef) => {
 }
 
 :root {
- --fontSize: 26px;
  --copticFont: 'FreeSerif Avva Shenouda';
 }
+
 
 ${fontTypeface}
 
 html {
  background-color: black;
- margin: 0;
- padding: 0;
- width: 99%;
- touch-action: none;
- overflow-x: hidden;
- pointer-events: auto;
- }
-
-
+ margin-top: 0px;
+ padding-top: 0px;
+ padding-top: 0px;
+ margin-right: 20px;
+}
 
 body {
- overflow: hidden;
+ overflow-horizontal: hidden;
  touch-action: none;
  color: white;
  font-size: ${fontSize};
- width: ${calculatedWidth} !important;
+ width: 100% !important;
  margin-top: 0px;
  padding-top: 0px;
  margin-bottom: 1000px;
- pointer-events: box-none;
-}
-
-h1 {
-    font-size: ${fontSize} !important;
-    text-align: center !important;
 }
 
 div {
-    margin: 0;
-    padding: 0;
-
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;   
 }
 
 table {
 page-break-before: always; /* Use for older browsers */
 break-before: page; /* Modern browsers */
-margin: 0;
-padding: 0;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-top: 0px;
 display: table;
-layout: fixed;
-width: ${calculatedWidth} !important;
-border-collapse: collapse;
+width: 100% !important;
+table-layout: fixed;
+border-collapse: separate;
 font-size: ${fontSize};
-border-width: 0px;
-touch-action: none;
-
 }
 
 
-/* Handle first table to avoid first-page break */
-table:first-of-type {
-page-break-before: auto;
-break-before: auto;
-}
 
 tbody {
     font-size: ${fontSize};
-    border-width: 0px;
-
 }
 
 tr {
-    display: flex; /* Ensure rows behave like traditional table rows */
-    flex-direction: row;
-    width: ${calculatedWidth} !important;
-    overflow-wrap: break-word; /* Prevent text overflow */
-    overflow-x: hidden;
-    padding: 0 0 10px 0; /* Add padding to the bottom of each row */
-    border-width: 0px;
-    touch-action: none;
-
-
+ display: flex;
+ flex-direction: row;
+ width: '100%' !important;
+ max-width: '100%' !important;
+ padding-bottom: 10px;
 }
 
 td {
-    display: flex;
     flex-direction: column;
-    overflow-wrap: break-word; /* Prevent text overflow */
-    word-wrap: break-word !important;
-    white-space: normal !important; /* Allow text wrapping */
-    vertical-align: top;
-    overflow-wrap: break-word; /* Prevent text overflow */
-    overflow-x: hidden;
-    border-width: 0px;
-    pointer-events: none;
-
 }
 
-/* First column of a 3-column row */
-td.column-1-3 {
-    flex: 0 1 30%; /* 30% width */
-    padding-right: ${columnPadding}px;
+/* Apply padding to the 1st of 1 column */
+table tr td:first-child:last-child {
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
-/* Second column of a 3-column row */
-td.column-2-3 {
-    flex: 0 1 40%; /* 30% width */
-    padding-right: ${columnPadding}px;
+/* Apply padding to the 1st of more than 1 column */
+table tr td:first-child:not(:last-child) {
+    padding-right: 0;
+    padding-left: 5px;
+  }
 
+/* Apply padding to the 2nd of 3 columns */
+table tr td:nth-child(2):nth-last-child(2) {
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
-/* Third column of a 3-column row */
-td.column-3-3 {
-    flex: 0 1 30%; /* 30% width */
-    padding-right: 3px;
+/* Apply padding to the 3rd of 3 columns */
+table tr td:nth-child(3):nth-last-child(1) {
+    padding-left: 0;
+    padding-right: 5px;
 }
 
-/* First column of a 2-column row */
-td.column-1-2 {
-    flex: 0 1 60%; /* 30% width */
-    padding-right: ${columnPadding}px;
-}
-
-/* Second column of a 2-column row */
-td.column-2-2 {
-    flex: 0 1 40%; /* 30% width */
-    padding-right: 3px;
-    pointer-events: none;
-
-}
-
-/* Full-width single column */
-td.column-1-1 {
-    width: 100%;
-    margin-right: 7px;
-}
-
-@media screen and (max-width: 400px) {
-    
-    td.column-1-3,
-    td.column-2-3,
-    td.column-1-2 {
-        padding-right: 10;
-    }
-    td.column-1-1 {
-        padding-right: 0;
-    }
-   
+/* Apply padding to the 2nd of 2 columns */
+table tr td:nth-child(2):last-child {
+    padding-left: 35px;
+    padding-right: 5px;
 }
 
 .arabic {
@@ -218,9 +149,12 @@ td.column-1-1 {
     direction: rtl !important; 
     unicode-bidi: embed; /* Ensure proper rendering of Arabic text */
     vertical-align: top ;
+    padding-bottom: 10px;
     text-align: justify;
     text-justify: newspaper;
+    padding-left: 10px;
     display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'inline'};
+    flex: 0 0 3;
     line-height: 1.4;
 
 }
@@ -229,81 +163,76 @@ td.column-1-1 {
     
     vertical-align: top ;
     font-family: 'Georgia' !important;
+    padding-left: 20px;
+    padding-right: 10px;
     text-align: justify;
     display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'inline'};
+    flex: 0 0 3.5;
     line-height: 1.4;
 
-}
-
-.arRef {
-    text-align: center !important;
-    direction: rtl !important;    
-    vertical-align: top ;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'inline'};
 }
 
 .coptic {    
     vertical-align: top ;
     font-family: 'FreeSerif Avva Shenouda' !important;
+    padding-right: 10px;
+    padding-left: 15px;
     text-align: justify;
     display: ${settings.languages && !visibleLangues[2].checked ? 'none' : 'inline'};
-    line-height: 1.3;
+    flex: 0 0 5;
+    line-height: 1.5;
+    
+    word-wrap: break-word; /* Ensures long words break to the next line */
+    overflow-wrap: break-word; /* Modern property for word breaking */
+    white-space: normal; /* Prevents text from staying on a single line */
+
 }
 
 .copticReadings {
     
     vertical-align: top ;
     font-family: 'FreeSerif Avva Shenouda' !important;
+    padding-right: 10px;
+    padding-left: 15px;
     text-align: justify;
     display: ${settings.languages && !visibleLangues[2].checked ? 'none' : 'inline'};
+    flex: 0 0 5;
 }
 
 .english {  
     vertical-align: top ;
     font-family: 'Georgia' !important;
-    text-align: justify;
-    display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'inline'};
-}
-
-.engRef {  
-    vertical-align: top ;
-    font-family: 'Georgia' !important;
     padding-right: 10px;
-    text-align: center !important;
+    text-align: justify;
     display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'inline'};
-}
-
-.enPhonics, .enPhonicsDual {
-    vertical-align: top ;
-    font-family: 'Georgia' !important;
-    text-align: justify;
-    display: ${settings.languages && !visibleLangues[3].checked ? 'none' : 'flex'};
-    color: #ffb99b !important;
-}
-.enPhonicsDual {
-    flex: 0 1 60% !important;
-}
-
-.enPhonicsSongs, .enPhonics1 {
-    vertical-align: top ;
-    font-family: 'Georgia' !important;
-    text-align: justify;
-    display: ${settings.languages && !visibleLangues[3].checked ? 'none' : 'flex'};
+    flex: 0 0 35;
+    
 }
 
 
-.arPhonics {
-    text-align: right;
-    direction: rtl !important;        
-    vertical-align: top ;
-    text-align: justify;
-    display: ${settings.languages && !visibleLangues[4].checked ? 'none' : 'flex'};
-    color: #ffb99b !important;
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    
+    table {
+        table-layout: fixed; /* Ensures consistent column sizes */
+    }
+    td {
+        padding: 5px; /* Reduce padding */
+    }
+
+    .english, .coptic, .arabic {
+        flex: 1 1 auto; /* Allow columns to shrink and grow as needed */
+        max-width: 100%; /* Prevent overflow */
+    }
 }
 
 
+
+/* Handle first table to avoid first-page break */
+table:first-of-type {
+page-break-before: auto;
+break-before: auto;
+}
 
 .bold {
     font-weight: bold !important;
@@ -317,18 +246,15 @@ td.column-1-1 {
     font-family: 'EB Garamond' !important;
     color: white !important;
     display: flex;
-    flex-direction: column;
     justify-content: space-between; /* Center the text after padding */
     align-items: center;
     text-align: center;
-    padding-Left: 40px; /* Ensure enough space for the icon on the left */
-    padding-right: 40px;
+    padding-left: 40px; /* Ensure enough space for the icon on the left */
     padding-bottom: 10px;
     font-weight: bold;
     position: relative; /* Necessary for absolute positioning of the icon */
     cursor: pointer;
     pointer-events: auto;
-    line-height: 1.2 !important;
 }
 
 .caption.table-invisible {
@@ -345,25 +271,6 @@ td.column-1-1 {
     transform: translateY(-50%); /* Adjust to vertically center the icon */
 }
 
-.audio-button,
-.explanation-button,
-.image-button {
-  position: absolute;
-  top: 10px;
-  cursor: pointer;
-  pointer-events: auto;
-  z-index: 9999;
-}
-.explanation-button {
-  right: 10px;
-}
-.image-button {
-  right: 60px; /* or however much space you want between them */
-}
-.audio-button {
-    right: 10px; /* Adjust as needed */
-}
-
 .caption.table-invisible::before {
     content: "\\f055"; /* Font Awesome Unicode for minus icon */
     font-family: "Font Awesome 5 Free"; /* Font Awesome font family */
@@ -377,36 +284,20 @@ td.column-1-1 {
 
 .coptic-caption {
     font-family: 'FreeSerif Avva Shenouda';
-    direction: ltr !important;
-    text-align: left !important;
 }
 .coptic-caption:lang(en) {
     font-family: 'Georgia' !important;
   }
 .arabic-caption {
     direction: rtl !important;
+    line-height: 1.4;
 }
-
-.hidden-caption {
-    color: black !important;
-    pointer-events: none !important;
-    font-size: 0 !important;
-    line-height: 0 !important;
-}
-
-.arabic-text {
-    direction: rtl !important;
-    line-height: 1;
-}
-
-
 
 
 .title {
     text-align: center !important;
     color: #FDFD96 !important;
     display: flex !important;
-    line-height: 1 !important;
     align-items: center !important; // vertical align
     font-size: ${fontSize} !important;
 
@@ -414,49 +305,48 @@ td.column-1-1 {
 
 .navigationButton {
     display: flex;
-    width: 95% !important;
+    justify-content: space-between;
     align-items: center;
     font-size: ${fontSize};
     color: white !important;
     background-color: #614051 !important;
-    font-weight: bold !important;
-    padding: 3px !important;
-    margin: 10px !important;
-    border-radius: 10px !important;
+    font-weight: bold;
+    padding: 3px;
+    margin: 10px;
+    border-radius: 10px;
     border: 1px solid white;
-    cursor: pointer;
-    pointer-events: auto;
-
 }
 
 .arabicButton {
+    flex: 2; /* 40% width */
     text-align: center;
     direction: rtl;
     padding-left: 10px;
-    display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'table-cell'};
+    display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'flex'};
 }
 
 .englishButton {
+    flex: 3; /* 60% width */
     font-family: 'Georgia' !important;
     padding-right: 10px;
     text-align: center;
-    display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'table-cell'};
+    display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'flex'};
 }
 
 .navigationLink {
-    display: block;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: ${linkFontSize};
-    color: darkRed !important;
+    color: red !important;
     background-color: 'black' !important;
     font-weight: bold;
     padding: 3px;
     margin: 10px;
     border-radius: 10px;
     text-decoration: underline;
-    cursor: pointer;
-    pointer-events: auto; 
+    font-style: italic;
+    
 }
 
 .arabicLink {
@@ -475,6 +365,12 @@ td.column-1-1 {
     text-align: center;
     display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'flex'};
 }
+
+h1 {
+    font-size: ${fontSize} !important;
+    text-align: center !important;
+}
+
 
 
 
@@ -517,13 +413,74 @@ td.column-1-1 {
     margin-bottom: 0px !important;
 }
 
+
+.arRef {
+    text-align: center !important;
+    direction: rtl !important;    
+    vertical-align: top ;
+    padding-bottom: 10px;
+
+    padding-left: 10px;
+    display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'inline'};
+    flex: 3;
+}
+
+.engRef {  
+    vertical-align: top ;
+    font-family: 'Georgia' !important;
+    padding-right: 10px;
+    text-align: center !important;
+    display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'inline'};
+    flex: 4;
+}
+
+.enPhonics {
+    vertical-align: top ;
+    font-family: 'Georgia' !important;
+    padding-right: 10px;
+    text-align: justify;
+    display: ${settings.languages && !visibleLangues[3].checked ? 'none' : 'flex'};
+    flex: 4;
+    color: #FDFD96 !important;
+}
+.enPhonicsSongs {
+    vertical-align: top ;
+    font-family: 'Georgia' !important;
+    padding-right: 10px;
+    text-align: justify;
+    display: ${settings.languages && !visibleLangues[3].checked ? 'none' : 'flex'};
+    flex: 4;
+}
+.enPhonics1 {
+    
+    vertical-align: top ;
+    font-family: 'Georgia' !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    display: ${settings.languages && !visibleLangues[3].checked ? 'none' : 'flex'};
+    flex: 4.5;
+    color: #FDFD96 !important;
+}
+
+.arPhonics {
+        text-align: right;
+        direction: rtl !important;        
+        vertical-align: top ;
+        padding-bottom: 10px;
+        text-align: justify;
+        padding-left: 10px;
+        display: ${settings.languages && !visibleLangues[4].checked ? 'none' : 'flex'};
+        flex: 4;
+        color: #FDFD96 !important;
+    
+}
+
+
 .skipButton {
  text-align: center;
- align-items: center;
- justify-content: center;
- pointer-events: auto;
- cursor: pointer;
 }
+
 
 
 #drawer {
@@ -593,20 +550,7 @@ td.column-1-1 {
     100% { transform: rotate(360deg); }
 }
 
-`, [
-        insets.left,
-        insets.right,
-        width,
-        height,
-        calculatedWidth,
-        columnPadding,
-        fontSize,
-        titleFontSize,
-        toggleFontSize,
-        linkFontSize,
-        visibleLangues,
-        settings.languages,
-    ]);
+`;
 
     return cssStyles;
 };

@@ -1,5 +1,5 @@
 /** @format */
-import React, { useEffect, useState } from "react";
+import React from "react";
 import {
   ImageBackground,
   View,
@@ -12,28 +12,13 @@ import { useNavigation } from "@react-navigation/native";
 import backgroundImage from "../../../assets/background.png";
 import { presentationStyles } from "../../css/presentationStyles";
 import HolyWeekData from "../../../data/jsons/holyWeek.json";
-import { getJson } from "../../functions/jsonCache";
 
 
 const HolyWeekDayScreen = ({ route }) => {
     
     const serviceName = route.params.serviceName;
-    const [holyWeekJson, setHolyWeekJson] = useState(HolyWeekData);
-
-    useEffect(() => {
-      let isMounted = true;
-      getJson("holyWeek.json", HolyWeekData).then((data) => {
-        if (isMounted && data) {
-          setHolyWeekJson(data);
-        }
-      });
-      return () => {
-        isMounted = false;
-      };
-    }, []);
-
-    const serviceData = holyWeekJson.find((item) => item.service[0] === serviceName);
-    const serviceHours = serviceData?.hours || [];
+    const serviceData = HolyWeekData.find((item) => item.service[0] === serviceName);
+    const serviceHours = serviceData.hours;
     
     const navigation = useNavigation();
     const { width, height } = useWindowDimensions();
@@ -100,9 +85,6 @@ const HolyWeekDayScreen = ({ route }) => {
                   <Text style={presentationStyles.pageMenu}>{item.hour[0]}</Text>
                 </TouchableOpacity>
               ))}
-              {serviceHours.length === 0 && (
-                <Text style={presentationStyles.pageMenu}>Loading...</Text>
-              )}
             </ScrollView>
           </View>
         </View>

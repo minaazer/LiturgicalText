@@ -15,7 +15,7 @@ export const togglePopupAudio = async (title, updateState) => {
       .replace(/_+/g, '_')
       .replace(/^_+|_+$/g, '');
 
-    const audioUrl = `https://liturgicalbooks-json.s3.us-east-2.amazonaws.com/assets/audio/${fileName}.mp3`;
+    const audioUrl = `https://eliaazer.com/wp-content/uploads/audio/${fileName}.mp3`;
     console.log("Audio URL:", audioUrl);
 
     // Configure audio mode for background playback

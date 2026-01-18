@@ -1,8 +1,0 @@
-﻿{
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "liturgy/offertory.json",
-  "allOf": [
-    { "$ref": "https://liturgicalbooks/schemas/common/table_base.schema.json" }
-  ]
-}
-

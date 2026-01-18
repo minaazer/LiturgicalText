@@ -117,12 +117,6 @@ export const presentationStyles = StyleSheet.create({
     padding: 0,
     flex: 1,
   },
-  bookDrawerContainer: {
-    flex: 1,
-  },
-  bookDrawerContentContainer: {
-    paddingBottom: 70,
-  },
   drawerContentContainer: {
     marginLeft: drawerMarginLeft,
     paddingTop: 0,
@@ -354,26 +348,6 @@ export const presentationStyles = StyleSheet.create({
     width: isPortrait ? "90%" : null,
     alignSelf: "center",
   },
-  reportDrawerFooter: {
-    position: "absolute",
-    left: 0,
-    right: 0,
-    bottom: 0,
-    padding: 10,
-    backgroundColor: "rgba(0,48,96,0.9)",
-  },
-  reportDrawerFooterButton: {
-    backgroundColor: "#e19d09",
-    borderRadius: 8,
-    paddingVertical: 10,
-    paddingHorizontal: 12,
-    alignItems: "center",
-  },
-  reportDrawerFooterText: {
-    color: "#000",
-    fontWeight: "bold",
-    fontSize: 14,
-  },
 
   searchContainer: {
     paddingTop: 5,
@@ -443,138 +417,6 @@ export const presentationStyles = StyleSheet.create({
     width: "90%",
     alignItems: "center",
     justifyContent: "flex-start",
-  },
-  reportContextText: {
-    marginTop: 10,
-    fontSize: 14,
-    color: "#1b1b1b",
-    textAlign: "center",
-  },
-  reportHelperText: {
-    marginTop: 6,
-    fontSize: 12,
-    color: "#4a4a4a",
-    textAlign: "center",
-  },
-  reportSection: {
-    width: "100%",
-    marginTop: 20,
-    paddingHorizontal: 10,
-  },
-  reportLabel: {
-    fontSize: 16,
-    fontWeight: "bold",
-    color: "black",
-    marginBottom: 6,
-  },
-  reportInput: {
-    borderWidth: 1,
-    borderColor: "#ccc",
-    borderRadius: 8,
-    padding: 10,
-    marginBottom: 12,
-    backgroundColor: "#fff",
-  },
-  reportTextArea: {
-    borderWidth: 1,
-    borderColor: "#ccc",
-    borderRadius: 8,
-    padding: 10,
-    minHeight: 120,
-    textAlignVertical: "top",
-    backgroundColor: "#fff",
-    marginBottom: 12,
-  },
-  reportTypeRow: {
-    flexDirection: "row",
-    flexWrap: "wrap",
-    gap: 8,
-  },
-  reportTypeButton: {
-    paddingVertical: 6,
-    paddingHorizontal: 12,
-    borderRadius: 20,
-    borderWidth: 1,
-    borderColor: "#003060",
-    backgroundColor: "#fff",
-  },
-  reportTypeButtonActive: {
-    backgroundColor: "#003060",
-  },
-  reportTypeButtonText: {
-    color: "#003060",
-    fontSize: 13,
-  },
-  reportTypeButtonTextActive: {
-    color: "#fff",
-  },
-  reportActionRow: {
-    flexDirection: "row",
-    gap: 10,
-    flexWrap: "wrap",
-  },
-  reportButton: {
-    backgroundColor: "#003060",
-    borderRadius: 8,
-    paddingVertical: 8,
-    paddingHorizontal: 14,
-  },
-  reportButtonSecondary: {
-    backgroundColor: "#5b5b5b",
-    borderRadius: 8,
-    paddingVertical: 8,
-    paddingHorizontal: 14,
-  },
-  reportButtonText: {
-    color: "#fff",
-    fontWeight: "bold",
-  },
-  attachmentRow: {
-    marginTop: 8,
-    flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "center",
-  },
-  attachmentText: {
-    color: "#1b1b1b",
-    fontSize: 14,
-    flexShrink: 1,
-    marginRight: 10,
-  },
-  attachmentRemove: {
-    color: "#b00020",
-    fontWeight: "bold",
-  },
-  reportStatusText: {
-    marginTop: 10,
-    fontSize: 14,
-    textAlign: "center",
-  },
-  reportStatusSuccess: {
-    color: "#0a6b2a",
-  },
-  reportStatusInfo: {
-    color: "#1f4e79",
-  },
-  reportStatusError: {
-    marginTop: 6,
-    color: "#b00020",
-    fontSize: 12,
-    textAlign: "center",
-  },
-  reportSubmitButton: {
-    marginTop: 20,
-    backgroundColor: "#e19d09",
-    paddingVertical: 12,
-    paddingHorizontal: 24,
-    borderRadius: 8,
-    alignItems: "center",
-    marginBottom: 30,
-  },
-  reportSubmitButtonText: {
-    color: "#000",
-    fontWeight: "bold",
-    fontSize: 16,
   },
   twoColumnSettingsContainer:{
     width: "100%",
@@ -810,36 +652,6 @@ seasonsButtonContainer: {
   
 
   // POPUP STYLES *********************************************************
-
-  jsonCacheBanner: {
-    position: "absolute",
-    top: 12,
-    right: 12,
-    maxWidth: "70%",
-    paddingVertical: 6,
-    paddingHorizontal: 10,
-    borderRadius: 8,
-    borderWidth: 1,
-    zIndex: 20,
-  },
-  jsonCacheBannerInfo: {
-    backgroundColor: "#003060",
-    borderColor: "#003060",
-  },
-  jsonCacheBannerSuccess: {
-    backgroundColor: "#003060",
-    borderColor: "#003060",
-  },
-  jsonCacheBannerError: {
-    backgroundColor: "#003060",
-    borderColor: "#003060",
-  },
-  jsonCacheBannerText: {
-    color: "#ffffff",
-    fontSize: 12,
-    fontFamily: "Georgia",
-    textAlign: "left",
-  },
 
   modalOverlay: {
     position: 'absolute',

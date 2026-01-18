@@ -1,4 +1,3 @@
-/* global __DEV__ */
 import React, { useState, useRef, useContext } from 'react';
 import { StyleSheet, Text, View, Dimensions, ScrollView, TouchableOpacity, Platform, Alert } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
@@ -8,9 +7,8 @@ import app from '../../app.json';  // Import your app.json file
 const screenWidth = Dimensions.get('window').width;
 
 const AboutScreen = () => {
-    const [settings, , , , toggleDeveloperMode, , , , setForceLocalJson] = useContext(SettingsContext); // Destructure the values from the array
+    const [settings, , , , toggleDeveloperMode] = useContext(SettingsContext); // Destructure the values from the array
     const developerMode = settings.developerMode; // Get developer mode from settings
-    const forceLocalJson = settings.forceLocalJson; // Use local JSON instead of cached online files
     const [tapCount, setTapCount] = useState(0);
     const tapTimeoutRef = useRef(null); // Reference to track timeout
     const navigation = useNavigation();  // Use the useNavigation hook to access navigation functions
@@ -48,17 +46,6 @@ const AboutScreen = () => {
         }
     };
 
-    const handleForceLocalJsonToggle = () => {
-        const nextValue = !forceLocalJson;
-        setForceLocalJson(nextValue);
-        Alert.alert(
-            'Local JSON Mode',
-            nextValue
-                ? 'Using local bundled JSON files. Cached online files are ignored.'
-                : 'Using cached online JSON files.'
-        );
-    };
-
     return (
         <View style={styles.settingsScreen}>
             <ScrollView contentContainerStyle={styles.container} style={styles.scrollView}>
@@ -92,16 +79,10 @@ const AboutScreen = () => {
                             <Text style={styles.paragraph}>App Environment: {__DEV__ ? 'Development' : 'Production'}</Text>
                             <Text style={styles.paragraph}>Platform: {Platform.OS}</Text>
                             {/* Add any other developer-specific info you want here */}
-                            <TouchableOpacity style={styles.developerButton} onPress={handleForceLocalJsonToggle}>
-                                <Text style={styles.buttonText}>
-                                    Local JSON: {forceLocalJson ? 'On' : 'Off'}
-                                </Text>
-                            </TouchableOpacity>
                         </View>
                     )}
 
                     <View style={styles.sources}>
-                        <View style={styles.divider} />
                         <Text style={styles.settingTitle}>Holy Week Sources</Text>
                         <Text style={styles.languageTitle}>Commentary: دلال اسبوع الآلام وقرارات المجمع المقدس</Text>
                         <Text style={styles.languageTitle}>Coptic Text: Holy Pascha Book - St. Mark Coptic Church in Jersey City, NJ</Text>
@@ -109,15 +90,6 @@ const AboutScreen = () => {
                         <Text style={styles.languageTitle}>English Biblical Readings: New King James Version</Text>
                         <Text style={styles.languageTitle}>Homilies: Holy Pascha Book - St. Mark Coptic Church in Jersey City, NJ</Text>
                         <Text style={styles.languageTitle}>Expositions: Holy Pascha Book - St. Mark Coptic Church in Jersey City, NJ</Text>
-                    
-                    </View>
-                    <View style={styles.sources}>
-                        <View style={styles.divider} />
-                        <Text style={styles.settingTitle}>Other Resources Used</Text>
-                        <Text style={styles.languageTitle}>https://tasbeha.org/</Text>
-                        <Text style={styles.languageTitle}>https://st-takla.org/</Text>
-                        <Text style={styles.languageTitle}>Coptic Reader APP - SUS</Text>
-                        <View style={styles.divider} />
                     </View>
 
                     <TouchableOpacity style={styles.button} onPress={handleBackPress}>
@@ -175,12 +147,6 @@ const styles = StyleSheet.create({
         color: 'black',
         marginBottom: 10,
     },
-    divider: {
-        width: '100%',
-        height: 1,
-        backgroundColor: '#ccc',
-        marginVertical: 10,
-    },
     languageTitle: {
         fontSize: 18,
         fontWeight: 'bold',
@@ -197,15 +163,6 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         borderColor: 'gray',
         borderRadius: 5,
-    },
-    developerButton: {
-        backgroundColor: '#003060',
-        borderRadius: 20,
-        padding: 10,
-        marginTop: 10,
-        justifyContent: 'center',
-        width: '70%',
-        alignSelf: 'center',
     },
     button: {
         backgroundColor: '#003060',

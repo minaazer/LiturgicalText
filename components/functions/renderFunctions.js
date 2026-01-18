@@ -21,12 +21,10 @@ export const handleMessage = (
   stopPopupAudio,
   setIsAudioPaused,
   setCurrentAudioTitle,
-  setAudioPopupVisible,
-  displayMode
+  setAudioPopupVisible
 ) => {
   try {
     const message = JSON.parse(event.nativeEvent.data);
-    const isScrollMode = displayMode === "scroll";
 
     if (message.type === 'READY') {
       console.log('WebView is ready.');
@@ -42,17 +40,12 @@ export const handleMessage = (
     };
 
     const scrollToYOffset = (yOffset, nextVisibleElementId) => {
-      if (isScrollMode) {
-        injectScript(`window.scrollTo(0, ${yOffset});`);
-        return;
-      }
       injectScript(`clearOverlays();`);
       injectScript(`adjustOverlay('${nextVisibleElementId}');`);
       injectScript(`window.scrollTo(0, ${yOffset});`);
     };
 
     const showOverlay = () => {
-      if (isScrollMode) return;
       injectScript(`
         (function() {
           const existingOverlay = document.getElementById('blackScreenOverlay');
@@ -73,7 +66,6 @@ export const handleMessage = (
     };
 
     const removeOverlay = () => {
-      if (isScrollMode) return;
       injectScript(`
         (function() {
           const overlay = document.getElementById('blackScreenOverlay');
@@ -87,10 +79,6 @@ export const handleMessage = (
     // Message handlers
     const handlers = {
       TABLES_INFO: () => {
-        if (!Array.isArray(message.data) || message.data.length === 0) {
-          setDrawerItems([]);
-          return;
-        }
         setDrawerItems(message.data)
         setFirstTable(message.data[0].id);
       },
@@ -202,22 +190,7 @@ export const handleMessage = (
       },
       // HANDLE NEXT
       TABLE_NAVIGATION: () => {
-        const payload = message.data;
-        const tableYOffset =
-          typeof payload === "number" ? payload : payload?.yOffset;
-        const targetTableId =
-          typeof payload === "object" ? payload?.tableId : null;
-        if (typeof tableYOffset !== "number") {
-          return;
-        }
-
-        if (isScrollMode) {
-          scrollToYOffset(tableYOffset);
-          if (targetTableId) {
-            setCurrentTable(targetTableId);
-          }
-          return;
-        }
+        const tableYOffset = message.data;
 
         // Find the closest yOffset index
         const pageIndex = pageOffsets.reduce((highestIndex, offset, index) => {
@@ -253,10 +226,6 @@ export const handleMessage = (
       // HANDLE VERSE NAVIGATION
       ROW_NAVIGATION: () => {
         const rowYOffset = message.data;
-        if (isScrollMode) {
-          scrollToYOffset(rowYOffset);
-          return;
-        }
         const pageIndex = pageOffsets.findIndex(
           (offset) => offset.yOffset > rowYOffset
         );
@@ -273,9 +242,6 @@ export const handleMessage = (
       },
       CURRENT_PAGE_YOFFSET: () => {
         const yOffset = message.data;
-        if (isScrollMode) {
-          return;
-        }
         const pageIndex = pageOffsets.findIndex(
           (offset) => offset.yOffset >= yOffset
         );
@@ -321,10 +287,9 @@ export const handleNext = (
   setCurrentPage,
   pageOffsets,
   setCurrentTable,
-  webviewRef,
-  isScrollMode = false
+  webviewRef
 ) => {
-  if (isScrollMode) return;
+
   if (currentPage < pageOffsets.length - 1) {
     // Update the current page and table
 
@@ -357,10 +322,8 @@ export const handlePrevious = (
   setCurrentPage,
   pageOffsets,
   setCurrentTable,
-  webviewRef,
-  isScrollMode = false
+  webviewRef
 ) => {
-  if (isScrollMode) return;
   if (currentPage > 0) {
     // Update the current page and table
     setCurrentPage((prevPage) => prevPage - 1);
@@ -408,10 +371,7 @@ export const handleDrawerItemPress = (tableId, webviewRef, row) => {
           var goToTableElement = goToCaptionElement || document.getElementById('${tableId}');
           var tableYOffset = goToTableElement ? goToTableElement.getBoundingClientRect().top + window.scrollY : 0;
 
-          if (window._scrollMode) {
-            window.scrollTo(0, tableYOffset);
-          }
-          sendMessage(JSON.stringify({ type: 'TABLE_NAVIGATION', data: { yOffset: tableYOffset, tableId: '${tableId}' } }));
+          sendMessage(JSON.stringify({ type: 'TABLE_NAVIGATION', data: tableYOffset }));
       `;
     webviewRef.current.injectJavaScript(scrollToTableScript);
   }
