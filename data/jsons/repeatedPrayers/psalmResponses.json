@@ -101,7 +101,7 @@
           },
           {
             "row-class": "text",
-            "season": "Feast of Pentecost",
+            "seasons": ["Feast of Pentecost"],
             "cells": [
               {
                 "english": "Alleluia, alleluia. Christ has risen and ascended, and sent us the Paraclete, the Spirit of Truth. Alleluia, alleluia.",

@@ -567,7 +567,7 @@
               "Feast of the Cross"
             ],
             "abstainingDays": false,
-            "seasonsExclude": [
+            "excludedSeasons": [
               "Joyous Saturday"
             ],
             "cells": [
@@ -596,7 +596,7 @@
           {
             "row-class": "commentary",
             "abstainingDays": true,
-            "seasonsExclude": [
+            "excludedSeasons": [
               "Feast of the Nativity Paramoun",
               "Feast of the Theophany Paramoun",
               "Jonah's Fast",

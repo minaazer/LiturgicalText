@@ -102,7 +102,7 @@
                   {
                     "rows": [
                       {
-                        "row-class": "Intro",
+                        "row-class": "intro",
                         "cells": [
                           {
                             "english": "A reading from the Lamentations of Jeremiah the prophet. May his blessings be with us. Amen.",
@@ -169,7 +169,7 @@
                   {
                     "rows": [
                       {
-                        "row-class": "Intro",
+                        "row-class": "intro",
                         "cells": [
                           {
                             "english": "A reading from Zephaniah the prophet. May his blessings be with us. Amen.",

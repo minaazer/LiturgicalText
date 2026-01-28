@@ -14,8 +14,6 @@
             "row-class": {
               "type": "string",
               "enum": [
-                "Intro",
-                "Refrain",
                 "commentary",
                 "congregation",
                 "intro",
@@ -51,7 +49,12 @@
               "type": "array",
               "items": { "type": "string" }
             },
-            "season": { "type": "string" }
+            "seasons": {
+              "anyOf": [
+                { "type": "string" },
+                { "type": "array", "items": { "type": "string" } }
+              ]
+            }
           },
           "required": ["row-class", "cells"],
           "additionalProperties": true

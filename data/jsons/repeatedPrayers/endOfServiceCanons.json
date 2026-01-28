@@ -3,7 +3,7 @@
     "english_title": "Vespers & Matins Concluding Canon",
     "coptic_title": "",
     "arabic_title": "قانون ختام عشية وباكر",
-    "service": [
+    "services": [
       "vespers",
       "matins"
     ],
@@ -215,7 +215,7 @@
     "seasons": [
       "Feast of the Resurrection"
     ],
-    "service": [
+    "services": [
       "matins"
     ],
     "tbodies": [
@@ -270,7 +270,7 @@
     "english_title": "Concluding Canon",
     "coptic_title": "Ⲁ̀ⲣⲓⲧⲉⲛ ⲛ̀ⲉⲙⲡ̀ϣⲁ",
     "arabic_title": "قانون الختام",
-    "service": [
+    "services": [
       "matins",
       "vespers"
     ],
@@ -369,7 +369,7 @@
     "english_title": "Conclusion Canon",
     "coptic_title": "Ⲡ̀ⲧⲩⲡⲟⲥ",
     "arabic_title": "قانون الختام",
-    "service": [
+    "services": [
       "matins",
       "vespers"
     ],

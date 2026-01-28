@@ -5,6 +5,7 @@ import {
   getOptionalDefaultValue,
   repeatedPrayerSources,
 } from "../editorConfig.js";
+import RowEditor from "./baseTable/RowEditor.jsx";
 
 const HolyWeekEditor = ({
   formData,
@@ -88,6 +89,24 @@ const HolyWeekEditor = ({
         tbody.rows = Array.isArray(tbody.rows) ? tbody.rows.map((r) => ({ ...r })) : [];
         const row = { ...(tbody.rows[rowIndex] || {}) };
         row[field] = value;
+        tbody.rows[rowIndex] = row;
+        next.tbodies[tbodyIndex] = tbody;
+        return next;
+      });
+      setIsDirty(true);
+    },
+    [setIsDirty, updateHolyWeekTable]
+  );
+
+  const removeRowField = useCallback(
+    (tableIndex, tbodyIndex, rowIndex, field) => {
+      updateHolyWeekTable(tableIndex, (tbl) => {
+        const next = { ...tbl };
+        next.tbodies = Array.isArray(tbl.tbodies) ? tbl.tbodies.map((tb) => ({ ...tb })) : [];
+        const tbody = next.tbodies[tbodyIndex] || { rows: [] };
+        tbody.rows = Array.isArray(tbody.rows) ? tbody.rows.map((r) => ({ ...r })) : [];
+        const row = { ...(tbody.rows[rowIndex] || {}) };
+        if (field in row) delete row[field];
         tbody.rows[rowIndex] = row;
         next.tbodies[tbodyIndex] = tbody;
         return next;
@@ -236,6 +255,7 @@ const HolyWeekEditor = ({
     [setIsDirty, updateHolyWeekTable]
   );
 
+
   const setRepeatedVariable = useCallback(
     (tableIndex, key, value) => {
       updateHolyWeekTable(tableIndex, (tbl) => {
@@ -360,7 +380,7 @@ const HolyWeekEditor = ({
             const label = tbl?.english_title || tbl?.repeated_prayer_title || tbl?.title || `Table ${idx + 1}`;
             const optionalKey = `table-${idx}`;
             const optionalChoices = tableOptionalFields.filter((f) => tbl?.[f] === undefined);
-            const optionalSelected = hwOptionalSelect[optionalKey] || optionalChoices[0] || "";
+            const optionalSelected = hwOptionalSelect[optionalKey] || "";
             const isPlaceholder = Boolean(tbl?.repeated_prayer_title);
             return (
               <div
@@ -416,6 +436,9 @@ const HolyWeekEditor = ({
                             value={optionalSelected}
                             onChange={(e) => setHwOptionalSelect((prev) => ({ ...prev, [optionalKey]: e.target.value }))}
                           >
+                            <option value="" disabled>
+                              Choose a field
+                            </option>
                             {optionalChoices.map((f) => (
                               <option key={f} value={f}>
                                 {f}
@@ -425,7 +448,7 @@ const HolyWeekEditor = ({
                           <button
                             type="button"
                             className="secondary"
-                            onClick={() => addOptionalTableField(idx, optionalSelected || optionalChoices[0])}
+                            onClick={() => addOptionalTableField(idx, optionalSelected)}
                           >
                             Add variable
                           </button>
@@ -483,9 +506,12 @@ const HolyWeekEditor = ({
                         ))}
                         <div className="hw-optional">
                           <select
-                            value={hwOptionalSelect[`rep-${idx}`] || repeatedVarOptions[0]}
+                            value={hwOptionalSelect[`rep-${idx}`] || ""}
                             onChange={(e) => setHwOptionalSelect((prev) => ({ ...prev, [`rep-${idx}`]: e.target.value }))}
                           >
+                            <option value="" disabled>
+                              Choose a field
+                            </option>
                             {repeatedVarOptions.map((opt) => (
                               <option key={opt} value={opt}>
                                 {opt}
@@ -495,7 +521,7 @@ const HolyWeekEditor = ({
                           <button
                             type="button"
                             className="secondary"
-                            onClick={() => setRepeatedVariable(idx, hwOptionalSelect[`rep-${idx}`] || repeatedVarOptions[0], "")}
+                            onClick={() => setRepeatedVariable(idx, hwOptionalSelect[`rep-${idx}`], "")}
                           >
                             Add variable
                           </button>
@@ -520,87 +546,27 @@ const HolyWeekEditor = ({
                         <div className="hw-tbody-label">Tbody {tbodyIdx + 1}</div>
                       </div>
                       {(tbody?.rows || []).map((row, rowIdx) => (
-                        <div key={`row-${rowIdx}`} className="hw-row">
-                          <div className="hw-row-header">
-                            <button
-                              type="button"
-                              className="hw-remove hw-remove-row"
-                              title="Delete row"
-                              onClick={() => removeRow(idx, tbodyIdx, rowIdx)}
-                            >
-                              -
-                            </button>
-                            <label>
-                              row-class
-                              <select
-                                value={row?.["row-class"] || rowClassOptions[0] || ""}
-                                onChange={(e) => setRowField(idx, tbodyIdx, rowIdx, "row-class", e.target.value)}
-                              >
-                                {rowClassOptions.map((opt) => (
-                                  <option key={opt} value={opt}>
-                                    {opt}
-                                  </option>
-                                ))}
-                              </select>
-                            </label>
-                            <button type="button" className="secondary hw-add-row inline" onClick={() => addRow(idx, tbodyIdx, rowIdx)}>
-                              + row above
-                            </button>
-                          </div>
-                          <div className="hw-cells">
-                            {(row?.cells || []).map((cell, cellIdx) => {
-                              const entries = Object.entries(cell || {});
-                              const displayEntries = entries.length ? entries : [["english", ""]];
-                              return (
-                                <div key={`cell-${cellIdx}`} className="hw-cell">
-                                  <div className="hw-cell-title">Cell {cellIdx + 1}</div>
-                                  {displayEntries.map(([k, v], entryIdx) => (
-                                    <div key={`cell-entry-${entryIdx}`} className="hw-cell-entry">
-                                      <select
-                                        value={k}
-                                        onChange={(e) => setCellEntry(idx, tbodyIdx, rowIdx, cellIdx, entryIdx, e.target.value, v)}
-                                      >
-                                        {cellFieldOptions.map((opt) => (
-                                          <option key={opt} value={opt}>
-                                            {opt}
-                                          </option>
-                                        ))}
-                                      </select>
-                                      <input
-                                        value={v ?? ""}
-                                        onChange={(e) => setCellEntry(idx, tbodyIdx, rowIdx, cellIdx, entryIdx, k, e.target.value)}
-                                      />
-                                      <button
-                                        type="button"
-                                        className="hw-remove hw-remove-cell-field"
-                                        onClick={() => removeCellEntry(idx, tbodyIdx, rowIdx, cellIdx, entryIdx)}
-                                      >
-                                        -
-                                      </button>
-                                    </div>
-                                  ))}
-                                  <button
-                                    type="button"
-                                    className="secondary hw-add-cell-entry"
-                                    onClick={() => addCellEntry(idx, tbodyIdx, rowIdx, cellIdx)}
-                                  >
-                                    Add cell field
-                                  </button>
-                                </div>
-                              );
-                            })}
-                            {!(row?.cells || []).length && (
-                              <button
-                                type="button"
-                                className="secondary hw-add-cell-entry"
-                                onClick={() => addCellEntry(idx, tbodyIdx, rowIdx, (row?.cells || []).length)}
-                              >
-                                Add cell field
-                              </button>
-                            )}
-                          </div>
-                        </div>
+                        <RowEditor
+                          key={`row-${rowIdx}`}
+                          row={row}
+                          rowClassOptions={rowClassOptions}
+                          onRemoveRow={() => removeRow(idx, tbodyIdx, rowIdx)}
+                          onAddRowAbove={() => addRow(idx, tbodyIdx, rowIdx)}
+                          onRowClassChange={(value) => setRowField(idx, tbodyIdx, rowIdx, "row-class", value)}
+                          onSetRowField={(field, value) => setRowField(idx, tbodyIdx, rowIdx, field, value)}
+                          onRemoveRowField={(field) => removeRowField(idx, tbodyIdx, rowIdx, field)}
+                          onAddCellEntry={(cellIdx) => addCellEntry(idx, tbodyIdx, rowIdx, cellIdx)}
+                          onSetCellEntry={(cellIdx, entryIdx, key, value) =>
+                            setCellEntry(idx, tbodyIdx, rowIdx, cellIdx, entryIdx, key, value)
+                          }
+                          onRemoveCellEntry={(cellIdx, entryIdx) => removeCellEntry(idx, tbodyIdx, rowIdx, cellIdx, entryIdx)}
+                          addRowAboveLabel="+ row above"
+                          removeRowLabel="-"
+                          addCellLabel="Add cell field"
+                          emptyCellLabel="Add cell field"
+                        />
                       ))}
+
                       {(tbody?.rows || []).length > 0 && (
                         <div className="hw-row-footer">
                           <button type="button" className="secondary hw-add-row" onClick={() => addRow(idx, tbodyIdx, (tbody?.rows || []).length)}>

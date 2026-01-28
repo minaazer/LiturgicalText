@@ -25,8 +25,8 @@
           {
             "row-class": "text",
             "services": [
-              "Matins",
-              "Vespers"
+              "matins",
+              "vespers"
             ],
             "seasons": [
               "Feast of the Theophany",
@@ -72,7 +72,7 @@
             "seasons": [
               "Feast of the Annunciation"
             ],
-            "service": [
+            "services": [
               "liturgy"
             ],
             "cells": [
@@ -100,7 +100,7 @@
             "seasons": [
               "Feast of the Nativity"
             ],
-            "service": [
+            "services": [
               "vespers",
               "matins"
             ],
@@ -211,7 +211,7 @@
               "Feast of the Resurrection",
               "Holy 50 Days - Before Ascension"
             ],
-            "service": [
+            "services": [
               "vespers",
               "matins"
             ],
@@ -229,7 +229,7 @@
               "Feast of the Resurrection",
               "Holy 50 Days - Before Ascension"
             ],
-            "service": [
+            "services": [
               "liturgy"
             ],
             "cells": [
@@ -298,8 +298,8 @@
           },
           {
             "row-class": "text",
-            "season": "Feast of Pentecost",
-            "service": [
+            "seasons": ["Feast of Pentecost"],
+            "services": [
               "liturgy"
             ],
             "cells": [
@@ -338,8 +338,8 @@
           },
           {
             "row-class": "text",
-            "season": "Presentation of the Lord Christ in the Temple",
-            "service": [
+            "seasons": ["Presentation of the Lord Christ in the Temple"],
+            "services": [
               "liturgy"
             ],
             "cells": [
@@ -367,7 +367,7 @@
             "seasons": [
               "Entrance of the Lord Christ into the Land of Egypt"
             ],
-            "service": [
+            "services": [
               "vespers"
             ],
             "cells": [
@@ -383,7 +383,7 @@
             "seasons": [
               "Entrance of the Lord Christ into the Land of Egypt"
             ],
-            "service": [
+            "services": [
               "liturgy"
             ],
             "cells": [
@@ -399,7 +399,7 @@
             "seasons": [
               "Entrance of the Lord Christ into the Land of Egypt"
             ],
-            "service": [
+            "services": [
               "liturgy"
             ],
             "cells": [
@@ -415,7 +415,7 @@
             "seasons": [
               "Entrance of the Lord Christ into the Land of Egypt"
             ],
-            "service": [
+            "services": [
               "liturgy"
             ],
             "cells": [
@@ -431,7 +431,7 @@
             "seasons": [
               "Entrance of the Lord Christ into the Land of Egypt"
             ],
-            "service": [
+            "services": [
               "liturgy"
             ],
             "cells": [
@@ -460,7 +460,7 @@
             "seasons": [
               "Feast of the Wedding at Cana of Galilee"
             ],
-            "service": [
+            "services": [
               "liturgy"
             ],
             "cells": [
@@ -488,7 +488,7 @@
             "seasons": [
               "Feast of the Transfiguration"
             ],
-            "service": [
+            "services": [
               "liturgy"
             ],
             "cells": [
@@ -516,7 +516,7 @@
             "seasons": [
               "Nayrouz (Coptic New Year)"
             ],
-            "service": [
+            "services": [
               "liturgy"
             ],
             "cells": [
@@ -556,7 +556,7 @@
               "Apostles' Fast",
               "Feast of the Apostles (Peter & Paul)"
             ],
-            "service": [
+            "services": [
               "liturgy"
             ],
             "cells": [

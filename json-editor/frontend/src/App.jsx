@@ -144,7 +144,6 @@ const App = () => {
   const [baseTablesMenuOpen, setBaseTablesMenuOpen] = useState(false);
   const [baseCategoryIndex, setBaseCategoryIndex] = useState(0);
   const [baseArrayDrafts, setBaseArrayDrafts] = useState({});
-  const [rowArrayDrafts, setRowArrayDrafts] = useState({});
   const [hwOptionalSelect, setHwOptionalSelect] = useState({});
   const [baseOptionalSelect, setBaseOptionalSelect] = useState({});
   const [history, setHistory] = useState([]);
@@ -2024,8 +2023,6 @@ const App = () => {
                 <RowOnlyEditor
                   rowOnlyData={rowOnlyData}
                   rowClassOptions={rowClassOptions}
-                  rowArrayDrafts={rowArrayDrafts}
-                  setRowArrayDrafts={setRowArrayDrafts}
                   setFormData={applyFormData}
                   setIsDirty={setIsDirty}
                 />

@@ -694,8 +694,8 @@ export function filterByDayProps(
       if (itemAbstainingDay !== abstainingDay) return false;
     }
 
-    if (hasValue(item.service)) {
-      if (!hasValue(service) || item.service !== service) {
+    if (hasValue(item.services)) {
+      if (!hasValue(service) || !Array.isArray(item.services) || !item.services.includes(service)) {
         return false;
       }
     }

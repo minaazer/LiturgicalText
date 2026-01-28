@@ -70,7 +70,7 @@
       },
       {
         "row-class": "text",
-        "season": "Feast of Pentecost",
+        "seasons": ["Feast of Pentecost"],
         "cells": [
           {
             "english": "Christ has risen and ascended, and sent us the Paraclete.<br/>",

@@ -1,67 +1,51 @@
+import {
+  BASE_REPEATED_VAR_OPTIONS,
+  CELL_FIELD_OPTIONS,
+  REPEATED_PRAYER_SOURCES,
+  REPEATED_VAR_OPTIONS,
+  ROW_ARRAY_FIELDS,
+  ROW_BOOLEAN_FIELDS,
+  ROW_CLASS_OPTIONS,
+  ROW_FIELD_LABELS,
+  ROW_FIELD_OPTIONS,
+  ROW_OPTIONAL_FIELDS,
+  TABLE_ARRAY_FIELDS,
+  TABLE_BOOLEAN_FIELDS,
+  TABLE_FIELD_OPTIONS,
+  TABLE_FIELD_LABELS,
+  TABLE_OPTIONAL_FIELDS,
+  getCategoryOptionsForSource,
+} from "./editorDropdowns.js";
+
 export const emptyArray = [];
 
-export const rowClassOptions = [
-  "Intro",
-  "Refrain",
-  "commentary",
-  "congregation",
-  "intro",
-  "navigationButton",
-  "navigationLink",
-  "north",
-  "priest",
-  "refrain",
-  "silent-prayer",
-  "south",
-  "text",
-];
+export const rowClassOptions = ROW_CLASS_OPTIONS;
 
-export const tableOptionalFields = [
-  "coptic_title",
-  "arabic_title",
-  "title",
-  "nonTraditionalPascha",
-  "postFirstCanticleNonSunday",
-  "theotokiasIndex",
-  "defaultVisibility",
-  "explanation_button",
-  "image_button",
-  "caption_class",
-  "themes",
-  "seasons",
-  "excludedSeasons",
-  "placement",
-  "saints",
-  "service",
-  "table_class",
-  "dayOfTheWeek",
-  "weekdayWeekend",
-  "category",
-  "aktonkAki",
-];
+export const tableOptionalFields = TABLE_OPTIONAL_FIELDS;
 
-export const tableBooleanFields = [
-  "nonTraditionalPascha",
-  "postFirstCanticleNonSunday",
-  "theotokiasIndex",
-  "defaultVisibility",
-];
+export const tableBooleanFields = TABLE_BOOLEAN_FIELDS;
 
-export const tableArrayFields = ["themes", "seasons", "excludedSeasons", "placement", "saints", "dayOfTheWeek"];
+export const tableArrayFields = TABLE_ARRAY_FIELDS;
 
-export const cellFieldOptions = ["english", "arabic", "coptic", "englishLink", "arabicLink"];
+export const tableFieldOptions = TABLE_FIELD_OPTIONS;
 
-export const repeatedVarOptions = [
-  "hour",
-  "paschalPraise",
-  "noProstrations",
-  "nonTraditionalPascha",
-  "firstVerse",
-  "season",
-  "eshlil",
-];
+export const tableFieldLabels = TABLE_FIELD_LABELS;
 
-export const baseRepeatedVarOptions = ["season", "passToTable.dayOfTheWeek"];
+export const cellFieldOptions = CELL_FIELD_OPTIONS;
+
+export const rowOptionalFields = ROW_OPTIONAL_FIELDS;
+
+export const rowBooleanFields = ROW_BOOLEAN_FIELDS;
+
+export const rowArrayFields = ROW_ARRAY_FIELDS;
+
+export const rowFieldOptions = ROW_FIELD_OPTIONS;
+
+export const rowFieldLabels = ROW_FIELD_LABELS;
+
+export const repeatedVarOptions = REPEATED_VAR_OPTIONS;
+
+export const baseRepeatedVarOptions = BASE_REPEATED_VAR_OPTIONS;
 
 export const getOptionalDefaultValue = (field) => {
   if (tableBooleanFields.includes(field)) return false;
@@ -69,15 +53,6 @@ export const getOptionalDefaultValue = (field) => {
   return "";
 };
 
-export const repeatedPrayerSources = [
-  { label: "Holy Week", value: "Holy Week", categories: ["general", "prayers"] },
-  { label: "Annual", value: "Annual", categories: ["hymns", "liturgical", "praises", "prayers"] },
-  { label: "Seasonal", value: "Seasonal", categories: ["hymns", "parlexes"] },
-  { label: "Seasonal Praises", value: "Seasonal Praises", categories: ["general"] },
-  { label: "Agpeya Prayers", value: "Agpeya Prayers", categories: [] },
-];
+export const repeatedPrayerSources = REPEATED_PRAYER_SOURCES;
 
-export const getCategoryOptionsForSource = (sourceValue) => {
-  const entry = repeatedPrayerSources.find((s) => s.value === sourceValue);
-  return entry?.categories || [];
-};
+export { getCategoryOptionsForSource };

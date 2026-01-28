@@ -11522,7 +11522,7 @@
         "arabic_title": "طرح آدام للفعلة القديسين",
         "table_class": "table-invisible",
         "caption_class": "caption table-invisible",
-        "season": "Kiahk",
+        "seasons": ["Kiahk"],
         "adamWatos": "Adam",
         "placement": [
           "preTheotokiaConclusion"
@@ -11721,7 +11721,7 @@
         "arabic_title": "ختام طرح الفعلة",
         "table_class": "table-invisible",
         "caption_class": "caption table-invisible",
-        "season": "Kiahk",
+        "seasons": ["Kiahk"],
         "adamWatos": "Adam",
         "placement": [
           "preTheotokiaConclusion"

@@ -3,7 +3,7 @@
     "english_title": "Exposition of the Feast of Theophany",
     "coptic_title": "",
     "arabic_title": "طرح عيد الظهور الإلهي",
-    "service": [
+    "services": [
       "liturgy"
     ],
     "seasons": [
@@ -111,7 +111,7 @@
     "english_title": "The Exposition",
     "coptic_title": "Ⲙⲁϣⲉⲛⲁⲕ ϩⲓϫⲉⲛ ⲟⲩⲧⲱⲟⲩ",
     "arabic_title": "الطرح",
-    "service": [
+    "services": [
       "vespers"
     ],
     "seasons": [
@@ -319,7 +319,7 @@
     "english_title": "The Exposition Response",
     "coptic_title": "",
     "arabic_title": "مرد الطرح",
-    "service": [
+    "services": [
       "vespers"
     ],
     "seasons": [

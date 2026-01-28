@@ -70,7 +70,7 @@
       },
       {
         "row-class": "text",
-        "season": "Feast of Pentecost",
+        "seasons": ["Feast of Pentecost"],
         "cells": [
           {
             "english": "We proclaim saying: “O our Lord Jesus Christ, who has risen and ascended, and sent to us the Paraclete, the Spirit of truth.",
@@ -133,7 +133,7 @@
       },
       {
         "row-class": "text",
-        "season": "Feast of the Transfiguration",
+        "seasons": ["Feast of the Transfiguration"],
         "cells": [
           {
             "english": "We proclaim saying: O our Lord Jesus Christ. The Son of God, was transfigured upon Mount Tabor.",

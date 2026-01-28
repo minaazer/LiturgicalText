@@ -116,6 +116,9 @@ const changelog = {
     "Fixed praise of 'I thank you, O God of Jacob' translation",
     "Improved performance and stability"
   ],
+  "1.0.99": [
+    "Various bug and ui fixes"
+  ],
 };
 
 export default changelog;

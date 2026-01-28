@@ -38,8 +38,8 @@ const shouldIncludeDoxology = ({
     return false;
   }
 
-  if (table.service && table.service !== source) {
-    console.log("source mismatch", { tableSource: table.service, source });
+  if (Array.isArray(table.services) && !table.services.includes(source)) {
+    console.log("source mismatch", { tableSource: table.services, source });
     return false;
   }
 

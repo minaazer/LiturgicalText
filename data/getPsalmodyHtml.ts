@@ -41,7 +41,7 @@ function getPsalis(adamWatos, dayOfTheWeek, weekdayWeekend, seasons, service, da
         if (hasValue(adamWatos) && hasValue(psali.adamWatos) && psali.adamWatos !== adamWatos) return false;
         if (hasValue(dayOfTheWeek) && hasValue(psali.dayOfTheWeek) && psali.dayOfTheWeek !== dayOfTheWeek) return false;
         if (hasValue(weekdayWeekend) && hasValue(psali.weekdayWeekend) && psali.weekdayWeekend !== weekdayWeekend) return false;
-        if (hasValue(service) && hasValue(psali.service) && psali.service !== service) return false;
+        if (hasValue(service) && Array.isArray(psali.services) && !psali.services.includes(service)) return false;
         if (hasValue(seasons) && hasValue(psali.seasons)) {
             const requestedSeasons = normalizeToArray(seasons);
             const psaliSeasons = normalizeToArray(psali.seasons);

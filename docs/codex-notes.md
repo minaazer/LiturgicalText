@@ -104,12 +104,15 @@ powershell -ExecutionPolicy Bypass -File json-editor/scripts/deploy_backend.ps1 
   -JsonBucketName liturgicalbooks-json `
   -Profile liturgicalbooks `
   -Region us-east-1
-  
+
   
 ************ Frontend Deploy
 powershell -ExecutionPolicy Bypass -File json-editor/scripts/deploy_frontend.ps1 `
   -Bucket liturgicalbooks-editor-ui `
   -Profile liturgicalbooks
+
+
+
 
 aws cloudfront get-invalidation --distribution-id E3U8PRC9BR5M03 --id IB6BWSPCJEGHULXOTPVKMPHGCT --profile liturgicalbooks
 
@@ -199,3 +202,17 @@ aws cognito-idp list-users-in-group `
 |  georgetadros98@gmail.com    |  George Tadros |  editor |  georgetadros  |
 |  georgef1515@gmail.com       |  George Farag  |  editor |  georgefarag   |
 +------------------------------+----------------+---------+----------------+
+
+----------------------
+Recent editor changes (Jan 2026)
+- JSON editor UI refactor: extracted shared row/cell editors (RowEditor/RowFieldsEditor/CellsEditor/CellValueTextarea) used by BaseTable + HolyWeek + RowOnly.
+- Cell inputs: multiline auto-grow textarea (up to 10 lines) with RTL for arabic/arabicLink; matched font + border styling.
+- Row UI compacting: row header is multi-column; add-row-field selector inline; add-cell button moved to a small icon in cell header.
+- Row fields: array fields now use compact multi-select with suggestions + free text.
+- Dropdowns centralized in `json-editor/frontend/src/editorDropdowns.js` with labels + options; editorConfig now imports from it.
+- New labels: table + row field display names (Title Case) via label maps.
+- New dropdown options: `services` array now suggests liturgy/vespers/matins/midnightPraises/vespersPraises/morningDoxology.
+- Added table field: `abstainingDays` (boolean) + schema updates.
+- Fixed `services` usage in data: `data/doxologies.ts` and `data/getPsalmodyHtml.ts` now treat services as array.
+- Removed typo fields from editor options: `seasonsExclude`, `seasonse`, and `season` (repeated prayer vars now use `seasons`).
+- Schemas updated to replace `season` with `seasons` in common + repeatedPrayers schemas.

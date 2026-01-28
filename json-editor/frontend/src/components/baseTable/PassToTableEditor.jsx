@@ -26,7 +26,7 @@ const PassToTableEditor = ({
   );
 
   const addKey = () => {
-    const key = (selectedKey || availableKeys[0] || "").trim();
+    const key = (selectedKey || "").trim();
     if (!key) return;
     const type = getValueType(key, undefined, arrayKeys, boolKeys);
     const defaultVal = type === "array" ? [] : type === "boolean" ? false : "";
@@ -122,7 +122,10 @@ const PassToTableEditor = ({
       {Object.entries(data || {}).map(([k, v]) => renderEntry(k, v))}
       {availableKeys.length > 0 && (
         <div className="hw-optional">
-          <select value={selectedKey || availableKeys[0]} onChange={(e) => setSelectedKey(e.target.value)}>
+          <select value={selectedKey} onChange={(e) => setSelectedKey(e.target.value)}>
+            <option value="" disabled>
+              Choose a field
+            </option>
             {availableKeys.map((opt) => (
               <option key={opt} value={opt}>
                 {opt}

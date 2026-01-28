@@ -4231,7 +4231,7 @@
     "english_title": "St. Mary Doxology - Vespers",
     "coptic_title": "Ⲉⲣⲉ ⲡ̀ⲥⲟⲗⲥⲉⲗ ⲙ̀Ⲙⲁⲣⲓⲁⲙ",
     "arabic_title": "للعذراء مريم - عشية",
-    "service": "vespers",
+    "services": ["vespers"],
     "excludedSeasons": [
       "Kiahk"
     ],
@@ -4308,7 +4308,7 @@
     "english_title": "St. Mary Doxology - Midnight Praise",
     "coptic_title": "Ⲧⲉⲙⲉⲧⲛⲓϣϯ ⲱ̀ Ⲙⲁⲣⲓⲁ",
     "arabic_title": "ذوكصولوجية تسبحة نصف اليل للعذراء",
-    "service": "midnightPraises",
+    "services": ["midnightPraises"],
     "excludedSeasons": [
       "Kiahk"
     ],
@@ -4388,7 +4388,7 @@
     "excludedSeasons": [
       "Kiahk"
     ],
-    "service": "matins",
+    "services": ["matins"],
     "caption_class": "caption",
     "tbodies": [
       {
@@ -9868,7 +9868,7 @@
     "english_title": "Doxologies Conclusion Adam Continuation",
     "coptic_title": "",
     "arabic_title": "تكملة ختام الذوكصولوجيات آدم",
-    "service": "midnightPraises",
+    "services": ["midnightPraises"],
     "adamWatos": "Adam",
     "tbodies": [
       {

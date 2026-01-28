@@ -28,7 +28,7 @@ const RepeatedPrayerVariablesEditor = ({
   );
 
   const addVar = () => {
-    const key = (varKeyDraft || availableVarKeys[0] || "").trim();
+    const key = (varKeyDraft || "").trim();
     if (!key) return;
     if (key === "passToTable") {
       onChangeVar("passToTable", {});
@@ -139,7 +139,10 @@ const RepeatedPrayerVariablesEditor = ({
 
       {availableVarKeys.length > 0 && (
         <div className="hw-optional">
-          <select value={varKeyDraft || availableVarKeys[0]} onChange={(e) => setVarKeyDraft(e.target.value)}>
+          <select value={varKeyDraft} onChange={(e) => setVarKeyDraft(e.target.value)}>
+            <option value="" disabled>
+              Choose a field
+            </option>
             {availableVarKeys.map((opt) => (
               <option key={opt} value={opt}>
                 {opt}

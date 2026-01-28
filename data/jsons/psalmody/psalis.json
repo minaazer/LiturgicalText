@@ -8396,7 +8396,7 @@
     "arabic_title": "إبصالية أدام (ثاني يوم القيامة)",
     "caption_class": "caption",
     "adamWatos": "Adam",
-    "service": "Vespers Praises",
+    "services": ["Vespers Praises"],
     "seasons": "2nd Day of the Resurrection",
     "themes": [],
     "tbodies": [
@@ -8653,7 +8653,7 @@
     "arabic_title": "إبصالية أدام (ثاني يوم القيامة)",
     "caption_class": "caption",
     "adamWatos": "Adam",
-    "service": "Midnight Praises",
+    "services": ["Midnight Praises"],
     "seasons": "2nd Day of the Resurrection",
     "themes": [],
     "tbodies": [
