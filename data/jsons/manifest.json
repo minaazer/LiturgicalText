@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-01-28T17:51:28.025Z",
+  "generatedAt": "2026-02-05T17:43:35.171Z",
   "files": [
     {
       "path": "_schemas/agpeya/prime_hour.schema.json",
@@ -44,8 +44,8 @@
     },
     {
       "path": "_schemas/common/table_base.schema.json",
-      "hash": "ce2ea8a505bbd64b9f0d159901f7ebeb04494e9f9d551eb846b7be346aacc557",
-      "size": 9158
+      "hash": "f2a8745bee3d7abe9b5f583bf052ef23a3b7e45910ccf6374d8eed6ada3b2edc",
+      "size": 9288
     },
     {
       "path": "_schemas/explanations.schema.json",
@@ -384,18 +384,18 @@
     },
     {
       "path": "psalmody/psalis.json",
-      "hash": "8b19fb0c6d54b0bd231bcb5a69916e61c26fe55158150eebb1acfb67f736870b",
-      "size": 983966
+      "hash": "dbc3fd54ff29bece8d11cc7923c20fbd21941e33d7455a69366fe51c7da18c55",
+      "size": 1008307
     },
     {
       "path": "psalmody/psalmody.json",
-      "hash": "48b34b5c78709aa6079ae4953180e54173e6701adbc0688237ede197c0e9ab75",
-      "size": 323216
+      "hash": "294586d3dfeeb81a34af73f12cde5611c479a52736a567333ccfefbee88782e4",
+      "size": 323339
     },
     {
       "path": "psalmody/seasonalPraises.json",
-      "hash": "e45d62183bcdaee76a13de2cd8521bbe8446f6f900cf23698c0a60cbd1b20592",
-      "size": 789061
+      "hash": "3af0ff2d627468cbfdfd3d84d38f5ba8188458b0cd7e3dba97bcdc5916d960a1",
+      "size": 1019037
     },
     {
       "path": "psalmody/theotokias.json",

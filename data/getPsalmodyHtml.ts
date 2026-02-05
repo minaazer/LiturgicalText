@@ -8,6 +8,12 @@ import { getJsonSync } from '../components/functions/jsonCache';
 const daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 const hasValue = (value) => value !== undefined && value !== null && value !== '';
 const normalizeToArray = (value) => Array.isArray(value) ? value : [value];
+const matchesDayOfTheWeek = (entryDay, requestedDay) => {
+    if (!hasValue(entryDay) || !hasValue(requestedDay)) return true;
+    const entryDays = normalizeToArray(entryDay);
+    const requestedDays = normalizeToArray(requestedDay);
+    return entryDays.some((d) => requestedDays.includes(d));
+};
 const isTable = (value) =>
     value &&
     typeof value === 'object' &&
@@ -39,7 +45,7 @@ const addPassToTables = (target, passToTable) => {
 function getPsalis(adamWatos, dayOfTheWeek, weekdayWeekend, seasons, service, data = psalisData) {
     return data.filter((psali) => {
         if (hasValue(adamWatos) && hasValue(psali.adamWatos) && psali.adamWatos !== adamWatos) return false;
-        if (hasValue(dayOfTheWeek) && hasValue(psali.dayOfTheWeek) && psali.dayOfTheWeek !== dayOfTheWeek) return false;
+        if (!matchesDayOfTheWeek(psali.dayOfTheWeek, dayOfTheWeek)) return false;
         if (hasValue(weekdayWeekend) && hasValue(psali.weekdayWeekend) && psali.weekdayWeekend !== weekdayWeekend) return false;
         if (hasValue(service) && Array.isArray(psali.services) && !psali.services.includes(service)) return false;
         if (hasValue(seasons) && hasValue(psali.seasons)) {
@@ -55,7 +61,7 @@ function getPsalis(adamWatos, dayOfTheWeek, weekdayWeekend, seasons, service, da
 function getTheotokia(adamWatos,dayOfTheWeek,aktonkAki, data = theotokiaData) {
     return data.filter((theotokia) => {
         if (hasValue(adamWatos) && hasValue(theotokia.adamWatos) && theotokia.adamWatos !== adamWatos) return false;
-        if (hasValue(dayOfTheWeek) && hasValue(theotokia.dayOfTheWeek) && theotokia.dayOfTheWeek !== dayOfTheWeek) return false;
+        if (!matchesDayOfTheWeek(theotokia.dayOfTheWeek, dayOfTheWeek)) return false;
         if (hasValue(aktonkAki?.english) && hasValue(theotokia.aktonkAki) && theotokia.aktonkAki !== aktonkAki.english) return false;
         return true;
     });

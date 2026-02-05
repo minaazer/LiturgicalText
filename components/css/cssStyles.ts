@@ -252,7 +252,7 @@ td.column-1-1 {
     text-align: justify;
     text-justify: newspaper;
     display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'inline'};
-    line-height: 1.2 !important;
+    line-height: 1.4 !important;
 
 }
 
@@ -262,7 +262,7 @@ td.column-1-1 {
     font-family: 'Georgia' !important;
     text-align: justify;
     display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'inline'};
-    line-height: 1.2 !important;
+    line-height: 1.4 !important;
 
 }
 

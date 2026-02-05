@@ -3691,6 +3691,11 @@
   {
     "source": "Seasonal Praises",
     "category": "general",
+    "repeated_prayer_placement": "preFourthCanticle"
+  },
+  {
+    "source": "Seasonal Praises",
+    "category": "general",
     "repeated_prayer_placement": "preFourthCanticleSunday",
     "repeated_prayer_variables": {
       "passToTable": {
