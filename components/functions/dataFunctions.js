@@ -243,6 +243,38 @@ export function processTemplate(template, variables) {
 processTemplate._missingTemplateKeysByTemplate;
 
 /**
+ * Replace western commas with Arabic commas only inside Arabic-style parenthetical references.
+ * Example: "المزمور (٢٧: ١٢, ٣٥: ١١ - ١٢, ١٦)" -> "المزمور (٢٧: ١٢، ٣٥: ١١ - ١٢، ١٦)"
+ * @param {string} text
+ * @returns {string}
+ */
+function formatArabicTitleReferences(text) {
+  if (typeof text !== "string" || text.length === 0) return "";
+
+  return text.replace(/\(([^()]*)\)/g, (fullMatch, innerText) => {
+    const looksLikeArabicReference =
+      /[\u0600-\u06FF]/.test(innerText) &&
+      /[:\u0660-\u0669\u06F0-\u06F90-9]/.test(innerText);
+
+    if (!looksLikeArabicReference) return fullMatch;
+
+    return `(${innerText.replace(/,/g, "،")})`;
+  });
+}
+
+/**
+ * Move trailing parenthetical Bible references onto a second line.
+ * Example: "Coptic Psalm (Ps. 27:12, 35:11-12, 16)" -> "Coptic Psalm<br>(Ps. 27:12, 35:11-12, 16)"
+ * @param {string} text
+ * @returns {string}
+ */
+function moveTitleReferenceToSecondLine(text) {
+  if (typeof text !== "string" || text.length === 0) return "";
+
+  return text.replace(/\s+(\((?=[^()]*[:\u0660-\u0669\u06F0-\u06F90-9])[^()]*\))$/g, "<br>$1");
+}
+
+/**
  * @param {TableRow[]} rows
  * @param {{
  *   filterRows?: (row: TableRow) => boolean,
@@ -316,9 +348,6 @@ export function renderHtmlTable(
   const captionDisplayStyle = captionDisplay
     ? `style="display: ${captionDisplay}"`
     : "";
-  const explanationIcon = iconVars.book || "";
-  const imageIcon = iconVars.musicalNote || "";
-  const audioIcon = iconVars.playPause || "";
   const stableTableIdRaw = table.table_id || table.tableId;
   const stableTableId =
     typeof stableTableIdRaw === "string" && stableTableIdRaw.trim()
@@ -344,38 +373,71 @@ export function renderHtmlTable(
   const isHeaderTable =
     captionClassTokens.includes("header-table") ||
     tableClassTokens.includes("header-table");
+  const hasEnglishTitle = Boolean(table.english_title || table.english_caption);
+  const hasCopticTitle = Boolean(table.coptic_title || table.coptic_caption);
+  const hasArabicTitle = Boolean(table.arabic_title || table.arabic_caption);
+  const isEnglishArabicCaption =
+    hasEnglishTitle && hasArabicTitle && !hasCopticTitle;
+  const isThreeLanguageCaption =
+    hasEnglishTitle && hasCopticTitle && hasArabicTitle;
   const captionClass = isHeaderTable && !captionClassTokens.includes("header-table")
     ? `${captionClassRaw} header-table`.trim()
     : captionClassRaw;
+  const captionLayoutClass = isThreeLanguageCaption
+    ? "caption-three-lang"
+    : isEnglishArabicCaption
+    ? "caption-two-lang-en-ar"
+    : "";
+  const captionClasses = ["caption", captionClass, captionLayoutClass]
+    .filter(Boolean)
+    .join(" ");
+  const renderedEnglishCaption = hasEnglishTitle
+    ? moveTitleReferenceToSecondLine(
+        processTemplate(
+          table.english_title || table.english_caption,
+          variables
+        )
+      )
+    : "";
+  const renderedArabicCaption = hasArabicTitle
+    ? moveTitleReferenceToSecondLine(
+        formatArabicTitleReferences(
+          processTemplate(
+            table.arabic_title || table.arabic_caption,
+            variables
+          )
+        )
+      )
+    : "";
+  const captionTitleParts = [
+    renderedEnglishCaption
+      ? `<span class="english-caption">${renderedEnglishCaption}</span>`
+      : "",
+    table.coptic_title || table.coptic_caption
+      ? `<span class="coptic-caption">${processTemplate(
+          table.coptic_title || table.coptic_caption,
+          variables
+        )}</span>`
+      : "",
+    renderedArabicCaption
+      ? `<span class="arabic-caption">${renderedArabicCaption}</span>`
+      : "",
+  ].filter(Boolean);
+  const captionTitlesHtml = captionTitleParts
+    .map((part, index) =>
+      index < captionTitleParts.length - 1
+        ? `${part}<span class="caption-separator" aria-hidden="true">|</span>`
+        : part
+    )
+    .join("");
 
   const captionHtml =
     table.english_title || table.english_caption
       ? `
-        <caption class="caption ${captionClass}" id="caption_table_${tableIdx}" ${captionDisplayStyle}>
+        <caption class="${captionClasses}" id="caption_table_${tableIdx}" ${captionDisplayStyle}>
+            <span class="caption-toggle" aria-hidden="true"></span>
             <div class="caption-texts">
-              <span class="english-caption">
-                ${processTemplate(
-                  table.english_title || table.english_caption,
-                  variables
-                )}
-              </span>
-              ${
-                table.coptic_title || table.coptic_caption
-                  ? ` <span class="coptic-caption">${processTemplate(
-                      table.coptic_title || table.coptic_caption,
-                      variables
-                    )}</span> `
-                  : ""
-              }
-              ${
-                table.arabic_title || table.arabic_caption
-                  ? ` <span class="arabic-caption">${processTemplate(
-                      table.arabic_title || table.arabic_caption,
-                      variables
-                    )}</span> `
-                  : ""
-              }
-              
+              ${captionTitlesHtml}
             </div>
             <div class="caption-actions">
               ${
@@ -383,7 +445,7 @@ export function renderHtmlTable(
                 ? `<span class="explanation-button" data-message='${processTemplate(
                     table.explanation_button,
                     variables
-                  )}'>${explanationIcon}</span>`
+                  )}' aria-hidden="true"></span>`
                 : ""
             }
             ${
@@ -391,7 +453,7 @@ export function renderHtmlTable(
                 ? `<span class="image-button" data-message='${processTemplate(
                     table.image_button,
                     variables
-                  )}'>${imageIcon}</span>`
+                  )}' aria-hidden="true"></span>`
                 : ""
             }
             ${
@@ -399,7 +461,7 @@ export function renderHtmlTable(
                 ? `<span class="audio-button" data-message='${processTemplate(
                     table.audio_file,
                     variables
-                  )}'>${audioIcon}</span>`
+                  )}' aria-hidden="true"></span>`
                 : ""
             }
             
@@ -505,13 +567,14 @@ export function renderHtmlTable(
                         .map(([lang, value], idx) => {
                           const navAttrForCell =
                             idx === 0 ? dataNavigationAttr : "";
+                          const langAttr = lang === "arabic" ? ' lang="ar"' : "";
                           const templateValue =
                             typeof value === "string" ||
                             typeof value === "number" ||
                             typeof value === "boolean"
                               ? value
                               : "";
-                          return `<td class="${lang}"${navAttrForCell}>${processTemplate(
+                          return `<td class="${lang}"${langAttr}${navAttrForCell}>${processTemplate(
                             templateValue,
                             variables
                           )}</td>`;

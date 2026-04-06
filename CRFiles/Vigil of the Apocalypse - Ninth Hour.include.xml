@@ -1,0 +1,504 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Document xmlns="http://www.suscopts.org/CopticReader" Pascha="true" FixedDateDocument="true">
+   <ForceSeason id="Fasts ^ PaschaWeek ^ WatosDays ^ Weekend ^ JoyousSaturday ^ Saturdays ^ FuneralTune ^ SeasonOfAirAndFruits">
+      <Title>
+         <Language id="English">Prayer of the Ninth Hour</Language>      
+         <Language id="Arabic">صلاة الساعة التاسعة</Language>
+      </Title>
+      
+      <Comment>
+         <Language id="English">
+            The Agpeya Psalms of the Ninth Hour are read inaudibly, distributed on the entire congregation.
+         </Language>
+      </Comment>
+      
+      <Role id="Introduction">
+      <Text>
+         <Language id="English">
+            The prayer of the ninth hour of this blessed day, we offer to Christ our King and our God, beseeching Him to forgive us our sins.
+         </Language>
+         <Language id="Arabic">
+            تسبِحةُ الساعةِ التاسِعةِ مِنَ النهارِ المُبارَكِ أقدِّمُها للمسيحِ ملكي وإلهي، وأرجوهُ أن يغفِرَ لي خطايايَ.
+         </Language>
+      </Text>
+   </Role>
+             
+   <Text>
+      <Language id="English">
+         From the Psalms of our teacher David the prophet.  May his blessings be upon us all. Amen.
+      </Language>
+      <Language id="Arabic">
+         مِنْ مزاميرِ مُعلِّمِنا داودَ النبي بركاتِهِ علينا. آمين.
+      </Language>
+   </Text>    
+<Comment>
+      <Language id="English">
+         The following psalms are reserved to be prayed by the priest:
+         <ul>
+            <li>Psalm 95</li>
+            <li>Psalm 109</li>
+            <li>Psalm 115</li>
+         </ul>
+      </Language>
+   </Comment>
+<Section expanded="true">
+      <Title>
+         <Language id="English">
+            Psalm 95 - Sing to the Lord a new song; sing to the Lord...
+         </Language>
+         <Language id="Arabic">
+            المزمورُ الخامسُ والتسعونَ - سبِّحُوا الربَّ تسبيحاً جديداً، سبِّحِي الربَّ...
+         </Language>
+      </Title>
+            
+      <Text>
+         <Language id="English">
+            Sing to the Lord a new song; sing to the Lord, all the earth. Sing to the Lord, bless His name; proclaim His salvation day to day. Declare His glory among the Gentiles, and His wonders among all peoples. For the Lord is great, and greatly praised; He is fearsome above all the gods. For all the gods of the nations are devils, but the Lord made the heavens. Majesty and splendor are before Him; holiness and great beauty are in His Holy.
+         </Language>
+         <Language id="Arabic">
+            سبِّحُوا الربَّ تسبيحاً جديداً، سبِّحِي الربَّ يا كلَّ الأرضِ، سبِّحُوا الربَّ وبارِكوا اسمَهُ. بشِّروا مِنْ يومٍ إلى يومٍ بخلاصِهِ. حدِّثوا في الأممِ بمجدِهِ وبينَ جميعِ الشُعوبِ بعجائبِهِ، لأنَّ الربَّ عظيمٌ هو ومُسبَّحٌ جداً. مرهوبٌ على كلِّ الآلِهةِ لأنَّ كلَّ آلِهةِ الأممِ شَيَاطينُ، أما الربُّ فصنعَ السماواتِ. الجلالُ والبهاءُ قُدَّامَهُ، الطهرُ والجمالُ العظيمُ في قُدسِهِ.
+         </Language>
+      </Text>
+            
+      <Text>
+         <Language id="English">
+            Bring to the Lord, O the families of the Gentiles, bring to the Lord glory and honor. Bring to the Lord the glory to His name; carry offerings, and go into His court. Worship the Lord in His holy court; let all the earth tremble before His face. Say among the nations, “The Lord reigned on a wood; for He has established the world that it shall not be moved; He will judge the peoples in righteousness.”
+         </Language>
+         <Language id="Arabic">
+            قدِّموا للربِّ يا جميعَ قبائلِ الأممِ، قدِّموا للربِّ مجداً وكرامةً، قدِّموا للربِّ مجداً لاسمهِ. احمِلوا الذبائحَ وادخلوا دِيارَهُ، اسجُدوا للربِّ في ديارِهِ المُقدَّسةِ. فلتتزلزلْ الأرضُ كلُّها مِنْ أمامِ وجهِهِ. قولوا بينَ الأممِ إنَّ الربَّ قدْ ملكَ على خشبةٍ، وأيضاً ثبَّتَ المسكونةَ فلن تتزعزعَ. يَدينُ الشُعوبَ بالاستِقامةِ.
+         </Language>
+      </Text>
+            
+      <Text>
+         <Language id="English">
+            Let the heavens rejoice, and the earth exult; let the sea roar, and its fullness. The plains shall rejoice, and all things in them. Then all the trees of the forest shall exult before the face of the Lord, for He is coming to judge the earth; He will judge the world in justice, and the peoples with His truth. ALLELUIA.
+         </Language>
+         <Language id="Arabic">
+            فلتفرحِ السماواتُ ولتبتهجِ الأرضُ وليعِجِّ البحرُ وجميعُ ملئِهِ، تفرحُ الوِديانُ وكلُّ ما فيها، حينئذٍ يبتهجُ كلُّ شجرِ الغابِ أمامَ وجهِ الربِّ، لأنَّهُ يأتي ليَدينَ الأرضَ، يَدينَ المسكونةَ بالعدلِ والشُعوبَ بالاستِقامةِ. هَلِّلُويا.
+         </Language>
+      </Text>
+   </Section>
+<Section expanded="true">
+      <Title>
+         <Language id="English">
+            Psalm 96 - The Lord reigned, let the earth exult...
+         </Language>
+         <Language id="Arabic">
+            المزمورُ السادسُ والتسعونَ - الربُّ قدْ ملَكَ فلتتهلّلِ الأرضُ...
+         </Language>
+      </Title>
+            
+      <Text>
+         <Language id="English">
+            The Lord reigned, let the earth exult, let the many islands rejoice. Clouds and darkness are round about Him; righteousness and judgment are the uprightness of His throne. Fire shall precede Him, and with a flame shall burn up His enemies who surround Him. His lightings lightened the world; the earth saw, and trembled. The mountains melted like wax before the face of the Lord, before the face of the Lord of the whole earth. The heavens have declared His righteousness, and all the peoples have seen His glory.
+         </Language>
+         <Language id="Arabic">
+            الربُّ قدْ ملَكَ فلتتهلَّلِ الأرضُ، ولتفرحِ الجزائرُ الكثيرةُ. سحابٌ وضبابٌ حولَهُ، العدلُ والقضاءُ قِوامُ كرسيِّهِ، النارُ تسبِقُ فتسلُكُ أمامَهُ، وبلهيبٍ تُحرِقُ أعداءَهُ الذينَ حولَهُ. أضاءتْ بروقُهُ المسكونةَ. نظرتْ الأرضُ فتزلزلتْ، ذابتِ الجِبالُ مثلَ الشمعِ مِنْ قدامِ وجهِ الربِّ، مِنْ أمامِ وجهِ ربِّ الأرضِ كلِّها. أخبرَتِ السماواتُ بعدلِهِ، وعاينَتْ جميعُ الشُعوبِ مجدَهُ.
+         </Language>
+      </Text>
+            
+      <Text>
+         <Language id="English">
+            Let all those who worship graven images and boast in their idols be ashamed. Worship Him all you His angels.
+         </Language>
+         <Language id="Arabic">
+            يَخزى جميعُ الساجدينَ لصنعةِ الأيدي، المُفتخرينَ بأصنامِهِم. اسجُدوا للهِ يا جميعَ ملائكتِهِ.
+         </Language>
+      </Text>
+            
+      <Text>
+         <Language id="English">
+            Zion heard and rejoiced, and the daughters of Judea exulted, because of Your judgments, O Lord. For You are the Lord most high over all the earth; You are greatly exalted above all gods.
+         </Language>
+         <Language id="Arabic">
+            سمِعتْ صِهيَونُ ففرِحتْ، وتهلَّلتْ بناتُ يهوذا، مِنْ أجلِ أحكامِكَ ياربُّ. لأنَّكَ أنتَ هو الربُّ العالي على كلِّ الأرضِ، ارتفعتَ جداً فوقَ جميعِ الآلِهةِ.
+         </Language>
+      </Text>
+            
+      <Text>
+         <Language id="English">
+            You who love the Lord, hate evil; the Lord preserves the souls of His saints; He will deliver them from the hands of the sinners. Light has shined for the righteous, and gladness for the upright in their heart. Rejoice in the Lord, you righteous, and praise the remembrance of His holiness. ALLELUIA.
+         </Language>
+         <Language id="Arabic">
+            يا مُحبِّي الربِّ أبغِضوا الشرَّ. إنَّ الربَّ يحفظُ نفوسَ أبرارِهِ، ويُنجيهِم مِنْ أيدي الخُطاةِ. نورٌ أشرقَ للصدِّيقينَ وفرحٌ للمُستقيمي القلوبِ. افرحوا أيها الصدِّيقونَ بالربِّ. واعترِفوا لذكرِ قُدسِهِ. هَلِّلُويا.
+         </Language>
+      </Text>
+   </Section>
+<Section expanded="true">
+      <Title>
+         <Language id="English">
+            Psalm 97 - Sing to the Lord a new song, for the Lord...
+         </Language>
+         <Language id="Arabic">
+            المزمورُ السابعُ والتسعونَ - سبِّحُوا الربَّ تسبيحاً جديداً لأنَّ الربَّ...
+         </Language>
+      </Title>
+            
+      <Text>
+         <Language id="English">
+            Sing to the Lord a new song, for the Lord has wrought wonderful works; His right hand and His holy arm, have wrought salvation for Him. The Lord has made known His salvation; before the nations He has revealed his righteousness. He has remembered His mercy to Jacob, and His truth to the house of Israel; the ends of all the earth have seen the salvation of our God.
+         </Language>
+         <Language id="Arabic">
+            سبِّحُوا الربَّ تسبيحاً جديداً لأنَّ الربَّ قدْ صنعَ أعمالاً عجيبةً، خلَّصتْ لهُ يمينُهُ وذراعُهُ القُدُّوسةُ، أعلنَ الربُّ خلاصَهُ وكشفَ قدامَ الأممِ عدلَهُ. ذكرَ رحمتَهُ ليعقوبَ وحقَّهُ لبيتِ إسرائيلَ. نظرتْ أقاصي الأرضِ جميعاً خلاصَ إلهِنا.
+         </Language>
+      </Text>
+            
+      <Text>
+         <Language id="English">
+            Shout to the Lord, all the earth; sing and exult, and sing psalms. Sing to the Lord with a harp, with a harp and a voice of psalm, with directed trumpets, and a sound of a trumpet of horn. Shout joyfully before the Lord King. Let the sea roar, and its fullness, the world and all who dwell in it. The rivers shall clap their hands together, and the mountains shall exult before the Lord. For He comes to judge the earth; He will judge the world with righteousness, and the nations with uprightness. ALLELUIA.
+         </Language>
+         <Language id="Arabic">
+            هلِّلوا للربِّ يا كلَّ الأرضِ، سبِّحُوا وهلِّلوا ورتِّلوا. رتِّلوا للربِّ بالقيثارةِ، بالقيثارةِ وصوتِ المِزمارِ. بأبواقٍ خافِقةٍ وصوتِ بوقِ القرنِ، هلِّلوا أمامَ الربِّ الملكِ. فليعجِّ البحرُ وكلُّ ملئِهِ، المسكونةُ وكلُّ الساكنينَ فيها. تُصفِّقُ جميعُ الأنهارِ، الجبالُ تبتهِجُ أمامَ وجهِ الربِّ، لأنَّهُ أتى ليَدينَ الأرضَ، يَدينَ المسكونةَ بالعدلِ والشُعوبَ بالاستِقامةِ. هَلِّلُويا.
+         </Language>
+      </Text>
+   </Section>
+<Section expanded="true">
+      <Title>
+         <Language id="English">
+            Psalm 98 - The Lord reigned; let the people rage...
+         </Language>
+         <Language id="Arabic">
+            المزمورُ الثامِنُ والتسعونَ - الربُّ قدْ ملَكَ فلترتعِدْ الشُعوبُ...
+         </Language>
+      </Title>
+            
+      <Text>
+         <Language id="English">
+            The Lord reigned; let the people rage; He who sits upon the cherubim, let the earth be shaken. The Lord is great in Zion, and is high over all peoples. Let them confess His great name, for it is fearsome and holy, and the King's honor loves the judgment. You have prepared uprightness; You have made judgment and justice in Jacob. Exalt the Lord our God, and worship at His footstool; for He is holy.
+         </Language>
+         <Language id="Arabic">
+            الربُّ قدْ ملَكَ فلترتعِدْ الشُعوبُ. الجالِسُ على الشاروبيمِ فلتتزلزلْ الأرضُ. عظيمٌ هو الربُّ في صِهيَونَ ومُتعالٍ على كلِّ الشُعوبِ. فليعترِفوا لاسمِهِ العظيمِ لأنَّهُ مرهوبٌ وقُدُّوسٌ وكرامةُ الملِكِ أن يُحبَّ العدلَ أنتَ هيأتَ الاستِقامةَ أنتَ أجريتَ القضاءَ والعدلَ في يعقوبَ. ارفعوا الربَّ إلهَنا واسجُدوا لموطِئِ قدميهِ فإنَّهُ قُدُّوسٌ هو.
+         </Language>
+      </Text>
+       
+      <Text>
+         <Language id="English">
+            Moses and Aaron among His priests, and Samuel among those who call upon His name; they called upon the Lord, and He heard them. He spoke to them in a pillar of cloud, for they kept His testimonies and the ordinances which He gave them. O Lord our God, You answered them; O God, You became for them a forgiver and an avenger over all their deeds. Exalt you the Lord our God, and worship at His holy mountain, for the Lord our God is holy. ALLELUIA.
+         </Language>
+         <Language id="Arabic">
+            موسى وهرونُ بينَ كهنتِهِ وصموئيلُ بينَ الذينَ يدْعونَ باسمِهِ، كانوا يدْعونَ الربَّ فيستجيبُ لهُم، بعمودِ الغَمامِ كانَ يُكلمُهُم. لأنَّهُم حفِظوا شهاداتِهِ، والأوامِرَ التي أعطاهُم. أيها الربُّ إلهُنا، أنتَ استجبتَ لهُم. صِرتَ لهُم يا اللهُ غفوراً، ومُنتقِماً على جميعِ أعمالِهِم. ارفعوا الربَّ إلهَنا، واسجُدوا في جبلِهِ المُقدَّسِ، فإنَّ الربَّ إلهَنا قُدُّوسٌ. هَلِّلُويا.
+         </Language>
+      </Text>
+   </Section>
+<Section expanded="true">
+      <Title>
+         <Language id="English">
+            Psalm 99 - Shout joyfully to the Lord...
+         </Language>
+         <Language id="Arabic">
+            المزمورُ التاسعُ والتسعونَ - هلِّلوا للربِّ يا كلَّ الأرضِ...
+         </Language>
+      </Title>
+            
+      <Text>
+         <Language id="English">
+            Shout joyfully to the Lord, all the earth. Serve the Lord with gladness; come into His presence with exultation. Know that the Lord Himself is our God; He made us, and not we ourselves; we are His people, and the sheep of His pasture. Enter into His gates with thanksgiving, and His courts with praise; give thanks to Him, praise His name. For the Lord is good; His mercy is forever, and His truth is from generation to generation. ALLELUIA.
+         </Language>
+         <Language id="Arabic">
+            هلِّلوا للربِّ يا كلَّ الأرضِ. اعبُدوا الربَّ بالفرحِ، ادخُلوا أمامَهُ بالتهليلِ. اعلموا أنَّ الربَّ هو إلهُنا، هو صنعَنا وليسَ نحنُ، ونحنُ شعبُهُ وغنمُ رعيَّتِهِ. ادخُلوا أبوابَهُ بالاعترافِ، ودِيارَهُ بالتسابيحِ. اعترِفوا لهُ، وبارِكوا اسمَهُ. فإنَّ الربَّ صالِحٌ هو، والى الأبدِ رحمتُهُ، وإلى جيلٍ فجيلٍ حقُّهُ. هَلِّلُويا.
+         </Language>
+      </Text>
+   </Section>
+<Section expanded="true">
+      <Title>
+         <Language id="English">
+            Psalm 100 - I will sing of mercy...
+         </Language>
+         <Language id="Arabic">
+            المزمورُ المائةُ - رحمةً وحُكماً...
+         </Language>
+      </Title>
+            
+      <Text>
+         <Language id="English">
+            I will sing of mercy and judgment, to You, O Lord; I will sing a psalm, and I will have understanding in a blameless way. When will You come to me? I walked in the innocence of my heart, in the midst of my house. I have not set before my eyes any unlawful thing; I have hated transgressors. A perverse heart has not cleaved to me; I have not known the evil one, forasmuch as he turns away from me. He who secretly speaks against his neighbor, him I have driven from me; he who is proud in his eyes and haughty in heart, with him I have not eaten.
+         </Language>
+         <Language id="Arabic">
+            رحمةً وحُكماً أسبِّحُكَ ياربُّ. أترنَّمُ لكَ. وأتفهَّمُ في طريقٍ بلا عيبٍ. متى تأتِي إليَّ؟ لقدْ كنتُ أسلُكُ بِدعةِ قلبي في وسطِ بيتي. لمْ أضعْ أمامَ عينيَّ أمراً يُخالِفُ الناموسَ. صانعي المَعصيةِ أبغضتُ. لمْ يلصقْ بي قلبٌ مُعوَجٌّ، وعِندَ مَيلانِ الشريرِ عنِّي لمْ أكنْ أعلمُ، والذي يغتابُ قريبَهُ سِرّاً كنتُ أُطارِدُهُ، المُستكبِرُ بعينيهِ والمُنتفِخُ القلبِ لمْ أوآكِلْهُ.
+         </Language>
+      </Text>
+            
+      <Text>
+         <Language id="English">
+            My eyes were upon all the faithful of the land, that they might sit with me; he who walked in a blameless way, he ministered to me. The proud doer did not dwell in the midst of my house; the unjust speaker did not prosper before my eyes. In the morning I slew all the sinners of the land, that I might wipe out from the city of the Lord all who work iniquity. ALLELUIA.
+         </Language>
+         <Language id="Arabic">
+            عينايَ على جميعِ أُمناءِ الأرضِ لكي أُجلسَهُم معي. السالِكُ في الطريقِ بِلا عيبٍ هذا كانَ يخدِمُني. المُتكبِّرُ لمْ يسكُنْ في وسطِ بيتي. المُتكلِّمُ بالظُلمِ لمْ يستقِمْ أمامَ عينيَّ. في أوقاتِ الغدَواتِ كنتُ أقتلُ جميعَ خُطاةِ الأرضِ، لأُبيدَ مِنْ مدينةِ الربِّ جميعَ صانِعي الإثمِ. هَلِّلُويا.
+         </Language>
+      </Text>
+   </Section>
+<Section expanded="true">
+      <Title>
+         <Language id="English">
+            Psalm 109 - The Lord said to my Lord...
+         </Language>
+         <Language id="Arabic">
+            المزمورُ المائةُ والتاسعُ - قالَ الربُّ لربِّي...
+         </Language>
+      </Title>
+            
+      <Text>
+         <Language id="English">
+            The Lord said to my Lord, “Sit on My right hand, until I place Your enemies under Your feet.” A rod of power, the Lord shall send out for You out of Zion, and You shall rule in the midst of Your enemies. With You is dominion in the day of Your power, in the splendor of the saints. From the womb before the morning star I have begotten You.
+         </Language>
+         <Language id="Arabic">
+            قالَ الربُّ لربِّي: اجلسْ عن يميني حتَّى أضعَ أعداءَكَ تحتَ موطِئِ قدمَيكَ. عصا قوةٍ يُرسِلُ لكَ الربُّ مِنْ صِهيَونَ وتسودُ في وسَطِ أعدائِكَ. معَكَ الرياسةُ في يومِ قُوتِكَ، في بهاءِ القدِّيسينَ. مِنَ البطنِ قبلَ كَوكبِ الصُبحِ ولدتُكَ.
+         </Language>
+      </Text>
+            
+      <Text>
+         <Language id="English">
+            The Lord has sworn and shall not repent: “You are the Priest forever, after the order of Melchizedek.” The Lord is at Your right hand; He shall dash kings in the day of His wrath. He shall judge among the nations. He shall fill them with dead bodies; He shall crush the heads of many on the earth. He shall drink of the brook in the way; therefore He shall lift up the head. ALLELUIA.
+         </Language>
+         <Language id="Arabic">
+            أقسمَ الربُّ ولن يندمَ أنَّكَ أنتَ هو الكاهِنُ إلى الأبدِ على طقسِ ملكِيصادَقَ. الربُّ عن يمينِكَ، يُحطِّمُ في يومِ رِجزِهِ مُلوكاً، يقضي بينَ الأممِ ويملأُهُم جُثثاً، يسحقُ رؤوسَ كثيرينَ على الأرضِ. وفي الطريقِ يشربُ الماءَ مِنَ الوادي. لذلكَ يرفعُ رأسَهُ. هَلِّلُويا.
+         </Language>
+      </Text>
+   </Section>
+<Section expanded="true">
+      <Title>
+         <Language id="English">
+            Psalm 110 - I will give thanks to You...
+         </Language>
+         <Language id="Arabic">
+            المزمورُ المائةُ والعاشرُ - أعترِفُ لكَ ياربُّ...
+         </Language>
+      </Title>
+            
+      <Text>
+         <Language id="English">
+            I will give thanks to You, O Lord, with my whole heart, in the council of the upright, and in their congregation. Great are the works of the Lord; examined are all His wills. Majesty and splendor are His works, and His righteousness endures forever and ever. He has made a remembrance of all His wonders; the Lord is merciful and compassionate. He has given food to those who fear Him; He shall remember His covenant forever. He has declared to His people the power of His works, to give them the inheritance of nations.
+         </Language>
+         <Language id="Arabic">
+            أعترِفُ لكَ ياربُّ مِنْ كلِّ قلبي. في مجلِسِ المُستقيمينَ وفي مجمعِهِم. عظيمةٌ هي أعمالُ الربِّ، ومشيئاتُهُ كلُّها مفحوصةٌ، جلالٌ وبهاءٌ عملُهُ، وعدلُهُ دائِمٌ إلى أبدِ الأبدِ. صنعَ ذِكراً لجميعِ عجائبِهِ. رحيمٌ هو الربُّ ورؤوفٌ، أعطى طعامَهُ لأتقيائِهِ، يذكُرُ إلى الدهرِ ميثاقَهُ. خبَّرَ شعبَهُ بقوةِ أعمالِهِ، ليُعطيَهُم ميراثَ الأممِ.
+         </Language>
+      </Text>
+            
+      <Text>
+         <Language id="English">
+            The works of His hands are truth and justice; all His commandments are faithful, established forever and ever, made in truth and uprightness. He sent redemption to His people; He commanded His covenant forever; holy and fearful is His name. The fear of the Lord is the beginning of wisdom, and understanding is good to all who do according to it. His praise endures forever and ever. ALLELUIA.
+         </Language>
+         <Language id="Arabic">
+            أعمالُ يدَيهِ حقٌ وعدلٌ. كلُّ وصاياهُ صادِقةٌ، ثابِتةٌ إلى دهرِ الدهورِ، مصنوعةٌ بالحقِّ والاستِقامةِ. أرسلَ خلاصاً لشعبِهِ، أمرَ بعهدِهِ إلى الأبدِ. اسمُهُ قُدُّوسٌ ومرهوبٌ. رأسُ الحكمةِ مخافةُ الربِّ، والفهمُ صالِحٌ لكلِّ مَنْ يعملُ بهِ، وتسبِحتُهُ دائِمةٌ إلى الأبدِ. هَلِّلُويا.
+         </Language>
+      </Text>
+   </Section>
+<Section expanded="true">
+      <Title>
+         <Language id="English">
+            Psalm 111 - Blessed is the man...
+         </Language>
+         <Language id="Arabic">
+            المزمورُ المائةُ والحاديَ عشرَ - طوبى للرجلِ الخائفِ الربَّ...
+         </Language>
+      </Title>
+            
+      <Text>
+         <Language id="English">
+            Blessed is the man who fears the Lord, and delights greatly in His commandments. His seed shall be mighty in the earth; the generation of the upright shall be blessed. Glory and riches shall be in His house, and His righteousness endures forever. To the upright, light has sprung up in the darkness. The Lord God is compassionate, merciful, and righteous.
+         </Language>
+         <Language id="Arabic">
+            طوبى للرجلِ الخائفِ الربَّ ويَهوى وصاياهُ جداً. يقوى نسلُهُ على الأرضِ. جيلُ المُستقيمينَ يُبارَكُ. مجدٌ وغِنىً في بيتهِ، وبرُّهُ يدومُ إلى الأبدِ. نورٌ أشرقَ في الظُلمةِ للمُستقيمينَ. رحيمٌ هو الربُّ الإلهُ ورؤوفٌ وبارٌ.
+         </Language>
+      </Text>
+       
+      <Text>
+         <Language id="English">
+            A good man is he who pities and lends; he shall direct his words with truth. For he shall not be moved forever. The righteous shall be in everlasting remembrance. He shall not be afraid of any evil tidings; his heart is ready trusting the Lord. His heart is established, he shall not move, till he shall look upon his enemies. He has dispersed abroad; he has given to the poor; his righteousness endures forever and ever: his horn shall be exalted with honor. The sinner shall see and be angry, he shall gnash his teeth, and consume away; the desire of the sinner shall perish. ALLELUIA.
+         </Language>
+         <Language id="Arabic">
+            صالِحٌ هو الرجلُ الذي يتراءفُ ويُقرِضُ ويُدبِّرُ أقوالَهُ بالحقِّ، لأنَّهُ لا يتزعزعُ إلى الدهرِ. ذِكرُ الصدِّيقِ يدومُ إلى الأبدِ، ولا يخشى مِنْ خبرِ السوءِ. قلبُهُ مُستعِدٌ مُتكِلٌ على الربِّ. قلبُهُ ثابِتٌ لا يتزعزعُ حتى يرى بأعدائِهِ. فرَّقَ وأعطى المساكينَ. برُّهُ دائمٌ إلى دهرِ الدهورِ. يرتفعُ قرنُهُ بالمجدِ. الخاطئُ يُبصِرُ فيغتاظُ ويَصِرُّ بأسنانِهِ ويذوبُ، شهوةُ الخاطئِ تَبيدُ. هَلِّلُويا.
+         </Language>
+      </Text>
+   </Section>
+<Section expanded="true">
+      <Title>
+         <Language id="English">
+            Psalm 112 - Praise the Lord, O the servants...
+         </Language>
+         <Language id="Arabic">
+            المزمورُ المائةُ والثانيَ عشرَ - سبِّحُوا الربَّ أيها الفِتيانُ...
+         </Language>
+      </Title>
+            
+      <Text>
+         <Language id="English">
+            Praise the Lord, O the servants, praise the name of the Lord. Let the name of the Lord be blessed, from now and forever. From the risings of the sun to its settings, praise the name of the Lord. The Lord is high above all the nations; upon the heavens is His glory.
+         </Language>
+         <Language id="Arabic">
+            سبِّحُوا الربَّ أيها الفِتيانُ، سبِّحُوا اسمَ الربِّ. ليكُنْ اسمُ الربِّ مُبارَكاً مِنَ الآنَ وإلى الأبدِ. مِنْ مشارِقِ الشمسِ إلى مغارِبِها بارِكُوا اسمَ الربِّ. الربُّ عالٍ على كلِّ الأممِ وفوقَ السماواتِ مجدُهُ.
+         </Language>
+      </Text>
+            
+      <Text>
+         <Language id="English">
+            Who is like the Lord our God? Who dwells in the high places, and looks upon the low things in heaven and on the earth, who lifts up a poor person from the earth, and raises up a needy person from the ash heap, to seat him with the princes, even with the princes of his people, who makes a barren woman in a house, rejoicing as a mother of children. ALLELUIA.
+         </Language>
+         <Language id="Arabic">
+            مَنْ مِثلِ الربِّ إلهِنا؟! الساكنُ في الأعالي الناظرُ إلى المتواضعينَ في السماءِ وعلى الأرضِ، المُقيمُ المسكينَ مِنَ الترابِ، الرافعُ البائسَ مِنَ المَزبلةِ، لكي يُجلِسَهُ معَ رؤساءِ شعبِهِ. الذي يجعلُ العاقرَ ساكِنةً في بيتٍ أمَّ أولادٍ فرِحةً هَلِّلُويا.
+         </Language>
+      </Text>
+   </Section>
+<Section expanded="true">
+      <Title>
+         <Language id="English">
+            Psalm 114 -  I loved, because the Lord...
+         </Language>
+         <Language id="Arabic">
+            المزمورُ المائةُ والرابعَ عشرَ - أحببتُ أن يسمعَ الربُّ...
+         </Language>
+      </Title>
+      
+      <Text>
+      <Language id="English">
+         I loved, because the Lord will hear the voice of my supplication. Because He has inclined His ear to me, I will call upon Him in all my days. The pains of death grasped me; the dangers of Hades have found me; I found affliction and sorrow. Then I called on the name of the Lord, “O Lord, deliver my soul.”
+      </Language>
+      <Language id="Arabic">
+         أحببتُ أن يسمعَ الربُّ صوتَ تضرُّعي. لأنَّهُ أمالَ أذنَهُ إليَّ فأدعوهُ كلَّ أيامي. لأنَّ أوجاعَ الموتِ اكتنفَتْني وشدائِدَ الجحيمِ أصابتني. ضِيقاً وحُزناً وجدتُ، وباسمِ الربِّ دعوتُ: ياربُّ نجِّ نفسي.
+      </Language>
+   </Text>
+   
+   <Text>
+      <Language id="English">
+         The Lord is merciful and righteous, and our God has mercy. The Lord preserves the infants; I was brought low, and He saved me.
+      </Language>
+      <Language id="Arabic">
+         الربُّ رحيمٌ وصدّيقٌ وإلهُنا يرحمُ. الذي يحفظُ الأطفالَ هو الربُّ. اتضعتُ فخلَّصَني.
+      </Language>
+   </Text>
+         
+   <Text>
+      <Language id="English">
+         Return to your resting place, O my soul, for the Lord has dealt bountifully with you. He has delivered my soul from death, my eyes from tears, and my feet from falling. I shall be pleasing before the Lord in the land of the living. ALLELUIA.
+      </Language>
+      <Language id="Arabic">
+         ارجِعي يا نفسي إلى موضِعِ راحتِكِ، لأنَّ الربَّ قدْ أحسنَ إليَّ، وأنقذَ نفسي مِنَ الموتِ وعينيَّ مِنَ الدُموعِ ورجليَّ مِنَ الزللِ، أُرضي الربَّ أمامَهُ في كُورةِ الأحياءِ. هَلِّلُويا.
+      </Language>
+   </Text>
+</Section>
+<Section expanded="true">
+      <Title>
+         <Language id="English">
+            Psalm 115 - I believed, therefore, I have spoken...
+         </Language>
+         <Language id="Arabic">
+            المزمورُ المائةُ والخامسَ عشرَ - آمنتُ لذلِكَ تكلَّمتُ...
+         </Language>
+      </Title>
+            
+      <Text>
+         <Language id="English">
+            I believed, therefore, I have spoken; I was exceedingly humbled. I said in my amazement, “Every man is a liar.” What shall I render to the Lord for everything which He has done unto me? I shall take the cup of salvation, and call upon the name of the Lord. I will pay my vows to the Lord, in the presence of all His people.
+         </Language>
+         <Language id="Arabic">
+            آمنتُ لذلِكَ تكلَّمتُ. وأنا اتَّضعتُ جِداً. أنا قُلتُ في حَيرَتي: إنَّ كلَّ الناسِ كاذِبونَ. بماذا أُكافئُ الربَّ عن كلِّ ما أعطانِيهِ؟ كأسَ الخلاصِ آخذُ وباسمِ الربِّ أدعو. أُوفي نُذوري للربِّ قُدامَ كلِّ شعبِهِ.
+         </Language>
+      </Text>
+       
+      <Text>
+         <Language id="English">
+            Precious in the sight of the Lord is the death of His saints. O Lord, I am Your servant; I am Your servant, and the son of Your handmaid. You have broken my bonds; I will sacrifice to You the sacrifice of praise, and will call upon the name of the Lord. I will pay my vows to the Lord in the presence of all His people, in the courts of the Lord's house, in the midst of Jerusalem. ALLELUIA.
+         </Language>
+         <Language id="Arabic">
+            كريمٌ أمامَ الربِّ موتُ قدِّيسيهِ. ياربُّ أنا عبدُكَ، أنا عبدُكَ وابنُ أمتِكَ. قطّعتَ قُيودي. فلكَ أذبحُ ذبيحةَ التسبيحِ، وباسمِ الربِّ أدعو. أُوفي للربِّ نُذوري في ديارِ بيتِ الربِّ، قُدَّامَ كلِّ شعبِهِ، في وسطِ أورُشَلِيمَ. هَلِّلُويا.
+         </Language>
+      </Text>
+   </Section>
+<Role id="Reader">
+         <Text verse="15"><Language id="English">Truly You are God, who hide Yourself, O God of Israel, the Savior!</Language><Language id="Arabic">حَقّاً أَنْتَ إِلَهٌ مُحْتَجِبٌ يَا إِلَهَ إِسْرَائِيلَ الْمُخَلِّصَ.</Language></Text><Text verse="16"><Language id="English">They shall be ashamed And also disgraced, all of them; They shall go in confusion together, Who are makers of idols.</Language><Language id="Arabic">قَدْ خَزُوا وَخَجِلُوا كُلُّهُمْ. مَضُوا بِالْخَجَلِ جَمِيعاً الصَّانِعُونَ التَّمَاثِيلَ.</Language></Text><Text verse="17"><Language id="English">But Israel shall be saved by the Lord With an everlasting salvation; You shall not be ashamed or disgraced Forever and ever.</Language><Language id="Arabic">أَمَّا إِسْرَائِيلُ فَيَخْلُصُ بِالرَّبِّ خَلاَصاً أَبَدِيّاً. لاَ تَخْزُونَ وَلاَ تَخْجَلُونَ إِلَى دُهُورِ الأَبَدِ.</Language></Text><Text verse="18"><Language id="English">For thus says the Lord, Who created the heavens, Who is God, Who formed the earth and made it, Who has established it, Who did not create it in vain, Who formed it to be inhabited: “I am the Lord, and there is no other.</Language><Language id="Arabic">لأَنَّهُ هَكَذَا قَالَ الرَّبُّ: «خَالِقُ السَّمَاوَاتِ هُوَ اللَّهُ. مُصَوِّرُ الأَرْضِ وَصَانِعُهَا. هُوَ قَرَّرَهَا. لَمْ يَخْلُقْهَا بَاطِلاً. لِلسَّكَنِ صَوَّرَهَا. أَنَا الرَّبُّ وَلَيْسَ آخَرُ.</Language></Text><Text verse="19"><Language id="English">I have not spoken in secret, In a dark place of the earth; I did not say to the seed of Jacob, ‘Seek Me in vain’; I, the Lord, speak righteousness, I declare things that are right.</Language><Language id="Arabic">لَمْ أَتَكَلَّمْ بِالْخِفَاءِ فِي مَكَانٍ مِنَ الأَرْضِ مُظْلِمٍ. لَمْ أَقُلْ لِنَسْلِ يَعْقُوبَ: بَاطِلاً اطْلُبُونِي. أَنَا الرَّبُّ مُتَكَلِّمٌ بِالصِّدْقِ مُخْبِرٌ بِالاِسْتِقَامَةِ.</Language></Text><Text verse="20"><Language id="English">“Assemble yourselves and come; Draw near together, You who have escaped from the nations. They have no knowledge, Who carry the wood of their carved image, And pray to a god that cannot save.</Language><Language id="Arabic">«اِجْتَمِعُوا وَهَلُمُّوا تَقَدَّمُوا مَعاً أَيُّهَا النَّاجُونَ مِنَ الأُمَمِ. لاَ يَعْلَمُ الْحَامِلُونَ خَشَبَ صَنَمِهِمْ وَالْمُصَلُّونَ إِلَى إِلَهٍ لاَ يُخَلِّصُ.</Language></Text><Text verse="31"><Language id="English">“Behold, the days are coming, says the Lord, when I will make a new covenant with the house of Israel and with the house of Judah—</Language><Language id="Arabic">هَا أَيَّامٌ تَأْتِي يَقُولُ الرَّبُّ وَأَقْطَعُ مَعَ بَيْتِ إِسْرَائِيلَ وَمَعَ بَيْتِ يَهُوذَا عَهْداً جَدِيداً.</Language></Text><Text verse="32"><Language id="English">not according to the covenant that I made with their fathers in the day that I took them by the hand to lead them out of the land of Egypt, My covenant which they broke, though I was a husband to them, says the Lord.</Language><Language id="Arabic">لَيْسَ كَالْعَهْدِ الَّذِي قَطَعْتُهُ مَعَ آبَائِهِمْ يَوْمَ أَمْسَكْتُهُمْ بِيَدِهِمْ لأُخْرِجَهُمْ مِنْ أَرْضِ مِصْرَ حِينَ نَقَضُوا عَهْدِي فَرَفَضْتُهُمْ يَقُولُ الرَّبُّ.</Language></Text><Text verse="33"><Language id="English">But this is the covenant that I will make with the house of Israel after those days, says the Lord: I will put My law in their minds, and write it on their hearts; and I will be their God, and they shall be My people.</Language><Language id="Arabic">بَلْ هَذَا هُوَ الْعَهْدُ الَّذِي أَقْطَعُهُ مَعَ بَيْتِ إِسْرَائِيلَ بَعْدَ تِلْكَ الأَيَّامِ يَقُولُ الرَّبُّ: أَجْعَلُ شَرِيعَتِي فِي دَاخِلِهِمْ وَأَكْتُبُهَا عَلَى قُلُوبِهِمْ وَأَكُونُ لَهُمْ إِلَهاً وَهُمْ يَكُونُونَ لِي شَعْباً.</Language></Text><Text verse="34"><Language id="English">No more shall every man teach his neighbor, and every man his brother, saying, ‘Know the Lord,’ for they all shall know Me, from the least of them to the greatest of them, says the Lord. For I will forgive their iniquity, and their sin I will remember no more.”</Language><Language id="Arabic">وَلاَ يُعَلِّمُونَ بَعْدُ كُلُّ وَاحِدٍ صَاحِبَهُ وَكُلُّ وَاحِدٍ أَخَاهُ قَائِلِينَ: [اعْرِفُوا الرَّبَّ] لأَنَّهُمْ كُلَّهُمْ سَيَعْرِفُونَنِي مِنْ صَغِيرِهِمْ إِلَى كَبِيرِهِمْ يَقُولُ الرَّبُّ. لأَنِّي أَصْفَحُ عَنْ إِثْمِهِمْ وَلاَ أَذْكُرُ خَطِيَّتَهُمْ بَعْدُ.</Language></Text><Comment>
+            <Language id="English">
+               The Psalm is chanted half in the Paschal “Edreebe” tune, and the other half in the standard tune.
+            </Language>
+         </Comment>
+         
+         <Section expanded="true">
+            <Title>
+               <Language id="English">Psalm 41:10, 5</Language>
+               <Language id="Arabic">مزامير 41: 10, 5</Language>
+            </Title>
+         
+            <Text>
+      <Language id="Coptic">
+         "almoc tw Dauid.
+      </Language>
+      <Language id="English">
+         A Psalm of David.
+      </Language>
+      <Language id="Arabic">
+         من مزامير داود النبي.
+      </Language>
+   </Text>
+<Text>
+               <Language id="Coptic">
+                  Nyok de Po#c# nain/i ouoh matounoct: ouoh eie~ nwou n~tousebiw.
+               </Language>
+               <Language id="English">
+                  But you, O Lord, have mercy upon me, and raise me up, and I shall compensate them.
+               </Language>
+               <Language id="Arabic">
+                  وأنت يا رب ارحمني وأقمني فأجازيهم.
+               </Language>
+            </Text>     
+            
+            <Text>
+               <Language id="Coptic">
+                  Najaji aujw n~hanpethwou n/i: je afnamou n/nau n~teftako n~je pefran.
+               </Language>
+               <Language id="English">
+                  My enemies have spoken evil against me, saying, “When shall he die, and his name perish?”
+               </Language>
+               <Language id="Arabic">
+                  أعدائي تقوّلوا على شرا: متى يموت ويباد اسمه؟ 
+               </Language>
+            </Text>
+         </Section>
+      </Role>
+      
+      <Role id="People">
+      <Text>
+      <Language id="Coptic">
+         Ke u~pertou kata xiwy/ne /~mac: t/c akro a~cewc tou a~giou euaggeliou: kurion ke ton Yeon /~mwn: i~keteucwmen covia~ oryi a~koucwmen tou a~giou euaggeliou.
+      </Language>
+      <Language id="English">
+         We beseech our Lord and God, that we may be worthy to hear the Holy Gospel. In wisdom and uprightness let us attend to the Holy Gospel.
+      </Language>
+      <Language id="Arabic">
+         من أجل أن نكون مستحقين لسماع الإنجيل المقدس. إلي ربنا وإلهنا نتوسل بحكمة مستقيمين انصتوا للانجيل المقدس.
+      </Language>
+   </Text>
+</Role>
+<Role id="Reader">
+      <Text>
+      <Language id="English">
+         O God have mercy and compassion upon us, and make us worthy to hear the Holy Gospel.
+      </Language>
+      <Language id="Arabic">
+         اللهم تراءف علينا وارحمنا و اجعلنا مستحقين لسماع انجيلك المقدس.
+      </Language>
+   </Text>
+<Text>
+      <Language id="Coptic">
+         Oua~nagnwcic e~bolqen pieuaggelion eyouab kata Iwann/n a~giou.
+      </Language>
+      <Language id="English">
+         A reading according to Saint John. May his blessings be with us. Amen.
+      </Language>
+      <Language id="Arabic">
+         فصل من بشارة الإنجيل لمعلمنا مار يوحنا البشير بركاته علينا آمين.
+      </Language>
+   </Text>
+</Role>
+<Role id="Reader">
+         <Comment>
+            <Language id="English">
+               The Gospel is read, the first half in Paschal tune and the second half in annual tune.
+            </Language>
+            <Language id="Arabic">
+               ويقرأ الانجيل نصفه بلحن الحزن والنصف الآخر بالطريقة السنوية.
+            </Language>
+         </Comment>
+         
+         <Text verse="21"><Language id="English">For as the Father raises the dead and gives life to them, even so the Son gives life to whom He will.</Language><Language id="Arabic">لأَنَّهُ كَمَا أَنَّ الآبَ يُقِيمُ الأَمْوَاتَ وَيُحْيِي كَذَلِكَ الاِبْنُ أَيْضاً يُحْيِي مَنْ يَشَاءُ.</Language></Text><Text verse="22"><Language id="English">For the Father judges no one, but has committed all judgment to the Son,</Language><Language id="Arabic">لأَنَّ الآبَ لاَ يَدِينُ أَحَداً بَلْ قَدْ أَعْطَى كُلَّ الدَّيْنُونَةِ لِلاِبْنِ</Language></Text><Text verse="23"><Language id="English">that all should honor the Son just as they honor the Father. He who does not honor the Son does not honor the Father who sent Him.</Language><Language id="Arabic">لِكَيْ يُكْرِمَ الْجَمِيعُ الاِبْنَ كَمَا يُكْرِمُونَ الآبَ. مَنْ لاَ يُكْرِمُ الاِبْنَ لاَ يُكْرِمُ الآبَ الَّذِي أَرْسَلَهُ.</Language></Text><Text verse="24"><Language id="English">“Most assuredly, I say to you, he who hears My word and believes in Him who sent Me has everlasting life, and shall not come into judgment, but has passed from death into life.</Language><Language id="Arabic">«اَلْحَقَّ الْحَقَّ أَقُولُ لَكُمْ: إِنَّ مَنْ يَسْمَعُ كلاَمِي وَيُؤْمِنُ بِالَّذِي أَرْسَلَنِي فَلَهُ حَيَاةٌ أَبَدِيَّةٌ وَلاَ يَأْتِي إِلَى دَيْنُونَةٍ بَلْ قَدِ انْتَقَلَ مِنَ الْمَوْتِ إِلَى الْحَيَاةِ.</Language></Text><Text verse="25"><Language id="English">Most assuredly, I say to you, the hour is coming, and now is, when the dead will hear the voice of the Son of God; and those who hear will live.</Language><Language id="Arabic">اَلْحَقَّ الْحَقَّ أَقُولُ لَكُمْ: إِنَّهُ تَأْتِي سَاعَةٌ وَهِيَ الآنَ حِينَ يَسْمَعُ الأَمْوَاتُ صَوْتَ ابْنِ اللَّهِ وَالسَّامِعُونَ يَحْيَوْنَ.</Language></Text><Text verse="26"><Language id="English">For as the Father has life in Himself, so He has granted the Son to have life in Himself,</Language><Language id="Arabic">لأَنَّهُ كَمَا أَنَّ الآبَ لَهُ حَيَاةٌ فِي ذَاتِهِ كَذَلِكَ أَعْطَى الاِبْنَ أَيْضاً أَنْ تَكُونَ لَهُ حَيَاةٌ فِي ذَاتِهِ</Language></Text><Text verse="27"><Language id="English">and has given Him authority to execute judgment also, because He is the Son of Man.</Language><Language id="Arabic">وَأَعْطَاهُ سُلْطَاناً أَنْ يَدِينَ أَيْضاً لأَنَّهُ ابْنُ الإِنْسَانِ.</Language></Text><Text verse="28"><Language id="English">Do not marvel at this; for the hour is coming in which all who are in the graves will hear His voice</Language><Language id="Arabic">لاَ تَتَعَجَّبُوا مِنْ هَذَا فَإِنَّهُ تَأْتِي سَاعَةٌ فِيهَا يَسْمَعُ جَمِيعُ الَّذِينَ فِي الْقُبُورِ صَوْتَهُ</Language></Text><Text verse="29"><Language id="English">and come forth—those who have done good, to the resurrection of life, and those who have done evil, to the resurrection of condemnation.</Language><Language id="Arabic">فَيَخْرُجُ الَّذِينَ فَعَلُوا الصَّالِحَاتِ إِلَى قِيَامَةِ الْحَيَاةِ وَالَّذِينَ عَمِلُوا السَّيِّئَاتِ إِلَى قِيَامَةِ الدَّيْنُونَةِ.</Language></Text><Text verse="30"><Language id="English">I can of Myself do nothing. As I hear, I judge; and My judgment is righteous, because I do not seek My own will but the will of the Father who sent Me.</Language><Language id="Arabic">أَنَا لاَ أَقْدِرُ أَنْ أَفْعَلَ مِنْ نَفْسِي شَيْئاً. كَمَا أَسْمَعُ أَدِينُ وَدَيْنُونَتِي عَادِلَةٌ لأَنِّي لاَ أَطْلُبُ مَشِيئَتِي بَلْ مَشِيئَةَ الآبِ الَّذِي أَرْسَلَنِي.</Language></Text></Role>
+      
+   </ForceSeason>
+</Document>

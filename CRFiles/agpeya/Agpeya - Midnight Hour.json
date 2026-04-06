@@ -1,0 +1,856 @@
+[
+  {
+    "title": "Introduction of the Hour",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "In the name of the Father and the Son and the Holy Spirit, one God. Amen.",
+                "coptic": "Ϧⲉⲛ ⲫ̀ⲣⲁⲛ ⲙ̀Ⲫⲓⲱⲧ ⲛⲉⲙ Ⲡϣⲏⲣⲓ ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ ⲟⲩⲛⲟⲩϯ ⲛ̀ⲟⲩⲱⲧ: ⲁ̀ⲙⲏⲛ.",
+                "arabic": "باسمِ الآبِ والابنِ والرّوحِ القُدُسِ الإلهِ الواحدِ. آمين."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ. Lord have mercy. Lord have mercy. Lord bless us. Amen.",
+                "arabic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ. ياربُّ ارحَمْ. ياربُّ ارحَمْ. ياربُّ بارِكْ. آمين."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Glory to the Father, and to the Son, and to the Holy Spirit. Now and ever and unto the ages of the ages. Amen.",
+                "arabic": "المجدُ للآبِ والابنِ والرّوحِ القُدُسِ الآنَ وكلَّ أوانٍ وإلى دهرِ الدهورِ. آمين."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repeated_prayer_title": "The Lord's Prayer",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "repeated_prayer_title": "The Prayer of Thanksgiving",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "repeated_prayer_title": "Psalm 50",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "english_title": "Arise, O You Children of the Light",
+    "coptic_title": null,
+    "arabic_title": "قوموا يا بني النور",
+    "title": "Arise, O You Children of the Light",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Arise, O you children of the light, to praise the Lord of hosts, that He may grant us the salvation of our souls. When we stand in the flesh before You, take away from our minds the sleep of forgetfulness. Grant us alertness, O Lord, in order that we may understand how to stand up before You at the time of prayer, and send up to You the appropriate doxology, and win the forgiveness of our many sins.",
+                "arabic": "قوموا يا بني النورِ لنُسبِّحَ ربَّ القواتِ، لكي ينعمَ علينا بخلاصِ نفوسِنا، عندما نقفُ أمامَكَ جسدياً انزعْ مِنْ عقولِنا نومَ الغفلةِ. أعطِنا يا ربُّ يقظةً لكي نفهمَ كيفَ نقفُ أمامَكَ وقتَ الصلاةِ، ونرسلَ لكَ إلى فوقُ التمجيدَ اللائقَ، ونفوزَ بغُفرانِ خطايانا الكثيرةِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Glory to You, O Lover of Mankind.",
+                "coptic": "Ⲇⲟⲝⲁ ⲥⲓ ⲫⲓⲗⲁⲛⲑ̀ⲣⲱⲡⲉ.",
+                "arabic": "المجدُ لَكَ يا مُحِبَّ البَشَرِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Behold, bless the Lord, O you the servants of the Lord, who stand in the house of the Lord, in the courts of the house of our God. In the nights lift up your hands O you saints, and bless the Lord. The Lord shall bless you out of Zion, He who made heaven and earth.",
+                "arabic": "ها بارِكوا الربَّ يا عبيدَ الربِّ، القائمينَ في بيتِ الربِّ في ديارِ إلهِنا. في الليالي ارفعوا أيدَيَكُم أيها القِدِّيسونَ وبارِكوا الربَّ. يُبارِكُكُمُ الربُّ مِنْ صِهيَونَ الذي خلقَ السماءَ والأرضَ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Glory to You, O Lover of Mankind.",
+                "coptic": "Ⲇⲟⲝⲁ ⲥⲓ ⲫⲓⲗⲁⲛⲑ̀ⲣⲱⲡⲉ.",
+                "arabic": "المجدُ لَكَ يا مُحِبَّ البَشَرِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Let my supplication come near before You; O Lord give me understanding according to Your word. Let my petition come before You; revive me according to Your word. Let my lips flow with praise, when You have taught me Your ordinances. Let my tongue speak of Your words, for all Your commandments are righteous. Let Your hand be for saving me, for I have desired Your commandments. I have longed for Your salvation, O Lord, and Your law is my meditation. My soul shall live and praise You, and Your judgments shall help me. I have gone astray like a lost sheep; seek Your servant, for I have not forgotten Your commandments.",
+                "arabic": "فليَدنُ توسُّلي قُدَّامَكَ يا ربُّ، كقولِكَ فهِّمْني. فلتدخُلْ طِلبَتي إلى حضْرتِكَ يا ربُّ، ككلِمتِكَ أحيِني. تفيضُ شفَتايَ السُبحَ، إذا ما علَّمتَني حُقوقَكَ. لِساني ينطِقُ بأقوالِكَ، لأنَّ جميعَ وصاياكَ عادِلةٌ. لتكُنْ يدُكَ لِتُخلِّصَني لأنَّني اشتهَيتُ وصاياكَ. اشتقتُ إلى خلاصِكَ يا ربُّ، وناموسُكَ هو تِلاوتي. تحيا نفسي وتُسبِّحُكَ، وأحكامُكَ تُعينُني. ضللتُ مِثلُ الخروفِ الضالِّ، فاطلُبْ عبدَكَ، فإنِّي لِوصاياكَ لمْ أنسَ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Glory to the Father, and to the Son, and to the Holy Spirit. Now and ever and unto the ages of the ages. Amen.",
+                "arabic": "المجدُ للآبِ والابنِ والرّوحِ القُدُسِ الآنَ وكلَّ أوانٍ وإلى دهرِ الدهورِ. آمين."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Glory to the Father, and the Son and the Holy Spirit, from now and unto the age of all ages. Amen.",
+                "arabic": "المجدُ للآبِ والابنِ والرُّوحِ القُدُسِ مُنذُ الآنَ وإلى أبدِ الآبدين كلِّها. آمين."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Glory be to You, O the Good One and Lover of Mankind. Hail to Your mother the Virgin and to all Your saints. Glory be to You, O Holy Trinity; have mercy upon us.",
+                "arabic": "المجدُ لكَ يا مُحِبَّ البشرِ الصالِحُ. السلامُ لأمِّكَ العذراءِ معَ جميعِ قِديسيكَ. المجدُ لكَ أيها الثالوثُ القُدُّوسُ ارحَمْنا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Let God arise, and let His enemies be scattered, and let all who hate His holy name flee before His face. But let Your people be in blessing, thousands of thousands, and ten thousand times ten thousands, doing Your will. O Lord, You shall open my lips, and my mouth shall declare Your praise. Amen. ALLELUIA.",
+                "arabic": "فليقُمْ اللهُ، وليتبددْ جميعُ أعدائِهِ، وليهربْ مِنْ قُدَّامِ وجهِهِ كلُّ مُبغِضي اسمِهِ القُدُّوسِ. وأمَّا شعبُكَ فليكنْ بِالبركةِ ألوفَ ألوفٍ وربواتِ ربواتٍ، يصنعونَ إرادتَكَ. يا ربُّ افتحْ شفتيَّ ولينطِقْ فمي بتسبيحِكََ. آمين. هَلِّلُويا."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "Psalms Introduction",
+    "coptic_title": null,
+    "arabic_title": "من المزامير",
+    "title": "Psalms Introduction",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "The service of the first watch of the blessed Midnight Hour, we offer to Christ our King and our God, beseeching Him to forgive us our sins.",
+                "arabic": "تسبِحةُ الخِدمةِ الأولى مِنْ نِصفِ الليلِ المُباركِ، أقدِّمُها للمسيحِ ملِكي وإلهي، وأرجوهُ أنْ يغفِرَ لي خطايايَ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "From the Psalms of our teacher David the prophet. May his blessings be upon us all. Amen.",
+                "arabic": "مِنْ مزاميرِ مُعلِّمِنا داودَ النبي بركاتِهِ علينا. آمين."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repeated_prayer_title": "Psalm 3 - O Lord, why have they...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 6 - O Lord, do not rebuke me...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 12 - How long, O Lord...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 69 - O God, be mindful...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 85 - Incline Your ear...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 90 - He who dwells...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 116 - Praise the Lord, all you nations...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 117 - Give thanks to the Lord...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 118 (1) - Blessed are the blameless...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 118 (2) - How shall a young man...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 118 (3) - Render a reward...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 118 (4) - My soul has cleaved...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 118 (5) - Set before me, O Lord...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 118 (6) - Let Your mercy come...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 118 (7) - Remember Your words...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 118 (8) - You are my portion...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 118 (9) - You have dealt well...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 118 (10) - Your hands have made me...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 118 (11) - My soul has fainted...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 118 (12) - Your word, O Lord, abides...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 118 (13) - How beloved is Your name...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 118 (14) - Your law is a lamp...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 118 (15) - I have hated transgressors...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 118 (16) - I have done judgment...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 118 (17) - Your testimonies are wonderful...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 118 (18) - Righteous are You...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 118 (19) - I cried with my whole heart...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 118 (20) - Look upon my humiliation...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 118 (21) - Princes persecuted me...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 118 (22) - Let my supplication come...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Gospel (Matthew 25:1-13)",
+    "source": "AgpeyaPrayers",
+    "category": "gospels"
+  },
+  {
+    "repeated_prayer_title": "We worship You, O Christ",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "repeated_prayer_title": "Litanies of the Midnight Hour",
+    "source": "AgpeyaPrayers",
+    "category": "litanies"
+  },
+  {
+    "title": "Lord Have Mercy (41)",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "O Lord hear us and have mercy on us and forgive us our sins. Amen.",
+                "arabic": "ياربُّ اسمَعْنا وارحَمْنا واغفِرْ لنا خطايانا. آمين."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Lord have mercy (41)",
+                "coptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ (ⲙ̅ⲁ̅)",
+                "arabic": "ياربُّ ارحَمْ (41)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repeated_prayer_title": "Holy, Holy, Holy",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "repeated_prayer_title": "The Lord's Prayer",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "english_title": "Agpeya - Midnight Hour.fixed",
+    "coptic_title": null,
+    "arabic_title": null,
+    "title": "Agpeya - Midnight Hour.fixed",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "The service of the second watch of the blessed Midnight Hour, we offer to Christ our King and our God, beseeching Him to forgive us our sins.",
+                "arabic": "تسبِحةُ الخِدمةِ الثانيةِ مِنْ نِصفِ الليلِ المُباركِ، أقدِّمُها للمسيحِ ملِكي وإلهي، وأرجوهُ أنْ يغفِرَ لي خطايايَ."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "Agpeya - Midnight Hour.fixed",
+    "coptic_title": null,
+    "arabic_title": null,
+    "title": "Agpeya - Midnight Hour.fixed",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "From the Psalms of our teacher David the prophet. May his blessings be upon us all. Amen.",
+                "arabic": "مِنْ مزاميرِ مُعلِّمِنا داودَ النبي بركاتِهِ علينا. آمين."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repeated_prayer_title": "Psalm 119 - In my own affliction...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 120 - I lifted up my eyes...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 121 - I was glad for those...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 122 - Unto You I have lifted...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 123 - If it had not been that...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 124 - Those who trust in the Lord...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 125 - When the Lord brought back...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 126 - Unless the Lord builds the house...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 127 - Blessed are all who fear...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 128 - Many times they have warred...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Gospel (Luke 7:36-50)",
+    "source": "AgpeyaPrayers",
+    "category": "gospels"
+  },
+  {
+    "repeated_prayer_title": "Litanies of the Midnight Hour",
+    "source": "AgpeyaPrayers",
+    "category": "litanies"
+  },
+  {
+    "title": "Lord Have Mercy (41)",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "O Lord hear us and have mercy on us and forgive us our sins. Amen.",
+                "arabic": "ياربُّ اسمَعْنا وارحَمْنا واغفِرْ لنا خطايانا. آمين."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Lord have mercy (41)",
+                "coptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ (ⲙ̅ⲁ̅)",
+                "arabic": "ياربُّ ارحَمْ (41)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repeated_prayer_title": "Holy, Holy, Holy",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "repeated_prayer_title": "The Lord's Prayer",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "english_title": "Agpeya - Midnight Hour.fixed",
+    "coptic_title": null,
+    "arabic_title": null,
+    "title": "Agpeya - Midnight Hour.fixed",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "The service of the third watch of the blessed Midnight Hour, we offer to Christ our King and our God, beseeching Him to forgive us our sins.",
+                "arabic": "تسبِحةُ الخِدمةِ الثالِثةِ مِنْ نِصفِ الليلِ المُباركِ، أقدِّمُها للمسيحِ ملِكي وإلهي، وأرجوهُ أنْ يغفِرَ لي خطايايَ."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "Agpeya - Midnight Hour.fixed",
+    "coptic_title": null,
+    "arabic_title": null,
+    "title": "Agpeya - Midnight Hour.fixed",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "From the Psalms of our teacher David the prophet. May his blessings be upon us all. Amen.",
+                "arabic": "مِنْ مزاميرِ مُعلِّمِنا داودَ النبي بركاتِهِ علينا. آمين."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repeated_prayer_title": "Psalm 129 - Out of the depths...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 130 - O Lord, my heart was not exalted...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 131 - Lord, remember David...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 132 - Behold! What is so good...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 133 - Behold, bless the Lord...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 136 - By the rivers of Babylon...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 137 - I will give thanks to You...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 140 - O Lord, I have cried to You...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 141 - With my voice to the Lord...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 145 - Praise the Lord, O my soul...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 146 - Praise the Lord, for a psalm...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 147 - Praise the Lord, O Jerusalem...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Gospel (Luke 12:32-46)",
+    "source": "AgpeyaPrayers",
+    "category": "gospels"
+  },
+  {
+    "repeated_prayer_title": "Litanies of the Midnight Hour",
+    "source": "AgpeyaPrayers",
+    "category": "litanies"
+  },
+  {
+    "title": "Lord Have Mercy (41)",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "O Lord hear us and have mercy on us and forgive us our sins. Amen.",
+                "arabic": "ياربُّ اسمَعْنا وارحَمْنا واغفِرْ لنا خطايانا. آمين."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Lord have mercy (41)",
+                "coptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ (ⲙ̅ⲁ̅)",
+                "arabic": "ياربُّ ارحَمْ (41)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repeated_prayer_title": "Holy, Holy, Holy",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "repeated_prayer_title": "The Lord's Prayer",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "english_title": "Agpeya - Midnight Hour.fixed",
+    "coptic_title": null,
+    "arabic_title": null,
+    "title": "Agpeya - Midnight Hour.fixed",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Holy, holy, holy. A reading from the Holy Gospel according to our teacher Saint Luke. May his blessings be with us all. Amen.",
+                "arabic": "قدوسٌ، قدوسٌ، قدوسٌ، فصلٌ مِنْ بِشارةِ الإنجيلِ لمُعلِّمِنا مارِ لوقا البشيرِ بركتِهِ على جميعِنا. آمين."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "Agpeya - Midnight Hour.fixed",
+    "coptic_title": null,
+    "arabic_title": null,
+    "title": "Agpeya - Midnight Hour.fixed",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "“Lord, now You are letting Your servant depart in peace, According to Your word;",
+                "arabic": "«الآنَ تُطْلِقُ عَبْدَكَ يَا سَيِّدُ حَسَبَ قَوْلِكَ بِسَلاَمٍ"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "Agpeya - Midnight Hour.fixed",
+    "coptic_title": null,
+    "arabic_title": null,
+    "title": "Agpeya - Midnight Hour.fixed",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "For my eyes have seen Your salvation",
+                "arabic": "لأَنَّ عَيْنَيَّ قَدْ أَبْصَرَتَا خَلاَصَكَ"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "Agpeya - Midnight Hour.fixed",
+    "coptic_title": null,
+    "arabic_title": null,
+    "title": "Agpeya - Midnight Hour.fixed",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Which You have prepared before the face of all peoples,",
+                "arabic": "الَّذِي أَعْدَدْتَهُ قُدَّامَ وَجْهِ جَمِيعِ الشُّعُوبِ."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "Agpeya - Midnight Hour.fixed",
+    "coptic_title": null,
+    "arabic_title": null,
+    "title": "Agpeya - Midnight Hour.fixed",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "A light to bring revelation to the Gentiles, And the glory of Your people Israel.”",
+                "arabic": "نُورَ إِعْلاَنٍ لِلأُمَمِ وَمَجْداً لِشَعْبِكَ إِسْرَائِيلَ»."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "Agpeya - Midnight Hour.fixed",
+    "coptic_title": null,
+    "arabic_title": null,
+    "title": "Agpeya - Midnight Hour.fixed",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "May the sayings of God be fulfilled in peace.",
+                "arabic": "ليكمُلْ قولُ اللهِ بسلامٍ."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repeated_prayer_title": "Introduction to the Creed",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "repeated_prayer_title": "The Orthodox Creed",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "title": "Lord Have Mercy (41)",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "O Lord hear us and have mercy on us and forgive us our sins. Amen.",
+                "arabic": "ياربُّ اسمَعْنا وارحَمْنا واغفِرْ لنا خطايانا. آمين."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Lord have mercy (41)",
+                "coptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ (ⲙ̅ⲁ̅)",
+                "arabic": "ياربُّ ارحَمْ (41)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repeated_prayer_title": "Holy, Holy, Holy",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "repeated_prayer_title": "The Lord's Prayer",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "repeated_prayer_title": "Absolution of the Midnight Hour",
+    "source": "AgpeyaPrayers",
+    "category": "absolutions"
+  },
+  {
+    "repeated_prayer_title": "Conclusion of Every Hour",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  }
+]

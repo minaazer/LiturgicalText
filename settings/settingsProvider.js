@@ -46,7 +46,7 @@ const defaultSettings = {
 
 const SettingsProvider = ({ children }) => {
   const [settings, setSettings] = useState(defaultSettings);
-  const currentVersion = 21; // Update this number when you want to change the settings
+  const currentVersion = 22; // Update this number when you want to change the settings
 
   // Load settings from AsyncStorage on initialization
   useEffect(() => {

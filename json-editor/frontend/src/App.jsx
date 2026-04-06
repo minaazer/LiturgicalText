@@ -76,6 +76,107 @@ const ButtonTemplates = {
   CopyButton: (props) => <BaseButton {...props} label="Copy" className="rjsf-btn-copy" />,
 };
 
+const DIFF_EMPTY = "(none)";
+
+const tokenizeDiffText = (value) =>
+  String(value).split(/(\s+|[.,!?;:()[\]{}"“”'’`-])/).filter((token) => token !== "");
+
+const mergeDiffSegments = (segments) => {
+  const merged = [];
+  segments.forEach((segment) => {
+    if (!segment.text) return;
+    const prev = merged[merged.length - 1];
+    if (prev && prev.type === segment.type) {
+      prev.text += segment.text;
+      return;
+    }
+    merged.push({ ...segment });
+  });
+  return merged;
+};
+
+const buildInlineDiffSegments = (beforeValue, afterValue) => {
+  const before = beforeValue === null || beforeValue === undefined ? DIFF_EMPTY : String(beforeValue);
+  const after = afterValue === null || afterValue === undefined ? DIFF_EMPTY : String(afterValue);
+  if (before === after) {
+    return {
+      beforeSegments: [{ type: "same", text: before }],
+      afterSegments: [{ type: "same", text: after }],
+    };
+  }
+
+  const beforeTokens = tokenizeDiffText(before);
+  const afterTokens = tokenizeDiffText(after);
+  const rows = beforeTokens.length;
+  const cols = afterTokens.length;
+  const dp = Array.from({ length: rows + 1 }, () => Array(cols + 1).fill(0));
+
+  for (let i = rows - 1; i >= 0; i -= 1) {
+    for (let j = cols - 1; j >= 0; j -= 1) {
+      if (beforeTokens[i] === afterTokens[j]) {
+        dp[i][j] = dp[i + 1][j + 1] + 1;
+      } else {
+        dp[i][j] = Math.max(dp[i + 1][j], dp[i][j + 1]);
+      }
+    }
+  }
+
+  const beforeSegments = [];
+  const afterSegments = [];
+  let i = 0;
+  let j = 0;
+  while (i < rows && j < cols) {
+    if (beforeTokens[i] === afterTokens[j]) {
+      beforeSegments.push({ type: "same", text: beforeTokens[i] });
+      afterSegments.push({ type: "same", text: afterTokens[j] });
+      i += 1;
+      j += 1;
+    } else if (dp[i + 1][j] >= dp[i][j + 1]) {
+      beforeSegments.push({ type: "removed", text: beforeTokens[i] });
+      i += 1;
+    } else {
+      afterSegments.push({ type: "added", text: afterTokens[j] });
+      j += 1;
+    }
+  }
+  while (i < rows) {
+    beforeSegments.push({ type: "removed", text: beforeTokens[i] });
+    i += 1;
+  }
+  while (j < cols) {
+    afterSegments.push({ type: "added", text: afterTokens[j] });
+    j += 1;
+  }
+
+  return {
+    beforeSegments: mergeDiffSegments(beforeSegments),
+    afterSegments: mergeDiffSegments(afterSegments),
+  };
+};
+
+const InlineDiffText = ({ beforeValue, afterValue, side }) => {
+  const { beforeSegments, afterSegments } = buildInlineDiffSegments(beforeValue, afterValue);
+  const segments = side === "before" ? beforeSegments : afterSegments;
+  return (
+    <div className="diff-inline-text">
+      {segments.map((segment, idx) => (
+        <span
+          key={`${side}-${idx}`}
+          className={
+            segment.type === "added"
+              ? "diff-inline-added"
+              : segment.type === "removed"
+              ? "diff-inline-removed"
+              : "diff-inline-same"
+          }
+        >
+          {segment.text}
+        </span>
+      ))}
+    </div>
+  );
+};
+
 const App = () => {
   const [session, setSession] = useState(null);
   const [authLoading, setAuthLoading] = useState(false);
@@ -161,7 +262,7 @@ const App = () => {
 
   const idToken = session?.session?.getIdToken?.().getJwtToken?.() || "";
   const accessToken = session?.session?.getAccessToken?.().getJwtToken?.() || "";
-  const token = accessToken || idToken;
+  const token = idToken || accessToken;
   const tokenPayload = useMemo(() => decodeJwt(token), [token]);
   const groups = tokenPayload?.["cognito:groups"] || emptyArray;
   const role = roleFromGroups(groups);
@@ -236,6 +337,19 @@ const App = () => {
     const data = await fetchChanges(token, "pending");
     setPending(data.changes || []);
   }, [token, isAdmin]);
+
+  const getRequesterDisplayName = useCallback(
+    (change) => change?.requestedByName || change?.requestedBy || "Unknown",
+    []
+  );
+
+  const removePendingChange = useCallback((changeId) => {
+    if (!changeId) return;
+    setPending((prev) => prev.filter((change) => change.id !== changeId));
+    setSelectedPendingId((prev) => (prev === changeId ? "" : prev));
+    setSelectedPendingDetail((prev) => (prev?.id === changeId ? null : prev));
+    setSelectedApprovalContext(null);
+  }, []);
 
   const fetchSnapshot = useCallback(async (url) => {
     if (!url) return { data: null, error: null };
@@ -1123,6 +1237,39 @@ const App = () => {
     });
   }, []);
 
+  const handleApproveAllPending = useCallback(
+    async (changeId) => {
+      if (!token || !changeId) return;
+      setLoadingChangeId(changeId);
+      setPendingDetailStatus("");
+      try {
+        await approveChange(token, changeId);
+        removePendingChange(changeId);
+        showApprovalToast("Request approved.");
+        clearApprovalDecisions(changeId);
+        clearApprovalReasons(changeId);
+        loadPending();
+      } catch (err) {
+        if (selectedPendingId === changeId) {
+          setPendingDetailStatus(err.message || "Failed to approve request.");
+        } else {
+          setApprovalToast(err.message || "Failed to approve request.");
+        }
+      } finally {
+        setLoadingChangeId("");
+      }
+    },
+    [
+      token,
+      removePendingChange,
+      showApprovalToast,
+      clearApprovalDecisions,
+      clearApprovalReasons,
+      selectedPendingId,
+      loadPending,
+    ]
+  );
+
   const buildDecisionSummary = useCallback(
     (defaultAction, accepted, rejected, undecidedCount, reason) => ({
       defaultAction,
@@ -1402,6 +1549,7 @@ const App = () => {
                 selectedId={selectedPendingId}
                 loadingId={loadingChangeId}
                 onSelect={(id) => loadPendingDetail(id)}
+                onApproveAll={(id) => handleApproveAllPending(id)}
                 onSubmit={async (id) => {
                   if (!selectedPendingDetail || id !== selectedPendingId) return;
                   if (!approvalDiffEntries.length) return;
@@ -1425,14 +1573,12 @@ const App = () => {
                       const merged = buildPartialData(selectedPendingDetail.baseData, selectedPendingDetail.pendingData, accepted);
                       await approveChange(token, id, { data: merged, decisionSummary });
                     }
+                    removePendingChange(id);
                     showApprovalToast("Changes submitted.");
                     clearApprovalDecisions(id);
                     clearApprovalReasons(id);
                     clearApprovalReasons(id);
-                    setSelectedPendingId("");
-                    setSelectedPendingDetail(null);
-                    setSelectedApprovalContext(null);
-                    await loadPending();
+                    loadPending();
                     setPendingDetailStatus("");
                   } catch (err) {
                     setPendingDetailStatus(err.message || "Failed to submit decision.");
@@ -1452,8 +1598,11 @@ const App = () => {
                   <>
                     <h3>{selectedPendingDetail.path}</h3>
                     <p className="muted">
-                      Requested by {selectedPendingDetail.requestedBy || "Unknown"}
-                      {selectedPendingDetail.summary ? ` — ${selectedPendingDetail.summary}` : ""}
+                      Requested by{" "}
+                      <strong className="requester-name">
+                        {getRequesterDisplayName(selectedPendingDetail)}
+                      </strong>
+                      {selectedPendingDetail.summary ? ` - ${selectedPendingDetail.summary}` : ""}
                     </p>
                     {pendingDetailStatus && <p className="status approval-status">{pendingDetailStatus}</p>}
                     {selectedPendingDetail.pendingError && (
@@ -1514,8 +1663,6 @@ const App = () => {
                         {approvalVisibleEntries.map((entry) => {
                           const decision = activeApprovalDecisions[entry.idx];
                           const pathLabel = entry.label || `Change ${entry.idx + 1}`;
-                          const beforeVal = entry.before === null || entry.before === undefined ? "(none)" : String(entry.before);
-                          const afterVal = entry.after === null || entry.after === undefined ? "(none)" : String(entry.after);
                           return (
                             <div
                               key={entry.idx}
@@ -1571,11 +1718,11 @@ const App = () => {
                               <div className="diff-summary-row">
                                 <div className="diff-summary-cell before">
                                   <span className="diff-sign">-</span>
-                                  <pre>{beforeVal}</pre>
+                                  <InlineDiffText beforeValue={entry.before} afterValue={entry.after} side="before" />
                                 </div>
                                 <div className="diff-summary-cell after">
                                   <span className="diff-sign">+</span>
-                                  <pre>{afterVal}</pre>
+                                  <InlineDiffText beforeValue={entry.before} afterValue={entry.after} side="after" />
                                 </div>
                               </div>
                             </div>

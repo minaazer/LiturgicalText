@@ -119,6 +119,26 @@ const changelog = {
   "1.0.99": [
     "Various bug and ui fixes"
   ],
+  "1.1.0": [
+    "Turned on live database for future real-time updates",
+    "Added general bug report and feature request screen in left menu",
+    "Added specific screen bug report in the right book menu",
+    "Updated font sizes and line heights for better readability",
+    "Improved layout for smaller screens",
+    "Various text corrections"
+  ],
+  "1.1.1": [
+    "Adjusted column widths in multi-column layouts for better readability",
+    "Increased line height in text for improved legibility",
+    "Fixed placement of Great Fast Psalis and Great Ode in Midnight Psalmody"
+  ],
+  "1.1.2": [
+    "Refined Holy Week title layouts with cleaner two-language and three-language caption alignment",
+    "Improved title action icons and button styling for clearer presentation in the webview",
+    "Moved Bible references in English and Arabic titles onto a second line for readability",
+    "Updated Arabic title references to use Arabic commas inside reference parentheses",
+    "Adjusted font size scaling so changes feel less abrupt while keeping clean size labels in Settings"
+  ]
 };
 
 export default changelog;

@@ -1,0 +1,207 @@
+[
+  {
+    "title": "Introduction of the Hour",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "In the name of the Father and the Son and the Holy Spirit, one God. Amen.",
+                "coptic": "Ϧⲉⲛ ⲫ̀ⲣⲁⲛ ⲙ̀Ⲫⲓⲱⲧ ⲛⲉⲙ Ⲡϣⲏⲣⲓ ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ ⲟⲩⲛⲟⲩϯ ⲛ̀ⲟⲩⲱⲧ: ⲁ̀ⲙⲏⲛ.",
+                "arabic": "باسمِ الآبِ والابنِ والرّوحِ القُدُسِ الإلهِ الواحدِ. آمين."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ. Lord have mercy. Lord have mercy. Lord bless us. Amen.",
+                "arabic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ. ياربُّ ارحَمْ. ياربُّ ارحَمْ. ياربُّ بارِكْ. آمين."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Glory to the Father, and to the Son, and to the Holy Spirit. Now and ever and unto the ages of the ages. Amen.",
+                "arabic": "المجدُ للآبِ والابنِ والرّوحِ القُدُسِ الآنَ وكلَّ أوانٍ وإلى دهرِ الدهورِ. آمين."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repeated_prayer_title": "The Lord's Prayer",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "repeated_prayer_title": "The Prayer of Thanksgiving",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "repeated_prayer_title": "Psalm 50",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "english_title": "Psalms Introduction",
+    "coptic_title": null,
+    "arabic_title": "من المزامير",
+    "title": "Psalms Introduction",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "The prayer of the third hour of this blessed day, we offer to Christ our King and our God, beseeching Him to forgive us our sins.",
+                "arabic": "تسبحةُ الساعةِ الثالثةِ مِنَ النهارِ المبارَكِ، أقدِّمُها للمسيحِ ملكي وإلهي، وأرجوهُ أن يغفِرَ لي خطايايَ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "From the Psalms of our teacher David the prophet. May his blessings be upon us all. Amen.",
+                "arabic": "مِنْ مزاميرِ مُعلِّمِنا داودَ النبي بركاتِهِ علينا. آمين."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repeated_prayer_title": "Psalm 19 - The Lord shall hear you...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 22 - The Lord is He who shepherds me...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 23 - The earth and its fullness...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 25 - Judge me, O Lord...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 28 - Bring to the Lord...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 29 - I will exalt You...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 33 - I will bless the Lord...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 40 - Blessed is he who thinks...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 42 - Judge me, O Lord...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 44 - My heart has poured forth...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 45 - Our God is our refuge...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 46 - Clap your hands...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Gospel (John 14:26 - 15:4)",
+    "source": "AgpeyaPrayers",
+    "category": "gospels"
+  },
+  {
+    "repeated_prayer_title": "We worship You, O Christ",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "repeated_prayer_title": "Litanies of the 3rd Hour",
+    "source": "AgpeyaPrayers",
+    "category": "litanies"
+  },
+  {
+    "title": "Lord Have Mercy (41)",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "O Lord hear us and have mercy on us and forgive us our sins. Amen.",
+                "arabic": "ياربُّ اسمَعْنا وارحَمْنا واغفِرْ لنا خطايانا. آمين."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Lord have mercy (41)",
+                "coptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ (ⲙ̅ⲁ̅)",
+                "arabic": "ياربُّ ارحَمْ (41)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repeated_prayer_title": "Holy, Holy, Holy",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "repeated_prayer_title": "The Lord's Prayer",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "repeated_prayer_title": "Absolution of the 3rd Hour",
+    "source": "AgpeyaPrayers",
+    "category": "absolutions"
+  },
+  {
+    "repeated_prayer_title": "Conclusion of Every Hour",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  }
+]

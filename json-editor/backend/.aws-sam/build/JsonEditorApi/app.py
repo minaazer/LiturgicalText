@@ -105,9 +105,59 @@ def get_user(event):
         groups = list(raw_groups)
     return {
         "username": claims.get("cognito:username") or claims.get("username"),
+        "name": claims.get("name"),
         "email": claims.get("email"),
         "groups": groups,
     }
+
+
+def get_user_name(username=None, name=None):
+    resolved_name = normalize_identifier(name)
+    if resolved_name:
+        return resolved_name
+    resolved_username = normalize_identifier(username)
+    if not resolved_username:
+        return None
+    user = get_user_by_identifier(resolved_username)
+    return normalize_identifier(user.get("name")) if user else None
+
+
+def get_user_email(username=None, email=None):
+    resolved_email = normalize_identifier(email)
+    if resolved_email:
+        return resolved_email
+    resolved_username = normalize_identifier(username)
+    if not resolved_username:
+        return None
+    user = get_user_by_identifier(resolved_username)
+    return normalize_identifier(user.get("email")) if user else None
+
+
+def get_change_request_email(item):
+    if not isinstance(item, dict):
+        return None
+    return get_user_email(
+        username=item.get("requestedBy"),
+        email=item.get("requestedByEmail"),
+    )
+
+
+def get_change_request_name(item):
+    if not isinstance(item, dict):
+        return None
+    return get_user_name(
+        username=item.get("requestedBy"),
+        name=item.get("requestedByName"),
+    )
+
+
+def enrich_change_request(item):
+    if not isinstance(item, dict):
+        return item
+    enriched = dict(item)
+    enriched["requestedByName"] = get_change_request_name(item)
+    enriched["requestedByEmail"] = get_change_request_email(item)
+    return enriched
 
 
 def is_superadmin(event):
@@ -146,6 +196,7 @@ def get_user_by_identifier(identifier):
             attrs = attrs_to_dict(user.get("Attributes"))
             return {
                 "username": user.get("Username"),
+                "name": attrs.get("name"),
                 "email": attrs.get("email"),
                 "email_verified": attrs.get("email_verified") == "true",
             }
@@ -153,6 +204,7 @@ def get_user_by_identifier(identifier):
         attrs = attrs_to_dict(resp.get("UserAttributes"))
         return {
             "username": resp.get("Username"),
+            "name": attrs.get("name"),
             "email": attrs.get("email"),
             "email_verified": attrs.get("email_verified") == "true",
         }
@@ -475,7 +527,7 @@ def send_notification(to_addresses, subject, body, html_body=None):
             ReplyToAddresses=[NOTIFY_REPLY_TO],
         )
     except Exception as err:  # pragma: no cover - notification best effort
-        print(f"Failed to send notification to {to_address}: {err}")
+        print(f"Failed to send notification to {to_list}: {err}")
 
 
 def sanitize_filename(filename):
@@ -801,6 +853,14 @@ def handle_submit_change(event):
         return response(400, {"message": "Missing data"})
 
     user = get_user(event)
+    requester_name = get_user_name(
+        username=user.get("username"),
+        name=user.get("name"),
+    )
+    requester_email = get_user_email(
+        username=user.get("username"),
+        email=user.get("email"),
+    )
     change_id = str(uuid.uuid4())
     created_at = now_iso()
 
@@ -841,7 +901,8 @@ def handle_submit_change(event):
             "status": "pending",
             "createdAt": created_at,
             "requestedBy": user.get("username"),
-            "requestedByEmail": user.get("email"),
+            "requestedByName": requester_name,
+            "requestedByEmail": requester_email,
             "pendingKey": pending_key,
             "baseKey": base_key,
             "baseSource": base_source,
@@ -859,8 +920,8 @@ def handle_submit_change(event):
                 f"A new change was submitted.\n\n"
                 f"File: {path}\n"
                 f"Summary: {summary or 'No summary provided'}\n"
-                f"Requested by: {user.get('username')}\n"
-                f"Requestor email: {user.get('email') or 'Unknown'}\n"
+                f"Requested by: {requester_name or user.get('username')}\n"
+                f"Requestor email: {requester_email or 'Unknown'}\n"
                 f"Change ID: {change_id}\n"
             ),
         )
@@ -877,7 +938,7 @@ def handle_list_changes(event):
         IndexName=index,
         KeyConditionExpression=Key("status").eq(status),
     ).get("Items", [])
-    return response(200, {"changes": items})
+    return response(200, {"changes": [enrich_change_request(item) for item in items]})
 
 
 def handle_get_change(event, change_id):
@@ -886,7 +947,7 @@ def handle_get_change(event, change_id):
     if not item:
         return response(404, {"message": "Change not found"})
 
-    result = dict(item)
+    result = enrich_change_request(item)
     pending_key = item.get("pendingKey")
     base_key = item.get("baseKey")
     path = item.get("path")
@@ -1103,8 +1164,20 @@ def handle_approve_change(event, change_id):
                 "</div>"
             )
 
+    requester_email = get_change_request_email(item)
+    if requester_email and requester_email != item.get("requestedByEmail"):
+        table.update_item(
+            Key={"id": change_id},
+            UpdateExpression="SET requestedByEmail = :requestedByEmail",
+            ExpressionAttributeValues={":requestedByEmail": requester_email},
+        )
+    if not requester_email:
+        print(
+            f"Approval notification skipped for change {change_id}: no requester email "
+            f"for username {item.get('requestedBy')}"
+        )
     send_notification(
-        item.get("requestedByEmail"),
+        requester_email,
         subject=f"[LiturgicalBooks] Change approved: {path}",
         body=(
             f"Your change request has been approved.\n\n"
@@ -1197,8 +1270,20 @@ def handle_reject_change(event, change_id):
                 "</div>"
             )
 
+    requester_email = get_change_request_email(item)
+    if requester_email and requester_email != item.get("requestedByEmail"):
+        table.update_item(
+            Key={"id": change_id},
+            UpdateExpression="SET requestedByEmail = :requestedByEmail",
+            ExpressionAttributeValues={":requestedByEmail": requester_email},
+        )
+    if not requester_email:
+        print(
+            f"Rejection notification skipped for change {change_id}: no requester email "
+            f"for username {item.get('requestedBy')}"
+        )
     send_notification(
-        item.get("requestedByEmail"),
+        requester_email,
         subject=f"[LiturgicalBooks] Change rejected: {item.get('path')}",
         body=(
             f"Your change request has been rejected.\n\n"

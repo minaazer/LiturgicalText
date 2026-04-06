@@ -16,13 +16,7 @@ if (-not (Get-Command node -ErrorAction SilentlyContinue)) {
 if (-not (Get-Command npx -ErrorAction SilentlyContinue)) {
   Write-Error "npx not found in PATH. Install Node.js (includes npm/npx)."
 }
-$awsCmd = Get-Command aws.exe -CommandType Application -ErrorAction SilentlyContinue
-if (-not $awsCmd) {
-  $awsCmd = Get-Command aws -CommandType Application -ErrorAction SilentlyContinue
-}
-if (-not $awsCmd) {
-  Write-Error "aws CLI not found in PATH. Install AWS CLI v2 first."
-}
+$awsExe = & "$PSScriptRoot/resolve_aws_cli.ps1"
 
 # Normalize profile and keep env in sync to avoid empty --profile args
 if ([string]::IsNullOrWhiteSpace($Profile)) {

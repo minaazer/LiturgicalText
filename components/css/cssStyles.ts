@@ -193,32 +193,32 @@ td {
 
 /* First column of a 3-column row */
 td.column-1-3 {
-    flex: 0 1 30%; /* 30% width */
+    flex: 0 1 35%; /* 30% width */
     padding-right: ${columnPadding}px;
 }
 
 /* Second column of a 3-column row */
 td.column-2-3 {
-    flex: 0 1 40%; /* 30% width */
+    flex: 0 1 38%; /* 30% width */
     padding-right: ${columnPadding}px;
 
 }
 
 /* Third column of a 3-column row */
 td.column-3-3 {
-    flex: 0 1 30%; /* 30% width */
+    flex: 0 1 27%; /* 30% width */
     padding-right: 3px;
 }
 
 /* First column of a 2-column row */
 td.column-1-2 {
-    flex: 0 1 50%; /* 30% width */
+    flex: 0 1 55%; /* 30% width */
     padding-right: ${columnPadding}px;
 }
 
 /* Second column of a 2-column row */
 td.column-2-2 {
-    flex: 0 1 50%; /* 30% width */
+    flex: 0 1 45%; /* 30% width */
     padding-right: 3px;
     pointer-events: none;
 
@@ -243,14 +243,15 @@ td.column-1-1 {
    
 }
 
+
 .arabic {
-    text-align: right;
-    font-family: 'Georgia' !important;
+    font-family: 'Noto Naskh Arabic' !important;
     direction: rtl !important; 
     unicode-bidi: embed; /* Ensure proper rendering of Arabic text */
     vertical-align: top ;
     text-align: justify;
-    text-justify: newspaper;
+    text-justify: auto;
+    width: 100% !important;
     display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'inline'};
     line-height: 1.4 !important;
 
@@ -259,7 +260,7 @@ td.column-1-1 {
 .arabic1 {
     
     vertical-align: top ;
-    font-family: 'Georgia' !important;
+    font-family: 'Noto Naskh Arabic' !important;
     text-align: justify;
     display: ${settings.languages && !visibleLangues[1].checked ? 'none' : 'inline'};
     line-height: 1.4 !important;
@@ -268,6 +269,7 @@ td.column-1-1 {
 
 .arRef {
     text-align: center !important;
+    font-family: 'Noto Naskh Arabic' !important;
     direction: rtl !important;    
     vertical-align: top ;
     padding-bottom: 10px;
@@ -280,7 +282,7 @@ td.column-1-1 {
     font-family: 'FreeSerif Avva Shenouda' !important;
     text-align: justify;
     display: ${settings.languages && !visibleLangues[2].checked ? 'none' : 'inline'};
-    line-height: 1.3;
+    line-height: 1.4;
 }
 
 .copticReadings {
@@ -295,6 +297,7 @@ td.column-1-1 {
     vertical-align: top ;
     font-family: 'Georgia' !important;
     text-align: justify;
+    line-height: 1. !important;
     display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'inline'};
 }
 
@@ -326,6 +329,7 @@ td.column-1-1 {
 
 
 .arPhonics {
+    font-family: 'Noto Naskh Arabic' !important;
     text-align: right;
     direction: rtl !important;        
     vertical-align: top ;
@@ -348,9 +352,9 @@ td.column-1-1 {
     font-family: 'EB Garamond' !important;
     color: white !important;
     display: grid;
-    grid-template-columns: 30px 1fr auto; /* toggle | text | actions */
+    grid-template-columns: auto 1fr auto; /* toggle | text | actions */
     align-items: center;
-    gap: 6px;
+    gap: 10px;
     text-align: left;
     padding: 8px 12px 10px 0px;
     font-weight: bold;
@@ -360,6 +364,23 @@ td.column-1-1 {
     width: 100%;
     box-sizing: border-box;
     min-height: 44px;
+}
+
+.caption-toggle {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 0.9em;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1.2em;
+    justify-self: center;
+    text-align: center;
+}
+
+.caption-toggle::before {
+    content: "\\f056";
 }
 
 .caption-texts {
@@ -384,12 +405,13 @@ td.column-1-1 {
     align-items: center;
 }
 
-.caption-texts span:not(:last-child)::after {
-    content: "~";
+.caption-separator {
+    color: grey;
+    font-weight: normal;
+    font-family: 'EB Garamond' !important;
     padding: 0 4px;
     display: inline-block;
     margin: 0 4px;
-    
 }
 
 .caption:not(.header-table) {
@@ -412,8 +434,73 @@ td.column-1-1 {
     text-align: left;
 }
 
+.caption:not(.header-table) .caption-separator {
+    align-self: center;
+}
+
 .caption:not(.header-table) .coptic-caption {
     text-align: left !important;
+}
+
+.caption.caption-two-lang-en-ar:not(.header-table) .caption-texts {
+    display: grid;
+    grid-template-columns: minmax(0, 55%) minmax(0, 45%);
+    column-gap: 14px;
+    row-gap: 0;
+    align-items: start;
+    width: 100%;
+}
+
+.caption.caption-two-lang-en-ar:not(.header-table) .caption-texts .english-caption {
+    display: block;
+    width: 100%;
+    text-align: left;
+    justify-self: start;
+}
+
+.caption.caption-two-lang-en-ar:not(.header-table) .caption-texts .arabic-caption {
+    display: block;
+    width: 100%;
+    text-align: right;
+    justify-self: end;
+}
+
+.caption.caption-two-lang-en-ar:not(.header-table) .caption-separator {
+    display: none;
+}
+
+.caption.caption-three-lang:not(.header-table) .caption-texts {
+    display: grid;
+    grid-template-columns: minmax(0, 35%) minmax(0, 38%) minmax(0, 27%);
+    column-gap: 14px;
+    row-gap: 0;
+    align-items: start;
+    width: 100%;
+}
+
+.caption.caption-three-lang:not(.header-table) .caption-texts .english-caption {
+    display: block;
+    width: 100%;
+    text-align: left;
+    justify-self: start;
+}
+
+.caption.caption-three-lang:not(.header-table) .caption-texts .coptic-caption {
+    display: block;
+    width: 100%;
+    text-align: center !important;
+    justify-self: center;
+}
+
+.caption.caption-three-lang:not(.header-table) .caption-texts .arabic-caption {
+    display: block;
+    width: 100%;
+    text-align: right;
+    justify-self: end;
+}
+
+.caption.caption-three-lang:not(.header-table) .caption-separator {
+    display: none;
 }
 
 .caption.header-table .caption-texts {
@@ -433,16 +520,15 @@ td.column-1-1 {
     width: auto;
 }
 
+.caption.header-table .caption-separator {
+    align-self: center;
+}
+
 .caption-actions {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    white-space: nowrap;
-    flex: 0 0 auto;
+    justify-self: end;
 }
 .caption-actions:empty {
     display: none;
-    gap: 0;
 }
 
 .caption.silent-prayer {
@@ -457,40 +543,57 @@ table.silent-prayer * {
     color: lightGrey !important;
 }
 
-.caption::before {
-    content: "\\f056"; /* Font Awesome Unicode for plus icon */
-    font-family: "Font Awesome 5 Free"; /* Font Awesome font family */
-    font-size: ${toggleFontSize};
-    justify-self: center;
-    text-align: left;
-}
-
 .caption.header-table {
     color: #C50000 !important;
     grid-template-columns: 1fr auto;
 }
 
-.caption.header-table::before {
-    content: "";
+.caption.header-table .caption-toggle {
     display: none;
 }
 
 .audio-button,
 .explanation-button,
 .image-button {
-  position: static;
-  cursor: pointer;
-  pointer-events: auto;
-  z-index: 2;
+    position: static;
+    cursor: pointer;
+    pointer-events: auto;
+    z-index: 2;
+    display: inline-block;
+    min-width: 1.1em;
+    flex: 0 0 auto;
+    line-height: 1;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 0.82em;
+    color: white;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
 }
 
-.caption.table-invisible::before {
-    content: "\\f055"; /* Font Awesome Unicode for minus icon */
-    font-family: "Font Awesome 5 Free"; /* Font Awesome font family */
-    font-weight: 900;
-    font-size: ${toggleFontSize};
-    justify-self: center;
-    text-align: center;
+.audio-button::before,
+.explanation-button::before,
+.image-button::before {
+    display: inline-block;
+    line-height: 1;
+}
+
+.explanation-button::before {
+    content: "\\f518";
+}
+
+.image-button::before {
+    content: "\\f001";
+}
+
+.audio-button::before {
+    content: "\\f144";
+}
+
+.caption.table-invisible .caption-toggle::before {
+    content: "\\f055";
 }
 .coptic-caption {
     font-family: 'FreeSerif Avva Shenouda';
@@ -501,6 +604,7 @@ table.silent-prayer * {
     font-family: 'Georgia' !important;
   }
 .arabic-caption {
+    font-family: 'Noto Naskh Arabic' !important;
     direction: rtl !important;
 }
 
@@ -519,6 +623,7 @@ table.silent-prayer * {
 }
 
 .arabic-text {
+    font-family: 'Noto Naskh Arabic' !important;
     direction: rtl !important;
     line-height: 1;
 }
@@ -537,17 +642,23 @@ table.silent-prayer * {
 }
 
 .navigationButton {
-    display: flex;
-    width: 95% !important;
+    display: inline-flex;
     align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
     font-size: ${fontSize};
+    font-family: 'EB Garamond' !important;
     color: white !important;
-    background-color: #614051 !important;
-    font-weight: bold !important;
-    padding: 3px !important;
-    margin: 10px !important;
+    background: linear-gradient(180deg, #5a348a 0%, #3b215e 100%) !important;
+    font-weight: 700 !important;
+    padding: 10px 14px !important;
+    margin: 8px 0 !important;
     border-radius: 10px !important;
-    border: 1px solid white;
+    border: 1px solid #7d57ab !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+    text-align: center;
+    text-decoration: none;
     cursor: pointer;
     pointer-events: auto;
 

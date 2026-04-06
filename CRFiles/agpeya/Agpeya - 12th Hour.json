@@ -1,0 +1,304 @@
+[
+  {
+    "title": "Introduction of the Hour",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "In the name of the Father and the Son and the Holy Spirit, one God. Amen.",
+                "coptic": "Ϧⲉⲛ ⲫ̀ⲣⲁⲛ ⲙ̀Ⲫⲓⲱⲧ ⲛⲉⲙ Ⲡϣⲏⲣⲓ ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ ⲟⲩⲛⲟⲩϯ ⲛ̀ⲟⲩⲱⲧ: ⲁ̀ⲙⲏⲛ.",
+                "arabic": "باسمِ الآبِ والابنِ والرّوحِ القُدُسِ الإلهِ الواحدِ. آمين."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ. Lord have mercy. Lord have mercy. Lord bless us. Amen.",
+                "arabic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ. ياربُّ ارحَمْ. ياربُّ ارحَمْ. ياربُّ بارِكْ. آمين."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Glory to the Father, and to the Son, and to the Holy Spirit. Now and ever and unto the ages of the ages. Amen.",
+                "arabic": "المجدُ للآبِ والابنِ والرّوحِ القُدُسِ الآنَ وكلَّ أوانٍ وإلى دهرِ الدهورِ. آمين."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repeated_prayer_title": "The Lord's Prayer",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "repeated_prayer_title": "The Prayer of Thanksgiving",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "repeated_prayer_title": "Psalm 50",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "english_title": "Psalms Introduction",
+    "coptic_title": null,
+    "arabic_title": "من المزامير",
+    "title": "Psalms Introduction",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "The blessed prayer of retiring, we offer to Christ our King and our God, beseeching Him to forgive us our sins.",
+                "arabic": "تسبحة النوم من هذا اليوم المبارك أقدمها للمسيح ملكي والهي وأرجوه أن يغفر لي خطاياي."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "From the Psalms of our teacher David the prophet. May his blessings be upon us all. Amen.",
+                "arabic": "مِنْ مزاميرِ مُعلِّمِنا داودَ النبي بركاتِهِ علينا. آمين."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repeated_prayer_title": "Psalm 129 - Out of the depths...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 130 - O Lord, my heart was not exalted...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 131 - Lord, remember David...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 132 - Behold! What is so good...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 133 - Behold, bless the Lord...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 136 - By the rivers of Babylon...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 137 - I will give thanks to You...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 140 - O Lord, I have cried to You...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 141 - With my voice to the Lord...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 145 - Praise the Lord, O my soul...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 146 - Praise the Lord, for a psalm...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 147 - Praise the Lord, O Jerusalem...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Gospel (Luke 2:25-32)",
+    "source": "AgpeyaPrayers",
+    "category": "gospels"
+  },
+  {
+    "repeated_prayer_title": "We worship You, O Christ",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "repeated_prayer_title": "Litanies of the 12th Hour",
+    "source": "AgpeyaPrayers",
+    "category": "litanies"
+  },
+  {
+    "english_title": "Graciously Accord, O Lord",
+    "coptic_title": null,
+    "arabic_title": "تَفضَّلْ يا ربُّ",
+    "title": "Graciously Accord, O Lord",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Graciously accord, O Lord, to keep us this night without sin. Blessed are You, O Lord, God of our fathers, and exceedingly blessed and glorified be Your name forever. Amen.",
+                "coptic": "Ⲁⲣⲓⲕⲁⲧⲁⲝⲓⲟⲓⲛ Ⲡⲟ̅ⲥ̅ ⲛ̀ⲧⲉⲕⲁ̀ⲣⲉϩ ⲉ̀ⲣⲟⲛ ϧⲉⲛ ⲡⲁⲓⲉ̀ϩⲟⲟⲩ ⲫⲁⲓ ⲉⲛⲟⲓ ⲛ̀ⲁⲑⲛⲟⲃⲓ: ⲕ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ Ⲡⲟ̅ⲥ̅ Ⲫϯ ⲛ̀ⲧⲉ ⲛⲉⲛⲓⲟϯ: ⲕ̀ⲉⲣϩⲟⲩⲟ̀ ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ϥ̀ⲙⲉϩ ⲛ̀ⲱ̀ⲟⲩ ⲛ̀ϫⲉ ⲡⲉⲕⲣⲁⲛ ⲉ̅ⲑ̅ⲩ̅ ϣⲁ ⲉ̀ⲛⲉϩ ⲁ̀ⲙⲏⲛ.",
+                "arabic": "تَفضَّلْ يا ربُّ أنْ تَحْفَظَنا في هَذهِ الليلةِ بِغَيرِ خَطيئةٍ. مُبارَكٌ أَنْتَ أيُّها الرَّبُّ إلهُ آبائِنا، ومُتَزايدٌ بَرَكةً، واسْمُكَ القُدّوسُ مَمْلوءٌ مَجْداً إلى الأبَدِ. آمين."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Let Your mercy, O Lord, be upon us, according to our hope in You, for the eyes of everyone wait upon You, for You give them their food in due season. Hear us, O God our Savior, the hope of all the regions of the earth. And You, O Lord, keep us safe from this generation and forever. Amen.",
+                "coptic": "Ⲙⲁⲣⲉϥϣⲱⲡⲓ ⲛ̀ϫⲉ ⲡⲉⲕⲛⲁⲓ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ Ⲡⲟ̅ⲥ̅ ⲕⲁⲧⲁ ⲫ̀ⲣⲏϯ ⲉ̀ⲧⲁⲛⲉⲣϩⲉⲗⲡⲓⲥ ⲉ̀ⲣⲟⲕ: ϫⲉ ⲛⲉⲛⲃⲁⲗ ⲛ̀ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ ⲥⲉⲉⲣϩⲉⲗⲡⲓⲥ ⲉ̀ⲣⲟⲕ ϫⲉ ⲛ̀ⲑⲟⲕ ⲉⲑⲛⲁϯ ⲛ̀ⲧⲟⲩϧ̀ⲣⲉ ⲛⲱⲟⲩ ϧⲉⲛ ⲡ̀ⲥⲏⲟⲩ ⲛ̀ⲧⲏⲓⲥ. Ⲥⲱⲧⲉⲙ ⲉ̀ⲣⲟⲛ Ⲫϯ Ⲡⲉⲛⲥ̅ⲱ̅ⲣ̅ ϯϩⲉⲗⲡⲓⲥ ⲛ̀ⲧⲉ ⲁⲩⲣⲏϫϥ ⲙ̀ⲡ̀ⲕⲁϩⲓ ⲧⲏⲣϥ. Ⲛⲑⲟⲕ ⲇⲉ Ⲡⲟ̅ⲥ̅ ⲉⲕⲉ̀ⲁ̀ⲣⲉϩ ⲉ̀ⲣⲟⲛ ⲉⲕⲉ̀ⲛⲁϩⲙⲉⲛ ⲉⲕⲉ̀ⲧⲟⲩϫⲟⲛ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲟⲧϥ ⲙ̀ⲡⲁⲓϫⲱⲟⲩ ⲫⲁⲓ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲁ̀ⲙⲏⲛ.",
+                "arabic": "فَلْتكُنْ رَحمَتُكَ عَليْنا يا ربُّ كَمِثْلِ اتِّكالِنا عَليْكَ. لأنَّ أعْيُنَ الكُلِّ تَترَجّاكَ. لأنَّكَ أنْتَ الَّذي تُعْطيهِم طَعامَهُم في حينِهِ. اسْمَعنا يا اللَّهُ مُخلِّصُنا. يا رَجاءَ أقْطارِ الأرْضِ كُلِّها. وأنْتَ يا رَبُّ تَحْفظُنا وتُنَجِّينا، مِنْ هَذا الجيلِ وإلى الأبَدِ. آمين."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Blessed are You, O Lord; teach me Your statutes. Blessed are You, O Lord; make me to understand Your commandments. Blessed are You, O Lord; enlighten me with Your righteousness.",
+                "coptic": "Ⲕⲥ̀ⲙⲁⲣⲱⲟⲩⲧ Ⲡⲟ̅ⲥ̅ ⲙⲁⲧ̀ⲥⲁⲃⲟⲓ ⲉ̀ⲛⲉⲕⲙⲉⲑⲙⲏⲓ: ⲕ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ Ⲡⲟ̅ⲥ̅ ⲙⲁⲕⲁϯ ⲛⲏⲓ ⲉ̀ⲛⲉⲕⲙⲉⲑⲙⲏⲓ: ⲕ̀ⲥ̀ ⲙⲁⲣⲱⲟⲩⲧ Ⲡⲟ̅ⲥ̅ ⲙⲁⲫ̀ⲟⲩⲱⲓⲛⲓ ⲛⲏⲓ ⲉ̀ⲛⲉⲕⲙⲉⲑⲙⲏⲓ.",
+                "arabic": "مُبارَكٌ أنْتَ يا ربُّ عَلِّمْني عَدْلَكَ. مُبارَكٌ أنْتَ يا ربُّ فَهِّمْني حُقوقَكَ. مُبارَكٌ أنْتَ يا ربُّ أنِرْ لي بِرَّكَ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Your mercy, O Lord, endures forever. Despise not, O Lord, the works of Your hands. You have been my refuge from generation to generation. I asked the Lord and said, \"Have mercy on me; heal my soul, for I have sinned against You.\" Lord, I have fled unto You, save me, and teach me to do Your will, for You are my God, and with You is the fountain of life. In Your light, shall we see light. Let Your mercy come unto those who know You and Your righteousness unto the upright in heart.",
+                "coptic": "Ⲡⲟ̅ⲥ̅ ⲡⲉⲕⲛⲁⲓ ϣⲟⲡ ϣⲁ ⲉ̀ⲛⲉϩ: ⲛⲓϩ̀ⲃⲏⲟⲩⲓ ⲛ̀ⲧⲉ ⲛⲉⲕϫⲓϫ Ⲡⲟ̅ⲥ̅ ⲙ̀ⲡⲉⲣⲭⲁⲩ ⲛ̀ⲥⲱⲕ: ϫⲉ ⲁⲕϣⲱⲡⲓ ⲛⲁⲛ ⲛ̀ⲟⲩⲙⲁⲙ̀ⲫⲱⲧ ⲓⲥϫⲉⲛ ϫⲱⲟⲩ ϣⲁ ϫⲱⲟⲩ. Ⲁⲛⲟⲕ ⲁⲓϫⲟⲥ ϫⲉ Ⲡⲟ̅ⲥ̅ ⲛⲁⲓ ⲛⲏⲓ: ⲙⲁⲧⲟⲩϫⲟ ⲛ̀ⲧⲁⲯⲩⲭⲏ ϫⲉ ⲁⲓⲉⲣⲛⲟⲃⲓ ⲉ̀ⲣⲟⲕ: Ⲡⲟ̅ⲥ̅ ⲁⲓⲫⲱⲧ ϩⲁⲣⲟⲕ: ⲛⲁϩⲙⲉⲧ ⲙⲁⲧ̀ⲥⲁⲃⲟⲓ ⲉ̀ⲓ̀ⲣⲓ ⲙ̀ⲡⲉⲧⲉϩⲛⲁⲕ ϫⲉ ⲛ̀ⲑⲟⲕ ⲡⲉ Ⲡⲁⲛⲟⲩϯ: ⲥ̀ⲭⲏ ϧⲁⲧⲟⲧⲕ ⲛ̀ϫⲉ ϯⲙⲟⲩⲙⲓ ⲛ̀ⲧⲉ ⲡ̀ⲱⲛϧ: ϧⲉⲛ ⲡⲉⲕⲟⲩⲱⲓⲛⲓ Ⲡⲟ̅ⲥ̅ ⲉⲛⲉ̀ⲛⲁⲩ ⲉ̀ⲟⲩⲱⲓⲛⲓ: ⲙⲁⲣⲉϥⲓ̀ ⲛ̀ϫⲉ ⲡⲉⲕⲛⲁⲓ ⲛ̀ⲛⲏⲉⲧⲥⲱⲟⲩⲛ ⲙ̀ⲙⲟⲕ: ⲟⲩⲟϩ ⲧⲉⲕⲙⲉⲑⲙⲏⲓ ⲛ̀ⲛⲏⲉⲧⲥⲟⲩⲧⲱⲛ ϧⲉⲛ ⲡⲟⲩϩⲏⲧ.",
+                "arabic": "يا ربُّ رَحْمَتُكَ دائِمَةٌ إلى الأبَدِ. أعْمالُ يَديْكَ يا ربُّ لا تَرفُضْها. لأنَّكَ يا ربُّ صِرْتَ لي مَلجأً مِنْ جيلٍ إلى جيلٍ. أَنا طَلبْتُ الرَّبَّ وقُلْتُ: ارْحَمْني وخَلِّصْ نَفْسي، فإنّي أخْطَأتُ إليكَ. يا ربُّ الْتَجأتُ إليكَ فَخلِّصْني، وعَلِّمْني أنْ أصْنَعَ مَشيئتَكَ، لأنَّكَ أنْتَ هُوَ إلَهي، وعِنْدَكَ يُنْبوعُ الْحَياةِ، وبِنورِكَ يا ربُّ نُعاينُ النّورَ. فلْتَأتِ رَحْمتُكَ للَّذينَ يَعْرِفونَكَ، وبِرُّكَ للْمُسْتقيمي القُلوبِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "To You belongs blessing. To You belongs praise. To You belongs glory, O Father, Son and Holy Spirit, existing from the beginning, now, and forever and ever. Amen.",
+                "coptic": "Ϥⲉⲣϣⲁⲩ ⲛⲁⲕ ⲛ̀ϫⲉ ⲡⲓⲥ̀ⲙⲟⲩ: ϥ̀ⲉⲣϣⲁⲩ ⲛⲁⲕ ⲛ̀ϫⲉ ⲡⲓϩⲱⲥ: ϥ̀ⲉⲣⲡ̀ⲣⲉⲡⲓ ⲛⲁⲕ ⲛ̀ϫⲉ ⲡⲓⲱ̀ⲟⲩ: Ⲫⲓⲱⲧ ⲛⲉⲙ Ⲡϣⲏⲣⲓ ⲛⲉⲙ Ⲡⲓⲡ̅ⲛ̅ⲁ̅ ⲉ̅ⲑ̅ⲩ̅: ⲫⲏⲉⲧϣⲟⲡ ⲓⲥϫⲉⲛ ϩⲏ ⲛⲉⲙ ϯⲛⲟⲩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲡⲓⲉ̀ⲛⲉϩ ⲁ̀ⲙⲏⲛ.",
+                "arabic": "لَكَ تجِبُ البَركَةُ. لَكَ يَحِقُّ التَّسْبيحُ. لَكَ يَنْبغي التَّمْجيدُ، أيُّها الآبُ، والابْنُ، والرُّوحُ القُدُسُ، الكائِنُ منْذُ البَدْءِ، والآنَ وإلى أبَدِ الأبَدِ. آمين."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "It is good to give thanks to the Lord, and to sing praises unto Your name, O Most High; to show forth Your mercy every morning, and Your righteousness every night.",
+                "coptic": "Ⲛⲁⲛⲉ ⲟⲩⲱⲛϩ ⲉ̀ⲃⲟⲗ ⲙ̀Ⲡⲟ̅ⲥ̅ ⲉ̀ⲉⲣⲯⲁⲗⲓⲛ ⲉ̀ⲡⲉⲕⲣⲁⲛ ⲡⲉⲧϭⲟⲥⲓ: ⲉ̀ⲡ̀ϫⲓⲛⲫⲓⲣⲓ ⲉ̀ⲡⲉⲕⲛⲁⲓ ⲛ̀ϩⲁⲛⲁ̀ⲧⲟⲟⲩⲓ̀ ⲛⲉⲙ ⲧⲉⲕⲙⲉⲑⲙⲏⲓ ⲕⲁⲧⲁ ⲉ̀ϫⲱⲣϩ.",
+                "arabic": "جَيِّدٌ هُوَ الاعْتِرافُ للرَّبِّ، والتَّرْتيلُ لاسْمِكَ أيُّها العَلُّيُّ. أنْ يُخْبَرَ برَحْمتِكَ في الغَدَواتِ، وحَقِّكَ في كُلِّ لَيلةٍ."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repeated_prayer_title": "Trisagion",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "repeated_prayer_title": "The Lord's Prayer",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "repeated_prayer_title": "Hail to You",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "repeated_prayer_title": "Introduction to the Creed",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "repeated_prayer_title": "The Orthodox Creed",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "title": "Lord Have Mercy (41)",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "O Lord hear us and have mercy on us and forgive us our sins. Amen.",
+                "arabic": "ياربُّ اسمَعْنا وارحَمْنا واغفِرْ لنا خطايانا. آمين."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Lord have mercy (41)",
+                "coptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ (ⲙ̅ⲁ̅)",
+                "arabic": "ياربُّ ارحَمْ (41)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repeated_prayer_title": "Holy, Holy, Holy",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "repeated_prayer_title": "The Lord's Prayer",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "repeated_prayer_title": "Absolution of the 12th Hour",
+    "source": "AgpeyaPrayers",
+    "category": "absolutions"
+  },
+  {
+    "repeated_prayer_title": "Conclusion of Every Hour",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  }
+]

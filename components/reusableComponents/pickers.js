@@ -14,7 +14,7 @@ import { bibleVersions, getVersionById } from "../../data/bibleVersions";
 import { presentationStyles } from "../css/presentationStyles";
 
 const FontSizePicker = ({ setSettings, settings }) => {
-  const items = [
+  const labels = [
     "1",
     "1.5",
     "2",
@@ -39,8 +39,28 @@ const FontSizePicker = ({ setSettings, settings }) => {
     "11.5",
     "12",
   ];
+  const anchorFontSize = 3.5;
+  const fontScaleFactor = 0.75;
+  const items = labels.map((label) => {
+    const numericLabel = parseFloat(label);
+    const scaledValue =
+      anchorFontSize + (numericLabel - anchorFontSize) * fontScaleFactor;
+    return {
+      label,
+      value: scaledValue.toFixed(2).replace(/\.00$/, "").replace(/(\.\d)0$/, "$1"),
+    };
+  });
 
   const fontSize = settings.fontSize;
+  const selectedFontOption =
+    items.find((item) => item.value === fontSize) ||
+    items.reduce((closest, item) => {
+      const currentDelta = Math.abs(parseFloat(item.value) - parseFloat(fontSize));
+      const closestDelta = Math.abs(
+        parseFloat(closest.value) - parseFloat(fontSize)
+      );
+      return currentDelta < closestDelta ? item : closest;
+    }, items[0]);
 
   const setFontSizeHandler = (value) => {
     // change the font size property in my settings object
@@ -50,11 +70,11 @@ const FontSizePicker = ({ setSettings, settings }) => {
   return (
     <SelectDropdown
       data={items}
-      onSelect={(selectedItem) => setFontSizeHandler(selectedItem)} // Simplified handler
+      onSelect={(selectedItem) => setFontSizeHandler(selectedItem.value)}
       renderButton={(selectedItem, isOpened) => (
         <View style={styles.dropdownButtonStyle}>
           <Text style={styles.dropdownButtonTxtStyle}>
-            {selectedItem || `Font Size: ${settings.fontSize}`}
+            {selectedItem?.label || selectedFontOption?.label || `Font Size: ${settings.fontSize}`}
           </Text>
           <Icon
             name={isOpened ? "caretup" : "caretdown"}
@@ -62,7 +82,8 @@ const FontSizePicker = ({ setSettings, settings }) => {
           />
         </View>
       )}
-      defaultButtonText={`Font Size: ${fontSize}`} // Default text for unselected state
+      defaultValue={selectedFontOption}
+      defaultButtonText={`Font Size: ${selectedFontOption?.label || fontSize}`}
       renderItem={(item, index, isSelected) => (
         <View
           style={[
@@ -70,7 +91,7 @@ const FontSizePicker = ({ setSettings, settings }) => {
             isSelected && styles.dropdownItemSelectedStyle,
           ]}
         >
-          <Text style={styles.dropdownItemTxtStyle}>{item}</Text>
+          <Text style={styles.dropdownItemTxtStyle}>{item.label}</Text>
         </View>
       )}
       buttonStyle={styles.dropdownButtonStyle}

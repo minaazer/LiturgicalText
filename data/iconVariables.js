@@ -8,13 +8,13 @@ const iconWidth = windowWidth < 400 ? windowWidth * 0.08 : windowWidth * 0.05;
 const skipSize = iconWidth * 1.5;
 
 const iconModules = {
-  cross: require("../assets/png/cross.png"),
-  arrowUp: require("../assets/png/arrowUp.png"),
-  skip: require("../assets/png/skip.png"),
-  candle: require("../assets/png/candle.png"),
-  book: require("../assets/png/book.png"),
-  musicalNote: require("../assets/png/musical_note.png"),
-  playPause: require("../assets/png/play_pause.png"),
+  cross: { module: require("../assets/png/cross.png"), format: "png" },
+  arrowUp: { module: require("../assets/png/arrowUp.png"), format: "png" },
+  skip: { module: require("../assets/png/skip.png"), format: "png" },
+  candle: { module: require("../assets/png/candle.png"), format: "png" },
+  book: { module: require("../assets/png/book.png"), format: "png" },
+  musicalNote: { module: require("../assets/png/musical_note.png"), format: "png" },
+  playPause: { module: require("../assets/png/play_pause.png"), format: "png" },
 };
 
 const iconVariablesFallback = {
@@ -57,33 +57,9 @@ function buildIconStrings(uris) {
     arrowUp: `<img src="${uris.arrowUp}" alt="arrow up" style="width: 2vw; height: auto; padding-bottom:1vw; filter: sepia(100%) saturate(500%) ">`,
     skip: `<img src="${uris.skip}" alt="arrow up" style="width: ${skipSize}px ; height: auto; padding-top:1vw; filter: sepia(100%) saturate(300%) ">`,
     candle: `<img src="${uris.candle}" alt="+" style="width: 2vw; height: auto; filter: sepia(100%) saturate(500%) ">`,
-    book: `<img 
-      src="${uris.book}" 
-      alt="+" 
-      style="
-        width: ${iconWidth}; 
-        height: auto; 
-        filter: invert(100%) brightness(1000%) contrast(200%);
-      "
-    >`,
-    musicalNote: `<img 
-      src="${uris.musicalNote}" 
-      alt="+" 
-      style="
-        width: ${iconWidth}; 
-        height: auto; 
-        filter: invert(100%) brightness(1000%) contrast(200%);
-      "
-    >`,
-    playPause: `<img 
-      src="${uris.playPause}" 
-      alt="+" 
-      style="
-        width: ${iconWidth}; 
-        height: auto; 
-        filter: invert(100%) brightness(1000%) contrast(200%);
-      "
-    >`,
+    book: ``,
+    musicalNote: ``,
+    playPause: ``,
   };
 }
 
@@ -93,8 +69,8 @@ export async function loadIconVariables() {
 
   cachedPromise = (async () => {
     const entries = await Promise.all(
-      Object.entries(iconModules).map(async ([key, mod]) => {
-        const uri = await toDataUri(mod, "png");
+      Object.entries(iconModules).map(async ([key, entry]) => {
+        const uri = await toDataUri(entry.module, entry.format);
         return [key, uri];
       })
     );

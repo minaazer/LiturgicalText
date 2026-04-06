@@ -34,15 +34,7 @@ if (-not (Get-Command node -ErrorAction SilentlyContinue)) {
   exit 1
 }
 
-$awsCmd = Get-Command aws.exe -CommandType Application -ErrorAction SilentlyContinue
-if (-not $awsCmd) {
-  $awsCmd = Get-Command aws -CommandType Application -ErrorAction SilentlyContinue
-}
-if (-not $awsCmd) {
-  Write-Error "aws CLI not found in PATH. Install AWS CLI v2 first."
-  exit 1
-}
-$awsExe = $awsCmd.Source
+$awsExe = & "$PSScriptRoot/resolve_aws_cli.ps1"
 
 & "$PSScriptRoot/sync_editor_schemas.ps1" -Prune
 & node scripts/build_json_manifest.js

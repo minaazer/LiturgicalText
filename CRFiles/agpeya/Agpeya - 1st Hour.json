@@ -1,0 +1,388 @@
+[
+  {
+    "title": "Introduction of the Hour",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "In the name of the Father and the Son and the Holy Spirit, one God. Amen.",
+                "coptic": "Ϧⲉⲛ ⲫ̀ⲣⲁⲛ ⲙ̀Ⲫⲓⲱⲧ ⲛⲉⲙ Ⲡϣⲏⲣⲓ ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ ⲟⲩⲛⲟⲩϯ ⲛ̀ⲟⲩⲱⲧ: ⲁ̀ⲙⲏⲛ.",
+                "arabic": "باسمِ الآبِ والابنِ والرّوحِ القُدُسِ الإلهِ الواحدِ. آمين."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ. Lord have mercy. Lord have mercy. Lord bless us. Amen.",
+                "arabic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ. ياربُّ ارحَمْ. ياربُّ ارحَمْ. ياربُّ بارِكْ. آمين."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Glory to the Father, and to the Son, and to the Holy Spirit. Now and ever and unto the ages of the ages. Amen.",
+                "arabic": "المجدُ للآبِ والابنِ والرّوحِ القُدُسِ الآنَ وكلَّ أوانٍ وإلى دهرِ الدهورِ. آمين."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repeated_prayer_title": "The Lord's Prayer",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "repeated_prayer_title": "The Prayer of Thanksgiving",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "repeated_prayer_title": "Psalm 50",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "english_title": "Come Let Us Kneel Down",
+    "coptic_title": null,
+    "arabic_title": "هلمّ نسجدُ",
+    "title": "Come Let Us Kneel Down",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Come let us kneel down, let us ask Christ our God.",
+                "arabic": "هلمَّ نسجدُ، هلمَّ نسألُ المسيحَ إلهَنا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Come let us kneel down, let us beseech Christ our King.",
+                "arabic": "هلمَّ نسجدُ، هلمَّ نطلبُ مِنَ المسيحِ ملكِنا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Come let us kneel down, let us entreat Christ our Savior.",
+                "arabic": "هلمَّ نسجدُ، هلمَّ نتضرعُ إلى المسيحِ مخلِّصِنا."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "O Lord Jesus Christ, the Word of God, our God, through the intercession of Saint Mary and all Your saints, preserve us, and bring us to a good start. Have mercy on us according to Your will forever.",
+                "arabic": "يا ربَّنا يسوعَ المسيحَ كلمةَ اللهِ إلهَنا، بشفاعةِ القديسةِ مريمَ وجميعِ قديسيكَ، إحفظْنا ولنبدأ بدءاً حسناً. ارحَمْنا كإرادتِكَ إلى الأبدِ."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "The night has passed; we thank You, O Lord, and we ask You to keep us this day away from sin and deliver us.",
+                "arabic": "الليلُ عبَرَ، نشكرُكَ ياربُّ ونسألُ أن تحفظَنا في هذا اليومِ بغيرِ خَطيئَةٍ وانقذْنا."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "Pauline Epistle (Ephesians 4:1-5)",
+    "coptic_title": null,
+    "arabic_title": "البولس من رسالة أفسس 4: 1-5",
+    "title": "Pauline Epistle (Ephesians 4:1-5)",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "I, therefore, the prisoner of the Lord, beseech you to walk worthy of the calling with which you were called, with all lowliness and meekness, with longsuffering, bearing with one another in love, endeavoring to keep the unity of the Spirit in the bond of peace. There is one body, and one Spirit, just as you were called in one hope of your calling; one Lord, one faith, one baptism.",
+                "arabic": "أسألُكُم، أنا الأسيرَ في الربِّ أن تسلكوا كما يحقُّ للدعوةِ التي دُعيتُمْ إليها، بكلِّ تواضعِ القلبِ والوداعةِ وطولِ الأناةِ، محتمِلينَ بعضُكم بعضاً بالمحبةِ، مسرِعينَ إلى حفظِ وَحدانيَّةِ الرّوحِ برباطِ الصُلحِ الكامِلِ لكي تكونوا جسَداً واحِداً ورُوحاً واحِداً، كما دُعيتُمْ في رجاءِ دعوتِكم الواحِدِ. ربٌّ واحِدٌ. وإيمانٌ واحِدٌ. ومعموديَّةٌ واحِدةٌ."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "The Faith of the Church",
+    "coptic_title": null,
+    "arabic_title": "من إيمان الكنيسة",
+    "title": "The Faith of the Church",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "One is God the Father of everyone. One is His Son, Jesus Christ the Word, who took flesh and died and rose from the dead on the third day, and raised us with Him. One is the Holy Spirit, the Comforter, one in His hypostasis, proceeding from the Father, purifying the whole creation, and teaching us to worship the Holy Trinity, one in divinity and one in essence. We praise Him and bless Him forever. Amen.",
+                "arabic": "واحدٌ هو اللهُ أبو كلِّ أحدٍ. واحدٌ هو أيضاً ابنُهُ يسوعُ المسيحُ الكلمةُ، الذي تجسدَ وماتَ وقامَ مِنَ الأمواتِ في اليومِ الثالثِ وأقامَنا معَهُ. واحدٌ هو الرّوحُ القُدُسُ المُعزِّي الواحدُ بأقنومِهِ، منبثقٌ مِنَ الآبِ، يطهِّرُ كلَّ البرِيَّةِ. يعلِّمُنا أن نسجدَ للثالوثِ القُدُّوسِ بلاهوتٍ واحدٍ وطبيعةٍ واحدةٍ، نسبِّحُهُ ونبارِكُهُ إلى الأبدِ. آمين."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "Agpeya - 1st Hour.fixed",
+    "coptic_title": null,
+    "arabic_title": null,
+    "title": "Agpeya - 1st Hour.fixed",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "The Morning Prayer of this blessed day, we offer to Christ our King and our God, beseeching Him to forgive us our sins.",
+                "arabic": "صلاةُ باكرٍ مِنَ النهارِ المبارَكِ، أقدِّمُها للمسيحِ ملكي وإلهي، وأرجوهُ أن يغفِرَ لي خطايايَ."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "english_title": "Agpeya - 1st Hour.fixed",
+    "coptic_title": null,
+    "arabic_title": null,
+    "title": "Agpeya - 1st Hour.fixed",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "From the Psalms of our teacher David the prophet. May his blessings be upon us all. Amen.",
+                "arabic": "مِنْ مزاميرِ مُعلِّمِنا داودَ النبي بركاتِهِ علينا. آمين."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repeated_prayer_title": "Psalm 1 - Blessed is the man who...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 2 - Why did the nations rage...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 3 - O Lord, why have they...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 4 - When I cried out...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 5 - Hearken, O Lord...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 6 - O Lord, do not rebuke me...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 8 - O Lord, our Lord...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 11 - Save me O Lord...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 12 - How long, O Lord...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 14 - O Lord, who shall abide...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 15 - Keep me, O Lord...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 18 - The heavens declare...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 24 - To You, O Lord...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 26 - The Lord is my light...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 62 - O God, my God...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 66 - God shall pity us...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 69 - O God, be mindful...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 112 - Praise the Lord, O the servants...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Psalm 142 - O Lord, hear my prayer...",
+    "source": "AgpeyaPrayers",
+    "category": "psalms"
+  },
+  {
+    "repeated_prayer_title": "Gospel (John 1:1-17)",
+    "source": "AgpeyaPrayers",
+    "category": "gospels"
+  },
+  {
+    "repeated_prayer_title": "We worship You, O Christ",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "repeated_prayer_title": "Litanies of the 1st Hour",
+    "source": "AgpeyaPrayers",
+    "category": "litanies"
+  },
+  {
+    "repeated_prayer_title": "The Gloria",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "repeated_prayer_title": "Trisagion",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "repeated_prayer_title": "The Lord's Prayer",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "repeated_prayer_title": "Hail to You",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "repeated_prayer_title": "Introduction to the Creed",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "repeated_prayer_title": "The Orthodox Creed",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "title": "Lord Have Mercy (41)",
+    "tbodies": [
+      {
+        "rows": [
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "O Lord hear us and have mercy on us and forgive us our sins. Amen.",
+                "arabic": "ياربُّ اسمَعْنا وارحَمْنا واغفِرْ لنا خطايانا. آمين."
+              }
+            ]
+          },
+          {
+            "row-class": "text",
+            "cells": [
+              {
+                "english": "Lord have mercy (41)",
+                "coptic": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ (ⲙ̅ⲁ̅)",
+                "arabic": "ياربُّ ارحَمْ (41)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repeated_prayer_title": "Holy, Holy, Holy",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "repeated_prayer_title": "The Lord's Prayer",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  },
+  {
+    "repeated_prayer_title": "First Absolution of the 1st Hour",
+    "source": "AgpeyaPrayers",
+    "category": "absolutions"
+  },
+  {
+    "repeated_prayer_title": "Second Absolution of the 1st Hour",
+    "source": "AgpeyaPrayers",
+    "category": "absolutions"
+  },
+  {
+    "repeated_prayer_title": "Conclusion of Every Hour",
+    "source": "AgpeyaPrayers",
+    "category": "prayers"
+  }
+]

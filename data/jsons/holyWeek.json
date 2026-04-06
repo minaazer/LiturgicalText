@@ -1571,6 +1571,16 @@
                 },
                 "source": "Holy Week",
                 "category": "general"
+              },
+              {
+                "repeated_prayer_title": "Evnoti Nai Nan",
+                "source": "Holy Week",
+                "category": "general"
+              },
+              {
+                "repeated_prayer_title": "End of Service Hymn",
+                "source": "Holy Week",
+                "category": "general"
               }
             ]
           }
@@ -2199,7 +2209,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "People became eager to see the moon’s brightness on the eve of the new month.",
+                            "english": "People were eager to see the moon’s brightness on the eve of the new month.",
                             "arabic": "إذا أزهر القمر في أول الشهر، وأشرقت أشعته على الأرض، يصير سائر الناس فى اشتياق ويشتهون أن يروا بهاءه،"
                           }
                         ]
@@ -2812,7 +2822,7 @@
                         "cells": [
                           {
                             "english": "Our Savior prayed in order to teach us to do likewise.",
-                            "arabic": "صلى مخلصنا لكى يعلمنا أن نسهر كل حين فى الصلاة."
+                            "arabic": "صَلَّى مُخَلصنَا لِكيْ يُعَلمنَا أن نَسهَر كُلُّ حِينٍ لِلصَّلاةِ."
                           }
                         ]
                       },
@@ -2821,7 +2831,7 @@
                         "cells": [
                           {
                             "english": "After He finished, He asked His disciples, “Who do the crowds say that I am?”",
-                            "arabic": "وبعد أن فرغ سأل تلاميذه قائلاً: ماذا يقول الناس عنى؟"
+                            "arabic": "وبعْد أن فرغ سأل تلاميذه قائلاً: مَاذَا يَقُول النَّاس مِن أَجلِي؟"
                           }
                         ]
                       },
@@ -2829,8 +2839,8 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "They answered, “John the Baptist, but some say Elijah; others say that one of the old prophets has risen again.",
-                            "arabic": "فأجابوه: أن قوماً يقولون أنك أنت القديس يوحنا المعمدان، وآخرون يقولون أنت إيليا أو واحد من الأنبياء الأولين…"
+                            "english": "They answered, “John the Baptist, but some say Elijah; others say that one of the old prophets has risen again.\"",
+                            "arabic": "فأجابوه: إِنَّ قوْمًا يقولون إِنَّك أَنْت القدِّيس يُوحنَّا المعْمدان وآخرون يقولون أَنْت إِيليَا أو وَاحِد مِن الأنْبياء الأوَّلين."
                           }
                         ]
                       },
@@ -2839,7 +2849,7 @@
                         "cells": [
                           {
                             "english": "At this time our omniscient Lord was testing them. He said to them, “But who do you say that I am?”",
-                            "arabic": "أن العارف بكل شيء قبل كونه، امتحنهم ثم قال لهم: وأنتم ماذا تقولون؟"
+                            "arabic": "وَإِنَّ العارف بِكلِّ شَيْء قَبْل كَونهِ، اِمْتحنهم ثُمَّ قال لَهُم: فأنْتم مَاذَا تقولون؟"
                           }
                         ]
                       },
@@ -2848,7 +2858,7 @@
                         "cells": [
                           {
                             "english": "But Peter answered and said, “The Christ of God.”",
-                            "arabic": "فأجاب بطرس وقال: أنت هو المسيح ابن الله الذى أتى إلى العالم حتى يخلّصنا."
+                            "arabic": "فَأَجاب بُطرُس وقال: أَنْت هُو اَلمسِيح اِبْن اَللَّه اَلذِي أتى إِلى العالم حَتَّى يُخلِّصنا."
                           }
                         ]
                       },
@@ -2857,7 +2867,7 @@
                         "cells": [
                           {
                             "english": "Then Jesus said, “Blessed are you Peter the solid rock because flesh and blood did not reveal this to you but My Father did, that you may preach it to the world.",
-                            "arabic": "طوباك أنت يا بطرس، لأنه ليس لحم ودم أعلن لك هذا، لكن أبى هو الذى أظهره لك لكي تكرز به فى المسكونة."
+                            "arabic": "طوَّباك أَنْت يَا بُطْرُس، لِأَنه لَيْس جسدٌ ودم ٌأَعلَن لَك هَذَا، لَكِن أَبِي هُو اَلذِي أَظهَره لَك لِكيْ تَكرَز بِه فِي المسْكونةِ."
                           }
                         ]
                       },
@@ -2866,7 +2876,7 @@
                         "cells": [
                           {
                             "english": "As for the cursed Jews, they are rejecting Me because of their envy and will deliver Me to death.",
-                            "arabic": "أما اليهود المخالفون فإنهم يجحدوننى من أجل حسدهم ويسلموننى إلى الموت."
+                            "arabic": "أَمَّا اليهود المعاندين فإنَّهم يجْحدونني مِن أَجْل حَسدهِم ويسلِّمونني إِلى اَلموْتِِ."
                           }
                         ]
                       },
@@ -2874,8 +2884,8 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "I shall expose, defame and give them eternal disgrace and shame.”",
-                            "arabic": "وأنا أشهرهم وأفضحهم وأعطيهم عاراً وخزياً أبدياً."
+                            "english": "I shall expose and defame them and cause them eternal disgrace and shame.”",
+                            "arabic": "وَأنَا أُشهِرِهم وأفْضحهم وأُعْطيهم عارًا وخزْيًا أَبدِيٌا."
                           }
                         ]
                       }
@@ -3423,7 +3433,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "and He started to tell them about the sufferings that will come upon him. He said, “Behold, you the chosen and pure,",
+                            "english": "and He started to tell them about the sufferings that would come upon him. He said, “Behold, you the chosen and pure,",
                             "arabic": "وابتدأ يتكلم معهم بما سيكون له بسبب آلامه قائلاً: \"اعلموا أيها الاصفياء الأطهار،."
                           }
                         ]
@@ -4035,7 +4045,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "Jesus started to talk to them openly about what will happen to Him in Jerusalem.",
+                            "english": "Jesus started to talk to them openly about what would happen to Him in Jerusalem.",
                             "arabic": "ابتدأ يقول لهم علانية من أجل الذى سيحصل له فى أورشليم،"
                           }
                         ]
@@ -4593,7 +4603,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "For truly I say to you, if you have faith, you will say to this mountain ‘Move from here to there,’ it will move, and nothing will be impossible for you” for everything is possible for the believer.",
+                            "english": "For truly I say to you, if you have faith, you will say to this mountain ‘Move from here to there,’ it will move, and nothing will be impossible for you,” for everything is possible for the believer.",
                             "arabic": "ثم قال الرب: \"أقول لكم: لو كان لكم إيمان لكنتم تقولون لهذا الجبل انتقل إلى هنا فلوقته سريعاً كان يسمع لكم ولا يعسر عليكم شئ، فان كل شئ مستطاع للمؤمن\"."
                           }
                         ]
@@ -4602,7 +4612,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "Let us cherish a great hope and a true faith free of doubt. Let us be zealous in charity that surpasses everything for He who loves believes all things.",
+                            "english": "Let us cherish a great hope and a true faith free of doubt. Let us be zealous in charity that surpasses everything for He who loves accepts all things.",
                             "arabic": "فلنقتن لنا رجاء عظيماً، وايماناً حقيقياً بغير شك ولننم في المحبة التي تفوق كل شئ، فإن الذي يحب يصدق كل شئ."
                           }
                         ]
@@ -4693,6 +4703,16 @@
             "tables": [
               {
                 "repeated_prayer_title": "Nighttime Litanies",
+                "source": "Holy Week",
+                "category": "general"
+              },
+              {
+                "repeated_prayer_title": "Evnoti Nai Nan",
+                "source": "Holy Week",
+                "category": "general"
+              },
+              {
+                "repeated_prayer_title": "End of Service Hymn",
                 "source": "Holy Week",
                 "category": "general"
               }
@@ -5476,7 +5496,7 @@
                         "cells": [
                           {
                             "english": "Brethren, if we want to escape God’s punishment and find mercy in his eyes,",
-                            "arabic": "يا اخوة، إن كنا نريد الآن أن نفلت من يدى عقاب الله. ونجد رحمة أمامه."
+                            "arabic": "يَا إِخْوَةً، إِنَّ كُنَّا نُرِيدُ اَلْآنُ أَنْ نُفْلِتَ مِنْ يَدَيّ عِقَابَ اَللَّهِ وَنَجِدُ رَحْمَةً أَمَامَهُ."
                           }
                         ]
                       },
@@ -5485,7 +5505,7 @@
                         "cells": [
                           {
                             "english": "let us sit every evening alone by ourselves",
-                            "arabic": "فلنجلس بالعشاء كل يوم منفردين وحدنا عند كمال النهار."
+                            "arabic": "فَلِنَجْلِس بِالْعَشَاءِ كُلَّ يَوْمٍ مُنْفَرِدِينَ وَحْدَنَا عِنْدَ كَمَالِ اَلنَّهَارِ."
                           }
                         ]
                       },
@@ -5494,7 +5514,7 @@
                         "cells": [
                           {
                             "english": "and search our souls for what we presented to our guardian angel to offer to the Lord.",
-                            "arabic": "ونفتش ذواتنا عما قدمناه للملاك الذى يخدمنا (الملازم لنا) ليصعده إلى الرب."
+                            "arabic": "وَنُفَتِّشُ ذَوَاتِنَا عَمَّا قَدَّمْنَاهُ لِلْمَلَاكِ اَلَّذِي يَخْدِمُنَا (اَلْمُلَازِمُ لَنَا) لِيَصْعَدهُ إِلَى اَلرَّبِّ."
                           }
                         ]
                       },
@@ -5503,7 +5523,7 @@
                         "cells": [
                           {
                             "english": "Again, as the night goes by and a new day dawns and light prevails, let us search ourselves to know what we presented to our companion angel to offer to the Lord.",
-                            "arabic": "وأيضاً إذا انقضى الليل وطلع النهار (وأشرق النور) نفتش ذواتنا وحدنا ونعلم ما الذى قدمناه للملاك الموكل بنا ليصعده إلى الله."
+                            "arabic": "وَأَيْضًا إِذَا اِنْقَضَى اَللَّيْلُ وَطَلَعَ اَلنَّهَارُ (وَأَشْرَقَ اَلنُّورُ) نُفَتِّشُ ذَوَاتُنَا وَحْدَنَا وَنَعْلَم مَا اَلَّذِي قَدَّمْنَاهُ لِلْمَلَاكِ اَلْمُوَكَّلِ بِنَا لِيَصْعَدَهُ إِلَى اَللَّهِ."
                           }
                         ]
                       },
@@ -5512,7 +5532,7 @@
                         "cells": [
                           {
                             "english": "Let it be beyond doubt that everyone of us, male or female, young or old,",
-                            "arabic": "ولا نشك البتة لان كل إنسان ذكراً كان أو أنثى صغيراً أو كبيراً."
+                            "arabic": "وَلَا نَشُكُّ- اَلْبَتَّةَ- لِأَنَّ كُلَّ إِنْسَانِ ذَكَرًا كَانَ أَوْ أُنْثَى صَغِيرًا أَوْ كَبِيرًا،"
                           }
                         ]
                       },
@@ -5521,7 +5541,7 @@
                         "cells": [
                           {
                             "english": "who was baptized in the name of the Father, the Son and the Holy Spirit has been assigned to a designated angel until the day of his death",
-                            "arabic": "قد اعتمد باسم الآب والابن والروح القدس قد جعل الله له ملاكاً موكلاً به إلى يوم وفاته."
+                            "arabic": "قَدْ اِعْتَمَدَ بِاسْمِ اَلْأَبِ وَالِابْنُ وَالرُّوحِ اَلْقُدْسَ قَدْ جَعَلَ اَللَّهُ لَهُ مَلَاكًا مُوَكَّلاً بِهِ إِلَى يَوْمِ وَفَاتِهِ،"
                           }
                         ]
                       },
@@ -5530,7 +5550,7 @@
                         "cells": [
                           {
                             "english": "to report to him every day what his assigned individual has done by day or by night.",
-                            "arabic": "وليصعد إليه كل يوم أعمال الإنسان الموكل به (الليلية والنهارية)"
+                            "arabic": "وَلْيُصَعَّدْ إِلَيْهِ كُلُّ يَوْمِ أَعْمَالِ اَلْإِنْسَانِ اَلْمُوَكَّلِ بِهِ اَللَّيْلِيَّةَ وَالنَّهَارِيَّةِ"
                           }
                         ]
                       },
@@ -5539,7 +5559,7 @@
                         "cells": [
                           {
                             "english": "Not that God is unaware of what we have done. Heaven forbid! He is more knowledgeable about it.",
-                            "arabic": "ليس لان الله غير عارف بأعمالنا. حاشا. بل هو عارف بها أكثر."
+                            "arabic": "لَيْسَ لِأَنَّ اَللَّهَ غَيَّرَ عَارِفٍ بِأَعْمَالِنَا حَاشَا. بَلْ هُوَ عَارِفٌ بِهَا أَكْثَرُ."
                           }
                         ]
                       },
@@ -5548,7 +5568,7 @@
                         "cells": [
                           {
                             "english": "As it is written, the eyes of the Lord are watching all the time everywhere on those who commit evil and on those who do good.",
-                            "arabic": "كما هو مكتوب أن عينى الرب ناظرة كل حين فى كل مكان على صانعى الشر وفاعلى الخير"
+                            "arabic": "كَمَا هُوَ مَكْتُوبٌ أَنَّ عَيْنِي اَلرَّبَّ نَاظِرَةَ كُلِّ حِينِ فِي كُلِّ مَكَانٍ عَلَى صَانِعِي اَلشَّرِّ وَفَاعِلِي اَلْخَيْرِ،"
                           }
                         ]
                       },
@@ -5557,7 +5577,7 @@
                         "cells": [
                           {
                             "english": "Rather the angels are servants installed by the Creator of the universe for those who will inherit salvation.",
-                            "arabic": "انما الملائكة هم خدام قد أقامهم خالق الكل. من أجل المزمعين لوراثة الخلاص."
+                            "arabic": "إِنَّمَا اَلْمَلَائِكَةُ هُمْ خَدَّامْ قَدْ أَقَامَهُمْ خَالِق اَلْكُلِّ مِنْ أَجْلِ اَلْمُزْمِعِينَ أَنْ يَرِثُوا اَلْخَلَاصُ."
                           }
                         ]
                       },
@@ -5970,7 +5990,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "He covered darkness and unveiled the light, and distinguished between them with new names.",
+                            "english": "He covered darkness and unveiled the light, and distinguished them with new names.",
                             "arabic": "وبدد الظلمة واخرج النور، وفرق بينهما بأسماء جديدة،"
                           }
                         ]
@@ -6799,7 +6819,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "The disciples were taken by the incident and said to the Lord, “the fig tree has withered away.”",
+                            "english": "The disciples were taken by the incident and said to the Lord, “The fig tree has withered away.”",
                             "arabic": "فتعجب جميع تلاميذه، وقالوا للرب: أن شجرة التين يبست."
                           }
                         ]
@@ -6817,7 +6837,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "Do not be surprised that by one single word, the fig tree dried from its roots up.",
+                            "english": "Do not be surprised that by one single word, the fig tree withered.",
                             "arabic": "ولا تتعجبوا من شجرة التين هذه انها بكلمة واحدة يبست من أصلها،"
                           }
                         ]
@@ -7548,7 +7568,7 @@
                         "cells": [
                           {
                             "english": "O Israel, God’s chosen nation and first child, what transgressions did you commit and how insensitive are your priests!",
-                            "arabic": "يا لهذه الجسارة التى صنعتها يا شعب اسرائيل ابن الله البكر! وهذه البلادة التى من كهنتك!"
+                            "arabic": "يَا لِهَذِهِ اَلْجَسَارَة اَلَّتِي صَنَعَتْهَا يَا شَعْبُ إِسْرَائِيلَ أَوَّلَ مِيلَادِ اَللَّهِ! وَهَذِهِ اَلْبَلَادَةُ اَلَّتِي مِنْ كَهَنَتكَ!"
                           }
                         ]
                       },
@@ -7557,7 +7577,7 @@
                         "cells": [
                           {
                             "english": "The place of forgiveness became a place of sin.",
-                            "arabic": "اذ أن موضع الغفران صار موضع الخطية."
+                            "arabic": "إِذْ مَوْضِع اَلْغُفْرَانِ صَارَ مَوْضِعُ اَلْخَطِّيَّةِ."
                           }
                         ]
                       },
@@ -7566,7 +7586,7 @@
                         "cells": [
                           {
                             "english": "The house of prayer and supplication became a den of thieves and a marketplace for cattle, sheep, and pigeon merchants and currency exchangers.",
-                            "arabic": "وبيت الصلاة وموضع الطلبة صيرتموه مسكناً للصوص ومجمعاً للعجول والخراف وباعة الحمام والصيارف."
+                            "arabic": "وَبَيْتَ اَلصَّلَاةِ وَمَوْضِعِ اَلطَّلَبَةِ صَيَّرْتُمُوهُ مَسْكَنًا لِلُّصُوصِ وَمُجَمَّعًا لِلْعُجُولِ وَالْخِرَافِ وَبَاعَةِ اَلْحَمَّامِ وَالصِّيَارَفْ."
                           }
                         ]
                       },
@@ -7575,7 +7595,7 @@
                         "cells": [
                           {
                             "english": "What is the profit in these corrupt and unclean injustice which you have done?",
-                            "arabic": "ما هو هذا الربح المملوء من كل نجس، وهذا الظلم الذى صنعتموه؟!"
+                            "arabic": "مَا هُوَ هَذَا اَلرِّبْحِ اَلْمَمْلُوءِ مِنْ كُلٍّ نَجِسٍ، وَهَذَا اَلظُّلْمُ اَلَّذِي صَنَعْتُمُوهُ؟!"
                           }
                         ]
                       },
@@ -7583,7 +7603,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "When the Son of God saw this done in His Father’s house - for they have turned it in to a den for thievery, bandits, the unjust and a house of trade -",
+                            "english": "When the Son of God saw this done in His Father’s house—for they have turned it into a den for thievery, bandits, the unjust and a house of trade—",
                             "arabic": "لما نظر ابن الله بيت أبيه، وهذه كلها تصنع فيه، فانهم صيروه مسكناً للصوص الخاطفين والظلمة، وبيتاً للتجارة،"
                           }
                         ]
@@ -7592,8 +7612,8 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "He toppled the seats of pigeon merchants and the tables of the currency exchangers and scattered their funds.",
-                            "arabic": "أخرج البقر والغنم معاً، وكراسى باعة الحمام، وقلب موائد الصيارف، وبدد دراهمهم."
+                            "english": "He toppled the seats of pigeon merchants and the tables of the currency exchangers and poured out their funds.",
+                            "arabic": "أَخْرَجَ اَلْبَقَرُ وَالْغَنَمُ وَمَعَهَا كَرَاسِيُّ بَاعَةِ اَلْحَمَّامِ، وَمَوَائِدُ اَلصِّيَارَفْ قَلْبُهَا، وَبَدَّدَ دَرَاهِمَهُمْ."
                           }
                         ]
                       },
@@ -7601,8 +7621,8 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "As they watched Him, His disciples realized that it was written about Him, “the Zeal for Your house has consumed me.”",
-                            "arabic": "فلما نظر تلاميذه هذا، علموا أنه هكذا هو مكتوب لأجله: أن غيرة بيتك أكلتنى. ولذا صنع هكذا بغير خوف."
+                            "english": "As they watched Him, His disciples realized that it was written about Him, “Zeal for Your house has consumed me.”",
+                            "arabic": "فَلَمَّا نَظَر تَلَامِيذِهِ هَذَا، عَلِمُوا أَنَّهُ هَكَذَا هُوَ مَكْتُوبٌ لِأَجْلِهِ: إِنَّ غَيْرَةَ بَيْتِكَ أَكَلَتْنِي فَلِهَذَا صُنْعُ هَكَذَا بِغَيْر خَوْفٍ."
                           }
                         ]
                       },
@@ -7611,7 +7631,7 @@
                         "cells": [
                           {
                             "english": "O Lord, Your reign is forever in heaven and on earth and Your fear has shaken the mountains.",
-                            "arabic": "ان سلطانك دائم فى السماء وعلى الأرض، وخوفك يا رب زعزع الجبال."
+                            "arabic": "سُلْطَانُكَ دَائِمٌ فِي اَلسَّمَاءِ وَعَلَى اَلْأَرْضِ، وَخَوْفُكَ يَا رَبٌّ زَعْزَعَ اَلْجِبَالَ."
                           }
                         ]
                       },
@@ -7620,7 +7640,7 @@
                         "cells": [
                           {
                             "english": "But Israel has strayed and therefore was denied God’s help.",
-                            "arabic": "أما اسرائيل فقد صار جاهلاً، فلذلك اختفت عنه معونته."
+                            "arabic": "أَمَّا إِسْرَائِيلُ فَقَدْ صَارَ جَاهِلاً، فَلِذَلِكَ اِسْتَتَرَتْ عَنْهُ مَعُونَتُهُ."
                           }
                         ]
                       }
@@ -8629,7 +8649,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "With Your flawless hands O Lord, You created, adorned and illuminated me like crimson.",
+                            "english": "With Your flawless hands O Lord, You created, adorned, and illuminated me like crimson.",
                             "arabic": "بيديك اللتين بلا عيب يا رب خلقتنى، وزينتنى مضيئاً كثوب مزين."
                           }
                         ]
@@ -8674,7 +8694,7 @@
                         "row-class": "intro",
                         "cells": [
                           {
-                            "english": "I ask of You O Good One to have mercy upon me according to Your great mercy.",
+                            "english": "Refrain: I ask of You O Good One to have mercy upon me according to Your great mercy.",
                             "arabic": "أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك."
                           }
                         ]
@@ -8728,7 +8748,7 @@
                         "row-class": "intro",
                         "cells": [
                           {
-                            "english": "I ask of You O Good One to have mercy upon me according to Your great mercy.",
+                            "english": "Refrain: I ask of You O Good One to have mercy upon me according to Your great mercy.",
                             "arabic": "أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك."
                           }
                         ]
@@ -8764,7 +8784,7 @@
                         "row-class": "intro",
                         "cells": [
                           {
-                            "english": "I ask of You O Good One to have mercy upon me according to Your great mercy.",
+                            "english": "Refrain: I ask of You O Good One to have mercy upon me according to Your great mercy.",
                             "arabic": "أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك."
                           }
                         ]
@@ -8782,7 +8802,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "From the fruits of the tree you distinguished between the good and the evil to become a god.",
+                            "english": "From the fruits of the tree you distinguished between good and evil to become a god.",
                             "arabic": "وبثمرة الشجرة علمت الخير والشر لتصير الها."
                           }
                         ]
@@ -8827,7 +8847,7 @@
                         "row-class": "intro",
                         "cells": [
                           {
-                            "english": "I ask of You O Good One to have mercy upon me according to Your great mercy.",
+                            "english": "Refrain: I ask of You O Good One to have mercy upon me according to Your great mercy.",
                             "arabic": "أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك."
                           }
                         ]
@@ -8854,7 +8874,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "but of the tree of the knowledge of good and evil you shall not eat, for in the day that you eat of it you shall surely die.”",
+                            "english": "but of the tree of the knowledge of good and evil you shall not eat, for in the day that you eat of it, you shall surely die.”",
                             "arabic": "هذه التى فى ثمرتها مرارة الموت، وأنك إن أكلت منها فموتاً تموت."
                           }
                         ]
@@ -8881,7 +8901,7 @@
                         "row-class": "intro",
                         "cells": [
                           {
-                            "english": "I ask of You O Good One to have mercy upon me according to Your great mercy.",
+                            "english": "Refrain: I ask of You O Good One to have mercy upon me according to Your great mercy.",
                             "arabic": "أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك."
                           }
                         ]
@@ -8890,7 +8910,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "O Adam from dust you are and to dust you shall return to cleanse you from your transgressions.",
+                            "english": "O Adam, from dust you are and to dust you shall return to cleanse you from your transgressions.",
                             "arabic": "يا آدم أنت تراب، وسأردك إلى التراب جزاء الأعمال التى تجاسرت عليها."
                           }
                         ]
@@ -8899,7 +8919,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "And Eve, why did you do this and disobey My commandments? It was not that an angel or a bird talked to you about it but a serpent, beast by its nature and you listened to his advice.",
+                            "english": "And Eve, why did you do this and disobey My commandments? It was not that an angel or a bird spoke with you about it but a serpent, a beast by its nature and you listened to his advice.",
                             "arabic": "وأنت يا حواء لماذا صنعت هكذا وخالفت وصاياى؟ ليس ملاك تكلم معك، ولا طائر من الجو، بل وحش، ثعبان بطبيعته، فسمعت منه مشورته."
                           }
                         ]
@@ -8935,7 +8955,7 @@
                         "row-class": "intro",
                         "cells": [
                           {
-                            "english": "I ask of You O Good One to have mercy upon me according to Your great mercy.",
+                            "english": "Refrain: I ask of You O Good One to have mercy upon me according to Your great mercy.",
                             "arabic": "أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك."
                           }
                         ]
@@ -8989,7 +9009,7 @@
                         "row-class": "intro",
                         "cells": [
                           {
-                            "english": "I ask of You O Good One to have mercy upon me according to Your great mercy.",
+                            "english": "Refrain: I ask of You O Good One to have mercy upon me according to Your great mercy.",
                             "arabic": "أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك."
                           }
                         ]
@@ -9043,7 +9063,7 @@
                         "row-class": "intro",
                         "cells": [
                           {
-                            "english": "I ask of You O Good One to have mercy upon me according to Your great mercy.",
+                            "english": "Refrain: I ask of You O Good One to have mercy upon me according to Your great mercy.",
                             "arabic": "أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك."
                           }
                         ]
@@ -9079,7 +9099,7 @@
                         "row-class": "intro",
                         "cells": [
                           {
-                            "english": "I ask of You O Good One to have mercy upon me according to Your great mercy.",
+                            "english": "Refrain: I ask of You O Good One to have mercy upon me according to Your great mercy.",
                             "arabic": "أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك."
                           }
                         ]
@@ -9465,7 +9485,7 @@
                         "cells": [
                           {
                             "english": "Occasionally there are some deeds, which we may think are good while in God’s eyes they are wicked.",
-                            "arabic": "قد توجد أعمال نخالها أنها صالحة ولكنها رديئة عند الله."
+                            "arabic": "قَدْ تُوجَدُ أَعْمَالٌ نَخَالُهَا أَنَّهَا صَالِحَةٌ وَلَكِنَّهَا رَدِيئَةٌ عِنْدَ اَللَّهِ."
                           }
                         ]
                       },
@@ -9474,7 +9494,7 @@
                         "cells": [
                           {
                             "english": "For example the unqualified tolerance of sinners in holy places may lead them to be indifferent to sin.",
-                            "arabic": "وذلك إننا نتغاضى عن بعضنا بعضاً فنخطئ فى المواضع المقدسة."
+                            "arabic": "وَذَلِكَ أَنَّنَا نَتَغَاضَى عَنْ بَعْضِنَا بَعْضًا فَنُخْطِئ فِي اَلْمَوَاضِعِ اَلْمُقَدَّسَةِ."
                           }
                         ]
                       },
@@ -9483,7 +9503,7 @@
                         "cells": [
                           {
                             "english": "The Lord did not plant good trees and bad trees in paradise but only good trees.",
-                            "arabic": "لأن الرب لم يغرس فى الفردوس الأشجار الصالحة والغير الصالحة بل غرسه من الاشجار الصالحة فقط."
+                            "arabic": "لِأَنَّ اَلرَّبَّ لَمْ يَغْرِسْ فِي اَلْفِرْدَوْسِ اَلْأَشْجَارَ اَلصَّالِحَةَ وَالْغَيْرَ اَلصَّالِحَةَ بَلْ غَرْسُهُ مِنْ اَلْأَشْجَارِ اَلصَّالِحَةِ فَقَطْ "
                           }
                         ]
                       },
@@ -9492,7 +9512,7 @@
                         "cells": [
                           {
                             "english": "He did not plant fruitless trees with bad fruits.",
-                            "arabic": "ولم يغرس فيه أشجاراً غير مثمرة أو رديئة الثمر."
+                            "arabic": "وَلَمْ يَغْرِسْ فِيهِ أَشْجَارًا غَيْرَ مُثْمِرَةٍ أَوْ رَدِيئَةٍ اَلثَّمَرِ."
                           }
                         ]
                       },
@@ -9501,7 +9521,7 @@
                         "cells": [
                           {
                             "english": "Even man himself when he disobeyed the commandment, He was not indifferent about man’s inequity but expelled him from paradise.",
-                            "arabic": "وليس هذا فقط. بل والناس أنفسهم الذين جعلهم هناك. عندما خالفوا لم يحتملهم بل أخرجهم منه."
+                            "arabic": "وَلَيْسَ هَذَا فَقَطْ، بَلْ وَالنَّاسَ أَنْفُسِهِمْ اَلَّذِينَ جَعَلَهُمْ هُنَاكَ. عِنْدَمَا خَالَفُوا لَمْ يُحْتَمَلهُمْ بَلْ أَخْرَجَهُمْ مِنْهُ."
                           }
                         ]
                       },
@@ -9510,7 +9530,7 @@
                         "cells": [
                           {
                             "english": "From this we can see dear beloved, that the houses of the Lord should not be filled with bad and good people.",
-                            "arabic": "فمن هذا إعلموا أيها الاخوة الاحباء أنه لا يجب أن نملأ مساكن الله المقدسة من الناس الاشرار والصالحين."
+                            "arabic": "فَمِنْ هَذَا اِعْلَمُوا أَيُّهَا اَلْإِخْوَةُ اَلْأَحِبَّاءُ أَنَّهُ لَا يَجِبُ أَنْ نَمْلَأَ مَسَاكِنُ اَللَّهِ اَلْمُقَدَّسَةِ مِنْ اَلنَّاسِ اَلْأَشْرَارَ وَالصَّالِحِينَ."
                           }
                         ]
                       },
@@ -9519,7 +9539,7 @@
                         "cells": [
                           {
                             "english": "As is the case in the world where the saints and sinners, the unjust and the impure mingle together.",
-                            "arabic": "كما فى العالم المملوء من الخطاة والظالمين والقديسين والانجاس."
+                            "arabic": "كَمَا فِي اَلْعَالَمِ اَلْمَمْلُوءِ مِنْ اَلْخُطَاةِ وَالظَّالِمِينَ وَالْقِدِّيسِينَ وَالْأَنْجَاس."
                           }
                         ]
                       },
@@ -9528,7 +9548,7 @@
                         "cells": [
                           {
                             "english": "It is incumbent on us to remind those who come to the house of the Lord to behave appropriately.",
-                            "arabic": "ولكن الذين يخطئون لا يتركهم فيها بل يخرجهم."
+                            "arabic": "وَلَكِنَّ اَلَّذِينَ يُخْطِئُونَ لَا يَتْرُكُهُمْ فِيهَا بَلْ يُخَرِّجُهُمْ."
                           }
                         ]
                       },
@@ -9537,7 +9557,7 @@
                         "cells": [
                           {
                             "english": "I know that the whole earth is God's, but if we make His house just like the rest of the earth what is going to distinguish the house of the Lord from the rest.",
-                            "arabic": "أنا أعرف أن الأرض كلها هى للرب. فاذا كان بيته كباقى الأرض. فما هى ميزته إذن على غيره."
+                            "arabic": "أَنَا أَعْرِفُ أَنَّ اَلْأَرْضَ كُلَّهَا هِيَ لِلرَّبِّ فَإِذَا كَانَ بَيْتُهُ كَبَاقِي اَلْأَرْض. فَمَا هِيَ مِيزَتُهُ إِذْن عَلَى غَيْرِهِ."
                           }
                         ]
                       },
@@ -9546,7 +9566,7 @@
                         "cells": [
                           {
                             "english": "If I as a servant of God commit the same bad deeds as the wicked then I do not deserve to be called a servant of God.",
-                            "arabic": "فان كنت وأنا الكاهن أعمل الشر كما يعمله الاشرار على الأرض فلا يحق لى أن ادعى كاهناً"
+                            "arabic": "فَإِنْ كُنْتَ وَأَنَا اَلْكَاهِنِ أَعْمَلُ اَلشَّرُّ كَمَا يَعْمَلُهُ اَلْأَشْرَارُ عَلَى اَلْأَرْضِ، فَلَا يَحِقُّ لِي أَنْ اِدَّعَى كَاهِنًا"
                           }
                         ]
                       },
@@ -9555,7 +9575,7 @@
                         "cells": [
                           {
                             "english": "For we often sin and are unable to judge ourselves with the same standard we judge others.",
-                            "arabic": "لانه مراراً كثيرة نخطئ ولا نعرف كيف ندين أنفسنا بما نقول."
+                            "arabic": "لِأَنَّهُ مِرَارًا كَثِيرَةً نُخْطِئُ وَلَا نَعْرِفُ كَيْفَ نُدِينُ أَنْفُسُنَا بِمَا نَقُولُ،"
                           }
                         ]
                       },
@@ -9564,7 +9584,7 @@
                         "cells": [
                           {
                             "english": "You see no one can fill your place with dirt unless they notice your lack of interest in it.",
-                            "arabic": "لا يتجرأ أحد أن يملأ بيتك قذارة إلا إذا رأى منك التهاون"
+                            "arabic": "لِأَنَّهُ لَا يَتَجَرَّأُ أَحَدٌ أَنْ يَمْلَأَ بَيْتُكَ قَذَارَةً إِلَّا إِذَا رَأَى مِنْكَ اَلتَّهَاوُنُ،"
                           }
                         ]
                       },
@@ -9573,7 +9593,7 @@
                         "cells": [
                           {
                             "english": "Just like the king’s pages; they cannot let everyone in the king’s house whether they honor the king’s decree or whether they ignore them without the king’s permission.",
-                            "arabic": "ولا حجاب الملك يتجرأون أن يدخلوا بكل إنسان إلى بيته من الحافظين مراسيمه والمخالفين لها الا بأمره."
+                            "arabic": "وَلَا حِجَابَ اَلْمَلِكِ يَتَجَرَّءُونَ أَنْ يَدْخُلُوا بِكُلِّ إِنْسَانٍ إِلَى بَيْتِهِ مِنْ اَلْحَافِظِينَ مَرَاسِيمَهُ وَالْمُخَالِفِينَ لَهَا إِلَّا بِأَمْرِهِ،"
                           }
                         ]
                       },
@@ -9592,7 +9612,7 @@
                           {
                             "english": "We conclude the homily of our holy father Abba Shenouda, the Archimandrite who enlightened our minds and our hearts. In the name of the Father, and the Son, and the Holy Spirit, one God. Amen.",
                             "coptic": "Ⲙⲁⲣⲉⲛⲉⲣ ⲥ̀ⲫ̀ⲣⲁϫⲓⲍⲓⲛ ⲛ̀ϯⲕⲁⲧⲏⲭⲏⲥⲓⲥ ⲛ̀ⲧⲉ ⲡⲉⲛⲓⲱⲧ ⲉⲑⲟⲩⲁⲃ ⲁⲃⲃⲁ Ϣⲉⲛⲟⲩϯ ⲡⲓⲁ̀ⲣⲭⲏ ⲙⲁⲛⲇ̀ⲣⲓⲧⲏⲥ : ⲫⲏⲉ̀ⲧⲁϥⲉⲣⲟⲩⲱⲓⲛⲓ ⲙ̀ⲡⲉⲛⲛⲟⲩⲥ ⲛⲉⲙ ⲛⲓⲃⲁⲗ ⲛ̀ⲧⲉ ⲛⲉⲛϩⲏⲧ ϧⲉⲛ ⲫ̀ⲣⲁⲛ ⲙ̀Ⲫ̀ⲓⲱⲧ ⲛⲉⲙ Ⲡ̀ϣⲏⲣⲓ ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ ⲟⲩⲛⲟⲩϯ ⲛ̀ⲟⲩⲱⲧ: ⲁ̀ⲙⲏⲛ.",
-                            "arabic": "فلنختم موعظة أبينا القديس أنبا شنودة رئيس المتوحدين الذى أنار عقولنا وعيون قلوبنا باسم الآب والابن والروح القدس الاله الواحد آمين."
+                            "arabic": "فَلْنَخْتِمُ مَوْعِظَةُ أَبِينَا اَلْقِدِّيسِ أَنَّبَا شُنُودَة رَئِيسُ اَلْمُتَوَحِّدِينَ اَلَّذِي أَنَارَ عُقُولَنَا وَعُيُونُ قُلُوبِنَا بِاسْمِ اَلْأَبِ وَالِابْنُ وَالرُّوحِ اَلْقُدْسَ اَلْإِلَهَ اَلْوَاحِدَ أَمِين."
                           }
                         ]
                       }
@@ -9951,7 +9971,7 @@
                         "cells": [
                           {
                             "english": "O Jesus the True Light that shines for all nations with the exception of the Jews for they strayed away from Him.",
-                            "arabic": "أيها النور الحقيقى الذى يضئ ويملأ كل مكان فى المسكونة. الذى هو يسوع النور الحقيقى، الذى يضئ لجميع الأمم."
+                            "arabic": "أَيُّهَا اَلنُّورُ اَلْحَقِيقِيُّ اَلَّذِي يُضِيءُ، اَلْمَالِئَ كُلُّ مَكَانٍ فِي اَلْمَسْكُونَةِ اَلَّذِي هُوَ يَسُوعْ اَلنُّورِ اَلْحَقِيقِيِّ، اَلَّذِي يُضِيءُ لِجَمِيعِ اَلْأُمَمِ، مَا خَلَا اَلْيَهُودُ."
                           }
                         ]
                       },
@@ -9960,7 +9980,7 @@
                         "cells": [
                           {
                             "english": "When He revealed Himself to them and told them that those who believe in Him shall live forever,",
-                            "arabic": "أما هو فأعلن لهم قائلاً: أن من يؤمن به لن يموت إلى الأبد."
+                            "arabic": "فَإِنَّهُمْ لَمْ يَقْتَرِبُوا مِنْ هَذَا اَلنُّورِ لِيَتَأَمَّلُوهُ وَأَظْهَرَ فِيهِمْ سِرُّهُ قَائِلاً: إِنَّ مَنْ يُؤْمِنُ بِهِ لَنْ يَمُوتَ إِلَى اَلْأَبَدِ."
                           }
                         ]
                       },
@@ -9968,8 +9988,8 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "the ignorant and trespassers of the law accused Him, that by Satan, He exorcizes demons.",
-                            "arabic": "اسمعوا كيف أن الجهال ومخالفى الناموس قالوا أن معه شيطان،"
+                            "english": "the ignorant and trespassers of the law accused Him, that by Satan, He exorcises demons.",
+                            "arabic": "اِسْمَعُوا كَيْفَ أَنَّ اَلْجُهَّالَ وَمُخَالِفِي اَلنَّامُوسِ قَالُوا إِنَّ مَعَهُ شَيْطَانًا وَيُخْرِجُ اَلشَّيَاطِينُ."
                           }
                         ]
                       },
@@ -9977,8 +9997,8 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "They said to Him, “Abraham died and the prophets thereafter, how is it possible that those who believe in You never die?”",
-                            "arabic": "فان ابراهيم قد مات والأنبياء أيضاً، فكيف لا يموت الذى يؤمن بك؟!"
+                            "english": "They said to Him, “Abraham died and the prophets thereafter, how is it possible that those who believe in You shall never die?”",
+                            "arabic": "إِبْرَاهِيمْ قَدْ مَاتَ وَالْأَنْبِيَاءَ أَيْضًا، فَكَيْفَ لَا يَمُوتُ اَلَّذِي يُؤْمِنُ بِكَ؟!"
                           }
                         ]
                       },
@@ -9986,8 +10006,8 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "He replied, “If I glorify Myself, then My glory is meaningless. I have who glorifies Me.”",
-                            "arabic": "- ان أنا مجدت نفسى فليس مجدى شيئاً. لى من يمجدنى."
+                            "english": "He replied, “If I glorify Myself, then My glory is meaningless. It is My Father who glorifies Me.\"",
+                            "arabic": "إِنَّ أَنَا مَجَّدَتْ نَفْسِيٍّ فَلَيْسَ مَجْدِي شَيْئًا، لِي مِنْ يُمَجَّدنِي."
                           }
                         ]
                       },
@@ -9995,8 +10015,8 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "They replied, “You think you are greater than our patriarch Abraham and his descendants who all died?",
-                            "arabic": "- ألعلك أعظم من أبينا ابراهيم ومن نسله الذين ذاقوا الموت؟"
+                            "english": "They replied, “You think You are greater than our patriarch Abraham and his descendants who all died?",
+                            "arabic": "اَلْعَلَم أَعْظَمَ مِنْ أَبِينَا إِبْرَاهِيمْ وَمِنْ نَسْلِهِ اَلَّذِينَ ذَاقُوا اَلْمَوْتَ؟"
                           }
                         ]
                       },
@@ -10004,8 +10024,8 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "You are not even fifty years old. How could you have seen Abraham?”",
-                            "arabic": "ليس لك خمسون سنة من الزمان فهل رأيت ابراهيم؟ من يصدقك؟"
+                            "english": "You are not even fifty years old. How could You have seen Abraham?”",
+                            "arabic": "لَيْسَ لَكَ خَمْسُونَ سَنَةً مِنْ اَلزَّمَانِ، فَهَلْ رَأَيْتَ إِبْرَاهِيمْ؟ مِنْ يُصَدِّقُكَ؟"
                           }
                         ]
                       },
@@ -10014,7 +10034,7 @@
                         "cells": [
                           {
                             "english": "The Savior said, “Truly before Abraham was, I am.”",
-                            "arabic": "نطق المخلص بالحق، أنه كائن من قبل أن يكون ابراهيم."
+                            "arabic": "قَالَ اَلْمُخَلِّصُ اَلْحَقُّ، إِنَّهُ كَائِنٌ مِنْ قَبْلُ أَنْ يَكُونَ إِبْرَاهِيمْ."
                           }
                         ]
                       },
@@ -10023,7 +10043,7 @@
                         "cells": [
                           {
                             "english": "We, the multitude of new nations, believe and observe His commandments.",
-                            "arabic": "نحن أيضاً نؤمن ـ معشر الشعوب الجديدة ـ ونواظب على وصاياه فى أفواهنا،"
+                            "arabic": "نَحْنُ أَيْضًا نُؤْمِنُ مَعْشَرُ اَلشُّعُوبِ اَلْجَدِيدَةِ وَنُوَاظِب عَلَى وَصَايَاهُ فِي أَفْوَاهِنَا،"
                           }
                         ]
                       },
@@ -10032,7 +10052,7 @@
                         "cells": [
                           {
                             "english": "We confess from the depth of our hearts the True Word of the Omnipotent.",
-                            "arabic": "ونعترف من عمق قلوبنا بالكلمة الحقيقى الذى للآب الضابط الكل."
+                            "arabic": "وَنَعْتَرِفُ مِنْ عُمْقِ قُلُوبِنَا بِالْكَلِمَةِ اَلْحَقِيقِيِّ اَلَّذِي لِلْآبِ اَلضَّابِطِ اَلْكُلَّ."
                           }
                         ]
                       },
@@ -10041,7 +10061,7 @@
                         "cells": [
                           {
                             "english": "That the Righteous One exists from the beginning, along with the Comforter Holy Spirit.",
-                            "arabic": "أن الصالح الكائن منذ البدء مع الروح القدس المعزى،"
+                            "arabic": "إِنَّ اَلصَّالِحَ اَلْكَائِنَ مُنْذُ اَلْبَدْءِ مَعَ اَلرُّوحِ اَلْقُدُسِ اَلْمُعَزِّي،"
                           }
                         ]
                       },
@@ -10049,8 +10069,8 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "He still informs the ignorant, the sinful, the disobedient children, but they denied him, did not accept him, rejected him, and became without God.",
-                            "arabic": "لم يزل يخبر الجهال المملوئين إثماً، المخالفين، الأبناء المرذولين، فجحدوا هذه النعمة العظيمة والعجائب الجزيلة التى أظهرها فيهم"
+                            "english": "He still informs the ignorant, the sinful, the disobedient children, but they denied Him, did not accept Him, rejected Him, and became without God.",
+                            "arabic": "لَمْ يَزَلْ يُخْبِرُ اَلْجُهَّالُ اَلْمَمْلُوئَيْنِ إِثْمًا، اَلْمُخَالِفِينَ، اَلْأَبْنَاءُ اَلْمَرَذُولِينْ، فَجَحَدُواَ هَذِهِ اَلنِّعْمَةِ اَلْعَظِيمَةِ وَالْعَجَائِبِ اَلْجَزِيلَةِ اَلَّتِي أَظْهَرَهَا فِيهِمْ،"
                           }
                         ]
                       },
@@ -10059,7 +10079,7 @@
                         "cells": [
                           {
                             "english": "They did not realize that He was their Savior according to the prophecies.",
-                            "arabic": "ولم يفهموا أنه هو مخلصهم كما قال الأنبياء،"
+                            "arabic": "وَلَمْ يَفْهَمُوا أَنَّهُ هُوَ مُخَلِّصُهُمْ كَمَا قَالَ اَلْأَنْبِيَاءُ،"
                           }
                         ]
                       },
@@ -10068,7 +10088,7 @@
                         "cells": [
                           {
                             "english": "They renounced, rejected, and strayed away from Him.",
-                            "arabic": "فجحدوه ولم يقبلوه، ورفضوه وصاروا بغير إله."
+                            "arabic": "فَجَحَدُوهُ وَلَمٌّ يَقْبَلُوهُ، وَرَفَضُوهُ وَصَارُوا بِغَيْرِ إِلَهٍ."
                           }
                         ]
                       }
@@ -10155,6 +10175,16 @@
                 "repeated_prayer_variables": {
                   "noProstrations": false
                 },
+                "source": "Holy Week",
+                "category": "general"
+              },
+              {
+                "repeated_prayer_title": "Evnoti Nai Nan",
+                "source": "Holy Week",
+                "category": "general"
+              },
+              {
+                "repeated_prayer_title": "End of Service Hymn",
                 "source": "Holy Week",
                 "category": "general"
               }
@@ -10659,7 +10689,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "On His way to Jerusalem with His disciples, someone remarked to our Savior, “Few are those who will be saved?”",
+                            "english": "On His way to Jerusalem with His disciples, someone remarked to our Savior, “Are there few who are saved?”",
                             "arabic": "أن مخلصنا جعل مسيرته إلى أورشليم مع خواصه، فقال له واحد من الجمع: يا رب أقليلون هم الذين يخلصون؟"
                           }
                         ]
@@ -10677,7 +10707,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "“O Lord open for us”, and He shall answer from inside and say unto you, “I do not know you, where are you from?",
+                            "english": "'O Lord open for us,' and He shall answer from inside and say unto you, 'I do not know you, where are you from?'",
                             "arabic": "يا رب افتح لنا فيجيب هو من داخل قائلاً لكم: انى ما أعرفكم من أين أنتم."
                           }
                         ]
@@ -10695,7 +10725,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "Many of the gentiles will come from the east and the west and will lie in the bosom of Abraham, Isaac, and Jacob in the kingdom of heaven,",
+                            "english": "Many of the Gentiles will come from the east and the west and will lie in the bosom of Abraham, Isaac, and Jacob in the kingdom of heaven,",
                             "arabic": "ان كثيرين من الأمم يأتون من المشارق والمغارب، ويتكئون فى حضن ابراهيم واسحق ويعقوب فى ملكوت السموات."
                           }
                         ]
@@ -11244,7 +11274,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "On this day some people came and told Him that king Herod wants to kill him saying,",
+                            "english": "On this day some people came and told Him that King Herod wants to kill him saying,",
                             "arabic": "فى ذلك اليوم وافاه قوم وأخبروه عن هيرودس الملك، قائلين:"
                           }
                         ]
@@ -11262,7 +11292,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "Jesus said to them, “Go and tell this wicked fox that I will heal many today and tomorrow and in the coming days.",
+                            "english": "Jesus said to them, “Go and tell that wicked fox that I will heal many today and tomorrow and in the coming days.",
                             "arabic": "فأجاب وقال للذى قال له: امض وقل لهذا الثعلب الشرير انى أكمل شفاء كثيرين اليوم وغداً وفى اليوم الآتى."
                           }
                         ]
@@ -11874,7 +11904,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "As an attending physician, Jesus was treating us without charge.",
+                            "english": "As an attending physician, Jesus was treating us freely.",
                             "arabic": "مثل طبيب مداو كان المسيح الهنا يداوى مجاناً قائلاً:"
                           }
                         ]
@@ -11892,7 +11922,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "Likewise, consumption in worldly concerns could bring on us vicious passions. It can cause us to stray away from the fear of God.",
+                            "english": "Similarly, consumption in worldly concerns could bring on us vicious passions, and it can cause us to stray away from the fear of God.",
                             "arabic": "والاهتمام الدنيوى أيضاً يجلب على الإنسان شروراً كثيرة ويحيد بالإنسان عن مخافة الله"
                           }
                         ]
@@ -11946,7 +11976,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "Those who heard him, hurried to drink from the spring of His sweet water.",
+                            "english": "Those who heard Him, hurried to drink from the spring of His sweet water.",
                             "arabic": "والذين سمعوا كانوا يسبقون إلى ينبوعه ويشربون منه الماء الحلو."
                           }
                         ]
@@ -12603,7 +12633,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "Therefore, let us be kind to God’s creations.",
+                            "english": "Therefore, let us be kind to God’s creation.",
                             "arabic": "فلنكن نحن رحومين على كل إنسان خلقه الله"
                           }
                         ]
@@ -12612,7 +12642,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "In that we may purify ourselves, bodies, and souls, of all the filth of sins.",
+                            "english": "Thus, we may purify ourselves, bodies, and souls, of all the filth of sins.",
                             "arabic": "وعند ذلك نطهر نفوسنا وأجسادنا وأرواحنا من كل دنس الخطية."
                           }
                         ]
@@ -13297,6 +13327,16 @@
             "tables": [
               {
                 "repeated_prayer_title": "Nighttime Litanies",
+                "source": "Holy Week",
+                "category": "general"
+              },
+              {
+                "repeated_prayer_title": "Evnoti Nai Nan",
+                "source": "Holy Week",
+                "category": "general"
+              },
+              {
+                "repeated_prayer_title": "End of Service Hymn",
                 "source": "Holy Week",
                 "category": "general"
               }
@@ -20420,6 +20460,16 @@
                 },
                 "source": "Holy Week",
                 "category": "general"
+              },
+              {
+                "repeated_prayer_title": "Evnoti Nai Nan",
+                "source": "Holy Week",
+                "category": "general"
+              },
+              {
+                "repeated_prayer_title": "End of Service Hymn",
+                "source": "Holy Week",
+                "category": "general"
               }
             ]
           }
@@ -23789,6 +23839,16 @@
                 "repeated_prayer_title": "Nighttime Litanies",
                 "source": "Holy Week",
                 "category": "general"
+              },
+              {
+                "repeated_prayer_title": "Evnoti Nai Nan",
+                "source": "Holy Week",
+                "category": "general"
+              },
+              {
+                "repeated_prayer_title": "End of Service Hymn",
+                "source": "Holy Week",
+                "category": "general"
               }
             ]
           }
@@ -24991,7 +25051,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "The Pharisees gathered together and said one unto one another, “What can we do?",
+                            "english": "The Pharisees gathered together and said unto one another, “What can we do?",
                             "arabic": "اجتمع الفريسيون وخاطب بعضهم بعضاً قائلين: ما الذى نصنع؟"
                           }
                         ]
@@ -25000,7 +25060,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "This man is performing many miracles and supernatural acts.",
+                            "english": "This Man is performing many miracles and supernatural acts.",
                             "arabic": "فان هذا الرجل يصنع آيات كثيرة وعجائب غزيرة!"
                           }
                         ]
@@ -25009,7 +25069,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "If we leave him alone, all the people will believe in him and then the Romans will replace us.”",
+                            "english": "If we leave Him alone, everyone will believe in Him and then the Romans will replace us.”",
                             "arabic": "وان تركناه فسيؤمن به الكل، ويأتى الرومانيون ويأخذون موضعنا."
                           }
                         ]
@@ -25018,7 +25078,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "One of them who is Caiaphas, the chief priest of the Jews said, “ It is necessary for you that one man should die for the people and that the whole nation should not perish.”",
+                            "english": "One of them who was Caiaphas, the chief priest of the Jews said, “It is expedient for you that one man should die for the people and that the whole nation should not perish.”",
                             "arabic": "فقال أحدهم الذى هو قيافا رئيس كهنة اليهود: إنه يجب أن يموت رجل واحد عن الشعب دون الأمة كلها."
                           }
                         ]
@@ -25036,7 +25096,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "Jesus went to a place in the wilderness and stayed there with his disciples.",
+                            "english": "Jesus went to a place in the wilderness and stayed there with His disciples.",
                             "arabic": "فمضى يسوع إلى كورة فى البرية، وأقام هناك مع تلاميذه."
                           }
                         ]
@@ -25063,7 +25123,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "For the ox knows its owner and the donkey its master, but Israel does not know that I am his creator.",
+                            "english": "For the ox knows its owner and the donkey its master, but Israel does not know that I am his creator.\"",
                             "arabic": "من أجل أن الثور عرف مذوده والحمار عرف قانيه، أما اسرائيل فلم يعرفنى، ولم يعلم أننى خالقه."
                           }
                         ]
@@ -25072,7 +25132,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "Therefore, they shall be with their descendents in Hell.",
+                            "english": "Therefore, they shall be with their descendants in Hell.",
                             "arabic": "من أجل ذلك يخلدون هم وأبناؤهم فى الجحيم، بيتهم إلى الأبد."
                           }
                         ]
@@ -26157,7 +26217,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "When the feast of the unleavened bread, which is the Passover of the Jews was near, the scribes and the chief priests sought a way to kill Jesus.",
+                            "english": "When the feast of the unleavened bread, which is the Passover of the Jews, was near, the scribes and the chief priests sought how to kill Jesus.",
                             "arabic": "ولما قرب عيد الفطير الذى هو فصح اليهود، كان الكتبة ورؤساء الكهنة يطلبون كيف يهلكون يسوع."
                           }
                         ]
@@ -26175,7 +26235,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "But Satan found himself a place in the heart of his companion Judas Iscariot who was counted among the disciples but was Satan as the Lord called him.",
+                            "english": "But Satan found himself a place in the heart of his companion Judas Iscariot, who was counted among the disciples but was Satan as the Lord called him.",
                             "arabic": "فوجد الشيطان له مسكناً فى قلب رفيقه يهوذا الاسخريوطى وكان هذا محسوباً فى عداد التلاميذ، وكان شيطاناً كقول الرب."
                           }
                         ]
@@ -27120,7 +27180,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "They made a feast for him at the residence of Mary and Martha her sister.",
+                            "english": "They made a feast for Him at the residence of Mary and Martha her sister.",
                             "arabic": "فصنعوا له وليمة فى بيت مريم ومرثا أختها."
                           }
                         ]
@@ -27138,7 +27198,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "Martha was serving them and Lazarus was sitting with him.",
+                            "english": "Martha was serving them and Lazarus was sitting with Him.",
                             "arabic": "وكانت مرثا أخت الميت واقفة تخدمه، وكان لعازر أخوهما أحد المتكئين مع ربنا يسوع."
                           }
                         ]
@@ -27147,7 +27207,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "Mary then brought forth a pound of expensive fragrant oil and she anointed his feet and wiped them with her hair.",
+                            "english": "Mary then brought forth a pound of expensive fragrant oil, and she anointed His feet and wiped them with her hair.",
                             "arabic": "فأخذت مريم رطل طيب ناردين كثير الثمن، ودهنت به رجلى يسوع، ومسحتهما بشعر رأسها."
                           }
                         ]
@@ -27165,7 +27225,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "He asked cunningly while his heart full of bitterness, deceit and hypocrisy,",
+                            "english": "He asked cunningly while his heart was full of bitterness, deceit, and hypocrisy,",
                             "arabic": "ونطق بمكر وقلب مملوء من كل مرارة وخبث ورياء وقال:"
                           }
                         ]
@@ -27174,7 +27234,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "“Would it not have been better if this oil would have been sold for three hundred Denarii and given to the poor?",
+                            "english": "“Would it not have been better if this oil would have been sold for three hundred denarii and given to the poor?\"",
                             "arabic": "لماذا لم يبع هذا الطيب بثلاثمائة دينار ويعطى للمساكين؟"
                           }
                         ]
@@ -27219,7 +27279,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "Let us come close to the Lord, run our tears down his feet and ask him for his forgiveness according to his abundant mercy.",
+                            "english": "Let us come close to the Lord, run our tears down His feet, and ask Him for His forgiveness according to His abundant mercy.",
                             "arabic": "فلنقترب من الرب، ولنبك أمامه، ونبل قدميه بدموعنا، ونسأله أن ينعم علينا بالغفران كعظيم رحمته."
                           }
                         ]
@@ -28708,7 +28768,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "For Abraham the great patriarch the father of all nations fathomed in great faith that God the Word shall be incarnated from his seed.",
+                            "english": "For Abraham the great patriarch, the father of all nations, fathomed in great faith that God the Word shall be incarnated from his seed.",
                             "arabic": "من زرع ابراهيم الأب العظيم أب جميع الشعوب، الذى لما علم بايمان أن الاله الكلمة لابد أن يتجسد من نسله،"
                           }
                         ]
@@ -28717,7 +28777,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "When he saw that his days on earth were decreasing and that God had blessed him,",
+                            "english": "When he saw that his days on earth were numbered and that God had blessed him,",
                             "arabic": "وبالأكثر عندما رأى أيامه نقصت وأن الله بارك فى أعماله،"
                           }
                         ]
@@ -28735,7 +28795,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "“Put your hand under my thigh because I will ask you to swear by the Lord of heavens that you will not betroth for my son Isaac a wife from this land on which I dwell.",
+                            "english": "“Put your hand under my thigh, because I will ask you to swear by the Lord of heavens that you will not betroth for my son Isaac a wife from this land on which I dwell.",
                             "arabic": "ضع يدك تحت فخذى لأحلفك باله السماء، أنك لا تأخذ امرأة لابنى اسحق من هذه الأرض التى أنا ساكنها،"
                           }
                         ]
@@ -28753,7 +28813,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "Be diligent regarding this matter. “The servant asked prudently, Master what if the woman refused to come with me to this land?",
+                            "english": "Be diligent regarding this matter.\" The servant asked prudently, \"Master what if the woman refused to come with me to this land?",
                             "arabic": "خذ له العربون بغير تهاون. فأجابه العبد بعقل هكذا قائلاً: اسمع يا سيدى ان أبت المرأة أن تأتى معى إلى هذه الأرض،"
                           }
                         ]
@@ -28762,7 +28822,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "Would you rather see me come back with your son Isaac and serve him until I can bring her back?",
+                            "english": "Would you rather see me come back with your son Isaac and serve him until I can bring her back?\"",
                             "arabic": "أفتريد أن أرد ابنك اسحق وآخذه معى إلى أن آتى به إلى هنا؟"
                           }
                         ]
@@ -28771,7 +28831,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "Abraham said, “be careful not to do that, if she does not come with you then you are innocent.”",
+                            "english": "Abraham said, “Be careful not to do that, if she does not come with you then you are innocent.”",
                             "arabic": "فقال له احذر أن ترد ابنى. فإن لم تجئ فأنت برئ."
                           }
                         ]
@@ -28780,7 +28840,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "The servant put his hand (under his master’s thigh) and swore to him to keep his promise.",
+                            "english": "The servant put his hand under his master’s thigh and swore to him to keep his promise.",
                             "arabic": "فوضع العبد يده وحلف له على ثبات هذا القول."
                           }
                         ]
@@ -29563,7 +29623,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "Through his incarnation in a human form, he showed concern and weakness.",
+                            "english": "Through His incarnation in a human form, He showed troubles and weakness.",
                             "arabic": "لكن لأجل جسد البشرية الذى أخذه منا يظهر الاضطراب والضعف."
                           }
                         ]
@@ -29572,7 +29632,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "The Savior said, “Now is my soul troubled, and what shall I say?",
+                            "english": "The Savior said, “Now My soul is troubled, and what shall I say?",
                             "arabic": "قال المخلص: الآن نفسى مضطربة. وماذا أقول؟"
                           }
                         ]
@@ -29696,6 +29756,16 @@
                 "repeated_prayer_variables": {
                   "noProstrations": false
                 },
+                "source": "Holy Week",
+                "category": "general"
+              },
+              {
+                "repeated_prayer_title": "Evnoti Nai Nan",
+                "source": "Holy Week",
+                "category": "general"
+              },
+              {
+                "repeated_prayer_title": "End of Service Hymn",
                 "source": "Holy Week",
                 "category": "general"
               }
@@ -30182,7 +30252,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "Christ our Lord, Master and King reveals His divinity and dominion;",
+                            "english": "Christ our Lord, Master and King, reveals His divinity and dominion;",
                             "arabic": "ربنا وسيدنا وملكنا المسيح يظهر لاهوته وسلطانه."
                           }
                         ]
@@ -30209,7 +30279,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "No one takes it away from Me, but I lay down of Myself. I have power to lay down, and I have power to take it again.”",
+                            "english": "No one takes it away from Me, but I lay it down of Myself. I have power to lay it down, and I have power to take it again.”",
                             "arabic": "وليس أحد ينزعها منى، لكن أنا الذى أضعها بارادتى فان لى سلطان أن أضعها ولى سلطان أن آخذها."
                           }
                         ]
@@ -30893,7 +30963,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "Let us be zealous, over her virtues and love the Lord with all our hearts",
+                            "english": "Let us be zealous over her virtues and love the Lord with all our hearts",
                             "arabic": "فلنمتلئ غيرة على فضيلتها، ونحب الرب من كل قلوبنا."
                           }
                         ]
@@ -30920,7 +30990,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "His name will be erased in one generation and he will be denied descendants on earth.",
+                            "english": "His name will disappear within one generation and he will be denied descendants on earth.",
                             "arabic": "ليفنى اسمه فى جيل واحد ولا يكون له خلف على الأرض."
                           }
                         ]
@@ -31505,7 +31575,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "Isaiah the prophet cries unto the sons of Israel, by the Spirit, for their foolishness.",
+                            "english": "Isaiah the prophet reprimands the sons of Israel, by the Spirit, for their foolishness.",
                             "arabic": "أشعياء النبى يصرخ بالروح نحو الشعب الجاهل بنى اسرائيل."
                           }
                         ]
@@ -31514,7 +31584,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "He rebuked them because of the vileness of their deeds and their sins when Emmanuel performed His miracles.",
+                            "english": "He rebuked them because of the vileness of their deeds and their sins. They rejected the miracles that Emmanuel performed.",
                             "arabic": "يبكتهم بغير محاباة من أجل دنس أعمالهم وآثامهم. لما ظهر عمانوئيل وصنع أعمالاً تبهر العقول،"
                           }
                         ]
@@ -31595,7 +31665,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "Listen O Israel, no one else will save you from God’s wrath other than Jesus the Savior of the world who made the two into one through His incarnation.",
+                            "english": "Listen O Israel, no one will save you from God’s wrath other than Jesus the Savior of the world who made the two into one through His incarnation.",
                             "arabic": "إسمع يا اسرائيل: ليس آخر يقوم ليخلص به شعبك الا يسوع مخلص العالم، والذى جعل الاثنين واحداً بتجسده."
                           }
                         ]
@@ -31604,7 +31674,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "The Light has come to His own and His own loved the darkness.",
+                            "english": "The Light has come to His own, and His own loved the darkness.",
                             "arabic": "جاء النور إلى خاصته وخاصته لم تقبله بل أحبوا الظلمة،"
                           }
                         ]
@@ -31613,7 +31683,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "The gentiles accepted His commandments and became His nation everywhere.",
+                            "english": "The Gentiles accepted His commandments and became His nation everywhere.",
                             "arabic": "والشعوب الغريبة قبلت وصاياه وصارت له شعباً مجتمعاً فى كل مكان."
                           }
                         ]
@@ -32225,7 +32295,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "When the Jews in their envy took up rocks to stone Him,",
+                            "english": "When the Jews in their envy took up stones to stone Him,",
                             "arabic": "وللوقت تناول اليهود حجارة بحسد عظيم ليرجموه."
                           }
                         ]
@@ -32919,6 +32989,16 @@
             "tables": [
               {
                 "repeated_prayer_title": "Nighttime Litanies",
+                "source": "Holy Week",
+                "category": "general"
+              },
+              {
+                "repeated_prayer_title": "Evnoti Nai Nan",
+                "source": "Holy Week",
+                "category": "general"
+              },
+              {
+                "repeated_prayer_title": "End of Service Hymn",
                 "source": "Holy Week",
                 "category": "general"
               }
@@ -34678,7 +34758,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "He sent two of His disciples, Peter and John, and told them; go to this town and you will find a man carrying a jar of water.",
+                            "english": "He sent two of His disciples, Peter and John, and told them, \"Go to this town and you will find a man carrying a jar of water.",
                             "arabic": "فأرسل اثنين من تلاميذه، الصفا ويوحنا، وقال لهما: قوما وامضيا إلى هذه المدينة فتجدان رجلاً حاملاً جرة ماء."
                           }
                         ]
@@ -34687,7 +34767,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "Follow his footsteps to the place where he goes in.",
+                            "english": "Follow his footsteps to the place where he goes.",
                             "arabic": "إذا مشى، سيرا أنتما خلفه إلى الموضع الذى يدخل إليه،"
                           }
                         ]
@@ -34714,7 +34794,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "Make preparation for Passover there.",
+                            "english": "Make preparation for Passover there.\"",
                             "arabic": "أعدا الفصح فى ذلك الموضع."
                           }
                         ]
@@ -34759,7 +34839,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "In so many forms, He prepared the world-from the east to the west-for eternal salvation.",
+                            "english": "He prepared salvation for the world from sunrise to sunset. ",
                             "arabic": "وبأنواع كثيرة وطرق شتى أعد الخلاص والنجاة الأبدية، \nلكن هذا الخلاص هو لكل العالم من مشارق الشمس إلى مغاربها."
                           }
                         ]
@@ -35729,7 +35809,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "The prophet went back to God and bowed down in front of him saying,",
+                            "english": "The prophet went back to God and bowed down in front of Him saying,",
                             "arabic": "فعاد النبى إلى الرب وسَجَدَ أمامه قائلاً:"
                           }
                         ]
@@ -35783,7 +35863,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "I will surely strike you with severe inflictions and annihilate you.",
+                            "english": "I will surely strike you with severe inflictions and annihilate you.\"",
                             "arabic": "فأنظر وتيقن فإنى منزل عليك ضربة عظيمة وأمحوك."
                           }
                         ]
@@ -36631,7 +36711,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "You will know that I am the Lord God and that there is no other god other than Me.",
+                            "english": "You will know that I am the Lord God and that there is no god other than Me.",
                             "arabic": "وتعلمون أنى أنا هو الرب وليس إله آخر غيرى،"
                           }
                         ]
@@ -36649,7 +36729,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "It is all under My dominion and seeks My mercy.",
+                            "english": "All are under My dominion and seek My mercy.\"",
                             "arabic": "وهى كلها تحت سلطانى، تتوقع الرحمة التى من قبلى."
                           }
                         ]
@@ -38049,7 +38129,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "“I shall go there with my son to worship and come back.”",
+                            "english": "“I shall go there with my son to worship and we will come back.”",
                             "arabic": "أنا وابنى ننطلق إلى هناك لنسجد ثم نعود اليكما."
                           }
                         ]
@@ -38076,7 +38156,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "Then Isaac said to his father Abraham, “Here is the fire where is the lamb?”",
+                            "english": "Then Isaac said to his father Abraham, “Here is the fire, where is the lamb?”",
                             "arabic": "فقال اسحق لأبيه ابراهيم: هوذا الحطب، فأين هو الحمل؟"
                           }
                         ]
@@ -38103,7 +38183,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "Before he lit it, he tied Isaac’s hands and feet and put him on the wood. The boy (Isaac) said: 'Here, I am your sacrifice that you offer, father.'",
+                            "english": "Before he lit it, he tied Isaac’s hands and feet and put him on the wood. The boy said, \"Here, I am your sacrifice that you offer, father.\"",
                             "arabic": "قبل أن يوقد النار. وشد يدى الصبى وساقيه وجعله على الحطب. فقال الصبى: ها أنذا اليوم قربانك يا أبتاه الذى تصنعه."
                           }
                         ]
@@ -38175,7 +38255,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "The Lord Almighty blessed Abraham because he was pleased with all his deeds.",
+                            "english": "The Lord Almighty blessed Abraham, because He was pleased with all his deeds.",
                             "arabic": "الرب ضابط الكل ابراهيم لأنه وجده مرضياً له فى سائر أعماله."
                           }
                         ]
@@ -39225,7 +39305,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "A New Table [meal] was prepared by the Son in the Upper Room at Mother Zion [the City of Jerusalem]",
+                            "english": "A New Table (meal) was prepared by the Son in the Upper Room at Mother Zion (the City of Jerusalem).",
                             "arabic": "ومائدة جديدة أعدها الإبن فى علية صهيون الأم."
                           }
                         ]
@@ -39243,7 +39323,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "That is His flesh which He Himself offered to them in a hidden mystery, and the precious blood, which is better than the blood offerings.",
+                            "english": "On that evening, He offered to them His true body, that he gave them as a sacrament, and the precious blood, which is better than the blood offerings.",
                             "arabic": "الذى هو جسده هو بذاته الذى أعطاه لهم بأمر سرى، والدم الكريم الحقيقى الذى هو أفضل من دم الحيوانات."
                           }
                         ]
@@ -39288,7 +39368,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "Every time you eat of this bread and drink of this cup you preach My death, confess My resurrection, and remember Me till I come.”",
+                            "english": "Every time you eat of this bread and drink of this cup, you preach My death, confess My resurrection, and remember Me till I come.”",
                             "arabic": "لأن كل مرة تأكلون من هذا الخبز وتشربون من هذه الكأس تبشرون بموتى وقيامتى وتذكروننى إلى أن أجئ."
                           }
                         ]
@@ -39324,7 +39404,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "They began to think, one among the other, saying, “Who dares do that?”",
+                            "english": "They began to think among each other, saying, “Who dares do that?”",
                             "arabic": "فبدأوا يفكرون فيما بينهم قائلين: من الذى يجسر أن يفعل هذا؟"
                           }
                         ]
@@ -39439,6 +39519,16 @@
                 "repeated_prayer_variables": {
                   "noProstrations": false
                 },
+                "source": "Holy Week",
+                "category": "general"
+              },
+              {
+                "repeated_prayer_title": "Evnoti Nai Nan",
+                "source": "Holy Week",
+                "category": "general"
+              },
+              {
+                "repeated_prayer_title": "End of Service Hymn",
                 "source": "Holy Week",
                 "category": "general"
               }
@@ -41258,7 +41348,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "And when He said this, Our Lord Jesus Christ raised His eyes towards His Father and said:",
+                            "english": "And when He said this, Our Lord Jesus Christ raised His eyes towards His Father and said,",
                             "arabic": "ما قال ربنا يسوع هذا رفع عينيه إلى فوق نحو ابيه، وقال:"
                           }
                         ]
@@ -41267,7 +41357,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "Father, the hour has come. Glorify Your Son in the world.",
+                            "english": "\"Father, the hour has come. Glorify Your Son in the world.",
                             "arabic": "يا أبتاه قد أتت الساعة. مجد ابنك فى العالم."
                           }
                         ]
@@ -41276,7 +41366,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "I glorified You Father when I have fulfilled Your will.",
+                            "english": "I glorified You Father when I finished the work that You have given Me to do.",
                             "arabic": "أنا مجدتك يا أبتاه على الأرض لما أكملت ما يرضيك."
                           }
                         ]
@@ -41285,7 +41375,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "And what You gave Me Father, I gave to them because I selected them from the world.",
+                            "english": "What You gave Me Father, I gave to them because I selected them from the world.",
                             "arabic": "الذى أعطيتنى يا أبتاه أعطيتهم اياه لأنى أنا اخترتهم من العالم."
                           }
                         ]
@@ -41348,7 +41438,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "The love You lavished on Me O Father, let it be always on them so that they may proclaim Your grace among the nations for I shall be in them.",
+                            "english": "The love You bestowed on Me O Father, let it be always on them so that they may proclaim Your grace among the nations for I shall be in them.\"",
                             "arabic": "المحبة التى أحببتنى بها يا أبتاه فلتكن دائمة فيهم جميعاً، ليخبروا الأمم بنعمتك فإنى أنا أيضاً أكون فيهم يا أبى."
                           }
                         ]
@@ -42312,7 +42402,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "Our Savior started to tell His disciples openly, tonight all of you will doubt Me.",
+                            "english": "Our Savior started to tell His disciples openly, \"tonight all of you will doubt Me.",
                             "arabic": "فابتدأ مخلصنا يقول لتلاميذه علانية: أنتم كلكم فى هذه الليلة تشكون فىّ،"
                           }
                         ]
@@ -42321,7 +42411,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "All that was written will be fulfilled in this generation as well as all prophecies which said, “I will strike the Shepherd, and the sheep will be scattered.”",
+                            "english": "All that was written will be fulfilled in this generation as well as all prophecies which said, 'I will strike the Shepherd, and the sheep will be scattered.'",
                             "arabic": "ويكمل المكتوب فى هذا الزمان وسائر أقوال الأنبياء الذين قالوا: أنى أضرب الراعى فتتفرق غنم رعيته."
                           }
                         ]
@@ -42384,7 +42474,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "sold his Master to the Gentiles, rejected grace and gained sin.",
+                            "english": "sold his Master to the Gentiles, rejected grace, and gained sin.",
                             "arabic": "وهو الذى باع سيده للأمم، ورفض النعمة واكتسب الخطية."
                           }
                         ]
@@ -43456,7 +43546,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "He awoke Peter and said to His disciples, “Could you not watch with Me for one hour?",
+                            "english": "He awoke Peter and said to His disciples, “Could you not watch with Me one hour?",
                             "arabic": "فأيقظ بطرس وقال ألا يجب عليك أن تسهر معى ساعة واحدة؟"
                           }
                         ]
@@ -43474,7 +43564,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "The second time, He prayed again that if it is at all possible to let the cup pass from Him.",
+                            "english": "The second time, He prayed again if it is possible to let the cup pass from Him.",
                             "arabic": "والمرة الثانية صلى هكذا من أجل الكأس لكى تعبر عنه."
                           }
                         ]
@@ -43483,7 +43573,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "In the third time, He prayed again. Then He came to His disciples and said to them,",
+                            "english": "The third time, He prayed again, and then He came to His disciples and said to them,",
                             "arabic": "والمرة الثالثة صلى هكذا بهذا الكلام الذى قاله."
                           }
                         ]
@@ -43501,7 +43591,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "Rise, let us be going. See, My betrayer is at hand. Woe to you Judas, more than anyone else, because your sins have multiplied as those of your parents.",
+                            "english": "Rise, let us be going. See, My betrayer is at hand.\" Woe to you Judas, more than anyone else, because your sins have multiplied as those of your parents.",
                             "arabic": "الويل لك يا يهوذا أكثر من جميع الناس، فان خطاياك تضاعفت وخطايا والديك."
                           }
                         ]
@@ -44745,7 +44835,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "Peter followed Him, at a distance, to the high priest’s courtyard.",
+                            "english": "Peter followed Him at a distance to the high priest’s courtyard.",
                             "arabic": "وكان سمعان بطرس يتبعه حتى جلس عند باب رئيس الكهنة."
                           }
                         ]
@@ -46177,7 +46267,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "“Destroy the temple and I will rebuild it in three days.” The high priest asked Him, “Why don’t You reply.",
+                            "english": "“Destroy the temple and I will rebuild it in three days.” The high priest asked Him, “Why don’t You reply?",
                             "arabic": "انقضوا هذا الهيكل وأنا أقيمه فى ثلاثة أيام. قال رئيس الكهنة: لم لا تجيبنى؟"
                           }
                         ]
@@ -46195,7 +46285,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "Then the high priest rent his robe and said, “We don’t need any testimony.",
+                            "english": "Then the high priest rent his robe and said, “We don’t need any further testimony.",
                             "arabic": "فشق رئيس الكهنة ثيابه وقال: لسنا نحتاج إلى شهادة."
                           }
                         ]
@@ -46231,7 +46321,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "Then another saw him and said to him, “You are also a Galilean,” Peter replied, “Not I.”",
+                            "english": "Then another saw him and said to him, “You are also a Galilean,” Peter replied, “I am not.”",
                             "arabic": "وآخر قال: أنت أيضاً رجل جليلى. فقال: لست أنا."
                           }
                         ]
@@ -46258,7 +46348,7 @@
                         "row-class": "text",
                         "cells": [
                           {
-                            "english": "When the rooster crowed, Peter became aware of what he had done, left and wept bitterly.",
+                            "english": "When the rooster crowed, Peter became aware of what he had done and left and wept bitterly.",
                             "arabic": "وعندما صاح الديك تيقظ بطرس وخرج إلى خارج وبكى بكاء مراً."
                           }
                         ]
@@ -46340,6 +46430,16 @@
             "tables": [
               {
                 "repeated_prayer_title": "Nighttime Litanies",
+                "source": "Holy Week",
+                "category": "general"
+              },
+              {
+                "repeated_prayer_title": "Evnoti Nai Nan",
+                "source": "Holy Week",
+                "category": "general"
+              },
+              {
+                "repeated_prayer_title": "End of Service Hymn",
                 "source": "Holy Week",
                 "category": "general"
               }
@@ -59786,6 +59886,16 @@
                 "repeated_prayer_variables": {
                   "noProstrations": false
                 },
+                "source": "Holy Week",
+                "category": "general"
+              },
+              {
+                "repeated_prayer_title": "Evnoti Nai Nan",
+                "source": "Holy Week",
+                "category": "general"
+              },
+              {
+                "repeated_prayer_title": "End of Service Hymn",
                 "source": "Holy Week",
                 "category": "general"
               }

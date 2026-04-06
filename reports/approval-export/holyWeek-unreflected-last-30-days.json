@@ -1,0 +1,2218 @@
+{
+  "windowDays": 30,
+  "windowStart": "2026-02-22T23:59:59+00:00",
+  "windowEnd": "2026-03-24T23:59:59+00:00",
+  "recentUnreflectedApprovalCount": 13,
+  "reasonCounts": {
+    "superseded_by_later_approval": 173,
+    "latest_approved_value_differs_from_local": 0
+  },
+  "changes": [
+    {
+      "id": "a1a890a6-d7bf-4626-9aba-eb862ac7b513",
+      "approvedAt": "2026-03-17T19:37:25.477253+00:00",
+      "approvedBy": "minaazer",
+      "requestedBy": "essamishak",
+      "summary": "تصحيح الجملة والتشكيل",
+      "notReflectedPathCount": 12,
+      "reasons": [
+        {
+          "path": "[0].hours[1].sections[6].tables[1].tbodies[0].rows[1].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "الأفكار التى كانت لليهود المخالفين بخصوص مخلصنا وملكنا المسيح أنه مثل ملوك الأرض. والجموع الكثيرة محيطة بهِ والجند والعساكر والمحاربون مثل الملوك.",
+          "currentValue": "الأفكار التى كانت لليهود المخالفين بخصوص مخلصنا وملكنا المسيح أنه مثل ملوك الأرض. والجموع الكثيرة والجنود والمحاربون يحيطون به مثل الملوك.",
+          "supersededBy": {
+            "changeId": "2be79ee7-38e0-4d96-9d2b-f51063e6e6e1",
+            "approvedAt": "2026-03-17T19:38:26.992085+00:00",
+            "summary": "تصيح لغوي والتشكيل",
+            "approvedValue": "الأفكار التى كانت لليهود المخالفين بخصوص مخلصنا وملكنا المسيح أنه مثل ملوك الأرض. والجموع الكثيرة والجنود والمحاربون يحيطون به مثل الملوك."
+          }
+        },
+        {
+          "path": "[0].hours[1].sections[6].tables[1].tbodies[0].rows[4].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وسألته وطلبت منه هكذا قائلة: \"قل قولاٌ أن يجلس ابناى الاثنان معك فى ملكوتِكُ، واحد عن يمينك والآخر عن يسارك فى عِزّ مملكتُكُ.",
+          "currentValue": "وسألته وطلبت منه هكذا قائلة: \"قل كلمة أن يجلس ابناى الاثنان معك فى ملكوتك، واحد عن يمينك والآخر عن يسارك فى مجد مملكتك\".",
+          "supersededBy": {
+            "changeId": "2be79ee7-38e0-4d96-9d2b-f51063e6e6e1",
+            "approvedAt": "2026-03-17T19:38:26.992085+00:00",
+            "summary": "تصيح لغوي والتشكيل",
+            "approvedValue": "وسألته وطلبت منه هكذا قائلة: \"قل كلمة أن يجلس ابناى الاثنان معك فى ملكوتك، واحد عن يمينك والآخر عن يسارك فى مجد مملكتك\"."
+          }
+        },
+        {
+          "path": "[0].hours[1].sections[6].tables[1].tbodies[0].rows[6].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "قال: \"أتقدران أن تشربا الكأس التى أتيت لأجلها لكى أشربها، وأن تصتبغا بالصبغة التى ساصطبغ بها؟\". فقالا: \"نقدر أن نصنع هذا\".",
+          "currentValue": "قال: \"أتقدران أن تشربا الكأس التى أتيت لأجلها لكى أشربها، والصبغة التى اصطبغها؟\". فقالا: \"نقدر أن نصنع هذا\".",
+          "supersededBy": {
+            "changeId": "2be79ee7-38e0-4d96-9d2b-f51063e6e6e1",
+            "approvedAt": "2026-03-17T19:38:26.992085+00:00",
+            "summary": "تصيح لغوي والتشكيل",
+            "approvedValue": "قال: \"أتقدران أن تشربا الكأس التى أتيت لأجلها لكى أشربها، والصبغة التى اصطبغها؟\". فقالا: \"نقدر أن نصنع هذا\"."
+          }
+        },
+        {
+          "path": "[1].hours[0].sections[6].tables[1].tbodies[0].rows[1].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "إذا أزهر القمر في أول الشهر، وأشرقت أشعته على الأرض، يصير سائر الناس فى اشتياق ويشتهون أن يروا بهاءهُ،",
+          "currentValue": "إذا أزهر القمر في أول الشهر، وأشرقت أشعته على الأرض، يصير سائر الناس فى اشتياق ويشتهون أن يروا بهاءه،",
+          "supersededBy": {
+            "changeId": "2be79ee7-38e0-4d96-9d2b-f51063e6e6e1",
+            "approvedAt": "2026-03-17T19:38:26.992085+00:00",
+            "summary": "تصيح لغوي والتشكيل",
+            "approvedValue": "إذا أزهر القمر في أول الشهر، وأشرقت أشعته على الأرض، يصير سائر الناس فى اشتياق ويشتهون أن يروا بهاءه،"
+          }
+        },
+        {
+          "path": "[1].hours[0].sections[6].tables[1].tbodies[0].rows[2].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "فكم بِالْحَريِّ أَعلَى بِزيادة اَلمسِيح الهُنَا شَمْس البرِّ، اَلذِي شَارَك فِي المشْي مع النَّاس، وَوجِد فِي شَكْل اَلعبْدِ؟",
+          "currentValue": "فكم بالحرى المسيح الهنا شمس البر، الذى شارك فى المشى مع الناس، ووجد فى شكل العبد؟",
+          "supersededBy": {
+            "changeId": "2be79ee7-38e0-4d96-9d2b-f51063e6e6e1",
+            "approvedAt": "2026-03-17T19:38:26.992085+00:00",
+            "summary": "تصيح لغوي والتشكيل",
+            "approvedValue": "فكم بالحرى المسيح الهنا شمس البر، الذى شارك فى المشى مع الناس، ووجد فى شكل العبد؟"
+          }
+        },
+        {
+          "path": "[1].hours[0].sections[6].tables[1].tbodies[0].rows[3].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "لََا سِيَّما لِمَا رأى اليونانيُّون الَّذين أتوْا إِلى العيد عِظُم مَجدُه قَالُوا لفيلَبْس اَلذِي مِن بِيتْ صَيْدا: يَا سيِّدنَا نُريد أن نرى يسوعْ.",
+          "currentValue": "ولذلك لما رأى اليونانيون الذين أتوا إلى العيد عظيم مجده قالوا لفيلبس الذي من بيت صيدا: يا سيدنا نريد أن نرى يسوع.",
+          "supersededBy": {
+            "changeId": "2be79ee7-38e0-4d96-9d2b-f51063e6e6e1",
+            "approvedAt": "2026-03-17T19:38:26.992085+00:00",
+            "summary": "تصيح لغوي والتشكيل",
+            "approvedValue": "ولذلك لما رأى اليونانيون الذين أتوا إلى العيد عظيم مجده قالوا لفيلبس الذي من بيت صيدا: يا سيدنا نريد أن نرى يسوع."
+          }
+        },
+        {
+          "path": "[1].hours[0].sections[6].tables[1].tbodies[0].rows[5].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "فقال ربنا يسوع: قد أتت الساعة لكى يتمجُّد ابن الإنسان.",
+          "currentValue": "فقال ربنا يسوع: قد أتت الساعة لكى يتمجد ابن الإنسان.",
+          "supersededBy": {
+            "changeId": "2be79ee7-38e0-4d96-9d2b-f51063e6e6e1",
+            "approvedAt": "2026-03-17T19:38:26.992085+00:00",
+            "summary": "تصيح لغوي والتشكيل",
+            "approvedValue": "فقال ربنا يسوع: قد أتت الساعة لكى يتمجد ابن الإنسان."
+          }
+        },
+        {
+          "path": "[1].hours[0].sections[6].tables[1].tbodies[0].rows[6].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وابْتداء يَرمُز بِهَذا الكلَام عن مَوتِه اَلمُعطى الحياة.",
+          "currentValue": "وابتدأ يرمز بهذا الكلام عن موته المعطى الحياة.",
+          "supersededBy": {
+            "changeId": "2be79ee7-38e0-4d96-9d2b-f51063e6e6e1",
+            "approvedAt": "2026-03-17T19:38:26.992085+00:00",
+            "summary": "تصيح لغوي والتشكيل",
+            "approvedValue": "وابتدأ يرمز بهذا الكلام عن موته المعطى الحياة."
+          }
+        },
+        {
+          "path": "[1].hours[0].sections[6].tables[1].tbodies[0].rows[7].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "فَلمَّا سَمِع الجمْع كُلهُ- هؤلاء وأولئك- أقْواله الإلهيَّة أجابَهم اَلمُخلص وعلَّمَهم بِأمْثالٍ:",
+          "currentValue": "فلما سمع الجمع كله - هؤلاء وأولئك - أقواله الإلهية اجابهم المخلص وعلمهم بأمثال:",
+          "supersededBy": {
+            "changeId": "2be79ee7-38e0-4d96-9d2b-f51063e6e6e1",
+            "approvedAt": "2026-03-17T19:38:26.992085+00:00",
+            "summary": "تصيح لغوي والتشكيل",
+            "approvedValue": "فلما سمع الجمع كله - هؤلاء وأولئك - أقواله الإلهية اجابهم المخلص وعلمهم بأمثال:"
+          }
+        },
+        {
+          "path": "[1].hours[0].sections[6].tables[1].tbodies[0].rows[9].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "نَحْن أيْضًا نُؤْمِن أَنَّه هُو بِالْحقيقة نُور اَلأَب اَلذِي أَرسَله إِلى العالم،",
+          "currentValue": "نحن أيضاً نؤمن أنه هو بالحقيقة نور الآب الذي أرسله إلى العالم،",
+          "supersededBy": {
+            "changeId": "2be79ee7-38e0-4d96-9d2b-f51063e6e6e1",
+            "approvedAt": "2026-03-17T19:38:26.992085+00:00",
+            "summary": "تصيح لغوي والتشكيل",
+            "approvedValue": "نحن أيضاً نؤمن أنه هو بالحقيقة نور الآب الذي أرسله إلى العالم،"
+          }
+        },
+        {
+          "path": "[1].hours[0].sections[6].tables[1].tbodies[0].rows[10].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "أَضَاء عليْنَا بِمَجدِ لَاهُوته ِنَحْن اَلجُلوس فِي الظُّلْمةِ وظلال اَلموْتِِ،",
+          "currentValue": "أضاء علينا بمجد لاهوته نحن الجلوس في الظلمة وظلال الموت،",
+          "supersededBy": {
+            "changeId": "2be79ee7-38e0-4d96-9d2b-f51063e6e6e1",
+            "approvedAt": "2026-03-17T19:38:26.992085+00:00",
+            "summary": "تصيح لغوي والتشكيل",
+            "approvedValue": "أضاء علينا بمجد لاهوته نحن الجلوس في الظلمة وظلال الموت،"
+          }
+        },
+        {
+          "path": "[1].hours[0].sections[6].tables[1].tbodies[0].rows[11].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وأصعِّدنَا إِلى اَلعُلو الأوَّل مِن هُوَّة آثامنا.",
+          "currentValue": "وأصعدنا إلى العلو الأول من هوّة آثامنا.",
+          "supersededBy": {
+            "changeId": "2be79ee7-38e0-4d96-9d2b-f51063e6e6e1",
+            "approvedAt": "2026-03-17T19:38:26.992085+00:00",
+            "summary": "تصيح لغوي والتشكيل",
+            "approvedValue": "وأصعدنا إلى العلو الأول من هوّة آثامنا."
+          }
+        }
+      ]
+    },
+    {
+      "id": "d90ada2c-4652-4c92-9e33-e4978e5c1e66",
+      "approvedAt": "2026-03-17T19:37:40.860297+00:00",
+      "approvedBy": "minaazer",
+      "requestedBy": "essamishak",
+      "summary": "تصحيح لغوي",
+      "notReflectedPathCount": 1,
+      "reasons": [
+        {
+          "path": "[0].hours[0].sections[6].tables[1].tbodies[0].rows[3].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "في هذا اليوم دخل الربُّ إلى أورشليم وتلاميذه معه، ولما دَخَلَ أُورُشَلِيمَ ارْتَجَتِ الْمَدِينَةُ كُلُّهَا قَائِلةً: \" مَنْ هَذَا ؟ \" .",
+          "currentValue": "في هذا اليوم دخل الربُّ إلى أورشليم وتلاميذه معه، وما دَخَلَ أُورُشَلِيمَ ارْتَجَتِ الْمَدِينَةُ كُلُّهَا قَائِلةً: \" مَنْ هَذَا ؟ \" .",
+          "supersededBy": {
+            "changeId": "2be79ee7-38e0-4d96-9d2b-f51063e6e6e1",
+            "approvedAt": "2026-03-17T19:38:26.992085+00:00",
+            "summary": "تصيح لغوي والتشكيل",
+            "approvedValue": "في هذا اليوم دخل الربُّ إلى أورشليم وتلاميذه معه، وما دَخَلَ أُورُشَلِيمَ ارْتَجَتِ الْمَدِينَةُ كُلُّهَا قَائِلةً: \" مَنْ هَذَا ؟ \" ."
+          }
+        }
+      ]
+    },
+    {
+      "id": "4adce36a-ce17-4f45-b899-22b350e233b3",
+      "approvedAt": "2026-03-17T19:38:14.671852+00:00",
+      "approvedBy": "minaazer",
+      "requestedBy": "essamishak",
+      "summary": "تصحيح لغوي و التشكيل",
+      "notReflectedPathCount": 5,
+      "reasons": [
+        {
+          "path": "[0].hours[1].sections[6].tables[1].tbodies[0].rows[1].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "الأفْكار اَلتِي كَانَت لِلْيهود المخالفين بِخصوص مُخَلصنَا وَملكِنا اَلمسِيح أَنَّه مَثَّل مُلُوك الأرْض والْجموع الكثيرة مُحيطَة بِه والْجنْد والْعساكر والْمحاربون مثل الملوك.",
+          "currentValue": "الأفكار التى كانت لليهود المخالفين بخصوص مخلصنا وملكنا المسيح أنه مثل ملوك الأرض. والجموع الكثيرة والجنود والمحاربون يحيطون به مثل الملوك.",
+          "supersededBy": {
+            "changeId": "2be79ee7-38e0-4d96-9d2b-f51063e6e6e1",
+            "approvedAt": "2026-03-17T19:38:26.992085+00:00",
+            "summary": "تصيح لغوي والتشكيل",
+            "approvedValue": "الأفكار التى كانت لليهود المخالفين بخصوص مخلصنا وملكنا المسيح أنه مثل ملوك الأرض. والجموع الكثيرة والجنود والمحاربون يحيطون به مثل الملوك."
+          }
+        },
+        {
+          "path": "[0].hours[1].sections[6].tables[1].tbodies[0].rows[4].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وسألَتْه وطلبتْ مِنْه هَكذَا قائلَة: قلَّ قوْلاً أن يَجلِس أِبْنَاي الاثْنان معك فِي ملكوتك، وَاحِد عن يَمينِك والْآخر عن يَسارِك فِي عِزِّ ممْلكتك.",
+          "currentValue": "وسألته وطلبت منه هكذا قائلة: \"قل كلمة أن يجلس ابناى الاثنان معك فى ملكوتك، واحد عن يمينك والآخر عن يسارك فى مجد مملكتك\".",
+          "supersededBy": {
+            "changeId": "2be79ee7-38e0-4d96-9d2b-f51063e6e6e1",
+            "approvedAt": "2026-03-17T19:38:26.992085+00:00",
+            "summary": "تصيح لغوي والتشكيل",
+            "approvedValue": "وسألته وطلبت منه هكذا قائلة: \"قل كلمة أن يجلس ابناى الاثنان معك فى ملكوتك، واحد عن يمينك والآخر عن يسارك فى مجد مملكتك\"."
+          }
+        },
+        {
+          "path": "[0].hours[1].sections[6].tables[1].tbodies[0].rows[6].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "قَالَ: \" أَتَقَدَرَانْ إِنَّ تَشَرُّبًا اَلْكَأْسَ اَلَّتِي أَتَيْتُ لِأَجْلِهَا لِكَيْ أَشْرَبَهَا، وَأَنَّ تَصْطَبِغَا بِالصِّبْغَةِ اَلَّتِي سَأَصْطَبِغُ بِهَا؟ \" فَقَالَا: \" نُقَدِّرُ أَنْ نَصْنَعَ هَذَا \".",
+          "currentValue": "قال: \"أتقدران أن تشربا الكأس التى أتيت لأجلها لكى أشربها، والصبغة التى اصطبغها؟\". فقالا: \"نقدر أن نصنع هذا\".",
+          "supersededBy": {
+            "changeId": "2be79ee7-38e0-4d96-9d2b-f51063e6e6e1",
+            "approvedAt": "2026-03-17T19:38:26.992085+00:00",
+            "summary": "تصيح لغوي والتشكيل",
+            "approvedValue": "قال: \"أتقدران أن تشربا الكأس التى أتيت لأجلها لكى أشربها، والصبغة التى اصطبغها؟\". فقالا: \"نقدر أن نصنع هذا\"."
+          }
+        },
+        {
+          "path": "[0].hours[1].sections[6].tables[1].tbodies[0].rows[7].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "\" فلْعلْكمَا حقًّا تُقدِّرَان فَأمَّا اَلجُلوس فليْس لِي أن أُعطِيه لَكما، لَكنَّه لَأبَى المالئ كُلُّ موْضع، وَهُو اَلذِي يُعْطِيه لِأصْفيائه \".",
+          "currentValue": "\"فلعلكما حقاً تقدران. فأما الجلوس فليس لى أن أعطيه لكما، لكنه لابى المالئ كل موضع، وهو الذى يعطيه لأصفيائه\".",
+          "supersededBy": {
+            "changeId": "2be79ee7-38e0-4d96-9d2b-f51063e6e6e1",
+            "approvedAt": "2026-03-17T19:38:26.992085+00:00",
+            "summary": "تصيح لغوي والتشكيل",
+            "approvedValue": "\"فلعلكما حقاً تقدران. فأما الجلوس فليس لى أن أعطيه لكما، لكنه لابى المالئ كل موضع، وهو الذى يعطيه لأصفيائه\"."
+          }
+        },
+        {
+          "path": "[0].hours[1].sections[6].tables[1].tbodies[0].rows[8].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "فلما سمع الأخوان هذا سكتا ومضيا من أجل عِظُم مجدهِ.",
+          "currentValue": "فلما سمع الأخوان هذا سكتا ومضيا من أجل عظم مجده.",
+          "supersededBy": {
+            "changeId": "2be79ee7-38e0-4d96-9d2b-f51063e6e6e1",
+            "approvedAt": "2026-03-17T19:38:26.992085+00:00",
+            "summary": "تصيح لغوي والتشكيل",
+            "approvedValue": "فلما سمع الأخوان هذا سكتا ومضيا من أجل عظم مجده."
+          }
+        }
+      ]
+    },
+    {
+      "id": "768078e1-8f2a-442b-ae69-e0a5a0d25df4",
+      "approvedAt": "2026-03-23T21:32:50.019556+00:00",
+      "approvedBy": "minaazer",
+      "requestedBy": "davidibrahim",
+      "summary": "additional grammar",
+      "notReflectedPathCount": 1,
+      "reasons": [
+        {
+          "path": "[6].hours[0].sections[6].tables[1].tbodies[0].rows[3].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "If we leave Him alone, all the people will believe in Him and then the Romans will replace us.”",
+          "currentValue": "If we leave Him alone, everyone will believe in Him and then the Romans will replace us.”",
+          "supersededBy": {
+            "changeId": "1aa12d74-d183-4a90-8bb5-26eb2950c588",
+            "approvedAt": "2026-03-24T14:41:48.243801+00:00",
+            "summary": "additional grammar",
+            "approvedValue": "If we leave Him alone, everyone will believe in Him and then the Romans will replace us.”"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d0589bee-1493-4f20-8014-ab3a2fea0d39",
+      "approvedAt": "2026-03-23T22:00:04.581864+00:00",
+      "approvedBy": "minaazer",
+      "requestedBy": "davidibrahim",
+      "summary": "additional grammar",
+      "notReflectedPathCount": 32,
+      "reasons": [
+        {
+          "path": "[6].hours[0].sections[6].tables[1].tbodies[0].rows[1].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "The Pharisees gathered together and said one unto one another, “What can we do?",
+          "currentValue": "The Pharisees gathered together and said unto one another, “What can we do?",
+          "supersededBy": {
+            "changeId": "42d7c9da-c1dd-4feb-b0c2-7f055a77201d",
+            "approvedAt": "2026-03-24T14:23:48.153816+00:00",
+            "summary": "general grammar edits",
+            "approvedValue": "The Pharisees gathered together and said unto one another, “What can we do?"
+          }
+        },
+        {
+          "path": "[6].hours[0].sections[6].tables[1].tbodies[0].rows[2].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "This man is performing many miracles and supernatural acts.",
+          "currentValue": "This Man is performing many miracles and supernatural acts.",
+          "supersededBy": {
+            "changeId": "1aa12d74-d183-4a90-8bb5-26eb2950c588",
+            "approvedAt": "2026-03-24T14:41:48.243801+00:00",
+            "summary": "additional grammar",
+            "approvedValue": "This Man is performing many miracles and supernatural acts."
+          }
+        },
+        {
+          "path": "[6].hours[0].sections[6].tables[1].tbodies[0].rows[3].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "If we leave him alone, all the people will believe in him and then the Romans will replace us.”",
+          "currentValue": "If we leave Him alone, everyone will believe in Him and then the Romans will replace us.”",
+          "supersededBy": {
+            "changeId": "1aa12d74-d183-4a90-8bb5-26eb2950c588",
+            "approvedAt": "2026-03-24T14:41:48.243801+00:00",
+            "summary": "additional grammar",
+            "approvedValue": "If we leave Him alone, everyone will believe in Him and then the Romans will replace us.”"
+          }
+        },
+        {
+          "path": "[6].hours[0].sections[6].tables[1].tbodies[0].rows[4].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "One of them who is Caiaphas, the chief priest of the Jews said, “ It is necessary for you that one man should die for the people and that the whole nation should not perish.”",
+          "currentValue": "One of them who was Caiaphas, the chief priest of the Jews said, “It is expedient for you that one man should die for the people and that the whole nation should not perish.”",
+          "supersededBy": {
+            "changeId": "a3878069-e9c9-4e63-8d87-02fd1015a6da",
+            "approvedAt": "2026-03-24T14:40:13.711654+00:00",
+            "summary": "additional grammar",
+            "approvedValue": "One of them who was Caiaphas, the chief priest of the Jews said, “It is expedient for you that one man should die for the people and that the whole nation should not perish.”"
+          }
+        },
+        {
+          "path": "[6].hours[0].sections[6].tables[1].tbodies[0].rows[6].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "Jesus went to a place in the wilderness and stayed there with his disciples.",
+          "currentValue": "Jesus went to a place in the wilderness and stayed there with His disciples.",
+          "supersededBy": {
+            "changeId": "1aa12d74-d183-4a90-8bb5-26eb2950c588",
+            "approvedAt": "2026-03-24T14:41:48.243801+00:00",
+            "summary": "additional grammar",
+            "approvedValue": "Jesus went to a place in the wilderness and stayed there with His disciples."
+          }
+        },
+        {
+          "path": "[6].hours[0].sections[6].tables[1].tbodies[0].rows[9].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "For the ox knows its owner and the donkey its master, but Israel does not know that I am his creator.",
+          "currentValue": "For the ox knows its owner and the donkey its master, but Israel does not know that I am his creator.\"",
+          "supersededBy": {
+            "changeId": "a3878069-e9c9-4e63-8d87-02fd1015a6da",
+            "approvedAt": "2026-03-24T14:40:13.711654+00:00",
+            "summary": "additional grammar",
+            "approvedValue": "For the ox knows its owner and the donkey its master, but Israel does not know that I am his creator.\""
+          }
+        },
+        {
+          "path": "[6].hours[0].sections[6].tables[1].tbodies[0].rows[10].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "Therefore, they shall be with their descendents in Hell.",
+          "currentValue": "Therefore, they shall be with their descendants in Hell.",
+          "supersededBy": {
+            "changeId": "a3878069-e9c9-4e63-8d87-02fd1015a6da",
+            "approvedAt": "2026-03-24T14:40:13.711654+00:00",
+            "summary": "additional grammar",
+            "approvedValue": "Therefore, they shall be with their descendants in Hell."
+          }
+        },
+        {
+          "path": "[6].hours[1].sections[6].tables[1].tbodies[0].rows[1].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "When the feast of the unleavened bread, which is the Passover of the Jews was near, the scribes and the chief priests sought a way to kill Jesus.",
+          "currentValue": "When the feast of the unleavened bread, which is the Passover of the Jews, was near, the scribes and the chief priests sought how to kill Jesus.",
+          "supersededBy": {
+            "changeId": "0ca7b85d-694c-4d49-b46e-f01ce3da4a41",
+            "approvedAt": "2026-03-24T14:24:18.408192+00:00",
+            "summary": "general grammar edits",
+            "approvedValue": "When the feast of the unleavened bread, which is the Passover of the Jews, was near, the scribes and the chief priests sought how to kill Jesus."
+          }
+        },
+        {
+          "path": "[6].hours[1].sections[6].tables[1].tbodies[0].rows[3].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "But Satan found himself a place in the heart of his companion Judas Iscariot who was counted among the disciples but was Satan as the Lord called him.",
+          "currentValue": "But Satan found himself a place in the heart of his companion Judas Iscariot, who was counted among the disciples but was Satan as the Lord called him.",
+          "supersededBy": {
+            "changeId": "0ca7b85d-694c-4d49-b46e-f01ce3da4a41",
+            "approvedAt": "2026-03-24T14:24:18.408192+00:00",
+            "summary": "general grammar edits",
+            "approvedValue": "But Satan found himself a place in the heart of his companion Judas Iscariot, who was counted among the disciples but was Satan as the Lord called him."
+          }
+        },
+        {
+          "path": "[6].hours[2].sections[6].tables[1].tbodies[0].rows[2].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "They made a feast for him at the residence of Mary and Martha her sister.",
+          "currentValue": "They made a feast for Him at the residence of Mary and Martha her sister.",
+          "supersededBy": {
+            "changeId": "ae13b130-0a51-4da7-bf30-14e6e6026735",
+            "approvedAt": "2026-03-24T14:39:48.186701+00:00",
+            "summary": "additional grammar",
+            "approvedValue": "They made a feast for Him at the residence of Mary and Martha her sister."
+          }
+        },
+        {
+          "path": "[6].hours[2].sections[6].tables[1].tbodies[0].rows[4].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "Martha was serving them and Lazarus was sitting with him.",
+          "currentValue": "Martha was serving them and Lazarus was sitting with Him.",
+          "supersededBy": {
+            "changeId": "ae13b130-0a51-4da7-bf30-14e6e6026735",
+            "approvedAt": "2026-03-24T14:39:48.186701+00:00",
+            "summary": "additional grammar",
+            "approvedValue": "Martha was serving them and Lazarus was sitting with Him."
+          }
+        },
+        {
+          "path": "[6].hours[2].sections[6].tables[1].tbodies[0].rows[5].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "Mary then brought forth a pound of expensive fragrant oil and she anointed his feet and wiped them with her hair.",
+          "currentValue": "Mary then brought forth a pound of expensive fragrant oil, and she anointed His feet and wiped them with her hair.",
+          "supersededBy": {
+            "changeId": "b81ffb53-c5b9-4720-a6a0-16d3b68aa228",
+            "approvedAt": "2026-03-24T14:38:43.372677+00:00",
+            "summary": "general grammar",
+            "approvedValue": "Mary then brought forth a pound of expensive fragrant oil, and she anointed His feet and wiped them with her hair."
+          }
+        },
+        {
+          "path": "[6].hours[2].sections[6].tables[1].tbodies[0].rows[7].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "He asked cunningly while his heart full of bitterness, deceit and hypocrisy,",
+          "currentValue": "He asked cunningly while his heart was full of bitterness, deceit, and hypocrisy,",
+          "supersededBy": {
+            "changeId": "db846e2a-07ea-40c1-a699-c92316786ec9",
+            "approvedAt": "2026-03-24T14:24:45.108609+00:00",
+            "summary": "general grammar edits",
+            "approvedValue": "He asked cunningly while his heart was full of bitterness, deceit, and hypocrisy,"
+          }
+        },
+        {
+          "path": "[6].hours[2].sections[6].tables[1].tbodies[0].rows[8].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "“Would it not have been better if this oil would have been sold for three hundred Denarii and given to the poor?",
+          "currentValue": "“Would it not have been better if this oil would have been sold for three hundred denarii and given to the poor?\"",
+          "supersededBy": {
+            "changeId": "db846e2a-07ea-40c1-a699-c92316786ec9",
+            "approvedAt": "2026-03-24T14:24:45.108609+00:00",
+            "summary": "general grammar edits",
+            "approvedValue": "“Would it not have been better if this oil would have been sold for three hundred denarii and given to the poor?\""
+          }
+        },
+        {
+          "path": "[6].hours[2].sections[6].tables[1].tbodies[0].rows[13].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "Let us come close to the Lord, run our tears down his feet and ask him for his forgiveness according to his abundant mercy.",
+          "currentValue": "Let us come close to the Lord, run our tears down His feet, and ask Him for His forgiveness according to His abundant mercy.",
+          "supersededBy": {
+            "changeId": "b81ffb53-c5b9-4720-a6a0-16d3b68aa228",
+            "approvedAt": "2026-03-24T14:38:43.372677+00:00",
+            "summary": "general grammar",
+            "approvedValue": "Let us come close to the Lord, run our tears down His feet, and ask Him for His forgiveness according to His abundant mercy."
+          }
+        },
+        {
+          "path": "[6].hours[3].sections[6].tables[1].tbodies[0].rows[2].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "For Abraham the great patriarch the father of all nations fathomed in great faith that God the Word shall be incarnated from his seed.",
+          "currentValue": "For Abraham the great patriarch, the father of all nations, fathomed in great faith that God the Word shall be incarnated from his seed.",
+          "supersededBy": {
+            "changeId": "a18ad493-a48a-4c3a-9b1f-95150cb5e665",
+            "approvedAt": "2026-03-24T14:25:34.426774+00:00",
+            "summary": "general grammar edits",
+            "approvedValue": "For Abraham the great patriarch, the father of all nations, fathomed in great faith that God the Word shall be incarnated from his seed."
+          }
+        },
+        {
+          "path": "[6].hours[3].sections[6].tables[1].tbodies[0].rows[3].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "When he saw that his days on earth were decreasing and that God had blessed him,",
+          "currentValue": "When he saw that his days on earth were numbered and that God had blessed him,",
+          "supersededBy": {
+            "changeId": "a35d3a36-b49b-4c3a-b2d6-b7f113969304",
+            "approvedAt": "2026-03-24T14:40:32.395355+00:00",
+            "summary": "additional grammar",
+            "approvedValue": "When he saw that his days on earth were numbered and that God had blessed him,"
+          }
+        },
+        {
+          "path": "[6].hours[3].sections[6].tables[1].tbodies[0].rows[5].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "“Put your hand under my thigh because I will ask you to swear by the Lord of heavens that you will not betroth for my son Isaac a wife from this land on which I dwell.",
+          "currentValue": "“Put your hand under my thigh, because I will ask you to swear by the Lord of heavens that you will not betroth for my son Isaac a wife from this land on which I dwell.",
+          "supersededBy": {
+            "changeId": "a35d3a36-b49b-4c3a-b2d6-b7f113969304",
+            "approvedAt": "2026-03-24T14:40:32.395355+00:00",
+            "summary": "additional grammar",
+            "approvedValue": "“Put your hand under my thigh, because I will ask you to swear by the Lord of heavens that you will not betroth for my son Isaac a wife from this land on which I dwell."
+          }
+        },
+        {
+          "path": "[6].hours[3].sections[6].tables[1].tbodies[0].rows[7].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "Be diligent regarding this matter. “The servant asked prudently, Master what if the woman refused to come with me to this land?",
+          "currentValue": "Be diligent regarding this matter.\" The servant asked prudently, \"Master what if the woman refused to come with me to this land?",
+          "supersededBy": {
+            "changeId": "a18ad493-a48a-4c3a-9b1f-95150cb5e665",
+            "approvedAt": "2026-03-24T14:25:34.426774+00:00",
+            "summary": "general grammar edits",
+            "approvedValue": "Be diligent regarding this matter.\" The servant asked prudently, \"Master what if the woman refused to come with me to this land?"
+          }
+        },
+        {
+          "path": "[6].hours[3].sections[6].tables[1].tbodies[0].rows[8].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "Would you rather see me come back with your son Isaac and serve him until I can bring her back?",
+          "currentValue": "Would you rather see me come back with your son Isaac and serve him until I can bring her back?\"",
+          "supersededBy": {
+            "changeId": "a18ad493-a48a-4c3a-9b1f-95150cb5e665",
+            "approvedAt": "2026-03-24T14:25:34.426774+00:00",
+            "summary": "general grammar edits",
+            "approvedValue": "Would you rather see me come back with your son Isaac and serve him until I can bring her back?\""
+          }
+        },
+        {
+          "path": "[6].hours[3].sections[6].tables[1].tbodies[0].rows[9].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "Abraham said, “be careful not to do that, if she does not come with you then you are innocent.”",
+          "currentValue": "Abraham said, “Be careful not to do that, if she does not come with you then you are innocent.”",
+          "supersededBy": {
+            "changeId": "a18ad493-a48a-4c3a-9b1f-95150cb5e665",
+            "approvedAt": "2026-03-24T14:25:34.426774+00:00",
+            "summary": "general grammar edits",
+            "approvedValue": "Abraham said, “Be careful not to do that, if she does not come with you then you are innocent.”"
+          }
+        },
+        {
+          "path": "[6].hours[3].sections[6].tables[1].tbodies[0].rows[10].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "The servant put his hand (under his master’s thigh) and swore to him to keep his promise.",
+          "currentValue": "The servant put his hand under his master’s thigh and swore to him to keep his promise.",
+          "supersededBy": {
+            "changeId": "a18ad493-a48a-4c3a-9b1f-95150cb5e665",
+            "approvedAt": "2026-03-24T14:25:34.426774+00:00",
+            "summary": "general grammar edits",
+            "approvedValue": "The servant put his hand under his master’s thigh and swore to him to keep his promise."
+          }
+        },
+        {
+          "path": "[6].hours[4].sections[6].tables[1].tbodies[0].rows[3].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "The Savior said, “Now is my soul troubled, and what shall I say?",
+          "currentValue": "The Savior said, “Now my soul is troubled, and what shall I say?",
+          "supersededBy": {
+            "changeId": "77f2af36-4001-488f-aaea-f35e2be6dfee",
+            "approvedAt": "2026-03-24T14:39:25.877380+00:00",
+            "summary": "general grammar",
+            "approvedValue": "The Savior said, “Now my soul is troubled, and what shall I say?"
+          }
+        },
+        {
+          "path": "[7].hours[0].sections[6].tables[1].tbodies[0].rows[1].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "Christ our Lord, Master and King reveals His divinity and dominion;",
+          "currentValue": "Christ our Lord, Master and King, reveals His divinity and dominion;",
+          "supersededBy": {
+            "changeId": "21bc8f06-2f5a-4be7-a20d-8ab0bc767350",
+            "approvedAt": "2026-03-24T14:36:27.250937+00:00",
+            "summary": "general grammar edits",
+            "approvedValue": "Christ our Lord, Master and King, reveals His divinity and dominion;"
+          }
+        },
+        {
+          "path": "[7].hours[0].sections[6].tables[1].tbodies[0].rows[4].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "No one takes it away from Me, but I lay down of Myself. I have power to lay down, and I have power to take it again.”",
+          "currentValue": "No one takes it away from Me, but I lay it down of Myself. I have power to lay it down, and I have power to take it again.”",
+          "supersededBy": {
+            "changeId": "21bc8f06-2f5a-4be7-a20d-8ab0bc767350",
+            "approvedAt": "2026-03-24T14:36:27.250937+00:00",
+            "summary": "general grammar edits",
+            "approvedValue": "No one takes it away from Me, but I lay it down of Myself. I have power to lay it down, and I have power to take it again.”"
+          }
+        },
+        {
+          "path": "[7].hours[1].sections[6].tables[1].tbodies[0].rows[5].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "Let us be zealous, over her virtues and love the Lord with all our hearts",
+          "currentValue": "Let us be zealous over her virtues and love the Lord with all our hearts",
+          "supersededBy": {
+            "changeId": "563dd131-6da8-403a-a3e4-6cc0155449c3",
+            "approvedAt": "2026-03-24T14:41:19.043719+00:00",
+            "summary": "additional grammar",
+            "approvedValue": "Let us be zealous over her virtues and love the Lord with all our hearts"
+          }
+        },
+        {
+          "path": "[7].hours[1].sections[6].tables[1].tbodies[0].rows[8].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "His name will be erased in one generation and he will be denied descendants on earth.",
+          "currentValue": "His name will disappear within one generation and he will be denied descendants on earth.",
+          "supersededBy": {
+            "changeId": "49ae17eb-23c1-418e-a1e9-69ed9c3e3569",
+            "approvedAt": "2026-03-24T14:37:01.297086+00:00",
+            "summary": "general grammar",
+            "approvedValue": "His name will disappear within one generation and he will be denied descendants on earth."
+          }
+        },
+        {
+          "path": "[7].hours[2].sections[6].tables[1].tbodies[0].rows[1].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "Isaiah the prophet cries unto the sons of Israel, by the Spirit, for their foolishness.",
+          "currentValue": "Isaiah the prophet reprimands the sons of Israel, by the Spirit, for their foolishness.",
+          "supersededBy": {
+            "changeId": "c06462e3-8ed6-4d64-b06b-e055d832cf6f",
+            "approvedAt": "2026-03-24T14:38:25.017846+00:00",
+            "summary": "general grammar",
+            "approvedValue": "Isaiah the prophet reprimands the sons of Israel, by the Spirit, for their foolishness."
+          }
+        },
+        {
+          "path": "[7].hours[2].sections[6].tables[1].tbodies[0].rows[2].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "He rebuked them because of the vileness of their deeds and their sins when Emmanuel performed His miracles.",
+          "currentValue": "He rebuked them because of the vileness of their deeds and their sins. They rejected the miracles that Emmanuel performed.",
+          "supersededBy": {
+            "changeId": "c06462e3-8ed6-4d64-b06b-e055d832cf6f",
+            "approvedAt": "2026-03-24T14:38:25.017846+00:00",
+            "summary": "general grammar",
+            "approvedValue": "He rebuked them because of the vileness of their deeds and their sins. They rejected the miracles that Emmanuel performed."
+          }
+        },
+        {
+          "path": "[7].hours[2].sections[6].tables[1].tbodies[0].rows[11].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "Listen O Israel, no one else will save you from God’s wrath other than Jesus the Savior of the world who made the two into one through His incarnation.",
+          "currentValue": "Listen O Israel, no one will save you from God’s wrath other than Jesus the Savior of the world who made the two into one through His incarnation.",
+          "supersededBy": {
+            "changeId": "c06462e3-8ed6-4d64-b06b-e055d832cf6f",
+            "approvedAt": "2026-03-24T14:38:25.017846+00:00",
+            "summary": "general grammar",
+            "approvedValue": "Listen O Israel, no one will save you from God’s wrath other than Jesus the Savior of the world who made the two into one through His incarnation."
+          }
+        },
+        {
+          "path": "[7].hours[2].sections[6].tables[1].tbodies[0].rows[12].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "The Light has come to His own and His own loved the darkness.",
+          "currentValue": "The Light has come to His own, and His own loved the darkness.",
+          "supersededBy": {
+            "changeId": "a24c6e48-4e61-4014-99f4-6187dc03038c",
+            "approvedAt": "2026-03-24T14:41:32.032104+00:00",
+            "summary": "additional grammar",
+            "approvedValue": "The Light has come to His own, and His own loved the darkness."
+          }
+        },
+        {
+          "path": "[7].hours[2].sections[6].tables[1].tbodies[0].rows[13].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "The gentiles accepted His commandments and became His nation everywhere.",
+          "currentValue": "The Gentiles accepted His commandments and became His nation everywhere.",
+          "supersededBy": {
+            "changeId": "c06462e3-8ed6-4d64-b06b-e055d832cf6f",
+            "approvedAt": "2026-03-24T14:38:25.017846+00:00",
+            "summary": "general grammar",
+            "approvedValue": "The Gentiles accepted His commandments and became His nation everywhere."
+          }
+        }
+      ]
+    },
+    {
+      "id": "1d08147e-6f3a-4dcc-870e-f43b4f5d5ae1",
+      "approvedAt": "2026-03-24T14:08:29.247625+00:00",
+      "approvedBy": "minaazer",
+      "requestedBy": "essamishak",
+      "summary": "تصحيح لغوي والتشكيل",
+      "notReflectedPathCount": 6,
+      "reasons": [
+        {
+          "path": "[1].hours[3].sections[6].tables[1].tbodies[0].rows[1].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "لِمَا فرغ اَلرَّب مِن أن يَسأَل تلاميذه فِي طريقِ قَيصرِيةِ فِيلبْسْ.",
+          "currentValue": "لما فرغ الرب من سؤال تلاميذه فى الطريق إلى قيصرية فيلبس،",
+          "supersededBy": {
+            "changeId": "15bf6c1f-b6e9-4630-989e-95f54f36ae73",
+            "approvedAt": "2026-03-24T14:18:05.128713+00:00",
+            "summary": "العظة - تصحيح لغوي والتشكيل",
+            "approvedValue": "لما فرغ الرب من سؤال تلاميذه فى الطريق إلى قيصرية فيلبس،"
+          }
+        },
+        {
+          "path": "[1].hours[3].sections[6].tables[1].tbodies[0].rows[2].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "اِبْتِدَاء يَقُولُ لَهُمْ عَلَانِيَةَ مِنْ أَجْلِ اَلَّذِي سَيَحْدُثُ لَهُ فِي أُورْشَلِيم.",
+          "currentValue": "ابتدأ يقول لهم علانية من أجل الذى سيحصل له فى أورشليم،",
+          "supersededBy": {
+            "changeId": "15bf6c1f-b6e9-4630-989e-95f54f36ae73",
+            "approvedAt": "2026-03-24T14:18:05.128713+00:00",
+            "summary": "العظة - تصحيح لغوي والتشكيل",
+            "approvedValue": "ابتدأ يقول لهم علانية من أجل الذى سيحصل له فى أورشليم،"
+          }
+        },
+        {
+          "path": "[1].hours[3].sections[6].tables[1].tbodies[0].rows[3].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "إِنَّهُ يَنْبَغِي أَنْ يُكْمُلَ اَلْمَكْتُوبُ أَنَّ اِبْنَ اَلْإِنْسَانِ يَنَالُ آلَامًا كَثِيرَةً وِيرِذلْ مِنْ اَلْكَتَبَةِ وَمَشَايِخِ اَلْيَهُودِ،",
+          "currentValue": "أنه ينبغى أن يكمل المكتوب أن ابن الإنسان ينال آلاماً كثيرة، ويرذل من الكتبة وشيوخ اليهود،",
+          "supersededBy": {
+            "changeId": "15bf6c1f-b6e9-4630-989e-95f54f36ae73",
+            "approvedAt": "2026-03-24T14:18:05.128713+00:00",
+            "summary": "العظة - تصحيح لغوي والتشكيل",
+            "approvedValue": "أنه ينبغى أن يكمل المكتوب أن ابن الإنسان ينال آلاماً كثيرة، ويرذل من الكتبة وشيوخ اليهود،"
+          }
+        },
+        {
+          "path": "[1].hours[3].sections[6].tables[1].tbodies[0].rows[4].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَمِنْ بَعْدُ اَلْآلَامِ اَلَّتِي سَيَقْبَلُهَا يَقُومُ مِنْ اَلْأَمْوَاتِ فِي اَلْيَوْمِ اَلثَّالِثِ. هَذَا هُوَ اَلْحَجْرُ اَلَّذِي رَذْلَهْ اَلْبَنَّاءُونَ",
+          "currentValue": "ومن بعد الآلام التى سيقبلها يقوم من الأموات فى اليوم الثالث. هذا هو الحجر الذى رذله البناؤون",
+          "supersededBy": {
+            "changeId": "15bf6c1f-b6e9-4630-989e-95f54f36ae73",
+            "approvedAt": "2026-03-24T14:18:05.128713+00:00",
+            "summary": "العظة - تصحيح لغوي والتشكيل",
+            "approvedValue": "ومن بعد الآلام التى سيقبلها يقوم من الأموات فى اليوم الثالث. هذا هو الحجر الذى رذله البناؤون"
+          }
+        },
+        {
+          "path": "[1].hours[3].sections[6].tables[1].tbodies[0].rows[5].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "كَقَوْل اَلْكُتُبِ، فَسَيَهْبِطُ عَلَيْهِمْ غَضَبُهُ اَلْعَظِيمُ، وَيُهَشَّمُهُمْ اَلرَّجَزُ، وَيَصُبَّ اَلْخِزْيُ عَلَى وُجُوهِهِمْ، لِأَنَّهُمْ جَازُوا اَلْإِحْسَانُ بِالْإِسَاءَةِ.",
+          "currentValue": "كقول الكتب، فسيهبط عليهم غضبه العظيم، ويهشمهم الرجز، ويصب الخزى على وجوههم، لأنهم جازوا الإحسان بالإساءة.",
+          "supersededBy": {
+            "changeId": "15bf6c1f-b6e9-4630-989e-95f54f36ae73",
+            "approvedAt": "2026-03-24T14:18:05.128713+00:00",
+            "summary": "العظة - تصحيح لغوي والتشكيل",
+            "approvedValue": "كقول الكتب، فسيهبط عليهم غضبه العظيم، ويهشمهم الرجز، ويصب الخزى على وجوههم، لأنهم جازوا الإحسان بالإساءة."
+          }
+        },
+        {
+          "path": "[1].hours[3].sections[6].tables[1].tbodies[0].rows[6].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "أَمَّا اَلَّذِينَ يَسْمَعُونَ وَيُؤْمِنُونَ بِهِ فَسَيُعْطِيهِمْ فَرَحًا لَا يَفْنَى إِلَى اَلْأَبَدِ.",
+          "currentValue": "أما الذين يسمعون ويؤمنون به فسيعطيهم فرحاً لا يفنى إلى الأبد.",
+          "supersededBy": {
+            "changeId": "15bf6c1f-b6e9-4630-989e-95f54f36ae73",
+            "approvedAt": "2026-03-24T14:18:05.128713+00:00",
+            "summary": "العظة - تصحيح لغوي والتشكيل",
+            "approvedValue": "أما الذين يسمعون ويؤمنون به فسيعطيهم فرحاً لا يفنى إلى الأبد."
+          }
+        }
+      ]
+    },
+    {
+      "id": "553f1a1c-2257-4e44-8a59-2c54c5900e1d",
+      "approvedAt": "2026-03-24T14:08:37.123395+00:00",
+      "approvedBy": "minaazer",
+      "requestedBy": "essamishak",
+      "summary": "تصحيح لغوي والتشكيل",
+      "notReflectedPathCount": 21,
+      "reasons": [
+        {
+          "path": "[2].hours[0].sections[2].tables[3].tbodies[0].rows[1].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "يا اخوة، إن كنا نريد الآن أن نفلت من يدى عقاب الله. ونجد رحمة أمامه.",
+          "currentValue": "يَا إِخْوَةً، إِنَّ كُنَّا نُرِيدُ اَلْآنُ أَنْ نُفْلِتَ مِنْ يَدَيّ عِقَابَ اَللَّهِ وَنَجِدُ رَحْمَةً أَمَامَهُ.",
+          "supersededBy": {
+            "changeId": "15bf6c1f-b6e9-4630-989e-95f54f36ae73",
+            "approvedAt": "2026-03-24T14:18:05.128713+00:00",
+            "summary": "العظة - تصحيح لغوي والتشكيل",
+            "approvedValue": "يَا إِخْوَةً، إِنَّ كُنَّا نُرِيدُ اَلْآنُ أَنْ نُفْلِتَ مِنْ يَدَيّ عِقَابَ اَللَّهِ وَنَجِدُ رَحْمَةً أَمَامَهُ."
+          }
+        },
+        {
+          "path": "[2].hours[0].sections[2].tables[3].tbodies[0].rows[2].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "فلنجلس بالعشاء كل يوم منفردين وحدنا عند كمال النهار.",
+          "currentValue": "فَلِنَجْلِس بِالْعَشَاءِ كُلَّ يَوْمٍ مُنْفَرِدِينَ وَحْدَنَا عِنْدَ كَمَالِ اَلنَّهَارِ.",
+          "supersededBy": {
+            "changeId": "15bf6c1f-b6e9-4630-989e-95f54f36ae73",
+            "approvedAt": "2026-03-24T14:18:05.128713+00:00",
+            "summary": "العظة - تصحيح لغوي والتشكيل",
+            "approvedValue": "فَلِنَجْلِس بِالْعَشَاءِ كُلَّ يَوْمٍ مُنْفَرِدِينَ وَحْدَنَا عِنْدَ كَمَالِ اَلنَّهَارِ."
+          }
+        },
+        {
+          "path": "[2].hours[0].sections[2].tables[3].tbodies[0].rows[3].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "ونفتش ذواتنا عما قدمناه للملاك الذى يخدمنا (الملازم لنا) ليصعده إلى الرب.",
+          "currentValue": "وَنُفَتِّشُ ذَوَاتِنَا عَمَّا قَدَّمْنَاهُ لِلْمَلَاكِ اَلَّذِي يَخْدِمُنَا (اَلْمُلَازِمُ لَنَا) لِيَصْعَدهُ إِلَى اَلرَّبِّ.",
+          "supersededBy": {
+            "changeId": "15bf6c1f-b6e9-4630-989e-95f54f36ae73",
+            "approvedAt": "2026-03-24T14:18:05.128713+00:00",
+            "summary": "العظة - تصحيح لغوي والتشكيل",
+            "approvedValue": "وَنُفَتِّشُ ذَوَاتِنَا عَمَّا قَدَّمْنَاهُ لِلْمَلَاكِ اَلَّذِي يَخْدِمُنَا (اَلْمُلَازِمُ لَنَا) لِيَصْعَدهُ إِلَى اَلرَّبِّ."
+          }
+        },
+        {
+          "path": "[2].hours[0].sections[2].tables[3].tbodies[0].rows[4].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وأيضاً إذا انقضى الليل وطلع النهار (وأشرق النور) نفتش ذواتنا وحدنا ونعلم ما الذى قدمناه للملاك الموكل بنا ليصعده إلى الله.",
+          "currentValue": "وَأَيْضًا إِذَا اِنْقَضَى اَللَّيْلُ وَطَلَعَ اَلنَّهَارُ (وَأَشْرَقَ اَلنُّورُ) نُفَتِّشُ ذَوَاتُنَا وَحْدَنَا وَنَعْلَم مَا اَلَّذِي قَدَّمْنَاهُ لِلْمَلَاكِ اَلْمُوَكَّلِ بِنَا لِيَصْعَدَهُ إِلَى اَللَّهِ.",
+          "supersededBy": {
+            "changeId": "15bf6c1f-b6e9-4630-989e-95f54f36ae73",
+            "approvedAt": "2026-03-24T14:18:05.128713+00:00",
+            "summary": "العظة - تصحيح لغوي والتشكيل",
+            "approvedValue": "وَأَيْضًا إِذَا اِنْقَضَى اَللَّيْلُ وَطَلَعَ اَلنَّهَارُ (وَأَشْرَقَ اَلنُّورُ) نُفَتِّشُ ذَوَاتُنَا وَحْدَنَا وَنَعْلَم مَا اَلَّذِي قَدَّمْنَاهُ لِلْمَلَاكِ اَلْمُوَكَّلِ بِنَا لِيَصْعَدَهُ إِلَى اَللَّهِ."
+          }
+        },
+        {
+          "path": "[2].hours[0].sections[2].tables[3].tbodies[0].rows[5].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "ولا نشك البتة لان كل إنسان ذكراً كان أو أنثى صغيراً أو كبيراً.",
+          "currentValue": "وَلَا نَشُكُّ- اَلْبَتَّةَ- لِأَنَّ كُلَّ إِنْسَانِ ذَكَرًا كَانَ أَوْ أُنْثَى صَغِيرًا أَوْ كَبِيرًا،",
+          "supersededBy": {
+            "changeId": "15bf6c1f-b6e9-4630-989e-95f54f36ae73",
+            "approvedAt": "2026-03-24T14:18:05.128713+00:00",
+            "summary": "العظة - تصحيح لغوي والتشكيل",
+            "approvedValue": "وَلَا نَشُكُّ- اَلْبَتَّةَ- لِأَنَّ كُلَّ إِنْسَانِ ذَكَرًا كَانَ أَوْ أُنْثَى صَغِيرًا أَوْ كَبِيرًا،"
+          }
+        },
+        {
+          "path": "[2].hours[0].sections[2].tables[3].tbodies[0].rows[6].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "قد اعتمد باسم الآب والابن والروح القدس قد جعل الله له ملاكاً موكلاً به إلى يوم وفاته.",
+          "currentValue": "قَدْ اِعْتَمَدَ بِاسْمِ اَلْأَبِ وَالِابْنُ وَالرُّوحِ اَلْقُدْسَ قَدْ جَعَلَ اَللَّهُ لَهُ مَلَاكًا مُوَكَّلاً بِهِ إِلَى يَوْمِ وَفَاتِهِ،",
+          "supersededBy": {
+            "changeId": "15bf6c1f-b6e9-4630-989e-95f54f36ae73",
+            "approvedAt": "2026-03-24T14:18:05.128713+00:00",
+            "summary": "العظة - تصحيح لغوي والتشكيل",
+            "approvedValue": "قَدْ اِعْتَمَدَ بِاسْمِ اَلْأَبِ وَالِابْنُ وَالرُّوحِ اَلْقُدْسَ قَدْ جَعَلَ اَللَّهُ لَهُ مَلَاكًا مُوَكَّلاً بِهِ إِلَى يَوْمِ وَفَاتِهِ،"
+          }
+        },
+        {
+          "path": "[2].hours[0].sections[2].tables[3].tbodies[0].rows[7].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وليصعد إليه كل يوم أعمال الإنسان الموكل به (الليلية والنهارية)",
+          "currentValue": "وَلْيُصَعَّدْ إِلَيْهِ كُلُّ يَوْمِ أَعْمَالِ اَلْإِنْسَانِ اَلْمُوَكَّلِ بِهِ اَللَّيْلِيَّةَ وَالنَّهَارِيَّةِ",
+          "supersededBy": {
+            "changeId": "15bf6c1f-b6e9-4630-989e-95f54f36ae73",
+            "approvedAt": "2026-03-24T14:18:05.128713+00:00",
+            "summary": "العظة - تصحيح لغوي والتشكيل",
+            "approvedValue": "وَلْيُصَعَّدْ إِلَيْهِ كُلُّ يَوْمِ أَعْمَالِ اَلْإِنْسَانِ اَلْمُوَكَّلِ بِهِ اَللَّيْلِيَّةَ وَالنَّهَارِيَّةِ"
+          }
+        },
+        {
+          "path": "[2].hours[0].sections[2].tables[3].tbodies[0].rows[8].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "ليس لان الله غير عارف بأعمالنا. حاشا. بل هو عارف بها أكثر.",
+          "currentValue": "لَيْسَ لِأَنَّ اَللَّهَ غَيَّرَ عَارِفٍ بِأَعْمَالِنَا حَاشَا. بَلْ هُوَ عَارِفٌ بِهَا أَكْثَرُ.",
+          "supersededBy": {
+            "changeId": "15bf6c1f-b6e9-4630-989e-95f54f36ae73",
+            "approvedAt": "2026-03-24T14:18:05.128713+00:00",
+            "summary": "العظة - تصحيح لغوي والتشكيل",
+            "approvedValue": "لَيْسَ لِأَنَّ اَللَّهَ غَيَّرَ عَارِفٍ بِأَعْمَالِنَا حَاشَا. بَلْ هُوَ عَارِفٌ بِهَا أَكْثَرُ."
+          }
+        },
+        {
+          "path": "[2].hours[0].sections[2].tables[3].tbodies[0].rows[9].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "كما هو مكتوب أن عينى الرب ناظرة كل حين فى كل مكان على صانعى الشر وفاعلى الخير",
+          "currentValue": "كَمَا هُوَ مَكْتُوبٌ أَنَّ عَيْنِي اَلرَّبَّ نَاظِرَةَ كُلِّ حِينِ فِي كُلِّ مَكَانٍ عَلَى صَانِعِي اَلشَّرِّ وَفَاعِلِي اَلْخَيْرِ،",
+          "supersededBy": {
+            "changeId": "15bf6c1f-b6e9-4630-989e-95f54f36ae73",
+            "approvedAt": "2026-03-24T14:18:05.128713+00:00",
+            "summary": "العظة - تصحيح لغوي والتشكيل",
+            "approvedValue": "كَمَا هُوَ مَكْتُوبٌ أَنَّ عَيْنِي اَلرَّبَّ نَاظِرَةَ كُلِّ حِينِ فِي كُلِّ مَكَانٍ عَلَى صَانِعِي اَلشَّرِّ وَفَاعِلِي اَلْخَيْرِ،"
+          }
+        },
+        {
+          "path": "[2].hours[0].sections[2].tables[3].tbodies[0].rows[10].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "انما الملائكة هم خدام قد أقامهم خالق الكل. من أجل المزمعين لوراثة الخلاص.",
+          "currentValue": "إِنَّمَا اَلْمَلَائِكَةُ هُمْ خَدَّامْ قَدْ أَقَامَهُمْ خَالِق اَلْكُلِّ مِنْ أَجْلِ اَلْمُزْمِعِينَ أَنْ يَرِثُوا اَلْخَلَاصُ.",
+          "supersededBy": {
+            "changeId": "15bf6c1f-b6e9-4630-989e-95f54f36ae73",
+            "approvedAt": "2026-03-24T14:18:05.128713+00:00",
+            "summary": "العظة - تصحيح لغوي والتشكيل",
+            "approvedValue": "إِنَّمَا اَلْمَلَائِكَةُ هُمْ خَدَّامْ قَدْ أَقَامَهُمْ خَالِق اَلْكُلِّ مِنْ أَجْلِ اَلْمُزْمِعِينَ أَنْ يَرِثُوا اَلْخَلَاصُ."
+          }
+        },
+        {
+          "path": "[2].hours[0].sections[6].tables[1].tbodies[0].rows[1].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "فِي اَلْبَدْءِ خَلْقَ اَللَّهِ اَلسَّمَاءِ وَالْأَرْضِ. وَزُيِّنَهُمَا هَكَذَا بِرُوح فِيهِ،",
+          "currentValue": "فى البدء خلق الله السماء والأرض. وزينهما هكذا بروح فيه،",
+          "supersededBy": {
+            "changeId": "91b4ebfb-94dc-4c5d-86f0-9788494799c4",
+            "approvedAt": "2026-03-24T14:18:29.690147+00:00",
+            "summary": "تصحيح لغوي والتشكيل",
+            "approvedValue": "فى البدء خلق الله السماء والأرض. وزينهما هكذا بروح فيه،"
+          }
+        },
+        {
+          "path": "[2].hours[0].sections[6].tables[1].tbodies[0].rows[2].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَبَدَّدَ اَلظُّلْمَةَ وَاخْرُجْ اَلنُّورَ وَفِرَقَ بَيْنَهُمَا بِأَسْمَاءٍ جَدِيدَةٍ،",
+          "currentValue": "وبدد الظلمة واخرج النور، وفرق بينهما بأسماء جديدة،",
+          "supersededBy": {
+            "changeId": "91b4ebfb-94dc-4c5d-86f0-9788494799c4",
+            "approvedAt": "2026-03-24T14:18:29.690147+00:00",
+            "summary": "تصحيح لغوي والتشكيل",
+            "approvedValue": "وبدد الظلمة واخرج النور، وفرق بينهما بأسماء جديدة،"
+          }
+        },
+        {
+          "path": "[2].hours[0].sections[6].tables[1].tbodies[0].rows[3].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَدَعَا اَلنُّورُ نَهَارًا وَدَعَا اَلظُّلْمَةَ لَيْلاً وَفِي ذَلِكَ اَلْيَوْمِ خَلْقَ هَذِهِ جَمِيعُهَا بِحِكْمَةٍ وَفَهْمٍ رَفِيعٍ.",
+          "currentValue": "ودعا النور نهاراً ودعا الظلمة ليلاً. وفى ذلك اليوم خلق هذه جميعها بحكمة وفهم رفيع.",
+          "supersededBy": {
+            "changeId": "91b4ebfb-94dc-4c5d-86f0-9788494799c4",
+            "approvedAt": "2026-03-24T14:18:29.690147+00:00",
+            "summary": "تصحيح لغوي والتشكيل",
+            "approvedValue": "ودعا النور نهاراً ودعا الظلمة ليلاً. وفى ذلك اليوم خلق هذه جميعها بحكمة وفهم رفيع."
+          }
+        },
+        {
+          "path": "[2].hours[0].sections[6].tables[1].tbodies[0].rows[4].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَفِي اَلْيَوْمِ اَلثَّانِي خَلْقَ اَللَّهِ جِلْدَ اَلسَّمَاءِ وَفَصْلٍ بَيْنَ مِيَاهٍ وَمِيَاهٍ،",
+          "currentValue": "وفى اليوم الثانى خلق الله جلد السماء، وفصل بين مياه ومياه،",
+          "supersededBy": {
+            "changeId": "91b4ebfb-94dc-4c5d-86f0-9788494799c4",
+            "approvedAt": "2026-03-24T14:18:29.690147+00:00",
+            "summary": "تصحيح لغوي والتشكيل",
+            "approvedValue": "وفى اليوم الثانى خلق الله جلد السماء، وفصل بين مياه ومياه،"
+          }
+        },
+        {
+          "path": "[2].hours[0].sections[6].tables[1].tbodies[0].rows[5].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَبَعْدُ هَذَا ثَبَّتَ اَللَّهُ اَلْمَاءُ اَلْعُلْوِيُّ وَأَسْمَاهُ سَمَاءً.",
+          "currentValue": "وبعد هذا ثبت الله الماء العلوى وأسماه سماء.",
+          "supersededBy": {
+            "changeId": "91b4ebfb-94dc-4c5d-86f0-9788494799c4",
+            "approvedAt": "2026-03-24T14:18:29.690147+00:00",
+            "summary": "تصحيح لغوي والتشكيل",
+            "approvedValue": "وبعد هذا ثبت الله الماء العلوى وأسماه سماء."
+          }
+        },
+        {
+          "path": "[2].hours[0].sections[6].tables[1].tbodies[0].rows[6].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَفِي اَلْيَوْمِ اَلثَّالِثِ جَمْعَ اَلْمِيَاهِ وَثَبَتَ اَلْأَرْضَ فَوْقَ اَلْمِيَاهِ وَخَلْقِ أَنْوَاعِ اَلشَّجَرِ وَزُرُوعِ اَلْحَقْلِ وَالْعُشْبِ اَلْمَزْرُوعِ اَلْمُثْمِرِ.",
+          "currentValue": "وفى اليوم الثالث جمع المياه وثبت الأرض فوق المياه، وخلق أنواع الشجر ومزروعات الحقل والعشب المزروع المثمر،",
+          "supersededBy": {
+            "changeId": "91b4ebfb-94dc-4c5d-86f0-9788494799c4",
+            "approvedAt": "2026-03-24T14:18:29.690147+00:00",
+            "summary": "تصحيح لغوي والتشكيل",
+            "approvedValue": "وفى اليوم الثالث جمع المياه وثبت الأرض فوق المياه، وخلق أنواع الشجر ومزروعات الحقل والعشب المزروع المثمر،"
+          }
+        },
+        {
+          "path": "[2].hours[0].sections[6].tables[1].tbodies[0].rows[7].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَفِي اَلْيَوْمِ اَلرَّابِعِ خَلْقَ اَلشَّمْسِ وَالْقَمَرِ وَكَثْرَةِ اَلنُّجُومِ.",
+          "currentValue": "وفى اليوم الرابع خلق الشمس والقمر وكثرة النجوم،",
+          "supersededBy": {
+            "changeId": "91b4ebfb-94dc-4c5d-86f0-9788494799c4",
+            "approvedAt": "2026-03-24T14:18:29.690147+00:00",
+            "summary": "تصحيح لغوي والتشكيل",
+            "approvedValue": "وفى اليوم الرابع خلق الشمس والقمر وكثرة النجوم،"
+          }
+        },
+        {
+          "path": "[2].hours[0].sections[6].tables[1].tbodies[0].rows[8].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَفِي اَلْيَوْمِ اَلْخَامِسِ خَلْقَ اَلْهَوَامِّ وَالطُّيُورِ وَالْحِيتَانِ اَلْكِبَارِ وَحَيَوَانَاتِ اَلْحَقْلِ.",
+          "currentValue": "وفى اليوم الخامس خلق الهواء والطيور والحيتان الكبار وحيوانات الحقل.",
+          "supersededBy": {
+            "changeId": "91b4ebfb-94dc-4c5d-86f0-9788494799c4",
+            "approvedAt": "2026-03-24T14:18:29.690147+00:00",
+            "summary": "تصحيح لغوي والتشكيل",
+            "approvedValue": "وفى اليوم الخامس خلق الهواء والطيور والحيتان الكبار وحيوانات الحقل."
+          }
+        },
+        {
+          "path": "[2].hours[0].sections[6].tables[1].tbodies[0].rows[9].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَفِي اَلْيَوْمِ اَلسَّادِسِ خَلْقَ اَللَّهِ اَلْكَائِنِ اَلْحَيِّ اَلْعَظِيمِ آدَمْ أَوَّلَ اَلْبَشَرِ وَمَعَ مُعَيَّنَةٌ لَهُ مِنْ جَسَدِهِ،",
+          "currentValue": "وفى اليوم السادس خلق الله الكائن الحى العظيم الإنسان الأول، مع معينة له من جسده،",
+          "supersededBy": {
+            "changeId": "91b4ebfb-94dc-4c5d-86f0-9788494799c4",
+            "approvedAt": "2026-03-24T14:18:29.690147+00:00",
+            "summary": "تصحيح لغوي والتشكيل",
+            "approvedValue": "وفى اليوم السادس خلق الله الكائن الحى العظيم الإنسان الأول، مع معينة له من جسده،"
+          }
+        },
+        {
+          "path": "[2].hours[0].sections[6].tables[1].tbodies[0].rows[10].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "ذَكَرًا وَأُنْثَى كَالتَّدْبِيرِ هَذَانِ جَعَلَهُمَا مُتَسَلِّطِينَ عَلَى جَمِيعِ أَعْمَالِهِ اَلَّتِي خَلَقَهَا اَلْخَالِقُ.",
+          "currentValue": "ذكراً وانثى كالتدبير. هذان جعلهما متسلطين على جميع أعماله التى خلقها الخالق.",
+          "supersededBy": {
+            "changeId": "91b4ebfb-94dc-4c5d-86f0-9788494799c4",
+            "approvedAt": "2026-03-24T14:18:29.690147+00:00",
+            "summary": "تصحيح لغوي والتشكيل",
+            "approvedValue": "ذكراً وانثى كالتدبير. هذان جعلهما متسلطين على جميع أعماله التى خلقها الخالق."
+          }
+        },
+        {
+          "path": "[2].hours[0].sections[6].tables[1].tbodies[0].rows[11].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَاسْتَرَاحَ فِي اَلْيَوْمِ اَلسَّابِعِ لِأَنَّ فِيهِ أَكْمَلَ جَمِيعُ أَعْمَالِهِ هَذَا هُوَ تَدْبِيرُ اَلْخَالِقِ وَمُؤَسِّسِ كُلِّ اَلْمَوْجُودَاتِ.",
+          "currentValue": "واستراح فى اليوم السابع لأن فيه أكمل جميع أعماله. هذا هو تدبير الخالق ومؤسس كل الموجودات.",
+          "supersededBy": {
+            "changeId": "91b4ebfb-94dc-4c5d-86f0-9788494799c4",
+            "approvedAt": "2026-03-24T14:18:29.690147+00:00",
+            "summary": "تصحيح لغوي والتشكيل",
+            "approvedValue": "واستراح فى اليوم السابع لأن فيه أكمل جميع أعماله. هذا هو تدبير الخالق ومؤسس كل الموجودات."
+          }
+        }
+      ]
+    },
+    {
+      "id": "46b4c3a4-49de-4674-8e7f-777f19036b0b",
+      "approvedAt": "2026-03-24T14:09:01.672948+00:00",
+      "approvedBy": "minaazer",
+      "requestedBy": "essamishak",
+      "summary": "تصحيح لغوي والتشكيل",
+      "notReflectedPathCount": 8,
+      "reasons": [
+        {
+          "path": "[1].hours[2].sections[6].tables[1].tbodies[0].rows[1].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَفِيمَا كان اَلمسِيح إلهُُنَا وتلاميذه صاعدَيْنِ إِلى أُورْشليم دعَا إِلَيه الاثْنَا عشر رسولاٌ تلاميذه القدِّيسون،",
+          "currentValue": "وفيما كان المسيح الهنا وتلاميذه صاعدين إلى أورشليم أتى إليه الاثنا عشر رسولاً، تلاميذه القديسون،",
+          "supersededBy": {
+            "changeId": "15bf6c1f-b6e9-4630-989e-95f54f36ae73",
+            "approvedAt": "2026-03-24T14:18:05.128713+00:00",
+            "summary": "العظة - تصحيح لغوي والتشكيل",
+            "approvedValue": "وفيما كان المسيح الهنا وتلاميذه صاعدين إلى أورشليم أتى إليه الاثنا عشر رسولاً، تلاميذه القديسون،"
+          }
+        },
+        {
+          "path": "[1].hours[2].sections[6].tables[1].tbodies[0].rows[2].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وابْتداء يَقُول لَهُم بِالَّذي سيكوِّن لَه بِسَبب آلامه قائلاً: اِعْلموا أَيهَا الأصْفياءُ الأطْهارُ،",
+          "currentValue": "وابتدأ يتكلم معهم بما سيكون له بسبب آلامه قائلاً: \"اعلموا أيها الاصفياء الأطهار،.",
+          "supersededBy": {
+            "changeId": "15bf6c1f-b6e9-4630-989e-95f54f36ae73",
+            "approvedAt": "2026-03-24T14:18:05.128713+00:00",
+            "summary": "العظة - تصحيح لغوي والتشكيل",
+            "approvedValue": "وابتدأ يتكلم معهم بما سيكون له بسبب آلامه قائلاً: \"اعلموا أيها الاصفياء الأطهار،."
+          }
+        },
+        {
+          "path": "[1].hours[2].sections[6].tables[1].tbodies[0].rows[3].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَهذَا نَحْن صاعدونُ إِلى أُورْشليم وسوْف يَقُوم رُؤَساء كَهنَة اليهود ومشايخهم وكتبتهم معًا على اِبْن الإنْسان،",
+          "currentValue": "هوذا نحن صاعدون إلى أورشليم، وسوف يقوم رؤساء كهنة اليهود وشيوخهم وكتبتهم معا على ابن الإنسان،",
+          "supersededBy": {
+            "changeId": "15bf6c1f-b6e9-4630-989e-95f54f36ae73",
+            "approvedAt": "2026-03-24T14:18:05.128713+00:00",
+            "summary": "العظة - تصحيح لغوي والتشكيل",
+            "approvedValue": "هوذا نحن صاعدون إلى أورشليم، وسوف يقوم رؤساء كهنة اليهود وشيوخهم وكتبتهم معا على ابن الإنسان،"
+          }
+        },
+        {
+          "path": "[1].hours[2].sections[6].tables[1].tbodies[0].rows[4].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "و يحكمونَ عليهِ بحُكم الموت ويسلمونهُ إلى الأممِ،",
+          "currentValue": "و يحكمون عليه بحكم الموت ويسلمونه إلى الأمم،",
+          "supersededBy": {
+            "changeId": "15bf6c1f-b6e9-4630-989e-95f54f36ae73",
+            "approvedAt": "2026-03-24T14:18:05.128713+00:00",
+            "summary": "العظة - تصحيح لغوي والتشكيل",
+            "approvedValue": "و يحكمون عليه بحكم الموت ويسلمونه إلى الأمم،"
+          }
+        },
+        {
+          "path": "[1].hours[2].sections[6].tables[1].tbodies[0].rows[5].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "فيهزأونَ بهِ ويبصقونَ في وجههِ ويصلِبونَهُ على خشبةِ الصليبِ، ويقومُ في اليومِ الثالثِ.",
+          "currentValue": "فيهزأون ويبصقون في وجهه ويصلبونه على خشبة الصليب، ويقوم في اليوم الثالث\".",
+          "supersededBy": {
+            "changeId": "15bf6c1f-b6e9-4630-989e-95f54f36ae73",
+            "approvedAt": "2026-03-24T14:18:05.128713+00:00",
+            "summary": "العظة - تصحيح لغوي والتشكيل",
+            "approvedValue": "فيهزأون ويبصقون في وجهه ويصلبونه على خشبة الصليب، ويقوم في اليوم الثالث\"."
+          }
+        },
+        {
+          "path": "[1].hours[2].sections[6].tables[1].tbodies[0].rows[6].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "كيف تجاسرتَ يا إسرائيلُ المسكينُ وفعلتَ هذا الأمرَ بجهلِكَ؟ وصلبتَ يسوعَ المسيحَ",
+          "currentValue": "كيف تجاسرت يا إسرائيل المسكين وفعلت هذا الأمر بجهلك؟ وصلبت يسوع المسيح",
+          "supersededBy": {
+            "changeId": "15bf6c1f-b6e9-4630-989e-95f54f36ae73",
+            "approvedAt": "2026-03-24T14:18:05.128713+00:00",
+            "summary": "العظة - تصحيح لغوي والتشكيل",
+            "approvedValue": "كيف تجاسرت يا إسرائيل المسكين وفعلت هذا الأمر بجهلك؟ وصلبت يسوع المسيح"
+          }
+        },
+        {
+          "path": "[1].hours[2].sections[6].tables[1].tbodies[0].rows[7].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "الذي أنقذكَ من العبوديةِ! وجازَيتَ الإحسانَ بالإساءةِ؟!",
+          "currentValue": "الذي أنقذك من العبودية! وجازيت الإحسان بالإساءة؟!",
+          "supersededBy": {
+            "changeId": "15bf6c1f-b6e9-4630-989e-95f54f36ae73",
+            "approvedAt": "2026-03-24T14:18:05.128713+00:00",
+            "summary": "العظة - تصحيح لغوي والتشكيل",
+            "approvedValue": "الذي أنقذك من العبودية! وجازيت الإحسان بالإساءة؟!"
+          }
+        },
+        {
+          "path": "[1].hours[2].sections[6].tables[1].tbodies[0].rows[8].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "من أجلِ ذلكَ خطَّيتُكَ باقيةٌ إلى كمال الُّدهورِ.",
+          "currentValue": "من أجل ذلك خطيتك باقية إلى كمال الدهور.",
+          "supersededBy": {
+            "changeId": "15bf6c1f-b6e9-4630-989e-95f54f36ae73",
+            "approvedAt": "2026-03-24T14:18:05.128713+00:00",
+            "summary": "العظة - تصحيح لغوي والتشكيل",
+            "approvedValue": "من أجل ذلك خطيتك باقية إلى كمال الدهور."
+          }
+        }
+      ]
+    },
+    {
+      "id": "5ec7cc35-5ebd-44e8-8a61-ec6c93a84110",
+      "approvedAt": "2026-03-24T14:17:49.526022+00:00",
+      "approvedBy": "minaazer",
+      "requestedBy": "essamishak",
+      "summary": "تصحيح لغوي والتشكيل",
+      "notReflectedPathCount": 6,
+      "reasons": [
+        {
+          "path": "[1].hours[4].sections[6].tables[1].tbodies[0].rows[1].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "أ سَمِعُوا اَلرَّؤُوفْ اَلصَّانِعِ اَلْخَيْرَاتِ ذَا اَلصَّلَاحِ",
+          "currentValue": "أ سمعوا الرؤوف الصانع الخيرات ذا الصلاح",
+          "supersededBy": {
+            "changeId": "15bf6c1f-b6e9-4630-989e-95f54f36ae73",
+            "approvedAt": "2026-03-24T14:18:05.128713+00:00",
+            "summary": "العظة - تصحيح لغوي والتشكيل",
+            "approvedValue": "أ سمعوا الرؤوف الصانع الخيرات ذا الصلاح"
+          }
+        },
+        {
+          "path": "[1].hours[4].sections[6].tables[1].tbodies[0].rows[2].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَالتَّحَنَنْ يُمَجِّدَ اَلصَّلَاةَ وَيُكَرِّمُ اَلصَّوْمُ، لِأَنَّهُمَا أَسَاسُ سَائِرِ اَلْفَضَائِلِ.",
+          "currentValue": "والتحنن يُمجِّد الصلاة ويكرِّم الصوم، لأنهما أساس سائر الفضائل.",
+          "supersededBy": {
+            "changeId": "15bf6c1f-b6e9-4630-989e-95f54f36ae73",
+            "approvedAt": "2026-03-24T14:18:05.128713+00:00",
+            "summary": "العظة - تصحيح لغوي والتشكيل",
+            "approvedValue": "والتحنن يُمجِّد الصلاة ويكرِّم الصوم، لأنهما أساس سائر الفضائل."
+          }
+        },
+        {
+          "path": "[1].hours[4].sections[6].tables[1].tbodies[0].rows[3].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "فَإِنَّ تَلَامِيذَهُ عِنْدَمَا سَأَلُوهُ قَائِلِينَ: \" لِمَاذَا لَمْ نُقَدِّرْ نَحْنُ أَنْ نَخْرُجَ اَلشَّيْطَانُ؟ \"، قَالَ لَهُمْ: \" لِأَجَلِ قِلَّةِ إِيمَانِكُمْ اِمْتَنَعَ اَلشَّيْطَانُ أَنْ يَخْرُجَ \"",
+          "currentValue": "فإن تلاميذه عندما سألوه قائلين: \"لماذا لم نقدر نحن أن نخرج الشيطان؟\"، قال لهم: \"لأجل عدم إيمانكم امتنع الشيطان أن يخرج\"",
+          "supersededBy": {
+            "changeId": "15bf6c1f-b6e9-4630-989e-95f54f36ae73",
+            "approvedAt": "2026-03-24T14:18:05.128713+00:00",
+            "summary": "العظة - تصحيح لغوي والتشكيل",
+            "approvedValue": "فإن تلاميذه عندما سألوه قائلين: \"لماذا لم نقدر نحن أن نخرج الشيطان؟\"، قال لهم: \"لأجل عدم إيمانكم امتنع الشيطان أن يخرج\""
+          }
+        },
+        {
+          "path": "[1].hours[4].sections[6].tables[1].tbodies[0].rows[4].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "ثُمَّ قَالَ اَلرَّبُّ: \" أَقُولُ لَكُمْ: لَوْ كَانَ لَكُمْ إِيمَانٌ لَكُنْتُمْ تَقُولُونَ لِهَذَا اَلْجَبَلِ اِنْتَقَلَ إِلَى هُنَا فَلْوقَتَهْ سَرِيعًا كَانَ يَسْمَعُ لَكُمْ وَلَا يَعْسُرُ عَلَيْكُمْ شَيْءٌ، فَإِنَّ كُلَّ شَيْءٍ مُسْتَطَاعٍ لِلْمُؤَمَّنِ \".",
+          "currentValue": "ثم قال الرب: \"أقول لكم: لو كان لكم إيمان لكنتم تقولون لهذا الجبل انتقل إلى هنا فلوقته سريعاً كان يسمع لكم ولا يعسر عليكم شئ، فان كل شئ مستطاع للمؤمن\".",
+          "supersededBy": {
+            "changeId": "15bf6c1f-b6e9-4630-989e-95f54f36ae73",
+            "approvedAt": "2026-03-24T14:18:05.128713+00:00",
+            "summary": "العظة - تصحيح لغوي والتشكيل",
+            "approvedValue": "ثم قال الرب: \"أقول لكم: لو كان لكم إيمان لكنتم تقولون لهذا الجبل انتقل إلى هنا فلوقته سريعاً كان يسمع لكم ولا يعسر عليكم شئ، فان كل شئ مستطاع للمؤمن\"."
+          }
+        },
+        {
+          "path": "[1].hours[4].sections[6].tables[1].tbodies[0].rows[5].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "فَلْنَقْتَنِ لَنَا رَجَاءٌ عَظِيمًا، وَإِيمَانًا حَقِيقِيًّا بِغَيْرِ شَكٍّ وَلْنَغُرّ عَلَى اَلْمَحَبَّةِ اَلَّتِي تَفُوقُ كُلَّ شَيْءٍ، فَإِنَّ اَلَّذِي يُحِبُّ يُصَدِّقُ كُلُّ شَيْءٍ.",
+          "currentValue": "فلنقتن لنا رجاء عظيماً، وايماناً حقيقياً بغير شك ولننم في المحبة التي تفوق كل شئ، فإن الذي يحب يصدق كل شئ.",
+          "supersededBy": {
+            "changeId": "15bf6c1f-b6e9-4630-989e-95f54f36ae73",
+            "approvedAt": "2026-03-24T14:18:05.128713+00:00",
+            "summary": "العظة - تصحيح لغوي والتشكيل",
+            "approvedValue": "فلنقتن لنا رجاء عظيماً، وايماناً حقيقياً بغير شك ولننم في المحبة التي تفوق كل شئ، فإن الذي يحب يصدق كل شئ."
+          }
+        },
+        {
+          "path": "[1].hours[4].sections[6].tables[1].tbodies[0].rows[6].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَلْنُوَاظِب عَلَى اَلصَّلَاةِ، وَنُحِبُّ اَلصَّوْمَ لِكَيْ نَفُوزَ بِمَوَاعِيدِهِ.",
+          "currentValue": "ولنواظب على الصلاة، ونحب الصوم لكي نفوز بمواعيده.",
+          "supersededBy": {
+            "changeId": "15bf6c1f-b6e9-4630-989e-95f54f36ae73",
+            "approvedAt": "2026-03-24T14:18:05.128713+00:00",
+            "summary": "العظة - تصحيح لغوي والتشكيل",
+            "approvedValue": "ولنواظب على الصلاة، ونحب الصوم لكي نفوز بمواعيده."
+          }
+        }
+      ]
+    },
+    {
+      "id": "98c34b02-482d-43e8-b758-87d809ba9700",
+      "approvedAt": "2026-03-24T14:18:00.733032+00:00",
+      "approvedBy": "minaazer",
+      "requestedBy": "essamishak",
+      "summary": "تصحيح لغوي والتشكيل",
+      "notReflectedPathCount": 13,
+      "reasons": [
+        {
+          "path": "[2].hours[1].sections[6].tables[1].tbodies[0].rows[1].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "فِي عَشِيَّةِ يَوْمِ اَلشَّعَانِينْ أَتَى خَارِجَ اَلْمَدِينَةِ مَعَ تَلَامِيذِهِ أَعْنِي اَلْمَسِيحُ إلًهُنا يَسُوعْ اَلْمُخْلِصَ.",
+          "currentValue": "فى عشية يوم الشعانين أتى المسيح الهنا يسوع المخلص خارج المدينة مع تلاميذه،",
+          "supersededBy": {
+            "changeId": "91b4ebfb-94dc-4c5d-86f0-9788494799c4",
+            "approvedAt": "2026-03-24T14:18:29.690147+00:00",
+            "summary": "تصحيح لغوي والتشكيل",
+            "approvedValue": "فى عشية يوم الشعانين أتى المسيح الهنا يسوع المخلص خارج المدينة مع تلاميذه،"
+          }
+        },
+        {
+          "path": "[2].hours[1].sections[6].tables[1].tbodies[0].rows[2].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "فَجَاعَ وَقَالَ: أَطْلُبُ طَعَامًا. فَرَأَى شَجَرَةَ تِينِ مِنْ بَعِيدٍ وَأَتَى إِلَيْهَا يَطْلُبُ ثَمَرًا فِيهَا،",
+          "currentValue": "فجاع وقال: اطلب طعاماً. فرأى شجرة تين من بعيد، وأتى إليها يطلب ثمراً فيها،",
+          "supersededBy": {
+            "changeId": "91b4ebfb-94dc-4c5d-86f0-9788494799c4",
+            "approvedAt": "2026-03-24T14:18:29.690147+00:00",
+            "summary": "تصحيح لغوي والتشكيل",
+            "approvedValue": "فجاع وقال: اطلب طعاماً. فرأى شجرة تين من بعيد، وأتى إليها يطلب ثمراً فيها،"
+          }
+        },
+        {
+          "path": "[2].hours[1].sections[6].tables[1].tbodies[0].rows[3].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "فَوُجِدَ وَرَقًا بِغَيْرِ ثَمَرٍ، فَلَعْنُهَا فَيَبِسَتْ مِنْ أَصْلِهَا.",
+          "currentValue": "فوجد ورقاً بغير ثمر، فلعنها فيبست من أصلها.",
+          "supersededBy": {
+            "changeId": "91b4ebfb-94dc-4c5d-86f0-9788494799c4",
+            "approvedAt": "2026-03-24T14:18:29.690147+00:00",
+            "summary": "تصحيح لغوي والتشكيل",
+            "approvedValue": "فوجد ورقاً بغير ثمر، فلعنها فيبست من أصلها."
+          }
+        },
+        {
+          "path": "[2].hours[1].sections[6].tables[1].tbodies[0].rows[4].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "فَتُعْجِبُ جَمِيعُ تَلَامِيذِهِ، وَقَالُوا لِلرَّبِّ: إِنَّ شَجَرَةَ اَلتِّينِ يَبِسَتْ.",
+          "currentValue": "فتعجب جميع تلاميذه، وقالوا للرب: أن شجرة التين يبست.",
+          "supersededBy": {
+            "changeId": "91b4ebfb-94dc-4c5d-86f0-9788494799c4",
+            "approvedAt": "2026-03-24T14:18:29.690147+00:00",
+            "summary": "تصحيح لغوي والتشكيل",
+            "approvedValue": "فتعجب جميع تلاميذه، وقالوا للرب: أن شجرة التين يبست."
+          }
+        },
+        {
+          "path": "[2].hours[1].sections[6].tables[1].tbodies[0].rows[5].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "ضَعُوا اَلْإِيمَانَ فِي قُلُوبِكُمْ وَكُلِّ شَيْءٍ يَخْضَعُ لَكُمْ.",
+          "currentValue": "ضعوا الايمان فى قلوبكم وكل شئ يخضع لكم.",
+          "supersededBy": {
+            "changeId": "91b4ebfb-94dc-4c5d-86f0-9788494799c4",
+            "approvedAt": "2026-03-24T14:18:29.690147+00:00",
+            "summary": "تصحيح لغوي والتشكيل",
+            "approvedValue": "ضعوا الايمان فى قلوبكم وكل شئ يخضع لكم."
+          }
+        },
+        {
+          "path": "[2].hours[1].sections[6].tables[1].tbodies[0].rows[6].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَلَا تَتَعَجَّبُوا مِنْ شَجَرَةِ اَلتِّينِ هَذِهِ أَنَّهَا بِكَلِمَةٍ وَاحِدَةٍ يَبِسَتْ مِنْ أَصْلِهَا.",
+          "currentValue": "ولا تتعجبوا من شجرة التين هذه انها بكلمة واحدة يبست من أصلها،",
+          "supersededBy": {
+            "changeId": "91b4ebfb-94dc-4c5d-86f0-9788494799c4",
+            "approvedAt": "2026-03-24T14:18:29.690147+00:00",
+            "summary": "تصحيح لغوي والتشكيل",
+            "approvedValue": "ولا تتعجبوا من شجرة التين هذه انها بكلمة واحدة يبست من أصلها،"
+          }
+        },
+        {
+          "path": "[2].hours[1].sections[6].tables[1].tbodies[0].rows[7].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "فَإِذَا كَانَ فِي قُلُوبِكُمْ إِيمَانَ لَنْقَلَتْمْ هَذَا اَلْجَبَلِ مِنْ مَكَانِهِ.",
+          "currentValue": "فاذا كان فى قلوبكم ايمان لنقلتم هذا الجبل من مكانه.",
+          "supersededBy": {
+            "changeId": "91b4ebfb-94dc-4c5d-86f0-9788494799c4",
+            "approvedAt": "2026-03-24T14:18:29.690147+00:00",
+            "summary": "تصحيح لغوي والتشكيل",
+            "approvedValue": "فاذا كان فى قلوبكم ايمان لنقلتم هذا الجبل من مكانه."
+          }
+        },
+        {
+          "path": "[2].hours[1].sections[6].tables[1].tbodies[0].rows[8].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "تَعَالَوْا وَانْظُرُوا أَيُّهَا اَلنَّاسُ اَلْجُهَّالَ مَا كَانَ مِنْ شَجَرَةِ اَلتِّينِ هَذِهِ،",
+          "currentValue": "تعالوا وانظروا أيها الناس الجهال ما كان من شجرة التين هذه،",
+          "supersededBy": {
+            "changeId": "91b4ebfb-94dc-4c5d-86f0-9788494799c4",
+            "approvedAt": "2026-03-24T14:18:29.690147+00:00",
+            "summary": "تصحيح لغوي والتشكيل",
+            "approvedValue": "تعالوا وانظروا أيها الناس الجهال ما كان من شجرة التين هذه،"
+          }
+        },
+        {
+          "path": "[2].hours[1].sections[6].tables[1].tbodies[0].rows[9].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَاصْنَعُوا ثَمَرَةً صَالِحَةً لِلرَّبِّ لِكَيْ تَخَلَّصُوا مِنْ اَلشِّرِّيرِ.",
+          "currentValue": "واصنعوا ثمراً صالحاً للرب لكى تخلصوا من الشرير.",
+          "supersededBy": {
+            "changeId": "91b4ebfb-94dc-4c5d-86f0-9788494799c4",
+            "approvedAt": "2026-03-24T14:18:29.690147+00:00",
+            "summary": "تصحيح لغوي والتشكيل",
+            "approvedValue": "واصنعوا ثمراً صالحاً للرب لكى تخلصوا من الشرير."
+          }
+        },
+        {
+          "path": "[2].hours[1].sections[6].tables[1].tbodies[0].rows[10].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَاصْنَعُوا تَوْبَةً أَيُّهَا اَلْكُسَالَى، لِكَيْ تَنَالُوا اَلْغُفْرَانُ.",
+          "currentValue": "واصنعوا توبة أيها الكسالى، لكى تنالوا الغفران.",
+          "supersededBy": {
+            "changeId": "91b4ebfb-94dc-4c5d-86f0-9788494799c4",
+            "approvedAt": "2026-03-24T14:18:29.690147+00:00",
+            "summary": "تصحيح لغوي والتشكيل",
+            "approvedValue": "واصنعوا توبة أيها الكسالى، لكى تنالوا الغفران."
+          }
+        },
+        {
+          "path": "[2].hours[1].sections[6].tables[1].tbodies[0].rows[11].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَاغْسِلُوا وُجُوهَكُمْ بِدُمُوعِ غَزِيرَةٍ، فَإِنَّ اَلدُّمُوعَ تَمْحُو اَلْآثَامُ.",
+          "currentValue": "واغسلوا وجوهكم بدموع غزيرة، فان الدموع تمحو الآثام.",
+          "supersededBy": {
+            "changeId": "91b4ebfb-94dc-4c5d-86f0-9788494799c4",
+            "approvedAt": "2026-03-24T14:18:29.690147+00:00",
+            "summary": "تصحيح لغوي والتشكيل",
+            "approvedValue": "واغسلوا وجوهكم بدموع غزيرة، فان الدموع تمحو الآثام."
+          }
+        },
+        {
+          "path": "[2].hours[1].sections[6].tables[1].tbodies[0].rows[12].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَأَوْقَدُوا مَصَابِيحُكُمْ بِالْفَضَائِلِ، لِتُضِئْ عَلَيْكُمْ فِي اَلْحُكْمِ.",
+          "currentValue": "واوقدوا مصابيحكم بالفضائل، لتضئ عليكم فى الحكم.",
+          "supersededBy": {
+            "changeId": "91b4ebfb-94dc-4c5d-86f0-9788494799c4",
+            "approvedAt": "2026-03-24T14:18:29.690147+00:00",
+            "summary": "تصحيح لغوي والتشكيل",
+            "approvedValue": "واوقدوا مصابيحكم بالفضائل، لتضئ عليكم فى الحكم."
+          }
+        },
+        {
+          "path": "[2].hours[1].sections[6].tables[1].tbodies[0].rows[13].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "تَأَلَّمَ عَنْ أَخِيكَ وَأَنْظُرُ اَلرَّبَّ كَيْفَ تَأَلَّمَ عَنَّا حَتَّى خَلَصْنَا.",
+          "currentValue": "تألم عن أخيك وأنظر الرب كيف تألم عنا حتى خلصنا.",
+          "supersededBy": {
+            "changeId": "91b4ebfb-94dc-4c5d-86f0-9788494799c4",
+            "approvedAt": "2026-03-24T14:18:29.690147+00:00",
+            "summary": "تصحيح لغوي والتشكيل",
+            "approvedValue": "تألم عن أخيك وأنظر الرب كيف تألم عنا حتى خلصنا."
+          }
+        }
+      ]
+    },
+    {
+      "id": "0e0bc0e7-e7ce-4cf9-8bc0-47463d548c0a",
+      "approvedAt": "2026-03-24T14:18:17.826704+00:00",
+      "approvedBy": "minaazer",
+      "requestedBy": "essamishak",
+      "summary": "تصحيح لغوي والتشكيل",
+      "notReflectedPathCount": 64,
+      "reasons": [
+        {
+          "path": "[2].hours[2].sections[6].tables[1].tbodies[0].rows[1].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "يا لهذه الجسارة التى صنعتها يا شعب اسرائيل ابن الله البكر! وهذه البلادة التى من كهنتك!",
+          "currentValue": "يَا لِهَذِهِ اَلْجَسَارَة اَلَّتِي صَنَعَتْهَا يَا شَعْبُ إِسْرَائِيلَ أَوَّلَ مِيلَادِ اَللَّهِ! وَهَذِهِ اَلْبَلَادَةُ اَلَّتِي مِنْ كَهَنَتكَ!",
+          "supersededBy": {
+            "changeId": "91b4ebfb-94dc-4c5d-86f0-9788494799c4",
+            "approvedAt": "2026-03-24T14:18:29.690147+00:00",
+            "summary": "تصحيح لغوي والتشكيل",
+            "approvedValue": "يَا لِهَذِهِ اَلْجَسَارَة اَلَّتِي صَنَعَتْهَا يَا شَعْبُ إِسْرَائِيلَ أَوَّلَ مِيلَادِ اَللَّهِ! وَهَذِهِ اَلْبَلَادَةُ اَلَّتِي مِنْ كَهَنَتكَ!"
+          }
+        },
+        {
+          "path": "[2].hours[2].sections[6].tables[1].tbodies[0].rows[2].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "اذ أن موضع الغفران صار موضع الخطية.",
+          "currentValue": "إِذْ مَوْضِع اَلْغُفْرَانِ صَارَ مَوْضِعُ اَلْخَطِّيَّةِ.",
+          "supersededBy": {
+            "changeId": "91b4ebfb-94dc-4c5d-86f0-9788494799c4",
+            "approvedAt": "2026-03-24T14:18:29.690147+00:00",
+            "summary": "تصحيح لغوي والتشكيل",
+            "approvedValue": "إِذْ مَوْضِع اَلْغُفْرَانِ صَارَ مَوْضِعُ اَلْخَطِّيَّةِ."
+          }
+        },
+        {
+          "path": "[2].hours[2].sections[6].tables[1].tbodies[0].rows[3].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وبيت الصلاة وموضع الطلبة صيرتموه مسكناً للصوص ومجمعاً للعجول والخراف وباعة الحمام والصيارف.",
+          "currentValue": "وَبَيْتَ اَلصَّلَاةِ وَمَوْضِعِ اَلطَّلَبَةِ صَيَّرْتُمُوهُ مَسْكَنًا لِلُّصُوصِ وَمُجَمَّعًا لِلْعُجُولِ وَالْخِرَافِ وَبَاعَةِ اَلْحَمَّامِ وَالصِّيَارَفْ.",
+          "supersededBy": {
+            "changeId": "91b4ebfb-94dc-4c5d-86f0-9788494799c4",
+            "approvedAt": "2026-03-24T14:18:29.690147+00:00",
+            "summary": "تصحيح لغوي والتشكيل",
+            "approvedValue": "وَبَيْتَ اَلصَّلَاةِ وَمَوْضِعِ اَلطَّلَبَةِ صَيَّرْتُمُوهُ مَسْكَنًا لِلُّصُوصِ وَمُجَمَّعًا لِلْعُجُولِ وَالْخِرَافِ وَبَاعَةِ اَلْحَمَّامِ وَالصِّيَارَفْ."
+          }
+        },
+        {
+          "path": "[2].hours[2].sections[6].tables[1].tbodies[0].rows[4].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "ما هو هذا الربح المملوء من كل نجس، وهذا الظلم الذى صنعتموه؟!",
+          "currentValue": "مَا هُوَ هَذَا اَلرِّبْحِ اَلْمَمْلُوءِ مِنْ كُلٍّ نَجِسٍ، وَهَذَا اَلظُّلْمُ اَلَّذِي صَنَعْتُمُوهُ؟!",
+          "supersededBy": {
+            "changeId": "91b4ebfb-94dc-4c5d-86f0-9788494799c4",
+            "approvedAt": "2026-03-24T14:18:29.690147+00:00",
+            "summary": "تصحيح لغوي والتشكيل",
+            "approvedValue": "مَا هُوَ هَذَا اَلرِّبْحِ اَلْمَمْلُوءِ مِنْ كُلٍّ نَجِسٍ، وَهَذَا اَلظُّلْمُ اَلَّذِي صَنَعْتُمُوهُ؟!"
+          }
+        },
+        {
+          "path": "[2].hours[2].sections[6].tables[1].tbodies[0].rows[6].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "أخرج البقر والغنم معاً، وكراسى باعة الحمام، وقلب موائد الصيارف، وبدد دراهمهم.",
+          "currentValue": "أَخْرَجَ اَلْبَقَرُ وَالْغَنَمُ وَمَعَهَا كَرَاسِيُّ بَاعَةِ اَلْحَمَّامِ، وَمَوَائِدُ اَلصِّيَارَفْ قَلْبُهَا، وَبَدَّدَ دَرَاهِمَهُمْ.",
+          "supersededBy": {
+            "changeId": "91b4ebfb-94dc-4c5d-86f0-9788494799c4",
+            "approvedAt": "2026-03-24T14:18:29.690147+00:00",
+            "summary": "تصحيح لغوي والتشكيل",
+            "approvedValue": "أَخْرَجَ اَلْبَقَرُ وَالْغَنَمُ وَمَعَهَا كَرَاسِيُّ بَاعَةِ اَلْحَمَّامِ، وَمَوَائِدُ اَلصِّيَارَفْ قَلْبُهَا، وَبَدَّدَ دَرَاهِمَهُمْ."
+          }
+        },
+        {
+          "path": "[2].hours[2].sections[6].tables[1].tbodies[0].rows[7].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "فلما نظر تلاميذه هذا، علموا أنه هكذا هو مكتوب لأجله: أن غيرة بيتك أكلتنى. ولذا صنع هكذا بغير خوف.",
+          "currentValue": "فَلَمَّا نَظَر تَلَامِيذِهِ هَذَا، عَلِمُوا أَنَّهُ هَكَذَا هُوَ مَكْتُوبٌ لِأَجْلِهِ: إِنَّ غَيْرَةَ بَيْتِكَ أَكَلَتْنِي فَلِهَذَا صُنْعُ هَكَذَا بِغَيْر خَوْفٍ.",
+          "supersededBy": {
+            "changeId": "91b4ebfb-94dc-4c5d-86f0-9788494799c4",
+            "approvedAt": "2026-03-24T14:18:29.690147+00:00",
+            "summary": "تصحيح لغوي والتشكيل",
+            "approvedValue": "فَلَمَّا نَظَر تَلَامِيذِهِ هَذَا، عَلِمُوا أَنَّهُ هَكَذَا هُوَ مَكْتُوبٌ لِأَجْلِهِ: إِنَّ غَيْرَةَ بَيْتِكَ أَكَلَتْنِي فَلِهَذَا صُنْعُ هَكَذَا بِغَيْر خَوْفٍ."
+          }
+        },
+        {
+          "path": "[2].hours[2].sections[6].tables[1].tbodies[0].rows[8].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "ان سلطانك دائم فى السماء وعلى الأرض، وخوفك يا رب زعزع الجبال.",
+          "currentValue": "سُلْطَانُكَ دَائِمٌ فِي اَلسَّمَاءِ وَعَلَى اَلْأَرْضِ، وَخَوْفُكَ يَا رَبٌّ زَعْزَعَ اَلْجِبَالَ.",
+          "supersededBy": {
+            "changeId": "91b4ebfb-94dc-4c5d-86f0-9788494799c4",
+            "approvedAt": "2026-03-24T14:18:29.690147+00:00",
+            "summary": "تصحيح لغوي والتشكيل",
+            "approvedValue": "سُلْطَانُكَ دَائِمٌ فِي اَلسَّمَاءِ وَعَلَى اَلْأَرْضِ، وَخَوْفُكَ يَا رَبٌّ زَعْزَعَ اَلْجِبَالَ."
+          }
+        },
+        {
+          "path": "[2].hours[2].sections[6].tables[1].tbodies[0].rows[9].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "أما اسرائيل فقد صار جاهلاً، فلذلك اختفت عنه معونته.",
+          "currentValue": "أَمَّا إِسْرَائِيلُ فَقَدْ صَارَ جَاهِلاً، فَلِذَلِكَ اِسْتَتَرَتْ عَنْهُ مَعُونَتُهُ.",
+          "supersededBy": {
+            "changeId": "91b4ebfb-94dc-4c5d-86f0-9788494799c4",
+            "approvedAt": "2026-03-24T14:18:29.690147+00:00",
+            "summary": "تصحيح لغوي والتشكيل",
+            "approvedValue": "أَمَّا إِسْرَائِيلُ فَقَدْ صَارَ جَاهِلاً، فَلِذَلِكَ اِسْتَتَرَتْ عَنْهُ مَعُونَتُهُ."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[1].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "بِيَدَيْكَ اَللَّتَيْنِ بِلَا عَيْبِ يَا رَبٌّ خَلَقْتَنِي، وَزُيِّنَتْنِي مُضِيئًا كَثَوْبٍ مُزَيَّنٍ.",
+          "currentValue": "بيديك اللتين بلا عيب يا رب خلقتنى، وزينتنى مضيئاً كثوب مزين.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "بيديك اللتين بلا عيب يا رب خلقتنى، وزينتنى مضيئاً كثوب مزين."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[2].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَوَهَبَتْ لِي نَعِيمُ اَلْفِرْدَوْسِ، وَثَمَرَ اَلْأَشْجَارِ أَعْطَيْتَهُ لِي إِنْعَامًا.",
+          "currentValue": "ووهبت لى نعيم الفردوس، وثمار الأشجار أعطيتها لى انعاماً.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "ووهبت لى نعيم الفردوس، وثمار الأشجار أعطيتها لى انعاماً."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[3].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "مَنَحَتْنِي عَزَّة سُلْطَانُكَ عَلَى كُلِّ اَلْخَلِيقَةِ اَلَّتِي تَحْتَ اَلسَّمَاءِ.",
+          "currentValue": "منحتنى عزة سلطانك على كل الخليقة التى تحت السماء.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "منحتنى عزة سلطانك على كل الخليقة التى تحت السماء."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[4].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَجَعَلَتْ سَائِرَ اَلْأَشْيَاءِ دُونِي، جِنْسُ اَلْهَوَامِّ وَالْوُحُوشِ وَلَمْ تَعُوزنِي شَيْئًا مِنْ اَلْكَرَامَةِ وَجَعَلَتْ كُلَّ شَيْءٍ يَخْضَعُ لِي.",
+          "currentValue": "وجعلت سائر الأشياء دونى، جنس الحيوانات والوحوش ولم تعوزنى شيئاً من الكرامة وجعلت كل شئ يخضع لى.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "وجعلت سائر الأشياء دونى، جنس الحيوانات والوحوش ولم تعوزنى شيئاً من الكرامة وجعلت كل شئ يخضع لى."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[5].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَأُوصِيَتْنِي وَصِيَّةَ فَخَالَفَتْهَا يَا رَبِّي وَإِلَهِي.",
+          "currentValue": "وأوصيتنى وصية فخالفتها يا ربى والهى.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "وأوصيتنى وصية فخالفتها يا ربى والهى."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[6].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "المرد: أَسْأَلُكُ أَيُّهَا اَلصَّالِحُ أَنْ تَصْنَعَ مَعِي رَحْمَةَ كَعَظِيمٍ رَحْمَتكَ.",
+          "currentValue": "أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[7].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "رَأَيْتُكُ يَا آدَمْ كَائِنًا وَحْدَكَ وَكَّلَ شَيْءٌ غَيْرُ مُفْرَدٍ،",
+          "currentValue": "رأيتك يا آدم كائناً وحدك وكل شئ غير مفرد،",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "رأيتك يا آدم كائناً وحدك وكل شئ غير مفرد،"
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[8].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "فَجَلَبَتْ لَكَ وَاحِدَةً مِنْ عِظَامِكَ كُشْبُهُكْ وَمِثَالَكَ،",
+          "currentValue": "فجلبت لك واحدة من عظامك كشبهك ومثالك،",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "فجلبت لك واحدة من عظامك كشبهك ومثالك،"
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[9].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَقُلْتُ لَا يُحَسِّنُ أَنْ تَكُونَ وَحْدكَ.",
+          "currentValue": "وقلت لا يحسن أن تكون وحدك.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "وقلت لا يحسن أن تكون وحدك."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[10].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "فَاهِتْمِمْتْ بِكَ وَفَعَلَتْ لَكَ هَذَا، وَسُلْطَتَكَ عَلَيْهَا وَعَلَى جَمِيعِ اَلْمَسْكُونَةِ كَيْ تَكُونَ تَحْتَ سُلْطَانِكَ.",
+          "currentValue": "فاهتممت بك وفعلت لك هذا، وسلطتك عليها وعلى جميع المسكونة كى تكون تحت سلطانك.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "فاهتممت بك وفعلت لك هذا، وسلطتك عليها وعلى جميع المسكونة كى تكون تحت سلطانك."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[11].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "فَأَطِعَتَهَا وَتَرَكَتْ أَوَامِرِي وَرَفَضَتْ قَوْلِي وَوَصَايَايَ.",
+          "currentValue": "ولكنك أطعتها وتركت أوامرى ورفضت قولى ووصاياى.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "ولكنك أطعتها وتركت أوامرى ورفضت قولى ووصاياى."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[12].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "المرد: أَسْأَلُكُ أَيُّهَا اَلصَّالِحُ أَنْ تَصْنَعَ مَعِي رَحْمَةَ كَعَظِيمٍ رَحْمَتكَ.",
+          "currentValue": "أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[13].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "اُذْكُرْنِي يَا رَبٌّ، أَنَّنِي تُرَابٌ، وَمَثَّلَ اَلْعُشْبُ اَلَّذِي فِي اَلْحَقْلِ أَعْطَيْتُنِي يَا رَبِّي عَزَّة قُوَّتَكَ، فَتَنَاقَصَتُ حَقَارَتِي.",
+          "currentValue": "اذكرنى يا رب، اننى تراب، ومثل العُشب الذى فى الحقل. أعطيتنى يا ربى عزة قوتك، فتناقصت حقارتى.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "اذكرنى يا رب، اننى تراب، ومثل العُشب الذى فى الحقل. أعطيتنى يا ربى عزة قوتك، فتناقصت حقارتى."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[14].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "قَالَ اَلرَّبُّ: شَجَرَةٌ وَاحِدَةٌ أَوْصَيْتُكُ عَنْهَا، فَكَيْفَ صِرْتَ مُخَالِفًا لِوَصِيَّتِي؟",
+          "currentValue": "شجرة واحدة أوصيتنى عنها، فكيف صرت مخالفاً لوصيتك؟",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "شجرة واحدة أوصيتنى عنها، فكيف صرت مخالفاً لوصيتك؟"
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[15].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَاسْتَظَلْمُتْ اَلْمَرْأَةُ، هَذِهِ اَلَّتِي لَمْ أَوْصِهَا مِثْلُكَ، فَأَطِعَتَهَا وَرَفَضَتْ كَلَامِي، وَاخْتَفَيْتُ فِي اَلشَّجَرِ كَيْ لَا أَرَاكُ؟!",
+          "currentValue": "واستظلمت المرأة، هذه التى لم توصها مثلى، فأطعتها ورفضت كلامك، واختفيت فى الشجر كى لا أراك؟!",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "واستظلمت المرأة، هذه التى لم توصها مثلى، فأطعتها ورفضت كلامك، واختفيت فى الشجر كى لا أراك؟!"
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[16].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "المرد: أَسْأَلُكُ أَيُّهَا اَلصَّالِحُ أَنْ تَصْنَعَ مَعِي رَحْمَةَ كَعَظِيمٍ رَحْمَتكَ.",
+          "currentValue": "أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[17].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "فَكَّرْتُ (يَا آدَمْ) فِي اَلْعَلَوِيَّاتِ أَعْنِي اَلْأُلُوهِيَّةُ، وَأَنَّكَ تَصِيرُ خَالِقًا مِثْلٍ سَيِّدِكَ،",
+          "currentValue": "فكرت (يا آدم) فى العلويات، أعنى الالوهة، وانك تصير خالقاً مثل سيدك،",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "فكرت (يا آدم) فى العلويات، أعنى الالوهة، وانك تصير خالقاً مثل سيدك،"
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[18].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَبِثَمَرَة اَلشَّجَرَة عَلِمَتْ اَلْخَيْرَ وَالشَّرَّ لِتَصِيرَ إِلَهًا.",
+          "currentValue": "وبثمرة الشجرة علمت الخير والشر لتصير الها.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "وبثمرة الشجرة علمت الخير والشر لتصير الها."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[19].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "يَا آدَمْ أَيْنَ هُوَ اَلْمَجْدُ اَلَّذِي كَانَ لَكَ؟",
+          "currentValue": "يا آدم أين هو المجد الذى كان لك؟",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "يا آدم أين هو المجد الذى كان لك؟"
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[20].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "تَعَرَّيَتُ مِنْ اَلْحِلَّةِ اَلَّتِي أَلْبَسَتْكَ إِيَّاهَا،",
+          "currentValue": "تعريت من الحلة التى البستك اياها،",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "تعريت من الحلة التى البستك اياها،"
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[21].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَأَخَذَتْ اَلْوَرَقَ مِنْ اَلشَّجَرَةِ وَسَتَرَتْ عَوْرَتُكَ مِنْ وَجْهِي.",
+          "currentValue": "وأخذت الورق من الشجرة وسترت عورتك من وجهى.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "وأخذت الورق من الشجرة وسترت عورتك من وجهى."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[22].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "أَعْلَمَتكُ أَنَّنِي خَلَقْتُكُ وَعَرَفْتُكُ قَبْلَ أَنْ تَكُونَ.",
+          "currentValue": "أعلمتك أننى خلقتك وعرفتك قبل أن تكون.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "أعلمتك أننى خلقتك وعرفتك قبل أن تكون."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[23].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "المرد: أَسْأَلُكُ أَيُّهَا اَلصَّالِحُ أَنْ تَصْنَعَ مَعِي رَحْمَةَ كَعَظِيمٍ رَحْمَتكَ.",
+          "currentValue": "أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[24].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "سَبَقَتْ فأخِبِرْتَكْ مِنْ أَوَّلِ اَلْأَمْرِ سَلَّمَتْ إِلَيْكَ كَلَامُ وَصَايَايِ.",
+          "currentValue": "سبقت فأخبرتك من أول الأمر. سلمت اليك وصاياى.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "سبقت فأخبرتك من أول الأمر. سلمت اليك وصاياى."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[25].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَهَكَذَا أَعْلَمَتكُ عَنْ هَذِهِ اَلشَّجَرَةِ مِنْ دُونِ جَمِيعِ اَلشَّجَرِ اَلَّذِي فِي اَلْفِرْدَوْسِ،",
+          "currentValue": "وهكذا أعلمتك عن هذه الشجرة من دون جميع الشجر الذى فى الفردوس،",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "وهكذا أعلمتك عن هذه الشجرة من دون جميع الشجر الذى فى الفردوس،"
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[26].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "هَذِهِ اَلَّتِي فِي ثَمَرَتِهَا مَرَارَةَ اَلْمَوْتِ، وَأَنَّكَ إِنَّ أَكَلَتْ مِنْهَا فَمَوْتًا تَمُوت.",
+          "currentValue": "هذه التى فى ثمرتها مرارة الموت، وأنك إن أكلت منها فموتاً تموت.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "هذه التى فى ثمرتها مرارة الموت، وأنك إن أكلت منها فموتاً تموت."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[27].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَأَنَا لَمْ أَدَعْكُ جَاهِلاً بَلْ أَعْلَمَتكُ قَبْلَ أَنْ يَكُونَ هَذَا.",
+          "currentValue": "وأنا لم أدعك جاهلاً، بل أعلمتك قبل أن يكون هذا،",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "وأنا لم أدعك جاهلاً، بل أعلمتك قبل أن يكون هذا،"
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[28].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "فَأَمْلَتْ سَمْعَكَ وَأَطِعَتْ اَلْمَرْأَةُ لِذَلِكَ سَأَجْلِبُ عَلَيْكَ اَلْعُقُوبَةُ.",
+          "currentValue": "فأملت سمعك وأطعت المرأة. لذلك سأجلب عليك العقوبة.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "فأملت سمعك وأطعت المرأة. لذلك سأجلب عليك العقوبة."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[29].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "المرد: أَسْأَلُكُ أَيُّهَا اَلصَّالِحُ أَنْ تَصْنَعَ مَعِي رَحْمَةَ كَعَظِيمٍ رَحْمَتكَ.",
+          "currentValue": "أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[30].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "يَا آدَمْ أَنْتَ تُرَابٌ، وِسْأرِدْكْ إِلَى اَلتُّرَابِ جَزَاءَ اَلْأَعْمَالِ اَلَّتِي تَجَاسَرَتْ عَلَيْهَا.",
+          "currentValue": "يا آدم أنت تراب، وسأردك إلى التراب جزاء الأعمال التى تجاسرت عليها.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "يا آدم أنت تراب، وسأردك إلى التراب جزاء الأعمال التى تجاسرت عليها."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[31].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَأَنْتَ يَا حَوَّاءْ لِمَاذَا صُنِعَتْ هَكَذَا وَخَالَفَتْ وَصَايَايِ؟ لَيْسَ مُلَّاكٌ تَكَلَّمَ مَعَكَ، وَلَا طَائِرَ مِنْ اَلْجَوِّ، بَلْ وَحْشٌ، ثُعْبَانُ بِطَبِيعَتِهِ، فَسَمِعَتْ مِنْهُ مَشُورَتُهُ،",
+          "currentValue": "وأنت يا حواء لماذا صنعت هكذا وخالفت وصاياى؟ ليس ملاك تكلم معك، ولا طائر من الجو، بل وحش، ثعبان بطبيعته، فسمعت منه مشورته.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "وأنت يا حواء لماذا صنعت هكذا وخالفت وصاياى؟ ليس ملاك تكلم معك، ولا طائر من الجو، بل وحش، ثعبان بطبيعته، فسمعت منه مشورته."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[32].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "فَكَثِيرَةٌ هِيَ اَلْأَحْزَانُ اَلَّتِي تَكُونُ لَكَ، وَالتَّنَهُّدُ وَالنُّوحِ اَلْعَظِيمَانِ.",
+          "currentValue": "فكثيرة هى الأحزان التى تكون لك، والتنهد والنوح العظيمان.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "فكثيرة هى الأحزان التى تكون لك، والتنهد والنوح العظيمان."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[33].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَسَأُقِيمُ عَدَاوَةٌ بَيْنَكَ وَبَيْنَ اَلْحَيَّةِ وَبَيَّنَ نَسْلُكُ وَنَسْلُهَا إِلَى اِنْقِضَاءِ اَلدُّهُورِ،",
+          "currentValue": "وسأقيم عداوة بينك وبين الحية، وبين نسلك ونسلها إلى انقضاء الدهور،",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "وسأقيم عداوة بينك وبين الحية، وبين نسلك ونسلها إلى انقضاء الدهور،"
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[34].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "فَهُوَ يَرْصُدُ عُقْب نَسْلُكُ، وَنَسْلُكَ يَسْحَقُ رَأْسُهُ.",
+          "currentValue": "فهى ترصد عقب نسلك، ونسلك يسحق رأسها.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "فهى ترصد عقب نسلك، ونسلك يسحق رأسها."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[35].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "المرد: أَسْأَلُكُ أَيُّهَا اَلصَّالِحُ أَنْ تَصْنَعَ مَعِي رَحْمَةَ كَعَظِيمٍ رَحْمَتكَ.",
+          "currentValue": "أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[36].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "ثُمَّ دَعَا اَلْمُخَلِّصُ اَلْحَيَّةُ وَلِعَنْهَا مَعَ طَبِيعَتِهَا، وَقَالَ:",
+          "currentValue": "ثم دعا المخلص الحية ولعنها مع طبيعتها، وقال:",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "ثم دعا المخلص الحية ولعنها مع طبيعتها، وقال:"
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[37].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "مَلْعُونَةً أَنْتَ مِنْ بَيْنِ جَمِيعِ اَلْوُحُوشِ وَعَلَى بَطْنِكَ تِسْعِينَ.",
+          "currentValue": "ملعونة أنت من بين جميع الوحوش، وعلى بطنك تسعين،",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "ملعونة أنت من بين جميع الوحوش، وعلى بطنك تسعين،"
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[38].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَتُرَابَ اَلْأَرْضِ يَكُونُ لَكَ طَعَامًا مِنْ أَجْلِ أَنَّكَ صِرْتُ شَكًّا،",
+          "currentValue": "وتراب الأرض يكون لك طعاماً، من أجل أنك صرت عثرة.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "وتراب الأرض يكون لك طعاماً، من أجل أنك صرت عثرة."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[39].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "فَوَجَدَ اَلْعَدُوّ مَسْكَنًا فِيكَ، وَصِرْتُ بَيْتًا لِلشِّرِّيرِ.",
+          "currentValue": "فوجد العدو مسكناً فيك، وصرت بيتاً للشرير.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "فوجد العدو مسكناً فيك، وصرت بيتاً للشرير."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[40].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَمِنْ أَجْلٍ أَنَّ اَلرَّجُلَ أَمَالَ سَمْعُهُ إِلَيْكِ، فَالْأَرْضُ كُلُّهَا مَلْعُونَةٌ مَعَكِ.",
+          "currentValue": "ومن أجل أن الرجل أمال سمعه اليك، فالأرض كلها ملعونة معه.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "ومن أجل أن الرجل أمال سمعه اليك، فالأرض كلها ملعونة معه."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[41].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "المرد: أَسْأَلُكُ أَيُّهَا اَلصَّالِحُ أَنْ تَصْنَعَ مَعِي رَحْمَةَ كَعَظِيمٍ رَحْمَتكَ.",
+          "currentValue": "أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[42].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَأَمَّا اَلرَّجُلُ اَلَّذِي هُوَ آدَمْ، أَوَّلُ مِنْ سَكَنٍ فِي اَلْفِرْدَوْسِ، فَقَالَ لَهُ:",
+          "currentValue": "وأما الرجل الذى هو آدم، أول من سكن فى الفردوس، فقال له:",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "وأما الرجل الذى هو آدم، أول من سكن فى الفردوس، فقال له:"
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[43].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "مِنْ أَجْلِ أَنَّكَ سَمِعْتُ لِاِمْرَأَتِكَ، لُعِنَتْ اَلْأَرْضُ بِأَعْمَالِكَ.",
+          "currentValue": "من أجل أنك سمعت لامرأتك، لعنت الأرض بأعمالك.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "من أجل أنك سمعت لامرأتك، لعنت الأرض بأعمالك."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[44].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَتَعِيشَ يَا آدَمْ حَزِين اَلْقَلْبِ، وَالْأَرْضُ تَنْبُتُ لَكَ حَسْكَا وُشُوكًا.",
+          "currentValue": "وتعيش يا آدم حزين القلب، والأرض تنبت لك حسكاً وشوكاً.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "وتعيش يا آدم حزين القلب، والأرض تنبت لك حسكاً وشوكاً."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[45].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "ثُمَّ قَالَ لِحَوَّاءْ: سَتَلِدِينَ اَلْبَنِينَ بِالْأَحْزَانِ وَالتَّنَهُّدِ.",
+          "currentValue": "ثم قال لحواء: ستلدين البنين بالأحزان والتنهد.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "ثم قال لحواء: ستلدين البنين بالأحزان والتنهد."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[46].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَتَرْجِعِينَ إِلَيَّ رَجُلِكِ، وَهُوَ يَتَسَلَّطُ عَلَيْكِ.",
+          "currentValue": "وتشتاقين إلى بعلك، وهو يتسلط عليك.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "وتشتاقين إلى بعلك، وهو يتسلط عليك."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[47].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "المرد: أَسْأَلُكُ أَيُّهَا اَلصَّالِحُ أَنْ تَصْنَعَ مَعِي رَحْمَةَ كَعَظِيمٍ رَحْمَتكَ.",
+          "currentValue": "أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[48].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "ثُمَّ قَالَ اَلرَّبُّ: هُوذَا آدَمْ قَدْ صَارَ كَوَاحِدِ مِنَّا يَعْرِفُ اَلْخَيْرُ وَالشَّرُّ.",
+          "currentValue": "ثم قال الرب: هوذا آدم قد صار كواحد منا يعرف الخير والشر،",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "ثم قال الرب: هوذا آدم قد صار كواحد منا يعرف الخير والشر،"
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[49].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "فَلَا أَتْرُكُهُ فِي اَلْفِرْدَوْسِ لِئَلَّا يَمُدَّ يَمِينُهُ وَيَأْكُلُ مِنْ شَجَرَةِ اَلْحَيَاةِ.",
+          "currentValue": "فلا أتركه فى الفردوس لئلا يمد يمينه ويأكل من شجرة الحياة.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "فلا أتركه فى الفردوس لئلا يمد يمينه ويأكل من شجرة الحياة."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[50].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "فَأَخْرَجَ آدَمْ وَاِمْرَأَتُهُ مَعَهُ مِنْ فِرْدَوْسِ اَلنَّعِيمِ، وَجَعْلَ كَارُوبِيمْ وَسَيْفِ نَارٍ لِحِرَاسَةِ بَابِ اَلْفِرْدَوْسِ.",
+          "currentValue": "فأخرج آدم وامرأته معه من فردوس النعيم، وجعل كاروبيم وسيف نار لحراسة باب الفردوس.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "فأخرج آدم وامرأته معه من فردوس النعيم، وجعل كاروبيم وسيف نار لحراسة باب الفردوس."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[51].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "المرد: أَسْأَلُكُ أَيُّهَا اَلصَّالِحُ أَنْ تَصْنَعَ مَعِي رَحْمَةَ كَعَظِيمٍ رَحْمَتكَ.",
+          "currentValue": "أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "أسألك أيها الصالح أن تصنع معى رحمة كعظيم رحمتك."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[52].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "إِلَى أَيْنَ أَذْهَبُ مِنْ رُوحِكَ؟ وَإِلَى أَيْنَ أَهْرُبُ مِنْ وَجْهِكَ؟",
+          "currentValue": "إلى أين أذهب من روحك؟ وإلى أين أهرب من وجهك؟",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "إلى أين أذهب من روحك؟ وإلى أين أهرب من وجهك؟"
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[53].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "إِنَّ صَعَّدَتْ إِلَى اَلسَّمَوَاتِ، أَوْ إِلَى اَلْأَمَاكِنِ اَلسُّفْلِيَّةِ أَجِدُكُ هُنَاكَ.",
+          "currentValue": "ان صعدت إلى أعلى السموات، أو إلى الأماكن السفلية أجدك هناك.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "ان صعدت إلى أعلى السموات، أو إلى الأماكن السفلية أجدك هناك."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[54].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "فَمَضَى آدَمْ إِلَى مَكَانِ أَسْفَلَ أَمَام بَابِ اَلْفِرْدَوْسِ،",
+          "currentValue": "فمضى آدم إلى مكان أسفل أمام باب الفردوس،",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "فمضى آدم إلى مكان أسفل أمام باب الفردوس،"
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[55].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "لِيَحْرُثْ فِي اَلْأَرْضِ وَيَأْكُلُ ثَمَرَتَهَا لِأَنَّهُ سَقَطَ فِي خُدْعَةِ اَلْمُضِلِّ،",
+          "currentValue": "ليحرث فى الأرض ويأكل ثمرتها لأنه سقط فى خدعة المضل.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "ليحرث فى الأرض ويأكل ثمرتها لأنه سقط فى خدعة المضل."
+          }
+        },
+        {
+          "path": "[2].hours[3].sections[6].tables[1].tbodies[0].rows[56].cells[0].arabic",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "وَكَتَبَ عَلَى آدَمْ وَحَوَّاءْ كِتَابِ رِقِّ اَلْعُبُودِيَّةِ، لِأَنَّهُ اِتَّبَعَ هَوَاهُ هُوَ وَبَنُوهُ كُلَّهُمْ إِلَى كَمَالِ اَلدُّهُورِ.",
+          "currentValue": "وكتب على آدم وحواء كتاب رق العبودية، لأنه اتبع هواه هو وبنوه كلهم إلى كمال الدهور.",
+          "supersededBy": {
+            "changeId": "a174bf9e-5364-40e0-a299-657501b59827",
+            "approvedAt": "2026-03-24T14:18:55.416479+00:00",
+            "summary": "تصحيح لغوي والتشكيل - العظة",
+            "approvedValue": "وكتب على آدم وحواء كتاب رق العبودية، لأنه اتبع هواه هو وبنوه كلهم إلى كمال الدهور."
+          }
+        }
+      ]
+    },
+    {
+      "id": "42d7c9da-c1dd-4feb-b0c2-7f055a77201d",
+      "approvedAt": "2026-03-24T14:23:48.153816+00:00",
+      "approvedBy": "minaazer",
+      "requestedBy": "davidibrahim",
+      "summary": "general grammar edits",
+      "notReflectedPathCount": 2,
+      "reasons": [
+        {
+          "path": "[6].hours[0].sections[6].tables[1].tbodies[0].rows[3].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "If we leave him alone, everyone will believe in him and then the Romans will replace us.”",
+          "currentValue": "If we leave Him alone, everyone will believe in Him and then the Romans will replace us.”",
+          "supersededBy": {
+            "changeId": "1aa12d74-d183-4a90-8bb5-26eb2950c588",
+            "approvedAt": "2026-03-24T14:41:48.243801+00:00",
+            "summary": "additional grammar",
+            "approvedValue": "If we leave Him alone, everyone will believe in Him and then the Romans will replace us.”"
+          }
+        },
+        {
+          "path": "[6].hours[0].sections[6].tables[1].tbodies[0].rows[4].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "One of them who was Caiaphas, the chief priest of the Jews said, “ It is expedient for you that one man should die for the people and that the whole nation should not perish.”",
+          "currentValue": "One of them who was Caiaphas, the chief priest of the Jews said, “It is expedient for you that one man should die for the people and that the whole nation should not perish.”",
+          "supersededBy": {
+            "changeId": "a3878069-e9c9-4e63-8d87-02fd1015a6da",
+            "approvedAt": "2026-03-24T14:40:13.711654+00:00",
+            "summary": "additional grammar",
+            "approvedValue": "One of them who was Caiaphas, the chief priest of the Jews said, “It is expedient for you that one man should die for the people and that the whole nation should not perish.”"
+          }
+        }
+      ]
+    },
+    {
+      "id": "db846e2a-07ea-40c1-a699-c92316786ec9",
+      "approvedAt": "2026-03-24T14:24:45.108609+00:00",
+      "approvedBy": "minaazer",
+      "requestedBy": "davidibrahim",
+      "summary": "general grammar edits",
+      "notReflectedPathCount": 2,
+      "reasons": [
+        {
+          "path": "[6].hours[2].sections[6].tables[1].tbodies[0].rows[5].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "Mary then brought forth a pound of expensive fragrant oil, and she anointed his feet and wiped them with her hair.",
+          "currentValue": "Mary then brought forth a pound of expensive fragrant oil, and she anointed His feet and wiped them with her hair.",
+          "supersededBy": {
+            "changeId": "b81ffb53-c5b9-4720-a6a0-16d3b68aa228",
+            "approvedAt": "2026-03-24T14:38:43.372677+00:00",
+            "summary": "general grammar",
+            "approvedValue": "Mary then brought forth a pound of expensive fragrant oil, and she anointed His feet and wiped them with her hair."
+          }
+        },
+        {
+          "path": "[6].hours[2].sections[6].tables[1].tbodies[0].rows[13].cells[0].english",
+          "reason": "superseded_by_later_approval",
+          "approvedValue": "Let us come close to the Lord, run our tears down his feet, and ask him for his forgiveness according to his abundant mercy.",
+          "currentValue": "Let us come close to the Lord, run our tears down His feet, and ask Him for His forgiveness according to His abundant mercy.",
+          "supersededBy": {
+            "changeId": "b81ffb53-c5b9-4720-a6a0-16d3b68aa228",
+            "approvedAt": "2026-03-24T14:38:43.372677+00:00",
+            "summary": "general grammar",
+            "approvedValue": "Let us come close to the Lord, run our tears down His feet, and ask Him for His forgiveness according to His abundant mercy."
+          }
+        }
+      ]
+    }
+  ]
+}

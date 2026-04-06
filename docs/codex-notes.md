@@ -1,4 +1,24 @@
 Codex Handoff Notes
+**********************
+
+Download from online jsons
+npm run pull:editor:live:win -- -Bucket liturgicalbooks-json -Profile liturgicalbooks
+
+deploying local changes
+npm run validate:deploy:win -- -Bucket liturgicalbooks-json -DistributionId E3U8PRC9BR5M03 -Profile liturgicalbooks
+
+Deploy local to editor json changes commands (Windows)
+npm run deploy:jsons:editor:win -- -Bucket liturgicalbooks-json -DistributionId E3U8PRC9BR5M03 -Profile liturgicalbooks
+
+Add -SkipFetch to deploy current locals without pulling, 
+or -SkipValidate to skip validation.
+
+Important:
+- `deploy:jsons:editor:win` fetches from S3 first unless `-SkipFetch` is passed.
+- If local `data/jsons` has intentional changes you want to publish as-is, use:
+  - `npm run validate:deploy:win -- -Bucket liturgicalbooks-json -DistributionId E3U8PRC9BR5M03 -Profile liturgicalbooks`
+  - or `npm run deploy:jsons:editor:win -- -Bucket liturgicalbooks-json -DistributionId E3U8PRC9BR5M03 -Profile liturgicalbooks -SkipFetch`
+**********************
 
 Current goal
 - Migrate JSONs to S3 + CloudFront with cache + manifest updates.
@@ -46,6 +66,21 @@ JSON sync quick reference
 Validate + deploy schema (Windows)
 - Full flow: `npm run validate:deploy:win -- -Bucket liturgicalbooks-json -DistributionId E3U8PRC9BR5M03 -Profile liturgicalbooks`
 - Validates JSONs against `json-editor/schemas` (draft2020), rebuilds `data/jsons/manifest.json`, then runs the existing deploy script (respects `-DryRun`/`-Delete`). Set AWS profile via `-Profile liturgicalbooks` or `$env:AWS_PROFILE="liturgicalbooks"` to avoid CLI profile errors.
+- Preferred when you have local JSON edits that should be deployed without first refetching from S3.
+
+Approval / audit helper commands
+- Export approval + audit data:
+  - `python json-editor/scripts/export_approval_report.py`
+- Compare approved `holyWeek.json` changes against current local JSON:
+  - `python json-editor/scripts/check_approved_changes_reflected.py`
+- Analyze `holyWeek.json` approvals from the last 30 days and classify why some are not reflected:
+  - `python json-editor/scripts/analyze_recent_holyweek_unreflected.py`
+- Reports are written under:
+  - `reports/approval-export/approval-summary.json`
+  - `reports/approval-export/approval-report.csv`
+  - `reports/approval-export/approval-report.json`
+  - `reports/approval-export/holyWeek-approved-reflection.json`
+  - `reports/approval-export/holyWeek-unreflected-last-30-days.json`
 
 JSON editor (AWS hosted)
 - Generated initial JSON Schemas from `data/jsons` into `json-editor/schemas` with `scripts/infer_json_schemas.py`.
@@ -53,6 +88,10 @@ JSON editor (AWS hosted)
 - Backend scaffold in `json-editor/backend` (SAM template, Lambda API, Cognito groups, DynamoDB audit).
 - Deployment notes in `json-editor/README.md`.
 - PowerShell helpers: `json-editor/scripts/create_user.ps1` and `json-editor/scripts/deploy_frontend.ps1`.
+- Approval/audit helpers:
+  - `json-editor/scripts/export_approval_report.py`
+  - `json-editor/scripts/check_approved_changes_reflected.py`
+  - `json-editor/scripts/analyze_recent_holyweek_unreflected.py`
 - Deployed backend (us-east-1) outputs:
   - ApiUrl: https://hidzdpp67k.execute-api.us-east-1.amazonaws.com
   - UserPoolId: us-east-1_xVLzQSkqL
@@ -79,12 +118,6 @@ JSON editor (AWS hosted)
 - User management enforces exactly one role per user.
 
 
-**********************
-Deploy editor json changes commands (Windows)
-npm run deploy:jsons:editor:win -- -Bucket liturgicalbooks-json -DistributionId E3U8PRC9BR5M03 -Profile liturgicalbooks
-
-Add -SkipFetch to deploy current locals without pulling, 
-or -SkipValidate to skip validation.
 **********************
 
 - Dry run (PowerShell parameters): `npm run deploy:jsons:win -- -Bucket liturgicalbooks-json -DistributionId E3U8PRC9BR5M03 -Profile liturgicalbooks -DryRun`

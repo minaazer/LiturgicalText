@@ -1052,6 +1052,11 @@ h1, h2, h3 {
   line-height: 1.4;
 }
 
+.requester-name {
+  font-weight: 700;
+  color: #1f2b3a;
+}
+
 .users-panel {
   background: #fff;
   border-radius: 12px;
@@ -1334,6 +1339,32 @@ h1, h2, h3 {
   white-space: pre-wrap;
   word-break: break-word;
   font-family: "Georgia", "Times New Roman", serif;
+}
+
+.diff-inline-text {
+  margin: 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-family: "Georgia", "Times New Roman", serif;
+  line-height: 1.45;
+  flex: 1;
+}
+
+.diff-inline-added {
+  font-weight: 700;
+  background: rgba(31, 91, 44, 0.14);
+  border-radius: 4px;
+}
+
+.diff-inline-removed {
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+  background: rgba(138, 28, 28, 0.12);
+  border-radius: 4px;
+}
+
+.diff-inline-same {
+  font-weight: 400;
 }
 
 .diff-summary-cell.before {

@@ -1,6 +1,9 @@
 import React from "react";
 
-const PendingChanges = ({ changes, onSelect, onSubmit, selectedId, loadingId }) => {
+const getRequesterDisplayName = (change) =>
+  change?.requestedByName || change?.requestedBy || "Unknown";
+
+const PendingChanges = ({ changes, onSelect, onSubmit, onApproveAll, selectedId, loadingId }) => {
   return (
     <div className="pending">
       <div className="pending-header">
@@ -17,7 +20,9 @@ const PendingChanges = ({ changes, onSelect, onSubmit, selectedId, loadingId }) 
               <div className="pending-top">
                 <div className="pending-path">
                   <strong>{change.path}</strong>
-                  <span className="muted">Requested by {change.requestedBy || "Unknown"}</span>
+                  <span className="muted">
+                    Requested by <strong className="requester-name">{getRequesterDisplayName(change)}</strong>
+                  </span>
                 </div>
                 <button type="button" className="secondary" onClick={() => onSelect?.(change.id)} disabled={isLoading}>
                   {isLoading ? "Loading..." : isActive ? "Viewing" : "View"}
@@ -25,6 +30,14 @@ const PendingChanges = ({ changes, onSelect, onSubmit, selectedId, loadingId }) 
               </div>
               <div className="pending-summary muted">{change.summary || "No summary provided"}</div>
               <div className="pending-actions">
+                <button
+                  type="button"
+                  className="secondary"
+                  onClick={() => onApproveAll?.(change.id)}
+                  disabled={isLoading}
+                >
+                  {isLoading ? "Submitting..." : "Approve All + Submit"}
+                </button>
                 <button
                   type="button"
                   onClick={() => onSubmit?.(change.id)}

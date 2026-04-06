@@ -1,0 +1,1461 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:Document xmlns:ns0="http://www.suscopts.org/CopticReader" Agpeya="true">
+   <ns0:Title>
+      <ns0:Language id="English">The Ninth Hour (None)</ns0:Language>
+      <ns0:Language id="Arabic">صلاةُ الساعةِ التاسِعةِِ</ns0:Language>
+   </ns0:Title>
+   
+   <ns0:Comment>
+      <ns0:Language id="English">
+         3:00 PM: To commemorate the death of our Lord Jesus Christ on the Cross and the acceptance of the thief on the right.
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         تُقابلُ الثالِثةَ بعدَ الظُّهرِ بالتوقيتِ الفِرنجي. رُتِّبَتْ بمُناسبةِ موتِ المسيحِ بالجسدِ في مثلِ هذهِ الساعةِ، وقُبولِ اللصِّ اليمينِ.
+      </ns0:Language>
+   </ns0:Comment>
+            
+   <ns0:Title>
+      <ns0:Language id="English">Introduction of Every Hour</ns0:Language>
+      <ns0:Language id="Arabic">مُقدِمةُ كلِّ ساعةٍ</ns0:Language>
+   </ns0:Title>
+    
+   <ns0:Text>
+      <ns0:Language id="Coptic">
+         Ϧⲉⲛ ⲫ̀ⲣⲁⲛ ⲙ̀Ⲫⲓⲱⲧ ⲛⲉⲙ Ⲡϣⲏⲣⲓ ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ ⲟⲩⲛⲟⲩϯ ⲛ̀ⲟⲩⲱⲧ: ⲁ̀ⲙⲏⲛ.
+      </ns0:Language>
+      <ns0:Language id="English">
+         In the name of the Father and the Son and the Holy Spirit, one God. Amen.
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         باسمِ الآبِ والابنِ والرّوحِ القُدُسِ الإلهِ الواحدِ. آمين.
+      </ns0:Language>
+   </ns0:Text>
+<ns0:Text>
+      <ns0:Language id="English">
+         <ns0:span class="Coptic">Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ</ns0:span>. Lord have mercy. Lord have mercy. Lord bless us. Amen.
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         <ns0:span class="Coptic">Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ.</ns0:span>  ياربُّ ارحَمْ. ياربُّ ارحَمْ. ياربُّ بارِكْ. آمين.
+      </ns0:Language>
+   </ns0:Text>
+   
+   <ns0:Text>
+      <ns0:Language id="English">
+         Glory to the Father, and to the Son, and to the Holy Spirit. Now and ever and unto the ages of the ages. Amen.
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         المجدُ للآبِ والابنِ والرّوحِ القُدُسِ الآنَ وكلَّ أوانٍ وإلى دهرِ الدهورِ. آمين.
+      </ns0:Language>
+   </ns0:Text>
+<ns0:Section expanded="true">
+      <ns0:Title>
+      <ns0:Language id="English">Our Father</ns0:Language>
+      <ns0:Language id="Arabic">أبانا الذي</ns0:Language>
+   </ns0:Title>
+   
+   <ns0:Text>
+      <ns0:Language id="Coptic">
+         Ⲁⲣⲓⲧⲉⲛ ⲛ̀ⲉⲙⲡ̀ϣⲁ ⲛ̀ϫⲟⲥ ϧⲉⲛ ⲟⲩϣⲉⲡϩ̀ⲙⲟⲧ:
+      </ns0:Language>
+      <ns0:Language id="English">
+         Make us worthy to pray thankfully:
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         اللهُمَّ اجعلْنا مُستحقينَ أن نقولَ بشكرٍ:
+      </ns0:Language>
+   </ns0:Text>
+   
+   <ns0:Text>
+      <ns0:Language id="Coptic">
+         Ϫⲉ Ⲡⲉⲛⲓⲱⲧ ⲉⲧ ϧⲉⲛ ⲛⲓⲫⲏⲟⲩⲓ: ⲙⲁⲣⲉϥⲧⲟⲩⲃⲟ ⲛ̀ϫⲉ ⲡⲉⲕⲣⲁⲛ: 
+      </ns0:Language>
+      <ns0:Language id="English">
+         Our Father who art in heaven, hallowed be Thy name.
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         أبانا الذي في السماواتِ ليتقدسِ اسمُكَ،
+      </ns0:Language>
+   </ns0:Text>
+   
+   <ns0:Text>
+      <ns0:Language id="Coptic">
+         Ⲙⲁⲣⲉⲥⲓ̀ ⲛ̀ϫⲉ ⲧⲉⲕⲙⲉⲧⲟⲩⲣⲟ: ⲡⲉⲧⲉϩⲛⲁⲕ ⲙⲁⲣⲉϥϣⲱⲡⲓ: ⲙ̀ⲫ̀ⲣⲏϯ ϧⲉⲛ ⲧ̀ⲫⲉ ⲛⲉⲙ ϩⲓϫⲉⲛ ⲡⲓⲕⲁϩⲓ:  
+      </ns0:Language>
+      <ns0:Language id="English">
+         Thy kingdom come, Thy will be done, on earth as it is in heaven.
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         ليأتِ ملكوتُكَ، لتكُن مشيئتُكَ، كما في السماءِ كذلكَ على الأرضِ،
+      </ns0:Language>
+   </ns0:Text>
+   
+   <ns0:Text>
+      <ns0:Language id="Coptic">
+         Ⲡⲉⲛⲱⲓⲕ ⲛ̀ⲧⲉ ⲣⲁⲥϯ ⲙⲏⲓϥ ⲛⲁⲛ ⲙ̀ⲫⲟⲟⲩ: ⲟⲩⲟϩ ⲭⲁ ⲛⲏⲉ̀ⲧⲉⲣⲟⲛ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ: ⲙ̀ⲫ̀ⲣⲏϯ ϩⲱⲛ ⲛ̀ⲧⲉⲛⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲛⲏⲉ̀ⲧⲉ ⲟⲩⲟⲛ ⲛ̀ⲧⲁⲛ ⲉ̀ⲣⲱⲟⲩ: ⲟⲩⲟϩ ⲙ̀ⲡⲉⲣⲉⲛⲧⲉⲛ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲡⲓⲣⲁⲥⲙⲟⲥ ⲁⲗⲗⲁ ⲛⲁϩⲙⲉⲛ ⲉ̀ⲃⲟⲗ ϩⲁ ⲡⲓⲡⲉⲧϩⲱⲟⲩ.  
+      </ns0:Language>
+      <ns0:Language id="English">
+         Give us this day our daily bread and forgive us our trespasses, as we forgive those who trespass against us and lead us not into temptation, but deliver us from the evil one.
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         خبزَنا الذي للغدِّ أعطِنا اليومَ، واغفِرْ لنا ذنوبَنا كما نغفِرُ نحنُ أيضاً للمُذنبينَ إلينا، ولا تُدخِلنا في تجرِبةٍ لكِنْ نجِّنا مِنَ الشريرِ،
+      </ns0:Language>
+   </ns0:Text>
+   
+   <ns0:Text>
+      <ns0:Language id="Coptic">
+         Ϧⲉⲛ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲓⲏⲥⲟⲩⲥ Ⲡⲉⲛϭⲟⲓⲥ: ϫⲉ ⲑⲱⲕ ⲧⲉ ϯⲙⲉⲧⲟⲩⲣⲟ ⲛⲉⲙ ϯϫⲟⲙ ⲛⲉⲙ ⲡⲓⲱ̀ⲟⲩ ϣⲁ ⲉ̀ⲛⲉϩ: ⲁ̀ⲙⲏⲛ.  
+      </ns0:Language>
+      <ns0:Language id="English">
+         In Christ Jesus our Lord. For Thine is the kingdom, and the power, and the glory, forever. Amen.
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         بالمسيحِ يسوعَ ربِّنا. لأنَّ لكَ المُلكَ والقوةَ والمجدَ إلى الأبدِ. آمين.
+      </ns0:Language>
+   </ns0:Text>
+</ns0:Section>
+<ns0:Section expanded="true">
+      <ns0:Title>
+         <ns0:Language id="English">The Prayer of Thanksgiving</ns0:Language>
+         <ns0:Language id="Arabic">صلاةُ الشكر</ns0:Language>
+      </ns0:Title>
+
+      <ns0:Text>
+      <ns0:Language id="Coptic">
+         Ⲙⲁⲣⲉⲛϣⲉⲡϩ̀ⲙⲟⲧ ⲛ̀ⲧⲟⲧϥ ⲙ̀ⲡⲓⲣⲉϥⲉⲣⲡⲉⲑⲛⲁⲛⲉϥ ⲟⲩⲟϩ ⲛ̀ⲛⲁⲏⲧ: Ⲫⲛⲟⲩϯ Ⲫⲓⲱⲧ ⲙ̀Ⲡⲉⲛϭⲟⲓⲥ ⲟⲩⲟϩ Ⲡⲉⲛⲛⲟⲩϯ ⲟⲩⲟϩ ⲡⲉⲛⲥⲱⲧⲏⲣ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ. 
+      </ns0:Language>
+      <ns0:Language id="English">
+         Let us give thanks to the beneficent and merciful God, the Father of our Lord, God, and Savior Jesus Christ.
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         فلنشكرْ صانعَ الخيراتِ، الرحومَ اللهَ أبا ربِّنا وإلَهِنا ومخلِّصِنا يسوعَ المسيحِ.
+      </ns0:Language>         
+   </ns0:Text>   
+   
+   <ns0:Text>
+      <ns0:Language id="Coptic">
+         Ϫⲉ ⲁϥⲉⲣⲥ̀ⲕⲉⲡⲁⲍⲓⲛ ⲉ̀ϫⲱⲛ: ⲁϥⲉⲣⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲛ: ⲁϥⲁ̀ⲣⲉϩ ⲉ̀ⲣⲟⲛ: ⲁϥϣⲟⲡⲧⲉⲛ ⲉ̀ⲣⲟϥ ⲁϥϯⲁ̀ⲥⲟ ⲉ̀ⲣⲟⲛ: ⲁϥϯⲧⲟⲧⲉⲛ ⲁϥⲉⲛⲧⲉⲛ ϣⲁ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ⲧⲁⲓⲟⲩⲛⲟⲩ ⲑⲁⲓ.
+      </ns0:Language>
+      <ns0:Language id="English">
+         For He has covered us, helped us, guarded us, accepted us to Himself, spared us, supported us, and has brought us to this hour.
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         لأنهُ سترَنا وأعانَنا وحفظَنا وقبلَنا إليهِ وأشفقَ علَينا وعضدَنا وأتى بِنا إلى هذهِ الساعةِ.
+      </ns0:Language>         
+   </ns0:Text>
+   
+   <ns0:Text>
+      <ns0:Language id="Coptic">
+         Ⲛⲑⲟϥ ⲟⲛ ⲙⲁⲣⲉⲛϯϩⲟ ⲉ̀ⲣⲟϥ ϩⲟⲡⲱⲥ ⲛ̀ⲧⲉϥⲁ̀ⲣⲉϩ ⲉ̀ⲣⲟⲛ: ϧⲉⲛ ⲡⲁⲓⲉ̀ϩⲟⲟⲩ ⲉⲑⲟⲩⲁⲃ ⲫⲁⲓ ⲛⲉⲙ ⲛⲓⲉ̀ϩⲟⲟⲩ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲡⲉⲛⲱⲛϧ: ϧⲉⲛ ϩⲓⲣⲏⲛⲏ ⲛⲓⲃⲉⲛ: ⲛ̀ϫⲉ ⲡⲓⲡⲁⲛⲧⲟⲕⲣⲁⲧⲱⲣ Ⲡϭⲟⲓⲥ Ⲡⲉⲛⲛⲟⲩϯ.
+      </ns0:Language>
+      <ns0:Language id="English">
+         Let us also ask Him, the Lord our God, the Pantocrator, to guard us in all peace this holy day and all the days of our life.
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         هو أيضاً فلنسألْهُ أن يحفظَنا في هذا اليومِ المُقدسِ، وكلِّ أيامِ حياتِنا بكلِّ سلامٍ، الضابطَ الكلِّ الربَّ إلهَنا.
+      </ns0:Language>         
+   </ns0:Text>
+<ns0:Text>
+      <ns0:Language id="Coptic">
+         Ⲫⲛⲏⲃ Ⲡϭⲟⲓⲥ Ⲫⲛⲟⲩϯ ⲡⲓⲡⲁⲛⲧⲟⲕⲣⲁⲧⲱⲣ: Ⲫⲓⲱⲧ ⲙ̀Ⲡⲉⲛϭⲟⲓⲥ ⲟⲩⲟϩ Ⲡⲉⲛⲛⲟⲩϯ ⲟⲩⲟϩ ⲡⲉⲛⲥⲱⲧⲏⲣ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ. 
+      </ns0:Language>
+      <ns0:Language id="English">
+         O Master, Lord, God the Pantocrator, the Father of our Lord, God, and Savior Jesus Christ,
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         أيها السيدُ الربُّ الإلهُ ضابطُ الكلِّ، أبو ربِّنا وإلَهِنا ومخلِّصِنا يسوعَ المسيحِ.
+      </ns0:Language>         
+   </ns0:Text>   
+   
+   <ns0:Text>
+      <ns0:Language id="Coptic">
+         Ⲧⲉⲛϣⲉⲡϩ̀ⲙⲟⲧ ⲛ̀ⲧⲟⲧⲕ ⲕⲁⲧⲁ ϩⲱⲃ ⲛⲓⲃⲉⲛ ⲛⲉⲙ ⲉⲑⲃⲉ ϩⲱⲃ ⲛⲓⲃⲉⲛ ⲛⲉⲙ ϧⲉⲛ ϩⲱⲃ ⲛⲓⲃⲉⲛ.
+      </ns0:Language>
+      <ns0:Language id="English">
+         we thank You for everything, concerning everything, and in everything.
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         نشكرُكَ على كلِّ حالٍ، ومِنْ أجلِ كلِّ حالٍ، وفي كلِّ حالٍ.
+      </ns0:Language>         
+   </ns0:Text>
+   
+   <ns0:Text>
+      <ns0:Language id="Coptic">
+         Ϫⲉ ⲁⲕⲉⲣⲥ̀ⲕⲉⲡⲁⲍⲓⲛ ⲉ̀ϫⲱⲛ: ⲁⲕⲉⲣⲃⲟⲏ̀ⲑⲓⲛ ⲉ̀ⲣⲟⲛ: ⲁⲕⲁ̀ⲣⲉϩ ⲉ̀ⲣⲟⲛ: ⲁⲕϣⲟⲡⲧⲉⲛ ⲉ̀ⲣⲟⲕ: ⲁⲕϯⲁ̀ⲥⲟ ⲉ̀ⲣⲟⲛ: ⲁⲕϯⲧⲟⲧⲉⲛ ⲁⲕⲉⲛⲧⲉⲛ ϣⲁ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ⲧⲁⲓⲟⲩⲛⲟⲩ ⲑⲁⲓ.
+      </ns0:Language>
+      <ns0:Language id="English">
+         For You have covered us, helped us, guarded us, accepted us to Yourself, spared us, supported us, and have brought us to this hour.
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         لأنكَ سترتَنا وأعنتَنا وحفظتَنا، وقبلتَنا إليكَ، وأشفقتَ علينا وعضَّدتَنا وأتيتَ بنا إلى هذهِ الساعةِ.
+      </ns0:Language>         
+   </ns0:Text>
+<ns0:Text>
+      <ns0:Language id="Coptic">
+         Ⲉⲑⲃⲉ ⲫⲁⲓ ⲧⲉⲛϯϩⲟ ⲟⲩⲟϩ ⲧⲉⲛⲧⲱⲃϩ ⲛ̀ⲧⲉⲕⲙⲉⲧⲁ̀ⲅⲁⲑⲟⲥ ⲡⲓⲙⲁⲓⲣⲱⲙⲓ: ⲙⲏⲓⲥ ⲛⲁⲛ ⲉⲑⲣⲉⲛϫⲱⲕ ⲉ̀ⲃⲟⲗ ⲙ̀ⲡⲁⲓⲕⲉⲉ̀ϩⲟⲟⲩ ⲉⲑⲟⲩⲁⲃ ⲫⲁⲓ: ⲛⲉⲙ ⲛⲓⲉ̀ϩⲟⲟⲩ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲡⲉⲛⲱⲛϧ: ϧⲉⲛ ϩⲓⲣⲏⲛⲏ ⲛⲓⲃⲉⲛ ⲛⲉⲙ ⲧⲉⲕϩⲟϯ.
+      </ns0:Language>
+      <ns0:Language id="English">
+         Therefore, we ask and entreat Your goodness, O Lover of Mankind, grant us to complete this holy day and all the days of our life in all peace with Your fear.
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         مِنْ أجلِ هذا نسألُ ونطلبُ مِنْ صلاحِكَ يا محبَّ البشرِ، امنحنا أن نكمِّلَ هذا اليومَ المُقدسَ، وكلَّ أيامِ حياتِنا بكلِّ سلامٍ معَ خوفِكَ.
+      </ns0:Language>         
+   </ns0:Text>
+   
+   <ns0:Text>
+      <ns0:Language id="Coptic">
+         Ⲫⲑⲟⲛⲟⲥ ⲛⲓⲃⲉⲛ: ⲡⲓⲣⲁⲥⲙⲟⲥ ⲛⲓⲃⲉⲛ: ⲉ̀ⲛⲉⲣⲅⲓⲁ ⲛⲓⲃⲉⲛ ⲛ̀ⲧⲉ ⲡ̀ⲥⲁⲧⲁⲛⲁⲥ: ⲡ̀ⲥⲟϭⲛⲓ ⲛ̀ⲧⲉ ϩⲁⲛⲣⲱⲙⲓ ⲉⲩϩⲱⲟⲩ: ⲛⲉⲙ ⲡ̀ⲧⲱⲛϥ ⲉ̀ⲡ̀ϣⲱⲓ ⲛ̀ⲧⲉ ϩⲁⲛϫⲁϫⲓ ⲛⲏⲉⲧϩⲏⲡ ⲛⲉⲙ ⲛⲏⲉⲑⲟⲩⲱⲛϩ ⲉ̀ⲃⲟⲗ.
+      </ns0:Language>
+      <ns0:Language id="English">
+         All envy, all temptation, all the work of Satan, the counsel of wicked men and the rising up of enemies, hidden and manifest,
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         كلُّ حسدٍ وكلُّ تجربةٍ وكلُّ فعلِ الشيطانِ، ومؤامرةُ الناسِ الأشرارِ، وقيامُ الأعداءِ الخفيينَ والظاهرينَ
+      </ns0:Language>         
+   </ns0:Text>
+   
+   <ns0:Group>
+      <ns0:Season id="!Agpeya">
+         <ns0:Comment>         
+            <ns0:Language id="English">
+               The priest bows his head toward the East and signs himself with the sign of the cross, saying:
+            </ns0:Language>
+            <ns0:Language id="Arabic">
+               يطامن الكاهن رأسه إلى الشرق ويرشم ذاته بمثال الصليب قائلاً:
+            </ns0:Language>         
+         </ns0:Comment>         
+      </ns0:Season>
+   </ns0:Group>
+   
+   <ns0:Text>
+      <ns0:Language id="Coptic">
+         ⲁ̀ⲗⲓⲧⲟⲩ ⲉ̀ⲃⲟⲗϩⲁⲣⲟⲛ.
+      </ns0:Language>
+      <ns0:Language id="English">
+         take them away from us
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         انزعْها عنَّا.
+      </ns0:Language>         
+   </ns0:Text>
+   
+   <ns0:Group>
+      <ns0:Season id="!Agpeya">
+         <ns0:Comment>         
+            <ns0:Language id="English">
+               Then he turns toward the west from his right and makes the sign of the cross over the people, saying the following. If the Pope, a metropolitan, or a bishop is present, he makes the sign of the cross over the people and says the following instead of the priest.
+            </ns0:Language>
+            <ns0:Language id="Arabic">
+               ثم يلتفت إلى الغرب عن يمينه ويرشم الشعب قائلاً:[إذا كان الأب البابا أو المطران أو الأسقف حاضراً فهو الذي يرشم الشعب ويقول ذلك.]
+            </ns0:Language>         
+         </ns0:Comment>
+      </ns0:Season>
+   </ns0:Group>
+   
+   <ns0:Text>
+      <ns0:Language id="Coptic">
+         ⲛⲉⲙ ⲉ̀ⲃⲟⲗϩⲁ ⲡⲉⲕⲗⲁⲟⲥ ⲧⲏⲣϥ
+      </ns0:Language>
+      <ns0:Language id="English">
+         and from all Your people,
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         وعن سائرِ شعبِكَ.
+      </ns0:Language>         
+   </ns0:Text>
+   
+   <ns0:Group>
+      <ns0:Season id="Baptism | Unction | LiturgyOfTheWaters | Engagement | Crowning | FuneralPrayer | GeneralFuneralPrayer | Ordination">
+         <ns0:Group>
+            <ns0:Season id="ConsecrationOfWaters | BathingPrayer | LiturgyOfTheWaters">
+               <ns0:Text>
+                  <ns0:Language id="Coptic">
+                     ⲛⲉⲙ ⲉ̀ⲃⲟⲗ ϩⲁ ⲧⲁⲓⲕⲟⲗⲩⲙⲃⲏⲑⲣⲁ ⲑⲁⲓ
+                  </ns0:Language>
+                  <ns0:Language id="English">
+                     and from this basin,
+                  </ns0:Language>
+                  <ns0:Language id="Arabic">
+                     وعن هذه الفسقيةِ.
+                  </ns0:Language>         
+               </ns0:Text>
+            </ns0:Season>
+            
+            <ns0:Season id="AbsolutionOfWoman">
+               <ns0:Text>
+                  <ns0:Language id="Coptic">
+                     ⲛⲉⲙ ⲉ̀ⲃⲟⲗ ϩⲁ ⲧⲁⲓⲥ̀ϩⲓⲙⲓ ⲑⲁⲓ:
+                  </ns0:Language>
+                  <ns0:Language id="English">
+                     and from this woman,
+                  </ns0:Language>
+                  <ns0:Language id="Arabic">
+                     وعن هذه المرأةِ.
+                  </ns0:Language>         
+               </ns0:Text>
+            </ns0:Season>
+            
+            <ns0:Season id="Unction">
+               <ns0:Text>
+                  <ns0:Language id="Coptic">
+                     ⲛⲉⲙ ⲉ̀ⲃⲟⲗ ϩⲁ ⲫⲁⲓ ⲉⲧϣⲱⲛⲓ 
+                  </ns0:Language>
+                  <ns0:Language id="English">
+                     and from this infirm person,
+                  </ns0:Language>
+                  <ns0:Language id="Arabic">
+                     وعن هذا المريضِ.
+                  </ns0:Language>         
+               </ns0:Text>
+            </ns0:Season>
+            
+            <ns0:Season id="Engagement">
+               <ns0:Text>
+                  <ns0:Language id="Coptic">
+                     ⲛⲉⲙ ⲉ̀ⲃⲟⲗϩⲁ ⲫⲁⲓ ⲉⲧⲁϥⲱⲡ ⲛ̀ⲥⲁ ⲑⲁⲓ
+                  </ns0:Language>
+                  <ns0:Language id="English">
+                     and from this betrothed couple,
+                  </ns0:Language>
+                  <ns0:Language id="Arabic">
+                     وعن هذين الخطيبين
+                  </ns0:Language>
+               </ns0:Text>
+            </ns0:Season>
+            
+            <ns0:Season id="Crowning">
+               <ns0:Text>
+                  <ns0:Language id="Coptic">
+                     ⲛⲉⲙ ⲉ̀ⲃⲟⲗ ϩⲁ ⲛⲁⲓⲡⲁⲧϣⲉⲗⲉⲧ ⲛⲁⲓ
+                  </ns0:Language>
+                  <ns0:Language id="English">
+                     and from this bridegroom and bride,
+                  </ns0:Language>
+                  <ns0:Language id="Arabic">
+                     وعن هذين العروسين.
+                  </ns0:Language>         
+               </ns0:Text>
+            </ns0:Season>
+            
+            <ns0:Season id="(FuneralPrayer ^ !FuneralMemorial) | GeneralFuneralPrayer">
+               <ns0:Text>
+                  <ns0:Language id="Coptic">
+                     ⲛⲉⲙ ⲉ̀ⲃⲟⲗ ϩⲁ ⲧⲁⲓⲯⲩⲭⲏ ⲑⲁⲓ 
+                  </ns0:Language>
+                  <ns0:Language id="English">
+                     and from this soul,
+                  </ns0:Language>
+                  <ns0:Language id="Arabic">
+                     وعن هذه النفسِ.
+                  </ns0:Language>         
+               </ns0:Text>
+            </ns0:Season>
+            
+            <ns0:Season id="Ordination">
+               <ns0:Text>
+                  <ns0:Language id="English">
+                     and from this Your servant,
+                  </ns0:Language>
+                  <ns0:Language id="Arabic">
+                     وعن عبدك هذا.
+                  </ns0:Language>         
+               </ns0:Text>
+            </ns0:Season>
+         </ns0:Group>
+         
+         <ns0:Group>
+            <ns0:Season id="!Agpeya">
+               <ns0:Comment>         
+                  <ns0:Language id="English">
+                     Then he turns towards the East, making the sign of the cross, saying:
+                  </ns0:Language>
+                  <ns0:Language id="Arabic">
+                     ثم يلتفت إلى الشرق قائلا:
+                  </ns0:Language>         
+               </ns0:Comment>
+            </ns0:Season>
+         </ns0:Group>
+      </ns0:Season>
+
+      <ns0:Season id="HomeBlessing">
+         <ns0:Text>
+            <ns0:Language id="Coptic">
+               ⲛⲉⲙ ⲉ̀ⲃⲟⲗϩⲁ ⲡⲁⲓⲏⲓ ⲫⲁⲓ
+            </ns0:Language>
+            <ns0:Language id="English">
+               and from this house,
+            </ns0:Language>
+            <ns0:Language id="Arabic">
+               وعن هذا البيتِ.
+            </ns0:Language>
+         </ns0:Text>
+      </ns0:Season>
+
+      <ns0:Season id="!OfferingOfLamb ^ !Agpeya ^ !Ordination">
+         <ns0:Text>
+            <ns0:Language id="Coptic">
+               ⲛⲉⲙ ⲉ̀ⲃⲟⲗϩⲁ ⲧⲁⲓⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀ ⲑⲁⲓ
+            </ns0:Language>
+            <ns0:Language id="English">
+               and from this church,
+            </ns0:Language>
+            <ns0:Language id="Arabic">
+               وعن هذه الكنيسةِ.
+            </ns0:Language>         
+         </ns0:Text>
+         
+         <ns0:Comment>         
+            <ns0:Language id="English">
+               Then he turns toward the East, making the sign of the cross on the altar, saying:
+            </ns0:Language>
+            <ns0:Language id="Arabic">
+               ثم يلتفت إلى الشرق ويرشم على المذبح قائلاً:
+            </ns0:Language>         
+         </ns0:Comment>
+      </ns0:Season>
+   </ns0:Group>
+   
+   <ns0:Group>
+      <ns0:Season id="OfferingOfLamb">
+         <ns0:Text>
+            <ns0:Language id="Coptic">
+               ⲛⲉⲙ ⲉ̀ⲃⲟⲗϩⲁ ⲧⲁⲓⲧ̀ⲣⲁⲡⲉⲍⲁ ⲑⲁⲓ
+            </ns0:Language>
+            <ns0:Language id="English">
+               and from this table,
+            </ns0:Language>
+            <ns0:Language id="Arabic">
+               وعن هذه المائدة،
+            </ns0:Language>         
+         </ns0:Text>
+      </ns0:Season>
+   </ns0:Group>
+   
+   <ns0:Text>
+      <ns0:Language id="Coptic">
+         ⲛⲉⲙ ⲉ̀ⲃⲟⲗϩⲁ ⲡⲁⲓⲙⲁ ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲁⲕ ⲫⲁⲓ.
+      </ns0:Language>
+      <ns0:Language id="English">
+         and from this Your holy place.
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         وعن موضعِكَ المُقدسِ هذا.
+      </ns0:Language>         
+   </ns0:Text>
+   
+   <ns0:Text>
+      <ns0:Language id="Coptic">
+         Ⲛⲏ ⲇⲉ ⲉⲑⲛⲁⲛⲉⲩ ⲛⲉⲙ ⲛⲏⲉⲧⲉⲣⲛⲟϥⲣⲓ ⲥⲁϩⲛⲓ ⲙ̀ⲙⲱⲟⲩ ⲛⲁⲛ: ϫⲉ ⲛ̀ⲑⲟⲕ ⲡⲉ ⲉ̀ⲧⲁⲕϯ ⲙ̀ⲡⲓⲉⲣϣⲓϣⲓ ⲛⲁⲛ: ⲉ̀ϩⲱⲙⲓ ⲉ̀ϫⲉⲛ ⲛⲓϩⲟϥ ⲛⲉⲙ ⲛⲓϭ̀ⲗⲏ: ⲛⲉⲙ ⲉ̀ϫⲉⲛ ϯϫⲟⲙ ⲧⲏⲣⲥ ⲛ̀ⲧⲉ ⲡⲓϫⲁϫⲓ.
+      </ns0:Language>
+      <ns0:Language id="English">
+         But those things which are good and profitable do provide for us, for it is You who have given us the authority to tread on serpents and scorpions, and upon all the power of the enemy.
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         أمَّا الصالحاتُ والنافعاتُ فارزقنا إياها لأنكَ أنتَ الذي أعطيتَنا السلطانَ أن ندوسَ على الحياتِ والعقاربَ وعلى كلِّ قوةِ العدوِ.
+      </ns0:Language>         
+   </ns0:Text>
+<ns0:Text>
+      <ns0:Language id="Coptic">
+         Ⲟⲩⲟϩ ⲙ̀ⲡⲉⲣⲉⲛⲧⲉⲛ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲡⲓⲣⲁⲥⲙⲟⲥ: ⲁⲗⲗⲁ ⲛⲁϩⲙⲉⲛ ⲉ̀ⲃⲟⲗϩⲁ ⲡⲓⲡⲉⲧϩⲱⲟⲩ.
+      </ns0:Language>
+      <ns0:Language id="English">
+         And lead us not into temptation, but deliver us from the evil one,
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         ولا تُدْخِلْنا في تجربةٍ لكن نَجِّنا مِنَ الشريرِ.
+      </ns0:Language>         
+   </ns0:Text>
+<ns0:Text>
+      <ns0:Language id="Coptic">
+         Ϧⲉⲛ ⲡⲓϩ̀ⲙⲟⲧ ⲛⲉⲙ ⲛⲓⲙⲉⲧϣⲉⲛϩⲏⲧ ⲛⲉⲙ ϯⲙⲉⲧⲙⲁⲓⲣⲱⲙⲓ ⲛ̀ⲧⲉ ⲡⲉⲕⲙⲟⲛⲟⲅⲉⲛⲏⲥ ⲛ̀Ϣⲏⲣⲓ: Ⲡⲉⲛϭⲟⲓⲥ ⲟⲩⲟϩ Ⲡⲉⲛⲛⲟⲩϯ ⲟⲩⲟϩ ⲡⲉⲛⲥⲱⲧⲏⲣ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ.
+      </ns0:Language>
+      <ns0:Language id="English">
+         Through the grace, compassion, and love-of-mankind of Your only-begotten Son, our Lord, God, and Savior Jesus Christ.
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         بالنعمةِ والرأفاتِ ومحبةِ البشرِ اللواتي لابنِكَ الوحيدِ، ربِّنا وإلهِنا ومخلِّصِنا يسوعَ المسيحِ.
+      </ns0:Language>
+   </ns0:Text>
+   
+   <ns0:Text>
+      <ns0:Language id="Coptic">
+         Ⲫⲁⲓ ⲉ̀ⲧⲉ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲟⲧϥ ⲉ̀ⲣⲉ ⲡⲓⲱ̀ⲟⲩ ⲛⲉⲙ ⲡⲓⲧⲁⲓⲟ ⲛⲉⲙ ⲡⲓⲁ̀ⲙⲁϩⲓ ⲛⲉⲙ ϯⲡ̀ⲣⲟⲥⲕⲩⲛⲏⲥⲓⲥ: ⲉⲣⲡ̀ⲣⲉⲡⲓ ⲛⲁⲕ ⲛⲉⲙⲁϥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲣⲉϥⲧⲁⲛϧⲟ ⲟⲩⲟϩ ⲛ̀ⲟ̀ⲙⲟⲟⲩⲥⲓⲟⲥ ⲛⲉⲙⲁⲕ. 
+      </ns0:Language>
+      <ns0:Language id="English">
+         through whom the glory, honor, dominion, and worship are due unto You, with Him and the Holy Spirit, the Giver of Life, who is of one essence with You,
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         هذا الذي مِنْ قبَلِه، المجدُ والكرامةُ والعزة والسجودُ، تليقُ بكَ معَهُ، ومعَ الرّوحِ القُدُسِ المُحيي المساوي لكَ.
+      </ns0:Language>
+   </ns0:Text>
+   
+   <ns0:Text>
+      <ns0:Language id="Coptic">
+         Ϯⲛⲟⲩ ⲛⲉⲙ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ: ⲁ̀ⲙⲏⲛ.
+      </ns0:Language>
+      <ns0:Language id="English">
+         now and at all times and unto the age of all ages. Amen.
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         الآنَ وكلَّ أوانٍ وإلى دهرِ الدهورِ كلِّها. آمين.
+      </ns0:Language>
+   </ns0:Text>
+</ns0:Section>
+<ns0:Section expanded="true">
+      <ns0:Title>
+         <ns0:Language id="English">
+            Psalm 50
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            المزمورُ الخمسونَ
+         </ns0:Language>
+      </ns0:Title>
+       
+      <ns0:Text>
+         <ns0:Language id="Coptic">
+            Ⲛⲁⲓ ⲛⲏⲓ Ⲫⲛⲟⲩϯ ⲕⲁⲧⲁ ⲡⲉⲕⲛⲓϣϯ ⲛ̀ⲛⲁⲓ: ⲛⲉⲙ ⲕⲁⲧⲁ ⲡ̀ⲁ̀ϣⲁⲓ ⲛ̀ⲧⲉ ⲛⲉⲕⲙⲉⲧϣⲉⲛϩⲏⲧ ⲉⲕⲉ̀ⲥⲱⲗϫ ⲛ̀ⲧⲁⲁ̀ⲙⲟⲛⲓⲁ̀: ⲉⲕⲉ̀ⲣⲁϧⲧ ⲛ̀ϩⲟⲩⲟ̀ ⲉ̀ⲃⲟⲗ ϩⲁ ⲧⲁⲁ̀ⲛⲟⲙⲓⲁ ⲟⲩⲟϩ ⲉⲕⲉ̀ⲧⲟⲩⲃⲟⲓ ⲉ̀ⲃⲟⲗ ϩⲁ ⲡⲁⲛⲟⲃⲓ: ϫⲉ ⲧⲁⲁ̀ⲛⲟⲙⲓⲁ̀ ⲁ̀ⲛⲟⲕ ϯⲥⲱⲟⲩⲛ ⲙ̀ⲙⲟⲥ: ⲟⲩⲟϩ ⲡⲁⲛⲟⲃⲓ ⲙ̀ⲡⲁⲙ̀ⲑⲟ ⲉ̀ⲃⲟⲗⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ.
+         </ns0:Language>
+         <ns0:Language id="English">
+            Have mercy upon me, O God, according to Your great mercy; and according to the multitude of Your compassions blot out my iniquity. Wash me thoroughly from my iniquity, and cleanse me from my sin. For I am conscious of my iniquity; and my sin is at all times before me.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            ارحَمْنِي يا اللهُ كَعَظيمِ رَحْمتِكَ، ومِثْلِ كَثْرةِ رَأفتِكَ امْحُ إثْمِي واغْسلْنِي كَثيراً مِنْ إثْمِي، ومِنْ خَطيئَتِي طهِّرْنِي. لأنِّي أنا عارِفٌ بإثْمِي، وخَطيئَتِي أمَامِي في كلِّ حينٍ.
+         </ns0:Language>
+      </ns0:Text>
+            
+      <ns0:Text>
+         <ns0:Language id="Coptic">
+            Ⲛⲑⲟⲕ ⲙ̀ⲙⲁⲩⲁⲧⲕ ⲁⲓⲉⲣⲛⲟⲃⲓ ⲉ̀ⲣⲟⲕ: ⲟⲩⲟϩ ⲡⲓⲡⲉⲧϩⲱⲟⲩ ⲁⲓⲁⲓϥ ⲙ̀ⲡⲉⲕⲙ̀ⲑⲟ ⲉ̀ⲃⲟⲗ: ϩⲟⲡⲱⲥ ⲛ̀ⲧⲉⲕⲙⲁⲓ ϧⲉⲛ ⲛⲉⲕⲥⲁϫⲓ ⲟⲩⲟϩ ⲛ̀ⲧⲉⲕ ϭⲣⲟ ⲉⲕⲛⲁϭⲓϩⲁⲡ. Hⲏⲡⲡⲉ ⲅⲁⲣ ϧⲉⲛ ϩⲁⲛⲁ̀ⲛⲟⲙⲓⲁ̀ ⲁⲩⲉⲣⲃⲟⲕⲓ ⲙ̀ⲙⲟⲓ: ⲟⲩⲟϩ ϧⲉⲛ ϩⲁⲛⲛⲟⲃⲓ ⲁ̀ ⲧⲁⲙⲁⲩ ϭⲓϣϣⲱⲟⲩ ⲙ̀ⲙⲟⲓ.
+         </ns0:Language>
+         <ns0:Language id="English">
+            Against You only I have sinned, and done evil before You, that You might be just in Your sayings, and might overcome when You are judged. For, behold, I was conceived in iniquities, and in sins my mother conceived me.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            لَكَ وحْدَكَ أخْطأْتُ، والشَّرَّ قدامَكَ صَنعْتُ، لِكيْ تَتَبرَّرَ في أقْوالِكَ، وتَغْلبَ إذَا حوكِمْتَ. لأنِّي هَأنَذَا بالإثْمِ حُبِلَ بِي، وبالَخَطايَا ولدَتْني أمِّي.
+         </ns0:Language>
+      </ns0:Text>
+            
+      <ns0:Text>
+         <ns0:Language id="Coptic">
+            Hⲏⲡⲡⲉ ⲅⲁⲣ ⲁⲕⲙⲉⲛⲣⲉ ⲑ̀ⲙⲏⲓ: ⲛⲏⲉⲧϩⲏⲡ ⲛⲉⲙ ⲛⲏⲉ̀ⲧⲉ ⲛ̀ⲥⲉⲟⲩⲱⲛϩ ⲉ̀ⲃⲟⲗ ⲁⲛ ⲛ̀ⲧⲉ ⲧⲉⲕⲥⲟⲫⲓⲁ ⲁⲕⲧⲁⲙⲟⲓ ⲉ̀ⲣⲱⲟⲩ. Ⲉⲕⲉ̀ⲛⲟⲩϫϧ ⲉ̀ϫⲱⲓ ⲙ̀ⲡⲉⲕϣⲉⲛϩⲩⲥⲱⲡⲟⲛ: ⲉⲓⲉ̀ⲧⲟⲩⲃⲟ ⲉⲕⲉ̀ⲣⲁϧⲧ ⲉⲓⲉ̀ⲟⲩⲃⲁϣ ⲉ̀ϩⲟⲧⲉ ⲟⲩⲭⲓⲱⲛ: ⲉⲕⲉⲑ̀ⲣⲓⲥⲱⲧⲉⲙ ⲉ̀ⲟⲩⲑⲉⲗⲏⲗ ⲛⲉⲙ ⲟⲩⲟⲩⲛⲟϥ: ⲉⲩⲉ̀ⲑⲉⲗⲏⲗ ⲛ̀ϫⲉ ⲛⲓⲕⲁⲥ ⲉⲧⲑⲉⲃⲓⲏⲟⲩⲧ.
+         </ns0:Language>
+         <ns0:Language id="English">
+            For, behold, You have loved the truth; You have manifested to me the hidden and unrevealed things of Your wisdom. You shall sprinkle me with Your hyssop, and I shall be purified. You shall wash me, and I shall be made whiter than snow. You shall make me to hear gladness and joy; the humbled bones shall rejoice.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            لأنَّكَ هَكَذا قَدْ أحْبَبتَ الحقَّ، إذْ أوْضَحتَ لِي غَوامِضَ حِكْمتِكَ ومَسْتُورَاتِها. تَنضَحُ عَليَّ بِزُوفَاكَ فأُطَهَّرُ، تَغْسلُنِي فَأبْيضُّ أكْثَرَ مِنَ الثَّلجِ. تُسْمعُنِي سُرُوراً وفَرحاً، فتَبْتهجُ عِظامِي المتواضِعةُ.
+         </ns0:Language>
+      </ns0:Text>
+            
+      <ns0:Text>
+         <ns0:Language id="Coptic">
+            Ⲙⲁⲧⲁⲥⲑⲟ ⲙ̀ⲡⲉⲕϩⲟ ⲥⲁⲃⲟⲗ ⲛ̀ⲛⲁⲛⲟⲃⲓ: ⲟⲩⲟϩ ⲛⲁⲁ̀ⲛⲟⲙⲓⲁ̀ ⲧⲏⲣⲟⲩ ⲉⲕⲉ̀ⲥⲟⲗϫⲟⲩ. Ⲟⲩϩⲏⲧ ⲉϥⲟⲩⲁⲃ ⲉⲕⲉ̀ⲥⲟⲛⲧϥ ⲛ̀ϧⲏⲧ Ⲫⲛⲟⲩϯ: ⲟⲩⲡ̀ⲛⲉⲩⲙⲁ ⲉϥⲥⲟⲩⲧⲱⲛ ⲁ̀ⲣⲓⲧϥ ⲙ̀ⲃⲉⲣⲓ ϧⲉⲛ ⲛⲏⲉⲧⲥⲁϧⲟⲩⲛ ⲙ̀ⲙⲟⲓ: ⲙ̀ⲡⲉⲣⲃⲉⲣⲃⲱⲣⲧ ⲉ̀ⲃⲟⲗ ϩⲁ ⲡⲉⲕϩⲟ: ⲟⲩⲟϩ ⲡⲉⲕⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ ⲙ̀ⲡⲉⲣⲟⲗϥ ⲉ̀ⲃⲟⲗ ϩⲁⲣⲟⲓ. Ⲙⲟⲓ ⲛⲏⲓ ⲙ̀ⲡ̀ⲑⲉⲗⲏⲗ ⲛ̀ⲧⲉ ⲡⲉⲕⲟⲩϫⲁⲓ: ⲟⲩⲟϩ ⲛ̀ϩ̀ⲣⲏⲓ ϧⲉⲛ ⲟⲩⲡ̀ⲛⲉⲩⲙⲁ ⲛ̀ϩⲏⲅⲉⲙⲱⲛⲓⲕⲟⲛ ⲙⲁⲧⲁϫⲣⲟⲓ: ⲉⲓⲉ̀ⲧ̀ⲥⲁⲃⲉ ⲛⲓⲁⲛⲟⲙⲟⲥ ϩⲓ ⲛⲉⲕⲙⲱⲓⲧ: ⲟⲩⲟϩ ⲛⲓⲁⲥⲉⲃⲏⲥ ⲉⲩⲉ̀ⲕⲟⲧⲟⲩ ϩⲁⲣⲟⲕ.
+         </ns0:Language>
+         <ns0:Language id="English">
+            Turn away Your face from my sins, and blot out all my iniquities. Create in me a clean heart, O God; and renew a right spirit in my inward parts. Do not cast me away from Your face; and do not remove Your Holy Spirit from me. Give me the joy of Your salvation, and uphold me with a directing spirit. Then I shall teach the transgressors Your ways; and the ungodly men shall turn to You.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            اصْرِفْ وجْهَكَ عَنْ خَطايَايَ وامْحُ كلَّ آثَامِي. قَلباً نَقياً اخْلقْ فيَّ يا اللهُ، ورُوحاً مُسْتَقيماً جدِّدهُ في أحْشَائِي. لا تَطْرحْنِي مِنْ قُدَّامِ وجْهِكَ، ورُوحُكَ القُدُّوسُ لا تَنْزعْهُ مِنِّي. امْنَحْنِي بَهْجةَ خَلاصِكَ، وبرُوحٍ رئاسيٍ اعْضُدْنِي فأُعلِّمُ الأثَمَةَ طُرُقَكَ، والمنَافِقونَ إليكَ يَرجِعونَ.
+         </ns0:Language>
+      </ns0:Text>
+            
+      <ns0:Text>
+         <ns0:Language id="Coptic">
+            Ⲛⲁϩⲙⲉⲧ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ϩⲁⲛⲥ̀ⲛⲟϥ Ⲫⲛⲟⲩϯ: Ⲫⲛⲟⲩϯ ⲛ̀ⲧⲉ ⲧⲁⲥⲱⲧⲏⲣⲓⲁ: ⲉϥⲉ̀ⲑⲉⲗⲏⲗ ⲛ̀ϫⲉ ⲡⲁⲗⲁⲥ ϧⲉⲛ ⲧⲉⲕⲇⲓⲕⲉⲟⲥⲩⲛⲏ. Ⲡϭⲟⲓⲥ ⲉⲕⲉ̀ⲟⲩⲱⲛ ⲛ̀ⲛⲁⲥ̀ⲫⲟⲧⲟⲩ ⲟⲩⲟϩ ⲉ̀ⲣⲉ ⲣⲱⲓ ϫⲱ ⲙ̀ⲡⲉⲕⲥ̀ⲙⲟⲩ: ϫⲉ ⲉ̀ⲛⲉ ⲁⲕⲟⲩⲱϣ ϣⲟⲩϣⲱⲟⲩϣⲓ: ⲛⲁⲓⲛⲁϯ ⲟⲛ ⲡⲉ: ϩⲁⲛϭⲗⲓⲗ ⲛ̀ϫⲟϥϫⲉϥ ⲙ̀ⲡⲉⲕϯⲙⲁϯ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲟⲩ. Ⲡⲓϣⲟⲩϣⲱⲟⲩϣⲓ ⲛ̀ⲧⲉ Ⲫⲛⲟⲩϯ ⲟⲩⲡ̀ⲛⲉⲩⲙⲁ ⲉϥⲧⲉⲛⲛⲏⲟⲩⲧ ⲡⲉ: ⲟⲩϩⲏⲧ ⲉϥⲧⲉⲛⲛⲏⲟⲩⲧ ⲟⲩⲟϩ ⲉϥⲉ̀ⲑⲉⲃⲓⲏⲟⲩⲧ ⲫⲁⲓ ⲛ̀ⲛⲉ Ⲫⲛⲟⲩϯ ϣⲟϣϥ.
+         </ns0:Language>
+         <ns0:Language id="English">
+            Deliver me from blood, O God, the God of my salvation, and my tongue shall rejoice in Your righteousness. O Lord, You shall open my lips, and my mouth shall declare Your praise. For if You desired sacrifice, I would have given it; You do not take pleasure in burnt offerings. The sacrifice of God is a broken spirit; a broken and humbled heart God shall not despise.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            نَجِّنِي مِنَ الدِّماءِ يا اللهُ إلَهَ خَلاصِي، فيَبتهِجُ لِسانِي بعَدلِكَ. ياربُّ افْتَحْ شَفتَيَّ، فَيُخبرُ فَمِي بَتَسْبيحِكَ. لأنَّكَ لَوْ آثَرتَ الذَّبيحةَ لَكُنْتُ الآنَ أعْطِي؛ ولَكنَّكَ لا تُسرُّ بالَمُحْرقَاتِ فالذَبيحَةُ للهِ رُوحٌ مُنْسحقٌ. القَلْبُ المنْكسِرُ والمتَواضِعُ لا يُرْذلُهُ اللهُ.
+         </ns0:Language>
+      </ns0:Text>
+            
+      <ns0:Text>
+         <ns0:Language id="Coptic">
+            Ⲁⲣⲓⲡⲉⲑⲛⲁⲛⲉϥ Ⲡϭⲟⲓⲥ ϧⲉⲛ ⲡⲉⲕϯⲙⲁϯ ⲉ̀Ⲥⲓⲱⲛ: ⲟⲩⲟϩ ⲛⲓⲥⲟⲃⲧ ⲛ̀ⲧⲉ Ⲓⲉⲣⲟⲩⲥⲁⲗⲏⲙ ⲙⲁⲣⲟⲩⲕⲟⲧⲟⲩ: ⲧⲟⲧⲉ ⲉⲕⲉ̀ϯⲙⲁϯ ⲉ̀ϫⲉⲛ ϩⲁⲛϣⲟⲩϣⲱⲟⲩϣⲓ ⲙ̀ⲙⲉⲑⲙⲏⲓ: ⲟⲩⲁⲛⲁⲫⲟⲣⲁ ⲛⲉⲙ ϩⲁⲛϭⲗⲓⲗ: ⲧⲟⲧⲉ ⲉⲩⲉ̀ⲓ̀ⲛⲓ ⲛ̀ϩⲁⲛⲙⲁⲥⲓ ⲉ̀ⲡ̀ⲱϣⲓ ⲉ̀ϫⲉⲛ ⲡⲉⲕⲙⲁⲛ̀ⲉⲣϣⲱⲟⲩϣⲓ.
+         </ns0:Language>
+         <ns0:Language id="English">
+            Do good, O Lord, in Your good pleasure to Zion; and let the walls of Jerusalem be built. Then You shall be pleased with sacrifices of righteousness, offering, and burnt sacrifices: then they shall offer calves upon Your altar. ALLELUIA.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            أنْعِمْ ياربُّ بِمَسرتِكَ عَلى صِهْيَونَ ولْتُبنَ أسْوَارُ أورُشَلِيمَ. حِينَئذٍ تُسرُّ بذَبائِحِ العدلِ، قرباناً ومُحْرقَاتٍ. حينَئذٍ يُقرِّبونَ عَلى مَذابِحِكَ العُجُولَ. هَلِّلُويا.
+         </ns0:Language>
+      </ns0:Text>     
+   </ns0:Section>
+<ns0:Role id="Introduction">
+      <ns0:Text>
+         <ns0:Language id="English">
+            The prayer of the ninth hour of this blessed day, we offer to Christ our King and our God, beseeching Him to forgive us our sins.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            تسبِحةُ الساعةِ التاسِعةِ مِنَ النهارِ المُبارَكِ أقدِّمُها للمسيحِ ملكي وإلهي، وأرجوهُ أن يغفِرَ لي خطايايَ.
+         </ns0:Language>
+      </ns0:Text>
+   </ns0:Role>
+             
+   <ns0:Text>
+      <ns0:Language id="English">
+         From the Psalms of our teacher David the prophet.  May his blessings be upon us all. Amen.
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         مِنْ مزاميرِ مُعلِّمِنا داودَ النبي بركاتِهِ علينا. آمين.
+      </ns0:Language>
+   </ns0:Text>    
+<ns0:Comment>
+      <ns0:Language id="English">
+         The following psalms are reserved to be prayed by the priest:
+         <ns0:ul>
+            <ns0:li>Psalm 95</ns0:li>
+            <ns0:li>Psalm 109</ns0:li>
+            <ns0:li>Psalm 115</ns0:li>
+         </ns0:ul>
+      </ns0:Language>
+   </ns0:Comment>
+<ns0:Section expanded="true">
+      <ns0:Title>
+         <ns0:Language id="English">
+            Psalm 95 - Sing to the Lord a new song; sing to the Lord...
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            المزمورُ الخامسُ والتسعونَ - سبِّحُوا الربَّ تسبيحاً جديداً، سبِّحِي الربَّ...
+         </ns0:Language>
+      </ns0:Title>
+            
+      <ns0:Text>
+         <ns0:Language id="English">
+            Sing to the Lord a new song; sing to the Lord, all the earth. Sing to the Lord, bless His name; proclaim His salvation day to day. Declare His glory among the Gentiles, and His wonders among all peoples. For the Lord is great, and greatly praised; He is fearsome above all the gods. For all the gods of the nations are devils, but the Lord made the heavens. Majesty and splendor are before Him; holiness and great beauty are in His Holy.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            سبِّحُوا الربَّ تسبيحاً جديداً، سبِّحِي الربَّ يا كلَّ الأرضِ، سبِّحُوا الربَّ وبارِكوا اسمَهُ. بشِّروا مِنْ يومٍ إلى يومٍ بخلاصِهِ. حدِّثوا في الأممِ بمجدِهِ وبينَ جميعِ الشُعوبِ بعجائبِهِ، لأنَّ الربَّ عظيمٌ هو ومُسبَّحٌ جداً. مرهوبٌ على كلِّ الآلِهةِ لأنَّ كلَّ آلِهةِ الأممِ شَيَاطينُ، أما الربُّ فصنعَ السماواتِ. الجلالُ والبهاءُ قُدَّامَهُ، الطهرُ والجمالُ العظيمُ في قُدسِهِ.
+         </ns0:Language>
+      </ns0:Text>
+            
+      <ns0:Text>
+         <ns0:Language id="English">
+            Bring to the Lord, O the families of the Gentiles, bring to the Lord glory and honor. Bring to the Lord the glory to His name; carry offerings, and go into His court. Worship the Lord in His holy court; let all the earth tremble before His face. Say among the nations, “The Lord reigned on a wood; for He has established the world that it shall not be moved; He will judge the peoples in righteousness.”
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            قدِّموا للربِّ يا جميعَ قبائلِ الأممِ، قدِّموا للربِّ مجداً وكرامةً، قدِّموا للربِّ مجداً لاسمهِ. احمِلوا الذبائحَ وادخلوا دِيارَهُ، اسجُدوا للربِّ في ديارِهِ المُقدَّسةِ. فلتتزلزلْ الأرضُ كلُّها مِنْ أمامِ وجهِهِ. قولوا بينَ الأممِ إنَّ الربَّ قدْ ملكَ على خشبةٍ، وأيضاً ثبَّتَ المسكونةَ فلن تتزعزعَ. يَدينُ الشُعوبَ بالاستِقامةِ.
+         </ns0:Language>
+      </ns0:Text>
+            
+      <ns0:Text>
+         <ns0:Language id="English">
+            Let the heavens rejoice, and the earth exult; let the sea roar, and its fullness. The plains shall rejoice, and all things in them. Then all the trees of the forest shall exult before the face of the Lord, for He is coming to judge the earth; He will judge the world in justice, and the peoples with His truth. ALLELUIA.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            فلتفرحِ السماواتُ ولتبتهجِ الأرضُ وليعِجِّ البحرُ وجميعُ ملئِهِ، تفرحُ الوِديانُ وكلُّ ما فيها، حينئذٍ يبتهجُ كلُّ شجرِ الغابِ أمامَ وجهِ الربِّ، لأنَّهُ يأتي ليَدينَ الأرضَ، يَدينَ المسكونةَ بالعدلِ والشُعوبَ بالاستِقامةِ. هَلِّلُويا.
+         </ns0:Language>
+      </ns0:Text>
+   </ns0:Section>
+<ns0:Section expanded="true">
+      <ns0:Title>
+         <ns0:Language id="English">
+            Psalm 96 - The Lord reigned, let the earth exult...
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            المزمورُ السادسُ والتسعونَ - الربُّ قدْ ملَكَ فلتتهلّلِ الأرضُ...
+         </ns0:Language>
+      </ns0:Title>
+            
+      <ns0:Text>
+         <ns0:Language id="English">
+            The Lord reigned, let the earth exult, let the many islands rejoice. Clouds and darkness are round about Him; righteousness and judgment are the uprightness of His throne. Fire shall precede Him, and with a flame shall burn up His enemies who surround Him. His lightings lightened the world; the earth saw, and trembled. The mountains melted like wax before the face of the Lord, before the face of the Lord of the whole earth. The heavens have declared His righteousness, and all the peoples have seen His glory.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            الربُّ قدْ ملَكَ فلتتهلَّلِ الأرضُ، ولتفرحِ الجزائرُ الكثيرةُ. سحابٌ وضبابٌ حولَهُ، العدلُ والقضاءُ قِوامُ كرسيِّهِ، النارُ تسبِقُ فتسلُكُ أمامَهُ، وبلهيبٍ تُحرِقُ أعداءَهُ الذينَ حولَهُ. أضاءتْ بروقُهُ المسكونةَ. نظرتْ الأرضُ فتزلزلتْ، ذابتِ الجِبالُ مثلَ الشمعِ مِنْ قدامِ وجهِ الربِّ، مِنْ أمامِ وجهِ ربِّ الأرضِ كلِّها. أخبرَتِ السماواتُ بعدلِهِ، وعاينَتْ جميعُ الشُعوبِ مجدَهُ.
+         </ns0:Language>
+      </ns0:Text>
+            
+      <ns0:Text>
+         <ns0:Language id="English">
+            Let all those who worship graven images and boast in their idols be ashamed. Worship Him all you His angels.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            يَخزى جميعُ الساجدينَ لصنعةِ الأيدي، المُفتخرينَ بأصنامِهِم. اسجُدوا للهِ يا جميعَ ملائكتِهِ.
+         </ns0:Language>
+      </ns0:Text>
+            
+      <ns0:Text>
+         <ns0:Language id="English">
+            Zion heard and rejoiced, and the daughters of Judea exulted, because of Your judgments, O Lord. For You are the Lord most high over all the earth; You are greatly exalted above all gods.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            سمِعتْ صِهيَونُ ففرِحتْ، وتهلَّلتْ بناتُ يهوذا، مِنْ أجلِ أحكامِكَ ياربُّ. لأنَّكَ أنتَ هو الربُّ العالي على كلِّ الأرضِ، ارتفعتَ جداً فوقَ جميعِ الآلِهةِ.
+         </ns0:Language>
+      </ns0:Text>
+            
+      <ns0:Text>
+         <ns0:Language id="English">
+            You who love the Lord, hate evil; the Lord preserves the souls of His saints; He will deliver them from the hands of the sinners. Light has shined for the righteous, and gladness for the upright in their heart. Rejoice in the Lord, you righteous, and praise the remembrance of His holiness. ALLELUIA.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            يا مُحبِّي الربِّ أبغِضوا الشرَّ. إنَّ الربَّ يحفظُ نفوسَ أبرارِهِ، ويُنجيهِم مِنْ أيدي الخُطاةِ. نورٌ أشرقَ للصدِّيقينَ وفرحٌ للمُستقيمي القلوبِ. افرحوا أيها الصدِّيقونَ بالربِّ. واعترِفوا لذكرِ قُدسِهِ. هَلِّلُويا.
+         </ns0:Language>
+      </ns0:Text>
+   </ns0:Section>
+<ns0:Section expanded="true">
+      <ns0:Title>
+         <ns0:Language id="English">
+            Psalm 97 - Sing to the Lord a new song, for the Lord...
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            المزمورُ السابعُ والتسعونَ - سبِّحُوا الربَّ تسبيحاً جديداً لأنَّ الربَّ...
+         </ns0:Language>
+      </ns0:Title>
+            
+      <ns0:Text>
+         <ns0:Language id="English">
+            Sing to the Lord a new song, for the Lord has wrought wonderful works; His right hand and His holy arm, have wrought salvation for Him. The Lord has made known His salvation; before the nations He has revealed his righteousness. He has remembered His mercy to Jacob, and His truth to the house of Israel; the ends of all the earth have seen the salvation of our God.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            سبِّحُوا الربَّ تسبيحاً جديداً لأنَّ الربَّ قدْ صنعَ أعمالاً عجيبةً، خلَّصتْ لهُ يمينُهُ وذراعُهُ القُدُّوسةُ، أعلنَ الربُّ خلاصَهُ وكشفَ قدامَ الأممِ عدلَهُ. ذكرَ رحمتَهُ ليعقوبَ وحقَّهُ لبيتِ إسرائيلَ. نظرتْ أقاصي الأرضِ جميعاً خلاصَ إلهِنا.
+         </ns0:Language>
+      </ns0:Text>
+            
+      <ns0:Text>
+         <ns0:Language id="English">
+            Shout to the Lord, all the earth; sing and exult, and sing psalms. Sing to the Lord with a harp, with a harp and a voice of psalm, with directed trumpets, and a sound of a trumpet of horn. Shout joyfully before the Lord King. Let the sea roar, and its fullness, the world and all who dwell in it. The rivers shall clap their hands together, and the mountains shall exult before the Lord. For He comes to judge the earth; He will judge the world with righteousness, and the nations with uprightness. ALLELUIA.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            هلِّلوا للربِّ يا كلَّ الأرضِ، سبِّحُوا وهلِّلوا ورتِّلوا. رتِّلوا للربِّ بالقيثارةِ، بالقيثارةِ وصوتِ المِزمارِ. بأبواقٍ خافِقةٍ وصوتِ بوقِ القرنِ، هلِّلوا أمامَ الربِّ الملكِ. فليعجِّ البحرُ وكلُّ ملئِهِ، المسكونةُ وكلُّ الساكنينَ فيها. تُصفِّقُ جميعُ الأنهارِ، الجبالُ تبتهِجُ أمامَ وجهِ الربِّ، لأنَّهُ أتى ليَدينَ الأرضَ، يَدينَ المسكونةَ بالعدلِ والشُعوبَ بالاستِقامةِ. هَلِّلُويا.
+         </ns0:Language>
+      </ns0:Text>
+   </ns0:Section>
+<ns0:Section expanded="true">
+      <ns0:Title>
+         <ns0:Language id="English">
+            Psalm 98 - The Lord reigned; let the people rage...
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            المزمورُ الثامِنُ والتسعونَ - الربُّ قدْ ملَكَ فلترتعِدْ الشُعوبُ...
+         </ns0:Language>
+      </ns0:Title>
+            
+      <ns0:Text>
+         <ns0:Language id="English">
+            The Lord reigned; let the people rage; He who sits upon the cherubim, let the earth be shaken. The Lord is great in Zion, and is high over all peoples. Let them confess His great name, for it is fearsome and holy, and the King's honor loves the judgment. You have prepared uprightness; You have made judgment and justice in Jacob. Exalt the Lord our God, and worship at His footstool; for He is holy.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            الربُّ قدْ ملَكَ فلترتعِدْ الشُعوبُ. الجالِسُ على الشاروبيمِ فلتتزلزلْ الأرضُ. عظيمٌ هو الربُّ في صِهيَونَ ومُتعالٍ على كلِّ الشُعوبِ. فليعترِفوا لاسمِهِ العظيمِ لأنَّهُ مرهوبٌ وقُدُّوسٌ وكرامةُ الملِكِ أن يُحبَّ العدلَ أنتَ هيأتَ الاستِقامةَ أنتَ أجريتَ القضاءَ والعدلَ في يعقوبَ. ارفعوا الربَّ إلهَنا واسجُدوا لموطِئِ قدميهِ فإنَّهُ قُدُّوسٌ هو.
+         </ns0:Language>
+      </ns0:Text>
+       
+      <ns0:Text>
+         <ns0:Language id="English">
+            Moses and Aaron among His priests, and Samuel among those who call upon His name; they called upon the Lord, and He heard them. He spoke to them in a pillar of cloud, for they kept His testimonies and the ordinances which He gave them. O Lord our God, You answered them; O God, You became for them a forgiver and an avenger over all their deeds. Exalt you the Lord our God, and worship at His holy mountain, for the Lord our God is holy. ALLELUIA.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            موسى وهرونُ بينَ كهنتِهِ وصموئيلُ بينَ الذينَ يدْعونَ باسمِهِ، كانوا يدْعونَ الربَّ فيستجيبُ لهُم، بعمودِ الغَمامِ كانَ يُكلمُهُم. لأنَّهُم حفِظوا شهاداتِهِ، والأوامِرَ التي أعطاهُم. أيها الربُّ إلهُنا، أنتَ استجبتَ لهُم. صِرتَ لهُم يا اللهُ غفوراً، ومُنتقِماً على جميعِ أعمالِهِم. ارفعوا الربَّ إلهَنا، واسجُدوا في جبلِهِ المُقدَّسِ، فإنَّ الربَّ إلهَنا قُدُّوسٌ. هَلِّلُويا.
+         </ns0:Language>
+      </ns0:Text>
+   </ns0:Section>
+<ns0:Section expanded="true">
+      <ns0:Title>
+         <ns0:Language id="English">
+            Psalm 99 - Shout joyfully to the Lord...
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            المزمورُ التاسعُ والتسعونَ - هلِّلوا للربِّ يا كلَّ الأرضِ...
+         </ns0:Language>
+      </ns0:Title>
+            
+      <ns0:Text>
+         <ns0:Language id="English">
+            Shout joyfully to the Lord, all the earth. Serve the Lord with gladness; come into His presence with exultation. Know that the Lord Himself is our God; He made us, and not we ourselves; we are His people, and the sheep of His pasture. Enter into His gates with thanksgiving, and His courts with praise; give thanks to Him, praise His name. For the Lord is good; His mercy is forever, and His truth is from generation to generation. ALLELUIA.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            هلِّلوا للربِّ يا كلَّ الأرضِ. اعبُدوا الربَّ بالفرحِ، ادخُلوا أمامَهُ بالتهليلِ. اعلموا أنَّ الربَّ هو إلهُنا، هو صنعَنا وليسَ نحنُ، ونحنُ شعبُهُ وغنمُ رعيَّتِهِ. ادخُلوا أبوابَهُ بالاعترافِ، ودِيارَهُ بالتسابيحِ. اعترِفوا لهُ، وبارِكوا اسمَهُ. فإنَّ الربَّ صالِحٌ هو، والى الأبدِ رحمتُهُ، وإلى جيلٍ فجيلٍ حقُّهُ. هَلِّلُويا.
+         </ns0:Language>
+      </ns0:Text>
+   </ns0:Section>
+<ns0:Section expanded="true">
+      <ns0:Title>
+         <ns0:Language id="English">
+            Psalm 100 - I will sing of mercy...
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            المزمورُ المائةُ - رحمةً وحُكماً...
+         </ns0:Language>
+      </ns0:Title>
+            
+      <ns0:Text>
+         <ns0:Language id="English">
+            I will sing of mercy and judgment, to You, O Lord; I will sing a psalm, and I will have understanding in a blameless way. When will You come to me? I walked in the innocence of my heart, in the midst of my house. I have not set before my eyes any unlawful thing; I have hated transgressors. A perverse heart has not cleaved to me; I have not known the evil one, forasmuch as he turns away from me. He who secretly speaks against his neighbor, him I have driven from me; he who is proud in his eyes and haughty in heart, with him I have not eaten.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            رحمةً وحُكماً أسبِّحُكَ ياربُّ. أترنَّمُ لكَ. وأتفهَّمُ في طريقٍ بلا عيبٍ. متى تأتِي إليَّ؟ لقدْ كنتُ أسلُكُ بِدعةِ قلبي في وسطِ بيتي. لمْ أضعْ أمامَ عينيَّ أمراً يُخالِفُ الناموسَ. صانعي المَعصيةِ أبغضتُ. لمْ يلصقْ بي قلبٌ مُعوَجٌّ، وعِندَ مَيلانِ الشريرِ عنِّي لمْ أكنْ أعلمُ، والذي يغتابُ قريبَهُ سِرّاً كنتُ أُطارِدُهُ، المُستكبِرُ بعينيهِ والمُنتفِخُ القلبِ لمْ أوآكِلْهُ.
+         </ns0:Language>
+      </ns0:Text>
+            
+      <ns0:Text>
+         <ns0:Language id="English">
+            My eyes were upon all the faithful of the land, that they might sit with me; he who walked in a blameless way, he ministered to me. The proud doer did not dwell in the midst of my house; the unjust speaker did not prosper before my eyes. In the morning I slew all the sinners of the land, that I might wipe out from the city of the Lord all who work iniquity. ALLELUIA.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            عينايَ على جميعِ أُمناءِ الأرضِ لكي أُجلسَهُم معي. السالِكُ في الطريقِ بِلا عيبٍ هذا كانَ يخدِمُني. المُتكبِّرُ لمْ يسكُنْ في وسطِ بيتي. المُتكلِّمُ بالظُلمِ لمْ يستقِمْ أمامَ عينيَّ. في أوقاتِ الغدَواتِ كنتُ أقتلُ جميعَ خُطاةِ الأرضِ، لأُبيدَ مِنْ مدينةِ الربِّ جميعَ صانِعي الإثمِ. هَلِّلُويا.
+         </ns0:Language>
+      </ns0:Text>
+   </ns0:Section>
+<ns0:Section expanded="true">
+      <ns0:Title>
+         <ns0:Language id="English">
+            Psalm 109 - The Lord said to my Lord...
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            المزمورُ المائةُ والتاسعُ - قالَ الربُّ لربِّي...
+         </ns0:Language>
+      </ns0:Title>
+            
+      <ns0:Text>
+         <ns0:Language id="English">
+            The Lord said to my Lord, “Sit on My right hand, until I place Your enemies under Your feet.” A rod of power, the Lord shall send out for You out of Zion, and You shall rule in the midst of Your enemies. With You is dominion in the day of Your power, in the splendor of the saints. From the womb before the morning star I have begotten You.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            قالَ الربُّ لربِّي: اجلسْ عن يميني حتَّى أضعَ أعداءَكَ تحتَ موطِئِ قدمَيكَ. عصا قوةٍ يُرسِلُ لكَ الربُّ مِنْ صِهيَونَ وتسودُ في وسَطِ أعدائِكَ. معَكَ الرياسةُ في يومِ قُوتِكَ، في بهاءِ القدِّيسينَ. مِنَ البطنِ قبلَ كَوكبِ الصُبحِ ولدتُكَ.
+         </ns0:Language>
+      </ns0:Text>
+            
+      <ns0:Text>
+         <ns0:Language id="English">
+            The Lord has sworn and shall not repent: “You are the Priest forever, after the order of Melchizedek.” The Lord is at Your right hand; He shall dash kings in the day of His wrath. He shall judge among the nations. He shall fill them with dead bodies; He shall crush the heads of many on the earth. He shall drink of the brook in the way; therefore He shall lift up the head. ALLELUIA.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            أقسمَ الربُّ ولن يندمَ أنَّكَ أنتَ هو الكاهِنُ إلى الأبدِ على طقسِ ملكِيصادَقَ. الربُّ عن يمينِكَ، يُحطِّمُ في يومِ رِجزِهِ مُلوكاً، يقضي بينَ الأممِ ويملأُهُم جُثثاً، يسحقُ رؤوسَ كثيرينَ على الأرضِ. وفي الطريقِ يشربُ الماءَ مِنَ الوادي. لذلكَ يرفعُ رأسَهُ. هَلِّلُويا.
+         </ns0:Language>
+      </ns0:Text>
+   </ns0:Section>
+<ns0:Section expanded="true">
+      <ns0:Title>
+         <ns0:Language id="English">
+            Psalm 110 - I will give thanks to You...
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            المزمورُ المائةُ والعاشرُ - أعترِفُ لكَ ياربُّ...
+         </ns0:Language>
+      </ns0:Title>
+            
+      <ns0:Text>
+         <ns0:Language id="English">
+            I will give thanks to You, O Lord, with my whole heart, in the council of the upright, and in their congregation. Great are the works of the Lord; examined are all His wills. Majesty and splendor are His works, and His righteousness endures forever and ever. He has made a remembrance of all His wonders; the Lord is merciful and compassionate. He has given food to those who fear Him; He shall remember His covenant forever. He has declared to His people the power of His works, to give them the inheritance of nations.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            أعترِفُ لكَ ياربُّ مِنْ كلِّ قلبي. في مجلِسِ المُستقيمينَ وفي مجمعِهِم. عظيمةٌ هي أعمالُ الربِّ، ومشيئاتُهُ كلُّها مفحوصةٌ، جلالٌ وبهاءٌ عملُهُ، وعدلُهُ دائِمٌ إلى أبدِ الأبدِ. صنعَ ذِكراً لجميعِ عجائبِهِ. رحيمٌ هو الربُّ ورؤوفٌ، أعطى طعامَهُ لأتقيائِهِ، يذكُرُ إلى الدهرِ ميثاقَهُ. خبَّرَ شعبَهُ بقوةِ أعمالِهِ، ليُعطيَهُم ميراثَ الأممِ.
+         </ns0:Language>
+      </ns0:Text>
+            
+      <ns0:Text>
+         <ns0:Language id="English">
+            The works of His hands are truth and justice; all His commandments are faithful, established forever and ever, made in truth and uprightness. He sent redemption to His people; He commanded His covenant forever; holy and fearful is His name. The fear of the Lord is the beginning of wisdom, and understanding is good to all who do according to it. His praise endures forever and ever. ALLELUIA.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            أعمالُ يدَيهِ حقٌ وعدلٌ. كلُّ وصاياهُ صادِقةٌ، ثابِتةٌ إلى دهرِ الدهورِ، مصنوعةٌ بالحقِّ والاستِقامةِ. أرسلَ خلاصاً لشعبِهِ، أمرَ بعهدِهِ إلى الأبدِ. اسمُهُ قُدُّوسٌ ومرهوبٌ. رأسُ الحكمةِ مخافةُ الربِّ، والفهمُ صالِحٌ لكلِّ مَنْ يعملُ بهِ، وتسبِحتُهُ دائِمةٌ إلى الأبدِ. هَلِّلُويا.
+         </ns0:Language>
+      </ns0:Text>
+   </ns0:Section>
+<ns0:Section expanded="true">
+      <ns0:Title>
+         <ns0:Language id="English">
+            Psalm 111 - Blessed is the man...
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            المزمورُ المائةُ والحاديَ عشرَ - طوبى للرجلِ الخائفِ الربَّ...
+         </ns0:Language>
+      </ns0:Title>
+            
+      <ns0:Text>
+         <ns0:Language id="English">
+            Blessed is the man who fears the Lord, and delights greatly in His commandments. His seed shall be mighty in the earth; the generation of the upright shall be blessed. Glory and riches shall be in His house, and His righteousness endures forever. To the upright, light has sprung up in the darkness. The Lord God is compassionate, merciful, and righteous.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            طوبى للرجلِ الخائفِ الربَّ ويَهوى وصاياهُ جداً. يقوى نسلُهُ على الأرضِ. جيلُ المُستقيمينَ يُبارَكُ. مجدٌ وغِنىً في بيتهِ، وبرُّهُ يدومُ إلى الأبدِ. نورٌ أشرقَ في الظُلمةِ للمُستقيمينَ. رحيمٌ هو الربُّ الإلهُ ورؤوفٌ وبارٌ.
+         </ns0:Language>
+      </ns0:Text>
+       
+      <ns0:Text>
+         <ns0:Language id="English">
+            A good man is he who pities and lends; he shall direct his words with truth. For he shall not be moved forever. The righteous shall be in everlasting remembrance. He shall not be afraid of any evil tidings; his heart is ready trusting the Lord. His heart is established, he shall not move, till he shall look upon his enemies. He has dispersed abroad; he has given to the poor; his righteousness endures forever and ever: his horn shall be exalted with honor. The sinner shall see and be angry, he shall gnash his teeth, and consume away; the desire of the sinner shall perish. ALLELUIA.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            صالِحٌ هو الرجلُ الذي يتراءفُ ويُقرِضُ ويُدبِّرُ أقوالَهُ بالحقِّ، لأنَّهُ لا يتزعزعُ إلى الدهرِ. ذِكرُ الصدِّيقِ يدومُ إلى الأبدِ، ولا يخشى مِنْ خبرِ السوءِ. قلبُهُ مُستعِدٌ مُتكِلٌ على الربِّ. قلبُهُ ثابِتٌ لا يتزعزعُ حتى يرى بأعدائِهِ. فرَّقَ وأعطى المساكينَ. برُّهُ دائمٌ إلى دهرِ الدهورِ. يرتفعُ قرنُهُ بالمجدِ. الخاطئُ يُبصِرُ فيغتاظُ ويَصِرُّ بأسنانِهِ ويذوبُ، شهوةُ الخاطئِ تَبيدُ. هَلِّلُويا.
+         </ns0:Language>
+      </ns0:Text>
+   </ns0:Section>
+<ns0:Section expanded="true">
+      <ns0:Title>
+         <ns0:Language id="English">
+            Psalm 112 - Praise the Lord, O the servants...
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            المزمورُ المائةُ والثانيَ عشرَ - سبِّحُوا الربَّ أيها الفِتيانُ...
+         </ns0:Language>
+      </ns0:Title>
+            
+      <ns0:Text>
+         <ns0:Language id="English">
+            Praise the Lord, O the servants, praise the name of the Lord. Let the name of the Lord be blessed, from now and forever. From the risings of the sun to its settings, praise the name of the Lord. The Lord is high above all the nations; upon the heavens is His glory.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            سبِّحُوا الربَّ أيها الفِتيانُ، سبِّحُوا اسمَ الربِّ. ليكُنْ اسمُ الربِّ مُبارَكاً مِنَ الآنَ وإلى الأبدِ. مِنْ مشارِقِ الشمسِ إلى مغارِبِها بارِكُوا اسمَ الربِّ. الربُّ عالٍ على كلِّ الأممِ وفوقَ السماواتِ مجدُهُ.
+         </ns0:Language>
+      </ns0:Text>
+            
+      <ns0:Text>
+         <ns0:Language id="English">
+            Who is like the Lord our God? Who dwells in the high places, and looks upon the low things in heaven and on the earth, who lifts up a poor person from the earth, and raises up a needy person from the ash heap, to seat him with the princes, even with the princes of his people, who makes a barren woman in a house, rejoicing as a mother of children. ALLELUIA.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            مَنْ مِثلِ الربِّ إلهِنا؟! الساكنُ في الأعالي الناظرُ إلى المتواضعينَ في السماءِ وعلى الأرضِ، المُقيمُ المسكينَ مِنَ الترابِ، الرافعُ البائسَ مِنَ المَزبلةِ، لكي يُجلِسَهُ معَ رؤساءِ شعبِهِ. الذي يجعلُ العاقرَ ساكِنةً في بيتٍ أمَّ أولادٍ فرِحةً هَلِّلُويا.
+         </ns0:Language>
+      </ns0:Text>
+   </ns0:Section>
+<ns0:Section expanded="true">
+      <ns0:Title>
+         <ns0:Language id="English">
+            Psalm 114 -  I loved, because the Lord...
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            المزمورُ المائةُ والرابعَ عشرَ - أحببتُ أن يسمعَ الربُّ...
+         </ns0:Language>
+      </ns0:Title>
+      
+      <ns0:Text>
+      <ns0:Language id="English">
+         I loved, because the Lord will hear the voice of my supplication. Because He has inclined His ear to me, I will call upon Him in all my days. The pains of death grasped me; the dangers of Hades have found me; I found affliction and sorrow. Then I called on the name of the Lord, “O Lord, deliver my soul.”
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         أحببتُ أن يسمعَ الربُّ صوتَ تضرُّعي. لأنَّهُ أمالَ أذنَهُ إليَّ فأدعوهُ كلَّ أيامي. لأنَّ أوجاعَ الموتِ اكتنفَتْني وشدائِدَ الجحيمِ أصابتني. ضِيقاً وحُزناً وجدتُ، وباسمِ الربِّ دعوتُ: ياربُّ نجِّ نفسي.
+      </ns0:Language>
+   </ns0:Text>
+   
+   <ns0:Text>
+      <ns0:Language id="English">
+         The Lord is merciful and righteous, and our God has mercy. The Lord preserves the infants; I was brought low, and He saved me.
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         الربُّ رحيمٌ وصدّيقٌ وإلهُنا يرحمُ. الذي يحفظُ الأطفالَ هو الربُّ. اتضعتُ فخلَّصَني.
+      </ns0:Language>
+   </ns0:Text>
+         
+   <ns0:Text>
+      <ns0:Language id="English">
+         Return to your resting place, O my soul, for the Lord has dealt bountifully with you. He has delivered my soul from death, my eyes from tears, and my feet from falling. I shall be pleasing before the Lord in the land of the living. ALLELUIA.
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         ارجِعي يا نفسي إلى موضِعِ راحتِكِ، لأنَّ الربَّ قدْ أحسنَ إليَّ، وأنقذَ نفسي مِنَ الموتِ وعينيَّ مِنَ الدُموعِ ورجليَّ مِنَ الزللِ، أُرضي الربَّ أمامَهُ في كُورةِ الأحياءِ. هَلِّلُويا.
+      </ns0:Language>
+   </ns0:Text>
+</ns0:Section>
+<ns0:Section expanded="true">
+      <ns0:Title>
+         <ns0:Language id="English">
+            Psalm 115 - I believed, therefore, I have spoken...
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            المزمورُ المائةُ والخامسَ عشرَ - آمنتُ لذلِكَ تكلَّمتُ...
+         </ns0:Language>
+      </ns0:Title>
+            
+      <ns0:Text>
+         <ns0:Language id="English">
+            I believed, therefore, I have spoken; I was exceedingly humbled. I said in my amazement, “Every man is a liar.” What shall I render to the Lord for everything which He has done unto me? I shall take the cup of salvation, and call upon the name of the Lord. I will pay my vows to the Lord, in the presence of all His people.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            آمنتُ لذلِكَ تكلَّمتُ. وأنا اتَّضعتُ جِداً. أنا قُلتُ في حَيرَتي: إنَّ كلَّ الناسِ كاذِبونَ. بماذا أُكافئُ الربَّ عن كلِّ ما أعطانِيهِ؟ كأسَ الخلاصِ آخذُ وباسمِ الربِّ أدعو. أُوفي نُذوري للربِّ قُدامَ كلِّ شعبِهِ.
+         </ns0:Language>
+      </ns0:Text>
+       
+      <ns0:Text>
+         <ns0:Language id="English">
+            Precious in the sight of the Lord is the death of His saints. O Lord, I am Your servant; I am Your servant, and the son of Your handmaid. You have broken my bonds; I will sacrifice to You the sacrifice of praise, and will call upon the name of the Lord. I will pay my vows to the Lord in the presence of all His people, in the courts of the Lord's house, in the midst of Jerusalem. ALLELUIA.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            كريمٌ أمامَ الربِّ موتُ قدِّيسيهِ. ياربُّ أنا عبدُكَ، أنا عبدُكَ وابنُ أمتِكَ. قطّعتَ قُيودي. فلكَ أذبحُ ذبيحةَ التسبيحِ، وباسمِ الربِّ أدعو. أُوفي للربِّ نُذوري في ديارِ بيتِ الربِّ، قُدَّامَ كلِّ شعبِهِ، في وسطِ أورُشَلِيمَ. هَلِّلُويا.
+         </ns0:Language>
+      </ns0:Text>
+   </ns0:Section>
+<ns0:Role id="Introduction">
+      <ns0:Text>
+         <ns0:Language id="English">
+            Holy, holy, holy. A reading  from the Holy Gospel according to our teacher Saint Luke. May his blessings be with us all. Amen. 
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            قُدُّوسٌ، قُدُّوسٌ، قُدُّوسٌ، فصلٌ مِنْ بشارةِ الإنجيلِ لمُعلِّمِنا مارِ لوقا البشيرِ بركتِهِ على جميعِنا. آمين.
+         </ns0:Language>
+      </ns0:Text>
+   </ns0:Role>
+   
+   <ns0:Role id="Reader">
+      <ns0:Section expanded="true">
+         <ns0:Title>
+            <ns0:Language id="English">
+               Gospel (Luke 9:10-17)
+            </ns0:Language>
+            <ns0:Language id="Arabic">
+               الإنجيلُ لمُعلِّمِنا لوقا ص 9: 10-17
+            </ns0:Language>
+         </ns0:Title>
+         
+         <ns0:Text>
+            <ns0:Language id="English">
+               And the Apostles, when they had returned, told Him all that they had done. Then He took them, and went aside privately into a deserted place belonging to the city called Bethsaida. And the multitude, when they knew it, followed Him, and He received them, and spoke to them about the kingdom of God, and healed those who had need of healing.
+            </ns0:Language>
+            <ns0:Language id="Arabic">
+               ولمَّا رجعَ الرُّسلُ حدَّثوهُ بِما فعلوا. فأخذَهُم معَهُ ودخلَ على انفرادٍ مدينةً تُسمَّى بيتَ صَيْدا. فلمَّا علِمتْ الجُموعُ تبِعوهُ فقبِلَهُم وخاطبَهُم عن ملكوتِ اللهِ، والمُحتاجونَ إلى الشفاءِ شفاهُم.
+            </ns0:Language>
+         </ns0:Text>
+               
+         <ns0:Text>
+            <ns0:Language id="English">
+               And when the day began to wear away, the twelve came, and said to Him, “Send the multitude away, that they may go into the towns and country round about, and lodge, and get provisions, for we are here in a deserted place.”
+            </ns0:Language>
+            <ns0:Language id="Arabic">
+               وكانَ النهارُ قدْ بدأَ يميلُ فتقدَّمَ إليهِ الإثنا عشرَ وقالوا لهُ: اصرِفْ الجُموعَ ليذهبوا إلى القُرى المُحيطةِ والحقولِ، ليستريحوا ويجِدوا ما يأكلونَهُ، فإنَّنا ههُنا في موضعٍ قفرٍ.
+            </ns0:Language>
+         </ns0:Text>
+               
+         <ns0:Text>
+            <ns0:Language id="English">
+               But He said unto them, “You give them to eat.” And they said, “We have no more than five loaves and two fish; unless we go and buy food for all these people.” For they were about five thousand men. And He said to His disciples, “Make them sit down in groups of fifty.” And they did so, and made them all sit down.
+            </ns0:Language>
+            <ns0:Language id="Arabic">
+               فقالَ لهُم: أعطوهُم أنتُم ليأكُلوا. فقالوا: ليسَ عِندَنا أكثرُ مِنْ خمسِ خُبزاتٍ وسمكتَينِ، إلّا أن نمضيَ نحنُ ونشتريَ أطعمةً لهذا الشعبِ جميعِهِ. وكانوا نحوَ خمسةِ آلافِ رجلٍ. فقالَ لتلاميذِهِ: ليتَّكِئوا في كلِّ موضعٍ خمسينَ خمسينَ. ففعلوا هكذا وأتكأوهُم أجمعينَ.
+            </ns0:Language>
+         </ns0:Text>
+               
+         <ns0:Text>
+            <ns0:Language id="English">
+               Then He took the five loaves and the two fish, and looking up to heaven, He blessed them, and broke, and gave to the disciples to set before the multitude. And they ate, and were all filled, and twelve baskets of the remaining fragments were taken up by them.
+            </ns0:Language>
+            <ns0:Language id="Arabic">
+               فأخذَ الخمسَ خُبزاتٍ والسمكتينِ، ونظرَ إلى السماءِ، وباركَها وقسَّمَها، وأعطى التلاميذَ ليضعوا أمامَ الجُموعِ. فأكلوا جميعُهُم وشبِعوا. ثمَّ رفعوا ما فضَلَ عنهُم اثنتيَّ عشرةَ قُفةً مملوءةً.
+            </ns0:Language>
+         </ns0:Text>
+      </ns0:Section>
+   </ns0:Role>
+   
+   <ns0:Role id="Priest">
+       <ns0:Text>
+         <ns0:Language id="Coptic">
+            Ⲇⲟⲝⲁ ⲥⲓ ⲟ̀ Ⲑⲉⲟⲥ ⲏ̀ⲙⲱⲛ: ⲁ̀ⲙⲏⲛ.
+         </ns0:Language>
+         <ns0:Language id="English">
+            Glory be to God forever. Amen.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            والمجْدُ للهِ دَائماً
+         </ns0:Language>
+      </ns0:Text>      
+      
+      <ns0:Text>
+      <ns0:Language id="English">
+         May the sayings of God be fulfilled in peace.
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         ليكمُلْ قولُ اللهِ بسلامٍ.
+      </ns0:Language>         
+   </ns0:Text>
+<ns0:Group>
+      <ns0:Season id="NativityPeriod | NativityParamoun | Circumcision">
+         <ns0:Comment>
+            <ns0:Language id="English">         
+               From the Paramoun of the Nativity to the Feast of the Circumcision:
+            </ns0:Language>
+         </ns0:Comment>
+         
+         <ns0:Text>
+            <ns0:Language id="Coptic">
+               Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: ϫⲉ ⲁⲩⲙⲁⲥⲕ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ ⲛⲁⲓ ⲛⲁⲛ.
+            </ns0:Language>
+            <ns0:Language id="English">
+               We worship You, O Christ, with Your good Father, and the Holy Spirit, for You were born and saved us. Have mercy on us.
+            </ns0:Language>
+            <ns0:Language id="Arabic">
+               نسجدُ لكَ أيها المسيحُ، معَ أبيكَ الصالحِ والرّوحِ القُدُسِ، لأنكَ وُلِدتَ وخلَّصتَنا. [ارحَمْنا]
+            </ns0:Language>         
+         </ns0:Text>
+      </ns0:Season>
+      
+      <ns0:Season id="TheophanyPeriod | TheophanyParamoun">
+         <ns0:Comment>
+            <ns0:Language id="English">         
+               From Paramoun of the Theophany until the 12th of Tobe:
+            </ns0:Language>
+         </ns0:Comment>
+         
+         <ns0:Text>
+            <ns0:Language id="Coptic">
+               Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: ϫⲉ ⲁⲕϭⲓⲱⲙⲥ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ ⲛⲁⲓ ⲛⲁⲛ.
+            </ns0:Language>
+            <ns0:Language id="English">
+               We worship You, O Christ, with Your good Father, and the Holy Spirit, for You were baptized and saved us. Have mercy on us.
+            </ns0:Language>
+            <ns0:Language id="Arabic">
+               نسجدُ لكَ أيها المسيحُ، معَ أبيكَ الصالحِ والرّوحِ القُدُسِ، لأنكَ أعتمدت وخلَّصتَنا. [ارحَمْنا]
+            </ns0:Language>         
+         </ns0:Text>
+      </ns0:Season>
+      
+      <ns0:Season id="PaschaWeek | Pascha | FeastOfTheCross | (FuneralTune ^ FuneralPrayer) | GeneralFuneralPrayer">
+         <ns0:Comment>
+            <ns0:Language id="English">         
+               On the two Feasts of the Cross, during Holy Pascha Week, and during funerals:
+            </ns0:Language>
+         </ns0:Comment>
+         
+         <ns0:Text>
+            <ns0:Language id="Coptic">
+               Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: ϫⲉ ⲁⲩⲁϣⲕ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ ⲛⲁⲓ ⲛⲁⲛ.
+            </ns0:Language>
+            <ns0:Language id="English">
+               We worship You, O Christ, with Your good Father, and the Holy Spirit, for You were crucified and saved us. Have mercy on us.
+            </ns0:Language>
+            <ns0:Language id="Arabic">
+               نسجدُ لكَ أيها المسيحُ، معَ أبيكَ الصالحِ والرّوحِ القُدُسِ، لأنكَ صلبت وخلَّصتَنا. [ارحَمْنا]
+            </ns0:Language>         
+         </ns0:Text>
+      </ns0:Season>
+      
+      <ns0:Season id="!ThirdProstration ^ (Joyful29thOfTheMonthRaw | PentecostPeriod | (Sundays ^ ApostlesFastToLastDayOfHathor))">
+         <ns0:Comment>
+      <ns0:Language id="English">         
+         On joyful days (see note in About Menu for details):
+      </ns0:Language>
+   </ns0:Comment>
+<ns0:Text>
+            <ns0:Language id="Coptic">
+               Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: ϫⲉ ⲁⲕⲧⲱⲛⲕ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ ⲛⲁⲓ ⲛⲁⲛ.
+            </ns0:Language>
+            <ns0:Language id="English">
+               We worship You, O Christ, with Your good Father, and the Holy Spirit, for You have risen and saved us. Have mercy on us.
+            </ns0:Language>
+            <ns0:Language id="Arabic">
+               نسجدُ لكَ أيها المسيحُ، معَ أبيكَ الصالحِ والرّوحِ القُدُسِ، لأنكَ قمت وخلَّصتَنا. [ارحَمْنا]
+            </ns0:Language>         
+         </ns0:Text>
+      </ns0:Season>
+      
+      <ns0:Season id="Other">
+         <ns0:Comment>
+            <ns0:Language id="English">         
+               On standard days of the year and on fasting days:
+            </ns0:Language>
+         </ns0:Comment>
+         
+         <ns0:Text>
+            <ns0:Language id="Coptic">
+               Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: ϫⲉ ⲁⲕⲓ̀ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ ⲛⲁⲓ ⲛⲁⲛ.
+            </ns0:Language>
+            <ns0:Language id="English">
+               We worship You, O Christ, with Your good Father, and the Holy Spirit, for You have come and saved us. Have mercy on us.
+            </ns0:Language>
+            <ns0:Language id="Arabic">
+               نسجدُ لكَ أيها المسيحُ، معَ أبيكَ الصالحِ والرّوحِ القُدُسِ، لأنَّكَ أتيتَ وخلَّصتَنا. [ارحَمْنا]
+            </ns0:Language>         
+         </ns0:Text>
+      </ns0:Season>
+   </ns0:Group> 
+</ns0:Role>
+<ns0:Section expanded="true">
+      <ns0:Title>
+         <ns0:Language id="English">Litanies</ns0:Language>
+         <ns0:Language id="Arabic">طلبةٌ</ns0:Language>
+      </ns0:Title>
+         
+      <ns0:Role id="Reader">
+         <ns0:Text>
+            <ns0:Language id="English">
+               1. O You, who tasted death in the flesh in the ninth hour for our sake, we the sinners, put to death our carnal lusts, O Christ, our God, and deliver us. Let my supplication draw close before You, O Lord; according to Your word give me understanding. Let my petition come before Your presence; according to Your word revive me.
+            </ns0:Language>
+            <ns0:Language id="Arabic">
+               1. يا مَنْ ذاقَ الموتَ بالجسدِ في وقتِ الساعةِ التاسِعةِ مِنْ أجلِنا نحنُ الخُطاةُ، أمِتْ حواسَّنا الجسمانيَّةَ أيها المسيحُ إلهُنا ونجِّنا. فليَدنُ توسُّلي قُدَّامَكَ ياربُّ، كقولِكَ فهِّمْني. لتدخُلْ طِلبتي إلى حضرتِكَ، ككلمتِكَ أحيِني.
+            </ns0:Language>
+         </ns0:Text>
+      </ns0:Role>
+            
+      <ns0:Role id="People">
+      <ns0:Text forceLanguage="Coptic">
+      <ns0:Language id="Coptic">
+         Ⲇⲟⲝⲁ Ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩⲓⲱ ⲕⲉ ⲁ̀ⲅⲓⲱ Ⲡⲛⲉⲩⲙⲁⲧⲓ.
+      </ns0:Language>
+      <ns0:Language id="English">
+         Glory to the Father, and to the Son, and to the Holy Spirit.
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         المجدُ للآبِ والابنِ والرّوحِ القُدُسِ.
+      </ns0:Language>
+   </ns0:Text>
+</ns0:Role>
+<ns0:Role id="Reader">
+         <ns0:Text>
+            <ns0:Language id="English">
+               2. O You, who commended the spirit into the hands of the Father as You hung on the cross, in the ninth hour, and guided the thief who was crucified with You into entering the Paradise, do not neglect me, O Good One, nor reject me, I, the lost one; but sanctify my soul and enlighten my understanding, and allow me to be a partaker of the grace of Your life-giving mysteries; that when I taste of Your benevolences, I offer You praise without lukewarmness, longing for Your splendor above all things, O Christ our Lord, and deliver us.
+            </ns0:Language>
+            <ns0:Language id="Arabic">
+               2. يا مَنْ أسلمَ الرُّوحَ في يديِّ الآبِ عِندما عُلِّقتَ على الصليبِ وقتَ الساعةِ التاسِعةِ، وهدَيتَ اللصَّ المصلوبَ معَكَ للدخولِ إلى الفردوسِ، لا تَغفلْ عنِّي أيها الصالِحُ ولا تُرذِلْني أنا الضالُّ، بلْ قدِّسْ نفسي وأضئْ فهمي واجعلْني شريكاً لنعمةِ أسرارِكَ المُحييَّةِ. لكي ما إذا ذُقتُ مِنْ إحساناتِكَ، أقدِّمُ لكَ تسبِحةً بغيرِ فُتورٍ، مُشتاقاً إلى بهائِكَ أفضلَ مِنْ كلِّ شيءٍ، أيها المسيحُ إلهُنا ونجِّنا.
+            </ns0:Language>
+         </ns0:Text>
+      </ns0:Role>
+            
+      <ns0:Role id="People">
+      <ns0:Text forceLanguage="Coptic">
+      <ns0:Language id="Coptic">
+         Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ⲓ̀ ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ: ⲁ̀ⲙⲏⲛ.         
+      </ns0:Language>
+      <ns0:Language id="English">
+         Now and ever and unto the ages of the ages. Amen.      
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         الآنَ وكلَّ أوانٍ وإلى دهرِ الدهورِ. آمين.
+      </ns0:Language>
+   </ns0:Text>
+</ns0:Role>
+<ns0:Role id="Reader">
+         <ns0:Text>
+            <ns0:Language id="English">
+               3. O You who were born of the Virgin for our sake, and endured crucifixion, O Good One, and abolished death by Your death, and manifested resurrection by Your resurrection, O God, do not turn away from those whom You have created with Your own hands, but manifest, O Good One, Your love for mankind. Accept from Your mother an intercession on our behalf. Deliver, O Savior, a humble people. Do not leave us to the end, and do not forsake us forever. Do not break Your covenant, and do not take away from us Your mercy, for the sake of Abraham, Your beloved, Isaac, Your servant, and Israel, Your saint.
+            </ns0:Language>
+            <ns0:Language id="Arabic">
+               3. يا مَنْ وُلِدتَ مِنَ البتولِ مِنْ أجلِنا، واحتملتَ الصلبَ أيها الصالِحُ وقتلتَ الموتَ بموتِكَ وأظهرتَ القيامةَ بقيامتِكَ، لا تُعرِضْ يا اللهُ عن الذينَ جبلتَهُم بيدَيكَ. أظهِرْ محبتَكَ للبشرِ أيها الصالِحُ. اقبلْ مِنْ والدتِكَ شفاعةً مِنْ أجلِنا. نجِّ يا مُخلِّصُ شعباً مُتواضِعاً. لا تترُكْنا إلى الانقضاءِ ولا تُسلِّمْنا إلى الدهرِ، ولا تنقُضْ عهدَكَ ولا تنزعْ عنَّا رحمتَكَ، مِنْ أجلِ إبراهيمَ حبيبِكَ واسحقَ عبدِكَ وإسرائيلَ قديسِكَ.
+            </ns0:Language>
+         </ns0:Text>
+      </ns0:Role>
+            
+      <ns0:Role id="People">
+      <ns0:Text forceLanguage="Coptic">
+      <ns0:Language id="Coptic">
+         Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ⲓ̀ ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ: ⲁ̀ⲙⲏⲛ.         
+      </ns0:Language>
+      <ns0:Language id="English">
+         Now and ever and unto the ages of the ages. Amen.      
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         الآنَ وكلَّ أوانٍ وإلى دهرِ الدهورِ. آمين.
+      </ns0:Language>
+   </ns0:Text>
+</ns0:Role>
+<ns0:Role id="Reader">
+         <ns0:Text>
+            <ns0:Language id="English">
+               4. When the thief saw the Prince of Life hung on the cross, he said: “Had not the One crucified with us been God Incarnate, the sun would not hide its rays, nor would the earth have quaked trembling. But O You, the Almighty One who endures all things, remember me, O Lord, when You come into Your kingdom.”
+            </ns0:Language>
+            <ns0:Language id="Arabic">
+               4. لما أبصرَ اللصُّ رئيسَ الحياةِ على الصليبِ مُعلَّقاً، قالَ: لولا أنَّ المصلوبَ معَنا إلهٌ مُتجسِدٌ، ما كانتْ الشمسُ أخفتْ شُعاعَها ولا الأرضُ ماجتْ مُرتعِدةً. لكنْ أيها القادرُ على كلِّ شيءٍ، والمُحتمِلُ كلَّ شيءٍ، اذكُرْني ياربُّ متى جِئتَ في ملكوتِكَ.
+            </ns0:Language>
+         </ns0:Text>
+      </ns0:Role>
+            
+      <ns0:Role id="People">
+      <ns0:Text forceLanguage="Coptic">
+      <ns0:Language id="Coptic">
+         Ⲇⲟⲝⲁ Ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩⲓⲱ ⲕⲉ ⲁ̀ⲅⲓⲱ Ⲡⲛⲉⲩⲙⲁⲧⲓ.
+      </ns0:Language>
+      <ns0:Language id="English">
+         Glory to the Father, and to the Son, and to the Holy Spirit.
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         المجدُ للآبِ والابنِ والرّوحِ القُدُسِ.
+      </ns0:Language>
+   </ns0:Text>
+</ns0:Role>
+<ns0:Role id="Reader">
+         <ns0:Text>
+            <ns0:Language id="English">
+               5. O You, who accepted unto Yourself the confession of the thief on the cross, accept us unto You, O Good One, we who deserve the sentence of death because of our sins. We all confess our sins with him, acknowledging Your divinity, and cry out with him, saying, “Remember us, O Lord, when You come into Your kingdom.”
+            </ns0:Language>
+            <ns0:Language id="Arabic">
+               5. يا مَنْ قبِلَ إليهِ اعترافَ اللصِّ على الصليبِ، اقبلْنا إليكَ أيها الصالِحُ. نحنُ المُستوجِبينَ حُكمَ الموتِ مِنْ أجلِ خطايانا. نُقِرُّ بخطايانا معَهُ مُعترفينَ بألوهيَّتِكَ، ونصرخُ معَهُ جميعاً: اذكُرْنا ياربُّ متى جِئتَ في ملكوتِكَ.
+            </ns0:Language>
+         </ns0:Text>
+      </ns0:Role>
+            
+      <ns0:Role id="People">
+      <ns0:Text forceLanguage="Coptic">
+      <ns0:Language id="Coptic">
+         Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ⲓ̀ ⲕⲉ ⲓⲥ ⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ: ⲁ̀ⲙⲏⲛ.         
+      </ns0:Language>
+      <ns0:Language id="English">
+         Now and ever and unto the ages of the ages. Amen.      
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         الآنَ وكلَّ أوانٍ وإلى دهرِ الدهورِ. آمين.
+      </ns0:Language>
+   </ns0:Text>
+</ns0:Role>
+<ns0:Role id="Reader">
+         <ns0:Text>
+            <ns0:Language id="English">
+               6. When the mother saw the Lamb and shepherd, the Savior of the world, hung on the cross, she said while weeping, “The world rejoices in receiving salvation, while my heart burns as I look at Your crucifixion which You are enduring for the sake of all, my Son and my God.”
+            </ns0:Language>
+            <ns0:Language id="Arabic">
+               6. عِندما نظرتْ الوالدةُ الحملَ والراعي مُخلِّصَ العالمِ على الصليبِ مُعلَّقاً قالتْ وهي باكيةٌ: أمَّا العالمُ فيفرحُ لقَبولِهِ الخلاصِ، وأمَّا أحشائي فتلتهِبُ عِندَ نظَري إلى صلَبوتِكَ الذي أنتَ صابِرٌ عليهِ مِنْ أجلِ الكلِّ، يا ابني وإلهي.
+            </ns0:Language>
+         </ns0:Text>
+      </ns0:Role>
+   </ns0:Section>
+   
+   <ns0:Role id="Priest">
+      <ns0:Text>
+         <ns0:Language id="English">
+            O Lord hear us and have mercy on us and forgive us our sins. Amen.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            ياربُّ اسمَعْنا وارحَمْنا واغفِرْ لنا خطايانا. آمين.
+         </ns0:Language>
+      </ns0:Text>
+   </ns0:Role>
+<ns0:Text forceLanguage="Coptic">
+      <ns0:Language id="Coptic">
+         Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ (ⲙ̅ⲁ̅)
+      </ns0:Language>
+      <ns0:Language id="English">
+         Lord have mercy (41)          
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         ياربُّ ارحَمْ (41)
+      </ns0:Language>   
+   </ns0:Text>
+<ns0:Section expanded="true">
+      <ns0:Title>
+         <ns0:Language id="English">Holy, Holy, Holy</ns0:Language>
+         <ns0:Language id="Arabic">قُدُّوسٌ، قُدُّوسٌ، قُدُّوسٌ</ns0:Language>
+      </ns0:Title>
+      
+      <ns0:Text>
+         <ns0:Language id="English">
+            Holy, holy, holy, Lord of Sabaoth. Heaven and earth are full of Your glory and honor. Have mercy on us, O God the Father, the Pantocrator. O Holy Trinity, have mercy on us. O Lord, God of hosts, be with us. For we have no helper in our hardships and tribulations but You. Absolve, forgive, and remit, O God, our transgressions; those which we have committed willingly and those which we have committed unwillingly, those which we have committed knowingly and those which we have committed unknowingly, the hidden and the manifest, O Lord forgive us, for the sake of Your holy name which is called upon us. Let it be according to Your mercy, O Lord, and not according to our sins.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            قُدُّوسٌ، قُدُّوسٌ، قُدُّوسٌ، ربُّ الصباؤوتِ. السماءُ والأرضُ مملوءتانِ مِنْ مجدِكَ وكرامتِكَ. ارحَمْنا يا اللهُ الآبُ ضابطُ الكلِّ. أيها الثالوثُ القُدُّوسُ ارحَمْنا. أيها الربُّ إلهُ القواتِ كُن معنا، لأنَّهُ ليسَ لنا مُعينٌ في شدائدِنا وضيقاتِنا سِواكَ. حلِّ واغفِرْ واصفحْ لنا يا اللهُ عَن سيئاتِنا، التي صنعناها بإرادتِنا والتي صنعناها بغيرِ إرادتِنا، التي فعلناها بمعرفةٍ والتي فعلناها بغيرِ معرفةٍ، الخفيةِ والظاهرةِ. ياربُّ اغفِرْها لنا، مِنْ أجلِ اسمِكَ القُدُّوسِ الذي دُعِيَ علينا. كرحمتِكَ ياربُّ وليسَ كخطايانا.
+         </ns0:Language>
+      </ns0:Text>
+   </ns0:Section>
+<ns0:Section expanded="true">
+      <ns0:Title>
+      <ns0:Language id="English">Our Father</ns0:Language>
+      <ns0:Language id="Arabic">أبانا الذي</ns0:Language>
+   </ns0:Title>
+   
+   <ns0:Text>
+      <ns0:Language id="Coptic">
+         Ⲁⲣⲓⲧⲉⲛ ⲛ̀ⲉⲙⲡ̀ϣⲁ ⲛ̀ϫⲟⲥ ϧⲉⲛ ⲟⲩϣⲉⲡϩ̀ⲙⲟⲧ:
+      </ns0:Language>
+      <ns0:Language id="English">
+         Make us worthy to pray thankfully:
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         اللهُمَّ اجعلْنا مُستحقينَ أن نقولَ بشكرٍ:
+      </ns0:Language>
+   </ns0:Text>
+   
+   <ns0:Text>
+      <ns0:Language id="Coptic">
+         Ϫⲉ Ⲡⲉⲛⲓⲱⲧ ⲉⲧ ϧⲉⲛ ⲛⲓⲫⲏⲟⲩⲓ: ⲙⲁⲣⲉϥⲧⲟⲩⲃⲟ ⲛ̀ϫⲉ ⲡⲉⲕⲣⲁⲛ: 
+      </ns0:Language>
+      <ns0:Language id="English">
+         Our Father who art in heaven, hallowed be Thy name.
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         أبانا الذي في السماواتِ ليتقدسِ اسمُكَ،
+      </ns0:Language>
+   </ns0:Text>
+   
+   <ns0:Text>
+      <ns0:Language id="Coptic">
+         Ⲙⲁⲣⲉⲥⲓ̀ ⲛ̀ϫⲉ ⲧⲉⲕⲙⲉⲧⲟⲩⲣⲟ: ⲡⲉⲧⲉϩⲛⲁⲕ ⲙⲁⲣⲉϥϣⲱⲡⲓ: ⲙ̀ⲫ̀ⲣⲏϯ ϧⲉⲛ ⲧ̀ⲫⲉ ⲛⲉⲙ ϩⲓϫⲉⲛ ⲡⲓⲕⲁϩⲓ:  
+      </ns0:Language>
+      <ns0:Language id="English">
+         Thy kingdom come, Thy will be done, on earth as it is in heaven.
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         ليأتِ ملكوتُكَ، لتكُن مشيئتُكَ، كما في السماءِ كذلكَ على الأرضِ،
+      </ns0:Language>
+   </ns0:Text>
+   
+   <ns0:Text>
+      <ns0:Language id="Coptic">
+         Ⲡⲉⲛⲱⲓⲕ ⲛ̀ⲧⲉ ⲣⲁⲥϯ ⲙⲏⲓϥ ⲛⲁⲛ ⲙ̀ⲫⲟⲟⲩ: ⲟⲩⲟϩ ⲭⲁ ⲛⲏⲉ̀ⲧⲉⲣⲟⲛ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ: ⲙ̀ⲫ̀ⲣⲏϯ ϩⲱⲛ ⲛ̀ⲧⲉⲛⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲛⲏⲉ̀ⲧⲉ ⲟⲩⲟⲛ ⲛ̀ⲧⲁⲛ ⲉ̀ⲣⲱⲟⲩ: ⲟⲩⲟϩ ⲙ̀ⲡⲉⲣⲉⲛⲧⲉⲛ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲡⲓⲣⲁⲥⲙⲟⲥ ⲁⲗⲗⲁ ⲛⲁϩⲙⲉⲛ ⲉ̀ⲃⲟⲗ ϩⲁ ⲡⲓⲡⲉⲧϩⲱⲟⲩ.  
+      </ns0:Language>
+      <ns0:Language id="English">
+         Give us this day our daily bread and forgive us our trespasses, as we forgive those who trespass against us and lead us not into temptation, but deliver us from the evil one.
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         خبزَنا الذي للغدِّ أعطِنا اليومَ، واغفِرْ لنا ذنوبَنا كما نغفِرُ نحنُ أيضاً للمُذنبينَ إلينا، ولا تُدخِلنا في تجرِبةٍ لكِنْ نجِّنا مِنَ الشريرِ،
+      </ns0:Language>
+   </ns0:Text>
+   
+   <ns0:Text>
+      <ns0:Language id="Coptic">
+         Ϧⲉⲛ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲓⲏⲥⲟⲩⲥ Ⲡⲉⲛϭⲟⲓⲥ: ϫⲉ ⲑⲱⲕ ⲧⲉ ϯⲙⲉⲧⲟⲩⲣⲟ ⲛⲉⲙ ϯϫⲟⲙ ⲛⲉⲙ ⲡⲓⲱ̀ⲟⲩ ϣⲁ ⲉ̀ⲛⲉϩ: ⲁ̀ⲙⲏⲛ.  
+      </ns0:Language>
+      <ns0:Language id="English">
+         In Christ Jesus our Lord. For Thine is the kingdom, and the power, and the glory, forever. Amen.
+      </ns0:Language>
+      <ns0:Language id="Arabic">
+         بالمسيحِ يسوعَ ربِّنا. لأنَّ لكَ المُلكَ والقوةَ والمجدَ إلى الأبدِ. آمين.
+      </ns0:Language>
+   </ns0:Text>
+</ns0:Section>
+<ns0:Section expanded="true">
+      <ns0:Title>
+         <ns0:Language id="English">
+            Absolution
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            التحليلُ
+         </ns0:Language>
+      </ns0:Title>
+            
+      <ns0:Text>
+         <ns0:Language id="English">
+            O God, Father, the Father of our Lord, God and Savior, Jesus Christ, who, through His manifestation saved us and delivered us from the bondage of the enemy, we ask You, in His blessed and great name, turn our minds away from worldly cares and carnal lusts, to the remembrance of Your heavenly statutes; and complete for us Your love of mankind, O Good One.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            يا اللهُ الآبُ أَبَا ربِّنا وإلهِنا ومُخلِّصِنا يسوعَ المسيحِ هذا الذي بظُهورِهِ خلَّصتَنا وأنقذتَنا مِنْ عُبوديةِ العدوِّ. نسألُكَ باسمِهِ المُباركِ العظيمِ انقِلْ عُقولَنا مِنَ الاهتمامِ العالمي والشهواتِ الجسديَّةِ، إلى تذكُّرِ أحكامِكَ السمائيَّةِ وكمِّلْ لنا محبَّتَكَ للبشرِ أيها الصالِحُ.
+         </ns0:Language>
+      </ns0:Text>
+            
+      <ns0:Text>
+         <ns0:Language id="English">
+            May our prayers at all times, and especially the prayer of this ninth hour, be acceptable before You. And grant us to walk worthy of the calling with which we were called, so that when we depart from this world, we may be counted with the worshippers worthy of the passions of Your only-begotten Son Jesus Christ, our Lord. Thus, we gain mercy, and forgiveness of our sins, and salvation with the choir of saints who truly pleased You since the beginning and forever.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            ولتكُنْ صلواتُنا كلَّ حينٍ وصلاةُ هذهِ الساعةِ التاسِعةِ مقبولةً أمامَكَ. وامنحْنا أن نسلُكَ كما يليقُ بالدعوةِ التي دُعِينا إليها. لكي إذا خرجْنا مِنْ هذا الجسدِ نُحسَبَ معَ الساجدينَ المُستحقينَ لآلامِ ابنِكَ الوحيدِ يسوعَ المسيحِ ربِّنا، ونظفُرَ بالرحمةِ وغفرانِ خطايانا والخلاصِ معَ مصافِّ القديسينَ الذينَ أرضَوكَ بالحقيقةِ منذُ الدهرِ والى الأبدِ.
+         </ns0:Language>
+      </ns0:Text>
+       
+      <ns0:Text>
+         <ns0:Language id="English">
+            O God, abolish for us the power of the adversary and all his evil armies, as Your only-begotten Son has trampled on them by the power of His life-giving cross. Accept us unto You, O our Lord, Jesus Christ, as You accepted the thief at Your right, while You were hung on the cross. And shine upon us as You have shone upon those who were in the darkness of Hades, and restore us all to the Paradise of Joy. For You, our Master, are blessed God, and unto You is due all the glory, honor, majesty, dominion, and worship, with Your good Father and the Holy Spirit, forever. Amen.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            اللهُمَّ أبطِلْ عنَّا كلَّ قوةِ المُعاندِ وجميعَ جنودِهِ الرديئةِ، كما داسَهُم ابنُكَ الوحيدُ بقوةِ صليبِهِ المُحيي. واقبلْنا إليكَ يا سيِّدي يسوعَ المسيحَ كما قبِلتَ اللصَّ اليمينَ وأنتَ مُعلَّقٌ على عُودِ الصليبِ. وأنِرْ علَينا كما أنرتَ على الذينَ كانوا في ظُلمةِ الجحيمِ. ورُدَّنا جميعاً إلى فِردوسِ النعيمِ لأنَّكَ يا سيِّدي إلهٌ مُبارَكٌ. وينبغي لكَ معَ أبيكَ الصالِحِ والروحِ القُدُسِ، المجدُ والإكرامُ والعِزةُ والسُلطانُ والسُجودُ إلى الأبدِ. آمين.
+         </ns0:Language>
+      </ns0:Text>
+   </ns0:Section>       
+   
+   <ns0:Section expanded="true">
+      <ns0:Title>
+         <ns0:Language id="English">Conclusion of Every Hour</ns0:Language>
+         <ns0:Language id="Arabic">طلبةٌ تقالُ آخرَ كلِّ ساعةٍٍ</ns0:Language>
+      </ns0:Title>
+            
+      <ns0:Text>
+         <ns0:Language id="English">
+            Have mercy on us, O God, and have mercy on us, who at all times and in every hour, in heaven and on earth, is worshipped and glorified; Christ our God, the good, the long suffering, the abundant in mercy, and the great in compassion, who loves the righteous and has mercy on the sinners of whom I am chief, who does not wish the death of the sinner but rather that he returns and lives, who calls all to salvation for the promise of the good things to come.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            ارحَمْنا يا اللهُ ثمَّ ارحَمْنا، يا مَنْ في كلِّ وقتٍ وكلِّ ساعةٍ، في السماءِ وعلى الأرضِ، مسجودٌ لهُ ومُمجَّدٌ. المسيحُ إلهُنا الصالحُ، الطويلُ الرّوحِ، الكثيرُ الرحمةِ، الجزيلُ التحننِ، الذي يحبُّ الصديقينَ ويرحمُ الخطاةَ الذينَ أوَّلُهُم أنا. الذي لا يشاءُ موتَ الخاطئِ مثلَ ما يرجعُ ويحيا. الدَّاعي الكلَّ إلى الخلاصِ لأجلِ الموعدِ بالخيراتِ المُنتظَرةِ.
+         </ns0:Language>
+      </ns0:Text>
+            
+      <ns0:Text>
+         <ns0:Language id="English">
+            Lord receive from us our prayers in this hour and in every hour. Ease our life and guide us to fulfill Your commandments. Sanctify our spirits. Cleanse our bodies. Conduct our thoughts. Purify our intentions. Heal our diseases. Forgive our sins. Deliver us from every evil grief and distress of heart. Surround us by Your holy angels, that, by their camp, we may be guarded and guided, and attain the unity of faith, and the knowledge of Your imperceptible and infinite glory. For You are blessed forever. Amen.
+         </ns0:Language>
+         <ns0:Language id="Arabic">
+            ياربُّ اقبَلْ مِنَّا في هذهِ الساعةِ وكلِّ ساعةٍ طلباتِنا. سهِّلْ حياتَنا، وارشِدْنا إلى العملِ بوصاياكَ. قدِّسْ أرواحَنا. طهِّرْ أجسامَنا. قوِّمْ أفكارَنا. نَقِّ نياتِنا. اشفِ أمراضَنا واغفِرْ خطايانا. ونجِّنا مِنْ كلِّ حزنٍ رديءٍ ووجعِ قلبٍ. أحِطنا بملائكتِكَ القديسينَ، لكي نكونَ بمعسكرِهِم محفوظينَ ومُرشَدينَ، لنصِلَ إلى اتِّحادِ الإيمانِ وإلى معرفةِ مجدِكَ غيرِ المحسوسِ وغيرِ المحدودِ، فإنَّكَ مُبارَكٌ إلى الأبدِ. آمين.
+         </ns0:Language>
+      </ns0:Text>
+   </ns0:Section>
+</ns0:Document>
