@@ -1,0 +1,494 @@
+{
+  "service": "DAY of Tuesday",
+  "hour": "ELEVENTH Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Isaiah 30: 25 - 30)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "On every high mountain and on every high hill there will be streams in that day, when many perish and the towers fall.",
+              "arabic": "وسيكون في ذلك اليوم علي كل جبل شامخ وعلي كل أكمة مرتفعة ماء يجري،",
+              "arabic_base_no_tashkeel": "وسيكون في ذلك اليوم علي كل جبل شامخ وعلي كل أكمة مرتفعة ماء يجري،"
+            },
+            {
+              "row_index": 2,
+              "english": "In that day, the light of the moon will be as the light of the sun, and the light of the sun will be sevenfold, when the Lord heals the wound of His people and the pain of your plague.",
+              "arabic": "في ذلك اليوم عندما يهلك كثير ويسقط البرج، ويكون نور القمر كنور الشمس، ونور الشمس يصير سبعة أضعاف، في ذلك اليوم إذا ما جبر الرب كسر شعبه وداوي ضربات جراحه،",
+              "arabic_base_no_tashkeel": "في ذلك اليوم عندما يهلك كثير ويسقط البرج، ويكون نور القمر كنور الشمس، ونور الشمس يصير سبعة أضعاف، في ذلك اليوم إذا ما جبر الرب كسر شعبه وداوي ضربات جراحه،"
+            },
+            {
+              "row_index": 3,
+              "english": "Behold, the name of the Lord comes after a long time, a burning anger. The teaching of His lips is with glory, a revelation full of wrath, and the wrath of His anger shall devour like fire.",
+              "arabic": "هوذا إسم الرب يأتي من زمن بعيد غضب مشتعل ومجد هو كلام شفتيه، والكلام مملوء حنقاً ورجز سخطه يأكل كنار،",
+              "arabic_base_no_tashkeel": "هوذا إسم الرب يأتي من زمن بعيد غضب مشتعل ومجد هو كلام شفتيه، والكلام مملوء حنقا ورجز سخطه يأكل كنار،"
+            },
+            {
+              "row_index": 4,
+              "english": "His breath, like an overflowing stream in a valley, shall reach up to the neck and be divided, to trouble the nations for their vain error; and error shall pursue and overtake them.",
+              "arabic": "وتأتي نفخة مثل الماء الجاري في واد إلي الأعناق. ويقسم علي الأمم قلقاً لأجل الضلالة الباطلة، وستكدرهم الضلالة وتأخذهم علي وجوههم،",
+              "arabic_base_no_tashkeel": "وتأتي نفخة مثل الماء الجاري في واد إلي الأعناق. ويقسم علي الأمم قلقا لأجل الضلالة الباطلة، وستكدرهم الضلالة وتأخذهم علي وجوههم،"
+            },
+            {
+              "row_index": 5,
+              "english": "Must you always be glad, and go into My holy places continually, as those who keep a feast, and must you always go with a flute, as those who are glad when they go into the mountain of the Lord, to the God of Israel?",
+              "arabic": "هل تتنعمون كل وقت وتدخلون مقادسي كل حين كالمعيدين والفرحين وتدخلون بآلات اللهو إلي جبل الله، إلي الإله القوي قدوس اسرائيل؟",
+              "arabic_base_no_tashkeel": "هل تتنعمون كل وقت وتدخلون مقادسي كل حين كالمعيدين والفرحين وتدخلون بآلات اللهو إلي جبل الله، إلي الإله القوي قدوس اسرائيل؟"
+            },
+            {
+              "row_index": 6,
+              "english": "God will cause His glorious voice to be heard, and He will show the anger of His arm with anger and wrath, and the flame of a devouring fire. He shall strike violently with thunderbolts, and His wrath shall be as water and violent hail.",
+              "arabic": "فيسمعهم الله جلال صوته, ويظهر نزول غضب ذراعه ويأتي عليهم بأرجل غاضبة وغضب وحنق ولهيب الرجز يأكل مثل الماء والبرد النازلين بعنف.",
+              "arabic_base_no_tashkeel": "فيسمعهم الله جلال صوته, ويظهر نزول غضب ذراعه ويأتي عليهم بأرجل غاضبة وغضب وحنق ولهيب الرجز يأكل مثل الماء والبرد النازلين بعنف."
+            }
+          ]
+        },
+        {
+          "title": "2nd Prophecy (Proverbs 6: 24 - 7: 4)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "My son, guard the laws of your father, and do not depart from the rules of your mother.",
+              "arabic": "يا إبني إحفظ شريعة أبيك ولا ترفض مشورة أمك،",
+              "arabic_base_no_tashkeel": "يا إبني إحفظ شريعة أبيك ولا ترفض مشورة أمك،"
+            },
+            {
+              "row_index": 2,
+              "english": "But fasten them to your soul continually and wear them as a collar upon your neck.",
+              "arabic": "أربطها بثبات في نفسك واجعلها قلادة في عنقك،",
+              "arabic_base_no_tashkeel": "أربطها بثبات في نفسك واجعلها قلادة في عنقك،"
+            },
+            {
+              "row_index": 3,
+              "english": "When you walk about, bring along this commandment and let it be with you; and as you sleep, let it guard you, that when you arise, it may speak to you.",
+              "arabic": "وإذا مشيت خذها معك ولتكن لك، وإذا نمت فلتحرسك حتى إذا استيقظت فإنها تحدثك",
+              "arabic_base_no_tashkeel": "وإذا مشيت خذها معك ولتكن لك، وإذا نمت فلتحرسك حتى إذا استيقظت فإنها تحدثك"
+            },
+            {
+              "row_index": 4,
+              "english": "For a commandment of law is a lamp and a light, and the way of life is reproof and instruction,",
+              "arabic": "لأن وصية الله مصباح والناموس نور كل السبل، لأنه الأدب يكسب طريقه طول العمر،",
+              "arabic_base_no_tashkeel": "لأن وصية الله مصباح والناموس نور كل السبل، لأنه الأدب يكسب طريقه طول العمر،"
+            },
+            {
+              "row_index": 5,
+              "english": "that you may keep yourself from a married woman and from the slanderous tongue of a strange woman.",
+              "arabic": "لكي يحفظك من امرأة ليست هي لك ومن دغل ذي لسانين وغش إنسان غريب،",
+              "arabic_base_no_tashkeel": "لكي يحفظك من امرأة ليست هي لك ومن دغل ذي لسانين وغش إنسان غريب،"
+            },
+            {
+              "row_index": 6,
+              "english": "Do not let the desire of beauty conquer you; neither be caught by her eyes, nor captivated by her eyelids;",
+              "arabic": "فلا يغلبك جمال الشهوة ولا تصيدك ولا تقتنصك بحبالها",
+              "arabic_base_no_tashkeel": "فلا يغلبك جمال الشهوة ولا تصيدك ولا تقتنصك بحبالها"
+            },
+            {
+              "row_index": 7,
+              "english": "for the value of a prostitute is only one loaf, and such a woman hunts for the precious souls of men.",
+              "arabic": "لأنه بسبب إمرأة زانية تفتقر الى رغيف خبز واحد والمرأة تصطاد نفس الرجل الكريم.",
+              "arabic_base_no_tashkeel": "لأنه بسبب إمرأة زانية تفتقر الى رغيف خبز واحد والمرأة تصطاد نفس الرجل الكريم."
+            },
+            {
+              "row_index": 8,
+              "english": "Shall anyone bind fire to his bosom and his garments not burn? Or will anyone walk about on coals of fire and not burn his feet?",
+              "arabic": "أيضم أحد جمر نار في حضنه ولا تحترق ثيابه؟ أم يمشي أحد علي جمر نار ولا تكتوى رجلاه؟",
+              "arabic_base_no_tashkeel": "أيضم أحد جمر نار في حضنه ولا تحترق ثيابه؟ أم يمشي أحد علي جمر نار ولا تكتوى رجلاه؟"
+            },
+            {
+              "row_index": 9,
+              "english": "Likewise is the one who goes in to a married woman; he shall not be guiltless, nor any who touch her.",
+              "arabic": "هكذا إنسان يدخل على إمرأة ذات زوج لا يكون بريئاً من الخطية ولا من يمسها.",
+              "arabic_base_no_tashkeel": "هكذا إنسان يدخل على إمرأة ذات زوج لا يكون بريئا من الخطية ولا من يمسها."
+            },
+            {
+              "row_index": 10,
+              "english": "It is not surprising if anyone who steals is caught, for he steals that he may fill his hungry soul; but if he is caught, he will repay sevenfold, and by giving all his goods, he shall deliver himself.",
+              "arabic": "لا عجب إذا وجد أحد سارقاً فإنه يسرق ليشبع نفسه الجائعة. وإذا أمسك يعطي سبعة أضعاف ويعطي كل ما له ليخلص،",
+              "arabic_base_no_tashkeel": "لا عجب إذا وجد أحد سارقا فإنه يسرق ليشبع نفسه الجائعة. وإذا أمسك يعطي سبعة أضعاف ويعطي كل ما له ليخلص،"
+            },
+            {
+              "row_index": 11,
+              "english": "But the adulterer through his lack of discernment obtains the destruction of his soul; he bears both pain and dishonor, and his disgrace will not be wiped away forever.",
+              "arabic": "أما الفاسق فمن أجل جهله سيجلب علي نفسه هلاكاً ويقاسي أحزاناً وخزياً وعاره لا يمحي إلي الأبد،",
+              "arabic_base_no_tashkeel": "أما الفاسق فمن أجل جهله سيجلب علي نفسه هلاكا ويقاسي أحزانا وخزيا وعاره لا يمحي إلي الأبد،"
+            },
+            {
+              "row_index": 12,
+              "english": "For the anger of her husband is full of jealousy; he will not spare in the day of judgment; he will not take any ransom in exchange for his hatred, nor will he be reconciled by many gifts.",
+              "arabic": "لأن حنق رجلها يلتهب ناراً ولن يشفق في المجازة ولا يخفي عداوته نظير أي فدية ولا نظير أي هدية.",
+              "arabic_base_no_tashkeel": "لأن حنق رجلها يلتهب نارا ولن يشفق في المجازة ولا يخفي عداوته نظير أي فدية ولا نظير أي هدية."
+            },
+            {
+              "row_index": 13,
+              "english": "My son, guard my words, and hide my commandments within yourself; my son, honor the Lord, and you shall be strong, and fear none other but Him.",
+              "arabic": "يا إبني إحفظ كلامي وإدخر وصاياي عندك. أكرم الله لتتقوي ولا تخف أحدا سواه،",
+              "arabic_base_no_tashkeel": "يا إبني إحفظ كلامي وإدخر وصاياي عندك. أكرم الله لتتقوي ولا تخف أحدا سواه،"
+            },
+            {
+              "row_index": 14,
+              "english": "Guard my commandments and you will live, and my words as the pupils of your eyes; and put them around your fingers, and write them upon the breadth of your heart.",
+              "arabic": "وإحفظ وصاياه فتحيا، وإحرص علي كلامي كحدقة العين، وأربطه علي أصابعك. أكتبه في عمق قلبك،",
+              "arabic_base_no_tashkeel": "وإحفظ وصاياه فتحيا، وإحرص علي كلامي كحدقة العين، وأربطه علي أصابعك. أكتبه في عمق قلبك،"
+            },
+            {
+              "row_index": 15,
+              "english": "Say that wisdom is your sister, and gain discernment as a friend for yourself.",
+              "arabic": "قل للحكمة: أنت أختي وللفهم هو رجلك.",
+              "arabic_base_no_tashkeel": "قل للحكمة: أنت أختي وللفهم هو رجلك."
+            },
+            {
+              "row_index": 16,
+              "english": "He will accept no recompense, Nor will he be appeased though you give many gifts.",
+              "arabic": "لاَ يَنْظُرُ إِلَى فِدْيَةٍ مَا وَلاَ يَرْضَى وَلَوْ أَكْثَرْتَ الرَّشْوَةَ.",
+              "arabic_base_no_tashkeel": "لا ينظر إلى فدية ما ولا يرضى ولو أكثرت الرشوة."
+            },
+            {
+              "row_index": 17,
+              "english": "My son, keep my words, And treasure my commands within you.",
+              "arabic": "يَا ابْنِي احْفَظْ كَلاَمِي وَاذْخَرْ وَصَايَايَ عِنْدَكَ.",
+              "arabic_base_no_tashkeel": "يا ابني احفظ كلامي واذخر وصاياي عندك."
+            },
+            {
+              "row_index": 18,
+              "english": "Keep my commands and live, And my law as the apple of your eye.",
+              "arabic": "احْفَظْ وَصَايَايَ فَتَحْيَا وَشَرِيعَتِي كَحَدَقَةِ عَيْنِكَ.",
+              "arabic_base_no_tashkeel": "احفظ وصاياي فتحيا وشريعتي كحدقة عينك."
+            },
+            {
+              "row_index": 19,
+              "english": "Bind them on your fingers; Write them on the tablet of your heart.",
+              "arabic": "اُرْبُطْهَا عَلَى أَصَابِعِكَ. اكْتُبْهَا عَلَى لَوْحِ قَلْبِكَ.",
+              "arabic_base_no_tashkeel": "اربطها على أصابعك. اكتبها على لوح قلبك."
+            },
+            {
+              "row_index": 20,
+              "english": "Say to wisdom, \"You are my sister,\" And call understanding your nearest kin.",
+              "arabic": "قُلْ لِلْحِكْمَةِ: «أَنْتِ أُخْتِي» وَادْعُ الْفَهْمَ ذَا قَرَابَةٍ.",
+              "arabic_base_no_tashkeel": "قل للحكمة: «أنت أختي» وادع الفهم ذا قرابة."
+            }
+          ]
+        },
+        {
+          "title": "Homily(Abba John Chrysostom)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "I want to remind you with what I repeatedly reiterated to you concerning our communion with the Holy sacraments which is of Christ.",
+              "arabic": "أريد أن أذكركم أيها الاخوة بما أقوله لكم مرات عديدة وقت تناولنا من أسرار المسيح المقدسة.",
+              "arabic_base_no_tashkeel": "أريد أن أذكركم أيها الاخوة بما أقوله لكم مرات عديدة وقت تناولنا من أسرار المسيح المقدسة."
+            },
+            {
+              "row_index": 2,
+              "english": "I see you in a state of extreme looseness, permissiveness, and an alarming audacity and lamentable recklessness. I weep over my condition and ask myself;",
+              "arabic": "إذا رأيتكم فى تراخ عظيم وعدم مخافة تستوجب النوح فإنى أبكى لنفسى وأقول فى فكرى.",
+              "arabic_base_no_tashkeel": "إذا رأيتكم فى تراخ عظيم وعدم مخافة تستوجب النوح فإنى أبكى لنفسى وأقول فى فكرى."
+            },
+            {
+              "row_index": 3,
+              "english": "Do these people really know for whom do they stand? Or do these people realize the power of this sacrament? At this thought I become angry reluctantly.",
+              "arabic": "ألعل هؤلاء عارفون لمن هم قيام أو قوة هذا السر: وهكذا أغضب بغير إرادتى.",
+              "arabic_base_no_tashkeel": "ألعل هؤلاء عارفون لمن هم قيام أو قوة هذا السر: وهكذا أغضب بغير إرادتى."
+            },
+            {
+              "row_index": 4,
+              "english": "If I could go away, I would have left your community out of distraughtness.",
+              "arabic": "وانى كنت أريد أن أخرج من وسطكم من ضيقة نفسى",
+              "arabic_base_no_tashkeel": "وانى كنت أريد أن أخرج من وسطكم من ضيقة نفسى"
+            },
+            {
+              "row_index": 5,
+              "english": "If I scold one of you, he disregards my words and resents the reprimand as if I were unfair to him.",
+              "arabic": "وإذا وبخت أحداً منكم لا يكترث لقولى. بل يتذمر على كأننى قد ظلمته.",
+              "arabic_base_no_tashkeel": "وإذا وبخت أحدا منكم لا يكترث لقولى. بل يتذمر على كأننى قد ظلمته."
+            },
+            {
+              "row_index": 6,
+              "english": "I am amazed that you do not get angry at those who violate you and plunder your possessions as much as you are angry at me; I who am keen over your salvation.",
+              "arabic": "ياللعجب العظيم أن الذين يظلمونكم ويسلبون أمتعتكم لا تغضبون عليهم كغضبكم على أنا الذى أريد خلاصكم",
+              "arabic_base_no_tashkeel": "ياللعجب العظيم أن الذين يظلمونكم ويسلبون أمتعتكم لا تغضبون عليهم كغضبكم على أنا الذى أريد خلاصكم"
+            },
+            {
+              "row_index": 7,
+              "english": "I dread the thought that God’s wrath may be inflicted upon you because of your disregard of this great sacrament.",
+              "arabic": "أنا خائف ومرتعد حين علمت بعقاب الله الذى سيحل بكم بسبب تهاونكم بهذا السر العظيم.",
+              "arabic_base_no_tashkeel": "أنا خائف ومرتعد حين علمت بعقاب الله الذى سيحل بكم بسبب تهاونكم بهذا السر العظيم."
+            },
+            {
+              "row_index": 8,
+              "english": "Do you really know who is He you want to partake of?",
+              "arabic": "ألعلكم تعلمون من هو هذا الذى تريدون أن تتناولوا منه.",
+              "arabic_base_no_tashkeel": "ألعلكم تعلمون من هو هذا الذى تريدون أن تتناولوا منه."
+            },
+            {
+              "row_index": 9,
+              "english": "This is the Holy Body of God the Word, and His blood that He offered for our salvation.",
+              "arabic": "هو الجسد المقدس الذى لله الكلمة. ودمه الذى بذله عن خلاصنا.",
+              "arabic_base_no_tashkeel": "هو الجسد المقدس الذى لله الكلمة. ودمه الذى بذله عن خلاصنا."
+            },
+            {
+              "row_index": 10,
+              "english": "Anyone who partakes in it undeservingly will suffer abominable punishment.",
+              "arabic": "هذا إذا تناول أحد منه بغير استحقاق. يكون له عقوبة ومحقا.",
+              "arabic_base_no_tashkeel": "هذا إذا تناول أحد منه بغير استحقاق. يكون له عقوبة ومحقا."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (45: 6 & 41: 1)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Your throne, O God, is forever and ever; Your royal scepter is a scepter of uprightness.",
+              "arabic": "كرسيك يا الله إلي دهر الدهور. قضيب الاستقامة هو قضيب ملكك.",
+              "arabic_base_no_tashkeel": "كرسيك يا الله إلي دهر الدهور. قضيب الاستقامة هو قضيب ملكك."
+            },
+            {
+              "row_index": 2,
+              "english": "Blessed is he who understands the poor and needy; the Lord will deliver him in an evil day.",
+              "arabic": "طوبى للذي يتفهم في أمر المسكين والفقير في اليوم السوء ينجيه الرب.",
+              "arabic_base_no_tashkeel": "طوبى للذي يتفهم في أمر المسكين والفقير في اليوم السوء ينجيه الرب."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Matthew 25: 14 - 26: 2)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "“For the kingdom of heaven is like a man traveling to a far country, who called his own servants and delivered his goods to them.",
+              "arabic": "كمثل إنسان مسافر، دعا عبيده وسلمهم أمواله،",
+              "arabic_base_no_tashkeel": "كمثل إنسان مسافر، دعا عبيده وسلمهم أمواله،"
+            },
+            {
+              "row_index": 2,
+              "english": "And to one he gave five talents, to another two, and to another one, to each according to his own ability; and immediately he went on a journey.",
+              "arabic": "فأعطي واحداً خمس وزنات، وآخر وزنتين وآخر وزنة كل واحد علي قدر طاقته وسافر للوقت.",
+              "arabic_base_no_tashkeel": "فأعطي واحدا خمس وزنات، وآخر وزنتين وآخر وزنة كل واحد علي قدر طاقته وسافر للوقت."
+            },
+            {
+              "row_index": 3,
+              "english": "Then he who had received the five talents went and traded with them, and made another five talents.",
+              "arabic": "فمضي الذي أخذ الخمس وزنات وتاجر بها فربح خمس وزنات أخر،",
+              "arabic_base_no_tashkeel": "فمضي الذي أخذ الخمس وزنات وتاجر بها فربح خمس وزنات أخر،"
+            },
+            {
+              "row_index": 4,
+              "english": "And likewise he who had received two gained two more also.",
+              "arabic": "الذي أخذ الوزنتين. ربح وزنتين اخريين.",
+              "arabic_base_no_tashkeel": "الذي أخذ الوزنتين. ربح وزنتين اخريين."
+            },
+            {
+              "row_index": 5,
+              "english": "But he who had received one went and dug in the ground, and hid his lord’s money. After a long time the lord of those servants came and settled accounts with them.",
+              "arabic": "وأما الذي اخذ الوزنة فمضى وحفر في الأرض ودفن فضة سيده. وبعد زمان كثير جاء سيد اولئك العبيد وحاسبهم،",
+              "arabic_base_no_tashkeel": "وأما الذي اخذ الوزنة فمضى وحفر في الأرض ودفن فضة سيده. وبعد زمان كثير جاء سيد اولئك العبيد وحاسبهم،"
+            },
+            {
+              "row_index": 6,
+              "english": "“So he who had received five talents came and brought five other talents, saying, ‘Lord, you delivered to me five talents; look, I have gained five more talents besides them.’",
+              "arabic": "فجاء الذي أخذ الخمس الوزنات وقدم خمس وزنات أخر قائلاً: يا سيد خمس وزنات سلمتني وهذه خمس وزنات أخرى ربحتها.",
+              "arabic_base_no_tashkeel": "فجاء الذي أخذ الخمس الوزنات وقدم خمس وزنات أخر قائلا: يا سيد خمس وزنات سلمتني وهذه خمس وزنات أخرى ربحتها."
+            },
+            {
+              "row_index": 7,
+              "english": "His lord said to him, ‘Well done, good and faithful servant; you were faithful over a few things, I will make you ruler over many things. Enter into the joy of your lord.’",
+              "arabic": "فقال له سيده: نعماً أيها العبد الصالح والأمين، قد وجدت أميناً في القليل فسأقيمك علي الكثير، أدخل إلي فرح سيدك.",
+              "arabic_base_no_tashkeel": "فقال له سيده: نعما أيها العبد الصالح والأمين، قد وجدت أمينا في القليل فسأقيمك علي الكثير، أدخل إلي فرح سيدك."
+            },
+            {
+              "row_index": 8,
+              "english": "He also who had received two talents came and said, ‘Lord, you delivered to me two talents; look, I have gained two more talents besides them.’",
+              "arabic": "ثم جاء الذي أخذ الوزنتين وقال: يا سيدي وزنتين سلمتني وهاتان وزنتان أخريان ربحتهما.",
+              "arabic_base_no_tashkeel": "ثم جاء الذي أخذ الوزنتين وقال: يا سيدي وزنتين سلمتني وهاتان وزنتان أخريان ربحتهما."
+            },
+            {
+              "row_index": 9,
+              "english": "His lord said to him, ‘Well done, good and faithful servant; you have been faithful over a few things, I will make you ruler over many things. Enter into the joy of your lord.’",
+              "arabic": "فقال له سيده: نعماً أيها العبد الصالح والأمين، قد وجدت أميناً في القليل فسأقيمك علي الكثير. أدخل إلي فرح سيدك.",
+              "arabic_base_no_tashkeel": "فقال له سيده: نعما أيها العبد الصالح والأمين، قد وجدت أمينا في القليل فسأقيمك علي الكثير. أدخل إلي فرح سيدك."
+            },
+            {
+              "row_index": 10,
+              "english": "“Then he who had received the one talent came and said, ‘Lord, I knew you to be a hard man, reaping where you have not sown, and gathering where you have not scattered seed.",
+              "arabic": "ثم جاء أيضاً الذي أخذ الوزنة وقال: يا سيد علمت أنك إنسان قاس، تحصد الذي لم تزرعه وتجمع الذي لم تبذره،",
+              "arabic_base_no_tashkeel": "ثم جاء أيضا الذي أخذ الوزنة وقال: يا سيد علمت أنك إنسان قاس، تحصد الذي لم تزرعه وتجمع الذي لم تبذره،"
+            },
+            {
+              "row_index": 11,
+              "english": "And I was afraid, and went and hid your talent in the ground. Look, there you have what is yours.’",
+              "arabic": "فخفت ومضيت ودفنت وزنتك في الأرض. وها هوذا مالك عندي.",
+              "arabic_base_no_tashkeel": "فخفت ومضيت ودفنت وزنتك في الأرض. وها هوذا مالك عندي."
+            },
+            {
+              "row_index": 12,
+              "english": "“But his lord answered and said to him, ‘You wicked and lazy servant, you knew that I reap where I have not sown, and gather where I have not scattered seed.",
+              "arabic": "فأجاب سيده وقال له: أيها العبد الشرير والكسلان، إن كنت قد علمت أني أحصد من حيث لم أزرع، وأجمع من حيث لم أبذر،",
+              "arabic_base_no_tashkeel": "فأجاب سيده وقال له: أيها العبد الشرير والكسلان، إن كنت قد علمت أني أحصد من حيث لم أزرع، وأجمع من حيث لم أبذر،"
+            },
+            {
+              "row_index": 13,
+              "english": "So you ought to have deposited my money with the bankers, and at my coming I would have received back my own with interest. Therefore take the talent from him, and give it to him who has ten talents.",
+              "arabic": "فكان ينبغي لك أن تسلم فضتي إلي الصيارفة، وكنت متي جئت إستلمتها مع ربحها. خذوا منه الوزنة وأعطوها لصاحب العشرة الوزنات،",
+              "arabic_base_no_tashkeel": "فكان ينبغي لك أن تسلم فضتي إلي الصيارفة، وكنت متي جئت إستلمتها مع ربحها. خذوا منه الوزنة وأعطوها لصاحب العشرة الوزنات،"
+            },
+            {
+              "row_index": 14,
+              "english": "‘For to everyone who has, more will be given, and he will have abundance; but from him who does not have, even what he has will be taken away. And cast the unprofitable servant into the outer darkness. There will be weeping and gnashing of teeth.’",
+              "arabic": "لأن كل من له يعطي ويزاد، ومن ليس له فالذي عنده يؤخذ منه وذلك العبد البطال ألقوه في الظلمة الخارجية. هناك يكون البكاء وصرير الاسنان.",
+              "arabic_base_no_tashkeel": "لأن كل من له يعطي ويزاد، ومن ليس له فالذي عنده يؤخذ منه وذلك العبد البطال ألقوه في الظلمة الخارجية. هناك يكون البكاء وصرير الاسنان."
+            },
+            {
+              "row_index": 15,
+              "english": "“When the Son of Man comes in His glory, and all the holy angels with Him, then He will sit on the throne of His glory.",
+              "arabic": "ومتي جاء إبن الإنسان في مجده ومعه جميع ملائكته الأطهار، فحينئذ يجلس علي عرش مجده،",
+              "arabic_base_no_tashkeel": "ومتي جاء إبن الإنسان في مجده ومعه جميع ملائكته الأطهار، فحينئذ يجلس علي عرش مجده،"
+            },
+            {
+              "row_index": 16,
+              "english": "All the nations will be gathered before Him, and He will separate them one from another, as a shepherd divides his sheep from the goats.",
+              "arabic": "وتجتمع أمامه جميع الشعوب، فيفرز بعضهم من بعض كما يفرز الراعي الخراف من الجداء،",
+              "arabic_base_no_tashkeel": "وتجتمع أمامه جميع الشعوب، فيفرز بعضهم من بعض كما يفرز الراعي الخراف من الجداء،"
+            },
+            {
+              "row_index": 17,
+              "english": "And He will set the sheep on His right hand, but the goats on the left.",
+              "arabic": "فيقيم الخراف عن يمينه والجداء عن يساره.",
+              "arabic_base_no_tashkeel": "فيقيم الخراف عن يمينه والجداء عن يساره."
+            },
+            {
+              "row_index": 18,
+              "english": "Then the King will say to those on His right hand, ‘Come, you blessed of My Father, inherit the kingdom prepared for you from the foundation of the world:",
+              "arabic": "حينئذ يقول الملك للذين عن يمينه: تعالوا إلي يا مباركي أبي رثوا الملك المعد لكم منذ إنشاء العالم،",
+              "arabic_base_no_tashkeel": "حينئذ يقول الملك للذين عن يمينه: تعالوا إلي يا مباركي أبي رثوا الملك المعد لكم منذ إنشاء العالم،"
+            },
+            {
+              "row_index": 19,
+              "english": "For I was hungry and you gave Me food; I was thirsty and you gave Me drink; I was a stranger and you took Me in; I was naked and you clothed Me; I was sick and you visited Me; I was in prison and you came to Me.’",
+              "arabic": "لأني جعت فاطعمتموني, وعطشت فسقيتموني، وكنت غريباً فأويتموني، وعرياناً فكسوتموني، ومريضاً فزرتموني، ومحبوساً فأتيتم إلي.",
+              "arabic_base_no_tashkeel": "لأني جعت فاطعمتموني, وعطشت فسقيتموني، وكنت غريبا فأويتموني، وعريانا فكسوتموني، ومريضا فزرتموني، ومحبوسا فأتيتم إلي."
+            },
+            {
+              "row_index": 20,
+              "english": "“Then the righteous will answer Him, saying, ‘Lord, when did we see You hungry and feed You, or thirsty and give You drink?",
+              "arabic": "حينئذ يجيبه الصديقون قائلين: يا رب متي رأيناك جائعاً فأطعمناك، أو عطشاناً فسقيناك؟",
+              "arabic_base_no_tashkeel": "حينئذ يجيبه الصديقون قائلين: يا رب متي رأيناك جائعا فأطعمناك، أو عطشانا فسقيناك؟"
+            },
+            {
+              "row_index": 21,
+              "english": "When did we see You a stranger and take You in, or naked and clothe You? Or when did we see You sick, or in prison, and come to You?’",
+              "arabic": "ومتي رأيناك غريباً فأويناك، أو عرياناً فكسوناك؟ ومتي رأيناك مريضاً أو محبوساً فأتٍينا إليك؟",
+              "arabic_base_no_tashkeel": "ومتي رأيناك غريبا فأويناك، أو عريانا فكسوناك؟ ومتي رأيناك مريضا أو محبوسا فأتينا إليك؟"
+            },
+            {
+              "row_index": 22,
+              "english": "And the King will answer and say to them, ‘Assuredly, I say to you, inasmuch as you did it to one of the least of these My brethren, you did it to Me.’",
+              "arabic": "فيجيب الملك ويقول لهم: الحق أقول لكم إنكم كلما فعلتم ذلك بأحد أخوتي هؤلاء الصغار فبي فعلتموه.",
+              "arabic_base_no_tashkeel": "فيجيب الملك ويقول لهم: الحق أقول لكم إنكم كلما فعلتم ذلك بأحد أخوتي هؤلاء الصغار فبي فعلتموه."
+            },
+            {
+              "row_index": 23,
+              "english": "“Then He will also say to those on the left hand, ‘Depart from Me, you cursed, into the everlasting fire prepared for the devil and his angels: for I was hungry and you gave Me no food;",
+              "arabic": "حينئذ يقول للأشرار الذين عن يساره: إذهبوا عني يا ملاعين إلي النار الأبدية المعدة لإبليس وملائكته لأني جعت فلم تطعموني",
+              "arabic_base_no_tashkeel": "حينئذ يقول للأشرار الذين عن يساره: إذهبوا عني يا ملاعين إلي النار الأبدية المعدة لإبليس وملائكته لأني جعت فلم تطعموني"
+            },
+            {
+              "row_index": 24,
+              "english": "I was thirsty and you gave Me no drink; I was a stranger and you did not take Me in, naked and you did not clothe Me, sick and in prison and you did not visit Me.’",
+              "arabic": "وعطشت فلم تسقوني, وكنت غريباً فلم تأووني وعرياناً فلم تكسوني، كُنْتُ مَرِيضًا فَلَمْ تَزُورُونِي. ومَحْبُوسًا فَلَمْ تَأْتُوا إليَّ.",
+              "arabic_base_no_tashkeel": "وعطشت فلم تسقوني, وكنت غريبا فلم تأووني وعريانا فلم تكسوني، كنت مريضا فلم تزوروني. ومحبوسا فلم تأتوا إلي."
+            },
+            {
+              "row_index": 25,
+              "english": "“Then they also will answer Him, saying, ‘Lord, when did we see You hungry or thirsty or a stranger or naked or sick or in prison, and did not minister to You?’",
+              "arabic": "حينئذ يجيبونه هم أيضاً قائلين: يا رب متي رأيناك جائعاً أو عطشاناً، أو غريباً أو عرياناً، أو مريضاً ولم نخدمك؟",
+              "arabic_base_no_tashkeel": "حينئذ يجيبونه هم أيضا قائلين: يا رب متي رأيناك جائعا أو عطشانا، أو غريبا أو عريانا، أو مريضا ولم نخدمك؟"
+            },
+            {
+              "row_index": 26,
+              "english": "Then He will answer them, saying, ‘Assuredly, I say to you, inasmuch as you did not do it to one of the least of these, you did not do it to Me.’ And these will go away into everlasting punishment, but the righteous into eternal life.”",
+              "arabic": "حينئذ يجيبهم قائلاً: الحق أقول لكم بما أنكم لم تفعلوه بأحد هؤلاء الصغار فبي لم تفعلوه. فيذهب هؤلاء إلي العذاب الدائم والصديقون إلي الحياة الأبدية.",
+              "arabic_base_no_tashkeel": "حينئذ يجيبهم قائلا: الحق أقول لكم بما أنكم لم تفعلوه بأحد هؤلاء الصغار فبي لم تفعلوه. فيذهب هؤلاء إلي العذاب الدائم والصديقون إلي الحياة الأبدية."
+            },
+            {
+              "row_index": 27,
+              "english": "Now it came to pass, when Jesus had finished all these sayings, that He said to His disciples, “You know that after two days is the Passover, and the Son of Man will be delivered up to be crucified.”",
+              "arabic": "ولما أكمل يسوع هذه الأقوال كلها قال لتلاميذه: تعلمون أنه بعد يومين يكون الفصح وإبن الإنسان يسلم ليصلب.",
+              "arabic_base_no_tashkeel": "ولما أكمل يسوع هذه الأقوال كلها قال لتلاميذه: تعلمون أنه بعد يومين يكون الفصح وإبن الإنسان يسلم ليصلب."
+            },
+            {
+              "row_index": 28,
+              "english": "Then He will also say to those on the left hand, 'Depart from Me, you cursed, into the everlasting fire prepared for the devil and his angels:",
+              "arabic": "«ثُمَّ يَقُولُ أَيْضاً لِلَّذِينَ عَنِ الْيَسَارِ: اذْهَبُوا عَنِّي يَا مَلاَعِينُ إِلَى النَّارِ الأَبَدِيَّةِ الْمُعَدَّةِ لِإِبْلِيسَ وَمَلاَئِكَتِهِ",
+              "arabic_base_no_tashkeel": "«ثم يقول أيضا للذين عن اليسار: اذهبوا عني يا ملاعين إلى النار الأبدية المعدة لإبليس وملائكته"
+            },
+            {
+              "row_index": 29,
+              "english": "for I was hungry and you gave Me no food; I was thirsty and you gave Me no drink;",
+              "arabic": "لأَنِّي جُعْتُ فَلَمْ تُطْعِمُونِي. عَطِشْتُ فَلَمْ تَسْقُونِي.",
+              "arabic_base_no_tashkeel": "لأني جعت فلم تطعموني. عطشت فلم تسقوني."
+            },
+            {
+              "row_index": 30,
+              "english": "I was a stranger and you did not take Me in, naked and you did not clothe Me, sick and in prison and you did not visit Me.'",
+              "arabic": "كُنْتُ غَرِيباً فَلَمْ تَأْوُونِي. عُرْيَاناً فَلَمْ تَكْسُونِي. مَرِيضاً وَمَحْبُوساً فَلَمْ تَزُورُونِي.",
+              "arabic_base_no_tashkeel": "كنت غريبا فلم تأووني. عريانا فلم تكسوني. مريضا ومحبوسا فلم تزوروني."
+            },
+            {
+              "row_index": 31,
+              "english": "Then they also will answer Him, saying, 'Lord, when did we see You hungry or thirsty or a stranger or naked or sick or in prison, and did not minister to You?'",
+              "arabic": "حِينَئِذٍ يُجِيبُونَهُ هُمْ أَيْضاً: يَارَبُّ مَتَى رَأَيْنَاكَ جَائِعاً أَوْ عَطْشَاناً أَوْ غَرِيباً أَوْ عُرْيَاناً أَوْ مَرِيضاً أَوْ مَحْبُوساً وَلَمْ نَخْدِمْكَ؟",
+              "arabic_base_no_tashkeel": "حينئذ يجيبونه هم أيضا: يارب متى رأيناك جائعا أو عطشانا أو غريبا أو عريانا أو مريضا أو محبوسا ولم نخدمك؟"
+            },
+            {
+              "row_index": 32,
+              "english": "Then He will answer them, saying, 'Assuredly, I say to you, inasmuch as you did not do it to one of the least of these, you did not do it to Me.'",
+              "arabic": "فَيُجِيبُهُمْ: الْحَقَّ أَقُولُ لَكُمْ: بِمَا أَنَّكُمْ لَمْ تَفْعَلُوهُ بِأَحَدِ هَؤُلاَءِ الأَصَاغِرِ فَبِي لَمْ تَفْعَلُوا.",
+              "arabic_base_no_tashkeel": "فيجيبهم: الحق أقول لكم: بما أنكم لم تفعلوه بأحد هؤلاء الأصاغر فبي لم تفعلوا."
+            },
+            {
+              "row_index": 33,
+              "english": "And these will go away into everlasting punishment, but the righteous into eternal life.\"",
+              "arabic": "فَيَمْضِي هَؤُلاَءِ إِلَى عَذَابٍ أَبَدِيٍّ وَالأَبْرَارُ إِلَى حَيَاةٍ أَبَدِيَّةٍ».",
+              "arabic_base_no_tashkeel": "فيمضي هؤلاء إلى عذاب أبدي والأبرار إلى حياة أبدية»."
+            },
+            {
+              "row_index": 34,
+              "english": "Now it came to pass, when Jesus had finished all these sayings, that He said to His disciples,",
+              "arabic": "وَلَمَّا أَكْمَلَ يَسُوعُ هَذِهِ الأَقْوَالَ كُلَّهَا قَالَ لِتَلاَمِيذِهِ:",
+              "arabic_base_no_tashkeel": "ولما أكمل يسوع هذه الأقوال كلها قال لتلاميذه:"
+            },
+            {
+              "row_index": 35,
+              "english": "\"You know that after two days is the Passover, and the Son of Man will be delivered up to be crucified.\"<Br><i>Bow down before the Holy Gospel.</i>",
+              "arabic": "«تَعْلَمُونَ أَنَّهُ بَعْدَ يَوْمَيْنِ يَكُونُ الْفِصْحُ وَابْنُ الإِنْسَانِ يُسَلَّمُ لِيُصْلَبَ».<br><i>أسجدوا للإنجيل المقدس.</i>",
+              "arabic_base_no_tashkeel": "«تعلمون أنه بعد يومين يكون الفصح وابن الإنسان يسلم ليصلب».<br><i>أسجدوا للإنجيل المقدس.</i>"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

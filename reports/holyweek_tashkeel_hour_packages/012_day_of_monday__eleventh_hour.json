@@ -1,0 +1,284 @@
+{
+  "service": "DAY of Monday",
+  "hour": "ELEVENTH Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Isaiah 50: 1 - 3)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Thus says the Lord: \"Of what quality is your mother's certificate of divorce, by which I put her away? Or to which debtor have I sold you? Behold, you are sold for your sins, and for your lawlessness I put away your mother. Why, when I came, was there no man? Why, when I called, was there none to obey?",
+              "arabic": "هكذا يقول الرب. أين هو كتاب طلاق أمكم الذي طلقتها به أو إلى أى غريم أسلمتكم هوذا من أجل خطاياكم قد بعتكم. وبسبب أثامكم طلقت أمكم. لماذا أتيت ولم يكن إنسان دعوت وليس من مجيب.",
+              "arabic_base_no_tashkeel": "هكذا يقول الرب. أين هو كتاب طلاق أمكم الذي طلقتها به أو إلى أى غريم أسلمتكم هوذا من أجل خطاياكم قد بعتكم. وبسبب أثامكم طلقت أمكم. لماذا أتيت ولم يكن إنسان دعوت وليس من مجيب."
+            },
+            {
+              "row_index": 2,
+              "english": "Is My hand unable to deliver? [Has my ear become hard of hearing?] [But your sins are standing between you and God. Because of your sins He turned His face from you so as not to have mercy upon you.] Have I no strength to deliver?",
+              "arabic": "أقصُرت يدي عن أن تخلص؟ أثقلت أذنى عن السماع؟ إنما خطايا كم قائمة بينكم وبين الله لأجل ذنوبكم صرف وجهه عنكم لكى لا يرحمكم. هل ليس لى قوة على خلاصكم.",
+              "arabic_base_no_tashkeel": "أقصرت يدي عن أن تخلص؟ أثقلت أذنى عن السماع؟ إنما خطايا كم قائمة بينكم وبين الله لأجل ذنوبكم صرف وجهه عنكم لكى لا يرحمكم. هل ليس لى قوة على خلاصكم."
+            },
+            {
+              "row_index": 3,
+              "english": "Behold, with My rebuke I dry up the sea, and I turn rivers into deserts; and because there is no water, their fish dry up and die of thirst. I clothe heaven with darkness and make its covering like sackcloth.\"",
+              "arabic": "هوذا بغضبى أنشف البحر وأصير الأنهار قفاراً فييبس سمكها من عدم الماء. ويموت من العطش. وألبس السماء ظلاماً وأجعل المسح غطاءها.",
+              "arabic_base_no_tashkeel": "هوذا بغضبى أنشف البحر وأصير الأنهار قفارا فييبس سمكها من عدم الماء. ويموت من العطش. وألبس السماء ظلاما وأجعل المسح غطاءها."
+            }
+          ]
+        },
+        {
+          "title": "2nd Prophecy (Sirach 1: 20 - 30)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "The root of wisdom is to fear the Lord, and her branches are length of days.",
+              "arabic": "أصل الحكمة هى مخافة الرب. وأغصانها كثرة الأيام,",
+              "arabic_base_no_tashkeel": "أصل الحكمة هى مخافة الرب. وأغصانها كثرة الأيام,"
+            },
+            {
+              "row_index": 2,
+              "english": "Unjust anger cannot be justified, for anger's decisive influence causes his fall.",
+              "arabic": "والغضوب لا يمكن أن يتبرر. لأن ميله للغضب يسقطه.",
+              "arabic_base_no_tashkeel": "والغضوب لا يمكن أن يتبرر. لأن ميله للغضب يسقطه."
+            },
+            {
+              "row_index": 3,
+              "english": "A patient man will hold fast until the proper time, then afterwards gladness shall burst forth for him.",
+              "arabic": "الطويل الروح يصبر إلى حين ثم يعاوده السرور.",
+              "arabic_base_no_tashkeel": "الطويل الروح يصبر إلى حين ثم يعاوده السرور."
+            },
+            {
+              "row_index": 4,
+              "english": "He shall conceal his words until the proper time, and the lips of many will tell of his understanding.",
+              "arabic": "يكتم كلامه إلى حين وشفاه الكثيرين تنطق بحكمة أمثال التعليم كائنة,",
+              "arabic_base_no_tashkeel": "يكتم كلامه إلى حين وشفاه الكثيرين تنطق بحكمة أمثال التعليم كائنة,"
+            },
+            {
+              "row_index": 5,
+              "english": "In the treasures of wisdom are the parables of knowledge, But godliness is an abomination to a sinner.",
+              "arabic": "فى كنوز الحكمة أما عند الخاطئ فعبادة الله رجس.",
+              "arabic_base_no_tashkeel": "فى كنوز الحكمة أما عند الخاطئ فعبادة الله رجس."
+            },
+            {
+              "row_index": 6,
+              "english": "If you desire wisdom, keep the commandments, and the Lord will supply it to you.",
+              "arabic": "إن رغبت الحكمة فأحفظ الوصايا. فيهبها لك الرب.",
+              "arabic_base_no_tashkeel": "إن رغبت الحكمة فأحفظ الوصايا. فيهبها لك الرب."
+            },
+            {
+              "row_index": 7,
+              "english": "For the fear of the Lord is wisdom and instruction, and His good pleasure is faith and gentleness. Do not disobey the fear of the Lord, and do not come to Him with a divided heart.",
+              "arabic": "فإن الحكمة والأدب هما مخافة الرب. والذي يرضيه هو الإيمان والوداعة لا تكن مخالفاً لمخافة الرب ولا تتقدم إليه بقلبين.",
+              "arabic_base_no_tashkeel": "فإن الحكمة والأدب هما مخافة الرب. والذي يرضيه هو الإيمان والوداعة لا تكن مخالفا لمخافة الرب ولا تتقدم إليه بقلبين."
+            },
+            {
+              "row_index": 8,
+              "english": "Do not be a hypocrite in the sight of men, and be careful with your lips. Do not exalt yourself, lest you fall and bring dishonor to your soul.",
+              "arabic": "لا تكن مرائياً قدام الناس وأحفظ فمك وشفتيك لا تترفع لئلا تسقط. فتجلب على نفسك الهوان.",
+              "arabic_base_no_tashkeel": "لا تكن مرائيا قدام الناس وأحفظ فمك وشفتيك لا تترفع لئلا تسقط. فتجلب على نفسك الهوان."
+            },
+            {
+              "row_index": 9,
+              "english": "The Lord shall reveal your secrets, and in the midst of the assembly He will strike you down, because you did not come in the fear of the Lord And your heart was full of deceit.",
+              "arabic": "ويكشف الرب خفاياك. و يصرعك فى وسط الجماعة. لأنك لم تتقدم إلى مخافة الرب. وقلبك ممتلئ غشاً.",
+              "arabic_base_no_tashkeel": "ويكشف الرب خفاياك. و يصرعك فى وسط الجماعة. لأنك لم تتقدم إلى مخافة الرب. وقلبك ممتلئ غشا."
+            },
+            {
+              "row_index": 10,
+              "english": "Do not exalt yourself lest you fall,\nand thus bring dishonor upon yourself.\nThe Lord will reveal your secrets\nand cast you down in the midst of the congregation, because you did not come in the fear of the Lord, and your heart was full of deceit.",
+              "arabic": "لا تتكَبَّرْ لِئلاَ تَسقُطَ وعلى نفْسِكَ تَجلِبَ الذُلَ، فيَكشِفَ الرّبُّ خَفاياكَ ويُذِلَّكَ أمامَ الجَميعِ لأنَّكَ لم تَخَفِ الرّبَ، وقلبُكَ مُمْتَلئٌ بِالمكْرِ.",
+              "arabic_base_no_tashkeel": "لا تتكبر لئلا تسقط وعلى نفسك تجلب الذل، فيكشف الرب خفاياك ويذلك أمام الجميع لأنك لم تخف الرب، وقلبك ممتلئ بالمكر."
+            }
+          ]
+        },
+        {
+          "title": "Homily(Abba Shenouda the Archimandrite)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Occasionally there are some deeds, which we may think are good while in God’s eyes they are wicked.",
+              "arabic": "قَدْ تُوجَدُ أَعْمَالٌ نَخَالُهَا أَنَّهَا صَالِحَةٌ وَلَكِنَّهَا رَدِيئَةٌ عِنْدَ اَللَّهِ.",
+              "arabic_base_no_tashkeel": "قد توجد أعمال نخالها أنها صالحة ولكنها رديئة عند الله."
+            },
+            {
+              "row_index": 2,
+              "english": "For example the unqualified tolerance of sinners in holy places may lead them to be indifferent to sin.",
+              "arabic": "وَذَلِكَ أَنَّنَا نَتَغَاضَى عَنْ بَعْضِنَا بَعْضًا فَنُخْطِئ فِي اَلْمَوَاضِعِ اَلْمُقَدَّسَةِ.",
+              "arabic_base_no_tashkeel": "وذلك أننا نتغاضى عن بعضنا بعضا فنخطئ في المواضع المقدسة."
+            },
+            {
+              "row_index": 3,
+              "english": "The Lord did not plant good trees and bad trees in paradise but only good trees.",
+              "arabic": "لِأَنَّ اَلرَّبَّ لَمْ يَغْرِسْ فِي اَلْفِرْدَوْسِ اَلْأَشْجَارَ اَلصَّالِحَةَ وَالْغَيْرَ اَلصَّالِحَةَ بَلْ غَرْسُهُ مِنْ اَلْأَشْجَارِ اَلصَّالِحَةِ فَقَطْ ",
+              "arabic_base_no_tashkeel": "لأن الرب لم يغرس في الفردوس الأشجار الصالحة والغير الصالحة بل غرسه من الأشجار الصالحة فقط "
+            },
+            {
+              "row_index": 4,
+              "english": "He did not plant fruitless trees with bad fruits.",
+              "arabic": "وَلَمْ يَغْرِسْ فِيهِ أَشْجَارًا غَيْرَ مُثْمِرَةٍ أَوْ رَدِيئَةٍ اَلثَّمَرِ.",
+              "arabic_base_no_tashkeel": "ولم يغرس فيه أشجارا غير مثمرة أو رديئة الثمر."
+            },
+            {
+              "row_index": 5,
+              "english": "Even man himself when he disobeyed the commandment, He was not indifferent about man’s inequity but expelled him from paradise.",
+              "arabic": "وَلَيْسَ هَذَا فَقَطْ، بَلْ وَالنَّاسَ أَنْفُسِهِمْ اَلَّذِينَ جَعَلَهُمْ هُنَاكَ. عِنْدَمَا خَالَفُوا لَمْ يُحْتَمَلهُمْ بَلْ أَخْرَجَهُمْ مِنْهُ.",
+              "arabic_base_no_tashkeel": "وليس هذا فقط، بل والناس أنفسهم الذين جعلهم هناك. عندما خالفوا لم يحتملهم بل أخرجهم منه."
+            },
+            {
+              "row_index": 6,
+              "english": "From this we can see dear beloved, that the houses of the Lord should not be filled with bad and good people.",
+              "arabic": "فَمِنْ هَذَا اِعْلَمُوا أَيُّهَا اَلْإِخْوَةُ اَلْأَحِبَّاءُ أَنَّهُ لَا يَجِبُ أَنْ نَمْلَأَ مَسَاكِنُ اَللَّهِ اَلْمُقَدَّسَةِ مِنْ اَلنَّاسِ اَلْأَشْرَارَ وَالصَّالِحِينَ.",
+              "arabic_base_no_tashkeel": "فمن هذا اعلموا أيها الإخوة الأحباء أنه لا يجب أن نملأ مساكن الله المقدسة من الناس الأشرار والصالحين."
+            },
+            {
+              "row_index": 7,
+              "english": "As is the case in the world where the saints and sinners, the unjust and the impure mingle together.",
+              "arabic": "كَمَا فِي اَلْعَالَمِ اَلْمَمْلُوءِ مِنْ اَلْخُطَاةِ وَالظَّالِمِينَ وَالْقِدِّيسِينَ وَالْأَنْجَاس.",
+              "arabic_base_no_tashkeel": "كما في العالم المملوء من الخطاة والظالمين والقديسين والأنجاس."
+            },
+            {
+              "row_index": 8,
+              "english": "It is incumbent on us to remind those who come to the house of the Lord to behave appropriately.",
+              "arabic": "وَلَكِنَّ اَلَّذِينَ يُخْطِئُونَ لَا يَتْرُكُهُمْ فِيهَا بَلْ يُخَرِّجُهُمْ.",
+              "arabic_base_no_tashkeel": "ولكن الذين يخطئون لا يتركهم فيها بل يخرجهم."
+            },
+            {
+              "row_index": 9,
+              "english": "I know that the whole earth is God's, but if we make His house just like the rest of the earth what is going to distinguish the house of the Lord from the rest.",
+              "arabic": "أَنَا أَعْرِفُ أَنَّ اَلْأَرْضَ كُلَّهَا هِيَ لِلرَّبِّ فَإِذَا كَانَ بَيْتُهُ كَبَاقِي اَلْأَرْض. فَمَا هِيَ مِيزَتُهُ إِذْن عَلَى غَيْرِهِ.",
+              "arabic_base_no_tashkeel": "أنا أعرف أن الأرض كلها هي للرب فإذا كان بيته كباقي الأرض. فما هي ميزته إذن على غيره."
+            },
+            {
+              "row_index": 10,
+              "english": "If I as a servant of God commit the same bad deeds as the wicked then I do not deserve to be called a servant of God.",
+              "arabic": "فَإِنْ كُنْتَ وَأَنَا اَلْكَاهِنِ أَعْمَلُ اَلشَّرُّ كَمَا يَعْمَلُهُ اَلْأَشْرَارُ عَلَى اَلْأَرْضِ، فَلَا يَحِقُّ لِي أَنْ اِدَّعَى كَاهِنًا",
+              "arabic_base_no_tashkeel": "فإن كنت وأنا الكاهن أعمل الشر كما يعمله الأشرار على الأرض، فلا يحق لي أن ادعى كاهنا"
+            },
+            {
+              "row_index": 11,
+              "english": "For we often sin and are unable to judge ourselves with the same standard we judge others.",
+              "arabic": "لِأَنَّهُ مِرَارًا كَثِيرَةً نُخْطِئُ وَلَا نَعْرِفُ كَيْفَ نُدِينُ أَنْفُسُنَا بِمَا نَقُولُ،",
+              "arabic_base_no_tashkeel": "لأنه مرارا كثيرة نخطئ ولا نعرف كيف ندين أنفسنا بما نقول،"
+            },
+            {
+              "row_index": 12,
+              "english": "You see no one can fill your place with dirt unless they notice your lack of interest in it.",
+              "arabic": "لِأَنَّهُ لَا يَتَجَرَّأُ أَحَدٌ أَنْ يَمْلَأَ بَيْتُكَ قَذَارَةً إِلَّا إِذَا رَأَى مِنْكَ اَلتَّهَاوُنُ،",
+              "arabic_base_no_tashkeel": "لأنه لا يتجرأ أحد أن يملأ بيتك قذارة إلا إذا رأى منك التهاون،"
+            },
+            {
+              "row_index": 13,
+              "english": "Just like the king’s pages; they cannot let everyone in the king’s house whether they honor the king’s decree or whether they ignore them without the king’s permission.",
+              "arabic": "وَلَا حِجَابَ اَلْمَلِكِ يَتَجَرَّءُونَ أَنْ يَدْخُلُوا بِكُلِّ إِنْسَانٍ إِلَى بَيْتِهِ مِنْ اَلْحَافِظِينَ مَرَاسِيمَهُ وَالْمُخَالِفِينَ لَهَا إِلَّا بِأَمْرِهِ،",
+              "arabic_base_no_tashkeel": "ولا حجاب الملك يتجرءون أن يدخلوا بكل إنسان إلى بيته من الحافظين مراسيمه والمخالفين لها إلا بأمره،"
+            },
+            {
+              "row_index": 14,
+              "english": "If they deviate from this, they receive punishment.",
+              "arabic": "ومتى عملوا بخلاف ذلك يعاقبون.",
+              "arabic_base_no_tashkeel": "ومتى عملوا بخلاف ذلك يعاقبون."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (13: 3 - 4)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Look upon me and hear me, O Lord my God; enlighten my eyes, lest I sleep in death, Lest my enemy say, \"I prevailed against him.\"",
+              "arabic": "أنظر وإستجب لى ياربي وإلهي أنر عينى لئلا أنام فى الموت. لئلا يقول عدوى إنى قد قويت عليه.",
+              "arabic_base_no_tashkeel": "أنظر وإستجب لى ياربي وإلهي أنر عينى لئلا أنام فى الموت. لئلا يقول عدوى إنى قد قويت عليه."
+            },
+            {
+              "row_index": 2,
+              "english": "Lest my enemy say, \"I have prevailed against him.\"",
+              "arabic": "لئلا يقول عدوى انى قد قويت عليه.",
+              "arabic_base_no_tashkeel": "لئلا يقول عدوى انى قد قويت عليه."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (John 8: 51 - 59)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Most assuredly, I say to you, if anyone keeps My word he shall never see death.”",
+              "arabic": "الحق الحق أقول لكم أن كان أحد يحفظ كلامى فلن يرى الموت إلى الأبد.",
+              "arabic_base_no_tashkeel": "الحق الحق أقول لكم أن كان أحد يحفظ كلامى فلن يرى الموت إلى الأبد."
+            },
+            {
+              "row_index": 2,
+              "english": "Then the Jews said to Him, “Now we know that You have a demon! Abraham is dead, and the prophets; and You say, ‘If anyone keeps My word he shall never taste death.’",
+              "arabic": "فقال له اليهود. الآن علمنا أن بك شيطاناً. قد مات إبراهيم والأنبياء وأنت تقول أن كان أحد يحفظ كلامى فلن يذوق الموت إلى الأبد.",
+              "arabic_base_no_tashkeel": "فقال له اليهود. الآن علمنا أن بك شيطانا. قد مات إبراهيم والأنبياء وأنت تقول أن كان أحد يحفظ كلامى فلن يذوق الموت إلى الأبد."
+            },
+            {
+              "row_index": 3,
+              "english": "Are You greater than our father Abraham, who is dead? And the prophets are dead.",
+              "arabic": "ألعلك أنت أعظم من أبينا إبراهيم الذي مات والآنبياء قد ماتوا أيضاً من تجعل نفسك.",
+              "arabic_base_no_tashkeel": "ألعلك أنت أعظم من أبينا إبراهيم الذي مات والآنبياء قد ماتوا أيضا من تجعل نفسك."
+            },
+            {
+              "row_index": 4,
+              "english": "Who do You make Yourself out to be?” Jesus answered, “If I honor Myself, My honor is nothing.",
+              "arabic": "أجاب يسوع قائلاً. أن كنت أنا أمجد نفسى وحدى فليس مجدى شيئاً.",
+              "arabic_base_no_tashkeel": "أجاب يسوع قائلا. أن كنت أنا أمجد نفسى وحدى فليس مجدى شيئا."
+            },
+            {
+              "row_index": 5,
+              "english": "It is My Father who honors Me, of whom you say that He is your God. Yet you have not known Him, but I know Him.",
+              "arabic": "أبى هو الذي يمجدنى. الذي تقولون أنتم أنه إلهكم ولستم تعرفونه وأما أنا فأعرفه",
+              "arabic_base_no_tashkeel": "أبى هو الذي يمجدنى. الذي تقولون أنتم أنه إلهكم ولستم تعرفونه وأما أنا فأعرفه"
+            },
+            {
+              "row_index": 6,
+              "english": "And if I say, ‘I do not know Him,’ I shall be a liar like you; but I do know Him and keep His word.",
+              "arabic": "وأن قلت أنى لست أعرفه صرت كاذباً مثلكم لكننى أعرفه و أحفظ كلامه.",
+              "arabic_base_no_tashkeel": "وأن قلت أنى لست أعرفه صرت كاذبا مثلكم لكننى أعرفه و أحفظ كلامه."
+            },
+            {
+              "row_index": 7,
+              "english": "Your father Abraham rejoiced to see My day, and he saw it and was glad.”",
+              "arabic": "إبراهيم أبوكم تهلل مشتهيا أن يرى يومى فرأى وفرح.",
+              "arabic_base_no_tashkeel": "إبراهيم أبوكم تهلل مشتهيا أن يرى يومى فرأى وفرح."
+            },
+            {
+              "row_index": 8,
+              "english": "Then the Jews said to Him, “You are not yet fifty years old, and have You seen Abraham?” Jesus said to them, “Most assuredly, I say to you, before Abraham was, I AM.”",
+              "arabic": "فقال له اليهود ليس لك خمسون سنة بعد وقد رأيت إبراهيم. فقال لهم يسوع الحق الحق أقول لكم. قبل أن يكون إبراهيم أنا كائن.",
+              "arabic_base_no_tashkeel": "فقال له اليهود ليس لك خمسون سنة بعد وقد رأيت إبراهيم. فقال لهم يسوع الحق الحق أقول لكم. قبل أن يكون إبراهيم أنا كائن."
+            },
+            {
+              "row_index": 9,
+              "english": "Then they took up stones to throw at Him; but Jesus hid Himself and went out of the temple, going through the midst of them, and so passed by.",
+              "arabic": "فأخذ اليهود حجارة ليرجموه فتوارى يسوع وخرج من الهيكل مجتازاً فى وسطهم و مضى هكذا.",
+              "arabic_base_no_tashkeel": "فأخذ اليهود حجارة ليرجموه فتوارى يسوع وخرج من الهيكل مجتازا فى وسطهم و مضى هكذا."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

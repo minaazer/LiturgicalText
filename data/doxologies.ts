@@ -39,7 +39,7 @@ const shouldIncludeDoxology = ({
   }
 
   if (Array.isArray(table.services) && !table.services.includes(source)) {
-    console.log("source mismatch", { tableSource: table.services, source });
+   // console.log("source mismatch", { tableSource: table.services, source });
     return false;
   }
 
@@ -66,7 +66,14 @@ const shouldIncludeDoxology = ({
       return true;
     }
 
-    return tableSaints.some((saint) => saintVisibilityMap.get(saint) === true);
+    const hasSaintSettingToggle = tableSaints.some((saint) =>
+      saintVisibilityMap.has(saint)
+    );
+    if (hasSaintSettingToggle) {
+      return tableSaints.some((saint) => saintVisibilityMap.get(saint) === true);
+    }
+
+    return table.defaultVisibility === true;
   }
 
   return true;

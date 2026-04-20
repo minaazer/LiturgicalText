@@ -1,0 +1,423 @@
+{
+  "service": "DAY of Great Friday",
+  "hour": "ELEVENTH Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Exodus 12: 1 - 14)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Now the Lord spoke to Moses and Aaron in the land of Egypt, saying, \"This month shall be your beginning of months; it shall be the first month of the year to you.",
+              "arabic": "وكلم الرب موسى وهرون فى أرض مصر قائلاً: أن هذا الشهر يكون لكم رأس الشهور. فاجعلوه أول شهور السنة.",
+              "arabic_base_no_tashkeel": "وكلم الرب موسى وهرون فى أرض مصر قائلا: أن هذا الشهر يكون لكم رأس الشهور. فاجعلوه أول شهور السنة."
+            },
+            {
+              "row_index": 2,
+              "english": "Speak to all the congregation of the children of Israel, saying, 'On the tenth day of this month every man shall take for himself a lamb, according to the family households, a lamb for each home.",
+              "arabic": "كلما كل جماعة بنى اسرائيل وقولا لهم: فى اليوم العاشر من الشهر فليأخذ كل واحد له خروفاً بحسب بيوت آبائهم، خروفاً لكل بيت.",
+              "arabic_base_no_tashkeel": "كلما كل جماعة بنى اسرائيل وقولا لهم: فى اليوم العاشر من الشهر فليأخذ كل واحد له خروفا بحسب بيوت آبائهم، خروفا لكل بيت."
+            },
+            {
+              "row_index": 3,
+              "english": "If there be too few in a household, let him and his neighbor next to his house take it according to the number of souls; he will make his count in lambs according to the needs of each one.",
+              "arabic": "وان كان أهل البيت قليلين لا يكفون لخروف فليأخذ هو وجاره القريب من بيته بحسب عدد النفوس، كل واحد على قدر ما يكفيه من الخروف.",
+              "arabic_base_no_tashkeel": "وان كان أهل البيت قليلين لا يكفون لخروف فليأخذ هو وجاره القريب من بيته بحسب عدد النفوس، كل واحد على قدر ما يكفيه من الخروف."
+            },
+            {
+              "row_index": 4,
+              "english": "Your lamb shall be without blemish, a male of the first year. You shall take it from the sheep or the kids.",
+              "arabic": "وليكن لكم خروفاً ذكراً صحيحاً حولياً (إبن سنة) تأخذونه من الحملان أو من الجداء.",
+              "arabic_base_no_tashkeel": "وليكن لكم خروفا ذكرا صحيحا حوليا (إبن سنة) تأخذونه من الحملان أو من الجداء."
+            },
+            {
+              "row_index": 5,
+              "english": "Then you shall keep it until the fourteenth day of the same month, and the whole assembly of the congregation of Israel shall kill it at twilight.",
+              "arabic": "ويكون عندكم تحت الحفظ إلى اليوم الرابع عشر من الشهر. وليذبحه كل جمهور جماعة بنى اسرائيل وقت المساء.",
+              "arabic_base_no_tashkeel": "ويكون عندكم تحت الحفظ إلى اليوم الرابع عشر من الشهر. وليذبحه كل جمهور جماعة بنى اسرائيل وقت المساء."
+            },
+            {
+              "row_index": 6,
+              "english": "Then they shall take some of the blood and put it on the two doorposts and on the lintel of the houses where they eat it.",
+              "arabic": "ويأخذون من دمه ويضعون على القائمتين والعتبة العليا فى كل البيوت التى يأكلونه فيها.",
+              "arabic_base_no_tashkeel": "ويأخذون من دمه ويضعون على القائمتين والعتبة العليا فى كل البيوت التى يأكلونه فيها."
+            },
+            {
+              "row_index": 7,
+              "english": "They shall eat the flesh on that night, roasted in fire; with unleavened bread and bitter herbs they shall eat it.",
+              "arabic": "ويأكلون اللحم فى هذه الليلة مشوياً بالنار. مع الفطير على أعشاب مرة يأكلونه.",
+              "arabic_base_no_tashkeel": "ويأكلون اللحم فى هذه الليلة مشويا بالنار. مع الفطير على أعشاب مرة يأكلونه."
+            },
+            {
+              "row_index": 8,
+              "english": "Do not eat it raw, nor, boiled at all with water, but roasted in fire—its head with its legs and its entrails.",
+              "arabic": "لا تأكلونه نيئاً أومطبوخاً بالماء. بل مشوياً بالنار مع رأسه وأكارعه وما فى جوفه.",
+              "arabic_base_no_tashkeel": "لا تأكلونه نيئا أومطبوخا بالماء. بل مشويا بالنار مع رأسه وأكارعه وما فى جوفه."
+            },
+            {
+              "row_index": 9,
+              "english": "You shall let none of it remain until morning, nor shall you break a bone of it; and what remains of it until morning you shall burn with fire.",
+              "arabic": "لا تبقوا منه شيئاً للصباح. وعظمة منه لا تكسروا. والباقى منه إلى الغد تحرقونه بالنار.",
+              "arabic_base_no_tashkeel": "لا تبقوا منه شيئا للصباح. وعظمة منه لا تكسروا. والباقى منه إلى الغد تحرقونه بالنار."
+            },
+            {
+              "row_index": 10,
+              "english": "Thus you shall eat it: with a belt on your waist, your sandals on your feet, and your staff in your hand.",
+              "arabic": "وهكذا تأكلونه وأحقاؤكم مشدودة وأحذيتكم فى أرجلكم وعصيكم فى أيديكم.",
+              "arabic_base_no_tashkeel": "وهكذا تأكلونه وأحقاؤكم مشدودة وأحذيتكم فى أرجلكم وعصيكم فى أيديكم."
+            },
+            {
+              "row_index": 11,
+              "english": "You shall eat it in haste. It is the Lord's Pascha.",
+              "arabic": "وتأكلونه بسرعة، لأنه فصح للرب.",
+              "arabic_base_no_tashkeel": "وتأكلونه بسرعة، لأنه فصح للرب."
+            },
+            {
+              "row_index": 12,
+              "english": "For I will pass through the land of Egypt on that night and will strike all the firstborn in the land of Egypt, both man and beast; and against all the gods of Egypt I will execute vengeance: I am the Lord.",
+              "arabic": "وسأجتاز فى أرض مصر هذه الليلة وأضرب كل بكر فى أرض مصر، من الإنسان للبهيمة. وسأصنع إنتقاماً بكل آلهة المصريين أنا الرب.",
+              "arabic_base_no_tashkeel": "وسأجتاز فى أرض مصر هذه الليلة وأضرب كل بكر فى أرض مصر، من الإنسان للبهيمة. وسأصنع إنتقاما بكل آلهة المصريين أنا الرب."
+            },
+            {
+              "row_index": 13,
+              "english": "Now the blood shall be a sign for you on the houses where you are; and when I see the blood, I will pass over you; and the plague shall not be on you to destroy you when I strike the land of Egypt.",
+              "arabic": "ويكون الدم علامة على البيوت التى أنتم فيها. فأرى الدم وأستر عليكم. ولا يكون فيكم ضربة إنسحاق حينما أضرب كل أبكار أرض مصر.",
+              "arabic_base_no_tashkeel": "ويكون الدم علامة على البيوت التى أنتم فيها. فأرى الدم وأستر عليكم. ولا يكون فيكم ضربة إنسحاق حينما أضرب كل أبكار أرض مصر."
+            },
+            {
+              "row_index": 14,
+              "english": "So this day shall be to you a memorial; and you shall keep it as a feast to the Lord throughout your generations. You shall keep it as a feast by an everlasting ordinance.",
+              "arabic": "ويكون لكم هذا اليوم تذكاراً. فتعيدونه عيداً للرب فى أجيالكم. تعيدونه فريضة أبدية.",
+              "arabic_base_no_tashkeel": "ويكون لكم هذا اليوم تذكارا. فتعيدونه عيدا للرب فى أجيالكم. تعيدونه فريضة أبدية."
+            }
+          ]
+        },
+        {
+          "title": "2nd Prophecy (Leviticus 23: 5 - 15)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "On the fourteenth day of the first month at twilight is the Lord's Passover.",
+              "arabic": "فِي الشَّهْرِ الاوَّلِ فِي الرَّابِعَ عَشَرَ مِنَ الشَّهْرِ بَيْنَ الْعِشَاءَيْنِ فِصْحٌ لِلرَّبِّ.",
+              "arabic_base_no_tashkeel": "في الشهر الاول في الرابع عشر من الشهر بين العشاءين فصح للرب."
+            },
+            {
+              "row_index": 2,
+              "english": "And on the fifteenth day of the same month is the Feast of Unleavened Bread to the Lord; seven days you must eat unleavened bread.",
+              "arabic": "وَفِي الْيَوْمِ الْخَامِسَ عَشَرَ مِنْ هَذَا الشَّهْرِ عِيدُ الْفَطِيرِ لِلرَّبِّ. سَبْعَةَ ايَّامٍ تَاكُلُونَ فَطِيرا.",
+              "arabic_base_no_tashkeel": "وفي اليوم الخامس عشر من هذا الشهر عيد الفطير للرب. سبعة ايام تاكلون فطيرا."
+            },
+            {
+              "row_index": 3,
+              "english": "On the first day you shall have a holy convocation; you shall do no customary work on it.",
+              "arabic": "فِي الْيَوْمِ الاوَّلِ يَكُونُ لَكُمْ مَحْفَلٌ مُقَدَّسٌ. عَمَلا مَا مِنَ الشُّغْلِ لا تَعْمَلُوا.",
+              "arabic_base_no_tashkeel": "في اليوم الاول يكون لكم محفل مقدس. عملا ما من الشغل لا تعملوا."
+            },
+            {
+              "row_index": 4,
+              "english": "But you shall offer an offering made by fire to the Lord for seven days. The seventh day shall be a holy convocation; you shall do no customary work on it.' \"",
+              "arabic": "وَسَبْعَةَ ايَّامٍ تُقَرِّبُونَ وَقُودا لِلرَّبِّ. فِي الْيَوْمِ السَّابِعِ يَكُونُ مَحْفَلٌ مُقَدَّسٌ. عَمَلا مَا مِنَ الشُّغْلِ لا تَعْمَلُوا».",
+              "arabic_base_no_tashkeel": "وسبعة ايام تقربون وقودا للرب. في اليوم السابع يكون محفل مقدس. عملا ما من الشغل لا تعملوا»."
+            },
+            {
+              "row_index": 5,
+              "english": "And the Lord spoke to Moses, saying,",
+              "arabic": "وقَالَ الرَّبُّ لِمُوسَى:",
+              "arabic_base_no_tashkeel": "وقال الرب لموسى:"
+            },
+            {
+              "row_index": 6,
+              "english": "\"Speak to the children of Israel, and say to them: 'When you come into the land which I give to you, and reap its harvest, then you shall bring a sheaf of the firstfruits of your harvest to the priest.",
+              "arabic": "«قُلْ لِبَنِي اسْرَائِيلَ: مَتَى جِئْتُمْ الَى الارْضِ الَّتِي انَا اعْطِيكُمْ وَحَصَدْتُمْ حَصِيدَهَا تَاتُونَ بِحُزْمَةِ اوَّلِ حَصِيدِكُمْ الَى الْكَاهِنِ.",
+              "arabic_base_no_tashkeel": "«قل لبني اسرائيل: متى جئتم الى الارض التي انا اعطيكم وحصدتم حصيدها تاتون بحزمة اول حصيدكم الى الكاهن."
+            },
+            {
+              "row_index": 7,
+              "english": "He shall wave the sheaf before the Lord, to be accepted on your behalf; on the day after the Sabbath the priest shall wave it.",
+              "arabic": "فَيُرَدِّدُ الْحُزْمَةَ امَامَ الرَّبِّ لِلرِّضَا عَنْكُمْ. فِي غَدِ السَّبْتِ يُرَدِّدُهَا الْكَاهِنُ.",
+              "arabic_base_no_tashkeel": "فيردد الحزمة امام الرب للرضا عنكم. في غد السبت يرددها الكاهن."
+            },
+            {
+              "row_index": 8,
+              "english": "And you shall offer on that day, when you wave the sheaf, a male lamb of the first year, without blemish, as a burnt offering to the Lord.",
+              "arabic": "وَتَعْمَلُونَ يَوْمَ تَرْدِيدِكُمُ الْحُزْمَةَ خَرُوفا صَحِيحا حَوْلِيّا مُحْرَقَةً لِلرَّبِّ.",
+              "arabic_base_no_tashkeel": "وتعملون يوم ترديدكم الحزمة خروفا صحيحا حوليا محرقة للرب."
+            },
+            {
+              "row_index": 9,
+              "english": "Its grain offering shall be two-tenths of an ephah of fine flour mixed with oil, an offering made by fire to the LORD, for a sweet aroma; and its drink offering shall be of wine, one-fourth of a hin",
+              "arabic": "وَتَقْدِمَتَهُ عُشْرَيْنِ مِنْ دَقِيق مَلْتُوتٍ بِزَيْتٍ، وَقُودًا لِلرَّبِّ رَائِحَةَ سَرُورٍ، وَسَكِيبَهُ رُبْعَ الْهِينِ مِنْ خَمْرٍ.",
+              "arabic_base_no_tashkeel": "وتقدمته عشرين من دقيق ملتوت بزيت، وقودا للرب رائحة سرور، وسكيبه ربع الهين من خمر."
+            },
+            {
+              "row_index": 10,
+              "english": "You shall eat neither bread nor parched grain nor fresh grain until the same day that you have brought an offering to your God; it shall be a statute forever throughout your generations in all your dwellings.",
+              "arabic": "وَخُبْزًا وَفَرِيكًا وَسَوِيقًا لاَ تَأْكُلُوا إِلَى هذَا الْيَوْمِ عَيْنِهِ، إِلَى أَنْ تَأْتُوا بِقُرْبَانِ إِلهِكُمْ، فَرِيضَةً دَهْرِيَّةً فِي أَجْيَالِكُمْ فِي جَمِيعِ مَسَاكِنِكُمْ.",
+              "arabic_base_no_tashkeel": "وخبزا وفريكا وسويقا لا تأكلوا إلى هذا اليوم عينه، إلى أن تأتوا بقربان إلهكم، فريضة دهرية في أجيالكم في جميع مساكنكم."
+            },
+            {
+              "row_index": 11,
+              "english": "‘And you shall count for yourselves from the day after the Sabbath, from the day that you brought the sheaf of the wave offering: seven Sabbaths shall be completed.",
+              "arabic": "«ثُمَّ تَحْسُبُونَ لَكُمْ مِنْ غَدِ السَّبْتِ مِنْ يَوْمِ إِتْيَانِكُمْ بِحُزْمَةِ التَّرْدِيدِ سَبْعَةَ أَسَابِيعَ تَكُونُ كَامِلَةً.",
+              "arabic_base_no_tashkeel": "«ثم تحسبون لكم من غد السبت من يوم إتيانكم بحزمة الترديد سبعة أسابيع تكون كاملة."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Pauline Epistle",
+      "readings": [
+        {
+          "title": "Pauline Epistle(Galatians 3: 1 - 6)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "O [you] before whose eyes Jesus Christ was clearly portrayed among you as crucified?",
+              "arabic": "أَيُّهَا الْغَلاَطِيُّونَ الأَغْبِيَاءُ، مَنْ رَقَاكُمْ حَتَّى لاَ تُذْعِنُوا لِلْحَقِّ؟ أَنْتُمُ الَّذِينَ أَمَامَ عُيُونِكُمْ قَدْ رُسِمَ يَسُوعُ الْمَسِيحُ بَيْنَكُمْ مَصْلُوباً!",
+              "arabic_base_no_tashkeel": "أيها الغلاطيون الأغبياء، من رقاكم حتى لا تذعنوا للحق؟ أنتم الذين أمام عيونكم قد رسم يسوع المسيح بينكم مصلوبا!"
+            },
+            {
+              "row_index": 2,
+              "english": "This only I want to learn from you: Did you receive the Spirit by the works of the law, or by the hearing of faith?",
+              "arabic": "أُرِيدُ أَنْ أَتَعَلَّمَ مِنْكُمْ هَذَا فَقَطْ: أَبِأَعْمَالِ النَّامُوسِ أَخَذْتُمُ الرُّوحَ أَمْ بِخَبَرِ الإِيمَانِ؟",
+              "arabic_base_no_tashkeel": "أريد أن أتعلم منكم هذا فقط: أبأعمال الناموس أخذتم الروح أم بخبر الإيمان؟"
+            },
+            {
+              "row_index": 3,
+              "english": "Are you so foolish? Having begun in the Spirit, are you now being made perfect by the flesh?",
+              "arabic": "أَهَكَذَا أَنْتُمْ أَغْبِيَاءُ! أَبَعْدَمَا ابْتَدَأْتُمْ بِالرُّوحِ تُكَمَّلُونَ الآنَ بِالْجَسَدِ؟",
+              "arabic_base_no_tashkeel": "أهكذا أنتم أغبياء! أبعدما ابتدأتم بالروح تكملون الآن بالجسد؟"
+            },
+            {
+              "row_index": 4,
+              "english": "Have you suffered so many things in vain--if indeed it was in vain?",
+              "arabic": "أَهَذَا الْمِقْدَارَ احْتَمَلْتُمْ عَبَثاً؟ إِنْ كَانَ عَبَثاً!",
+              "arabic_base_no_tashkeel": "أهذا المقدار احتملتم عبثا؟ إن كان عبثا!"
+            },
+            {
+              "row_index": 5,
+              "english": "Therefore He who supplies the Spirit to you and works miracles among you, does He do it by the works of the law, or by the hearing of faith?--",
+              "arabic": "فَالَّذِي يَمْنَحُكُمُ الرُّوحَ، وَيَعْمَلُ قُوَّاتٍ فِيكُمْ، أَبِأَعْمَالِ النَّامُوسِ أَمْ بِخَبَرِ الإِيمَانِ؟",
+              "arabic_base_no_tashkeel": "فالذي يمنحكم الروح، ويعمل قوات فيكم، أبأعمال الناموس أم بخبر الإيمان؟"
+            },
+            {
+              "row_index": 6,
+              "english": "just as Abraham \"believed God, and it was accounted to him for righteousness.\"",
+              "arabic": "كَمَا «آمَنَ إِبْرَاهِيمُ بِاللهِ فَحُسِبَ لَهُ بِرّاً».",
+              "arabic_base_no_tashkeel": "كما «آمن إبراهيم بالله فحسب له برا»."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (143: 6 - 7, 31: 5)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "I spread out my hands to You. Hear me speedily, O Lord; my spirit faints within me.",
+              "arabic": "بسطت يدي إليك، فأستجب لي يارب عاجلاً فقد فنيت روحى.",
+              "arabic_base_no_tashkeel": "بسطت يدي إليك، فأستجب لي يارب عاجلا فقد فنيت روحى."
+            },
+            {
+              "row_index": 2,
+              "english": "Turn not Your face from me, lest I become like those who go down into the pit.",
+              "arabic": "لا تصرف وجهك عنى فاشابه الهابطين فى الجب.",
+              "arabic_base_no_tashkeel": "لا تصرف وجهك عنى فاشابه الهابطين فى الجب."
+            },
+            {
+              "row_index": 3,
+              "english": "Into Your hands I shall entrust my spirit; You redeemed me, O Lord God of truth.",
+              "arabic": "فى يديك أستودع روحى ولقد فديتنى أيها الرب إله الحق. هلليلويا.",
+              "arabic_base_no_tashkeel": "فى يديك أستودع روحى ولقد فديتنى أيها الرب إله الحق. هلليلويا."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Matthew 27: 51 - 56)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Then, behold, the veil of the temple was torn in two from top to bottom; and the earth quaked,",
+              "arabic": "وإذا حجاب الهيكل قد إنشق إلى إثنين من فوق إلى أسفل. والأرض تزلزلت.",
+              "arabic_base_no_tashkeel": "وإذا حجاب الهيكل قد إنشق إلى إثنين من فوق إلى أسفل. والأرض تزلزلت."
+            },
+            {
+              "row_index": 2,
+              "english": "and the rocks were split, and the graves were opened; and many bodies of the saints who had fallen asleep were raised;",
+              "arabic": "والصخور تشققت. والقبور تفتحت. وقام كثير من أجساد القديسين الراقدين.",
+              "arabic_base_no_tashkeel": "والصخور تشققت. والقبور تفتحت. وقام كثير من أجساد القديسين الراقدين."
+            },
+            {
+              "row_index": 3,
+              "english": "And coming out of the graves after His resurrection, they went into the holy city and appeared to many.",
+              "arabic": "وخرجوا من القبور بعد قيامته ودخلوا المدينة المقدسة وظهروا لكثيرين.",
+              "arabic_base_no_tashkeel": "وخرجوا من القبور بعد قيامته ودخلوا المدينة المقدسة وظهروا لكثيرين."
+            },
+            {
+              "row_index": 4,
+              "english": "So when the centurion and those with him, who were guarding Jesus, saw the earthquake and the things that had happened, they feared greatly, saying, “Truly this was the Son of God!”",
+              "arabic": "وأما قائد المئة والذين كانوا معه يحرسون يسوع، فلما رأوا الزلزلة وما كان خافوا جداً وقالوا: حقاً هذا هو إبن الله.",
+              "arabic_base_no_tashkeel": "وأما قائد المئة والذين كانوا معه يحرسون يسوع، فلما رأوا الزلزلة وما كان خافوا جدا وقالوا: حقا هذا هو إبن الله."
+            },
+            {
+              "row_index": 5,
+              "english": "And many women who followed Jesus from Galilee, ministering to Him, were there looking on from afar,",
+              "arabic": "وكانت هناك نساء كثيرات ينظرن من بعيد وهن اللواتى كن تبعن يسوع من الجليل يخدمنه،",
+              "arabic_base_no_tashkeel": "وكانت هناك نساء كثيرات ينظرن من بعيد وهن اللواتى كن تبعن يسوع من الجليل يخدمنه،"
+            },
+            {
+              "row_index": 6,
+              "english": "Among whom were Mary Magdalene, Mary the mother of James and Joses, and the mother of Zebedee’s sons.",
+              "arabic": "وبينهن مريم المجدلية ومريم أم يعقوب وأم يوسى وأم إبني زبدى. والمجد لله دائماً.",
+              "arabic_base_no_tashkeel": "وبينهن مريم المجدلية ومريم أم يعقوب وأم يوسى وأم إبني زبدى. والمجد لله دائما."
+            }
+          ]
+        },
+        {
+          "title": "Psalm (143: 6 - 7, 31: 5)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "I spread out my hands to You;",
+              "arabic": "بَسَطْتُ إِلَيْكَ يَدَيَّ. نَفْسِي نَحْوَكَ كَأَرْضٍ يَابِسَةٍ. .",
+              "arabic_base_no_tashkeel": "بسطت إليك يدي. نفسي نحوك كأرض يابسة. ."
+            },
+            {
+              "row_index": 2,
+              "english": "Answer me speedily, O Lord; My spirit fails! Do not hide Your face from me, Lest I be like those who go down into the pit. Alleluia.",
+              "arabic": "أَسْرِعْ أَجِبْنِي يَا رَبُّ. فَنِيَتْ رُوحِي. لاَ تَحْجُبْ وَجْهَكَ عَنِّي فَأُشْبِهَ الْهَابِطِينَ فِي الْجُبِّ. هلليلويا.",
+              "arabic_base_no_tashkeel": "أسرع أجبني يا رب. فنيت روحي. لا تحجب وجهك عني فأشبه الهابطين في الجب. هلليلويا."
+            },
+            {
+              "row_index": 3,
+              "english": "Into Your hand I commit my spirit; You have redeemed me, O Lord God of truth.",
+              "arabic": "فِي يَدِكَ أَسْتَوْدِعُ رُوحِي. فَدَيْتَنِي يَا رَبُّ إِلَهَ الْحَقِّ.",
+              "arabic_base_no_tashkeel": "في يدك أستودع روحي. فديتني يا رب إله الحق."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Mark 15: 38 - 41)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Then the veil of the temple was torn in two from top to bottom.",
+              "arabic": "وإنشق حجاب الهيكل إلى إثنين من فوق إلى أسفل.",
+              "arabic_base_no_tashkeel": "وإنشق حجاب الهيكل إلى إثنين من فوق إلى أسفل."
+            },
+            {
+              "row_index": 2,
+              "english": "So when the centurion, who stood opposite Him, saw that He cried out like this and breathed His last, he said, “Truly this Man was the Son of God!”",
+              "arabic": "ولما رأى قائد المئة القائم مقابله إنه قد أسلم الروح قال: حقاً إن هذا الإنسان كان إبن الله.",
+              "arabic_base_no_tashkeel": "ولما رأى قائد المئة القائم مقابله إنه قد أسلم الروح قال: حقا إن هذا الإنسان كان إبن الله."
+            },
+            {
+              "row_index": 3,
+              "english": "There were also women looking on from afar, among whom were Mary Magdalene, Mary the mother of James the Less and of Joses, and Salome,",
+              "arabic": "وكانت أيضاً نساء ينظرن من بعيد بينهن مريم المجدلية ومريم أم يعقوب الصغير وأم يوسى وسالومة.",
+              "arabic_base_no_tashkeel": "وكانت أيضا نساء ينظرن من بعيد بينهن مريم المجدلية ومريم أم يعقوب الصغير وأم يوسى وسالومة."
+            },
+            {
+              "row_index": 4,
+              "english": "Who also followed Him and ministered to Him when He was in Galilee, and many other women who came up with Him to Jerusalem.",
+              "arabic": "هؤلاء اللواتى كن يتبعنه ويخدمونه حين كان فى الجليل. وأخر كثيرات اللواتى صعدن معه إلى أورشليم.",
+              "arabic_base_no_tashkeel": "هؤلاء اللواتى كن يتبعنه ويخدمونه حين كان فى الجليل. وأخر كثيرات اللواتى صعدن معه إلى أورشليم."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Luke 23: 47 - 49)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "So when the centurion saw what had happened, he glorified God, saying, “Certainly this was a righteous Man!”",
+              "arabic": "ولما رأى قائد المئة ما حدث مجد الله قائلاً: بالحقيقة كان هذا الإنسان باراً.",
+              "arabic_base_no_tashkeel": "ولما رأى قائد المئة ما حدث مجد الله قائلا: بالحقيقة كان هذا الإنسان بارا."
+            },
+            {
+              "row_index": 2,
+              "english": "And the whole crowd who came together to that sight, seeing what had been done, beat their breasts and returned.",
+              "arabic": "وكل الجموع الذين آتٍوا لهذا المنظر لما عاينوا ما حدث، رجعوا وهم يقرعون صدورهم.",
+              "arabic_base_no_tashkeel": "وكل الجموع الذين آتوا لهذا المنظر لما عاينوا ما حدث، رجعوا وهم يقرعون صدورهم."
+            },
+            {
+              "row_index": 3,
+              "english": "But all His acquaintances, and the women who followed Him from Galilee, stood at a distance, watching these things.",
+              "arabic": "وكان جميع معارفه وقوفاً من بعيد. والنسوة اللواتى كن يتبعنه من الجليل، كن ينظرن ذلك.",
+              "arabic_base_no_tashkeel": "وكان جميع معارفه وقوفا من بعيد. والنسوة اللواتى كن يتبعنه من الجليل، كن ينظرن ذلك."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (John 19: 31 - 37)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Therefore, because it was the Preparation Day, that the bodies should not remain on the cross on the Sabbath (for that Sabbath was a high day), the Jews asked Pilate that their legs might be broken, and that they might be taken away.",
+              "arabic": "فأما اليهود إذ كان يوم الجمعة ولكى لا تبقى الأجساد على الصليب فى السبت، لأن يوم ذلك السبت كان عظيماً. فسألوا بيلاطس أن تكسر سيقانهم ويرفعوا.",
+              "arabic_base_no_tashkeel": "فأما اليهود إذ كان يوم الجمعة ولكى لا تبقى الأجساد على الصليب فى السبت، لأن يوم ذلك السبت كان عظيما. فسألوا بيلاطس أن تكسر سيقانهم ويرفعوا."
+            },
+            {
+              "row_index": 2,
+              "english": "Then the soldiers came and broke the legs of the first and of the other who was crucified with Him.",
+              "arabic": "فأتى العسكر وكسروا ساقي الأول والآخر اللذان صلبا معه.",
+              "arabic_base_no_tashkeel": "فأتى العسكر وكسروا ساقي الأول والآخر اللذان صلبا معه."
+            },
+            {
+              "row_index": 3,
+              "english": "But when they came to Jesus and saw that He was already dead, they did not break His legs.",
+              "arabic": "وأما يسوع فلما جاءوا إليه لم يكسروا ساقيه لأنهم رأوه قد مآتٍ.",
+              "arabic_base_no_tashkeel": "وأما يسوع فلما جاءوا إليه لم يكسروا ساقيه لأنهم رأوه قد مآت."
+            },
+            {
+              "row_index": 4,
+              "english": "But one of the soldiers pierced His side with a spear, and immediately blood and water came out.",
+              "arabic": "لكن واحداً من العسكر طعن جنبه بحربة وللوقت خرج دم وماء.",
+              "arabic_base_no_tashkeel": "لكن واحدا من العسكر طعن جنبه بحربة وللوقت خرج دم وماء."
+            },
+            {
+              "row_index": 5,
+              "english": "And he who has seen has testified, and his testimony is true; and he knows that he is telling the truth, so that you may believe.",
+              "arabic": "والذي عاين شهد وشهادته حق. وهو يعلم أيضاً إنه يقول الحق لتؤمنوا أنتم أيضاً.",
+              "arabic_base_no_tashkeel": "والذي عاين شهد وشهادته حق. وهو يعلم أيضا إنه يقول الحق لتؤمنوا أنتم أيضا."
+            },
+            {
+              "row_index": 6,
+              "english": "For these things were done that the Scripture should be fulfilled, “Not one of His bones shall be broken.” And again another Scripture says, “They shall look on Him whom they pierced.”",
+              "arabic": "لأنه هكذا كان ليتم الكتاب القائل: عظم لا يكسر منه. وأيضاً يقول كتاب آخر: سينظرون إلى من طعنوه.",
+              "arabic_base_no_tashkeel": "لأنه هكذا كان ليتم الكتاب القائل: عظم لا يكسر منه. وأيضا يقول كتاب آخر: سينظرون إلى من طعنوه."
+            },
+            {
+              "row_index": 7,
+              "english": "And again another Scripture says, \"They shall look on Him whom they pierced.\"<Br><i>Bow down before the Holy Gospel.</i>",
+              "arabic": "وَأَيْضاً يَقُولُ كِتَابٌ آخَرُ: «سَيَنْظُرُونَ إِلَى الَّذِي طَعَنُوهُ».<br><i>أسجدوا للإنجيل المقدس.</i>",
+              "arabic_base_no_tashkeel": "وأيضا يقول كتاب آخر: «سينظرون إلى الذي طعنوه».<br><i>أسجدوا للإنجيل المقدس.</i>"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+# Reference: 1 Ezra 2
+# Logos Reference: 1 Ezra 2
+# Paste SAAS chapter text here, one verse per line.
+# Preferred format: 38:31: Verse text

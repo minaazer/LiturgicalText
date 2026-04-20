@@ -1,0 +1,392 @@
+{
+  "service": "DAY of Monday",
+  "hour": "NINTH Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Genesis 2: 15 - 3: 24)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Then the Lord God took the man He formed and put him in the garden to tend and keep it. And the Lord God commanded Adam, saying, \"You may eat food from every tree in the garden;",
+              "arabic": "وأخذ الرب الإله الإنسان الذي خلقه. ووضعه فى فردوس النعيم ليفلحه ويحفظه. وأمر الرب الإله آدم قائلاً: من جميع الأشجار التى فى الفردوس تأكل أكلاً.",
+              "arabic_base_no_tashkeel": "وأخذ الرب الإله الإنسان الذي خلقه. ووضعه فى فردوس النعيم ليفلحه ويحفظه. وأمر الرب الإله آدم قائلا: من جميع الأشجار التى فى الفردوس تأكل أكلا."
+            },
+            {
+              "row_index": 2,
+              "english": "But from the tree of the knowledge of good and evil you may not eat; For in whatever day you eat from it, you shall die by death.\"",
+              "arabic": "وأما شجرة معرفة ابتدال الخير والشر فلا تأكل منها. فإنك فى اليوم الذي تأكل منها موتأ تموت.",
+              "arabic_base_no_tashkeel": "وأما شجرة معرفة ابتدال الخير والشر فلا تأكل منها. فإنك فى اليوم الذي تأكل منها موتأ تموت."
+            },
+            {
+              "row_index": 3,
+              "english": "And the Lord God said, \"It is not good for man to be alone. I will make him a helper comparable to him.\" Also, God formed out of the ground all the wild animals of the field and all the birds of heaven, and brought them to Adam to see what he would call them.",
+              "arabic": "وقال الرب الإله لا يحسن أن يكون الإنسان وحده فلنصنع له معيناً مثله. وجبل الرب الإله من الأرض جميع وحوش البرية وجميع طيور السماء. وأحضرها إلى آدم ليرى ماذا يسميها",
+              "arabic_base_no_tashkeel": "وقال الرب الإله لا يحسن أن يكون الإنسان وحده فلنصنع له معينا مثله. وجبل الرب الإله من الأرض جميع وحوش البرية وجميع طيور السماء. وأحضرها إلى آدم ليرى ماذا يسميها"
+            },
+            {
+              "row_index": 4,
+              "english": "Thus whatever Adam called each living creature, that was its name. So Adam gave names to all the cattle, to all the birds of heaven, and to all the wild animals of the field.",
+              "arabic": "فكل ما سماه به آدم من نفس حية فهو أسمها. وسمى آدم جميع البهائم وطيور السماء وجميع وحوش البرية.",
+              "arabic_base_no_tashkeel": "فكل ما سماه به آدم من نفس حية فهو أسمها. وسمى آدم جميع البهائم وطيور السماء وجميع وحوش البرية."
+            },
+            {
+              "row_index": 5,
+              "english": "But for Adam there was not found a helper comparable to him. Thus God brought a trance upon Adam, and he slept; and He took one of his ribs, and filled up the flesh in its place.",
+              "arabic": "وأما آدم فلم يجد له معيناً يشبهه فألقى الله على آدم سباتاً فنام وأخذ ضلعاً من جنبه وملأ موضعها لحماً",
+              "arabic_base_no_tashkeel": "وأما آدم فلم يجد له معينا يشبهه فألقى الله على آدم سباتا فنام وأخذ ضلعا من جنبه وملأ موضعها لحما"
+            },
+            {
+              "row_index": 6,
+              "english": "Then the Lord God built the rib He took from Adam into a woman, and brought her to him. So Adam said, \"This is now bone of my bones, and flesh of my flesh. She shall be called Woman, because she was taken out of Man.",
+              "arabic": "وبنى الرب الإله الضلع التى أخذها من آدم إمرأة وأحضرها إلى آدم. فقال آدم هذه الآن عظم من عظامى. ولحم من لحمى هذه تدعى امرأة لأنها من امرء أخذت.",
+              "arabic_base_no_tashkeel": "وبنى الرب الإله الضلع التى أخذها من آدم إمرأة وأحضرها إلى آدم. فقال آدم هذه الآن عظم من عظامى. ولحم من لحمى هذه تدعى امرأة لأنها من امرء أخذت."
+            },
+            {
+              "row_index": 7,
+              "english": "For this reason a man shall leave his father and mother and be joined to his wife; and the two shall become one flesh.\"",
+              "arabic": "لذلك يترك الرجل أباه وأمه ويلتصق بامرأته. ويكونان كلاهما جسداً واحداً.",
+              "arabic_base_no_tashkeel": "لذلك يترك الرجل أباه وأمه ويلتصق بامرأته. ويكونان كلاهما جسدا واحدا."
+            },
+            {
+              "row_index": 8,
+              "english": "Now the two were naked, both Adam and his wife, and were not ashamed.",
+              "arabic": "وكانا كلاهما عريانين معاً. آدم وامرأته. وهما لا يخجلان.",
+              "arabic_base_no_tashkeel": "وكانا كلاهما عريانين معا. آدم وامرأته. وهما لا يخجلان."
+            },
+            {
+              "row_index": 9,
+              "english": "Now the serpent was more cunning than all the wild animals the Lord God made on the earth.",
+              "arabic": "وكانت الحية أحكم جميع الوحوش التى خلقها الرب الإله على الأرض.",
+              "arabic_base_no_tashkeel": "وكانت الحية أحكم جميع الوحوش التى خلقها الرب الإله على الأرض."
+            },
+            {
+              "row_index": 10,
+              "english": "And he said to the woman, \"Has God indeed said, 'You shall not eat from every tree of the garden'?\"",
+              "arabic": "فقالت الحية للمرأة. لماذا قال الله لكما أن لا تأكلا من جميع شجر الفردوس.",
+              "arabic_base_no_tashkeel": "فقالت الحية للمرأة. لماذا قال الله لكما أن لا تأكلا من جميع شجر الفردوس."
+            },
+            {
+              "row_index": 11,
+              "english": "And the woman said to the serpent, \"We may eat the fruit from the trees of the garden;",
+              "arabic": "فقالت المرأة للحية: أن من جميع ثمار شجر الفردوس نأكل",
+              "arabic_base_no_tashkeel": "فقالت المرأة للحية: أن من جميع ثمار شجر الفردوس نأكل"
+            },
+            {
+              "row_index": 12,
+              "english": "But from the fruit of the tree in the middle of the garden, God said, 'You shall not eat from it, nor shall you touch it. Lest you die.’”",
+              "arabic": "وأما ثمر الشجرة التى فى وسط الفردوس فقال الله لا تأكلا منه ولا تمساه لئلا تموتا.",
+              "arabic_base_no_tashkeel": "وأما ثمر الشجرة التى فى وسط الفردوس فقال الله لا تأكلا منه ولا تمساه لئلا تموتا."
+            },
+            {
+              "row_index": 13,
+              "english": "Then the serpent said to the woman, \"You shall not die by death.",
+              "arabic": "فقالت الحية للمرأة لن تموتا موتاً.",
+              "arabic_base_no_tashkeel": "فقالت الحية للمرأة لن تموتا موتا."
+            },
+            {
+              "row_index": 14,
+              "english": "For God knows in the day you eat from it your eyes will be opened, and you will be like gods, knowing good and evil.\"",
+              "arabic": "أنما الله عالم أنكما فى اليوم الذي تأكلان منه تنفتح أعينكما. وتصيران كآلهة عارفي فى الخير والشر.",
+              "arabic_base_no_tashkeel": "أنما الله عالم أنكما فى اليوم الذي تأكلان منه تنفتح أعينكما. وتصيران كآلهة عارفي فى الخير والشر."
+            },
+            {
+              "row_index": 15,
+              "english": "So when the woman saw the tree was good for food, was pleasant to the eyes, and a tree beautiful to contemplate, she took its fruit and ate.",
+              "arabic": "فرأت المرأة أن الشجرة جيدة للأكل ومبهجة للنظر حسنة التأمل إليها فأخذت من ثمرها و أكلت.",
+              "arabic_base_no_tashkeel": "فرأت المرأة أن الشجرة جيدة للأكل ومبهجة للنظر حسنة التأمل إليها فأخذت من ثمرها و أكلت."
+            },
+            {
+              "row_index": 16,
+              "english": "She also gave it to her husband with her, and he ate. Then the eyes of the two were opened, and they knew they were naked.",
+              "arabic": "و أعطت بعلها أيضاً معها فأكل. فأنفتحت أعينهما كلاهما وعلما أنهما عريانان",
+              "arabic_base_no_tashkeel": "و أعطت بعلها أيضا معها فأكل. فأنفتحت أعينهما كلاهما وعلما أنهما عريانان"
+            },
+            {
+              "row_index": 17,
+              "english": "So they sewed fig leaves together and made themselves coverings.",
+              "arabic": "فخاطا من ورق التين وصنعا لهما مآزر.",
+              "arabic_base_no_tashkeel": "فخاطا من ورق التين وصنعا لهما مآزر."
+            },
+            {
+              "row_index": 18,
+              "english": "Then they heard the voice of the Lord God walking in the garden that afternoon, and Adam and his wife hid themselves within the tree in the middle of the garden from the presence of the Lord God.",
+              "arabic": "فسمعا صوت الرب الإله ماشياً فى الفردوس وقت المساء. فأختفيا آدم وزوجته من وجه الرب الإله فى وسط شجر الفردوس.",
+              "arabic_base_no_tashkeel": "فسمعا صوت الرب الإله ماشيا فى الفردوس وقت المساء. فأختفيا آدم وزوجته من وجه الرب الإله فى وسط شجر الفردوس."
+            },
+            {
+              "row_index": 19,
+              "english": "So the Lord God called Adam and said to him, “Adam, where are you?”",
+              "arabic": "فنادى الرب الإله آدم وقال له. أين أنت يا آدم.",
+              "arabic_base_no_tashkeel": "فنادى الرب الإله آدم وقال له. أين أنت يا آدم."
+            },
+            {
+              "row_index": 20,
+              "english": "He replied, “I heard Your voice as You were walking in the garden, and I was afraid because I was naked; so I hid myself.”",
+              "arabic": "فقال له سمعت صوتك ماشياً فى الفردوس فخفت. لأنى عريان فإختبأت.",
+              "arabic_base_no_tashkeel": "فقال له سمعت صوتك ماشيا فى الفردوس فخفت. لأنى عريان فإختبأت."
+            },
+            {
+              "row_index": 21,
+              "english": "Thus He said, “Who said you were naked? Have you eaten from the one tree from which I commanded you not to eat?”",
+              "arabic": "فقال له ومن أعلمك أنك عريان إلا أنك أكلت من الشجرة التى أوصيتك أن لا تأكل منها وحدها. فأكلت منها.",
+              "arabic_base_no_tashkeel": "فقال له ومن أعلمك أنك عريان إلا أنك أكلت من الشجرة التى أوصيتك أن لا تأكل منها وحدها. فأكلت منها."
+            },
+            {
+              "row_index": 22,
+              "english": "Then Adam said, “The woman You gave me, gave me of the tree, and I ate.” So the Lord God said to the woman, “What is this you have done?” The woman said, “The serpent deceived me, and I ate.”",
+              "arabic": "فقال آدم أن المرأة التى أعطيتها لى هى التى أعطتنى من الشجرة فأكلت. فقال الرب الإله للمرأة. لما فعلت هذا. فقالت المرأة الحية أغوتنى فأكلت.",
+              "arabic_base_no_tashkeel": "فقال آدم أن المرأة التى أعطيتها لى هى التى أعطتنى من الشجرة فأكلت. فقال الرب الإله للمرأة. لما فعلت هذا. فقالت المرأة الحية أغوتنى فأكلت."
+            },
+            {
+              "row_index": 23,
+              "english": "Thus the Lord God said to the serpent, “Because you have done this, you are cursed more than all cattle, and more than all the wild animals on the earth. On your breast and belly you shall go, and you shall eat dust all the days of your life.",
+              "arabic": "فقال الرب الإله للحية. لأنك فعلت هذا. فملعونة أنت من بين جميع البهائم. وجميع الوحوش التى على وجه الأرض و تدبين على صدرك وبطنك. وتأكلين تراباً طول أيام حياتك.",
+              "arabic_base_no_tashkeel": "فقال الرب الإله للحية. لأنك فعلت هذا. فملعونة أنت من بين جميع البهائم. وجميع الوحوش التى على وجه الأرض و تدبين على صدرك وبطنك. وتأكلين ترابا طول أيام حياتك."
+            },
+            {
+              "row_index": 24,
+              "english": "I will put enmity between you and the woman, and between your seed and her seed. He shall bruise your head, and you shall be on guard for His heel.\"",
+              "arabic": "وأضع عداوة بينك وبين المرأة. وبين نسلك ونسلها. فهو يسحق رأسك وأنت ترصدين عقبه.",
+              "arabic_base_no_tashkeel": "وأضع عداوة بينك وبين المرأة. وبين نسلك ونسلها. فهو يسحق رأسك وأنت ترصدين عقبه."
+            },
+            {
+              "row_index": 25,
+              "english": "To the woman He said, \"I will greatly multiply your pain and your groaning, and in pain you shall bring forth children.",
+              "arabic": "وقال للمرأة. تكثيراً أكثر أحزان قلبك وتنهدك. وبالأحزان (بالأوجاع) تلدين البنين.",
+              "arabic_base_no_tashkeel": "وقال للمرأة. تكثيرا أكثر أحزان قلبك وتنهدك. وبالأحزان (بالأوجاع) تلدين البنين."
+            },
+            {
+              "row_index": 26,
+              "english": "Your recourse will be to your husband, and he shall rule over you.”",
+              "arabic": "وإلى بعلك يكون رجوعك وهو يسود عليك.",
+              "arabic_base_no_tashkeel": "وإلى بعلك يكون رجوعك وهو يسود عليك."
+            },
+            {
+              "row_index": 27,
+              "english": "Then to Adam He said, “Because you heeded the voice of your wife, and ate from the one tree of which I commanded you, saying, ‘You shall not eat from it,’ cursed is the ground in your labors.",
+              "arabic": "وقال لآدم. بما أنك أطعت إمرأتك. وأكلت من الشجرة التى أوصيتك قائلاً: هذه وحدها لا تأكل منها. فملعونة الأرض بسبب أعمالك.",
+              "arabic_base_no_tashkeel": "وقال لآدم. بما أنك أطعت إمرأتك. وأكلت من الشجرة التى أوصيتك قائلا: هذه وحدها لا تأكل منها. فملعونة الأرض بسبب أعمالك."
+            },
+            {
+              "row_index": 28,
+              "english": "In toil you shall eat from it all the days of your life. Both thorns and thistles it shall bring forth for you, and you shall eat the herb of the field.",
+              "arabic": "بالمشقة تأكل منها كل أيام حياتك. وشوكاً وحسكاً تنبت لك. وتأكل عشب الأرض وبعرق وجهك تأكل خبزك.",
+              "arabic_base_no_tashkeel": "بالمشقة تأكل منها كل أيام حياتك. وشوكا وحسكا تنبت لك. وتأكل عشب الأرض وبعرق وجهك تأكل خبزك."
+            },
+            {
+              "row_index": 29,
+              "english": "In the sweat of your face you shall eat bread till you return.”",
+              "arabic": "حتى تعود إلى الأرض التى أخذت منها. لأنك تراب وإلى التراب تعود.",
+              "arabic_base_no_tashkeel": "حتى تعود إلى الأرض التى أخذت منها. لأنك تراب وإلى التراب تعود."
+            },
+            {
+              "row_index": 30,
+              "english": "So Adam called his wife’s name Life, because she was the mother of all living.",
+              "arabic": "ودعا آدم أسم امرأته حواء. لأنها أم كل حي.",
+              "arabic_base_no_tashkeel": "ودعا آدم أسم امرأته حواء. لأنها أم كل حي."
+            },
+            {
+              "row_index": 31,
+              "english": "Also for Adam and his wife the Lord God made garments of skin, and clothed them.",
+              "arabic": "وصنع الرب الإله لآدم وأمرأته أقمصة من جلد وكساهما",
+              "arabic_base_no_tashkeel": "وصنع الرب الإله لآدم وأمرأته أقمصة من جلد وكساهما"
+            },
+            {
+              "row_index": 32,
+              "english": "Then the Lord God said, “Behold, the man has become like one of Us, to know good and evil.",
+              "arabic": "وقال الرب الإله. هوذا آدم قد صار كواحد منا يعرف الخير والشر.",
+              "arabic_base_no_tashkeel": "وقال الرب الإله. هوذا آدم قد صار كواحد منا يعرف الخير والشر."
+            },
+            {
+              "row_index": 33,
+              "english": "Now, lest he put out his hand and take also of the tree of life, and eat, and live forever—”",
+              "arabic": "والآن لعله يمد يده إلى شجرة الحياة فيأكل منها ويحيا إلى الأبد,",
+              "arabic_base_no_tashkeel": "والآن لعله يمد يده إلى شجرة الحياة فيأكل منها ويحيا إلى الأبد,"
+            },
+            {
+              "row_index": 34,
+              "english": "Therefore the Lord God sent him out of the garden of pleasure to cultivate the ground from which he was taken.",
+              "arabic": "فأخرجه الرب الإله من فردوس النعيم. ليعمل فى الأرض التى أخذ منها.",
+              "arabic_base_no_tashkeel": "فأخرجه الرب الإله من فردوس النعيم. ليعمل فى الأرض التى أخذ منها."
+            },
+            {
+              "row_index": 35,
+              "english": "So He cast out Adam, and made him dwell opposite the garden of pleasure. He then stationed the cherubim and the fiery sword which turns every way to guard the way to the tree of life.",
+              "arabic": "فأخرج آدم فسكن أمام فردوس النعيم. وجعل الكاروبيم وسيفأ نارياً متقلباً لحراسة طريق شجرة الحياة.",
+              "arabic_base_no_tashkeel": "فأخرج آدم فسكن أمام فردوس النعيم. وجعل الكاروبيم وسيفأ ناريا متقلبا لحراسة طريق شجرة الحياة."
+            }
+          ]
+        },
+        {
+          "title": "2nd Prophecy (Isaiah 40: 1 - 5)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "\"Comfort, yes, comfort My people,\" says God.",
+              "arabic": "عزوا عزوا شعبى أيها الكهنة قال الله.",
+              "arabic_base_no_tashkeel": "عزوا عزوا شعبى أيها الكهنة قال الله."
+            },
+            {
+              "row_index": 2,
+              "english": "\"O priests, speak to the heart of Jerusalem, comfort her, for her humiliation is ended, her sin is pardoned; for she received from the Lord's hand double for her sins.\"",
+              "arabic": "تكلموا فى قلب أورشليم. عزوها لأنه قد كثر ذلها. وأنحلت خطيتها. وقبلت من يد الرب ضعفين عن خطاياها.",
+              "arabic_base_no_tashkeel": "تكلموا فى قلب أورشليم. عزوها لأنه قد كثر ذلها. وأنحلت خطيتها. وقبلت من يد الرب ضعفين عن خطاياها."
+            },
+            {
+              "row_index": 3,
+              "english": "The voice of one crying in the wilderness: \"Prepare the way of the Lord; make straight the paths of our God.",
+              "arabic": "صوت صارخ فى البرية. أعدوا طريق الرب ومهدوا سبل إلهنا.",
+              "arabic_base_no_tashkeel": "صوت صارخ فى البرية. أعدوا طريق الرب ومهدوا سبل إلهنا."
+            },
+            {
+              "row_index": 4,
+              "english": "Every valley shall be filled, and every mountain and hill humbled; the crooked places shall be made straight, and the rough places into plains.",
+              "arabic": "كل جبل وكل تل ينخفض. ويصير المعوج مستقيماً. والطرق الوعرة لينة.",
+              "arabic_base_no_tashkeel": "كل جبل وكل تل ينخفض. ويصير المعوج مستقيما. والطرق الوعرة لينة."
+            },
+            {
+              "row_index": 5,
+              "english": "The glory of the Lord shall be revealed, and all flesh shall see the salvation of God; for the Lord has spoken.\"",
+              "arabic": "ويظهر يوم الرب. وكل ذى جسد يعاين مجد الله. لأن الرب تكلم.",
+              "arabic_base_no_tashkeel": "ويظهر يوم الرب. وكل ذى جسد يعاين مجد الله. لأن الرب تكلم."
+            }
+          ]
+        },
+        {
+          "title": "3rd Prophecy (Proverbs 1: 1 - 9)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "The Proverbs of Solomon, the son of David, who reigned in Israel,",
+              "arabic": "أمثال سليمان بن داود الملك. الذي ملك على إسرائيل.",
+              "arabic_base_no_tashkeel": "أمثال سليمان بن داود الملك. الذي ملك على إسرائيل."
+            },
+            {
+              "row_index": 2,
+              "english": "to know wisdom and instruction, and to understand words of discernment; to receive both subtlety of words, and to understand true righteousness and upright judgment;",
+              "arabic": "لمعرفة الحكمة والأدب. لإدراك أقوال الفطنة. لقبول تدرب الكلام. لتعليم العدل الحقيقى. والحكم المستقيم.",
+              "arabic_base_no_tashkeel": "لمعرفة الحكمة والأدب. لإدراك أقوال الفطنة. لقبول تدرب الكلام. لتعليم العدل الحقيقى. والحكم المستقيم."
+            },
+            {
+              "row_index": 3,
+              "english": "So as to give astuteness to the simple, and both perception and understanding to a young man;",
+              "arabic": "لكى تعطى لمن لا شر فيهم حكمة. وعقلا وفهما للشاب الحدث.",
+              "arabic_base_no_tashkeel": "لكى تعطى لمن لا شر فيهم حكمة. وعقلا وفهما للشاب الحدث."
+            },
+            {
+              "row_index": 4,
+              "english": "For a wise man who hears these things will be wiser, and the man of understanding will gain direction.",
+              "arabic": "لأن الحكيم إذا سمع هذه فيزداد حكمة. والفهيم يكتسب تدبيراً.",
+              "arabic_base_no_tashkeel": "لأن الحكيم إذا سمع هذه فيزداد حكمة. والفهيم يكتسب تدبيرا."
+            },
+            {
+              "row_index": 5,
+              "english": "He will understand both a parable and a hidden saying, both wise words and riddles.",
+              "arabic": "فيفهم المثل والكلام العويص وأقوال الحكماء وغوامضهم.",
+              "arabic_base_no_tashkeel": "فيفهم المثل والكلام العويص وأقوال الحكماء وغوامضهم."
+            },
+            {
+              "row_index": 6,
+              "english": "The fear of God is the beginning of wisdom, and there is good understanding in all who practice it; and godliness toward God is the beginning of perception, but the ungodly despise wisdom and instruction.",
+              "arabic": "رأس الحكمة مخافة الرب. والفهم صالح لكل من يعمل به. وتقوى الله هى بدء الفهم. الحكمة والأدب يحتقرها المنافقون.",
+              "arabic_base_no_tashkeel": "رأس الحكمة مخافة الرب. والفهم صالح لكل من يعمل به. وتقوى الله هى بدء الفهم. الحكمة والأدب يحتقرها المنافقون."
+            },
+            {
+              "row_index": 7,
+              "english": "Hear, my son, the instruction of your father, and do not reject the laws of your mother; for you will receive a crown of grace on your head, and a gold chain around your neck.",
+              "arabic": "أسمع يا إبنى تأديب أبيك. ولا ترفض مشورة أمك. فأنهما أكليل نعمة لرأسك وقلادة ذهب لعنقك.",
+              "arabic_base_no_tashkeel": "أسمع يا إبنى تأديب أبيك. ولا ترفض مشورة أمك. فأنهما أكليل نعمة لرأسك وقلادة ذهب لعنقك."
+            },
+            {
+              "row_index": 8,
+              "english": "My son, hear the instruction of your father, And do not forsake the law of your mother;",
+              "arabic": "اِسْمَعْ يَا ابْنِي تَأْدِيبَ أَبِيكَ وَلاَ تَرْفُضْ شَرِيعَةَ أُمِّكَ",
+              "arabic_base_no_tashkeel": "اسمع يا ابني تأديب أبيك ولا ترفض شريعة أمك"
+            },
+            {
+              "row_index": 9,
+              "english": "For they will be a graceful ornament on your head, And chains about your neck.",
+              "arabic": "لأَنَّهُمَا إِكْلِيلُ نِعْمَةٍ لِرَأْسِكَ وَقَلاَئِدُ لِعُنُقِك.",
+              "arabic_base_no_tashkeel": "لأنهما إكليل نعمة لرأسك وقلائد لعنقك."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (65: 5,4)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Hear us, O God our Savior, the hope of all the ends of earth.",
+              "arabic": "أستجب لنا يا الله مخلصنا يا رجاء جميع أقطار الأرض.",
+              "arabic_base_no_tashkeel": "أستجب لنا يا الله مخلصنا يا رجاء جميع أقطار الأرض."
+            },
+            {
+              "row_index": 2,
+              "english": "Blessed is he whom You choose and help.",
+              "arabic": "طوبى لمن أخترته وقبلته ليسكن فى ديارك إلى الأبد.",
+              "arabic_base_no_tashkeel": "طوبى لمن أخترته وقبلته ليسكن فى ديارك إلى الأبد."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Matthew 21: 23 - 27)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Now when He came into the temple, the chief priests and the elders of the people confronted Him as He was teaching, and said, “By what authority are You doing these things? And who gave You this authority?”",
+              "arabic": "ولما دخل إلى الهيكل تقدم إليه رؤساء الكهنة وشيوخ الشعب وهو يُعلِّم، قائلين له: بأى سلطان تفعل هذا. ومن أعطاك هذا السلطان.",
+              "arabic_base_no_tashkeel": "ولما دخل إلى الهيكل تقدم إليه رؤساء الكهنة وشيوخ الشعب وهو يعلم، قائلين له: بأى سلطان تفعل هذا. ومن أعطاك هذا السلطان."
+            },
+            {
+              "row_index": 2,
+              "english": "But Jesus answered and said to them, “I also will ask you one thing, which if you tell Me, I likewise will tell you by what authority I do these things: The baptism of John—where was it from? From heaven or from men?”",
+              "arabic": "فأجاب يسوع وقال لهم. أنا أيضاً أسألكم كلمة. فأن أعلمتمونى عنها أعلمكم أنا أيضاً بأى سلطان فعلت هذا. معمودية يوحنا من أين كانت من السماء أم من الناس.",
+              "arabic_base_no_tashkeel": "فأجاب يسوع وقال لهم. أنا أيضا أسألكم كلمة. فأن أعلمتمونى عنها أعلمكم أنا أيضا بأى سلطان فعلت هذا. معمودية يوحنا من أين كانت من السماء أم من الناس."
+            },
+            {
+              "row_index": 3,
+              "english": "And they reasoned among themselves, saying, “If we say, ‘From heaven,’ He will say to us, ‘Why then did you not believe him?’",
+              "arabic": "أما هم فكانوا يفكرون فى أنفسهم قائلين. أن قلنا من السماء يقول لنا فلماذا لم تؤمنوا به.",
+              "arabic_base_no_tashkeel": "أما هم فكانوا يفكرون فى أنفسهم قائلين. أن قلنا من السماء يقول لنا فلماذا لم تؤمنوا به."
+            },
+            {
+              "row_index": 4,
+              "english": "But if we say, ‘From men,’ we fear the multitude, for all count John as a prophet.”",
+              "arabic": "وإن قلنا من الناس فإنا نخاف من الجمع لأن يوحنا كان عندهم مثل نبي.",
+              "arabic_base_no_tashkeel": "وإن قلنا من الناس فإنا نخاف من الجمع لأن يوحنا كان عندهم مثل نبي."
+            },
+            {
+              "row_index": 5,
+              "english": "So they answered Jesus and said, “We do not know.” And He said to them, “Neither will I tell you by what authority I do these things.",
+              "arabic": "فأجابوا وقالوا ليسوع لانعلم. فقال لهم هو أيضاً ولا أنا أعلمكم بأى سلطان فعلت هذا.",
+              "arabic_base_no_tashkeel": "فأجابوا وقالوا ليسوع لانعلم. فقال لهم هو أيضا ولا أنا أعلمكم بأى سلطان فعلت هذا."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

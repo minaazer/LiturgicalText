@@ -1,0 +1,731 @@
+[
+  {
+    "order": 1,
+    "source_title": "Genesis",
+    "saas_title": "Genesis",
+    "logos_title": "Genesis",
+    "chapter_count": 50,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 2,
+    "source_title": "Exodus",
+    "saas_title": "Exodus",
+    "logos_title": "Exodus",
+    "chapter_count": 40,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 3,
+    "source_title": "Leviticus",
+    "saas_title": "Leviticus",
+    "logos_title": "Leviticus",
+    "chapter_count": 27,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 4,
+    "source_title": "Numbers",
+    "saas_title": "Numbers",
+    "logos_title": "Numbers",
+    "chapter_count": 36,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 5,
+    "source_title": "Deuteronomy",
+    "saas_title": "Deuteronomy",
+    "logos_title": "Deuteronomy",
+    "chapter_count": 34,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 6,
+    "source_title": "Joshua",
+    "saas_title": "Joshua",
+    "logos_title": "Joshua",
+    "chapter_count": 24,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 7,
+    "source_title": "Judges",
+    "saas_title": "Judges",
+    "logos_title": "Judges",
+    "chapter_count": 21,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 8,
+    "source_title": "Ruth",
+    "saas_title": "Ruth",
+    "logos_title": "Ruth",
+    "chapter_count": 4,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 9,
+    "source_title": "1 Samuel",
+    "saas_title": "1 Samuel",
+    "logos_title": "1 Samuel",
+    "chapter_count": 31,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 10,
+    "source_title": "2 Samuel",
+    "saas_title": "2 Samuel",
+    "logos_title": "2 Samuel",
+    "chapter_count": 24,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 11,
+    "source_title": "1 Kings",
+    "saas_title": "1 Kings",
+    "logos_title": "1 Kings",
+    "chapter_count": 22,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 12,
+    "source_title": "2 Kings",
+    "saas_title": "2 Kings",
+    "logos_title": "2 Kings",
+    "chapter_count": 25,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 13,
+    "source_title": "1 Chronicles",
+    "saas_title": "1 Chronicles",
+    "logos_title": "1 Chronicles",
+    "chapter_count": 29,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 14,
+    "source_title": "2 Chronicles",
+    "saas_title": "2 Chronicles",
+    "logos_title": "2 Chronicles",
+    "chapter_count": 36,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 15,
+    "source_title": "Ezra",
+    "saas_title": "Ezra",
+    "logos_title": "Ezra",
+    "chapter_count": 10,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 16,
+    "source_title": "Nehemiah",
+    "saas_title": "Nehemiah",
+    "logos_title": "Nehemiah",
+    "chapter_count": 13,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 17,
+    "source_title": "Esther",
+    "saas_title": "Esther",
+    "logos_title": "Esther",
+    "chapter_count": 10,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 18,
+    "source_title": "Job",
+    "saas_title": "Job",
+    "logos_title": "Job",
+    "chapter_count": 42,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 19,
+    "source_title": "Psalms",
+    "saas_title": "Psalms",
+    "logos_title": "Psalms",
+    "chapter_count": 150,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 20,
+    "source_title": "Proverbs",
+    "saas_title": "Proverbs",
+    "logos_title": "Proverbs",
+    "chapter_count": 31,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 21,
+    "source_title": "Ecclesiastes",
+    "saas_title": "Ecclesiastes",
+    "logos_title": "Ecclesiastes",
+    "chapter_count": 12,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 22,
+    "source_title": "Song of Songs",
+    "saas_title": "Song of Songs",
+    "logos_title": "Song of Songs",
+    "chapter_count": 8,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 23,
+    "source_title": "Isaiah",
+    "saas_title": "Isaiah",
+    "logos_title": "Isaiah",
+    "chapter_count": 66,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 24,
+    "source_title": "Jeremiah",
+    "saas_title": "Jeremiah",
+    "logos_title": "Jeremiah",
+    "chapter_count": 52,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 25,
+    "source_title": "Lamentations",
+    "saas_title": "Lamentations",
+    "logos_title": "Lamentations",
+    "chapter_count": 5,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 26,
+    "source_title": "Ezekiel",
+    "saas_title": "Ezekiel",
+    "logos_title": "Ezekiel",
+    "chapter_count": 48,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 27,
+    "source_title": "Daniel",
+    "saas_title": "Daniel",
+    "logos_title": "Daniel",
+    "chapter_count": 12,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 28,
+    "source_title": "Hosea",
+    "saas_title": "Hosea",
+    "logos_title": "Hosea",
+    "chapter_count": 14,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 29,
+    "source_title": "Joel",
+    "saas_title": "Joel",
+    "logos_title": "Joel",
+    "chapter_count": 3,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 30,
+    "source_title": "Amos",
+    "saas_title": "Amos",
+    "logos_title": "Amos",
+    "chapter_count": 9,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 31,
+    "source_title": "Obadiah",
+    "saas_title": "Obadiah",
+    "logos_title": "Obadiah",
+    "chapter_count": 1,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 32,
+    "source_title": "Jonah",
+    "saas_title": "Jonah",
+    "logos_title": "Jonah",
+    "chapter_count": 4,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 33,
+    "source_title": "Micah",
+    "saas_title": "Micah",
+    "logos_title": "Micah",
+    "chapter_count": 7,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 34,
+    "source_title": "Nahum",
+    "saas_title": "Nahum",
+    "logos_title": "Nahum",
+    "chapter_count": 3,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 35,
+    "source_title": "Habakkuk",
+    "saas_title": "Habakkuk",
+    "logos_title": "Habakkuk",
+    "chapter_count": 3,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 36,
+    "source_title": "Zephaniah",
+    "saas_title": "Zephaniah",
+    "logos_title": "Zephaniah",
+    "chapter_count": 3,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 37,
+    "source_title": "Haggai",
+    "saas_title": "Haggai",
+    "logos_title": "Haggai",
+    "chapter_count": 2,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 38,
+    "source_title": "Zechariah",
+    "saas_title": "Zechariah",
+    "logos_title": "Zechariah",
+    "chapter_count": 14,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 39,
+    "source_title": "Malachi",
+    "saas_title": "Malachi",
+    "logos_title": "Malachi",
+    "chapter_count": 4,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 40,
+    "source_title": "Tobit",
+    "saas_title": "Tobit",
+    "logos_title": "Tobit",
+    "chapter_count": 1,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 41,
+    "source_title": "Judith",
+    "saas_title": "Judith",
+    "logos_title": "Judith",
+    "chapter_count": 1,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 42,
+    "source_title": "Wisdom of Solomon",
+    "saas_title": "Wisdom of Solomon",
+    "logos_title": "Wisdom of Solomon",
+    "chapter_count": 1,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 43,
+    "source_title": "Sirach",
+    "saas_title": "Sirach",
+    "logos_title": "Sirach",
+    "chapter_count": 1,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 44,
+    "source_title": "Baruch",
+    "saas_title": "Baruch",
+    "logos_title": "Baruch",
+    "chapter_count": 1,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 45,
+    "source_title": "Epistle of Jeremiah",
+    "saas_title": "Epistle of Jeremiah",
+    "logos_title": "Epistle of Jeremiah",
+    "chapter_count": 1,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 46,
+    "source_title": "Prayer of Azariah",
+    "saas_title": "Prayer of Azariah",
+    "logos_title": "Prayer of Azariah",
+    "chapter_count": 1,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 47,
+    "source_title": "Susanna",
+    "saas_title": "Susanna",
+    "logos_title": "Susanna",
+    "chapter_count": 1,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 48,
+    "source_title": "Bel and the Dragon",
+    "saas_title": "Bel and the Dragon",
+    "logos_title": "Bel and the Dragon",
+    "chapter_count": 1,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 49,
+    "source_title": "1 Maccabees",
+    "saas_title": "1 Maccabees",
+    "logos_title": "1 Maccabees",
+    "chapter_count": 1,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 50,
+    "source_title": "2 Maccabees",
+    "saas_title": "2 Maccabees",
+    "logos_title": "2 Maccabees",
+    "chapter_count": 1,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 51,
+    "source_title": "3 Maccabees",
+    "saas_title": "3 Maccabees",
+    "logos_title": "3 Maccabees",
+    "chapter_count": 1,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 52,
+    "source_title": "4 Maccabees",
+    "saas_title": "4 Maccabees",
+    "logos_title": "4 Maccabees",
+    "chapter_count": 1,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 53,
+    "source_title": "1 Esdras",
+    "saas_title": "1 Esdras",
+    "logos_title": "1 Esdras",
+    "chapter_count": 1,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 54,
+    "source_title": "Prayer of Manasseh",
+    "saas_title": "Prayer of Manasseh",
+    "logos_title": "Prayer of Manasseh",
+    "chapter_count": 1,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 55,
+    "source_title": "Matthew",
+    "saas_title": "Matthew",
+    "logos_title": "Matthew",
+    "chapter_count": 28,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 56,
+    "source_title": "Mark",
+    "saas_title": "Mark",
+    "logos_title": "Mark",
+    "chapter_count": 16,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 57,
+    "source_title": "Luke",
+    "saas_title": "Luke",
+    "logos_title": "Luke",
+    "chapter_count": 24,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 58,
+    "source_title": "John",
+    "saas_title": "John",
+    "logos_title": "John",
+    "chapter_count": 21,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 59,
+    "source_title": "Acts",
+    "saas_title": "Acts",
+    "logos_title": "Acts",
+    "chapter_count": 28,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 60,
+    "source_title": "Romans",
+    "saas_title": "Romans",
+    "logos_title": "Romans",
+    "chapter_count": 16,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 61,
+    "source_title": "I Corinthians",
+    "saas_title": "I Corinthians",
+    "logos_title": "I Corinthians",
+    "chapter_count": 16,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 62,
+    "source_title": "II Corinthians",
+    "saas_title": "II Corinthians",
+    "logos_title": "II Corinthians",
+    "chapter_count": 13,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 63,
+    "source_title": "Galatians",
+    "saas_title": "Galatians",
+    "logos_title": "Galatians",
+    "chapter_count": 6,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 64,
+    "source_title": "Ephesians",
+    "saas_title": "Ephesians",
+    "logos_title": "Ephesians",
+    "chapter_count": 6,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 65,
+    "source_title": "Philippians",
+    "saas_title": "Philippians",
+    "logos_title": "Philippians",
+    "chapter_count": 4,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 66,
+    "source_title": "Colossians",
+    "saas_title": "Colossians",
+    "logos_title": "Colossians",
+    "chapter_count": 4,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 67,
+    "source_title": "I Thessalonians",
+    "saas_title": "I Thessalonians",
+    "logos_title": "I Thessalonians",
+    "chapter_count": 5,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 68,
+    "source_title": "II Thessalonians",
+    "saas_title": "II Thessalonians",
+    "logos_title": "II Thessalonians",
+    "chapter_count": 3,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 69,
+    "source_title": "I Timothy",
+    "saas_title": "I Timothy",
+    "logos_title": "I Timothy",
+    "chapter_count": 6,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 70,
+    "source_title": "II Timothy",
+    "saas_title": "II Timothy",
+    "logos_title": "II Timothy",
+    "chapter_count": 4,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 71,
+    "source_title": "Titus",
+    "saas_title": "Titus",
+    "logos_title": "Titus",
+    "chapter_count": 3,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 72,
+    "source_title": "Philemon",
+    "saas_title": "Philemon",
+    "logos_title": "Philemon",
+    "chapter_count": 1,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 73,
+    "source_title": "Hebrews",
+    "saas_title": "Hebrews",
+    "logos_title": "Hebrews",
+    "chapter_count": 13,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 74,
+    "source_title": "James",
+    "saas_title": "James",
+    "logos_title": "James",
+    "chapter_count": 5,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 75,
+    "source_title": "I Peter",
+    "saas_title": "I Peter",
+    "logos_title": "I Peter",
+    "chapter_count": 5,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 76,
+    "source_title": "II Peter",
+    "saas_title": "II Peter",
+    "logos_title": "II Peter",
+    "chapter_count": 3,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 77,
+    "source_title": "I John",
+    "saas_title": "I John",
+    "logos_title": "I John",
+    "chapter_count": 5,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 78,
+    "source_title": "II John",
+    "saas_title": "II John",
+    "logos_title": "II John",
+    "chapter_count": 1,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 79,
+    "source_title": "III John",
+    "saas_title": "III John",
+    "logos_title": "III John",
+    "chapter_count": 1,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 80,
+    "source_title": "Jude",
+    "saas_title": "Jude",
+    "logos_title": "Jude",
+    "chapter_count": 1,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "order": 81,
+    "source_title": "Revelation",
+    "saas_title": "Revelation",
+    "logos_title": "Revelation",
+    "chapter_count": 22,
+    "enabled": true,
+    "notes": ""
+  }
+]

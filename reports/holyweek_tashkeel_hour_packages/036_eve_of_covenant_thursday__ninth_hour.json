@@ -1,0 +1,160 @@
+{
+  "service": "EVE of Covenant Thursday",
+  "hour": "NINTH Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Ezekiel 20: 27 - 33)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "\"Therefore speak to the house of Israel, son of man, and you shall say to them, 'Thus says the Lord: \"Up to this point, your fathers provoked Me by the transgressions they committed against Me.",
+              "arabic": "لأجل ذلك كلم بيت اسرائيل يا إبن آدم، وقل لهم: هذا ما يقوله أدوناى الرب، إلى هذه الساعة أغضبنى آباؤكم بآثامهم التى سقطوا فيها أمامى،",
+              "arabic_base_no_tashkeel": "لأجل ذلك كلم بيت اسرائيل يا إبن آدم، وقل لهم: هذا ما يقوله أدوناى الرب، إلى هذه الساعة أغضبنى آباؤكم بآثامهم التى سقطوا فيها أمامى،"
+            },
+            {
+              "row_index": 2,
+              "english": "But I led them into the land I swore with an oath to give them, and they saw every high hill and every shade tree. There they sacrificed to their gods; and there they appointed fragrant offerings and poured out their drink offerings.",
+              "arabic": "وأدخلتهم إلى الأرض التى بسطت يدي عليها لأعطيهم إياها. فرأوا كل تل عال، وإلى أسفل كل الأشجار المورقة وذبحوا هناك الذبائح للآلهة وقربوا البخور فى ذلك الموضع وسكبوا هناك سكائبهم",
+              "arabic_base_no_tashkeel": "وأدخلتهم إلى الأرض التى بسطت يدي عليها لأعطيهم إياها. فرأوا كل تل عال، وإلى أسفل كل الأشجار المورقة وذبحوا هناك الذبائح للآلهة وقربوا البخور فى ذلك الموضع وسكبوا هناك سكائبهم"
+            },
+            {
+              "row_index": 3,
+              "english": "Then I said to them, 'What is this high place you go to?' So they call its name Bamah, to this day.'\" Therefore say to the house of Israel,",
+              "arabic": "فقلت لهم: ما هذه الأبانا المرتفعة التى تدخلون إليها؟ فدعى أسمها أبانا إلى هذا اليوم، لذلك قلت لبيت اسرائيل",
+              "arabic_base_no_tashkeel": "فقلت لهم: ما هذه الأبانا المرتفعة التى تدخلون إليها؟ فدعى أسمها أبانا إلى هذا اليوم، لذلك قلت لبيت اسرائيل"
+            },
+            {
+              "row_index": 4,
+              "english": "'Thus says the Lord: \"Do you defile yourselves with the lawlessness of your fathers, and commit fornication after their abominations? You defile yourselves in the first fruits of your gifts with all your inventions to this very day. Shall I answer you, O house of Israel?",
+              "arabic": "هذا ما يقوله الرب، إذ كنتم ستتنجسون بآثام الآباء وتتبعون أرجاسهم بتقديم باكورات تقدماتكم وإجازة إبنائكم فى النار، تتنجسون بجميع أفكاركم إلى هذا اليوم، وأنا أيضاً هل أجاوبكم يا بيت اسرائيل؟",
+              "arabic_base_no_tashkeel": "هذا ما يقوله الرب، إذ كنتم ستتنجسون بآثام الآباء وتتبعون أرجاسهم بتقديم باكورات تقدماتكم وإجازة إبنائكم فى النار، تتنجسون بجميع أفكاركم إلى هذا اليوم، وأنا أيضا هل أجاوبكم يا بيت اسرائيل؟"
+            },
+            {
+              "row_index": 5,
+              "english": "\"As I live,\" says the Lord, \"I will not answer you, nor will an answer occur to your spirit; for it will not be as you say,",
+              "arabic": "حى أنا، يقول أدوناى الرب إننى لا أجاوبكم، سوف لا يخطر هذا على بالكم ولن يكون هذا،",
+              "arabic_base_no_tashkeel": "حى أنا، يقول أدوناى الرب إننى لا أجاوبكم، سوف لا يخطر هذا على بالكم ولن يكون هذا،"
+            },
+            {
+              "row_index": 6,
+              "english": "'We will be like the nations and like the tribes of the earth, to worship trees and stones.'",
+              "arabic": "إذ تقولون إننا سنصير مثل الأمم وكقبائل الأرض وكنفوس البشر فنعبد الخشب والحجر،",
+              "arabic_base_no_tashkeel": "إذ تقولون إننا سنصير مثل الأمم وكقبائل الأرض وكنفوس البشر فنعبد الخشب والحجر،"
+            },
+            {
+              "row_index": 7,
+              "english": "\"Therefore, as I live,\" says the Lord, \"I will reign over you with a mighty hand, with a high arm, and with anger poured out.",
+              "arabic": "فلذلك حى أنا يقول أدوناى الرب، إننى بيد عزيزة وبذراع عالية وبغضب مسكوب أملك عليكم.",
+              "arabic_base_no_tashkeel": "فلذلك حى أنا يقول أدوناى الرب، إننى بيد عزيزة وبذراع عالية وبغضب مسكوب أملك عليكم."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (7: 1 - 2)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "O Lord my God, in You I hope; Save me from all who pursue me, and deliver me,",
+              "arabic": "أيها الرب إلهى عليك توكلت فخلصنى، ومن أيدى جميع الطاردين لى نجنى،",
+              "arabic_base_no_tashkeel": "أيها الرب إلهى عليك توكلت فخلصنى، ومن أيدى جميع الطاردين لى نجنى،"
+            },
+            {
+              "row_index": 2,
+              "english": "Lest like a lion he snatch away my soul:",
+              "arabic": "لئلا يخطفوا نفسى مثل الأسد:",
+              "arabic_base_no_tashkeel": "لئلا يخطفوا نفسى مثل الأسد:"
+            }
+          ]
+        },
+        {
+          "title": "Gospel (John 10: 29 - 38)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "My Father, who has given them to Me, is greater than all; and no one is able to snatch them out of My Father’s hand.",
+              "arabic": "ابى الذي أعطانى إياها هو أعظم من الكل، فلا يقدر أحد أن يخطفها من يد أبى.",
+              "arabic_base_no_tashkeel": "ابى الذي أعطانى إياها هو أعظم من الكل، فلا يقدر أحد أن يخطفها من يد أبى."
+            },
+            {
+              "row_index": 2,
+              "english": "I and My Father are one.” Then the Jews took up stones again to stone Him.",
+              "arabic": "أنا وأبى واحد. فتناول اليهود حجارة ليرجموه",
+              "arabic_base_no_tashkeel": "أنا وأبى واحد. فتناول اليهود حجارة ليرجموه"
+            },
+            {
+              "row_index": 3,
+              "english": "Jesus answered them, “Many good works I have shown you from My Father. For which of those works do you stone Me?”",
+              "arabic": "فأجابهم يسوع قائلاً: أعمالاً كثيرة حسنة أريتكم إياها من عند أبى، فمن أجل أى عمل ترجموننى.",
+              "arabic_base_no_tashkeel": "فأجابهم يسوع قائلا: أعمالا كثيرة حسنة أريتكم إياها من عند أبى، فمن أجل أى عمل ترجموننى."
+            },
+            {
+              "row_index": 4,
+              "english": "The Jews answered Him, saying, “For a good work we do not stone You, but for blasphemy, and because You, being a Man, make Yourself God.”",
+              "arabic": "فأجابه اليهود قائلين: لسنا من أجل عمل حسن نرجمك بل لأجل تجديف، لأنك وأنت إنسان تجعل نفسك إلهاً",
+              "arabic_base_no_tashkeel": "فأجابه اليهود قائلين: لسنا من أجل عمل حسن نرجمك بل لأجل تجديف، لأنك وأنت إنسان تجعل نفسك إلها"
+            },
+            {
+              "row_index": 5,
+              "english": "Jesus answered them, “Is it not written in your law, ‘I said, “You are gods” ’?",
+              "arabic": ". فأجابهم يسوع وقال: أليس مكتوب فى ناموسكم أنا قلت أنكم آلهة،",
+              "arabic_base_no_tashkeel": ". فأجابهم يسوع وقال: أليس مكتوب فى ناموسكم أنا قلت أنكم آلهة،"
+            },
+            {
+              "row_index": 6,
+              "english": "If He called them gods, to whom the word of God came (and the Scripture cannot be broken), do you say of Him whom the Father sanctified and sent into the world, ‘You are blaspheming,’ because I said, ‘I am the Son of God’?",
+              "arabic": "فإن كان قد قال آلهة لأولئك الذين صارت إليهم كلمة الله ولايمكن أن ينقض المكتوب فالذي قدسه الآب وأرسله إلى العالم أتقولون له أنتم أنك تجدف لأنى قلت أنا إبن الله.",
+              "arabic_base_no_tashkeel": "فإن كان قد قال آلهة لأولئك الذين صارت إليهم كلمة الله ولايمكن أن ينقض المكتوب فالذي قدسه الآب وأرسله إلى العالم أتقولون له أنتم أنك تجدف لأنى قلت أنا إبن الله."
+            },
+            {
+              "row_index": 7,
+              "english": "If I do not do the works of My Father, do not believe Me; but if I do, though you do not believe Me, believe the works, that you may know and believe that the Father is in Me, and I in Him.”",
+              "arabic": "إن كنت لا أعمل أعمال أبى فلا تؤمنوا بى، وإن كنت أعملها فإن لم تؤمنوا بى، فآمنوا بالأعمال، لتعلموا وتعرفوا أنى أنا فى أبى وأبى فى.",
+              "arabic_base_no_tashkeel": "إن كنت لا أعمل أعمال أبى فلا تؤمنوا بى، وإن كنت أعملها فإن لم تؤمنوا بى، فآمنوا بالأعمال، لتعلموا وتعرفوا أنى أنا فى أبى وأبى فى."
+            },
+            {
+              "row_index": 8,
+              "english": "do you say of Him whom the Father sanctified and sent into the world, 'You are blaspheming,' because I said, 'I am the Son of God'?",
+              "arabic": "فَالَّذِي قَدَّسَهُ الآبُ وَأَرْسَلَهُ إِلَى الْعَالَمِ أَتَقُولُونَ لَهُ: إِنَّكَ تُجَدِّفُ لأَنِّي قُلْتُ إِنِّي ابْنُ اللَّهِ؟",
+              "arabic_base_no_tashkeel": "فالذي قدسه الآب وأرسله إلى العالم أتقولون له: إنك تجدف لأني قلت إني ابن الله؟"
+            },
+            {
+              "row_index": 9,
+              "english": "If I do not do the works of My Father, do not believe Me;",
+              "arabic": "إِنْ كُنْتُ لَسْتُ أَعْمَلُ أَعْمَالَ أَبِي فلاَ تُؤْمِنُوا بِي.",
+              "arabic_base_no_tashkeel": "إن كنت لست أعمل أعمال أبي فلا تؤمنوا بي."
+            },
+            {
+              "row_index": 10,
+              "english": "but if I do, though you do not believe Me, believe the works, that you may know and believe that the Father is in Me, and I in Him.\"<Br><i>Bow down before the Holy Gospel.</i>",
+              "arabic": "وَلَكِنْ إِنْ كُنْتُ أَعْمَلُ فَإِنْ لَمْ تُؤْمِنُوا بِي فَآمِنُوا بِالأَعْمَالِ لِكَيْ تَعْرِفُوا وَتُؤْمِنُوا أَنَّ الآبَ فِيَّ وَأَنَا فِيهِ».<br><i>أسجدوا للإنجيل المقدس.</i>",
+              "arabic_base_no_tashkeel": "ولكن إن كنت أعمل فإن لم تؤمنوا بي فآمنوا بالأعمال لكي تعرفوا وتؤمنوا أن الآب في وأنا فيه».<br><i>أسجدوا للإنجيل المقدس.</i>"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

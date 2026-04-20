@@ -1,0 +1,382 @@
+{
+  "service": "DAY of Great Friday",
+  "hour": "NINTH Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Jeremiah 11: 18 - 12: 13)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "O Lord, teach me, and I will know. Then I saw their purpose. For I did not know I was like an innocent lamb led to be sacrificed.",
+              "arabic": "يارب عرفنى فأعلم. حينئذ نظرت إلى أعمالهم وأنا كحَمَل بلا عيب يساق إلي الذبح ولم أعلم.",
+              "arabic_base_no_tashkeel": "يارب عرفنى فأعلم. حينئذ نظرت إلى أعمالهم وأنا كحمل بلا عيب يساق إلي الذبح ولم أعلم."
+            },
+            {
+              "row_index": 2,
+              "english": "They plotted an evil device against me, saying, \"Come, let us put wood in his bread, and destroy him root and branch from the land of the living, so his name might not be remembered any longer.\"",
+              "arabic": "تشاورا علىّ مشورة رديئة قائلين: تعالوا فلنقطع شجرة خبزه. ونستأصله من أرض الأحياء. ولا يذكر اسمه بعد.",
+              "arabic_base_no_tashkeel": "تشاورا على مشورة رديئة قائلين: تعالوا فلنقطع شجرة خبزه. ونستأصله من أرض الأحياء. ولا يذكر اسمه بعد."
+            },
+            {
+              "row_index": 3,
+              "english": "But, O Lord, You who judge righteously, who tests minds and hearts, let me see Your vengeance on them, for I have revealed my righteous plea to You.",
+              "arabic": "الرب يحكم بالعدل ويفحص القلوب والكلى. أرنى الآنتقام الذي سيحل بهم من جهتك. لأنهم كشفوا جبلتى لك.",
+              "arabic_base_no_tashkeel": "الرب يحكم بالعدل ويفحص القلوب والكلى. أرنى الآنتقام الذي سيحل بهم من جهتك. لأنهم كشفوا جبلتى لك."
+            },
+            {
+              "row_index": 4,
+              "english": "Therefore thus says the Lord against the men of Anathoth, against those who seek my life, and who say, \"Do not prophesy in the name of the Lord, lest you die by our hands\"",
+              "arabic": "لذلك هذا ما يقوله الرب الإله على رجال عناثوث الذين يطلبون نفسى، القائلين لا تتنبأ بإسم الرب لئلا تموت بايدينا:",
+              "arabic_base_no_tashkeel": "لذلك هذا ما يقوله الرب الإله على رجال عناثوث الذين يطلبون نفسى، القائلين لا تتنبأ بإسم الرب لئلا تموت بايدينا:"
+            },
+            {
+              "row_index": 5,
+              "english": "\"Behold, I will visit them. The young men shall die by the sword, and their sons and daughters shall die by famine.",
+              "arabic": "هوذا أنا سأُرسل عليهم هلاكاً فيسقط شبانهم بالسيف وبنوهم وبناتهم يموتون بالقحط.",
+              "arabic_base_no_tashkeel": "هوذا أنا سأرسل عليهم هلاكا فيسقط شبانهم بالسيف وبنوهم وبناتهم يموتون بالقحط."
+            },
+            {
+              "row_index": 6,
+              "english": "There shall be no remnant of them, for I will bring calamities on the inhabitants of Anathoth in the year of their visitation.\"",
+              "arabic": "ولا تكون لهم بقية، لأنى منزل الشرور على السكان بعناثوث فى سنة إفتقادهم.",
+              "arabic_base_no_tashkeel": "ولا تكون لهم بقية، لأنى منزل الشرور على السكان بعناثوث فى سنة إفتقادهم."
+            },
+            {
+              "row_index": 7,
+              "english": "O Lord, You are righteous, that I may plead my case with You, to speak to You concerning judgments. Why does the way of the ungodly prosper, and all who deal treacherously flourish?",
+              "arabic": "عادل أنت يارب وان حاججتك لكنى أتكلم بالحكم أمامك: لماذا طريق المنافقين سهلة. وجميع الذين لا يطيعون مخصبون؟",
+              "arabic_base_no_tashkeel": "عادل أنت يارب وان حاججتك لكنى أتكلم بالحكم أمامك: لماذا طريق المنافقين سهلة. وجميع الذين لا يطيعون مخصبون؟"
+            },
+            {
+              "row_index": 8,
+              "english": "You planted them, and they took root. They bear children and are fruitful. You are near in their mouth, but far from their mind.",
+              "arabic": "غرستهم فتأصلوا وولدوا الأولاد فنموا وأثمروا. وأنت قريب من أفواههم بعيد عن كلاهم.",
+              "arabic_base_no_tashkeel": "غرستهم فتأصلوا وولدوا الأولاد فنموا وأثمروا. وأنت قريب من أفواههم بعيد عن كلاهم."
+            },
+            {
+              "row_index": 9,
+              "english": "But You, O Lord, know me. You have proven my heart before You. Set them apart for the day of slaughter.",
+              "arabic": "وأنت يارب قد عرفتنى وإختبرت قلبى. طهرهم فى يوم ذبحهم.",
+              "arabic_base_no_tashkeel": "وأنت يارب قد عرفتنى وإختبرت قلبى. طهرهم فى يوم ذبحهم."
+            },
+            {
+              "row_index": 10,
+              "english": "How long will the land mourn and the grass of the field wither, because of the vices of those who dwell in it? The cattle and the birds are destroyed, because they said, \"God will not see our ways.\"",
+              "arabic": "إلى متى تحزن الأرض وييبس كل عشب الحقل من شر ساكنيها؟ فنيت البهائم والطيور لانهم قالوا أن الله لا يرى طرقنا.",
+              "arabic_base_no_tashkeel": "إلى متى تحزن الأرض وييبس كل عشب الحقل من شر ساكنيها؟ فنيت البهائم والطيور لانهم قالوا أن الله لا يرى طرقنا."
+            },
+            {
+              "row_index": 11,
+              "english": "\"Your feet run and grow weary. How then will you prepare yourself to run with horses? You are confident when the land is peaceful, but what will you do when the Jordan floods the land?",
+              "arabic": "ان جريت مع المشاة فأتعبوك فكيف تبارى الخيل؟ وان كنت توكلت على أرض سلامتك فكيف تعمل فى علو الاردن؟",
+              "arabic_base_no_tashkeel": "ان جريت مع المشاة فأتعبوك فكيف تبارى الخيل؟ وان كنت توكلت على أرض سلامتك فكيف تعمل فى علو الاردن؟"
+            },
+            {
+              "row_index": 12,
+              "english": "But even your brothers and the house of your father dealt treacherously with you. They cried out and gathered together in pursuit of you. Do not trust them because they will speak fair words to you.",
+              "arabic": "لان إخوتك وبيت أبيك قد أهانوك وانهم صرخوا وراءك. فلا تأمنهم لانهم لا يتكلمون معك بالخير.",
+              "arabic_base_no_tashkeel": "لان إخوتك وبيت أبيك قد أهانوك وانهم صرخوا وراءك. فلا تأمنهم لانهم لا يتكلمون معك بالخير."
+            },
+            {
+              "row_index": 13,
+              "english": "\"I forsook My house and left My inheritance. I gave My beloved inheritance into the hands of its enemies.",
+              "arabic": "هجرت بيتى وتركت ميراثى. وأسلمت نفسى الحبيبة ليد أعدائها.",
+              "arabic_base_no_tashkeel": "هجرت بيتى وتركت ميراثى. وأسلمت نفسى الحبيبة ليد أعدائها."
+            },
+            {
+              "row_index": 14,
+              "english": "For My inheritance became to Me like a lion in the forest. It raised its voice against Me; therefore, I hated it.",
+              "arabic": "صار ميراثى كالاسد فى الغابة، رفع صوته علىّ، من أجل ذلك أبغضته.",
+              "arabic_base_no_tashkeel": "صار ميراثى كالاسد فى الغابة، رفع صوته على، من أجل ذلك أبغضته."
+            },
+            {
+              "row_index": 15,
+              "english": "Is not My inheritance the cave of a hyena to Me, or a cave it walks around? Gather together all the wild beasts of the field and let them come to devour her.",
+              "arabic": "هل ميراثى هو جحر ضبعه لي أو هو قبر؟ انطلقوا إليه وحوله وأجمعوا جميع وحوش الحقل ليأتوا ويأكلوها.",
+              "arabic_base_no_tashkeel": "هل ميراثى هو جحر ضبعه لي أو هو قبر؟ انطلقوا إليه وحوله وأجمعوا جميع وحوش الحقل ليأتوا ويأكلوها."
+            },
+            {
+              "row_index": 16,
+              "english": "Many shepherds destroyed My vineyard and defiled My portion. They turned My pleasant portion into an impassable desert.",
+              "arabic": "رعاة كثيرون أفسدوا كرمى ودنسوا نصيبى وجعلوا نصيبى الحسن موضع قفر لا يسلك",
+              "arabic_base_no_tashkeel": "رعاة كثيرون أفسدوا كرمى ودنسوا نصيبى وجعلوا نصيبى الحسن موضع قفر لا يسلك"
+            },
+            {
+              "row_index": 17,
+              "english": "It was made a complete ruin. The whole land was utterly destroyed for My sake, because there was no man who took it to heart.",
+              "arabic": "صيروه خراباً وفساداً لى. الأرض كلها تهلك هلاكاً لأنه ليس إنسان جعله فى قلبه.",
+              "arabic_base_no_tashkeel": "صيروه خرابا وفسادا لى. الأرض كلها تهلك هلاكا لأنه ليس إنسان جعله فى قلبه."
+            },
+            {
+              "row_index": 18,
+              "english": "The tormentors come to every passage in the desert, because the sword of the Lord will devour from one end of the land to the other.",
+              "arabic": "على جميع الروابى فى البرية أتى الناهبون لأن سيف الرب يأكل من أقصى الأرض إلى أقصاها. ولا يكون سلام لاحد من البشر.",
+              "arabic_base_no_tashkeel": "على جميع الروابى فى البرية أتى الناهبون لأن سيف الرب يأكل من أقصى الأرض إلى أقصاها. ولا يكون سلام لاحد من البشر."
+            },
+            {
+              "row_index": 19,
+              "english": "No flesh has any peace. Sow fires and reap thorns. Their portions will not profit them. Be ashamed of your boasting because of your disgrace before the Lord.\"",
+              "arabic": "زرعوا حنطة فحصدوا شوكاً ولم ينتفعوا بميراثهم. وخزوا من إفتخارهم ومن الهوان أمام الرب.",
+              "arabic_base_no_tashkeel": "زرعوا حنطة فحصدوا شوكا ولم ينتفعوا بميراثهم. وخزوا من إفتخارهم ومن الهوان أمام الرب."
+            }
+          ]
+        },
+        {
+          "title": "2nd Prophecy (Zechariah 14: 5 - 11)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "And the Lord my God shall come and all the saints with Him. And in that day, it shall be that there will not be any light, but there shall be cold and frost for one day, and that day shall be known to the Lord.",
+              "arabic": "وسيأتى الرب إلهي وجميع ملائكته معه. وفى ذلك اليوم انه لا يكون نور بل برد وصقيع يكون فى يوم واحد، وهو معروف للرب.",
+              "arabic_base_no_tashkeel": "وسيأتى الرب إلهي وجميع ملائكته معه. وفى ذلك اليوم انه لا يكون نور بل برد وصقيع يكون فى يوم واحد، وهو معروف للرب."
+            },
+            {
+              "row_index": 2,
+              "english": "It will be neither a day nor a night, but towards evening there will be light.",
+              "arabic": "لا نهار ولا ليل، بل يحدث انه فى وقت المساء يكون نور.",
+              "arabic_base_no_tashkeel": "لا نهار ولا ليل، بل يحدث انه فى وقت المساء يكون نور."
+            },
+            {
+              "row_index": 3,
+              "english": "And in that day living water shall come forth out of Jerusalem, half of it toward the eastern sea and half toward the western sea. So it will be in both summer and spring.",
+              "arabic": "ويكون فى ذلك اليوم ان ماءً حياً يخرج من أورشليم نصفه إلي البحر الشرقي ونصفه الآخر إلي البحر الغربي ويكون هكذا فى الصيف وفى الخريف.",
+              "arabic_base_no_tashkeel": "ويكون فى ذلك اليوم ان ماء حيا يخرج من أورشليم نصفه إلي البحر الشرقي ونصفه الآخر إلي البحر الغربي ويكون هكذا فى الصيف وفى الخريف."
+            },
+            {
+              "row_index": 4,
+              "english": "And the Lord shall be King of all the earth, and in that day the Lord shall be one Lord, and His name one name,",
+              "arabic": "ويكون الرب ملكاً على الأرض كلها. وفى ذلك اليوم يكون الرب واحداً واسمه واحداً.",
+              "arabic_base_no_tashkeel": "ويكون الرب ملكا على الأرض كلها. وفى ذلك اليوم يكون الرب واحدا واسمه واحدا."
+            },
+            {
+              "row_index": 5,
+              "english": "Encircling all the land, even the wilderness from Geba to Rimmon south of Jerusalem.",
+              "arabic": "ويحيط بكافة الأرض والبرية من جبع إلي ارمون بجانب أورشليم الأيمن.",
+              "arabic_base_no_tashkeel": "ويحيط بكافة الأرض والبرية من جبع إلي ارمون بجانب أورشليم الأيمن."
+            },
+            {
+              "row_index": 6,
+              "english": "But Rama shall remain in her place; from Benjamin's Gate to the place of the First Gate; to the Gate of the Corners, and to the Tower of Hananeel, as far as the king's winepresses,",
+              "arabic": "وتكون الرامة فى مكانها. من باب بنيامين إلى الباب الأول إلي باب الزاوية ومن برج حننئيل إلي معاصر الملك.",
+              "arabic_base_no_tashkeel": "وتكون الرامة فى مكانها. من باب بنيامين إلى الباب الأول إلي باب الزاوية ومن برج حننئيل إلي معاصر الملك."
+            },
+            {
+              "row_index": 7,
+              "english": "They will dwell in her, and it will no longer be a curse. Jerusalem shall dwell securely.",
+              "arabic": "فيكونون فيها ولا يكون بعد لعن ويكونون بلا محرمة. وتكون أورشليم مطمئنة.",
+              "arabic_base_no_tashkeel": "فيكونون فيها ولا يكون بعد لعن ويكونون بلا محرمة. وتكون أورشليم مطمئنة."
+            }
+          ]
+        },
+        {
+          "title": "3rd Prophecy (Joel 2: 1 - 3,10 - 11)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Blow the trumpet in Zion, And sound an alarm in My holy mountain! Let all the inhabitants of the land tremble; For the day of the Lord is coming, For it is at hand:",
+              "arabic": "اِضْرِبُوا بِالْبُوقِ فِي صِهْيَوْنَ. صَوِّتُوا فِي جَبَلِ قُدْسِي. لِيَرْتَعِدْ جَمِيعُ سُكَّانِ الأَرْضِ لأَنَّ يَوْمَ الرَّبِّ قَادِمٌ لأَنَّهُ قَرِيبٌ.",
+              "arabic_base_no_tashkeel": "اضربوا بالبوق في صهيون. صوتوا في جبل قدسي. ليرتعد جميع سكان الأرض لأن يوم الرب قادم لأنه قريب."
+            },
+            {
+              "row_index": 2,
+              "english": "A day of darkness and gloominess, A day of clouds and thick darkness, Like the morning clouds spread over the mountains. A people come, great and strong, The like of whom has never been; Nor will there ever be any such after them, Even for many successive generations.",
+              "arabic": "يَوْمُ ظَلاَمٍ وَقَتَامٍ. يَوْمُ غَيْمٍ وَضَبَابٍ مِثْلَ الْفَجْرِ مُمْتَدّاً عَلَى الْجِبَالِ. شَعْبٌ كَثِيرٌ وَقَوِيٌّ لَمْ يَكُنْ نَظِيرُهُ مُنْذُ الأَزَلِ وَلاَ يَكُونُ أَيْضاً بَعْدَهُ إِلَى سِنِي دَوْرٍ فَدَوْرٍ.",
+              "arabic_base_no_tashkeel": "يوم ظلام وقتام. يوم غيم وضباب مثل الفجر ممتدا على الجبال. شعب كثير وقوي لم يكن نظيره منذ الأزل ولا يكون أيضا بعده إلى سني دور فدور."
+            },
+            {
+              "row_index": 3,
+              "english": "A fire devours before them, And behind them a flame burns; The land is like the Garden of Eden before them, And behind them a desolate wilderness; Surely nothing shall escape them.",
+              "arabic": "قُدَّامَهُ نَارٌ تَأْكُلُ وَخَلْفَهُ لَهِيبٌ يُحْرِقُ. الأَرْضُ قُدَّامَهُ كَجَنَّةِ عَدْنٍ وَخَلْفَهُ قَفْرٌ خَرِبٌ وَلاَ تَكُونُ مِنْهُ نَجَاةٌ.",
+              "arabic_base_no_tashkeel": "قدامه نار تأكل وخلفه لهيب يحرق. الأرض قدامه كجنة عدن وخلفه قفر خرب ولا تكون منه نجاة."
+            },
+            {
+              "row_index": 4,
+              "english": "The earth quakes before them, The heavens tremble; The sun and moon grow dark, And the stars diminish their brightness.",
+              "arabic": "قُدَّامَهُ تَرْتَعِدُ الأَرْضُ وَتَرْجُفُ السَّمَاءُ. الشَّمْسُ وَالْقَمَرُ يُظْلِمَانِ وَالنُّجُومُ تَحْجِزُ لَمَعَانَهَا.",
+              "arabic_base_no_tashkeel": "قدامه ترتعد الأرض وترجف السماء. الشمس والقمر يظلمان والنجوم تحجز لمعانها."
+            },
+            {
+              "row_index": 5,
+              "english": "The Lord gives voice before His army, For His camp is very great; For strong is the One who executes His word. For the day of the Lord is great and very terrible; Who can endure it?",
+              "arabic": "وَالرَّبُّ يُعْطِي صَوْتَهُ أَمَامَ جَيْشِهِ. إِنَّ عَسْكَرَهُ كَثِيرٌ جِدّاً. فَإِنَّ صَانِعَ قَوْلِهِ قَوِيٌّ لأَنَّ يَوْمَ الرَّبِّ عَظِيمٌ وَمَخُوفٌ جِدّاً فَمَنْ يُطِيقُهُ؟",
+              "arabic_base_no_tashkeel": "والرب يعطي صوته أمام جيشه. إن عسكره كثير جدا. فإن صانع قوله قوي لأن يوم الرب عظيم ومخوف جدا فمن يطيقه؟"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (69: 1 - 2, 21)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Save me, O God, for the waters flood my soul. I am stuck in the mire of death, and there is no place to stand.",
+              "arabic": "اللهم إحيينى فإن المياه قد بلغت إلى نفسى. وتورطت فى حمأة الموت.",
+              "arabic_base_no_tashkeel": "اللهم إحيينى فإن المياه قد بلغت إلى نفسى. وتورطت فى حمأة الموت."
+            },
+            {
+              "row_index": 2,
+              "english": "They gave me gall for my food, and they gave me vinegar for my drink.",
+              "arabic": "وجعلوا فى طعامى مرارة. وفى عطشى سقونى خلاً.",
+              "arabic_base_no_tashkeel": "وجعلوا فى طعامى مرارة. وفى عطشى سقونى خلا."
+            },
+            {
+              "row_index": 3,
+              "english": "And for my thirst they gave me vinegar to drink.",
+              "arabic": "وفى عطشى سفوني خلاً.",
+              "arabic_base_no_tashkeel": "وفى عطشى سفوني خلا."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Matthew 27: 46 - 50)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "And about the ninth hour Jesus cried out with a loud voice, saying, “Eli, Eli, lama sabachthani?” that is, “My God, My God, why have You forsaken Me?”",
+              "arabic": "فلما كانت الساعة التاسعة صرخ يسوع بصوت عظيم قائلاً: أيلي أيلي لما شبقتنى. أى إلهي إلهي لماذا تركتنى.",
+              "arabic_base_no_tashkeel": "فلما كانت الساعة التاسعة صرخ يسوع بصوت عظيم قائلا: أيلي أيلي لما شبقتنى. أى إلهي إلهي لماذا تركتنى."
+            },
+            {
+              "row_index": 2,
+              "english": "Some of those who stood there, when they heard that, said, “This Man is calling for Elijah!”",
+              "arabic": "فقوم من الواقفين هناك لما سمعوا قالوا: إنه ينادى إيليا.",
+              "arabic_base_no_tashkeel": "فقوم من الواقفين هناك لما سمعوا قالوا: إنه ينادى إيليا."
+            },
+            {
+              "row_index": 3,
+              "english": "Immediately one of them ran and took a sponge, filled it with sour wine and put it on a reed, and offered it to Him to drink.",
+              "arabic": "وللوقت ركض واحد منهم وأخذ أسفنجة وملأها خلاً وجعلها على قصبة وسقاه.",
+              "arabic_base_no_tashkeel": "وللوقت ركض واحد منهم وأخذ أسفنجة وملأها خلا وجعلها على قصبة وسقاه."
+            },
+            {
+              "row_index": 4,
+              "english": "The rest said, “Let Him alone; let us see if Elijah will come to save Him.”",
+              "arabic": "وأما الباقون فقالوا دعوه لنرى هل يأتى إيليا لينجيه.",
+              "arabic_base_no_tashkeel": "وأما الباقون فقالوا دعوه لنرى هل يأتى إيليا لينجيه."
+            },
+            {
+              "row_index": 5,
+              "english": "And Jesus cried out again with a loud voice, and yielded up His spirit.",
+              "arabic": "فصرخ يسوع أيضاً بصوت عظيم وأسلم الروح.",
+              "arabic_base_no_tashkeel": "فصرخ يسوع أيضا بصوت عظيم وأسلم الروح."
+            }
+          ]
+        },
+        {
+          "title": "Psalm (69: 1 - 2, 21)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Save me, O God! For the waters have come up to my neck.",
+              "arabic": "احيينى يا الله فان المياه قد بلغت إلى نفسى.",
+              "arabic_base_no_tashkeel": "احيينى يا الله فان المياه قد بلغت إلى نفسى."
+            },
+            {
+              "row_index": 2,
+              "english": "I sink in deep mire, They also gave me gall for my food,",
+              "arabic": "وتورطت في حمأة الموت. وجعلوا طعامي مرارة.",
+              "arabic_base_no_tashkeel": "وتورطت في حمأة الموت. وجعلوا طعامي مرارة."
+            },
+            {
+              "row_index": 3,
+              "english": "And for my thirst they gave me vinegar to drink.",
+              "arabic": "وفى عطشى سفوني خلاً.",
+              "arabic_base_no_tashkeel": "وفى عطشى سفوني خلا."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Mark 15: 34 - 37)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "And at the ninth hour Jesus cried out with a loud voice, saying, “Eloi, Eloi, lama sabachthani?” which is translated, “My God, My God, why have You forsaken Me?” Some of those who stood by, when they heard that, said, “Look, He is calling for Elijah!”",
+              "arabic": "وفى وقت الساعة التاسعة صرخ يسوع بصوت عظيم قائلاً: ألوي ألوي لما شبقتنى. الذي تفسيره إلهي إلهي لماذا تركتنى. فقال قوم من الحاضرين لما سمعوا: أنظروا هوذا ينادى إيليا.",
+              "arabic_base_no_tashkeel": "وفى وقت الساعة التاسعة صرخ يسوع بصوت عظيم قائلا: ألوي ألوي لما شبقتنى. الذي تفسيره إلهي إلهي لماذا تركتنى. فقال قوم من الحاضرين لما سمعوا: أنظروا هوذا ينادى إيليا."
+            },
+            {
+              "row_index": 2,
+              "english": "Then someone ran and filled a sponge full of sour wine, put it on a reed, and offered it to Him to drink, saying,",
+              "arabic": "فأسرع واحد وملأ أسفنجة خلاً ووضعها على قصبة وسقاه قائلاً:",
+              "arabic_base_no_tashkeel": "فأسرع واحد وملأ أسفنجة خلا ووضعها على قصبة وسقاه قائلا:"
+            },
+            {
+              "row_index": 3,
+              "english": "“Let Him alone; let us see if Elijah will come to take Him down.”",
+              "arabic": "اتْرُكُوهُ، لنرى هل يأتى إيليا لينزله.",
+              "arabic_base_no_tashkeel": "اتركوه، لنرى هل يأتى إيليا لينزله."
+            },
+            {
+              "row_index": 4,
+              "english": "And Jesus cried out with a loud voice, and breathed His last.",
+              "arabic": "فصرخ يسوع أيضاً بصوت عظيم وأسلم الروح.",
+              "arabic_base_no_tashkeel": "فصرخ يسوع أيضا بصوت عظيم وأسلم الروح."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Luke 23: 45 - 46)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Then the sun was darkened, and the veil of the temple was torn in two.",
+              "arabic": "وإظلمت الشمس وإنشق حجاب الهيكل من وسطه.",
+              "arabic_base_no_tashkeel": "وإظلمت الشمس وإنشق حجاب الهيكل من وسطه."
+            },
+            {
+              "row_index": 2,
+              "english": "And when Jesus had cried out with a loud voice, He said, “Father, ‘into Your hands I commit My spirit.’” Having said this, He breathed His last.",
+              "arabic": "ونادى يسوع بصوت عظيم وقال: يا أبتاه فى يديك أستودع روحى. ولما قال هذا أسلم الروح.",
+              "arabic_base_no_tashkeel": "ونادى يسوع بصوت عظيم وقال: يا أبتاه فى يديك أستودع روحى. ولما قال هذا أسلم الروح."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (John 19: 28 - 30)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "After this, Jesus, knowing that all things were now accomplished, that the Scripture might be fulfilled, said, “I thirst!”",
+              "arabic": "وبعد هذا لما رأى يسوع أن كل شئ قد أكمل، فلكى يتم المكتوب، قال: أنا عطشان.",
+              "arabic_base_no_tashkeel": "وبعد هذا لما رأى يسوع أن كل شئ قد أكمل، فلكى يتم المكتوب، قال: أنا عطشان."
+            },
+            {
+              "row_index": 2,
+              "english": "Now a vessel full of sour wine was sitting there; and they filled a sponge with sour wine, put it on hyssop, and put it to His mouth.",
+              "arabic": "وكان إناء موضوعاً مملوءاً خلاً. فملأوا أسفنجة من الخل ورفعوها على زوفا وقدموها إلى فمه.",
+              "arabic_base_no_tashkeel": "وكان إناء موضوعا مملوءا خلا. فملأوا أسفنجة من الخل ورفعوها على زوفا وقدموها إلى فمه."
+            },
+            {
+              "row_index": 3,
+              "english": "So when Jesus had received the sour wine, He said, “It is finished!” And bowing His head, He gave up His spirit.",
+              "arabic": "فلما ذاق يسوع الخل قال: قد أكمل، وأمال برأسه وأسلم الروح.",
+              "arabic_base_no_tashkeel": "فلما ذاق يسوع الخل قال: قد أكمل، وأمال برأسه وأسلم الروح."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

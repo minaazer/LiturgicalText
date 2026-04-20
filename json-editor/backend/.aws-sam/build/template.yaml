@@ -9,6 +9,10 @@ Parameters:
     Type: String
     Default: _schemas/
     Description: Prefix in JsonBucketName where schemas are stored.
+  CloudFrontDistributionId:
+    Type: String
+    Default: E3U8PRC9BR5M03
+    Description: CloudFront distribution serving the live JSON bucket.
 Globals:
   Function:
     Runtime: python3.12
@@ -185,6 +189,8 @@ Resources:
           REPORTS_PREFIX: reports/
           REPORTS_MAX_UPLOAD_BYTES: '41943040'
           REPORTS_MAX_EMAIL_BYTES: '9437184'
+          CLOUDFRONT_DISTRIBUTION_ID:
+            Ref: CloudFrontDistributionId
       Policies:
       - S3ReadPolicy:
           BucketName:
@@ -205,6 +211,11 @@ Resources:
           TableName:
             Ref: EmailVerificationTable
       - Statement:
+        - Effect: Allow
+          Action:
+          - cloudfront:CreateInvalidation
+          - cloudfront:GetInvalidation
+          Resource: '*'
         - Effect: Allow
           Action:
           - cognito-idp:AdminGetUser
@@ -279,6 +290,20 @@ Resources:
               Ref: HttpApi
             Path: /changes/{id}/reject
             Method: POST
+        PublishChanges:
+          Type: HttpApi
+          Properties:
+            ApiId:
+              Ref: HttpApi
+            Path: /publish
+            Method: POST
+        ListPublishableChanges:
+          Type: HttpApi
+          Properties:
+            ApiId:
+              Ref: HttpApi
+            Path: /publish
+            Method: GET
         ReportUploads:
           Type: HttpApi
           Properties:

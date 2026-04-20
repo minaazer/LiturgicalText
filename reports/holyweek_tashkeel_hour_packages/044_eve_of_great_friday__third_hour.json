@@ -1,0 +1,288 @@
+{
+  "service": "EVE of Great Friday",
+  "hour": "THIRD Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Ezekiel 36: 16 - 23)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Again the word of the Lord came to me, saying, \"Son of man, the house of Israel dwelt upon their land, but they defiled it by their conduct and by their idols and uncleanness.",
+              "arabic": "وكانت إلى كلمة الرب قائلا: يا إبن الإنسان إن بيت اسرائيل سكنوا أرضهم ونجسوها بطريقهم وأصنامهم ونجاستهم،",
+              "arabic_base_no_tashkeel": "وكانت إلى كلمة الرب قائلا: يا إبن الإنسان إن بيت اسرائيل سكنوا أرضهم ونجسوها بطريقهم وأصنامهم ونجاستهم،"
+            },
+            {
+              "row_index": 2,
+              "english": "Their conduct before me was like the uncleanness of a woman in her customary impurity. Therefore I poured out My anger on them.",
+              "arabic": "وصارت طريقهم أمامي كنجاسة الطامث، فصببت غضبي عليهم من أجل الدم الذي سفكوه على الأرض ونجسوها بأصنامهم.",
+              "arabic_base_no_tashkeel": "وصارت طريقهم أمامي كنجاسة الطامث، فصببت غضبي عليهم من أجل الدم الذي سفكوه على الأرض ونجسوها بأصنامهم."
+            },
+            {
+              "row_index": 3,
+              "english": "I scattered them among the nations and dispersed them as chaff into the countries. I judged them according to their conduct and their sins.",
+              "arabic": "فشتتهم في الأمم وفرقتهم في الكور بطرقهم، وخطاياهم دانتهم",
+              "arabic_base_no_tashkeel": "فشتتهم في الأمم وفرقتهم في الكور بطرقهم، وخطاياهم دانتهم"
+            },
+            {
+              "row_index": 4,
+              "english": "So when they came to the nations, wherever they went, they desecrated My holy name when they said, 'These are the people of the Lord, and they have come out of His land.",
+              "arabic": "ولما دخلوا إلى الأمم حيث دخلوا دنسوا اسمى القدوس حين قالوا عنهم: إن هذا هو شعب الرب والذين خرجوا من ارضه،",
+              "arabic_base_no_tashkeel": "ولما دخلوا إلى الأمم حيث دخلوا دنسوا اسمى القدوس حين قالوا عنهم: إن هذا هو شعب الرب والذين خرجوا من ارضه،"
+            },
+            {
+              "row_index": 5,
+              "english": "But I spared them for the sake of My holy name, which the house of Israel desecrated among the nations wherever they went.",
+              "arabic": "فتحننت عليهم لأجل اسمى القدوس الذي دنسه بيت اسرائيل في الأمم",
+              "arabic_base_no_tashkeel": "فتحننت عليهم لأجل اسمى القدوس الذي دنسه بيت اسرائيل في الأمم"
+            },
+            {
+              "row_index": 6,
+              "english": "Therefore say to the house of Israel, 'Thus says the Lord: \"I will not do this for your sake, house of Israel, but for the sake of My holy name, which you desecrated among the nations wherever you went.",
+              "arabic": "لذلك فقل لبيت اسرائيل: هذا ما يقوله السيد الرب، ليس لأجلكم أنا صانع يا بيت اسرائيل، بل لأجلى إسمى القدوس الذي نجستموه في الأمم، الموضع الذي دخلتموه",
+              "arabic_base_no_tashkeel": "لذلك فقل لبيت اسرائيل: هذا ما يقوله السيد الرب، ليس لأجلكم أنا صانع يا بيت اسرائيل، بل لأجلى إسمى القدوس الذي نجستموه في الأمم، الموضع الذي دخلتموه"
+            },
+            {
+              "row_index": 7,
+              "english": "Thus I will sanctify My great name, desecrated among the nations, which you desecrated in their midst. Then the nations will know that I am the Lord.",
+              "arabic": "وقدستم فيه إسمي العظيم الذي نجس في الأمم، الذي نجستموه في وسطهم. وستعلم جميع الأمم أني أنا هو الرب. يقول أدوناى الرب.",
+              "arabic_base_no_tashkeel": "وقدستم فيه إسمي العظيم الذي نجس في الأمم، الذي نجستموه في وسطهم. وستعلم جميع الأمم أني أنا هو الرب. يقول أدوناى الرب."
+            },
+            {
+              "row_index": 8,
+              "english": "And I will sanctify My great name, which has been profaned among the nations, which you have profaned in their midst; and the nations shall know that I am the Lord,\" says the Lord God.",
+              "arabic": "فَأُقَدِّسُ اسْمِي الْعَظِيمَ الْمُنَجَّسَ فِي الأُمَمِ الَّذِي نَجَّسْتُمُوهُ فِي وَسَطِهِمْ, فَتَعْلَمُ الأُمَمُ أَنِّي أَنَا الرَّبُّ يَقُولُ السَّيِّدُ الرَّبُّ.",
+              "arabic_base_no_tashkeel": "فأقدس اسمي العظيم المنجس في الأمم الذي نجستموه في وسطهم, فتعلم الأمم أني أنا الرب يقول السيد الرب."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (109: 1 - 3)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "O God, do not pass over my praise in silence, for the mouth of the sinner and the mouth of the deceitful man opened against me;",
+              "arabic": "اللهم لا تسكت عن تسبحتى لأن فم الخاطئ وفم الغاش قد انفتحا علىّ,",
+              "arabic_base_no_tashkeel": "اللهم لا تسكت عن تسبحتى لأن فم الخاطئ وفم الغاش قد انفتحا على,"
+            },
+            {
+              "row_index": 2,
+              "english": "And they surrounded me with words of hatred, and warred against me without cause.",
+              "arabic": "وبكلام بغض أحاطوني وحاربوني مجاناً:",
+              "arabic_base_no_tashkeel": "وبكلام بغض أحاطوني وحاربوني مجانا:"
+            },
+            {
+              "row_index": 3,
+              "english": "They have also surrounded me with words of hatred, \n\nand fought against me without a cause.",
+              "arabic": "وبكلام بغض أحاطونى \n\nوحاربونى مجاناً:",
+              "arabic_base_no_tashkeel": "وبكلام بغض أحاطونى \n\nوحاربونى مجانا:"
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Matthew 26: 30 - 35)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "And when they had sung a hymn, they went out to the Mount of Olives.",
+              "arabic": "ولما سبحوا خرجوا إلى جبل الزيتون.",
+              "arabic_base_no_tashkeel": "ولما سبحوا خرجوا إلى جبل الزيتون."
+            },
+            {
+              "row_index": 2,
+              "english": "Then Jesus said to them, \"All of you will be made to stumble because of Me this night, for it is written: 'I will strike the Shepherd, And the sheep of the flock will be scattered.'",
+              "arabic": "فقال لهم يسوع: كلكم تشكون في في هذه الليلة، لأنه مكتوب أنى أضرب الراعى فتتفرق خراف الرعية،",
+              "arabic_base_no_tashkeel": "فقال لهم يسوع: كلكم تشكون في في هذه الليلة، لأنه مكتوب أنى أضرب الراعى فتتفرق خراف الرعية،"
+            },
+            {
+              "row_index": 3,
+              "english": "But after I have been raised, I will go before you to Galilee.\" Peter answered and said to Him, \"Even if all are made to stumble because of You, I will never be made to stumble.\"",
+              "arabic": "ومن بعد قيامتى أسبقكم إلى الجليل. فأجاب بطرس وقال له: إن شك فيك الجميع فأنا لا أشك.",
+              "arabic_base_no_tashkeel": "ومن بعد قيامتى أسبقكم إلى الجليل. فأجاب بطرس وقال له: إن شك فيك الجميع فأنا لا أشك."
+            },
+            {
+              "row_index": 4,
+              "english": "Jesus said to him, \"Assuredly, I say to you that this night, before the rooster crows, you will deny Me three times.\"",
+              "arabic": "فقال له يسوع: الحق أقول لك أنك في هذه اليله قبل أن يصيح ديك تنكرني ثلاث مراتٍ.",
+              "arabic_base_no_tashkeel": "فقال له يسوع: الحق أقول لك أنك في هذه اليله قبل أن يصيح ديك تنكرني ثلاث مرات."
+            },
+            {
+              "row_index": 5,
+              "english": "Peter said to Him, \"Even if I have to die with You, I will not deny You!\" And so said all the disciples.",
+              "arabic": "قال له بطرس: لو بلغت أن أموت معك لن أنكرك وهكذا كان يقول جميع التلاميذ.",
+              "arabic_base_no_tashkeel": "قال له بطرس: لو بلغت أن أموت معك لن أنكرك وهكذا كان يقول جميع التلاميذ."
+            },
+            {
+              "row_index": 6,
+              "english": "Peter said to Him, \"Even if I have to die with You, I will not deny You!\" And so said all the disciples.<Br><i>Bow down before the Holy Gospel.</i>",
+              "arabic": "قَالَ لَهُ بُطْرُسُ: «وَلَوِ اضْطُرِرْتُ أَنْ أَمُوتَ مَعَكَ لاَ أُنْكِرُكَ!» هَكَذَا قَالَ أَيْضاً جَمِيعُ التَّلاَمِيذِ.<br><i>أسجدوا للإنجيل المقدس.</i>",
+              "arabic_base_no_tashkeel": "قال له بطرس: «ولو اضطررت أن أموت معك لا أنكرك!» هكذا قال أيضا جميع التلاميذ.<br><i>أسجدوا للإنجيل المقدس.</i>"
+            }
+          ]
+        },
+        {
+          "title": "Psalm (109: 1 - 3)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Do not keep silent, O God of my praise!",
+              "arabic": "اللهم لا تسكت عن تسبحتى",
+              "arabic_base_no_tashkeel": "اللهم لا تسكت عن تسبحتى"
+            },
+            {
+              "row_index": 2,
+              "english": "For the mouth of the wicked and the mouth of the deceitful have opened against me;",
+              "arabic": "لان فم الخاطئ وفم الغاش قد انفتحا على.",
+              "arabic_base_no_tashkeel": "لان فم الخاطئ وفم الغاش قد انفتحا على."
+            },
+            {
+              "row_index": 3,
+              "english": "They have also surrounded me with words of hatred, \n\nand fought against me without a cause.",
+              "arabic": "وبكلام بغض أحاطونى \n\nوحاربونى مجاناً:",
+              "arabic_base_no_tashkeel": "وبكلام بغض أحاطونى \n\nوحاربونى مجانا:"
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Mark 14: 26 - 31)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "And when they had sung a hymn, they went out to the Mount of Olives.",
+              "arabic": "ولما سبحوا خرجوا إلى جبل الزيتون",
+              "arabic_base_no_tashkeel": "ولما سبحوا خرجوا إلى جبل الزيتون"
+            },
+            {
+              "row_index": 2,
+              "english": "Then Jesus said to them, “All of you will be made to stumble because of Me this night, for it is written: “I will strike the Shepherd, and the sheep will be scattered.’",
+              "arabic": "فقال لهم يسوع: كلكم تشكون في في هذه الليلة، لأنه مكتوب أنى أضرب الراعى فتتفرق الخراف",
+              "arabic_base_no_tashkeel": "فقال لهم يسوع: كلكم تشكون في في هذه الليلة، لأنه مكتوب أنى أضرب الراعى فتتفرق الخراف"
+            },
+            {
+              "row_index": 3,
+              "english": "“But after I have been raised, I will go before you to Galilee.” Peter said to Him, “Even if all are made to stumble, yet I will not be”.",
+              "arabic": "ولكن بعد قيامتى أسبقكم إلى الجليل. فقال له بطرس: لو شك فيك الجميع فأنا لا أشك.",
+              "arabic_base_no_tashkeel": "ولكن بعد قيامتى أسبقكم إلى الجليل. فقال له بطرس: لو شك فيك الجميع فأنا لا أشك."
+            },
+            {
+              "row_index": 4,
+              "english": "Jesus said to him, “Assuredly, I say to you that today, even this night, before the rooster crows twice, you will deny Me three times.”",
+              "arabic": "فقال له يسوع: الحق أقول لك أنك اليوم في هذه اليله قبل أن يصيح ديك مرتين تنكرني ثلاث مرات.",
+              "arabic_base_no_tashkeel": "فقال له يسوع: الحق أقول لك أنك اليوم في هذه اليله قبل أن يصيح ديك مرتين تنكرني ثلاث مرات."
+            },
+            {
+              "row_index": 5,
+              "english": "But he spoke more vehemently, “If I have to die with You, I will not deny You!” And they all said likewise.",
+              "arabic": "فأخذ (بطرس) يبالغ في الكلام قائلا: إني لو إلجئت أن أموت معك لن أنكرك وهكذا أيضاً كانوا يقولون جميعا.",
+              "arabic_base_no_tashkeel": "فأخذ (بطرس) يبالغ في الكلام قائلا: إني لو إلجئت أن أموت معك لن أنكرك وهكذا أيضا كانوا يقولون جميعا."
+            },
+            {
+              "row_index": 6,
+              "english": "But he spoke more vehemently, \"If I have to die with You, I will not deny You!\" And they all said likewise.<Br><i>Bow down before the Holy Gospel.</i>",
+              "arabic": "فَقَالَ بِأَكْثَرِ تَشْدِيدٍ: «وَلَوِ اضْطُرِرْتُ أَنْ أَمُوتَ مَعَكَ لاَ أُنْكِرُكَ». وَهَكَذَا قَالَ أَيْضاً الْجَمِيعُ.<br><i>أسجدوا للإنجيل المقدس.</i>",
+              "arabic_base_no_tashkeel": "فقال بأكثر تشديد: «ولو اضطررت أن أموت معك لا أنكرك». وهكذا قال أيضا الجميع.<br><i>أسجدوا للإنجيل المقدس.</i>"
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Luke 22: 31 - 39)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "\"Simon, Simon! Indeed, Satan has asked for you, that he may sift you as wheat. But I have prayed for you, that your faith should not fail; and when you have returned to Me, strengthen your brethren.\"",
+              "arabic": "سمعان, سمعان, هوذا الشيطان قد طلبكم لكي يغربلكم مثل الحنطة ولكنى طلبت عنك لكي لا يفنى إيمانك، وانت أيضاً فأرجع وثبت إخوتك زمانا.",
+              "arabic_base_no_tashkeel": "سمعان, سمعان, هوذا الشيطان قد طلبكم لكي يغربلكم مثل الحنطة ولكنى طلبت عنك لكي لا يفنى إيمانك، وانت أيضا فأرجع وثبت إخوتك زمانا."
+            },
+            {
+              "row_index": 2,
+              "english": "But he said to Him, \"Lord, I am ready to go with You, both to prison and to death.\" Then He said, \"I tell you, Peter, the rooster shall not crow this day before you will deny three times that you know Me.\"",
+              "arabic": "أما هو فقال له: يا رب إنى مستعد أن أذهب معك إلى السجن وإلى الموت. فقال له: أقول لك يا بطرس أنه لن يصيح ديك اليوم حتى تنكرني ثلاث مرات انك تعرفني،",
+              "arabic_base_no_tashkeel": "أما هو فقال له: يا رب إنى مستعد أن أذهب معك إلى السجن وإلى الموت. فقال له: أقول لك يا بطرس أنه لن يصيح ديك اليوم حتى تنكرني ثلاث مرات انك تعرفني،"
+            },
+            {
+              "row_index": 3,
+              "english": "And He said to them, \"When I sent you without money bag, knapsack, and sandals, did you lack anything?\" So they said, \"Nothing.\"",
+              "arabic": "ثم قال لهم: لما أرسلتكم بغير كيس ولا مزود ولا حذاء، هل احتجتم إلى شيء؟. أما هم فقالوا له: لا",
+              "arabic_base_no_tashkeel": "ثم قال لهم: لما أرسلتكم بغير كيس ولا مزود ولا حذاء، هل احتجتم إلى شيء؟. أما هم فقالوا له: لا"
+            },
+            {
+              "row_index": 4,
+              "english": "Then He said to them, \"But now, he who has a money bag, let him take it, and likewise a knapsack; and he who has no sword, let him sell his garment and buy one.",
+              "arabic": "فقال لهم: لكن الآن فمن له كيس فليأخذه ومزود كذلك، ومن ليس له سيف فليبع ثوبه ويشتر سيفا،",
+              "arabic_base_no_tashkeel": "فقال لهم: لكن الآن فمن له كيس فليأخذه ومزود كذلك، ومن ليس له سيف فليبع ثوبه ويشتر سيفا،"
+            },
+            {
+              "row_index": 5,
+              "english": "For I say to you that this which is written must still be accomplished in Me: 'And He was numbered with the transgressors.' For the things concerning Me have an end.\"",
+              "arabic": "فإنى أقول لكم إنه ينبغى أن يتم في المكتوب، واحصوه مع الآثمة، لأن ما كتب من أجلى له تمامه.",
+              "arabic_base_no_tashkeel": "فإنى أقول لكم إنه ينبغى أن يتم في المكتوب، واحصوه مع الآثمة، لأن ما كتب من أجلى له تمامه."
+            },
+            {
+              "row_index": 6,
+              "english": "So they said, \"Lord, look, here are two swords.\" And He said to them, \"It is enough.\"",
+              "arabic": "فقالوا: يا رب ههنا سيفان. فقال لهم: يكفى.",
+              "arabic_base_no_tashkeel": "فقالوا: يا رب ههنا سيفان. فقال لهم: يكفى."
+            },
+            {
+              "row_index": 7,
+              "english": "Coming out, He went to the Mount of Olives, as He was accustomed, and His disciples also followed Him.",
+              "arabic": "وخرج ومضى كالعادة إلى جبل الزيتون وتبعه تلاميذه.",
+              "arabic_base_no_tashkeel": "وخرج ومضى كالعادة إلى جبل الزيتون وتبعه تلاميذه."
+            },
+            {
+              "row_index": 8,
+              "english": "So they said, \"Lord, look, here are two swords.\" And He said to them, \"It is enough.\"",
+              "arabic": "فَقَالُوا: «يَا رَبُّ هُوَذَا هُنَا سَيْفَانِ». فَقَالَ لَهُمْ: «يَكْفِي!».",
+              "arabic_base_no_tashkeel": "فقالوا: «يا رب هوذا هنا سيفان». فقال لهم: «يكفي!»."
+            },
+            {
+              "row_index": 9,
+              "english": "Coming out, He went to the Mount of Olives, as He was accustomed, and His disciples also followed Him.<Br><i>Bow down before the Holy Gospel.</i>",
+              "arabic": "وَخَرَجَ وَمَضَى كَالْعَادَةِ إِلَى جَبَلِ الزَّيْتُونِ وَتَبِعَهُ أَيْضاً تَلاَمِيذُهُ.<br><i>أسجدوا للإنجيل المقدس.</i>",
+              "arabic_base_no_tashkeel": "وخرج ومضى كالعادة إلى جبل الزيتون وتبعه أيضا تلاميذه.<br><i>أسجدوا للإنجيل المقدس.</i>"
+            }
+          ]
+        },
+        {
+          "title": "Gospel (John 18: 1 - 2)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "When Jesus had spoken these words, He went out with His disciples over the Brook Kidron, where there was a garden, which He and His disciples entered.",
+              "arabic": "فلما قال يسوع هذا خرج مع تلاميذه إلى عبر وادي قدرون حيث كان في ذلك الموضع بستان، فدخله يسوع مع تلاميذه.",
+              "arabic_base_no_tashkeel": "فلما قال يسوع هذا خرج مع تلاميذه إلى عبر وادي قدرون حيث كان في ذلك الموضع بستان، فدخله يسوع مع تلاميذه."
+            },
+            {
+              "row_index": 2,
+              "english": "And Judas, who betrayed Him, also knew the place; for Jesus often met there with His disciples.",
+              "arabic": "وكان يهوذا مسلمه يعرف الموضع. لأن يسوع اجتمع هناك كثيراً مع تلاميذه.",
+              "arabic_base_no_tashkeel": "وكان يهوذا مسلمه يعرف الموضع. لأن يسوع اجتمع هناك كثيرا مع تلاميذه."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

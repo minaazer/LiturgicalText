@@ -1,0 +1,172 @@
+{
+  "service": "EVE of Covenant Thursday",
+  "hour": "THIRD Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Amos 4: 4 - 13)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "[Thus says the Lord God:] \"You come to Bethel and act lawlessly and multiply your transgressions in Gilgal.",
+              "arabic": "هذا ما يقوله الرب الإله: إنكم دخلتم إلى بيت إيل فأثمتم، وفى جلجال جلعاد أكثرتم النفاق،",
+              "arabic_base_no_tashkeel": "هذا ما يقوله الرب الإله: إنكم دخلتم إلى بيت إيل فأثمتم، وفى جلجال جلعاد أكثرتم النفاق،"
+            },
+            {
+              "row_index": 2,
+              "english": "You bring your sacrifice in the morning and your tithes every three days. Moreover, outside they read things of the Law and call for professions.",
+              "arabic": "وفى كل صباح قدمتم ذبائحكم، وفى اليوم الثالث عشوركم وقرأت ناموساً خارجاً.",
+              "arabic_base_no_tashkeel": "وفى كل صباح قدمتم ذبائحكم، وفى اليوم الثالث عشوركم وقرأت ناموسا خارجا."
+            },
+            {
+              "row_index": 3,
+              "english": "Proclaim that the children of Israel love these things,\" says the Lord God. \" And in all your cities I gave you cleanness of teeth, and in all your places a lack of bread, Yet you did not return to Me,\" says the Lord.",
+              "arabic": "طلبوا الاعتراف والأنذار لأن بنى اسرائيل أحبوا هذه قال الرب الإله، فأنى أنا سأعطيكم ضرس الأسنان فى جميع مدنكم، وعوز الخبز فى جميع مدنكم، فلم ترجعوا إلى يقول الرب،",
+              "arabic_base_no_tashkeel": "طلبوا الاعتراف والأنذار لأن بنى اسرائيل أحبوا هذه قال الرب الإله، فأنى أنا سأعطيكم ضرس الأسنان فى جميع مدنكم، وعوز الخبز فى جميع مدنكم، فلم ترجعوا إلى يقول الرب،"
+            },
+            {
+              "row_index": 4,
+              "english": "\"And also, I withheld rain from you for the three months before the harvest. I caused it to rain upon one city while I withheld rain from another. On one field it rained, but where it did not rain, the crops withered.",
+              "arabic": "وأنا أيضاً منعت عنكم المطر قبل الحصاد بثلاثة أشهر، سأمطر على مدينة واحدة وعلى مدينة أخرى لا أمطر. جزء واحد يشرب، والجزء الآخر لا أمطر عليه فيجف،",
+              "arabic_base_no_tashkeel": "وأنا أيضا منعت عنكم المطر قبل الحصاد بثلاثة أشهر، سأمطر على مدينة واحدة وعلى مدينة أخرى لا أمطر. جزء واحد يشرب، والجزء الآخر لا أمطر عليه فيجف،"
+            },
+            {
+              "row_index": 5,
+              "english": "So two or three cities wandered to another city to drink water, but they were not satisfied. “Yet,” says the Lord, \"you did not return to Me.\" \"I struck you with a parching and blight. When you multiplied your gardens, your vineyards, your fig trees, and your olive trees, the caterpillar devoured them.",
+              "arabic": "فتجمع مدينتان أو ثلاث إلى مدينة واحدة ليشربوا ماء و لا يرتوا. وكذلك لم ترجعوا إلى قال الرب، ضربتكم بالحمى والبرد فأكثرتم نجاساتكم، وأكل القمص (أبناء الجراد) جناتكم وكرومكم وتينكم وزيتونكم",
+              "arabic_base_no_tashkeel": "فتجمع مدينتان أو ثلاث إلى مدينة واحدة ليشربوا ماء و لا يرتوا. وكذلك لم ترجعوا إلى قال الرب، ضربتكم بالحمى والبرد فأكثرتم نجاساتكم، وأكل القمص (أبناء الجراد) جناتكم وكرومكم وتينكم وزيتونكم"
+            },
+            {
+              "row_index": 6,
+              "english": "Yet you did not turn back to Me,\" says the Lord. \"I sent forth death against you by way of Egypt, and I killed your young men with a sword, together with your captured horses.",
+              "arabic": "وكذلك أيضاً لم ترجعوا إلى قال الرب. فأرسلت عليكم وباء فى طرق مصر. قتلت بالسيف شبانكم مع سلب خيلكم،",
+              "arabic_base_no_tashkeel": "وكذلك أيضا لم ترجعوا إلى قال الرب. فأرسلت عليكم وباء فى طرق مصر. قتلت بالسيف شبانكم مع سلب خيلكم،"
+            },
+            {
+              "row_index": 7,
+              "english": "And in My wrath I brought fire upon your army camps. Yet you did not return to Me,\" says the Lord. \"I overthrew you as God overthrew Sodom and Gomorrah, and you became like a torch that burns out after being plucked out of the fire. Yet even after all this you did not return to Me,\" says the Lord.",
+              "arabic": "وأتيت بالنار على عساكركم بغضب، هكذا أيضاً لم ترجعوا إلى يقول الرب. قلبت بعضكم كما قلب الله سدوم وعمورة فصرتم كشعلة منتشلة من الحريق فلم ترجعوا الي يقول الرب.",
+              "arabic_base_no_tashkeel": "وأتيت بالنار على عساكركم بغضب، هكذا أيضا لم ترجعوا إلى يقول الرب. قلبت بعضكم كما قلب الله سدوم وعمورة فصرتم كشعلة منتشلة من الحريق فلم ترجعوا الي يقول الرب."
+            },
+            {
+              "row_index": 8,
+              "english": "\"Therefore, O Israel, thus shall I do to you, and because I will do thus to you, make yourself ready to call upon your God, O Israel!",
+              "arabic": "لذلك أصنع بك هكذا يا اسرائيل، وبما أنى أصنع هذا فإستعد لتدعوا إلهك يا اسرائيل",
+              "arabic_base_no_tashkeel": "لذلك أصنع بك هكذا يا اسرائيل، وبما أنى أصنع هذا فإستعد لتدعوا إلهك يا اسرائيل"
+            },
+            {
+              "row_index": 9,
+              "english": "For behold, I am the One who strengthens the thunder, and creates the wind, and proclaims His Anointed One to mankind, making the daybreak and the darkness, while treading upon the high places of the earth.",
+              "arabic": "فها أنا المثبت الرعد والخالق الريح والمبشر بمسيحه فى البشر الخالق الصبح والنسمة والراكب على أعالى الأرض،",
+              "arabic_base_no_tashkeel": "فها أنا المثبت الرعد والخالق الريح والمبشر بمسيحه فى البشر الخالق الصبح والنسمة والراكب على أعالى الأرض،"
+            },
+            {
+              "row_index": 10,
+              "english": "The Lord God Almighty is His name!\"",
+              "arabic": "الرب الإله الضابط الكل هو أسمه.",
+              "arabic_base_no_tashkeel": "الرب الإله الضابط الكل هو أسمه."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (55: 21,1)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "His words were softened above oil, And they are arrows.",
+              "arabic": "كلامه ألين من الدهن وهو نصال.",
+              "arabic_base_no_tashkeel": "كلامه ألين من الدهن وهو نصال."
+            },
+            {
+              "row_index": 2,
+              "english": "Give ear to my prayer, O God, And do not despise my supplication:",
+              "arabic": "أنصت يا الله لصلاتى، و لا تغفل عن تضرعى:",
+              "arabic_base_no_tashkeel": "أنصت يا الله لصلاتى، و لا تغفل عن تضرعى:"
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Mark 14: 3 - 11)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "And being in Bethany at the house of Simon the leper, as He sat at the table, a woman came having an alabaster flask of very costly oil of spikenard.",
+              "arabic": "وفيما هو فى بيت عنيا فى منزل سمعان الأبرص متكئاً، جاءت إمرأة ومعها قارورة طيب ناردين خالص كثير الثمن،",
+              "arabic_base_no_tashkeel": "وفيما هو فى بيت عنيا فى منزل سمعان الأبرص متكئا، جاءت إمرأة ومعها قارورة طيب ناردين خالص كثير الثمن،"
+            },
+            {
+              "row_index": 2,
+              "english": "Then she broke the flask and poured it on His head.",
+              "arabic": "فكسرت القارورة وسكبته على رأسه،",
+              "arabic_base_no_tashkeel": "فكسرت القارورة وسكبته على رأسه،"
+            },
+            {
+              "row_index": 3,
+              "english": "But there were some who were indignant among themselves, and said, “Why was this fragrant oil wasted?",
+              "arabic": "وكان قوم قد تذمروا فيما بينهم قائلين: لم كان أتلاف هذا الطيب،",
+              "arabic_base_no_tashkeel": "وكان قوم قد تذمروا فيما بينهم قائلين: لم كان أتلاف هذا الطيب،"
+            },
+            {
+              "row_index": 4,
+              "english": "For it might have been sold for more than three hundred denarii and given to the poor.” And they criticized her sharply.",
+              "arabic": "فإنه كان يمكن أن يباع هذا بأكثر من ثلثمائة دينار ويعطى للمساكين. وكانوا يؤنبونها،",
+              "arabic_base_no_tashkeel": "فإنه كان يمكن أن يباع هذا بأكثر من ثلثمائة دينار ويعطى للمساكين. وكانوا يؤنبونها،"
+            },
+            {
+              "row_index": 5,
+              "english": "But Jesus said, “Let her alone. Why do you trouble her? She has done a good work for Me.",
+              "arabic": "فقال لهم يسوع: دعوها، ما بالكم تعنفونها؟ عملاً حسناً الذي عملته به،",
+              "arabic_base_no_tashkeel": "فقال لهم يسوع: دعوها، ما بالكم تعنفونها؟ عملا حسنا الذي عملته به،"
+            },
+            {
+              "row_index": 6,
+              "english": "For you have the poor with you always, and whenever you wish you may do them good; but Me you do not have always.",
+              "arabic": "فإن المساكين معكم كل حين، وإذا أردتم أمكنكم أن تحسنوا إليهم كل حين، وأما أنا فلست معكم فى كل حين،",
+              "arabic_base_no_tashkeel": "فإن المساكين معكم كل حين، وإذا أردتم أمكنكم أن تحسنوا إليهم كل حين، وأما أنا فلست معكم فى كل حين،"
+            },
+            {
+              "row_index": 7,
+              "english": "She has done what she could. She has come beforehand to anoint My body for burial.",
+              "arabic": "عملت ما عندها قد سبقت و دهنت بالطيب جسدي للتكفين.",
+              "arabic_base_no_tashkeel": "عملت ما عندها قد سبقت و دهنت بالطيب جسدي للتكفين."
+            },
+            {
+              "row_index": 8,
+              "english": "Then Judas Iscariot, one of the twelve, went to the chief priests to betray Him to them.",
+              "arabic": "ثم أن يهوذا الإسخريوطى أحد الإثنى عشر ذهب إلى رؤساء الكهنة لكى يسلمه إليهم،",
+              "arabic_base_no_tashkeel": "ثم أن يهوذا الإسخريوطى أحد الإثنى عشر ذهب إلى رؤساء الكهنة لكى يسلمه إليهم،"
+            },
+            {
+              "row_index": 9,
+              "english": "And when they heard it, they were glad, and promised to give him money. So he sought how he might conveniently betray Him.",
+              "arabic": "فلما سمعوا فرحوا وأعطوه فضة فكان يلتمس فرصه كيف يسلمه بحيلة.",
+              "arabic_base_no_tashkeel": "فلما سمعوا فرحوا وأعطوه فضة فكان يلتمس فرصه كيف يسلمه بحيلة."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

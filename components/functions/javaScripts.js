@@ -271,21 +271,69 @@ function handleTouchNavigation(event) {
   // Keyboard interaction
   function handleKeyPress(event) {
     if (isScrollMode()) return;
-    switch (event.key) {
-      case "ArrowRight":
-      case "ArrowDown":
-      case "Enter":
-      case " ":
-        // Handle "Next" action
-        postMessageToReactNative("HANDLE_NEXT", null);
-        break;
-      case "ArrowLeft":
-      case "ArrowUp":
-        // Handle "Previous" action
-        postMessageToReactNative("HANDLE_PREVIOUS", null);
-        break;
-      default:
-        break;
+    const target = event.target;
+    const tagName = target?.tagName ? target.tagName.toLowerCase() : "";
+    if (
+      tagName === "input" ||
+      tagName === "textarea" ||
+      tagName === "select" ||
+      target?.isContentEditable
+    ) {
+      return;
+    }
+
+    const nextKeys = new Set([
+      "ArrowRight",
+      "ArrowDown",
+      "Enter",
+      " ",
+      "Spacebar",
+      "PageDown",
+      "MediaTrackNext",
+      "AudioVolumeUp",
+      "XF86Forward",
+      "n",
+      "N",
+    ]);
+    const previousKeys = new Set([
+      "ArrowLeft",
+      "ArrowUp",
+      "PageUp",
+      "Backspace",
+      "MediaTrackPrevious",
+      "AudioVolumeDown",
+      "XF86Back",
+      "p",
+      "P",
+    ]);
+    const nextCodes = new Set([
+      "Space",
+      "Enter",
+      "NumpadEnter",
+      "PageDown",
+      "ArrowRight",
+      "ArrowDown",
+      "MediaTrackNext",
+      "NumpadAdd",
+    ]);
+    const previousCodes = new Set([
+      "PageUp",
+      "ArrowLeft",
+      "ArrowUp",
+      "MediaTrackPrevious",
+      "Backspace",
+      "NumpadSubtract",
+    ]);
+
+    if (nextKeys.has(event.key) || nextCodes.has(event.code)) {
+      event.preventDefault();
+      postMessageToReactNative("HANDLE_NEXT", null);
+      return;
+    }
+    if (previousKeys.has(event.key) || previousCodes.has(event.code)) {
+      event.preventDefault();
+      postMessageToReactNative("HANDLE_PREVIOUS", null);
+      return;
     }
   }
 
@@ -845,6 +893,25 @@ if (caption && captionHeight) {
           //sendMessage(JSON.stringify({type: 'debug', data: 'scaling container'}));
             const captionHeightCache = new Map();
             const tbodyHeightCache = new Map();
+            const pageItemsBeforeScaling = caption
+              ? currentPage.filter((id) => id !== caption.id)
+              : currentPage.slice();
+
+            if (pageItemsBeforeScaling.length) {
+              let previousTable;
+              if (tableNumbers.length > 2) {
+                previousTable = tableNumbers[tableNumbers.length - 2];
+              } else {
+                previousTable = tableId;
+              }
+
+              pages.push({
+                currentPage: pageItemsBeforeScaling[0],
+                pagesPerRow: pagesPerRow[pagesPerRow.length - 1],
+                tableId: previousTable,
+                firstVisibleElementId: caption ? caption.id : tableId,
+              });
+            }
             // Reset pagination accumulators for this scaling table
             remainder = 0;
             pagesPerRow = [1];
@@ -1456,8 +1523,8 @@ const paginateTablesGlorification =
               return;
             }
           
-            let midFontSize = (minFontSize + maxFontSize) / 2;
-            let newFontSize = midFontSize + 'px';
+                let midFontSize = (minFontSize + maxFontSize) / 2;
+                let newFontSize = midFontSize + 'px';
           
             // Change the font size of tbody and possibly caption
             if (isOnePage && tbodyId == 0 && caption) {
@@ -1799,7 +1866,7 @@ sections.forEach(section => {
     var overlays = document.querySelectorAll('div[id^="overlay_"]');
     overlays.forEach((overlay) => {
         overlay.parentNode.removeChild(overlay);
-    });
+  });
 }`
 
 

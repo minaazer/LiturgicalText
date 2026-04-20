@@ -1,0 +1,571 @@
+{
+  "service": "DAY of Tuesday",
+  "hour": "FIRST Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Exodus 19: 1 - 9)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Now in the third month after the children of Israel departed from the land of Egypt, on the same day, they came into the Sinai Desert.",
+              "arabic": "وفى الشهر الثالث لخروج بنى اسرائيل من أرض مصر فى ذلك اليوم جاءوا إلى برية سيناء.",
+              "arabic_base_no_tashkeel": "وفى الشهر الثالث لخروج بنى اسرائيل من أرض مصر فى ذلك اليوم جاءوا إلى برية سيناء."
+            },
+            {
+              "row_index": 2,
+              "english": "For they departed from Rephidim, came into the Sinai Desert, and camped in the desert. So Israel camped there before the mountain.",
+              "arabic": "ورحلوا من رافازين ووصلوا إلى برية سيناء ونزلوا هناك قبالة الجبل.",
+              "arabic_base_no_tashkeel": "ورحلوا من رافازين ووصلوا إلى برية سيناء ونزلوا هناك قبالة الجبل."
+            },
+            {
+              "row_index": 3,
+              "english": "Then Moses went up to the mountain of God, and God called to him from the mountain, saying,",
+              "arabic": "فصعد موسى إلى جبل الله فناداه الله من الجبل قائلاً:",
+              "arabic_base_no_tashkeel": "فصعد موسى إلى جبل الله فناداه الله من الجبل قائلا:"
+            },
+            {
+              "row_index": 4,
+              "english": "\"Thus you shall say to the house of Jacob and tell the children of Israel:",
+              "arabic": "هذا ما تقوله لبيت يعقوب وتخبر بنى اسرائيل قائلاً لهم.",
+              "arabic_base_no_tashkeel": "هذا ما تقوله لبيت يعقوب وتخبر بنى اسرائيل قائلا لهم."
+            },
+            {
+              "row_index": 5,
+              "english": "'You have seen what I did to the Egyptians, and how I bore you on eagles' wings and brought you to Myself.",
+              "arabic": "قد رأيتم كل الأعمال التى صنعتها بالمصريين وكيف حملتكم كأنكم على أجنحة النسور وأتيت بكم إلي",
+              "arabic_base_no_tashkeel": "قد رأيتم كل الأعمال التى صنعتها بالمصريين وكيف حملتكم كأنكم على أجنحة النسور وأتيت بكم إلي"
+            },
+            {
+              "row_index": 6,
+              "english": "Now therefore, if you will indeed obey My voice and keep My covenant, you shall be a special people to Me above all nations; for all the earth is Mine.",
+              "arabic": "والآن إن كنتم سمعاً تسمعون لصوتى وتحفظون عهدى. فأنكم تكونون لى شعباً مجتمعاً إلى الأبد من بين جميع الأمم. لأن لى الأرض بأسرها",
+              "arabic_base_no_tashkeel": "والآن إن كنتم سمعا تسمعون لصوتى وتحفظون عهدى. فأنكم تكونون لى شعبا مجتمعا إلى الأبد من بين جميع الأمم. لأن لى الأرض بأسرها"
+            },
+            {
+              "row_index": 7,
+              "english": "You shall be to Me a royal priesthood and a holy nation.' These are the words you shall speak to the children of Israel.\"",
+              "arabic": "وأنتم تكونون لى مملكة مقدسة وأمة مطهرة. هذا هو الكلام الذي تقوله لبيت اسرائيل.",
+              "arabic_base_no_tashkeel": "وأنتم تكونون لى مملكة مقدسة وأمة مطهرة. هذا هو الكلام الذي تقوله لبيت اسرائيل."
+            },
+            {
+              "row_index": 8,
+              "english": "So Moses came and called for the elders of the people, and laid before them all these words the Lord commanded him.",
+              "arabic": "فجاء موسى ودعا شيوخ الشعب وقص عليهم كل هذه الكلمات التى أمره الله بها.",
+              "arabic_base_no_tashkeel": "فجاء موسى ودعا شيوخ الشعب وقص عليهم كل هذه الكلمات التى أمره الله بها."
+            },
+            {
+              "row_index": 9,
+              "english": "Then all the people answered with one accord and said, \"Everything the Lord said we will do and hearken to.\" So Moses reported these words to God.",
+              "arabic": "فأجاب جميع الشعب معاً وقالوا. كل ما تكلم به الله نسمعه ونعمل به. فرفع موسى كلام الشعب إلى الله.",
+              "arabic_base_no_tashkeel": "فأجاب جميع الشعب معا وقالوا. كل ما تكلم به الله نسمعه ونعمل به. فرفع موسى كلام الشعب إلى الله."
+            }
+          ]
+        },
+        {
+          "title": "2nd Prophecy (Job 23: 2 - 24: 25)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "\"Indeed, I know pleading is out of my reach, for His hand is heavy upon my groaning.",
+              "arabic": "أنا أعلم أن توبيخي هو منه. ويده قد ثقلت على تنهدى.",
+              "arabic_base_no_tashkeel": "أنا أعلم أن توبيخي هو منه. ويده قد ثقلت على تنهدى."
+            },
+            {
+              "row_index": 2,
+              "english": "Who then would know, that I might find Him, and might bring this matter to an end?",
+              "arabic": "من الذي يعلم أنى أجده وأنهم تحابوا معى إلى التمام",
+              "arabic_base_no_tashkeel": "من الذي يعلم أنى أجده وأنهم تحابوا معى إلى التمام"
+            },
+            {
+              "row_index": 3,
+              "english": "I would state my case before Him and fill my mouth with arguments.",
+              "arabic": "ولست أستطيع أن أقول حكماً أمامه.",
+              "arabic_base_no_tashkeel": "ولست أستطيع أن أقول حكما أمامه."
+            },
+            {
+              "row_index": 4,
+              "english": "Would that I knew the words He would answer me and could understand what He would tell me.",
+              "arabic": "فيمتلئ فمي توبيخاً. أنا أعلم بثبات ما يقوله لي وأشعر بما يعرفنى أياه.",
+              "arabic_base_no_tashkeel": "فيمتلئ فمي توبيخا. أنا أعلم بثبات ما يقوله لي وأشعر بما يعرفنى أياه."
+            },
+            {
+              "row_index": 5,
+              "english": "Though He would come on me in His great strength, He would not use the occasion to threaten me.",
+              "arabic": "ولا يأتى على بقوة عظيمة ولا يفسح لي فى الرجز.",
+              "arabic_base_no_tashkeel": "ولا يأتى على بقوة عظيمة ولا يفسح لي فى الرجز."
+            },
+            {
+              "row_index": 6,
+              "english": "For truth and rebuke are from Him, and He would bring my judgment to an end.",
+              "arabic": "لأن البر والتوبيخ هما منه. ويخرج حكمي إلى الإنقضاء",
+              "arabic_base_no_tashkeel": "لأن البر والتوبيخ هما منه. ويخرج حكمي إلى الإنقضاء"
+            },
+            {
+              "row_index": 7,
+              "english": "\"Though I should proceed to this important end until I no longer exist, still what would I know about the last things?",
+              "arabic": "وأمضى إلى الأوائل. ولا أكون بعد. ولا أعلم ما فى الأواخر.",
+              "arabic_base_no_tashkeel": "وأمضى إلى الأوائل. ولا أكون بعد. ولا أعلم ما فى الأواخر."
+            },
+            {
+              "row_index": 8,
+              "english": "When He worked on the left hand, I could not understand it. His right hand will encompass me, but I will not see it.",
+              "arabic": "خلق الشمال ولم أمسك ما يستر اليمين ولا أنظر.",
+              "arabic_base_no_tashkeel": "خلق الشمال ولم أمسك ما يستر اليمين ولا أنظر."
+            },
+            {
+              "row_index": 9,
+              "english": "For He knows my way already, and He has weighed me as gold.",
+              "arabic": "هو عارف طريقى ومحصنى مثل الذهب.",
+              "arabic_base_no_tashkeel": "هو عارف طريقى ومحصنى مثل الذهب."
+            },
+            {
+              "row_index": 10,
+              "english": "I will go forth in His commandments; for I have kept His ways and will not turn aside. I will not disregard His commandments; but I have hidden His words in my bosom.",
+              "arabic": "فأسلك بحسب أوامره ولا أرفضها أخفى كلامه فى حضنى.",
+              "arabic_base_no_tashkeel": "فأسلك بحسب أوامره ولا أرفضها أخفى كلامه فى حضنى."
+            },
+            {
+              "row_index": 11,
+              "english": "\"If He too has thus judged, who is he that has opposed Him? Whatever He has willed, that He has done.",
+              "arabic": "فأن كان قد حكم هكذا فمن هو الذي يقاومه. وهو ما يريده يفعله",
+              "arabic_base_no_tashkeel": "فأن كان قد حكم هكذا فمن هو الذي يقاومه. وهو ما يريده يفعله"
+            },
+            {
+              "row_index": 12,
+              "english": "Therefore I pursue Him zealously, and when I was instructed, I thought of Him.",
+              "arabic": "من أجل ذلك أسرعت إليه أدبنى فخفت منه.",
+              "arabic_base_no_tashkeel": "من أجل ذلك أسرعت إليه أدبنى فخفت منه."
+            },
+            {
+              "row_index": 13,
+              "english": "Therefore let me be serious before His face. I will consider and be afraid of Him.",
+              "arabic": "لهذا أسرع قدام وجهه وأتأمل فأرتعب منه.",
+              "arabic_base_no_tashkeel": "لهذا أسرع قدام وجهه وأتأمل فأرتعب منه."
+            },
+            {
+              "row_index": 14,
+              "english": "For the Lord softened my heart, and the Almighty has alarmed me.",
+              "arabic": "لأن الرب قد أضعف قلبى. والضابط الكل أسرع ورائى.",
+              "arabic_base_no_tashkeel": "لأن الرب قد أضعف قلبى. والضابط الكل أسرع ورائى."
+            },
+            {
+              "row_index": 15,
+              "english": "For I did not know darkness would come upon me, but thick darkness covered my face.",
+              "arabic": "لأنى كنت أعلم أن الظلمة ستأتى على. والضباب غطى وجهى.",
+              "arabic_base_no_tashkeel": "لأنى كنت أعلم أن الظلمة ستأتى على. والضباب غطى وجهى."
+            },
+            {
+              "row_index": 16,
+              "english": "\"Why have the times escaped the Lord's notice?",
+              "arabic": "كيف خفيت هذه الساعات عن الرب.",
+              "arabic_base_no_tashkeel": "كيف خفيت هذه الساعات عن الرب."
+            },
+            {
+              "row_index": 17,
+              "english": "\"Why have the ungodly stepped over the boundary, snatching away the flock with the shepherd?",
+              "arabic": "فتجاوز المنافقون حدودهم مختطفين القطيع مع راعيه.",
+              "arabic_base_no_tashkeel": "فتجاوز المنافقون حدودهم مختطفين القطيع مع راعيه."
+            },
+            {
+              "row_index": 18,
+              "english": "They have led away the donkey of the orphans and have taken the widow's ox as a pledge.",
+              "arabic": "وأخذوا حمار الأيتام وإرتهنوا بقرة الأرملة.",
+              "arabic_base_no_tashkeel": "وأخذوا حمار الأيتام وإرتهنوا بقرة الأرملة."
+            },
+            {
+              "row_index": 19,
+              "english": "They have turned aside the weak from the right way; the gentle of the land have hidden themselves together.",
+              "arabic": "وجعلوا الضعفاء يميلون عن طريق الحق وإختفى ودعاء الأرض معاً.",
+              "arabic_base_no_tashkeel": "وجعلوا الضعفاء يميلون عن طريق الحق وإختفى ودعاء الأرض معا."
+            },
+            {
+              "row_index": 20,
+              "english": "They departed like donkeys in the field. Contrary to me, they went forth to their own pursuits. Their bread was sweet to their little ones.",
+              "arabic": "وصاروا كالبقر فى الحقل. وطرحوا أعمالهم على وإستحلوا خبز الأطفال.",
+              "arabic_base_no_tashkeel": "وصاروا كالبقر فى الحقل. وطرحوا أعمالهم على وإستحلوا خبز الأطفال."
+            },
+            {
+              "row_index": 21,
+              "english": "For they harvested a field that was not their own before the time, and the weak worked the vineyard of the ungodly without pay or food.",
+              "arabic": "حقلاً ليس لهم حصدوه قبل أوانه. يعمل الضعفاء فى كروم المنافقين بلا أجرة ولا طعام.",
+              "arabic_base_no_tashkeel": "حقلا ليس لهم حصدوه قبل أوانه. يعمل الضعفاء فى كروم المنافقين بلا أجرة ولا طعام."
+            },
+            {
+              "row_index": 22,
+              "english": "They caused many naked to sleep without clothing, and they took away the covering of their life.",
+              "arabic": "كثيراً ما جعلوهم يبيتون عراة بغير لباس ونزعوا كساء أنفسهم.",
+              "arabic_base_no_tashkeel": "كثيرا ما جعلوهم يبيتون عراة بغير لباس ونزعوا كساء أنفسهم."
+            },
+            {
+              "row_index": 23,
+              "english": "They are wet with the showers of the mountains and have huddled around the rock for want of shelter.",
+              "arabic": "فأبتلوا من قطر الجبال. وحيث أن لا خيام لهم أستتروا بالصخور.",
+              "arabic_base_no_tashkeel": "فأبتلوا من قطر الجبال. وحيث أن لا خيام لهم أستتروا بالصخور."
+            },
+            {
+              "row_index": 24,
+              "english": "They have snatched the orphan from the breast and have humiliated the banished.",
+              "arabic": "خطفوا الأيتام عن ثديهم. ومن سقط أذلوه.",
+              "arabic_base_no_tashkeel": "خطفوا الأيتام عن ثديهم. ومن سقط أذلوه."
+            },
+            {
+              "row_index": 25,
+              "english": "They have unjustly caused them to sleep without clothing, and they have taken away the morsel from the hungry.",
+              "arabic": "بظلمهم جعلوا قوماً ينامون عراة. وأخذوا خبز الجياع.",
+              "arabic_base_no_tashkeel": "بظلمهم جعلوا قوما ينامون عراة. وأخذوا خبز الجياع."
+            },
+            {
+              "row_index": 26,
+              "english": "They have wrongfully laid snares in narrow places and have not known the way of righteousness.",
+              "arabic": "فى المواضع الضيقة أصطادوا بالظلم. وطريق العدل لم يعرفوه.",
+              "arabic_base_no_tashkeel": "فى المواضع الضيقة أصطادوا بالظلم. وطريق العدل لم يعرفوه."
+            },
+            {
+              "row_index": 27,
+              "english": "They have cast the weak out of the city and their own houses, and the soul of the infants sighed greatly. Why then has He not visited them?",
+              "arabic": "والذين طردوهم من مدنهم وبيوتهم لم يعرفوهم. فصارت نفس الأطفال فى تنهد شديد. لماذا لم يفتقد هؤلاء",
+              "arabic_base_no_tashkeel": "والذين طردوهم من مدنهم وبيوتهم لم يعرفوهم. فصارت نفس الأطفال فى تنهد شديد. لماذا لم يفتقد هؤلاء"
+            },
+            {
+              "row_index": 28,
+              "english": "\"They are ones on the earth who do not know the Lord, and they do not understand the way of righteousness, nor do they walk in His paths.",
+              "arabic": "وهم على الأرض وهم لم يعرفوا طريق البر. ولم يمشوا فى سبله.",
+              "arabic_base_no_tashkeel": "وهم على الأرض وهم لم يعرفوا طريق البر. ولم يمشوا فى سبله."
+            },
+            {
+              "row_index": 29,
+              "english": "But He knows their works and delivered them into darkness; and one shall be like a thief in the night.",
+              "arabic": "فلما علم بأعمالهم أسلمهم للظلمة وفي الليل يصير مثل اللص،",
+              "arabic_base_no_tashkeel": "فلما علم بأعمالهم أسلمهم للظلمة وفي الليل يصير مثل اللص،"
+            },
+            {
+              "row_index": 30,
+              "english": "For the eye of the adulterer watches for the darkness, saying, 'No eye will perceive me'; and he puts a covering on his face.",
+              "arabic": "وعين الزاني تراقب الظلام قائلاً: لا تبصرنى عين. فيجعل ستراً على وجهه.",
+              "arabic_base_no_tashkeel": "وعين الزاني تراقب الظلام قائلا: لا تبصرنى عين. فيجعل سترا على وجهه."
+            },
+            {
+              "row_index": 31,
+              "english": "In the dark he breaks into houses; in the daytime they seal themselves up; they do not know the light.",
+              "arabic": "نقب بيوتاً فى الظلام وفى النهار أغلقوا على أنفسهم. فلا يعرفون النور صباحاً.",
+              "arabic_base_no_tashkeel": "نقب بيوتا فى الظلام وفى النهار أغلقوا على أنفسهم. فلا يعرفون النور صباحا."
+            },
+            {
+              "row_index": 32,
+              "english": "For in due time, the shadow of death will be the same to them, because they shall know the troubles of the shadow of death.",
+              "arabic": "لأن ظل الموت يدركهم معاً. لأنه يعرف أهوال ظل الموت.",
+              "arabic_base_no_tashkeel": "لأن ظل الموت يدركهم معا. لأنه يعرف أهوال ظل الموت."
+            },
+            {
+              "row_index": 33,
+              "english": "\"He is swift on the face of the waters; may his portion be cursed on earth.",
+              "arabic": "خفيف هو على وجه الماء. فليكن نصيبهم ملعوناً على الأرض.",
+              "arabic_base_no_tashkeel": "خفيف هو على وجه الماء. فليكن نصيبهم ملعونا على الأرض."
+            },
+            {
+              "row_index": 34,
+              "english": "May their plants wither on earth, for they have taken away from the orphans even the smallest portions.",
+              "arabic": "وليظهر نباتهم يابساً على وجه الأرض. لأنهم نهبوا أعمار الأيتام.",
+              "arabic_base_no_tashkeel": "وليظهر نباتهم يابسا على وجه الأرض. لأنهم نهبوا أعمار الأيتام."
+            },
+            {
+              "row_index": 35,
+              "english": "Then his sin is recalled to memory, and he vanishes like a mist of dew; but what he has done, may it be recompensed to him, and may every wrongdoer be crushed like rotten wood.",
+              "arabic": "وحين ذكر خطيته وصار غير ظاهر كمثل الخشب غير النافع.",
+              "arabic_base_no_tashkeel": "وحين ذكر خطيته وصار غير ظاهر كمثل الخشب غير النافع."
+            },
+            {
+              "row_index": 36,
+              "english": "For he has not treated the barren woman well, and showed no mercy to the feeble woman.",
+              "arabic": "لأنهم لم يحسنوا إلى العاقر ولم يرحموا (الأرملة).",
+              "arabic_base_no_tashkeel": "لأنهم لم يحسنوا إلى العاقر ولم يرحموا (الأرملة)."
+            },
+            {
+              "row_index": 37,
+              "english": "\"In his anger, he overturns the weak; therefore when he rises up, no one believes his own life is safe.",
+              "arabic": "وبغضب طرحوا الضعفاء. فاذا قام لا يأمن على حياته.",
+              "arabic_base_no_tashkeel": "وبغضب طرحوا الضعفاء. فاذا قام لا يأمن على حياته."
+            },
+            {
+              "row_index": 38,
+              "english": "When he falls sick, let him not hope to recover, but let him perish by disease.",
+              "arabic": "وإذا مرض لا يجعلوه يرجو أن يشفى بل يسقط بالمرض.",
+              "arabic_base_no_tashkeel": "وإذا مرض لا يجعلوه يرجو أن يشفى بل يسقط بالمرض."
+            },
+            {
+              "row_index": 39,
+              "english": "For his exaltation mistreated many, but he has withered as mallows in the heat, or as an ear of corn falling on its own from the stalk.",
+              "arabic": "إن كثيرين خفضهم إرتفاعه فذبلت خضرتهم بالحر مثل السنبل إذا سقط وحده من البرائب.",
+              "arabic_base_no_tashkeel": "إن كثيرين خفضهم إرتفاعه فذبلت خضرتهم بالحر مثل السنبل إذا سقط وحده من البرائب."
+            },
+            {
+              "row_index": 40,
+              "english": "\"If it is not so, who says I speak falsely and will make my speech worth nothing?\"",
+              "arabic": "وإلا فمن قال له أنى كذبت ويجعل كلامى كلا شئ.",
+              "arabic_base_no_tashkeel": "وإلا فمن قال له أنى كذبت ويجعل كلامى كلا شئ."
+            },
+            {
+              "row_index": 41,
+              "english": "\"Now if it is not so, who will prove me a liar, And make my speech worth nothing?\"",
+              "arabic": "وَإِنْ لَمْ يَكُنْ كَذَا فَمَنْ يُكَذِّبُنِي وَيَجْعَلُ كَلاَمِي لاَ شَيْئاً؟].",
+              "arabic_base_no_tashkeel": "وإن لم يكن كذا فمن يكذبني ويجعل كلامي لا شيئا؟]."
+            }
+          ]
+        },
+        {
+          "title": "3rd Prophecy (Hosea 4: 1 - 8)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Hear the word of the Lord, you children of Israel, for the Lord has a judgment for the inhabitants of the land: \"There is no truth or mercy or knowledge of God in the land. Cursing and lying, murder and theft and adultery gushed forth in the land, and blood is mingled with blood.",
+              "arabic": "إسمعوا كلام الرب يا بنى اسرائيل فأن للرب محاكمة مع سكان الأرض لأنه لا حق ولا رحمة ولا معرفة الله على الأرض. بل لعنة وكذب وقتل وسرقة وفسق قد فاضت على الأرض ودماء تختلط بدماء.",
+              "arabic_base_no_tashkeel": "إسمعوا كلام الرب يا بنى اسرائيل فأن للرب محاكمة مع سكان الأرض لأنه لا حق ولا رحمة ولا معرفة الله على الأرض. بل لعنة وكذب وقتل وسرقة وفسق قد فاضت على الأرض ودماء تختلط بدماء."
+            },
+            {
+              "row_index": 2,
+              "english": "Therefore the land shall mourn and be diminished with all the things that dwell in it: the wild beasts of the field, the reptiles of the earth, and the birds of the sky, and the fish of the sea shall come to an end;",
+              "arabic": "لذلك تنوح الأرض وكل من يسكن فيها. يذبل مع وحوش البرية ودبابات الأرض وطيور السماء وسمك البحر أيضاً يفنى",
+              "arabic_base_no_tashkeel": "لذلك تنوح الأرض وكل من يسكن فيها. يذبل مع وحوش البرية ودبابات الأرض وطيور السماء وسمك البحر أيضا يفنى"
+            },
+            {
+              "row_index": 3,
+              "english": "That neither may anyone judge, nor analyze another; But my people are as a priest who is spoken against.",
+              "arabic": "حتى لا يكون من يحاكم ولا من يوبخ، مثل الشعب الذي يمارى فى عبادة الأصنام. مثل الكاهن الذي يمارى فى عبادة الإله.",
+              "arabic_base_no_tashkeel": "حتى لا يكون من يحاكم ولا من يوبخ، مثل الشعب الذي يمارى فى عبادة الأصنام. مثل الكاهن الذي يمارى فى عبادة الإله."
+            },
+            {
+              "row_index": 4,
+              "english": "\"Thus you shall be weak by day, and the prophet shall be weak with you; I have compared your mother to the night.",
+              "arabic": "فيتعثر بالنهار ويتعثر أيضاً النبي معك. وأمك شبهتها بالليل.",
+              "arabic_base_no_tashkeel": "فيتعثر بالنهار ويتعثر أيضا النبي معك. وأمك شبهتها بالليل."
+            },
+            {
+              "row_index": 5,
+              "english": "My people are like as those who have no knowledge. Because you have rejected knowledge, I will also reject you from being a priest to Me;",
+              "arabic": "وصار شعبى كمن لا معرفة له. لأنك أنت رفضت المعرفة. أنا أيضاً أرفضك فلا تكهن لى.",
+              "arabic_base_no_tashkeel": "وصار شعبى كمن لا معرفة له. لأنك أنت رفضت المعرفة. أنا أيضا أرفضك فلا تكهن لى."
+            },
+            {
+              "row_index": 6,
+              "english": "And because you have forgotten the law of your God, I also will forget your children.",
+              "arabic": "أنسى أنا أيضاً ناموس اسرائيل وأنسى أعمالهم.",
+              "arabic_base_no_tashkeel": "أنسى أنا أيضا ناموس اسرائيل وأنسى أعمالهم."
+            },
+            {
+              "row_index": 7,
+              "english": "According to their multitude, so they sinned against Me; I will turn their glory into dishonor.",
+              "arabic": "هكذا أخطأوا فأبدل مجدهم هوانا.",
+              "arabic_base_no_tashkeel": "هكذا أخطأوا فأبدل مجدهم هوانا."
+            },
+            {
+              "row_index": 8,
+              "english": "They will eat the sins of My people and take away their lives because of their wrongdoings.",
+              "arabic": "وخطايا شعبى تأكلهم. وبظلمهم تنزع نفوسهم.",
+              "arabic_base_no_tashkeel": "وخطايا شعبى تأكلهم. وبظلمهم تنزع نفوسهم."
+            }
+          ]
+        },
+        {
+          "title": "Homily(Abba Shenouda the Archimandrite)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Let me inform you about two matters.",
+              "arabic": "أنا أخبركم بأمرين.",
+              "arabic_base_no_tashkeel": "أنا أخبركم بأمرين."
+            },
+            {
+              "row_index": 2,
+              "english": "Those for whom the heavens rejoiced for because of their repentance on earth;",
+              "arabic": "أن كل الذين فرح بهم فى السماء لاجل توبتهم على الأرض.",
+              "arabic_base_no_tashkeel": "أن كل الذين فرح بهم فى السماء لاجل توبتهم على الأرض."
+            },
+            {
+              "row_index": 3,
+              "english": "they will not suffer sadness or pain in the place they are destined to inherit.",
+              "arabic": "سوف لا يرون حزناً ولا ألماً فى ذلك المكان",
+              "arabic_base_no_tashkeel": "سوف لا يرون حزنا ولا ألما فى ذلك المكان"
+            },
+            {
+              "row_index": 4,
+              "english": "As for those whom the heavens did not rejoice for because they did not atone for their sins and did not repent for their inequities on earth,",
+              "arabic": "وأما الذين لم يفرح بهم فى السماء لاجل الارتداد من توبتهم على الأرض",
+              "arabic_base_no_tashkeel": "وأما الذين لم يفرح بهم فى السماء لاجل الارتداد من توبتهم على الأرض"
+            },
+            {
+              "row_index": 5,
+              "english": "they will find neither joy nor comfort in that place.",
+              "arabic": "فسوف لا يرون فرحاً ولا نياحاً فى ذلك الموضع.",
+              "arabic_base_no_tashkeel": "فسوف لا يرون فرحا ولا نياحا فى ذلك الموضع."
+            },
+            {
+              "row_index": 6,
+              "english": "Because those who revel in pleasures and delights will enjoy neither happiness nor comfort in Heaven.",
+              "arabic": "لان الذين سيصنعون فرحهم على الأرض. سوف لا يرون فرحاً ولا نياحاً من الآن.",
+              "arabic_base_no_tashkeel": "لان الذين سيصنعون فرحهم على الأرض. سوف لا يرون فرحا ولا نياحا من الآن."
+            },
+            {
+              "row_index": 7,
+              "english": "Have You not heard his saying Blessed are those who mourn because they shall be comforted.",
+              "arabic": "أما سمعتم طوبى للحزانى فانهم يتعزون.",
+              "arabic_base_no_tashkeel": "أما سمعتم طوبى للحزانى فانهم يتعزون."
+            },
+            {
+              "row_index": 8,
+              "english": "Also those who do not rejoice on earth shall rejoice in heavens",
+              "arabic": "وكذلك الاخرون الذين لا يفرحون على الأرض يفرحون أيضاً فى السموات",
+              "arabic_base_no_tashkeel": "وكذلك الاخرون الذين لا يفرحون على الأرض يفرحون أيضا فى السموات"
+            },
+            {
+              "row_index": 9,
+              "english": "or have not you read, “Woe to you who laugh now for you shall weep and mourn.",
+              "arabic": "أما سمعتم الويل لكم أيها الضاحكون الآن فإنكم ستبكون وتحزنون.",
+              "arabic_base_no_tashkeel": "أما سمعتم الويل لكم أيها الضاحكون الآن فإنكم ستبكون وتحزنون."
+            },
+            {
+              "row_index": 10,
+              "english": "“Isn’t this the time when the meek is vested with power.",
+              "arabic": "أليس هذا هو الزمان الذى فيه يلبس الضعفاء القوة.",
+              "arabic_base_no_tashkeel": "أليس هذا هو الزمان الذى فيه يلبس الضعفاء القوة."
+            },
+            {
+              "row_index": 11,
+              "english": "And he who is not strong will say ‘I am strong’ when he yields his heart to the Written Word.",
+              "arabic": "والذى ليس بقوى يقول أنا قوى عندما يعطى قلبه للقول المكتوب.",
+              "arabic_base_no_tashkeel": "والذى ليس بقوى يقول أنا قوى عندما يعطى قلبه للقول المكتوب."
+            },
+            {
+              "row_index": 12,
+              "english": "As the prophet says, “Many are those whose repeated adultery has weakened their bodies,",
+              "arabic": "وكقول النبى. كثيرون هم الذين ضعفت اجسادهم.",
+              "arabic_base_no_tashkeel": "وكقول النبى. كثيرون هم الذين ضعفت اجسادهم."
+            },
+            {
+              "row_index": 13,
+              "english": "and they shall be weakened at heart as well.”",
+              "arabic": "من كثرة زناهم سيضعفون أيضاً فى قلوبهم",
+              "arabic_base_no_tashkeel": "من كثرة زناهم سيضعفون أيضا فى قلوبهم"
+            },
+            {
+              "row_index": 14,
+              "english": "As the Book says about those, “They will be devastated by their own profanity.” As for those who struggle with courage it was said about them,",
+              "arabic": "كما يقول الكتاب عن هؤلاء هكذا. انه يتحطم بنجاسة نفسه. وأما المجاهدون بشجاعة فقد قيل عنهم.",
+              "arabic_base_no_tashkeel": "كما يقول الكتاب عن هؤلاء هكذا. انه يتحطم بنجاسة نفسه. وأما المجاهدون بشجاعة فقد قيل عنهم."
+            },
+            {
+              "row_index": 15,
+              "english": "“Hasten and straighten yourself to be a companion of God who preaches the Word of Truth.”",
+              "arabic": "اسرع وقوم ذاتك صفياً لله. فاعلا لا يخزى. يقطع كلمة الحق.",
+              "arabic_base_no_tashkeel": "اسرع وقوم ذاتك صفيا لله. فاعلا لا يخزى. يقطع كلمة الحق."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (120: 2, 6, 7)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "O Lord, deliver my soul from unjust lips and from a deceitful tongue.",
+              "arabic": "يارب تنجى نفسى من الشفاه الظالمة ومن اللسان الغاش.",
+              "arabic_base_no_tashkeel": "يارب تنجى نفسى من الشفاه الظالمة ومن اللسان الغاش."
+            },
+            {
+              "row_index": 2,
+              "english": "With those who hate peace, I was peaceful; when I spoke to them, they made war against me without cause.",
+              "arabic": "ومع مبغضى السلام كنت صاحب سلامة. وحين كنت أكلمهم كانوا يقاتلوننى مجانا.",
+              "arabic_base_no_tashkeel": "ومع مبغضى السلام كنت صاحب سلامة. وحين كنت أكلمهم كانوا يقاتلوننى مجانا."
+            },
+            {
+              "row_index": 3,
+              "english": "I am for peace; But when I speak, they are for war.",
+              "arabic": "وحِينَ كُنْتُ أُكَلِّمُهُمُ كانوا يُقاتِلُونَني مَجَّاناً.",
+              "arabic_base_no_tashkeel": "وحين كنت أكلمهم كانوا يقاتلونني مجانا."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (John 8: 21 - 29)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Then Jesus said to them again, “I am going away, and you will seek Me, and will die in your sin. Where I go you cannot come.” So the Jews said, “Will He kill Himself, because He says, ‘Where I go you cannot come’?”",
+              "arabic": "ثم قال لهم يسوع أيضاً أنا أمضى وستطلبونني فلا تجدوننى وتموتون بخطاياكم. وحيث أمضى أنا فلا تقدرون أنتم أن تأتوا إليَّ. فقال اليهود العله يقتل نفسه وحده. حتى يقول حيث أمضى أنا لا تقدرون أنتم أن تأتوا.",
+              "arabic_base_no_tashkeel": "ثم قال لهم يسوع أيضا أنا أمضى وستطلبونني فلا تجدوننى وتموتون بخطاياكم. وحيث أمضى أنا فلا تقدرون أنتم أن تأتوا إلي. فقال اليهود العله يقتل نفسه وحده. حتى يقول حيث أمضى أنا لا تقدرون أنتم أن تأتوا."
+            },
+            {
+              "row_index": 2,
+              "english": "And He said to them, “You are from beneath; I am from above. You are of this world; I am not of this world.",
+              "arabic": "فقال لهم أنتم أنتم من أسفل. وأما أنا فمن فوق. أنتم أنتم من هذا العالم. وأما أنا فلست من هذا العالم.",
+              "arabic_base_no_tashkeel": "فقال لهم أنتم أنتم من أسفل. وأما أنا فمن فوق. أنتم أنتم من هذا العالم. وأما أنا فلست من هذا العالم."
+            },
+            {
+              "row_index": 3,
+              "english": "Therefore I said to you that you will die in your sins; for if you do not believe that I am He, you will die in your sins.”",
+              "arabic": "قد قلت لكم أنكم تموتون بخطاياكم. لأنكم أن لم تؤمنوا أنى أنا هو. تموتون بخطاياكم.",
+              "arabic_base_no_tashkeel": "قد قلت لكم أنكم تموتون بخطاياكم. لأنكم أن لم تؤمنوا أنى أنا هو. تموتون بخطاياكم."
+            },
+            {
+              "row_index": 4,
+              "english": "Then they said to Him, “Who are You?” And Jesus said to them, “Just what I have been saying to you from the beginning.",
+              "arabic": "فقالوا له من أنت. فقال لهم يسوع أنا من البدء تكلمت معكم",
+              "arabic_base_no_tashkeel": "فقالوا له من أنت. فقال لهم يسوع أنا من البدء تكلمت معكم"
+            },
+            {
+              "row_index": 5,
+              "english": "I have many things to say and to judge concerning you,",
+              "arabic": "ولى أشياء كثيرة أقولها وأحكم بها من نحوكم.",
+              "arabic_base_no_tashkeel": "ولى أشياء كثيرة أقولها وأحكم بها من نحوكم."
+            },
+            {
+              "row_index": 6,
+              "english": "but He who sent Me is true; and I speak to the world those things which I heard from Him.” They did not understand that He spoke to them of the Father.",
+              "arabic": "ولكن الذي أرسلنى هو حق وأنا ما سمعته منه فهذا أتكلم به في العالم. فلم يفهموا أنه كان يقول لهم عن الأب.",
+              "arabic_base_no_tashkeel": "ولكن الذي أرسلنى هو حق وأنا ما سمعته منه فهذا أتكلم به في العالم. فلم يفهموا أنه كان يقول لهم عن الأب."
+            },
+            {
+              "row_index": 7,
+              "english": "Then Jesus said to them, “When you lift up the Son of Man, then you will know that I am He, and that I do nothing of Myself;",
+              "arabic": "فقال لهم يسوع متى رفعتم إبن الإنسان فحينئذ تعلمون أنى أنا هو. ولست أفعل شيئاَ من ذاتى وحدى.",
+              "arabic_base_no_tashkeel": "فقال لهم يسوع متى رفعتم إبن الإنسان فحينئذ تعلمون أنى أنا هو. ولست أفعل شيئا من ذاتى وحدى."
+            },
+            {
+              "row_index": 8,
+              "english": "but as My Father taught Me, I speak these things.",
+              "arabic": "بل أتكلم بهذا كما علمنى أبى.",
+              "arabic_base_no_tashkeel": "بل أتكلم بهذا كما علمنى أبى."
+            },
+            {
+              "row_index": 9,
+              "english": "And He who sent Me is with Me. The Father has not left Me alone, for I always do those things that please Him.”",
+              "arabic": "والذي أرسلنى هو معى ولم يدعنى وحدى لأنى فى كل حين أفعل ما يرضيه.",
+              "arabic_base_no_tashkeel": "والذي أرسلنى هو معى ولم يدعنى وحدى لأنى فى كل حين أفعل ما يرضيه."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

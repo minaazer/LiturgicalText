@@ -13,6 +13,7 @@ import holyWeekData from "../../../data/jsons/holyWeek.json";
 import { loadIconVariables, iconVariablesFallback } from "../../../data/iconVariables";
 import SettingsContext from "../../../settings/settingsContext";
 import { getJson } from "../../functions/jsonCache";
+import { buildFontTypefaceCss } from "../../css/fontTypeface";
 
 const HolyWeekHourScreen = ({ route }) => {
   const { serviceName, hourName } = route.params; // Assume these are passed via navigation
@@ -21,6 +22,7 @@ const HolyWeekHourScreen = ({ route }) => {
   const [holyWeekJson, setHolyWeekJson] = useState(holyWeekData);
   const [settings] = useContext(SettingsContext);
   const [icons, setIcons] = useState(iconVariablesFallback);
+  const [fontsReady, setFontsReady] = useState(false);
   const paschalReadingsFull = settings.paschalReadingsFull;
   const onePageSettings = settings.onePage;
   const webviewRef = useRef(null);
@@ -45,6 +47,18 @@ const HolyWeekHourScreen = ({ route }) => {
     return () => { mounted = false; };
   }, []);
 
+  useEffect(() => {
+    let mounted = true;
+    buildFontTypefaceCss()
+      .catch(() => null)
+      .finally(() => {
+        if (mounted) setFontsReady(true);
+      });
+    return () => {
+      mounted = false;
+    };
+  }, []);
+
   // Assuming `jsonData` is the parsed JSON object.
   const serviceData = holyWeekJson.find(
     (service) => service.service[0] === serviceName
@@ -61,6 +75,20 @@ const HolyWeekHourScreen = ({ route }) => {
         setDrawerItems={setDrawerItems}
         setCurrentTable={setCurrentTable}
         html="<div>Loading...</div>"
+      />
+    );
+  }
+
+  if (!fontsReady) {
+    return (
+      <RightMenuDrawer
+        currentTable={currentTable}
+        drawerItems={drawerItems}
+        handleDrawerItemPress={handleDrawerItemPress}
+        webviewRef={webviewRef}
+        setDrawerItems={setDrawerItems}
+        setCurrentTable={setCurrentTable}
+        html="<div style='color:white;padding:20px;'>Loading...</div>"
       />
     );
   }

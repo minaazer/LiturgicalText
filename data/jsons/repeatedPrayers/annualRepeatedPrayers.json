@@ -74,7 +74,7 @@
         "english_title": "Hymn of Blessing",
         "coptic_title": "Ⲧⲉⲛⲟ̀ⲩⲱϣⲧ ⲙ̀Ⲫ̀ⲓⲱⲧ",
         "arabic_title": "لحن البركة",
-        "title": "Tenouosht",
+        "title": "Hymn of Blessing",
         "placement": [
           "vestingHymn"
         ],
@@ -1668,11 +1668,23 @@
               },
               {
                 "row-class": "text",
+                "file": "offertory",
                 "cells": [
                   {
                     "english": "And make us worthy to partake of the communion of His holy and blessed mysteries, for the remission of our sins.",
                     "coptic": "Ⲛ̀ⲧⲉϥⲁⲓⲧⲉⲛ ⲛ̀ⲉⲙⲡ̀ϣⲁ ⲉⲑⲣⲉⲛϭⲓ ⲉ̀ⲃⲟⲗϧⲉⲛ ϯⲕⲟⲓⲛⲱⲛⲓⲁ ⲛ̀ⲧⲉ ⲛⲉϥⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉ̅ⲑ̅ⲩ̅: ⲉⲧ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲉ̀ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ.",
                     "arabic": "ويجعلنا مستحقين أن ننال من شركة أسراره المقدسة المباركة، لمغفرة خطايانا."
+                  }
+                ]
+              },
+              {
+                "row-class": "text",
+                "file": "covenantThursday",
+                "cells": [
+                  {
+                    "english": "and forgive us of our sins.",
+                    "coptic": "ⲛ̀ⲧⲉϥⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ.",
+                    "arabic": "و يغفر لنا خطايانا."
                   }
                 ]
               }

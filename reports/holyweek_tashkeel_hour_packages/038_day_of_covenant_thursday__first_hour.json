@@ -1,0 +1,298 @@
+{
+  "service": "DAY of Covenant Thursday",
+  "hour": "FIRST Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Exodus 17: 8 - 16)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Now Amalek came and fought with Israel in Rephidim. So Moses said to Joshua, \"Choose for yourself some mighty men and go out, and set the army in array against Amalek.",
+              "arabic": "وأتى عماليق وحارب اسرائيل فى رافازين. فقال موسى ليشوع: اختر لك رجالاً وأخرج حارب عماليق غداً.",
+              "arabic_base_no_tashkeel": "وأتى عماليق وحارب اسرائيل فى رافازين. فقال موسى ليشوع: اختر لك رجالا وأخرج حارب عماليق غدا."
+            },
+            {
+              "row_index": 2,
+              "english": "Tomorrow I will stand on the top of the hill with the rod of God in my hand.\"",
+              "arabic": "وهوذا أنا أقف على رأس الجبل.",
+              "arabic_base_no_tashkeel": "وهوذا أنا أقف على رأس الجبل."
+            },
+            {
+              "row_index": 3,
+              "english": "So Joshua did as Moses said to him and set the army in array against Amalek.",
+              "arabic": "وعصا الله فى يدى. ففعل يشوع كما قال له موسى. وخرج فحارب عماليق.",
+              "arabic_base_no_tashkeel": "وعصا الله فى يدى. ففعل يشوع كما قال له موسى. وخرج فحارب عماليق."
+            },
+            {
+              "row_index": 4,
+              "english": "Then Moses, Aaron, and Hur went up to the top of the hill.",
+              "arabic": "وصعد موسى وهرون وحور على قمة الجبل.",
+              "arabic_base_no_tashkeel": "وصعد موسى وهرون وحور على قمة الجبل."
+            },
+            {
+              "row_index": 5,
+              "english": "And so it was, when Moses held up his hands, that Israel prevailed; but when he let down his hands, Amalek prevailed.",
+              "arabic": "فكان إذا رفع موسى يديه يغلب بنو اسرائيل، وإذا خفض يديه يغلب عماليق.",
+              "arabic_base_no_tashkeel": "فكان إذا رفع موسى يديه يغلب بنو اسرائيل، وإذا خفض يديه يغلب عماليق."
+            },
+            {
+              "row_index": 6,
+              "english": "Now Moses' hands became heavy; so they took a stone and put it under him, and he sat on it.",
+              "arabic": "فلما كلت يدا موسى أخذا حجراً ووضعاه تحته وجلس عليه.",
+              "arabic_base_no_tashkeel": "فلما كلت يدا موسى أخذا حجرا ووضعاه تحته وجلس عليه."
+            },
+            {
+              "row_index": 7,
+              "english": "Then Aaron and Hur supported his hands, one on one side, and one on the other; and his hands were steady until the going down of the sun.",
+              "arabic": "ودعم هرون وحور يديه، أحدهما من هنا والآخر من هناك. فكانت يدا موسى ثابتتين إلى غروب الشمس",
+              "arabic_base_no_tashkeel": "ودعم هرون وحور يديه، أحدهما من هنا والآخر من هناك. فكانت يدا موسى ثابتتين إلى غروب الشمس"
+            },
+            {
+              "row_index": 8,
+              "english": "So Joshua defeated, Amalek and his people with the edge of the sword.",
+              "arabic": "فقتل يشوع عماليق وكل جمعه قتلا بحد السيف.",
+              "arabic_base_no_tashkeel": "فقتل يشوع عماليق وكل جمعه قتلا بحد السيف."
+            },
+            {
+              "row_index": 9,
+              "english": "Now Moses built an altar and called its name The-Lord-My-Refuge; for with a secret hand the Lord wars with Amalek from generation to generation.",
+              "arabic": "فبنى موسى مذبحاً ودعا اسمه الرب ملجأى. لأنه بيد خفية يحارب الرب عماليق من جيل إلى جيل",
+              "arabic_base_no_tashkeel": "فبنى موسى مذبحا ودعا اسمه الرب ملجأى. لأنه بيد خفية يحارب الرب عماليق من جيل إلى جيل"
+            }
+          ]
+        },
+        {
+          "title": "2nd Prophecy (Exodus 15: 22 - 16: 3)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "So Moses brought Israel from the Red Sea; then they went out into the Wilderness of Shur. And they went three days in the wilderness and found no water.",
+              "arabic": "ثُمَّ ارْتَحَلَ مُوسَى بِاسْرَائِيلَ مِنْ بَحْرِ سُوفَ وَخَرَجُوا الَى بَرِّيَّةِ شُورٍ. فَسَارُوا ثَلاثَةَ ايَّامٍ فِي الْبَرِّيَّةِ وَلَمْ يَجِدُوا مَاءً",
+              "arabic_base_no_tashkeel": "ثم ارتحل موسى باسرائيل من بحر سوف وخرجوا الى برية شور. فساروا ثلاثة ايام في البرية ولم يجدوا ماء"
+            },
+            {
+              "row_index": 2,
+              "english": "Now when they came to Marah, they could not drink the waters of Marah, for they were bitter. Therefore the name of it was called Marah.",
+              "arabic": "فَجَاءُوا الَى مَارَّةَ. وَلَمْ يَقْدِرُوا انْ يَشْرَبُوا مَاءً مِنْ مَارَّةَ لانَّهُ مُرٌّ. لِذَلِكَ دُعِيَ اسْمُهَا «مَارَّةَ».",
+              "arabic_base_no_tashkeel": "فجاءوا الى مارة. ولم يقدروا ان يشربوا ماء من مارة لانه مر. لذلك دعي اسمها «مارة»."
+            },
+            {
+              "row_index": 3,
+              "english": "And the people complained against Moses, saying, \"What shall we drink?\"",
+              "arabic": "فَتَذَمَّرَ الشَّعْبُ عَلَى مُوسَى قَائِلِينَ: «مَاذَا نَشْرَبُ؟»",
+              "arabic_base_no_tashkeel": "فتذمر الشعب على موسى قائلين: «ماذا نشرب؟»"
+            },
+            {
+              "row_index": 4,
+              "english": "So he cried out to the Lord, and the Lord showed him a tree. When he cast it into the waters, the waters were made sweet. There He made a statute and an ordinance for them. And there He tested them,",
+              "arabic": "فَصَرَخَ الَى الرَّبِّ. فَارَاهُ الرَّبُّ شَجَرَةً فَطَرَحَهَا فِي الْمَاءِ فَصَارَ الْمَاءُ عَذْبا. هُنَاكَ وَضَعَ لَهُ فَرِيضَةً وَحُكْما وَهُنَاكَ امْتَحَنَهُ.",
+              "arabic_base_no_tashkeel": "فصرخ الى الرب. فاراه الرب شجرة فطرحها في الماء فصار الماء عذبا. هناك وضع له فريضة وحكما وهناك امتحنه."
+            },
+            {
+              "row_index": 5,
+              "english": "and said, \"If you diligently heed the voice of the Lord your God and do what is right in His sight, give ear to His commandments and keep all His statutes, I will put none of the diseases on you which I have brought on the Egyptians. For I am the Lord who heals you.\"",
+              "arabic": "فَقَالَ: «انْ كُنْتَ تَسْمَعُ لِصَوْتِ الرَّبِّ الَهِكَ وَتَصْنَعُ الْحَقَّ فِي عَيْنَيْهِ وَتَصْغَى الَى وَصَايَاهُ وَتَحْفَظُ جَمِيعَ فَرَائِضِهِ فَمَرَضا مَا مِمَّا وَضَعْتُهُ عَلَى الْمِصْرِيِّينَ لا اضَعُ عَلَيْكَ. فَانِّي انَا الرَّبُّ شَافِيكَ».",
+              "arabic_base_no_tashkeel": "فقال: «ان كنت تسمع لصوت الرب الهك وتصنع الحق في عينيه وتصغى الى وصاياه وتحفظ جميع فرائضه فمرضا ما مما وضعته على المصريين لا اضع عليك. فاني انا الرب شافيك»."
+            },
+            {
+              "row_index": 6,
+              "english": "Then they came to Elim, where there were twelve wells of water and seventy palm trees; so they camped there by the waters.",
+              "arabic": "ثُمَّ جَاءُوا الَى ايلِيمَ وَهُنَاكَ اثْنَتَا عَشْرَةَ عَيْنَ مَاءٍ وَسَبْعُونَ نَخْلَةً. فَنَزَلُوا هُنَاكَ عِنْدَ الْمَاءِ.",
+              "arabic_base_no_tashkeel": "ثم جاءوا الى ايليم وهناك اثنتا عشرة عين ماء وسبعون نخلة. فنزلوا هناك عند الماء."
+            },
+            {
+              "row_index": 7,
+              "english": "And they journeyed from Elim, and all the congregation of the children of Israel came to the Wilderness of Sin, which is between Elim and Sinai, on the fifteenth day of the second month after they departed from the land of Egypt.",
+              "arabic": "ثُمَّ ارْتَحَلُوا مِنْ ايلِيمَ. وَاتَى كُلُّ جَمَاعَةِ بَنِي اسْرَائِيلَ الَى بَرِّيَّةِ سِينٍ (الَّتِي بَيْنَ ايلِيمَ وَسِينَاءَ) فِي الْيَوْمِ الْخَامِسَ عَشَرَ مِنَ الشَّهْرِ الثَّانِي بَعْدَ خُرُوجِهِمْ مِنْ ارْضِ مِصْرَ.",
+              "arabic_base_no_tashkeel": "ثم ارتحلوا من ايليم. واتى كل جماعة بني اسرائيل الى برية سين (التي بين ايليم وسيناء) في اليوم الخامس عشر من الشهر الثاني بعد خروجهم من ارض مصر."
+            },
+            {
+              "row_index": 8,
+              "english": "Then the whole congregation of the children of Israel complained against Moses and Aaron in the wilderness.",
+              "arabic": "فَتَذَمَّرَ كُلُّ جَمَاعَةِ بَنِي اسْرَائِيلَ عَلَى مُوسَى وَهَارُونَ فِي الْبَرِّيَّةِ.",
+              "arabic_base_no_tashkeel": "فتذمر كل جماعة بني اسرائيل على موسى وهارون في البرية."
+            },
+            {
+              "row_index": 9,
+              "english": "And the children of Israel said to them, \"Oh, that we had died by the hand of the Lord in the land of Egypt, when we sat by the pots of meat and when we ate bread to the full! For you have brought us out into this wilderness to kill this whole assembly with hunger.\"",
+              "arabic": "وَقَالَ لَهُمَا بَنُو اسْرَائِيلَ: «لَيْتَنَا مُتْنَا بِيَدِ الرَّبِّ فِي ارْضِ مِصْرَ اذْ كُنَّا جَالِسِينَ عِنْدَ قُدُورِ اللَّحْمِ نَاكُلُ خُبْزا لِلشَّبَعِ! فَانَّكُمَا اخْرَجْتُمَانَا الَى هَذَا الْقَفْرِ لِتُمِيتَا كُلَّ هَذَا الْجُمْهُورِ بِالْجُوعِ».",
+              "arabic_base_no_tashkeel": "وقال لهما بنو اسرائيل: «ليتنا متنا بيد الرب في ارض مصر اذ كنا جالسين عند قدور اللحم ناكل خبزا للشبع! فانكما اخرجتمانا الى هذا القفر لتميتا كل هذا الجمهور بالجوع»."
+            }
+          ]
+        },
+        {
+          "title": "3rd Prophecy (Isaiah 58: 1 - 11)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "\"Cry aloud, spare not; Lift up your voice like a trumpet; Tell My people their transgression, And the house of Jacob their sins.",
+              "arabic": "نَادِ بِصَوْتٍ عَالٍ. لاَ تُمْسِكْ. ارْفَعْ صَوْتَكَ كَبُوقٍ وَأَخْبِرْ شَعْبِي بِتَعَدِّيهِمْ وَبَيْتَ يَعْقُوبَ بِخَطَايَاهُمْ.",
+              "arabic_base_no_tashkeel": "ناد بصوت عال. لا تمسك. ارفع صوتك كبوق وأخبر شعبي بتعديهم وبيت يعقوب بخطاياهم."
+            },
+            {
+              "row_index": 2,
+              "english": "Yet they seek Me daily, And delight to know My ways, As a nation that did righteousness, And did not forsake the ordinance of their God. They ask of Me the ordinances of justice; They take delight in approaching God.",
+              "arabic": "وَإِيَّايَ يَطْلُبُونَ يَوْماً فَيَوْماً وَيُسَرُّونَ بِمَعْرِفَةِ طُرُقِي كَأُمَّةٍ عَمِلَتْ بِرّاً وَلَمْ تَتْرُكْ قَضَاءَ إِلَهِهَا. يَسْأَلُونَنِي عَنْ أَحْكَامِ الْبِرِّ. يُسَرُّونَ بِالتَّقَرُّبِ إِلَى اللَّهِ.",
+              "arabic_base_no_tashkeel": "وإياي يطلبون يوما فيوما ويسرون بمعرفة طرقي كأمة عملت برا ولم تترك قضاء إلهها. يسألونني عن أحكام البر. يسرون بالتقرب إلى الله."
+            },
+            {
+              "row_index": 3,
+              "english": "'Why have we fasted,' they say, 'and You have not seen? Why have we afflicted our souls, and You take no notice?' \"In fact, in the day of your fast you find pleasure, And exploit all your laborers.",
+              "arabic": "يَقُولُونَ: «لِمَاذَا صُمْنَا وَلَمْ تَنْظُرْ ذَلَّلْنَا أَنْفُسَنَا وَلَمْ تُلاَحِظْ؟» هَا إِنَّكُمْ فِي يَوْمِ صَوْمِكُمْ تُوجِدُونَ مَسَرَّةً وَبِكُلِّ أَشْغَالِكُمْ تُسَخِّرُونَ.",
+              "arabic_base_no_tashkeel": "يقولون: «لماذا صمنا ولم تنظر ذللنا أنفسنا ولم تلاحظ؟» ها إنكم في يوم صومكم توجدون مسرة وبكل أشغالكم تسخرون."
+            },
+            {
+              "row_index": 4,
+              "english": "Indeed you fast for strife and debate, And to strike with the fist of wickedness. You will not fast as you do this day, To make your voice heard on high.",
+              "arabic": "هَا إِنَّكُمْ لِلْخُصُومَةِ وَالنِّزَاعِ تَصُومُونَ وَلِتَضْرِبُوا بِلَكْمَةِ الشَّرِّ. لَسْتُمْ تَصُومُونَ كَمَا الْيَوْمَ لِتَسْمِيعِ صَوْتِكُمْ فِي الْعَلاَءِ.",
+              "arabic_base_no_tashkeel": "ها إنكم للخصومة والنزاع تصومون ولتضربوا بلكمة الشر. لستم تصومون كما اليوم لتسميع صوتكم في العلاء."
+            },
+            {
+              "row_index": 5,
+              "english": "Is it a fast that I have chosen, A day for a man to afflict his soul? Is it to bow down his head like a bulrush, And to spread out sackcloth and ashes? Would you call this a fast, And an acceptable day to the Lord?",
+              "arabic": "أَمِثْلُ هَذَا يَكُونُ صَوْمٌ أَخْتَارُهُ؟ يَوْماً يُذَلِّلُ الإِنْسَانُ فِيهِ نَفْسَهُ يُحْنِي كَالأَسَلَةِ رَأْسَهُ وَيَفْرِشُ تَحْتَهُ مِسْحاً وَرَمَاداً. هَلْ تُسَمِّي هَذَا صَوْماً وَيَوْماً مَقْبُولاً لِلرَّبِّ؟",
+              "arabic_base_no_tashkeel": "أمثل هذا يكون صوم أختاره؟ يوما يذلل الإنسان فيه نفسه يحني كالأسلة رأسه ويفرش تحته مسحا ورمادا. هل تسمي هذا صوما ويوما مقبولا للرب؟"
+            },
+            {
+              "row_index": 6,
+              "english": "\"Is this not the fast that I have chosen: To loose the bonds of wickedness, To undo the heavy burdens, To let the oppressed go free, And that you break every yoke?",
+              "arabic": "أَلَيْسَ هَذَا صَوْماً أَخْتَارُهُ: حَلَّ قُيُودِ الشَّرِّ. فَكَّ عُقَدِ النِّيرِ وَإِطْلاَقَ الْمَسْحُوقِينَ أَحْرَاراً وَقَطْعَ كُلِّ نِيرٍ.",
+              "arabic_base_no_tashkeel": "أليس هذا صوما أختاره: حل قيود الشر. فك عقد النير وإطلاق المسحوقين أحرارا وقطع كل نير."
+            },
+            {
+              "row_index": 7,
+              "english": "Is it not to share your bread with the hungry, And that you bring to your house the poor who are cast out; When you see the naked, that you cover him, And not hide yourself from your own flesh?",
+              "arabic": "أَلَيْسَ أَنْ تَكْسِرَ لِلْجَائِعِ خُبْزَكَ وَأَنْ تُدْخِلَ الْمَسَاكِينَ التَّائِهِينَ إِلَى بَيْتِكَ؟ إِذَا رَأَيْتَ عُرْيَاناً أَنْ تَكْسُوهُ وَأَنْ لاَ تَتَغَاضَى عَنْ لَحْمِكَ.",
+              "arabic_base_no_tashkeel": "أليس أن تكسر للجائع خبزك وأن تدخل المساكين التائهين إلى بيتك؟ إذا رأيت عريانا أن تكسوه وأن لا تتغاضى عن لحمك."
+            },
+            {
+              "row_index": 8,
+              "english": "Then your light shall break forth like the morning, Your healing shall spring forth speedily, And your righteousness shall go before you; The glory of the Lord shall be your rear guard.",
+              "arabic": "حِينَئِذٍ يَنْفَجِرُ مِثْلَ الصُّبْحِ نُورُكَ وَتَنْبُتُ صِحَّتُكَ سَرِيعاً وَيَسِيرُ بِرُّكَ أَمَامَكَ وَمَجْدُ الرَّبِّ يَجْمَعُ سَاقَتَكَ.",
+              "arabic_base_no_tashkeel": "حينئذ ينفجر مثل الصبح نورك وتنبت صحتك سريعا ويسير برك أمامك ومجد الرب يجمع ساقتك."
+            },
+            {
+              "row_index": 9,
+              "english": "Then you shall call, and the Lord will answer; You shall cry, and He will say, 'Here I am.' \"If you take away the yoke from your midst, The pointing of the finger, and speaking wickedness,",
+              "arabic": "حِينَئِذٍ تَدْعُو فَيُجِيبُ الرَّبُّ. تَسْتَغِيثُ فَيَقُولُ: «هَئَنَذَا». إِنْ نَزَعْتَ مِنْ وَسَطِكَ النِّيرَ وَالإِيمَاءَ بِالإِصْبِعِ وَكَلاَمَ الإِثْمِ",
+              "arabic_base_no_tashkeel": "حينئذ تدعو فيجيب الرب. تستغيث فيقول: «هئنذا». إن نزعت من وسطك النير والإيماء بالإصبع وكلام الإثم"
+            },
+            {
+              "row_index": 10,
+              "english": "If you extend your soul to the hungry And satisfy the afflicted soul, Then your light shall dawn in the darkness, And your darkness shall be as the noonday.",
+              "arabic": "وَأَنْفَقْتَ نَفْسَكَ لِلْجَائِعِ وَأَشْبَعْتَ النَّفْسَ الذَّلِيلَةَ يُشْرِقُ فِي الظُّلْمَةِ نُورُكَ وَيَكُونُ ظَلاَمُكَ الدَّامِسُ مِثْلَ الظُّهْرِ",
+              "arabic_base_no_tashkeel": "وأنفقت نفسك للجائع وأشبعت النفس الذليلة يشرق في الظلمة نورك ويكون ظلامك الدامس مثل الظهر"
+            },
+            {
+              "row_index": 11,
+              "english": "The Lord will guide you continually, And satisfy your soul in drought, And strengthen your bones; You shall be like a watered garden, And like a spring of water, whose waters do not fail.",
+              "arabic": "وَيَقُودُكَ الرَّبُّ عَلَى الدَّوَامِ وَيُشْبِعُ فِي الْجَدُوبِ نَفْسَكَ وَيُنَشِّطُ عِظَامَكَ فَتَصِيرُ كَجَنَّةٍ رَيَّا وَكَنَبْعِ مِيَاهٍ لاَ تَنْقَطِعُ مِيَاهُهُ.",
+              "arabic_base_no_tashkeel": "ويقودك الرب على الدوام ويشبع في الجدوب نفسك وينشط عظامك فتصير كجنة ريا وكنبع مياه لا تنقطع مياهه."
+            }
+          ]
+        },
+        {
+          "title": "4th Prophecy (Ezekiel 18: 20 - 32)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "The soul who sins shall die. The son shall not bear the guilt of the father, nor the father bear the guilt of the son. The righteousness of the righteous shall be upon himself, and the wickedness of the wicked shall be upon himself.",
+              "arabic": "اَلنَّفْسُ الَّتِي تُخْطِئُ هِيَ تَمُوتُ. الاِبْنُ لاَ يَحْمِلُ مِنْ إِثْمِ الأَبِ وَالأَبُ لاَ يَحْمِلُ مِنْ إِثْمِ الاِبْنِ. بِرُّ الْبَارِّ عَلَيْهِ يَكُونُ وَشَرُّ الشِّرِّيرِ عَلَيْهِ يَكُونُ.",
+              "arabic_base_no_tashkeel": "النفس التي تخطئ هي تموت. الابن لا يحمل من إثم الأب والأب لا يحمل من إثم الابن. بر البار عليه يكون وشر الشرير عليه يكون."
+            },
+            {
+              "row_index": 2,
+              "english": "\"But if a wicked man turns from all his sins which he has committed, keeps all My statutes, and does what is lawful and right, he shall surely live; he shall not die.",
+              "arabic": "فَإِذَا رَجَعَ الشِّرِّيرُ عَنْ جَمِيعِ خَطَايَاهُ الَّتِي فَعَلَهَا وَحَفِظَ كُلَّ فَرَائِضِي وَفَعَلَ حَقّاً وَعَدْلاً فَحَيَاةً يَحْيَا. لاَ يَمُوتُ.",
+              "arabic_base_no_tashkeel": "فإذا رجع الشرير عن جميع خطاياه التي فعلها وحفظ كل فرائضي وفعل حقا وعدلا فحياة يحيا. لا يموت."
+            },
+            {
+              "row_index": 3,
+              "english": "None of the transgressions which he has committed shall be remembered against him; because of the righteousness which he has done, he shall live.",
+              "arabic": "كُلُّ مَعَاصِيهِ الَّتِي فَعَلَهَا لاَ تُذْكَرُ عَلَيْهِ. فِي بِرِّهِ الَّذِي عَمِلَ يَحْيَا.",
+              "arabic_base_no_tashkeel": "كل معاصيه التي فعلها لا تذكر عليه. في بره الذي عمل يحيا."
+            },
+            {
+              "row_index": 4,
+              "english": "Do I have any pleasure at all that the wicked should die?\" says the Lord God, \"and not that he should turn from his ways and live?",
+              "arabic": "هَلْ مَسَرَّةً أُسَرُّ بِمَوْتِ الشِّرِّيرِ يَقُولُ السَّيِّدُ الرَّبُّ؟ أَلاَ بِرُجُوعِهِ عَنْ طُرُقِهِ فَيَحْيَا؟",
+              "arabic_base_no_tashkeel": "هل مسرة أسر بموت الشرير يقول السيد الرب؟ ألا برجوعه عن طرقه فيحيا؟"
+            },
+            {
+              "row_index": 5,
+              "english": "\"But when a righteous man turns away from his righteousness and commits iniquity, and does according to all the abominations that the wicked man does, shall he live? All the righteousness which he has done shall not be remembered; because of the unfaithfulness of which he is guilty and the sin which he has committed, because of them he shall die.",
+              "arabic": "وَإِذَا رَجَعَ الْبَارُّ عَنْ بِرِّهِ وَعَمِلَ إِثْماً وَفَعَلَ مِثْلَ كُلِّ الرَّجَاسَاتِ الَّتِي يَفْعَلُهَا الشِّرِّيرُ, أَفَيَحْيَا؟ كُلُّ بِرِّهِ الَّذِي عَمِلَهُ لاَ يُذْكَرُ. فِي خِيَانَتِهِ الَّتِي خَانَهَا وَفِي خَطِيَّتِهِ الَّتِي أَخْطَأَ بِهَا يَمُوتُ.",
+              "arabic_base_no_tashkeel": "وإذا رجع البار عن بره وعمل إثما وفعل مثل كل الرجاسات التي يفعلها الشرير, أفيحيا؟ كل بره الذي عمله لا يذكر. في خيانته التي خانها وفي خطيته التي أخطأ بها يموت."
+            },
+            {
+              "row_index": 6,
+              "english": "\"Yet you say, 'The way of the Lord is not fair.' Hear now, O house of Israel, is it not My way which is fair, and your ways which are not fair?",
+              "arabic": "[وَأَنْتُمْ تَقُولُونَ: لَيْسَتْ طَرِيقُ الرَّبِّ مُسْتَوِيَةً. فَاسْمَعُوا الآنَ يَا بَيْتَ إِسْرَائِيلَ. أَطَرِيقِي هِيَ غَيْرُ مُسْتَوِيَةٍ؟ أَلَيْسَتْ طُرُقُكُمْ غَيْرَ مُسْتَوِيَةٍ؟",
+              "arabic_base_no_tashkeel": "[وأنتم تقولون: ليست طريق الرب مستوية. فاسمعوا الآن يا بيت إسرائيل. أطريقي هي غير مستوية؟ أليست طرقكم غير مستوية؟"
+            },
+            {
+              "row_index": 7,
+              "english": "When a righteous man turns away from his righteousness, commits iniquity, and dies in it, it is because of the iniquity which he has done that he dies.",
+              "arabic": "إِذَا رَجَعَ الْبَارُّ عَنْ بِرِّهِ وَعَمِلَ إِثْماً وَمَاتَ فِيهِ, فَبِإِثْمِهِ الَّذِي عَمِلَهُ يَمُوتُ.",
+              "arabic_base_no_tashkeel": "إذا رجع البار عن بره وعمل إثما ومات فيه, فبإثمه الذي عمله يموت."
+            },
+            {
+              "row_index": 8,
+              "english": "Again, when a wicked man turns away from the wickedness which he committed, and does what is lawful and right, he preserves himself alive.",
+              "arabic": "وَإِذَا رَجَعَ الشِّرِّيرُ عَنْ شَرِّهِ الَّذِي فَعَلَ, وَعَمِلَ حَقّاً وَعَدْلاً, فَهُوَ يُحْيِي نَفْسَهُ.",
+              "arabic_base_no_tashkeel": "وإذا رجع الشرير عن شره الذي فعل, وعمل حقا وعدلا, فهو يحيي نفسه."
+            },
+            {
+              "row_index": 9,
+              "english": "Because he considers and turns away from all the transgressions which he committed, he shall surely live; he shall not die.",
+              "arabic": "رَأَى فَرَجَعَ عَنْ كُلِّ مَعَاصِيهِ الَّتِي عَمِلَهَا فَحَيَاةً يَحْيَا. لاَ يَمُوتُ.",
+              "arabic_base_no_tashkeel": "رأى فرجع عن كل معاصيه التي عملها فحياة يحيا. لا يموت."
+            },
+            {
+              "row_index": 10,
+              "english": "Yet the house of Israel says, 'The way of the Lord is not fair.' O house of Israel, is it not My ways which are fair, and your ways which are not fair?",
+              "arabic": "وَبَيْتُ إِسْرَائِيلَ يَقُولُ: لَيْسَتْ طَرِيقُ الرَّبِّ مُسْتَوِيَةً. أَطُرُقِي غَيْرُ مُسْتَقِيمَةٍ يَا بَيْتَ إِسْرَائِيلَ؟ أَلَيْسَتْ طُرُقُكُمْ غَيْرَ مُسْتَقِيمَةٍ؟",
+              "arabic_base_no_tashkeel": "وبيت إسرائيل يقول: ليست طريق الرب مستوية. أطرقي غير مستقيمة يا بيت إسرائيل؟ أليست طرقكم غير مستقيمة؟"
+            },
+            {
+              "row_index": 11,
+              "english": "\"Therefore I will judge you, O house of Israel, every one according to his ways,\" says the Lord God. \"Repent, and turn from all your transgressions, so that iniquity will not be your ruin.",
+              "arabic": "مِنْ أَجْلِ ذَلِكَ أَقْضِي عَلَيْكُمْ يَا بَيْتَ إِسْرَائِيلَ كُلِّ وَاحِدٍ كَطُرُقِهِ يَقُولُ السَّيِّدُ الرَّبُّ. تُوبُوا وَارْجِعُوا عَنْ كُلِّ مَعَاصِيكُمْ, وَلاَ يَكُونُ لَكُمُ الإِثْمُ مَهْلَكَةً.",
+              "arabic_base_no_tashkeel": "من أجل ذلك أقضي عليكم يا بيت إسرائيل كل واحد كطرقه يقول السيد الرب. توبوا وارجعوا عن كل معاصيكم, ولا يكون لكم الإثم مهلكة."
+            },
+            {
+              "row_index": 12,
+              "english": "Cast away from you all the transgressions which you have committed, and get yourselves a new heart and a new spirit. For why should you die, O house of Israel?",
+              "arabic": "اِطْرَحُوا عَنْكُمْ كُلَّ مَعَاصِيكُمُ الَّتِي عَصِيْتُمْ بِهَا, وَاعْمَلُوا لأَنْفُسِكُمْ قَلْباً جَدِيداً وَرُوحاً جَدِيدَةً. فَلِمَاذَا تَمُوتُونَ يَا بَيْتَ إِسْرَائِيلَ؟",
+              "arabic_base_no_tashkeel": "اطرحوا عنكم كل معاصيكم التي عصيتم بها, واعملوا لأنفسكم قلبا جديدا وروحا جديدة. فلماذا تموتون يا بيت إسرائيل؟"
+            },
+            {
+              "row_index": 13,
+              "english": "For I have no pleasure in the death of one who dies,\" says the Lord God. \"Therefore turn and live!",
+              "arabic": "لأَنِّي لاَ أُسَرُّ بِمَوْتِ مَنْ يَمُوتُ يَقُولُ السَّيِّدُ الرَّبُّ. فَارْجِعُوا وَاحْيُوا].",
+              "arabic_base_no_tashkeel": "لأني لا أسر بموت من يموت يقول السيد الرب. فارجعوا واحيوا]."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

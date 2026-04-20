@@ -1,0 +1,395 @@
+{
+  "service": "EVE of Great Friday",
+  "hour": "NINTH Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Jeremiah 9: 7 - 11)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Therefore thus says the Lord: \"Behold, I will set them on fire and test them; I shall do so because of the evil of the daughter of My people.",
+              "arabic": "من أجل ذلك هكذا يقول الرب: هأنذا أسكبهم وامتحنهم شر إبنة شعبي,",
+              "arabic_base_no_tashkeel": "من أجل ذلك هكذا يقول الرب: هأنذا أسكبهم وامتحنهم شر إبنة شعبي,"
+            },
+            {
+              "row_index": 2,
+              "english": "Their tongue is a wounding arrow, and the words of their mouth are deceitful. One speaks peaceably to his neighbor, but has hatred in his heart.",
+              "arabic": "لسانهم سهم حاد، وكلمات أفواههم غاشة. يتكلم مع قريبة كلاماً سلامياً والعداوة في قلبه،",
+              "arabic_base_no_tashkeel": "لسانهم سهم حاد، وكلمات أفواههم غاشة. يتكلم مع قريبة كلاما سلاميا والعداوة في قلبه،"
+            },
+            {
+              "row_index": 3,
+              "english": "Shall I not visit them for these things?\" says the Lord. \"Shall not My soul take vengeance on such a people as this?",
+              "arabic": "أعلى هذا لا افتقدهم يقول الرب. أم لا تنتقم نفسي من شعب كهذا؟!",
+              "arabic_base_no_tashkeel": "أعلى هذا لا افتقدهم يقول الرب. أم لا تنتقم نفسي من شعب كهذا؟!"
+            },
+            {
+              "row_index": 4,
+              "english": "Take up a wailing on the mountains and a lamentation on the paths of the desert; for they cease from being a people.",
+              "arabic": "قل نوحا على الجبال وإبك على طرق البرية، لأنها قد تركت وليس فيها إنسان،",
+              "arabic_base_no_tashkeel": "قل نوحا على الجبال وإبك على طرق البرية، لأنها قد تركت وليس فيها إنسان،"
+            },
+            {
+              "row_index": 5,
+              "english": "They do not hear the sound of existence from the birds of the sky, nor even from cattle. They were astonished; they were gone. I will put Jerusalem into captivity, and it will become a dwelling place of serpents. I will make the cities of Judah desolate, beyond habitation.\"",
+              "arabic": "ولم يسمع صوت سكان من الطير إلى البهائم. تحيرت وهلكت وسأنقل أورشليم وأصيرها مسكناً للتنانين، ومدن يهوذا أجعلها للهلاك، ولا يكون فيها ساكن.",
+              "arabic_base_no_tashkeel": "ولم يسمع صوت سكان من الطير إلى البهائم. تحيرت وهلكت وسأنقل أورشليم وأصيرها مسكنا للتنانين، ومدن يهوذا أجعلها للهلاك، ولا يكون فيها ساكن."
+            }
+          ]
+        },
+        {
+          "title": "2nd Prophecy (Ezekiel 21: 28 - 32)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "\"As for you, son of man, prophesy, and you shall say, 'Thus says the Lord to the sons of Ammon and to their shame,' and you shall say, 'O sword, sword, drawn for slaughter and for an end; arise, that you may glisten. While you are seeing a worthless vision, and while you are prophesying falsehood,",
+              "arabic": "وأنت أيضاً يا إبن الإنسان تنبأ وقل: هذا ما يقوله الرب لبنى عمون وتعييرهم. وقل للسيف: أيها السيف المسلول للذبح، المصقول للنهاية، قم وأبرق برؤياك الباطل وللتهديد بالكذب،",
+              "arabic_base_no_tashkeel": "وأنت أيضا يا إبن الإنسان تنبأ وقل: هذا ما يقوله الرب لبنى عمون وتعييرهم. وقل للسيف: أيها السيف المسلول للذبح، المصقول للنهاية، قم وأبرق برؤياك الباطل وللتهديد بالكذب،"
+            },
+            {
+              "row_index": 2,
+              "english": "And while you are handing over the necks of wounded and lawless men whose day has come, whose end of wrongdoing has come at the proper time.",
+              "arabic": "لتقطع أعناق المخالفين الذي قد قربت ايامهم، وكمل زمان ظلمهم.",
+              "arabic_base_no_tashkeel": "لتقطع أعناق المخالفين الذي قد قربت ايامهم، وكمل زمان ظلمهم."
+            },
+            {
+              "row_index": 3,
+              "english": "Turn back, and do not lodge in this place in which you were born, for I will judge you in your own land.",
+              "arabic": "أرجع ولا تسترح في المكان الذي ولدت فيه، سأدينك في أرضك",
+              "arabic_base_no_tashkeel": "أرجع ولا تسترح في المكان الذي ولدت فيه، سأدينك في أرضك"
+            },
+            {
+              "row_index": 4,
+              "english": "I will pour out My wrath upon you; I will breathe upon you with the fire of My wrath, and deliver you into the hands of barbarians, skilled in working destruction.",
+              "arabic": "وأسكب عليك رجزى وبنار سخطى أنفخ عليك غضبى وسأسلمك للبربر صانعي الهلاك،",
+              "arabic_base_no_tashkeel": "وأسكب عليك رجزى وبنار سخطى أنفخ عليك غضبى وسأسلمك للبربر صانعي الهلاك،"
+            },
+            {
+              "row_index": 5,
+              "english": "You will be fuel for the fire; your blood will be in the midst of your land. There will be no remembrance of you; for I the Lord have spoken.'",
+              "arabic": "فتكون مأكلا للنار ودمك يكون في وسط أرضك ولا يكون لك ذكر لأني أنا الرب تكلمت.",
+              "arabic_base_no_tashkeel": "فتكون مأكلا للنار ودمك يكون في وسط أرضك ولا يكون لك ذكر لأني أنا الرب تكلمت."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (28: 3 - 4, 35: 4)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Who speak peace with their neighbor, but evil is in their hearts. Give them according to their works, according to the wickedness of their pursuits.",
+              "arabic": "المتكلمون مع أصحابهم بالسلام والشرور في قلوبهم، أعطهم يا رب كحسب أفعالهم ومثل شر أعمالهم:",
+              "arabic_base_no_tashkeel": "المتكلمون مع أصحابهم بالسلام والشرور في قلوبهم، أعطهم يا رب كحسب أفعالهم ومثل شر أعمالهم:"
+            },
+            {
+              "row_index": 2,
+              "english": "Let those who seek my soul be dishonored and shamed.",
+              "arabic": "فليخز ويخجل جميع اللذين يطلبون نفسى،",
+              "arabic_base_no_tashkeel": "فليخز ويخجل جميع اللذين يطلبون نفسى،"
+            },
+            {
+              "row_index": 3,
+              "english": "Let those who plot evils against me be turned backward and disappointed.",
+              "arabic": "وليرتدوا إلى الوراء ويفتضح الذين يتآمرون على بالسوء:",
+              "arabic_base_no_tashkeel": "وليرتدوا إلى الوراء ويفتضح الذين يتآمرون على بالسوء:"
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Matthew 26: 47 - 58)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "And while He was still speaking, behold, Judas, one of the twelve, with a great multitude with swords and clubs, came from the chief priests and elders of the people. Now His betrayer had given them a sign, saying, \"Whomever I kiss, He is the One; seize Him.\"",
+              "arabic": "وفيما هو يتكلم إذ جاء يهوذا أحد الإثنى عشر ومعه جمع كثير بسيوف وعصى من قبل رؤساء الكهنة وشيوخ الشعب، وكان مسلمه قد أعطاهم علامة قائلا: الذي أقبل فاه هو هو فأمسكوه.",
+              "arabic_base_no_tashkeel": "وفيما هو يتكلم إذ جاء يهوذا أحد الإثنى عشر ومعه جمع كثير بسيوف وعصى من قبل رؤساء الكهنة وشيوخ الشعب، وكان مسلمه قد أعطاهم علامة قائلا: الذي أقبل فاه هو هو فأمسكوه."
+            },
+            {
+              "row_index": 2,
+              "english": "Immediately he went up to Jesus and said, \"Greetings, Rabbi!\" and kissed Him. But Jesus said to him, \"Friend, why have you come?\" Then they came and laid hands on Jesus and took Him.",
+              "arabic": "وللوقت تقدم إلى يسوع وقال له: السلام يا معلم. وقبل فاه. فقال له يسوع: يا صاحب، أهذا الذي جئت من أجله؟ حينئذ ألقوا أيديهم على يسوع وأمسكوه،",
+              "arabic_base_no_tashkeel": "وللوقت تقدم إلى يسوع وقال له: السلام يا معلم. وقبل فاه. فقال له يسوع: يا صاحب، أهذا الذي جئت من أجله؟ حينئذ ألقوا أيديهم على يسوع وأمسكوه،"
+            },
+            {
+              "row_index": 3,
+              "english": "And suddenly, one of those who were with Jesus stretched out his hand and drew his sword, struck the servant of the high priest, and cut off his right ear.",
+              "arabic": "وإذ واحد من الذين كانوا مع يسوع مد يده وإستل سيفه وضرب عبد رئيس الكهنة، فقطع أذنه اليمنى،",
+              "arabic_base_no_tashkeel": "وإذ واحد من الذين كانوا مع يسوع مد يده وإستل سيفه وضرب عبد رئيس الكهنة، فقطع أذنه اليمنى،"
+            },
+            {
+              "row_index": 4,
+              "english": "But Jesus said to him, \"Put your sword in its place, for all who take the sword will perish by the sword.",
+              "arabic": "حينئذ قال له يسوع: أردد السيف إلى مكانه، لأن كل الذين يأخذون بالسيف بالسيف يهلكون.",
+              "arabic_base_no_tashkeel": "حينئذ قال له يسوع: أردد السيف إلى مكانه، لأن كل الذين يأخذون بالسيف بالسيف يهلكون."
+            },
+            {
+              "row_index": 5,
+              "english": "Or do you think that I cannot now pray to My Father, and He will provide Me with more than twelve legions of angels?",
+              "arabic": "أتظن أنى لا أستطيع الآن أن أطلب من أبي فيقدم لى في الحال ههنا أكثر من إثنتى عشرة جوقة من الملائكة،",
+              "arabic_base_no_tashkeel": "أتظن أنى لا أستطيع الآن أن أطلب من أبي فيقدم لى في الحال ههنا أكثر من إثنتى عشرة جوقة من الملائكة،"
+            },
+            {
+              "row_index": 6,
+              "english": "How then could the Scriptures be fulfilled, that it must happen thus?\"",
+              "arabic": "ولكن كيف تتم الكتب؟!. فإنه هكذا ينبغي أن يكون.",
+              "arabic_base_no_tashkeel": "ولكن كيف تتم الكتب؟!. فإنه هكذا ينبغي أن يكون."
+            },
+            {
+              "row_index": 7,
+              "english": "In that hour Jesus said to the multitudes, \"Have you come out, as against a robber, with swords and clubs to take Me?",
+              "arabic": "وفي تلك الساعة قال يسوع للجموع: خرجتم كما تخرجون على لص بسيوف وعصى لتمسكوني،",
+              "arabic_base_no_tashkeel": "وفي تلك الساعة قال يسوع للجموع: خرجتم كما تخرجون على لص بسيوف وعصى لتمسكوني،"
+            },
+            {
+              "row_index": 8,
+              "english": "I sat daily with you, teaching in the temple, and you did not seize Me.",
+              "arabic": "أما كنت أجلس كل يوم في الهيكل أعلم ولم تمسكوني؟!",
+              "arabic_base_no_tashkeel": "أما كنت أجلس كل يوم في الهيكل أعلم ولم تمسكوني؟!"
+            },
+            {
+              "row_index": 9,
+              "english": "But all this was done that the Scriptures of the prophets might be fulfilled.\"",
+              "arabic": "وهذا كله قد كان لتتم كتب الآنبياء.",
+              "arabic_base_no_tashkeel": "وهذا كله قد كان لتتم كتب الآنبياء."
+            },
+            {
+              "row_index": 10,
+              "english": "Then all the disciples forsook Him and fled. And those who had laid hold of Jesus led Him away to Caiaphas the high priest, where the scribes and the elders were assembled.",
+              "arabic": "حينئذ تركه التلاميذ كلهم وهربوا، أما هم فأمسكوا يسوع وقدموه إلى قيافا رئيس الكهنة، حيث إجتمع الكتبة والشيوخ",
+              "arabic_base_no_tashkeel": "حينئذ تركه التلاميذ كلهم وهربوا، أما هم فأمسكوا يسوع وقدموه إلى قيافا رئيس الكهنة، حيث إجتمع الكتبة والشيوخ"
+            },
+            {
+              "row_index": 11,
+              "english": "But Peter followed Him at a distance to the high priest's courtyard.",
+              "arabic": "وكان بطرس يتبعهم من بعيد إلى دار رئيس الكهنة، ودخل",
+              "arabic_base_no_tashkeel": "وكان بطرس يتبعهم من بعيد إلى دار رئيس الكهنة، ودخل"
+            },
+            {
+              "row_index": 12,
+              "english": "And he went in and sat with the servants to see the end.",
+              "arabic": "وجلس مع الخدام لينظر النهاية.",
+              "arabic_base_no_tashkeel": "وجلس مع الخدام لينظر النهاية."
+            }
+          ]
+        },
+        {
+          "title": "Psalm (28: 3 - 4, 35: 4)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Who speak peace to their neighbors, But evil is in their hearts.",
+              "arabic": "المتكلمون مع أصحابهم بالسلام والشرور في قلوبهم،",
+              "arabic_base_no_tashkeel": "المتكلمون مع أصحابهم بالسلام والشرور في قلوبهم،"
+            },
+            {
+              "row_index": 2,
+              "english": "Give them according to their deeds, And according to the wickedness of their endeavors. Alleluia.",
+              "arabic": "أعطهم يا رب كحسب أفعالهم ومثل شر أعمالهم:",
+              "arabic_base_no_tashkeel": "أعطهم يا رب كحسب أفعالهم ومثل شر أعمالهم:"
+            },
+            {
+              "row_index": 3,
+              "english": "Let those be put to shame and brought to dishonor who seek after my life; Let those be turned back and brought to confusion who plot my hurt.",
+              "arabic": "فليخز ويخجل جميع اللذين يطلبون نفسى، وليرتدوا إلى الوراء ويفتضح الذين يتآمرون على بالسوء:",
+              "arabic_base_no_tashkeel": "فليخز ويخجل جميع اللذين يطلبون نفسى، وليرتدوا إلى الوراء ويفتضح الذين يتآمرون على بالسوء:"
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Mark 14: 43 - 54)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "And immediately, while He was still speaking, Judas, one of the twelve, with a great multitude with swords and clubs, came from the chief priests and the scribes and the elders.",
+              "arabic": "وللوقت فيما هو يتكلم، أقبل يهوذا أحد الإثنى عشر ومعه جمع كثير بسيوف وعصى من عند رؤساء الكهنة والشيوخ والكتبة،",
+              "arabic_base_no_tashkeel": "وللوقت فيما هو يتكلم، أقبل يهوذا أحد الإثنى عشر ومعه جمع كثير بسيوف وعصى من عند رؤساء الكهنة والشيوخ والكتبة،"
+            },
+            {
+              "row_index": 2,
+              "english": "Now His betrayer had given them a signal, saying, \"Whomever I kiss, He is the One; seize Him and lead Him away safely.\"",
+              "arabic": "وكان المزمع أن يسلمه قد أعطاهم علامة قائلا: الذي أقبل فاه هو هو فأمسكوه وخذوه بحرص.",
+              "arabic_base_no_tashkeel": "وكان المزمع أن يسلمه قد أعطاهم علامة قائلا: الذي أقبل فاه هو هو فأمسكوه وخذوه بحرص."
+            },
+            {
+              "row_index": 3,
+              "english": "As soon as He had come, immediately he went up to Him and said to Him, \"Rabbi, Rabbi!\" and kissed Him.",
+              "arabic": "وللوقت جاء وتقدم إليه وقال: يا معلم. وقبل فاه.",
+              "arabic_base_no_tashkeel": "وللوقت جاء وتقدم إليه وقال: يا معلم. وقبل فاه."
+            },
+            {
+              "row_index": 4,
+              "english": "Then they laid their hands on Him and took Him.",
+              "arabic": "فألقوا ايديهم عليه وامسكوه،",
+              "arabic_base_no_tashkeel": "فألقوا ايديهم عليه وامسكوه،"
+            },
+            {
+              "row_index": 5,
+              "english": "And one of those who stood by drew his sword and struck the servant of the high priest, and cut off his ear.",
+              "arabic": "فإستل واحداً من الواقفين السيف وضرب عبد رئيس الكهنة فقطع أذنه",
+              "arabic_base_no_tashkeel": "فإستل واحدا من الواقفين السيف وضرب عبد رئيس الكهنة فقطع أذنه"
+            },
+            {
+              "row_index": 6,
+              "english": "Then Jesus answered and said to them, \"Have you come out, as against a robber, with swords and clubs to take Me?",
+              "arabic": "فأجاب يسوع وقال لهم: كإنما على لص خرجتم بسيوف وعصى، لتقبضوا على!.",
+              "arabic_base_no_tashkeel": "فأجاب يسوع وقال لهم: كإنما على لص خرجتم بسيوف وعصى، لتقبضوا على!."
+            },
+            {
+              "row_index": 7,
+              "english": "I was daily with you in the temple teaching, and you did not seize Me. But the Scriptures must be fulfilled.\"",
+              "arabic": "كل يوم كنت معكم أعلم في الهيكل ولم تمسكوني، ولكن لكي تكمل الكتب،",
+              "arabic_base_no_tashkeel": "كل يوم كنت معكم أعلم في الهيكل ولم تمسكوني، ولكن لكي تكمل الكتب،"
+            },
+            {
+              "row_index": 8,
+              "english": "Then they all forsook Him and fled. Now a certain young man followed Him, having a linen cloth thrown around his naked body.",
+              "arabic": "فتركه الجميع وهربوا، وكان يتبعه شاب مرتدياً إزاراً على عريه",
+              "arabic_base_no_tashkeel": "فتركه الجميع وهربوا، وكان يتبعه شاب مرتديا إزارا على عريه"
+            },
+            {
+              "row_index": 9,
+              "english": "And the young men laid hold of him, and he left the linen cloth and fled from them naked.",
+              "arabic": "فأمسكوه، أما هو فترك الإزار وهرب عاريا.",
+              "arabic_base_no_tashkeel": "فأمسكوه، أما هو فترك الإزار وهرب عاريا."
+            },
+            {
+              "row_index": 10,
+              "english": "And they led Jesus away to Caiaphas the high priest; and with him were assembled all the chief priests, the elders, and the scribes.",
+              "arabic": "وأخذوا يسوع إلى قيافا رئيس الكهنة واجتمع إليه كل رؤساء الكهنة والشيوخ والكتبة،",
+              "arabic_base_no_tashkeel": "وأخذوا يسوع إلى قيافا رئيس الكهنة واجتمع إليه كل رؤساء الكهنة والشيوخ والكتبة،"
+            },
+            {
+              "row_index": 11,
+              "english": "But Peter followed Him at a distance, right into the courtyard of the high priest.",
+              "arabic": "وكان بطرس يتبعه من بعيد إلى داخل دار رئيس الكهنة،",
+              "arabic_base_no_tashkeel": "وكان بطرس يتبعه من بعيد إلى داخل دار رئيس الكهنة،"
+            },
+            {
+              "row_index": 12,
+              "english": "And he sat with the servants and warmed himself at the fire.",
+              "arabic": "وكان جالساً يصطلى عند الضوء.",
+              "arabic_base_no_tashkeel": "وكان جالسا يصطلى عند الضوء."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Luke 22: 47 - 55)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "And while He was still speaking, behold, a multitude; and he who was called Judas, one of the twelve, went before them and drew near to Jesus to kiss Him.",
+              "arabic": "وفيما هو يتكلم، إذا جمع يتقدمهم المدعو يهوذا أحد الإثنى عشر، فدنا من يسوع وقبل فاه،",
+              "arabic_base_no_tashkeel": "وفيما هو يتكلم، إذا جمع يتقدمهم المدعو يهوذا أحد الإثنى عشر، فدنا من يسوع وقبل فاه،"
+            },
+            {
+              "row_index": 2,
+              "english": "But Jesus said to him, \"Judas, are you betraying the Son of Man with a kiss?\" When those around Him saw what was going to happen, they said to Him, \"Lord, shall we strike with the sword?\"",
+              "arabic": "فقال له يسوع: يا يهوذا، أبقبلة تسلم إبن الإنسان؟! فلما رأى الذين حوله ما كان قالوا: يا رب أنضرب بالسيف؟.",
+              "arabic_base_no_tashkeel": "فقال له يسوع: يا يهوذا، أبقبلة تسلم إبن الإنسان؟! فلما رأى الذين حوله ما كان قالوا: يا رب أنضرب بالسيف؟."
+            },
+            {
+              "row_index": 3,
+              "english": "And one of them struck the servant of the high priest and cut off his right ear.",
+              "arabic": "وضرب واحد منهم عبد رئيس الكهنة فقطع أذنه اليمنى،",
+              "arabic_base_no_tashkeel": "وضرب واحد منهم عبد رئيس الكهنة فقطع أذنه اليمنى،"
+            },
+            {
+              "row_index": 4,
+              "english": "But Jesus answered and said, \"Permit even this.\" And He touched his ear and healed him.",
+              "arabic": "فأجاب يسوع وقال: كفى إلى هنا. ولمس أذنه وأبرأها،",
+              "arabic_base_no_tashkeel": "فأجاب يسوع وقال: كفى إلى هنا. ولمس أذنه وأبرأها،"
+            },
+            {
+              "row_index": 5,
+              "english": "Then Jesus said to the chief priests, captains of the temple, and the elders who had come to Him, \"Have you come out, as against a robber, with swords and clubs?",
+              "arabic": "ثم قال يسوع للذين جاءوا إليه من رؤساء الكهنة وقواد جند الهيكل والشيوخ: كأنه على لص خرجتم بسيوف وعصى،",
+              "arabic_base_no_tashkeel": "ثم قال يسوع للذين جاءوا إليه من رؤساء الكهنة وقواد جند الهيكل والشيوخ: كأنه على لص خرجتم بسيوف وعصى،"
+            },
+            {
+              "row_index": 6,
+              "english": "When I was with you daily in the temple, you did not try to seize Me. But this is your hour, and the power of darkness.\"",
+              "arabic": "وقد كنت معكم كل يوم في الهيكل، ولم تمدوا على أيديكم ولكن هذه ساعتكم وسلطان الظلمة.",
+              "arabic_base_no_tashkeel": "وقد كنت معكم كل يوم في الهيكل، ولم تمدوا على أيديكم ولكن هذه ساعتكم وسلطان الظلمة."
+            },
+            {
+              "row_index": 7,
+              "english": "Having arrested Him, they led Him and brought Him into the high priest's house.",
+              "arabic": "فلما أمسكوه وجاءوا به وأدخلوه إلى بيت رئيس الكهنة،",
+              "arabic_base_no_tashkeel": "فلما أمسكوه وجاءوا به وأدخلوه إلى بيت رئيس الكهنة،"
+            },
+            {
+              "row_index": 8,
+              "english": "But Peter followed at a distance. Now when they had kindled a fire in the midst of the courtyard and sat down together, Peter sat among them.",
+              "arabic": "وكان بطرس يتبعه من بعيد، ولما أضرموا ناراً في وسط الدار وجلسوا، فكان بطرس أيضاً جالساً في وسطهم.",
+              "arabic_base_no_tashkeel": "وكان بطرس يتبعه من بعيد، ولما أضرموا نارا في وسط الدار وجلسوا، فكان بطرس أيضا جالسا في وسطهم."
+            },
+            {
+              "row_index": 9,
+              "english": "Now when they had kindled a fire in the midst of the courtyard and sat down together, Peter sat among them.<Br><i>Bow down before the Holy Gospel.</i>",
+              "arabic": "وَلَمَّا أَضْرَمُوا نَاراً فِي وَسَطِ الدَّارِ وَجَلَسُوا مَعاً جَلَسَ بُطْرُسُ بَيْنَهُمْ.<br><i>أسجدوا للإنجيل المقدس.</i>",
+              "arabic_base_no_tashkeel": "ولما أضرموا نارا في وسط الدار وجلسوا معا جلس بطرس بينهم.<br><i>أسجدوا للإنجيل المقدس.</i>"
+            }
+          ]
+        },
+        {
+          "title": "Gospel (John 18: 10 - 14)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Then Simon Peter, having a sword, drew it and struck the high priest’s servant, and cut off his right ear.",
+              "arabic": "وكان مع سمعان بطرس سيف فإستله وضرب عبد رئيس الكهنة، فقطع إذنه اليمنى",
+              "arabic_base_no_tashkeel": "وكان مع سمعان بطرس سيف فإستله وضرب عبد رئيس الكهنة، فقطع إذنه اليمنى"
+            },
+            {
+              "row_index": 2,
+              "english": "The servant’s name was Malchus. So Jesus said to Peter, \"Put your sword into the sheath. Shall I not drink the cup which My Father has given Me?\"",
+              "arabic": "وكان إسم العبد ملخس، فقال يسوع لبطرس: إلق السيف في غمده. الكأس التي أعطانيها أبى ألا أشربها؟!",
+              "arabic_base_no_tashkeel": "وكان إسم العبد ملخس، فقال يسوع لبطرس: إلق السيف في غمده. الكأس التي أعطانيها أبى ألا أشربها؟!"
+            },
+            {
+              "row_index": 3,
+              "english": "Then the detachment of troops and the captain and the officers of the Jews arrested Jesus and bound Him.",
+              "arabic": "ثم أن الجمع وقائد الألف وخدام اليهود قبضوا على يسوع وأوثقوه",
+              "arabic_base_no_tashkeel": "ثم أن الجمع وقائد الألف وخدام اليهود قبضوا على يسوع وأوثقوه"
+            },
+            {
+              "row_index": 4,
+              "english": "And they led Him away to Annas first, for he was the father-in-law of Caiaphas who was high priest that year.",
+              "arabic": "وجاءوا به اولاً إلى حنان، لأنه كان حما قيافا الذي كان رئيسا للكهنة في تلك السنة،",
+              "arabic_base_no_tashkeel": "وجاءوا به اولا إلى حنان، لأنه كان حما قيافا الذي كان رئيسا للكهنة في تلك السنة،"
+            },
+            {
+              "row_index": 5,
+              "english": "Now it was Caiaphas who advised the Jews that it was expedient that one man should die for the people.",
+              "arabic": "وكان قيافا هو الذي أشار على اليهود قائلا: أنه خير أن يموت رجل واحد عن الشعب.",
+              "arabic_base_no_tashkeel": "وكان قيافا هو الذي أشار على اليهود قائلا: أنه خير أن يموت رجل واحد عن الشعب."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

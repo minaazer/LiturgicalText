@@ -1,0 +1,112 @@
+{
+  "service": "EVE of Monday",
+  "hour": "ELEVENTH Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Micah 3: 1 - 4)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "He will say, \"Hear these things, O heads of the house of Jacob, and you remnant of Israel. Is it not for you to know judgment? You who hate good and love evil; you who seize their skins in order flay them and cut their flesh off their bones?",
+              "arabic": "والرب يرشدهم ويقول. أسمعوا هذا يا رؤساء بيت يعقوب ومختارى بيت اسرائيل. أما ينبغى لكم أن تعرفوا الحكم, أيها الباغضون الخيرات والمبتغون الشرور. النازعون جلودهم عنهم ولحومهم عن عظامهم.",
+              "arabic_base_no_tashkeel": "والرب يرشدهم ويقول. أسمعوا هذا يا رؤساء بيت يعقوب ومختارى بيت اسرائيل. أما ينبغى لكم أن تعرفوا الحكم, أيها الباغضون الخيرات والمبتغون الشرور. النازعون جلودهم عنهم ولحومهم عن عظامهم."
+            },
+            {
+              "row_index": 2,
+              "english": "Who devoured the flesh of my people by removing their skin, breaking their bones, And dividing them as merely flesh for the cauldron and as meat for the pot?\"",
+              "arabic": "وكما أكلوا لحوم شعبى وكشطوا جلودهم عن عظامهم. وكسروا عظامهم وقطعوها كلحوم المراجل. وكاللحم فى وسط القدور.",
+              "arabic_base_no_tashkeel": "وكما أكلوا لحوم شعبى وكشطوا جلودهم عن عظامهم. وكسروا عظامهم وقطعوها كلحوم المراجل. وكاللحم فى وسط القدور."
+            },
+            {
+              "row_index": 3,
+              "english": "Thus they will cry out to the Lord, but He will not hear them. Instead,",
+              "arabic": "حينئذ يصرخون إلى الرب فلا يجيبهم.",
+              "arabic_base_no_tashkeel": "حينئذ يصرخون إلى الرب فلا يجيبهم."
+            },
+            {
+              "row_index": 4,
+              "english": "He will turn His face from them at that time because they have done wickedly in their deeds against themselves.",
+              "arabic": "بل يصرف وجهه عنهم فى ذلك الوقت. والشر الذي صنعوا باساءتهم يأتى عليهم.",
+              "arabic_base_no_tashkeel": "بل يصرف وجهه عنهم فى ذلك الوقت. والشر الذي صنعوا باساءتهم يأتى عليهم."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (18: 17 - 18)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "He will deliver me from my strong enemies, and from those who hate me, because they were too strong for me.",
+              "arabic": "نجنى من أعدائى الأقوياء ومن أيدى الذين يبغضوننى.",
+              "arabic_base_no_tashkeel": "نجنى من أعدائى الأقوياء ومن أيدى الذين يبغضوننى."
+            },
+            {
+              "row_index": 2,
+              "english": "They overran me in the day of my misfortune.",
+              "arabic": "لأنهم تقووا أكثر منى أدركونى فى يوم ضري.",
+              "arabic_base_no_tashkeel": "لأنهم تقووا أكثر منى أدركونى فى يوم ضري."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Matthew 17: 19 - 23)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Then the disciples came to Jesus privately and said, “Why could we not cast it out?”",
+              "arabic": "حينئذ جاء التلاميذ إلى يسوع منفردين وحدهم وقالوا له لماذا لم نقدر نحن أن نخرجه.",
+              "arabic_base_no_tashkeel": "حينئذ جاء التلاميذ إلى يسوع منفردين وحدهم وقالوا له لماذا لم نقدر نحن أن نخرجه."
+            },
+            {
+              "row_index": 2,
+              "english": "So Jesus said to them, “Because of your unbelief; for assuredly, I say to you, if you have faith as a mustard seed, you will say to this mountain, ‘Move from here to there,’ and it will move; and nothing will be impossible for you.",
+              "arabic": "أما هو فقال لهم لأجل قلة إيمانكم. الحق أقول لكم لو كان لكم إيمان مثل حبة خردل لكنتم تقولون لهذا الجبل أنتقل من هنا إلى هناك فينتقل. ولا يكون شئ غير ممكن لديكم",
+              "arabic_base_no_tashkeel": "أما هو فقال لهم لأجل قلة إيمانكم. الحق أقول لكم لو كان لكم إيمان مثل حبة خردل لكنتم تقولون لهذا الجبل أنتقل من هنا إلى هناك فينتقل. ولا يكون شئ غير ممكن لديكم"
+            },
+            {
+              "row_index": 3,
+              "english": "However, this kind does not go out except by prayer and fasting.”",
+              "arabic": "وأما هذا الجنس فلا يخرج إلا بالصلاة والصوم.",
+              "arabic_base_no_tashkeel": "وأما هذا الجنس فلا يخرج إلا بالصلاة والصوم."
+            },
+            {
+              "row_index": 4,
+              "english": "Now while they were staying in Galilee, Jesus said to them, “The Son of Man is about to be betrayed into the hands of men,",
+              "arabic": "وبينما هم يترددون فى الجليل قال لهم يسوع أن إبن الإنسان سيسلم إلى أيدى الناس,",
+              "arabic_base_no_tashkeel": "وبينما هم يترددون فى الجليل قال لهم يسوع أن إبن الإنسان سيسلم إلى أيدى الناس,"
+            },
+            {
+              "row_index": 5,
+              "english": "And they will kill Him, and the third day He will be raised up.” And they were exceedingly sorrowful.",
+              "arabic": "فيقتلونه, وبعد ثلثة أيام يقوم. فحزنت قلوبهم جداً.",
+              "arabic_base_no_tashkeel": "فيقتلونه, وبعد ثلثة أيام يقوم. فحزنت قلوبهم جدا."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

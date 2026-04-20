@@ -1,0 +1,231 @@
+{
+  "service": "DAY of Monday",
+  "hour": "THIRD Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Isaiah 5: 20 - 30)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Woe to those who call evil good and good evil, who put darkness for light and light for darkness, Who put bitter for sweet and sweet for bitter!",
+              "arabic": "ويل للقائلين للخير شراً وللشر خيراً. الجاعلين الظلام نوراً والنور ظلاماً. القائلين عن الحلو مراً والمر حلواً.",
+              "arabic_base_no_tashkeel": "ويل للقائلين للخير شرا وللشر خيرا. الجاعلين الظلام نورا والنور ظلاما. القائلين عن الحلو مرا والمر حلوا."
+            },
+            {
+              "row_index": 2,
+              "english": "Woe to those who are intelligent in their own eyes and expert in their own sight! Woe to your strong ones who drink wine and the mighty ones who mix intoxicating drink,",
+              "arabic": "ويل للحكماء الذين هم فى أعين أنفسهم والفهماء عند ذاوتهم. ويل للأقوياء الذين يشربون الخمر. وللأبطال الذين يمزجون المسكر.",
+              "arabic_base_no_tashkeel": "ويل للحكماء الذين هم فى أعين أنفسهم والفهماء عند ذاوتهم. ويل للأقوياء الذين يشربون الخمر. وللأبطال الذين يمزجون المسكر."
+            },
+            {
+              "row_index": 3,
+              "english": "Who justify the ungodly for a bribe and take away justice from the righteous man! Therefore in the manner that stubble shall be burned by coals of fire and consumed by a violent flame,",
+              "arabic": "الذين يبررون المنافق لأجل الرشوة. وينزعون حق البار. فلذلك كما يحترق البروبى (القش) بجمر النار. ويلتهب بلهيبه المشتعل.",
+              "arabic_base_no_tashkeel": "الذين يبررون المنافق لأجل الرشوة. وينزعون حق البار. فلذلك كما يحترق البروبى (القش) بجمر النار. ويلتهب بلهيبه المشتعل."
+            },
+            {
+              "row_index": 4,
+              "english": "Their root shall be like chaff and their flower shall go up like dust, for they did not will to do the law of the Lord of hosts, but despised the word of the Holy One of Israel. Thus the wrath of the Lord of hosts is furious against His people. He laid His hand on them and struck them.",
+              "arabic": "فهكذا يكون أصلهم كالغبار وزهرهم كالهشيم لأنهم رذلوا شريعة الله رب الجنود. وأغضبوا واستهانوا بكلمة قدوس اسرائيل. فحمى غضب رب الصباؤوت على شعبه. ورفع يده عليهم ليضربهم.",
+              "arabic_base_no_tashkeel": "فهكذا يكون أصلهم كالغبار وزهرهم كالهشيم لأنهم رذلوا شريعة الله رب الجنود. وأغضبوا واستهانوا بكلمة قدوس اسرائيل. فحمى غضب رب الصباؤوت على شعبه. ورفع يده عليهم ليضربهم."
+            },
+            {
+              "row_index": 5,
+              "english": "The mountains were provoked, and their carcasses were as refuse in the midst of the road. For all this His anger was not turned away, but His hand is still uplifted.",
+              "arabic": "وسخط على الجبال وصارت جثث موتاهم مثل الزبل فى وسط الطريق. ومع هذا كله لم يرتد غضبه. بل يده لم تزل عالية ممدودة.",
+              "arabic_base_no_tashkeel": "وسخط على الجبال وصارت جثث موتاهم مثل الزبل فى وسط الطريق. ومع هذا كله لم يرتد غضبه. بل يده لم تزل عالية ممدودة."
+            },
+            {
+              "row_index": 6,
+              "english": "Consequently He shall take up a banner to the nations from afar and will whistle to them from the ends of the earth.",
+              "arabic": "من أجل ذلك يرفع علامة للأمم من بعيد ويجتذبهم من أقاصى الأرض",
+              "arabic_base_no_tashkeel": "من أجل ذلك يرفع علامة للأمم من بعيد ويجتذبهم من أقاصى الأرض"
+            },
+            {
+              "row_index": 7,
+              "english": "Behold, they are coming swiftly and with speed. They shall not hunger or be weary.",
+              "arabic": "فإذا هم يأتون سريعاً بخفة. لا يجوعون ولا يتعبون. ولا ينعسون.",
+              "arabic_base_no_tashkeel": "فإذا هم يأتون سريعا بخفة. لا يجوعون ولا يتعبون. ولا ينعسون."
+            },
+            {
+              "row_index": 8,
+              "english": "Neither shall they slumber nor sleep. Nor shall they loose the belts from their loins. Neither shall their sandal-straps be broken. Their arrows are sharp, and their bows are bent.",
+              "arabic": "ولا ينامون. ولا يحلون مناطقهم من أوساطهم. ولا تنقطع سيور أحذيتهم. هؤلاء الذين سهامهم مسنونة وقسيهم مشدودة (موترة)",
+              "arabic_base_no_tashkeel": "ولا ينامون. ولا يحلون مناطقهم من أوساطهم. ولا تنقطع سيور أحذيتهم. هؤلاء الذين سهامهم مسنونة وقسيهم مشدودة (موترة)"
+            },
+            {
+              "row_index": 9,
+              "english": "The hooves of their horses seem like flint and their chariot wheels like a sudden blast of wind.",
+              "arabic": "حوافر خيولهم كصخرة صلبة. وبكرات مراكبهم كالعاصف.",
+              "arabic_base_no_tashkeel": "حوافر خيولهم كصخرة صلبة. وبكرات مراكبهم كالعاصف."
+            },
+            {
+              "row_index": 10,
+              "english": "They rush like lions, and stand like a young lion that seizes his prey and roars like a wild animal, then carries it away; and there shall be no one to deliver them.",
+              "arabic": "يتقدمون كالأسد. ويمسك ويصيح كوحش ويطرح وليس من يخلص.",
+              "arabic_base_no_tashkeel": "يتقدمون كالأسد. ويمسك ويصيح كوحش ويطرح وليس من يخلص."
+            },
+            {
+              "row_index": 11,
+              "english": "In that day, they will bellow against them like the sound of the roaring sea. They will look at the land and behold harsh darkness in their despair.",
+              "arabic": "ويصرخ عليهم فى ذلك اليوم كصوت البحر المتموج (الخضم). وينظرون إلى علو السماء وإلى أسفل الأرض فيجدوا ظلاماً شديداً. وظلمة مدلهمة.",
+              "arabic_base_no_tashkeel": "ويصرخ عليهم فى ذلك اليوم كصوت البحر المتموج (الخضم). وينظرون إلى علو السماء وإلى أسفل الأرض فيجدوا ظلاما شديدا. وظلمة مدلهمة."
+            }
+          ]
+        },
+        {
+          "title": "2nd Prophecy (Jeremiah 9: 12 - 19)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Who is a wise man? Let him understand this. Let him declare to you by the word of the Lord to him why the land was ravaged by fire, and became like a desert no one could pass through.",
+              "arabic": "من هو الإنسان الحكيم فليفهم هذا. والذي عنده كلام فم الرب فليخبركم. لماذا هلكت الأرض واحترقت وصارت كبرية بلا عابر.",
+              "arabic_base_no_tashkeel": "من هو الإنسان الحكيم فليفهم هذا. والذي عنده كلام فم الرب فليخبركم. لماذا هلكت الأرض واحترقت وصارت كبرية بلا عابر."
+            },
+            {
+              "row_index": 2,
+              "english": "The Lord answered me, \"Because they forsook My law which I set before their face, and they did not hear My voice.",
+              "arabic": "فقال لى الرب. لأنهم تركوا ناموسى عنهم الذي جعلته أمامهم. ولم يسمعوا لصوتى.",
+              "arabic_base_no_tashkeel": "فقال لى الرب. لأنهم تركوا ناموسى عنهم الذي جعلته أمامهم. ولم يسمعوا لصوتى."
+            },
+            {
+              "row_index": 3,
+              "english": "Instead, they walked after what pleased their evil heart, and after the idols their fathers taught them.\"",
+              "arabic": "بل ساروا وراء عناد قلوبهم الشريرة. وسلكوا وراء الأصنام",
+              "arabic_base_no_tashkeel": "بل ساروا وراء عناد قلوبهم الشريرة. وسلكوا وراء الأصنام"
+            },
+            {
+              "row_index": 4,
+              "english": "Therefore, thus says the Lord God of Israel: \"Behold, I will feed them as a matter of necessity, and give them the water of bitterness to drink.",
+              "arabic": "التى علمهم إياها أباؤهم لذلك قال الرب إله اسرائيل. هأنذا أطعمهم خبز الضيق وأسقيهم العلقم.",
+              "arabic_base_no_tashkeel": "التى علمهم إياها أباؤهم لذلك قال الرب إله اسرائيل. هأنذا أطعمهم خبز الضيق وأسقيهم العلقم."
+            },
+            {
+              "row_index": 5,
+              "english": "I will also scatter them among the Gentiles, amongst whom neither they nor their fathers are known. I shall send a sword after them until I consume them with it.\"",
+              "arabic": "وأشتتهم فى الأمم التى لم يعرفوها هم ولا أباؤهم. وأرسل عليهم سيفاً حتى أفنيهم به.",
+              "arabic_base_no_tashkeel": "وأشتتهم فى الأمم التى لم يعرفوها هم ولا أباؤهم. وأرسل عليهم سيفا حتى أفنيهم به."
+            },
+            {
+              "row_index": 6,
+              "english": "Thus says the Lord: \"Call for the mourning women and let them come. Send for the wise women and let them give utterance.",
+              "arabic": "هذا ما يقوله الرب. ادعوا النساء النائحات ليأتين وأرسلوا إلى الحكيمات ليفتحن أفواههن بالكلام لينشدن عليكم نوحاً.",
+              "arabic_base_no_tashkeel": "هذا ما يقوله الرب. ادعوا النساء النائحات ليأتين وأرسلوا إلى الحكيمات ليفتحن أفواههن بالكلام لينشدن عليكم نوحا."
+            },
+            {
+              "row_index": 7,
+              "english": "Let them take up a lamentation over you. Let your eyes run with tears, and your eyelids flow with water. For a voice of wailing is heard from Zion.",
+              "arabic": "ولتسكب عيونكم دموعاً. ولتفض أجفانكم ماء. لأنه قد سمع صوت النوح فى صهيون.",
+              "arabic_base_no_tashkeel": "ولتسكب عيونكم دموعا. ولتفض أجفانكم ماء. لأنه قد سمع صوت النوح فى صهيون."
+            },
+            {
+              "row_index": 8,
+              "english": "For a voice of wailing is heard from Zion.",
+              "arabic": "لأَنَّ صَوْتَ رِثَايَةٍ سُمِعَ مِنْ صِهْيَوْنَ.",
+              "arabic_base_no_tashkeel": "لأن صوت رثاية سمع من صهيون."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (122: 1 - 2)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "I was glad when they said to me, \"Let us go into the house of the Lord.\"",
+              "arabic": "فرحت بالقائلين لى إلى بيت الرب نذهب.",
+              "arabic_base_no_tashkeel": "فرحت بالقائلين لى إلى بيت الرب نذهب."
+            },
+            {
+              "row_index": 2,
+              "english": "Our feet stand in your courts, O Jerusalem.",
+              "arabic": "وقفت أرجلنا فى ديار أورشليم:",
+              "arabic_base_no_tashkeel": "وقفت أرجلنا فى ديار أورشليم:"
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Mark 11: 11 - 19)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "And Jesus went into Jerusalem and into the temple. So when He had looked around at all things, as the hour was already late, He went out to Bethany with the twelve. Now the next day, when they had come out from Bethany, He was hungry.",
+              "arabic": "ولما جاء يسوع إلى أورشليم دخل الهيكل ونظر الجمع. وإذ كان المساء فى تلك االساعة خرج إلى بيت عنيا مع الإثنى عشر. وفى الغد لما خرجوا من بيت عنيا جاع.",
+              "arabic_base_no_tashkeel": "ولما جاء يسوع إلى أورشليم دخل الهيكل ونظر الجمع. وإذ كان المساء فى تلك االساعة خرج إلى بيت عنيا مع الإثنى عشر. وفى الغد لما خرجوا من بيت عنيا جاع."
+            },
+            {
+              "row_index": 2,
+              "english": "And seeing from afar a fig tree having leaves, He went to see if perhaps He would find something on it. When He came to it, He found nothing but leaves, for it was not the season for figs.",
+              "arabic": "فرأى شجرة تين عن بعد. وكان عليها ورق فجاء إليها لعله يجد فيها شيئاً. فلما جاء إليها لم يجد شيئا الا ورقاً لأنه لم يكن أوان التين.",
+              "arabic_base_no_tashkeel": "فرأى شجرة تين عن بعد. وكان عليها ورق فجاء إليها لعله يجد فيها شيئا. فلما جاء إليها لم يجد شيئا الا ورقا لأنه لم يكن أوان التين."
+            },
+            {
+              "row_index": 3,
+              "english": "In response Jesus said to it, “Let no one eat fruit from you ever again.” And His disciples heard it.",
+              "arabic": "فأجاب وقال لها لا يأكل أحد منك ثمرة إلى الأبد وكان تلاميذه يسمعون.",
+              "arabic_base_no_tashkeel": "فأجاب وقال لها لا يأكل أحد منك ثمرة إلى الأبد وكان تلاميذه يسمعون."
+            },
+            {
+              "row_index": 4,
+              "english": "So they came to Jerusalem. Then Jesus went into the temple and began to drive out those who bought and sold in the temple,",
+              "arabic": "وجاءوا إلى أورشليم. ولما دخل إلى الهيكل ابتدأ يخرج جميع الذين كانوا يبيعون ويشترون فى الهيكل.",
+              "arabic_base_no_tashkeel": "وجاءوا إلى أورشليم. ولما دخل إلى الهيكل ابتدأ يخرج جميع الذين كانوا يبيعون ويشترون فى الهيكل."
+            },
+            {
+              "row_index": 5,
+              "english": "and overturned the tables of the money changers and the seats of those who sold doves.",
+              "arabic": "وقلب موائد الصيارفة وكراسى باعة الحمام.",
+              "arabic_base_no_tashkeel": "وقلب موائد الصيارفة وكراسى باعة الحمام."
+            },
+            {
+              "row_index": 6,
+              "english": "And He would not allow anyone to carry wares through the temple.",
+              "arabic": "ولم يدع أحد ينقل متاعاً إلى الهيكل.",
+              "arabic_base_no_tashkeel": "ولم يدع أحد ينقل متاعا إلى الهيكل."
+            },
+            {
+              "row_index": 7,
+              "english": "Then He taught, saying to them, “Is it not written, ‘My house shall be called a house of prayer for all nations’? But you have made it a ‘den of thieves.’”",
+              "arabic": "وكان يعلم قائلاً لهم أليس مكتوباً أن بيتى بيت صلاة يدعى لجميع الأمم. وأنتم جعلتموه مغارة للصوص.",
+              "arabic_base_no_tashkeel": "وكان يعلم قائلا لهم أليس مكتوبا أن بيتى بيت صلاة يدعى لجميع الأمم. وأنتم جعلتموه مغارة للصوص."
+            },
+            {
+              "row_index": 8,
+              "english": "And the scribes and chief priests heard it and sought how they might destroy Him; for they feared Him, because all the people were astonished at His teaching.",
+              "arabic": "فلما سمع رؤساء الكهنة والكتبة كانوا يطلبون بأى نوع يهلكونه. لأنهم كانوا يخافونه. إذ الجمع كله كان يتعجب من تعليمه.",
+              "arabic_base_no_tashkeel": "فلما سمع رؤساء الكهنة والكتبة كانوا يطلبون بأى نوع يهلكونه. لأنهم كانوا يخافونه. إذ الجمع كله كان يتعجب من تعليمه."
+            },
+            {
+              "row_index": 9,
+              "english": "When evening had come, He went out of the city.",
+              "arabic": "ولما صار المساء خرج إلى خارج المدينة.",
+              "arabic_base_no_tashkeel": "ولما صار المساء خرج إلى خارج المدينة."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

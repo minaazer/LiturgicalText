@@ -1,0 +1,323 @@
+{
+  "count": 53,
+  "packages": [
+    {
+      "service": "DAY of Sunday",
+      "hour": "NINTH Hour",
+      "reading_count": 4,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\001_day_of_sunday__ninth_hour.json"
+    },
+    {
+      "service": "DAY of Sunday",
+      "hour": "ELEVENTH Hour",
+      "reading_count": 4,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\002_day_of_sunday__eleventh_hour.json"
+    },
+    {
+      "service": "EVE of Monday",
+      "hour": "FIRST Hour",
+      "reading_count": 3,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\003_eve_of_monday__first_hour.json"
+    },
+    {
+      "service": "EVE of Monday",
+      "hour": "THIRD Hour",
+      "reading_count": 3,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\004_eve_of_monday__third_hour.json"
+    },
+    {
+      "service": "EVE of Monday",
+      "hour": "SIXTH Hour",
+      "reading_count": 3,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\005_eve_of_monday__sixth_hour.json"
+    },
+    {
+      "service": "EVE of Monday",
+      "hour": "NINTH Hour",
+      "reading_count": 3,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\006_eve_of_monday__ninth_hour.json"
+    },
+    {
+      "service": "EVE of Monday",
+      "hour": "ELEVENTH Hour",
+      "reading_count": 3,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\007_eve_of_monday__eleventh_hour.json"
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "FIRST Hour",
+      "reading_count": 6,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\008_day_of_monday__first_hour.json"
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "THIRD Hour",
+      "reading_count": 4,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\009_day_of_monday__third_hour.json"
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "SIXTH Hour",
+      "reading_count": 4,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\010_day_of_monday__sixth_hour.json"
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "NINTH Hour",
+      "reading_count": 5,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\011_day_of_monday__ninth_hour.json"
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "ELEVENTH Hour",
+      "reading_count": 5,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\012_day_of_monday__eleventh_hour.json"
+    },
+    {
+      "service": "EVE of Tuesday",
+      "hour": "FIRST Hour",
+      "reading_count": 3,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\013_eve_of_tuesday__first_hour.json"
+    },
+    {
+      "service": "EVE of Tuesday",
+      "hour": "THIRD Hour",
+      "reading_count": 3,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\014_eve_of_tuesday__third_hour.json"
+    },
+    {
+      "service": "EVE of Tuesday",
+      "hour": "SIXTH Hour",
+      "reading_count": 3,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\015_eve_of_tuesday__sixth_hour.json"
+    },
+    {
+      "service": "EVE of Tuesday",
+      "hour": "NINTH Hour",
+      "reading_count": 3,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\016_eve_of_tuesday__ninth_hour.json"
+    },
+    {
+      "service": "EVE of Tuesday",
+      "hour": "ELEVENTH Hour",
+      "reading_count": 3,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\017_eve_of_tuesday__eleventh_hour.json"
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "FIRST Hour",
+      "reading_count": 6,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\018_day_of_tuesday__first_hour.json"
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "THIRD Hour",
+      "reading_count": 6,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\019_day_of_tuesday__third_hour.json"
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "SIXTH Hour",
+      "reading_count": 5,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\020_day_of_tuesday__sixth_hour.json"
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "NINTH Hour",
+      "reading_count": 8,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\021_day_of_tuesday__ninth_hour.json"
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "ELEVENTH Hour",
+      "reading_count": 5,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\022_day_of_tuesday__eleventh_hour.json"
+    },
+    {
+      "service": "EVE of Wednesday",
+      "hour": "FIRST Hour",
+      "reading_count": 4,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\023_eve_of_wednesday__first_hour.json"
+    },
+    {
+      "service": "EVE of Wednesday",
+      "hour": "THIRD Hour",
+      "reading_count": 3,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\024_eve_of_wednesday__third_hour.json"
+    },
+    {
+      "service": "EVE of Wednesday",
+      "hour": "SIXTH Hour",
+      "reading_count": 3,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\025_eve_of_wednesday__sixth_hour.json"
+    },
+    {
+      "service": "EVE of Wednesday",
+      "hour": "NINTH Hour",
+      "reading_count": 3,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\026_eve_of_wednesday__ninth_hour.json"
+    },
+    {
+      "service": "EVE of Wednesday",
+      "hour": "ELEVENTH Hour",
+      "reading_count": 3,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\027_eve_of_wednesday__eleventh_hour.json"
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "FIRST Hour",
+      "reading_count": 7,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\028_day_of_wednesday__first_hour.json"
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "THIRD Hour",
+      "reading_count": 6,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\029_day_of_wednesday__third_hour.json"
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "SIXTH Hour",
+      "reading_count": 5,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\030_day_of_wednesday__sixth_hour.json"
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "NINTH Hour",
+      "reading_count": 8,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\031_day_of_wednesday__ninth_hour.json"
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "ELEVENTH Hour",
+      "reading_count": 4,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\032_day_of_wednesday__eleventh_hour.json"
+    },
+    {
+      "service": "EVE of Covenant Thursday",
+      "hour": "FIRST Hour",
+      "reading_count": 3,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\033_eve_of_covenant_thursday__first_hour.json"
+    },
+    {
+      "service": "EVE of Covenant Thursday",
+      "hour": "THIRD Hour",
+      "reading_count": 3,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\034_eve_of_covenant_thursday__third_hour.json"
+    },
+    {
+      "service": "EVE of Covenant Thursday",
+      "hour": "SIXTH Hour",
+      "reading_count": 3,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\035_eve_of_covenant_thursday__sixth_hour.json"
+    },
+    {
+      "service": "EVE of Covenant Thursday",
+      "hour": "NINTH Hour",
+      "reading_count": 3,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\036_eve_of_covenant_thursday__ninth_hour.json"
+    },
+    {
+      "service": "EVE of Covenant Thursday",
+      "hour": "ELEVENTH Hour",
+      "reading_count": 3,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\037_eve_of_covenant_thursday__eleventh_hour.json"
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "FIRST Hour",
+      "reading_count": 4,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\038_day_of_covenant_thursday__first_hour.json"
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "THIRD Hour",
+      "reading_count": 6,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\039_day_of_covenant_thursday__third_hour.json"
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "SIXTH Hour",
+      "reading_count": 5,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\040_day_of_covenant_thursday__sixth_hour.json"
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "NINTH Hour",
+      "reading_count": 7,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\041_day_of_covenant_thursday__ninth_hour.json"
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "ELEVENTH Hour",
+      "reading_count": 5,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\042_day_of_covenant_thursday__eleventh_hour.json"
+    },
+    {
+      "service": "EVE of Great Friday",
+      "hour": "FIRST Hour",
+      "reading_count": 7,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\043_eve_of_great_friday__first_hour.json"
+    },
+    {
+      "service": "EVE of Great Friday",
+      "hour": "THIRD Hour",
+      "reading_count": 7,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\044_eve_of_great_friday__third_hour.json"
+    },
+    {
+      "service": "EVE of Great Friday",
+      "hour": "SIXTH Hour",
+      "reading_count": 7,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\045_eve_of_great_friday__sixth_hour.json"
+    },
+    {
+      "service": "EVE of Great Friday",
+      "hour": "NINTH Hour",
+      "reading_count": 8,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\046_eve_of_great_friday__ninth_hour.json"
+    },
+    {
+      "service": "EVE of Great Friday",
+      "hour": "ELEVENTH Hour",
+      "reading_count": 7,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\047_eve_of_great_friday__eleventh_hour.json"
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "FIRST Hour",
+      "reading_count": 18,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\048_day_of_great_friday__first_hour.json"
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "THIRD Hour",
+      "reading_count": 13,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\049_day_of_great_friday__third_hour.json"
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "SIXTH Hour",
+      "reading_count": 10,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\050_day_of_great_friday__sixth_hour.json"
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "NINTH Hour",
+      "reading_count": 9,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\051_day_of_great_friday__ninth_hour.json"
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "ELEVENTH Hour",
+      "reading_count": 9,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\052_day_of_great_friday__eleventh_hour.json"
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "TWELFTH Hour",
+      "reading_count": 8,
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\reports\\holyweek_tashkeel_hour_packages\\053_day_of_great_friday__twelfth_hour.json"
+    }
+  ]
+}

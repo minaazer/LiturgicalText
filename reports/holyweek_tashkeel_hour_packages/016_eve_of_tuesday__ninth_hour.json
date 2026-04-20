@@ -1,0 +1,190 @@
+{
+  "service": "EVE of Tuesday",
+  "hour": "NINTH Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Hosea 10: 12 - 11: 2)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Sow to yourselves in righteousness; gather in the fruit of life; light for yourselves the light of knowledge; seek the Lord till the fruits of righteousness come upon you. Why have you passed over ungodliness in silence and reaped its wrongdoings?",
+              "arabic": "إزرعوا لأنفسكم براً إجنوا ثمرة الحياة. إستنيروا بنور المعرفة وأطلبوا الرب حتى يأتيكم ثمرة البر. لماذا سكتم على النفاق الذي فيكم فحصدتم ظلمكم.",
+              "arabic_base_no_tashkeel": "إزرعوا لأنفسكم برا إجنوا ثمرة الحياة. إستنيروا بنور المعرفة وأطلبوا الرب حتى يأتيكم ثمرة البر. لماذا سكتم على النفاق الذي فيكم فحصدتم ظلمكم."
+            },
+            {
+              "row_index": 2,
+              "english": "You have eaten the fruit of deception, for you have hoped in your chariots, in the abundance of your power.",
+              "arabic": "أكلتم ثمرة الكذب. لأنك توكلت على مركباتك وكثرة قوتك.",
+              "arabic_base_no_tashkeel": "أكلتم ثمرة الكذب. لأنك توكلت على مركباتك وكثرة قوتك."
+            },
+            {
+              "row_index": 3,
+              "english": "Therefore destruction shall rise up among your people, and all your walled places shall be gone,",
+              "arabic": "يقوم هلاك فى شعبك وتخرب جميع حصونك (المسيجة)",
+              "arabic_base_no_tashkeel": "يقوم هلاك فى شعبك وتخرب جميع حصونك (المسيجة)"
+            },
+            {
+              "row_index": 4,
+              "english": "As Beth Arbel in the time of Prince Shalman. In the days of battle, they dashed the mother to the ground upon the children.",
+              "arabic": "كخراب بيت يوربعام من أراخنة شَلْمَانَ يوم الحرب. إذ حطمت الأمهات على البنين.",
+              "arabic_base_no_tashkeel": "كخراب بيت يوربعام من أراخنة شلمان يوم الحرب. إذ حطمت الأمهات على البنين."
+            },
+            {
+              "row_index": 5,
+              "english": "Thus will I do to you, O house of Israel, because of your evil deeds. Early in the morning were they cast off; the king of Israel has been cast off. \"For Israel is a child, and I loved him, and out of Egypt I have called his children [and my Son].",
+              "arabic": "هكذا أصنع بكم يا بيت اسرائيل أمامكم من قدام وجهي. لأن ظلمكم وشروركم طرحت ملك اسرائيل خارجاً. لأن اسرائيل صغير وأنا أحببته ودعوت إبنه وإبنى من مصر.",
+              "arabic_base_no_tashkeel": "هكذا أصنع بكم يا بيت اسرائيل أمامكم من قدام وجهي. لأن ظلمكم وشروركم طرحت ملك اسرائيل خارجا. لأن اسرائيل صغير وأنا أحببته ودعوت إبنه وإبنى من مصر."
+            },
+            {
+              "row_index": 6,
+              "english": "As I called them, so they departed from My presence. They sacrificed to the Baals, and burned incense to graven images.",
+              "arabic": "فكما دعوتهم. هكذا ذهبوا عن وجهى. فذبحوا للبعليم وبخروا للمنحوتات.",
+              "arabic_base_no_tashkeel": "فكما دعوتهم. هكذا ذهبوا عن وجهى. فذبحوا للبعليم وبخروا للمنحوتات."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (33: 10 - 11)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "The Lord scatters abroad the counsels of the nations, and He sets aside the reasoning of peoples; and He rejects the counsels of rulers.",
+              "arabic": "الرب يشتت أراء الأمم ويرذل أفكار الشعوب ويرفض مؤامرة الرؤساء",
+              "arabic_base_no_tashkeel": "الرب يشتت أراء الأمم ويرذل أفكار الشعوب ويرفض مؤامرة الرؤساء"
+            },
+            {
+              "row_index": 2,
+              "english": "The counsel of the Lord abides forever, the thoughts of His heart from generation to generation.",
+              "arabic": "وأما رأى الرب فهو يكون إلى الأبد وأفكار قلبه من جيل إلى جيل.",
+              "arabic_base_no_tashkeel": "وأما رأى الرب فهو يكون إلى الأبد وأفكار قلبه من جيل إلى جيل."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Luke 11: 37 - 52)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "And as He spoke, a certain Pharisee asked Him to dine with him. So He went in and sat down to eat.",
+              "arabic": "وفيما هو يتكلم سأله فريسى أن يأكل عنده. فدخل وإتكأ.",
+              "arabic_base_no_tashkeel": "وفيما هو يتكلم سأله فريسى أن يأكل عنده. فدخل وإتكأ."
+            },
+            {
+              "row_index": 2,
+              "english": "When the Pharisee saw it, he marveled that He had not first washed before dinner.",
+              "arabic": "وأما الفريسى فلما رأى أنه لم يغتسل أولاً قبل الأكل تعجب.",
+              "arabic_base_no_tashkeel": "وأما الفريسى فلما رأى أنه لم يغتسل أولا قبل الأكل تعجب."
+            },
+            {
+              "row_index": 3,
+              "english": "Then the Lord said to him, “Now you Pharisees make the outside of the cup and dish clean, but your inward part is full of greed and wickedness.",
+              "arabic": "فقال له الرب أنتم الآن معشر الفريسيين تطهرون خارج الكأس والصحفة. وأما داخلهما فمملوء اختطافا وخبثا.",
+              "arabic_base_no_tashkeel": "فقال له الرب أنتم الآن معشر الفريسيين تطهرون خارج الكأس والصحفة. وأما داخلهما فمملوء اختطافا وخبثا."
+            },
+            {
+              "row_index": 4,
+              "english": "Foolish ones! Did not He who made the outside make the inside also? But rather give alms of such things as you have; then indeed all things are clean to you.",
+              "arabic": "أيها الجهال أليس الذي صنع الخارج صنع الداخل أيضاً. بل أعطوا ما عندكم صدقة فهوذا كل شئ يتطهر لكم.",
+              "arabic_base_no_tashkeel": "أيها الجهال أليس الذي صنع الخارج صنع الداخل أيضا. بل أعطوا ما عندكم صدقة فهوذا كل شئ يتطهر لكم."
+            },
+            {
+              "row_index": 5,
+              "english": "“But woe to you Pharisees! For you tithe mint and rue and all manner of herbs, and pass by justice and the love of God. These you ought to have done, without leaving the others undone.",
+              "arabic": "ولكن ويل لكم أيها الفريسيون لأنكم تعشرون النعنع والسذاب وكل بقل وتتجاوزون حكم الله ومحبته. وكان ينبغى أن تفعلوا هذه ولا تتركوا تلك.",
+              "arabic_base_no_tashkeel": "ولكن ويل لكم أيها الفريسيون لأنكم تعشرون النعنع والسذاب وكل بقل وتتجاوزون حكم الله ومحبته. وكان ينبغى أن تفعلوا هذه ولا تتركوا تلك."
+            },
+            {
+              "row_index": 6,
+              "english": "Woe to you Pharisees! For you love the best seats in the synagogues and greetings in the marketplaces.",
+              "arabic": "ويل لكم أيها الفريسيون لأنكم تحبون أوائل المجالس فى المجامع والتحيات فى الأسواق.",
+              "arabic_base_no_tashkeel": "ويل لكم أيها الفريسيون لأنكم تحبون أوائل المجالس فى المجامع والتحيات فى الأسواق."
+            },
+            {
+              "row_index": 7,
+              "english": "Woe to you, scribes and Pharisees, hypocrites! For you are like graves which are not seen, and the men who walk over them are not aware of them.”",
+              "arabic": "ويل لكم أيها الكتبة والفريسيون المراؤون لأنكم مثل القبور المختفية. والناس يمشون عليها ولا يعلمون.",
+              "arabic_base_no_tashkeel": "ويل لكم أيها الكتبة والفريسيون المراؤون لأنكم مثل القبور المختفية. والناس يمشون عليها ولا يعلمون."
+            },
+            {
+              "row_index": 8,
+              "english": "Then one of the lawyers answered and said to Him, “Teacher, by saying these things You reproach us also.”",
+              "arabic": "فأجاب واحد من الناموسيين وقال له أيها المعلم أنك بقولك هذا تشتمنا نحن أيضاً",
+              "arabic_base_no_tashkeel": "فأجاب واحد من الناموسيين وقال له أيها المعلم أنك بقولك هذا تشتمنا نحن أيضا"
+            },
+            {
+              "row_index": 9,
+              "english": "And He said, “Woe to you also, lawyers! For you load men with burdens hard to bear, and you yourselves do not touch the burdens with one of your fingers.",
+              "arabic": "أما هو فقال له. وأنتم أيضاً أيها الناموسيون. ويل لكم لأنكم تحملون الناس أحمالاً ثقيلة وأنتم لا تمسون تلك الأحمال بإحدى أصابعكم",
+              "arabic_base_no_tashkeel": "أما هو فقال له. وأنتم أيضا أيها الناموسيون. ويل لكم لأنكم تحملون الناس أحمالا ثقيلة وأنتم لا تمسون تلك الأحمال بإحدى أصابعكم"
+            },
+            {
+              "row_index": 10,
+              "english": "Woe to you! For you build the tombs of the prophets, and your fathers killed them.",
+              "arabic": "ويل لكم فإنكم تشيدون قبور الأنبياء الذين قتلهم آباؤكم،",
+              "arabic_base_no_tashkeel": "ويل لكم فإنكم تشيدون قبور الأنبياء الذين قتلهم آباؤكم،"
+            },
+            {
+              "row_index": 11,
+              "english": "In fact, you bear witness that you approve the deeds of your fathers; for they indeed killed them, and you build their tombs.",
+              "arabic": "فأنتم إذاً تشهدون وتسرون بأعمال أبائكم. لأنهم هم قتلوهم وأنتم تبنون قبورهم.",
+              "arabic_base_no_tashkeel": "فأنتم إذا تشهدون وتسرون بأعمال أبائكم. لأنهم هم قتلوهم وأنتم تبنون قبورهم."
+            },
+            {
+              "row_index": 12,
+              "english": "Therefore the wisdom of God also said, ‘I will send them prophets and apostles, and some of them they will kill and persecute,’",
+              "arabic": "لذلك أيضاً قالت حكمة الله. أنى أرسل إليهم أنبياء ورسلاً فيقتلون منهم ويطردون.",
+              "arabic_base_no_tashkeel": "لذلك أيضا قالت حكمة الله. أنى أرسل إليهم أنبياء ورسلا فيقتلون منهم ويطردون."
+            },
+            {
+              "row_index": 13,
+              "english": "That the blood of all the prophets which was shed from the foundation of the world may be required of this generation,",
+              "arabic": "لكى يطلب من هذا الجيل دم جميع الأنبياء الذي سفك منذ إنشاء العالم.",
+              "arabic_base_no_tashkeel": "لكى يطلب من هذا الجيل دم جميع الأنبياء الذي سفك منذ إنشاء العالم."
+            },
+            {
+              "row_index": 14,
+              "english": "From the blood of Abel to the blood of Zechariah who perished between the altar and the temple. Yes, I say to you, it shall be required of this generation. “Woe to you lawyers!",
+              "arabic": "من دم هابيل الصديق إلى دم زكريا بن براشيا الذي أهلك بين المذبح والبيت. نعم أقول لكم أنه يطلب من هذا الجيل. الويل لكم أيها الناموسيون",
+              "arabic_base_no_tashkeel": "من دم هابيل الصديق إلى دم زكريا بن براشيا الذي أهلك بين المذبح والبيت. نعم أقول لكم أنه يطلب من هذا الجيل. الويل لكم أيها الناموسيون"
+            },
+            {
+              "row_index": 15,
+              "english": "For you have taken away the key of knowledge. You did not enter in yourselves, and those who were entering in you hindered.”",
+              "arabic": "لأنكم أخذتم مفاتيح المعرفة فما دخلتم أنتم والداخلون منعتموهم.",
+              "arabic_base_no_tashkeel": "لأنكم أخذتم مفاتيح المعرفة فما دخلتم أنتم والداخلون منعتموهم."
+            },
+            {
+              "row_index": 16,
+              "english": "Woe to you lawyers! For you have taken away the key of knowledge. You did not enter in yourselves, and those who were entering in you hindered.\"<Br><i>Bow down before the Holy Gospel.</i>",
+              "arabic": "وَيْلٌ لَكُمْ أَيُّهَا النَّامُوسِيُّونَ لأَنَّكُمْ أَخَذْتُمْ مِفْتَاحَ الْمَعْرِفَةِ. مَا دَخَلْتُمْ أَنْتُمْ وَالدَّاخِلُونَ مَنَعْتُمُوهُمْ».<br><i>أسجدوا للإنجيل المقدس.</i>",
+              "arabic_base_no_tashkeel": "ويل لكم أيها الناموسيون لأنكم أخذتم مفتاح المعرفة. ما دخلتم أنتم والداخلون منعتموهم».<br><i>أسجدوا للإنجيل المقدس.</i>"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

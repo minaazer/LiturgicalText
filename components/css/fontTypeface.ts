@@ -5,6 +5,7 @@ type FontFace = {
   family: string;
   weight?: string;
   style?: string;
+  display?: string;
   modules: Array<{ module: number; format: string }>;
 };
 
@@ -26,13 +27,19 @@ const fontFaces: FontFace[] = [
   { family: 'Font Awesome 5 Brands', modules: [{ module: require('../../assets/fonts/fa-brands-400.ttf'), format: 'truetype' }] },
 ];
 
-const buildFace = (family: string, srcList: string, weight?: string, style?: string) => `
+const buildFace = (
+  family: string,
+  srcList: string,
+  weight?: string,
+  style?: string,
+  display: string = 'block'
+) => `
 @font-face {
   font-family: "${family}";
   src: ${srcList};
   ${weight ? `font-weight: ${weight};` : 'font-weight: normal;'}
   ${style ? `font-style: ${style};` : 'font-style: normal;'}
-  font-display: swap;
+  font-display: ${display};
 }`;
 
 const mimeForFormat = (format: string) => {
@@ -83,7 +90,15 @@ export async function buildFontTypefaceCss(): Promise<string> {
     }
 
     if (resolvedSources.length > 0) {
-      faceCss.push(buildFace(face.family, resolvedSources.join(',\n       '), face.weight, face.style));
+      faceCss.push(
+        buildFace(
+          face.family,
+          resolvedSources.join(',\n       '),
+          face.weight,
+          face.style,
+          face.display || 'block'
+        )
+      );
     }
   }
 

@@ -724,8 +724,8 @@
                 "row-class": "north",
                 "cells": [
                   {
-                    "english": "11) Let us pray and ask for the life and standing of our honorable father, the Patriarch and Archbishop Pope Abba (...), [and his partner in the apostolic liturgy, our father the bishop (metropolitan), Abba (...),] that the Lord may preserve his life, and confirm him (them) in his (their) see(s) for many years and peaceful times, and forgive us our sins. ${cross}",
-                    "arabic": "١١)صلوا واطلبوا عن حياة وقيام أبينا المكرم رئيس الأساقفة الآب البطريرك البابا أنبا__، (وشريكه في الخدمة أبينا الأسقف (المطران) المكرم الآنبا __،) لكى يحفظ الرب لنا حياته ويثبته على كرسيه سنين عديدة وأزمنه سلامية هادئة مديدة. ويغفر لنا خطايانا.. ${cross}"
+                    "english": "11) Let us pray and ask for the life and standing of our honorable father, the Patriarch and Archbishop Pope Abba Tawadros,<br><span style='display:block; color:#d6c6a5; font-style:italic;'>and his partner in the apostolic liturgy, our father the bishop (metropolitan), Abba (...),</span>that the Lord may preserve his life, and confirm him (them) in his (their) see(s) for many years and peaceful times, and forgive us our sins. ${cross}",
+                    "arabic": "١١)صلوا واطلبوا عن حياة وقيام أبينا المكرم رئيس الأساقفة الآب البطريرك البابا أنبا تواضروس،<br><span style='display:block; color:#d6c6a5; font-style:italic;'>وشريكه في الخدمة أبينا الأسقف (المطران) المكرم الآنبا __،</span><br>لكى يحفظ الرب لنا حياته ويثبته على كرسيه سنين عديدة وأزمنه سلامية هادئة مديدة. ويغفر لنا خطايانا. ${cross}"
                   }
                 ]
               },
@@ -1160,8 +1160,8 @@
                 "row-class": "north",
                 "cells": [
                   {
-                    "english": "25) For the sake of our protection under Your high and mighty hand, O God, we ask You to keep for us the life of our honored father and patriarch, Pope Abba (...), [and his partner in the apostolic liturgy, our father the bishop (metropolitan) Abba (...),] and to confirm him (them) upon his (their) throne(s) for many years and quiet and peaceful times. We ask You, O Lord, hear us and have mercy on us. ${cross}",
-                    "arabic": "٢٥) من أجل حفظنا تحت اليد العالية المقدسة التى لك يا الله نطلب إليك أن تبقى لنا وعلينا حياة الأب المكرم البطريرك أنبا (...)،] وشريكه في الخدمة أبينا الأسقف (المطران) المكرم الأنبا (...) وأن تحفظ لنا حياتَه وتثبته على كرسيه سنين عديدة وأزمنه  سلامية هادئة مديدة. نسألك يارب أسمعنا وأرحمنا. ${cross}"
+                    "english": "25) For the sake of our protection under Your high and mighty hand, O God, we ask You to keep for us the life of our honored father and patriarch, Pope Abba Tawadros <br><span style='display:block; color:#d6c6a5; font-style:italic;'>and his partner in the apostolic liturgy, our father the bishop (metropolitan) Abba (...)</span><br>and to confirm him (them) upon his (their) throne(s) for many years and quiet and peaceful times. We ask You, O Lord, hear us and have mercy on us. ${cross}",
+                    "arabic": "٢٥) من أجل حفظنا تحت اليد العالية المقدسة التى لك يا الله نطلب إليك أن تبقى لنا وعلينا حياة الأب المكرم البطريرك أنبا تواضروس<br><span style='display:block; color:#d6c6a5; font-style:italic;'>وشريكه في الخدمة أبينا الأسقف (المطران) المكرم الأنبا (...)</span><br>وأن تحفظ لنا حياتَه وتثبته على كرسيه سنين عديدة وأزمنه  سلامية هادئة مديدة. نسألك يارب أسمعنا وأرحمنا. ${cross}"
                   }
                 ]
               },

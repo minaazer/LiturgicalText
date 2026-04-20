@@ -1,0 +1,277 @@
+{
+  "service": "DAY of Covenant Thursday",
+  "hour": "THIRD Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Exodus 32: 30 - 33: 5)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Now it came to pass on the next daythat Moses said to the people, \"You committed a great sin.",
+              "arabic": "وكان بعد الغد ان قال موسى للشعب: أنتم قد أخطاتم خطية عظيمة،",
+              "arabic_base_no_tashkeel": "وكان بعد الغد ان قال موسى للشعب: أنتم قد أخطاتم خطية عظيمة،"
+            },
+            {
+              "row_index": 2,
+              "english": "So now I will go up to God to make atonement for your sin.\"",
+              "arabic": "فأصعد الآن إلى الله لعلى أكفر عن خطيتكم.",
+              "arabic_base_no_tashkeel": "فأصعد الآن إلى الله لعلى أكفر عن خطيتكم."
+            },
+            {
+              "row_index": 3,
+              "english": "Then Moses returned to the Lord and said, \"I pray, O Lord, these people have committed a great sin and have made for themselves a god of gold!",
+              "arabic": "فرجع موسى إلى الرب وقال: أتضرع إليك يارب قد خطئ هذا الشعب خطية عظيمة. وصنعوا لهم آلهة من ذهب",
+              "arabic_base_no_tashkeel": "فرجع موسى إلى الرب وقال: أتضرع إليك يارب قد خطئ هذا الشعب خطية عظيمة. وصنعوا لهم آلهة من ذهب"
+            },
+            {
+              "row_index": 4,
+              "english": "Behold, My Angel shall go before your face. Nevertheless, in the day when I visit, I will strike them for their sin.\"",
+              "arabic": "هوذا ملاكى يسير أمامك. وفى يوم افتقادى أجلب عليهم خطيتهم.",
+              "arabic_base_no_tashkeel": "هوذا ملاكى يسير أمامك. وفى يوم افتقادى أجلب عليهم خطيتهم."
+            },
+            {
+              "row_index": 5,
+              "english": "So the Lord struck the people for making the calf which Aaron made.",
+              "arabic": "فضرب الرب الشعب بسبب صنع العجل الذي صنعه هرون.",
+              "arabic_base_no_tashkeel": "فضرب الرب الشعب بسبب صنع العجل الذي صنعه هرون."
+            },
+            {
+              "row_index": 6,
+              "english": "Now the Lord said to Moses, \"Depart, go up from here, you and the people you brought out of the land of Egypt, to the land I swore to Abraham, Isaac, and Jacob, saying, 'To your seed I will give it.'",
+              "arabic": "وقال الرب لموسى اذهب وانطلق من ههنا. أنت وشعبك هؤلاء الذين أخرجتهم من أرض مصر. إلى الأرض التى اقسمت لإبراهيم واسحق ويعقوب قائلاً: لنسلك أعطيها.",
+              "arabic_base_no_tashkeel": "وقال الرب لموسى اذهب وانطلق من ههنا. أنت وشعبك هؤلاء الذين أخرجتهم من أرض مصر. إلى الأرض التى اقسمت لإبراهيم واسحق ويعقوب قائلا: لنسلك أعطيها."
+            },
+            {
+              "row_index": 7,
+              "english": "I will send My Angel before your face, and I will drive out the Amorite, the Hittite, the Perizzite, the Gergesite, the Hivite, the Jebusite, and the Canaanite.",
+              "arabic": "وأنا أرسل أمامك ملاكى. ويطرد الآمورى والكلدانى والفرزانى واليبوسانى والكنعانى",
+              "arabic_base_no_tashkeel": "وأنا أرسل أمامك ملاكى. ويطرد الآمورى والكلدانى والفرزانى واليبوسانى والكنعانى"
+            },
+            {
+              "row_index": 8,
+              "english": "I will bring you into a land flowing with milk and honey; for I will not go up in your midst, lest I consume you on the way, for you are a stiff-necked people.\"",
+              "arabic": "وادخلك إلى الأرض التى تفيض لبناً وعسلاً. وأما أنا فلا أصعد معك. لانك شعب صلب الرقبة لئلا افنيك فى الطريق.",
+              "arabic_base_no_tashkeel": "وادخلك إلى الأرض التى تفيض لبنا وعسلا. وأما أنا فلا أصعد معك. لانك شعب صلب الرقبة لئلا افنيك فى الطريق."
+            },
+            {
+              "row_index": 9,
+              "english": "When the people heard this bad news, they mourned in lamentations.",
+              "arabic": "فلما سمع الشعب هذا الكلام القاسى ناحوا.",
+              "arabic_base_no_tashkeel": "فلما سمع الشعب هذا الكلام القاسى ناحوا."
+            },
+            {
+              "row_index": 10,
+              "english": "For the Lord said to the children of Israel, \"You are a stiff-necked people.",
+              "arabic": "فقال الرب لبنى اسرائيل: أنتم شعب صلب الرقبة",
+              "arabic_base_no_tashkeel": "فقال الرب لبنى اسرائيل: أنتم شعب صلب الرقبة"
+            },
+            {
+              "row_index": 11,
+              "english": "Beware, lest I inflict another plague on you and consume you.",
+              "arabic": "انظروا لئلا آتى عليكم بضربة أخرى فابيدكم.",
+              "arabic_base_no_tashkeel": "انظروا لئلا آتى عليكم بضربة أخرى فابيدكم."
+            }
+          ]
+        },
+        {
+          "title": "2nd Prophecy (Sirach 24: 1 - 11)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Wisdom will praise herself, And in the midst of her people she will boast.",
+              "arabic": "الحكمة تمدح نفسها. وتقبل طالبيها.",
+              "arabic_base_no_tashkeel": "الحكمة تمدح نفسها. وتقبل طالبيها."
+            },
+            {
+              "row_index": 2,
+              "english": "In the assembly of the Most High, she will open her mouth and boast in the presence of His host.",
+              "arabic": "وتفتخر وسط الجماعات. وتفتح فاها فى جماعة العلى.",
+              "arabic_base_no_tashkeel": "وتفتخر وسط الجماعات. وتفتح فاها فى جماعة العلى."
+            },
+            {
+              "row_index": 3,
+              "english": "\"I came forth from the mouth of the Most High And covered the earth like a mist. I pitched my tent in the high places and my throne on the pillar of cloud.",
+              "arabic": "وتفتخر أمام قوته قائلة: انى خرجت من فم العلى. وغشيت الأرض مثل الضباب وسكنت فى الأعالى.",
+              "arabic_base_no_tashkeel": "وتفتخر أمام قوته قائلة: انى خرجت من فم العلى. وغشيت الأرض مثل الضباب وسكنت فى الأعالى."
+            },
+            {
+              "row_index": 4,
+              "english": "I alone encircle the ring of heaven, And I walk in the depth of the abyss. In the waves of the sea, in all the earth, and in every people and nation I have gained a possession.",
+              "arabic": "وعرشى فى عامود سحاب وطفت حول السماء وحدى وسلكت فى عمق الغمر وفى أمواج البحر والأرض باسرها. وهبطت فى كل الشعوب وكل الأمم.",
+              "arabic_base_no_tashkeel": "وعرشى فى عامود سحاب وطفت حول السماء وحدى وسلكت فى عمق الغمر وفى أمواج البحر والأرض باسرها. وهبطت فى كل الشعوب وكل الأمم."
+            },
+            {
+              "row_index": 5,
+              "english": "With all these, I have sought a place to rest; In what inheritance will I lodge?",
+              "arabic": "فى هذه كلها التمست مسكناً، فبأى ميراث أحل",
+              "arabic_base_no_tashkeel": "فى هذه كلها التمست مسكنا، فبأى ميراث أحل"
+            },
+            {
+              "row_index": 6,
+              "english": "\"Then the Creator of all things commanded me, And He who created me gave me a place to live.",
+              "arabic": "حينئذ أوصانى خالق الجميع، والذي خلقنى عين مسكنى,",
+              "arabic_base_no_tashkeel": "حينئذ أوصانى خالق الجميع، والذي خلقنى عين مسكنى,"
+            },
+            {
+              "row_index": 7,
+              "english": "He said, 'Pitch your tent in Jacob And receive an inheritance in IsraeI.'",
+              "arabic": "وقال: اسكنى فى يعقوب، ورثى فى اسرائيل.",
+              "arabic_base_no_tashkeel": "وقال: اسكنى فى يعقوب، ورثى فى اسرائيل."
+            },
+            {
+              "row_index": 8,
+              "english": "Before the age, He created me from the beginning, And in the age to come I will not cease.",
+              "arabic": "قبل الدهور ومن البدء خلقتنى وإلى الأبد لا أزول.",
+              "arabic_base_no_tashkeel": "قبل الدهور ومن البدء خلقتنى وإلى الأبد لا أزول."
+            },
+            {
+              "row_index": 9,
+              "english": "I serve before Him in His holy tabernacle; Therefore, I am established in Zion. In the beloved city likewise He gives me rest, and my authority is in Jerusalem.",
+              "arabic": "وقد خدمت أمامه فى الخيمة المقدسة وهكذا فى صهيون ثبتنى لاسكن فى مدينته المحبوبة وسلطانى فى أورشليم.",
+              "arabic_base_no_tashkeel": "وقد خدمت أمامه فى الخيمة المقدسة وهكذا فى صهيون ثبتنى لاسكن فى مدينته المحبوبة وسلطانى فى أورشليم."
+            },
+            {
+              "row_index": 10,
+              "english": "In the holy tabernacle I ministered before him, and so I was established in Zion.",
+              "arabic": "مِنَ المَسكِنِ المُقَدَّسِ خَدَمْتُهُ، فتَثَبَّتَت في صِهيونَ إقامَتي.",
+              "arabic_base_no_tashkeel": "من المسكن المقدس خدمته، فتثبتت في صهيون إقامتي."
+            },
+            {
+              "row_index": 11,
+              "english": "In the beloved city likewise he gave me a resting place, and in Jerusalem was my dominion.",
+              "arabic": "في أُورُشليمَ، في المدينةِ المَحبوبَةِ مَنَحَني راحَتي، وفيها أقامَ لي سُلْطَتي.",
+              "arabic_base_no_tashkeel": "في أورشليم، في المدينة المحبوبة منحني راحتي، وفيها أقام لي سلطتي."
+            }
+          ]
+        },
+        {
+          "title": "3rd Prophecy (Zechariah 9: 11 - 14)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "\"As for you also, Because of the blood of your covenant, I will set your prisoners free from the waterless pit.",
+              "arabic": "وَأَنْتِ أَيْضاً فَإِنِّي بِدَمِ عَهْدِكِ قَدْ أَطْلَقْتُ أَسْرَاكِ مِنَ الْجُبِّ الَّذِي لَيْسَ فِيهِ مَاءٌ.",
+              "arabic_base_no_tashkeel": "وأنت أيضا فإني بدم عهدك قد أطلقت أسراك من الجب الذي ليس فيه ماء."
+            },
+            {
+              "row_index": 2,
+              "english": "Return to the stronghold, You prisoners of hope. Even today I declare That I will restore double to you.",
+              "arabic": "ارْجِعُوا إِلَى الْحِصْنِ يَا أَسْرَى الرَّجَاءِ. الْيَوْمَ أَيْضاً أُصَرِّحُ أَنِّي أَرُدُّ عَلَيْكِ ضِعْفَيْنِ.",
+              "arabic_base_no_tashkeel": "ارجعوا إلى الحصن يا أسرى الرجاء. اليوم أيضا أصرح أني أرد عليك ضعفين."
+            },
+            {
+              "row_index": 3,
+              "english": "For I have bent Judah, My bow, Fitted the bow with Ephraim, And raised up your sons, O Zion, Against your sons, O Greece, And made you like the sword of a mighty man.\"",
+              "arabic": "[لأَنِّي أَوْتَرْتُ يَهُوذَا لِنَفْسِي وَمَلَأْتُ الْقَوْسَ أَفْرَايِمَ وَأَنْهَضْتُ أَبْنَاءَكِ يَا صِهْيَوْنُ عَلَى بَنِيكِ يَا يَاوَانُ وَجَعَلْتُكِ كَسَيْفِ جَبَّارٍ].",
+              "arabic_base_no_tashkeel": "[لأني أوترت يهوذا لنفسي وملأت القوس أفرايم وأنهضت أبناءك يا صهيون على بنيك يا ياوان وجعلتك كسيف جبار]."
+            },
+            {
+              "row_index": 4,
+              "english": "Then the Lord will be seen over them, And His arrow will go forth like lightning. The Lord God will blow the trumpet, And go with whirlwinds from the south.",
+              "arabic": "وَيُرَى الرَّبُّ فَوْقَهُمْ وَسَهْمُهُ يَخْرُجُ كَالْبَرْقِ وَالسَّيِّدُ الرَّبُّ يَنْفُخُ فِي الْبُوقِ وَيَسِيرُ فِي زَوَابِعِ الْجَنُوبِ.",
+              "arabic_base_no_tashkeel": "ويرى الرب فوقهم وسهمه يخرج كالبرق والسيد الرب ينفخ في البوق ويسير في زوابع الجنوب."
+            }
+          ]
+        },
+        {
+          "title": "4th Prophecy (Proverbs 30: 2 - 6)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Surely I am more stupid than any man, And do not have the understanding of a man.",
+              "arabic": "إِنِّي أَبْلَدُ مِن كُلِّ إِنْسَانٍ وَلَيْسَ لِي فَهْمُ إِنْسَانٍ",
+              "arabic_base_no_tashkeel": "إني أبلد من كل إنسان وليس لي فهم إنسان"
+            },
+            {
+              "row_index": 2,
+              "english": "I neither learned wisdom Nor have knowledge of the Holy One.",
+              "arabic": "وَلَمْ أَتَعَلَّمِ الْحِكْمَةَ وَلَمْ أَعْرِفْ مَعْرِفَةَ الْقُدُّوسِ.",
+              "arabic_base_no_tashkeel": "ولم أتعلم الحكمة ولم أعرف معرفة القدوس."
+            },
+            {
+              "row_index": 3,
+              "english": "Who has ascended into heaven, or descended? Who has gathered the wind in His fists? Who has bound the waters in a garment? Who has established all the ends of the earth? What is His name, and what is His Son's name, If you know?",
+              "arabic": "مَن صَعِدَ إِلَى السَّمَاوَاتِ وَنَزَلَ؟ مَن جَمَعَ الرِّيحَ في حُفْنَتَيْهِ؟ مَن صَرَّ الْمِيَاهَ في ثَوْبٍ؟ مَن ثَبَّتَ جَمِيعَ أَطْرَافِ الأَرْضِ؟ مَا اسْمُهُ وَمَا اسْمُ ابْنِهِ إِنْ عَرَفْتَ؟",
+              "arabic_base_no_tashkeel": "من صعد إلى السماوات ونزل؟ من جمع الريح في حفنتيه؟ من صر المياه في ثوب؟ من ثبت جميع أطراف الأرض؟ ما اسمه وما اسم ابنه إن عرفت؟"
+            },
+            {
+              "row_index": 4,
+              "english": "Every word of God is pure; He is a shield to those who put their trust in Him.",
+              "arabic": "كُلُّ كَلِمَةٍ مِنَ اللَّهِ نَقِيَّةٌ. تُرْسٌ هُوَ لِلْمُحْتَمِينَ بِهِ.",
+              "arabic_base_no_tashkeel": "كل كلمة من الله نقية. ترس هو للمحتمين به."
+            },
+            {
+              "row_index": 5,
+              "english": "Do not add to His words, Lest He rebuke you, and you be found a liar.",
+              "arabic": "لاَ تَزِدْ عَلَى كَلِمَاتِهِ لِئَلاَّ يُوَبِّخَكَ فَتُكَذَّبَ.",
+              "arabic_base_no_tashkeel": "لا تزد على كلماته لئلا يوبخك فتكذب."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (94: 21,23)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "They shall hunt for the soul of a righteous man and shall condemn innocent blood.",
+              "arabic": "يتصيدون على نفس الصديق. ويلقون إلى الحكم دماً زكياً.",
+              "arabic_base_no_tashkeel": "يتصيدون على نفس الصديق. ويلقون إلى الحكم دما زكيا."
+            },
+            {
+              "row_index": 2,
+              "english": "He will repay their lawlessness to them, and according to their wickedness, the Lord our God shall destroy them:",
+              "arabic": "وسيكافئهم باثمهم وشرهم. ويبيدهم الرب إلهي:",
+              "arabic_base_no_tashkeel": "وسيكافئهم باثمهم وشرهم. ويبيدهم الرب إلهي:"
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Matthew 26: 17 - 19)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Now on the first day of the Feast of the Unleavened Bread the disciples came to Jesus, saying to Him, \"Where do You want us to prepare for You to eat the Passover?\"",
+              "arabic": "وفى أول يوم من الفطير جاء التلاميذ إلى يسوع قائلين: أين تريد أن نعد لكَ الفصح لتأكله؟",
+              "arabic_base_no_tashkeel": "وفى أول يوم من الفطير جاء التلاميذ إلى يسوع قائلين: أين تريد أن نعد لك الفصح لتأكله؟"
+            },
+            {
+              "row_index": 2,
+              "english": "And He said, \"Go into the city to a certain man, and say to him, 'The Teacher says, \"My time is at hand; I will keep the Passover at your house with My disciples.\"",
+              "arabic": "أما هو فقال لهم: اذهبوا إلى هذه المدينة إلى فلان الرجل وقولوا له: المعلم يقول ان زمانى قد اقترب، وعندك اصنع الفصح مع تلاميذى.",
+              "arabic_base_no_tashkeel": "أما هو فقال لهم: اذهبوا إلى هذه المدينة إلى فلان الرجل وقولوا له: المعلم يقول ان زمانى قد اقترب، وعندك اصنع الفصح مع تلاميذى."
+            },
+            {
+              "row_index": 3,
+              "english": "So the disciples did as Jesus had directed them; and they prepared the Passover.",
+              "arabic": "ففعل التلاميذ كما أمرهم يسوع وأعدوا الفصح.",
+              "arabic_base_no_tashkeel": "ففعل التلاميذ كما أمرهم يسوع وأعدوا الفصح."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

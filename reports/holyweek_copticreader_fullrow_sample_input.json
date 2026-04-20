@@ -1,0 +1,96 @@
+{
+  "items": [
+    {
+      "service": "friday/Friday - 11th Hour.xml",
+      "section": {
+        "title": {
+          "english": "Exodus 12:1-14",
+          "arabic": "خروج 12: 1-14"
+        },
+        "reference": "Exodus 12:1-14",
+        "content": [
+          {
+            "kind": "text",
+            "languages": {
+              "coptic": "Ebolqen Pidoxodoc n~te Mwu~c/c pip~rov/t/c: e~repefc~mou eyouab swpi neman a~m/n efjw m~moc:",
+              "english": "A reading from the Book of Exodus of Moses the prophet. May his holy blessings be with us. Amen.",
+              "arabic": "من سفر الخروج لموسى النبي بركته المقدسة تکون معنا. آمين."
+            }
+          },
+          {
+            "kind": "text",
+            "languages": {
+              "coptic": "Peje ‍P‍[oic ‍m~Mw‍u~c/c nem ‍Aa~rwn qen p~kahi ‍n~</mi efjw‍ m~moc:",
+              "english": "Now the Lord spoke to Moses and Aaron in the land of Egypt, saying,",
+              "arabic": "وكلم الرب موسى وهرون فى أرض مصر قائلاً:"
+            }
+          },
+          {
+            "kind": "text",
+            "languages": {
+              "coptic": "Je pai‍a~bot vai ‍t~ar,/ ‍n~ni‍a~bot ‍n~te ]rompi:",
+              "english": "\"This month shall be your beginning of months; it shall be the first month of the year to you.",
+              "arabic": "أن هذا الشهر يكون لكم رأس الشهور. فاجعلوه أول شهور السنة."
+            }
+          },
+          {
+            "kind": "text",
+            "languages": {
+              "coptic": "Caji nem ]cunagw/ t/rc ‍n~te nens/ri ‍m~‍p~I‍icra/l ekjw‍m~moc: je ‍n~‍q~r/i qencou m/t ‍m~pi‍a~bot: mare ‍v~ouai ‍v~ouai [inaf ‍n~ou‍e~cwou kata neni ou ‍n~nouio]: ou‍e~ cwou kata/i.",
+              "english": "Speak to all the congregation of the children of Israel, saying, 'On the tenth day of this month every man shall take for himself a lamb, according to the family households, a lamb for each home.",
+              "arabic": "كلما كل جماعة بنى اسرائيل وقولا لهم: فى اليوم العاشر من الشهر فليأخذ كل واحد له خروفاً بحسب بيوت آبائهم، خروفاً لكل بيت."
+            }
+          },
+          {
+            "kind": "text",
+            "languages": {
+              "coptic": "‍Eswp de eu‍c~bok ‍n~je n/etqen pi/i: hwc de ‍e~stem rwsi ‍e~pi‍e~cwou ef‍e~[i ‍m~pefyeseu nemaf nem pef‍s~v/r: kata ni/pi ‍m~'u,/: ‍v~ouai ‍v~ouai ‍m~pefrwsi ef‍e~[i/pi ‍m~mof ‍n~ou‍e~cwou:",
+              "english": "If there be too few in a household, let him and his neighbor next to his house take it according to the number of souls; he will make his count in lambs according to the needs of each one.",
+              "arabic": "وان كان أهل البيت قليلين لا يكفون لخروف فليأخذ هو وجاره القريب من بيته بحسب عدد النفوس، كل واحد على قدر ما يكفيه من الخروف."
+            }
+          },
+          {
+            "kind": "text",
+            "languages": {
+              "coptic": "Ou‍e~cwou ‍n~hwout efj/k ‍e~bol ‍e~aferourompi: efeswpi nwten ‍e~bolqen nihi/b nem ‍e~bolqen nibaempi ‍e~reten‍e~[i:",
+              "english": "Your lamb shall be without blemish, a male of the first year. You shall take it from the sheep or the kids.",
+              "arabic": "وليكن لكم خروفاً ذكراً صحيحاً حولياً (إبن سنة) تأخذونه من الحملان أو من الجداء."
+            }
+          },
+          {
+            "kind": "text",
+            "languages": {
+              "coptic": "Ef‍e~swpi eu‍a~reh ‍e~rof nwten sacou m/t ‍f~tou ‍m~pi‍a~bot: ouoh eu‍e~satf ‍n~je pim/s t/rf ‍n~te ]cunagwg/ ‍n~te nens/ri ‍m~Piicra/l: mvnau ‍n~han‍a~rouhi.",
+              "english": "Then you shall keep it until the fourteenth day of the same month, and the whole assembly of the congregation of Israel shall kill it at twilight.",
+              "arabic": "ويكون عندكم تحت الحفظ إلى اليوم الرابع عشر من الشهر. وليذبحه كل جمهور جماعة بنى اسرائيل وقت المساء."
+            }
+          },
+          {
+            "kind": "text",
+            "languages": {
+              "coptic": "Ouoh eu‍e~[i ‍e~bolqen pef‍c~nof eu‍e~,w hijen ]ouejro ‍c~nou]: nem nimesyibc ‍c~nou]: nem hijen youai qen ni/i ‍e~tounaouomf ‍n~q/tou:",
+              "english": "Then they shall take some of the blood and put it on the two doorposts and on the lintel of the houses where they eat it.",
+              "arabic": "ويأخذون من دمه ويضعون على القائمتين والعتبة العليا فى كل البيوت التى يأكلونه فيها."
+            }
+          },
+          {
+            "kind": "text",
+            "languages": {
+              "coptic": "Ouoh eu‍e~ouwm ‍n~niaf ‍n~‍q~r/i qen pai ‍e~jwrh euvoci qen ou,rwm: ouoh hanatsem/r hijen hansasi eu‍e~oumou:",
+              "english": "They shall eat the flesh on that night, roasted in fire; with unleavened bread and bitter herbs they shall eat it.",
+              "arabic": "ويأكلون اللحم فى هذه الليلة مشوياً بالنار. مع الفطير على أعشاب مرة يأكلونه."
+            }
+          },
+          {
+            "kind": "text",
+            "languages": {
+              "coptic": "‍Nnetenouwm ‍e~bol ‍n~q/tf efouwt: oude efvoci qen oumwou: alla efjefjwf qen ou‍,~rwm ]‍a~ve de nem ni[‍a~lauj nem n/etcaqoun mmof.",
+              "english": "Do not eat it raw, nor, boiled at all with water, but roasted in fire—its head with its legs and its entrails.",
+              "arabic": "لا تأكلونه نيئاً أومطبوخاً بالماء. بل مشوياً بالنار مع رأسه وأكارعه وما فى جوفه."
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

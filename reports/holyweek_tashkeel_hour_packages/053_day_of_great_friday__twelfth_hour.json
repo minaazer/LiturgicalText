@@ -1,0 +1,485 @@
+{
+  "service": "DAY of Great Friday",
+  "hour": "TWELFTH Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Lamentations 3: 1 - 66)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "\"I am the man who sees poverty by the rod of His anger upon me. He took me and led me away into darkness, and not into light. Surely He has turned His hand against me throughout the day.",
+              "arabic": "أنا هو الرجل الذي رأى المذلة. أتى علىّ بقضيب غضبه وقادنى وسيرنى فى الظلمة لا فى النور. والآن رد يده علىّ النهار كله.",
+              "arabic_base_no_tashkeel": "أنا هو الرجل الذي رأى المذلة. أتى على بقضيب غضبه وقادنى وسيرنى فى الظلمة لا فى النور. والآن رد يده على النهار كله."
+            },
+            {
+              "row_index": 2,
+              "english": "\"He has aged my flesh and my skin and has broken my bones. He has besieged me and surrounded my head; He has worn me down with hardships. He set me in dark places as those long dead.",
+              "arabic": "أبلى لحمى وجلدى وسحق عظامى. أحاط بى ونكس رأسى، وأذلنى وأجلسنى فى مواضع مظلمة، مثل الموتى من قديم.",
+              "arabic_base_no_tashkeel": "أبلى لحمى وجلدى وسحق عظامى. أحاط بى ونكس رأسى، وأذلنى وأجلسنى فى مواضع مظلمة، مثل الموتى من قديم."
+            },
+            {
+              "row_index": 3,
+              "english": "\"He hedged me in, and I cannot come forth; He made my brazen chain heavy. Though I will call and cry out, He shuts out my prayer. He has blocked my ways and obstructed my paths; He has troubled me.",
+              "arabic": "سيج علىّ حتى لا أخرج، وثقل أغلالى. دعوته فلم يستجيب لي. صرخت إليه فلم يسر بصلأتى. سيج طرقي وألوى سبلى المسلوكة.",
+              "arabic_base_no_tashkeel": "سيج على حتى لا أخرج، وثقل أغلالى. دعوته فلم يستجيب لي. صرخت إليه فلم يسر بصلأتى. سيج طرقي وألوى سبلى المسلوكة."
+            },
+            {
+              "row_index": 4,
+              "english": "\"He is a bear lying in wait for me like a lion in a hidden place. After I departed, He eagerly pursued and caught me; He has utterly ruined me. He bent his bow and set me up as a target for the arrow.",
+              "arabic": "صار لي كدب كامن وأسد فى موضع مختفى. طاردنى وصرعنى وتركنى هالكاً. أوتر قوسه وأقامنى هدفاً ليلقى فىّ سهامه.",
+              "arabic_base_no_tashkeel": "صار لي كدب كامن وأسد فى موضع مختفى. طاردنى وصرعنى وتركنى هالكا. أوتر قوسه وأقامنى هدفا ليلقى فى سهامه."
+            },
+            {
+              "row_index": 5,
+              "english": "\"He caused the arrows of His quiver to pierce my loins. I became a laughingstock to all my people, and their song all the day. He has filled me with bitterness and drenched me with gall.",
+              "arabic": "أدخل فى كليتى نبال جعبته. صرت ضحكة لكل شعبى وأغنية لهم النهار كله. جرعنى الحنظل. وأسكرنى أفسنتينا.",
+              "arabic_base_no_tashkeel": "أدخل فى كليتى نبال جعبته. صرت ضحكة لكل شعبى وأغنية لهم النهار كله. جرعنى الحنظل. وأسكرنى أفسنتينا."
+            },
+            {
+              "row_index": 6,
+              "english": "\"He also broke my teeth with gravel and fed me with ashes. He took away peace from my soul, and I have forgotten the good things. Therefore I said, ‘My victory and my hope have perished from the Lord.’",
+              "arabic": "هتم بالحصى أسنانى وأطعمنى الرماد. فبعدت نفسى عن السلام. ونسيت الخيرآتٍ. وباد اقنومى ورجائى من الرب.",
+              "arabic_base_no_tashkeel": "هتم بالحصى أسنانى وأطعمنى الرماد. فبعدت نفسى عن السلام. ونسيت الخيرآت. وباد اقنومى ورجائى من الرب."
+            },
+            {
+              "row_index": 7,
+              "english": "\"I remembered by reason of my poverty, and because of my persecution, I remembered my bitterness and gall. My soul shall remember and meditate within me. I will fix this in my heart; therefore, I will endure.",
+              "arabic": "أذكر بؤسى وشقائى والافسنتين والمرارة التى لم تبرح من ذاكرتى. هذا ما تردده نفسى فى، وأشعر به فى قلبى.",
+              "arabic_base_no_tashkeel": "أذكر بؤسى وشقائى والافسنتين والمرارة التى لم تبرح من ذاكرتى. هذا ما تردده نفسى فى، وأشعر به فى قلبى."
+            },
+            {
+              "row_index": 8,
+              "english": "It is through the mercies of the Lord that He has not failed me, because His compassions are not exhausted. Pity us, O Lord, early every month: for we are not brought to an end, because His compassions are not exhausted. They are new every morning: great is Your faithfulness. The Lord is my portion, says my soul; therefore will I wait for Him.",
+              "arabic": "من أجل ذلك أرجو مراحم الرب لأنه لم يتركنى عنه. لأن رأفته لا تزول على ممر الشهور والأيام كلها. إرحمنا يارب فى فنائنا لأن رأفتك لا تفرغ. هى جديدة فى كل صباح. وعظيم هو إيمانك. قالت نفسى نصيبى هو الرب، فلذلك أرجوه.",
+              "arabic_base_no_tashkeel": "من أجل ذلك أرجو مراحم الرب لأنه لم يتركنى عنه. لأن رأفته لا تزول على ممر الشهور والأيام كلها. إرحمنا يارب فى فنائنا لأن رأفتك لا تفرغ. هى جديدة فى كل صباح. وعظيم هو إيمانك. قالت نفسى نصيبى هو الرب، فلذلك أرجوه."
+            },
+            {
+              "row_index": 9,
+              "english": "\"The Lord is good to those who wait for Him, To the soul who will seek Him, the Good One. He will wait for and quietly expect the salvation of the Lord. It is good for a man when he takes up a yoke in his youth.",
+              "arabic": "صالح هو الرب للذين يترجونه. طيب للنفس التى تطلبه. وتتوقع بسكوت خلاص الرب. جيد للرجل أن يحمل النير من منذ صبائه.",
+              "arabic_base_no_tashkeel": "صالح هو الرب للذين يترجونه. طيب للنفس التى تطلبه. وتتوقع بسكوت خلاص الرب. جيد للرجل أن يحمل النير من منذ صبائه."
+            },
+            {
+              "row_index": 10,
+              "english": "\"He will sit alone and be silent, because he bears it on himself. He will give his cheek to the one who strikes him, and he will be filled with insults.",
+              "arabic": "يجلس وحده ويصمت لأنه قد وضعه عليه. يجعل فى التراب فمه لعله يجد رجاء. يميل خده لمن يلطمه ويشبع تعييراً.",
+              "arabic_base_no_tashkeel": "يجلس وحده ويصمت لأنه قد وضعه عليه. يجعل فى التراب فمه لعله يجد رجاء. يميل خده لمن يلطمه ويشبع تعييرا."
+            },
+            {
+              "row_index": 11,
+              "english": "Yet the Lord shall not reject him forever. \"For He who humbles will have compassion according to the abundance of His mercy. For He does not afflict willingly, though He humbles the children of men.",
+              "arabic": "إلا أن الرب لا يقصيه عنه إلى الأبد. فإنه ولو واضعه يترأف عليه ككثرة رحمته. لأنه لم يرذل من قلبه بل تواضع لبنى البشر.",
+              "arabic_base_no_tashkeel": "إلا أن الرب لا يقصيه عنه إلى الأبد. فإنه ولو واضعه يترأف عليه ككثرة رحمته. لأنه لم يرذل من قلبه بل تواضع لبنى البشر."
+            },
+            {
+              "row_index": 12,
+              "english": "\"To humble all the prisoners of the earth under His feet, \"To turn aside the judgment of a man before the face of the Most High, and to condemn a man before he is judged, the Lord does not command.",
+              "arabic": "ليذل تحت قدميه جميع المرتبطين بالأرض. أو حرف حكم الرجل أمام وجه العلى. وإذا نكس الإنسان فى خصومته عندما يحكم عليه أفما يقول الرب.",
+              "arabic_base_no_tashkeel": "ليذل تحت قدميه جميع المرتبطين بالأرض. أو حرف حكم الرجل أمام وجه العلى. وإذا نكس الإنسان فى خصومته عندما يحكم عليه أفما يقول الرب."
+            },
+            {
+              "row_index": 13,
+              "english": "Who thus speaks, and it comes to pass? The Lord has not commanded it, \"For evil and good shall not proceed from the mouth of the Most High. Why should a living man complain, a man concerning his sin?",
+              "arabic": "من ذا الذي قال فكان. والرب لم يأمر. أليس من فم العلى تخرج الخيرآتٍ والشرور. كيف يتذمر الإنسان الحي الرجل المعاقب لأجل خطيته.",
+              "arabic_base_no_tashkeel": "من ذا الذي قال فكان. والرب لم يأمر. أليس من فم العلى تخرج الخيرآت والشرور. كيف يتذمر الإنسان الحي الرجل المعاقب لأجل خطيته."
+            },
+            {
+              "row_index": 14,
+              "english": "Our way has been searched out and examined; therefore we shall turn to the Lord. \"Let us lift our hearts and our hands to the Most High in heaven. We have sinned and acted in an ungodly way; thus You have not shown us mercy.",
+              "arabic": "فلنفحص طرقنا ونختبر خطوآتٍنا ونرجع إلى الرب. ولنرفع قلوبنا مع الأيدي لدى العلى الذي فى السماء. قد أخطأنا ونافقنا وأغضبنا وأنت لم تغفر لنا.",
+              "arabic_base_no_tashkeel": "فلنفحص طرقنا ونختبر خطوآتنا ونرجع إلى الرب. ولنرفع قلوبنا مع الأيدي لدى العلى الذي فى السماء. قد أخطأنا ونافقنا وأغضبنا وأنت لم تغفر لنا."
+            },
+            {
+              "row_index": 15,
+              "english": "But You visited us in anger and drove us away. You have put us to death and not spared us. \"You veiled Yourself with a cloud because of our prayer. To close my eyes and to reject me.",
+              "arabic": "قد التحفت بالغضب وطردتنا وقتلتنا ولم تشفق. التحفت بغمام لئلا تبلغ إليك صلأتى. لأ تضع لكي لا أرى فأطرح.",
+              "arabic_base_no_tashkeel": "قد التحفت بالغضب وطردتنا وقتلتنا ولم تشفق. التحفت بغمام لئلا تبلغ إليك صلأتى. لأ تضع لكي لا أرى فأطرح."
+            },
+            {
+              "row_index": 16,
+              "english": "You have placed us in the midst of the peoples. All our enemies have opened their mouth against us. \"Fear and anger have come upon us, Yes, devastation and destruction. My eyes will shed tears for forgiveness because of the destruction of the daughter of my people.",
+              "arabic": "تركتنا فى وسط الشعوب. ففتح جميع أعدائنا أفواههم علينا فرفعونا ثم طرحونا. فحل بنا خوف وسخط. عيناي تسيل بأنهار مياه على سحق بنت شعبى.",
+              "arabic_base_no_tashkeel": "تركتنا فى وسط الشعوب. ففتح جميع أعدائنا أفواههم علينا فرفعونا ثم طرحونا. فحل بنا خوف وسخط. عيناي تسيل بأنهار مياه على سحق بنت شعبى."
+            },
+            {
+              "row_index": 17,
+              "english": "My eyes are drowned with tears, and I will not keep silent; so there shall be no rest, until the Lord bends down and sees from heaven. My eyes will bring suffering in my soul because of all the daughters of the city.",
+              "arabic": "عينىّ تسكب و لا تكف بلا انقطاع . ولا أرفع رأسى حتى يتتطلع الرب وينظر من السماء. عينى تحزن على نفسى أكثر من جميع بنى المدينة.",
+              "arabic_base_no_tashkeel": "عينى تسكب و لا تكف بلا انقطاع . ولا أرفع رأسى حتى يتتطلع الرب وينظر من السماء. عينى تحزن على نفسى أكثر من جميع بنى المدينة."
+            },
+            {
+              "row_index": 18,
+              "english": "My enemies hunted me down without cause, like a sparrow. \"They put my life to death in the pit and threw a stone at me. Water flowed over my head; I said, 'I am rejected.'",
+              "arabic": "قد اصطادنى أعدائى اصطياداً كعصفور بلا سبب. وقرضوا فى الجب حيأتى. وطرحوا علىّ شبكة. فاضت المياه فوق رأسى. وقلت إنه تركنى عنه.",
+              "arabic_base_no_tashkeel": "قد اصطادنى أعدائى اصطيادا كعصفور بلا سبب. وقرضوا فى الجب حيأتى. وطرحوا على شبكة. فاضت المياه فوق رأسى. وقلت إنه تركنى عنه."
+            },
+            {
+              "row_index": 19,
+              "english": "I called on Your name, O Lord, from the lowest pit. \"You heard my voice; do not hide Your ears from my supplication. You drew near at my call on the day I called upon You. You said to me, 'Do not fear.'",
+              "arabic": "صرخت إليك ياربى من جب سفلى، فسمعت صوتى. لا تمل أذنك عن طلبتى. فى اليوم الذي صرخت إليك إقتربت من معونتى وقلت لي لا تخف.",
+              "arabic_base_no_tashkeel": "صرخت إليك ياربى من جب سفلى، فسمعت صوتى. لا تمل أذنك عن طلبتى. فى اليوم الذي صرخت إليك إقتربت من معونتى وقلت لي لا تخف."
+            },
+            {
+              "row_index": 20,
+              "english": "O Lord, You pleaded the case for my soul; You redeemed my life. \"O Lord, You saw my troubles; You judged my cause. You saw all their vengeance in all their reasoning against me.",
+              "arabic": "حكمت يارب لاحكام نفسى وخلصت حيأتى. نظرت يارب إلى اضطرابى وحكمت فى دعواى. رأيت إنتقامهم كله. وجميع أفكارهم علىّ.",
+              "arabic_base_no_tashkeel": "حكمت يارب لاحكام نفسى وخلصت حيأتى. نظرت يارب إلى اضطرابى وحكمت فى دعواى. رأيت إنتقامهم كله. وجميع أفكارهم على."
+            },
+            {
+              "row_index": 21,
+              "english": "You heard their taunts and all their plots against me, \"And the lips of those who rose up against me, and their meditations against me all the day. Look at their eyes as they sit down and rise up.",
+              "arabic": "سمعت تعييرهم يارب وكل مشوراتهم و موآمراتهم علىّ اليوم كله، وتحريك شفاة القائمين علىّ. وصرت تلاوتهم النهار كله فى جلوسهم وقيامهم.",
+              "arabic_base_no_tashkeel": "سمعت تعييرهم يارب وكل مشوراتهم و موآمراتهم على اليوم كله، وتحريك شفاة القائمين على. وصرت تلاوتهم النهار كله فى جلوسهم وقيامهم."
+            },
+            {
+              "row_index": 22,
+              "english": "You shall render a recompense to them, O Lord, according to the works of their hands. \"You shall repay them as a covering Your hardship for them. You shall pursue them in Your wrath and utterly destroy them from under heaven, O Lord.",
+              "arabic": "أنظر يارب إلى عيونهم واعطهم مجازاة بحسب أعمال أيديهم. وكافئهم بالتعب على قساوة قلوبهم. واطردهم بغضبك. وافنهم يارب من تحت السماء.",
+              "arabic_base_no_tashkeel": "أنظر يارب إلى عيونهم واعطهم مجازاة بحسب أعمال أيديهم. وكافئهم بالتعب على قساوة قلوبهم. واطردهم بغضبك. وافنهم يارب من تحت السماء."
+            }
+          ]
+        },
+        {
+          "title": "2nd Prophecy (Jonah 1: 10 - 2: 7)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Then the men were exceedingly afraid, and said to him, \"Why have you done this?\" For the men knew that he fled from the presence of the Lord, because he had told them.",
+              "arabic": "فَخَافَ الرِّجَالُ خَوْفاً عَظِيماً وَقَالُوا لَهُ: «لِمَاذَا فَعَلْتَ هَذَا؟» فَإِنَّ الرِّجَالَ عَرَفُوا أَنَّهُ هَارِبٌ مِنْ وَجْهِ الرَّبِّ لأَنَّهُ أَخْبَرَهُمْ.",
+              "arabic_base_no_tashkeel": "فخاف الرجال خوفا عظيما وقالوا له: «لماذا فعلت هذا؟» فإن الرجال عرفوا أنه هارب من وجه الرب لأنه أخبرهم."
+            },
+            {
+              "row_index": 2,
+              "english": "Then they said to him, \"What shall we do to you that the sea may be calm for us?\"--for the sea was growing more tempestuous.",
+              "arabic": "فَقَالُوا لَهُ: «مَاذَا نَصْنَعُ بِكَ لِيَسْكُنَ الْبَحْرُ عَنَّا؟» لأَنَّ الْبَحْرَ كَانَ يَزْدَادُ اضْطِرَاباً.",
+              "arabic_base_no_tashkeel": "فقالوا له: «ماذا نصنع بك ليسكن البحر عنا؟» لأن البحر كان يزداد اضطرابا."
+            },
+            {
+              "row_index": 3,
+              "english": "And he said to them, \"Pick me up and throw me into the sea; then the sea will become calm for you. For I know that this great tempest is because of me.\"",
+              "arabic": "فَقَالَ لَهُمْ: «خُذُونِي وَاطْرَحُونِي فِي الْبَحْرِ فَيَسْكُنَ الْبَحْرُ عَنْكُمْ لأَنَّنِي عَالِمٌ أَنَّهُ بِسَبَبِي هَذَا النَّوْءُ الْعَظِيمُ عَلَيْكُمْ».",
+              "arabic_base_no_tashkeel": "فقال لهم: «خذوني واطرحوني في البحر فيسكن البحر عنكم لأنني عالم أنه بسببي هذا النوء العظيم عليكم»."
+            },
+            {
+              "row_index": 4,
+              "english": "Nevertheless the men rowed hard to return to land, but they could not, for the sea continued to grow more tempestuous against them.",
+              "arabic": "وَلَكِنَّ الرِّجَالَ جَذَّفُوا لِيُرَجِّعُوا السَّفِينَةَ إِلَى الْبَرِّ فَلَمْ يَسْتَطِيعُوا لأَنَّ الْبَحْرَ كَانَ يَزْدَادُ اضْطِرَاباً عَلَيْهِمْ.",
+              "arabic_base_no_tashkeel": "ولكن الرجال جذفوا ليرجعوا السفينة إلى البر فلم يستطيعوا لأن البحر كان يزداد اضطرابا عليهم."
+            },
+            {
+              "row_index": 5,
+              "english": "Therefore they cried out to the Lord and said, \"We pray, O Lord, please do not let us perish for this man's life, and do not charge us with innocent blood; for You, O Lord, have done as it pleased You.\"",
+              "arabic": "فَصَرَخُوا إِلَى الرَّبِّ: «آهِ يَا رَبُّ لاَ نَهْلِكْ مِنْ أَجْلِ نَفْسِ هَذَا الرَّجُلِ وَلاَ تَجْعَلْ عَلَيْنَا دَماً بَرِيئاً لأَنَّكَ يَا رَبُّ فَعَلْتَ كَمَا شِئْتَ».",
+              "arabic_base_no_tashkeel": "فصرخوا إلى الرب: «آه يا رب لا نهلك من أجل نفس هذا الرجل ولا تجعل علينا دما بريئا لأنك يا رب فعلت كما شئت»."
+            },
+            {
+              "row_index": 6,
+              "english": "So they picked up Jonah and threw him into the sea, and the sea ceased from its raging.",
+              "arabic": "ثُمَّ أَخَذُوا يُونَانَ وَطَرَحُوهُ فِي الْبَحْرِ فَوَقَفَ الْبَحْرُ عَنْ هَيَجَانِهِ.",
+              "arabic_base_no_tashkeel": "ثم أخذوا يونان وطرحوه في البحر فوقف البحر عن هيجانه."
+            },
+            {
+              "row_index": 7,
+              "english": "Then the men feared the Lord exceedingly, and offered a sacrifice to the Lord and took vows.",
+              "arabic": "فَخَافَ الرِّجَالُ مِنَ الرَّبِّ خَوْفاً عَظِيماً وَذَبَحُوا ذَبِيحَةً لِلرَّبِّ وَنَذَرُوا نُذُوراً.",
+              "arabic_base_no_tashkeel": "فخاف الرجال من الرب خوفا عظيما وذبحوا ذبيحة للرب ونذروا نذورا."
+            },
+            {
+              "row_index": 8,
+              "english": "Now the Lord had prepared a great fish to swallow Jonah. And Jonah was in the belly of the fish three days and three nights.",
+              "arabic": "وَأَمَّا الرَّبُّ فَأَعَدَّ حُوتاً عَظِيماً لِيَبْتَلِعَ يُونَانَ. فَكَانَ يُونَانُ فِي جَوْفِ الْحُوتِ ثَلاَثَةَ أَيَّامٍ وَثَلاَثَ لَيَالٍ.",
+              "arabic_base_no_tashkeel": "وأما الرب فأعد حوتا عظيما ليبتلع يونان. فكان يونان في جوف الحوت ثلاثة أيام وثلاث ليال."
+            },
+            {
+              "row_index": 9,
+              "english": "Then Jonah prayed to the Lord his God from the fish's belly.",
+              "arabic": "فَصَلَّى يُونَانُ إِلَى الرَّبِّ إِلَهِهِ مِنْ جَوْفِ الْحُوتِ",
+              "arabic_base_no_tashkeel": "فصلى يونان إلى الرب إلهه من جوف الحوت"
+            },
+            {
+              "row_index": 10,
+              "english": "And he said: \"I cried out to the Lord because of my affliction, And He answered me. \"Out of the belly of Sheol I cried, And You heard my voice.",
+              "arabic": "وَقَالَ: «دَعَوْتُ مِنْ ضِيقِي الرَّبَّ فَاسْتَجَابَنِي. صَرَخْتُ مِنْ جَوْفِ الْهَاوِيَةِ فَسَمِعْتَ صَوْتِي.",
+              "arabic_base_no_tashkeel": "وقال: «دعوت من ضيقي الرب فاستجابني. صرخت من جوف الهاوية فسمعت صوتي."
+            },
+            {
+              "row_index": 11,
+              "english": "For You cast me into the deep, Into the heart of the seas, And the floods surrounded me; All Your billows and Your waves passed over me.",
+              "arabic": "لأَنَّكَ طَرَحْتَنِي فِي الْعُمْقِ فِي قَلْبِ الْبِحَارِ. فَأَحَاطَ بِي نَهْرٌ. جَازَتْ فَوْقِي جَمِيعُ تَيَّارَاتِكَ وَلُجَجِكَ.",
+              "arabic_base_no_tashkeel": "لأنك طرحتني في العمق في قلب البحار. فأحاط بي نهر. جازت فوقي جميع تياراتك ولججك."
+            },
+            {
+              "row_index": 12,
+              "english": "Then I said, 'I have been cast out of Your sight; Yet I will look again toward Your holy temple.'",
+              "arabic": "فَقُلْتُ: قَدْ طُرِدْتُ مِنْ أَمَامِ عَيْنَيْكَ. وَلَكِنَّنِي أَعُودُ أَنْظُرُ إِلَى هَيْكَلِ قُدْسِكَ.",
+              "arabic_base_no_tashkeel": "فقلت: قد طردت من أمام عينيك. ولكنني أعود أنظر إلى هيكل قدسك."
+            },
+            {
+              "row_index": 13,
+              "english": "The waters surrounded me, even to my soul; The deep closed around me; Weeds were wrapped around my head.",
+              "arabic": "قَدِ اكْتَنَفَتْنِي مِيَاهٌ إِلَى النَّفْسِ. أَحَاطَ بِي غَمْرٌ. الْتَفَّ عُشْبُ الْبَحْرِ بِرَأْسِي.",
+              "arabic_base_no_tashkeel": "قد اكتنفتني مياه إلى النفس. أحاط بي غمر. التف عشب البحر برأسي."
+            },
+            {
+              "row_index": 14,
+              "english": "I went down to the moorings of the mountains; The earth with its bars closed behind me forever; Yet You have brought up my life from the pit, O Lord, my God.",
+              "arabic": "نَزَلْتُ إِلَى أَسَافِلِ الْجِبَالِ. مَغَالِيقُ الأَرْضِ عَلَيَّ إِلَى الأَبَدِ. ثُمَّ أَصْعَدْتَ مِنَ الْوَهْدَةِ حَيَاتِي أَيُّهَا الرَّبُّ إِلَهِي.",
+              "arabic_base_no_tashkeel": "نزلت إلى أسافل الجبال. مغاليق الأرض علي إلى الأبد. ثم أصعدت من الوهدة حياتي أيها الرب إلهي."
+            },
+            {
+              "row_index": 15,
+              "english": "\"When my soul fainted within me, I remembered the Lord; And my prayer went up to You, Into Your holy temple.",
+              "arabic": "حِينَ أَعْيَتْ فِيَّ نَفْسِي ذَكَرْتُ الرَّبَّ فَجَاءَتْ إِلَيْكَ صَلاَتِي إِلَى هَيْكَلِ قُدْسِكَ.",
+              "arabic_base_no_tashkeel": "حين أعيت في نفسي ذكرت الرب فجاءت إليك صلاتي إلى هيكل قدسك."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (88: 6, 23: 4, 45: 6,8)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "They laid me in the lowest pit, in dark places and in the shadow of death.",
+              "arabic": "جعلونى فى جب سفلى. فى مواضع مظلمة وظلال الموت.",
+              "arabic_base_no_tashkeel": "جعلونى فى جب سفلى. فى مواضع مظلمة وظلال الموت."
+            },
+            {
+              "row_index": 2,
+              "english": "Yes, though I walk through the valley of the shadow of death, I will fear no evil, for You are with me.",
+              "arabic": "وإن سلكت فى وسط ظلال الموت فلا أخشى من الشر لأنك معى. هلليلويا.",
+              "arabic_base_no_tashkeel": "وإن سلكت فى وسط ظلال الموت فلا أخشى من الشر لأنك معى. هلليلويا."
+            },
+            {
+              "row_index": 3,
+              "english": "Your throne, O God, is forever and ever; [Alleluia.]",
+              "arabic": "عرشك يا الله إلى دهر الدهور. ]الليلويا.[",
+              "arabic_base_no_tashkeel": "عرشك يا الله إلى دهر الدهور. ]الليلويا.["
+            },
+            {
+              "row_index": 4,
+              "english": "Your royal scepter is a scepter of uprightness. Myrrh and stacte and cassia pour forth from Your garments.",
+              "arabic": "قضيب الإستقامة هو قضيب ملكك. المر والميعة والسليخة من ثيابك.",
+              "arabic_base_no_tashkeel": "قضيب الإستقامة هو قضيب ملكك. المر والميعة والسليخة من ثيابك."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Matthew 27: 57 - 61)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Now when evening had come, there came a rich man from Arimathea, named Joseph, who himself had also become a disciple of Jesus.",
+              "arabic": "ولما كان المساء جاء رجل غنى من الرامة إسمه يوسف. هذا أيضاً كان تلميذاً ليسوع.",
+              "arabic_base_no_tashkeel": "ولما كان المساء جاء رجل غنى من الرامة إسمه يوسف. هذا أيضا كان تلميذا ليسوع."
+            },
+            {
+              "row_index": 2,
+              "english": "This man went to Pilate and asked for the body of Jesus. Then Pilate commanded the body to be given to him.",
+              "arabic": "فهذا جاء إلى بيلاطس وطلب جسد يسوع. فأمر بيلاطس حينئذ أن يعطى الجسد.",
+              "arabic_base_no_tashkeel": "فهذا جاء إلى بيلاطس وطلب جسد يسوع. فأمر بيلاطس حينئذ أن يعطى الجسد."
+            },
+            {
+              "row_index": 3,
+              "english": "When Joseph had taken the body, he wrapped it in a clean linen cloth,",
+              "arabic": "فأخذ يوسف الجسد ولفه بلفائف من الكتان النقى.",
+              "arabic_base_no_tashkeel": "فأخذ يوسف الجسد ولفه بلفائف من الكتان النقى."
+            },
+            {
+              "row_index": 4,
+              "english": "And laid it in his new tomb which he had hewn out of the rock; and he rolled a large stone against the door of the tomb, and departed.",
+              "arabic": "ووضعه فى قبره الجديد الذي كان قد نحته فى الصخرة. ثم دحرج حجراً عظيماً على باب القبر ومضى.",
+              "arabic_base_no_tashkeel": "ووضعه فى قبره الجديد الذي كان قد نحته فى الصخرة. ثم دحرج حجرا عظيما على باب القبر ومضى."
+            },
+            {
+              "row_index": 5,
+              "english": "And Mary Magdalene was there, and the other Mary, sitting opposite the tomb.",
+              "arabic": "وكانت هناك مريم المجدلية ومريم الآخرى جالستين تجاه القبر.",
+              "arabic_base_no_tashkeel": "وكانت هناك مريم المجدلية ومريم الآخرى جالستين تجاه القبر."
+            }
+          ]
+        },
+        {
+          "title": "Psalm (88: 6, 23: 4, 45: 6,8)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "O Lord, why have they who afflict me multiplied? Many have risen up upon me. Many say unto my soul, “There is no salvation for him in his God.” But You, O Lord, are my supporter, my glory, and the elevation of my head.",
+              "arabic": "يا رب لماذا كثر الذين يحزنونني، كثيرون قاموا عليَّ. كثيرون يقولون لنفسي، ليس له خلاص بإلهه. أنت يا رب أنت هو ناصري، مجدي ورافع رأسي.",
+              "arabic_base_no_tashkeel": "يا رب لماذا كثر الذين يحزنونني، كثيرون قاموا علي. كثيرون يقولون لنفسي، ليس له خلاص بإلهه. أنت يا رب أنت هو ناصري، مجدي ورافع رأسي."
+            },
+            {
+              "row_index": 2,
+              "english": "With my voice I cried unto the Lord, and He heard me out of His holy mountain. I laid down and slept...",
+              "arabic": "بصوتي إلى الرب صرخت. فاستجاب لي من جبل قدسه. أنا اضطجعت ونمت...",
+              "arabic_base_no_tashkeel": "بصوتي إلى الرب صرخت. فاستجاب لي من جبل قدسه. أنا اضطجعت ونمت..."
+            },
+            {
+              "row_index": 3,
+              "english": "Your throne, O God, is forever and ever; A scepter of righteousness is the scepter of Your kingdom.",
+              "arabic": "كُرْسِيُّكَ يَا اللهُ إِلَى دَهْرِ الدُّهُورِ. قَضِيبُ اسْتِقَامَةٍ قَضِيبُ مُلْكِكَ.",
+              "arabic_base_no_tashkeel": "كرسيك يا الله إلى دهر الدهور. قضيب استقامة قضيب ملكك."
+            },
+            {
+              "row_index": 4,
+              "english": "All Your garments are scented with myrrh and aloes and cassia.",
+              "arabic": "المر والميعة والسليخة من ثيابك.",
+              "arabic_base_no_tashkeel": "المر والميعة والسليخة من ثيابك."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Mark 15: 42 - 16: 1)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Now when evening had come, because it was the Preparation Day, that is, the day before the Sabbath,",
+              "arabic": "ولما كان المساء ولأنها كانت الجمعة التى هى قبل السبت،",
+              "arabic_base_no_tashkeel": "ولما كان المساء ولأنها كانت الجمعة التى هى قبل السبت،"
+            },
+            {
+              "row_index": 2,
+              "english": "Joseph of Arimathea, a prominent council member, who was himself waiting for the kingdom of God, coming and taking courage, went in to Pilate and asked for the body of Jesus.",
+              "arabic": "جاء يوسف الذي من الرامة. وكان شريفاً ذا مشورة. وكان هو أيضاً يترجى ملكوت الله. فتجاسر ودخل إلى بيلاطس وطلب جسد يسوع.",
+              "arabic_base_no_tashkeel": "جاء يوسف الذي من الرامة. وكان شريفا ذا مشورة. وكان هو أيضا يترجى ملكوت الله. فتجاسر ودخل إلى بيلاطس وطلب جسد يسوع."
+            },
+            {
+              "row_index": 3,
+              "english": "Pilate marveled that He was already dead; and summoning the centurion, he asked him if He had been dead for some time.",
+              "arabic": "فتعجب بيلاطس إنه مات هكذا سريعاً. فإستدعى قائد المئة وسأله هل له زمان قد مات.",
+              "arabic_base_no_tashkeel": "فتعجب بيلاطس إنه مات هكذا سريعا. فإستدعى قائد المئة وسأله هل له زمان قد مات."
+            },
+            {
+              "row_index": 4,
+              "english": "So when he found out from the centurion, he granted the body to Joseph.",
+              "arabic": "ولما عرف من قائد المئة، وهب جسد يسوع ليوسف.",
+              "arabic_base_no_tashkeel": "ولما عرف من قائد المئة، وهب جسد يسوع ليوسف."
+            },
+            {
+              "row_index": 5,
+              "english": "Then he bought fine linen, took Him down, and wrapped Him in the linen. And he laid Him in a tomb which had been hewn out of the rock, and rolled a stone against the door of the tomb.",
+              "arabic": "فإشترى يوسف لفافة من الكتان وأنزله ولفه بها. ووضعه فى قبر كان منحوتاً فى صخرة. ودحرج حجراً على باب القبر.",
+              "arabic_base_no_tashkeel": "فإشترى يوسف لفافة من الكتان وأنزله ولفه بها. ووضعه فى قبر كان منحوتا فى صخرة. ودحرج حجرا على باب القبر."
+            },
+            {
+              "row_index": 6,
+              "english": "And Mary Magdalene and Mary the mother of Joses observed where He was laid.",
+              "arabic": "وكانت مريم المجدلية ومريم أم يوسي تنظران أين وضع.",
+              "arabic_base_no_tashkeel": "وكانت مريم المجدلية ومريم أم يوسي تنظران أين وضع."
+            },
+            {
+              "row_index": 7,
+              "english": "Now when the Sabbath was past, Mary Magdalene, Mary the mother of James, and Salome bought spices, that they might come and anoint Him.",
+              "arabic": "ولما مضى السبت. إشترت مريم المجدلية ومريم أم يعقوب وسالومة حنوطاً ليأتين ويحنطنه.",
+              "arabic_base_no_tashkeel": "ولما مضى السبت. إشترت مريم المجدلية ومريم أم يعقوب وسالومة حنوطا ليأتين ويحنطنه."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Luke 23: 50 - 56)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Now behold, there was a man named Joseph, a council member, a good and just man.",
+              "arabic": "وإذا رجل إسمه يوسف وكان مشيراً ورجلاً صالحاً باراً.",
+              "arabic_base_no_tashkeel": "وإذا رجل إسمه يوسف وكان مشيرا ورجلا صالحا بارا."
+            },
+            {
+              "row_index": 2,
+              "english": "He had not consented to their decision and deed. He was from Arimathea, a city of the Jews, who himself was also waiting for the kingdom of God.",
+              "arabic": "هذا لم يكن موافقاً لرأيهم وعملهم. وكان من الرامة مدينة لليهود. وكان هو أيضاً ينتظر ملكوت الله.",
+              "arabic_base_no_tashkeel": "هذا لم يكن موافقا لرأيهم وعملهم. وكان من الرامة مدينة لليهود. وكان هو أيضا ينتظر ملكوت الله."
+            },
+            {
+              "row_index": 3,
+              "english": "This man went to Pilate and asked for the body of Jesus.",
+              "arabic": "هذا تقدم إلى بيلاطس وطلب جسد يسوع.",
+              "arabic_base_no_tashkeel": "هذا تقدم إلى بيلاطس وطلب جسد يسوع."
+            },
+            {
+              "row_index": 4,
+              "english": "Then he took it down, wrapped it in linen, and laid it in a tomb that was hewn out of the rock, where no one had ever lain before.",
+              "arabic": "فأنزله ولفه فى لفافة من الكتان ووضعه فى قبر قد نحته ولم يكن قد وضع فيه أحد. ودحرج حجراً عظيماً على باب القبر.",
+              "arabic_base_no_tashkeel": "فأنزله ولفه فى لفافة من الكتان ووضعه فى قبر قد نحته ولم يكن قد وضع فيه أحد. ودحرج حجرا عظيما على باب القبر."
+            },
+            {
+              "row_index": 5,
+              "english": "That day was the Preparation, and the Sabbath drew near.",
+              "arabic": "وكان يوم الجمعة وقد أخذ السبت يلوح.",
+              "arabic_base_no_tashkeel": "وكان يوم الجمعة وقد أخذ السبت يلوح."
+            },
+            {
+              "row_index": 6,
+              "english": "And the women who had come with Him from Galilee followed after, and they observed the tomb and how His body was laid.",
+              "arabic": "وكانت النسوة اللواتى يتبعنه وجئن معه من الجليل، فأبصرن القبر وكيف وضع فيه جسده.",
+              "arabic_base_no_tashkeel": "وكانت النسوة اللواتى يتبعنه وجئن معه من الجليل، فأبصرن القبر وكيف وضع فيه جسده."
+            },
+            {
+              "row_index": 7,
+              "english": "Then they returned and prepared spices and fragrant oils. And they rested on the Sabbath according to the commandment.",
+              "arabic": "فرجعن وأعددن حنوطاً وأطياباً. وفى السبت إسترحن حسب الوصية.",
+              "arabic_base_no_tashkeel": "فرجعن وأعددن حنوطا وأطيابا. وفى السبت إسترحن حسب الوصية."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (John 19: 38 - 42)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "After this, Joseph of Arimathea, being a disciple of Jesus, but secretly, for fear of the Jews, asked Pilate, That he might take away the body of Jesus; and Pilate gave him permission. So he came and took the body of Jesus.",
+              "arabic": "ومن بعد هذا جاء يوسف الذي من الرامة وهو تلميذ ليسوع. ولكنه كان يستتر خوفاً من اليهود. سأل بيلاطس, أن يأخذ جسد يسوع. فأذن له بيلاطس أن يُعطى له. فجاء وحمل جسد يسوع،",
+              "arabic_base_no_tashkeel": "ومن بعد هذا جاء يوسف الذي من الرامة وهو تلميذ ليسوع. ولكنه كان يستتر خوفا من اليهود. سأل بيلاطس, أن يأخذ جسد يسوع. فأذن له بيلاطس أن يعطى له. فجاء وحمل جسد يسوع،"
+            },
+            {
+              "row_index": 2,
+              "english": "And Nicodemus, who at first came to Jesus by night, also came, bringing a mixture of myrrh and aloes, about a hundred pounds.",
+              "arabic": "وجاء أيضاً نيقوديموس الذي كان قد جاء أولاً إلى يسوع ليلاً ومعه حنوط مر وصبر، نحو مئة رطل.",
+              "arabic_base_no_tashkeel": "وجاء أيضا نيقوديموس الذي كان قد جاء أولا إلى يسوع ليلا ومعه حنوط مر وصبر، نحو مئة رطل."
+            },
+            {
+              "row_index": 3,
+              "english": "Then they took the body of Jesus, and bound it in strips of linen with the spices, as the custom of the Jews is to bury.",
+              "arabic": "فأخذا جسد يسوع ولفاه فى لفائف كتان مع الحنوط كعادة اليهود أن يكفنوا.",
+              "arabic_base_no_tashkeel": "فأخذا جسد يسوع ولفاه فى لفائف كتان مع الحنوط كعادة اليهود أن يكفنوا."
+            },
+            {
+              "row_index": 4,
+              "english": "Now in the place where He was crucified there was a garden, and in the garden a new tomb in which no one had yet been laid.",
+              "arabic": "وكان فى الموضع الذي صلب فيه يسوع بستان. وكان فى البستان قبر جديد لم يوضع فيه أحد قط.",
+              "arabic_base_no_tashkeel": "وكان فى الموضع الذي صلب فيه يسوع بستان. وكان فى البستان قبر جديد لم يوضع فيه أحد قط."
+            },
+            {
+              "row_index": 5,
+              "english": "So there they laid Jesus, because of the Jews’ Preparation Day, for the tomb was nearby.",
+              "arabic": "فهناك وضعا يسوع لسبب الجمعة لليهود. لأن القبر كان قريباً.",
+              "arabic_base_no_tashkeel": "فهناك وضعا يسوع لسبب الجمعة لليهود. لأن القبر كان قريبا."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

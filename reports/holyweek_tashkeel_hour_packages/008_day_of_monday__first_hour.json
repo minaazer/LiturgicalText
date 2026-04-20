@@ -1,0 +1,571 @@
+{
+  "service": "DAY of Monday",
+  "hour": "FIRST Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Genesis 1: 1 - 2: 3)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "In the beginning God made heaven and earth. The earth was invisible and unfinished; and darkness was over the deep. The Spirit of God was hovering over the face of the water. Then God said, \"Let there be light\"; and there was light. God saw the light; it was good;",
+              "arabic": "فى البدء خلق الله السماء والأرض. وكانت الأرض غير مرئية وغير مستعدة وعلى وجه الغمر ظلام وروح الله يرف على وجه المياه. وقال الله ليكن نور فكان نور. ورأى الله النور أنه حسن.",
+              "arabic_base_no_tashkeel": "فى البدء خلق الله السماء والأرض. وكانت الأرض غير مرئية وغير مستعدة وعلى وجه الغمر ظلام وروح الله يرف على وجه المياه. وقال الله ليكن نور فكان نور. ورأى الله النور أنه حسن."
+            },
+            {
+              "row_index": 2,
+              "english": "And God divided the light from the darkness. God called the light Day; the darkness He called Night; and there was evening and morning, one day. Then God said, \"Let there be a firmament in the midst of the water, and let it divide the water from the water\"; and it was so.",
+              "arabic": "وفصل الله بين النور والظلام. ودعا الله النور نهاراً والظلام دعاه ليلاً. وكان مساء وكان صباح يوماً أولاً. وقال الله ليكن جلد متوسط بين المياه وليكن فاصل بين مياه ومياه فكان كذلك.",
+              "arabic_base_no_tashkeel": "وفصل الله بين النور والظلام. ودعا الله النور نهارا والظلام دعاه ليلا. وكان مساء وكان صباح يوما أولا. وقال الله ليكن جلد متوسط بين المياه وليكن فاصل بين مياه ومياه فكان كذلك."
+            },
+            {
+              "row_index": 3,
+              "english": "Thus God made the firmament, and God divided the water under the firmament from the water above the firmament. So God called the firmament Heaven,",
+              "arabic": "فخلق الله الجلد فى وسط المياه وفصل الله بين المياه التى تحت الجلد والمياه التى فوق الجلد. ودعا الله الجلد سماء.",
+              "arabic_base_no_tashkeel": "فخلق الله الجلد فى وسط المياه وفصل الله بين المياه التى تحت الجلد والمياه التى فوق الجلد. ودعا الله الجلد سماء."
+            },
+            {
+              "row_index": 4,
+              "english": "And God saw that it was good; and there was evening and morning, the second day.",
+              "arabic": "ورأى الله أن ذلك حسن. وكان مساء وكان صباح يوماً ثانياً.",
+              "arabic_base_no_tashkeel": "ورأى الله أن ذلك حسن. وكان مساء وكان صباح يوما ثانيا."
+            },
+            {
+              "row_index": 5,
+              "english": "Then God said, \"Let the water under heaven be gathered together into one place, and let the dry land appear\"; and it was so.",
+              "arabic": "وقال الله لتجتمع المياه التى تحت السماء إلى مجمع واحد وليظهر اليبس. وكان كذلك.",
+              "arabic_base_no_tashkeel": "وقال الله لتجتمع المياه التى تحت السماء إلى مجمع واحد وليظهر اليبس. وكان كذلك."
+            },
+            {
+              "row_index": 6,
+              "english": "The water under heaven was gathered into its places, and the dry land appeared.",
+              "arabic": "فاجتمعت المياه التى تحت السماء مجمعاً واحداً.",
+              "arabic_base_no_tashkeel": "فاجتمعت المياه التى تحت السماء مجمعا واحدا."
+            },
+            {
+              "row_index": 7,
+              "english": "So God called the dry land Earth, and the gathering together of the waters He called Seas; and God saw that it was good.",
+              "arabic": "وظهر اليبس ودعا الله اليبس أرضاً. ومجتمع المياه سماه بحاراً. ورأى الله ذلك أنه حسن",
+              "arabic_base_no_tashkeel": "وظهر اليبس ودعا الله اليبس أرضا. ومجتمع المياه سماه بحارا. ورأى الله ذلك أنه حسن"
+            },
+            {
+              "row_index": 8,
+              "english": "Then God said, \"Let the earth bring forth the herb of grass, bearing seed according to its kind and likeness. Let the fruit tree bear fruit, whose seed is in itself according to its kind on earth.\" It was so.",
+              "arabic": "وقال الله لتنبت الأرض نباتاً عشباً يبزر بزراً كجنسه وشكله وشجراً ذا ثمر يخرج ثمراً كجنسه بزره فيه على الأرض. وكان كذلك.",
+              "arabic_base_no_tashkeel": "وقال الله لتنبت الأرض نباتا عشبا يبزر بزرا كجنسه وشكله وشجرا ذا ثمر يخرج ثمرا كجنسه بزره فيه على الأرض. وكان كذلك."
+            },
+            {
+              "row_index": 9,
+              "english": "Thus the earth brought forth the herb of grass, bearing seed according to its kind and likeness. The fruit tree bore fruit, whose seed is in itself according to its kind on earth.",
+              "arabic": "فأخرجت الأرض نباتاً عشباً يبزر بزراً كجنسه وشجراً مثمراً يعمل ثمراً بزره فيه كجنسه على الأرض",
+              "arabic_base_no_tashkeel": "فأخرجت الأرض نباتا عشبا يبزر بزرا كجنسه وشجرا مثمرا يعمل ثمرا بزره فيه كجنسه على الأرض"
+            },
+            {
+              "row_index": 10,
+              "english": "God saw that it was good. So evening and morning were the third day.",
+              "arabic": "ورأى الله ذلك أنه حسن. وكان مساء وكان صباح يوماً ثالثاً.",
+              "arabic_base_no_tashkeel": "ورأى الله ذلك أنه حسن. وكان مساء وكان صباح يوما ثالثا."
+            },
+            {
+              "row_index": 11,
+              "english": "Then God said, \"Let there be lights in the firmament of heaven for illumination to divide day from night.",
+              "arabic": "وقال الله لتكن أنوار فى جلد السماء لتنير على الأرض ولتفصل بين النهار والليل.",
+              "arabic_base_no_tashkeel": "وقال الله لتكن أنوار فى جلد السماء لتنير على الأرض ولتفصل بين النهار والليل."
+            },
+            {
+              "row_index": 12,
+              "english": "Let them be for signs and seasons, and for days and years. Let them be for illumination in the firmament of heaven to give light on the earth.\" It was so.",
+              "arabic": "وتكون لآيات أوقات وأيام وسنين. وتكون أنوار فى جلد السماء لتضئ على الأرض. فكان كذلك.",
+              "arabic_base_no_tashkeel": "وتكون لآيات أوقات وأيام وسنين. وتكون أنوار فى جلد السماء لتضئ على الأرض. فكان كذلك."
+            },
+            {
+              "row_index": 13,
+              "english": "Then God made two great lights: the greater light to rule the day, and the lesser light to rule the night. He made the stars also.",
+              "arabic": "فخلق الله النيرين العظيمين. النور الأكبر لسلطان النهار. والنور الأصغر لسلطان الليل مع النجوم.",
+              "arabic_base_no_tashkeel": "فخلق الله النيرين العظيمين. النور الأكبر لسلطان النهار. والنور الأصغر لسلطان الليل مع النجوم."
+            },
+            {
+              "row_index": 14,
+              "english": "God set them in the firmament of heaven to give light on the earth,",
+              "arabic": "وجعلها الله فى جلد السما لتضئ على الأرض.",
+              "arabic_base_no_tashkeel": "وجعلها الله فى جلد السما لتضئ على الأرض."
+            },
+            {
+              "row_index": 15,
+              "english": "And to rule over the day and over the night, and to divide the light from the darkness.",
+              "arabic": "وتتسلط على النهار والليل ولتفصل بين النور والظلام.",
+              "arabic_base_no_tashkeel": "وتتسلط على النهار والليل ولتفصل بين النور والظلام."
+            },
+            {
+              "row_index": 16,
+              "english": "God saw that it was good. So evening and morning were the fourth day.",
+              "arabic": "ورأى الله ذلك حسن. وكان مساء وكان صباح يوماً رابعاً.",
+              "arabic_base_no_tashkeel": "ورأى الله ذلك حسن. وكان مساء وكان صباح يوما رابعا."
+            },
+            {
+              "row_index": 17,
+              "english": "Then God said, \"Let the waters bring forth creatures having life, and let birds fly above the earth across the face of heaven's firmament.\" It was so.",
+              "arabic": "وقال الله لتفض المياه زحافات ذات أنفس حية وطيوراً تطير فوق الأرض على وجه جلد السماء وكان كذلك.",
+              "arabic_base_no_tashkeel": "وقال الله لتفض المياه زحافات ذات أنفس حية وطيورا تطير فوق الأرض على وجه جلد السماء وكان كذلك."
+            },
+            {
+              "row_index": 18,
+              "english": "Thus God made great sea creatures and every living thing that moves with which the waters abounded, according to their kind, and every winged bird according to its kind. God saw that it was good.",
+              "arabic": "فخلق الله الحيتان العظام. وكل ذى نفس حية من الهوام التى فاضت بها المياه كأجناسها. وكل طائر ذى جناح كجنسه. ورأى الله ذلك أنه حسن",
+              "arabic_base_no_tashkeel": "فخلق الله الحيتان العظام. وكل ذى نفس حية من الهوام التى فاضت بها المياه كأجناسها. وكل طائر ذى جناح كجنسه. ورأى الله ذلك أنه حسن"
+            },
+            {
+              "row_index": 19,
+              "english": "God blessed them, saying, \"Be fruitful and multiply, and fill the waters in the seas, and let birds multiply on earth.\"",
+              "arabic": "وباركها الله قائلاً: إنمى وإكثرى واملأى المياه فى البحار وليكثر الطير على الأرض.",
+              "arabic_base_no_tashkeel": "وباركها الله قائلا: إنمى وإكثرى واملأى المياه فى البحار وليكثر الطير على الأرض."
+            },
+            {
+              "row_index": 20,
+              "english": "So evening and morning were the fifth day.",
+              "arabic": "وكان مساء وكان صباح يوماً خامساً.",
+              "arabic_base_no_tashkeel": "وكان مساء وكان صباح يوما خامسا."
+            },
+            {
+              "row_index": 21,
+              "english": "Then God said, \"Let the earth bring forth the living creature according to its kind: the quadrupeds, the creeping things, and the wild animals of the earth according to their kind.\" It was so.",
+              "arabic": "وقال الله لتخرج الأرض أنفس حية ذوات أربع وهوام ووحوش الأرض كأجناسها",
+              "arabic_base_no_tashkeel": "وقال الله لتخرج الأرض أنفس حية ذوات أربع وهوام ووحوش الأرض كأجناسها"
+            },
+            {
+              "row_index": 22,
+              "english": "So God made the wild animals of the earth according to their kind, the cattle according to their kind, and all the creeping things on earth according to their kind. God saw that it was good.",
+              "arabic": "وكل دبابات الأرض كأجناسها. والبهائم كأجناسها. وكل دبابات الأرض كأجناسها. ورأى الله ذلك أنه حسن.",
+              "arabic_base_no_tashkeel": "وكل دبابات الأرض كأجناسها. والبهائم كأجناسها. وكل دبابات الأرض كأجناسها. ورأى الله ذلك أنه حسن."
+            },
+            {
+              "row_index": 23,
+              "english": "Then God said, \"Let Us make man in Our image, according to Our likeness. Let them have dominion over the fish of the sea, over the birds of heaven, over the cattle, and over all the earth, and over every creeping thing that moves on the earth.\"",
+              "arabic": "وقال الله لنخلق أنساناً على صورتنا وكمثالنا. وليتسلط على سمك البحر وطير السماء. والبهائم وعلى جميع الأرض. وكل ما يدب ويتحرك على الأرض.",
+              "arabic_base_no_tashkeel": "وقال الله لنخلق أنسانا على صورتنا وكمثالنا. وليتسلط على سمك البحر وطير السماء. والبهائم وعلى جميع الأرض. وكل ما يدب ويتحرك على الأرض."
+            },
+            {
+              "row_index": 24,
+              "english": "God made man; in the image of God He made him; male and female He made them.",
+              "arabic": "فخلق الله الإنسان على صورته على صورة الله خلقه. ذكراً وأنثى خلقهم.",
+              "arabic_base_no_tashkeel": "فخلق الله الإنسان على صورته على صورة الله خلقه. ذكرا وأنثى خلقهم."
+            },
+            {
+              "row_index": 25,
+              "english": "Then God blessed them; and God said to them, \"Be fruitful and multiply; fill the earth and subdue it,",
+              "arabic": "وباركهم الله قائلاً: إنموا وإكثروا وإملأوا الأرض وسودوا عليها,",
+              "arabic_base_no_tashkeel": "وباركهم الله قائلا: إنموا وإكثروا وإملأوا الأرض وسودوا عليها,"
+            },
+            {
+              "row_index": 26,
+              "english": "And have dominion over the fish of the sea, over the birds of heaven, and over every living thing that moves on the earth.\"",
+              "arabic": "وتسلطوا على سمك البحر وطير السماء وجميع البهائم وسائر الأرض. وكل الهوام التى تدب على الأرض.",
+              "arabic_base_no_tashkeel": "وتسلطوا على سمك البحر وطير السماء وجميع البهائم وسائر الأرض. وكل الهوام التى تدب على الأرض."
+            },
+            {
+              "row_index": 27,
+              "english": "Then God said, \"Behold, I have given you every seed-bearing herb that sows seed on the face of all the earth,",
+              "arabic": "وقال الله: ها قد أعطيتكم كل عشب مزروع يبزر بزراً على وجه الأرض كلها.",
+              "arabic_base_no_tashkeel": "وقال الله: ها قد أعطيتكم كل عشب مزروع يبزر بزرا على وجه الأرض كلها."
+            },
+            {
+              "row_index": 28,
+              "english": "And every tree whose fruit yields seed; to you it shall be for food.",
+              "arabic": "وكل شجرة فيه ثمر يبزر بزراً يكون لكم طعاماً.",
+              "arabic_base_no_tashkeel": "وكل شجرة فيه ثمر يبزر بزرا يكون لكم طعاما."
+            },
+            {
+              "row_index": 29,
+              "english": "I also give every green plant as food for all the wild animals of the earth, for all the birds of heaven, and for everything that creeps on the earth in which is the breath of life.\" It was so.",
+              "arabic": "ولجميع وحوش الأرض وكل طير السماء. وكل ما يدب ويتحرك على الأرض مما فيه نفس حية. أعطيت كل عشب أخضر طعاماً. وكان كذلك.",
+              "arabic_base_no_tashkeel": "ولجميع وحوش الأرض وكل طير السماء. وكل ما يدب ويتحرك على الأرض مما فيه نفس حية. أعطيت كل عشب أخضر طعاما. وكان كذلك."
+            },
+            {
+              "row_index": 30,
+              "english": "Then God saw everything He had made, and indeed, it was very good. So evening and morning were the sixth day.",
+              "arabic": "ورأى الله جميع ما خلقه فأذا هو حسن جداً. وكان مساء وكان صباح يوماً سادساً.",
+              "arabic_base_no_tashkeel": "ورأى الله جميع ما خلقه فأذا هو حسن جدا. وكان مساء وكان صباح يوما سادسا."
+            },
+            {
+              "row_index": 31,
+              "english": "Thus heaven and earth and all their adornment were finished.",
+              "arabic": "فأكملت السماء والأرض وكل زينتها.",
+              "arabic_base_no_tashkeel": "فأكملت السماء والأرض وكل زينتها."
+            },
+            {
+              "row_index": 32,
+              "english": "And on the seventh day God finished the works He made,",
+              "arabic": "وأكمل الله أعماله التى خلقها فى اليوم السادس.",
+              "arabic_base_no_tashkeel": "وأكمل الله أعماله التى خلقها فى اليوم السادس."
+            },
+            {
+              "row_index": 33,
+              "english": "And He rested on the seventh day from all the works He made.",
+              "arabic": "وأستراح فى اليوم السابع من جميع أعماله التى صنعها.",
+              "arabic_base_no_tashkeel": "وأستراح فى اليوم السابع من جميع أعماله التى صنعها."
+            },
+            {
+              "row_index": 34,
+              "english": "Then God blessed the seventh day and sanctified it, because in it He rested from all His works God began to make.",
+              "arabic": "وبارك الله اليوم السابع وقدسه. لأن فيه أستراح من جميع أعماله التى ابتدأ الله بخلقتها.",
+              "arabic_base_no_tashkeel": "وبارك الله اليوم السابع وقدسه. لأن فيه أستراح من جميع أعماله التى ابتدأ الله بخلقتها."
+            }
+          ]
+        },
+        {
+          "title": "2nd Prophecy (Isaiah 5: 1 - 9)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "\"Now I will sing to My Beloved a song of My Beloved regarding My vineyard: There was a vineyard for My Beloved, a place in power and richness. He placed a wall around it and fortified it.",
+              "arabic": "أمجد الذي أحبه بنشيد حبيب هذا الكرم. كان للحبيب كرم فى رابية. فى موضع خصب. فاحطت به سياجاً ورفعته على القصب.",
+              "arabic_base_no_tashkeel": "أمجد الذي أحبه بنشيد حبيب هذا الكرم. كان للحبيب كرم فى رابية. فى موضع خصب. فاحطت به سياجا ورفعته على القصب."
+            },
+            {
+              "row_index": 2,
+              "english": "He planted it with the choicest vine. He built a tower in its midst and also made a winepress in it. So I waited for it to bring forth grapes, but it produced thorn-plants.",
+              "arabic": "وغرست كرماً فى سورق وبنيت فيه برجاً فى وسطه. وحفرت فيه معصرة. وأنتظرت أن يخرج عنباً فأخرج شوكاً.",
+              "arabic_base_no_tashkeel": "وغرست كرما فى سورق وبنيت فيه برجا فى وسطه. وحفرت فيه معصرة. وأنتظرت أن يخرج عنبا فأخرج شوكا."
+            },
+            {
+              "row_index": 3,
+              "english": "And now, man of Judah and inhabitants of Jerusalem, judge between Me and My vineyard. What shall I yet do for My vineyard that I have not done for it?",
+              "arabic": "والآن يا رجال يهوذا وسكان أورشليم. أحكموا بينى وبين كرمى أى شئ يصنع لكرمى وأنا لم أصنعه به.",
+              "arabic_base_no_tashkeel": "والآن يا رجال يهوذا وسكان أورشليم. أحكموا بينى وبين كرمى أى شئ يصنع لكرمى وأنا لم أصنعه به."
+            },
+            {
+              "row_index": 4,
+              "english": "For I waited for it to bring forth grapes, but it produced thorn-plants. And now I will tell you what I will do to My vineyard; I will take away its hedge, and it shall be for a spoil; and I will pull down its walls, and it shall be left to be trodden down.",
+              "arabic": "لأنى رجوت أن يخرج عنباً فأخرج شوكاً. فالآن أعلمكم ماذا أفعل بكرمى. أقلع سياجه فيصير للنهب. وأهدم جوسقه فيكون مدوساً.",
+              "arabic_base_no_tashkeel": "لأنى رجوت أن يخرج عنبا فأخرج شوكا. فالآن أعلمكم ماذا أفعل بكرمى. أقلع سياجه فيصير للنهب. وأهدم جوسقه فيكون مدوسا."
+            },
+            {
+              "row_index": 5,
+              "english": "I will forsake My vineyard. It shall not be pruned or cultivated, but thorns shall sprout forth as in a barren land. I will also command the clouds not to rain on it.\"",
+              "arabic": "وأهمل هذا الكرم لا يقضب ولا يفلح وينبت فيه الشوك مثل السلا. وأوصى السحاب ألا تمطر عليه مطراً.",
+              "arabic_base_no_tashkeel": "وأهمل هذا الكرم لا يقضب ولا يفلح وينبت فيه الشوك مثل السلا. وأوصى السحاب ألا تمطر عليه مطرا."
+            },
+            {
+              "row_index": 6,
+              "english": "For the vineyard of the Lord of hosts is the house of Israel, and the man of Judah is His beloved plant.",
+              "arabic": "لأن كرم رب الصباؤوت هو بيت اسرائيل. ورجال يهوذا الغرس الجديد المحبوب.",
+              "arabic_base_no_tashkeel": "لأن كرم رب الصباؤوت هو بيت اسرائيل. ورجال يهوذا الغرس الجديد المحبوب."
+            },
+            {
+              "row_index": 7,
+              "english": "I waited for it to bring forth judgment, but it brought forth lawlessness, and not righteousness, but a cry.",
+              "arabic": "رجوت أن يصنع إنصافاً فصنع إثماً. وعدلاً فاذا صراخ.",
+              "arabic_base_no_tashkeel": "رجوت أن يصنع إنصافا فصنع إثما. وعدلا فاذا صراخ."
+            },
+            {
+              "row_index": 8,
+              "english": "Woe to those who join house to house, who add field to field, to take something from their neighbor.",
+              "arabic": "ويل للذين يصلون بيتاً ببيت. ويقرنون حقلاً بحقل. لكى يسلبوا أصحابهم.",
+              "arabic_base_no_tashkeel": "ويل للذين يصلون بيتا ببيت. ويقرنون حقلا بحقل. لكى يسلبوا أصحابهم."
+            },
+            {
+              "row_index": 9,
+              "english": "Surely you will not dwell alone in the land. For these things reached the ears of the Lord of hosts.",
+              "arabic": "إذن أنتم تسكنون الأرض وحدكم. قد سمع هذا فى مسامع رب الصباؤوت.",
+              "arabic_base_no_tashkeel": "إذن أنتم تسكنون الأرض وحدكم. قد سمع هذا فى مسامع رب الصباؤوت."
+            }
+          ]
+        },
+        {
+          "title": "3rd Prophecy (Sirach 1: 1 - 19)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "All wisdom comes from the Lord and is with Him forever. Who can count the sand of the seas, the drops of rain, and the days of eternity?",
+              "arabic": "كل الحكمة فهى من قبل الرب. وهى دائمة معه إلي الأبد. من يقدر أن يحصى رمل البحر. وقطرات المطر وأيام الدهور.",
+              "arabic_base_no_tashkeel": "كل الحكمة فهى من قبل الرب. وهى دائمة معه إلي الأبد. من يقدر أن يحصى رمل البحر. وقطرات المطر وأيام الدهور."
+            },
+            {
+              "row_index": 2,
+              "english": "Who can search out the height of heaven, the breadth of the earth, the abyss, and wisdom?",
+              "arabic": "من يستطيع أن يمسح علو السماء. ورحب الأرض وعمق الغمر والحكمة.",
+              "arabic_base_no_tashkeel": "من يستطيع أن يمسح علو السماء. ورحب الأرض وعمق الغمر والحكمة."
+            },
+            {
+              "row_index": 3,
+              "english": "Wisdom was created before all things, and the insight of prudence was from eternity. To whom has the root of wisdom been revealed? And who has come to know her great deeds?",
+              "arabic": "قبل كل شئ حيزت الحكمة. لمن أستعلن أصل الحكمة. ومن عرف خفاياها لمن تجلت معرفة الحكمة. ومن أدرك كثرة خبرتها.",
+              "arabic_base_no_tashkeel": "قبل كل شئ حيزت الحكمة. لمن أستعلن أصل الحكمة. ومن عرف خفاياها لمن تجلت معرفة الحكمة. ومن أدرك كثرة خبرتها."
+            },
+            {
+              "row_index": 4,
+              "english": "There is one who is wise and is feared exceedingly, He who sits upon His throne.",
+              "arabic": "واحد هو حكيم عظيم المهابة جالس على عرشه.",
+              "arabic_base_no_tashkeel": "واحد هو حكيم عظيم المهابة جالس على عرشه."
+            },
+            {
+              "row_index": 5,
+              "english": "The Lord Himself created wisdom. He saw and numbered her and poured her out on all His works,",
+              "arabic": "الرب هو الذي حازها ورآها وأحصاها. وأفاضها على جميع أعمالها.",
+              "arabic_base_no_tashkeel": "الرب هو الذي حازها ورآها وأحصاها. وأفاضها على جميع أعمالها."
+            },
+            {
+              "row_index": 6,
+              "english": "In the midst of all flesh according to His gift; and He provided her for those who love Him.",
+              "arabic": "فهى مع كل ذى جسد على حسب عطيته. وقد منحها لمحبيه.",
+              "arabic_base_no_tashkeel": "فهى مع كل ذى جسد على حسب عطيته. وقد منحها لمحبيه."
+            },
+            {
+              "row_index": 7,
+              "english": "The fear of the Lord is glory and boasting, and gladness and a crown of rejoicing.",
+              "arabic": "مخافة الرب هى مجد وفخر. وسرور وأكليل فرح.",
+              "arabic_base_no_tashkeel": "مخافة الرب هى مجد وفخر. وسرور وأكليل فرح."
+            },
+            {
+              "row_index": 8,
+              "english": "The fear of the Lord will cheer the heart and will give gladness, joy, and long life. For those who fear the Lord, it shall be well to the utmost, and on the day of his death, he will be blessed.",
+              "arabic": "مخافة الرب تبهج القلب. وتعطى فرحاً وسروراً وطول أيام. المتقى الرب يكون له الخير فى آخرته. وينال حظوة فى موته.",
+              "arabic_base_no_tashkeel": "مخافة الرب تبهج القلب. وتعطى فرحا وسرورا وطول أيام. المتقى الرب يكون له الخير فى آخرته. وينال حظوة فى موته."
+            },
+            {
+              "row_index": 9,
+              "english": "The beginning of wisdom is to fear the Lord, and she was joined with the faithful in the womb. She constructed a foundation of life among men and will be trusted among their seed.",
+              "arabic": "رأس الحكمة مخافة الرب. أنها تولدت فى الرحم مع المؤمنين وتأسست مع البشر مدى الدهر. وهى تثبت مع نسلهم.",
+              "arabic_base_no_tashkeel": "رأس الحكمة مخافة الرب. أنها تولدت فى الرحم مع المؤمنين وتأسست مع البشر مدى الدهر. وهى تثبت مع نسلهم."
+            },
+            {
+              "row_index": 10,
+              "english": "The gratification of wisdom is to fear the Lord, and she intoxicates them with her fruits.",
+              "arabic": "كمال الحكمة مخافة الرب. والفرح من ثمارها.",
+              "arabic_base_no_tashkeel": "كمال الحكمة مخافة الرب. والفرح من ثمارها."
+            },
+            {
+              "row_index": 11,
+              "english": "She will fill every house of theirs with objects of desire and their storehouses with her harvest.",
+              "arabic": "تملأ كل بيتها من المختارين. وترويهم من عصيرها.",
+              "arabic_base_no_tashkeel": "تملأ كل بيتها من المختارين. وترويهم من عصيرها."
+            },
+            {
+              "row_index": 12,
+              "english": "The fear of the Lord is the crown of wisdom, making peace and soundness of health to flourish. The Lord saw and numbered her, and poured out the power of comprehension; and He exalted the glory of those who hold fast to her.",
+              "arabic": "تاج الحكمة مخافة الله. وهى تنشئ زهرة ونعمة الشفاء. قد رآها وأحصاها وأفاض الفهم والمعرفة والعلم. ورفع مجد المتمسك بها.",
+              "arabic_base_no_tashkeel": "تاج الحكمة مخافة الله. وهى تنشئ زهرة ونعمة الشفاء. قد رآها وأحصاها وأفاض الفهم والمعرفة والعلم. ورفع مجد المتمسك بها."
+            },
+            {
+              "row_index": 13,
+              "english": "She made among men an eternal foundation, and among their descendants she will be trusted.",
+              "arabic": "ومنَ القِدَمِ أقامَتْ بَينَ النَّاسِ،\nوأمينَةً ستَبقى لِذُرِّيَّتِهِم.",
+              "arabic_base_no_tashkeel": "ومن القدم أقامت بين الناس،\nوأمينة ستبقى لذريتهم."
+            },
+            {
+              "row_index": 14,
+              "english": "To fear the Lord is wisdom's full measure;\nshe satisfies men with her fruits;",
+              "arabic": "كمالُ الحِكْمةِ مَخافةُ الرّبٌ،\nبِثِمارِها تُشْبِـعُ بَني البشَرِ،",
+              "arabic_base_no_tashkeel": "كمال الحكمة مخافة الرب،\nبثمارها تشبـع بني البشر،"
+            },
+            {
+              "row_index": 15,
+              "english": "she fills their whole house with desirable goods, and their storehouses with her produce.",
+              "arabic": "بِما يَشْتَهونَ تَملأُ بُيوتَهُم\nوبِغَلاَتِها مَخازِنَهُم،",
+              "arabic_base_no_tashkeel": "بما يشتهون تملأ بيوتهم\nوبغلاتها مخازنهم،"
+            },
+            {
+              "row_index": 16,
+              "english": "The fear of the Lord is the crown of wisdom,\nmaking peace and perfect health to flourish.",
+              "arabic": "تاجُ الحِكمةِ مَخافةُ الرّبٌ،\nوبِها السَّلامُ والشِّفاءُ التَّامُّ.",
+              "arabic_base_no_tashkeel": "تاج الحكمة مخافة الرب،\nوبها السلام والشفاء التام."
+            },
+            {
+              "row_index": 17,
+              "english": "He saw her and apportioned her;\nhe rained down knowledge and discerning comprehension, and he exalted the glory of those who held her fast.",
+              "arabic": "الحِكمةُ تَسكُبُ المَعرِفةَ والفَهمَ\nوتُعْلي مَجدَ الـذينَ يَملِكونَها.",
+              "arabic_base_no_tashkeel": "الحكمة تسكب المعرفة والفهم\nوتعلي مجد الـذين يملكونها."
+            }
+          ]
+        },
+        {
+          "title": "Homily(Abba Shenouda the Archimandrite)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Brethren, if we want to escape God’s punishment and find mercy in his eyes,",
+              "arabic": "يَا إِخْوَةً، إِنَّ كُنَّا نُرِيدُ اَلْآنُ أَنْ نُفْلِتَ مِنْ يَدَيّ عِقَابَ اَللَّهِ وَنَجِدُ رَحْمَةً أَمَامَهُ.",
+              "arabic_base_no_tashkeel": "يا إخوة، إن كنا نريد الآن أن نفلت من يدي عقاب الله ونجد رحمة أمامه."
+            },
+            {
+              "row_index": 2,
+              "english": "let us sit every evening alone by ourselves",
+              "arabic": "فَلِنَجْلِس بِالْعَشَاءِ كُلَّ يَوْمٍ مُنْفَرِدِينَ وَحْدَنَا عِنْدَ كَمَالِ اَلنَّهَارِ.",
+              "arabic_base_no_tashkeel": "فلنجلس بالعشاء كل يوم منفردين وحدنا عند كمال النهار."
+            },
+            {
+              "row_index": 3,
+              "english": "and search our souls for what we presented to our guardian angel to offer to the Lord.",
+              "arabic": "وَنُفَتِّشُ ذَوَاتِنَا عَمَّا قَدَّمْنَاهُ لِلْمَلَاكِ اَلَّذِي يَخْدِمُنَا (اَلْمُلَازِمُ لَنَا) لِيَصْعَدهُ إِلَى اَلرَّبِّ.",
+              "arabic_base_no_tashkeel": "ونفتش ذواتنا عما قدمناه للملاك الذي يخدمنا (الملازم لنا) ليصعده إلى الرب."
+            },
+            {
+              "row_index": 4,
+              "english": "Again, as the night goes by and a new day dawns and light prevails, let us search ourselves to know what we presented to our companion angel to offer to the Lord.",
+              "arabic": "وَأَيْضًا إِذَا اِنْقَضَى اَللَّيْلُ وَطَلَعَ اَلنَّهَارُ (وَأَشْرَقَ اَلنُّورُ) نُفَتِّشُ ذَوَاتُنَا وَحْدَنَا وَنَعْلَم مَا اَلَّذِي قَدَّمْنَاهُ لِلْمَلَاكِ اَلْمُوَكَّلِ بِنَا لِيَصْعَدَهُ إِلَى اَللَّهِ.",
+              "arabic_base_no_tashkeel": "وأيضا إذا انقضى الليل وطلع النهار (وأشرق النور) نفتش ذواتنا وحدنا ونعلم ما الذي قدمناه للملاك الموكل بنا ليصعده إلى الله."
+            },
+            {
+              "row_index": 5,
+              "english": "Let it be beyond doubt that everyone of us, male or female, young or old,",
+              "arabic": "وَلَا نَشُكُّ- اَلْبَتَّةَ- لِأَنَّ كُلَّ إِنْسَانِ ذَكَرًا كَانَ أَوْ أُنْثَى صَغِيرًا أَوْ كَبِيرًا،",
+              "arabic_base_no_tashkeel": "ولا نشك- البتة- لأن كل إنسان ذكرا كان أو أنثى صغيرا أو كبيرا،"
+            },
+            {
+              "row_index": 6,
+              "english": "who was baptized in the name of the Father, the Son and the Holy Spirit has been assigned to a designated angel until the day of his death",
+              "arabic": "قَدْ اِعْتَمَدَ بِاسْمِ اَلْأَبِ وَالِابْنُ وَالرُّوحِ اَلْقُدْسَ قَدْ جَعَلَ اَللَّهُ لَهُ مَلَاكًا مُوَكَّلاً بِهِ إِلَى يَوْمِ وَفَاتِهِ،",
+              "arabic_base_no_tashkeel": "قد اعتمد باسم الأب والابن والروح القدس قد جعل الله له ملاكا موكلا به إلى يوم وفاته،"
+            },
+            {
+              "row_index": 7,
+              "english": "to report to him every day what his assigned individual has done by day or by night.",
+              "arabic": "وَلْيُصَعَّدْ إِلَيْهِ كُلُّ يَوْمِ أَعْمَالِ اَلْإِنْسَانِ اَلْمُوَكَّلِ بِهِ اَللَّيْلِيَّةَ وَالنَّهَارِيَّةِ",
+              "arabic_base_no_tashkeel": "وليصعد إليه كل يوم أعمال الإنسان الموكل به الليلية والنهارية"
+            },
+            {
+              "row_index": 8,
+              "english": "Not that God is unaware of what we have done. Heaven forbid! He is more knowledgeable about it.",
+              "arabic": "لَيْسَ لِأَنَّ اَللَّهَ غَيَّرَ عَارِفٍ بِأَعْمَالِنَا حَاشَا. بَلْ هُوَ عَارِفٌ بِهَا أَكْثَرُ.",
+              "arabic_base_no_tashkeel": "ليس لأن الله غير عارف بأعمالنا حاشا. بل هو عارف بها أكثر."
+            },
+            {
+              "row_index": 9,
+              "english": "As it is written, the eyes of the Lord are watching all the time everywhere on those who commit evil and on those who do good.",
+              "arabic": "كَمَا هُوَ مَكْتُوبٌ أَنَّ عَيْنِي اَلرَّبَّ نَاظِرَةَ كُلِّ حِينِ فِي كُلِّ مَكَانٍ عَلَى صَانِعِي اَلشَّرِّ وَفَاعِلِي اَلْخَيْرِ،",
+              "arabic_base_no_tashkeel": "كما هو مكتوب أن عيني الرب ناظرة كل حين في كل مكان على صانعي الشر وفاعلي الخير،"
+            },
+            {
+              "row_index": 10,
+              "english": "Rather the angels are servants installed by the Creator of the universe for those who will inherit salvation.",
+              "arabic": "إِنَّمَا اَلْمَلَائِكَةُ هُمْ خَدَّامْ قَدْ أَقَامَهُمْ خَالِق اَلْكُلِّ مِنْ أَجْلِ اَلْمُزْمِعِينَ أَنْ يَرِثُوا اَلْخَلَاصُ.",
+              "arabic_base_no_tashkeel": "إنما الملائكة هم خدام قد أقامهم خالق الكل من أجل المزمعين أن يرثوا الخلاص."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (72: 18 - 19)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Blessed is the Lord God, the God of Israel, who alone does wondrous things;",
+              "arabic": "مبارك الرب إله اسرائيل الصانع العجائب وحده.",
+              "arabic_base_no_tashkeel": "مبارك الرب إله اسرائيل الصانع العجائب وحده."
+            },
+            {
+              "row_index": 2,
+              "english": "And blessed is the name of His glory forever. So be it. So be it.",
+              "arabic": "مبارك أسم مجده القدوس إلى الأبد يكون يكون.",
+              "arabic_base_no_tashkeel": "مبارك أسم مجده القدوس إلى الأبد يكون يكون."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Mark 11: 12 - 24)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Now the next day, when they had come out from Bethany, He was hungry. And seeing from afar a fig tree having leaves, He went to see if perhaps He would find something on it.",
+              "arabic": "وفى الغد لما خرجوا من بيت عنيا جاع. فرأى شجرة تين عن بعد وكان عليها ورق. فجاء إليها لعله يجد فيها شيئا.",
+              "arabic_base_no_tashkeel": "وفى الغد لما خرجوا من بيت عنيا جاع. فرأى شجرة تين عن بعد وكان عليها ورق. فجاء إليها لعله يجد فيها شيئا."
+            },
+            {
+              "row_index": 2,
+              "english": "When He came to it, He found nothing but leaves, for it was not the season for figs.",
+              "arabic": "فلما جاء إليها لم يجد شيئا إلا ورقا لأنه لم يكن وقت التين.",
+              "arabic_base_no_tashkeel": "فلما جاء إليها لم يجد شيئا إلا ورقا لأنه لم يكن وقت التين."
+            },
+            {
+              "row_index": 3,
+              "english": "In response Jesus said to it, “Let no one eat fruit from you ever again.” And His disciples heard it.",
+              "arabic": "فأجاب يسوع وقال لها لا يأكل أحد منك ثمرة بعد إلى الأبد. وكان تلاميذه يسمعون.",
+              "arabic_base_no_tashkeel": "فأجاب يسوع وقال لها لا يأكل أحد منك ثمرة بعد إلى الأبد. وكان تلاميذه يسمعون."
+            },
+            {
+              "row_index": 4,
+              "english": "So they came to Jerusalem. Then Jesus went into the temple and began to drive out those who bought and sold in the temple,",
+              "arabic": "وجاءوا إلى أورشليم ولما دخل يسوع الهيكل ابتدأ يخرج الذين كانوا يبيعون ويشترون فى الهيكل.",
+              "arabic_base_no_tashkeel": "وجاءوا إلى أورشليم ولما دخل يسوع الهيكل ابتدأ يخرج الذين كانوا يبيعون ويشترون فى الهيكل."
+            },
+            {
+              "row_index": 5,
+              "english": "And overturned the tables of the money changers and the seats of those who sold doves.",
+              "arabic": "وقلب موائد الصيارفة وكراسى باعة الحمام.",
+              "arabic_base_no_tashkeel": "وقلب موائد الصيارفة وكراسى باعة الحمام."
+            },
+            {
+              "row_index": 6,
+              "english": "And He would not allow anyone to carry wares through the temple.",
+              "arabic": "ولم يدع أحداً يجتاز الهيكل بمتاع.",
+              "arabic_base_no_tashkeel": "ولم يدع أحدا يجتاز الهيكل بمتاع."
+            },
+            {
+              "row_index": 7,
+              "english": "Then He taught, saying to them, “Is it not written, ‘My house shall be called a house of prayer for all nations’? But you have made it a ‘den of thieves.’”",
+              "arabic": "وكان يعلم قائلاً لهم أليس مكتوباً أن بيتى بيت الصلاة يدعى لجميع الأمم. وأنتم جعلتموه مغارة للصوص.",
+              "arabic_base_no_tashkeel": "وكان يعلم قائلا لهم أليس مكتوبا أن بيتى بيت الصلاة يدعى لجميع الأمم. وأنتم جعلتموه مغارة للصوص."
+            },
+            {
+              "row_index": 8,
+              "english": "And the scribes and chief priests heard it and sought how they might destroy Him; for they feared Him, because all the people were astonished at His teaching.",
+              "arabic": "وسمع رؤساء الكهنة والكتبة وكانوا يطلبون بأى نوع يهلكونه لأنهم كانو يخافونه لأن الجمع كله كان يتعجب من تعليمه.",
+              "arabic_base_no_tashkeel": "وسمع رؤساء الكهنة والكتبة وكانوا يطلبون بأى نوع يهلكونه لأنهم كانو يخافونه لأن الجمع كله كان يتعجب من تعليمه."
+            },
+            {
+              "row_index": 9,
+              "english": "When evening had come, He went out of the city.",
+              "arabic": "وإذا كان المساء خرج إلى خارج المدينة.",
+              "arabic_base_no_tashkeel": "وإذا كان المساء خرج إلى خارج المدينة."
+            },
+            {
+              "row_index": 10,
+              "english": "Now in the morning, as they passed by, they saw the fig tree dried up from the roots.",
+              "arabic": "وفى الصباح إذ كانوا مجتازين رأوا التينة قد يبست من أصلها.",
+              "arabic_base_no_tashkeel": "وفى الصباح إذ كانوا مجتازين رأوا التينة قد يبست من أصلها."
+            },
+            {
+              "row_index": 11,
+              "english": "And Peter, remembering, said to Him, “Rabbi, look! The fig tree which You cursed has withered away.”",
+              "arabic": "فتذكر بطرس وقال له. ربى ها أن التينة التى لعنتها قد يبست.",
+              "arabic_base_no_tashkeel": "فتذكر بطرس وقال له. ربى ها أن التينة التى لعنتها قد يبست."
+            },
+            {
+              "row_index": 12,
+              "english": "So Jesus answered and said to them, “Have faith in God. For assuredly, I say to you, whoever says to this mountain, ‘Be removed and be cast into the sea,’ and does not doubt in his heart, but believes that those things he says will be done, he will have whatever he says.",
+              "arabic": "فأجاب يسوع وقال لهم ليكن لكم إيمان بالله. لأنى الحق أقول لكم أن من يقول لهذا الجبل إنتقل وإنطرح فى البحر وهو لا يشك فى قلبه بل يؤمن بأن ما يقوله يكون فإنه يكون له.",
+              "arabic_base_no_tashkeel": "فأجاب يسوع وقال لهم ليكن لكم إيمان بالله. لأنى الحق أقول لكم أن من يقول لهذا الجبل إنتقل وإنطرح فى البحر وهو لا يشك فى قلبه بل يؤمن بأن ما يقوله يكون فإنه يكون له."
+            },
+            {
+              "row_index": 13,
+              "english": "Therefore I say to you, whatever things you ask when you pray, believe that you receive them, and you will have them.",
+              "arabic": "فلأجل ذلك أقول لكم أن كل شئ تسألونه فى الصلاة آمنوا أنكم تنالونه فيكون لكم.",
+              "arabic_base_no_tashkeel": "فلأجل ذلك أقول لكم أن كل شئ تسألونه فى الصلاة آمنوا أنكم تنالونه فيكون لكم."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

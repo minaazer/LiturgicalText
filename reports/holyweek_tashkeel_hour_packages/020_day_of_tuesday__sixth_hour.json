@@ -1,0 +1,326 @@
+{
+  "service": "DAY of Tuesday",
+  "hour": "SIXTH Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Ezekiel 21: 3 - 13)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Thus says the Lord: You shall say to the land of Israel, 'Behold, I am against you, and I will draw My sword out of its sheath and destroy both the unrighteous man and the lawless man from among you. Because I will destroy both the unrighteous man and the lawless man from among you, thus My sword shall go out of its sheath against all flesh from north to south,",
+              "arabic": "هذا ما يقوله السيد الرب: هأنذا ضدك وأستل سيفي من غمده وأستأصل منك الظالم والمتجاوز الناموس هكذا يخرج سيفي من علي كل ذي جسد من المغرب إلي الشمال",
+              "arabic_base_no_tashkeel": "هذا ما يقوله السيد الرب: هأنذا ضدك وأستل سيفي من غمده وأستأصل منك الظالم والمتجاوز الناموس هكذا يخرج سيفي من علي كل ذي جسد من المغرب إلي الشمال"
+            },
+            {
+              "row_index": 2,
+              "english": "and all flesh will know that I, the Lord, have drawn My sword out of its sheath; and it shall not return anymore.'",
+              "arabic": "ويعلم كل ذي جسد أني أنا هو الرب جردت سيفي من غمده ولا يرتد",
+              "arabic_base_no_tashkeel": "ويعلم كل ذي جسد أني أنا هو الرب جردت سيفي من غمده ولا يرتد"
+            },
+            {
+              "row_index": 3,
+              "english": "As for you, son of man, groan with a breaking heart, and sigh with bitterness before their eyes.",
+              "arabic": "بعد أما أنت يا إبن الإنسان فتنهد بتنهد قراك وبإنسحاق الحزن تتأوه أمام عيونهم",
+              "arabic_base_no_tashkeel": "بعد أما أنت يا إبن الإنسان فتنهد بتنهد قراك وبإنسحاق الحزن تتأوه أمام عيونهم"
+            },
+            {
+              "row_index": 4,
+              "english": "It will be, if they say to you, 'Why are you groaning?' that you shall say, 'Because of the news, for it is coming.",
+              "arabic": "ويكون إذا قالوا لك: علام تتنهد فتقول:",
+              "arabic_base_no_tashkeel": "ويكون إذا قالوا لك: علام تتنهد فتقول:"
+            },
+            {
+              "row_index": 5,
+              "english": "Every heart will be oppressed, all hands will be feeble, all flesh and every spirit will faint, and every thigh will be stained with urine. Behold, it is coming and will be,' says the Lord and Master.\"",
+              "arabic": "إنني أتنهد علي الخير لأنه آتٍ فينسحق كل قلب وترتخي كل يد ويضعف كل جسد وكل روح ويتدنس كل صلب بالردي. ها هو آتِ ويكون قال الرب.",
+              "arabic_base_no_tashkeel": "إنني أتنهد علي الخير لأنه آت فينسحق كل قلب وترتخي كل يد ويضعف كل جسد وكل روح ويتدنس كل صلب بالردي. ها هو آت ويكون قال الرب."
+            },
+            {
+              "row_index": 6,
+              "english": "Again the word of the Lord came to me, saying, \"Son of man, prophesy and you will say, 'Thus says the Lord:",
+              "arabic": "وكان إلي كلام الرب قائلا: يا إبن الإنسان تنبأ وقل: هذا ما يقوله السيد الرب",
+              "arabic_base_no_tashkeel": "وكان إلي كلام الرب قائلا: يا إبن الإنسان تنبأ وقل: هذا ما يقوله السيد الرب"
+            },
+            {
+              "row_index": 7,
+              "english": "\"Say, 'O sword, sword, be sharpened and furious, that you may slay victims. Be sharpened, that you may be glistening and ready for destruction. Despise and reject every tree.' So he made it ready for his hand to hold.",
+              "arabic": "قل للسيف: يا سيف يا سيف إحتد وإضرب لكي تذبح ذبحاً، واضرب بحدك لكي تكون لامعاً، وتأهب وإسحق العار وأسقط كل الأشجار لأنه قد أعطي ليكون مهيئاً عندما يمسك باليد ليضرب.",
+              "arabic_base_no_tashkeel": "قل للسيف: يا سيف يا سيف إحتد وإضرب لكي تذبح ذبحا، واضرب بحدك لكي تكون لامعا، وتأهب وإسحق العار وأسقط كل الأشجار لأنه قد أعطي ليكون مهيئا عندما يمسك باليد ليضرب."
+            },
+            {
+              "row_index": 8,
+              "english": "The sword is sharpened and ready to put in the hand of the slayer:'\"",
+              "arabic": "تجده سيفاً مستعداً ليعطي ليد الذي يذبح.",
+              "arabic_base_no_tashkeel": "تجده سيفا مستعدا ليعطي ليد الذي يذبح."
+            },
+            {
+              "row_index": 9,
+              "english": "\"Cry out and wail, son of man, for this sword is come among My people; this sword is come among all the leaders of Israel.",
+              "arabic": "إصرخ وولول يا ابن الإنسان، لأنه قد صار لشعبي وعلى كل مدبرى بيت إسرائيل.",
+              "arabic_base_no_tashkeel": "إصرخ وولول يا ابن الإنسان، لأنه قد صار لشعبي وعلى كل مدبرى بيت إسرائيل."
+            },
+            {
+              "row_index": 10,
+              "english": "They shall be as strangers because of the sword that is come among My people;",
+              "arabic": "وسيفاً يجول قد صار لشعبى.",
+              "arabic_base_no_tashkeel": "وسيفا يجول قد صار لشعبى."
+            },
+            {
+              "row_index": 11,
+              "english": "Therefore, clap your hands, because it is justified; and what if even the tribe is rejected? It shall not be,\" says the Lord and Master.",
+              "arabic": "لذلك صفقتم علي يدك فإنه قد تزكي وهو يضرب منذ إخراج القبائل فلا يكون قال الرب.",
+              "arabic_base_no_tashkeel": "لذلك صفقتم علي يدك فإنه قد تزكي وهو يضرب منذ إخراج القبائل فلا يكون قال الرب."
+            }
+          ]
+        },
+        {
+          "title": "2nd Prophecy (Sirach 4: 20 - 5: 2)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Watch for a proper opportunity and keep yourself from evil; and do not bring shame upon your soul.",
+              "arabic": "تأمل الزمان وتحفظ من الشر ولا تستحي من عدم معرفتك.",
+              "arabic_base_no_tashkeel": "تأمل الزمان وتحفظ من الشر ولا تستحي من عدم معرفتك."
+            },
+            {
+              "row_index": 2,
+              "english": "For there is a shame that brings sin, and there is a shame which is glory and grace.",
+              "arabic": "فإنه من الحياء ما يجلب الخطية ومنه ماهو مجد ونعمة.",
+              "arabic_base_no_tashkeel": "فإنه من الحياء ما يجلب الخطية ومنه ماهو مجد ونعمة."
+            },
+            {
+              "row_index": 3,
+              "english": "Do not show partiality to someone to your own harm, and do not let your respect for another cause you to fall.",
+              "arabic": "لا تُحاب فلذلك ضرر لنفسك ولا تستحي من سقطتك.",
+              "arabic_base_no_tashkeel": "لا تحاب فلذلك ضرر لنفسك ولا تستحي من سقطتك."
+            },
+            {
+              "row_index": 4,
+              "english": "Do not withhold a word in time of need; for wisdom is made known by a word, and instruction by a-word of the tongue.",
+              "arabic": "ولا تمتنع عن الكلام في وقت الخلاص، لأن بالكلام تُعرف الحكمة والفهم من نطق اللسان",
+              "arabic_base_no_tashkeel": "ولا تمتنع عن الكلام في وقت الخلاص، لأن بالكلام تعرف الحكمة والفهم من نطق اللسان"
+            },
+            {
+              "row_index": 5,
+              "english": "Do not speak against the truth, and do not be put to shame by your ignorance.",
+              "arabic": "لا تقاوم الحق وتستحي من جهالتك.",
+              "arabic_base_no_tashkeel": "لا تقاوم الحق وتستحي من جهالتك."
+            },
+            {
+              "row_index": 6,
+              "english": "Do not be ashamed to confess your sins, and do not exercise force against the current of a river.",
+              "arabic": "لا تستحي أن تعترف بخطاياك ولا تغالب نهراً جارياً.",
+              "arabic_base_no_tashkeel": "لا تستحي أن تعترف بخطاياك ولا تغالب نهرا جاريا."
+            },
+            {
+              "row_index": 7,
+              "english": "Do not subject yourself to a foolish man, and do not show partiality to a ruler.",
+              "arabic": "ولا تتزلل للرجل الأحمق، ولا تحاب المقتدر.",
+              "arabic_base_no_tashkeel": "ولا تتزلل للرجل الأحمق، ولا تحاب المقتدر."
+            },
+            {
+              "row_index": 8,
+              "english": "Fight to the death for the truth, and the Lord God will fight for you.",
+              "arabic": "جاهد عن الحق إلي الموت لكي يُقاتل الله عنك.",
+              "arabic_base_no_tashkeel": "جاهد عن الحق إلي الموت لكي يقاتل الله عنك."
+            },
+            {
+              "row_index": 9,
+              "english": "Do not be rash with your tongue and sluggish and neglectful in your works.",
+              "arabic": "ولا تكن سريع الكلام كسلاناً متراخياً في أعمالك.",
+              "arabic_base_no_tashkeel": "ولا تكن سريع الكلام كسلانا متراخيا في أعمالك."
+            },
+            {
+              "row_index": 10,
+              "english": "Do not be like a lion in your home and act in pretense with your servants. Do not let your hand be extended to receive and shut when you should repay.",
+              "arabic": "لا تكن كأسد في بيتك قاسياً علي عبيدك. لا تكن يدك مبسوطة للأخذ مقبوضة عن العطاء.",
+              "arabic_base_no_tashkeel": "لا تكن كأسد في بيتك قاسيا علي عبيدك. لا تكن يدك مبسوطة للأخذ مقبوضة عن العطاء."
+            },
+            {
+              "row_index": 11,
+              "english": "Do not set your heart on your possessions, and do not say, \"I am independent.\" Do not follow yourself and your strength so as to walk in the desires of your heart.",
+              "arabic": "لا تتوكل علي الأموال ولا تقل هي تكفيني في حياتٍي لا تتبع هواك وقوتك لتسير في شهوات قلبك.",
+              "arabic_base_no_tashkeel": "لا تتوكل علي الأموال ولا تقل هي تكفيني في حياتي لا تتبع هواك وقوتك لتسير في شهوات قلبك."
+            },
+            {
+              "row_index": 12,
+              "english": "Let not your hand be extended to receive, but withdrawn when it is time to repay.",
+              "arabic": "لا تَفتَحْ كَفَّكَ لِلأَخذِ،\nوتُغلِقْها عِندَ العَطاءِ.",
+              "arabic_base_no_tashkeel": "لا تفتح كفك للأخذ،\nوتغلقها عند العطاء."
+            },
+            {
+              "row_index": 13,
+              "english": "Do not set your heart on your wealth,\nnor say, “I have enough.”",
+              "arabic": "لاَ تَعتَمِدْ على أموالِكَ،\nولا تقُلْ: «أكتَفي».",
+              "arabic_base_no_tashkeel": "لا تعتمد على أموالك،\nولا تقل: «أكتفي»."
+            },
+            {
+              "row_index": 14,
+              "english": "Do not follow your inclination and strength, walking according to the desires of your heart.",
+              "arabic": "لا تَتبَعْ مُيولَكَ ورَغائِبَكَ\nوفي شهَواتِكَ لا تَسلُكْ.",
+              "arabic_base_no_tashkeel": "لا تتبع ميولك ورغائبك\nوفي شهواتك لا تسلك."
+            }
+          ]
+        },
+        {
+          "title": "3rd Prophecy (Isaiah 1: 1 - 9)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "The vision of Isaiah the son of Amoz, which he saw concerning Judah and Jerusalem in the days of Uzziah, Jotham, Ahaz, and Hezekiah, kings of Judah.",
+              "arabic": "رُؤْيَا إِشَعْيَاءَ بْنِ آمُوصَ الَّتِي رَآهَا عَلَى يَهُوذَا وَأُورُشَلِيمَ فِي أَيَّامِ عُزِّيَّا وَيُوثَامَ وَآحَازَ وَحَزَقِيَّا مُلُوكِ يَهُوذَا:",
+              "arabic_base_no_tashkeel": "رؤيا إشعياء بن آموص التي رآها على يهوذا وأورشليم في أيام عزيا ويوثام وآحاز وحزقيا ملوك يهوذا:"
+            },
+            {
+              "row_index": 2,
+              "english": "Hear, O heavens, and give ear, O earth! For the Lord has spoken: \" I have nourished and brought up children, And they have rebelled against Me;",
+              "arabic": "اِسْمَعِي أَيَّتُهَا السَّمَاوَاتُ وَأَصْغِي أَيَّتُهَا الأَرْضُ لأَنَّ الرَّبَّ يَتَكَلَّمُ: «رَبَّيْتُ بَنِينَ وَنَشَّأْتُهُمْ أَمَّا هُمْ فَعَصُوا عَلَيَّ.",
+              "arabic_base_no_tashkeel": "اسمعي أيتها السماوات وأصغي أيتها الأرض لأن الرب يتكلم: «ربيت بنين ونشأتهم أما هم فعصوا علي."
+            },
+            {
+              "row_index": 3,
+              "english": "The ox knows its owner And the donkey its master's crib; But Israel does not know, My people do not consider.\"",
+              "arabic": "اَلثَّوْرُ يَعْرِفُ قَانِيهِ وَالْحِمَارُ مِعْلَفَ صَاحِبِهِ أَمَّا إِسْرَائِيلُ فَلاَ يَعْرِفُ. شَعْبِي لاَ يَفْهَمُ».",
+              "arabic_base_no_tashkeel": "الثور يعرف قانيه والحمار معلف صاحبه أما إسرائيل فلا يعرف. شعبي لا يفهم»."
+            },
+            {
+              "row_index": 4,
+              "english": "Alas, sinful nation, A people laden with iniquity, A brood of evildoers, Children who are corrupters! They have forsaken the Lord, They have provoked to anger The Holy One of Israel, They have turned away backward.",
+              "arabic": "وَيْلٌ لِلأُمَّةِ الْخَاطِئَةِ الشَّعْبِ الثَّقِيلِ الإِثْمِ نَسْلِ فَاعِلِي الشَّرِّ أَوْلاَدِ مُفْسِدِينَ! تَرَكُوا الرَّبَّ اسْتَهَانُوا بِقُدُّوسِ إِسْرَائِيلَ ارْتَدُّوا إِلَى وَرَاءٍ.",
+              "arabic_base_no_tashkeel": "ويل للأمة الخاطئة الشعب الثقيل الإثم نسل فاعلي الشر أولاد مفسدين! تركوا الرب استهانوا بقدوس إسرائيل ارتدوا إلى وراء."
+            },
+            {
+              "row_index": 5,
+              "english": "Why should you be stricken again? You will revolt more and more. The whole head is sick, And the whole heart faints.",
+              "arabic": "عَلَى مَ تُضْرَبُونَ بَعْدُ؟ تَزْدَادُونَ زَيَغَاناً! كُلُّ الرَّأْسِ مَرِيضٌ وَكُلُّ الْقَلْبِ سَقِيمٌ.",
+              "arabic_base_no_tashkeel": "على م تضربون بعد؟ تزدادون زيغانا! كل الرأس مريض وكل القلب سقيم."
+            },
+            {
+              "row_index": 6,
+              "english": "From the sole of the foot even to the head, There is no soundness in it, But wounds and bruises and putrefying sores; They have not been closed or bound up, Or soothed with ointment.",
+              "arabic": "مِنْ أَسْفَلِ الْقَدَمِ إِلَى الرَّأْسِ لَيْسَ فِيهِ صِحَّةٌ بَلْ جُرْحٌ وَأَحْبَاطٌ وَضَرْبَةٌ طَرِيَّةٌ لَمْ تُعْصَرْ وَلَمْ تُعْصَبْ وَلَمْ تُلَيَّنْ بِالزَّيْتِ.",
+              "arabic_base_no_tashkeel": "من أسفل القدم إلى الرأس ليس فيه صحة بل جرح وأحباط وضربة طرية لم تعصر ولم تعصب ولم تلين بالزيت."
+            },
+            {
+              "row_index": 7,
+              "english": "Your country is desolate, Your cities are burned with fire; Strangers devour your land in your presence; And it is desolate, as overthrown by strangers.",
+              "arabic": "بِلاَدُكُمْ خَرِبَةٌ. مُدُنُكُمْ مُحْرَقَةٌ بِالنَّارِ. أَرْضُكُمْ تَأْكُلُهَا غُرَبَاءُ قُدَّامَكُمْ وَهِيَ خَرِبَةٌ كَانْقِلاَبِ الْغُرَبَاءِ.",
+              "arabic_base_no_tashkeel": "بلادكم خربة. مدنكم محرقة بالنار. أرضكم تأكلها غرباء قدامكم وهي خربة كانقلاب الغرباء."
+            },
+            {
+              "row_index": 8,
+              "english": "So the daughter of Zion is left as a booth in a vineyard, As a hut in a garden of cucumbers, As a besieged city.",
+              "arabic": "فَبَقِيَتِ ابْنَةُ صِهْيَوْنَ كَمِظَلَّةٍ فِي كَرْمٍ كَخَيْمَةٍ فِي مَقْثَأَةٍ كَمَدِينَةٍ مُحَاصَرَةٍ.",
+              "arabic_base_no_tashkeel": "فبقيت ابنة صهيون كمظلة في كرم كخيمة في مقثأة كمدينة محاصرة."
+            },
+            {
+              "row_index": 9,
+              "english": "Unless the Lord of hosts Had left to us a very small remnant, We would have become like Sodom, We would have been made like Gomorrah.",
+              "arabic": "لَوْلاَ أَنَّ رَبَّ الْجُنُودِ أَبْقَى لَنَا بَقِيَّةً صَغِيرَةً لَصِرْنَا مِثْلَ سَدُومَ وَشَابَهْنَا عَمُورَةَ.",
+              "arabic_base_no_tashkeel": "لولا أن رب الجنود أبقى لنا بقية صغيرة لصرنا مثل سدوم وشابهنا عمورة."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (18: 48,17)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "My deliverer from the rage of my enemies; because of those who rise up against me, You will exalt me;",
+              "arabic": "منقذي من أعدائي الراجزين ومن الذين يقومون عليَّ، ترفعني:",
+              "arabic_base_no_tashkeel": "منقذي من أعدائي الراجزين ومن الذين يقومون علي، ترفعني:"
+            },
+            {
+              "row_index": 2,
+              "english": "You will deliver me from the unrighteous man. He will deliver me from my strong enemies, and from those who hate me.",
+              "arabic": "ومن الرجل الظالم تنجيني، يخلصني من أعدائي الأشداء ومن أيدي الذين يبغضونني.",
+              "arabic_base_no_tashkeel": "ومن الرجل الظالم تنجيني، يخلصني من أعدائي الأشداء ومن أيدي الذين يبغضونني."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (John 8: 12 - 20)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Then Jesus spoke to them again, saying, “I am the light of the world. He who follows Me shall not walk in darkness, but have the light of life.”",
+              "arabic": "ثم كلمهم أيضاً يسوع قائلاً: أنا هو نور العالم ومن يتبعني لا يمشي في الظلمة بل يكون له نور الحياة.",
+              "arabic_base_no_tashkeel": "ثم كلمهم أيضا يسوع قائلا: أنا هو نور العالم ومن يتبعني لا يمشي في الظلمة بل يكون له نور الحياة."
+            },
+            {
+              "row_index": 2,
+              "english": "The Pharisees therefore said to Him, “You bear witness of Yourself; Your witness is not true.”",
+              "arabic": "فقال له الفريسيون: أنت وحدك تشهد لنفسك فليست شهادتك حقاً.",
+              "arabic_base_no_tashkeel": "فقال له الفريسيون: أنت وحدك تشهد لنفسك فليست شهادتك حقا."
+            },
+            {
+              "row_index": 3,
+              "english": "Jesus answered and said to them, “Even if I bear witness of Myself, My witness is true,",
+              "arabic": "أجاب يسوع وقال لهم: إني وإن كنت أشهد لنفسي فشهادتي حق.",
+              "arabic_base_no_tashkeel": "أجاب يسوع وقال لهم: إني وإن كنت أشهد لنفسي فشهادتي حق."
+            },
+            {
+              "row_index": 4,
+              "english": "For I know where I came from and where I am going; but you do not know where I come from and where I am going.",
+              "arabic": "لأني أعلم من أين جئت وإلي أين أذهب وأما أنتم فلا تعلمون من أين أتيت ولا إلي أين أمضي.",
+              "arabic_base_no_tashkeel": "لأني أعلم من أين جئت وإلي أين أذهب وأما أنتم فلا تعلمون من أين أتيت ولا إلي أين أمضي."
+            },
+            {
+              "row_index": 5,
+              "english": "You judge according to the flesh; I judge no one. And yet if I do judge, My judgment is true; for I am not alone, but I am with the Father who sent Me .",
+              "arabic": "أنتم إنما تدينون بحسب الجسد وأنا لا أدين أحداً. وإن أنا دنت فدينونتي حق هي. لأني لست وحدي بل أنا والآب الذي أرسلني",
+              "arabic_base_no_tashkeel": "أنتم إنما تدينون بحسب الجسد وأنا لا أدين أحدا. وإن أنا دنت فدينونتي حق هي. لأني لست وحدي بل أنا والآب الذي أرسلني"
+            },
+            {
+              "row_index": 6,
+              "english": "It is also written in your law that the testimony of two men is true. I am One who bears witness of Myself, and the Father who sent Me bears witness of Me.”",
+              "arabic": "وقد كتب أيضاً في ناموسكم أن شهادة رجلين حق هي، أنا أشهد لنفسي وأبي الذي أرسلني يشهد لي.",
+              "arabic_base_no_tashkeel": "وقد كتب أيضا في ناموسكم أن شهادة رجلين حق هي، أنا أشهد لنفسي وأبي الذي أرسلني يشهد لي."
+            },
+            {
+              "row_index": 7,
+              "english": "Then they said to Him, “Where is Your Father?” Jesus answered, “You know neither Me nor My Father. If you had known Me, you would have known My Father also.”",
+              "arabic": "قالوا: أين هو أبوك ؟! قال يسوع: لستم تعرفونني أنا ولا أبي لو كنتم تعرفونني لعرفتم أبي أيضاً.",
+              "arabic_base_no_tashkeel": "قالوا: أين هو أبوك ؟! قال يسوع: لستم تعرفونني أنا ولا أبي لو كنتم تعرفونني لعرفتم أبي أيضا."
+            },
+            {
+              "row_index": 8,
+              "english": "These words Jesus spoke in the treasury, as He taught in the temple; and no one laid hands on Him, for His hour had not yet come.",
+              "arabic": "هذه الأقوال قالها في الخزانه وهو يعلم في الهيكل ولم يمسكه أحد لأن ساعته لم تكن قد أتت بعد.",
+              "arabic_base_no_tashkeel": "هذه الأقوال قالها في الخزانه وهو يعلم في الهيكل ولم يمسكه أحد لأن ساعته لم تكن قد أتت بعد."
+            },
+            {
+              "row_index": 9,
+              "english": "These words Jesus spoke in the treasury, as He taught in the temple; and no one laid hands on Him, for His hour had not yet come.<Br><i>Bow down before the Holy Gospel.</i>",
+              "arabic": "هَذَا الْكلاَمُ قَالَهُ يَسُوعُ فِي الْخِزَانَةِ وَهُوَ يُعَلِّمُ فِي الْهَيْكَلِ. وَلَمْ يُمْسِكْهُ أَحَدٌ لأَنَّ سَاعَتَهُ لَمْ تَكُنْ قَدْ جَاءَتْ بَعْدُ.<br><i>أسجدوا للإنجيل المقدس.</i>",
+              "arabic_base_no_tashkeel": "هذا الكلام قاله يسوع في الخزانة وهو يعلم في الهيكل. ولم يمسكه أحد لأن ساعته لم تكن قد جاءت بعد.<br><i>أسجدوا للإنجيل المقدس.</i>"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

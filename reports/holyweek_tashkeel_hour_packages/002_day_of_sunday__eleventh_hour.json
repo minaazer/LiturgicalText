@@ -1,0 +1,225 @@
+{
+  "service": "DAY of Sunday",
+  "hour": "ELEVENTH Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Isaiah 48: 12 - 22)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "“Listen to Me, O Jacob and Israel, whom I call: I am the first, and I am forever. My hand also laid the foundation of the earth, and My right hand established heaven. I shall call them, and they will stand together.",
+              "arabic": "أسمع لي يا يعقوب واسرائيل الذي دعوته. أنا هو. أنا الأزلي وأنا الأبدى. ويدى التى أسست الأرض. ويمينى التى ثبتت السماء. أنا أدعوهن جميعاً فيقفن معاً.",
+              "arabic_base_no_tashkeel": "أسمع لي يا يعقوب واسرائيل الذي دعوته. أنا هو. أنا الأزلي وأنا الأبدى. ويدى التى أسست الأرض. ويمينى التى ثبتت السماء. أنا أدعوهن جميعا فيقفن معا."
+            },
+            {
+              "row_index": 2,
+              "english": "All shall be gathered and hear: Who declared these things to them? Because I love you, I did your will against Babylon, to slay the seed of the Chaldeans. I have spoken, I have called him, I have brought him, and made his way prosper. Come near to Me, hear this: I have not spoken in secret from the beginning, nor did I speak in a dark place of the earth.",
+              "arabic": "أجتمعوا كلكم وأسمعوا ما أقوله لهن هكذا أعرف ذاتك لأنى صنعت هواك ببابل. وأبدت نسل الكلدانيين. أنا تكلمت أنا دعوت وأتيت به. وقومت طريقه أقتربوا إلى وأسمعوا هذه لأنى منذ البدء لم أتكلم فى الخفاء ولا فى الأرض المظلمة.",
+              "arabic_base_no_tashkeel": "أجتمعوا كلكم وأسمعوا ما أقوله لهن هكذا أعرف ذاتك لأنى صنعت هواك ببابل. وأبدت نسل الكلدانيين. أنا تكلمت أنا دعوت وأتيت به. وقومت طريقه أقتربوا إلى وأسمعوا هذه لأنى منذ البدء لم أتكلم فى الخفاء ولا فى الأرض المظلمة."
+            },
+            {
+              "row_index": 3,
+              "english": "When it took place, I was there, and now the Lord and His Spirit have sent Me.”",
+              "arabic": "لأنى عند كونها أنا حاضر. والآن فالرب أرسلنى مع روحه.",
+              "arabic_base_no_tashkeel": "لأنى عند كونها أنا حاضر. والآن فالرب أرسلنى مع روحه."
+            },
+            {
+              "row_index": 4,
+              "english": "Thus says the Lord who delivers you, the Holy One of Israel:",
+              "arabic": "هكذا يقول الرب مخلصك قدوس اسرائيل.",
+              "arabic_base_no_tashkeel": "هكذا يقول الرب مخلصك قدوس اسرائيل."
+            },
+            {
+              "row_index": 5,
+              "english": "“I am your God, who showed you how to find the way wherein you should walk.",
+              "arabic": "أنا هو الله معلمك لتجد الطريق الذي تسير فيه.",
+              "arabic_base_no_tashkeel": "أنا هو الله معلمك لتجد الطريق الذي تسير فيه."
+            },
+            {
+              "row_index": 6,
+              "english": "If only you had heeded My commandments, then your peace would be like a river, and your righteousness as a wave of the sea.",
+              "arabic": "ليتك أصغيت لوصاياى فكانت سلامتك كالنهر. وعدلك كامواج البحر.",
+              "arabic_base_no_tashkeel": "ليتك أصغيت لوصاياى فكانت سلامتك كالنهر. وعدلك كامواج البحر."
+            },
+            {
+              "row_index": 7,
+              "english": "Your seed would also be like the sand, and the offspring of your womb like the dust of the ground.",
+              "arabic": "ونسلك يصير كالرمل. وذرية بطنك كحصى الأرض.",
+              "arabic_base_no_tashkeel": "ونسلك يصير كالرمل. وذرية بطنك كحصى الأرض."
+            },
+            {
+              "row_index": 8,
+              "english": "Neither would you be utterly destroyed now, nor would your name perish before Me.\"",
+              "arabic": "والآن لا امحوك ولا يباد أسمك من قدامى.",
+              "arabic_base_no_tashkeel": "والآن لا امحوك ولا يباد أسمك من قدامى."
+            },
+            {
+              "row_index": 9,
+              "english": "Go forth from Babylon, you who are fleeing from the Chaldeans.",
+              "arabic": "فأخرج من بابل وأهرب من الكلدانيين",
+              "arabic_base_no_tashkeel": "فأخرج من بابل وأهرب من الكلدانيين"
+            },
+            {
+              "row_index": 10,
+              "english": "Proclaim a voice of gladness and let it become well known. Proclaim it to the end of the earth, and say, ‘The Lord delivered His servant Jacob.’",
+              "arabic": "وبصوت الشدو وأخبر ليسمعوا. ناد بهذا، شيعه إلى أقطار الأرض. قل أن الرب فدى يعقوب عبده.",
+              "arabic_base_no_tashkeel": "وبصوت الشدو وأخبر ليسمعوا. ناد بهذا، شيعه إلى أقطار الأرض. قل أن الرب فدى يعقوب عبده."
+            },
+            {
+              "row_index": 11,
+              "english": "If they shall thirst, He will lead them through the desert, and water shall flow from the rock for them. He will split the rock, the water shall flow, and My people will drink. \"There is no rejoicing,\" says the Lord, \"for the ungodly.\"",
+              "arabic": "وإذ عطشوا فى البرية أخرج لهم من الصخرة ماء. وشق الصخرة ففاضت المياه فشرب الشعب. ليس سلام للمنافقين يقول الرب.",
+              "arabic_base_no_tashkeel": "وإذ عطشوا فى البرية أخرج لهم من الصخرة ماء. وشق الصخرة ففاضت المياه فشرب الشعب. ليس سلام للمنافقين يقول الرب."
+            }
+          ]
+        },
+        {
+          "title": "2nd Prophecy (Nahum 1: 2 - 8)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "God is jealous, and the Lord is an avenger; the Lord is avenging with fury; the Lord takes vengeance on His adversaries and drives out His enemies.",
+              "arabic": "الرب إله غيور ومنتقم. ينتقم الرب بغضب من المقاومين له وهو يبيد أعداءه.",
+              "arabic_base_no_tashkeel": "الرب إله غيور ومنتقم. ينتقم الرب بغضب من المقاومين له وهو يبيد أعداءه."
+            },
+            {
+              "row_index": 2,
+              "english": "The Lord is patient and His power is great, but the Lord will not acquit the guilty. His way is in destruction and in a whirlwind; the clouds are the dust of His feet.",
+              "arabic": "الرب هو طويل الروح و عظيمة هي قوته. ولكنه لا يبرر الخاطئ. الرب فى الزوبعة وفى العاصف طريقة. والسحاب طريق أقدامه.",
+              "arabic_base_no_tashkeel": "الرب هو طويل الروح و عظيمة هي قوته. ولكنه لا يبرر الخاطئ. الرب فى الزوبعة وفى العاصف طريقة. والسحاب طريق أقدامه."
+            },
+            {
+              "row_index": 3,
+              "english": "He threatens the sea and makes it dry, and he dries up all the rivers. Bashan and Carmel have diminished, and the flowers of Lebanon have died out.",
+              "arabic": "يغضب على البحر فييبسه وجميع الأنهار يجففها. قد ذوى بيسان والكرمل. وذبل زهر لبنان.",
+              "arabic_base_no_tashkeel": "يغضب على البحر فييبسه وجميع الأنهار يجففها. قد ذوى بيسان والكرمل. وذبل زهر لبنان."
+            },
+            {
+              "row_index": 4,
+              "english": "By Him the mountains are shaken and the hills quake, and the earth heaves at His presence—the whole earth and all who dwell in it.",
+              "arabic": "تزلزلت منه الجبال وتحركت الآكام وأنطوت الأرض من أمام وجهه. الدنيا وكل الساكنين فيها.",
+              "arabic_base_no_tashkeel": "تزلزلت منه الجبال وتحركت الآكام وأنطوت الأرض من أمام وجهه. الدنيا وكل الساكنين فيها."
+            },
+            {
+              "row_index": 5,
+              "english": "Who can stand before His wrath? Who can withstand the fierceness of His anger? His fury melts away ruling powers, and He shatters the rocks into pieces.",
+              "arabic": "من يقدر أن يقف أمام سخط وجهه. ومن هو الذي يقاومه عند حنق رجزه. لأن غضبه يبيد الأراخنة ومنه تزلزلت الصخور.",
+              "arabic_base_no_tashkeel": "من يقدر أن يقف أمام سخط وجهه. ومن هو الذي يقاومه عند حنق رجزه. لأن غضبه يبيد الأراخنة ومنه تزلزلت الصخور."
+            },
+            {
+              "row_index": 6,
+              "english": "The Lord is merciful to those who wait on Him in the day of affliction, and He knows those who reverence Him:",
+              "arabic": "صالح هو الرب لمنتظريه فى يوم ضيقهم. وهو عارف لخائفيه.",
+              "arabic_base_no_tashkeel": "صالح هو الرب لمنتظريه فى يوم ضيقهم. وهو عارف لخائفيه."
+            },
+            {
+              "row_index": 7,
+              "english": "For with an overwhelming flood He shall make an end to those rising up, and darkness will pursue His enemies.",
+              "arabic": "وبطوفان عابر يصنع هلاكاً تاماً بالقائمين عليه. وأعداؤه يطاردهم ظلام.",
+              "arabic_base_no_tashkeel": "وبطوفان عابر يصنع هلاكا تاما بالقائمين عليه. وأعداؤه يطاردهم ظلام."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (22: 22 - 23)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "I will declare Your name to My brethren; In the midst of the assembly, I will praise You.",
+              "arabic": ".أُذِيعُ اسْمَكَ بَيْنَ إخْوَتِي. وَفِي وَسَطِ الْجَمَاعَةِ أُسَبِّحُكَ",
+              "arabic_base_no_tashkeel": ".أذيع اسمك بين إخوتي. وفي وسط الجماعة أسبحك"
+            },
+            {
+              "row_index": 2,
+              "english": "You who fear the Lord, praise Him! All you descendants of Jacob, glorify Him, And fear Him, all you offspring of Israel!",
+              "arabic": ".يَا أيُّهَا الْخَائِفُونَ الرَّبَّ سَبِّحُوهُ، وَيَا مَعْشَرَ ذُرِّيَّةِ يَعْقُوبَ مَجِّدُوهُ. وليَخْشَهُ كُلُّ زَرْعِ إسرائيلَ. الّليلويا",
+              "arabic_base_no_tashkeel": ".يا أيها الخائفون الرب سبحوه، ويا معشر ذرية يعقوب مجدوه. وليخشه كل زرع إسرائيل. الليلويا"
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Matthew 20: 20 - 28)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Then the mother of Zebedee’s sons came to Him with her sons, kneeling down and asking something from Him.",
+              "arabic": "حينئذ جاءت إليه أم إبني زبدى مع إبنيها وسجدت له وسألته شيئاً.",
+              "arabic_base_no_tashkeel": "حينئذ جاءت إليه أم إبني زبدى مع إبنيها وسجدت له وسألته شيئا."
+            },
+            {
+              "row_index": 2,
+              "english": "And He said to her, “What do you wish?” She said to Him, “Grant that these two sons of mine may sit, one on Your right hand and the other on the left, in Your kingdom.”",
+              "arabic": "أما هو فقال لها ماذا تريدين. قالت له أن تقول قولا أن يجلسا إبناي الأثنان أحدهما عن يمينك والآخر عن شمالك فى ملكوتك.",
+              "arabic_base_no_tashkeel": "أما هو فقال لها ماذا تريدين. قالت له أن تقول قولا أن يجلسا إبناي الأثنان أحدهما عن يمينك والآخر عن شمالك فى ملكوتك."
+            },
+            {
+              "row_index": 3,
+              "english": "But Jesus answered and said, “You do not know what you ask. Are you able to drink the cup that I am about to drink, and be baptized with the baptism that I am baptized with?” They said to Him, “We are able.”",
+              "arabic": "فأجاب يسوع وقال أنكما لستما تعلمان ما تطلبان. أتقدران أن تشربا الكاس التى أنا مزمع أن أشربها وبالصبغة التى أصطبغها تصطبغانها. فقالا له أنا لقادران.",
+              "arabic_base_no_tashkeel": "فأجاب يسوع وقال أنكما لستما تعلمان ما تطلبان. أتقدران أن تشربا الكاس التى أنا مزمع أن أشربها وبالصبغة التى أصطبغها تصطبغانها. فقالا له أنا لقادران."
+            },
+            {
+              "row_index": 4,
+              "english": "So He said to them, “You will indeed drink My cup, and be baptized with the baptism that I am baptized with; but to sit on My right hand and on My left is not Mine to give, but it is for those for whom it is prepared by My Father [who is in heaven]”",
+              "arabic": "فقال لهما يسوع أما الكأس فتشربانها وبالصبغة التى أصطبغ بها أنا تصطبغان. وأما جلوسكما عن يمينى وعن يسارى فليس لى أن أعطيه الا للذين أعد لهم من قبل أبي الذي فى السموات.",
+              "arabic_base_no_tashkeel": "فقال لهما يسوع أما الكأس فتشربانها وبالصبغة التى أصطبغ بها أنا تصطبغان. وأما جلوسكما عن يمينى وعن يسارى فليس لى أن أعطيه الا للذين أعد لهم من قبل أبي الذي فى السموات."
+            },
+            {
+              "row_index": 5,
+              "english": "And when the ten heard it, they were greatly displeased with the two brothers.",
+              "arabic": "فلما سمع العشرة التلاميذ تقمقموا من أجل الأخوين.",
+              "arabic_base_no_tashkeel": "فلما سمع العشرة التلاميذ تقمقموا من أجل الأخوين."
+            },
+            {
+              "row_index": 6,
+              "english": "But Jesus called them to Himself and said, “You know that the rulers of the Gentiles lord it over them, and those who are great exercise authority over them.",
+              "arabic": "فدعاهم يسوع وقال لهم أما علمتم أن رؤساء الأمم يسودنهم وعظماءهم يتسلطون عليهم.",
+              "arabic_base_no_tashkeel": "فدعاهم يسوع وقال لهم أما علمتم أن رؤساء الأمم يسودنهم وعظماءهم يتسلطون عليهم."
+            },
+            {
+              "row_index": 7,
+              "english": "Yet it shall not be so among you; but whoever desires to become great among you, let him be your servant.",
+              "arabic": "وأما أنتم فلا يكون فيكم هكذا ولكن من أراد أن يكون فيكم كبيراً فليكن لكم خادماً.",
+              "arabic_base_no_tashkeel": "وأما أنتم فلا يكون فيكم هكذا ولكن من أراد أن يكون فيكم كبيرا فليكن لكم خادما."
+            },
+            {
+              "row_index": 8,
+              "english": "And whoever desires to be first among you, let him be your slave—",
+              "arabic": "ومن يريد أن يكون فيكم أولاً فليكن لكم عبداً.",
+              "arabic_base_no_tashkeel": "ومن يريد أن يكون فيكم أولا فليكن لكم عبدا."
+            },
+            {
+              "row_index": 9,
+              "english": "just as the Son of Man did not come to be served, but to serve, and to give His life a ransom for many.”",
+              "arabic": "كما أن إبن البشر لم يآتٍ ليُخدم بل ليخدم ويبذل نفسه فداء عن كثيرين.",
+              "arabic_base_no_tashkeel": "كما أن إبن البشر لم يآت ليخدم بل ليخدم ويبذل نفسه فداء عن كثيرين."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

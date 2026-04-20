@@ -1,0 +1,7 @@
+﻿1 Ezra 2	1_ezra_002.txt	duplicate_previous_clipboard
+2 Esdras	2 Esdras 11	invalid_probe_text
+3 Maccabees 1	3_maccabees_001.txt
+Obadiah 1	obadiah_001.txt
+Obadiah	obadiah_001.txt
+Obadiah	obadiah_001.txt
+Obadiah	obadiah_001.txt

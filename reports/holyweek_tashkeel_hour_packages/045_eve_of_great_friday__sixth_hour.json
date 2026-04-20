@@ -1,0 +1,342 @@
+{
+  "service": "EVE of Great Friday",
+  "hour": "SIXTH Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Ezekiel 22: 23 - 28)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Again the word of the Lord came to me, saying, \"Son of man, say to her, 'You are the land not rained on, neither has rain come upon you in the day of wrath.'",
+              "arabic": "وصارت إلى كلمة الرب قائلا: يا إبن الإنسان قل لها: أنت هي الأرض التي لم تقبل ماء ولم يأت عليك مطر في يوم غضبي،",
+              "arabic_base_no_tashkeel": "وصارت إلى كلمة الرب قائلا: يا إبن الإنسان قل لها: أنت هي الأرض التي لم تقبل ماء ولم يأت عليك مطر في يوم غضبي،"
+            },
+            {
+              "row_index": 2,
+              "english": "Who devour souls by domination and receive honors in wrongdoing; and your widows multiply in your midst. Her priests reject My law and desecrate My holy things.",
+              "arabic": "التي مدبروها في وسطها كالأسود المفترسة. يخطفون اختطافا، يأكلون النفوس بقوة، ويقبلون الكرامآتٍ (الرشوة) وقد كثرت أراملك فيك وكهنتك رذلوا ناموسي ودنسوا مقادسي،",
+              "arabic_base_no_tashkeel": "التي مدبروها في وسطها كالأسود المفترسة. يخطفون اختطافا، يأكلون النفوس بقوة، ويقبلون الكرامآت (الرشوة) وقد كثرت أراملك فيك وكهنتك رذلوا ناموسي ودنسوا مقادسي،"
+            },
+            {
+              "row_index": 3,
+              "english": "They no longer distinguish between the holy and the profane, nor between the unclean and the clean.",
+              "arabic": "ولم يميزوا بين البار والفاجر، وبين النجس والطاهر,",
+              "arabic_base_no_tashkeel": "ولم يميزوا بين البار والفاجر، وبين النجس والطاهر,"
+            },
+            {
+              "row_index": 4,
+              "english": "They have hidden their eyes from My Sabbaths, and I am desecrated in their midst.",
+              "arabic": "وحجبوا عيونهم عن سبوتي ونجسوني في وسطك.",
+              "arabic_base_no_tashkeel": "وحجبوا عيونهم عن سبوتي ونجسوني في وسطك."
+            },
+            {
+              "row_index": 5,
+              "english": "Her rulers in her midst are like wolves seizing their prey, so as to shed blood and exploit others for greed.",
+              "arabic": "ورؤساؤها في وسطها كالذئاب الخاطفة للفريسة، ليسفك الدم، لاحتساب كسب لكي يأخذوا بالأفضل كثيراً،",
+              "arabic_base_no_tashkeel": "ورؤساؤها في وسطها كالذئاب الخاطفة للفريسة، ليسفك الدم، لاحتساب كسب لكي يأخذوا بالأفضل كثيرا،"
+            },
+            {
+              "row_index": 6,
+              "english": "Her prophets who anoint them will fall because they see worthless and false prophecies.",
+              "arabic": "وانبياؤها الذين مسحوهم يسقطون، لأنهم يرون الباطل وينمون الكذب.",
+              "arabic_base_no_tashkeel": "وانبياؤها الذين مسحوهم يسقطون، لأنهم يرون الباطل وينمون الكذب."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (59: 1, 69: 20)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Rescue me from my enemies, O God, And redeem me from those who rise up against me.",
+              "arabic": "خلصني من أعدائي يا الله ومن الذين يقومون على أنقذني،",
+              "arabic_base_no_tashkeel": "خلصني من أعدائي يا الله ومن الذين يقومون على أنقذني،"
+            },
+            {
+              "row_index": 2,
+              "english": "And I waited for someone to sympathize with me; but no one was there, And for comforters, but I found not one. Alleluia",
+              "arabic": "وانتظرت من يحزن معي فلم يوجد، ومن يعزيني فلم أصب:",
+              "arabic_base_no_tashkeel": "وانتظرت من يحزن معي فلم يوجد، ومن يعزيني فلم أصب:"
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Matthew 26: 36 - 46)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Then Jesus came with them to a place called Gethsemane, and said to the disciples, \"Sit here while I go and pray over there.\"",
+              "arabic": "حينئذ جاء معهم يسوع إلى حقل يقال له جشيماني، فقال لتلاميذه أمكثوا ههنا حتى أمضى لأصلى هناك.",
+              "arabic_base_no_tashkeel": "حينئذ جاء معهم يسوع إلى حقل يقال له جشيماني، فقال لتلاميذه أمكثوا ههنا حتى أمضى لأصلى هناك."
+            },
+            {
+              "row_index": 2,
+              "english": "And He took with Him Peter and the two sons of Zebedee, and He began to be sorrowful and deeply distressed.",
+              "arabic": "وأخذ معه بطرس وإبنى زيدى، وابتدأ يحزن ويكتئب.",
+              "arabic_base_no_tashkeel": "وأخذ معه بطرس وإبنى زيدى، وابتدأ يحزن ويكتئب."
+            },
+            {
+              "row_index": 3,
+              "english": "Then He said to them, \"My soul is exceedingly sorrowful, even to death. Stay here and watch with Me.\"",
+              "arabic": "حينئذ قال لهم: إن نفسى حزينة حتى الموت، أمكثوا ههنا واسهروا معي.",
+              "arabic_base_no_tashkeel": "حينئذ قال لهم: إن نفسى حزينة حتى الموت، أمكثوا ههنا واسهروا معي."
+            },
+            {
+              "row_index": 4,
+              "english": "He went a little farther and fell on His face, and prayed, saying, \"O My Father, if it is possible, let this cup pass from Me; nevertheless, not as I will, but as You will.\"",
+              "arabic": "ثم إبتعد قليلاً وخر على وجهه يصلى قائلاً: يا إبتاه إن أمكن فلتعبر عنى هذه الكأس، ولكن ليس كما أريد أنا بل كما تريد انت.",
+              "arabic_base_no_tashkeel": "ثم إبتعد قليلا وخر على وجهه يصلى قائلا: يا إبتاه إن أمكن فلتعبر عنى هذه الكأس، ولكن ليس كما أريد أنا بل كما تريد انت."
+            },
+            {
+              "row_index": 5,
+              "english": "Then He came to the disciples and found them asleep, and said to Peter, \"What? Could you not watch with Me one hour? Watch and pray, lest you enter into temptation.",
+              "arabic": "ثم جاء إلى تلاميذه فوجدهم نياماً فقال لبطرس. أهكذا ما قدرتم أن تسهروا معي ساعة واحدة اسهروا وصلوا لئلا تدخلوا فى التجارب",
+              "arabic_base_no_tashkeel": "ثم جاء إلى تلاميذه فوجدهم نياما فقال لبطرس. أهكذا ما قدرتم أن تسهروا معي ساعة واحدة اسهروا وصلوا لئلا تدخلوا فى التجارب"
+            },
+            {
+              "row_index": 6,
+              "english": "The spirit indeed is willing, but the flesh is weak.\" Again, a second time, He went away and prayed, saying, \"O My Father, if this cup cannot pass away from Me unless I drink it, Your will be done.\"",
+              "arabic": "أما الروح فنشيط، وأما الجسد فضعيف. فمضى أيضاً وصلى ثانياً قائلاً: يا أبتاه إن كان لا يمكن ان تعبر عني هذه الكأس إلا أن أشربها فلتكن مشيئتك.",
+              "arabic_base_no_tashkeel": "أما الروح فنشيط، وأما الجسد فضعيف. فمضى أيضا وصلى ثانيا قائلا: يا أبتاه إن كان لا يمكن ان تعبر عني هذه الكأس إلا أن أشربها فلتكن مشيئتك."
+            },
+            {
+              "row_index": 7,
+              "english": "And He came and found them asleep again, for their eyes were heavy.",
+              "arabic": "ثم جاء أيضاً إلى تلاميذه فوجدهم نياماً، لأن أعينهم كانت ثقيلة،",
+              "arabic_base_no_tashkeel": "ثم جاء أيضا إلى تلاميذه فوجدهم نياما، لأن أعينهم كانت ثقيلة،"
+            },
+            {
+              "row_index": 8,
+              "english": "So He left them, went away again, and prayed the third time, saying the same words.",
+              "arabic": "فتركهم ومضى أيضاً وصلى ثالثة قائلاً ذلك الكلام يعينه،",
+              "arabic_base_no_tashkeel": "فتركهم ومضى أيضا وصلى ثالثة قائلا ذلك الكلام يعينه،"
+            },
+            {
+              "row_index": 9,
+              "english": "Then He came to His disciples and said to them, \"Are you still sleeping and resting?",
+              "arabic": "حينئذ جاء إلى تلاميذه وقال لهم: ناموا الآن واستريحوا،",
+              "arabic_base_no_tashkeel": "حينئذ جاء إلى تلاميذه وقال لهم: ناموا الآن واستريحوا،"
+            },
+            {
+              "row_index": 10,
+              "english": "Behold, the hour is at hand, and the Son of Man is being betrayed into the hands of sinners. Rise, let us be going. See, My betrayer is at hand.\"",
+              "arabic": "هوذا الساعة قد اقتربت، وإبن الإنسان يسلم إلى ايدي الخطاة. قوموا ننطلق، هوذا الذي يسلمنى قد إقترب.",
+              "arabic_base_no_tashkeel": "هوذا الساعة قد اقتربت، وإبن الإنسان يسلم إلى ايدي الخطاة. قوموا ننطلق، هوذا الذي يسلمنى قد إقترب."
+            },
+            {
+              "row_index": 11,
+              "english": "Rise, let us be going. See, My betrayer is at hand.\"<Br><i>Bow down before the Holy Gospel.</i>",
+              "arabic": "قُومُوا نَنْطَلِقْ. هُوَذَا الَّذِي يُسَلِّمُنِي قَدِ اقْتَرَبَ».<br><i>أسجدوا للإنجيل المقدس.</i>",
+              "arabic_base_no_tashkeel": "قوموا ننطلق. هوذا الذي يسلمني قد اقترب».<br><i>أسجدوا للإنجيل المقدس.</i>"
+            }
+          ]
+        },
+        {
+          "title": "Psalm (59: 1, 69: 20)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Deliver me from my enemies, O my God; Defend me from those who rise up against me.",
+              "arabic": "أَنْقِذْنِي مِنْ أَعْدَائِي يَا إِلَهِي. مِنْ مُقَاوِمِيَّ احْمِنِي.",
+              "arabic_base_no_tashkeel": "أنقذني من أعدائي يا إلهي. من مقاومي احمني."
+            },
+            {
+              "row_index": 2,
+              "english": "I looked for someone to take pity, but there was none; And for comforters, but I found none.",
+              "arabic": "الْعَارُ قَدْ كَسَرَ قَلْبِي فَمَرِضْتُ. انْتَظَرْتُ رِقَّةً فَلَمْ تَكُنْ وَمُعَزِّينَ فَلَمْ أَجِدْ.",
+              "arabic_base_no_tashkeel": "العار قد كسر قلبي فمرضت. انتظرت رقة فلم تكن ومعزين فلم أجد."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Mark 14: 32 - 42)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Then they came to a place which was named Gethsemane; and He said to His disciples, “Sit here while I pray.”",
+              "arabic": "ثم جاء إلى حقل إسمه جشيماني، فقال لتلاميذه: أجلسوا ههنا حتى أصلى.",
+              "arabic_base_no_tashkeel": "ثم جاء إلى حقل إسمه جشيماني، فقال لتلاميذه: أجلسوا ههنا حتى أصلى."
+            },
+            {
+              "row_index": 2,
+              "english": "And He took Peter, James, and John with Him, and He began to be troubled and deeply distressed.",
+              "arabic": "ثم أخذ معه بطرس ويعقوب يوحنا، وابتدأ يرتاع ويحزن.",
+              "arabic_base_no_tashkeel": "ثم أخذ معه بطرس ويعقوب يوحنا، وابتدأ يرتاع ويحزن."
+            },
+            {
+              "row_index": 3,
+              "english": "Then He said to them, “My soul is exceedingly sorrowful, even to death. Stay here and watch.”",
+              "arabic": "فقال لهم: إن نفسى حزينة حتى الموت، أمكثوا ههنا واسهروا.",
+              "arabic_base_no_tashkeel": "فقال لهم: إن نفسى حزينة حتى الموت، أمكثوا ههنا واسهروا."
+            },
+            {
+              "row_index": 4,
+              "english": "He went a little farther, and fell on the ground, and prayed that if it were possible, the hour might pass from Him.",
+              "arabic": "ثم تقدم قليلاً وخر على الأرض، وكان يصلى لكى تعبر عنه الساعة إن أمكن،",
+              "arabic_base_no_tashkeel": "ثم تقدم قليلا وخر على الأرض، وكان يصلى لكى تعبر عنه الساعة إن أمكن،"
+            },
+            {
+              "row_index": 5,
+              "english": "And He said, \"Abba, Father, all things are possible for You. Take this cup away from Me; nevertheless, not what I will, but what You will.\"",
+              "arabic": "وكان يقول: يا أبا الآب إن كل شيء مستطاع لك، فلتعبر عني هذه الكأس، ولكن ليس كما أريد أنا بل كما تريد انت.",
+              "arabic_base_no_tashkeel": "وكان يقول: يا أبا الآب إن كل شيء مستطاع لك، فلتعبر عني هذه الكأس، ولكن ليس كما أريد أنا بل كما تريد انت."
+            },
+            {
+              "row_index": 6,
+              "english": "Then He came and found them sleeping, and said to Peter, \"Simon, are you sleeping? Could you not watch one hour?",
+              "arabic": "ثم جاء فوجدهم نياماً، فقال لبطرس: أتنام يا سمعان؟ ألم تقدر أن تسهر معي ساعة؟!.",
+              "arabic_base_no_tashkeel": "ثم جاء فوجدهم نياما، فقال لبطرس: أتنام يا سمعان؟ ألم تقدر أن تسهر معي ساعة؟!."
+            },
+            {
+              "row_index": 7,
+              "english": "Watch and pray, lest you enter into temptation. The spirit indeed is willing, but the flesh is weak.\"",
+              "arabic": "إسهروا وصلوا لئلا تدخلوا في تجربة. أما الروح فنشيط وأما الجسد فضعيف،",
+              "arabic_base_no_tashkeel": "إسهروا وصلوا لئلا تدخلوا في تجربة. أما الروح فنشيط وأما الجسد فضعيف،"
+            },
+            {
+              "row_index": 8,
+              "english": "Again He went away and prayed, and spoke the same words.",
+              "arabic": "ومضى أيضاً وصلى قائلاً هذا الكلام بعينه،",
+              "arabic_base_no_tashkeel": "ومضى أيضا وصلى قائلا هذا الكلام بعينه،"
+            },
+            {
+              "row_index": 9,
+              "english": "And when He returned, He found them asleep again, for their eyes were heavy; and they did not know what to answer Him.",
+              "arabic": "ثم جاء فوجدهم نياما، لأن أعينهم كانت ثقيلة، ولم يعلموا بماذا يجيبونه.",
+              "arabic_base_no_tashkeel": "ثم جاء فوجدهم نياما، لأن أعينهم كانت ثقيلة، ولم يعلموا بماذا يجيبونه."
+            },
+            {
+              "row_index": 10,
+              "english": "Then He came the third time and said to them, \"Are you still sleeping and resting? It is enough!",
+              "arabic": "ثم جاء المرة الثالثه وقال لهم: ناموا الآن واستريحوا، يكفى",
+              "arabic_base_no_tashkeel": "ثم جاء المرة الثالثه وقال لهم: ناموا الآن واستريحوا، يكفى"
+            },
+            {
+              "row_index": 11,
+              "english": "The hour has come; behold, the Son of Man is being betrayed into the hands of sinners. Rise, let us be going. See, My betrayer is at hand.\"",
+              "arabic": "قد أتت الساعة. هوذا إبن الإنسان يسلم إلى ايدي الخطاة. .قُومُوا ننطَلِقُ. فها هُوَذَا الَّذِي سَيُسَلِّمُنِي قَدِ اقْترَبَ",
+              "arabic_base_no_tashkeel": "قد أتت الساعة. هوذا إبن الإنسان يسلم إلى ايدي الخطاة. .قوموا ننطلق. فها هوذا الذي سيسلمني قد اقترب"
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Luke 22: 40 - 46)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "When He came to the place, He said to them, \"Pray that you may not enter into temptation.\"",
+              "arabic": "فلما جاء إلى المكان قال لهم: صلوا لئلا تدخلوا في تجربة.",
+              "arabic_base_no_tashkeel": "فلما جاء إلى المكان قال لهم: صلوا لئلا تدخلوا في تجربة."
+            },
+            {
+              "row_index": 2,
+              "english": "And He was withdrawn from them about a stone's throw, and He knelt down and prayed, saying, \"Father, if it is Your will, take this cup away from Me; nevertheless not My will, but Yours, be done.\"",
+              "arabic": "وإنفرد عنهم نحو رمية حجر، وجثا على ركبتيه وصلى قائلا: يا أبتاه إن شئت فلتعبر عني هذه الكأس، لكن لا إرادتي بل إرادتك أنت.",
+              "arabic_base_no_tashkeel": "وإنفرد عنهم نحو رمية حجر، وجثا على ركبتيه وصلى قائلا: يا أبتاه إن شئت فلتعبر عني هذه الكأس، لكن لا إرادتي بل إرادتك أنت."
+            },
+            {
+              "row_index": 3,
+              "english": "Then an angel appeared to Him from heaven, strengthening Him. And being in agony, He prayed more earnestly.",
+              "arabic": "وظهر له ملاك من السماء ليقويه. وحدث وهو يصلى باشتياق جاثيا على ركبتيه",
+              "arabic_base_no_tashkeel": "وظهر له ملاك من السماء ليقويه. وحدث وهو يصلى باشتياق جاثيا على ركبتيه"
+            },
+            {
+              "row_index": 4,
+              "english": "Then His sweat became like great drops of blood falling down to the ground.",
+              "arabic": "أن صار عرقه كلون الدم نازلاً على الأرض.",
+              "arabic_base_no_tashkeel": "أن صار عرقه كلون الدم نازلا على الأرض."
+            },
+            {
+              "row_index": 5,
+              "english": "When He rose up from prayer, and had come to His disciples, He found them sleeping from sorrow.",
+              "arabic": "ولما قام من الصلوة جاء إلى تلاميذه فوجدهم نياماً من الحزن،",
+              "arabic_base_no_tashkeel": "ولما قام من الصلوة جاء إلى تلاميذه فوجدهم نياما من الحزن،"
+            },
+            {
+              "row_index": 6,
+              "english": "Then He said to them, \"Why do you sleep? Rise and pray, lest you enter into temptation.\"",
+              "arabic": "قال لهم: لماذا أنتم نيام؟!. قوموا وصلوا لئلا تدخلوا في تجربة.",
+              "arabic_base_no_tashkeel": "قال لهم: لماذا أنتم نيام؟!. قوموا وصلوا لئلا تدخلوا في تجربة."
+            },
+            {
+              "row_index": 7,
+              "english": "Then He said to them, \"Why do you sleep? Rise and pray, lest you enter into temptation.\"<Br><i>Bow down before the Holy Gospel.</i>",
+              "arabic": "فَقَالَ لَهُمْ: «لِمَاذَا أَنْتُمْ نِيَامٌ؟ قُومُوا وَصَلُّوا لِئَلاَّ تَدْخُلُوا فِي تَجْرِبَةٍ».<br><i>أسجدوا للإنجيل المقدس.</i>",
+              "arabic_base_no_tashkeel": "فقال لهم: «لماذا أنتم نيام؟ قوموا وصلوا لئلا تدخلوا في تجربة».<br><i>أسجدوا للإنجيل المقدس.</i>"
+            }
+          ]
+        },
+        {
+          "title": "Gospel (John 18: 3 - 9)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Then Judas, having received a detachment of troops, and officers from the chief priests and Pharisees, came there with lanterns, torches, and weapons.",
+              "arabic": "وأن يهوذا أخذ الجند وخادما من عند رؤساء الكهنة والفريسيين، وجاء إلى هناك بمشاعل ومصابيح وسلاح،",
+              "arabic_base_no_tashkeel": "وأن يهوذا أخذ الجند وخادما من عند رؤساء الكهنة والفريسيين، وجاء إلى هناك بمشاعل ومصابيح وسلاح،"
+            },
+            {
+              "row_index": 2,
+              "english": "Jesus therefore, knowing all things that would come upon Him, went forward and said to them, \"Whom are you seeking?\"",
+              "arabic": "وأن يسوع كان عالماً بكل ما يأتي عليه، فخرج وقال لهم: من تطلبون؟",
+              "arabic_base_no_tashkeel": "وأن يسوع كان عالما بكل ما يأتي عليه، فخرج وقال لهم: من تطلبون؟"
+            },
+            {
+              "row_index": 3,
+              "english": "They answered Him, \"Jesus of Nazareth.\" Jesus said to them, \"I am He.\"",
+              "arabic": "أجابوا وقالوا له: يسوع الناصري. فقال لهم يسوع: أنا هو.",
+              "arabic_base_no_tashkeel": "أجابوا وقالوا له: يسوع الناصري. فقال لهم يسوع: أنا هو."
+            },
+            {
+              "row_index": 4,
+              "english": "And Judas, who betrayed Him, also stood with them. Now when He said to them, \"I am He,\" they drew back and fell to the ground.",
+              "arabic": "وكان واقفاً معهم يهوذا المزمع أن يسلمه، فلما قال لهم اني أنا هو، رجعوا إلى الوراء وسقطوا على الأرض،",
+              "arabic_base_no_tashkeel": "وكان واقفا معهم يهوذا المزمع أن يسلمه، فلما قال لهم اني أنا هو، رجعوا إلى الوراء وسقطوا على الأرض،"
+            },
+            {
+              "row_index": 5,
+              "english": "Then He asked them again, \"Whom are you seeking?\" And they said, \"Jesus of Nazareth.\" Jesus answered, \"I have told you that I am He.",
+              "arabic": "فسألهم أيضاً مرة ثانية: من تطلبون؟ فقالوا: يسوع الناصرى. أجابهم يسوع: قد قلت لكم أني أنا هو،",
+              "arabic_base_no_tashkeel": "فسألهم أيضا مرة ثانية: من تطلبون؟ فقالوا: يسوع الناصرى. أجابهم يسوع: قد قلت لكم أني أنا هو،"
+            },
+            {
+              "row_index": 6,
+              "english": "Therefore, if you seek Me, let these go their way,\" that the saying might be fulfilled which He spoke, “Of those whom You gave Me I have lost none.”",
+              "arabic": "فإن كنتم تطلبوني فدعوا هؤلاء يذهبون، ليتم القول الذي قاله أن الذين أعطيتنى لم يهلك منهم أحد.",
+              "arabic_base_no_tashkeel": "فإن كنتم تطلبوني فدعوا هؤلاء يذهبون، ليتم القول الذي قاله أن الذين أعطيتنى لم يهلك منهم أحد."
+            },
+            {
+              "row_index": 7,
+              "english": "that the saying might be fulfilled which He spoke, \"Of those whom You gave Me I have lost none.\"<Br><i>Bow down before the Holy Gospel.</i>",
+              "arabic": "لِيَتِمَّ الْقَوْلُ الَّذِي قَالَهُ: «إِنَّ الَّذِينَ أَعْطَيْتَنِي لَمْ أُهْلِكْ مِنْهُمْ أَحَداً».<br><i>أسجدوا للإنجيل المقدس.</i>",
+              "arabic_base_no_tashkeel": "ليتم القول الذي قاله: «إن الذين أعطيتني لم أهلك منهم أحدا».<br><i>أسجدوا للإنجيل المقدس.</i>"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "service": "DAY of Wednesday",
+  "hour": "SIXTH Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Exodus 14: 13 - 15: 1)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Then Moses said to the people, \"Be of good courage. Stand still and see the Lord's salvation which He will accomplish for you today. For the Egyptians whom you see today, you will never see again. The Lord will fight for you, and you shall hold your peace.\"",
+              "arabic": "فقال موسى للشعب: تقووا قفوا وانظروا خلاص الرب يصنعه لكم اليوم فأنه كما رايتم المصريين اليوم لا تعودون ترونهم الى الابد؛ الرب يقاتل عنكم وانتم تصمتون",
+              "arabic_base_no_tashkeel": "فقال موسى للشعب: تقووا قفوا وانظروا خلاص الرب يصنعه لكم اليوم فأنه كما رايتم المصريين اليوم لا تعودون ترونهم الى الابد؛ الرب يقاتل عنكم وانتم تصمتون"
+            },
+            {
+              "row_index": 2,
+              "english": "Then the Lord said to Moses, \"Why do you cry to Me? Tell the children of Israel to go forward. Now lift up your rod, and stretch out your hand over the sea and divide it; and let the children of Israel go on dry ground through the midst of the sea.",
+              "arabic": "فقال الرب لموسى ما بالك تصرخ الى؟ قل لبنى اسرائيل ان يرجعوا الى الوراء وخذ عصاك ومد يدك على البحر وشقه فيدخل بنو اسرائيل فى وسط البحر",
+              "arabic_base_no_tashkeel": "فقال الرب لموسى ما بالك تصرخ الى؟ قل لبنى اسرائيل ان يرجعوا الى الوراء وخذ عصاك ومد يدك على البحر وشقه فيدخل بنو اسرائيل فى وسط البحر"
+            },
+            {
+              "row_index": 3,
+              "english": "I indeed will harden Pharaoh's heart and all the Egyptians, and they will go in after them. So I will be glorified in Pharaoh and over all his army, his chariots, and his horses.",
+              "arabic": "كما على اليابسة وها انا اقسى قلب فرعون والمصريين حتى يدخلوا وراءهم فاتمجد بفرعون وكل جيشه بمركباته وفرسانه.",
+              "arabic_base_no_tashkeel": "كما على اليابسة وها انا اقسى قلب فرعون والمصريين حتى يدخلوا وراءهم فاتمجد بفرعون وكل جيشه بمركباته وفرسانه."
+            },
+            {
+              "row_index": 4,
+              "english": "Then the Egyptians will know I am the Lord, when I am glorified upon Pharaoh, his chariots, and his horses.\"",
+              "arabic": "فيعلم كل المصريين أنى أنا هو الرب أتمجد بفرعون ومراكبه وفرسانه.",
+              "arabic_base_no_tashkeel": "فيعلم كل المصريين أنى أنا هو الرب أتمجد بفرعون ومراكبه وفرسانه."
+            },
+            {
+              "row_index": 5,
+              "english": "Now the Angel of God who went before the camp of Israel moved and went behind them; and the pillar of cloud also went from before them and stood behind them.",
+              "arabic": "فقام ملاك الرب السائر أمام عسكر بنى اسرائيل وسار وراءهم. وأنتقل عمود السحاب من أمامهم",
+              "arabic_base_no_tashkeel": "فقام ملاك الرب السائر أمام عسكر بنى اسرائيل وسار وراءهم. وأنتقل عمود السحاب من أمامهم"
+            },
+            {
+              "row_index": 6,
+              "english": "So it came between the camp of the Egyptians and the camp of Israel, and the night passed; but there was such darkness and blackness, they did not come near one another all that night.",
+              "arabic": "ودخل مابين عسكر المصريين وعسكر اسرائيل ووقف فصار ظلاماً وضباباً. وعبر الليل. ولم يختلط (يقترب) أحد بعضهم بعضاً الليل كله.",
+              "arabic_base_no_tashkeel": "ودخل مابين عسكر المصريين وعسكر اسرائيل ووقف فصار ظلاما وضبابا. وعبر الليل. ولم يختلط (يقترب) أحد بعضهم بعضا الليل كله."
+            },
+            {
+              "row_index": 7,
+              "english": "Then Moses stretched out his hand over the sea; and the Lord carried back the sea by a strong south wind all that night and made the sea dry ground. Thus the waters were divided.",
+              "arabic": "ومد موسى يده على البحر فجلب الرب ريحاً قبلية شرقية شديدة الليل كله فنشف البحر وإنشق الماء,",
+              "arabic_base_no_tashkeel": "ومد موسى يده على البحر فجلب الرب ريحا قبلية شرقية شديدة الليل كله فنشف البحر وإنشق الماء,"
+            },
+            {
+              "row_index": 8,
+              "english": "So the children of Israel went into the midst of the sea on the dry ground, and the waters were a wall to them on their right hand and on their left.",
+              "arabic": "فدخل بنو اسرائيل في وسط البحر علي اليبس وصار الماء لهم سوراً عن يمينهم وعن يسارهم",
+              "arabic_base_no_tashkeel": "فدخل بنو اسرائيل في وسط البحر علي اليبس وصار الماء لهم سورا عن يمينهم وعن يسارهم"
+            },
+            {
+              "row_index": 9,
+              "english": "Then the Egyptians pursued and went after them into the midst of the sea, all Pharaoh's horses, chariots, and horsemen.",
+              "arabic": "وتعقب المصريون بني اسرائيل ودخل وراءهم جميع خيل فرعون ومركباته إلي وسط البحر",
+              "arabic_base_no_tashkeel": "وتعقب المصريون بني اسرائيل ودخل وراءهم جميع خيل فرعون ومركباته إلي وسط البحر"
+            },
+            {
+              "row_index": 10,
+              "english": "Now it came to pass, in the morning watch, the Lord looked down upon the army of the Egyptians through the pillar of fire and cloud; and He troubled the army of the Egyptians.",
+              "arabic": "وكان في هزيع الصبح أن الرب إطلع علي عسكر المصريين من عمود النار والغمام وازعج عسكر المصريين.",
+              "arabic_base_no_tashkeel": "وكان في هزيع الصبح أن الرب إطلع علي عسكر المصريين من عمود النار والغمام وازعج عسكر المصريين."
+            },
+            {
+              "row_index": 11,
+              "english": "He bound the axles of their chariot wheels and caused them to proceed with difficulty; and the Egyptians said, \"Let us flee from the face of Israel, for the Lord fights for them against the Egyptians.\"",
+              "arabic": "وربط بكر مركباتهم وسقاهم قسراً فقال المصريون فلنهرب من أمام اسرائيل لأن الرب يقاتل عنهم ضد المصريين.",
+              "arabic_base_no_tashkeel": "وربط بكر مركباتهم وسقاهم قسرا فقال المصريون فلنهرب من أمام اسرائيل لأن الرب يقاتل عنهم ضد المصريين."
+            },
+            {
+              "row_index": 12,
+              "english": "Then the Lord said to Moses, \"Stretch out your hand over the sea so the waters may come back upon the Egyptians, on their chariots and the riders.\"",
+              "arabic": "فقال الرب لموسي: مد يدك علي البحر فيرجع الماء إلي مكانه, فيغطي المصريين. ومركباتهم وفرسانهم.",
+              "arabic_base_no_tashkeel": "فقال الرب لموسي: مد يدك علي البحر فيرجع الماء إلي مكانه, فيغطي المصريين. ومركباتهم وفرسانهم."
+            },
+            {
+              "row_index": 13,
+              "english": "So Moses stretched out his hand over the sea; and when the morning appeared, the sea returned to its full depth, while the Egyptians were trying to flee.",
+              "arabic": "فمد موسي يده علي البحر فرجع الماء إلي مكانه عند إقبال النهار والمصريين هاربون تحت الماء,",
+              "arabic_base_no_tashkeel": "فمد موسي يده علي البحر فرجع الماء إلي مكانه عند إقبال النهار والمصريين هاربون تحت الماء,"
+            },
+            {
+              "row_index": 14,
+              "english": "But the Lord shook off the Egyptians in the midst of the sea.",
+              "arabic": "وغرق الرب المصريين في وسط البحر",
+              "arabic_base_no_tashkeel": "وغرق الرب المصريين في وسط البحر"
+            },
+            {
+              "row_index": 15,
+              "english": "Then the waters returned and covered the chariots, the horsemen, and all of Pharaoh's army that came into the sea after them.",
+              "arabic": "ورجع الماء وغطي المركبات والفرسان وكل قوات فرعون الداخلين وراءهم في البحر,",
+              "arabic_base_no_tashkeel": "ورجع الماء وغطي المركبات والفرسان وكل قوات فرعون الداخلين وراءهم في البحر,"
+            },
+            {
+              "row_index": 16,
+              "english": "Not so much as one of them remained. But the children of Israel walked on dry ground in the midst of the sea.",
+              "arabic": "ولم يبق منهم أحد, وأما بنو اسرائيل فمشوا علي اليابسة في وسط البحر",
+              "arabic_base_no_tashkeel": "ولم يبق منهم أحد, وأما بنو اسرائيل فمشوا علي اليابسة في وسط البحر"
+            },
+            {
+              "row_index": 17,
+              "english": "The waters were a wall to them on their right hand and on their left. So the Lord saved Israel that day from the hand of the Egyptians,",
+              "arabic": "وصار الماء سوراً عن يمينهم وشمالهم فخلص الرب في ذلك اليوم اسرائيل من يد المصريين.",
+              "arabic_base_no_tashkeel": "وصار الماء سورا عن يمينهم وشمالهم فخلص الرب في ذلك اليوم اسرائيل من يد المصريين."
+            },
+            {
+              "row_index": 18,
+              "english": "and Israel saw the Egyptians dead on the seashore.",
+              "arabic": "ونظر اسرائيل المصريين امواتاً علي شاطئ البحر",
+              "arabic_base_no_tashkeel": "ونظر اسرائيل المصريين امواتا علي شاطئ البحر"
+            },
+            {
+              "row_index": 19,
+              "english": "Thus Israel saw the Lord's mighty hand and the things He did to the Egyptians; therefore, the people feared the Lord and believed God and His servant Moses.",
+              "arabic": "وشاهد اليد القوية العظيمة التي صنعها الرب بالمصريين فخاف الشعب الرب وأمنوا بالله وبعبده موسي.",
+              "arabic_base_no_tashkeel": "وشاهد اليد القوية العظيمة التي صنعها الرب بالمصريين فخاف الشعب الرب وأمنوا بالله وبعبده موسي."
+            },
+            {
+              "row_index": 20,
+              "english": "Now Moses and the children of Israel sang this song to God and spoke, saying: \"Let us sing to the Lord, for He is greatly glorified.",
+              "arabic": "حينئذ سبح موسي وبنو اسرائيل بهذه التسبحة لله قائلاً: ليقولوا فلنسبح الرب لأنه بالمجد قد تمجد.",
+              "arabic_base_no_tashkeel": "حينئذ سبح موسي وبنو اسرائيل بهذه التسبحة لله قائلا: ليقولوا فلنسبح الرب لأنه بالمجد قد تمجد."
+            }
+          ]
+        },
+        {
+          "title": "2nd Prophecy (Isaiah 48: 1 - 6)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "My children, hear the teaching of my mouth, for he who keeps it will not be conquered. A sinner will be overtaken by his lips, and a slanderer and arrogant man will be made to stumble by them.",
+              "arabic": "إسمع يا إبني تعليم فمي, من يحفظه لن يهلك, وسيوجد بشفتيه, وأما الخاطئ والشتام والمتكبر فيشكون فيه,",
+              "arabic_base_no_tashkeel": "إسمع يا إبني تعليم فمي, من يحفظه لن يهلك, وسيوجد بشفتيه, وأما الخاطئ والشتام والمتكبر فيشكون فيه,"
+            },
+            {
+              "row_index": 2,
+              "english": "Do not accustom your mouth to vows, nor make a habit of using the name of the Holy One. For as a servant who is continually beaten will not lack bruises,",
+              "arabic": "لا تعود فمك الحلف, ولا تألف تسمية القدوس, فإنه كما أن العبد الذي يحاسب مراراً كثيرة لا يفلت من العقاب,",
+              "arabic_base_no_tashkeel": "لا تعود فمك الحلف, ولا تألف تسمية القدوس, فإنه كما أن العبد الذي يحاسب مرارا كثيرة لا يفلت من العقاب,"
+            },
+            {
+              "row_index": 3,
+              "english": "So also he who makes a vow and continually names the Holy One will never be cleansed from sin. A man who swears many oaths will be filled with lawlessness, and that plague will not depart from his house. If he offends, his sin will be on him, and if he overlooks it, he has sinned doubly.",
+              "arabic": "كذلك من يحلف ويذكر الإسم (القدوس) مرات عديدة فلا يمكن أن يتبرر من الخطية, الرجل الكثير الحلف يمتلئ إثماً ولا يبرح السوط بيته, فإذا ندم غفرت خطية قلبه وإن تغافل فخطيته مضاعفة",
+              "arabic_base_no_tashkeel": "كذلك من يحلف ويذكر الإسم (القدوس) مرات عديدة فلا يمكن أن يتبرر من الخطية, الرجل الكثير الحلف يمتلئ إثما ولا يبرح السوط بيته, فإذا ندم غفرت خطية قلبه وإن تغافل فخطيته مضاعفة"
+            },
+            {
+              "row_index": 4,
+              "english": "If he swears in vain, he will not be declared righteous, for his house will be filled with trouble. There is a way of speaking comparable to death. May it not be found in the inheritance of Jacob; for all these things will be far from the godly, and they will not be involved in sins.",
+              "arabic": "وإن حلف باطلاً لا يتبرر وبيته يمتلئ نوائباً, كلام مشمول بالموت لا يوجد في ميراثك يا يعقوب أن هذه كلها تبتعد عن رجال الله, فلا يوجدون في الخطايا.",
+              "arabic_base_no_tashkeel": "وإن حلف باطلا لا يتبرر وبيته يمتلئ نوائبا, كلام مشمول بالموت لا يوجد في ميراثك يا يعقوب أن هذه كلها تبتعد عن رجال الله, فلا يوجدون في الخطايا."
+            },
+            {
+              "row_index": 5,
+              "english": "Do not accustom your mouth to lewd expressions, for this is sinful speech. Remember your father and mother when you sit in council with great men, lest you forget yourself in their presence and by habit act foolishly.",
+              "arabic": "لا تعلم فاك سوء الأدب, لأن كلام الخطية يوجد فيه. أذكر أباك وأمك, إذا اجتمعت بالعظماء لئلا تنساهما أمامهم وتصير جاهلاً,",
+              "arabic_base_no_tashkeel": "لا تعلم فاك سوء الأدب, لأن كلام الخطية يوجد فيه. أذكر أباك وأمك, إذا اجتمعت بالعظماء لئلا تنساهما أمامهم وتصير جاهلا,"
+            },
+            {
+              "row_index": 6,
+              "english": "Then you will wish you had never been born, and you will curse the day of your birth.",
+              "arabic": "فتود لو لم تولد وتلعن يوم ولادتك.",
+              "arabic_base_no_tashkeel": "فتود لو لم تولد وتلعن يوم ولادتك."
+            }
+          ]
+        },
+        {
+          "title": "3rd Prophecy (Sirach 23: 7 - 14)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Listen, my children, to instruction concerning speech; the one who observes it will never be caught.",
+              "arabic": "تَعَلَّموا أيُّها البَنونَ أدَبَ الكَلامِ، فَمَنْ يَعمَلْ بِه لا يَتَعَثَّرْ.",
+              "arabic_base_no_tashkeel": "تعلموا أيها البنون أدب الكلام، فمن يعمل به لا يتعثر."
+            },
+            {
+              "row_index": 2,
+              "english": "The sinner is overtaken through his lips, the reviler and the arrogant are tripped by them.",
+              "arabic": "فالخاطِـئْ يَصطادُهُ كَلامُهُ، وبِه يَسقُطُ البَذيءُ والمُتكَبِّرُ.",
+              "arabic_base_no_tashkeel": "فالخاطـئ يصطاده كلامه، وبه يسقط البذيء والمتكبر."
+            },
+            {
+              "row_index": 3,
+              "english": "Do not accustom your mouth to oaths, and do not habitually utter the name of the Holy One;",
+              "arabic": "لا تُعَوِّدْ فَمَكَ على حِلْفِ اليَمينِ، ولا على القَسَمِ بِاَسْمِ الواحِدِ القُدُّوسِ،",
+              "arabic_base_no_tashkeel": "لا تعود فمك على حلف اليمين، ولا على القسم باسم الواحد القدوس،"
+            },
+            {
+              "row_index": 4,
+              "english": "for as a servant who is continually examined under torture will not lack bruises, so also the man who always swears and utters the Name will not be cleansed from sin.",
+              "arabic": "فالعبدُ الـذي يُضرَبُ بِاَستِمْرارٍ، تَظهَرُ علَيهِ آثارُ الضَّرْبِ،",
+              "arabic_base_no_tashkeel": "فالعبد الـذي يضرب باستمرار، تظهر عليه آثار الضرب،"
+            },
+            {
+              "row_index": 5,
+              "english": "A man who swears many oaths will be filled with iniquity, and the scourge will not leave his house; if he offends, his sin remains on him, and if he disregards it, he sins doubly; if he has sworn needlessly, he will not be justified, for his house will be filled with calamities.",
+              "arabic": "مَنْ يَحلِفْ بِه كثيرًا يَمتَلئْ شَرُا، ولا يُفارِقُ العِقابُ أهلَ بَيتِهِ. إنْ لم يَبُرَ بِقَسَمِهِ يَخطَأُ، وإنْ تَجاهَلَهُ يُضاعِفْ خطيئَتَهُ. إنْ حَلَفَ باطلا لا بَراءَةَ لَه، وبَيتُهُ يَمتَلِـئْ بِالمَصائِبِ.",
+              "arabic_base_no_tashkeel": "من يحلف به كثيرا يمتلئ شرا، ولا يفارق العقاب أهل بيته. إن لم يبر بقسمه يخطأ، وإن تجاهله يضاعف خطيئته. إن حلف باطلا لا براءة له، وبيته يمتلـئ بالمصائب."
+            },
+            {
+              "row_index": 6,
+              "english": "There is an utterance which is comparable to death; may it never be found in the inheritance of Jacob! For all these errors will be far from the godly, and they will not wallow in sins.",
+              "arabic": "مِنَ الكَلامِ ما هوَ سَيِّـئٌ كالموتِ، لا كانَ يا ربُّ في بَني يَعقوبَ! الأتقياءُ يَبتعِدونَ عَنْ هذا كُلِّهِ فلا يَنغمِسونَ في البشاعاتِ.",
+              "arabic_base_no_tashkeel": "من الكلام ما هو سيـئ كالموت، لا كان يا رب في بني يعقوب! الأتقياء يبتعدون عن هذا كله فلا ينغمسون في البشاعات."
+            },
+            {
+              "row_index": 7,
+              "english": "Do not accustom your mouth to lewd vulgarity, for it involves sinful speech.",
+              "arabic": "لا تعوِّدْ فَمَكَ على الكَلامِ البَذيءِ، ففيهِ خَطَرُ الوقوعِ في الخطيئةِ.",
+              "arabic_base_no_tashkeel": "لا تعود فمك على الكلام البذيء، ففيه خطر الوقوع في الخطيئة."
+            },
+            {
+              "row_index": 8,
+              "english": "Remember your father and mother\nwhen you sit among great men;\nlest you be forgetful in their presence,\nand be deemed a fool on account of your habits; then you will wish that you had never been born, and you will curse the day of your birth.",
+              "arabic": "تَذكَّرْ أباكَ وأمكَ حتـى تكونَ معَ أصحابِ الشَّأنِ. ولا تَنسَ أمامَهُم مَنْ أنتَ ولا تَتَصَرَّفْ كأحمَقَ، فتَتَمَنَّى لو كُنتَ لم تُولَدْ وتَلعَنَ يومَ وِلادَتِكَ.",
+              "arabic_base_no_tashkeel": "تذكر أباك وأمك حتـى تكون مع أصحاب الشأن. ولا تنس أمامهم من أنت ولا تتصرف كأحمق، فتتمنى لو كنت لم تولد وتلعن يوم ولادتك."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (83: 2,5)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "For behold, Your enemies made a noise, and those who hate You raised up their heads.",
+              "arabic": "هوذا أعداؤك قد صرخوا. وقد رفع مبغضوك رؤوسهم.",
+              "arabic_base_no_tashkeel": "هوذا أعداؤك قد صرخوا. وقد رفع مبغضوك رؤوسهم."
+            },
+            {
+              "row_index": 2,
+              "english": "For they plotted together in unity; they established a covenant against You.",
+              "arabic": "تآمروا جميعاً بقلب واحد وتعاهدوا عليك عهداً.",
+              "arabic_base_no_tashkeel": "تآمروا جميعا بقلب واحد وتعاهدوا عليك عهدا."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (John 12: 1 - 8)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Then, six days before the Passover, Jesus came to Bethany, where Lazarus was who had been dead, whom He had raised from the dead.",
+              "arabic": "وقبل الفصح بستة أيام أتى يسوع إلى بيت عنيا حيث كان لعازر الذي مات وأقامه من بين الأموات.",
+              "arabic_base_no_tashkeel": "وقبل الفصح بستة أيام أتى يسوع إلى بيت عنيا حيث كان لعازر الذي مات وأقامه من بين الأموات."
+            },
+            {
+              "row_index": 2,
+              "english": "There they made Him a supper; and Martha served, but Lazarus was one of those who sat at the table with Him.",
+              "arabic": "فصنعوا له هناك عشاء فى ذلك المكان. وكانت مرثا تخدم وكان لعازر أحد المتكئين معه،",
+              "arabic_base_no_tashkeel": "فصنعوا له هناك عشاء فى ذلك المكان. وكانت مرثا تخدم وكان لعازر أحد المتكئين معه،"
+            },
+            {
+              "row_index": 3,
+              "english": "Then Mary took a pound of very costly oil of spikenard, anointed the feet of Jesus, and wiped His feet with her hair.",
+              "arabic": "أما مريم فأخذت رطل طيب ناردين خالص كثير الثمن ودهنت به قدمى يسوع، ومسحتهما بشعر رأسها",
+              "arabic_base_no_tashkeel": "أما مريم فأخذت رطل طيب ناردين خالص كثير الثمن ودهنت به قدمى يسوع، ومسحتهما بشعر رأسها"
+            },
+            {
+              "row_index": 4,
+              "english": "And the house was filled with the fragrance of the oil.",
+              "arabic": "فإمتلأ البيت من رائحة الطيب،",
+              "arabic_base_no_tashkeel": "فإمتلأ البيت من رائحة الطيب،"
+            },
+            {
+              "row_index": 5,
+              "english": "But one of His disciples, Judas Iscariot, Simon’s son, who would betray Him, said,",
+              "arabic": "فقال أحد تلاميذه الذي هو يهوذا سمعان الإسخريوطى الذي كان مزمعاً أن يسلمه:",
+              "arabic_base_no_tashkeel": "فقال أحد تلاميذه الذي هو يهوذا سمعان الإسخريوطى الذي كان مزمعا أن يسلمه:"
+            },
+            {
+              "row_index": 6,
+              "english": "“Why was this fragrant oil not sold for three hundred denarii and given to the poor?”",
+              "arabic": "لماذا لم يبع هذا الطيب بثلثمائة دينار ويعطى للمساكين؟",
+              "arabic_base_no_tashkeel": "لماذا لم يبع هذا الطيب بثلثمائة دينار ويعطى للمساكين؟"
+            },
+            {
+              "row_index": 7,
+              "english": "This he said, not that he cared for the poor, but because he was a thief, and had the money box; and he used to take what was put in it.",
+              "arabic": "قال هذا ليس لأنه كان يهتم بالمساكين، بل لأنه كان سارقاً وكان الصندوق عنده وكان يحمل ما يلقى فيه.",
+              "arabic_base_no_tashkeel": "قال هذا ليس لأنه كان يهتم بالمساكين، بل لأنه كان سارقا وكان الصندوق عنده وكان يحمل ما يلقى فيه."
+            },
+            {
+              "row_index": 8,
+              "english": "But Jesus said, “Let her alone; she has kept this for the day of My burial. For the poor you have with you always, but Me you do not have always.”",
+              "arabic": "فقال يسوع: \"دعوها لأنها حفظته ليوم دفنى فإن المساكين معكم فى كل حين، وأما أنا فلست معكم فى كل حين.\"",
+              "arabic_base_no_tashkeel": "فقال يسوع: \"دعوها لأنها حفظته ليوم دفنى فإن المساكين معكم فى كل حين، وأما أنا فلست معكم فى كل حين.\""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

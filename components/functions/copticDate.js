@@ -1220,8 +1220,8 @@ function getSelectedDateProperties(selectedDate, dayTransitionTime) {
     weekdayWeekend,
     dayOfWeekIndex
   );
-  console.log("Abstaining Day:", abstainingDay);
-  console.log("Coptic Season:", copticSeason);
+  //console.log("Abstaining Day:", abstainingDay);
+ // console.log("Coptic Season:", copticSeason);
 
   return {
     gregorianDate,

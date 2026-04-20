@@ -1,0 +1,2327 @@
+{
+  "summary": {
+    "holyweek_locations_with_prophecies": 53,
+    "stbasil_locations_with_prophecies": 58,
+    "extra_holyweek_slots_without_stbasil_match": 18,
+    "extra_stbasil_readings_without_holyweek_slot": 6
+  },
+  "note": "Comparison is by service/hour and prophecy order because holyWeek.json does not contain prophecy reference rows.",
+  "extra_holyweek_slots_without_stbasil_match": [
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "ELEVENTH Hour",
+      "order": 3,
+      "holyweek_title": "3rd Prophecy"
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "NINTH Hour",
+      "order": 5,
+      "holyweek_title": "Homily"
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "FIRST Hour",
+      "order": 9,
+      "holyweek_title": "9th Prophecy"
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "FIRST Hour",
+      "order": 10,
+      "holyweek_title": "10th Prophecy"
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "FIRST Hour",
+      "order": 11,
+      "holyweek_title": "11th Prophecy"
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "THIRD Hour",
+      "order": 5,
+      "holyweek_title": "5th Prophecy"
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "THIRD Hour",
+      "order": 6,
+      "holyweek_title": "6th Prophecy"
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "ELEVENTH Hour",
+      "order": 3,
+      "holyweek_title": "Homily"
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "FIRST Hour",
+      "order": 4,
+      "holyweek_title": "Homily"
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "ELEVENTH Hour",
+      "order": 3,
+      "holyweek_title": "Homily"
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "FIRST Hour",
+      "order": 4,
+      "holyweek_title": "Homily"
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "NINTH Hour",
+      "order": 5,
+      "holyweek_title": "5th Prophecy"
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "NINTH Hour",
+      "order": 6,
+      "holyweek_title": "Homily"
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "THIRD Hour",
+      "order": 4,
+      "holyweek_title": "4th Prophecy"
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "ELEVENTH Hour",
+      "order": 2,
+      "holyweek_title": "Homily"
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "FIRST Hour",
+      "order": 5,
+      "holyweek_title": "Homily"
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "NINTH Hour",
+      "order": 5,
+      "holyweek_title": "5th Prophecy"
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "NINTH Hour",
+      "order": 6,
+      "holyweek_title": "Homily"
+    }
+  ],
+  "extra_stbasil_readings_without_holyweek_slot": [
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "Matins",
+      "order": 1,
+      "stbasil_title": "ISAIAH 55:2-END [SELECTION]",
+      "reference": "ISAIAH 55:2-END [SELECTION]"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "NINTH Hour",
+      "order": 1,
+      "stbasil_title": "ISAIAH 45:15-20 [SELECTION]",
+      "reference": "ISAIAH 45:15-20 [SELECTION]"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "NINTH Hour",
+      "order": 2,
+      "stbasil_title": "JEREMIAH 38:31-34",
+      "reference": "JEREMIAH 38:31-34"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "SIXTH Hour",
+      "order": 1,
+      "stbasil_title": "ISAIAH 50:10-END, 51:1-8",
+      "reference": "ISAIAH 50:10-END, 51:1-8"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "THIRD Hour",
+      "order": 1,
+      "stbasil_title": "JEREMIAH 13:15-22 [SELECTION]",
+      "reference": "JEREMIAH 13:15-22 [SELECTION]"
+    },
+    {
+      "service": "DAY of Sunday",
+      "hour": "SIXTH Hour (Funeral Prayer)",
+      "order": 1,
+      "stbasil_title": "EZEKIEL 37:1-14",
+      "reference": "EZEKIEL 37:1-14"
+    }
+  ],
+  "locations": [
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "ELEVENTH Hour",
+      "holyweek_prophecy_slots": 3,
+      "stbasil_prophecy_readings": 2,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_fe8aec49b9"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "ISAIAH 52:13-END, 53:1-END",
+            "reference": "ISAIAH 52:13-END, 53:1-END"
+          }
+        },
+        {
+          "order": 2,
+          "holyweek_slot": {
+            "order": 2,
+            "title": "2nd Prophecy",
+            "table_id": "holyweek_3910d2fc70"
+          },
+          "stbasil_reading": {
+            "order": 2,
+            "title": "ZECHARIAH 12:11-END, 13:1-END, 14:1-4, 14:5-9 [SELECTION]",
+            "reference": "ZECHARIAH 12:11-END, 13:1-END, 14:1-4, 14:5-9 [SELECTION]"
+          }
+        },
+        {
+          "order": 3,
+          "holyweek_slot": {
+            "order": 3,
+            "title": "3rd Prophecy",
+            "table_id": "holyweek_fbcb7b0db3"
+          },
+          "stbasil_reading": null
+        }
+      ]
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "FIRST Hour",
+      "holyweek_prophecy_slots": 4,
+      "stbasil_prophecy_readings": 4,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_3120f71282"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "EXODUS 17:8-16",
+            "reference": "EXODUS 17:8-16"
+          }
+        },
+        {
+          "order": 2,
+          "holyweek_slot": {
+            "order": 2,
+            "title": "2nd Prophecy",
+            "table_id": "holyweek_060d00de4e"
+          },
+          "stbasil_reading": {
+            "order": 2,
+            "title": "EXODUS 15:22-END, 16:1-3",
+            "reference": "EXODUS 15:22-END, 16:1-3"
+          }
+        },
+        {
+          "order": 3,
+          "holyweek_slot": {
+            "order": 3,
+            "title": "3rd Prophecy",
+            "table_id": "holyweek_71e2a94d55"
+          },
+          "stbasil_reading": {
+            "order": 3,
+            "title": "ISAIAH 58:1-11",
+            "reference": "ISAIAH 58:1-11"
+          }
+        },
+        {
+          "order": 4,
+          "holyweek_slot": {
+            "order": 4,
+            "title": "4th Prophecy",
+            "table_id": "holyweek_a237d4da9f"
+          },
+          "stbasil_reading": {
+            "order": 4,
+            "title": "EZEKIEL 18:20-32",
+            "reference": "EZEKIEL 18:20-32"
+          }
+        }
+      ]
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "NINTH Hour",
+      "holyweek_prophecy_slots": 5,
+      "stbasil_prophecy_readings": 4,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_2b9284defd"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "GENESIS 22:1-19 [SELECTION]",
+            "reference": "GENESIS 22:1-19 [SELECTION]"
+          }
+        },
+        {
+          "order": 2,
+          "holyweek_slot": {
+            "order": 2,
+            "title": "2nd Prophecy",
+            "table_id": "holyweek_e6462aabd1"
+          },
+          "stbasil_reading": {
+            "order": 2,
+            "title": "ISAIAH 61:1-6",
+            "reference": "ISAIAH 61:1-6"
+          }
+        },
+        {
+          "order": 3,
+          "holyweek_slot": {
+            "order": 3,
+            "title": "3rd Prophecy",
+            "table_id": "holyweek_f1c63f58e4"
+          },
+          "stbasil_reading": {
+            "order": 3,
+            "title": "GENESIS 14:17-20",
+            "reference": "GENESIS 14:17-20"
+          }
+        },
+        {
+          "order": 4,
+          "holyweek_slot": {
+            "order": 4,
+            "title": "4th Prophecy",
+            "table_id": "holyweek_c48e406d1a"
+          },
+          "stbasil_reading": {
+            "order": 4,
+            "title": "JOB 27:2-END, 28:1-13",
+            "reference": "JOB 27:2-END, 28:1-13"
+          }
+        },
+        {
+          "order": 5,
+          "holyweek_slot": {
+            "order": 5,
+            "title": "Homily",
+            "table_id": "holyweek_9962426529"
+          },
+          "stbasil_reading": null
+        }
+      ]
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "SIXTH Hour",
+      "holyweek_prophecy_slots": 3,
+      "stbasil_prophecy_readings": 3,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_f1ab6422da"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "JEREMIAH 7:1-14",
+            "reference": "JEREMIAH 7:1-14"
+          }
+        },
+        {
+          "order": 2,
+          "holyweek_slot": {
+            "order": 2,
+            "title": "2nd Prophecy",
+            "table_id": "holyweek_1001462df8"
+          },
+          "stbasil_reading": {
+            "order": 2,
+            "title": "EZEKIEL 20:39-44",
+            "reference": "EZEKIEL 20:39-44"
+          }
+        },
+        {
+          "order": 3,
+          "holyweek_slot": {
+            "order": 3,
+            "title": "3rd Prophecy",
+            "table_id": "holyweek_e93d03f7cf"
+          },
+          "stbasil_reading": {
+            "order": 3,
+            "title": "WISDOM OF SIRACH 12:13-END, 13:1",
+            "reference": "WISDOM OF SIRACH 12:13-END, 13:1"
+          }
+        }
+      ]
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "THIRD Hour",
+      "holyweek_prophecy_slots": 4,
+      "stbasil_prophecy_readings": 4,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_304d0d475d"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "EXODUS 32:30-END, 33:1-5 [SELECTION]",
+            "reference": "EXODUS 32:30-END, 33:1-5 [SELECTION]"
+          }
+        },
+        {
+          "order": 2,
+          "holyweek_slot": {
+            "order": 2,
+            "title": "2nd Prophecy",
+            "table_id": "holyweek_3688e732f5"
+          },
+          "stbasil_reading": {
+            "order": 2,
+            "title": "WISDOM OF SIRACH 24:1-11",
+            "reference": "WISDOM OF SIRACH 24:1-11"
+          }
+        },
+        {
+          "order": 3,
+          "holyweek_slot": {
+            "order": 3,
+            "title": "3rd Prophecy",
+            "table_id": "holyweek_6934279e89"
+          },
+          "stbasil_reading": {
+            "order": 3,
+            "title": "ZECHARIAH 9:11-14 [SELECTION]",
+            "reference": "ZECHARIAH 9:11-14 [SELECTION]"
+          }
+        },
+        {
+          "order": 4,
+          "holyweek_slot": {
+            "order": 4,
+            "title": "4th Prophecy",
+            "table_id": "holyweek_312db8b25d"
+          },
+          "stbasil_reading": {
+            "order": 4,
+            "title": "PROVERBS OF SOLOMON 30:1-6",
+            "reference": "PROVERBS OF SOLOMON 30:1-6"
+          }
+        }
+      ]
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "ELEVENTH Hour",
+      "holyweek_prophecy_slots": 2,
+      "stbasil_prophecy_readings": 2,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_1d2c8ebfbd"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "EXODUS 12:1-14",
+            "reference": "EXODUS 12:1-14"
+          }
+        },
+        {
+          "order": 2,
+          "holyweek_slot": {
+            "order": 2,
+            "title": "2nd Prophecy",
+            "table_id": "holyweek_f96c3a9e35"
+          },
+          "stbasil_reading": {
+            "order": 2,
+            "title": "LEVITICUS 23:5-12",
+            "reference": "LEVITICUS 23:5-12"
+          }
+        }
+      ]
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "FIRST Hour",
+      "holyweek_prophecy_slots": 11,
+      "stbasil_prophecy_readings": 8,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_f2b375ab3f"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "DEUTERONOMY 5:1, 8:19-END, 9:1-24 [SELECTION]",
+            "reference": "DEUTERONOMY 5:1, 8:19-END, 9:1-24 [SELECTION]"
+          }
+        },
+        {
+          "order": 2,
+          "holyweek_slot": {
+            "order": 2,
+            "title": "2nd Prophecy",
+            "table_id": "holyweek_303b3a3178"
+          },
+          "stbasil_reading": {
+            "order": 2,
+            "title": "ISAIAH 1:2-9",
+            "reference": "ISAIAH 1:2-9"
+          }
+        },
+        {
+          "order": 3,
+          "holyweek_slot": {
+            "order": 3,
+            "title": "3rd Prophecy",
+            "table_id": "holyweek_b5f85344b0"
+          },
+          "stbasil_reading": {
+            "order": 3,
+            "title": "ISAIAH 2:10-21",
+            "reference": "ISAIAH 2:10-21"
+          }
+        },
+        {
+          "order": 4,
+          "holyweek_slot": {
+            "order": 4,
+            "title": "4th Prophecy",
+            "table_id": "holyweek_4cc20534ba"
+          },
+          "stbasil_reading": {
+            "order": 4,
+            "title": "JEREMIAH 22:29-END, 23:1-6 [SELECTION]",
+            "reference": "JEREMIAH 22:29-END, 23:1-6 [SELECTION]"
+          }
+        },
+        {
+          "order": 5,
+          "holyweek_slot": {
+            "order": 5,
+            "title": "5th Prophecy",
+            "table_id": "holyweek_5237925a9a"
+          },
+          "stbasil_reading": {
+            "order": 5,
+            "title": "ISAIAH 24:1-13",
+            "reference": "ISAIAH 24:1-13"
+          }
+        },
+        {
+          "order": 6,
+          "holyweek_slot": {
+            "order": 6,
+            "title": "6th Prophecy",
+            "table_id": "holyweek_af8ea14213"
+          },
+          "stbasil_reading": {
+            "order": 6,
+            "title": "WISDOM OF SOLOMON 2:12-22",
+            "reference": "WISDOM OF SOLOMON 2:12-22"
+          }
+        },
+        {
+          "order": 7,
+          "holyweek_slot": {
+            "order": 7,
+            "title": "7th Prophecy",
+            "table_id": "holyweek_d15362c129"
+          },
+          "stbasil_reading": {
+            "order": 7,
+            "title": "MICAH 1:16, 2:1-3",
+            "reference": "MICAH 1:16, 2:1-3"
+          }
+        },
+        {
+          "order": 8,
+          "holyweek_slot": {
+            "order": 8,
+            "title": "8th Prophecy",
+            "table_id": "holyweek_0121c4ca02"
+          },
+          "stbasil_reading": {
+            "order": 8,
+            "title": "MICAH 7:1-8 [SELECTION]",
+            "reference": "MICAH 7:1-8 [SELECTION]"
+          }
+        },
+        {
+          "order": 9,
+          "holyweek_slot": {
+            "order": 9,
+            "title": "9th Prophecy",
+            "table_id": "holyweek_8b6f8973dc"
+          },
+          "stbasil_reading": null
+        },
+        {
+          "order": 10,
+          "holyweek_slot": {
+            "order": 10,
+            "title": "10th Prophecy",
+            "table_id": "holyweek_8c6117b262"
+          },
+          "stbasil_reading": null
+        },
+        {
+          "order": 11,
+          "holyweek_slot": {
+            "order": 11,
+            "title": "11th Prophecy",
+            "table_id": "holyweek_889521a173"
+          },
+          "stbasil_reading": null
+        }
+      ]
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "NINTH Hour",
+      "holyweek_prophecy_slots": 3,
+      "stbasil_prophecy_readings": 3,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_2bb14be1fb"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "JEREMIAH 11:17-END, 12:1-13",
+            "reference": "JEREMIAH 11:17-END, 12:1-13"
+          }
+        },
+        {
+          "order": 2,
+          "holyweek_slot": {
+            "order": 2,
+            "title": "2nd Prophecy",
+            "table_id": "holyweek_cf633ffb8c"
+          },
+          "stbasil_reading": {
+            "order": 2,
+            "title": "ZECHARIAH 14:5-11 [SELECTION]",
+            "reference": "ZECHARIAH 14:5-11 [SELECTION]"
+          }
+        },
+        {
+          "order": 3,
+          "holyweek_slot": {
+            "order": 3,
+            "title": "3rd Prophecy",
+            "table_id": "holyweek_066f0b3549"
+          },
+          "stbasil_reading": {
+            "order": 3,
+            "title": "ZECHARIAH 2:1-3, 2:10-11 [SELECTION]",
+            "reference": "ZECHARIAH 2:1-3, 2:10-11 [SELECTION]"
+          }
+        }
+      ]
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "SIXTH Hour",
+      "holyweek_prophecy_slots": 4,
+      "stbasil_prophecy_readings": 4,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_05463e846e"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "NUMBERS 21:1-9",
+            "reference": "NUMBERS 21:1-9"
+          }
+        },
+        {
+          "order": 2,
+          "holyweek_slot": {
+            "order": 2,
+            "title": "2nd Prophecy",
+            "table_id": "holyweek_fc09b83cef"
+          },
+          "stbasil_reading": {
+            "order": 2,
+            "title": "ISAIAH 53:7-END [SELECTION]",
+            "reference": "ISAIAH 53:7-END [SELECTION]"
+          }
+        },
+        {
+          "order": 3,
+          "holyweek_slot": {
+            "order": 3,
+            "title": "3rd Prophecy",
+            "table_id": "holyweek_ab9147b585"
+          },
+          "stbasil_reading": {
+            "order": 3,
+            "title": "ISAIAH 12:2-END, 13:2-10",
+            "reference": "ISAIAH 12:2-END, 13:2-10"
+          }
+        },
+        {
+          "order": 4,
+          "holyweek_slot": {
+            "order": 4,
+            "title": "4th Prophecy",
+            "table_id": "holyweek_dcb4da5d5c"
+          },
+          "stbasil_reading": {
+            "order": 4,
+            "title": "AMOS 8:9-12",
+            "reference": "AMOS 8:9-12"
+          }
+        }
+      ]
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "THIRD Hour",
+      "holyweek_prophecy_slots": 6,
+      "stbasil_prophecy_readings": 4,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_0a806a3328"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "GENESIS 48:1-19 [SELECTION]",
+            "reference": "GENESIS 48:1-19 [SELECTION]"
+          }
+        },
+        {
+          "order": 2,
+          "holyweek_slot": {
+            "order": 2,
+            "title": "2nd Prophecy",
+            "table_id": "holyweek_7475e0e642"
+          },
+          "stbasil_reading": {
+            "order": 2,
+            "title": "ISAIAH 50:4-9",
+            "reference": "ISAIAH 50:4-9"
+          }
+        },
+        {
+          "order": 3,
+          "holyweek_slot": {
+            "order": 3,
+            "title": "3rd Prophecy",
+            "table_id": "holyweek_ca3523022c"
+          },
+          "stbasil_reading": {
+            "order": 3,
+            "title": "AMOS 9:1, 9:4-6, 9:8-10",
+            "reference": "AMOS 9:1, 9:4-6, 9:8-10"
+          }
+        },
+        {
+          "order": 4,
+          "holyweek_slot": {
+            "order": 4,
+            "title": "4th Prophecy",
+            "table_id": "holyweek_df2206d636"
+          },
+          "stbasil_reading": {
+            "order": 4,
+            "title": "JOB 29:21-END, 30:1-10",
+            "reference": "JOB 29:21-END, 30:1-10"
+          }
+        },
+        {
+          "order": 5,
+          "holyweek_slot": {
+            "order": 5,
+            "title": "5th Prophecy",
+            "table_id": "holyweek_08a776e1ab"
+          },
+          "stbasil_reading": null
+        },
+        {
+          "order": 6,
+          "holyweek_slot": {
+            "order": 6,
+            "title": "6th Prophecy",
+            "table_id": "holyweek_e2a1be057f"
+          },
+          "stbasil_reading": null
+        }
+      ]
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "TWELFTH Hour",
+      "holyweek_prophecy_slots": 2,
+      "stbasil_prophecy_readings": 2,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_5959e0475e"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "LAMENTATIONS OF JEREMIAH 3:1-END",
+            "reference": "LAMENTATIONS OF JEREMIAH 3:1-END"
+          }
+        },
+        {
+          "order": 2,
+          "holyweek_slot": {
+            "order": 2,
+            "title": "2nd Prophecy",
+            "table_id": "holyweek_363bc1bb08"
+          },
+          "stbasil_reading": {
+            "order": 2,
+            "title": "JONAH 1:10-END, 2:1-8",
+            "reference": "JONAH 1:10-END, 2:1-8"
+          }
+        }
+      ]
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "Matins",
+      "holyweek_prophecy_slots": 0,
+      "stbasil_prophecy_readings": 1,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": null,
+          "stbasil_reading": {
+            "order": 1,
+            "title": "ISAIAH 55:2-END [SELECTION]",
+            "reference": "ISAIAH 55:2-END [SELECTION]"
+          }
+        }
+      ]
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "NINTH Hour",
+      "holyweek_prophecy_slots": 0,
+      "stbasil_prophecy_readings": 2,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": null,
+          "stbasil_reading": {
+            "order": 1,
+            "title": "ISAIAH 45:15-20 [SELECTION]",
+            "reference": "ISAIAH 45:15-20 [SELECTION]"
+          }
+        },
+        {
+          "order": 2,
+          "holyweek_slot": null,
+          "stbasil_reading": {
+            "order": 2,
+            "title": "JEREMIAH 38:31-34",
+            "reference": "JEREMIAH 38:31-34"
+          }
+        }
+      ]
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "SIXTH Hour",
+      "holyweek_prophecy_slots": 0,
+      "stbasil_prophecy_readings": 1,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": null,
+          "stbasil_reading": {
+            "order": 1,
+            "title": "ISAIAH 50:10-END, 51:1-8",
+            "reference": "ISAIAH 50:10-END, 51:1-8"
+          }
+        }
+      ]
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "THIRD Hour",
+      "holyweek_prophecy_slots": 0,
+      "stbasil_prophecy_readings": 1,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": null,
+          "stbasil_reading": {
+            "order": 1,
+            "title": "JEREMIAH 13:15-22 [SELECTION]",
+            "reference": "JEREMIAH 13:15-22 [SELECTION]"
+          }
+        }
+      ]
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "ELEVENTH Hour",
+      "holyweek_prophecy_slots": 3,
+      "stbasil_prophecy_readings": 2,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_182e2b803a"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "ISAIAH 50:1-3",
+            "reference": "ISAIAH 50:1-3"
+          }
+        },
+        {
+          "order": 2,
+          "holyweek_slot": {
+            "order": 2,
+            "title": "2nd Prophecy",
+            "table_id": "holyweek_27f40b0401"
+          },
+          "stbasil_reading": {
+            "order": 2,
+            "title": "WISDOM OF SIRACH 1:18-END",
+            "reference": "WISDOM OF SIRACH 1:18-END"
+          }
+        },
+        {
+          "order": 3,
+          "holyweek_slot": {
+            "order": 3,
+            "title": "Homily",
+            "table_id": "holyweek_df527a5405"
+          },
+          "stbasil_reading": null
+        }
+      ]
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "FIRST Hour",
+      "holyweek_prophecy_slots": 4,
+      "stbasil_prophecy_readings": 3,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_87291c8af7"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "GENESIS 1:1-2:3",
+            "reference": "GENESIS 1:1-2:3"
+          }
+        },
+        {
+          "order": 2,
+          "holyweek_slot": {
+            "order": 2,
+            "title": "2nd Prophecy",
+            "table_id": "holyweek_d0629cab70"
+          },
+          "stbasil_reading": {
+            "order": 2,
+            "title": "ISAIAH 5:1-9",
+            "reference": "ISAIAH 5:1-9"
+          }
+        },
+        {
+          "order": 3,
+          "holyweek_slot": {
+            "order": 3,
+            "title": "3rd Prophecy",
+            "table_id": "holyweek_5ad9474823"
+          },
+          "stbasil_reading": {
+            "order": 3,
+            "title": "WISDOM OF SIRACH 1:1-17",
+            "reference": "WISDOM OF SIRACH 1:1-17"
+          }
+        },
+        {
+          "order": 4,
+          "holyweek_slot": {
+            "order": 4,
+            "title": "Homily",
+            "table_id": "holyweek_375dba7733"
+          },
+          "stbasil_reading": null
+        }
+      ]
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "NINTH Hour",
+      "holyweek_prophecy_slots": 3,
+      "stbasil_prophecy_readings": 3,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_66ab248cac"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "GENESIS 2:15-END, 3:1-END",
+            "reference": "GENESIS 2:15-END, 3:1-END"
+          }
+        },
+        {
+          "order": 2,
+          "holyweek_slot": {
+            "order": 2,
+            "title": "2nd Prophecy",
+            "table_id": "holyweek_3220747ebd"
+          },
+          "stbasil_reading": {
+            "order": 2,
+            "title": "ISAIAH 40:1-5",
+            "reference": "ISAIAH 40:1-5"
+          }
+        },
+        {
+          "order": 3,
+          "holyweek_slot": {
+            "order": 3,
+            "title": "3rd Prophecy",
+            "table_id": "holyweek_5a94153d22"
+          },
+          "stbasil_reading": {
+            "order": 3,
+            "title": "PROVERBS OF SOLOMON 1:1-10",
+            "reference": "PROVERBS OF SOLOMON 1:1-10"
+          }
+        }
+      ]
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "SIXTH Hour",
+      "holyweek_prophecy_slots": 2,
+      "stbasil_prophecy_readings": 2,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_603eb8e6e8"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "EXODUS 32:7-15",
+            "reference": "EXODUS 32:7-15"
+          }
+        },
+        {
+          "order": 2,
+          "holyweek_slot": {
+            "order": 2,
+            "title": "2nd Prophecy",
+            "table_id": "holyweek_8f4887277f"
+          },
+          "stbasil_reading": {
+            "order": 2,
+            "title": "WISDOM OF SOLOMON 1:1-9",
+            "reference": "WISDOM OF SOLOMON 1:1-9"
+          }
+        }
+      ]
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "THIRD Hour",
+      "holyweek_prophecy_slots": 2,
+      "stbasil_prophecy_readings": 2,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_797945d3e8"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "ISAIAH 5:20-30",
+            "reference": "ISAIAH 5:20-30"
+          }
+        },
+        {
+          "order": 2,
+          "holyweek_slot": {
+            "order": 2,
+            "title": "2nd Prophecy",
+            "table_id": "holyweek_1eb4628e78"
+          },
+          "stbasil_reading": {
+            "order": 2,
+            "title": "JEREMIAH 9:11-18 [SELECTION]",
+            "reference": "JEREMIAH 9:11-18 [SELECTION]"
+          }
+        }
+      ]
+    },
+    {
+      "service": "DAY of Sunday",
+      "hour": "ELEVENTH Hour",
+      "holyweek_prophecy_slots": 2,
+      "stbasil_prophecy_readings": 2,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_e64d08adf9"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "ISAIAH 48:12-22",
+            "reference": "ISAIAH 48:12-22"
+          }
+        },
+        {
+          "order": 2,
+          "holyweek_slot": {
+            "order": 2,
+            "title": "2nd Prophecy",
+            "table_id": "holyweek_b7f6ad64a8"
+          },
+          "stbasil_reading": {
+            "order": 2,
+            "title": "NAHUM 1:2-8",
+            "reference": "NAHUM 1:2-8"
+          }
+        }
+      ]
+    },
+    {
+      "service": "DAY of Sunday",
+      "hour": "NINTH Hour",
+      "holyweek_prophecy_slots": 2,
+      "stbasil_prophecy_readings": 2,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy - Lamentations",
+            "table_id": "holyweek_84fc3af962"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "LAMENTATIONS OF JEREMIAH 1:1-4",
+            "reference": "LAMENTATIONS OF JEREMIAH 1:1-4"
+          }
+        },
+        {
+          "order": 2,
+          "holyweek_slot": {
+            "order": 2,
+            "title": "2nd Prophecy - Zephaniah",
+            "table_id": "holyweek_27e4ffe1b6"
+          },
+          "stbasil_reading": {
+            "order": 2,
+            "title": "ZEPHANIAH 3:11-20",
+            "reference": "ZEPHANIAH 3:11-20"
+          }
+        }
+      ]
+    },
+    {
+      "service": "DAY of Sunday",
+      "hour": "SIXTH Hour (Funeral Prayer)",
+      "holyweek_prophecy_slots": 0,
+      "stbasil_prophecy_readings": 1,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": null,
+          "stbasil_reading": {
+            "order": 1,
+            "title": "EZEKIEL 37:1-14",
+            "reference": "EZEKIEL 37:1-14"
+          }
+        }
+      ]
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "ELEVENTH Hour",
+      "holyweek_prophecy_slots": 3,
+      "stbasil_prophecy_readings": 2,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_0ff3a920e1"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "ISAIAH 30:25-30",
+            "reference": "ISAIAH 30:25-30"
+          }
+        },
+        {
+          "order": 2,
+          "holyweek_slot": {
+            "order": 2,
+            "title": "2nd Prophecy",
+            "table_id": "holyweek_442b4d997f"
+          },
+          "stbasil_reading": {
+            "order": 2,
+            "title": "PROVERBS OF SOLOMON 6:24-END, 7:1-5",
+            "reference": "PROVERBS OF SOLOMON 6:24-END, 7:1-5"
+          }
+        },
+        {
+          "order": 3,
+          "holyweek_slot": {
+            "order": 3,
+            "title": "Homily",
+            "table_id": "holyweek_8d5170ea40"
+          },
+          "stbasil_reading": null
+        }
+      ]
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "FIRST Hour",
+      "holyweek_prophecy_slots": 4,
+      "stbasil_prophecy_readings": 3,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_a88aad80bf"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "EXODUS 19:1-9",
+            "reference": "EXODUS 19:1-9"
+          }
+        },
+        {
+          "order": 2,
+          "holyweek_slot": {
+            "order": 2,
+            "title": "2nd Prophecy",
+            "table_id": "holyweek_5c0408ced7"
+          },
+          "stbasil_reading": {
+            "order": 2,
+            "title": "JOB 23:2-END, 24:1-END",
+            "reference": "JOB 23:2-END, 24:1-END"
+          }
+        },
+        {
+          "order": 3,
+          "holyweek_slot": {
+            "order": 3,
+            "title": "3rd Prophecy",
+            "table_id": "holyweek_b88f7ca9c8"
+          },
+          "stbasil_reading": {
+            "order": 3,
+            "title": "HOSEA 4:1-8",
+            "reference": "HOSEA 4:1-8"
+          }
+        },
+        {
+          "order": 4,
+          "holyweek_slot": {
+            "order": 4,
+            "title": "Homily",
+            "table_id": "holyweek_1290813da8"
+          },
+          "stbasil_reading": null
+        }
+      ]
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "NINTH Hour",
+      "holyweek_prophecy_slots": 6,
+      "stbasil_prophecy_readings": 4,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_b8790d325a"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "GENESIS 6:5-END, 7:1-END, 8:1-END, 9:1-7",
+            "reference": "GENESIS 6:5-END, 7:1-END, 8:1-END, 9:1-7"
+          }
+        },
+        {
+          "order": 2,
+          "holyweek_slot": {
+            "order": 2,
+            "title": "2nd Prophecy",
+            "table_id": "holyweek_f47472ee35"
+          },
+          "stbasil_reading": {
+            "order": 2,
+            "title": "PROVERBS OF SOLOMON 9:1-11",
+            "reference": "PROVERBS OF SOLOMON 9:1-11"
+          }
+        },
+        {
+          "order": 3,
+          "holyweek_slot": {
+            "order": 3,
+            "title": "3rd Prophecy",
+            "table_id": "holyweek_5cb11e49bf"
+          },
+          "stbasil_reading": {
+            "order": 3,
+            "title": "ISAIAH 40:9-END",
+            "reference": "ISAIAH 40:9-END"
+          }
+        },
+        {
+          "order": 4,
+          "holyweek_slot": {
+            "order": 4,
+            "title": "4th Prophecy",
+            "table_id": "holyweek_a5851dadfe"
+          },
+          "stbasil_reading": {
+            "order": 4,
+            "title": "DANIEL 7:2, 7:9-15",
+            "reference": "DANIEL 7:2, 7:9-15"
+          }
+        },
+        {
+          "order": 5,
+          "holyweek_slot": {
+            "order": 5,
+            "title": "5th Prophecy",
+            "table_id": "holyweek_d4ec8ac196"
+          },
+          "stbasil_reading": null
+        },
+        {
+          "order": 6,
+          "holyweek_slot": {
+            "order": 6,
+            "title": "Homily",
+            "table_id": "holyweek_869493b045"
+          },
+          "stbasil_reading": null
+        }
+      ]
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "SIXTH Hour",
+      "holyweek_prophecy_slots": 3,
+      "stbasil_prophecy_readings": 3,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_7da7f95e3c"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "EZEKIEL 21:3-18 [SELECTION]",
+            "reference": "EZEKIEL 21:3-18 [SELECTION]"
+          }
+        },
+        {
+          "order": 2,
+          "holyweek_slot": {
+            "order": 2,
+            "title": "2nd Prophecy",
+            "table_id": "holyweek_37a47d5fba"
+          },
+          "stbasil_reading": {
+            "order": 2,
+            "title": "WISDOM OF SIRACH 4:20-END, 5:1-2",
+            "reference": "WISDOM OF SIRACH 4:20-END, 5:1-2"
+          }
+        },
+        {
+          "order": 3,
+          "holyweek_slot": {
+            "order": 3,
+            "title": "3rd Prophecy",
+            "table_id": "holyweek_255e21a67c"
+          },
+          "stbasil_reading": {
+            "order": 3,
+            "title": "ISAIAH 1:1-9",
+            "reference": "ISAIAH 1:1-9"
+          }
+        }
+      ]
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "THIRD Hour",
+      "holyweek_prophecy_slots": 4,
+      "stbasil_prophecy_readings": 3,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_da5277d9fb"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "DEUTERONOMY 8:11-END",
+            "reference": "DEUTERONOMY 8:11-END"
+          }
+        },
+        {
+          "order": 2,
+          "holyweek_slot": {
+            "order": 2,
+            "title": "2nd Prophecy",
+            "table_id": "holyweek_6807aecf22"
+          },
+          "stbasil_reading": {
+            "order": 2,
+            "title": "WISDOM OF SIRACH 2:1-9",
+            "reference": "WISDOM OF SIRACH 2:1-9"
+          }
+        },
+        {
+          "order": 3,
+          "holyweek_slot": {
+            "order": 3,
+            "title": "3rd Prophecy",
+            "table_id": "holyweek_3173efe894"
+          },
+          "stbasil_reading": {
+            "order": 3,
+            "title": "JOB 27:1-20, 28:1-2",
+            "reference": "JOB 27:1-20, 28:1-2"
+          }
+        },
+        {
+          "order": 4,
+          "holyweek_slot": {
+            "order": 4,
+            "title": "4th Prophecy",
+            "table_id": "holyweek_2f1558cdbc"
+          },
+          "stbasil_reading": null
+        }
+      ]
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "ELEVENTH Hour",
+      "holyweek_prophecy_slots": 2,
+      "stbasil_prophecy_readings": 1,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_a690e9da48"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "ISAIAH 28:16-29",
+            "reference": "ISAIAH 28:16-29"
+          }
+        },
+        {
+          "order": 2,
+          "holyweek_slot": {
+            "order": 2,
+            "title": "Homily",
+            "table_id": "holyweek_dcc6a68f85"
+          },
+          "stbasil_reading": null
+        }
+      ]
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "FIRST Hour",
+      "holyweek_prophecy_slots": 5,
+      "stbasil_prophecy_readings": 4,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_950d24df4f"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "EXODUS 17:1-7",
+            "reference": "EXODUS 17:1-7"
+          }
+        },
+        {
+          "order": 2,
+          "holyweek_slot": {
+            "order": 2,
+            "title": "2nd Prophecy",
+            "table_id": "holyweek_c81460bdf5"
+          },
+          "stbasil_reading": {
+            "order": 2,
+            "title": "PROVERBS OF SOLOMON 3:5-15 [SELECTION]",
+            "reference": "PROVERBS OF SOLOMON 3:5-15 [SELECTION]"
+          }
+        },
+        {
+          "order": 3,
+          "holyweek_slot": {
+            "order": 3,
+            "title": "3rd Prophecy",
+            "table_id": "holyweek_401daf0ef2"
+          },
+          "stbasil_reading": {
+            "order": 3,
+            "title": "HOSEA 5:13-END, 6:1-3 [SELECTION]",
+            "reference": "HOSEA 5:13-END, 6:1-3 [SELECTION]"
+          }
+        },
+        {
+          "order": 4,
+          "holyweek_slot": {
+            "order": 4,
+            "title": "4th Prophecy",
+            "table_id": "holyweek_fd03d7c497"
+          },
+          "stbasil_reading": {
+            "order": 4,
+            "title": "WISDOM OF SIRACH SELECTIONS FROM 1:12 TO 3:28",
+            "reference": "WISDOM OF SIRACH SELECTIONS FROM 1:12 TO 3:28"
+          }
+        },
+        {
+          "order": 5,
+          "holyweek_slot": {
+            "order": 5,
+            "title": "Homily",
+            "table_id": "holyweek_bfa217a4bc"
+          },
+          "stbasil_reading": null
+        }
+      ]
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "NINTH Hour",
+      "holyweek_prophecy_slots": 6,
+      "stbasil_prophecy_readings": 4,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_e54a1c2e40"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "GENESIS 24:1-9",
+            "reference": "GENESIS 24:1-9"
+          }
+        },
+        {
+          "order": 2,
+          "holyweek_slot": {
+            "order": 2,
+            "title": "2nd Prophecy",
+            "table_id": "holyweek_5790c89e1e"
+          },
+          "stbasil_reading": {
+            "order": 2,
+            "title": "NUMBERS 20:1-13",
+            "reference": "NUMBERS 20:1-13"
+          }
+        },
+        {
+          "order": 3,
+          "holyweek_slot": {
+            "order": 3,
+            "title": "3rd Prophecy",
+            "table_id": "holyweek_8bbdfc35eb"
+          },
+          "stbasil_reading": {
+            "order": 3,
+            "title": "PROVERBS OF SOLOMON 1:11-END",
+            "reference": "PROVERBS OF SOLOMON 1:11-END"
+          }
+        },
+        {
+          "order": 4,
+          "holyweek_slot": {
+            "order": 4,
+            "title": "4th Prophecy",
+            "table_id": "holyweek_1edec91595"
+          },
+          "stbasil_reading": {
+            "order": 4,
+            "title": "ZECHARIAH 11:11-14 [SELECTION]",
+            "reference": "ZECHARIAH 11:11-14 [SELECTION]"
+          }
+        },
+        {
+          "order": 5,
+          "holyweek_slot": {
+            "order": 5,
+            "title": "5th Prophecy",
+            "table_id": "holyweek_ef52d66154"
+          },
+          "stbasil_reading": null
+        },
+        {
+          "order": 6,
+          "holyweek_slot": {
+            "order": 6,
+            "title": "Homily",
+            "table_id": "holyweek_b924ccbbed"
+          },
+          "stbasil_reading": null
+        }
+      ]
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "SIXTH Hour",
+      "holyweek_prophecy_slots": 3,
+      "stbasil_prophecy_readings": 3,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_127b7d9a5d"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "EXODUS 14:13-END, 15:1",
+            "reference": "EXODUS 14:13-END, 15:1"
+          }
+        },
+        {
+          "order": 2,
+          "holyweek_slot": {
+            "order": 2,
+            "title": "2nd Prophecy",
+            "table_id": "holyweek_d1f47443cf"
+          },
+          "stbasil_reading": {
+            "order": 2,
+            "title": "ISAIAH 48:1-6 [SELECTION]",
+            "reference": "ISAIAH 48:1-6 [SELECTION]"
+          }
+        },
+        {
+          "order": 3,
+          "holyweek_slot": {
+            "order": 3,
+            "title": "3rd Prophecy",
+            "table_id": "holyweek_f5990fee7e"
+          },
+          "stbasil_reading": {
+            "order": 3,
+            "title": "WISDOM OF SIRACH 23:7-14",
+            "reference": "WISDOM OF SIRACH 23:7-14"
+          }
+        }
+      ]
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "THIRD Hour",
+      "holyweek_prophecy_slots": 4,
+      "stbasil_prophecy_readings": 4,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_6232eac028"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "EXODUS 13:17-END",
+            "reference": "EXODUS 13:17-END"
+          }
+        },
+        {
+          "order": 2,
+          "holyweek_slot": {
+            "order": 2,
+            "title": "2nd Prophecy",
+            "table_id": "holyweek_d08a7943c0"
+          },
+          "stbasil_reading": {
+            "order": 2,
+            "title": "WISDOM OF SIRACH 22:7-18",
+            "reference": "WISDOM OF SIRACH 22:7-18"
+          }
+        },
+        {
+          "order": 3,
+          "holyweek_slot": {
+            "order": 3,
+            "title": "3rd Prophecy",
+            "table_id": "holyweek_a8621f4576"
+          },
+          "stbasil_reading": {
+            "order": 3,
+            "title": "JOB 27:16-20, 28:1",
+            "reference": "JOB 27:16-20, 28:1"
+          }
+        },
+        {
+          "order": 4,
+          "holyweek_slot": {
+            "order": 4,
+            "title": "4th Prophecy",
+            "table_id": "holyweek_9b3fb9fcf5"
+          },
+          "stbasil_reading": {
+            "order": 4,
+            "title": "PROVERBS OF SOLOMON 4:5-END, 5:1-4, 5:8 [SELECTION]",
+            "reference": "PROVERBS OF SOLOMON 4:5-END, 5:1-4, 5:8 [SELECTION]"
+          }
+        }
+      ]
+    },
+    {
+      "service": "EVE of Covenant Thursday",
+      "hour": "ELEVENTH Hour",
+      "holyweek_prophecy_slots": 1,
+      "stbasil_prophecy_readings": 1,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_a78367d4f7"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "JEREMIAH 8:4-9",
+            "reference": "JEREMIAH 8:4-9"
+          }
+        }
+      ]
+    },
+    {
+      "service": "EVE of Covenant Thursday",
+      "hour": "FIRST Hour",
+      "holyweek_prophecy_slots": 1,
+      "stbasil_prophecy_readings": 1,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_86caeec77d"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "EZEKIEL 43:5-11",
+            "reference": "EZEKIEL 43:5-11"
+          }
+        }
+      ]
+    },
+    {
+      "service": "EVE of Covenant Thursday",
+      "hour": "NINTH Hour",
+      "holyweek_prophecy_slots": 1,
+      "stbasil_prophecy_readings": 1,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_277c2cc550"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "EZEKIEL 20:27-33",
+            "reference": "EZEKIEL 20:27-33"
+          }
+        }
+      ]
+    },
+    {
+      "service": "EVE of Covenant Thursday",
+      "hour": "SIXTH Hour",
+      "holyweek_prophecy_slots": 1,
+      "stbasil_prophecy_readings": 1,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_9be2992eb5"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "AMOS 3:1-11",
+            "reference": "AMOS 3:1-11"
+          }
+        }
+      ]
+    },
+    {
+      "service": "EVE of Covenant Thursday",
+      "hour": "THIRD Hour",
+      "holyweek_prophecy_slots": 1,
+      "stbasil_prophecy_readings": 1,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_0c03a4f8bc"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "AMOS 4:4-13",
+            "reference": "AMOS 4:4-13"
+          }
+        }
+      ]
+    },
+    {
+      "service": "EVE of Great Friday",
+      "hour": "ELEVENTH Hour",
+      "holyweek_prophecy_slots": 1,
+      "stbasil_prophecy_readings": 1,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_9ca0a07996"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "ISAIAH 27:11-13, 28:1-15 [SELECTION]",
+            "reference": "ISAIAH 27:11-13, 28:1-15 [SELECTION]"
+          }
+        }
+      ]
+    },
+    {
+      "service": "EVE of Great Friday",
+      "hour": "FIRST Hour",
+      "holyweek_prophecy_slots": 1,
+      "stbasil_prophecy_readings": 1,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_4f7b3a3f1b"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "JEREMIAH 8:15-END, 9:1-6",
+            "reference": "JEREMIAH 8:15-END, 9:1-6"
+          }
+        }
+      ]
+    },
+    {
+      "service": "EVE of Great Friday",
+      "hour": "NINTH Hour",
+      "holyweek_prophecy_slots": 2,
+      "stbasil_prophecy_readings": 2,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_33866114eb"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "JEREMIAH 9:6-10",
+            "reference": "JEREMIAH 9:6-10"
+          }
+        },
+        {
+          "order": 2,
+          "holyweek_slot": {
+            "order": 2,
+            "title": "2nd Prophecy",
+            "table_id": "holyweek_05a27ab0e8"
+          },
+          "stbasil_reading": {
+            "order": 2,
+            "title": "EZEKIEL 21:33-37",
+            "reference": "EZEKIEL 21:33-37"
+          }
+        }
+      ]
+    },
+    {
+      "service": "EVE of Great Friday",
+      "hour": "SIXTH Hour",
+      "holyweek_prophecy_slots": 1,
+      "stbasil_prophecy_readings": 1,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_17da798fa7"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "EZEKIEL 22:23-28 [SELECTION]",
+            "reference": "EZEKIEL 22:23-28 [SELECTION]"
+          }
+        }
+      ]
+    },
+    {
+      "service": "EVE of Great Friday",
+      "hour": "THIRD Hour",
+      "holyweek_prophecy_slots": 1,
+      "stbasil_prophecy_readings": 1,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_ed2015d88f"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "EZEKIEL 36:16-23",
+            "reference": "EZEKIEL 36:16-23"
+          }
+        }
+      ]
+    },
+    {
+      "service": "EVE of Monday",
+      "hour": "ELEVENTH Hour",
+      "holyweek_prophecy_slots": 1,
+      "stbasil_prophecy_readings": 1,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_f0eceef337"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "MICAH 2:13 [SELECTION], 3:1-4",
+            "reference": "MICAH 2:13 [SELECTION], 3:1-4"
+          }
+        }
+      ]
+    },
+    {
+      "service": "EVE of Monday",
+      "hour": "FIRST Hour",
+      "holyweek_prophecy_slots": 1,
+      "stbasil_prophecy_readings": 1,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_55d098f04f"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "ZEPHANIAH 1:2-12",
+            "reference": "ZEPHANIAH 1:2-12"
+          }
+        }
+      ]
+    },
+    {
+      "service": "EVE of Monday",
+      "hour": "NINTH Hour",
+      "holyweek_prophecy_slots": 1,
+      "stbasil_prophecy_readings": 1,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_1778cb54b6"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "MICAH 2:3-11 [SELECTION]",
+            "reference": "MICAH 2:3-11 [SELECTION]"
+          }
+        }
+      ]
+    },
+    {
+      "service": "EVE of Monday",
+      "hour": "SIXTH Hour",
+      "holyweek_prophecy_slots": 1,
+      "stbasil_prophecy_readings": 1,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_0035f7e987"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "JOEL 1:5-15",
+            "reference": "JOEL 1:5-15"
+          }
+        }
+      ]
+    },
+    {
+      "service": "EVE of Monday",
+      "hour": "THIRD Hour",
+      "holyweek_prophecy_slots": 1,
+      "stbasil_prophecy_readings": 1,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_f803de1193"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "ZEPHANIAH 1:14-END, 2:1-2",
+            "reference": "ZEPHANIAH 1:14-END, 2:1-2"
+          }
+        }
+      ]
+    },
+    {
+      "service": "EVE of Tuesday",
+      "hour": "ELEVENTH Hour",
+      "holyweek_prophecy_slots": 1,
+      "stbasil_prophecy_readings": 1,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_a96594874e"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "AMOS 5:6-14",
+            "reference": "AMOS 5:6-14"
+          }
+        }
+      ]
+    },
+    {
+      "service": "EVE of Tuesday",
+      "hour": "FIRST Hour",
+      "holyweek_prophecy_slots": 1,
+      "stbasil_prophecy_readings": 1,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_ceb90e106f"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "ZECHARIAH 1:1-6",
+            "reference": "ZECHARIAH 1:1-6"
+          }
+        }
+      ]
+    },
+    {
+      "service": "EVE of Tuesday",
+      "hour": "NINTH Hour",
+      "holyweek_prophecy_slots": 1,
+      "stbasil_prophecy_readings": 1,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_56c9c60138"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "HOSEA 10:12-END, 11:1-2",
+            "reference": "HOSEA 10:12-END, 11:1-2"
+          }
+        }
+      ]
+    },
+    {
+      "service": "EVE of Tuesday",
+      "hour": "SIXTH Hour",
+      "holyweek_prophecy_slots": 1,
+      "stbasil_prophecy_readings": 1,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_ead15662d5"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "HOSEA 4:15-END, 5:1-7",
+            "reference": "HOSEA 4:15-END, 5:1-7"
+          }
+        }
+      ]
+    },
+    {
+      "service": "EVE of Tuesday",
+      "hour": "THIRD Hour",
+      "holyweek_prophecy_slots": 1,
+      "stbasil_prophecy_readings": 1,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_9ca14d45dc"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "MALACHI 1:1-9",
+            "reference": "MALACHI 1:1-9"
+          }
+        }
+      ]
+    },
+    {
+      "service": "EVE of Wednesday",
+      "hour": "ELEVENTH Hour",
+      "holyweek_prophecy_slots": 1,
+      "stbasil_prophecy_readings": 1,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_f3a1762dc1"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "WISDOM OF SOLOMON 7:24-END",
+            "reference": "WISDOM OF SOLOMON 7:24-END"
+          }
+        }
+      ]
+    },
+    {
+      "service": "EVE of Wednesday",
+      "hour": "FIRST Hour",
+      "holyweek_prophecy_slots": 2,
+      "stbasil_prophecy_readings": 2,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_8e33944ab5"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "EZEKIEL 22:17-22",
+            "reference": "EZEKIEL 22:17-22"
+          }
+        },
+        {
+          "order": 2,
+          "holyweek_slot": {
+            "order": 2,
+            "title": "2nd Prophecy",
+            "table_id": "holyweek_f46d797b3c"
+          },
+          "stbasil_reading": {
+            "order": 2,
+            "title": "EZEKIEL 22:23-28",
+            "reference": "EZEKIEL 22:23-28"
+          }
+        }
+      ]
+    },
+    {
+      "service": "EVE of Wednesday",
+      "hour": "NINTH Hour",
+      "holyweek_prophecy_slots": 1,
+      "stbasil_prophecy_readings": 1,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_cb5419ecd0"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "HOSEA 9:14-END, 10:1-2",
+            "reference": "HOSEA 9:14-END, 10:1-2"
+          }
+        }
+      ]
+    },
+    {
+      "service": "EVE of Wednesday",
+      "hour": "SIXTH Hour",
+      "holyweek_prophecy_slots": 1,
+      "stbasil_prophecy_readings": 1,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_935a76c808"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "JEREMIAH 16:9-13",
+            "reference": "JEREMIAH 16:9-13"
+          }
+        }
+      ]
+    },
+    {
+      "service": "EVE of Wednesday",
+      "hour": "THIRD Hour",
+      "holyweek_prophecy_slots": 1,
+      "stbasil_prophecy_readings": 1,
+      "matched_by_order": [
+        {
+          "order": 1,
+          "holyweek_slot": {
+            "order": 1,
+            "title": "1st Prophecy",
+            "table_id": "holyweek_60247eda11"
+          },
+          "stbasil_reading": {
+            "order": 1,
+            "title": "AMOS 5:18-END",
+            "reference": "AMOS 5:18-END"
+          }
+        }
+      ]
+    }
+  ]
+}

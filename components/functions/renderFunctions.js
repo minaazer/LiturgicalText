@@ -22,7 +22,8 @@ export const handleMessage = (
   setIsAudioPaused,
   setCurrentAudioTitle,
   setAudioPopupVisible,
-  displayMode
+  displayMode,
+  currentRouteName
 ) => {
   try {
     const message = JSON.parse(event.nativeEvent.data);
@@ -179,13 +180,17 @@ export const handleMessage = (
         if (parsedData.destination) {
           console.log ('Parsed data destination:', parsedData.serviceName, parsedData.hourName);
             // Correctly navigate to the destination and pass `source` as a parameter
-            navigation.navigate(parsedData.destination , { source: parsedData.source });
+            navigation.navigate(parsedData.destination , {
+              source: parsedData.source,
+              drawerContextRouteName: currentRouteName,
+            });
         } else if ('screen' in parsedData) {
           console.log ('Parsed data screen:', parsedData.serviceName, parsedData.hourName, parsedData.screen);
           //navigation.navigate(parsedData.screen, { serviceName: parsedData.serviceName, hourName: parsedData.hourName });
           navigation.navigate(`${parsedData.serviceName.replace(/\s+/g, "-")}-${parsedData.hourName.replace(/\s+/g, "-")}`, {
             serviceName: parsedData.serviceName,
             hourName: parsedData.hourName,
+            drawerContextRouteName: currentRouteName,
         })
         } else {
             navigation.navigate(message.data);
@@ -347,6 +352,10 @@ export const handleNext = (
 
       // Inject JavaScript to remove the black screen overlay after the scroll
       webviewRef.current.injectJavaScript(`removeBlackScreen();`);
+      webviewRef.current.injectJavaScript(`
+        setTimeout(() => {
+        }, 60);
+      `);
     }, 25); // Delay the scroll and removal of the overlay by 500 milliseconds
   }
 };

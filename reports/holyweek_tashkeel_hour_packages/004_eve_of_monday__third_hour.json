@@ -1,0 +1,130 @@
+{
+  "service": "EVE of Monday",
+  "hour": "THIRD Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Zephaniah 1: 14 - 2: 2)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "\"For the great day of the Lord is near. It is near and quick. The sound of the day of the Lord is bitter and harsh. A mighty day of wrath has been appointed: a day of affliction and distress, a day of unseasonable happenings and destruction,",
+              "arabic": "قريب هو يوم الرب العظيم. قريب هو وسريع جداً. صوت يوم الرب مر وشديد وصعب قوى. ذلك اليوم يوم غضب يوم شدة وضيق. يوم عدم رحمة وهلاك.",
+              "arabic_base_no_tashkeel": "قريب هو يوم الرب العظيم. قريب هو وسريع جدا. صوت يوم الرب مر وشديد وصعب قوى. ذلك اليوم يوم غضب يوم شدة وضيق. يوم عدم رحمة وهلاك."
+            },
+            {
+              "row_index": 2,
+              "english": "A day of gloom and darkness, a day of cloud and vapor, A day of the trumpet and shouting against the fortified cities and the high towers.",
+              "arabic": "يوم ظلام وضباب. يوم غمام وقتام. يوم صافور وصراخ على المدن الحصينة وعلى الزوايا العالية.",
+              "arabic_base_no_tashkeel": "يوم ظلام وضباب. يوم غمام وقتام. يوم صافور وصراخ على المدن الحصينة وعلى الزوايا العالية."
+            },
+            {
+              "row_index": 3,
+              "english": "I will greatly afflict the men, and they will walk as blind men, for they sinned against the Lord; And He shall pour out their blood as dust and their flesh as dung.",
+              "arabic": "وأضايق الناس فيمشون كالعمى لأنهم أخطأوا إلى الرب. فيسفح دمهم كالتراب ولحمهم كالجلة.",
+              "arabic_base_no_tashkeel": "وأضايق الناس فيمشون كالعمى لأنهم أخطأوا إلى الرب. فيسفح دمهم كالتراب ولحمهم كالجلة."
+            },
+            {
+              "row_index": 4,
+              "english": "Their silver and gold shall not be able to deliver them in the day of the wrath of the Lord, but the whole land shall be consumed by the fire of His zeal; For He will bring about a speedy end to all those who dwell in the land.",
+              "arabic": "لا فضتهم ولا ذهبهم يقدر أن يخلصهم فى يوم غضب الرب. وبنار غيرته تفنى الأرض كلها. لأنه يوقع قضاء سريعاً على جميع سكان الأرض.",
+              "arabic_base_no_tashkeel": "لا فضتهم ولا ذهبهم يقدر أن يخلصهم فى يوم غضب الرب. وبنار غيرته تفنى الأرض كلها. لأنه يوقع قضاء سريعا على جميع سكان الأرض."
+            },
+            {
+              "row_index": 5,
+              "english": "O untaught nation, be gathered together and united to one another, before you become like a flower that passes away, Before the anger of the Lord comes upon you, before the day of the wrath of the Lord comes upon you!",
+              "arabic": "أجتمعوا و أحتشدوا يا أيها الأمم الجهلة. قبل أن تصيروا كالزهرة العابرة. قبل أن يدرككم غضب الرب. قبل أن يأتى عليكم يوم سخط الرب.",
+              "arabic_base_no_tashkeel": "أجتمعوا و أحتشدوا يا أيها الأمم الجهلة. قبل أن تصيروا كالزهرة العابرة. قبل أن يدرككم غضب الرب. قبل أن يأتى عليكم يوم سخط الرب."
+            },
+            {
+              "row_index": 6,
+              "english": "Seek the Lord, all you humble of the earth.",
+              "arabic": "أطلبوا الرب يا جميع متواضعى الأرض.",
+              "arabic_base_no_tashkeel": "أطلبوا الرب يا جميع متواضعى الأرض."
+            },
+            {
+              "row_index": 7,
+              "english": "Bring about justice, seek righteousness, and give answer to these things, so you may be sheltered in the day of the Lord's wrath.",
+              "arabic": "أصنعوا الحكم وأطلبوا العدل وجاوبوا بهما. لعلكم تستترون فى يوم رجز الرب.",
+              "arabic_base_no_tashkeel": "أصنعوا الحكم وأطلبوا العدل وجاوبوا بهما. لعلكم تستترون فى يوم رجز الرب."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (28: 9,2)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Save Your people, and bless Your inheritance; and shepherd them, and raise them up forever.",
+              "arabic": "خلص شعبك بارك ميراثك أرعهم و أرفعهم إلى الأبد.",
+              "arabic_base_no_tashkeel": "خلص شعبك بارك ميراثك أرعهم و أرفعهم إلى الأبد."
+            },
+            {
+              "row_index": 2,
+              "english": "Hear the voice of my supplication when I pray to You.",
+              "arabic": "أستمع يارب صوت تضرعى اذ أبتهل إليك.",
+              "arabic_base_no_tashkeel": "أستمع يارب صوت تضرعى اذ أبتهل إليك."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Luke 9: 18 - 22)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "And it happened, as He was alone praying, that His disciples joined Him, and He asked them, saying, “Who do the crowds say that I am?” So they answered and said, “John the Baptist, but some say Elijah;",
+              "arabic": "وأذ كان يصلي منفرداً وحده كان تلاميذه معه فسألهم قائلاً. من تقول الجموع أنى أنا. أما هم فأجابوا وقالوا يوحنا المعمدان وآخرون أيليا.",
+              "arabic_base_no_tashkeel": "وأذ كان يصلي منفردا وحده كان تلاميذه معه فسألهم قائلا. من تقول الجموع أنى أنا. أما هم فأجابوا وقالوا يوحنا المعمدان وآخرون أيليا."
+            },
+            {
+              "row_index": 2,
+              "english": "And others say that one of the old prophets has risen again.”",
+              "arabic": "وآخرون يقولون أن نبيا من الأولين قد قام.",
+              "arabic_base_no_tashkeel": "وآخرون يقولون أن نبيا من الأولين قد قام."
+            },
+            {
+              "row_index": 3,
+              "english": "He said to them, “But who do you say that I am?” Peter answered and said, “The Christ of God.”",
+              "arabic": "فقال لهم وأنتم من تقولون أنى أنا. فأجاب بطرس وقال أنت مسيح الله.",
+              "arabic_base_no_tashkeel": "فقال لهم وأنتم من تقولون أنى أنا. فأجاب بطرس وقال أنت مسيح الله."
+            },
+            {
+              "row_index": 4,
+              "english": "And He strictly warned and commanded them to tell this to no one,",
+              "arabic": "فاما هو فانتهرهم وأوصاهم أن لا يقولوا هذا لأحد.",
+              "arabic_base_no_tashkeel": "فاما هو فانتهرهم وأوصاهم أن لا يقولوا هذا لأحد."
+            },
+            {
+              "row_index": 5,
+              "english": "Saying, “The Son of Man must suffer many things, and be rejected by the elders and chief priests and scribes, and be killed, and be raised the third day.”",
+              "arabic": "وقال أنه ينبغى لإبن البشر أن يتألم كثيراً ويرذل من الشيوخ ورؤساء الكهنة والكتبة ويقتلونه وفى اليوم الثالث يقوم.",
+              "arabic_base_no_tashkeel": "وقال أنه ينبغى لإبن البشر أن يتألم كثيرا ويرذل من الشيوخ ورؤساء الكهنة والكتبة ويقتلونه وفى اليوم الثالث يقوم."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

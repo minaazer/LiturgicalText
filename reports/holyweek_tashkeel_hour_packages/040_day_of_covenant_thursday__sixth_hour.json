@@ -1,0 +1,260 @@
+{
+  "service": "DAY of Covenant Thursday",
+  "hour": "SIXTH Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Jeremiah 7: 2 - 15)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Hear the word of the Lord, all you of Judah. Thus says the Lord God of Israel: “Amend your ways and your practices, and I will cause you to dwell in this place. Do not entrust yourselves to lying words, for they will not profit you when you say, 'It is the temple of the Lord, the temple of the Lord.",
+              "arabic": "اسمعوا كلمة الرب يا جميع اليهودية. هذا ما يقوله رب القوات إله اسرائيل: قوِّموا طرقكم وأعمالكم فاسكنكم فى هذا الموضع. لا تتكلوا على نفوسكم ولا على كلام الكذب. لأنه لا ينفعكم البتة قائلين: هذا هيكل الرب.",
+              "arabic_base_no_tashkeel": "اسمعوا كلمة الرب يا جميع اليهودية. هذا ما يقوله رب القوات إله اسرائيل: قوموا طرقكم وأعمالكم فاسكنكم فى هذا الموضع. لا تتكلوا على نفوسكم ولا على كلام الكذب. لأنه لا ينفعكم البتة قائلين: هذا هيكل الرب."
+            },
+            {
+              "row_index": 2,
+              "english": "For if you thoroughly amend your ways and your practices, if you thoroughly bring about judgment between a man and his neighbor,",
+              "arabic": "لأنكم إذا قوِّمتم طرقكم وأعمالكم، وأجريتم الحكم بين الرجل وصاحبه",
+              "arabic_base_no_tashkeel": "لأنكم إذا قومتم طرقكم وأعمالكم، وأجريتم الحكم بين الرجل وصاحبه"
+            },
+            {
+              "row_index": 3,
+              "english": "And do not oppress the resident alien, the orphan, and the widow, and do not shed innocent blood in this place;",
+              "arabic": "ولم تظلموا الغريب واليتيم والأرملة ولم تسفكوا دماً زكياً فى هذا الموضع.",
+              "arabic_base_no_tashkeel": "ولم تظلموا الغريب واليتيم والأرملة ولم تسفكوا دما زكيا فى هذا الموضع."
+            },
+            {
+              "row_index": 4,
+              "english": "Or walk after foreign gods to your hurt, then I will cause you to dwell in this place, in the land I gave to your fathers of old and forever.",
+              "arabic": "ولم تتبعوا آلهة غريبة هى شر لكم فانى أسكنكم فى هذا الموضع. فى الأرض التى أعطيتها لكم ولآبائكم من الأبد وإلى الدهر.",
+              "arabic_base_no_tashkeel": "ولم تتبعوا آلهة غريبة هى شر لكم فانى أسكنكم فى هذا الموضع. فى الأرض التى أعطيتها لكم ولآبائكم من الأبد وإلى الدهر."
+            },
+            {
+              "row_index": 5,
+              "english": "But if you trust in lying words from which you cannot profit, and you murder, commit adultery, steal, swear to do wrong, burn incense to Baal,",
+              "arabic": "فان توكلتم على كلام الكذب الذي لا تستفيدون منه وتسرقون وتقتلون وتزنون وتحلفون بالكذب على الظلم وتبخرون للبعل",
+              "arabic_base_no_tashkeel": "فان توكلتم على كلام الكذب الذي لا تستفيدون منه وتسرقون وتقتلون وتزنون وتحلفون بالكذب على الظلم وتبخرون للبعل"
+            },
+            {
+              "row_index": 6,
+              "english": "And walk after foreign gods you do not know so as to do evil,",
+              "arabic": "وتتبعون آلهة غريبة لم تعرفوها فانه سيكون شر لكم.",
+              "arabic_base_no_tashkeel": "وتتبعون آلهة غريبة لم تعرفوها فانه سيكون شر لكم."
+            },
+            {
+              "row_index": 7,
+              "english": "And come and stand before Me in the house wherein My name is called,",
+              "arabic": "ثم تأتون وتقفون أمامى فى البيت الذي دعى اسمى عليه,",
+              "arabic_base_no_tashkeel": "ثم تأتون وتقفون أمامى فى البيت الذي دعى اسمى عليه,"
+            },
+            {
+              "row_index": 8,
+              "english": "And say, 'We have not abstained from doing all these abominations,'",
+              "arabic": "وتقولون إننا قد فرغنا من ان نعمل الخطايا جميعها.",
+              "arabic_base_no_tashkeel": "وتقولون إننا قد فرغنا من ان نعمل الخطايا جميعها."
+            },
+            {
+              "row_index": 9,
+              "english": "Then is this house, called by My name, a den of robbers in your eyes? Behold, I have seen it, [Says the Lord].",
+              "arabic": "هل بيتى مغارة لصوص هذا الذي دُعى اسمى عليه أمامكم هانذا قد رأيت ذلك يقول الرب.",
+              "arabic_base_no_tashkeel": "هل بيتى مغارة لصوص هذا الذي دعى اسمى عليه أمامكم هانذا قد رأيت ذلك يقول الرب."
+            },
+            {
+              "row_index": 10,
+              "english": "\"But go to My place in Shiloh, where I caused My name to dwell before, and see what I did to it because of the vices of My people Israel,\" says the Lord.",
+              "arabic": "انكم قد دخلتم موضعى فى شيلوه المكان الذي جعلت اسمى فيه أولاً",
+              "arabic_base_no_tashkeel": "انكم قد دخلتم موضعى فى شيلوه المكان الذي جعلت اسمى فيه أولا"
+            },
+            {
+              "row_index": 11,
+              "english": "\"Now then, because you did all these works, and I spoke to you but you did not hear Me, and I called you but you did not answer.",
+              "arabic": "والان بما انكم عملتم هذه الأعمال كلها وقد كلمتكم فلم تسمعوا لى ودعوتكم فلم تجيبونى.",
+              "arabic_base_no_tashkeel": "والان بما انكم عملتم هذه الأعمال كلها وقد كلمتكم فلم تسمعوا لى ودعوتكم فلم تجيبونى."
+            },
+            {
+              "row_index": 12,
+              "english": "Therefore, I will also do to this house, called by My name in which you trust,",
+              "arabic": "فالآن سأصنع بيتى هذا الذي دعى اسمى عليه. هذا الذي أنتم تترجونه.",
+              "arabic_base_no_tashkeel": "فالآن سأصنع بيتى هذا الذي دعى اسمى عليه. هذا الذي أنتم تترجونه."
+            },
+            {
+              "row_index": 13,
+              "english": "And the place I gave you and your fathers, as I did to Shiloh.",
+              "arabic": "وبالموضع الذي أعطيته لكم ولابائكم كما صنعت بشيلوه",
+              "arabic_base_no_tashkeel": "وبالموضع الذي أعطيته لكم ولابائكم كما صنعت بشيلوه"
+            },
+            {
+              "row_index": 14,
+              "english": "I will cast you out of My sight as I cast out your brethren—all the seed of Ephraim.",
+              "arabic": "واخرجكم كما أخرجت جميع أخوتكم كل نسل افرايم.",
+              "arabic_base_no_tashkeel": "واخرجكم كما أخرجت جميع أخوتكم كل نسل افرايم."
+            }
+          ]
+        },
+        {
+          "title": "2nd Prophecy (Ezekiel 20: 39 - 44)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "\"As for you, O house of Israel,\" thus says the Lord and Master: \"Each of you put away your practices, and after this, if you listen to Me, you will no longer desecrate My holy name with your gifts and practices.",
+              "arabic": "وأنتم يا بيت اسرائيل. اسمعوا قول الرب. هذا ما يقوله أدوناى الرب. ليقلع كل واحد وواحد منكم عن شروره. وبعد ذلك تطيعونى ولا تنجسوا اسمى القدوس بأصنامكم وأعمالكم لأنى أتيت على جبل قدسى.",
+              "arabic_base_no_tashkeel": "وأنتم يا بيت اسرائيل. اسمعوا قول الرب. هذا ما يقوله أدوناى الرب. ليقلع كل واحد وواحد منكم عن شروره. وبعد ذلك تطيعونى ولا تنجسوا اسمى القدوس بأصنامكم وأعمالكم لأنى أتيت على جبل قدسى."
+            },
+            {
+              "row_index": 2,
+              "english": "For upon My holy mountain, the high mountain,\" says the Lord and Master, \"there all the house of Israel will serve Me to the end; and there I shall receive you, and look upon the first fruits of your offerings, together with all your holy objects.",
+              "arabic": "على جبل اسرائيل العالى يقول الرب. هناك يتعبد لى كل بيت اسرائيل. وهناك أقبلكم إلىّ. وهناك أطلب قرابينكم وباكورات مرفوعاتكم مع جميع مقدساتكم.",
+              "arabic_base_no_tashkeel": "على جبل اسرائيل العالى يقول الرب. هناك يتعبد لى كل بيت اسرائيل. وهناك أقبلكم إلى. وهناك أطلب قرابينكم وباكورات مرفوعاتكم مع جميع مقدساتكم."
+            },
+            {
+              "row_index": 3,
+              "english": "I shall receive you as a fragrant aroma when I lead you out from the peoples, and receive you from the countries where you were scattered; and I shall be sanctified among you before the eyes of the peoples.",
+              "arabic": "وبرائحة البخور أقبلكم إلىّ إذا اخترتكم من بين الشعوب وقبلتكم إلىّ من الكور التى تفرقتم فيها. وأتقدس فيكم أمام أعين الأمم فتعلمون انى أنا هو الرب.",
+              "arabic_base_no_tashkeel": "وبرائحة البخور أقبلكم إلى إذا اخترتكم من بين الشعوب وقبلتكم إلى من الكور التى تفرقتم فيها. وأتقدس فيكم أمام أعين الأمم فتعلمون انى أنا هو الرب."
+            },
+            {
+              "row_index": 4,
+              "english": "Then you will know that I am the Lord, when I lead you into the land of Israel, into the land I swore by an oath to give your fathers.",
+              "arabic": "حينما ادخلتكم إلى أرض اسرائيل. إلى الأرض التى مددت يدي عليها لأعطيها لآبائكم.",
+              "arabic_base_no_tashkeel": "حينما ادخلتكم إلى أرض اسرائيل. إلى الأرض التى مددت يدي عليها لأعطيها لآبائكم."
+            },
+            {
+              "row_index": 5,
+              "english": "There you will remember all your ways and practices which defiled you; and you shall bewail yourselvs for all your evil.",
+              "arabic": "وفى ذلك الموضع تذكرون طرقكم النجسة وأعمالكم الشريرة التى تنجستم بها. وترون وتنظرون وجوهكم فى كل ظلمكم",
+              "arabic_base_no_tashkeel": "وفى ذلك الموضع تذكرون طرقكم النجسة وأعمالكم الشريرة التى تنجستم بها. وترون وتنظرون وجوهكم فى كل ظلمكم"
+            },
+            {
+              "row_index": 6,
+              "english": "Then you will know that I am the Lord, when I deal with you in the way, that My name be not desecrated according to your evil ways and corrupt practices,\" says the Lord.'\"",
+              "arabic": "وتعلمون أنى أنا هو الرب حين ما أصنع لكم هكذا. لكيلا يتدنس اسمى كطرقكم الرديئة وأعمالكم الفاسدة يقول أدوناى الرب.",
+              "arabic_base_no_tashkeel": "وتعلمون أنى أنا هو الرب حين ما أصنع لكم هكذا. لكيلا يتدنس اسمى كطرقكم الرديئة وأعمالكم الفاسدة يقول أدوناى الرب."
+            }
+          ]
+        },
+        {
+          "title": "3rd Prophecy (Sirach 12: 13 - 13: 1)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Who will pity a snake charmer when he is bitten, Or those who go near wild animals?",
+              "arabic": "من يرحم راقياً قد لدغته الحية؟ أو يشفق على الذين يدنون من الوحوش؟",
+              "arabic_base_no_tashkeel": "من يرحم راقيا قد لدغته الحية؟ أو يشفق على الذين يدنون من الوحوش؟"
+            },
+            {
+              "row_index": 2,
+              "english": "So no one will pity one who approaches a sinful man and gets involved in his sins. He will stay with you for a while, but if you turn aside from him, he will not put up with you.",
+              "arabic": "هكذا الذي يساير الرجل الخاطئ النشوان بخطاياه أنه يلبث معك ساعة وان ملت لا يثبت.",
+              "arabic_base_no_tashkeel": "هكذا الذي يساير الرجل الخاطئ النشوان بخطاياه أنه يلبث معك ساعة وان ملت لا يثبت."
+            },
+            {
+              "row_index": 3,
+              "english": "An enemy speaks sweetly with his lips, but in his heart he will plan to throw you into a pit.",
+              "arabic": "العدو يتملق بشفتيه ويفكر فى قلبه يآتٍمر ليسقطك فى الحفرة.",
+              "arabic_base_no_tashkeel": "العدو يتملق بشفتيه ويفكر فى قلبه يآتمر ليسقطك فى الحفرة."
+            },
+            {
+              "row_index": 4,
+              "english": "An enemy will shed tears, but if he finds an opportunity, He will not be satisfied apart from shedding your blood.",
+              "arabic": "العدو تدمع عيناه وان وجد فرصة لا يشبع من دمك.",
+              "arabic_base_no_tashkeel": "العدو تدمع عيناه وان وجد فرصة لا يشبع من دمك."
+            },
+            {
+              "row_index": 5,
+              "english": "If evil comes upon you, You will find your enemy there ahead of you, And as he pretends to help you, He will pull your feet from under you.",
+              "arabic": "ان لحقك شر وجدته قريباً منك ويوهمك أنه سيعينك وهو يعطيك مرارة,",
+              "arabic_base_no_tashkeel": "ان لحقك شر وجدته قريبا منك ويوهمك أنه سيعينك وهو يعطيك مرارة,"
+            },
+            {
+              "row_index": 6,
+              "english": "He will shake his head and applaud with his hands; And he will whisper many things and alter his expression.",
+              "arabic": "ويحرك رأسه ليضرب بيديه ويتأسف جداً",
+              "arabic_base_no_tashkeel": "ويحرك رأسه ليضرب بيديه ويتأسف جدا"
+            },
+            {
+              "row_index": 7,
+              "english": "Whoever touches pitch will be stained, And whoever associates with an arrogant man will become like him.",
+              "arabic": "ويعبس وجهه من يلمس القار يتلوث به. ومن يمشى مع المتكبر يشبهه.",
+              "arabic_base_no_tashkeel": "ويعبس وجهه من يلمس القار يتلوث به. ومن يمشى مع المتكبر يشبهه."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (31: 18, 13)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Let deceitful lips become speechless when they speak lawlessness against the righteous:",
+              "arabic": "ولتصر خرساء الشفاه الغاشة. المتكلمة على الصديق بالاثم.",
+              "arabic_base_no_tashkeel": "ولتصر خرساء الشفاه الغاشة. المتكلمة على الصديق بالاثم."
+            },
+            {
+              "row_index": 2,
+              "english": "For I heard the blame of many who dwell round about when they were gathered together against me, when they plotted to take my life.",
+              "arabic": "لأنى سمعت المذمة من كثيرين يسكنون حولى حين اجتمعوا علىّ جميعاً تآمروا على أخذ نفسى.",
+              "arabic_base_no_tashkeel": "لأنى سمعت المذمة من كثيرين يسكنون حولى حين اجتمعوا على جميعا تآمروا على أخذ نفسى."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Mark 14: 12 - 16)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Now on the first day of Unleavened Bread, when they killed the Passover lamb, His disciples said to Him, “Where do You want us to go and prepare, that You may eat the Passover?”",
+              "arabic": "وفى اليوم الأول من الفطير إذ كانوا يذبحون الفصح قال له تلاميذه: أين تريد أن نمضى ونعد لتأكل الفصح؟",
+              "arabic_base_no_tashkeel": "وفى اليوم الأول من الفطير إذ كانوا يذبحون الفصح قال له تلاميذه: أين تريد أن نمضى ونعد لتأكل الفصح؟"
+            },
+            {
+              "row_index": 2,
+              "english": "And He sent out two of His disciples and said to them, “Go into the city, and a man will meet you carrying a pitcher of water; follow him.",
+              "arabic": "فأرسل اثنين من تلاميذه وقال لهما: اذهبا إلى المدينة فسيلقاكما رجل حامل جرة ماء فأتبعاه.",
+              "arabic_base_no_tashkeel": "فأرسل اثنين من تلاميذه وقال لهما: اذهبا إلى المدينة فسيلقاكما رجل حامل جرة ماء فأتبعاه."
+            },
+            {
+              "row_index": 3,
+              "english": "Wherever he goes in, say to the master of the house, ‘The Teacher says, “Where is the guest room in which I may eat the Passover with my disciples?’",
+              "arabic": "وحيثما يدخل فقولا لرب البيت: أن المعلم يقول أين موضع الراحة الذي آكل فيه الفصح مع تلاميذى.",
+              "arabic_base_no_tashkeel": "وحيثما يدخل فقولا لرب البيت: أن المعلم يقول أين موضع الراحة الذي آكل فيه الفصح مع تلاميذى."
+            },
+            {
+              "row_index": 4,
+              "english": "Then he will show you a large upper room, furnished and prepared; there make ready for us.",
+              "arabic": "فهو يريكما عليه كبيرة مفروشة معدة. فهناك أعدا لنا.",
+              "arabic_base_no_tashkeel": "فهو يريكما عليه كبيرة مفروشة معدة. فهناك أعدا لنا."
+            },
+            {
+              "row_index": 5,
+              "english": "So His disciples went out, and came into the city and found it just as He had said to them; and they prepared the Passover.",
+              "arabic": "فخرج التلميذان وأتيا إلى المدينة فوجدا كما قال لهما. وأعدا الفصح.",
+              "arabic_base_no_tashkeel": "فخرج التلميذان وأتيا إلى المدينة فوجدا كما قال لهما. وأعدا الفصح."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

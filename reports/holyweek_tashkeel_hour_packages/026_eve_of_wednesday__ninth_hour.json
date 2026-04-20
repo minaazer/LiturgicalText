@@ -1,0 +1,142 @@
+{
+  "service": "EVE of Wednesday",
+  "hour": "NINTH Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Hosea 9: 14 - 10: 2)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Give to them, O Lord! What will You give to them? A childless womb and dry breasts.",
+              "arabic": "أعطهم يارب. وماذا تعطيهم؟ أعطيهم آباء بلا بنين وأثداء يابسة،",
+              "arabic_base_no_tashkeel": "أعطهم يارب. وماذا تعطيهم؟ أعطيهم آباء بلا بنين وأثداء يابسة،"
+            },
+            {
+              "row_index": 2,
+              "english": "\"All their evils are in Gilgal, for there I hated them. Because of their evil practices, I will cast them out of My house. I will not love them anymore. All their leaders are disobedient.",
+              "arabic": "لأن جميع شرورهم في الجلجال، لأن في ذلك المكان أبغضتهم من أجل سوء أعمالهم، سأطردهم من بيتي ولا أعود أحبهم، لأن جميع رؤسائهم متمردون.",
+              "arabic_base_no_tashkeel": "لأن جميع شرورهم في الجلجال، لأن في ذلك المكان أبغضتهم من أجل سوء أعمالهم، سأطردهم من بيتي ولا أعود أحبهم، لأن جميع رؤسائهم متمردون."
+            },
+            {
+              "row_index": 3,
+              "english": "Ephraim underwent trouble; he is dried up at his roots; he shall bear fruit no more. Wherefore, even if they should beget children, I would kill the desired fruit of their womb.\"",
+              "arabic": "حزن أفرايم الذي أصله قد جف ولا يعود أن يأتٍي بثمرة. وإن ولدوا فإني اقتل شهوات بطونهم.",
+              "arabic_base_no_tashkeel": "حزن أفرايم الذي أصله قد جف ولا يعود أن يأتي بثمرة. وإن ولدوا فإني اقتل شهوات بطونهم."
+            },
+            {
+              "row_index": 4,
+              "english": "God shall reject them because they have not hearkened to Him. So they shall be wanderers among the nations. Israel is a luxuriant vine; her fruit is abundant.",
+              "arabic": "يرفضهم الله لأنهم لم يسمعوا له، فيكونون تائهين في الأمم. إن اسرائيل كرمة حسنة الأغصان وثمرتها شهية",
+              "arabic_base_no_tashkeel": "يرفضهم الله لأنهم لم يسمعوا له، فيكونون تائهين في الأمم. إن اسرائيل كرمة حسنة الأغصان وثمرتها شهية"
+            },
+            {
+              "row_index": 5,
+              "english": "According to the multitude of her fruits she has multiplied her altars; according to the wealth of his land he has set up pillars. They have divided their hearts; now shall they be utterly destroyed.",
+              "arabic": "وعلي حسب كثرة ثمره كثر المذابح وعلي حسب خصب أرضه بني الآنصاب، قد قسوا قلوبهم والآن سيهلكون,",
+              "arabic_base_no_tashkeel": "وعلي حسب كثرة ثمره كثر المذابح وعلي حسب خصب أرضه بني الآنصاب، قد قسوا قلوبهم والآن سيهلكون,"
+            },
+            {
+              "row_index": 6,
+              "english": "He shall raze their altars to the ground; their pillars shall experience distress.",
+              "arabic": "هو يحطم مذابحهم ويخرب انصابهم.",
+              "arabic_base_no_tashkeel": "هو يحطم مذابحهم ويخرب انصابهم."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (22: 20 - 21)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Deliver my soul from the sword and my only-begotten from the hand of the dog;",
+              "arabic": "نج من السيف نفسي ومن الكلب بنوتى الوحيدة",
+              "arabic_base_no_tashkeel": "نج من السيف نفسي ومن الكلب بنوتى الوحيدة"
+            },
+            {
+              "row_index": 2,
+              "english": "Save me from the lion's mouth, my humiliation from the horns of the unicorns.",
+              "arabic": "خلصني من فم الأسد وتواضعي من قرن ذى القرن الواحد.",
+              "arabic_base_no_tashkeel": "خلصني من فم الأسد وتواضعي من قرن ذى القرن الواحد."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Matthew 23: 29 - 36)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "“Woe to you, scribes and Pharisees, hypocrites! Because you build the tombs of the prophets and adorn the monuments of the righteous,",
+              "arabic": "الويل لكم ايها الكتبة والفريسيون المراؤون لانكم تبنون قبور الأنبياء وتزينون مدافن الصديقين",
+              "arabic_base_no_tashkeel": "الويل لكم ايها الكتبة والفريسيون المراؤون لانكم تبنون قبور الأنبياء وتزينون مدافن الصديقين"
+            },
+            {
+              "row_index": 2,
+              "english": "And say, ‘If we had lived in the days of our fathers, we would not have been partakers with them in the blood of the prophets.’",
+              "arabic": "وتقولون: لو كنا فى ايام ابائنا لما كنا شاركناهم فى دم الآنبياء",
+              "arabic_base_no_tashkeel": "وتقولون: لو كنا فى ايام ابائنا لما كنا شاركناهم فى دم الآنبياء"
+            },
+            {
+              "row_index": 3,
+              "english": "“Therefore you are witnesses against yourselves that you are sons of those who murdered the prophets.",
+              "arabic": "فانتم تشهدون إذاً على انفسكم انكم بنو قتلة الأنبياء",
+              "arabic_base_no_tashkeel": "فانتم تشهدون إذا على انفسكم انكم بنو قتلة الأنبياء"
+            },
+            {
+              "row_index": 4,
+              "english": "Fill up, then, the measure of your fathers’ guilt. Serpents, brood of vipers! How can you escape the condemnation of hell?",
+              "arabic": "فكملوا انتم مكاييل ابائكم ايها الحيات اولاد الافاعى. كيف تهربون من دينونة جهنم،",
+              "arabic_base_no_tashkeel": "فكملوا انتم مكاييل ابائكم ايها الحيات اولاد الافاعى. كيف تهربون من دينونة جهنم،"
+            },
+            {
+              "row_index": 5,
+              "english": "Therefore, indeed, I send you prophets, wise men, and scribes: some of them you will kill and crucify, and some of them you will scourge in your synagogues and persecute from city to city,",
+              "arabic": "من اجل ذلك ها انا ارسل اليكم انبياء وحكماء وكتبة فمنهم من تقتلون وتصلبون ومنهم من تجلدون فى مجامعكم وتطرودنهم من مدينة الى مدينة",
+              "arabic_base_no_tashkeel": "من اجل ذلك ها انا ارسل اليكم انبياء وحكماء وكتبة فمنهم من تقتلون وتصلبون ومنهم من تجلدون فى مجامعكم وتطرودنهم من مدينة الى مدينة"
+            },
+            {
+              "row_index": 6,
+              "english": "That on you may come all the righteous blood shed on the earth, from the blood of righteous Abel to the blood of Zechariah, son of Berechiah, whom you murdered between the temple and the altar.",
+              "arabic": "لكى يأتى عليكم كل دم بار سفك على الارض من دم هابيل الصديق الى دم زكريا بن برشيا الذي قتلتموه بين الهيكل المذبح.",
+              "arabic_base_no_tashkeel": "لكى يأتى عليكم كل دم بار سفك على الارض من دم هابيل الصديق الى دم زكريا بن برشيا الذي قتلتموه بين الهيكل المذبح."
+            },
+            {
+              "row_index": 7,
+              "english": "Assuredly, I say to you, all these things will come upon this generation.",
+              "arabic": "الحق اقول لكم ان هذه كلها ستأتى علي هذا الجيل.",
+              "arabic_base_no_tashkeel": "الحق اقول لكم ان هذه كلها ستأتى علي هذا الجيل."
+            },
+            {
+              "row_index": 8,
+              "english": "Assuredly, I say to you, all these things will come upon this generation.<Br><i>Bow down before the Holy Gospel.</i>",
+              "arabic": "اَلْحَقَّ أَقُولُ لَكُمْ: إِنَّ هَذَا كُلَّهُ يَأْتِي عَلَى هَذَا الْجِيلِ!<br><i>أسجدوا للإنجيل المقدس.</i>",
+              "arabic_base_no_tashkeel": "الحق أقول لكم: إن هذا كله يأتي على هذا الجيل!<br><i>أسجدوا للإنجيل المقدس.</i>"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

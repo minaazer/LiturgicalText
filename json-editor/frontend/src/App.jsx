@@ -10,9 +10,11 @@ import {
   fetchFile,
   fetchFiles,
   fetchPasswordPolicy,
+  fetchPublishableChanges,
   fetchSchema,
   getUserDetail,
   listUsers,
+  publishChanges,
   rejectChange,
   submitChange,
   updateUser,
@@ -77,6 +79,39 @@ const ButtonTemplates = {
 };
 
 const DIFF_EMPTY = "(none)";
+const LOCAL_DRAFT_PREFIX = "lb-editor-draft";
+
+const buildDraftStorageKey = (username, filePath) => {
+  if (!username || !filePath) return "";
+  return `${LOCAL_DRAFT_PREFIX}:${username}:${filePath}`;
+};
+
+const loadLocalDraft = (username, filePath) => {
+  if (typeof window === "undefined") return null;
+  const key = buildDraftStorageKey(username, filePath);
+  if (!key) return null;
+  try {
+    const raw = window.localStorage.getItem(key);
+    if (!raw) return null;
+    return JSON.parse(raw);
+  } catch {
+    return null;
+  }
+};
+
+const saveLocalDraft = (username, filePath, draft) => {
+  if (typeof window === "undefined") return;
+  const key = buildDraftStorageKey(username, filePath);
+  if (!key) return;
+  window.localStorage.setItem(key, JSON.stringify(draft));
+};
+
+const clearLocalDraft = (username, filePath) => {
+  if (typeof window === "undefined") return;
+  const key = buildDraftStorageKey(username, filePath);
+  if (!key) return;
+  window.localStorage.removeItem(key);
+};
 
 const tokenizeDiffText = (value) =>
   String(value).split(/(\s+|[.,!?;:()[\]{}"“”'’`-])/).filter((token) => token !== "");
@@ -226,8 +261,10 @@ const App = () => {
   const [formData, setFormData] = useState(null);
   const [summary, setSummary] = useState("");
   const [status, setStatus] = useState("");
+  const [draftStatus, setDraftStatus] = useState("");
   const [showDiff, setShowDiff] = useState(false);
   const [pending, setPending] = useState([]);
+  const [approvedUnpublished, setApprovedUnpublished] = useState([]);
   const [selectedPendingId, setSelectedPendingId] = useState("");
   const [selectedPendingDetail, setSelectedPendingDetail] = useState(null);
   const [selectedApprovalContext, setSelectedApprovalContext] = useState(null);
@@ -236,6 +273,8 @@ const App = () => {
   const [pendingDetailStatus, setPendingDetailStatus] = useState("");
   const [approvalToast, setApprovalToast] = useState("");
   const [loadingChangeId, setLoadingChangeId] = useState("");
+  const [publishLoading, setPublishLoading] = useState(false);
+  const [publishStatus, setPublishStatus] = useState("");
   const [isDirty, setIsDirty] = useState(false);
   const [selectedChange, setSelectedChange] = useState(null);
   const [hwServiceIndex, setHwServiceIndex] = useState(0);
@@ -250,7 +289,10 @@ const App = () => {
   const [history, setHistory] = useState([]);
   const [future, setFuture] = useState([]);
   const [showFileList, setShowFileList] = useState(false);
-  const [viewMode, setViewMode] = useState("editor"); // editor | approvals
+  const [showScrollTop, setShowScrollTop] = useState(false);
+  const [showMobileTools, setShowMobileTools] = useState(false);
+  const [showMobileNav, setShowMobileNav] = useState(false);
+  const [viewMode, setViewMode] = useState("editor"); // editor | approvals | publish | users
   const [searchTerm, setSearchTerm] = useState("");
   const [searchResults, setSearchResults] = useState([]);
   const [searchIndex, setSearchIndex] = useState(-1);
@@ -258,7 +300,13 @@ const App = () => {
   const tableRefs = useRef([]);
   const skipInitialChange = useRef(false);
   const editorRef = useRef(null);
+  const topbarRef = useRef(null);
+  const editorStickyRef = useRef(null);
   const searchRefs = useRef([]);
+  const draftSaveTimeoutRef = useRef(null);
+  const draftStateRef = useRef({ username: "", selectedFile: "", formData: null, summary: "", isDirty: false });
+  const previousFileRef = useRef("");
+  const previousTokenRef = useRef("");
 
   const idToken = session?.session?.getIdToken?.().getJwtToken?.() || "";
   const accessToken = session?.session?.getAccessToken?.().getJwtToken?.() || "";
@@ -270,6 +318,28 @@ const App = () => {
   const isAdmin = role === "admin" || role === "superadmin";
   const canEdit = role === "editor" || isAdmin;
   const username = tokenPayload?.["cognito:username"] || "";
+
+  const persistDraftNow = useCallback(
+    (overrides = {}) => {
+      const state = {
+        ...draftStateRef.current,
+        ...overrides,
+      };
+      const draftUsername = state.username;
+      const draftFile = state.selectedFile;
+      if (!draftUsername || !draftFile || state.formData == null || !state.isDirty) return false;
+      saveLocalDraft(draftUsername, draftFile, {
+        username: draftUsername,
+        path: draftFile,
+        summary: state.summary || "",
+        formData: state.formData,
+        savedAt: new Date().toISOString(),
+      });
+      setDraftStatus(`Draft saved locally at ${new Date().toLocaleTimeString()}.`);
+      return true;
+    },
+    []
+  );
   const groupOptions = ["viewer", "editor", "admin", "superadmin"];
 
   const loadSession = useCallback(async () => {
@@ -336,6 +406,18 @@ const App = () => {
     if (!token || !isAdmin) return;
     const data = await fetchChanges(token, "pending");
     setPending(data.changes || []);
+  }, [token, isAdmin]);
+
+  const loadApprovedUnpublished = useCallback(async () => {
+    if (!token || !isAdmin) return;
+    try {
+      const data = await fetchPublishableChanges(token);
+      setApprovedUnpublished(data.changes || []);
+      setPublishStatus("");
+    } catch (err) {
+      setApprovedUnpublished([]);
+      setPublishStatus(err.message || "Failed to load publishable changes.");
+    }
   }, [token, isAdmin]);
 
   const getRequesterDisplayName = useCallback(
@@ -419,13 +501,17 @@ const App = () => {
     if (!token) return;
     loadFiles();
     loadPending();
-  }, [token, loadFiles, loadPending]);
+    loadApprovedUnpublished();
+  }, [token, loadFiles, loadPending, loadApprovedUnpublished]);
 
   useEffect(() => {
     if (viewMode === "approvals" && isAdmin) {
       loadPending();
     }
-  }, [viewMode, isAdmin, loadPending]);
+    if (viewMode === "publish" && isAdmin) {
+      loadApprovedUnpublished();
+    }
+  }, [viewMode, isAdmin, loadPending, loadApprovedUnpublished]);
 
   useEffect(() => {
     if (viewMode === "users" && !isSuperAdmin) {
@@ -434,7 +520,25 @@ const App = () => {
     if (viewMode === "approvals" && !isAdmin) {
       setViewMode("editor");
     }
+    if (viewMode === "publish" && !isAdmin) {
+      setViewMode("editor");
+    }
   }, [viewMode, isSuperAdmin, isAdmin]);
+
+  useEffect(() => {
+    if (viewMode !== "editor" && showFileList) {
+      setShowFileList(false);
+    }
+  }, [viewMode, showFileList]);
+
+  useEffect(() => {
+    const handleWindowScroll = () => {
+      setShowScrollTop(window.scrollY > 420);
+    };
+    handleWindowScroll();
+    window.addEventListener("scroll", handleWindowScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleWindowScroll);
+  }, []);
 
   useEffect(() => {
     if (!selectedPendingId) return;
@@ -447,17 +551,62 @@ const App = () => {
   }, [pending, selectedPendingId]);
 
   useEffect(() => {
+    draftStateRef.current = { username, selectedFile, formData, summary, isDirty };
+  }, [username, selectedFile, formData, summary, isDirty]);
+
+  useEffect(() => {
+    const previousFile = previousFileRef.current;
+    if (previousFile && previousFile !== selectedFile) {
+      persistDraftNow({ selectedFile: previousFile });
+    }
+    previousFileRef.current = selectedFile || "";
+  }, [selectedFile, persistDraftNow]);
+
+  useEffect(() => {
+    const previousToken = previousTokenRef.current;
+    if (previousToken && !token) {
+      persistDraftNow();
+    }
+    previousTokenRef.current = token || "";
+  }, [token, persistDraftNow]);
+
+  useEffect(() => {
     const loadFile = async () => {
       if (!token || !selectedFile) return;
       setStatus("Loading file...");
+      setDraftStatus("");
       try {
         const [schemaData, fileData] = await Promise.all([fetchSchema(token, selectedFile), fetchFile(token, selectedFile)]);
+        const draft = loadLocalDraft(username, selectedFile);
+        let nextData = fileData;
+        let nextSummary = "";
+        let restoredDraft = false;
+        if (draft?.path === selectedFile && draft?.formData !== undefined) {
+          const draftMatchesServer =
+            stableStringify(draft.formData) === stableStringify(fileData) &&
+            (draft.summary || "") === "";
+          if (!draftMatchesServer) {
+            const savedLabel = draft.savedAt ? new Date(draft.savedAt).toLocaleString() : "recently";
+            restoredDraft = window.confirm(
+              `Unsaved local draft found for ${selectedFile} from ${savedLabel}. Restore it?`
+            );
+            if (restoredDraft) {
+              nextData = draft.formData;
+              nextSummary = draft.summary || "";
+            } else {
+              clearLocalDraft(username, selectedFile);
+            }
+          } else {
+            clearLocalDraft(username, selectedFile);
+          }
+        }
         setSchema(schemaData);
         setOriginalData(fileData);
-        applyFormData(fileData, { skipRecord: true });
+        applyFormData(nextData, { skipRecord: true });
         setHistory([]);
         setFuture([]);
-        setIsDirty(false);
+        setSummary(nextSummary);
+        setIsDirty(restoredDraft);
         skipInitialChange.current = true;
         setHwServiceIndex(0);
         setHwHourIndex(0);
@@ -465,12 +614,46 @@ const App = () => {
         setBaseCategoryIndex(0);
         setBaseTablesMenuOpen(false);
         setStatus("");
+        if (restoredDraft) {
+          setDraftStatus(`Restored local draft saved ${draft?.savedAt ? new Date(draft.savedAt).toLocaleString() : "recently"}.`);
+        }
       } catch (err) {
         setStatus(err.message || "Failed to load file");
       }
     };
     loadFile();
-  }, [token, selectedFile]);
+  }, [token, selectedFile, username, applyFormData]);
+
+  useEffect(() => {
+    if (draftSaveTimeoutRef.current) {
+      clearTimeout(draftSaveTimeoutRef.current);
+      draftSaveTimeoutRef.current = null;
+    }
+    if (!username || !selectedFile || formData == null) return;
+    if (!isDirty) return;
+    draftSaveTimeoutRef.current = setTimeout(() => {
+      persistDraftNow({ username, selectedFile, formData, summary, isDirty });
+      draftSaveTimeoutRef.current = null;
+    }, 1200);
+    return () => {
+      if (draftSaveTimeoutRef.current) {
+        clearTimeout(draftSaveTimeoutRef.current);
+        draftSaveTimeoutRef.current = null;
+      }
+    };
+  }, [username, selectedFile, formData, summary, isDirty, persistDraftNow]);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return undefined;
+    const handleBeforeUnload = (event) => {
+      if (!isDirty) return;
+      persistDraftNow();
+      event.preventDefault();
+      event.returnValue = "";
+    };
+    window.addEventListener("beforeunload", handleBeforeUnload);
+    return () => window.removeEventListener("beforeunload", handleBeforeUnload);
+  }, [isDirty, persistDraftNow]);
 
   const clearSearchHighlights = useCallback(() => {
     searchRefs.current.forEach((node) => node?.classList?.remove("search-highlight"));
@@ -566,6 +749,7 @@ const App = () => {
       const payload = result?.session?.getIdToken?.().payload || {};
       const emailVerified = payload.email_verified;
       if (emailVerified === false || emailVerified === "false") {
+        persistDraftNow();
         signOut();
         setSession(null);
         setAuthNeedsVerify(true);
@@ -860,6 +1044,9 @@ const App = () => {
       setStatus("Submitted for approval.");
       showApprovalToast("Changes submitted.");
       setSummary("");
+      clearLocalDraft(username, selectedFile);
+      setDraftStatus("");
+      setIsDirty(false);
       loadPending();
     } catch (err) {
       setStatus(err.message || "Submit failed.");
@@ -1249,6 +1436,7 @@ const App = () => {
         clearApprovalDecisions(changeId);
         clearApprovalReasons(changeId);
         loadPending();
+        loadApprovedUnpublished();
       } catch (err) {
         if (selectedPendingId === changeId) {
           setPendingDetailStatus(err.message || "Failed to approve request.");
@@ -1267,8 +1455,30 @@ const App = () => {
       clearApprovalReasons,
       selectedPendingId,
       loadPending,
+      loadApprovedUnpublished,
     ]
   );
+
+  const handlePublishApproved = useCallback(async () => {
+    if (!token || !approvedUnpublished.length) return;
+    setPublishLoading(true);
+    setPublishStatus("Publishing approved changes...");
+    try {
+      const ids = approvedUnpublished.map((change) => change.id).filter(Boolean);
+      const result = await publishChanges(token, { ids });
+      const count = result?.publishedCount || 0;
+      setPublishStatus(
+        count
+          ? `Published ${count} approved change${count === 1 ? "" : "s"} to the app manifest.`
+          : "No unpublished approved changes were found."
+      );
+      setApprovedUnpublished((prev) => prev.filter((change) => !ids.includes(change.id)));
+    } catch (err) {
+      setPublishStatus(err.message || "Failed to publish approved changes.");
+    } finally {
+      setPublishLoading(false);
+    }
+  }, [token, approvedUnpublished]);
 
   const buildDecisionSummary = useCallback(
     (defaultAction, accepted, rejected, undecidedCount, reason) => ({
@@ -1374,6 +1584,8 @@ const App = () => {
   const isCategoryFile = categoryFiles.has(pathLower);
   const isRowOnlyFile = rowOnlyFiles.has(pathLower);
   const isBaseTableFile = !isHolyWeek && !isCategoryFile && !isRowOnlyFile && !!selectedFile;
+  const hasTableNavigation = isHolyWeek || isCategoryFile || isBaseTableFile;
+  const mobileTablesOpen = isHolyWeek ? hwTablesMenuOpen : hasTableNavigation ? baseTablesMenuOpen : false;
   const canUndo = history.length > 0;
   const canRedo = future.length > 0;
 
@@ -1410,6 +1622,13 @@ const App = () => {
   }, [hwServiceIndex, hwHourIndex, hwSectionIndex]);
 
   useEffect(() => {
+    setShowMobileTools(false);
+    setShowMobileNav(false);
+    setHwTablesMenuOpen(false);
+    setBaseTablesMenuOpen(false);
+  }, [selectedFile, viewMode]);
+
+  useEffect(() => {
     if (!isHolyWeek || !Array.isArray(formData)) return;
     const svcCount = formData.length;
     if (hwServiceIndex >= svcCount) setHwServiceIndex(0);
@@ -1434,6 +1653,31 @@ const App = () => {
   useEffect(() => {
     tableRefs.current = [];
   }, [hwServiceIndex, hwHourIndex, hwSectionIndex, baseCategoryIndex, selectedFile]);
+
+  useEffect(() => {
+    const root = document.documentElement;
+    if (!root) return undefined;
+
+    const updateStickyOffsets = () => {
+      const topbarHeight = topbarRef.current?.getBoundingClientRect?.().height || 0;
+      const editorStickyHeight =
+        viewMode === "editor" && selectedFile ? editorStickyRef.current?.getBoundingClientRect?.().height || 0 : 0;
+      root.style.setProperty("--topbar-height", `${Math.ceil(topbarHeight)}px`);
+      root.style.setProperty("--editor-sticky-height", `${Math.ceil(editorStickyHeight)}px`);
+    };
+
+    updateStickyOffsets();
+
+    const resizeObserver = typeof ResizeObserver !== "undefined" ? new ResizeObserver(updateStickyOffsets) : null;
+    if (topbarRef.current && resizeObserver) resizeObserver.observe(topbarRef.current);
+    if (editorStickyRef.current && resizeObserver) resizeObserver.observe(editorStickyRef.current);
+    window.addEventListener("resize", updateStickyOffsets);
+
+    return () => {
+      window.removeEventListener("resize", updateStickyOffsets);
+      resizeObserver?.disconnect();
+    };
+  }, [selectedFile, viewMode, showDiff, showFileList, searchResults.length, searchIndex, summary, status, draftStatus]);
 
   if (!session) {
     return (
@@ -1460,47 +1704,97 @@ const App = () => {
 
   return (
     <div className="app">
-      <header className="topbar">
+      <header className="topbar" ref={topbarRef}>
         <div className="topbar-left">
-          <button
-            className="secondary"
-            onClick={() => setShowFileList((prev) => !prev)}
-            aria-expanded={showFileList}
-            aria-label="Toggle file list"
-          >
-            ☰ Files
-          </button>
-          <div>
+          {viewMode === "editor" && (
+            <button
+              className="secondary files-trigger"
+              onClick={() => setShowFileList((prev) => !prev)}
+              aria-expanded={showFileList}
+              aria-label="Toggle file list"
+            >
+              ☰ Files
+            </button>
+          )}
+          <div className="brand-block">
             <strong>LiturgicalBooks JSON Editor</strong>
-            <span className="muted">Role: {role}</span>
+            <span className="muted">Review, approve, and publish liturgical content updates.</span>
           </div>
         </div>
         <div className="topbar-actions">
-          {isAdmin && (
-            <>
-              <button className="secondary" onClick={() => setViewMode("editor")} disabled={viewMode === "editor"}>
-                Editor
-              </button>
-              <button className="secondary" onClick={() => setViewMode("approvals")} disabled={viewMode === "approvals"}>
-                Approvals
-              </button>
-            </>
-          )}
-          {isSuperAdmin && (
-            <button className="secondary" onClick={() => setViewMode("users")} disabled={viewMode === "users"}>
-              Manage Users
-            </button>
-          )}
-          <span className="muted">{username}</span>
           <button
-            className="secondary"
-            onClick={() => {
-              signOut();
-              setSession(null);
-            }}
+            type="button"
+            className={`secondary mobile-nav-toggle ${showMobileNav ? "active" : ""}`}
+            onClick={() => setShowMobileNav((prev) => !prev)}
+            aria-expanded={showMobileNav}
+            aria-label="Toggle navigation menu"
           >
-            Sign out
+            ☰
           </button>
+          <div className={`topbar-menu-panel ${showMobileNav ? "open" : ""}`}>
+            <div className="mode-switcher" role="tablist" aria-label="Editor views">
+              {isAdmin && (
+                <>
+                  <button
+                    className={`secondary mode-tab ${viewMode === "editor" ? "active" : ""}`}
+                    onClick={() => {
+                      setViewMode("editor");
+                      setShowMobileNav(false);
+                    }}
+                    disabled={viewMode === "editor"}
+                  >
+                    Editor
+                  </button>
+                  <button
+                    className={`secondary mode-tab ${viewMode === "approvals" ? "active" : ""}`}
+                    onClick={() => {
+                      setViewMode("approvals");
+                      setShowMobileNav(false);
+                    }}
+                    disabled={viewMode === "approvals"}
+                  >
+                    Approvals
+                  </button>
+                  <button
+                    className={`secondary mode-tab ${viewMode === "publish" ? "active" : ""}`}
+                    onClick={() => {
+                      setViewMode("publish");
+                      setShowMobileNav(false);
+                    }}
+                    disabled={viewMode === "publish"}
+                  >
+                    Publish
+                  </button>
+                </>
+              )}
+              {isSuperAdmin && (
+                <button
+                  className={`secondary mode-tab ${viewMode === "users" ? "active" : ""}`}
+                  onClick={() => {
+                    setViewMode("users");
+                    setShowMobileNav(false);
+                  }}
+                  disabled={viewMode === "users"}
+                >
+                  Users
+                </button>
+              )}
+            </div>
+            <div className="topbar-user">
+              <span className="muted">Role: {role}</span>
+              <strong>{username}</strong>
+            </div>
+            <button
+              className="secondary"
+              onClick={() => {
+                persistDraftNow();
+                signOut();
+                setSession(null);
+              }}
+            >
+              Sign out
+            </button>
+          </div>
         </div>
       </header>
       {approvalToast && (
@@ -1533,6 +1827,7 @@ const App = () => {
               files={files}
               selected={selectedFile}
               onSelect={(path) => {
+                persistDraftNow();
                 setSelectedFile(path);
                 setShowFileList(false);
               }}
@@ -1543,6 +1838,12 @@ const App = () => {
       {viewMode === "approvals" && isAdmin ? (
         <div className="layout approvals-page">
           <section className="approvals">
+            <div className="page-intro">
+              <div>
+                <h2>Approvals</h2>
+                <p className="muted">Review pending requests, compare diffs, and accept or reject each proposed change.</p>
+              </div>
+            </div>
             <div className="approvals-grid">
               <PendingChanges
                 changes={pending}
@@ -1579,6 +1880,7 @@ const App = () => {
                     clearApprovalReasons(id);
                     clearApprovalReasons(id);
                     loadPending();
+                    loadApprovedUnpublished();
                     setPendingDetailStatus("");
                   } catch (err) {
                     setPendingDetailStatus(err.message || "Failed to submit decision.");
@@ -1763,13 +2065,66 @@ const App = () => {
             </div>
           </section>
         </div>
+      ) : viewMode === "publish" && isAdmin ? (
+        <div className="layout approvals-page">
+          <section className="approvals">
+            <div className="page-intro">
+              <div>
+                <h2>Publish Changes</h2>
+                <p className="muted">Push approved changes live to the app manifest and refresh the CDN-backed content paths.</p>
+              </div>
+            </div>
+            <div className="publish-panel">
+              <div className="pending-header">
+                <div>
+                  <h3>Ready to Publish</h3>
+                  <p className="muted">
+                    Approved changes stay here until you publish them to the app manifest.
+                  </p>
+                </div>
+                <button type="button" onClick={handlePublishApproved} disabled={publishLoading || !approvedUnpublished.length}>
+                  {publishLoading ? "Publishing..." : "Publish to App"}
+                </button>
+              </div>
+              {publishStatus && <p className="status">{publishStatus}</p>}
+              {approvedUnpublished.length === 0 ? (
+                <p className="muted">No approved unpublished changes.</p>
+              ) : (
+                <div className="pending-list publish-list">
+                  {approvedUnpublished.map((change) => (
+                    <div key={change.id} className="pending-card">
+                      <div className="pending-top">
+                        <div className="pending-path">
+                          <strong>{change.path}</strong>
+                          <span className="muted">
+                            Requested by <strong className="requester-name">{getRequesterDisplayName(change)}</strong>
+                          </span>
+                        </div>
+                        <span className="muted publish-meta">
+                          Approved {change.approvedAt ? new Date(change.approvedAt).toLocaleString() : "recently"}
+                        </span>
+                      </div>
+                      <div className="pending-summary muted">{change.summary || "No summary provided"}</div>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          </section>
+        </div>
       ) : viewMode === "users" && isSuperAdmin ? (
         <div className="layout approvals-page users-page">
           <section className="approvals">
+            <div className="page-intro">
+              <div>
+                <h2>Manage Users</h2>
+                <p className="muted">Control editor access, assign roles, and manage invite and verification state.</p>
+              </div>
+            </div>
             <div className="approvals-grid users-grid">
               <div className="users-panel">
                 <div className="pending-header">
-                  <h2>Users</h2>
+                  <h3>Users</h3>
                   <button
                     type="button"
                     className="secondary"
@@ -1993,10 +2348,12 @@ const App = () => {
               <div className="editor-header">
                 <div>
                   <h2>{selectedFile}</h2>
-                  {status && <p className="status">{status}</p>}
+                  <p className="muted">Edit the live source file, review the diff, then submit for approval when ready.</p>
+                  {status && <p className="status notice-banner">{status}</p>}
+                  {draftStatus && <p className="muted draft-banner">{draftStatus}</p>}
                 </div>
               </div>
-              <div className="editor-sticky">
+              <div className={`editor-sticky ${showMobileTools ? "mobile-open" : ""}`} ref={editorStickyRef}>
                 <div className="editor-toolbar">
                   <div className="toolbar-search">
                     <label>
@@ -2038,7 +2395,17 @@ const App = () => {
                   {canEdit && (
                     <label className="toolbar-summary">
                       Summary
-                      <input value={summary} onChange={(event) => setSummary(event.target.value)} placeholder="What did you change?" />
+                      <input
+                        value={summary}
+                        onChange={(event) => {
+                          const nextSummary = event.target.value;
+                          setSummary(nextSummary);
+                          if (isDirty) {
+                            persistDraftNow({ summary: nextSummary });
+                          }
+                        }}
+                        placeholder="What did you change?"
+                      />
                     </label>
                   )}
                   <div className="toolbar-actions">
@@ -2199,6 +2566,61 @@ const App = () => {
             </>
           )}
         </main>
+        {viewMode === "editor" && selectedFile && (showMobileTools || mobileTablesOpen) && (
+          <button
+            type="button"
+            className="mobile-panel-backdrop"
+            aria-label="Close editor panels"
+            onClick={() => {
+              setShowMobileTools(false);
+              setHwTablesMenuOpen(false);
+              setBaseTablesMenuOpen(false);
+            }}
+          />
+        )}
+        {viewMode === "editor" && selectedFile && (
+          <div className="mobile-editor-fab-stack">
+            {hasTableNavigation && (
+              <button
+                type="button"
+                className={`mobile-editor-fab ${mobileTablesOpen ? "active" : ""}`}
+                onClick={() => {
+                  setShowMobileTools(false);
+                  if (isHolyWeek) setHwTablesMenuOpen((prev) => !prev);
+                  else setBaseTablesMenuOpen((prev) => !prev);
+                }}
+                aria-label="Open tables menu"
+                title="Tables menu"
+              >
+                ☰
+              </button>
+            )}
+            <button
+              type="button"
+              className={`mobile-editor-fab ${showMobileTools ? "active" : ""}`}
+              onClick={() => {
+                setHwTablesMenuOpen(false);
+                setBaseTablesMenuOpen(false);
+                setShowMobileTools((prev) => !prev);
+              }}
+              aria-label="Open editor tools"
+              title="Editor tools"
+            >
+              ⌕
+            </button>
+          </div>
+        )}
+        {viewMode === "editor" && showScrollTop && (
+          <button
+            type="button"
+            className="scroll-top-fab"
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            aria-label="Scroll to top"
+            title="Scroll to top"
+          >
+            ↑ Top
+          </button>
+        )}
       </div>
       )}
     </div>

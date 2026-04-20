@@ -1,3 +1,8 @@
+Resume holyweek CR tashkeel workflow.md
+Next time, you can just say:
+
+Resume the HolyWeek CR tashkeel workflow from the saved handoff file.
+
 Codex Handoff Notes
 **********************
 

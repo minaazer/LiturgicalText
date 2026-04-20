@@ -1,5 +1,5 @@
 import { useContext, useState, useEffect, useMemo } from 'react';
-import { Dimensions, Platform } from 'react-native';
+import { Platform, useWindowDimensions } from 'react-native';
 import SettingsContext from '../../settings/settingsContext';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
@@ -7,7 +7,7 @@ import { buildFontTypefaceCss, defaultFontTypeface } from './fontTypeface';
 
 export const useDynamicStyles = (webviewRef) => {
     const insets = useSafeAreaInsets();
-    const { width, height } = Dimensions.get("window");
+    const { width, height } = useWindowDimensions();
     const safeAreaWidth = width - (insets.left + insets.right); // Account for safe area insets
     const isPortrait = height >= width; // Determine orientation
     const calculatedWidth = `${safeAreaWidth-15}px`;
@@ -297,7 +297,7 @@ td.column-1-1 {
     vertical-align: top ;
     font-family: 'Georgia' !important;
     text-align: justify;
-    line-height: 1. !important;
+    line-height: 1.3 !important;
     display: ${settings.languages && !visibleLangues[0].checked ? 'none' : 'inline'};
 }
 

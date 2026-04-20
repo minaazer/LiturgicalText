@@ -138,6 +138,24 @@ const changelog = {
     "Moved Bible references in English and Arabic titles onto a second line for readability",
     "Updated Arabic title references to use Arabic commas inside reference parentheses",
     "Adjusted font size scaling so changes feel less abrupt while keeping clean size labels in Settings"
+  ],
+  "1.1.3": [
+    "Adjusted local webview font loading to improve first-view consistency",
+    "Added a Holy Week font-readiness safeguard to reduce rare first-row text rendering issues",
+    "Minor stability and readability refinements"
+  ],
+  "1.1.4": [
+    "Improved Android text rendering in book screens, especially for rare first-row distortion cases",
+    "Added font size controls to explanation popups for both English and Arabic views",
+    "Refined explanation popup controls with cleaner icon-based sizing and language toggle styling"
+  ],
+  "1.1.5": [
+    "Fixed Holy Week linked navigation so Doxologies keeps the correct left drawer parent context",
+    "Restored default visibility for grouped doxologies such as the Heavenly doxology without adding them to Saint Settings"
+  ],
+  "1.1.6": [
+    "Fixed a pagination edge case where the last visible row before a scaled one-page section could disappear or be masked incorrectly",
+    "Improved screen splitting around scaling containers so the current page keeps its final visible row while the next section stays hidden until its page"
   ]
 };
 

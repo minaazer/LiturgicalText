@@ -31,6 +31,23 @@ const HolyWeekEditor = ({
   onUndo,
   onRedo,
 }) => {
+  const scrollTableIntoView = useCallback(
+    (index) => {
+      const target = tableRefs.current[index];
+      if (!target || typeof window === "undefined") return;
+      const rootStyles = window.getComputedStyle(document.documentElement);
+      const topbarHeight = parseFloat(rootStyles.getPropertyValue("--topbar-height")) || 0;
+      const editorStickyHeight = parseFloat(rootStyles.getPropertyValue("--editor-sticky-height")) || 0;
+      const tablesHeader = target.closest(".hw-tables")?.querySelector(".hw-tables-header");
+      const tablesHeaderHeight = tablesHeader?.getBoundingClientRect?.().height || 0;
+      const extraGap = window.innerWidth <= 900 ? 10 : 16;
+      const targetTop = target.getBoundingClientRect().top + window.scrollY;
+      const offset = topbarHeight + editorStickyHeight + tablesHeaderHeight + extraGap;
+      window.scrollTo({ top: Math.max(0, targetTop - offset), behavior: "smooth" });
+    },
+    [tableRefs]
+  );
+
   const updateHolyWeekTable = useCallback(
     (tableIndex, updater) => {
       setFormData((prev) => {
@@ -337,7 +354,7 @@ const HolyWeekEditor = ({
       </div>
 
       <div className="hw-tables">
-        <div className="hw-tables-header">
+        <div className={`hw-tables-header ${hwTablesMenuOpen ? "mobile-open" : ""}`}>
           <div className="hw-table-header-left">
             <h4>{holyWeekSelection.section?.title || "Section"} tables</h4>
             <button
@@ -365,7 +382,7 @@ const HolyWeekEditor = ({
                   type="button"
                   className="secondary"
                   onClick={() => {
-                    tableRefs.current[idx]?.scrollIntoView({ behavior: "smooth" });
+                    scrollTableIntoView(idx);
                     setHwTablesMenuOpen(false);
                   }}
                 >

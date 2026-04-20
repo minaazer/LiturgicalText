@@ -1,0 +1,6 @@
+﻿2 Chronicles	2 Chronicles 37	undercounted
+Esther	Esther 11	undercounted
+Psalms	Psalms 151	undercounted
+Joel	Joel 4	undercounted
+Obadiah	Obadiah 2	undercounted
+Malachi	Malachi 5	undercounted

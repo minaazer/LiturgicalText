@@ -8,13 +8,14 @@ import time
 import uuid
 import traceback
 from datetime import datetime, timezone
+from decimal import Decimal
 from email import encoders
 from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 import boto3
-from boto3.dynamodb.conditions import Key
+from boto3.dynamodb.conditions import Attr, Key
 from botocore.config import Config
 
 JSON_BUCKET = os.environ.get("JSON_BUCKET", "")
@@ -38,8 +39,10 @@ REPORTS_EMAIL_TO = os.environ.get("REPORTS_EMAIL_TO", NOTIFY_REPLY_TO)
 REPORTS_PREFIX = os.environ.get("REPORTS_PREFIX", "reports/")
 REPORTS_MAX_UPLOAD_BYTES = int(os.environ.get("REPORTS_MAX_UPLOAD_BYTES", "41943040"))
 REPORTS_MAX_EMAIL_BYTES = int(os.environ.get("REPORTS_MAX_EMAIL_BYTES", "9437184"))
+CLOUDFRONT_DISTRIBUTION_ID = os.environ.get("CLOUDFRONT_DISTRIBUTION_ID", "")
 
 s3 = boto3.client("s3", config=Config(signature_version="s3v4"))
+cloudfront = boto3.client("cloudfront")
 
 _s3_region_clients = {}
 
@@ -80,7 +83,13 @@ def response(status, body=None):
     }
     if body is None:
         return {"statusCode": status, "headers": headers}
-    return {"statusCode": status, "headers": headers, "body": json.dumps(body)}
+
+    def json_default(value):
+        if isinstance(value, Decimal):
+            return int(value) if value == value.to_integral_value() else float(value)
+        raise TypeError(f"Object of type {type(value).__name__} is not JSON serializable")
+
+    return {"statusCode": status, "headers": headers, "body": json.dumps(body, default=json_default)}
 
 
 def now_iso():
@@ -158,6 +167,21 @@ def enrich_change_request(item):
     enriched["requestedByName"] = get_change_request_name(item)
     enriched["requestedByEmail"] = get_change_request_email(item)
     return enriched
+
+
+def has_admin_access(event):
+    user = get_user(event)
+    groups = user.get("groups") or []
+    if "admin" in groups or "superadmin" in groups:
+        return True
+    username = user.get("username")
+    if not username:
+        return False
+    try:
+        current_groups = get_user_groups(username)
+        return "admin" in current_groups or "superadmin" in current_groups
+    except Exception:
+        return False
 
 
 def is_superadmin(event):
@@ -483,6 +507,86 @@ def write_json(bucket, key, data):
         Body=json.dumps(data, indent=2, ensure_ascii=False).encode("utf-8"),
         ContentType="application/json",
     )
+
+
+def build_manifest(bucket):
+    client = s3_for_bucket(bucket)
+    paginator = client.get_paginator("list_objects_v2")
+    files = []
+
+    for page in paginator.paginate(Bucket=bucket):
+        for item in page.get("Contents", []):
+            key = item.get("Key") or ""
+            if not key.endswith(".json"):
+                continue
+            if os.path.basename(key) == "manifest.json":
+                continue
+            body = client.get_object(Bucket=bucket, Key=key)["Body"].read()
+            files.append(
+                {
+                    "path": key,
+                    "hash": hashlib.sha256(body).hexdigest(),
+                    "size": item.get("Size") or len(body),
+                }
+            )
+
+    files.sort(key=lambda entry: entry["path"])
+    return {
+        "version": 1,
+        "generatedAt": now_iso(),
+        "files": files,
+    }
+
+
+def query_all_status_items(table, status, filter_expression=None):
+    kwargs = {
+        "IndexName": "StatusIndex",
+        "KeyConditionExpression": Key("status").eq(status),
+    }
+    if filter_expression is not None:
+        kwargs["FilterExpression"] = filter_expression
+
+    items = []
+    while True:
+        resp = table.query(**kwargs)
+        items.extend(resp.get("Items", []))
+        if "LastEvaluatedKey" not in resp:
+            break
+        kwargs["ExclusiveStartKey"] = resp["LastEvaluatedKey"]
+    return items
+
+
+def invalidate_cloudfront_paths(paths):
+    if not CLOUDFRONT_DISTRIBUTION_ID:
+        return None
+    normalized = []
+    seen = set()
+    for path in paths or []:
+        if not path:
+            continue
+        normalized_path = path if path.startswith("/") else f"/{path}"
+        if normalized_path in seen:
+            continue
+        seen.add(normalized_path)
+        normalized.append(normalized_path)
+    if not normalized:
+        return None
+    resp = cloudfront.create_invalidation(
+        DistributionId=CLOUDFRONT_DISTRIBUTION_ID,
+        InvalidationBatch={
+            "Paths": {
+                "Quantity": len(normalized),
+                "Items": normalized,
+            },
+            "CallerReference": f"json-editor-publish-{int(time.time() * 1000)}",
+        },
+    )
+    invalidation = resp.get("Invalidation") or {}
+    return {
+        "id": invalidation.get("Id"),
+        "status": invalidation.get("Status"),
+        "paths": normalized,
+    }
 
 
 def record_audit(path, action, actor, change_id, details=None):
@@ -941,6 +1045,16 @@ def handle_list_changes(event):
     return response(200, {"changes": [enrich_change_request(item) for item in items]})
 
 
+def handle_list_publishable_changes(event):
+    if not has_admin_access(event):
+        return response(403, {"message": "Forbidden"})
+
+    table = ddb.Table(CHANGE_TABLE)
+    items = query_all_status_items(table, "approved", Attr("publishedAt").not_exists())
+    items.sort(key=lambda item: item.get("approvedAt", ""), reverse=True)
+    return response(200, {"changes": [enrich_change_request(item) for item in items]})
+
+
 def handle_get_change(event, change_id):
     table = ddb.Table(CHANGE_TABLE)
     item = table.get_item(Key={"id": change_id}).get("Item")
@@ -1199,6 +1313,79 @@ def handle_approve_change(event, change_id):
         ),
     )
     return response(200, {"message": "Approved"})
+
+
+def handle_publish_changes(event):
+    if not has_admin_access(event):
+        return response(403, {"message": "Forbidden"})
+
+    user = get_user(event)
+    payload = json.loads(event.get("body") or "{}")
+    requested_ids = payload.get("ids") if isinstance(payload, dict) else None
+    requested_ids = [str(item) for item in requested_ids] if isinstance(requested_ids, list) else None
+
+    table = ddb.Table(CHANGE_TABLE)
+    approved_items = query_all_status_items(table, "approved")
+
+    unpublished = [
+        item
+        for item in approved_items
+        if not item.get("publishedAt") and (requested_ids is None or item.get("id") in requested_ids)
+    ]
+
+    if not unpublished:
+        return response(
+            200,
+            {
+                "message": "No approved unpublished changes found",
+                "publishedCount": 0,
+                "publishedIds": [],
+                "paths": [],
+            },
+        )
+
+    manifest = build_manifest(JSON_BUCKET)
+    write_json(JSON_BUCKET, "manifest.json", manifest)
+
+    published_at = now_iso()
+    published_by = user.get("username")
+    published_ids = []
+    paths = sorted({item.get("path") for item in unpublished if item.get("path")})
+
+    for item in unpublished:
+        change_id = item.get("id")
+        if not change_id:
+            continue
+        table.update_item(
+            Key={"id": change_id},
+            UpdateExpression="SET publishedAt = :publishedAt, publishedBy = :publishedBy",
+            ExpressionAttributeValues={
+                ":publishedAt": published_at,
+                ":publishedBy": published_by,
+            },
+        )
+        published_ids.append(change_id)
+        record_audit(
+            item.get("path"),
+            "published",
+            published_by,
+            change_id,
+            {"publishedAt": published_at},
+        )
+
+    invalidation = invalidate_cloudfront_paths(["manifest.json", *paths])
+
+    return response(
+        200,
+        {
+            "message": "Published changes to app manifest",
+            "publishedCount": len(published_ids),
+            "publishedIds": published_ids,
+            "paths": paths,
+            "manifestGeneratedAt": manifest.get("generatedAt"),
+            "invalidation": invalidation,
+        },
+    )
 
 
 def handle_reject_change(event, change_id):
@@ -1547,6 +1734,9 @@ def handler(event, context):
         if route_key.startswith("GET /changes"):
             return handle_list_changes(event)
 
+        if route_key == "GET /publish":
+            return handle_list_publishable_changes(event)
+
         if raw_path.endswith("/approve"):
             change_id = raw_path.split("/")[-2]
             return handle_approve_change(event, change_id)
@@ -1554,6 +1744,9 @@ def handler(event, context):
         if raw_path.endswith("/reject"):
             change_id = raw_path.split("/")[-2]
             return handle_reject_change(event, change_id)
+
+        if route_key == "POST /publish":
+            return handle_publish_changes(event)
 
         if route_key == "POST /reports/uploads":
             return handle_report_uploads(event)

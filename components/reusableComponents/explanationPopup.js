@@ -1,16 +1,24 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   View,
   Text,
   TouchableOpacity,
   ScrollView,
 } from "react-native";
+import { Feather } from "@expo/vector-icons";
 import { presentationStyles } from "../css/presentationStyles";
 
 export const ExplanationPopup = ({ visible, popupData, onClose }) => {
-  if (!visible || !popupData) return null;
-
   const [language, setLanguage] = useState("en");
+  const [fontScale, setFontScale] = useState(1);
+
+  useEffect(() => {
+    if (visible) {
+      setFontScale(1);
+    }
+  }, [visible, popupData]);
+
+  if (!visible || !popupData) return null;
 
   const {
     title,
@@ -20,14 +28,14 @@ export const ExplanationPopup = ({ visible, popupData, onClose }) => {
   } = popupData;
 
   const hasArabic = arabic_title && arabic_sections;
-
   const displayedTitle = language === "en" ? title : arabic_title;
   const displayedSections = language === "en" ? sections : arabic_sections;
+  const canDecreaseFont = fontScale > 0.8;
+  const canIncreaseFont = fontScale < 3;
 
   return (
     <View style={presentationStyles.modalOverlay}>
       <View style={presentationStyles.alertBox}>
-        {/* Close Button */}
         <TouchableOpacity
           onPress={onClose}
           style={presentationStyles.closeButton}
@@ -35,7 +43,6 @@ export const ExplanationPopup = ({ visible, popupData, onClose }) => {
           <Text style={presentationStyles.closeButtonText}>X</Text>
         </TouchableOpacity>
 
-        {/* Title + Toggle */}
         <View
           style={{
             flexDirection: "row",
@@ -54,37 +61,102 @@ export const ExplanationPopup = ({ visible, popupData, onClose }) => {
             {displayedTitle}
           </Text>
 
-          {hasArabic && (
+          <View
+            style={{
+              position: "absolute",
+              right: 0,
+              flexDirection: "row",
+              alignItems: "center",
+              gap: 6,
+            }}
+          >
+            {hasArabic && (
+              <TouchableOpacity
+                onPress={() =>
+                  setLanguage((prev) => (prev === "en" ? "ar" : "en"))
+                }
+                style={{
+                  minWidth: 72,
+                  paddingHorizontal: 10,
+                  paddingVertical: 6,
+                  borderRadius: 16,
+                  backgroundColor: "rgba(0, 122, 255, 0.12)",
+                  borderWidth: 1,
+                  borderColor: "rgba(0, 122, 255, 0.28)",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                <Text style={{ fontSize: 14, color: "#007aff", fontWeight: "600" }}>
+                  {language === "en" ? "العربية" : "English"}
+                </Text>
+              </TouchableOpacity>
+            )}
+
             <TouchableOpacity
               onPress={() =>
-                setLanguage((prev) => (prev === "en" ? "ar" : "en"))
+                setFontScale((prev) => Math.max(0.8, +(prev - 0.1).toFixed(2)))
               }
+              disabled={!canDecreaseFont}
               style={{
-                position: "absolute",
-                right: 0,
-                paddingHorizontal: 10,
-                paddingVertical: 4,
+                width: 34,
+                height: 34,
+                borderRadius: 17,
+                backgroundColor: "rgba(0, 122, 255, 0.12)",
+                borderWidth: 1,
+                borderColor: "rgba(0, 122, 255, 0.28)",
+                alignItems: "center",
+                justifyContent: "center",
+                opacity: canDecreaseFont ? 1 : 0.45,
               }}
             >
-              <Text style={{ fontSize: 16, color: "#007aff" }}>
-                {language === "en" ? "عربي" : "English"}
-              </Text>
+              <Feather name="minus" size={18} color="#007aff" />
             </TouchableOpacity>
-          )}
+
+            <View
+              style={{
+                width: 34,
+                height: 34,
+                borderRadius: 17,
+                backgroundColor: "rgba(0, 122, 255, 0.08)",
+                borderWidth: 1,
+                borderColor: "rgba(0, 122, 255, 0.2)",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <Feather name="type" size={16} color="#007aff" />
+            </View>
+
+            <TouchableOpacity
+              onPress={() =>
+                setFontScale((prev) => Math.min(3, +(prev + 0.1).toFixed(2)))
+              }
+              disabled={!canIncreaseFont}
+              style={{
+                width: 34,
+                height: 34,
+                borderRadius: 17,
+                backgroundColor: "rgba(0, 122, 255, 0.12)",
+                borderWidth: 1,
+                borderColor: "rgba(0, 122, 255, 0.28)",
+                alignItems: "center",
+                justifyContent: "center",
+                opacity: canIncreaseFont ? 1 : 0.45,
+              }}
+            >
+              <Feather name="plus" size={18} color="#007aff" />
+            </TouchableOpacity>
+          </View>
         </View>
 
-        {/* Scrollable Content */}
-        <ScrollView
-          contentContainerStyle={presentationStyles.content}
-          onContentSizeChange={(width, height) => {
-            console.log("Content Size:", { width, height });
-          }}
-        >
+        <ScrollView contentContainerStyle={presentationStyles.content}>
           {displayedSections?.map((section, index) => (
             <View key={index} style={presentationStyles.section}>
               <Text
                 style={[
                   presentationStyles.sectionTitle,
+                  { fontSize: 18 * fontScale, lineHeight: 24 * fontScale },
                   language === "ar" && { textAlign: "right", writingDirection: "rtl" },
                 ]}
               >
@@ -98,7 +170,7 @@ export const ExplanationPopup = ({ visible, popupData, onClose }) => {
                     writingDirection: language === "ar" ? "rtl" : "ltr",
                   }}
                 >
-                  {parseFormattedText(paragraph, `${index}-${i}`, language)}
+                  {parseFormattedText(paragraph, `${index}-${i}`, language, fontScale)}
                 </View>
               ))}
             </View>
@@ -109,8 +181,7 @@ export const ExplanationPopup = ({ visible, popupData, onClose }) => {
   );
 };
 
-// Helper function to parse and render formatted text
-const parseFormattedText = (text, keyPrefix = "", language = "en") => {
+const parseFormattedText = (text, keyPrefix = "", language = "en", fontScale = 1) => {
   const regex =
     /\*\*\*(.*?)\*\*\*|\*\*(.*?)\*\*|"(.*?)"|^-(.*?)(?=\n|$)|^>>(.*?)(?=\n|$)/gm;
 
@@ -158,7 +229,8 @@ const parseFormattedText = (text, keyPrefix = "", language = "en") => {
           key={`${keyPrefix}-bullet-${idx}`}
           style={{
             marginLeft: 20,
-            lineHeight: 22,
+            fontSize: 16 * fontScale,
+            lineHeight: 22 * fontScale,
             writingDirection: language === "ar" ? "rtl" : "ltr",
             textAlign: language === "ar" ? "right" : "left",
           }}
@@ -176,7 +248,8 @@ const parseFormattedText = (text, keyPrefix = "", language = "en") => {
           key={`${keyPrefix}-indent-${idx}`}
           style={{
             marginLeft: 40,
-            lineHeight: 18,
+            fontSize: 15 * fontScale,
+            lineHeight: 20 * fontScale,
             writingDirection: language === "ar" ? "rtl" : "ltr",
             textAlign: language === "ar" ? "right" : "left",
           }}
@@ -189,7 +262,8 @@ const parseFormattedText = (text, keyPrefix = "", language = "en") => {
   return (
     <Text
       style={{
-        lineHeight: 22,
+        fontSize: 16 * fontScale,
+        lineHeight: 22 * fontScale,
         writingDirection: language === "ar" ? "rtl" : "ltr",
         textAlign: language === "ar" ? "right" : "left",
       }}

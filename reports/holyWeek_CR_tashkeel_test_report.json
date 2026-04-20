@@ -1,0 +1,37 @@
+{
+  "input": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\jsons\\readings\\holyWeek_CR.json",
+  "output": "data\\jsons\\readings\\holyWeek_CR_tashkeel_test.json",
+  "engine": "arabic-diacritizer",
+  "target_sections": [
+    "English and Arabic Psalm & Gospel",
+    "Pauline Epistle",
+    "Prophecies"
+  ],
+  "processed_table_count": 2,
+  "processed_row_count": 14,
+  "changed_row_count": 14,
+  "row_fallback_count": 0,
+  "row_fallback_tables": [],
+  "failure_count": 0,
+  "failures": [],
+  "touched_tables": [
+    {
+      "service": "DAY of Sunday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies",
+      "title": "1st Prophecy (Lamentations 1: 1 - 4)",
+      "row_count": 4,
+      "changed_rows": 4,
+      "mode": "reading"
+    },
+    {
+      "service": "DAY of Sunday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies",
+      "title": "2nd Prophecy (Zephaniah 3: 11 - 20)",
+      "row_count": 10,
+      "changed_rows": 10,
+      "mode": "reading"
+    }
+  ]
+}

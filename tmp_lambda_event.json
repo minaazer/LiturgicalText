@@ -1,0 +1,17 @@
+{
+  "version": "2.0",
+  "routeKey": "GET /publish",
+  "rawPath": "/publish",
+  "requestContext": {
+    "authorizer": {
+      "jwt": {
+        "claims": {
+          "cognito:username": "minaazer",
+          "name": "Mina Azer",
+          "email": "mina.e.azer@gmail.com",
+          "cognito:groups": ["admin"]
+        }
+      }
+    }
+  }
+}

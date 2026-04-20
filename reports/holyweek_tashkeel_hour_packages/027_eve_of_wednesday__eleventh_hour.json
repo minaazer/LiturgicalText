@@ -1,0 +1,118 @@
+{
+  "service": "EVE of Wednesday",
+  "hour": "ELEVENTH Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Wisdom of Solomon 7: 24 - 30)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "For wisdom moves from one place to another more easily than motion itself, And because of her purity, she penetrates all things.",
+              "arabic": "إن الحكمة تتحرك في كل متحرك فهي تبلغ وتأتي علي الكل من أجل طهارتها،",
+              "arabic_base_no_tashkeel": "إن الحكمة تتحرك في كل متحرك فهي تبلغ وتأتي علي الكل من أجل طهارتها،"
+            },
+            {
+              "row_index": 2,
+              "english": "So she is the exhalation of the power of God and emanation of the pure glory of the Almighty; Therefore nothing defiled enters her. For she is the radiance of eternal light, A spotless mirror of the power of God and the image of His goodness.",
+              "arabic": "فإنها لهب قوة الله, وفيض من المجد المقدس الذي لضابط الكل, فلذلك لا يقدر أن يقربها شئ دنس لأنها ضياء النور الأزلي, ومرآة أعمال الله النقية وصورة صلاحه",
+              "arabic_base_no_tashkeel": "فإنها لهب قوة الله, وفيض من المجد المقدس الذي لضابط الكل, فلذلك لا يقدر أن يقربها شئ دنس لأنها ضياء النور الأزلي, ومرآة أعمال الله النقية وصورة صلاحه"
+            },
+            {
+              "row_index": 3,
+              "english": "Though she is one, she can do all things; so while remaining in herself, she renews all things; and in every generation, she passes into holy souls and makes them friends of God and prophets.",
+              "arabic": "تقدر علي كل شئ وهي واحدة وتجدد كل شئ, وهي ثابتة في ذاتها وفي كل جيل تحل في النفوس الطاهرة وتجعلهم شركاء الله وتصيرهم أنبياء",
+              "arabic_base_no_tashkeel": "تقدر علي كل شئ وهي واحدة وتجدد كل شئ, وهي ثابتة في ذاتها وفي كل جيل تحل في النفوس الطاهرة وتجعلهم شركاء الله وتصيرهم أنبياء"
+            },
+            {
+              "row_index": 4,
+              "english": "Thus God loves nothing as much as the one who lives with wisdom.",
+              "arabic": "لأن الله لا يحب أحداً إلا من يساكن الحكمة.",
+              "arabic_base_no_tashkeel": "لأن الله لا يحب أحدا إلا من يساكن الحكمة."
+            },
+            {
+              "row_index": 5,
+              "english": "For wisdom is more beautiful than the sun and more than every constellation of stars.",
+              "arabic": "لأنها أبهي من الشمس، وأسمي من كل مركز النجوم،",
+              "arabic_base_no_tashkeel": "لأنها أبهي من الشمس، وأسمي من كل مركز النجوم،"
+            },
+            {
+              "row_index": 6,
+              "english": "Compared with light she is found to be superior, for the light is followed by night, but evil cannot overcome wisdom.",
+              "arabic": "وإذا قيست بالنور تقدمت عليه، لأن النور يعقبه الليل، وأما الحكمة فلا يقوى عليها الظلام.",
+              "arabic_base_no_tashkeel": "وإذا قيست بالنور تقدمت عليه، لأن النور يعقبه الليل، وأما الحكمة فلا يقوى عليها الظلام."
+            },
+            {
+              "row_index": 7,
+              "english": "for it is succeeded by the night, but against wisdom evil does not prevail.",
+              "arabic": "لأن النور يعقبه الليل، وأما الحكمة فلا تقوى عليها الظلام. مجداً للثالوث الأقدس.",
+              "arabic_base_no_tashkeel": "لأن النور يعقبه الليل، وأما الحكمة فلا تقوى عليها الظلام. مجدا للثالوث الأقدس."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (56: 1 - 2)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Have mercy on me, O God, have mercy on me, for my soul trusts in You;",
+              "arabic": "ارحمني يا الله ارحمني فانه عليك توكلت نفسي",
+              "arabic_base_no_tashkeel": "ارحمني يا الله ارحمني فانه عليك توكلت نفسي"
+            },
+            {
+              "row_index": 2,
+              "english": "And in the shadow of Your wings I will hope, until lawlessness shall pass away.",
+              "arabic": "وبظل جناحيك أتكل الى ان يعبر الإثم.",
+              "arabic_base_no_tashkeel": "وبظل جناحيك أتكل الى ان يعبر الإثم."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (John 11: 55 - 57)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "And the Passover of the Jews was near, and many went from the country up to Jerusalem before the Passover, to purify themselves.",
+              "arabic": "وكان قد اقترب فصح اليهود فصعد كثيرون من الكورة إلى أورشليم قبل الفصح ليتطهروا",
+              "arabic_base_no_tashkeel": "وكان قد اقترب فصح اليهود فصعد كثيرون من الكورة إلى أورشليم قبل الفصح ليتطهروا"
+            },
+            {
+              "row_index": 2,
+              "english": "Then they sought Jesus, and spoke among themselves as they stood in the temple, “What do you think—that He will not come to the feast?”",
+              "arabic": "وكان اليهود يطلبون يسوع ويقولون فيما بينهم وهم قائمون في الهيكل ماذا تظنون ألعله لا يأتي إلي العيد؟",
+              "arabic_base_no_tashkeel": "وكان اليهود يطلبون يسوع ويقولون فيما بينهم وهم قائمون في الهيكل ماذا تظنون ألعله لا يأتي إلي العيد؟"
+            },
+            {
+              "row_index": 3,
+              "english": "Now both the chief priests and the Pharisees had given a command, that if anyone knew where He was, he should report it, that they might seize Him.",
+              "arabic": "وكان رؤساء الكهنة والفريسيون قد اصدروا أمرا انه ان عرف أحد أين هو فليدل عليه ليمسكوه.",
+              "arabic_base_no_tashkeel": "وكان رؤساء الكهنة والفريسيون قد اصدروا أمرا انه ان عرف أحد أين هو فليدل عليه ليمسكوه."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

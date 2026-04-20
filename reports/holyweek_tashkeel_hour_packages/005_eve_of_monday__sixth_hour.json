@@ -1,0 +1,142 @@
+{
+  "service": "EVE of Monday",
+  "hour": "SIXTH Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Joel 1: 5 - 15)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Get sober, you who are drunk from your wine, and weep, mourn all you who drink wine, for joy and gladness are removed from your mouth. For a nation strong and numberless came up against My land. His teeth are the teeth of a lion and his molars those of a young lion.",
+              "arabic": "أستيقظوا أيها السكارى من الخمر. و أبكوا و نوحوا يا جميع شاربى الخمر المسكر. لأنه قد نزع عنكم السرور والفرح. أذ قد جاءت على الأرض أمة قوية بلا عدد. أسنانهم أسنان الأسد ولها أنياب الليوث.",
+              "arabic_base_no_tashkeel": "أستيقظوا أيها السكارى من الخمر. و أبكوا و نوحوا يا جميع شاربى الخمر المسكر. لأنه قد نزع عنكم السرور والفرح. أذ قد جاءت على الأرض أمة قوية بلا عدد. أسنانهم أسنان الأسد ولها أنياب الليوث."
+            },
+            {
+              "row_index": 2,
+              "english": "He laid waste My vine and splintered My fig tree. He diligently searched out and uprooted My vine, peeling off its outer bark. Mourn before Me more than a virgin bride clothed with sackcloth for the husband of her youth.",
+              "arabic": "جعلت كرمتى للفساد وتينتى للإنحطام. وفتشتها تفتيشاً وطرحتها فابيضت قضبانها. وسيحزن الكرامون على الأرض أكثر من العروسة المشدودة على رأسها.",
+              "arabic_base_no_tashkeel": "جعلت كرمتى للفساد وتينتى للإنحطام. وفتشتها تفتيشا وطرحتها فابيضت قضبانها. وسيحزن الكرامون على الأرض أكثر من العروسة المشدودة على رأسها."
+            },
+            {
+              "row_index": 3,
+              "english": "The meat-offering and the drink-offering are removed from the house of the Lord. Mourn, you priests, you who serve at the altar,",
+              "arabic": "الحزينة على بعل بكوريتها. نوحوا أيها الكهنة و يا خدام المذبح. لأنه قد رفعت الذبائح والسكيب من بيت الرب. تلفت البقاع وأنفسدت.",
+              "arabic_base_no_tashkeel": "الحزينة على بعل بكوريتها. نوحوا أيها الكهنة و يا خدام المذبح. لأنه قد رفعت الذبائح والسكيب من بيت الرب. تلفت البقاع وأنفسدت."
+            },
+            {
+              "row_index": 4,
+              "english": "For the fields languish and the land mourns; for the grain withers, the wine is dried up, and the olive oil is scarce.",
+              "arabic": "ولتحزن الأرض لأنه قد عدم القمح وجف الخمر وقل الزيت ويبس.",
+              "arabic_base_no_tashkeel": "ولتحزن الأرض لأنه قد عدم القمح وجف الخمر وقل الزيت ويبس."
+            },
+            {
+              "row_index": 5,
+              "english": "The farmers are exhausted. Mourn for the sake of your fields of wheat and barley, for the harvest from the field has been lost. The vine is shriveled up, and the fig trees are scarce in number.",
+              "arabic": "احزنوا أيها الفلاحون فى المساكن على القمح و الشعير. لأنه قد تلف القطاف فى الحقل ويبست الكرمة. وذبلت شجرة التين.",
+              "arabic_base_no_tashkeel": "احزنوا أيها الفلاحون فى المساكن على القمح و الشعير. لأنه قد تلف القطاف فى الحقل ويبست الكرمة. وذبلت شجرة التين."
+            },
+            {
+              "row_index": 6,
+              "english": "The pomegranate and the palm tree, the apple tree and all the trees of the field are withered,",
+              "arabic": "وشجرة الرمان مع النخلة. وشجرة التفاح وجميع أشجار الغياض يبست",
+              "arabic_base_no_tashkeel": "وشجرة الرمان مع النخلة. وشجرة التفاح وجميع أشجار الغياض يبست"
+            },
+            {
+              "row_index": 7,
+              "english": "For they put to shame the delight of the sons of men.",
+              "arabic": "لأجل أن بنى البشر رذلوا الفرح.",
+              "arabic_base_no_tashkeel": "لأجل أن بنى البشر رذلوا الفرح."
+            },
+            {
+              "row_index": 8,
+              "english": "Gird yourself with sackcloth and wail, you priests.",
+              "arabic": "أتزروا بالمسوح يا خدام الله.",
+              "arabic_base_no_tashkeel": "أتزروا بالمسوح يا خدام الله."
+            },
+            {
+              "row_index": 9,
+              "english": "Mourn, you who serve at the altar. Go in, sleep in sackcloth, you who minister unto God, for the grain-offering and drink-offering are withheld from the house of your God.",
+              "arabic": "لأنه قد بطلت الذبيحة والسكيب من بيت الرب إلهكم. قدسوا صوماً واكرزوا بالخدمة.",
+              "arabic_base_no_tashkeel": "لأنه قد بطلت الذبيحة والسكيب من بيت الرب إلهكم. قدسوا صوما واكرزوا بالخدمة."
+            },
+            {
+              "row_index": 10,
+              "english": "Sanctify a fast. Call a solemn assembly. Gather all the elders and all the people of the land into the house of the Lord your God, and cry out fervently to the Lord.",
+              "arabic": "أجمعوا الشيوخ مع سكان الأرض. وادخلوا إلى بيت الرب إلهكم. وأصرخوا إلى الرب إلهكم جداً.",
+              "arabic_base_no_tashkeel": "أجمعوا الشيوخ مع سكان الأرض. وادخلوا إلى بيت الرب إلهكم. وأصرخوا إلى الرب إلهكم جدا."
+            },
+            {
+              "row_index": 11,
+              "english": "Alas! Alas! Alas! For the day of the Lord draws near, and it will come as misery upon misery.",
+              "arabic": "و قولوا ويل لى ويل لى. لأن يوم الرب قرب. وهو يأتى كالدمار.",
+              "arabic_base_no_tashkeel": "و قولوا ويل لى ويل لى. لأن يوم الرب قرب. وهو يأتى كالدمار."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (29: 1,2)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Bring to the Lord, O you sons of God, bring to the Lord the sons of rams; bring to the Lord glory and honor.",
+              "arabic": "قدموا للرب يا أبناء الله. قدموا للرب أبناء الكباش. قدموا للرب مجداً وكرامة.",
+              "arabic_base_no_tashkeel": "قدموا للرب يا أبناء الله. قدموا للرب أبناء الكباش. قدموا للرب مجدا وكرامة."
+            },
+            {
+              "row_index": 2,
+              "english": "Bring to the Lord the glory due His name; worship the Lord in His holy court.",
+              "arabic": "قدموا للرب مجداً لاسمه اسجدوا للرب فى دار قدسه",
+              "arabic_base_no_tashkeel": "قدموا للرب مجدا لاسمه اسجدوا للرب فى دار قدسه"
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Mark 10: 32 - 34)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Now they were on the road, going up to Jerusalem, and Jesus was going before them; and they were amazed. And as they followed they were afraid. Then He took the twelve aside again and began to tell them the things that would happen to Him:",
+              "arabic": "وكانوا فى الطريق صاعدين إلى أورشليم وكان يسوع يسير قدامهم وكانوا يتحيرون والذين كانوا يتبعونه كانوا خائفين. فتقدم إليه أيضاً الأثنى عشر وابتدأ يقول لهم عما يحدث له.",
+              "arabic_base_no_tashkeel": "وكانوا فى الطريق صاعدين إلى أورشليم وكان يسوع يسير قدامهم وكانوا يتحيرون والذين كانوا يتبعونه كانوا خائفين. فتقدم إليه أيضا الأثنى عشر وابتدأ يقول لهم عما يحدث له."
+            },
+            {
+              "row_index": 2,
+              "english": "“Behold, we are going up to Jerusalem, and the Son of Man will be betrayed to the chief priests and to the scribes; and they will condemn Him to death and deliver Him to the Gentiles; And they will mock Him, and scourge Him, and spit on Him, and kill Him.",
+              "arabic": "ها نحن صاعدين إلى أورشليم و إبن الإنسان سيسلم إلى رؤساء الكهنة والكتبة فيحكمون عليه بالموت ويسلمونه إلى الأمم, فيهزءون به ويتفلون عليه ويجلدونه ويقتلونه,",
+              "arabic_base_no_tashkeel": "ها نحن صاعدين إلى أورشليم و إبن الإنسان سيسلم إلى رؤساء الكهنة والكتبة فيحكمون عليه بالموت ويسلمونه إلى الأمم, فيهزءون به ويتفلون عليه ويجلدونه ويقتلونه,"
+            },
+            {
+              "row_index": 3,
+              "english": "And the third day He will rise again.”",
+              "arabic": "وفى اليوم الثالث يقوم.",
+              "arabic_base_no_tashkeel": "وفى اليوم الثالث يقوم."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

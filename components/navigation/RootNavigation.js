@@ -196,15 +196,77 @@ const findParentAndSiblings = (items, targetRoute, parent = null, grandParent = 
   return null;
 };
 
+const findRouteTrail = (items, targetRoute, trail = []) => {
+  for (const item of items) {
+    const nextTrail = [...trail, item];
+    if (item.screenName === targetRoute) {
+      return nextTrail;
+    }
+
+    if (Array.isArray(item.children)) {
+      const found = findRouteTrail(item.children, targetRoute, nextTrail);
+      if (found) {
+        return found;
+      }
+    }
+  }
+
+  return null;
+};
+
+const getFocusedRouteChain = (state) => {
+  let current = state;
+  const chain = [];
+
+  while (current?.routes && typeof current.index === "number") {
+    const route = current.routes[current.index];
+    if (!route) {
+      break;
+    }
+    chain.push(route);
+    current = route.state;
+  }
+
+  return chain;
+};
+
+const WRAPPER_ROUTE_NAMES = new Set(["MainStack", "MainContent"]);
+
 const LeftDrawerContent = React.memo(({ navigation, routeConfig, ...props }) => {
   const drawerItemsByRoute = routeConfig;
   const state = useNavigationState((state) => state);
-  const currentState = state?.routes[state.index].state;
-  const currentRoute = currentState?.routes[currentState.index]?.name || "Home";
+  const focusedRouteChain = getFocusedRouteChain(state);
+  const currentRouteState = focusedRouteChain[focusedRouteChain.length - 1];
+  const nearestContentRouteState = [...focusedRouteChain]
+    .reverse()
+    .find((route) => route?.name && !WRAPPER_ROUTE_NAMES.has(route.name));
+  const currentRoute =
+    nearestContentRouteState?.name || currentRouteState?.name || "Home";
+  const contextRouteState = [...focusedRouteChain]
+    .reverse()
+    .find((route) => route?.params?.drawerContextRouteName);
+  const drawerContextRouteName =
+    contextRouteState?.params?.drawerContextRouteName || currentRoute;
+  const isLinkedScreenContext = drawerContextRouteName !== currentRoute;
 
   const dynamicDrawerItems = React.useMemo(
-    () => drawerItemsByRoute && findParentAndSiblings(drawerItemsByRoute, currentRoute),
-    [drawerItemsByRoute, currentRoute]
+    () => {
+      if (!drawerItemsByRoute) {
+        return null;
+      }
+
+      if (isLinkedScreenContext) {
+        const trail = findRouteTrail(drawerItemsByRoute, drawerContextRouteName);
+        if (!trail) {
+          return null;
+        }
+
+        return trail.slice(-2).map((item) => ({ ...item, type: "parent" }));
+      }
+
+      return findParentAndSiblings(drawerItemsByRoute, drawerContextRouteName);
+    },
+    [drawerItemsByRoute, drawerContextRouteName, isLinkedScreenContext]
   );
 
   const renderDrawerItems = (items) => {

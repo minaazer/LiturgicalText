@@ -1,0 +1,136 @@
+{
+  "service": "EVE of Tuesday",
+  "hour": "THIRD Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Malachi 1 : 1 - 9)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "The burden of the word of the Lord to Israel by the hand of His messenger Malachi. Take it to heart! \"I have loved you,\" says the Lord. \"But you say, 'In what way have You loved us?' Was not Esau the brother of Jacob?\" says the Lord. \"Yet Jacob I have loved, but Esau I have hated, and I have appointed his borders for destruction and made his heritage as dwellings of the wilderness.\"",
+              "arabic": "فتح كلام الرب لاسرائيل على يد ملاكه. ضعوا فى قلوبكم أنى أحببتكم يقول الرب. وقلتم بم أحببتنا. أليس عيسو أخا ليعقوب يقول الرب. وقد أحببت يعقوب وأبغضت عيسو. وجعلت حدوده للفساد ونصيب ميراثه قفراً (لبنات آوى)",
+              "arabic_base_no_tashkeel": "فتح كلام الرب لاسرائيل على يد ملاكه. ضعوا فى قلوبكم أنى أحببتكم يقول الرب. وقلتم بم أحببتنا. أليس عيسو أخا ليعقوب يقول الرب. وقد أحببت يعقوب وأبغضت عيسو. وجعلت حدوده للفساد ونصيب ميراثه قفرا (لبنات آوى)"
+            },
+            {
+              "row_index": 2,
+              "english": "Because one will say, \"Edom has been destroyed, but let us return and rebuild the desolate places,\" Thus says the Lord, Ruler of all: \"They may build, but I will throw down.",
+              "arabic": "وأن قال الأدوميون أننا قد إنهدمنا فلنرجع ونبنى خربها هذا ما يقول الرب الضابط الكل. هم يبنون وأنا أهدم.",
+              "arabic_base_no_tashkeel": "وأن قال الأدوميون أننا قد إنهدمنا فلنرجع ونبنى خربها هذا ما يقول الرب الضابط الكل. هم يبنون وأنا أهدم."
+            },
+            {
+              "row_index": 3,
+              "english": "They shall be called the Territory of Wickedness, and the people against whom the Lord has placed Himself forever. Your eyes will see, and you will say, 'The Lord is magnified beyond the borders of Israel.'",
+              "arabic": "وأدعوها تخم الإثم والشعب الذي قاومه الرب إلى الأبد. فتبصر عيونكم وأنتم تقولون لقد تعظم الرب فوق تخوم إسرائيل.",
+              "arabic_base_no_tashkeel": "وأدعوها تخم الإثم والشعب الذي قاومه الرب إلى الأبد. فتبصر عيونكم وأنتم تقولون لقد تعظم الرب فوق تخوم إسرائيل."
+            },
+            {
+              "row_index": 4,
+              "english": "\"A son honors his father, and a servant his master. If then, I am the Father, where is My honor? And if I am a Master, where is the reverence due to me?\" says the Lord Almighty. \"You priests are the ones who disparage My name, yet you say, 'In what way have we disparaged Your name?'",
+              "arabic": "الإبن يُكرم أباه والعبد سيده. فإن كنت أنا أباً فأين كرامتى. وأن كنت سيداً فأين مهابتى. قال الرب الضابط الكل. وأنتم أيها الكهنة المحتقرون أسمي. وقلتم بم إحتقرنا إسمك.",
+              "arabic_base_no_tashkeel": "الإبن يكرم أباه والعبد سيده. فإن كنت أنا أبا فأين كرامتى. وأن كنت سيدا فأين مهابتى. قال الرب الضابط الكل. وأنتم أيها الكهنة المحتقرون أسمي. وقلتم بم إحتقرنا إسمك."
+            },
+            {
+              "row_index": 5,
+              "english": "You offer defiled bread on My altar, but you say, 'How have we defiled You?'",
+              "arabic": "لأنكم قربتم على مذبحى خبزاً نجساً وقلتم بم نجسناه.",
+              "arabic_base_no_tashkeel": "لأنكم قربتم على مذبحى خبزا نجسا وقلتم بم نجسناه."
+            },
+            {
+              "row_index": 6,
+              "english": "By saying, 'The table of the Lord is contemptible and the food placed upon it is contemptible.'",
+              "arabic": "بقولكم أن مائدة الرب حقيرة وحقيرة هى الأطعمة الموضوعة عليها.",
+              "arabic_base_no_tashkeel": "بقولكم أن مائدة الرب حقيرة وحقيرة هى الأطعمة الموضوعة عليها."
+            },
+            {
+              "row_index": 7,
+              "english": "And when you offer the blind as a sacrifice, is that not evil?",
+              "arabic": "إذ قربتم الأعمى ذبيحة. أفليس ذلك شراً.",
+              "arabic_base_no_tashkeel": "إذ قربتم الأعمى ذبيحة. أفليس ذلك شرا."
+            },
+            {
+              "row_index": 8,
+              "english": "And when you offer the lame and sick, is that not evil? Offer it then to your ruler! See if he will accept it, if he will accept it favorably,\" says the Lord Almighty.",
+              "arabic": "وإذ قربتم الأعرج أو السقيم أفليس ذلك شراً ، قربه لرئيسك أفيقبله منك أو يقبل وجهك. يقول الرب الضابط الكل.",
+              "arabic_base_no_tashkeel": "وإذ قربتم الأعرج أو السقيم أفليس ذلك شرا ، قربه لرئيسك أفيقبله منك أو يقبل وجهك. يقول الرب الضابط الكل."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (13: 3,5)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Look upon me and hear me, O Lord my God; enlighten my eyes, lest I sleep in death,",
+              "arabic": "أنظر وإستجب لى ياربى وإلهي أنر عينى لئلا أنام فى الموت.",
+              "arabic_base_no_tashkeel": "أنظر وإستجب لى ياربى وإلهي أنر عينى لئلا أنام فى الموت."
+            },
+            {
+              "row_index": 2,
+              "english": "But I hope in Your mercy; my heart shall greatly rejoice in Your salvation.",
+              "arabic": "أما أنا فعلى رحمتك توكلت يبتهج قلبى بخلاصك.",
+              "arabic_base_no_tashkeel": "أما أنا فعلى رحمتك توكلت يبتهج قلبى بخلاصك."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Luke 13: 31 - 35)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "On that very day some Pharisees came, saying to Him, “Get out and depart from here, for Herod wants to kill You.” And He said to them, “Go, tell that fox, ‘Behold, I cast out demons and perform cures today and tomorrow, and the third day I shall be perfected.’",
+              "arabic": "وفى ذلك اليوم جاء إليه قوم من الفريسيين وقالوا له. أخرج وأذهب من هنا فإن هيرودس يريد قتلك. فقال لهم. أذهبوا وقولوا لهذا الثعلب. ها أنا أخرج الشياطين. وأتمم الشفاء اليوم وغداً. وفى اليوم الثالث أكمل.",
+              "arabic_base_no_tashkeel": "وفى ذلك اليوم جاء إليه قوم من الفريسيين وقالوا له. أخرج وأذهب من هنا فإن هيرودس يريد قتلك. فقال لهم. أذهبوا وقولوا لهذا الثعلب. ها أنا أخرج الشياطين. وأتمم الشفاء اليوم وغدا. وفى اليوم الثالث أكمل."
+            },
+            {
+              "row_index": 2,
+              "english": "Nevertheless I must journey today, tomorrow, and the day following; for it cannot be that a prophet should perish outside of Jerusalem.",
+              "arabic": "ولكنى ينبغى لى أن أقيم اليوم وغداً وفى اليوم الآتى أذهب. لأنه لا يهلك نبي خارجاً عن أورشليم.",
+              "arabic_base_no_tashkeel": "ولكنى ينبغى لى أن أقيم اليوم وغدا وفى اليوم الآتى أذهب. لأنه لا يهلك نبي خارجا عن أورشليم."
+            },
+            {
+              "row_index": 3,
+              "english": "“O Jerusalem, Jerusalem, the one who kills the prophets and stones those who are sent to her!",
+              "arabic": "يا أورشليم يا أورشليم يا قاتلة الأنبياء وراجمه المرسلين إليها.",
+              "arabic_base_no_tashkeel": "يا أورشليم يا أورشليم يا قاتلة الأنبياء وراجمه المرسلين إليها."
+            },
+            {
+              "row_index": 4,
+              "english": "How often I wanted to gather your children together, as a hen gathers her brood under her wings, but you were not willing!",
+              "arabic": "كما من مرة أردت أن أجمع بنيك كما يجمع الطائر فراخه تحت جناحيه فلم تريدوا.",
+              "arabic_base_no_tashkeel": "كما من مرة أردت أن أجمع بنيك كما يجمع الطائر فراخه تحت جناحيه فلم تريدوا."
+            },
+            {
+              "row_index": 5,
+              "english": "See! Your house is left to you desolate; and assuredly, I say to you, you shall not see Me until the time comes when you say, ‘Blessed is He who comes in the name of the LORD!’”",
+              "arabic": "هوذا بيتكم يترك لكم خراباً وأنى أقول لكم أنكم لا تروننى من الآن. حتى تقولوا مبارك الآتى بإسم الرب.",
+              "arabic_base_no_tashkeel": "هوذا بيتكم يترك لكم خرابا وأنى أقول لكم أنكم لا تروننى من الآن. حتى تقولوا مبارك الآتى بإسم الرب."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

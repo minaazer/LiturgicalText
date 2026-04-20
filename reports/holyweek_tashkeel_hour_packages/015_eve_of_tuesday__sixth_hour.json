@@ -1,0 +1,160 @@
+{
+  "service": "EVE of Tuesday",
+  "hour": "SIXTH Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Hosea 4: 15 - 5: 7)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "\"But you, O Israel, be not ignorant, and do not go, men of Judah, to Gilgal; and do not go up to Beth Aven nor swear by the living Lord.",
+              "arabic": "وأما أنت يا اسرائيل فلا تكن جاهلاً. ويا يهوذا لا تدخل الجلجال ولا تذهبوا إلى الظلم. ولا تحلفوا بالرب الحي.",
+              "arabic_base_no_tashkeel": "وأما أنت يا اسرائيل فلا تكن جاهلا. ويا يهوذا لا تدخل الجلجال ولا تذهبوا إلى الظلم. ولا تحلفوا بالرب الحي."
+            },
+            {
+              "row_index": 2,
+              "english": "For Israel was maddened like a mad heifer; now the Lord will feed them like a lamb in a wide place. Ephraim, joined with idols, has laid stumbling blocks in his own way.",
+              "arabic": "لأنه قد جمح اسرائيل كعجلة جامحة. فالآن يرعاهم الرب كحمل فى موضع رحب خليل الأصنام أفرايم قد ترك له شكاً",
+              "arabic_base_no_tashkeel": "لأنه قد جمح اسرائيل كعجلة جامحة. فالآن يرعاهم الرب كحمل فى موضع رحب خليل الأصنام أفرايم قد ترك له شكا"
+            },
+            {
+              "row_index": 3,
+              "english": "He has chosen the Canaanites; they have grievously gone a-whoring; they have loved dishonor through her rudeness.",
+              "arabic": "فأطاعوا الكنعانيين وزنوا زنى إلى الآخر وأحبوا الهوان بالتعاظم",
+              "arabic_base_no_tashkeel": "فأطاعوا الكنعانيين وزنوا زنى إلى الآخر وأحبوا الهوان بالتعاظم"
+            },
+            {
+              "row_index": 4,
+              "english": "You are a blast of wind in her wings, and they shall be ashamed because of their altars.\"",
+              "arabic": "وأنت فى جناحيك هبوب ريح وسيخزون فى مذبحهم.",
+              "arabic_base_no_tashkeel": "وأنت فى جناحيك هبوب ريح وسيخزون فى مذبحهم."
+            },
+            {
+              "row_index": 5,
+              "english": "Hear these things, O priests, and attend, O house of Israel! Listen, O house of the king!",
+              "arabic": "إسمعوا لهذا أيها الكهنة وأنصتوا يا بيت اسرائيل. وأصغوا يا بيت الملك.",
+              "arabic_base_no_tashkeel": "إسمعوا لهذا أيها الكهنة وأنصتوا يا بيت اسرائيل. وأصغوا يا بيت الملك."
+            },
+            {
+              "row_index": 6,
+              "english": "For judgment is with you because you have been a snare in Mizpah and a net spread on Tabor, which they that hunt the prey have fixed; but I will be your instructor.",
+              "arabic": "لأن الحكم موضوع قبالتكم. إذا قد صرتم فخاً للمحرس. وكالشبكة المنصوبة على تابور (تل مرتفع) تلك التى ينصبها الصيادون للصيد وأنا معلمكم",
+              "arabic_base_no_tashkeel": "لأن الحكم موضوع قبالتكم. إذا قد صرتم فخا للمحرس. وكالشبكة المنصوبة على تابور (تل مرتفع) تلك التى ينصبها الصيادون للصيد وأنا معلمكم"
+            },
+            {
+              "row_index": 7,
+              "english": "I know Ephraim, and Israel is not far from Me; for now Ephraim has gone grievously a-whoring; Israel is defiled.",
+              "arabic": "أنا عرفت افرايم ولم يخف عنى اسرائيل لأن الآن قد زنى افرايم وتنجس اسرائيل.",
+              "arabic_base_no_tashkeel": "أنا عرفت افرايم ولم يخف عنى اسرائيل لأن الآن قد زنى افرايم وتنجس اسرائيل."
+            },
+            {
+              "row_index": 8,
+              "english": "\"Their deliberations did not allow them to return to their God, for a spirit of fornication is in them, and they have not gotten to know the Lord.",
+              "arabic": "ولم يوجهوا أفكار قلوبهم ليرجعوا إلى إلههم. لأن روح الزنى فيهم والرب لم يعرفوه.",
+              "arabic_base_no_tashkeel": "ولم يوجهوا أفكار قلوبهم ليرجعوا إلى إلههم. لأن روح الزنى فيهم والرب لم يعرفوه."
+            },
+            {
+              "row_index": 9,
+              "english": "The arrogance of Israel shall be brought low before His face, and Israel and Ephraim shall become weak due to their wrongdoings; and Judah also shall become weak with them.",
+              "arabic": "وسيغطى اسرائيل وجهه بذراعه (من الخزى). فيرجم اسرائيل وإفرايم بالظلم ويرجم يهوذا أيضاً معهم",
+              "arabic_base_no_tashkeel": "وسيغطى اسرائيل وجهه بذراعه (من الخزى). فيرجم اسرائيل وإفرايم بالظلم ويرجم يهوذا أيضا معهم"
+            },
+            {
+              "row_index": 10,
+              "english": "\"They shall go with sheep and calves diligently to seek the Lord; but they shall not find Him, for He has withdrawn Himself from them.",
+              "arabic": "ويذهبون بغنم وثيران ليطلبوا الرب فلا يجدونه لأنه تنحى عنهم.",
+              "arabic_base_no_tashkeel": "ويذهبون بغنم وثيران ليطلبوا الرب فلا يجدونه لأنه تنحى عنهم."
+            },
+            {
+              "row_index": 11,
+              "english": "For they have forsaken the Lord because strange children have been born to them.",
+              "arabic": "بما أنهم قد إنصرفوا عن الرب وصارت لهم ثيران وكان لهم بنين غرباء.",
+              "arabic_base_no_tashkeel": "بما أنهم قد إنصرفوا عن الرب وصارت لهم ثيران وكان لهم بنين غرباء."
+            },
+            {
+              "row_index": 12,
+              "english": "Now the rust shall devour them along with their heritages.",
+              "arabic": "فالآن يأكلهم الدبا (القمل) مع ميراثهم.",
+              "arabic_base_no_tashkeel": "فالآن يأكلهم الدبا (القمل) مع ميراثهم."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (91: 2 - 3)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "\"You are my protector and my refuge, my God; I will hope in Him;",
+              "arabic": "ملجأي وإلهى فأتكل عليه.",
+              "arabic_base_no_tashkeel": "ملجأي وإلهى فأتكل عليه."
+            },
+            {
+              "row_index": 2,
+              "english": "For He shall free me from the snare of the hunters, and from every troubling word.\"",
+              "arabic": "لأنه ينجينى من فخ الصياد. ومن كلمة مقلقة.",
+              "arabic_base_no_tashkeel": "لأنه ينجينى من فخ الصياد. ومن كلمة مقلقة."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Luke 21: 34 - 38)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "“But take heed to yourselves, lest your hearts be weighed down with carousing, drunkenness, and cares of this life, and that Day come on you unexpectedly.",
+              "arabic": "فإحترزوا لأنفسكم لئلا تثقل قلوبكم من الشبع والسكر والهموم الدنياوية فيقبل عليكم بغته ذلك اليوم.",
+              "arabic_base_no_tashkeel": "فإحترزوا لأنفسكم لئلا تثقل قلوبكم من الشبع والسكر والهموم الدنياوية فيقبل عليكم بغته ذلك اليوم."
+            },
+            {
+              "row_index": 2,
+              "english": "For it will come as a snare on all those who dwell on the face of the whole earth.",
+              "arabic": "لأنه يأتى كالفخ على جميع الجالسين على وجه الأرض كلها.",
+              "arabic_base_no_tashkeel": "لأنه يأتى كالفخ على جميع الجالسين على وجه الأرض كلها."
+            },
+            {
+              "row_index": 3,
+              "english": "Watch therefore, and pray always that you may be counted worthy to escape all these things that will come to pass, and to stand before the Son of Man.”",
+              "arabic": "أسهروا إذن وتضرعوا فى كل حين لكى تقووا على الهرب من هذه الأمور المزمعة أن تصير وتقفوا أمام إبن الإنسان.",
+              "arabic_base_no_tashkeel": "أسهروا إذن وتضرعوا فى كل حين لكى تقووا على الهرب من هذه الأمور المزمعة أن تصير وتقفوا أمام إبن الإنسان."
+            },
+            {
+              "row_index": 4,
+              "english": "And in the daytime He was teaching in the temple, but at night He went out and stayed on the mountain called Olivet.",
+              "arabic": "وكان فى النهار يعلم فى الهيكل. وفى الليل يخرج ويبيت فى الجبل الذي يدعى جبل الزيتون.",
+              "arabic_base_no_tashkeel": "وكان فى النهار يعلم فى الهيكل. وفى الليل يخرج ويبيت فى الجبل الذي يدعى جبل الزيتون."
+            },
+            {
+              "row_index": 5,
+              "english": "Then early in the morning all the people came to Him in the temple to hear Him.",
+              "arabic": "وكان جميع الشعب يبكرون إليه فى الهيكل ليسمعوا منه.",
+              "arabic_base_no_tashkeel": "وكان جميع الشعب يبكرون إليه فى الهيكل ليسمعوا منه."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

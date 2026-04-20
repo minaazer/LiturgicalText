@@ -1,0 +1,172 @@
+{
+  "service": "EVE of Wednesday",
+  "hour": "SIXTH Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Jeremiah 13: 9, 16: 9 - 13)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "\"Thus says the Lord: 'In this manner I will destroy the insolence of Judah and that of Jerusalem. Behold, before your eyes and in your days, I will bring to an end from this place the voice of joy and the voice of gladness, the voice of the bridegroom and the voice of the bride.",
+              "arabic": "هذا ما يقوله رب القوات إله اسرائيل: هأنذا أفسد كبرياء يهوذا وكبرياء أورشليم العظيمة في هذا المكان أمام عيونكم وفي أيامكم لا يكون صوت سرور ولا صوت فرح ولا صوت عريس ولا صوت عروس،",
+              "arabic_base_no_tashkeel": "هذا ما يقوله رب القوات إله اسرائيل: هأنذا أفسد كبرياء يهوذا وكبرياء أورشليم العظيمة في هذا المكان أمام عيونكم وفي أيامكم لا يكون صوت سرور ولا صوت فرح ولا صوت عريس ولا صوت عروس،"
+            },
+            {
+              "row_index": 2,
+              "english": "\"It shall come to pass that when you shall announce all these words to this people and they say to you, 'Why has the Lord pronounced all these evils against us? What is our wrongdoing, and what sin did we commit before the Lord our God?'",
+              "arabic": "ويكون إذا عرفت الشعب بجميع هذه الأقوال وقالوا: لماذا تكلم الرب علينا بكل هذه الشرور، وما الظلم أو الخطية التي صنعناها أمام الرب إلهنا؟",
+              "arabic_base_no_tashkeel": "ويكون إذا عرفت الشعب بجميع هذه الأقوال وقالوا: لماذا تكلم الرب علينا بكل هذه الشرور، وما الظلم أو الخطية التي صنعناها أمام الرب إلهنا؟"
+            },
+            {
+              "row_index": 3,
+              "english": "Then you shall say to them, 'Because your fathers forsook Me,' says the Lord, 'For they went after foreign gods; and they served and worshiped them.",
+              "arabic": "فتقول لهم، لأن أباءكم تركوني عنهم قال الرب، وأتبعوا آلهة غريبة وعبدوها وسجدوا لها،",
+              "arabic_base_no_tashkeel": "فتقول لهم، لأن أباءكم تركوني عنهم قال الرب، وأتبعوا آلهة غريبة وعبدوها وسجدوا لها،"
+            },
+            {
+              "row_index": 4,
+              "english": "They forsook Me, and did not keep My law.",
+              "arabic": "وأما أنا فتركوني عنهم ولم يحفظوا ناموسي",
+              "arabic_base_no_tashkeel": "وأما أنا فتركوني عنهم ولم يحفظوا ناموسي"
+            },
+            {
+              "row_index": 5,
+              "english": "But you acted in ways more evil than your fathers; for behold, you, each one of you, walk after the evil pleasures of your heart and do not obey Me.",
+              "arabic": "وقد عملتم أنتم أيضاً الشر أكثر من أبائكم، فهوذا أنتم أيضاً تسلكون كل واحد وراء شهوات قلوبكم الشريرة غير مطيعين لي,",
+              "arabic_base_no_tashkeel": "وقد عملتم أنتم أيضا الشر أكثر من أبائكم، فهوذا أنتم أيضا تسلكون كل واحد وراء شهوات قلوبكم الشريرة غير مطيعين لي,"
+            },
+            {
+              "row_index": 6,
+              "english": "Therefore I will cast you out of this land and into a land neither you nor your fathers know; and there you shall serve other gods, who will show you no mercy.",
+              "arabic": "فساطرد كم من هذه الأرض، إلي أرض لا تعرفونها أنتم ولا أبائكم, وفي ذلك الموضع تتعبدون لألهة أخري، هؤلاء الذين لا يرحمونكم.",
+              "arabic_base_no_tashkeel": "فساطرد كم من هذه الأرض، إلي أرض لا تعرفونها أنتم ولا أبائكم, وفي ذلك الموضع تتعبدون لألهة أخري، هؤلاء الذين لا يرحمونكم."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (102: 1 - 2)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Hear my prayer, O Lord, and let my cry come to You.",
+              "arabic": "يارب استمع صلاتي وليصعد أمامك صراخي",
+              "arabic_base_no_tashkeel": "يارب استمع صلاتي وليصعد أمامك صراخي"
+            },
+            {
+              "row_index": 2,
+              "english": "In the day when I call upon You, hear me quickly.",
+              "arabic": "في اليوم الذي أدعوك فيه أستجب لي سريعاً.",
+              "arabic_base_no_tashkeel": "في اليوم الذي أدعوك فيه أستجب لي سريعا."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Matthew 25: 1 - 13)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "“Then the kingdom of heaven shall be likened to ten virgins who took their lamps and went out to meet the bridegroom.",
+              "arabic": "حينئذ يشبه ملكوت السموات عشر عذارى اخذن مصابيحهن وخرجن للقاء العريس",
+              "arabic_base_no_tashkeel": "حينئذ يشبه ملكوت السموات عشر عذارى اخذن مصابيحهن وخرجن للقاء العريس"
+            },
+            {
+              "row_index": 2,
+              "english": "Now five of them were wise, and five were foolish. Those who were foolish took their lamps and took no oil with them, but the wise took oil in their vessels with their lamps.",
+              "arabic": "وكان خمس منهن جاهلات وخمس حكيمات اما الجاهلات فأخذن مصابيحهن ولم يأخذن معهن زيتا واما الحكيمات فأخذن زيتا فى انيتهن مع مصابيحهن",
+              "arabic_base_no_tashkeel": "وكان خمس منهن جاهلات وخمس حكيمات اما الجاهلات فأخذن مصابيحهن ولم يأخذن معهن زيتا واما الحكيمات فأخذن زيتا فى انيتهن مع مصابيحهن"
+            },
+            {
+              "row_index": 3,
+              "english": "But while the bridegroom was delayed, they all slumbered and slept. “And at midnight a cry was heard: ‘Behold, the bridegroom is coming; go out to meet him!’",
+              "arabic": "فلما ابطا العريس نعسن كلهن ونمن ففى نصف الليل صار صوت: هوذا العريس قد اقبل فقمن اخرجن للقائه",
+              "arabic_base_no_tashkeel": "فلما ابطا العريس نعسن كلهن ونمن ففى نصف الليل صار صوت: هوذا العريس قد اقبل فقمن اخرجن للقائه"
+            },
+            {
+              "row_index": 4,
+              "english": "Then all those virgins arose and trimmed their lamps.",
+              "arabic": "حينئذ قامت اولئك العذارى وزين مصابيحهن،",
+              "arabic_base_no_tashkeel": "حينئذ قامت اولئك العذارى وزين مصابيحهن،"
+            },
+            {
+              "row_index": 5,
+              "english": "And the foolish said to the wise, ‘Give us some of your oil, for our lamps are going out.’",
+              "arabic": "فقالت الجاهلاتٍ للحكيمات: اعطينا من زيتكن فان مصابيحنا تنطفى",
+              "arabic_base_no_tashkeel": "فقالت الجاهلات للحكيمات: اعطينا من زيتكن فان مصابيحنا تنطفى"
+            },
+            {
+              "row_index": 6,
+              "english": "But the wise answered, saying, ‘No, lest there should not be enough for us and you; but go rather to those who sell, and buy for yourselves.’",
+              "arabic": "فاجابت الحكيمات وقلن: لعله لا يكفينا واياكن فاذهبن بالاحرى الى الباعة وابتعن لكن",
+              "arabic_base_no_tashkeel": "فاجابت الحكيمات وقلن: لعله لا يكفينا واياكن فاذهبن بالاحرى الى الباعة وابتعن لكن"
+            },
+            {
+              "row_index": 7,
+              "english": "And while they went to buy, the bridegroom came, and those who were ready went in with him to the wedding; and the door was shut.",
+              "arabic": "فلما ذهبن ليبتعن جاء العريس ودخلت معه المستعدات الى العرس واغلق الباب",
+              "arabic_base_no_tashkeel": "فلما ذهبن ليبتعن جاء العريس ودخلت معه المستعدات الى العرس واغلق الباب"
+            },
+            {
+              "row_index": 8,
+              "english": "“Afterward the other virgins came also, saying, ‘Lord, Lord, open to us!’",
+              "arabic": "وأخيراً جاءت بقية العذارى قائلات: ربنا ربنا افتح لنا",
+              "arabic_base_no_tashkeel": "وأخيرا جاءت بقية العذارى قائلات: ربنا ربنا افتح لنا"
+            },
+            {
+              "row_index": 9,
+              "english": "But he answered and said, ‘Assuredly, I say to you, I do not know you.’ “Watch therefore, for you know neither the day nor the hour.",
+              "arabic": "اما هو فاجاب وقال: الحق اقول لكن اننى لا اعرفكن فاسهروا اذا لانكم لا تعرفون اليوم ولا الساعة.",
+              "arabic_base_no_tashkeel": "اما هو فاجاب وقال: الحق اقول لكن اننى لا اعرفكن فاسهروا اذا لانكم لا تعرفون اليوم ولا الساعة."
+            },
+            {
+              "row_index": 10,
+              "english": "And while they went to buy, the bridegroom came, and those who were ready went in with him to the wedding; and the door was shut.",
+              "arabic": "وَفِيمَا هُنَّ ذَاهِبَاتٌ لِيَبْتَعْنَ جَاءَ الْعَرِيسُ وَالْمُسْتَعِدَّاتُ دَخَلْنَ مَعَهُ إِلَى الْعُرْسِ وَأُغْلِقَ الْبَابُ.",
+              "arabic_base_no_tashkeel": "وفيما هن ذاهبات ليبتعن جاء العريس والمستعدات دخلن معه إلى العرس وأغلق الباب."
+            },
+            {
+              "row_index": 11,
+              "english": "Afterward the other virgins came also, saying, 'Lord, Lord, open to us!'",
+              "arabic": "أَخِيراً جَاءَتْ بَقِيَّةُ الْعَذَارَى أَيْضاً قَائِلاَتٍ: يَا سَيِّدُ يَا سَيِّدُ افْتَحْ لَنَا.",
+              "arabic_base_no_tashkeel": "أخيرا جاءت بقية العذارى أيضا قائلات: يا سيد يا سيد افتح لنا."
+            },
+            {
+              "row_index": 12,
+              "english": "But he answered and said, 'Assuredly, I say to you, I do not know you.'",
+              "arabic": "فَأَجَابَ: الْحَقَّ أَقُولُ لَكُنَّ: إِنِّي مَا أَعْرِفُكُنَّ.",
+              "arabic_base_no_tashkeel": "فأجاب: الحق أقول لكن: إني ما أعرفكن."
+            },
+            {
+              "row_index": 13,
+              "english": "Watch therefore, for you know neither the day nor the hour in which the Son of Man is coming.<Br><i>Bow down before the Holy Gospel.</i>",
+              "arabic": "فَاسْهَرُوا إِذاً لأَنَّكُمْ لاَ تَعْرِفُونَ الْيَوْمَ وَلاَ السَّاعَةَ الَّتِي يَأْتِي فِيهَا ابْنُ الإِنْسَانِ.<br><i>أسجدوا للإنجيل المقدس.</i>",
+              "arabic_base_no_tashkeel": "فاسهروا إذا لأنكم لا تعرفون اليوم ولا الساعة التي يأتي فيها ابن الإنسان.<br><i>أسجدوا للإنجيل المقدس.</i>"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

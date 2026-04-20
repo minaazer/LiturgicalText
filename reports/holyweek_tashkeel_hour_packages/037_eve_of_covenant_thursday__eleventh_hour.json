@@ -1,0 +1,136 @@
+{
+  "service": "EVE of Covenant Thursday",
+  "hour": "ELEVENTH Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Jeremiah 8: 4 - 9)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "For thus says the Lord: \"Will not he who falls arise? Or he who turns away, will he not return?",
+              "arabic": "هذا ما يقوله الرب: هل من يسقط لا يقوم؟ ومن يرتد لا يرجع؟",
+              "arabic_base_no_tashkeel": "هذا ما يقوله الرب: هل من يسقط لا يقوم؟ ومن يرتد لا يرجع؟"
+            },
+            {
+              "row_index": 2,
+              "english": "Why therefore has this My people turned away from Me in a shameful way, strengthened themselves in their choice, and were not willing to return?",
+              "arabic": "لما إرتد هذا الشعب إرتداداً وقحاً، وتمسكوا بهواهم وأبوا أن يرجعوا؟",
+              "arabic_base_no_tashkeel": "لما إرتد هذا الشعب إرتدادا وقحا، وتمسكوا بهواهم وأبوا أن يرجعوا؟"
+            },
+            {
+              "row_index": 3,
+              "english": "Indeed, give ear and listen. Will they not speak thus: 'There is no man who repents of his vices, saying, \"What have I done?'\"",
+              "arabic": "أنصتوا الآن واسمعوا كلاماً لأنه هكذا ليس أحد من الناس يتوب عن شره قائلاً ماذا صنعت؟",
+              "arabic_base_no_tashkeel": "أنصتوا الآن واسمعوا كلاما لأنه هكذا ليس أحد من الناس يتوب عن شره قائلا ماذا صنعت؟"
+            },
+            {
+              "row_index": 4,
+              "english": "The runner ceases to run his race, as a sweating horse ceases to run when he is tired. Even the stork in the sky knows her appointed time, as do the turtledove and the swallow of the field. The sparrows watch for the times of their coming.",
+              "arabic": "الذي يجرى قد كف عن موضع جريه، كحصان عرقان من صهيله، عرف اللقلق فى السماء ميعاده واليمامة والسنونة وعصفورة الحقل عرفت أوقات دخولها،",
+              "arabic_base_no_tashkeel": "الذي يجرى قد كف عن موضع جريه، كحصان عرقان من صهيله، عرف اللقلق فى السماء ميعاده واليمامة والسنونة وعصفورة الحقل عرفت أوقات دخولها،"
+            },
+            {
+              "row_index": 5,
+              "english": "But My people do not know the judgments of the Lord. \"How can you say, 'We are wise, and the law of the Lord is with us'? The lying pen becomes vanity for the scribes.",
+              "arabic": "وأما شعبى فلم يعرف حكم الرب! كيف تقولون إنا نحن حكماء وناموس الرب لنا، والناموس الذي كان محسوباً للكتبه صار باطلاً وليس حقاً؟",
+              "arabic_base_no_tashkeel": "وأما شعبى فلم يعرف حكم الرب! كيف تقولون إنا نحن حكماء وناموس الرب لنا، والناموس الذي كان محسوبا للكتبه صار باطلا وليس حقا؟"
+            },
+            {
+              "row_index": 6,
+              "english": "Wise men are put to shame and convicted, for they rejected the word of the Lord. What wisdom is in them?",
+              "arabic": "خزى الحكماء والفلاسفة وتملكهم الفزع لأنهم رفضوا كلمة الرب، بعيدة هى الحكمة عنهم.",
+              "arabic_base_no_tashkeel": "خزى الحكماء والفلاسفة وتملكهم الفزع لأنهم رفضوا كلمة الرب، بعيدة هى الحكمة عنهم."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (62: 7,2)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "In God is my salvation and my glory; He is the God of my help, and my hope is in God.",
+              "arabic": "خلاصى ومجدى بإلهى، إله معونتى، رجائى هو بالله.",
+              "arabic_base_no_tashkeel": "خلاصى ومجدى بإلهى، إله معونتى، رجائى هو بالله."
+            },
+            {
+              "row_index": 2,
+              "english": "For [indeed] He is my God and my Savior, My protector; I shall be shaken no more.",
+              "arabic": "لأنه إلهى ومخلصى. ناصرى فلا اتزعزع أبداً:",
+              "arabic_base_no_tashkeel": "لأنه إلهى ومخلصى. ناصرى فلا اتزعزع أبدا:"
+            }
+          ]
+        },
+        {
+          "title": "Gospel (John 12: 44 - 50)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Then Jesus cried out and said, “He who believes in Me, believes not in Me but in Him who sent Me.",
+              "arabic": "فصاح يسوع وقال: الذي يؤمن بى ليس يؤمن بي, بل آمن بالذي أرسلنى،",
+              "arabic_base_no_tashkeel": "فصاح يسوع وقال: الذي يؤمن بى ليس يؤمن بي, بل آمن بالذي أرسلنى،"
+            },
+            {
+              "row_index": 2,
+              "english": "And he who sees Me sees Him who sent Me. I have come as a light into the world, that whoever believes in Me should not abide in darkness.",
+              "arabic": "ومن يرانى فقد رأى الذي أرسلنى. أنا قد جئت نوراً للعالم، حتى كل من يؤمن بى لا يمكث فى الظلمة،",
+              "arabic_base_no_tashkeel": "ومن يرانى فقد رأى الذي أرسلنى. أنا قد جئت نورا للعالم، حتى كل من يؤمن بى لا يمكث فى الظلمة،"
+            },
+            {
+              "row_index": 3,
+              "english": "And if anyone hears My words and does not believe, I do not judge him; for I did not come to judge the world but to save the world.",
+              "arabic": "وإن كان أحد يسمع كلامى ولا يحفظه فأنا لا أدينه، لأنى لم آتٍ لأدين العالم بل لأخلص العالم،",
+              "arabic_base_no_tashkeel": "وإن كان أحد يسمع كلامى ولا يحفظه فأنا لا أدينه، لأنى لم آت لأدين العالم بل لأخلص العالم،"
+            },
+            {
+              "row_index": 4,
+              "english": "He who rejects Me, and does not receive My words, has that which judges him—the word that I have spoken will judge him in the last day.",
+              "arabic": "ومن ينكرنى ولا يقبل كلامى فله من يدينه. الكلام الذي تكلمت به هو الذي يدينه فى اليوم الأخير،",
+              "arabic_base_no_tashkeel": "ومن ينكرنى ولا يقبل كلامى فله من يدينه. الكلام الذي تكلمت به هو الذي يدينه فى اليوم الأخير،"
+            },
+            {
+              "row_index": 5,
+              "english": "For I have not spoken on My own authority; but the Father who sent Me gave Me a command, what I should say and what I should speak.",
+              "arabic": "لأنى لم أتكلم من ذاتى وحدى، بل الآب الذي أرسلنى هو الذي أعطانى الوصية ماذا أقول وبماذا أتكلم،",
+              "arabic_base_no_tashkeel": "لأنى لم أتكلم من ذاتى وحدى، بل الآب الذي أرسلنى هو الذي أعطانى الوصية ماذا أقول وبماذا أتكلم،"
+            },
+            {
+              "row_index": 6,
+              "english": "And I know that His command is everlasting life. Therefore, whatever I speak, just as the Father has told Me, so I speak.”",
+              "arabic": "وأعلم أن وصيته هى حياة أبدية، والذي أتكلم أنا به فكما قال لى أبى هكذا أتكلم.",
+              "arabic_base_no_tashkeel": "وأعلم أن وصيته هى حياة أبدية، والذي أتكلم أنا به فكما قال لى أبى هكذا أتكلم."
+            },
+            {
+              "row_index": 7,
+              "english": "And I know that His command is everlasting life. Therefore, whatever I speak, just as the Father has told Me, so I speak.\"<Br><i>Bow down before the Holy Gospel.</i>",
+              "arabic": "وَأَنَا أَعْلَمُ أَنَّ وَصِيَّتَهُ هِيَ حَيَاةٌ أَبَدِيَّةٌ. فَمَا أَتَكَلَّمُ أَنَا بِهِ فَكَمَا قَالَ لِي الآبُ هَكَذَا أَتَكَلَّمُ».<br><i>أسجدوا للإنجيل المقدس.</i>",
+              "arabic_base_no_tashkeel": "وأنا أعلم أن وصيته هي حياة أبدية. فما أتكلم أنا به فكما قال لي الآب هكذا أتكلم».<br><i>أسجدوا للإنجيل المقدس.</i>"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

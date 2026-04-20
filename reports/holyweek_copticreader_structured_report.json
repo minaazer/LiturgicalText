@@ -1,0 +1,1211 @@
+{
+  "source": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\jsons\\readings\\holyweek_copticreader_all_readings_unicode.json",
+  "output": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\jsons\\readings\\holyweek_copticreader_structured.json",
+  "matched_document_count": 53,
+  "matched_documents": [
+    {
+      "relative_path": "friday/Friday - 11th Hour.xml",
+      "service": "DAY of Great Friday",
+      "hour": "ELEVENTH Hour",
+      "reading_count": 9
+    },
+    {
+      "relative_path": "friday/Friday - 12th Hour.xml",
+      "service": "DAY of Great Friday",
+      "hour": "TWELFTH Hour",
+      "reading_count": 9
+    },
+    {
+      "relative_path": "friday/Friday - 1st Hour.xml",
+      "service": "DAY of Great Friday",
+      "hour": "FIRST Hour",
+      "reading_count": 15
+    },
+    {
+      "relative_path": "friday/Friday - 3rd Hour.xml",
+      "service": "DAY of Great Friday",
+      "hour": "THIRD Hour",
+      "reading_count": 12
+    },
+    {
+      "relative_path": "friday/Friday - 6th Hour.xml",
+      "service": "DAY of Great Friday",
+      "hour": "SIXTH Hour",
+      "reading_count": 13
+    },
+    {
+      "relative_path": "friday/Friday - 9th Hour.xml",
+      "service": "DAY of Great Friday",
+      "hour": "NINTH Hour",
+      "reading_count": 11
+    },
+    {
+      "relative_path": "friday/Friday Eve - 11th Hour.xml",
+      "service": "EVE of Great Friday",
+      "hour": "ELEVENTH Hour",
+      "reading_count": 8
+    },
+    {
+      "relative_path": "friday/Friday Eve - 1st Hour.xml",
+      "service": "EVE of Great Friday",
+      "hour": "FIRST Hour",
+      "reading_count": 7
+    },
+    {
+      "relative_path": "friday/Friday Eve - 3rd Hour.xml",
+      "service": "EVE of Great Friday",
+      "hour": "THIRD Hour",
+      "reading_count": 8
+    },
+    {
+      "relative_path": "friday/Friday Eve - 6th Hour.xml",
+      "service": "EVE of Great Friday",
+      "hour": "SIXTH Hour",
+      "reading_count": 8
+    },
+    {
+      "relative_path": "friday/Friday Eve - 9th Hour.xml",
+      "service": "EVE of Great Friday",
+      "hour": "NINTH Hour",
+      "reading_count": 9
+    },
+    {
+      "relative_path": "monday/Monday - 11th Hour.xml",
+      "service": "DAY of Monday",
+      "hour": "ELEVENTH Hour",
+      "reading_count": 6
+    },
+    {
+      "relative_path": "monday/Monday - 1st Hour.xml",
+      "service": "DAY of Monday",
+      "hour": "FIRST Hour",
+      "reading_count": 7
+    },
+    {
+      "relative_path": "monday/Monday - 3rd Hour.xml",
+      "service": "DAY of Monday",
+      "hour": "THIRD Hour",
+      "reading_count": 5
+    },
+    {
+      "relative_path": "monday/Monday - 6th Hour.xml",
+      "service": "DAY of Monday",
+      "hour": "SIXTH Hour",
+      "reading_count": 5
+    },
+    {
+      "relative_path": "monday/Monday - 9th Hour.xml",
+      "service": "DAY of Monday",
+      "hour": "NINTH Hour",
+      "reading_count": 6
+    },
+    {
+      "relative_path": "monday/Monday Eve - 11th Hour.xml",
+      "service": "EVE of Monday",
+      "hour": "ELEVENTH Hour",
+      "reading_count": 4
+    },
+    {
+      "relative_path": "monday/Monday Eve - 1st Hour.xml",
+      "service": "EVE of Monday",
+      "hour": "FIRST Hour",
+      "reading_count": 4
+    },
+    {
+      "relative_path": "monday/Monday Eve - 3rd Hour.xml",
+      "service": "EVE of Monday",
+      "hour": "THIRD Hour",
+      "reading_count": 4
+    },
+    {
+      "relative_path": "monday/Monday Eve - 6th Hour.xml",
+      "service": "EVE of Monday",
+      "hour": "SIXTH Hour",
+      "reading_count": 4
+    },
+    {
+      "relative_path": "monday/Monday Eve - 9th Hour.xml",
+      "service": "EVE of Monday",
+      "hour": "NINTH Hour",
+      "reading_count": 4
+    },
+    {
+      "relative_path": "sunday/Sunday - 11th Hour.xml",
+      "service": "DAY of Sunday",
+      "hour": "ELEVENTH Hour",
+      "reading_count": 5
+    },
+    {
+      "relative_path": "sunday/Sunday - 9th Hour.xml",
+      "service": "DAY of Sunday",
+      "hour": "NINTH Hour",
+      "reading_count": 5
+    },
+    {
+      "relative_path": "thursday/Thursday - 11th Hour.xml",
+      "service": "DAY of Covenant Thursday",
+      "hour": "ELEVENTH Hour",
+      "reading_count": 4
+    },
+    {
+      "relative_path": "thursday/Thursday - 1st Hour.xml",
+      "service": "DAY of Covenant Thursday",
+      "hour": "FIRST Hour",
+      "reading_count": 4
+    },
+    {
+      "relative_path": "thursday/Thursday - 3rd Hour.xml",
+      "service": "DAY of Covenant Thursday",
+      "hour": "THIRD Hour",
+      "reading_count": 5
+    },
+    {
+      "relative_path": "thursday/Thursday - 6th Hour.xml",
+      "service": "DAY of Covenant Thursday",
+      "hour": "SIXTH Hour",
+      "reading_count": 6
+    },
+    {
+      "relative_path": "thursday/Thursday - 9th Hour.xml",
+      "service": "DAY of Covenant Thursday",
+      "hour": "NINTH Hour",
+      "reading_count": 6
+    },
+    {
+      "relative_path": "thursday/Thursday Eve - 11th Hour.xml",
+      "service": "EVE of Covenant Thursday",
+      "hour": "ELEVENTH Hour",
+      "reading_count": 4
+    },
+    {
+      "relative_path": "thursday/Thursday Eve - 1st Hour.xml",
+      "service": "EVE of Covenant Thursday",
+      "hour": "FIRST Hour",
+      "reading_count": 4
+    },
+    {
+      "relative_path": "thursday/Thursday Eve - 3rd Hour.xml",
+      "service": "EVE of Covenant Thursday",
+      "hour": "THIRD Hour",
+      "reading_count": 4
+    },
+    {
+      "relative_path": "thursday/Thursday Eve - 6th Hour.xml",
+      "service": "EVE of Covenant Thursday",
+      "hour": "SIXTH Hour",
+      "reading_count": 4
+    },
+    {
+      "relative_path": "thursday/Thursday Eve - 9th Hour.xml",
+      "service": "EVE of Covenant Thursday",
+      "hour": "NINTH Hour",
+      "reading_count": 4
+    },
+    {
+      "relative_path": "tuesday/Tuesday - 11th Hour.xml",
+      "service": "DAY of Tuesday",
+      "hour": "ELEVENTH Hour",
+      "reading_count": 6
+    },
+    {
+      "relative_path": "tuesday/Tuesday - 1st Hour.xml",
+      "service": "DAY of Tuesday",
+      "hour": "FIRST Hour",
+      "reading_count": 7
+    },
+    {
+      "relative_path": "tuesday/Tuesday - 3rd Hour.xml",
+      "service": "DAY of Tuesday",
+      "hour": "THIRD Hour",
+      "reading_count": 5
+    },
+    {
+      "relative_path": "tuesday/Tuesday - 6th Hour.xml",
+      "service": "DAY of Tuesday",
+      "hour": "SIXTH Hour",
+      "reading_count": 5
+    },
+    {
+      "relative_path": "tuesday/Tuesday - 9th Hour.xml",
+      "service": "DAY of Tuesday",
+      "hour": "NINTH Hour",
+      "reading_count": 6
+    },
+    {
+      "relative_path": "tuesday/Tuesday Eve - 11th Hour.xml",
+      "service": "EVE of Tuesday",
+      "hour": "ELEVENTH Hour",
+      "reading_count": 4
+    },
+    {
+      "relative_path": "tuesday/Tuesday Eve - 1st Hour.xml",
+      "service": "EVE of Tuesday",
+      "hour": "FIRST Hour",
+      "reading_count": 4
+    },
+    {
+      "relative_path": "tuesday/Tuesday Eve - 3rd Hour.xml",
+      "service": "EVE of Tuesday",
+      "hour": "THIRD Hour",
+      "reading_count": 4
+    },
+    {
+      "relative_path": "tuesday/Tuesday Eve - 6th Hour.xml",
+      "service": "EVE of Tuesday",
+      "hour": "SIXTH Hour",
+      "reading_count": 4
+    },
+    {
+      "relative_path": "tuesday/Tuesday Eve - 9th Hour.xml",
+      "service": "EVE of Tuesday",
+      "hour": "NINTH Hour",
+      "reading_count": 4
+    },
+    {
+      "relative_path": "wednesday/Wednesday - 11th Hour.xml",
+      "service": "DAY of Wednesday",
+      "hour": "ELEVENTH Hour",
+      "reading_count": 5
+    },
+    {
+      "relative_path": "wednesday/Wednesday - 1st Hour.xml",
+      "service": "DAY of Wednesday",
+      "hour": "FIRST Hour",
+      "reading_count": 7
+    },
+    {
+      "relative_path": "wednesday/Wednesday - 3rd Hour.xml",
+      "service": "DAY of Wednesday",
+      "hour": "THIRD Hour",
+      "reading_count": 5
+    },
+    {
+      "relative_path": "wednesday/Wednesday - 6th Hour.xml",
+      "service": "DAY of Wednesday",
+      "hour": "SIXTH Hour",
+      "reading_count": 5
+    },
+    {
+      "relative_path": "wednesday/Wednesday - 9th Hour.xml",
+      "service": "DAY of Wednesday",
+      "hour": "NINTH Hour",
+      "reading_count": 6
+    },
+    {
+      "relative_path": "wednesday/Wednesday Eve - 11th Hour.xml",
+      "service": "EVE of Wednesday",
+      "hour": "ELEVENTH Hour",
+      "reading_count": 4
+    },
+    {
+      "relative_path": "wednesday/Wednesday Eve - 1st Hour.xml",
+      "service": "EVE of Wednesday",
+      "hour": "FIRST Hour",
+      "reading_count": 4
+    },
+    {
+      "relative_path": "wednesday/Wednesday Eve - 3rd Hour.xml",
+      "service": "EVE of Wednesday",
+      "hour": "THIRD Hour",
+      "reading_count": 4
+    },
+    {
+      "relative_path": "wednesday/Wednesday Eve - 6th Hour.xml",
+      "service": "EVE of Wednesday",
+      "hour": "SIXTH Hour",
+      "reading_count": 4
+    },
+    {
+      "relative_path": "wednesday/Wednesday Eve - 9th Hour.xml",
+      "service": "EVE of Wednesday",
+      "hour": "NINTH Hour",
+      "reading_count": 4
+    }
+  ],
+  "ignored_document_count": 10,
+  "ignored_documents": [
+    "Daytime Litanies.xml",
+    "Evening Litanies.xml",
+    "resurrection/Prophecies.xml",
+    "saturday/Vigil of the Apocalypse - Matins.xml",
+    "saturday/Vigil of the Apocalypse - Midnight Praises.xml",
+    "saturday/Vigil of the Apocalypse - Ninth Hour.xml",
+    "saturday/Vigil of the Apocalypse - Revelation.xml",
+    "saturday/Vigil of the Apocalypse - Third and Sixth Hours.xml",
+    "sunday/General Funeral Prayer.xml",
+    "thursday/Liturgy of the Waters.xml"
+  ],
+  "created_table_count": 544,
+  "canonical_hours": [
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "Daytime Litanies",
+      "sections": [
+        "Daytime Litanies"
+      ]
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "ELEVENTH Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Litanies and Conclusion",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "FIRST Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Homily",
+        "Paschal Praise",
+        "Thanksgiving Prayer - Litanies",
+        "The Doxologies",
+        "The Creed - Tenouosht",
+        "Exposition",
+        "Litanies and Conclusion",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "NINTH Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Litanies and Conclusion",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "SIXTH Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "THIRD Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "Confession of the Thief",
+      "sections": [
+        "Confession of the Thief",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "Daytime Litanies",
+      "sections": [
+        "Daytime Litanies"
+      ]
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "ELEVENTH Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Homily",
+        "Paschal Praise",
+        "Pauline Epistle",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Litanies and Conclusion",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "FIRST Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Homily",
+        "Paschal Praise",
+        "Pauline Epistle",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Litanies and Conclusion",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "NINTH Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Pauline",
+        "Litanies of the Hour and Hymns",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Litanies and Conclusion",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "SIXTH Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Pauline",
+        "Litanies of the Hour and Hymns",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Litanies and Conclusion",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "THIRD Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Homily",
+        "Paschal Praise",
+        "Pauline Epistle",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Litanies and Conclusion",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "TWELFTH Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Litanies and Conclusion"
+      ]
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "Daytime Litanies",
+      "sections": [
+        "Daytime Litanies"
+      ]
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "ELEVENTH Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Litanies and Conclusion",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "FIRST Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "NINTH Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "SIXTH Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "THIRD Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "DAY of Sunday",
+      "hour": "Daytime Litanies",
+      "sections": [
+        "Daytime Litanies"
+      ]
+    },
+    {
+      "service": "DAY of Sunday",
+      "hour": "ELEVENTH Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Litanies and Conclusion",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "DAY of Sunday",
+      "hour": "NINTH Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "Daytime Litanies",
+      "sections": [
+        "Daytime Litanies"
+      ]
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "ELEVENTH Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Litanies and Conclusion",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "FIRST Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "NINTH Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "SIXTH Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "THIRD Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "Daytime Litanies",
+      "sections": [
+        "Daytime Litanies"
+      ]
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "ELEVENTH Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Litanies and Conclusion",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "FIRST Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "NINTH Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "SIXTH Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "THIRD Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "EVE of Covenant Thursday",
+      "hour": "ELEVENTH Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Litanies and Conclusion",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "EVE of Covenant Thursday",
+      "hour": "FIRST Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "EVE of Covenant Thursday",
+      "hour": "NINTH Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "EVE of Covenant Thursday",
+      "hour": "Nighttime Litanies",
+      "sections": [
+        "Nighttime Litanies"
+      ]
+    },
+    {
+      "service": "EVE of Covenant Thursday",
+      "hour": "SIXTH Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "EVE of Covenant Thursday",
+      "hour": "THIRD Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "EVE of Great Friday",
+      "hour": "ELEVENTH Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Litanies and Conclusion",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "EVE of Great Friday",
+      "hour": "FIRST Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "EVE of Great Friday",
+      "hour": "NINTH Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "EVE of Great Friday",
+      "hour": "Nighttime Litanies",
+      "sections": [
+        "Nighttime Litanies"
+      ]
+    },
+    {
+      "service": "EVE of Great Friday",
+      "hour": "SIXTH Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "EVE of Great Friday",
+      "hour": "THIRD Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "EVE of Monday",
+      "hour": "ELEVENTH Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Litanies and Conclusion",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "EVE of Monday",
+      "hour": "FIRST Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "EVE of Monday",
+      "hour": "NINTH Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "EVE of Monday",
+      "hour": "Nighttime Litanies",
+      "sections": [
+        "Nighttime Litanies"
+      ]
+    },
+    {
+      "service": "EVE of Monday",
+      "hour": "SIXTH Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "EVE of Monday",
+      "hour": "THIRD Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "EVE of Tuesday",
+      "hour": "ELEVENTH Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Litanies and Conclusion",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "EVE of Tuesday",
+      "hour": "FIRST Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "EVE of Tuesday",
+      "hour": "NINTH Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "EVE of Tuesday",
+      "hour": "Nighttime Litanies",
+      "sections": [
+        "Nighttime Litanies"
+      ]
+    },
+    {
+      "service": "EVE of Tuesday",
+      "hour": "SIXTH Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "EVE of Tuesday",
+      "hour": "THIRD Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "EVE of Wednesday",
+      "hour": "ELEVENTH Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Litanies and Conclusion",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "EVE of Wednesday",
+      "hour": "FIRST Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "EVE of Wednesday",
+      "hour": "NINTH Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "EVE of Wednesday",
+      "hour": "Nighttime Litanies",
+      "sections": [
+        "Nighttime Litanies"
+      ]
+    },
+    {
+      "service": "EVE of Wednesday",
+      "hour": "SIXTH Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "EVE of Wednesday",
+      "hour": "THIRD Hour",
+      "sections": [
+        "Introduction",
+        "Coptic Prophecies",
+        "Prophecies",
+        "Paschal Praise",
+        "Coptic Psalm & Gospel",
+        "English and Arabic Psalm & Gospel",
+        "Exposition",
+        "Next Hour"
+      ]
+    },
+    {
+      "service": "Litanies",
+      "hour": "Daytime Litanies",
+      "sections": [
+        "Daytime Litanies"
+      ]
+    },
+    {
+      "service": "Litanies",
+      "hour": "Nighttime Litanies",
+      "sections": [
+        "Nighttime Litanies"
+      ]
+    }
+  ]
+}

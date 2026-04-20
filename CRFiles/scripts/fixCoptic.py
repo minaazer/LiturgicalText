@@ -29,6 +29,7 @@ CONVERT_URL = "https://www.copticchurch.net/coptic_language/fonts/convert"
 FROM_FONT = "Copt"
 ENCODING = "unicode"
 OVERLINE = "\u0305"
+INVISIBLE_COPTIC_CONTROLS = ("\u200d", "\u200c", "\ufeff")
 
 
 class _ConvertedTextParser(HTMLParser):
@@ -98,6 +99,14 @@ def apply_overline_markers(text: str) -> str:
         else:
             out.append(ch)
     return "".join(out)
+
+
+def normalize_legacy_coptic_controls(text: str) -> str:
+    if not text:
+        return text
+    for marker in INVISIBLE_COPTIC_CONTROLS:
+        text = text.replace(marker, "")
+    return text
 
 
 def coptic_char_count(text: str) -> int:
@@ -176,6 +185,7 @@ def convert(obj, cache, mapping=None):
         converted = {}
         for k, v in obj.items():
             if k == "coptic" and isinstance(v, str):
+                v = normalize_legacy_coptic_controls(v)
                 if mapping is not None:
                     converted[k] = convert_with_map(v, mapping)
                 else:
@@ -211,6 +221,7 @@ def has_coptic_class(elem: ET.Element) -> bool:
 
 def convert_xml_text(node: ET.Element, cache: dict[str, str], mapping=None) -> None:
     def convert_chunk(text: str) -> str:
+        text = normalize_legacy_coptic_controls(text)
         repaired = repair_utf8_mojibake(text)
         if is_unicode_coptic_text(repaired):
             return apply_overline_markers(repaired)

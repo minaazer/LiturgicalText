@@ -1,0 +1,1079 @@
+{
+  "service": "DAY of Tuesday",
+  "hour": "NINTH Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Genesis 6: 5 - 9: 7)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Then the Lord God saw man's wickedness, that it was great in the earth, and every intent of the thoughts within his heart was only evil continually.",
+              "arabic": "ولما رأى الرب الإله أن شرور الناس قد كثرت علي الأرض وأن كل واحد قد مال بقلبه كثيراً إلي الشر كل الأيام.",
+              "arabic_base_no_tashkeel": "ولما رأى الرب الإله أن شرور الناس قد كثرت علي الأرض وأن كل واحد قد مال بقلبه كثيرا إلي الشر كل الأيام."
+            },
+            {
+              "row_index": 2,
+              "english": "So God was grieved that He had made man on the earth, and He thought this over.",
+              "arabic": "فندم الرب الإله أنه خلق الإنسان علي الأرض وفكر الرب الإله في قلبه.",
+              "arabic_base_no_tashkeel": "فندم الرب الإله أنه خلق الإنسان علي الأرض وفكر الرب الإله في قلبه."
+            },
+            {
+              "row_index": 3,
+              "english": "Then God said, \"I will blot out man whom I created from the face of the earth, from man to cattle and from the creeping things to the birds of heaven, for I am grieved I made them.\"",
+              "arabic": "وقال: إني مبيد عن وجه الأرض الإنسان الذي خلقته من الإنسان إلي البهائم ومن الهوام إلي طيور السماء لأني حنقت إذ خلقتهم.",
+              "arabic_base_no_tashkeel": "وقال: إني مبيد عن وجه الأرض الإنسان الذي خلقته من الإنسان إلي البهائم ومن الهوام إلي طيور السماء لأني حنقت إذ خلقتهم."
+            },
+            {
+              "row_index": 4,
+              "english": "But Noah found grace in the presence of the Lord God. This is the genealogy of Noah. Noah was a righteous man, who was perfect in his generation and well-pleasing to God.",
+              "arabic": "وأما نوح فوجد نعمة أمام الرب الإله وهذه مواليد نوح: وكان نوح رجلاً باراً كاملاً في جيله وأرضي نوح الله.",
+              "arabic_base_no_tashkeel": "وأما نوح فوجد نعمة أمام الرب الإله وهذه مواليد نوح: وكان نوح رجلا بارا كاملا في جيله وأرضي نوح الله."
+            },
+            {
+              "row_index": 5,
+              "english": "So Noah begot three sons: Shem, Ham, and Japheth. Now the earth was corrupt before God and filled with unrighteousness.",
+              "arabic": "وولد نوح ثلثة بنين ساماً وحاماً ويافث. وتنجست الأرض أمام الله وإمتلأت الأرض ظلماً",
+              "arabic_base_no_tashkeel": "وولد نوح ثلثة بنين ساما وحاما ويافث. وتنجست الأرض أمام الله وإمتلأت الأرض ظلما"
+            },
+            {
+              "row_index": 6,
+              "english": "Thus the Lord God looked upon the earth, and indeed it was corrupt;\" for all flesh corrupted their way on the earth.",
+              "arabic": "فنظر الرب الإله إلي الأرض فإذا هي قد فسدت. لأن كل ذي جسد قد نجس طريقه علي الأرض",
+              "arabic_base_no_tashkeel": "فنظر الرب الإله إلي الأرض فإذا هي قد فسدت. لأن كل ذي جسد قد نجس طريقه علي الأرض"
+            },
+            {
+              "row_index": 7,
+              "english": "Then God said to Noah, \"The end of all flesh has come before Me, for the earth is filled with unrighteousness through them; and behold, I will destroy them with the earth.",
+              "arabic": "فقال الرب الإله لنوح: إن أَجَل كل بشر قد أقترب أمامي لأن الأرض قد أمتلأت ظلماً منهم. وها أنا مهلكهم والأرض معاً.",
+              "arabic_base_no_tashkeel": "فقال الرب الإله لنوح: إن أجل كل بشر قد أقترب أمامي لأن الأرض قد أمتلأت ظلما منهم. وها أنا مهلكهم والأرض معا."
+            },
+            {
+              "row_index": 8,
+              "english": "Make yourself an ark of square timber. You shall make the ark in compartments, and cover it inside and outside with pitch.",
+              "arabic": "فإصنع لك فلكاً من خشب الساج الذي لا يسوس وإصنع الفلك كاملاً وتطلي داخله وخارجه بالقار.",
+              "arabic_base_no_tashkeel": "فإصنع لك فلكا من خشب الساج الذي لا يسوس وإصنع الفلك كاملا وتطلي داخله وخارجه بالقار."
+            },
+            {
+              "row_index": 9,
+              "english": "Thus you shall make the ark: three hundred cubits in length, fifty cubits in breadth, and thirty cubits in height.",
+              "arabic": "وهكذا تصنع الفلك ثلاثمائة ذراعاً يكون طول الفلك، وخمسين ذراعاً عرضه، وثلاثين ذراعاً إرتفاعه.",
+              "arabic_base_no_tashkeel": "وهكذا تصنع الفلك ثلاثمائة ذراعا يكون طول الفلك، وخمسين ذراعا عرضه، وثلاثين ذراعا إرتفاعه."
+            },
+            {
+              "row_index": 10,
+              "english": "Now when you assemble the ark, you shall gradually finish it up to a cubit at the top, and set the door in its side. You shall make the ark with lower, second, and third stories.",
+              "arabic": "ويكون الفلك مُقبباً وتصنع له كواً وتكمله إلي حد ذراع من فوق وتصنع باب الفلك في جانبه وطبقات سفلية ومتوسطة وعلوية تجعله.",
+              "arabic_base_no_tashkeel": "ويكون الفلك مقببا وتصنع له كوا وتكمله إلي حد ذراع من فوق وتصنع باب الفلك في جانبه وطبقات سفلية ومتوسطة وعلوية تجعله."
+            },
+            {
+              "row_index": 11,
+              "english": "And behold, I am bringing a flood of water on the earth, to destroy from under heaven all flesh in which is the breath of life. Whatever is on the earth shall die.",
+              "arabic": "فها أنا آتٍ بطوفان الماء علي الأرض لأهلك كل جسد فيه روح الحياة تحت السماء وكل شئ كائن علي الأرض يموت.",
+              "arabic_base_no_tashkeel": "فها أنا آت بطوفان الماء علي الأرض لأهلك كل جسد فيه روح الحياة تحت السماء وكل شئ كائن علي الأرض يموت."
+            },
+            {
+              "row_index": 12,
+              "english": "But I will establish My covenant with you; and you shall go into the ark-you, your sons, your wife, and your sons' wives with you.",
+              "arabic": "وأقرر عهدي معك. فتدخل الفلك أنت وبنوك وإمرأتك ونساء بنيك معك.",
+              "arabic_base_no_tashkeel": "وأقرر عهدي معك. فتدخل الفلك أنت وبنوك وإمرأتك ونساء بنيك معك."
+            },
+            {
+              "row_index": 13,
+              "english": "From every living thing of all flesh you shall bring two of every kind into the ark, to keep them alive with you; they shall be male and female.",
+              "arabic": "ومن جميع الوحوش الدواب ومن كل ذي جسد إثنين إثنين. من كل تدخل إلي الفلك لكي تعولها معك. تكون ذكراً وأنثي.",
+              "arabic_base_no_tashkeel": "ومن جميع الوحوش الدواب ومن كل ذي جسد إثنين إثنين. من كل تدخل إلي الفلك لكي تعولها معك. تكون ذكرا وأنثي."
+            },
+            {
+              "row_index": 14,
+              "english": "Of the birds after their kind, of animals after their kind, and of every creeping thing on the earth after its kind, two of every kind, they will enter into the ark with you, male and female, to keep them alive.",
+              "arabic": "ومن الطيور الطائرة كجنسها، ومن جميع البهائم كأجناسها، ومن الهوام التي علي الأرض كأجناسها إثنين إثنين تدخل إليك لتعولها معك، ويكون ذكراً وأنثي.",
+              "arabic_base_no_tashkeel": "ومن الطيور الطائرة كجنسها، ومن جميع البهائم كأجناسها، ومن الهوام التي علي الأرض كأجناسها إثنين إثنين تدخل إليك لتعولها معك، ويكون ذكرا وأنثي."
+            },
+            {
+              "row_index": 15,
+              "english": "You shall also take for yourself all kinds of food to eat, and you shall gather it both for yourself and for them.\"",
+              "arabic": "وأنت فخذ لك من كل الأطعمة التي تأكلونها وإجمعها إليك لتكون لك وللآخرين مأكلاً.",
+              "arabic_base_no_tashkeel": "وأنت فخذ لك من كل الأطعمة التي تأكلونها وإجمعها إليك لتكون لك وللآخرين مأكلا."
+            },
+            {
+              "row_index": 16,
+              "english": "Thus Noah did according to all the Lord God commanded him, so he did.",
+              "arabic": "ففعل نوح كل ما أمره به الرب الإله هكذا فعل.",
+              "arabic_base_no_tashkeel": "ففعل نوح كل ما أمره به الرب الإله هكذا فعل."
+            },
+            {
+              "row_index": 17,
+              "english": "Then the Lord God said to Noah, \"Enter the ark, you and all your family, because I have seen you righteous before Me in this generation.",
+              "arabic": "وقال الرب الإله لنوح: إمض أنت وأهل بيتك وأدخل الفلك لأنك أنت هو الذي رأيتك باراً أمامي في هذا الجبل.",
+              "arabic_base_no_tashkeel": "وقال الرب الإله لنوح: إمض أنت وأهل بيتك وأدخل الفلك لأنك أنت هو الذي رأيتك بارا أمامي في هذا الجبل."
+            },
+            {
+              "row_index": 18,
+              "english": "You shall also bring with you into the ark the clean cattle by sevens, male and female; and the unclean cattle by twos, male and female;",
+              "arabic": "من جميع البهائم التي ليس بطاهرة إثنين إثنين ذكراً وأنثي ومن طيور السماء الطاهرة سبعة سبعة ذكراً وأنثي،",
+              "arabic_base_no_tashkeel": "من جميع البهائم التي ليس بطاهرة إثنين إثنين ذكرا وأنثي ومن طيور السماء الطاهرة سبعة سبعة ذكرا وأنثي،"
+            },
+            {
+              "row_index": 19,
+              "english": "And the clean birds of heaven [by sevens, male and female; and the unclean birds of the sky] by twos, male and female, to keep seed alive on the face of all the earth.",
+              "arabic": "ومن طيور السماء غير الطاهرة إثنين إثنين ذكراً وأنثي، ليتربي منها نسلاً علي الأرض كلها.",
+              "arabic_base_no_tashkeel": "ومن طيور السماء غير الطاهرة إثنين إثنين ذكرا وأنثي، ليتربي منها نسلا علي الأرض كلها."
+            },
+            {
+              "row_index": 20,
+              "english": "For after seven more days I will cause it to rain on the earth forty days and forty nights, and I will blot out from the face of the earth every living thing I made.\"",
+              "arabic": "لأني بعد سبعة أيام أمطر ماء الطوفان علي الأرض أربعين يوماً وأربعين ليلة وأمحو كل الخليقة التي خلقتها عن وجه الأرض.",
+              "arabic_base_no_tashkeel": "لأني بعد سبعة أيام أمطر ماء الطوفان علي الأرض أربعين يوما وأربعين ليلة وأمحو كل الخليقة التي خلقتها عن وجه الأرض."
+            },
+            {
+              "row_index": 21,
+              "english": "So Noah did all the Lord God commanded him. Now Noah was six hundred years old when the flood of waters came on the earth.",
+              "arabic": "ففعل نوح كل ما أمر به الرب الإله وكان نوح إبن ست مئة سنة إذ هطل ماء الطوفان علي الأرض.",
+              "arabic_base_no_tashkeel": "ففعل نوح كل ما أمر به الرب الإله وكان نوح إبن ست مئة سنة إذ هطل ماء الطوفان علي الأرض."
+            },
+            {
+              "row_index": 22,
+              "english": "Then Noah, with his sons, his wife, and his sons' wives, entered the ark because of the flood waters.",
+              "arabic": "فمضي نوح وبنوه وإمرأتٍه ونساء بنيه معه ودخلوا الفلك بسبب ماء الطوفان.",
+              "arabic_base_no_tashkeel": "فمضي نوح وبنوه وإمرأته ونساء بنيه معه ودخلوا الفلك بسبب ماء الطوفان."
+            },
+            {
+              "row_index": 23,
+              "english": "Also the clean and unclean birds, the clean and unclean cattle, and everything that creeps on the earth,",
+              "arabic": "ومن البهائم الطاهرة ومن البهائم التي ليست بطاهرة ومن الطيور الطاهرة ومن الطيور الغير طاهرة ومن كل الهوام التي علي الأرض،",
+              "arabic_base_no_tashkeel": "ومن البهائم الطاهرة ومن البهائم التي ليست بطاهرة ومن الطيور الطاهرة ومن الطيور الغير طاهرة ومن كل الهوام التي علي الأرض،"
+            },
+            {
+              "row_index": 24,
+              "english": "Entered with Noah into the ark, two by two, male and female, as God commanded him.",
+              "arabic": "داخل إثنان إثنان مع نوح إلي الفلك ذكراً وأنثي كما أمره الرب الإله.",
+              "arabic_base_no_tashkeel": "داخل إثنان إثنان مع نوح إلي الفلك ذكرا وأنثي كما أمره الرب الإله."
+            },
+            {
+              "row_index": 25,
+              "english": "Then it came to pass after seven days, the waters of the flood came upon the earth. In the six-hundredth year of Noah's life, in the second month, on the seventeenth day of the month, on that day, all the fountains of the great deep were broken up, and the floodgates of heaven were opened.",
+              "arabic": "وحدث بعد سبعة أيام أن مياه الطوفان صارت علي الأرض في سنة ست مئة من حياة نوح، في الشهر الثاني في اليوم السابع عشر من الشهر، في ذلك اليوم تفجرت كل ينابيع الغمر العظيم وتفتحت ميازيب السماء.",
+              "arabic_base_no_tashkeel": "وحدث بعد سبعة أيام أن مياه الطوفان صارت علي الأرض في سنة ست مئة من حياة نوح، في الشهر الثاني في اليوم السابع عشر من الشهر، في ذلك اليوم تفجرت كل ينابيع الغمر العظيم وتفتحت ميازيب السماء."
+            },
+            {
+              "row_index": 26,
+              "english": "Then it rained on the earth forty days and forty nights. On the very same day Noah and his wife, his sons, Shem, Ham, and Japheth, and their wives entered the ark.",
+              "arabic": "وكان الطوفان علي الأرض أربعين يوماً وأربعين ليلة. وفي هذا اليوم دخل نوح وبنوه إلي الفلك، سام وحام ويافث بنو نوح وإمرأته ونساء بنيه الثلاث معه إلي الفلك.",
+              "arabic_base_no_tashkeel": "وكان الطوفان علي الأرض أربعين يوما وأربعين ليلة. وفي هذا اليوم دخل نوح وبنوه إلي الفلك، سام وحام ويافث بنو نوح وإمرأته ونساء بنيه الثلاث معه إلي الفلك."
+            },
+            {
+              "row_index": 27,
+              "english": "Also, all the wild animals after their kind, all cattle after their kind, every creeping thing moving upon the earth after its kind, and every bird after its kind, entered the ark with Noah, two by two, of all flesh in which is the breath of life.",
+              "arabic": "هم والوحوش كأجناسها، وكل الهوام التي تدب علي الأرض كأجناسها، وكل الطيور كأجناسها دخلت الفلك إثنين إثنين من كل ذي جسد فيه روح حياة.",
+              "arabic_base_no_tashkeel": "هم والوحوش كأجناسها، وكل الهوام التي تدب علي الأرض كأجناسها، وكل الطيور كأجناسها دخلت الفلك إثنين إثنين من كل ذي جسد فيه روح حياة."
+            },
+            {
+              "row_index": 28,
+              "english": "So those that entered, male and female of all flesh, went in as God commanded him. Then the Lord God shut him in the ark. Now the flood was on the earth forty days and forty nights.",
+              "arabic": "والداخلات دخلت ذكراً وأنثى من كل ذي جسد دخلت كما أمر الله نوحاً وأغلق الرب الإله الفلك من خارج. وكان ماء الطوفان علي الأرض أربعين يوماً وأربعين ليلة.",
+              "arabic_base_no_tashkeel": "والداخلات دخلت ذكرا وأنثى من كل ذي جسد دخلت كما أمر الله نوحا وأغلق الرب الإله الفلك من خارج. وكان ماء الطوفان علي الأرض أربعين يوما وأربعين ليلة."
+            },
+            {
+              "row_index": 29,
+              "english": "The waters increased and lifted up the ark, and it rose high above the earth. So the waters prevailed and greatly increased on the earth, and the ark moved about on the surface of the waters. The waters prevailed exceedingly on the earth, and all the high mountains under the whole heaven were covered.",
+              "arabic": "وكثر الماء ورفع الفلك فإرتفع عن الأرض وتعاظم الماء وكان يتكاثر جداً علي الأرض، وكان الفلك يسير فوق الماء و زاد الماء و كثر جدا علي الارض فتغطت جميع الجبال الشامخة التي تحت السماء.",
+              "arabic_base_no_tashkeel": "وكثر الماء ورفع الفلك فإرتفع عن الأرض وتعاظم الماء وكان يتكاثر جدا علي الأرض، وكان الفلك يسير فوق الماء و زاد الماء و كثر جدا علي الارض فتغطت جميع الجبال الشامخة التي تحت السماء."
+            },
+            {
+              "row_index": 30,
+              "english": "The waters prevailed fifteen cubits upward, and covered all the high mountains. And all flesh died that moves on the earth:",
+              "arabic": "وزاد الماء فوق الجبال خمسة عشر ذراعاً وغطي الجبال الشامخة كلها وهلك كل ذي جسد كان يدب علي الأرض:",
+              "arabic_base_no_tashkeel": "وزاد الماء فوق الجبال خمسة عشر ذراعا وغطي الجبال الشامخة كلها وهلك كل ذي جسد كان يدب علي الأرض:"
+            },
+            {
+              "row_index": 31,
+              "english": "birds and cattle, wild animals, and every creeping thing that moves on the earth, and every man.",
+              "arabic": "من الطيور والبهائم والوحوش وكل الزحافات التي كانت تزحف علي الأرض وجميع الناس،",
+              "arabic_base_no_tashkeel": "من الطيور والبهائم والوحوش وكل الزحافات التي كانت تزحف علي الأرض وجميع الناس،"
+            },
+            {
+              "row_index": 32,
+              "english": "Thus all things in whose nostrils was the breath of life, and everything on dry land, died. So He blotted out all living things on the face of the earth:",
+              "arabic": "كل ما كان فيه نسمة حياة. وكل ما كان علي اليابسة مات فمحيت كل الخليقة التي كانت علي وجه الأرض.",
+              "arabic_base_no_tashkeel": "كل ما كان فيه نسمة حياة. وكل ما كان علي اليابسة مات فمحيت كل الخليقة التي كانت علي وجه الأرض."
+            },
+            {
+              "row_index": 33,
+              "english": "Both man and cattle, creeping things and the birds of heaven. They were blotted out from the earth.",
+              "arabic": "كلها من الناس والبهائم والهوام وطيور السماء فإنمحت من علي الأرض.",
+              "arabic_base_no_tashkeel": "كلها من الناس والبهائم والهوام وطيور السماء فإنمحت من علي الأرض."
+            },
+            {
+              "row_index": 34,
+              "english": "Only Noah and those with him in the ark remained alive.",
+              "arabic": "وبقي نوح وحده ومن معه في الفلك.",
+              "arabic_base_no_tashkeel": "وبقي نوح وحده ومن معه في الفلك."
+            },
+            {
+              "row_index": 35,
+              "english": "Now the waters prevailed on the earth one hundred and fifty days. Then God remembered Noah, and whatever was with him in the ark: all the wild animals, all the cattle, all the birds, and all the creeping things.",
+              "arabic": "وإرتفع الماء عن الأرض مئة وخمسين يوماً. ثم ذكر الله نوحاً وكل الوحوش وكل الدواب وكل الطيور وكل الهوام والذين كانوا معه في الفلك",
+              "arabic_base_no_tashkeel": "وإرتفع الماء عن الأرض مئة وخمسين يوما. ثم ذكر الله نوحا وكل الوحوش وكل الدواب وكل الطيور وكل الهوام والذين كانوا معه في الفلك"
+            },
+            {
+              "row_index": 36,
+              "english": "And God made a wind to pass over the earth, and the waters subsided. The fountains of the deep and the floodgates of heaven were also stopped, and the rain from heaven was restrained.",
+              "arabic": "وأجاز الله ريحاً علي الأرض فهبط الماء وإنسدت ينابيع الغمر وميازيب السماء فإمتنع المطر من السماء.",
+              "arabic_base_no_tashkeel": "وأجاز الله ريحا علي الأرض فهبط الماء وإنسدت ينابيع الغمر وميازيب السماء فإمتنع المطر من السماء."
+            },
+            {
+              "row_index": 37,
+              "english": "And the waters receded continually from the earth. At the end of the hundred and fifty days the waters decreased.",
+              "arabic": "وغاص الماء راجعاً عن الأرض ونضب متناقصاً من بعد مائة وخمسين يوماً.",
+              "arabic_base_no_tashkeel": "وغاص الماء راجعا عن الأرض ونضب متناقصا من بعد مائة وخمسين يوما."
+            },
+            {
+              "row_index": 38,
+              "english": "Then the ark rested in the seventh month, on the seventeenth day of the month, on the mountains of Ararat.",
+              "arabic": "وإستقر الفلك في الشهر السابع من اليوم السابع عشر من الشهر علي جبل أراراط.",
+              "arabic_base_no_tashkeel": "وإستقر الفلك في الشهر السابع من اليوم السابع عشر من الشهر علي جبل أراراط."
+            },
+            {
+              "row_index": 39,
+              "english": "And the waters decreased continually until the tenth month. In the tenth month, on the first day of the month, the tops of the mountains were seen.",
+              "arabic": "وكانت المياه ترسب وتنقص إلي الشهر العاشر وفي الشهر الحادي عشر في اليوم الأول من الشهر ظهرت رؤوس الجبال.",
+              "arabic_base_no_tashkeel": "وكانت المياه ترسب وتنقص إلي الشهر العاشر وفي الشهر الحادي عشر في اليوم الأول من الشهر ظهرت رؤوس الجبال."
+            },
+            {
+              "row_index": 40,
+              "english": "So it came to pass, at the end of forty days, Noah opened the window of the ark he had made.",
+              "arabic": "وحدث من بعد أربعين يوماً أن نوحاً فتح طاقة الفلك التي عملها.",
+              "arabic_base_no_tashkeel": "وحدث من بعد أربعين يوما أن نوحا فتح طاقة الفلك التي عملها."
+            },
+            {
+              "row_index": 41,
+              "english": "Then he sent out a raven, which kept going to and from until the waters dried up from the earth.",
+              "arabic": "وسرح الغراب لينظر إن كان الماء إنقطع فلما خرج لم يرجع إليه حتي جف الماء من الأرض.",
+              "arabic_base_no_tashkeel": "وسرح الغراب لينظر إن كان الماء إنقطع فلما خرج لم يرجع إليه حتي جف الماء من الأرض."
+            },
+            {
+              "row_index": 42,
+              "english": "He also sent out from himself a dove, to see if the waters had receded from the face of the ground.",
+              "arabic": "ثم أرسل الحمامة خلفه ليري هل إنقطع الماء عن وجه الأرض.",
+              "arabic_base_no_tashkeel": "ثم أرسل الحمامة خلفه ليري هل إنقطع الماء عن وجه الأرض."
+            },
+            {
+              "row_index": 43,
+              "english": "But the dove found no resting place for the sole of her foot, and she returned to him in the ark, for the waters were on the face of the whole earth.",
+              "arabic": "فلما لم تجد الحمامة مستقراً لرجليها رجعت إليه ودخلت الفلك لأن مياهاً كانت علي وجه الأرض كلها.",
+              "arabic_base_no_tashkeel": "فلما لم تجد الحمامة مستقرا لرجليها رجعت إليه ودخلت الفلك لأن مياها كانت علي وجه الأرض كلها."
+            },
+            {
+              "row_index": 44,
+              "english": "So he put out his hand and took her, and brought her to himself in the ark. Then he waited yet another seven days, and again he sent out the dove from the ark.",
+              "arabic": "فمد يده وأخذها وأدخلها إليه في الفلك فلبث أيضاً سبعة أيام أخر وعاد فأرسل الحمامة من الفلك",
+              "arabic_base_no_tashkeel": "فمد يده وأخذها وأدخلها إليه في الفلك فلبث أيضا سبعة أيام أخر وعاد فأرسل الحمامة من الفلك"
+            },
+            {
+              "row_index": 45,
+              "english": "The dove returned to him in the evening, and behold, a freshly plucked olive leaf was in her mouth; and Noah knew the waters had receded from the earth.",
+              "arabic": "فرجعت إليه عند المساء. وإذ ورقة زيتون خضراء في فمها فعلم نوح أن الماء قد إنقطع عن الأرض.",
+              "arabic_base_no_tashkeel": "فرجعت إليه عند المساء. وإذ ورقة زيتون خضراء في فمها فعلم نوح أن الماء قد إنقطع عن الأرض."
+            },
+            {
+              "row_index": 46,
+              "english": "So he waited yet another seven days days and again sent out the dove; however, she did not return to him anymore.",
+              "arabic": "ثم تأني سبعة أيام أخر وأرسل الحمامة أيضاً فلم تعد ترجع إليه",
+              "arabic_base_no_tashkeel": "ثم تأني سبعة أيام أخر وأرسل الحمامة أيضا فلم تعد ترجع إليه"
+            },
+            {
+              "row_index": 47,
+              "english": "And it came to pass in the six hundred and first year of Noah's life, in the first month, on the first day of the month, the waters were dried up from the earth; and Noah removed the covering of the ark and looked, and indeed, the surface of the ground was dry.",
+              "arabic": "وكان في السنة الواحدة والست مئة من حياة نوح في الشهر الأول من أول الشهر جفت المياه عن وجه الأرض فكشف نوح الغطاء عن طبقات الفلك. ونظر وإذا الماء قد جف عن وجه الأرض.",
+              "arabic_base_no_tashkeel": "وكان في السنة الواحدة والست مئة من حياة نوح في الشهر الأول من أول الشهر جفت المياه عن وجه الأرض فكشف نوح الغطاء عن طبقات الفلك. ونظر وإذا الماء قد جف عن وجه الأرض."
+            },
+            {
+              "row_index": 48,
+              "english": "Now in the second month, on the twenty-seventh day of the month, the earth was dried.",
+              "arabic": "وفي الشهر الثاني من اليوم السابع والعشرين جفت الأرض.",
+              "arabic_base_no_tashkeel": "وفي الشهر الثاني من اليوم السابع والعشرين جفت الأرض."
+            },
+            {
+              "row_index": 49,
+              "english": "Then the Lord God spoke to Noah, saying, \"Go out of the ark, you and your wife, and your sons and their wives with you.",
+              "arabic": "وكلم الرب الإله نوحاً قائلاً: أخرج من الفلك أنت وبنوك وزوجتك ونساء بنيك معك وجميع الوحوش معك.",
+              "arabic_base_no_tashkeel": "وكلم الرب الإله نوحا قائلا: أخرج من الفلك أنت وبنوك وزوجتك ونساء بنيك معك وجميع الوحوش معك."
+            },
+            {
+              "row_index": 50,
+              "english": "Also, bring out with you every living thing of all flesh: birds and cattle and every creeping thing that moves upon the earth, so they may abound on the earth, and increase and multiply on the earth.\"",
+              "arabic": "وكل ذي جسد من الطيور إلى البهائم، وكل الهوام التي تدب على الأرض أخرجها معك وإنمو وأكثروا على الأرض.",
+              "arabic_base_no_tashkeel": "وكل ذي جسد من الطيور إلى البهائم، وكل الهوام التي تدب على الأرض أخرجها معك وإنمو وأكثروا على الأرض."
+            },
+            {
+              "row_index": 51,
+              "english": "So Noah went out, along with his wife and his sons and their wives. Every animal, every bird, and every creeping thing that moves upon the earth, according to their kind, went out of the ark.",
+              "arabic": "فخرج نوح وبنوه وإمرأته ونساء بنيه معه وجميع الوحوش وكل الدواب وكل الهوام التي تدب علي الأرض وكل الطيور كأجناسها خرجت من الفلك.",
+              "arabic_base_no_tashkeel": "فخرج نوح وبنوه وإمرأته ونساء بنيه معه وجميع الوحوش وكل الدواب وكل الهوام التي تدب علي الأرض وكل الطيور كأجناسها خرجت من الفلك."
+            },
+            {
+              "row_index": 52,
+              "english": "Then Noah built an altar to God, and took of every clean, animal and of every clean bird, and offered whole burnt offerings on the altar. So the Lord God smelled a sweet aroma.",
+              "arabic": "وبني نوح مذبحاً لله وأخذ من كل البهائم الطاهرة ومن كل الطيور الطاهرة وأصعد محرقات علي المذبح فإشتم الرب الإله رائحة البخور،",
+              "arabic_base_no_tashkeel": "وبني نوح مذبحا لله وأخذ من كل البهائم الطاهرة ومن كل الطيور الطاهرة وأصعد محرقات علي المذبح فإشتم الرب الإله رائحة البخور،"
+            },
+            {
+              "row_index": 53,
+              "english": "Then the Lord God thought it over and said, \"I will never again curse the earth because of man's works, although the mind of man is diligently involved with evil things from his youth; nor will I again destroy every living thing as I have done.",
+              "arabic": "فقال الرب الإله في فكره: إني لا أعود ألعن الأرض من أجل أعمال البشر، لأن قلب الإنسان مائل إلي الشر منذ حداثته: ولا أعود أيضاً أضرب كل ذي جسد حي كما فعلت،",
+              "arabic_base_no_tashkeel": "فقال الرب الإله في فكره: إني لا أعود ألعن الأرض من أجل أعمال البشر، لأن قلب الإنسان مائل إلي الشر منذ حداثته: ولا أعود أيضا أضرب كل ذي جسد حي كما فعلت،"
+            },
+            {
+              "row_index": 54,
+              "english": "While the earth remains, seedtime and harvest, cold and heat, summer and spring shall not cease by day or by night.\"",
+              "arabic": "كل أيام الأرض زرع وحصاد وبرد وحر وصيف وشتاء ونهار وليل لا يستريحان.",
+              "arabic_base_no_tashkeel": "كل أيام الأرض زرع وحصاد وبرد وحر وصيف وشتاء ونهار وليل لا يستريحان."
+            },
+            {
+              "row_index": 55,
+              "english": "Thus God blessed Noah and his sons, and said to them, \"Increase and multiply, and fill the earth, and have dominion over it.",
+              "arabic": "وبارك الله نوحاً وبنيه وقال لهم: إنموا وأكثروا وإملأوا الأرض وتسلطوا عليها",
+              "arabic_base_no_tashkeel": "وبارك الله نوحا وبنيه وقال لهم: إنموا وأكثروا وإملأوا الأرض وتسلطوا عليها"
+            },
+            {
+              "row_index": 56,
+              "english": "For the dread and fear of you shall be upon all the wild animals of the earth, all the birds of heaven, all that move upon the earth, and all the fish of the sea. I have put them under your authority.",
+              "arabic": "ولتكن خشيتكم ورهبتكم علي كل وحوش الأرض وجميع طيور السماء وكل ما يدب علي الأرض وكل أسماك البحر قد دفعتها إلي أيديكم",
+              "arabic_base_no_tashkeel": "ولتكن خشيتكم ورهبتكم علي كل وحوش الأرض وجميع طيور السماء وكل ما يدب علي الأرض وكل أسماك البحر قد دفعتها إلي أيديكم"
+            },
+            {
+              "row_index": 57,
+              "english": "Every moving thing that lives shall be food for you. I have given you all things, even as I did the green herbs.",
+              "arabic": "وكل دابة حية تكون لكم طعاماً. كالعشب الأخضر",
+              "arabic_base_no_tashkeel": "وكل دابة حية تكون لكم طعاما. كالعشب الأخضر"
+            },
+            {
+              "row_index": 58,
+              "english": "But you shall not eat flesh with its lifeblood. Surely for your lifeblood I will demand a reckoning; from the hand of all the wild animals I will require it; and I will require the life of man at the hand of his fellow man.",
+              "arabic": "أعطيتكم جميعها لحماً بدم نفسه لا تأكلوه، لأن دم أنفسكم أطلبه من يد جميع الوحوش ومن يد الرجل اللص أطلب نفس الرجل",
+              "arabic_base_no_tashkeel": "أعطيتكم جميعها لحما بدم نفسه لا تأكلوه، لأن دم أنفسكم أطلبه من يد جميع الوحوش ومن يد الرجل اللص أطلب نفس الرجل"
+            },
+            {
+              "row_index": 59,
+              "english": "Whoever sheds man's blood, by man his blood shall be shed; because I made man in God's image. So then, increase and multiply; and fill the earth and have dominion over it.\"",
+              "arabic": "ومن أهرق دم إنسان فيهرق دمه عوضاً عنه لأني خلقت الإنسان علي صورة الله. أما أنتم فإنموا وأكثروا وإملأوا الأرض وتكاثروا فيها.",
+              "arabic_base_no_tashkeel": "ومن أهرق دم إنسان فيهرق دمه عوضا عنه لأني خلقت الإنسان علي صورة الله. أما أنتم فإنموا وأكثروا وإملأوا الأرض وتكاثروا فيها."
+            },
+            {
+              "row_index": 60,
+              "english": "So Noah went out, and his sons and his wife and his sons' wives with him.",
+              "arabic": "فَخَرَجَ نُوحٌ وَبَنُوهُ وَامْرَاتُهُ وَنِسَاءُ بَنِيهِ مَعَهُ.",
+              "arabic_base_no_tashkeel": "فخرج نوح وبنوه وامراته ونساء بنيه معه."
+            },
+            {
+              "row_index": 61,
+              "english": "Every animal, every creeping thing, every bird, and whatever creeps on the earth, according to their families, went out of the ark.",
+              "arabic": "وَكُلُّ الْحَيَوَانَاتِ وَكُلُّ الطُّيُورِ كُلُّ مَا يَدِبُّ عَلَى الارْضِ كَانْوَاعِهَا خَرَجَتْ مِنَ الْفُلْكِ.",
+              "arabic_base_no_tashkeel": "وكل الحيوانات وكل الطيور كل ما يدب على الارض كانواعها خرجت من الفلك."
+            },
+            {
+              "row_index": 62,
+              "english": "Then Noah built an altar to the Lord, and took of every clean animal and of every clean bird, and offered burnt offerings on the altar.",
+              "arabic": "وَبَنَى نُوحٌ مَذْبَحا لِلرَّبِّ. وَاخَذَ مِنْ كُلِّ الْبَهَائِمِ الطَّاهِرَةِ وَمِنْ كُلِّ الطُّيُورِ الطَّاهِرَةِ وَاصْعَدَ مُحْرَقَاتٍ عَلَى الْمَذْبَحِ",
+              "arabic_base_no_tashkeel": "وبنى نوح مذبحا للرب. واخذ من كل البهائم الطاهرة ومن كل الطيور الطاهرة واصعد محرقات على المذبح"
+            },
+            {
+              "row_index": 63,
+              "english": "And the Lord smelled a soothing aroma. Then the Lord said in His heart, \"I will never again curse the ground for man's sake, although the imagination of man's heart is evil from his youth; nor will I again destroy every living thing as I have done.",
+              "arabic": "فَتَنَسَّمَ الرَّبُّ رَائِحَةَ الرِّضَا. وَقَالَ الرَّبُّ فِي قَلْبِهِ: «لا اعُودُ الْعَنُ الارْضَ ايْضا مِنْ اجْلِ الانْسَانِ لانَّ تَصَوُّرَ قَلْبِ الانْسَانِ شِرِّيرٌ مُنْذُ حَدَاثَتِهِ. وَلا اعُودُ ايْضا امِيتُ كُلَّ حَيٍّ كَمَا فَعَلْتُ.",
+              "arabic_base_no_tashkeel": "فتنسم الرب رائحة الرضا. وقال الرب في قلبه: «لا اعود العن الارض ايضا من اجل الانسان لان تصور قلب الانسان شرير منذ حداثته. ولا اعود ايضا اميت كل حي كما فعلت."
+            },
+            {
+              "row_index": 64,
+              "english": "\"While the earth remains, Seedtime and harvest, Cold and heat, Winter and summer, And day and night Shall not cease.\"",
+              "arabic": "مُدَّةَ كُلِّ ايَّامِ الارْضِ زَرْعٌ وَحَصَادٌ وَبَرْدٌ وَحَرٌّ وَصَيْفٌ وَشِتَاءٌ وَنَهَارٌ وَلَيْلٌ لا تَزَالُ».",
+              "arabic_base_no_tashkeel": "مدة كل ايام الارض زرع وحصاد وبرد وحر وصيف وشتاء ونهار وليل لا تزال»."
+            },
+            {
+              "row_index": 65,
+              "english": "So God blessed Noah and his sons, and said to them: \"Be fruitful and multiply, and fill the earth.",
+              "arabic": "وَبَارَكَ اللهُ نُوحا وَبَنِيهِ وَقَالَ لَهُمْ: «اثْمِرُوا وَاكْثُرُوا وَامْلَاوا الارْضَ.",
+              "arabic_base_no_tashkeel": "وبارك الله نوحا وبنيه وقال لهم: «اثمروا واكثروا واملاوا الارض."
+            },
+            {
+              "row_index": 66,
+              "english": "And the fear of you and the dread of you shall be on every beast of the earth, on every bird of the air, on all that move on the earth, and on all the fish of the sea. They are given into your hand.",
+              "arabic": "وَلْتَكُنْ خَشْيَتُكُمْ وَرَهْبَتُكُمْ عَلَى كُلِّ حَيَوَانَاتِ الارْضِ وَكُلِّ طُيُورِ السَّمَاءِ مَعَ كُلِّ مَا يَدِبُّ عَلَى الارْضِ وَكُلِّ اسْمَاكِ الْبَحْرِ. قَدْ دُفِعَتْ الَى ايْدِيكُمْ.",
+              "arabic_base_no_tashkeel": "ولتكن خشيتكم ورهبتكم على كل حيوانات الارض وكل طيور السماء مع كل ما يدب على الارض وكل اسماك البحر. قد دفعت الى ايديكم."
+            },
+            {
+              "row_index": 67,
+              "english": "Every moving thing that lives shall be food for you. I have given you all things, even as the green herbs.",
+              "arabic": "كُلُّ دَابَّةٍ حَيَّةٍ تَكُونُ لَكُمْ طَعَاما. كَالْعُشْبِ الاخْضَرِ دَفَعْتُ الَيْكُمُ الْجَمِيعَ.",
+              "arabic_base_no_tashkeel": "كل دابة حية تكون لكم طعاما. كالعشب الاخضر دفعت اليكم الجميع."
+            },
+            {
+              "row_index": 68,
+              "english": "But you shall not eat flesh with its life, that is, its blood.",
+              "arabic": "غَيْرَ انَّ لَحْما بِحَيَاتِهِ دَمِهِ لا تَاكُلُوهُ.",
+              "arabic_base_no_tashkeel": "غير ان لحما بحياته دمه لا تاكلوه."
+            },
+            {
+              "row_index": 69,
+              "english": "Surely for your lifeblood I will demand a reckoning; from the hand of every beast I will require it, and from the hand of man. From the hand of every man's brother I will require the life of man.",
+              "arabic": "وَاطْلُبُ انَا دَمَكُمْ لانْفُسِكُمْ فَقَطْ. مِنْ يَدِ كُلِّ حَيَوَانٍ اطْلُبُهُ. وَمِنْ يَدِ الانْسَانِ اطْلُبُ نَفْسَ الانْسَانِ مِنْ يَدِ الانْسَانِ اخِيهِ.",
+              "arabic_base_no_tashkeel": "واطلب انا دمكم لانفسكم فقط. من يد كل حيوان اطلبه. ومن يد الانسان اطلب نفس الانسان من يد الانسان اخيه."
+            },
+            {
+              "row_index": 70,
+              "english": "\"Whoever sheds man's blood, By man his blood shall be shed; For in the image of God He made man.",
+              "arabic": "سَافِكُ دَمِ الانْسَانِ بِالانْسَانِ يُسْفَكُ دَمُهُ. لانَّ اللهَ عَلَى صُورَتِهِ عَمِلَ الانْسَانَ.",
+              "arabic_base_no_tashkeel": "سافك دم الانسان بالانسان يسفك دمه. لان الله على صورته عمل الانسان."
+            },
+            {
+              "row_index": 71,
+              "english": "And as for you, be fruitful and multiply; Bring forth abundantly in the earth And multiply in it.\"",
+              "arabic": "فَاثْمِرُوا انْتُمْ وَاكْثُرُوا وَتَوَالَدُوا فِي الارْضِ وَتَكَاثَرُوا فِيهَا».",
+              "arabic_base_no_tashkeel": "فاثمروا انتم واكثروا وتوالدوا في الارض وتكاثروا فيها»."
+            }
+          ]
+        },
+        {
+          "title": "2nd Prophecy (Proverbs 9: 1 - 11)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "O you who bring good tidings to Zion, go into the high mountain; O you who bring good tidings to Jerusalem, lift up your voice with strength; lift it up, be not afraid. Say to the cities of Judah, \"Behold your God.\" Behold, the Lord is coming with strength, and His arm is with authority. Behold, His reward is with Him, and His work before Him. He will feed His flock like a shepherd and gather the lambs with His arm; and He will comfort those with young.",
+              "arabic": "إصعد علي جبل عال يا مبشر صهيون. إرفع صوتك بقوة يا مبشر أورشليم. أرفع صوتك بقوة ولا تخف قل لمدن يهوذا: هوذا ربكم آتٍ بقوة وذراعه تحكم له هوذا أجرته معه وعمله قدامه. كراع يرعى قطيع غنمه وبذراعه يجمع الحملان ويعزي الحبالي.",
+              "arabic_base_no_tashkeel": "إصعد علي جبل عال يا مبشر صهيون. إرفع صوتك بقوة يا مبشر أورشليم. أرفع صوتك بقوة ولا تخف قل لمدن يهوذا: هوذا ربكم آت بقوة وذراعه تحكم له هوذا أجرته معه وعمله قدامه. كراع يرعى قطيع غنمه وبذراعه يجمع الحملان ويعزي الحبالي."
+            },
+            {
+              "row_index": 2,
+              "english": "Who measured the water in His hand, and heaven with a span, and all the earth with a handful? Who weighed the mountains in scales and the vales in a balance? Who knows the Lord's mind, and who was His counselor; who advises Him? Or with whom does He take counsel, who instructs Him, and who teaches Him judgment and shows Him the way of understanding?",
+              "arabic": "من كال الماء بيده وقاس السماء بشبره والأرض كلها بقبضته؟ من وزن الجبال بالمثقال والأكام بالميزان؟ من علم قلب الرب أو من كان معه مشيراً فعلمه؟ أو من الذي أراه الحكم أو طريق الفهم؟ من عرضها له أو من سبق فأعطاه حتي عوضه؟",
+              "arabic_base_no_tashkeel": "من كال الماء بيده وقاس السماء بشبره والأرض كلها بقبضته؟ من وزن الجبال بالمثقال والأكام بالميزان؟ من علم قلب الرب أو من كان معه مشيرا فعلمه؟ أو من الذي أراه الحكم أو طريق الفهم؟ من عرضها له أو من سبق فأعطاه حتي عوضه؟"
+            },
+            {
+              "row_index": 3,
+              "english": "The nations are as a drop in a bucket and are counted as the balance of a scale; and they are counted as spittle. Lebanon is not sufficient to burn nor its four-footed animals sufficient for a whole burnt offering.",
+              "arabic": "إنما الأمم كلها عنده مثل نقطة ماء تنقط في قادوس. ومثل غبار الميزان حسبوا وجميعهم كالبصاق يعدون. وخشب لبنان لا يعد للحريق وجميع البهائم لا تعد شيئأً للمحرقة.",
+              "arabic_base_no_tashkeel": "إنما الأمم كلها عنده مثل نقطة ماء تنقط في قادوس. ومثل غبار الميزان حسبوا وجميعهم كالبصاق يعدون. وخشب لبنان لا يعد للحريق وجميع البهائم لا تعد شيئأ للمحرقة."
+            },
+            {
+              "row_index": 4,
+              "english": "All nations are as nothing and are counted as nothing. To whom then will you liken the Lord, and to what likeness will you compare Him? Has the workman made an image, or has the goldsmith overspread it with gold, gilding it, making a likeness of Him?",
+              "arabic": "جميع الأمم لديه كلا شئ. وعنده كالعدم حسبوا. فبمن شبهتهم الرب. وبأي مثل مثلتموه؟ هل بصورة صنعها النجار. وصفحه الصائغ بالذهب وركب فيه الذهب وشبهه يتلف؟",
+              "arabic_base_no_tashkeel": "جميع الأمم لديه كلا شئ. وعنده كالعدم حسبوا. فبمن شبهتهم الرب. وبأي مثل مثلتموه؟ هل بصورة صنعها النجار. وصفحه الصائغ بالذهب وركب فيه الذهب وشبهه يتلف؟"
+            },
+            {
+              "row_index": 5,
+              "english": "For the workman chooses wood that will not rot, and skillfully seeks to prepare a carved image that will not totter. Will you not know? Will you not hear? Has it not been told you from the beginning?",
+              "arabic": "إنما خشبة لا تسوس إختارها النجار وبحكمة يطلب كيف يقيم تمثالاً لا يتحرك. ألا تعلمون؟ ألا تسمعون؟ ألم تخبروا منذ البدء؟",
+              "arabic_base_no_tashkeel": "إنما خشبة لا تسوس إختارها النجار وبحكمة يطلب كيف يقيم تمثالا لا يتحرك. ألا تعلمون؟ ألا تسمعون؟ ألم تخبروا منذ البدء؟"
+            },
+            {
+              "row_index": 6,
+              "english": "Do you not know the foundations of the earth? It is He who possesses the circle of the earth, and its inhabitants are like grasshoppers. It is He who stretches out heaven like a vault, and spreads them out like a tent to dwell in.",
+              "arabic": "أما فهمتم اسس الأرض؟ القابض علي كل محيط الأرض والسكان فيها. كالجراد الذي رفع السماء كالقبة وبسطها كالخيمة يسكن فيها.",
+              "arabic_base_no_tashkeel": "أما فهمتم اسس الأرض؟ القابض علي كل محيط الأرض والسكان فيها. كالجراد الذي رفع السماء كالقبة وبسطها كالخيمة يسكن فيها."
+            },
+            {
+              "row_index": 7,
+              "english": "He makes the rulers He establishes to rule to be as nothing; He makes the earth as nothing. Scarcely shall they be planted, scarcely shall they be sown, scarcely shall their stock take root in the earth,",
+              "arabic": "الذي يجعل الأراخنة كلا شئ، والأرض التي خلقها كخواء لا يزرعون ولا يغرسون ولا يكون أصلهم علي الأرض،",
+              "arabic_base_no_tashkeel": "الذي يجعل الأراخنة كلا شئ، والأرض التي خلقها كخواء لا يزرعون ولا يغرسون ولا يكون أصلهم علي الأرض،"
+            },
+            {
+              "row_index": 8,
+              "english": "When He shall also blow on them and they will wither, and the whirlwind will take them away like stubble. \"Now then, to whom will you liken Me, that I should be exalted?\" says the Holy One.",
+              "arabic": "لأنه نفخ عليهم فيبسوا وحملهم العاصف كالقش. والآن بمن تشبهونني فأتعالي يقول القدوس؟",
+              "arabic_base_no_tashkeel": "لأنه نفخ عليهم فيبسوا وحملهم العاصف كالقش. والآن بمن تشبهونني فأتعالي يقول القدوس؟"
+            },
+            {
+              "row_index": 9,
+              "english": "Lift up your eyes on high, and see. Who displayed these things? He who brings forth their host by number; He who calls them all by name. From the greatness of His glory to the strength of His might, nothing escapes Your notice. For why do you say, O Jacob, and speak, O Israel, saying, \"My way is hidden from God, and my God took away my judgment and departed\"?",
+              "arabic": "أرفعوا عيونكم إلي العلي. وأنظروا من خلق هذه كلها الذي يخرج زينتها عدداً يدعوها من مياه كثيرة ومن عزة قوته لا ينسي شيئاً منها، فلماذا تقول يا يعقوب، وبماذا تتكلم يا اسرائيل إن طريقي خفيت عن الله، وأن الله نزع قضائي فمضي؟",
+              "arabic_base_no_tashkeel": "أرفعوا عيونكم إلي العلي. وأنظروا من خلق هذه كلها الذي يخرج زينتها عددا يدعوها من مياه كثيرة ومن عزة قوته لا ينسي شيئا منها، فلماذا تقول يا يعقوب، وبماذا تتكلم يا اسرائيل إن طريقي خفيت عن الله، وأن الله نزع قضائي فمضي؟"
+            },
+            {
+              "row_index": 10,
+              "english": "So then, have you not known? Have you not heard? The everlasting God, the God who created the ends of the earth, neither hungers nor is weary. His understanding is unsearchable. He gives strength to the hungry, and sorrow to those who do not grieve.",
+              "arabic": "والآن أتعلم أنك قد سمعت أن الله الابدي، الله الذي خلق أقطار الأرض لا يتحرك ولا يتعب ولا حد لعلمه؟ الذي يهب للجائع قوتاً، والمعطي وجع القلب للذين لا تحترق قلوبهم جاعت الغلمان،",
+              "arabic_base_no_tashkeel": "والآن أتعلم أنك قد سمعت أن الله الابدي، الله الذي خلق أقطار الأرض لا يتحرك ولا يتعب ولا حد لعلمه؟ الذي يهب للجائع قوتا، والمعطي وجع القلب للذين لا تحترق قلوبهم جاعت الغلمان،"
+            },
+            {
+              "row_index": 11,
+              "english": "Even the youths shall faint and be weary, and the elect shall be without strength. But those who wait on God shall renew their strength; they shall mount up with wings like eagles; they shall run and not be weary; they shall walk and not hunger.",
+              "arabic": "وتعب الشبان والمختارون يصيرون غير أقوياء، والذين ينتظرون الله يبتدلون فتتجدد قوتهم، وتنبت له أجنحة كالنسور، يسرعون ولا يتعبون ويمشون ولا يجوعون.",
+              "arabic_base_no_tashkeel": "وتعب الشبان والمختارون يصيرون غير أقوياء، والذين ينتظرون الله يبتدلون فتتجدد قوتهم، وتنبت له أجنحة كالنسور، يسرعون ولا يتعبون ويمشون ولا يجوعون."
+            }
+          ]
+        },
+        {
+          "title": "3rd Prophecy (Isaiah 40: 9 - 31)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "I continued to watch until thrones were put in place, and the Ancient of Days enthroned Himself. His clothing was white as snow, and the hair of His head was like pure wool.",
+              "arabic": "أنا دانيال رأيت في رؤي الليل كنت أري أنه وضعت عروش وجلس العتيق الايام لباسه أبيض كالثلج وشعر رأسه كالصوف النقي.",
+              "arabic_base_no_tashkeel": "أنا دانيال رأيت في رؤي الليل كنت أري أنه وضعت عروش وجلس العتيق الايام لباسه أبيض كالثلج وشعر رأسه كالصوف النقي."
+            },
+            {
+              "row_index": 2,
+              "english": "His throne was a fiery flame, and its wheels a burning fire. A river of fire flowed from before Him.",
+              "arabic": "وعرشه لهيب نار وعجلاته نار متقدة ونهر نار يخرج ويجري أمامه.",
+              "arabic_base_no_tashkeel": "وعرشه لهيب نار وعجلاته نار متقدة ونهر نار يخرج ويجري أمامه."
+            },
+            {
+              "row_index": 3,
+              "english": "Thousands and thousands ministered to Him, and countless thousands stood before Him. The court was in session, and the books were opened.",
+              "arabic": "وألوف ألوف كانت تخدمه وربوات ربوات وقوف قدامه فجلس الديان وفتحت الأسفار.",
+              "arabic_base_no_tashkeel": "وألوف ألوف كانت تخدمه وربوات ربوات وقوف قدامه فجلس الديان وفتحت الأسفار."
+            },
+            {
+              "row_index": 4,
+              "english": "Then I kept watching because of the sound of the arrogant words the horn was speaking.",
+              "arabic": "ورأيت في تلك الساعة صوت الكلام العظيم الذي كان يكلم به القرن.",
+              "arabic_base_no_tashkeel": "ورأيت في تلك الساعة صوت الكلام العظيم الذي كان يكلم به القرن."
+            },
+            {
+              "row_index": 5,
+              "english": "I watched until the beast was put to death and destroyed, and its body given to the burning flame.",
+              "arabic": "وكنت أنظر حتي قتل الوحش وهلك ودفع جسمه ليحرق بالنار.",
+              "arabic_base_no_tashkeel": "وكنت أنظر حتي قتل الوحش وهلك ودفع جسمه ليحرق بالنار."
+            },
+            {
+              "row_index": 6,
+              "english": "As for the rest of the beasts, their dominion was taken away, yet length of life was given them for a season and a time.",
+              "arabic": "أما باقي الوحوش فنزع عنهم سلطانهم وأعطوا طول الحياة إلي زمان ووقت.",
+              "arabic_base_no_tashkeel": "أما باقي الوحوش فنزع عنهم سلطانهم وأعطوا طول الحياة إلي زمان ووقت."
+            },
+            {
+              "row_index": 7,
+              "english": "I continued to observe the vision in the night, and behold; One like the Son of Man was coming with the clouds of heaven, until He came to the Ancient of Days and approached Him.",
+              "arabic": "ثم رأيت في روئ الليل وإذا مع سحب السماء مثل إبن الإنسان آتياً علي سحاب السماء فبلغ وجاء إلي العتيق الأيام فقربه أمامه.",
+              "arabic_base_no_tashkeel": "ثم رأيت في روئ الليل وإذا مع سحب السماء مثل إبن الإنسان آتيا علي سحاب السماء فبلغ وجاء إلي العتيق الأيام فقربه أمامه."
+            },
+            {
+              "row_index": 8,
+              "english": "Then dominion, honor, and the kingdom were given to Him, and all peoples, tribes, and languages served Him.",
+              "arabic": "فأعطي له الرئاسة والكرامة والملك وجميع الشعوب والأسباط ولغات الألسن تتعبد له،",
+              "arabic_base_no_tashkeel": "فأعطي له الرئاسة والكرامة والملك وجميع الشعوب والأسباط ولغات الألسن تتعبد له،"
+            },
+            {
+              "row_index": 9,
+              "english": "His authority is an everlasting authority which shall not pass away, and His kingdom shall not be destroyed.",
+              "arabic": "وسلطانه سلطان أبدي لا يزول وملكه ليس له إنقضاء.",
+              "arabic_base_no_tashkeel": "وسلطانه سلطان أبدي لا يزول وملكه ليس له إنقضاء."
+            },
+            {
+              "row_index": 10,
+              "english": "My spirit within me trembled with fear, and the visions in my head troubled me.",
+              "arabic": "أما أنا دانيال فإرتعدت روحي وفرائصي وأفزعتني رؤي راسي.",
+              "arabic_base_no_tashkeel": "أما أنا دانيال فإرتعدت روحي وفرائصي وأفزعتني رؤي راسي."
+            },
+            {
+              "row_index": 11,
+              "english": "The workman molds an image, The goldsmith overspreads it with gold, And the silversmith casts silver chains.",
+              "arabic": "اَلصَّنَمُ يَسْبِكُهُ الصَّانِعُ وَالصَّائِغُ يُغَشِّيهِ بِذَهَبٍ وَيَصُوغُ سَلاَسِلَ فِضَّةٍ.",
+              "arabic_base_no_tashkeel": "الصنم يسبكه الصانع والصائغ يغشيه بذهب ويصوغ سلاسل فضة."
+            },
+            {
+              "row_index": 12,
+              "english": "Whoever is too impoverished for such a contribution Chooses a tree that will not rot; He seeks for himself a skillful workman To prepare a carved image that will not totter.",
+              "arabic": "الْفَقِيرُ عَنِ التَّقْدِمَةِ يَنْتَخِبُ خَشَباً لاَ يُسَوِّسُ يَطْلُبُ لَهُ صَانِعاً مَاهِراً لِيَنْصُبَ صَنَماً لاَ يَتَزَعْزَعُ!",
+              "arabic_base_no_tashkeel": "الفقير عن التقدمة ينتخب خشبا لا يسوس يطلب له صانعا ماهرا لينصب صنما لا يتزعزع!"
+            },
+            {
+              "row_index": 13,
+              "english": "Have you not known? Have you not heard? Has it not been told you from the beginning? Have you not understood from the foundations of the earth?",
+              "arabic": "أَلاَ تَعْلَمُونَ؟ أَلاَ تَسْمَعُونَ؟ أَلَمْ تُخْبَرُوا مِنَ الْبَدَاءَةِ؟ أَلَمْ تَفْهَمُوا مِنْ أَسَاسَاتِ الأَرْضِ؟",
+              "arabic_base_no_tashkeel": "ألا تعلمون؟ ألا تسمعون؟ ألم تخبروا من البداءة؟ ألم تفهموا من أساسات الأرض؟"
+            },
+            {
+              "row_index": 14,
+              "english": "It is He who sits above the circle of the earth, And its inhabitants are like grasshoppers, Who stretches out the heavens like a curtain, And spreads them out like a tent to dwell in.",
+              "arabic": "الْجَالِسُ عَلَى كُرَةِ الأَرْضِ وَسُكَّانُهَا كَالْجُنْدُبِ. الَّذِي يَنْشُرُ السَّمَاوَاتِ كَسَرَادِقَ وَيَبْسُطُهَا كَخَيْمَةٍ لِلسَّكَنِ.",
+              "arabic_base_no_tashkeel": "الجالس على كرة الأرض وسكانها كالجندب. الذي ينشر السماوات كسرادق ويبسطها كخيمة للسكن."
+            },
+            {
+              "row_index": 15,
+              "english": "He brings the princes to nothing; He makes the judges of the earth useless.",
+              "arabic": "الَّذِي يَجْعَلُ الْعُظَمَاءَ لاَ شَيْئاً وَيُصَيِّرُ قُضَاةَ الأَرْضِ كَالْبَاطِلِ.",
+              "arabic_base_no_tashkeel": "الذي يجعل العظماء لا شيئا ويصير قضاة الأرض كالباطل."
+            },
+            {
+              "row_index": 16,
+              "english": "Scarcely shall they be planted, Scarcely shall they be sown, Scarcely shall their stock take root in the earth, When He will also blow on them, And they will wither, And the whirlwind will take them away like stubble.",
+              "arabic": "لَمْ يُغْرَسُوا بَلْ لَمْ يُزْرَعُوا وَلَمْ يَتَأَصَّلْ فِي الأَرْضِ سَاقُهُمْ. فَنَفَخَ أَيْضاً عَلَيْهِمْ فَجَفُّوا وَالْعَاصِفُ كَالْعَصْفِ يَحْمِلُهُمْ.",
+              "arabic_base_no_tashkeel": "لم يغرسوا بل لم يزرعوا ولم يتأصل في الأرض ساقهم. فنفخ أيضا عليهم فجفوا والعاصف كالعصف يحملهم."
+            },
+            {
+              "row_index": 17,
+              "english": "\"To whom then will you liken Me, Or to whom shall I be equal?\" says the Holy One.",
+              "arabic": "فَبِمَنْ تُشَبِّهُونَنِي فَأُسَاوِيهِ؟ يَقُولُ الْقُدُّوسُ.",
+              "arabic_base_no_tashkeel": "فبمن تشبهونني فأساويه؟ يقول القدوس."
+            },
+            {
+              "row_index": 18,
+              "english": "Lift up your eyes on high, And see who has created these things, Who brings out their host by number; He calls them all by name, By the greatness of His might And the strength of His power; Not one is missing.",
+              "arabic": "ارْفَعُوا إِلَى الْعَلاَءِ عُيُونَكُمْ وَانْظُرُوا مَنْ خَلَقَ هَذِهِ؟ مَنِ الَّذِي يُخْرِجُ بِعَدَدٍ جُنْدَهَا يَدْعُو كُلَّهَا بِأَسْمَاءٍ؟ لِكَثْرَةِ الْقُوَّةِ وَكَوْنِهِ شَدِيدَ الْقُدْرَةِ لاَ يُفْقَدُ أَحَدٌ.",
+              "arabic_base_no_tashkeel": "ارفعوا إلى العلاء عيونكم وانظروا من خلق هذه؟ من الذي يخرج بعدد جندها يدعو كلها بأسماء؟ لكثرة القوة وكونه شديد القدرة لا يفقد أحد."
+            },
+            {
+              "row_index": 19,
+              "english": "Why do you say, O Jacob, And speak, O Israel: \"My way is hidden from the Lord, And my just claim is passed over by my God\"?",
+              "arabic": "لِمَاذَا تَقُولُ يَا يَعْقُوبُ وَتَتَكَلَّمُ يَا إِسْرَائِيلُ: «قَدِ اخْتَفَتْ طَرِيقِي عَنِ الرَّبِّ وَفَاتَ حَقِّي إِلَهِي»؟",
+              "arabic_base_no_tashkeel": "لماذا تقول يا يعقوب وتتكلم يا إسرائيل: «قد اختفت طريقي عن الرب وفات حقي إلهي»؟"
+            },
+            {
+              "row_index": 20,
+              "english": "Have you not known? Have you not heard? The everlasting God, the Lord, The Creator of the ends of the earth, Neither faints nor is weary. His understanding is unsearchable.",
+              "arabic": "أَمَا عَرَفْتَ أَمْ لَمْ تَسْمَعْ؟ إِلَهُ الدَّهْرِ الرَّبُّ خَالِقُ أَطْرَافِ الأَرْضِ لاَ يَكِلُّ وَلاَ يَعْيَا. لَيْسَ عَنْ فَهْمِهِ فَحْصٌ.",
+              "arabic_base_no_tashkeel": "أما عرفت أم لم تسمع؟ إله الدهر الرب خالق أطراف الأرض لا يكل ولا يعيا. ليس عن فهمه فحص."
+            },
+            {
+              "row_index": 21,
+              "english": "He gives power to the weak, And to those who have no might He increases strength.",
+              "arabic": "يُعْطِي الْمُعْيِيَ قُدْرَةً وَلِعَدِيمِ الْقُوَّةِ يُكَثِّرُ شِدَّةً.",
+              "arabic_base_no_tashkeel": "يعطي المعيي قدرة ولعديم القوة يكثر شدة."
+            },
+            {
+              "row_index": 22,
+              "english": "Even the youths shall faint and be weary, And the young men shall utterly fall,",
+              "arabic": "اَلْغِلْمَانُ يُعْيُونَ وَيَتْعَبُونَ وَالْفِتْيَانُ يَتَعَثَّرُونَ تَعَثُّراً.",
+              "arabic_base_no_tashkeel": "الغلمان يعيون ويتعبون والفتيان يتعثرون تعثرا."
+            },
+            {
+              "row_index": 23,
+              "english": "But those who wait on the Lord Shall renew their strength; They shall mount up with wings like eagles, They shall run and not be weary, They shall walk and not faint.",
+              "arabic": "وَأَمَّا مُنْتَظِرُو الرَّبِّ فَيُجَدِّدُونَ قُوَّةً. يَرْفَعُونَ أَجْنِحَةً كَالنُّسُورِ. يَرْكُضُونَ وَلاَ يَتْعَبُونَ يَمْشُونَ وَلاَ يُعْيُونَ.",
+              "arabic_base_no_tashkeel": "وأما منتظرو الرب فيجددون قوة. يرفعون أجنحة كالنسور. يركضون ولا يتعبون يمشون ولا يعيون."
+            }
+          ]
+        },
+        {
+          "title": "4th Prophecy (Daniel 7: 9 - 15)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "\"I watched till thrones were put in place, And the Ancient of Days was seated; His garment was white as snow, And the hair of His head was like pure wool. His throne was a fiery flame, Its wheels a burning fire;",
+              "arabic": "كُنْتُ أَرَى أَنَّهُ وُضِعَتْ عُرُوشٌ وَجَلَسَ الْقَدِيمُ الأَيَّامِ. لِبَاسُهُ أَبْيَضُ كَالثَّلْجِ وَشَعْرُ رَأْسِهِ كَالصُّوفِ النَّقِيِّ وَعَرْشُهُ لَهِيبُ نَارٍ وَبَكَرَاتُهُ نَارٌ مُتَّقِدَةٌ.",
+              "arabic_base_no_tashkeel": "كنت أرى أنه وضعت عروش وجلس القديم الأيام. لباسه أبيض كالثلج وشعر رأسه كالصوف النقي وعرشه لهيب نار وبكراته نار متقدة."
+            },
+            {
+              "row_index": 2,
+              "english": "A fiery stream issued And came forth from before Him. A thousand thousands ministered to Him; Ten thousand times ten thousand stood before Him. The court was seated, And the books were opened.",
+              "arabic": "نَهْرُ نَارٍ جَرَى وَخَرَجَ مِنْ قُدَّامِهِ. أُلُوفُ أُلُوفٍ تَخْدِمُهُ وَرَبَوَاتُ رَبَوَاتٍ وُقُوفٌ قُدَّامَهُ. فَجَلَسَ الدِّينُ وَفُتِحَتِ الأَسْفَارُ.",
+              "arabic_base_no_tashkeel": "نهر نار جرى وخرج من قدامه. ألوف ألوف تخدمه وربوات ربوات وقوف قدامه. فجلس الدين وفتحت الأسفار."
+            },
+            {
+              "row_index": 3,
+              "english": "\"I watched then because of the sound of the pompous words which the horn was speaking; I watched till the beast was slain, and its body destroyed and given to the burning flame.",
+              "arabic": "كُنْتُ أَنْظُرُ حِينَئِذٍ مِنْ أَجْلِ صَوْتِ الْكَلِمَاتِ الْعَظِيمَةِ الَّتِي تَكَلَّمَ بِهَا الْقَرْنُ. كُنْتُ أَرَى إِلَى أَنْ قُتِلَ الْحَيَوَانُ وَهَلَكَ جِسْمُهُ وَدُفِعَ لِوَقِيدِ النَّارِ.",
+              "arabic_base_no_tashkeel": "كنت أنظر حينئذ من أجل صوت الكلمات العظيمة التي تكلم بها القرن. كنت أرى إلى أن قتل الحيوان وهلك جسمه ودفع لوقيد النار."
+            },
+            {
+              "row_index": 4,
+              "english": "As for the rest of the beasts, they had their dominion taken away, yet their lives were prolonged for a season and a time.",
+              "arabic": "أَمَّا بَاقِي الْحَيَوَانَاتِ فَنُزِعَ عَنْهُمْ سُلْطَانُهُمْ وَلَكِنْ أُعْطُوا طُولَ حَيَاةٍ إِلَى زَمَانٍ وَوَقْتٍ.",
+              "arabic_base_no_tashkeel": "أما باقي الحيوانات فنزع عنهم سلطانهم ولكن أعطوا طول حياة إلى زمان ووقت."
+            },
+            {
+              "row_index": 5,
+              "english": "\"I was watching in the night visions, And behold, One like the Son of Man, Coming with the clouds of heaven! He came to the Ancient of Days, And they brought Him near before Him.",
+              "arabic": "[كُنْتُ أَرَى فِي رُؤَى اللَّيْلِ وَإِذَا مَعَ سُحُبِ السَّمَاءِ مِثْلُ ابْنِ إِنْسَانٍ أَتَى وَجَاءَ إِلَى الْقَدِيمِ الأَيَّامِ فَقَرَّبُوهُ قُدَّامَهُ.",
+              "arabic_base_no_tashkeel": "[كنت أرى في رؤى الليل وإذا مع سحب السماء مثل ابن إنسان أتى وجاء إلى القديم الأيام فقربوه قدامه."
+            },
+            {
+              "row_index": 6,
+              "english": "Then to Him was given dominion and glory and a kingdom, That all peoples, nations, and languages should serve Him. His dominion is an everlasting dominion, Which shall not pass away, And His kingdom the one Which shall not be destroyed.",
+              "arabic": "فَأُعْطِيَ سُلْطَاناً وَمَجْداً وَمَلَكُوتاً لِتَتَعَبَّدَ لَهُ كُلُّ الشُّعُوبِ وَالأُمَمِ وَالأَلْسِنَةِ. سُلْطَانُهُ سُلْطَانٌ أَبَدِيٌّ مَا لَنْ يَزُولَ وَمَلَكُوتُهُ مَا لاَ يَنْقَرِضُ.",
+              "arabic_base_no_tashkeel": "فأعطي سلطانا ومجدا وملكوتا لتتعبد له كل الشعوب والأمم والألسنة. سلطانه سلطان أبدي ما لن يزول وملكوته ما لا ينقرض."
+            },
+            {
+              "row_index": 7,
+              "english": "\"I, Daniel, was grieved in my spirit within my body, and the visions of my head troubled me.",
+              "arabic": "[أَمَّا أَنَا دَانِيآلَ فَحَزِنَتْ رُوحِي فِي وَسَطِ جِسْمِي وَأَفْزَعَتْنِي رُؤَى رَأْسِي.",
+              "arabic_base_no_tashkeel": "[أما أنا دانيآل فحزنت روحي في وسط جسمي وأفزعتني رؤى رأسي."
+            }
+          ]
+        },
+        {
+          "title": "5th Prophecy (Proverbs 8: 1 - 8,11,12)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Does not wisdom cry out, And understanding lift up her voice?",
+              "arabic": "أَلَعَلَّ الْحِكْمَةَ لاَ تُنَادِي وَالْفَهْمَ أَلاَ يُعْطِي صَوْتَهُ؟",
+              "arabic_base_no_tashkeel": "ألعل الحكمة لا تنادي والفهم ألا يعطي صوته؟"
+            },
+            {
+              "row_index": 2,
+              "english": "She takes her stand on the top of the high hill, Beside the way, where the paths meet.",
+              "arabic": "عِنْدَ رُؤُوسِ الشَّوَاهِقِ عِنْدَ الطَّرِيقِ بَيْنَ الْمَسَالِكِ تَقِفُ.",
+              "arabic_base_no_tashkeel": "عند رؤوس الشواهق عند الطريق بين المسالك تقف."
+            },
+            {
+              "row_index": 3,
+              "english": "She cries out by the gates, at the entry of the city, At the entrance of the doors:",
+              "arabic": "بِجَانِبِ الأَبْوَابِ عِنْدَ ثَغْرِ الْمَدِينَةِ عِنْدَ مَدْخَلِ الأَبْوَابِ تُصَرِّحُ:",
+              "arabic_base_no_tashkeel": "بجانب الأبواب عند ثغر المدينة عند مدخل الأبواب تصرح:"
+            },
+            {
+              "row_index": 4,
+              "english": "\"To you, O men, I call, And my voice is to the sons of men.",
+              "arabic": "«لَكُمْ أَيُّهَا النَّاسُ أُنَادِي وَصَوْتِي إِلَى بَنِي آدَمَ.",
+              "arabic_base_no_tashkeel": "«لكم أيها الناس أنادي وصوتي إلى بني آدم."
+            },
+            {
+              "row_index": 5,
+              "english": "O you simple ones, understand prudence, And you fools, be of an understanding heart.",
+              "arabic": "أَيُّهَا الْحَمْقَى تَعَلَّمُوا ذَكَاءً وَيَا جُهَّالُ تَعَلَّمُوا فَهْماً.",
+              "arabic_base_no_tashkeel": "أيها الحمقى تعلموا ذكاء ويا جهال تعلموا فهما."
+            },
+            {
+              "row_index": 6,
+              "english": "Listen, for I will speak of excellent things, And from the opening of my lips will come right things;",
+              "arabic": "اِسْمَعُوا فَإِنِّي أَتَكَلَّمُ بِأُمُورٍ شَرِيفَةٍ وَافْتِتَاحُ شَفَتَيَّ اسْتِقَامَةٌ.",
+              "arabic_base_no_tashkeel": "اسمعوا فإني أتكلم بأمور شريفة وافتتاح شفتي استقامة."
+            },
+            {
+              "row_index": 7,
+              "english": "For my mouth will speak truth; Wickedness is an abomination to my lips.",
+              "arabic": "لأَنَّ حَنَكِي يَلْهَجُ بِالصِّدْقِ وَمَكْرَهَةُ شَفَتَيَّ الْكَذِبُ.",
+              "arabic_base_no_tashkeel": "لأن حنكي يلهج بالصدق ومكرهة شفتي الكذب."
+            },
+            {
+              "row_index": 8,
+              "english": "All the words of my mouth are with righteousness; Nothing crooked or perverse is in them.",
+              "arabic": "كُلُّ كَلِمَاتِ فَمِي بِالْحَقِّ. لَيْسَ فِيهَا عَوَجٌ وَلاَ الْتِوَاءٌ.",
+              "arabic_base_no_tashkeel": "كل كلمات فمي بالحق. ليس فيها عوج ولا التواء."
+            },
+            {
+              "row_index": 9,
+              "english": "For wisdom is better than rubies, And all the things one may desire cannot be compared with her.",
+              "arabic": "لأَنَّ الْحِكْمَةَ خَيْرٌ مِنَ اللّآلِئِ وَكُلُّ الْجَوَاهِرِ لاَ تُسَاوِيهَا.",
+              "arabic_base_no_tashkeel": "لأن الحكمة خير من اللآلئ وكل الجواهر لا تساويها."
+            },
+            {
+              "row_index": 10,
+              "english": "\"I, wisdom, dwell with prudence, And find out knowledge and discretion.",
+              "arabic": "«أَنَا الْحِكْمَةُ أَسْكُنُ الذَّكَاءَ وَأَجِدُ مَعْرِفَةَ التَّدَابِيرِ.",
+              "arabic_base_no_tashkeel": "«أنا الحكمة أسكن الذكاء وأجد معرفة التدابير."
+            }
+          ]
+        },
+        {
+          "title": "Homily(Abba Shenouda the Archimandrite)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "My brethren, let us do the will of God as long as we have time to do works for the Lord.",
+              "arabic": "فلنصنع ارادة الله يا اخوتى مادام لنا وقت ان نعمل فيه اعمال الرب.",
+              "arabic_base_no_tashkeel": "فلنصنع ارادة الله يا اخوتى مادام لنا وقت ان نعمل فيه اعمال الرب."
+            },
+            {
+              "row_index": 2,
+              "english": "Remember that death does not linger and we are destined to leave this world.",
+              "arabic": "تذكروا أن الموت لا يتأخر ومصيرنا ان نترك العالم.",
+              "arabic_base_no_tashkeel": "تذكروا أن الموت لا يتأخر ومصيرنا ان نترك العالم."
+            },
+            {
+              "row_index": 3,
+              "english": "Where are those that were before us?",
+              "arabic": "اين جميع الذين كانوا قبلنا",
+              "arabic_base_no_tashkeel": "اين جميع الذين كانوا قبلنا"
+            },
+            {
+              "row_index": 4,
+              "english": "They are all laying in tombs. Let us be fruitful to be worthy of the grace of God which He bestowed upon us,",
+              "arabic": "هوذا كلهم الآن يرقدون فى القبور فلنصنع اثماراً تليق بنعمة الله التى اعطاها لنا",
+              "arabic_base_no_tashkeel": "هوذا كلهم الآن يرقدون فى القبور فلنصنع اثمارا تليق بنعمة الله التى اعطاها لنا"
+            },
+            {
+              "row_index": 5,
+              "english": "as well as to christians, to be likened to Jesus Christ, the true light for we are human.",
+              "arabic": "وعلينا نحن وكل المسيحيين أن نتشبه بيسوع المسيح النور الحقيقى لاننا نحن بشر.",
+              "arabic_base_no_tashkeel": "وعلينا نحن وكل المسيحيين أن نتشبه بيسوع المسيح النور الحقيقى لاننا نحن بشر."
+            },
+            {
+              "row_index": 6,
+              "english": "He is the master and we are His slaves. He is the shepherd and we are His sheep under His guidance.",
+              "arabic": "هو السيد ونحن عبيده هو الراعى ونحن غنم تحت يده",
+              "arabic_base_no_tashkeel": "هو السيد ونحن عبيده هو الراعى ونحن غنم تحت يده"
+            },
+            {
+              "row_index": 7,
+              "english": "He is born of the Father but we are His creation. Light of light, He died for us; we who are sinners.",
+              "arabic": "هو مولود من الاب ولكن نحن خليقته نور من نور مات عنا نحن الخطاة",
+              "arabic_base_no_tashkeel": "هو مولود من الاب ولكن نحن خليقته نور من نور مات عنا نحن الخطاة"
+            },
+            {
+              "row_index": 8,
+              "english": "He gave Himself up for us on the wood of the cross to grant us His kingdom.",
+              "arabic": "واسلم ذاته عنا على خشبة الصليب لينعم لنا بملكوته،",
+              "arabic_base_no_tashkeel": "واسلم ذاته عنا على خشبة الصليب لينعم لنا بملكوته،"
+            },
+            {
+              "row_index": 9,
+              "english": "Slaves were to die for their master but the master accepted the shame and died for His slaves.",
+              "arabic": "ما كان العبيد ملتزمين أن يموتوا عن سيدهم اما السيد فقد استهان بالخزى ومات عن عبيده",
+              "arabic_base_no_tashkeel": "ما كان العبيد ملتزمين أن يموتوا عن سيدهم اما السيد فقد استهان بالخزى ومات عن عبيده"
+            },
+            {
+              "row_index": 10,
+              "english": "That as He died, they die also with Him and as He is alive, they live with Him.",
+              "arabic": "كى حسبما مات هو هم يموتون معه وكما هو حى فهم أيضاً يحيون.",
+              "arabic_base_no_tashkeel": "كى حسبما مات هو هم يموتون معه وكما هو حى فهم أيضا يحيون."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (25: 1 - 3)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "To You, O Lord, I lift up my soul, O my God. I trust in You; let me not be ashamed; let not my enemies laugh at me.",
+              "arabic": "إليك يا رب رفعت نفسي: إلهي عليك توكلت فلا تخزني إلي الأبد: ولا تضحك بي أعدائي.",
+              "arabic_base_no_tashkeel": "إليك يا رب رفعت نفسي: إلهي عليك توكلت فلا تخزني إلي الأبد: ولا تضحك بي أعدائي."
+            },
+            {
+              "row_index": 2,
+              "english": "Let those be ashamed who act lawlessly in vain.",
+              "arabic": "فليخز الذين يصنعون الإثم باطلاً.",
+              "arabic_base_no_tashkeel": "فليخز الذين يصنعون الإثم باطلا."
+            },
+            {
+              "row_index": 3,
+              "english": "neither let my enemies laugh me to scorn; let them be ashamed that transgress without cause.",
+              "arabic": "أَيْضاً كُلُّ مُنْتَظِرِيكَ لاَ يَخْزَوْا. لِيَخْزَ الْغَادِرُونَ بِلاَ سَبَبٍ.",
+              "arabic_base_no_tashkeel": "أيضا كل منتظريك لا يخزوا. ليخز الغادرون بلا سبب."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Matthew 24: 3 - 35)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Now as He sat on the Mount of Olives, the disciples came to Him privately, saying, “Tell us, when will these things be? And what will be the sign of Your coming, and of the end of the age?”",
+              "arabic": "وفيما هو جالس علي جبل الزيتون فجاء إليه تلاميذه علي إنفراد وحدهم قائلين: قل لنا متي يكون هذا وما هي علامة مجيئك وانقضاء هذا الدهر؟",
+              "arabic_base_no_tashkeel": "وفيما هو جالس علي جبل الزيتون فجاء إليه تلاميذه علي إنفراد وحدهم قائلين: قل لنا متي يكون هذا وما هي علامة مجيئك وانقضاء هذا الدهر؟"
+            },
+            {
+              "row_index": 2,
+              "english": "And Jesus answered and said to them: “Take heed that no one deceives you. For many will come in My name, saying, ‘I am the Christ,’ and will deceive many.",
+              "arabic": "فأجاب يسوع وقال لهم: أنظروا لا يضلكم أحد فإن كثيرين يأتٍون بإسمي قائلين إني أنا هو المسيح ويضلون كثيرين",
+              "arabic_base_no_tashkeel": "فأجاب يسوع وقال لهم: أنظروا لا يضلكم أحد فإن كثيرين يأتون بإسمي قائلين إني أنا هو المسيح ويضلون كثيرين"
+            },
+            {
+              "row_index": 3,
+              "english": "And you will hear of wars and rumors of wars. See that you are not troubled; for all these things must come to pass, but the end is not yet.",
+              "arabic": "وسوف تسمعون بحروب وأخبار حروب. أنظروا لا تضطربوا لأنه لابد أن تكون هذه كلها ولكن ليس المنتهى بعد",
+              "arabic_base_no_tashkeel": "وسوف تسمعون بحروب وأخبار حروب. أنظروا لا تضطربوا لأنه لابد أن تكون هذه كلها ولكن ليس المنتهى بعد"
+            },
+            {
+              "row_index": 4,
+              "english": "For nation will rise against nation, and kingdom against kingdom. And there will be famines, pestilences, and earthquakes in various places.",
+              "arabic": "لأنه تقوم أمة علي أمة ومملكة علي مملكة وتكون زلازل ومجاعات وأوبئة في أماكن",
+              "arabic_base_no_tashkeel": "لأنه تقوم أمة علي أمة ومملكة علي مملكة وتكون زلازل ومجاعات وأوبئة في أماكن"
+            },
+            {
+              "row_index": 5,
+              "english": "All these are the beginning of sorrows. “Then they will deliver you up to tribulation and kill you, and you will be hated by all nations for My name’s sake.",
+              "arabic": "وهذه كلها مبتدأ الأوجاع حينئذ يسلمونكم إلي الضيق ويقتلونكم وتكونون مبغضين من جميع الأمم لأجل أسمي.",
+              "arabic_base_no_tashkeel": "وهذه كلها مبتدأ الأوجاع حينئذ يسلمونكم إلي الضيق ويقتلونكم وتكونون مبغضين من جميع الأمم لأجل أسمي."
+            },
+            {
+              "row_index": 6,
+              "english": "And then many will be offended, will betray one another, and will hate one another. Then many false prophets will rise up and deceive many.",
+              "arabic": "حينئذ يشك كثيرون ويسلمون بعضهم بعضاً ويبغضون بعضهم بعضاً ويقوم كثيرون من الأنبياء الكذبة ويضلون كثيرين",
+              "arabic_base_no_tashkeel": "حينئذ يشك كثيرون ويسلمون بعضهم بعضا ويبغضون بعضهم بعضا ويقوم كثيرون من الأنبياء الكذبة ويضلون كثيرين"
+            },
+            {
+              "row_index": 7,
+              "english": "And because lawlessness will abound, the love of many will grow cold. But he who endures to the end shall be saved.",
+              "arabic": "ولكثرة الإثم تبرد المحبة من الكثيرين ومن يصبر إلى المنتهى يخلص.",
+              "arabic_base_no_tashkeel": "ولكثرة الإثم تبرد المحبة من الكثيرين ومن يصبر إلى المنتهى يخلص."
+            },
+            {
+              "row_index": 8,
+              "english": "And this gospel of the kingdom will be preached in all the world as a witness to all the nations, and then the end will come.",
+              "arabic": "ويكرز ببشارة الملكوت هذه في كل المسكونة شهادة لجميع الأمم وحينئذ يأتي المنتهى",
+              "arabic_base_no_tashkeel": "ويكرز ببشارة الملكوت هذه في كل المسكونة شهادة لجميع الأمم وحينئذ يأتي المنتهى"
+            },
+            {
+              "row_index": 9,
+              "english": "“Therefore when you see the ‘abomination of desolation,’ spoken of by Daniel the prophet, standing in the holy place” (whoever reads, let him understand),",
+              "arabic": "فمتي نظرتم رجسة الخراب التي قيل عنها في دانيال النبي قائمة في المكان المقدس فليفهم القارئ،",
+              "arabic_base_no_tashkeel": "فمتي نظرتم رجسة الخراب التي قيل عنها في دانيال النبي قائمة في المكان المقدس فليفهم القارئ،"
+            },
+            {
+              "row_index": 10,
+              "english": "“Then let those who are in Judea flee to the mountains. Let him who is on the housetop not go down to take anything out of his house.",
+              "arabic": "فحينئذ فليهرب الذين في اليهودية إلي الجبال والذي علي السطح لا ينزل ليأخذ ما في بيته.",
+              "arabic_base_no_tashkeel": "فحينئذ فليهرب الذين في اليهودية إلي الجبال والذي علي السطح لا ينزل ليأخذ ما في بيته."
+            },
+            {
+              "row_index": 11,
+              "english": "And let him who is in the field not go back to get his clothes.",
+              "arabic": "والذي في الحقل فلا يرجع إلي ورائه ليأخذ ثوبه.",
+              "arabic_base_no_tashkeel": "والذي في الحقل فلا يرجع إلي ورائه ليأخذ ثوبه."
+            },
+            {
+              "row_index": 12,
+              "english": "But woe to those who are pregnant and to those who are nursing babies in those days! And pray that your flight may not be in winter or on the Sabbath.",
+              "arabic": "وويل للحبالي والمرضعات في تلك الأيام فصلوا لكي لا يكون هربكم في شتاء ولا في سبت",
+              "arabic_base_no_tashkeel": "وويل للحبالي والمرضعات في تلك الأيام فصلوا لكي لا يكون هربكم في شتاء ولا في سبت"
+            },
+            {
+              "row_index": 13,
+              "english": "For then there will be great tribulation, such as has not been since the beginning of the world until this time, no, nor ever shall be.",
+              "arabic": "لأنه سيكون في ذلك الوقت ضيق شديد لم يكن مثله منذ ابتداء العالم إلي الآن ولن يكون مثله أيضاً.",
+              "arabic_base_no_tashkeel": "لأنه سيكون في ذلك الوقت ضيق شديد لم يكن مثله منذ ابتداء العالم إلي الآن ولن يكون مثله أيضا."
+            },
+            {
+              "row_index": 14,
+              "english": "And unless those days were shortened, no flesh would be saved; but for the elect’s sake those days will be shortened.",
+              "arabic": "ولو لم تقصر تلك الأيام لما كان يخلص كل ذي جسد لكن لأجل المختارين تقصر تلك الأيام.",
+              "arabic_base_no_tashkeel": "ولو لم تقصر تلك الأيام لما كان يخلص كل ذي جسد لكن لأجل المختارين تقصر تلك الأيام."
+            },
+            {
+              "row_index": 15,
+              "english": "“Then if anyone says to you, ‘Look, here is the Christ!’ or ‘There!’ do not believe it.",
+              "arabic": "حينئذ إن قال لكم أحد هوذا المسيح هنا أو هناك فلا تصدقوا.",
+              "arabic_base_no_tashkeel": "حينئذ إن قال لكم أحد هوذا المسيح هنا أو هناك فلا تصدقوا."
+            },
+            {
+              "row_index": 16,
+              "english": "For false christs and false prophets will rise and show great signs and wonders to deceive, if possible, even the elect. See, I have told you beforehand.",
+              "arabic": "فإنه سيقوم مسحاء كذبة وأنبياء كذبة ويعطون آيات عظيمة وعجائب حتى يضلوا لو أمكن المختارين أيضاً ها أنا قد سبقت وقلت لكم",
+              "arabic_base_no_tashkeel": "فإنه سيقوم مسحاء كذبة وأنبياء كذبة ويعطون آيات عظيمة وعجائب حتى يضلوا لو أمكن المختارين أيضا ها أنا قد سبقت وقلت لكم"
+            },
+            {
+              "row_index": 17,
+              "english": "“Therefore if they say to you, ‘Look, He is in the desert!’ do not go out; or ‘Look, He is in the inner rooms!’ do not believe it.",
+              "arabic": "فإن قالوا لكم ها هو في البرية فلا تخرجوا أو ها هو في المخادع فلا تصدقوا",
+              "arabic_base_no_tashkeel": "فإن قالوا لكم ها هو في البرية فلا تخرجوا أو ها هو في المخادع فلا تصدقوا"
+            },
+            {
+              "row_index": 18,
+              "english": "For as the lightning comes from the east and flashes to the west, so also will the coming of the Son of Man be.",
+              "arabic": "لأنه كما أن البرق يخرج من المشرق فيظهر في المغرب هكذا يكون مجيئ إبن الإنسان.",
+              "arabic_base_no_tashkeel": "لأنه كما أن البرق يخرج من المشرق فيظهر في المغرب هكذا يكون مجيئ إبن الإنسان."
+            },
+            {
+              "row_index": 19,
+              "english": "For wherever the carcass is, there the eagles will be gathered together.",
+              "arabic": "وحيثما تكون الجثة فهناك تجتمع النسور.",
+              "arabic_base_no_tashkeel": "وحيثما تكون الجثة فهناك تجتمع النسور."
+            },
+            {
+              "row_index": 20,
+              "english": "“Immediately after the tribulation of those days the sun will be darkened, and the moon will not give its light; the stars will fall from heaven, and the powers of the heavens will be shaken.",
+              "arabic": "وللوقت بعد ضيق تلك الأيام تظلم الشمس والقمر لا يعطي ضوءه والكواكب تتساقط من السماء. وقوات السموات تتزعزع،",
+              "arabic_base_no_tashkeel": "وللوقت بعد ضيق تلك الأيام تظلم الشمس والقمر لا يعطي ضوءه والكواكب تتساقط من السماء. وقوات السموات تتزعزع،"
+            },
+            {
+              "row_index": 21,
+              "english": "Then the sign of the Son of Man will appear in heaven, and then all the tribes of the earth will mourn, and they will see the Son of Man coming on the clouds of heaven with power and great glory.",
+              "arabic": "وحينئذ تظهر علامة إبن الإنسان في السماء وحينئذ تنوح جميع قبائل الأرض ويبصرون إبن الإنسان آتياً علي سحب السماء بقوة ومجدٍ عظيمٍ،",
+              "arabic_base_no_tashkeel": "وحينئذ تظهر علامة إبن الإنسان في السماء وحينئذ تنوح جميع قبائل الأرض ويبصرون إبن الإنسان آتيا علي سحب السماء بقوة ومجد عظيم،"
+            },
+            {
+              "row_index": 22,
+              "english": "And He will send His angels with a great sound of a trumpet, and they will gather together His elect from the four winds, from one end of heaven to the other.",
+              "arabic": "ويرسل ملائكته ببوق عظيم الصوت فيجمعون مختاريه من الرياح الاربع من أقاصي السموات إلي أقاصيها،",
+              "arabic_base_no_tashkeel": "ويرسل ملائكته ببوق عظيم الصوت فيجمعون مختاريه من الرياح الاربع من أقاصي السموات إلي أقاصيها،"
+            },
+            {
+              "row_index": 23,
+              "english": "“Now learn this parable from the fig tree: When its branch has already become tender and puts forth leaves, you know that summer is near.",
+              "arabic": "فمن شجرة التين تعلموا المثل فإنها إذا لانت أغصانها وأخرجت أوراقها تعلمون أن الصيف قد قرب هكذا أنتم أيضأ،",
+              "arabic_base_no_tashkeel": "فمن شجرة التين تعلموا المثل فإنها إذا لانت أغصانها وأخرجت أوراقها تعلمون أن الصيف قد قرب هكذا أنتم أيضأ،"
+            },
+            {
+              "row_index": 24,
+              "english": "So you also, when you see all these things, know that it is near—at the doors!",
+              "arabic": "إذا رأيتم هذا كله فإعلموا أنه قريب علي الأبواب.",
+              "arabic_base_no_tashkeel": "إذا رأيتم هذا كله فإعلموا أنه قريب علي الأبواب."
+            },
+            {
+              "row_index": 25,
+              "english": "Assuredly, I say to you, this generation will by no means pass away till all these things take place.",
+              "arabic": "الحق أقول لكم لا يمضي هذا الجيل حتي تكون هذه كلها",
+              "arabic_base_no_tashkeel": "الحق أقول لكم لا يمضي هذا الجيل حتي تكون هذه كلها"
+            },
+            {
+              "row_index": 26,
+              "english": "Heaven and earth will pass away, but My words will by no means pass away.",
+              "arabic": "والسماء والأرض تزولان ولكن كلامي لا يزول.",
+              "arabic_base_no_tashkeel": "والسماء والأرض تزولان ولكن كلامي لا يزول."
+            },
+            {
+              "row_index": 27,
+              "english": "\"Immediately after the tribulation of those days the sun will be darkened, and the moon will not give its light; the stars will fall from heaven, and the powers of the heavens will be shaken.",
+              "arabic": "«وَلِلْوَقْتِ بَعْدَ ضِيقِ تِلْكَ الأَيَّامِ تُظْلِمُ الشَّمْسُ وَالْقَمَرُ لاَ يُعْطِي ضَوْءَهُ وَالنُّجُومُ تَسْقُطُ مِنَ السَّمَاءِ وَقُوَّاتُ السَّمَاوَاتِ تَتَزَعْزَعُ.",
+              "arabic_base_no_tashkeel": "«وللوقت بعد ضيق تلك الأيام تظلم الشمس والقمر لا يعطي ضوءه والنجوم تسقط من السماء وقوات السماوات تتزعزع."
+            },
+            {
+              "row_index": 28,
+              "english": "Then the sign of the Son of Man will appear in heaven, and then all the tribes of the earth will mourn, and they will see the Son of Man coming on the clouds of heaven with power and great glory.",
+              "arabic": "وَحِينَئِذٍ تَظْهَرُ عَلاَمَةُ ابْنِ الإِنْسَانِ فِي السَّمَاءِ. وَحِينَئِذٍ تَنُوحُ جَمِيعُ قَبَائِلِ الأَرْضِ وَيُبْصِرُونَ ابْنَ الإِنْسَانِ آتِياً عَلَى سَحَابِ السَّمَاءِ بِقُوَّةٍ وَمَجْدٍ كَثِيرٍ.",
+              "arabic_base_no_tashkeel": "وحينئذ تظهر علامة ابن الإنسان في السماء. وحينئذ تنوح جميع قبائل الأرض ويبصرون ابن الإنسان آتيا على سحاب السماء بقوة ومجد كثير."
+            },
+            {
+              "row_index": 29,
+              "english": "And He will send His angels with a great sound of a trumpet, and they will gather together His elect from the four winds, from one end of heaven to the other.",
+              "arabic": "فَيُرْسِلُ مَلاَئِكَتَهُ بِبُوقٍ عَظِيمِ الصَّوْتِ فَيَجْمَعُونَ مُخْتَارِيهِ مِنَ الأَرْبَعِ الرِّيَاحِ مِنْ أَقْصَاءِ السَّمَاوَاتِ إِلَى أَقْصَائِهَا.",
+              "arabic_base_no_tashkeel": "فيرسل ملائكته ببوق عظيم الصوت فيجمعون مختاريه من الأربع الرياح من أقصاء السماوات إلى أقصائها."
+            },
+            {
+              "row_index": 30,
+              "english": "\"Now learn this parable from the fig tree: When its branch has already become tender and puts forth leaves, you know that summer is near.",
+              "arabic": "فَمِنْ شَجَرَةِ التِّينِ تَعَلَّمُوا الْمَثَلَ: مَتَى صَارَ غُصْنُهَا رَخْصاً وَأَخْرَجَتْ أَوْرَاقَهَا تَعْلَمُونَ أَنَّ الصَّيْفَ قَرِيبٌ.",
+              "arabic_base_no_tashkeel": "فمن شجرة التين تعلموا المثل: متى صار غصنها رخصا وأخرجت أوراقها تعلمون أن الصيف قريب."
+            },
+            {
+              "row_index": 31,
+              "english": "So you also, when you see all these things, know that it is near--at the doors!",
+              "arabic": "هَكَذَا أَنْتُمْ أَيْضاً مَتَى رَأَيْتُمْ هَذَا كُلَّهُ فَاعْلَمُوا أَنَّهُ قَرِيبٌ عَلَى الأَبْوَابِ.",
+              "arabic_base_no_tashkeel": "هكذا أنتم أيضا متى رأيتم هذا كله فاعلموا أنه قريب على الأبواب."
+            },
+            {
+              "row_index": 32,
+              "english": "Assuredly, I say to you, this generation will by no means pass away till all these things take place.",
+              "arabic": "اَلْحَقَّ أَقُولُ لَكُمْ: لاَ يَمْضِي هَذَا الْجِيلُ حَتَّى يَكُونَ هَذَا كُلُّهُ.",
+              "arabic_base_no_tashkeel": "الحق أقول لكم: لا يمضي هذا الجيل حتى يكون هذا كله."
+            },
+            {
+              "row_index": 33,
+              "english": "Heaven and earth will pass away, but My words will by no means pass away.<br><i>Bow down before the Holy Gospel.</i>",
+              "arabic": "اَلسَّمَاءُ وَالأَرْضُ تَزُولاَنِ وَلَكِنَّ كَلاَمِي لاَ يَزُولُ.<br><i>أسجدوا للإنجيل المقدس.</i>",
+              "arabic_base_no_tashkeel": "السماء والأرض تزولان ولكن كلامي لا يزول.<br><i>أسجدوا للإنجيل المقدس.</i>"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

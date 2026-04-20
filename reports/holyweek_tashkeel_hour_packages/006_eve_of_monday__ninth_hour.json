@@ -1,0 +1,148 @@
+{
+  "service": "EVE of Monday",
+  "hour": "NINTH Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Micah 2: 3 - 10)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Therefore thus says the Lord: \"Behold, I am devising evils against this tribe from which you shall not lift up your neck, nor will you suddenly walk upright, for this is a time of evil. In that day a parable shall be taken up against you, and a dirge will be wailed, saying, 'In misery we have suffered hardship.",
+              "arabic": "من أجل ذلك هكذا ما يقوله الرب. هأنذا أفكر بالشرور على هذه القبيلة. ومن ثم لا تقدرون أن ترفعوا أعناقكم منها ولا تمشون متشامخين. لأنه زمان ردئ. ذلك اليوم يتخذ عليكم مثل وينوحون نوحاً بتسبيح قائلين: لقد شقيت شقاء.",
+              "arabic_base_no_tashkeel": "من أجل ذلك هكذا ما يقوله الرب. هأنذا أفكر بالشرور على هذه القبيلة. ومن ثم لا تقدرون أن ترفعوا أعناقكم منها ولا تمشون متشامخين. لأنه زمان ردئ. ذلك اليوم يتخذ عليكم مثل وينوحون نوحا بتسبيح قائلين: لقد شقيت شقاء."
+            },
+            {
+              "row_index": 2,
+              "english": "The portion of my people has been measured out with a measuring line, and there was no one who was able to stop Him. Our fields have been divided among them.' Therefore there will be no one to put out a measuring line for a lot for you in the assembly of the Lord.",
+              "arabic": "ونصيب شعبى قاسوه بالحبل. ولم يكن من يحوله ليرجع. قاسوا حقولكم وأقتسموا بقاعكم من أجل هذا لا يكون لك من يلقى حبلاً فى نصيب ميراث.",
+              "arabic_base_no_tashkeel": "ونصيب شعبى قاسوه بالحبل. ولم يكن من يحوله ليرجع. قاسوا حقولكم وأقتسموا بقاعكم من أجل هذا لا يكون لك من يلقى حبلا فى نصيب ميراث."
+            },
+            {
+              "row_index": 3,
+              "english": "\"Do not shed tears, nor even weep over these things; for He will not dismiss the reproaches who says,",
+              "arabic": "لا تبكوا بدموع فى كنيسة الرب. ولا تسكبوا العبرات على هذا لأنه لا يترك التعيير عنه القائل:",
+              "arabic_base_no_tashkeel": "لا تبكوا بدموع فى كنيسة الرب. ولا تسكبوا العبرات على هذا لأنه لا يترك التعيير عنه القائل:"
+            },
+            {
+              "row_index": 4,
+              "english": "'The house of Jacob has provoked the Spirit of the Lord; are these not His practices? Are not His words good with Him, and have they not proceeded as predicted?",
+              "arabic": "أن بيت يعقوب أغضب روح الرب. أليست هذه أعماله الكائنة معه. أليس كلامه صالحاً نحو من يسلك بالإستقامة وقام",
+              "arabic_base_no_tashkeel": "أن بيت يعقوب أغضب روح الرب. أليست هذه أعماله الكائنة معه. أليس كلامه صالحا نحو من يسلك بالإستقامة وقام"
+            },
+            {
+              "row_index": 5,
+              "english": "And previously, for enmity my people resisted against His peace. They flayed his skin to remove hope in the ravages of war.",
+              "arabic": "شعبى بالعداوة قبالة سلامته. سلخوا جلده لينزع الرجاء من إنكسار الحرب.",
+              "arabic_base_no_tashkeel": "شعبى بالعداوة قبالة سلامته. سلخوا جلده لينزع الرجاء من إنكسار الحرب."
+            },
+            {
+              "row_index": 6,
+              "english": "Therefore those leading my people will be cast out of their luxurious homes; they have been driven out because of their wicked practices.",
+              "arabic": "من أجل ذلك مدبرو شعبى يطرحون خارجاً من بيوت نعيمهم: من أجل أعمالهم الشريرة طردوا.",
+              "arabic_base_no_tashkeel": "من أجل ذلك مدبرو شعبى يطرحون خارجا من بيوت نعيمهم: من أجل أعمالهم الشريرة طردوا."
+            },
+            {
+              "row_index": 7,
+              "english": "Draw near to the everlasting mountains.”",
+              "arabic": "اقتربوا إلى الجبال الدهرية",
+              "arabic_base_no_tashkeel": "اقتربوا إلى الجبال الدهرية"
+            },
+            {
+              "row_index": 8,
+              "english": "Arise and depart, for this is not a final resting place for you on account of uncleanness; you have been utterly destroyed by corruption. You were pursued by no one pursuing!",
+              "arabic": "قم انطلق لأنه ليست هذه هى راحتك. لقد هلكتم هلاكاً من أجل النجاسة وهربتم وليس من يطردكم.",
+              "arabic_base_no_tashkeel": "قم انطلق لأنه ليست هذه هى راحتك. لقد هلكتم هلاكا من أجل النجاسة وهربتم وليس من يطردكم."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (17: 6,1)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "I cried out, because You listened to me, O God; incline Your ear to me, and hear my words.",
+              "arabic": "أنا صرخت لأنك قد سمعتنى يا الله. أمل يارب أذنيك و أنصت لكلامى.",
+              "arabic_base_no_tashkeel": "أنا صرخت لأنك قد سمعتنى يا الله. أمل يارب أذنيك و أنصت لكلامى."
+            },
+            {
+              "row_index": 2,
+              "english": "Listen, O Lord of my righteousness; attend to my supplication.",
+              "arabic": "أستمع يا الله عدلى واصغ إلى طلبتى",
+              "arabic_base_no_tashkeel": "أستمع يا الله عدلى واصغ إلى طلبتى"
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Mark 8: 27 - 33)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Now Jesus and His disciples went out to the towns of Caesarea Philippi; and on the road He asked His disciples, saying to them, “Who do men say that I am?” So they answered, “John the Baptist; but some say, Elijah; and others, one of the prophets.”",
+              "arabic": "ثم خرج يسوع و تلاميذه إلى قرى قيصرية فيلبس. وفى الطريق كان يسأل تلاميذه قائلاً من تقول الناس أنى أنا. أما هم فقالوا له يقولون أنك يوحنا المعمدان وآخرون أيليا وآخرون أنك أحد الآنبياء.",
+              "arabic_base_no_tashkeel": "ثم خرج يسوع و تلاميذه إلى قرى قيصرية فيلبس. وفى الطريق كان يسأل تلاميذه قائلا من تقول الناس أنى أنا. أما هم فقالوا له يقولون أنك يوحنا المعمدان وآخرون أيليا وآخرون أنك أحد الآنبياء."
+            },
+            {
+              "row_index": 2,
+              "english": "He said to them, “But who do you say that I am?” Peter answered and said to Him, “You are the Christ.”",
+              "arabic": "أما هو فسألهم وقال وأنتم من تقولون أنى أنا؟ أجاب بطرس وقال أنت هو المسيح.",
+              "arabic_base_no_tashkeel": "أما هو فسألهم وقال وأنتم من تقولون أنى أنا؟ أجاب بطرس وقال أنت هو المسيح."
+            },
+            {
+              "row_index": 3,
+              "english": "Then He strictly warned them that they should tell no one about Him.",
+              "arabic": "فزجرهم لكي لا يقولوا لاحد شيئاً من أجله,",
+              "arabic_base_no_tashkeel": "فزجرهم لكي لا يقولوا لاحد شيئا من أجله,"
+            },
+            {
+              "row_index": 4,
+              "english": "And He began to teach them that the Son of Man must suffer many things, and be rejected by the elders and chief priests and scribes, and be killed, and after three days rise again.",
+              "arabic": "وابتدأ يعلمهم أنه ينبغى لإبن الإنسان أن يتألم كثيراً من الشيوخ ورؤساء الكهنة والكتبة ويقتلونه وبعد ثلاثة أيام يقوم,",
+              "arabic_base_no_tashkeel": "وابتدأ يعلمهم أنه ينبغى لإبن الإنسان أن يتألم كثيرا من الشيوخ ورؤساء الكهنة والكتبة ويقتلونه وبعد ثلاثة أيام يقوم,"
+            },
+            {
+              "row_index": 5,
+              "english": "He spoke this word openly. Then Peter took Him aside and began to rebuke Him.",
+              "arabic": "وكان يقول هذا القول علانية فأمسكه بطرس وابتدأ ينهاه.",
+              "arabic_base_no_tashkeel": "وكان يقول هذا القول علانية فأمسكه بطرس وابتدأ ينهاه."
+            },
+            {
+              "row_index": 6,
+              "english": "But when He had turned around and looked at His disciples, He rebuked Peter, saying,",
+              "arabic": "فأما هو فالتفت ونظر إلى تلاميذه وزجر بطرس وقال له",
+              "arabic_base_no_tashkeel": "فأما هو فالتفت ونظر إلى تلاميذه وزجر بطرس وقال له"
+            },
+            {
+              "row_index": 7,
+              "english": "“Get behind Me, Satan! For you are not mindful of the things of God, but the things of men.”",
+              "arabic": "أذهب خلفى يا شيطان لانك لا تفكر فيما لله بل فيما للناس.",
+              "arabic_base_no_tashkeel": "أذهب خلفى يا شيطان لانك لا تفكر فيما لله بل فيما للناس."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

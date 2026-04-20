@@ -1,0 +1,570 @@
+{
+  "service": "EVE of Great Friday",
+  "hour": "ELEVENTH Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Isaiah 27: 11 - 28: 15)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Come here, you women who come from that sight. For it is a people of no understanding; therefore He who made them will have no compassion on them, neither He who formed them; and He will show them no mercy.",
+              "arabic": "هلموا أيتها النساء الآتيات للنظر، لأنه ليس شعبا ذا فهم لذلك لا يرحمه خالق، ولا يترأف عليها جابله،",
+              "arabic_base_no_tashkeel": "هلموا أيتها النساء الآتيات للنظر، لأنه ليس شعبا ذا فهم لذلك لا يرحمه خالق، ولا يترأف عليها جابله،"
+            },
+            {
+              "row_index": 2,
+              "english": "And it shall come to pass in that day that the Lord will close it from the channel of the river to the Brook of Egypt. And you will gather the sons of Israel one by one.",
+              "arabic": "ويكون في ذلك اليوم أن الرب يصنع إضراباً في معبر النهر إلى نقرورا (وادي مصر) وأنتم فإجمعوا بنى اسرائيل واحداً واحداً",
+              "arabic_base_no_tashkeel": "ويكون في ذلك اليوم أن الرب يصنع إضرابا في معبر النهر إلى نقرورا (وادي مصر) وأنتم فإجمعوا بنى اسرائيل واحدا واحدا"
+            },
+            {
+              "row_index": 3,
+              "english": "So it shall be in that day that they shall blow the great trumpet, and the lost ones in the country of the Assyrians and in Egypt will come, and they shall worship the Lord on the holy mountain in Jerusalem.",
+              "arabic": "ويكون في ذلك اليوم أنه يبوق البوق العظيم، فتآتٍي الشعوب الكثيرة التي ضلت في كورة الأشوريين والذين تاهوا في مصر وسيسجدون للرب على جبل صهيون المقدس بأورشليم.",
+              "arabic_base_no_tashkeel": "ويكون في ذلك اليوم أنه يبوق البوق العظيم، فتآتي الشعوب الكثيرة التي ضلت في كورة الأشوريين والذين تاهوا في مصر وسيسجدون للرب على جبل صهيون المقدس بأورشليم."
+            },
+            {
+              "row_index": 4,
+              "english": "Woe to the crown of arrogance, the hirelings of Ephraim, the flower that fell from the glory on top of the fertile mountain, those who are drunk without wine.",
+              "arabic": "الويل لإكليل الهوان المستأجر الذي لأفرام، الزهرة الحسنة التي سقطت من المجد على رأس الجبل الدسم، السكارى بغير خمر،",
+              "arabic_base_no_tashkeel": "الويل لإكليل الهوان المستأجر الذي لأفرام، الزهرة الحسنة التي سقطت من المجد على رأس الجبل الدسم، السكارى بغير خمر،"
+            },
+            {
+              "row_index": 5,
+              "english": "Behold, the anger of the Lord is a strong and harsh thing, like a falling hail where there is no shelter, falling violently like a great force of water, sweeping away the country. He shall bring relief for the earth with His hands.",
+              "arabic": "هوذا غضب الرب قوى وصعب كبرد نازل وليس تحت مظلة. يؤتى عسفا كسيل المياه الغزيرة الجارفة في الكورة، وتصير راحة للأرض ويصنعها لأيديهم وأرجلهم.",
+              "arabic_base_no_tashkeel": "هوذا غضب الرب قوى وصعب كبرد نازل وليس تحت مظلة. يؤتى عسفا كسيل المياه الغزيرة الجارفة في الكورة، وتصير راحة للأرض ويصنعها لأيديهم وأرجلهم."
+            },
+            {
+              "row_index": 6,
+              "english": "The crown of arrogance, the hirelings of Ephraim, will be trampled underfoot.",
+              "arabic": "ويداس إكليل الخزى المستأجر الذي لأفرام،",
+              "arabic_base_no_tashkeel": "ويداس إكليل الخزى المستأجر الذي لأفرام،"
+            },
+            {
+              "row_index": 7,
+              "english": "But the flower that fell from the hope of the glory on the top of the high mountain shall be like the forerunner of the fig.",
+              "arabic": "وتكون الزهرة الساقطة من رجاء المجد تحت الجبل العالي، كمثل أساس التينة",
+              "arabic_base_no_tashkeel": "وتكون الزهرة الساقطة من رجاء المجد تحت الجبل العالي، كمثل أساس التينة"
+            },
+            {
+              "row_index": 8,
+              "english": "He who sees it wishes to swallow it before he gets it in his hand. In that day, the Lord of hosts shall be the crown of hope, woven of glory, to the remnant of My people.",
+              "arabic": "الذي ينظره، فقبل أن يتناوله يرى ان يلتهمه. في ذلك اليوم يكون رب الصباؤوت إكليل رجاء المجد الذي ضفره لبقية شعبى.",
+              "arabic_base_no_tashkeel": "الذي ينظره، فقبل أن يتناوله يرى ان يلتهمه. في ذلك اليوم يكون رب الصباؤوت إكليل رجاء المجد الذي ضفره لبقية شعبى."
+            },
+            {
+              "row_index": 9,
+              "english": "They shall be left in a spirit of judgment upon judgment and for the strength of those who prevent slaying. For these are led astray with wine and are deceived by strong drink.",
+              "arabic": "وتبقى روح محاكمة على محاكمة وتمنع القوة عن الفساد، لأن هؤلاء ضالون من الخمر وتائهون من المسكر.",
+              "arabic_base_no_tashkeel": "وتبقى روح محاكمة على محاكمة وتمنع القوة عن الفساد، لأن هؤلاء ضالون من الخمر وتائهون من المسكر."
+            },
+            {
+              "row_index": 10,
+              "english": "This is delusion. A curse will devour this counsel, for this counsel was for the sake of covetousness.",
+              "arabic": "وهذا هو حلم اللعنة تأكل مشورتهم مشورتهم التي هي جور.",
+              "arabic_base_no_tashkeel": "وهذا هو حلم اللعنة تأكل مشورتهم مشورتهم التي هي جور."
+            },
+            {
+              "row_index": 11,
+              "english": "To whom have we reported evils and declared a message? Those weaned from milk and withdrawn from the breasts.",
+              "arabic": "على من تقولتم الشر؟ وعلى من جدفتم؟ أعلى المفطومين عن لبنهم، المفصولين عن ثديهم؟",
+              "arabic_base_no_tashkeel": "على من تقولتم الشر؟ وعلى من جدفتم؟ أعلى المفطومين عن لبنهم، المفصولين عن ثديهم؟"
+            },
+            {
+              "row_index": 12,
+              "english": "Expect affliction upon affliction, hope upon hope, yet a little, yet a little.",
+              "arabic": "انتظروا شدة على شدة، عن قليل وبعد قليل، من أجل شتيمة الشفاه،",
+              "arabic_base_no_tashkeel": "انتظروا شدة على شدة، عن قليل وبعد قليل، من أجل شتيمة الشفاه،"
+            },
+            {
+              "row_index": 13,
+              "english": "By reason of the contempt of lips and another tongue they will speak to this people,",
+              "arabic": "وأيضاً يتكلمون مع هذا الشعب بلسان دغل القائلين له أن",
+              "arabic_base_no_tashkeel": "وأيضا يتكلمون مع هذا الشعب بلسان دغل القائلين له أن"
+            },
+            {
+              "row_index": 14,
+              "english": "saying to them, \"This is the rest for the hungry, and this is the affliction,\" but they would not listen.",
+              "arabic": "هذا هو راحة الجياع، وهذا هو إنحطام، ولم يريدوا أن يسمعوا.",
+              "arabic_base_no_tashkeel": "هذا هو راحة الجياع، وهذا هو إنحطام، ولم يريدوا أن يسمعوا."
+            },
+            {
+              "row_index": 15,
+              "english": "The teaching of the Lord God will be for them affliction upon affliction, hope upon hope, yet a little, yet a little\" so they may go and fall backward; and they will be in danger, crushed and conquered.",
+              "arabic": "ستكون لهم كلمة الرب الإله ضيق على ضيق ورجاء على رجاء عن قليل وبعد قليل، لكي يذهبوا ويسقط كثيراً منهم إلى الوراء وتضايقوا وينكسروا ويهلكوا،",
+              "arabic_base_no_tashkeel": "ستكون لهم كلمة الرب الإله ضيق على ضيق ورجاء على رجاء عن قليل وبعد قليل، لكي يذهبوا ويسقط كثيرا منهم إلى الوراء وتضايقوا وينكسروا ويهلكوا،"
+            },
+            {
+              "row_index": 16,
+              "english": "Therefore hear the word of the Lord, you afflicted men and rulers of this people in Jerusalem.",
+              "arabic": "من أجل هذا إسمعوا قول الرب ايها الرجال العتاة، المتسلطون على هذا الشعب الذي في أورشليم",
+              "arabic_base_no_tashkeel": "من أجل هذا إسمعوا قول الرب ايها الرجال العتاة، المتسلطون على هذا الشعب الذي في أورشليم"
+            },
+            {
+              "row_index": 17,
+              "english": "Because you said, \"We made a covenant with Hades, and are in agreement with death, and if the rushing storm passes through, it will not come upon us, for we made falsehood our hope, and in falsehood we shall be protected.\"",
+              "arabic": "لأنكم قلتم قد قررنا عهداً مع الجحيم، وميثاقا مع الموت، وإذا ما هب الريح العاصف من جهتنا لا يعبر علينا، لأننا قد جعلنا الكذب رجاءنا. وفي الكذب استترنا.",
+              "arabic_base_no_tashkeel": "لأنكم قلتم قد قررنا عهدا مع الجحيم، وميثاقا مع الموت، وإذا ما هب الريح العاصف من جهتنا لا يعبر علينا، لأننا قد جعلنا الكذب رجاءنا. وفي الكذب استترنا."
+            },
+            {
+              "row_index": 18,
+              "english": "Because you have said, \"We have made a covenant with death, And with Sheol we are in agreement. When the overflowing scourge passes through, It will not come to us, For we have made lies our refuge, And under falsehood we have hidden ourselves.\"",
+              "arabic": "لأَنَّكُمْ قُلْتُمْ: «قَدْ عَقَدْنَا عَهْداً مَعَ الْمَوْتِ وَصَنَعْنَا مِيثَاقاً مَعَ الْهَاوِيَةِ. السَّوْطُ الْجَارِفُ إِذَا عَبَرَ لاَ يَأْتِينَا لأَنَّنَا جَعَلْنَا الْكَذِبَ مَلْجَأَنَا وَبِالْغِشِّ اسْتَتَرْنَا».",
+              "arabic_base_no_tashkeel": "لأنكم قلتم: «قد عقدنا عهدا مع الموت وصنعنا ميثاقا مع الهاوية. السوط الجارف إذا عبر لا يأتينا لأننا جعلنا الكذب ملجأنا وبالغش استترنا»."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (2: 1 - 2, 4 - 5)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Why do the nations rage, And the people meditate on vain things?",
+              "arabic": "لماذا ارتجت الأمم وهذت الشعوب بالأباطيل.",
+              "arabic_base_no_tashkeel": "لماذا ارتجت الأمم وهذت الشعوب بالأباطيل."
+            },
+            {
+              "row_index": 2,
+              "english": "The kings of the earth set themselves, And the rulers gather together Against the Lord and against His anointed.",
+              "arabic": "قامت ملوك الأرض والرؤساء اجتمعوا معاً على الرب وعلى مسيحه. هلليلوياه.",
+              "arabic_base_no_tashkeel": "قامت ملوك الأرض والرؤساء اجتمعوا معا على الرب وعلى مسيحه. هلليلوياه."
+            },
+            {
+              "row_index": 3,
+              "english": "He who sits in the heavens shall laugh at them; The Lord shall mock them.",
+              "arabic": "الساكن في السموات يضحك بهم والرب يمقتهم.",
+              "arabic_base_no_tashkeel": "الساكن في السموات يضحك بهم والرب يمقتهم."
+            },
+            {
+              "row_index": 4,
+              "english": "Then shall He speak to them in His wrath And trouble them in His anger.",
+              "arabic": "حينئذ يكلمهم بغضبه وبرجزه يقلقهم.",
+              "arabic_base_no_tashkeel": "حينئذ يكلمهم بغضبه وبرجزه يقلقهم."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Matthew 26: 59 - 75)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Now the chief priests, the elders, and all the council sought false testimony against Jesus to put Him to death, but found none. Even though many false witnesses came forward, they found none.",
+              "arabic": "وأما رؤساء الكهنة والمحفل كله كانوا يطلبون شهادة زور على يسوع لكي يقتلوه فلم يجدوا، وحضر شهود زور كثيرون.",
+              "arabic_base_no_tashkeel": "وأما رؤساء الكهنة والمحفل كله كانوا يطلبون شهادة زور على يسوع لكي يقتلوه فلم يجدوا، وحضر شهود زور كثيرون."
+            },
+            {
+              "row_index": 2,
+              "english": "But at last two false witnesses came forward and said, \"This fellow said, 'I am able to destroy the temple of God and to build it in three days.'\"",
+              "arabic": "وأخيرا حضر إثنان وقالا: إن هذا قال إنى أقدر أن أنقض هيكل الله وفي ثلاثة أيام إبنيه.",
+              "arabic_base_no_tashkeel": "وأخيرا حضر إثنان وقالا: إن هذا قال إنى أقدر أن أنقض هيكل الله وفي ثلاثة أيام إبنيه."
+            },
+            {
+              "row_index": 3,
+              "english": "And the high priest arose and said to Him, \"Do You answer nothing? What is it these men testify against You?\"",
+              "arabic": "فقام رئيس الكهنة وقال له: أما تجيب بشيء عما يشهد به هذان عليك؟!",
+              "arabic_base_no_tashkeel": "فقام رئيس الكهنة وقال له: أما تجيب بشيء عما يشهد به هذان عليك؟!"
+            },
+            {
+              "row_index": 4,
+              "english": "But Jesus kept silent. And the high priest answered and said to Him, \"I put You under oath by the living God: Tell us if You are the Christ, the Son of God!\"",
+              "arabic": "أما يسوع فكان ساكتاً. فقال له رئيس الكهنة: أقسم عليك بالله الحي أن تقول لنا إن كنت أنت هو المسيح إبن الله الحي؟!.",
+              "arabic_base_no_tashkeel": "أما يسوع فكان ساكتا. فقال له رئيس الكهنة: أقسم عليك بالله الحي أن تقول لنا إن كنت أنت هو المسيح إبن الله الحي؟!."
+            },
+            {
+              "row_index": 5,
+              "english": "Jesus said to him, \"It is as you said. Nevertheless, I say to you, hereafter you will see the Son of Man sitting at the right hand of the Power, and coming on the clouds of heaven.\"",
+              "arabic": "فقال له يسوع: أنت قلت، وأيضاً أقول لكم من الآن تبصرون إبن الإنسان جالساً عن يمين القوة، وآتٍيا على سحاب السماء.",
+              "arabic_base_no_tashkeel": "فقال له يسوع: أنت قلت، وأيضا أقول لكم من الآن تبصرون إبن الإنسان جالسا عن يمين القوة، وآتيا على سحاب السماء."
+            },
+            {
+              "row_index": 6,
+              "english": "Then the high priest tore his clothes, saying, \"He has spoken blasphemy!",
+              "arabic": "فشق رئيس الكهنة حينئذ ثيابه قائلا: لقد جدف.",
+              "arabic_base_no_tashkeel": "فشق رئيس الكهنة حينئذ ثيابه قائلا: لقد جدف."
+            },
+            {
+              "row_index": 7,
+              "english": "What further need do we have of witnesses? Look, now you have heard His blasphemy!",
+              "arabic": "ما حاجتنا بعد إلى شهود ها قد سمعتم الآن التجديف. فماذا ترون؟!.",
+              "arabic_base_no_tashkeel": "ما حاجتنا بعد إلى شهود ها قد سمعتم الآن التجديف. فماذا ترون؟!."
+            },
+            {
+              "row_index": 8,
+              "english": "What do you think?\" They answered and said, \"He is deserving of death.\"",
+              "arabic": "أما هم فأجابوا وقالوا: إنه لمستوجب الموت",
+              "arabic_base_no_tashkeel": "أما هم فأجابوا وقالوا: إنه لمستوجب الموت"
+            },
+            {
+              "row_index": 9,
+              "english": "Then they spat in His face and beat Him; and others struck Him with the palms of their hands, saying, \"Prophesy to us, Christ! Who is the one who struck You?\"",
+              "arabic": "حينئذ بصقوا في وجهه ولكموه ثم ضربوه قائلين: تنبأ لنا أيها المسيح، من ضربك؟!",
+              "arabic_base_no_tashkeel": "حينئذ بصقوا في وجهه ولكموه ثم ضربوه قائلين: تنبأ لنا أيها المسيح، من ضربك؟!"
+            },
+            {
+              "row_index": 10,
+              "english": "Now Peter sat outside in the courtyard. And a servant girl came to him, saying, \"You also were with Jesus of Galilee.\"",
+              "arabic": "أما بطرس فكان جالساً خارجاً في الدار، فدنت منه جارية قائلة وأنت أيضاً كنت مع يسوع الجليلي.",
+              "arabic_base_no_tashkeel": "أما بطرس فكان جالسا خارجا في الدار، فدنت منه جارية قائلة وأنت أيضا كنت مع يسوع الجليلي."
+            },
+            {
+              "row_index": 11,
+              "english": "But he denied it before them all, saying, \"I do not know what you are saying.\"",
+              "arabic": "فأما هو فأنكر قدام كل أحد قائلا: لست أدرى ما تقولين،",
+              "arabic_base_no_tashkeel": "فأما هو فأنكر قدام كل أحد قائلا: لست أدرى ما تقولين،"
+            },
+            {
+              "row_index": 12,
+              "english": "And when he had gone out to the gateway, another girl saw him and said to those who were there, \"This fellow also was with Jesus of Nazareth.\"",
+              "arabic": "ثم خرج إلى الدهليز فرآتٍه اخرى فقالت للذين كانوا هناك: وهذا أيضاً كان مع يسوع الناصرى.",
+              "arabic_base_no_tashkeel": "ثم خرج إلى الدهليز فرآته اخرى فقالت للذين كانوا هناك: وهذا أيضا كان مع يسوع الناصرى."
+            },
+            {
+              "row_index": 13,
+              "english": "But again he denied with an oath, \"I do not know the Man!\"",
+              "arabic": "فأنكر أيضاً بقسم: إنى لست أعرف هذا الرجل.",
+              "arabic_base_no_tashkeel": "فأنكر أيضا بقسم: إنى لست أعرف هذا الرجل."
+            },
+            {
+              "row_index": 14,
+              "english": "And a little later those who stood by came up and said to Peter, \"Surely you also are one of them, for your speech betrays you.\"",
+              "arabic": "وبعد قليل جاء القيام وقالوا لبطرس: حقاً أنت ايضاً منهم، فإن كلامك أيضاً يظهرك.",
+              "arabic_base_no_tashkeel": "وبعد قليل جاء القيام وقالوا لبطرس: حقا أنت ايضا منهم، فإن كلامك أيضا يظهرك."
+            },
+            {
+              "row_index": 15,
+              "english": "Then he began to curse and swear, saying, \"I do not know the Man!\" Immediately a rooster crowed.",
+              "arabic": "فابتدأ حينئذ يلعن ويحلف: إنى لا أعرف هذا الرجل. وللوقت صاح الديك.",
+              "arabic_base_no_tashkeel": "فابتدأ حينئذ يلعن ويحلف: إنى لا أعرف هذا الرجل. وللوقت صاح الديك."
+            },
+            {
+              "row_index": 16,
+              "english": "And Peter remembered the word of Jesus who had said to him, \"Before the rooster crows, you will deny Me three times.\"",
+              "arabic": "فتذكر بطرس الكلام الذي قاله يسوع له: أنك قبل صياح الديك تنكرني ثلاث مرآتٍ.",
+              "arabic_base_no_tashkeel": "فتذكر بطرس الكلام الذي قاله يسوع له: أنك قبل صياح الديك تنكرني ثلاث مرآت."
+            },
+            {
+              "row_index": 17,
+              "english": "So he went out and wept bitterly.",
+              "arabic": "فخرج إلى خارج وبكى بكاء مراً.",
+              "arabic_base_no_tashkeel": "فخرج إلى خارج وبكى بكاء مرا."
+            }
+          ]
+        },
+        {
+          "title": "Psalm (2: 1 - 2, 4 - 5)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Why do the nations rage, And the people plot a vain thing?",
+              "arabic": "لِمَاذَا ارْتَجَّتِ الأُمَمُ وَتَفَكَّرَ الشُّعُوبُ فِي الْبَاطِلِ؟",
+              "arabic_base_no_tashkeel": "لماذا ارتجت الأمم وتفكر الشعوب في الباطل؟"
+            },
+            {
+              "row_index": 2,
+              "english": "The kings of the earth set themselves, And the rulers take counsel together, Against the Lord and against His Anointed.",
+              "arabic": "قَامَ مُلُوكُ الأَرْضِ وَتَآمَرَ الرُّؤَسَاءُ مَعاً عَلَى الرَّبِّ وَعَلَى مَسِيحِهِ قَائِلِينَ",
+              "arabic_base_no_tashkeel": "قام ملوك الأرض وتآمر الرؤساء معا على الرب وعلى مسيحه قائلين"
+            },
+            {
+              "row_index": 3,
+              "english": "He who sits in the heavens shall laugh; The Lord shall hold them in derision.",
+              "arabic": "اَلسَّاكِنُ فِي السَّمَاوَاتِ يَضْحَكُ. الرَّبُّ يَسْتَهْزِئُ بِهِمْ.",
+              "arabic_base_no_tashkeel": "الساكن في السماوات يضحك. الرب يستهزئ بهم."
+            },
+            {
+              "row_index": 4,
+              "english": "Then He shall speak to them in His wrath, And distress them in His deep displeasure:",
+              "arabic": "حِينَئِذٍ يَتَكَلَّمُ عَلَيْهِمْ بِغَضَبِهِ وَيَرْجُفُهُمْ بِغَيْظِهِ.\n.",
+              "arabic_base_no_tashkeel": "حينئذ يتكلم عليهم بغضبه ويرجفهم بغيظه.\n."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Mark 14: 55 - 72)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Now the chief priests and all the council sought testimony against Jesus to put Him to death, but found none.",
+              "arabic": "وأما رؤساء الكهنة والمجمع كله فكانوا يطلبون شهادة على يسوع ليقتلوه فلم يجدوا.",
+              "arabic_base_no_tashkeel": "وأما رؤساء الكهنة والمجمع كله فكانوا يطلبون شهادة على يسوع ليقتلوه فلم يجدوا."
+            },
+            {
+              "row_index": 2,
+              "english": "For many bore false witness against Him, but their testimonies did not agree.",
+              "arabic": "لأن كثيرين كانوا يشهدون عليه زورا ولم تتفق شهادآتٍهم.",
+              "arabic_base_no_tashkeel": "لأن كثيرين كانوا يشهدون عليه زورا ولم تتفق شهادآتهم."
+            },
+            {
+              "row_index": 3,
+              "english": "Then some rose up and bore false witness against Him, saying, \"We heard Him say, 'I will destroy this temple made with hands, and within three days I will build another made without hands.' \"",
+              "arabic": "ثم قام قوم وشهدوا عليه كذباً قائلين: نحن سمعناه يقول أني أنقض هذا الهيكل المصنوع بالأيادي، وفي ثلاثة أيام إبنى آخر غير مصنوع بأيد.",
+              "arabic_base_no_tashkeel": "ثم قام قوم وشهدوا عليه كذبا قائلين: نحن سمعناه يقول أني أنقض هذا الهيكل المصنوع بالأيادي، وفي ثلاثة أيام إبنى آخر غير مصنوع بأيد."
+            },
+            {
+              "row_index": 4,
+              "english": "But not even then did their testimony agree.",
+              "arabic": "ولا في هذا ايضاً كانت شهادتهم تتفق،",
+              "arabic_base_no_tashkeel": "ولا في هذا ايضا كانت شهادتهم تتفق،"
+            },
+            {
+              "row_index": 5,
+              "english": "And the high priest stood up in the midst and asked Jesus, saying, \"Do You answer nothing? What is it these men testify against You?\"",
+              "arabic": "فقام رئيس الكهنة في الوسط وسأل يسوع قائلا. أما تجيب بشيء عما يشهد به هؤلاء عليك.",
+              "arabic_base_no_tashkeel": "فقام رئيس الكهنة في الوسط وسأل يسوع قائلا. أما تجيب بشيء عما يشهد به هؤلاء عليك."
+            },
+            {
+              "row_index": 6,
+              "english": "But He kept silent and answered nothing. Again the high priest asked Him, saying to Him, \"Are You the Christ, the Son of the Blessed?\"",
+              "arabic": "أما هو فكان ساكتاً. ولم يجب بشئ. فسأله رئيس الكهنة أيضأً وقال له: أأنت المسيح إبن المبارك؟",
+              "arabic_base_no_tashkeel": "أما هو فكان ساكتا. ولم يجب بشئ. فسأله رئيس الكهنة أيضأ وقال له: أأنت المسيح إبن المبارك؟"
+            },
+            {
+              "row_index": 7,
+              "english": "Jesus said, \"I am. And you will see the Son of Man sitting at the right hand of the Power, and coming with the clouds of heaven.\"",
+              "arabic": "فقال له يسوع: أنا هو، وسوف تبصرون إبن الإنسان جالساً عن يمين القوة وآتٍيا مع سحاب السماء.",
+              "arabic_base_no_tashkeel": "فقال له يسوع: أنا هو، وسوف تبصرون إبن الإنسان جالسا عن يمين القوة وآتيا مع سحاب السماء."
+            },
+            {
+              "row_index": 8,
+              "english": "Then the high priest tore his clothes and said, \"What further need do we have of witnesses? You have heard the blasphemy! What do you think?\"",
+              "arabic": "فمزق رئيس الكهنة ثيابه وقال ما حاجتكم بعد إلى الشهود، قد سمعتم التجديف ظاهراً لكم.",
+              "arabic_base_no_tashkeel": "فمزق رئيس الكهنة ثيابه وقال ما حاجتكم بعد إلى الشهود، قد سمعتم التجديف ظاهرا لكم."
+            },
+            {
+              "row_index": 9,
+              "english": "And they all condemned Him to be deserving of death. Then some began to spit on Him, and to blindfold Him, and to beat Him, and to say to Him, \"Prophesy!\" And the officers struck Him with the palms of their hands.",
+              "arabic": "فأما هم فحكموا عليه الجميع بأنه مستوجب الموت. فابتدأ قوم يتفلون عليه ويغطون وجهه ويلطمونه، ويقولون له: تنبأ لنا أيها المسيح، من هو الذي لطمك الآن!. ثم تناوله الخدام باللطم،",
+              "arabic_base_no_tashkeel": "فأما هم فحكموا عليه الجميع بأنه مستوجب الموت. فابتدأ قوم يتفلون عليه ويغطون وجهه ويلطمونه، ويقولون له: تنبأ لنا أيها المسيح، من هو الذي لطمك الآن!. ثم تناوله الخدام باللطم،"
+            },
+            {
+              "row_index": 10,
+              "english": "Now as Peter was below in the courtyard, one of the servant girls of the high priest came.",
+              "arabic": "وبينما كان بطرس في الدار الأسفل جاءت واحدة من جواري رئيس الكهنة،",
+              "arabic_base_no_tashkeel": "وبينما كان بطرس في الدار الأسفل جاءت واحدة من جواري رئيس الكهنة،"
+            },
+            {
+              "row_index": 11,
+              "english": "And when she saw Peter warming himself, she looked at him and said, \"You also were with Jesus of Nazareth.\"",
+              "arabic": "ولما رأت بطرس يصطلى تفرست فيه وقالت له: وأنت أيضاً كنت مع يسوع الناصري.",
+              "arabic_base_no_tashkeel": "ولما رأت بطرس يصطلى تفرست فيه وقالت له: وأنت أيضا كنت مع يسوع الناصري."
+            },
+            {
+              "row_index": 12,
+              "english": "But he denied it, saying, \"I neither know nor understand what you are saying.\"",
+              "arabic": "أما هو فأنكر قائلا: لست أدري ولا أعرف ما تقولين.",
+              "arabic_base_no_tashkeel": "أما هو فأنكر قائلا: لست أدري ولا أعرف ما تقولين."
+            },
+            {
+              "row_index": 13,
+              "english": "And he went out on the porch, and a rooster crowed. And the servant girl saw him again, and began to say to those who stood by, \"This is one of them.\"",
+              "arabic": "فخرج إلى موضع خارج الدار فصاح ديك، فرآتٍه الجارية ثانية فجعلت تقول للحاضرين: إن هذا منهم.",
+              "arabic_base_no_tashkeel": "فخرج إلى موضع خارج الدار فصاح ديك، فرآته الجارية ثانية فجعلت تقول للحاضرين: إن هذا منهم."
+            },
+            {
+              "row_index": 14,
+              "english": "But he denied it again. And a little later those who stood by said to Peter again, \"Surely you are one of them; for you are a Galilean, and your speech shows it.\"",
+              "arabic": "أما هو فأنكر أيضاً. وبعد قليل أيضاً قال الحاضرون لبطرس: بالحقيقة أنت منهم لأنك جليلي وكلامك يشبه كلامهم.",
+              "arabic_base_no_tashkeel": "أما هو فأنكر أيضا. وبعد قليل أيضا قال الحاضرون لبطرس: بالحقيقة أنت منهم لأنك جليلي وكلامك يشبه كلامهم."
+            },
+            {
+              "row_index": 15,
+              "english": "Then he began to curse and swear, \"I do not know this Man of whom you speak!\" A second time the rooster crowed.",
+              "arabic": "أما هو فابتدأ يلعن ويحلف: أننى لا أعرف هذا الرجل الذي تقولون عنه. فصاح الديك للمرة الثانية،",
+              "arabic_base_no_tashkeel": "أما هو فابتدأ يلعن ويحلف: أننى لا أعرف هذا الرجل الذي تقولون عنه. فصاح الديك للمرة الثانية،"
+            },
+            {
+              "row_index": 16,
+              "english": "Then Peter called to mind the word that Jesus had said to him, \"Before the rooster crows twice, you will deny Me three times.\" And when he thought about it, he wept.",
+              "arabic": "فتذكر بطرس الكلام الذي قال له يسوع: أنك قبل أن يصيح ديك مرتين تنكرني ثلاث مرآتٍ. فتحول يبكي.",
+              "arabic_base_no_tashkeel": "فتذكر بطرس الكلام الذي قال له يسوع: أنك قبل أن يصيح ديك مرتين تنكرني ثلاث مرآت. فتحول يبكي."
+            },
+            {
+              "row_index": 17,
+              "english": "Then he began to curse and swear, \"I do not know this Man of whom you speak!\"",
+              "arabic": "فَابْتَدَأَ يَلْعَنُ وَيَحْلِفُ: «إِنِّي لاَ أَعْرِفُ هَذَا الرَّجُلَ الَّذِي تَقُولُونَ عَنْهُ!»",
+              "arabic_base_no_tashkeel": "فابتدأ يلعن ويحلف: «إني لا أعرف هذا الرجل الذي تقولون عنه!»"
+            },
+            {
+              "row_index": 18,
+              "english": "A second time the rooster crowed. Then Peter called to mind the word that Jesus had said to him, \"Before the rooster crows twice, you will deny Me three times.\" And when he thought about it, he wept.<Br><i>Bow down before the Holy Gospel.</i>",
+              "arabic": "وَصَاحَ الدِّيكُ ثَانِيَةً فَتَذَكَّرَ بُطْرُسُ الْقَوْلَ الَّذِي قَالَهُ لَهُ يَسُوعُ: «إِنَّكَ قَبْلَ أَنْ يَصِيحَ الدِّيكُ مَرَّتَيْنِ تُنْكِرُنِي ثَلاَثَ مَرَّاتٍ». فَلَمَّا تَفَكَّرَ بِهِ بَكَى.<br><i>أسجدوا للإنجيل المقدس.</i>",
+              "arabic_base_no_tashkeel": "وصاح الديك ثانية فتذكر بطرس القول الذي قاله له يسوع: «إنك قبل أن يصيح الديك مرتين تنكرني ثلاث مرات». فلما تفكر به بكى.<br><i>أسجدوا للإنجيل المقدس.</i>"
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Luke 22: 56 - 65)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "And a certain servant girl, seeing him as he sat by the fire, looked intently at him and said, \"This man was also with Him.\" But he denied Him, saying, \"Woman, I do not know Him.\"",
+              "arabic": "أما بطرس فرأته جارية جالساً عن الضوء فتفرست فيه ثم قالت: أن هذا أيضاً كان معه أما هو فأنكره قائلا: لست اعرفه يا إمرأة.",
+              "arabic_base_no_tashkeel": "أما بطرس فرأته جارية جالسا عن الضوء فتفرست فيه ثم قالت: أن هذا أيضا كان معه أما هو فأنكره قائلا: لست اعرفه يا إمرأة."
+            },
+            {
+              "row_index": 2,
+              "english": "And after a little while another saw him and said, \"You also are of them.\" But Peter said, \"Man, I am not!\"",
+              "arabic": "وبعد قليل رآه أخر فقال: وأنت ايضاً منهم. فقال بطرس: يا رجل لست أنا.",
+              "arabic_base_no_tashkeel": "وبعد قليل رآه أخر فقال: وأنت ايضا منهم. فقال بطرس: يا رجل لست أنا."
+            },
+            {
+              "row_index": 3,
+              "english": "Then after about an hour had passed, another confidently affirmed, saying, \"Surely this fellow also was with Him, for he is a Galilean.\"",
+              "arabic": "ولما مضى نحو ساعة كان آخر يؤكد قائلاً: في الحقيقة هذا أيضاً كان معه، لأنه جليلي",
+              "arabic_base_no_tashkeel": "ولما مضى نحو ساعة كان آخر يؤكد قائلا: في الحقيقة هذا أيضا كان معه، لأنه جليلي"
+            },
+            {
+              "row_index": 4,
+              "english": "But Peter said, \"Man, I do not know what you are saying!\" Immediately, while he was still speaking, the rooster crowed.",
+              "arabic": "فقال بطرس: يا رجل لست اعرف ما تقول. وللوقت بينما هو يتكلم صاح الديك.",
+              "arabic_base_no_tashkeel": "فقال بطرس: يا رجل لست اعرف ما تقول. وللوقت بينما هو يتكلم صاح الديك."
+            },
+            {
+              "row_index": 5,
+              "english": "And the Lord turned and looked at Peter. And Peter remembered the word of the Lord, how He had said to him, \"Before the rooster crows, you will deny Me three times.\" So Peter went out and wept bitterly.",
+              "arabic": "فإلتفت الرب ونظر إلى بطرس، فتذكر بطرس قول الرب كما قال له أنه: قبل أن يصيح ديك تنكرني ثلاث مرات. فخرج بطرس خارجاً وبكى بمرارة،",
+              "arabic_base_no_tashkeel": "فإلتفت الرب ونظر إلى بطرس، فتذكر بطرس قول الرب كما قال له أنه: قبل أن يصيح ديك تنكرني ثلاث مرات. فخرج بطرس خارجا وبكى بمرارة،"
+            },
+            {
+              "row_index": 6,
+              "english": "Now the men who held Jesus mocked Him and beat Him. And having blindfolded Him, they struck Him on the face and asked Him, saying, \"Prophesy! Who is the one who struck You?\" And many other things they blasphemously spoke against Him.",
+              "arabic": "والرجال الذين أمسكوه كانوا يهزأون به ويضربونه وغطوه، وكانوا يسألونه قائلين: تنبأ لنا من الذي ضربكً! وأشياء أخرى كثيرة كانوا يقولونها عليه مجدفين.",
+              "arabic_base_no_tashkeel": "والرجال الذين أمسكوه كانوا يهزأون به ويضربونه وغطوه، وكانوا يسألونه قائلين: تنبأ لنا من الذي ضربك! وأشياء أخرى كثيرة كانوا يقولونها عليه مجدفين."
+            },
+            {
+              "row_index": 7,
+              "english": "So Peter went out and wept bitterly.",
+              "arabic": "فَخَرَجَ بُطْرُسُ إِلَى خَارِجٍ وَبَكَى بُكَاءً مُرّاً.",
+              "arabic_base_no_tashkeel": "فخرج بطرس إلى خارج وبكى بكاء مرا."
+            },
+            {
+              "row_index": 8,
+              "english": "Now the men who held Jesus mocked Him and beat Him.",
+              "arabic": "وَالرِّجَالُ الَّذِينَ كَانُوا ضَابِطِينَ يَسُوعَ كَانُوا يَسْتَهْزِئُونَ بِهِ وَهُمْ يَجْلِدُونَهُ",
+              "arabic_base_no_tashkeel": "والرجال الذين كانوا ضابطين يسوع كانوا يستهزئون به وهم يجلدونه"
+            },
+            {
+              "row_index": 9,
+              "english": "And having blindfolded Him, they struck Him on the face and asked Him, saying, \"Prophesy! Who is the one who struck You?\"",
+              "arabic": "وَغَطَّوْهُ وَكَانُوا يَضْرِبُونَ وَجْهَهُ وَيَسْأَلُونَهُ: «تَنَبَّأْ! مَنْ هُوَ الَّذِي ضَرَبَكَ؟»",
+              "arabic_base_no_tashkeel": "وغطوه وكانوا يضربون وجهه ويسألونه: «تنبأ! من هو الذي ضربك؟»"
+            },
+            {
+              "row_index": 10,
+              "english": "And many other things they blasphemously spoke against Him.<Br><i>Bow down before the Holy Gospel.</i>",
+              "arabic": "وَأَشْيَاءَ أُخَرَ كَثِيرَةً كَانُوا يَقُولُونَ عَلَيْهِ مُجَدِّفِينَ.<br><i>أسجدوا للإنجيل المقدس.</i>",
+              "arabic_base_no_tashkeel": "وأشياء أخر كثيرة كانوا يقولون عليه مجدفين.<br><i>أسجدوا للإنجيل المقدس.</i>"
+            }
+          ]
+        },
+        {
+          "title": "Gospel (John 18: 15 - 27)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "And Simon Peter followed Jesus, and so did another disciple. Now that disciple was known to the high priest, and went with Jesus into the courtyard of the high priest. But Peter stood at the door outside. Then the other disciple, who was known to the high priest, went out and spoke to her who kept the door, and brought Peter in.",
+              "arabic": "وكان سمعان بطرس والتلميذ الآخر يتبعان يسوع، وكان التلميذ معروفا عند رئيس الكهنة، فدخل مع يسوع إلى دار رئيس الكهنة، وأما بطرس فكان واقفاً عن الباب خارجا، فخرج التلميذ الذي كان معروفاً عند رئيس الكهنة، فكلم البوابة وأدخل بطرس،",
+              "arabic_base_no_tashkeel": "وكان سمعان بطرس والتلميذ الآخر يتبعان يسوع، وكان التلميذ معروفا عند رئيس الكهنة، فدخل مع يسوع إلى دار رئيس الكهنة، وأما بطرس فكان واقفا عن الباب خارجا، فخرج التلميذ الذي كان معروفا عند رئيس الكهنة، فكلم البوابة وأدخل بطرس،"
+            },
+            {
+              "row_index": 2,
+              "english": "Then the servant girl who kept the door said to Peter, \"You are not also one of this Man's disciples, are you?\"",
+              "arabic": "فقالت الفتاة البوابة لبطرس: ألست أنت أيضاً من تلاميذ هذا الرجل؟!.",
+              "arabic_base_no_tashkeel": "فقالت الفتاة البوابة لبطرس: ألست أنت أيضا من تلاميذ هذا الرجل؟!."
+            },
+            {
+              "row_index": 3,
+              "english": "He said, \"I am not.\" Now the servants and officers who had made a fire of coals stood there, for it was cold, and they warmed themselves.",
+              "arabic": "أما هو فقال: لا. وكان العبيد والخدام قياماً يوقدون لهم حطبا لأنه كان شتاء، وكانوا يصطلون،",
+              "arabic_base_no_tashkeel": "أما هو فقال: لا. وكان العبيد والخدام قياما يوقدون لهم حطبا لأنه كان شتاء، وكانوا يصطلون،"
+            },
+            {
+              "row_index": 4,
+              "english": "And Peter stood with them and warmed himself. The high priest then asked Jesus about His disciples and His doctrine.",
+              "arabic": "وكان بطرس أيضاً معهم واقفا يصطلى، فسأل رئيس الكهنة يسوع عن تلاميذه وعن تعليمه،",
+              "arabic_base_no_tashkeel": "وكان بطرس أيضا معهم واقفا يصطلى، فسأل رئيس الكهنة يسوع عن تلاميذه وعن تعليمه،"
+            },
+            {
+              "row_index": 5,
+              "english": "Jesus answered him, \"I spoke openly to the world. I always taught in synagogues and in the temple, where the Jews always meet, and in secret I have said nothing.",
+              "arabic": "فأجابه يسوع قائلاً: أنا كلمت العالم علانية وكنت أعلم كل حين في المجامع وفي الهيكل حيث تجتمع كل اليهود، ولم أقل كلمة في الخفاء.",
+              "arabic_base_no_tashkeel": "فأجابه يسوع قائلا: أنا كلمت العالم علانية وكنت أعلم كل حين في المجامع وفي الهيكل حيث تجتمع كل اليهود، ولم أقل كلمة في الخفاء."
+            },
+            {
+              "row_index": 6,
+              "english": "Why do you ask Me? Ask those who have heard Me what I said to them. Indeed they know what I said.\"",
+              "arabic": "لماذا تسألني، سل الذين سمعوا ما قلت لهم. هوذا هؤلاء يعرفون ماذا قلت أنا.",
+              "arabic_base_no_tashkeel": "لماذا تسألني، سل الذين سمعوا ما قلت لهم. هوذا هؤلاء يعرفون ماذا قلت أنا."
+            },
+            {
+              "row_index": 7,
+              "english": "And when He had said these things, one of the officers who stood by struck Jesus with the palm of his hand,",
+              "arabic": "ولما قال يسوع هذا لطم يسوع واحد من الخدام كان واقفا. فلطم يسوع",
+              "arabic_base_no_tashkeel": "ولما قال يسوع هذا لطم يسوع واحد من الخدام كان واقفا. فلطم يسوع"
+            },
+            {
+              "row_index": 8,
+              "english": "saying, \"Do You answer the high priest like that?\"",
+              "arabic": "قائلاً, أهكذا تجاوب رئيس الكهنة.",
+              "arabic_base_no_tashkeel": "قائلا, أهكذا تجاوب رئيس الكهنة."
+            },
+            {
+              "row_index": 9,
+              "english": "Jesus answered him, \"If I have spoken evil, bear witness of the evil; but if well, why do you strike Me?\"",
+              "arabic": "فأجاب يسوع وقال له: إن كنت قد تكلمت ردياً فإشهد بالردى، وإن حسناً فلماذا تضربني؟!",
+              "arabic_base_no_tashkeel": "فأجاب يسوع وقال له: إن كنت قد تكلمت رديا فإشهد بالردى، وإن حسنا فلماذا تضربني؟!"
+            },
+            {
+              "row_index": 10,
+              "english": "Then Annas sent Him bound to Caiaphas the high priest. Now Simon Peter stood and warmed himself.",
+              "arabic": "حينئذ أرسله حنان موثقا إلى قيافا رئيس الكهنة، وكان سمعان بطرس واقفا يصطلى،",
+              "arabic_base_no_tashkeel": "حينئذ أرسله حنان موثقا إلى قيافا رئيس الكهنة، وكان سمعان بطرس واقفا يصطلى،"
+            },
+            {
+              "row_index": 11,
+              "english": "Therefore they said to him, \"You are not also one of His disciples, are you?\" He denied it and said, \"I am not!\"",
+              "arabic": "فقالوا له: ألست أنت أيضاً من تلاميذه؟!. أما هو فأنكر وقال: لا.",
+              "arabic_base_no_tashkeel": "فقالوا له: ألست أنت أيضا من تلاميذه؟!. أما هو فأنكر وقال: لا."
+            },
+            {
+              "row_index": 12,
+              "english": "One of the servants of the high priest, a relative of him whose ear Peter cut off, said, \"Did I not see you in the garden with Him?\"",
+              "arabic": "فقال له واحد من عبيد رئيس الكهنة، وهو نسيب الذي قطع بطرس أذنه: أما رأيتك معه في البستان؟!",
+              "arabic_base_no_tashkeel": "فقال له واحد من عبيد رئيس الكهنة، وهو نسيب الذي قطع بطرس أذنه: أما رأيتك معه في البستان؟!"
+            },
+            {
+              "row_index": 13,
+              "english": "Peter then denied again; and immediately a rooster crowed.",
+              "arabic": "فأنكر بطرس أيضاً، وللوقت صاح الديك.",
+              "arabic_base_no_tashkeel": "فأنكر بطرس أيضا، وللوقت صاح الديك."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4072 @@
+{
+  "summary": {
+    "replaced_tables": 195,
+    "missing_exports": 75,
+    "skipped_tables": 36,
+    "total_tables": 306,
+    "parse_issues": 222
+  },
+  "parse_issues": [
+    {
+      "reference": "1 CORINTHIANS 15:1-23 [SELECTION]",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\1_corinthians_15_1_23_selection.txt",
+      "line": "# Reference: 1 CORINTHIANS 15:1-23 [SELECTION]"
+    },
+    {
+      "reference": "1 CORINTHIANS 15:1-23 [SELECTION]",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\1_corinthians_15_1_23_selection.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "1 CORINTHIANS 15:1-23 [SELECTION]",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\1_corinthians_15_1_23_selection.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "1 CORINTHIANS 15:1-27 [SELECTION]",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\1_corinthians_15_1_27_selection.txt",
+      "line": "# Reference: 1 CORINTHIANS 15:1-27 [SELECTION]"
+    },
+    {
+      "reference": "1 CORINTHIANS 15:1-27 [SELECTION]",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\1_corinthians_15_1_27_selection.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "1 CORINTHIANS 15:1-27 [SELECTION]",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\1_corinthians_15_1_27_selection.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "1 CORINTHIANS 5:7-END",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\1_corinthians_5_7_end.txt",
+      "line": "# Reference: 1 CORINTHIANS 5:7-END"
+    },
+    {
+      "reference": "1 CORINTHIANS 5:7-END",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\1_corinthians_5_7_end.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "1 CORINTHIANS 5:7-END",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\1_corinthians_5_7_end.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "1 PETER 1:1-9",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\1_peter_1_1_9.txt",
+      "line": "# Reference: 1 PETER 1:1-9"
+    },
+    {
+      "reference": "1 PETER 1:1-9",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\1_peter_1_1_9.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "1 PETER 1:1-9",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\1_peter_1_1_9.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "1 TIMOTHY 4:9-16, 5:1-10",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\1_timothy_4_9_16_5_1_10.txt",
+      "line": "# Reference: 1 TIMOTHY 4:9-16, 5:1-10"
+    },
+    {
+      "reference": "1 TIMOTHY 4:9-16, 5:1-10",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\1_timothy_4_9_16_5_1_10.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "1 TIMOTHY 4:9-16, 5:1-10",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\1_timothy_4_9_16_5_1_10.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "ACTS 1:15-20",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\acts_1_15_20.txt",
+      "line": "# Reference: ACTS 1:15-20"
+    },
+    {
+      "reference": "ACTS 1:15-20",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\acts_1_15_20.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "ACTS 1:15-20",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\acts_1_15_20.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "ACTS 3:12-21",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\acts_3_12_21.txt",
+      "line": "# Reference: ACTS 3:12-21"
+    },
+    {
+      "reference": "ACTS 3:12-21",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\acts_3_12_21.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "ACTS 3:12-21",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\acts_3_12_21.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "COLOSSIANS 2:13-15",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\colossians_2_13_15.txt",
+      "line": "# Reference: COLOSSIANS 2:13-15"
+    },
+    {
+      "reference": "COLOSSIANS 2:13-15",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\colossians_2_13_15.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "COLOSSIANS 2:13-15",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\colossians_2_13_15.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "GALATIANS 3:1-6 [SELECTION]",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\galatians_3_1_6_selection.txt",
+      "line": "# Reference: GALATIANS 3:1-6 [SELECTION]"
+    },
+    {
+      "reference": "GALATIANS 3:1-6 [SELECTION]",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\galatians_3_1_6_selection.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "GALATIANS 3:1-6 [SELECTION]",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\galatians_3_1_6_selection.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "GALATIANS 6:14-END",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\galatians_6_14_end.txt",
+      "line": "# Reference: GALATIANS 6:14-END"
+    },
+    {
+      "reference": "GALATIANS 6:14-END",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\galatians_6_14_end.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "GALATIANS 6:14-END",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\galatians_6_14_end.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "JOHN 10:17-21",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_10_17_21.txt",
+      "line": "# Reference: JOHN 10:17-21"
+    },
+    {
+      "reference": "JOHN 10:17-21",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_10_17_21.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "JOHN 10:17-21",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_10_17_21.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "JOHN 10:29-38",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_10_29_38.txt",
+      "line": "# Reference: JOHN 10:29-38"
+    },
+    {
+      "reference": "JOHN 10:29-38",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_10_29_38.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "JOHN 10:29-38",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_10_29_38.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "JOHN 11:46-END",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_11_46_end.txt",
+      "line": "# Reference: JOHN 11:46-END"
+    },
+    {
+      "reference": "JOHN 11:46-END",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_11_46_end.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "JOHN 11:46-END",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_11_46_end.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "JOHN 11:55-END",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_11_55_end.txt",
+      "line": "# Reference: JOHN 11:55-END"
+    },
+    {
+      "reference": "JOHN 11:55-END",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_11_55_end.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "JOHN 11:55-END",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_11_55_end.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "JOHN 12:1-8",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_12_1_8.txt",
+      "line": "# Reference: JOHN 12:1-8"
+    },
+    {
+      "reference": "JOHN 12:1-8",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_12_1_8.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "JOHN 12:1-8",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_12_1_8.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "JOHN 12:20-36 [SELECTION]",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_12_20_36_selection.txt",
+      "line": "# Reference: JOHN 12:20-36 [SELECTION]"
+    },
+    {
+      "reference": "JOHN 12:20-36 [SELECTION]",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_12_20_36_selection.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "JOHN 12:20-36 [SELECTION]",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_12_20_36_selection.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "JOHN 12:27-36 [SELECTION]",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_12_27_36_selection.txt",
+      "line": "# Reference: JOHN 12:27-36 [SELECTION]"
+    },
+    {
+      "reference": "JOHN 12:27-36 [SELECTION]",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_12_27_36_selection.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "JOHN 12:27-36 [SELECTION]",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_12_27_36_selection.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "JOHN 12:36-43 [SELECTION]",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_12_36_43_selection.txt",
+      "line": "# Reference: JOHN 12:36-43 [SELECTION]"
+    },
+    {
+      "reference": "JOHN 12:36-43 [SELECTION]",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_12_36_43_selection.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "JOHN 12:36-43 [SELECTION]",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_12_36_43_selection.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "JOHN 12:44-50",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_12_44_50.txt",
+      "line": "# Reference: JOHN 12:44-50"
+    },
+    {
+      "reference": "JOHN 12:44-50",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_12_44_50.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "JOHN 12:44-50",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_12_44_50.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "JOHN 13:1-17",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_13_1_17.txt",
+      "line": "# Reference: JOHN 13:1-17"
+    },
+    {
+      "reference": "JOHN 13:1-17",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_13_1_17.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "JOHN 13:1-17",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_13_1_17.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "JOHN 13:21-30",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_13_21_30.txt",
+      "line": "# Reference: JOHN 13:21-30"
+    },
+    {
+      "reference": "JOHN 13:21-30",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_13_21_30.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "JOHN 13:21-30",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_13_21_30.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "JOHN 13:33-38, 14:1-25",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_13_33_38_14_1_25.txt",
+      "line": "# Reference: JOHN 13:33-38, 14:1-25"
+    },
+    {
+      "reference": "JOHN 13:33-38, 14:1-25",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_13_33_38_14_1_25.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "JOHN 13:33-38, 14:1-25",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_13_33_38_14_1_25.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "JOHN 2:13-17 [SELECTION]",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_2_13_17_selection.txt",
+      "line": "# Reference: JOHN 2:13-17 [SELECTION]"
+    },
+    {
+      "reference": "JOHN 2:13-17 [SELECTION]",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_2_13_17_selection.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "JOHN 2:13-17 [SELECTION]",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_2_13_17_selection.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "JOHN 5:19-29",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_5_19_29.txt",
+      "line": "# Reference: JOHN 5:19-29"
+    },
+    {
+      "reference": "JOHN 5:19-29",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_5_19_29.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "JOHN 5:19-29",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_5_19_29.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "JOHN 5:21-30",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_5_21_30.txt",
+      "line": "# Reference: JOHN 5:21-30"
+    },
+    {
+      "reference": "JOHN 5:21-30",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_5_21_30.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "JOHN 5:21-30",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_5_21_30.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "JOHN 8:12-20",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_8_12_20.txt",
+      "line": "# Reference: JOHN 8:12-20"
+    },
+    {
+      "reference": "JOHN 8:12-20",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_8_12_20.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "JOHN 8:12-20",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_8_12_20.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "JOHN 8:21-29",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_8_21_29.txt",
+      "line": "# Reference: JOHN 8:21-29"
+    },
+    {
+      "reference": "JOHN 8:21-29",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_8_21_29.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "JOHN 8:21-29",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_8_21_29.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "JOHN 8:51-END",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_8_51_end.txt",
+      "line": "# Reference: JOHN 8:51-END"
+    },
+    {
+      "reference": "JOHN 8:51-END",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_8_51_end.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "JOHN 8:51-END",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\john_8_51_end.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "LUKE 11:37-52",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\luke_11_37_52.txt",
+      "line": "# Reference: LUKE 11:37-52"
+    },
+    {
+      "reference": "LUKE 11:37-52",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\luke_11_37_52.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "LUKE 11:37-52",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\luke_11_37_52.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "LUKE 13:23-30",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\luke_13_23_30.txt",
+      "line": "# Reference: LUKE 13:23-30"
+    },
+    {
+      "reference": "LUKE 13:23-30",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\luke_13_23_30.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "LUKE 13:23-30",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\luke_13_23_30.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "LUKE 13:31-END",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\luke_13_31_end.txt",
+      "line": "# Reference: LUKE 13:31-END"
+    },
+    {
+      "reference": "LUKE 13:31-END",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\luke_13_31_end.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "LUKE 13:31-END",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\luke_13_31_end.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "LUKE 1:46-55",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\luke_1_46_55.txt",
+      "line": "# Reference: LUKE 1:46-55"
+    },
+    {
+      "reference": "LUKE 1:46-55",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\luke_1_46_55.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "LUKE 1:46-55",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\luke_1_46_55.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "LUKE 1:68-79",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\luke_1_68_79.txt",
+      "line": "# Reference: LUKE 1:68-79"
+    },
+    {
+      "reference": "LUKE 1:68-79",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\luke_1_68_79.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "LUKE 1:68-79",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\luke_1_68_79.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "LUKE 21:34-END",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\luke_21_34_end.txt",
+      "line": "# Reference: LUKE 21:34-END"
+    },
+    {
+      "reference": "LUKE 21:34-END",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\luke_21_34_end.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "LUKE 21:34-END",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\luke_21_34_end.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "LUKE 22:1-6",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\luke_22_1_6.txt",
+      "line": "# Reference: LUKE 22:1-6"
+    },
+    {
+      "reference": "LUKE 22:1-6",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\luke_22_1_6.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "LUKE 22:1-6",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\luke_22_1_6.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "LUKE 22:7-13",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\luke_22_7_13.txt",
+      "line": "# Reference: LUKE 22:7-13"
+    },
+    {
+      "reference": "LUKE 22:7-13",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\luke_22_7_13.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "LUKE 22:7-13",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\luke_22_7_13.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "LUKE 24:1-12",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\luke_24_1_12.txt",
+      "line": "# Reference: LUKE 24:1-12"
+    },
+    {
+      "reference": "LUKE 24:1-12",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\luke_24_1_12.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "LUKE 24:1-12",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\luke_24_1_12.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "LUKE 2:29-32",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\luke_2_29_32.txt",
+      "line": "# Reference: LUKE 2:29-32"
+    },
+    {
+      "reference": "LUKE 2:29-32",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\luke_2_29_32.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "LUKE 2:29-32",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\luke_2_29_32.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "LUKE 9:18-22",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\luke_9_18_22.txt",
+      "line": "# Reference: LUKE 9:18-22"
+    },
+    {
+      "reference": "LUKE 9:18-22",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\luke_9_18_22.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "LUKE 9:18-22",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\luke_9_18_22.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "MARK 10:32-34",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\mark_10_32_34.txt",
+      "line": "# Reference: MARK 10:32-34"
+    },
+    {
+      "reference": "MARK 10:32-34",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\mark_10_32_34.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "MARK 10:32-34",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\mark_10_32_34.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "MARK 11:11-19",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\mark_11_11_19.txt",
+      "line": "# Reference: MARK 11:11-19"
+    },
+    {
+      "reference": "MARK 11:11-19",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\mark_11_11_19.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "MARK 11:11-19",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\mark_11_11_19.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "MARK 11:12-24",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\mark_11_12_24.txt",
+      "line": "# Reference: MARK 11:12-24"
+    },
+    {
+      "reference": "MARK 11:12-24",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\mark_11_12_24.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "MARK 11:12-24",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\mark_11_12_24.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "MARK 13:32-END, 14:1-2",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\mark_13_32_end_14_1_2.txt",
+      "line": "# Reference: MARK 13:32-END, 14:1-2"
+    },
+    {
+      "reference": "MARK 13:32-END, 14:1-2",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\mark_13_32_end_14_1_2.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "MARK 13:32-END, 14:1-2",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\mark_13_32_end_14_1_2.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "MARK 14:12-16",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\mark_14_12_16.txt",
+      "line": "# Reference: MARK 14:12-16"
+    },
+    {
+      "reference": "MARK 14:12-16",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\mark_14_12_16.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "MARK 14:12-16",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\mark_14_12_16.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "MARK 14:3-11",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\mark_14_3_11.txt",
+      "line": "# Reference: MARK 14:3-11"
+    },
+    {
+      "reference": "MARK 14:3-11",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\mark_14_3_11.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "MARK 14:3-11",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\mark_14_3_11.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "MARK 8:27-33",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\mark_8_27_33.txt",
+      "line": "# Reference: MARK 8:27-33"
+    },
+    {
+      "reference": "MARK 8:27-33",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\mark_8_27_33.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "MARK 8:27-33",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\mark_8_27_33.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "MATTHEW 16:24-END",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_16_24_end.txt",
+      "line": "# Reference: MATTHEW 16:24-END"
+    },
+    {
+      "reference": "MATTHEW 16:24-END",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_16_24_end.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "MATTHEW 16:24-END",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_16_24_end.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "MATTHEW 17:19-23",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_17_19_23.txt",
+      "line": "# Reference: MATTHEW 17:19-23"
+    },
+    {
+      "reference": "MATTHEW 17:19-23",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_17_19_23.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "MATTHEW 17:19-23",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_17_19_23.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "MATTHEW 20:20-28",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_20_20_28.txt",
+      "line": "# Reference: MATTHEW 20:20-28"
+    },
+    {
+      "reference": "MATTHEW 20:20-28",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_20_20_28.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "MATTHEW 20:20-28",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_20_20_28.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "MATTHEW 21:10-17",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_21_10_17.txt",
+      "line": "# Reference: MATTHEW 21:10-17"
+    },
+    {
+      "reference": "MATTHEW 21:10-17",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_21_10_17.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "MATTHEW 21:10-17",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_21_10_17.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "MATTHEW 21:23-27",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_21_23_27.txt",
+      "line": "# Reference: MATTHEW 21:23-27"
+    },
+    {
+      "reference": "MATTHEW 21:23-27",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_21_23_27.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "MATTHEW 21:23-27",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_21_23_27.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "MATTHEW 22:1-14",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_22_1_14.txt",
+      "line": "# Reference: MATTHEW 22:1-14"
+    },
+    {
+      "reference": "MATTHEW 22:1-14",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_22_1_14.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "MATTHEW 22:1-14",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_22_1_14.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "MATTHEW 23:29-36",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_23_29_36.txt",
+      "line": "# Reference: MATTHEW 23:29-36"
+    },
+    {
+      "reference": "MATTHEW 23:29-36",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_23_29_36.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "MATTHEW 23:29-36",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_23_29_36.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "MATTHEW 23:37-END, 24:1-2",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_23_37_end_24_1_2.txt",
+      "line": "# Reference: MATTHEW 23:37-END, 24:1-2"
+    },
+    {
+      "reference": "MATTHEW 23:37-END, 24:1-2",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_23_37_end_24_1_2.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "MATTHEW 23:37-END, 24:1-2",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_23_37_end_24_1_2.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "MATTHEW 24:3-35",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_24_3_35.txt",
+      "line": "# Reference: MATTHEW 24:3-35"
+    },
+    {
+      "reference": "MATTHEW 24:3-35",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_24_3_35.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "MATTHEW 24:3-35",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_24_3_35.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "MATTHEW 24:36-END",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_24_36_end.txt",
+      "line": "# Reference: MATTHEW 24:36-END"
+    },
+    {
+      "reference": "MATTHEW 24:36-END",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_24_36_end.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "MATTHEW 24:36-END",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_24_36_end.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "MATTHEW 25:1-13",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_25_1_13.txt",
+      "line": "# Reference: MATTHEW 25:1-13"
+    },
+    {
+      "reference": "MATTHEW 25:1-13",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_25_1_13.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "MATTHEW 25:1-13",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_25_1_13.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "MATTHEW 25:14-END, 26:1-2",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_25_14_end_26_1_2.txt",
+      "line": "# Reference: MATTHEW 25:14-END, 26:1-2"
+    },
+    {
+      "reference": "MATTHEW 25:14-END, 26:1-2",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_25_14_end_26_1_2.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "MATTHEW 25:14-END, 26:1-2",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_25_14_end_26_1_2.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "MATTHEW 26:17-19",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_26_17_19.txt",
+      "line": "# Reference: MATTHEW 26:17-19"
+    },
+    {
+      "reference": "MATTHEW 26:17-19",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_26_17_19.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "MATTHEW 26:17-19",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_26_17_19.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "MATTHEW 26:20-29",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_26_20_29.txt",
+      "line": "# Reference: MATTHEW 26:20-29"
+    },
+    {
+      "reference": "MATTHEW 26:20-29",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_26_20_29.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "MATTHEW 26:20-29",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_26_20_29.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "MATTHEW 26:3-16",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_26_3_16.txt",
+      "line": "# Reference: MATTHEW 26:3-16"
+    },
+    {
+      "reference": "MATTHEW 26:3-16",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_26_3_16.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "MATTHEW 26:3-16",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_26_3_16.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "MATTHEW 26:30-35",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_26_30_35.txt",
+      "line": "# Reference: MATTHEW 26:30-35"
+    },
+    {
+      "reference": "MATTHEW 26:30-35",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_26_30_35.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "MATTHEW 26:30-35",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_26_30_35.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "MATTHEW 26:36-46",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_26_36_46.txt",
+      "line": "# Reference: MATTHEW 26:36-46"
+    },
+    {
+      "reference": "MATTHEW 26:36-46",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_26_36_46.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "MATTHEW 26:36-46",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_26_36_46.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "MATTHEW 26:47-58",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_26_47_58.txt",
+      "line": "# Reference: MATTHEW 26:47-58"
+    },
+    {
+      "reference": "MATTHEW 26:47-58",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_26_47_58.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "MATTHEW 26:47-58",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_26_47_58.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "MATTHEW 26:59-75",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_26_59_75.txt",
+      "line": "# Reference: MATTHEW 26:59-75"
+    },
+    {
+      "reference": "MATTHEW 26:59-75",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_26_59_75.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "MATTHEW 26:59-75",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_26_59_75.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "MATTHEW 27:1-14",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_27_1_14.txt",
+      "line": "# Reference: MATTHEW 27:1-14"
+    },
+    {
+      "reference": "MATTHEW 27:1-14",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_27_1_14.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "MATTHEW 27:1-14",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_27_1_14.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "MATTHEW 27:15-26",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_27_15_26.txt",
+      "line": "# Reference: MATTHEW 27:15-26"
+    },
+    {
+      "reference": "MATTHEW 27:15-26",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_27_15_26.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "MATTHEW 27:15-26",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_27_15_26.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "MATTHEW 27:27-45",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_27_27_45.txt",
+      "line": "# Reference: MATTHEW 27:27-45"
+    },
+    {
+      "reference": "MATTHEW 27:27-45",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_27_27_45.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "MATTHEW 27:27-45",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_27_27_45.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "MATTHEW 27:46-50",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_27_46_50.txt",
+      "line": "# Reference: MATTHEW 27:46-50"
+    },
+    {
+      "reference": "MATTHEW 27:46-50",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_27_46_50.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "MATTHEW 27:46-50",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_27_46_50.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "MATTHEW 27:51-56",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_27_51_56.txt",
+      "line": "# Reference: MATTHEW 27:51-56"
+    },
+    {
+      "reference": "MATTHEW 27:51-56",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_27_51_56.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "MATTHEW 27:51-56",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_27_51_56.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "MATTHEW 27:57-61",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_27_57_61.txt",
+      "line": "# Reference: MATTHEW 27:57-61"
+    },
+    {
+      "reference": "MATTHEW 27:57-61",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_27_57_61.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "MATTHEW 27:57-61",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_27_57_61.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "MATTHEW 27:62-66",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_27_62_66.txt",
+      "line": "# Reference: MATTHEW 27:62-66"
+    },
+    {
+      "reference": "MATTHEW 27:62-66",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_27_62_66.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "MATTHEW 27:62-66",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_27_62_66.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "MATTHEW 28:1-END",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_28_1_end.txt",
+      "line": "# Reference: MATTHEW 28:1-END"
+    },
+    {
+      "reference": "MATTHEW 28:1-END",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_28_1_end.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "MATTHEW 28:1-END",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_28_1_end.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    },
+    {
+      "reference": "MATTHEW 5:3-12 [SELECTION]",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_5_3_12_selection.txt",
+      "line": "# Reference: MATTHEW 5:3-12 [SELECTION]"
+    },
+    {
+      "reference": "MATTHEW 5:3-12 [SELECTION]",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_5_3_12_selection.txt",
+      "line": "# Paste SAAS verses here, one verse per line."
+    },
+    {
+      "reference": "MATTHEW 5:3-12 [SELECTION]",
+      "file": "D:\\AppDev\\LiturgicalText\\LiturgicalBooks\\data\\logos\\saas_holy_week_exports\\matthew_5_3_12_selection.txt",
+      "line": "# Preferred format: 38:31: Verse text"
+    }
+  ],
+  "reports": [
+    {
+      "service": "DAY of Sunday",
+      "hour": "SIXTH Hour (Funeral Prayer)",
+      "section": "Prophecies",
+      "table": "EZEKIEL 37:1-14",
+      "reference": "EZEKIEL 37:1-14",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 14
+    },
+    {
+      "service": "DAY of Sunday",
+      "hour": "SIXTH Hour (Funeral Prayer)",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 64:5 (LXX)",
+      "reference": "PSALMS 64:5 (LXX)",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 1
+    },
+    {
+      "service": "DAY of Sunday",
+      "hour": "SIXTH Hour (Funeral Prayer)",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "JOHN 5:19-29",
+      "reference": "JOHN 5:19-29",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Sunday",
+      "hour": "SIXTH Hour (Funeral Prayer)",
+      "section": "Pauline Epistle",
+      "table": "1 CORINTHIANS 15:1-27 [SELECTION]",
+      "reference": "1 CORINTHIANS 15:1-27 [SELECTION]",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Sunday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies",
+      "table": "LAMENTATIONS OF JEREMIAH 1:1-4",
+      "reference": "LAMENTATIONS OF JEREMIAH 1:1-4",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 4
+    },
+    {
+      "service": "DAY of Sunday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies",
+      "table": "ZEPHANIAH 3:11-20",
+      "reference": "ZEPHANIAH 3:11-20",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 10
+    },
+    {
+      "service": "DAY of Sunday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 8:3-4 (LXX) [SELECTION]",
+      "reference": "PSALMS 8:3-4 (LXX) [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "DAY of Sunday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MATTHEW 21:10-17",
+      "reference": "MATTHEW 21:10-17",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Sunday",
+      "hour": "ELEVENTH Hour",
+      "section": "Prophecies",
+      "table": "ISAIAH 48:12-22",
+      "reference": "ISAIAH 48:12-22",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 11
+    },
+    {
+      "service": "DAY of Sunday",
+      "hour": "ELEVENTH Hour",
+      "section": "Prophecies",
+      "table": "NAHUM 1:2-8",
+      "reference": "NAHUM 1:2-8",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 7
+    },
+    {
+      "service": "DAY of Sunday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 8:3, 8:2 (LXX) [SELECTION]",
+      "reference": "PSALMS 8:3, 8:2 (LXX) [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "DAY of Sunday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MATTHEW 20:20-28",
+      "reference": "MATTHEW 20:20-28",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "EVE of Monday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies",
+      "table": "ZEPHANIAH 1:2-12",
+      "reference": "ZEPHANIAH 1:2-12",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 11
+    },
+    {
+      "service": "EVE of Monday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 26:6-8 (LXX) [SELECTION]",
+      "reference": "PSALMS 26:6-8 (LXX) [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 3
+    },
+    {
+      "service": "EVE of Monday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "JOHN 12:20-36 [SELECTION]",
+      "reference": "JOHN 12:20-36 [SELECTION]",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "EVE of Monday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies",
+      "table": "ZEPHANIAH 1:14-END, 2:1-2",
+      "reference": "ZEPHANIAH 1:14-END, 2:1-2",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 7
+    },
+    {
+      "service": "EVE of Monday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 27:9, 27:2 (LXX) [SELECTION]",
+      "reference": "PSALMS 27:9, 27:2 (LXX) [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "EVE of Monday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "LUKE 9:18-22",
+      "reference": "LUKE 9:18-22",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "EVE of Monday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies",
+      "table": "JOEL 1:5-15",
+      "reference": "JOEL 1:5-15",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 11
+    },
+    {
+      "service": "EVE of Monday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 28:1-2 (LXX)",
+      "reference": "PSALMS 28:1-2 (LXX)",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "EVE of Monday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MARK 10:32-34",
+      "reference": "MARK 10:32-34",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "EVE of Monday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies",
+      "table": "MICAH 2:3-11 [SELECTION]",
+      "reference": "MICAH 2:3-11 [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 9
+    },
+    {
+      "service": "EVE of Monday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 16:6, 16:1 (LXX) [SELECTION]",
+      "reference": "PSALMS 16:6, 16:1 (LXX) [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "EVE of Monday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MARK 8:27-33",
+      "reference": "MARK 8:27-33",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "EVE of Monday",
+      "hour": "ELEVENTH Hour",
+      "section": "Prophecies",
+      "table": "MICAH 2:13 [SELECTION], 3:1-4",
+      "reference": "MICAH 2:13 [SELECTION], 3:1-4",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 5
+    },
+    {
+      "service": "EVE of Monday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 17:18-19 (LXX) [SELECTION]",
+      "reference": "PSALMS 17:18-19 (LXX) [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "EVE of Monday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MATTHEW 17:19-23",
+      "reference": "MATTHEW 17:19-23",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies",
+      "table": "GENESIS 1:1-2:3",
+      "reference": "GENESIS 1:1-2:3",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 34
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies",
+      "table": "ISAIAH 5:1-9",
+      "reference": "ISAIAH 5:1-9",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 9
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies",
+      "table": "WISDOM OF SIRACH 1:1-17",
+      "reference": "WISDOM OF SIRACH 1:1-17",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 9
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 71:18-19 (LXX) [SELECTION]",
+      "reference": "PSALMS 71:18-19 (LXX) [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MARK 11:12-24",
+      "reference": "MARK 11:12-24",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies",
+      "table": "ISAIAH 5:20-30",
+      "reference": "ISAIAH 5:20-30",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 11
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies",
+      "table": "JEREMIAH 9:11-18 [SELECTION]",
+      "reference": "JEREMIAH 9:11-18 [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 8
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 121:1-2 (LXX)",
+      "reference": "PSALMS 121:1-2 (LXX)",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MARK 11:11-19",
+      "reference": "MARK 11:11-19",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies",
+      "table": "EXODUS 32:7-15",
+      "reference": "EXODUS 32:7-15",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 9
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies",
+      "table": "WISDOM OF SOLOMON 1:1-9",
+      "reference": "WISDOM OF SOLOMON 1:1-9",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 9
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 121:4 (LXX)",
+      "reference": "PSALMS 121:4 (LXX)",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 1
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "JOHN 2:13-17 [SELECTION]",
+      "reference": "JOHN 2:13-17 [SELECTION]",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies",
+      "table": "GENESIS 2:15-END, 3:1-END",
+      "reference": "GENESIS 2:15-END, 3:1-END",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 34
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies",
+      "table": "ISAIAH 40:1-5",
+      "reference": "ISAIAH 40:1-5",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 5
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies",
+      "table": "PROVERBS OF SOLOMON 1:1-10",
+      "reference": "PROVERBS OF SOLOMON 1:1-10",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 5
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 64:6, 64:5 (LXX) [SELECTION]",
+      "reference": "PSALMS 64:6, 64:5 (LXX) [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MATTHEW 21:23-27",
+      "reference": "MATTHEW 21:23-27",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "ELEVENTH Hour",
+      "section": "Prophecies",
+      "table": "ISAIAH 50:1-3",
+      "reference": "ISAIAH 50:1-3",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 3
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "ELEVENTH Hour",
+      "section": "Prophecies",
+      "table": "WISDOM OF SIRACH 1:18-END",
+      "reference": "WISDOM OF SIRACH 1:18-END",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 3
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 12:4-5 (LXX) [SELECTION]",
+      "reference": "PSALMS 12:4-5 (LXX) [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "JOHN 8:51-END",
+      "reference": "JOHN 8:51-END",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Monday",
+      "hour": "ELEVENTH Hour",
+      "section": "Exposition",
+      "table": "Homily",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "EVE of Tuesday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies",
+      "table": "ZECHARIAH 1:1-6",
+      "reference": "ZECHARIAH 1:1-6",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 6
+    },
+    {
+      "service": "EVE of Tuesday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 61:8, 61:3 (LXX)",
+      "reference": "PSALMS 61:8, 61:3 (LXX)",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "EVE of Tuesday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "LUKE 13:23-30",
+      "reference": "LUKE 13:23-30",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "EVE of Tuesday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies",
+      "table": "MALACHI 1:1-9",
+      "reference": "MALACHI 1:1-9",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 9
+    },
+    {
+      "service": "EVE of Tuesday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 12:4, 12:6 (LXX)",
+      "reference": "PSALMS 12:4, 12:6 (LXX)",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "EVE of Tuesday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "LUKE 13:31-END",
+      "reference": "LUKE 13:31-END",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "EVE of Tuesday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies",
+      "table": "HOSEA 4:15-END, 5:1-7",
+      "reference": "HOSEA 4:15-END, 5:1-7",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 12
+    },
+    {
+      "service": "EVE of Tuesday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 90:2-3 (LXX)",
+      "reference": "PSALMS 90:2-3 (LXX)",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "EVE of Tuesday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "LUKE 21:34-END",
+      "reference": "LUKE 21:34-END",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "EVE of Tuesday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies",
+      "table": "HOSEA 10:12-END, 11:1-2",
+      "reference": "HOSEA 10:12-END, 11:1-2",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 6
+    },
+    {
+      "service": "EVE of Tuesday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 32:10-11 (LXX)",
+      "reference": "PSALMS 32:10-11 (LXX)",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "EVE of Tuesday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "LUKE 11:37-52",
+      "reference": "LUKE 11:37-52",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "EVE of Tuesday",
+      "hour": "ELEVENTH Hour",
+      "section": "Prophecies",
+      "table": "AMOS 5:6-14",
+      "reference": "AMOS 5:6-14",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 9
+    },
+    {
+      "service": "EVE of Tuesday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 121:4 (LXX)",
+      "reference": "PSALMS 121:4 (LXX)",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 1
+    },
+    {
+      "service": "EVE of Tuesday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MARK 13:32-END, 14:1-2",
+      "reference": "MARK 13:32-END, 14:1-2",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies",
+      "table": "EXODUS 19:1-9",
+      "reference": "EXODUS 19:1-9",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 9
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies",
+      "table": "JOB 23:2-END, 24:1-END",
+      "reference": "JOB 23:2-END, 24:1-END",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 41
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies",
+      "table": "HOSEA 4:1-8",
+      "reference": "HOSEA 4:1-8",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 8
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 119:2, 119:7",
+      "reference": "PSALMS 119:2, 119:7",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "JOHN 8:21-29",
+      "reference": "JOHN 8:21-29",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "FIRST Hour",
+      "section": "Exposition",
+      "table": "Homily",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies",
+      "table": "DEUTERONOMY 8:11-END",
+      "reference": "DEUTERONOMY 8:11-END",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 10
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies",
+      "table": "WISDOM OF SIRACH 2:1-9",
+      "reference": "WISDOM OF SIRACH 2:1-9",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 10
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies",
+      "table": "JOB 27:1-20, 28:1-2",
+      "reference": "JOB 27:1-20, 28:1-2",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 22
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 118:154-155",
+      "reference": "PSALMS 118:154-155",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MATTHEW 23:37-END, 24:1-2",
+      "reference": "MATTHEW 23:37-END, 24:1-2",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies",
+      "table": "EZEKIEL 21:3-18 [SELECTION]",
+      "reference": "EZEKIEL 21:3-18 [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 16
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies",
+      "table": "WISDOM OF SIRACH 4:20-END, 5:1-2",
+      "reference": "WISDOM OF SIRACH 4:20-END, 5:1-2",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 16
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies",
+      "table": "ISAIAH 1:1-9",
+      "reference": "ISAIAH 1:1-9",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 9
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 17:49, 17:18",
+      "reference": "PSALMS 17:49, 17:18",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "JOHN 8:12-20",
+      "reference": "JOHN 8:12-20",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies",
+      "table": "GENESIS 6:5-END, 7:1-END, 8:1-END, 9:1-7",
+      "reference": "GENESIS 6:5-END, 7:1-END, 8:1-END, 9:1-7",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 71
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies",
+      "table": "PROVERBS OF SOLOMON 9:1-11",
+      "reference": "PROVERBS OF SOLOMON 9:1-11",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 71
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies",
+      "table": "ISAIAH 40:9-END",
+      "reference": "ISAIAH 40:9-END",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 23
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies",
+      "table": "DANIEL 7:2, 7:9-15",
+      "reference": "DANIEL 7:2, 7:9-15",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 8
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 24:1-3 (LXX) [SELECTION]",
+      "reference": "PSALMS 24:1-3 (LXX) [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 3
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MATTHEW 24:3-35",
+      "reference": "MATTHEW 24:3-35",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "NINTH Hour",
+      "section": "Exposition",
+      "table": "Homily",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "ELEVENTH Hour",
+      "section": "Prophecies",
+      "table": "ISAIAH 30:25-30",
+      "reference": "ISAIAH 30:25-30",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 6
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "ELEVENTH Hour",
+      "section": "Prophecies",
+      "table": "PROVERBS OF SOLOMON 6:24-END, 7:1-5",
+      "reference": "PROVERBS OF SOLOMON 6:24-END, 7:1-5",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 6
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 44:7, 40:1 (LXX)",
+      "reference": "PSALMS 44:7, 40:1 (LXX)",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MATTHEW 25:14-END, 26:1-2",
+      "reference": "MATTHEW 25:14-END, 26:1-2",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Tuesday",
+      "hour": "ELEVENTH Hour",
+      "section": "Exposition",
+      "table": "Homily",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "EVE of Wednesday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies",
+      "table": "EZEKIEL 22:17-22",
+      "reference": "EZEKIEL 22:17-22",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 6
+    },
+    {
+      "service": "EVE of Wednesday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies",
+      "table": "EZEKIEL 22:23-28",
+      "reference": "EZEKIEL 22:23-28",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 6
+    },
+    {
+      "service": "EVE of Wednesday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 58:17-18 (LXX) [SELECTION]",
+      "reference": "PSALMS 58:17-18 (LXX) [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "EVE of Wednesday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MATTHEW 22:1-14",
+      "reference": "MATTHEW 22:1-14",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "EVE of Wednesday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies",
+      "table": "AMOS 5:18-END",
+      "reference": "AMOS 5:18-END",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 10
+    },
+    {
+      "service": "EVE of Wednesday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 64:5 (LXX) [SELECTION]",
+      "reference": "PSALMS 64:5 (LXX) [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 1
+    },
+    {
+      "service": "EVE of Wednesday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MATTHEW 24:36-END",
+      "reference": "MATTHEW 24:36-END",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "EVE of Wednesday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies",
+      "table": "JEREMIAH 16:9-13",
+      "reference": "JEREMIAH 16:9-13",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 5
+    },
+    {
+      "service": "EVE of Wednesday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 101:2-3 (LXX) [SELECTION]",
+      "reference": "PSALMS 101:2-3 (LXX) [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "EVE of Wednesday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MATTHEW 25:1-13",
+      "reference": "MATTHEW 25:1-13",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "EVE of Wednesday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies",
+      "table": "HOSEA 9:14-END, 10:1-2",
+      "reference": "HOSEA 9:14-END, 10:1-2",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 6
+    },
+    {
+      "service": "EVE of Wednesday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 21:21-22",
+      "reference": "PSALMS 21:21-22",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "EVE of Wednesday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MATTHEW 23:29-36",
+      "reference": "MATTHEW 23:29-36",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "EVE of Wednesday",
+      "hour": "ELEVENTH Hour",
+      "section": "Prophecies",
+      "table": "WISDOM OF SOLOMON 7:24-END",
+      "reference": "WISDOM OF SOLOMON 7:24-END",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "EVE of Wednesday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 56:2 (LXX)",
+      "reference": "PSALMS 56:2 (LXX)",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 1
+    },
+    {
+      "service": "EVE of Wednesday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "JOHN 11:55-END",
+      "reference": "JOHN 11:55-END",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies",
+      "table": "EXODUS 17:1-7",
+      "reference": "EXODUS 17:1-7",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 7
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies",
+      "table": "PROVERBS OF SOLOMON 3:5-15 [SELECTION]",
+      "reference": "PROVERBS OF SOLOMON 3:5-15 [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 7
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies",
+      "table": "HOSEA 5:13-END, 6:1-3 [SELECTION]",
+      "reference": "HOSEA 5:13-END, 6:1-3 [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 6
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies",
+      "table": "WISDOM OF SIRACH SELECTIONS FROM 1:12 TO 3:28",
+      "reference": "WISDOM OF SIRACH SELECTIONS FROM 1:12 TO 3:28",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 6
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 50:6, 32:10 (LXX) [SELECTION]",
+      "reference": "PSALMS 50:6, 32:10 (LXX) [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "JOHN 11:46-END",
+      "reference": "JOHN 11:46-END",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "FIRST Hour",
+      "section": "Exposition",
+      "table": "Homily",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies",
+      "table": "EXODUS 13:17-END",
+      "reference": "EXODUS 13:17-END",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 6
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies",
+      "table": "WISDOM OF SIRACH 22:7-18",
+      "reference": "WISDOM OF SIRACH 22:7-18",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 6
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies",
+      "table": "JOB 27:16-20, 28:1",
+      "reference": "JOB 27:16-20, 28:1",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 6
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies",
+      "table": "PROVERBS OF SOLOMON 4:5-END, 5:1-4, 5:8 [SELECTION]",
+      "reference": "PROVERBS OF SOLOMON 4:5-END, 5:1-4, 5:8 [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 6
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 40:7, 40:2 (LXX)",
+      "reference": "PSALMS 40:7, 40:2 (LXX)",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "LUKE 22:1-6",
+      "reference": "LUKE 22:1-6",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies",
+      "table": "EXODUS 14:13-END, 15:1",
+      "reference": "EXODUS 14:13-END, 15:1",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 20
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies",
+      "table": "ISAIAH 48:1-6 [SELECTION]",
+      "reference": "ISAIAH 48:1-6 [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 6
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies",
+      "table": "WISDOM OF SIRACH 23:7-14",
+      "reference": "WISDOM OF SIRACH 23:7-14",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 6
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 82:3-4 (LXX)",
+      "reference": "PSALMS 82:3-4 (LXX)",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "JOHN 12:1-8",
+      "reference": "JOHN 12:1-8",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies",
+      "table": "GENESIS 24:1-9",
+      "reference": "GENESIS 24:1-9",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 9
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies",
+      "table": "NUMBERS 20:1-13",
+      "reference": "NUMBERS 20:1-13",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 13
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies",
+      "table": "PROVERBS OF SOLOMON 1:11-END",
+      "reference": "PROVERBS OF SOLOMON 1:11-END",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 13
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies",
+      "table": "ZECHARIAH 11:11-14 [SELECTION]",
+      "reference": "ZECHARIAH 11:11-14 [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 4
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 40:8, 40:7 (LXX)",
+      "reference": "PSALMS 40:8, 40:7 (LXX)",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MATTHEW 26:3-16",
+      "reference": "MATTHEW 26:3-16",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "NINTH Hour",
+      "section": "Exposition",
+      "table": "Homily",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "ELEVENTH Hour",
+      "section": "Prophecies",
+      "table": "ISAIAH 28:16-29",
+      "reference": "ISAIAH 28:16-29",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 14
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 6:3-4, 68:18 (LXX) [SELECTION]",
+      "reference": "PSALMS 6:3-4, 68:18 (LXX) [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 3
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "JOHN 12:27-36 [SELECTION]",
+      "reference": "JOHN 12:27-36 [SELECTION]",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Wednesday",
+      "hour": "ELEVENTH Hour",
+      "section": "Exposition",
+      "table": "Homily",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "EVE of Covenant Thursday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies",
+      "table": "EZEKIEL 43:5-11",
+      "reference": "EZEKIEL 43:5-11",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 7
+    },
+    {
+      "service": "EVE of Covenant Thursday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 68:2, 68:17 (LXX) [SELECTION]",
+      "reference": "PSALMS 68:2, 68:17 (LXX) [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "EVE of Covenant Thursday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "JOHN 10:17-21",
+      "reference": "JOHN 10:17-21",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "EVE of Covenant Thursday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies",
+      "table": "AMOS 4:4-13",
+      "reference": "AMOS 4:4-13",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 10
+    },
+    {
+      "service": "EVE of Covenant Thursday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 54:22, 54:2 (LXX) [SELECTION]",
+      "reference": "PSALMS 54:22, 54:2 (LXX) [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "EVE of Covenant Thursday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MARK 14:3-11",
+      "reference": "MARK 14:3-11",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "EVE of Covenant Thursday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies",
+      "table": "AMOS 3:1-11",
+      "reference": "AMOS 3:1-11",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 11
+    },
+    {
+      "service": "EVE of Covenant Thursday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 139:2-3 (LXX)",
+      "reference": "PSALMS 139:2-3 (LXX)",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "EVE of Covenant Thursday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "JOHN 12:36-43 [SELECTION]",
+      "reference": "JOHN 12:36-43 [SELECTION]",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "EVE of Covenant Thursday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies",
+      "table": "EZEKIEL 20:27-33",
+      "reference": "EZEKIEL 20:27-33",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 7
+    },
+    {
+      "service": "EVE of Covenant Thursday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 7:2-3 (LXX) [SELECTION]",
+      "reference": "PSALMS 7:2-3 (LXX) [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "EVE of Covenant Thursday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "JOHN 10:29-38",
+      "reference": "JOHN 10:29-38",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "EVE of Covenant Thursday",
+      "hour": "ELEVENTH Hour",
+      "section": "Prophecies",
+      "table": "JEREMIAH 8:4-9",
+      "reference": "JEREMIAH 8:4-9",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 6
+    },
+    {
+      "service": "EVE of Covenant Thursday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 61:8, 61:3 (LXX) [SELECTION]",
+      "reference": "PSALMS 61:8, 61:3 (LXX) [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "EVE of Covenant Thursday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "JOHN 12:44-50",
+      "reference": "JOHN 12:44-50",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies",
+      "table": "EXODUS 17:8-16",
+      "reference": "EXODUS 17:8-16",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 9
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies",
+      "table": "EXODUS 15:22-END, 16:1-3",
+      "reference": "EXODUS 15:22-END, 16:1-3",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 9
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies",
+      "table": "ISAIAH 58:1-11",
+      "reference": "ISAIAH 58:1-11",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 11
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies",
+      "table": "EZEKIEL 18:20-32",
+      "reference": "EZEKIEL 18:20-32",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 13
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "FIRST Hour",
+      "section": "Exposition",
+      "table": "Homily",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "FIRST Hour",
+      "section": "Praxis",
+      "table": "ACTS 1:15-20",
+      "reference": "ACTS 1:15-20",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALM 54:22, 54:13 (LXX) [SELECTION]",
+      "reference": "PSALM 54:22, 54:13 (LXX) [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "LUKE 22:7-13",
+      "reference": "LUKE 22:7-13",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies",
+      "table": "EXODUS 32:30-END, 33:1-5 [SELECTION]",
+      "reference": "EXODUS 32:30-END, 33:1-5 [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 11
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies",
+      "table": "WISDOM OF SIRACH 24:1-11",
+      "reference": "WISDOM OF SIRACH 24:1-11",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 11
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies",
+      "table": "ZECHARIAH 9:11-14 [SELECTION]",
+      "reference": "ZECHARIAH 9:11-14 [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 4
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies",
+      "table": "PROVERBS OF SOLOMON 30:1-6",
+      "reference": "PROVERBS OF SOLOMON 30:1-6",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 4
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 93:21, 93:23 (LXX)",
+      "reference": "PSALMS 93:21, 93:23 (LXX)",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MATTHEW 26:17-19",
+      "reference": "MATTHEW 26:17-19",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies",
+      "table": "JEREMIAH 7:1-14",
+      "reference": "JEREMIAH 7:1-14",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 14
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies",
+      "table": "EZEKIEL 20:39-44",
+      "reference": "EZEKIEL 20:39-44",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 6
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies",
+      "table": "WISDOM OF SIRACH 12:13-END, 13:1",
+      "reference": "WISDOM OF SIRACH 12:13-END, 13:1",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 6
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 30:19, 30:19 (LXX) [SELECTION]",
+      "reference": "PSALMS 30:19, 30:19 (LXX) [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MARK 14:12-16",
+      "reference": "MARK 14:12-16",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies",
+      "table": "GENESIS 22:1-19 [SELECTION]",
+      "reference": "GENESIS 22:1-19 [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 19
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies",
+      "table": "ISAIAH 61:1-6",
+      "reference": "ISAIAH 61:1-6",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 6
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies",
+      "table": "GENESIS 14:17-20",
+      "reference": "GENESIS 14:17-20",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 4
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies",
+      "table": "JOB 27:2-END, 28:1-13",
+      "reference": "JOB 27:2-END, 28:1-13",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 35
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 22:1-2 (LXX) [SELECTION]",
+      "reference": "PSALMS 22:1-2 (LXX) [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MATTHEW 26:17-19",
+      "reference": "MATTHEW 26:17-19",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "NINTH Hour",
+      "section": "Exposition",
+      "table": "Homily",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "Liturgy of the Blessing of the Water",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 50:9, 50:12",
+      "reference": "PSALMS 50:9, 50:12",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "Liturgy of the Blessing of the Water",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "JOHN 13:1-17",
+      "reference": "JOHN 13:1-17",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "Liturgy of the Blessing of the Water",
+      "section": "Exposition",
+      "table": "Homily",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "Liturgy of the Blessing of the Water",
+      "section": "Exposition",
+      "table": "Homily",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "Liturgy of the Blessing of the Water",
+      "section": "Pauline Epistle",
+      "table": "1 TIMOTHY 4:9-16, 5:1-10",
+      "reference": "1 TIMOTHY 4:9-16, 5:1-10",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "Liturgy of the Eucharist",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 22:5, 40:10 (LXX) [SELECTION]",
+      "reference": "PSALMS 22:5, 40:10 (LXX) [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "Liturgy of the Eucharist",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MATTHEW 26:20-29",
+      "reference": "MATTHEW 26:20-29",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "ELEVENTH Hour",
+      "section": "Prophecies",
+      "table": "ISAIAH 52:13-END, 53:1-END",
+      "reference": "ISAIAH 52:13-END, 53:1-END",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 15
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "ELEVENTH Hour",
+      "section": "Prophecies",
+      "table": "ZECHARIAH 12:11-END, 13:1-END, 14:1-4, 14:5-9 [SELECTION]",
+      "reference": "ZECHARIAH 12:11-END, 13:1-END, 14:1-4, 14:5-9 [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 22
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 49:17-18 (LXX)",
+      "reference": "PSALMS 49:17-18 (LXX)",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "DAY of Covenant Thursday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "JOHN 13:21-30",
+      "reference": "JOHN 13:21-30",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "EVE of Great Friday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies",
+      "table": "JEREMIAH 8:15-END, 9:1-6",
+      "reference": "JEREMIAH 8:15-END, 9:1-6",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 166
+    },
+    {
+      "service": "EVE of Great Friday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 101:2, 101:9",
+      "reference": "PSALMS 101:2, 101:9",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "EVE of Great Friday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "JOHN 13:33-38, 14:1-25",
+      "reference": "JOHN 13:33-38, 14:1-25",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "EVE of Great Friday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies",
+      "table": "EZEKIEL 36:16-23",
+      "reference": "EZEKIEL 36:16-23",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 8
+    },
+    {
+      "service": "EVE of Great Friday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 108:1-2",
+      "reference": "PSALMS 108:1-2",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "EVE of Great Friday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MATTHEW 26:30-35",
+      "reference": "MATTHEW 26:30-35",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "EVE of Great Friday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies",
+      "table": "EZEKIEL 22:23-28 [SELECTION]",
+      "reference": "EZEKIEL 22:23-28 [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 6
+    },
+    {
+      "service": "EVE of Great Friday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 58:2, 68:21 (LXX) [SELECTION]",
+      "reference": "PSALMS 58:2, 68:21 (LXX) [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "EVE of Great Friday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MATTHEW 26:36-46",
+      "reference": "MATTHEW 26:36-46",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "EVE of Great Friday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies",
+      "table": "JEREMIAH 9:6-10",
+      "reference": "JEREMIAH 9:6-10",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 5
+    },
+    {
+      "service": "EVE of Great Friday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies",
+      "table": "EZEKIEL 21:33-37",
+      "reference": "EZEKIEL 21:33-37",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 5
+    },
+    {
+      "service": "EVE of Great Friday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 27:3-4, 34:4 (LXX) [SELECTION]",
+      "reference": "PSALMS 27:3-4, 34:4 (LXX) [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 3
+    },
+    {
+      "service": "EVE of Great Friday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MATTHEW 26:47-58",
+      "reference": "MATTHEW 26:47-58",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "EVE of Great Friday",
+      "hour": "ELEVENTH Hour",
+      "section": "Prophecies",
+      "table": "ISAIAH 27:11-13, 28:1-15 [SELECTION]",
+      "reference": "ISAIAH 27:11-13, 28:1-15 [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 18
+    },
+    {
+      "service": "EVE of Great Friday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 2:1-2, 2:4-5",
+      "reference": "PSALMS 2:1-2, 2:4-5",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 4
+    },
+    {
+      "service": "EVE of Great Friday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MATTHEW 26:59-75",
+      "reference": "MATTHEW 26:59-75",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies",
+      "table": "DEUTERONOMY 5:1, 8:19-END, 9:1-24 [SELECTION]",
+      "reference": "DEUTERONOMY 5:1, 8:19-END, 9:1-24 [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 27
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies",
+      "table": "ISAIAH 1:2-9",
+      "reference": "ISAIAH 1:2-9",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 8
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies",
+      "table": "ISAIAH 2:10-21",
+      "reference": "ISAIAH 2:10-21",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 12
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies",
+      "table": "JEREMIAH 22:29-END, 23:1-6 [SELECTION]",
+      "reference": "JEREMIAH 22:29-END, 23:1-6 [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 8
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies",
+      "table": "ISAIAH 24:1-13",
+      "reference": "ISAIAH 24:1-13",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 13
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies",
+      "table": "WISDOM OF SOLOMON 2:12-22",
+      "reference": "WISDOM OF SOLOMON 2:12-22",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 11
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies",
+      "table": "MICAH 1:16, 2:1-3",
+      "reference": "MICAH 1:16, 2:1-3",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 4
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies",
+      "table": "MICAH 7:1-8 [SELECTION]",
+      "reference": "MICAH 7:1-8 [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 8
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 26:12, 34:11, 34:12, 34:16 (LXX) [SELECTION]",
+      "reference": "PSALMS 26:12, 34:11, 34:12, 34:16 (LXX) [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 4
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MATTHEW 27:1-14",
+      "reference": "MATTHEW 27:1-14",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "FIRST Hour",
+      "section": "Exposition",
+      "table": "Homily",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "FIRST Hour",
+      "section": "Pauline Epistle",
+      "table": "GALATIANS 6:14-END",
+      "reference": "GALATIANS 6:14-END",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies",
+      "table": "GENESIS 48:1-19 [SELECTION]",
+      "reference": "GENESIS 48:1-19 [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 19
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies",
+      "table": "ISAIAH 50:4-9",
+      "reference": "ISAIAH 50:4-9",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 6
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies",
+      "table": "AMOS 9:1, 9:4-6, 9:8-10",
+      "reference": "AMOS 9:1, 9:4-6, 9:8-10",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 7
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies",
+      "table": "JOB 29:21-END, 30:1-10",
+      "reference": "JOB 29:21-END, 30:1-10",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 15
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 37:18, 21:17 (LXX) [SELECTION]",
+      "reference": "PSALMS 37:18, 21:17 (LXX) [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MATTHEW 27:15-26",
+      "reference": "MATTHEW 27:15-26",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "THIRD Hour",
+      "section": "Exposition",
+      "table": "Homily",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "THIRD Hour",
+      "section": "Pauline Epistle",
+      "table": "COLOSSIANS 2:13-15",
+      "reference": "COLOSSIANS 2:13-15",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies",
+      "table": "NUMBERS 21:1-9",
+      "reference": "NUMBERS 21:1-9",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 9
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies",
+      "table": "ISAIAH 53:7-END [SELECTION]",
+      "reference": "ISAIAH 53:7-END [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 6
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies",
+      "table": "ISAIAH 12:2-END, 13:2-10",
+      "reference": "ISAIAH 12:2-END, 13:2-10",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 14
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies",
+      "table": "AMOS 8:9-12",
+      "reference": "AMOS 8:9-12",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 4
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 37:21-22, 21:17-19, 21:8-9 (LXX) [SELECTION]",
+      "reference": "PSALMS 37:21-22, 21:17-19, 21:8-9 (LXX) [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 7
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MATTHEW 27:27-45",
+      "reference": "MATTHEW 27:27-45",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies",
+      "table": "JEREMIAH 11:17-END, 12:1-13",
+      "reference": "JEREMIAH 11:17-END, 12:1-13",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 185
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies",
+      "table": "ZECHARIAH 14:5-11 [SELECTION]",
+      "reference": "ZECHARIAH 14:5-11 [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 7
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies",
+      "table": "ZECHARIAH 2:1-3, 2:10-11 [SELECTION]",
+      "reference": "ZECHARIAH 2:1-3, 2:10-11 [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 5
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 68:2, 68:22 (LXX)",
+      "reference": "PSALMS 68:2, 68:22 (LXX)",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MATTHEW 27:46-50",
+      "reference": "MATTHEW 27:46-50",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "ELEVENTH Hour",
+      "section": "Prophecies",
+      "table": "EXODUS 12:1-14",
+      "reference": "EXODUS 12:1-14",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 14
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "ELEVENTH Hour",
+      "section": "Prophecies",
+      "table": "LEVITICUS 23:5-12",
+      "reference": "LEVITICUS 23:5-12",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 8
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 142:6-7, 30:6 (LXX) [SELECTION]",
+      "reference": "PSALMS 142:6-7, 30:6 (LXX) [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 3
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MATTHEW 27:51-56",
+      "reference": "MATTHEW 27:51-56",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "ELEVENTH Hour",
+      "section": "Exposition",
+      "table": "Homily",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "ELEVENTH Hour",
+      "section": "Pauline Epistle",
+      "table": "GALATIANS 3:1-6 [SELECTION]",
+      "reference": "GALATIANS 3:1-6 [SELECTION]",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "TWELFTH Hour",
+      "section": "Prophecies",
+      "table": "LAMENTATIONS OF JEREMIAH 3:1-END",
+      "reference": "LAMENTATIONS OF JEREMIAH 3:1-END",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 62
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "TWELFTH Hour",
+      "section": "Prophecies",
+      "table": "JONAH 1:10-END, 2:1-8",
+      "reference": "JONAH 1:10-END, 2:1-8",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 15
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "TWELFTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 44:7, 44:9, 87:7, 22:4",
+      "reference": "PSALMS 44:7, 44:9, 87:7, 22:4",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 4
+    },
+    {
+      "service": "DAY of Great Friday",
+      "hour": "TWELFTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MATTHEW 27:57-61",
+      "reference": "MATTHEW 27:57-61",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "Midnight Praise",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 151:1-END",
+      "reference": "PSALMS 151:1-END",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 4
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "Midnight Praise",
+      "section": "Readings",
+      "table": "THE SECOND ODE OF MOSES THE ARCHPROPHET",
+      "reference": "DEUTERONOMY 32:1-43",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 43
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "Midnight Praise",
+      "section": "Readings",
+      "table": "THE PRAYER OF HABAKKUK THE PROPHET",
+      "reference": "HABAKKUK 3:2-19",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 18
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "Midnight Praise",
+      "section": "Readings",
+      "table": "THE PRAYER OF JONAH THE PROPHET",
+      "reference": "JONAH 2:2-10",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 9
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "Midnight Praise",
+      "section": "Readings",
+      "table": "THE PRAYER OF MANASSEH THE KING",
+      "reference": "2 CHRONICLES 37:1-15",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 15
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "Midnight Praise",
+      "section": "Readings",
+      "table": "THE FIRST ODE OF ISAIAH THE PROPHET",
+      "reference": "ISAIAH 26:9-20 [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 12
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "Midnight Praise",
+      "section": "Readings",
+      "table": "THE SECOND ODE OF ISAIAH THE PROPHET",
+      "reference": "ISAIAH 25:1-12",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 12
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "Midnight Praise",
+      "section": "Readings",
+      "table": "THE THIRD ODE OF ISAIAH THE PROPHET",
+      "reference": "ISAIAH 26:1-9",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 9
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "Midnight Praise",
+      "section": "Readings",
+      "table": "THE ODE OF JEREMIAH THE PROPHET",
+      "reference": "LAMENTATIONS OF JEREMIAH 5:16-22 [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 7
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "Midnight Praise",
+      "section": "Readings",
+      "table": "THE ODE OF BARUCH THE PROPHET",
+      "reference": "BARUCH 2:11-15",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 5
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "Midnight Praise",
+      "section": "Readings",
+      "table": "THE PRAYER OF DAVID THE PROPHET",
+      "reference": "1 CHRONICLES 29:10-13 [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 4
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "Midnight Praise",
+      "section": "Readings",
+      "table": "THE PRAYER OF DANIEL THE PROPHET",
+      "reference": "DANIEL 9:4-19",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 16
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "Midnight Praise",
+      "section": "Readings",
+      "table": "THE PRAYER OF AZARIAH",
+      "reference": "DANIEL 3:25-51",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 27
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "Midnight Praise",
+      "section": "Readings",
+      "table": "THE SONG OF MARY",
+      "reference": "LUKE 1:46-55",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "Midnight Praise",
+      "section": "Readings",
+      "table": "THE PRAYER OF ZECHARIAH THE PRIEST",
+      "reference": "LUKE 1:68-79",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "Midnight Praise",
+      "section": "Readings",
+      "table": "THE PRAYER OF SIMEON THE ELDER",
+      "reference": "LUKE 2:29-32",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "Matins",
+      "section": "Prophecies",
+      "table": "ISAIAH 55:2-END [SELECTION]",
+      "reference": "ISAIAH 55:2-END [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 12
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "Matins",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 87:5, 43:24, 43:27, 125:2-3 (LXX) [SELECTION]",
+      "reference": "PSALMS 87:5, 43:24, 43:27, 125:2-3 (LXX) [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 5
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "Matins",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MATTHEW 27:62-66",
+      "reference": "MATTHEW 27:62-66",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "Matins",
+      "section": "Exposition",
+      "table": "Homily",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "Matins",
+      "section": "Pauline Epistle",
+      "table": "1 CORINTHIANS 5:7-END",
+      "reference": "1 CORINTHIANS 5:7-END",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies",
+      "table": "JEREMIAH 13:15-22 [SELECTION]",
+      "reference": "JEREMIAH 13:15-22 [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 8
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 15:10-11 (LXX) [SELECTION]",
+      "reference": "PSALMS 15:10-11 (LXX) [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MATTHEW 16:24-END",
+      "reference": "MATTHEW 16:24-END",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies",
+      "table": "ISAIAH 50:10-END, 51:1-8",
+      "reference": "ISAIAH 50:10-END, 51:1-8",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 10
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 129:1-2, 141:8 (LXX) [SELECTION]",
+      "reference": "PSALMS 129:1-2, 141:8 (LXX) [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 3
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MATTHEW 5:3-12 [SELECTION]",
+      "reference": "MATTHEW 5:3-12 [SELECTION]",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings",
+      "table": "CHAPTER 2",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings",
+      "table": "CHAPTER 3",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings",
+      "table": "CHAPTER 4",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings",
+      "table": "CHAPTER 5",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings",
+      "table": "CHAPTER 6",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings",
+      "table": "CHAPTER 7",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings",
+      "table": "CHAPTER 8",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings",
+      "table": "CHAPTER 9",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings",
+      "table": "CHAPTER 10",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings",
+      "table": "CHAPTER 11",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings",
+      "table": "CHAPTER 12",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings",
+      "table": "CHAPTER 13",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings",
+      "table": "CHAPTER 14",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings",
+      "table": "CHAPTER 15",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings",
+      "table": "CHAPTER 16",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings",
+      "table": "CHAPTER 17",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings",
+      "table": "CHAPTER 18",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings",
+      "table": "CHAPTER 19",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings",
+      "table": "CHAPTER 20",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings",
+      "table": "CHAPTER 21",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings",
+      "table": "CHAPTER 22",
+      "reference": "",
+      "status": "skipped",
+      "reason": "no_reference"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies",
+      "table": "ISAIAH 45:15-20 [SELECTION]",
+      "reference": "ISAIAH 45:15-20 [SELECTION]",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 6
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies",
+      "table": "JEREMIAH 38:31-34",
+      "reference": "JEREMIAH 38:31-34",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 4
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 40:11, 40:6 (LXX)",
+      "reference": "PSALMS 40:11, 40:6 (LXX)",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 2
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "JOHN 5:21-30",
+      "reference": "JOHN 5:21-30",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "Divine Liturgy",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 3:6, 3:4, 81:8 (LXX)",
+      "reference": "PSALMS 3:6, 3:4, 81:8 (LXX)",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 3
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "Divine Liturgy",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "MATTHEW 28:1-END",
+      "reference": "MATTHEW 28:1-END",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "Divine Liturgy",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "PSALMS 67:2 (LXX)",
+      "reference": "PSALMS 67:2 (LXX)",
+      "status": "replaced",
+      "reason": null,
+      "verse_count": 1
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "Divine Liturgy",
+      "section": "English and Arabic Psalm & Gospel",
+      "table": "LUKE 24:1-12",
+      "reference": "LUKE 24:1-12",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "Divine Liturgy",
+      "section": "Pauline Epistle",
+      "table": "1 CORINTHIANS 15:1-23 [SELECTION]",
+      "reference": "1 CORINTHIANS 15:1-23 [SELECTION]",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "Divine Liturgy",
+      "section": "Catholic Epistle",
+      "table": "1 PETER 1:1-9",
+      "reference": "1 PETER 1:1-9",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    },
+    {
+      "service": "DAY of Great Saturday",
+      "hour": "Divine Liturgy",
+      "section": "Praxis",
+      "table": "ACTS 3:12-21",
+      "reference": "ACTS 3:12-21",
+      "status": "skipped",
+      "reason": "missing_logos_export"
+    }
+  ]
+}

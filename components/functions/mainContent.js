@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef, useContext } from 'react';
-import { View, ActivityIndicator, Dimensions, Platform } from 'react-native';
+import { View, ActivityIndicator, Dimensions, Platform, useWindowDimensions } from 'react-native';
 import { presentationStyles } from '../css/presentationStyles';
 import { WebView } from 'react-native-webview';
 import { handleMessage, handleNext, handlePrevious, handleDrawerItemPress } from './renderFunctions'; // Assuming this is imported
-import { useNavigation, useIsFocused } from '@react-navigation/native';
+import { useNavigation, useIsFocused, useRoute } from '@react-navigation/native';
 import { useDrawerStatus } from '@react-navigation/drawer';
 import localStorage from './localStorage';
 import SettingsContext from '../../settings/settingsContext';
@@ -16,10 +16,23 @@ import { togglePopupAudio , stopPopupAudio } from '../reusableComponents/audioPo
 import AudioControlsPopup from '../reusableComponents/audioPopup';
 
 
+const WRAPPER_ROUTE_NAMES = new Set(['MainStack', 'MainContent']);
+
 
 export const MainContent = ({ html, webviewRef, setDrawerItems, setCurrentTable, currentTable }) => {
     const [settings] = useContext(SettingsContext);
     const navigation = useNavigation();
+    const route = useRoute();
+    const parentState = navigation.getParent?.()?.getState?.();
+    const parentRoutes = parentState?.routes || [];
+    const nearestContentRoute = [...parentRoutes]
+        .reverse()
+        .find((parentRoute) => parentRoute?.name && !WRAPPER_ROUTE_NAMES.has(parentRoute.name));
+    const currentRouteName =
+        nearestContentRoute?.name ||
+        (route?.name && !WRAPPER_ROUTE_NAMES.has(route.name) ? route.name : "") ||
+        route?.name ||
+        "";
     const parentRouteName = navigation.getParent()?.getState().routes || 'default_parent'; // Get parent route name
     const fileKey = parentRouteName[parentRouteName.length - 1].name; // Get the last route in the stack
     const [currentPage, setCurrentPage] = useState(0);
@@ -40,6 +53,8 @@ export const MainContent = ({ html, webviewRef, setDrawerItems, setCurrentTable,
     const [isAudioPopupMinimized, setAudioPopupMinimized] = useState(false);
     const [explanationsJson, setExplanationsJson] = useState(explanationsData);
     const [imagesJson, setImagesJson] = useState(imagesData);
+    const { width: windowWidth, height: windowHeight } = useWindowDimensions();
+    const lastWindowSize = useRef({ width: Math.round(windowWidth), height: Math.round(windowHeight) });
 
     const isScrollMode = settings?.displayMode === "scroll";
     const lastDisplayMode = useRef(isScrollMode);
@@ -212,6 +227,23 @@ useEffect(() => {
             setReload((prev) => prev + 1);
         }
     }, [isScrollMode]);
+
+    useEffect(() => {
+        const roundedWidth = Math.round(windowWidth);
+        const roundedHeight = Math.round(windowHeight);
+        const sizeChanged =
+            lastWindowSize.current.width !== roundedWidth ||
+            lastWindowSize.current.height !== roundedHeight;
+
+        if (!sizeChanged) {
+            return;
+        }
+
+        lastWindowSize.current = { width: roundedWidth, height: roundedHeight };
+        setPageOffsets([]);
+        setCurrentPage(0);
+        setLoading(true);
+    }, [windowWidth, windowHeight]);
     
     return (
         <View style={{flex:1}}>
@@ -234,14 +266,13 @@ useEffect(() => {
         )}
         <WebView
             ref={webviewRef}
-            key={reload}
+            key={`${reload}-${Math.round(windowWidth)}-${Math.round(windowHeight)}`}
             source={{ html, baseUrl: Platform.OS === 'android' ? 'file:///android_asset/' : undefined }}
             originWhitelist={['*']}
             javaScriptEnabled={true}
             domStorageEnabled={true}
             startInLoadingState={false}
             pointerEvents={drawerIsOpen ? "none" : "auto"}
-            androidLayerType="software"
             allowFileAccess={true}
             allowFileAccessFromFileURLs={true}
             allowUniversalAccessFromFileURLs={true}
@@ -283,7 +314,8 @@ useEffect(() => {
                         setIsAudioPaused,
                         setCurrentAudioTitle,
                         setAudioPopupVisible,
-                        isScrollMode ? "scroll" : "slideshow"
+                        isScrollMode ? "scroll" : "slideshow",
+                        currentRouteName
                     );
                 }
             }}

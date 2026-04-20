@@ -1,0 +1,154 @@
+{
+  "service": "EVE of Tuesday",
+  "hour": "ELEVENTH Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Amos 5: 6 - 14)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Seek the Lord and live, lest He break out like fire in the house of Joseph and devour it, with no one to extinguish the fire for the house of Israel.",
+              "arabic": "أطلبوا الرب فتحيوا. لئلا يتقد بيت يوسف كنار فيحترق وليس من يطفئ من بيت اسرائيل.",
+              "arabic_base_no_tashkeel": "أطلبوا الرب فتحيوا. لئلا يتقد بيت يوسف كنار فيحترق وليس من يطفئ من بيت اسرائيل."
+            },
+            {
+              "row_index": 2,
+              "english": "The Lord is He who brings about justice on high and righteousness on the earth! \"He makes all things. He transforms the darkness into the morning and makes the day dark as night;",
+              "arabic": "الرب يصنع حكماً فى العلى. ووضع العدل على الأرض. هو الذي خلق كل الأشياء وينقلها الذي يحول الظل صباحاً ويغشى النهار بالليل.",
+              "arabic_base_no_tashkeel": "الرب يصنع حكما فى العلى. ووضع العدل على الأرض. هو الذي خلق كل الأشياء وينقلها الذي يحول الظل صباحا ويغشى النهار بالليل."
+            },
+            {
+              "row_index": 3,
+              "english": "He calls forth the waters of the sea and pours them out on the face of the earth. The Lord God Almighty is His name.",
+              "arabic": "الذي يدعو مياه البحر فيفيضها على وجه الأرض كلها الرب الإله الضابط الكل هو أسمه.",
+              "arabic_base_no_tashkeel": "الذي يدعو مياه البحر فيفيضها على وجه الأرض كلها الرب الإله الضابط الكل هو أسمه."
+            },
+            {
+              "row_index": 4,
+              "english": "He rains ruin upon the strong and brings misery upon the fortress. \"They hated him who reproved in the gates and abhorred the upright word.",
+              "arabic": "المنزل الإنحطام على القوة ويأتى بالدمار على الموضع الحصين. لقد أبغضوا الموبخ فى الأبواب ونجسوا الكلام الطاهر. من أجل ذلك هذا ما يقول الرب.",
+              "arabic_base_no_tashkeel": "المنزل الإنحطام على القوة ويأتى بالدمار على الموضع الحصين. لقد أبغضوا الموبخ فى الأبواب ونجسوا الكلام الطاهر. من أجل ذلك هذا ما يقول الرب."
+            },
+            {
+              "row_index": 5,
+              "english": "They tread upon the poor and take bribes from him. They built houses of hewn stone, yet they shall not dwell in them.",
+              "arabic": "بما أنكم ضربتم المساكين على رؤوسهم. أخذتم منهم هدايا فاخرة.",
+              "arabic_base_no_tashkeel": "بما أنكم ضربتم المساكين على رؤوسهم. أخذتم منهم هدايا فاخرة."
+            },
+            {
+              "row_index": 6,
+              "english": "They planted pleasant vineyards, but they shall not drink wine from them.",
+              "arabic": "شيدتم بيوتا حسنة ولا تسكنون فيها. وغرستم كروما مختارة ولا تشربون من خمرها.",
+              "arabic_base_no_tashkeel": "شيدتم بيوتا حسنة ولا تسكنون فيها. وغرستم كروما مختارة ولا تشربون من خمرها."
+            },
+            {
+              "row_index": 7,
+              "english": "For I know your many transgressions and the enormity of your sins, devouring the righteous and taking bribes, turning away the poor at the gate.",
+              "arabic": "فأنى عالم بنفاقكم الكثير وخطاياكم المتجددة. تدوسون البار وتأخذون الرشوة وتصدون البائسين من الأبواب.",
+              "arabic_base_no_tashkeel": "فأنى عالم بنفاقكم الكثير وخطاياكم المتجددة. تدوسون البار وتأخذون الرشوة وتصدون البائسين من الأبواب."
+            },
+            {
+              "row_index": 8,
+              "english": "Because of this, the prudent keep silent in this time, for it is an evil time. Seek good and not evil so that you may live.",
+              "arabic": "لذلك يسكت العاقل فى ذلك الزمان لأنه زمان ردئ. فاطلبوا الخير لا الشر لتحيوا.",
+              "arabic_base_no_tashkeel": "لذلك يسكت العاقل فى ذلك الزمان لأنه زمان ردئ. فاطلبوا الخير لا الشر لتحيوا."
+            },
+            {
+              "row_index": 9,
+              "english": "Seek good and not evil, That you may live; So the Lord God of hosts will be with you, As you have spoken.",
+              "arabic": "اُطْلُبُوا الْخَيْرَ لاَ الشَّرَّ لِتَحْيُوا فَعَلَى هَذَا يَكُونُ الرَّبُّ إِلَهُ الْجُنُودِ مَعَكُمْ كَمَا قُلْتُمْ.",
+              "arabic_base_no_tashkeel": "اطلبوا الخير لا الشر لتحيوا فعلى هذا يكون الرب إله الجنود معكم كما قلتم."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (122: 4)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "There the tribes went up, the tribes of the Lord, A testimony to Israel, to give thanks to the name of the Lord.",
+              "arabic": "لأنه هناك صعدت القبائل. قبائل الرب شهادة لاسرائيل. يعترفون لإسم الرب.",
+              "arabic_base_no_tashkeel": "لأنه هناك صعدت القبائل. قبائل الرب شهادة لاسرائيل. يعترفون لإسم الرب."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Mark 13: 32 - 14: 2)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "“But of that day and hour no one knows, not even the angels in heaven, nor the Son, but only the Father.",
+              "arabic": "فأما ذلك اليوم وتلك الساعة فلا يعلمهما أحد ولا الملائكة الذين فى السماء ولا الإبن الا الأب.",
+              "arabic_base_no_tashkeel": "فأما ذلك اليوم وتلك الساعة فلا يعلمهما أحد ولا الملائكة الذين فى السماء ولا الإبن الا الأب."
+            },
+            {
+              "row_index": 2,
+              "english": "Take heed, watch and pray; for you do not know when the time is.",
+              "arabic": "إنظروا وإسهروا وصلوا لأنكم لا تعلمون متى يكون الزمان.",
+              "arabic_base_no_tashkeel": "إنظروا وإسهروا وصلوا لأنكم لا تعلمون متى يكون الزمان."
+            },
+            {
+              "row_index": 3,
+              "english": "It is like a man going to a far country, who left his house and gave authority to his servants, and to each his work, and commanded the doorkeeper to watch.",
+              "arabic": "كمثل أنسان مسافر فترك بيته وأعطى عبيده السلطان كل واحد فى عمله وأوصى البواب بالسهر.",
+              "arabic_base_no_tashkeel": "كمثل أنسان مسافر فترك بيته وأعطى عبيده السلطان كل واحد فى عمله وأوصى البواب بالسهر."
+            },
+            {
+              "row_index": 4,
+              "english": "Watch therefore, for you do not know when the master of the house is coming—in the evening, at midnight, at the crowing of the rooster, or in the morning—lest, coming suddenly, he find you sleeping.",
+              "arabic": "فإسهروا إذا لأنكم لا تعلمون متى يأتى رب البيت. أفى المساء. أم فى نصف الليل. أم عند صياح الديك. أم فى الصباح. لئلا يأتى بغته فيجدكم نياماً.",
+              "arabic_base_no_tashkeel": "فإسهروا إذا لأنكم لا تعلمون متى يأتى رب البيت. أفى المساء. أم فى نصف الليل. أم عند صياح الديك. أم فى الصباح. لئلا يأتى بغته فيجدكم نياما."
+            },
+            {
+              "row_index": 5,
+              "english": "And what I say to you, I say to all: Watch!” After two days it was the Passover and the Feast of Unleavened Bread.",
+              "arabic": "وما أقوله لكم أقوله للجميع أسهروا. وكان الفصح والفطير بعد يومين",
+              "arabic_base_no_tashkeel": "وما أقوله لكم أقوله للجميع أسهروا. وكان الفصح والفطير بعد يومين"
+            },
+            {
+              "row_index": 6,
+              "english": "And the chief priests and the scribes sought how they might take Him by trickery and put Him to death.",
+              "arabic": "وكان رؤساء الكهنة والكتبة يطلبون كيف يمسكونه بمكر ليقتلوه.",
+              "arabic_base_no_tashkeel": "وكان رؤساء الكهنة والكتبة يطلبون كيف يمسكونه بمكر ليقتلوه."
+            },
+            {
+              "row_index": 7,
+              "english": "But they said, “Not during the feast, lest there be an uproar of the people.”",
+              "arabic": "ولكنهم قالوا لا نفعل هذا فى العيد لئلا يكون شغب فى الشعب.",
+              "arabic_base_no_tashkeel": "ولكنهم قالوا لا نفعل هذا فى العيد لئلا يكون شغب فى الشعب."
+            },
+            {
+              "row_index": 8,
+              "english": "But they said, \"Not during the feast, lest there be an uproar of the people.\"<Br><i>Bow down before the Holy Gospel.</i>",
+              "arabic": "وَلَكِنَّهُمْ قَالُوا: «لَيْسَ فِي الْعِيدِ لِئَلاَّ يَكُونَ شَغَبٌ فِي الشَّعْبِ».<br><i>أسجدوا للإنجيل المقدس.</i>",
+              "arabic_base_no_tashkeel": "ولكنهم قالوا: «ليس في العيد لئلا يكون شغب في الشعب».<br><i>أسجدوا للإنجيل المقدس.</i>"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

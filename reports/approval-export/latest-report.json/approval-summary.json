@@ -1,0 +1,14 @@
+{
+  "stackName": "liturgicalbooks-json-editor",
+  "changeRequestsTable": "liturgicalbooks-json-editor-ChangeRequestsTable-P7ZRL1V4FHBJ",
+  "auditLogTable": "liturgicalbooks-json-editor-AuditLogTable-1KWDLLG1Y7TU9",
+  "totalChangeRequests": 158,
+  "statusCounts": {
+    "approved": 132,
+    "rejected": 20,
+    "pending": 6
+  },
+  "approvedCount": 132,
+  "rejectedCount": 20,
+  "pendingCount": 6
+}

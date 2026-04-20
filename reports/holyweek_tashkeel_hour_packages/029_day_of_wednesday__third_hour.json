@@ -1,0 +1,403 @@
+{
+  "service": "DAY of Wednesday",
+  "hour": "THIRD Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Exodus 13: 17 - 22)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Thus when Pharaoh let the people go, God did not lead them by way of the land of the Philistines, although that was near; for God said, \"Lest perhaps the people change their minds when they see war' and return to Egypt.\"",
+              "arabic": "وعندما اطلق فرعون الشعب لم يهدهم الله الى طريق فلسطين مع انها كانت قريبة لان الرب قال لئلا يندم الشعب اذا رأى حربا فيرجع الى مصر",
+              "arabic_base_no_tashkeel": "وعندما اطلق فرعون الشعب لم يهدهم الله الى طريق فلسطين مع انها كانت قريبة لان الرب قال لئلا يندم الشعب اذا رأى حربا فيرجع الى مصر"
+            },
+            {
+              "row_index": 2,
+              "english": "So God led the people around by way of the desert to the Red Sea, and in the fifth generation the children of Israel went up from the land of Egypt. Now Moses took the bones of Joseph with him, for he had placed the children of Israel under solemn oath, saying,",
+              "arabic": "فادار الله الشعب الى الطريق الوعرة الى البحر الأحمر. فى الجيل الخامس خرج بنو اسرائيل من مصر. وحمل موسي عظام يوسف معه، لان يوسف كان قد استحلف بني اسرائيل بحلف قائلا:",
+              "arabic_base_no_tashkeel": "فادار الله الشعب الى الطريق الوعرة الى البحر الأحمر. فى الجيل الخامس خرج بنو اسرائيل من مصر. وحمل موسي عظام يوسف معه، لان يوسف كان قد استحلف بني اسرائيل بحلف قائلا:"
+            },
+            {
+              "row_index": 3,
+              "english": "\"God will surely visit you, and you shall carry up my bones from here with you.\"",
+              "arabic": "إن الرب سيفتقدكم افتقادا فاحملوا عظامى من هنا معكم",
+              "arabic_base_no_tashkeel": "إن الرب سيفتقدكم افتقادا فاحملوا عظامى من هنا معكم"
+            },
+            {
+              "row_index": 4,
+              "english": "So they took their journey from Succoth and camped in Etham by the desert.",
+              "arabic": "وارتحل بنو اسرائيل من سكوت) العريش( ونزلوا فى إيثام عند البرية.",
+              "arabic_base_no_tashkeel": "وارتحل بنو اسرائيل من سكوت) العريش( ونزلوا فى إيثام عند البرية."
+            },
+            {
+              "row_index": 5,
+              "english": "Moreover, God led them, by day in a pillar of cloud to show them the way, and by night in a pillar of fire.",
+              "arabic": "وكان الله يسير أمامهم نهارا بعمود سحاب ليهديهم الطريق وليلا فى عمود نار",
+              "arabic_base_no_tashkeel": "وكان الله يسير أمامهم نهارا بعمود سحاب ليهديهم الطريق وليلا فى عمود نار"
+            },
+            {
+              "row_index": 6,
+              "english": "Thus the pillar of cloud by day and the pillar of fire by night did not depart from before all the people.",
+              "arabic": "ولم يزل عمود السحاب نهارا وعمود النار ليلا من أمام الشعب.",
+              "arabic_base_no_tashkeel": "ولم يزل عمود السحاب نهارا وعمود النار ليلا من أمام الشعب."
+            }
+          ]
+        },
+        {
+          "title": "2nd Prophecy (Sirach 22: 7 - 18)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "He who teaches a fool is like one who glues pottery together, or like trying to arouse one from a sound sleep. He who tells something to a fool tells it to a drowsy man, and at the end he will say, \"What is it?\"",
+              "arabic": "الذي يؤدب الأحمق كمن يلصق شقفة علي شقفة وكمن ينبه مستغرقاً في نوم ثقيل من يكلم الأحمق كمن يكلم متناعسا وفى النهاية يقول: ماذا حدث؟",
+              "arabic_base_no_tashkeel": "الذي يؤدب الأحمق كمن يلصق شقفة علي شقفة وكمن ينبه مستغرقا في نوم ثقيل من يكلم الأحمق كمن يكلم متناعسا وفى النهاية يقول: ماذا حدث؟"
+            },
+            {
+              "row_index": 2,
+              "english": "Weep for a dead man, for he left the light behind; but weep over a fool, for he left intelligence behind. Weep gladly for a dead man, because he is at rest; but the life of the fool is worse than death.",
+              "arabic": "ابك على الميت لأنه ترك النور وابك على الأحمق ,لأنه ترك الأدب افضل البكاء على الميت لأنه استراح اما الأحمق فحياته أشقى من موته",
+              "arabic_base_no_tashkeel": "ابك على الميت لأنه ترك النور وابك على الأحمق ,لأنه ترك الأدب افضل البكاء على الميت لأنه استراح اما الأحمق فحياته أشقى من موته"
+            },
+            {
+              "row_index": 3,
+              "english": "Mourning for a dead man lasts seven days, but mourning for a fool or an ungodly man lasts all his life.",
+              "arabic": "النوح على الميت سبعة ايام والنوح على الأحمق والمنافق جميع ايام حياته",
+              "arabic_base_no_tashkeel": "النوح على الميت سبعة ايام والنوح على الأحمق والمنافق جميع ايام حياته"
+            },
+            {
+              "row_index": 4,
+              "english": "Do not hold a conversation with a fool, and do not visit with a senseless man.",
+              "arabic": "لا تكثر الكلام مع الأحمق ولا تخالط الجاهل تحفظ منه.",
+              "arabic_base_no_tashkeel": "لا تكثر الكلام مع الأحمق ولا تخالط الجاهل تحفظ منه."
+            },
+            {
+              "row_index": 5,
+              "english": "Beware of him, so as to avoid trouble, and you will not be defiled when he shakes himself off.",
+              "arabic": "لئلا تتعب وتتدنس اذا شد الرحال",
+              "arabic_base_no_tashkeel": "لئلا تتعب وتتدنس اذا شد الرحال"
+            },
+            {
+              "row_index": 6,
+              "english": "Stay away from him, and you will find rest and not be exhausted by his insanity.",
+              "arabic": "اعرض عنة فتجد راحة ولا تحزن بأثامه.",
+              "arabic_base_no_tashkeel": "اعرض عنة فتجد راحة ولا تحزن بأثامه."
+            },
+            {
+              "row_index": 7,
+              "english": "What will be heavier than lead? And what will be his name but \"Fool\"? Sand, salt, and a piece of iron are easier to bear than a senseless man.",
+              "arabic": "ما هو الأثقل من الرصاص وما اسمه أيضاً إلا الأحمق الرمل والملح وقرمة الحديد أخف حملا من الرجل الجاهل",
+              "arabic_base_no_tashkeel": "ما هو الأثقل من الرصاص وما اسمه أيضا إلا الأحمق الرمل والملح وقرمة الحديد أخف حملا من الرجل الجاهل"
+            },
+            {
+              "row_index": 8,
+              "english": "A wooden beam bound together in a building will not be broken loose in an earthquake; so a heart strengthened by reasonable counsel will not be afraid in a crisis.",
+              "arabic": "مثل رباط الخشب مشدود فى البناء لا يتفكك فى الزلزلة كذلك القلب الثابت بالمشورة",
+              "arabic_base_no_tashkeel": "مثل رباط الخشب مشدود فى البناء لا يتفكك فى الزلزلة كذلك القلب الثابت بالمشورة"
+            },
+            {
+              "row_index": 9,
+              "english": "A heart settled on intelligent thought is like a plaster decoration on a smooth wall.",
+              "arabic": "والقلب الثابت بفكر الفهم لا يجزع الى الأبد كزينة الجدار المشيد",
+              "arabic_base_no_tashkeel": "والقلب الثابت بفكر الفهم لا يجزع الى الأبد كزينة الجدار المشيد"
+            },
+            {
+              "row_index": 10,
+              "english": "As fences set on a high place will not stand firm against the wind, so a cowardly heart in the thought of a fool cannot stand firm against any kind of fear.",
+              "arabic": "وكمثل قضيب على مكان مرتفع لا يهدأ أمام كل ريح كذلك القلب الضعيف وفكر الأحمق لا يهدأ أمام كل هول.",
+              "arabic_base_no_tashkeel": "وكمثل قضيب على مكان مرتفع لا يهدأ أمام كل ريح كذلك القلب الضعيف وفكر الأحمق لا يهدأ أمام كل هول."
+            }
+          ]
+        },
+        {
+          "title": "3rd Prophecy (Job 27: 16 - 20)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Though he heaps up silver like dust, And piles up clothing like clay--",
+              "arabic": "إِنْ كَنَزَ فِضَّةً كَالتُّرَابِ وَأَعَدَّ مَلاَبِسَ كَالطِّينِ",
+              "arabic_base_no_tashkeel": "إن كنز فضة كالتراب وأعد ملابس كالطين"
+            },
+            {
+              "row_index": 2,
+              "english": "He may pile it up, but the just will wear it, And the innocent will divide the silver.",
+              "arabic": "فَهُوَ يُعِدُّ وَالْبَارُّ يَلْبِسُهُ وَالْبَرِئُ يَقْسِمُ الْفِضَّةَ.",
+              "arabic_base_no_tashkeel": "فهو يعد والبار يلبسه والبرئ يقسم الفضة."
+            },
+            {
+              "row_index": 3,
+              "english": "He builds his house like a moth, Like a booth which a watchman makes.",
+              "arabic": "يَبْنِي بَيْتَهُ كَالْعُثِّ أَوْ كَمِظَلَّةٍ صَنَعَهَا الْحَارِسُ.",
+              "arabic_base_no_tashkeel": "يبني بيته كالعث أو كمظلة صنعها الحارس."
+            },
+            {
+              "row_index": 4,
+              "english": "The rich man will lie down, But not be gathered up; He opens his eyes, And he is no more.",
+              "arabic": "يَضْطَجِعُ غَنِيّاً وَلَكِنَّهُ لاَ يُضَمُّ. يَفْتَحُ عَيْنَيْهِ وَلاَ يَكُونُ.",
+              "arabic_base_no_tashkeel": "يضطجع غنيا ولكنه لا يضم. يفتح عينيه ولا يكون."
+            },
+            {
+              "row_index": 5,
+              "english": "Terrors overtake him like a flood; A tempest steals him away in the night.",
+              "arabic": "الأَهْوَالُ تُدْرِكُهُ كَالْمِيَاهِ. لَيْلاً تَخْتَطِفُهُ الزَّوْبَعَةُ.",
+              "arabic_base_no_tashkeel": "الأهوال تدركه كالمياه. ليلا تختطفه الزوبعة."
+            }
+          ]
+        },
+        {
+          "title": "4th Prophecy (Proverbs 4: 4 - 27 & 5: 1 - 4)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "He also taught me, and said to me: \"Let your heart retain my words; Keep my commands, and live.",
+              "arabic": "وَكَانَ يُرِينِي وَيَقُولُ لِي: «لِيَضْبِطْ قَلْبُكَ كَلاَمِي. احْفَظْ وَصَايَايَ فَتَحْيَا.",
+              "arabic_base_no_tashkeel": "وكان يريني ويقول لي: «ليضبط قلبك كلامي. احفظ وصاياي فتحيا."
+            },
+            {
+              "row_index": 2,
+              "english": "Get wisdom! Get understanding! Do not forget, nor turn away from the words of my mouth.",
+              "arabic": "اِقْتَنِ الْحِكْمَةَ. اقْتَنِ الْفَهْمَ. لاَ تَنْسَ وَلاَ تُعْرِضْ عَنْ كَلِمَاتِ فَمِي.",
+              "arabic_base_no_tashkeel": "اقتن الحكمة. اقتن الفهم. لا تنس ولا تعرض عن كلمات فمي."
+            },
+            {
+              "row_index": 3,
+              "english": "Do not forsake her, and she will preserve you; Love her, and she will keep you.",
+              "arabic": "لاَ تَتْرُكْهَا فَتَحْفَظَكَ. أَحْبِبْهَا فَتَصُونَكَ.",
+              "arabic_base_no_tashkeel": "لا تتركها فتحفظك. أحببها فتصونك."
+            },
+            {
+              "row_index": 4,
+              "english": "Wisdom is the principal thing; Therefore get wisdom. And in all your getting, get understanding.",
+              "arabic": "الْحِكْمَةُ هِيَ الرَّأْسُ فَاقْتَنِ الْحِكْمَةَ وَبِكُلِّ مُقْتَنَاكَ اقْتَنِ الْفَهْمَ.",
+              "arabic_base_no_tashkeel": "الحكمة هي الرأس فاقتن الحكمة وبكل مقتناك اقتن الفهم."
+            },
+            {
+              "row_index": 5,
+              "english": "Exalt her, and she will promote you; She will bring you honor, when you embrace her.",
+              "arabic": "ارْفَعْهَا فَتُعَلِّيَكَ. تُمَجِّدُكَ إِذَا اعْتَنَقْتَهَا.",
+              "arabic_base_no_tashkeel": "ارفعها فتعليك. تمجدك إذا اعتنقتها."
+            },
+            {
+              "row_index": 6,
+              "english": "She will place on your head an ornament of grace; A crown of glory she will deliver to you.\"",
+              "arabic": "تُعْطِي رَأْسَكَ إِكْلِيلَ نِعْمَةٍ. تَاجَ جَمَالٍ تَمْنَحُكَ».",
+              "arabic_base_no_tashkeel": "تعطي رأسك إكليل نعمة. تاج جمال تمنحك»."
+            },
+            {
+              "row_index": 7,
+              "english": "Hear, my son, and receive my sayings, And the years of your life will be many.",
+              "arabic": "اِسْمَعْ يَا ابْنِي وَاقْبَلْ أَقْوَالِي فَتَكْثُرَ سِنُو حَيَاتِكَ.",
+              "arabic_base_no_tashkeel": "اسمع يا ابني واقبل أقوالي فتكثر سنو حياتك."
+            },
+            {
+              "row_index": 8,
+              "english": "I have taught you in the way of wisdom; I have led you in right paths.",
+              "arabic": "أَرَيْتُكَ طَرِيقَ الْحِكْمَةِ. هَدَيْتُكَ سُبُلَ الاِسْتِقَامَةِ.",
+              "arabic_base_no_tashkeel": "أريتك طريق الحكمة. هديتك سبل الاستقامة."
+            },
+            {
+              "row_index": 9,
+              "english": "When you walk, your steps will not be hindered, And when you run, you will not stumble.",
+              "arabic": "إِذَا سِرْتَ فَلاَ تَضِيقُ خَطَوَاتُكَ وَإِذَا سَعَيْتَ فَلاَ تَعْثُرُ.",
+              "arabic_base_no_tashkeel": "إذا سرت فلا تضيق خطواتك وإذا سعيت فلا تعثر."
+            },
+            {
+              "row_index": 10,
+              "english": "Take firm hold of instruction, do not let go; Keep her, for she is your life.",
+              "arabic": "تَمَسَّكْ بِالأَدَبِ. لاَ تَرْخِهِ. احْفَظْهُ فَإِنَّهُ هُوَ حَيَاتُكَ.",
+              "arabic_base_no_tashkeel": "تمسك بالأدب. لا ترخه. احفظه فإنه هو حياتك."
+            },
+            {
+              "row_index": 11,
+              "english": "Do not enter the path of the wicked, And do not walk in the way of evil.",
+              "arabic": "لاَ تَدْخُلْ فِي سَبِيلِ الأَشْرَارِ وَلاَ تَسِرْ فِي طَرِيقِ الأَثَمَةِ.",
+              "arabic_base_no_tashkeel": "لا تدخل في سبيل الأشرار ولا تسر في طريق الأثمة."
+            },
+            {
+              "row_index": 12,
+              "english": "Avoid it, do not travel on it; Turn away from it and pass on.",
+              "arabic": "تَنَكَّبْ عَنْهُ. لاَ تَمُرَّ بِهِ. حِدْ عَنْهُ وَاعْبُرْ",
+              "arabic_base_no_tashkeel": "تنكب عنه. لا تمر به. حد عنه واعبر"
+            },
+            {
+              "row_index": 13,
+              "english": "For they do not sleep unless they have done evil; And their sleep is taken away unless they make someone fall.",
+              "arabic": "لأَنَّهُمْ لاَ يَنَامُونَ إِنْ لَمْ يَفْعَلُوا سُوءاً وَيُنْزَعُ نَوْمُهُمْ إِنْ لَمْ يُسْقِطُوا أَحَداً.",
+              "arabic_base_no_tashkeel": "لأنهم لا ينامون إن لم يفعلوا سوءا وينزع نومهم إن لم يسقطوا أحدا."
+            },
+            {
+              "row_index": 14,
+              "english": "For they eat the bread of wickedness, And drink the wine of violence.",
+              "arabic": "لأَنَّهُمْ يَطْعَمُونَ خُبْزَ الشَّرِّ وَيَشْرَبُونَ خَمْرَ الظُّلْمِ.",
+              "arabic_base_no_tashkeel": "لأنهم يطعمون خبز الشر ويشربون خمر الظلم."
+            },
+            {
+              "row_index": 15,
+              "english": "But the path of the just is like the shining sun, That shines ever brighter unto the perfect day.",
+              "arabic": "أَمَّا سَبِيلُ الصِّدِّيقِينَ فَكَنُورٍ مُشْرِقٍ يَتَزَايَدُ وَيُنِيرُ إِلَى النَّهَارِ الْكَامِلِ.",
+              "arabic_base_no_tashkeel": "أما سبيل الصديقين فكنور مشرق يتزايد وينير إلى النهار الكامل."
+            },
+            {
+              "row_index": 16,
+              "english": "The way of the wicked is like darkness; They do not know what makes them stumble.",
+              "arabic": "أَمَّا طَرِيقُ الأَشْرَارِ فَكَالظَّلاَمِ. لاَ يَعْلَمُونَ مَا يَعْثُرُونَ بِهِ.",
+              "arabic_base_no_tashkeel": "أما طريق الأشرار فكالظلام. لا يعلمون ما يعثرون به."
+            },
+            {
+              "row_index": 17,
+              "english": "My son, give attention to my words; Incline your ear to my sayings.",
+              "arabic": "يَا ابْنِي أَصْغِ إِلَى كَلاَمِي. أَمِلْ أُذْنَكَ إِلَى أَقْوَالِي.",
+              "arabic_base_no_tashkeel": "يا ابني أصغ إلى كلامي. أمل أذنك إلى أقوالي."
+            },
+            {
+              "row_index": 18,
+              "english": "Do not let them depart from your eyes; Keep them in the midst of your heart;",
+              "arabic": "لاَ تَبْرَحْ عَنْ عَيْنَيْكَ. احْفَظْهَا فِي وَسَطِ قَلْبِكَ.",
+              "arabic_base_no_tashkeel": "لا تبرح عن عينيك. احفظها في وسط قلبك."
+            },
+            {
+              "row_index": 19,
+              "english": "For they are life to those who find them, And health to all their flesh.",
+              "arabic": "لأَنَّهَا هِيَ حَيَاةٌ لِلَّذِينَ يَجِدُونَهَا وَدَوَاءٌ لِكُلِّ الْجَسَدِ.",
+              "arabic_base_no_tashkeel": "لأنها هي حياة للذين يجدونها ودواء لكل الجسد."
+            },
+            {
+              "row_index": 20,
+              "english": "Keep your heart with all diligence, For out of it spring the issues of life.",
+              "arabic": "فَوْقَ كُلِّ تَحَفُّظٍ احْفَظْ قَلْبَكَ لأَنَّ مِنْهُ مَخَارِجَ الْحَيَاةِ.",
+              "arabic_base_no_tashkeel": "فوق كل تحفظ احفظ قلبك لأن منه مخارج الحياة."
+            },
+            {
+              "row_index": 21,
+              "english": "Put away from you a deceitful mouth, And put perverse lips far from you.",
+              "arabic": "انْزِعْ عَنْكَ الْتِوَاءَ الْفَمِ وَأَبْعِدْ عَنْكَ انْحِرَافَ الشَّفَتَيْنِ.",
+              "arabic_base_no_tashkeel": "انزع عنك التواء الفم وأبعد عنك انحراف الشفتين."
+            },
+            {
+              "row_index": 22,
+              "english": "Let your eyes look straight ahead, And your eyelids look right before you.",
+              "arabic": "لِتَنْظُرْ عَيْنَاكَ إِلَى قُدَّامِكَ وَأَجْفَانُكَ إِلَى أَمَامِكَ مُسْتَقِيماً.",
+              "arabic_base_no_tashkeel": "لتنظر عيناك إلى قدامك وأجفانك إلى أمامك مستقيما."
+            },
+            {
+              "row_index": 23,
+              "english": "Ponder the path of your feet, And let all your ways be established.",
+              "arabic": "مَهِّدْ سَبِيلَ رِجْلِكَ فَتَثْبُتَ كُلُّ طُرُقِكَ.",
+              "arabic_base_no_tashkeel": "مهد سبيل رجلك فتثبت كل طرقك."
+            },
+            {
+              "row_index": 24,
+              "english": "Do not turn to the right or the left; Remove your foot from evil.",
+              "arabic": "لاَ تَمِلْ يَمْنَةً وَلاَ يَسْرَةً. بَاعِدْ رِجْلَكَ عَنِ الشَّرِّ.",
+              "arabic_base_no_tashkeel": "لا تمل يمنة ولا يسرة. باعد رجلك عن الشر."
+            },
+            {
+              "row_index": 25,
+              "english": "My son, pay attention to my wisdom; Lend your ear to my understanding,",
+              "arabic": "يَا ابْنِي أَصْغِ إِلَى حِكْمَتِي. أَمِلْ أُذْنَكَ إِلَى فَهْمِي",
+              "arabic_base_no_tashkeel": "يا ابني أصغ إلى حكمتي. أمل أذنك إلى فهمي"
+            },
+            {
+              "row_index": 26,
+              "english": "That you may preserve discretion, And your lips may keep knowledge.",
+              "arabic": "لِحِفْظِ التَّدَابِيرِ وَلِتَحْفَظَ شَفَتَاكَ مَعْرِفَةً.",
+              "arabic_base_no_tashkeel": "لحفظ التدابير ولتحفظ شفتاك معرفة."
+            },
+            {
+              "row_index": 27,
+              "english": "For the lips of an immoral woman drip honey, And her mouth is smoother than oil;",
+              "arabic": "لأَنَّ شَفَتَيِ الْمَرْأَةِ الأَجْنَبِيَّةِ تَقْطُرَانِ عَسَلاً وَحَنَكُهَا أَنْعَمُ مِنَ الزَّيْتِ.",
+              "arabic_base_no_tashkeel": "لأن شفتي المرأة الأجنبية تقطران عسلا وحنكها أنعم من الزيت."
+            },
+            {
+              "row_index": 28,
+              "english": "But in the end she is bitter as wormwood, Sharp as a two-edged sword.",
+              "arabic": "لَكِنَّ عَاقِبَتَهَا مُرَّةٌ كَالأَفْسَنْتِينِ. حَادَّةٌ كَسَيْفٍ ذِي حَدَّيْنِ.",
+              "arabic_base_no_tashkeel": "لكن عاقبتها مرة كالأفسنتين. حادة كسيف ذي حدين."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (41: 6,1)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "And if he comes to see us, he speaks in vain; his heart gathered lawlessness to itself.",
+              "arabic": "كان يدخل لينظر فكان يتكلم باطلاً, وقلبه جمع له إثماً.",
+              "arabic_base_no_tashkeel": "كان يدخل لينظر فكان يتكلم باطلا, وقلبه جمع له إثما."
+            },
+            {
+              "row_index": 2,
+              "english": "Blessed is he who understands the poor and needy; the Lord will deliver him in an evil day.",
+              "arabic": "طوبى لمن يتفهم في أمر المسكين والضعيف, في يوم السوء ينجيه الرب.",
+              "arabic_base_no_tashkeel": "طوبى لمن يتفهم في أمر المسكين والضعيف, في يوم السوء ينجيه الرب."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Luke 22: 1 - 6)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Now the Feast of Unleavened Bread drew near, which is called Passover.",
+              "arabic": "وكان قد قرب عيد الفطير, الذي يقال له الفصح,",
+              "arabic_base_no_tashkeel": "وكان قد قرب عيد الفطير, الذي يقال له الفصح,"
+            },
+            {
+              "row_index": 2,
+              "english": "And the chief priests and the scribes sought how they might kill Him, for they feared the people.",
+              "arabic": "وكان رؤساء الكهنة والكتبة يطلبون كيف يهلكونه, لأنهم كانوا يخافون الشعب,",
+              "arabic_base_no_tashkeel": "وكان رؤساء الكهنة والكتبة يطلبون كيف يهلكونه, لأنهم كانوا يخافون الشعب,"
+            },
+            {
+              "row_index": 3,
+              "english": "Then Satan entered Judas, surnamed Iscariot, who was numbered among the twelve.",
+              "arabic": "فدخل الشيطان قلب يهوذا الذي يدعى الإسخريوطي وهو أحد الإثني عشر.",
+              "arabic_base_no_tashkeel": "فدخل الشيطان قلب يهوذا الذي يدعى الإسخريوطي وهو أحد الإثني عشر."
+            },
+            {
+              "row_index": 4,
+              "english": "So he went his way and conferred with the chief priests and captains, how he might betray Him to them.",
+              "arabic": "فمضي وفاوض رؤساء الكهنة وقواد الجند كيف يسلمه إليهم,",
+              "arabic_base_no_tashkeel": "فمضي وفاوض رؤساء الكهنة وقواد الجند كيف يسلمه إليهم,"
+            },
+            {
+              "row_index": 5,
+              "english": "And they were glad, and agreed to give him money. So he promised and sought opportunity to betray Him to them in the absence of the multitude.",
+              "arabic": "ففرحوا وعاهدوه أن يعطوه فضة, وكان يتحين فرصة ليسلمه إليهم بمعزل عن الجميع.",
+              "arabic_base_no_tashkeel": "ففرحوا وعاهدوه أن يعطوه فضة, وكان يتحين فرصة ليسلمه إليهم بمعزل عن الجميع."
+            },
+            {
+              "row_index": 6,
+              "english": "So he promised and sought opportunity to betray Him to them in the absence of the multitude.<Br><i>Bow down before the Holy Gospel.</i>",
+              "arabic": "فَوَاعَدَهُمْ. وَكَانَ يَطْلُبُ فُرْصَةً لِيُسَلِّمَهُ إِلَيْهِمْ خِلْواً مِنْ جَمْعٍ.<br><i>أسجدوا للإنجيل المقدس.</i>",
+              "arabic_base_no_tashkeel": "فواعدهم. وكان يطلب فرصة ليسلمه إليهم خلوا من جمع.<br><i>أسجدوا للإنجيل المقدس.</i>"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

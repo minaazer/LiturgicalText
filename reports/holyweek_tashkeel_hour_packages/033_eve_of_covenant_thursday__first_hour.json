@@ -1,0 +1,130 @@
+{
+  "service": "EVE of Covenant Thursday",
+  "hour": "FIRST Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Ezekiel 43: 5 - 11)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "The Spirit lifted me up and brought me into the inner court, and behold, the house was full of the Lord's glory. Then I stood, and behold, there was a voice from the house, and a Man was standing with me.",
+              "arabic": "فحملنى الروح وأدخلنى إلى الدار الداخلية. وإذ البيت ممتلئ من مجد الرب. فوقفت وإذا بصوت يتكلم معى من البيت، وكان الرجل واقفاً بجانبى، وقال لى:",
+              "arabic_base_no_tashkeel": "فحملنى الروح وأدخلنى إلى الدار الداخلية. وإذ البيت ممتلئ من مجد الرب. فوقفت وإذا بصوت يتكلم معى من البيت، وكان الرجل واقفا بجانبى، وقال لى:"
+            },
+            {
+              "row_index": 2,
+              "english": "He said to me, \"Son of man, you have seen the place of My throne and the place of the soles of My feet, where I will dwell in the midst of the house of Israel forever. No more will the house of Israel defile My holy name, they nor their leaders, by their fornication or murders of the leaders in their midst.",
+              "arabic": "أترى يا إبن الإنسان مكان عرشى وموضع باطن قدمى؟ هؤلاء الذين يكون فيهم أسمى فى وسط بيت اسرائيل إلى الأبد، ولن ينجس بعد بيت اسرائيل أسمى القدوس. هم ومدبريهم فى الإثم وقتل مدبريهم فى وسطهم",
+              "arabic_base_no_tashkeel": "أترى يا إبن الإنسان مكان عرشى وموضع باطن قدمى؟ هؤلاء الذين يكون فيهم أسمى فى وسط بيت اسرائيل إلى الأبد، ولن ينجس بعد بيت اسرائيل أسمى القدوس. هم ومدبريهم فى الإثم وقتل مدبريهم فى وسطهم"
+            },
+            {
+              "row_index": 3,
+              "english": "When they set My threshold by their thresholds, and My doorpost by their doorposts, with a wall between them and Me, they desecrated My holy name by their lawlessness, and I destroyed them in My anger and with slaughter.",
+              "arabic": "عندما جعلوا بابى عند أبوابهم، وأعتابى بجانب أعتابهم، وجعلوا سياجهم كما لو كانت تمسكنى معهم، فنجسوا أسمى القدوس بآثامهم التى يفعلونها فسحقتهم بغضبى قتلاً.",
+              "arabic_base_no_tashkeel": "عندما جعلوا بابى عند أبوابهم، وأعتابى بجانب أعتابهم، وجعلوا سياجهم كما لو كانت تمسكنى معهم، فنجسوا أسمى القدوس بآثامهم التى يفعلونها فسحقتهم بغضبى قتلا."
+            },
+            {
+              "row_index": 4,
+              "english": "Now let them remove their fornication from My presence, and the murders of their leaders, and I will dwell in their midst forever.",
+              "arabic": "والآن فليتركوا شرورهم. وقتل مدبريهم أمامى، فأحل فى وسطهم إلى الأبد،",
+              "arabic_base_no_tashkeel": "والآن فليتركوا شرورهم. وقتل مدبريهم أمامى، فأحل فى وسطهم إلى الأبد،"
+            },
+            {
+              "row_index": 5,
+              "english": "\"As for you, son of man, explain this house to the house of Israel, and they will cease from the shame of their sins; and describe to them its vision and its plan.",
+              "arabic": "وأنت أيضاً يا إبن الإنسان أخبر بيت اسرائيل عن البيت وشكله ورسمه فيكفون عن خطاياهم،",
+              "arabic_base_no_tashkeel": "وأنت أيضا يا إبن الإنسان أخبر بيت اسرائيل عن البيت وشكله ورسمه فيكفون عن خطاياهم،"
+            },
+            {
+              "row_index": 6,
+              "english": "They shall take the chastisements for all the things they did, and you shall describe the house, its design, its exits, and its substance, and all its ordinances.",
+              "arabic": "وهؤلاء ينالون عقابهم من أجل كل ما صنعوه، وترسم البيت وهيئته ومخارجه ومداخله ونظامه، وكل أوامره أخبرهم بها.",
+              "arabic_base_no_tashkeel": "وهؤلاء ينالون عقابهم من أجل كل ما صنعوه، وترسم البيت وهيئته ومخارجه ومداخله ونظامه، وكل أوامره أخبرهم بها."
+            },
+            {
+              "row_index": 7,
+              "english": "You shall make known its laws to them and write them out in their sight. Then they will keep all My requirements and all My ordinances and perform them.",
+              "arabic": "وأكتب ذلك أمامهم فيحفظون جميع حقوقى وجميع وصاياى ويعملون بها.",
+              "arabic_base_no_tashkeel": "وأكتب ذلك أمامهم فيحفظون جميع حقوقى وجميع وصاياى ويعملون بها."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (69: 1,16)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Save me, O God, for the waters flood my soul.",
+              "arabic": "أحينى يا الله فإن المياه قد بلغت إلى نفسى،",
+              "arabic_base_no_tashkeel": "أحينى يا الله فإن المياه قد بلغت إلى نفسى،"
+            },
+            {
+              "row_index": 2,
+              "english": "According to Your abundant compassion, look upon me.",
+              "arabic": "وأنظر إلى ككثرة رأفاتك:",
+              "arabic_base_no_tashkeel": "وأنظر إلى ككثرة رأفاتك:"
+            }
+          ]
+        },
+        {
+          "title": "Gospel (John 10: 17 - 21)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "“Therefore My Father loves Me, because I lay down My life that I may take it again.",
+              "arabic": "من أجل هذا يحبنى أبى، لأنى أضع نفسى لأخذها أيضاً.",
+              "arabic_base_no_tashkeel": "من أجل هذا يحبنى أبى، لأنى أضع نفسى لأخذها أيضا."
+            },
+            {
+              "row_index": 2,
+              "english": "No one takes it from Me, but I lay it down of Myself. I have power to lay it down, and I have power to take it again.",
+              "arabic": "ليس أحد يأخذها منى ولكنى أضعها أنا من ذأتى وحدى، ولى سلطان أن أضعها، ولى أيضاً سلطان أن آخذها،",
+              "arabic_base_no_tashkeel": "ليس أحد يأخذها منى ولكنى أضعها أنا من ذأتى وحدى، ولى سلطان أن أضعها، ولى أيضا سلطان أن آخذها،"
+            },
+            {
+              "row_index": 3,
+              "english": "This command I have received from My Father.”",
+              "arabic": "هذه هى الوصية التى قبلتها من أبى.",
+              "arabic_base_no_tashkeel": "هذه هى الوصية التى قبلتها من أبى."
+            },
+            {
+              "row_index": 4,
+              "english": "Therefore there was a division again among the Jews because of these sayings. And many of them said, “He has a demon and is mad. Why do you listen to Him?”",
+              "arabic": "فحدث شقاق بين اليهود بسبب هذا الكلام، فقال كثيرون منهم أن به شيطان وقد جن فلماذا تسمعون له.",
+              "arabic_base_no_tashkeel": "فحدث شقاق بين اليهود بسبب هذا الكلام، فقال كثيرون منهم أن به شيطان وقد جن فلماذا تسمعون له."
+            },
+            {
+              "row_index": 5,
+              "english": "Others said, “These are not the words of one who has a demon. Can a demon open the eyes of the blind?”",
+              "arabic": "وقال آخرون ليس هذا كلام إنسان به شيطان، هل يقدر شيطان أن يفتح أعين العميان.",
+              "arabic_base_no_tashkeel": "وقال آخرون ليس هذا كلام إنسان به شيطان، هل يقدر شيطان أن يفتح أعين العميان."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

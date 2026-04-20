@@ -2,7 +2,7 @@
   "expo": {
     "name": "LiturgicalBooks",
     "slug": "LiturgicalBooks",
-    "version": "1.1.2",
+    "version": "1.1.6",
     "icon": "./assets/cymbals.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
@@ -17,8 +17,9 @@
     "scheme": "liturgicalbooks",
     "ios": {
       "supportsTablet": true,
+      "requireFullScreen": true,
       "bundleIdentifier": "com.minaazer.liturgicalbooks",
-      "buildNumber": "111",
+      "buildNumber": "114",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false,
         "UIBackgroundModes": [
@@ -40,7 +41,7 @@
         "ACCESS_NETWORK_STATE",
         "ACCESS_WIFI_STATE"
       ],
-      "versionCode": 135
+      "versionCode": 141
     },
     "web": {
       "favicon": "./assets/favicon.png"

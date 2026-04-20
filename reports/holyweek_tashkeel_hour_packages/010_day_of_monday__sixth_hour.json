@@ -1,0 +1,195 @@
+{
+  "service": "DAY of Monday",
+  "hour": "SIXTH Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Exodus 32: 7 - 15)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "But the Lord said to Moses, \"Go quickly! Get down from here! For your people whom you brought out of the land of Egypt are transgressing the law. They turned aside quickly from the way I commanded them. They made themselves a calf and are worshiping and sacrificing to it, and are saying,",
+              "arabic": "وكلم الرب موسى قائلاً: إمضى مسرعاً من هنا وإنزل لأنه قد أثم شعبك الذي أخرجته من أرض مصر. وقد زاغوا سريعاً عن الطريق الذي أوصيتهم به. وصنعوا لهم عجلاً (مسبوكاً) وسجدوا له وذبحوا ذبائح لصنعة أيديهم. قائلين",
+              "arabic_base_no_tashkeel": "وكلم الرب موسى قائلا: إمضى مسرعا من هنا وإنزل لأنه قد أثم شعبك الذي أخرجته من أرض مصر. وقد زاغوا سريعا عن الطريق الذي أوصيتهم به. وصنعوا لهم عجلا (مسبوكا) وسجدوا له وذبحوا ذبائح لصنعة أيديهم. قائلين"
+            },
+            {
+              "row_index": 2,
+              "english": "'These are your gods, O Israel, that brought you out of the land of Egypt.' Now therefore, let Me be, that I may burn in wrath against them and consume them. Then I will make of you a great nation.\"",
+              "arabic": "هذه هى آلهتك يا اسرائيل التى أخرجتك من أرض مصر. والآن دعنى أغضب عليهم بحنق وأبيدهم وأجعلك لأمة أعظم.",
+              "arabic_base_no_tashkeel": "هذه هى آلهتك يا اسرائيل التى أخرجتك من أرض مصر. والآن دعنى أغضب عليهم بحنق وأبيدهم وأجعلك لأمة أعظم."
+            },
+            {
+              "row_index": 3,
+              "english": "But Moses prayed before the Lord God and said, \"Why, O Lord, does Your wrath burn hot against Your people whom You brought out of the land of Egypt with great power and a mighty hand?",
+              "arabic": "فتضرع موسى أمام الرب الإله قائلاً: لماذا يارب تغضب غضباً على شعبك الذي أخرجته من أرض مصر بقوتك العظيمة وذراعك الرفيعة.",
+              "arabic_base_no_tashkeel": "فتضرع موسى أمام الرب الإله قائلا: لماذا يارب تغضب غضبا على شعبك الذي أخرجته من أرض مصر بقوتك العظيمة وذراعك الرفيعة."
+            },
+            {
+              "row_index": 4,
+              "english": "Why should the Egyptians speak and say, 'He brought them out with evil intent, to kill them in the mountains and to consume them from the face of the earth'?",
+              "arabic": "لئلا يقول المصريون أنك أخرجتهم بكيد لتقتلهم فى الجبال وتفنيهم عن وجه الأرض.",
+              "arabic_base_no_tashkeel": "لئلا يقول المصريون أنك أخرجتهم بكيد لتقتلهم فى الجبال وتفنيهم عن وجه الأرض."
+            },
+            {
+              "row_index": 5,
+              "english": "Turn from Your fierce wrath and be merciful to the wickedness of Your people.",
+              "arabic": "أرجع يارب عن حمو غضبك و أغفر شر شعبك.",
+              "arabic_base_no_tashkeel": "أرجع يارب عن حمو غضبك و أغفر شر شعبك."
+            },
+            {
+              "row_index": 6,
+              "english": "Remember Abraham, Isaac, and Jacob, Your servants, to whom You swore by Yourself and said to them,",
+              "arabic": "وأذكر إبراهيم وإسحق ويعقوب الذين أقسمت لهم بذاتك وقلت لهم",
+              "arabic_base_no_tashkeel": "وأذكر إبراهيم وإسحق ويعقوب الذين أقسمت لهم بذاتك وقلت لهم"
+            },
+            {
+              "row_index": 7,
+              "english": "'I will greatly multiply your seed as the stars of heaven for multitude; and all this land I spoke about to give their seed, they shall inherit unto the ages.'''",
+              "arabic": "إنى أكثر نسلكم جداً كنجوم السماء فى كثرتها. وكل هذه الأرض التى قلت عنها أن تعطيها لنسلهم فيرثوها إلى الأبد.",
+              "arabic_base_no_tashkeel": "إنى أكثر نسلكم جدا كنجوم السماء فى كثرتها. وكل هذه الأرض التى قلت عنها أن تعطيها لنسلهم فيرثوها إلى الأبد."
+            },
+            {
+              "row_index": 8,
+              "english": "So the Lord granted mercy for the harm He said He would do to His people.",
+              "arabic": "فصفح الرب عن شر شعبه.",
+              "arabic_base_no_tashkeel": "فصفح الرب عن شر شعبه."
+            },
+            {
+              "row_index": 9,
+              "english": "Then Moses turned and went down from the mountain with the two tablets of the testimony in his hands. They were stone tablets written on both sides, on one side and on the other.",
+              "arabic": "ثم رجع موسى ونزل من الجبل ولوحا الشهادة فى يديه وهما لوحان من حجارة مكتوبان من الوجهين من هنا ومن هنا.",
+              "arabic_base_no_tashkeel": "ثم رجع موسى ونزل من الجبل ولوحا الشهادة فى يديه وهما لوحان من حجارة مكتوبان من الوجهين من هنا ومن هنا."
+            }
+          ]
+        },
+        {
+          "title": "2nd Prophecy (Wisdom of Solomon 1: 1 - 9)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "A reading from the Wisdom of Solomon the prophet. May his holy blessings be with us. Amen. Love righteousness, you who judge on the earth. Think about the Lord in goodness and seek Him with sincerity of heart;",
+              "arabic": "من حكمة سليمان النبي بركته المقدسة تکون معنا. آمين. أحبوا العدل يا قضاة الأرض. أذكروا الرب بالصلاح. أطلبوه ببساطة قلوبكم",
+              "arabic_base_no_tashkeel": "من حكمة سليمان النبي بركته المقدسة تکون معنا. آمين. أحبوا العدل يا قضاة الأرض. أذكروا الرب بالصلاح. أطلبوه ببساطة قلوبكم"
+            },
+            {
+              "row_index": 2,
+              "english": "because He is found by those who do not tempt Him, and He is manifest to those who do not disbelieve Him. For dishonest reasoning separates people from God, and when His power examines someone, it convicts the undiscerning;",
+              "arabic": "فانما يجده الذين لا يجربونه. ويتجلى للذين لا يكفرون به. لأن الفكر الشرير يبعدهم عن الله. وقوته الظاهرة تبكت الجهال.",
+              "arabic_base_no_tashkeel": "فانما يجده الذين لا يجربونه. ويتجلى للذين لا يكفرون به. لأن الفكر الشرير يبعدهم عن الله. وقوته الظاهرة تبكت الجهال."
+            },
+            {
+              "row_index": 3,
+              "english": "For wisdom will not enter the soul that plots evil, nor will it dwell in a body involved in sin.",
+              "arabic": "لأن الحكمة لا تدخل فى نفس شريرة. ولا تحل فى جسم خاطئ.",
+              "arabic_base_no_tashkeel": "لأن الحكمة لا تدخل فى نفس شريرة. ولا تحل فى جسم خاطئ."
+            },
+            {
+              "row_index": 4,
+              "english": "For a holy spirit of discipline [wisdom] flees from deceit and sends away undiscerning reasoning; it will put wrongdoing to shame when it comes near.",
+              "arabic": "لأن روح الحكمة الطاهرة يهرب من كل غش. ويبتعد عن أفكار الجهال ويبكت الظالم إذا أقبل.",
+              "arabic_base_no_tashkeel": "لأن روح الحكمة الطاهرة يهرب من كل غش. ويبتعد عن أفكار الجهال ويبكت الظالم إذا أقبل."
+            },
+            {
+              "row_index": 5,
+              "english": "For wisdom is a spirit that loves mankind, but she will punish a blasphemer because of his words;",
+              "arabic": "روح الحكمة محب للبشر. فلا يبرئ المجدف بشفتيه.",
+              "arabic_base_no_tashkeel": "روح الحكمة محب للبشر. فلا يبرئ المجدف بشفتيه."
+            },
+            {
+              "row_index": 6,
+              "english": "For God is the witness of his thoughts, the true examiner of his heart, and the hearer of his tongue;",
+              "arabic": "لأن شاهد كليتاه هو الله وهو الفاحص الحقيقى لقلبه والسامع للسانه.",
+              "arabic_base_no_tashkeel": "لأن شاهد كليتاه هو الله وهو الفاحص الحقيقى لقلبه والسامع للسانه."
+            },
+            {
+              "row_index": 7,
+              "english": "Because the Spirit of the Lord fills the world, and He who holds all things together knows what is said.",
+              "arabic": "لأن روح الرب ملأ المسكونة وبقية الكل وهو يعرف أصواتهم",
+              "arabic_base_no_tashkeel": "لأن روح الرب ملأ المسكونة وبقية الكل وهو يعرف أصواتهم"
+            },
+            {
+              "row_index": 8,
+              "english": "Therefore no one who speaks unrighteous things will escape notice. Nor will justice, when it cross-examines, pass him by. For there shall be a close examination into the deliberations of an ungodly man,",
+              "arabic": "فلذلك لا يستطيع أحد يخفى كلامه بالظلم ولا ينجو من الدينونة الآتية. لأنه يفحص مشورة المنافق.",
+              "arabic_base_no_tashkeel": "فلذلك لا يستطيع أحد يخفى كلامه بالظلم ولا ينجو من الدينونة الآتية. لأنه يفحص مشورة المنافق."
+            },
+            {
+              "row_index": 9,
+              "english": "And a report of his words will come to the Lord as proof of his lawlessness.",
+              "arabic": "والرب لا يسمع لكلامه حتى يظهر آثامه.",
+              "arabic_base_no_tashkeel": "والرب لا يسمع لكلامه حتى يظهر آثامه."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (122: 4)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "There the tribes went up, the tribes of the Lord, a testimony to Israel, To give thanks to the name of the Lord.",
+              "arabic": "لأنه هناك صعدت القبائل قبائل الرب شهادة لاسرائيل, يعترفون لأسم الرب.",
+              "arabic_base_no_tashkeel": "لأنه هناك صعدت القبائل قبائل الرب شهادة لاسرائيل, يعترفون لأسم الرب."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (John 2: 13 - 17)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "And Jesus went up to Jerusalem. And He found in the temple those who sold oxen and sheep and doves, and the money changers doing business.",
+              "arabic": "وصعد يسوع إلى أورشليم فوجد فى الهيكل باعة البقر والغنم والحمام والصيارفة جلوساً",
+              "arabic_base_no_tashkeel": "وصعد يسوع إلى أورشليم فوجد فى الهيكل باعة البقر والغنم والحمام والصيارفة جلوسا"
+            },
+            {
+              "row_index": 2,
+              "english": "When He had made a whip of cords, He drove them all out of the temple,",
+              "arabic": "فصنع مخصرة (سوطاً) من حبال وطرد الجميع من الهيكل",
+              "arabic_base_no_tashkeel": "فصنع مخصرة (سوطا) من حبال وطرد الجميع من الهيكل"
+            },
+            {
+              "row_index": 3,
+              "english": "with the sheep and the oxen, and poured out the changers’ money and overturned the tables.",
+              "arabic": "الغنم والبقر ونثر دراهم الصيارف وقلب موائدهم.",
+              "arabic_base_no_tashkeel": "الغنم والبقر ونثر دراهم الصيارف وقلب موائدهم."
+            },
+            {
+              "row_index": 4,
+              "english": "And He said to those who sold doves, “Take these things away! Do not make My Father’s house a house of merchandise!”",
+              "arabic": "وقال لباعة الحمام ارفعوا هذه من هنا ولا تصيروا بيت أبى بيت تجارة.",
+              "arabic_base_no_tashkeel": "وقال لباعة الحمام ارفعوا هذه من هنا ولا تصيروا بيت أبى بيت تجارة."
+            },
+            {
+              "row_index": 5,
+              "english": "Then His disciples remembered that it was written, “Zeal for Your house has eaten Me up.”",
+              "arabic": "فتذكر تلاميذه أنه مكتوب غيرة بيتك أكلتنى.",
+              "arabic_base_no_tashkeel": "فتذكر تلاميذه أنه مكتوب غيرة بيتك أكلتنى."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

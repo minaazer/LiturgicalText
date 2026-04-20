@@ -1,0 +1,567 @@
+{
+  "document_count": 63,
+  "documents_with_readings": 61,
+  "documents_without_readings": [
+    "Daytime Litanies.xml",
+    "Evening Litanies.xml"
+  ],
+  "reading_counts_by_category": {
+    "prophecy": 103,
+    "homily": 11,
+    "psalm": 59,
+    "gospel": 101,
+    "exposition": 54,
+    "pauline": 7,
+    "scripture": 17,
+    "revelation": 21
+  },
+  "resolved_from_local_bible_count": 37,
+  "resolved_from_local_bible_sections": [
+    {
+      "service": "resurrection/Prophecies.xml",
+      "title": "Deuteronomy 32:39-43",
+      "reference": "Deuteronomy 32:39-43",
+      "category": "scripture",
+      "verse_count": 5,
+      "missing_languages": []
+    },
+    {
+      "service": "resurrection/Prophecies.xml",
+      "title": "Isaiah 60:1-8",
+      "reference": "Isaiah 60:1-8",
+      "category": "scripture",
+      "verse_count": 8,
+      "missing_languages": [
+        "coptic"
+      ]
+    },
+    {
+      "service": "resurrection/Prophecies.xml",
+      "title": "Isaiah 42:5-17",
+      "reference": "Isaiah 42:5-17",
+      "category": "scripture",
+      "verse_count": 13,
+      "missing_languages": [
+        "coptic"
+      ]
+    },
+    {
+      "service": "resurrection/Prophecies.xml",
+      "title": "Isaiah 49:13-23",
+      "reference": "Isaiah 49:13-23",
+      "category": "scripture",
+      "verse_count": 11,
+      "missing_languages": [
+        "coptic"
+      ]
+    },
+    {
+      "service": "resurrection/Prophecies.xml",
+      "title": "Jeremiah 31:23-28",
+      "reference": "Jeremiah 31:23-28",
+      "category": "scripture",
+      "verse_count": 6,
+      "missing_languages": [
+        "coptic"
+      ]
+    },
+    {
+      "service": "resurrection/Prophecies.xml",
+      "title": "Habakkuk 3:2-19",
+      "reference": "Habakkuk 3:2-19",
+      "category": "scripture",
+      "verse_count": 18,
+      "missing_languages": [
+        "coptic"
+      ]
+    },
+    {
+      "service": "resurrection/Prophecies.xml",
+      "title": "Zechariah 2:10-13",
+      "reference": "Zechariah 2:10-13",
+      "category": "scripture",
+      "verse_count": 4,
+      "missing_languages": [
+        "coptic"
+      ]
+    },
+    {
+      "service": "resurrection/Prophecies.xml",
+      "title": "Isaiah 49:6-11",
+      "reference": "Isaiah 49:6-11",
+      "category": "scripture",
+      "verse_count": 6,
+      "missing_languages": [
+        "coptic"
+      ]
+    },
+    {
+      "service": "resurrection/Prophecies.xml",
+      "title": "Wisdom 5:1-7",
+      "reference": "Wisdom 5:1-7",
+      "category": "scripture",
+      "verse_count": 6,
+      "missing_languages": [
+        "coptic"
+      ]
+    },
+    {
+      "service": "saturday/Vigil of the Apocalypse - Matins.xml",
+      "title": "Isaiah 55:2-13",
+      "reference": "Isaiah 55:2-13",
+      "category": "scripture",
+      "verse_count": 12,
+      "missing_languages": [
+        "coptic"
+      ]
+    },
+    {
+      "service": "saturday/Vigil of the Apocalypse - Matins.xml",
+      "title": "Matthew 27:62-66",
+      "reference": "Matthew 27:62-66",
+      "category": "gospel",
+      "verse_count": 5,
+      "missing_languages": []
+    },
+    {
+      "service": "saturday/Vigil of the Apocalypse - Ninth Hour.xml",
+      "title": "Isaiah 45:15-20",
+      "reference": "Isaiah 45:15-20",
+      "category": "scripture",
+      "verse_count": 6,
+      "missing_languages": [
+        "coptic"
+      ]
+    },
+    {
+      "service": "saturday/Vigil of the Apocalypse - Ninth Hour.xml",
+      "title": "Jeremiah 31:31-34",
+      "reference": "Jeremiah 31:31-34",
+      "category": "scripture",
+      "verse_count": 4,
+      "missing_languages": [
+        "coptic"
+      ]
+    },
+    {
+      "service": "saturday/Vigil of the Apocalypse - Ninth Hour.xml",
+      "title": "John 5:21-30",
+      "reference": "John 5:21-30",
+      "category": "gospel",
+      "verse_count": 10,
+      "missing_languages": []
+    },
+    {
+      "service": "saturday/Vigil of the Apocalypse - Revelation.xml",
+      "title": "Revelation 1",
+      "reference": "Revelation 1",
+      "category": "revelation",
+      "verse_count": 20,
+      "missing_languages": []
+    },
+    {
+      "service": "saturday/Vigil of the Apocalypse - Revelation.xml",
+      "title": "Revelation 4",
+      "reference": "Revelation 4",
+      "category": "revelation",
+      "verse_count": 11,
+      "missing_languages": []
+    },
+    {
+      "service": "saturday/Vigil of the Apocalypse - Revelation.xml",
+      "title": "Revelation 5",
+      "reference": "Revelation 5",
+      "category": "revelation",
+      "verse_count": 14,
+      "missing_languages": []
+    },
+    {
+      "service": "saturday/Vigil of the Apocalypse - Revelation.xml",
+      "title": "Revelation 6",
+      "reference": "Revelation 6",
+      "category": "revelation",
+      "verse_count": 17,
+      "missing_languages": []
+    },
+    {
+      "service": "saturday/Vigil of the Apocalypse - Revelation.xml",
+      "title": "Revelation 8",
+      "reference": "Revelation 8",
+      "category": "revelation",
+      "verse_count": 13,
+      "missing_languages": []
+    },
+    {
+      "service": "saturday/Vigil of the Apocalypse - Revelation.xml",
+      "title": "Revelation 9",
+      "reference": "Revelation 9",
+      "category": "revelation",
+      "verse_count": 21,
+      "missing_languages": []
+    },
+    {
+      "service": "saturday/Vigil of the Apocalypse - Revelation.xml",
+      "title": "Revelation 10",
+      "reference": "Revelation 10",
+      "category": "revelation",
+      "verse_count": 11,
+      "missing_languages": []
+    },
+    {
+      "service": "saturday/Vigil of the Apocalypse - Revelation.xml",
+      "title": "Revelation 11",
+      "reference": "Revelation 11",
+      "category": "revelation",
+      "verse_count": 19,
+      "missing_languages": []
+    },
+    {
+      "service": "saturday/Vigil of the Apocalypse - Revelation.xml",
+      "title": "Revelation 12",
+      "reference": "Revelation 12",
+      "category": "revelation",
+      "verse_count": 17,
+      "missing_languages": []
+    },
+    {
+      "service": "saturday/Vigil of the Apocalypse - Revelation.xml",
+      "title": "Revelation 13",
+      "reference": "Revelation 13",
+      "category": "revelation",
+      "verse_count": 18,
+      "missing_languages": []
+    },
+    {
+      "service": "saturday/Vigil of the Apocalypse - Revelation.xml",
+      "title": "Revelation 14",
+      "reference": "Revelation 14",
+      "category": "revelation",
+      "verse_count": 20,
+      "missing_languages": []
+    },
+    {
+      "service": "saturday/Vigil of the Apocalypse - Revelation.xml",
+      "title": "Revelation 15",
+      "reference": "Revelation 15",
+      "category": "revelation",
+      "verse_count": 8,
+      "missing_languages": []
+    },
+    {
+      "service": "saturday/Vigil of the Apocalypse - Revelation.xml",
+      "title": "Revelation 16",
+      "reference": "Revelation 16",
+      "category": "revelation",
+      "verse_count": 21,
+      "missing_languages": []
+    },
+    {
+      "service": "saturday/Vigil of the Apocalypse - Revelation.xml",
+      "title": "Revelation 17",
+      "reference": "Revelation 17",
+      "category": "revelation",
+      "verse_count": 18,
+      "missing_languages": []
+    },
+    {
+      "service": "saturday/Vigil of the Apocalypse - Revelation.xml",
+      "title": "Revelation 18",
+      "reference": "Revelation 18",
+      "category": "revelation",
+      "verse_count": 24,
+      "missing_languages": []
+    },
+    {
+      "service": "saturday/Vigil of the Apocalypse - Revelation.xml",
+      "title": "Revelation 20",
+      "reference": "Revelation 20",
+      "category": "revelation",
+      "verse_count": 15,
+      "missing_languages": []
+    },
+    {
+      "service": "saturday/Vigil of the Apocalypse - Revelation.xml",
+      "title": "Revelation 22",
+      "reference": "Revelation 22",
+      "category": "revelation",
+      "verse_count": 21,
+      "missing_languages": []
+    },
+    {
+      "service": "saturday/Vigil of the Apocalypse - Third and Sixth Hours.xml",
+      "title": "Jeremiah 13:15-22",
+      "reference": "Jeremiah 13:15-22",
+      "category": "scripture",
+      "verse_count": 8,
+      "missing_languages": [
+        "coptic"
+      ]
+    },
+    {
+      "service": "saturday/Vigil of the Apocalypse - Third and Sixth Hours.xml",
+      "title": "Matthew 16:24-28",
+      "reference": "Matthew 16:24-28",
+      "category": "gospel",
+      "verse_count": 5,
+      "missing_languages": []
+    },
+    {
+      "service": "saturday/Vigil of the Apocalypse - Third and Sixth Hours.xml",
+      "title": "Isaiah 50:10-51:8",
+      "reference": "Isaiah 50:10-51:8",
+      "category": "scripture",
+      "verse_count": 10,
+      "missing_languages": [
+        "coptic"
+      ]
+    },
+    {
+      "service": "saturday/Vigil of the Apocalypse - Third and Sixth Hours.xml",
+      "title": "Matthew 5:3-12",
+      "reference": "Matthew 5:3-12",
+      "category": "gospel",
+      "verse_count": 10,
+      "missing_languages": []
+    },
+    {
+      "service": "sunday/General Funeral Prayer.xml",
+      "title": "1 Corinthians 15:1-23",
+      "reference": "1 Corinthians 15:1-23",
+      "category": "pauline",
+      "verse_count": 23,
+      "missing_languages": []
+    },
+    {
+      "service": "thursday/Liturgy of the Waters.xml",
+      "title": "1 Timothy 4:9-5:10",
+      "reference": "1 Timothy 4:9-5:10",
+      "category": "pauline",
+      "verse_count": 18,
+      "missing_languages": []
+    }
+  ],
+  "partially_resolved_sections": [
+    {
+      "service": "resurrection/Prophecies.xml",
+      "title": "Isaiah 60:1-8",
+      "reference": "Isaiah 60:1-8",
+      "category": "scripture",
+      "verse_count": 8,
+      "missing_languages": [
+        "coptic"
+      ]
+    },
+    {
+      "service": "resurrection/Prophecies.xml",
+      "title": "Isaiah 42:5-17",
+      "reference": "Isaiah 42:5-17",
+      "category": "scripture",
+      "verse_count": 13,
+      "missing_languages": [
+        "coptic"
+      ]
+    },
+    {
+      "service": "resurrection/Prophecies.xml",
+      "title": "Isaiah 49:13-23",
+      "reference": "Isaiah 49:13-23",
+      "category": "scripture",
+      "verse_count": 11,
+      "missing_languages": [
+        "coptic"
+      ]
+    },
+    {
+      "service": "resurrection/Prophecies.xml",
+      "title": "Jeremiah 31:23-28",
+      "reference": "Jeremiah 31:23-28",
+      "category": "scripture",
+      "verse_count": 6,
+      "missing_languages": [
+        "coptic"
+      ]
+    },
+    {
+      "service": "resurrection/Prophecies.xml",
+      "title": "Habakkuk 3:2-19",
+      "reference": "Habakkuk 3:2-19",
+      "category": "scripture",
+      "verse_count": 18,
+      "missing_languages": [
+        "coptic"
+      ]
+    },
+    {
+      "service": "resurrection/Prophecies.xml",
+      "title": "Zechariah 2:10-13",
+      "reference": "Zechariah 2:10-13",
+      "category": "scripture",
+      "verse_count": 4,
+      "missing_languages": [
+        "coptic"
+      ]
+    },
+    {
+      "service": "resurrection/Prophecies.xml",
+      "title": "Isaiah 49:6-11",
+      "reference": "Isaiah 49:6-11",
+      "category": "scripture",
+      "verse_count": 6,
+      "missing_languages": [
+        "coptic"
+      ]
+    },
+    {
+      "service": "resurrection/Prophecies.xml",
+      "title": "Wisdom 5:1-7",
+      "reference": "Wisdom 5:1-7",
+      "category": "scripture",
+      "verse_count": 6,
+      "missing_languages": [
+        "coptic"
+      ]
+    },
+    {
+      "service": "saturday/Vigil of the Apocalypse - Matins.xml",
+      "title": "Isaiah 55:2-13",
+      "reference": "Isaiah 55:2-13",
+      "category": "scripture",
+      "verse_count": 12,
+      "missing_languages": [
+        "coptic"
+      ]
+    },
+    {
+      "service": "saturday/Vigil of the Apocalypse - Ninth Hour.xml",
+      "title": "Isaiah 45:15-20",
+      "reference": "Isaiah 45:15-20",
+      "category": "scripture",
+      "verse_count": 6,
+      "missing_languages": [
+        "coptic"
+      ]
+    },
+    {
+      "service": "saturday/Vigil of the Apocalypse - Ninth Hour.xml",
+      "title": "Jeremiah 31:31-34",
+      "reference": "Jeremiah 31:31-34",
+      "category": "scripture",
+      "verse_count": 4,
+      "missing_languages": [
+        "coptic"
+      ]
+    },
+    {
+      "service": "saturday/Vigil of the Apocalypse - Third and Sixth Hours.xml",
+      "title": "Jeremiah 13:15-22",
+      "reference": "Jeremiah 13:15-22",
+      "category": "scripture",
+      "verse_count": 8,
+      "missing_languages": [
+        "coptic"
+      ]
+    },
+    {
+      "service": "saturday/Vigil of the Apocalypse - Third and Sixth Hours.xml",
+      "title": "Isaiah 50:10-51:8",
+      "reference": "Isaiah 50:10-51:8",
+      "category": "scripture",
+      "verse_count": 10,
+      "missing_languages": [
+        "coptic"
+      ]
+    }
+  ],
+  "reference_only_sections": [],
+  "reference_only_count": 0,
+  "reference_backed_sections": [
+    {
+      "service": "saturday/Vigil of the Apocalypse - Midnight Praises.xml",
+      "title": "Prayer of King Manasseh",
+      "reference": "Prayer of King Manasseh",
+      "category": "scripture",
+      "content_item_count": 1,
+      "reference_metadata": [
+        {
+          "reference": "Prayer of Manasseh 1:1-15",
+          "type": null,
+          "hide_intro_conclusion": true,
+          "node": "BibleReference"
+        }
+      ]
+    },
+    {
+      "service": "saturday/Vigil of the Apocalypse - Midnight Praises.xml",
+      "title": "Prayer of Azariah",
+      "reference": "Prayer of Azariah",
+      "category": "scripture",
+      "content_item_count": 1,
+      "reference_metadata": [
+        {
+          "reference": "Daniel 3:91-97",
+          "type": null,
+          "hide_intro_conclusion": true,
+          "node": "BibleReference"
+        }
+      ]
+    },
+    {
+      "service": "saturday/Vigil of the Apocalypse - Midnight Praises.xml",
+      "title": "Susanna and Daniel the Prophet",
+      "reference": "Susanna and Daniel the Prophet",
+      "category": "scripture",
+      "content_item_count": 1,
+      "reference_metadata": [
+        {
+          "reference": "Daniel 13:1-64",
+          "type": null,
+          "hide_intro_conclusion": true,
+          "node": "BibleReference"
+        }
+      ]
+    },
+    {
+      "service": "saturday/Vigil of the Apocalypse - Revelation.xml",
+      "title": "Revelation 3",
+      "reference": "Revelation 3",
+      "category": "revelation",
+      "content_item_count": 1,
+      "reference_metadata": [
+        {
+          "reference": "Revelation 3:1-6",
+          "type": null,
+          "hide_intro_conclusion": false,
+          "node": "BibleReference"
+        },
+        {
+          "reference": "Revelation 3:7-13",
+          "type": null,
+          "hide_intro_conclusion": false,
+          "node": "BibleReference"
+        },
+        {
+          "reference": "Revelation 3:14-22",
+          "type": null,
+          "hide_intro_conclusion": false,
+          "node": "BibleReference"
+        }
+      ]
+    },
+    {
+      "service": "sunday/General Funeral Prayer.xml",
+      "title": "John 5:19-29",
+      "reference": "John 5:19-29",
+      "category": "gospel",
+      "content_item_count": 6,
+      "reference_metadata": [
+        {
+          "reference": "John 5:19-29",
+          "type": null,
+          "hide_intro_conclusion": true,
+          "node": "BibleReference"
+        }
+      ]
+    }
+  ],
+  "reference_backed_count": 5
+}

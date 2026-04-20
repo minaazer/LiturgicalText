@@ -1,0 +1,208 @@
+{
+  "service": "EVE of Wednesday",
+  "hour": "THIRD Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Amos 5: 18 - 27)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Woe to you who desire the day of the Lord! What is the day of the Lord to you? It will be darkness and not light. It will be as though a man fled from a lion, and a bear met him!",
+              "arabic": "ويل للذين يشتهون يوم الرب ما بغيتكم في يوم الرب، فإن هذا اليوم ظلام لا نور, كما إذا هرب إنسان من وجه أسد فصادفته لبوة",
+              "arabic_base_no_tashkeel": "ويل للذين يشتهون يوم الرب ما بغيتكم في يوم الرب، فإن هذا اليوم ظلام لا نور, كما إذا هرب إنسان من وجه أسد فصادفته لبوة"
+            },
+            {
+              "row_index": 2,
+              "english": "As though he rushed into the house, leaned his hand on the wall, and a serpent bit him! Is not the day of the Lord darkness and not light? Is it not a deep darkness, with no brightness in it?",
+              "arabic": "فيجيئ إلي بيته ويرفع يده علي الحائط فتلدغه حية، أليس يوم ظلام لا نور وضباب لا ضياء له؟",
+              "arabic_base_no_tashkeel": "فيجيئ إلي بيته ويرفع يده علي الحائط فتلدغه حية، أليس يوم ظلام لا نور وضباب لا ضياء له؟"
+            },
+            {
+              "row_index": 3,
+              "english": "\"I hate, I reject your feast days. I do not savor your sacred assemblies.",
+              "arabic": "لقد أبغضت أعيادكم ورذلتها ولست أشم رائحة في أيام أعيادكم العظيمة،",
+              "arabic_base_no_tashkeel": "لقد أبغضت أعيادكم ورذلتها ولست أشم رائحة في أيام أعيادكم العظيمة،"
+            },
+            {
+              "row_index": 4,
+              "english": "Though you offer Me burnt offerings and meat offerings, I will not accept them. I will not regard your fattened peace offerings.",
+              "arabic": "إني إذا قربتم لي محرقاتكم وتقدماتكم لا أقبلها، ولست أنظر إلي فدية شكركم.",
+              "arabic_base_no_tashkeel": "إني إذا قربتم لي محرقاتكم وتقدماتكم لا أقبلها، ولست أنظر إلي فدية شكركم."
+            },
+            {
+              "row_index": 5,
+              "english": "Take away from Me the sound of your songs, for I will not hear your musical instruments.",
+              "arabic": "أبعد عني صوت تسابيحك، ومزمار أرغنك لست أسمعه،",
+              "arabic_base_no_tashkeel": "أبعد عني صوت تسابيحك، ومزمار أرغنك لست أسمعه،"
+            },
+            {
+              "row_index": 6,
+              "english": "Instead, let justice run swiftly as does water from the mountain, and let righteousness be as a stream that cannot be crossed. \"O house of Israel, did you offer Me sacrifices and offerings those forty years in the wilderness? [Says the Lord.]",
+              "arabic": "وليجر القضاء كالماء والعدل كالوادي الذي لايعبر. هل قربتم لي ذبائح وتقدمات في البرية أربعين سنة يا بيت اسرائيل يقول الرب؟",
+              "arabic_base_no_tashkeel": "وليجر القضاء كالماء والعدل كالوادي الذي لايعبر. هل قربتم لي ذبائح وتقدمات في البرية أربعين سنة يا بيت اسرائيل يقول الرب؟"
+            },
+            {
+              "row_index": 7,
+              "english": "You have carried the tabernacle of Moloch and the star of your god Raiphan, which you made for yourselves.",
+              "arabic": "بل حملتم خيمة ملوخ وكوكب إلهكم رافان التماثيل التي صنعتموها لكم,",
+              "arabic_base_no_tashkeel": "بل حملتم خيمة ملوخ وكوكب إلهكم رافان التماثيل التي صنعتموها لكم,"
+            },
+            {
+              "row_index": 8,
+              "english": "Therefore I shall exile you beyond Damascus,\" says the Lord—the Almighty God is His name.",
+              "arabic": "فأسبيكم إلي ماوراء دمشق. قال الرب الإله الضابط الكل هو إسمه.",
+              "arabic_base_no_tashkeel": "فأسبيكم إلي ماوراء دمشق. قال الرب الإله الضابط الكل هو إسمه."
+            },
+            {
+              "row_index": 9,
+              "english": "You also carried Sikkuth your idols, The star of your gods, Which you made for yourselves.",
+              "arabic": "بَلْ حَمَلْتُمْ خَيْمَةَ مَلْكُومِكُمْ وَتِمْثَالَ أَصْنَامِكُمْ نَجْمَ إِلَهِكُمُ الَّذِي صَنَعْتُمْ لِنُفُوسِكُمْ.",
+              "arabic_base_no_tashkeel": "بل حملتم خيمة ملكومكم وتمثال أصنامكم نجم إلهكم الذي صنعتم لنفوسكم."
+            },
+            {
+              "row_index": 10,
+              "english": "Therefore I will send you into captivity beyond Damascus,\" Says the Lord, whose name is the God of hosts.",
+              "arabic": "فَأَسْبِيكُمْ إِلَى مَا وَرَاءَ دِمَشْقَ قَالَ الرَّبُّ إِلَهُ الْجُنُودِ اسْمُهُ».",
+              "arabic_base_no_tashkeel": "فأسبيكم إلى ما وراء دمشق قال الرب إله الجنود اسمه»."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (65: 4,5)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Blessed is he whom You choose and help; he shall dwell in Your courts. Holy is Your temple, wondrous in righteousness.",
+              "arabic": "طوبى لمن أخترته وقبلته ليسكن في ديارك إلي الأبد, قدوس هو هيكلك وعجيب بالبر.",
+              "arabic_base_no_tashkeel": "طوبى لمن أخترته وقبلته ليسكن في ديارك إلي الأبد, قدوس هو هيكلك وعجيب بالبر."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (Matthew 24: 36 - 51)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "“But of that day and hour no one knows, not even the angels of heaven, but My Father only.",
+              "arabic": "وأما ذلك اليوم وتلك الساعة، فلا يعلمهما أحد ولا ملائكة السموات، إلا الآب وحده.",
+              "arabic_base_no_tashkeel": "وأما ذلك اليوم وتلك الساعة، فلا يعلمهما أحد ولا ملائكة السموات، إلا الآب وحده."
+            },
+            {
+              "row_index": 2,
+              "english": "But as the days of Noah were, so also will the coming of the Son of Man be.",
+              "arabic": "وكما كان في أيام نوح، كذلك يكون في ظهور إبن الإنسان،",
+              "arabic_base_no_tashkeel": "وكما كان في أيام نوح، كذلك يكون في ظهور إبن الإنسان،"
+            },
+            {
+              "row_index": 3,
+              "english": "For as in the days before the flood, they were eating and drinking, marrying and giving in marriage, until the day that Noah entered the ark, and did not know until the flood came and took them all away, so also will the coming of the Son of Man be.",
+              "arabic": "لأنه كما كانوا قبل أيام الطوفان يأكلون ويشربون ويتزوجون ويزوجون إلي اليوم الذي دخل فيه نوح إلي الفلك، ولم يعلموا حتي جاء الطوفان وغرق الجميع، كذلك يكون أيضاً مجيء إبن الإنسان.",
+              "arabic_base_no_tashkeel": "لأنه كما كانوا قبل أيام الطوفان يأكلون ويشربون ويتزوجون ويزوجون إلي اليوم الذي دخل فيه نوح إلي الفلك، ولم يعلموا حتي جاء الطوفان وغرق الجميع، كذلك يكون أيضا مجيء إبن الإنسان."
+            },
+            {
+              "row_index": 4,
+              "english": "Then two men will be in the field: one will be taken and the other left.",
+              "arabic": "حينئذٍ يكون إثنان في الحقل ويؤخذ الواحد ويترك الآخر",
+              "arabic_base_no_tashkeel": "حينئذ يكون إثنان في الحقل ويؤخذ الواحد ويترك الآخر"
+            },
+            {
+              "row_index": 5,
+              "english": "Two women will be grinding at the mill: one will be taken and the other left.",
+              "arabic": "وإثنتان تطحنان علي رحي، فتؤخذ الواحدة وتترك الأخرى.",
+              "arabic_base_no_tashkeel": "وإثنتان تطحنان علي رحي، فتؤخذ الواحدة وتترك الأخرى."
+            },
+            {
+              "row_index": 6,
+              "english": "Watch therefore, for you do not know what hour your Lord is coming.",
+              "arabic": "إسهروا إذا لأنكم لا تعلمون في أية ساعة يأتي ربكم.",
+              "arabic_base_no_tashkeel": "إسهروا إذا لأنكم لا تعلمون في أية ساعة يأتي ربكم."
+            },
+            {
+              "row_index": 7,
+              "english": "But know this, that if the master of the house had known what hour the thief would come, he would have watched and not allowed his house to be broken into.",
+              "arabic": "وإعلموا هذا، أنه لو علم رب البيت في أية ساعة يأتى السارق لسهر ولم يدع بيته ينقب،",
+              "arabic_base_no_tashkeel": "وإعلموا هذا، أنه لو علم رب البيت في أية ساعة يأتى السارق لسهر ولم يدع بيته ينقب،"
+            },
+            {
+              "row_index": 8,
+              "english": "Therefore you also be ready, for the Son of Man is coming at an hour you do not expect.",
+              "arabic": "فلذلك كونوا انتم أيضاً مستعدين لأن إبن الإنسان يأتي في ساعة لا تعرفونها.",
+              "arabic_base_no_tashkeel": "فلذلك كونوا انتم أيضا مستعدين لأن إبن الإنسان يأتي في ساعة لا تعرفونها."
+            },
+            {
+              "row_index": 9,
+              "english": "“Who then is a faithful and wise servant, whom his master made ruler over his household, to give them food in due season?",
+              "arabic": "فمن تري هو العبد الأمين الحكيم الذي يقيمه سيده علي عبيده ليعطيهم طعامهم في حينه؟",
+              "arabic_base_no_tashkeel": "فمن تري هو العبد الأمين الحكيم الذي يقيمه سيده علي عبيده ليعطيهم طعامهم في حينه؟"
+            },
+            {
+              "row_index": 10,
+              "english": "Blessed is that servant whom his master, when he comes, will find so doing. Assuredly, I say to you that he will make him ruler over all his goods.",
+              "arabic": "طوبى لذلك العبد الذي إذا جاء سيده فيجده يفعل هكذا. الحق أقول لكم, إنه يقيمه علي جميع ماله.",
+              "arabic_base_no_tashkeel": "طوبى لذلك العبد الذي إذا جاء سيده فيجده يفعل هكذا. الحق أقول لكم, إنه يقيمه علي جميع ماله."
+            },
+            {
+              "row_index": 11,
+              "english": "But if that evil servant says in his heart, ‘My master is delaying his coming,’",
+              "arabic": "ولكن إن قال ذلك العبد الشرير في قلبه,",
+              "arabic_base_no_tashkeel": "ولكن إن قال ذلك العبد الشرير في قلبه,"
+            },
+            {
+              "row_index": 12,
+              "english": "And begins to beat his fellow servants, and to eat and drink with the drunkards,",
+              "arabic": "إن سيدي يبطئ قدومه فيبتدئ يضرب العبيد رفقاءه ويأكل ويشرب مع السكيرين،",
+              "arabic_base_no_tashkeel": "إن سيدي يبطئ قدومه فيبتدئ يضرب العبيد رفقاءه ويأكل ويشرب مع السكيرين،"
+            },
+            {
+              "row_index": 13,
+              "english": "The master of that servant will come on a day when he is not looking for him and at an hour that he is not aware of,",
+              "arabic": "فيأتي سيد ذلك العبد في يوم لا ينتظره، وساعة لا يعرفها",
+              "arabic_base_no_tashkeel": "فيأتي سيد ذلك العبد في يوم لا ينتظره، وساعة لا يعرفها"
+            },
+            {
+              "row_index": 14,
+              "english": "And will cut him in two and appoint him his portion with the hypocrites. There shall be weeping and gnashing of teeth.",
+              "arabic": "فيشقه من وسطه ويجعل نصيبه مع المرائين هناك يكون البكاء وصرير الاسنان.",
+              "arabic_base_no_tashkeel": "فيشقه من وسطه ويجعل نصيبه مع المرائين هناك يكون البكاء وصرير الاسنان."
+            },
+            {
+              "row_index": 15,
+              "english": "the master of that servant will come on a day when he is not looking for him and at an hour that he is not aware of,",
+              "arabic": "يَأْتِي سَيِّدُ ذَلِكَ الْعَبْدِ فِي يَوْمٍ لاَ يَنْتَظِرُهُ وَفِي سَاعَةٍ لاَ يَعْرِفُهَا",
+              "arabic_base_no_tashkeel": "يأتي سيد ذلك العبد في يوم لا ينتظره وفي ساعة لا يعرفها"
+            },
+            {
+              "row_index": 16,
+              "english": "and will cut him in two and appoint him his portion with the hypocrites. There shall be weeping and gnashing of teeth.<Br><i>Bow down before the Holy Gospel.</i>",
+              "arabic": "فَيُقَطِّعُهُ وَيَجْعَلُ نَصِيبَهُ مَعَ الْمُرَائِينَ. هُنَاكَ يَكُونُ الْبُكَاءُ وَصَرِيرُ الأَسْنَانِ».<br><i>أسجدوا للإنجيل المقدس.</i>",
+              "arabic_base_no_tashkeel": "فيقطعه ويجعل نصيبه مع المرائين. هناك يكون البكاء وصرير الأسنان».<br><i>أسجدوا للإنجيل المقدس.</i>"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "service": "DAY of Wednesday",
+  "hour": "ELEVENTH Hour",
+  "instructions": {
+    "task": "Add Arabic tashkeel only.",
+    "rules": [
+      "Do not change a single Arabic letter.",
+      "Do not rewrite, paraphrase, normalize, or translate.",
+      "Do not insert or remove words, letters, punctuation, or brackets.",
+      "Preserve punctuation and row order exactly.",
+      "Use the English only to disambiguate meaning.",
+      "Keep the same structure and same number of rows.",
+      "Only modify the arabic value by adding or correcting tashkeel.",
+      "The value in arabic_base_no_tashkeel is the exact Arabic base text with tashkeel stripped; your returned arabic must match it exactly after tashkeel is stripped.",
+      "Before returning, verify that stripping tashkeel from every returned arabic value produces exactly the corresponding arabic_base_no_tashkeel value.",
+      "Return valid JSON only."
+    ]
+  },
+  "sections": [
+    {
+      "section": "Prophecies",
+      "readings": [
+        {
+          "title": "1st Prophecy (Isaiah 28: 16 - 29)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Therefore, thus says the Lord: \"Behold, lay for the foundations of Zion a costly stone, a chosen and precious cornerstone for its foundations, and whoever believes in Him will not be put to shame. I will also cause judgment to be for hope, and My mercy to be for a standard.",
+              "arabic": "لأجل هذا هكذا ما يقوله السيد الرب: هأنذا أطرح حجراً فى أساسياتٍ صهيون، حجر زاوية ثميناً مختاراً كريماً فى أساساتها، فمن آمن فلن يخزى. وأجعل الدينونة رجاء وبرحمتى يكون الخلاص على مواضع السكن،",
+              "arabic_base_no_tashkeel": "لأجل هذا هكذا ما يقوله السيد الرب: هأنذا أطرح حجرا فى أساسيات صهيون، حجر زاوية ثمينا مختارا كريما فى أساساتها، فمن آمن فلن يخزى. وأجعل الدينونة رجاء وبرحمتى يكون الخلاص على مواضع السكن،"
+            },
+            {
+              "row_index": 2,
+              "english": "The sudden blast of wind will not pass by you who trust vainly in falsehood, except it also take away your covenant of death. Your hope in Hades will also not stand when the rushing storm passes through, for you will be beaten down by it.",
+              "arabic": "والمتوكلون على الكذب يرجون الباطل لأنه لا يجتازكم العاصف، لئلا ينزع عهدكم مع الموت ورجائكم مع الجحيم لا ينتهى، إذا أتى عليكم العاصف، الجارف تكونون له موطئاً،",
+              "arabic_base_no_tashkeel": "والمتوكلون على الكذب يرجون الباطل لأنه لا يجتازكم العاصف، لئلا ينزع عهدكم مع الموت ورجائكم مع الجحيم لا ينتهى، إذا أتى عليكم العاصف، الجارف تكونون له موطئا،"
+            },
+            {
+              "row_index": 3,
+              "english": "When it passes through, it will take you; for morning by morning it will pass through by day, and by night there will be an evil hope.\"",
+              "arabic": "إذا جاء من جهتكم يأخذكم، وسوف يعبر النهار مبكراً ويرتجى السوء ليلاً.",
+              "arabic_base_no_tashkeel": "إذا جاء من جهتكم يأخذكم، وسوف يعبر النهار مبكرا ويرتجى السوء ليلا."
+            },
+            {
+              "row_index": 4,
+              "english": "Learn to listen, you in difficult straits. We cannot fight, and we ourselves are too weak to gather ourselves together.",
+              "arabic": "تعلموا أن تسمعوا أيها المتضايقين أننا لا نستطيع أن نحارب، ونحن ضعفاء عن أن نجتمع،",
+              "arabic_base_no_tashkeel": "تعلموا أن تسمعوا أيها المتضايقين أننا لا نستطيع أن نحارب، ونحن ضعفاء عن أن نجتمع،"
+            },
+            {
+              "row_index": 5,
+              "english": "As the mountain of the ungodly will rise up and be in the valley of Gibeon, He will do His deeds in anger, a work of bitterness.",
+              "arabic": "وسيقوم كالجبل للمنافقين، ويحل فى وادى جبعون، يغضب فيعمل أعماله عملاً مريراً,",
+              "arabic_base_no_tashkeel": "وسيقوم كالجبل للمنافقين، ويحل فى وادى جبعون، يغضب فيعمل أعماله عملا مريرا,"
+            },
+            {
+              "row_index": 6,
+              "english": "His anger will behave strangely, and His bitterness will be strange.",
+              "arabic": "ويصنع فى غضبه فى الغربة، وغريب هو حنقه.",
+              "arabic_base_no_tashkeel": "ويصنع فى غضبه فى الغربة، وغريب هو حنقه."
+            },
+            {
+              "row_index": 7,
+              "english": "So do not be glad, neither let your bands become strong; because I heard from the Lord of hosts the things He will perform upon all the earth.",
+              "arabic": "أما أنتم فلا تفرحوا ولا تدعوا قيودكم لا تقهر، لأننا قد سمعنا بأعمال القضاء وفناء من قبل رب الجنود، هذه التى سيصنعها على كل الأرض.",
+              "arabic_base_no_tashkeel": "أما أنتم فلا تفرحوا ولا تدعوا قيودكم لا تقهر، لأننا قد سمعنا بأعمال القضاء وفناء من قبل رب الجنود، هذه التى سيصنعها على كل الأرض."
+            },
+            {
+              "row_index": 8,
+              "english": "Give ear and hear my voice. Listen and hear my words.",
+              "arabic": "أنصتوا واسمعوا صوتى، تأملوا وأصغوا لأقوالى:",
+              "arabic_base_no_tashkeel": "أنصتوا واسمعوا صوتى، تأملوا وأصغوا لأقوالى:"
+            },
+            {
+              "row_index": 9,
+              "english": "Will the plowman plow all day? Or will he prepare the seed before he cultivates the ground?",
+              "arabic": "هل يحرث الحارث اليوم كله أم يهيئ البذار قبل أن يعمل الأرض.",
+              "arabic_base_no_tashkeel": "هل يحرث الحارث اليوم كله أم يهيئ البذار قبل أن يعمل الأرض."
+            },
+            {
+              "row_index": 10,
+              "english": "When he levels its surface, does he not then sow the small black cummin, and afterward sow the wheat, the barley, and the one-seeded wheat in your borders?",
+              "arabic": "أليس إذا مهد وجهها، حينئذ يبزر قليل من الشونيز (الحبة السوداء) والكمون ثم يزرع الحنطة والشعير (الجلبان) فى كل تخومها",
+              "arabic_base_no_tashkeel": "أليس إذا مهد وجهها، حينئذ يبزر قليل من الشونيز (الحبة السوداء) والكمون ثم يزرع الحنطة والشعير (الجلبان) فى كل تخومها"
+            },
+            {
+              "row_index": 11,
+              "english": "So you will be chastised by the judgment of your God and be gladdened by it.",
+              "arabic": "فتتعلم بحكم إلهك وتفرح؟",
+              "arabic_base_no_tashkeel": "فتتعلم بحكم إلهك وتفرح؟"
+            },
+            {
+              "row_index": 12,
+              "english": "For the black cummin is not cleansed with harshness, nor will the wheel of a wagon roll over the cummin; but the black cummin is threshed with a stick, and the cummin will be eaten with bread.",
+              "arabic": "لأنه ليس بصعوبة ينتفض الشونيز والكمون مع الخبز يؤكل،",
+              "arabic_base_no_tashkeel": "لأنه ليس بصعوبة ينتفض الشونيز والكمون مع الخبز يؤكل،"
+            },
+            {
+              "row_index": 13,
+              "english": "For I will not be angry with you forever, nor will the voice of my bitterness trample you underfoot.",
+              "arabic": "لأنى لا أغضب إلى الأبد عليكم ولايدوسكم صوت مرارتى,",
+              "arabic_base_no_tashkeel": "لأنى لا أغضب إلى الأبد عليكم ولايدوسكم صوت مرارتى,"
+            },
+            {
+              "row_index": 14,
+              "english": "These signs came forth from the Lord of hosts.",
+              "arabic": "فهذه الآيات خرجت من رب الجنود، تشاوروا وارفعوا عزاء باطلاً.",
+              "arabic_base_no_tashkeel": "فهذه الآيات خرجت من رب الجنود، تشاوروا وارفعوا عزاء باطلا."
+            }
+          ]
+        },
+        {
+          "title": "Homily(Abba Severianus)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Brethren, I remind you the admonishment concerning the sinner,",
+              "arabic": "أيها الاخوه ها أنا أذكركم الآن من أجل الصوت الذى سيكون على الخطاة.",
+              "arabic_base_no_tashkeel": "أيها الاخوه ها أنا أذكركم الآن من أجل الصوت الذى سيكون على الخطاة."
+            },
+            {
+              "row_index": 2,
+              "english": "and those who reject the law and the commandments of life.",
+              "arabic": "والذين يكفرون بالناموس ووصايا الحياه.",
+              "arabic_base_no_tashkeel": "والذين يكفرون بالناموس ووصايا الحياه."
+            },
+            {
+              "row_index": 3,
+              "english": "Because our Lord warned them saying: Stay away from me and into eternal fire. What comfort do they expect?",
+              "arabic": "لانه قال أبتعدوا عنى ياملاعين إلى النار الابدية. فأى عزاء ينتظرونه هؤلاء مرة أخرى.",
+              "arabic_base_no_tashkeel": "لانه قال أبتعدوا عنى ياملاعين إلى النار الابدية. فأى عزاء ينتظرونه هؤلاء مرة أخرى."
+            },
+            {
+              "row_index": 4,
+              "english": "There is the valley of tears; the tears that can bring no comfort.",
+              "arabic": "هنا هو وادى البكاء حيث تكون الدموع. هذه هى الدموع التى لا يكون بعدها عزاء من ذا",
+              "arabic_base_no_tashkeel": "هنا هو وادى البكاء حيث تكون الدموع. هذه هى الدموع التى لا يكون بعدها عزاء من ذا"
+            },
+            {
+              "row_index": 5,
+              "english": "Who can intercede for the sinners in that day when all the angels;",
+              "arabic": "الذى يقدر أن يطلب عن الخطاة فى ذلك اليوم لان الملائكة",
+              "arabic_base_no_tashkeel": "الذى يقدر أن يطلب عن الخطاة فى ذلك اليوم لان الملائكة"
+            },
+            {
+              "row_index": 6,
+              "english": "Cherubim, and Seraphim keep quiet and neither the righteous nor the saints can mediate for mankind?",
+              "arabic": "والشاروبيم والساروفيم تصمت وجميع الابرار والقديسين لا يستطيع أحد منهم أن يشفع فى البشرية فى ذلك اليوم",
+              "arabic_base_no_tashkeel": "والشاروبيم والساروفيم تصمت وجميع الابرار والقديسين لا يستطيع أحد منهم أن يشفع فى البشرية فى ذلك اليوم"
+            },
+            {
+              "row_index": 7,
+              "english": "The whole creation will be silent and the whole world will be under the Divine judgment. This is the time of harvest.",
+              "arabic": "وتقف كل الخليقة صامتة والعالم كله يكون تحت الحكم الآلهى العادل. هذا هو زمان الحصاد.",
+              "arabic_base_no_tashkeel": "وتقف كل الخليقة صامتة والعالم كله يكون تحت الحكم الآلهى العادل. هذا هو زمان الحصاد."
+            },
+            {
+              "row_index": 8,
+              "english": "This is the time to pull the net ashore to sort the good fish from the bad ones.",
+              "arabic": "هذا هو وقت جذب الشبكة إلى الشاطئ حيث يعزل السمك الجيد من الردئ",
+              "arabic_base_no_tashkeel": "هذا هو وقت جذب الشبكة إلى الشاطئ حيث يعزل السمك الجيد من الردئ"
+            },
+            {
+              "row_index": 9,
+              "english": "This is the day when the sinners will be told ‘Go dwell in Hell forever’.",
+              "arabic": "هذا هو اليوم الذى يقال فيه للخطاة أذهبوا إلى الجحيم مسكنكم إلى الابد.",
+              "arabic_base_no_tashkeel": "هذا هو اليوم الذى يقال فيه للخطاة أذهبوا إلى الجحيم مسكنكم إلى الابد."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "English and Arabic Psalm & Gospel",
+      "readings": [
+        {
+          "title": "Psalm (6: 2 - 3, 69: 17)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "Heal me, O Lord, for my bones are troubled; and my soul is greatly troubled;",
+              "arabic": "إشفينى يارب فإن عظامى قد إضطربت ونفسى قد إنزعجت جداً.",
+              "arabic_base_no_tashkeel": "إشفينى يارب فإن عظامى قد إضطربت ونفسى قد إنزعجت جدا."
+            },
+            {
+              "row_index": 2,
+              "english": "Turn not Your face from Your child, for I am afflicted; hear me speedily.",
+              "arabic": "لا تصرف وجهك عن فتاك. إسمعنى سريعاً فأننى فى الشدة.",
+              "arabic_base_no_tashkeel": "لا تصرف وجهك عن فتاك. إسمعنى سريعا فأننى فى الشدة."
+            },
+            {
+              "row_index": 3,
+              "english": "And do not hide Your face from Your servant, for I am in trouble; Hear me speedily.",
+              "arabic": "وَلاَ تَحْجُبْ وَجْهَكَ عَنْ عَبْدِكَ لأَنَّ لِي ضِيقاً. اسْتَجِبْ لِي سَرِيعاً.",
+              "arabic_base_no_tashkeel": "ولا تحجب وجهك عن عبدك لأن لي ضيقا. استجب لي سريعا."
+            }
+          ]
+        },
+        {
+          "title": "Gospel (John 12: 27 - 36)",
+          "rows": [
+            {
+              "row_index": 1,
+              "english": "“Now My soul is troubled, and what shall I say? ‘Father, save Me from this hour’? But for this purpose I came to this hour. Father, glorify Your name.” Then a voice came from heaven, saying, “I have both glorified it and will glorify it again.”",
+              "arabic": "الآن نفسى قد إضطربت وماذا أقول، أَيُّهَا الآبُ نجنى من هذه الساعة، ولكن لأجل هذا آتٍيت إلى هذه الساعة. أيها الآب مجد إبنك. فجاء صوت من السماء قائلاً قد مجدت وسأمجد أيضاً.",
+              "arabic_base_no_tashkeel": "الآن نفسى قد إضطربت وماذا أقول، أيها الآب نجنى من هذه الساعة، ولكن لأجل هذا آتيت إلى هذه الساعة. أيها الآب مجد إبنك. فجاء صوت من السماء قائلا قد مجدت وسأمجد أيضا."
+            },
+            {
+              "row_index": 2,
+              "english": "Therefore the people who stood by and heard it said that it had thundered. Others said, “An angel has spoken to Him.” Jesus answered and said, “This voice did not come because of Me, but for your sake.",
+              "arabic": "فلما سمع الجمع الذي كان واقفاً قالوا: رعد هو الذي حدث، وآخرون قالوا: ملاك هو الذي كلمه. أجاب يسوع وقال: ليس من أجلى حدث هذا الصوت، لكن من أجلكم.",
+              "arabic_base_no_tashkeel": "فلما سمع الجمع الذي كان واقفا قالوا: رعد هو الذي حدث، وآخرون قالوا: ملاك هو الذي كلمه. أجاب يسوع وقال: ليس من أجلى حدث هذا الصوت، لكن من أجلكم."
+            },
+            {
+              "row_index": 3,
+              "english": "Now is the judgment of this world; now the ruler of this world will be cast out.",
+              "arabic": "الآن دينونة هذا العالم الآن يلقى رئيس هذا العالم خارجاً،",
+              "arabic_base_no_tashkeel": "الآن دينونة هذا العالم الآن يلقى رئيس هذا العالم خارجا،"
+            },
+            {
+              "row_index": 4,
+              "english": "And I, if I am lifted up from the earth, will draw all peoples to Myself.”",
+              "arabic": "وأنا أيضاً إن ارتفعت عن الأرض أجذب إلى كل واحد.",
+              "arabic_base_no_tashkeel": "وأنا أيضا إن ارتفعت عن الأرض أجذب إلى كل واحد."
+            },
+            {
+              "row_index": 5,
+              "english": "This He said, signifying by what death He would die.",
+              "arabic": "وأنما قال هذا مشيراً إلى آية ميتة كان مزمعاً أن يموت.",
+              "arabic_base_no_tashkeel": "وأنما قال هذا مشيرا إلى آية ميتة كان مزمعا أن يموت."
+            },
+            {
+              "row_index": 6,
+              "english": "The people answered Him, “We have heard from the law that the Christ remains forever; and how can You say, ‘The Son of Man must be lifted up’?",
+              "arabic": "فأجاب الجميع قائلاً: نحن سمعنا من الناموس أن المسيح يدوم إلى الأبد فكيف تقول أنت أنه ينبغى أن يرتفع إبن الإنسان؟",
+              "arabic_base_no_tashkeel": "فأجاب الجميع قائلا: نحن سمعنا من الناموس أن المسيح يدوم إلى الأبد فكيف تقول أنت أنه ينبغى أن يرتفع إبن الإنسان؟"
+            },
+            {
+              "row_index": 7,
+              "english": "Who is this Son of Man?”",
+              "arabic": "من هذا إبن الإنسان؟",
+              "arabic_base_no_tashkeel": "من هذا إبن الإنسان؟"
+            },
+            {
+              "row_index": 8,
+              "english": "Then Jesus said to them, “A little while longer the light is with you.",
+              "arabic": "فقال لهم يسوع: النور معكم زماناً يسيراً،",
+              "arabic_base_no_tashkeel": "فقال لهم يسوع: النور معكم زمانا يسيرا،"
+            },
+            {
+              "row_index": 9,
+              "english": "Walk while you have the light, lest darkness overtake you; he who walks in darkness does not know where he is going.",
+              "arabic": "فسيروا فى النور مادام لكم النور لئلا يدرككم الظلام، لأن الذي يمشى فى الظلام لا يدرى أين يذهب.",
+              "arabic_base_no_tashkeel": "فسيروا فى النور مادام لكم النور لئلا يدرككم الظلام، لأن الذي يمشى فى الظلام لا يدرى أين يذهب."
+            },
+            {
+              "row_index": 10,
+              "english": "While you have the light, believe in the light, that you may become sons of light.”",
+              "arabic": "مادام لكم النور آمنوا بالنور لتصيروا أبناء النور.",
+              "arabic_base_no_tashkeel": "مادام لكم النور آمنوا بالنور لتصيروا أبناء النور."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

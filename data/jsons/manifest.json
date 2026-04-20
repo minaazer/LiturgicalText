@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-06T02:50:21.809Z",
+  "generatedAt": "2026-04-09T02:59:15.528Z",
   "files": [
     {
       "path": "_schemas/agpeya/prime_hour.schema.json",
@@ -298,6 +298,11 @@
       "size": 1708152
     },
     {
+      "path": "bible/saas_ot.json",
+      "hash": "3926754dfb63208b19f83336d7b5e728ab96859e2d36ccdfd6b701fc5b1c709b",
+      "size": 6175234
+    },
+    {
       "path": "explanations.json",
       "hash": "3af7bd8470191bbd55fdff66980b740bf33d0094592ee2adcd78ef8906cc311b",
       "size": 90040
@@ -314,8 +319,8 @@
     },
     {
       "path": "holyWeek.json",
-      "hash": "6664ef33c9e2fdf1788407badcdae4da7cd28a102aac0467e34fff57b147d624",
-      "size": 3386852
+      "hash": "ec3af81b8c6de61c2b502a6a157a5a08b34cb476308092c6e8e9180fdf176f4d",
+      "size": 3387043
     },
     {
       "path": "images.json",
@@ -413,14 +418,74 @@
       "size": 2341662
     },
     {
+      "path": "readings/holyweek_copticreader_all_readings_unicode.json",
+      "hash": "0f6971d0ca74a7bc45a831343620ef3e5810fbdd45d2a1e3d2ae88c56b5fc7b6",
+      "size": 3139605
+    },
+    {
+      "path": "readings/holyweek_copticreader_all_readings.json",
+      "hash": "d67f7c49e5bc7bedc1d2961338c7afb309c122551de79040ea5ae635d802155f",
+      "size": 2644178
+    },
+    {
+      "path": "readings/holyweek_copticreader_structured.json",
+      "hash": "344b0eef45c8fee4656b0b387a5def4a7453fd197e0a899a79c9aaf8e0d9dff4",
+      "size": 4104395
+    },
+    {
+      "path": "readings/holyWeek_CR_report.json",
+      "hash": "adaf80e2f69ddca2f579f007a24e54d6b5e22eb811e7b0b3bc98741c89191c41",
+      "size": 221041
+    },
+    {
+      "path": "readings/holyWeek_CR_tashkeel_test.json",
+      "hash": "38ec7f51f30d87c54e98ba300f75c0d8777c8811f172c5606c4461c76e79d98b",
+      "size": 4068353
+    },
+    {
+      "path": "readings/holyWeek_CR_tashkeel.json",
+      "hash": "3e4efce422fe7288027c86759a6d438ff086648dc6604c35b9b126f2e254a577",
+      "size": 4242947
+    },
+    {
+      "path": "readings/holyWeek_CR.json",
+      "hash": "d0aaeb09840aadffc5069395b9fef76a802418feb5be14c9f9951dd86b1460a4",
+      "size": 4066429
+    },
+    {
+      "path": "readings/holyWeek_saas_logos.json",
+      "hash": "8db27978f4514cca53de574682ac9ba535f76b0fd84dfc56bf86613ca953d3c9",
+      "size": 1546318
+    },
+    {
+      "path": "readings/holyweek_st_takla_missing_coptic.json",
+      "hash": "6427c4317d29fe75b542d71f370ea3c0229c1807a9a9980e2e57984f09e440e9",
+      "size": 40564
+    },
+    {
+      "path": "readings/holyWeek_stbasil_by_verse.json",
+      "hash": "98e45ae9e54cbf3e554ddc2d73f5eb51aa3362192739f940738cf459fb02b9ad",
+      "size": 1304412
+    },
+    {
+      "path": "readings/holyWeek_stbasil_raw.json",
+      "hash": "5519b4982660fea4efd15872bb54ff5c8bec74e7863ec78ace080bf101ffbdbf",
+      "size": 602814
+    },
+    {
+      "path": "readings/holyWeek_stbasil_structured.json",
+      "hash": "c1a49181a59cb8367435f942e98303a1badfdc75909c5949f3cc002d31a84e47",
+      "size": 938044
+    },
+    {
       "path": "repeatedPrayers/actsResponses.json",
       "hash": "fca533697d2d765b00f8177439b927a476e51251e4332c404fdfddb7826a3338",
       "size": 17286
     },
     {
       "path": "repeatedPrayers/annualRepeatedPrayers.json",
-      "hash": "bca6d80463e7d8c8d157538ab93c9e68fcfe3dd30bd95bf9394ee741731dce45",
-      "size": 192228
+      "hash": "cff92c71ab058ba4b1225e982934d64635bdbd041e50a552616c1a90d924f6e0",
+      "size": 192701
     },
     {
       "path": "repeatedPrayers/aspasmosAdam.json",
@@ -459,8 +524,8 @@
     },
     {
       "path": "repeatedPrayers/hwRepeatedPrayers.json",
-      "hash": "baf0296dab5ae16f1eaa3dd0f0f6df812cb443b3fa6fdd03598892479bfeb5e0",
-      "size": 99393
+      "hash": "f6743f463c2e85189f7d228bc44313f1d06f97f194a47ec69b76e1e9209daa31",
+      "size": 99710
     },
     {
       "path": "repeatedPrayers/intercessions.json",
@@ -484,8 +549,8 @@
     },
     {
       "path": "repeatedPrayers/repeatedAgpeyaPrayers.json",
-      "hash": "a0ab56bb311eb6aff6bcc9ed1725a527222374e390c8327b182b638d9ce78e75",
-      "size": 48245
+      "hash": "e9ae6656c712311d7b702283c1cdea60c6e445416c8d591767f6bb42227afa15",
+      "size": 48243
     },
     {
       "path": "repeatedPrayers/seasonalRepeatedPrayers.json",

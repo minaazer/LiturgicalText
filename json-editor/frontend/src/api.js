@@ -56,6 +56,14 @@ export const rejectChange = (token, id, payload) =>
     body: JSON.stringify(payload || {}),
   });
 
+export const publishChanges = (token, payload) =>
+  apiFetch("/publish", token, {
+    method: "POST",
+    body: JSON.stringify(payload || {}),
+  });
+
+export const fetchPublishableChanges = (token) => apiFetch("/publish", token);
+
 export const requestEmailVerification = (identifier) =>
   apiFetch("/auth/verify-email/request", null, {
     method: "POST",

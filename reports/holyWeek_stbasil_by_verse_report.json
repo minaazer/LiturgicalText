@@ -1,0 +1,3022 @@
+{
+  "summary": {
+    "tables_split": 75,
+    "tables_skipped": 231,
+    "total_tables": 306
+  },
+  "reports": [
+    {
+      "title": "EZEKIEL 37:1-14",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.7297297297297297,
+      "expected_count": 14,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\sunday\\General Funeral Prayer.xml",
+      "matched_document_title": "General Funeral Prayer",
+      "match_mode": "exact",
+      "service": "DAY of Sunday",
+      "hour": "SIXTH Hour (Funeral Prayer)",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 64:5 (LXX)",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.7368421052631579,
+      "expected_count": 1,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\wednesday\\Wednesday Eve - 3rd Hour.xml",
+      "matched_document_title": "Wednesday Eve (The Third Hour)",
+      "match_mode": "merged",
+      "service": "DAY of Sunday",
+      "hour": "SIXTH Hour (Funeral Prayer)",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "JOHN 5:19-29",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [
+        0
+      ],
+      "service": "DAY of Sunday",
+      "hour": "SIXTH Hour (Funeral Prayer)",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "1 CORINTHIANS 15:1-27 [SELECTION]",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Sunday",
+      "hour": "SIXTH Hour (Funeral Prayer)",
+      "section": "Pauline Epistle"
+    },
+    {
+      "title": "LAMENTATIONS OF JEREMIAH 1:1-4",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Sunday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "ZEPHANIAH 3:11-20",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9465408805031447,
+      "expected_count": 10,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\sunday\\Sunday - 9th Hour.xml",
+      "matched_document_title": "Hosanna Sunday (The Ninth Hour)",
+      "match_mode": "merged",
+      "service": "DAY of Sunday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 8:3-4 (LXX) [SELECTION]",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9302325581395349,
+      "expected_count": 2,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\sunday\\Sunday - 9th Hour.xml",
+      "matched_document_title": "Hosanna Sunday (The Ninth Hour)",
+      "match_mode": "exact",
+      "service": "DAY of Sunday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MATTHEW 21:10-17",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9637305699481865,
+      "expected_count": 8,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\sunday\\Sunday - 9th Hour.xml",
+      "matched_document_title": "Hosanna Sunday (The Ninth Hour)",
+      "match_mode": "exact",
+      "service": "DAY of Sunday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "ISAIAH 48:12-22",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9770491803278688,
+      "expected_count": 11,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\sunday\\Sunday - 11th Hour.xml",
+      "matched_document_title": "Hosanna Sunday (The Eleventh Hour)",
+      "match_mode": "merged",
+      "service": "DAY of Sunday",
+      "hour": "ELEVENTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "NAHUM 1:2-8",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9631578947368421,
+      "expected_count": 7,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\sunday\\Sunday - 11th Hour.xml",
+      "matched_document_title": "Hosanna Sunday (The Eleventh Hour)",
+      "match_mode": "exact",
+      "service": "DAY of Sunday",
+      "hour": "ELEVENTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 8:3, 8:2 (LXX) [SELECTION]",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Sunday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MATTHEW 20:20-28",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9744597249508841,
+      "expected_count": 9,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\sunday\\Sunday - 11th Hour.xml",
+      "matched_document_title": "Hosanna Sunday (The Eleventh Hour)",
+      "match_mode": "exact",
+      "service": "DAY of Sunday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "ZEPHANIAH 1:2-12",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9690402476780186,
+      "expected_count": 11,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\monday\\Monday Eve - 1st Hour.xml",
+      "matched_document_title": "Monday Eve (The First Hour)",
+      "match_mode": "merged",
+      "service": "EVE of Monday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 26:6-8 (LXX) [SELECTION]",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "EVE of Monday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "JOHN 12:20-36 [SELECTION]",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9916666666666667,
+      "expected_count": 17,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\monday\\Monday Eve - 1st Hour.xml",
+      "matched_document_title": "Monday Eve (The First Hour)",
+      "match_mode": "merged",
+      "service": "EVE of Monday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "ZEPHANIAH 1:14-END, 2:1-2",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "EVE of Monday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 27:9, 27:2 (LXX) [SELECTION]",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "EVE of Monday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "LUKE 9:18-22",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9739130434782609,
+      "expected_count": 5,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\monday\\Monday Eve - 3rd Hour.xml",
+      "matched_document_title": "Monday Eve (The Third Hour)",
+      "match_mode": "merged",
+      "service": "EVE of Monday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "JOEL 1:5-15",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9768211920529801,
+      "expected_count": 11,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\monday\\Monday Eve - 6th Hour.xml",
+      "matched_document_title": "Monday Eve (The Sixth Hour)",
+      "match_mode": "merged",
+      "service": "EVE of Monday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 28:1-2 (LXX)",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "EVE of Monday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MARK 10:32-34",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9722222222222222,
+      "expected_count": 3,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\monday\\Monday Eve - 6th Hour.xml",
+      "matched_document_title": "Monday Eve (The Sixth Hour)",
+      "match_mode": "merged",
+      "service": "EVE of Monday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MICAH 2:3-11 [SELECTION]",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9582504970178927,
+      "expected_count": 9,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\monday\\Monday Eve - 9th Hour.xml",
+      "matched_document_title": "Monday Eve (The Ninth Hour)",
+      "match_mode": "merged",
+      "service": "EVE of Monday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 16:6, 16:1 (LXX) [SELECTION]",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "EVE of Monday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MARK 8:27-33",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9822485207100592,
+      "expected_count": 7,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\monday\\Monday Eve - 9th Hour.xml",
+      "matched_document_title": "Monday Eve (The Ninth Hour)",
+      "match_mode": "merged",
+      "service": "EVE of Monday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MICAH 2:13 [SELECTION], 3:1-4",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "EVE of Monday",
+      "hour": "ELEVENTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 17:18-19 (LXX) [SELECTION]",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "EVE of Monday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MATTHEW 17:19-23",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.975,
+      "expected_count": 5,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\monday\\Monday Eve - 11th Hour.xml",
+      "matched_document_title": "Monday Eve (The Eleventh Hour)",
+      "match_mode": "exact",
+      "service": "EVE of Monday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "GENESIS 1:1-2:3",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [
+        36
+      ],
+      "service": "DAY of Monday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "ISAIAH 5:1-9",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9230769230769231,
+      "expected_count": 9,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\monday\\Monday - 1st Hour.xml",
+      "matched_document_title": "Monday (The First Hour)",
+      "match_mode": "merged",
+      "service": "DAY of Monday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "WISDOM OF SIRACH 1:1-17",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Monday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 71:18-19 (LXX) [SELECTION]",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.7368421052631579,
+      "expected_count": 2,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\monday\\Monday - 1st Hour.xml",
+      "matched_document_title": "Monday (The First Hour)",
+      "match_mode": "exact",
+      "service": "DAY of Monday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MARK 11:12-24",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9886178861788618,
+      "expected_count": 13,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\monday\\Monday - 1st Hour.xml",
+      "matched_document_title": "Monday (The First Hour)",
+      "match_mode": "merged",
+      "service": "DAY of Monday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "ISAIAH 5:20-30",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9748892171344166,
+      "expected_count": 11,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\monday\\Monday - 3rd Hour.xml",
+      "matched_document_title": "Monday (The Third Hour)",
+      "match_mode": "merged",
+      "service": "DAY of Monday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "JEREMIAH 9:11-18 [SELECTION]",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Monday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 121:1-2 (LXX)",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9259259259259259,
+      "expected_count": 2,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\monday\\Monday - 3rd Hour.xml",
+      "matched_document_title": "Monday (The Third Hour)",
+      "match_mode": "exact",
+      "service": "DAY of Monday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MARK 11:11-19",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9847494553376906,
+      "expected_count": 9,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\monday\\Monday - 3rd Hour.xml",
+      "matched_document_title": "Monday (The Third Hour)",
+      "match_mode": "merged",
+      "service": "DAY of Monday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "EXODUS 32:7-15",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9513513513513514,
+      "expected_count": 9,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\monday\\Monday - 6th Hour.xml",
+      "matched_document_title": "Monday (The Sixth Hour)",
+      "match_mode": "merged",
+      "service": "DAY of Monday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "WISDOM OF SOLOMON 1:1-9",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.965675057208238,
+      "expected_count": 9,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\monday\\Monday - 6th Hour.xml",
+      "matched_document_title": "Monday (The Sixth Hour)",
+      "match_mode": "merged",
+      "service": "DAY of Monday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 121:4 (LXX)",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.92,
+      "expected_count": 1,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\monday\\Monday - 6th Hour.xml",
+      "matched_document_title": "Monday (The Sixth Hour)",
+      "match_mode": "merged",
+      "service": "DAY of Monday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "JOHN 2:13-17 [SELECTION]",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9696969696969697,
+      "expected_count": 5,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\monday\\Monday - 6th Hour.xml",
+      "matched_document_title": "Monday (The Sixth Hour)",
+      "match_mode": "exact",
+      "service": "DAY of Monday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "GENESIS 2:15-END, 3:1-END",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Monday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "ISAIAH 40:1-5",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9279279279279279,
+      "expected_count": 5,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\monday\\Monday - 9th Hour.xml",
+      "matched_document_title": "Monday (The Ninth Hour)",
+      "match_mode": "exact",
+      "service": "DAY of Monday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PROVERBS OF SOLOMON 1:1-10",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Monday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 64:6, 64:5 (LXX) [SELECTION]",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Monday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MATTHEW 21:23-27",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9801324503311258,
+      "expected_count": 5,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\monday\\Monday - 9th Hour.xml",
+      "matched_document_title": "Monday (The Ninth Hour)",
+      "match_mode": "merged",
+      "service": "DAY of Monday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "ISAIAH 50:1-3",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [
+        8
+      ],
+      "service": "DAY of Monday",
+      "hour": "ELEVENTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "WISDOM OF SIRACH 1:18-END",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Monday",
+      "hour": "ELEVENTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 12:4-5 (LXX) [SELECTION]",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Monday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "JOHN 8:51-END",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Monday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "Homily",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Monday",
+      "hour": "ELEVENTH Hour",
+      "section": "Exposition"
+    },
+    {
+      "title": "ZECHARIAH 1:1-6",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9376854599406528,
+      "expected_count": 6,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\tuesday\\Tuesday Eve - 1st Hour.xml",
+      "matched_document_title": "Tuesday Eve (The First Hour)",
+      "match_mode": "merged",
+      "service": "EVE of Tuesday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 61:8, 61:3 (LXX)",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "EVE of Tuesday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "LUKE 13:23-30",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9776674937965261,
+      "expected_count": 8,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\tuesday\\Tuesday Eve - 1st Hour.xml",
+      "matched_document_title": "Tuesday Eve (The First Hour)",
+      "match_mode": "merged",
+      "service": "EVE of Tuesday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MALACHI 1:1-9",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.8922056384742952,
+      "expected_count": 9,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\tuesday\\Tuesday Eve - 3rd Hour.xml",
+      "matched_document_title": "Tuesday Eve (The Third Hour)",
+      "match_mode": "merged",
+      "service": "EVE of Tuesday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 12:4, 12:6 (LXX)",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "EVE of Tuesday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "LUKE 13:31-END",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "EVE of Tuesday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "HOSEA 4:15-END, 5:1-7",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "EVE of Tuesday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 90:2-3 (LXX)",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "EVE of Tuesday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "LUKE 21:34-END",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "EVE of Tuesday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "HOSEA 10:12-END, 11:1-2",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "EVE of Tuesday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 32:10-11 (LXX)",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9523809523809523,
+      "expected_count": 2,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\tuesday\\Tuesday Eve - 9th Hour.xml",
+      "matched_document_title": "Tuesday Eve (The Ninth Hour)",
+      "match_mode": "exact",
+      "service": "EVE of Tuesday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "LUKE 11:37-52",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [
+        15
+      ],
+      "service": "EVE of Tuesday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "AMOS 5:6-14",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [
+        8
+      ],
+      "service": "EVE of Tuesday",
+      "hour": "ELEVENTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 121:4 (LXX)",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.92,
+      "expected_count": 1,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\monday\\Monday - 6th Hour.xml",
+      "matched_document_title": "Monday (The Sixth Hour)",
+      "match_mode": "merged",
+      "service": "EVE of Tuesday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MARK 13:32-END, 14:1-2",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "EVE of Tuesday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "EXODUS 19:1-9",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Tuesday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "JOB 23:2-END, 24:1-END",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Tuesday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "HOSEA 4:1-8",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9616252821670429,
+      "expected_count": 8,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\tuesday\\Tuesday - 1st Hour.xml",
+      "matched_document_title": "Tuesday (The First Hour)",
+      "match_mode": "merged",
+      "service": "DAY of Tuesday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 119:2, 119:7",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Tuesday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "JOHN 8:21-29",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9868421052631579,
+      "expected_count": 9,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\tuesday\\Tuesday - 1st Hour.xml",
+      "matched_document_title": "Tuesday (The First Hour)",
+      "match_mode": "merged",
+      "service": "DAY of Tuesday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "Homily",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Tuesday",
+      "hour": "FIRST Hour",
+      "section": "Exposition"
+    },
+    {
+      "title": "DEUTERONOMY 8:11-END",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Tuesday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "WISDOM OF SIRACH 2:1-9",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Tuesday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "JOB 27:1-20, 28:1-2",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Tuesday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 118:154-155",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Tuesday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MATTHEW 23:37-END, 24:1-2",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Tuesday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "EZEKIEL 21:3-18 [SELECTION]",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Tuesday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "WISDOM OF SIRACH 4:20-END, 5:1-2",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Tuesday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "ISAIAH 1:1-9",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Tuesday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 17:49, 17:18",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Tuesday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "JOHN 8:12-20",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [
+        8
+      ],
+      "service": "DAY of Tuesday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "GENESIS 6:5-END, 7:1-END, 8:1-END, 9:1-7",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Tuesday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PROVERBS OF SOLOMON 9:1-11",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Tuesday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "ISAIAH 40:9-END",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Tuesday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "DANIEL 7:2, 7:9-15",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Tuesday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 24:1-3 (LXX) [SELECTION]",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [
+        2
+      ],
+      "service": "DAY of Tuesday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MATTHEW 24:3-35",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [
+        26
+      ],
+      "service": "DAY of Tuesday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "Homily",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Tuesday",
+      "hour": "NINTH Hour",
+      "section": "Exposition"
+    },
+    {
+      "title": "ISAIAH 30:25-30",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9695652173913043,
+      "expected_count": 6,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\tuesday\\Tuesday - 11th Hour.xml",
+      "matched_document_title": "Tuesday (The Eleventh Hour)",
+      "match_mode": "exact",
+      "service": "DAY of Tuesday",
+      "hour": "ELEVENTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PROVERBS OF SOLOMON 6:24-END, 7:1-5",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Tuesday",
+      "hour": "ELEVENTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 44:7, 40:1 (LXX)",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Tuesday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MATTHEW 25:14-END, 26:1-2",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Tuesday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "Homily",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Tuesday",
+      "hour": "ELEVENTH Hour",
+      "section": "Exposition"
+    },
+    {
+      "title": "EZEKIEL 22:17-22",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9457831325301205,
+      "expected_count": 6,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\wednesday\\Wednesday Eve - 1st Hour.xml",
+      "matched_document_title": "Wednesday Eve (The First Hour)",
+      "match_mode": "exact",
+      "service": "EVE of Wednesday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "EZEKIEL 22:23-28",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9064748201438849,
+      "expected_count": 6,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\friday\\Friday Eve - 6th Hour.xml",
+      "matched_document_title": "Great Friday Eve (The Sixth Hour)",
+      "match_mode": "exact",
+      "service": "EVE of Wednesday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 58:17-18 (LXX) [SELECTION]",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9487179487179487,
+      "expected_count": 2,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\wednesday\\Wednesday Eve - 1st Hour.xml",
+      "matched_document_title": "Wednesday Eve (The First Hour)",
+      "match_mode": "exact",
+      "service": "EVE of Wednesday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MATTHEW 22:1-14",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [
+        13
+      ],
+      "service": "EVE of Wednesday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "AMOS 5:18-END",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "EVE of Wednesday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 64:5 (LXX) [SELECTION]",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9130434782608695,
+      "expected_count": 1,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\wednesday\\Wednesday Eve - 3rd Hour.xml",
+      "matched_document_title": "Wednesday Eve (The Third Hour)",
+      "match_mode": "merged",
+      "service": "EVE of Wednesday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MATTHEW 24:36-END",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "EVE of Wednesday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "JEREMIAH 16:9-13",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "EVE of Wednesday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 101:2-3 (LXX) [SELECTION]",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "EVE of Wednesday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MATTHEW 25:1-13",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [
+        9
+      ],
+      "service": "EVE of Wednesday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "HOSEA 9:14-END, 10:1-2",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "EVE of Wednesday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 21:21-22",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "EVE of Wednesday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MATTHEW 23:29-36",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [
+        7
+      ],
+      "service": "EVE of Wednesday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "WISDOM OF SOLOMON 7:24-END",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "EVE of Wednesday",
+      "hour": "ELEVENTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 56:2 (LXX)",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "EVE of Wednesday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "JOHN 11:55-END",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "EVE of Wednesday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "EXODUS 17:1-7",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9672131147540983,
+      "expected_count": 7,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\wednesday\\Wednesday - 1st Hour.xml",
+      "matched_document_title": "Wednesday (The First Hour)",
+      "match_mode": "merged",
+      "service": "DAY of Wednesday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PROVERBS OF SOLOMON 3:5-15 [SELECTION]",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Wednesday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "HOSEA 5:13-END, 6:1-3 [SELECTION]",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Wednesday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "WISDOM OF SIRACH SELECTIONS FROM 1:12 TO 3:28",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Wednesday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 50:6, 32:10 (LXX) [SELECTION]",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Wednesday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "JOHN 11:46-END",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Wednesday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "Homily",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Wednesday",
+      "hour": "FIRST Hour",
+      "section": "Exposition"
+    },
+    {
+      "title": "EXODUS 13:17-END",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Wednesday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "WISDOM OF SIRACH 22:7-18",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Wednesday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "JOB 27:16-20, 28:1",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Wednesday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PROVERBS OF SOLOMON 4:5-END, 5:1-4, 5:8 [SELECTION]",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Wednesday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 40:7, 40:2 (LXX)",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Wednesday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "LUKE 22:1-6",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [
+        5
+      ],
+      "service": "DAY of Wednesday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "EXODUS 14:13-END, 15:1",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Wednesday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "ISAIAH 48:1-6 [SELECTION]",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Wednesday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "WISDOM OF SIRACH 23:7-14",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Wednesday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 82:3-4 (LXX)",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Wednesday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "JOHN 12:1-8",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9828571428571429,
+      "expected_count": 8,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\wednesday\\Wednesday - 6th Hour.xml",
+      "matched_document_title": "Wednesday (The Sixth Hour)",
+      "match_mode": "exact",
+      "service": "DAY of Wednesday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "GENESIS 24:1-9",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9628252788104089,
+      "expected_count": 9,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\wednesday\\Wednesday - 9th Hour.xml",
+      "matched_document_title": "Wednesday (The Ninth Hour)",
+      "match_mode": "merged",
+      "service": "DAY of Wednesday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "NUMBERS 20:1-13",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9690721649484536,
+      "expected_count": 13,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\wednesday\\Wednesday - 9th Hour.xml",
+      "matched_document_title": "Wednesday (The Ninth Hour)",
+      "match_mode": "exact",
+      "service": "DAY of Wednesday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PROVERBS OF SOLOMON 1:11-END",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Wednesday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "ZECHARIAH 11:11-14 [SELECTION]",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9090909090909091,
+      "expected_count": 4,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\friday\\Friday - 1st Hour.xml",
+      "matched_document_title": "Great Friday (The First Hour)",
+      "match_mode": "merged",
+      "service": "DAY of Wednesday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 40:8, 40:7 (LXX)",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Wednesday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MATTHEW 26:3-16",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [
+        13
+      ],
+      "service": "DAY of Wednesday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "Homily",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Wednesday",
+      "hour": "NINTH Hour",
+      "section": "Exposition"
+    },
+    {
+      "title": "ISAIAH 28:16-29",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9719887955182073,
+      "expected_count": 14,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\wednesday\\Wednesday - 11th Hour.xml",
+      "matched_document_title": "Wednesday (The Eleventh Hour)",
+      "match_mode": "merged",
+      "service": "DAY of Wednesday",
+      "hour": "ELEVENTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 6:3-4, 68:18 (LXX) [SELECTION]",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Wednesday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "JOHN 12:27-36 [SELECTION]",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9861111111111112,
+      "expected_count": 10,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\wednesday\\Wednesday - 11th Hour.xml",
+      "matched_document_title": "Wednesday (The Eleventh Hour)",
+      "match_mode": "merged",
+      "service": "DAY of Wednesday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "Homily",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Wednesday",
+      "hour": "ELEVENTH Hour",
+      "section": "Exposition"
+    },
+    {
+      "title": "EZEKIEL 43:5-11",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9695817490494296,
+      "expected_count": 7,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\thursday\\Thursday Eve - 1st Hour.xml",
+      "matched_document_title": "Covenant Thursday Eve (The First Hour)",
+      "match_mode": "merged",
+      "service": "EVE of Covenant Thursday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 68:2, 68:17 (LXX) [SELECTION]",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "EVE of Covenant Thursday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "JOHN 10:17-21",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9724770642201835,
+      "expected_count": 5,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\thursday\\Thursday Eve - 1st Hour.xml",
+      "matched_document_title": "Covenant Thursday Eve (The First Hour)",
+      "match_mode": "exact",
+      "service": "EVE of Covenant Thursday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "AMOS 4:4-13",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9715099715099715,
+      "expected_count": 10,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\thursday\\Thursday Eve - 3rd Hour.xml",
+      "matched_document_title": "Covenant Thursday Eve (The Third Hour)",
+      "match_mode": "merged",
+      "service": "EVE of Covenant Thursday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 54:22, 54:2 (LXX) [SELECTION]",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "EVE of Covenant Thursday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MARK 14:3-11",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9857142857142858,
+      "expected_count": 9,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\thursday\\Thursday Eve - 3rd Hour.xml",
+      "matched_document_title": "Covenant Thursday Eve (The Third Hour)",
+      "match_mode": "merged",
+      "service": "EVE of Covenant Thursday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "AMOS 3:1-11",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9426987060998152,
+      "expected_count": 11,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\thursday\\Thursday Eve - 6th Hour.xml",
+      "matched_document_title": "Covenant Thursday Eve (The Sixth Hour)",
+      "match_mode": "merged",
+      "service": "EVE of Covenant Thursday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 139:2-3 (LXX)",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "EVE of Covenant Thursday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "JOHN 12:36-43 [SELECTION]",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [
+        6
+      ],
+      "service": "EVE of Covenant Thursday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "EZEKIEL 20:27-33",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9370932754880694,
+      "expected_count": 7,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\thursday\\Thursday Eve - 9th Hour.xml",
+      "matched_document_title": "Covenant Thursday Eve (The Ninth Hour)",
+      "match_mode": "merged",
+      "service": "EVE of Covenant Thursday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 7:2-3 (LXX) [SELECTION]",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "EVE of Covenant Thursday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "JOHN 10:29-38",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [
+        7
+      ],
+      "service": "EVE of Covenant Thursday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "JEREMIAH 8:4-9",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "EVE of Covenant Thursday",
+      "hour": "ELEVENTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 61:8, 61:3 (LXX) [SELECTION]",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "EVE of Covenant Thursday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "JOHN 12:44-50",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [
+        6
+      ],
+      "service": "EVE of Covenant Thursday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "EXODUS 17:8-16",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9647577092511013,
+      "expected_count": 9,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\thursday\\Thursday - 1st Hour.xml",
+      "matched_document_title": "Covenant Thursday (The First Hour)",
+      "match_mode": "merged",
+      "service": "DAY of Covenant Thursday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "EXODUS 15:22-END, 16:1-3",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Covenant Thursday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "ISAIAH 58:1-11",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Covenant Thursday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "EZEKIEL 18:20-32",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Covenant Thursday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "Homily",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Covenant Thursday",
+      "hour": "FIRST Hour",
+      "section": "Exposition"
+    },
+    {
+      "title": "ACTS 1:15-20",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Covenant Thursday",
+      "hour": "FIRST Hour",
+      "section": "Praxis"
+    },
+    {
+      "title": "PSALM 54:22, 54:13 (LXX) [SELECTION]",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Covenant Thursday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "LUKE 22:7-13",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.966789667896679,
+      "expected_count": 7,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\thursday\\Thursday - 1st Hour.xml",
+      "matched_document_title": "Covenant Thursday (The First Hour)",
+      "match_mode": "exact",
+      "service": "DAY of Covenant Thursday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "EXODUS 32:30-END, 33:1-5 [SELECTION]",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Covenant Thursday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "WISDOM OF SIRACH 24:1-11",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Covenant Thursday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "ZECHARIAH 9:11-14 [SELECTION]",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Covenant Thursday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PROVERBS OF SOLOMON 30:1-6",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Covenant Thursday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 93:21, 93:23 (LXX)",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Covenant Thursday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MATTHEW 26:17-19",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9461077844311377,
+      "expected_count": 3,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\thursday\\Thursday - 3rd Hour.xml",
+      "matched_document_title": "Covenant Thursday (The Third Hour)",
+      "match_mode": "exact",
+      "service": "DAY of Covenant Thursday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "JEREMIAH 7:1-14",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Covenant Thursday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "EZEKIEL 20:39-44",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9565217391304348,
+      "expected_count": 6,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\thursday\\Thursday - 6th Hour.xml",
+      "matched_document_title": "Covenant Thursday (The Sixth Hour)",
+      "match_mode": "merged",
+      "service": "DAY of Covenant Thursday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "WISDOM OF SIRACH 12:13-END, 13:1",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Covenant Thursday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 30:19, 30:19 (LXX) [SELECTION]",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Covenant Thursday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MARK 14:12-16",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9781021897810219,
+      "expected_count": 5,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\thursday\\Thursday - 6th Hour.xml",
+      "matched_document_title": "Covenant Thursday (The Sixth Hour)",
+      "match_mode": "exact",
+      "service": "DAY of Covenant Thursday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "GENESIS 22:1-19 [SELECTION]",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9801324503311258,
+      "expected_count": 19,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\thursday\\Thursday - 9th Hour.xml",
+      "matched_document_title": "Covenant Thursday (The Ninth Hour)",
+      "match_mode": "merged",
+      "service": "DAY of Covenant Thursday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "ISAIAH 61:1-6",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Covenant Thursday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "GENESIS 14:17-20",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Covenant Thursday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "JOB 27:2-END, 28:1-13",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Covenant Thursday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 22:1-2 (LXX) [SELECTION]",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Covenant Thursday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MATTHEW 26:17-19",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9461077844311377,
+      "expected_count": 3,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\thursday\\Thursday - 3rd Hour.xml",
+      "matched_document_title": "Covenant Thursday (The Third Hour)",
+      "match_mode": "exact",
+      "service": "DAY of Covenant Thursday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "Homily",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Covenant Thursday",
+      "hour": "NINTH Hour",
+      "section": "Exposition"
+    },
+    {
+      "title": "PSALMS 50:9, 50:12",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Covenant Thursday",
+      "hour": "Liturgy of the Blessing of the Water",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "JOHN 13:1-17",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Covenant Thursday",
+      "hour": "Liturgy of the Blessing of the Water",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "Homily",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Covenant Thursday",
+      "hour": "Liturgy of the Blessing of the Water",
+      "section": "Exposition"
+    },
+    {
+      "title": "Homily",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Covenant Thursday",
+      "hour": "Liturgy of the Blessing of the Water",
+      "section": "Exposition"
+    },
+    {
+      "title": "1 TIMOTHY 4:9-16, 5:1-10",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Covenant Thursday",
+      "hour": "Liturgy of the Blessing of the Water",
+      "section": "Pauline Epistle"
+    },
+    {
+      "title": "PSALMS 22:5, 40:10 (LXX) [SELECTION]",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Covenant Thursday",
+      "hour": "Liturgy of the Eucharist",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MATTHEW 26:20-29",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Covenant Thursday",
+      "hour": "Liturgy of the Eucharist",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "ISAIAH 52:13-END, 53:1-END",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Covenant Thursday",
+      "hour": "ELEVENTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "ZECHARIAH 12:11-END, 13:1-END, 14:1-4, 14:5-9 [SELECTION]",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Covenant Thursday",
+      "hour": "ELEVENTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 49:17-18 (LXX)",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Covenant Thursday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "JOHN 13:21-30",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [
+        7
+      ],
+      "service": "DAY of Covenant Thursday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "JEREMIAH 8:15-END, 9:1-6",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "EVE of Great Friday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 101:2, 101:9",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "EVE of Great Friday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "JOHN 13:33-38, 14:1-25",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "EVE of Great Friday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "EZEKIEL 36:16-23",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [
+        7
+      ],
+      "service": "EVE of Great Friday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 108:1-2",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "EVE of Great Friday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MATTHEW 26:30-35",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [
+        5
+      ],
+      "service": "EVE of Great Friday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "EZEKIEL 22:23-28 [SELECTION]",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9064748201438849,
+      "expected_count": 6,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\friday\\Friday Eve - 6th Hour.xml",
+      "matched_document_title": "Great Friday Eve (The Sixth Hour)",
+      "match_mode": "exact",
+      "service": "EVE of Great Friday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 58:2, 68:21 (LXX) [SELECTION]",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "EVE of Great Friday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MATTHEW 26:36-46",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [
+        10
+      ],
+      "service": "EVE of Great Friday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "JEREMIAH 9:6-10",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9554140127388535,
+      "expected_count": 5,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\friday\\Friday Eve - 9th Hour.xml",
+      "matched_document_title": "Great Friday Eve (The Ninth Hour)",
+      "match_mode": "exact",
+      "service": "EVE of Great Friday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "EZEKIEL 21:33-37",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9340974212034384,
+      "expected_count": 5,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\friday\\Friday Eve - 9th Hour.xml",
+      "matched_document_title": "Great Friday Eve (The Ninth Hour)",
+      "match_mode": "merged",
+      "service": "EVE of Great Friday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 27:3-4, 34:4 (LXX) [SELECTION]",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "EVE of Great Friday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MATTHEW 26:47-58",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.48257839721254353,
+      "expected_count": 12,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\friday\\Friday Eve - 9th Hour.xml",
+      "matched_document_title": "Great Friday Eve (The Ninth Hour)",
+      "match_mode": "merged",
+      "service": "EVE of Great Friday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "ISAIAH 27:11-13, 28:1-15 [SELECTION]",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "EVE of Great Friday",
+      "hour": "ELEVENTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 2:1-2, 2:4-5",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "EVE of Great Friday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MATTHEW 26:59-75",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.4449732302201071,
+      "expected_count": 17,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\friday\\Friday Eve - 11th Hour.xml",
+      "matched_document_title": "Great Friday Eve (The Eleventh Hour)",
+      "match_mode": "merged",
+      "service": "EVE of Great Friday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "DEUTERONOMY 5:1, 8:19-END, 9:1-24 [SELECTION]",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Great Friday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "ISAIAH 1:2-9",
+      "status": "skipped",
+      "reason": "alignment_failed",
+      "similarity": 0.6375838926174496,
+      "service": "DAY of Great Friday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "ISAIAH 2:10-21",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Friday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "JEREMIAH 22:29-END, 23:1-6 [SELECTION]",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Great Friday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "ISAIAH 24:1-13",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Friday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "WISDOM OF SOLOMON 2:12-22",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9400386847195358,
+      "expected_count": 11,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\friday\\Friday - 1st Hour.xml",
+      "matched_document_title": "Great Friday (The First Hour)",
+      "match_mode": "exact",
+      "service": "DAY of Great Friday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "MICAH 1:16, 2:1-3",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Great Friday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "MICAH 7:1-8 [SELECTION]",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [
+        7
+      ],
+      "service": "DAY of Great Friday",
+      "hour": "FIRST Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 26:12, 34:11, 34:12, 34:16 (LXX) [SELECTION]",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Great Friday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MATTHEW 27:1-14",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [
+        13
+      ],
+      "service": "DAY of Great Friday",
+      "hour": "FIRST Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "Homily",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Great Friday",
+      "hour": "FIRST Hour",
+      "section": "Exposition"
+    },
+    {
+      "title": "GALATIANS 6:14-END",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Friday",
+      "hour": "FIRST Hour",
+      "section": "Pauline Epistle"
+    },
+    {
+      "title": "GENESIS 48:1-19 [SELECTION]",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [
+        18
+      ],
+      "service": "DAY of Great Friday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "ISAIAH 50:4-9",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.42627737226277373,
+      "expected_count": 6,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\friday\\Friday - 3rd Hour.xml",
+      "matched_document_title": "Great Friday (The Third Hour)",
+      "match_mode": "exact",
+      "service": "DAY of Great Friday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "AMOS 9:1, 9:4-6, 9:8-10",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Friday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "JOB 29:21-END, 30:1-10",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Great Friday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 37:18, 21:17 (LXX) [SELECTION]",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Great Friday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MATTHEW 27:15-26",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.3648928818244644,
+      "expected_count": 12,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\friday\\Friday - 3rd Hour.xml",
+      "matched_document_title": "Great Friday (The Third Hour)",
+      "match_mode": "exact",
+      "service": "DAY of Great Friday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "Homily",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Great Friday",
+      "hour": "THIRD Hour",
+      "section": "Exposition"
+    },
+    {
+      "title": "COLOSSIANS 2:13-15",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Friday",
+      "hour": "THIRD Hour",
+      "section": "Pauline Epistle"
+    },
+    {
+      "title": "NUMBERS 21:1-9",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9326599326599326,
+      "expected_count": 9,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\friday\\Friday - 6th Hour.xml",
+      "matched_document_title": "Great Friday (The Sixth Hour)",
+      "match_mode": "exact",
+      "service": "DAY of Great Friday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "ISAIAH 53:7-END [SELECTION]",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Friday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "ISAIAH 12:2-END, 13:2-10",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Great Friday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "AMOS 8:9-12",
+      "status": "skipped",
+      "reason": "alignment_failed",
+      "similarity": 0.7574468085106383,
+      "service": "DAY of Great Friday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 37:21-22, 21:17-19, 21:8-9 (LXX) [SELECTION]",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Great Friday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MATTHEW 27:27-45",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.4173180998196031,
+      "expected_count": 19,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\friday\\Friday - 6th Hour.xml",
+      "matched_document_title": "Great Friday (The Sixth Hour)",
+      "match_mode": "exact",
+      "service": "DAY of Great Friday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "JEREMIAH 11:17-END, 12:1-13",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Great Friday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "ZECHARIAH 14:5-11 [SELECTION]",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9536082474226805,
+      "expected_count": 7,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\friday\\Friday - 9th Hour.xml",
+      "matched_document_title": "Great Friday (The Ninth Hour)",
+      "match_mode": "merged",
+      "service": "DAY of Great Friday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "ZECHARIAH 2:1-3, 2:10-11 [SELECTION]",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Friday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 68:2, 68:22 (LXX)",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Friday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MATTHEW 27:46-50",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.4533333333333333,
+      "expected_count": 5,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\friday\\Friday - 9th Hour.xml",
+      "matched_document_title": "Great Friday (The Ninth Hour)",
+      "match_mode": "exact",
+      "service": "DAY of Great Friday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "EXODUS 12:1-14",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.9783132530120482,
+      "expected_count": 14,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\friday\\Friday - 11th Hour.xml",
+      "matched_document_title": "Great Friday (The Eleventh Hour)",
+      "match_mode": "merged",
+      "service": "DAY of Great Friday",
+      "hour": "ELEVENTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "LEVITICUS 23:5-12",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Friday",
+      "hour": "ELEVENTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 142:6-7, 30:6 (LXX) [SELECTION]",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Great Friday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MATTHEW 27:51-56",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.42122719734660036,
+      "expected_count": 6,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\friday\\Friday - 11th Hour.xml",
+      "matched_document_title": "Great Friday (The Eleventh Hour)",
+      "match_mode": "exact",
+      "service": "DAY of Great Friday",
+      "hour": "ELEVENTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "Homily",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Great Friday",
+      "hour": "ELEVENTH Hour",
+      "section": "Exposition"
+    },
+    {
+      "title": "GALATIANS 3:1-6 [SELECTION]",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Friday",
+      "hour": "ELEVENTH Hour",
+      "section": "Pauline Epistle"
+    },
+    {
+      "title": "LAMENTATIONS OF JEREMIAH 3:1-END",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Friday",
+      "hour": "TWELFTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "JONAH 1:10-END, 2:1-8",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Great Friday",
+      "hour": "TWELFTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 44:7, 44:9, 87:7, 22:4",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Great Friday",
+      "hour": "TWELFTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MATTHEW 27:57-61",
+      "status": "split",
+      "reason": null,
+      "similarity": 0.29793510324483774,
+      "expected_count": 5,
+      "matched_file": "d:\\AppDev\\LiturgicalText\\copticreaderfiles\\decrypted_xml\\pascha\\friday\\Friday - 12th Hour.xml",
+      "matched_document_title": "Great Friday (The Twelfth Hour)",
+      "match_mode": "exact",
+      "service": "DAY of Great Friday",
+      "hour": "TWELFTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "PSALMS 151:1-END",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Saturday",
+      "hour": "Midnight Praise",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "THE SECOND ODE OF MOSES THE ARCHPROPHET",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Saturday",
+      "hour": "Midnight Praise",
+      "section": "Readings"
+    },
+    {
+      "title": "THE PRAYER OF HABAKKUK THE PROPHET",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Saturday",
+      "hour": "Midnight Praise",
+      "section": "Readings"
+    },
+    {
+      "title": "THE PRAYER OF JONAH THE PROPHET",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Saturday",
+      "hour": "Midnight Praise",
+      "section": "Readings"
+    },
+    {
+      "title": "THE PRAYER OF MANASSEH THE KING",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Saturday",
+      "hour": "Midnight Praise",
+      "section": "Readings"
+    },
+    {
+      "title": "THE FIRST ODE OF ISAIAH THE PROPHET",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Saturday",
+      "hour": "Midnight Praise",
+      "section": "Readings"
+    },
+    {
+      "title": "THE SECOND ODE OF ISAIAH THE PROPHET",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Saturday",
+      "hour": "Midnight Praise",
+      "section": "Readings"
+    },
+    {
+      "title": "THE THIRD ODE OF ISAIAH THE PROPHET",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Saturday",
+      "hour": "Midnight Praise",
+      "section": "Readings"
+    },
+    {
+      "title": "THE ODE OF JEREMIAH THE PROPHET",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Saturday",
+      "hour": "Midnight Praise",
+      "section": "Readings"
+    },
+    {
+      "title": "THE ODE OF BARUCH THE PROPHET",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Saturday",
+      "hour": "Midnight Praise",
+      "section": "Readings"
+    },
+    {
+      "title": "THE PRAYER OF DAVID THE PROPHET",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Saturday",
+      "hour": "Midnight Praise",
+      "section": "Readings"
+    },
+    {
+      "title": "THE PRAYER OF DANIEL THE PROPHET",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Saturday",
+      "hour": "Midnight Praise",
+      "section": "Readings"
+    },
+    {
+      "title": "THE PRAYER OF AZARIAH",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Saturday",
+      "hour": "Midnight Praise",
+      "section": "Readings"
+    },
+    {
+      "title": "THE SONG OF MARY",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Saturday",
+      "hour": "Midnight Praise",
+      "section": "Readings"
+    },
+    {
+      "title": "THE PRAYER OF ZECHARIAH THE PRIEST",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Saturday",
+      "hour": "Midnight Praise",
+      "section": "Readings"
+    },
+    {
+      "title": "THE PRAYER OF SIMEON THE ELDER",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Saturday",
+      "hour": "Midnight Praise",
+      "section": "Readings"
+    },
+    {
+      "title": "ISAIAH 55:2-END [SELECTION]",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Saturday",
+      "hour": "Matins",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 87:5, 43:24, 43:27, 125:2-3 (LXX) [SELECTION]",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Great Saturday",
+      "hour": "Matins",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MATTHEW 27:62-66",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Saturday",
+      "hour": "Matins",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "Homily",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Great Saturday",
+      "hour": "Matins",
+      "section": "Exposition"
+    },
+    {
+      "title": "1 CORINTHIANS 5:7-END",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Saturday",
+      "hour": "Matins",
+      "section": "Pauline Epistle"
+    },
+    {
+      "title": "JEREMIAH 13:15-22 [SELECTION]",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Saturday",
+      "hour": "THIRD Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 15:10-11 (LXX) [SELECTION]",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Saturday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MATTHEW 16:24-END",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Saturday",
+      "hour": "THIRD Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "ISAIAH 50:10-END, 51:1-8",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Great Saturday",
+      "hour": "SIXTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 129:1-2, 141:8 (LXX) [SELECTION]",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Great Saturday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MATTHEW 5:3-12 [SELECTION]",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Saturday",
+      "hour": "SIXTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "CHAPTER 2",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings"
+    },
+    {
+      "title": "CHAPTER 3",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings"
+    },
+    {
+      "title": "CHAPTER 4",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings"
+    },
+    {
+      "title": "CHAPTER 5",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings"
+    },
+    {
+      "title": "CHAPTER 6",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings"
+    },
+    {
+      "title": "CHAPTER 7",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings"
+    },
+    {
+      "title": "CHAPTER 8",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings"
+    },
+    {
+      "title": "CHAPTER 9",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings"
+    },
+    {
+      "title": "CHAPTER 10",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings"
+    },
+    {
+      "title": "CHAPTER 11",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings"
+    },
+    {
+      "title": "CHAPTER 12",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings"
+    },
+    {
+      "title": "CHAPTER 13",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings"
+    },
+    {
+      "title": "CHAPTER 14",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings"
+    },
+    {
+      "title": "CHAPTER 15",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings"
+    },
+    {
+      "title": "CHAPTER 16",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings"
+    },
+    {
+      "title": "CHAPTER 17",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings"
+    },
+    {
+      "title": "CHAPTER 18",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings"
+    },
+    {
+      "title": "CHAPTER 19",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings"
+    },
+    {
+      "title": "CHAPTER 20",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings"
+    },
+    {
+      "title": "CHAPTER 21",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings"
+    },
+    {
+      "title": "CHAPTER 22",
+      "status": "skipped",
+      "reason": "table_not_single_block",
+      "service": "DAY of Great Saturday",
+      "hour": "The Book of the Revelation of St. John",
+      "section": "Readings"
+    },
+    {
+      "title": "ISAIAH 45:15-20 [SELECTION]",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Saturday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "JEREMIAH 38:31-34",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Saturday",
+      "hour": "NINTH Hour",
+      "section": "Prophecies"
+    },
+    {
+      "title": "PSALMS 40:11, 40:6 (LXX)",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Saturday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "JOHN 5:21-30",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Saturday",
+      "hour": "NINTH Hour",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "PSALMS 3:6, 3:4, 81:8 (LXX)",
+      "status": "skipped",
+      "reason": "reference_not_simple_range",
+      "service": "DAY of Great Saturday",
+      "hour": "Divine Liturgy",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "MATTHEW 28:1-END",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Saturday",
+      "hour": "Divine Liturgy",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "PSALMS 67:2 (LXX)",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Saturday",
+      "hour": "Divine Liturgy",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "LUKE 24:1-12",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Saturday",
+      "hour": "Divine Liturgy",
+      "section": "English and Arabic Psalm & Gospel"
+    },
+    {
+      "title": "1 CORINTHIANS 15:1-23 [SELECTION]",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Saturday",
+      "hour": "Divine Liturgy",
+      "section": "Pauline Epistle"
+    },
+    {
+      "title": "1 PETER 1:1-9",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Saturday",
+      "hour": "Divine Liturgy",
+      "section": "Catholic Epistle"
+    },
+    {
+      "title": "ACTS 3:12-21",
+      "status": "skipped",
+      "reason": "no_matching_copticreader_section",
+      "candidate_counts": [],
+      "service": "DAY of Great Saturday",
+      "hour": "Divine Liturgy",
+      "section": "Praxis"
+    }
+  ]
+}
