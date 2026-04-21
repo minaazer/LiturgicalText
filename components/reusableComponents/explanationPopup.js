@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import {
+  StyleSheet,
   View,
   Text,
   TouchableOpacity,
@@ -7,6 +8,15 @@ import {
 } from "react-native";
 import { Feather } from "@expo/vector-icons";
 import { presentationStyles } from "../css/presentationStyles";
+
+const popupColors = {
+  navy: "#003060",
+  navySoft: "rgba(0, 48, 96, 0.08)",
+  navyBorder: "rgba(0, 48, 96, 0.18)",
+  gold: "#D8D48A",
+  text: "#102A43",
+  muted: "#5F7184",
+};
 
 export const ExplanationPopup = ({ visible, popupData, onClose }) => {
   const [language, setLanguage] = useState("en");
@@ -62,33 +72,17 @@ export const ExplanationPopup = ({ visible, popupData, onClose }) => {
           </Text>
 
           <View
-            style={{
-              position: "absolute",
-              right: 0,
-              flexDirection: "row",
-              alignItems: "center",
-              gap: 6,
-            }}
+            style={styles.controls}
           >
             {hasArabic && (
               <TouchableOpacity
                 onPress={() =>
                   setLanguage((prev) => (prev === "en" ? "ar" : "en"))
                 }
-                style={{
-                  minWidth: 72,
-                  paddingHorizontal: 10,
-                  paddingVertical: 6,
-                  borderRadius: 16,
-                  backgroundColor: "rgba(0, 122, 255, 0.12)",
-                  borderWidth: 1,
-                  borderColor: "rgba(0, 122, 255, 0.28)",
-                  alignItems: "center",
-                  justifyContent: "center",
-                }}
+                style={styles.languageButton}
               >
-                <Text style={{ fontSize: 14, color: "#007aff", fontWeight: "600" }}>
-                  {language === "en" ? "العربية" : "English"}
+                <Text style={styles.languageButtonText}>
+                  {language === "en" ? "عربي" : "English"}
                 </Text>
               </TouchableOpacity>
             )}
@@ -98,34 +92,16 @@ export const ExplanationPopup = ({ visible, popupData, onClose }) => {
                 setFontScale((prev) => Math.max(0.8, +(prev - 0.1).toFixed(2)))
               }
               disabled={!canDecreaseFont}
-              style={{
-                width: 34,
-                height: 34,
-                borderRadius: 17,
-                backgroundColor: "rgba(0, 122, 255, 0.12)",
-                borderWidth: 1,
-                borderColor: "rgba(0, 122, 255, 0.28)",
-                alignItems: "center",
-                justifyContent: "center",
-                opacity: canDecreaseFont ? 1 : 0.45,
-              }}
+              style={[
+                styles.iconButton,
+                !canDecreaseFont && styles.iconButtonDisabled,
+              ]}
             >
-              <Feather name="minus" size={18} color="#007aff" />
+              <Feather name="minus" size={18} color={popupColors.navy} />
             </TouchableOpacity>
 
-            <View
-              style={{
-                width: 34,
-                height: 34,
-                borderRadius: 17,
-                backgroundColor: "rgba(0, 122, 255, 0.08)",
-                borderWidth: 1,
-                borderColor: "rgba(0, 122, 255, 0.2)",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
-            >
-              <Feather name="type" size={16} color="#007aff" />
+            <View style={styles.typeIndicator}>
+              <Feather name="type" size={16} color={popupColors.gold} />
             </View>
 
             <TouchableOpacity
@@ -133,19 +109,12 @@ export const ExplanationPopup = ({ visible, popupData, onClose }) => {
                 setFontScale((prev) => Math.min(3, +(prev + 0.1).toFixed(2)))
               }
               disabled={!canIncreaseFont}
-              style={{
-                width: 34,
-                height: 34,
-                borderRadius: 17,
-                backgroundColor: "rgba(0, 122, 255, 0.12)",
-                borderWidth: 1,
-                borderColor: "rgba(0, 122, 255, 0.28)",
-                alignItems: "center",
-                justifyContent: "center",
-                opacity: canIncreaseFont ? 1 : 0.45,
-              }}
+              style={[
+                styles.iconButton,
+                !canIncreaseFont && styles.iconButtonDisabled,
+              ]}
             >
-              <Feather name="plus" size={18} color="#007aff" />
+              <Feather name="plus" size={18} color={popupColors.navy} />
             </TouchableOpacity>
           </View>
         </View>
@@ -181,6 +150,56 @@ export const ExplanationPopup = ({ visible, popupData, onClose }) => {
   );
 };
 
+const styles = StyleSheet.create({
+  controls: {
+    position: "absolute",
+    right: 0,
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 6,
+  },
+  languageButton: {
+    minWidth: 66,
+    minHeight: 32,
+    paddingHorizontal: 10,
+    paddingVertical: 6,
+    borderRadius: 8,
+    backgroundColor: popupColors.navy,
+    borderWidth: 1,
+    borderColor: popupColors.navy,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  languageButtonText: {
+    fontSize: 13,
+    color: "#FFFFFF",
+    fontWeight: "800",
+  },
+  iconButton: {
+    width: 34,
+    height: 34,
+    borderRadius: 8,
+    backgroundColor: popupColors.navySoft,
+    borderWidth: 1,
+    borderColor: popupColors.navyBorder,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  iconButtonDisabled: {
+    opacity: 0.4,
+  },
+  typeIndicator: {
+    width: 34,
+    height: 34,
+    borderRadius: 8,
+    backgroundColor: popupColors.text,
+    borderWidth: 1,
+    borderColor: popupColors.text,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+});
+
 const parseFormattedText = (text, keyPrefix = "", language = "en", fontScale = 1) => {
   const regex =
     /\*\*\*(.*?)\*\*\*|\*\*(.*?)\*\*|"(.*?)"|^-(.*?)(?=\n|$)|^>>(.*?)(?=\n|$)/gm;
@@ -190,7 +209,7 @@ const parseFormattedText = (text, keyPrefix = "", language = "en", fontScale = 1
   let lastIndex = 0;
 
   while ((match = regex.exec(text)) !== null) {
-    const [fullMatch, boldItalic, bold, italic, bullet, doubleIndent] = match;
+    const [, boldItalic, bold, italic, bullet, doubleIndent] = match;
 
     if (lastIndex < match.index) {
       elements.push({

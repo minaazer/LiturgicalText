@@ -1,31 +1,39 @@
 import React, { useCallback, useEffect, useMemo, useState } from "react";
 import {
   Alert,
-  ScrollView,
+  Platform,
+  Pressable,
+  StyleSheet,
   Text,
   TextInput,
-  TouchableOpacity,
   View,
-  Platform,
 } from "react-native";
 import { useNavigation, useRoute } from "@react-navigation/native";
+import { Ionicons } from "@expo/vector-icons";
 import * as ImagePicker from "expo-image-picker";
 import * as DocumentPicker from "expo-document-picker";
 import * as FileSystem from "expo-file-system";
 import Constants from "expo-constants";
-import { presentationStyles } from "../css/presentationStyles";
 import {
   enqueueReport,
   getQueuedReports,
   replaceQueuedReports,
 } from "../functions/reportQueue";
 import app from "../../app.json";
+import {
+  PrimaryActionButton,
+  SegmentedControl,
+  SettingsRow,
+  SettingsScaffold,
+  SettingsSection,
+  settingsPalette,
+} from "../reusableComponents/settingsUI";
 
 const ISSUE_TYPES = [
-  "Bug",
-  "Text Correction",
-  "Rite Correction",
-  "Suggestion",
+  { label: "Bug", value: "Bug", icon: "bug-outline" },
+  { label: "Text", value: "Text Correction", icon: "create-outline" },
+  { label: "Rite", value: "Rite Correction", icon: "book-outline" },
+  { label: "Idea", value: "Suggestion", icon: "bulb-outline" },
 ];
 
 const MAX_VIDEO_MS = 2 * 60 * 1000;
@@ -33,8 +41,7 @@ const MAX_VIDEO_BYTES = 40 * 1024 * 1024;
 const MAX_OTHER_BYTES = 10 * 1024 * 1024;
 const ATTACHMENTS_DIR = `${FileSystem.documentDirectory}report-attachments/`;
 
-const reportApiBaseUrl =
-  Constants.expoConfig?.extra?.reportApiBaseUrl || "";
+const reportApiBaseUrl = Constants.expoConfig?.extra?.reportApiBaseUrl || "";
 const reportBaseUrl = reportApiBaseUrl.replace(/\/$/, "");
 
 const formatBytes = (bytes) => {
@@ -60,6 +67,31 @@ const deriveFileName = (uri, fallback) => {
   return name || fallback;
 };
 
+const ReportField = ({
+  label,
+  value,
+  onChangeText,
+  placeholder,
+  multiline = false,
+  keyboardType,
+  autoCapitalize,
+}) => (
+  <View style={styles.field}>
+    <Text style={styles.fieldLabel}>{label}</Text>
+    <TextInput
+      style={[styles.input, multiline && styles.textArea]}
+      value={value}
+      onChangeText={onChangeText}
+      placeholder={placeholder}
+      placeholderTextColor={settingsPalette.muted}
+      multiline={multiline}
+      textAlignVertical={multiline ? "top" : "center"}
+      keyboardType={keyboardType}
+      autoCapitalize={autoCapitalize}
+    />
+  </View>
+);
+
 const ReportIssueScreen = () => {
   const navigation = useNavigation();
   const route = useRoute();
@@ -78,11 +110,11 @@ const ReportIssueScreen = () => {
 
   const appVersion = app.expo?.version || "unknown";
 
-  const contextLabel = useMemo(() => {
-    const parts = [];
-    if (context?.screenName) parts.push(`Screen: ${context.screenName}`);
-    if (context?.tableTitle) parts.push(`Title: ${context.tableTitle}`);
-    return parts.length ? parts.join(" | ") : "No context attached.";
+  const contextRows = useMemo(() => {
+    const rows = [];
+    if (context?.screenName) rows.push({ label: "Screen", value: context.screenName });
+    if (context?.tableTitle) rows.push({ label: "Title", value: context.tableTitle });
+    return rows;
   }, [context]);
 
   const persistAttachment = useCallback(async (asset, fallbackName) => {
@@ -391,158 +423,310 @@ const ReportIssueScreen = () => {
   ]);
 
   return (
-    <View style={presentationStyles.settingsScreen}>
-      <ScrollView
-        contentContainerStyle={presentationStyles.settingsInnerContainer}
-        style={presentationStyles.scrollView}
-      >
-        <View style={presentationStyles.titleContainer}>
-          <TouchableOpacity
-            style={presentationStyles.backButton}
-            onPress={() => navigation.goBack()}
-          >
-            <Text style={presentationStyles.buttonText}>Back</Text>
-          </TouchableOpacity>
-          <Text style={presentationStyles.screenTitle}>Report Issue</Text>
+    <SettingsScaffold title="Report Issue" onBack={() => navigation.goBack()}>
+      <SettingsSection title="Report Type">
+        <View style={styles.sectionBody}>
+          <SegmentedControl
+            value={issueType}
+            onChange={setIssueType}
+            options={ISSUE_TYPES}
+          />
         </View>
+      </SettingsSection>
 
-        <Text style={presentationStyles.reportContextText}>{contextLabel}</Text>
-        <Text style={presentationStyles.reportHelperText}>
-          Attachments: images, videos (max 2 min / 40 MB), or text files (max 10 MB).
-        </Text>
-
-        <View style={presentationStyles.reportSection}>
-          <Text style={presentationStyles.reportLabel}>Type</Text>
-          <View style={presentationStyles.reportTypeRow}>
-            {ISSUE_TYPES.map((type) => (
-              <TouchableOpacity
-                key={type}
-                style={[
-                  presentationStyles.reportTypeButton,
-                  issueType === type && presentationStyles.reportTypeButtonActive,
-                ]}
-                onPress={() => setIssueType(type)}
-              >
-                <Text
-                  style={[
-                    presentationStyles.reportTypeButtonText,
-                    issueType === type &&
-                      presentationStyles.reportTypeButtonTextActive,
-                  ]}
-                >
-                  {type}
-                </Text>
-              </TouchableOpacity>
-            ))}
+      <SettingsSection title="Context">
+        {contextRows.length ? (
+          contextRows.map((item) => (
+            <SettingsRow key={item.label} title={item.label} subtitle={item.value} />
+          ))
+        ) : (
+          <View style={styles.sectionBody}>
+            <Text style={styles.helperText}>No context attached.</Text>
           </View>
+        )}
+        <View style={styles.contextFooter}>
+          <Text style={styles.helperText}>App version {appVersion}</Text>
+          <Text style={styles.helperText}>
+            {Platform.OS} {String(Platform.Version)}
+          </Text>
         </View>
+      </SettingsSection>
 
-        <View style={presentationStyles.reportSection}>
-          <Text style={presentationStyles.reportLabel}>Name (optional)</Text>
-          <TextInput
-            style={presentationStyles.reportInput}
+      <SettingsSection title="Contact">
+        <View style={styles.sectionBody}>
+          <ReportField
+            label="Name"
             value={name}
             onChangeText={setName}
-            placeholder="Your name"
+            placeholder="Optional"
           />
-          <Text style={presentationStyles.reportLabel}>Email (optional)</Text>
-          <TextInput
-            style={presentationStyles.reportInput}
+          <ReportField
+            label="Email"
             value={email}
             onChangeText={setEmail}
-            placeholder="you@example.com"
+            placeholder="Optional"
             keyboardType="email-address"
             autoCapitalize="none"
           />
         </View>
+      </SettingsSection>
 
-        <View style={presentationStyles.reportSection}>
-          <Text style={presentationStyles.reportLabel}>Summary</Text>
-          <TextInput
-            style={presentationStyles.reportInput}
+      <SettingsSection title="Details">
+        <View style={styles.sectionBody}>
+          <ReportField
+            label="Summary"
             value={summary}
             onChangeText={setSummary}
             placeholder="Short summary"
           />
-          <Text style={presentationStyles.reportLabel}>Details</Text>
-          <TextInput
-            style={presentationStyles.reportTextArea}
+          <ReportField
+            label="Details"
             value={details}
             onChangeText={setDetails}
             placeholder="Describe what happened or what should change"
             multiline
           />
-          <Text style={presentationStyles.reportLabel}>Expected Text/Behavior (optional)</Text>
-          <TextInput
-            style={presentationStyles.reportInput}
+          <ReportField
+            label="Expected Text/Behavior"
             value={expected}
             onChangeText={setExpected}
-            placeholder="What you expected"
+            placeholder="Optional"
           />
-          <Text style={presentationStyles.reportLabel}>Actual Text/Behavior (optional)</Text>
-          <TextInput
-            style={presentationStyles.reportInput}
+          <ReportField
+            label="Actual Text/Behavior"
             value={actual}
             onChangeText={setActual}
-            placeholder="What actually happened"
+            placeholder="Optional"
           />
         </View>
+      </SettingsSection>
 
-        <View style={presentationStyles.reportSection}>
-          <Text style={presentationStyles.reportLabel}>Attachments</Text>
-          <View style={presentationStyles.reportActionRow}>
-            <TouchableOpacity
-              style={presentationStyles.reportButton}
+      <SettingsSection
+        title="Attachments"
+        subtitle="Images, videos under 2 minutes, or text files"
+      >
+        <View style={styles.sectionBody}>
+          <View style={styles.attachmentActions}>
+            <Pressable
+              accessibilityRole="button"
               onPress={handlePickMedia}
+              style={({ pressed }) => [
+                styles.attachmentButton,
+                pressed && styles.pressed,
+              ]}
             >
-              <Text style={presentationStyles.reportButtonText}>Add Image/Video of Issue</Text>
-            </TouchableOpacity>
-            <TouchableOpacity
-              style={presentationStyles.reportButtonSecondary}
+              <Ionicons name="image-outline" size={18} color={settingsPalette.primary} />
+              <Text style={styles.attachmentButtonText}>Image/Video</Text>
+            </Pressable>
+            <Pressable
+              accessibilityRole="button"
               onPress={handlePickDocument}
+              style={({ pressed }) => [
+                styles.attachmentButton,
+                pressed && styles.pressed,
+              ]}
             >
-              <Text style={presentationStyles.reportButtonText}>Add Text File</Text>
-            </TouchableOpacity>
+              <Ionicons
+                name="document-text-outline"
+                size={18}
+                color={settingsPalette.primary}
+              />
+              <Text style={styles.attachmentButtonText}>Text File</Text>
+            </Pressable>
           </View>
-          {attachments.map((file, index) => (
-            <View key={`${file.name}-${index}`} style={presentationStyles.attachmentRow}>
-              <Text style={presentationStyles.attachmentText}>
-                {file.name} ({formatBytes(file.size)})
-              </Text>
-              <TouchableOpacity onPress={() => removeAttachment(index)}>
-                <Text style={presentationStyles.attachmentRemove}>Remove</Text>
-              </TouchableOpacity>
+          {attachments.length ? (
+            <View style={styles.attachmentList}>
+              {attachments.map((file, index) => (
+                <View key={`${file.name}-${index}`} style={styles.attachmentRow}>
+                  <Ionicons
+                    name={
+                      file.kind === "video"
+                        ? "videocam-outline"
+                        : file.kind === "image"
+                          ? "image-outline"
+                          : "document-text-outline"
+                    }
+                    size={18}
+                    color={settingsPalette.primary}
+                  />
+                  <View style={styles.attachmentTextWrap}>
+                    <Text style={styles.attachmentName} numberOfLines={1}>
+                      {file.name}
+                    </Text>
+                    <Text style={styles.attachmentSize}>{formatBytes(file.size)}</Text>
+                  </View>
+                  <Pressable
+                    accessibilityRole="button"
+                    accessibilityLabel={`Remove ${file.name}`}
+                    onPress={() => removeAttachment(index)}
+                    style={({ pressed }) => [
+                      styles.removeButton,
+                      pressed && styles.pressed,
+                    ]}
+                  >
+                    <Ionicons name="close" size={18} color={settingsPalette.primary} />
+                  </Pressable>
+                </View>
+              ))}
             </View>
-          ))}
+          ) : null}
         </View>
+      </SettingsSection>
 
-        {status?.message && (
-          <Text
-            style={[
-              presentationStyles.reportStatusText,
-              status.type === "success" && presentationStyles.reportStatusSuccess,
-              status.type === "info" && presentationStyles.reportStatusInfo,
-            ]}
-          >
-            {status.message}
-          </Text>
-        )}
-        {errorDetail ? (
-          <Text style={presentationStyles.reportStatusError}>{errorDetail}</Text>
-        ) : null}
-
-        <TouchableOpacity
-          style={presentationStyles.reportSubmitButton}
-          onPress={handleSubmit}
-          disabled={submitting}
+      {status?.message ? (
+        <View
+          style={[
+            styles.statusCard,
+            status.type === "success" && styles.statusSuccess,
+            status.type === "info" && styles.statusInfo,
+          ]}
         >
-          <Text style={presentationStyles.reportSubmitButtonText}>
-            {submitting ? "Sending..." : "Submit Report"}
-          </Text>
-        </TouchableOpacity>
-      </ScrollView>
-    </View>
+          <Text style={styles.statusText}>{status.message}</Text>
+        </View>
+      ) : null}
+      {errorDetail ? (
+        <View style={[styles.statusCard, styles.statusError]}>
+          <Text style={styles.statusText}>{errorDetail}</Text>
+        </View>
+      ) : null}
+
+      <PrimaryActionButton
+        icon="send-outline"
+        label={submitting ? "Sending..." : "Submit Report"}
+        onPress={handleSubmit}
+        disabled={submitting}
+      />
+    </SettingsScaffold>
   );
 };
+
+const styles = StyleSheet.create({
+  sectionBody: {
+    padding: 14,
+    gap: 12,
+  },
+  field: {
+    gap: 6,
+  },
+  fieldLabel: {
+    color: settingsPalette.muted,
+    fontSize: 12,
+    fontWeight: "800",
+    textTransform: "uppercase",
+  },
+  input: {
+    minHeight: 46,
+    paddingHorizontal: 12,
+    paddingVertical: 8,
+    borderRadius: 8,
+    backgroundColor: settingsPalette.blueWash,
+    borderWidth: 1,
+    borderColor: settingsPalette.border,
+    color: settingsPalette.text,
+    fontSize: 15,
+    fontWeight: "700",
+  },
+  textArea: {
+    minHeight: 112,
+    lineHeight: 21,
+  },
+  contextFooter: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    gap: 8,
+    paddingHorizontal: 14,
+    paddingBottom: 14,
+  },
+  helperText: {
+    color: settingsPalette.muted,
+    fontSize: 13,
+    fontWeight: "600",
+  },
+  attachmentActions: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    gap: 8,
+  },
+  attachmentButton: {
+    minHeight: 42,
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: 7,
+    paddingHorizontal: 12,
+    borderRadius: 8,
+    backgroundColor: settingsPalette.blueSoft,
+    borderWidth: 1,
+    borderColor: settingsPalette.border,
+  },
+  attachmentButtonText: {
+    color: settingsPalette.primary,
+    fontSize: 14,
+    fontWeight: "800",
+  },
+  attachmentList: {
+    gap: 8,
+  },
+  attachmentRow: {
+    minHeight: 54,
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 10,
+    paddingHorizontal: 10,
+    paddingVertical: 8,
+    borderRadius: 8,
+    backgroundColor: settingsPalette.blueWash,
+    borderWidth: 1,
+    borderColor: settingsPalette.border,
+  },
+  attachmentTextWrap: {
+    flex: 1,
+    minWidth: 0,
+  },
+  attachmentName: {
+    color: settingsPalette.text,
+    fontSize: 14,
+    fontWeight: "800",
+  },
+  attachmentSize: {
+    marginTop: 2,
+    color: settingsPalette.muted,
+    fontSize: 12,
+    fontWeight: "600",
+  },
+  removeButton: {
+    width: 34,
+    height: 34,
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: 8,
+    backgroundColor: settingsPalette.panel,
+  },
+  statusCard: {
+    padding: 12,
+    borderRadius: 8,
+    borderWidth: 1,
+  },
+  statusSuccess: {
+    backgroundColor: "#E8F7ED",
+    borderColor: "#A8D8B8",
+  },
+  statusInfo: {
+    backgroundColor: settingsPalette.blueSoft,
+    borderColor: settingsPalette.border,
+  },
+  statusError: {
+    backgroundColor: "#FDECEC",
+    borderColor: "#F3B5B5",
+  },
+  statusText: {
+    color: settingsPalette.text,
+    fontSize: 14,
+    fontWeight: "700",
+  },
+  pressed: {
+    opacity: 0.75,
+  },
+});
 
 export default ReportIssueScreen;

@@ -11,7 +11,7 @@ import { loadIconVariables, iconVariablesFallback } from "../../data/iconVariabl
 import SettingsContext from "../../settings/settingsContext";
 import { getJson } from "../functions/jsonCache";
 
-const GlorificationScreen = () => {
+const GlorificationScreen = ({ route }) => {
   const [drawerItems, setDrawerItems] = useState([]);
   const [currentTable, setCurrentTable] = useState("");
   const [glorificationJson, setGlorificationJson] = useState(glorificationData);
@@ -73,6 +73,7 @@ const GlorificationScreen = () => {
       setDrawerItems={setDrawerItems}
       setCurrentTable={setCurrentTable}
       html={html}
+      drawerTitle={route?.params?.drawerLabel || pageTitle}
     />
   );
 };

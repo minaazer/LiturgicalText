@@ -51,6 +51,9 @@ async function initialize() {
         // Wait for initialization before enabling interactions
         if (isInitialized) {
             sendMessage(JSON.stringify({ type: 'LOADING', data: false }));
+            if (typeof scheduleNativeTapTargetSync === "function") {
+              scheduleNativeTapTargetSync();
+            }
 
             listenToButtonClicks();
             listenToBookNavigationButtons();
@@ -97,8 +100,6 @@ function waitForInitialLayout() {
 //
 const dynamicTableClasses = `
 function applyDynamicTableClasses() {
-    console.log('Applying dynamic table classes');
-
     // Apply classes to all rows and cells dynamically
     document.querySelectorAll('table tr').forEach(function (row) {
         var columnCount = row.children.length; // Count the number of columns
@@ -109,9 +110,6 @@ function applyDynamicTableClasses() {
         });
     });
 
-    // Optional: Verification step
-    var sampleCount = document.querySelectorAll('td.column-1-3').length;
-    console.log('Total cells with class "column-1-3": ' + sampleCount);
 }
 `;
 
@@ -123,6 +121,8 @@ function handleTouchNavigation(event) {
   let touchStartY = 0;
   let buttonClicked = false;
   const isScrollMode = () => window._scrollMode === true;
+  const isNativeTapMode = () => window._nativeTapMode === true;
+  const isNativeHardwareKeyMode = () => window._nativeHardwareKeyMode === true;
 
   // Shared logic for handling element interactions
   function handleInteraction(pageX, pageY) {
@@ -183,6 +183,7 @@ function handleTouchNavigation(event) {
 
   // Touchstart and Mousedown: Start interaction
   function startInteraction(event) {
+    if (isNativeTapMode() && !isScrollMode()) return;
     if (!isScrollMode()) {
       event.preventDefault();
     }
@@ -209,6 +210,7 @@ function handleTouchNavigation(event) {
   // Touchmove and Mousemove: Handle move interactions
   function moveInteraction(event) {
     if (!isTouching) return;
+    if (isNativeTapMode() && !isScrollMode()) return;
     if (!isScrollMode()) {
       event.preventDefault();
     }
@@ -225,6 +227,7 @@ function handleTouchNavigation(event) {
 
   // Touchend and Mouseup: End interaction
   function endInteraction(event) {
+    if (isNativeTapMode() && !isScrollMode()) return;
     if (!isScrollMode()) {
       event.preventDefault();
     }
@@ -271,6 +274,7 @@ function handleTouchNavigation(event) {
   // Keyboard interaction
   function handleKeyPress(event) {
     if (isScrollMode()) return;
+    if (isNativeHardwareKeyMode()) return;
     const target = event.target;
     const tagName = target?.tagName ? target.tagName.toLowerCase() : "";
     if (
@@ -370,6 +374,229 @@ function handleTouchNavigation(event) {
     }
   }
 }
+`;
+
+const nativeTapHandling = `
+const NATIVE_TAP_INTERACTIVE_SELECTOR = [
+  ".explanation-button",
+  ".image-button",
+  ".audio-button",
+  ".navigationButton",
+  ".navigationLink",
+  ".skipButton",
+  "caption",
+  ".caption"
+].join(",");
+
+function findNativeTapInteractiveElement(x, y) {
+  const directTarget = document.elementFromPoint(x, y);
+  const directInteractive =
+    directTarget && directTarget.closest
+      ? directTarget.closest(NATIVE_TAP_INTERACTIVE_SELECTOR)
+      : null;
+
+  if (directInteractive) {
+    return directInteractive;
+  }
+
+  const defaultHitSlop = 22;
+  const captionHitSlop = 38;
+  const captionHorizontalLimit = 190;
+  const candidates = Array.from(document.querySelectorAll(NATIVE_TAP_INTERACTIVE_SELECTOR));
+
+  for (const candidate of candidates) {
+    const rect = candidate.getBoundingClientRect();
+    if (!rect || rect.width === 0 || rect.height === 0) {
+      continue;
+    }
+
+    const isCaption =
+      candidate.tagName.toLowerCase() === "caption" ||
+      candidate.classList.contains("caption");
+    const hitSlop = isCaption ? captionHitSlop : defaultHitSlop;
+    const rightBoundary = isCaption
+      ? Math.min(rect.right, rect.left + captionHorizontalLimit)
+      : rect.right;
+
+    const isNear =
+      x >= rect.left - hitSlop &&
+      x <= rightBoundary + hitSlop &&
+      y >= rect.top - hitSlop &&
+      y <= rect.bottom + hitSlop;
+
+    if (isNear) {
+      return candidate;
+    }
+  }
+
+  return null;
+}
+
+function triggerNativeTapInteractiveElement(element) {
+  let currentElement = element;
+
+  while (currentElement) {
+    if (currentElement.classList.contains("explanation-button")) {
+      listenToPopupButtonClicks(currentElement);
+      return true;
+    }
+
+    if (currentElement.classList.contains("image-button")) {
+      listenToImagePopupButtonClicks(currentElement);
+      return true;
+    }
+
+    if (currentElement.classList.contains("audio-button")) {
+      listenToAudioPopupButtonClicks(currentElement);
+      return true;
+    }
+
+    if (currentElement.classList.contains("caption") || currentElement.tagName.toLowerCase() === "caption") {
+      listenToTableCaption(currentElement);
+      return true;
+    }
+
+    if (
+      currentElement.classList.contains("navigationButton") ||
+      currentElement.classList.contains("navigationLink")
+    ) {
+      listenToButtonClick(currentElement);
+      return true;
+    }
+
+    if (currentElement.classList.contains("skipButton")) {
+      listenToBookNavigationButtons(currentElement);
+      return true;
+    }
+
+    currentElement = currentElement.parentElement;
+  }
+
+  return false;
+}
+
+function ensureNativeTapElementIds() {
+  const candidates = Array.from(document.querySelectorAll(NATIVE_TAP_INTERACTIVE_SELECTOR));
+  candidates.forEach((candidate, index) => {
+    if (!candidate.dataset.nativeTapId) {
+      candidate.dataset.nativeTapId =
+        "native_tap_" + index + "_" + Math.random().toString(36).slice(2);
+    }
+  });
+  return candidates;
+}
+
+function syncNativeTapTargets() {
+  try {
+    const defaultHitSlop = 22;
+    const captionHitSlop = 38;
+    const captionHorizontalLimit = 190;
+    const targets = ensureNativeTapElementIds()
+      .map((candidate) => {
+        const style = window.getComputedStyle(candidate);
+        if (
+          style.display === "none" ||
+          style.visibility === "hidden" ||
+          style.opacity === "0"
+        ) {
+          return null;
+        }
+
+        const rect = candidate.getBoundingClientRect();
+        if (!rect || rect.width === 0 || rect.height === 0) {
+          return null;
+        }
+
+        const isCaption =
+          candidate.tagName.toLowerCase() === "caption" ||
+          candidate.classList.contains("caption");
+        const right = isCaption
+          ? Math.min(rect.right, rect.left + captionHorizontalLimit)
+          : rect.right;
+
+        return {
+          nativeTapId: candidate.dataset.nativeTapId,
+          left: rect.left,
+          top: rect.top,
+          right,
+          bottom: rect.bottom,
+          hitSlop: isCaption ? captionHitSlop : defaultHitSlop,
+          tagName: candidate.tagName,
+          className: candidate.className || "",
+          id: candidate.id || ""
+        };
+      })
+      .filter(Boolean);
+
+    sendMessage(JSON.stringify({ type: "NATIVE_TAP_TARGETS", data: targets }));
+  } catch (error) {
+    debugMessage("syncNativeTapTargets error: " + error);
+  }
+}
+
+function scheduleNativeTapTargetSync() {
+  if (window._nativeTapTargetSyncTimer) {
+    clearTimeout(window._nativeTapTargetSyncTimer);
+  }
+  window._nativeTapTargetSyncTimer = setTimeout(() => {
+    window._nativeTapTargetSyncTimer = null;
+    if (typeof syncNativeTapTargets === "function") {
+      syncNativeTapTargets();
+    }
+  }, 50);
+}
+
+window.handleNativeTapElementById = function(nativeTapId, tapId) {
+  try {
+    const interactiveElement = Array.from(document.querySelectorAll("[data-native-tap-id]"))
+      .find((element) => element.dataset.nativeTapId === nativeTapId);
+
+    if (interactiveElement && triggerNativeTapInteractiveElement(interactiveElement)) {
+      sendMessage(JSON.stringify({
+        type: "NATIVE_TAP_HANDLED",
+        data: {
+          tapId,
+          nativeTapId,
+          tagName: interactiveElement.tagName,
+          id: interactiveElement.id || "",
+          className: interactiveElement.className || ""
+        }
+      }));
+      return;
+    }
+
+    sendMessage(JSON.stringify({ type: "NATIVE_TAP_UNHANDLED", data: { tapId } }));
+  } catch (error) {
+    debugMessage("handleNativeTapElementById error: " + error);
+    sendMessage(JSON.stringify({ type: "NATIVE_TAP_UNHANDLED", data: { tapId } }));
+  }
+};
+
+window.handleNativeTapAt = function(x, y, tapId) {
+  try {
+    const interactiveElement = findNativeTapInteractiveElement(x, y);
+
+    if (interactiveElement && triggerNativeTapInteractiveElement(interactiveElement)) {
+      sendMessage(JSON.stringify({
+        type: "NATIVE_TAP_HANDLED",
+        data: {
+          tapId,
+          x,
+          y,
+          tagName: interactiveElement.tagName,
+          id: interactiveElement.id || "",
+          className: interactiveElement.className || ""
+        }
+      }));
+      return;
+    }
+
+    sendMessage(JSON.stringify({ type: "NATIVE_TAP_UNHANDLED", data: { tapId, x, y } }));
+  } catch (error) {
+    debugMessage("handleNativeTapAt error: " + error);
+    sendMessage(JSON.stringify({ type: "NATIVE_TAP_UNHANDLED", data: { tapId, x, y } }));
+  }
+};
 `;
 
 // Arabic numbers
@@ -641,6 +868,9 @@ const paginateTables =
   const paginationCacheKey = viewportHeight + "|" + layoutSignature;
   const cachedPagination = paginateTables._paginationCache[paginationCacheKey];
   if (cachedPagination) {
+    if (typeof scheduleNativeTapTargetSync === "function") {
+      scheduleNativeTapTargetSync();
+    }
     sendMessage(JSON.stringify({ type: 'PAGINATION_DATA', data: cachedPagination }));
     if (cachedPagination.length > 0 && cachedPagination[0].firstVisibleElementId) {
       adjustOverlay(cachedPagination[0].firstVisibleElementId);
@@ -1388,6 +1618,9 @@ if (caption && captionHeight) {
   });
   // Cache pagination result for reuse when layout is unchanged
   paginateTables._paginationCache[paginationCacheKey] = yOffsetPages;
+  if (typeof scheduleNativeTapTargetSync === "function") {
+    scheduleNativeTapTargetSync();
+  }
 
   // Debug pagination payload (kept for future troubleshooting)
   // try {
@@ -1872,7 +2105,6 @@ sections.forEach(section => {
 
 const showBlackScreen =`
 window.showBlackScreen = function() {
-    console.log('showBlackScreen called'); // Debugging: check if the function is triggered
     const existingOverlay = document.getElementById('blackScreenOverlay');
     if (!existingOverlay) {
         const overlay = document.createElement('div');
@@ -1964,6 +2196,9 @@ const tableToggle =
               paginateTables.clearPaginationCache();
             }
             paginateTables();
+            if (typeof scheduleNativeTapTargetSync === "function") {
+              scheduleNativeTapTargetSync();
+            }
           }
           sendMessage(JSON.stringify({ type: 'TABLE_TOGGLE', data: tableId }));
           hideSpinner();
@@ -2158,4 +2393,4 @@ export {
   initialize , dynamicTableClasses , handleTouchNavigation , arabicNumbers , disableScrolling , extractTableTitlesAndIds , 
   sendMessage , setOverlays , clearOverlays, adjustOverlay , adjustOverlayGlorification , paginateTables , 
  showBlackScreen , removeBlackScreen , tableToggle , listenToButtonClicks , listenToPopupButtonClicks ,
-  handleSpinner , bookNavigationButtons , loadStoredSettings};
+  handleSpinner , bookNavigationButtons , loadStoredSettings, nativeTapHandling};

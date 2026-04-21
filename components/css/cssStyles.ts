@@ -91,12 +91,25 @@ export const useDynamicStyles = (webviewRef) => {
  :root {
  --fontSize: 26px;
  --copticFont: 'FreeSerif Avva Shenouda';
+ --projection-bg: black;
+ --projection-text: white;
+ --projection-blue: #B9DCFF;
+ --projection-gold: #D8D48A;
+ --projection-title: #FDFD96;
+ --projection-red: #FF7777;
+ --projection-phonetic: #FFB99B;
+ --projection-purple: #DDD6F3;
+ --projection-instruction: #D6C6FF;
+ --projection-muted: #C7C7C7;
+ --projection-role: #5DF01E;
+ --projection-control-gold-wash: rgba(216, 212, 138, 0.08);
+ --projection-control-gold-border: rgba(216, 212, 138, 0.34);
 }
 
 ${fontFaceCss}
 
  html {
-  background-color: black;
+  background-color: var(--projection-bg);
   margin: 0;
   padding: 0;
   width: 99%;
@@ -113,7 +126,7 @@ ${fontFaceCss}
   overflow-x: hidden;
   touch-action: ${touchAction};
   overscroll-behavior-x: none;
-  color: white;
+  color: var(--projection-text);
   font-size: ${fontSize};
  width: ${calculatedWidth} !important;
  margin-top: 0px;
@@ -314,7 +327,7 @@ td.column-1-1 {
     font-family: 'Georgia' !important;
     text-align: justify;
     display: ${settings.languages && !visibleLangues[3].checked ? 'none' : 'flex'};
-    color: #ffb99b !important;
+    color: var(--projection-phonetic) !important;
 }
 .enPhonicsDual {
     flex: 0 1 60% !important;
@@ -335,7 +348,7 @@ td.column-1-1 {
     vertical-align: top ;
     text-align: justify;
     display: ${settings.languages && !visibleLangues[4].checked ? 'none' : 'flex'};
-    color: #ffb99b !important;
+    color: var(--projection-phonetic) !important;
 }
 
 
@@ -343,14 +356,14 @@ td.column-1-1 {
 .bold {
     font-weight: bold !important;
     font-family: 'EB Garamond' !important;
-    color: #C50000 !important;
+    color: var(--projection-red) !important;
 }
 
 
 .caption {
     font-size: ${titleFontSize};
     font-family: 'EB Garamond' !important;
-    color: white !important;
+    color: var(--projection-text) !important;
     display: grid;
     grid-template-columns: auto 1fr auto; /* toggle | text | actions */
     align-items: center;
@@ -369,14 +382,15 @@ td.column-1-1 {
 .caption-toggle {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    font-size: 0.9em;
+    font-size: 0.72em;
     line-height: 1;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    min-width: 1.2em;
+    min-width: 1.4em;
     justify-self: center;
     text-align: center;
+    color: var(--projection-text) !important;
 }
 
 .caption-toggle::before {
@@ -503,49 +517,90 @@ td.column-1-1 {
     display: none;
 }
 
+@media (max-width: 520px) {
+    .caption.caption-three-lang:not(.header-table) .caption-texts {
+        display: flex;
+        flex-direction: column;
+        row-gap: 4px;
+        align-items: stretch;
+        width: 100%;
+    }
+
+    .caption.caption-three-lang:not(.header-table) .caption-texts .english-caption,
+    .caption.caption-three-lang:not(.header-table) .caption-texts .coptic-caption,
+    .caption.caption-three-lang:not(.header-table) .caption-texts .arabic-caption {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .caption.caption-three-lang:not(.header-table) .caption-texts .english-caption {
+        text-align: left;
+    }
+
+    .caption.caption-three-lang:not(.header-table) .caption-texts .coptic-caption {
+        text-align: left !important;
+    }
+
+    .caption.caption-three-lang:not(.header-table) .caption-texts .arabic-caption {
+        text-align: left;
+    }
+}
+
 .caption.header-table .caption-texts {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    column-gap: 0;
+    column-gap: 28px;
     row-gap: 4px;
     width: auto;
     justify-self: center;
-    border-bottom: 1px solid currentColor;
     padding-bottom: 4px;
+    border: 0 !important;
+    box-shadow: none !important;
+    text-decoration: none !important;
 }
 
 .caption.header-table .caption-texts span {
     display: inline-flex;
     width: auto;
+    border: 0 !important;
+    box-shadow: none !important;
+    text-decoration: none !important;
 }
 
 .caption.header-table .caption-separator {
-    align-self: center;
+    display: none;
 }
 
 .caption-actions {
     justify-self: end;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.42em;
 }
 .caption-actions:empty {
     display: none;
 }
 
 .caption.silent-prayer {
-    color: lightGrey !important;
+    color: var(--projection-muted) !important;
 }
 
 table.silent-prayer {
-    color: lightGrey !important;
+    color: var(--projection-muted) !important;
 }
 
 table.silent-prayer * {
-    color: lightGrey !important;
+    color: var(--projection-muted) !important;
 }
 
 .caption.header-table {
-    color: #C50000 !important;
+    color: var(--projection-title) !important;
     grid-template-columns: 1fr auto;
+    border: 0 !important;
+    box-shadow: none !important;
+    text-decoration: none !important;
 }
 
 .caption.header-table .caption-toggle {
@@ -560,13 +615,13 @@ table.silent-prayer * {
     pointer-events: auto;
     z-index: 2;
     display: inline-block;
-    min-width: 1.1em;
+    min-width: 1em;
     flex: 0 0 auto;
     line-height: 1;
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    font-size: 0.82em;
-    color: white;
+    font-size: 0.72em;
+    color: var(--projection-gold) !important;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -595,6 +650,9 @@ table.silent-prayer * {
 .caption.table-invisible .caption-toggle::before {
     content: "\\f055";
 }
+.caption.table-invisible .caption-toggle {
+    color: var(--projection-text) !important;
+}
 .coptic-caption {
     font-family: 'FreeSerif Avva Shenouda';
     direction: ltr !important;
@@ -609,7 +667,7 @@ table.silent-prayer * {
 }
 
 .hidden-caption {
-    color: black !important;
+    color: var(--projection-bg) !important;
     pointer-events: none !important;
     font-size: 0 !important;
     line-height: 0 !important;
@@ -633,7 +691,7 @@ table.silent-prayer * {
 
 .title {
     text-align: center !important;
-    color: #FDFD96 !important;
+    color: var(--projection-title) !important;
     display: flex !important;
     line-height: 1 !important;
     align-items: center !important; // vertical align
@@ -649,14 +707,14 @@ table.silent-prayer * {
     box-sizing: border-box;
     font-size: ${fontSize};
     font-family: 'EB Garamond' !important;
-    color: white !important;
-    background: linear-gradient(180deg, #5a348a 0%, #3b215e 100%) !important;
+    color: var(--projection-gold) !important;
+    background: var(--projection-control-gold-wash) !important;
     font-weight: 700 !important;
-    padding: 10px 14px !important;
+    padding: 8px 12px !important;
     margin: 8px 0 !important;
-    border-radius: 10px !important;
-    border: 1px solid #7d57ab !important;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+    border-radius: 6px !important;
+    border: 1px solid var(--projection-control-gold-border) !important;
+    box-shadow: none !important;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
@@ -682,8 +740,8 @@ table.silent-prayer * {
     display: flex;
     flex-direction: column;
     font-size: ${linkFontSize};
-    color: #C50000 !important;
-    background-color: black !important;
+    color: var(--projection-red) !important;
+    background-color: var(--projection-bg) !important;
     font-weight: bold !important;
     text-decoration: underline;
     cursor: pointer;
@@ -708,48 +766,48 @@ table.silent-prayer * {
 
 
 .papalAddition {
-    color: #a1caf1;
+    color: var(--projection-blue);
 }
 .north {
-    color: white;
+    color: var(--projection-text);
 }
 
 .south {
-    color: #a1caf1;
+    color: var(--projection-blue);
 }
 .text {
-    color: white;
+    color: var(--projection-text);
 }
 .intro {
-    color: #FDFD96 !important;
+    color: var(--projection-gold) !important;
 }
 
 .reference{
-    color: #CBC3E3 !important;
+    color: var(--projection-purple) !important;
     justify-content: center !important;
     align-items: center !important;
 }
 .refrain {
-    color: #FDFD96 !important;
+    color: var(--projection-gold) !important;
 }
 .commentary {
-    color: #C3B1E1 !important;
+    color: var(--projection-purple) !important;
     display: ${settings.languages && !visibleLangues[5].checked ? 'none' : 'flex'};
 
 
 }
 .instruction {
-    color: #9d79d6 !important;
+    color: var(--projection-instruction) !important;
     display: ${settings.languages && !visibleLangues[5].checked ? 'none' : 'flex'};
 
 
 }
 .priest {
-    color: #a1caf1 !important;
+    color: var(--projection-blue) !important;
 }
 
 .role {
-    color: #5df01eff !important;
+    color: var(--projection-role) !important;
     padding-bottom: 0px !important;
     margin-bottom: 0px !important;
 }
@@ -850,4 +908,6 @@ table.silent-prayer * {
 
     return cssStyles;
 };
+
+
 

@@ -12,7 +12,7 @@ import matrimonyData from "../../data/jsons/holyMatrimony.json";
 import resolveJsonData from "../functions/resolveJsonData";
 import { getJson } from "../functions/jsonCache";
 
-const MatrimonyScreen = () => {
+const MatrimonyScreen = ({ route }) => {
   const [drawerItems, setDrawerItems] = useState([]);
   const [currentTable, setCurrentTable] = useState("");
   const [matrimonyJson, setMatrimonyJson] = useState(matrimonyData);
@@ -61,6 +61,7 @@ const MatrimonyScreen = () => {
       setDrawerItems={setDrawerItems}
       setCurrentTable={setCurrentTable}
       html={html}
+      drawerTitle={route?.params?.drawerLabel || pageTitle}
     />
   );
 };

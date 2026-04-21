@@ -1,4 +1,4 @@
-import { initialize , disableScrolling ,  dynamicTableClasses , handleTouchNavigation , arabicNumbers , extractTableTitlesAndIds , paginateTables , sendMessage , adjustOverlay , setOverlays , clearOverlays , showBlackScreen , removeBlackScreen , tableToggle , listenToButtonClicks , listenToPopupButtonClicks , handleSpinner, bookNavigationButtons , loadStoredSettings } from "./javaScripts";
+import { initialize , disableScrolling ,  dynamicTableClasses , handleTouchNavigation , arabicNumbers , extractTableTitlesAndIds , paginateTables , sendMessage , adjustOverlay , setOverlays , clearOverlays , showBlackScreen , removeBlackScreen , tableToggle , listenToButtonClicks , listenToPopupButtonClicks , handleSpinner, bookNavigationButtons , loadStoredSettings, nativeTapHandling } from "./javaScripts";
 
 export const htmlRenderScript = `
 
@@ -27,6 +27,9 @@ ${dynamicTableClasses}
 
 // Handle Touch Navigation
 ${handleTouchNavigation}
+
+// Handle native tap coordinate routing
+${nativeTapHandling}
 
 // Arabic caption numbers
 ${arabicNumbers}

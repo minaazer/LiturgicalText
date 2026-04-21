@@ -1,4 +1,4 @@
-    import { arabicNumbers , extractTableTitlesAndIds , paginateTablesGlorification , sendMessage , adjustOverlay , setOverlays , clearOverlays , showBlackScreen , removeBlackScreen , tableToggle , listenToButtonClicks , handleSpinner , loadStoredSettings , bookNavigationButtons} from "./javaScripts";
+    import { arabicNumbers , extractTableTitlesAndIds , paginateTablesGlorification , sendMessage , adjustOverlay , setOverlays , clearOverlays , showBlackScreen , removeBlackScreen , tableToggle , listenToButtonClicks , listenToPopupButtonClicks , handleSpinner , loadStoredSettings , bookNavigationButtons, nativeTapHandling} from "./javaScripts";
 
 export const htmlRenderScript = `
 
@@ -51,7 +51,11 @@ ${removeBlackScreen}
 // Handle Buttons
 ${tableToggle}
 ${listenToButtonClicks}
+${listenToPopupButtonClicks}
 ${bookNavigationButtons}
+
+// Handle native tap coordinate routing
+${nativeTapHandling}
 
 // Handle Spinner
 ${handleSpinner}

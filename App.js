@@ -1,10 +1,11 @@
-/* global require */
+/* global require, __DEV__ */
 
 import 'react-native-gesture-handler';
 import React, { useCallback, useEffect, useContext, useRef, useState } from 'react';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { StatusBar, Alert , Linking , Platform, View, ScrollView, Text, TouchableOpacity, AppState } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
+import { MD3LightTheme, Provider as PaperProvider } from 'react-native-paper';
 import * as SplashScreen from 'expo-splash-screen';
 import RootNavigation from './components/navigation/RootNavigation.js';
 import { SafeAreaView, SafeAreaProvider } from 'react-native-safe-area-context';
@@ -31,6 +32,22 @@ import {
 
 
 SplashScreen.preventAutoHideAsync();
+
+const paperTheme = {
+  ...MD3LightTheme,
+  colors: {
+    ...MD3LightTheme.colors,
+    primary: '#003060',
+    secondary: '#2B6CB0',
+    tertiary: '#B98B16',
+    surface: '#FFFFFF',
+    surfaceVariant: '#E3EEF8',
+    background: '#EEF5FB',
+    onSurface: '#102A43',
+    onSurfaceVariant: '#486581',
+    outline: '#D6E3EF',
+  },
+};
 
 const AppContent = () => {
 
@@ -392,7 +409,9 @@ const AppContent = () => {
 const App = () => (
 
   <SettingsProvider>
-    <AppContent />
+    <PaperProvider theme={paperTheme}>
+      <AppContent />
+    </PaperProvider>
   </SettingsProvider>
 );
 

@@ -10,7 +10,7 @@ import { loadIconVariables, iconVariablesFallback } from "../../data/iconVariabl
 import SettingsContext from "../../settings/settingsContext";
 import psalmody from "../../data/getPsalmodyHtml";
 
-const PsalmodyScreen = () => {
+const PsalmodyScreen = ({ route }) => {
   const [drawerItems, setDrawerItems] = useState([]);
   const [currentTable, setCurrentTable] = useState("");
   const [settings] = useContext(SettingsContext);
@@ -48,6 +48,7 @@ const PsalmodyScreen = () => {
       setDrawerItems={setDrawerItems}
       setCurrentTable={setCurrentTable}
       html={html}
+      drawerTitle={route?.params?.drawerLabel || pageTitle}
     />
   );
 };

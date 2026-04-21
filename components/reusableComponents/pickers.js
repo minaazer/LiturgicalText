@@ -5,13 +5,12 @@ import {
   StyleSheet,
   Text,
   View,
-  ScrollView,
   TouchableOpacity,
 } from "react-native";
-import { AntDesign as Icon } from "@expo/vector-icons";
+import { AntDesign as Icon, Ionicons } from "@expo/vector-icons";
 import SelectDropdown from "react-native-select-dropdown";
 import { bibleVersions, getVersionById } from "../../data/bibleVersions";
-import { presentationStyles } from "../css/presentationStyles";
+import { settingsPalette } from "./settingsUI";
 
 const FontSizePicker = ({ setSettings, settings }) => {
   const labels = [
@@ -109,6 +108,8 @@ const ScreenOrientationPicker = ({ setOrientation, orientation }) => {
     { label: "Portrait", value: "portrait" },
     { label: "Reverse Landscape", value: "reverseLandscape" },
   ];
+  const selectedOrientation =
+    items.find((item) => item.value === orientation) || items[0];
 
   return (
     <SelectDropdown
@@ -117,7 +118,7 @@ const ScreenOrientationPicker = ({ setOrientation, orientation }) => {
       renderButton={(selectedItem, isOpened) => (
         <View style={styles.dropdownButtonStyle}>
           <Text style={styles.dropdownButtonTxtStyle}>
-            {selectedItem?.label || `Orientation: ${orientation}`}
+            {selectedItem?.label || selectedOrientation.label}
           </Text>
           <Icon
             name={isOpened ? "caretup" : "caretdown"} // Correct icon names
@@ -125,7 +126,8 @@ const ScreenOrientationPicker = ({ setOrientation, orientation }) => {
           />
         </View>
       )}
-      defaultButtonText={`Orientation: ${orientation}`} // Default text for unselected state
+      defaultValue={selectedOrientation}
+      defaultButtonText={selectedOrientation.label}
       renderItem={(item, index, isSelected) => (
         <View
           style={[
@@ -151,6 +153,11 @@ const BibleChapterPicker = ({
   defaultBook = "Genesis",
   defaultChapter = 1,
 }) => {
+  const versionDisplay = {
+    lxx2012: { title: "English", detail: "LXX / NKJV" },
+    arabic: { title: "Arabic", detail: "Smith & Van Dyck" },
+    coptic: { title: "Coptic", detail: "OT + NT" },
+  };
   const [selectedVersionIds, setSelectedVersionIds] = useState([
     defaultVersion,
   ]);
@@ -186,28 +193,31 @@ const BibleChapterPicker = ({
   }, [selectedBook]);
 
   return (
-    <ScrollView
-      contentContainerStyle={[
-        presentationStyles.bibleScreenContainer,
-        styles.fullWidthContent,
-      ]}
-    >
-      {/* Select Versions */}
-      <View
-        style={[presentationStyles.bibleSelectionContainer, styles.sectionWide]}
-      >
-        <Text style={presentationStyles.bibleSellectionTitle}>
-          Select Versions
-        </Text>
-        <View style={styles.multiSelectContainer}>
+    <View style={styles.biblePicker}>
+      <View style={styles.bibleSection}>
+        <View style={styles.bibleSectionHeader}>
+          <View style={styles.bibleSectionIcon}>
+            <Ionicons
+              name="language-outline"
+              size={17}
+              color={settingsPalette.primary}
+            />
+          </View>
+          <Text style={styles.bibleSectionTitle}>Versions</Text>
+        </View>
+        <View style={styles.translationPicker}>
           {bibleVersions.map((v) => {
             const isSelected = selectedVersionIds.includes(v.id);
+            const display = versionDisplay[v.id] || {
+              title: v.label,
+              detail: "",
+            };
             return (
               <TouchableOpacity
                 key={v.id}
                 style={[
-                  styles.checkboxRow,
-                  isSelected && styles.checkboxRowSelected,
+                  styles.translationOption,
+                  isSelected && styles.translationOptionSelected,
                 ]}
                 onPress={() =>
                   setSelectedVersionIds((prev) => {
@@ -221,32 +231,54 @@ const BibleChapterPicker = ({
                 }
                 accessibilityLabel={`Toggle ${v.label}`}
               >
+                <View style={styles.translationText}>
+                  <Text
+                    style={[
+                      styles.translationTitle,
+                      isSelected && styles.translationTitleSelected,
+                    ]}
+                  >
+                    {display.title}
+                  </Text>
+                  {display.detail ? (
+                    <Text
+                      style={[
+                        styles.translationDetail,
+                        isSelected && styles.translationDetailSelected,
+                      ]}
+                    >
+                      {display.detail}
+                    </Text>
+                  ) : null}
+                </View>
                 <View
                   style={[
-                    styles.checkbox,
-                    isSelected && styles.checkboxChecked,
+                    styles.translationCheck,
+                    isSelected && styles.translationCheckSelected,
                   ]}
                 >
-                  {isSelected && <View style={styles.checkboxInner} />}
+                  {isSelected ? (
+                    <Ionicons name="checkmark" size={14} color="#FFFFFF" />
+                  ) : null}
                 </View>
-                <Text style={styles.checkboxLabel}>{v.label}</Text>
-                {primaryVersionId === v.id && (
-                  <Text style={styles.primaryBadge}>Primary</Text>
-                )}
               </TouchableOpacity>
             );
           })}
         </View>
       </View>
 
-      {/* Select Book */}
-      <View
-        style={[presentationStyles.bibleSelectionContainer, styles.sectionWide]}
-      >
-        <Text style={presentationStyles.bibleSellectionTitle}>Select Book</Text>
-        <View
-          style={[presentationStyles.pickerWrapper, styles.fullWidthWrapper]}
-        >
+      <View style={styles.bibleSection}>
+        <View style={styles.bibleSectionHeader}>
+          <View style={styles.bibleSectionIcon}>
+            <Ionicons
+              name="book-outline"
+              size={17}
+              color={settingsPalette.primary}
+            />
+          </View>
+          <Text style={styles.bibleSectionTitle}>Book</Text>
+        </View>
+        <View style={styles.fullWidthWrapper}>
           <SelectDropdown
             data={books.map((b) => ({ label: b.title, value: b.title }))}
             onSelect={(item) => {
@@ -284,16 +316,18 @@ const BibleChapterPicker = ({
         </View>
       </View>
 
-      {/* Select Chapter */}
-      <View
-        style={[presentationStyles.bibleSelectionContainer, styles.sectionWide]}
-      >
-        <Text style={presentationStyles.bibleSellectionTitle}>
-          Select Chapter
-        </Text>
-        <View
-          style={[presentationStyles.pickerWrapper, styles.fullWidthWrapper]}
-        >
+      <View style={styles.bibleSection}>
+        <View style={styles.bibleSectionHeader}>
+          <View style={styles.bibleSectionIcon}>
+            <Ionicons
+              name="reader-outline"
+              size={17}
+              color={settingsPalette.primary}
+            />
+          </View>
+          <Text style={styles.bibleSectionTitle}>Chapter</Text>
+        </View>
+        <View style={styles.fullWidthWrapper}>
           <SelectDropdown
             data={chapters.map((chapter) => ({
               label: `Chapter ${chapter.chapter}`,
@@ -334,7 +368,6 @@ const BibleChapterPicker = ({
         </View>
       </View>
 
-      {/* Navigate Button */}
       <TouchableOpacity
         onPress={() =>
           navigation.navigate("ChapterScreen", {
@@ -342,46 +375,52 @@ const BibleChapterPicker = ({
             chapterNumber: selectedChapter,
             versionId: primaryVersionId,
             versionIds: selectedVersionIds,
+            drawerLabel: `${selectedBook} ${selectedChapter}`,
           })
         }
-        style={presentationStyles.bibleSelectionButton}
+        style={styles.bibleOpenButton}
         disabled={!selectedBook || !chapters.length}
       >
-        <Text style={presentationStyles.buttonText}>Go to Chapter</Text>
+        <Text style={styles.bibleOpenButtonText}>View Chapter</Text>
+        <Ionicons name="arrow-forward" size={18} color="#FFFFFF" />
       </TouchableOpacity>
-    </ScrollView>
+    </View>
   );
 };
 
 const styles = StyleSheet.create({
   dropdownButtonStyle: {
     width: "100%",
-    minWidth: 100, // Ensures the button has a reasonable minimum size
-    height: 40,
-    backgroundColor: "lightgrey",
+    minWidth: 100,
+    minHeight: 44,
+    backgroundColor: "#FFFFFF",
+    borderWidth: 1,
+    borderColor: settingsPalette.border,
     borderRadius: 8,
     flexDirection: "row",
     alignItems: "center",
-    justifyContent: "space-between", // Spreads text and chevron evenly
+    justifyContent: "space-between",
     paddingHorizontal: 12,
-    alignSelf: "flex-start", // Adjusts width based on content
+    alignSelf: "stretch",
   },
 
   dropdownButtonTxtStyle: {
     fontSize: 16,
-    fontWeight: "500",
-    color: "#151E26",
+    fontWeight: "800",
+    color: settingsPalette.text,
     textAlign: "left",
-    flexShrink: 1, // Prevents text from overflowing and forces resizing
+    flexShrink: 1,
   },
   dropdownButtonArrowStyle: {
     fontSize: 18,
     paddingLeft: 8,
-    color: "#151E26",
+    color: settingsPalette.primary,
   },
   dropdownMenuStyle: {
-    backgroundColor: "#F8F9FA",
+    backgroundColor: settingsPalette.surface,
     borderRadius: 8,
+    borderWidth: 1,
+    borderColor: settingsPalette.border,
     paddingVertical: 8,
     marginBottom: 8,
   },
@@ -392,82 +431,126 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     paddingVertical: 8,
-    backgroundColor: "#FFF",
+    backgroundColor: "#FFFFFF",
   },
   dropdownItemSelectedStyle: {
-    backgroundColor: "#D2D9DF",
+    backgroundColor: settingsPalette.blueSoft,
   },
   dropdownItemTxtStyle: {
     flex: 1,
     fontSize: 16,
-    fontWeight: "400",
-    color: "#151E26",
+    fontWeight: "700",
+    color: settingsPalette.text,
     textAlign: "center",
   },
-  multiSelectContainer: {
+  biblePicker: {
+    width: "100%",
+    gap: 10,
+  },
+  bibleSection: {
+    width: "100%",
     gap: 8,
   },
-  checkboxRow: {
+  bibleSectionHeader: {
     flexDirection: "row",
     alignItems: "center",
-    paddingVertical: 8,
-    paddingHorizontal: 10,
-    borderRadius: 10,
-    backgroundColor: "#F3F4F6",
-    marginBottom: 8,
-    width: "100%",
+    gap: 8,
   },
-  checkboxRowSelected: {
-    backgroundColor: "#E0E7FF",
-  },
-  checkbox: {
-    width: 20,
-    height: 20,
-    borderRadius: 5,
-    borderWidth: 2,
-    borderColor: "#4B5563",
+  bibleSectionIcon: {
+    width: 30,
+    height: 30,
+    borderRadius: 8,
     alignItems: "center",
     justifyContent: "center",
-    marginRight: 10,
-    backgroundColor: "#fff",
+    backgroundColor: settingsPalette.blueSoft,
   },
-  checkboxChecked: {
-    borderColor: "#6366F1",
-    backgroundColor: "#C7D2FE",
-  },
-  checkboxInner: {
-    width: 10,
-    height: 10,
-    borderRadius: 2,
-    backgroundColor: "#312E81",
-  },
-  checkboxLabel: {
+  bibleSectionTitle: {
     flex: 1,
+    color: settingsPalette.text,
     fontSize: 16,
-    fontWeight: "500",
-    color: "#111827",
+    fontWeight: "800",
   },
-  primaryBadge: {
-    fontSize: 12,
-    color: "#4338CA",
-    fontWeight: "600",
-  },
-  multiSelectContainer: {
-    gap: 8,
+  translationPicker: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    gap: 6,
     width: "100%",
     alignSelf: "stretch",
   },
-  sectionWide: {
-    width: "100%",
-    alignSelf: "center",
+  translationOption: {
+    minHeight: 48,
+    minWidth: 128,
+    flex: 1,
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 8,
+    paddingHorizontal: 10,
+    paddingVertical: 8,
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: settingsPalette.border,
+    backgroundColor: "#FFFFFF",
+  },
+  translationOptionSelected: {
+    backgroundColor: "#FFFFFF",
+    borderColor: "#BDD7EF",
+  },
+  translationText: {
+    flex: 1,
+    minWidth: 0,
+  },
+  translationTitle: {
+    color: settingsPalette.text,
+    fontSize: 14,
+    fontWeight: "800",
+  },
+  translationTitleSelected: {
+    color: settingsPalette.text,
+  },
+  translationDetail: {
+    marginTop: 1,
+    color: settingsPalette.muted,
+    fontSize: 11,
+    fontWeight: "700",
+  },
+  translationDetailSelected: {
+    color: settingsPalette.muted,
+  },
+  translationCheck: {
+    width: 20,
+    height: 20,
+    borderRadius: 10,
+    alignItems: "center",
+    justifyContent: "center",
+    borderWidth: 1,
+    borderColor: settingsPalette.border,
+    backgroundColor: "rgba(255, 255, 255, 0.75)",
+  },
+  translationCheckSelected: {
+    borderColor: settingsPalette.primary,
+    backgroundColor: settingsPalette.primary,
   },
   fullWidthWrapper: {
     width: "100%",
     justifyContent: "flex-start",
   },
-  fullWidthContent: {
-    width: "100%",
-    alignItems: "stretch",
+  bibleOpenButton: {
+    minHeight: 44,
+    marginTop: 2,
+    borderRadius: 8,
+    backgroundColor: settingsPalette.text,
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: 8,
+    paddingHorizontal: 14,
+    borderWidth: 1,
+    borderColor: "rgba(255, 255, 255, 0.12)",
+  },
+  bibleOpenButtonText: {
+    color: "#FFFFFF",
+    fontSize: 16,
+    fontWeight: "800",
   },
 });
 

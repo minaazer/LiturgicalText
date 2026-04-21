@@ -11,7 +11,7 @@ import SettingsContext from "../../settings/settingsContext";
 import unctionData from "../../data/jsons/unctionOfTheSick.json";
 import { getJson } from "../functions/jsonCache";
 
-const UnctionScreen = () => {
+const UnctionScreen = ({ route }) => {
   const [drawerItems, setDrawerItems] = useState([]);
   const [currentTable, setCurrentTable] = useState("");
   const [unctionJson, setUnctionJson] = useState(unctionData);
@@ -60,6 +60,7 @@ const UnctionScreen = () => {
       setDrawerItems={setDrawerItems}
       setCurrentTable={setCurrentTable}
       html={html}
+      drawerTitle={route?.params?.drawerLabel || pageTitle}
     />
   );
 };

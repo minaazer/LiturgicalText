@@ -1,10 +1,12 @@
-import React, { useState, useEffect, useRef, useContext } from 'react';
-import { View, ActivityIndicator, Dimensions, Platform, useWindowDimensions } from 'react-native';
+import React, { useState, useEffect, useRef, useContext, useCallback, useMemo } from 'react';
+import { View, ActivityIndicator, DeviceEventEmitter, Dimensions, Platform, StyleSheet, useWindowDimensions } from 'react-native';
 import { presentationStyles } from '../css/presentationStyles';
 import { WebView } from 'react-native-webview';
 import { handleMessage, handleNext, handlePrevious, handleDrawerItemPress } from './renderFunctions'; // Assuming this is imported
 import { useNavigation, useIsFocused, useRoute } from '@react-navigation/native';
 import { useDrawerStatus } from '@react-navigation/drawer';
+import { Gesture, GestureDetector } from 'react-native-gesture-handler';
+import { runOnJS, useSharedValue } from 'react-native-reanimated';
 import localStorage from './localStorage';
 import SettingsContext from '../../settings/settingsContext';
 import {ExplanationPopup} from '../reusableComponents/explanationPopup';
@@ -19,7 +21,14 @@ import AudioControlsPopup from '../reusableComponents/audioPopup';
 const WRAPPER_ROUTE_NAMES = new Set(['MainStack', 'MainContent']);
 
 
-export const MainContent = ({ html, webviewRef, setDrawerItems, setCurrentTable, currentTable }) => {
+export const MainContent = ({
+    html,
+    webviewRef,
+    setDrawerItems,
+    setCurrentTable,
+    currentTable,
+    openRightDrawer,
+}) => {
     const [settings] = useContext(SettingsContext);
     const navigation = useNavigation();
     const route = useRoute();
@@ -55,6 +64,14 @@ export const MainContent = ({ html, webviewRef, setDrawerItems, setCurrentTable,
     const [imagesJson, setImagesJson] = useState(imagesData);
     const { width: windowWidth, height: windowHeight } = useWindowDimensions();
     const lastWindowSize = useRef({ width: Math.round(windowWidth), height: Math.round(windowHeight) });
+    const ignoreNativeTapUntil = useRef(0);
+    const nativeTapInFlight = useRef(false);
+    const nativeTapInFlightTimeout = useRef(null);
+    const nativeTapRequestId = useRef(0);
+    const pendingNativeTap = useRef(null);
+    const nativeTapTargets = useRef([]);
+    const currentPageRef = useRef(currentPage);
+    const pageOffsetsRef = useRef(pageOffsets);
 
     const isScrollMode = settings?.displayMode === "scroll";
     const lastDisplayMode = useRef(isScrollMode);
@@ -68,14 +85,179 @@ export const MainContent = ({ html, webviewRef, setDrawerItems, setCurrentTable,
     const wasDrawerOpen = useRef(false);
     const lastDrawerState = useRef(drawerIsOpen);
     const isInitialMount = useRef(true);
+    const drawerPanHandled = useSharedValue(false);
 
-    const handleTouchEnd = (touchX) => {
+    useEffect(() => {
+        currentPageRef.current = currentPage;
+    }, [currentPage]);
+
+    useEffect(() => {
+        pageOffsetsRef.current = pageOffsets;
+    }, [pageOffsets]);
+
+    const handleTouchEnd = useCallback((touchX) => {
+            const latestCurrentPage = currentPageRef.current;
+            const latestPageOffsets = pageOffsetsRef.current;
             if (touchX < screenWidth / 2) {
-                handlePrevious(currentPage, setCurrentPage, pageOffsets, setCurrentTable, webviewRef);
+                handlePrevious(latestCurrentPage, setCurrentPage, latestPageOffsets, setCurrentTable, webviewRef);
             } else if (touchX >= screenWidth / 2) {
-                handleNext(currentPage, setCurrentPage, pageOffsets, setCurrentTable, webviewRef);
+                handleNext(latestCurrentPage, setCurrentPage, latestPageOffsets, setCurrentTable, webviewRef);
             }
-    };
+    }, [screenWidth, setCurrentTable, webviewRef]);
+
+    const handleNativeTap = useCallback((x, y) => {
+        if (isScrollMode || drawerIsOpen || !webviewRef.current) {
+            return;
+        }
+
+        if (popupVisible || imagePopupVisible || audioPopupVisible) {
+            return;
+        }
+
+        if (Date.now() < ignoreNativeTapUntil.current) {
+            return;
+        }
+
+        const safeX = Number.isFinite(x) ? Math.round(x) : 0;
+        const safeY = Number.isFinite(y) ? Math.round(y) : 0;
+        const tapId = nativeTapRequestId.current + 1;
+        nativeTapRequestId.current = tapId;
+
+        const target = nativeTapTargets.current.find((candidate) => {
+            const hitSlop = candidate.hitSlop || 0;
+            return (
+                safeX >= candidate.left - hitSlop &&
+                safeX <= candidate.right + hitSlop &&
+                safeY >= candidate.top - hitSlop &&
+                safeY <= candidate.bottom + hitSlop
+            );
+        });
+
+        if (!target) {
+            handleTouchEnd(safeX);
+            return;
+        }
+
+        if (nativeTapInFlight.current) {
+            return;
+        }
+
+        nativeTapInFlight.current = true;
+        pendingNativeTap.current = { id: tapId, x: safeX, y: safeY };
+        if (nativeTapInFlightTimeout.current) {
+            clearTimeout(nativeTapInFlightTimeout.current);
+        }
+        nativeTapInFlightTimeout.current = setTimeout(() => {
+            if (pendingNativeTap.current && pendingNativeTap.current.id === tapId) {
+                pendingNativeTap.current = null;
+                nativeTapInFlight.current = false;
+                nativeTapInFlightTimeout.current = null;
+            }
+        }, 700);
+
+        webviewRef.current.injectJavaScript(`
+            if (window.handleNativeTapElementById) {
+                window.handleNativeTapElementById(${JSON.stringify(target.nativeTapId)}, ${tapId});
+            }
+            true;
+        `);
+    }, [audioPopupVisible, drawerIsOpen, handleTouchEnd, imagePopupVisible, isScrollMode, popupVisible, webviewRef]);
+
+    const isStaleNativeTapResponse = useCallback((tapId) => {
+        return tapId && (!pendingNativeTap.current || pendingNativeTap.current.id !== tapId);
+    }, []);
+
+    const releaseNativeTapLock = useCallback((delay = 0) => {
+        if (nativeTapInFlightTimeout.current) {
+            clearTimeout(nativeTapInFlightTimeout.current);
+            nativeTapInFlightTimeout.current = null;
+        }
+        pendingNativeTap.current = null;
+
+        if (delay > 0) {
+            nativeTapInFlightTimeout.current = setTimeout(() => {
+                nativeTapInFlight.current = false;
+                nativeTapInFlightTimeout.current = null;
+            }, delay);
+            return;
+        }
+
+        nativeTapInFlight.current = false;
+    }, []);
+
+    const handleNativeDrawerPan = useCallback((startX, translationX) => {
+        if (isScrollMode || drawerIsOpen) {
+            return;
+        }
+
+        const edgeGuardWidth = 8;
+        const drawerGestureWidth = Math.min(180, Math.max(84, windowWidth * 0.2));
+        const dragThreshold = 28;
+        const leftGestureStart =
+            startX >= edgeGuardWidth &&
+            startX <= edgeGuardWidth + drawerGestureWidth;
+        const rightGestureStart =
+            startX <= windowWidth - edgeGuardWidth &&
+            startX >= windowWidth - edgeGuardWidth - drawerGestureWidth;
+
+        if (leftGestureStart && translationX > dragThreshold) {
+            navigation.getParent()?.openDrawer?.();
+            return;
+        }
+
+        if (rightGestureStart && translationX < -dragThreshold) {
+            if (openRightDrawer) {
+                openRightDrawer();
+            } else {
+                navigation.openDrawer?.();
+            }
+        }
+    }, [drawerIsOpen, isScrollMode, navigation, openRightDrawer, windowWidth]);
+
+    const handleNativeDrawerPanStart = useCallback(() => {
+        if (!isScrollMode && webviewRef.current) {
+            webviewRef.current.injectJavaScript(`window._suspendPaginate = true; true;`);
+        }
+    }, [isScrollMode, webviewRef]);
+
+    const nativeTapGesture = useMemo(
+        () =>
+            Gesture.Tap()
+                .maxDistance(14)
+                .maxDuration(450)
+                .onEnd((event, success) => {
+                    if (success) {
+                        runOnJS(handleNativeTap)(event.x, event.y);
+                    }
+                }),
+        [handleNativeTap]
+    );
+
+    const nativeDrawerPanGesture = useMemo(
+        () =>
+            Gesture.Pan()
+                .activeOffsetX([-18, 18])
+                .failOffsetY([-90, 90])
+                .onBegin(() => {
+                    drawerPanHandled.value = false;
+                    runOnJS(handleNativeDrawerPanStart)();
+                })
+                .onUpdate((event) => {
+                    if (!drawerPanHandled.value && Math.abs(event.translationX) > 28) {
+                        drawerPanHandled.value = true;
+                        runOnJS(handleNativeDrawerPan)(event.x - event.translationX, event.translationX);
+                    }
+                })
+                .onFinalize(() => {
+                    drawerPanHandled.value = false;
+                }),
+        [drawerPanHandled, handleNativeDrawerPan, handleNativeDrawerPanStart]
+    );
+
+    const nativeContentGesture = useMemo(
+        () => Gesture.Simultaneous(nativeTapGesture, nativeDrawerPanGesture),
+        [nativeTapGesture, nativeDrawerPanGesture]
+    );
 
 
 useEffect(() => {
@@ -99,10 +281,6 @@ useEffect(() => {
     }
 
     if (isActive) {
-        const lifecycleState = isInitialMount.current ? 'mounting-from-scratch' : 'premounted';
-        const screenName = fileKey || 'unknown';
-        
-
         // Only show spinner on true initial mount or when no table is selected
         const shouldShowSpinner = isInitialMount.current || !currentTable;
 
@@ -148,28 +326,100 @@ useEffect(() => {
 
 }, [isFocused, drawerIsOpen, loading, isScrollMode]);
 
-// Signal the WebView to suspend pagination during drawer gestures to avoid flicker
+// Resume pagination after drawer gestures without re-paginating during the drawer animation.
 useEffect(() => {
     if (!webviewRef.current || isScrollMode) return;
 
     if (drawerIsOpen) {
-        webviewRef.current.injectJavaScript(`window._suspendPaginate = true;`);
+        lastDrawerState.current = drawerIsOpen;
+        return;
     } else if (lastDrawerState.current && !drawerIsOpen) {
-        // Drawer just closed: re-enable and repaginate only if height changed
         webviewRef.current.injectJavaScript(`
             window._suspendPaginate = false;
             if (typeof window._lastPaginateHeight === 'undefined') {
                 window._lastPaginateHeight = window.innerHeight;
             }
-            if (Math.abs(window.innerHeight - window._lastPaginateHeight) > 1) {
-                paginateTables();
-                window._lastPaginateHeight = window.innerHeight;
-            }
+            window._lastPaginateHeight = window.innerHeight;
+            true;
         `);
     }
 
     lastDrawerState.current = drawerIsOpen;
 }, [drawerIsOpen, webviewRef, isScrollMode]);
+
+useEffect(() => {
+    if (Platform.OS !== "android") {
+        return undefined;
+    }
+
+    const nextKeyCodes = new Set([
+        20, // KEYCODE_DPAD_DOWN
+        22, // KEYCODE_DPAD_RIGHT
+        23, // KEYCODE_DPAD_CENTER
+        24, // KEYCODE_VOLUME_UP
+        42, // KEYCODE_N
+        62, // KEYCODE_SPACE
+        66, // KEYCODE_ENTER
+        81, // KEYCODE_PLUS
+        87, // KEYCODE_MEDIA_NEXT
+        93, // KEYCODE_PAGE_DOWN
+        160, // KEYCODE_NUMPAD_ENTER
+    ]);
+    const previousKeyCodes = new Set([
+        19, // KEYCODE_DPAD_UP
+        21, // KEYCODE_DPAD_LEFT
+        25, // KEYCODE_VOLUME_DOWN
+        44, // KEYCODE_P
+        67, // KEYCODE_DEL / Backspace
+        69, // KEYCODE_MINUS
+        88, // KEYCODE_MEDIA_PREVIOUS
+        92, // KEYCODE_PAGE_UP
+    ]);
+
+    const subscription = DeviceEventEmitter.addListener("LiturgicalHardwareKey", (event) => {
+        if (
+            isScrollMode ||
+            drawerIsOpen ||
+            popupVisible ||
+            imagePopupVisible ||
+            audioPopupVisible
+        ) {
+            return;
+        }
+
+        const keyCode = event?.keyCode;
+        if (nextKeyCodes.has(keyCode)) {
+            handleNext(
+                currentPageRef.current,
+                setCurrentPage,
+                pageOffsetsRef.current,
+                setCurrentTable,
+                webviewRef
+            );
+            return;
+        }
+
+        if (previousKeyCodes.has(keyCode)) {
+            handlePrevious(
+                currentPageRef.current,
+                setCurrentPage,
+                pageOffsetsRef.current,
+                setCurrentTable,
+                webviewRef
+            );
+        }
+    });
+
+    return () => subscription.remove();
+}, [
+    audioPopupVisible,
+    drawerIsOpen,
+    imagePopupVisible,
+    isScrollMode,
+    popupVisible,
+    setCurrentTable,
+    webviewRef,
+]);
 
     useEffect(() => {
         let isMounted = true;
@@ -205,6 +455,8 @@ useEffect(() => {
         currentFileStates = ${JSON.stringify(currentFileStates)};
         savedStates = ${JSON.stringify(savedStates)};
         window._scrollMode = ${isScrollMode ? "true" : "false"};
+        window._nativeTapMode = ${!isScrollMode ? "true" : "false"};
+        window._nativeHardwareKeyMode = ${Platform.OS === "android" && !isScrollMode ? "true" : "false"};
 
         initialize();
         
@@ -272,23 +524,47 @@ useEffect(() => {
             javaScriptEnabled={true}
             domStorageEnabled={true}
             startInLoadingState={false}
-            pointerEvents={drawerIsOpen ? "none" : "auto"}
+            pointerEvents="auto"
             allowFileAccess={true}
             allowFileAccessFromFileURLs={true}
             allowUniversalAccessFromFileURLs={true}
             mixedContentMode="always"
+            androidLayerType={Platform.OS === "android" && !isScrollMode ? "software" : undefined}
             injectedJavaScript={injectedJavaScript}
             onMessage={(event) => {
                 const message = JSON.parse(event.nativeEvent.data);
+                const acknowledgeWebViewMessage = () => {
+                    webviewRef.current?.injectJavaScript(
+                        `window.postMessage(JSON.stringify({ type: 'ACKNOWLEDGED', originalType: '${message.type}' })); true;`
+                    );
+                };
                 if (message.type === 'TOUCH_END') {
+                    acknowledgeWebViewMessage();
                     if (!isScrollMode) {
                         handleTouchEnd(message.data);
                     }
+                } else if (message.type === 'NATIVE_TAP_UNHANDLED') {
+                    acknowledgeWebViewMessage();
+                    if (isStaleNativeTapResponse(message.data?.tapId)) {
+                        return;
+                    }
+                    releaseNativeTapLock();
+                } else if (message.type === 'NATIVE_TAP_HANDLED') {
+                    acknowledgeWebViewMessage();
+                    if (isStaleNativeTapResponse(message.data?.tapId)) {
+                        return;
+                    }
+                    ignoreNativeTapUntil.current = Date.now() + 450;
+                    releaseNativeTapLock(450);
+                    return;
+                } else if (message.type === 'NATIVE_TAP_TARGETS') {
+                    acknowledgeWebViewMessage();
+                    nativeTapTargets.current = Array.isArray(message.data) ? message.data : [];
                 } else if (message.type === 'HANDLE_NEXT') {
-                    console.log('Handling next');
+                    acknowledgeWebViewMessage();
                     handleNext(currentPage, setCurrentPage, pageOffsets, setCurrentTable, webviewRef, isScrollMode);
                 } else if (message.type === 'HANDLE_PREVIOUS') {
-                    console.log('Handling previous');
+                    acknowledgeWebViewMessage();
                     handlePrevious(currentPage, setCurrentPage, pageOffsets, setCurrentTable, webviewRef, isScrollMode);
                 } else {
                     handleMessage(
@@ -323,11 +599,16 @@ useEffect(() => {
         >
             
         </WebView>
-
+        {!isScrollMode && (
+            <GestureDetector gesture={nativeContentGesture}>
+                <View collapsable={false} style={styles.nativeTapLayer} />
+            </GestureDetector>
+        )}
         <ExplanationPopup
             visible={popupVisible}
             popupData={popupData}
             onClose={() => {
+                ignoreNativeTapUntil.current = Date.now() + 450;
                 setPopupVisible(false);
                 setImagePopupVisible(false); // Just in case
             }}
@@ -336,6 +617,7 @@ useEffect(() => {
             visible={imagePopupVisible}
             imageUri={imageUri}
             onClose={() => {
+                ignoreNativeTapUntil.current = Date.now() + 450;
                 setImagePopupVisible(false);
                 setPopupVisible(false); // Just in case
               }}
@@ -361,5 +643,12 @@ useEffect(() => {
 
     );
 };
+
+const styles = StyleSheet.create({
+    nativeTapLayer: {
+        ...StyleSheet.absoluteFillObject,
+        backgroundColor: 'transparent',
+    },
+});
 
 

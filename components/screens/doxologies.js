@@ -4,7 +4,7 @@
  * @format
  */
 
-import React, { useRef, useState, useContext } from "react";
+import React, { useRef, useState } from "react";
 import RightMenuDrawer from "../navigation/BookDrawer";
 import { doxologiesHtml } from "../../data/doxologies";
 import { useDynamicStyles } from "../css/cssStyles";
@@ -22,6 +22,7 @@ const Doxologies = ({ route }) => {
   const [settings] = React.useContext(SettingsContext);
 
   const dynamicStyles = useDynamicStyles(webviewRef);
+  const drawerTitle = route.params?.drawerLabel || "Doxologies";
   const body = doxologiesHtml(settings, source);
   const script = htmlRenderScript;
   const html = getHtml(dynamicStyles, body, script);
@@ -35,6 +36,7 @@ const Doxologies = ({ route }) => {
       setDrawerItems={setDrawerItems}
       setCurrentTable={setCurrentTable}
       html={html}
+      drawerTitle={drawerTitle}
     />
   );
 };

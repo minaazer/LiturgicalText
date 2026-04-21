@@ -12,7 +12,7 @@ import offertoryData from "../../../data/jsons/liturgy/offertory.json";
 import resolveJsonData from "../../functions/resolveJsonData";
 import { getJson } from "../../functions/jsonCache";
 
-const OffertoryScreen = () => {
+const OffertoryScreen = ({ route }) => {
   const [drawerItems, setDrawerItems] = useState([]);
   const [currentTable, setCurrentTable] = useState("");
   const [offertoryJson, setOffertoryJson] = useState(offertoryData);
@@ -61,6 +61,7 @@ const OffertoryScreen = () => {
       setDrawerItems={setDrawerItems}
       setCurrentTable={setCurrentTable}
       html={html}
+      drawerTitle={route?.params?.drawerLabel || pageTitle}
     />
   );
 };

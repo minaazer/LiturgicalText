@@ -1,85 +1,94 @@
-/** @format */
-
 import React from "react";
-import { View, Text, StyleSheet, ImageBackground, useWindowDimensions } from "react-native";
-import { presentationStyles } from "../../css/presentationStyles";
+import {
+  ImageBackground,
+  ScrollView,
+  StyleSheet,
+  Text,
+  View,
+} from "react-native";
 import backgroundImage from "../../../assets/background.png";
 import { BibleChapterPicker } from "../../reusableComponents/pickers";
+import { settingsPalette } from "../../reusableComponents/settingsUI";
 
 const BibleScreen = ({ navigation }) => {
-  const { width, height } = useWindowDimensions();
-  const isPortrait = height >= width;
-  const isCompactPortrait = isPortrait && width < 450;
-
   return (
-    <View>
-      <ImageBackground
-        source={backgroundImage}
-        style={presentationStyles.backgroundImage}
-        resizeMode="repeat"
+    <ImageBackground
+      source={backgroundImage}
+      style={styles.backgroundImage}
+      resizeMode="repeat"
+    >
+      <ScrollView
+        style={styles.screen}
+        contentContainerStyle={styles.content}
+        showsVerticalScrollIndicator={false}
       >
-        <View
-          style={
-            isCompactPortrait
-              ? presentationStyles.headerLinksStacked
-              : presentationStyles.headerLinksRow
-          }
-        >
-          <View
-            style={[
-              presentationStyles.sideHeaderContainer,
-              {
-                flex: isCompactPortrait ? 0 : 1,
-                width: isCompactPortrait ? "100%" : undefined,
-              },
-            ]}
-          >
-            {isCompactPortrait ? (
-              <Text style={presentationStyles.pageHeader}>The Holy Bible</Text>
-            ) : (
-              <>
-                <Text style={presentationStyles.pageHeader}>The Holy</Text>
-                <Text style={presentationStyles.pageHeader}>Bible</Text>
-              </>
-            )}
-          </View>
-          <View
-            style={[
-              presentationStyles.sideContentContainer,
-              {
-                flex: isCompactPortrait ? 1 : 3,
-                justifyContent: isCompactPortrait ? "flex-start" : "center",
-              },
-            ]}
-          >
-          <View style={[styles.container, {alignItems: "center"}]}>
-            <Text
-              style={[presentationStyles.languageTitle, { alignSelf: "center" }]}
-            >
-              Select a Bible version, book, and chapter
-            </Text>
-            <BibleChapterPicker
-              navigation={navigation}
-              defaultVersion="lxx2012"
-              defaultBook="Genesis"
-              defaultChapter={1}
-            />
-          </View>
-          </View>
+        <View style={styles.header}>
+          <Text style={styles.eyebrow}>Coptic Orthodox Church</Text>
+          <Text style={styles.title}>The Holy Bible</Text>
+          <Text style={styles.subtitle}>
+            Select translations, choose a book, and open the chapter.
+          </Text>
         </View>
-      </ImageBackground>
-    </View>
+
+        <View style={styles.pickerPanel}>
+          <BibleChapterPicker
+            navigation={navigation}
+            defaultVersion="lxx2012"
+            defaultBook="Genesis"
+            defaultChapter={1}
+          />
+        </View>
+      </ScrollView>
+    </ImageBackground>
   );
 };
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 3,
-    padding: 16,
+  backgroundImage: {
+    flex: 1,
+  },
+  screen: {
+    flex: 1,
+    backgroundColor: "transparent",
+  },
+  content: {
     width: "100%",
-    justifyContent: "flex-start",
-    alignItems: "flex-start",
-    alignContent: "flex-start",
+    maxWidth: 760,
+    alignSelf: "center",
+    padding: 16,
+    paddingBottom: 30,
+    gap: 14,
+  },
+  header: {
+    paddingHorizontal: 2,
+  },
+  eyebrow: {
+    color: settingsPalette.primary,
+    fontSize: 13,
+    fontWeight: "800",
+    textTransform: "uppercase",
+  },
+  title: {
+    marginTop: 4,
+    color: settingsPalette.primary,
+    fontFamily: "Garamond Bold",
+    fontSize: 42,
+    fontWeight: "800",
+  },
+  subtitle: {
+    marginTop: 4,
+    color: settingsPalette.muted,
+    fontSize: 16,
+    fontWeight: "700",
+    lineHeight: 23,
+  },
+  pickerPanel: {
+    width: "100%",
+    padding: 12,
+    borderRadius: 8,
+    backgroundColor: "rgba(255, 255, 255, 0.88)",
+    borderWidth: 1,
+    borderColor: "rgba(214, 227, 239, 0.86)",
   },
 });
 

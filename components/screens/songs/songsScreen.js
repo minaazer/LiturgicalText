@@ -48,6 +48,7 @@ const SongsScreen = ({ route }) => {
   });
 
   const body = renderSongs(filteredSongs, theme, onePageSettings);
+  const drawerTitle = route.params?.drawerLabel || theme || route.name;
 
   // Generate HTML dynamically
   const script = htmlRenderScript;
@@ -62,6 +63,7 @@ const SongsScreen = ({ route }) => {
       setDrawerItems={setDrawerItems}
       setCurrentTable={setCurrentTable}
       html={html}
+      drawerTitle={drawerTitle}
     />
   );
 };

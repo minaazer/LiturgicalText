@@ -17,6 +17,7 @@ import { buildFontTypefaceCss } from "../../css/fontTypeface";
 
 const HolyWeekHourScreen = ({ route }) => {
   const { serviceName, hourName } = route.params; // Assume these are passed via navigation
+  const drawerTitle = route.params?.drawerLabel || hourName || serviceName;
   const [drawerItems, setDrawerItems] = useState([]);
   const [currentTable, setCurrentTable] = useState("");
   const [holyWeekJson, setHolyWeekJson] = useState(holyWeekData);
@@ -75,6 +76,7 @@ const HolyWeekHourScreen = ({ route }) => {
         setDrawerItems={setDrawerItems}
         setCurrentTable={setCurrentTable}
         html="<div>Loading...</div>"
+        drawerTitle={drawerTitle}
       />
     );
   }
@@ -89,6 +91,7 @@ const HolyWeekHourScreen = ({ route }) => {
         setDrawerItems={setDrawerItems}
         setCurrentTable={setCurrentTable}
         html="<div style='color:white;padding:20px;'>Loading...</div>"
+        drawerTitle={drawerTitle}
       />
     );
   }
@@ -126,6 +129,7 @@ const HolyWeekHourScreen = ({ route }) => {
       setDrawerItems={setDrawerItems}
       setCurrentTable={setCurrentTable}
       html={html}
+      drawerTitle={drawerTitle}
     />
   );
 };

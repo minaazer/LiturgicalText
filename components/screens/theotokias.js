@@ -10,7 +10,7 @@ import { loadIconVariables, iconVariablesFallback } from "../../data/iconVariabl
 import SettingsContext from "../../settings/settingsContext";
 import theotokiasIndex from "../../data/theotokias";
 
-const TheotokiasIndexScreen = () => {
+const TheotokiasIndexScreen = ({ route }) => {
   const [drawerItems, setDrawerItems] = useState([]);
   const [currentTable, setCurrentTable] = useState("");
   const [settings] = useContext(SettingsContext);
@@ -46,6 +46,7 @@ const TheotokiasIndexScreen = () => {
       setDrawerItems={setDrawerItems}
       setCurrentTable={setCurrentTable}
       html={html}
+      drawerTitle={route?.params?.drawerLabel || pageTitle}
     />
   );
 };

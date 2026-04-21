@@ -8,7 +8,6 @@ import seasonalRepeatedPrayersData from "../../data/jsons/repeatedPrayers/season
 import seasonalPraisesData from "../../data/jsons/psalmody/seasonalPraises.json";
 import repeatedAgpeyaPrayersData from "../../data/jsons/repeatedPrayers/repeatedAgpeyaPrayers.json";
 import { getJsonSync } from "./jsonCache";
-import { loadIconVariables, iconVariablesFallback } from "../../data/iconVariables";
 /**
  * @typedef {Record<string, string | number | boolean | null | undefined>} TemplateVars
  */
@@ -139,15 +138,6 @@ const escapeHtmlAttribute = (value) =>
     .replace(/'/g, "&#39;")
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;");
-
-let iconVars = iconVariablesFallback;
-loadIconVariables()
-  .then((vars) => {
-    iconVars = vars;
-  })
-  .catch(() => {
-    iconVars = iconVariablesFallback;
-  });
 
 /**
  * @param {{ label: string; checked?: boolean; value?: string }[]} onePageSettings
@@ -425,7 +415,7 @@ export function renderHtmlTable(
   ].filter(Boolean);
   const captionTitlesHtml = captionTitleParts
     .map((part, index) =>
-      index < captionTitleParts.length - 1
+      !isHeaderTable && index < captionTitleParts.length - 1
         ? `${part}<span class="caption-separator" aria-hidden="true">|</span>`
         : part
     )

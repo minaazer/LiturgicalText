@@ -29,9 +29,6 @@ export const handleMessage = (
     const message = JSON.parse(event.nativeEvent.data);
     const isScrollMode = displayMode === "scroll";
 
-    if (message.type === 'READY') {
-      console.log('WebView is ready.');
-    }
     // Acknowledge message receipt
     webviewRef.current.injectJavaScript(
       `window.postMessage(JSON.stringify({ type: 'ACKNOWLEDGED', originalType: '${message.type}' }));`
@@ -43,13 +40,20 @@ export const handleMessage = (
     };
 
     const scrollToYOffset = (yOffset, nextVisibleElementId) => {
+      const scrollScript = `
+        window.scrollTo(0, ${yOffset});
+        if (typeof scheduleNativeTapTargetSync === "function") {
+          scheduleNativeTapTargetSync();
+        }
+        true;
+      `;
       if (isScrollMode) {
-        injectScript(`window.scrollTo(0, ${yOffset});`);
+        injectScript(scrollScript);
         return;
       }
       injectScript(`clearOverlays();`);
       injectScript(`adjustOverlay('${nextVisibleElementId}');`);
-      injectScript(`window.scrollTo(0, ${yOffset});`);
+      injectScript(scrollScript);
     };
 
     const showOverlay = () => {
@@ -113,8 +117,6 @@ export const handleMessage = (
             } else {
               console.error("Explanation not found for title:", hymnTitle)
             }
-
-            setPopupVisible(true);
         } catch (error) {
             console.error("Failed to handle POPUP message:", error, message.data);
         }
@@ -139,8 +141,6 @@ export const handleMessage = (
             } else {
               console.error("Explanation not found for title:", hymnTitle)
             }
-
-            setPopupVisible(true);
         } catch (error) {
             console.error("Failed to handle POPUP message:", error, message.data);
         }
@@ -174,18 +174,14 @@ export const handleMessage = (
         setLoading(message.data);
       },
       NAVIGATION: () => {
-        console.log('Message data:', message);
         const parsedData = typeof message.data === 'string' ? JSON.parse(message.data) : message.data;
-        console.log('Parsed data:', parsedData);
         if (parsedData.destination) {
-          console.log ('Parsed data destination:', parsedData.serviceName, parsedData.hourName);
             // Correctly navigate to the destination and pass `source` as a parameter
-            navigation.navigate(parsedData.destination , {
-              source: parsedData.source,
-              drawerContextRouteName: currentRouteName,
-            });
+          navigation.navigate(parsedData.destination , {
+            source: parsedData.source,
+            drawerContextRouteName: currentRouteName,
+          });
         } else if ('screen' in parsedData) {
-          console.log ('Parsed data screen:', parsedData.serviceName, parsedData.hourName, parsedData.screen);
           //navigation.navigate(parsedData.screen, { serviceName: parsedData.serviceName, hourName: parsedData.hourName });
           navigation.navigate(`${parsedData.serviceName.replace(/\s+/g, "-")}-${parsedData.hourName.replace(/\s+/g, "-")}`, {
             serviceName: parsedData.serviceName,
@@ -238,7 +234,6 @@ export const handleMessage = (
         }, -1);
 
         if (pageIndex === -1) {
-          console.warn("No valid pageIndex found for TABLE_NAVIGATION.");
           return;
         }
 
@@ -271,10 +266,15 @@ export const handleMessage = (
 
         const yOffset = pageOffsets[rowIndex].yOffset;
         const nextVisibleElementId = pageOffsets[rowIndex].firstVisibleElementId;
-        console.log("nextVisibleElementId", nextVisibleElementId);
         injectScript(`clearOverlays();`);
         injectScript(`adjustOverlay('${nextVisibleElementId}');`);
-        injectScript(`window.scrollTo(0, ${yOffset});`);
+        injectScript(`
+          window.scrollTo(0, ${yOffset});
+          if (typeof scheduleNativeTapTargetSync === "function") {
+            scheduleNativeTapTargetSync();
+          }
+          true;
+        `);
       },
       CURRENT_PAGE_YOFFSET: () => {
         const yOffset = message.data;
@@ -340,23 +340,19 @@ export const handleNext = (
     const nextVisibleElementId =
       pageOffsets[currentPage + 1].firstVisibleElementId;
 
-    webviewRef.current.injectJavaScript(`showBlackScreen();`);
-    // Add a delay before executing the scroll and overlay removal
-    setTimeout(() => {
-      // Scroll to the new position
-      webviewRef.current.injectJavaScript(`clearOverlays();`);
-      webviewRef.current.injectJavaScript(
-        `adjustOverlay('${nextVisibleElementId}');`
-      );
-      webviewRef.current.injectJavaScript(`window.scrollTo(0, ${yOffset});`);
-
-      // Inject JavaScript to remove the black screen overlay after the scroll
-      webviewRef.current.injectJavaScript(`removeBlackScreen();`);
-      webviewRef.current.injectJavaScript(`
-        setTimeout(() => {
-        }, 60);
-      `);
-    }, 25); // Delay the scroll and removal of the overlay by 500 milliseconds
+    webviewRef.current.injectJavaScript(`
+      showBlackScreen();
+      setTimeout(() => {
+        clearOverlays();
+        adjustOverlay(${JSON.stringify(nextVisibleElementId)});
+        window.scrollTo(0, ${yOffset});
+        if (typeof scheduleNativeTapTargetSync === "function") {
+          scheduleNativeTapTargetSync();
+        }
+        removeBlackScreen();
+      }, 25);
+      true;
+    `);
   }
 };
 
@@ -375,27 +371,27 @@ export const handlePrevious = (
     setCurrentPage((prevPage) => prevPage - 1);
 
     // Safely set the previous table if available
-    if (pageOffsets[currentPage - 2]) {
-      setCurrentTable(pageOffsets[currentPage - 2].tableId);
+    if (pageOffsets[currentPage - 1]) {
+      setCurrentTable(pageOffsets[currentPage - 1].tableId);
     }
 
     const yOffset = pageOffsets[currentPage - 1].yOffset;
     const nextVisibleElementId =
     pageOffsets[currentPage - 1].firstVisibleElementId;
 
-    // Inject JavaScript to display a black screen overlay
-    webviewRef.current.injectJavaScript(`showBlackScreen();`);
-
-    // Add a delay before executing the scroll and overlay removal
-    setTimeout(() => {
-      // Scroll to the previous position
-      webviewRef.current.injectJavaScript(`clearOverlays();`);
-      webviewRef.current.injectJavaScript(`adjustOverlay('${nextVisibleElementId}');`);
-      webviewRef.current.injectJavaScript(`window.scrollTo(0, ${yOffset});`);
-
-      // Inject JavaScript to remove the black screen overlay after the scroll
-      webviewRef.current.injectJavaScript(`removeBlackScreen();`);
-    }, 25); // Delay the scroll and removal of the overlay by 500 milliseconds
+    webviewRef.current.injectJavaScript(`
+      showBlackScreen();
+      setTimeout(() => {
+        clearOverlays();
+        adjustOverlay(${JSON.stringify(nextVisibleElementId)});
+        window.scrollTo(0, ${yOffset});
+        if (typeof scheduleNativeTapTargetSync === "function") {
+          scheduleNativeTapTargetSync();
+        }
+        removeBlackScreen();
+      }, 25);
+      true;
+    `);
   }
 };
 
@@ -419,6 +415,9 @@ export const handleDrawerItemPress = (tableId, webviewRef, row) => {
 
           if (window._scrollMode) {
             window.scrollTo(0, tableYOffset);
+            if (typeof scheduleNativeTapTargetSync === "function") {
+              scheduleNativeTapTargetSync();
+            }
           }
           sendMessage(JSON.stringify({ type: 'TABLE_NAVIGATION', data: { yOffset: tableYOffset, tableId: '${tableId}' } }));
       `;
