@@ -1,4 +1,4 @@
-import React, { useCallback } from "react";
+import React, { useCallback, useEffect, useMemo } from "react";
 import {
   baseRepeatedVarOptions,
   cellFieldOptions,
@@ -29,6 +29,8 @@ const BaseTableEditor = ({
   setFormData,
   isCategoryFile,
   baseCategoryIndex,
+  activeTableIndex,
+  setActiveTableIndex,
   canUndo,
   canRedo,
   onUndo,
@@ -328,6 +330,29 @@ const BaseTableEditor = ({
     []
   );
   if (!Array.isArray(tables)) return null;
+  const safeActiveTableIndex = tables.length
+    ? Math.min(Math.max(activeTableIndex || 0, 0), tables.length - 1)
+    : 0;
+  const visibleTables = useMemo(() => {
+    if (!tables.length) return [];
+    return [{ table: tables[safeActiveTableIndex], index: safeActiveTableIndex }];
+  }, [safeActiveTableIndex, tables]);
+  const activeLabel =
+    tables[safeActiveTableIndex]?.english_title ||
+    tables[safeActiveTableIndex]?.repeated_prayer_title ||
+    tables[safeActiveTableIndex]?.repeated_prayer_placement ||
+    tables[safeActiveTableIndex]?.title ||
+    tables[safeActiveTableIndex]?.link ||
+    (tables.length ? `Table ${safeActiveTableIndex + 1}` : "No table selected");
+
+  useEffect(() => {
+    if (!tables.length || typeof window === "undefined") return undefined;
+    const timeoutId = window.setTimeout(() => {
+      scrollTableIntoView(safeActiveTableIndex);
+    }, 0);
+    return () => window.clearTimeout(timeoutId);
+  }, [safeActiveTableIndex, scrollTableIntoView, tables.length]);
+
   return (
     <div className="hw-tables">
       <div className={`hw-tables-header ${baseTablesMenuOpen ? "mobile-open" : ""}`}>
@@ -338,6 +363,27 @@ const BaseTableEditor = ({
           </button>
         </div>
         <div className="hw-table-header-actions">
+          <button
+            type="button"
+            className="secondary"
+            onClick={() => setActiveTableIndex?.(Math.max(0, safeActiveTableIndex - 1))}
+            disabled={safeActiveTableIndex <= 0}
+            title="Previous table"
+          >
+            Prev
+          </button>
+          <span className="muted">
+            {tables.length ? `${safeActiveTableIndex + 1} of ${tables.length}: ${activeLabel}` : "No tables"}
+          </span>
+          <button
+            type="button"
+            className="secondary"
+            onClick={() => setActiveTableIndex?.(Math.min(tables.length - 1, safeActiveTableIndex + 1))}
+            disabled={!tables.length || safeActiveTableIndex >= tables.length - 1}
+            title="Next table"
+          >
+            Next
+          </button>
           <button type="button" className="secondary" onClick={onUndo} disabled={!canUndo} title="Undo">
             ⟲
           </button>
@@ -360,7 +406,7 @@ const BaseTableEditor = ({
                 type="button"
                 className="secondary"
                 onClick={() => {
-                  scrollTableIntoView(idx);
+                  setActiveTableIndex?.(idx);
                   setBaseTablesMenuOpen(false);
                 }}
               >
@@ -371,7 +417,7 @@ const BaseTableEditor = ({
         </div>
       </div>
       <div className="hw-table-list">
-        {tables.map((tbl, idx) => {
+        {visibleTables.map(({ table: tbl, index: idx }) => {
           const label =
             tbl?.english_title ||
             tbl?.repeated_prayer_title ||

@@ -283,6 +283,7 @@ const App = () => {
   const [hwTablesMenuOpen, setHwTablesMenuOpen] = useState(false);
   const [baseTablesMenuOpen, setBaseTablesMenuOpen] = useState(false);
   const [baseCategoryIndex, setBaseCategoryIndex] = useState(0);
+  const [baseTableIndex, setBaseTableIndex] = useState(0);
   const [baseArrayDrafts, setBaseArrayDrafts] = useState({});
   const [hwOptionalSelect, setHwOptionalSelect] = useState({});
   const [baseOptionalSelect, setBaseOptionalSelect] = useState({});
@@ -612,6 +613,7 @@ const App = () => {
         setHwHourIndex(0);
         setHwSectionIndex(0);
         setBaseCategoryIndex(0);
+        setBaseTableIndex(0);
         setBaseTablesMenuOpen(false);
         setStatus("");
         if (restoredDraft) {
@@ -1053,19 +1055,20 @@ const App = () => {
     }
   };
 
+  const needsDiffData = isDirty || showDiff || selectedChange !== null;
   const normalizedOriginal = useMemo(
-    () => (originalData == null ? null : JSON.parse(stableStringify(originalData))),
-    [originalData]
+    () => (needsDiffData && originalData != null ? JSON.parse(stableStringify(originalData)) : null),
+    [needsDiffData, originalData]
   );
   const normalizedForm = useMemo(
-    () => (formData == null ? null : JSON.parse(stableStringify(formData))),
-    [formData]
+    () => (needsDiffData && formData != null ? JSON.parse(stableStringify(formData)) : null),
+    [needsDiffData, formData]
   );
 
-  const diffOld = useMemo(() => stableStringify(normalizedOriginal), [normalizedOriginal]);
-  const diffNew = useMemo(() => stableStringify(normalizedForm), [normalizedForm]);
+  const diffOld = useMemo(() => (normalizedOriginal == null ? "" : stableStringify(normalizedOriginal)), [normalizedOriginal]);
+  const diffNew = useMemo(() => (normalizedForm == null ? "" : stableStringify(normalizedForm)), [normalizedForm]);
   const changeLocations = useMemo(() => {
-    if (!isDirty || diffOld === diffNew) return [];
+    if (!isDirty || normalizedOriginal == null || normalizedForm == null || diffOld === diffNew) return [];
     const paths = collectChangedPaths(normalizedOriginal, normalizedForm);
     const seen = new Set();
     const formatPath = (segments) =>
@@ -1647,12 +1650,24 @@ const App = () => {
   }, [formData, isCategoryFile, baseCategoryIndex]);
 
   useEffect(() => {
+    if (isCategoryFile) {
+      const categories = Array.isArray(formData) ? formData : [];
+      const category = categories[baseCategoryIndex] || {};
+      const tableCount = Array.isArray(category.tables) ? category.tables.length : 0;
+      if (baseTableIndex >= tableCount) setBaseTableIndex(0);
+      return;
+    }
+    if (!isBaseTableFile || !Array.isArray(formData)) return;
+    if (baseTableIndex >= formData.length) setBaseTableIndex(0);
+  }, [formData, isCategoryFile, isBaseTableFile, baseCategoryIndex, baseTableIndex]);
+
+  useEffect(() => {
     setBaseTablesMenuOpen(false);
   }, [isCategoryFile, isBaseTableFile, baseCategoryIndex, selectedFile, formData]);
 
   useEffect(() => {
     tableRefs.current = [];
-  }, [hwServiceIndex, hwHourIndex, hwSectionIndex, baseCategoryIndex, selectedFile]);
+  }, [hwServiceIndex, hwHourIndex, hwSectionIndex, baseCategoryIndex, baseTableIndex, selectedFile]);
 
   useEffect(() => {
     const root = document.documentElement;
@@ -2499,12 +2514,14 @@ const App = () => {
                     baseTablesMenuOpen={baseTablesMenuOpen}
                     setBaseTablesMenuOpen={setBaseTablesMenuOpen}
                     setIsDirty={setIsDirty}
-                    setFormData={applyFormData}
-                    isCategoryFile
-                    baseCategoryIndex={baseCategoryIndex}
-                    canUndo={canUndo}
-                    canRedo={canRedo}
-                    onUndo={undo}
+                  setFormData={applyFormData}
+                  isCategoryFile
+                  baseCategoryIndex={baseCategoryIndex}
+                  activeTableIndex={baseTableIndex}
+                  setActiveTableIndex={setBaseTableIndex}
+                  canUndo={canUndo}
+                  canRedo={canRedo}
+                  onUndo={undo}
                     onRedo={redo}
                   />
                 </div>
@@ -2526,6 +2543,8 @@ const App = () => {
                   setFormData={applyFormData}
                   isCategoryFile={false}
                   baseCategoryIndex={0}
+                  activeTableIndex={baseTableIndex}
+                  setActiveTableIndex={setBaseTableIndex}
                   canUndo={canUndo}
                   canRedo={canRedo}
                   onUndo={undo}
