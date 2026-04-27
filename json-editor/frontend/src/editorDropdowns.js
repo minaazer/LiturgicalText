@@ -1,5 +1,13 @@
 // Cell value key dropdown (CellsEditor)
-export const CELL_FIELD_OPTIONS = ["english", "arabic", "coptic", "englishLink", "arabicLink"];
+export const CELL_FIELD_OPTIONS = [
+  "english",
+  "arabic",
+  "coptic",
+  "enPhonics1",
+  "enPhonicsSongs",
+  "englishLink",
+  "arabicLink",
+];
 
 // Row class dropdown (RowEditor)
 export const ROW_CLASS_OPTIONS = [
