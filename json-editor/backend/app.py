@@ -689,6 +689,131 @@ def find_latest_pending_change(table, path, username):
     return None
 
 
+def build_change_detail(item):
+    result = enrich_change_request(item)
+    pending_key = item.get("pendingKey")
+    base_key = item.get("baseKey")
+    path = item.get("path")
+
+    pending_data = None
+    pending_error = None
+    pending_size = None
+    if pending_key:
+        try:
+            pending_snapshot = read_json(SNAPSHOT_BUCKET, pending_key)
+            pending_data = pending_snapshot.get("data")
+            pending_size = len(json.dumps(pending_snapshot).encode("utf-8"))
+        except Exception as err:  # pragma: no cover - safety net for s3 read failures
+            pending_error = str(err)
+
+    base_data = None
+    base_error = None
+    base_size = None
+    if base_key:
+        try:
+            base_snapshot = read_json(SNAPSHOT_BUCKET, base_key)
+            base_data = base_snapshot.get("data")
+            base_size = len(json.dumps(base_snapshot).encode("utf-8"))
+        except Exception as err:  # pragma: no cover - safety net for s3 read failures
+            base_error = str(err)
+
+    current_data = None
+    current_error = None
+    current_size = None
+    if path:
+        try:
+            current_data = read_json(JSON_BUCKET, path)
+            current_size = len(json.dumps(current_data).encode("utf-8"))
+        except Exception as err:  # pragma: no cover - safety net for s3 read failures
+            current_error = str(err)
+
+    def truncate_value(val, max_len=500):
+        if isinstance(val, str) and len(val) > max_len:
+            return val[: max_len - 3] + "..."
+        return val
+
+    diff = []
+    diff_limit = 500
+    sentinel = object()
+
+    def path_to_str(parts):
+        out = []
+        for p in parts:
+            if isinstance(p, int):
+                out.append(f"[{p}]")
+            else:
+                if out:
+                    out.append(".")
+                out.append(str(p))
+        return "".join(out) or "<root>"
+
+    def walk(a, b, path_parts):
+        if len(diff) >= diff_limit:
+            return
+        if a is sentinel:
+            diff.append({"path": path_to_str(path_parts), "before": None, "after": truncate_value(b)})
+            return
+        if b is sentinel:
+            diff.append({"path": path_to_str(path_parts), "before": truncate_value(a), "after": None})
+            return
+        if isinstance(a, dict) and isinstance(b, dict):
+            keys = set(a.keys()) | set(b.keys())
+            for k in keys:
+                walk(a.get(k, sentinel), b.get(k, sentinel), path_parts + [k])
+        elif isinstance(a, list) and isinstance(b, list):
+            max_len = max(len(a), len(b))
+            for i in range(max_len):
+                av = a[i] if i < len(a) else sentinel
+                bv = b[i] if i < len(b) else sentinel
+                walk(av, bv, path_parts + [i])
+        else:
+            if a != b:
+                diff.append(
+                    {
+                        "path": path_to_str(path_parts),
+                        "before": truncate_value(a),
+                        "after": truncate_value(b),
+                    }
+                )
+
+    diff_base = None
+    if base_key and base_error is None:
+        diff_base = base_data
+    else:
+        diff_base = current_data
+
+    if pending_data is not None and diff_base is not None:
+        walk(diff_base, pending_data, [])
+    elif pending_data is not None and diff_base is None:
+        walk(sentinel, pending_data, [])
+    elif pending_data is None and diff_base is not None:
+        walk(diff_base, sentinel, [])
+
+    result["pendingData"] = None
+    result["currentData"] = None
+    result["baseData"] = None
+    result["pendingSize"] = pending_size
+    result["currentSize"] = current_size
+    result["baseSize"] = base_size
+    result["diff"] = diff
+    result["diffTruncated"] = len(diff) >= diff_limit
+
+    if pending_key:
+        result["pendingUrl"] = presign_download(SNAPSHOT_BUCKET, pending_key)
+    if base_key:
+        result["baseUrl"] = presign_download(SNAPSHOT_BUCKET, base_key)
+    if path:
+        result["currentUrl"] = presign_download(JSON_BUCKET, path)
+    if pending_error:
+        result["pendingError"] = pending_error
+    if base_error:
+        result["baseError"] = base_error
+    if current_error:
+        result["currentError"] = current_error
+
+    return result
+
+
 def parse_diff_path(path):
     if not path or path in {"<root>", "root"}:
         return []
@@ -992,6 +1117,24 @@ def handle_submit_change(event):
                 base_data = None
                 base_source = "unknown"
 
+    superseded_change_id = None
+    if previous_item and previous_item.get("id"):
+        superseded_change_id = previous_item.get("id")
+        table.update_item(
+            Key={"id": superseded_change_id},
+            UpdateExpression=(
+                "SET #status = :status, supersededAt = :superseded_at, "
+                "supersededBy = :superseded_by, supersededByName = :superseded_by_name"
+            ),
+            ExpressionAttributeNames={"#status": "status"},
+            ExpressionAttributeValues={
+                ":status": "superseded",
+                ":superseded_at": created_at,
+                ":superseded_by": user.get("username"),
+                ":superseded_by_name": requester_name,
+            },
+        )
+
     pending_key = f"pending/{change_id}.json"
     write_json(SNAPSHOT_BUCKET, pending_key, {"path": path, "data": data})
     base_key = f"baseline/{change_id}.json"
@@ -1010,10 +1153,19 @@ def handle_submit_change(event):
             "pendingKey": pending_key,
             "baseKey": base_key,
             "baseSource": base_source,
+            "supersedes": superseded_change_id,
         }
     )
 
     record_audit(path, "submitted", user.get("username"), change_id, {"summary": summary})
+    if superseded_change_id:
+        record_audit(
+            path,
+            "superseded",
+            user.get("username"),
+            superseded_change_id,
+            {"replacedBy": change_id},
+        )
 
     admin_recipients = [addr.strip() for addr in NOTIFY_ADMINS.split(",") if addr.strip()]
     if admin_recipients:
@@ -1061,129 +1213,27 @@ def handle_get_change(event, change_id):
     if not item:
         return response(404, {"message": "Change not found"})
 
-    result = enrich_change_request(item)
-    pending_key = item.get("pendingKey")
-    base_key = item.get("baseKey")
-    path = item.get("path")
-
-    pending_data = None
-    pending_error = None
-    pending_size = None
-    if pending_key:
-        try:
-            pending_snapshot = read_json(SNAPSHOT_BUCKET, pending_key)
-            pending_data = pending_snapshot.get("data")
-            pending_size = len(json.dumps(pending_snapshot).encode("utf-8"))
-        except Exception as err:  # pragma: no cover - safety net for s3 read failures
-            pending_error = str(err)
-
-    base_data = None
-    base_error = None
-    base_size = None
-    if base_key:
-        try:
-            base_snapshot = read_json(SNAPSHOT_BUCKET, base_key)
-            base_data = base_snapshot.get("data")
-            base_size = len(json.dumps(base_snapshot).encode("utf-8"))
-        except Exception as err:  # pragma: no cover - safety net for s3 read failures
-            base_error = str(err)
-
-    current_data = None
-    current_error = None
-    current_size = None
-    if path:
-        try:
-            current_data = read_json(JSON_BUCKET, path)
-            current_size = len(json.dumps(current_data).encode("utf-8"))
-        except Exception as err:  # pragma: no cover - safety net for s3 read failures
-            current_error = str(err)
-
-    def truncate_value(val, max_len=500):
-        if isinstance(val, str) and len(val) > max_len:
-            return val[: max_len - 3] + "..."
-        return val
-
-    diff = []
-    diff_limit = 500
-    sentinel = object()
-
-    def path_to_str(parts):
-        out = []
-        for p in parts:
-            if isinstance(p, int):
-                out.append(f"[{p}]")
-            else:
-                if out:
-                    out.append(".")
-                out.append(str(p))
-        return "".join(out) or "<root>"
-
-    def walk(a, b, path):
-        if len(diff) >= diff_limit:
-            return
-        if a is sentinel:
-            diff.append({"path": path_to_str(path), "before": None, "after": truncate_value(b)})
-            return
-        if b is sentinel:
-            diff.append({"path": path_to_str(path), "before": truncate_value(a), "after": None})
-            return
-        if isinstance(a, dict) and isinstance(b, dict):
-            keys = set(a.keys()) | set(b.keys())
-            for k in keys:
-                walk(a.get(k, sentinel), b.get(k, sentinel), path + [k])
-        elif isinstance(a, list) and isinstance(b, list):
-            max_len = max(len(a), len(b))
-            for i in range(max_len):
-                av = a[i] if i < len(a) else sentinel
-                bv = b[i] if i < len(b) else sentinel
-                walk(av, bv, path + [i])
-        else:
-            if a != b:
-                diff.append(
-                    {
-                        "path": path_to_str(path),
-                        "before": truncate_value(a),
-                        "after": truncate_value(b),
-                    }
-                )
-
-    diff_base = None
-    if base_key and base_error is None:
-        diff_base = base_data
-    else:
-        diff_base = current_data
-
-    if pending_data is not None and diff_base is not None:
-        walk(diff_base, pending_data, [])
-    elif pending_data is not None and diff_base is None:
-        walk(sentinel, pending_data, [])
-    elif pending_data is None and diff_base is not None:
-        walk(diff_base, sentinel, [])
-
-    # Do not embed full data to avoid >6MB Lambda response limit; expose sizes, presigned URLs, and a summarized diff.
-    result["pendingData"] = None
-    result["currentData"] = None
-    result["baseData"] = None
-    result["pendingSize"] = pending_size
-    result["currentSize"] = current_size
-    result["baseSize"] = base_size
-    result["diff"] = diff
-    result["diffTruncated"] = len(diff) >= diff_limit
-
-    if pending_key:
-        result["pendingUrl"] = presign_download(SNAPSHOT_BUCKET, pending_key)
-    if base_key:
-        result["baseUrl"] = presign_download(SNAPSHOT_BUCKET, base_key)
-    if path:
-        result["currentUrl"] = presign_download(JSON_BUCKET, path)
-    if pending_error:
-        result["pendingError"] = pending_error
-    if base_error:
-        result["baseError"] = base_error
-    if current_error:
-        result["currentError"] = current_error
-
+    result = build_change_detail(item)
     return response(200, {"change": result, "dataEmbedded": False})
+
+
+def handle_get_my_pending_change(event):
+    params = event.get("queryStringParameters") or {}
+    path = normalize_identifier(params.get("path"))
+    if not path:
+        return response(400, {"message": "Missing path"})
+
+    user = get_user(event)
+    username = user.get("username")
+    if not username:
+        return response(401, {"message": "Unauthorized"})
+
+    table = ddb.Table(CHANGE_TABLE)
+    item = find_latest_pending_change(table, path, username)
+    if not item:
+        return response(200, {"change": None})
+
+    return response(200, {"change": build_change_detail(item), "dataEmbedded": False})
 
 
 def handle_approve_change(event, change_id):
@@ -1726,6 +1776,9 @@ def handler(event, context):
 
         if route_key == "POST /changes":
             return handle_submit_change(event)
+
+        if route_key == "GET /my-pending-change":
+            return handle_get_my_pending_change(event)
 
         if route_key.startswith("GET /changes") and raw_path != "/changes":
             change_id = raw_path.split("/")[-1]

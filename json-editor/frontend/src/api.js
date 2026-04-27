@@ -44,6 +44,9 @@ export const fetchChanges = (token, status = "pending") =>
 export const fetchChange = (token, id) =>
   apiFetch(`/changes/${encodeURIComponent(id)}`, token);
 
+export const fetchMyPendingChange = (token, path) =>
+  apiFetch(`/my-pending-change?path=${encodeURIComponent(path)}`, token);
+
 export const approveChange = (token, id, payload) =>
   apiFetch(`/changes/${encodeURIComponent(id)}/approve`, token, {
     method: "POST",

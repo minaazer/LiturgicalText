@@ -257,6 +257,12 @@ Resources:
             ApiId: !Ref HttpApi
             Path: /changes
             Method: GET
+        GetMyPendingChange:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref HttpApi
+            Path: /my-pending-change
+            Method: GET
         ApproveChange:
           Type: HttpApi
           Properties:

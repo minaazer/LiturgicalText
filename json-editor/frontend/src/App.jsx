@@ -9,6 +9,7 @@ import {
   fetchChanges,
   fetchFile,
   fetchFiles,
+  fetchMyPendingChange,
   fetchPasswordPolicy,
   fetchPublishableChanges,
   fetchSchema,
@@ -272,6 +273,7 @@ const App = () => {
   const [approvalReasons, setApprovalReasons] = useState({});
   const [pendingDetailStatus, setPendingDetailStatus] = useState("");
   const [approvalToast, setApprovalToast] = useState("");
+  const [pendingLoadPrompt, setPendingLoadPrompt] = useState(null);
   const [loadingChangeId, setLoadingChangeId] = useState("");
   const [publishLoading, setPublishLoading] = useState(false);
   const [publishStatus, setPublishStatus] = useState("");
@@ -340,6 +342,41 @@ const App = () => {
       return true;
     },
     []
+  );
+
+  const resetEditorSelection = useCallback(() => {
+    skipInitialChange.current = true;
+    setHistory([]);
+    setFuture([]);
+    setHwServiceIndex(0);
+    setHwHourIndex(0);
+    setHwSectionIndex(0);
+    setBaseCategoryIndex(0);
+    setBaseTableIndex(0);
+    setBaseTablesMenuOpen(false);
+  }, []);
+
+  const applyLoadedFileState = useCallback(
+    ({
+      schemaData,
+      fileData,
+      nextData,
+      nextSummary = "",
+      dirty = false,
+      draftMessage = "",
+      statusMessage = "",
+    }) => {
+      setSchema(schemaData);
+      setOriginalData(fileData);
+      applyFormData(nextData, { skipRecord: true });
+      setSummary(nextSummary);
+      setIsDirty(dirty);
+      setDraftStatus(draftMessage);
+      setStatus(statusMessage);
+      setPendingLoadPrompt(null);
+      resetEditorSelection();
+    },
+    [applyFormData, resetEditorSelection]
   );
   const groupOptions = ["viewer", "editor", "admin", "superadmin"];
 
@@ -577,8 +614,47 @@ const App = () => {
       setStatus("Loading file...");
       setDraftStatus("");
       try {
-        const [schemaData, fileData] = await Promise.all([fetchSchema(token, selectedFile), fetchFile(token, selectedFile)]);
+        const [schemaData, fileData, pendingResult] = await Promise.all([
+          fetchSchema(token, selectedFile),
+          fetchFile(token, selectedFile),
+          fetchMyPendingChange(token, selectedFile),
+        ]);
+        const pendingChange = pendingResult?.change || null;
+        let pendingData = null;
+        let pendingDataError = pendingChange?.pendingError || "";
+        if (pendingChange?.pendingUrl) {
+          const pendingSnapshot = await fetchSnapshot(pendingChange.pendingUrl);
+          pendingData = pendingSnapshot.data?.data ?? pendingSnapshot.data ?? null;
+          if (!pendingDataError && pendingSnapshot.error) {
+            pendingDataError = pendingSnapshot.error;
+          }
+        }
         const draft = loadLocalDraft(username, selectedFile);
+        if (pendingChange) {
+          const draftMatchesPending =
+            draft?.path === selectedFile &&
+            draft?.formData !== undefined &&
+            pendingData != null &&
+            stableStringify(draft.formData) === stableStringify(pendingData) &&
+            (draft.summary || "") === "";
+          if (draftMatchesPending) {
+            clearLocalDraft(username, selectedFile);
+          }
+
+          setPendingLoadPrompt({
+            selectedFile,
+            schemaData,
+            fileData,
+            pendingChange: { ...pendingChange, pendingError: pendingDataError || pendingChange?.pendingError || "" },
+            pendingData,
+            draft:
+              draft?.path === selectedFile && draft?.formData !== undefined && !draftMatchesPending ? draft : null,
+            showChanges: false,
+          });
+          setStatus("");
+          return;
+        }
+
         let nextData = fileData;
         let nextSummary = "";
         let restoredDraft = false;
@@ -601,30 +677,72 @@ const App = () => {
             clearLocalDraft(username, selectedFile);
           }
         }
-        setSchema(schemaData);
-        setOriginalData(fileData);
-        applyFormData(nextData, { skipRecord: true });
-        setHistory([]);
-        setFuture([]);
-        setSummary(nextSummary);
-        setIsDirty(restoredDraft);
-        skipInitialChange.current = true;
-        setHwServiceIndex(0);
-        setHwHourIndex(0);
-        setHwSectionIndex(0);
-        setBaseCategoryIndex(0);
-        setBaseTableIndex(0);
-        setBaseTablesMenuOpen(false);
-        setStatus("");
-        if (restoredDraft) {
-          setDraftStatus(`Restored local draft saved ${draft?.savedAt ? new Date(draft.savedAt).toLocaleString() : "recently"}.`);
-        }
+        applyLoadedFileState({
+          schemaData,
+          fileData,
+          nextData,
+          nextSummary,
+          dirty: restoredDraft,
+          draftMessage: restoredDraft
+            ? `Restored local draft saved ${draft?.savedAt ? new Date(draft.savedAt).toLocaleString() : "recently"}.`
+            : "",
+        });
       } catch (err) {
         setStatus(err.message || "Failed to load file");
       }
     };
     loadFile();
-  }, [token, selectedFile, username, applyFormData]);
+  }, [token, selectedFile, username, applyLoadedFileState, fetchSnapshot]);
+
+  const handlePendingPromptContinue = useCallback(() => {
+    if (!pendingLoadPrompt) return;
+    applyLoadedFileState({
+      schemaData: pendingLoadPrompt.schemaData,
+      fileData: pendingLoadPrompt.fileData,
+      nextData: pendingLoadPrompt.pendingData ?? pendingLoadPrompt.fileData,
+      nextSummary: "",
+      dirty: false,
+      draftMessage: pendingLoadPrompt.pendingChange?.createdAt
+        ? `Loaded your submitted pending change from ${new Date(pendingLoadPrompt.pendingChange.createdAt).toLocaleString()}.`
+        : "Loaded your submitted pending change.",
+      statusMessage:
+        pendingLoadPrompt.pendingData == null
+          ? "Pending change details could not be fully restored, so the published version was loaded."
+          : "",
+    });
+  }, [applyLoadedFileState, pendingLoadPrompt]);
+
+  const handlePendingPromptRestoreDraft = useCallback(() => {
+    if (!pendingLoadPrompt?.draft) return;
+    applyLoadedFileState({
+      schemaData: pendingLoadPrompt.schemaData,
+      fileData: pendingLoadPrompt.fileData,
+      nextData: pendingLoadPrompt.draft.formData,
+      nextSummary: pendingLoadPrompt.draft.summary || "",
+      dirty: true,
+      draftMessage: `Restored local draft saved ${
+        pendingLoadPrompt.draft.savedAt ? new Date(pendingLoadPrompt.draft.savedAt).toLocaleString() : "recently"
+      }.`,
+    });
+  }, [applyLoadedFileState, pendingLoadPrompt]);
+
+  const handlePendingPromptStartFresh = useCallback(() => {
+    if (!pendingLoadPrompt) return;
+    clearLocalDraft(username, pendingLoadPrompt.selectedFile);
+    applyLoadedFileState({
+      schemaData: pendingLoadPrompt.schemaData,
+      fileData: pendingLoadPrompt.fileData,
+      nextData: pendingLoadPrompt.fileData,
+      nextSummary: "",
+      dirty: false,
+      draftMessage:
+        "Started from the current published version. Your already submitted pending change remains untouched until admin review.",
+    });
+  }, [applyLoadedFileState, pendingLoadPrompt, username]);
+
+  const togglePendingPromptDiff = useCallback(() => {
+    setPendingLoadPrompt((prev) => (prev ? { ...prev, showChanges: !prev.showChanges } : prev));
+  }, []);
 
   useEffect(() => {
     if (draftSaveTimeoutRef.current) {
@@ -1047,7 +1165,7 @@ const App = () => {
       showApprovalToast("Changes submitted.");
       setSummary("");
       clearLocalDraft(username, selectedFile);
-      setDraftStatus("");
+      setDraftStatus("Submitted changes are saved as a pending review and can be resumed from this file later.");
       setIsDirty(false);
       loadPending();
     } catch (err) {
@@ -1822,6 +1940,93 @@ const App = () => {
                 OK
               </button>
             </div>
+          </div>
+        </div>
+      )}
+      {pendingLoadPrompt && (
+        <div className="alert-overlay" role="alertdialog" aria-modal="true">
+          <div className="alert-card pending-load-card">
+            <h3>Pending change found</h3>
+            <p>
+              You already have a submitted pending change for <strong>{pendingLoadPrompt.selectedFile}</strong>.
+            </p>
+            <p className="muted">
+              Continuing will reopen that submitted version for more editing. Starting fresh will load the current
+              published file and will not overwrite the already submitted pending change.
+            </p>
+            <div className="pending-load-meta">
+              <span className="muted">
+                Submitted{" "}
+                {pendingLoadPrompt.pendingChange?.createdAt
+                  ? new Date(pendingLoadPrompt.pendingChange.createdAt).toLocaleString()
+                  : "recently"}
+              </span>
+              {pendingLoadPrompt.pendingChange?.summary ? (
+                <span className="muted">Summary: {pendingLoadPrompt.pendingChange.summary}</span>
+              ) : null}
+            </div>
+            {pendingLoadPrompt.pendingChange?.pendingError ? (
+              <p className="error">Could not fully load the pending snapshot: {pendingLoadPrompt.pendingChange.pendingError}</p>
+            ) : null}
+            <div className="alert-actions pending-load-actions">
+              <button type="button" className="secondary" onClick={togglePendingPromptDiff}>
+                {pendingLoadPrompt.showChanges ? "Hide submitted changes" : "Show submitted changes"}
+              </button>
+              {pendingLoadPrompt.draft ? (
+                <button type="button" className="secondary" onClick={handlePendingPromptRestoreDraft}>
+                  Restore local draft
+                </button>
+              ) : null}
+              <button
+                type="button"
+                className="secondary"
+                onClick={handlePendingPromptStartFresh}
+                title="Loads the published version and leaves the submitted pending change alone."
+              >
+                Start fresh from published
+              </button>
+              <button
+                type="button"
+                onClick={handlePendingPromptContinue}
+                disabled={pendingLoadPrompt.pendingData == null && !!pendingLoadPrompt.pendingChange?.pendingError}
+              >
+                Continue pending change
+              </button>
+            </div>
+            {pendingLoadPrompt.draft ? (
+              <p className="muted">
+                A separate local draft was also found. Restoring it brings back unsaved browser edits on top of this
+                workflow.
+              </p>
+            ) : null}
+            {pendingLoadPrompt.showChanges && (
+              <div className="pending-load-diff">
+                {(pendingLoadPrompt.pendingChange?.diff || []).length === 0 ? (
+                  <p className="muted">No summarized diff is available for this pending change.</p>
+                ) : (
+                  <>
+                    {(pendingLoadPrompt.pendingChange?.diff || []).slice(0, 20).map((entry, idx) => (
+                      <div key={`${entry.path}-${idx}`} className="pending-load-diff-item">
+                        <div className="diff-summary-pill">{entry.path || "root"}</div>
+                        <div className="diff-summary-row">
+                          <div className="diff-summary-cell before">
+                            <span className="diff-sign">-</span>
+                            <InlineDiffText beforeValue={entry.before} afterValue={entry.after} side="before" />
+                          </div>
+                          <div className="diff-summary-cell after">
+                            <span className="diff-sign">+</span>
+                            <InlineDiffText beforeValue={entry.before} afterValue={entry.after} side="after" />
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                    {pendingLoadPrompt.pendingChange?.diffTruncated ? (
+                      <p className="muted">Showing the first 20 summarized changes from this pending submission.</p>
+                    ) : null}
+                  </>
+                )}
+              </div>
+            )}
           </div>
         </div>
       )}

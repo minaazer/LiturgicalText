@@ -1347,6 +1347,34 @@ h1, h2, h3 {
   justify-content: flex-end;
 }
 
+.pending-load-card {
+  width: min(840px, 94vw);
+}
+
+.pending-load-meta {
+  display: grid;
+  gap: 4px;
+}
+
+.pending-load-actions {
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pending-load-diff {
+  max-height: 50vh;
+  overflow: auto;
+  display: grid;
+  gap: 10px;
+  padding-right: 4px;
+}
+
+.pending-load-diff-item {
+  display: grid;
+  gap: 8px;
+}
+
 .diff-summary-toolbar {
   display: flex;
   flex-direction: column;
