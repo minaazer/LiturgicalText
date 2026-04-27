@@ -344,40 +344,6 @@ const App = () => {
     []
   );
 
-  const resetEditorSelection = useCallback(() => {
-    skipInitialChange.current = true;
-    setHistory([]);
-    setFuture([]);
-    setHwServiceIndex(0);
-    setHwHourIndex(0);
-    setHwSectionIndex(0);
-    setBaseCategoryIndex(0);
-    setBaseTableIndex(0);
-    setBaseTablesMenuOpen(false);
-  }, []);
-
-  const applyLoadedFileState = useCallback(
-    ({
-      schemaData,
-      fileData,
-      nextData,
-      nextSummary = "",
-      dirty = false,
-      draftMessage = "",
-      statusMessage = "",
-    }) => {
-      setSchema(schemaData);
-      setOriginalData(fileData);
-      applyFormData(nextData, { skipRecord: true });
-      setSummary(nextSummary);
-      setIsDirty(dirty);
-      setDraftStatus(draftMessage);
-      setStatus(statusMessage);
-      setPendingLoadPrompt(null);
-      resetEditorSelection();
-    },
-    [applyFormData, resetEditorSelection]
-  );
   const groupOptions = ["viewer", "editor", "admin", "superadmin"];
 
   const loadSession = useCallback(async () => {
@@ -416,6 +382,41 @@ const App = () => {
       });
     },
     []
+  );
+
+  const resetEditorSelection = useCallback(() => {
+    skipInitialChange.current = true;
+    setHistory([]);
+    setFuture([]);
+    setHwServiceIndex(0);
+    setHwHourIndex(0);
+    setHwSectionIndex(0);
+    setBaseCategoryIndex(0);
+    setBaseTableIndex(0);
+    setBaseTablesMenuOpen(false);
+  }, []);
+
+  const applyLoadedFileState = useCallback(
+    ({
+      schemaData,
+      fileData,
+      nextData,
+      nextSummary = "",
+      dirty = false,
+      draftMessage = "",
+      statusMessage = "",
+    }) => {
+      setSchema(schemaData);
+      setOriginalData(fileData);
+      applyFormData(nextData, { skipRecord: true });
+      setSummary(nextSummary);
+      setIsDirty(dirty);
+      setDraftStatus(draftMessage);
+      setStatus(statusMessage);
+      setPendingLoadPrompt(null);
+      resetEditorSelection();
+    },
+    [applyFormData, resetEditorSelection]
   );
 
   const undo = useCallback(() => {
